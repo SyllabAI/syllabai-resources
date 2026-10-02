@@ -1,7 +1,7 @@
 {
   "schema": "syllabai.notes-spec-point-join/1.0",
-  "task": "T-C32 (K2-A Lane A build, igcse-maths-a)",
-  "generated_utc": "2026-10-01T04:27:08+00:00",
+  "task": "T-C42 R2: T-C32 (K2-A Lane A) join re-run over the C42-R1-amended resolution (igcse-maths-a)",
+  "generated_utc": "2026-10-02T11:08:17+00:00",
   "generator": "scripts/c32_notes_maths_a_join.py",
   "lane": "A (T-C10-pattern note-level mapping) of the C28 §6-K2 sequence",
   "inputs": {
@@ -11,7 +11,7 @@
     },
     "resolution": {
       "path": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
-      "sha256_16": "3a0b5dc48a65fb54"
+      "sha256_16": "05a57b056874e8dd"
     },
     "spec_points_store": {
       "path": "graph/igcse-maths-a/specification_points.yaml",
@@ -22,32 +22,57 @@
       "sha256_16": "7f9322a8a05d3767"
     }
   },
-  "validation_tier": "INHERITED: AI_VALIDATED (operator-delegated chain; T-SPEC-7/8/9/10 operator-verdict rounds 2026-09-19, PMT excluded as source) on the resolution substrate; JOIN: deterministic id lookup, machine-gated by c32_k2a_check.py; NO HUMAN_VALIDATED claim is made by this artifact — an operator spot-check round can upgrade the tier on record via a dated addendum",
+  "validation_tier": "INHERITED: AI_VALIDATED (operator-delegated chain; T-SPEC-7/8/9/10 operator-verdict rounds 2026-09-19, PMT excluded as source; C42 R1 operator verdict round 2026-10-02 — 45 id-level repairs, the C32 residual KEPT UNRESOLVED, 2 anchors cleared; see C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json) on the resolution substrate; JOIN: deterministic id lookup, machine-gated by the C42 R2 postcondition in this generator (the C40-era c32_k2a_check.py battery pins its own 2026-09 landing census and is historical); NO HUMAN_VALIDATED claim is made by this artifact — an operator spot-check round can upgrade the tier on record via a dated addendum",
   "counts": {
     "notes_pages": 191,
     "anchors_total": 203,
     "anchors_distinct": 203,
-    "joined": 202,
-    "unresolved_recorded": 1,
+    "joined": 200,
+    "unresolved_recorded": 3,
     "ids_absent_from_resolution": 0,
-    "distinct_official_codes": 111,
-    "coverage_of_188": "111/188",
+    "distinct_official_codes": 119,
+    "coverage_of_188": "119/188",
     "coverage_by_applicability_tier": {
-      "Foundation": 57,
-      "Higher": 54
+      "Foundation": 61,
+      "Higher": 58
     },
     "anchors_by_applicability_tier": {
-      "Foundation": 86,
-      "Higher": 116
+      "Foundation": 83,
+      "Higher": 117
     },
     "foreign_codes": 0,
     "wording_check_census": {
-      "EXACT": 202
+      "EXACT": 175,
+      "LEDGER_EXPLAINABLE": 25
     }
   },
   "ordering": "joins sorted by (store global_order of resolved_code, note_path, anchor_id); unresolved sorted by (note_path, anchor_id) — presentation only, no field re-derived",
   "residual_rule": "RECORDED, never fabricated: unresolved anchors carry PROPOSAL-ONLY candidates and stay unresolved until the operator adjudicates",
   "joins": [
+    {
+      "anchor_id": "spcpt_3n2jHMX7vMBh95jq",
+      "note_path": "notes/1-numbers-and-the-number-system/number-toolkit/negative-numbers.json",
+      "rn_id": "rn_MBCCCWFzdf6Ghsss",
+      "note_title": "Negative Numbers",
+      "resolved_code": "1.1C",
+      "store_row_code": "4MA1-1.1C",
+      "store_global_order": 3,
+      "official_id": "IGCSE_MATHS_A:1.1C",
+      "official_wording": "use directed numbers in practical situations",
+      "sme_name": "Negative Numbers",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 8,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
     {
       "anchor_id": "spcpt_c25SPBnps9dhX2Dk",
       "note_path": "notes/1-numbers-and-the-number-system/number-toolkit/order-of-operations-bidmas-bodmas.json",
@@ -67,7 +92,7 @@
       "referenced_by_parts": 2,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -91,7 +116,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -115,7 +140,7 @@
       "referenced_by_parts": 26,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -139,7 +164,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -163,7 +188,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -187,7 +212,7 @@
       "referenced_by_parts": 6,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -211,7 +236,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -235,7 +260,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -259,7 +284,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -283,31 +308,7 @@
       "referenced_by_parts": 27,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_gzQvnKpxPvTqzzBp",
-      "note_path": "notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-notation.json",
-      "rn_id": "rn_sgBdcX2qJKy8NtkT",
-      "note_title": "Algebraic Notation",
-      "resolved_code": "1.3A",
-      "store_row_code": "4MA1-1.3A",
-      "store_global_order": 18,
-      "official_id": "IGCSE_MATHS_A:H-1.3A",
-      "official_wording": "convert recurring decimals into fractions",
-      "sme_name": "Algebraic Notation",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 7,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -331,55 +332,7 @@
       "referenced_by_parts": 4,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_3n2jHMX7vMBh95jq",
-      "note_path": "notes/1-numbers-and-the-number-system/number-toolkit/negative-numbers.json",
-      "rn_id": "rn_MBCCCWFzdf6Ghsss",
-      "note_title": "Negative Numbers",
-      "resolved_code": "1.4A",
-      "store_row_code": "4MA1-1.4A",
-      "store_global_order": 23,
-      "official_id": "IGCSE_MATHS_A:H-1.4A",
-      "official_wording": "understand the meaning of surds",
-      "sme_name": "Negative Numbers",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 8,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_cDnTk2242hfSCjVh",
-      "note_path": "notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.json",
-      "rn_id": "rn_pcWj6rQ6B9rTjdSx",
-      "note_title": "Powers & Roots",
-      "resolved_code": "1.4A",
-      "store_row_code": "4MA1-1.4A",
-      "store_global_order": 23,
-      "official_id": "IGCSE_MATHS_A:H-1.4A",
-      "official_wording": "understand the meaning of surds",
-      "sme_name": "Powers & Roots",
-      "sme_definition": "",
-      "tier": "P2_page_context_join",
-      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 0,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -403,7 +356,7 @@
       "referenced_by_parts": 4,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -427,7 +380,31 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_cDnTk2242hfSCjVh",
+      "note_path": "notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.json",
+      "rn_id": "rn_pcWj6rQ6B9rTjdSx",
+      "note_title": "Powers & Roots",
+      "resolved_code": "1.4B",
+      "store_row_code": "4MA1-1.4B",
+      "store_global_order": 24,
+      "official_id": "IGCSE_MATHS_A:1.4B",
+      "official_wording": "calculate squares, square roots, cubes and cube roots",
+      "sme_name": "Powers & Roots",
+      "sme_definition": "",
+      "tier": "P2_page_context_join",
+      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 0,
+      "wording_check": "LEDGER_EXPLAINABLE",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -451,7 +428,7 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -475,7 +452,7 @@
       "referenced_by_parts": 28,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -499,7 +476,7 @@
       "referenced_by_parts": 68,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -523,7 +500,7 @@
       "referenced_by_parts": 23,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -547,7 +524,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -571,7 +548,7 @@
       "referenced_by_parts": 16,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -595,7 +572,7 @@
       "referenced_by_parts": 35,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -619,31 +596,7 @@
       "referenced_by_parts": 98,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_8Wtthy9gt8B5xsVW",
-      "note_path": "notes/1-numbers-and-the-number-system/number-toolkit/mathematical-operations.json",
-      "rn_id": "rn_cJS4DFPDKB6Yp8Rb",
-      "note_title": "Mathematical Symbols",
-      "resolved_code": "1.5C",
-      "store_row_code": "4MA1-1.5C",
-      "store_global_order": 30,
-      "official_id": "IGCSE_MATHS_A:H-1.5C",
-      "official_wording": "use the notationn(A)for the number of elements in the setA",
-      "sme_name": "Mathematical Symbols",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 1,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -667,7 +620,7 @@
       "referenced_by_parts": 64,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -691,31 +644,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_Rv3DcsGBkxSkb8Ms",
-      "note_path": "notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/probability-and-venn-diagrams.json",
-      "rn_id": "rn_D7XYgjDM6NsWV4kz",
-      "note_title": "Probabilities from Venn Diagrams",
-      "resolved_code": "1.5E",
-      "store_row_code": "4MA1-1.5E",
-      "store_global_order": 32,
-      "official_id": "IGCSE_MATHS_A:1.5E",
-      "official_wording": "use Venn diagrams to represent sets",
-      "sme_name": "Probability & Venn Diagrams",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 41,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -739,7 +668,7 @@
       "referenced_by_parts": 42,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -763,7 +692,7 @@
       "referenced_by_parts": 46,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -787,7 +716,7 @@
       "referenced_by_parts": 13,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -811,7 +740,7 @@
       "referenced_by_parts": 36,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -835,7 +764,31 @@
       "referenced_by_parts": 2,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_qpSmD6yNY5t5GrW6",
+      "note_path": "notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json",
+      "rn_id": "rn_6DbmwDPWPxzTkRqW",
+      "note_title": "Introduction to Ratios",
+      "resolved_code": "1.7A",
+      "store_row_code": "4MA1-1.7A",
+      "store_global_order": 40,
+      "official_id": "IGCSE_MATHS_A:1.7A",
+      "official_wording": "use ratio notation, including reduction to its simplest form and its various links to fraction notation",
+      "sme_name": "Ratios",
+      "sme_definition": "",
+      "tier": "S1_name_match",
+      "method": "name_to_statement_join",
+      "score": 0.696,
+      "unit": null,
+      "referenced_by_parts": 78,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -859,7 +812,7 @@
       "referenced_by_parts": 22,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -883,31 +836,7 @@
       "referenced_by_parts": 17,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_qpSmD6yNY5t5GrW6",
-      "note_path": "notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json",
-      "rn_id": "rn_6DbmwDPWPxzTkRqW",
-      "note_title": "Introduction to Ratios",
-      "resolved_code": "1.7B",
-      "store_row_code": "4MA1-1.7B",
-      "store_global_order": 41,
-      "official_id": "IGCSE_MATHS_A:1.7B",
-      "official_wording": "divide a quantity in a given ratio or ratios",
-      "sme_name": "Ratios",
-      "sme_definition": "",
-      "tier": "S1_name_match",
-      "method": "name_to_statement_join",
-      "score": 0.696,
-      "unit": null,
-      "referenced_by_parts": 78,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -931,7 +860,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -955,7 +884,7 @@
       "referenced_by_parts": 27,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -979,7 +908,31 @@
       "referenced_by_parts": 71,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_M5rhN2mwnR2yddc6",
+      "note_path": "notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/bounds.json",
+      "rn_id": "rn_KS3t3dzgYXmgf3Vx",
+      "note_title": "Upper & Lower Bounds",
+      "resolved_code": "1.8A",
+      "store_row_code": "4MA1-1.8A",
+      "store_global_order": 45,
+      "official_id": "IGCSE_MATHS_A:H-1.8A",
+      "official_wording": "solve problems using upper and lower bounds where values are given to a degree of accuracy",
+      "sme_name": "Calculations using Bounds",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 32,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1003,7 +956,7 @@
       "referenced_by_parts": 42,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1027,7 +980,7 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1051,7 +1004,7 @@
       "referenced_by_parts": 3,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1075,7 +1028,7 @@
       "referenced_by_parts": 32,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1099,7 +1052,7 @@
       "referenced_by_parts": 41,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1123,31 +1076,7 @@
       "referenced_by_parts": 19,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_M5rhN2mwnR2yddc6",
-      "note_path": "notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/bounds.json",
-      "rn_id": "rn_KS3t3dzgYXmgf3Vx",
-      "note_title": "Upper & Lower Bounds",
-      "resolved_code": "1.10B",
-      "store_row_code": "4MA1-1.10B",
-      "store_global_order": 51,
-      "official_id": "IGCSE_MATHS_A:1.10B",
-      "official_wording": "carry out calculations using standard units of mass, length, area, volume and capacity",
-      "sme_name": "Calculations using Bounds",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 32,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1171,7 +1100,31 @@
       "referenced_by_parts": 10,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_XC6PSG6CcXnNDb3Q",
+      "note_path": "notes/1-numbers-and-the-number-system/exchange-rates-and-best-buys/exchange-rates.json",
+      "rn_id": "rn_KkCTMQdPyk4dKg9D",
+      "note_title": "Exchange Rates",
+      "resolved_code": "1.10C",
+      "store_row_code": "4MA1-1.10C",
+      "store_global_order": 52,
+      "official_id": "IGCSE_MATHS_A:1.10C",
+      "official_wording": "understand and carry out calculations using time, and carry out calculations using money, including converting between currencies",
+      "sme_name": "Exchange Rates",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 24,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1195,7 +1148,55 @@
       "referenced_by_parts": 9,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_xf7Y5cxcQG3T6g65",
+      "note_path": "notes/1-numbers-and-the-number-system/using-a-calculator/using-a-calculator.json",
+      "rn_id": "rn_jgXZgzjW37c26gKZ",
+      "note_title": "Using a Calculator",
+      "resolved_code": "1.11A",
+      "store_row_code": "4MA1-1.11A",
+      "store_global_order": 53,
+      "official_id": "IGCSE_MATHS_A:1.11A",
+      "official_wording": "use a scientific electronic calculator to determine numerical results",
+      "sme_name": "Using a Calculator",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 39,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_gzQvnKpxPvTqzzBp",
+      "note_path": "notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-notation.json",
+      "rn_id": "rn_sgBdcX2qJKy8NtkT",
+      "note_title": "Algebraic Notation",
+      "resolved_code": "2.1A",
+      "store_row_code": "4MA1-2.1A",
+      "store_global_order": 54,
+      "official_id": "IGCSE_MATHS_A:2.1A",
+      "official_wording": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
+      "sme_name": "Algebraic Notation",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 7,
+      "wording_check": "LEDGER_EXPLAINABLE",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1208,8 +1209,8 @@
       "resolved_code": "2.1A",
       "store_row_code": "4MA1-2.1A",
       "store_global_order": 54,
-      "official_id": "IGCSE_MATHS_A:H-2.1A",
-      "official_wording": "use index notation involving fractional, negative and zero powers",
+      "official_id": "IGCSE_MATHS_A:2.1A",
+      "official_wording": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
       "sme_name": "Algebraic Vocabulary",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -1217,9 +1218,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 2,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1232,8 +1233,8 @@
       "resolved_code": "2.2A",
       "store_row_code": "4MA1-2.2A",
       "store_global_order": 58,
-      "official_id": "IGCSE_MATHS_A:H-2.2A",
-      "official_wording": "expand the product of two or more linear expressions",
+      "official_id": "IGCSE_MATHS_A:2.2A",
+      "official_wording": "evaluate expressions by substituting numerical values for letters",
       "sme_name": "Substitution",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -1241,9 +1242,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 43,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1257,7 +1258,7 @@
       "store_row_code": "4MA1-2.2B",
       "store_global_order": 59,
       "official_id": "IGCSE_MATHS_A:2.2B",
-      "official_wording": "understand the concept of a quadratic expression and be able to factorise such expressions",
+      "official_wording": "collect like terms",
       "sme_name": "Collecting Like Terms",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -1265,9 +1266,9 @@
       "score": 0.7692,
       "unit": null,
       "referenced_by_parts": 12,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1291,7 +1292,7 @@
       "referenced_by_parts": 13,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1315,7 +1316,7 @@
       "referenced_by_parts": 12,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1339,7 +1340,7 @@
       "referenced_by_parts": 30,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1363,7 +1364,7 @@
       "referenced_by_parts": 10,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1387,7 +1388,7 @@
       "referenced_by_parts": 16,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1411,7 +1412,7 @@
       "referenced_by_parts": 51,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1435,7 +1436,7 @@
       "referenced_by_parts": 30,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1459,7 +1460,7 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1483,7 +1484,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1496,8 +1497,8 @@
       "resolved_code": "2.2E",
       "store_row_code": "4MA1-2.2E",
       "store_global_order": 62,
-      "official_id": "IGCSE_MATHS_A:H-2.2E",
-      "official_wording": "use algebra to support and construct proofs",
+      "official_id": "IGCSE_MATHS_A:2.2E",
+      "official_wording": "expand the product of two simple linear expressions",
       "sme_name": "Expanding Two Brackets",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -1505,9 +1506,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 31,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1531,7 +1532,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1555,7 +1556,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1579,7 +1580,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1603,7 +1604,7 @@
       "referenced_by_parts": 15,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1627,7 +1628,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1637,11 +1638,11 @@
       "note_path": "notes/2-equations-formulae-and-identities/rearranging-formulae/formulas-where-subject-appears-twice.json",
       "rn_id": "rn_TCg6FpJwm8c86rhW",
       "note_title": "Formulas where Subject Appears Twice",
-      "resolved_code": "2.3F",
-      "store_row_code": "4MA1-2.3F",
-      "store_global_order": 69,
-      "official_id": "IGCSE_MATHS_A:2.3F",
-      "official_wording": "change the subject of a formula where the subject appears once",
+      "resolved_code": "2.3A",
+      "store_row_code": "4MA1-2.3A",
+      "store_global_order": 64,
+      "official_id": "IGCSE_MATHS_A:H-2.3A",
+      "official_wording": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
       "sme_name": "Subject Appears Twice",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -1651,7 +1652,7 @@
       "referenced_by_parts": 16,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1675,7 +1676,7 @@
       "referenced_by_parts": 41,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1699,7 +1700,7 @@
       "referenced_by_parts": 55,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1723,7 +1724,7 @@
       "referenced_by_parts": 58,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1747,7 +1748,7 @@
       "referenced_by_parts": 69,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1771,7 +1772,7 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1795,7 +1796,7 @@
       "referenced_by_parts": 26,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1819,7 +1820,7 @@
       "referenced_by_parts": 37,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1843,7 +1844,31 @@
       "referenced_by_parts": 73,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_7YTSNFdbGCTSMHJX",
+      "note_path": "notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-equation-methods.json",
+      "rn_id": "rn_3ngqQgfy6nndYvyZ",
+      "note_title": "Deciding the Quadratic Method",
+      "resolved_code": "2.7B",
+      "store_row_code": "4MA1-2.7B",
+      "store_global_order": 76,
+      "official_id": "IGCSE_MATHS_A:H-2.7B",
+      "official_wording": "solve quadratic equations by using the quadratic formula or completing the square",
+      "sme_name": "Quadratic Equation Methods",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 11,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1867,7 +1892,7 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1891,7 +1916,7 @@
       "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1915,7 +1940,7 @@
       "referenced_by_parts": 64,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1939,31 +1964,7 @@
       "referenced_by_parts": 23,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_7YTSNFdbGCTSMHJX",
-      "note_path": "notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-equation-methods.json",
-      "rn_id": "rn_3ngqQgfy6nndYvyZ",
-      "note_title": "Deciding the Quadratic Method",
-      "resolved_code": "2.7D",
-      "store_row_code": "4MA1-2.7D",
-      "store_global_order": 78,
-      "official_id": "IGCSE_MATHS_A:H-2.7D",
-      "official_wording": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
-      "sme_name": "Quadratic Equation Methods",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 11,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -1987,7 +1988,7 @@
       "referenced_by_parts": 21,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2011,7 +2012,7 @@
       "referenced_by_parts": 61,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2035,7 +2036,7 @@
       "referenced_by_parts": 32,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2059,7 +2060,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2083,7 +2084,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2096,8 +2097,8 @@
       "resolved_code": "3.1A",
       "store_row_code": "4MA1-3.1A",
       "store_global_order": 84,
-      "official_id": "IGCSE_MATHS_A:H-3.1A",
-      "official_wording": "understand and use common difference (d)and first term(a)in an arithmetic sequence",
+      "official_id": "IGCSE_MATHS_A:3.1A",
+      "official_wording": "generate terms of a sequence using term-to-term and position-to-term definitions of the sequence",
       "sme_name": "Introduction to Sequences",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -2105,9 +2106,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 21,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2131,7 +2132,7 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2155,7 +2156,7 @@
       "referenced_by_parts": 18,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2179,7 +2180,7 @@
       "referenced_by_parts": 29,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2203,7 +2204,55 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_TZkZ5ZK4bRYdjnGY",
+      "note_path": "notes/3-sequences-functions-and-graphs/functions/inverse-functions.json",
+      "rn_id": "rn_NkYrY2NgnrdJh3R2",
+      "note_title": "Inverse Functions",
+      "resolved_code": "3.2D",
+      "store_row_code": "4MA1-3.2D",
+      "store_global_order": 90,
+      "official_id": "IGCSE_MATHS_A:H-3.2D",
+      "official_wording": "understand and find the composite -1 functionfgand the inverse functionf",
+      "sme_name": "Inverse Functions",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 37,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_6bYjJ8kxTNBbcSjX",
+      "note_path": "notes/3-sequences-functions-and-graphs/graphs-of-functions/trig-graphs.json",
+      "rn_id": "rn_RCsQKQbDr65dSwZP",
+      "note_title": "Trigonometric Graphs",
+      "resolved_code": "3.3A",
+      "store_row_code": "4MA1-3.3A",
+      "store_global_order": 91,
+      "official_id": "IGCSE_MATHS_A:H-3.3A",
+      "official_wording": "recognise, plot and draw graphs with equation: 3 2 y = Ax + Bx + Cx + D in which: (i) the constants are integers and some could be zero (ii) the lettersxandycan be replaced with any other two letters or: 3 2 E F y = Ax + Bx + Cx + D + + x x in which: (i) the constants are numerical and at least three of them are zero (ii) the lettersxandycan be replaced with any other two letters or: y = sin x, y = cos x, y = tan x for angles of any size (in degrees)",
+      "sme_name": "Drawing Trig Graphs",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 18,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2217,7 +2266,7 @@
       "store_row_code": "4MA1-3.3B",
       "store_global_order": 92,
       "official_id": "IGCSE_MATHS_A:3.3B",
-      "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+      "official_wording": "understand and use conventions for rectangular Cartesian coordinates",
       "sme_name": "2D Coordinates",
       "sme_definition": "",
       "tier": "S2_name_ambiguous",
@@ -2225,9 +2274,9 @@
       "score": 0.7268,
       "unit": null,
       "referenced_by_parts": 7,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2251,7 +2300,7 @@
       "referenced_by_parts": 22,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2275,7 +2324,7 @@
       "referenced_by_parts": 13,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2299,7 +2348,7 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2313,7 +2362,7 @@
       "store_row_code": "4MA1-3.3E",
       "store_global_order": 95,
       "official_id": "IGCSE_MATHS_A:3.3E",
-      "official_wording": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+      "official_wording": "determine the coordinates of the midpoint of a line segment, given the coordinates of the two end points",
       "sme_name": "Midpoint of a Line",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -2321,33 +2370,9 @@
       "score": 0.719,
       "unit": null,
       "referenced_by_parts": 23,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_6bYjJ8kxTNBbcSjX",
-      "note_path": "notes/3-sequences-functions-and-graphs/graphs-of-functions/trig-graphs.json",
-      "rn_id": "rn_RCsQKQbDr65dSwZP",
-      "note_title": "Trigonometric Graphs",
-      "resolved_code": "3.3F",
-      "store_row_code": "4MA1-3.3F",
-      "store_global_order": 96,
-      "official_id": "IGCSE_MATHS_A:H-3.3F",
-      "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
-      "sme_name": "Drawing Trig Graphs",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 18,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2371,7 +2396,7 @@
       "referenced_by_parts": 26,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2385,7 +2410,7 @@
       "store_row_code": "4MA1-3.3F",
       "store_global_order": 96,
       "official_id": "IGCSE_MATHS_A:3.3F",
-      "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
+      "official_wording": "draw and interpret straight line conversion graphs",
       "sme_name": "Conversion Graphs",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -2393,33 +2418,9 @@
       "score": 0.803,
       "unit": null,
       "referenced_by_parts": 16,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_MTZDMgNSvV3FdVVR",
-      "note_path": "notes/3-sequences-functions-and-graphs/real-life-graphs/distance-time-graphs.json",
-      "rn_id": "rn_sRfSMKGB4rZkZKXH",
-      "note_title": "Distance-Time Graphs",
-      "resolved_code": "3.3F",
-      "store_row_code": "4MA1-3.3F",
-      "store_global_order": 96,
-      "official_id": "IGCSE_MATHS_A:H-3.3F",
-      "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
-      "sme_name": "Distance-Time Graphs",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 25,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2433,7 +2434,7 @@
       "store_row_code": "4MA1-3.3G",
       "store_global_order": 97,
       "official_id": "IGCSE_MATHS_A:3.3G",
-      "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+      "official_wording": "find the gradient of a straight line",
       "sme_name": "Gradient of a Line",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -2441,33 +2442,33 @@
       "score": 0.8667,
       "unit": null,
       "referenced_by_parts": 50,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
     },
     {
-      "anchor_id": "spcpt_hMqjBRzQQfvsc9f8",
-      "note_path": "notes/3-sequences-functions-and-graphs/coordinate-geometry/length-of-a-line.json",
-      "rn_id": "rn_Ch6VZ5DfrxWDpK9X",
-      "note_title": "Length of a Line",
+      "anchor_id": "spcpt_qPRh2fycSMYwytcV",
+      "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/parallel-lines.json",
+      "rn_id": "rn_MGjCwtvvntZ658xx",
+      "note_title": "Parallel Lines",
       "resolved_code": "3.3G",
       "store_row_code": "4MA1-3.3G",
       "store_global_order": 97,
       "official_id": "IGCSE_MATHS_A:H-3.3G",
       "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
-      "sme_name": "Length of a Line",
+      "sme_name": "Parallel Lines",
       "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
+      "tier": "S1_name_match",
+      "method": "name_to_statement_join",
+      "score": 0.7109,
       "unit": null,
-      "referenced_by_parts": 6,
+      "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2491,7 +2492,7 @@
       "referenced_by_parts": 31,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2515,7 +2516,7 @@
       "referenced_by_parts": 60,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2539,31 +2540,7 @@
       "referenced_by_parts": 40,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_TZkZ5ZK4bRYdjnGY",
-      "note_path": "notes/3-sequences-functions-and-graphs/functions/inverse-functions.json",
-      "rn_id": "rn_NkYrY2NgnrdJh3R2",
-      "note_title": "Inverse Functions",
-      "resolved_code": "3.3I",
-      "store_row_code": "4MA1-3.3I",
-      "store_global_order": 99,
-      "official_id": "IGCSE_MATHS_A:3.3I",
-      "official_wording": "recognise, generate points and plot graphs of linear and quadratic functions",
-      "sme_name": "Inverse Functions",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 37,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2587,7 +2564,7 @@
       "referenced_by_parts": 39,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2611,7 +2588,7 @@
       "referenced_by_parts": 32,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2635,31 +2612,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_XC6PSG6CcXnNDb3Q",
-      "note_path": "notes/1-numbers-and-the-number-system/exchange-rates-and-best-buys/exchange-rates.json",
-      "rn_id": "rn_KkCTMQdPyk4dKg9D",
-      "note_title": "Exchange Rates",
-      "resolved_code": "3.4C",
-      "store_row_code": "4MA1-3.4C",
-      "store_global_order": 102,
-      "official_id": "IGCSE_MATHS_A:H-3.4C",
-      "official_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
-      "sme_name": "Exchange Rates",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 24,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2683,7 +2636,7 @@
       "referenced_by_parts": 23,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2707,7 +2660,7 @@
       "referenced_by_parts": 2,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2731,7 +2684,7 @@
       "referenced_by_parts": 35,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2755,7 +2708,7 @@
       "referenced_by_parts": 42,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2779,7 +2732,7 @@
       "referenced_by_parts": 10,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2803,31 +2756,7 @@
       "referenced_by_parts": 15,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_qPRh2fycSMYwytcV",
-      "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/parallel-lines.json",
-      "rn_id": "rn_MGjCwtvvntZ658xx",
-      "note_title": "Parallel Lines",
-      "resolved_code": "4.1B",
-      "store_row_code": "4MA1-4.1B",
-      "store_global_order": 106,
-      "official_id": "IGCSE_MATHS_A:4.1B",
-      "official_wording": "use angle properties of intersecting lines, parallel lines and angles on a straight line",
-      "sme_name": "Parallel Lines",
-      "sme_definition": "",
-      "tier": "S1_name_match",
-      "method": "name_to_statement_join",
-      "score": 0.7109,
-      "unit": null,
-      "referenced_by_parts": 8,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2851,7 +2780,7 @@
       "referenced_by_parts": 21,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2875,31 +2804,7 @@
       "referenced_by_parts": 60,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_rq6jFXGjg6FVSnKc",
-      "note_path": "notes/4-geometry-and-trigonometry/circle-theorems/cyclic-quadrilaterals.json",
-      "rn_id": "rn_n4vwThNb4wbbq4sc",
-      "note_title": "Angles in Cyclic Quadrilaterals",
-      "resolved_code": "4.2B",
-      "store_row_code": "4MA1-4.2B",
-      "store_global_order": 110,
-      "official_id": "IGCSE_MATHS_A:4.2B",
-      "official_wording": "understand and use the term ‘quadrilateral’ and the angle sum property of quadrilaterals",
-      "sme_name": "Cyclic Quadrilaterals",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 15,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2923,7 +2828,7 @@
       "referenced_by_parts": 10,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2947,7 +2852,7 @@
       "referenced_by_parts": 41,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2971,7 +2876,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -2995,7 +2900,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3019,7 +2924,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3043,7 +2948,7 @@
       "referenced_by_parts": 9,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3067,7 +2972,7 @@
       "referenced_by_parts": 33,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3091,7 +2996,31 @@
       "referenced_by_parts": 33,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_MTZDMgNSvV3FdVVR",
+      "note_path": "notes/3-sequences-functions-and-graphs/real-life-graphs/distance-time-graphs.json",
+      "rn_id": "rn_sRfSMKGB4rZkZKXH",
+      "note_title": "Distance-Time Graphs",
+      "resolved_code": "4.4F",
+      "store_row_code": "4MA1-4.4F",
+      "store_global_order": 122,
+      "official_id": "IGCSE_MATHS_A:4.4F",
+      "official_wording": "understand and use the relationship between average speed, distance and time",
+      "sme_name": "Distance-Time Graphs",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 25,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3115,7 +3044,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3139,31 +3068,7 @@
       "referenced_by_parts": 2,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_xf7Y5cxcQG3T6g65",
-      "note_path": "notes/1-numbers-and-the-number-system/using-a-calculator/using-a-calculator.json",
-      "rn_id": "rn_jgXZgzjW37c26gKZ",
-      "note_title": "Using a Calculator",
-      "resolved_code": "4.5C",
-      "store_row_code": "4MA1-4.5C",
-      "store_global_order": 126,
-      "official_id": "IGCSE_MATHS_A:4.5C",
-      "official_wording": "solve problems using scale drawings",
-      "sme_name": "Using a Calculator",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 39,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3187,7 +3092,7 @@
       "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3211,7 +3116,7 @@
       "referenced_by_parts": 6,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3235,7 +3140,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3259,7 +3164,7 @@
       "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3283,31 +3188,7 @@
       "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_fMWRd3TnmcQ3c92k",
-      "note_path": "notes/4-geometry-and-trigonometry/circle-theorems/segment-theorems.json",
-      "rn_id": "rn_8JSrxdvYWPvvs6yX",
-      "note_title": "Angles in the Same Segment",
-      "resolved_code": "4.6A",
-      "store_row_code": "4MA1-4.6A",
-      "store_global_order": 128,
-      "official_id": "IGCSE_MATHS_A:H-4.6A",
-      "official_wording": "understand and use the internal and external intersecting chord properties",
-      "sme_name": "Circles & Segments",
-      "sme_definition": "",
-      "tier": "P2_page_context_join",
-      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 16,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3331,7 +3212,7 @@
       "referenced_by_parts": 4,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3344,8 +3225,8 @@
       "resolved_code": "4.6B",
       "store_row_code": "4MA1-4.6B",
       "store_global_order": 129,
-      "official_id": "IGCSE_MATHS_A:H-4.6B",
-      "official_wording": "recognise the term ‘cyclic quadrilateral’",
+      "official_id": "IGCSE_MATHS_A:4.6B",
+      "official_wording": "understand chord and tangent properties of circles",
       "sme_name": "Circles & Tangents",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -3353,9 +3234,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 22,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3379,7 +3260,7 @@
       "referenced_by_parts": 3,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3403,7 +3284,55 @@
       "referenced_by_parts": 16,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_rq6jFXGjg6FVSnKc",
+      "note_path": "notes/4-geometry-and-trigonometry/circle-theorems/cyclic-quadrilaterals.json",
+      "rn_id": "rn_n4vwThNb4wbbq4sc",
+      "note_title": "Angles in Cyclic Quadrilaterals",
+      "resolved_code": "4.6C",
+      "store_row_code": "4MA1-4.6C",
+      "store_global_order": 130,
+      "official_id": "IGCSE_MATHS_A:H-4.6C",
+      "official_wording": "understand and use angle properties of the circle including: (i) angle subtended by an arc at the centre of a circle is twice the angle subtended at any point on the remaining part of the circumference (ii) angle subtended at the circumference by a diameter is a right angle (iii) angles in the same segment are equal (iv) the sum of the opposite angles of a cyclic quadrilateral is180° (v) the alternate segment theorem",
+      "sme_name": "Cyclic Quadrilaterals",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 15,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_fMWRd3TnmcQ3c92k",
+      "note_path": "notes/4-geometry-and-trigonometry/circle-theorems/segment-theorems.json",
+      "rn_id": "rn_8JSrxdvYWPvvs6yX",
+      "note_title": "Angles in the Same Segment",
+      "resolved_code": "4.6C",
+      "store_row_code": "4MA1-4.6C",
+      "store_global_order": 130,
+      "official_id": "IGCSE_MATHS_A:H-4.6C",
+      "official_wording": "understand and use angle properties of the circle including: (i) angle subtended by an arc at the centre of a circle is twice the angle subtended at any point on the remaining part of the circumference (ii) angle subtended at the circumference by a diameter is a right angle (iii) angles in the same segment are equal (iv) the sum of the opposite angles of a cyclic quadrilateral is180° (v) the alternate segment theorem",
+      "sme_name": "Circles & Segments",
+      "sme_definition": "",
+      "tier": "P2_page_context_join",
+      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 16,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3427,7 +3356,31 @@
       "referenced_by_parts": 11,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_hMqjBRzQQfvsc9f8",
+      "note_path": "notes/3-sequences-functions-and-graphs/coordinate-geometry/length-of-a-line.json",
+      "rn_id": "rn_Ch6VZ5DfrxWDpK9X",
+      "note_title": "Length of a Line",
+      "resolved_code": "4.8A",
+      "store_row_code": "4MA1-4.8A",
+      "store_global_order": 132,
+      "official_id": "IGCSE_MATHS_A:4.8A",
+      "official_wording": "know, understand and use Pythagoras’ theorem in two dimensions",
+      "sme_name": "Length of a Line",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 6,
+      "wording_check": "LEDGER_EXPLAINABLE",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3440,8 +3393,8 @@
       "resolved_code": "4.8A",
       "store_row_code": "4MA1-4.8A",
       "store_global_order": 132,
-      "official_id": "IGCSE_MATHS_A:H-4.8A",
-      "official_wording": "understand and use sine, cosine and tangent of obtuse angles",
+      "official_id": "IGCSE_MATHS_A:4.8A",
+      "official_wording": "know, understand and use Pythagoras’ theorem in two dimensions",
       "sme_name": "Pythagoras Theorem",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -3449,9 +3402,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 56,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3475,7 +3428,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3499,7 +3452,7 @@
       "referenced_by_parts": 55,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3523,7 +3476,7 @@
       "referenced_by_parts": 21,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3547,7 +3500,7 @@
       "referenced_by_parts": 20,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3571,7 +3524,7 @@
       "referenced_by_parts": 13,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3595,7 +3548,7 @@
       "referenced_by_parts": 44,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3619,7 +3572,7 @@
       "referenced_by_parts": 56,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3643,7 +3596,7 @@
       "referenced_by_parts": 32,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3667,7 +3620,7 @@
       "referenced_by_parts": 54,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3691,7 +3644,7 @@
       "referenced_by_parts": 19,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3715,7 +3668,7 @@
       "referenced_by_parts": 17,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3739,7 +3692,7 @@
       "referenced_by_parts": 42,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3752,8 +3705,8 @@
       "resolved_code": "4.10A",
       "store_row_code": "4MA1-4.10A",
       "store_global_order": 143,
-      "official_id": "IGCSE_MATHS_A:H-4.10A",
-      "official_wording": "find the surface area and volume of a sphere and a right circular cone using relevant formulae",
+      "official_id": "IGCSE_MATHS_A:4.10A",
+      "official_wording": "recognise and give the names of solids",
       "sme_name": "Properties of 3D Shapes",
       "sme_definition": "",
       "tier": "P2_page_context_join",
@@ -3761,9 +3714,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 1,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3787,7 +3740,31 @@
       "referenced_by_parts": 24,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_pKCFj25GzzqW6sr3",
+      "note_path": "notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json",
+      "rn_id": "rn_yTCXQfMH9jBwYn7N",
+      "note_title": "Volume",
+      "resolved_code": "4.10E",
+      "store_row_code": "4MA1-4.10E",
+      "store_global_order": 147,
+      "official_id": "IGCSE_MATHS_A:4.10E",
+      "official_wording": "find the volume of prisms, including cuboids and cylinders, using an appropriate formula",
+      "sme_name": "Volume",
+      "sme_definition": "",
+      "tier": "S2_name_ambiguous",
+      "method": "name_to_statement_join",
+      "score": 0.6774,
+      "unit": null,
+      "referenced_by_parts": 65,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3811,31 +3788,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_pKCFj25GzzqW6sr3",
-      "note_path": "notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json",
-      "rn_id": "rn_yTCXQfMH9jBwYn7N",
-      "note_title": "Volume",
-      "resolved_code": "4.10F",
-      "store_row_code": "4MA1-4.10F",
-      "store_global_order": 148,
-      "official_id": "IGCSE_MATHS_A:4.10F",
-      "official_wording": "convert between units of volume within the metric system",
-      "sme_name": "Volume",
-      "sme_definition": "",
-      "tier": "S2_name_ambiguous",
-      "method": "name_to_statement_join",
-      "score": 0.6774,
-      "unit": null,
-      "referenced_by_parts": 65,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3849,7 +3802,7 @@
       "store_row_code": "4MA1-4.11A",
       "store_global_order": 149,
       "official_id": "IGCSE_MATHS_A:4.11A",
-      "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+      "official_wording": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
       "sme_name": "Similar Lengths",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -3857,9 +3810,9 @@
       "score": 0.6714,
       "unit": null,
       "referenced_by_parts": 44,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3872,8 +3825,8 @@
       "resolved_code": "4.11A",
       "store_row_code": "4MA1-4.11A",
       "store_global_order": 149,
-      "official_id": "IGCSE_MATHS_A:H-4.11A",
-      "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+      "official_id": "IGCSE_MATHS_A:4.11A",
+      "official_wording": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
       "sme_name": "Similarity",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -3881,9 +3834,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 19,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3897,7 +3850,7 @@
       "store_row_code": "4MA1-4.11B",
       "store_global_order": 150,
       "official_id": "IGCSE_MATHS_A:4.11B",
-      "official_wording": "understand that volumes of similar figures are in the ratio of the cube of corresponding sides",
+      "official_wording": "use and interpret maps and scale drawings",
       "sme_name": "Maps",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -3905,9 +3858,9 @@
       "score": 0.6711,
       "unit": null,
       "referenced_by_parts": 1,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3931,31 +3884,7 @@
       "referenced_by_parts": 5,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_3fMGfNtg3hXMg6gC",
-      "note_path": "notes/4-geometry-and-trigonometry/area-and-perimeter/problem-solving-with-areas.json",
-      "rn_id": "rn_FZ43cs6fQgvgdVwH",
-      "note_title": "Problem Solving with Areas",
-      "resolved_code": "4.11C",
-      "store_row_code": "4MA1-4.11C",
-      "store_global_order": 151,
-      "official_id": "IGCSE_MATHS_A:H-4.11C",
-      "official_wording": "use areas and volumes of similar figures in solving problems",
-      "sme_name": "Problem Solving with Areas",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 35,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -3979,7 +3908,7 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4003,7 +3932,7 @@
       "referenced_by_parts": 25,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4027,7 +3956,31 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_wt9snSTkmXqhMvXn",
+      "note_path": "notes/5-vectors-and-transformation-geometry/vectors/representing-vectors-as-diagrams.json",
+      "rn_id": "rn_tTSJmcw3dr9N6rd5",
+      "note_title": "Representing Vectors as Diagrams",
+      "resolved_code": "5.1A",
+      "store_row_code": "4MA1-5.1A",
+      "store_global_order": 152,
+      "official_id": "IGCSE_MATHS_A:H-5.1A",
+      "official_wording": "understand that a vector has both magnitude and direction",
+      "sme_name": "Vector Diagrams",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 0,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4051,7 +4004,7 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4075,7 +4028,7 @@
       "referenced_by_parts": 21,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4099,7 +4052,7 @@
       "referenced_by_parts": 39,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4123,7 +4076,7 @@
       "referenced_by_parts": 7,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4147,7 +4100,7 @@
       "referenced_by_parts": 33,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4171,7 +4124,7 @@
       "referenced_by_parts": 16,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4195,7 +4148,7 @@
       "referenced_by_parts": 5,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4219,7 +4172,7 @@
       "referenced_by_parts": 15,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4243,7 +4196,7 @@
       "referenced_by_parts": 12,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4267,7 +4220,7 @@
       "referenced_by_parts": 22,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4291,7 +4244,7 @@
       "referenced_by_parts": 15,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4315,7 +4268,7 @@
       "referenced_by_parts": 48,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4329,7 +4282,7 @@
       "store_row_code": "4MA1-6.1A",
       "store_global_order": 172,
       "official_id": "IGCSE_MATHS_A:6.1A",
-      "official_wording": "construct and interpret histograms",
+      "official_wording": "use different methods of presenting data Pictograms, bar charts",
       "sme_name": "Bar Charts & Pictograms",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -4337,9 +4290,9 @@
       "score": 0.7253,
       "unit": null,
       "referenced_by_parts": 1,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4352,8 +4305,8 @@
       "resolved_code": "6.1A",
       "store_row_code": "4MA1-6.1A",
       "store_global_order": 172,
-      "official_id": "IGCSE_MATHS_A:H-6.1A",
-      "official_wording": "construct and interpret histograms",
+      "official_id": "IGCSE_MATHS_A:6.1A",
+      "official_wording": "use different methods of presenting data Pictograms, bar charts",
       "sme_name": "Pie Charts",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -4361,9 +4314,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 3,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4387,7 +4340,7 @@
       "referenced_by_parts": 20,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4411,31 +4364,7 @@
       "referenced_by_parts": 19,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_8sCVwmD5VVBv6xWg",
-      "note_path": "notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json",
-      "rn_id": "rn_Fj7k29zj8mH2bMHs",
-      "note_title": "Interpreting Cumulative Frequency Diagrams",
-      "resolved_code": "6.1B",
-      "store_row_code": "4MA1-6.1B",
-      "store_global_order": 173,
-      "official_id": "IGCSE_MATHS_A:H-6.1B",
-      "official_wording": "construct cumulative frequency diagrams from tabulated data",
-      "sme_name": "Interpreting Cumulative Frequency Diagrams",
-      "sme_definition": "",
-      "tier": "R1_parse_repair_statement_join",
-      "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)",
-      "score": null,
-      "unit": null,
-      "referenced_by_parts": 61,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4459,55 +4388,31 @@
       "referenced_by_parts": 2,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
     },
     {
-      "anchor_id": "spcpt_wt9snSTkmXqhMvXn",
-      "note_path": "notes/5-vectors-and-transformation-geometry/vectors/representing-vectors-as-diagrams.json",
-      "rn_id": "rn_tTSJmcw3dr9N6rd5",
-      "note_title": "Representing Vectors as Diagrams",
+      "anchor_id": "spcpt_8sCVwmD5VVBv6xWg",
+      "note_path": "notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json",
+      "rn_id": "rn_Fj7k29zj8mH2bMHs",
+      "note_title": "Interpreting Cumulative Frequency Diagrams",
       "resolved_code": "6.1C",
       "store_row_code": "4MA1-6.1C",
       "store_global_order": 174,
       "official_id": "IGCSE_MATHS_A:H-6.1C",
       "official_wording": "use cumulative frequency diagrams",
-      "sme_name": "Vector Diagrams",
+      "sme_name": "Interpreting Cumulative Frequency Diagrams",
       "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-      "score": 1.0,
-      "unit": null,
-      "referenced_by_parts": 0,
-      "wording_check": "EXACT",
-      "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
-        "copied_1to1": true,
-        "fuzzy_matching_used": false
-      }
-    },
-    {
-      "anchor_id": "spcpt_hTsm2dz7xmwM4jwW",
-      "note_path": "notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json",
-      "rn_id": "rn_dbmPT7P3T3s8yQ2z",
-      "note_title": "Probability Tree Diagrams",
-      "resolved_code": "6.1C",
-      "store_row_code": "4MA1-6.1C",
-      "store_global_order": 174,
-      "official_id": "IGCSE_MATHS_A:H-6.1C",
-      "official_wording": "use cumulative frequency diagrams",
-      "sme_name": "Tree Diagrams",
-      "sme_definition": "",
-      "tier": "P1_name_fragment_join",
-      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "tier": "R1_parse_repair_statement_join",
+      "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)",
       "score": null,
       "unit": null,
-      "referenced_by_parts": 74,
+      "referenced_by_parts": 61,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4521,7 +4426,7 @@
       "store_row_code": "4MA1-6.1C",
       "store_global_order": 174,
       "official_id": "IGCSE_MATHS_A:6.1C",
-      "official_wording": "use cumulative frequency diagrams",
+      "official_wording": "interpret statistical diagrams",
       "sme_name": "Comparing Statistical Diagrams",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -4529,9 +4434,9 @@
       "score": 0.7067,
       "unit": null,
       "referenced_by_parts": 0,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4545,7 +4450,7 @@
       "store_row_code": "4MA1-6.1C",
       "store_global_order": 174,
       "official_id": "IGCSE_MATHS_A:6.1C",
-      "official_wording": "use cumulative frequency diagrams",
+      "official_wording": "interpret statistical diagrams",
       "sme_name": "Reading & Interpreting Statistical Diagrams",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -4553,9 +4458,9 @@
       "score": 0.638,
       "unit": null,
       "referenced_by_parts": 4,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4579,7 +4484,7 @@
       "referenced_by_parts": 9,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4603,7 +4508,7 @@
       "referenced_by_parts": 15,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4627,7 +4532,7 @@
       "referenced_by_parts": 13,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4641,7 +4546,7 @@
       "store_row_code": "4MA1-6.2B",
       "store_global_order": 176,
       "official_id": "IGCSE_MATHS_A:6.2B",
-      "official_wording": "understand the concept of a measure of spread",
+      "official_wording": "calculate the mean, median, mode and range for a discrete data set",
       "sme_name": "Mean, Median & Mode",
       "sme_definition": "",
       "tier": "S1_name_match",
@@ -4649,9 +4554,9 @@
       "score": 0.76,
       "unit": null,
       "referenced_by_parts": 23,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4675,7 +4580,7 @@
       "referenced_by_parts": 24,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4688,8 +4593,8 @@
       "resolved_code": "6.2C",
       "store_row_code": "4MA1-6.2C",
       "store_global_order": 177,
-      "official_id": "IGCSE_MATHS_A:H-6.2C",
-      "official_wording": "find the interquartile range from a discrete data set",
+      "official_id": "IGCSE_MATHS_A:6.2C",
+      "official_wording": "calculate an estimate for the mean for grouped data",
       "sme_name": "Averages from Grouped Data",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -4697,9 +4602,9 @@
       "score": 1.0,
       "unit": null,
       "referenced_by_parts": 0,
-      "wording_check": "EXACT",
+      "wording_check": "LEDGER_EXPLAINABLE",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4723,7 +4628,7 @@
       "referenced_by_parts": 37,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4747,7 +4652,31 @@
       "referenced_by_parts": 47,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_hTsm2dz7xmwM4jwW",
+      "note_path": "notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json",
+      "rn_id": "rn_dbmPT7P3T3s8yQ2z",
+      "note_title": "Probability Tree Diagrams",
+      "resolved_code": "6.3A",
+      "store_row_code": "4MA1-6.3A",
+      "store_global_order": 179,
+      "official_id": "IGCSE_MATHS_A:H-6.3A",
+      "official_wording": "draw and use tree diagrams",
+      "sme_name": "Tree Diagrams",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": null,
+      "unit": null,
+      "referenced_by_parts": 74,
+      "wording_check": "EXACT",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4771,7 +4700,7 @@
       "referenced_by_parts": 84,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4781,11 +4710,11 @@
       "note_path": "notes/6-statistics-and-probability/combined-and-conditional-probability/conditional-probability.json",
       "rn_id": "rn_g8pcdVhCmDfvhT9d",
       "note_title": "Conditional Probability",
-      "resolved_code": "6.3B",
-      "store_row_code": "4MA1-6.3B",
-      "store_global_order": 180,
-      "official_id": "IGCSE_MATHS_A:H-6.3B",
-      "official_wording": "determine the probability that two or more independent events will occur",
+      "resolved_code": "6.3C",
+      "store_row_code": "4MA1-6.3C",
+      "store_global_order": 181,
+      "official_id": "IGCSE_MATHS_A:H-6.3C",
+      "official_wording": "use simple conditional probability when combining events",
       "sme_name": "Conditional Probability",
       "sme_definition": "",
       "tier": "P1_name_fragment_join",
@@ -4795,7 +4724,31 @@
       "referenced_by_parts": 0,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
+        "copied_1to1": true,
+        "fuzzy_matching_used": false
+      }
+    },
+    {
+      "anchor_id": "spcpt_Rv3DcsGBkxSkb8Ms",
+      "note_path": "notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/probability-and-venn-diagrams.json",
+      "rn_id": "rn_D7XYgjDM6NsWV4kz",
+      "note_title": "Probabilities from Venn Diagrams",
+      "resolved_code": "6.3D",
+      "store_row_code": "4MA1-6.3D",
+      "store_global_order": 182,
+      "official_id": "IGCSE_MATHS_A:6.3D",
+      "official_wording": "find probabilities from a Venn diagram",
+      "sme_name": "Probability & Venn Diagrams",
+      "sme_definition": "",
+      "tier": "P1_name_fragment_join",
+      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+      "score": 1.0,
+      "unit": null,
+      "referenced_by_parts": 41,
+      "wording_check": "LEDGER_EXPLAINABLE",
+      "provenance": {
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4819,7 +4772,7 @@
       "referenced_by_parts": 8,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4843,7 +4796,7 @@
       "referenced_by_parts": 1,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4867,7 +4820,7 @@
       "referenced_by_parts": 14,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
@@ -4891,13 +4844,157 @@
       "referenced_by_parts": 24,
       "wording_check": "EXACT",
       "provenance": {
-        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@3a0b5dc48a65fb54",
+        "join_method": "deterministic id lookup; fields copied 1:1 from SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json@05a57b056874e8dd",
         "copied_1to1": true,
         "fuzzy_matching_used": false
       }
     }
   ],
   "unresolved": [
+    {
+      "anchor_id": "spcpt_8Wtthy9gt8B5xsVW",
+      "note_path": "notes/1-numbers-and-the-number-system/number-toolkit/mathematical-operations.json",
+      "rn_id": "rn_cJS4DFPDKB6Yp8Rb",
+      "note_title": "Mathematical Symbols",
+      "status": "UNRESOLVED — RECORDED, NEVER FABRICATED",
+      "reason": "EQ substrate row has no resolved_code",
+      "sme_name": "Mathematical Symbols",
+      "disposition_proposals": [
+        {
+          "method": "PROPOSAL-ONLY deterministic scorer: 0.5*difflib(name, wording) + 0.5*token_overlap (+0.10 section prior from the note's own tree section 4MA1-S1); mirrors the chemistry matcher's subsection boost; the operator adjudicates — nothing here resolves the anchor",
+          "top_candidates": [
+            {
+              "official_code": "2.3D",
+              "store_row_code": "4MA1-2.3D",
+              "official_wording": "use formulae from mathematics and other real-life contexts expressed initially in words or diagrammatic form and convert to letters and symbols",
+              "score": 0.3727,
+              "components": {
+                "difflib_ratio": 0.2454,
+                "token_overlap": 0.5,
+                "section_prior_boost": 0.0
+              }
+            },
+            {
+              "official_code": "1.4A",
+              "store_row_code": "4MA1-1.4A",
+              "official_wording": "understand the meaning of surds",
+              "score": 0.2961,
+              "components": {
+                "difflib_ratio": 0.3922,
+                "token_overlap": 0.0,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "1.5D",
+              "store_row_code": "4MA1-1.5D",
+              "official_wording": "use sets in practical situations",
+              "score": 0.2923,
+              "components": {
+                "difflib_ratio": 0.3846,
+                "token_overlap": 0.0,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "1.3E",
+              "store_row_code": "4MA1-1.3E",
+              "official_wording": "recognise that a terminating decimal is a fraction",
+              "score": 0.2857,
+              "components": {
+                "difflib_ratio": 0.3714,
+                "token_overlap": 0.0,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "1.1C",
+              "store_row_code": "4MA1-1.1C",
+              "official_wording": "use directed numbers in practical situations",
+              "score": 0.2719,
+              "components": {
+                "difflib_ratio": 0.3438,
+                "token_overlap": 0.0,
+                "section_prior_boost": 0.1
+              }
+            }
+          ],
+          "top_score_margin": 0.0766
+        }
+      ]
+    },
+    {
+      "anchor_id": "spcpt_3fMGfNtg3hXMg6gC",
+      "note_path": "notes/4-geometry-and-trigonometry/area-and-perimeter/problem-solving-with-areas.json",
+      "rn_id": "rn_FZ43cs6fQgvgdVwH",
+      "note_title": "Problem Solving with Areas",
+      "status": "UNRESOLVED — RECORDED, NEVER FABRICATED",
+      "reason": "EQ substrate row has no resolved_code",
+      "sme_name": "Problem Solving with Areas",
+      "disposition_proposals": [
+        {
+          "method": "PROPOSAL-ONLY deterministic scorer: 0.5*difflib(name, wording) + 0.5*token_overlap (+0.10 section prior from the note's own tree section 4MA1-S4); mirrors the chemistry matcher's subsection boost; the operator adjudicates — nothing here resolves the anchor",
+          "top_candidates": [
+            {
+              "official_code": "4.11C",
+              "store_row_code": "4MA1-4.11C",
+              "official_wording": "use areas and volumes of similar figures in solving problems",
+              "score": 0.5477,
+              "components": {
+                "difflib_ratio": 0.3953,
+                "token_overlap": 0.5,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "4.9A",
+              "store_row_code": "4MA1-4.9A",
+              "official_wording": "find perimeters and areas of sectors of circles",
+              "score": 0.3757,
+              "components": {
+                "difflib_ratio": 0.3014,
+                "token_overlap": 0.25,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "4.9C",
+              "store_row_code": "4MA1-4.9C",
+              "official_wording": "find the area of simple shapes using the formulae for the areas of triangles and rectangles",
+              "score": 0.3703,
+              "components": {
+                "difflib_ratio": 0.2906,
+                "token_overlap": 0.25,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "4.5C",
+              "store_row_code": "4MA1-4.5C",
+              "official_wording": "solve problems using scale drawings",
+              "score": 0.3623,
+              "components": {
+                "difflib_ratio": 0.5246,
+                "token_overlap": 0.0,
+                "section_prior_boost": 0.1
+              }
+            },
+            {
+              "official_code": "4.2G",
+              "store_row_code": "4MA1-4.2G",
+              "official_wording": "understand that two or more polygons with the same shape and size are said to be congruent to each other",
+              "score": 0.3327,
+              "components": {
+                "difflib_ratio": 0.2154,
+                "token_overlap": 0.25,
+                "section_prior_boost": 0.1
+              }
+            }
+          ],
+          "top_score_margin": 0.172
+        }
+      ]
+    },
     {
       "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
       "note_path": "notes/6-statistics-and-probability/statistics-toolkit/discrete-and-continuous-data.json",

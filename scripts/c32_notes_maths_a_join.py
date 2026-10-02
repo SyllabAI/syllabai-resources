@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
 """c32_notes_maths_a_join.py — T-C32 (K2-A) Lane A builder for igcse-maths-a.
 
-The operator fired gate K2-A of the C31 K2 scope (graph/reports/
-C31_IGCSE_MATHS_A_K2_SCOPE.md §4/§8): build the notes↔SP join for
-`igcse-maths-a-18-higher` as a DERIVED-LANE artifact — corpus byte-frozen.
+T-C42 R2 AMENDMENT (2026-10-02, dated per P5 — landed records never edited,
+this generator re-pinned instead): re-run over the C42-R1-amended resolution
+substrate. The R1 operator verdict round (gate 1 of the C42 rework scope,
+graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json) re-pointed 22 codes,
+re-pointed 21+ rows' official_id/official_wording to their Foundation
+statements, and CLEARED 2 anchors to UNRESOLVED (Mathematical Symbols,
+Problem Solving with Areas — no canonical 188 row teaches them; wrong codes
+removed, never forced). The pinned census therefore moves
+202 joined / 1 unresolved -> 200 joined / 3 unresolved, and the guard below
+pins the EXACT post-R1 unresolved id set; any other drift fails closed.
+
+Original commission: the operator fired gate K2-A of the C31 K2 scope
+(graph/reports/C31_IGCSE_MATHS_A_K2_SCOPE.md §4/§8): build the notes↔SP join
+for `igcse-maths-a-18-higher` as a DERIVED-LANE artifact — corpus byte-frozen.
 
 What it does (zero-LLM, deterministic, fail-closed):
   1. Reads the notes corpus manifest + all 191 note JSONs, collecting every
@@ -20,11 +31,12 @@ What it does (zero-LLM, deterministic, fail-closed):
      (graph/igcse-maths-a/specification_points.yaml): foreign codes are a
      hard failure; per-row wording class recorded (EXACT /
      LEDGER_EXPLAINABLE / DIVERGENT — divergent is recorded, never repaired).
-  5. Anything unresolved is RECORDED, never fabricated: the single
-     EQ-unresolved anchor keeps status UNRESOLVED and carries PROPOSAL-ONLY
-     candidates from a transparent deterministic scorer (difflib ratio +
-     token overlap, section-prior boost mirroring the chemistry matcher's
-     subsection boost). Proposals bind nothing.
+  5. Anything unresolved is RECORDED, never fabricated: unresolved anchors
+     keep status UNRESOLVED and carry PROPOSAL-ONLY candidates from a
+     transparent deterministic scorer (difflib ratio + token overlap,
+     section-prior boost mirroring the chemistry matcher's subsection boost).
+     Proposals bind nothing. Post-R1 the unresolved set is the C31 §3 residual
+     plus the 2 anchors cleared UNRESOLVED by the C42 R1 verdict round.
   6. Writes exactly one file:
      Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json
      (the `_derived/` lane is the working precedent for non-canonical
@@ -314,18 +326,24 @@ def main() -> int:
 
     doc = {
         "schema": "syllabai.notes-spec-point-join/1.0",
-        "task": "T-C32 (K2-A Lane A build, igcse-maths-a)",
+        "task": "T-C42 R2: T-C32 (K2-A Lane A) join re-run over the "
+                "C42-R1-amended resolution (igcse-maths-a)",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "generator": "scripts/c32_notes_maths_a_join.py",
         "lane": "A (T-C10-pattern note-level mapping) of the C28 §6-K2 sequence",
         "inputs": inputs,
         "validation_tier": (
             "INHERITED: AI_VALIDATED (operator-delegated chain; T-SPEC-7/8/9/10 "
-            "operator-verdict rounds 2026-09-19, PMT excluded as source) on the "
-            "resolution substrate; JOIN: deterministic id lookup, machine-gated "
-            "by c32_k2a_check.py; NO HUMAN_VALIDATED claim is made by this "
-            "artifact — an operator spot-check round can upgrade the tier on "
-            "record via a dated addendum"),
+            "operator-verdict rounds 2026-09-19, PMT excluded as source; C42 R1 "
+            "operator verdict round 2026-10-02 — 45 id-level repairs, the C32 "
+            "residual KEPT UNRESOLVED, 2 anchors cleared; see "
+            "C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json) on the resolution "
+            "substrate; JOIN: deterministic id lookup, machine-gated by the C42 "
+            "R2 postcondition in this generator (the C40-era c32_k2a_check.py "
+            "battery pins its own 2026-09 landing census and is historical); "
+            "NO HUMAN_VALIDATED claim is made by this artifact — an operator "
+            "spot-check round can upgrade the tier on record via a dated "
+            "addendum"),
         "counts": {
             "notes_pages": len(pages),
             "anchors_total": len(anchors),
@@ -353,10 +371,23 @@ def main() -> int:
     }
 
     # ---- fail-closed postconditions -----------------------------------------
+    # T-C42 R2 census (post the C42-R1-amended resolution): 200 joined /
+    # 3 unresolved = the C31 §3 residual KEPT UNRESOLVED at R1 + the 2 anchors
+    # the R1 operator verdict round cleared (surface 1 of
+    # graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json). Exact id set
+    # pinned; anything else fails closed.
+    R2_UNRESOLVED = {
+        "spcpt_QWXhzVp2S3VYZdZc",  # 'Discrete & Continuous Data' — C31 §3 residual
+        "spcpt_8Wtthy9gt8B5xsVW",  # 'Mathematical Symbols' — cleared at R1
+        "spcpt_3fMGfNtg3hXMg6gC",  # 'Problem Solving with Areas' — cleared at R1
+    }
     c = doc["counts"]
-    if not (c["joined"] == 202 and c["unresolved_recorded"] == 1
+    got_unres = {u["anchor_id"] for u in doc["unresolved"]}
+    if not (c["joined"] == 200 and c["unresolved_recorded"] == 3
             and c["anchors_total"] == 203 and c["foreign_codes"] == 0):
         fail(f"postcondition drift: {json.dumps(c)}")
+    if got_unres != R2_UNRESOLVED:
+        fail(f"unresolved id set drift: {sorted(got_unres)}")
     if len(doc["joins"]) + len(doc["unresolved"]) != 203:
         fail("join+unresolved != anchors")
 
@@ -367,7 +398,11 @@ def main() -> int:
     r.close()
     print(f"wrote {OUT} ({out.stat().st_size} bytes)")
     print(f"counts: {json.dumps(c)}")
-    print(f"residual: {u['anchor_id']} proposals={len(u['disposition_proposals'][0]['top_candidates']) if u.get('disposition_proposals') else 0}")
+    for u in doc["unresolved"]:
+        n_prop = len(u['disposition_proposals'][0]['top_candidates']) \
+            if u.get('disposition_proposals') else 0
+        print(f"unresolved: {u['anchor_id']} ({u.get('sme_name')!r}) "
+              f"proposals={n_prop}")
     return 0
 
 

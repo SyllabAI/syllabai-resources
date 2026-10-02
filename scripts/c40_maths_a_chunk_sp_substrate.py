@@ -2,6 +2,31 @@
 """c40 — the maths-a chunk→SpecificationPoint mapping substrate (T-C40 K2 Lane B;
 the c13-chunk-convention-1 construction instantiated for the SME JSON notes corpus).
 
+T-C42 R3 AMENDMENT (2026-10-02, dated per P5 — this generator re-pinned, landed
+records never edited): substrate re-build over the C42-R1-amended resolution via
+the R2-refreshed T-C32 join. Three semantic changes, everything else untouched:
+  a. the pinned join census moves 202+1 -> 200+3 (the C31 §3 residual + the 2
+     anchors the R1 operator verdict round cleared UNRESOLVED: Mathematical
+     Symbols, Problem Solving with Areas); the cleared spans' chunks become
+     worklist rows, RECORDED never forced;
+  b. the operator section-override map scripts/c42_section_overrides.yaml
+     (surface 3 of the R1 verdict round: 12 REATTRIBUTE + 4 RETAIN over 16
+     section-level rows) is consumed FAIL-CLOSED: every entry must hit exactly
+     one emitted chunk row, its current_code must equal the join-derived code
+     (the map was authored against the post-R1 projection — drift is a bug),
+     REATTRIBUTE targets must sit in the ratified registry, and any override
+     naming a code outside the ratified 188 fails the build. Applied rows carry
+     provenance.override with the map sha — the R4 re-fill sees exactly what
+     the operator ruled;
+  c. coverage + the uncovered-SP worklist are RECOMPUTED from the refreshed
+     surface (the C40-era 111-code bound stays on its own record as a
+     measurement under the defective mapping).
+CHUNK IDENTITY INVARIANT: the chunker, the c40-chunk-convention-1 convention
+and the corpus are untouched — note_path/ordinal/heading/sha256_16 never move;
+only code attribution changes. Verified old-blob vs new-file by
+scripts/c42_r2_r3_join_substrate_check.py against the pinned pre-R3 blob
+f3b2cc2be76934ee3b547a9b4e75d41581ceb6a6.
+
 C31 §6 prescribes Lane B as the T-C13 pattern replayed over the maths-a notes
 corpus, emitting graph/igcse-maths-a/spec_chunk_mappings.yaml behind a review
 sheet whose class precision must reach >=90% before any promotion. The maths-a
@@ -10,17 +35,17 @@ upstream differs from chemistry's and the difference is carried honestly:
   chemistry  upstream = T-C10 note-level spec_map, 209 rows HUMAN_VALIDATED
              (operator, 2026-09-11); quote-anchor construction refined each
              mapping's verbatim evidence quote into its passage chunk.
-  maths-a    upstream = the T-C32 K2-A notes-join (202 joins / 1 unresolved,
-             AI_VALIDATED operator-delegated chain — the honesty tier C31 §4.5
-             requires on record). The join carries NO evidence quotes, so the
-             anchoring axis is the corpus's OWN structure: every note is a
-             sequence of SP spans, each introduced by a `spec_point` block
-             (203 blocks / 191 notes, machine-censused); the span marker plus
-             the T-C32 id-join gives the chunk→SP identity and the row's
-             evidence quote is a deterministic verbatim self-slice of the
-             chunk (match_type "span-marker"). Nothing is invented: the SP
-             identity is the corpus's own anchor + the recorded join, and the
-             quote is the chunk's own text.
+  maths-a    upstream = the T-C32 K2-A notes-join (200 joins / 3 unresolved
+             post-C42-R1; AI_VALIDATED operator-delegated chain — the honesty
+             tier C31 §4.5 requires on record). The join carries NO evidence
+             quotes, so the anchoring axis is the corpus's OWN structure: every
+             note is a sequence of SP spans, each introduced by a `spec_point`
+             block (203 blocks / 191 notes, machine-censused); the span marker
+             plus the T-C32 id-join gives the chunk→SP identity and the row's
+             evidence quote is a deterministic verbatim self-slice of the chunk
+             (match_type "span-marker"). Nothing is invented: the SP identity is
+             the corpus's own anchor + the recorded join, and the quote is the
+             chunk's own text.
 
 Construction (deterministic, zero-LLM, fail-closed):
   1. Chunk every note at the PINNED convention (c40-chunk-convention-1):
@@ -32,18 +57,21 @@ Construction (deterministic, zero-LLM, fail-closed):
      NEVER an anchor target.
   2. Emit one anchored row per content chunk of every RESOLVED span
      (span marker → T-C32 join → ratified 4MA1 code) + worklist rows for the
-     one unresolved span's chunks and for every SP the notes corpus does not
-     cover. NO row is ever emitted HUMAN_VALIDATED: promotion is the operator
-     review-sheet gate (anti-forgery, C10/C11/C13 norm).
+     three unresolved spans' chunks and for every SP the notes corpus does not
+     cover; apply the operator section-override map fail-closed. NO row is
+     ever emitted HUMAN_VALIDATED: promotion is the operator review-sheet gate
+     (anti-forgery, C10/C11/C13 norm).
   3. Emit the construction report + the operator review sheet (seeded
      stratified sample; scripts/c40_maths_a_substrate_report.py).
 
 Gates (fail-closed; negative-tested by construction in this build's battery):
   G1 corpus shape     191 notes, 203 spec_point blocks, every note's first
                       block is its span marker, manifest counts == blocks
-  G2 join shape       202 resolved + 1 unresolved; every note-block anchor is
-                      joined or THE unresolved row; every join anchor exists
+  G2 join shape       200 resolved + 3 unresolved (exact post-R1 id set);
+                      every note-block anchor is joined or one of THE three
+                      unresolved rows; every join anchor exists
   G3 code validity    every emitted code ∈ the ratified 188-point store
+                      (override REATTRIBUTE targets included)
   G4 anchor fidelity  every emitted row re-verifies quote-in-chunk against a
                       fresh re-chunking after emit
   G5 anti-forgery     zero HUMAN_VALIDATED rows; tier RULE_DERIVED; the
@@ -70,13 +98,18 @@ import graph_paths as GP  # C28 §3.2 path registry — single source of ratifie
 import yaml
 
 TOOL = "scripts/c40_maths_a_chunk_sp_substrate.py"
-TOOL_VERSION = "1.0.0"
+TOOL_VERSION = "2.0.0"
 CONVENTION_ID = "c40-chunk-convention-1"
 QUAL = "igcse-maths-a"
 COURSE = "igcse-maths-a-18-higher"
 CORPUS = f"SME-RevisionNotes/{COURSE}"
 JOIN = ("Official-Specifications/parsed/_derived/notes-join/"
         "igcse-maths-a-18-higher.json")
+OVERRIDES = "scripts/c42_section_overrides.yaml"
+# surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
+# wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
+# residual that was already unresolved
+R1_CLEARED = {"spcpt_8Wtthy9gt8B5xsVW", "spcpt_3fMGfNtg3hXMg6gC"}
 UPSTREAM_TIER = "AI_VALIDATED (operator-delegated chain)"
 MAX_CUT_LEVEL = 4
 INTRO_HEADING = "(intro)"
@@ -339,15 +372,17 @@ def construct() -> dict:
     # ---- G2 join shape ---------------------------------------------------------
     jrows = join.get("joins") or []
     urows = join.get("unresolved") or []
-    if len(jrows) != 202 or len(urows) != 1:
-        fail(f"G2: join {len(jrows)}+{len(urows)} != 202+1")
+    unresolved_ids = {u["anchor_id"] for u in urows}
+    if len(jrows) != 200 or len(urows) != 3:
+        fail(f"G2: join {len(jrows)}+{len(urows)} != 200+3")
     jby_anchor = {row["anchor_id"]: row for row in jrows}
-    if len(jby_anchor) != 202:
+    if len(jby_anchor) != 200:
         fail("G2: duplicate anchor_id in the join artifact")
-    unresolved_id = urows[0]["anchor_id"]
+    if unresolved_ids != {"spcpt_QWXhzVp2S3VYZdZc"} | R1_CLEARED:
+        fail(f"G2: unresolved id set drift: {sorted(unresolved_ids)}")
     block_anchors = {c["anchor_id"] for cs in by_note.values() for c in cs}
-    if block_anchors != set(jby_anchor) | {unresolved_id}:
-        fail("G2: note-block anchors != join anchors + THE unresolved anchor")
+    if block_anchors != set(jby_anchor) | unresolved_ids:
+        fail("G2: note-block anchors != join anchors + THE three unresolved")
     for row in jrows:
         if row["note_path"] not in by_note:
             fail(f"G2: join note_path not in corpus: {row['note_path']}")
@@ -366,8 +401,24 @@ def construct() -> dict:
             if c["is_intro"] or not c["text"]:
                 continue  # intro chunks are never anchor targets (C13 discipline)
             aid = c["anchor_id"]
-            if aid == unresolved_id:
+            if aid in unresolved_ids:
                 n_unres_chunks += 1
+                if aid in R1_CLEARED:
+                    reason = (
+                        f"span anchor {aid} ('{c['span_name']}') was cleared "
+                        "UNRESOLVED by the C42 R1 operator verdict round — no "
+                        "canonical 188 row teaches this note's content, the wrong "
+                        "T-SPEC-7-era code was removed, never forced")
+                    disp = ("WORKLIST — chunk-level mapping waits on fresh notes "
+                            "coverage or a new operator anchor; recorded, not "
+                            "forced (C42 R1 surface 1)")
+                else:
+                    reason = (
+                        f"span anchor {aid} ('{c['span_name']}') is the T-C32 join's "
+                        "residual unresolved anchor — operator adjudication pending "
+                        "(PROPOSAL-ONLY; never fabricated)")
+                    disp = ("WORKLIST — chunk-level mapping waits on the "
+                            "anchor's operator adjudication (C32 §3 residual)")
                 rows.append({
                     "mapping_id": sha16(f"unresolved|{path}|{c['ordinal']}"),
                     "spec_code": None,
@@ -377,17 +428,13 @@ def construct() -> dict:
                               "sha256_16": sha16(c["text"]), "chars": len(c["text"]),
                               "convention": CONVENTION_ID},
                     "evidence_quote": self_quote(c["text"]),
-                    "worklist_reason": (
-                        f"span anchor {aid} ('{c['span_name']}') is the T-C32 join's "
-                        "single unresolved anchor — operator adjudication pending "
-                        "(PROPOSAL-ONLY; never fabricated)"),
+                    "worklist_reason": reason,
                     "provenance": {"tier": "RULE_DERIVED", "tool": f"{TOOL}@{TOOL_VERSION}",
                                    "upstream": {"store": "T-C32 K2-A notes-join",
                                                 "anchor_id": aid,
                                                 "validation_tier": UPSTREAM_TIER}},
                     "validation_status": "SUGGESTED",
-                    "disposition": "WORKLIST — chunk-level mapping waits on the "
-                                   "anchor's operator adjudication (C32 §3 residual)",
+                    "disposition": disp,
                 })
                 continue
             row_code = jby_anchor[aid]["store_row_code"]
@@ -434,6 +481,69 @@ def construct() -> dict:
                 "validation_status": "SUGGESTED",
             })
 
+    # ---- T-C42 R3: operator section-override map, consumed FAIL-CLOSED ---------
+    # surface 3 of the C42 R1 verdict round (16 section-level rows: 12
+    # REATTRIBUTE + 4 RETAIN). Contract (scripts/c42_section_overrides.yaml):
+    # an override naming a code outside the ratified 188 fails the build; every
+    # entry must hit exactly one emitted chunk row; the entry's current_code
+    # must equal the join-derived code (the map was authored against the
+    # post-R1 projection — drift is a defect, not a judgement call).
+    ov_bytes = r.read_bytes(OVERRIDES)
+    ov_doc = yaml.safe_load(ov_bytes.decode("utf-8"))
+    ov_sha = sha16(ov_bytes)
+    ov_entries = ov_doc.get("overrides") or []
+    if not ov_entries:
+        fail("R3: empty section-override map")
+    ov_seen = set()
+    n_ov_reattr, n_ov_retain = 0, 0
+    keyed = {(rw.get("note_slug"),
+              (rw.get("chunk") or {}).get("ordinal")): rw
+             for rw in rows if "chunk" in rw}
+    for e in ov_entries:
+        k = (e.get("note_slug"), e.get("chunk_ordinal"))
+        action = (e.get("action") or "").upper()
+        if k in ov_seen:
+            fail(f"R3: duplicate override entry {k}")
+        ov_seen.add(k)
+        rw = keyed.get(k)
+        if rw is None:
+            fail(f"R3: override {k} hits no emitted chunk row")
+        if action not in ("REATTRIBUTE", "RETAIN"):
+            fail(f"R3: override {k} unknown action {action!r}")
+        cur = e.get("current_code")
+        if cur != rw.get("spec_code"):
+            fail(f"R3: override {k} current_code {cur!r} != join-derived "
+                 f"{rw.get('spec_code')!r}")
+        block = {"source": f"{OVERRIDES}@{ov_sha}",
+                 "operator_round": "T-C42 R1 (surface 3, section-level)",
+                 "action": action,
+                 "evidence": e.get("evidence") or ""}
+        if action == "REATTRIBUTE":
+            oc = e.get("override_code")
+            if not oc or oc not in registry:
+                fail(f"R3: override {k} target {oc!r} outside the ratified 188")
+            if oc == cur:
+                fail(f"R3: override {k} REATTRIBUTE to the same code")
+            rw["spec_code"] = oc
+            rw["sp_title"] = registry[oc].get("official_wording") or ""
+            rw["mapping_id"] = sha16(
+                f"{rw['note_path']}|{oc}|{norm(rw['evidence_quote'])}")
+            rw["provenance"]["override"] = block
+            rw["rationale"] = (
+                rw.get("rationale") or "") + \
+                " Section-level REATTRIBUTE applied per the C42 R1 operator " \
+                "verdict round (provenance.override) — the span-level join is " \
+                "coarse for this section; the operator re-attributed the chunk."
+            n_ov_reattr += 1
+        else:  # RETAIN — no code change; recorded so the R4 re-fill sees the ruling
+            if e.get("override_code") is not None:
+                fail(f"R3: override {k} RETAIN carries override_code")
+            rw["provenance"]["override"] = block
+            n_ov_retain += 1
+    if len(ov_entries) != 16 or n_ov_reattr != 12 or n_ov_retain != 4:
+        fail(f"R3: override census {len(ov_entries)}/{n_ov_reattr}/{n_ov_retain} "
+             f"!= 16/12/4")
+
     # worklist: uncovered SPs (registry minus notes-covered codes)
     covered = sorted({x["spec_code"] for x in rows if x.get("spec_code")})
     unmapped_sps = sorted(set(registry) - set(covered))
@@ -443,8 +553,9 @@ def construct() -> dict:
             "spec_code": code,
             "sp_title": registry[code].get("official_wording") or "",
             "worklist_reason": ("no notes-corpus anchor resolves to this SP in the "
-                                "T-C32 join (registered corpus gap: the notes "
-                                "coverage is bounded by the 111-code census)"),
+                                "T-C32 join (coverage bounded by the refreshed "
+                                "join's code census; the C40-era 111-code bound "
+                                "stays on its own record)"),
             "provenance": {"tier": "RULE_DERIVED", "tool": f"{TOOL}@{TOOL_VERSION}"},
             "validation_status": "SUGGESTED",
             "disposition": "WORKLIST — chunk-level mapping needs notes coverage or "
@@ -499,6 +610,13 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
+            "stage": "T-C42 R3: substrate re-build over the C42-R1-amended "
+                     "resolution via the R2-refreshed T-C32 join — chunk identity "
+                     "invariant, only code attribution moves; the operator "
+                     "section-override map consumed fail-closed; coverage + the "
+                     "uncovered-SP worklist recomputed (the C40-era 111-code "
+                     "bound stays on its own record as a measurement under the "
+                     "defective mapping)",
             "convention": CONVENTION_ID,
             "convention_spec": (
                 "a note = SP spans split at the corpus's own `spec_point` blocks; "
@@ -528,9 +646,18 @@ def construct() -> dict:
             "notes_corpus": CORPUS,
             "notes_manifest_sha256_16": _manifest_pin,
             "join_artifact": JOIN,
-            "upstream_store": "T-C32 K2-A notes-join (202 joins / 1 unresolved; "
-                              "AI_VALIDATED operator-delegated chain — recorded "
-                              "honestly per C31 §4.5)",
+            "r3_section_overrides": {
+                "path": OVERRIDES, "sha256_16": ov_sha,
+                "entries": len(ov_entries),
+                "reattribute": n_ov_reattr, "retain": n_ov_retain,
+                "consumption": "fail-closed: exact (note_slug, chunk_ordinal) hit, "
+                               "current_code == join-derived code, targets within "
+                               "the ratified 188; applied rows carry provenance.override",
+            },
+            "upstream_store": f"T-C32 K2-A notes-join ({len(jrows)} joins / "
+                              f"{len(urows)} unresolved; AI_VALIDATED "
+                              "operator-delegated chain — recorded honestly per "
+                              "C31 §4.5; C42 R1-amended resolution, refreshed at R2)",
             "upstream_validation_tier": UPSTREAM_TIER,
             "promotion_rule": "rows are SUGGESTED; HUMAN_VALIDATED only via the "
                               "operator review-sheet gate "

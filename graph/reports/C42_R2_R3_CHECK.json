@@ -1,0 +1,43 @@
+{
+  "schema": "syllabai.c42-r2r3-check/1.0",
+  "task": "T-C42 R2+R3 (join re-run + substrate re-build) verification battery",
+  "generated_utc": "2026-10-02T11:08:17+00:00",
+  "head_before": "6ade129",
+  "pins": {
+    "old_join_blob": "1fe9da180ad4ea5e411e35483ec3f9b52e8a908d",
+    "old_store_blob": "f3b2cc2be76934ee3b547a9b4e75d41581ceb6a6",
+    "amended_resolution_sha256_16": "05a57b056874e8dd",
+    "override_map_entries": 16
+  },
+  "gates": {
+    "W1_join_refresh": {
+      "pass": true,
+      "detail": "200/3/203, 0 foreign; unresolved set == residual + 2 R1-cleared; resolution pin == amended disk file (05a57b056874e8dd); 22/22 CORRECT codes landed"
+    },
+    "W2_substrate_shape": {
+      "pass": true,
+      "detail": "928 rows = 854 anchored + 8 unresolved-worklist + 66 uncovered-SP; covered codes 122; all SUGGESTED/RULE_DERIVED; upstream tier verbatim"
+    },
+    "W3_chunk_identity_invariant": {
+      "pass": true,
+      "detail": "862 chunk rows: (note_path, ordinal, heading, sha256_16) multiset IDENTICAL to pre-R3 blob f3b2cc2be76934ee — only code attribution moved"
+    },
+    "W4_reattribution_audit": {
+      "pass": true,
+      "detail": "all 862 pre-R3 chunk rows replayed: 89 rows on 22 CORRECT anchors re-pointed, 82 rows on 21 AFFIRM anchors unchanged, 12 REATTRIBUTE + 4 RETAIN override rows recorded with provenance.override (0 of them on verdict anchors), 6 rows of the 2 cleared spans demoted to worklist, 669 non-surface rows zero-drift"
+    },
+    "W5_coverage_worklist": {
+      "pass": true,
+      "detail": "covered 111 -> 122 of 188; gained 13 ['4MA1-1.11A', '4MA1-1.1C', '4MA1-1.7A', '4MA1-1.8A', '4MA1-2.3A', '4MA1-2.8C', '4MA1-3.2D', '4MA1-3.3A']…; lost 2 ['4MA1-1.5C', '4MA1-6.3B']; worklist complete; mapping_ids unique"
+    },
+    "W6_protected_surfaces": {
+      "pass": true,
+      "detail": "dirty set == R2/R3 footprint exactly (['Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json', 'graph/igcse-maths-a/spec_chunk_mappings.yaml', 'graph/reports/C42_R2_R3_CHECK.json', 'graph/reports/C42_R2_R3_JOIN_SUBSTRATE_RECORD.json', 'graph/reports/C42_R2_R3_JOIN_SUBSTRATE_RECORD.md', 'scripts/c32_notes_maths_a_join.py', 'scripts/c40_maths_a_chunk_sp_substrate.py', 'scripts/c42_r2_r3_join_substrate_check.py']); Lane C stores byte-identical to 6ade129; chemistry + spec-links + graph/reports untouched"
+    },
+    "W7_determinism": {
+      "pass": true,
+      "detail": "substrate re-run byte-identical; join re-run content-identical modulo generated_utc"
+    }
+  },
+  "result": "ALL PASS"
+}
