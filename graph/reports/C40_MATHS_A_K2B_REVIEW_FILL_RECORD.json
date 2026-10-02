@@ -1,0 +1,54 @@
+{
+  "schema": "c40-k2b-review-fill-record/1.0",
+  "task": "T-C40",
+  "stage": "substrate-review-fill",
+  "generated_utc": "2026-10-02T08:04:53+00:00",
+  "baseline": "f3b0634ffeaf842d687d0a555e5e5757a10959d7",
+  "reviewer": "Super Z (GLM agent), acting as operator-delegate under the operator's lane directive (fire K2-B, 2026-10-02, zai-web); the human operator retains final sign-off; per the anti-forgery rule nothing here flips the store",
+  "sheet": "graph/reports/C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md",
+  "verdicts_record": "scripts/c40_maths_a_substrate_review_verdicts.yaml",
+  "part_a": {
+    "total": {
+      "rows": 468,
+      "confirm": 351,
+      "reject": 117,
+      "hold": 0,
+      "precision": 0.75
+    },
+    "by_stratum": {
+      "exact": {
+        "rows": 98,
+        "confirm": 53,
+        "reject": 45,
+        "hold": 0,
+        "precision": 0.5408
+      },
+      "partial": {
+        "rows": 238,
+        "confirm": 177,
+        "reject": 61,
+        "hold": 0,
+        "precision": 0.7437
+      },
+      "none": {
+        "rows": 132,
+        "confirm": 121,
+        "reject": 11,
+        "hold": 0,
+        "precision": 0.9167
+      }
+    },
+    "note_level_rejects": 45,
+    "section_level_rejects": 16
+  },
+  "part_b": {
+    "rows": 79,
+    "defer": 79
+  },
+  "gate": {
+    "rule": "Part A precision >= 90% per class AND every Part B row decided",
+    "outcome": "FAIL"
+  },
+  "disposition": "promotion NOT authorized; store stays SUGGESTED; the defect inventory is recorded for the operator's rework decision",
+  "mechanical_layer": "468/468 PASS"
+}
