@@ -37,6 +37,9 @@ quals:
       practicals: graph/{QUAL}/practicals.yaml
       assessment_objectives: graph/{QUAL}/assessment_objectives.yaml
       command_words: graph/{QUAL}/command_words.yaml
+      concepts: graph/{QUAL}/concepts.yaml
+      concept_edges: graph/{QUAL}/concept_edges.yaml
+      spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
     reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
 legacy_map:
   graph/specification_points.yaml: graph/igcse-chemistry/specification_points.yaml

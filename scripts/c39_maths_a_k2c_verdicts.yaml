@@ -1,0 +1,326 @@
+# T-C39 — igcse-maths-a K2 Lane C B01..B06 CONSOLIDATED OPERATOR verdict record. OPERATOR-OWNED.
+# Encoded (2026-10-02, zai-web) from the operator's consolidated review
+# MATHS_A_B01_B06_FINAL_CONSOLIDATED_REVIEW.md — delivered as a file upload in the
+# operator chat and stored byte-exact in this repo at
+# graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+# (sha256 f33aa7b86ff6f6704e7f972fcfda922a56a0c335ec761f4ddfc21ab3a00200c5 —
+# verified equal to the uploaded file before encoding; the source-integrity note
+# in the review itself records that the operator re-verified the shipped
+# SHA256SUMS.txt of the six review packets, all OK).
+#
+# INTAKE FORM: single consolidated review over all six batch packets
+# (C33_BATCH01..C38_BATCH06 review sheets + machine-readable REVIEW/CHECK twins +
+# SHA256SUMS), verdict PASS WITH NOTES per batch and consolidated. This is the
+# first consolidated multi-batch intake of the series (the chemistry §16 batches
+# were intaken one session per batch); per-batch verdict surfaces below are
+# transcribed from the review's §2 table and §1 totals and are machine-checked
+# against the six REVIEW.json artifacts by scripts/c39_maths_a_k2c_verdict_check.py
+# (the conformance path — ALL PASS precondition of the §18 apply).
+#
+# VOCABULARY: node/edge verdicts CONFIRM | REJECT | HOLD | MERGE | SPLIT;
+# identity decisions ACCEPT (reconcile as authored) | MERGE | SPLIT;
+# held candidates ACKNOWLEDGE + QUARANTINE (never promoted by this record);
+# authority tier for everything this record authorizes: SUGGESTED.
+# NOTHING here is HUMAN_VALIDATED: the review's NO-GO surface bars
+# HUMAN_VALIDATED for all 82 candidate nodes and bars automatic promotion of
+# the 73 authored edges. §18 promotions (the exact-identity pathway of
+# C11_ARCHITECTURE.md §18, scripts/c11_promote.py pattern) remain a separate
+# operator round; zero promotion entries are authorized by this record.
+#
+# Verdicts are RECORDED; the application state lives in the §18 apply
+# (scripts/c39_maths_a_k2c_apply.py -> graph/igcse-maths-a/{concepts,
+# concept_edges,spec_command_kinds}.yaml) — never here.
+meta:
+  task: T-C39
+  stage: k2c-b01-b06-verdicts
+  batch: B01..B06 (consolidated)
+  curriculum_code: 4MA1-2016
+  session: operator consolidated session (2026-10-02, zai-web)
+  file: OPERATOR-OWNED consolidated verdict record for the six maths-a Lane C
+    review packets (C33..C38) — verdicts recorded by operator decision from the
+    consolidated review intake (2026-10-02, zai-web file upload, byte-exact repo
+    copy at graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md).
+  instructions: 'Fill verdict per batch. Edge/node vocabulary: CONFIRM | REJECT
+    | HOLD | MERGE | SPLIT. Identity-decision vocabulary: ACCEPT (reconcile as
+    authored) | MERGE | SPLIT. The six extraction passes are c33-k2c-batch-01 ..
+    c38-k2c-batch-06 (C31 §5 batch windows: global_order 1-12, 13-24, 25-36,
+    37-48, 49-60, 61-72 = 4MA1-1.1A..2.5A at the Higher-preferred tier-dedupe
+    store state). The 45 held candidates are informational quarantines (no
+    reopening, no promotion of held candidates). Verdicts are RECORDED; the
+    §18 apply lands afterwards with the promoted rows from ALL six authored
+    batches + the 84 derived PART_OF rows; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'VERDICT: PASS WITH NOTES (per batch B01..B06 and consolidated).
+      The six submissions are accepted for operator review based on the evidence
+      and machine-state claims contained in the submitted review packets and
+      their machine-readable REVIEW/CHECK twins. Consolidated operator verdict
+      surface: SPs 72/72 reviewed (global_order 1-72, 4MA1-1.1A..2.5A); candidate
+      nodes 82 = 71 CONCEPT + 11 MISCONCEPTION, all CONFIRM; authored edges 73,
+      all CONFIRM (51 REQUIRES_PREREQUISITE + 11 WRONG_ANSWER_PATTERN + 11
+      REMEDIATED_BY); held candidates 45/45 acknowledge + quarantine (five
+      recurring hold families preserved verbatim: COVERAGE-UNJOINED-SUBSTRATE,
+      SPEC-ONLY-SURFACE, NO-MS-REJECT-DOCUMENTATION, CROSS-BATCH-TARGET-UNPROMOTED,
+      future-batch boundary carries); identity decisions 17/17 accepted (B01-ID-01..02,
+      B02-ID-01..03, B03-ID-01..03, B04-ID-01..03, B05-ID-01..03, B06-ID-01..03);
+      command kinds 72 (56 APPLY_PROCEDURE + 15 UNDERSTAND_RELATION + 1 KNOW_TERM);
+      evidence anchors 490 (quote probes 47/47, 61/61, 83/83, 89/89, 110/110,
+      100/100 = 490/490 PASS; preverify 192/192 across the six batteries); all six
+      machine-readable artifacts report stores_grown = 0 (the sheets are operator
+      gates, not promotion events). Misconception disposition: retain all 11 as
+      SUGGESTED — do not promote merely because pass-2 confirmed the source
+      evidence; promotion remains a separate governed operation. Required next
+      steps (review §9, verbatim order): 1. encode the operator verdict records;
+      2. encode the six batch verdicts through the prescribed intake-conformance
+      path; 3. reconcile identities; 4. preserve all held candidates and their
+      failure classes; 5. resolve the cross-batch boundary map; 6. run the
+      governed §18 promotion/apply step ONLY for rows explicitly authorized by
+      the resulting verdict record; 7. regenerate the graph/read models; 8. run
+      the full machine-gate suite; 9. post-apply verification (promoted counts ==
+      the authorized verdict surface; no held row silently promoted; no duplicate
+      concept ids; PART_OF projections derived from promoted node attachments;
+      misconception provenance assessment-backed; cross-batch edges resolve to
+      canonical target ids; no unjoined note promoted; all negative controls
+      intact). Authority SUGGESTED throughout. No node or edge is promoted by
+      the review sheets themselves; this record authorizes the §18 apply of the
+      confirmed authored surface ONLY.'
+    session: operator consolidated session (2026-10-02, zai-web)
+    decided_by: operator
+    decided_date: '2026-10-02'
+    completed_sheet: 'MATHS_A_B01_B06_FINAL_CONSOLIDATED_REVIEW.md — the operator''s
+      consolidated review, delivered 2026-10-02 as a file upload in the zai-web
+      chat lane (first consolidated multi-batch intake of the series; the
+      session-63/65 chemistry inline-sheet precedent generalized to a
+      whole-lane intake). INTAKE FORM: CONSOLIDATED REVIEW DOCUMENT (detail-
+      summarizing variant): the review carries the per-batch §2 disposition
+      table (nodes/misconceptions/edges/held/pass-2 agreement per batch), the
+      §1 cross-batch totals, the §3 evidence/machine-gate assessments per batch,
+      the §4 held-candidate policy (the five recurring hold families), the §5
+      misconception disposition, the §6 identity-decision inventory, the §7
+      governance boundary (authored candidates SUGGESTED; live graph mutation
+      none at the review gate), the §8 GO/NO-GO surface and the §9 required
+      execution sequence; the review itself re-verified the shipped SHA256SUMS
+      of the six packets (all OK) and the six stores_grown = 0 claims. The
+      per-batch §1-§5 byte-identity checks of the chemistry session-63 lane DO
+      NOT APPLY (different intake form); the CONFORMANCE GATES apply instead
+      (machine-checked against the six REVIEW.json artifacts by
+      scripts/c39_maths_a_k2c_verdict_check.py — ALL PASS — and re-asserted at
+      apply time by scripts/c39_maths_a_k2c_apply.py).'
+    go_no_go:
+      go: 'record the operator verdicts; encode the six batch verdicts through
+        the prescribed intake-conformance path; reconcile identities; preserve
+        all 45 held candidates and their failure classes; resolve the
+        cross-batch boundary map; run the governed §18 promotion/apply step
+        only for rows explicitly authorized by the resulting verdict record;
+        regenerate the graph and run the full post-apply gates.'
+      no_go: 'treating any of the 82 candidate nodes as HUMAN_VALIDATED now;
+        promoting the 73 authored edges automatically (the §18 exact-identity
+        promotion round remains separate); converting held candidates into
+        edges merely because later batches contain related concepts; silently
+        minting new concepts to satisfy held cross-batch edges; treating
+        semantic similarity or curriculum proximity as sufficient evidence for
+        REQUIRES_PREREQUISITE; claiming the live maths-a graph had already
+        incorporated these six batches before the apply.'
+  source_integrity:
+    consolidated_review: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+    sha256: f33aa7b86ff6f6704e7f972fcfda922a56a0c335ec761f4ddfc21ab3a00200c5
+    upload: MATHS_A_B01_B06_FINAL_CONSOLIDATED_REVIEW.md (operator file upload,
+      zai-web, 2026-10-02); repo copy verified byte-identical (sha256 equal)
+      before encoding
+    packet_integrity: the review's own source-integrity note records the shipped
+      SHA256SUMS.txt checked OK against the extracted packet (all listed
+      Markdown/JSON artifacts), and stores_grown = 0 on all six REVIEW artifacts
+batches:
+- batch: B01
+  task: T-C33
+  gate: K2-C-1
+  window: global_order 1-12 (4MA1-1.1A..1.2D)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 11/11
+  edges_confirmed: 12/12
+  held_acknowledged: 5/5
+  identity_decisions_accepted: 2/2
+  evidence_anchors: 47
+  quote_probe: 47/47
+  notes: initial all-Foundation slice; zero misconception mints (the MS material
+    did not document a wrong-answer class — refusal recorded, not forced); the
+    negative-number coverage issue and the two 1.2D directions retained as holds.
+- batch: B02
+  task: T-C34
+  gate: K2-C-2
+  window: global_order 13-24 (4MA1-1.2E..1.4B)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 14/14
+  edges_confirmed: 10/10
+  held_acknowledged: 8/8
+  identity_decisions_accepted: 3/3
+  evidence_anchors: 61
+  quote_probe: 61/61
+  notes: first two assessment-documented misconception mints (evidence-backed
+    under the mark-scheme contract); the B02-strength pair-back convention
+    originates here; held candidates remain held until the governed cross-batch
+    stage.
+- batch: B03
+  task: T-C35
+  gate: K2-C-3
+  window: global_order 25-36 (4MA1-1.4C..1.6D)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 14/14
+  edges_confirmed: 13/13
+  held_acknowledged: 8/8
+  identity_decisions_accepted: 3/3
+  evidence_anchors: 83
+  quote_probe: 83/83
+  notes: two further misconception classes; inherited quarantine preserved;
+    cross-batch targets not forced; the 1.5B set-notation span limitation
+    recorded on the node (anchor moved to the byte-verifiable row).
+- batch: B04
+  task: T-C36
+  gate: K2-C-4
+  window: global_order 37-48 (4MA1-1.6E..1.8D)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 13/13
+  edges_confirmed: 10/10
+  held_acknowledged: 8/8
+  identity_decisions_accepted: 3/3
+  evidence_anchors: 89
+  quote_probe: 89/89
+  notes: one new misconception mint; two pass-2 anchor-placement corrections
+    forced and verified by the machine gates BEFORE landing (FP-B04-1 pair-back,
+    FP-B04-2 '<'-span swap); the B03 percentage-quotient class NOT re-minted.
+- batch: B05
+  task: T-C37
+  gate: K2-C-5
+  window: global_order 49-60 (4MA1-1.9A..2.2C)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 15/15
+  edges_confirmed: 14/14
+  held_acknowledged: 8/8
+  identity_decisions_accepted: 3/3
+  evidence_anchors: 110
+  quote_probe: 110/110
+  notes: three further assessment-documented mints (the fifth..seventh); two
+    discovery/serialization corrections resolved by the machine gates; the
+    first section-boundary crossing of the series; no duplicate misconception
+    minting.
+- batch: B06
+  task: T-C38
+  gate: K2-C-6
+  window: global_order 61-72 (4MA1-2.2D..2.5A)
+  verdict: PASS WITH NOTES
+  nodes_confirmed: 15/15
+  edges_confirmed: 14/14
+  held_acknowledged: 8/8
+  identity_decisions_accepted: 3/3
+  evidence_anchors: 100
+  quote_probe: 100/100
+  notes: 'completes the 72-SP run; the eighth..tenth mints; three
+    quote/serialization corrections resolved before landing; the two landing
+    re-records (B06-H-02 the landing of held B05-H-06; B06-H-03 the landing of
+    held B04-H-06) stay HELD rows aimed at authored nodes — landings are
+    re-records, not promotions (the review''s NO-GO list bars converting any
+    held candidate into an edge at this gate).'
+consolidated_totals:
+  sps: 72
+  candidate_nodes: 82
+  concept_nodes: 71
+  misconception_nodes: 11
+  authored_edges: 73
+  requires_prerequisite_edges: 51
+  wrong_answer_pattern_edges: 11
+  remediated_by_edges: 11
+  held_candidates: 45
+  command_kinds: 72
+  identity_decisions: 17
+  evidence_anchors: 490
+  derived_partof_at_apply: 84
+  preverify_checks: 192
+dated_corrections:
+- id: DC-01
+  subject: consolidated held-candidate total
+  review_text: '47 (review §1 bullet, §4 heading sentence and §8 NO-GO #3-adjacent
+    prose)'
+  corrected_value: 45
+  evidence: 'the review''s OWN §2 table column sums 5+8+8+8+8+8 = 45; the six
+    REVIEW.json artifacts list held_ids 5/8/8/8/8/8 (45 exact ids, verified by
+    c39_maths_a_k2c_verdict_check.py G4); the batch landing records (C33..C38
+    commit series) state 45 (37 prior + 8 at B06). The review''s per-batch
+    numbers were correct throughout; only the aggregate prose carried 47.'
+  disposition: 'the verdict record and the §18 apply carry 45; the review prose
+    value is corrected HERE (P5 dated correction, never a silent override); no
+    batch surface changes.'
+- id: DC-02
+  subject: derived PART_OF rows at apply
+  review_text: '84 (review §1 bullet)'
+  corrected_value: 84 (CONFIRMED — the review is right; the BATCH PROSE was
+    wrong)
+  evidence: 'totals.derived_partof_at_apply in the six REVIEW.json artifacts:
+    13/14/14/13/15/15 = 84 (equal to totals.node_attachments per batch). The
+    C36/C37/C38 landing-record PROSE wrote "77 derived PART_OF (13+14+14+12+12+12)",
+    undercounting B04/B05/B06 as 12/12/12 — those batch packets'' own machine
+    artifacts say 13/15/15 (B04''s mirror-pair node carries a second attachment;
+    B05/B06 carry 15 attachments over 15 nodes). Machine artifacts govern over
+    prose (P5).'
+  disposition: 'the §18 apply derives 84 PART_OF rows; the C36/C37/C38 record
+    prose is corrected HERE (dated correction on the apply record; the landing
+    records themselves are historical and stay unedited per the C31 §7 scope
+    guards).'
+- id: DC-03
+  subject: consolidated quote-probe restatement
+  review_text: 'quote probes "47/47, 61/61, 83/83, 89/89, 110/110, and 100/100" = 490/490'
+  corrected_value: confirmed as stated
+  evidence: 'the six CHECK.json G4 gates and REVIEW.json totals.evidence_anchors
+    agree exactly (47/61/83/89/110/100); preverify totals 21/32/33/35/36/35 =
+    192/192 also confirmed (review §1 "192/192 preverify checks PASS").'
+  disposition: no correction needed — recorded as verified.
+- id: DC-04
+  subject: 'cross-batch node-code collision: 4MA1-CON-INDEX-LAWS (B03 @1.4C vs
+    B05 @2.1D)'
+  review_text: 'not surfaced by the consolidated review (its per-batch §2
+    surface is single-batch; the collision is only visible at cross-batch
+    assembly); the review''s §9 post-apply checklist item "no duplicate concept
+    IDs were minted" is the check that caught it'
+  corrected_value: 'B03''s node keeps 4MA1-CON-INDEX-LAWS; B05''s 2.1D node is
+    emitted as 4MA1-CON-INDEX-LAWS-SIMPLE-CASES (its 3 B05-internal edge
+    endpoints follow)'
+  evidence: 'the decision records assert TWO distinct identities: different CORE
+    SPs (1.4C vs 2.1D), different titles ("Index laws over integer, fractional
+    and negative powers" vs "Index laws in simple cases"), different
+    substances, and B05''s own derivation_notes ("the laws-of-indices NOTE page
+    is joined to 1.4C (B03''s row) and is not citable here ... the node authors
+    from the ratified wording alone"); the series'' mirror-pair convention
+    (B04-ID-01, B05-ID-01, B06-ID-01) rules mirror rows as TWO nodes with
+    DISTINCT codes on the store''s own row split; zero cross-batch references
+    existed (fail-closed census in the apply).'
+  disposition: 'namespace disambiguation at emission only — the decision records
+    stay byte-untouched (C31 §7); no merge or split is performed; both nodes
+    are emitted (82 preserved); the store''s one-row-per-code convention is
+    restored.'
+boundary_resolution:
+  superseding_map: [4MA1-1.7C, 4MA1-1.7D, 4MA1-2.7B]
+  source: c38_maths_a_batch06_term_audit (supersedes B05's map; the B05-inherited
+    2.3B landed in-slice at B06; 1.4C/3.4B/1.6A/1.6B/4.4C/6.2A/6.2D/6.3G remain
+    future-batch)
+  cross_batch_holds: 'all CROSS-BATCH-TARGET-UNPROMOTED / CROSS-BATCH-TARGET-FUTURE-BATCH
+    holds remain quarantined with their recorded aim; the two landing re-records
+    (B06-H-02 aiming at the authored 2.2E node; B06-H-03 aiming at the authored
+    2.5A node) stay HELD rows — the review''s NO-GO #3 (never convert held
+    candidates into edges merely because later batches contain related concepts)
+    is carried into the apply; the holds become resolvable ONLY in a future
+    governed boundary round if the operator then rules them.'
+  identity_reconciliation: 'the 17 accepted identity decisions are already
+    encoded in the decision records as authored (mirror pairs authored as TWO
+    nodes on the store''s own row split; misconception home rows fixed); the
+    apply emits them as-authored and the post-apply battery asserts zero
+    duplicate concept ids across the six batches.'
+promotion_authorization:
+  authorized: 'the §18 apply of the confirmed authored surface ONLY: 71 CONCEPT
+    + 11 MISCONCEPTION nodes; 73 authored edges (51 REQUIRES_PREREQUISITE + 11
+    WRONG_ANSWER_PATTERN + 11 REMEDIATED_BY); the 84 PART_OF rows derived from
+    the node attachments; the 72 spec_command_kinds rows.'
+  authority: SUGGESTED (provenance tier AI_SUGGESTED; zero HUMAN_VALIDATED
+    anywhere; zero promotions-file entries — the exact-identity §18 promotion
+    round of C11_ARCHITECTURE.md §18 remains a separate operator gate)
+  not_authorized: 'held-candidate promotion (45 stay quarantined); new concept
+    mints beyond the 82; spec_chunk_mappings (K2-B pending — the maths-a chunk
+    substrate lane has not run); relationships (ratified-hierarchy lane, not in
+    the K2 exit shape); any chemistry work; any corpus writes.'

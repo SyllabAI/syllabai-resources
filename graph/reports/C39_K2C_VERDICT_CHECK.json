@@ -1,0 +1,127 @@
+{
+  "schema": "c39-verdict-check/1.0",
+  "task": "T-C39",
+  "gate": "K2 Lane C consolidated verdict check (B01..B06)",
+  "generated_utc": "2026-10-02T07:06:26+00:00",
+  "verdict_record": "scripts/c39_maths_a_k2c_verdicts.yaml",
+  "intake": "graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md",
+  "intake_sha256": "f33aa7b86ff6f6704e7f972fcfda922a56a0c335ec761f4ddfc21ab3a00200c5",
+  "baseline": "16257a32f48c0706776e86e634047bf40cf94e31",
+  "result": "ALL PASS",
+  "gates": [
+    {
+      "gate": "G1",
+      "name": "verdict_record_and_intake",
+      "status": "PASS",
+      "detail": "record shape ok; repo copy byte-verified sha256 f33aa7b8..; intake = consolidated review (2026-10-02, zai-web upload)"
+    },
+    {
+      "gate": "G2",
+      "name": "per_batch_verdict_surfaces",
+      "status": "PASS",
+      "detail": "6/6 batches: PASS WITH NOTES; node/edge/held/identity surfaces equal the REVIEW.json totals; anchors 47/61/83/89/110/100; windows global_order 1-72; batteries ALL PASS"
+    },
+    {
+      "gate": "G3",
+      "name": "consolidated_totals_vs_artifacts",
+      "status": "PASS",
+      "detail": "82 = 71+11 nodes; 73 = 51+11+11 edges; 45 held; 17 identity; 72 command kinds; 490 anchors; 84 PART_OF; preverify 192/192 (21+32+33+35+36+35) — review §1 equal to the artifact sums"
+    },
+    {
+      "gate": "G4",
+      "name": "held_id_inventory",
+      "status": "PASS",
+      "detail": "45 held ids = B01-H-01..05 + B02..B06-H-01..08, exact match to the six REVIEW.json held_ids lists; DC-01 records 45 (the review's own table summed 45; the '47' prose is corrected)"
+    },
+    {
+      "gate": "G5",
+      "name": "identity_decision_inventory",
+      "status": "PASS",
+      "detail": "17 identity decisions = B01-ID-01..02 + B02..B06-ID-01..03, decision records == REVIEW.json artifacts"
+    },
+    {
+      "gate": "G6",
+      "name": "pre_apply_store_state",
+      "status": "PASS",
+      "detail": "graph/igcse-maths-a/ = the 5 K1 stores (pre-apply) or the 8-store post-apply state; stores_grown = 0 on all six artifacts (the sheets were gates, not promotions)"
+    },
+    {
+      "gate": "G7",
+      "name": "slice_coverage",
+      "status": "PASS",
+      "detail": "six 12-SP slices, pairwise disjoint, union set-equal to the ratified global_order 1..72 walk (4MA1-1.1A..2.5A)"
+    },
+    {
+      "gate": "G8",
+      "name": "corrections_and_boundary",
+      "status": "PASS",
+      "detail": "DC-01/DC-02/DC-03 recorded with evidence; superseding boundary map {1.7C, 1.7D, 2.7B}; landing chain B05-H-06->B06-H-02 / B04-H-06->B06-H-03 intact; authority SUGGESTED, zero HUMAN_VALIDATED, zero promotion entries"
+    }
+  ],
+  "held_ids": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05",
+    "B02-H-01",
+    "B02-H-02",
+    "B02-H-03",
+    "B02-H-04",
+    "B02-H-05",
+    "B02-H-06",
+    "B02-H-07",
+    "B02-H-08",
+    "B03-H-01",
+    "B03-H-02",
+    "B03-H-03",
+    "B03-H-04",
+    "B03-H-05",
+    "B03-H-06",
+    "B03-H-07",
+    "B03-H-08",
+    "B04-H-01",
+    "B04-H-02",
+    "B04-H-03",
+    "B04-H-04",
+    "B04-H-05",
+    "B04-H-06",
+    "B04-H-07",
+    "B04-H-08",
+    "B05-H-01",
+    "B05-H-02",
+    "B05-H-03",
+    "B05-H-04",
+    "B05-H-05",
+    "B05-H-06",
+    "B05-H-07",
+    "B05-H-08",
+    "B06-H-01",
+    "B06-H-02",
+    "B06-H-03",
+    "B06-H-04",
+    "B06-H-05",
+    "B06-H-06",
+    "B06-H-07",
+    "B06-H-08"
+  ],
+  "identity_decisions": [
+    "B01-ID-01",
+    "B01-ID-02",
+    "B02-ID-01",
+    "B02-ID-02",
+    "B02-ID-03",
+    "B03-ID-01",
+    "B03-ID-02",
+    "B03-ID-03",
+    "B04-ID-01",
+    "B04-ID-02",
+    "B04-ID-03",
+    "B05-ID-01",
+    "B05-ID-02",
+    "B05-ID-03",
+    "B06-ID-01",
+    "B06-ID-02",
+    "B06-ID-03"
+  ]
+}
