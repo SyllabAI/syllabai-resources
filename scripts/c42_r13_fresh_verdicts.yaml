@@ -1,0 +1,386 @@
+schema: c42-r13-fresh-verdicts/1.0
+task: T-C42
+stage: r13-regate-fill
+contract: consumed by scripts/c42_r13_regate_fill.py (FRESH verdict source); judgment input = the fresh-row
+  dossier (chunk text + both tier wordings per row); the R9 fresh-verdict taxonomy (CONFIRM / REJECT with
+  a root cause + canonical-surface citation / HOLD) is unchanged
+verdicts:
+  14f9913db35b9db1:
+    dossier_index: 0
+    verdict: CONFIRM
+    root: null
+    note: the section applies 3D Pythagoras to multi-step problems (splitting complicated 3D problems
+      into 2D right-angled triangles, several triangles per diagram) — 4.8D's demand 'use Pythagoras'
+      theorem in three dimensions' is the surface verbatim at application depth
+    spec_code: 4MA1-4.8D
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 5
+    chunk_heading: How do I apply 3D Pythagoras and trigonometry to more complicated problems?
+    tier_signature: STORE_HIGHER
+  e45c1e570f22f1e9:
+    dossier_index: 1
+    verdict: CONFIRM
+    root: null
+    note: the section solves ratio word problems via the difference-between-parts method — a word problem
+      about ratio, the 1.7E surface ('solve word problems about ratio and proportion'); the note-level
+      join stands
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 3
+    chunk_heading: How do I solve a ratio problem when given the difference between two parts?
+    tier_signature: STORE_HIGHER
+  1f2653317b847716:
+    dossier_index: 2
+    verdict: CONFIRM
+    root: null
+    note: the unitary method (finding one unit, then scaling) is the process of proportionality used to
+      evaluate unknown quantities — the 1.7C demand verbatim
+    spec_code: 4MA1-1.7C
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/working-with-proportion.json
+    chunk_ordinal: 3
+    chunk_heading: What is the unitary method?
+    tier_signature: STORE_HIGHER
+  168033cea7aa595d:
+    dossier_index: 3
+    verdict: CONFIRM
+    root: null
+    note: the section defines sine, cosine and tangent as ratios of side lengths in right-angled triangles
+      — the FOUNDATION wording of 4.8B per the C30 ledger ('know, understand and use sine, cosine and
+      tangent of acute angles...'); the store's operative Higher wording is elevation/depression — the
+      R1 AFFIRM wording-tier artifact class, adjudicated on the Foundation wording per the standing instruction
+      (the R1 round already re-attributed this note's 2D-problems section to 4.8C; the note-level join
+      stands via this Foundation surface)
+    spec_code: 4MA1-4.8B
+    note_path: notes/4-geometry-and-trigonometry/right-angled-triangles---pythagoras-and-trigonometry/right-angled-trigonometry.json
+    chunk_ordinal: 2
+    chunk_heading: What are sin, cos and tan?
+    tier_signature: STORE_HIGHER
+  245dc02520e11f89:
+    dossier_index: 4
+    verdict: CONFIRM
+    root: null
+    note: direct proportion (both quantities increase/decrease by the same factor, constant ratio) is
+      the proportionality process of the 1.7C demand
+    spec_code: 4MA1-1.7C
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/working-with-proportion.json
+    chunk_ordinal: 1
+    chunk_heading: What is direct proportion?
+    tier_signature: STORE_HIGHER
+  8d1dc5c6897f21cd:
+    dossier_index: 5
+    verdict: REJECT
+    root: section-level
+    note: the section names the TYPES of triangles (equilateral, isosceles, scalene, right-angled) with
+      their side/angle properties — 4.1D verbatim ('understand the terms isosceles, equilateral and right-angled
+      triangles and the angle properties of these triangles'); 4.2C's demand is the parallelogram/rectangle/square/rhombus/trapezium/kite
+      family and triangles are not in it; the note-level join stands via its quadrilateral sections (ords
+      4-7) — recorded for the operator, never self-repaired
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 2
+    chunk_heading: What are the names of the different types of triangles?
+    tier_signature: STORE_HIGHER
+  7c1366d8e194f560:
+    dossier_index: 6
+    verdict: CONFIRM
+    root: null
+    note: the perpendicular-gradient relation (m1 x m2 = -1) is the apparatus of the 3.3G demand ('find
+      the equation of a straight line perpendicular to a given line'); the note-level join stands
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/perpendicular-lines.json
+    chunk_ordinal: 2
+    chunk_heading: How are the gradients of perpendicular lines related?
+    tier_signature: STORE_HIGHER
+  339be42d4ebc3afd:
+    dossier_index: 7
+    verdict: CONFIRM
+    root: null
+    note: the section defines what a formula IS (rule/relationship in shorthand using variables, with
+      an equals sign) — the concept intro for the note's 2.3F demand ('change the subject of a formula
+      where the subject appears once'), the C40 concept-intro class; the chunk teaches no different SP's
+      content
+    spec_code: 4MA1-2.3F
+    note_path: notes/2-equations-formulae-and-identities/rearranging-formulae/rearranging-formulae.json
+    chunk_ordinal: 1
+    chunk_heading: What are formulas?
+    tier_signature: STORE_HIGHER
+  13a3eaeb887de351:
+    dossier_index: 8
+    verdict: CONFIRM
+    root: null
+    note: the section defines factorisation and works common-factor examples (3(x+2), 3xy) — the FOUNDATION
+      wording of 2.2D per the C30 ledger ('take out common factors'); the store's operative Higher wording
+      is completing-the-square — the R1 AFFIRM wording-tier artifact class, adjudicated on the Foundation
+      wording per the standing instruction (the note's home is basic/common-factor factorising)
+    spec_code: 4MA1-2.2D
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising.json
+    chunk_ordinal: 1
+    chunk_heading: What is factorisation?
+    tier_signature: STORE_HIGHER
+  f709e1f7f397909e:
+    dossier_index: 9
+    verdict: REJECT
+    root: note-level-class
+    note: the note teaches COMPOSITE FUNCTIONS end to end (definition, fg notation, numeric substitution,
+      finding composite functions algebraically) — 3.2D verbatim ('understand and find the composite function
+      fg and the inverse function f-1'); 3.3I's demand is 'recognise, generate points and plot graphs
+      of linear and quadratic functions' and the note carries no plotting content anywhere — a T-SPEC
+      resolution error the C40/R4/R9 samples never drew; the note-level join is the defect and all its
+      rows re-attribute wholesale; recorded for the operator, never self-repaired
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/functions/composite-functions.json
+    chunk_ordinal: 1
+    chunk_heading: What is a composite function?
+    tier_signature: STORE_HIGHER
+  465131272f6985de:
+    dossier_index: 10
+    verdict: CONFIRM
+    root: null
+    note: the section introduces frequency tables (summarising and ordering data) — the apparatus of the
+      note's averages-from-tables surface; the FOUNDATION wording of 6.2B per the C30 ledger ('calculate
+      the mean, median, mode and range for a discrete data set') names the table-based averages the note
+      teaches; the store's operative Higher wording is the measure-of-spread concept — the R1-recorded
+      wording-tier class for this note (the mode IS the 6.2B-F wording), adjudicated on the Foundation
+      wording
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 1
+    chunk_heading: What are frequency tables?
+    tier_signature: STORE_HIGHER
+  427fbd6b72843172:
+    dossier_index: 11
+    verdict: CONFIRM
+    root: null
+    note: the section finds upper/lower bounds for rounded numbers (degree of accuracy halved) — the 1.8C
+      demand 'identify upper and lower bounds where values are given to a degree of accuracy' verbatim
+    spec_code: 4MA1-1.8C
+    note_path: notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/bounds.json
+    chunk_ordinal: 2
+    chunk_heading: How do I find the upper and lower bounds for a rounded number?
+    tier_signature: STORE_HIGHER
+  3393260ff7244404:
+    dossier_index: 12
+    verdict: CONFIRM
+    root: null
+    note: the section defines the domain (the set of allowed inputs, described in words, x-referred, not-equal-to
+      notation) — the 3.2C demand 'understand the terms domain and range and which values may need to
+      be excluded from a domain' verbatim
+    spec_code: 4MA1-3.2C
+    note_path: notes/3-sequences-functions-and-graphs/functions/domain-and-range.json
+    chunk_ordinal: 2
+    chunk_heading: What is the domain?
+    tier_signature: STORE_HIGHER
+  9029f3ee19f9e816:
+    dossier_index: 13
+    verdict: CONFIRM
+    root: null
+    note: the section converts volume/capacity units (litres/cl/ml, powers of ten) — the 4.10F demand
+      'convert between units of volume within the metric system' verbatim; the R6 record's volume/capacity
+      section
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/unit-conversions.json
+    chunk_ordinal: 3
+    chunk_heading: How do I convert units of volume/capacity?
+    tier_signature: STORE_HIGHER
+  bccde73549e9e0e6:
+    dossier_index: 14
+    verdict: REJECT
+    root: unresolved-class section
+    note: the section converts UNITS OF MASS (1 g = 1000 mg, 1 kg = 1000 g, 1 tonne = 1000 kg) — 4.10F's
+      demand is VOLUME conversion and the section is not volume; no canonical 188 row teaches metric mass
+      conversion per se (the nearest surface is 1.10B 'carry out calculations using standard units of
+      mass, length, area, volume and capacity', which is calculations WITH standard units, not unit conversion;
+      4.9A's ledger Foundation wording covers linear and area units only, per the R6 ord-1 ruling) — the
+      same unresolved class as the R9 related-calculations ord-2 finding; the DEMOTE disposition is the
+      natural next-round action; recorded for the operator, never forced
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/unit-conversions.json
+    chunk_ordinal: 2
+    chunk_heading: How do I convert units of mass?
+    tier_signature: STORE_HIGHER
+  3b7f3ef5aa7f26de:
+    dossier_index: 15
+    verdict: REJECT
+    root: section-level
+    note: the section finds PROBABILITIES from a two-way table (totals, row/column fractions) — the sample-space
+      determination surface, 6.3E verbatim ('understand the concepts of a sample space and an event, and
+      how the probability of an event happening can be determined from the sample space' — a two-way table
+      IS the sample-space representation); 6.1B's Higher demand is constructing cumulative frequency diagrams
+      and its Foundation wording covers tabulation methods for statistical diagrams (which carries the
+      note's ords 0-1, what two-way tables are and how to construct them) — the note-level join stands
+      via its tabulation sections; recorded for the operator, never self-repaired
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/two-way-tables.json
+    chunk_ordinal: 2
+    chunk_heading: How do I find probabilities from a two-way table?
+    tier_signature: STORE_HIGHER
+  2f37fe5456f312e6:
+    dossier_index: 16
+    verdict: CONFIRM
+    root: null
+    note: the section defines the probability vocabulary (experiment, trial, outcome, results) — the FOUNDATION
+      wording of 6.3A per the C30 ledger ('understand the language of probability'); the store's operative
+      Higher wording is tree diagrams — the R1 AFFIRM wording-tier artifact class, adjudicated on the
+      Foundation wording
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/probability-toolkit/basic-probability.json
+    chunk_ordinal: 2
+    chunk_heading: What key words and terminology are used in probability?
+    tier_signature: STORE_HIGHER
+  68cbee2f42df47e4:
+    dossier_index: 17
+    verdict: CONFIRM
+    root: null
+    note: the section teaches rearranging formulas (the subject, making a different letter the subject)
+      — the 2.3F demand 'change the subject of a formula where the subject appears once' verbatim
+    spec_code: 4MA1-2.3F
+    note_path: notes/2-equations-formulae-and-identities/rearranging-formulae/rearranging-formulae.json
+    chunk_ordinal: 2
+    chunk_heading: How do I rearrange formulas?
+    tier_signature: STORE_HIGHER
+  e770b78477bf94bf:
+    dossier_index: 18
+    verdict: REJECT
+    root: section-level
+    note: the section teaches SHARING an amount in a given ratio (add the parts, value of one part, scale)
+      — 1.7B verbatim ('divide a quantity in a given ratio or ratios'); 1.7E's demand is 'solve word problems
+      about ratio and proportion' and the note carries that surface on its word-problem sections (ord
+      3 CONFIRMed in the same draw) — the exact inverse of the R9 ratios-and-fdp ord-2 finding; the note-level
+      join stands via its word-problem sections; recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 1
+    chunk_heading: How do I share an amount in a given ratio?
+    tier_signature: STORE_HIGHER
+  012aae8fd47b900f:
+    dossier_index: 19
+    verdict: CONFIRM
+    root: null
+    note: the section factorises quadratics by the grid method (pair of numbers multiplying to c and adding
+      to b) — the 2.2F demand 'understand the concept of a quadratic expression and be able to factorise
+      such expressions' at its factorisation depth
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-quadratics.json
+    chunk_ordinal: 4
+    chunk_heading: How do I factorise quadratics using a grid?
+    tier_signature: STORE_HIGHER
+  e94aadd60d2311ec:
+    dossier_index: 20
+    verdict: CONFIRM
+    root: null
+    note: the section defines perpendicular lines (meeting at right angles, the normal) — the concept
+      intro for the 3.3G demand ('find the equation of a straight line perpendicular to a given line');
+      the C40 concept-intro class
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/perpendicular-lines.json
+    chunk_ordinal: 1
+    chunk_heading: What are perpendicular lines?
+    tier_signature: STORE_HIGHER
+  4f8550fdb1a16a6d:
+    dossier_index: 21
+    verdict: CONFIRM
+    root: null
+    note: the section defines a chord (a line joining two points on the circumference, equal chords equidistant
+      from the centre) — the FOUNDATION wording of 4.6B per the C30 ledger ('understand chord and tangent
+      properties of circles'); the store's operative Higher wording is the cyclic-quadrilateral term —
+      the R1 AFFIRM wording-tier artifact class, adjudicated on the Foundation wording
+    spec_code: 4MA1-4.6B
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/chords-and-tangents.json
+    chunk_ordinal: 1
+    chunk_heading: What is a chord?
+    tier_signature: STORE_HIGHER
+  4696ea773e6397b0:
+    dossier_index: 22
+    verdict: CONFIRM
+    root: null
+    note: the section uses ratios in vector paths (converting ratios to vector fractions, a point dividing
+      a line segment) — vector methods applied to geometric results, the 5.1G demand ('apply vector methods
+      for simple geometrical proofs') at its ratio/segment depth; the note's own content confirms its
+      note-level join
+    spec_code: 4MA1-5.1G
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/vector-proof.json
+    chunk_ordinal: 4
+    chunk_heading: How do I use ratios in vector paths?
+    tier_signature: STORE_HIGHER
+  efdf3a651b558701:
+    dossier_index: 23
+    verdict: CONFIRM
+    root: null
+    note: the section defines a quadratic expression (ax^2 + bx + c, a != 0, higher powers excluded) —
+      the 2.2F demand 'understand the concept of a quadratic expression' verbatim
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-quadratics.json
+    chunk_ordinal: 1
+    chunk_heading: What is a quadratic expression?
+    tier_signature: STORE_HIGHER
+  f095ae589bfbb6c4:
+    dossier_index: 24
+    verdict: CONFIRM
+    root: null
+    note: the section divides fractions with mixed numbers (improper conversion, flip-and-multiply) —
+      the 1.2I demand 'multiply and divide fractions and mixed numbers' verbatim
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 5
+    chunk_heading: How do I divide two fractions when one of them is a mixed number?
+    tier_signature: STORE_HIGHER
+  f857870e3ca2d4ce:
+    dossier_index: 25
+    verdict: CONFIRM
+    root: null
+    note: the section finds the equation of a perpendicular bisector (midpoint + negative reciprocal gradient)
+      — the standard application of the 3.3G demand ('find the equation of a straight line perpendicular
+      to a given line')
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/perpendicular-lines.json
+    chunk_ordinal: 5
+    chunk_heading: How do I find the equation of a perpendicular bisector?
+    tier_signature: STORE_HIGHER
+  453d530b12339f4b:
+    dossier_index: 26
+    verdict: CONFIRM
+    root: null
+    note: the section finds factors by divisibility tests (2/3/4/5/6/9/10 tests with examples) — the factors
+      component of the 1.1G demand ('use the terms odd, even, prime numbers, factors and multiples');
+      the note-level join stands via its terminology sections
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 5
+    chunk_heading: How do I find factors without a calculator?
+    tier_signature: STORE_HIGHER
+  04b62ae1a6fbd346:
+    dossier_index: 27
+    verdict: REJECT
+    root: section-level
+    note: the section teaches CIRCLE terminology (circumference, diameter, radius, centre) — the FOUNDATION
+      wording of 4.6A per the C30 ledger ('recognise the terms centre, radius, chord, diameter, circumference...');
+      4.2C's demand is the parallelogram-family properties and circles are not in it; the note-level join
+      stands via its quadrilateral sections (ords 4-7) — recorded for the operator, never self-repaired
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 8
+    chunk_heading: What terms related to circles do I need to know?
+    tier_signature: STORE_HIGHER
+  ca6e891a936adc25:
+    dossier_index: 28
+    verdict: CONFIRM
+    root: null
+    note: 'the section defines constructions (compasses + straight edge, the standard constructions list)
+      — the intro of the 4.5D demand verbatim (''use straight edge and compasses to: (i) construct the
+      perpendicular bisector of a line segment (ii) ...'')'
+    spec_code: 4MA1-4.5D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructions.json
+    chunk_ordinal: 1
+    chunk_heading: What are constructions?
+    tier_signature: STORE_HIGHER
+  d6929a653a3eb246:
+    dossier_index: 29
+    verdict: CONFIRM
+    root: null
+    note: the section uses Pythagoras' theorem inside 3D shapes (right-angled triangles within 3D solids,
+      slant-height example) — the 4.8D demand 'use Pythagoras' theorem in three dimensions' verbatim
+    spec_code: 4MA1-4.8D
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 1
+    chunk_heading: How do I use Pythagoras' theorem in a 3D shape?
+    tier_signature: STORE_HIGHER
