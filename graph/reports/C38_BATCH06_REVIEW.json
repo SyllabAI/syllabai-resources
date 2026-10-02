@@ -1,0 +1,164 @@
+{
+  "schema": "syllabai.c38-batch06-review/1.0",
+  "task": "T-C38",
+  "gate": "K2-C-6",
+  "generated_utc": "2026-10-02T05:42:33.256739+00:00",
+  "decision_record": {
+    "path": "scripts/c38_maths_a_batch06_decisions.yaml",
+    "sha256_16": "62146de2f97cc453"
+  },
+  "pass2_record": {
+    "path": "scripts/c38_maths_a_batch06_review_pass2.yaml",
+    "sha256_16": "ac1a1465ca58e8da"
+  },
+  "authorization": {
+    "path": "scripts/c38_maths_a_batch06_authorization.yaml",
+    "sha256_16": "021d5d4498744959",
+    "directive_verbatim": "K2-C-6"
+  },
+  "totals": {
+    "concept_nodes": 12,
+    "misconception_nodes": 3,
+    "authored_edges": 14,
+    "requires_prerequisite_edges": 8,
+    "wap_edges": 3,
+    "remediated_by_edges": 3,
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": 3,
+    "node_attachments": 15,
+    "derived_partof_at_apply": 15,
+    "evidence_anchors": 100
+  },
+  "pass2_agreement": {
+    "nodes": "15/15 CONFIRM",
+    "edges": "14 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0,
+    "anchor_corrections_resolved_pre_landing": [
+      "FP-B06-1",
+      "FP-B06-2",
+      "FP-B06-3"
+    ]
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-2.2D",
+      "4MA1-2.2E",
+      "4MA1-2.2F",
+      "4MA1-2.3F",
+      "4MA1-2.4B",
+      "4MA1-2.5A"
+    ],
+    "notes_joined_count": 6,
+    "spec_text_only_sps": [
+      "4MA1-2.3A",
+      "4MA1-2.3B",
+      "4MA1-2.3C",
+      "4MA1-2.3D",
+      "4MA1-2.3E",
+      "4MA1-2.4A"
+    ],
+    "spec_text_only_count": 6,
+    "ms_evidence_sps": [
+      "4MA1-2.2D",
+      "4MA1-2.2E",
+      "4MA1-2.2F",
+      "4MA1-2.3A",
+      "4MA1-2.3B",
+      "4MA1-2.3C",
+      "4MA1-2.3D",
+      "4MA1-2.3E",
+      "4MA1-2.3F",
+      "4MA1-2.4A",
+      "4MA1-2.4B",
+      "4MA1-2.5A"
+    ],
+    "ms_note": "a FULL MS-evidence shape (the second of the series — B05 was the first): all 12 slice SPs carry MARK_SCHEME evidence on node attachments. This is a property of the slice, not a padding artifact — the S2 algebra topics (factorising, algebraic-proof, rearranging-formulae, algebra-toolkit, linear-equations, forming-and-solving-equations, completing-the-square) and the S1 direct-and-inverse-proportion topic are mark-scheme-dense in the EQ tree (nine B06-topic MS files were censused), and every cited row genuinely demonstrates its SP's demanded substance. No anchor is padded to force symmetry: the spec-text-only rows (2.3A, 2.3B, 2.3C, 2.3D, 2.3E, 2.4A) carry NOTE/SPEC/MS evidence exactly as the allow-list permits (MS evidence has no join pair-back requirement — only NOTE evidence does)."
+  },
+  "held_ids": [
+    "B06-H-01",
+    "B06-H-02",
+    "B06-H-03",
+    "B06-H-04",
+    "B06-H-05",
+    "B06-H-06",
+    "B06-H-07",
+    "B06-H-08"
+  ],
+  "inherited_held_quarantine": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05",
+    "B02-H-01",
+    "B02-H-02",
+    "B02-H-03",
+    "B02-H-04",
+    "B02-H-05",
+    "B02-H-06",
+    "B02-H-07",
+    "B02-H-08",
+    "B03-H-01",
+    "B03-H-02",
+    "B03-H-03",
+    "B03-H-04",
+    "B03-H-05",
+    "B03-H-06",
+    "B03-H-07",
+    "B03-H-08",
+    "B04-H-01",
+    "B04-H-02",
+    "B04-H-03",
+    "B04-H-04",
+    "B04-H-05",
+    "B04-H-06",
+    "B04-H-07",
+    "B04-H-08",
+    "B05-H-01",
+    "B05-H-02",
+    "B05-H-03",
+    "B05-H-04",
+    "B05-H-05",
+    "B05-H-06",
+    "B05-H-07",
+    "B05-H-08"
+  ],
+  "landed_holds": {
+    "B06-H-02": "B05-H-06",
+    "B06-H-03": "B04-H-06"
+  },
+  "identity_decisions": [
+    "B06-ID-01",
+    "B06-ID-02",
+    "B06-ID-03"
+  ],
+  "misconception_mints": [
+    "4MA1-MIS-INVERSE-OPERATION-ORDER",
+    "4MA1-MIS-SUBJECT-POWER-MISHANDLING",
+    "4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION"
+  ],
+  "not_re_minted": [
+    "4MA1-MIS-SURD-FACTOR-SWAP",
+    "4MA1-MIS-CONJUGATE-EXPANSION-SIGN",
+    "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION",
+    "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION",
+    "4MA1-MIS-RATIO-ORDER-INVERSION",
+    "4MA1-MIS-INDEX-POWER-MULTIPLICATION",
+    "4MA1-MIS-EXPANSION-SIGN-LOSS",
+    "4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION"
+  ],
+  "uncited_join_census": [],
+  "inherited_boundary_map": [
+    "4MA1-1.4C",
+    "4MA1-2.3B",
+    "4MA1-3.4B"
+  ],
+  "future_batch_boundary_map": [
+    "4MA1-1.7C",
+    "4MA1-1.7D",
+    "4MA1-2.7B"
+  ],
+  "stores_grown": 0
+}

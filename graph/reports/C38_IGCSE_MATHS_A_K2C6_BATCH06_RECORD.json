@@ -1,0 +1,98 @@
+{
+  "schema": "syllabai.c38-batch06-record/1.0",
+  "task": "T-C38",
+  "gate": "K2-C-6",
+  "batch": "B06",
+  "generated_utc": "2026-10-02T00:00:00+00:00",
+  "status": "AUTHORED-TO-GATE — nothing promoted; verdicts reserved to the operator",
+  "directive": {
+    "verbatim": "K2-C-6",
+    "date": "2026-10-02",
+    "channel": "zai-web",
+    "authorization": "scripts/c38_maths_a_batch06_authorization.yaml"
+  },
+  "baseline": "6c12ecf63678e3d1814eba682d664f44cb82714a",
+  "slice": {
+    "spec_points": ["4MA1-2.2D", "4MA1-2.2E", "4MA1-2.2F", "4MA1-2.3A", "4MA1-2.3B", "4MA1-2.3C", "4MA1-2.3D", "4MA1-2.3E", "4MA1-2.3F", "4MA1-2.4A", "4MA1-2.4B", "4MA1-2.5A"],
+    "global_order": [61, 72],
+    "tier_mix": {"higher": ["4MA1-2.2D", "4MA1-2.2E", "4MA1-2.3A", "4MA1-2.5A"], "foundation": ["4MA1-2.2F", "4MA1-2.3B", "4MA1-2.3C", "4MA1-2.3D", "4MA1-2.3E", "4MA1-2.3F", "4MA1-2.4A", "4MA1-2.4B"]},
+    "damage_flagged_rows": 0,
+    "higher_preferred_rows": ["4MA1-2.2D", "4MA1-2.2E", "4MA1-2.3A"]
+  },
+  "authored": {
+    "concept_nodes": 12,
+    "misconception_nodes": 3,
+    "edges": 14,
+    "requires_prerequisite_edges": 8,
+    "wap_edges": 3,
+    "remediated_by_edges": 3,
+    "held": 8,
+    "command_kinds": {"APPLY_PROCEDURE": 10, "UNDERSTAND_RELATION": 2, "KNOW_TERM": 0},
+    "identity_decisions": ["B06-ID-01", "B06-ID-02", "B06-ID-03"],
+    "node_attachments": 12,
+    "derived_partof_at_apply": 12,
+    "evidence_anchors": 100,
+    "evidence_kinds": {"NOTE": 25, "SPEC": 37, "MARK_SCHEME": 38}
+  },
+  "mints": [
+    {"code": "4MA1-MIS-INVERSE-OPERATION-ORDER", "rides": "4MA1-2.3F", "ms": "rearranging-formulae Q10 (three wrong-move rows + corrective order rows)", "ordinal": "eighth maths-a mint"},
+    {"code": "4MA1-MIS-SUBJECT-POWER-MISHANDLING", "rides": "4MA1-2.3A", "ms": "rearranging-formulae Q23 (three wrong-move rows + square-then-cube-root rows)", "ordinal": "ninth maths-a mint"},
+    {"code": "4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION", "rides": "4MA1-2.5A", "ms": "algebra-toolkit Q8 (the divide-by-five row + the doubling-halving corrective row — the B05-pre-announced landing)", "ordinal": "tenth maths-a mint"}
+  ],
+  "not_re_minted": ["4MA1-MIS-SURD-FACTOR-SWAP", "4MA1-MIS-CONJUGATE-EXPANSION-SIGN", "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION", "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION", "4MA1-MIS-RATIO-ORDER-INVERSION", "4MA1-MIS-INDEX-POWER-MULTIPLICATION", "4MA1-MIS-EXPANSION-SIGN-LOSS", "4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION"],
+  "landed_holds": {
+    "B06-H-02": "B05-H-06 (the 2.2E double/triple-bracket family — would-be edges now aimed at the authored 4MA1-CON-ALGEBRAIC-PROOF node)",
+    "B06-H-03": "B04-H-06 (the 2.5A inverse-proportion family — would-be edge now aimed at the authored 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION node)"
+  },
+  "inherited_quarantines": ["B01-H-01..05", "B02-H-01..08", "B03-H-01..08", "B04-H-01..08", "B05-H-01..08"],
+  "coverage": {
+    "notes_joined_sps": ["4MA1-2.2D", "4MA1-2.2E", "4MA1-2.2F", "4MA1-2.3F", "4MA1-2.4B", "4MA1-2.5A"],
+    "notes_joined_count": 6,
+    "join_rows": 15,
+    "join_distinct_files": 14,
+    "spec_text_only_sps": ["4MA1-2.3A", "4MA1-2.3B", "4MA1-2.3C", "4MA1-2.3D", "4MA1-2.3E", "4MA1-2.4A"],
+    "ms_evidence_sps": 12,
+    "uncited_join_census": "EMPTY — all 14 join-carried pages cited, each for exactly the SP it is joined to (the third fully-cited batch of the series)"
+  },
+  "slice_honesty": {
+    "FP-B06-1": "the three higher-preferred rows' substrate alignment (factorising/common-factors for 2.2D; simple bracket expansion alongside the proof page for 2.2E; zero joins for 2.3A with the twice/powered substrate on 2.3F's anchors) — recorded on the affected derivation notes, never repaired",
+    "FP-B06-2": "two pass-1 SPEC quotes corrected to the store-exact wordings (2.3D tail, 2.5A tail) — caught by the quote probe",
+    "FP-B06-3": "one YAML serialization colon collision — resolved by quoting the scalar",
+    "subtopic_titles": "NULL in the ratified topics store for 2.2/2.3/2.4/2.5 — not invented"
+  },
+  "verification": {
+    "battery": "scripts/c38_maths_a_batch06_check.py",
+    "result": "G1–G7 ALL PASS, exit 0",
+    "preverify": "35/35 checks",
+    "quote_probe": "100/100 anchors byte-exact",
+    "term_audit": "66 terms → 8 match terms; the superseding B07.. boundary map is [4MA1-1.7C, 4MA1-1.7D, 4MA1-2.7B]; the B05-inherited 2.3B is IN-SLICE (the audit prediction landing)",
+    "standing_checkers": "graph_check ALL PASS, check_no_hardcode CHECK GREEN"
+  },
+  "stores_grown": 0,
+  "identity_decisions": [
+    {"id": "B06-ID-01", "question": "the 2.2B/2.2F quadratic-factorising mirror pair — TWO nodes on the store's own row split (B05's harder-arm concept vs this batch's limited-methods family); merges operator-only"},
+    {"id": "B06-ID-02", "question": "the power-class mint's home row — 2.3A (the named power arm) vs 2.3F (the family the MS file's substrate rides)"},
+    {"id": "B06-ID-03", "question": "the three mints' mint-vs-exam-trivia rulings (each separately) + the division-confusion mint's home row (2.5A vs the S1 proportionality surfaces) + the order-class mint's home row (2.3F vs 2.3A)"}
+  ],
+  "next_gates": [
+    "K2-C-7 (B07, global_order 73-84) — separately commissioned; inherits the superseding 3-code boundary map, the landed holds and all six quarantines",
+    "K2-B (Lane B chunk substrate) — open; parallel per C31 §6",
+    "B01..B06 verdict sessions — six authored-to-gate packets await the operator's per-row verdicts; the §18 apply follows with 77 derived PART_OF rows (13+14+14+12+12+12) and all six quarantines ruling together",
+    "K2-D (Lane D substrate rows) — after Lane C batches have promoted concepts"
+  ],
+  "artifacts": {
+    "authorization": "scripts/c38_maths_a_batch06_authorization.yaml",
+    "decisions": "scripts/c38_maths_a_batch06_decisions.yaml",
+    "pass2": "scripts/c38_maths_a_batch06_review_pass2.yaml",
+    "preverify": "scripts/c38_maths_a_batch06_preverify.py",
+    "quote_probe": "scripts/c38_maths_a_batch06_quote_probe.py",
+    "term_audit": "scripts/c38_maths_a_batch06_term_audit_probe.py",
+    "review_build": "scripts/c38_maths_a_batch06_review_build.py",
+    "check": "scripts/c38_maths_a_batch06_check.py",
+    "review_sheet": "graph/reports/C38_BATCH06_REVIEW_SHEET.md",
+    "review_json": "graph/reports/C38_BATCH06_REVIEW.json",
+    "check_json": "graph/reports/C38_BATCH06_CHECK.json",
+    "record_md": "graph/reports/C38_IGCSE_MATHS_A_K2C6_BATCH06_RECORD.md",
+    "record_json": "graph/reports/C38_IGCSE_MATHS_A_K2C6_BATCH06_RECORD.json"
+  }
+}

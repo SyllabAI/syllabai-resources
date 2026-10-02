@@ -1,0 +1,75 @@
+{
+  "schema": "syllabai.c38-batch06-check/1.0",
+  "task": "T-C38",
+  "gate": "K2-C-6",
+  "batch": "B06",
+  "generated_utc": "2026-10-02T05:42:48.668680+00:00",
+  "baseline": "6c12ecf63678e3d1814eba682d664f44cb82714a",
+  "result": "ALL PASS",
+  "gates": [
+    {
+      "gate": "G1",
+      "name": "commissioning_record",
+      "status": "PASS",
+      "detail": "decision=AUTHORIZED verbatim='K2-C-6' invariants=10"
+    },
+    {
+      "gate": "G2",
+      "name": "record_shape",
+      "status": "PASS",
+      "detail": "concept=12 misconception=3 edges=14 held=8"
+    },
+    {
+      "gate": "G3",
+      "name": "preverify_gates",
+      "status": "PASS",
+      "detail": "c38_maths_a_batch06_preverify: ALL PASS (35 checks) — record shape, SP coverage, sixth-batch store state (5 K1 stores, B01..B05 unapplied), evidence allow-list with edge pair-back (an EMPTY uncited-join census — all 14 j"
+    },
+    {
+      "gate": "G4",
+      "name": "quote_probe_gates",
+      "status": "PASS",
+      "detail": "quote probe: 100 evidence anchors checked (kinds: {'NOTE': 25, 'SPEC': 37, 'MARK_SCHEME': 38}; read channels: {'disk': 1, 'git-batch': 22})"
+    },
+    {
+      "gate": "G5",
+      "name": "review_reproducible",
+      "status": "PASS",
+      "detail": "byte-stable across rebuilds (json modulo generated_utc): True"
+    },
+    {
+      "gate": "G6",
+      "name": "freeze_integrity",
+      "status": "PASS",
+      "detail": "HEAD=6c12ecf63678 baseline=6c12ecf63678 out-of-footprint=[]"
+    },
+    {
+      "gate": "G7",
+      "name": "standing_checkers",
+      "status": "PASS",
+      "detail": "graph_check rc=0, check_no_hardcode rc=0"
+    }
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c38_maths_a_batch06_authorization.yaml",
+      "sha256_16": "021d5d4498744959"
+    },
+    "decisions": {
+      "path": "scripts/c38_maths_a_batch06_decisions.yaml",
+      "sha256_16": "62146de2f97cc453"
+    },
+    "pass2": {
+      "path": "scripts/c38_maths_a_batch06_review_pass2.yaml",
+      "sha256_16": "ac1a1465ca58e8da"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C38_BATCH06_REVIEW_SHEET.md",
+      "sha256_16": "5296065640c8f7e3"
+    },
+    "review_json": {
+      "path": "graph/reports/C38_BATCH06_REVIEW.json",
+      "sha256_16": "87416d97eb5ef834"
+    }
+  }
+}
