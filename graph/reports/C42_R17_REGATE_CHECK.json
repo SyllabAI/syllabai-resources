@@ -3,13 +3,13 @@
   "task": "T-C42",
   "stage": "r17-regate",
   "baseline": "4725bab645652def20fd110971423e9701939c87",
-  "head": "4f9d1e3cb5503d625369ec0e8e66dec526ca27cc",
+  "head": "d7b4172b71894aeec04fbe562f3261541f391118",
   "fill_record": "graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.json",
   "gates": [
     {
       "gate": "X1 input_pins",
-      "ok": true,
-      "detail": "store 922=840+82 (22 unresolved-span incl. BOTH DEMOTEs + 60 gap), ledger 54, R1 45, R6 10, R10 2, R14 1, overrides 16+7+8+5, R4 467, R9 465, R13 465, fresh 23, convention pinned; fill baseline == the R15/R16 commit; HEAD 4f9d1e3cb550"
+      "ok": false,
+      "detail": "store 922=840+82 (22 unresolved-span incl. BOTH DEMOTEs + 60 gap), ledger 54, R1 45, R6 10, R10 2, R14 1, overrides 16+7+8+5, R4 467, R9 465, R13 465, fresh 23, convention pinned; fill baseline == the R15/R16 commit; HEAD d7b4172b7189"
     },
     {
       "gate": "X2 sampling",
@@ -54,7 +54,7 @@
     {
       "gate": "X10 protected_surfaces",
       "ok": false,
-      "detail": "PRE-COMMIT — dirty set == the R17 footprint (3 files); zero changes outside the R17 footprint vs 4725bab64565 (Lane C stores, chemistry, spec-links, C25-C41 + C42 scope/R0-R16 records, corpora all byte-untouched)"
+      "detail": "PRE-COMMIT — dirty set == the R17 footprint (4 files); zero changes outside the R17 footprint vs 4725bab64565 (Lane C stores, chemistry, spec-links, C25-C41 + C42 scope/R0-R16 records, corpora all byte-untouched)"
     },
     {
       "gate": "X11 determinism",
@@ -72,7 +72,7 @@
       "detail": "8 H3 rows (no positive evidence yet; they un-hold automatically once H1/H2 becomes true at a later round): ['4MA1-1.7B multiple-ratios.json ord 0', '4MA1-3.4C classifying-stationary-points.json ord 0', '4MA1-2.2B expanding-single-brackets.json ord 2', '4MA1-2.8E finding-inequalities-from-regions.json ord 0', '4MA1-3.3F drawing-straight-line-graphs.json ord 0', '4MA1-6.3F listing-outcomes.json ord 0', '4MA1-1.9A standard-form.json ord 0', '4MA1-5.1F working-with-vectors.json ord 0']; 2 REJECT rows recorded with root causes — the fresh defect inventory returns to the operator (scope §7)"
     }
   ],
-  "passed": 12,
+  "passed": 11,
   "total": 13,
   "all_pass": false,
   "gate_outcome_recorded_by_fill": "FAIL"

@@ -1,8 +1,8 @@
 {
  "schema": "syllabai.c42-r15-r16-check/1.0",
  "task": "T-C42 R15+R16 (join re-run + substrate re-build over the C42-R14-amended resolution; the operator directive's 'R15 (connection rerun) + R16 (substrate reconstruction)')",
- "generated_utc": "2026-10-03T17:22:04+00:00",
- "all_pass": true,
+ "generated_utc": "2026-10-03T17:42:08+00:00",
+ "all_pass": false,
  "gates": {
   "W1_join_refresh": {
    "pass": true,
@@ -25,8 +25,8 @@
    "detail": "covered 127 -> 128 of 188; gained ['4MA1-4.1D'] (4.1D — the sole previously-uncovered R14 REATTRIBUTE target); lost []; worklist complete; mapping_ids unique"
   },
   "W6_protected_surfaces": {
-   "pass": true,
-   "detail": "PRE-COMMIT — dirty set == the R15/R16 footprint (8 paths); Lane C stores, chemistry substrate, the R14-amended resolution, the C42 scope/R0-R14 records byte-identical to HEAD af3b80d6"
+   "pass": false,
+   "detail": "PRE-COMMIT — dirty set == the R15/R16 footprint (4 paths); Lane C stores, chemistry substrate, the R14-amended resolution, the C42 scope/R0-R14 records byte-identical to HEAD af3b80d6; UNEXPECTED: ['graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.json', 'graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.md']"
   },
   "W7_determinism": {
    "pass": true,

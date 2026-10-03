@@ -35,11 +35,15 @@ re-gating"):
                        unique; gained/lost COMPUTED and pinned (gained 4.1D
                        only — the sole previously-uncovered R14 target; lost
                        none), never assumed
-  W6 protected surfaces working-tree dirty set limited to the R15/R16
-                       footprint (pre-commit) or empty with the round committed
-                       (the post-commit audit convention); Lane C stores,
-                       chemistry, the R14-amended resolution file and the C42
-                       scope/R0-R14 records byte-untouched vs HEAD
+  W6 protected surfaces working-tree dirt limited to the R15/R16 footprint
+                       (subset semantics — the R17 audit amendment: the battery's
+                       own W7 re-run refreshes the join's generated_utc, so the
+                       post-commit audit necessarily leaves timestamp-only churn
+                       inside the footprint; no dirt OUTSIDE the footprint is the
+                       fail-closed guarantee, together with the byte-comparisons
+                       below); Lane C stores, chemistry, the R14-amended
+                       resolution file and the C42 scope/R0-R14 records
+                       byte-untouched vs HEAD
   W7 determinism       substrate re-run byte-identical; join re-run
                        content-identical modulo generated_utc
 
@@ -378,12 +382,12 @@ def main() -> int:
                   "graph/reports/C42_R13_REGATE_CHECK.json",
                   "graph/reports/C42_R14_RESOLUTION_REPAIR_RECORD.md"])
     w6 = (not unexpected and lane_ok and chem_ok and res_ok and c42_ok
-          and (committed_state or dirty_paths == EXPECTED_DIRTY))
+          and (committed_state or dirty_paths <= EXPECTED_DIRTY))
     gate("W6_protected_surfaces", w6,
-         f"{'COMMITTED — dirty set empty' if committed_state else 'PRE-COMMIT — dirty set == the R15/R16 footprint'}"
-         f" ({len(dirty_paths)} paths); Lane C stores, chemistry substrate, the "
-         f"R14-amended resolution, the C42 scope/R0-R14 records byte-identical "
-         f"to HEAD {HEAD}"
+         f"{'COMMITTED — dirty set empty' if committed_state else 'dirty set within the R15/R16 footprint'}"
+         f" ({len(dirty_paths)} paths); no dirt outside the footprint; Lane C stores, "
+         f"chemistry substrate, the R14-amended resolution, the C42 scope/R0-R14 "
+         f"records byte-identical to HEAD {HEAD}"
          + (f"; UNEXPECTED: {sorted(unexpected)[:4]}" if unexpected else ""))
 
     # ---- W7 determinism ------------------------------------------------------------

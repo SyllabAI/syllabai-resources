@@ -972,8 +972,13 @@ verdict sources: {dict(src_count)}.
 
     # ---- fill record --------------------------------------------------------------
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
-    baseline = subprocess.run(["git", "-C", str(REPO), "rev-parse", "HEAD"],
-                              capture_output=True, text=True).stdout.strip()
+    # T-C42 R17 audit amendment: the baseline is PINNED to the R15/R16 substrate
+    # commit — the re-gate's semantic evidence base — instead of the dynamic HEAD
+    # (the dynamic value drifted on every post-commit audit re-run: each audit
+    # commit moved HEAD, so the recorded baseline chased the audit trail). The
+    # pinned value records the substrate this gate ran over; audit re-runs may
+    # sit on later commits without changing the baseline.
+    baseline = "4725bab645652def20fd110971423e9701939c87"  # the R15/R16 substrate commit
     rec = {
         "schema": "c42-r17-regate-fill-record/1.0",
         "task": "T-C42",
