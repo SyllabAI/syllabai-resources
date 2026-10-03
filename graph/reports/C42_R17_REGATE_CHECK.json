@@ -1,0 +1,79 @@
+{
+  "schema": "c42-r17-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r17-regate",
+  "baseline": "4725bab645652def20fd110971423e9701939c87",
+  "head": "4f9d1e3cb5503d625369ec0e8e66dec526ca27cc",
+  "fill_record": "graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.json",
+  "gates": [
+    {
+      "gate": "X1 input_pins",
+      "ok": true,
+      "detail": "store 922=840+82 (22 unresolved-span incl. BOTH DEMOTEs + 60 gap), ledger 54, R1 45, R6 10, R10 2, R14 1, overrides 16+7+8+5, R4 467, R9 465, R13 465, fresh 23, convention pinned; fill baseline == the R15/R16 commit; HEAD 4f9d1e3cb550"
+    },
+    {
+      "gate": "X2 sampling",
+      "ok": true,
+      "detail": "seed 814b208102846fa8; strata {'exact': 470, 'none': 132, 'partial': 238}; sampled {'exact': 94, 'none': 132, 'partial': 238} == recorded"
+    },
+    {
+      "gate": "X3 record_agreement",
+      "ok": true,
+      "detail": "464 verdicts == sample; fields+strata+tier signatures agree; sources {'r17-fresh': 23, 'heading-only-convention': 91, 'r1-id-verdict': 88, 'r6-id-verdict': 8, 'r13-carried': 233, 'r4-carried': 4, 'r10-id-verdict': 2, 'r9-carried': 3, 'r6-section-override': 3, 'r1-subsumed': 1, 'r14-id-verdict': 1, 'r14-section-override': 1, 'r1-section-override': 6}; fresh set == the committed judgment file"
+    },
+    {
+      "gate": "X4 mechanical_replay",
+      "ok": true,
+      "detail": "464/464 rows re-verified (quote-in-chunk, hash/heading, SUGGESTED/RULE_DERIVED)"
+    },
+    {
+      "gate": "X5 carry_forward",
+      "ok": true,
+      "detail": "233 R13-carried + 3 R9-carried + 4 R4-carried CONFIRMs: triple-identical in the prior records, outside the R14 surface (R9 carries only for rows absent from the R13 record; R4 only for rows absent from both; 0 violations)"
+    },
+    {
+      "gate": "X6 r14_r10_r6_r1_override_consistency",
+      "ok": true,
+      "detail": "1 R14-anchor rows (the re-point landed wholesale) + 0 STANDING rows + 2 R10-anchor rows + 8 R6-anchor rows + 88 R1-anchor rows CONFIRM on operator verdicts (CORRECT codes landed verbatim); 1 R14 override rows + 0 R10 override rows + 3 R6 override rows + 8 R1 override rows follow the operator rulings incl. 2 heading-only rows resolved by the convention; 1 subsumed rows ride the join"
+    },
+    {
+      "gate": "X7 both_tier",
+      "ok": true,
+      "detail": "signatures {'STORE_HIGHER': 415, 'LEDGER_FOUNDATION': 49}; LEDGER_FOUNDATION rows all on ledger codes; fresh-file signatures match the recomputation"
+    },
+    {
+      "gate": "X8 part_b",
+      "ok": true,
+      "detail": "82/82 worklist rows DEFER; surfaces 2 residual + 6 R1-cleared + 12 R6-cleared + 1 R10 DEMOTE + 1 R14 DEMOTE + 60 gap"
+    },
+    {
+      "gate": "X9 gate_arithmetic_antiforgery",
+      "ok": true,
+      "detail": "rollup recomputed == recorded (exact 89.4% / partial 100.0% / none 100.0%); outcome FAIL correctly derived (the arithmetic is verified, not the outcome — the FAIL is the honest draw); all 922 rows SUGGESTED / RULE_DERIVED"
+    },
+    {
+      "gate": "X10 protected_surfaces",
+      "ok": false,
+      "detail": "PRE-COMMIT — dirty set == the R17 footprint (3 files); zero changes outside the R17 footprint vs 4725bab64565 (Lane C stores, chemistry, spec-links, C25-C41 + C42 scope/R0-R16 records, corpora all byte-untouched)"
+    },
+    {
+      "gate": "X11 determinism",
+      "ok": true,
+      "detail": "fill re-run: sheet + verdict record byte-identical"
+    },
+    {
+      "gate": "X12 convention_ladder_replay",
+      "ok": true,
+      "detail": "118 sampled heading-only rows replayed through the H1/H2/H3 ladder independently (H2 source base = R4+R9+R13, the R14 record's projection) (91 via the convention source, the rest via H1-class direct verdict sources); branches, verdicts and the fail-closed direction all agree"
+    },
+    {
+      "gate": "X13 h3_fail_closed_set",
+      "ok": true,
+      "detail": "8 H3 rows (no positive evidence yet; they un-hold automatically once H1/H2 becomes true at a later round): ['4MA1-1.7B multiple-ratios.json ord 0', '4MA1-3.4C classifying-stationary-points.json ord 0', '4MA1-2.2B expanding-single-brackets.json ord 2', '4MA1-2.8E finding-inequalities-from-regions.json ord 0', '4MA1-3.3F drawing-straight-line-graphs.json ord 0', '4MA1-6.3F listing-outcomes.json ord 0', '4MA1-1.9A standard-form.json ord 0', '4MA1-5.1F working-with-vectors.json ord 0']; 2 REJECT rows recorded with root causes — the fresh defect inventory returns to the operator (scope §7)"
+    }
+  ],
+  "passed": 12,
+  "total": 13,
+  "all_pass": false,
+  "gate_outcome_recorded_by_fill": "FAIL"
+}
