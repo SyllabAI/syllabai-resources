@@ -1,0 +1,180 @@
+schema: c42-r17-fresh-verdicts/1.0
+task: T-C42
+stage: r17-regate-fill
+contract: consumed by scripts/c42_r17_regate_fill.py (FRESH verdict source); judgment input = the fresh-row
+  dossier (chunk text + both tier wordings per row); the R9/R13 fresh-verdict taxonomy (CONFIRM / REJECT
+  with a root cause + canonical-surface citation / HOLD) is unchanged; the R9 ord-1 precedent in the
+  converting-between-fdp note (inverse-direction reject, operator repair at R10) governs the 1.2G row
+verdicts:
+  59aec49753b23112:
+    verdict: CONFIRM
+    note: the section teaches the two types of stationary points (maximum points at peaks, minimum
+      points at troughs), names them as turning points and defines classifying/finding their nature —
+      3.4C's demand 'determine ... stationary points, turning points (maxima and minima) by
+      differentiation and relate these to graphs' at its stationary/turning-point surface verbatim
+    tier_signature: STORE_HIGHER
+  86fec3a4ff81201c:
+    verdict: CONFIRM
+    note: the section teaches multiplying fractions when one is a mixed number (convert mixed numbers
+      to improper fractions first, convert back at the end, worked example) — 1.2I's demand 'multiply
+      and divide fractions and mixed numbers' verbatim
+    tier_signature: STORE_HIGHER
+  8b4a0dbed6a63d2c:
+    verdict: CONFIRM
+    note: the section gives domain examples with the excluded values spelled out (f(x)=1/x takes any x
+      except 0 so the domain is 'x != 0'; sqrt(x) takes non-negative x) — 3.2C's demand 'understand the
+      terms domain and range and which values may need to be excluded from a domain' verbatim (the
+      sibling of the R13 domain-definition CONFIRM on the same note+code)
+    tier_signature: STORE_HIGHER
+  4d7ce99946619450:
+    verdict: CONFIRM
+    note: the section defines factors, prime numbers and prime factors (with the first primes listed) —
+      the concept intro of the note's own 1.4D span ('express integers as a product of powers of prime
+      factors' — the demand's named object IS the prime factorization); the C40 concept-intro class
+      (the R13 2.3F/3.3G precedent), the note-level decomposition sections carry the operation itself
+    tier_signature: STORE_HIGHER
+  a3700148f82320f3:
+    verdict: CONFIRM
+    note: the section teaches adding/subtracting two fractions via the lowest common denominator
+      (equivalent fractions over the LCD, add/subtract numerators, simplify) — 1.2F's demand 'use
+      common denominators to add and subtract fractions and mixed numbers' verbatim
+    tier_signature: STORE_HIGHER
+  e0c561b624bcbd0f:
+    verdict: CONFIRM
+    note: the section defines what a column vector is (describes how to get from one point to another,
+      the translation vector, the (6,3) reading) — the concept intro for the note's own 5.1D span
+      ('add and subtract vectors' — column vectors are the objects the demand adds and subtracts);
+      the C40 concept-intro class (the R13 2.3F precedent — defining what a formula IS for 'change the
+      subject'), the note's addition/subtraction sections carry the operation
+    tier_signature: STORE_HIGHER
+  7b279735e8877e9e:
+    verdict: CONFIRM
+    note: the section teaches vector paths from a start point to an end point across a parallelogram
+      grid built from vectors a and b (any right-side path equals a, any diagonal equals b, combined
+      paths) — 5.1F's demand 'find the resultant of two or more vectors' at its path-combination
+      surface verbatim
+    tier_signature: STORE_HIGHER
+  c082bfcfdabf043e:
+    verdict: CONFIRM
+    note: the section teaches rearranging when dividing by a negative (a/-b = -a/b = -(a/b), the -2x =
+      y-3 -> x = (y-3)/-2 worked rearrangement) — a technique section of the note's own 2.3F span
+      ('change the subject of a formula where the subject appears once')
+    tier_signature: STORE_HIGHER
+  28c5075909f1f8e1:
+    verdict: CONFIRM
+    note: the section teaches standard-form multiplication step by step (multiply the ordinary numbers,
+      add the indices, re-normalize) — 1.9A's demand 'solve problems involving standard form' at its
+      calculate-with surface (the C30 ledger foundation wording 'calculate with and interpret numbers
+      in the form a x 10^n') verbatim
+    tier_signature: STORE_HIGHER
+  4c8980b19bfe740e:
+    verdict: CONFIRM
+    note: the section teaches function notation (f(x) = ... and f:x->... mean the same, letters other
+      than f, new letter per new function) — the notation IS the 3.2A demand's mapping concept
+      ('a function is a mapping between elements of two sets') rendered operationally — f takes an
+      input x to its output
+    tier_signature: STORE_HIGHER
+  76e8d9e7bd1e537f:
+    verdict: CONFIRM
+    note: the section teaches finding the equation of a line through a point perpendicular to a given
+      line (rearrange to y=mx+c, perpendicular gradient rule, point-slope form, worked example) —
+      3.3G's demand 'find the equation of a straight line perpendicular to a given line' verbatim
+    tier_signature: STORE_HIGHER
+  0ade70fd2ec3f78b:
+    verdict: CONFIRM
+    note: the section teaches finding ranges from graphs (knowing the shapes of 1/x, x^2, x^3 and trig
+      graphs, transformations, sketching to read the range) — the range surface of 3.2C's demand
+      ('understand the terms domain and range ...') — the sibling of the R13 domain CONFIRMs on the
+      same note+code
+    tier_signature: STORE_HIGHER
+  0211af0e0b8a806d:
+    verdict: CONFIRM
+    note: the section teaches writing a large number in standard form (identify a with 1<=a<10, count
+      the multiply-by-10 steps, 32400 = 3.24 x 10^4) — 1.9A's demand 'solve problems involving standard
+      form' at its convert-to surface (the C30 ledger foundation wording 'calculate with and interpret
+      numbers in the form a x 10^n') verbatim
+    tier_signature: STORE_HIGHER
+  38b7864eeed345c9:
+    verdict: CONFIRM
+    note: the section teaches finding a straight-line equation from a graph (gradient via rise/run
+      triangle, read off the y-intercept, substitute into y = mx + c) — 3.3H's demand's named form and
+      surfaces ('equations of the form y = mx + c ... with gradient m and intercept on the y-axis at
+      the point (0,c)') worked operationally
+    tier_signature: STORE_HIGHER
+  18038dadd8cd2402:
+    verdict: CONFIRM
+    note: the section defines factors (divides exactly with no remainder), common factors and the
+      at-least-two-factors fact — the factors component of 1.1G's demand 'use the terms odd, even,
+      prime numbers, factors and multiples' verbatim (the R13 sibling CONFIRM on the same note's
+      divisibility-tests section is the precedent)
+    tier_signature: STORE_HIGHER
+  bb24fe99857a4bfd:
+    verdict: CONFIRM
+    note: the section teaches the angle-in-a-semicircle circle theorem (the angle at the circumference
+      subtended by a diameter is 90 degrees, a special case of the centre-is-twice theorem) — 4.6C's
+      demand 'understand and use angle properties of the circle including ...' verbatim at its
+      semicircle theorem surface
+    tier_signature: STORE_HIGHER
+  7818c85e3f0facb5:
+    verdict: CONFIRM
+    note: the section teaches repeated percentage changes as multiplier products (increase by 10% =
+      x1.10, discount 15% = x0.85, several changes combined) — 1.6E's demand 'solve simple percentage
+      problems, including percentage increase and decrease' at its repeated-change surface verbatim
+    tier_signature: STORE_HIGHER
+  d7339b416c53ba5e:
+    verdict: CONFIRM
+    note: the section defines standard form (a x 10^n with 1<=a<10, n an integer, the n sign
+      conventions) — 1.9A's demand 'solve problems involving standard form' at its interpret surface
+      (the C30 ledger foundation wording 'calculate with and interpret numbers in the form a x 10^n')
+      verbatim
+    tier_signature: STORE_HIGHER
+  b3ab11aecdf425dd:
+    verdict: CONFIRM
+    note: the section teaches simplifying fractions-in-fractions arising from rearrangement (rewrite
+      with a divide sign and divide the fractions, or multiply top and bottom by the LCD) — a
+      technique section of the note's own 2.3F span ('change the subject of a formula where the
+      subject appears once')
+    tier_signature: STORE_HIGHER
+  f2c52d499c55ba9c:
+    verdict: CONFIRM
+    note: the section teaches differentiation problem-solving with many variables (find an extra
+      relationship between the letters, substitute it to reduce the formula to one variable, then
+      differentiate) — 3.4E's demand 'apply calculus to linear kinematics and to other simple
+      practical problems' verbatim
+    tier_signature: STORE_HIGHER
+  2109f2d7ff10f4ed:
+    verdict: CONFIRM
+    note: the section teaches combining trig rules within one question (sine rule followed by cosine
+      rule, when the area formula applies, no-rule-works fallbacks) — 4.8C's demand 'understand and
+      use the sine and cosine rules for any triangle' at its combined-use surface verbatim
+    tier_signature: STORE_HIGHER
+  73324fa2b6bd3433:
+    verdict: REJECT
+    root: inverse-direction scope difference with a canonical target (the R9/R10 ord-1
+      precedent in this very note)
+    note: the section teaches converting a DECIMAL to a FRACTION (place value over 10/100/10^n) —
+      1.2G's demand is 'convert a fraction to a decimal or a percentage', the FORWARD direction, and
+      the section teaches the inverse operation; not a tier artifact (1.2G is not a shared-tier code —
+      no C30 foundation wording widens it); the canonical target EXISTS — 1.3D 'convert a decimal to
+      a fraction or a percentage' is the section's surface verbatim — so this is exactly the R9/R10
+      ord-1 repair shape (ord 1 percentage->decimal was REJECTed at R9 in these words and
+      REATTRIBUTE'd to 1.6C by the R10 operator round; this row is its decimal->fraction sibling,
+      REATTRIBUTE 1.2G -> 1.3D the evident repair); the note-level join STANDS via its
+      forward-conversion sections (ords 5/6 teach fraction->decimal and fraction->percentage — the
+      demand verbatim); recorded for the operator, never self-repaired; census remark for
+      the operator (not a verdict) — the note's unsampled ord 2 (decimal->percentage) is the same
+      1.3D surface and its unsampled ord 4 (percentage->fraction) is the 1.6C surface, the same
+      class the R10 round already repaired at ord 1
+    tier_signature: STORE_HIGHER
+  9c1ff91e80080d4b:
+    verdict: REJECT
+    root: notation-primer scope difference (no canonical 188 row teaches geometric labeling per se)
+    note: the section teaches LABELING conventions (line segment AB, angle ABC at point B, acute vs
+      obtuse, triangle ABC from its segments) — 4.1B's demand is 'use angle properties of intersecting
+      lines, parallel lines and angles on a straight line' and the section teaches no angle property
+      at all; not a tier artifact (4.1B is not a shared-tier code); the note-level join STANDS via its
+      property sections (ords 0/2/3 carry the basic angle facts — ord 0 CONFIRMed at R4); the
+      section is a notation primer adjacent to the demand, the same class as the R13
+      unit-conversions ord-2 finding (REJECT at the fill, the DEMOTE/RETAIN menu is the operator's
+      call at a repair round), never self-repaired
+    tier_signature: STORE_HIGHER

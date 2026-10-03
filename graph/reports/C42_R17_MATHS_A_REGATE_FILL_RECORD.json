@@ -1,0 +1,103 @@
+{
+  "schema": "c42-r17-regate-fill-record/1.0",
+  "task": "T-C42",
+  "stage": "r17-regate-fill",
+  "generated_utc": "2026-10-03T17:40:31+00:00",
+  "baseline": "4725bab645652def20fd110971423e9701939c87",
+  "reviewer": "Super Z (GLM agent), acting as operator-delegate under the operator's 'R15 (connection rerun) + R16 (substrate reconstruction), then R17 re-gating' directive (2026-10-04, zai-web); the human operator retains final sign-off; per the anti-forgery rule nothing here flips the store (the §18 apply is R5, operator gate 3)",
+  "sheet": "graph/reports/C42_R17_MATHS_A_REGATE_REVIEW_SHEET.md",
+  "verdicts_record": "scripts/c42_r17_review_verdicts.yaml",
+  "sampling": {
+    "seed": "814b208102846fa8",
+    "strata": {
+      "exact": 470,
+      "none": 132,
+      "partial": 238
+    },
+    "sampled": {
+      "exact": 94,
+      "none": 132,
+      "partial": 238
+    }
+  },
+  "part_a": {
+    "total": {
+      "rows": 464,
+      "confirm": 454,
+      "reject": 2,
+      "hold": 8,
+      "precision": 0.9784
+    },
+    "by_stratum": {
+      "exact": {
+        "rows": 94,
+        "confirm": 84,
+        "reject": 2,
+        "hold": 8,
+        "precision": 0.8936
+      },
+      "partial": {
+        "rows": 238,
+        "confirm": 238,
+        "reject": 0,
+        "hold": 0,
+        "precision": 1.0
+      },
+      "none": {
+        "rows": 132,
+        "confirm": 132,
+        "reject": 0,
+        "hold": 0,
+        "precision": 1.0
+      }
+    },
+    "verdict_sources": {
+      "r17-fresh": 23,
+      "heading-only-convention": 91,
+      "r1-id-verdict": 88,
+      "r6-id-verdict": 8,
+      "r13-carried": 233,
+      "r4-carried": 4,
+      "r10-id-verdict": 2,
+      "r9-carried": 3,
+      "r6-section-override": 3,
+      "r1-subsumed": 1,
+      "r14-id-verdict": 1,
+      "r14-section-override": 1,
+      "r1-section-override": 6
+    }
+  },
+  "substrate_shape": {
+    "rows": 922,
+    "anchored": 840,
+    "unresolved_span": 22,
+    "demoted": 2,
+    "uncovered_sp": 60,
+    "covered_codes": 128
+  },
+  "part_b": {
+    "rows": 82,
+    "defer": 82,
+    "surfaces": {
+      "C42 R1 surface-1 cleared span": 6,
+      "C42 R10 surface-2 DEMOTE (recorded, never forced)": 1,
+      "C42 R6 surface-1 cleared span": 12,
+      "C42 R14 surface-3 DEMOTE (recorded, never forced)": 1,
+      "C32 §3 residual (R1 KEPT UNRESOLVED)": 2,
+      "uncovered-SP corpus gap (128-code bound)": 60
+    }
+  },
+  "both_tier_wording": {
+    "standing_instruction": "the re-fill consults BOTH tier wordings (store Higher-operative + C30 ledger foundation.text) per the R1 key finding",
+    "signatures": {
+      "STORE_HIGHER": 415,
+      "LEDGER_FOUNDATION": 49
+    }
+  },
+  "gate": {
+    "rule": "Part A precision >= 90% per class AND every Part B row decided AND mechanical layer clean",
+    "outcome": "FAIL"
+  },
+  "disposition": "promotion NOT authorized; the defect inventory is recorded",
+  "mechanical_layer": "464/464 PASS"
+}
