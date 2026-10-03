@@ -1,0 +1,178 @@
+schema: c42-r20-section-overrides/1.0
+task: T-C42
+round: R18
+generated: '2026-10-04'
+source: scripts/c42_r18_repair_verdicts.yaml (section_overrides + extension_section_overrides + note_level_adjudications
+  + heading_only_convention)
+contract: 'consumed fail-closed by scripts/c40_maths_a_chunk_sp_substrate.py at the NEXT substrate re-build
+  (the R20-shaped lane) TOGETHER WITH scripts/c42_section_overrides.yaml (R1), scripts/c42_section_overrides_r6.yaml
+  (R6), scripts/c42_section_overrides_r10.yaml (R10) and scripts/c42_section_overrides_r14.yaml (R14)
+  — wiring this map into the tool is the re-build lane''s job (the R12/R16 precedent): an override naming
+  a code outside the ratified 188 fails the build; current_code must equal the join-derived code; a DEMOTE_TO_WORKLIST
+  entry moves the chunk row to the unresolved-span worklist with its recorded reason; extension entries
+  carry provenance_class ''extension'' (the R6 precedent, recorded zero-silent-repair). NO resolution-file
+  amendment this round: both note-level joins STAND (the R17 evidence), the resolution file stays byte-untouched,
+  counts 222/214/8'
+overrides:
+- note_slug: basic-angle-properties
+  chunk_ordinal: 1
+  mapping_id: 9c1ff91e80080d4b
+  current_code: 4MA1-4.1B
+  provenance_class: verdicted
+  action: DEMOTE_TO_WORKLIST
+  override_code: null
+  evidence: 'DEMOTE — the scope §4 R1 surface-3 menu''s second action, third exercise (R10 related-calculations
+    ord 2, R14 unit-conversions ord 2, here), the R17 menu''s ''DEMOTE/RETAIN decision'' exercised on
+    the R10/R14 precedent, recorded never forced. The section teaches LABELING conventions (line segment
+    AB from point A to point B, angle ABC at point B, acute vs obtuse not reflex, triangle ABC from its
+    segments, labels for line segments/angles/triangles/quadrilaterals) — 4.1B''s demand is ''use angle
+    properties of intersecting lines, parallel lines and angles on a straight line'' and the section teaches
+    no angle property at all (the R17 root''s own finding); not a tier artifact (4.1B is not a shared-tier
+    code — absent from the C30 ledger); no canonical 188 row teaches geometric labeling per se (the proposals
+    packet''s top-1 for this row is 4.1B itself at 0.167 — the scorer confirming the absence of any better
+    surface, a scorer artifact by construction, exactly the R14 mass-conversion-near-miss class of observation).
+    The note-level join STANDS via its property sections (ords 0/2/3 carry the basic angle facts — ord
+    0 CONFIRMed at R4; ord 4 is the R1 4.2B ruling), so a section-level REATTRIBUTE has no target and
+    a RETAIN would knowingly re-create the scope difference for the next re-gate to reject again: the
+    honest disposition is the menu''s DEMOTE — the chunk leaves the anchored surface for the unresolved-span
+    worklist, recorded with this reason, never forced. R17 row 9c1ff91e80080d4b. CONSEQUENCE: the unresolved-span
+    class grows 22 -> 23 at the next re-build (three DEMOTEs now incl. R10 + R14); 4.1B keeps its note-level
+    join and its coverage via ords 0/2/3'
+- note_slug: converting-between-fdp
+  chunk_ordinal: 2
+  mapping_id: 2c9be555e064b975
+  current_code: 4MA1-1.2G
+  provenance_class: extension
+  action: REATTRIBUTE
+  override_code: 4MA1-1.3D
+  evidence: 'EXTENSION row (not R17-sampled) — the section teaches converting a DECIMAL to a PERCENTAGE
+    (multiply by 100, move digits two places left and add a % sign: 0.35 -> 35%, 1.32 -> 132%, 0.004 ->
+    0.4%); 1.3D ''convert a decimal to a fraction or a percentage'' names the surface verbatim (the R17
+    census remark''s own finding — ''the same 1.3D surface''); leaving it on 1.2G (''convert a fraction
+    to a decimal or a percentage'', the forward direction) would knowingly re-create the inverse-direction
+    defect class the round repairs at ord 3; rides the same note-level standing (ords 5/6) as the verdicted
+    ord-3 row'
+- note_slug: converting-between-fdp
+  chunk_ordinal: 3
+  mapping_id: 73324fa2b6bd3433
+  current_code: 4MA1-1.2G
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-1.3D
+  evidence: 'the section teaches converting a DECIMAL to a FRACTION (place value over 10/100/10^n: 0.3
+    = 3/10, 1.1 = 11/10, 0.07 = 7/100, 30.01 = 3001/100, n decimal places over 10^n) — 1.2G''s demand
+    is ''convert a fraction to a decimal or a percentage'', the FORWARD direction, and the section teaches
+    the inverse operation; not a tier artifact (1.2G is not a shared-tier code — absent from the C30 ledger,
+    no foundation wording widens it); the canonical target EXISTS — 1.3D ''convert a decimal to a fraction
+    or a percentage'' is the section''s surface verbatim (a Foundation code, bare IGCSE_MATHS_A:1.3D id
+    per the R10 tier convention) — exactly the R9/R10 ord-1 repair shape (ord 1 percentage -> decimal
+    was REJECTed at R9 in these words and REATTRIBUTE''d to 1.6C by the R10 operator round; this row is
+    its decimal->fraction sibling, the R17 root''s own citation); the note-level join STANDS via its forward-conversion
+    sections (ords 5/6 teach fraction -> decimal and fraction -> percentage — the demand verbatim). R17
+    row 73324fa2b6bd3433. CONSEQUENCE: 1.3D gains chunk coverage at the next substrate re-build (the R12/R16
+    coverage-gain precedent: 1.6A + 1.6C at R12 via the R10 REATTRIBUTE rows, 4.1D at R16 via the R14
+    rows) — the 1.3D uncovered-SP DEFER row on the R17 worklist (a corpus gap at the 128-code bound) resolves
+    into anchored rows; coverage 128 -> 129 codes projected (129/188, 59 uncovered), the arithmetic landing
+    at the re-build/re-gate lanes, not asserted here'
+- note_slug: converting-between-fdp
+  chunk_ordinal: 4
+  mapping_id: 734603c6ddf10662
+  current_code: 4MA1-1.2G
+  provenance_class: extension
+  action: REATTRIBUTE
+  override_code: 4MA1-1.6C
+  evidence: 'EXTENSION row (not R17-sampled) — the section teaches converting a PERCENTAGE to a FRACTION
+    (write the percentage over 100: 37% = 37/100); 1.6C ''express a percentage as a fraction and as a
+    decimal'' is the surface verbatim — the same class the R10 round already repaired at ord 1 (percentage
+    -> decimal -> 1.6C, standing) and the R17 census remark''s own citation (''the 1.6C surface''); leaving
+    it on 1.2G would knowingly re-create the inverse-direction defect class; 1.6C already carries coverage
+    via the R10 ord-1 row (no census change projected)'
+note_level_adjudications:
+  converting-between-fdp:
+    anchor_id: spcpt_8MpvS5pnYkf9QswF
+    ruling: THE NOTE-LEVEL JOIN TO 1.2G STANDS (unchanged)
+    evidence: 'the note''s forward-conversion sections (ords 5/6: ''How do I convert from a fraction to
+      a decimal?'' and ''How do I convert from a fraction to a percentage?'') teach 1.2G''s demand ''convert
+      a fraction to a decimal or a percentage'' verbatim; the note''s inverse-direction sections are re-homed
+      section-by-section (ord 1 -> 1.6C standing from R10; ord 3 -> 1.3D verdicted here; ords 2/4 -> 1.3D/1.6C
+      extension rows here); ord 0 is the heading-only class resolved by the standing convention'
+    consequence: the resolution file is byte-untouched; the R18 override map carries the section-level
+      re-homing; 1.3D gains chunk coverage at the next re-build via the ord-3 verdicted row (plus the
+      ord-2 extension row)
+  basic-angle-properties:
+    anchor_id: spcpt_5FMXZMjqSZ3GK53q
+    ruling: THE NOTE-LEVEL JOIN TO 4.1B STANDS (unchanged)
+    evidence: 'the note''s property sections (ords 0/2/3: ''Basic angle properties'', ''What are the basic
+      angle properties?'', ''What are the angle properties of triangles?'') carry 4.1B''s demand ''use
+      angle properties of intersecting lines, parallel lines and angles on a straight line'' (ord 0 CONFIRMed
+      at R4); ord 4 is the R1 4.2B ruling (standing); the labeling primer (ord 1) is a notation primer
+      adjacent to the demand and DEMOTEs to the worklist section-level'
+    consequence: the resolution file is byte-untouched; 4.1B keeps its coverage and its note-level join;
+      the unresolved-span class grows 22 -> 23 at the next re-build
+heading_only_convention:
+  decision_id: c42-heading-only-convention-1
+  record: graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md
+  ruling_summary: 'STANDING, unchanged — no new decision this round. The 8 fresh H3 HOLD rows on the R17
+    sheet (drawing-straight-line-graphs ord 0, finding-inequalities-from-regions ord 0, standard-form
+    ord 0, working-with-vectors ord 0, expanding-single-brackets ord 2, listing-outcomes ord 0, classifying-stationary-points
+    ord 0, multiple-ratios ord 0) are the convention''s fail-closed branch working as designed: they are
+    NOT part of the 2-row repair inventory and take no R18 action. The draw variance 4 -> 8 rows between
+    R13 and R17 is STRUCTURAL (each re-gate re-seeds) and is recorded as an observation — the durable-
+    PASS question it raises (whether to widen H2 or re-scope the class) is menu option (b), the operator''s
+    call, never assumed. CONTINUITY NOTE (mechanically grounded in the R17 fill''s own source-base convention
+    — the H2 index is built from PRIOR re-gate records only): three of the eight now have R17-fresh CONTENT-row
+    CONFIRMs of the same note+code on the record and resolve via H2 at the next re-gate''s ladder replay
+    — standard-form ord 0 (1.9A; R17 fresh rows 0211af0e0b8a806d ord 3 + d7339b416c53ba5e ord 2), classifying-stationary-points
+    ord 0 (3.4C; R17 fresh row 59aec49753b23112 ord 1), working-with-vectors ord 0 (5.1F; R17 fresh row
+    7b279735e8877e9e ord 1); the other five stay H3 until evidence accumulates'
+  enforcement: the next re-gate fill resolves heading-only rows via the standing convention ladder — its
+    H2 index is built from PRIOR re-gate records only (R4/R9/R13/R17 at the next replay; the R17 fill's
+    own source-base convention), so the three H2-ready rows un-hold automatically; the re-build itself
+    needs no convention wiring (chunk identity is untouched)
+subsumed_prior_entries: []
+residual:
+  anchor_id: spcpt_QWXhzVp2S3VYZdZc
+  disposition: KEEP_UNRESOLVED
+observations:
+  contract: recorded for the operator, NOT verdicted, NOT overridden this round
+  items:
+  - id: scorer-noise-confirms-absence
+    note: the R18 proposals packet's top-1 for basic-angle-properties ord 1 is 4.1B ITSELF (score 0.167)
+      — the scorer, given the labeling-primer content, finds nothing better in the ratified 188 than the
+      row's own (wrong) code, which is the absence finding in scorer form; and its top-1 for converting-between-fdp
+      ord 3 is 2.3D (score 0.076, pure noise) while the true target 1.3D sits verbatim in the R17 root's
+      own citation — the verdicts adjudicate on the R17 root evidence + the ratified wordings, not on
+      the scorer (the R14 mass-conversion-near-miss precedent)
+  - id: gate-arithmetic-on-this-draw
+    note: 'the R17 menu''s arithmetic (''puts the exact stratum at 86/94 = 91.5% on this draw''s composition'')
+      is recorded but NOT claimed as a gate outcome — every re-gate re-seeds (the R13 -> R17 falsification
+      precedent: the projection was verified against a re-seeded draw and failed on the H3 variance plus
+      fresh rejects); the gate outcome is whatever the next re-gate (R21-shaped, fired only by explicit
+      operator instruction) actually computes'
+  - id: h3-draw-variance-structural
+    note: 'the heading-only H3 population moved 4 -> 8 between R13 and R17 under identical convention
+      mechanics — the variance is structural to the re-seeded draw, not a regression; a durable PASS likely
+      needs the H3 population addressed (menu option (b): widen H2, re-scope the class, or per-row operator
+      sign-off at R5) — the operator''s call, recorded here only as the menu restates it'
+  - id: eq-side-untouched
+    note: 'carried unchanged from R14: the EQ-side blast radius of any notes-lane re-point (referenced_by_parts
+      riding moved codes) stays a census item for a separate operator decision (the R0 pattern) — nothing
+      in this round touches EQ part tagging; this round moves no note-level code at all, so even the census
+      is unaffected here'
+  - id: expanding-squared-brackets-note-join
+    note: 'carried unchanged from R10/R14: the corpus''s ''Expanding Squared Brackets'' note also joins
+      2.2E and was NEVER sampled by any round''s reject surface — per the scope §7 discipline nothing
+      self-repairs beyond this round''s inventoried rows; recorded for a future operator look'
+  - id: accounting-sidecar-pre-existing-defect
+    note: 'environment finding, NOT an R18 defect and NOT repaired here: this session''s full SME-ExamQuestion
+      materialization (the workspace had lost it under the sparse checkout) let the standing sme_spcpt_verify.py
+      sweep the accounting pair for the first time in the C42 loop, exposing 53 G1/G2 failures (igcse-accounting-17-
+      financial-statements x6 + igcse-accounting-17-introduction-to- bookkeeping-and-accounting x47: ''foreign
+      code'' / ''resolution code not in registry'' on S4.069/S4.070/S4.071-class ids) — the T-KG-13 2026-09-24
+      accounting dedup rebuilt parsed/igcse-accounting/ spec_points.json while the 2026-09-19 T-SPEC-7
+      sidecars still reference the pre-dedup id family. The accounting inputs are byte-identical a5c5b71
+      -> HEAD (verified in the R18 audit), so the failure predates every C42 round; the earlier C7-class
+      greens ran under an incomplete EQ materialization that never swept the accounting dirs. Recorded
+      as a census item for a separate operator decision (the R0 pattern) — the R18 footprint never touches
+      the EQ/parse space; the audit asserts zero failures on the round''s own course surface (both igcse-maths-a
+      tiers + igcse-chemistry-19, all green) and confines every observed failure to the accounting pair'

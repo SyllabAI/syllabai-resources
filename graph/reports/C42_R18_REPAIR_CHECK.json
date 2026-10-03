@@ -1,0 +1,56 @@
+{
+ "schema": "c42-r18-repair-check/1.0",
+ "task": "T-C42",
+ "round": "R18",
+ "generated_utc": "2026-10-03T19:44:58+00:00",
+ "round_start_head": "cf1d8ad",
+ "checks": [
+  {
+   "check": "A1 inventory agreement (2 REJECT rows, 0 id-level, R17 record pins)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A2 projection agreement (4 entries: 2 verdicted + 2 census-remark extensions; 2 STANDING rulings; convention; residual)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A3 code domain (188 members, Foundation bare-id, DEMOTE null, currents match substrate)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A4 wordings verbatim + ledger absence (not-a-tier-artifact)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A5 joins STAND (1.2G/4.1B) + resolution byte-untouched vs cf1d8ad + verifier green on the round surface (accounting failures = pre-existing T-KG-13 class, recorded)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A6 substrate pins (4 mapping ids SUGGESTED at pinned codes) + 8 H3 HOLD rows",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A7 idempotency (projection + proposals byte-identical re-runs)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A8/A10 footprint + commit state [pre-commit (dirty 7, changed-vs-baseline 0, all within footprint)]",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A9 round artifacts (proposals surfaces 0/2/8 + residual + standing convention record)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "all_pass": true,
+ "exit": 0
+}
