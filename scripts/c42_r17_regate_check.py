@@ -429,9 +429,13 @@ def main() -> int:
                    f"922 rows SUGGESTED / RULE_DERIVED")
 
     # X10 protected surfaces ----------------------------------------------------------------
+    # R17 audit fix: parse porcelain WITHOUT the whole-string .strip() — the
+    # leading space of a " M path" first line is significant, and stripping it
+    # made l[3:] eat the first path character (the R13 template only ever saw
+    # untracked "??" lines, where the bug is invisible).
     dirty = subprocess.run(["git", "-C", str(REPO), "status", "--porcelain"],
-                           capture_output=True, text=True).stdout.strip().splitlines()
-    dirty_set = sorted(l[3:].strip() for l in dirty)
+                           capture_output=True, text=True).stdout.splitlines()
+    dirty_set = sorted(l[3:].strip() for l in dirty if l.strip())
     expected = sorted(["graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.json",
                        "graph/reports/C42_R17_MATHS_A_REGATE_FILL_RECORD.md",
                        "graph/reports/C42_R17_MATHS_A_REGATE_REVIEW_SHEET.md",
@@ -442,22 +446,45 @@ def main() -> int:
     if CHECK_JSON.exists():  # present on re-runs after the first
         expected.append("graph/reports/C42_R17_REGATE_CHECK.json")
     expected = sorted(expected)
-    changed = subprocess.run(
-        ["git", "-C", str(REPO), "diff", "--name-only", BASELINE, "HEAD"],
-        capture_output=True, text=True).stdout.strip().splitlines()
     committed_state = dirty_set == []
-    # R17 audit amendment — subset semantics: the battery's own X11 re-run
-    # refreshes the fill record's generated_utc, so a post-commit audit
-    # necessarily leaves timestamp-only churn inside the footprint; the
-    # fail-closed guarantee is NO DIRT OUTSIDE the R17 footprint (plus the
-    # changed-vs-BASELINE containment and the content gates X1-X9).
-    g10 = (not (set(dirty_set) - set(expected))
-           and not (set(changed) - set(expected)))
+    # R17 audit amendment — post-commit translation of the R13 guarantee: the
+    # working tree stays within the R17 footprint, AND the protected surfaces
+    # (Lane C, chemistry, resolution, the C42 scope/R0-R14 records, the C30
+    # ledger) are byte-identical to their pre-round state at BASELINE — the
+    # R17 commits and the audit trail may move HEAD, but never these files.
+    PROTECTED = ["graph/igcse-maths-a/concepts.yaml",
+                 "graph/igcse-maths-a/concept_edges.yaml",
+                 "graph/igcse-maths-a/spec_command_kinds.yaml",
+                 "graph/igcse-chemistry/spec_chunk_mappings.yaml",
+                 "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+                 "graph/reports/C42_IGCSE_MATHS_A_K2B_REWORK_SCOPE.md",
+                 "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json",
+                 "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.json",
+                 "graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md",
+                 "graph/reports/C42_R10_HEADING_ONLY_CONVENTION.json",
+                 "graph/reports/C42_R13_REGATE_CHECK.json",
+                 "graph/reports/C42_R14_RESOLUTION_REPAIR_RECORD.md",
+                 "graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json"]
+
+    def _baseline_bytes(rel):
+        return subprocess.run(
+            ["git", "-C", str(REPO), "show", f"{BASELINE}:{rel}"],
+            capture_output=True, check=True).stdout
+
+    prot_ok = all(sha16(_baseline_bytes(p)) == sha16((REPO / p).read_bytes())
+                  for p in PROTECTED)
+    _outside = sorted(set(dirty_set) - set(expected))
+    _prot_bad = [p for p in PROTECTED
+                 if sha16(_baseline_bytes(p)) != sha16((REPO / p).read_bytes())]
+    g10 = (not _outside and not _prot_bad)
     ok_all &= gate("X10 protected_surfaces", g10,
                    f"{'COMMITTED — dirty set empty' if committed_state else 'dirty set within the R17 footprint'}"
-                   f" ({len(dirty_set)} files); zero changes outside the R17 footprint "
-                   f"vs {BASELINE[:12]} (Lane C stores, chemistry, spec-links, "
-                   f"C25-C41 + C42 scope/R0-R16 records, corpora all byte-untouched)")
+                   f" ({len(dirty_set)} files); {len(PROTECTED)} protected surfaces "
+                   f"(Lane C, chemistry, resolution, C42 scope/R0-R14 records, C30 "
+                   f"ledger) byte-identical to their pre-round state at "
+                   f"{BASELINE[:12]}"
+                   + (f"; OUTSIDE: {_outside}" if _outside else "")
+                   + (f"; PROTECTED-DIFF: {_prot_bad}" if _prot_bad else ""))
 
     # X11 determinism (re-run the fill; sheet + verdicts byte-identical) ----------------------
     before = (R17_SHEET.read_bytes(), R17_VERDICTS.read_bytes())

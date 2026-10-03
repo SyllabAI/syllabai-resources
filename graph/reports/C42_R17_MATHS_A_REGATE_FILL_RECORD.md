@@ -1,6 +1,6 @@
 # C42 R17 — K2-B substrate RE-GATE fill record (operator gate 2 re-run evidence)
 
-**Generated:** 2026-10-03T17:42:21+00:00  |  **Baseline:** `d7b4172b71894aeec04fbe562f3261541f391118`
+**Generated:** 2026-10-03T17:51:11+00:00  |  **Baseline:** `4725bab645652def20fd110971423e9701939c87`
 **Reviewer:** Super Z (GLM agent), acting as operator-delegate under the operator's 'R15 (connection rerun) + R16 (substrate reconstruction), then R17 re-gating' directive (2026-10-04, zai-web); the human operator retains final sign-off; per the anti-forgery rule nothing here flips the store (the §18 apply is R5, operator gate 3)
 
 ## Method
