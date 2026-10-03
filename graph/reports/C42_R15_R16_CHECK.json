@@ -1,0 +1,49 @@
+{
+ "schema": "syllabai.c42-r15-r16-check/1.0",
+ "task": "T-C42 R15+R16 (join re-run + substrate re-build over the C42-R14-amended resolution; the operator directive's 'R15 (connection rerun) + R16 (substrate reconstruction)')",
+ "generated_utc": "2026-10-03T17:22:04+00:00",
+ "all_pass": true,
+ "gates": {
+  "W1_join_refresh": {
+   "pass": true,
+   "detail": "198/5/203 census UNCHANGED (0 anchors cleared at R14), 0 foreign; unresolved set == residual + 2 R1-cleared + 2 R6-cleared; resolution pin == amended disk file (b4539ab904c9a319); the R14 re-point landed verbatim (composite-functions -> 4MA1-3.2D); 2/2 R10 CORRECT codes landed verbatim (H-2.2A / H-2.2C); related-calculations STANDING at 1.8D"
+  },
+  "W2_substrate_shape": {
+   "pass": true,
+   "detail": "922 rows = 840 anchored + 22 unresolved-span worklist (incl. BOTH DEMOTEs: related-calculations ord 2 [R10] + unit-conversions ord 2 [R14], chunk identity intact) + 60 uncovered-SP; covered codes 128; all SUGGESTED/RULE_DERIVED"
+  },
+  "W3_chunk_identity_invariant": {
+   "pass": true,
+   "detail": "862 chunk rows: (note_path, ordinal, heading, sha256_16) multiset IDENTICAL to pre-R16 blob fe9166e8f31e4110 — only code attribution moved; both DEMOTEs kept their chunk blocks"
+  },
+  "W4_reattribution_audit": {
+   "pass": true,
+   "detail": "all 862 pre-R16 chunk rows replayed: 5 rows on the R14 re-pointed anchor re-attributed wholesale (3.3I -> 3.2D), 28 REATTRIBUTE override rows (R1 10 + R6 7 + R10 7 + R14 4) + 4 RETAIN rows recorded with provenance.override, 2 R1 entries ride the join via the R6 subsumption registry, 2 DEMOTE rows in the worklist class with their chunk identity (R10 + R14), 18 rows of the 4 cleared spans worklist, 803 non-surface rows zero-drift (incl. the related-calculations STANDING rows)"
+  },
+  "W5_coverage_worklist": {
+   "pass": true,
+   "detail": "covered 127 -> 128 of 188; gained ['4MA1-4.1D'] (4.1D — the sole previously-uncovered R14 REATTRIBUTE target); lost []; worklist complete; mapping_ids unique"
+  },
+  "W6_protected_surfaces": {
+   "pass": true,
+   "detail": "PRE-COMMIT — dirty set == the R15/R16 footprint (8 paths); Lane C stores, chemistry substrate, the R14-amended resolution, the C42 scope/R0-R14 records byte-identical to HEAD af3b80d6"
+  },
+  "W7_determinism": {
+   "pass": true,
+   "detail": "substrate re-run byte-identical; join re-run content-identical modulo generated_utc"
+  }
+ },
+ "pins": {
+  "head": "af3b80d6",
+  "old_join_blob": "c31b2f4dbfa57110e4ad2af9872c3c2f6ad510fa",
+  "old_store_blob": "fe9166e8f31e4110b357d7df8da90f2c7a057f69",
+  "amended_resolution_sha256_16": "b4539ab904c9a319",
+  "join_198_5": true,
+  "store_rows": 922,
+  "anchored": 840,
+  "unresolved_span_worklist": 22,
+  "demoted_worklist": 2,
+  "unmapped_sps": 60,
+  "covered_codes": 128
+ }
+}

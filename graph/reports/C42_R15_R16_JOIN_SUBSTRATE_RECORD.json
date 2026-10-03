@@ -1,0 +1,75 @@
+{
+ "schema": "syllabai.c42-r15-r16-record/1.0",
+ "task": "T-C42 R15+R16",
+ "date": "2026-10-04",
+ "baseline": "af3b80d6",
+ "record_md": "graph/reports/C42_R15_R16_JOIN_SUBSTRATE_RECORD.md",
+ "check": {
+  "head": "af3b80d6",
+  "old_join_blob": "c31b2f4dbfa57110e4ad2af9872c3c2f6ad510fa",
+  "old_store_blob": "fe9166e8f31e4110b357d7df8da90f2c7a057f69",
+  "amended_resolution_sha256_16": "b4539ab904c9a319",
+  "join_198_5": true,
+  "store_rows": 922,
+  "anchored": 840,
+  "unresolved_span_worklist": 22,
+  "demoted_worklist": 2,
+  "unmapped_sps": 60,
+  "covered_codes": 128
+ },
+ "all_pass": true,
+ "coverage_movement": {
+  "from": 127,
+  "to": 128,
+  "gained": ["4MA1-4.1D"],
+  "lost": []
+ },
+ "substrate_shape": {
+  "rows": 922,
+  "anchored": 840,
+  "unresolved_span": 22,
+  "demoted": 2,
+  "uncovered_sp": 60
+ },
+ "footprint": [
+  "scripts/c32_notes_maths_a_join.py (R15 amendment)",
+  "scripts/c40_maths_a_chunk_sp_substrate.py@2.3.0 (R16 amendment)",
+  "scripts/c42_r15_r16_join_substrate_check.py",
+  "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+  "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+  "graph/reports/C42_R15_R16_CHECK.json",
+  "graph/reports/C42_R15_R16_JOIN_SUBSTRATE_RECORD.md",
+  "graph/reports/C42_R15_R16_JOIN_SUBSTRATE_RECORD.json"
+ ],
+ "lanes": {
+  "r15_join_rerun": {
+   "census": "198 joined / 5 unresolved / 203 anchors / 0 foreign codes — UNCHANGED (R14 cleared 0 anchors; resolution counts stay 222/214/8)",
+   "repoint": "composite-functions joins 4MA1-3.2D verbatim (the R14 note-level re-point; anchor spcpt_XWbj3PG2n8tdWF2w, score 1.0)",
+   "r10_pins": "expanding-triple-brackets -> 4MA1-2.2A; algebraic-fractions -> 4MA1-2.2C; related-calculations STANDING at 4MA1-1.8D",
+   "anchors_by_tier": "Foundation 82/Higher 116 -> 81/117 (the re-pointed anchor crossed Foundation 3.3I -> Higher 3.2D)",
+   "wording_census": "EXACT 173 / LEDGER_EXPLAINABLE 25 — unchanged",
+   "in_generator_pins": "the R15 amendment pins the exact unresolved id set AND the exact codes of all four ruled joins (the R14 re-point + the 2 R10 CORRECT codes + the R10 STANDING pin) — any drift fails closed"
+  },
+  "r16_substrate_rebuild": {
+   "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@2.3.0 under a dated T-C42 R16 amendment",
+   "maps_consumed": "FOUR operator section-override maps consumed FAIL-CLOSED: R1 (16 entries), R6 (7 incl. the 2-key subsumption registry), R10 (8 verdicted entries incl. the loop's first DEMOTE), R14 (5 verdicted entries: 4 REATTRIBUTE + the loop's second DEMOTE_TO_WORKLIST)",
+   "note_level_pins_verified_in_generator": "R10 STANDING (related-calculations -> 1.8D on spcpt_crKbmb6wVjM4yPJh) + R14 RE-POINT (composite-functions -> 3.2D on spcpt_XWbj3PG2n8tdWF2w)",
+   "demote_tag_amendment": "the DEMOTE disposition tag is now DERIVED from the consuming map's operator_round (the R12 hard-code pinned only the first DEMOTE's round; deriving reproduces the R10 string byte-for-byte and records the R14 DEMOTE under its own round) — fail-closed on an unparsable round",
+   "result": "922 rows = 840 anchored + 22 unresolved-span worklist (incl. BOTH DEMOTEs, chunk identity intact) + 60 uncovered-SP worklist (was 923 = 841 + 21 + 61)"
+  }
+ },
+ "w4_reattribution_census": {
+  "rows_replayed": 862,
+  "wholesale_repoint_rows": 5,
+  "reattribute_override_rows": 28,
+  "reattribute_split": {"R1": 10, "R6": 7, "R10": 7, "R14": 4},
+  "retain_rows": 4,
+  "subsumed_rows": 2,
+  "demote_rows": 2,
+  "cleared_span_rows": 18,
+  "zero_drift_rows": 803
+ },
+ "chunk_identity_invariant": "the (note_path, ordinal, heading, sha256_16) multiset of all 862 chunk rows IDENTICAL to the pre-R16 blob fe9166e8f31e4110 — only code attribution moved; both DEMOTEs kept their chunk blocks",
+ "verification": "scripts/c42_r15_r16_join_substrate_check.py -> graph/reports/C42_R15_R16_CHECK.json (W1-W7 ALL PASS, exit 0; deterministic re-run byte-stable)",
+ "zero_promotion": "the substrate stays SUGGESTED (all 922 rows RULE_DERIVED/SUGGESTED re-verified); the C41-promoted 73 HUMAN_VALIDATED edges byte-untouched; the §18 apply stays R5 (operator gate 3)"
+}

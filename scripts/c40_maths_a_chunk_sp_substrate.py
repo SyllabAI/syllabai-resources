@@ -2,6 +2,42 @@
 """c40 — the maths-a chunk→SpecificationPoint mapping substrate (T-C40 K2 Lane B;
 the c13-chunk-convention-1 construction instantiated for the SME JSON notes corpus).
 
+T-C42 R16 AMENDMENT (2026-10-04, dated per P5 — this generator re-pinned again,
+landed records never edited): substrate re-build over the C42-R14-amended
+resolution via the R15-refreshed T-C32 join. Four semantic changes, everything
+else untouched:
+  a. the pinned join census STAYS 198+5 (the R14 round re-pointed 1 code —
+     Composite Functions 3.3I -> 3.2D, the note-level re-point, whose 5 store
+     rows re-attribute wholesale — and cleared 0 anchors; the related-
+     calculations NOTE-LEVEL STANDING pin is re-verified fail-closed, and the
+     guard below ALSO verifies the composite-functions re-point at 4MA1-3.2D
+     on spcpt_XWbj3PG2n8tdWF2w);
+  b. the operator section-override maps are consumed FAIL-CLOSED — the R1 map
+     (16 entries), the R6 map (7 entries incl. 2 subsumed-registry keys), the
+     R10 map (8 verdicted entries: 7 REATTRIBUTE + the loop's first DEMOTE)
+     AND the R14 map scripts/c42_section_overrides_r14.yaml (5 verdicted
+     entries: 4 REATTRIBUTE + the loop's second DEMOTE_TO_WORKLIST,
+     unit-conversions ord 2 — metric mass conversion, no canonical 188 row
+     teaches it, REATTRIBUTE has no target, RETAIN would re-create the scope
+     difference for the R17 re-gate to reject again). Every applied entry must
+     hit exactly one emitted chunk row, its current_code must equal the
+     join-derived code, REATTRIBUTE targets must sit in the ratified registry,
+     and any override naming a code outside the ratified 188 fails the build.
+     Applied rows carry provenance.override with the map sha — the R17 re-fill
+     sees exactly what the operator ruled;
+  c. coverage + the uncovered-SP worklist are RECOMPUTED from the refreshed
+     surface (gained/lost computed, never assumed — the W5 convention);
+  d. the pinned substrate shape moves 841 anchored + 21 unresolved-span ->
+     840 anchored + 22 unresolved-span (the second DEMOTE; coverage and the
+     uncovered-SP count recomputed) — verified by
+     scripts/c42_r15_r16_join_substrate_check.py.
+CHUNK IDENTITY INVARIANT: the chunker, the c40-chunk-convention-1 convention
+and the corpus are untouched — note_path/ordinal/heading/sha256_16 never move;
+only code attribution changes (and one row's move to the worklist class with
+its chunk block intact). Verified old-blob vs new-file by
+scripts/c42_r15_r16_join_substrate_check.py against the pinned pre-R16 blob
+(the af3b80d6/R14-era store).
+
 T-C42 R12 AMENDMENT (2026-10-03, dated per P5 — this generator re-pinned again,
 landed records never edited): substrate re-build over the C42-R10-amended
 resolution via the R11-refreshed T-C32 join. Four semantic changes, everything
@@ -163,7 +199,7 @@ import graph_paths as GP  # C28 §3.2 path registry — single source of ratifie
 import yaml
 
 TOOL = "scripts/c40_maths_a_chunk_sp_substrate.py"
-TOOL_VERSION = "2.2.0"
+TOOL_VERSION = "2.3.0"
 CONVENTION_ID = "c40-chunk-convention-1"
 QUAL = "igcse-maths-a"
 COURSE = "igcse-maths-a-18-higher"
@@ -173,6 +209,7 @@ JOIN = ("Official-Specifications/parsed/_derived/notes-join/"
 OVERRIDES_R1 = "scripts/c42_section_overrides.yaml"
 OVERRIDES_R6 = "scripts/c42_section_overrides_r6.yaml"
 OVERRIDES_R10 = "scripts/c42_section_overrides_r10.yaml"
+OVERRIDES_R14 = "scripts/c42_section_overrides_r14.yaml"
 # surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
 # wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
 # residual that was already unresolved
@@ -643,12 +680,19 @@ def construct() -> dict:
                     "the chunk."
                 n_reattr += 1
             elif action == "DEMOTE_TO_WORKLIST":
-                # T-C42 R12: the loop's first DEMOTE (scope §4 R1 menu's second
-                # action) — the chunk row LEAVES the anchored surface for the
-                # unresolved-span worklist class, RECORDED never forced, with
-                # its chunk identity intact (the W3 invariant holds).
+                # T-C42 R12 (the loop's first DEMOTE) / R16 (the second): the
+                # chunk row LEAVES the anchored surface for the unresolved-span
+                # worklist class, RECORDED never forced, with its chunk identity
+                # intact (the W3 invariant holds). R16 amendment: the disposition
+                # tag is DERIVED from the consuming map's operator_round — the
+                # R12 hard-code pinned only the first DEMOTE's round; deriving
+                # reproduces the R10 string byte-for-byte and records the R14
+                # DEMOTE under its own round, fail-closed on an unparsable round.
                 if e.get("override_code") is not None:
                     fail(f"R8: override {k} DEMOTE carries override_code")
+                _m = re.match(r"(C42 R\d+) \(surface (\d+):", operator_round)
+                if not _m:
+                    fail(f"R16: DEMOTE round tag unparsable: {operator_round!r}")
                 rw["provenance"]["override"] = block
                 rw["spec_code"] = None
                 rw.pop("sp_title", None)
@@ -663,7 +707,7 @@ def construct() -> dict:
                 rw["disposition"] = (
                     "WORKLIST — chunk-level mapping waits on fresh notes "
                     "coverage or a new operator anchor; recorded, not "
-                    "forced (C42 R10 surface 2 demote)")
+                    f"forced ({_m.group(1)} surface {_m.group(2)} demote)")
                 n_demote += 1
             else:  # RETAIN — no code change; recorded so the re-fill sees the ruling
                 if e.get("override_code") is not None:
@@ -699,6 +743,10 @@ def construct() -> dict:
                                               "loop's first DEMOTE_TO_WORKLIST)",
                                expect_entries=8, expect_reattr=7, expect_retain=0,
                                expect_demote=1)
+    ov_r14 = consume_overrides(OVERRIDES_R14, "C42 R14 (surface 3: 4 REATTRIBUTE + the "
+                                              "loop's second DEMOTE_TO_WORKLIST)",
+                               expect_entries=5, expect_reattr=4, expect_retain=0,
+                               expect_demote=1)
 
     # T-C42 R12: the R10 map's note-level adjudication pins the
     # related-calculations anchor as STANDING — verify the refreshed join
@@ -713,6 +761,20 @@ def construct() -> dict:
     if _rc_code != "4MA1-1.8D" or _r10_adj.get("anchor_id") != "spcpt_crKbmb6wVjM4yPJh":
         fail(f"R12: the STANDING pin drifted — related-calculations joins "
              f"{_rc_code!r} (want 4MA1-1.8D on spcpt_crKbmb6wVjM4yPJh)")
+
+    # T-C42 R16: the R14 map's note-level adjudication pins the
+    # composite-functions anchor as RE-POINTED 3.3I -> 3.2D — verify the
+    # refreshed join carries 4MA1-3.2D for that note, fail-closed.
+    _r14_adj = (yaml.safe_load(r.read_bytes(OVERRIDES_R14).decode("utf-8"))
+                .get("note_level_adjudications") or {}).get("composite-functions") or {}
+    if _r14_adj.get("ruling") != "THE NOTE-LEVEL JOIN IS RE-POINTED 3.3I -> 3.2D":
+        fail("R16: the R14 note-level adjudication for composite-functions is "
+             "missing or has drifted")
+    _cf_code = next((j["store_row_code"] for j in jrows
+                     if j["note_path"].endswith("composite-functions.json")), None)
+    if _cf_code != "4MA1-3.2D" or _r14_adj.get("anchor_id") != "spcpt_XWbj3PG2n8tdWF2w":
+        fail(f"R16: the re-point pin drifted — composite-functions joins "
+             f"{_cf_code!r} (want 4MA1-3.2D on spcpt_XWbj3PG2n8tdWF2w)")
 
     # worklist: uncovered SPs (registry minus notes-covered codes)
     covered = sorted({x["spec_code"] for x in rows if x.get("spec_code")})
@@ -780,16 +842,16 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
-            "stage": "T-C42 R12: substrate re-build over the C42-R10-amended "
-                     "resolution via the R11-refreshed T-C32 join — chunk "
+            "stage": "T-C42 R16: substrate re-build over the C42-R14-amended "
+                     "resolution via the R15-refreshed T-C32 join — chunk "
                      "identity invariant, only code attribution moves (plus one "
                      "row's DEMOTE to the worklist class, chunk block intact); "
-                     "the THREE operator section-override maps (R1 + R6 with "
+                     "the FOUR operator section-override maps (R1 + R6 with "
                      "the subsumption registry + R10 with the loop's first "
-                     "DEMOTE and the note-level STANDING pin) consumed "
-                     "fail-closed; coverage + the uncovered-SP worklist "
-                     "recomputed (the R9-era 125-code bound stays on its own "
-                     "record as a measurement under the pre-R10 mapping)",
+                     "DEMOTE and the note-level STANDING pin + R14 with the "
+                     "loop's second DEMOTE and the composite-functions re-point "
+                     "pin) consumed fail-closed; coverage + the uncovered-SP "
+                     "worklist recomputed (gained/lost computed, never assumed)",
             "convention": CONVENTION_ID,
             "convention_spec": (
                 "a note = SP spans split at the corpus's own `spec_point` blocks; "

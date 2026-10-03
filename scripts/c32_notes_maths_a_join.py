@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 """c32_notes_maths_a_join.py — T-C32 (K2-A) Lane A builder for igcse-maths-a.
 
+T-C42 R15 AMENDMENT (2026-10-04, dated per P5 — landed records never edited,
+this generator re-pinned again): re-run over the C42-R14-amended resolution
+substrate. The R14 verdict round (the scope §7 loop's fourth R1-shaped round,
+graph/reports/C42_R14_RESOLUTION_REPAIR_RECORD.md) re-pointed 1 code
+(Composite Functions H-3.3I -> H-3.2D, the note-level re-point — all 5 of the
+note's store rows re-attribute wholesale), recorded 4 section-level
+REATTRIBUTE + 1 DEMOTE overrides for the R16 substrate build, kept the C32 §3
+residual KEPT UNRESOLVED, and cleared 0 anchors (resolution counts stay
+222/214/8). The pinned census therefore stays 198 joined / 5 unresolved, and
+the guard below additionally pins the EXACT code the re-pointed join must now
+carry — any other drift fails closed.
+
 T-C42 R11 AMENDMENT (2026-10-03, dated per P5 — landed records never edited,
 this generator re-pinned again): re-run over the C42-R10-amended resolution
 substrate. The R10 verdict round (the scope §7 loop's third R1-shaped round,
@@ -350,8 +362,8 @@ def main() -> int:
 
     doc = {
         "schema": "syllabai.notes-spec-point-join/1.0",
-        "task": "T-C42 R11: T-C32 (K2-A Lane A) join re-run over the "
-                "C42-R10-amended resolution (igcse-maths-a)",
+        "task": "T-C42 R15: T-C32 (K2-A Lane A) join re-run over the "
+                "C42-R14-amended resolution (igcse-maths-a)",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "generator": "scripts/c32_notes_maths_a_join.py",
         "lane": "A (T-C10-pattern note-level mapping) of the C28 §6-K2 sequence",
@@ -366,12 +378,17 @@ def main() -> int:
             "R1-shaped verdict round over the R9 defect inventory 2026-10-03 — "
             "2 id-level repairs, the related-calculations note-level join "
             "adjudicated STANDING, 7+1 section-level dispositions incl. the "
-            "loop's first DEMOTE, and c42-heading-only-convention-1; see "
-            "C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json, "
-            "C42_R6_RESOLUTION_REPAIR_RECORD.json and "
-            "C42_R10_RESOLUTION_REPAIR_RECORD.md) on the resolution "
+            "loop's first DEMOTE, and c42-heading-only-convention-1; C42 R14 "
+            "R1-shaped verdict round over the R13 re-gate's 6-row defect "
+            "inventory 2026-10-04 — 1 id-level re-point (Composite Functions "
+            "3.3I -> 3.2D, the note's 5 store rows re-attribute wholesale), "
+            "4+1 section-level dispositions incl. the loop's second DEMOTE, "
+            "0 anchors cleared; see C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json, "
+            "C42_R6_RESOLUTION_REPAIR_RECORD.json, "
+            "C42_R10_RESOLUTION_REPAIR_RECORD.md and "
+            "C42_R14_RESOLUTION_REPAIR_RECORD.md) on the resolution "
             "substrate; JOIN: deterministic id lookup, machine-gated by the C42 "
-            "R11 postcondition in this generator (the C40-era c32_k2a_check.py "
+            "R15 postcondition in this generator (the C40-era c32_k2a_check.py "
             "battery pins its own 2026-09 landing census and is historical); "
             "NO HUMAN_VALIDATED claim is made by this artifact — an operator "
             "spot-check round can upgrade the tier on record via a dated "
@@ -403,23 +420,26 @@ def main() -> int:
     }
 
     # ---- fail-closed postconditions -----------------------------------------
-    # T-C42 R11 census (post the C42-R10-amended resolution): 198 joined /
-    # 5 unresolved — the R10 round corrected 2 codes and cleared 0 anchors, so
-    # the census is UNCHANGED from R7: the C31 §3 residual KEPT UNRESOLVED at
+    # T-C42 R15 census (post the C42-R14-amended resolution): 198 joined /
+    # 5 unresolved — the R14 round re-pointed 1 code (Composite Functions
+    # 3.3I -> 3.2D, the note-level re-point) and cleared 0 anchors, so the
+    # census is UNCHANGED from R7/R11: the C31 §3 residual KEPT UNRESOLVED at
     # R1 + the 2 anchors the R1 round cleared + the 2 anchors the R6 round
-    # cleared. Exact id set pinned; anything else fails closed. NEW at R11:
-    # the two re-pointed joins must carry EXACTLY the R10-corrected codes
-    # (verbatim-landed proof, the R7 battery's W1 analog pinned in-generator).
-    R11_UNRESOLVED = {
+    # cleared. Exact id set pinned; anything else fails closed. NEW at R15:
+    # the re-pointed composite-functions join must carry EXACTLY the
+    # R14-corrected code (verbatim-landed proof, the R11 battery's W1 analog
+    # pinned in-generator; the R10 pins stay — their rulings still stand).
+    R15_UNRESOLVED = {
         "spcpt_QWXhzVp2S3VYZdZc",  # 'Discrete & Continuous Data' — C31 §3 residual
         "spcpt_8Wtthy9gt8B5xsVW",  # 'Mathematical Symbols' — cleared at R1
         "spcpt_3fMGfNtg3hXMg6gC",  # 'Problem Solving with Areas' — cleared at R1
         "spcpt_mVXT4jbXQPrzhHvz",  # 'Problem Solving with Volumes' — cleared at R6
         "spcpt_hK2H8q4Y8NYv833v",  # 'Geometrical Proof' — cleared at R6
     }
-    R11_VERBATIM_CODES = {
-        # note_path -> the exact store_row_code the R10 round landed (verdict:
-        # CORRECT; the related-calculations anchor adjudicated STANDING at 1.8D)
+    R15_VERBATIM_CODES = {
+        # note_path -> the exact store_row_code the landed operator rulings pin
+        # (R14 CORRECT re-point + the R10 CORRECT pair + the R10 STANDING pin)
+        "notes/3-sequences-functions-and-graphs/functions/composite-functions.json": "4MA1-3.2D",
         "notes/2-equations-formulae-and-identities/expanding-brackets/expanding-triple-brackets.json": "4MA1-2.2A",
         "notes/2-equations-formulae-and-identities/algebraic-fractions/algebraic-fractions.json": "4MA1-2.2C",
         "notes/1-numbers-and-the-number-system/number-toolkit/related-calculations.json": "4MA1-1.8D",
@@ -429,12 +449,12 @@ def main() -> int:
     if not (c["joined"] == 198 and c["unresolved_recorded"] == 5
             and c["anchors_total"] == 203 and c["foreign_codes"] == 0):
         fail(f"postcondition drift: {json.dumps(c)}")
-    if got_unres != R11_UNRESOLVED:
+    if got_unres != R15_UNRESOLVED:
         fail(f"unresolved id set drift: {sorted(got_unres)}")
-    for np_, want in R11_VERBATIM_CODES.items():
+    for np_, want in R15_VERBATIM_CODES.items():
         got = next((j["store_row_code"] for j in doc["joins"] if j["note_path"] == np_), None)
         if got != want:
-            fail(f"R11 verbatim-code pin: {np_} carries {got!r} != {want!r}")
+            fail(f"R15 verbatim-code pin: {np_} carries {got!r} != {want!r}")
     if len(doc["joins"]) + len(doc["unresolved"]) != 203:
         fail("join+unresolved != anchors")
 
