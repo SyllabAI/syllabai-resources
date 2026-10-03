@@ -2,7 +2,7 @@
  "schema": "c42-r14-resolution-repair-check/1.0",
  "task": "T-C42",
  "round": "R14",
- "generated_utc": "2026-10-03T16:37:49+00:00",
+ "generated_utc": "2026-10-03T16:39:23+00:00",
  "pre_r14_baseline_commit": "a953eec",
  "baseline_blob_sha16": "247e02062f1d4ed9",
  "checks": [
@@ -43,8 +43,8 @@
   },
   {
    "check": "C8 R14 round committed and git-clean",
-   "pass": false,
-   "detail": "['SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json', 'graph/reports/C42_R14_REPAIR_PROPOSALS.json', 'graph/reports/C42_R14_RESOLUTION_REPAIR_RECORD.md', 'scripts/c42_r14_repair_proposals.py', 'scripts/c42_r14_repair_verdicts.yaml', 'scripts/c42_r14_resolution_repair_apply.py']"
+   "pass": true,
+   "detail": ""
   },
   {
    "check": "C9 round artifacts (proposals surfaces 1/5/4 + standing convention record)",
@@ -52,6 +52,6 @@
    "detail": ""
   }
  ],
- "all_pass": false,
- "exit": 1
+ "all_pass": true,
+ "exit": 0
 }
