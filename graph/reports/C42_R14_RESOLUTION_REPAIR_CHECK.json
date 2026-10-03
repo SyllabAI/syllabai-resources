@@ -1,0 +1,57 @@
+{
+ "schema": "c42-r14-resolution-repair-check/1.0",
+ "task": "T-C42",
+ "round": "R14",
+ "generated_utc": "2026-10-03T16:37:49+00:00",
+ "pre_r14_baseline_commit": "a953eec",
+ "baseline_blob_sha16": "247e02062f1d4ed9",
+ "checks": [
+  {
+   "check": "C1 verdicts<->file agreement",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C2 counts (222/214/8, zero cleared)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C3 zero-drift (220 non-surface rows)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C4 code domain (0 foreign)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C5 top-level R14 block + R1/R6/R10 history + clause + convention refs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C6 idempotency (verify-only re-run)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C7 override projection + re-point + convention + sme_spcpt_verify (BASE re-pointed)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C8 R14 round committed and git-clean",
+   "pass": false,
+   "detail": "['SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json', 'graph/reports/C42_R14_REPAIR_PROPOSALS.json', 'graph/reports/C42_R14_RESOLUTION_REPAIR_RECORD.md', 'scripts/c42_r14_repair_proposals.py', 'scripts/c42_r14_repair_verdicts.yaml', 'scripts/c42_r14_resolution_repair_apply.py']"
+  },
+  {
+   "check": "C9 round artifacts (proposals surfaces 1/5/4 + standing convention record)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "all_pass": false,
+ "exit": 1
+}

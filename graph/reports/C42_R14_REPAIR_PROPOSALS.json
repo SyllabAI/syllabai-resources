@@ -1,0 +1,283 @@
+{
+ "schema": "syllabai.c42-r14-repair-proposals/1.0",
+ "task": "T-C42 / R14 (the fourth R1-shaped verdict round, over the R13 defect inventory)",
+ "directive": "R14-shaped round over the 6 rows (2026-10-04, zai-web)",
+ "method": "0.5*difflib(name, wording) + 0.5*token-jaccard + 0.10 section-prior, scored against BOTH tier wordings (store operative + C30 ledger foundation.text, better-of-two recorded); name_text = note title + the note's own chunk headings (surface 1) or chunk heading + evidence note (surface 2); PROPOSAL-ONLY — binds nothing; top-1 candidates are deliberately published as noisy; PMT excluded as source; the operator verdict round decides. Surface 3 (the 4 H3 HOLD rows) is LISTED not scored — they ride the STANDING convention c42-heading-only-convention-1 and un-hold at the R17 re-gate via H1/H2; see graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md",
+ "surface1_id_level": [
+  {
+   "anchor_id": "spcpt_XWbj3PG2n8tdWF2w",
+   "note_path": "notes/3-sequences-functions-and-graphs/functions/composite-functions.json",
+   "note_title": "Composite Functions",
+   "sme_name": "Composite Functions",
+   "wrong_code": "4MA1-3.3I",
+   "wrong_code_wording": "recognise, generate points and plot graphs of linear and quadratic functions",
+   "r13_reject_rows": 1,
+   "store_rows_on_the_note": 5,
+   "note_headings": [
+    "Composite functions",
+    "What is a composite function?",
+    "What notation is used for composite functions?",
+    "How do I substitute numbers into composite functions?",
+    "How do I find composite functions algebraically?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-2.1A",
+     "wording_store": "use index notation involving fractional, negative and zero powers",
+     "wording_ledger": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
+     "score": 0.2404,
+     "score_store": 0.1409,
+     "score_ledger": 0.2404,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-3.3C",
+     "wording_store": "interpret and analyse transformations of functions and write the functions algebraically",
+     "wording_ledger": "plot points(x, y)in any of the four quadrants or locate points with given coordinates",
+     "score": 0.2254,
+     "score_store": 0.2254,
+     "score_ledger": 0.0669,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-1.7A",
+     "wording_store": "use ratio notation, including reduction to its simplest form and its various links to fraction notation",
+     "wording_ledger": null,
+     "score": 0.2044,
+     "score_store": 0.2044,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  }
+ ],
+ "surface2_section_level": [
+  {
+   "note_path": "notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json",
+   "chunk_ordinal": 1,
+   "heading": "How do I share an amount in a given ratio?",
+   "current_code": "4MA1-1.7E",
+   "root": "section-level",
+   "fill_note": "the section teaches SHARING an amount in a given ratio (add the parts, value of one part, scale) — 1.7B verbatim ('divide a quantity in a given ratio or ratios'); 1.7E's demand is 'solve word problems about ratio and proportion' and the note carries that surface on its word-problem sections (ord 3 CONFIRMed in the same draw) — the exact inverse of the R9 ratios-and-fdp ord-2 finding; the note-level join stands via its word-problem sections; recorded for the operator, never self-repaired",
+   "top_candidates": [
+    {
+     "code": "4MA1-4.11A",
+     "wording_store": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+     "wording_ledger": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
+     "score": 0.1563,
+     "score_store": 0.0966,
+     "score_ledger": 0.1563,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.8F",
+     "wording_store": "apply trigonometrical methods to solve problems in three dimensions, including finding the angle between a line and a plane",
+     "wording_ledger": null,
+     "score": 0.1553,
+     "score_store": 0.1553,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-2.5A",
+     "wording_store": "set up problems involving direct or inverse proportion and relate algebraic solutions to graphical representation of the equations",
+     "wording_ledger": null,
+     "score": 0.1432,
+     "score_store": 0.1432,
+     "score_ledger": null,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json",
+   "chunk_ordinal": 2,
+   "heading": "What are the names of the different types of triangles?",
+   "current_code": "4MA1-4.2C",
+   "root": "section-level",
+   "fill_note": "the section names the TYPES of triangles (equilateral, isosceles, scalene, right-angled) with their side/angle properties — 4.1D verbatim ('understand the terms isosceles, equilateral and right-angled triangles and the angle properties of these triangles'); 4.2C's demand is the parallelogram/rectangle/square/rhombus/trapezium/kite family and triangles are not in it; the note-level join stands via its quadrilateral sections (ords 4-7) — recorded for the operator, never self-repaired",
+   "top_candidates": [
+    {
+     "code": "4MA1-4.1D",
+     "wording_store": "understand the terms ‘isosceles’, ‘equilateral’ and ‘right-angled triangles’ and the angle properties of these triangles",
+     "wording_ledger": null,
+     "score": 0.2877,
+     "score_store": 0.2877,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.2C",
+     "wording_store": "understand and use the properties of the parallelogram, rectangle, square, rhombus, trapezium and kite",
+     "wording_ledger": null,
+     "score": 0.2338,
+     "score_store": 0.2338,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.2B",
+     "wording_store": "understand and use the term ‘quadrilateral’ and the angle sum property of quadrilaterals",
+     "wording_ledger": null,
+     "score": 0.1373,
+     "score_store": 0.1373,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json",
+   "chunk_ordinal": 8,
+   "heading": "What terms related to circles do I need to know?",
+   "current_code": "4MA1-4.2C",
+   "root": "section-level",
+   "fill_note": "the section teaches CIRCLE terminology (circumference, diameter, radius, centre) — the FOUNDATION wording of 4.6A per the C30 ledger ('recognise the terms centre, radius, chord, diameter, circumference...'); 4.2C's demand is the parallelogram-family properties and circles are not in it; the note-level join stands via its quadrilateral sections (ords 4-7) — recorded for the operator, never self-repaired",
+   "top_candidates": [
+    {
+     "code": "4MA1-4.6A",
+     "wording_store": "understand and use the internal and external intersecting chord properties",
+     "wording_ledger": "recognise the terms ‘centre’, ‘radius’, ‘chord’, ‘diameter’, ‘circumference’, ‘tangent’, ‘arc’, ‘sector’ and ‘segment’ of a circle",
+     "score": 0.2484,
+     "score_store": 0.1044,
+     "score_ledger": 0.2484,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.1D",
+     "wording_store": "understand the terms ‘isosceles’, ‘equilateral’ and ‘right-angled triangles’ and the angle properties of these triangles",
+     "wording_ledger": null,
+     "score": 0.141,
+     "score_store": 0.141,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-3.3E",
+     "wording_store": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+     "wording_ledger": "determine the coordinates of the midpoint of a line segment, given the coordinates of the two end points",
+     "score": 0.13,
+     "score_store": 0.13,
+     "score_ledger": 0.096,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/4-geometry-and-trigonometry/standard-and-compound-units/unit-conversions.json",
+   "chunk_ordinal": 2,
+   "heading": "How do I convert units of mass?",
+   "current_code": "4MA1-4.10F",
+   "root": "unresolved-class section",
+   "fill_note": "the section converts UNITS OF MASS (1 g = 1000 mg, 1 kg = 1000 g, 1 tonne = 1000 kg) — 4.10F's demand is VOLUME conversion and the section is not volume; no canonical 188 row teaches metric mass conversion per se (the nearest surface is 1.10B 'carry out calculations using standard units of mass, length, area, volume and capacity', which is calculations WITH standard units, not unit conversion; 4.9A's ledger Foundation wording covers linear and area units only, per the R6 ord-1 ruling) — the same unresolved class as the R9 related-calculations ord-2 finding; the DEMOTE disposition is the natural next-round action; recorded for the operator, never forced",
+   "top_candidates": [
+    {
+     "code": "4MA1-1.10B",
+     "wording_store": "carry out calculations using standard units of mass, length, area, volume and capacity",
+     "wording_ledger": null,
+     "score": 0.1933,
+     "score_store": 0.1933,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-1.10C",
+     "wording_store": "understand and carry out calculations using time, and carry out calculations using money, including converting between currencies",
+     "wording_ledger": null,
+     "score": 0.1402,
+     "score_store": 0.1402,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.9A",
+     "wording_store": "find perimeters and areas of sectors of circles",
+     "wording_ledger": "convert measurements within the metric system to include linear and area units",
+     "score": 0.1142,
+     "score_store": 0.055,
+     "score_ledger": 0.1142,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/6-statistics-and-probability/statistics-toolkit/two-way-tables.json",
+   "chunk_ordinal": 2,
+   "heading": "How do I find probabilities from a two-way table?",
+   "current_code": "4MA1-6.1B",
+   "root": "section-level",
+   "fill_note": "the section finds PROBABILITIES from a two-way table (totals, row/column fractions) — the sample-space determination surface, 6.3E verbatim ('understand the concepts of a sample space and an event, and how the probability of an event happening can be determined from the sample space' — a two-way table IS the sample-space representation); 6.1B's Higher demand is constructing cumulative frequency diagrams and its Foundation wording covers tabulation methods for statistical diagrams (which carries the note's ords 0-1, what two-way tables are and how to construct them) — the note-level join stands via its tabulation sections; recorded for the operator, never self-repaired",
+   "top_candidates": [
+    {
+     "code": "4MA1-6.3E",
+     "wording_store": "understand the concepts of a sample space and an event, and how the probability of an event happening can be determined from the sample space",
+     "wording_ledger": null,
+     "score": 0.2477,
+     "score_store": 0.2477,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-6.1B",
+     "wording_store": "construct cumulative frequency diagrams from tabulated data",
+     "wording_ledger": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+     "score": 0.1085,
+     "score_store": 0.1085,
+     "score_ledger": 0.1052,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.11A",
+     "wording_store": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+     "wording_ledger": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
+     "score": 0.105,
+     "score_store": 0.0777,
+     "score_ledger": 0.105,
+     "tier": "Higher"
+    }
+   ]
+  }
+ ],
+ "surface3_heading_only_h3_continuity": [
+  {
+   "mapping_id": "0b34b245d6a28289",
+   "note_path": "notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/bounds.json",
+   "chunk_ordinal": 0,
+   "heading": "Bounds & error intervals",
+   "current_code": "4MA1-1.8C",
+   "r13_source": "heading-only-convention",
+   "r13_stratum": "exact"
+  },
+  {
+   "mapping_id": "3913a7d52da4a0bb",
+   "note_path": "notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json",
+   "chunk_ordinal": 2,
+   "heading": "Expand & simplify",
+   "current_code": "4MA1-2.2B",
+   "r13_source": "heading-only-convention",
+   "r13_stratum": "exact"
+  },
+  {
+   "mapping_id": "e66443c4ab68a46b",
+   "note_path": "notes/2-equations-formulae-and-identities/rearranging-formulae/rearranging-formulae.json",
+   "chunk_ordinal": 0,
+   "heading": "Simple rearranging",
+   "current_code": "4MA1-2.3F",
+   "r13_source": "heading-only-convention",
+   "r13_stratum": "exact"
+  },
+  {
+   "mapping_id": "fc9f4cfdbfd032af",
+   "note_path": "notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/applications-of-trigonometry.json",
+   "chunk_ordinal": 0,
+   "heading": "Applications of trigonometry",
+   "current_code": "4MA1-4.8C",
+   "r13_source": "heading-only-convention",
+   "r13_stratum": "exact"
+  }
+ ],
+ "residual": {
+  "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
+  "disposition": "KEPT UNRESOLVED — continuity from the R1 adjudication (re-affirmed at R6 and R10); the PDF-verified reason stands; no new scoring"
+ }
+}
