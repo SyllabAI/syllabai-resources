@@ -1,0 +1,79 @@
+{
+  "schema": "c42-r21-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r21-regate",
+  "baseline": "9fae6defcb2afe02ea1377531a77dd5c2a463787",
+  "head": "9fae6defcb2afe02ea1377531a77dd5c2a463787",
+  "fill_record": "graph/reports/C42_R21_MATHS_A_REGATE_FILL_RECORD.json",
+  "gates": [
+    {
+      "gate": "X1 input_pins",
+      "ok": true,
+      "detail": "store 921=839+82 (23 unresolved-span incl. ALL THREE DEMOTEs + 59 gap), ledger 54, R1 45, R6 10, R10 2, R14 1, overrides 16+7+8+5+4 (R18 map), R4 467, R9 465, R13 465, R17 464, fresh 15, convention pinned; fill baseline == the R19+R20 post-audit round-start commit; HEAD 9fae6defcb2a"
+    },
+    {
+      "gate": "X2 sampling",
+      "ok": true,
+      "detail": "seed a6759a3028dd011e (re-seeded on the R20 rows — every re-gate re-seeds); strata {'exact': 469, 'none': 132, 'partial': 238}; sampled {'exact': 94, 'none': 132, 'partial': 238} == recorded"
+    },
+    {
+      "gate": "X3 record_agreement",
+      "ok": true,
+      "detail": "464 verdicts == sample; fields+strata+tier signatures agree; sources {'r9-carried': 6, 'r21-fresh': 15, 'heading-only-convention': 84, 'r1-id-verdict': 92, 'r6-id-verdict': 9, 'r17-carried': 236, 'r4-carried': 5, 'r10-id-verdict': 1, 'r10-standing': 1, 'r18-section-override': 1, 'r1-section-override': 7, 'r10-section-override': 1, 'r14-section-override': 1, 'r13-carried': 4, 'r14-id-verdict': 1}; fresh set == the committed judgment file"
+    },
+    {
+      "gate": "X4 mechanical_replay",
+      "ok": true,
+      "detail": "464/464 rows re-verified (quote-in-chunk, hash/heading, SUGGESTED/RULE_DERIVED)"
+    },
+    {
+      "gate": "X5 carry_forward",
+      "ok": true,
+      "detail": "236 R17-carried + 4 R13-carried + 6 R9-carried + 5 R4-carried CONFIRMs: triple-identical in the prior records, outside the R18 surface (a row carries from the MOST RECENT prior re-gate record whose verdict triple-matches — R13 carries only for rows absent from the R17 record, R9 for rows absent from R17+R13, R4 for rows absent from all three; 0 violations)"
+    },
+    {
+      "gate": "X6 r18_r14_r10_r6_r1_override_consistency",
+      "ok": true,
+      "detail": "1 R14-anchor rows (the re-point landed wholesale) + 1 STANDING rows + 1 R10-anchor rows + 9 R6-anchor rows + 92 R1-anchor rows CONFIRM on operator verdicts (CORRECT codes landed verbatim); 1 R18 override rows + 1 R14 override rows + 1 R10 override rows + 0 R6 override rows + 8 R1 override rows follow the operator rulings incl. 1 heading-only rows resolved by the convention; 0 subsumed rows ride the join"
+    },
+    {
+      "gate": "X7 both_tier",
+      "ok": true,
+      "detail": "signatures {'STORE_HIGHER': 412, 'LEDGER_FOUNDATION': 52}; LEDGER_FOUNDATION rows all on ledger codes; fresh-file signatures match the recomputation"
+    },
+    {
+      "gate": "X8 part_b",
+      "ok": true,
+      "detail": "82/82 worklist rows DEFER; surfaces 2 residual + 6 R1-cleared + 12 R6-cleared + 1 R10 DEMOTE + 1 R14 DEMOTE + 1 R18 DEMOTE + 59 gap"
+    },
+    {
+      "gate": "X9 gate_arithmetic_antiforgery",
+      "ok": true,
+      "detail": "rollup recomputed == recorded (exact 92.5% / partial 100.0% / none 100.0%); outcome PASS correctly derived (the arithmetic is verified, not the outcome — whichever way it falls); all 921 rows SUGGESTED / RULE_DERIVED"
+    },
+    {
+      "gate": "X10 protected_surfaces",
+      "ok": true,
+      "detail": "dirty set within the R21 footprint (7 files); 23 protected surfaces (Lane C, chemistry, resolution, C42 scope/R0-R20 records incl. the R18 map + verdicts and the R17 re-gate record, C30 ledger) byte-identical to their pre-round state at 9fae6defcb2a"
+    },
+    {
+      "gate": "X11 determinism",
+      "ok": true,
+      "detail": "fill re-run: sheet + verdict record byte-identical"
+    },
+    {
+      "gate": "X12 convention_ladder_replay",
+      "ok": true,
+      "detail": "108 sampled heading-only rows replayed through the H1/H2/H3 ladder independently (H2 source base = R4+R9+R13+R17, the R18 record's continuity note) (84 via the convention source, the rest via H1-class direct verdict sources); branches, verdicts and the fail-closed direction all agree"
+    },
+    {
+      "gate": "X13 h3_fail_closed_set",
+      "ok": true,
+      "detail": "4 H3 rows (no positive evidence yet; they un-hold automatically once H1/H2 becomes true at a later round): ['4MA1-1.7B multiple-ratios.json ord 0', '4MA1-6.3J relative-and-expected-frequency.json ord 4', '4MA1-2.2C expanding-single-brackets.json ord 0', '4MA1-3.3F drawing-straight-line-graphs.json ord 0']; 3 REJECT rows recorded with root causes — the fresh defect inventory returns to the operator (scope §7)"
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "all_pass": true,
+  "gate_outcome_recorded_by_fill": "PASS"
+}
