@@ -1,10 +1,10 @@
 {
   "schema": "c42-r23-join-check/1.0",
   "task": "T-C42 R23 join re-run verification battery (J1-J8)",
-  "generated_utc": "2026-10-04T06:36:26+00:00",
+  "generated_utc": "2026-10-04T06:37:55+00:00",
   "head": {
-    "sha": "ce7c5c8cc64f268bdfa0de444ec7b63cf69b3b20",
-    "subject": "T-C42 R22: post-commit audit re-run (A1-A10 ALL PASS 9/9 at the round commit 4adfffa — the committed-clean form: A10 asserts the empty working-tree delta and the round HEAD; the delta vs the apply-run report is exactly the check JSON's own regeneration with the audited HEAD now at the round commit; the R5-promoted store surface, the resolution file and every standing record byte-unchanged).\n"
+    "sha": "3949f7b075c0e351353dfc981516269fb4da4919",
+    "subject": "T-C42 R23 EXECUTED (JOIN RE-RUN over the unchanged C42-R14-amended resolution) — igcse-maths-a (4MA1 Higher): fired by the operator's 'R23' directive (2026-10-04, discord, trace 772bb1c553acf115d53f83d9cf6afa81) naming exactly the R22 record's next-decision gate. The R22 repair round re-pointed 0 note-level joins (ALL THREE adjudicated STANDING) and cleared 0 anchors, so the join census is UNCHANGED: 198 joined / 5 unresolved / 203 anchors / 0 foreign; 120/188 distinct codes (61F/59H); anchors 81F/117H; wording EXACT 173 / LEDGER_EXPLAINABLE 25; resolution file BYTE-UNTOUCHED (HEAD blob 93419a291b9b87ff == the R14-era pin, counts 222/214/8, last writer R14). NEW at R23: the three R22 STANDING joins are pinned in-generator — ruling STANDING + anchor id + landed code verified together against the R22 map's own note_level_adjudications (list-shaped this round, vs the R18 map's dict), fail-closed: 3d-pythagoras-and-trigonometry -> 4MA1-4.8D on spcpt_kX4655D8M3Q3TRzW, difference-of-two-squares -> 4MA1-2.2F on spcpt_RJbgRvXq2VrGpP5g, graphical-solutions -> 4MA1-2.6B on spcpt_sHCB9WZbDMyTFqCP; the R22 section-level REATTRIBUTEs (4.8D->4.8F / 2.2F->2.2B / 2.6B->3.3E) ride the override map into the R24-shaped substrate re-build and do NOT touch the join layer. J4 also verifies the map's promotions contract: the R5 promotions file (832 rows) intersects the 3 override rows in NOTHING by mapping_id AND by note+ordinal — the promoted set is identity- and code-stable at the join layer, verified not assumed. All carried pins stay and re-verify (9 verbatim note-level pins: R14 re-point 3.2D, R10 pair 2.2A/2.2C + STANDING 1.8D, R18 STANDING pair 1.2G/4.1B, R22 trio 4.8D/2.2F/2.6B). NEW: scripts/c42_r23_join_check.py (J1-J8) — ALL PASS 8/8 exit 0 pre-commit (J1 census+pins, J2 verbatim, J3 R18 map pins, J4 R22 map pins + promotions non-collision, J5 resolution substrate byte-untouched, J6 determinism content-identical modulo generated_utc, J7 footprint+49 protected paths baseline->HEAD->working tree, J8 commit state) + graph/reports/C42_{R23_JOIN_RECORD.md, R23_JOIN_RECORD.json, R23_JOIN_CHECK.json}. Artifact delta: task/validation_tier/generated_utc only (joins, unresolved, counts, inputs content-identical). Zero store bytes move; the chunk store (921 rows: 832 HUMAN_VALIDATED / 7 anchored SUGGESTED / 82 worklist), the C30 ledger, the Lane C stores and every standing loop record byte-untouched. R24 (substrate re-build consuming the R22 map + re-applying the R5 promotions file) and the R25 re-gate are NOT fired by this directive; the 4 H3 HOLD rows and the ord-3 promoted-surface extension candidate remain open operator decisions.\n"
   },
   "baseline": "ce7c5c8c1e76bae8e33b58b99147be1a52d95c10",
   "directive": "R23 (2026-10-04, discord, gateway trace 772bb1c553acf115d53f83d9cf6afa81) — the join re-run lane; R24/R25 NOT fired",
@@ -39,7 +39,7 @@
     },
     "J8_commit_state": {
       "pass": true,
-      "detail": "HEAD == baseline ce7c5c8c (pre-commit form): working-tree delta vs HEAD ⊆ footprint (in footprint)"
+      "detail": "HEAD carries the round (T-C42 R23 EXECUTED (JOIN RE-RUN over the unchanged C42-R14-a...): committed delta vs HEAD~1 ⊆ footprint (in footprint)"
     }
   },
   "all_pass": true
