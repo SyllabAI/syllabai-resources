@@ -1,0 +1,104 @@
+{
+ "schema": "syllabai.c42-r24-rebuild-check/1.0",
+ "task": "T-C42 R24 (substrate re-build consuming the R22 override map + the R5 promotions-file re-application over the rebuilt store; the R25 re-gate NOT fired)",
+ "generated_utc": "2026-10-04T08:37:45+00:00",
+ "all_pass": true,
+ "gates": {
+  "B1_census_meta": {
+   "pass": true,
+   "detail": "920 rows = 839 anchored (832 HUMAN_VALIDATED + 7 SUGGESTED) + 23 unresolved-span + 58 uncovered-SP; covered 130/188 (gained 4MA1-4.8F, the DC-R24-01 landing); meta promotion fields byte-equal to the R5 values + only the 4 additive promotion_reapplied* fields; tool 2.5.0"
+  },
+  "B2_reattributions": {
+   "pass": true,
+   "detail": "3/3 map rows landed verbatim: 4MA1-2.6B->4MA1-3.3E, 4MA1-4.8D->4MA1-4.8F, 4MA1-2.2F->4MA1-2.2B; old ids == the R21 REJECT set: True; provenance.override == the map blocks (map sha b969627a811f7986); rows stay SUGGESTED, no promotion blocks"
+  },
+  "B3_promotions_two_way": {
+   "pass": true,
+   "detail": "store <-> file 832 == 832 exact identities; validated_by operator everywhere; sampled 457 == the R21 CONFIRM set; every applied block == the R5 tool's block shape; the SUGGESTED anchored residue == 3 re-attributed REJECTs + 4 H3 HOLDs; promotions file sha 9bad739bd79e5899 == the R5 record's pin"
+  },
+  "B4_structural_reproof": {
+   "pass": true,
+   "detail": "vs baseline blob 61334637b894: chunk-identity set identical (862); the 832 promoted rows differ ONLY in provenance.tool (@2.4.0 -> @2.5.0) with byte-equal promotion blocks; the 3 moved rows carry exactly the enumerated re-attribution fields; the 4MA1-4.8F DEFER row is the only vanishing row (921 -> 920)"
+  },
+  "B5_protected_surfaces": {
+   "pass": true,
+   "detail": "34 protected surfaces byte-identical to the baseline (the resolution substrate pin 93419a291b9b87ff re-verified; the R5/R21/R22/R23 records + tools, the five earlier maps, the promotions file, Lane C, chemistry, the registry)"
+  },
+  "B6_determinism": {
+   "pass": true,
+   "detail": "the amended c40 tool constructs twice byte-identically (G7); TOOL_VERSION 2.5.0; the store sha ac37a91b9b657ef6 == the record's post pin"
+  },
+  "B7_standing_pins": {
+   "pass": true,
+   "detail": "the THREE R22 STANDING joins verified against the R22 map's own list-shaped adjudications (ruling + anchor + landed code): 3d-pythagoras-and-trigonometry->4MA1-4.8D; difference-of-two-squares->4MA1-2.2F; graphical-solutions->4MA1-2.6B; the R18 pair + the R14 re-point (3.2D) + the R10 STANDING (1.8D) re-verified in the R23-refreshed join"
+  },
+  "B8_commit_state": {
+   "pass": true,
+   "detail": "PRE-COMMIT form: HEAD == baseline 61334637b894, dirt  within the declared R24 footprint (7 paths)"
+  },
+  "B9_anti_forgery": {
+   "pass": true,
+   "detail": "provenance tiers RULE_DERIVED on all 920 rows; every HUMAN_VALIDATED row promoted_by operator (AI-name patterns fail closed); the 4 H3 HOLD rows untouched (ids + codes); 832 == 832"
+  },
+  "B10_ci_parity": {
+   "pass": true,
+   "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census stays at the pinned pre-round 1694 (the sparse-checkout environmental set) with ZERO failures naming the chunk store"
+  }
+ },
+ "pins": {
+  "baseline": "61334637b8948042116dae5a8038796a9bcd57ac",
+  "head": "61334637b8948042116dae5a8038796a9bcd57ac",
+  "pre_commit_form": true,
+  "store_sha256_16": "ac37a91b9b657ef6",
+  "store_sha256_16_pre_baseline": "1cbb9c87fc1be7bf",
+  "map22_sha256_16": "b969627a811f7986",
+  "promotions_sha256_16": "9bad739bd79e5899",
+  "resolution_blob_sha16": "93419a291b9b87ff",
+  "rows": 920,
+  "anchored": 839,
+  "human_validated": 832,
+  "suggested_anchored_residue": [
+   "1dfc65df88b35d69",
+   "2d44bcf00f589c18",
+   "430c0f1c124a4732",
+   "56905a113334dcd1",
+   "83e7238929d00f56",
+   "91a5080f8b390de6",
+   "9af27c9ae0133ad8"
+  ],
+  "unresolved_span": 23,
+  "uncovered_sp": 58,
+  "covered_codes": 130,
+  "coverage_gained": [
+   "4MA1-4.8F"
+  ],
+  "coverage_lost": [],
+  "landings": [
+   {
+    "row": "graphical-solutions::1",
+    "from": "4MA1-2.6B",
+    "to": "4MA1-3.3E",
+    "mapping_id_old": "5fd48f084383be11",
+    "mapping_id_new": "83e7238929d00f56",
+    "pass": true
+   },
+   {
+    "row": "3d-pythagoras-and-trigonometry::4",
+    "from": "4MA1-4.8D",
+    "to": "4MA1-4.8F",
+    "mapping_id_old": "a8d23b11c343a3bd",
+    "mapping_id_new": "430c0f1c124a4732",
+    "pass": true
+   },
+   {
+    "row": "difference-of-two-squares::3",
+    "from": "4MA1-2.2F",
+    "to": "4MA1-2.2B",
+    "mapping_id_old": "eb26022693be3948",
+    "mapping_id_new": "9af27c9ae0133ad8",
+    "pass": true
+   }
+  ],
+  "tool_version_move": "2.4.0 -> 2.5.0"
+ }
+}

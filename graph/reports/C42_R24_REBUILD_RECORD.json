@@ -1,0 +1,107 @@
+{
+  "schema": "c42-r24-rebuild-record/1.0",
+  "task": "T-C42",
+  "stage": "r24-substrate-rebuild",
+  "generated_utc": "2026-10-04T08:30:44+00:00",
+  "baseline": "61334637b8948042116dae5a8038796a9bcd57ac",
+  "operator_directive": "R24 — 2026-10-04, discord (gateway trace 44ed8bf6a3f36790164951e2f79c451b)",
+  "gate": "the R22 record's next-decision gate: the substrate re-build consuming the R22 override map (schema c42-r24-section-overrides/1.0) + the R5 promotions-file re-application; the R25 re-gate NOT fired",
+  "rebuild": {
+    "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@2.5.0",
+    "tool_version_move": "2.4.0 -> 2.5.0 (the R16->R20 rebuild-lane convention; provenance.tool moves on every row — the store records its builder)",
+    "join": "the R23-refreshed T-C32 join (content-identical, census 198/5 unchanged)",
+    "rows_pre": 921,
+    "rows_post": 920,
+    "anchored": 839,
+    "unresolved_span": 23,
+    "uncovered_sp_pre": 59,
+    "uncovered_sp_post": 58,
+    "covered_pre": 129,
+    "covered_post": 130,
+    "coverage_gained": [
+      "4MA1-4.8F"
+    ],
+    "coverage_lost": []
+  },
+  "dc_r24_01": {
+    "id": "DC-R24-01",
+    "corrects": "the R22 map's contract text and the R22 record's projection: 'coverage STATIONARY 129/188 (all three targets already covered)' — asserted, not computed",
+    "fact": "TRUE for 3.3E (2 anchored rows) and 2.2B (10) but FALSE for 4.8F: it carried ZERO anchored rows (its uncovered-SP DEFER row sat on the worklist). The actual landing is a coverage GAIN: covered 129 -> 130, gained ['4MA1-4.8F'], lost [], the 4MA1-4.8F DEFER row resolving into an anchored row (the R12/R16/R20 coverage-gain precedent); rows 921 -> 920 (the resolving DEFER row, not a moved chunk row); anchored 839 / unresolved-span 23 unchanged (zero row-census movement among chunk rows — no DEMOTEs)",
+    "action": "recorded here per the P5 convention (landed records never edited); the R22 re-attribution SUBSTANCE (the three verdicts) is unaffected"
+  },
+  "overrides": {
+    "path": "scripts/c42_section_overrides_r22.yaml",
+    "sha256_16": "b969627a811f7986",
+    "entries": 3,
+    "landings": [
+      {
+        "note_slug": "difference-of-two-squares",
+        "chunk_ordinal": 3,
+        "mapping_id_old": "eb26022693be3948",
+        "mapping_id_new": "9af27c9ae0133ad8",
+        "from_code": "4MA1-2.2F",
+        "to_code": "4MA1-2.2B"
+      },
+      {
+        "note_slug": "graphical-solutions",
+        "chunk_ordinal": 1,
+        "mapping_id_old": "5fd48f084383be11",
+        "mapping_id_new": "83e7238929d00f56",
+        "from_code": "4MA1-2.6B",
+        "to_code": "4MA1-3.3E"
+      },
+      {
+        "note_slug": "3d-pythagoras-and-trigonometry",
+        "chunk_ordinal": 4,
+        "mapping_id_old": "a8d23b11c343a3bd",
+        "mapping_id_new": "430c0f1c124a4732",
+        "from_code": "4MA1-4.8D",
+        "to_code": "4MA1-4.8F"
+      }
+    ],
+    "standing_pins": [
+      "3d-pythagoras-and-trigonometry -> 4MA1-4.8D on spcpt_kX4655D8M3Q3TRzW",
+      "difference-of-two-squares -> 4MA1-2.2F on spcpt_RJbgRvXq2VrGpP5g",
+      "graphical-solutions -> 4MA1-2.6B on spcpt_sHCB9WZbDMyTFqCP"
+    ]
+  },
+  "promotions": {
+    "path": "scripts/c42_r5_promotions.yaml",
+    "sha256_16": "9bad739bd79e5899",
+    "entries": 832,
+    "sampled_confirm": 457,
+    "reapplication": "byte-stable: every applied block == the R5 tool's block shape AND the baseline store's block for the same row (832/832); the 8 meta promotion fields restored byte-equal to the R5 values; meta gains ONLY the additive promotion_reapplied* fields",
+    "reject_ids_rekeyed": {
+      "eb26022693be3948": "9af27c9ae0133ad8",
+      "5fd48f084383be11": "83e7238929d00f56",
+      "a8d23b11c343a3bd": "430c0f1c124a4732"
+    }
+  },
+  "structural_diff": {
+    "rows": "921 -> 920 (the resolving 4MA1-4.8F DEFER row)",
+    "rows_moved": 3,
+    "moved_fields": [
+      "spec_code",
+      "mapping_id",
+      "sp_title",
+      "provenance.override (added block)",
+      "rationale (REATTRIBUTE suffix)"
+    ],
+    "promoted_surface_delta": "provenance.tool string only (scripts/c40_maths_a_chunk_sp_substrate.py@2.4.0 -> scripts/c40_maths_a_chunk_sp_substrate.py@2.5.0)",
+    "header_delta": "status line re-dated (line 3), lines 1-2 verbatim"
+  },
+  "store_sha256_16_pre": "1cbb9c87fc1be7bf",
+  "store_sha256_16_post": "ac37a91b9b657ef6",
+  "ci_parity": {
+    "graph_check": "failure census identical pre/post (pre-existing sparse-checkout environmental set)",
+    "kg_export": "kg_export --verify-golden GREEN on the rebuilt state"
+  },
+  "post_check": "scripts/c42_r24_rebuild_check.py",
+  "not_done": [
+    "the R25 re-gate NOT fired (explicit operator instruction only)",
+    "the 4 H3 HOLD rows untouched (per-row operator sign-off owed)",
+    "the ord-3 promoted-surface extension candidate NOT adjudicated (operator-level decision; the promotions file pins the row)",
+    "no resolution-file / corpus / Lane C / chemistry writes",
+    "no promotion-file edits (byte-unchanged since R5, sha-pinned)"
+  ]
+}
