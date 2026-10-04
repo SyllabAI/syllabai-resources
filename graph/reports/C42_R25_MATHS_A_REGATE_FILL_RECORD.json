@@ -1,0 +1,114 @@
+{
+  "schema": "c42-r25-regate-fill-record/1.0",
+  "task": "T-C42",
+  "stage": "r25-regate-fill",
+  "generated_utc": "2026-10-04T09:25:02+00:00",
+  "baseline": "d745b5c5f2742103f564c222486944ae8d0c03aa",
+  "reviewer": "Super Z (GLM agent), acting as operator-delegate under the operator's 'R25 re-gate' directive (2026-10-04, zai-web, gateway trace 1a10624351d876cd) — the R24 record's next-decision gate (operator gate 2 re-run over the R24-rebuilt substrate, the loop's sixth gate-2 pass) fired verbatim; the human operator retains final sign-off; per the anti-forgery rule this re-gate VERIFIES the R5-promoted 832-row HUMAN_VALIDATED surface and never moves it",
+  "sheet": "graph/reports/C42_R25_MATHS_A_REGATE_REVIEW_SHEET.md",
+  "verdicts_record": "scripts/c42_r25_review_verdicts.yaml",
+  "sampling": {
+    "seed": "780a28d9a81bced3",
+    "strata": {
+      "exact": 469,
+      "none": 132,
+      "partial": 238
+    },
+    "sampled": {
+      "exact": 94,
+      "none": 132,
+      "partial": 238
+    }
+  },
+  "part_a": {
+    "total": {
+      "rows": 464,
+      "confirm": 458,
+      "reject": 4,
+      "hold": 2,
+      "precision": 0.9871
+    },
+    "by_stratum": {
+      "exact": {
+        "rows": 94,
+        "confirm": 88,
+        "reject": 4,
+        "hold": 2,
+        "precision": 0.9362
+      },
+      "partial": {
+        "rows": 238,
+        "confirm": 238,
+        "reject": 0,
+        "hold": 0,
+        "precision": 1.0
+      },
+      "none": {
+        "rows": 132,
+        "confirm": 132,
+        "reject": 0,
+        "hold": 0,
+        "precision": 1.0
+      }
+    },
+    "verdict_sources": {
+      "r21-carried": 236,
+      "r9-carried": 5,
+      "r1-id-verdict": 82,
+      "r22-standing": 2,
+      "heading-only-convention": 83,
+      "r14-id-verdict": 2,
+      "r25-fresh": 14,
+      "r13-carried": 8,
+      "r6-id-verdict": 8,
+      "r4-carried": 2,
+      "r10-section-override": 4,
+      "r17-carried": 6,
+      "r1-section-override": 10,
+      "r6-section-override": 1,
+      "r10-id-verdict": 1
+    }
+  },
+  "substrate_shape": {
+    "rows": 920,
+    "human_validated": 832,
+    "anchored": 839,
+    "anchored_suggested": 7,
+    "unresolved_span": 23,
+    "demoted": 3,
+    "uncovered_sp": 58,
+    "covered_codes": 130
+  },
+  "part_b": {
+    "rows": 81,
+    "defer": 81,
+    "surfaces": {
+      "C42 R1 surface-1 cleared span": 6,
+      "C42 R10 surface-2 DEMOTE (recorded, never forced)": 1,
+      "C42 R18 surface-3 DEMOTE (recorded, never forced)": 1,
+      "C42 R6 surface-1 cleared span": 12,
+      "C42 R14 surface-3 DEMOTE (recorded, never forced)": 1,
+      "C32 §3 residual (R1 KEPT UNRESOLVED)": 2,
+      "uncovered-SP corpus gap (130-code bound)": 58
+    }
+  },
+  "both_tier_wording": {
+    "standing_instruction": "the re-fill consults BOTH tier wordings (store Higher-operative + C30 ledger foundation.text) per the R1 key finding",
+    "signatures": {
+      "STORE_HIGHER": 422,
+      "LEDGER_FOUNDATION": 42
+    }
+  },
+  "gate": {
+    "rule": "Part A precision >= 90% per class AND every Part B row decided AND mechanical layer clean",
+    "outcome": "PASS"
+  },
+  "promoted_surface": {
+    "note": "the FIRST re-gate under a promoted surface — the 832 HUMAN_VALIDATED rows are VERIFIED (identities == the R5 promotions file row-for-row, sha16 9bad739bd79e5899), never re-conferred; the re-gate moves nothing",
+    "promotions_file_sha16": "9bad739bd79e5899",
+    "hv_rows_verified": 832,
+    "anchored_suggested": 7
+  },
+  "disposition": "R25 gate-2 evidence GREEN; zero movement of the promoted surface — the 832 HV rows stay HUMAN_VALIDATED exactly as the R5 apply landed them (byte-stable at R24) and the 7 anchored SUGGESTED rows stay SUGGESTED; the 4 H3 rows' per-row sign-off (1.7B / 6.3J / 3.3F / 2.2C) and the ord-3 promoted-surface extension candidate remain open operator decisions",
+  "mechanical_layer": "464/464 PASS"
+}

@@ -1,0 +1,75 @@
+schema: c42-r25-fresh-verdicts/1.0
+task: T-C42
+stage: r25-regate-fresh-judgment
+contract: >-
+  the R25 re-gate fill's fresh-row judgment record (scripts/c42_r25_regate_fill.py,
+  --emit-dossier dossier /home/z/my-project/scripts/c42_r25_fresh_dossier.json):
+  every sampled row the standing evidence sources (operator verdicts, override
+  maps, the convention ladder and the R21/R17/R13/R9/R4 carry chains) does not
+  cover, judged per-row against BOTH tier wordings (the store's Higher-operative
+  wording AND the C30 ledger foundation.text) and the chunk's own content,
+  heading first, full text pulled where the heading was not decisive.
+  PROPOSAL-ONLY candidates bind nothing; a row that does not teach the SP's
+  demand is REJECTed with its root cause, never rationalized. The first re-gate
+  under the promoted surface (the R24 novelty): the R5-promoted 832-row
+  HUMAN_VALIDATED surface is VERIFIED here, never re-conferred — zero movement
+  either way; REJECT rows are the defect inventory returned to the operator
+  (scope §7), CONFIRM rows are evidence only.
+review_date: '2026-10-04'
+verdicts:
+  61fc2e03d781e4ce:
+    verdict: CONFIRM
+    note: "the section defines the range (the difference between the highest value and the lowest value, range = highest - lowest, worked example 1, 2, 5, 8 -> 8 - 1 = 7, the negative-values caution 4 - (-2) = 6) and NAMES the demand verbatim — 'It measures how spread out the data is', with cross-data-set comparison ('Ranges of different data sets can be compared to see which is more spread out') — 6.2B's Higher demand 'understand the concept of a measure of spread' on its own conceptual surface; the ledger's Foundation wording for 6.2B ('calculate the mean, median, mode and range for a discrete data set') is matched by the worked range calculations too — both tier wordings consulted and consistent"
+    tier_signature: STORE_HIGHER
+  a836dbe88c368e5a:
+    verdict: CONFIRM
+    note: "the section teaches the relative-frequency method's conditions (equal chance of success on each trial, independent trials, replacement each time, random experiments to avoid bias) and a full worked example estimating P(red) = 18/30 = 3/5 from Johan's 30-trial button experiment — 6.3G's demand 'estimate probabilities from previously collected data' verbatim on the experiment-data surface (the best-estimate-has-most-trials exam hint is the estimation discipline itself)"
+    tier_signature: STORE_HIGHER
+  70f0b027f3f1528f:
+    verdict: REJECT
+    note: "REJECT — limit-scope difference with NO canonical 188 target: the section teaches FACTORISING BY GROUPING of a FOUR-TERM, TWO-VARIABLE expression (xy + 3x + 5y + 15 -> x(y + 3) + 5(y + 3) -> (y + 3)(x + 5)) — while 2.2F's demand is explicitly capped '(limited to x^2 + bx + c)' and the section's expression is not a quadratic in one variable at all (the same cap-exceeded class as the R21 difference-of-two-squares reject, but here even 2.2B's un-limited Higher wording does not reach it: 2.2B's demand is still 'a quadratic expression', and xy + 3x + 5y + 15 is not one); no other 2.2x row teaches grouping (2.2A is EXPANDING products, 2.2C algebraic fractions, 2.2D completing the square, 2.2E proofs); not a tier artifact (2.2F is absent from the C30 ledger — Higher-only); no prior sampled evidence on this note (first draw this round); recorded, never forced — the operator's menu is the R10/R14/R18 DEMOTE precedent (no canonical row teaches four-term grouping per se) or an operator-authored re-anchor"
+    tier_signature: STORE_HIGHER
+  e8e31addf71352c1:
+    verdict: CONFIRM
+    note: "the section teaches WHEN relative frequency applies (theoretical probabilities unavailable or not possible to calculate) and why the experiment must be random — 6.3G's demand 'estimate probabilities from previously collected data' on its own when-to-use surface; consistent with the note's ord-3 worked estimation example sampled fresh this round"
+    tier_signature: STORE_HIGHER
+  81c0b59852d5d4b6:
+    verdict: REJECT
+    note: "REJECT — adjacent-surface scope difference WITH a partial canonical target: the section defines INTEGERS (whole numbers, positive/negative/zero, -3 to 3), RATIONAL numbers (a/b form, b != 0) and IRRATIONAL numbers (pi, sqrt(2), cube root of 5) — while 1.1G's demand is the vocabulary set 'odd, even, prime numbers, factors and multiples', none of which the section teaches; the integers surface matches 1.1A's demand 'understand and use integers (positive, negative and zero)' VERBATIM (canonical target for the re-homing), while the rational/irrational remainder has NO canonical 188 row (the R14 mass-conversion absence class — the 1.1A-1.1H block contains no rational/irrational classification row); not a tier artifact (1.1G is absent from the C30 ledger — Higher-only); no prior sampled evidence on this note (first draw this round); recorded, never forced — the operator's menu is a REATTRIBUTE to 1.1A plus a corpus-gap note for the rational/irrational remainder, or the DEMOTE precedent"
+    tier_signature: STORE_HIGHER
+  18b113257a5fda9d:
+    verdict: CONFIRM
+    note: "the section teaches the perpendicularity test — two lines in y = mx + c form are perpendicular exactly when their gradients are NEGATIVE RECIPROCALS of one another (y = x/3 + 10 and y = -3x - 18 are; y = x/7 + 16 and y = 7x - 8 are not), with the rearrange-both-equations-first discipline — the m1 x m2 = -1 condition is the direct conceptual support for 3.3G's demand 'find the equation of a straight line perpendicular to a given line' (the note's equation-finding sections carry the constructive half)"
+    tier_signature: STORE_HIGHER
+  879facb80b09fd50:
+    verdict: CONFIRM
+    note: "the section is a full worked practical optimization: express a cuboid's volume V = 2x(10 - x) in terms of x, differentiate term by term to dV/dx = 20 - 4x, set equal to zero, solve x = 5, then substitute back for the maximum volume 50 m^3 — 3.4E's demand 'apply calculus to linear kinematics and to other simple practical problems' on its other-simple-practical-problems surface verbatim (the exam hint names the exact exam discipline)"
+    tier_signature: STORE_HIGHER
+  c59c255b1c59068e:
+    verdict: CONFIRM
+    note: "the section teaches the SOHCAHTOA angle-finding method (STEP 1 label the sides H/O/A; STEP 2 identify the trigonometric ratio; write and solve the trig equation for the missing angle) — the ledger's FOUNDATION wording for 4.8B, 'know, understand and use sine, cosine and tangent of acute angles to determine lengths and angles of a right-angled triangle', on its determine-ANGLES surface verbatim, while the store's Higher-operative wording ('understand and use angles of elevation and depression') is carried by the note's elevation/depression sections — the R1 wording-tier-artifact class: the join is correct at Foundation tier, adjudicated on BOTH tier wordings per the standing instruction"
+    tier_signature: STORE_HIGHER
+  b4aa201fc25dfe77:
+    verdict: CONFIRM
+    note: "the section defines expected frequency (the number of times you would EXPECT a particular outcome to occur, found by multiplying the probability by the number of trials) with worked examples — 6.3J's demand 'understand and use the term expected frequency' on its own definitional-plus-use surface verbatim"
+    tier_signature: STORE_HIGHER
+  268def4a80c18093:
+    verdict: CONFIRM
+    note: "the section teaches expanding a bracket squared ((x + 3)^2 rewritten as (x + 3)(x + 3) and expanded by the standard methods) — the ledger's FOUNDATION wording for 2.2E, 'expand the product of two simple linear expressions', verbatim (the two simple linear expressions (x + 3) and (x + 3)), while the store's Higher-operative wording ('use algebra to support and construct proofs') is the surface of the note's proof-carrying sections — the R1 wording-tier-artifact class: the join is correct at Foundation tier, adjudicated on BOTH tier wordings per the standing instruction"
+    tier_signature: STORE_HIGHER
+  7fdded0b9245e1c3:
+    verdict: REJECT
+    note: "REJECT — adjacent-surface scope difference WITH a canonical target: the section teaches SCALAR MULTIPLICATION of a column vector (a scalar is a number not a vector — no direction; 3 x (2, -1) = (6, -3) componentwise) — while 5.1D's demand is 'add and subtract vectors' and the section contains NO addition or subtraction of vectors; the canonical target EXISTS — 5.1C 'multiply vectors by scalar quantities', a distinct ratified row whose demand the section teaches VERBATIM; not a tier artifact (5.1D is absent from the C30 ledger — Higher-only); no prior sampled evidence on this note (first draw this round); recorded, never forced — the canonical target is cited for the operator's next repair round, exactly the R21 reject class"
+    tier_signature: STORE_HIGHER
+  e6ed72481e8ffc2e:
+    verdict: REJECT
+    note: "REJECT — adjacent-surface scope difference WITH a canonical target: the section teaches REARRANGING a linear equation to y = mx + c (3x + 5y = 30 -> 5y = -3x + 30 -> y = -3/5 x + 6) and reading off the gradient -3/5 and y-intercept 6 to make plotting easier — while 3.3F's demand is 'calculate the gradient of a straight line given the coordinates of two points' and NO two-point gradient calculation appears anywhere in the section; the canonical target EXISTS — 3.3H 'recognise that equations of the form y = mx + c are straight line graphs with gradient m and intercept c', whose demand the section teaches VERBATIM (rearrange into y = mx + c, identify gradient and intercept); not a tier artifact (the ledger's Foundation wording for 3.3F, 'draw and interpret straight line conversion graphs', is a different demand the section also does not teach — no conversion graphs present); no prior sampled evidence on this note (first draw this round; the note's ord 0 is the convention's H3 hold on 3.3F); recorded, never forced — the canonical target is cited for the operator's next repair round"
+    tier_signature: STORE_HIGHER
+  e7b9b7d3cbbdbbd6:
+    verdict: CONFIRM
+    note: "the section teaches rounding to a given number of significant figures (find the first significant figure as the biggest place value carrying a non-zero digit reading left to right, then apply the rounding rule to the remaining places) with worked examples — 1.8B's demand 'round to a given number of significant figures or decimal places' verbatim on its significant-figures surface"
+    tier_signature: STORE_HIGHER
+  4a72de94b5c07115:
+    verdict: CONFIRM
+    note: "the section teaches the hierarchy of operations as applied to fractions and roots (fractions MEAN division in calculations — the D of BIDMAS/BODMAS; 'invisible brackets' around the numerator and around the denominator; roots treated as bracketed divisions evaluated at their position in the hierarchy) — 1.1F's demand 'use brackets and the hierarchy of operations' on its own fractions-and-roots surface verbatim"
+    tier_signature: STORE_HIGHER
