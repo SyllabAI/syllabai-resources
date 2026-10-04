@@ -4,7 +4,7 @@
   "stage": "r26-r1-shaped-repair-round-check",
   "round": "R26",
   "round_start": "00abec1",
-  "audited_head": "00abec1b204566d74c2fa165a1b8d33c51269b06",
+  "audited_head": "cd9676582320c7ec87827138c0ca78d790972071",
   "baseline_store_sha256_16": "ac37a91b9b657ef6",
   "override_map_sha256_16": "80f562ad0a72f7d4",
   "amendment_sha256_16": "fda9d717d9f58572",
@@ -47,9 +47,9 @@
       "detail": "proposals + override map + promotions amendment byte-identical re-runs"
     },
     {
-      "check": "A8_footprint_precommit",
+      "check": "A10_committed_clean",
       "ok": true,
-      "detail": "delta vs 00abec1 is exactly the declared 9-file R26 footprint (pre-commit form)"
+      "detail": "HEAD cd967658 is the round commit; tree clean; the check re-runs committed-clean (the C8/X10 precedent)"
     },
     {
       "check": "A9_round_artifacts",
