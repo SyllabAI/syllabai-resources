@@ -1,0 +1,62 @@
+{
+  "schema": "c42-r22-repair-check/1.0",
+  "task": "T-C42",
+  "stage": "r22-r1-shaped-repair-round-check",
+  "round": "R22",
+  "round_start": "df7a6c1",
+  "audited_head": "df7a6c12ee3291a876fb95e74adc7ea8766601d3",
+  "baseline_store_sha256_16": "1cbb9c87fc1be7bf",
+  "override_map_sha256_16": "b969627a811f7986",
+  "verdicts_sha256_16": "8a9d2fd84c98539b",
+  "proposals_sha256_16": "1b3d542ee3f39e45",
+  "checks": [
+    {
+      "check": "A1_inventory_agreement",
+      "ok": true,
+      "detail": "overrides == the R21 3-row defect inventory; surface 1 EMPTY (verified against the R21 roots); fill record pins the same rows"
+    },
+    {
+      "check": "A2_projection_agreement",
+      "ok": true,
+      "detail": "map == verdicts: 3 verdicted REATTRIBUTEs, 0 extensions/DEMOTEs, 3 STANDING rulings, 4 H3 rows listed, DC-R22-01, census remarks"
+    },
+    {
+      "check": "A3_code_domain",
+      "ok": true,
+      "detail": "3 targets are canonical-188 members, distinct from their currents; currents match the live substrate; rows SUGGESTED"
+    },
+    {
+      "check": "A4_wordings_ledger",
+      "ok": true,
+      "detail": "store wordings carry the citations verbatim; ledger facts asserted: 4.8D/4.8F/2.2F/2.6B absent (Higher-only), 2.2B/3.3E present with the cited Higher texts (DC-R22-01 facts)"
+    },
+    {
+      "check": "A5_joins_resolution",
+      "ok": true,
+      "detail": "3 note-level joins STAND at HEAD (4.8D/2.2F/2.6B); resolution file byte-identical df7a6c1 -> HEAD (git-read: not materialized in the sparse checkout); sme_spcpt_verify sweep NOT re-run (no EQ materialization — the R18-recorded accounting failures remain a separate census item, byte-unrelated to this footprint)"
+    },
+    {
+      "check": "A6_substrate_pins",
+      "ok": true,
+      "detail": "3 targets SUGGESTED at pinned codes; the R5-promoted 832-row surface intersects the targets in NOTHING (promotions file included); the 4 H3 rows HOLD on the R21 record"
+    },
+    {
+      "check": "A7_idempotency",
+      "ok": true,
+      "detail": "proposals + override map byte-identical re-runs"
+    },
+    {
+      "check": "A8_footprint_precommit",
+      "ok": true,
+      "detail": "delta vs df7a6c1 is exactly the declared 8-file R22 footprint (pre-commit form)"
+    },
+    {
+      "check": "A9_round_artifacts",
+      "ok": true,
+      "detail": "proposals surfaces 0/3/4 pinned; the standing convention record remains pinned (c42-heading-only-convention-1 md + json)"
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "result": "ALL PASS"
+}

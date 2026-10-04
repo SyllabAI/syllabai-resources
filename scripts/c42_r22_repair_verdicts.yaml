@@ -1,0 +1,304 @@
+schema: c42-r22-repair-verdicts/1.0
+task: T-C42
+stage: r22-r1-shaped-repair-round-over-the-r21-3-row-defect-inventory
+contract: >-
+  graph/reports/C42_IGCSE_MATHS_A_K2B_REWORK_SCOPE.md §4 R1 mechanics + §7 loop
+  ("the rework lane repeats R1-shaped rounds only by explicit operator
+  instruction"); all 3 dispositions are the scope §4 R1 surface-3 menu's
+  REATTRIBUTE action (canonical targets exist for every row — no DEMOTE and no
+  RETAIN this round); lane numbering follows the loop's iteration precedent
+  (R6/R7/R8/R9, R10/R11/R12/R13, R14/R15/R16/R17, R18/R19/R20/R21) with R5 now
+  CONSUMED by the §18 substrate apply (landed 2026-10-04 as 2e90f52: 832
+  anchored rows HUMAN_VALIDATED): this round is R22, the next natural lanes are
+  the join re-run (R23), the substrate re-build consuming this map (R24) and
+  the re-gate (R25); the deterministic follow-ons fire only on explicit
+  operator instruction — the directive named the repair round alone
+directive: >-
+  "R1 shaped repair" (2026-10-04, discord, gateway trace
+  f63adc3fd5ac8155cf81200804acb165) — fired over the R21 re-gate's defect
+  inventory (3 fresh REJECT rows in scripts/c42_r21_fresh_verdicts.yaml; the
+  R21 gate PASSED at exact 92.5% / partial 100% / none 100% and the §18 apply
+  fired at R5; the 3 rejects + 4 H3 holds are the honest residue the R21 fill
+  record returned to the operator, scope §7). The R21 fill record's disposition
+  names this round: "the fresh defect inventory returns to the operator". The
+  operator's directive authorizes the repair round alone — the 4 H3 HOLD rows
+  stay SUGGESTED (their per-row sign-off was NOT given with the directive)
+review_date: '2026-10-04'
+reviewer: >-
+  Super Z (GLM agent), operator-delegate under the fired R22 directive; the
+  human operator retains final sign-off; per the anti-forgery rule nothing
+  here flips the store — the R5-promoted 832-row HUMAN_VALIDATED surface is
+  OUT OF SCOPE for this round and every ruling below lands only in the
+  next-re-build-facing override map (consumed fail-closed at the R24-shaped
+  lane); the 3 override targets are the 3 REJECT rows, the only substrate rows
+  that stayed SUGGESTED with a recorded defect
+method: >-
+  per-row adjudication over the R21 fresh verdicts' root causes + canonical-
+  surface citations + the ratified 188-point store wordings + the C30
+  tier-dedupe ledger (presence/absence verified row-by-row against
+  graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json rows keyed by bare
+  official_code) + the notes' own chunk content (every implicated note's full
+  section inventory was censused for the extension-row question per the
+  R6/R18 precedent); the deterministic candidates of
+  scripts/c42_r22_repair_proposals.py were PROPOSAL-ONLY inputs and bound
+  nothing — this round their top-1s CONVERGE on the verdict targets (3.3E /
+  4.8F / 2.2B), unlike the R14/R18 noisy-artifact cases, recorded as
+  corroboration not as authority; PMT excluded as source
+key_finding: >-
+  all 3 R21 rejects are section-level scope differences WITH canonical
+  targets — the cleanest repair round of the loop: 3 verdicted REATTRIBUTEs,
+  0 DEMOTEs, 0 RETAINs, 0 id-level rows, 0 extension entries (the one
+  extension candidate the census surfaced — 3d-pythagoras ord 3 — sits on the
+  R5-PROMOTED surface and is recorded as a census remark for the operator,
+  NOT adjudicated: no agent-side movement of promoted rows), 0 resolution
+  amendments (all three note-level joins STAND), coverage stationary 129/188
+  (all three targets already covered; all three current codes keep coverage
+  via their standing ords)
+verdicts:
+  a8d23b11c343a3bd:
+    verdict: REATTRIBUTE
+    from_code: 4MA1-4.8D
+    to_code: 4MA1-4.8F
+    action: REATTRIBUTE
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 4
+    heading: How do I find the angle between a line and a plane?
+    root: R21 fresh REJECT — adjacent-surface scope difference WITH a canonical target
+    rationale: >-
+      The section teaches finding the ANGLE BETWEEN A LINE AND A PLANE
+      (identify the plane, draw the line, form a right-angled triangle whose
+      height is perpendicular to the plane, use SOHCAHTOA) — the R21 root's
+      own reading, re-verified against the section's verbatim content this
+      round. 4.8F's Higher demand in the ratified 188 is 'apply
+      trigonometrical methods to solve problems in three dimensions,
+      including finding the angle between a line and a plane' — the
+      including-clause names this exact task VERBATIM; the store's operative
+      wording for 4.8F carries it. The joined code 4.8D's demand is 'use
+      Pythagoras' theorem in three dimensions' and the section teaches NO
+      Pythagoras (no a^2 + b^2 = c^2 anywhere; the method is trigonometric
+      end to end). Not a tier artifact: 4.8D AND 4.8F are BOTH absent from
+      the C30 ledger (verified this round — Higher-only rows), and 4.8F is a
+      distinct ratified row, not a tier variant of 4.8D. The proposals
+      scorer's top-1 for this row is 4.8F @ 0.2707 (the only 4.8x candidate
+      above 0.19 in the packet — the next-best is 4.5D constructions at
+      0.1966, a noise ranking) — convergence with the R21 root's citation.
+      The note-level join to 4.8D STANDS via the note's Pythagoras sections
+      (ord 0 CONFIRMed at R4, ord 1 at R13 and R17, ord 5 at R13 — the 3D
+      Pythagoras formula section ord 2 and the mixed-problems section ord 5
+      carry the 4.8D surface). REATTRIBUTE, never forced onto the store from
+      this round: the map lands for the R24-shaped rebuild.
+  eb26022693be3948:
+    verdict: REATTRIBUTE
+    from_code: 4MA1-2.2F
+    to_code: 4MA1-2.2B
+    action: REATTRIBUTE
+    note_path: notes/2-equations-formulae-and-identities/factorising/difference-of-two-squares.json
+    chunk_ordinal: 3
+    heading: How can the difference of two squares be made harder?
+    root: R21 fresh REJECT — limit-scope difference WITH a canonical target
+    rationale: >-
+      The section teaches the difference of two squares made HARDER — squared
+      variables 4m^2 - 9n^2, OTHER POWERS r^8 - t^6, repeated DOTS to fully
+      factorise a^4 - b^4, common factor first 2x^2 - 18 — re-verified against
+      the section's verbatim content this round. r^8 - t^6 and a^4 - b^4 are
+      NOT quadratic expressions, while 2.2F's demand is explicitly capped
+      '(limited to x^2 + bx + c)' (the store's operative wording carries the
+      cap). The un-limited canonical surface EXISTS: 2.2B, whose C30 ledger
+      Higher-operative wording is 'understand the concept of a quadratic
+      expression and be able to factorise such expressions' WITHOUT the cap —
+      verified verbatim against the ledger row this round (bare code 2.2B,
+      higher_preferred true, foundation text 'collect like terms' — a distinct
+      shared-tier row whose Higher wording carries the un-limited demand). Not
+      a tier artifact: 2.2F is absent from the ledger (Higher-only, verified)
+      and 2.2B's Higher surface — not its Foundation surface — is what the
+      section teaches (the section is Higher-corpus content). The proposals
+      scorer's top-1 for this row is 2.2B @ 0.2355 (next-best 2.3A at 0.1817,
+      noise) — convergence with the R21 root's citation. The note-level join
+      to 2.2F STANDS via the note's within-limit basic DOTS sections (ord 1
+      'What is the difference of two squares?' CONFIRMed at R9 and R17; ord 2
+      the basic a^2 - b^2 factorisation rides the same within-limit surface).
+      REATTRIBUTE, map-landed for the R24-shaped rebuild.
+  5fd48f084383be11:
+    verdict: REATTRIBUTE
+    from_code: 4MA1-2.6B
+    to_code: 4MA1-3.3E
+    action: REATTRIBUTE
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/graphical-solutions.json
+    chunk_ordinal: 1
+    heading: How do I find the coordinates of points of intersection?
+    root: R21 fresh REJECT — adjacent-surface scope difference WITH a canonical target (the R17 fdp class in this note)
+    rationale: >-
+      The section's worked instance is a LINEAR + NON-LINEAR pair — plot
+      y = x^2 + 3x + 1 and y = 2x + 1 on the same axes, they meet twice,
+      coordinates (-1, -1) and (0, 1) — re-verified against the section's
+      verbatim content this round. That is 3.3E's Higher demand VERBATIM
+      ('find the intersection points of two graphs, one linear (y) and one
+      non-linear (y), and recognise that the solutions correspond' — the
+      store's operative wording carries it), while the joined code 2.6B's
+      demand is 'interpret the equations AS LINES and the common solution as
+      the point of intersection' and the section's only example is not a pair
+      of lines. Tier facts PRECISELY stated (see dated_corrections DC-R22-01):
+      2.6B is absent from the C30 ledger (Higher-only, verified); 3.3E IS
+      PRESENT in the ledger as a shared-tier row (higher_preferred true) whose
+      Higher wording is the target demand verbatim and whose Foundation
+      wording ('determine the coordinates of the midpoint of a line segment...')
+      is a DIFFERENT surface — so the section rides 3.3E's Higher-operative
+      surface and is not a tier-variant artifact; if anything the ledger
+      presence STRENGTHENS the target citation. The proposals scorer's top-1
+      for this row is 3.3E @ 0.3125 (next-best 3.3H at 0.1961, noise) —
+      convergence with the R21 root's citation. The note-level join to 2.6B
+      STANDS via the note's lines-based sections (ord 0 CONFIRMed at R13, ord
+      3 at R9, ord 2 sampled fresh at R21 — the two-lines surface verbatim).
+      REATTRIBUTE, map-landed for the R24-shaped rebuild.
+note_level_adjudications:
+  - anchor_id: spcpt_kX4655D8M3Q3TRzW
+    note_slug: 3d-pythagoras-and-trigonometry
+    joined_code: 4MA1-4.8D
+    ruling: STANDING
+    basis: >-
+      the note's Pythagoras surface carries the 4.8D demand (ord 0 CONFIRMed
+      at R4, ord 1 at R13 and R17, ord 2 the 3D Pythagoras formula d^2 = x^2
+      + y^2 + z^2 verbatim, ord 5 CONFIRMed at R13 — mixed problems that
+      include 3D Pythagoras); the ord-4 reject is a section-level scope
+      difference only
+  - anchor_id: spcpt_RJbgRvXq2VrGpP5g
+    note_slug: difference-of-two-squares
+    joined_code: 4MA1-2.2F
+    ruling: STANDING
+    basis: >-
+      the note's within-limit basic DOTS surface carries 2.2F (ord 1 the
+      a^2 - b^2 concept CONFIRMed at R9 and R17; ord 2 the basic
+      factorisation rides the same within-limit surface; ord 4 the
+      DOTS-to-expand section stays as joined — no sampled evidence against
+      it); the ord-3 reject is a section-level scope difference only
+  - anchor_id: spcpt_sHCB9WZbDMyTFqCP
+    note_slug: graphical-solutions
+    joined_code: 4MA1-2.6B
+    ruling: STANDING
+    basis: >-
+      the note's lines-based surface carries 2.6B (ord 0 CONFIRMed at R13,
+      ord 2 sampled fresh at R21 — solving simultaneous LINEAR equations
+      graphically, the two-lines surface verbatim, ord 3 CONFIRMed at R9 —
+      using graphs to solve equations via line intersections); the ord-1
+      reject is a section-level scope difference only
+heading_only_convention:
+  standing: c42-heading-only-convention-1
+  h3_hold_rows_this_round:
+    - mapping_id: 1dfc65df88b35d69
+      spec_code: 4MA1-1.7B
+      note_path: notes/1-numbers-and-the-number-system/ratio-problem-solving/multiple-ratios.json
+      chunk_ordinal: 0
+      heading: Multiple ratios
+    - mapping_id: 2d44bcf00f589c18
+      spec_code: 4MA1-6.3J
+      note_path: notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json
+      chunk_ordinal: 4
+      heading: Expected frequency
+    - mapping_id: 91a5080f8b390de6
+      spec_code: 4MA1-3.3F
+      note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+      chunk_ordinal: 0
+      heading: Drawing linear graphs
+    - mapping_id: 56905a113334dcd1
+      spec_code: 4MA1-2.2C
+      note_path: notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json
+      chunk_ordinal: 0
+      heading: Expanding one bracket
+  disposition: >-
+    LISTED not decided — no new decision this round (the directive named
+    the repair round alone; the per-row operator sign-off the R21
+    disposition requires was NOT given). They ride a future round only
+    with that sign-off (plus the convention decision itself), or stay
+    SUGGESTED — recorded, never forced. H3 rows un-hold automatically once
+    H1/H2 evidence accumulates at a later re-gate's replay.
+  NOTE: >-
+    the mapping_ids above are re-derived from the R21 review record at check
+    time (A6 asserts them against scripts/c42_r21_review_verdicts.yaml — the
+    4 HOLD rows verbatim); this block lists them for continuity only
+census_remarks:
+  - remark: >-
+      3d-pythagoras-and-trigonometry ord 3 'How do I use SOHCAHTOA in 3D?'
+      (mapping_id 75244f93401689fe, HUMAN_VALIDATED on 4.8D by the R5 apply's
+      gate-passed unsampled class — NOT an R21-sampled row): the section's
+      verbatim content ('look for right-angled triangles to use with
+      SOHCAHTOA — combinations of triangles that lead to the missing side or
+      angle — Example: find the angle between the base and the slant height
+      of a cone, given its radius and perpendicular height') rides 4.8F's
+      general clause ('apply trigonometrical methods to solve problems in
+      three dimensions') at least as well as 4.8D's — the worked example is a
+      3D ANGLE task with no Pythagoras step. This is the R6/R18
+      extension-row class EXCEPT that the row now sits on the R5-PROMOTED
+      surface: an extension REATTRIBUTE would move a promoted row's code,
+      which is an operator-level decision (the anti-forgery rule — no
+      agent-side movement of promoted rows; the promotions file pins the row
+      at 4.8D). NOT adjudicated this round — recorded for the operator: (a)
+      verdict a future round's extension with a promotions-file amendment,
+      or (b) leave as-is (the section is arguably dual-surface and the next
+      re-gate's re-seeded draw will test it).
+  - remark: >-
+      3d-pythagoras-and-trigonometry ord 5 'How do I apply 3D Pythagoras and
+      trigonometry to more complicated problems?' (mapping_id
+      14f9913db35b9db1, HUMAN_VALIDATED; CONFIRMed at R13): genuinely
+      mixed-surface content (the section itself says 'spot any uses of
+      Pythagoras' theorem AND SOHCAHTOA'; its prism-angle example is 4.8F
+      class, its cuboid/pencil example is 4.8D class). The R13 CONFIRM
+      verdict STANDS — no re-adjudication without fresh sampled evidence;
+      recorded here so the dual-surface reading is on the record.
+  - remark: >-
+      difference-of-two-squares ord 4 'Can I use the difference of two
+      squares to expand?' (mapping_id e7d416112d95b437, HUMAN_VALIDATED,
+      never sampled): expansion-strand content on a factorising note; no
+      sampled evidence against the join and no inventory entry — left for
+      the re-gate's draw; listed here only because the round censused the
+      implicated notes in full.
+dated_corrections:
+  - id: DC-R22-01
+    corrects: >-
+      the R21 fresh verdict note for 5fd48f084383be11
+      (scripts/c42_r21_fresh_verdicts.yaml + c42_r21_review_verdicts.yaml)
+      cites '2.6B and 3.3E are both absent from the C30 ledger —
+      Higher-only'
+    fact: >-
+      2.6B IS absent from the C30 ledger (Higher-only) as cited; 3.3E is
+      PRESENT — ledger row official_code '3.3E', higher_preferred true,
+      Higher text 'find the intersection points of two graphs, one linear
+      ( y ) and one non-linear ( y ), and and recognise that the solutions
+      correspond', Foundation text 'determine the coordinates of the midpoint
+      of a line segment, given the coordinates of the two end points' (a
+      different surface). The R21 ruling's SUBSTANCE holds unchanged — not a
+      tier artifact; 3.3E is a distinct ratified row whose HIGHER wording is
+      the target demand verbatim and the section is Higher-corpus content —
+      and the ledger presence strengthens rather than weakens the citation.
+    action: >-
+      recorded here per the P5 convention (landed records never edited;
+      corrections land as dated records of their own); the R21 records stay
+      byte-untouched
+disposition: >-
+  R22 gate evidence COMPLETE: 3 verdicted REATTRIBUTEs (4.8D -> 4.8F,
+  2.2F -> 2.2B, 2.6B -> 3.3E), 0 DEMOTEs, 0 RETAINs, 0 id-level rows, 0
+  extension entries, 3 note-level STANDING rulings, 4 H3 HOLD rows listed
+  not decided, 1 promoted-surface extension candidate recorded for the
+  operator, 1 dated correction. The state carrier is the override map
+  scripts/c42_section_overrides_r22.yaml (schema c42-r24-section-overrides/1.0)
+  — consumed fail-closed by the c40 substrate tool at the R24-shaped lane
+  TOGETHER WITH the R1/R6/R10/R14/R18 maps. Coverage projections: STATIONARY
+  129/188 (all three targets already covered; all three current codes keep
+  coverage via their standing ords); anchored 839 and unresolved-span 23
+  unchanged (no DEMOTEs); the 3 rows RE-ATTRIBUTE in place (the loop's first
+  zero-census-movement repair round). Zero store bytes move from this round.
+next_lanes:
+  - >-
+    R23 (join re-run) + R24 (substrate re-build consuming the R22 map) — the
+    re-build lane must ALSO wire the R5 promotions-file re-application into
+    its design (the c40 tool emits all-SUGGESTED, so the R24-shaped rebuild
+    re-applies scripts/c42_r5_promotions.yaml to the rebuilt store; the 3
+    R22 override rows are NOT in the promotions file — they stayed SUGGESTED
+    at R5 — so the 832-entry set is identity- and code-stable under the three
+    re-attributions; the apply's round contract needs its census re-pinned to
+    the R24-era shape)
+  - >-
+    R25 re-gate (operator gate 2 re-run) — the re-seeded draw over the
+    rebuilt surface
+  - >-
+    the 4 H3 HOLD rows and the ord-3 promoted-surface extension candidate
+    await explicit operator decisions
