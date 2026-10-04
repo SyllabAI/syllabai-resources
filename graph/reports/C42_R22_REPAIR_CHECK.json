@@ -4,7 +4,7 @@
   "stage": "r22-r1-shaped-repair-round-check",
   "round": "R22",
   "round_start": "df7a6c1",
-  "audited_head": "df7a6c12ee3291a876fb95e74adc7ea8766601d3",
+  "audited_head": "4adfffa91fd3e4e7f5d101640c363e3add7e254a",
   "baseline_store_sha256_16": "1cbb9c87fc1be7bf",
   "override_map_sha256_16": "b969627a811f7986",
   "verdicts_sha256_16": "8a9d2fd84c98539b",
@@ -46,9 +46,9 @@
       "detail": "proposals + override map byte-identical re-runs"
     },
     {
-      "check": "A8_footprint_precommit",
+      "check": "A10_committed_clean",
       "ok": true,
-      "detail": "delta vs df7a6c1 is exactly the declared 8-file R22 footprint (pre-commit form)"
+      "detail": "HEAD 4adfffa9 is the round commit; tree clean; the check re-runs committed-clean (the C8/X10 precedent)"
     },
     {
       "check": "A9_round_artifacts",
