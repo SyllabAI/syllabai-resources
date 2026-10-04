@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.c42-r24-rebuild-check/1.0",
  "task": "T-C42 R24 (substrate re-build consuming the R22 override map + the R5 promotions-file re-application over the rebuilt store; the R25 re-gate NOT fired)",
- "generated_utc": "2026-10-04T08:37:45+00:00",
+ "generated_utc": "2026-10-04T08:48:06+00:00",
  "all_pass": true,
  "gates": {
   "B1_census_meta": {
@@ -34,7 +34,7 @@
   },
   "B8_commit_state": {
    "pass": true,
-   "detail": "PRE-COMMIT form: HEAD == baseline 61334637b894, dirt  within the declared R24 footprint (7 paths)"
+   "detail": "COMMITTED-CLEAN: working tree clean, HEAD e9fd72a3f7ec committed delta the declared R24 footprint (7 paths)"
   },
   "B9_anti_forgery": {
    "pass": true,
@@ -47,8 +47,8 @@
  },
  "pins": {
   "baseline": "61334637b8948042116dae5a8038796a9bcd57ac",
-  "head": "61334637b8948042116dae5a8038796a9bcd57ac",
-  "pre_commit_form": true,
+  "head": "e9fd72a3f7ec6bd0b881abf3256d66189f6728d4",
+  "pre_commit_form": false,
   "store_sha256_16": "ac37a91b9b657ef6",
   "store_sha256_16_pre_baseline": "1cbb9c87fc1be7bf",
   "map22_sha256_16": "b969627a811f7986",
