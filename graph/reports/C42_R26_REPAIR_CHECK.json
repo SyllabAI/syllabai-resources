@@ -1,0 +1,63 @@
+{
+  "schema": "c42-r26-repair-check/1.0",
+  "task": "T-C42",
+  "stage": "r26-r1-shaped-repair-round-check",
+  "round": "R26",
+  "round_start": "00abec1",
+  "audited_head": "00abec1b204566d74c2fa165a1b8d33c51269b06",
+  "baseline_store_sha256_16": "ac37a91b9b657ef6",
+  "override_map_sha256_16": "80f562ad0a72f7d4",
+  "amendment_sha256_16": "fda9d717d9f58572",
+  "verdicts_sha256_16": "970bbf2f3a094f72",
+  "proposals_sha256_16": "c12da55463d2be8a",
+  "checks": [
+    {
+      "check": "A1_inventory_agreement",
+      "ok": true,
+      "detail": "overrides + amendment == the R25 4-row defect inventory; surface 1 EMPTY (verified against the R25 fresh notes); fill record pins the same rows (reject=4 + the 4 codes)"
+    },
+    {
+      "check": "A2_projection_agreement",
+      "ok": true,
+      "detail": "map == verdicts: 3 verdicted REATTRIBUTEs + 1 DEMOTE (null target), 0 extensions, 4 STANDING rulings, the 4 live-store H3 rows listed, census remarks, empty dated corrections, amendment pointer"
+    },
+    {
+      "check": "A3_code_domain",
+      "ok": true,
+      "detail": "3 targets are canonical-188 members, distinct from their currents; DEMOTE target null; currents match the live substrate; all 4 rows HUMAN_VALIDATED (the R26 novelty)"
+    },
+    {
+      "check": "A4_wordings_ledger",
+      "ok": true,
+      "detail": "store wordings carry the citations verbatim (1.1A / 5.1C / 3.3H targets; 2.2F's cap; 1.1G's vocabulary; 5.1D's demand); ledger facts asserted: 1.1G/1.1A/5.1D/5.1C/3.3H/2.2F absent (Higher-only), 3.3F present as shared-tier with the cited Higher + Foundation texts"
+    },
+    {
+      "check": "A5_joins_resolution",
+      "ok": true,
+      "detail": "4 note-level joins STAND at HEAD (1.1G/2.2F/3.3F/5.1D); resolution file byte-identical 00abec1 -> HEAD (git-read: not materialized in the sparse checkout)"
+    },
+    {
+      "check": "A6_substrate_pins",
+      "ok": true,
+      "detail": "4 inventory rows HUMAN_VALIDATED at pinned identities (R5 file verified); amendment supersedes/exclusion consistent; the promoted 832-row surface contains the exclusion exactly; the 4 H3 rows SUGGESTED; 1.1A + 5.1C uncovered (DEFER rows stand — the gain facts); 3.3H carries 7 anchored rows"
+    },
+    {
+      "check": "A7_idempotency",
+      "ok": true,
+      "detail": "proposals + override map + promotions amendment byte-identical re-runs"
+    },
+    {
+      "check": "A8_footprint_precommit",
+      "ok": true,
+      "detail": "delta vs 00abec1 is exactly the declared 9-file R26 footprint (pre-commit form)"
+    },
+    {
+      "check": "A9_round_artifacts",
+      "ok": true,
+      "detail": "proposals surfaces 0/4/4 pinned; top-1 convergences recorded (5.1C / 3.3H / 1.1A excluding-current) + the DEMOTE absence finding (current 2.2F tops including-current); the standing convention record remains pinned (c42-heading-only-convention-1 md + json)"
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "result": "ALL PASS"
+}
