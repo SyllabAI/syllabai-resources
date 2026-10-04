@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.c42-r28-rebuild-check/1.0",
  "task": "T-C42 R28 (substrate re-build consuming the R26 override map AND the R26 promotions amendment over the rebuilt store; the R29 re-gate NOT fired)",
- "generated_utc": "2026-10-04T12:43:16+00:00",
+ "generated_utc": "2026-10-04T12:44:12+00:00",
  "all_pass": true,
  "gates": {
   "B1_census_meta": {
@@ -34,7 +34,7 @@
   },
   "B8_commit_state": {
    "pass": true,
-   "detail": "PRE-COMMIT form: HEAD == baseline 11c2fc492991, dirt  within the declared R28 footprint (7 paths)"
+   "detail": "COMMITTED-CLEAN: working tree clean, HEAD 5801a782c084 committed delta the declared R28 footprint (7 paths)"
   },
   "B9_anti_forgery": {
    "pass": true,
@@ -47,8 +47,8 @@
  },
  "pins": {
   "baseline": "11c2fc49299103c2aa58aad67a87ed808df97601",
-  "head": "11c2fc49299103c2aa58aad67a87ed808df97601",
-  "pre_commit_form": true,
+  "head": "5801a782c084387854a71487d64187453ff5d399",
+  "pre_commit_form": false,
   "store_sha256_16": "1b667c0107dfc85c",
   "store_sha256_16_pre_baseline": "ac37a91b9b657ef6",
   "map26_sha256_16": "80f562ad0a72f7d4",
