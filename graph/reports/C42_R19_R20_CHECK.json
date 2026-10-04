@@ -1,0 +1,83 @@
+{
+ "schema": "syllabai.c42-r19-r20-check/1.0",
+ "task": "T-C42 R19+R20 (join re-run + substrate re-build consuming the R18 override map, the DEMOTE and the extension rows over the UNCHANGED C42-R14-amended resolution; the operator directive 'fire R19+R20' — the R18 record's next-decision gates; the R21 re-gate NOT fired)",
+ "generated_utc": "2026-10-04T01:39:22+00:00",
+ "all_pass": true,
+ "gates": {
+  "W1_join_refresh": {
+   "pass": true,
+   "detail": "198/5/203 census UNCHANGED (R18 re-pointed 0 joins, cleared 0 anchors; resolution byte-untouched, pin == disk b4539ab904c9a319), 0 foreign; unresolved set == residual + 2 R1-cleared + 2 R6-cleared; BOTH R18 STANDING pins landed verbatim (converting-between-fdp -> 4MA1-1.2G on spcpt_8MpvS5pnYkf9QswF; basic-angle-properties -> 4MA1-4.1B on spcpt_5FMXZMjqSZ3GK53q); the R14 re-point landed verbatim (composite-functions -> 4MA1-3.2D); 2/2 R10 CORRECT codes landed verbatim (H-2.2A / H-2.2C); related-calculations STANDING at 1.8D"
+  },
+  "W2_substrate_shape": {
+   "pass": true,
+   "detail": "921 rows = 839 anchored + 23 unresolved-span worklist (incl. ALL THREE DEMOTEs: basic-angle-properties ord 1 [R18] + related-calculations ord 2 [R10] + unit-conversions ord 2 [R14], chunk identity intact) + 59 uncovered-SP; covered codes 129 of 188 (the R18 projection 128 -> 129 landed); all SUGGESTED/RULE_DERIVED"
+  },
+  "W3_chunk_identity_invariant": {
+   "pass": true,
+   "detail": "862 chunk rows: (note_path, ordinal, heading, sha256_16) multiset IDENTICAL to pre-R20 blob 63f879617a591c33 — only code attribution moved; the R18 DEMOTE kept its chunk block"
+  },
+  "W4_reattribution_audit": {
+   "pass": true,
+   "detail": "all 862 pre-R20 chunk rows replayed: 5 rows on the R14 re-pointed anchor re-attributed wholesale (3.3I -> 3.2D), 31 REATTRIBUTE override rows (R1 10 + R6 7 + R10 7 + R14 4 + R18 3 incl. 2 labeled extension rows with provenance_class recorded) + 4 RETAIN rows recorded with provenance.override, 2 R1 entries ride the join via the R6 subsumption registry, 3 DEMOTE rows in the worklist class with their chunk identity (R10 + R14 + R18), 18 rows of the 4 cleared spans worklist, 799 non-surface rows zero-drift (incl. the related-calculations STANDING rows)"
+  },
+  "W5_coverage_worklist": {
+   "pass": true,
+   "detail": "covered 128 -> 129 of 188; gained ['4MA1-1.3D'] (1.3D — the R18 REATTRIBUTE target via the ord-3 verdicted + ord-2 extension rows; the 1.3D uncovered-SP DEFER row resolved into anchored rows, the R12/R16 coverage-gain precedent); lost []; worklist complete; mapping_ids unique"
+  },
+  "W6_protected_surfaces": {
+   "pass": true,
+   "detail": "dirty set within the R19/R20 footprint (5 paths); no dirt outside the footprint; Lane C stores, chemistry substrate, the R14-amended resolution, the R18 map + verdicts and the C42 scope/R0-R18 records byte-identical to HEAD c10553d"
+  },
+  "W7_determinism": {
+   "pass": true,
+   "detail": "substrate re-run byte-identical; join re-run content-identical modulo generated_utc"
+  }
+ },
+ "pins": {
+  "head": "c10553d",
+  "old_join_blob": "4c595d430c10444869e62ae2931c387326aac2be",
+  "old_store_blob": "63f879617a591c331a511f37d73ea551ae984a35",
+  "resolution_sha256_16": "b4539ab904c9a319",
+  "join_198_5": true,
+  "store_rows": 921,
+  "anchored": 839,
+  "unresolved_span_worklist": 23,
+  "demoted_worklist": 3,
+  "unmapped_sps": 59,
+  "covered_codes": 129,
+  "gained_codes": [
+   "4MA1-1.3D"
+  ],
+  "lost_codes": [],
+  "r18_landings": [
+   [
+    "basic-angle-properties::1",
+    "DEMOTE_TO_WORKLIST",
+    null,
+    "-",
+    true
+   ],
+   [
+    "converting-between-fdp::2",
+    "REATTRIBUTE",
+    "4MA1-1.3D",
+    "extension",
+    true
+   ],
+   [
+    "converting-between-fdp::3",
+    "REATTRIBUTE",
+    "4MA1-1.3D",
+    "verdicted",
+    true
+   ],
+   [
+    "converting-between-fdp::4",
+    "REATTRIBUTE",
+    "4MA1-1.6C",
+    "extension",
+    true
+   ]
+  ]
+ }
+}

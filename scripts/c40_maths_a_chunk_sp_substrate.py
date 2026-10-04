@@ -2,6 +2,53 @@
 """c40 — the maths-a chunk→SpecificationPoint mapping substrate (T-C40 K2 Lane B;
 the c13-chunk-convention-1 construction instantiated for the SME JSON notes corpus).
 
+T-C42 R20 AMENDMENT (2026-10-04, dated per P5 — this generator re-pinned again,
+landed records never edited): substrate re-build over the UNCHANGED
+C42-R14-amended resolution via the R19-refreshed T-C32 join — the C42 R18
+repair round moved nothing at the resolution layer (both note-level joins
+adjudicated STANDING, 0 anchors cleared, the resolution file byte-untouched).
+Four semantic changes, everything else untouched:
+  a. the pinned join census STAYS 198+5 (the R18 round re-pointed 0 note-level
+     joins and cleared 0 anchors); the guard below ALSO verifies the two R18
+     STANDING pins fail-closed — converting-between-fdp joins 4MA1-1.2G on
+     spcpt_8MpvS5pnYkf9QswF and basic-angle-properties joins 4MA1-4.1B on
+     spcpt_5FMXZMjqSZ3GK53q, with the rulings read verbatim from the R18
+     map's own note_level_adjudications;
+  b. the operator section-override maps are consumed FAIL-CLOSED — the R1 map
+     (16 entries), the R6 map (7 entries incl. 2 subsumed-registry keys), the
+     R10 map (8 verdicted entries: 7 REATTRIBUTE + the loop's first DEMOTE),
+     the R14 map (5 verdicted entries: 4 REATTRIBUTE + the loop's second
+     DEMOTE) AND the R18 map scripts/c42_section_overrides_r18.yaml (4
+     entries: 1 verdicted REATTRIBUTE — converting-between-fdp ord 3,
+     1.2G -> 1.3D, the R9/R10 inverse-direction repair shape — + 2 labeled
+     extension REATTRIBUTEs, ords 2/4 of the same note -> 1.3D / 1.6C, the
+     R6 transparently-labeled precedent, zero silent repair + 1
+     DEMOTE_TO_WORKLIST, basic-angle-properties ord 1 — the labeling primer,
+     no canonical 188 row teaches it, the loop's third DEMOTE, recorded
+     never forced). Every applied entry must hit exactly one emitted chunk
+     row, its current_code must equal the join-derived code, REATTRIBUTE
+     targets must sit in the ratified registry, and any override naming a
+     code outside the ratified 188 fails the build. Applied rows carry
+     provenance.override with the map sha — the R21 re-fill sees exactly
+     what the operator ruled;
+  c. coverage + the uncovered-SP worklist are RECOMPUTED from the refreshed
+     surface (the R16-era 128-code bound stays on its own record as a
+     measurement under the pre-R20 mapping); the R18 map's PROJECTIONS land
+     HERE, computed never assumed — 1.3D gains chunk coverage via the ord-3
+     verdicted + ord-2 extension rows (the R12/R16 coverage-gain precedent:
+     1.6A + 1.6C at R12, 4.1D at R16), so the 1.3D uncovered-SP DEFER row on
+     the R17 worklist resolves into anchored rows;
+  d. the pinned substrate shape moves 840 anchored + 22 unresolved-span ->
+     839 anchored + 23 unresolved-span (the third DEMOTE, chunk identity
+     intact) and 60 -> 59 uncovered-SP (coverage 128 -> 129 of 188, lost
+     none) — verified by scripts/c42_r19_r20_join_substrate_check.py.
+CHUNK IDENTITY INVARIANT: the chunker, the c40-chunk-convention-1 convention
+and the corpus are untouched — note_path/ordinal/heading/sha256_16 never move;
+only code attribution changes (and one row's move to the worklist class with
+its chunk block intact). Verified old-blob vs new-file by
+scripts/c42_r19_r20_join_substrate_check.py against the pinned pre-R20 blob
+(the c10553d/R18-era store).
+
 T-C42 R16 AMENDMENT (2026-10-04, dated per P5 — this generator re-pinned again,
 landed records never edited): substrate re-build over the C42-R14-amended
 resolution via the R15-refreshed T-C32 join. Four semantic changes, everything
@@ -199,7 +246,7 @@ import graph_paths as GP  # C28 §3.2 path registry — single source of ratifie
 import yaml
 
 TOOL = "scripts/c40_maths_a_chunk_sp_substrate.py"
-TOOL_VERSION = "2.3.0"
+TOOL_VERSION = "2.4.0"
 CONVENTION_ID = "c40-chunk-convention-1"
 QUAL = "igcse-maths-a"
 COURSE = "igcse-maths-a-18-higher"
@@ -210,6 +257,7 @@ OVERRIDES_R1 = "scripts/c42_section_overrides.yaml"
 OVERRIDES_R6 = "scripts/c42_section_overrides_r6.yaml"
 OVERRIDES_R10 = "scripts/c42_section_overrides_r10.yaml"
 OVERRIDES_R14 = "scripts/c42_section_overrides_r14.yaml"
+OVERRIDES_R18 = "scripts/c42_section_overrides_r18.yaml"
 # surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
 # wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
 # residual that was already unresolved
@@ -747,6 +795,11 @@ def construct() -> dict:
                                               "loop's second DEMOTE_TO_WORKLIST)",
                                expect_entries=5, expect_reattr=4, expect_retain=0,
                                expect_demote=1)
+    ov_r18 = consume_overrides(OVERRIDES_R18, "C42 R18 (surface 3: 1 verdicted REATTRIBUTE "
+                                              "+ 2 labeled extension REATTRIBUTEs + the "
+                                              "loop's third DEMOTE_TO_WORKLIST)",
+                               expect_entries=4, expect_reattr=3, expect_retain=0,
+                               expect_demote=1)
 
     # T-C42 R12: the R10 map's note-level adjudication pins the
     # related-calculations anchor as STANDING — verify the refreshed join
@@ -775,6 +828,31 @@ def construct() -> dict:
     if _cf_code != "4MA1-3.2D" or _r14_adj.get("anchor_id") != "spcpt_XWbj3PG2n8tdWF2w":
         fail(f"R16: the re-point pin drifted — composite-functions joins "
              f"{_cf_code!r} (want 4MA1-3.2D on spcpt_XWbj3PG2n8tdWF2w)")
+
+    # T-C42 R20: the R18 map's note-level adjudications pin BOTH joins as
+    # STANDING — verify the refreshed join still carries 4MA1-1.2G for
+    # converting-between-fdp on spcpt_8MpvS5pnYkf9QswF and 4MA1-4.1B for
+    # basic-angle-properties on spcpt_5FMXZMjqSZ3GK53q, with the ruling text
+    # verbatim from the R18 map, fail-closed.
+    _r18adj = (yaml.safe_load(r.read_bytes(OVERRIDES_R18).decode("utf-8"))
+               .get("note_level_adjudications") or {})
+    for _slug, _ruling, _want_code, _want_anchor in (
+            ("converting-between-fdp",
+             "THE NOTE-LEVEL JOIN TO 1.2G STANDS (unchanged)",
+             "4MA1-1.2G", "spcpt_8MpvS5pnYkf9QswF"),
+            ("basic-angle-properties",
+             "THE NOTE-LEVEL JOIN TO 4.1B STANDS (unchanged)",
+             "4MA1-4.1B", "spcpt_5FMXZMjqSZ3GK53q")):
+        _adj = _r18adj.get(_slug) or {}
+        _code = next((j["store_row_code"] for j in jrows
+                      if j["note_path"].endswith(f"{_slug}.json")), None)
+        _anchor = next((j["anchor_id"] for j in jrows
+                        if j["note_path"].endswith(f"{_slug}.json")), None)
+        if _adj.get("ruling") != _ruling or _code != _want_code or \
+                _anchor != _want_anchor:
+            fail(f"R20: the R18 STANDING pin drifted — {_slug} ruling "
+                 f"{_adj.get('ruling')!r} joins {_code!r} on {_anchor!r} "
+                 f"(want {_want_code!r} on {_want_anchor!r})")
 
     # worklist: uncovered SPs (registry minus notes-covered codes)
     covered = sorted({x["spec_code"] for x in rows if x.get("spec_code")})
@@ -842,16 +920,23 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
-            "stage": "T-C42 R16: substrate re-build over the C42-R14-amended "
-                     "resolution via the R15-refreshed T-C32 join — chunk "
-                     "identity invariant, only code attribution moves (plus one "
-                     "row's DEMOTE to the worklist class, chunk block intact); "
-                     "the FOUR operator section-override maps (R1 + R6 with "
-                     "the subsumption registry + R10 with the loop's first "
-                     "DEMOTE and the note-level STANDING pin + R14 with the "
-                     "loop's second DEMOTE and the composite-functions re-point "
-                     "pin) consumed fail-closed; coverage + the uncovered-SP "
-                     "worklist recomputed (gained/lost computed, never assumed)",
+            "stage": "T-C42 R20: substrate re-build over the UNCHANGED "
+                     "C42-R14-amended resolution via the R19-refreshed "
+                     "T-C32 join (the R18 repair round moved nothing at the "
+                     "resolution layer) — chunk identity invariant, only "
+                     "code attribution moves (plus one row's DEMOTE to the "
+                     "worklist class, chunk block intact); the FIVE operator "
+                     "section-override maps (R1 + R6 with the subsumption "
+                     "registry + R10 with the loop's first DEMOTE and the "
+                     "note-level STANDING pin + R14 with the loop's second "
+                     "DEMOTE and the composite-functions re-point pin + R18 "
+                     "with the loop's third DEMOTE, 1 verdicted + 2 labeled "
+                     "extension REATTRIBUTEs and BOTH note-level joins "
+                     "adjudicated STANDING) consumed fail-closed; coverage + "
+                     "the uncovered-SP worklist recomputed (gained/lost "
+                     "computed, never assumed — the R18 projections land "
+                     "here: 1.3D gains chunk coverage, the 1.3D uncovered-SP "
+                     "DEFER row resolves into anchored rows)",
             "convention": CONVENTION_ID,
             "convention_spec": (
                 "a note = SP spans split at the corpus's own `spec_point` blocks; "
@@ -909,7 +994,8 @@ def construct() -> dict:
             "upstream_store": f"T-C32 K2-A notes-join ({len(jrows)} joins / "
                               f"{len(urows)} unresolved; AI_VALIDATED "
                               "operator-delegated chain — recorded honestly per "
-                              "C31 §4.5; C42 R6-amended resolution, refreshed at R7)",
+                              "C31 §4.5; C42-R14-amended resolution, byte-"
+                              "unchanged through R18, refreshed at R19)",
             "upstream_validation_tier": UPSTREAM_TIER,
             "promotion_rule": "rows are SUGGESTED; HUMAN_VALIDATED only via the "
                               "operator review-sheet gate "
