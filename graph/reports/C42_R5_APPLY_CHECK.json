@@ -1,0 +1,70 @@
+{
+  "schema": "c42-r5-apply-check/1.0",
+  "task": "T-C42",
+  "stage": "r5-s18-apply-check",
+  "generated_utc": "2026-10-04T02:11:37Z",
+  "audits": {
+    "store": "1cbb9c87fc1be7bf",
+    "promotions": "9bad739bd79e5899",
+    "baseline": "0ce8610afeb73654dde797e206b3e4bd1656a63d",
+    "baseline_store": "e2604d6fda06bef7"
+  },
+  "promoted": 832,
+  "reject_stay_suggested": [
+    "5fd48f084383be11",
+    "a8d23b11c343a3bd",
+    "eb26022693be3948"
+  ],
+  "hold_stay_suggested": [
+    "1dfc65df88b35d69",
+    "2d44bcf00f589c18",
+    "56905a113334dcd1",
+    "91a5080f8b390de6"
+  ],
+  "worklist_stay_suggested": 82,
+  "checks": [
+    {
+      "check": "store_to_record",
+      "ok": true,
+      "detail": "832 HUMAN_VALIDATED rows == promotions entries"
+    },
+    {
+      "check": "record_to_store",
+      "ok": true,
+      "detail": "832 entries: exact identity + operator attribution on both surfaces"
+    },
+    {
+      "check": "r21_confirm_consistency",
+      "ok": true,
+      "detail": "457 sampled entries == the R21 CONFIRM set, sources verbatim"
+    },
+    {
+      "check": "exclusions",
+      "ok": true,
+      "detail": "3 REJECT + 4 H3 HOLD + 82 worklist rows stay SUGGESTED, no promotion blocks"
+    },
+    {
+      "check": "census_meta_header",
+      "ok": true,
+      "detail": "921 rows = 832 HV + 7 SUGGESTED anchored (REJECT|HOLD) + 82 worklist; meta promotion fields + re-dated header match the record; tiers unchanged; store sha pinned"
+    },
+    {
+      "check": "structural_diff_zero",
+      "ok": true,
+      "detail": "non-validation delta vs baseline 0ce8610afeb7 is exactly zero across all 921 rows (832 validation-only flips; 0 unpromoted mutations; meta delta = 8 promotion fields)"
+    },
+    {
+      "check": "mechanical_reverify",
+      "ok": true,
+      "detail": "832/832 promoted rows quote-in-chunk + chunk-identity + registry PASS (fresh re-chunk, independent pass)"
+    },
+    {
+      "check": "negative_controls",
+      "ok": true,
+      "detail": "AI-attribution strings fail the gate; 'operator' passes; worklist ids absent from the record"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "result": "ALL PASS"
+}
