@@ -1,0 +1,131 @@
+{
+  "schema": "c42-r28-rebuild-record/1.0",
+  "task": "T-C42",
+  "stage": "r28-substrate-rebuild",
+  "generated_utc": "2026-10-04T12:38:57+00:00",
+  "baseline": "11c2fc49299103c2aa58aad67a87ed808df97601",
+  "operator_directive": "R27 join re-run + R28 rebuild consuming both carriers — 2026-10-04, zai-web (gateway trace 1a106d1aa121ab59)",
+  "gate": "the R26 record's next-decision menu option (a): the substrate re-build consuming the R26 override map (schema c42-r28-section-overrides/1.0) AND the R26 promotions amendment (schema c42-r28-promotions-amendment/1.0); the R29 re-gate NOT fired",
+  "rebuild": {
+    "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@2.6.0",
+    "tool_version_move": "2.5.0 -> 2.6.0 (the R16->R20->R24 rebuild-lane convention; provenance.tool moves on every row — the store records its builder)",
+    "join": "the R27-refreshed T-C32 join (content-identical, census 198/5 unchanged; the FOUR R26 STANDING pins verified in-generator)",
+    "override_maps_consumed": "SEVEN: R1 + R6 (with the subsumption registry) + R10 + R14 + R18 + R22 + R26, all fail-closed",
+    "rows_pre": 920,
+    "rows_post": 918,
+    "anchored": 838,
+    "unresolved_span": 24,
+    "uncovered_sp_pre": 58,
+    "uncovered_sp_post": 56,
+    "covered_pre": 130,
+    "covered_post": 132,
+    "coverage_gained": [
+      "4MA1-1.1A",
+      "4MA1-5.1C"
+    ],
+    "coverage_lost": []
+  },
+  "overrides": {
+    "path": "scripts/c42_section_overrides_r26.yaml",
+    "sha256_16": "80f562ad0a72f7d4",
+    "entries": 4,
+    "reattribute": 3,
+    "demote": 1,
+    "landings": [
+      {
+        "note_slug": "types-of-number",
+        "chunk_ordinal": 1,
+        "mapping_id_old": "81c0b59852d5d4b6",
+        "mapping_id_new": "5feaf8109168ae1e",
+        "from_code": "4MA1-1.1G",
+        "to_code": "4MA1-1.1A",
+        "promotion_amended_code": "4MA1-1.1A"
+      },
+      {
+        "note_slug": "drawing-straight-line-graphs",
+        "chunk_ordinal": 4,
+        "mapping_id_old": "e6ed72481e8ffc2e",
+        "mapping_id_new": "9bd8237d3ec17e43",
+        "from_code": "4MA1-3.3F",
+        "to_code": "4MA1-3.3H",
+        "promotion_amended_code": "4MA1-3.3H"
+      },
+      {
+        "note_slug": "introduction-to-vectors",
+        "chunk_ordinal": 3,
+        "mapping_id_old": "7fdded0b9245e1c3",
+        "mapping_id_new": "19a8724ce211a3b3",
+        "from_code": "4MA1-5.1D",
+        "to_code": "4MA1-5.1C",
+        "promotion_amended_code": "4MA1-5.1C"
+      }
+    ],
+    "demote_landing": {
+      "note_slug": "factorising-by-grouping",
+      "chunk_ordinal": 2,
+      "mapping_id_old": "70f0b027f3f1528f",
+      "mapping_id_new": "55bb31c2ad1c8258",
+      "from_code": "4MA1-2.2F",
+      "to": "unresolved-span worklist (the c40 DEMOTE convention; chunk identity intact — the W3 invariant)"
+    },
+    "standing_pins": [
+      "types-of-number -> 4MA1-1.1G on spcpt_J55PhZ2cbPsYvpt8",
+      "factorising-by-grouping -> 4MA1-2.2F on spcpt_vMSNnYkKPf62MRH9",
+      "drawing-straight-line-graphs -> 4MA1-3.3F on spcpt_h8QyRmzX5mCJb3X9",
+      "introduction-to-vectors -> 4MA1-5.1D on spcpt_v6tP4DSVShVJMJhk"
+    ]
+  },
+  "promotions": {
+    "path": "scripts/c42_r5_promotions.yaml",
+    "sha256_16": "9bad739bd79e5899",
+    "entries": 832,
+    "sampled_confirm": 457,
+    "amendment": {
+      "path": "scripts/c42_r26_promotions_amendment.yaml",
+      "sha256_16": "fda9d717d9f58572",
+      "schema": "c42-r28-promotions-amendment/1.0",
+      "supersedes": 3,
+      "excluded": 1,
+      "pre_apply_integrity": "pinned_code verified against the R5 file BEFORE the amendment applies",
+      "re_applied": 831,
+      "meta_promoted_rows_restated": "832 -> 831 (the 7 other R5 promotion meta fields byte-equal)"
+    },
+    "reapplication": "byte-stable: every applied block == the R5 tool's block shape AND the baseline store's block for the same chunk identity (831/831); the 3 superseded rows REMAIN in the promoted set at their amended codes (re-keyed old->new); the DEMOTE row leaves the promoted set entirely; meta gains ONLY the additive promotion_reapplied* fields",
+    "superseded_ids_rekeyed": {
+      "81c0b59852d5d4b6": "5feaf8109168ae1e",
+      "e6ed72481e8ffc2e": "9bd8237d3ec17e43",
+      "7fdded0b9245e1c3": "19a8724ce211a3b3"
+    },
+    "excluded_id": "70f0b027f3f1528f"
+  },
+  "structural_diff": {
+    "rows": "920 -> 918 (the 2 resolving DEFER rows: 1.1A + 5.1C)",
+    "rows_moved": 4,
+    "moved_fields": [
+      "spec_code",
+      "mapping_id",
+      "sp_title",
+      "provenance.override (added block)",
+      "rationale (REATTRIBUTE suffix) — the 3 REATTRIBUTEs; spec_code -> None, mapping_id -> demoted|…, worklist_reason + disposition added, sp_title/anchor popped — the DEMOTE"
+    ],
+    "promoted_surface_delta": "832 -> 831 HUMAN_VALIDATED (the amendment); the 3 superseded rows re-keyed at the amended codes; the other 828 differ ONLY in the provenance.tool string (scripts/c40_maths_a_chunk_sp_substrate.py@2.5.0 -> scripts/c40_maths_a_chunk_sp_substrate.py@2.6.0)",
+    "status_changes": "exactly 1: the DEMOTE row HUMAN_VALIDATED -> SUGGESTED (worklist) — the loop's first promoted-row status change, enumerated",
+    "header_delta": "status line re-dated (line 3), lines 1-2 verbatim"
+  },
+  "store_sha256_16_pre": "ac37a91b9b657ef6",
+  "store_sha256_16_post": "1b667c0107dfc85c",
+  "ci_parity": {
+    "graph_check": "failure census identical pre/post (pre-existing sparse-checkout environmental set)",
+    "kg_export": "kg_export --verify-golden GREEN on the rebuilt state"
+  },
+  "post_check": "scripts/c42_r28_rebuild_check.py",
+  "not_done": [
+    "the R29 re-gate NOT fired (explicit operator instruction only)",
+    "the 4 H3 HOLD rows untouched (per-row operator sign-off owed)",
+    "the ord-3 promoted-surface extension candidate NOT adjudicated (operator-level decision; the promotions file pins the row)",
+    "the promoted-surface same-class candidates (grouping ords 0/1/3, drawing ord 5, vectors ord 4) NOT adjudicated — operator census remarks per the R26 record",
+    "the rational/irrational corpus gap NOT adjudicated — operator decision",
+    "no resolution-file / corpus / Lane C / chemistry writes",
+    "no R5 promotions-file edits (byte-unchanged since R5, sha-pinned; the amendment is the dated record)"
+  ]
+}

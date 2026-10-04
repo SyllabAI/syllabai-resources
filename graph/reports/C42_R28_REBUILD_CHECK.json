@@ -1,0 +1,112 @@
+{
+ "schema": "syllabai.c42-r28-rebuild-check/1.0",
+ "task": "T-C42 R28 (substrate re-build consuming the R26 override map AND the R26 promotions amendment over the rebuilt store; the R29 re-gate NOT fired)",
+ "generated_utc": "2026-10-04T12:43:16+00:00",
+ "all_pass": true,
+ "gates": {
+  "B1_census_meta": {
+   "pass": true,
+   "detail": "918 rows = 838 anchored (831 HUMAN_VALIDATED + 7 SUGGESTED) + 24 unresolved-span + 56 uncovered-SP; covered 132/188 (gained 4MA1-1.1A + 4MA1-5.1C, the R26 projections landing); meta KEY SETS identical to the R24-era baseline (it already carries the 4 promotion_reapplied* keys) with the delta by VALUE == exactly the 8 census keys + promoted_rows RESTATED 832 -> 831 + the 4 reapplied fields re-dated; the 7 other R5 promotion fields byte-equal; tool 2.6.0"
+  },
+  "B2_reattributions_demote": {
+   "pass": true,
+   "detail": "4/4 map rows landed verbatim: 4MA1-3.3F->4MA1-3.3H, 4MA1-5.1D->4MA1-5.1C, 4MA1-1.1G->4MA1-1.1A + the DEMOTE (4MA1-2.2F -> unresolved-span, demoted id 55bb31c2ad1c8258); old ids == the R26 map's rows; provenance.override == the map blocks (map sha 80f562ad0a72f7d4); the 3 REATTRIBUTE rows HUMAN_VALIDATED at the amended codes with byte-stable blocks; the DEMOTE row SUGGESTED, no promotion block"
+  },
+  "B3_promotions_two_way": {
+   "pass": true,
+   "detail": "store <-> file+amendment 831 == 831 exact identities (828 direct + 3 superseded re-keyed old->new at the AMENDED codes); the excluded DEMOTE row NOT promoted (unresolved-span worklist); validated_by operator everywhere; sampled 457 == the R21 CONFIRM set; every applied block == the R5 tool's block shape; the SUGGESTED anchored residue == 3 R22 REJECTs + 4 H3 HOLDs; promotions file sha 9bad739bd79e5899 == the R5 record's pin == the amendment's base pin"
+  },
+  "B4_structural_reproof": {
+   "pass": true,
+   "detail": "vs baseline blob 11c2fc492991: chunk-identity set identical (862); the 828 non-moved promoted rows differ ONLY in provenance.tool (@2.5.0 -> @2.6.0) with byte-equal promotion blocks; the 3 re-attributed + 1 DEMOTED rows carry exactly the enumerated fields (the DEMOTE's status change HUMAN_VALIDATED -> SUGGESTED recorded); the 1.1A + 5.1C DEFER rows are the only vanishing rows (920 -> 918)"
+  },
+  "B5_protected_surfaces": {
+   "pass": true,
+   "detail": "64 protected surfaces byte-identical to the baseline (the resolution substrate pin 93419a291b9b87ff re-verified; the R5/R21/R22/R23/R24/R25/R26/R27 records + tools, the six earlier maps + the R26 map + the amendment, the promotions file, the R27 join records + generator, Lane C, chemistry, the registry)"
+  },
+  "B6_determinism": {
+   "pass": true,
+   "detail": "the amended c40 tool constructs twice byte-identically (G7); TOOL_VERSION 2.6.0; the store sha 1b667c0107dfc85c == the record's post pin"
+  },
+  "B7_standing_pins": {
+   "pass": true,
+   "detail": "the FOUR R26 STANDING joins verified against the R26 map's own list-shaped adjudications (ruling + anchor + landed code): types-of-number->4MA1-1.1G; factorising-by-grouping->4MA1-2.2F; drawing-straight-line-graphs->4MA1-3.3F; introduction-to-vectors->4MA1-5.1D; the R22 trio + the R18 pair + the R14 re-point (3.2D) + the R10 STANDING (1.8D) re-verified in the R27-refreshed join"
+  },
+  "B8_commit_state": {
+   "pass": true,
+   "detail": "PRE-COMMIT form: HEAD == baseline 11c2fc492991, dirt  within the declared R28 footprint (7 paths)"
+  },
+  "B9_anti_forgery": {
+   "pass": true,
+   "detail": "provenance tiers RULE_DERIVED on all 918 rows; every HUMAN_VALIDATED row promoted_by operator (AI-name patterns fail closed); the 4 H3 HOLD rows untouched (ids + codes); the DEMOTE row carries NO promotion block (SUGGESTED worklist); 831 == 831"
+  },
+  "B10_ci_parity": {
+   "pass": true,
+   "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check summary ALL PASS with 12 output lines, ZERO failure lines and ZERO lines naming the chunk store (this workspace's census: the R24-era '1694 environmental failures' pin belonged to a different workspace state — the parity discipline is pre/post census IDENTITY, recorded by the lane's R10 gate and re-verified here: True)"
+  }
+ },
+ "pins": {
+  "baseline": "11c2fc49299103c2aa58aad67a87ed808df97601",
+  "head": "11c2fc49299103c2aa58aad67a87ed808df97601",
+  "pre_commit_form": true,
+  "store_sha256_16": "1b667c0107dfc85c",
+  "store_sha256_16_pre_baseline": "ac37a91b9b657ef6",
+  "map26_sha256_16": "80f562ad0a72f7d4",
+  "amendment_sha256_16": "fda9d717d9f58572",
+  "promotions_sha256_16": "9bad739bd79e5899",
+  "resolution_blob_sha16": "93419a291b9b87ff",
+  "rows": 918,
+  "anchored": 838,
+  "human_validated": 831,
+  "suggested_anchored_residue": [
+   "1dfc65df88b35d69",
+   "2d44bcf00f589c18",
+   "430c0f1c124a4732",
+   "56905a113334dcd1",
+   "83e7238929d00f56",
+   "91a5080f8b390de6",
+   "9af27c9ae0133ad8"
+  ],
+  "unresolved_span": 24,
+  "uncovered_sp": 56,
+  "covered_codes": 132,
+  "coverage_gained": [
+   "4MA1-1.1A",
+   "4MA1-5.1C"
+  ],
+  "coverage_lost": [],
+  "landings": [
+   {
+    "row": "drawing-straight-line-graphs::4",
+    "from": "4MA1-3.3F",
+    "to": "4MA1-3.3H",
+    "mapping_id_old": "e6ed72481e8ffc2e",
+    "mapping_id_new": "9bd8237d3ec17e43",
+    "pass": true
+   },
+   {
+    "row": "introduction-to-vectors::3",
+    "from": "4MA1-5.1D",
+    "to": "4MA1-5.1C",
+    "mapping_id_old": "7fdded0b9245e1c3",
+    "mapping_id_new": "19a8724ce211a3b3",
+    "pass": true
+   },
+   {
+    "row": "types-of-number::1",
+    "from": "4MA1-1.1G",
+    "to": "4MA1-1.1A",
+    "mapping_id_old": "81c0b59852d5d4b6",
+    "mapping_id_new": "5feaf8109168ae1e",
+    "pass": true
+   }
+  ],
+  "demote_landing": {
+   "from": "4MA1-2.2F",
+   "mapping_id_old": "70f0b027f3f1528f",
+   "mapping_id_new": "55bb31c2ad1c8258"
+  },
+  "promoted_rows_meta_restated": "832 -> 831",
+  "tool_version_move": "2.5.0 -> 2.6.0"
+ }
+}
