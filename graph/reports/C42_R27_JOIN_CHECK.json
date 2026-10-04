@@ -1,0 +1,50 @@
+{
+  "schema": "c42-r27-join-check/1.0",
+  "task": "T-C42 R27 join re-run verification battery (J1-J9)",
+  "generated_utc": "2026-10-04T12:24:36+00:00",
+  "head": {
+    "sha": "a8803c5664db29bab69ed78e09bab4b246282dc4",
+    "subject": "T-C42 R26: post-commit audit re-run (A1-A9 ALL 9/9 PASS exit 0 at the round commit cd96765 — the committed-clean form: A10 asserts the empty working-tree delta and the round HEAD, the C8/X10 precedent; the delta vs the pre-commit report is exactly the check JSON's own regeneration with the audited HEAD now at the round commit; the R5-promoted store surface, the resolution file and every standing record byte-unchanged) — the audit convention: the audit commit moves HEAD, never the round's records.\n"
+  },
+  "baseline": "a8803c5664db29bab69ed78e09bab4b246282dc4",
+  "directive": "R27 join re-run + R28 rebuild consuming both carriers (2026-10-04, zai-web, gateway trace 1a106d1aa121ab59) — the join re-run lane; R28 fired by the same directive and runs after this round closes; R29 NOT fired",
+  "gates": {
+    "J1_join_refresh": {
+      "pass": true,
+      "detail": "census UNCHANGED 198/5/203 (R26 re-pointed 0 joins, cleared 0 anchors — ALL FOUR adjudicated STANDING), 0 foreign, coverage 120/188 (61F/59H codes, 81F/117H anchors, EXACT 173 / LEDGER_EXPLAINABLE 25); unresolved set == residual + 2 R1-cleared + 2 R6-cleared; all four input pins equal the recorded R19-era constants and the resolution pin equals the live git blob b4539ab904c9a319"
+    },
+    "J2_verbatim_pins": {
+      "pass": true,
+      "detail": "all 13 note-level joins pinned verbatim (R14 re-point 3.2D; R10 pair 2.2A/2.2C + STANDING 1.8D; R18 STANDING pair 1.2G/4.1B; R22 STANDING trio 4.8D/2.2F/2.6B; R26 STANDING quartet 1.1G/2.2F/3.3F/5.1D) — all landed"
+    },
+    "J3_r18_map_pins": {
+      "pass": true,
+      "detail": "BOTH R18 STANDING pins verified against the R18 map's own note_level_adjudications (dict-shaped) — ruling text + anchor id + landed code together, fail-closed (carried from R19)"
+    },
+    "J4_r22_map_pins": {
+      "pass": true,
+      "detail": "ALL THREE R22 STANDING pins verified against the R22 map's own note_level_adjudications (list-shaped) — ruling STANDING + anchor id + joined_code together; the map's overrides block carries exactly the 3 verdicted REATTRIBUTE entries as pinned; the R5 promotions file (832 rows) intersects the 3 rows in NOTHING by mapping_id and by note+ordinal (0/0 hits) — the R22-era promoted-set stability, verified not assumed (carried)"
+    },
+    "J5_r26_map_pins_and_promotions_interaction": {
+      "pass": true,
+      "detail": "ALL FOUR R26 STANDING pins verified against the R26 map's own list-shaped adjudications — ruling STANDING + anchor id + joined_code together; the map's overrides block carries exactly 3 verdicted REATTRIBUTEs + 1 DEMOTE_TO_WORKLIST as pinned; THE R26 NOVELTY at the join layer: the R5 promotions file (832 rows) intersects the 4 rows in EXACTLY those 4 rows by mapping_id (4) AND by note+ordinal (4) with the R5-pinned codes == the map's current_codes verified; the amendment agrees (schema c42-r28-promotions-amendment/1.0, base sha 9bad739bd79e5899 == live 9bad739bd79e5899, 3 supersedes with amended_code == override_code + 1 excluded DEMOTE, pinned codes == the R5 codes) verified"
+    },
+    "J6_resolution_substrate": {
+      "pass": true,
+      "detail": "resolution BYTE-UNTOUCHED: HEAD blob == R14-era pin 93419a291b9b87ff (== baseline blob), counts recomputed 222 rows / 214 with resolved_code / 8 without — last writer remains R14; R26 amended nothing at the resolution layer"
+    },
+    "J7_determinism": {
+      "pass": true,
+      "detail": "generator re-run exit 0; refreshed artifact content-identical modulo generated_utc (joins, unresolved, counts, inputs, task, validation_tier, schema, ordering all equal)"
+    },
+    "J8_protected_surfaces": {
+      "pass": true,
+      "detail": "working-tree dirt ⊆ the declared R27 footprint (no outside dirt); every protected loop record byte-untouched baseline→HEAD→working tree (76 paths incl. the R26 map/amendment/verdicts/check/records, the R25 re-gate records, the R24 rebuild records, the R22/R21/R19-R20/R23 records, the R5 apply artifacts incl. the 832-row promotions file, every earlier map/record, the scope doc, the C30 ledger, the SP + chunk stores, the Lane C stores, the c40 tool) — clean; the chunk store sha16 ac37a91b9b657ef6 re-verified (R26 moved zero store bytes)"
+    },
+    "J9_commit_state": {
+      "pass": true,
+      "detail": "HEAD == baseline a8803c56 (pre-commit form): working-tree delta vs HEAD ⊆ footprint (in footprint)"
+    }
+  },
+  "all_pass": true
+}
