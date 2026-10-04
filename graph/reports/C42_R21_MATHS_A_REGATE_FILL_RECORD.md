@@ -1,6 +1,6 @@
 # C42 R21 — K2-B substrate RE-GATE fill record (operator gate 2 re-run evidence)
 
-**Generated:** 2026-10-04T02:09:57+00:00  |  **Baseline:** `9fae6defcb2afe02ea1377531a77dd5c2a463787`
+**Generated:** 2026-10-04T02:11:15+00:00  |  **Baseline:** `9fae6defcb2afe02ea1377531a77dd5c2a463787`
 **Reviewer:** Super Z (GLM agent), acting as operator-delegate under the operator's 'fire R21' directive (2026-10-04, zai-web) — the R18 record's next-decision gate (operator gate 2 re-run over the R20-rebuilt substrate) fired verbatim; the human operator retains final sign-off; per the anti-forgery rule nothing here flips the store (the §18 apply is R5, operator gate 3)
 
 ## Method
