@@ -1,6 +1,32 @@
 #!/usr/bin/env python3
 """c32_notes_maths_a_join.py — T-C32 (K2-A) Lane A builder for igcse-maths-a.
 
+T-C42 R23 AMENDMENT (2026-10-04, dated per P5 — landed records never edited,
+this generator re-pinned again): the JOIN RE-RUN lane, fired by the operator's
+'R23' directive (2026-10-04, discord, gateway trace 772bb1c553acf115d53f83d9cf6afa81)
+— re-run over the UNCHANGED C42-R14-amended resolution substrate. The C42 R22
+repair round (the scope §7 loop's sixth R1-shaped round,
+graph/reports/C42_R22_RESOLUTION_REPAIR_RECORD.md) moved NO detail at the
+resolution layer: 3 section-level REATTRIBUTEs (3d-pythagoras-and-trigonometry
+ord 4, 4.8D -> 4.8F; difference-of-two-squares ord 3, 2.2F -> 2.2B;
+graphical-solutions ord 1, 2.6B -> 3.3E — the loop's first zero-census-movement
+repair round) all ride the R22 override map
+scripts/c42_section_overrides_r22.yaml into the R24-shaped substrate re-build
+(the map's own consuming-lane contract, which also pins the re-application of
+the R5 promotions file there); ALL THREE note-level joins were adjudicated
+STANDING (3d-pythagoras-and-trigonometry -> 4.8D on spcpt_kX4655D8M3Q3TRzW,
+difference-of-two-squares -> 2.2F on spcpt_RJbgRvXq2VrGpP5g,
+graphical-solutions -> 2.6B on spcpt_sHCB9WZbDMyTFqCP), 0 anchors were cleared
+and the resolution file is BYTE-UNTOUCHED (counts stay 222/214/8; last writer
+remains R14). The pinned census therefore stays 198 joined / 5 unresolved, and
+the guard below adds the three R22 STANDING pins — ruling, anchor id and the
+landed join code verified together against the R22 map's own
+note_level_adjudications (list-shaped this round), fail-closed (the
+R12/R16/R19 in-generator pin convention). The R18 STANDING pins and every
+carried pin stay. Any other drift fails closed. R24 (substrate re-build + the
+R5 promotions-file re-application) and the R25 re-gate are NOT fired by this
+round.
+
 T-C42 R19 AMENDMENT (2026-10-04, dated per P5 — landed records never edited,
 this generator re-pinned again): re-run over the UNCHANGED C42-R14-amended
 resolution substrate — the C42 R18 repair round (the scope §7 loop's fifth
@@ -381,10 +407,11 @@ def main() -> int:
 
     doc = {
         "schema": "syllabai.notes-spec-point-join/1.0",
-        "task": "T-C42 R19: T-C32 (K2-A Lane A) join re-run over the "
-                "unchanged C42-R14-amended resolution — the C42-R18 "
-                "section-level rulings ride the override map, the resolution "
-                "file byte-untouched (igcse-maths-a)",
+        "task": "T-C42 R23: T-C32 (K2-A Lane A) join re-run over the "
+                "unchanged C42-R14-amended resolution — the C42-R22 "
+                "section-level rulings ride the R22 override map into the "
+                "R24-shaped re-build, the resolution file byte-untouched "
+                "(igcse-maths-a)",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "generator": "scripts/c32_notes_maths_a_join.py",
         "lane": "A (T-C10-pattern note-level mapping) of the C28 §6-K2 sequence",
@@ -411,13 +438,21 @@ def main() -> int:
             "the loop's third), 2 labeled extension REATTRIBUTEs (ords 2/4 of "
             "the same note), BOTH note-level joins adjudicated STANDING, "
             "0 anchors cleared and the resolution file BYTE-UNTOUCHED (counts "
-            "stay 222/214/8); see C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json, "
+            "stay 222/214/8); C42 R22 R1-shaped repair round over the R21 "
+            "re-gate's 3-row defect inventory 2026-10-04 — 3 section-level "
+            "REATTRIBUTEs (3d-pythagoras-and-trigonometry ord 4, 4.8D -> 4.8F; "
+            "difference-of-two-squares ord 3, 2.2F -> 2.2B; graphical-solutions "
+            "ord 1, 2.6B -> 3.3E — the loop's first zero-census-movement repair "
+            "round), ALL THREE note-level joins adjudicated STANDING, 0 anchors "
+            "cleared and the resolution file BYTE-UNTOUCHED (counts stay "
+            "222/214/8); see C42_MATHS_A_RESOLUTION_REPAIR_RECORD.json, "
             "C42_R6_RESOLUTION_REPAIR_RECORD.json, "
             "C42_R10_RESOLUTION_REPAIR_RECORD.md, "
-            "C42_R14_RESOLUTION_REPAIR_RECORD.md and "
-            "C42_R18_RESOLUTION_REPAIR_RECORD.md) on the resolution "
+            "C42_R14_RESOLUTION_REPAIR_RECORD.md, "
+            "C42_R18_RESOLUTION_REPAIR_RECORD.md and "
+            "C42_R22_RESOLUTION_REPAIR_RECORD.md) on the resolution "
             "substrate; JOIN: deterministic id lookup, machine-gated by the C42 "
-            "R19 postcondition in this generator (the C40-era c32_k2a_check.py "
+            "R23 postcondition in this generator (the C40-era c32_k2a_check.py "
             "battery pins its own 2026-09 landing census and is historical); "
             "NO HUMAN_VALIDATED claim is made by this artifact — an operator "
             "spot-check round can upgrade the tier on record via a dated "
@@ -449,53 +484,60 @@ def main() -> int:
     }
 
     # ---- fail-closed postconditions -----------------------------------------
-    # T-C42 R19 census (the resolution layer UNCHANGED by R18 — the repair
-    # round rode the override map only): 198 joined / 5 unresolved — the R18
-    # round re-pointed 0 note-level joins (both adjudicated STANDING) and
-    # cleared 0 anchors, so the census is UNCHANGED from R7/R11/R15: the
-    # C31 §3 residual KEPT UNRESOLVED at R1 + the 2 anchors the R1 round
-    # cleared + the 2 anchors the R6 round cleared. Exact id set pinned;
-    # anything else fails closed. Carried from R15: the re-pointed
-    # composite-functions join must carry EXACTLY the R14-corrected code
-    # (verbatim-landed proof, the R11 battery's W1 analog pinned
-    # in-generator; the R10 pins stay — their rulings still stand). NEW at
-    # R19: the two R18 STANDING joins are pinned the same way — ruling text,
-    # anchor id and the landed join code verified together against the R18
-    # override map's own note_level_adjudications, fail-closed.
-    R19_UNRESOLVED = {
+    # T-C42 R23 census (the resolution layer UNCHANGED by R22 — the repair
+    # round rode the override map only, its first zero-census-movement
+    # round): 198 joined / 5 unresolved — the R22 round re-pointed 0
+    # note-level joins (ALL THREE adjudicated STANDING) and cleared 0
+    # anchors, so the census is UNCHANGED from R7/R11/R15/R19: the C31 §3
+    # residual KEPT UNRESOLVED at R1 + the 2 anchors the R1 round cleared +
+    # the 2 anchors the R6 round cleared. Exact id set pinned; anything else
+    # fails closed. Carried: the re-pointed composite-functions join must
+    # carry EXACTLY the R14-corrected code (verbatim-landed proof, the R11
+    # battery's W1 analog pinned in-generator; the R10/R18 pins stay — their
+    # rulings still stand). Carried from R19: the two R18 STANDING joins are
+    # pinned the same way — ruling text, anchor id and the landed join code
+    # verified together against the R18 override map's own
+    # note_level_adjudications, fail-closed. NEW at R23: the three R22
+    # STANDING joins are pinned against the R22 map's own
+    # note_level_adjudications (list-shaped this round), fail-closed.
+    R23_UNRESOLVED = {
         "spcpt_QWXhzVp2S3VYZdZc",  # 'Discrete & Continuous Data' — C31 §3 residual
         "spcpt_8Wtthy9gt8B5xsVW",  # 'Mathematical Symbols' — cleared at R1
         "spcpt_3fMGfNtg3hXMg6gC",  # 'Problem Solving with Areas' — cleared at R1
         "spcpt_mVXT4jbXQPrzhHvz",  # 'Problem Solving with Volumes' — cleared at R6
         "spcpt_hK2H8q4Y8NYv833v",  # 'Geometrical Proof' — cleared at R6
     }
-    R19_VERBATIM_CODES = {
+    R23_VERBATIM_CODES = {
         # note_path -> the exact store_row_code the landed operator rulings pin
         # (R14 CORRECT re-point + the R10 CORRECT pair + the R10 STANDING pin
-        # + the two R18 STANDING pins — the R18 adjudications ruled both joins
-        # STAND, so the codes they name are pinned verbatim here)
+        # + the two R18 STANDING pins + the three R22 STANDING pins — the R18
+        # and R22 adjudications ruled those joins STAND, so the codes they
+        # name are pinned verbatim here)
         "notes/3-sequences-functions-and-graphs/functions/composite-functions.json": "4MA1-3.2D",
         "notes/2-equations-formulae-and-identities/expanding-brackets/expanding-triple-brackets.json": "4MA1-2.2A",
         "notes/2-equations-formulae-and-identities/algebraic-fractions/algebraic-fractions.json": "4MA1-2.2C",
         "notes/1-numbers-and-the-number-system/number-toolkit/related-calculations.json": "4MA1-1.8D",
         "notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json": "4MA1-1.2G",
         "notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/basic-angle-properties.json": "4MA1-4.1B",
+        "notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json": "4MA1-4.8D",
+        "notes/2-equations-formulae-and-identities/factorising/difference-of-two-squares.json": "4MA1-2.2F",
+        "notes/3-sequences-functions-and-graphs/graphs-of-functions/graphical-solutions.json": "4MA1-2.6B",
     }
     c = doc["counts"]
     got_unres = {u["anchor_id"] for u in doc["unresolved"]}
     if not (c["joined"] == 198 and c["unresolved_recorded"] == 5
             and c["anchors_total"] == 203 and c["foreign_codes"] == 0):
         fail(f"postcondition drift: {json.dumps(c)}")
-    if got_unres != R19_UNRESOLVED:
+    if got_unres != R23_UNRESOLVED:
         fail(f"unresolved id set drift: {sorted(got_unres)}")
-    for np_, want in R19_VERBATIM_CODES.items():
+    for np_, want in R23_VERBATIM_CODES.items():
         got = next((j["store_row_code"] for j in doc["joins"] if j["note_path"] == np_), None)
         if got != want:
-            fail(f"R19 verbatim-code pin: {np_} carries {got!r} != {want!r}")
-    # NEW at R19: the two R18 STANDING pins verified against the R18 override
-    # map's own note_level_adjudications — ruling, anchor id and landed code
-    # must all agree, fail-closed.
-    R19_STANDING_PINS = (
+            fail(f"R23 verbatim-code pin: {np_} carries {got!r} != {want!r}")
+    # Carried from R19: the two R18 STANDING pins verified against the R18
+    # override map's own note_level_adjudications — ruling, anchor id and
+    # landed code must all agree, fail-closed.
+    R23_R18_STANDING_PINS = (
         # (note_slug, the R18 map's ruling verbatim, the pinned store_row_code)
         ("converting-between-fdp",
          "THE NOTE-LEVEL JOIN TO 1.2G STANDS (unchanged)", "4MA1-1.2G"),
@@ -504,19 +546,49 @@ def main() -> int:
     )
     _r18doc = yaml.safe_load((REPO / "scripts/c42_section_overrides_r18.yaml")
                              .read_text(encoding="utf-8"))
-    for _slug, _ruling, _code in R19_STANDING_PINS:
+    for _slug, _ruling, _code in R23_R18_STANDING_PINS:
         _adj = (_r18doc.get("note_level_adjudications") or {}).get(_slug) or {}
         _jrow = next((j for j in doc["joins"]
                       if j["note_path"].endswith(f"/{_slug}.json")), None)
         if _adj.get("ruling") != _ruling:
-            fail(f"R19: the R18 note-level adjudication for {_slug} is missing "
+            fail(f"R23: the R18 note-level adjudication for {_slug} is missing "
                  f"or has drifted: {_adj.get('ruling')!r}")
         if _jrow is None or _jrow["store_row_code"] != _code or \
                 _jrow["anchor_id"] != _adj.get("anchor_id"):
-            fail(f"R19: the R18 STANDING pin drifted — {_slug} joins "
+            fail(f"R23: the R18 STANDING pin drifted — {_slug} joins "
                  f"{_jrow['store_row_code'] if _jrow else None!r} on "
                  f"{_jrow['anchor_id'] if _jrow else None!r} (want {_code!r} "
                  f"on {_adj.get('anchor_id')!r})")
+    # NEW at R23: the three R22 STANDING pins verified against the R22
+    # override map's own note_level_adjudications (list-shaped this round:
+    # entries carry note_slug / anchor_id / joined_code / ruling) — ruling,
+    # anchor id and landed code all verified together, fail-closed.
+    R23_R22_STANDING_PINS = (
+        # (note_slug, the pinned store_row_code, the pinned anchor id — the
+        # R22 adjudication entries must carry exactly these values)
+        ("3d-pythagoras-and-trigonometry", "4MA1-4.8D", "spcpt_kX4655D8M3Q3TRzW"),
+        ("difference-of-two-squares", "4MA1-2.2F", "spcpt_RJbgRvXq2VrGpP5g"),
+        ("graphical-solutions", "4MA1-2.6B", "spcpt_sHCB9WZbDMyTFqCP"),
+    )
+    _r22doc = yaml.safe_load((REPO / "scripts/c42_section_overrides_r22.yaml")
+                             .read_text(encoding="utf-8"))
+    _r22adj = {a.get("note_slug"): a for a in
+               (_r22doc.get("note_level_adjudications") or [])}
+    for _slug, _code, _anchor in R23_R22_STANDING_PINS:
+        _adj = _r22adj.get(_slug) or {}
+        _jrow = next((j for j in doc["joins"]
+                      if j["note_path"].endswith(f"/{_slug}.json")), None)
+        if _adj.get("ruling") != "STANDING" or \
+                _adj.get("joined_code") != _code or \
+                _adj.get("anchor_id") != _anchor:
+            fail(f"R23: the R22 note-level adjudication for {_slug} is missing "
+                 f"or has drifted: {_adj!r}")
+        if _jrow is None or _jrow["store_row_code"] != _code or \
+                _jrow["anchor_id"] != _anchor:
+            fail(f"R23: the R22 STANDING pin drifted — {_slug} joins "
+                 f"{_jrow['store_row_code'] if _jrow else None!r} on "
+                 f"{_jrow['anchor_id'] if _jrow else None!r} (want {_code!r} "
+                 f"on {_anchor!r})")
     if len(doc["joins"]) + len(doc["unresolved"]) != 203:
         fail("join+unresolved != anchors")
 
