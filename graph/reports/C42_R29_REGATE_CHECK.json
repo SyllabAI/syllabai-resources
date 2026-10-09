@@ -1,0 +1,79 @@
+{
+  "schema": "c42-r29-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r29-regate",
+  "baseline": "b0bf38dc0d2f627bbb34fee263668b12e2fa16a1",
+  "head": "b0bf38dc0d2f627bbb34fee263668b12e2fa16a1",
+  "fill_record": "graph/reports/C42_R29_MATHS_A_REGATE_FILL_RECORD.json",
+  "gates": [
+    {
+      "gate": "X1 input_pins",
+      "ok": true,
+      "detail": "store 918 = 838 anchored (831 HUMAN_VALIDATED == the R5 promotions file count AMENDED by the R26 amendment [sha16 fda9d717d9f58572: 3 supersedes re-keyed + 1 exclusion] + 7 anchored SUGGESTED) + 80 worklist (24 unresolved-span incl. ALL FOUR DEMOTEs + 56 gap), ledger 54, R1 45, R6 10, R10 2, R14 1, overrides 16+7+8+5+4+3+4 (R26 map), R22 NLA 3 (list-shaped), R4 467, R9 465, R13 465, R17 464, R21 464, R25 464, fresh 8, convention pinned; fill baseline == the R28 post-audit round-start commit; HEAD b0bf38dc0d2f"
+    },
+    {
+      "gate": "X2 sampling",
+      "ok": true,
+      "detail": "seed 8b1d9f502d67135b (re-seeded on the R28 rows — every re-gate re-seeds); strata {'exact': 468, 'none': 132, 'partial': 238}; sampled {'exact': 94, 'none': 132, 'partial': 238} == recorded"
+    },
+    {
+      "gate": "X3 record_agreement",
+      "ok": true,
+      "detail": "464 verdicts == sample; fields+strata+tier signatures agree; sources {'r10-section-override': 5, 'r1-id-verdict': 88, 'r9-carried': 3, 'r4-carried': 2, 'r29-fresh': 8, 'r25-carried': 236, 'r21-carried': 8, 'heading-only-convention': 83, 'r26-section-override': 1, 'r14-section-override': 2, 'r6-id-verdict': 10, 'r14-id-verdict': 1, 'r18-section-override': 1, 'r10-id-verdict': 1, 'r17-carried': 4, 'r26-standing': 2, 'r22-standing': 1, 'r1-section-override': 7, 'r13-carried': 1}; fresh set == the committed judgment file (7 CONFIRM + 1 REJECT — the cross-section mis-join 4.11C)"
+    },
+    {
+      "gate": "X4 mechanical_replay",
+      "ok": true,
+      "detail": "464/464 rows re-verified (quote-in-chunk, hash/heading, RULE_DERIVED; status SUGGESTED or HUMAN_VALIDATED exactly on the AMENDED promotions set [the R5 file + the R26 amendment: re-keyed rows matched by chunk identity] — 463 promoted rows in this draw verified like every other sampled row)"
+    },
+    {
+      "gate": "X5 carry_forward",
+      "ok": true,
+      "detail": "236 R25-carried + 8 R21-carried + 4 R17-carried + 1 R13-carried + 3 R9-carried + 2 R4-carried CONFIRMs: triple-identical in the prior records, outside the R26 surface (a row carries from the MOST RECENT prior re-gate record whose verdict triple-matches — R21 carries only for rows absent from the R25 record, R17 for rows absent from R25+R21, R13 for rows absent from R25+R21+R17, R9 for rows absent from R25+R21+R17+R13, R4 for rows absent from all five; 0 violations)"
+    },
+    {
+      "gate": "X6 r26_r22_r18_r14_r10_r6_r1_override_consistency",
+      "ok": true,
+      "detail": "1 R14-anchor rows (the re-point landed wholesale) + 0 STANDING rows + 1 R10-anchor rows + 10 R6-anchor rows + 88 R1-anchor rows CONFIRM on operator verdicts (CORRECT codes landed verbatim); 1 R26 override rows (the re-keyed promoted identities) + 2 R26-STANDING note-level rows (on the adjudicated joined codes only) + 0 R22 override rows + 1 R22-STANDING note-level rows (on the adjudicated joined codes only) + 1 R18 override rows + 2 R14 override rows + 5 R10 override rows + 0 R6 override rows + 8 R1 override rows follow the operator rulings incl. 1 heading-only rows resolved by the convention; 0 subsumed rows ride the join"
+    },
+    {
+      "gate": "X7 both_tier",
+      "ok": true,
+      "detail": "signatures {'STORE_HIGHER': 414, 'LEDGER_FOUNDATION': 50}; LEDGER_FOUNDATION rows all on ledger codes; fresh-file signatures match the recomputation"
+    },
+    {
+      "gate": "X8 part_b",
+      "ok": true,
+      "detail": "80/80 worklist rows DEFER; surfaces 2 residual + 6 R1-cleared + 12 R6-cleared + 1 R10 DEMOTE + 1 R14 DEMOTE + 1 R18 DEMOTE + 1 R26 DEMOTE (the FIRST of a promoted row) + 56 gap (132-code bound — the R26 re-attributions gained 1.1A + 5.1C at R28, none lost)"
+    },
+    {
+      "gate": "X9 gate_arithmetic_antiforgery",
+      "ok": true,
+      "detail": "rollup recomputed == recorded (exact 96.8% / partial 100.0% / none 100.0%); outcome PASS correctly derived (the arithmetic is verified, not the outcome — whichever way it falls); all 918 rows RULE_DERIVED with the 831 HUMAN_VALIDATED exactly on the AMENDED promotions set (re-keyed rows matched by chunk identity) and 87 SUGGESTED elsewhere"
+    },
+    {
+      "gate": "X10 protected_surfaces",
+      "ok": true,
+      "detail": "dirty set within the R29 footprint (8 files); 51 protected surfaces (the store itself, Lane C, chemistry, resolution, C42 scope/R0-R28 records incl. the R18+R22+R26 maps + verdicts + amendment, the R17/R21/R25 re-gate records, the R24/R28 rebuild records + the R27 join records + the refreshed join artifact, the C30 ledger and the R5 promotions file) byte-identical to their pre-round state at b0bf38dc0d2f"
+    },
+    {
+      "gate": "X11 determinism",
+      "ok": true,
+      "detail": "fill re-run: sheet + verdict record byte-identical"
+    },
+    {
+      "gate": "X12 convention_ladder_replay",
+      "ok": true,
+      "detail": "111 sampled heading-only rows replayed through the H1/H2/H3 ladder independently (H2 source base = R4+R9+R13+R17+R21+R25, the carry-forward continuity rule; H1 includes the THREE R22 STANDING adjudications and the FOUR R26 STANDING adjudications on their joined codes) (83 via the convention source, the rest via H1-class direct verdict sources); branches, verdicts and the fail-closed direction all agree"
+    },
+    {
+      "gate": "X13 h3_fail_closed_set",
+      "ok": true,
+      "detail": "2 H3 rows (no positive evidence yet; they un-hold automatically once H1/H2 becomes true at a later round): ['4MA1-1.7B multiple-ratios.json ord 0', '4MA1-6.2B calculations-with-the-mean.json ord 0']; 1 REJECT rows recorded with root causes — the fresh defect inventory returns to the operator (scope §7); the draw-dependent H3 set differs from R25's (multiple-ratios 1.7B held again + calculations-with-the-mean 6.2B first draw), the 4 anchored-SUGGESTED holds (1.7B/6.3J/3.3F/2.2C) stay pinned in the store regardless of the draw"
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "all_pass": true,
+  "gate_outcome_recorded_by_fill": "PASS"
+}
