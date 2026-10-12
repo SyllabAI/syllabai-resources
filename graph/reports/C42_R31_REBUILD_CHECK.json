@@ -4,7 +4,7 @@
   "stage": "r31-substrate-rebuild-check",
   "round": "R31",
   "round_start": "f16daa2658a1791b04f345e61734cc901d17c8e9",
-  "audited_head": "fbae884bb35d8c9a067e17ffdadb21901760536d",
+  "audited_head": "1da138c42b86e9f968e6eb397103a1e0356781b3",
   "baseline_store_sha256_16": "1b667c0107dfc85c",
   "store_sha256_16": "4aeb73e1575f9586",
   "record_sha256_16": "a56b86b6c74c0698",
@@ -46,8 +46,8 @@
     },
     {
       "check": "B8_commit_state",
-      "pass": false,
-      "detail": "committed-clean: HEAD fbae884bb35d; tree clean; the committed delta vs HEAD~1 inside the R31 footprint"
+      "pass": true,
+      "detail": "committed-clean: HEAD 1da138c42b86; tree clean; the committed delta vs HEAD~1 inside the R31 footprint"
     },
     {
       "check": "B9_anti_forgery",
@@ -60,7 +60,7 @@
       "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census 12 lines (the pre-existing sparse-checkout environmental set), zero failures naming the chunk store"
     }
   ],
-  "passed": 9,
+  "passed": 10,
   "total": 10,
-  "result": "FAILURES PRESENT"
+  "result": "ALL PASS"
 }
