@@ -4,7 +4,7 @@
   "stage": "r33-operator-delegate-dispositions-check",
   "round": "R33",
   "round_start": "d8853ec",
-  "audited_head": "d8853eced51dfdddcc20845a269417aa5481239e",
+  "audited_head": "4b2a0680ea500cecbf2df1affa49e02a9154ceb6",
   "baseline_store_sha256_16": "4aeb73e1575f9586",
   "override_map_sha256_16": "c4bdea37bb331ef1",
   "amendment_sha256_16": "d50bf35a180e495f",
@@ -52,9 +52,9 @@
       "detail": "override map + promotions amendment byte-identical re-runs"
     },
     {
-      "check": "A8_footprint_precommit",
+      "check": "A10_committed_clean",
       "ok": true,
-      "detail": "delta vs d8853ec is exactly the declared 8-file R33 footprint (pre-commit form)"
+      "detail": "HEAD 4b2a0680 is the round commit; tree clean; the check re-runs committed-clean (the C8/X10 precedent)"
     }
   ],
   "passed": 9,
