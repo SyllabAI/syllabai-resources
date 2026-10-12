@@ -1,0 +1,63 @@
+{
+  "schema": "c42-r33-repair-check/1.0",
+  "task": "T-C42",
+  "stage": "r33-operator-delegate-dispositions-check",
+  "round": "R33",
+  "round_start": "d8853ec",
+  "audited_head": "d8853eced51dfdddcc20845a269417aa5481239e",
+  "baseline_store_sha256_16": "4aeb73e1575f9586",
+  "override_map_sha256_16": "c4bdea37bb331ef1",
+  "amendment_sha256_16": "d50bf35a180e495f",
+  "verdicts_sha256_16": "f74ec27f63534a75",
+  "record_sha256_16": "8afb4476ac8983c4",
+  "checks": [
+    {
+      "check": "A1_inventory_agreement",
+      "ok": true,
+      "detail": "overrides == verdicts == the 3-row 1.8B -> 1.8D re-home batch (the fired ord 8 + adjudicated ords 6/7); amendment 3 supersedes + 0 exclusions + 0 additions; retains ride no carrier (zero movement); the rounding-half ords 1-4 untouched"
+    },
+    {
+      "check": "A2_projection_agreement",
+      "ok": true,
+      "detail": "map == verdicts (3 REATTRIBUTE, all HV, all -> 1.8D); retains/scoping/remarks pinned; zero sign-off blocks; the R30 discharge verified landed (3 HV + 1 SUGGESTED@3.3I); zero SUGGESTED rows on 1.8B/1.8D; amendment schema + base pin + prior-amendments pinned"
+    },
+    {
+      "check": "A3_code_domain",
+      "ok": true,
+      "detail": "3 targets = 4MA1-1.8D, canonical-188 member, distinct from the 1.8B currents; currents match the live substrate; all 3 movers HUMAN_VALIDATED"
+    },
+    {
+      "check": "A4_wordings_ledger_corpus",
+      "ok": true,
+      "detail": "registry wordings verbatim (1.8B / 1.8D); ledger: 1.8B + 1.8D both ABSENT (single-tier); corpus pins verified live (ord 6 purpose / ord 7 method + deferral / ord 8 evaluation tables + worked example / ord 5 the 3-s.f. worked example + direction rulings); negative pins hold across the split; ord 0 heading-only 21 chars; chunk shas match the substrate"
+    },
+    {
+      "check": "A5_joins_resolution",
+      "ok": true,
+      "detail": "the note's 1.8B anchor + the related-calculations 1.8D R10 STANDING anchor stand at HEAD (the join layer untouched); resolution file byte-identical d8853ec -> HEAD"
+    },
+    {
+      "check": "A6_substrate_pins",
+      "ok": true,
+      "detail": "store at the R32-of-record state (sha 4aeb73e1575f9586; 917 = 831 + 4 + 82); 3 movers R5-pinned at 1.8B with matching identities; per-code censuses 1.8B = 9 / 1.8D = 3, all HV, zero worklist rows"
+    },
+    {
+      "check": "A9_round_artifacts",
+      "ok": true,
+      "detail": "record md + json pinned; the projected re-key ids match the c40 identity function recomputed live and the recorded pins (8f22e1623c025e18 / bb44385407a47188 / 68c165d51b56047a)"
+    },
+    {
+      "check": "A7_idempotency",
+      "ok": true,
+      "detail": "override map + promotions amendment byte-identical re-runs"
+    },
+    {
+      "check": "A8_footprint_precommit",
+      "ok": true,
+      "detail": "delta vs d8853ec is exactly the declared 8-file R33 footprint (pre-commit form)"
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "result": "ALL PASS"
+}
