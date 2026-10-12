@@ -4,7 +4,7 @@
   "stage": "r31-substrate-rebuild-check",
   "round": "R31",
   "round_start": "f16daa2658a1791b04f345e61734cc901d17c8e9",
-  "audited_head": "f16daa2658a1791b04f345e61734cc901d17c8e9",
+  "audited_head": "3b34c2515d3835a4e5214ffc7afe9ed148ae39b9",
   "baseline_store_sha256_16": "1b667c0107dfc85c",
   "store_sha256_16": "4aeb73e1575f9586",
   "record_sha256_16": "a56b86b6c74c0698",
@@ -46,8 +46,8 @@
     },
     {
       "check": "B8_commit_state",
-      "pass": true,
-      "detail": "pre-commit: HEAD == baseline f16daa2658a1; dirt 7 inside the R31 footprint"
+      "pass": false,
+      "detail": "committed-clean: HEAD 3b34c2515d38; tree clean; the committed delta vs HEAD~1 inside the R31 footprint; OUTSIDE ['ipts/c40_maths_a_chunk_sp_substrate.py', 'ipts/c42_r31_rebuild_check.py', 'ipts/c42_r31_substrate_rebuild.py', 'ph/igcse-maths-a/spec_chunk_mappings.yaml']"
     },
     {
       "check": "B9_anti_forgery",
@@ -60,7 +60,7 @@
       "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census 12 lines (the pre-existing sparse-checkout environmental set), zero failures naming the chunk store"
     }
   ],
-  "passed": 10,
+  "passed": 9,
   "total": 10,
-  "result": "ALL PASS"
+  "result": "FAILURES PRESENT"
 }
