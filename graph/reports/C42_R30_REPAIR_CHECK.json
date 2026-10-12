@@ -4,7 +4,7 @@
   "stage": "r30-operator-delegate-dispositions-check",
   "round": "R30",
   "round_start": "737d24a",
-  "audited_head": "737d24a487364e2dd22c97a91d406f6478e2497c",
+  "audited_head": "cd02d12bcc097c02ba97d2e30cdb0e0ca3440692",
   "baseline_store_sha256_16": "1b667c0107dfc85c",
   "override_map_sha256_16": "410a03d2920a24c6",
   "amendment_sha256_16": "b872dd76406f83df",
@@ -52,9 +52,9 @@
       "detail": "override map + promotions amendment byte-identical re-runs"
     },
     {
-      "check": "A8_footprint_precommit",
+      "check": "A10_committed_clean",
       "ok": true,
-      "detail": "delta vs 737d24a is exactly the declared 8-file R30 footprint (pre-commit form)"
+      "detail": "HEAD cd02d12b is the round commit; tree clean; the check re-runs committed-clean (the C8/X10 precedent)"
     }
   ],
   "passed": 9,
