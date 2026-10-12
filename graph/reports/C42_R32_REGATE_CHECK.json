@@ -4,7 +4,7 @@
   "stage": "r32-regate-check",
   "round": "R32",
   "round_start": "bd3acc1",
-  "audited_head": "bd3acc158110b48499ea355a6574a14f02ff4d31",
+  "audited_head": "3a5439f9f6d3ab388331fc4e9076817cc31a7b0c",
   "store_sha256_16": "4aeb73e1575f9586",
   "checks": [
     {
@@ -55,7 +55,7 @@
     {
       "check": "X10_protected_commit_state",
       "ok": true,
-      "detail": "22 protected paths byte-identical bd3acc1 -> HEAD (the R31 store + the R30/R31 carriers + records + the prior verdict records + the resolution + the registry + the ledger); pre-commit: delta vs bd3acc1 inside the declared 8-file R32 footprint"
+      "detail": "22 protected paths byte-identical bd3acc1 -> HEAD (the R31 store + the R30/R31 carriers + records + the prior verdict records + the resolution + the registry + the ledger); committed-clean: HEAD 3a5439f9; tree clean; the committed delta vs HEAD~1 inside the R32 footprint"
     }
   ],
   "passed": 10,
