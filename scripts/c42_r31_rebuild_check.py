@@ -693,9 +693,10 @@ def main() -> int:
         detail = (f"pre-commit: HEAD == baseline {BASELINE[:12]}; dirt "
                   f"{len(dirty)} inside the R31 footprint")
     else:
-        changed = [ln[3:].strip() for ln in subprocess.run(
+        changed = [ln.strip() for ln in subprocess.run(
             ["git", "-C", str(REPO), "diff", "--name-only", "HEAD~1", "HEAD"],
-            capture_output=True, text=True, check=True).stdout.splitlines()]
+            capture_output=True, text=True, check=True).stdout.splitlines()
+            if ln.strip()]
         outside = [c for c in changed if c not in FOOTPRINT]
         dirty_now = {ln[3:].strip() for ln in subprocess.run(
             ["git", "-C", str(REPO), "status", "--porcelain"],
