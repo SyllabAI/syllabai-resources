@@ -1,0 +1,379 @@
+# T-C42 R30 operator section-override map — derived from the R30 verdict record
+# (the loop's EIGHTH R1-shaped repair round and the SECOND over the promoted
+# surface; 6 verdicted REATTRIBUTEs [5 HV + 1 SUGGESTED] + the grouping DEMOTE
+# batch of 3; 3 H3 sign-offs landing as the loop's FIRST promotions additions;
+# 2 retain rulings; all standing note-level joins STANDING at the untouched
+# join layer). Written ONLY by scripts/c42_r30_override_projection.py;
+# hand-editing is forbidden.
+schema: c42-r28-section-overrides/1.0
+task: T-C42
+round: R30
+generated: '2026-10-12'
+source: scripts/c42_r30_repair_verdicts.yaml (section_overrides + h3_signoffs + retain_rulings + note_level_scoping
+  + census_remarks + dated_corrections)
+contract: 'consumed fail-closed by the c40-shaped substrate tool (TOOL_VERSION 2.7.0) at the NEXT substrate
+  re-build (the R31-shaped lane) TOGETHER WITH scripts/c42_section_overrides.yaml (R1), scripts/c42_section_overrides_r6.yaml
+  (R6), scripts/c42_section_overrides_r10.yaml (R10), scripts/c42_section_overrides_r14.yaml (R14), scripts/c42_section_overrides_r18.yaml
+  (R18), scripts/c42_section_overrides_r22.yaml (R22) and scripts/c42_section_overrides_r26.yaml (R26)
+  — an override naming a code outside the ratified 188 fails the build; current_code must equal the join-derived
+  code; REATTRIBUTE targets must sit in the ratified registry; DEMOTE entries carry override_code null
+  and land the chunk unresolved-span (the R10/R14/R18/R26 convention); applied rows carry provenance.override
+  with the map sha. NO resolution-file amendment this round: all standing note-level joins remain STANDING
+  at the untouched join layer, the resolution file stays byte-untouched (counts 222/214/8). PROMOTIONS
+  INTERACTION (the R26/R30 shape): the R31-shaped rebuild must consume scripts/c42_r30_promotions_amendment.yaml
+  in its promotions re-application — the 5 HV REATTRIBUTE rows'' pinned codes are superseded to the override
+  codes (they REMAIN in the promoted set, re-keyed old->new per the R24 id_pairs convention), the 3 DEMOTE
+  rows are EXCLUDED from the re-applied set (landing unresolved-span via the c40 DEMOTE convention), and
+  — the loop''s FIRST additions — the 3 H3 sign-off rows are ADDED to the re-applied promotion set (the
+  R5 apply record''s own per-row sign-off mechanism: ''Not auto-promoted at R5 without the operator''s
+  explicit per-row sign-off''; the operator directive trace 1a130272fc8acc11 delegated the sign-offs;
+  the re-gate lane stays store-free and never confers). The re-homed SUGGESTED row (drawing-straight-line-graphs::0)
+  rides the MAP alone (the R22 SUGGESTED-row re-attribution precedent) and STAYS SUGGESTED. scripts/c42_r5_promotions.yaml
+  itself stays BYTE-UNTOUCHED (the P5 convention). Coverage projections (PROJECTED, ASSERTED NOWHERE —
+  the DC-R24-01 discipline): covered 132 -> 133 (gained 4MA1-2.7C, lost none — 4.11C keeps 4, 3.3F keeps
+  4, 4.8D keeps 4, 2.2F keeps 14, verified row-by-row at R30), uncovered-SP 56 -> 55 (the 2.7C DEFER row
+  f081d3d51385cb8f resolves into the re-homed trio), anchored 838 -> 835 (831 HUMAN_VALIDATED + 4 anchored
+  SUGGESTED), unresolved-span 24 -> 27, store rows 918 -> 917'
+overrides:
+- note_slug: 3d-pythagoras-and-trigonometry
+  chunk_ordinal: 3
+  mapping_id: 75244f93401689fe
+  current_code: 4MA1-4.8D
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-4.8F
+  evidence: 'The R24 ''ord-3 promoted-surface extension candidate (3d-pythagoras SOHCAHTOA-3D)'', now
+    verdicted — and the verdict DISSOLVES the extension question: the surface is IN CAP at 4.8F. The section''s
+    verbatim content: ''Again, look for right-angled triangles to use with SOHCAHTOA — you may need combinations
+    of triangles that lead to the missing side or angle'' (read from the corpus this round). The chunk
+    teaches USING trigonometric ratios (SOHCAHTOA) inside three-dimensional figures to find missing sides
+    and angles — ''apply trigonometrical methods to solve problems in three dimensions'' (4.8F''s official
+    wording, whose including-clause ''finding the angle between a line and a plane'' is illustrative,
+    not exhaustive) — and teaches NO Pythagoras (no a^2 + b^2 = c^2 anywhere). 4.8D''s demand is ''use
+    Pythagoras'' theorem in three dimensions'': exactly the R22 ord-4 class (the R5 apply record''s own
+    reject note for that row: the method is trigonometric end to end, the joined code''s demand is Pythagoras).
+    The canonical target EXISTS and the R5 record itself cited it: 4.8F — where the note''s sibling ord
+    4 (''How do I find the angle between a line and a plane?'') already sits SUGGESTED since the R22 re-attribution.
+    The ''extension'' framing dissolves: SOHCAHTOA-in-3D is not beyond-spec content, it is 4.8F''s demand
+    verbatim; the candidate was an adjacency mis-join onto the note''s Pythagoras code, not an out-of-cap
+    surface. NOT a tier artifact (4.8D and 4.8F are distinct Higher-only rows in the ratified 188; the
+    R5 record verified both absent from the C30 ledger). The row REMAINS in the promoted set at its amended
+    code (the R26 supersedes convention). 4.8D keeps 4 rows (verified this round); 4.8F gains its second
+    row.'
+- note_slug: drawing-straight-line-graphs
+  chunk_ordinal: 0
+  mapping_id: 91a5080f8b390de6
+  current_code: 4MA1-3.3F
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-3.3I
+  evidence: 'The FOURTH H3 HOLD row (the R5-apply hold set), resolved NOT by sign-off but by re-homing
+    — the sign-off question on 3.3F dissolves because the join itself fails scrutiny. The chunk is the
+    heading-only structural slice ''Drawing linear graphs'' (20 chars) riding the note whose taught surfaces
+    are drawing/plotting linear graphs (ords 1-5: tables of values @3.3I, y = mx + c drawing @3.3H x2,
+    rearrangement @3.3H since R26, intercept plotting @3.3I by this round''s ::5 verdict) — the note teaches
+    NO two-point gradient calculation anywhere, and 3.3F''s Higher-operative demand is exactly that (''calculate
+    the gradient of a straight line given the coordinates of two points''); the note-level join to 3.3F
+    is the corpus''s own annotation of record and STANDS untouched at the join layer (the R14/R18/R22/R23/R26
+    convention), but the STORE rows move: the heading-only row rides the note''s SP family to 3.3I (the
+    R10 related-calculations precedent), where the note''s ord 1 is the note''s own 3.3I row. The row
+    STAYS SUGGESTED (a re-homed hold is not a sign-off; its promotion remains the section-7 gate-3 question
+    every SUGGESTED row carries), re-keying to its 3.3I identity at the R31 rebuild. 3.3F keeps its coverage
+    via the conversion-graphs note''s 4 promoted rows (verified this round — they carry 3.3F''s Foundation
+    ledger surface verbatim per the R26 record).'
+- note_slug: drawing-straight-line-graphs
+  chunk_ordinal: 5
+  mapping_id: d58b7f9f0fa551d3
+  current_code: 4MA1-3.3F
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-3.3I
+  evidence: 'The R26 same-class candidate, now verdicted. The section''s verbatim content: ''Instead of
+    rearranging, equations in the form ax + by = c ... can also be plotted by considering the x and y
+    intercepts — substitute in x = 0 to find the y-intercept ... y = 0 to find the x-intercept ... The
+    points (0, 6) and (10, 0) can then be plotted and joined with a straight line'', with ''Always plot
+    at least 3 points'' and the worked example plotting two lines from tables of values. The chunk''s
+    demand is GENERATING POINTS and PLOTTING straight-line (linear) graphs — 3.3I ''recognise, generate
+    points and plot graphs of linear and quadratic functions'' on its linear surface VERBATIM (the intercept
+    pairs and value tables ARE the generated points). 3.3F''s Higher-operative demand is ''calculate the
+    gradient of a straight line given the coordinates of two points'' and NO two-point gradient calculation
+    appears anywhere in the section (the R25 root''s finding for the sibling ord 4, re-verified for this
+    section this round); the C30 ledger''s Foundation wording for 3.3F (''draw and interpret straight
+    line conversion graphs'') is a different surface the section also does not teach (no conversion graphs)
+    — not a tier artifact in either direction. The rearrangement inside the worked example is the 3.3H
+    surface the sibling ord 4 already carries (R26), but the section''s headline demand is the plotting,
+    and the note''s own ord 1 (''How do I draw a straight line from a table of values?'') already rides
+    3.3I — the note''s SP family center for its drawing surface. The row REMAINS in the promoted set at
+    its amended code.'
+- note_slug: equations-and-problem-solving
+  chunk_ordinal: 0
+  mapping_id: 23098694b70397d8
+  current_code: 4MA1-4.11C
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-2.7C
+  evidence: The sibling exposure the R29 root disclosed (ord 0, heading-only 'Equations & problem-solving',
+    15 chars). With ords 1 and 2 both verdicted REATTRIBUTE 4.11C -> 2.7C, the note's SP family center
+    is 2.7C and the heading-only row rides it — the R10 related-calculations note-level precedent of ords
+    riding the note's SP family (the R29 fresh verdict a1510bc4ed0196b2 cites the same precedent). The
+    row REMAINS in the promoted set at its amended code.
+- note_slug: equations-and-problem-solving
+  chunk_ordinal: 1
+  mapping_id: 9fb36c39006e0531
+  current_code: 4MA1-4.11C
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-2.7C
+  evidence: 'The R29 fresh REJECT is CONFIRMED as a cross-section mis-join and the canonical target is
+    VERDICTED. The section''s verbatim content: ''Problem solving means you are given a specific situation
+    (real life or constructed) and you need to form and solve equations to find answers to the questions
+    asked''; ''The equations can be any type that are in the course, including Linear, e.g. 2(x+4)=3x;
+    Quadratic, e.g. x^2-7x+12=0''; ''Answers must always be given in context''. 4.11C''s official demand
+    is ''use areas and volumes of similar figures in solving problems'' (Geometry and trigonometry section
+    4.11, verified in the parsed official spec) and the chunk teaches NONE of it — zero similar-figure,
+    area-ratio or volume-ratio content (the R29 root, re-verified this round). The canonical target EXISTS:
+    2.7C ''form and solve quadratic equations from data given in a context'' — the chunk''s own demand
+    sentence is the form-and-solve-from-context demand (''form and solve equations'' from ''a specific
+    situation'' with ''answers in context''), the quadratic type is NAMED with a worked instance (x^2-7x+12=0),
+    and the note''s own arc completes the quadratic forming from context in the sibling ord-2 worked example
+    (the cube net). The linear instance is carried elsewhere in the store by the six dedicated 2.4B rows
+    (forming-and-solving-equations + forming-equations-from-shapes notes, verified this round); 2.4B''s
+    narrower ''set up simple linear equations'' does not reach the chunk''s quadratic half, so 2.7C is
+    the honest single target. 2.7C is currently UNCOVERED — its only store row is the uncovered-SP DEFER
+    placeholder f081d3d51385cb8f (== sha16(''unmapped|4MA1-2.7C''), verified) — so this REATTRIBUTE is
+    a projected coverage GAIN (the R12/R16/R20/R24/R26 coverage-gain precedent; computed, never asserted,
+    at the R31 rebuild). The row REMAINS in the promoted set (the R5 promotion judged the section''s teaching
+    value; the repair corrects its code — the R26 supersedes convention).'
+- note_slug: equations-and-problem-solving
+  chunk_ordinal: 2
+  mapping_id: d5d49762dd5a4eef
+  current_code: 4MA1-4.11C
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-2.7C
+  evidence: 'The section''s verbatim content: ''Many questions will require you to solve quadratic equations
+    ... bring all the terms to one side to get "= 0" ... you are often free to choose which quadratic
+    method to use ... If you get two solutions, you may need to justify which solution is correct''; ''You
+    may have unfamiliar equations to solve — such as multiplying both sides by x in 12/x = 7-x to form
+    a quadratic''; and the worked example: a cube net with side x cm whose ''difference between the volume
+    of the cube and the surface area of the net is eight times the perimeter of the net'' => ''Show that
+    x^2 - 6x - 112 = 0''. The chunk''s whole arc — FORM a quadratic from data given in a context (the
+    net''s constraints; the 12/x bullet''s ''to form a quadratic'') and SOLVE it — is 2.7C ''form and
+    solve quadratic equations from data given in a context'' VERBATIM (the worked example is that demand
+    exercised end to end). The method-choice bullet (''choose which quadratic method'') is the generic
+    solve half of the same demand — 2.7A/2.7B are the method-SPECIFIC surfaces and the chunk teaches no
+    specific method, so neither is the honest single target (2.7A is already carried by four dedicated
+    solving-quadratic-equations rows, verified this round). The R29 root''s reading (''solving quadratic
+    equations — a section-2 algebra surface, itself not 4.11C'') is confirmed; zero similar-figure content.
+    The row REMAINS in the promoted set at its amended code (the R26 supersedes convention).'
+- note_slug: factorising-by-grouping
+  chunk_ordinal: 0
+  mapping_id: 7f9612c10eaaaa2e
+  current_code: 4MA1-2.2F
+  provenance_class: verdicted
+  action: DEMOTE_TO_WORKLIST
+  override_code: null
+  evidence: 'The R26 same-class candidate, now verdicted — the DEMOTE batch the R26 record projected (its
+    census remark: ''verdict a future round''s same-class repair (a 3-row DEMOTE batch ...) or leave as-is'').
+    The heading-only chunk ''Factorising by grouping'' (15 chars) rides the note whose EVERY section teaches
+    grouping of four-term two-variable expressions; the R26 full-note census found NO ord teaching 2.2F''s
+    within-cap demand and this round re-verifies the class against the corpus: ord 1''s worked body 3x(t+4)
+    + 2(t+4) -> (t+4)(3x+2) and the formed-common-bracket case xy + 3x + 5y + 15 -> x(y+3) + 5(y+3) (read
+    verbatim this round) — no x^2 + bx + c expression anywhere. 2.2F''s demand (both the Higher-operative
+    wording and the C30 ledger text, ''understand the concept of a quadratic expression and be able to
+    factorise such expressions (limited to x^2 + bx + c)'') does not reach four-term two-variable grouping;
+    2.2B''s un-limited wording factors QUADRATIC expressions and a two-variable four-term expression is
+    not a quadratic expression; no other 2.2 row (2.2A expand-products, 2.2C algebraic fractions, 2.2D
+    complete-the-square, 2.2E proofs) teaches factorising-by-grouping — REATTRIBUTE has no canonical target,
+    and a RETAIN would knowingly re-create the scope difference for the next re-gate to reject again (the
+    R18 labeling-primer precedent). The honest disposition is the menu''s DEMOTE: the row leaves the promoted
+    surface and lands unresolved-span with chunk identity intact (the W3 invariant), the loop''s FIFTH
+    DEMOTE and the SECOND+THIRD+FOURTH-of-a-batch — the R26 ord-2 DEMOTE''s own class, now completed across
+    the note. 2.2F keeps its coverage via 14 remaining rows (17 minus the 3-row batch, verified row-by-row
+    this round: the factorising-quadratics note''s 7 rows and the difference-of-two-squares note''s within-limit
+    DOTS surface).'
+- note_slug: factorising-by-grouping
+  chunk_ordinal: 1
+  mapping_id: b7602c675bf3a406
+  current_code: 4MA1-2.2F
+  provenance_class: verdicted
+  action: DEMOTE_TO_WORKLIST
+  override_code: null
+  evidence: 'The R26 same-class candidate, now verdicted: ''How do I factorise expressions with a common
+    bracket?'' teaches 3x(t+4) + 2(t+4) -> (t+4)(3x+2) via the common-bracket method (''The whole bracket,
+    (t+4), can be "taken out" like a common factor'' — read verbatim this round) — four-term two-variable
+    grouping, not a quadratic expression, so 2.2F''s limited x^2 + bx + c cap and 2.2B''s quadratic-expression
+    wording both miss it and no canonical 188 row teaches it (the R26 census + this round''s re-verification).
+    DEMOTE — the R18 precedent: no target, RETAIN re-creates the defect. See the ::0 entry for the batch
+    disposition.'
+- note_slug: factorising-by-grouping
+  chunk_ordinal: 3
+  mapping_id: 2ea85d1d97ebae38
+  current_code: 4MA1-2.2F
+  provenance_class: verdicted
+  action: DEMOTE_TO_WORKLIST
+  override_code: null
+  evidence: 'The R26 same-class candidate, now verdicted: ''Does it matter what order I group in?'' re-groups
+    xy + 3x + 5y + 15 and works ab + 3b + 2a + 6 (the R26 census, re-verified this round) — four-term
+    two-variable grouping, outside 2.2F''s cap and 2.2B''s wording, no canonical target. DEMOTE — see
+    the ::0 entry for the batch disposition.'
+h3_signoffs:
+  contract: 'the per-row operator sign-offs the R24/R25/R26/R28/R29 records list as OWED (the R5 apply
+    record: ''Not auto-promoted at R5 without the operator''s explicit per-row sign-off''), given here
+    under the operator''s explicit delegation (''Fix all of these yourself'', trace 1a130272fc8acc11).
+    Each sign-off is evidence-verified against BOTH tier wordings and the chunk''s own content this round;
+    the mechanical landing is the R30 promotions amendment''s ADDED block (the loop''s FIRST promotions
+    additions), consumed by the R31-shaped rebuild''s promotions re-application — the R5 apply record''s
+    own mechanism completed: the sign-off is precisely the missing sanction R5 named, and the amendment+rebuild
+    lane is the surface-mutation path the R26/R28 precedent established (the re-gate lane remains store-free
+    and never confers — the R29 sheet''s ''only path'' sentence governs the GATE lane, and this is not
+    the gate lane). The rows flip SUGGESTED -> HUMAN_VALIDATED at the rebuild.'
+  multiple-ratios::0:
+    mapping_id: 1dfc65df88b35d69
+    code: 4MA1-1.7B
+    ruling: SIGN_OFF
+    tier_wording_source: store
+    evidence: 'The heading-only chunk ''Multiple ratios'' (15 chars) rides the note whose content row
+      e1f6857029232571 (ord 1, ''How do I combine two ratios to make a three-part ratio?'') teaches 1.7B''s
+      demand verbatim — read from the corpus this round: the combine-two-ratios method lands ''We can
+      now use this to share the 85 animals in the ratio 4:6:7 — there are 17 parts in total (4 + 6 + 7
+      = 17), each part is worth 5 animals (85 / 17 = 5), there are 20 cows (4 x 5), 30 sheep (6 x 5),
+      and 35 pigs (7 x 5)'' — DIVIDING A QUANTITY IN GIVEN RATIOS, which is 1.7B ''divide a quantity in
+      a given ratio or ratios'' verbatim (the note is NAMED multiple-ratios; the plural ''ratios'' of
+      the wording is the note''s whole point). The heading-only row is the note''s own structural slice
+      on its own SP (the note sits in ratio-problem-solving; the corpus''s own spec_point block anchors
+      it). Not a tier artifact: 1.7B is absent from the C30 dedupe ledger (single-tier row; the store''s
+      operative wording IS the demand). The H3 hold existed for lack of sampling evidence (no content-row
+      CONFIRM of note+1.7B ever landed in a draw); this sign-off substitutes the round''s own verified
+      reading for the absent draw evidence — the R5 apply record''s named escape hatch.'
+  relative-and-expected-frequency::4:
+    mapping_id: 2d44bcf00f589c18
+    code: 4MA1-6.3J
+    ruling: SIGN_OFF
+    tier_wording_source: store
+    evidence: 'The heading-only chunk ''Expected frequency'' (18 chars) rides the note whose content row
+      b4aa201fc25dfe77 (ord 5, ''What is expected frequency?'') teaches 6.3J''s demand verbatim — read
+      from the corpus this round: ''''Expected frequency'' refers to the number of times you would expect
+      a particular outcome to occur — it is found by multiplying the probability by the number of trials
+      ... Sometimes you need to calculate the relative frequency first ... 0.25 x 100 = 25, you would
+      expect to get heads 25 times from 100 throws'' — UNDERSTANDING the term (the definition) AND USING
+      it (the calculations), which is 6.3J ''understand and use the term ''expected frequency'''' verbatim,
+      both halves. Not a tier artifact: 6.3J is absent from the C30 dedupe ledger (single-tier; the store''s
+      operative wording IS the demand). The H3 hold existed for lack of sampling evidence; this sign-off
+      substitutes the round''s own verified reading (the R5 escape hatch).'
+  expanding-single-brackets::0:
+    mapping_id: 56905a113334dcd1
+    code: 4MA1-2.2C
+    ruling: SIGN_OFF
+    tier_wording_source: ledger_foundation
+    evidence: 'The heading-only chunk ''Expanding one bracket'' (21 chars) rides the note whose content
+      row 14203482e0b046b0 (ord 1, ''How do I expand a bracket?'') teaches the C30 ledger''s FOUNDATION
+      wording of 2.2C VERBATIM — read from the corpus this round: ''''Expanding the brackets means multiplying
+      the outside term by each term on the inside ... 3x(x+2) expands to 3x x x + 3x x 2 which simplifies
+      to 3x^2 + 6x'''' — ''multiply a single term over a bracket'' is 2.2C''s Foundation-walk demand word
+      for word (C30 ledger row 2.2C: foundation.text ''multiply a single term over a bracket'', verified
+      this round). The store''s Higher-operative wording for 2.2C (''manipulate algebraic fractions ...'')
+      is a DIFFERENT surface — carried by the note family''s dedicated rows (algebraic-fractions, adding-and-subtracting-algebraic-fractions,
+      multiplying-and-dividing-algebraic-fractions, solving-algebraic-fractions — 10 further 2.2C rows
+      verified this round) — so this row is the R1 WORDING-TIER-ARTIFACT class: the join is correct at
+      Foundation tier, and the precedent is the R25 review''s 4.8B SOHCAHTOA ruling (''the join is correct
+      at Foundation tier'', CONFIRMed on both tier wordings). The sign-off accepts the join ON THAT RECORDED
+      BASIS: the chunk teaches the joined code''s Foundation-walk demand verbatim; the Higher-operative
+      demand is not displaced (the fraction rows carry it); no better Higher-operative code exists (2.2A''s
+      ''expand the product of two or more linear expressions'' does not name the single-bracket surface,
+      and the official spec''s own Foundation walk places this demand at 2.2C). The H3 hold existed for
+      lack of sampling evidence; the sign-off substitutes the round''s own verified both-tier reading
+      (the R5 escape hatch), with the tier-artifact caveat recorded here and in the promotion entry.'
+retain_rulings:
+  contract: census-remark items resolved by EVIDENCE with ZERO store movement — the ruling records the
+    round's decision and the rows stay exactly as they are (no map entry, no amendment entry).
+  introduction-to-vectors::4:
+    mapping_id: 5e1e430120ed7e2f
+    code: 4MA1-5.1D
+    ruling: RETAIN
+    evidence: 'The R26 census remark (''combination-of-vectors content adjacent to the add/subtract demand;
+      no sampled evidence against the join''), now closed by direct chunk verification this round: ''How
+      do I write an expression as a single column vector?'' teaches the combination method whose STEP
+      2 is ''Add or subtract the new column vectors'' (read verbatim from the corpus) — writing a scalar-scaled
+      sum as one column vector IS the add/subtract demand (''add and subtract vectors'', 5.1D, Higher-only,
+      absent from the C30 ledger) on its combination surface; the scalar steps of the method are the sibling
+      5.1C surface (the note''s own re-keyed ord 3, R26/R28). No defect: the join is sound, the R26 remark''s
+      adjacency question is answered IN CAP. ZERO MOVEMENT — the row stays HUMAN_VALIDATED on 5.1D.'
+  factorising-quadratics::3:
+    mapping_id: b68a504515a9d601
+    code: 4MA1-2.2F
+    ruling: RETAIN
+    evidence: 'The R29 census remark (the factorising-methods EXTENSION surface), now closed: the R29
+      re-gate CONFIRMed this row of record (''the demand IS taught'': the perfect-square block factorises
+      x^2 + 2ax + a^2 which IS the x^2 + bx + c form, the monic remainders, the quadratic-concept exam
+      hint) and the beyond-cap extension surface (cubed terms via common factor; the non-monic 2x^2 -
+      25x + 12) rides ALONGSIDE the in-cap demand — the R26 methods-row precedent (''the extension surface
+      returns to the operator as a census remark, not a defect row''). The ruling: the extension content
+      riding a row whose in-cap demand is taught is not a mis-join; DEMOTE would discard genuine in-cap
+      teaching; no separate canonical row exists for the extension surface (the R25 grouping absence class)
+      and none is creatable inside the ratified 188. The row stays HUMAN_VALIDATED on 2.2F; the extension
+      surface remains part of the chunk''s honest content. ZERO MOVEMENT.'
+note_level_scoping:
+- note_slug: equations-and-problem-solving
+  joined_code: 4MA1-4.11C
+  ruling: STANDING (scoping note updated)
+  basis: 'the note-level join layer is not amended by repair rounds (the R14/R18/R22/R23/R26 convention
+    — the resolution file stays byte-untouched, counts 222/214/8; no new note-level adjudication this
+    round, the R26 map''s four STANDING pins unchanged). Recorded WITH the honest scoping note: after
+    this round''s verdicts the note has ZERO store rows on 4.11C (all three re-homed to 2.7C) — the R26
+    grouping scoping shape extended to the whole note; the join stands as the corpus''s own annotation
+    of record, and 4.11C keeps its coverage via the similar-areas-and-volumes note''s 4 promoted rows
+    (verified this round — the TRUE carrier of the similar-figures area/volume demand). No coverage loss:
+    computed, never asserted, at the R31 rebuild.'
+- note_slug: drawing-straight-line-graphs
+  joined_code: 4MA1-3.3F
+  ruling: STANDING (scoping note updated)
+  basis: 'same convention: the R26 map''s STANDING pin (spcpt_h8QyRmzX5mCJb3X9, ruling STANDING, basis
+    ''ord 5 (ax + by = c) rides the anchor unsampled; ord 0 is the H3 HOLD'') is overtaken by this round''s
+    verdicts — BOTH named rows re-home to 3.3I and the note has ZERO store rows on 3.3F; the join stands
+    as the corpus''s own annotation; 3.3F keeps coverage via the conversion-graphs note''s 4 promoted
+    rows. Computed at the R31 rebuild, never asserted here.'
+census_remarks:
+- remark: 'THE RATIONAL/IRRATIONAL CORPUS GAP — CLOSED AS A RECORDED DECISION (the R26 record''s remark,
+    carried through R28/R29): the types-of-number ord-1 section defines rational numbers (a/b form, b
+    != 0; examples 0, 3, 1/3, 3/7, -7/3) and irrational numbers (pi, sqrt(2), cube root of 5) — the integers
+    half re-homed to 1.1A at R26 (landed R28) — while NO canonical 188 row classifies rational vs irrational
+    numbers (verified against the 1.1A-1.1H block at R26; re-verified this round against the full registry:
+    no official_wording in the ratified 188 names rational or irrational classification). THE DECISION:
+    the gap is ACKNOWLEDGED as beyond-spec corpus content and the census remark is CLOSED. The ratified
+    188 is the official PDF-direct parse (canonical-builder-2.0, sha-pinned) — the official specification''s
+    own scope defines the code set, and the store''s coverage model is coverage OF the official spec,
+    not of the corpus; inventing a 189th row would falsify the official-spec alignment and break the G4/code-domain
+    invariants every round''s check battery asserts. The corpus''s rational/irrational teaching therefore
+    rides UNCLAIMED by any code (the re-homed 1.1A row claims only its integers surface — exactly as the
+    R26 record stated); the honest store state is the gap''s existence itself. A future corpus/spec round
+    (adding a classification row to the canonical substrate and re-ratifying) is a DIFFERENT lane outside
+    T-C42''s repair-round scope and is recorded as the only path by which this gap could ever close. Nothing
+    moves this round.'
+- remark: 'THE PROMOTED-SURFACE INTERACTION (stated once, the R26 novelty shape): this round moves the
+    promoted surface THREE ways — 5 supersedes (the 4.11C trio, drawing ord 5, 3d-pythagoras ord 3: promoted
+    rows REMAIN promoted at their amended codes), 3 exclusions (the grouping batch: promoted rows LEAVE
+    the promoted set, landing unresolved-span), and — the loop''s FIRST — 3 ADDITIONS (the H3 sign-off
+    rows: SUGGESTED rows JOIN the promoted set under the R5 apply record''s own per-row sign-off mechanism).
+    Projected arithmetic (PROJECTED, ASSERTED NOWHERE — the DC-R24-01 discipline): promoted 831 -> 831
+    (828 re-applied from the R5 chain [832 - 1 R26 exclusion - 3 exclusions] + 3 added); anchored 838
+    -> 835 (831 HUMAN_VALIDATED + 4 anchored SUGGESTED [3 R22-re-attributed + the re-homed drawing ord
+    0]); unresolved-span 24 -> 27 (the 3-row batch); uncovered-SP 56 -> 55 (the 2.7C DEFER row f081d3d51385cb8f
+    resolves into the re-homed trio); store rows 918 -> 917 (the DEFER row the only vanishing row); covered
+    132 -> 133 (gained 4MA1-2.7C; lost none — 4.11C keeps 4, 3.3F keeps 4, 4.8D keeps 4, 2.2F keeps 14,
+    verified row-by-row this round). Every count lands at the R31-shaped rebuild lane, which computes
+    its own delta proofs.'
+- remark: 'THE 4.8D POST-MOVE CENSUS (recorded so the reading is on the record before the next draw samples
+    it): after the ord-3 re-home, 4.8D ''use Pythagoras'' theorem in three dimensions'' keeps 4 promoted
+    rows (ords 0/1/2/5 of the note: the heading, the 3D Pythagoras method, the 3D formula, and the complicated-problems
+    section whose surface spans Pythagoras AND trig — the mixed-surface row the R22 left on 4.8D, left
+    untouched this round: not in the fired inventory, no sampled evidence against it, the anti-forgery
+    rule). 4.8F carries the note''s trig-3D family (ords 3 and 4).'
+promoted_surface_amendment:
+  amendment_file: scripts/c42_r30_promotions_amendment.yaml
+  base_file: scripts/c42_r5_promotions.yaml
+  base_file_untouched: true
+  supersedes: 5
+  excluded: 3
+  added: 3
+dated_corrections: []

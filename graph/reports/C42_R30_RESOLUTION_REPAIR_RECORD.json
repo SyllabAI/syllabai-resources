@@ -1,0 +1,81 @@
+{
+  "schema": "c42-r30-repair-record/1.0",
+  "task": "T-C42",
+  "stage": "r30-operator-delegate-dispositions",
+  "round": "R30",
+  "review_date": "2026-10-12",
+  "operator_directive": "Fix all of these yourself. Validate by yourself. (2026-10-12, zai-web, gateway trace 1a130272fc8acc11)",
+  "sanction": {
+    "menu_fired": "the R29 record's NEXT OPERATOR DECISIONS (a)/(b)/(c) verbatim",
+    "delegation": "the per-item rulings delegated as OPERATOR-DELEGATE verdicts (the R26 shape)",
+    "regate_sanction": "the directive's 'Validate by yourself' clause is the explicit operator instruction the R32 re-gate requires",
+    "zero_movement_this_round": true
+  },
+  "baseline": {
+    "round_start_commit": "737d24a",
+    "store_sha256_16": "1b667c0107dfc85c",
+    "store_census": "918 = 831 HUMAN_VALIDATED + 7 anchored SUGGESTED (3 R22-re-attributed + 4 convention H3 holds) + 80 worklist (24 unresolved-span + 56 uncovered-SP)",
+    "covered_codes": 132,
+    "r5_promotions_sha256_16": "9bad739bd79e5899"
+  },
+  "section_overrides": [
+    {"mapping_id": "9fb36c39006e0531", "note": "equations-and-problem-solving", "ordinal": 1, "current": "4MA1-4.11C", "action": "REATTRIBUTE", "target": "4MA1-2.7C", "status": "HUMAN_VALIDATED", "projected_new_id": "05bdeb40d594b450"},
+    {"mapping_id": "d5d49762dd5a4eef", "note": "equations-and-problem-solving", "ordinal": 2, "current": "4MA1-4.11C", "action": "REATTRIBUTE", "target": "4MA1-2.7C", "status": "HUMAN_VALIDATED", "projected_new_id": "886998d41a3a86aa"},
+    {"mapping_id": "23098694b70397d8", "note": "equations-and-problem-solving", "ordinal": 0, "current": "4MA1-4.11C", "action": "REATTRIBUTE", "target": "4MA1-2.7C", "status": "HUMAN_VALIDATED", "projected_new_id": "962ba6c7316a3c90"},
+    {"mapping_id": "75244f93401689fe", "note": "3d-pythagoras-and-trigonometry", "ordinal": 3, "current": "4MA1-4.8D", "action": "REATTRIBUTE", "target": "4MA1-4.8F", "status": "HUMAN_VALIDATED", "projected_new_id": "2dfdcde0ba6f8c58"},
+    {"mapping_id": "d58b7f9f0fa551d3", "note": "drawing-straight-line-graphs", "ordinal": 5, "current": "4MA1-3.3F", "action": "REATTRIBUTE", "target": "4MA1-3.3I", "status": "HUMAN_VALIDATED", "projected_new_id": "9e3c4011f085b7a2"},
+    {"mapping_id": "91a5080f8b390de6", "note": "drawing-straight-line-graphs", "ordinal": 0, "current": "4MA1-3.3F", "action": "REATTRIBUTE", "target": "4MA1-3.3I", "status": "SUGGESTED", "projected_new_id": "51885591ddc420cf"},
+    {"mapping_id": "7f9612c10eaaaa2e", "note": "factorising-by-grouping", "ordinal": 0, "current": "4MA1-2.2F", "action": "DEMOTE_TO_WORKLIST", "target": null, "status": "HUMAN_VALIDATED", "projected_new_id": "5d45df0df6f987f8"},
+    {"mapping_id": "b7602c675bf3a406", "note": "factorising-by-grouping", "ordinal": 1, "current": "4MA1-2.2F", "action": "DEMOTE_TO_WORKLIST", "target": null, "status": "HUMAN_VALIDATED", "projected_new_id": "2fa0a5e5fd1826f8"},
+    {"mapping_id": "2ea85d1d97ebae38", "note": "factorising-by-grouping", "ordinal": 3, "current": "4MA1-2.2F", "action": "DEMOTE_TO_WORKLIST", "target": null, "status": "HUMAN_VALIDATED", "projected_new_id": "da03f870a68d3643"}
+  ],
+  "h3_signoffs": [
+    {"mapping_id": "1dfc65df88b35d69", "note": "multiple-ratios", "ordinal": 0, "code": "4MA1-1.7B", "ruling": "SIGN_OFF"},
+    {"mapping_id": "2d44bcf00f589c18", "note": "relative-and-expected-frequency", "ordinal": 4, "code": "4MA1-6.3J", "ruling": "SIGN_OFF"},
+    {"mapping_id": "56905a113334dcd1", "note": "expanding-single-brackets", "ordinal": 0, "code": "4MA1-2.2C", "ruling": "SIGN_OFF", "tier_artifact_basis": "the chunk teaches the C30 ledger's FOUNDATION wording of 2.2C verbatim; the R25 4.8B SOHCAHTOA precedent class"},
+    {"mapping_id": "91a5080f8b390de6", "note": "drawing-straight-line-graphs", "ordinal": 0, "code": "4MA1-3.3F", "ruling": "RE_HOMED_NOT_SIGNED_OFF", "via": "the ::0 REATTRIBUTE to 4MA1-3.3I; the sign-off question dissolves"}
+  ],
+  "retain_rulings": [
+    {"mapping_id": "5e1e430120ed7e2f", "note": "introduction-to-vectors", "ordinal": 4, "code": "4MA1-5.1D", "ruling": "RETAIN"},
+    {"mapping_id": "b68a504515a9d601", "note": "factorising-quadratics", "ordinal": 3, "code": "4MA1-2.2F", "ruling": "RETAIN"}
+  ],
+  "menu_closure": {
+    "a_411C_misjoin": "CONFIRMED cross-section mis-join; the trio re-homes to 2.7C; 4.11C keeps coverage via similar-areas-and-volumes (4 rows)",
+    "b_h3_signoffs": "3 signed off (1.7B / 6.3J / 2.2C tier-artifact basis) + 1 re-homed (3.3F); the owed debt discharged",
+    "c_ord3_extension": "DISSOLVED: SOHCAHTOA-3D is 4.8F's demand verbatim; re-homed 4.8D -> 4.8F",
+    "c_same_class": "grouping ords 0/1/3 DEMOTED (no canonical target, the R18 precedent); drawing ord 5 -> 3.3I; vectors ord 4 RETAINED; factorising-methods extension RETAINED",
+    "c_rational_irrational_gap": "CLOSED as a recorded decision: beyond-spec corpus content rides unclaimed; spec addition outside the ratified-188 invariants; a future corpus/spec lane is the only path"
+  },
+  "carriers": {
+    "verdicts": "scripts/c42_r30_repair_verdicts.yaml",
+    "override_map": "scripts/c42_section_overrides_r30.yaml",
+    "promotions_amendment": "scripts/c42_r30_promotions_amendment.yaml",
+    "amendment_schema": "c42-r31-promotions-amendment/1.0",
+    "amendment_shape": "5 supersedes + 3 exclusions + 3 ADDED (the loop's FIRST promotions additions, the R5 apply record's own per-row H3 sign-off mechanism completed)",
+    "resolution_file": "byte-untouched (counts 222/214/8)"
+  },
+  "projected_census": {
+    "promoted": "831 -> 831 (828 re-applied from the R5 chain + 3 added)",
+    "anchored": "838 -> 835 (831 HUMAN_VALIDATED + 4 anchored SUGGESTED)",
+    "unresolved_span": "24 -> 27",
+    "uncovered_sp": "56 -> 55 (the 2.7C DEFER row f081d3d51385cb8f resolves)",
+    "store_rows": "918 -> 917",
+    "covered_codes": "132 -> 133 (gained 4MA1-2.7C; lost none)",
+    "caveat": "PROJECTED, ASSERTED NOWHERE - the DC-R24-01 discipline; every count lands at the R31-shaped rebuild"
+  },
+  "check": "graph/reports/C42_R30_REPAIR_CHECK.json",
+  "footprint": [
+    "scripts/c42_r30_repair_verdicts.yaml",
+    "scripts/c42_r30_override_projection.py",
+    "scripts/c42_r30_repair_check.py",
+    "scripts/c42_section_overrides_r30.yaml",
+    "scripts/c42_r30_promotions_amendment.yaml",
+    "graph/reports/C42_R30_RESOLUTION_REPAIR_RECORD.md",
+    "graph/reports/C42_R30_RESOLUTION_REPAIR_RECORD.json",
+    "graph/reports/C42_R30_REPAIR_CHECK.json"
+  ],
+  "next_lanes": [
+    "R31 - the substrate re-build consuming the R30 map AND amendment (TOOL_VERSION 2.7.0, the additions-capable promotions re-application, the delta proofs, the B-series battery)",
+    "R32 - the validation re-gate (operator gate 2 re-run), explicitly sanctioned by the directive's 'Validate by yourself' clause"
+  ]
+}
