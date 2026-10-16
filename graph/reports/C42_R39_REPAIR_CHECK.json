@@ -1,0 +1,63 @@
+{
+  "schema": "c42-r39-repair-check/1.0",
+  "task": "T-C42",
+  "stage": "r39-operator-delegate-disposition-check",
+  "round": "R39",
+  "round_start": "f2556cc395eb52dd09aabdee144f9299de7d13b1",
+  "audited_head": "f2556cc395eb52dd09aabdee144f9299de7d13b1",
+  "baseline_store_sha256_16": "8d8474c59ca6341f",
+  "override_map_sha256_16": "a6c9bf11028e6325",
+  "amendment_sha256_16": "2bf4cb7240bffa14",
+  "verdicts_sha256_16": "434447bf8e9df58a",
+  "record_sha256_16": "a6e688f369f04c8f",
+  "checks": [
+    {
+      "check": "A1_inventory_agreement",
+      "ok": true,
+      "detail": "overrides == verdicts == the fired 2-row batch (a5b737e510606829 basic-probability::1 + d545cd5f5aeae9a9 calculations-with-the-mean::1, both DEMOTE_TO_WORKLIST); amendment 0 supersedes + 2 exclusions + 0 additions with the identities pinned; the not-fired guard holds across both notes' siblings (all HV)"
+    },
+    {
+      "check": "A2_projection_agreement",
+      "ok": true,
+      "detail": "map == verdicts (2 HV DEMOTEs, override_code null); retains empty; 2 scoping notes + 2 remarks pinned; EXACTLY ONE dated correction (the R38 ledger-prose defect) carried verbatim; zero sign-off blocks; zero SUGGESTED rows on 6.3A/6.2B; amendment schema + base pin + prior-amendments (R26+R30+R33+R36) pinned"
+    },
+    {
+      "check": "A3_code_domain",
+      "ok": true,
+      "detail": "both DEMOTEs carry no target (the c40 R8 rule; the no-target facts live-verified in A4); current 4MA1-6.3A / 4MA1-6.2B match the live substrate; both movers HUMAN_VALIDATED + promoted; no re-pin arises"
+    },
+    {
+      "check": "A4_wordings_ledger_corpus",
+      "ok": true,
+      "detail": "registry wordings verbatim (6.3A/6.3B/6.3D + 6.2A/6.2B/6.2C/6.2D + 4.4F); the no-target scans hold over the ratified 188 ('tree diagram' only 6.3A; mean/average only 4.4F; 'spread' only 6.2B; 'scale' only instruments/drawings/enlargements; no Higher wording names the probability-scale or mean surface); THE CORRECTED ledger facts pinned live (6.3A + 6.2B PRESENT as higher_preferred two-tier rows with the Higher/Foundation texts verbatim; 6.3B Foundation 'understand and use the probability scale' recorded); corpus pins verified live via the c40 reader (the probability-scale bullets + calibration; the mean formula + rearrangement + the 24/25-student example); negative pins hold ('tree'/'diagram' absent from chunk 1; 'spread'/'interquartile'/'quartile' absent from chunk 2 with 'range' only inside 'rearrange'); chunk shas match the substrate (74b5c6214777c054 / 22c1475d80a7d6df)"
+    },
+    {
+      "check": "A5_joins_resolution",
+      "ok": true,
+      "detail": "both corpus anchors stand (spcpt_FVX7YRftjhnwYHQF at 6.3A; spcpt_n9ZtYfjh8sFCp5Kz at 6.2B) at HEAD (the join layer untouched); resolution file byte-identical f2556cc395eb -> HEAD"
+    },
+    {
+      "check": "A6_substrate_pins",
+      "ok": true,
+      "detail": "store at the R37/R38-of-record state (sha 8d8474c59ca6341f) and byte-identical to the round-start HEAD (ZERO store bytes move this round); 917 = 830 + 4 + 83; both movers R5-pinned with matching identity; per-code censuses 6.3A 18 all HV (the mover + 17 keepers) and 6.2B 24 all HV (the mover + 23 keepers), zero worklist rows; the meta census pins hold"
+    },
+    {
+      "check": "A9_round_artifacts",
+      "ok": true,
+      "detail": "record md + json pinned (incl. the dated correction + the Foundation scoping facts); the projected demoted re-keys match the c40 DEMOTE identity function recomputed live (09f012e4cabef0cc / 80d783fb13def4e2)"
+    },
+    {
+      "check": "A7_idempotency",
+      "ok": true,
+      "detail": "override map + promotions amendment byte-identical re-runs"
+    },
+    {
+      "check": "A8_footprint_precommit",
+      "ok": true,
+      "detail": "delta vs f2556cc395eb is exactly the declared 8-file R39 footprint (pre-commit form)"
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "result": "ALL PASS"
+}
