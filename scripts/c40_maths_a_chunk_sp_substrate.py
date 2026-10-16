@@ -507,6 +507,7 @@ OVERRIDES_R26 = "scripts/c42_section_overrides_r26.yaml"
 OVERRIDES_R30 = "scripts/c42_section_overrides_r30.yaml"
 OVERRIDES_R33 = "scripts/c42_section_overrides_r33.yaml"
 OVERRIDES_R36 = "scripts/c42_section_overrides_r36.yaml"
+OVERRIDES_R39 = "scripts/c42_section_overrides_r39.yaml"
 # surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
 # wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
 # residual that was already unresolved
@@ -1104,6 +1105,22 @@ def construct() -> dict:
                                               "REATTRIBUTEs, ZERO sign-offs)",
                                expect_entries=1, expect_reattr=0, expect_retain=0,
                                expect_demote=1)
+    # T-C42 R40: the R39 map — the loop's ELEVENTH repair round and the FIFTH
+    # over the promoted surface: 2 verdicted DEMOTE_TO_WORKLISTs (the R38
+    # fresh REJECTs adjudicated: basic-probability ord 1, the probability-
+    # scale surface, and calculations-with-the-mean ord 1, the mean surface —
+    # each with NO canonical target in the ratified 188; the loop's FIRST
+    # 2-row DEMOTE batch, the SEVENTH and EIGHTH DEMOTEs), ZERO
+    # REATTRIBUTEs, ZERO sign-offs. The DEMOTE handler's round-tag regex
+    # parses the operator_round label, so it must keep the 'C42 R39
+    # (surface N: ...' shape — the exact operator-round descriptor the R39
+    # map's own contract pins for the consuming re-build lane.
+    ov_r39 = consume_overrides(OVERRIDES_R39, "C42 R39 (surface 3: 2 verdicted "
+                                              "DEMOTE_TO_WORKLIST — the R38 fresh "
+                                              "REJECTs adjudicated; ZERO "
+                                              "REATTRIBUTEs, ZERO sign-offs)",
+                               expect_entries=2, expect_reattr=0, expect_retain=0,
+                               expect_demote=2)
 
     # T-C42 R12: the R10 map's note-level adjudication pins the
     # related-calculations anchor as STANDING — verify the refreshed join
@@ -1273,11 +1290,11 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
-            "stage": "T-C42 R37: substrate re-build over the UNCHANGED "
+            "stage": "T-C42 R40: substrate re-build over the UNCHANGED "
                      "C42-R14-amended resolution via the R27-refreshed "
-                     "T-C32 join (the R36 repair round moved nothing at the "
+                     "T-C32 join (the R39 repair round moved nothing at the "
                      "resolution layer; the join layer untouched) — chunk "
-                     "identity invariant; the TEN operator "
+                     "identity invariant; the ELEVEN operator "
                      "section-override maps (R1 + R6 with the subsumption "
                      "registry + R10 with the loop's first DEMOTE and the "
                      "note-level STANDING pin + R14 with the loop's second "
@@ -1303,19 +1320,30 @@ def construct() -> dict:
                      "fresh REJECT (basic-percentages ord 4 "
                      "a107f5041769fdd9, the FORWARD "
                      "express-one-number-as-a-percentage surface with NO "
-                     "canonical target in the ratified 188); ZERO "
+                     "canonical target in the ratified 188) + R39 with the "
+                     "loop's SEVENTH and EIGHTH DEMOTEs — the FIRST 2-row "
+                     "DEMOTE batch: 2 verdicted DEMOTE_TO_WORKLISTs over "
+                     "the R38 fresh REJECTs (basic-probability ord 1 "
+                     "a5b737e510606829, the probability-scale surface; "
+                     "calculations-with-the-mean ord 1 "
+                     "d545cd5f5aeae9a9, the mean surface — each with NO "
+                     "canonical target in the ratified 188; the C30 "
+                     "ledger facts CORRECTED on the R39 record — both "
+                     "codes higher_preferred two-tier, the Foundation "
+                     "texts recorded as scoping); ZERO "
                      "REATTRIBUTEs, ZERO sign-offs — schema "
                      "c42-r28-section-overrides/1.0) consumed fail-closed; "
                      "coverage + the uncovered-SP worklist recomputed (the "
-                     "R36 projections land here: coverage UNCHANGED "
-                     "133 -> 133 of 188 — 1.6F keeps 5 anchored rows, the "
-                     "reverse-percentages trio + basic-percentages ords "
-                     "0/3; gained none, lost "
-                     "none; the DEMOTE moves the promoted row INTO the "
-                     "unresolved-span worklist: anchored 835 -> "
-                     "834, unresolved-span 27 -> 28, chunk identity "
-                     "intact — the W3 invariant; per-code 4MA1-1.6F anchored "
-                     "6 -> 5); the emission is "
+                     "R39 projections land here: coverage UNCHANGED "
+                     "133 -> 133 of 188 — 6.3A keeps 17 anchored rows (the "
+                     "tree-diagrams quartet + the combined/conditional 8 + "
+                     "basic-probability ords 0/2/3/4/5) and 6.2B keeps 23 "
+                     "(verified row-by-row at R39); gained none, lost "
+                     "none; the DEMOTE batch moves the 2 promoted rows "
+                     "INTO the unresolved-span worklist: anchored 834 -> "
+                     "832, unresolved-span 28 -> 30, chunk identity "
+                     "intact — the W3 invariant; per-code 4MA1-6.3A anchored "
+                     "18 -> 17, 4MA1-6.2B anchored 24 -> 23); the emission is "
                      "ALL-SUGGESTED (G5) — the "
                      "R5 promotions file (832 rows, BYTE-UNTOUCHED per P5) "
                      "AMENDED by scripts/c42_r30_promotions_amendment.yaml "
@@ -1336,16 +1364,26 @@ def construct() -> dict:
                      "promotions-affecting repair record and the FIRST "
                      "exclusion-ONLY: 0 code supersedes + 1 exclusion + 0 "
                      "additions — the R30 additions mechanism present and "
+                     "UNUSED, no sign-offs owed) AND "
+                     "scripts/c42_r39_promotions_amendment.yaml (schema "
+                     "c42-r31-promotions-amendment/1.0, the loop's FIFTH "
+                     "promotions-affecting repair record and the SECOND "
+                     "exclusion-ONLY: 0 code supersedes + 2 exclusions + 0 "
+                     "additions — the R30 additions mechanism present and "
                      "UNUSED, no sign-offs owed) is "
-                     "re-applied by the R37 rebuild lane "
-                     "scripts/c42_r37_substrate_rebuild.py — the R36 "
-                     "DEMOTE row is EXCLUDED from the re-applied set (lands "
-                     "unresolved-span via the c40 DEMOTE convention, chunk "
-                     "identity intact — the W3 invariant), the 3 "
+                     "re-applied by the R40 rebuild lane "
+                     "scripts/c42_r40_substrate_rebuild.py — the 2 R39 "
+                     "DEMOTE rows are EXCLUDED from the re-applied set "
+                     "(they land unresolved-span via the c40 DEMOTE "
+                     "convention, chunk identity intact — the W3 "
+                     "invariant; the R36 DEMOTE row REMAINS excluded — "
+                     "its demoted worklist row re-lands via the "
+                     "still-wired R36 map at the same projected re-key), "
+                     "the 3 "
                      "R33 re-home rows REMAIN in the promoted set at their "
                      "amended codes (re-keyed old->new), the 3 R30 sign-off "
-                     "rows stay in it (830: 827 from the R5 chain "
-                     "[832 - 1 R26 - 3 R30 - 1 R36 exclusions] + 3 "
+                     "rows stay in it (828: 825 from the R5 chain "
+                     "[832 - 1 R26 - 3 R30 - 1 R36 - 2 R39 exclusions] + 3 "
                      "added)",
             "convention": CONVENTION_ID,
             "convention_spec": (
