@@ -4,7 +4,7 @@
   "stage": "r40-substrate-rebuild-check",
   "round": "R40",
   "round_start": "ad12bc9d92ffc6eadfa8a10dcfa07a4a69b9417a",
-  "audited_head": "ad12bc9d92ffc6eadfa8a10dcfa07a4a69b9417a",
+  "audited_head": "8daaf152e233b25e7635f963da89d4e9668fdde6",
   "baseline_store_sha256_16": "8d8474c59ca6341f",
   "store_sha256_16": "14d04dfebb71b849",
   "record_sha256_16": "b28da7f3ea2ec3f7",
@@ -47,7 +47,7 @@
     {
       "check": "B8_commit_state",
       "pass": true,
-      "detail": "pre-commit: HEAD == baseline ad12bc9d92ff; dirt 6 inside the R40 footprint"
+      "detail": "committed-clean: HEAD 8daaf152e233; tree clean; the committed delta vs HEAD~1 inside the R40 footprint"
     },
     {
       "check": "B9_anti_forgery",
