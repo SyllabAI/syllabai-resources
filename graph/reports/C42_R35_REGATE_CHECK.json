@@ -4,7 +4,7 @@
   "stage": "r35-regate-check",
   "round": "R35",
   "round_start": "e17a95b6b923580922fb999c774a0c8157ed14b4",
-  "audited_head": "e17a95b6b923580922fb999c774a0c8157ed14b4",
+  "audited_head": "3e23d4560e6042aeb07ae00795ad69fd127c9e05",
   "store_sha256_16": "9174915650d49f4a",
   "checks": [
     {
@@ -55,7 +55,7 @@
     {
       "check": "X10_protected_commit_state",
       "ok": true,
-      "detail": "45 protected paths byte-identical e17a95b6 -> HEAD (the R34 store + the R30/R31/R32/R33/R34 carriers + records + the prior verdict records + the resolution + the registry + the ledger); pre-commit: delta vs e17a95b6 inside the declared 8-file R35 footprint"
+      "detail": "45 protected paths byte-identical e17a95b6 -> HEAD (the R34 store + the R30/R31/R32/R33/R34 carriers + records + the prior verdict records + the resolution + the registry + the ledger); committed-clean: HEAD 3e23d456; tree clean; the committed delta vs HEAD~1 inside the R35 footprint"
     }
   ],
   "passed": 10,
