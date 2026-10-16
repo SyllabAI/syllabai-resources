@@ -2,6 +2,64 @@
 """c40 — the maths-a chunk→SpecificationPoint mapping substrate (T-C40 K2 Lane B;
 the c13-chunk-convention-1 construction instantiated for the SME JSON notes corpus).
 
+T-C42 R34 AMENDMENT (2026-10-16, dated per P5 — this generator re-pinned again,
+landed records never edited): substrate re-build over the UNCHANGED
+C42-R14-amended resolution via the R27-refreshed T-C32 join — the R33 repair
+round (the loop's NINTH R1-shaped round, the THIRD over the promoted surface)
+moved nothing at the resolution layer (all standing note-level joins remain
+STANDING at the untouched join layer — the loop's FIRST SPLIT-note scoping
+recorded, 0 anchors cleared, the resolution file byte-untouched, counts
+222/214/8). Fired by the operator directive 'fire R34 → R35' (2026-10-16,
+zai-web, gateway trace 1a1439559c9023f1) over the R33 record's NEXT lane.
+Four semantic changes, everything else untouched:
+  a. the pinned join census STAYS 198+5 (the R33 round re-pointed 0
+     note-level joins and cleared 0 anchors); the guard below ALSO verifies
+     the FOUR R26 STANDING pins fail-closed exactly as at R31 (unchanged);
+  b. the operator section-override maps are consumed FAIL-CLOSED — the NINE
+     maps R1 + R6 + R10 + R14 + R18 + R22 + R26 + R30 AND the R33 map
+     scripts/c42_section_overrides_r33.yaml (schema
+     c42-r28-section-overrides/1.0: 3 verdicted REATTRIBUTEs —
+     rounding-and-estimation ords 6/7/8 4MA1-1.8B -> 4MA1-1.8D, the
+     estimation half (purpose/method/evaluation) re-homed row-level while
+     ords 0-5 stay 1.8B — the supersedes shape, all three rows
+     HUMAN_VALIDATED promotions; ZERO DEMOTEs this round). Every applied
+     entry must hit exactly one emitted chunk row, its current_code must
+     equal the join-derived code, REATTRIBUTE targets must sit in the
+     ratified registry, and any override naming a code outside the ratified
+     188 fails the build. Applied rows carry provenance.override with the
+     map sha;
+  c. coverage + the uncovered-SP worklist are RECOMPUTED from the refreshed
+     surface (gained/lost computed, never assumed — the W5/DC-R24-01
+     convention); the R33 projections land HERE (they were PROJECTED,
+     asserted nowhere): coverage UNCHANGED 133 -> 133 of 188 — 1.8B keeps
+     its coverage via the rounding half (ords 0-5) and its other rows,
+     1.8D is ALREADY covered via the R10 related-calculations STANDING
+     join; gained none, lost none; the THREE re-homes move promoted rows
+     row-level WITHIN the covered set: anchored 835 -> 835, unresolved-span
+     27 -> 27 (chunk identity intact — the W3 invariant); per-code 1.8B
+     anchored 9 -> 6, 1.8D anchored 3 -> 6;
+  d. the emission is ALL-SUGGESTED (G5) — the R5 promotions file (832 rows,
+     sha 9bad739bd79e5899, BYTE-UNTOUCHED per the P5 convention) is
+     re-applied by the R34 rebuild lane scripts/c42_r34_substrate_rebuild.py
+     AMENDED THREE TIMES OVER: the R26 + R30 amendments' landed state
+     (already of record in the R34 baseline) AND
+     scripts/c42_r33_promotions_amendment.yaml (schema
+     c42-r31-promotions-amendment/1.0, the loop's THIRD promotions-affecting
+     repair record and the FIRST supersedes-ONLY: 3 code supersedes re-key
+     old->new — the 3 REATTRIBUTE rows REMAIN in the promoted set at their
+     amended codes — ZERO exclusions and ZERO additions — the R30 additions
+     mechanism present and UNUSED, no sign-offs owed: the R30 round
+     discharged all 4 H3 holds of record); the re-applied count stays 831
+     (828 from the R5 chain + 3 R30-added sign-offs, the 3 R33 movers
+     re-pinned within the set); the R22-era REJECT and the re-homed drawing
+     ord 0 remain the anchored-SUGGESTED residue (3 + 1 rows);
+  e. TOOL_VERSION STAYS 2.7.0 (the R33 carriers' own contract: 'the
+     c40-shaped substrate tool (TOOL_VERSION 2.7.0) at the NEXT substrate
+     re-build (the R34-shaped lane)' — the first re-build with NO version
+     move; the store's provenance.tool strings are byte-stable this round,
+     the builder identity carried by the re-dated header line and the
+     per-row provenance.override blocks).
+
 T-C42 R31 AMENDMENT (2026-10-12, dated per P5 — this generator re-pinned again,
 landed records never edited): substrate re-build over the UNCHANGED
 C42-R14-amended resolution via the R27-refreshed T-C32 join — the R30 repair
@@ -447,6 +505,7 @@ OVERRIDES_R18 = "scripts/c42_section_overrides_r18.yaml"
 OVERRIDES_R22 = "scripts/c42_section_overrides_r22.yaml"
 OVERRIDES_R26 = "scripts/c42_section_overrides_r26.yaml"
 OVERRIDES_R30 = "scripts/c42_section_overrides_r30.yaml"
+OVERRIDES_R33 = "scripts/c42_section_overrides_r33.yaml"
 # surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
 # wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
 # residual that was already unresolved
@@ -1016,6 +1075,19 @@ def construct() -> dict:
                                               "the loop's FIFTH DEMOTE)",
                                expect_entries=9, expect_reattr=6, expect_retain=0,
                                expect_demote=3)
+    # T-C42 R34: the R33 map — the loop's NINTH repair round and the THIRD
+    # over the promoted surface: 3 verdicted REATTRIBUTEs (all HUMAN_VALIDATED
+    # promotions — the supersedes shape), ZERO DEMOTEs, the loop's FIRST
+    # SPLIT-note scoping (rounding-and-estimation splits row-level: ords 0-5
+    # stay 1.8B, ords 6-8 re-home to 1.8D). No DEMOTE rows fire, so the
+    # DEMOTE handler's round-tag regex is not exercised by this map; the
+    # operator_round label keeps the 'C42 R33 (surface N: ...' shape anyway.
+    ov_r33 = consume_overrides(OVERRIDES_R33, "C42 R33 (surface 3: 3 verdicted REATTRIBUTEs "
+                                              "[all HUMAN_VALIDATED, the supersedes "
+                                              "shape] — the 1.8B->1.8D re-home batch "
+                                              "— the loop's FIRST SPLIT-note scoping)",
+                               expect_entries=3, expect_reattr=3, expect_retain=0,
+                               expect_demote=0)
 
     # T-C42 R12: the R10 map's note-level adjudication pins the
     # related-calculations anchor as STANDING — verify the refreshed join
@@ -1185,11 +1257,11 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
-            "stage": "T-C42 R31: substrate re-build over the UNCHANGED "
+            "stage": "T-C42 R34: substrate re-build over the UNCHANGED "
                      "C42-R14-amended resolution via the R27-refreshed "
-                     "T-C32 join (the R30 repair round moved nothing at the "
+                     "T-C32 join (the R33 repair round moved nothing at the "
                      "resolution layer; the join layer untouched) — chunk "
-                     "identity invariant; the EIGHT operator "
+                     "identity invariant; the NINE operator "
                      "section-override maps (R1 + R6 with the subsumption "
                      "registry + R10 with the loop's first DEMOTE and the "
                      "note-level STANDING pin + R14 with the loop's second "
@@ -1205,16 +1277,23 @@ def construct() -> dict:
                      "STANDING + R30 with 6 verdicted REATTRIBUTEs "
                      "4.11C->2.7C x3 / 4.8D->4.8F / 3.3F->3.3I x2 [ord 0 "
                      "the SUGGESTED re-homed H3 hold] and the grouping "
-                     "DEMOTE batch of 3 — the loop's FIFTH DEMOTE — schema "
+                     "DEMOTE batch of 3 — the loop's FIFTH DEMOTE + R33 "
+                     "with 3 verdicted REATTRIBUTEs 1.8B->1.8D "
+                     "(rounding-and-estimation ords 6/7/8, the estimation "
+                     "half re-homed row-level, ords 0-5 staying 1.8B — the "
+                     "supersedes shape, all HV — the loop's FIRST SPLIT-note "
+                     "scoping; ZERO DEMOTEs) — schema "
                      "c42-r28-section-overrides/1.0) consumed fail-closed; "
                      "coverage + the uncovered-SP worklist recomputed (the "
-                     "R30 projections land here: coverage GAINS 4MA1-2.7C — "
-                     "132 -> 133 of 188 — the DEFER row resolving into the "
-                     "re-homed trio, the R12/R16/R20/R24/R26/R28 "
-                     "coverage-gain precedent; lost none; the THREE DEMOTEs "
-                     "land their promoted rows unresolved-span: anchored "
-                     "838 -> 835, unresolved-span 24 -> 27, chunk identity "
-                     "intact — the W3 invariant); the emission is "
+                     "R33 projections land here: coverage UNCHANGED "
+                     "133 -> 133 of 188 — 1.8B keeps the rounding half "
+                     "ords 0-5, 1.8D already covered via the R10 "
+                     "related-calculations STANDING join; gained none, lost "
+                     "none; the THREE re-homes move promoted rows "
+                     "row-level WITHIN the covered set: anchored 835 -> "
+                     "835, unresolved-span 27 -> 27, chunk identity "
+                     "intact — the W3 invariant; per-code 1.8B anchored "
+                     "9 -> 6, 1.8D anchored 3 -> 6); the emission is "
                      "ALL-SUGGESTED (G5) — the "
                      "R5 promotions file (832 rows, BYTE-UNTOUCHED per P5) "
                      "AMENDED by scripts/c42_r30_promotions_amendment.yaml "
@@ -1223,12 +1302,18 @@ def construct() -> dict:
                      "FIRST with ADDITIONS: 5 code supersedes + 3 exclusions "
                      "+ 3 ADDED sign-off promotions — the R5 apply record's "
                      "own per-row H3 sign-off mechanism completed under the "
-                     "operator directive trace 1a130272fc8acc11) is "
-                     "re-applied by the R31 rebuild lane "
-                     "scripts/c42_r31_substrate_rebuild.py — the 5 "
-                     "REATTRIBUTE rows REMAIN in the promoted set at their "
-                     "amended codes, the DEMOTE batch leaves it, the 3 "
-                     "sign-off rows JOIN it (831: 828 from the R5 chain + 3 "
+                     "operator directive trace 1a130272fc8acc11) AND "
+                     "scripts/c42_r33_promotions_amendment.yaml (schema "
+                     "c42-r31-promotions-amendment/1.0, the loop's THIRD "
+                     "promotions-affecting repair record and the FIRST "
+                     "supersedes-ONLY: 3 code supersedes re-keyed old->new "
+                     "+ 0 exclusions + 0 additions — the R30 additions "
+                     "mechanism present and UNUSED, no sign-offs owed) is "
+                     "re-applied by the R34 rebuild lane "
+                     "scripts/c42_r34_substrate_rebuild.py — the 3 "
+                     "R33 re-home rows REMAIN in the promoted set at their "
+                     "amended codes (re-keyed old->new), the 3 R30 sign-off "
+                     "rows stay in it (831: 828 from the R5 chain + 3 "
                      "added)",
             "convention": CONVENTION_ID,
             "convention_spec": (
