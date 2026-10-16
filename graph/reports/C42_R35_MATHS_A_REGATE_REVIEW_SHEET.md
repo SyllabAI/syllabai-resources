@@ -1,0 +1,10 @@
+# C42 R35 — maths-a Chunk→SP Substrate RE-GATE OPERATOR REVIEW SHEET (operator gate 2 re-run)
+
+**Seed:** `9a1b3b42fd827f35` (sha256_16 of the sorted anchored-row identities — deterministic regeneration over the R34 rows) · **Rows:** 463 anchored spot-checks + 82 worklist decisions, re-stratified over the R34-rebuilt substrate UNDER THE RE-PINNED SUPERSEDES-ONLY SURFACE (917 rows = 831 HUMAN_VALIDATED re-applied from the R5 promotions file [sha16 9bad739bd79e5899, byte-unchanged since R5] AMENDED by the R26+R30+R33 amendments + 3 ADDED sign-off promotions, the 3 R33 movers re-pinned at 1.8D + 4 anchored SUGGESTED [3 R22-re-attributed + the re-homed drawing ord 0 hold] + 27 unresolved-span incl. ALL SEVEN DEMOTEs [R10 + R14 + R18 + R26 + the R30 batch of 3] + 55 uncovered-SP; coverage 133/188 — unchanged at R34).
+**Rule:** this sheet is the re-gate evidence for the re-composed promoted surface — the re-gate VERIFIES, it never re-confers and never moves the store. Per-class rollup: any confirmed-precision < 90% → rework that class. **Both-tier wording standing instruction applied:** every row adjudicated against the store's Higher-operative wording AND the C30 ledger Foundation wording (signature per row; DIVERGENT fails the fill closed).
+**Mechanical layer:** 463/463 PASS (quote-in-chunk + sha/heading vs a fresh re-chunking); anti-forgery sweep PASS (the HV set == the R5+R26+R30+R33 amended surface row-for-row by chunk identity).
+**Gate:** Part A 462/463 = 99.8% total; per-class exact 92/93 = 98.9% / partial 238/238 = 100.0% / none 132/132 = 100.0% — every class at or above the 90% gate: **PASS**.
+**Verdict sources:** FRESH-pending 0, operator-id-verdict 8, r10-id-verdict 1, r21-carried 1, r25-carried 1, r30-section-override 1, r32-carried 447, r33-section-override 1, r35-fresh 3.
+**Tier signatures:** LEDGER_FOUNDATION 49, STORE_HIGHER 414; DIVERGENT 0.
+**Part B:** cleared 18, demote 7, residual 57 — every worklist row decided, zero movement.
+**ZERO MOVEMENT:** the store stays byte-identical (sha16 9174915650d49f4a); the re-gate lane is store-free by construction.
