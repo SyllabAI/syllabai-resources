@@ -1,0 +1,63 @@
+{
+  "schema": "c42-r36-repair-check/1.0",
+  "task": "T-C42",
+  "stage": "r36-operator-delegate-disposition-check",
+  "round": "R36",
+  "round_start": "4c5c42e",
+  "audited_head": "4c5c42e6c7f5c7f3643c3d14bfc45711f23edcf4",
+  "baseline_store_sha256_16": "9174915650d49f4a",
+  "override_map_sha256_16": "b35b2403c43ebfc2",
+  "amendment_sha256_16": "4d871d3089290b60",
+  "verdicts_sha256_16": "37246ae7f6bebc3c",
+  "record_sha256_16": "497078eb6c1d676f",
+  "checks": [
+    {
+      "check": "A1_inventory_agreement",
+      "ok": true,
+      "detail": "overrides == verdicts == the single fired row a107f5041769fdd9 (basic-percentages::4, DEMOTE_TO_WORKLIST); amendment 0 supersedes + 1 exclusion + 0 additions with the identity pinned; the not-fired guard holds across basic-percentages ords 0-3 and the reverse-percentages trio (all HV)"
+    },
+    {
+      "check": "A2_projection_agreement",
+      "ok": true,
+      "detail": "map == verdicts (1 HV DEMOTE, override_code null); retains empty; scoping/remarks pinned; zero sign-off blocks; zero SUGGESTED rows on 1.6F; the ord-3 sibling stands untouched (the carry chain, the anti-forgery rule); amendment schema + base pin + prior-amendments (R26+R30+R33) pinned"
+    },
+    {
+      "check": "A3_code_domain",
+      "ok": true,
+      "detail": "DEMOTE carries no target (the c40 R8 rule; the no-target fact live-verified in A4); current 4MA1-1.6F matches the live substrate; the mover HUMAN_VALIDATED; no re-pin arises"
+    },
+    {
+      "check": "A4_wordings_ledger_corpus",
+      "ok": true,
+      "detail": "registry wordings verbatim (1.6F / 1.6C / 1.6E); the no-target negative scan holds over the ratified 188 (only 1.6C carries express+percentage — the converse); 1.6F ABSENT from the C30 ledger (single-tier); corpus pins verified live via the c40 reader (the heading + the forward method bullets + 'So 7 is 35% of 20' + the 0.125/12.5 deposit example); negative pins hold ('reverse percentage' and the converse fragment absent); chunk sha matches the substrate (d4947ba63e47dd1f)"
+    },
+    {
+      "check": "A5_joins_resolution",
+      "ok": true,
+      "detail": "the basic-percentages corpus anchor spcpt_FHRjdMc6tvRR553q stands at 1.6F at HEAD (the join layer untouched); resolution file byte-identical 4c5c42e -> HEAD"
+    },
+    {
+      "check": "A6_substrate_pins",
+      "ok": true,
+      "detail": "store at the R34/R35-of-record state (sha 9174915650d49f4a) and byte-identical to the round-start HEAD (ZERO store bytes move this round); 917 = 831 + 4 + 82; the mover R5-pinned at 1.6F with matching identity; per-code 1.6F census 6 all HV (the mover + the 5 keepers), zero worklist rows; the meta census pins hold"
+    },
+    {
+      "check": "A9_round_artifacts",
+      "ok": true,
+      "detail": "record md + json pinned; the projected demoted re-key matches the c40 DEMOTE identity function recomputed live (8254a7fc75ad2946)"
+    },
+    {
+      "check": "A7_idempotency",
+      "ok": true,
+      "detail": "override map + promotions amendment byte-identical re-runs"
+    },
+    {
+      "check": "A8_footprint_precommit",
+      "ok": true,
+      "detail": "delta vs 4c5c42e is exactly the declared 8-file R36 footprint (pre-commit form)"
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "result": "ALL PASS"
+}
