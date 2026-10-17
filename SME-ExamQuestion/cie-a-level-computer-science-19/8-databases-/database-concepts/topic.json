@@ -1,0 +1,1218 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:28Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "8-databases-",
+  "name": "8. Databases"
+ },
+ "topic": {
+  "id": "top_SdvRs2Y2Q9WJRfdg",
+  "slug": "database-concepts",
+  "name": "Database Concepts",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "database-models",
+   "name": "Database Models",
+   "revision_note_id": "rn_4mJGGGP3Sh6VHVG7"
+  },
+  {
+   "slug": "database-normalisation",
+   "name": "Database Normalisation",
+   "revision_note_id": "rn_TrX5TVS4KWkvKTFR"
+  },
+  {
+   "slug": "database-design",
+   "name": "Database Design",
+   "revision_note_id": "rn_NwgV5c5fgzrvJXjw"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_d6MbVK25nRXYxXKB",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 33,
+   "questions_embedded": 33,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/8-databases-/database-concepts/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 33,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/7928_screenshot-2025-11-12-103952.png": "001-diagram-with-three-boxes-course-schedule-tutor-a.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/40226_screenshot-2025-11-12-104209.png": "002-diagram-showing-course-schedule-linked-to-tutor-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/37298_screenshot-2025-11-11-223523.png": "003-flowchart-with-five-boxes-labelled-shop-order-cu.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/47724_screenshot-2025-11-11-223523.png": "004-diagram-showing-relationships-shop-order-to-cust.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/9697_screenshot-2025-11-11-161607.png": "005-four-labelled-rectangles-in-a-grid-top-left-read.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/21984_screenshot-2025-11-11-161607.png": "006-diagram-showing-entities-repair-part-part-repair.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_fPDz9nsYpcrCMxP2",
+   "set_slug": "exam-questions",
+   "order": 32,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_VhktfGTYHmRW5cdr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A cinema uses a database that contains the following two tables. Both tables are in Second Normal Form (2NF).\n\n`SCREENING(ScreeningID, FilmID, FilmTitle, ScreenNumber, StartTime)`\n\n`TICKET(TicketID, ScreeningID, SeatCode, PricePaid)`\n\nThe primary key of `SCREENING` is `ScreeningID` and the primary key of `TICKET` is `TicketID`. The price paid is recorded separately for every ticket sold.\n\nExplain which one of these tables is not in Third Normal Form (3NF), and write a corrected design so that the whole database is in 3NF.",
+     "solution_md": "`SCREENING` is not in 3NF. **[1]**\n\n`FilmTitle` depends on `FilmID`, and `FilmID` is a non-key attribute, so this is a transitive dependency. **[1]**\n\nThe film data should be moved into a table of its own. **[1]**\n\n`FILM(FilmID, FilmTitle)` with `FilmID` as the primary key **[1]**\n\n`SCREENING(ScreeningID, FilmID, ScreenNumber, StartTime)` with `ScreeningID` as the primary key and `FilmID` kept as a foreign key that links to `FILM` **[1]**\n\n`TICKET` does not change, because every attribute in it depends only on `TicketID`.\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying `SCREENING` as the table that is not in 3NF\n> \n> **1 mark** for `FilmTitle` depending on the non-key attribute `FilmID` // naming this as a transitive dependency or a non-key dependency\n> \n> **1 mark** for creating a separate film table with a suitable name\n> \n> **1 mark** for `FILM(FilmID, FilmTitle)` with `FilmID` as the primary key\n> \n> **1 mark** for `FilmTitle` removed from `SCREENING` and `FilmID` retained there as a foreign key\n> \n> Accept any sensible name for the new table\n> \n> Do not accept `FilmID` also removed from `SCREENING`, because the link between a screening and its film would then be lost\n> \n> Do not accept `TICKET` named as the faulty table. `SeatCode` and `PricePaid` are recorded for each individual ticket, so both depend only on `TicketID`\n\n> **[exam-tip]**\n> When you split a transitive dependency out, the determining attribute stays behind as the foreign key and only the attributes it determines move. Here `FilmID` appears in both tables and `FilmTitle` appears in only one. Students who delete `FilmID` from `SCREENING` break the link and lose the last mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8BHcH8BmNdM2HTgG",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_75yBWQqnDs4X28rT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A college database contains the following table, which is in Second Normal Form (2NF).\n\n`STUDENT_RECORD(StudentID, FirstName, LastName, TutorID, TutorRoom)`\n\nThe primary key is `StudentID`. `TutorRoom` is the room in which a student's tutor teaches.\n\nExplain why the table `STUDENT_RECORD` is not in Third Normal Form (3NF).",
+     "solution_md": "`TutorRoom` depends on `TutorID`, because the room is decided by which tutor the student has. **[1]**\n\n`TutorID` is not the primary key. It is a non-key attribute. **[1]**\n\n`TutorRoom` therefore depends on another non-key attribute rather than only on `StudentID`. This is a transitive dependency, which is not allowed in 3NF. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying that `TutorRoom` depends on `TutorID`\n> \n> **1 mark** for stating that `TutorID` is a non-key attribute // `TutorID` is not the primary key\n> \n> **1 mark** for naming this as a transitive dependency // a non-key dependency, which 3NF does not allow\n> \n> Accept the dependency written as a chain, `StudentID` to `TutorID` to `TutorRoom`\n> \n> Do not accept \"`TutorRoom` is repeated for students who have the same tutor\" on its own, because that is the symptom rather than the reason\n> \n> Do not accept \"there is a partial dependency\", because the primary key is a single attribute so a partial dependency is impossible\n\n> **[exam-tip]**\n> The examined wording is \"explain why\", so a bare statement that the table is not in 3NF earns nothing. Trace the chain out loud: the primary key gives you the tutor, and the tutor gives you the room. Any time you can say A gives you B and B gives you C, and B is not a key, you have found a transitive dependency."
+    }
+   ]
+  },
+  {
+   "id": "qstn_c4c3nPW5dctZjtkk",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_CmgTH2N9XR2GX7WP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A college stores data about its students and courses in a relational database. The database designer says that every table in the database is now in Third Normal Form (3NF).\n\nDescribe **two** characteristics that each of these tables must have.",
+     "solution_md": "The table is in Second Normal Form (2NF), so there are no repeating groups and no partial dependencies. **[1]**\n\nEvery attribute depends only on the primary key and not on any other non-key attribute, so there are no transitive dependencies. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - No repeating groups of attributes // all data is atomic\n> - No partial key dependencies // every attribute is fully dependent on the whole primary key\n> - No non-key dependencies // no transitive dependencies // no attribute depends on another non-key attribute\n> \n> **[2 marks]**\n> \n> Accept \"the table is in 2NF\" for one mark\n> \n> Accept \"all attributes are fully dependent on the primary key and on no other attribute\" for the non-key dependencies point\n\n> **[exam-tip]**\n> Say \"and on no other attribute\". Students write \"every attribute depends on the primary key\" and stop, which is also true of a 2NF table, so it does not separate 3NF from 2NF. Make sure that extra clause is in your answer, because it is the only point that belongs to 3NF alone."
+    }
+   ]
+  },
+  {
+   "id": "qstn_XJByPgH7fzqQfGm3",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_FnGM3DJ4G2x4N32m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v3by4SFDxGTZgfwP"
+     ],
+     "part_tier": null,
+     "problem_md": "A logistics company uses a database that contains the following two tables. Both tables are in First Normal Form (1NF).\n\n`DELIVERY(DeliveryID, DriverID, DriverName, DeliveryDate)`\n\nThe primary key of `DELIVERY` is `DeliveryID`.\n\n`STOCK(WarehouseID, PartID, QuantityHeld, WarehouseCity)`\n\nThe primary key of `STOCK` is the composite key `WarehouseID` and `PartID`. `WarehouseCity` is the city in which the warehouse is located.\n\nExplain, for each table, whether it is in Second Normal Form (2NF).",
+     "solution_md": "`DELIVERY` is in 2NF. **[1]**\n\nIts primary key is the single attribute `DeliveryID`, so the key has no separate parts and no attribute can depend on only part of it. A partial dependency is only possible when the primary key is a composite key. **[1]**\n\n`STOCK` is not in 2NF. **[1]**\n\n`WarehouseCity` depends only on `WarehouseID`, which is part of the composite primary key. This is a partial dependency. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating that `DELIVERY` is in 2NF\n> \n> **1 mark** for the reason: its primary key is a single attribute, so there is no part of the key for an attribute to depend on // a partial dependency requires a composite primary key\n> \n> **1 mark** for stating that `STOCK` is not in 2NF\n> \n> **1 mark** for the reason: `WarehouseCity` depends on `WarehouseID` only, which is part of the composite primary key, so this is a partial dependency\n> \n> Accept \"a table in 1NF whose primary key is a single attribute is automatically in 2NF\"\n> \n> Do not accept `DELIVERY` judged as not in 2NF because `DriverName` depends on `DriverID`. That is a transitive dependency, so it breaks 3NF, not 2NF\n> \n> Do not accept `QuantityHeld` given as the faulty attribute in `STOCK`, because it depends on both `WarehouseID` and `PartID`\n\n> **[exam-tip]**\n> `DELIVERY` is designed to tempt you. `DriverName` really does sit in the wrong table, but the fault is a transitive dependency and this question asks about 2NF. Check the primary key first. If it is a single attribute and the table is in 1NF, it is in 2NF, and you can say so in one line."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RX3bpS34CBHYmT6y",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_jp56NjwqH6sY2w78",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v3by4SFDxGTZgfwP"
+     ],
+     "part_tier": null,
+     "problem_md": "A hotel database contains the following table, which is in First Normal Form (1NF).\n\n`ROOM_STAY(RoomNumber, StayDate, RoomType, GuestID)`\n\nThe primary key is the composite key `RoomNumber` and `StayDate`.\n\nSome sample data is shown.\n\n| RoomNumber | StayDate | RoomType | GuestID |\n|---|---|---|---|\n| 101 | 12/05/2025 | Double | G88 |\n| 101 | 13/05/2025 | Double | G88 |\n| 205 | 12/05/2025 | Single | G91 |\n\nExplain why the table `ROOM_STAY` is not in Second Normal Form (2NF).",
+     "solution_md": "The primary key is a composite key made up of `RoomNumber` and `StayDate`. **[1]**\n\n`RoomType` depends only on `RoomNumber`, because room 101 is a Double room whatever the date is. **[1]**\n\n`RoomType` therefore depends on only part of the primary key. This is a partial dependency, which is not allowed in 2NF. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying that the primary key is a composite key of `RoomNumber` and `StayDate`\n> \n> **1 mark** for `RoomType` depending only on `RoomNumber` // `RoomType` does not depend on `StayDate`\n> \n> **1 mark** for naming this as a partial dependency, which 2NF does not allow\n> \n> Accept the sample data used as evidence, for example that room 101 is Double on both dates\n> \n> Do not accept `GuestID` given as the faulty attribute, because which guest is in a room does depend on both the room number and the date\n> \n> Do not accept \"`RoomType` is repeated\" on its own, because repetition is the symptom and the partial dependency is the reason\n\n> **[exam-tip]**\n> Marks are given for the reason, not the symptom. Many students write only that Double appears twice, which earns nothing on its own. You must name the attribute, name the part of the key it depends on, and use the term partial dependency."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MnCKpjJwzh4x2b24",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_wk8wpFCc5dFGMvNx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v3by4SFDxGTZgfwP"
+     ],
+     "part_tier": null,
+     "problem_md": "State the two conditions that a database table must meet to be in Second Normal Form (2NF).",
+     "solution_md": "The table is already in First Normal Form (1NF). **[1]**\n\nEvery non-key attribute is fully dependent on the whole primary key, so there are no partial dependencies. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the table being in 1NF // there are no repeating groups // all data is atomic\n> \n> **1 mark** for every attribute being fully dependent on the whole primary key // there are no partial dependencies\n> \n> Accept \"no attribute depends on only part of a composite primary key\"\n> \n> Do not accept \"there are no transitive dependencies\", which is the extra condition for 3NF\n\n> **[exam-tip]**\n> Each normal form builds on the one before it, so a 2NF answer that never mentions 1NF is only half an answer. State the previous form first, then add the new condition. The second mark needs the words full dependency or partial dependency, not just \"the fields depend on the key\"."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kPmbfvngyrGrR7fg",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_FXM8VcPFp2KCsFd3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "An online shop stores data about its orders in the following table. The table is not normalised.\n\n| OrderID | OrderDate | ItemCode | Quantity |\n|---|---|---|---|\n| 5001 | 04/03/2025 | K12, K19 | 2, 1 |\n| 5002 | 06/03/2025 | K12 | 5 |\n| 5003 | 07/03/2025 | K07, K12, K19 | 1, 1, 3 |\n\nComplete the table below to show the same data in First Normal Form (1NF).\n\n| OrderID | OrderDate | ItemCode | Quantity |\n|---|---|---|---|\n| ................. | ................. | ................. | ................. |\n| ................. | ................. | ................. | ................. |\n| ................. | ................. | ................. | ................. |\n| ................. | ................. | ................. | ................. |\n| ................. | ................. | ................. | ................. |\n| ................. | ................. | ................. | ................. |\n\nState the primary key of the completed table.",
+     "solution_md": "| OrderID | OrderDate | ItemCode | Quantity |\n|---|---|---|---|\n| **5001** | **04/03/2025** | **K12** | **2** |\n| **5001** | **04/03/2025** | **K19** | **1** |\n| **5002** | **06/03/2025** | **K12** | **5** |\n| **5003** | **07/03/2025** | **K07** | **1** |\n| **5003** | **07/03/2025** | **K12** | **1** |\n| **5003** | **07/03/2025** | **K19** | **3** |\n\nOrder 5001 becomes two records, with quantity 2 for `K12` and quantity 1 for `K19`. **[1]**\n\nOrder 5003 becomes three records, with quantity 1 for `K07`, quantity 1 for `K12` and quantity 3 for `K19`. **[1]**\n\n`OrderDate` is repeated on every record that belongs to the same order. **[1]**\n\nThe primary key is the composite key `OrderID` and `ItemCode`. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for order 5001 split into two records, `K12` with quantity 2 and `K19` with quantity 1\n> \n> **1 mark** for order 5003 split into three records, `K07` with quantity 1, `K12` with quantity 1 and `K19` with quantity 3\n> \n> **1 mark** for `OrderDate` correctly repeated on every record belonging to the same order\n> \n> **1 mark** for a composite primary key of `OrderID` and `ItemCode`\n> \n> Accept the six records written in any order\n> \n> Do not accept `OrderID` alone as the primary key, because 5001 and 5003 now each appear on more than one record\n> \n> Do not accept a quantity matched to the wrong item code\n\n> **[exam-tip]**\n> The trap here is the `Quantity` column. It is a second repeating group and it must stay lined up with `ItemCode`, so `K19` on order 5003 takes quantity 3, not 1. Split both columns together, one pair per record. Then remember that once `OrderID` repeats down the rows it can no longer be the primary key on its own."
+    }
+   ]
+  },
+  {
+   "id": "qstn_QffcJxzpK8bSVHHq",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_s3PX52B7wZBM2gdq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports league uses a relational database with these two tables:\n\n`TEAM(TeamID, TeamName, HomeGround)`\n\n`PLAYER(PlayerID, PlayerName, TeamID)`\n\n`TeamID` in the table `PLAYER` is a foreign key that links to the primary key of the table `TEAM`.\n\nThe database enforces referential integrity.\n\nA user attempts each of these two operations:\n\n- add a new row to `PLAYER` with a `TeamID` of `T99`, when no row in `TEAM` has that `TeamID`\n- delete the row in `TEAM` with a `TeamID` of `T04`, when rows in `PLAYER` still have a `TeamID` of `T04`\n\nExplain what referential integrity means **and** how it deals with each of these two operations.",
+     "solution_md": "Referential integrity means that every value of a foreign key must match an existing primary key value in the related table. **[1]**\n\nThe first operation is refused, because there is no row in `TEAM` with a `TeamID` of `T99`, so the foreign key would point at data that does not exist. **[1]**\n\nThe second operation is refused while rows in `PLAYER` still hold a `TeamID` of `T04`. **[1]**\n\nIf the delete were allowed, those `PLAYER` rows would refer to a team that is no longer in the database. A cascade delete may be used instead, which removes the matching `PLAYER` rows at the same time. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for: every foreign key value must match a primary key value in the related table // data that does not exist cannot be referenced\n> \n> **1 mark** for: the new `PLAYER` row is rejected because `T99` is not a `TeamID` in `TEAM`\n> \n> **1 mark** for: the delete is rejected while `PLAYER` rows still reference `T04`\n> \n> **1 mark** for: otherwise those `PLAYER` rows would reference a team that does not exist // a cascade delete removes the matching `PLAYER` rows instead\n> \n> Accept `cascading update/delete` (a change or deletion in one table is reflected in all related rows) as part of the meaning of referential integrity for the first mark.\n> \n> Accept `cascading delete` as the credited outcome of the second operation, provided you say which rows are removed.\n> \n> Accept `record` or `tuple` for `row`.\n> \n> Do not accept `the database checks that the data is correct`. Referential integrity checks only that a foreign key value exists as a primary key value. Checking that a name or a date is sensible is validation, not referential integrity.\n\n> **[exam-tip]**\n> Referential integrity is a rule about **links**, not about values being sensible. It never checks that a player's name is spelled correctly. That is validation, and mixing the two is the commonest way to lose the first mark here.\n> \n> Say the words `foreign key` and `primary key` in the same sentence every time you write about it, because that pairing is what the mark scheme looks for. Note too that the delete case has two credited outcomes: the delete is refused, or it cascades and takes the linked rows with it. Either earns the mark as long as you say which one you mean."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sgTg2HG6RBDwngH2",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_tJ4zQr4stpKdTQyM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "A delivery company stores data in the following table. The table is not normalised.\n\n| CustomerID | CustomerName | DeliveryDates |\n|---|---|---|\n| C101 | Ana Silva | 04/03/2025, 11/03/2025 |\n| C102 | Wei Zhang | 06/03/2025 |\n| C103 | Priya Nair | 05/03/2025, 12/03/2025, 19/03/2025 |\n\nExplain how this table should be modified so that it is in First Normal Form (1NF).",
+     "solution_md": "`DeliveryDates` is a repeating group because one record holds more than one delivery date. **[1]**\n\nThe repeating group must be removed by storing one delivery date per record, so `CustomerID` and the customer's name are repeated on each of that customer's records. **[1]**\n\n`CustomerName` is not atomic, so it should be split into `FirstName` and `LastName`. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - Identify the repeating group ...\n> - ... `DeliveryDates` holds more than one value in a single record\n> - Remove the repeating group by storing one delivery date per record\n> - Ensure every attribute is atomic ...\n> - ... `CustomerName` should be split into `FirstName` and `LastName`\n> - Identify a primary key for the table, which must now be the composite key `CustomerID` and `DeliveryDate`\n> \n> **[3 marks]**\n> \n> Accept `DeliveryDates` renamed to `DeliveryDate` once it holds a single value\n> \n> Do not accept \"delete the extra dates\", because no data may be lost during normalisation\n> \n> Do not accept \"move the dates into a new table\", because that step is not needed to reach 1NF and the question asks only about this table\n\n> **[exam-tip]**\n> Students often jump straight to a full 3NF design and start creating new tables. This question stops at 1NF, so stay in one table: repeat the customer data down the rows and give each delivery date its own record. Also check the name column. An examiner will look for the point that `CustomerName` holds two items of data and is therefore not atomic."
+    }
+   ]
+  },
+  {
+   "id": "qstn_P3MSVR3DcFvcJFPy",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NNV4f635gYBfVsfk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by a database table being in First Normal Form (1NF).",
+     "solution_md": "The table contains no repeating groups of attributes, so every attribute in every record holds one single value. **[1]**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> **1 mark** for either of the following\n> \n> - There are no repeating groups of attributes\n> - Every attribute contains a single value // all data is atomic\n> \n> Accept \"each field holds only one item of data\"\n> \n> Do not accept \"there are no duplicate records\", because 1NF is about repeating groups within a record, not about repeated rows\n> \n> Do not accept \"there are no partial dependencies\", which is the condition for 2NF\n\n> **[exam-tip]**\n> The three normal forms are easy to mix up because the wording is similar. Tie each one to a single phrase and keep them separate: 1NF is repeating groups, 2NF is partial dependencies, 3NF is non-key dependencies. Writing the 2NF answer for a 1NF question is the most common way to lose this mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kVr8v8Rn5rBDvCCN",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_WZV4ZPvNwDPMNb8k",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "A college is designing a table `STUDENT` to store data about its students. The table has these fields:\n\n`STUDENT(StudentID, NationalIDNumber, EmailAddress, FirstName, LastName, DateOfBirth)`\n\nThe college has **not** yet chosen a primary key for this table.\n\n- Every student is given a `StudentID` that no other student has.\n- Every student has a `NationalIDNumber` that no other person has.\n- Every student has an `EmailAddress` that no other student has.\n- Two students may share a `FirstName`, a `LastName` or a `DateOfBirth`.\n\nIdentify **two** candidate keys in the table `STUDENT` **and** explain the difference between a candidate key and a primary key.",
+     "solution_md": "Two candidate keys are `StudentID` and `NationalIDNumber`. **[1]**\n\nA candidate key is an attribute, or the smallest set of attributes, whose value is different for every record, so it could be used as the primary key. A table can have several candidate keys. **[1]**\n\nThe primary key is the one candidate key that the designer chooses to identify each record. A table has exactly one primary key. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for naming any two of: `StudentID`, `NationalIDNumber`, `EmailAddress`\n> \n> **1 mark** for: a candidate key is a field or attribute, or the smallest set of fields, whose value is different for every record // no two tuples have the same value // it could be a primary key\n> \n> **1 mark** for: the primary key is the candidate key that is chosen // a table can have several candidate keys but only one primary key\n> \n> Accept `a field that could be a primary key but is not` for the second mark.\n> \n> Accept `unique` for `different for every record`.\n> \n> Do not accept `FirstName`, `LastName` or `DateOfBirth` as candidate keys. The question states that two students may share any of them, so none of them identifies a record uniquely.\n\n> **[exam-tip]**\n> Answers often say a candidate key is `a key that is not the primary key`. That is close, but it leaves out the part that earns the mark: its value must be different for every record, which is exactly what makes it a candidate in the first place.\n> \n> Before naming any candidate key, find the sentence in the question that tells you which fields are unique. A field is only a candidate key when no two records can share its value, which is why a name never qualifies."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3jq72TrPWpphDcrt",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_56QNXsNn27FTZwRs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "A language school wants a database to store data about its students, its courses and its enrolments.\n\n- Each student has a student number, a first name, a last name and one email address.\n- Each course has a course code, a language, a level and a fee. Two courses that teach the same language at the same level can have different fees.\n- A student can enrol on many courses. A course can have many students.\n- For each enrolment the school stores the date the student enrolled and the final grade.\n\nWrite a database design for this data. All tables must be in Third Normal Form (3NF).\n\nUse the format `TableName(PrimaryKey, Field1, Field2, ...)` and state the primary key and any foreign keys in each table.",
+     "solution_md": "`STUDENT(StudentNumber, FirstName, LastName, EmailAddress)` **[1]**\n\n`COURSE(CourseCode, Language, Level, Fee)` **[1]**\n\n`ENROLMENT(StudentNumber, CourseCode, EnrolDate, Grade)` **[1]**\n\nThe primary key of `STUDENT` is `StudentNumber` and the primary key of `COURSE` is `CourseCode`. **[1]**\n\nThe primary key of `ENROLMENT` is the composite key `StudentNumber` and `CourseCode`. Both of these are also foreign keys, linking to `STUDENT` and to `COURSE`. **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **Any five from:**\n> \n> - A student table with `StudentNumber` as the primary key\n> - ... containing `FirstName`, `LastName` and `EmailAddress`\n> - A course table with `CourseCode` as the primary key\n> - ... containing `Language`, `Level` and `Fee`\n> - A linking table with a suitable name for the enrolments\n> - ... containing `EnrolDate` and `Grade`\n> - ... with a composite primary key of `StudentNumber` and `CourseCode`, or a new single primary key such as `EnrolmentID`\n> - ... with `StudentNumber` and `CourseCode` both present as foreign keys\n> \n> **[5 marks]**\n> \n> Accept any sensible table names, for example `ENROLMENT`, `STUDENT_COURSE` or `REGISTRATION`\n> \n> Do not accept `Grade` or `EnrolDate` stored in `STUDENT` or in `COURSE`, because both depend on the student and the course together\n> \n> Do not accept a separate fee table keyed on `Level`, because the question states that two courses at the same level can have different fees, so `Fee` depends on `CourseCode` alone\n\n> **[exam-tip]**\n> Watch for the sentence that rules out a dependency you were about to invent. Students see `Level` and `Fee` in the same table and split the fee out into a table of its own, which loses a mark because the question says two courses at the same level can charge different fees. Read every line of the scenario before you decide what depends on what."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FM8fnbMbNHntqHzJ",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6YVhbtGQnrmYb283",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by each of the following terms in a relational database.\n\nSecondary key ...............................................................................................................\n\n.................................................................................................................................\n\nForeign key ....................................................................................................................\n\n.................................................................................................................................",
+     "solution_md": "Secondary key: an additional key, used as well as the primary key, to locate specific data. It is a candidate key that has not been chosen as the primary key. **[1]**\n\nForeign key: a field in one table that is linked to the primary key in another table. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for secondary key: an additional or alternative key used as well as the primary key to locate specific data // a candidate key that has not been chosen as the primary key\n> \n> **1 mark** for foreign key: a field in one table that is linked to a primary key in another table\n> \n> Accept `used to search or sort the table on a field other than the primary key` for the secondary key mark.\n> \n> Accept `attribute` for `field` throughout.\n> \n> Do not accept `a key in another table` on its own for foreign key. The answer must say that it links to a primary key.\n\n> **[exam-tip]**\n> These are the two keys you are most likely to swap. A foreign key points **out** of its table, at the primary key of another table, and is how two tables are joined. A secondary key stays **inside** its own table and is there so the table can be searched quickly on a field that is not the primary key.\n> \n> Use that as a check. If your answer for secondary key mentions a second table, you have described a foreign key and the mark is gone."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SpjSXxdjQSkXZ3s8",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_gy2SXpghVqBntNMn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "A driving school stores data about its instructors and the lessons it gives.\n\n- Each instructor has an instructor number, a first name, a last name and one mobile number.\n- Each lesson has a lesson number, a date and a start time.\n- Each lesson is given by exactly one instructor. An instructor gives many lessons.\n\nWrite a normalised database design for this data.\n\nUse the format `TableName(PrimaryKey, Field1, Field2, ...)` and state the primary key and any foreign keys in each table.",
+     "solution_md": "`INSTRUCTOR(InstructorNumber, FirstName, LastName, MobileNumber)` **[1]**\n\n`LESSON(LessonNumber, LessonDate, StartTime, InstructorNumber)` **[1]**\n\nThe primary key of `INSTRUCTOR` is `InstructorNumber` and the primary key of `LESSON` is `LessonNumber`. In `LESSON`, `InstructorNumber` is a foreign key that links to `INSTRUCTOR`. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for an instructor table with `InstructorNumber` as the primary key, containing `FirstName`, `LastName` and `MobileNumber`\n> \n> **1 mark** for a lesson table with `LessonNumber` as the primary key, containing `LessonDate` and `StartTime`\n> \n> **1 mark** for `InstructorNumber` appearing in the lesson table as a foreign key\n> \n> Accept any sensible table names\n> \n> Accept `TelephoneNumber` or `Mobile` in place of `MobileNumber`\n> \n> Do not accept the instructor's name or mobile number repeated inside the lesson table, because that data would then be stored more than once\n> \n> Do not accept `LessonNumber` placed in the instructor table, because an instructor gives many lessons\n\n> **[exam-tip]**\n> The most common error here is putting the foreign key at the wrong end of a one-to-many relationship. The foreign key always goes in the table on the many side, so `InstructorNumber` goes into `LESSON`. If you put `LessonNumber` into `INSTRUCTOR` you can only ever record one lesson per instructor."
+    }
+   ]
+  },
+  {
+   "id": "qstn_vvm4YgNDPb8k7Bk4",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xrxBk58M5MxRFx5j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d"
+     ],
+     "part_tier": null,
+     "problem_md": "A swimming club stores all of its data in one flat file table, `MEMBER`.\n\n| MemberID | MemberName | CoachName | CoachPhone |\n|---|---|---|---|\n| M101 | Amina Diallo | Ravi Menon | 555 0192 |\n| M102 | Chen Wei | Sofia Marek | 555 0140 |\n| M103 | Tomas Silva | Ravi Menon | 555 0192 |\n| M104 | Priya Nair | Ravi Menon | 555 0134 |\n\nThe club replaces the flat file with a relational database that has these two tables:\n\n`COACH(CoachID, CoachName, CoachPhone)`\n\n`MEMBER(MemberID, MemberName, CoachID)`\n\nIdentify the fault in the flat file table **and** explain how the relational design prevents this type of fault.",
+     "solution_md": "Ravi Menon is given two different telephone numbers: `555 0192` for members `M101` and `M103`, but `555 0134` for member `M104`. **[1]**\n\nThe coach's telephone number is stored once for every member the coach trains, so it is stored many times. One copy has been changed and the others have not, so the table is now inconsistent. **[1]**\n\nIn the relational design the coach's name and telephone number are stored only once, in the table `COACH`. **[1]**\n\nThe table `MEMBER` holds only `CoachID`, a foreign key that links to `COACH`, so there is a single telephone number for each coach and it cannot be entered differently for two members. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying that Ravi Menon is given two different telephone numbers in the table\n> \n> **1 mark** for: the coach's telephone number is stored more than once (data redundancy), so changing one copy leaves the others holding the old value\n> \n> **1 mark** for: in the relational design each coach's details are stored once only, in the table `COACH`\n> \n> **1 mark** for: `MEMBER` stores `CoachID` as a foreign key that links to `COACH`, so there is only one copy of the telephone number to change\n> \n> Accept naming the row `M104`, or quoting the value `555 0134`, as identification of the fault.\n> \n> Accept `data inconsistency` for the first mark only where the two differing values are also identified.\n> \n> Do not accept `the telephone number is wrong`. The table does not say which of the two numbers is correct. The fault is that the table gives two different values for one coach.\n\n> **[exam-tip]**\n> Read the data before writing anything. The first mark is for naming the two values that disagree, not for writing the word inconsistency.\n> \n> Keep the second half of the answer about **structure**. The relational design wins because the telephone number exists in exactly one place, so there is nothing to change twice. An answer that says a relational database is `better organised` or `more professional` earns nothing."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mz5tRmSBVjrDTRKc",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_mDQ6gg6hdRsnpx2N",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports club stores data about its members and the events it organises.\n\nTwo tables in the club's database are:\n\n`MEMBER(MemberID, FirstName, LastName, DateJoined)`\n\n`EVENT(EventID, EventName, EventDate)`\n\nA member can enter many events. An event can be entered by many members. The club also records the position each member finished in each event.\n\nGive the definition of the one additional table that is needed so that the design is normalised.\n\nUse the format `TableName(PrimaryKey, Field1, Field2, ...)` and state the primary key and any foreign keys of your table.",
+     "solution_md": "`MEMBER_EVENT(MemberID, EventID, Position)` **[1]**\n\nThe primary key is the composite key `MemberID` and `EventID`. `MemberID` is a foreign key that links to `MEMBER` and `EventID` is a foreign key that links to `EVENT`. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a linking table with a suitable name that contains `MemberID` and `EventID`\n> \n> **1 mark** for placing `Position` in that linking table and identifying the composite primary key `MemberID` and `EventID`\n> \n> Accept any sensible table name, for example `ENTRY`, `RESULT` or `EVENT_MEMBER`\n> \n> Accept a new single attribute such as `EntryID` as the primary key, provided `MemberID` and `EventID` are both still present as foreign keys\n> \n> Do not accept `Position` placed in `MEMBER` or in `EVENT`, because a member has a different position in each event\n> \n> Do not accept a design that adds `EventID` to `MEMBER`, because a member enters more than one event\n\n> **[exam-tip]**\n> Students usually remember to create the linking table but then leave `Position` out of it, or park it in `MEMBER`. Ask yourself which key the attribute actually depends on. `Position` is only meaningful once you know both the member and the event, so it belongs in the table whose primary key is both of them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FTTfznC78CyRCWSf",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_MtFTdKkGjjgY7zzZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d"
+     ],
+     "part_tier": null,
+     "problem_md": "The table gives three statements about databases.\n\nComplete the table by placing **one** tick in each row to show whether the statement is true of a flat file database or of a relational database.\n\n| Statement | Flat file database | Relational database |\n|---|---|---|\n| All of the data is stored in a single table. |   |   |\n| Data is split between several tables that are linked by a foreign key. |   |   |\n| A user can be given a view that shows only some of the data. |   |   |",
+     "solution_md": "| Statement | Flat file database | Relational database |\n|---|---|---|\n| All of the data is stored in a single table. | **✓** |   |\n| Data is split between several tables that are linked by a foreign key. |   | **✓** |\n| A user can be given a view that shows only some of the data. |   | **✓** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a tick in the Flat file database column for `All of the data is stored in a single table.`\n> \n> **1 mark** for a tick in the Relational database column for `Data is split between several tables that are linked by a foreign key.`\n> \n> **1 mark** for a tick in the Relational database column for `A user can be given a view that shows only some of the data.`\n> \n> Do not award a mark for a row that has a tick in both columns.\n> \n> Do not accept a cross or a written `yes` in place of a tick, unless you have marked no other box in that row.\n\n> **[exam-tip]**\n> The third row is the one that is missed. Views are a relational feature: because the data sits in linked tables, a user can be shown one table, or only a few fields, and nothing else. In a flat file there is a single table, so limiting what somebody sees is far harder.\n> \n> One tick per row. A row ticked twice earns nothing, even when one of the two ticks is right."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rnwf6pvYqk8zCvKv",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ZxgGzh7tJPxkyM2V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports club stores all of its data in one flat file database.\n\n(i) State what is meant by a flat file database.\n\n.................................................................................................................................\n\n(ii) State **one** problem that storing the data in this way causes for the club.\n\n.................................................................................................................................",
+     "solution_md": "(i) A flat file database stores all of its data in a single table, with no links to any other table. **[1]**\n\n(ii) The same data is stored many times, which is data redundancy. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for: all of the data is held in one single table // there is only one table, so no tables are linked\n> \n> **1 mark** for any one problem: data redundancy // data duplication; data inconsistency // poor data integrity; program-data dependence; complex queries are difficult; user views cannot easily be provided\n> \n> Accept \"one big table\" for the first mark.\n> \n> Do not accept \"a database saved as a text file\" for the first mark. The word flat describes the single-table structure, not the type of file the data is saved in.\n\n> **[exam-tip]**\n> Flat describes the shape of the data, not the file format. A flat file database can be a spreadsheet, a text file or one table inside database software. What makes it flat is that there is one table and nothing is linked to anything else.\n> \n> Write \"one single table\" and the first mark is safe. Answers that only say \"it is simple\" or \"it is stored in one place\" are too vague to credit."
+    }
+   ]
+  },
+  {
+   "id": "qstn_G9x5kDBnTb5dFVxj",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_GdTx8m3TvCvvY35b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "A bus company stores data about its journeys using a file-based approach. Each journey is held in a data file as a record with a fixed structure. A separate program is used to produce each of the reports the company needs.\n\nThe company now wants to do both of the following:\n\n- add a new data item to each journey record, to store the number of passengers carried\n- answer a one-off question about how many journeys ran late on one particular day\n\nExplain **two** further limitations of the file-based approach that these two requirements show.\n\nGive the limitation and explain it in each case.",
+     "solution_md": "There is program-data dependence. **[1]**\n\nAdding the passenger count changes the structure of the journey record, so every program that reads the file has to be re-written before it will work again. **[1]**\n\nComplex queries are difficult to carry out. **[1]**\n\nNo existing program answers the question about late journeys, so a new program has to be written for this one-off search. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for naming program-data dependence // the programs depend on the structure of the data\n> \n> **1 mark** for: a change to the record structure means the programs that access the file must be re-written\n> \n> **1 mark** for naming that complex queries or searches are difficult\n> \n> **1 mark** for: a new program has to be written for each new search or report\n> \n> Accept `the software has to be changed whenever the file layout changes` for the second mark.\n> \n> Accept `ad hoc query` or `one-off query` as a way of naming the third mark.\n> \n> Do not accept `the file would get too big` or `the data would be lost`. Neither follows from adding a field or from running a one-off search.\n\n> **[exam-tip]**\n> Each pair of marks depends on the naming mark being about the right thing. Program-data dependence is about the **structure** of the file, not about the values in it. The programs break because the record layout changed, not because a number changed.\n> \n> The query limitation is also easy to overstate. The one-off search is not impossible. The point is that somebody has to write a whole new program to do it, which is slow and expensive."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mTd8bXD5JMnpFVFj",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_V6KGts6ht3Qm4ypW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "A medical clinic stores its data using a file-based approach.\n\n- The reception desk keeps an appointments file. It holds each patient's name, telephone number and appointment time.\n- The nursing team keeps a separate treatments file. It also holds each patient's name and telephone number.\n\nA patient tells the reception desk that they have a new telephone number. The receptionist changes the number in the appointments file.\n\nExplain why the file-based approach has now caused data inconsistency.",
+     "solution_md": "The patient's telephone number is stored in two separate files, so the same data item is held more than once. **[1]**\n\nThe receptionist has changed the number in the appointments file only, so the treatments file still holds the old number. **[1]**\n\nThe two files now give different values for the same patient, so the clinic cannot tell which number is correct and the data can no longer be relied on. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the telephone number being stored in more than one file // data redundancy // data duplication\n> \n> **1 mark** for the change being made in one file only, so the other file keeps the old value\n> \n> **1 mark** for the two files now holding different values for the same patient // the data is no longer accurate // data integrity is lost\n> \n> Accept \"a nurse would ring the old number\" for the third mark, because it states the consequence of the two files disagreeing.\n> \n> Accept \"cannot be trusted\" for \"cannot be relied on\".\n> \n> Do not accept \"the receptionist made a mistake\". The receptionist did exactly what was asked. The fault is the file-based design that holds the same number twice.\n\n> **[exam-tip]**\n> Most answers stop at \"the data is duplicated\". Duplication on its own is redundancy, not inconsistency. Inconsistency is what happens next: one copy is changed, the other is not, and the two copies now disagree.\n> \n> Write all three steps every time. Stored twice, changed once, now different. An answer that skips the middle step almost always loses a mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_g3v79WcgQqFfV6yJ",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_N3nQtXJ9hFkphRJ4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "A driving school stores its data using a file-based approach.\n\nThe office keeps a file of learner details, including each learner's name and telephone number.\n\nEach instructor keeps a separate file of the lessons they have taught. This file also holds each learner's name and telephone number.\n\nIdentify **two** limitations of storing the data in this way.\n\n1 .............................................................................................................................\n\n2 .............................................................................................................................",
+     "solution_md": "Data redundancy: a learner's name and telephone number are stored in the office file and again in each instructor's file. **[1]**\n\nData inconsistency: if a learner changes telephone number and only one file is updated, the files no longer agree. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - Data redundancy // data duplication // the same data is stored more than once\n> - Data inconsistency // poor data integrity // data changed in one file is not changed in the others\n> - Program-data dependence // a change to the structure of a file means the programs that read it must be re-written\n> - Complex queries are difficult // a new program has to be written for each new search\n> - Lack of privacy // user views cannot easily be provided\n> \n> **[2 marks]**\n> \n> Accept `data duplication` for data redundancy, and `the same data is stored many times`.\n> \n> Do not accept `data redundancy` and `data duplication` given as two separate answers. They are the same point written twice and earn one mark, not two.\n\n> **[exam-tip]**\n> Two answers that mean the same thing earn one mark between them. `Data redundancy` and `data duplication` are one point, and so are `data inconsistency` and `the files do not match`. Choose two limitations from different lines of the list.\n> \n> It also pays to say where the duplicated data actually is in the scenario. A limitation written with the learner's telephone number in it is easier to credit than one copied straight from a textbook."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fC2HWKmVzR9Pbmmj",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_BKQwGVtvBjF4kqNm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A conference organiser uses a relational database to store data about the speakers, the sessions and the delegates who attend the conference.\n\n- Each session is given by one speaker. A speaker can give many sessions.\n- Each session takes place in one room. A room is used for many sessions.\n- A delegate can attend many sessions. A session can be attended by many delegates.\n\nThe organiser wants a design in which **no** relationship is many-to-many, so one extra entity must be added.\n\nComplete the entity-relationship (E-R) table for this design.\n\nRead each row from left to right. Choose a suitable name for the entity that you add and write that same name in **both** empty entity cells.\n\n| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| SPEAKER | gives | ................................ | SESSION |\n| ROOM | is used for | ................................ | SESSION |\n| DELEGATE | makes | ................................ | ................................ |\n| ................................ | is for | ................................ | SESSION |",
+     "solution_md": "| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| SPEAKER | gives | **one-to-many** | SESSION |\n| ROOM | is used for | **one-to-many** | SESSION |\n| DELEGATE | makes | **one-to-many** | **ATTENDANCE** |\n| **ATTENDANCE** | is for | **many-to-one** | SESSION |\n\nOne speaker gives many sessions and each session has one speaker, so `SPEAKER` to `SESSION` is one-to-many. **[1]**\n\nOne room is used for many sessions and each session uses one room, so `ROOM` to `SESSION` is one-to-many. **[1]**\n\nThe many-to-many between `DELEGATE` and `SESSION` is replaced by a linking entity, `ATTENDANCE`, which holds one row for each session that a delegate attends. **[1]**\n\nOne delegate makes many `ATTENDANCE` rows, so that row is one-to-many, and many `ATTENDANCE` rows are for the same session, so read from left to right the last row is many-to-one. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SPEAKER` to `SESSION` is one-to-many\n> \n> **1 mark** for `ROOM` to `SESSION` is one-to-many\n> \n> **1 mark** for the same suitably named linking entity written in both empty entity cells\n> \n> **1 mark** for `DELEGATE` to the linking entity being one-to-many **and** the linking entity to `SESSION` being many-to-one\n> \n> Accept any suitable name for the linking entity, for example `ATTENDANCE`, `BOOKING`, `SESSION_DELEGATE` or `DELEGATE_SESSION`\n> \n> Accept `1:M` and `1 to many` for one-to-many, and `M:1` and `many to 1` for many-to-one\n> \n> Do not accept many-to-many anywhere in the completed table. The design must not contain one, which is the reason the extra entity is added\n> \n> Do not accept two different names in the two empty entity cells. Both cells name the same entity\n> \n> Do not accept one-to-many in the final row. Many rows of the linking entity are for the same session, so from left to right the degree is many-to-one\n\n> **[exam-tip]**\n> A many-to-many relationship is not left in a finished design. It is replaced by a linking entity that sits between the two original entities, and it becomes two relationships: one-to-many from the first entity into the linking entity, and many-to-one from the linking entity into the second.\n> \n> Two marks are commonly lost here. The first goes to students who invent two names, such as `BOOKING` in one cell and `ATTENDANCE` in the other, which describes six entities rather than five. The second goes to students who write one-to-many in the last row out of habit. Check the direction of every row by asking which side of it can appear many times."
+    }
+   ]
+  },
+  {
+   "id": "qstn_YMPhzjvZmtkZV9mZ",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_SRKryrYKs5yDBWRR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports centre uses a relational database to store data about its coaches, its members and the fitness classes that it runs.\n\n- Each fitness class is led by one coach. A coach can lead many fitness classes.\n- Each coach has one set of login details for the computer system at the centre. Each set of login details belongs to one coach.\n- A member can book many fitness classes. A fitness class can be booked by many members.\n\nComplete the entity-relationship (E-R) table by writing the degree of each relationship.\n\n| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| COACH | leads | ................................ | CLASS |\n| COACH | has | ................................ | COACH_LOGIN |\n| MEMBER | books | ................................ | CLASS |",
+     "solution_md": "| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| COACH | leads | **one-to-many** | CLASS |\n| COACH | has | **one-to-one** | COACH_LOGIN |\n| MEMBER | books | **many-to-many** | CLASS |\n\nA coach leads many classes, but each class has only one coach, so `COACH` to `CLASS` is one-to-many. **[1]**\n\nA coach has one set of login details and a set of login details belongs to one coach, so `COACH` to `COACH_LOGIN` is one-to-one. **[1]**\n\nA member books many classes and a class is booked by many members, so `MEMBER` to `CLASS` is many-to-many. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `COACH` to `CLASS` is one-to-many\n> \n> **1 mark** for `COACH` to `COACH_LOGIN` is one-to-one\n> \n> **1 mark** for `MEMBER` to `CLASS` is many-to-many\n> \n> Accept `1:M`, `1:many` and `1 to many` for one-to-many\n> \n> Accept `1:1` and `1 to 1` for one-to-one\n> \n> Accept `M:M`, `M:N` and `many to many` for many-to-many\n> \n> Do not accept one-to-many for `MEMBER` to `CLASS`. Both directions are many, because one class is booked by many members as well as one member booking many classes\n> \n> Do not accept many-to-one for `COACH` to `CLASS`. Each row is read from left to right, and one coach leads many classes\n\n> **[exam-tip]**\n> The many-to-many is the row students lose. Reading only \"a member books many classes\" gives one-to-many, and the answer looks finished. You have to read the second sentence as well: a class is also booked by many members, and it is the two answers together that make the relationship many-to-many.\n> \n> Watch the direction as well. Each row is read from left to right, so `COACH` to `CLASS` is one-to-many, not many-to-one. Writing the two halves in the wrong order describes a different relationship and does not earn the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3GTTPTv9BTBcQXfM",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_c4zXKHqMqfvTFbRB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A college library uses a relational database to store data about its members and the books they borrow.\n\nThe database design includes these tables:\n\n`MEMBER(MemberID, FirstName, LastName, YearGroup)`\n\n`MEMBER_CARD(CardNumber, MemberID, DateIssued)`\n\n`LOAN(LoanID, MemberID, BookCopyID, DateBorrowed)`\n\nEach member is given exactly one library card. Each library card belongs to exactly one member.\n\nA member can make many loans. Each loan is made by one member.\n\nComplete the entity-relationship (E-R) table by writing the degree of each relationship.\n\n| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| MEMBER | is given | ................................ | MEMBER_CARD |\n| MEMBER | makes | ................................ | LOAN |",
+     "solution_md": "| First entity | Relationship | Degree of relationship | Second entity |\n|---|---|---|---|\n| MEMBER | is given | **one-to-one** | MEMBER_CARD |\n| MEMBER | makes | **one-to-many** | LOAN |\n\nOne member is given one card, and one card belongs to one member, so the first relationship is one-to-one. **[1]**\n\nOne member can make many loans, but each loan belongs to one member only, so the second relationship is one-to-many. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `MEMBER` to `MEMBER_CARD` is one-to-one\n> \n> **1 mark** for `MEMBER` to `LOAN` is one-to-many\n> \n> Accept `1:1` and `1 to 1` for one-to-one\n> \n> Accept `1:M`, `1:many` and `1 to many` for one-to-many\n> \n> Do not accept one-to-many for `MEMBER` to `MEMBER_CARD`. Each member is given exactly one card, so only one row of `MEMBER_CARD` can ever match a member\n> \n> Do not accept many-to-many for `MEMBER` to `LOAN`. Each loan is made by one member only\n\n> **[exam-tip]**\n> Check every relationship in both directions before you write anything down. For the first row, ask \"how many cards does one member have?\" and then ask \"how many members does one card belong to?\" The relationship is only one-to-one when both answers are one.\n> \n> Do not decide the answer from the table definitions alone. `MemberID` appears as a foreign key in `MEMBER_CARD` and in `LOAN`, so the two tables look the same in the definitions, yet the two relationships have different degrees. The sentences in the question are what tell you which is which."
+    }
+   ]
+  },
+  {
+   "id": "qstn_m72zqS9XhCx5tQyj",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_k8ZKT8SHBSKHmtMD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "bi"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "The company uses a database, `COURSES`, to store data about the courses and their tutors.\n\nEach course starts at different times of the year and may have a different tutor. The database has the following structure:\n\n`COURSE_INFORMATION(CourseID, Description, Cost) `\n\n`TUTOR(TutorID, TelephoneNumber, EmailAddress, TutorName) `\n\n`COURSE_SCHEDULE(CourseID, DateStarted, TutorID) `\n\nComplete the entity‑relationship (E‑R) diagram for the database `COURSES`.\n\n![Diagram with three boxes: \"COURSE_SCHEDULE\", \"TUTOR\", and \"COURSE_INFORMATION\", positioned in a triangular layout.](assets/001-diagram-with-three-boxes-course-schedule-tutor-a.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for both 1:M relationships as follows:\n> \n> ![Diagram showing \"COURSE_SCHEDULE\" linked to \"TUTOR\" and \"COURSE_INFORMATION\" with arrows indicating relationships between the boxes.](assets/002-diagram-showing-course-schedule-linked-to-tutor-.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_d5wH8zFxp95VvNfZ",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_mJKkMxbnxrSwckhP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by the following terms in a relational database model.\n\nEntity .......................................................................................................................\n\nPrimary key ..............................................................................................................\n\nReferential integrity .............................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each term (**max 3**)\n> \n> Entity:\n> \n> - An object about which data can be stored\n> \n> Primary key:\n> \n> - The **unique** attribute / combination of attributes used to identify the **record / tuple **\n> \n> Referential integrity:\n> \n> - Makes sure that if data is changed in one place the change is reflected in all related records - cascading update/delete\n> - Makes sure that data that does not exist cannot be referenced\n> - Ensures that every foreign key has a **corresponding** primary key // A logical dependency of a foreign key on a primary key\n> - Ensures that the data in the database is consistent / up to date\n> - Prevents records from being added/deleted/modified incorrectly\n> - Makes sure any queries return accurate and complete results"
+    },
+    {
+     "id": "qstnprt_QdNxWdYqskvsmBXR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "The following database table is not normalised.\n\n| **StudentName** | **DateOfBirth** | **TutorGroup** | **Subject** | **SubjectCode** |\n|---|---|---|---|---|\n| Yuwei Chen | 01/09/2004 | SMH | English, Maths, Computer Science | EN, MA, CS |\n| Claudia Raj | 23/02/2005 | JMB | Maths, Physics, Art | MA, PY, AR |\n| Aamil Akram | 24/01/2005 | KMB | Art, Design, English language | AR, DE, EN |\n| Areeba Faraz | 21/12/2004 | SMH | English language, Chemistry, Design | EN, CH, DE |\n\nExplain how to modify the table to put it into First Normal Form (1NF).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> - Identify repeating groups of attributes ...\n> - ... Subject and SubjectCode\n> - Ensure each field is atomic\n> - ... StudentName should be split into e.g. FirstName and LastName\n> - Identify the primary key for the table"
+    }
+   ]
+  },
+  {
+   "id": "qstn_y2C5V54PgZm6Ws3r",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_c9Mnc6DYc7nYpTsy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop manager has designed a relational database to store customer orders.\n\nThe database will have the following tables:\n\n`CUSTOMER(CustomerID, FirstName, LastName, Town) `\n\n`SHOP_ORDER(OrderNo, CustomerID, OrderDate) `\n\n`SUPPLIER(SupplierID, EmailAddress, TelephoneNumber) `\n\n`ITEM(ItemNumber, SupplierID, Description, Price) `\n\n`ORDER_ITEM(ItemNumber, OrderNo, Quantity)`\n\nComplete the entity-relationship (E-R) diagram for the relational database.\n\n![Flowchart with five boxes labelled: SHOP_ORDER, CUSTOMER, ORDER_ITEM, SUPPLIER, ITEM, arranged in a circular layout.](assets/003-flowchart-with-five-boxes-labelled-shop-order-cu.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct relationship or relationships\n> \n> - 1:M between CUSTOMER and SHOP_ORDER\n> - 1:M between SUPPLIER and ITEM\n> - 1:M between SHOP_ORDER and ORDER_ITEM **and** M:1 between ORDER_ITEM and ITEM\n> \n> ![Diagram showing relationships: SHOP_ORDER to CUSTOMER, ORDER_ITEM to SHOP_ORDER and ITEM, ITEM to SUPPLIER, forming an interconnected system.](assets/004-diagram-showing-relationships-shop-order-to-cust.png)"
+    },
+    {
+     "id": "qstnprt_Ch4F6jRznSvZShyY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d",
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify three advantages of a relational database compared to a file-based approach.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point **(max 3) **\n> \n> - Reduced data **redundancy **\n> - Improved data integrity / consistency / referential integrity\n> - Allows for views / improved privacy\n> - Allows for program-data independence\n> - Complex queries can be executed"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TJQzbsZkTH2JfKkv",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_kqFkGwB6fK8R3Zn8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A theatre wants to use a database to store data about the shows that are scheduled, their customers and the seats that the customers have booked.\n\nIn the theatre:\n\n- Each show can take place on multiple dates.\n- Some dates can have more than one performance.\n- There are multiple rows of seats.\n- Each seat can be individually booked by its row letter and seat number, for example row E seat 2.\n\nPart of the database design includes these tables:\n\n`SHOW(ShowID, Title, Duration) `\n\n`SEAT(SeatID, RowLetter, SeatNumber) `\n\n`PERFORMANCE(PerformanceID, ShowID, ShowDate, StartTime) `\n\nIdentify the relationship between the tables `PERFORMANCE` and `SHOW`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> many to 1 // there are many performances of each show"
+    },
+    {
+     "id": "qstnprt_s9JFXDKJmjP6sPJz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "Customers give their first name, last name and email address when they are making a booking. One booking can include multiple seats.\n\nDescribe the additional tables that will need to be included in the database **and** explain how these tables will be linked within the database.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 5**:\n> \n> e.g.\n> \n> - CUSTOMER table identified with suitable Primary Key and appropriate name\n> - … and other suitable fields including name and email\n> - BOOKING TABLE identified with suitable Primary Key and appropriate name\n> - … that stores the Primary Key of the CUSTOMER table as a Foreign Key to join with CUSTOMER table\n> - … and stores the Primary Key of the PERFORMANCE table as a Foreign Key to join with PERFORMANCE table\n> - A linking table between Table 2 and SEAT with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of Table 2 as a Foreign Key to join with Table 2\n> - … that stores the SeatID."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DjDb9Q5txd3Zvv5Q",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_ffdzTqsgF3PsBJx4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "An assessment board wants to store the marks students achieved in exams in a database named `RECORDS`.\n\nPart of the database design includes these two tables:\n\n`EXAM(ExamID, Subject, Level, TotalMarks) `\n\n`EXAM_QUESTION(ExamQuestionID, ExamID, QuestionNumber, Question, MaxMark)`\n\nIdentify the relationship between `EXAM` and `EXAM_QUESTION`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> 1-to-many"
+    },
+    {
+     "id": "qstnprt_bxZpZXkFDJsfvr5B",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "The database also needs to store data about the students, the exams the students have taken and the marks the students achieved in each question of each exam.\n\nDescribe the additional tables that will need to be included in the database **and** explain how all the tables in the database will be linked.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 5**:\n> \n> - STUDENT table identified with suitable Primary Key\n> - A linking table between STUDENT and EXAM with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of the STUDENT table as a Foreign Key to join with STUDENT\n> - ... and includes the Primary Key of the EXAM table as a Foreign Key to join with EXAM\n> - A linking table between STUDENT and EXAM_QUESTION with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of Table 2 as a Foreign Key to join with Table 2\n> - … that stores the ExamQuestionID and the mark for that question"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jnvSd3Gp5SQHVNgM",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_qcvP66ppgMGxngcf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN",
+      "spcpt_nt6wCsbXQScDX5S8",
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "A company is developing a website that will allow users to create an account and then play a quiz every day. The data about the users and the quizzes are stored in a database.\n\nA user must select a unique username and enter a valid email address to create an account. All users must be over the age of 16. A new quiz is given to the users every day. Each quiz is stored in its own text file.\n\nThe database stores the filename of each quiz and the date it can be played. The user gets a score for each quiz they complete, which is stored in the database. The scores are used to give each user a rating, for example Gold.\n\nCreate a 3-table design for this database normalised to Third Normal Form (3NF).\n\nGive your table design in the format:\n\n`TableName(PrimaryKey, Field1, Field2, …)`",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each:\n> \n> - User table with the username as the Primary Key\n> - … containing at least email address, date of birth / age and rating\n> - Quiz table with Quiz ID or date or file name as the Primary Key.\n> - … containing at least the other field(s) not used as the PK\n> - A joining table with an appropriate name including at least fields for user identification, quiz identification and score\n> - … with an appropriate Primary Key\n> - ... and Foreign Keys matching the Primary Keys of the other two tables\n> \n> `USER(Username, Email, DateOfBirth, Rating) `\n> `QUIZ(QuizID, Date, Filename)  `\n> `USER_QUIZ(Username, QuizID, Score)`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PnFjk7TwKXNjW4Yq",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_KGvr6vJBY2kjYjRD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "A company makes ice cream and sells it to shops.\n\nThe ice cream is made in batches: a large quantity of one type and flavour of ice cream that is then split into smaller quantities for sale.\n\nThe company’s owner has designed a relational database, `ICECREAM`, to store data about their ice cream and customers.\n\nSome of the tables in the database are given. The database is not normalised.\n\n`BATCH(BatchID, Type, Flavour, Size, SellingPrice, EndDate) `\n\n`CUSTOMER(CustomerID, CompanyName, EmailAddress, TelephoneNumber) `\n\n`SALE(SaleID, BatchID, CustomerID, Quantity, Date)`\n\nIdentify **two** foreign keys in the table `SALE` **and** the table that each foreign key references.\n\nForeign key 1 ........................................................................................\n\nTable name 1 .........................................................................................\n\nForeign key 2 ........................................................................................\n\nTable name 2........................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> - Foreign key: `BatchID`, table `BATCH `\n> - Foreign key: `CustomerID`, table `CUSTOMER`"
+    },
+    {
+     "id": "qstnprt_NDsmNhDP2Jd5xXnS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "cii"
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN",
+      "spcpt_v3by4SFDxGTZgfwP",
+      "spcpt_jw3J5d9XNpWJcJDM",
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "The table `BATCH` is not normalised.\n\nNormalise the database table `BATCH`.\n\nWrite the table definitions for your new tables.\n\nIdentify any primary and foreign keys in your tables.\n\nDo **not** change or include the tables `CUSTOMER` and `SALE`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point each (max 4)\n> \n> e.g.\n> \n> - Ice cream table with an appropriate name\n> - … containing type, flavour, size, selling price\n> - … with suitable primary key\n> - … foreign key identified in BATCH that links to the primary key in `ICECREAM `\n> \n> Example table definitions – not example answer:\n> \n> `BATCH(BatchID, IceCreamID, EndDate) `\n> `ICE_CREAM(IceCreamID, Type, Flavour, Size, SellingPrice)`"
+    },
+    {
+     "id": "qstnprt_MG43sYYwxbx5QX8z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by defining each database term.\n\n| **Database term** | **Definition** |\n|---|---|\n| Entity | ....................................................... |\n| Attribute | ....................................................... |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each definition\n> \n> Entity:\n> \n> - A real-life object that is represented as a table\n> \n> Attribute:\n> \n> - An item of data about an entity"
+    }
+   ]
+  },
+  {
+   "id": "qstn_P6Hhf8JKxTrXsxVm",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_SzdKzns2t4WvX5xp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d",
+      "spcpt_P787CgxNkKFMC6Sx",
+      "spcpt_bxsBsBSGhJ5VdwYJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A company uses a relational database to store data about its customers, employees and the individual repair jobs that customers have booked.\n\nExplain the benefits of using a relational database instead of a file-based approach.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 3 **\n> \n> e.g.\n> \n> - There is reduced data redundancy // less repeated data\n> - … because each item of data is only stored once\n> - Data consistency is maintained // Data integrity is improved\n> - … changes in one table will automatically update in another\n> - ... linked data cannot be entered differently in two tables\n> - Program-data independence is ensured\n> - … changes to the data do not require programs to be re-written // queries are not dependent on the structure of the data\n> - Complex queries are easier to run\n> - Different views can be provided\n> - …. so users can only see specific aspects of the database\n> - Multiple concurrent access is possible\n> - ... through record locking"
+    },
+    {
+     "id": "qstnprt_WxnkVcN5gj3GhK3J",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd",
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "The company decides which employees will work on each repair job. An employee can log into the database to access information about their repair jobs.\n\nThe database is normalised and includes these tables:\n\n- ` CUSTOMER` stores personal data about each customer\n- `EMPLOYEE `stores personal data about each employee\n- `LOGIN_DATA` stores the username and password for each employee\n- `JOB` stores the data about each repair job\n- `JOB_EMPLOYEE `stores the employees that are working on each repair job.\n\nIdentify each relationship between the database tables **and** explain how each relationship can be implemented in the normalised database.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 6**\n> \n> - `CUSTOMER `to `JOB `is 1 to many\n> - … implemented by Primary Key in `CUSTOMER` is Foreign Key in `JOB  `\n> - `EMPLOYEE` to `LOGIN_DATA` is 1 to 1\n> - … implemented by Primary Key in `EMPLOYEE `is Foreign Key in `LOGIN_DATA `\n> - `JOB` to `JOB_EMPLOYEE` is 1 to many\n> - … implemented by Primary Key in `JOB `is Foreign Key in `JOB_EMPLOYEE `\n> - `EMPLOYEE` to `JOB_EMPLOYEE` is 1 to many\n> - … implemented by Primary Key in `EMPLOYEE` is Foreign Key in `JOB_EMPLOYEE`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Cxnn6mGmfCPgJ3x4",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_kjgZmw7cYyJMYGxd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop repairs electronic devices, for example mobile phones and tablet computers. The shop owner stores the data about the repairs using a file-based approach.\n\nGive **one** limitation of using a file-based approach to store the data **and** explain how a relational database addresses this limitation.\n\nLimitation.......................................................................................................\n\nExplanation.....................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for limitation and 2 marks for corresponding explanation\n> \n> e.g.\n> \n> Data redundancy // data duplication\n> \n> - Separate linked tables are used\n> - Data items are stored once so reduces data duplication / data redundancy\n> \n> Data inconsistency / Poor data integrity\n> \n> - Data changed once in one place will automatically update elsewhere\n> - Linked data cannot be entered differently in two tables\n> - Referential integrity can be enforced\n> \n> The data structure used depends on the application\n> \n> - Changes to the data structure are managed by the DBMS\n> - … and queries are not dependent on the structure of the data\n> - … and changes to the data do not require programs to be re-written"
+    },
+    {
+     "id": "qstnprt_d2g2fssJnP24WM4Y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "bi"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "The shop owner creates a relational database called `FIXIT`.\n\nThe database stores data about the customers and the devices for repair.\n\nSome devices need new parts that are ordered from suppliers.\n\nThe database `FIXIT `is designed to include the following tables:\n\n`PART(PartID, Description, Price, SupplierID) `\n\n`CUSTOMER(CustomerID, FirstName, LastName, ContactNumber) `\n\n`REPAIR(RepairNumber, StartDate, EndDate, CustomerID, Device) `\n\n`REPAIR_PART(PartID, RepairNumber, Quantity)`\n\nComplete the entity-relationship (E-R) diagram for the given tables.\n\n![Four labelled rectangles in a grid: top left reads \"REPAIR_PART\", top right \"PART\", bottom left \"REPAIR\", and bottom right \"CUSTOMER\".](assets/005-four-labelled-rectangles-in-a-grid-top-left-read.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct relation\n> \n> ![Diagram showing entities: REPAIR_PART, PART, REPAIR, and CUSTOMER, interconnected with lines indicating relationships between them.](assets/006-diagram-showing-entities-repair-part-part-repair.png)"
+    },
+    {
+     "id": "qstnprt_2dqYd6FHCFPj28VD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table by writing a definition for each of the database terms.\n\n| **Term** | **Definition** |\n|---|---|\n| Referential integrity | ..................................................... |\n| Candidate key | ...................................................... |\n| Tuple | ........................................................ |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct definition\n> \n> | **Database** **Term** | **Definition** |\n> |---|---|\n> | Referential integrity | All duplicate entries of data between tables are consistent // all foreign keys are matched to an appropriate primary key |\n> | Candidate key | A field that could be a primary key but is not // an attribute or smallest set of attributes in a table where no tuple has the same value |\n> | Tuple | A row / record in a table // one instance of an entity in a table |"
+    }
+   ]
+  }
+ ]
+}

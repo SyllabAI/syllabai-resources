@@ -1,0 +1,123 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:30:41Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/environmental-management/cie/20/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "environmental-management",
+  "exam_code": "8291",
+  "sme_course_id": "crs_q92PnRyFWyT8X55h",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20",
+  "course_name": "Cambridge (CIE) AS Environmental Management"
+ },
+ "section": {
+  "slug": "1-introduction-to-environmental-management",
+  "name": "1. Introduction to Environmental Management"
+ },
+ "topic": {
+  "id": "top_ryKZxwN2FGhDKssW",
+  "slug": "1-4-the-water-cycle",
+  "name": "1.4 The Water Cycle",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "1-4-1-the-water-cycle",
+   "name": "1.4.1 The Water Cycle",
+   "revision_note_id": "rn_G6DPT5Rp8rY6zRd9"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_CCXvXHWCsRyWX5J3",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/as/environmental-management/cie/20/topic-questions/1-introduction-to-environmental-management/1-4-the-water-cycle/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 2,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/42858_screenshot-2025-11-11-123750.png": "001-diagram-of-a-solar-desalination-device-with-a-cl.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/36050_screenshot-2025-11-10-162833.png": "002-diagram-illustrating-the-water-cycle-showing-pro.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_PR9NH8SBCKj5mtyt",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_3gtGd4VRdGCpGkYb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 2",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_QnJC7MycgwgHJ5VB"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 4.1 shows a solar still. A solar still uses processes in the water cycle to produce drinking water.\n\n![Diagram of a solar desalination device with a clear plastic dome. Sun heats salt water; water vapour condenses and collects as clean water.](assets/001-diagram-of-a-solar-desalination-device-with-a-cl.png)\n\n**Fig. 4.1**\n\nUse Fig. 4.1 and processes in the water cycle to explain how the solar still can produce drinking water.",
+     "solution_md": "> **[mark-scheme]**\n> M1 Sun **heats** (salt) water; \n> M2 water **evaporates**; \n> M3 (evaporated) water **condenses** on (inside of dome);"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dqBNWyKYFMgtQ5Kb",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_kfZTGp3SYvX6f9vV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_QnJC7MycgwgHJ5VB"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 represents a simplified water cycle.\n\n![Diagram illustrating the water cycle, showing processes like evaporation, transpiration, condensation, precipitation, infiltration, and ground flow.](assets/002-diagram-illustrating-the-water-cycle-showing-pro.png)\n\n**Fig. 1.1**\n\n(i) Identify the letter on Fig. 1.1 that represents:\n\nprecipitation ..................................\n\ninfiltration. .....................................\n\n[2]\n\n(ii) Describe the role of transpiration in the water cycle.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> precipitation: E; \n> infiltration: D;\n> \n> (ii) Return water from lithosphere / soil to atmosphere / air;;\n> \n> Or any two from: \n> (movement of water) to the atmosphere / air; \n> (through) plants / trees;"
+    }
+   ]
+  }
+ ]
+}

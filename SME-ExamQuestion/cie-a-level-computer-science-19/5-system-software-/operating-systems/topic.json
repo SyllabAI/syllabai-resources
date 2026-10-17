@@ -1,0 +1,696 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:19Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "5-system-software-",
+  "name": "5. System Software"
+ },
+ "topic": {
+  "id": "top_jkDx4K8pDZk2XjMF",
+  "slug": "operating-systems",
+  "name": "Operating Systems",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "program-libraries",
+   "name": "Program Libraries",
+   "revision_note_id": "rn_zmNM9QRRPr4XWgNk"
+  },
+  {
+   "slug": "utility-software",
+   "name": "Utility Software",
+   "revision_note_id": "rn_tCTGNpJJ7Z6mNyV4"
+  },
+  {
+   "slug": "os-fundamentals",
+   "name": "Operating System Fundamentals",
+   "revision_note_id": "rn_DYP7r8xM89mB6zkJ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_pWHPTfkGg6k8JrMk",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 20,
+   "questions_embedded": 20,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/5-system-software-/operating-systems/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 20,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/1825_june-2024-9618-13-7e.png": "001-cartoon-robot-waiter-with-tray-shelves-stands-ne.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_RNM7gQbSKD5XDZG9",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_zKSkbtGF2WRGxm7g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has an Operating System (OS). A user reports three faults with the computer.\n\nComplete the table. For each fault, write the name of the key management task that is not working correctly, and explain how the fault shows that this task has failed.\n\n| Fault | Management task | Explanation |\n|---|---|---|\n| A document that the user saved yesterday cannot be found anywhere on the hard disk. |   |   |\n| A different person used the computer and opened the user's private documents. No user name or password was asked for. |   |   |\n| When a second program is started, the data of the first program becomes corrupted and the first program stops responding. |   |   |",
+     "solution_md": "| Fault | Management task | Explanation |\n|---|---|---|\n| A document that the user saved yesterday cannot be found anywhere on the hard disk. | **File management** **[1]** | **The Operating System records where each file is stored on secondary storage and maintains the directory structure, so a saved file can be found again by its name.** **[1]** |\n| A different person used the computer and opened the user's private documents. No user name or password was asked for. | **Security management** **[1]** | **The Operating System creates accounts and passwords and checks them before access is given, and it applies access rights so that one user cannot open another user's files.** **[1]** |\n| When a second program is started, the data of the first program becomes corrupted and the first program stops responding. | **Memory management** **[1]** | **The Operating System allocates a separate block of RAM to each program and prevents one program from writing into the area of RAM that another program is using.** **[1]** |\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for \"File management\" in row one\n> \n> **1 mark** for explaining that the Operating System records where a file is stored, or maintains the directory structure, so that a file can be found again\n> \n> **1 mark** for \"Security management\" in row two\n> \n> **1 mark** for explaining that the Operating System creates accounts and passwords and checks them before access is given, or that it applies access rights so one user cannot open another user's files\n> \n> **1 mark** for \"Memory management\" in row three\n> \n> **1 mark** for explaining that the Operating System gives each program its own block of RAM and stops one program from overwriting the data of another\n> \n> An explanation mark can still be awarded when the named task is wrong, as long as the explanation correctly describes the task that would cause that fault.\n> \n> Do not accept \"hardware management\" in row one. The disk itself is working; it is the record of where the file was placed that has failed\n> \n> Do not accept \"process management\" in row three. Process management decides which program runs next. Two programs being given the same area of RAM is a failure of memory management\n\n> **[exam-tip]**\n> Fault diagnosis is worth practising because it is the only place this topic is tested as reasoning rather than recall. Work from the symptom to the resource: a lost file points to secondary storage and therefore file management, an unlocked computer points to accounts and therefore security management, and two programs interfering with each other points to RAM and therefore memory management.\n> \n> Row three is the one most often answered \"process management\". Ask yourself what was shared badly. If two programs were given the same space, memory was shared badly. If one program never got a turn on the processor, that would be process management."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sqNcSb6p8RZtS7Jy",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_t5b34sR8bxjPXjdP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer in a public library is used by many different people. Each person has their own account on the computer.\n\nDescribe the security management tasks carried out by the Operating System (OS) on this computer.",
+     "solution_md": "The Operating System creates a separate account and password for each person who uses the computer. **[1]**\n\nIt checks the user name and password when a person signs in, so that it can confirm who they are before access is given. **[1]**\n\nIt applies access rights to files, so that one person cannot open or change the documents that belong to another person. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - Creates user accounts and passwords\n> - Checks the user name and password // authenticates the user before access is given\n> - Applies access rights or permissions to files and folders\n> - ... so one user cannot read, change or delete another user's data\n> - Allows a password to be changed, or forces it to be changed after a set time\n> - Keeps a log or record of which user signed in and what they did\n> - Provides or updates a firewall or anti-malware software\n> \n> **[3 marks]**\n> \n> Accept \"authentication\" as an alternative to checking the user name and password.\n> \n> Do not accept \"it keeps the computer safe\" or \"it stops hackers\". These are too vague to credit; the answer must name a task the Operating System actually carries out.\n> \n> Do not accept \"it backs up the data\". Backing up protects against loss, not against unauthorised access.\n\n> **[exam-tip]**\n> Security management is the task students describe most vaguely. \"It protects the computer\" is a restatement, not a description, and it earns nothing. Every mark here comes from naming a concrete action: create an account, check a password, set an access right.\n> \n> A useful habit is to give the reason as well as the action. \"Applies access rights\" is one mark; \"applies access rights so that one user cannot open another user's files\" gives the examiner two things to credit."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GSTtCgv5cVtjffRk",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6GQKCNKHPCm6ykF7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "The table describes three key management tasks carried out by an Operating System (OS).\n\nComplete the table by writing the name of the missing management task in each empty cell.\n\n| Description of the task | Name of the management task |\n|---|---|\n| Divides secondary storage into file allocation units and maintains the directory structure. | File management |\n| Allocates a block of RAM to each running program and stops one program from overwriting the data of another. |   |\n| Checks the user name and the password before access to the computer is allowed. |   |",
+     "solution_md": "| Description of the task | Name of the management task |\n|---|---|\n| Divides secondary storage into file allocation units and maintains the directory structure. | File management |\n| Allocates a block of RAM to each running program and stops one program from overwriting the data of another. | **Memory management** **[1]** |\n| Checks the user name and the password before access to the computer is allowed. | **Security management** **[1]** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for \"Memory management\" in the second row\n> \n> **1 mark** for \"Security management\" in the third row\n> \n> Accept \"memory\" and \"security\" without the word \"management\"\n> \n> Do not accept \"process management\" in the second row. Process management decides which program runs next; deciding where in RAM a program is placed is memory management\n> \n> Do not accept \"data security\" or \"encryption\" in the third row. The task carried out by the Operating System is called security management\n\n> **[exam-tip]**\n> Row two is the row that catches students out, because \"running program\" makes them reach for process management. Look at the resource in the description instead. If the sentence is about RAM being given out or protected, the answer is memory management.\n> \n> Learn the five names in Cambridge's own words: memory management, file management, security management, hardware management and process management. A mark scheme will not credit an invented name such as \"storage management\"."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KMRt3wbgygX2R7cq",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_fRJZp3rxCj2FvpZ3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W"
+     ],
+     "part_tier": null,
+     "problem_md": "A company makes two products.\n\n**Product A** is a tablet computer. The user can install and run many different applications on it, and can store photographs and documents on it. Product A has an Operating System (OS).\n\n**Product B** is a temperature controller. It is an embedded system. It reads a temperature sensor and switches a fan on or off. Its single program is stored in ROM. Product B does not have an Operating System.\n\nExplain why Product A needs an Operating System but Product B does not.",
+     "solution_md": "Product A runs many different programs that the user chooses, installs and may run at the same time, so an Operating System is needed to share the processor, the memory and the peripherals between them. **[1]**\n\nProduct A stores many photographs and documents, so an Operating System is needed to organise them into files and directories and to find them again. **[1]**\n\nProduct A has a human user who gives commands to it, so an Operating System is needed to provide the user interface. **[1]**\n\nProduct B is dedicated to one task and runs a single fixed program on hardware that never changes, so that program can control the sensor and the fan directly and no Operating System is needed. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each point below, to a maximum of 4. **Maximum 3 marks** for points about Product A and **maximum 3 marks** for points about Product B.\n> \n> **Product A:**\n> \n> - Runs many different programs, which the user can choose and install\n> - ... so the Operating System must share the processor and the memory between them\n> - Stores many files that must be organised and found again, which needs file management\n> - Has a human user, so it needs a user interface\n> - Has many different peripherals, so it needs the Operating System to manage them\n> - The applications are written by other people and need a platform to run on\n> \n> **Product B:**\n> \n> - Is dedicated to a single task\n> - Runs one fixed program held in ROM, which is not changed by the user\n> - ... so that program can control its known, fixed hardware directly\n> - Has no user interface and no user to interact with\n> - Stores little or no data, so there are no files to manage\n> - Has too little memory or processing power to run an Operating System // an Operating System would add cost for no benefit\n> \n> Do not accept \"Product B is too small\". Size on its own is not a reason; the answer must say that the task is fixed, or that the hardware is known, or that there is no user.\n\n> **[exam-tip]**\n> Questions that compare two products are marked on both sides, and students almost always write four points about the tablet and nothing about the embedded system. Cambridge caps each side, so half of your marks are sitting in the product you skipped. Write at least one sentence about each.\n> \n> Note also that \"it is an embedded system so it does not need an Operating System\" earns nothing. That is the fact the question gave you. The mark is for the reason behind it: one fixed task, one fixed program, and hardware that never changes."
+    }
+   ]
+  },
+  {
+   "id": "qstn_J9TwbqYcyX3jnf8b",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2kS9JQyxqJK4W2H9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "A software company writes three different programs. All three programs use the same set of library routines.\n\nThe company must choose one of two methods.\n\n**Method A**: the library routines are included in each program when that program is compiled.\n\n**Method B**: the library routines are supplied in one Dynamic Link Library (DLL) file that all three programs use.\n\nComplete the table to describe the result of choosing Method B in each situation.\n\n| Situation | Result of choosing Method B |\n|---|---|\n| The size of the executable file of each program |   |\n| The number of copies of the library routines held in main memory while all three programs are running |   |\n| Whether the three programs must be recompiled after an error in a library routine is corrected |   |\n| Which of the three programs receive the correction |   |",
+     "solution_md": "| Situation | Result of choosing Method B |\n|---|---|\n| The size of the executable file of each program | **Each executable file is smaller, because it does not contain the library routines** **[1]** |\n| The number of copies of the library routines held in main memory while all three programs are running | **One copy only, because the single DLL file is loaded once and is available to all three programs** **[1]** |\n| Whether the three programs must be recompiled after an error in a library routine is corrected | **No, because the DLL file is corrected independently of the programs that call it** **[1]** |\n| Which of the three programs receive the correction | **All three, because the update applies to every program that uses the DLL file** **[1]** |\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for row 1: each executable file is smaller // the executable does not contain the library routines\n> \n> **1 mark** for row 2: only one copy is held in main memory // the DLL is loaded once and shared by all three programs\n> \n> **1 mark** for row 3: no, they do not need to be recompiled // the DLL is updated independently of the calling programs\n> \n> **1 mark** for row 4: all three of them // every program that uses the DLL file\n> \n> Accept the library code is stored outside the executable for row 1\n> \n> Accept memory use is reduced for row 2 only if it is linked to a single shared copy\n> \n> Do not accept each program keeps its own copy in memory for row 2. That is the result of Method A\n> \n> Do not accept only the program that is running at the time for row 4\n\n> **[exam-tip]**\n> Check which method the table is asking about before you write anything. Most of the marks lost on comparison questions like this go to students who describe Method A in the Method B column.\n> \n> The recompilation point is the one Cambridge asks for most often and it is easy to state backwards. With a DLL, the library file is the thing that changes; the programs that call it do not, so they do not need to be recompiled."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VZhzKPfKDzDf3BTT",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_PKwj4smt8k6x5nXc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W"
+     ],
+     "part_tier": null,
+     "problem_md": "A user starts a word processor on a computer. The word processor is application software.\n\nExplain why the word processor needs an Operating System (OS) in order to run.",
+     "solution_md": "The Operating System provides the platform on which application software runs. **[1]**\n\nThe word processor asks the Operating System to reach the hardware for it, for example to save a document to secondary storage, instead of containing its own code to control that hardware. **[1]**\n\nThe Operating System hides the complexities of the hardware from the program, so the same word processor can be used on computers built from different hardware. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - The Operating System provides a platform for application software to run on\n> - The word processor uses the Operating System to reach the hardware, for example to save a file or to send data to a printer\n> - ... so the program does not have to contain its own code for controlling that hardware\n> - The Operating System hides the complexities of the hardware from the program and from the user\n> - ... so the same word processor can run on computers built from different hardware\n> - The Operating System allocates the block of RAM that the word processor needs\n> - The Operating System decides when the word processor is given the use of the processor\n> - The Operating System provides the user interface that the user needs in order to start the program and open a document\n> \n> **[3 marks]**\n> \n> Do not accept \"the computer cannot work without an Operating System\". This restates the question instead of answering it.\n> \n> Do not accept \"the Operating System runs the program\" on its own. The answer must say what the Operating System provides or does for the program.\n\n> **[exam-tip]**\n> Most lost marks here come from listing the five management tasks instead of answering the question that was asked. The question is about one program and what that program cannot do for itself.\n> \n> Build the answer around two ideas and you will nearly always reach three marks: the Operating System is the platform the program runs on, and the Operating System reaches the hardware on the program's behalf."
+    }
+   ]
+  },
+  {
+   "id": "qstn_YSB5dYQcSqM33Rb8",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XnjZHFffg8rXyNkn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "A developer writes a program that uses many routines from a program library.\n\nThe developer can either include the library routines in the program when it is compiled, or supply them separately in a Dynamic Link Library (DLL) file.\n\nExplain the benefits of supplying the routines in a DLL file, in terms of the size of the executable file and the use of main memory.",
+     "solution_md": "The executable file of the program is smaller. **[1]**\n\nThis is because the executable does not contain the library routines themselves. **[1]**\n\nThe amount of main memory the program needs is also reduced, because the DLL is loaded into memory only once, or only when a routine inside it is required. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating that the executable file of the program is smaller\n> \n> **1 mark** for the reason: the executable does not contain the library routines\n> \n> **1 mark** for stating that the main memory required is reduced, because the DLL is loaded only once or only when it is required\n> \n> Accept the library code is not built into the program for the second marking point.\n> \n> Do not accept the DLL compresses the code. A DLL does not compress anything; the routines are simply held outside the executable file.\n> \n> Do not accept the program runs faster on its own. Run speed is not what this question credits, and the DLL still has to be loaded before its routines can run.\n\n> **[exam-tip]**\n> Students often write that a DLL \"saves space\" and stop. That is one idea, not two marks. Say where the space is saved: on secondary storage, because the executable file no longer holds the routines, and in main memory, because the DLL is loaded only when it is needed.\n> \n> Do not confuse a DLL with compression or with a back-up. It is the same library code, kept in its own file and linked to the program while the program is running."
+    }
+   ]
+  },
+  {
+   "id": "qstn_k2SVWWc9H7zxKGRd",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_qHKmc5svvtvFt4hZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W"
+     ],
+     "part_tier": null,
+     "problem_md": "A company installs an Operating System (OS) on each of its new computers.\n\nOne purpose of the Operating System is to provide a user interface.\n\nState **two other** purposes of the Operating System.",
+     "solution_md": "To hide the complexities of the hardware from the user. **[1]**\n\nTo provide a platform on which application software can run. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for hiding the complexities of the hardware from the user\n> \n> **1 mark** for providing a platform for software to run\n> \n> Do not accept \"to provide a user interface\". The stem has already given this purpose, so it cannot be given again.\n> \n> Do not accept a bare list of management tasks such as \"memory management, file management\". Naming a task does not state what the Operating System is for.\n\n> **[exam-tip]**\n> The usual mistake here is to answer with the five management tasks, because those are the easiest part of this topic to remember. Cambridge treats a purpose and a management task as two different things. There are only three purposes: the user interface, hiding the complexities of the hardware, and providing a platform for software. Error checking and recovery is one of the management tasks, not a purpose.\n> \n> The second mistake is to write down the purpose the stem has already given you. When a question says \"state two other\", it has taken one answer off the table."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5nsWPW7k2XJnnRY8",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_mbN7CrCSsMg4gctv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the description of a program library by writing the missing word in each gap.\n\nA program library is a collection of subroutines that have already been written and ........................ , so a developer does not have to check that they work.\n\nA developer can ........................ the library into their own program so that its subroutines can be called.",
+     "solution_md": "A program library is a collection of subroutines that have already been written and **tested**, so a developer does not have to check that they work. **[1]**\n\nA developer can **import** the library into their own program so that its subroutines can be called. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for tested in the first gap\n> \n> **1 mark** for import in the second gap\n> \n> Accept compiled for the first gap.\n> \n> Accept install or reference for the second gap.\n> \n> Do not accept copy and paste for the second gap. The program imports or links to the library; the developer does not paste the library code into their own program.\n\n> **[exam-tip]**\n> The word library makes students think of storage, so a frequent wrong answer is that it is a place where a programmer keeps their finished programs. A program library holds subroutines, meaning procedures and functions, and the point of it is that they are already written and already tested.\n> \n> Whenever you are asked what a program library is, get both ideas into the answer: the routines are pre-written, and another program can call them once it has imported the library."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9d2MTWD8gsyddfYy",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_SgHFwp7qCdrFPbdB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5"
+     ],
+     "part_tier": null,
+     "problem_md": "A company stores its customer records on a computer. A technician has two tasks to complete.\n\n**Task 1**\n\nOne hard disk in the computer is several years old. Some files stored on it can no longer be opened, and the Operating System reports errors when it reads certain areas of the disk. No copy of these files exists anywhere else.\n\n**Task 2**\n\nA folder of large report files must be sent to a client over a slow internet connection.\n\nFor each task, name the utility software the technician should use and describe how that software helps.",
+     "solution_md": "Task 1: disk contents analysis and disk repair software. **[1]**\n\nIt checks the disk, identifies the damaged areas and marks the bad sectors so they are not used again, and it restores the corrupted files so that the data is recovered. **[1]**\n\nTask 2: file compression software. **[1]**\n\nIt reduces the size of the report files, so fewer bytes have to be sent and the transfer takes less time over the slow connection. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for naming disk contents analysis software or disk repair software for Task 1\n> \n> **1 mark** for what it does in Task 1: identifies and marks bad sectors // restores corrupted files // recovers the lost data\n> \n> **1 mark** for naming file compression software for Task 2\n> \n> **1 mark** for what it does in Task 2: reduces the size of the files // so the transmission time is reduced\n> \n> Accept disk analysis software or disk repair software on its own for Task 1.\n> \n> Accept compression software or file compression for Task 2.\n> \n> Do not accept defragmentation software for Task 1. Defragmentation rearranges files that are stored correctly; it does not detect or repair damaged areas of a disk.\n> \n> Do not accept back-up software for Task 1. The stem states that no copy of the files exists, so there is nothing to restore from.\n\n> **[exam-tip]**\n> This kind of question tests whether you can match a symptom to the right utility, so read each symptom carefully. Errors when reading certain areas of a disk mean damaged sectors, which is a repair job. Slow loading of files that still open normally would mean fragmentation instead. Students who see the word disk and reach straight for defragmentation software lose both marks for that task.\n> \n> Naming the utility is only half of each task. A name on its own earns one mark out of two, however correct it is, so always add what the software actually does."
+    }
+   ]
+  },
+  {
+   "id": "qstn_dTSGDVBr36JFVkbC",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_tZqrfqmRqjx2xHCH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has been used for two years. During that time many files have been saved to and deleted from its hard disk. Files now take longer to load than they did when the computer was new.\n\nThe user runs the defragmentation software supplied with the Operating System.\n\nExplain how defragmentation software reduces the time taken to load a file.",
+     "solution_md": "Saving and deleting files over a long period leaves the blocks of a single file spread across the disk, so the file is no longer stored in one continuous area. **[1]**\n\nThe defragmentation software rearranges the blocks so that each file occupies contiguous blocks, and it moves the free space together. **[1]**\n\nThe read/write head then has less movement to make, because it does not have to search for the next fragment of the file, so the file is loaded faster. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - The blocks of a file become spread across the disk // the file is fragmented // the file is not stored in contiguous blocks\n> - The software rearranges the blocks of individual files so that each file is contiguous // it moves the free space together\n> - There is no need to search for the next fragment or block of the file\n> - Less read/write head movement is needed\n> - So each file can be accessed or loaded faster\n> \n> **[3 marks]**\n> \n> Accept stored in one continuous area as an alternative to contiguous.\n> \n> Do not accept it deletes unwanted files to make space. Defragmentation moves data; it does not delete it.\n> \n> Do not accept it makes the files smaller. That is file compression, not defragmentation.\n\n> **[exam-tip]**\n> The mark scheme here is narrow and vague answers score nothing. \"It tidies up the hard disk\" and \"it makes the computer run faster\" both repeat the question instead of explaining it. The two words examiners are looking for are fragmented and contiguous.\n> \n> Build the answer in three steps: what the disk looks like before, what the software does to it, and why that saves time. The link to reduced read/write head movement is the mark most students leave out."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ksqqxF8VzBspvFZW",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7Y2WZ8VyJSkSqhWw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5"
+     ],
+     "part_tier": null,
+     "problem_md": "An Operating System is supplied with utility software.\n\nComplete the table by writing the name of the utility software that carries out each purpose.\n\n| Purpose | Utility software |\n|---|---|\n| To prepare a new hard disk for use by setting up the file system |   |\n| To reduce the size of a file so that it uses less storage space |   |",
+     "solution_md": "| Purpose | Utility software |\n|---|---|\n| To prepare a new hard disk for use by setting up the file system | **Disk formatter** **[1]** |\n| To reduce the size of a file so that it uses less storage space | **File compression software** **[1]** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for disk formatter in the first row\n> \n> **1 mark** for file compression software in the second row\n> \n> Accept formatter, hard disk formatter or disk formatting software for the first row\n> \n> Accept compression software or file compression for the second row\n> \n> Do not accept defragmentation software for the first row. Defragmentation rearranges files that are already stored on a disk; it does not set up the file system on a new disk\n> \n> Do not accept back-up software for the second row. A back-up makes a copy of a file; it does not make the file smaller\n\n> **[exam-tip]**\n> Formatting and defragmenting are not the same job, and swapping them is the most common error on this topic. Formatting prepares a new disk and removes everything on it. Defragmenting rearranges files that are already stored there.\n> \n> Cambridge awards no marks for brand names of software packages, so write the type of utility rather than the name of a product you have used."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qwP6xYfHTkJQYh2f",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4QWzs3MZZZ46VFxW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The program makes use of complex statistical functions. The required functions are not built-in to the programming language and are too complicated for the programmer to write.\n\nOne solution would be to employ another programmer who has experience of writing these functions, as there is no time to train the existing programmer.\n\nState **one other** way that these functions may be provided for inclusion in the program.",
+     "solution_md": "> **[mark-scheme]**\n> The use of a program <u>library </u>(routines)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ydNfysqb7s94wZsg",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_RTvY9hwynDNMjdDd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has an Operating System (OS).\n\nState **one **purpose of the Operating System.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 1**)\n> \n> - To hide the complexities of the hardware from the user\n> - To provide a platform for software to run\n> - To provide a user interface"
+    },
+    {
+     "id": "qstnprt_7QWtVBR9hbk5YJty",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5"
+     ],
+     "part_tier": null,
+     "problem_md": "The Operating System has utility software.\n\nThe purpose of some utility software is to improve security.\n\nIdentify **one **example of utility software that is **not **intended to improve security.\n\nExplain why this software is needed.",
+     "solution_md": "**1 mark** for the name of the utility software\n\n**2 marks **for the explanation\n\n- Defragmentation software\n- … because over time saving and deleting of small files fragments the disk\n- ... the software makes (individual) files contiguous\n- … so access time to the files is improved\n- … because head movement is reduced\n- Disk contents analysis/disk repair software\n- … to identify and mark bad sectors\n- ... to restore corrupted files\n- ... to recover lost data (due to hardware failure)\n- File compression\n- … to reduce the size of files\n- ... which saves storage and memory space // by example\n- ... and reduces transmission time // by example\n- Disk formatter\n- … to prepare a disk for use // set up the file system\n- ... to partition the disc\n- ... to delete all the data from the disc"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9sycmTf3HRt87bhT",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_sVQBK36KThbhv82s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "Robots are used to serve food and drink to customers at a restaurant.\n\n![Cartoon robot waiter with tray shelves stands near restaurant tables and chairs, prepared to serve or collect dishes.](assets/001-cartoon-robot-waiter-with-tray-shelves-stands-ne.png)\n\nProgram libraries were used when writing the robot’s software.\n\n(i) State what is meant by a program library.\n\n(1)\n\n(ii) Some program libraries include Dynamic Link Library (DLL) files.\n\nDescribe the benefits of a programmer using a library with DLL files instead of using a library that does not include DLL files.\n\n(4)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for:\n> \n> Pre-written code/functions/routines that can be **imported/called** in another program\n> \n> (ii) **1 mark** each to** max 4**:\n> \n> - Maintenance not needed to be done by the programmer\n> - ... because the DLL is separate from program\n> - The calling program does not need recompilation by the programmer when a DLL file changes\n> - ... because the DLL file can be updated independently of the calling program\n> - … updates will apply to all programs that use the DLL file"
+    }
+   ]
+  },
+  {
+   "id": "qstn_x9mGHFMHdSGqMnr3",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_nxwK2w4bq48CBT9T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The programmer uses program libraries when developing the program.\n\nDescribe **two **benefits to the programmer of using program libraries.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 2**:\n> \n> - Saves programming/testing time as code does not have to be written/rewritten from scratch // code does not have to be tested\n> - Code is already tested so it is more robust/likely to work\n> - The programmer does not need to maintain the library // library routines are updated automatically\n> - Can perform complex calculations that the programmer may be unable to do\n> - Makes code more easily readable"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8nMjzNz6Hn5XwzCP",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_82wJq4sFX7q37pYw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has an Operating System (OS).\n\nMemory management and process management are two OS tasks.\n\nExplain how memory management **and** process management support multi-tasking.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 4**\n> \n> **Max 3** marks for each management task:\n> \n> *Memory management*: **Max 3 marks**\n> \n> - Stores data from all currently running programs concurrently in RAM\n> - Stops the data from overwriting each other in RAM/primary storage\n> - Decides which processes should be in main memory\n> - Makes efficient use of memory\n> \n> *Process management:**** *****Max 3 marks**\n> \n> - Allows one process to be paused whilst another process can be actioned\n> - Decides which process is to be run next\n> - Switches between processes to allow them to share the use of the processor\n> - Identification/description of scheduling"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mVjTByhPdCvz7XxG",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_fSR68yvWyzZN78tP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The programmers created a new program library whilst developing the program.\n\nDescribe the benefits to the programmers of creating a program library.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for each bullet point (max 3)\n> \n> e.g.\n> \n> - Subroutines can be shared / reused\n> - … between team members who are working independently\n> - … without having to rewrite/re-test them which saves the programmers’ time\n> - A program library provides continuity between programs/programmers\n> - Individual programmers can contribute their specialisms to the library // Individual programmers can use the specialisms of others"
+    }
+   ]
+  },
+  {
+   "id": "qstn_84RqX48wRPSWTv7Q",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3bsMCwgkBM5XF6j9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer has an Operating System (OS). One of the key management tasks of the OS is process management.\n\nDescribe the process management tasks performed by an OS.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> e.g.\n> \n> - It manages the scheduling of processes // Decides which process is to be run next\n> - Allows multi-tasking/multi-processing\n> - Ensures fair access\n> - Handles interrupts\n> - Manages / allocates which resources the processes require\n> - Facilitates the sharing and exchange of data between processes\n> - Prevents interference between processes // conflict resolution"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pVdcbVZTqkGX7yTj",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_YQ36d4fjFZMC3kVs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5",
+      "spcpt_Qvb42C5bb4FRt58W",
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe laptop has utility software and an Operating System (OS).\n\n(i) Describe the file management tasks carried out by an OS.\n\n(2)\n\n(ii) Explain the need for back-up software.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for each bullet point (**max 2**)\n> \n> e.g.\n> \n> - Secondary storage space is divided into file allocation units\n> - Space on secondary storage is allocated to particular files\n> - Maintains/creates directory structures\n> - Specifies the logical method of file storage e.g. FAT or NTFS\n> - Provides file naming conventions\n> - Controls user access // implements access rights // implements password protection // Makes file sharing possible\n> - Controls access to the file by other software\n> - Specifies tasks that can be performed on a file e.g. open, close, delete, copy, create, move, etc\n> - Allows searching for a file\n> \n> (ii) **1 mark** for each bullet point (**max 2**)\n> \n> - To allow data to be retrieved / restored when lost\n> - To automatically make a duplicate copy of data…\n> - …so the user does not have to remember to backup data\n> - To make regular duplicate copies of data"
+    },
+    {
+     "id": "qstnprt_JpxHnkKSTR373QNv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The student used a program library when writing their program.\n\nExplain the benefits to the student of using library files when writing a program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 3**)\n> \n> e.g.\n> \n> - It saves development time for the student\n> - … by using pre-written code\n> - There is less testing to do // the routines are more likely to work correctly\n> - … because they have already been tested and are error-free\n> - It results in a more robust program\n> - Subroutines can be used that they do not have the skill to write\n> - … which enables a more complex program to be written"
+    }
+   ]
+  }
+ ]
+}

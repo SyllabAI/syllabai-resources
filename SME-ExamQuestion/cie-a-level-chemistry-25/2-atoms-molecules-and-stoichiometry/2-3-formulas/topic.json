@@ -1,0 +1,857 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:47:42Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "2-atoms-molecules-and-stoichiometry",
+  "name": "2. Atoms, Molecules & Stoichiometry"
+ },
+ "topic": {
+  "id": "top_9Fr94MWfCTW5XDqs",
+  "slug": "2-3-formulas",
+  "name": "Formulas",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "empirical-and-molecular-formulae",
+   "name": "Empirical & Molecular Formulae",
+   "revision_note_id": "rn_rt9mKkfJKqvCGyb3"
+  },
+  {
+   "slug": "formulae",
+   "name": "Formulae",
+   "revision_note_id": "rn_N85Cbr5GzDGRSHTf"
+  },
+  {
+   "slug": "balancing-equations",
+   "name": "Balancing Equations",
+   "revision_note_id": "rn_W5sTvz52zN5qm6Ww"
+  },
+  {
+   "slug": "water-of-crystallisation",
+   "name": "Water of Crystallisation",
+   "revision_note_id": "rn_6TMxYyNqb2dZ3zGB"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_T6gDJBMKBrbXCN36",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 12,
+   "questions_embedded": 12,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-3-formulas/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 12,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/06/15346-phenazine-skeletal-formula.png": "001-skeletal-formula-of-phenazine.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_qmK5rwX7YPY92dpn",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NWr7H9ctJ7Zb5jMQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrated copper(II) sulfate, CuSO<sub>4</sub>**∙***x*H<sub>2</sub>O, has a relative formula mass of 231.6.\n\nWhat is the value of *x*?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Relative formula mass of CuSO<sub>4</sub>:\n\n63.5 + 32.1 + (4 × 16.0) = 159.6\n\n- Relative formula mass of H<sub>2</sub>O = 18.0\n- Mass of water of crystallisation:\n\n231.6 − 159.6 = 72.0\n\n- Calculate *x*:\n\n*x* = $\\frac{72.0}{18.0}$ = 4\n\n**A** is incorrect as CuSO<sub>4</sub>**∙**2H<sub>2</sub>O would have a relative formula mass of 195.6.\n\n**B** is incorrect as CuSO<sub>4</sub>**∙**3H<sub>2</sub>O would have a relative formula mass of 213.6.\n\n**D** is incorrect as CuSO<sub>4</sub>**∙**5H<sub>2</sub>O would have a relative formula mass of 249.6.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "5"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{72.0}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>72</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 72.0 over denominator 18.0 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YVrmv8cFt4XwSCtj",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_kcfz4szHNWftfySz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "An additive in leaded petrol is composed of lead, carbon and hydrogen only. The compound contains 6.19% hydrogen and 29.7% carbon by mass.\n\nWhat is the value of *x* in the empirical formula PbC<sub>8</sub>H<sub>x</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Assume 100 g:\n\n  - C = 29.7 g\n  - H = 6.19 g\n- Moles (data booklet):\n\nC = $\\frac{29.7}{12.0}$ = 2.475 mol\n\nH = $\\frac{6.19}{1.0}$ = 6.19 mol\n\n- Divide by the smallest (2.475):\n\nC = $\\frac{2.475}{2.475}$ = 1\n\nH = $\\frac{6.19}{2.475}$ = 2.5\n\n- Scale to match 8 carbon atoms in the formula:\n\nH = 2.5 × 8 = 20\n\n- Therefore *x* = 20\n\n**A** is incorrect as *x* = 5 gives a H:C mole ratio of 0.625:1.\n\n**B** is incorrect as *x* = 6 gives a H:C mole ratio of 0.75:1.\n\n**C** is incorrect as *x* = 16 gives a H:C mole ratio of 2:1.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "5"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "6"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "16"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "20"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{29.7}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>29</mn><mo>.</mo><mn>7</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 29.7 over denominator 12.0 end fraction"
+      },
+      {
+       "latex": "\\frac{6.19}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>6</mn><mo>.</mo><mn>19</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 6.19 over denominator 1.0 end fraction"
+      },
+      {
+       "latex": "\\frac{2.475}{2.475}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>.</mo><mn>475</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>475</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2.475 over denominator 2.475 end fraction"
+      },
+      {
+       "latex": "\\frac{6.19}{2.475}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>6</mn><mo>.</mo><mn>19</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>475</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 6.19 over denominator 2.475 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VMRYXVsvXpjMbfvv",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_f8sfdPPYt8K5J5q9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "The skeletal formula of phenazine is shown.\n\n![Skeletal formula of phenazine](assets/001-skeletal-formula-of-phenazine.png)\n\nWhat is the empirical formula of phenazine?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The empirical formula is the simplest whole-number ratio of atoms in a compound\n- Phenazine has the molecular formula C<sub>12</sub>H<sub>8</sub>N<sub>2</sub> (two benzene rings fused to a central pyrazine ring)\n- Dividing by the highest common factor of 2: C<sub>6</sub>H<sub>4</sub>N\n\n**B** is incorrect as C<sub>6</sub>H<sub>6</sub>N would require 6 hydrogen atoms per unit, not 4.\n\n**C** is incorrect as C<sub>12</sub>H<sub>8</sub>N<sub>2</sub> is the molecular formula of phenazine, not the empirical formula.\n\n**D** is incorrect as C<sub>12</sub>H<sub>12</sub>N<sub>2</sub> does not match the molecular formula of phenazine.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "C<sub>6</sub>H<sub>4</sub>N"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "C<sub>6</sub>H<sub>6</sub>N"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "C<sub>12</sub>H<sub>8</sub>N<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "C<sub>12</sub>H<sub>12</sub>N<sub>2</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RKppyVRC7c53grxw",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gXsdZ3WZ8233rknf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "A hydrated carbonate of an unknown Group 1 metal, **X**, has the formula **X**<sub>2</sub>CO<sub>3</sub>**∙**10H<sub>2</sub>O and a relative formula mass of 286.\n\nWhat is the identity of **X**?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Set up an equation:\n\n2A<sub>r</sub>(**X**) + 12.0 + 3(16.0) + 10(2.0 + 16.0) = 286\n\n- Simplify:\n\n2A<sub>r</sub>(**X**) + 240 = 286\n\n- Solve:\n\nA<sub>r</sub>(**X**) = (286 − 240) ÷ 2 = 23\n\n- Relative atomic mass 23 corresponds to sodium (Na) from the data booklet\n\n**A** is incorrect as Li has a relative atomic mass of 6.9.\n\n**C** is incorrect as K has a relative atomic mass of 39.1.\n\n**D** is incorrect as Rb has a relative atomic mass of 85.5.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Li"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Na"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "K"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Rb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ptTyCm8pntmhFhQQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_x9qmDXj9czJMthKJ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of hydrated calcium sulfate, CaSO<sub>4</sub>**∙***x*H<sub>2</sub>O, has a relative formula mass of 172.2.\n\nWhat is the value of *x*?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Relative formula mass of CaSO<sub>4</sub>:\n\n40.1 + 32.1 + (4 × 16.0) = 136.2\n\n- Relative formula mass of H<sub>2</sub>O = 18.0\n- Mass of water of crystallisation:\n\n172.2 − 136.2 = 36.0\n\n- Calculate *x*:\n\n*x* = $\\frac{36.0}{18.0}$ = 2\n\n**A** is incorrect as *x* = 1 gives a relative formula mass of 154.2.\n\n**C** is incorrect as *x* = 3 gives a relative formula mass of 190.2.\n\n**D** is incorrect as *x* = 4 gives a relative formula mass of 208.2.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{36.0}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>36</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 36.0 over denominator 18.0 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PPG4ptrXJtjtD8Dv",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_kqkcDVXYkjPQT5jF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Which ionic equation represents the reaction between aqueous sodium ethanoate and aqueous hydrochloric acid?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Sodium ethanoate (CH<sub>3</sub>CO<sub>2</sub>Na) fully dissociates in solution: Na<sup>+</sup> (aq) + CH<sub>3</sub>CO<sub>2</sub><sup>-</sup> (aq)\n- HCl is a strong acid that fully dissociates: H<sup>+</sup> (aq) + Cl<sup>-</sup> (aq); Na<sup>+</sup> and Cl<sup>-</sup> are spectator ions\n- Ionic equation:\n\nCH<sub>3</sub>CO<sub>2</sub><sup>-</sup> (aq) + H<sup>+</sup> (aq) → CH<sub>3</sub>CO<sub>2</sub>H (aq)\n\n**A** is incorrect as HCl must be written as H<sup>+</sup> (aq) and Cl<sup>-</sup> (aq), as it is a strong acid that fully dissociates in solution.\n\n**C** is incorrect as Na<sup>+</sup> and Cl<sup>-</sup> are spectator ions that do not react.\n\n**D** is incorrect as CH<sub>3</sub>CO<sub>2</sub>Na is an ionic compound that must be written as separate ions in solution.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CO<sub>2</sub><sup>-</sup> (aq) + HCl (aq) → CH<sub>3</sub>CO<sub>2</sub>H (aq) + Cl<sup>-</sup> (aq)"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "CH<sub>3</sub>CO<sub>2</sub><sup>-</sup> (aq) + H<sup>+</sup> (aq) → CH<sub>3</sub>CO<sub>2</sub>H (aq)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Na<sup>+</sup> (aq) + Cl<sup>-</sup> (aq) → NaCl (aq)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CO<sub>2</sub>Na (aq) + H<sup>+</sup> (aq) → CH<sub>3</sub>CO<sub>2</sub>H (aq) + Na<sup>+</sup> (aq)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PMMCDywQvWn3b9nT",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_5Qvp7jRz6fVSSgdS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "A compound contains 52.2% carbon, 13.0% hydrogen and 34.8% oxygen by mass.\n\nWhat is the empirical formula of this compound?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Assume 100 g of compound:\n\n  - C = 52.2 g\n  - H = 13.0 g\n  - O = 34.8 g\n- Divide by relative atomic mass (data booklet):\n\nC = $\\frac{52.2}{12.0}$ = 4.35\n\nH = $\\frac{13.0}{1.0}$ = 13.0\n\nO = $\\frac{34.8}{16.0}$ = 2.18\n\n- Divide by the smallest value (2.18):\n\nC = $\\frac{4.35}{2.18}$ = 2\n\nH = $\\frac{13.0}{2.18}$ ≈ 6\n\nO = $\\frac{2.18}{2.18}$ = 1\n\n- Empirical formula: C<sub>2</sub>H<sub>6</sub>O\n\n**A** is incorrect as CH<sub>2</sub>O would require the percentage composition to be in the ratio C:H:O = 1:2:1.\n\n**B** is incorrect as C<sub>4</sub>H<sub>13</sub>O<sub>2</sub> does not give the correct ratio of atoms.\n\n**D** is incorrect as C<sub>6</sub>H<sub>2</sub>O does not give the correct ratio of atoms.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>2</sub>O"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "C<sub>4</sub>H<sub>13</sub>O<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "C<sub>2</sub>H<sub>6</sub>O"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "C<sub>6</sub>H<sub>2</sub>O"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{52.2}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>52</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 52.2 over denominator 12.0 end fraction"
+      },
+      {
+       "latex": "\\frac{13.0}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>13</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 13.0 over denominator 1.0 end fraction"
+      },
+      {
+       "latex": "\\frac{34.8}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>34</mn><mo>.</mo><mn>8</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 34.8 over denominator 16.0 end fraction"
+      },
+      {
+       "latex": "\\frac{4.35}{2.18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>4</mn><mo>.</mo><mn>35</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>18</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 4.35 over denominator 2.18 end fraction"
+      },
+      {
+       "latex": "\\frac{13.0}{2.18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>13</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>18</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 13.0 over denominator 2.18 end fraction"
+      },
+      {
+       "latex": "\\frac{2.18}{2.18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>.</mo><mn>18</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>18</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2.18 over denominator 2.18 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J648QbjXfMGbt8MG",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_s5nMrwRY99q72rdT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "A compound has the following composition by mass: H, 5.00%; N, 35.00%; O, 60.00%.\n\nWhat is the identity of the compound?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Assume 100 g:\n\n  - H = 5.00 g\n  - N = 35.00 g\n  - O = 60.00 g\n- Divide by relative atomic mass (data booklet):\n\nH = $\\frac{5.00}{1.0}$ = 5.00\n\nN = $\\frac{35.00}{14.0}$ = 2.50\n\nO = $\\frac{60.00}{16.0}$ = 3.75\n\n- Divide by the smallest value (2.50):\n\nH = $\\frac{5.00}{2.50}$ = 2\n\nN = $\\frac{2.50}{2.50}$ = 1\n\nO = $\\frac{3.75}{2.50}$ = 1.5\n\n- Scale to whole numbers (× 2):\n\nH = 4\n\nN = 2\n\nO = 3\n\n- Empirical formula H<sub>4</sub>N<sub>2</sub>O<sub>3</sub> corresponds to NH<sub>4</sub>NO<sub>3</sub>\n\n**A** is incorrect as HNO<sub>2</sub> has the composition H:N:O = 1:1:2.\n\n**B** is incorrect as HNO<sub>3</sub> has the composition H:N:O = 1:1:3.\n\n**C** is incorrect as NH<sub>2</sub>OH has the composition H:N:O = 3:1:1.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "HNO<sub>2</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "HNO<sub>3</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "NH<sub>2</sub>OH"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "NH<sub>4</sub>NO<sub>3</sub>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{5.00}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 5.00 over denominator 1.0 end fraction"
+      },
+      {
+       "latex": "\\frac{35.00}{14.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>35</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>14</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 35.00 over denominator 14.0 end fraction"
+      },
+      {
+       "latex": "\\frac{60.00}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>60</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 60.00 over denominator 16.0 end fraction"
+      },
+      {
+       "latex": "\\frac{5.00}{2.50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>50</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 5.00 over denominator 2.50 end fraction"
+      },
+      {
+       "latex": "\\frac{2.50}{2.50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>.</mo><mn>50</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>50</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2.50 over denominator 2.50 end fraction"
+      },
+      {
+       "latex": "\\frac{3.75}{2.50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><mo>.</mo><mn>75</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>50</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.75 over denominator 2.50 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HjG9Wm7BqRNNssZS",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Pyr7yBf5vMjXm5yf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of compound **M** contains 1.46 g of carbon, 0.482 g of hydrogen and 1.69 g of nitrogen.\n\nWhat is the empirical formula of **M**?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Moles of each element (data booklet):\n\nC = $\\frac{1.46}{12.0}$ = 0.122 mol\n\nH = $\\frac{0.482}{1.0}$ = 0.482 mol\n\nN = $\\frac{1.69}{14.0}$ = 0.121 mol\n\n- Divide by the smallest value (0.121):\n\nC = $\\frac{0.122}{0.121}$ ≈ 1\n\nH = $\\frac{0.482}{0.121}$ ≈ 4\n\nN = $\\frac{0.121}{0.121}$ = 1\n\n- Empirical formula: CH<sub>4</sub>N\n\n**A** is incorrect as CH<sub>2</sub>N would require the H:C ratio to be 2:1, not 4:1.\n\n**C** is incorrect as C<sub>2</sub>H<sub>4</sub>N does not match the calculated ratio of atoms.\n\n**D** is incorrect as C<sub>4</sub>HN<sub>4</sub> does not match the calculated ratio of atoms.\n\n> **[exam-tip]**\n> A common mistake is to use a relative atomic mass of 16.0 for nitrogen, presumably from an expectation that the third element is oxygen.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>2</sub>N"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "CH<sub>4</sub>N"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "C<sub>2</sub>H<sub>4</sub>N"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "C<sub>4</sub>HN<sub>4</sub>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{1.46}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>.</mo><mn>46</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1.46 over denominator 12.0 end fraction"
+      },
+      {
+       "latex": "\\frac{0.482}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>482</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.482 over denominator 1.0 end fraction"
+      },
+      {
+       "latex": "\\frac{1.69}{14.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>.</mo><mn>69</mn></mrow><mrow><mn>14</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1.69 over denominator 14.0 end fraction"
+      },
+      {
+       "latex": "\\frac{0.122}{0.121}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>122</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>121</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.122 over denominator 0.121 end fraction"
+      },
+      {
+       "latex": "\\frac{0.482}{0.121}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>482</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>121</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.482 over denominator 0.121 end fraction"
+      },
+      {
+       "latex": "\\frac{0.121}{0.121}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>121</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>121</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.121 over denominator 0.121 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dQhznQwGY6phxR72",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JChBpbxVcwhcQZgV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "An organic compound has the following composition by mass: C, 53.33%; H, 11.11%; O, 35.56%.\n\nWhat is the empirical formula of the compound?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Assume 100 g:\n\n  - C = 53.33 g\n  - H = 11.11 g\n  - O = 35.56 g\n- Divide by relative atomic mass (data booklet):\n\nC = $\\frac{53.33}{12.0}$ = 4.44\n\nH = $\\frac{11.11}{1.0}$ = 11.11\n\nO = $\\frac{35.56}{16.0}$ = 2.22\n\n- Divide by the smallest value (2.22):\n\nC = $\\frac{4.44}{2.22}$ = 2\n\nH = $\\frac{11.11}{2.22}$ = 5\n\nO = $\\frac{2.22}{2.22}$ = 1\n\n- Empirical formula: C<sub>2</sub>H<sub>5</sub>O\n\n**A** is incorrect as C<sub>2</sub>H<sub>4</sub>O would require the H:C ratio to be 2:1, not 5:2.\n\n**C** is incorrect as C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> is not in its simplest whole-number ratio, as it simplifies to C<sub>2</sub>H<sub>4</sub>O.\n\n**D** is incorrect as C<sub>4</sub>H<sub>10</sub>O<sub>2</sub> is not in its simplest whole-number ratio, as it simplifies to C<sub>2</sub>H<sub>5</sub>O.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "C<sub>2</sub>H<sub>4</sub>O"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "C<sub>2</sub>H<sub>5</sub>O"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "C<sub>4</sub>H<sub>10</sub>O<sub>2</sub>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{53.33}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>53</mn><mo>.</mo><mn>33</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 53.33 over denominator 12.0 end fraction"
+      },
+      {
+       "latex": "\\frac{11.11}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>11</mn><mo>.</mo><mn>11</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 11.11 over denominator 1.0 end fraction"
+      },
+      {
+       "latex": "\\frac{35.56}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>35</mn><mo>.</mo><mn>56</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 35.56 over denominator 16.0 end fraction"
+      },
+      {
+       "latex": "\\frac{4.44}{2.22}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>4</mn><mo>.</mo><mn>44</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>22</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 4.44 over denominator 2.22 end fraction"
+      },
+      {
+       "latex": "\\frac{11.11}{2.22}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>11</mn><mo>.</mo><mn>11</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>22</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 11.11 over denominator 2.22 end fraction"
+      },
+      {
+       "latex": "\\frac{2.22}{2.22}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>.</mo><mn>22</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>22</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2.22 over denominator 2.22 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bYmH2w65zsG4tqkv",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YvGH3G5fVGCwfsyP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Which ionic equation represents the reaction between aqueous calcium chloride and aqueous silver nitrate?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Ionic equations show only the species that participate in the reaction; spectator ions are omitted\n- Ca<sup>2+</sup> (aq) and NO<sub>3</sub><sup>-</sup> (aq) are the spectator ions in this reaction\n- Ag<sup>+</sup> (aq) reacts with Cl<sup>-</sup> (aq) to form the insoluble precipitate AgCl (s):\n\nAg<sup>+</sup> (aq) + Cl<sup>-</sup> (aq) → AgCl (s)\n\n**A** is incorrect as AgNO<sub>3</sub> is written in molecular form; as a soluble ionic compound it must be shown as separate ions.\n\n**B** is incorrect as CaCl<sub>2</sub> must be written as Ca<sup>2+</sup> (aq) + 2Cl<sup>-</sup> (aq), retaining the spectator ion Ca<sup>2+</sup>.\n\n**C** is incorrect as Ca<sup>2+</sup> (aq) and NO<sub>3</sub><sup>-</sup> (aq) are spectator ions that do not react.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Ca<sup>2+</sup> (aq) + 2AgNO<sub>3</sub> (aq) → 2Ag<sup>+</sup> (s) + Ca(NO<sub>3</sub>)<sub>2</sub> (aq)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "CaCl<sub>2</sub> (aq) + 2Ag<sup>+</sup> (aq) → 2AgCl (s) + Ca<sup>2+</sup> (aq)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Ca<sup>2+</sup> (aq) + 2NO<sub>3</sub><sup>-</sup> (aq) → Ca(NO<sub>3</sub>)<sub>2</sub> (aq)"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Ag<sup>+</sup> (aq) + Cl<sup>-</sup> (aq) → AgCl (s)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5HXsnZrbzpM2g5TP",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_QmhcR6KMwjgb2j2B",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for a reaction is shown.\n\nMg<sub>3</sub>N<sub>2</sub> (s) + H<sub>2</sub>O (l) → Mg(OH)<sub>2</sub> (aq) + NH<sub>3</sub> (aq)\n\nWhich row gives the smallest whole-number coefficients required to balance the equation?\n\n|   | **Mg**<sub>3</sub>**N**<sub>2</sub> | **H**<sub>2</sub>**O** | **Mg(OH)**<sub>2</sub> | **NH**<sub>3</sub> |\n|---|---|---|---|---|\n| **A** | 1 | 6 | 3 | 2 |\n| **B** | 1 | 3 | 3 | 1 |\n| **C** | 2 | 6 | 2 | 2 |\n| **D** | 2 | 6 | 3 | 2 |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Starting with 1 Mg<sub>3</sub>N<sub>2</sub>:\n\n  - 3 Mg and 2 N on the left\n  - So, 3 Mg(OH)<sub>2</sub> and 2 NH<sub>3</sub> are needed on the right\n- 3 Mg(OH)<sub>2</sub> contains 6 OH groups (6 O, 6 H)\n- 2 NH<sub>3</sub> contains 6 H\n\n  - Total H on the right = 12\n  - So, 6 H<sub>2</sub>O are needed on the left\n- Balanced equation:\n\nMg<sub>3</sub>N<sub>2</sub> (s) + 6H<sub>2</sub>O (l) → 3Mg(OH)<sub>2</sub> (aq) + 2NH<sub>3</sub> (aq)\n\n**B**, **C** and **D** are incorrect as these options do not give the correctly balanced equation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

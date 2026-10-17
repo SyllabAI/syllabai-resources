@@ -1,0 +1,344 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:34Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "9-algorithm-design-and-problem-solving-",
+  "name": "9. Algorithm Design & Problem-solving"
+ },
+ "topic": {
+  "id": "top_gNMYK3bRGdjg8PRZ",
+  "slug": "computational-thinking-skills",
+  "name": "Computational Thinking Skills",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "computational-thinking-skills",
+   "name": "Computational Thinking Skills",
+   "revision_note_id": "rn_wq3XmQHDqTDMsRPK"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Pnk7KpKR4q4jNZ9w",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/9-algorithm-design-and-problem-solving-/computational-thinking-skills/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_BZW8GVnJshZJNcKH",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_mVq24TzkRhYJ792X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BT28pP7VkkWZYZbM"
+     ],
+     "part_tier": null,
+     "problem_md": "An airline is developing a program for a self-service check-in kiosk at an airport.\n\nA passenger scans their passport at the kiosk. The kiosk finds their booking, lets them choose a seat that is still free, then prints a boarding pass.\n\nDecomposition will be used to break the problem into sub-problems.\n\nDescribe **three** program modules that could be used in the design. For each module, state whether it should be written as a procedure or as a function.",
+     "solution_md": "`CheckBooking()` looks for a booking that matches the scanned passport and sends back `TRUE` or `FALSE`. **[1]** It is a function. **[1]**\n\n`GetFreeSeats()` sends back the list of seats on that flight that have not yet been taken. **[1]** It is a function. **[1]**\n\n`PrintBoardingPass()` prints the boarding pass for the chosen seat and sends nothing back. **[1]** It is a procedure. **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each description of an appropriate sub-problem of this scenario, up to a maximum of three\n> \n> **1 mark** for each module correctly named as a procedure or a function, matching the description you have given, up to a maximum of three\n> \n> Examples include:\n> \n> Module: `CheckBooking()`. Use: finds the booking that matches the scanned passport and returns whether one was found. Type: function\n> \n> Module: `GetFreeSeats()`. Use: returns the seats on the flight that are still free. Type: function\n> \n> Module: `AllocateSeat()`. Use: records the seat the passenger has chosen against the booking. Type: procedure\n> \n> Module: `PrintBoardingPass()`. Use: prints the boarding pass for the passenger. Type: procedure\n> \n> Module: `PrintBagTag()`. Use: prints a tag for a bag the passenger is checking in. Type: procedure\n> \n> Module: `CalculateBaggageCharge()`. Use: returns the amount owed for baggage above the free allowance. Type: function\n> \n> The type mark is awarded on your own description. A module described as sending a value back is a function, and a module described as carrying out a task and sending nothing back is a procedure.\n> \n> Do not award a type mark where no module description has been given.\n> \n> Do not accept three modules that perform the same task under different names.\n\n> **[exam-tip]**\n> Give each module a name that says what it does, then one sentence on what it does, then the type. A name on its own earns nothing, and neither does a vague use such as \"deals with the booking\".\n> \n> Decide the type from your own description, not from the size of the job. `PrintBoardingPass()` is the biggest task on this list and it is still a procedure, because it hands no value back. If your description says \"returns\" or \"sends back\", you have written a function."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mhMxgdtw9NKcDgKF",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_V9spbfc88jDydyZt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BT28pP7VkkWZYZbM"
+     ],
+     "part_tier": null,
+     "problem_md": "A software company is writing a large program for an online hotel booking system.\n\nThe company uses decomposition to break the problem down into sub-problems. Each sub-problem is written as a separate program module.\n\nDescribe **three** benefits of designing the program in this way.",
+     "solution_md": "A smaller sub-problem is easier to understand and easier to solve than the whole problem at once. **[1]**\n\nSmall modules are easier to program, to test and to maintain than one large program. **[1]**\n\nDifferent modules can be given to different programmers, so the modules can be written separately and at the same time. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for breaking a complex problem down makes it easier to understand or to solve, because each sub-problem is smaller\n> \n> **1 mark** for smaller modules are easier to program, to test, to debug or to maintain\n> \n> **1 mark** for different sub-problems can be given to different programmers, or to programmers with different expertise, so they can be solved separately\n> \n> Accept, for any one mark, that a module can be reused when the same task is needed in several places in the program.\n> \n> Accept, for any one mark, that the complexity of the program is reduced.\n> \n> Do not accept the same benefit written twice in different words. \"Easier to test\" and \"easier to debug\" are one point, not two.\n> \n> Do not accept \"the program runs faster\". Decomposition changes how the program is designed, not how quickly it executes.\n\n> **[exam-tip]**\n> Three marks means three different benefits. The easiest way to lose a mark here is to write \"easier to write\", \"easier to test\" and \"easier to debug\" as though they were three separate points. They are all the same idea, so examiners credit them once.\n> \n> Reach for benefits from different stages instead: one about designing and understanding the problem, one about testing and maintaining the finished code, and one about how a team of programmers can share the work."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ycjCsYvB8tQmqfJ6",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7wgp5VYFhGkwwBWx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BT28pP7VkkWZYZbM"
+     ],
+     "part_tier": null,
+     "problem_md": "A supermarket is writing a program for a self-service checkout.\n\nDecomposition is used to break the problem into sub-problems. Each sub-problem will be written as a program module.\n\nTwo types of program module may be used: a procedure or a function.\n\nState which type of program module should be used for each of the following sub-problems.\n\nSub-problem 1: add up the prices of the items that have been scanned and send the total back to the part of the program that called it.\n\nSub-problem 2: print a receipt for the customer. Nothing is sent back to the part of the program that called it.",
+     "solution_md": "Sub-problem 1: `FUNCTION` **[1]**\n\nSub-problem 2: `PROCEDURE` **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Sub-problem 1: function\n> \n> **1 mark** for Sub-problem 2: procedure\n> \n> Accept the answers written in lower case, and accept the keywords `FUNCTION` and `PROCEDURE`.\n> \n> Do not accept \"subroutine\", \"module\", \"method\" or \"routine\" for either answer. The question names the two types to choose between, so the answer must select one of them.\n\n> **[exam-tip]**\n> There is one test and only one: does the module send a value back to whatever called it? If it does, it is a function. If it just performs a task, it is a procedure.\n> \n> Many students answer \"function\" for both, because both modules clearly do some work. Doing work is not the test. Sub-problem 2 does a great deal of work and still returns nothing, so it is a procedure."
+    }
+   ]
+  },
+  {
+   "id": "qstn_HQT2QnJ43FjfMFvj",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_drwRYbKBZWT22cxf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A company hires out electric scooters in a city. A user unlocks a scooter using a mobile app, rides it, and then ends the hire by locking the scooter at any scooter parking point. The user pays for each minute of the hire.\n\nAn abstract model of the hire system is to be produced.\n\nState **four** items of data that should be stored each time a scooter is hired.\n\nState **two** operations that would be needed to process the hire data.",
+     "solution_md": "Data items:\n\nScooter ID **[1]**\n\nUser ID **[1]**\n\nDate and time the hire started **[1]**\n\nDate and time the hire ended **[1]**\n\nOperations:\n\nCalculate the length of the hire in minutes **[1]**\n\nCalculate the cost of the hire **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **Any four from, one mark each, for the data items:**\n> \n> - scooter ID\n> - user ID\n> - date and time the hire started\n> - date and time the hire ended, or the number of minutes the scooter was used\n> - parking point where the scooter was unlocked\n> - parking point where the scooter was locked\n> - cost of the hire\n> - whether the payment for the hire was successful\n> \n> **[4 marks]**\n> \n> **Any two from, one mark each, for the operations:**\n> \n> - check that the scooter is available before it is unlocked\n> - unlock the scooter and start the hire\n> - lock the scooter and end the hire\n> - calculate the length of the hire from the start and end times\n> - calculate the cost of the hire from the number of minutes used\n> - take the payment from the user\n> - update the stored location of the scooter\n> \n> **[2 marks]**\n> \n> Award the same point only once. \"Date and time the hire ended\" and \"number of minutes used\" are the same item and score one mark in total.\n> \n> Accept details of the scooter, such as its ID or its type, as one data item.\n> \n> Do not accept an operation written in the data list, or a data item written in the operation list.\n\n> **[exam-tip]**\n> An abstract model has two halves: the data the system holds and the operations the system performs on it. The marks here are split four and two, so write four nouns and then two verbs. Answers that give six data items and no operations throw away two marks.\n> \n> The other frequent loss is repeating one item in two forms, such as \"end time\" and \"minutes used\". They come from the same fact, so only one of them is credited. Make each of your four items genuinely different."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MBz4SbqXtDv4Jndj",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_r2FMXrZMP8bQD3VT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A company operates a multi-storey car park. A camera reads the number plate of each vehicle as it enters and again as it leaves.\n\nThe system stores the following data for each visit: number plate, vehicle colour, vehicle make, entry date and time, exit date and time, parking bay number and the driver's mobile phone number.\n\nA new module will calculate the parking fee owed by a driver when the vehicle leaves. The fee depends only on the length of time the vehicle was parked.\n\nExplain how abstraction is applied when the new module is designed. Refer to the data given in your answer.",
+     "solution_md": "Abstraction keeps only the data that is needed to solve this problem and filters out the data that is not needed. **[1]**\n\nThe entry date and time and the exit date and time are kept, because the fee depends on how long the vehicle was parked. **[1]**\n\nThe vehicle colour, the vehicle make, the parking bay number and the driver's mobile phone number are left out of the model, because none of them changes the fee. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating the purpose of abstraction: only the data needed for the task is kept, or the data that is not needed for the task is filtered out\n> \n> **1 mark** for naming data that is kept, with a reason: entry date and time and exit date and time, because the fee depends on the length of time parked\n> \n> **1 mark** for naming data that is left out: vehicle colour, vehicle make, parking bay number or the driver's mobile phone number\n> \n> Accept the number plate as data that is kept, because it is needed to match the entry record to the exit record for the same vehicle.\n> \n> Accept \"number of minutes parked\" in place of the two date and time items.\n> \n> Do not accept the second or third mark for an answer that only repeats the definition of abstraction. The question says to refer to the data given, so the item must be named.\n\n> **[exam-tip]**\n> This is a three-mark question, so one sentence defining abstraction cannot reach full marks. Give the definition once, then say which of the listed items you keep and which you throw away, and say why.\n> \n> Students often keep the parking bay number because it feels like part of parking. Test every item against the one rule the question gives you: the fee depends only on the length of time. The bay number does not change the time, so it goes."
+    }
+   ]
+  },
+  {
+   "id": "qstn_tByn3rbRrj5dFgyV",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_GTyKKYSXbjnzccxh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A train company runs an online ticketing system.\n\nThe system stores the following information for each passenger who books a ticket: passenger name, email address, home address, date of birth, preferred language, train number, travel date and seat number.\n\nA new module will produce a seat reservation list for the staff working on a train. The list shows the seat number and the passenger name for every passenger travelling on that train on that date.\n\nAbstraction is used when the new module is designed.\n\nIdentify **two** items of information, from those listed, that the new module does **not** need.",
+     "solution_md": "Home address **[1]**\n\nDate of birth **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from, one mark each:**\n> \n> - email address\n> - home address\n> - date of birth\n> - preferred language\n> \n> **[2 marks]**\n> \n> Do not accept passenger name, seat number, train number or travel date. Each of these is needed, either to choose the passengers travelling on that train on that date or to print the list.\n> \n> Do not accept a general statement about abstraction. The question asks for items taken from the list given.\n\n> **[exam-tip]**\n> Read the description of the new module, not the description of the whole system. The system stores plenty of data that the ticketing company needs for other reasons, but this module only prints seat numbers and names, so anything that does not help to build that list is filtered out.\n> \n> A common mistake is to name an item that the module does need, such as the train number, because it is not printed on the list. An item can still be essential even when it never appears in the output, if it is used to decide which records to include."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fkghf4d77sV7sqTZ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_brRNMpGC4jKPmskq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BT28pP7VkkWZYZbM"
+     ],
+     "part_tier": null,
+     "problem_md": "A fitness club has a computerised membership system.\n\nThe system stores information for each club member: name, home address, email address, mobile phone number, date of birth and exercise preferences.\n\nMany classes are full, and the club creates a waiting list for each class. The club adds details of members who want to join a class that is full to the waiting list for that class.\n\nWhen the system identifies that a space is available in one of the classes, a new module will send a text message to each member who is on the waiting list.\n\nDecomposition will be used to break the new module into sub‑modules (sub‑problems).\n\nIdentify **three** sub‑modules that could be used in the design and describe their use.\n\nSub‑module 1 ..........................................................................................................\n\nUse ..........................................................................................................................\n\nSub‑module 2 .........................................................................................................\n\nUse ..........................................................................................................................\n\nSub‑module 3 .........................................................................................................\n\nUse ..........................................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> Examples include:\n> \n> Module: `IdentifyMember() `\n> Use: Identifies a club member who has expressed an interest in a given class\n> \n> Module: `GetMemberPhoneNumber() `\n> Use: Gets the mobile phone number of a member\n> \n> Module: `CreateMessage() `\n> Use: Generates a text message to a member\n> \n> Module: `SendMessage() `\n> Use: Sends a text message to a member in the waiting list\n> \n> One mark for name **and** use\n> \n> **Note: max 3 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HbGmgX83SwfbjyBD",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YdTmSSXRxMgjpvVp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 7,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A fitness club has a computerised membership system. The fitness club offers a number of different exercise classes.\n\nThe following information is stored for each club member: name, home address, email address, mobile phone number, date of birth and the exercise(s) they are interested in.\n\nWhen an exercise class is planned, a new module will send personalised text messages to each member who has expressed an interest in that exercise. Members wishing to join the class send a text message back. Members may decide **not **to receive future text messages by replying with the message ‘STOP’.\n\nThe process of abstraction is used to filter out unnecessary information.\n\nState **one** advantage of applying abstraction to this problem.",
+     "solution_md": "> **[mark-scheme]**\n> To make the solution easier to design / implement / solve"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GxKqjBwQkRpRMzVV",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_pfjrNzdng9sfW7mV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A coffee shop runs a computerised loyalty card system.\n\nCustomers are issued with a loyalty card with their name together with a unique customer ID.\n\nLoyalty points are added to their card each time they spend money at the shop.\n\nThe following information is stored for each customer: ID, name, home address, email address, mobile phone number, date of birth, number of points, date of last visit and amount of money spent at last visit.\n\nA new module will generate a personalised email message to each loyalty card customer who has not visited the coffee shop in the last three months. The message will include a unique voucher code which can be used to authorise a discount if the customer goes to the shop within the next two weeks.\n\nIdentify **three **items of customer information that will be used by the new module **and** justify your choices.\n\nItem 1 .....................................................................................................................\n\nJustification ............................................................................................................\n\nItem 2 .......................................................................................................................\n\nJustification ............................................................................................................\n\nItem 3 ......................................................................................................................\n\nJustification ............................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> - Customer ID – to reference the other customer details\n> - Email address – to send the email\n> - Name – to personalise the email\n> - Date of last visit – to select which customers should receive an email\n> - Unique voucher code (or method of code generation) – to include in the email\n> \n> Mark as follows:\n> \n> One mark per item **and** justification\n> \n> **Max 3 marks**"
+    },
+    {
+     "id": "qstnprt_Ynkhvb9SM7DnhmYQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the computational thinking skill that you needed to use to answer part (a).",
+     "solution_md": "> **[mark-scheme]**\n> Abstraction"
+    }
+   ]
+  }
+ ]
+}

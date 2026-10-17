@@ -1,0 +1,801 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:49:55Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "23-chemical-energetics",
+  "name": "23. Chemical Energetics"
+ },
+ "topic": {
+  "id": "top_7PNFzV4pTvWCK6YY",
+  "slug": "23-4-gibbs-free-energy-change-g",
+  "name": "Gibbs Free Energy Change, ΔG",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "gibbs-free-energy-change-and-gibbs-equation",
+   "name": "Gibbs Free Energy Change & Gibbs Equation",
+   "revision_note_id": "rn_6HTwqmCM8R5rhH8w"
+  },
+  {
+   "slug": "reaction-feasibility",
+   "name": "Reaction Feasibility",
+   "revision_note_id": "rn_jwZBrG8RmWCjSW2S"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_68dXxNJjD2JKR3Nm",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/23-chemical-energetics/23-4-gibbs-free-energy-change-g/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_wNCk7ddmn3Qqzfg3",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_fFPNR925SYN3jFGs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8Y5M4NmNmFkWjxnG",
+      "spcpt_jwHMMFYwBVHjq8Bd"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon dioxide and hydrogen can react to form methanol.\n\nCO<sub>2</sub> (g) + 3H<sub>2</sub> (g) ⇌ CH<sub>3</sub>OH (g) + H<sub>2</sub>O (g)\n\nData for standard enthalpy of formation and standard entropy is shown in Table 1.1.\n\n**Table 1.1**\n\n|   | CO<sub>2</sub> (g) | H<sub>2</sub> (g) | CH<sub>3</sub>OH (g) | H<sub>2</sub>O (g) |\n|---|---|---|---|---|\n| Δ*H*<sup>θ</sup><sub>f</sub> / kJ mol<sup>-1</sup> | -394 | 0 | -201 | -242 |\n| *S*<sup>θ</sup> / J K<sup>-1</sup> mol<sup>-1</sup> | 214 | 131 | 238 | 189 |\n\ni) Calculate the standard enthalpy change, Δ*H*<sup>θ</sup>, for this reaction. Show your working.\n\n[2]\n\nii) Calculate the standard entropy change, Δ*S*<sup>θ</sup>, for this reaction. Show your working.\n\n[2]\n\niii) Hence, calculate the standard Gibbs free energy change, Δ*G*<sup>θ</sup>, for this reaction at 790 K. Show your working.\n\n[2]",
+     "solution_md": "To calculate the standard thermodynamic quantities for the reaction:\n\ni) Standard enthalpy change, Δ*H*<sup>θ</sup>:\n\n- Apply Δ*H*<sup>θ</sup> = ΣΔ*H*<sup>θ</sup><sub>f</sub>(products) − ΣΔ*H*<sup>θ</sup><sub>f</sub>(reactants) and substitute values:\n\nΔ*H*<sup>θ</sup> = [(−201) + (−242)] − [(−394) + (3 x 0)]\n\nΔ*H*<sup>θ</sup> = −443 − (−394) **[1 mark]**\n\n- Calculate Δ*H*<sup>θ</sup>:\n\nΔ*H*<sup>θ</sup> = **−49 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for correct substitution into the Δ*H*<sup>θ</sup> expression\n> \n> 1 mark for Δ*H*<sup>θ</sup> = −49 kJ mol<sup>-1</sup>\n> \n> Allow −48 to −50 kJ mol<sup>-1</sup>\n\nii) Standard entropy change, Δ*S*<sup>θ</sup>:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants) and substitute values:\n\nΔ*S*<sup>θ</sup> = [(238) + (189)] − [(214) + (3 x 131)]\n\nΔ*S*<sup>θ</sup> = 427 − 607 **[1 mark]**\n\n- Calculate Δ*S*<sup>θ</sup>:\n\nΔ*S*<sup>θ</sup> = **−180 J K**<sup>**-1**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> ii)\n> \n> 1 mark for correct substitution with 3 x 131 for H<sub>2</sub> (g)\n> \n> 1 mark for Δ*S*<sup>θ</sup> = −180 J K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Allow −179 to −181 J K<sup>-1</sup> mol<sup>-1</sup>\n\niii) Standard Gibbs free energy change, Δ*G*<sup>θ</sup>, at 790 K:\n\n- Convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> and substitute into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = −49 − (790 x (−0.180))\n\nΔ*G*<sup>θ</sup> = −49 + 142.2 **[1 mark]**\n\n- Calculate Δ*G*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = **+93.2 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> iii)\n> \n> 1 mark for correct substitution with Δ*S*<sup>θ</sup> converted to kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for Δ*G*<sup>θ</sup> = +93.2 kJ mol<sup>-1</sup>; allow error carried forward from (i) and (ii)\n\n> **[exam-tip]**\n> In part (iii), before substituting into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>, convert Δ*S*<sup>θ</sup> from J K<sup>-1</sup> mol<sup>-1</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> by dividing by 1000:\n> \n> −180 / 1000 = −0.180 kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> In part (ii), remember to multiply *S*<sup>θ</sup>(H<sub>2</sub>, g) by 3 (its stoichiometric coefficient) before summing."
+    },
+    {
+     "id": "qstnprt_5ZfR98ZppS8nmQDN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd",
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCarbon dioxide and hydrogen can react to form methanol.\n\nCO₂ (g) + 3H₂ (g) ⇌ CH₃OH (g) + H₂O (g)\n\niii) Hence, calculate the standard Gibbs free energy change, Δ*G*^θ^, for this reaction at 790 K. Show your working.\n\niii) Standard Gibbs free energy change, Δ*G*^θ^, at 790 K:\n\nΔ*G*^θ^ = +93.2 kJ mol^-1^\n\nUse your answer to part **(a)(iii)** to state whether this reaction is feasible at 790 K.",
+     "solution_md": "> **[mark-scheme]**\n> Using the answer to (a)(iii) to state whether the reaction is feasible at 790 K:\n> \n> - The reaction is not feasible at 790 K / Δ*G*<sup>θ</sup> is positive **[1 mark]**\n\n> **[exam-tip]**\n> A reaction is feasible when Δ*G*<sup>θ</sup> < 0. Since Δ*G*<sup>θ</sup> = +93.2 kJ mol<sup>-1</sup> at 790 K, the reaction is not feasible at this temperature."
+    },
+    {
+     "id": "qstnprt_GhkX5Cx9NzSV5v3k",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd",
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCarbon dioxide and hydrogen can react to form methanol.\n\nCO₂ (g) + 3H₂ (g) ⇌ CH₃OH (g) + H₂O (g)\n\nData for standard enthalpy of formation and standard entropy is shown in Table 1.1.\n\n**Table 1.1**\n\n|   | CO₂ (g) | H₂ (g) | CH₃OH (g) | H₂O (g) |\n| --- | :---: | :---: | :---: | :---: |\n| ΔH°f / kJ mol⁻¹ | -394 | 0 | -201 | -242 |\n| S° / J K⁻¹ mol⁻¹ | 214 | 131 | 238 | 189 |\n\ni) Calculate the standard enthalpy change, ΔH°, for this reaction. Show your working.\n\nii) Calculate the standard entropy change, ΔS°, for this reaction. Show your working.\n\nUsing your answers to parts **(a)(i)** and **(a)(ii)**, calculate the temperature below which this reaction is feasible. Show your working.",
+     "solution_md": "To calculate the temperature below which the reaction is feasible:\n\n- At the feasibility boundary, Δ*G*<sup>θ</sup> = 0, so *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>:\n\n*T* = −49 / −0.180 **[1 mark]**\n\n- Calculate *T*:\n\n*T* = **272 K** **[1 mark]**\n\nThe reaction is feasible when *T* < 272 K\n\n> **[mark-scheme]**\n> 1 mark for correct substitution *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup> with Δ*S*<sup>θ</sup> in kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for *T* = 272 K; allow 270 to 275 K\n> \n> Allow error carried forward from (a)(i) and (a)(ii)\n> \n> The feasibility statement (*T* < 272 K) is not required for marks\n\n> **[exam-tip]**\n> At the feasibility boundary, Δ*G*<sup>θ</sup> = 0:\n> \n> 0 = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n> \n> Remember to convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> (−0.180) before dividing, to match the units of Δ*H*<sup>θ</sup>."
+    },
+    {
+     "id": "qstnprt_cHbZQxSFs8JbckVr",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCarbon dioxide and hydrogen can react to form methanol.\n\nCO₂ (g) + 3H₂ (g) ⇌ CH₃OH (g) + H₂O (g)\n\nExplain why the reaction in part **(a)** has a negative entropy change.",
+     "solution_md": "> **[mark-scheme]**\n> Why the reaction in part (a) has a negative entropy change:\n> \n> - Fewer moles / molecules of gas are produced than are consumed in the reaction **[1 mark]**\n\n> **[exam-tip]**\n> In the equation CO<sub>2</sub> (g) + 3H<sub>2</sub> (g) ⇌ CH<sub>3</sub>OH (g) + H<sub>2</sub>O (g), there are 4 moles of gas on the left and 2 moles of gas on the right. Fewer moles of gas means less disorder, so entropy decreases (Δ*S*<sup>θ</sup> < 0)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_t4CnpkJnrMnpV7g9",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Xz4Vds7tf8tRptJx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8Y5M4NmNmFkWjxnG"
+     ],
+     "part_tier": null,
+     "problem_md": "Using Table 4.1, calculate the entropy change, Δ*S*<sup>θ</sup>, for the combustion of ethanol at 298 K. Show your working.\n\n**Table 4.1**\n\n| **substance** | CH<sub>3</sub>CH<sub>2</sub>OH (l) | O<sub>2</sub> (g) | CO<sub>2</sub> (g) | H<sub>2</sub>O (g) |\n|---|---|---|---|---|\n| ***S***<sup>**θ**</sup>** / J K**<sup>-1</sup>** mol**<sup>-1</sup> | +161 | +205.2 | +213.8 | +188.8 |\n\nΔ*S*<sup>θ</sup> = ........................... (J K<sup>-1</sup> mol<sup>-1</sup>)",
+     "solution_md": "To calculate the entropy change, Δ*S*<sup>θ</sup>, for the combustion of ethanol at 298 K:\n\n- Write the expression and substitute values:\n\nΔ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants)\n\nΔ*S*<sup>θ</sup> = [(2 x 213.8) + (3 x 188.8)] − [(1 x 161) + (3 x 205.2)] **[1 mark]**\n\n- Calculate Δ*S*<sup>θ</sup>:\n\nΔ*S*<sup>θ</sup> = 994 − 776.6\n\nΔ*S*<sup>θ</sup> = **+217.4 J K**<sup>**-1**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 217 to 218 J K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Allow error carried forward if the expression is set up correctly but arithmetic is incorrect\n\n> **[exam-tip]**\n> Multiply each *S*<sup>θ</sup> value by its stoichiometric coefficient before summing:\n> \n> - 2 x *S*<sup>θ</sup> CO<sub>2</sub> (g)\n> - 3 x *S*<sup>θ</sup> H<sub>2</sub>O (g)\n> - 3 x *S*<sup>θ</sup> O<sub>2</sub> (g)\n> \n> Forgetting to apply stoichiometric coefficients is a common error in this type of calculation."
+    },
+    {
+     "id": "qstnprt_8dJD7kCFjydXwxY2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j9xWMbPMSC6qSJnY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUsing Table 4.1, calculate the entropy change, Δ*S*^θ^, for the combustion of ethanol at 298 K. Show your working.\n\n**Table 4.1**\n\n| **substance** | CH~3~CH~2~OH (l) | O~2~ (g) | CO~2~ (g) | H~2~O (g) |\n| --- | :---: | :---: | :---: | :---: |\n| ***S***^**θ**^** / J K**^-1^** mol**^-1^ | +161 | +205.2 | +213.8 | +188.8 |\n\nUsing the value of Δ*H*<sup>θ</sup> given in part **(a)** and your answer to part **(a)**, calculate the standard Gibbs free energy change, Δ*G*<sup>θ</sup>, for the combustion of ethanol at 298 K. Show your working.",
+     "solution_md": "To calculate the standard Gibbs free energy change, Δ*G*<sup>θ</sup>, for the combustion of ethanol at 298 K:\n\n- Write the expression:\n\nΔ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> **[1 mark]**\n\n- Convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> and substitute values:\n\nΔ*S*<sup>θ</sup> = 217.4 / 1000 = 0.2174 kJ K<sup>-1</sup> mol<sup>-1</sup>\n\nΔ*G*<sup>θ</sup> = −1367 − (298 x 0.2174)\n\nΔ*G*<sup>θ</sup> = −1367 − 64.8 **[1 mark]**\n\n- Calculate Δ*G*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = **−1432 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct expression Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct substitution with Δ*S*<sup>θ</sup> converted to kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for correct final answer\n> \n> Allow −1431 to −1433 kJ mol<sup>-1</sup>\n> \n> Allow error carried forward from part (a)\n\n> **[exam-tip]**\n> Before substituting, convert Δ*S*<sup>θ</sup> from J K<sup>-1</sup> mol<sup>-1</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> by dividing by 1000. This ensures the units match Δ*H*<sup>θ</sup> (kJ mol<sup>-1</sup>):\n> \n> 217.4 / 1000 = 0.2174 kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Alternatively, convert Δ*H*<sup>θ</sup> from kJ mol<sup>-1</sup> to J mol<sup>-1</sup> by multiplying by 1000. Either method is valid, but avoid mixing units in the same calculation."
+    },
+    {
+     "id": "qstnprt_xMwhW6sJb7M24nJv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUsing Table 4.1, calculate the entropy change, Δ*S*^θ^, for the combustion of ethanol at 298 K.\n\nΔ*S*^θ^ = +217.4 J K^-1^ mol^-1^\n\nΔ*H*^θ^ = −1367 kJ mol^-1^\n\nExplain whether changing the temperature for the combustion of ethanol will affect the feasibility of the reaction.",
+     "solution_md": "> **[mark-scheme]**\n> Whether changing the temperature affects the feasibility of the combustion of ethanol:\n> \n> - Changing the temperature does not affect the feasibility of the reaction **[1 mark]**\n> - Δ*H*<sup>θ</sup> is always negative\n> **AND**\n> Δ*S*<sup>θ</sup> is always positive **[1 mark]**\n> - Therefore Δ*G*<sup>θ</sup> is always negative at any temperature / the reaction is always feasible **[1 mark]**\n\n> **[exam-tip]**\n> The feasibility of a reaction depends on the sign of Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>:\n> \n> | Δ*H*<sup>θ</sup> | Δ*S*<sup>θ</sup> | Δ*G*<sup>θ</sup> | Feasible? |\n> |---|---|---|---|\n> | Negative (exothermic) | Positive (more disorder) | Always negative | At all temperatures |\n> \n> When Δ*H*<sup>θ</sup> < 0 and Δ*S*<sup>θ</sup> > 0, Δ*G*<sup>θ</sup> is negative at all temperatures, so the reaction is always feasible regardless of temperature."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SRFnpGkN4zNDKgqv",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_D5gVZMJbm6xkJcDr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "Free energy changes can be used to predict the feasibility of chemical reactions and processes.\n\nTable 3.1 shows the equations of five different chemical reactions or processes.\n\nComplete the table to show the sign of Δ*S*<sup>θ</sup> for each chemical reaction and process.\n\n**Table 3.1**\n\n| **chemical reaction or process** | **sign of Δ*****S***<sup>**θ**</sup> |\n|---|---|\n| MgCl<sub>2</sub> (s) + (aq) → MgCl<sub>2</sub> (aq) |   |\n| Ca (s) + H<sub>2</sub>SO<sub>4</sub> (aq) → CaSO<sub>4</sub> (aq) + H<sub>2</sub> (g) |   |\n| Na<sub>2</sub>SO<sub>4</sub> (s) + 10H<sub>2</sub>O (l) → Na<sub>2</sub>SO<sub>4</sub>•10H<sub>2</sub>O (s) |   |\n| 2CO (g) + O<sub>2</sub> (g) → 2CO<sub>2</sub> (g) |   |\n| C<sub>2</sub>H<sub>5</sub>OH (g) → C<sub>2</sub>H<sub>5</sub>OH (l) |   |",
+     "solution_md": "The completed table is:\n\n| **chemical reaction or process** | **sign of Δ*****S***<sup>**θ**</sup> |\n|---|---|\n| MgCl<sub>2</sub> (s) + (aq) → MgCl<sub>2</sub> (aq) | **Final answer:** **+** |\n| Ca (s) + H<sub>2</sub>SO<sub>4</sub> (aq) → CaSO<sub>4</sub> (aq) + H<sub>2</sub> (g) | **Final answer:** **+** |\n| Na<sub>2</sub>SO<sub>4</sub> (s) + 10H<sub>2</sub>O (l) → Na<sub>2</sub>SO<sub>4</sub>•10H<sub>2</sub>O (s) | **Final answer:** **−** |\n| 2CO (g) + O<sub>2</sub> (g) → 2CO<sub>2</sub> (g) | **Final answer:** **−** |\n| C<sub>2</sub>H<sub>5</sub>OH (g) → C<sub>2</sub>H<sub>5</sub>OH (l) | **Final answer:** **−** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 2 marks for all 5 signs correct\n> \n> 1 mark for 3 or 4 signs correct\n> \n> 0 marks for 2 or fewer signs correct\n\n> **[exam-tip]**\n> Entropy increases (Δ*S*<sup>θ</sup> positive) when the system becomes more disordered; it decreases (Δ*S*<sup>θ</sup> negative) when the system becomes more ordered. Use state symbols as a guide:\n> \n> - Solid or liquid → gas: entropy increases (+)\n> - Gas → liquid or solid: entropy decreases (−)\n> - Fewer moles of gas in products than reactants: entropy decreases (−)\n> - More moles of gas in products: entropy increases (+)\n> - Dissolving an ionic solid: entropy increases (+)\n> \n> For the hydrated salt Na<sub>2</sub>SO<sub>4</sub>•10H<sub>2</sub>O: a solid and a liquid combine to form a solid, so disorder decreases (−)."
+    },
+    {
+     "id": "qstnprt_v2fXcNNJTwzTZy4V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "The enthalpy and entropy changes of a reaction are both negative.\n\nExplain how the feasibility of this reaction will change as the temperature decreases.",
+     "solution_md": "> **[mark-scheme]**\n> How feasibility changes as temperature decreases when both Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are negative:\n> \n> - As temperature decreases, Δ*G*<sup>θ</sup> decreases\n> **AND**\n> the reaction becomes more feasible **[1 mark]**\n> - Because *T*Δ*S*<sup>θ</sup> decreases in magnitude / becomes less negative **[1 mark]**\n\n> **[exam-tip]**\n> When Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are both negative, the feasibility depends on temperature:\n> \n> | Δ*H*<sup>θ</sup> | Δ*S*<sup>θ</sup> | Δ*G*<sup>θ</sup> | Feasible? |\n> |---|---|---|---|\n> | Negative | Negative | Negative at low *T* | At low temperatures |\n> \n> To see this numerically, substitute imaginary values. For example, with Δ*H*<sup>θ</sup> = −100 kJ mol<sup>-1</sup> and Δ*S*<sup>θ</sup> = −0.10 kJ K<sup>-1</sup> mol<sup>-1</sup>:\n> \n> - At *T* = 100 K: Δ*G*<sup>θ</sup> = −100 − (100 x −0.10) = −90 kJ mol<sup>-1</sup> (feasible)\n> - At *T* = 1500 K: Δ*G*<sup>θ</sup> = −100 − (1500 x −0.10) = +50 kJ mol<sup>-1</sup> (not feasible)\n> \n> As *T* increases, −*T*Δ*S*<sup>θ</sup> becomes more positive, pushing Δ*G*<sup>θ</sup> positive. The reaction is feasible only at low temperatures."
+    },
+    {
+     "id": "qstnprt_pqcngSNHp8SJ74Jv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ",
+      "spcpt_8Y5M4NmNmFkWjxnG"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for this reversible reaction is:\n\n2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g)\n\nUse the information in Table 3.2 to answer the following.\n\n**Table 3.2**\n\n|   | SO<sub>2</sub> | O<sub>2</sub> | SO<sub>3</sub> |\n|---|---|---|---|\n| Δ*H*<sup>θ</sup><sub>f</sub> / kJ mol<sup>-1</sup> | −296.8 | 0 | −395.7 |\n| *S*<sup>θ</sup> / J K<sup>-1</sup> mol<sup>-1</sup> | 248.2 | 205.1 | 256.8 |\n\ni) Calculate the standard enthalpy change, Δ*H*<sup>θ</sup>, for the reaction. Show your working.\n\n[2]\n\nii) Calculate the standard entropy change, Δ*S*<sup>θ</sup>, for the reaction. Show your working.\n\n[2]\n\niii) Calculate the temperature below which this reaction is feasible. Show your working.\n\n[2]",
+     "solution_md": "To calculate thermodynamic quantities for the reaction between SO<sub>2</sub> and O<sub>2</sub>:\n\ni) Standard enthalpy change, Δ*H*<sup>θ</sup>:\n\n- Apply Δ*H*<sup>θ</sup> = ΣΔ*H*<sup>θ</sup><sub>f</sub>(products) − ΣΔ*H*<sup>θ</sup><sub>f</sub>(reactants) and substitute values:\n\nΔ*H*<sup>θ</sup> = [2 x (−395.7)] − [2 x (−296.8) + 0]\n\nΔ*H*<sup>θ</sup> = −791.4 − (−593.6) **[1 mark]**\n\n- Calculate Δ*H*<sup>θ</sup>:\n\nΔ*H*<sup>θ</sup> = **−197.8 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for correct substitution with 2 x (−395.7) and 2 x (−296.8)\n> \n> 1 mark for Δ*H*<sup>θ</sup> = −197.8 kJ mol<sup>-1</sup>\n> \n> Allow −197 to −198 kJ mol<sup>-1</sup>\n\nii) Standard entropy change, Δ*S*<sup>θ</sup>:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants) and substitute values:\n\nΔ*S*<sup>θ</sup> = [2 x 256.8] − [2 x 248.2 + 205.1]\n\nΔ*S*<sup>θ</sup> = 513.6 − 701.5 **[1 mark]**\n\n- Calculate Δ*S*<sup>θ</sup>:\n\nΔ*S*<sup>θ</sup> = **−187.9 J K**<sup>**-1**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> ii)\n> \n> 1 mark for correct substitution with 2 x 256.8, 2 x 248.2, and 205.1\n> \n> 1 mark for Δ*S*<sup>θ</sup> = −187.9 J K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Allow −187 to −189 J K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Allow error carried forward from (c)(i)\n\niii) Temperature below which the reaction is feasible:\n\n- At the feasibility boundary, Δ*G*<sup>θ</sup> = 0; convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> and find *T*:\n\n*T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n\n*T* = −197.8 / −0.1879 **[1 mark]**\n\n- Calculate *T*:\n\n*T* = **1053 K** **[1 mark]**\n\n> **[mark-scheme]**\n> iii) 1 mark for correct substitution *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup> with Δ*S*<sup>θ</sup> converted to kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for *T* = 1053 K\n> \n> Allow 1050 to 1060 K\n> \n> Allow error carried forward from (c)(i) and (c)(ii)\n\n> **[exam-tip]**\n> Before calculating *T*, convert Δ*S*<sup>θ</sup> from J K<sup>-1</sup> mol<sup>-1</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> by dividing by 1000:\n> \n> −187.9 / 1000 = −0.1879 kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Since both Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are negative, the two negatives cancel when dividing, giving a positive temperature value.\n> \n> Note: Δ*H*<sup>θ</sup><sub>f</sub> of O<sub>2</sub> is 0 (element in standard state), but *S*<sup>θ</sup> of O<sub>2</sub> is not 0, which means that it must be included in the Δ*S*<sup>θ</sup> calculation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CQv3423xkN5xShMM",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_RbJ8tDGtS2bgPQ37",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2bdCnmX39NwgH4bK",
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonium chloride, NH<sub>4</sub>Cl, can dissociate to form ammonia, NH<sub>3</sub>, and hydrogen chloride, HCl.\n\nNH<sub>4</sub>Cl (s) → NH<sub>3</sub> (g) + HCl (g)\n\nExplain why the standard entropy change, Δ*S*<sup>θ</sup>, for this reaction is positive.",
+     "solution_md": "> **[mark-scheme]**\n> The standard entropy change is positive because:\n> \n> - A gas is formed from a solid **[1 mark]**\n> - Gases have greater disorder / more ways to arrange energy than solids **[1 mark]**\n\n> **[exam-tip]**\n> Entropy is a measure of the number of ways energy can be distributed among the particles in a system. The more arrangements possible, the higher the entropy.\n> \n> When NH<sub>4</sub>Cl (s) dissociates, all products are gases. Gases have far more possible arrangements of particles than solids, so entropy increases significantly and Δ*S*<sup>θ</sup> is positive."
+    },
+    {
+     "id": "qstnprt_4WkWfsTnyg6yG3gC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd"
+     ],
+     "part_tier": null,
+     "problem_md": "At 298 K, Δ*H*<sup>θ</sup> = +176 kJ mol<sup>–1</sup> and Δ*S*<sup>θ</sup> = +285 J K<sup>–1</sup> mol<sup>–1</sup>.\n\nCalculate Δ*G*<sup>θ</sup> for this reaction at 298 K. Show your working.",
+     "solution_md": "To calculate Δ*G*<sup>θ</sup> for this reaction at 298 K:\n\n- Convert Δ*S*<sup>θ</sup> from J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup>:\n\nΔ*S*<sup>θ</sup> = 285 ÷ 1000 = 0.285 kJ K<sup>–1</sup> mol<sup>–1</sup> **[1 mark]**\n\n- Substitute into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = (+176) − (298 x 0.285) **[1 mark]**\n\nΔ*G*<sup>θ</sup> = **+91.1 kJ mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for converting Δ*S*<sup>θ</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> (0.285)\n> \n> 1 mark for correct substitution into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct final answer: +91.1 kJ mol<sup>–1</sup> (allow +91.0 to +91.3)\n\n> **[exam-tip]**\n> The Gibbs free energy equation is:\n> \n> Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> The most common mistake is forgetting to convert Δ*S*<sup>θ</sup> from J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> before substituting. Divide by 1000 first.\n> \n> Temperature must be in Kelvin. 298 K is already in the correct unit."
+    },
+    {
+     "id": "qstnprt_DPtJkqd76XFpQgD9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd",
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAt 298 K, Δ*H*^θ^ = +176 kJ mol^–1^ and Δ*S*^θ^ = +285 J K^–1^ mol^–1^.\n\nCalculate Δ*G*^θ^ for this reaction at 298 K. Show your working.\n\nUse your answer to (b) to state whether the reaction is feasible at 298 K.",
+     "solution_md": "> **[mark-scheme]**\n> At 298 K, the reaction is:\n> \n> - Not feasible / Δ*G*<sup>θ</sup> is positive / greater than zero **[1 mark]**\n\n> **[exam-tip]**\n> A reaction is feasible when Δ*G*<sup>θ</sup> < 0. When Δ*G*<sup>θ</sup> > 0, the reaction is not feasible under those conditions."
+    },
+    {
+     "id": "qstnprt_nkH8mQ3hWtXJQthz",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAt 298 K, Δ*H*^θ^ = +176 kJ mol^–1^ and Δ*S*^θ^ = +285 J K^–1^ mol^–1^.\n\nNH~4~Cl (s) → NH~3~ (g) + HCl (g)\n\nState and explain how the feasibility of the reaction will change with increasing temperature.",
+     "solution_md": "> **[mark-scheme]**\n> As temperature increases, the feasibility of this reaction:\n> \n> - Increases / the reaction becomes more feasible **[1 mark]**\n> - Because Δ*G*<sup>θ</sup> becomes less positive / more negative as *T* increases **[1 mark]**\n\n> **[exam-tip]**\n> When both Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are positive, the sign of Δ*G*<sup>θ</sup> depends on temperature:\n> \n> Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> At low temperatures, *T*Δ*S*<sup>θ</sup> is small, so Δ*G*<sup>θ</sup> is positive (not feasible). As temperature increases, *T*Δ*S*<sup>θ</sup> grows until it exceeds Δ*H*<sup>θ</sup>, making Δ*G*<sup>θ</sup> negative (feasible)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bv6Bpjg99qrnFQnk",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_gywXNC7TpcyPB5TR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "State whether the standard entropy change, Δ*S*<sup>θ</sup>, is positive or negative for each of the following processes. Explain your reasoning.\n\ni) Steam condensing to water\n\n[2]\n\nii) Zinc reacting with dilute nitric acid\n\n[2]\n\niii) Solid sodium chloride dissolving in water\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) Steam condensing to water:\n> \n> - Δ*S*<sup>θ</sup> is negative / decreases **[1 mark]**\n> - Because a gas condenses to a liquid / particles become less disordered / number of ways of arranging energy decreases **[1 mark]**\n> \n> ii) Zinc reacting with dilute nitric acid:\n> \n> - Δ*S*<sup>θ</sup> is positive / increases **[1 mark]**\n> - Because a gas (H<sub>2</sub>) is formed from solid and aqueous reactants / disorder increases **[1 mark]**\n> \n> iii) Solid sodium chloride dissolving in water:\n> \n> - Δ*S*<sup>θ</sup> is positive / increases **[1 mark]**\n> - Because free-moving / mobile aqueous ions are formed from a solid / ions can move throughout the solution **[1 mark]**\n\n> **[exam-tip]**\n> Entropy increases when a system becomes more disordered. Use state symbols to track how disorder changes:\n> \n> - Gas → liquid: order increases, entropy decreases (Δ*S*<sup>θ</sup> negative)\n> - Solid + liquid → liquid + gas: disorder increases, entropy increases (Δ*S*<sup>θ</sup> positive)\n> - Solid → aqueous ions: ions free to move, entropy increases (Δ*S*<sup>θ</sup> positive)\n> \n> Writing out the balanced equation helps clarify the change in state of matter in each case."
+    },
+    {
+     "id": "qstnprt_fW38C3jTWCbMgXCh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j9xWMbPMSC6qSJnY",
+      "spcpt_8Y5M4NmNmFkWjxnG"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium carbonate decomposes according to the following equation:\n\nCaCO<sub>3</sub> (s) → CaO (s) + CO<sub>2</sub> (g)     Δ*H*<sup>θ</sup> = +178 kJ mol<sup>–1</sup>\n\nTable 1.1 shows the standard entropies, *S*<sup>θ</sup>, of the species.\n\n**Table 1.1**\n\n| **Substance** | *S*<sup>θ</sup> / J K<sup>–1</sup> mol<sup>–1</sup> |\n|---|---|\n| CaCO<sub>3</sub> (s) | 92.9 |\n| CaO (s) | 39.8 |\n| CO<sub>2</sub> (g) | 214.0 |\n\ni) Calculate Δ*S*<sup>θ</sup> for this reaction. Show your working.\n\n[2]\n\nii) Calculate the standard Gibbs free energy change, Δ*G*<sup>θ</sup>, for this reaction at 298 K. Include a relevant sign in your answer. Show your working.\n\n[3]\n\nΔ*G*<sup>θ</sup> = .................. kJ mol<sup>–1</sup>",
+     "solution_md": "i) To calculate Δ*S*<sup>θ</sup> for this reaction:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup> (products) − Σ*S*<sup>θ</sup> (reactants):\n\nΔ*S*<sup>θ</sup> = (39.8 + 214.0) − 92.9\n\nΔ*S*<sup>θ</sup> = **+160.9 J K**<sup>**–1**</sup>** mol**<sup>**–1**</sup>\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct application of Σ*S*<sup>θ</sup> (products) − Σ*S*<sup>θ</sup> (reactants)\n> \n> 1 mark for correct answer: +160.9 J K<sup>–1</sup> mol<sup>–1</sup>\n\nii) To calculate Δ*G*<sup>θ</sup> at 298 K:\n\n- Convert Δ*S*<sup>θ</sup> from J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup>:\n\nΔ*S*<sup>θ</sup> = 160.9 ÷ 1000 = 0.1609 kJ K<sup>–1</sup> mol<sup>–1</sup> **[1 mark]**\n\n- Substitute into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = (+178) − (298 x 0.1609) **[1 mark]**\n\nΔ*G*<sup>θ</sup> = **+130 kJ mol**<sup>**–1**</sup> (to 3 s.f.) **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for converting Δ*S*<sup>θ</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> (0.1609)\n> \n> 1 mark for correct substitution into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct answer to 3 significant figures: +130 kJ mol<sup>–1</sup> (allow ECF from part (i))\n\n> **[exam-tip]**\n> Make sure Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are in the same units before substituting. Dividing Δ*S*<sup>θ</sup> by 1000 converts J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup>.\n> \n> The question asks for the answer to three significant figures. 130 has 3 significant figures; don't round to 100 or leave as 130.05."
+    },
+    {
+     "id": "qstnprt_dZj7DyVJ3fWwGds2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalcium carbonate decomposes according to the following equation:\n\nCaCO₃ (s) → CaO (s) + CO₂ (g)     ΔH° = +178 kJ mol⁻¹\n\nTable 1.1 shows the standard entropies, S°, of the species.\n\n**Table 1.1**\n\n| **Substance** | S° / J K⁻¹ mol⁻¹ |\n| --- | :---: |\n| CaCO₃ (s) | 92.9 |\n| CaO (s) | 39.8 |\n| CO₂ (g) | 214.0 |\n\nExplain, with reference to Δ*G*<sup>θ</sup>, why this reaction becomes more feasible at higher temperatures.",
+     "solution_md": "> **[mark-scheme]**\n> This reaction becomes more feasible at higher temperatures because:\n> \n> - Δ*S*<sup>θ</sup> is positive, so *T*Δ*S*<sup>θ</sup> increases with temperature **[1 mark]**\n> - *T*Δ*S*<sup>θ</sup> eventually exceeds Δ*H*<sup>θ</sup> **[1 mark]**\n> - Therefore Δ*G*<sup>θ</sup> becomes negative / decreases / becomes less positive **[1 mark]**\n\n> **[exam-tip]**\n> Use the Gibbs equation to explain this step by step:\n> \n> Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>\n> \n> For this reaction, Δ*H*<sup>θ</sup> is positive (endothermic) and Δ*S*<sup>θ</sup> is positive (gas formed). At low temperatures, *T*Δ*S*<sup>θ</sup> is small so Δ*G*<sup>θ</sup> remains positive (not feasible). As temperature rises, *T*Δ*S*<sup>θ</sup> grows until it exceeds Δ*H*<sup>θ</sup>, making Δ*G*<sup>θ</sup> negative (feasible)."
+    },
+    {
+     "id": "qstnprt_T27GrVMBNshNN7fh",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "On heating, sodium hydrogencarbonate decomposes into sodium carbonate as shown.\n\n2NaHCO<sub>3</sub> (s) → Na<sub>2</sub>CO<sub>3</sub> (s) + CO<sub>2</sub> (g) + H<sub>2</sub>O (g)\n\nΔ*H*<sup>θ</sup> = +130 kJ mol<sup>–1</sup>     Δ*S*<sup>θ</sup> = +316 J K<sup>–1</sup> mol<sup>–1</sup>\n\nCalculate the temperature above which this reaction becomes feasible. Show your working.\n\nTemperature = ............ K",
+     "solution_md": "To find the temperature above which this reaction becomes feasible, set Δ*G*<sup>θ</sup> = 0:\n\n- Rearrange Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> to find *T*:\n\n*T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$ **[1 mark]**\n\n- Convert Δ*S*<sup>θ</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> and substitute:\n\n*T* = $\\frac{130}{(316\\div1000)}$ **[1 mark]**\n\n*T* = **411 K** **[1 mark]**\n\nAllow 410–412 K\n\n> **[mark-scheme]**\n> 1 mark for setting Δ*G*<sup>θ</sup> = 0 and correctly rearranging to *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct substitution with Δ*S*<sup>θ</sup> converted to kJ K<sup>–1</sup> mol<sup>–1</sup>\n> \n> 1 mark for correct answer: 411 K (allow 410–412 K)\n\n> **[exam-tip]**\n> The temperature above which a reaction becomes feasible is found by setting Δ*G*<sup>θ</sup> = 0:\n> \n> Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> = 0\n> \n> *T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$\n> \n> Remember to convert Δ*S*<sup>θ</sup> from J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> by dividing by 1000, so both quantities are in kJ.",
+     "equations": [
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      },
+      {
+       "latex": "\\frac{130}{(316\\div1000)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>130</mn><mrow><mo>(</mo><mn>316</mn><mo>&#xF7;</mo><mn>1000</mn><mo>)</mo></mrow></mfrac></math>",
+       "alt": "\\frac{130}{(316 \\div 1000)}"
+      },
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_86sFjtT9RQSX4vvn",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_PNCsYy2JqzzHfvy5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7m3szDrWFP2SZ2tK",
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "Potassium nitrate is a soluble salt. When it dissolves in water the standard enthalpy change Δ*H*<sup>θ</sup> = +34.9 kJ mol<sup>–1</sup> and the standard entropy change Δ*S*<sup>θ</sup> = +117 J K<sup>–1</sup> mol<sup>–1</sup>.\n\nConstruct an equation, including state symbols, for the process that occurs when potassium nitrate dissolves in water.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for potassium nitrate dissolving in water is:\n> \n> - KNO<sub>3</sub> (s) → K<sup>+</sup> (aq) + NO<sub>3</sub><sup>–</sup> (aq)\n> **OR**\n> KNO<sub>3</sub> (s) + aq → K<sup>+</sup> (aq) + NO<sub>3</sub><sup>–</sup> (aq) **[1 mark]**\n\n> **[exam-tip]**\n> When an ionic solid dissolves in water, it dissociates into its component ions. Include state symbols: (s) for the solid reactant and (aq) for the aqueous ions formed."
+    },
+    {
+     "id": "qstnprt_CTqcN6BSmKhJyH8n",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPotassium nitrate is a soluble salt. When it dissolves in water the standard enthalpy change ΔH^θ = +34.9 kJ mol^–1 and the standard entropy change ΔS^θ = +117 J K^–1 mol^–1.\n\nExplain why Δ*S*<sup>θ</sup> is positive for this process.",
+     "solution_md": "> **[mark-scheme]**\n> Δ*S*<sup>θ</sup> is positive for this process because:\n> \n> Any **one** from:\n> \n> - The solid dissolves to form free-moving / mobile aqueous ions\n> - Disorder increases\n> - The number of ways of arranging energy increases\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> When KNO<sub>3</sub> dissolves:\n> \n> KNO<sub>3</sub> (s) → K<sup>+</sup> (aq) + NO<sub>3</sub><sup>–</sup> (aq)\n> \n> The ions are now free to move throughout the solution. This increased disorder means there are more ways to arrange energy among the particles, so Δ*S*<sup>θ</sup> is positive."
+    },
+    {
+     "id": "qstnprt_YGpCHhT2vwtZNdJt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j9xWMbPMSC6qSJnY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPotassium nitrate is a soluble salt. When it dissolves in water the standard enthalpy change Δ*H*^θ^ = +34.9 kJ mol^–1^ and the standard entropy change Δ*S*^θ^ = +117 J K^–1^ mol^–1^.\n\nCalculate the temperature above which the dissolving of potassium nitrate becomes feasible. Show your working.\n\n*T* = .................. K",
+     "solution_md": "To find the temperature above which the dissolving becomes feasible, set Δ*G*<sup>θ</sup> = 0:\n\n- Rearrange Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> to find *T*:\n\n*T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$ **[1 mark]**\n\n- Convert Δ*S*<sup>θ</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> and substitute:\n\n*T* = $\\frac{34.9}{117\\div1000}$ **[1 mark]**\n\n*T* = **298 K** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for setting Δ*G*<sup>θ</sup> = 0 and rearranging to *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct substitution with Δ*S*<sup>θ</sup> converted to kJ K<sup>–1</sup> mol<sup>–1</sup>\n> \n> 1 mark for correct answer: 298 K\n\n> **[exam-tip]**\n> The temperature above which a process becomes feasible is found by setting Δ*G*<sup>θ</sup> = 0 and rearranging:\n> \n> *T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$\n> \n> Remember to convert Δ*S*<sup>θ</sup> from J K<sup>–1</sup> mol<sup>–1</sup> to kJ K<sup>–1</sup> mol<sup>–1</sup> by dividing by 1000 before substituting.",
+     "equations": [
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      },
+      {
+       "latex": "\\frac{34.9}{117\\div1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>34</mn><mo>.</mo><mn>9</mn></mrow><mrow><mn>117</mn><mo>&#xF7;</mo><mn>1000</mn></mrow></mfrac></math>",
+       "alt": "\\frac{34.9}{117 \\div 1000}"
+      },
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PRMShKV4Dn6dRbXN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPotassium nitrate is a soluble salt. When it dissolves in water the standard enthalpy change ΔH^θ = +34.9 kJ mol^–1^ and the standard entropy change ΔS^θ = +117 J K^–1^ mol^–1^.\n\nCalculate the temperature above which the dissolving of potassium nitrate becomes feasible.\nT = 298 K\n\ni) State the sign of Δ*G*<sup>θ</sup> for this process at a temperature lower than your answer to (c).\n\n[1]\n\nii) State what this value of Δ*G*<sup>θ</sup> indicates about the solubility of potassium nitrate at this lower temperature.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The sign of Δ*G*<sup>θ</sup> at a temperature below 298 K:\n> \n> - Positive / Δ*G*<sup>θ</sup> > 0 **[1 mark]**\n> \n> ii) This value of Δ*G*<sup>θ</sup> indicates that:\n> \n> - The dissolving of potassium nitrate is not feasible / potassium nitrate does not dissolve / is less soluble **[1 mark]**\n\n> **[exam-tip]**\n> When both Δ*H*<sup>θ</sup> and Δ*S*<sup>θ</sup> are positive, the sign of Δ*G*<sup>θ</sup> depends on temperature:\n> \n> - Above the threshold temperature: *T*Δ*S*<sup>θ</sup> > Δ*H*<sup>θ</sup>, so Δ*G*<sup>θ</sup> < 0 (feasible)\n> - Below the threshold temperature: *T*Δ*S*<sup>θ</sup> < Δ*H*<sup>θ</sup>, so Δ*G*<sup>θ</sup> > 0 (not feasible)\n> \n> For KNO<sub>3</sub>, the threshold is 298 K, so below this temperature the dissolving process is thermodynamically unfavourable."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7mcPHc7zQkHTnYrH",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_s4MNRx5FJTzX4z4V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd"
+     ],
+     "part_tier": null,
+     "problem_md": "State the equation that links Δ*G*<sup>θ</sup>, Δ*H*<sup>θ</sup>, Δ*S*<sup>θ</sup> and temperature *T*.",
+     "solution_md": "> **[mark-scheme]**\n> The equation that links Δ*G*<sup>θ</sup>, Δ*H*<sup>θ</sup>, Δ*S*<sup>θ</sup> and temperature *T*:\n> \n> - Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> **[1 mark]**\n\n> **[exam-tip]**\n> This equation must be learned. Other rearrangements are also accepted:\n> \n> - Δ*H*<sup>θ</sup> = Δ*G*<sup>θ</sup> + *T*Δ*S*<sup>θ</sup>\n> - Δ*S*<sup>θ</sup> = (Δ*H*<sup>θ</sup> − Δ*G*<sup>θ</sup>) / *T*\n> - *T*Δ*S*<sup>θ</sup> = Δ*H*<sup>θ</sup> − Δ*G*<sup>θ</sup>"
+    },
+    {
+     "id": "qstnprt_WskXvmD7RpsQBWPJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "State the condition for a reaction to be feasible.",
+     "solution_md": "> **[mark-scheme]**\n> The condition for a reaction to be feasible:\n> \n> - Δ*G*<sup>θ</sup> is less than or equal to zero / Δ*G*<sup>θ</sup> ≤ 0 **[1 mark]**\n\n> **[exam-tip]**\n> A reaction is feasible when Δ*G*<sup>θ</sup> < 0 or when Δ*G*<sup>θ</sup> = 0. Both 'Δ*G*<sup>θ</sup> is negative' and 'Δ*G*<sup>θ</sup> ≤ 0' are accepted."
+    },
+    {
+     "id": "qstnprt_Z3jnqC2qQcNJ4QKd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8Y5M4NmNmFkWjxnG"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine can be formed in the following reversible reaction:\n\n4HCl (g) + O<sub>2</sub> (g) ⇌ 2Cl<sub>2</sub> (g) + 2H<sub>2</sub>O (g)\n\nUse the information in Table 1.1 to calculate the standard entropy change, Δ*S*<sup>θ</sup>, for this reaction. Show your working.\n\n**Table 1.1**\n\n|   | **HCl (g)** | **O**<sub>**2**</sub>** (g)** | **Cl**<sub>**2**</sub>** (g)** | **H**<sub>**2**</sub>**O (g)** |\n|---|---|---|---|---|\n| *S*<sup>θ</sup> / J K<sup>–1</sup> mol<sup>–1</sup> | 187 | 205 | 223 | 189 |",
+     "solution_md": "To calculate the standard entropy change, Δ*S*<sup>θ</sup>, for this reaction:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants) and substitute values:\n\nΔ*S*<sup>θ</sup> = [(2 x 223) + (2 x 189)] − [205 + (4 x 187)] **[1 mark]**\n\nΔ*S*<sup>θ</sup> = 824 − 953 **[1 mark]**\n\nΔ*S*<sup>θ</sup> = **−129 J K**<sup>**–1**</sup>** mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution including stoichiometric coefficients (2 x 223, 2 x 189, 4 x 187)\n> \n> 1 mark for correct intermediate: 824 − 953\n> \n> 1 mark for correct answer: −129 J K<sup>–1</sup> mol<sup>–1</sup>\n> \n> An answer of +129 J K<sup>–1</sup> mol<sup>–1</sup> would score only 1 mark as the negative sign is required for full marks.\n\n> **[exam-tip]**\n> Multiply each *S*<sup>θ</sup> value by its stoichiometric coefficient before summing. Here, HCl has coefficient 4, Cl<sub>2</sub> and H<sub>2</sub>O each have coefficient 2, and O<sub>2</sub> has coefficient 1."
+    },
+    {
+     "id": "qstnprt_ZcNx9wqYVS4FGgRR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j9xWMbPMSC6qSJnY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nChlorine can be formed in the following reversible reaction:\n\n4HCl (g) + O~2~ (g) ⇌ 2Cl~2~ (g) + 2H~2~O (g)\n\nUse the information in Table 1.1 to calculate the standard entropy change, Δ*S*^θ^, for this reaction. Show your working.\n\n**Table 1.1**\n\n|   | **HCl (g)** | **O**~**2**~** (g)** | **Cl**~**2**~** (g)** | **H**~**2**~**O (g)** |\n| --- | :---: | :---: | :---: | :---: |\n| *S*^θ^ / J K^–1^ mol^–1^ | 187 | 205 | 223 | 189 |\n\nΔ*S*^θ^ = −129 J K^–1^ mol^–1^\n\nThe standard enthalpy change for the reaction in (c) is −116 kJ mol<sup>–1</sup>.\n\nCalculate the temperature above which this reaction is no longer feasible. Show your working.",
+     "solution_md": "To find the temperature above which this reaction is no longer feasible, set Δ*G*<sup>θ</sup> = 0:\n\n- Rearrange Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> to find *T*:\n\n*T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$\n\n- Convert Δ*H*<sup>θ</sup> to J mol<sup>–1</sup> and substitute:\n\n*T* = $\\frac{-116\\times1000}{-129}$ **[1 mark]**\n\n- Calculate *T*:\n\n*T* = **899 K** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup> with Δ*H*<sup>θ</sup> converted to J mol<sup>–1</sup>\n> \n> 1 mark for correct answer: 899 K\n\n> **[exam-tip]**\n> At the feasibility boundary, Δ*G*<sup>θ</sup> = 0:\n> \n> *T* = $\\frac{ΔH^{θ}}{ΔS^{θ}}$\n> \n> Since Δ*H*<sup>θ</sup> is in kJ mol<sup>–1</sup> and Δ*S*<sup>θ</sup> is in J K<sup>–1</sup> mol<sup>–1</sup>, convert Δ*H*<sup>θ</sup> to J mol<sup>–1</sup> by multiplying by 1000 before dividing. When both values are negative, the negatives cancel to give a positive temperature.",
+     "equations": [
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      },
+      {
+       "latex": "\\frac{-116\\times1000}{-129}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>-</mo><mn>116</mn><mo>&#xD7;</mo><mn>1000</mn></mrow><mrow><mo>-</mo><mn>129</mn></mrow></mfrac></math>",
+       "alt": "\\frac{-116 \\times 1000}{-129}"
+      },
+      {
+       "latex": "\\frac{ΔH^{θ}}{ΔS^{θ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>H</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mi>&#x394;</mi><msup><mi>S</mi><mi>&#x3B8;</mi></msup></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta H^{\\theta}}{\\Delta S^{\\theta}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5K3kM27zZHdQTdyB",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_xWRV7JyV87PWYRxn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd",
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about the feasibility of a reaction.\n\nCalcium carbonate can be thermally decomposed to make calcium oxide.\n\nCaCO<sub>3</sub> (s) → CaO (s) + CO<sub>2</sub> (g)    Δ*H*<sup>θ</sup> = +178 kJ mol<sup>-1</sup>\n\nTable 2.1 shows the standard entropies of each substance.\n\n**Table 2.1**\n\n| **Substance** | CaCO<sub>3</sub> (s) | CaO (s) | CO<sub>2</sub> (g) |\n|---|---|---|---|\n| *S*<sup>θ</sup> / J K<sup>-1</sup> mol<sup>-1</sup> | 89 | 40 | 214 |\n\ni) Calculate the standard entropy change, Δ*S*<sup>θ</sup>, for the decomposition of calcium carbonate. Show your working.\n\n[2]\n\nii) Use the data given and your answer to (a)(i) to show that the decomposition of calcium carbonate is not feasible at 298 K. Show your working.\n\n[2]\n\niii) Calculate the temperature above which the decomposition of calcium carbonate is feasible. Show your working.\n\n[3]",
+     "solution_md": "To calculate thermodynamic quantities for the decomposition of calcium carbonate:\n\ni) Standard entropy change, Δ*S*<sup>θ</sup>:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants) and substitute values:\n\nΔ*S*<sup>θ</sup> = (40 + 214) − 89\n\nΔ*S*<sup>θ</sup> = 254 − 89 **[1 mark]**\n\n- Calculate Δ*S*<sup>θ</sup>:\n\nΔ*S*<sup>θ</sup> = **+165 J K**<sup>**-1**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for correct substitution (40 + 214) − 89\n> \n> 1 mark for Δ*S*<sup>θ</sup> = +165 J K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Allow 164 to 166 J K<sup>-1</sup> mol<sup>-1</sup>\n\nii) Show the decomposition is not feasible at 298 K:\n\n- Convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> and substitute into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = +178 − (298 x 0.165) **[1 mark]**\n\n- Calculate Δ*G*<sup>θ</sup>:\n\nΔ*G*<sup>θ</sup> = **+129 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\nΔ*G*<sup>θ</sup> > 0, so the decomposition is not feasible at 298 K\n\n> **[mark-scheme]**\n> ii)\n> \n> 1 mark for correctly substituting Δ*H*<sup>θ</sup>, *T* = 298 K, and Δ*S*<sup>θ</sup> converted to kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for Δ*G*<sup>θ</sup> = +129 kJ mol<sup>-1</sup>\n> \n> Allow 128 to 130 kJ mol<sup>-1</sup>\n> \n> Allow error carried forward from (a)(i) throughout\n\niii) Temperature above which the decomposition is feasible:\n\n- At the feasibility boundary, Δ*G*<sup>θ</sup> = 0; rearrange Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup> to find *T*:\n\n*T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup> **[1 mark]**\n\n- Substitute values with Δ*S*<sup>θ</sup> in kJ K<sup>-1</sup> mol<sup>-1</sup>:\n\n*T* = 178 / 0.165 **[1 mark]**\n\n- Calculate *T*:\n\n*T* = **1079 K** **[1 mark]**\n\n> **[mark-scheme]**\n> iii)\n> \n> 1 mark for *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n> \n> 1 mark for correct substitution with Δ*S*<sup>θ</sup> in kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> 1 mark for *T* = 1079 K; allow 1070 to 1090 K\n> \n> Allow error carried forward from (a)(i) throughout\n\n> **[exam-tip]**\n> Before substituting into Δ*G*<sup>θ</sup> = Δ*H*<sup>θ</sup> − *T*Δ*S*<sup>θ</sup>, convert Δ*S*<sup>θ</sup> from J K<sup>-1</sup> mol<sup>-1</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> by dividing by 1000:\n> \n> 165 / 1000 = 0.165 kJ K<sup>-1</sup> mol<sup>-1</sup>\n> \n> Also convert temperature from °C to K:\n> \n> 25 °C + 273 = 298 K."
+    },
+    {
+     "id": "qstnprt_5NyCbF5hm38nC3KF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwHMMFYwBVHjq8Bd",
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about the feasibility of a reaction.\n\nCalcium carbonate can be thermally decomposed to make calcium oxide.\n\nCaCO₃ (s) → CaO (s) + CO₂ (g)    ΔH° = +178 kJ mol⁻¹\n\nTable 2.1 shows the standard entropies of each substance.\n\nTable 2.1\n\n| Substance | CaCO₃ (s) | CaO (s) | CO₂ (g) |\n| --- | :---: | :---: | :---: |\n| S° / J K⁻¹ mol⁻¹ | 89 | 40 | 214 |\n\nExplain how the conditions can be changed for the reaction in **(a)** to make the reaction feasible.",
+     "solution_md": "> **[mark-scheme]**\n> How conditions can be changed for the reaction in (a) to make it feasible:\n> \n> - Increase the temperature **[1 mark]**\n> - So that *T*Δ*S*<sup>θ</sup> > Δ*H*<sup>θ</sup> / Δ*G*<sup>θ</sup> becomes negative **[1 mark]**\n\n> **[exam-tip]**\n> Since Δ*H*<sup>θ</sup> is positive (endothermic) and Δ*S*<sup>θ</sup> is also positive, increasing *T* increases the *T*Δ*S*<sup>θ</sup> term. Above 1079 K, *T*Δ*S*<sup>θ</sup> > Δ*H*<sup>θ</sup>, making Δ*G*<sup>θ</sup> negative and the reaction feasible."
+    },
+    {
+     "id": "qstnprt_Qn7XzKtcxb6Rbvnv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ",
+      "spcpt_26qcCY45Rx3S5Q75"
+     ],
+     "part_tier": null,
+     "problem_md": "The evaporation of water is an endothermic reaction but also a **feasible** reaction.\n\nExplain why.\n\nRefer to the entropy change that occurs and the change in the arrangement of water molecules.",
+     "solution_md": "> **[mark-scheme]**\n> Why the endothermic evaporation of water is feasible:\n> \n> - When water evaporates, molecules become more disordered / spread out; the entropy change is positive **[1 mark]**\n> - At sufficiently high temperatures, *T*Δ*S*<sup>θ</sup> > Δ*H*<sup>θ</sup>, so Δ*G*<sup>θ</sup> < 0 and the reaction is feasible **[1 mark]**\n\n> **[exam-tip]**\n> Even though evaporation is endothermic (Δ*H*<sup>θ</sup> > 0), the large positive entropy change (liquid → gas, molecules become much more disordered) means the *T*Δ*S*<sup>θ</sup> term can exceed Δ*H*<sup>θ</sup> at high enough temperatures, giving Δ*G*<sup>θ</sup> < 0 and a feasible process."
+    },
+    {
+     "id": "qstnprt_7vJFsw8MCxsgC4Tp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ",
+      "spcpt_8Y5M4NmNmFkWjxnG"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for the reaction between hydrogen and oxygen to form gaseous water is:\n\nH<sub>2</sub> (g) + ½O<sub>2</sub> (g) → H<sub>2</sub>O (g)\n\nUse the information in Table 2.2 to answer the following.\n\n**Table 2.2**\n\n|   | *S*<sup>θ</sup> / J K<sup>-1</sup> mol<sup>-1</sup> | Δ*H*<sup>θ</sup><sub>f</sub> / kJ mol<sup>-1</sup> |\n|---|---|---|\n| H<sub>2</sub> (g) | 131 | 0 |\n| O<sub>2</sub> (g) | 205 | 0 |\n| H<sub>2</sub>O (g) | 189 | −242 |\n\ni) Calculate the standard entropy change, Δ*S*<sup>θ</sup>, for this reaction. Show your working.\n\n[2]\n\nii) Calculate the temperature above which this reaction is not feasible. Show your working.\n\n[2]",
+     "solution_md": "To calculate thermodynamic quantities for the formation of gaseous water:\n\ni) Standard entropy change, Δ*S*<sup>θ</sup>:\n\n- Apply Δ*S*<sup>θ</sup> = Σ*S*<sup>θ</sup>(products) − Σ*S*<sup>θ</sup>(reactants) and substitute values:\n\nΔ*S*<sup>θ</sup> = 189 − [131 + (½ x 205)]\n\nΔ*S*<sup>θ</sup> = 189 − 233.5 **[1 mark]**\n\n- Calculate Δ*S*<sup>θ</sup>:\n\nΔ*S*<sup>θ</sup> = **−44.5 J K**<sup>**-1**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for correct substitution including ½ x 205 for O<sub>2</sub>\n> \n> 1 mark for Δ*S*<sup>θ</sup> = −44.5 J K<sup>-1</sup> mol<sup>-1</sup>; allow −44 to −45 J K<sup>-1</sup> mol<sup>-1</sup>\n\nii) Temperature above which the reaction is not feasible:\n\n- At the feasibility boundary, Δ*G*<sup>θ</sup> = 0; rearrange to find *T*:\n\n*T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup>\n\n- Convert Δ*H*<sup>θ</sup> to J mol<sup>-1</sup> and substitute:\n\n*T* = (−242 x 1000) / (−44.5) **[1 mark]**\n\n- Calculate *T*:\n\n*T* = **5438 K** **[1 mark]**\n\n> **[mark-scheme]**\n> ii)\n> \n> 1 mark for correct substitution using *T* = Δ*H*<sup>θ</sup> / Δ*S*<sup>θ</sup> with consistent units\n> \n> 1 mark for *T* = 5438 K; allow 5400 to 5500 K\n> \n> Allow error carried forward from (d)(i)\n\n> **[exam-tip]**\n> When calculating Δ*S*<sup>θ</sup>, remember the stoichiometric coefficient for O<sub>2</sub> is ½ — multiply its *S*<sup>θ</sup> value by ½ before subtracting. This is a common source of error.\n> \n> To calculate *T*, ensure units are consistent: either convert Δ*H*<sup>θ</sup> from kJ mol<sup>-1</sup> to J mol<sup>-1</sup> (multiply by 1000) to match J K<sup>-1</sup> mol<sup>-1</sup>, or convert Δ*S*<sup>θ</sup> to kJ K<sup>-1</sup> mol<sup>-1</sup> (divide by 1000)."
+    },
+    {
+     "id": "qstnprt_ryNbpR9J8RhN5shT",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_H85BWCdQWKcQkjZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe equation for the reaction between hydrogen and oxygen to form gaseous water is:\n\nH~2~ (g) + ½O~2~ (g) → H~2~O (g)\n\nUse the information in Table 2.2 to answer the following.\n\n**Table 2.2**\n\n|   | *S*^θ^ / J K^-1^ mol^-1^ | Δ*H*^θ^~f~ / kJ mol^-1^ |\n| --- | :---: | :---: |\n| H~2~ (g) | 131 | 0 |\n| O~2~ (g) | 205 | 0 |\n| H~2~O (g) | 189 | −242 |\n\nii) Calculate the temperature above which this reaction is not feasible.\n\nExplain what would happen to the sample of gaseous water if it was heated to a higher temperature than that calculated in part **(d)(ii)**.",
+     "solution_md": "> **[mark-scheme]**\n> What would happen to gaseous water heated above the temperature in (d)(ii):\n> \n> - The water would decompose into hydrogen and oxygen / the reverse reaction becomes feasible **[1 mark]**\n> - Because Δ*G*<sup>θ</sup> for the decomposition of water is negative / less than 0 above this temperature **[1 mark]**\n\n> **[exam-tip]**\n> Above 5438 K, the formation of gaseous water from H<sub>2</sub> and O<sub>2</sub> is no longer feasible (Δ*G*<sup>θ</sup> > 0 for the forward reaction). The reverse reaction — decomposition of water into its elements — has Δ*G*<sup>θ</sup> < 0 and so becomes feasible."
+    }
+   ]
+  }
+ ]
+}

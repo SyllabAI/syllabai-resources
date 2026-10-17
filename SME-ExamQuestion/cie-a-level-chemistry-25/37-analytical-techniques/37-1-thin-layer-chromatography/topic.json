@@ -1,0 +1,570 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:54:40Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "37-analytical-techniques",
+  "name": "37. Analytical Techniques"
+ },
+ "topic": {
+  "id": "top_xhH7RyBRfbyS3dJS",
+  "slug": "37-1-thin-layer-chromatography",
+  "name": "Thin-Layer Chromatography",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "thin-layer-chromatography",
+   "name": "Thin-Layer Chromatography",
+   "revision_note_id": "rn_gksDRZPJV9XdFNcj"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_2n26zjTsQ7MFCWc9",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/37-analytical-techniques/37-1-thin-layer-chromatography/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 5,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/07/uVccJ_n-_7.png": "001-skeletal-formula-of-ibuprofen.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/example-chromatogram-to-calculate.png": "002-tlc-chromatogram-showing-spots-for-benzaldehyde-.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/dinitrobenzene-ms.png": "003-skeletal-formulae-of-1-2-dinitrobenzene-1-3-dini.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/dinitrobenzene-tlc-plate-q.png": "004-tlc-plate-showing-a-spot-for-1-4-dinitrobenzene-.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/dinitrobenzene-tlc-plate-ans.png": "005-tlc-plate-showing-spots-for-1-4-dinitrobenzene-a.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/updated-ocr-tlc-plate.png": "006-a-labelled-diagram-of-tlc-apparatus-showing-a-tl.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/tlc-calculation.png": "007-a-developed-tlc-plate-showing-a-baseline-at-2-cm.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_z46DV7qV8QJcnZ3b",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_NmXF5ThBqxCsVv5g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Thin-layer chromatography (TLC) is used to analyse samples of organic compounds.\n\nFig. 3.1 shows the structure of ibuprofen.\n\n![Skeletal formula of ibuprofen](assets/001-skeletal-formula-of-ibuprofen.png)\n\n**Fig. 3.1**\n\nCalculate the *M*<sub>r</sub> of ibuprofen to 1 decimal place.",
+     "solution_md": "The *M*<sub>r</sub> of ibuprofen (C<sub>13</sub>H<sub>18</sub>O<sub>2</sub>) is:\n\n*M*<sub>r</sub> = (12.0 x 13) + (1.0 x 18) + (16.0 x 2)\n\n*M*<sub>r</sub> = **206.0** **[1 mark]**\n\n> **[exam-tip]**\n> The molecular formula of ibuprofen is C<sub>13</sub>H<sub>18</sub>O<sub>2</sub>. When counting atoms in a skeletal formula, remember that hydrogen atoms bonded to carbon are not shown."
+    },
+    {
+     "id": "qstnprt_W8nMz4Tk6gKcpWwp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** advantages of using TLC for the analysis of organic samples.",
+     "solution_md": "> **[mark-scheme]**\n> Advantages of using TLC to analyse organic samples include:\n> \n> Any **two** from (1 mark for each point):\n> \n> - Quick analysis time\n> - Many samples can be processed simultaneously\n> - High degree of accuracy / repeatability / reproducibility\n> - (Very) small sample sizes are needed\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> TLC is widely used in organic chemistry because it requires only small amounts of material, gives results quickly, and can test many samples side by side. The *R*<sub>f</sub> value of each spot can then be compared against reference data."
+    },
+    {
+     "id": "qstnprt_B72fxrwVVvYM4MT6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "Thin-layer chromatography was performed on a sample of ibuprofen.\n\nOnly one spot was expected on the TLC plate but two were observed.\n\nSuggest why the ibuprofen sample produced two spots on the TLC plate rather than one.",
+     "solution_md": "> **[mark-scheme]**\n> The ibuprofen sample produced two spots because:\n> \n> - The sample contains an impurity / is not pure **[1 mark]**\n\n> **[exam-tip]**\n> In chromatography, each compound in a sample produces one spot. If only one compound is expected but two spots appear, the sample must contain an impurity. A pure sample gives a single spot; a mixture gives multiple spots."
+    }
+   ]
+  },
+  {
+   "id": "qstn_QJHmpR4W58gmWMMD",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_JS2HpNswHpXJrmz6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "A student sets up a thin-layer chromatography experiment.\n\nExplain why:\n\ni) the baseline is drawn in pencil rather than ink.\n\n[1]\n\nii) a lid is placed on the container during the experiment.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The baseline is drawn in pencil rather than ink because:\n> \n> - Pencil does not dissolve in / is not carried up the plate by the solvent **[1 mark]**\n> \n> ii) A lid is placed on the container because:\n> \n> - To prevent evaporation of the solvent / to maintain a saturated atmosphere **[1 mark]**\n\n> **[exam-tip]**\n> Both are standard precautions in TLC. Ink would dissolve in the solvent and be carried up the plate, interfering with the chromatogram. A lid prevents solvent evaporation, which would cause the solvent front to stop moving."
+    },
+    {
+     "id": "qstnprt_wt55NVSZJ9Ry9wGk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "A student runs a thin-layer chromatography experiment and plans to determine the compounds from their *R*<sub>f</sub> values.\n\nDescribe the steps that the student needs to perform to determine the identity of the compounds.",
+     "solution_md": "> **[mark-scheme]**\n> The steps to determine the identity of the compounds are:\n> \n> - Measure the distance travelled by the solvent\n> **OR**\n> Measure the distance to the solvent front **[1 mark]**\n> - Measure the distance travelled by each compound / component / spot **[1 mark]**\n> - Calculate the *R*<sub>f</sub> value using the equation *R*<sub>f</sub> = $\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{compound}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent}}$ **[1 mark]**\n> - Compare the *R*<sub>f</sub> value of each spot with data table / reference values to identify the compound **[1 mark]**\n\n> **[exam-tip]**\n> This question asks how to go from a chromatogram to an identification. State the two distances measured (compound and solvent front), write the *R*<sub>f</sub> equation, and explain that the calculated *R*<sub>f</sub> values are compared against known reference data.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{compound}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>compound</mi></mrow><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>solvent</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator distance space travelled space by space compound over denominator distance space travelled space by space solvent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_q2qDCNC86Scmvbrs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "The compounds in the mixture are colourless.\n\nSuggest how the student could locate the spots on the TLC plate.",
+     "solution_md": "> **[mark-scheme]**\n> - Expose the TLC plate to UV light\n> **OR**\n> Place the TLC plate in an iodine vapour chamber **[1 mark]**\n\n> **[exam-tip]**\n> Colourless compounds are not visible under normal light. Two common methods to reveal spots are UV light (if the silica contains a UV-active indicator) and iodine vapour, which temporarily stains organic compounds brown."
+    },
+    {
+     "id": "qstnprt_sq2xJxjKhPsvb62m",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "The student runs another TLC practical on a mixture of benzaldehyde and benzyl alcohol using 7:3 pentane / diethyl ether as a solvent.\n\nThe student's chromatogram is shown in Fig. 1.1.\n\n![TLC chromatogram showing spots for benzaldehyde and benzyl alcohol with distances marked for Rf calculation](assets/002-tlc-chromatogram-showing-spots-for-benzaldehyde-.png)\n\n**Fig. 1.1**\n\nCalculate the *R*<sub>f</sub> values for both compounds in the chromatogram. Show your working.",
+     "solution_md": "To calculate the *R*<sub>f</sub> values for benzaldehyde and benzyl alcohol:\n\n- Apply the *R*<sub>f</sub> equation:\n\n*R*<sub>f</sub> = $\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{compound}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent}}$\n\n- Calculate *R*<sub>f</sub> for benzaldehyde:\n\n*R*<sub>f</sub> = $\\frac{3.2}{5.0}$\n\n*R*<sub>f</sub> (benzaldehyde) = **0.64** **[1 mark]**\n\n- Calculate *R*<sub>f</sub> for benzyl alcohol:\n\n*R*<sub>f</sub> = $\\frac{1.5}{5.0}$\n\n*R*<sub>f</sub> (benzyl alcohol) = **0.30** **[1 mark]**\n\n> **[exam-tip]**\n> A compound that is very soluble in the mobile phase has a high *R*<sub>f</sub> (close to 1); a compound that adsorbs strongly to the stationary phase has a low *R*<sub>f</sub> (close to 0).",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{compound}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>compound</mi></mrow><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>solvent</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator distance space travelled space by space compound over denominator distance space travelled space by space solvent end fraction"
+      },
+      {
+       "latex": "\\frac{3.2}{5.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.2}{5.0}"
+      },
+      {
+       "latex": "\\frac{1.5}{5.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.5}{5.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fvMPy9QGTgHrPzNQ",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the maximum *R*<sub>f</sub> value of a compound cannot exceed 1.",
+     "solution_md": "> **[mark-scheme]**\n> The maximum *R*<sub>f</sub> value cannot exceed 1 because:\n> \n> - *R*<sub>f</sub> is a ratio of the distance a compound has travelled to the distance travelled by the solvent **[1 mark]**\n> - An *R*<sub>f</sub> value of 1 means the compound is fully soluble in the mobile phase and does not interact with the stationary phase **[1 mark]**\n\n> **[exam-tip]**\n> Think about what *R*<sub>f</sub> physically represents: the distance the compound travels as a fraction of the solvent front distance. Since the compound cannot travel further than the solvent, the maximum ratio is 1. An *R*<sub>f</sub> of exactly 1 would mean the compound has no interaction with the stationary phase at all."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fyrhhpGMVzT8mdVV",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_VzthyPqhqWQcMb3Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sqZ99NMZvSzmpf4v"
+     ],
+     "part_tier": null,
+     "problem_md": "Dinitrobenzene has the molecular formula C<sub>6</sub>H<sub>4</sub>N<sub>2</sub>O<sub>4</sub>.\n\ni) Draw the skeletal formulae of the three structural isomers of dinitrobenzene.\n\n[3]\n\nii) State the type of structural isomerism shown.\n\n[1]",
+     "solution_md": "i) The three structural isomers of dinitrobenzene are:\n\n![Skeletal formulae of 1,2-dinitrobenzene, 1,3-dinitrobenzene and 1,4-dinitrobenzene](assets/003-skeletal-formulae-of-1-2-dinitrobenzene-1-3-dini.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for each correct skeletal formula:\n> \n> - 1,2-dinitrobenzene\n> - 1,3-dinitrobenzene\n> - 1,4-dinitrobenzene\n> \n> ii) The type of structural isomerism shown is:\n> \n> - Positional / position isomerism **[1 mark]**\n\n> **[exam-tip]**\n> When drawing di-substituted isomers of benzene, place one functional group at carbon-1 and keep it fixed. Then move the second functional group around the ring one carbon at a time, starting from carbon-2 and ending at carbon-4."
+    },
+    {
+     "id": "qstnprt_dcWDf3Z22fRN5BKG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "State the factors that determine the distance travelled by a spot in thin-layer chromatography.",
+     "solution_md": "> **[mark-scheme]**\n> The factors that determine the distance travelled by a spot in thin-layer chromatography are:\n> \n> - Solubility in the mobile phase / solvent **[1 mark]**\n> - Adsorption by / strength of adsorption onto the stationary phase / silica gel **[1 mark]**\n\n> **[exam-tip]**\n> The distance a compound travels depends on two opposing interactions:\n> \n> 1. How soluble it is in the mobile phase (which carries it up the plate)\n> 2. How strongly it adsorbs onto the stationary phase (which holds it back)."
+    },
+    {
+     "id": "qstnprt_ctVDjhkCmSJgjh7v",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "Samples of 1,2-dinitrobenzene and 1,4-dinitrobenzene are spotted on a thin-layer chromatography plate coated with silica gel.\n\nThe solvent used to run the thin-layer chromatography experiment is hexane.\n\nSuggest why each sample is applied to the thin-layer chromatography plate using a fine capillary tube rather than a dropping pipette.",
+     "solution_md": "> **[mark-scheme]**\n> - A fine capillary tube produces a smaller / more concentrated spot\n> **OR**\n> A smaller spot produces a better / more accurate chromatogram\n> **OR**\n> To avoid smudging / smearing the spot **[1 mark]**\n\n> **[exam-tip]**\n> This question tests understanding of practical technique. A smaller, more concentrated spot gives a cleaner chromatogram and makes accurate *R*<sub>f</sub> calculation easier. A large or smeared spot makes measurements unreliable."
+    },
+    {
+     "id": "qstnprt_92gh9SMb7w8Gp254",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSamples of 1,2-dinitrobenzene and 1,4-dinitrobenzene are spotted on a thin-layer chromatography plate coated with silica gel.\n\nThe solvent used to run the thin-layer chromatography experiment is hexane.\n\nThe factors that determine the distance travelled by a spot in thin-layer chromatography are:\n- Solubility in the mobile phase / solvent\n- Adsorption by / strength of adsorption onto the stationary phase / silica gel\n\nFig. 1.1 shows the chromatogram with the spot for 1,4-dinitrobenzene.\n\n![TLC plate showing a spot for 1,4-dinitrobenzene with the solvent front marked](assets/004-tlc-plate-showing-a-spot-for-1-4-dinitrobenzene-.png)\n\n**Fig. 1.1**\n\nDraw the expected position of the spot for 1,2-dinitrobenzene. Explain your answer.",
+     "solution_md": "The expected position of the spot for 1,2-dinitrobenzene is:\n\n![TLC plate showing spots for 1,4-dinitrobenzene and 1,2-dinitrobenzene, with the 1,2-dinitrobenzene spot lower on the plate](assets/005-tlc-plate-showing-spots-for-1-4-dinitrobenzene-a.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the spot correctly placed below the existing spot on the chromatogram\n> \n> - The silica gel / stationary phase is polar\n> **OR**\n> The hexane / mobile phase is non-polar **[1 mark]**\n> - 1,2-dinitrobenzene is more polar\n> **AND**\n> 1,2-dinitrobenzene adsorbs more strongly to the stationary phase / is less soluble in the mobile phase\n> **AND**\n> Therefore, 1,2-dinitrobenzene does not travel as far **[1 mark]**\n\n> **[exam-tip]**\n> Both compounds are dinitrobenzene isomers, so the difference in their positions on the chromatogram must be due to their structural differences. 1,2-dinitrobenzene has both nitro groups on adjacent carbons and is therefore more polar. A more polar compound adsorbs more strongly to the polar silica gel and travels less far up the plate."
+    },
+    {
+     "id": "qstnprt_ZN68htbDkrggxcf8",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSamples of 1,2-dinitrobenzene and 1,4-dinitrobenzene are spotted on a thin-layer chromatography plate coated with silica gel.\n\nThe solvent used to run the thin-layer chromatography experiment is hexane.\n\n1,2-dinitrobenzene is more polar and adsorbs more strongly to the stationary phase / is less soluble in the mobile phase, therefore 1,2-dinitrobenzene does not travel as far.\n\nExplain what the student could do to reverse the relative positions of the 1,2-dinitrobenzene and 1,4-dinitrobenzene spots.",
+     "solution_md": "> **[mark-scheme]**\n> To reverse the relative positions of the spots, the student could:\n> \n> - Replace the hexane with a polar solvent / use a polar solvent **[1 mark]**\n> - 1,2-dinitrobenzene is more soluble in a polar solvent\n> **AND**\n> Therefore, 1,2-dinitrobenzene travels further / the positions are reversed **[1 mark]**\n\n> **[exam-tip]**\n> Polar compounds are more soluble in polar solvents. Switching to a polar solvent increases the solubility of 1,2-dinitrobenzene in the mobile phase, so it moves further up the plate relative to 1,4-dinitrobenzene, reversing their positions."
+    }
+   ]
+  },
+  {
+   "id": "qstn_78tHS2Yw8jQN9NvZ",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_wtxPjF6PrygNSFjF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b",
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "Thin layer chromatography was used to analyse the contents of a bottle containing butan-2-ol and butanone.\n\nThe contents of the bottle were dissolved in hexane and spotted onto the silica plate.\n\nExplain why butanone has a higher *R*<sub>f</sub> value than butan-2-ol.",
+     "solution_md": "> **[mark-scheme]**\n> Butanone has a higher *R*<sub>f</sub> value than butan-2-ol because:\n> \n> - Butan-2-ol is more polar than butanone\n> **OR**\n> Butan-2-ol contains hydrogen bonding **[1 mark]**\n> - Butan-2-ol adsorbs more strongly to the silica gel / stationary phase\n> **OR**\n> Butanone is more soluble in the mobile phase / solvent **[1 mark]**\n> - Therefore, butanone travels further on the TLC plate **[1 mark]**\n\n> **[exam-tip]**\n> Butan-2-ol contains an -OH group which enables hydrogen bonding, making it more polar than butanone. More polar compounds adsorb more strongly to the polar silica gel stationary phase and travel less far up the plate, giving a lower *R*<sub>f</sub> value."
+    },
+    {
+     "id": "qstnprt_wx8F9mbfKrv3bHGH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThin layer chromatography was used to analyse the contents of a bottle containing butan-2-ol and butanone. \n\nThe contents of the bottle were dissolved in hexane and spotted onto the silica plate.\n\nState the names of the stationary and mobile phases in this chromatography experiment.",
+     "solution_md": "> **[mark-scheme]**\n> The stationary and mobile phases in this chromatography experiment are:\n> \n> - Stationary phase = silica gel **[1 mark]**\n> - Mobile phase = hexane **[1 mark]**\n\n> **[exam-tip]**\n> In thin-layer chromatography, the stationary phase is a layer of silica gel (SiO<sub>2</sub>) or alumina (Al<sub>2</sub>O<sub>3</sub>) coated onto a plate. The mobile phase is the liquid solvent that moves up the plate by capillary action."
+    },
+    {
+     "id": "qstnprt_WpGGxDTCyxJttwCQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "The student repeats the experiment using a more polar solvent instead of 7:3 pentane / diethyl ether.\n\nSuggest and explain the effect on the *R*<sub>f</sub> value of benzyl alcohol.",
+     "solution_md": "> **[mark-scheme]**\n> The effect on the *R*<sub>f</sub> value of benzyl alcohol is:\n> \n> - The *R*<sub>f</sub> value would increase **[1 mark]**\n> - Benzyl alcohol is more soluble in a polar solvent / has a greater affinity for the polar mobile phase, so it travels further up the plate **[1 mark]**\n\n> **[exam-tip]**\n> Benzyl alcohol contains an -OH group and is relatively polar. A polar solvent increases the solubility of polar compounds in the mobile phase, reducing their interaction with the stationary phase and causing them to travel further, increasing their *R*<sub>f</sub> value."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5kQDQpY4VyqPZjgt",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_c58DXhFkd5r37WN7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "State the names of the two phases in thin-layer chromatography. State one example of a chemical used for each phase.",
+     "solution_md": "> **[mark-scheme]**\n> The two phases of thin-layer chromatography and one example of a chemical used for each are:\n> \n> - The mobile phase **[1 mark]**\n> - Specific named solvent, e.g. water / ethanol / hexane\n> **OR**\n> General solvent, e.g. alkane / alcohol **[1 mark]**\n> - The stationary phase **[1 mark]**\n> - Silica / silicon dioxide / SiO<sub>2</sub>\n> **OR**\n> Alumina / aluminium oxide / Al<sub>2</sub>O<sub>3</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The mobile phase moves during TLC, carrying the sample up the plate. The stationary phase stays fixed.\n> \n> Common examples of polar mobile phases are water and alcohols. Common examples of non-polar mobile phases are alkanes such as hexane."
+    },
+    {
+     "id": "qstnprt_9mj4fNnK7nynHSXC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw a labelled diagram of the apparatus used to separate a mixture using thin-layer chromatography (TLC).",
+     "solution_md": "A labelled diagram of the apparatus for thin-layer chromatography is:\n\n![A labelled diagram of TLC apparatus showing a TLC plate in a beaker of solvent. The pencil baseline is near the bottom of the plate. Two spots are marked on the baseline and the beaker is covered with a lid. The solvent level is below the baseline.](assets/006-a-labelled-diagram-of-tlc-apparatus-showing-a-tl.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for pencil baseline labelled **AND **sealed container / lid shown\n> \n> 1 mark for solvent labelled **AND **level of solvent shown below the pencil baseline\n> \n> 1 mark for two spots labelled on the baseline\n\n> **[exam-tip]**\n> Always include the lid on the beaker in your diagram. This prevents evaporation of the volatile organic solvents used as the mobile phase.\n> \n> The solvent level must be below the pencil baseline. If the solvent touches the spots, they will dissolve directly into the solvent rather than being carried up the plate."
+    },
+    {
+     "id": "qstnprt_QvZJswYWzQZ5t86n",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8TWJXzXhRwkNnVW"
+     ],
+     "part_tier": null,
+     "problem_md": "State the two factors that determine the distance travelled by a compound in thin-layer chromatography.",
+     "solution_md": "> **[mark-scheme]**\n> The two factors that determine the distance travelled by a compound in thin-layer chromatography are:\n> \n> - The solubility of the compound in the mobile phase **[1 mark]**\n> - The adsorption of the compound by the stationary phase **[1 mark]**\n\n> **[exam-tip]**\n> A compound that is very soluble in the mobile phase is carried further up the plate. A compound that adsorbs strongly to the stationary phase is held back and travels a shorter distance.\n> \n> For TLC using a solid stationary phase such as silica, the correct term for the interaction with the stationary phase is adsorption."
+    },
+    {
+     "id": "qstnprt_7t79b4cYYng6hDbJ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "State the equation used to calculate the retention factor, *R*<sub>f</sub>, of a compound.",
+     "solution_md": "> **[mark-scheme]**\n> The equation used to calculate the retention factor, *R*<sub>f</sub>, of a compound is:\n> \n> - *R*<sub>f</sub> = $\\frac{\\text{distance travelled by compound}}{\\text{distance travelled by solvent front}}$ **[1 mark]**\n\n> **[exam-tip]**\n> This equation is not often specifically asked for in a question. You are more likely to be asked to apply it to calculate an *R*<sub>f</sub> value from a chromatogram.",
+     "equations": [
+      {
+       "latex": "\\frac{\\text{distance travelled by compound}}{\\text{distance travelled by solvent front}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>distance travelled by compound</mtext><mtext>distance travelled by solvent front</mtext></mfrac></math>",
+       "alt": "\\frac{\\text{distance travelled by compound}}{\\text{distance travelled by solvent front}}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_M2r2njGx5msqVzKF",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m4QWsjGjw2rcHj2b"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe equation used to calculate the retention factor, *R*~f~, of a compound is:\n\n*R*~f~ = \\$\\$\\frac{\\text{distance travelled by compound}}{\\text{distance travelled by solvent front}}\\$\\$\n\nCalculate the *R*<sub>f</sub> value of the compound shown in the chromatogram below. Show your working.\n\n![A developed TLC plate showing a baseline at 2 cm, a compound spot at 16 cm, and a solvent front at 20 cm from the bottom of the plate.](assets/007-a-developed-tlc-plate-showing-a-baseline-at-2-cm.png)",
+     "solution_md": "To calculate the *R*<sub>f</sub> value of the compound:\n\n- Determine the distances from the baseline:\n\nDistance travelled by solvent front = 20 − 2 = 18 cm\n\nDistance travelled by compound = 16 − 2 = 14 cm\n\n**[1 mark]**\n\n- Calculate the *R*<sub>f</sub> value:\n\n*R*<sub>f</sub> = $\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{spot}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent} \\mathrm{front}}$\n\n*R*<sub>f</sub> = $\\frac{14}{18}$\n\n*R*<sub>f</sub> = **0.78**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for both distances correctly measured from the baseline: solvent front = 18 cm **AND **compound = 14 cm\n> \n> 1 mark for correct *R*<sub>f</sub> value: 0.78 (Allow 0.777–0.778)\n\n> **[exam-tip]**\n> Distances are measured from the pencil baseline, not from the bottom of the plate. In this chromatogram, the baseline is at 2 cm, so subtract 2 cm from each measurement before dividing.\n> \n> The *R*<sub>f</sub> value has no units because it is a ratio.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{spot}}{\\mathrm{distance} \\mathrm{travelled} \\mathrm{by} \\mathrm{solvent} \\mathrm{front}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>spot</mi></mrow><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>&#160;</mo><mi>by</mi><mo>&#160;</mo><mi>solvent</mi><mo>&#160;</mo><mi>front</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator distance space travelled space by space spot over denominator distance space travelled space by space solvent space front end fraction"
+      },
+      {
+       "latex": "\\frac{14}{18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>18</mn></mfrac></math>",
+       "alt": "\\frac{14}{18}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

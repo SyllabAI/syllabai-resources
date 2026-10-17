@@ -1,0 +1,529 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:55:44Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "8-reaction-kinetics",
+  "name": "8. Reaction Kinetics"
+ },
+ "topic": {
+  "id": "top_7D7rBVRv3K4Mcmw2",
+  "slug": "8-3-homogeneous-and-heterogeneous-catalysts",
+  "name": "Homogeneous & Heterogeneous Catalysts",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "types-of-catalyst",
+   "name": "Types of Catalyst",
+   "revision_note_id": "rn_tSm5RBz4MTHpsW2y"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_HCpn7gJ3RkVpgTSh",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-3-homogeneous-and-heterogeneous-catalysts/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q7hard.png": "001-graph-with-amount-of-product-t-on-the-y-axis-and.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/2-1.png": "002-maxwell-boltzmann-distribution-curve-with-peak-q.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/jNpe6DId_26.JPG": "003-maxwell-boltzmann-distribution-curve-showing-the.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_WCpRKMYBkCKbbntK",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_j86HmQGPWFHQxxbm",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "The stoichiometry of a catalysed reaction is shown.\n\n*R* (g) + *S* (g) ⇌ *T* (g) + *U* (g)\n\nTwo experiments were carried out in which the amount of product *T* was measured against time. The results are shown in the diagram.\n\n![Graph with amount of product T on the y-axis and time on the x-axis. Both curves begin at the origin and are steepest at time zero. Experiment 1 has a shallower initial gradient and reaches a higher plateau. Experiment 2 has a steeper initial gradient and reaches a lower plateau.](assets/001-graph-with-amount-of-product-t-on-the-y-axis-and.png)\n\nWhich row gives the changes to the conditions in experiment 1 that could produce the results for experiment 2?\n\n|   | catalyst | initial amount of reactant *R* |\n|---|---|---|\n| **A** | less effective | decreased |\n| **B** | less effective | increased |\n| **C** | more effective | decreased |\n| **D** | more effective | increased |",
+     "solution_md": "**Final answer:** **The correct answer is A because:**\n\n- In experiment 2, the initial gradient is shallower than in experiment 1, indicating a slower initial rate.\n\n  - A less effective catalyst raises the activation energy, reducing the proportion of molecules with energy greater than or equal to *E*<sub>a</sub> and therefore decreasing the rate.\n- In experiment 2, the curve reaches a lower plateau, indicating a lower equilibrium yield of *T*.\n\n  - A catalyst does not alter the equilibrium position; it only affects the rate at which equilibrium is reached.\n  - The only way to lower the equilibrium yield of *T* at constant temperature and pressure is to begin with a decreased initial amount of reactant *R*.\n\n**B** is incorrect as a less effective catalyst is consistent with the shallower gradient, but increasing the initial amount of reactant *R* would shift the equilibrium to produce more *T*, giving a higher plateau — not a lower one.\n\n**C** is incorrect as a more effective catalyst would give a steeper initial gradient (faster rate), which contradicts the graph.\n\n**D** is incorrect as both variables are wrong: a more effective catalyst gives a steeper initial gradient, and more reactant *R* gives a higher equilibrium yield.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_twzZ2r9x5rFZtT9c",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jQcq8SmQ9vC5GNZy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "The oxidation of butadiene, CH<sub>2</sub>=CHCH=CH<sub>2</sub>, using air or oxygen, produces the molecule crotonaldehyde, CH<sub>3</sub>CH=CHCHO.\n\nOne method of oxidation is to pass a mixture of butadiene and oxygen through a hot aqueous solution of palladium(II) ions, Pd<sup>2+</sup> (aq), which catalyse the reaction.\n\nWhich statement about the action of the Pd<sup>2+</sup> (aq) ions is **not** correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A catalyst does not increase the energy of the reacting molecules.\n- The average kinetic energy of the molecules is determined exclusively by the temperature of the system, which is unchanged by the addition of a catalyst.\n\n**A** is incorrect as a catalyst provides an alternative reaction pathway with a lower activation energy than the uncatalysed route. Statement A is therefore true.\n\n**C** is incorrect as a catalyst works by providing an alternative reaction pathway. Statement C is therefore true.\n\n**D** is incorrect as the Pd<sup>2+</sup> (aq) ions are in the same physical state as the reaction mixture, making this an example of homogeneous catalysis. Since the catalyst participates directly in the reaction mechanism, increasing its concentration increases the frequency of productive interactions with the reactants, thereby increasing the rate. Statement D is therefore true.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "it lowers the activation energy for the reaction"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "it increases the energy of the reacting molecules"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "when it is used, the reaction proceeds by an alternative reaction pathway"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "changing its concentration affects the rate of oxidation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rZSsM25bJdJfqXZN",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6rtmTmbdtGSKr5hV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6",
+      "spcpt_WYqwz3Hhvhm6sW8N"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row describes the catalyst used in the Haber process?\n\n|   | type of catalysis | identity of catalyst |\n|---|---|---|\n| **A** | heterogeneous | iron |\n| **B** | heterogeneous | vanadium(V) oxide |\n| **C** | homogeneous | iron |\n| **D** | homogeneous | vanadium(V) oxide |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The Haber process uses finely divided iron as a catalyst.\n- The reactants nitrogen and hydrogen are both gases, while the iron catalyst is a solid.\n- Since the catalyst and reactants are in different physical states, this is an example of heterogeneous catalysis.\n\n**C** is incorrect as iron is the correct catalyst identity, but the Haber process uses heterogeneous catalysis, not homogeneous. Homogeneous catalysis requires the catalyst to be in the same physical state as the reactants.\n\n**B** and **D** are incorrect as vanadium(V) oxide is the catalyst for the Contact process (the industrial production of sulfuric acid), not the Haber process.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KcQ5hMCXC4JWYQCj",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_y9PFzjXqYQ3vZQRT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement about the addition of a catalyst to a reversible reaction is correct?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A catalyst provides an alternative reaction pathway with a lower activation energy.\n- This lowers the activation energy barrier for both the forward and reverse reactions equally, so the rate of both reactions increases.\n\n**A** is incorrect as the average kinetic energy of the reacting particles is determined by the temperature of the system alone. A catalyst does not change the temperature and therefore has no effect on the average kinetic energy.\n\n**B** is incorrect as a catalyst provides an alternative pathway with a lower activation energy but does not change the absolute energy levels of the reactants or products. The enthalpy change of the forward reaction is therefore unaffected.\n\n**C** is incorrect as a catalyst is not consumed in the overall reaction. By definition, a catalyst is chemically unchanged at the end of the process, so its mass remains the same.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the average kinetic energy of the reacting particles increases"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the enthalpy change of the forward reaction decreases"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the mass of the catalyst decreases by the end of the reaction"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "the rate of the reverse reaction increases"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_K8CKCMrsH2MtTsgR",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_PM74MqC8VYRwBxDp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows the Maxwell-Boltzmann distribution of molecular energies for a gaseous mixture. The peak is labelled Q, and the activation energy is marked as *E*<sub>a</sub>.\n\n![Maxwell-Boltzmann distribution curve with peak Q marked at the top and activation energy Ea shown as a vertical line on the x-axis to the right of the peak](assets/002-maxwell-boltzmann-distribution-curve-with-peak-q.png)\n\nWhich row describes the changes to the diagram when an effective catalyst is added?\n\n|   | height of peak Q | position of *E*<sub>a</sub> |\n|---|---|---|\n| **A** | decreases | shifts to the left |\n| **B** | decreases | shifts to the right |\n| **C** | remains the same | shifts to the left |\n| **D** | remains the same | shifts to the right |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- A catalyst provides an alternative reaction pathway with a lower activation energy (*E*<sub>a</sub>).\n- The height of peak Q is determined solely by the temperature and total number of molecules in the sample.\n\n  - Adding a catalyst changes neither of these, so the height of peak Q remains the same.\n- A lower *E*<sub>a</sub> corresponds to a position shifted to the left on the kinetic energy axis, as the activation energy has a smaller numerical value.\n\n  - This is shown in the diagram below.\n\n![Maxwell-Boltzmann distribution curve showing the original uncatalysed activation energy Ea and a second vertical line shifted to the left representing the lower activation energy of the catalysed pathway, with peak Q unchanged](assets/003-maxwell-boltzmann-distribution-curve-showing-the.jpg)\n\n**A** is incorrect as the height of peak Q only decreases when the temperature is raised, which causes the distribution to flatten and broaden. A catalyst does not change the temperature.\n\n**B** is incorrect as a lower activation energy corresponds to a line shifted to the left on the kinetic energy axis (a smaller numerical value), not to the right.\n\n**D** is incorrect as the height of peak Q remains the same (temperature is unchanged), and a lower *E*<sub>a</sub> shifts the line to the left, not to the right.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hxZXXWSWsQvmrm2p",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XPgSpnNXFT6jrCxn",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "Photochromic glass is used for some glasses to enable them to work as sunglasses. The glass darkens when exposed to bright light and returns to transparent when the light is less bright. The darkness of the colour of the glass is related to the concentration of silver atoms.\n\nThe reactions involved are shown.\n\nReaction 1: Ag<sup>+</sup> + Cl<sup>–</sup> ⇌ Ag + Cl\n\nReaction 2: Cu<sup>+</sup> + Cl → Cu<sup>2+</sup> + Cl<sup>–</sup>\n\nReaction 3: Cu<sup>2+</sup> + Ag → Cu<sup>+</sup> + Ag<sup>+</sup>\n\nWhich statement about these reactions is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Cu<sup>+</sup> and Cu<sup>2+</sup> ions act as catalysts because they are consumed and then regenerated across reactions 2 and 3.\n\n  - They do not appear in the overall net equation.\n- Adding reactions 2 and 3, the copper ions cancel out.\n\n  - The net equation is Cl + Ag → Cl<sup>–</sup> + Ag<sup>+</sup>, which is the reverse reaction of reaction 1.\n  - The copper ions therefore catalyse the reverse reaction, which returns the glass to transparent.\n\n**A** is incorrect as Ag<sup>+</sup> ions are reduced in reaction 1. The oxidation number of silver decreases from +1 in Ag<sup>+</sup> to 0 in Ag. A decrease in oxidation number corresponds to reduction, not oxidation.\n\n**C** is incorrect as Cu<sup>+</sup> ions are oxidised in reaction 2. The oxidation number of copper increases from +1 to +2, so Cu<sup>+</sup> is acting as a reducing agent, not an oxidising agent.\n\n**D** is incorrect as the reaction that absorbs light must produce elemental silver, since the concentration of silver atoms determines the darkness of the glass. This occurs in the forward direction of reaction 1, not reaction 2.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Ag<sup>+</sup> ions are oxidised in reaction 1"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Cu<sup>+</sup> and Cu<sup>2+</sup> ions act as catalysts"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Cu<sup>+</sup> ions act as an oxidising agent in reaction 2"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "reaction 2 is the one in which light is absorbed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FtXbCCjfzV98xXBj",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HGXWgWfwwCQvdvNM",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WYqwz3Hhvhm6sW8N",
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row correctly describes the mechanism of a heterogeneous catalyst?\n\n|   | phase of catalyst relative to reactants | way in which rate is increased |\n|---|---|---|\n| **A** | same phase | forms reactive intermediates |\n| **B** | same phase | provides a surface for reactants to adsorb onto |\n| **C** | different phase | forms reactive intermediates |\n| **D** | different phase | provides a surface for reactants to adsorb onto |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A heterogeneous catalyst is in a different physical state from the reactants.\n\n  - For example, the iron catalyst in the Haber process is a solid, while the reactants nitrogen and hydrogen are gases.\n- The mechanism involves reactant molecules adsorbing onto active sites on the solid catalyst surface.\n- This weakens bonds in the adsorbed molecules and lowers the activation energy of the reaction, increasing the rate.\n\n**A** and **B** are incorrect as a catalyst in the same physical state as the reactants is a homogeneous catalyst, not a heterogeneous one.\n\n**C** is incorrect as forming reactive intermediates is characteristic of homogeneous catalysis, where the catalyst reacts with a reactant to form an intermediate compound before being regenerated. This is not the mechanism by which a heterogeneous catalyst operates.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FJXXZpZxxJFkXhMC",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mDBK6YrRRTzSNrfv",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row describes the effect of adding a catalyst to a reaction?\n\n|   | activation energy of the alternative pathway | rate of reaction |\n|---|---|---|\n| **A** | higher | decreases |\n| **B** | higher | increases |\n| **C** | lower | decreases |\n| **D** | lower | increases |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A catalyst increases the rate of a chemical reaction by providing an alternative reaction pathway with a lower activation energy than the uncatalysed route.\n- Since the activation energy barrier is lower, a greater proportion of the reacting particles have energy greater than or equal to *E*<sub>a</sub>\n- This increases the frequency of effective collisions and therefore the rate of reaction.\n\n**A** and **B** are incorrect as a catalyst provides a pathway with a lower activation energy, not a higher one. A higher activation energy barrier would reduce the proportion of effective collisions and decrease the rate of reaction.\n\n**C** is incorrect as a lower activation energy increases the proportion of molecules that can react, which increases the rate of reaction, not decreases it.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9zTCqwSNbKGd4zbV",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qxV9GdVmyfYCzhCn",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement explains the effect of a catalyst using the Boltzmann distribution?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- A catalyst provides an alternative reaction pathway with a lower activation energy (*E*<sub>a</sub>).\n- On a Boltzmann distribution, the lower *E*<sub>a</sub> is represented by a vertical line shifted to the left on the kinetic energy axis.\n\n  - This increases the area under the curve to the right of the *E*<sub>a</sub> line, meaning a greater proportion of molecules now have energy greater than or equal to the activation energy.\n  - This leads to a higher frequency of effective collisions and an increased rate of reaction.\n\n**A** is incorrect as the average kinetic energy of the reacting particles is determined by the temperature of the system alone. A catalyst does not alter the temperature and therefore has no effect on the average kinetic energy or the shape of the distribution curve.\n\n**B** is incorrect as a catalyst does not increase the overall collision frequency between molecules. Collision frequency is increased by raising concentration or pressure. A catalyst only increases the proportion of collisions that are effective by lowering *E*<sub>a</sub>.\n\n**D** is incorrect as a catalyst lowers *E*<sub>a</sub> equally for both the forward and reverse reactions. It increases the rate at which equilibrium is reached but does not alter the equilibrium position of the reaction.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "it increases the average kinetic energy of the reacting particles"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "it increases the collision frequency between reactant molecules"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "it increases the proportion of molecules with energy greater than or equal to the activation energy"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "it shifts the position of equilibrium of the reaction"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

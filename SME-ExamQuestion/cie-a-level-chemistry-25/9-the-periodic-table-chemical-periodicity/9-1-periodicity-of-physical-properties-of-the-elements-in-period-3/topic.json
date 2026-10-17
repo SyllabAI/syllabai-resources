@@ -1,0 +1,585 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:55:46Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "9-the-periodic-table-chemical-periodicity",
+  "name": "9. The Periodic Table: Chemical Periodicity"
+ },
+ "topic": {
+  "id": "top_bwpypFYcQm49YVQF",
+  "slug": "9-1-periodicity-of-physical-properties-of-the-elements-in-period-3",
+  "name": "Periodicity of Physical Properties of the Elements in Period 3",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "physical-properties-of-the-period-3-elements",
+   "name": "Physical Properties of the Period 3 Elements",
+   "revision_note_id": "rn_qNNRGnq6vQCNgQWz"
+  },
+  {
+   "slug": "structure-and-bonding-of-the-period-3-elements",
+   "name": "Structure & Bonding of the Period 3 Elements",
+   "revision_note_id": "rn_32N95kytHHZSnsK9"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_NgWSVMPg4P8Cw6CH",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/9-the-periodic-table-chemical-periodicity/9-1-periodicity-of-physical-properties-of-the-elements-in-period-3/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/01/20449-paper-1-q23-period-3-graph.png": "001-graph-showing-log10-of-ionisation-energy-in-kj-m.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/2-1-e-5.JPG": "002-three-graphs-showing-trends-in-physical-properti.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_JmjZgJ3HN866qB3V",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WmScDmGV67wMrP87",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "The graph shows the values of log ionisation energy for the first eight ionisation energies of an element **X** from Period 3.\n\n![Graph showing log10 of ionisation energy in kJ/mol against number of electrons removed, with a sharp increase after the sixth electron](assets/001-graph-showing-log10-of-ionisation-energy-in-kj-m.png)\n\nWhich statement about element **X** is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- In the graph, there is a large increase between the 6th and 7th ionisation energies.\n- This means the atom has 6 outer-shell (valence) electrons, placing element X in Group 16.\n- Group 16, Period 3 corresponds to **sulfur** (S).\n- Sulfur has the electron configuration [Ne] 3s<sup>2</sup> 3p<sup>4</sup> and can reach a maximum oxidation state of **+6**, as seen in compounds such as SO<sub>3</sub> and H<sub>2</sub>SO<sub>4</sub>.\n\n**A **is incorrect as it is aluminium (not sulfur) that reacts with excess hot NaOH (aq) to produce hydrogen gas:\n\n2Al (s) + 2NaOH (aq) + 2H<sub>2</sub>O (l) → 2NaAlO<sub>2</sub> (aq) + 3H<sub>2</sub> (g)\n\n**C **is incorrect as it describes silicon, not sulfur. Silicon forms a giant covalent oxide (SiO<sub>2</sub>) that is insoluble in water. Sulfur forms SO<sub>3</sub> and SO<sub>2</sub>, which are molecular and react with water.\n\n**D **is incorrect as sulfur has a **lower** first ionisation energy than phosphorus (the element to its left), not higher than the element to its right. The lower IE of sulfur compared to phosphorus is due to electron-pair repulsion in the 3p orbitals.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "it reacts with excess hot NaOH (aq) to produce hydrogen gas"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "its highest oxidation state in a compound is +6"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "it forms a giant covalent oxide that is insoluble in water"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "its first ionisation energy is higher than that of the element immediately to its right in the Periodic Table"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wrgy3BTJJs2ck8Zw",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_swGnYfZX3X2qhHyf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_43qjgSZhjrKzVV7x"
+     ],
+     "part_tier": null,
+     "problem_md": "Which graph shows the electronegativity of the elements Na, Mg, Al and Si, from Period 3, plotted against their first ionisation energies?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- **Electronegativity** is a measure of the tendency of an atom to attract a bonding pair of electrons.\n\n  - Electronegativity increases across a period.\n  - The number of principal quantum shells remains the same, but nuclear charge increases (more protons), so there is a stronger pull on the bonding electrons in the outer shell.\n  - Therefore, the electronegativity of the elements in the question is: Na (smallest) < Mg < A*l* < Si (biggest)\n- **First ionisation energy** is the energy required to remove one mole of electrons (the easiest to remove) from one mole of gaseous atoms:\n\nX (g) → X<sup>+</sup> (g) + e<sup>-</sup>\n\n- **Sodium** has the lowest ionisation energy as the outer electron is unpaired (3s<sup>1</sup>) and nuclear charge is lowest of the four.\n- **Aluminium** has a lower ionisation energy than magnesium because the 3p electron is shielded from the nucleus by the 3s electrons, reducing the attraction to the outer electron.\n\n  - This outweighs the effect of the extra proton.\n- **Silicon** has the highest nuclear charge and therefore the highest first ionisation energy of the four.\n\n**B **is incorrect as it shows an incorrect relationship between electronegativity and first ionisation energy.\n\n**C **is incorrect as it shows an incorrect relationship between electronegativity and first ionisation energy.\n\n**D **is incorrect as it shows an incorrect relationship between electronegativity and first ionisation energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WpdkCwS8H7sDFbS2",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_M9D42tCwHcqYk44C",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row correctly describes the physical properties of the substance?\n\n|   | substance | melting point | conductivity of solid | conductivity when added to water |\n|---|---|---|---|---|\n| A | Al | high | good | good |\n| B | NaCl | high | good | good |\n| C | SiO<sub>2</sub> | high | poor | good |\n| D | SO<sub>3</sub> | low | poor | good |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- SO<sub>3</sub> is a **simple covalent molecule.**\n- SO<sub>3</sub> has a **low melting point** because only weak van der Waals' forces between molecules need to be broken.\n- SO<sub>3</sub> **does not** conduct electricity as a solid because there are no mobile ions or delocalised electrons.\n- When added to water, SO<sub>3</sub> reacts to form **sulfuric acid** (H<sub>2</sub>SO<sub>4</sub>), a strong acid that fully dissociates into ions in solution.\n\nSO<sub>3</sub> (g) + H<sub>2</sub>O (l) → H<sub>2</sub>SO<sub>4</sub> (aq)\n\n- These mobile ions allow the solution to **conduct electricity.**\n\n**A **is incorrect as aluminium metal does not dissolve in neutral water to produce ions, so its conductivity when added to water should be poor (not good).\n\n**B **is incorrect as solid NaCl does not conduct electricity. The ions are fixed in the giant ionic lattice and are not free to move. Its conductivity of solid should be poor (not good).\n\n**C** is incorrect as SiO<sub>2</sub> is insoluble in water and does not produce ions in solution. Its conductivity when added to water should be poor (not good).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_W6rHRCpMnrCmHXYb",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_krmkcyHpVQTgnvkB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "Which metal has the highest melting point?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The melting point of a metal depends on the strength of the metallic bonds.\n- The strength of metallic bonding depends on the **charge** of the cation and the **radius** of the metal ion.\n\n  - The higher the charge, the greater the number of delocalised electrons, increasing metallic bond strength.\n  - The smaller the ionic radius, the stronger the metallic bonding.\n- Al is a Group 13 element, so it forms Al<sup>3+</sup> ions, giving it the highest charge and smallest ionic radius of the four metals.\n\n  - Therefore Al has the strongest metallic bonding and the highest melting point.\n\n**A **is incorrect as sodium forms Na<sup>+</sup> ions (+1 charge) and has a larger ionic radius than Al<sup>3+</sup>.\n\n**B **is incorrect as magnesium forms Mg<sup>2+</sup> ions (+2 charge) and has a larger ionic radius than Al<sup>3+</sup>.\n\n**C **is incorrect as potassium forms K<sup>+</sup> ions (+1 charge) and has a larger ionic radius than Al<sup>3+</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Na"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Mg"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "K"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Al"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QjVKHCZ4ntgT5y6P",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2XNW8gd28nrKX7qd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ",
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "The trends in three physical properties of the elements of Period 3 are shown in the graphs.\n\n![Three graphs showing trends in physical properties of Period 3 elements: melting point, first ionisation energy, and atomic radius](assets/002-three-graphs-showing-trends-in-physical-properti.jpg)\n\nWhich physical property is **not** shown?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The three graphs show melting point, first ionisation energy, and atomic radius:\n- **Melting point** increases from Na to Si then sharply drops.\n\n  - The metals (Na, Mg, Al) have metallic bonding, and the number of delocalised electrons increases from Na to Al, requiring more energy to break.\n  - Si has a giant covalent structure with many strong covalent bonds.\n  - P, S, Cl, and Ar exist as simple molecules with weak van der Waals forces between them.\n\n- **First ionisation energy** generally increases across the period.\n\n  - The drop from Mg to Al occurs because Al's outer electron is in the 3p subshell, which is shielded by the 3s electrons, making it easier to remove.\n\n- **Atomic radius** decreases from left to right.\n\n  - The number of electron shells stays the same across a period, but nuclear charge increases, pulling the outer electrons closer to the nucleus.\n- Electrical conductivity is not shown in any of the three graphs.\n\n**B **is incorrect as atomic radius is shown in the third graph.\n\n**C **is incorrect as melting point is shown in the first graph.\n\n**D **is incorrect as first ionisation energy is shown in the second graph.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "Electrical conductivity"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Atomic radius"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Melting point"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "First ionisation energy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_P2MBy5kjwVmYyppp",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Pj2DvTgWnrBdqFVG",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the chloride of a Period 3 element and made the following observations:\n\n- The compound was a white crystalline solid.\n- It dissolved easily in water to give a solution of pH 12.\n- When placed in a test-tube and heated in a roaring Bunsen flame, the compound melted after several minutes of heating.\n\nWhat can be deduced from these observations?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The compound described is most consistent with **aluminium trichloride** (AlCl<sub>3</sub>).\n- AlCl<sub>3</sub> is a **covalent** compound with a **layer structure** and is a **white crystalline solid** at room temperature.\n- When dissolved in water, AlCl<sub>3</sub> gives an **acidic** solution (pH 2–3), not pH 12:\n\nAlCl<sub>3</sub> (s) + 6H<sub>2</sub>O (l) → [Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> (aq) + 3Cl<sup>-</sup> (aq)\n\n[Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> (aq) → [Al(H<sub>2</sub>O)<sub>5</sub>OH]<sup>2+</sup> (aq) + H<sup>+</sup> (aq)\n\n- AlCl<sub>3</sub> melts at around 180 °C, which is relatively low and consistent with the significant covalent character of the compound.\n- The observation that the compound gave a solution of pH 12 is incorrect.\n\n**B **is incorrect as sodium chloride gives a neutral solution when dissolved in water and has a very high melting point (801 °C) due to its giant ionic lattice structure.\n\n**C** is incorrect as silicon tetrachloride (SiCl<sub>4</sub>) is a liquid at room temperature, not a white crystalline solid.\n\n**D **is incorrect as phosphorus pentachloride (PCl<sub>5</sub>) is a solid at room temperature and produces a strongly acidic solution when added to water.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "At least one of the recorded observations is incorrect"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The compound is sodium chloride, NaCl"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The compound is silicon tetrachloride, SiCl<sub>4</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The compound is phosphorus pentachloride, PCl<sub>5</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JMR4XwPjQyTcJThp",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_P3yB2XWqYJR56MRx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row describes a substance with a giant covalent structure?\n\n|   | conductivity of solid | MP / K | BP / K |\n|---|---|---|---|\n| A | poor | 388 | 718 |\n| B | good | 923 | 1363 |\n| C | good | 3031 | 2943 |\n| D | poor | 1986 | 2950 |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A substance with a **giant covalent structure** has strong covalent bonds throughout the lattice.\n\n  - Giant covalent structures have **very high** melting and boiling points because a large amount of energy is required to break the many strong covalent bonds throughout the lattice.\n  - Giant covalent structures **do not** conduct electricity in the solid state as there are no mobile electrons or ions to carry charge.\n- D shows a substance with poor conductivity, a high melting point (1986 K) and a high boiling point (2950 K) with BP > MP.\n\n  - This is consistent with a giant covalent structure such as SiO<sub>2</sub>.\n\n**A **is incorrect as the low melting and boiling points indicate a simple molecular substance, not a giant covalent structure.\n\n**B **is incorrect as good conductivity indicates a metallic structure, not a giant covalent structure.\n\n**C **is incorrect on two grounds. Good conductivity is inconsistent with a giant covalent structure and the data is physically impossible as the boiling point (2943 K) is lower than the melting point (3031 K).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5PDjb3CCpTrPXrGv",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_v7hx5Kpnj6rfQvZS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "Which element has the **third** lowest first ionisation energy in its period and the **third** smallest atomic radius in its group?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The first ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms:\n\nX (g) → X<sup>+</sup> (g) + e<sup>-</sup>\n\n- **Group 2 elements** have the third lowest ionisation energy in their period.\n- Despite the general increase in ionisation energy across a period, Group 13 elements have **lower** first ionisation energy than Group 2 elements.\n\n  - This is because the outer electron in the p subshell is more shielded by the inner s electrons, reducing the nuclear pull.\n- Therefore, the element must be either **magnesium or calcium.**\n- Atomic radius is the distance between the nucleus and the outermost electron.\n- Atomic radius increases down a group because an extra principal quantum shell is added each time.\n\n  - The third smallest atomic radius in a group belongs to the element in period 4, which in this case is **calcium.**\n\n**A **is incorrect as magnesium is in period 3, giving it the second smallest (not third smallest) atomic radius in Group 2.\n\n**B **is incorrect as boron is the smallest element in Group 13, not the third smallest.\n\n**C **is incorrect as sodium has the lowest (not third lowest) first ionisation energy in period 3.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "magnesium"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "boron"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "sodium"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "calcium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4yfxFxnTbMx9JNcr",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DcvKY53tC4hpfCy7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ",
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "Consecutive elements **X**, **Y** and **Z** are in Period 3. Element **Y** has the highest first ionisation energy and the lowest melting point of these three elements.\n\nWhich row identifies elements **X**, **Y** and **Z**?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- First ionisation energies:\n\nsilicon (X) < sulfur (Z) < phosphorus (Y)\n\n- Melting points:\n\nphosphorus (Y) < sulfur (Z) < silicon (X)\n\n- The **first ionisation energy** is the energy required to remove one mole of electrons from one mole of gaseous atoms:\n\nX (g) → X<sup>+</sup> (g) + e<sup>-</sup>\n\n- There is a general increase in first ionisation energy across a period as nuclear charge increases.\n- However, there is a reduction between Group 15 and Group 16 because the electron being removed from sulfur is **paired** in one of the 3p orbitals, requiring less energy:\n\n|   | 3p<sub>x</sub> | 3p<sub>y</sub> | 3p<sub>z</sub> |\n|---|---|---|---|\n| P | ↑ | ↑ | ↑ |\n| S | ↑↓ | ↑ | ↑ |\n\n- Silicon (X) has the highest melting point because it has a **giant covalent structure**, requiring large amounts of energy to break many strong covalent bonds throughout the lattice.\n- Phosphorus (P<sub>4</sub>) and sulfur (S<sub>8</sub>) are both **simple covalent molecules**.\n\n  - Sulfur has a higher melting point because it has more electrons, so the van der Waals' forces between molecules are stronger.\n\n**B**, **C** and **D** are incorrect as they do not have the correct combination of first ionisation energies and melting points.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "silicon, phosphorus, sulfur"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "sodium, magnesium, aluminium"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "aluminium, silicon, phosphorus"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "magnesium, aluminium, silicon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3CCDCJtqHY2V3YXy",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xbYZdHG5NGXqwQq6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ",
+      "spcpt_2yXmZQsZ8v4V8432"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row compares the ionic radius and atomic radius of sodium and sulfur?\n\n|   | **ionic radius** | **atomic radius** |\n|---|---|---|\n| **A** | Na<sup>+</sup> < S<sup>2-</sup> | Na < S |\n| **B** | Na<sup>+</sup> < S<sup>2-</sup> | Na > S |\n| **C** | Na<sup>+</sup> > S<sup>2-</sup> | Na > S |\n| **D** | Na<sup>+</sup> > S<sup>2-</sup> | Na < S |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Both sodium and sulfur are in **Period 3.**\n- **Atomic radius**:\n\n  - Decreases from left to right across a period.\n  - The nuclear charge increases from Na (+11) to S (+16).\n  - But, electrons are added to the same principal quantum shell (n = 3), so shielding remains relatively constant.\n  - The increased nuclear attraction pulls the outer electrons closer.\n  - This means that the atomic radius of Na is greater than that of S.\n- **Ionic radius:**\n\n  - Sodium forms Na<sup>+</sup> by losing its outer 3s electron.\n  - Electronic configuration of Na<sup>+</sup>: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> (2 principal quantum shells)\n  - Sulfur forms S<sup>2-</sup> by gaining two electrons to complete its 3p subshell.\n  - Electronic configuration of S<sup>2-</sup>: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> (3 principal quantum shells)\n  - S<sup>2-</sup> has one more principal quantum shell than Na<sup>+</sup>.\n  - This means that the ionic radius of Na<sup>+</sup> is less than that of S<sup>2-</sup>.\n\n**A** is incorrect as the ionic comparison is correct but the atomic radius of Na is greater than S, not less.\n\n**C** is incorrect as the atomic comparison is correct but Na<sup>+</sup> has fewer principal quantum shells than S<sup>2-</sup>, so the ionic radius of Na<sup>+</sup> is less than that of S<sup>2-</sup>, not greater.\n\n**D** is incorrect as both comparisons are reversed.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

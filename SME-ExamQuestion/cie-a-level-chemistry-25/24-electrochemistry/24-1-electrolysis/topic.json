@@ -1,0 +1,1031 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:49:58Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "24-electrochemistry",
+  "name": "24. Electrochemistry"
+ },
+ "topic": {
+  "id": "top_RXs9QDPD52r3c65d",
+  "slug": "24-1-electrolysis",
+  "name": "Electrolysis",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "faradays-law-and-avogadro",
+   "name": "Faraday's Law & Avogadro",
+   "revision_note_id": "rn_rRdc98cvCcJMB2nC"
+  },
+  {
+   "slug": "electrolysis-calculations",
+   "name": "Electrolysis: Calculations",
+   "revision_note_id": "rn_jnxn3fgCsGBqMKDZ"
+  },
+  {
+   "slug": "electrolysis",
+   "name": "Electrolysis",
+   "revision_note_id": "rn_kbqnC2DSg59hCZzZ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_MmNjhyvs2hNkdnG4",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/24-electrochemistry/24-1-electrolysis/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/06/5-3-1a-h-lithium-iodine-battery.png": "001-diagram-of-a-lithium-iodine-electrochemical-cell.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electrolytic-cell-2.png": "002-labelled-diagram-of-an-electrolytic-cell-with-tw.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/5-3-2a-m-incomplete-electrolysis-cell-a.png": "003-incomplete-electrolysis-cell-diagram-with-two-el.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/5-3-2a-m-incomplete-electrolysis-cell-b.png": "004-completed-electrolysis-cell-diagram-showing-amme.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/5-3-5a-m-copper-purification-cell.png": "005-electrolysis-cell-for-copper-purification-showin.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_wqHY5YVsfTbSR4DV",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Z3X8mkJj6QRmYh2b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows a lithium–iodine electrochemical cell. These cells are often used in pacemakers as they are reliable and have a life span in the region of 10 years.\n\n![Diagram of a lithium-iodine electrochemical cell showing a lithium electrode and an inert electrode separated by a nickel mesh, labelled as Fig. 1.1](assets/001-diagram-of-a-lithium-iodine-electrochemical-cell.png)\n\n**Fig. 1.1**\n\nIt consists of a lithium electrode and an inert electrode immersed in body fluids that are separated by a nickel mesh and collect charge from the anode. It has a high internal resistance which means that only a low current can be drawn.\n\nExplain why the lithium-iodine electrochemical cell is a **dry** cell.",
+     "solution_md": "> **[mark-scheme]**\n> The lithium-iodine electrochemical cell is a dry cell because:\n> \n> - There is no water / liquid present in the cell **[1 mark]**\n> - Water / liquid could react with the lithium electrode\n> **AND**\n> (this) could cause the cell to explode\n> **OR**\n> (this) could cause a build-up of pressure inside the cell **[1 mark]**\n\n> **[exam-tip]**\n> This question uses knowledge of Group 1 metal reactivity. Lithium, like all Group 1 metals, reacts vigorously with water to produce a metal hydroxide and hydrogen gas. Since the cell is sealed, hydrogen production would cause a dangerous pressure build-up.\n> \n> For both marks, you need two separate points: that there is no liquid in the cell, and why the presence of liquid would be harmful."
+    },
+    {
+     "id": "qstnprt_yRXmHc3xM4dv93cK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K7DVtxNwskw68ZgZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Construct the overall equation for the reaction taking place at the electrodes of the lithium-iodine electrochemical cell when a current flows.",
+     "solution_md": "> **[mark-scheme]**\n> The overall equation for the lithium-iodine electrochemical cell:\n> \n> - 2Li + I<sub>2</sub> → 2Li<sup>+</sup> + 2I<sup>–</sup> **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> Combine the two half-equations, ensuring the electrons cancel:\n> \n> - Oxidation (anode): 2Li → 2Li<sup>+</sup> + 2e<sup>–</sup>\n> - Reduction (cathode): I<sub>2</sub> + 2e<sup>–</sup> → 2I<sup>–</sup>\n> \n> Adding these together cancels the 2e<sup>–</sup>, giving the overall equation 2Li + I<sub>2</sub> → 2Li<sup>+</sup> + 2I<sup>–</sup>."
+    },
+    {
+     "id": "qstnprt_MbgVxyj7WyHTyryk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YpKqb5HsZsxDZymV"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 1.1 lists electrode potentials for some electrode reactions.\n\n**Table 1.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| I<sub>2</sub> + 2e<sup>–</sup> ⇌ 2I<sup>–</sup> | + 0.54 |\n| Li<sup>+</sup> + e<sup>–</sup> ⇌ Li | – 3.04 |\n| Ni<sup>2+</sup> + 2e<sup>–</sup> ⇌ Ni | – 0.25 |\n\nCalculate the *E*<sup>θ</sup><sub>cell</sub> for the lithium-iodine electrochemical cell.",
+     "solution_md": "To calculate *E*<sup>θ</sup><sub>cell</sub> for the lithium-iodine electrochemical cell:\n\n*E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>oxidised</sub>\n\n*E*<sup>θ</sup><sub>cell</sub> = (+0.54) − (−3.04)\n\n*E*<sup>θ</sup><sub>cell</sub> = **+3.58 V** **[1 mark]**\n\n> **[exam-tip]**\n> The iodine half-cell (I<sub>2</sub> / I<sup>–</sup>, *E*<sup>θ</sup> = +0.54 V) undergoes reduction as it has the more positive electrode potential. Lithium (Li<sup>+</sup> / Li, *E*<sup>θ</sup> = −3.04 V) is oxidised.\n> \n> The Ni<sup>2+</sup> / Ni half-cell is a distractor. It is not involved in the lithium-iodine cell."
+    },
+    {
+     "id": "qstnprt_xbb9Dzbh7GpHgV2s",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gPKQX6szPddTgJ9j",
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "A current of 1.5 × 10<sup>-5</sup> A is drawn from this cell.\n\nCalculate the number of days for 0.08 g of the lithium electrode to be used up. Assume the current remains constant throughout this period. Show your working.\n\nThe Faraday constant, *F* = 9.65 × 10<sup>4</sup> C mol<sup>–</sup>.",
+     "solution_md": "To calculate the number of days for 0.08 g of the lithium electrode to be used up:\n\n- Calculate the moles of lithium:\n\nn(Li) = $\\frac{0.08}{6.9}$\n\nn(Li) =  = **1.16 × 10**<sup>**-2**</sup>** mol** **[1 mark]**\n\n- Calculate the charge required:\n\n*Q* = n × *F*\n\n*Q* = 1.16 × 10<sup>-2</sup> × 9.65 × 10<sup>4</sup>\n\n*Q* = **1119 C** **[1 mark]**\n\n- Calculate the time in seconds:\n\n*t* = $\\frac{1119}{1.5\\times10^{-5}}$\n\n*t* = **7.46 × 10**<sup>**7**</sup>** s** **[1 mark]**\n\n- Convert to days:\n\n*t* = $\\frac{7.46\\times10^{7}}{60\\times60\\times24}$\n\n*t* = **863 days** **[1 mark]**",
+     "equations": [
+      {
+       "latex": "\\frac{0.08}{6.9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>08</mn></mrow><mrow><mn>6</mn><mo>.</mo><mn>9</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.08}{6.9}"
+      },
+      {
+       "latex": "\\frac{1119}{1.5\\times10^{-5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1119</mn><mrow><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{1119}{1.5 \\times 10^{-5}}"
+      },
+      {
+       "latex": "\\frac{7.46\\times10^{7}}{60\\times60\\times24}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>46</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mrow><mn>60</mn><mo>&#xD7;</mo><mn>60</mn><mo>&#xD7;</mo><mn>24</mn></mrow></mfrac></math>",
+       "alt": "\\frac{7.46 \\times 10^{7}}{60 \\times 60 \\times 24}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VvFfpGjRN5b6vW5y",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_SYQnkKj2JSKM64GF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "State the equation linking charge, *Q*, current, *I*, and time, *t*. Give the units for each term.",
+     "solution_md": "> **[mark-scheme]**\n> The equation linking charge, current and time:\n> \n> - *Q* = *I* x *t*\n> **OR**\n> *I* = *Q* / *t*\n> **OR**\n> *t* = *Q* / *I* **[1 mark]**\n> \n> The units for each term:\n> \n> - Charge = coulombs (C)\n> **AND**\n> Current = amps / amperes (A)\n> **AND**\n> Time = seconds (s) **[1 mark]**\n\n> **[exam-tip]**\n> Questions using Faraday's law are not very common at IAL level, but you should know the equations and be able to apply them.\n> \n> The most useful form to learn is *Q* = *I* x *t*, since charge is usually what you calculate first in Faraday's law problems."
+    },
+    {
+     "id": "qstnprt_Xp3vBcn9x389YHMY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "The relationship between the Faraday constant, *F*, and Avogadro's constant, *L*, is shown in the equation.\n\n*F* = *L* x e\n\nState what one Faraday measures.",
+     "solution_md": "> **[mark-scheme]**\n> One Faraday measures:\n> \n> - The charge carried by 1 mole of electrons / 1 mole of singly charged ions **[1 mark]**\n\n> **[exam-tip]**\n> The equation *F* = *L* x *e* shows this clearly: *L* is Avogadro's constant (one mole of particles) and *e* is the charge on a single electron. Multiplying gives the total charge on one mole of electrons."
+    },
+    {
+     "id": "qstnprt_9P6jhybWF2qnM6Xk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe relationship between the Faraday constant, F, and Avogadro's constant, L, is shown in the equation.\n\nF = L x e\n\nOne Faraday measures the charge carried by 1 mole of electrons / 1 mole of singly charged ions.\n\nComplete Table 3.1 to show the number of moles of electrons and the amount of charge for each equation.\n\n**Table 3.1**\n\n| **Equation** | **Number of moles of electrons** | **Amount of charge / C** |\n|---|---|---|\n| K<sup>+</sup> + e<sup>–</sup> → K | 1 | 96 500 |\n| Cr<sup>3+</sup> + 3e<sup>–</sup> → Cr |   |   |\n| S<sup>2–</sup> → ..... + ...... |   |   |",
+     "solution_md": "The completed table is:\n\n| **Equation** | **Number of moles of electrons** | **Amount of charge / C** |\n|---|---|---|\n| K<sup>+</sup> + e<sup>–</sup> → K | 1 | 96 500 |\n| Cr<sup>3+</sup> + 3e<sup>–</sup> → Cr | **Final answer:** **3** | **Final answer:** **289 500** |\n| **Final answer:** **S**<sup>**2–**</sup>** → S + 2e**<sup>**–**</sup> | **Final answer:** **2** | **Final answer:** **193 000** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Cr<sup>3+</sup> row: 3 moles of electrons **AND **289 500 C of charge\n> \n> 1 mark for S<sup>2–</sup> equation: S<sup>2–</sup> → S + 2e<sup>–</sup>\n> \n> 1 mark for S<sup>2–</sup> values: 2 moles of electrons **AND **193 000 C of charge\n\n> **[exam-tip]**\n> The example row shows that K<sup>+</sup> requires 1 mole of electrons and 96 500 C of charge (one Faraday).\n> \n> For Cr<sup>3+</sup> + 3e<sup>–</sup> → Cr:\n> \n> - 3 moles of electrons are needed, so charge = 3 x 96 500 = 289 500 C.\n> \n> For S<sup>2–</sup>:\n> \n> - The ion carries a 2– charge, so it loses 2 moles of electrons to form neutral sulfur.\n> - The half-equation is S<sup>2–</sup> → S + 2e<sup>–</sup>, and charge = 2 x 96 500 = 193 000 C."
+    },
+    {
+     "id": "qstnprt_CFQnGKZ938VKnB8Z",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fFh7hPWmj22BJ5tJ"
+     ],
+     "part_tier": null,
+     "problem_md": "The chromium half-cell containing Cr / Cr<sup>3+</sup> is connected to a copper half-cell containing Cu / Cu<sup>2+</sup>.\n\nThe standard electrode potential for copper is shown as:\n\nCu<sup>2+</sup> + 2e<sup>–</sup> ⇌ Cu   *E*<sup>θ</sup> = +0.34 V\n\nThe standard cell potential of this combination was found to be +1.08 V, where the copper half-cell would undergo reduction.\n\nCalculate the standard electrode potential of the Cr / Cr<sup>3+</sup> half-cell.",
+     "solution_md": "To calculate the standard electrode potential of the Cr / Cr<sup>3+</sup> half-cell:\n\n- Write the cell potential equation:\n\n*E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>oxidised</sub>\n\n- Rearrange the cell potential equation for *E*<sup>θ</sup><sub>oxidised</sub>:\n\n*E*<sup>θ</sup><sub>oxidised</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>cell</sub>\n\n- Substitute values and solve:\n\n*E*<sup>θ</sup><sub>oxidised</sub> = +0.34 − 1.08\n\n*E*<sup>θ</sup><sub>oxidised</sub> = **-0.74 V** **[1 mark]**\n\n> **[exam-tip]**\n> The cell potential equation is *E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>oxidised</sub>. Since the copper half-cell undergoes reduction, it provides *E*<sup>θ</sup><sub>reduced</sub>. Rearrange to find *E*<sup>θ</sup><sub>oxidised</sub> for the chromium half-cell.\n> \n> Always identify which half-cell is reduced and which is oxidised before applying the equation. The question tells you copper is reduced, so chromium must be oxidised."
+    },
+    {
+     "id": "qstnprt_zPwCzzJDFcKWby4Z",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QhHpZhQKXvBXsCfw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe chromium half-cell containing Cr / Cr^3+^ is connected to a copper half-cell containing Cu / Cu^2+^.\n\nThe standard electrode potential for copper is shown as:\n\nCu^2+^ + 2e^–^ ⇌ Cu   *E*^θ^ = +0.34 V\n\nThe standard cell potential of this combination was found to be +1.08 V, where the copper half-cell would undergo reduction.\n\nCalculate the standard electrode potential of the Cr / Cr^3+^ half-cell.\n\n*E*^θ^~oxidised~ = -0.74 V\n\nConstruct **two** half-equations to show what would occur if the chromium half-cell was attached to the standard hydrogen half-cell.",
+     "solution_md": "> **[mark-scheme]**\n> The two half-equations are:\n> \n> - Cr (s) → Cr<sup>3+</sup> (aq) + 3e<sup>–</sup> **[1 mark]**\n> - 2H<sup>+</sup> (aq) + 2e<sup>–</sup> → H<sub>2</sub> (g) **[1 mark]**\n\n> **[exam-tip]**\n> The standard electrode potential of Cr / Cr<sup>3+</sup> is negative (−0.74 V from the previous part), so chromium is more easily oxidised than hydrogen. This means chromium undergoes oxidation (loses electrons) and hydrogen undergoes reduction (gains electrons)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_tkRxjBpRswkPbDxB",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_TqxFx63QnKfQjpBH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "State the relationship between the Faraday constant, *F*, the charge on an electron, *e*, and the Avogadro constant, *L*.",
+     "solution_md": "> **[mark-scheme]**\n> The relationship between *F*, *e*, and *L* is:\n> \n> - *F* = *L* x *e*\n> **OR**\n> *L* = *F* / *e*\n> **OR**\n> *e* = *F* / *L* **[1 mark]**\n\n> **[exam-tip]**\n> *F* is the Faraday constant (96 500 C mol<sup>-1</sup>), *e* is the charge on one electron (1.60 x 10<sup>-19</sup> C), and *L* is the Avogadro constant (6.02 x 10<sup>23</sup> mol<sup>-1</sup>). This relationship defines one faraday as the charge carried by one mole of electrons."
+    },
+    {
+     "id": "qstnprt_XrQ3kJFKw3tFK3Pf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gPKQX6szPddTgJ9j"
+     ],
+     "part_tier": null,
+     "problem_md": "If the charge on the electron, the *A*<sub>r</sub> and the charge of copper ions are known, the Avogadro constant can be determined experimentally by passing a known current for a known time through a copper electrolysis cell and weighing the mass of copper deposited onto the cathode.\n\nDraw a diagram of apparatus which is suitable for carrying out this practical. Label the following:\n\n- power supply with the + and − terminals identified\n- anode\n- cathode\n- ammeter\n\nState the composition of the electrolyte.",
+     "solution_md": "The completed diagram of the apparatus is:\n\n![Labelled diagram of an electrolytic cell with two copper electrodes immersed in copper(II) sulfate solution, an ammeter connected in series, and a power supply with positive and negative terminals labelled, with anode and cathode correctly identified](assets/002-labelled-diagram-of-an-electrolytic-cell-with-tw.png)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a correct circuit with two electrodes and a power supply\n> \n> 1 mark for an ammeter correctly connected in series\n> \n> 1 mark for anode and cathode correctly labelled with the correct polarity\n> \n> 1 mark for CuSO<sub>4</sub>(aq) / CuCl<sub>2</sub>(aq) / Cu<sup>2+</sup>(aq) **AND** stated as 1 mol dm<sup>-3</sup>\n\n> **[exam-tip]**\n> Both electrodes are made from copper. The cathode increases in mass as copper is deposited and the anode decreases in mass as copper goes into solution as Cu<sup>2+</sup> ions. A variable resistor is sometimes included to adjust the current to a suitable value, but it is not required for full marks. Calculations based on this experiment typically use the decrease in mass of the anode, as not all copper formed on the cathode adheres correctly."
+    },
+    {
+     "id": "qstnprt_ngpgTFggsD3dv3Rw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gPKQX6szPddTgJ9j"
+     ],
+     "part_tier": null,
+     "problem_md": "The following are the results obtained from one such experiment.\n\n| current passed through the cell | 0.375 A |\n|---|---|\n| time current was passed through cell | 40.0 min |\n| initial mass of copper cathode | 49.637 g |\n| final mass of copper cathode | 49.936 g |\n\nUse the experimental results to calculate a value of the Avogadro constant, *L*, to 3 significant figures.\n\n[electronic charge, *e* = 1.60 x 10<sup>-19</sup> C]",
+     "solution_md": "To calculate the Avogadro constant, *L*:\n\n- List the known values:\n\n- current, *I* = 0.375 A\n- time, *t* = 40.0 min = 40.0 x 60 = 2400 s\n- mass of Cu deposited = 49.936 − 49.637 = 0.299 g\n\n- Calculate the charge passed, *Q*:\n\n*Q* = *It*\n\n*Q* = 0.375 x 2400\n\n*Q* = 900 C **[1 mark]**\n\n- Calculate the moles of copper deposited, n(Cu):\n\nn(Cu) = $\\frac{0.299}{63.5}$\n\nn(Cu) = 4.71 x 10<sup>-3</sup> mol **[1 mark]**\n\n- Calculate the charge required to deposit 1 mol of Cu:\n\ncharge for 1 mol Cu = $\\frac{900}{4.71\\times10^{-3}}$\n\ncharge for 1 mol Cu = 191 083 C **[1 mark]**\n\n- Calculate the charge carried by 1 mol of electrons (Cu<sup>2+</sup> + 2e<sup>–</sup> → Cu, so 1 mol Cu requires 2 mol e<sup>–</sup>):\n\ncharge on 1 mol e<sup>–</sup> = $\\frac{191083}{2}$\n\ncharge on 1 mol e<sup>–</sup> = 95 541 C **[1 mark]**\n\n- Calculate *L*:\n\n*L* = $\\frac{95541}{1.60\\times10^{-19}}$\n\n*L* = **5.97 x 10**<sup>**23**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow Method 2: calculate n(Cu) → n(e<sup>–</sup>) = 2 x n(Cu) → Q = *It* → number of e<sup>–</sup> passed = Q / e → *L* = number of e<sup>–</sup> / n(e<sup>–</sup>), also giving *L* = 5.97 x 10<sup>23</sup> mol<sup>-1</sup>.\n> \n> Allow intermediate values rounded to 3 sf at each step, provided the final answer rounds correctly to 5.97 x 10<sup>23</sup> mol<sup>-1</sup>.\n\n> **[exam-tip]**\n> Each Cu<sup>2+</sup> ion requires 2 electrons to be reduced to Cu, so 1 mol Cu requires 2 mol of electrons. This is the key step that converts charge per mole of Cu into charge per mole of electrons.\n> \n> If you use the unrounded value for n(Cu) (4.70866... x 10<sup>-3</sup> mol) at each step, intermediate values differ slightly but the final answer to 3 significant figures remains 5.97 x 10<sup>23</sup> mol<sup>-1</sup>. The final answer must be given to 3 significant figures.",
+     "equations": [
+      {
+       "latex": "\\frac{0.299}{63.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>299</mn></mrow><mrow><mn>63</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.299}{63.5}"
+      },
+      {
+       "latex": "\\frac{900}{4.71\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>900</mn><mrow><mn>4</mn><mo>.</mo><mn>71</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{900}{4.71 \\times 10^{-3}}"
+      },
+      {
+       "latex": "\\frac{191083}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>191083</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{191083}{2}"
+      },
+      {
+       "latex": "\\frac{95541}{1.60\\times10^{-19}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>95541</mn><mrow><mn>1</mn><mo>.</mo><mn>60</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{95541}{1.60 \\times 10^{-19}}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JdZsW5StzbZQYvj6",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Table 2.1** shows a list of standard electrode potentials at 298 K.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| Ag<sup>+</sup> + e<sup>–</sup> ⇌ Ag | +0.80 |\n| Br<sub>2</sub> + 2e<sup>–</sup> ⇌ 2Br<sup>–</sup> | +1.07 |\n| F<sub>2</sub> + 2e<sup>–</sup> ⇌ 2F<sup>–</sup> | +2.87 |\n| Fe<sup>2+</sup> + 2e<sup>–</sup> ⇌ Fe | –0.44 |\n| 2H<sup>+</sup> + 2e<sup>–</sup> ⇌ H<sub>2</sub> | 0.00 |\n| Mg<sup>2+</sup> + 2e<sup>–</sup> ⇌ Mg | –2.38 |\n| O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>–</sup> ⇌ 4OH<sup>–</sup> | +0.40 |\n| SO<sub>4</sub><sup>2–</sup> + 4H<sup>+</sup> + 2e<sup>–</sup> ⇌ SO<sub>2</sub> + 2H<sub>2</sub>O | +0.17 |\n\nUse the information in **Table 2.1** to deduce the substances formed at the anode and cathode when 1.0 mol dm<sup>−3</sup> aqueous solutions of the following compounds are electrolysed.\n\n| **compound** | **product at anode** | **product at cathode** |\n|---|---|---|\n| AgF |   |   |\n| FeSO<sub>4</sub> |   |   |\n| MgBr<sub>2</sub> |   |   |",
+     "solution_md": "The substances formed at each electrode are:\n\n| **compound** | **product at anode** | **product at cathode** |\n|---|---|---|\n| AgF | **Final answer:** **O**<sub>**2**</sub>** / Oxygen** | **Final answer:** **Ag / Silver** |\n| FeSO<sub>4</sub> | **Final answer:** **O**<sub>**2**</sub>** / Oxygen** | **Final answer:** **H**<sub>**2**</sub>** / Hydrogen** |\n| MgBr<sub>2</sub> | **Final answer:** **Br**<sub>**2**</sub>** / Bromine** | **Final answer:** **H**<sub>**2**</sub>** / Hydrogen** |\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> 6 correct answers: 5 marks\n> \n> 5 correct answers: 4 marks\n> \n> 4 correct answers: 3 marks\n> \n> 3 correct answers: 2 marks\n> \n> 2 correct answers: 1 mark\n> \n> Molecular formulae are required. Atomic symbols alone (e.g. Br, O) are not accepted.\n\n> **[exam-tip]**\n> In an aqueous solution, H<sup>+</sup> and OH<sup>–</sup> ions from water are also present and can be discharged. To predict which ion is discharged:\n> \n> At the cathode, the cation with the most positive *E*<sup>θ</sup> is discharged.\n> \n> - In AgF, Ag<sup>+</sup> (*E*<sup>θ</sup> = +0.80 V) and H<sup>+</sup> (*E*<sup>θ</sup> = 0.00 V) are both present.\n> - Ag<sup>+</sup> has the more positive *E*<sup>θ</sup>, so Ag is deposited at the cathode.\n> \n> At the anode, the anion discharged depends on its identity:\n> \n> - Halide ions (Cl<sup>–</sup>, Br<sup>–</sup>, I<sup>–</sup>) are discharged in preference to OH<sup>–</sup> from water, producing the halogen (Cl<sub>2</sub>, Br<sub>2</sub>, or I<sub>2</sub>).\n> - F<sup>–</sup> is never discharged in aqueous solution.\n> \n>   - F<sub>2</sub>/F<sup>–</sup> has the highest reduction *E*<sup>θ</sup> in the table (+2.87 V), making F<sup>–</sup> far too difficult to oxidise.\n>   - OH<sup>–</sup> from water is preferentially oxidised, forming O<sub>2</sub>.\n> - Polyatomic anions (SO<sub>4</sub><sup>2–</sup>, NO<sub>3</sub><sup>–</sup>) are never discharged in preference to OH<sup>–</sup>.\n> \n>   - OH<sup>–</sup> is oxidised, forming O<sub>2</sub>.\n> \n> Applying these rules:\n> \n> - AgF:\n> \n>   - F<sup>–</sup> is never discharged in aqueous solution.\n>   - So, OH<sup>–</sup> is oxidised → O<sub>2</sub> at the anode.\n> - FeSO<sub>4</sub>:\n> \n>   - SO<sub>4</sub><sup>2–</sup> is a polyatomic anion.\n>   - So, OH<sup>–</sup> is oxidised → O<sub>2</sub> at the anode.\n> - MgBr<sub>2</sub>:\n> \n>   - Br<sup>–</sup> is a halide.\n>   - So, Br<sub>2</sub> is produced at the anode."
+    }
+   ]
+  },
+  {
+   "id": "qstn_p7SVTKpx9wzbWBW9",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_NQ8Zfz96bRGd4g86",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Faraday's constant can be used to calculate the mass of a substance deposited at an electrode or the volume of gas liberated at an electrode during electrolysis.\n\nA current of 1.65 A flows through molten lead(II) chloride for 10 minutes.\n\nConstruct the equation for the electrolysis of lead(II) chloride, PbCl<sub>2</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the electrolysis of lead(II) chloride:\n> \n> - PbCl<sub>2</sub> → Pb + Cl<sub>2</sub> **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> The electrolysis of molten lead(II) chloride produces lead at the cathode (reduction) and chlorine at the anode (oxidation). The overall equation shows the decomposition of the ionic compound into its elements."
+    },
+    {
+     "id": "qstnprt_5zWbY6cWtzQHKRtx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KDKVs5TNM2f5ZT22"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA current of 1.65 A flows through molten lead(II) chloride for 10 minutes.\n\ni) Construct the half-equation for the reduction of the lead(II) ion, Pb<sup>2+</sup>.\n\n[1]\n\nii) The equation to calculate the charge transferred is *Q* = *I* x *t*. The Faraday constant, *F* = 96 500 C mol<sup>-1</sup>.\n\nUse the information in part (a) to calculate the number of coulombs required to deposit one mole of lead at the cathode, the charge transferred during the electrolysis of molten lead(II) chloride, and the mass of lead deposited at the cathode.\n\n[5]",
+     "solution_md": "> **[mark-scheme]**\n> i) The half-equation for the reduction of the lead(II) ion, Pb<sup>2+</sup>:\n> \n> - Pb<sup>2+</sup> + 2e<sup>–</sup> → Pb **[1 mark]**\n\nii) To calculate the mass of lead deposited at the cathode:\n\n- Determine the number of coulombs required to deposit one mole of lead:\n\nFrom Pb<sup>2+</sup> + 2e<sup>–</sup> → Pb, 2 moles of electrons are required per mole of lead\n\nCoulombs per mole of Pb = 2 x 96 500\n\nCoulombs per mole of Pb = **193 000 C** **[1 mark]**\n\n- Convert time to seconds:\n\n*t* = 10 x 60\n\n*t *= **600 s** **[1 mark]**\n\n- Calculate the charge transferred:\n\n*Q* = *I* x *t*\n\n*Q* = 1.65 x 600\n\n*Q* = **990 C** **[1 mark]**\n\n- Calculate the moles of lead deposited:\n\n*n*(Pb) = $\\frac{990}{193000}$\n\n*n*(Pb) = **5.13 × 10**<sup>**-3**</sup>** mol** **[1 mark]**\n\n- Calculate the mass of lead:\n\nmass = n x *M*<sub>r</sub>\n\nmass = 5.13 × 10<sup>-3</sup> x 207.2\n\nmass = **1.06 g** **[1 mark]**\n\n> **[exam-tip]**\n> Work through Faraday's law calculations step by step. The key is identifying the number of electrons from the half-equation.\n> \n> For Pb<sup>2+</sup> + 2e<sup>–</sup> → Pb, two electrons are needed, so 2 x 96 500 = 193 000 C are required per mole of lead.\n> \n> Always convert time to seconds before calculating charge.",
+     "equations": [
+      {
+       "latex": "\\frac{990}{193000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>990</mn><mn>193000</mn></mfrac></math>",
+       "alt": "\\frac{990}{193 000}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qNPh3WdX5C9db4gy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KDKVs5TNM2f5ZT22"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA current of 1.65 A flows through molten lead(II) chloride for 10 minutes.\n\nFrom part (b) calculations:\n- Time converted: t = 10 x 60 = 600 s\n- Charge transferred: Q = I x t = 1.65 x 600 = 990 C\n\ni) Construct the half-equation for the oxidation of the chloride ion, Cl<sup>–</sup>, to form chlorine, Cl<sub>2</sub>.\n\n[1]\n\nii) The equation to calculate the charge transferred is *Q* = *I* x *t*. The Faraday constant, *F* = 96 500 C mol<sup>-1</sup>.\n\nUse the information in part (a) and your answers to part (b) to calculate the number of coulombs required to form one mole of chlorine at the anode and the volume of chlorine released at the anode.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The half-equation for the oxidation of the chloride ion, Cl<sup>–</sup>:\n> \n> - 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup> **[1 mark]**\n\nii) To calculate the volume of chlorine released at the anode:\n\n- Determine the number of coulombs required to form one mole of chlorine:\n\nFrom 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup>, 2 moles of electrons are required per mole of Cl<sub>2</sub>\n\nCoulombs per mole of Cl<sub>2</sub> = 2 x 96 500\n\nCoulombs per mole of Cl<sub>2</sub> = **193 000 C** **[1 mark]**\n\n- Calculate the moles of chlorine released:\n\n*n*(Cl<sub>2</sub>) = $\\frac{990}{193000}$\n\n*n*(Cl<sub>2</sub>) = 5.1295 x 10<sup>-3</sup> mol\n\n- Calculate the volume of chlorine released:\n\nVolume = 5.1295 x 10<sup>-3</sup> x 24.0\n\nVolume = **0.123 dm**<sup>**3**</sup>\n\n**[1 mark]**\n\n> **[exam-tip]**\n> Since 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup> also involves 2 moles of electrons, the charge calculations are identical to part (b): 193 000 C per mole of Cl<sub>2</sub> and 990 C transferred.\n> \n> At RTP, one mole of gas occupies 24.0 dm<sup>3</sup>. Convert moles to volume: 5.1295 x 10<sup>-3</sup> x 24.0 = 0.123 dm<sup>3</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{990}{193000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>990</mn><mn>193000</mn></mfrac></math>",
+       "alt": "\\frac{990}{193 000}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NYSJD7bKcSQ6hsm4",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_RXGcJnh6SqfqzYHx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gPKQX6szPddTgJ9j"
+     ],
+     "part_tier": null,
+     "problem_md": "A student decided to determine the value of the Faraday constant by an electrolysis experiment. Fig. 2.1 is an incomplete diagram showing the apparatus that was used.\n\n![Incomplete electrolysis cell diagram with two electrodes, power pack, and electrolyte but missing additional equipment](assets/003-incomplete-electrolysis-cell-diagram-with-two-el.png)\n\n**Fig. 2.1**\n\ni) Apart from connecting wires, state **two** additional pieces of equipment needed for this experiment.\n\n[2]\n\nii) Complete the diagram, showing the additional equipment connected in the circuit and the power pack connected to the correct electrodes.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The two additional pieces of equipment needed:\n> \n> - Ammeter / galvanometer **[1 mark]**\n> - Clock / stopwatch / timer\n> **OR**\n> Variable resistor / rheostat **[1 mark]**\n\nii) The completed diagram is:\n\n![Completed electrolysis cell diagram showing ammeter connected in series and power pack with negative terminal connected to the left-hand electrode](assets/004-completed-electrolysis-cell-diagram-showing-amme.png)\n\n> **[mark-scheme]**\n> 1 mark for ammeter shown in circuit AND a complete circuit\n> \n> 1 mark for negative terminal of power pack connected to the left-hand electrode (cathode)\n\n> **[exam-tip]**\n> Current and time are both needed to calculate charge (*Q* = *I* × *t*), so an ammeter and timer are essential. A variable resistor can be used to keep the current constant during the experiment.\n> \n> Hydrogen collects at the cathode (negative electrode) and oxygen at the anode. Since hydrogen forms at the left electrode, the negative terminal must connect there."
+    },
+    {
+     "id": "qstnprt_VfXshGcRwGGCsjBY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "list",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student decided to determine the value of the Faraday constant by an electrolysis experiment. Fig. 2.1 is an incomplete diagram showing the apparatus that was used.\n\nList the measurements the student would need to make in order to use the results to calculate a value for the Faraday constant.",
+     "solution_md": "> **[mark-scheme]**\n> The measurements needed to calculate the Faraday constant:\n> \n> - Volume of hydrogen gas collected **[1 mark]**\n> - Time **[1 mark]**\n> - Current / ammeter reading **[1 mark]**\n\n> **[exam-tip]**\n> To calculate the Faraday constant, you need two things:\n> \n> 1. The charge that passed (*Q* = *I* × *t*, requiring current and time)\n> 2. The moles of electrons that carried it\n> \n> From the half-equation 2H<sup>+</sup> + 2e<sup>–</sup> → H<sub>2</sub>, moles of e<sup>–</sup> = 2 × moles of H<sub>2</sub>. Moles of H<sub>2</sub> come from the volume of gas collected at RTP."
+    },
+    {
+     "id": "qstnprt_6b49rtqjFZdTD4Xs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "Using an equation, state the relationship between the Faraday constant, *F*, the Avogadro constant, *L*, and the charge on the electron, *e*.",
+     "solution_md": "> **[mark-scheme]**\n> The relationship between *F*, *L*, and *e*:\n> \n> - *F* = *L* × *e*\n> **OR**\n> *L* = *F* / *e*\n> **OR**\n> *e* = *F* / *L* **[1 mark]**\n\n> **[exam-tip]**\n> One faraday is the charge carried by one mole of electrons. Each electron carries charge *e* coulombs, and there are *L* electrons per mole, so the total charge is *F* = *L* × *e*."
+    },
+    {
+     "id": "qstnprt_MhvBN3xBRJFKFjTS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUsing an equation, state the relationship between the Faraday constant, *F*, the Avogadro constant, *L*, and the charge on the electron, *e*.\n\nThe relationship between *F*, *L*, and *e*:\n\n- *F* = *L* × *e*\n\nOR\n\n*L* = *F* / *e*\n\nOR\n\n*e* = *F* / *L*\n\nThe value the student obtained was: 1 faraday = 9.65 × 10<sup>4</sup> coulombs.\n\nUse this value and your equation in part (c) to calculate the Avogadro constant. Take the charge on the electron to be 1.60 × 10<sup>–19</sup> coulombs.",
+     "solution_md": "To calculate the Avogadro constant using *L* = *F* / *e*:\n\n*L* = $\\frac{9.65\\times10^{4}}{1.60\\times10^{-19}}$\n\n*L* = **6.03 x 10**<sup>**23**</sup>** mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 6.02 × 10<sup>23</sup> mol<sup>-1</sup> if the student uses a slightly different value of *F*\n\n> **[exam-tip]**\n> Rearrange *F* = *L* × *e* to *L* = *F* / *e*, then substitute.\n> \n> The answer should be around 6 × 10<sup>23</sup> mol<sup>-1</sup>.\n> \n> If you get a small number or a negative exponent, recheck your entry into the calculator.",
+     "equations": [
+      {
+       "latex": "\\frac{9.65\\times10^{4}}{1.60\\times10^{-19}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mo>.</mo><mn>65</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup></mrow><mrow><mn>1</mn><mo>.</mo><mn>60</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{9.65 \\times 10^{4}}{1.60 \\times 10^{-19}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kCGtGZJGTqf8K8qT",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_6Bc9hSW7Rxnyg7VP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term *electrolysis*.",
+     "solution_md": "> **[mark-scheme]**\n> The definition of electrolysis:\n> \n> - Breaking down / decomposing a compound into its elements **[1 mark]**\n> - Using an electric current\n> **OR**\n> Using electricity **[1 mark]**\n\n> **[exam-tip]**\n> The word 'electrolysis' itself hints at the definition: 'electro' refers to electricity, while 'lysis' comes from the Greek meaning to loosen or separate.\n> \n> This is a definition you should know from GCSE, so learn it precisely."
+    },
+    {
+     "id": "qstnprt_ds8rfmZX3nzR9MF6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1 to show the correct charge associated with each term.\n\n**Table 1.1 **\n\n| **Term** | **Charge (positive / negative)** |\n|---|---|\n| Anion |   |\n| Anode |   |\n| Cathode |   |\n| Cation |   |",
+     "solution_md": "The completed table is:\n\n| **Term** | **Charge (positive / negative)** |\n|---|---|\n| Anion | **Final answer:** **Negative** |\n| Anode | **Final answer:** **Positive** |\n| Cathode | **Final answer:** **Negative** |\n| Cation | **Final answer:** **Positive** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 2 marks for all four correct answers\n> \n> 1 mark for any two or three correct answers\n\n> **[exam-tip]**\n> Remember PANIC: **P**ositive **A**node, **N**egative **I**s **C**athode. Anions and cations carry the matching charges to be attracted to their respective electrodes: anions (negative) to the positive anode; cations (positive) to the negative cathode."
+    },
+    {
+     "id": "qstnprt_8vqxCvXv5DbdSYfZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Define the terms *oxidation* and *reduction* in terms of electrons.\n\n[2]\n\nii) Construct the half-equation for the reduction of copper(II) ions, Cu<sup>2+</sup>, to form copper metal.\n\n[1]\n\niii) Construct the half-equation for the oxidation of chloride ions, Cl<sup>–</sup>, to form chlorine, Cl<sub>2</sub>.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The definitions of oxidation and reduction in terms of electrons:\n> \n> - Oxidation = loss of electrons **[1 mark]**\n> - Reduction = gain of electrons **[1 mark]**\n> \n> ii) The half-equation for the reduction of copper(II) ions, Cu<sup>2+</sup>:\n> \n> - Cu<sup>2+</sup> + 2e<sup>–</sup> → Cu **[1 mark]**\n> \n> iii) The half-equation for the oxidation of chloride ions, Cl<sup>–</sup>:\n> \n> - 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup> **[1 mark]**\n\n> **[exam-tip]**\n> Remember OILRIG: Oxidation Is Loss, Reduction Is Gain. This applies specifically to electrons in electrochemistry.\n> \n> In half-equations, electrons appear on the right-hand side for oxidation (loss) and on the left-hand side for reduction (gain)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hSR76HrB3PHvc8nS",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_NzSvYtNwzZCrRZnj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K7DVtxNwskw68ZgZ",
+      "spcpt_6kfKxfq3Q9w2RBGz"
+     ],
+     "part_tier": null,
+     "problem_md": "The electrolytic purification of copper can be carried out in an apparatus similar to the one shown in **Fig. 5.1**.\n\n![Electrolysis cell for copper purification showing impure copper anode and pure copper cathode in copper sulfate electrolyte](assets/005-electrolysis-cell-for-copper-purification-showin.png)\n\n**Fig. 5.1**\n\nThe impure copper anode contains small quantities of metallic nickel, zinc and silver, together with inert oxides and carbon resulting from the initial reduction of the copper ore with coke. The copper goes into solution at the anode, but the silver remains as the metal and falls to the bottom as part of the anode 'sludge'. The zinc also dissolves.\n\n**Table 5.1** shows a list of standard electrode potentials at 298 K.\n\n**Table 5.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| Ag<sup>+</sup> + e<sup>–</sup> ⇌ Ag | +0.80 |\n| Cu<sup>2+</sup> + 2e<sup>–</sup> ⇌ Cu | +0.34 |\n| Fe<sup>2+</sup> + 2e<sup>–</sup> ⇌ Fe | −0.44 |\n| Ni<sup>2+</sup> + 2e<sup>–</sup> ⇌ Ni | −0.25 |\n| SO<sub>4</sub><sup>2–</sup> + 4H<sup>+</sup> + 2e<sup>–</sup> ⇌ SO<sub>2</sub> + 2H<sub>2</sub>O | +0.17 |\n| Zn<sup>2+</sup> + 2e<sup>–</sup> ⇌ Zn | −0.76 |\n\ni) Construct a half-equation including state symbols for the reaction of copper at the anode.\n\n[1]\n\nii) Use data from **Table 5.1** to explain why silver remains as the metal.\n\n[2]\n\niii) Use data from **Table 5.1** to deduce what happens to the nickel at the anode.\n\n[2]\n\niv) Construct a half-equation including state symbols for the main reaction at the cathode.\n\n[1]\n\nv) Use data from **Table 5.1** to explain why zinc is not deposited on the cathode.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The half-equation at the anode:\n> \n> - Cu (s) → Cu<sup>2+</sup> (aq) + 2e<sup>–</sup> **[1 mark]**\n> \n> State symbols required\n> \n> ii) Silver remains as the metal because:\n> \n> - *E*<sup>θ</sup> for Ag<sup>+</sup> / Ag (+0.80 V) is more positive than *E*<sup>θ</sup> for Cu<sup>2+</sup> / Cu (+0.34 V) **[1 mark]**\n> - Silver is less easily oxidised than copper **[1 mark]**\n> \n> iii) Nickel at the anode:\n> \n> - *E*<sup>θ</sup> for Ni<sup>2+</sup> / Ni (−0.25 V) is more negative than *E*<sup>θ</sup> for Cu<sup>2+</sup> / Cu (+0.34 V) **[1 mark]**\n> - Nickel is readily oxidised and dissolves as Ni<sup>2+</sup> (aq) **[1 mark]**\n> \n> iv) The half-equation at the cathode:\n> \n> - Cu<sup>2+</sup> (aq) + 2e<sup>–</sup> → Cu (s) **[1 mark]**\n> \n> State symbols required\n> \n> v) Zinc is not deposited at the cathode because:\n> \n> - *E*<sup>θ</sup> for Zn<sup>2+</sup> / Zn is −0.76 V (more negative than Cu<sup>2+</sup> / Cu), so Zn<sup>2+</sup> is less easily reduced than Cu<sup>2+</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The key rule: the more positive the *E*<sup>θ</sup>, the more easily the left-hand species is reduced; the more negative the *E*<sup>θ</sup>, the more easily the right-hand species is oxidised.\n> \n> Ag (+0.80 V) is more positive than Cu (+0.34 V), so Ag is harder to oxidise and stays as the metal.\n> \n> Ni (−0.25 V) and Zn (−0.76 V) are more negative than Cu, so they dissolve from the anode. At the cathode, Cu<sup>2+</sup> (+0.34 V) is preferentially reduced over Zn<sup>2+</sup> (−0.76 V)."
+    },
+    {
+     "id": "qstnprt_3H6NVdXmPnq9mZ62",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electrolytic purification of copper can be carried out in an apparatus similar to the one shown in **Fig. 5.1**.\n\nThe impure copper anode contains small quantities of metallic nickel, zinc and silver, together with inert oxides and carbon resulting from the initial reduction of the copper ore with coke. The copper goes into solution at the anode, but the silver remains as the metal and falls to the bottom as part of the anode 'sludge'. The zinc also dissolves.\n\n**Table 5.1** shows a list of standard electrode potentials at 298 K.\n\n| **Electrode reaction** | ***E***^**θ**^** / V** |\n| --- | :---: |\n| Ag^+^ + e^–^ ⇌ Ag | +0.80 |\n| Cu^2+^ + 2e^–^ ⇌ Cu | +0.34 |\n| Fe^2+^ + 2e^–^ ⇌ Fe | −0.44 |\n| Ni^2+^ + 2e^–^ ⇌ Ni | −0.25 |\n| SO~4~^2–^ + 4H^+^ + 2e^–^ ⇌ SO~2~ + 2H~2~O | +0.17 |\n| Zn^2+^ + 2e^–^ ⇌ Zn | −0.76 |\n\nAs the electrolysis proceeds, the blue colour of the electrolyte slowly fades.\n\nExplain why the blue colour fades.",
+     "solution_md": "> **[mark-scheme]**\n> The blue colour fades because:\n> \n> - Cu<sup>2+</sup> ions are removed from solution at the cathode / the concentration of Cu<sup>2+</sup> decreases **[1 mark]**\n> - Zn<sup>2+</sup> / Ni<sup>2+</sup> ions replace some Cu<sup>2+</sup> in solution\n> **OR**\n> the rate of Cu<sup>2+</sup> removal at the cathode exceeds the rate of Cu<sup>2+</sup> replacement from the anode **[1 mark]**\n\n> **[exam-tip]**\n> The blue colour of copper sulfate solution comes from the Cu<sup>2+</sup> ion. As electrolysis proceeds, Cu<sup>2+</sup> is reduced to Cu at the cathode. Although the anode does release Cu<sup>2+</sup>, Zn and Ni impurities also dissolve as Zn<sup>2+</sup> and Ni<sup>2+</sup>, partially replacing the Cu<sup>2+</sup>. The net effect is a gradual decrease in Cu<sup>2+</sup> concentration, so the blue colour fades."
+    },
+    {
+     "id": "qstnprt_WzFKSvDfG3XTxVJH",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "Most of the current passed through the cell is used to dissolve the copper at the anode and precipitate pure copper onto the cathode. However, a small proportion of it is ‘wasted’ in dissolving the impurities at the anode which then remain in solution. When a current of 20.0 A was passed through the cell for 10.0 hours, it was found that 225 g of pure copper was deposited on the cathode.\n\n[Faraday constant, *F* = 9.65 x 10<sup>4</sup> C mol<sup>-1</sup>]\n\ni) Calculate the number of moles of copper produced at the cathode.\n\n[1]\n\nii) Calculate the number of moles of electrons needed to produce this copper.\n\n[1]\n\niii) Calculate the number of moles of electrons that passed through the cell.\n\n[2]\n\niv) Hence calculate the percentage of the current through the cell that has been ‘wasted’ in dissolving the impurities at the anode.\n\n[1]",
+     "solution_md": "To calculate the percentage of current wasted:\n\ni) Calculate the moles of copper produced at the cathode:\n\nn(Cu)  = $\\frac{\\mathrm{mass}}{A_{r}}$\n\nn(Cu) = $\\frac{225}{63.5}$\n\nn(Cu) = **3.54 mol** **[1 mark]**\n\nii) Calculate the moles of electrons needed to produce this copper:\n\nn(e<sup>–</sup>) needed = 2 × 3.54\n\nn(e<sup>–</sup>) needed = **7.09 mol** **[1 mark]**\n\niii) Calculate the moles of electrons that passed through the cell:\n\n- Convert time to seconds: *t* = 10.0 × 3600 = 36 000 s\n\n*Q* = *I* × *t*\n\n*Q* = 20.0 × 36 000\n\n*Q* = **7.20 × 10**<sup>**5**</sup>** C** **[1 mark]**\n\n- Calculate the moles of electrons:\n\nn(e<sup>–</sup>) passed = $\\frac{7.20\\times10^{5}}{9.65\\times10^{4}}$\n\nn(e<sup>–</sup>) passed = **7.46 mol** **[1 mark]**\n\niv) Calculate the percentage wasted:\n\n% wasted = $\\frac{7.46-7.09}{7.46}$ × 100\n\n% wasted = **5.0%** **[1 mark]**\n\n> **[mark-scheme]**\n> Accept 4.98% to 5.10% (variation due to rounding at intermediate steps)\n\n> **[exam-tip]**\n> Time must be in seconds for *Q* = *I* × *t*: 10.0 hours × 3600 = 36 000 s. Then moles of electrons passed = *Q* / *F*.\n> \n> To find the percentage wasted: subtract the moles of electrons that actually deposited copper from the total moles that passed, then divide by the total and multiply by 100. For the best accuracy, carry unrounded intermediate values through your calculator.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over A subscript straight r"
+      },
+      {
+       "latex": "\\frac{225}{63.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>225</mn><mrow><mn>63</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{225}{63.5}"
+      },
+      {
+       "latex": "\\frac{7.20\\times10^{5}}{9.65\\times10^{4}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>20</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow><mrow><mn>9</mn><mo>.</mo><mn>65</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></mfrac></math>",
+       "alt": "\\frac{7.20 \\times 10^{5}}{9.65 \\times 10^{4}}"
+      },
+      {
+       "latex": "\\frac{7.46-7.09}{7.46}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>46</mn><mo>-</mo><mn>7</mn><mo>.</mo><mn>09</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>46</mn></mrow></mfrac></math>",
+       "alt": "\\frac{7.46 - 7.09}{7.46}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PGJfysPsYsfJgj9g",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K7DVtxNwskw68ZgZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Table 5.1** shows a list of standard electrode potentials at 298 K.\n\n| **Electrode reaction** | ***E***^**θ**^** / V** |\n| --- | :---: |\n| Ag^+^ + e^–^ ⇌ Ag | +0.80 |\n| Cu^2+^ + 2e^–^ ⇌ Cu | +0.34 |\n| Fe^2+^ + 2e^–^ ⇌ Fe | −0.44 |\n| Ni^2+^ + 2e^–^ ⇌ Ni | −0.25 |\n| SO~4~^2–^ + 4H^+^ + 2e^–^ ⇌ SO~2~ + 2H~2~O | +0.17 |\n| Zn^2+^ + 2e^–^ ⇌ Zn | −0.76 |\n\nNickel often occurs in ores along with iron. After the initial reduction of the ore with coke, a nickel-iron alloy is formed.\n\nUse data from **Table 5.1** to explain why nickel can be purified by a similar electrolysis technique to that used for copper, using an impure nickel anode, a pure nickel cathode, and nickel sulfate as the electrolyte.\n\nExplain what would happen to the iron during this process.",
+     "solution_md": "> **[mark-scheme]**\n> What happens to iron during the nickel purification process:\n> \n> - *E*<sup>θ</sup> for Fe<sup>2+</sup> / Fe (−0.44 V) is more negative than *E*<sup>θ</sup> for Ni<sup>2+</sup> / Ni (−0.25 V) **[1 mark]**\n> - Iron is more easily oxidised than nickel and dissolves into solution as Fe<sup>2+</sup> (aq) **[1 mark]**\n\n> **[exam-tip]**\n> The more negative the *E*<sup>θ</sup>, the more easily the species is oxidised at the anode. Since Fe<sup>2+</sup> / Fe (−0.44 V) is more negative than Ni<sup>2+</sup> / Ni (−0.25 V), iron is preferentially oxidised and dissolves as Fe<sup>2+</sup> ions. Iron is not deposited at the cathode because its *E*<sup>θ</sup> is more negative than Ni<sup>2+</sup> / Ni."
+    }
+   ]
+  },
+  {
+   "id": "qstn_G3mRdtKKF9yr6fr5",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_kxwJGJQJ4CMNgg4T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "Electrolysis is used to extract reactive metals from their metal ores, purify metals and produce non-metals such as fluorine.\n\nExplain why ionic compounds need to be molten or aqueous for electrolysis to occur.",
+     "solution_md": "> **[mark-scheme]**\n> Ionic compounds need to be molten or aqueous for electrolysis to occur because:\n> \n> - (When aqueous or molten) the ions are free to move / mobile\n> **OR**\n> (When solid) the ions are in fixed positions / cannot move **[1 mark]**\n> \n> Answers that refer to electrons moving instead of ions are not accepted\n\n> **[exam-tip]**\n> For electrolysis to work, a current must flow through the compound. In ionic compounds, it is the ions that carry the charge. In the solid state, ions are held rigidly in a lattice and cannot move. Melting or dissolving the compound frees the ions so current can flow.\n> \n> If you refer to electrons moving rather than ions, you will not gain this mark."
+    },
+    {
+     "id": "qstnprt_QXm7FwZJ6cMwnchF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Complete **Table 2.1** to show the electrolysis products of the molten ionic compounds.\n\n**Table 2.1**\n\n| **Ionic compound** | **Product at anode** | **Product at cathode** |\n|---|---|---|\n| NaH | Hydrogen | Sodium |\n| CaCl<sub>2</sub> |   |   |\n| Pb<sub>3</sub>O<sub>4</sub> |   |   |\n\n[2]\n\nii) State why sodium forms at the negative cathode during the electrolysis of sodium hydride, NaH.\n\n[1]",
+     "solution_md": "i) The completed table is:\n\n| **Ionic compound** | **Product at anode** | **Product at cathode** |\n|---|---|---|\n| NaH | Hydrogen | Sodium |\n| CaCl<sub>2</sub> | **Final answer:** **Chlorine / Cl**<sub>**2**</sub> | **Final answer:** **Calcium / Ca** |\n| Pb<sub>3</sub>O<sub>4</sub> | **Final answer:** **Oxygen / O**<sub>**2**</sub> | **Final answer:** **Lead / Pb** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for CaCl<sub>2</sub> row: anode = chlorine / Cl<sub>2</sub> AND cathode = calcium / Ca\n> \n> 1 mark for Pb<sub>3</sub>O<sub>4</sub> row: anode = oxygen / O<sub>2</sub> AND cathode = lead / Pb\n> \n> ii) Sodium forms at the cathode because:\n> \n> - Sodium is a cation / positive ion attracted to the negative cathode\n> **OR**\n> Na<sup>+</sup> is attracted to the negative cathode **[1 mark]**\n\n> **[exam-tip]**\n> In molten electrolysis, the products are always the component elements. There are no competing ions from water, so the only ions present are those of the compound itself.\n> \n> Sodium forms at the cathode because Na<sup>+</sup> is a positive ion. Opposite charges attract, so positive ions migrate to the negative cathode."
+    },
+    {
+     "id": "qstnprt_xGqGWnggrZyXFGvd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "Electrolysis of aqueous ionic solutions can give different products compared to the electrolysis of molten ionic compounds.\n\nGive the formulae of **two** ions that can form the different products during the electrolysis of aqueous solutions.",
+     "solution_md": "> **[mark-scheme]**\n> The two ions that can form different products during the electrolysis of aqueous solutions are:\n> \n> - H<sup>+</sup>\n> **AND**\n> OH<sup>–</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The key difference between aqueous and molten electrolysis is the water present in aqueous solutions. Water partially dissociates into H<sup>+</sup> and OH<sup>–</sup> ions. It is these ions that compete with the ions of the dissolved salt and can produce alternative products: hydrogen gas at the cathode and oxygen gas at the anode."
+    },
+    {
+     "id": "qstnprt_pNN86qJmxPkPV4Z8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "Two factors that affect the actual ions discharged during the electrolysis of aqueous solutions are:\n\n- The relative electrode potential of the ions\n- The concentration of the ions\n\ni) State the relationship between the relative electrode potential of the ions and the ions that are discharged during the electrolysis of an aqueous solution.\n\n[1]\n\nii) Describe the relationship between the concentration of the ions and the ions that are discharged during the electrolysis of an aqueous solution.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The relationship between electrode potential and ions discharged:\n> \n> - The ion / cation with the most positive electrode potential / *E*<sup>θ</sup> is discharged at the cathode\n> **OR**\n> The ion / anion with the most negative electrode potential / *E*<sup>θ</sup> is discharged at the anode **[1 mark]**\n> \n> ii) The relationship between concentration and ions discharged:\n> \n> - As the concentration of an ion increases, it is more likely to be discharged **[1 mark]**\n\n> **[exam-tip]**\n> For part i), the rule follows standard electrode potential: the more positive the *E*<sup>θ</sup>, the more readily that species is reduced. At the cathode, reduction occurs, so the ion with the most positive *E*<sup>θ</sup> is preferentially discharged.\n> \n> For part ii), a higher concentration means more ions are available at the electrode surface, increasing the likelihood of discharge. A classic example is the electrolysis of concentrated versus dilute NaCl(aq): concentrated solution gives Cl<sub>2</sub> at the anode; dilute solution gives O<sub>2</sub> instead because OH<sup>–</sup> ions are relatively more abundant."
+    }
+   ]
+  },
+  {
+   "id": "qstn_C53m8CK23yvpBpGw",
+   "set_slug": "structured-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Z2mDctmMYTGjN74S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K7DVtxNwskw68ZgZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 2.1 lists electrode potentials for the Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> (aq) / Cr<sup>3+</sup> (aq) and Br<sub>2</sub> (l) / Br<sup>–</sup> (aq) half-cells.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| ½Br<sub>2</sub> (l) + e<sup>–</sup> ⇌ Br<sup>–</sup> (aq) | + 1.09 |\n| Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> (aq) + 14H<sup>+</sup> (aq) + 6e<sup>–</sup> ⇌ 2Cr<sup>3+</sup> (aq) + 7H<sub>2</sub>O (l) | + 1.36 |\n\nDeduce the full equation for the Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> (aq) / Cr<sup>3+</sup> (aq) and Br<sub>2</sub> (l) / Br<sup>–</sup> (aq) cell.",
+     "solution_md": "> **[mark-scheme]**\n> The full equation for the cell:\n> \n> - Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> (aq) + 14H<sup>+</sup> (aq) + 6Br<sup>–</sup> (aq) → 2Cr<sup>3+</sup> (aq) + 3Br<sub>2</sub> (l) + 7H<sub>2</sub>O (l) **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> Identify which half-equation has the more positive *E*<sup>θ</sup>: that is the reduction (forward direction). The other is reversed to give the oxidation. Multiply each half-equation so the electrons balance, then cancel them to give the overall equation.\n> \n> Here:\n> \n> - Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> / Cr<sup>3+</sup> (*E*<sup>θ</sup> = +1.36 V) is reduced\n> - Br<sup>–</sup> / Br<sub>2</sub> (*E*<sup>θ</sup> = +1.09 V) is oxidised.\n> - Multiply the Br<sup>–</sup> equation by 6 to get 6Br<sup>–</sup> → 3Br<sub>2</sub> + 6e<sup>–</sup>\n> - Add to the Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> equation, and cancel the 6e<sup>–</sup>."
+    },
+    {
+     "id": "qstnprt_4qmcWv4fDNc8bSvm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zJ3sxYXqq83ptdB6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2.1 lists electrode potentials for the Cr~2~O~7~^2–^ (aq) / Cr^3+^ (aq) and Br~2~ (l) / Br^–^ (aq) half-cells.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***^**θ**^** / V** |\n| --- | :---: |\n| ½Br~2~ (l) + e^–^ ⇌ Br^–^ (aq) | + 1.09 |\n| Cr~2~O~7~^2–^ (aq) + 14H^+^ (aq) + 6e^–^ ⇌ 2Cr^3+^ (aq) + 7H~2~O (l) | + 1.36 |\n\nUsing Table 2.1, calculate the *E*<sup>θ</sup><sub>cell</sub> for the electrochemical cell outlined in part (a).",
+     "solution_md": "To calculate *E*<sup>θ</sup><sub>cell</sub> for the electrochemical cell:\n\n*E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>oxidised</sub>\n\n*E*<sup>θ</sup><sub>cell</sub> = 1.36 − 1.09\n\n*E*<sup>θ</sup><sub>cell</sub> = **+0.27 V** **[1 mark]**\n\n> **[exam-tip]**\n> Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> / Cr<sup>3+</sup> has the more positive *E*<sup>θ</sup> (+1.36 V) and undergoes reduction. Br<sub>2</sub> / Br<sup>–</sup> (*E*<sup>θ</sup> = +1.09 V) undergoes oxidation. Apply *E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>reduced</sub> − *E*<sup>θ</sup><sub>oxidised</sub>.\n> \n> A positive *E*<sup>θ</sup><sub>cell</sub> confirms the reaction is thermodynamically feasible."
+    },
+    {
+     "id": "qstnprt_BNpY7B4mdDKByZtB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9h2zdD3sCnvBMsK8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2.1 lists electrode potentials for the Cr₂O₇²⁻ (aq) / Cr³⁺ (aq) and Br₂ (l) / Br⁻ (aq) half-cells.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***^**θ**^** / V** |\n| --- | :---: |\n| ½Br₂ (l) + e⁻ ⇌ Br⁻ (aq) | + 1.09 |\n| Cr₂O₇²⁻ (aq) + 14H⁺ (aq) + 6e⁻ ⇌ 2Cr³⁺ (aq) + 7H₂O (l) | + 1.36 |\n\nThe full equation for the cell:\nCr₂O₇²⁻ (aq) + 14H⁺ (aq) + 6Br⁻ (aq) → 2Cr³⁺ (aq) + 3Br₂ (l) + 7H₂O (l)\n\n*E*^θ^~cell~ = +0.27 V\n\nThe electrochemical equation for standard free energy change is given.\n\nΔ*G*<sup>θ</sup> = −*n*F*E*<sup>θ</sup>\n\nThe Faraday constant, *F* = 9.65 × 10<sup>4</sup> C mol<sup>–</sup>.\n\nUse your answers to parts (a) and (b) to deduce whether the reaction of the electrochemical cell is feasible.",
+     "solution_md": "To deduce whether the reaction is feasible:\n\nΔ*G*<sup>θ</sup> = −*n*F*E*<sup>θ</sup> = −6 × 9.65 × 10<sup>4</sup> × 0.27 = −156 kJ mol<sup>–</sup>\n\nΔ*G*<sup>θ</sup> is negative, therefore the reaction is feasible\n\n**[1 mark]**\n\n> **[exam-tip]**\n> n = 6 here because there are 6 electrons transferred in the balanced equation from part (a). Substitute: −6 × 9.65 × 10<sup>4</sup> × 0.27 = −156 330 J mol<sup>–</sup> ≈ −156 kJ mol<sup>–</sup>.\n> \n> For feasibility: Δ*G*<sup>θ</sup> ≤ 0 means the reaction is spontaneous / feasible. A negative value confirms feasibility."
+    },
+    {
+     "id": "qstnprt_yXJKJQcKgcHFszWg",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9h2zdD3sCnvBMsK8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electrochemical equation for standard free energy change is given.\n\nΔ*G*^θ^ = −*n*F*E*^θ^\n\nThe Faraday constant, *F* = 9.65 × 10^4^ C mol^–^.\n\nAn electrochemical cell has a free energy change of −14.475 kJ mol<sup>–</sup>.\n\nUse the information in Table 2.1 to deduce the reactions taking place at each electrode of the electrochemical cell.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| Ag<sup>+</sup> (aq) + e<sup>–</sup> ⇌ Ag (s) | +0.80 |\n| Li<sup>+</sup> (aq) + e<sup>–</sup> ⇌ Li (s) | −3.04 |\n| ClO<sub>2</sub> (aq) + e<sup>–</sup> ⇌ ClO<sub>2</sub><sup>–</sup> (aq) | +0.95 |\n| H<sub>2</sub>O (l) + e<sup>–</sup> ⇌ ½H<sub>2</sub> (g) + OH<sup>–</sup> (aq) | −0.83 |\n| Fe<sup>3+</sup> (aq) + e<sup>–</sup> ⇌ Fe<sup>2+</sup> (aq) | +0.77 |",
+     "solution_md": "To deduce the reactions at each electrode:\n\n- Calculate *E*<sup>θ</sup><sub>cell</sub> from Δ*G*<sup>θ</sup>:\n\n*E*<sup>θ</sup><sub>cell</sub> = $\\frac{ΔG^{θ}}{-nF}$\n\n*E*<sup>θ</sup><sub>cell</sub> = $\\frac{-14475}{-1\\times96500}$\n\n*E*<sup>θ</sup><sub>cell</sub> =  **+0.15 V** **[1 mark]**\n\n> **[mark-scheme]**\n> The pair of half-cells with *E*<sup>θ</sup><sub>cell</sub> = 0.15 V:\n> \n> - ClO<sub>2</sub> (aq) + e<sup>–</sup> ⇌ ClO<sub>2</sub><sup>–</sup> (aq), *E*<sup>θ</sup> = +0.95 V\n> **AND**\n> Ag<sup>+</sup> (aq) + e<sup>–</sup> ⇌ Ag (s), *E*<sup>θ</sup> = +0.80 V\n> (difference = 0.95 − 0.80 = 0.15 V) **[1 mark]**\n> \n> The reactions at each electrode:\n> \n> - Anode: Ag (s) → Ag<sup>+</sup> (aq) + e<sup>–</sup>\n> **AND**\n> Cathode: ClO<sub>2</sub> (aq) + e<sup>–</sup> → ClO<sub>2</sub><sup>–</sup> (aq) **[1 mark]**\n\n> **[exam-tip]**\n> Rearrange Δ*G*<sup>θ</sup> = −nF*E*<sup>θ</sup> to give *E*<sup>θ</sup><sub>cell</sub> = Δ*G*<sup>θ</sup> / (−nF). Since all half-equations involve 1 electron, n = 1. Substituting gives *E*<sup>θ</sup><sub>cell</sub> = 0.15 V.\n> \n> Test pairs from the table until you find two whose *E*<sup>θ</sup> values differ by 0.15 V: ClO<sub>2</sub>/ClO<sub>2</sub><sup>–</sup> (+0.95 V) and Ag<sup>+</sup>/Ag (+0.80 V). The higher *E*<sup>θ</sup> undergoes reduction at the cathode (ClO<sub>2</sub> + e<sup>–</sup> → ClO<sub>2</sub><sup>–</sup>); the lower undergoes oxidation at the anode (Ag → Ag<sup>+</sup> + e<sup>–</sup>).",
+     "equations": [
+      {
+       "latex": "\\frac{ΔG^{θ}}{-nF}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x394;</mi><msup><mi>G</mi><mi>&#x3B8;</mi></msup></mrow><mrow><mo>-</mo><mi>n</mi><mi>F</mi></mrow></mfrac></math>",
+       "alt": "\\frac{\\Delta G^{\\theta}}{-nF}"
+      },
+      {
+       "latex": "\\frac{-14475}{-1\\times96500}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>-</mo><mn>14475</mn></mrow><mrow><mo>-</mo><mn>1</mn><mo>&#xD7;</mo><mn>96500</mn></mrow></mfrac></math>",
+       "alt": "\\frac{-14475}{-1 \\times 96500}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2gBJmd6rFyQYyGzz",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_9mMW3dhpGNZgSVgM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K7DVtxNwskw68ZgZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student set up an electrochemical cell using a concentrated sodium chloride solution using a current of 6 A.\n\nState the half-equations occurring at the electrodes during the electrolysis of the concentrated aqueous solution of sodium chloride.",
+     "solution_md": "> **[mark-scheme]**\n> The half-equations at each electrode:\n> \n> - Cathode: 2H<sup>+</sup> + 2e<sup>–</sup> → H<sub>2</sub>\n> **OR**\n> H<sup>+</sup> + e<sup>–</sup> → ½H<sub>2</sub>\n> **OR**\n> 2H<sub>2</sub>O + 2e<sup>–</sup> → H<sub>2</sub> + 2OH<sup>–</sup> **[1 mark]**\n> - Anode: 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup>\n> **OR**\n> Cl<sup>–</sup> → ½Cl<sub>2</sub> + e<sup>–</sup> **[1 mark]**\n> \n> Allow 1 mark if the half-equations are correct but assigned to the wrong electrode\n\n> **[exam-tip]**\n> At the cathode (negative electrode), reduction occurs: H<sup>+</sup> ions from water gain electrons to form H<sub>2</sub> gas. At the anode (positive electrode), the concentrated Cl<sup>–</sup> is preferentially discharged to form Cl<sub>2</sub> over OH<sup>–</sup>, because the concentration of Cl<sup>–</sup> is high enough to override the electrode potential difference.\n> \n> If you write both half-equations correctly but place them at the wrong electrodes, you can still earn one mark."
+    },
+    {
+     "id": "qstnprt_cTTdJgT4YdGvMhpG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gPKQX6szPddTgJ9j",
+      "spcpt_5Htx34tTFk52Gr3T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student set up an electrochemical cell using a concentrated sodium chloride solution using a current of 6 A.\n\nCalculate the time, in minutes, to produce 2.00 dm<sup>3</sup> of gas at the **anode** at room temperature and pressure.\n\nThe Faraday constant, *F* = 9.65 × 10<sup>4</sup> C mol<sup>–</sup>.\n\nState your answer to 2 significant figures and show your working.",
+     "solution_md": "To calculate the time to produce 2.00 dm<sup>3</sup> of chlorine gas at the anode:\n\n- Calculate the moles of chlorine:\n\nn(Cl<sub>2</sub>) = $\\frac{2.00}{24.0}$\n\nn(Cl<sub>2</sub>) = 0.0833 mol\n\n- Calculate the moles of electrons transferred:\n\n2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup>\n\nn(e<sup>–</sup>) = 0.0833 × 2\n\nn(e<sup>–</sup>) = 0.167 mol **[1 mark]**\n\n- Calculate the charge transferred:\n\n*Q* = n × *F*\n\n*Q* = 0.167 × 9.65 × 10<sup>4</sup>\n\n*Q* = 16 100 C **[1 mark]**\n\n- Calculate the time:\n\n*t* = $\\frac{16100}{6}$\n\n*t *= 2680 s\n\n- Convert time to minutes:\n\n*t* = $\\frac{2680}{60}$\n\n*t *= **45 min** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 48 min if student uses 22.4 dm<sup>3</sup> mol<sup>–</sup> (STP) instead of 24.0 dm<sup>3</sup> mol<sup>–</sup> (RTP), provided all other steps are correct\n\n> **[exam-tip]**\n> At RTP, one mole of gas occupies 24.0 dm<sup>3</sup>. Use this to find moles of Cl<sub>2</sub>.\n> \n> The half-equation 2Cl<sup>–</sup> → Cl<sub>2</sub> + 2e<sup>–</sup> shows that 2 moles of electrons are transferred per mole of Cl<sub>2</sub>. Multiply moles of Cl<sub>2</sub> by 2 to get moles of electrons, then use *Q* = n × *F* and *t* = *Q* ÷ *I*. Remember to convert seconds to minutes at the end.",
+     "equations": [
+      {
+       "latex": "\\frac{2.00}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.00}{24.0}"
+      },
+      {
+       "latex": "\\frac{16100}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16100</mn><mn>6</mn></mfrac></math>",
+       "alt": "\\frac{16 100}{6}"
+      },
+      {
+       "latex": "\\frac{2680}{60}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2680</mn><mn>60</mn></mfrac></math>",
+       "alt": "\\frac{2680}{60}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WN42Vc4BCJVmP5d7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student set up an electrochemical cell using a concentrated sodium chloride solution using a current of 6 A.\n\nState the half-equations occurring at the electrodes during the electrolysis of the concentrated aqueous solution of sodium chloride.\n\nAnode: 2Cl^– → Cl2 + 2e^–\n\nThe student changed the electrolyte to a very dilute sodium chloride solution.\n\nState what change would occur at the anode and give the half equation for the process.",
+     "solution_md": "> **[mark-scheme]**\n> The change at the anode when using very dilute NaCl solution:\n> \n> - Oxygen gas / O<sub>2</sub> is produced instead of chlorine **[1 mark]**\n> \n> The half-equation at the anode in dilute NaCl solution:\n> \n> - 2H<sub>2</sub>O (l) → 4H<sup>+</sup> (aq) + O<sub>2</sub> (g) + 4e<sup>–</sup>\n> **OR**\n> H<sub>2</sub>O (l) → 2H<sup>+</sup> (aq) + ½O<sub>2</sub> (g) + 2e<sup>–</sup>\n> **OR**\n> 4OH<sup>–</sup> (aq) → 2H<sub>2</sub>O (l) + O<sub>2</sub> (g) + 4e<sup>–</sup>\n> **OR**\n> 2OH<sup>–</sup> (aq) → H<sub>2</sub>O (l) + ½O<sub>2</sub> (g) + 2e<sup>–</sup> **[1 mark]**\n\n> **[exam-tip]**\n> In concentrated NaCl solution, the high Cl<sup>–</sup> concentration causes preferential discharge of Cl<sup>–</sup> at the anode. In very dilute solution, Cl<sup>–</sup> concentration is low and OH<sup>–</sup> / H<sub>2</sub>O is discharged instead, producing O<sub>2</sub>.\n> \n> At in-between concentrations, a mixture of both chlorine and oxygen is produced at the anode."
+    },
+    {
+     "id": "qstnprt_xwWvrH6VvY7K8P3k",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m3t673F5zKPpKkb6"
+     ],
+     "part_tier": null,
+     "problem_md": "In a different electrolysis experiment, copper(II) sulfate solution was electrolysed using graphite electrodes.\n\nTable 2.1 lists electrode potentials for some electrode reactions.\n\n**Table 2.1**\n\n| **Electrode reaction** | ***E***<sup>**θ**</sup>** / V** |\n|---|---|\n| Cu<sup>+</sup> + e<sup>–</sup> ⇌ Cu | + 0.52 |\n| Cu<sup>2+</sup> + 2e<sup>–</sup> ⇌ Cu | + 0.34 |\n| Cu<sup>2+</sup> + e<sup>–</sup> ⇌ Cu<sup>+</sup> | + 0.15 |\n| 2H<sub>2</sub>O + 2e<sup>–</sup> ⇌ H<sub>2</sub> + 4OH<sup>–</sup> | – 0.83 |\n| O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>–</sup> ⇌ 4OH<sup>–</sup> | + 0.40 |\n| ½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>–</sup> ⇌ H<sub>2</sub>O | + 1.23 |\n| SO<sub>4</sub><sup>2–</sup> + 4H<sup>+</sup> + 2e<sup>–</sup> ⇌ SO<sub>2</sub> + 2H<sub>2</sub>O | + 0.17 |\n| S<sub>2</sub>O<sub>8</sub><sup>2–</sup> + 2e<sup>–</sup> ⇌ 2SO<sub>4</sub><sup>2–</sup> | + 2.01 |\n\nExplain how the products at the anode and cathode are produced.",
+     "solution_md": "> **[mark-scheme]**\n> Products identified:\n> \n> - Anode: oxygen gas / O<sub>2</sub> (g)\n> **OR**\n> carbon dioxide / CO<sub>2</sub> (g)\n> **AND**\n> cathode: copper metal / Cu (s) **[1 mark]**\n> \n> At the cathode:\n> \n> - Cu<sup>2+</sup> (aq) + 2e<sup>–</sup> → Cu (s), *E*<sup>θ</sup> = +0.34 V is preferred over 2H<sub>2</sub>O (l) + 2e<sup>–</sup> → H<sub>2</sub> (g) + 4OH<sup>–</sup> (aq), *E*<sup>θ</sup> = −0.83 V, because Cu<sup>2+</sup> / Cu has a more positive *E*<sup>θ</sup> **[1 mark]**\n> \n> At the anode:\n> \n> - Sulfate ions cannot be oxidised\n> **AND**\n> hydroxide / OH<sup>–</sup> ions (from water) are oxidised to form water **[1 mark]**\n> - The half-equation at the anode: 2H<sub>2</sub>O (l) → 4H<sup>+</sup> (aq) + O<sub>2</sub> (g) + 4e<sup>–</sup> **[1 mark]**\n> - The O<sub>2</sub> produced reacts with the carbon / graphite electrode to form CO<sub>2</sub> **[1 mark]**\n\n> **[exam-tip]**\n> At the cathode: identify which reduction half-equation has the most positive *E*<sup>θ</sup>. Cu<sup>2+</sup> / Cu (+0.34 V) is more positive than H<sub>2</sub>O / H<sub>2</sub> (−0.83 V), so copper is preferentially deposited.\n> \n> At the anode: oxidation occurs at the most positive *E*<sup>θ</sup> for the reverse reaction. Sulfate cannot be oxidised under these conditions. Water / OH<sup>–</sup> is oxidised to give O<sub>2</sub>, which then reacts with the graphite electrode to form CO<sub>2</sub>. This is why graphite electrodes deteriorate during the electrolysis of CuSO<sub>4</sub>(aq)."
+    }
+   ]
+  }
+ ]
+}

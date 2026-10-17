@@ -1,0 +1,1581 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:57Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "19-computational-thinking-and-problem-solving-",
+  "name": "19. Computational thinking & Problem-solving"
+ },
+ "topic": {
+  "id": "top_tYMbR2kjX6RRgMWh",
+  "slug": "algorithms",
+  "name": "Algorithms",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "insertion-sort-and-bubble-sort",
+   "name": "Insertion Sort",
+   "revision_note_id": "rn_KGZgj92QSJWtm9Cx"
+  },
+  {
+   "slug": "linear-search",
+   "name": "Linear Search",
+   "revision_note_id": "rn_Z6xTyj62bws5Bygv"
+  },
+  {
+   "slug": "linked-lists",
+   "name": "Linked Lists",
+   "revision_note_id": "rn_YgH6RTm5QZ8HN85W"
+  },
+  {
+   "slug": "stacks",
+   "name": "Stacks",
+   "revision_note_id": "rn_fBfydSFTp9VpR3WJ"
+  },
+  {
+   "slug": "algorithm-analysis",
+   "name": "Algorithm Analysis",
+   "revision_note_id": "rn_rFw8Hq3F2Ghx5VBP"
+  },
+  {
+   "slug": "binary-search",
+   "name": "Binary Search",
+   "revision_note_id": "rn_NX96GJqcZ8VzKGjW"
+  },
+  {
+   "slug": "bubble-sort",
+   "name": "Bubble Sort",
+   "revision_note_id": "rn_w7WBRMqWdp2x35rR"
+  },
+  {
+   "slug": "queues",
+   "name": "Queues",
+   "revision_note_id": "rn_4mWcDkqww2xfXF5j"
+  },
+  {
+   "slug": "binary-trees",
+   "name": "Binary Trees",
+   "revision_note_id": "rn_zr72xRB6j4cXTjj7"
+  },
+  {
+   "slug": "adt-from-adt",
+   "name": "ADT from ADT",
+   "revision_note_id": "rn_sQxzjzfRDHGSwHtB"
+  },
+  {
+   "slug": "binary-trees---updated",
+   "name": "Binary Trees - Updated",
+   "revision_note_id": "rn_DRxttk45KmyNVGk7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_vVCFgPmHy5F62fWg",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 40,
+   "questions_embedded": 40,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/19-computational-thinking-and-problem-solving-/algorithms/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 40,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/40102-9618-24-32-q11a.png": "001-binary-tree-diagram-with-root-node-25-branching-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/45253-9618-24-32-q11b.png": "002-diagram-of-a-binary-tree-with-nodes-labelled-roo.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/52297-9618-24-32-ms11a.png": "003-diagram-of-a-binary-tree-with-nodes-showing-valu.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/26702-9618-24-32-q11b2.png": "004-binary-tree-data-structure-table-with-columns-in.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/33281-9618-24-32-ms11b.png": "005-binary-tree-table-with-index-left-and-right-poin.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/48605-9618-24-31-q11a.png": "006-hierarchy-diagram-with-red-at-the-top-branching-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/30298-9618-24-31-q11b.png": "007-diagram-of-a-binary-tree-with-nodes-labelled-roo.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/22940-9618-24-31-ms11a.png": "008-binary-tree-diagram-with-root-node-red-branching.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/19938-9618-24-31-q11b2.png": "009-binary-tree-table-with-columns-index-leftptr-dat.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/33392-9618-24-31-ms11b.png": "010-binary-tree-structure-table-with-indices-pointer.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/41147_screenshot-2025-11-14-114405.png": "011-eleven-columns-each-with-five-vertically-aligned.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/2780_screenshot-2025-11-14-114737.png": "012-flowchart-with-two-options-shows-numbered-boxes-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/11138_screenshot-2025-11-13-200624.png": "013-nine-vertical-columns-each-containing-five-equal.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/55206_screenshot-2025-11-13-202308.png": "014-mathematical-chart-dividing-numbers-into-columns.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_J6ppggCrTwMXjp6X",
+   "set_slug": "exam-questions",
+   "order": 39,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_HmTVf5nQycpXM7gV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "A developer tests two search algorithms, X and Y, on arrays of different sizes. The table shows the maximum number of items each algorithm checks before it finds an item or decides that the item is not in the array.\n\n| Number of items in the array | Algorithm X | Algorithm Y |\n|---|---|---|\n| 16 | 16 | 5 |\n| 256 | 256 | 9 |\n| 4096 | 4096 | 13 |\n| 65536 | 65536 | 17 |\n\n(a) Identify the Big O time complexity of each algorithm. Use the data in the table to justify each answer. [3]\n\n(b) The number of items is increased to 1 048 576, which is 16 times the largest array in the table.\n\nState the maximum number of items that Algorithm Y will check. [1]",
+     "solution_md": "(a) Algorithm X is O(n), because the maximum number of items checked is equal to the number of items / increases by the same factor of 16 from row to row. **[1]**\n\nAlgorithm Y is O(log n). **[1]**\n\nEach time the number of items is multiplied by 16, Algorithm Y checks only 4 more items. The number of checks increases linearly while the number of items increases exponentially. **[1]**\n\n(b) **21** **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Algorithm X is O(n) with a justification from the data: the number of checks equals the number of items // rises in proportion to the number of items // is multiplied by 16 when the number of items is multiplied by 16\n> \n> **1 mark** for Algorithm Y is O(log n)\n> \n> **1 mark** for a justification from the data for Algorithm Y: the number of checks increases by 4 each time the number of items is multiplied by 16 // the number of checks increases linearly as the number of items increases exponentially // the time taken increases logarithmically as the number of items increases\n> \n> **1 mark** for (b): 21\n> \n> Accept O(Log2 n) or O(log₂ n) for Algorithm Y\n> \n> Do not accept O(n) for Algorithm X without a reason taken from the table\n> \n> Do not accept 17 × 16 = 272 for (b). Multiplying the number of items by 16 adds 4 checks for Algorithm Y; it does not multiply the number of checks by 16\n\n> **[exam-tip]**\n> Look at how each column changes from one row to the next, not at the size of the numbers. The number of items is multiplied by 16 every row. Column X is also multiplied by 16, which is linear growth. Column Y goes up by 4 every row, which is how logarithmic growth appears in a table.\n> \n> For part (b), continue the pattern rather than calculating a logarithm: 1 048 576 is one more row of the table, so Algorithm Y checks 17 + 4 = 21 items. Algorithm Y behaves like a binary search and Algorithm X like a linear search, but the question asks you to justify from the data, so quote the numbers."
+    }
+   ]
+  },
+  {
+   "id": "qstn_XqSgPjZxDwm5FyMj",
+   "set_slug": "exam-questions",
+   "order": 38,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_m49tBtPYwypzTgNV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "The 1D array `Heights` is declared as `ARRAY[1:N] OF INTEGER`. The values in `Heights` are in ascending order.\n\n**Algorithm A** finds the total of all the values in `Heights`.\n\n**Algorithm B** finds out whether the value `Target` is stored in `Heights`.\n\nIdentify the Big O time complexity of each algorithm. Justify your answer for Algorithm B.",
+     "solution_md": "Algorithm A: O(n) **[1]**\n\nAlgorithm B: O(log n) **[1]**\n\nEach time the `REPEAT` loop runs, Algorithm B discards the half of the remaining array that cannot contain `Target`. So doubling the number of items adds only one more iteration. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Algorithm A is O(n)\n> \n> **1 mark** for Algorithm B is O(log n)\n> \n> **1 mark** for the justification: the number of items still to be searched is halved on each iteration // the search area is repeatedly halved // the time taken increases logarithmically as the number of items increases // doubling the number of items adds only one iteration\n> \n> Accept O(Log2 n) or O(log₂ n) for Algorithm B\n> \n> Do not accept O(n) for Algorithm B. It contains one loop, but that loop does not run once for every item\n\n> **[exam-tip]**\n> Do not decide the Big O by counting loops. Algorithm B has one loop, just like Algorithm A, but it is not O(n). What matters is how many times the loop runs. Algorithm A visits every item once, so its time grows linearly with `N`. Algorithm B halves the part of the array still to be searched each time, so it runs only about 10 times for 1000 items.\n> \n> You may recognise Algorithm B as a binary search. Naming it is not enough for the justification mark: say what happens to the search area on each iteration."
+    }
+   ]
+  },
+  {
+   "id": "qstn_p6TQQYYrn2KvNc2x",
+   "set_slug": "exam-questions",
+   "order": 37,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_C2NhrthW5cqjMptT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "A linear search has a time complexity of O(n) in Big O notation.\n\n(i) State what Big O notation is used to indicate about an algorithm.\n\n(ii) State what O(n) shows about how the time taken by a linear search changes as the number of items in the array increases.",
+     "solution_md": "(i) The time complexity or space complexity of the algorithm // how efficient the algorithm is **[1]**\n\n(ii) The time taken increases linearly with the number of items. For example, if the number of items doubles, the maximum time taken doubles. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for (i): the time complexity / space complexity of an algorithm // the efficiency of an algorithm // how the time or memory needed grows as the amount of data grows\n> \n> **1 mark** for (ii): the time taken increases linearly / in direct proportion as the number of items increases\n> \n> Do not accept for (i) \"the exact time the algorithm takes, in seconds\". Big O describes how the time grows with the number of items, not a measured time\n> \n> Do not accept for (ii) \"a linear search is slow\". This does not describe how the time changes\n\n> **[exam-tip]**\n> For part (ii), use the word \"linearly\" or describe the link between the two quantities: twice as many items means up to twice as many checks. Words such as \"slow\" or \"inefficient\" do not show that you know what the notation means.\n> \n> Remember that the `n` in O(n) stands for the number of data items. Big O never tells you the actual running time, because that also depends on the computer."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DW6nk57tgFJG95R2",
+   "set_slug": "exam-questions",
+   "order": 36,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CVH6pGQcKw4M9dvW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3zm2hqrBFtvw4ZXm"
+     ],
+     "part_tier": null,
+     "problem_md": "The 1D array `IDs` is declared as:\n\nEach element holds a student ID between 1 and 1000. A program must find out whether any ID is stored more than once. Two algorithms are being considered.\n\n**Algorithm P**\n\n**Algorithm Q**\n\nAlgorithm Q uses a second array, `Seen`, which is declared in its first line.\n\nCompare the suitability of Algorithm P and Algorithm Q for this task, in terms of the time taken and the memory used.\n\nYour answer must include the number of times the `IF` condition is evaluated by each algorithm.",
+     "solution_md": "Algorithm P evaluates the `IF` condition 499 + 498 + ... + 2 + 1 = **124 750** times. **[1]**\n\nAlgorithm Q evaluates the `IF` condition **500** times. **[1]**\n\nAlgorithm Q takes much less time. Even with the 1000 assignments needed to set every element of `Seen` to `FALSE`, it carries out far fewer steps than Algorithm P, which compares every ID with every other ID. **[1]**\n\nAlgorithm Q uses more memory, because it needs a second array of 1000 Boolean values. Algorithm P needs no extra array, only the two loop counters. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for 124 750 for Algorithm P\n> \n> **1 mark** for 500 for Algorithm Q\n> \n> **1 mark** for Algorithm Q takes less time / carries out fewer steps // Algorithm P takes longer because each ID is compared with every other ID // the time taken by Algorithm P increases much faster as the number of IDs increases\n> \n> **1 mark** for Algorithm Q uses more memory because of the extra array `Seen` (of 1000 elements) // Algorithm P uses less memory because it needs no extra array\n> \n> Accept 124750 or 124,750 for Algorithm P\n> \n> Do not accept 250 000 or 249 500 for Algorithm P. The inner loop starts at `I + 1`, so it runs 499 times when `I` is 1, 498 times when `I` is 2, and only once when `I` is 499\n> \n> Do not accept 1500 for Algorithm Q. The loop that sets up `Seen` contains no `IF` condition\n> \n> Do not accept \"Algorithm Q uses less memory\". It stores 1000 extra values that Algorithm P does not need\n\n> **[exam-tip]**\n> The common error is to multiply the two loop limits and write 500 × 500 or 499 × 500. Look at where the inner loop starts. Each pair of IDs is compared only once, so the counts are 499, 498, 497 and so on, down to 1.\n> \n> A good comparison names both criteria and says which algorithm is better on each. Here there is a trade-off: Algorithm Q is much faster but needs more memory. Also notice why Algorithm Q is possible at all. It works only because every ID is known to be between 1 and 1000, so each ID can be used as an index into `Seen`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Jns3BM2YZ2mpfVf6",
+   "set_slug": "exam-questions",
+   "order": 35,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_khw8v2YpqMQWBrKK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3zm2hqrBFtvw4ZXm"
+     ],
+     "part_tier": null,
+     "problem_md": "A delivery company stores the details of 800 parcels in a 1D array. The array is **not** sorted.\n\nParcels are added to the array and removed from it many times each minute, in no particular order. After each change, the program searches the array **once** to find one parcel ID.\n\nA binary search usually checks far fewer items than a linear search.\n\nExplain why a linear search is more suitable than a binary search for this program.",
+     "solution_md": "A binary search can only be used if the data in the array is sorted. **[1]**\n\nThis array is not sorted, and it changes after every search, so it would have to be sorted again before every binary search. **[1]**\n\nA sort must look at every item at least once, so sorting the array takes at least as long as a linear search, which checks at most 800 items and needs no sorting. The binary search would not save any time. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a binary search requires the data to be sorted // a linear search does not require the data to be sorted\n> \n> **1 mark** for the array would need to be sorted (again) before each search // because the data changes between searches\n> \n> **1 mark** for the time taken to sort the array is greater than the time saved by using a binary search // sorting must look at every item at least once, and a linear search checks at most 800 items\n> \n> Do not accept \"a linear search is faster than a binary search\". In general it is not. The linear search is more suitable here because of the time needed to sort the data first\n> \n> Do not accept \"a binary search cannot find an item that is not in the array\". A binary search can report that an item is not found\n\n> **[exam-tip]**\n> Most students gain the first mark and stop. Stating that a binary search needs sorted data is not enough on its own. You must use the scenario: the data changes all the time and each version is searched only once, so the cost of sorting is paid again and again.\n> \n> Do not claim that a linear search is simply faster. The question tells you that a binary search usually checks fewer items. Your answer must explain why that advantage is lost in this program."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kB6DzWZdxfNvxMnX",
+   "set_slug": "exam-questions",
+   "order": 34,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_KP5ZPx6xytbnsQYp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3zm2hqrBFtvw4ZXm"
+     ],
+     "part_tier": null,
+     "problem_md": "Two different algorithms can perform the same task.\n\nState **two** criteria that can be used to compare the two algorithms.",
+     "solution_md": "The time taken by each algorithm to complete the task **[1]**\n\nThe amount of memory used by each algorithm **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the time taken to complete the task // the number of steps / comparisons / iterations the algorithm needs // time complexity\n> \n> **1 mark** for the memory used // the amount of storage space the algorithm needs // space complexity\n> \n> Do not accept two answers that both describe time, such as \"speed\" and \"time taken\". They are the same criterion and earn one mark\n> \n> Do not accept the speed of the processor or the hardware used. That is a property of the computer, not of the algorithm\n\n> **[exam-tip]**\n> Many students write \"speed\" and \"time taken\" as their two criteria. Both describe how long the algorithm takes, so they earn one mark between them. Learn the pair that the syllabus gives: the time taken to complete the task and the memory used.\n> \n> Keep your answer about the algorithm. The same algorithm runs faster on a faster computer, so \"it depends on the processor\" does not help you compare two algorithms."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hKkYQMPqJZ43T4Mz",
+   "set_slug": "exam-questions",
+   "order": 33,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_czysSkjsqjhYzsKK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vct4zxppSDRnwt9H"
+     ],
+     "part_tier": null,
+     "problem_md": "A queue Abstract Data Type (ADT) of strings is implemented using two stacks. Each stack is a 1D array with its own top pointer. The global declarations are:\n\nA stack is empty when its top pointer is 0. `StackA` holds the queue, with the item at the front of the queue at the top of `StackA`. `StackB` is empty except while a new item is being added.\n\nThese modules are already written:\n\n- `PushA(NewItem : STRING)` pushes `NewItem` onto `StackA`\n- `PopA() RETURNS STRING` removes and returns the item at the top of `StackA`\n- `PushB(NewItem : STRING)` pushes `NewItem` onto `StackB`\n- `PopB() RETURNS STRING` removes and returns the item at the top of `StackB`\n\n`PopA()` and `PopB()` are only called when that stack is not empty.\n\nWrite pseudocode for:\n\n- the procedure `Enqueue(NewItem : STRING)`, which outputs \"Queue full\" if `StackA` holds `MaxSize` items, and otherwise adds `NewItem` to the rear of the queue\n- the function `Dequeue()`, which outputs \"Queue empty\" and returns an empty string if the queue is empty, and otherwise removes and returns the item at the front of the queue.",
+     "solution_md": "- Test whether `StackA` is full and output \"Queue full\" without adding the item **[1]**\n- Loop while `StackA` is not empty **[1]**\n- In the loop, pop each item from `StackA` and push it onto `StackB` **[1]**\n- Push `NewItem` onto `StackB`, then pop every item from `StackB` and push it back onto `StackA` **[1]**\n- In `Dequeue()`, test whether `StackA` is empty and, if so, output \"Queue empty\" and return an empty string **[1]**\n- Otherwise pop the item from `StackA` and return it **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for testing `TopPointerA = MaxSize` and outputting \"Queue full\", with no item added in that case\n> \n> **1 mark** for a loop that repeats while `StackA` is not empty, for example `WHILE TopPointerA > 0`\n> \n> **1 mark** for popping from `StackA` and pushing onto `StackB` inside that loop\n> \n> **1 mark** for pushing `NewItem` onto a stack and then a loop that moves every item from `StackB` back onto `StackA`\n> \n> **1 mark** for `Dequeue()` testing whether `StackA` is empty and, if so, outputting \"Queue empty\" and returning an empty string\n> \n> **1 mark** for otherwise returning the value popped from `StackA`\n> \n> Accept `NewItem` pushed onto `StackA` instead of `StackB` after `StackA` has been emptied. The order is still correct after the items are moved back\n> \n> Accept any equivalent loop condition, such as a test that the top pointer is not equal to 0, or a post-condition loop that is only entered when the stack is not empty\n> \n> Accept the pop and the push in one statement, for example `CALL PushB(PopA())`\n> \n> Accept `Dequeue` written without the empty brackets\n> \n> Do not award the fourth mark if the items are left in `StackB`. The front of the queue must be back at the top of `StackA`, or the next `Dequeue()` removes the wrong item\n> \n> Do not award the third mark if the loop also changes `TopPointerA` or `TopPointerB` directly, because the modules already update them and the pointers are then changed twice\n\n> **[exam-tip]**\n> Students often push the new item onto `StackA` straight away, as if `StackA` were a queue. It is a stack, so that puts the newest item on top, and it becomes the next item removed. The reason for the second stack is to reverse the order, add the item behind the others, then reverse it back.\n> \n> Use the modules the question gives you. You do not need to write array code for the stacks, and you should not change `TopPointerA` or `TopPointerB` yourself. `PopA()` and `PushB()` already update them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7Bc7F2GC7zr2bDDf",
+   "set_slug": "exam-questions",
+   "order": 32,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_4MZy4CT3CRCJKKmZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vct4zxppSDRnwt9H"
+     ],
+     "part_tier": null,
+     "problem_md": "A print server stores print jobs in a queue Abstract Data Type (ADT). The queue is implemented using two stacks, `StackA` and `StackB`.\n\n- `StackA` holds the queue. The item at the front of the queue is at the top of `StackA`.\n- `StackB` is empty except while a new item is being added.\n\nTo add a new item to the queue, these three steps are carried out in order:\n\n1. Every item is popped from `StackA` and pushed onto `StackB`, until `StackA` is empty.\n2. The new item is pushed onto `StackB`.\n3. Every item is popped from `StackB` and pushed onto `StackA`, until `StackB` is empty.\n\nThe queue currently holds the print jobs 104, 105 and 106. Job 104 is at the front of the queue and job 106 is at the rear.\n\nJob 107 is now added to the queue.\n\nComplete the table to show the contents of each stack after each step. Write the items in each stack in order from the **bottom** of the stack to the **top**. Write \"empty\" for an empty stack.\n\n| Stage | StackA (bottom to top) | StackB (bottom to top) |\n|---|---|---|\n| Before job 107 is added | 106, 105, 104 | empty |\n| After step 1 |   |   |\n| After step 2 |   |   |\n| After step 3 |   |   |",
+     "solution_md": "| Stage | StackA (bottom to top) | StackB (bottom to top) |\n|---|---|---|\n| Before job 107 is added | 106, 105, 104 | empty |\n| After step 1 | **empty** | **104, 105, 106** |\n| After step 2 | **empty** | **104, 105, 106, 107** |\n| After step 3 | **107, 106, 105, 104** | **empty** |\n\n- After step 1, job 104 was popped first, so it is at the bottom of `StackB`. The order has been reversed **[1]**\n- After step 2, job 107 is on top of `StackB` **[1]**\n- After step 3, the order is reversed again, so job 107 is at the bottom of `StackA` and job 104 is still at the top, ready to be removed first **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the \"After step 1\" row: `StackA` empty and `StackB` 104, 105, 106\n> \n> **1 mark** for the \"After step 2\" row: `StackA` empty and `StackB` 104, 105, 106, 107\n> \n> **1 mark** for the \"After step 3\" row: `StackA` 107, 106, 105, 104 and `StackB` empty\n> \n> Each row must be fully correct in both columns to earn its mark\n> \n> Follow through: award the step 2 mark if 107 is correctly added to the top of an incorrect `StackB` from step 1\n> \n> Do not accept an item order written from top to bottom, for example 106, 105, 104 for `StackB` after step 1\n\n> **[exam-tip]**\n> The most common error is to copy the order across without reversing it. When you pop from one stack and push onto another, the first item popped (the top) becomes the first item pushed (the bottom). So every transfer reverses the order.\n> \n> That double reversal is the whole reason two stacks are needed. The first transfer puts the rear of the queue on top, so the new item can be placed behind it. The second transfer puts the front of the queue back on top of `StackA`, so the next item removed is still job 104."
+    }
+   ]
+  },
+  {
+   "id": "qstn_dNHHMvGhyRJsdhsP",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_N2kzjfhktjSKgVHj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vct4zxppSDRnwt9H"
+     ],
+     "part_tier": null,
+     "problem_md": "A food delivery company holds customer orders in a queue Abstract Data Type (ADT) until the kitchen is ready for them. The number of orders waiting changes a lot during the day. Late at night the queue is often empty, but at lunchtime several hundred orders can be waiting.\n\nThe queue can be implemented using a 1D array or using a linked list.\n\nJustify the use of a linked list instead of a 1D array to implement this queue.",
+     "solution_md": "A linked list is a dynamic data structure, so nodes can be added and removed as necessary and the queue can grow at lunchtime and shrink late at night **[1]**\n\nA 1D array is a static data structure with a fixed size, so when the array is full no more orders can be added to the queue **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a point about the linked list, from:\n> \n> - a linked list is a dynamic data structure // is not restricted in size\n> - nodes can be added or removed as necessary, so the queue can expand or contract as the number of orders changes\n> - items are added and removed by changing pointers, instead of moving the data\n> \n> **1 mark** for a point about the array, from:\n> \n> - an array is a static data structure // is fixed in size\n> - when the array is full, the queue cannot be extended any further // no more orders can be added\n> \n> Accept for the array mark: the array must be declared for the busiest time, so most of its elements are unused when the queue is short\n> \n> Do not accept \"a linked list uses less memory\". Each node also stores a pointer, so a linked list holding the same orders needs more memory, not less\n> \n> Do not award both marks for two points about the linked list only. One mark must come from the array\n\n> **[exam-tip]**\n> \"Justify the use of X instead of Y\" is a two-sided question. Many students write two good points about the linked list and nothing about the array, and they score only 1 mark. Make one point about why the linked list suits the queue and one point about what goes wrong with the array.\n> \n> Use the scenario. The question tells you the queue is sometimes empty and sometimes holds hundreds of orders. That is the clue: the size of the queue is not known in advance, and a dynamic structure copes with that while a static one does not."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4tPTG92HpHNjz3HZ",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_W4wmvg6K7V9q8WMy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hRhHmbZxSpFB7chR"
+     ],
+     "part_tier": null,
+     "problem_md": "A program stores integers in an ordered binary tree. The tree is implemented as a 1D array of records. No two items in the tree have the same value.\n\n- `BinTree`, `RootPtr` and `FreePtr` are global.\n- -1 is used to represent a null pointer. `RootPtr` is -1 when the tree is empty.\n- `FreePtr` points to the first unused record. Unused records are linked together through their `LeftPtr` field. `FreePtr` is -1 when there are no unused records.\n- An item that is smaller than the data in a node is stored in that node's left subtree. An item that is larger is stored in its right subtree.\n\nWrite pseudocode for the procedure `AddNode(NewItem : INTEGER)`.\n\nThe procedure must:\n\n- output \"Tree full\" and add nothing if there are no unused records\n- otherwise store `NewItem` in a record taken from the free list, and join that record to the tree as a leaf node in the correct position.",
+     "solution_md": "The model answer earns the marks as follows.\n\nChecks `FreePtr` for -1 and outputs \"Tree full\" without adding the item **[1]**\n\nTakes the record at `FreePtr` and moves `FreePtr` to that record's `LeftPtr`, before the record is overwritten **[1]**\n\nStores `NewItem` in `Data` and sets both pointers of the new record to -1 **[1]**\n\nIf the tree is empty, sets `RootPtr` to the new record **[1]**\n\nStarts at `RootPtr` and moves left or right at each node, remembering the previous node, until a null pointer is reached **[1]**\n\nSets the left or the right pointer of the previous node, as appropriate, to the new record **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for checking whether `FreePtr` is -1 and, if so, outputting \"Tree full\" and not adding the item\n> \n> **1 mark** for storing the index held in `FreePtr` and then updating `FreePtr` to `BinTree[FreePtr].LeftPtr`\n> \n> **1 mark** for storing `NewItem` in the `Data` field and setting the new record's `LeftPtr` and `RightPtr` to -1\n> \n> **1 mark** for setting `RootPtr` to the new record's index when `RootPtr` is -1\n> \n> **1 mark** for a loop that starts at `RootPtr`, follows `LeftPtr` when the new item is smaller and `RightPtr` when it is larger, stops at a null pointer, and keeps the index of the previous node\n> \n> **1 mark** for setting the correct pointer (`LeftPtr` or `RightPtr`) of the previous node to the new record's index\n> \n> Accept a pre-condition loop (`WHILE`) in place of `REPEAT ... UNTIL`\n> \n> Accept any identifiers for the local variables\n> \n> Accept deciding left or right after the loop by comparing `NewItem` with the data in the previous node, instead of using a `BOOLEAN`\n> \n> Accept an equivalent recursive solution that meets the same marking points\n> \n> Do not award the second mark if the new record's `LeftPtr` is set to -1 before `FreePtr` is updated from it: the rest of the free list is lost\n\n> **[exam-tip]**\n> The order of the first few statements matters. The new record's `LeftPtr` is also the link to the next free record. Read it into `FreePtr` first, and only then set it to -1. If you do it the other way round, `FreePtr` becomes -1 and every other unused record is lost.\n> \n> When the loop ends, the current pointer is -1, so it cannot tell you where to attach the new node. Keep a second pointer to the node you have just left. That node is the parent, and it is the one whose pointer you change. Also remember the empty tree: with no root there is no parent, so `RootPtr` itself must be set."
+    }
+   ]
+  },
+  {
+   "id": "qstn_XpvmXVq4y3pg3CSk",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_t492BGTjmTc8CcyM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hRhHmbZxSpFB7chR"
+     ],
+     "part_tier": null,
+     "problem_md": "An ordered binary tree stores integers. It is implemented as a 1D array of records, `BinTree`, with indexes 0 to 7. Each record contains a left pointer, the data and a right pointer.\n\n- `RootPtr` points to the root node.\n- `FreePtr` points to the first unused record. Unused records are linked together through their `LeftPtr` field.\n- -1 is used to represent a null pointer.\n\nA new item is always stored in the record pointed to by `FreePtr`. It is then joined to the tree as a new leaf node.\n\nThe table shows the contents of the array before any more items are added.\n\n| Index | LeftPtr | Data | RightPtr |\n|---|---|---|---|\n| 0 | 1 | 48 | 2 |\n| 1 | 5 | 25 | 3 |\n| 2 | 4 | 71 | -1 |\n| 3 | -1 | 36 | -1 |\n| 4 | -1 | 59 | -1 |\n| 5 | -1 | 12 | -1 |\n| 6 | 7 |   | -1 |\n| 7 | -1 |   | -1 |\n\nRootPtr = 0 and FreePtr = 6\n\nThe integer 30 is added to the tree, and then the integer 64 is added.\n\nComplete the table and the values of `RootPtr` and `FreePtr` to show the contents after both items have been added.\n\n| Index | LeftPtr | Data | RightPtr |\n|---|---|---|---|\n| 0 |   | 48 |   |\n| 1 |   | 25 |   |\n| 2 |   | 71 |   |\n| 3 |   | 36 |   |\n| 4 |   | 59 |   |\n| 5 |   | 12 |   |\n| 6 |   |   |   |\n| 7 |   |   |   |\n\nRootPtr = ..........\n\nFreePtr = ..........",
+     "solution_md": "30 goes left of 48, right of 25, then left of 36, so it becomes the left child of 36.\n\n64 goes right of 48, left of 71, then right of 59, so it becomes the right child of 59.\n\n| Index | LeftPtr | Data | RightPtr |\n|---|---|---|---|\n| 0 | 1 | 48 | 2 |\n| 1 | 5 | 25 | 3 |\n| 2 | 4 | 71 | -1 |\n| 3 | **6** | 36 | -1 |\n| 4 | -1 | 59 | **7** |\n| 5 | -1 | 12 | -1 |\n| 6 | **-1** | **30** | -1 |\n| 7 | -1 | **64** | -1 |\n\nRow 6 holds 30 with both pointers -1 **[1]**\n\nRow 3 LeftPtr set to 6 **[1]**\n\nRow 7 holds 64 with both pointers -1, and row 4 RightPtr set to 7 **[1]**\n\nRootPtr = **0**\n\nFreePtr = **-1** **[1]**\n\nThe cells in bold are the ones that change.\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for row 6 correct: LeftPtr -1, Data 30, RightPtr -1\n> \n> **1 mark** for row 3 LeftPtr changed to 6\n> \n> **1 mark** for row 7 correct (LeftPtr -1, Data 64, RightPtr -1) **and** row 4 RightPtr changed to 7\n> \n> **1 mark** for FreePtr = -1 **and** RootPtr = 0 **and** rows 0, 1, 2 and 5 unchanged\n> \n> Do not accept row 6 with LeftPtr 7: that is the old free list link and must be replaced by a null pointer when the record joins the tree\n> \n> Do not accept 8 for FreePtr: there is no record 8, and the free list ends at -1\n\n> **[exam-tip]**\n> Adding a node changes two records, not one. You fill in the new record, and you also change one pointer in its parent. Students often write 30 into row 6 and forget to point row 3 at it, so 30 can never be found.\n> \n> Before you use a free record, read its `LeftPtr`. That value becomes the new `FreePtr`. Then overwrite the new record's `LeftPtr` with -1, because a new node is always a leaf."
+    }
+   ]
+  },
+  {
+   "id": "qstn_j8J5TTDxF2Qz3Grd",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_wdNsNf3zGB2Y2PtF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hRhHmbZxSpFB7chR"
+     ],
+     "part_tier": null,
+     "problem_md": "An ordered binary tree stores the names of cities in alphabetical order.\n\nThe tree is implemented as a 1D array of records, `BinTree`. Each record contains a left pointer, the data and a right pointer.\n\n- `RootPtr` points to the root node.\n- `FreePtr` points to the first unused record. Unused records are linked together through their `LeftPtr` field.\n- -1 is used to represent a null pointer.\n\nThe table shows the contents of the array.\n\n| Index | LeftPtr | Data | RightPtr |\n|---|---|---|---|\n| 0 | 1 | Lima | 2 |\n| 1 | 3 | Cairo | 4 |\n| 2 | 5 | Quito | -1 |\n| 3 | -1 | Accra | -1 |\n| 4 | -1 | Delhi | -1 |\n| 5 | -1 | Oslo | -1 |\n| 6 | 7 |   | -1 |\n| 7 | -1 |   | -1 |\n\nRootPtr = 0 and FreePtr = 6\n\nThe tree is searched for the city Nairobi. The search starts at the node pointed to by `RootPtr`. At each node it follows the left pointer if the item searched for comes before the data in that node, and the right pointer if it comes after. The search returns the index of the node if the item is found, or a null pointer if it is not found.\n\nIdentify the index of each node visited, in the order they are visited, and state the value returned by the search.",
+     "solution_md": "Nodes visited: **0, 2, 5** (Lima, Quito, Oslo) **[1]**\n\nValue returned: **-1** (a null pointer, because Nairobi is not in the tree) **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the indexes 0, 2, 5 in that order and no others\n> \n> **1 mark** for -1 / null pointer as the value returned\n> \n> Accept the data values Lima, Quito, Oslo in that order for the first mark\n> \n> Do not accept any list that includes 1, 3 or 4, or that visits the nodes in row order: the search must follow the pointers\n> \n> Do not accept 5 as the value returned: Oslo is the last node visited, not a match\n> \n> Do not accept 6 as the value returned: that is the value of `FreePtr`, not the result of the search\n\n> **[exam-tip]**\n> The rows of the array are in the order the items were added, not the order of the tree. Do not read down the Data column. Start at the index held in `RootPtr` and use the pointers to jump from row to row.\n> \n> At Oslo, Nairobi comes before Oslo, so the search takes the left pointer. That pointer is -1, which means the item is not in the tree. The search stops there and returns the null pointer. It does not return the last index it visited."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VWfFjmVgtzbGXzVZ",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_vQ8WmBKXpKxH5F8J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMSzdkRTKsHsZcZ6"
+     ],
+     "part_tier": null,
+     "problem_md": "A race organiser stores the results of 40 runners in two global 1D arrays:\n\n- `RunnerID` is declared as `ARRAY[1:40] OF STRING` and holds the ID of each runner\n- `FinishTime` is declared as `ARRAY[1:40] OF INTEGER` and holds the finishing time of each runner, in seconds.\n\nThe runner whose ID is in `RunnerID[N]` has the finishing time in `FinishTime[N]`.\n\nWrite pseudocode for a procedure `SortResults()` that uses an insertion sort to put `FinishTime` into ascending order. The IDs in `RunnerID` must be put into the same order, so that each ID stays with its finishing time.",
+     "solution_md": "**[6 marks]**\n\n> **[mark-scheme]**\n> **Max six from:**\n> \n> - **MP1** Use of a `FOR` loop from 2 to 40 to take each value in turn\n> - **MP2** Temporary storage of the finishing time being inserted\n> - **MP3** Temporary storage of the matching runner ID\n> - **MP4** Use of a `WHILE` loop with a correct exit condition: stops at the start of the array or when a time no greater than the stored time is found\n> - **MP5** Moving both the time and the ID up one place inside the loop\n> - **MP6** Correct updating of the position variable inside the loop\n> - **MP7** Final insertion of both the stored time and the stored ID at the correct position\n> \n> **[6 marks]**\n> \n> Accept a `FOR` loop from 1 to 39 that inserts the value at position `Index + 1`, with the matching changes to the other statements.\n> \n> Accept the `WHILE` condition written with `>=` in place of `>`. The array is still put into ascending order, although runners with equal times change places.\n> \n> Do not award MP5 or MP7 if `RunnerID` is not moved in step with `FinishTime`. Each ID would then no longer match its finishing time.\n> \n> Do not award MP1 or MP4 for an algorithm that makes repeated passes through the whole array, swapping adjacent pairs. That is a bubble sort, not an insertion sort.\n\n> **[exam-tip]**\n> The mark that students lose most often is the one for the second array. Every time a finishing time is stored, moved or inserted, the matching ID must be stored, moved or inserted in the same way. If you forget one of these lines, runners end up with the wrong times.\n> \n> A second common error is to write over the value being inserted before it has been saved. Store both `FinishTime[Index]` and `RunnerID[Index]` in temporary variables before the `WHILE` loop starts, because the first move copies a value into that position."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y9xJpF2wBB78Zvss",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_7ngm5v7RBKGNnJxR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMSzdkRTKsHsZcZ6"
+     ],
+     "part_tier": null,
+     "problem_md": "An insertion sort is used to put the six values in the 1D array `Numbers` into ascending order. `Numbers` is declared as `ARRAY[1:6] OF INTEGER`.\n\nComplete the table to show the contents of `Numbers` at the end of the iterations of the `FOR` loop when `Index` is 2, 3 and 4.\n\n|   | Numbers[1] | Numbers[2] | Numbers[3] | Numbers[4] | Numbers[5] | Numbers[6] |\n|---|---|---|---|---|---|---|\n| Before the sort | 16 | 4 | 11 | 2 | 19 | 7 |\n| Index = 2 |   |   |   |   |   |   |\n| Index = 3 |   |   |   |   |   |   |\n| Index = 4 |   |   |   |   |   |   |",
+     "solution_md": "|   | Numbers[1] | Numbers[2] | Numbers[3] | Numbers[4] | Numbers[5] | Numbers[6] |\n|---|---|---|---|---|---|---|\n| Before the sort | 16 | 4 | 11 | 2 | 19 | 7 |\n| Index = 2 | **4** | **16** | **11** | **2** | **19** | **7** |\n| Index = 3 | **4** | **11** | **16** | **2** | **19** | **7** |\n| Index = 4 | **2** | **4** | **11** | **16** | **19** | **7** |\n\nIndex = 2 **[1]**\n\nIndex = 3 **[1]**\n\nIndex = 4 **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the row for Index = 2: 4, 16, 11, 2, 19, 7\n> \n> **1 mark** for the row for Index = 3: 4, 11, 16, 2, 19, 7\n> \n> **1 mark** for the row for Index = 4: 2, 4, 11, 16, 19, 7\n> \n> Each row must be fully correct to gain the mark.\n> \n> Follow through: if one row is wrong, you can still earn the mark for a later row that is correct for one iteration of the algorithm applied to your previous row.\n> \n> Do not accept a row in which 19 or 7 has moved. The `FOR` loop has not reached `Numbers[5]` or `Numbers[6]` by the end of the iteration when `Index` is 4.\n\n> **[exam-tip]**\n> It is tempting to swap two neighbouring values and move on, as you would in a bubble sort. In an insertion sort the value in `Item` keeps moving left until it meets a smaller value or reaches `Numbers[1]`. When `Index` is 4, the 2 moves past 16, 11 and 4 in one iteration and goes straight to the front.\n> \n> Remember that the values to the right of `Index` are untouched. Copy them across unchanged, and only change the part of the array from `Numbers[1]` to `Numbers[Index]`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_QnKHxDxQYjMsvWPF",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Z95kn4XZwQthVSNh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK"
+     ],
+     "part_tier": null,
+     "problem_md": "A school stores the names of 200 students in a global 1D array `Names`.\n\nThe names are stored in ascending alphabetical order. Each name appears only once.\n\nA function `BinarySearch()` is needed. It:\n\n- takes a string parameter `Target`\n- performs a binary search on `Names`\n- returns the index of the element that matches `Target`\n- returns -1 if `Target` is not in the array.\n\nWrite pseudocode for the function `BinarySearch()`.",
+     "solution_md": "Function header with parameter and return type **[1]**\n\nLower and upper bounds initialised to 1 and 200 **[1]**\n\nLoop that stops when found or when the lower bound passes the upper bound **[1]**\n\nMiddle index calculated with DIV **[1]**\n\nLower bound moved to Mid + 1 or upper bound moved to Mid - 1 after the comparison **[1]**\n\nMid returned if found and -1 returned if not **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **Any six from:**\n> \n> - function header with the parameter `Target : STRING` and `RETURNS INTEGER`, ending with `ENDFUNCTION`\n> - initialising the lower bound to 1 **and** the upper bound to 200\n> - a conditional loop that stops when the name is found **or** when the lower bound is greater than the upper bound\n> - calculating the middle index using `DIV 2` inside the loop\n> - comparing `Names[Mid]` with `Target` and setting a flag or returning when they are equal\n> - if `Names[Mid]` is less than `Target`, setting the lower bound to `Mid + 1`\n> - if `Names[Mid]` is greater than `Target`, setting the upper bound to `Mid - 1`\n> - returning `Mid` if found **and** -1 if not found\n> \n> **[6 marks]**\n> \n> Accept `RETURN Mid` inside the loop when the names match, followed by `RETURN -1` after the loop\n> \n> Accept a middle index calculated as `Lower + (Upper - Lower) DIV 2`, or with + 1 added before the `DIV`, provided it is used consistently\n> \n> Accept a `REPEAT ... UNTIL` loop with an equivalent condition\n> \n> Do not award the middle index mark for `(Lower + Upper) / 2`. The `/` operator gives a REAL value, which cannot be used as an array index\n> \n> Do not award the bound marks for `Lower ← Mid` or `Upper ← Mid`. This can cause an infinite loop when the name is not in the array\n\n> **[exam-tip]**\n> The most common error is the loop condition. A loop that only tests `Found = FALSE` never ends when the name is not in the array. The search must also stop when `Lower` becomes greater than `Upper`, because there are then no elements left to check.\n> \n> Use `DIV` for the middle index. An array index must be an integer, and in the Cambridge pseudocode `/` always gives a REAL result. Strings can be compared using the less than and greater than operators in the same way as numbers, which is what makes a binary search on names possible."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mYzvzF7NspF8z3MT",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6zz4jR8h9QzQCdGp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMSzdkRTKsHsZcZ6"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how an insertion sort puts the values in a 1D array into ascending order.",
+     "solution_md": "The first value is treated as a sorted list of one item, and the sort starts with the second value. **[1]**\n\nEach value in turn is compared with the values to its left. Every larger value is moved up one place, and the value is inserted into the gap that is left. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - The first value is treated as sorted // the sort starts at the second value\n> - The next value is taken and stored in a temporary variable\n> - It is compared with each value to its left / in the sorted part, in turn\n> - Each value that is larger is moved up / to the right one place\n> - The value is inserted into the gap // when a smaller or equal value, or the start of the array, is reached\n> - This is repeated for every value until the end of the array is reached\n> \n> **[2 marks]**\n> \n> Do not accept a description of comparing adjacent pairs and swapping them over a series of passes. That describes a bubble sort.\n\n> **[exam-tip]**\n> The most common way to lose both marks is to describe a bubble sort. An insertion sort does not make passes through the whole array. It takes one value at a time and inserts it into the correct place in the part of the array that is already sorted.\n> \n> Use the word \"inserted\" or \"inserts\" in your answer. It shows the examiner that you know what makes this sort different."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CQJTwWQdVdNrTvQM",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hQJ2KYXD2z8Bh87h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMSzdkRTKsHsZcZ6",
+      "spcpt_GKFVVHVJpwRgY6XY"
+     ],
+     "part_tier": null,
+     "problem_md": "The 1D array `Values` is declared as `ARRAY[1:6] OF INTEGER`. Before sorting, it holds:\n\n3, 5, 6, 8, 9, 2\n\nThe array is to be sorted into ascending order. Two algorithms are being compared.\n\n**Algorithm A: bubble sort**\n\n**Algorithm B: insertion sort**\n\nA comparison is one check of whether a value in `Values` is greater than another value in `Values`. In Algorithm B, when `Pos > 1` is `FALSE`, assume that the rest of the `WHILE` condition is not checked.\n\nComplete the table to show the number of comparisons each algorithm makes to sort this data. Then explain why Algorithm B makes fewer comparisons than Algorithm A for this data.\n\n| Algorithm | Number of comparisons |\n|---|---|\n| A: bubble sort |   |\n| B: insertion sort |   |",
+     "solution_md": "| Algorithm | Number of comparisons |\n|---|---|\n| A: bubble sort | **15** |\n| B: insertion sort | **9** |\n\nAlgorithm A: 5 + 4 + 3 + 2 + 1 = 15 **[1]**\n\nAlgorithm B: 1 + 1 + 1 + 1 + 5 = 9 **[1]**\n\nThe values 3, 5, 6, 8 and 9 are already in order. In the insertion sort, each of 5, 6, 8 and 9 needs only one comparison, because the loop stops as soon as the value to its left is smaller. **[1]**\n\nThe bubble sort can move the 2 only one place towards the front in each pass, so it needs five passes, and each pass compares again pairs that are already in order. The insertion sort moves the 2 to the front in a single iteration. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for 15 comparisons for Algorithm A\n> \n> **1 mark** for 9 comparisons for Algorithm B\n> \n> **1 mark** each for any two of these points, to a maximum of 2: in the insertion sort, a value already in the correct place needs only one comparison, because the `WHILE` loop stops as soon as a smaller value is found to its left; the insertion sort moves the 2 to its final position in one iteration of the `FOR` loop; the bubble sort moves the 2 only one place per pass, so five passes are needed; the bubble sort compares again pairs that are already in order in every pass\n> \n> Do not accept 25 or 30 for Algorithm A. Those totals assume five comparisons in every pass, but `Boundary` is reduced by 1 after every pass, so each pass makes one comparison fewer than the pass before. The algorithm does start a sixth pass, but `Boundary` is then 0, so the `FOR` loop does not run and no comparison is made.\n> \n> Do not accept 10 for Algorithm B. When `Pos` reaches 1 the 2 is at the front of the array, and there is no value to its left to compare it with.\n\n> **[exam-tip]**\n> Students often expect the bubble sort to be quick here because the data is almost in order. It is not. A small value near the end of the array moves only one place per pass in a bubble sort, so a single value in the wrong place can force the maximum number of passes.\n> \n> When you explain a difference in performance, refer to the actual data in the question. \"Insertion sort is more efficient\" earns nothing on its own. Say what each algorithm does with this data: how far the 2 moves in each pass or iteration, and which comparisons are repeated."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KxKv49dwxrW7SZX4",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Py4txPDPj5H9sgHW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK",
+      "spcpt_Dmcr2fSnqYKTJzgH"
+     ],
+     "part_tier": null,
+     "problem_md": "A library system stores 1000 book titles in a 1D array, sorted into alphabetical order. The number of titles is going to increase to 2000.\n\nWhen the array holds 1000 titles, a binary search makes at most 10 comparisons to find a title or to decide that it is not in the array.\n\nExplain how increasing the number of titles to 2000 affects the maximum number of comparisons made by:\n\n- a binary search\n- a linear search.",
+     "solution_md": "Binary search: the maximum number of comparisons increases by only one, from 10 to 11 **[1]**\n\nThis is because each comparison halves the part of the array still being searched, so doubling the number of items needs just one more comparison / the number of comparisons increases logarithmically **[1]**\n\nLinear search: the maximum number of comparisons doubles, from 1000 to 2000, because every item may need to be checked / it increases linearly with the number of items **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for binary search: the maximum increases by one // increases from 10 to 11\n> \n> **1 mark** for the reason: each comparison halves the search area // the time to search increases logarithmically as the number of items increases\n> \n> **1 mark** for linear search: the maximum doubles // increases from 1000 to 2000 // increases linearly with the number of items\n> \n> Accept O(log n) for binary search and O(n) for linear search only when the effect of doubling is also described\n> \n> Do not accept \"the binary search takes twice as long\". Doubling the number of items adds only one comparison\n> \n> Do not accept \"the binary search stays the same\". It needs one more comparison\n\n> **[exam-tip]**\n> Use the numbers in the question. Many answers only say \"binary search is faster\". This gains no marks here, because the question asks how the maximum number of comparisons changes when the array grows.\n> \n> You can check the binary search figure without a calculator. 2 to the power 10 is 1024, which is more than 1000, so 10 comparisons are enough for 1000 items. 2 to the power 11 is 2048, which is more than 2000, so 11 comparisons are enough for 2000 items."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rpv93Zssy24VY8hs",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_cc9Hjd6XXvMrBqY9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK"
+     ],
+     "part_tier": null,
+     "problem_md": "The 1D array `Scores` holds 15 integers in ascending order.\n\n| Index | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Value | 3 | 8 | 11 | 15 | 19 | 24 | 30 | 36 | 41 | 47 | 52 | 58 | 63 | 70 | 77 |\n\nA binary search is used to find the value 52. The search starts with `Lower ← 1`, `Upper ← 15` and `Found ← FALSE`. On each pass it carries out these steps.\n\nThe search stops when `Found` is TRUE.\n\nState, in order, each value in `Scores` that is compared with 52.",
+     "solution_md": "**Final answer:** **36, 58, 47, 52**\n\n36 (index 8), then 58 (index 12) **[1]**\n\nthen 47 (index 10), then 52 (index 11) **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for 36 then 58 as the first two values, in this order\n> \n> **1 mark** for 47 then 52 as the third and fourth values, in this order, with no other values\n> \n> Accept the index values 8, 12, 10, 11 in place of the array values\n> \n> Do not accept 30 as the first value. (1 + 15) DIV 2 is 8, and `Scores[8]` is 36\n\n> **[exam-tip]**\n> Work with the indexes, not the values. Write down `Lower`, `Upper` and `Mid` for each pass: (1, 15, 8), then (9, 15, 12), then (9, 11, 10), then (11, 11, 11). Students who try to find the middle value by eye often pick the wrong element.\n> \n> Remember the + 1 and - 1. After 36 is checked, the new lower bound is index 9, not index 8, because element 8 has already been compared. Leaving out the + 1 or - 1 gives a different sequence of values."
+    }
+   ]
+  },
+  {
+   "id": "qstn_M6ysfSy2hPPZj44W",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_zF5NFH9wKgN2MHjZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Dmcr2fSnqYKTJzgH"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station stores 500 temperature readings in a global 1D array `Readings`.\n\nThe readings are **not** in any order. The same value may appear more than once.\n\nA function `LinearSearch()` is needed. It:\n\n- takes an integer parameter `SearchValue`\n- performs a linear search on `Readings`\n- stops searching as soon as `SearchValue` is found\n- returns the index of the first element that matches `SearchValue`\n- returns -1 if `SearchValue` is not in the array.\n\nWrite pseudocode for the function `LinearSearch()`.",
+     "solution_md": "Function header with parameter and return type **[1]**\n\nIndex initialised to 1 **[1]**\n\nLoop that stops when found or after element 500 **[1]**\n\nComparison of `Readings[Index]` with `SearchValue` **[1]**\n\nIndex increased by 1 inside the loop **[1]**\n\nIndex returned if found and -1 returned if not **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a function header with the parameter `SearchValue : INTEGER` and `RETURNS INTEGER`, ending with `ENDFUNCTION`\n> \n> **1 mark** for initialising the index to 1 (the lower bound of the array)\n> \n> **1 mark** for a conditional loop that stops when the value is found **or** after element 500 has been checked\n> \n> **1 mark** for comparing `Readings[Index]` with `SearchValue` inside the loop\n> \n> **1 mark** for increasing the index by 1 inside the loop\n> \n> **1 mark** for returning the index of the match if found **and** -1 if not found\n> \n> Accept a `REPEAT ... UNTIL` loop with an equivalent condition\n> \n> Accept a `FOR` loop from 1 to 500 that contains `RETURN Index` inside the `IF`, followed by `RETURN -1` after the loop. `RETURN` ends the function immediately, so the search stops at the first match\n> \n> Accept a separate result variable, set to -1 at the start and to the index when the match is found, that is returned at the end\n> \n> Do not award the loop mark for a `FOR` loop that does not stop at the first match, because it can return the index of a later match\n> \n> Do not award the return mark if the index returned is one more than the position of the match, for example when the index is increased after `Found` is set to TRUE and then returned without subtracting 1\n\n> **[exam-tip]**\n> Check that the loop stops when `Index` passes 500. If the loop runs once more, `Readings[501]` is accessed. This is outside the array bounds and causes a run-time error.\n> \n> Many students increase `Index` on every pass, even on the pass where the match is found. The function then returns a position one too high. Either increase the index only when there is no match, as in the model answer, or return `Index - 1`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fK4vXFJpfN2KGkfY",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_DQKQqRPCt6QNr657",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GKFVVHVJpwRgY6XY"
+     ],
+     "part_tier": null,
+     "problem_md": "A bubble sort is used to put the six values in the 1D array `Points` into descending order. `Points` is declared as `ARRAY[1:6] OF INTEGER`.\n\nComplete the table to show the contents of `Points` at the end of each of the first three passes.\n\n|   | Points[1] | Points[2] | Points[3] | Points[4] | Points[5] | Points[6] |\n|---|---|---|---|---|---|---|\n| Before the sort | 14 | 31 | 8 | 27 | 19 | 42 |\n| After pass 1 |   |   |   |   |   |   |\n| After pass 2 |   |   |   |   |   |   |\n| After pass 3 |   |   |   |   |   |   |",
+     "solution_md": "|   | Points[1] | Points[2] | Points[3] | Points[4] | Points[5] | Points[6] |\n|---|---|---|---|---|---|---|\n| Before the sort | 14 | 31 | 8 | 27 | 19 | 42 |\n| After pass 1 | **31** | **14** | **27** | **19** | **42** | **8** |\n| After pass 2 | **31** | **27** | **19** | **42** | **14** | **8** |\n| After pass 3 | **31** | **27** | **42** | **19** | **14** | **8** |\n\nAfter pass 1 **[1]**\n\nAfter pass 2 **[1]**\n\nAfter pass 3 **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the row after pass 1: 31, 14, 27, 19, 42, 8\n> \n> **1 mark** for the row after pass 2: 31, 27, 19, 42, 14, 8\n> \n> **1 mark** for the row after pass 3: 31, 27, 42, 19, 14, 8\n> \n> Each row must be fully correct to gain the mark.\n> \n> Follow through: if one row is wrong, you can still earn the mark for a later row that is correct for one pass of the algorithm applied to your previous row.\n\n> **[exam-tip]**\n> The condition is `Points[J] < Points[J + 1]`, so two values are swapped when the first is smaller. This sort puts the smallest value at the end after pass 1, not the largest. If you have learned the ascending version by heart, you may move 42 to the end, which loses every mark.\n> \n> A common error is to compare each value with the original array instead of with the array as it is at that moment. A value that has just been swapped into `Points[J + 1]` is the one compared next. In pass 1, once 31 and 14 have been swapped, the 8 moves right one place at a time past 27, 19 and 42, and ends the pass in `Points[6]`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZWKk6ywh25fhQSJh",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_jdj89nQGsT6WX8ss",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qK9fpwfrvpwWk2r8"
+     ],
+     "part_tier": null,
+     "problem_md": "A queue Abstract Data Type (ADT) stores the names of up to six customers. It is implemented using a 1D array and the global variables declared in this pseudocode.\n\nThe queue is organised as follows:\n\n- `FrontPointer` points to the first item in the queue.\n- `RearPointer` points to the last item in the queue.\n- `Length` stores the number of items currently in the queue.\n- When a pointer moves past index 6 it is set back to index 1, so array locations can be reused.\n- Items that have been removed from the queue are not cleared from the array.\n\nThe current state of the queue is:\n\n| Index | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| Queue | \"Chen\" | \"Diaz\" | \"Okoro\" | \"Patel\" | \"Ahmed\" | \"Bello\" |\n\n`FrontPointer` = 5, `RearPointer` = 2 and `Length` = 4.\n\nA function `Position()` takes a customer name as a parameter. It returns the position of that name in the queue, where the first item in the queue is position 1. If the name is not in the queue, the function returns -1. The function must not change the contents of the queue or the values of the three global variables.\n\nFor example, with the queue shown:\n\n- `Position(\"Chen\")` returns 3\n- `Position(\"Okoro\")` returns -1, because `\"Okoro\"` has already been removed from the queue.\n\nWrite the pseudocode for the function `Position()`.",
+     "solution_md": "**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a function header with one `STRING` parameter and `RETURNS INTEGER`, closed with `ENDFUNCTION`\n> \n> **1 mark** for starting the search at the index held in `FrontPointer`\n> \n> **1 mark** for a loop that checks exactly `Length` items\n> \n> **1 mark** for comparing the array element at the current index with the parameter and returning the position counter when they match\n> \n> **1 mark** for moving the index on by 1 and setting it back to 1 when it goes past `MaxSize`\n> \n> **1 mark** for returning -1 after all the items in the queue have been checked without a match\n> \n> Accept a conditional loop, such as a `WHILE` loop that runs while the counter is less than or equal to `Length` and the name has not been found, with the counter increased inside the loop.\n> \n> Accept `Index ← (Index MOD MaxSize) + 1` for the fifth mark.\n> \n> Accept a `BOOLEAN` flag or a result variable set inside the loop and returned once after the loop, in place of `RETURN` inside the loop.\n> \n> Accept the value 6 in place of `MaxSize`.\n> \n> Do not accept a loop `FOR Index ← FrontPointer TO RearPointer`. When the queue has wrapped, as here, `FrontPointer` is greater than `RearPointer`, so the loop body is never executed and every search returns -1.\n> \n> Do not accept a loop that checks all six array locations from index 1. It finds names that have already been removed, so `Position(\"Okoro\")` would not return -1, and it returns the array index rather than the position in the queue.\n> \n> Do not accept a solution that calls `Dequeue()` to reach each item. This removes the items and changes the queue, which the question does not allow.\n\n> **[exam-tip]**\n> Count the items, not the array locations. The loop must run `Length` times starting from `FrontPointer`, because that is the only part of the array that holds the queue. Students who loop from `FrontPointer` to `RearPointer` write code that works on a queue that has not wrapped and fails on this one, and the example in the question has been chosen to show that.\n> \n> Keep two separate variables: one for the array index, which wraps back to 1, and one for the position in the queue, which counts 1, 2, 3 and so on. Returning the array index instead of the position is the other common way to lose the mark for the result."
+    }
+   ]
+  },
+  {
+   "id": "qstn_p3zYZ7XX8RMBQFPy",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CYNFn75Pbj2rS6sv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Dmcr2fSnqYKTJzgH"
+     ],
+     "part_tier": null,
+     "problem_md": "A program stores six product codes in the 1D array `Codes`.\n\n| Index | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| Value | \"M4\" | \"T9\" | \"A2\" | \"K7\" | \"B5\" | \"R1\" |\n\nThis pseudocode performs a linear search for the value in `Target`.\n\nComplete the trace table for the pseudocode when `Target` is \"K7\". Record the values at the end of each pass through the loop. You may not need all the rows.\n\n| Index | Codes[Index] | Found | OUTPUT |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "| Index | Codes[Index] | Found | OUTPUT |\n|---|---|---|---|\n| **1** | **\"M4\"** | **FALSE** |   |\n| **2** | **\"T9\"** | **FALSE** |   |\n| **3** | **\"A2\"** | **FALSE** |   |\n| **4** | **\"K7\"** | **TRUE** | **Found at 4** |\n|   |   |   |   |\n|   |   |   |   |\n\nIndex column 1 to 4, stopping at 4 **[1]**\n\nCodes[Index] column \"M4\", \"T9\", \"A2\", \"K7\" **[1]**\n\nFound is FALSE for the first three passes and TRUE on the fourth **[1]**\n\nOUTPUT is Found at 4, only once, after the loop ends **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the Index column 1, 2, 3, 4 with no further values\n> \n> **1 mark** for the Codes[Index] column \"M4\", \"T9\", \"A2\", \"K7\" in order\n> \n> **1 mark** for Found FALSE, FALSE, FALSE, TRUE\n> \n> **1 mark** for the output Found at 4 as the only output\n> \n> Accept the initial `Found` value of FALSE shown in an extra first row, provided the rest of the table is correct\n> \n> Accept the Codes[Index] values with or without quotation marks\n> \n> Do not accept any values in rows 5 and 6. The loop ends as soon as `Found` is TRUE\n> \n> Do not accept an output of Found at 5. `Index` is not increased again after the match\n\n> **[exam-tip]**\n> The most common error is to keep tracing to Index 6. The `UNTIL` condition is `Found OR Index = 6`, so the loop stops as soon as either part is TRUE. Once \"K7\" is matched on the fourth pass, `Found` is TRUE and the loop ends.\n> \n> Watch where `Index` is increased. Here it happens at the start of each pass, before the comparison, so `Index` still holds 4 when the output is produced. In pseudocode that increases the index after the comparison, the position of the match is one less than the final index, which is why some algorithms output `Count - 1`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mJj4vSMzhRHvBM9N",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_rXDZWPzMchgW8xhV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GKFVVHVJpwRgY6XY"
+     ],
+     "part_tier": null,
+     "problem_md": "A program uses a bubble sort to put the values in the 1D array `Data` into ascending order. `Data` is declared as `ARRAY[1:8] OF INTEGER`.\n\nBefore the sort starts, `Data` holds these eight values:\n\n3, 7, 12, 15, 20, 26, 31, 40\n\nState:\n\n- the number of passes that the algorithm makes through `Data`\n- the number of times the condition `Data[J] > Data[J + 1]` is evaluated.",
+     "solution_md": "Number of passes: **1** **[1]**\n\nNumber of times the condition is evaluated: **7** **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for 1 pass\n> \n> **1 mark** for 7\n> \n> Do not accept 8 for the number of times the condition is evaluated. The `FOR` loop runs from 1 to `Boundary`, which is 7, because eight values form only seven adjacent pairs.\n> \n> Do not accept 7 passes. The data is already in order, so no swap is made in the first pass, `NoSwaps` stays `TRUE` and the `REPEAT` loop ends.\n\n> **[exam-tip]**\n> Many students count 7 passes because the array has 8 values. That is how many passes a bubble sort without the `NoSwaps` flag would make. Here the flag is set to `TRUE` at the start of every pass and is only changed to `FALSE` when a swap is made. With data already in order, one pass is enough to prove it.\n> \n> This is why the initial order of the data affects the performance of a sorting routine. Check the loop bounds carefully when counting comparisons: `J` stops at `Boundary`, not at 8, because the last comparison is between `Data[7]` and `Data[8]`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_27HQjwsSxSVcBWcK",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_x3kkKzZMtYM9vHTz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program stores the names of cities in alphabetical order in a linked list. The linked list is implemented using a 1D array of records, declared as follows:\n\n- `HeadPointer` stores the index of the first node in the linked list.\n- `FreePtr` stores the index of the first node in the free list. Nodes that are not in use are joined together in the free list.\n- A `NextPointer` value of `NullPtr` (0) shows that there are no further nodes in that list.\n- When there are no free nodes, `FreePtr` is `NullPtr`.\n- `List`, `HeadPointer` and `FreePtr` are global. The array and both pointers have already been initialised.\n\nA procedure `InsertItem(NewItem : STRING)` adds a city name to the linked list. The procedure must:\n\n- output a suitable message if there are no free nodes\n- otherwise, take the first node from the free list and store `NewItem` in it\n- insert the new node into the linked list so that the data items stay in alphabetical order. The new item may belong at the start, in the middle or at the end of the list, and the list may be empty.\n\nWrite pseudocode for the procedure `InsertItem()`.",
+     "solution_md": "**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for checking whether `FreePtr` is `NullPtr` and outputting a message if it is\n> \n> **1 mark** for storing `NewItem` in the `Data` field of the node that `FreePtr` points to\n> \n> **1 mark** for moving `FreePtr` to the next free node, using the new node's `NextPointer` before that pointer is changed\n> \n> **1 mark** for a loop that starts at `HeadPointer` and follows `NextPointer`, keeping a pointer to the previous node, and stops at the null pointer or at the first data item greater than `NewItem`\n> \n> **1 mark** for inserting at the start: the new node points to the old first node, and `HeadPointer` is set to the new node\n> \n> **1 mark** for inserting after the previous node: the new node points to the current node, and the previous node points to the new node\n> \n> Accept `>=` in place of `>`, so that a duplicate name is placed before the existing one.\n> \n> Accept `NullPtr` or 0 throughout.\n> \n> Accept any other loop structure that meets the fourth marking point, provided it never reads a node when the pointer is the null pointer.\n> \n> Do not accept the last mark if the previous node's pointer is changed first and then used to set the new node's pointer. The rest of the list is lost.\n\n> **[exam-tip]**\n> Order matters twice in this algorithm. Update `FreePtr` before you overwrite the new node's `NextPointer`, or the rest of the free list is lost. When you insert, set the new node's pointer first and change the previous node's pointer second.\n> \n> Test your answer on an empty list and on an item that belongs first. In both cases the loop never moves `PrevPtr` away from the null pointer, so `HeadPointer` must change. Students who handle only the middle of the list lose this mark.\n> \n> Avoid a loop condition such as `NowPtr <> NullPtr AND List[NowPtr].Data < NewItem`. When `NowPtr` reaches 0 the second test reads `List[0]`, which is outside the array bounds."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CxpmqrBhqqXtF5Hk",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6hs9WWf2sqCKFqMY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qK9fpwfrvpwWk2r8"
+     ],
+     "part_tier": null,
+     "problem_md": "A queue Abstract Data Type (ADT) is implemented using a 1D array and three global variables.\n\nThe current contents of the array are:\n\n| Index | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Queue | \"Job11\" | \"Job12\" | \"Job13\" | \"Job14\" | \"Job15\" |\n\n`FrontPointer` = 5, `RearPointer` = 5 and `Length` = 1.\n\nThese three operations are then carried out, in this order.\n\nComplete the table to show the value returned by each operation and the values of the three variables after each operation has finished.\n\n| Operation | Value returned | FrontPointer | RearPointer | Length |\n|---|---|---|---|---|\n| CALL Enqueue(\"Job16\") | no value returned |   |   |   |\n| Dequeue() |   |   |   |   |\n| Dequeue() |   |   |   |   |",
+     "solution_md": "| Operation | Value returned | FrontPointer | RearPointer | Length |\n|---|---|---|---|---|\n| CALL Enqueue(\"Job16\") | no value returned | **5** | **1** | **2** |\n| Dequeue() | **\"Job15\"** | **1** | **1** | **1** |\n| Dequeue() | **\"Job16\"** | **1** | **0** | **0** |\n\nRow 1 **[1]**\n\nRow 2 **[1]**\n\nRow 3 **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for row 1: `FrontPointer` = 5, `RearPointer` = 1, `Length` = 2\n> \n> **1 mark** for row 2: `\"Job15\"` returned, `FrontPointer` = 1, `RearPointer` = 1, `Length` = 1\n> \n> **1 mark** for row 3: `\"Job16\"` returned, `FrontPointer` = 1, `RearPointer` = 0, `Length` = 0\n> \n> Accept the returned values written without quotation marks.\n> \n> Do not accept `RearPointer` = 6 in row 1. `RearPointer` becomes 6 and is then set back to 1 before `\"Job16\"` is stored, because 6 is greater than `MaxSize`.\n> \n> Do not accept `FrontPointer` = 6 in row 2. `Length` is 1 after the item is removed, so the `ELSE` branch runs and the front pointer wraps back to 1.\n> \n> Do not accept `FrontPointer` = 2 and `RearPointer` = 1 in row 3. `Length` becomes 0, so `Initialise()` is called and resets both pointers.\n> \n> Do not accept `\"Job11\"` in row 3. The array location at index 1 was overwritten with `\"Job16\"` in row 1.\n\n> **[exam-tip]**\n> Trace the code line by line. Do not work out the answer from what you think a queue should do. The last row is where most marks are lost: students move the front pointer on to 2, which is what happens to every other removal, and miss the call to `Initialise()` that runs when the queue becomes empty.\n> \n> Removing an item does not delete it from the array. `\"Job12\"`, `\"Job13\"` and `\"Job14\"` stay in the array throughout, but they are never part of the queue in this trace. Only the pointers and `Length` decide which array locations hold the queue."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RrxfHNYX4T88RPGn",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_fQ2hdyJh3JVFVwws",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Dmcr2fSnqYKTJzgH"
+     ],
+     "part_tier": null,
+     "problem_md": "The 1D array `Stock` is declared as:\n\nIt contains these values:\n\n| Index | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| Value | 34 | 12 | 57 | 12 | 90 | 8 | 71 | 25 |\n\nThis function performs a linear search on `Stock`.\n\nState the value returned by each of these function calls.\n\n(i) `FindItem(12)`\n\n(ii) `FindItem(45)`",
+     "solution_md": "(i) `FindItem(12)` returns **2** **[1]**\n\n(ii) `FindItem(45)` returns **-1** **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for 2\n> \n> **1 mark** for -1\n> \n> Do not accept 4 for (i). The value 12 is also stored at index 4, but `RETURN` ends the function as soon as the first match is found at index 2\n> \n> Do not accept 9 or \"not found\" for (ii). The function returns the integer -1\n\n> **[exam-tip]**\n> The value 12 appears twice on purpose. A linear search checks the elements in order from index 1, so it finds the first match and stops. When `RETURN` is executed inside the loop, the function ends immediately and no more elements are checked.\n> \n> For (ii), read the last line of the function. The loop checks all 8 elements, finds no match, and then `RETURN -1` is executed. Students who write 9 have given the value of `Index` after the loop, which is not what the function returns."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cMZcvZ7qNnk3BFBR",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_qjsKvH6qnXcRw7Bn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v76wFF6YjGffmg7S"
+     ],
+     "part_tier": null,
+     "problem_md": "A stack of characters is implemented using a 1D array and two pointers.\n\nThe main program is run and these eight characters are input, in this order:\n\n'U', 'A', 'B', 'U', 'C', 'D', 'E', 'U'\n\nComplete the trace table. The first row shows the values before the loop starts. Record a value only when it changes.\n\n| Code | TopPointer | Stack[1] | Stack[2] | Stack[3] | OUTPUT |\n|---|---|---|---|---|---|\n|   | 0 |   |   |   |   |\n| 'U' |   |   |   |   |   |\n| 'A' |   |   |   |   |   |\n| 'B' |   |   |   |   |   |\n| 'U' |   |   |   |   |   |\n| 'C' |   |   |   |   |   |\n| 'D' |   |   |   |   |   |\n| 'E' |   |   |   |   |   |\n| 'U' |   |   |   |   |   |",
+     "solution_md": "| Code | TopPointer | Stack[1] | Stack[2] | Stack[3] | OUTPUT |\n|---|---|---|---|---|---|\n|   | 0 |   |   |   |   |\n| 'U' |   |   |   |   | **'-'** |\n| 'A' | **1** | **'A'** |   |   |   |\n| 'B' | **2** |   | **'B'** |   |   |\n| 'U' | **1** |   |   |   | **'B'** |\n| 'C' | **2** |   | **'C'** |   |   |\n| 'D' | **3** |   |   | **'D'** |   |\n| 'E' |   |   |   |   | **Full** |\n| 'U' | **2** |   |   |   | **'D'** |\n\n- First 'U': the stack is empty, so `TopPointer` stays 0 and `Pop()` returns '-' **[1]**\n- `TopPointer` takes the values 1, 2, 1, 2, 3, then 2 at the final 'U' **[1]**\n- 'A' is stored in `Stack[1]`; 'B' is stored in `Stack[2]` and later overwritten by 'C' **[1]**\n- 'D' is stored in `Stack[3]` and stays there after the final pop **[1]**\n- The pops output 'B' and 'D', and 'E' outputs \"Full\" with `TopPointer` unchanged at 3 **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for OUTPUT '-' in the first 'U' row, with `TopPointer` not changed from 0\n> \n> **1 mark** for the `TopPointer` column: 1, 2, 1, 2, 3, (no change), 2\n> \n> **1 mark** for 'A' in `Stack[1]`, and 'B' then 'C' in `Stack[2]`\n> \n> **1 mark** for 'D' in `Stack[3]`, with no change to `Stack[3]` in the 'E' row or the final 'U' row\n> \n> **1 mark** for OUTPUT 'B', Full and 'D' in the correct rows only\n> \n> Accept the output values with or without quotation marks\n> \n> Accept repeated values in unchanged cells, as long as every value is correct\n> \n> Do not award the fourth mark if a new entry in the `Stack[3]` column shows 'D' being removed (for example \"empty\" or a dash) in the 'E' or final 'U' row. A blank cell there is correct, because it means no change. `Pop()` only moves the pointer; it does not remove the value from the array\n\n> **[exam-tip]**\n> Two rows catch students out. At the first 'U' the stack is empty, so the `IF` condition is `FALSE` and nothing changes except the output of '-'. At 'E' the stack is full, so `Push()` outputs \"Full\" and does not change `TopPointer` or the array. A common mistake is to write 4 for `TopPointer` in the 'E' row.\n> \n> When you pop, only `TopPointer` changes. Do not rub out the popped value from the array column. It stays there until a later push overwrites it, which is exactly what happens to 'B' when 'C' is pushed."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3jCBHM5KXHc3mG4n",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Qvg7chNdkCrgrHTG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program stores the names of animals in alphabetical order in a linked list. The linked list is implemented using a 1D array of records, declared as follows:\n\n- `HeadPointer` stores the index of the first node in the linked list.\n- `FreePtr` stores the index of the first node in the free list. Nodes that are not in use are joined together in the free list.\n- A `NextPointer` value of `NullPtr` (0) shows that there are no further nodes in that list.\n\nThe table shows the contents of the array. `HeadPointer` is 4 and `FreePtr` is 6.\n\n| Index | Data | NextPointer |\n|---|---|---|\n| 1 | Panda | 5 |\n| 2 | Camel | 7 |\n| 3 |   | 0 |\n| 4 | Bear | 2 |\n| 5 | Tiger | 0 |\n| 6 |   | 3 |\n| 7 | Eagle | 8 |\n| 8 | Horse | 1 |\n\nThe node containing Horse is deleted from the linked list. The deleted node is added to the **start** of the free list. The data item in the deleted node is not removed from the array.\n\nComplete the table to show the values of `HeadPointer`, `FreePtr` and every `NextPointer` after the deletion.\n\n| Index | Data | NextPointer |\n|---|---|---|\n| 1 | Panda |   |\n| 2 | Camel |   |\n| 3 |   |   |\n| 4 | Bear |   |\n| 5 | Tiger |   |\n| 6 |   |   |\n| 7 | Eagle |   |\n| 8 | Horse |   |\n\n| HeadPointer |   |\n|---|---|\n| FreePtr |   |",
+     "solution_md": "| Index | Data | NextPointer |\n|---|---|---|\n| 1 | Panda | 5 |\n| 2 | Camel | 7 |\n| 3 |   | 0 |\n| 4 | Bear | 2 |\n| 5 | Tiger | 0 |\n| 6 |   | 3 |\n| 7 | Eagle | **1** |\n| 8 | Horse | **6** |\n\n| HeadPointer | 4 |\n|---|---|\n| FreePtr | **8** |\n\nThe node before Horse (Eagle, index 7) now points to the node after Horse (Panda, index 1) **[1]**\n\nThe deleted node (index 8) becomes the first free node, so `FreePtr` is 8 and node 8 points to the old first free node, 6 **[1]**\n\n`HeadPointer` and all other pointers are unchanged **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `NextPointer` of index 7 is 1\n> \n> **1 mark** for `FreePtr` is 8 **and** `NextPointer` of index 8 is 6\n> \n> **1 mark** for `HeadPointer` is 4 **and** the other six `NextPointer` values unchanged: index 1 is 5, index 2 is 7, index 3 is 0, index 4 is 2, index 5 is 0, index 6 is 3\n> \n> Do not accept 0 or 1 for `NextPointer` of index 8. With 0, nodes 6 and 3 are cut off from the free list and can never be used again. With 1, the free list runs into the linked list.\n\n> **[exam-tip]**\n> The pointer that removes Horse from the list is not in the Horse row. It is in the row of the node **before** Horse. Eagle must now skip Horse and point straight to Panda. Many students change the Horse row and leave Eagle pointing at 8, so Horse is still in the list.\n> \n> A deleted node is not thrown away. It joins the free list so that its space can be reused. Adding it at the start takes two changes, made in this order: the deleted node points to the old first free node, then `FreePtr` points to the deleted node."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fz3dfzzJWbvKsnx5",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5PtD3dgp5sXxQsCM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v76wFF6YjGffmg7S"
+     ],
+     "part_tier": null,
+     "problem_md": "A stack of integers is implemented using a 1D array and two pointers.\n\nThe pointer `BasePointer` points to the bottom of the stack. The pointer `TopPointer` points to the item currently at the top of the stack. When the stack is empty, `TopPointer` is one less than `BasePointer`.\n\nA programmer has written this pseudocode to initialise the stack and to push an item onto it. The line numbers are not part of the pseudocode.\n\nThe pseudocode contains three errors.\n\nIdentify each error. For each error, give the line number or numbers and write the corrected pseudocode.",
+     "solution_md": "Error 1: line 03 should be `TopPointer ← 0` **[1]**\n\nError 2: line 07 should be `IF TopPointer < MaxSize THEN` **[1]**\n\nError 3: lines 08 and 09 are in the wrong order. The pointer must be incremented before the item is stored **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for line 03 corrected to `TopPointer ← 0`\n> \n> **1 mark** for line 07 corrected to `IF TopPointer < MaxSize THEN`\n> \n> **1 mark** for lines 08 and 09 swapped, so that `TopPointer` is incremented before `NewItem` is stored\n> \n> Accept `TopPointer ← BasePointer - 1` for line 03\n> \n> Accept `IF TopPointer <= MaxSize - 1 THEN` for line 07\n> \n> Accept line 08 changed to `Stack[TopPointer + 1] ← NewItem`, with line 09 left as it is, for the third mark\n> \n> Each mark needs the line number and the correction. Do not accept a line number alone\n\n> **[exam-tip]**\n> The three errors only show up when you test the boundaries. Trace the first push: with line 08 before line 09, the item goes into `Stack[0]`, which is outside the array bounds. Then trace the push when `TopPointer` is 50: with `<=`, the test is `TRUE`, so the procedure tries to use `Stack[51]`.\n> \n> Read the pointer description in the question before you correct anything. Here `TopPointer` points to the top item, not to the next free space, so it must start at 0 and the increment must come first."
+    }
+   ]
+  },
+  {
+   "id": "qstn_6c4pCFtfcBh7QBWt",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_QkNQjWjhtfZScQhr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qK9fpwfrvpwWk2r8"
+     ],
+     "part_tier": null,
+     "problem_md": "A queue Abstract Data Type (ADT) stores up to six strings. It is implemented using a 1D array and the global variables declared in this pseudocode.\n\nThe queue is organised as follows:\n\n- `FrontPointer` points to the first item in the queue.\n- `RearPointer` points to the last item in the queue.\n- `Length` stores the number of items currently in the queue.\n- When a pointer moves past index 6 it is set back to index 1, so array locations can be reused.\n\nWrite the pseudocode for the function `IsFull()`.\n\nThe function returns `TRUE` if no more items can be added to the queue, and returns `FALSE` otherwise.",
+     "solution_md": "**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a function header with no parameters and `RETURNS BOOLEAN`, closed with `ENDFUNCTION`\n> \n> **1 mark** for returning `TRUE` when `Length` is equal to `MaxSize` and `FALSE` otherwise\n> \n> Accept `RETURN Length = MaxSize` as a single line for the second mark.\n> \n> Accept the value 6 in place of `MaxSize`, and `Length >= MaxSize` in place of `Length = MaxSize`.\n> \n> Accept the result assigned to a `BOOLEAN` variable that is then returned.\n> \n> Do not accept `RearPointer = MaxSize` as the test. The rear pointer can be at index 6 when items have already been removed from the front, for example with `FrontPointer` = 4, `RearPointer` = 6 and `Length` = 3, so the queue is not full.\n> \n> Do not accept `FrontPointer = 1 AND RearPointer = MaxSize` as the test. A full queue can start at any index, for example `FrontPointer` = 3 and `RearPointer` = 2 with six items stored.\n\n> **[exam-tip]**\n> The common error is to test the rear pointer against the end of the array. That works for a queue that never wraps, but in this implementation the pointers keep moving round the array, so the position of the rear pointer does not tell you how many items are stored. Only `Length` does.\n> \n> Always write the header in full. A function that returns a value needs `RETURNS` and a data type, and a missing `RETURNS BOOLEAN` loses a mark even when the test is correct."
+    }
+   ]
+  },
+  {
+   "id": "qstn_zMdVzMNfWSqBMFFd",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_29gVyDP5Sgn5wsNj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v76wFF6YjGffmg7S"
+     ],
+     "part_tier": null,
+     "problem_md": "A stack is implemented using a 1D array, `Stack`, declared as `ARRAY[1:6] OF STRING`, and two integer pointers.\n\n- `BasePointer` points to the bottom of the stack.\n- `TopPointer` points to the item currently at the top of the stack.\n\nThe table shows the current contents of the array and the values of the pointers.\n\n| Index | Stack |\n|---|---|\n| 1 | \"Lima\" |\n| 2 | \"Oslo\" |\n| 3 | \"Rome\" |\n| 4 | \"Doha\" |\n| 5 | \"Kyiv\" |\n| 6 |   |\n\n`BasePointer` = 1 and `TopPointer` = 4\n\nThese three operations are carried out on the stack, in this order:\n\n1. Pop an item.\n2. Pop an item.\n3. Push \"Suva\".\n\nState the value of `TopPointer` and the item at the top of the stack after these three operations.",
+     "solution_md": "`TopPointer` = 3 **[1]**\n\nThe item at the top of the stack is \"Suva\" (stored in `Stack[3]`) **[1]**\n\nWorking:\n\n- The first pop removes \"Doha\" and `TopPointer` goes from 4 to 3\n- The second pop removes \"Rome\" and `TopPointer` goes from 3 to 2\n- The push adds 1 to `TopPointer`, giving 3, then stores \"Suva\" in `Stack[3]`, overwriting \"Rome\"\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `TopPointer` = 3\n> \n> **1 mark** for \"Suva\" as the item at the top of the stack\n> \n> Accept \"Suva\" in `Stack[3]` / in index 3 for the second mark\n> \n> Do not accept \"Kyiv\" as the top item. Index 5 is above `TopPointer`, so \"Kyiv\" is not part of the stack\n> \n> Do not accept `TopPointer` = 6. The new item goes to the index after `TopPointer`, not to the first empty element of the array\n\n> **[exam-tip]**\n> The pointer decides what is in the stack, not the array. Many students see \"Kyiv\" in index 5, or the empty element at index 6, and use those. Popping only changes `TopPointer`. The old values stay in the array until a push overwrites them, so after these operations \"Doha\" is still in index 4 even though it is no longer on the stack."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pzVwR77QYbgrGPv6",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_xGxgkrQJz2K9sQqY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program stores the names of cities in alphabetical order in a linked list. The linked list is implemented using a 1D array of records, declared as follows:\n\n- `HeadPointer` stores the index of the first node in the linked list.\n- `FreePtr` stores the index of the first node in the free list. Nodes that are not in use are joined together in the free list.\n- A `NextPointer` value of `NullPtr` (0) shows that there are no further nodes in that list.\n\nThe table shows the current contents of the array. `HeadPointer` is 5 and `FreePtr` is 7.\n\n| Index | Data | NextPointer |\n|---|---|---|\n| 1 | Lima | 6 |\n| 2 | Cairo | 4 |\n| 3 |   | 8 |\n| 4 | Delhi | 1 |\n| 5 | Accra | 2 |\n| 6 | Oslo | 0 |\n| 7 |   | 3 |\n| 8 |   | 0 |\n\nUse the table to:\n\n- write the data items in the order they are visited when the linked list is traversed from `HeadPointer`\n- state the value of `FreePtr` after one new city name has been added to the linked list.",
+     "solution_md": "Accra, Cairo, Delhi, Lima, Oslo **[1]**\n\n`FreePtr` is 3 **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Accra, Cairo, Delhi, Lima, Oslo, all five in this order with no other items\n> \n> **1 mark** for 3\n> \n> Do not accept 8 for the second mark. Index 8 is the next row of the array, not the next node in the free list.\n> \n> Do not accept 7 for the second mark. Node 7 is the node the new city is stored in, so it is no longer free.\n\n> **[exam-tip]**\n> Follow the pointers, not the row numbers. Start at the index held in `HeadPointer`, read the data there, then go to the index held in that node's `NextPointer`. Stop when you reach the null pointer.\n> \n> The free list is a linked list too. A new item is stored in the first free node, which is node 7, and `FreePtr` then takes the value held in node 7's `NextPointer`. Many students give 8 because it is the next row down the table."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZgdG5tK4ZzhxggwM",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_DnRcFppb3WYXBPFd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK",
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the pseudocode to find an item in a 1D array Widgets of type STRING, using a **linear **search.\n\n`DECLARE Widgets : ARRAY[1:50000] OF STRING`\n\n`DECLARE TopOfList : INTEGER`\n\n`DECLARE EndOfList : INTEGER`\n\n`DECLARE Count : INTEGER`\n\n`DECLARE ToFind : STRING`\n\n`DECLARE Found : BOOLEAN`\n\n`DECLARE NotInList : BOOLEAN`\n\n`TopOfList ← 1`\n\n`EndOfList ← 50000`\n\n`OUTPUT \"Enter the name of the item you wish to find \"`\n\n`INPUT ToFind`\n\n`Found ← FALSE`\n\n`NotInList ← FALSE`\n\n`Count ← TopOfList`\n\n`WHILE Found = FALSE AND NotInList = FALSE`\n\n`    IF Widgets[Count] = ToFind THEN`\n\n`        Found ← TRUE`\n\n`    ENDIF`\n\n`    Count ← Count + 1`\n\n`    IF Count > EndOfList THEN`\n\n`        NotInList ← TRUE`\n\n`    ENDIF`\n\n`ENDWHILE`\n\n`IF Found = TRUE THEN`\n\n`    OUTPUT \"Item found at position \", Count - 1, \" in array\"`\n\n`ELSE`\n\n`    OUTPUT \"Item not in array\"`\n\n`ENDIF`",
+     "solution_md": "**One **mark for each correctly completed line (Max 4)\n\n`DECLARE Widgets : ARRAY[1:50000] OF STRING`\n\n`DECLARE TopOfList : INTEGER`\n\n`DECLARE EndOfList : INTEGER`\n\n`DECLARE Count : INTEGER`\n\n`DECLARE ToFind : STRING`\n\n`DECLARE Found : BOOLEAN`\n\n`DECLARE NotInList : BOOLEAN`\n\n`TopOfList ← 1`\n\n`EndOfList ← 50000`\n\n`OUTPUT \"Enter the name of the item you wish to find \"`\n\n`INPUT ToFind`\n\n`Found ← FALSE`\n\n`NotInList ← FALSE`\n\n`Count ← TopOfList`\n\n`WHILE Found = FALSE AND NotInList = FALSE   // Count <= EndOfList`\n\n`    IF ToFind = Widgets[Count]  // Widgets[Count] = ToFind THEN`\n\n`        Found ← TRUE`\n\n`    ENDIF`\n\n`    Count ← Count + 1`\n\n`    IF Found = FALSE AND Count > EndOfList THEN`\n\n`        NotInList ← TRUE`\n\n`    ENDIF`\n\n`ENDWHILE`\n\n`IF Found = TRUE THEN`\n\n`    OUTPUT \"Item found at position \", Count - 1, \" in array\"`\n\n`ELSE`\n\n`    OUTPUT \"Item not in array\"`\n\n`ENDIF`"
+    },
+    {
+     "id": "qstnprt_P6RSWHk8NzjJrxMS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK",
+      "spcpt_Dmcr2fSnqYKTJzgH",
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "Compare the methods used by the linear and binary search algorithms to find an item in an array. Refer to Big O notation in your answer.",
+     "solution_md": "Max 4\n\nOne mark per mark point (Max 3)\n\n**MP1** Linear search sequentially checks each element of the array / list.\n**MP2** … until the matching element is found, or the end of the array / list is reached.\n**MP3** Binary search finds the mid-point of an array/list and determines which side contains the item to be found\n**MP4** … it discards the half of the array/list not containing the search item // … it finds the position of a target value within an array / list by repeatedly halving the target search field.\n**MP5** The binary search requires the elements to be sorted // The linear search does not require the elements to be sorted.\n**MP6** The binary search will usually do many fewer comparisons of records/iterations against the target than a linear search before it finds its target.\n**MP7** Linear search starts at the beginning of the array/list and binary search starts in the middle of the array/list.\n\n**One mark per mark point (Max 2)**\n**MP8** Big O for binary search is O (Log2 n)\n**MP9** Big O for linear search is O (n)\n**MP10** Big O notation is used to indicate the time / space complexity of an algorithm"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Th9WHqTVfVyMp7BV",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_72rNJbfGhFX7Xk9h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK"
+     ],
+     "part_tier": null,
+     "problem_md": "State a condition that must be true for an array to be searchable for a binary search.",
+     "solution_md": "> **[mark-scheme]**\n> One mark\n> \n> The elements are sorted according to the compare function / in ascending / descending order."
+    },
+    {
+     "id": "qstnprt_N2JkpScRTkTZGsfh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the given pseudocode to find an item in a 1D array Names of type STRING using a binary search.\n\n`DECLARE Names : ARRAY[1:100000] OF STRING`\n\n`DECLARE TopOfList : INTEGER`\n\n`DECLARE EndOfList : INTEGER`\n\n`DECLARE CurrentItem : INTEGER`\n\n`DECLARE ToFind : STRING`\n\n`DECLARE Found : BOOLEAN`\n\n`DECLARE NotInList : BOOLEAN`\n\n`TopOfList ← 1`\n\n`EndOfList ← 100000`\n\n`OUTPUT \"Which name do you wish to find? \"`\n\n`INPUT ToFind`\n\n`...................................................................................................................................................`\n\n`NotInList ← FALSE`\n\n`WHILE ................................................ AND ................................................`\n\n`  CurrentItem ← (TopOfList + EndOfList) DIV 2`\n\n`  IF ........................................................................................................... THEN`\n\n`    Found ← TRUE`\n\n`  ELSE`\n\n`    IF TopOfList >= EndOfList THEN`\n\n`      ...........................................................................................................`\n\n`    ELSE`\n\n`      IF ToFind > Names[CurrentItem] THEN`\n\n`        ...........................................................................................................`\n\n`      ELSE`\n\n`        EndOfList ← CurrentItem – 1`\n\n`      ENDIF`\n\n`    ENDIF`\n\n`  ENDIF`\n\n`ENDWHILE`\n\n`IF Found = TRUE THEN`\n\n`  OUTPUT \"Item found at position \", CurrentItem, \" in array\"`\n\n`ELSE`\n\n`  OUTPUT \"Item not in array\"`\n\n`ENDIF`",
+     "solution_md": "One mark for each correctly completed line (Max 5)\n\n`DECLARE Names : ARRAY[1:100000] OF STRING`\n\n`DECLARE TopOfList : INTEGER`\n\n`DECLARE EndOfList : INTEGER`\n\n`DECLARE CurrentItem : INTEGER`\n\n`DECLARE ToFind : STRING`\n\n`DECLARE Found : BOOLEAN`\n\n`DECLARE NotInList : BOOLEAN`\n\n`TopOfList ← 1`\n\n`EndOfList ← 100000`\n\n`OUTPUT \"Which name do you wish to find? \"`\n\n`INPUT ToFind`\n\n`Found ← FALSE`\n\n`NotInList ← FALSE`\n\n`WHILE Found = FALSE AND NotInList = FALSE`\n\n`    CurrentItem ← (TopOfList + EndOfList) DIV 2`\n\n`    IF ToFind = Names[CurrentItem] THEN`\n\n`        Found ← TRUE`\n\n`    ELSE`\n\n`        IF TopOfList >= EndOfList THEN`\n\n`            NotInList ← TRUE`\n\n`        ELSE`\n\n`            IF ToFind > Names[CurrentItem] THEN`\n\n`                TopOfList ← CurrentItem + 1`\n\n`            ELSE`\n\n`                EndOfList ← CurrentItem - 1`\n\n`            ENDIF`\n\n`        ENDIF`\n\n`    ENDIF`\n\n`ENDWHILE`\n\n`IF Found = TRUE THEN`\n\n`    OUTPUT \"Item found at position \", CurrentItem, \" in array\"`\n\n`ELSE`\n\n`    OUTPUT \"Item not in array\"`\n\n`ENDIF`"
+    },
+    {
+     "id": "qstnprt_wqrjpDcDzyndgdZ5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_k4NdKwZVJ4bP3VDK",
+      "spcpt_35Sp4YK9qjgFjdPx"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the performance of a binary search in relation to the number of data items in the array being searched. Refer to Big O notation in your answer.",
+     "solution_md": "> **[mark-scheme]**\n> One mark from\n> **MP1** Big O for a binary search is **O(Log₂ n)**.\n> **MP2** Big O notation is used to indicate the time/space complexity of an algorithm.\n> \n> One mark from\n> **MP3** The time taken to complete the search increases logarithmically as the number of search items increases linearly.\n> **MP5** As the search field is repeatedly getting smaller, the number of comparisons made before the item is found, or the number of items runs out, is relatively small."
+    }
+   ]
+  },
+  {
+   "id": "qstn_6bPpXTmS9sKvcDCD",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_qjzk2pt84NJZygmv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YXcz52qmXcBBFJVr",
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "This binary tree shows an ordered list of integers.\n\n![Binary tree diagram with root node 25, branching to 4 and 36. Nodes 4 connects to 1 and 16, 16 to 9. Node 36 connects to 64, 64 to 49.](assets/001-binary-tree-diagram-with-root-node-25-branching-.png)\n\nA linked list of nodes is used to store the data. Each node consists of a left pointer, the data and a right pointer.\n\n−1 is used to represent a null pointer.\n\nComplete this linked list to represent the given binary tree organisation.\n\n![Diagram of a binary tree with nodes labelled RootPtr, LeftPtr, Data, RightPtr, with values 25 and 4, pointing to arrays with values -1, 1, -1.](assets/002-diagram-of-a-binary-tree-with-nodes-labelled-roo.png)",
+     "solution_md": "> **[mark-scheme]**\n> **One mark per mark point (Max 4)**\n> **MP1** Five additional nodes with correct data values\n> **MP2** Correct null pointers in all nodes (7) – no extra null pointers where the arrow points to the next node\n> **MP3** Correct arrows to represent pointers joining parent nodes to child nodes – must come from the correct left or right pointer, not the middle\n> **MP4** All nodes in correct order and no additional data in left/right pointer boxes.\n> \n> ![Diagram of a binary tree with nodes showing values and pointers. Root node is 25; left child is 4, and right child is 36, with further branching.](assets/003-diagram-of-a-binary-tree-with-nodes-showing-valu.png)"
+    },
+    {
+     "id": "qstnprt_kNx4dWBFgY3RyVxx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_HvnjNStCybDJDHFz",
+      "spcpt_hRhHmbZxSpFB7chR"
+     ],
+     "part_tier": null,
+     "problem_md": "A 2D array is used to store the nodes of the linked list in part (a). Complete the diagram using your answer for part (a)\n\n![Binary tree data structure table with columns Index, LeftPtr, Data, RightPtr; rows filled, RootPtr set to 0, and FreePtr left blank.](assets/004-binary-tree-data-structure-table-with-columns-in.png)",
+     "solution_md": "> **[mark-scheme]**\n> First eight rows of table (Max 3) \n> Three marks for all eight correct rows \n> Two marks for six or seven correct rows \n> One mark for three, four or five correct rows\n> \n> Last row of table and FreePtr (Max 1) \n> One mark for correct FreePtr with last row of table completely blank\n> \n> ![Binary tree table with index, left and right pointers, and data values. RootPtr is 0, and FreePtr is 8. Table shows node relationships.](assets/005-binary-tree-table-with-index-left-and-right-poin.png)"
+    },
+    {
+     "id": "qstnprt_2p8Vf5fGhM4Zg5sT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YXcz52qmXcBBFJVr",
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "The linked list in part (a) is implemented using a 1D array of records. Each record contains a left pointer, data and a right pointer.\n\nThe following pseudocode represents a function that searches for an element in the array of records LinkList. It returns the index of the record if the element is found, or it returns a null pointer if the element is not found.\n\nComplete the pseudocode for the function.\n\n`FUNCTION SearchList(Item : INTEGER) ........................................................................`\n\n` NullPtr `$\\leftarrow$` −1`\n\n` .................................................................... RootPtr`\n\n` WHILE NowPtr <> NullPtr`\n\n`   IF LinkList[NowPtr].Data < Item THEN`\n\n`     NowPtr  `$\\leftarrow$` LinkList[NowPtr].RightPtr`\n\n`   ELSE`\n\n`     IF ..................................................................... THEN`\n\n`       NowPtr  `$\\leftarrow$`..............................................................................`\n\n`     ELSE`\n\n`       RETURN NowPtr`\n\n`     ENDIF`\n\n`   ENDIF`\n\n` ENDWHILE`\n\n` RETURN NullPtr`\n\n`ENDFUNCTION`",
+     "solution_md": "> **[mark-scheme]**\n> One mark for any correct row (Max 4)\n> \n> `FUNCTION SearchList(Item : INTEGER) RETURNS INTEGER`\n> \n> `  NullPtr `$\\leftarrow$` -1`\n> \n> `  NowPtr `$\\leftarrow$` RootPtr`\n> \n> `  WHILE NowPtr <> NullPtr`\n> \n> `    IF LinkList[NowPtr].Data < Item THEN`\n> \n> `      NowPtr  `$\\leftarrow$` LinkList[NowPtr].RightPtr`\n> \n> `    ELSE`\n> \n> `      IF LinkList[NowPtr].Data > Item THEN`\n> \n> `        NowPtr  `$\\leftarrow$   `LinkList[NowPtr].LeftPtr`\n> \n> `      ELSE`\n> \n> `        RETURN NowPtr`\n> \n> `      ENDIF`\n> \n> `    ENDIF`\n> \n> `  ENDWHILE`\n> \n> `  RETURN NullPtr`\n> \n> `ENDFUNCTION`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5nxvkvYkDw5bCwjw",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_khkfP4R4JF655xxv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YXcz52qmXcBBFJVr",
+      "spcpt_HvnjNStCybDJDHFz"
+     ],
+     "part_tier": null,
+     "problem_md": "The following diagram shows an ordered binary tree.\n\n![Hierarchy diagram with \"Red\" at the top, branching to \"Green\" and \"Yellow\", with further branches to \"Blue\", \"Orange\", \"Violet\", and \"Indigo\".](assets/006-hierarchy-diagram-with-red-at-the-top-branching-.png)\n\nA linked list of nodes is used to store the data. Each node consists of a left pointer, the data and a right pointer.\n\n–1 is used to represent a null pointer.\n\nComplete this linked list to represent the given binary tree.\n\n![Diagram of a binary tree with nodes labelled 'RootPtr', 'Red', 'Green', and 'Blue'. Each node has 'LeftPtr', 'Data', and 'RightPtr' fields.](assets/007-diagram-of-a-binary-tree-with-nodes-labelled-roo.png)",
+     "solution_md": "One mark per mark point (Max 4)\n\nMP1  Four additional nodes with correct data values\n\nMP2  Correct null pointers in all added nodes (6) with no extra null pointers where the arrow points to the next node\n\nMP3  Correct arrows to represent pointers joining parent nodes to child nodes\n\nMP4  All nodes in correct order and no extra data added to pointers.\n\n![Binary tree diagram with root node 'Red', branching to 'Green' and 'Yellow'. 'Green' connects to 'Blue' and 'Orange', 'Orange' to 'Indigo', 'Yellow' to 'Violet'.](assets/008-binary-tree-diagram-with-root-node-red-branching.png)"
+    },
+    {
+     "id": "qstnprt_QSQbD83Gry46yJvv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "nov 2024",
+      "number": "9618/31",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_HvnjNStCybDJDHFz",
+      "spcpt_hRhHmbZxSpFB7chR"
+     ],
+     "part_tier": null,
+     "problem_md": "A user-defined record structure is used to store the nodes of the linked list in part (a).\n\nComplete the diagram, using your answer for part (a).\n\n![Binary tree table with columns: Index, LeftPtr, Data, RightPtr. Colours listed: Red, Green, Yellow, Blue, Orange, Indigo, Violet. RootPtr is 0.](assets/009-binary-tree-table-with-columns-index-leftptr-dat.png)",
+     "solution_md": "**One** mark per mark point (**Max 4**)\n\nMP1  Correct Red and Green rows\n\nMP2  Correct Yellow and Blue rows\n\nMP3  Correct Orange, Indigo and Violet rows\n\nMP4  Correct FreePtr with blank row 7\n\n![Binary tree structure table with indices, pointers, and colour data; root pointer is 0, free pointer is 7. Includes data like Red and Green.](assets/010-binary-tree-structure-table-with-indices-pointer.png)"
+    },
+    {
+     "id": "qstnprt_pNBnds6RWjg3c3fx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YXcz52qmXcBBFJVr",
+      "spcpt_3zm2hqrBFtvw4ZXm"
+     ],
+     "part_tier": null,
+     "problem_md": "The linked list in part (a) is implemented using a 1D array of records. Each record contains a left pointer, data and a right pointer.\n\nThe following pseudocode represents a function that searches for an element in the array of records BinTree. It returns the index of the record if the element is found, or it returns a null pointer if the element is not found.\n\nComplete the pseudocode for the function.\n\n`FUNCTION SearchTree(Item : STRING) ........................................................................`\n\n`    NowPtr ......................................................................................................................... `\n\n`    WHILE NowPtr <> -1`\n\n`        IF ..................................................................................................................... THEN`\n\n`            NowPtr  BinTree[NowPtr].LeftPtr`\n\n`        ELSE`\n\n`            IF BinTree[NowPtr].Data < Item THEN`\n\n`                .................................................................................................................`\n\n`            ELSE`\n\n`                RETURN NowPtr`\n\n`            ENDIF`\n\n`        ENDIF`\n\n`    ENDWHILE`\n\n`    RETURN NowPtr`\n\n`ENDFUNCTION`",
+     "solution_md": "**One **mark for any correct row (**Max 4**)\n\n`FUNCTION SearchTree(Item : STRING) RETURNS INTEGER`\n\n`    NowPtr`$\\leftarrow$` RootPtr`\n\n`    WHILE NowPtr <> -1`\n\n`        IF BinTree[NowPtr].Data > Item THEN`\n\n`            NowPtr `$\\leftarrow$` BinTree[NowPtr].LeftPtr`\n\n`        ELSE`\n\n`            IF BinTree[NowPtr].Data < Item THEN`\n\n`                NowPtr `$\\leftarrow$` BinTree[NowPtr].RightPtr`\n\n`            ELSE`\n\n`                RETURN NowPtr`\n\n`            ENDIF`\n\n`        ENDIF`\n\n`    ENDWHILE`\n\n`    RETURN NowPtr`\n\n`ENDFUNCTION`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Q8xPyPq3v2Wdcnb4",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9FpXQmw5xhy2wVd5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "The Reverse Polish Notation (RPN) expression:\n\n`    a   b  *   2   /   c   d   /    *`\n\nis to be evaluated where` a = 20`, `b = 3`, `c = 10` and `d = 5`.\n\nShow the changing contents of the following stack as the RPN expression is evaluated.\n\n![Eleven columns, each with five vertically aligned empty rectangles, arranged side by side on a white background.](assets/011-eleven-columns-each-with-five-vertically-aligned.png)",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per ring **(Max 4)**.\n> \n> ![Flowchart with two options shows numbered boxes organised in columns, each enclosed by ovals. The top and bottom rows display different grouping sequences.](assets/012-flowchart-with-two-options-shows-numbered-boxes-.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_y6wM3Vwb6dWM49qZ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_t4mHjVTby24byT9M",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_wPhvFYpKRJJwwdPN",
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "A stack is to be set up using the information in the table.\n\n| **Identifier** | **Data type** | **Description** |\n|---|---|---|\n| `BasePointer` | `INTEGER` | points to the bottom of the stack |\n| `TopPointer` | `INTEGER` | points to the top of the stack |\n| `Stack` | `REAL` | 1D array to implement the stack |\n\nA constant, with identifier `Capacity`, limits the size of the stack to 25 items.\n\nWrite the** pseudocode** for the required declarations.",
+     "solution_md": "**One **mark per mark point **(Max 3) **\n\n- MP1    Correct constant declaration\n- MP2    Two correct variable declarations\n- MP3    Correct array declaration Example answer: \n`CONSTANT Capacity = 25 `\n`DECLARE BasePointer : INTEGER `\n`DECLARE TopPointer : INTEGER `\n`DECLARE Stack : ARRAY[1:25] OF REAL`"
+    },
+    {
+     "id": "qstnprt_RyNRSxwgHB6K2dsx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_YW2jThzvjb9XGHXr",
+      "spcpt_VMP6ksfMD7mZPq5Y"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the pseudocode function `Pop() `to pop an item from `Stack. `\n\n`// popping an item from the stack `\n\n`FUNCTION Pop()`...............................................................................\n\n`        DECLARE Item : REAL `\n\n`        Item`$\\leftarrow$`0                                                                        ........................................BasePointer THEN `\n\n`        Item`$\\leftarrow$` ........................................`\n\n`        TopPointer .................................................. `\n\n`   ELSE `\n\n`      OUTPUT \"The stack is empty – error\" `\n\n`   ENDIF`\n\n`   .........................................................................`\n\n`ENDFUNCTION`",
+     "solution_md": "**One** mark for each correctly completed line **(Max 5) **\n\n`// popping an item from the stack `\n`FUNCTION Pop() `**RETURNS REAL **\n`     DECLARE Item : REAL `\n`     Item `$\\leftarrow$` 0 `\n`    `** IF TopPointer >=**` BasePointer THEN `\n`         Item `$\\leftarrow$** Stack[TopPointer] **\n`         TopPointer `$\\leftarrow$** TopPointer – 1 **\n`     ELSE `\n`        OUTPUT \"The stack is empty – error\" `\n`     ENDIF `\n`     `**RETURN Item **\n`ENDFUNCTION`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TnHS5qVGz4jhTMFf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_RgSwb9JrytxxJ6Cv"
+     ],
+     "part_tier": null,
+     "problem_md": "Compare and contrast the queue and stack Abstract Data Types (ADT).",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point **(Max 2) **\n> \n> - MP1    A queue is a first in first out / FIFO data structure and a stack is a first in last out / FILO / LIFO data structure // Data is removed from a queue in the order it is received and removed from a stack in the reverse order to which it is received\n> - MP2    Both ADTs can vary in size / are of indeterminate length\n> - MP3    Data is popped and pushed (onto/from a stack) at the same end but it is enqueued and dequeued (to/from a queue) at different/opposite ends // a queue has two accessible ends and a stack has only one\n> - MP4    A stack has only one moveable pointer whereas a queue has two."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DmFKTwHFCxnXJBxh",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_X2t24pbcf8KddphZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 9,
+      "question_part": "aii"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Show how the contents of the following stack will change as the RPN expression in part (a)(i) is evaluated.\n\n![Nine vertical columns, each containing five equally-sized rectangles arranged in a single file line.](assets/013-nine-vertical-columns-each-containing-five-equal.png)",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per ring **(Max 4)**\n> \n> ![Mathematical chart dividing numbers into columns and circles, showing two solutions of prime factors with numbers 2, 3, 4, 5, 9, 27.](assets/014-mathematical-chart-dividing-numbers-into-columns.png)"
+    },
+    {
+     "id": "qstnprt_9hHJqZ5dh5YQmGn7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how a stack can be used to evaluate RPN expressions.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 3) **\n> \n> - MP1    Evaluate the RPN expression from left to right\n> - MP2    Push each element of the RPN expression onto the stack in order until an operator is reached\n> - MP3    Pop the last two elements from the stack and apply the operator\n> - MP4    Push the result of the operation onto the stack\n> - MP5    Repeat the process until the whole expression is evaluated."
+    }
+   ]
+  }
+ ]
+}

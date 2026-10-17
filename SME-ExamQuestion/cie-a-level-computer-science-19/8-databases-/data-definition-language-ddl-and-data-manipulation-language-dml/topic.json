@@ -1,0 +1,620 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:23Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "8-databases-",
+  "name": "8. Databases"
+ },
+ "topic": {
+  "id": "top_73NcWk48G8NFR6Gc",
+  "slug": "data-definition-language-ddl-and-data-manipulation-language-dml",
+  "name": "Data Definition Language (DDL) & Data Manipulation Language (DML)",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "sql",
+   "name": "SQL",
+   "revision_note_id": "rn_3T5ZH7BpcR54PYqt"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_hWTXm9fYDRF6n7Y7",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 17,
+   "questions_embedded": 17,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/8-databases-/data-definition-language-ddl-and-data-manipulation-language-dml/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 17,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_8HWF6ffH6Mz5JmsV",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_4hRtZ2jBn8VtYhSs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "The database `HOTEL` has two tables with the following definitions.\n\n`GUEST(GuestID, FullName, Country, LoyaltyMember)`\n\n`BOOKING(BookingID, GuestID, RoomNumber, CheckInDate)`\n\n`GuestID` is the primary key of `GUEST` and a foreign key in `BOOKING`. No two guests have the same full name.\n\nWrite a Structured Query Language (SQL) script to return the full name of each guest together with the number of bookings that guest has made.\n\nThe number of bookings must be returned with the field name `NumberOfBookings`.",
+     "solution_md": "**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SELECT GUEST.FullName` together with `COUNT(BOOKING.BookingID)`\n> \n> **1 mark** for `AS NumberOfBookings`\n> \n> **1 mark** for linking the two tables on the matching key field, either as `FROM GUEST INNER JOIN BOOKING ON GUEST.GuestID = BOOKING.GuestID` or as `FROM GUEST, BOOKING` with `WHERE GUEST.GuestID = BOOKING.GuestID`\n> \n> **1 mark** for `GROUP BY GUEST.FullName;`\n> \n> Accept `COUNT(BOOKING.GuestID)` or `COUNT(*)` in place of `COUNT(BOOKING.BookingID)`.\n> \n> Accept `GROUP BY GUEST.GuestID, GUEST.FullName;`.\n> \n> Accept `JOIN` written without the word `INNER`.\n> \n> Do not accept a script with no `GROUP BY` clause. It returns one number for the whole table instead of one number for each guest.\n> \n> Do not accept `SUM(BOOKING.BookingID)`. That adds the booking ID values together instead of counting the bookings.\n\n> **[exam-tip]**\n> `GROUP BY` is what turns one total into one total per guest. Whenever a question says for each, a `GROUP BY` is almost always needed, and the field you group by is the same field you list in the `SELECT` clause beside the aggregate.\n> \n> When two tables are involved, write the table name in front of every field name, even where it is not strictly needed. `GuestID` on its own is ambiguous because it exists in both tables, and a separate mark is available for writing the link between the tables correctly."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8pwjsxHX6xm2XW8n",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_V2PjfFmR85HxSp22",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "The database `HOTEL` has the table `GUEST`, which has the following definition.\n\n`GUEST(GuestID, FullName, Country, LoyaltyMember)`\n\n`LoyaltyMember` is a Boolean field.\n\nWrite a Structured Query Language (SQL) script to add a new record to the table `GUEST` to store the following data.\n\n| Attribute | Value |\n|---|---|\n| GuestID | G20418 |\n| FullName | Amara Okafor |\n| Country | Nigeria |\n| LoyaltyMember | TRUE |",
+     "solution_md": "All four values are correct and in the same order as the fields. **[1]** The three text values are inside quotation marks and the Boolean value `TRUE` is not.\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `INSERT INTO GUEST`\n> \n> **1 mark** for `VALUES` followed by brackets\n> \n> **1 mark** for all four values correct and in the same order as the fields\n> \n> Accept the shorter form `INSERT INTO GUEST VALUES(...)` with the field names left out, because a value is given for every field and the values are in table order.\n> \n> Accept single quotation marks in place of double quotation marks.\n> \n> Do not accept an `UPDATE GUEST SET ...` script. `UPDATE` changes a record that already exists; this question adds a new one.\n\n> **[exam-tip]**\n> Two forms of `INSERT INTO` are accepted. You may list the field names after the table name and then give the values in the same order, or you may leave the field names out. If you leave them out you must supply a value for every field and the values must be in exactly the table order, so listing the field names is the safer habit.\n> \n> Quotation marks still matter. Text values go in quotation marks; numbers and the Boolean values `TRUE` and `FALSE` do not. Check the data type of each field before you decide."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GCnKbTMWczYSvFR8",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_S4pw3kKkJBpfxKSB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "A hotel uses a relational database called `HOTEL`. The database has the table `ROOM`, which has the following definition.\n\n`ROOM(RoomNumber, RoomType, Floor, MaxGuests)`\n\n`MaxGuests` stores the largest number of guests who can sleep in the room.\n\nWrite a Structured Query Language (SQL) script to return the room number of every room that can sleep four or more guests.\n\nThe room numbers must be listed in order, starting with the smallest.",
+     "solution_md": "**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SELECT RoomNumber` with `FROM ROOM` and the condition `WHERE MaxGuests >= 4`\n> \n> **1 mark** for `ORDER BY RoomNumber;`\n> \n> Accept `WHERE MaxGuests > 3`.\n> \n> Accept `ORDER BY RoomNumber ASC;`.\n> \n> Accept `ROOM.RoomNumber` and `ROOM.MaxGuests` with the table name written in front of the field name.\n> \n> Do not accept `WHERE MaxGuests > 4`. That leaves out the rooms that sleep exactly four.\n> \n> Do not accept `SELECT *`. The question asks for the room number only, not the whole record.\n\n> **[exam-tip]**\n> Four or more includes four, so the operator is `>=` and not `>`. Read the condition twice before you write it: more than four, four or more, and at least four do not all mean the same thing, and one wrong symbol loses the mark.\n> \n> `SELECT` lists the fields you want returned. If the question names one field, list that one field. `SELECT *` returns the whole record and does not answer the question that was asked."
+    }
+   ]
+  },
+  {
+   "id": "qstn_WRrvhfrzS93xRVfJ",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3dWzgncvRWRynQKT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "The database `CYCLE_HIRE` has two tables with the following definitions.\n\n`BICYCLE(BicycleID, Model, DatePurchased, Electric)`\n\n`HIRE(HireID, BicycleID, MemberID, StartTime)`\n\n`BicycleID` is the primary key of `BICYCLE`. `HireID` is the primary key of `HIRE`.\n\n(i) The table `HIRE` needs a new field, `EndTime`, to store the time at which each hire ended.\n\nWrite a Structured Query Language (SQL) script to change the definition of the table `HIRE` to add this field.\n\n[2]\n\n(ii) The field `BicycleID` in `HIRE` needs to be set up as a foreign key that links to `BicycleID` in `BICYCLE`.\n\nWrite an SQL script to change the definition of the table `HIRE` to add this foreign key.\n\n[2]",
+     "solution_md": "(i)\n\n(ii)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `ALTER TABLE HIRE` in part (i)\n> \n> **1 mark** for `ADD EndTime TIME;` with the field name and a suitable data type\n> \n> **1 mark** for `ALTER TABLE HIRE` in part (ii)\n> \n> **1 mark** for `ADD FOREIGN KEY(BicycleID) REFERENCES BICYCLE(BicycleID);`\n> \n> Accept `ADD COLUMN EndTime TIME;` in part (i).\n> \n> Accept the two clauses of either script written on one line.\n> \n> Do not accept `CREATE TABLE HIRE` in either part. The table already exists, and changing the definition of an existing table uses `ALTER TABLE`.\n> \n> Do not accept `ALTER TABLE BICYCLE` in part (ii). The foreign key is added to the table that holds the linking field, which is `HIRE`.\n\n> **[exam-tip]**\n> `ALTER TABLE` names the table you are changing, and for a foreign key that is always the table holding the linking field, never the table the key points to. Here `HIRE` holds `BicycleID`, so `HIRE` is altered and `BICYCLE` appears only after `REFERENCES`. Writing these the wrong way round is the most common error on this question type.\n> \n> Learn the second line as one fixed pattern: `FOREIGN KEY(field) REFERENCES Table(Field)`. The name in the brackets after `REFERENCES` is the primary key of the other table, so the two field names are often the same word, but they do not have to be."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Kv3sZ3Kz5Z9frtDY",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hhYxkDbmsDwCkfkV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "The database `CYCLE_HIRE` stores data about a public bicycle hire scheme.\n\nPart of the table `BICYCLE` is shown with some sample data.\n\n| BicycleID | Model | DatePurchased | Electric |\n|---|---|---|---|\n| BC0001 | Cityline 3 | 14/03/2024 | FALSE |\n| BC0002 | Cityline 3 | 14/03/2024 | FALSE |\n| BC0003 | Voltas E | 19/09/2025 | TRUE |\n| BC0004 | Cityline 5 | 22/01/2026 | FALSE |\n\n`BicycleID` is the primary key of `BICYCLE`. Every `BicycleID` value is exactly six characters long.\n\nThe database only supports these data types:\n\n- character\n- varchar\n- Boolean\n- integer\n- real\n- date\n- time\n\nWrite a Structured Query Language (SQL) script to define the table `BICYCLE`.",
+     "solution_md": "**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `CREATE TABLE BICYCLE(` with a matching closing bracket, so that every field definition sits inside the brackets\n> \n> **1 mark** for `BicycleID` as `CHARACTER(6)` and `Model` as `VARCHAR(n)`\n> \n> **1 mark** for `DatePurchased` as `DATE` and `Electric` as `BOOLEAN`\n> \n> **1 mark** for `PRIMARY KEY(BicycleID)`\n> \n> Accept `VARCHAR(n)` for `BicycleID`, with any sensible length.\n> \n> Accept `NOT NULL` on any field, and accept the script without it.\n> \n> Accept keywords written in lower case or mixed case.\n> \n> Do not accept `Electric` as `VARCHAR` or `CHARACTER`. The field holds only `TRUE` or `FALSE` and `BOOLEAN` is on the list of supported types.\n> \n> Do not accept `DatePurchased` as `VARCHAR` or `INTEGER`. `DATE` is on the list of supported types.\n\n> **[exam-tip]**\n> Read the list of supported data types before you start writing, then choose only from that list. Marks are lost every session for storing a date as text, or a `TRUE` and `FALSE` field as text, when `DATE` and `BOOLEAN` were both printed in the question.\n> \n> The other easy mark to lose is the bracket. `CREATE TABLE` opens a bracket after the table name, and every field definition goes inside it, including the `PRIMARY KEY` line. Close the bracket and finish with a semicolon."
+    }
+   ]
+  },
+  {
+   "id": "qstn_tP9Q68KjgpbVJhtT",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CzbZ4xB2jcymzjsZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "A city transport authority is setting up a new relational database to store data about its public bicycle hire scheme. The database will be called `CYCLE_HIRE`.\n\nWrite a Structured Query Language (SQL) script to create the database.",
+     "solution_md": "**[1 mark]**\n\n> **[mark-scheme]**\n> **1 mark** for `CREATE DATABASE CYCLE_HIRE;`\n> \n> Accept the database name written in any case.\n> \n> Accept the script without the closing semicolon.\n> \n> Do not accept `CREATE TABLE CYCLE_HIRE;`. That creates a table inside a database, not the database itself.\n> \n> Do not accept `CREATE DATABASE` with brackets, field names or data types after the name. There are no tables in the database yet.\n\n> **[exam-tip]**\n> This is a one line answer worth a whole mark, so learn the exact wording. Two keywords, the name, and nothing else.\n> \n> `CREATE DATABASE` and `CREATE TABLE` are both Data Definition Language commands but they do different jobs. You create the database once, then you create a table inside it for each entity. Students who add field definitions to `CREATE DATABASE` have merged the two commands and lose the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qKPFRBDv6yQvFPRB",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_V3m5823vsxM9cQkt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "A music school uses a relational database called `MUSIC_SCHOOL`. The database has two tables with the following definitions.\n\n`STUDENT(StudentID, FirstName, LastName, Grade)`\n\n`LESSON(LessonID, StudentID, LessonDate, Instrument)`\n\nA student wants to return the number of lessons that have been taken by the student with the last name Silva.\n\nThe student writes the following Structured Query Language (SQL) script.\n\nThe script does not work.\n\nIdentify the four errors in the script.",
+     "solution_md": "`SUM` should be `COUNT`. The query needs the number of lessons, not the total of the ID values. **[1]**\n\nThe `FROM` clause names only one table. Both tables are used, so it should read `FROM STUDENT, LESSON` **[1]**\n\nSilva is a text value, so it must be inside quotation marks: `WHERE STUDENT.LastName = \"Silva\"` **[1]**\n\n`OR` should be `AND`. Both conditions have to be true at the same time. **[1]**\n\nThe corrected script is:\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SUM` should be `COUNT`\n> \n> **1 mark** for the second table is missing from the `FROM` clause // `FROM STUDENT, LESSON`\n> \n> **1 mark** for the text value needs quotation marks // `LastName = \"Silva\"`\n> \n> **1 mark** for `OR` should be `AND`\n> \n> Accept single quotation marks in place of double quotation marks.\n> \n> Accept `FROM STUDENT INNER JOIN LESSON ON STUDENT.StudentID = LESSON.StudentID` as the correction to the `FROM` clause, provided the link between the tables is then taken out of the `WHERE` clause.\n> \n> Do not accept the script is missing a `GROUP BY` clause. The query returns one number for one named student, so no grouping is needed.\n> \n> Do not accept the semicolon is missing. It is present.\n\n> **[exam-tip]**\n> `SUM` and `COUNT` are the pair that catches most students. `SUM` adds up the values held in a field, so `SUM(LessonID)` adds ID numbers together and produces a meaningless total. `COUNT` counts how many records match, which is what how many lessons is asking for.\n> \n> When a query uses two tables, check three things every time: both table names appear in the `FROM` clause, the tables are linked on their matching key fields, and the conditions are joined with `AND`. An `OR` returns every record that meets either condition on its own, which usually returns almost the whole table."
+    }
+   ]
+  },
+  {
+   "id": "qstn_g6JyZcPNGfd3Qx76",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_DvvzdmhMgWc62Zng",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "A library uses a relational database called `LIBRARY`. The database has the table `BOOK`, which has the following definition.\n\n`BOOK(BookID, Title, Author, YearPublished, OnLoan)`\n\n`OnLoan` is a Boolean field. It stores `TRUE` when the book is out on loan and `FALSE` when the book is on the shelf.\n\n(i) The book with the ID `B1044` has been returned to the library.\n\nWrite a Structured Query Language (SQL) script to change the value of `OnLoan` for this book to `FALSE`.\n\n[2]\n\n(ii) The book with the ID `B1043` has been damaged and is no longer in the library.\n\nWrite an SQL script to remove the record for this book from the table `BOOK`.\n\n[1]",
+     "solution_md": "(i)\n\n(ii)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `UPDATE BOOK` together with `SET OnLoan = FALSE`\n> \n> **1 mark** for `WHERE BookID = \"B1044\";`\n> \n> **1 mark** for `DELETE FROM BOOK` together with `WHERE BookID = \"B1043\";`\n> \n> Accept single quotation marks in place of double quotation marks.\n> \n> Accept the clauses written on one line.\n> \n> Do not accept an `UPDATE` script with no `WHERE` clause. It marks every book in the table as returned.\n> \n> Do not accept a `DELETE` script with no `WHERE` clause. It removes every record in the table.\n\n> **[exam-tip]**\n> The mark lost most often here is the `WHERE` clause. `UPDATE BOOK SET OnLoan = FALSE;` is valid SQL, so it does not look wrong on the page, but it changes every record in the table. `DELETE FROM BOOK;` empties the table completely. Before you write either command, decide which records it should touch and write the `WHERE` clause that picks out exactly those records.\n> \n> Note also that `DELETE FROM` removes a whole record, never one field. To clear a single value you use `UPDATE` and set that field to a new value."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cnCcMH9npQz6JSzG",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_YNqdYjNm32qWxmN6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "A company stores its data in a relational database. The database management system (DBMS) uses Structured Query Language (SQL).\n\nSQL has two parts.\n\n(i) State the name of the part of SQL that the DBMS uses to create and change the structure of a database.\n\n[1]\n\n(ii) State the name of the part of SQL that the DBMS uses to add, change and query the data that is stored in a database.\n\n[1]",
+     "solution_md": "(i) Data Definition Language (DDL) **[1]**\n\n(ii) Data Manipulation Language (DML) **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Data Definition Language // `DDL`\n> \n> **1 mark** for Data Manipulation Language // `DML`\n> \n> Accept the initials on their own for either part.\n> \n> Do not accept Structured Query Language or `SQL` for either part. SQL is the whole language, and the question asks for the two parts inside it.\n> \n> Do not accept Database Management System or `DBMS`. That is the software that runs the language, not a part of the language.\n\n> **[exam-tip]**\n> The two names differ by one word, so they are easy to mix up. Link the middle word to the job it does. Definition builds the structure, so `CREATE DATABASE`, `CREATE TABLE` and `ALTER TABLE` are DDL. Manipulation works on the rows inside that structure, so `SELECT`, `INSERT INTO`, `UPDATE` and `DELETE FROM` are DML.\n> \n> Writing SQL earns nothing here, because both parts of the question are already about SQL."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SMZkVSWBxnXfgDb7",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_tWzG2vPPkzmGdBdF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "bii"
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "Write the Structured Query Language (SQL) script to return the total number of courses that have started after 9 September 2023.\n\nThe value returned must have an appropriate field name.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point.\n> \n> - `SELECT Count(CourseID) `\n> - `AS NumOfCourses `\n> - `FROM COURSE_SCHEDULE`\n> - `WHERE DateStarted > \"09/09/23\"; `\n> \n> `SELECT Count(CourseID) AS NumOfCourses FROM `\n> `COURSE_SCHEDULE `\n> `WHERE DateStarted > \"09/09/23\";`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3vbByvx4298X38mm",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_7T9ynmJJWF2HyR2J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "ci,cii"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH",
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Write a Structured Query Language (SQL) script to define the database called `SHOP`.\n\n[1]\n\n(ii) Write the SQL script to return the total quantity of items that the customer with the ID of HJ231 has ordered.\n\n[4]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> **1 mark** for\n> \n> `CREATE DATABASE SHOP`;\n> \n> (ii)\n> \n> **1 mark** for each line **(max 4) **\n> \n> Either: \n> `SELECT SUM(Quantity) `\n> `FROM ORDER_ITEM, SHOP_ORDER `\n> `WHERE ORDER_ITEM.OrderNo = SHOP_ORDER.OrderNo `\n> `AND SHOP_ORDER.CustomerID = 'HJ231';` \n> **OR **\n> `SELECT SUM(Quantity) `\n> `FROM ORDER_ITEM (INNER) JOIN SHOP_ORDER `\n> `ON ORDER_ITEM.OrderNo = SHOP_ORDER.OrderNo `\n> `WHERE SHOP_ORDER.CustomerID = 'HJ231';`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_b9pNhkjW9WzmZPf3",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_32HWM3HH7gGpD8MW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "Sample data for the table `PERFORMANCE` is shown:\n\n| **PerformanceID** | **ShowID** | **ShowDate** | **StartTime** |\n|---|---|---|---|\n| `0001` | `MK12` | `5/5/2025` | `13:00` |\n| `0002` | `MK12` | `5/5/2025` | `19:30` |\n| `0003` | `MK12` | `6/5/2025` | `19:00` |\n| `0004` | `OP3` | `7/5/2025` | `18:30` |\n| `0005` | `OP3` | `8/5/2025` | `18:30` |\n| `0006` | `OP3` | `9/5/2025` | `13:00` |\n\nWrite a Structured Query Language (SQL) script to define the table `PERFORMANCE`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each for:\n> \n> - Creating table PERFORMANCE with opening and closing brackets\n> - Setting all four attributes with appropriate data types\n> - Setting PerformanceID as primary key\n> - Setting ShowID as foreign key referencing SHOW table\n> \n> Example: \n> `CREATE TABLE PERFORMANCE( `\n> `PerformanceID varchar NOT NULL, `\n> `ShowID varchar, `\n> `ShowDate Date, `\n> `StartTime Time, `\n> `PRIMARY KEY(PerformanceID), `\n> `FOREIGN KEY(ShowID) REFERENCES SHOW(ShowID) `\n> `);`"
+    },
+    {
+     "id": "qstnprt_8C3SB7F2d9QHnJ2Z",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "Write an SQL script to return the number of times each show is scheduled. For example, in the sample data in part **(a)**, the show MK12 is scheduled three times.\n\nThe result needs to include the show name and a suitable field name for the number of times it is scheduled.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each for:\n> \n> - Selecting COUNT of an attribute in PERFORMANCE table with suitable name\n> - FROM clause\n> - Joining tables\n> - Grouping by the title and selecting the title\n> \n> Example 1: \n> `SELECT SHOW.Title, Count(PERFORMANCE.PerformanceID) `\n> `AS NumberOfShowings `\n> `FROM PERFORMANCE, SHOW `\n> `WHERE PERFORMANCE.ShowID = SHOW.ShowID `\n> `GROUP BY SHOW.Title; `\n> \n> Example 2: \n> `SELECT SHOW.Title, Count(PERFORMANCE.PerformanceID) `\n> `AS NumberOfShowings `\n> `FROM PERFORMANCE INNER JOIN SHOW `\n> `ON PERFORMANCE.ShowID = SHOW.ShowID `\n> `GROUP BY SHOW.Title;`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Pd3gwDcRCMQMhjFp",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_CDgRmwd2Bs3c54zb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "Sample data for the table EXAM is shown:\n\n| **ExamID** | **Subject** | **Level** | **TotalMarks** |\n|---|---|---|---|\n| `00956124` | `Computer Science` | `2` | `75` |\n| `00956125` | `Computer Science` | `3` | `120` |\n| `00956126` | `Mathematics` | `2` | `100` |\n| `00956127` | `Mathematics` | `3` | `150` |\n| `00956128` | `Physics` | `2` | `70` |\n| `00956129` | `Physics` | `3` | `80` |\n\nWrite a Structured Query Language (SQL) script to define the table `EXAM`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> - Creating table EXAM with opening and closing brackets\n> - All fields with appropriate data types and commas at end of lines\n> - ExamID as primary key\n> \n> Example:\n> \n> `CREATE TABLE EXAM( `\n> `ExamID varchar NOT NULL, `\n> `Subject varchar, `\n> `Level int, `\n> `TotalMarks int, `\n> `PRIMARY KEY(ExamID) `\n> `);`"
+    },
+    {
+     "id": "qstnprt_dyD2SGXTMBYxcHtF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH"
+     ],
+     "part_tier": null,
+     "problem_md": "The table `EXAM_QUESTION` has been created but the foreign key has not been linked.\n\nWrite an SQL script to update `EXAM_QUESTION` and link the foreign key to `EXAM`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> - Altering table EXAM_QUESTION\n> - Linking ExamID to ExamID in EXAM\n> \n> Example:\n> `ALTER TABLE EXAM_QUESTION `\n> `ADD FOREIGN KEY (ExamID) REFERENCES EXAM(ExamID);`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M7Pns8ctjhZfzqY6",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_7pdRJbN7YW8mm4FM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "ci,cii"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH",
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "The company has another database, `FARMING`, for a different game.\n\nThe database `FARMING` has a table named `EVENT `which is shown with some sample data.\n\n| **PlayerID** | **EventID** | **Category** | **Points** |\n|---|---|---|---|\n| `000123` | `3` | `Build` | `100` |\n| `000124` | `1` | `Grow` | `36` |\n| `000123` | `4` | `Grow` | `22` |\n| `000123` | `7` | `Create` | `158` |\n| `000125` | `3` | `Grow` | `85` |\n| `000125` | `4` | `Build` | `69` |\n\n(i) The database` FARMING` has a second table created named `PLAYER `that has the primary key `PlayerID`.\n\nThe field `PlayerID` in `EVENT` needs to be set up as a foreign key to link to `PlayerID` in `PLAYER`.\n\nWrite a Structured Query Language (SQL) script to change the table definition for EVENT to link the foreign key to `PLAYER`.\n\n[2]\n\n(ii) Write an SQL script to return the number of events that each player has completed.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> **1 mark** for each correct clause:\n> \n> - Alter table EVENT\n> - Adding foreign key as PlayerID referencing correct table\n> \n> `ALTER TABLE EVENT `\n> `ADD FOREIGN KEY(PlayerID)REFERENCES PLAYER(PlayerID);`\n> \n> (ii)\n> \n> **1 mark **each:\n> \n> - Selecting PlayerID from EVENT\n> - Counting EventID\n> - Grouping by the PlayerID\n> \n> Example: \n> `SELECT PlayerID, COUNT(EventID) `\n> `FROM EVENT `\n> `GROUP BY PlayerID;`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sdGWrhjQNTqb37NV",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_QkW2q2mkpfZFYWK6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb",
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "Write an SQL script to return the total quantity of ice cream sold to the customer with the ID of 0034E in the year 2023.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark each:\n> \n> - `SELECT SUM(Quantity)`\n> - `FROM SALE WHERE` and one correct condition\n> - `AND` with remainder correct conditions\n> \n> e.g. \n> `SELECT SUM(Quantity) `\n> `FROM SALE `\n> `WHERE CustomerID = \"0034E\" `\n> `AND Date >= #01/01/2023# AND Date <= #31/12/2023#;`"
+    },
+    {
+     "id": "qstnprt_6V4CsyFqkbrNkvRw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "ci"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH",
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "The table definition for `BATCH` is repeated here:\n\n`BATCH(BatchID, Type, Flavour, Size, SellingPrice, EndDate) `\n\nSample data for the table `BATCH` is given:\n\n| **BatchID** | **Type** | **Flavour** | **Size** | **SellingPrice** | **EndDate** |\n|---|---|---|---|---|---|\n| KlV12 | Plain | Vanilla | 1 | 2.20 | 12/12/2024 |\n| RlC14 | Plain | Chocolate | 0.5 | 1.80 | 12/12/2024 |\n| TYL1 | Non-dairy | Lemon | 0.5 | 2.10 | 01/02/2025 |\n| FYV2 | Non-dairy | Vanilla | 0.25 | 1.50 | 02/02/2025 |\n| BIV13 | Plain | Vanilla | 1 | 2.20 | 02/02/2024 |\n\nWrite an SQL script to define the table `BATCH`.\n\nInclude constraints (restrictions) on the data that can be entered into each field where appropriate.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point\n> \n> - Create table `BATCH` with opening and closing brackets, all statements within brackets\n> - `BatchID, Type` and `Flavour` as varchar or equivalent\n> - …with suitable constraint(s)\n> - `Size` as decimal, `SellingPrice` as currency, `EndDate` as date (or equivalent)\n> - Primary key identified as `BatchID`\n> \n> e.g.\n> \n> `CREATE TABLE BATCH( `\n> `     BatchID VARCHAR(6) NOT NULL,         `\n> `     Type VARCHAR (20) NOT NULL, `\n> `     Flavour VARCHAR (20) NOT NULL, `\n> `     Size FLOAT, `\n> `     SellingPrice CURRENCY, `\n> `     EndDate DATE, `\n> `     PRIMARY KEY(BatchID) );`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SJDbpbXfrSbq6m7k",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_pxV32fVvWsth83cK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bsXwjxYjByd2Drmb"
+     ],
+     "part_tier": null,
+     "problem_md": "The database also has the table `INVOICE` that stores data about each invoice that is sent to a customer.\n\nExample data from the table `INVOICE` is given.\n\n| **InvoiceID** | **DateSent** | **Amount** | **Paid** | **JobID** |\n|---|---|---|---|---|\n| 29262 | 12/12/2023 | 105.20 | Y | 221 |\n| 26765 | 11/11/2023 | 200.00 | Y | 315 |\n| 13290 | 02/01/2024 | 50.00 | Y | 315 |\n| 34090 | 05/02/2024 | 25.95 | N | 569 |\n\nWrite a Structured Query Language (SQL) script to return the total amount of all the invoices sent in the year 2023 that have been paid.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each\n> \n> - Select SUM of Amount\n> - From the correct table **and** one correct condition\n> - Remaining correct condition\n> \n> Example:\n> \n> `SELECT SUM(Amount) `\n> `FROM INVOICE `\n> `WHERE Paid = \"Y\" `\n> `AND DateSent >= #01/01/2023# AND DateSent <=`\n> `#31/12/2023#`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_r5Shb2hQX44xG6YX",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_XQm6HH8Fjh8WN3rT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "bii,biii"
+     },
+     "spec_point_ids": [
+      "spcpt_YvhTymvGYBsBHZVH",
+      "spcpt_bsXwjxYjByd2Drmb",
+      "spcpt_4sNNXJzkJ6JY7QFT"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows sample data for the table REPAIR_PART.\n\n| **PartID** | **RepairNumber** | **Quantity** |\n|---|---|---|\n| ACD128SA | 0022 | 3 |\n| PPOR543DWW | 0022 | 1 |\n| TR453 | 0023 | 1 |\n| PPOR543DWW | 0023 | 2 |\n| WED5 | 0024 | 5 |\n\nWrite a Structured Query Language (SQL) script to define the table REPAIR_PART.\n\nInclude constraints (restrictions) on the data that can be entered into each field where appropriate.\n\n[5]\n\n(iii) Suppliers send invoices to the company for the parts that are used. A new table, INVOICE, stores the data about each invoice and whether it has been paid or not.\n\nThe design for the table INVOICE is shown:\n\nINVOICE(<u>InvoiceID</u>, SupplierID, AmountDue, Paid, DatePaid)\n\nThe table shows sample data for the table INVOICE.\n\n| InvoiceID | SupplierID | AmountDue | Paid | DatePaid |\n|---|---|---|---|---|\n| 000001 | JK675 | 22.50 | TRUE | 01/01/2024 |\n| 000002 | WR443 | 358.99 | FALSE |   |\n| 000003 | JK675 | 10.21 | FALSE |   |\n\nWrite an SQL script to return the total amount due to the supplier with the ID of JK675 for all the invoices that have **not** currently been paid.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point\n> \n> - Create table REPAIR_PART with opening and closing brackets, all statements inside the brackets\n> - PartID and RepairNumber as varchar (or equivalent)\n> - Quantity as integer\n> - At least 1 appropriate constraint\n> - Dual primary key\n> \n> For example:\n> \n> CREATE TABLE REPAIR_PART( \n>       PartID VARCHAR(20) NOT NULL, \n>       RepairNumber VARCHAR(4) NOT NULL, \n>       Quantity INT NOT NULL, \n>        PRIMARY KEY (PartID, RepairNumber) );\n> \n> (iii)\n> \n> **1 mark** for each bullet point\n> \n> - Select SUM of AmountDue\n> - From the correct table **and** one correct condition\n> - Second correct condition\n> \n> SELECT SUM(AmountDue) \n> FROM INVOICE \n> WHERE SupplierID = \"JK675\" AND Paid = FALSE;"
+    }
+   ]
+  }
+ ]
+}

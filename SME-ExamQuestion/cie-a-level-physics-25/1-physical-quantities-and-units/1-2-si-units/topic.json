@@ -1,0 +1,1837 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:17:09Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "1-physical-quantities-and-units",
+  "name": "1. Physical Quantities & Units"
+ },
+ "topic": {
+  "id": "top_9P4xppz2Pk9c9yWx",
+  "slug": "1-2-si-units",
+  "name": "SI Units",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "si-units",
+   "name": "SI Units",
+   "revision_note_id": "rn_MmgKGP2TTM2R7Nf6"
+  },
+  {
+   "slug": "homogeneity-of-physical-equations-and-powers-of-ten",
+   "name": "Homogeneity of Physical Equations & Powers of Ten",
+   "revision_note_id": "rn_DjhQzXCc8cfDRD6X"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_nNp5Brmx5t6KNFxM",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 22,
+   "questions_embedded": 22,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/1-physical-quantities-and-units/1-2-si-units/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 22,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_Sjss62GWpz9znJpf",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HTzkcD2MG8DMzp7Z",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_njp6ry2sNRDTmT7R"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the ratio $\\frac{10^{2}\\text{THz}}{10^{-4}\\text{pHz}}$ ?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- $T = \\text{tera} = 10^{12}$\n\n$10^{2} \\times 10^{12} = 10^{(12+2)} = 10^{14}$\n\n- $p = \\text{pico} = 10^{-12}$\n\n$10^{-4} \\times 10^{-12} = 10^{(-12-4)} = 10^{-16}$\n\n- Determine the ratio\n\n`10 to the power of 14 over 10 to the power of negative 16 end exponent equals 10 to the power of 14 minus open parentheses negative 16 close parentheses end exponent equals 10 to the power of 30`\n\n- This is answer **D**",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "10<sup>-30</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "10<sup>-2</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "10<sup>2</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "10<sup>30</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{10^{2}\\text{THz}}{10^{-4}\\text{pHz}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>2</mn></msup><mtext>&#xA0;THz</mtext></mrow><mrow><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mtext>&#xA0;pHz</mtext></mrow></mfrac></math>",
+       "alt": "\\frac{10^{2} \\text{ THz}}{10^{-4} \\text{ pHz}}"
+      },
+      {
+       "latex": "T = \\text{tera} = 10^{12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mtext>tera</mtext><mo>=</mo><msup><mn>10</mn><mn>12</mn></msup></math>",
+       "alt": "T = \\text{tera} = 10^{12}"
+      },
+      {
+       "latex": "10^{2} \\times 10^{12} = 10^{(12+2)} = 10^{14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>&#xD7;</mo><msup><mn>10</mn><mn>12</mn></msup><mo>=</mo><msup><mn>10</mn><mrow><mo>(</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>)</mo></mrow></msup><mo>=</mo><msup><mn>10</mn><mn>14</mn></msup></math>",
+       "alt": "10^{2} \\times 10^{12} = 10^{(12 + 2)} = 10^{14}"
+      },
+      {
+       "latex": "p = \\text{pico} = 10^{-12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mtext>pico</mtext><mo>=</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup></math>",
+       "alt": "p = \\text{pico} = 10^{-12}"
+      },
+      {
+       "latex": "10^{-4} \\times 10^{-12} = 10^{(-12-4)} = 10^{-16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup><mo>=</mo><msup><mn>10</mn><mrow><mo>(</mo><mo>-</mo><mn>12</mn><mo>-</mo><mn>4</mn><mo>)</mo></mrow></msup><mo>=</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>16</mn></mrow></msup></math>",
+       "alt": "10^{-4} \\times 10^{-12} = 10^{(-12 - 4)} = 10^{-16}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RyBYMQwBpdvxVW4w",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BD9JjGdVHnchZzSP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DfXV5f74JS9zJS2H",
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "Which unit is **not **an SI base unit?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The newton (N) is a derived unit (1 N = 1 kg m s<sup>-2</sup>)\n\n**A** is incorrect because ampere (A) is an SI base unit\n\n**B** is incorrect because kelvin (K) is an SI base unit\n\n**C** is incorrect because mole (mol) is an SI base unit\n\n> **[exam-tip]**\n> The derived units you need to be familiar with are:\n> \n> - force - newton (N)\n> - energy - joule (J)\n> - power - watt (W)\n> - pressure - pascal (Pa)\n> - potential difference - volt (V)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "A"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "K"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "mol"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "N"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zC9Mw6ZYG2vwmM56",
+   "set_slug": "multiple-choice-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_nktznFJZbRycPGPV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The current $I$ through a semiconductor diode is given by:\n\n$I=I_{0}e^{\\frac{-qV}{nT}}$\n\nwhere $I_{0}$ is the initial current, $q$ is the charge of an electron, $V$ is the applied potential difference, $T$ is the temperature, and $n$ is a constant.\n\nWhat is the unit of $n$* *when expressed in SI base units?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- From the given relationship $I=I_{0}e^{\\frac{-qV}{nT}}$\n\n  - $I$ and $I_{0}$ are both currents with units of amperes, A\n  - The exponent $\\frac{qV}{nT}$ must be dimensionless (have no units)\n  - Therefore, the units of $n$ must cancel the units of $\\frac{qV}{T}$\n- The unit of charge $q$ is the coulomb C, which in SI base units is:\n\n  - $q=I\\timest$\n  - `open square brackets q close square brackets space equals space straight A space straight s`\n- The unit of potential difference $V$ is the volt V, which in SI base units is:\n\n  - $V=\\frac{W}{q}$\n  - the unit of work done is `open square brackets W close square brackets space equals space straight J space equals space kg space straight m squared space straight s to the power of negative 2 end exponent`\n  - `open square brackets V close square brackets space equals space straight J space straight C to the power of negative 1 end exponent`\n  - `open square brackets V close square brackets space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space open parentheses straight A space straight s close parentheses to the power of negative 1 end exponent`\n  - `open square brackets V close square brackets space equals space kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent`\n- The unit of temperature $T$ is the Kelvin K, which is an SI base unit\n- Therefore, the unit of $n$ is:\n\n  - $n\\propto\\frac{qV}{T}$\n  - `open square brackets n close square brackets space equals space straight A space straight s space open parentheses kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent close parentheses space straight K to the power of negative 1 end exponent`\n  - `open square brackets n close square brackets space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space straight K to the power of negative 1 end exponent`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "kg m<sup>2</sup> s<sup>−2</sup> K<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "kg m<sup>2</sup> s<sup>−4</sup> K<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "kg<sup>−1</sup> m<sup>−2</sup> s<sup>2</sup> K"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "kg<sup>−1</sup> m<sup>−2</sup> s<sup>4</sup> K"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I"
+      },
+      {
+       "latex": "I=I_{0}e^{\\frac{-qV}{nT}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><msup><mi>e</mi><mstyle displaystyle=\"false\"><mfrac><mrow><mo>-</mo><mi>q</mi><mi>V</mi></mrow><mrow><mi>n</mi><mi>T</mi></mrow></mfrac></mstyle></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 e to the power of fraction numerator negative q V over denominator n T end fraction end exponent"
+      },
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "V",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "V"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "I=I_{0}e^{\\frac{-qV}{nT}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><msup><mi>e</mi><mstyle displaystyle=\"false\"><mfrac><mrow><mo>-</mo><mi>q</mi><mi>V</mi></mrow><mrow><mi>n</mi><mi>T</mi></mrow></mfrac></mstyle></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 e to the power of fraction numerator negative q V over denominator n T end fraction end exponent"
+      },
+      {
+       "latex": "I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I"
+      },
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "\\frac{qV}{nT}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>q</mi><mi>V</mi></mrow><mrow><mi>n</mi><mi>T</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator q V over denominator n T end fraction"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "\\frac{qV}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>q</mi><mi>V</mi></mrow><mi>T</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator q V over denominator T end fraction"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "q=I\\timest",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "q space equals space I space cross times space t"
+      },
+      {
+       "latex": "V",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "V"
+      },
+      {
+       "latex": "V=\\frac{W}{q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>W</mi><mi>q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "V space equals space W over q"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n\\propto\\frac{qV}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mrow><mi>q</mi><mi>V</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space proportional to space fraction numerator q V over denominator T end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZBGwhKQfSgRZcpxf",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_QWRvWCNnNH7347mS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DfXV5f74JS9zJS2H"
+     ],
+     "part_tier": null,
+     "problem_md": "The units of all physical quantities can be expressed in terms of SI base units.\n\nWhich pair contains quantities with the same base units?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Pressure is equal to\n\n  - $P=\\frac{F}{A}=\\mathrm{Nm}^{-2}$\n- Young Modulus is equal to\n\n  - $Y=\\frac{stress}{strain}=\\frac{σ}{ε}$\n  - Stress: $σ=\\frac{F}{A}$\n  - Strain: $ε=\\frac{x}{l}$\n  - $Y=\\frac{σ}{ε}=\\frac{F}{A}\\times\\frac{l}{x}=\\frac{N}{m^{2}}\\times\\frac{m}{m}=\\mathrm{Nm}^{-2}$\n\nTherefore, pressure and Young Modulus have the same base units.\n\n**A** is incorrect as the base unit for force is kg m s<sup>-2</sup> and the base unit for momentum is kg m s<sup>-1</sup>\n\n**C** is incorrect as the unit for power is J s<sup>-1</sup> and the unit for energy is J\n\n**D** is incorrect as The base unit for mass is kg and the unit for weight is N or kg m s<sup>-2</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Force and momentum"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Pressure and Young modulus"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Power and kinetic energy"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Mass and weight"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "P=\\frac{F}{A}=\\mathrm{Nm}^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>F</mi><mi>A</mi></mfrac></mstyle><mo> </mo><mo>=</mo><mo> </mo><msup><mi>Nm</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space F over A space equals space Nm to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "Y=\\frac{stress}{strain}=\\frac{σ}{ε}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>Y</mi><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mrow><mi>s</mi><mi>t</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi></mrow><mrow><mi>s</mi><mi>t</mi><mi>r</mi><mi>a</mi><mi>i</mi><mi>n</mi></mrow></mfrac></mstyle><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>σ</mi><mi>ε</mi></mfrac></mstyle></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y space equals space fraction numerator s t r e s s over denominator s t r a i n end fraction space equals space sigma over epsilon"
+      },
+      {
+       "latex": "σ=\\frac{F}{A}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>σ</mi><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>F</mi><mi>A</mi></mfrac></mstyle></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma space equals space F over A"
+      },
+      {
+       "latex": "ε=\\frac{x}{l}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>ε</mi><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>x</mi><mi>l</mi></mfrac></mstyle></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "epsilon space equals space x over l"
+      },
+      {
+       "latex": "Y=\\frac{σ}{ε}=\\frac{F}{A}\\times\\frac{l}{x}=\\frac{N}{m^{2}}\\times\\frac{m}{m}=\\mathrm{Nm}^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>Y</mi><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>σ</mi><mi>ε</mi></mfrac></mstyle><mo> </mo><mo>=</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>F</mi><mi>A</mi></mfrac></mstyle><mo> </mo><mo>×</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>l</mi><mi>x</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi mathvariant=\"normal\">N</mi><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></mfrac><mo> </mo><mo>×</mo><mo> </mo><mfrac><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">m</mi></mfrac></mstyle><mo> </mo><mo>=</mo><msup><mi>Nm</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y space equals space sigma over epsilon space equals space F over A space cross times space l over x space equals space straight N over straight m squared space cross times space straight m over straight m space equals Nm to the power of negative 2 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ywZBXV3P4N3x9SBY",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pbcYK85QwKpPGvPk",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_njp6ry2sNRDTmT7R"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the ratio $\\frac{10^{-3}\\mathrm{THz}}{10^{3}\\mathrm{kHz}}$ ?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- $T=\\mathrm{tera}=10^{12}$\n\n  - `10 to the power of negative 3 end exponent space cross times space 10 to the power of 12 space equals space 10 to the power of open parentheses 12 minus 3 close parentheses end exponent space equals space 10 to the power of 9`\n- $k=\\mathrm{kilo}=10^{3}$\n\n  - `10 cubed space cross times space 10 cubed space equals space 10 to the power of open parentheses 3 plus 3 close parentheses end exponent space equals space 10 to the power of 6`\n- `10 to the power of 9 over 10 to the power of 6 space equals space 10 to the power of open parentheses 9 minus 6 close parentheses space end exponent equals space 10 cubed`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "10<sup>-9</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "10<sup>-6</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "10<sup>0</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "10<sup>3</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{10^{-3}\\mathrm{THz}}{10^{3}\\mathrm{kHz}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle displaystyle=\"false\" mathsize=\"20px\"><mfrac><mrow><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo> </mo><mi>THz</mi></mrow><mrow><msup><mn>10</mn><mn>3</mn></msup><mo> </mo><mi>kHz</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 10 to the power of negative 3 end exponent space THz over denominator 10 cubed space kHz end fraction"
+      },
+      {
+       "latex": "T=\\mathrm{tera}=10^{12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">T</mi><mo> </mo><mo>=</mo><mo> </mo><mi>tera</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mn>10</mn><mn>12</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight T space equals space tera space equals space 10 to the power of 12"
+      },
+      {
+       "latex": "k=\\mathrm{kilo}=10^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">k</mi><mo> </mo><mo>=</mo><mo> </mo><mi>kilo</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mn>10</mn><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight k space equals space kilo space equals space 10 cubed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_W64B5wYT237nf2Hm",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_9wDNcjp5Fgg6YT3k",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The frictional force *F* on a sphere falling through a fluid is given by the formula\n\n$F=6πrηv$\n\nwhere *r* is the radius of the sphere, *η* is a constant relating to the fluid and *v* is the velocity of the sphere.\n\nWhat are the units of *η *?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Once any constants are removed, $F\\proptorηv$\n\n  - * *$η\\propto\\frac{F}{rv}$\n- `open square brackets eta close square brackets space equals space straight N space straight m to the power of negative 1 end exponent open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of negative 1 end exponent`\n- `open square brackets eta close square brackets space equals space kg space straight m space straight s to the power of negative 2 end exponent space straight m to the power of negative 2 end exponent space straight s`\n- `open square brackets eta close square brackets space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent`\n- Therefore, the units for *η* are $\\mathrm{kg}m^{-1}s^{-1}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}ms^{-1}$"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "$\\mathrm{kg}m^{-1}s^{-1}$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}ms^{-3}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}m^{3}s^{-3}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "F=6πrηv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mi mathvariant=\"normal\">&#960;</mi><mi>r</mi><mi>&#951;</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space 6 straight pi r eta v"
+      },
+      {
+       "latex": "F\\proptorηv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>r</mi><mi>&#951;</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space proportional to space r eta v"
+      },
+      {
+       "latex": "η\\propto\\frac{F}{rv}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#951;</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mi>F</mi><mrow><mi>r</mi><mi>v</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "eta space proportional to space fraction numerator F over denominator r v end fraction"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{-1}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{-1}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}ms^{-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m space straight s to the power of negative 3 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{3}s^{-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m cubed space straight s to the power of negative 3 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_V4BMFkKqfGgbNrMF",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JfnzpSMcvYTJ9DTy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_njp6ry2sNRDTmT7R"
+     ],
+     "part_tier": null,
+     "problem_md": "Which product pair of metric prefixes has the smallest magnitude?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- nano = 1 × 10<sup>−9</sup>\n- mega = 1 × 10<sup>6</sup>\n- nano × mega = (1 × 10<sup>−9</sup>) × (1 × 10<sup>6</sup>) = (1 × 10<sup>−3</sup>) = 0.001\n- This is the smallest answer\n\n**B** is incorrect because:\n\n- tera = 1 × 10<sup>12</sup>\n- pico = 1 × 10<sup>-12</sup>\n- tera × pico = (1 × 10<sup>12</sup>) × (1 ×10<sup>-12</sup>) = (1 × 10<sup>0</sup>) = 1\n- This is greater than **A**\n\n**C** is incorrect because:\n\n- centi = 1 × 10<sup>−2</sup>\n- kilo = 1 × 10<sup>3</sup>\n- centi × kilo = (1 × 10<sup>−2</sup>) × (1 × 10<sup>3</sup>) = (1 × 10<sup>1</sup>) = 10\n- This is greater than **A**\n\n**D** is incorrect because:\n\n- micro = 1  × 10<sup>−6</sup>\n- giga = 1 × 10<sup>9</sup>\n- micro × giga = (1 ×10<sup>−6</sup>) × (1 × 10<sup>9</sup>) = (1 × 10<sup>3</sup>)  = 1000\n- This is greater than **A**\n\nYou are expected to know the following prefixes:\n\n- pico (p)\n- nano (n)\n- micro (μ)\n- milli (m)\n- centi (c)\n- deci (d)\n- kilo (k)\n- mega (M)\n- giga (G)\n- tera (T)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "nano × mega"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "tera × pico"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "centi × kilo"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "micro × giga"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_t6yrxF23stNr3sMB",
+   "set_slug": "multiple-choice-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3yygg9yqkjW5QVVj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "Which formula could be correct for the speed *v* of ocean waves in terms of the density *ρ* of sea-water, the acceleration of free fall g, the height *h* of the wave and the wavelength *λ*?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The unit of\n\n  - *v* is $ms^{-1}$\n  - *g* is $ms^{-2}$\n  - *λ* is $m$\n- The unit of g*λ* is\n\n  - `open parentheses straight m space straight s to the power of negative 2 end exponent straight m close parentheses to the power of 1 half end exponent equals space open parentheses straight m squared straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent space equals space space straight m space straight s to the power of negative 1 end exponent`\n- The units of the LHS and the RHS match so the correct answer is C\n\n**A** is incorrect because  the unit of $\\sqrt{ρgh}$ is `open parentheses open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets close parentheses to the power of 1 half space end exponent equals space open parentheses kg space straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent`\n\n**B** is incorrect because the unit of $\\sqrt{\\frac{g}{h}}$ is `open parentheses open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m to the power of negative 1 end exponent close square brackets close parentheses to the power of 1 half end exponent equals space straight s to the power of negative 1 end exponent`\n\n**D** is incorrect because the unit of $\\sqrt{\\frac{g}{ρ}}$ is `open parentheses open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets kg to the power of negative 1 end exponent straight m cubed close square brackets close parentheses to the power of 1 half end exponent equals space open parentheses kg to the power of negative 1 end exponent straight m to the power of 4 straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$v=\\sqrt{ρgh}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$v=\\sqrt{\\frac{g}{h}}$"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "$v=\\sqrt{gλ}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$v=\\sqrt{\\frac{g}{ρ}}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m"
+      },
+      {
+       "latex": "\\sqrt{ρgh}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mi>ρ</mi><mi>g</mi><mi>h</mi></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of rho g h end root"
+      },
+      {
+       "latex": "\\sqrt{\\frac{g}{h}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mfrac><mi>g</mi><mi>h</mi></mfrac></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of g over h end root"
+      },
+      {
+       "latex": "\\sqrt{\\frac{g}{ρ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mfrac><mi>g</mi><mi>ρ</mi></mfrac></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of g over rho end root"
+      },
+      {
+       "latex": "v=\\sqrt{ρgh}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msqrt><mi>ρ</mi><mi>g</mi><mi>h</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v equals square root of rho g h end root"
+      },
+      {
+       "latex": "v=\\sqrt{\\frac{g}{h}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>g</mi><mi>h</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v equals square root of g over h end root"
+      },
+      {
+       "latex": "v=\\sqrt{gλ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msqrt><mi>g</mi><mi>λ</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v equals square root of g lambda end root"
+      },
+      {
+       "latex": "v=\\sqrt{\\frac{g}{ρ}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>g</mi><mi>ρ</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v equals square root of g over rho end root"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RpCv8GVhXKhj89Gs",
+   "set_slug": "multiple-choice-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2jwtJWxcTvKmh7F9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for the terminal velocity of a sphere of radius *r* falling under acceleration due to gravity, *g*, through a liquid with density *⍴* and viscosity *ɳ*, measured in kg m<sup>−1</sup> s<sup>−1</sup> is:\n\n$v_{t}=\\frac{2}{9}\\frac{gr^{n}ρ}{η}$\n\nWhat is the value of *n*?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The units of the variables are:\n\n  - *g *: m s<sup>−2</sup>\n  - *r *: m\n  - *⍴* : kg m<sup>−3</sup>\n  - *ɳ *: kg  m<sup>−1</sup> s<sup>−1</sup>\n- Substituting these units into the equation and ignoring constants:\n\n  - $ms^{-1}=\\frac{(ms^{-2})(m^{n})(\\mathrm{kgm}^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}$\n  - $ms^{-1}=\\frac{m^{-2}s^{-2}m^{n}\\mathrm{kg}}{\\mathrm{kg}m^{-1}s^{-1}}$\n  - $ms^{-1}=m^{-1}s^{-1}m^{n}$\n\n- For the sides to balance *n* must be 2 so that:\n\n  - $ms^{-1}=m^{-1}s^{-1}m^{2}$\n  - $ms^{-1}=ms^{-1}$\n\n**A** is incorrect because:\n\n- `straight m space straight s to the power of negative 1 end exponent equals fraction numerator open parentheses straight m space straight s to the power of negative 2 end exponent close parentheses left parenthesis straight m to the power of 1 half end exponent right parenthesis left parenthesis kg space straight m to the power of negative 3 end exponent right parenthesis over denominator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent end fraction`\n- $ms^{-1}=m^{-1}s^{-1}m^{\\frac{1}{2}}$\n- $ms^{-1}=m^{-\\frac{1}{2}}s^{-1}$\n\n**B** is incorrect because:\n\n- $ms^{-1}=\\frac{(ms^{-2})(m)(\\mathrm{kg}m^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}$\n- $ms^{-1}=m^{-1}s^{-1}m$\n- $ms^{-1}=s^{-1}$\n\n**D** is incorrect because:\n\n- $ms^{-1}=\\frac{(ms^{-2})(m^{3})(\\mathrm{kg}m^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}$\n- $ms^{-1}=m^{-1}s^{-1}m^{3}$\n- $ms^{-1}=m^{2}s^{-1}$\n\nMake sure to substitute the units of all of the terms into the equations. Then set *n* such that the equation is homogeneous. An equation is homogeneous when the units on both sides of the equation are the same.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.5"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "2"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "v_{t}=\\frac{2}{9}\\frac{gr^{n}ρ}{η}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>v</mi><mi>t</mi></msub><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mfrac><mrow><mi>g</mi><msup><mi>r</mi><mi>n</mi></msup><mi>&#961;</mi></mrow><mi>&#951;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v subscript t equals 2 over 9 fraction numerator g r to the power of n rho over denominator eta end fraction"
+      },
+      {
+       "latex": "ms^{-1}=\\frac{(ms^{-2})(m^{n})(\\mathrm{kgm}^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mrow><mo>(</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>)</mo><mo>(</mo><msup><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">n</mi></msup><mo>)</mo><mo>(</mo><msup><mi>kgm</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo></mrow><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals fraction numerator left parenthesis straight m space straight s to the power of negative 2 end exponent right parenthesis left parenthesis straight m to the power of straight n right parenthesis left parenthesis kgm to the power of negative 3 end exponent right parenthesis over denominator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent end fraction"
+      },
+      {
+       "latex": "ms^{-1}=\\frac{m^{-2}s^{-2}m^{n}\\mathrm{kg}}{\\mathrm{kg}m^{-1}s^{-1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">n</mi></msup><mi>kg</mi></mrow><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals fraction numerator straight m to the power of negative 2 end exponent straight s to the power of negative 2 end exponent space straight m to the power of straight n kg over denominator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent end fraction"
+      },
+      {
+       "latex": "ms^{-1}=m^{-1}s^{-1}m^{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent straight m to the power of straight n"
+      },
+      {
+       "latex": "ms^{-1}=m^{-1}s^{-1}m^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent space straight m squared"
+      },
+      {
+       "latex": "ms^{-1}=ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ms^{-1}=m^{-1}s^{-1}m^{\\frac{1}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">m</mi><mstyle displaystyle=\"false\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent straight m to the power of 1 half end exponent"
+      },
+      {
+       "latex": "ms^{-1}=m^{-\\frac{1}{2}}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mstyle displaystyle=\"false\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 half end exponent straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ms^{-1}=\\frac{(ms^{-2})(m)(\\mathrm{kg}m^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mrow><mo>(</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>)</mo><mo>(</mo><mi mathvariant=\"normal\">m</mi><mo>)</mo><mo>(</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo></mrow><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals fraction numerator left parenthesis straight m space straight s to the power of negative 2 end exponent right parenthesis left parenthesis straight m right parenthesis left parenthesis kg space straight m to the power of negative 3 end exponent right parenthesis over denominator kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent end fraction"
+      },
+      {
+       "latex": "ms^{-1}=m^{-1}s^{-1}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent space straight m"
+      },
+      {
+       "latex": "ms^{-1}=s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ms^{-1}=\\frac{(ms^{-2})(m^{3})(\\mathrm{kg}m^{-3})}{\\mathrm{kg}m^{-1}s^{-1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mrow><mo>(</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>)</mo><mo>(</mo><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup><mo>)</mo><mo>(</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo></mrow><mrow><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals fraction numerator left parenthesis straight m space straight s to the power of negative 2 end exponent right parenthesis left parenthesis straight m cubed right parenthesis left parenthesis kg space straight m to the power of negative 3 end exponent right parenthesis over denominator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent end fraction"
+      },
+      {
+       "latex": "ms^{-1}=m^{-1}s^{-1}m^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent straight m cubed"
+      },
+      {
+       "latex": "ms^{-1}=m^{2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m space straight s to the power of negative 1 end exponent equals straight m squared straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rJPnCjvcMz2DcjG3",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wjKYQMwq6VGTbxrT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DfXV5f74JS9zJS2H"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following correctly expresses the volt in terms of SI base units?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Potential difference is equal to $\\frac{workdone}{charge}$\n- So, the unit of the volt is J C<sup>-1</sup>\n- The base unit of energy $E=\\frac{1}{2}mv^{2}$ is\n\n  - `straight J space equals space kg open parentheses ms to the power of negative 1 end exponent close parentheses squared space equals space kgm squared straight s to the power of negative 2 end exponent`\n- The base unit of charge $Q=It$ is\n\n  - $C=\\mathrm{As}$\n- So, the base unit of the volt is\n\n  - $JC^{-1}=\\mathrm{kg}m^{2}s^{-2}A^{-1}s^{-1}$\n- $V=\\mathrm{kg}m^{2}s^{-3}A^{-1}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "AΩ* *"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "WA<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}m^{2}s^{--1}A^{--1}$"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "$\\mathrm{kg}m^{2}s^{--3}A^{--1}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{workdone}{charge}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mstyle displaystyle=\"false\"><mfrac><mrow><mi>w</mi><mi>o</mi><mi>r</mi><mi>k</mi><mo> </mo><mi>d</mi><mi>o</mi><mi>n</mi><mi>e</mi></mrow><mrow><mi>c</mi><mi>h</mi><mi>a</mi><mi>r</mi><mi>g</mi><mi>e</mi></mrow></mfrac></mstyle></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator w o r k space d o n e over denominator c h a r g e end fraction"
+      },
+      {
+       "latex": "E=\\frac{1}{2}mv^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo> </mo><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space 1 half space m v squared"
+      },
+      {
+       "latex": "Q=It",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo> </mo><mo>=</mo><mo> </mo><mi>I</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space I t"
+      },
+      {
+       "latex": "C=\\mathrm{As}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">C</mi><mo> </mo><mo>=</mo><mo> </mo><mi>As</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight C space equals space As"
+      },
+      {
+       "latex": "JC^{-1}=\\mathrm{kg}m^{2}s^{-2}A^{-1}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">J</mi><mo> </mo><msup><mi mathvariant=\"normal\">C</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><mo>=</mo><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight J space straight C to the power of negative 1 end exponent space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space straight A to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "V=\\mathrm{kg}m^{2}s^{-3}A^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo> </mo><mo>=</mo><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V space equals space kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{2}s^{--1}A^{--1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>–</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">A</mi><mrow><mo>–</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m squared space straight s to the power of – 1 end exponent space straight A to the power of – 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{2}s^{--3}A^{--1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>–</mo><mn>3</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">A</mi><mrow><mo>–</mo><mn>1</mn></mrow></msup><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m squared space straight s to the power of – 3 end exponent space straight A to the power of – 1 end exponent space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rgHhwxWkbkhSbWrs",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_86cVMKgBCdMVKvXW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_njp6ry2sNRDTmT7R"
+     ],
+     "part_tier": null,
+     "problem_md": "Four values of energy are listed below.\n\n- 5kJ\n- 5mJ\n- 5MJ\n- 5nJ\n\nStarting with the smallest first, what is the order of increasing magnitude of these energies?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- If we convert each power of ten we get:\n\n| - 5 kJ | = | 5 $\\times$ 10<sup>3 </sup>J |\n|---|---|---|\n| - 5 mJ | = | 5 $\\times$10<sup>-3 </sup>J |\n| - 5 MJ | = | 5 $\\times$ 10<sup>6</sup> J |\n| - 5 nJ | = | 5 $\\times$ 10<sup>-9</sup> J |\n\n- Therefore, from smallest to largest: $5\\mathrm{nJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$5\\mathrm{kJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{MJ}\\rightarrow5\\mathrm{nJ}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$5\\mathrm{nJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}\\rightarrow5\\mathrm{mJ}$"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "$5\\mathrm{nJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$5\\mathrm{mJ}\\rightarrow5\\mathrm{nJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>×</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>×</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>×</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>×</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "5\\mathrm{nJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>nJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>mJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>kJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>MJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 nJ space rightwards arrow 5 mJ space rightwards arrow 5 kJ space rightwards arrow 5 MJ"
+      },
+      {
+       "latex": "5\\mathrm{kJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{MJ}\\rightarrow5\\mathrm{nJ}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>kJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>mJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>MJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>nJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 kJ space rightwards arrow 5 mJ space rightwards arrow 5 MJ space rightwards arrow 5 nJ"
+      },
+      {
+       "latex": "5\\mathrm{nJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}\\rightarrow5\\mathrm{mJ}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>nJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>kJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>MJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>mJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 nJ space rightwards arrow 5 kJ space rightwards arrow 5 MJ space rightwards arrow 5 mJ"
+      },
+      {
+       "latex": "5\\mathrm{nJ}\\rightarrow5\\mathrm{mJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>nJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>mJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>kJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>MJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 nJ space rightwards arrow 5 mJ space rightwards arrow 5 kJ space rightwards arrow 5 MJ"
+      },
+      {
+       "latex": "5\\mathrm{mJ}\\rightarrow5\\mathrm{nJ}\\rightarrow5\\mathrm{kJ}\\rightarrow5\\mathrm{MJ}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>mJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>nJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>kJ</mi><mo> </mo><mo>→</mo><mn>5</mn><mi>MJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 mJ space rightwards arrow 5 nJ space rightwards arrow 5 kJ space rightwards arrow 5 MJ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qcMDvzCP4NwHTCbz",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BYTQyPSKpfvpgHg6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "Which quantity can be measured in electronvolts (eV)?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The definition of an electron volt is the energy that an electron gains when it travels through a potential of one volt\n- 1 eV is equal to 1.6 × 10<sup>–19</sup> J",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Electric charge"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Electric potential"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Energy"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Power"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PfXTR6NT8YktHsSV",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_92rjsVgYrnCnY9Pr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DfXV5f74JS9zJS2H"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following is an SI base unit?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The main SI units you need to be aware of are:\n\n  - Metre (m)\n  - Kilogram (kg)\n  - Second (s)\n  - Ampere (A)\n  - Kelvin (K)\n  - Mole (mol)\n\n- Kelvin is the only SI unit listed\n\n**A **is incorrect as current is a quantity, not a unit\n\n**B** is incorrect as the correct SI unit for mass is the kilogram\n\n**D** is incorrect as the volt is a derived unit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Current"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Gram"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Kelvin"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Volt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mgpHsCNd7KytNqSy",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cMcjydQC9DCZsqsx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation relating pressure and density is $P=ρgh$\n\nHow can both sides of this equation be written in terms of base units?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Pressure is equal to\n\n  - `P space equals space F over A space equals space straight N space straight m to the power of negative 2 end exponent space equals space open parentheses kg space ms to the power of negative 2 end exponent close parentheses straight m to the power of negative 2 end exponent space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent`\n- On the RHS we can combine units to give\n\n  - `open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent`\n- The LHS matches the RHS so the correct answer is C\n\n**A** is incorrect as the $Nm^{-1}$ on the LHS is the incorrect unit for pressure\n\n**B** is incorrect as the units are correct on the LHS, but on the RHS `open square brackets kg space straight m to the power of negative 2 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets` simplifies to* *$\\mathrm{kg}s^{-1}$* *which is incorrect\n\n**D** is incorrect as the $\\mathrm{kg}m^{-1}s^{-1}$ on the LHS is the incorrect base unit for pressure",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "`open square brackets straight N space straight m to the power of negative 1 end exponent close square brackets space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 1 end exponent close square brackets open square brackets straight m close square brackets`"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "`open square brackets straight N space straight m to the power of negative 2 end exponent close square brackets space equals space open square brackets kg space straight m to the power of negative 2 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets`"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "`open square brackets kg space straight m to the power of negative 1 space end exponent straight s to the power of negative 2 end exponent close square brackets space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets`"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "`open square brackets kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent close square brackets space equals space open square brackets kg space straight m to the power of negative 1 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets`"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "P=ρgh",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ρ</mi><mi>g</mi><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space rho g h"
+      },
+      {
+       "latex": "Nm^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">N</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight N space straight m to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{-1}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JKKcXWCWvhcSVvxc",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_V2zmGXWcZ6y92Mpj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DfXV5f74JS9zJS2H"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following is not a SI base unit?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- The volt is a derived unit (1 V = 1 kg m<sup>2</sup> s<sup>−3</sup> A<sup>−1</sup> )\n\n**A** is incorrect because kilogram is a base unit\n\n**B** is incorrect because metre is a base unit\n\n**C** is incorrect because second is a base unit\n\nThe base units you need to be familiar with are:\n\n- Mass - kilogram (kg)\n- Length - metre (m)\n- Time - second (s)\n- Temperature - Kelvin (K)\n- Electric current - ampere (A)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "kilogram"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "metre"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "second"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "volt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JcPKdwFJdcj9PRVD",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_997mdhnMx2fTbVwW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The speed *v* of a liquid leaving a tube depends on the change in pressure Δ*P* and the density *ρ* of the liquid. The speed is given by the equation\n\n`v equals k open parentheses fraction numerator increment P over denominator rho end fraction close parentheses to the power of n`\n\nwhere *k* is a constant that has no units.\n\nWhat is the value of *n*?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Combining $\\DeltaP=\\frac{F}{A}\\text{and}F=ma$\n\n  - $\\DeltaP=\\frac{ma}{A}=\\frac{\\mathrm{kg} \\mathrm{ms}^{-2}}{m^{2}}=\\mathrm{kg}m^{-1}s^{-2}$\n- The units of density are\n\n  - $ρ=\\frac{m}{v}$$=\\mathrm{kg}m^{-3}$\n  - $\\frac{\\DeltaP}{ρ}=\\frac{\\mathrm{kg}m^{-1}s^{-2}}{\\mathrm{kg}m^{-3}}=m^{3}m^{-1}s^{-2}=m^{2}s^{-2}$\n  - `straight m space straight s to the power of negative 1 space end exponent equals space open parentheses straight m squared straight s to the power of negative 2 end exponent close parentheses to the power of straight n`\n- Therefore $n=\\frac{1}{2}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "$\\frac{1}{2}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\frac{3}{2}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "2"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\DeltaP=\\frac{F}{A}\\text{and}F=ma",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∆</mo><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>F</mi><mi>A</mi></mfrac><mtext> and </mtext><mo> </mo><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mi>m</mi><mi>a</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment P space equals space F over A text  and  end text space F space equals space m a"
+      },
+      {
+       "latex": "\\DeltaP=\\frac{ma}{A}=\\frac{\\mathrm{kg} \\mathrm{ms}^{-2}}{m^{2}}=\\mathrm{kg}m^{-1}s^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>m</mi><mi>a</mi></mrow><mi>A</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>kg</mi><mo> </mo><msup><mi>ms</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment P space equals space fraction numerator m a over denominator A end fraction space equals space fraction numerator kg space ms to the power of negative 2 end exponent over denominator straight m squared end fraction equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "ρ=\\frac{m}{v}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ρ</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>m</mi><mi>v</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rho space equals space m over v"
+      },
+      {
+       "latex": "=\\mathrm{kg}m^{-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals space kg space straight m to the power of negative 3 end exponent"
+      },
+      {
+       "latex": "\\frac{\\DeltaP}{ρ}=\\frac{\\mathrm{kg}m^{-1}s^{-2}}{\\mathrm{kg}m^{-3}}=m^{3}m^{-1}s^{-2}=m^{2}s^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>∆</mo><mi>P</mi></mrow><mi>ρ</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn><mo> </mo></mrow></msup><mo>=</mo><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator increment P over denominator rho end fraction space equals space fraction numerator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent over denominator kg space straight m to the power of negative 3 end exponent end fraction space equals space straight m cubed straight m to the power of negative 1 end exponent straight s to the power of negative 2 space end exponent equals space straight m squared straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "n=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space 1 half"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half"
+      },
+      {
+       "latex": "\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 over 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HFhQx4p7CGmTg2NM",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wRHW9m42vKfRWdsD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "The table contains some quantities, together with their symbols and units.\n\n| **Quantity** | **Symbol** | **Unit** |\n|---|---|---|\n| Gravitational field strength | *g* | N kg<sup>**–**</sup><sup>1</sup> |\n| Density of liquid | *ρ* | kg m<sup>**–**</sup><sup>3</sup> |\n| Vertical height | *h* | m |\n| Volume of part of liquid | *V* | m<sup>3</sup> |\n\nWhich expression has the units of energy?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- The base unit of energy is `straight J space equals space kg open parentheses ms to the power of negative 1 end exponent close parentheses squared space equals space kg space straight m squared space straight s to the power of negative 2 end exponent`\n\n  - `table row cell g rho h V space end cell equals cell space open square brackets ms to the power of negative 2 end exponent close square brackets open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m cubed close square brackets end cell end table` `table row blank equals cell space straight N space straight m end cell row blank equals cell space open parentheses kg space straight m space straight s to the power of negative 2 end exponent close parentheses straight m end cell row blank equals cell space kg space straight m to the power of 2 space end exponent straight s to the power of negative 2 end exponent end cell end table`\n- Therefore, $gρhV$ has the same units as energy\n\n**A** is incorrect as the units of `rho g squared h space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets squared open square brackets straight m close square brackets space equals space kg space straight s to the power of negative 4 end exponent`\n\n**B** is incorrect as the units of `fraction numerator rho h V over denominator g end fraction space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m cubed close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets to the power of negative 1 space end exponent equals kg space straight s squared`\n\n**C** is incorrect as the units of `fraction numerator rho g over denominator h V end fraction space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets to the power of negative 1 end exponent open square brackets straight m cubed close square brackets to the power of negative 1 space end exponent equals space kg space straight m to the power of negative 6 end exponent space straight s to the power of negative 2 end exponent`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$ρg^{2}h$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$\\frac{ρhV}{g}$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\frac{ρg}{hV}$"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "$gρhV$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "gρhV",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mi>ρ</mi><mi>h</mi><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g rho h V"
+      },
+      {
+       "latex": "ρg^{2}h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ρ</mi><msup><mi>g</mi><mn mathvariant=\"italic\">2</mn></msup><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rho g to the power of italic 2 h"
+      },
+      {
+       "latex": "\\frac{ρhV}{g}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>ρ</mi><mi>h</mi><mi>V</mi></mrow><mi>g</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator rho h V over denominator g end fraction"
+      },
+      {
+       "latex": "\\frac{ρg}{hV}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">ρ</mi><mi>g</mi></mrow><mrow><mi>h</mi><mi>V</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator straight rho g over denominator h V end fraction"
+      },
+      {
+       "latex": "gρhV",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mi>ρ</mi><mi>h</mi><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g rho h V"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GmHzbMCK98hNCc6R",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pSFJDvZyskmJqWqz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "The drag coefficient *C*<sub>*d*</sub> is a number with no units. It is used to compare the drag on different cars at different speeds. It is given by the equation\n\n$C_{d}=\\frac{2F}{ρv^{n}A}$\n\nwhere *F* is the drag force on the car, *ρ* is the density of the air, *A* is the cross-sectional area of the car and *v* is the speed of the car.\n\nWhat is the value of *n*?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Since *C*<sub>*d*</sub> is a quantity with no units we can disregard it for this question\n- That leaves us with F $αρv^{n}A$\n- So, $v^{n}α\\frac{F}{ρA}$\n- `open parentheses ms to the power of negative 1 end exponent close parentheses to the power of straight n space equals space open square brackets straight N close square brackets open square brackets kg space straight m to the power of negative 3 end exponent close square brackets to the power of negative 1 end exponent open square brackets straight m squared close square brackets to the power of negative 1 end exponent` *= *$\\mathrm{kg}ms^{-2}\\mathrm{kg}^{-1}m^{3}m^{-2}$ *=  *$m^{2}s^{-2}$\n- Comparing `open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of straight n space equals space straight m squared straight s to the power of negative 2 end exponent` we can see that *n *=  2",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "C_{d}=\\frac{2F}{ρv^{n}A}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>C</mi><mi>d</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mi>F</mi></mrow><mrow><mi>ρ</mi><msup><mi>v</mi><mi>n</mi></msup><mi>A</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "C subscript d space equals space fraction numerator 2 F over denominator rho v to the power of n A end fraction"
+      },
+      {
+       "latex": "αρv^{n}A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo> </mo><mo> </mo><mi>ρ</mi><msup><mi>v</mi><mi>n</mi></msup><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha space space rho v to the power of n A"
+      },
+      {
+       "latex": "v^{n}α\\frac{F}{ρA}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>v</mi><mi>n</mi></msup><mo> </mo><mi>α</mi><mo> </mo><mfrac><mi>F</mi><mrow><mi>ρ</mi><mi>A</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v to the power of n space alpha space fraction numerator F over denominator rho A end fraction"
+      },
+      {
+       "latex": "\\mathrm{kg}ms^{-2}\\mathrm{kg}^{-1}m^{3}m^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><msup><mi>kg</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m space straight s to the power of negative 2 end exponent kg to the power of negative 1 end exponent straight m cubed straight m to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "m^{2}s^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m squared straight s to the power of negative 2 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G75zDmbX4CDCdKVN",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_v5NfSJb29bHJdz2H",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "The average kinetic energy *E* of a gas molecule is given by the equation\n\n$E=\\frac{3}{2}kT$\n\nwhere *T* is the thermodynamic (kelvin) temperature.\n\nWhat are the SI base units of *k*?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- We can ignore any numbers in the formula since they do not have any units.\n- $k\\propto\\frac{E}{T}$ so, the unit will be along the lines of J K <sup>−1</sup>\n- We can reduce J to its SI unit by considering the equation for kinetic energy $E_{k}\\proptomv^{2}$\n\n  - `straight J space equals space kg space open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses squared equals space kg space straight m squared space straight s to the power of negative 2 end exponent`\n- The units of *k* are\n\n  - $JK^{-1}=\\mathrm{kg}m^{2}s^{-2}K^{-1}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}^{-1}m^{-1}s^{2}K$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}^{-1}m^{-2}s^{2}K$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\mathrm{kg}ms^{-2}K^{-1}$"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "$\\mathrm{kg}m^{2}s^{-2}K^{-1}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "E=\\frac{3}{2}kT",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>k</mi><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E space equals space 3 over 2 k T"
+      },
+      {
+       "latex": "k\\propto\\frac{E}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo> </mo><mo>∝</mo><mo> </mo><mstyle displaystyle=\"false\"><mfrac><mi>E</mi><mi>T</mi></mfrac></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k space proportional to space E over T"
+      },
+      {
+       "latex": "E_{k}\\proptomv^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mi>k</mi></msub><mo> </mo><mo>∝</mo><mo> </mo><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E subscript k space proportional to space m v squared"
+      },
+      {
+       "latex": "JK^{-1}=\\mathrm{kg}m^{2}s^{-2}K^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">J</mi><mo> </mo><msup><mi mathvariant=\"normal\">K</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><mo>=</mo><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">K</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight J space straight K to the power of negative 1 end exponent space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space straight K to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}^{-1}m^{-1}s^{2}K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>kg</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup><mo> </mo><mi mathvariant=\"normal\">K</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg to the power of negative 1 end exponent space straight m to the power of negative 1 end exponent space straight s squared space straight K space"
+      },
+      {
+       "latex": "\\mathrm{kg}^{-1}m^{-2}s^{2}K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>kg</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup><mo> </mo><mi mathvariant=\"normal\">K</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg to the power of negative 1 end exponent space straight m to the power of negative 2 end exponent space straight s squared space straight K space"
+      },
+      {
+       "latex": "\\mathrm{kg}ms^{-2}K^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">K</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m space straight s to the power of negative 2 end exponent space straight K to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\mathrm{kg}m^{2}s^{-2}K^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">K</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "kg space straight m squared space straight s to the power of negative 2 end exponent space straight K to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9TGfMFQ2gynhjT6Z",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XRrhb9RFkBDjy4Bf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement includes a correct unit?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because: **\n\n- Change in momentum (or impulse) is equal to force × time, giving a unit of N s\n\n**A** is incorrect as the unit of energy is* *J or* *kg m<sup>2</sup> s<sup>-2</sup>* *or N m\n\n**B** is incorrect as the unit of force is N or kg m s<sup>-2</sup>\n\n**D** is incorrect as the unit of torque is N m or kg m<sup>2</sup> s<sup>-2</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Energy = 7.8 N s"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Force = 3.8 N s"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Momentum = 6.2 N s"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Torque = 4.7 N s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8kcJ5v84PwpGvkny",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CjVntBmPp6g38ny8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_njp6ry2sNRDTmT7R"
+     ],
+     "part_tier": null,
+     "problem_md": "Which product-pair of metric prefixes has the greatest magnitude?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- milli × tera is equal to 10<sup>–3</sup> × 10<sup>12 </sup>= 10<sup>9</sup>\n\n**A** is incorrect as this is equal to 10<sup>–12</sup> × 10<sup>6</sup> = 10<sup>–6</sup>\n\n**B** is incorrect as this is equal to 10<sup>–9</sup> × 10<sup>3</sup> = 10<sup>–6</sup>\n\n**C** is incorrect as this is equal to 10<sup>–6</sup> × 10<sup>9</sup> = 10<sup>3</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "pico × mega"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "nano × kilo"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "micro × giga"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "milli × tera"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8CD3SZrC2y8YCZBC",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HrbcqbyqqCgDqB3F",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9S36YjsM773JQzp"
+     ],
+     "part_tier": null,
+     "problem_md": "When a constant braking force is applied to a vehicle moving at speed *v*, the distance *d* moved by the vehicle as it comes to rest is given by the expression\n\n$d=kv^{2}$\n\nwhere* k* is a constant.\n\nWhen *d* is measured in metres and *v* is measured in metres per second, the constant has a value of *k*<sub>*1*</sub>.\n\nWhat is the value of the constant *k* when the distance is measured in metres, and the speed is measured in kilometres per hour?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- When $d=k_{1}v^{2}$ the unit of *k*<sub>*1*</sub> is\n\n  - `d over v squared space equals space open square brackets straight m close square brackets open square brackets straight m space straight s to the power of negative 1 end exponent close square brackets space equals space straight m to the power of negative 1 end exponent space straight s squared`\n\n- When $d=kv^{2}$ the unit of *k* is\n\n  - `d over v squared open parentheses straight m close parentheses open square brackets km space straight h to the power of negative 1 end exponent close square brackets space equals space straight m open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of negative 2 space end exponent open parentheses fraction numerator 1000 over denominator 60 cross times 60 end fraction close parentheses to the power of negative 2 end exponent equals space 13.0 space straight m to the power of negative 1 end exponent space straight s squared`\n\n- Comparing the two units we can see *k*<sub>*1*</sub> = 13.0*k*, so *k* = 0.077$k_{1}$\n\n**B **and **C **are incorrect because these are the answers you get if you don't square the conversion i.e.* *$\\frac{3000}{1000}=3.6$* *\n\n**D** is incorrect because $k_{1}$ is equal to 13.0*k*, not the other way around",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "$0.077k_{1}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$0.278k_{1}$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$3.60k_{1}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$13.0k_{1}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "d=kv^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>k</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space k v squared"
+      },
+      {
+       "latex": "d=k_{1}v^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>k</mi><mn>1</mn></msub><msup><mi>v</mi><mrow><mo>&#160;</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space k subscript 1 v to the power of space 2 end exponent"
+      },
+      {
+       "latex": "d=kv^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>k</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space k v squared"
+      },
+      {
+       "latex": "k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>k</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k subscript 1"
+      },
+      {
+       "latex": "\\frac{3000}{1000}=3.6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>3000</mn><mn>1000</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>3</mn><mo>.</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3000 over 1000 space equals space 3.6"
+      },
+      {
+       "latex": "k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>k</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k subscript 1"
+      },
+      {
+       "latex": "0.077k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>077</mn><msub><mi>k</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.077 k subscript 1"
+      },
+      {
+       "latex": "0.278k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>278</mn><msub><mi>k</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.278 k subscript 1"
+      },
+      {
+       "latex": "3.60k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>60</mn><msub><mi>k</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3.60 k subscript 1"
+      },
+      {
+       "latex": "13.0k_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>.</mo><mn>0</mn><msub><mi>k</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13.0 k subscript 1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

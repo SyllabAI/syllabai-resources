@@ -1,0 +1,203 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:00Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "10-data-types-and-structures-",
+  "name": "10. Data Types & Structures"
+ },
+ "topic": {
+  "id": "top_BybvBJcnd2crdtfW",
+  "slug": "files",
+  "name": "Files",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "file-handling",
+   "name": "File Handling",
+   "revision_note_id": "rn_vRsrCDTxKxjCf9Rv"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_HRZK6R2WxWgnd34d",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "very_hard"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/10-data-types-and-structures-/files/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 4,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_9QZVQ3PFC2Q9wmSK",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_RYXHD7MQ3XJRXM8K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t5QxGmPqkFwzJk84"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station stores its temperature readings in the text file `Readings.txt`.\n\nEach line of the file holds one reading as a numeric string, for example `18.4`. The number of readings in the file is not known, and the file may be empty.\n\nWrite pseudocode for a function `CountAbove()` that:\n\n- takes one parameter `Limit` of type `REAL`\n- opens `Readings.txt` for reading\n- reads every line in the file\n- counts the readings that are greater than `Limit`\n- closes the file\n- returns the count as an `INTEGER`, returning 0 if the file is empty.\n\nYou may use the built-in functions `EOF()` and STR<u>TO</u>NUM().",
+     "solution_md": "The `WHILE` loop tests for the end of the file before it reads. If `Readings.txt` is empty then `EOF(\"Readings.txt\")` is `TRUE` on the first test, the loop body never runs, and the function returns 0.\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a function header naming the parameter and the return type, `FUNCTION CountAbove(Limit : REAL) RETURNS INTEGER`, with a matching `ENDFUNCTION`\n> \n> **1 mark** for a counter set to 0 before the loop\n> \n> **1 mark** for `OPENFILE \"Readings.txt\" FOR READ`\n> \n> **1 mark** for a pre-condition loop controlled by the end of the file, `WHILE NOT EOF(\"Readings.txt\")` with `ENDWHILE`\n> \n> **1 mark** for `READFILE \"Readings.txt\", ThisLine` inside the loop, then a test of the form IF STR<u>TO</u>NUM(ThisLine) > Limit THEN, and adding 1 to the counter\n> \n> **1 mark** for `CLOSEFILE \"Readings.txt\"` followed by `RETURN Count`\n> \n> Accept a `STRING` variable holding the file name in place of the literal `\"Readings.txt\"`, used consistently.\n> \n> Do not accept `REPEAT ... UNTIL EOF(\"Readings.txt\")`. A post-condition loop reads a line before it tests for the end of the file, so it fails on an empty file and cannot return 0.\n> \n> Do not accept a comparison written without a conversion, such as `IF ThisLine > Limit THEN`. `READFILE` stores a `STRING`, and a `STRING` cannot be compared with a `REAL`.\n> \n> Do not accept the comparison written with `>=`. A reading equal to `Limit` is not greater than `Limit`.\n> \n> Accept `OPEN` for `OPENFILE` and `CLOSE` for `CLOSEFILE`. Do not accept `READ` in place of `READFILE`.\n\n> **[exam-tip]**\n> The empty file is what this question is testing, and `REPEAT ... UNTIL EOF()` is the answer that fails it. A post-condition loop always runs its body once, so it calls `READFILE` on a file that has no lines. Use `WHILE NOT EOF(...)` whenever the number of lines is unknown, and keep `REPEAT` for loops that must run at least once.\n> \n> `READFILE` always gives you a `STRING`, even when the line looks like a number. Convert it with STR<u>TO</u>NUM() before any numeric comparison or arithmetic. Check the spelling on the Insert. It is STR<u>TO</u>NUM, and there is no `ROUND`, `ABS` or `SPLIT` on this paper."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gdvwN9Rz83jPM238",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_S93CXS4DTKYGpGb6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t5QxGmPqkFwzJk84"
+     ],
+     "part_tier": null,
+     "problem_md": "A program writes a message to a log file each time an error occurs.\n\nThe text file `ErrorLog.txt` already exists and contains the messages from earlier runs of the program. These messages must not be lost.\n\nThe procedure `AddError()` takes one parameter `Message` of type `STRING`. It adds `Message` to `ErrorLog.txt` as a new line, then closes the file.\n\nThe first and last lines of the procedure are given.\n\nComplete the procedure by writing the three pseudocode statements that are missing.",
+     "solution_md": "**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `OPENFILE \"ErrorLog.txt\" FOR APPEND`\n> \n> **1 mark** for `WRITEFILE \"ErrorLog.txt\", Message`\n> \n> **1 mark** for `CLOSEFILE \"ErrorLog.txt\"` written after the `WRITEFILE` statement\n> \n> Accept a `STRING` variable holding the file name in place of the literal `\"ErrorLog.txt\"`, provided the same variable is used in all three statements.\n> \n> Do not accept `OPENFILE \"ErrorLog.txt\" FOR WRITE`. `WRITE` mode creates a new file and the earlier messages would be lost.\n> \n> Do not accept `WRITEFILE Message` without the file name. The file name is the first argument of `WRITEFILE`.\n> \n> Accept `OPEN` for `OPENFILE`, `WRITE` for `WRITEFILE` and `CLOSE` for `CLOSEFILE`, provided the file name and the mode or the data are correct; Cambridge mark schemes use these short forms in their own model answers and marking points.\n\n> **[exam-tip]**\n> The commonest loss here is dropping the file name. `WRITEFILE` and `CLOSEFILE` both need it, because a program may have more than one file open at the same time. Write `WRITEFILE \"ErrorLog.txt\", Message`, not `WRITEFILE Message`.\n> \n> The second commonest loss is forgetting `CLOSEFILE` altogether. A procedure that opens a file and never closes it leaves the file open in `APPEND` mode, so the next part of the program cannot open it for reading."
+    }
+   ]
+  },
+  {
+   "id": "qstn_TTWnTJ3rXsH7ngNh",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_XYQ4nXSx2YB4ZVdH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t5QxGmPqkFwzJk84"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station records the total rainfall for each day.\n\nAt the end of each day the program adds one new line to the text file `Rainfall.txt`. This file already contains the totals for all the previous days. The totals for the previous days must not be lost.\n\nExplain why the program stores the daily totals in a text file rather than in an array, and why the file is opened in `APPEND` mode rather than `WRITE` mode.",
+     "solution_md": "An array is held in memory while the program is running, so the daily totals would be lost when the program ends or the computer is switched off. A text file stores the totals permanently, so the earlier days are still there the next time the program is run. **[1]**\n\n`WRITE` mode creates a new file, so the totals already in `Rainfall.txt` would be lost. `APPEND` mode adds the new line after the data that is already in the file, so the earlier totals are kept. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the data in an array is lost when the program ends / when the computer is switched off, but a file stores the data permanently\n> \n> **1 mark** for `WRITE` mode would create a new file / overwrite the data already in `Rainfall.txt`, while `APPEND` mode adds the new line after the existing data\n> \n> Accept for the first mark: \"a file is non-volatile storage\", or \"the totals do not have to be entered again each time the program runs\".\n> \n> Accept for the second mark: \"`APPEND` keeps the existing data\" on its own.\n> \n> Do not accept \"a file can hold more data than an array\" for the first mark. Capacity is not the reason the data is stored in a file here; losing the data when the program ends is.\n> \n> Do not accept \"a file is faster than an array\". Reading from a file is slower than reading from memory, so this is not true.\n\n> **[exam-tip]**\n> Many students write only \"so the data is saved\". That sentence does not say what would be lost, so it rarely earns the mark. Say where an array lives and when it disappears: an array is in memory, and memory contents go when the program stops.\n> \n> Learn the three text file modes by what they do to the data that is already in the file. `READ` does not change it, `WRITE` throws it away and starts the file again, and `APPEND` keeps it and adds after it. Any question that says the file already contains data that must not be lost is asking for `APPEND`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_NW9W2SdKDHPCd5Qh",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_RgSCSd3g9SDFtV8c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_t5QxGmPqkFwzJk84",
+      "spcpt_p6gdsGKbBwW2jTbr",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm will output the last three lines from a text file `Result.txt `\n\nThe lines need to be output in the same order as they appear in the file.\n\nAssume:\n\n- Three variables `LineX, LineY` and `LineZ` will store the three lines. These are of type string and all three variables have been initialised to an empty string.\n- The file exists and contains **at least** three lines.\n\nThe algorithm to output the lines is expressed in eight steps.\n\nComplete the steps.\n\n1. Open the file ...........................................................................\n2. Loop until ...........................................................................\n3. ........................................................................... and store in `ThisLine`\n4. Assign `LineY` to `LineX`\n5. Assign `LineZ` to `LineY `\n6. Assign `ThisLine` to `LineZ `\n7. After the loop, ...........................................................................\n8. Output `LineX, LineY, LineZ`",
+     "solution_md": "> **[mark-scheme]**\n> One mark per emboldened part:\n> \n> 1. Open the file **(Result.txt) in **<u>**read**</u>** mode **\n> 2. Loop until **EOF(Result.txt) // EOF // end of file **\n> 3. <u>**Read a / the / next line**</u>** (from the file) **and store in `ThisLine `\n> 4. Assign `LineY` to `LineX`\n> 5. Assign `LineZ` to `LineY`\n> 6. Assign `ThisLine` to `LineZ`\n> 7. After the loop, **close the file (Result.txt)**\n> 8. Output `LineX, LineY, LineZ`"
+    },
+    {
+     "id": "qstnprt_Zs7q8FgBck6GDh6d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VMP6ksfMD7mZPq5Y",
+      "spcpt_t5QxGmPqkFwzJk84",
+      "spcpt_p6gdsGKbBwW2jTbr"
+     ],
+     "part_tier": null,
+     "problem_md": "The requirement changes, and the algorithm will now output three lines from the file, starting from a **given** line number.\n\nThe modified algorithm will be implemented as a function which will:\n\n- be called with an integer parameter representing the given line number\n- output three lines, starting at the given line\n- return `TRUE` if the 3 lines are output, or `FALSE` if it was not possible to output the 3 lines.\n\nDescribe the changes that need to be made to **steps 2 to 8 **of the algorithm given in part **(a)**.",
+     "solution_md": "> **[mark-scheme]**\n> Two loop solution\n> \n> One mark per point:\n> \n> 1. Loop until given line number (-1) / `<parameter>  (-1) `(lines have been read)\n> 2. ... if end of file is reached then return FALSE\n> 3. Loop for three lines // Read three lines // Repeat of 4 and 5 for three lines\n> 4. Read a line and output it\n> 5. ... if end of file is reached then return FALSE\n> 6. After outputting the (required) lines return TRUE\n> 7. Ordering of lines no longer needed\n> \n> **Max 4 marks **\n> \n> Alternative solution\n> \n> **One loop solution mark scheme that reads to given line number + 2 **\n> \n> One mark per point\n> \n> 1. Loop until given line number + 2 / `<parameter>`  `+ 2 `(lines have been read)\n> 2. **OR** end of file is reached\n> 3. Return FALSE if EOF reached\n> 4. Read a line from the file **in the loop**\n> 5. Continue to order the last three lines read **in the loop** // Steps 4 to 6 stay the same\n> 6. (If FALSE has **not **been returned) output the required three lines (in the correct order)\n> 7. … **and** Return TRUE\n> \n> **Max 4 marks**"
+    }
+   ]
+  }
+ ]
+}

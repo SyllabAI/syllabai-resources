@@ -1,0 +1,610 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:45:13Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/business/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "business",
+  "exam_code": "9609",
+  "sme_course_id": "crs_MVTsfcs5G3nDb2ky",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) A Level Business"
+ },
+ "section": {
+  "slug": "finance-and-accounting",
+  "name": "5. Finance & Accounting"
+ },
+ "topic": {
+  "id": "top_qC4mHMGptPTyxqy3",
+  "slug": "financial-statements",
+  "name": "Financial Statements (A Level)",
+  "order": 5
+ },
+ "subtopics": [
+  {
+   "slug": "using-financial-statements-effectively",
+   "name": "Using Financial Statements Effectively",
+   "revision_note_id": "rn_btqz22QGw2wYQjSx"
+  },
+  {
+   "slug": "inventory-valuation-and-depreciation",
+   "name": "Inventory Valuation & Depreciation",
+   "revision_note_id": "rn_VPMRJZSsRV4jHp6M"
+  },
+  {
+   "slug": "statement-of-financial-position",
+   "name": "Statement of Financial Position",
+   "revision_note_id": "rn_Fpj6v8bCqSvXhT7P"
+  },
+  {
+   "slug": "statement-of-profit-or-loss",
+   "name": "Statement of Profit or Loss",
+   "revision_note_id": "rn_NDnvWt3VQqvyvvbh"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_MYgBFwqf9jnzy7MY",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/a-level/business/cie/23/topic-questions/finance-and-accounting/financial-statements/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 18,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_FyCnVc6zKsJvkfHF",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_sRxBJdytj6w6nptc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hySwTDshsbJ6FWJJ",
+      "spcpt_CvbNYDkT8wYBcYPx"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Ellersby**\n> \n> Ellersby manufactures office furniture in country G. It currently makes its own metal frames and is considering buying them from an outside supplier instead.\n> \n> Table 1.1 shows Ellersby's statement of profit or loss for 2026 and the directors' forecast for 2027 if frames are bought in.\n> \n> **Table 1.1 Ellersby statement of profit or loss (\\$000)**\n> \n> |   | 2026 actual | 2027 forecast |\n> |---|---|---|\n> | Revenue | 9 400 | 9 400 |\n> | Cost of sales | 6 110 | 5 640 |\n> | **Gross profit** | **3 290** | **3 760** |\n> | Expenses | 2 820 | 3 015 |\n> | **Profit from operations** | **470** | **745** |\n> \n> The 2027 forecast includes redundancy payments of \\$390 000 to the 14 employees who make frames. Without those payments, expenses would fall to \\$2 625 000.\n> \n> The supplier is the only business in country G able to make the frames to Ellersby's specification. It quotes a seven-week lead time; Ellersby currently offers its corporate customers four weeks, which is its main selling point.\n\nEvaluate whether Ellersby should buy in its metal frames rather than making them.",
+     "solution_md": "The statement of profit or loss shows the effect of the change on each line of trading **[K]**. Buying frames in would cut cost of sales from \\$6 110 000 to \\$5 640 000, raising gross profit from \\$3 290 000 to \\$3 760 000, while profit from operations would rise from \\$470 000 to \\$745 000 **[Ap]**. That is an increase of 59% in a single year, achieved even though the forecast carries \\$390 000 of redundancy payments that will not recur **[An]**. Excluding those, expenses would be \\$2 625 000 rather than \\$3 015 000, so from 2028 profit from operations would be around \\$1 135 000, more than double the current figure **[An]**\n\nThe forecast rests on an assumption the statement cannot test **[K]**. Revenue is held at \\$9 400 000, yet the supplier quotes seven weeks against the four Ellersby currently offers, and that lead time is its main selling point with corporate customers **[Ap]**. If even a tenth of revenue were lost, \\$940 000 of sales would disappear, and at the forecast gross margin of 40% that removes \\$376 000 of gross profit, more than wiping out the year-one gain of \\$275 000 **[An]**. Once frame-making has stopped and 14 employees have been paid off the decision cannot easily be reversed, so a fall in revenue would be discovered only after the capacity to correct it has gone **[An]**\n\nOn the figures alone Ellersby should buy in **[E]**. The saving is large, it recurs every year, and the redundancy cost is a one-off the forecast has already absorbed **[E]**. What makes the decision finely balanced is that the whole case depends on revenue holding at \\$9 400 000, and the change most likely to break that assumption, a lead time rising from four weeks to seven, is precisely what Ellersby sells on **[E]**. There is also no second supplier in country G, so Ellersby would have no alternative if prices rose later and the savings shown here could be reclaimed by the supplier over time **[E]**. Ellersby should therefore not commit yet: it should establish with its largest corporate customers whether seven weeks is acceptable, and negotiate a fixed-price agreement of several years before closing frame production **[E]**. If lead times can be protected, perhaps by holding frame inventory, the change is clearly worth making; if they cannot, the profit gain is being bought with the business's main competitive advantage **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n> - Strong knowledge applied to the business context or question stem throughout\n> - Detailed interconnected points with logical chains of reasoning\n> - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n> - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **4** | - Shows understanding of two effects on the statement of profit or loss in context |\n> | **3** | - Shows understanding of one effect on the statement of profit or loss in context |\n> | **2** | - Shows knowledge of two effects on the statement of profit or loss |\n> | **1** | - Shows knowledge of one effect on the statement of profit or loss |\n> \n> **Analysis and evaluation**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **8** | - Justified recommendation with developed weighing of key arguments in business context |\n> | **7** | - Justified recommendation based on arguments in context |\n> | **6** | - Developed recommendation based on arguments in context |\n> | **5** | - An evaluative statement or recommendation based on arguments in context |\n> | **4** | - Argument based on two effects on the statement of profit or loss in context |\n> | **3** | - Argument based on one effect on the statement of profit or loss in context |\n> | **2** | - Analysis of two effects on the statement of profit or loss |\n> | **1** | - Analysis of one effect on the statement of profit or loss |\n> \n> **Indicative content**\n> \n> - Ellersby could buy in the frames. Cost of sales falls \\$470 000, raising gross profit from \\$3 290 000 to \\$3 760 000 and profit from operations from \\$470 000 to \\$745 000, an increase of 59% achieved even while carrying \\$390 000 of redundancy costs. However, the forecast assumes revenue is unchanged at \\$9 400 000, which the statement of profit or loss itself cannot verify\n> - The \\$390 000 redundancy cost is a one-off, so excluding it expenses fall to \\$2 625 000 and profit from operations reaches around \\$1 135 000 from 2028, more than double the 2026 figure. However, that figure depends on the same unchanged revenue assumption, so a recurring gain rests on an untested premise\n> - A seven-week lead time against the current four undermines Ellersby's stated main selling point with corporate customers, and losing a tenth of revenue would cost \\$376 000 of gross profit against a \\$275 000 year-one gain. However, some customers may accept a longer lead time if the price is reduced, so the revenue loss is not inevitable\n> - The supplier is the only business in country G capable of the work, leaving Ellersby no bargaining power if prices rise later. However, a fixed-price agreement of several years would remove that exposure for the period that matters most\n> - Factory space and management time are released for higher-value work, and a specialist supplier may achieve economies of scale Ellersby cannot. However, closing frame production and paying off 14 staff is difficult to reverse, so the flexibility gained is bought with flexibility lost\n> - Ellersby could hold frame inventory to protect lead times while still buying in. However, that reintroduces a working capital cost the forecast does not include, reducing the saving the decision rests on\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nfvP6bq99HHB8NFk",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_HbCcqpXqH4sS6MHw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FmzvBBvfDr2kzfPW",
+      "spcpt_CvbNYDkT8wYBcYPx"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Talgarth Scaffolding**\n> \n> Talgarth Scaffolding hires out scaffolding to builders in country V. It has asked its bank for a loan of \\$600 000 to buy new equipment.\n> \n> Talgarth's directors have given the bank its statement of profit or loss, pointing out that profit for the year has risen from \\$210 000 to \\$340 000.\n> \n> Three further facts are not obvious from the statement:\n> \n> - \\$180 000 of the 2026 profit came from selling a depot that Talgarth no longer needed\n> - Talgarth changed its depreciation policy in 2026, extending the assumed useful life of its scaffolding from five years to eight, which reduced the annual depreciation charge by \\$70 000\n> - Two large customers now take 90 days to pay rather than 30\n> \n> Anya, the bank's lending manager, must decide whether the statement of profit or loss gives her enough information.\n\nEvaluate the usefulness of Talgarth Scaffolding's statement of profit or loss to the bank in deciding whether to lend.",
+     "solution_md": "A statement of profit or loss shows revenue, costs and the profit earned over a period **[K]**. Talgarth's profit for the year rose from \\$210 000 to \\$340 000, and this is the figure the directors have put to the bank **[Ap]**. Taken at face value it describes a business whose earnings grew by 62% in a year, which would make this a straightforward lending decision **[An]**. The statement is useful to Anya precisely because it reduces a year of trading to a single comparable figure, and no other document does that job **[An]**\n\nThe difficulty is what that figure contains **[K]**. \\$180 000 of the 2026 profit came from selling a depot, and a further \\$70 000 from extending the assumed life of scaffolding from five years to eight **[Ap]**. Neither has anything to do with hiring scaffolding out: a depot can only be sold once, and the depreciation change is an accounting judgement rather than a change in performance **[An]**. Stripping both out leaves around \\$90 000 of profit from trading, well below the \\$210 000 earned in 2025, so the statement reports growth in a business that has actually declined **[An]**\n\nThe statement is therefore useful but not sufficient **[E]**. It gives Anya the right starting point, and read carefully it is what allows the one-off gain and the policy change to be identified at all, so the fault lies with the directors' presentation rather than the document **[E]**. What it cannot tell her is whether Talgarth will generate the cash to make repayments, and with two large customers now taking 90 days rather than 30, profit and cash are moving apart **[E]**. A lender is repaid out of cash, not profit, so a statement of profit or loss can never be the whole basis of the decision **[E]**. Anya should use it as evidence of trading performance across several years, adjusted for the one-off items, and require a cash flow forecast and the statement of financial position before committing \\$600 000 **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n> - Strong knowledge applied to the business context or question stem throughout\n> - Detailed interconnected points with logical chains of reasoning\n> - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n> - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **4** | - Shows understanding of two uses of the statement of profit or loss in context |\n> | **3** | - Shows understanding of one use of the statement of profit or loss in context |\n> | **2** | - Shows knowledge of two uses of the statement of profit or loss |\n> | **1** | - Shows knowledge of one use of the statement of profit or loss |\n> \n> **Analysis and evaluation**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **8** | - Justified recommendation with developed weighing of key arguments in business context |\n> | **7** | - Justified recommendation based on arguments in context |\n> | **6** | - Developed recommendation based on arguments in context |\n> | **5** | - An evaluative statement or recommendation based on arguments in context |\n> | **4** | - Argument based on two uses of the statement of profit or loss in context |\n> | **3** | - Argument based on one use of the statement of profit or loss in context |\n> | **2** | - Analysis of two uses of the statement of profit or loss |\n> | **1** | - Analysis of one use of the statement of profit or loss |\n> \n> **Indicative content**\n> \n> - The statement is useful because it summarises a whole year's trading in one figure that can be compared with previous years, showing revenue, costs and profit separately so the bank can see where earnings come from. However, \\$180 000 of the 2026 profit came from a one-off depot sale that cannot be repeated, so the headline figure does not describe trading at all\n> - Comparison across years reveals trends a single year cannot, and the statement is prepared to a consistent format allowing comparison with other businesses. However, extending asset lives from five to eight years cut depreciation by \\$70 000 and flattered profit without any change in performance, so this year is not comparable with last on a consistent basis\n> - Adjusted for both items, trading profit is around \\$90 000 against \\$210 000 the previous year, which reverses the picture the directors have presented. However, the statement itself is what makes those adjustments possible, so the document is sound even though the presentation is not\n> - Profit is not cash, and two customers moving from 30 to 90 days weakens the cash position from which a loan is actually repaid. However, longer terms may have been granted to win or retain large customers, so the change is not necessarily a sign of weakness\n> - The statement says nothing about assets available as security, which the statement of financial position would show, and it is historic while the bank is lending against future performance. However, no single document answers every question, and past trading is the best available evidence about future trading\n> - Anya could require a cash flow forecast and the statement of financial position before deciding. However, forecasts are prepared by the same directors whose presentation has already proved selective, so additional documents do not remove the need for scepticism\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qNPFMXTfphZY9SJM",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_kSTSgx3VzcWgJP2n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "analyse",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hySwTDshsbJ6FWJJ",
+      "spcpt_CvbNYDkT8wYBcYPx"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Wexford Signs**\n> \n> Wexford Signs designs and installs illuminated shop signs in country H.\n> \n> Wexford has agreed to buy the workshop it currently rents. The purchase removes annual rent of \\$84 000, but Wexford will take a loan of \\$700 000 at 7% interest a year, and the building will be depreciated at \\$28 000 a year using the straight-line method.\n> \n> The directors expect no change to revenue or cost of sales.\n> \n> Table 1.1 shows Wexford's most recent statement of profit or loss.\n> \n> **Table 1.1 Wexford Signs statement of profit or loss, year ended 2026 (\\$)**\n> \n> | Revenue | 1 640 000 |\n> |---|---|\n> | Cost of sales | 902 000 |\n> | **Gross profit** | **738 000** |\n> | Expenses | 601 000 |\n> | **Profit from operations** | **137 000** |\n> | Interest | 19 000 |\n> | **Profit for the year** | **118 000** |\n\nAnalyse the impact of buying the workshop on Wexford Signs' statement of profit or loss.",
+     "solution_md": "Buying the workshop changes two items within expenses **[K]**. Wexford's rent of \\$84 000 disappears, but straight-line depreciation of \\$28 000 on the building appears in its place, so expenses fall by \\$56 000 from \\$601 000 to \\$545 000 **[Ap]**. With revenue and cost of sales unchanged, gross profit stays at \\$738 000 and profit from operations rises by that same \\$56 000, from \\$137 000 to \\$193 000 **[An]**. On the operating line alone the purchase looks clearly worthwhile, because Wexford replaces a payment that would continue indefinitely with a charge that is smaller and spread across the building's life **[An]**\n\nMost of that gain disappears below the operating line **[K]**. The \\$700 000 loan carries interest at 7%, adding \\$49 000 a year to the existing \\$19 000 **[Ap]**. Profit for the year therefore rises only from \\$118 000 to \\$125 000, an improvement of \\$7 000, because interest absorbs \\$49 000 of the \\$56 000 saved **[An]**. The statement makes clear that this is a financing decision as much as a property decision, since almost the whole benefit visible at operating level is transferred to the lender before it reaches the bottom line **[An]**\n\n> **[mark-scheme]**\n> - An 8-mark analyse question requires two developed points, each with knowledge of a relevant concept, applied to the business context, and followed by a chain of reasoning that explains the causes, impacts or consequences for the business\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge, application and analysis\n> \n> | **Level** | **Knowledge** | **Application** | **Analysis** |\n> |---|---|---|---|\n> | **2** | **2 marks**<br><br>- The answer shows knowledge of **two** relevant points that answer the question | **2 marks**<br><br>- The answer links **two** relevant points to the business in the case study | **4 marks**<br><br>- The answer clearly explains the causes, impacts or consequences of **two** points |\n> | **3 marks**<br><br>- The answer clearly explains the causes, impacts or consequences of **one** point |   |   |   |\n> | **1** | **1 mark**<br><br>- The answer shows knowledge of **one** relevant point that answers the question | **1 mark**<br><br>- The answer links **one** relevant point to the business in the case study | **2 marks**<br><br>- The answer makes a basic attempt to explain the causes, impacts or consequences of **two** points. |\n> | **1 mark**<br><br>- The answer makes a basic attempt to explain the causes, impacts or consequences of **one** point |   |   |   |\n> \n> **Indicative content**\n> \n> - Rent of \\$84 000 is removed from expenses\n> - Depreciation of \\$28 000 a year is added, so the net fall in expenses is \\$56 000\n> - Expenses fall from \\$601 000 to \\$545 000\n> - Revenue and cost of sales are unchanged, so gross profit remains \\$738 000\n> - Profit from operations rises from \\$137 000 to \\$193 000\n> - Interest rises by \\$49 000, being 7% of \\$700 000, from \\$19 000 to \\$68 000\n> - Profit for the year rises only from \\$118 000 to \\$125 000\n> - Depreciation is not a cash cost, so the effect on cash differs from the effect on profit\n> - Once the loan is repaid the interest charge ends while depreciation continues, so later years look different again\n> \n> Accept any other appropriate response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_4dzYYP3TPnkR2Rzj",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_n4DcwQWwFmypzmM8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "analyse",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hySwTDshsbJ6FWJJ",
+      "spcpt_FmzvBBvfDr2kzfPW"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Ormesby**\n> \n> Ormesby manufactures workwear for construction and healthcare businesses in country K.\n> \n> Two years ago Ormesby moved to a cheaper fabric supplier and raised its prices by 6%. It also opened a showroom and increased its sales team from 4 people to 11.\n> \n> Table 1.1 shows extracts from Ormesby's statement of profit or loss.\n> \n> **Table 1.1 Ormesby statement of profit or loss extracts (\\$000)**\n> \n> |   | 2024 | 2026 |\n> |---|---|---|\n> | Revenue | 4 200 | 4 750 |\n> | Cost of sales | 2 940 | 3 087 |\n> | **Gross profit** | **1 260** | **1 663** |\n> | Expenses | 890 | 1 430 |\n> | **Profit from operations** | **370** | **233** |\n\nAnalyse **two** aspects of Ormesby's performance shown by its statement of profit or loss.",
+     "solution_md": "The statement of profit or loss separates gross profit, which is revenue less cost of sales, from profit from operations, which deducts expenses as well **[K]**. Ormesby's gross profit rose from \\$1 260 000 to \\$1 663 000 and its gross profit margin from 30% to 35% **[Ap]**. This shows the two decisions affecting cost of sales have worked: the cheaper fabric reduced the cost of each garment while the 6% price rise increased revenue per garment, and together they widened the gap between what Ormesby charges and what production costs **[An]**. Judged on trading alone Ormesby performed better in 2026 than in 2024, and the improvement is in margin rather than simply in volume **[An]**\n\nThe picture reverses below gross profit **[K]**. Expenses rose from \\$890 000 to \\$1 430 000, an increase of 61%, and profit from operations fell from \\$370 000 to \\$233 000 **[Ap]**. The showroom and the growth of the sales team from 4 to 11 are indirect costs appearing as expenses rather than cost of sales, so they leave the gross margin untouched while consuming more than the entire gross profit gain **[An]**. Ormesby has spent \\$540 000 more on selling in order to win \\$550 000 more revenue, so the expansion is generating almost no additional profit and the business is working considerably harder for less **[An]**\n\n> **[mark-scheme]**\n> - An 8-mark analyse question requires two developed points, each with knowledge of a relevant concept, applied to the business context, and followed by a chain of reasoning that explains the causes, impacts or consequences for the business\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge, application and analysis\n> \n> | **Level** | **Knowledge** | **Application** | **Analysis** |\n> |---|---|---|---|\n> | **2** | **2 marks**<br><br>- The answer shows knowledge of **two** relevant points that answer the question | **2 marks**<br><br>- The answer links **two** relevant points to the business in the case study | **4 marks**<br><br>- The answer clearly explains the causes, impacts or consequences of **two** points |\n> | **3 marks**<br><br>- The answer clearly explains the causes, impacts or consequences of **one** point |   |   |   |\n> | **1** | **1 mark**<br><br>- The answer shows knowledge of **one** relevant point that answers the question | **1 mark**<br><br>- The answer links **one** relevant point to the business in the case study | **2 marks**<br><br>- The answer makes a basic attempt to explain the causes, impacts or consequences of **two** points. |\n> | **1 mark**<br><br>- The answer makes a basic attempt to explain the causes, impacts or consequences of **one** point |   |   |   |\n> \n> **Indicative content**\n> \n> - Gross profit rose from \\$1 260 000 to \\$1 663 000 and the gross margin from 30% to 35%\n> - The cheaper fabric supplier cut cost of sales per unit while the 6% price rise raised revenue per unit\n> - Trading performance has improved, and by margin rather than only by volume\n> - Expenses rose 61%, far faster than revenue's 13%\n> - Profit from operations fell from \\$370 000 to \\$233 000 despite higher gross profit\n> - The showroom and larger sales team are expenses, not cost of sales, so they do not affect gross margin\n> - \\$540 000 of extra expenses produced \\$550 000 of extra revenue, so the expansion barely pays for itself\n> - The statement locates the problem in overheads rather than trading, which tells management where to act\n> \n> Accept any other appropriate response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WwPqh2KsQNFZzyW7",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_KBtPVKFny7SrHNPd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sDbRT6FJHRbRg8bj"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** reason why a business charges depreciation in its accounts.",
+     "solution_md": "Depreciation spreads the cost of a non-current asset across the years in which the business uses it **[1]**. Without it, the full cost of a machine expected to last eight years would be charged to the year it was bought, making that year's profit look artificially low and the following seven look artificially high **[1]**. Charging depreciation each year matches the cost to the revenue the asset helps to earn, so profit gives a fairer picture of performance in every year rather than being distorted by when the purchase happened **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Depreciation spreads the cost of a non-current asset over its useful life\n> \n> AO2\n> \n> - It matches the cost of the asset to the periods in which it generates revenue\n> - Without it, profit is badly distorted in the year of purchase and overstated afterwards\n> - It reduces the carrying value of the asset so the statement of financial position is not overstated\n> - It recognises that assets lose value through use, age and obsolescence\n> - It allows fairer comparison of profit between years and between businesses\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Depreciation is not cash. No money leaves the business when it is charged, and nothing is being saved up to replace the asset; the cash went when the asset was bought. Answers claiming a business \"sets money aside through depreciation\" lose marks, so keep your explanation about spreading a cost that has already been paid."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VYPCrYt98mSZTX8V",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_R9SywJ9QWWgj3PC4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vW9Gxv7HgcH5SM8V"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** way in which a supplier could use a business's statement of financial position.",
+     "solution_md": "A statement of financial position shows what a business owns and owes at a particular date **[1]**. A supplier deciding whether to offer trade credit would compare current assets with current liabilities, because that indicates whether the business can meet its short-term debts **[1]**. If current liabilities are close to or above current assets, the supplier risks not being paid and may insist on payment in advance or refuse credit altogether, which directly affects the terms the business is offered **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - The statement of financial position shows assets, liabilities and equity at a specific date\n> \n> AO2\n> \n> - Comparing current assets with current liabilities indicates whether short-term debts can be met\n> - A supplier can judge whether to offer trade credit, and on what terms\n> - High non-current liabilities may show the business is already heavily committed to lenders\n> - Comparing two years shows whether the position is improving or deteriorating\n> - A weak position may lead a supplier to require payment in advance, cut credit limits or decline the order\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Match the user to the figure they would actually look at. A supplier's concern is whether it will be paid, so it goes straight to current assets and current liabilities, not to the equity section. Answers that describe the whole statement rather than the part that stakeholder cares about tend to stall at one mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_M8zTd4XhWdJh6NQw",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Zbyqcr4z9fZvhw9m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xJMtStr2BZdtCgVQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** difficulty a business may face when valuing its inventory.",
+     "solution_md": "Inventory is normally valued at the lower of what it cost and what the business expects to receive for it **[1]**. A difficulty arises with items whose value falls sharply over time, such as fashion clothing at the end of a season **[1]**. The business must estimate what that stock will eventually sell for, and if it judges this too optimistically the inventory is overstated on the statement of financial position and profit is reported as higher than it really is **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Inventory is valued at the lower of cost and net realisable value, which requires an estimate\n> \n> AO2\n> \n> - Items that go out of fashion or perish may be worth far less than they cost, and the fall is a matter of judgement\n> - Work in progress is difficult to value because it is unfinished and has no established selling price\n> - Where identical items were bought at different prices, the business must choose which cost to apply\n> - Damaged or obsolete stock may still be recorded at full cost if nobody identifies it\n> - Estimating selling costs, such as the discounts needed to shift slow-moving lines, is uncertain\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Name the kind of stock. \"Inventory can be hard to value\" simply restates the question, whereas fashion clothing, fresh food or half-finished products each carry their own reason why the right figure is unclear. Choosing a specific type gives you something concrete to explain and makes the third mark far easier to reach."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RMrPdtg3kPH4sWNN",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_jtcN7rn8F8cKtz6H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_d63TfVP7WmxrqQCs"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'net realisable value'.",
+     "solution_md": "Net realisable value is the amount a business expects to receive from selling an item of inventory **[1]**, after deducting any costs still needed to complete it and sell it **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - The expected selling price of inventory less the costs of completing and selling it\n> - The amount a business would actually realise from disposing of inventory, net of the costs of doing so\n> - An estimate of what inventory is genuinely worth if sold, rather than what it originally cost\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> Do not define the term by the rule it appears in. \"The lower of cost and net realisable value\" describes how inventory is valued; it does not say what net realisable value means, and on its own it earns nothing. Give the meaning first: the expected proceeds, minus the costs of getting them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cKH48gGFWxcZY2H2",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_9vMbRgTxFMvwgSQy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fJGp7gq5jWsVxvH8"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how the statement of profit or loss is linked to the statement of financial position.",
+     "solution_md": "The statement of profit or loss shows the profit earned over a period, while the statement of financial position shows assets, liabilities and equity at the end of that period **[1]**. The two are joined by retained earnings, because profit not paid out as dividends is added to the reserves shown within equity **[1]**. A profitable year therefore increases equity on the statement of financial position without any new investment by shareholders, which is why the two statements have to be read together rather than separately **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Retained earnings link the two statements, carrying profit from one into equity in the other\n> \n> AO2\n> \n> - Profit not distributed as dividends increases reserves within equity\n> - A loss reduces retained earnings and therefore reduces equity\n> - Depreciation charged in the statement of profit or loss reduces the carrying value of non-current assets\n> - Inventory valued at the year end appears as a current asset and also determines cost of sales\n> - Together they show both performance over the year and position at the end of it\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> A question about how two documents are linked wants the item that appears in both. Describing what each statement contains, however accurately, does not answer it. Name the connecting figure, usually retained earnings, then say which direction it travels."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y5XXm7W8dkKrGWkS",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_rdNyP6dwMZ6Bftsp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fQq5xV8NnmRxhVrR"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'non-current asset'.",
+     "solution_md": "A non-current asset is an item owned by a business that it expects to keep and use for more than one year **[1]**, such as machinery, vehicles or premises, rather than something bought in order to be sold on **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - An asset the business intends to use for longer than one year rather than sell within it\n> - A long-term resource such as property, machinery, equipment or vehicles\n> - An item held for use in the business rather than as inventory for resale\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> The time test does most of the work, but add the purpose test too. A delivery van is a non-current asset to a bakery and inventory to the dealership selling it; the same object is classified differently depending on why it is held. \"Kept for more than a year and used in the business, not sold\" covers both."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hYGpPtVQ7kpzgxbb",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_5Xf57zgkhC3drQ7j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vW9Gxv7HgcH5SM8V"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'statement of financial position'.",
+     "solution_md": "A statement of financial position is a financial document showing what a business owns and owes at a particular date **[1]**, setting out its assets, liabilities and equity so its overall financial position at that moment can be seen **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - A statement listing a business's assets, liabilities and equity at one specific date\n> - A summary of what a business owns and what it owes at a given point in time\n> - A financial statement showing how a business's assets have been funded, by liabilities or by equity\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> Name the moment. A statement of financial position describes a single date, while a statement of profit or loss covers a whole period, and that difference is often the second mark. Writing \"over the year\" instead of \"at the year end\" quietly turns a correct definition into the wrong statement."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kdT9mBX2q6gpYBDJ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Sy63hRyh3CmhQnJx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XQgkDBQppFnTzzjC"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** reason why a public limited company must publish its financial statements.",
+     "solution_md": "A public limited company has limited liability, which means its shareholders are not personally responsible for its debts **[1]**. Because those dealing with the company cannot pursue the owners' private assets if it fails, the law requires it to publish financial statements so anyone considering trading with it or investing in it can judge its financial position **[1]**. Publication is in effect the price of limited liability, giving suppliers, lenders and shareholders the information they need to decide whether to take that risk **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Public limited companies are legally required to publish their financial statements each year\n> \n> AO2\n> \n> - Limited liability protects shareholders' personal assets, so creditors need published information to assess the risk of dealing with the company\n> - Shareholders who do not run the business need an account of how their money has been used\n> - Potential investors require reliable information before buying shares\n> - Lenders use the statements to judge whether the company can repay borrowing\n> - Publication allows tax authorities to check the profit declared\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> A question asking why a company must do something is about the obligation, not the advantage. An answer explaining that publishing is useful can still miss marks if it never reaches the point that this is a legal requirement flowing from limited liability. Deal with the \"must\" first, then explain who benefits."
+    }
+   ]
+  },
+  {
+   "id": "qstn_J87tVBKWC7WBVJsj",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_S65SqKPzjYhnJx62",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "November 2020",
+      "number": "Paper 31",
+      "question_number": 4,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_RwvnxZgFdRhJ8hzP",
+      "spcpt_CvbNYDkT8wYBcYPx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Normax Hotels (NH) **\n\nNH is a public limited company that owns 32 hotels in country X. Jolin is the Chief Executive. NH has a centralised organisational structure. NH has three types of hotel: • Luxury hotels offer high quality accommodation at premium prices in city centres and exclusive beach resorts. They attract guests from all over the world as well as high‑income earners in country X. • Family hotels offer family rooms, children’s play areas, babysitting services and activities for children in rural and seaside locations. • Basic hotels offer clean, simple accommodation with basic food and facilities. The guests are low‑income travellers and students. They are located in city retail parks. Each hotel manager has limited authority to make decisions because they are told what to do by NH’s Head Office. NH is organised into the following functional departments: administration, operations, finance, marketing, human resources, IT and strategic planning. International expansion? Country Q is a low‑income country. It has a small but growing number of locally owned hotels. Jolin has held two meetings with the Minister for Tourism in country Q to discuss the possibility of opening three NH hotels in her country. These would be located in areas of outstanding natural beauty. Jolin told her that the three hotels would employ several hundred people and generate significant profits. However, the Minister expressed concern that country Q could lose more than it gained from such an investment from a large foreign company. She would have to consider the proposal in more detail. Operations issues Jolin is concerned that profits have recently decreased. He monitors key statistics and is considering introducing lean production principles. Table 1 shows some relevant information. NH holds high levels of inventory of supplies needed for the rooms. Each hotel can supply enough sheets, towels, soaps and cosmetics to every room every day, whether needed or not. The kitchens are expected to have enough food inventory for three days. A small but increasing number of employees have been dismissed for taking home food from the kitchen stores.\n\nTable 1: NH capacity utilisation (room occupancy) and price data, 2019 Hotel type Total number of rooms Budgeted average number of rooms occupied per night Average number of rooms actually occupied per night Price per room per night Luxury 1600 1400 1300 \\$150 Family 1400 1100 1000 \\$110 Basic 2000 1800 1600 \\$40 Customer service Hotel managers claim that they follow company policy and insist that employees do the same. However, many customers complain about the difficulty of communicating with employees and managers who often claim that they are ‘too busy’. Another common complaint is that the hotels need modernising. Head Office has received some letters from employees with ideas for improvements but these have not been considered. Table 2 shows information about NH customers’ experience. Table 2: NH customers’ experience Hotel type Customer complaints 2019 Percentage change of customer complaints from 2018 Average customer satisfaction rating out of 10 Luxury 8560 +8 8.3 Family 6800 +7 7.1 Basic 9040 +9 8.1 Human resource issues Hotel employees are recruited by each hotel manager. Many employees have part time, flexible and temporary contracts. None of them are on zero hour contracts. All employees are trained to perform only one role in the hotel. The hotel managers are given strict labour cost budgets. Each manager has assistant managers who decide the allocation of tasks. Employees have worksheets that detail each task and how long it should take. No time is allowed to discuss these details. The Human Resource Director has just returned from a conference about Management by Objectives (MBO) and is now considering the information in Table 3.\n\nTable 3: NH employee information 2018 2019 Employment costs as a percentage of total costs 68% 74% Employees average hourly wage rate \\$8 \\$8 Trade union membership as a percentage of employees 14% 18% Percentage of employees involved in disciplinary proceedings 3% 6% Labour turnover: non‑management employees 14% 26% Labour turnover: assistant managers 4% 15% Average job satisfaction rating out of 10: non‑management employees 6 5 Average job satisfaction rating out of 10: assistant managers 9 8 Marketing NH hotels Jolin is worried about room occupancy rates being below budget. Katie, the Marketing Director, told Jolin that: • the balance between the advertising media used (magazines, television and direct marketing) needed to be reviewed • economic and market conditions have not been favourable • room prices are fixed at the start of each year. Jolin insisted that Katie should revise the marketing plan to achieve the objectives of increased occupancy rates and increased revenue. A possible takeover Pitro, the Finance Director, has prepared the latest financial statements. See Table 4 and Table 5. Jolin recently told him: ‘I have been approached by the owners of EatBest, a restaurant chain, who want to sell the business. If NH takes over EatBest it could be completed in 2021. It would involve making a cash payment of \\$20m plus 0.5m NH shares. EatBest’s restaurants are valued at \\$40m.’ Jolin has forecast that this takeover would result in the following changes to NH’s accounts for the year ending 31 October 2021: • revenue would increase to \\$170m, cost of sales would increase to \\$46m and expenses would increase to \\$109m • additional borrowing of \\$50m at 5% interest per year • current assets and current liabilities increase by 10%\n\nTable 4: NH income statement year ended 31 October 2020 \\$m Revenue 140 Cost of sales 36 Gross profit 104 Expenses 84 Operating profit 20 Interest 4 Profit before tax 16 Profit after tax 8 Dividends 5 Retained earnings 3 Table 5: Extract from NH statement of financial position at 31 October 2020 \\$m Non‑current assets 80 Current assets 35 Total assets 115 Non‑current liabilities (60) Current liabilities (20) Total liabilities (80) Net assets 35 Directors’ meeting Jolin has just had a meeting with the directors. He started by reminding them that NH is recognised as having three core competencies which must provide the framework for any strategic decisions made. These are: • outstanding customer service • professional standards that focus on efficiency • clear leadership based on understanding the industry.\n\nThe directors discussed whether the organisational structure of NH should be changed. Jolin told the directors: ‘I am convinced that we need to change the organisational structure of NH. When the company started with just one hotel it was obvious that functional organisation was best. Now I think this is a barrier to success. Perhaps we should consider management theory including Chandler’s assertion that strategy and structure are linked. Maybe we also need to consider delayering NH’s organisational structure.’ Jolin finished the meeting by telling directors: ‘We also need a new strategy to avoid decline. We have to review our objectives and structure as part of producing a detailed strategic plan for success.’\n\nRead the following [extract ](https://www.savemyexams.com/a-level/business/cie/past-papers/paper/ppr_NDGNcgfhhxw6CyTD/?pdf=https%3A%2F%2Fpastpapers.papacambridge.com%2Fdirectories%2FCAIE%2FCAIE-pastpapers%2Fupload%2F9609_w20_in_31.pdf&type=resource&resourceIndex=0)(lines 82-92 and Table 4 and Table 5) before answering\n\nAssume NH takes over EatBest in 2021 and no other factors change. Calculate the forecast profit before tax for the year ended 31 October 2021",
+     "solution_md": "**\\$8.5m** **[3]**\n\nGross profit = Revenue − Cost of sales\n\n`equals space $ 170 straight m space minus space $ 46 straight m space space space\n\nequals space $ 124 straight m`\n\nOperating profit = Gross profit − Expenses\n\n`equals space $ 124 straight m space minus space $ 109 straight m space\n\nequals space $ 15 straight m`\n\nInterest = Original interest + Interest on new borrowing\n\n`equals space $ 4 straight m space plus space left parenthesis $ 50 straight m space cross times space 5 percent sign right parenthesis space\n\nequals space $ 4 straight m space plus space $ 2.5 straight m space equals space $ 6.5 straight m`\n\nProfit before tax = Operating profit − Interest\n\n`equals space $ 15 straight m space minus space $ 6.5 straight m space equals space $ 8.5 straight m`\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of `$ 8.5 straight m`\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FrxbqM9fwkf3jTsc",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_5sVBkmk6sD9Wfyyr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "Paper 21",
+      "question_number": 2,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_FmzvBBvfDr2kzfPW"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Hannah’s Handbags (HH) **\n> \n> Hannah started HH six years ago. HH operates in a niche market providing unique bags. The bags are made using job production. As demand grew for the bags, Hannah took on a partner, her brother Kwom. They both agreed to keep the name ‘Hannah’s Handbags’ as it is an established, reputable and widely recognised brand.\n> \n> HH operates from a small workshop and showroom. Customers are encouraged to visit the showroom to discuss design and materials with either Hannah or Kwom.\n> \n> HH employs four highly skilled specialist production staff. Table 2.1 shows an extract from the latest income statement.\n> \n> **Table 2.1: Extract of financial data for HH (year ended 30 October 2019)**\n> \n> |   | **\\$000** |\n> |---|---|\n> | Revenue | 980 |\n> | Cost of sales | 588 |\n> | Expenses | 245 |\n> \n> **A new product **\n> \n> Hannah and Kwom would like to expand the business by producing a limited number of batch produced bags to sell online. Hannah has noticed other bag producers do this successfully. The new market has many more competitors, with 15 large businesses and many small ones. The bags would have to be priced competitively. Kwom estimates that this new venture would require additional finance of \\$350 000. HH would also require a specialist IT provider to set up a website and a marketing agency to run a viral marketing campaign.\n\nDefine the term ‘income statement’.",
+     "solution_md": "An income statement is a financial statement that shows a business's revenue, cost of sales and expenses **[1]**, to work out how much profit or loss it has made over a period **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - A financial statement that reports a business's revenue, cost of sales and resulting profit over a given period\n> - A document showing how much profit or loss a business has made, calculated by subtracting costs, such as cost of sales and expenses, from revenue\n> - A financial statement that records a business's income and costs, showing its gross profit and operating/net profit for a specific period"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rrp5WvwFPh4zWf6c",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Cn2WKZvM7tHjVKB3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "Paper 13",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mFCGrhd75ZsM8kyj"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term ‘published accounts’.",
+     "solution_md": "Published accounts are financial statements, like the income statement **[1]**, that limited companies must produce and send to shareholders every year **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - Financial statements produced by limited companies, issued annually and sent to shareholders.\n> - A set of official financial documents, such as the income statement and statement of financial position, that limited companies must produce and make available each year.\n> - Annual financial statements that a limited company is legally required to prepare and share with shareholders and the public"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WwGN778KHts4yQvv",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_hM33SZ78TtjdZZvP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 20,
+     "command_word": "discuss",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "Paper 13",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mtCZMrzdxNBfQThj",
+      "spcpt_mFCGrhd75ZsM8kyj",
+      "spcpt_G3Fbn2sS6dhtkRrR",
+      "spcpt_6WH4DDdNbdkqYK3G"
+     ],
+     "part_tier": null,
+     "problem_md": "‘The published accounts of a public limited company are only useful to internal stakeholders.’\n\nDiscuss the extent to which you agree with this view.",
+     "solution_md": "Published accounts are useful to internal stakeholders in some ways. Shareholders can check the company's profit and dividend **[K]** to see the return on their investment, and employees might look at the accounts to judge whether a pay rise is likely **[An]**. Managers can also use trends in the published accounts, such as changing revenue or profit over time, to help with future financial planning **[An]**\n\nExternal stakeholders also rely on them heavily, often more than internal stakeholders do. A bank  **[K] **deciding whether to lend money to a public limited company would use the published accounts to judge whether the company can afford to repay a loan **[Ap]** **[An]**. Potential investors use them to decide whether buying shares is a good investment, and the government uses them to work out how much tax the company owes. These external groups usually have no other way of finding out this information, so published accounts may actually matter more to them than to internal stakeholders **[E]**\n\nIt is also worth noting that managers, as internal stakeholders, often have access to much more detailed financial information **[K]** than what is published, such as the profitability of individual departments. This means the published accounts themselves may be of limited extra use to managers specifically, even though they are internal stakeholders **[An]**. This weakens the idea that published accounts are especially useful to internal stakeholders as a group **[E]**\n\nOverall, I disagree with the statement **[E]**. Published accounts are clearly useful to a wide range of external stakeholders, such as banks, investors and government, who depend on them as one of their only sources of financial information about the company **[An]**. If anything, they may be more useful to certain external stakeholders than to internal ones like managers, who already have access to more detailed data than the published accounts provide **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n>   - Strong knowledge applied to the business context or question stem throughout\n>   - Detailed interconnected points with logical chains of reasoning\n>   - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n>   - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **5** | - Developed knowledge of relevant key term(s) and/or factor(s) is used to answer the question<br>- Developed application of relevant point(s) to the business context |\n> | **4** | - Partially-developed knowledge of relevant key term(s) and/or factor(s) is used to answer the question<br>- Developed application of relevant point(s) to the business context |\n> | **3** | - Partially-developed knowledge of relevant key term(s) and/or factor(s) is used to answer the question<br>- Limited application of relevant point(s) to the business context |\n> | **2** | - Limited knowledge of relevant key term(s) and/or factor(s) is used to answer the question<br>- Limited application of relevant point(s) to the business context |\n> | **1** | - Limited knowledge of relevant key term(s) and/or factor(s) is used to answer the question |\n> \n> **Analysis and evaluation**\n> \n> | **Marks** | **Descriptor** |\n> |---|---|\n> | **12-15** | - Developed analysis that identifies connections between causes, impacts and/or consequences<br>- A developed judgement/conclusion is made in the business context that draws together developed evaluative comments which weigh up some key arguments in the business context |\n> | **7-11** | - Developed analysis of individual strategic element(s) that identifies connections between causes, impacts and/or consequences<br>- A developed judgement/ conclusion is made<br>- Developed evaluative comments which weigh up some key arguments |\n> | **1-6** | - Limited analysis that identifies connections between causes, impacts and/or consequences<br>- A judgement/conclusion is made with limited supporting comment/evidence. • An attempt is made to weigh up the arguments |\n> \n> **Indicative content **\n> \n> **Internal stakeholders**\n> \n> - Managers use published accounts to calculate trends over time and as a basis for future financial planning, helping them make informed decisions about the direction of the business.\n> - Shareholders/owners use published accounts to assess financial performance, since they have invested money in the hope of a financial return, so profit and dividend figures are directly relevant to them.\n> - Employees may use published accounts to judge the likelihood of a pay rise or bonus, and to assess the future security of their jobs based on the company's financial performance.\n> \n> **External stakeholders**\n> \n> - Banks can use published accounts to assess whether a business is able to meet loan repayments before deciding whether to lend to it.\n> - Potential investors use published accounts to assess a company's profitability and decide whether to buy shares in it.\n> - Governments use published accounts to assess how much tax a company owes, based on its reported profit.\n> \n> **Evaluation**\n> \n> - Published accounts only contain the amount of detail a company is legally required to disclose, meaning much detailed internal information (such as the profitability of individual departments) is not included, even for internal stakeholders like managers.\n> - This means some internal stakeholders, especially managers, actually have access to far more detailed information than what appears in the published accounts, making the published accounts themselves of relatively limited extra use to them.\n> - Published accounts could be \"window dressed\" to present the company in the best possible light, which could reduce their reliability for any stakeholder, internal or external.\n> - One-off financial events (e.g. selling a large asset, repaying a large loan) can distort a single year's figures, making the accounts harder to compare with other years or other businesses — a limitation affecting all users of the accounts, not just external ones.\n> - It is unlikely to be true that published accounts are useful only to internal stakeholders, since external stakeholders such as banks, investors and government clearly rely heavily on them; if anything, published accounts may be relatively more valuable to external stakeholders, who have no other means of accessing the company's financial information, than to internal stakeholders like managers, who already have more detailed data available to them.\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bXbKY7rQR2FkGx4v",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_MwHkT9C7XpcbC2vn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen 2018",
+      "number": "Paper 3",
+      "question_number": 2,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_sDbRT6FJHRbRg8bj",
+      "spcpt_mP3ddJFvYTZXvfT6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Pop Cool (PC) **\n\nPC is a public limited company. Its head office is in Europe and it operates with centralised decision making. The company owns the Pop Cool brand name, logo and the distinctive bottle shape that is still used in some markets. PC operates its own bottling and canning factories in some countries. However, it also has joint venture agreements with packaging businesses in other countries. Much of the fruit and sugar used in producing the soft drinks is imported from African and Asian countries. 75% of PC’s sales and 90% of its profits are earned in the USA and Europe. The directors of PC are keen to develop other markets and other products so that the company becomes less dependent on a few key markets and products. Economic changes The economies of the USA and Europe have experienced very slow economic growth since 2008 – and some have even been hit by recession. Interest rates are very low as the monetary policy of these countries is aiming to boost demand. However, this has contributed to exchange rate depreciations of the US dollar and the European euro. Consumer spending has fallen due to declining real incomes. There are ageing populations in most of the countries where PC sells its products. A loss of competitiveness in many industrial sectors has resulted in rising unemployment. Statement of financial position valuations Since 2008 PC’s share price has fallen. This has been the trend for many public limited companies. PC’s Finance Director has been considering three changes that will affect PC’s accounts. He could make all three changes or just one or two of them. • When calculating depreciation of new production equipment bought last year for \\$25m, use an estimated life of 8 years not 5 years. The equipment would still have an estimated residual value of \\$3m. • Sell \\$10m of property assets and lease them back at an annual leasing cost of \\$1.5m. • Revalue the company’s intangible assets by 50%. He used an extract of PC’s most recent accounts to calculate what the impact of these changes might be on profit and gearing (see Appendix 1). Entering new markets – Africa and Asia Paul, PC’s Chief Executive Officer (CEO), has been discussing with the Marketing Director, Suzy, alternative marketing strategies the company could use to enter the rapidly expanding markets of Asia and Africa. They have different views. Paul stated that: ‘I think we should take over an existing soft drinks manufacturer in, for example, India or China. We would then have all of the production facilities and distribution channels through large supermarkets that we will need. The existing brand names could then be replaced with the Pop Cool brand which we would advertise very heavily for a short period. Consumers will be attracted to this because it is so popular elsewhere in the world.’ Suzy replied: ‘There could be local opposition to this globalised approach – although the marketing economies of scale will be substantial. I think we should develop a range of soft drinks to suit local tastes with brand names that reflect local language and culture. We could distribute these new drinks through small retail stores and street markets. This way we will slowly but steadily build up consumer awareness and loyalty.’\n\nWorkforce planning in country X Country X is one of PC’s biggest markets. The company fully owns all of the production facilities in this country and it has a large sales and marketing team too. PC employs 468 people in country X and labour costs are the company’s biggest expense in this country. The Human Resources department is under pressure from PC’s Head Office to reduce labour costs in country X by 15%. The Human Resources manager in country X, Bill, thinks that cutting labour costs might be risky. He told other senior managers: ‘We must maintain consistent and adequate production levels so that consumers can always buy the quantity they want. Production workers are sometimes reluctant to learn new skills and they are resistant to job flexibility. Should we cut back on sales and marketing staff? Perhaps we should employ more production workers on flexible contracts. Another option is to introduce even more automation at our main packaging plant.’ The other managers agreed with him that meeting this new company objective of reducing labour costs was going to need careful workforce planning. Special order in country X PC’s marketing team in country X has just received an enquiry from the country’s largest supermarket group – Superfood. The supermarket is asking PC to produce one large batch of soft drinks as a trial product to be sold under Superfood’s own brand name. The drinks would be similar to an existing Pop Cool product. PC’s Marketing manager in country X is not prepared to take this decision without the approval of Head Office. He consulted with the Operations manager in country X. They compiled data to present to PC’s senior management team in country X before asking Head Office for a final decision (see Appendix 2). Future options for PC’s growth PC’s Board of Directors has been criticised by the newspapers and by major shareholders for the company’s slow rate of growth in sales and profits since 2008. Apart from expansion into markets in Asia and Africa, the directors are investigating two other strategic options for growth and increasing long term profitability. Option A: Develop new flavours and distinctive names for a wider range of PC products. These could include: Pop Cool Energy aimed at the sports people market segment and Pop Cool Vital aimed at young people wanting to buy healthy drinks. The Marketing Director believes that much clearer market segmentation is the best strategy for achieving market penetration and higher profits. He said at a recent Board meeting: ‘This is a low risk strategy that could be implemented within two years’. Option B: Extend the Pop Cool brand name and image by organising a joint venture with a clothing designer. The plan would be to launch a range of modern clothes aimed at young consumers. With careful and extensive promotion, the CEO thinks that these consumers would quickly link the clothing range with Pop Cool’s positive image. He believes that the best way to expand profitably in the longer term is for PC to diversify into markets and products that could lead to higher profit margins than those achieved with soft drinks.\n\nAppendix 1: Extract from Pop Cool’s latest published accounts (before any changes proposed by Finance Director) Statement of financial position extract as at 31 October 2013 \\$m Non-current assets: Land Buildings Production equipment Vehicles Intangible assets Total non-current assets 78 112 78 10 80 358 Net current assets 86 Non-current liabilities 156 Shareholders’ equity 288 Income statement extract for year ending 31 October 2013 Revenue 750 Profit after depreciation and interest 87 Appendix 2: Superfood’s special order – data produced by Marketing manager and Operations manager PC’s annual production capacity in country X 50m cans PC’s actual production level (2012) in country X 45m cans Superfood order 4m cans Unit material cost per can of drink \\$0.10 Unit direct labour cost per can of drink \\$0.15 Cost of new design of can for Superfood and product testing \\$0.5m Transport costs for Superfood order \\$0.1m PC factory overhead cost per can of drink (2012) \\$0.25 Price per can offered by Superfood to PC \\$0.50\n\nRead the following [extract ](https://www.savemyexams.com/a-level/business/cie/past-papers/paper/ppr_P5tNnV2wFf4rKdFh/?pdf=https%3A%2F%2Fwww.cambridgeinternational.org%2FImages%2F356763-2018-specimen-paper-3-insert.pdf&type=resource&resourceIndex=0)(lines 17–27 and Appendix 1) before answering\n\nCalculate the change in the annual depreciation of the new production equipment.",
+     "solution_md": "**\\$1.65m decrease** **[4]**\n\nOld annual depreciation (5-year life)\n\n`equals space fraction numerator $ 25 straight m space minus space $ 3 straight m over denominator 5 end fraction space\n\nequals space $ 22 straight m space divided by space 5 space\n\nequals space $ 4.4 straight m`\n\nNew annual depreciation (8-year life)\n\n`equals space fraction numerator $ 25 straight m space minus space $ 3 straight m over denominator 8 end fraction space\n\nequals space $ 22 straight m space divided by space 8 space\n\nequals space $ 2.75 straight m`\n\nChange in annual depreciation:\n\n`equals space $ 4.4 straight m space minus space $ 2.75 straight m space\n\nequals space $ 1.65 straight m space decrease`\n\n> **[mark-scheme]**\n> - Up to 3 marks for valid workings\n> - 1 mark for the correct answer of `$ 1.65 straight m`\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9tkH4FMrjNgqPPd2",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_HZydCMGjy2ZD7SCv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen 2016",
+      "number": "Paper 2",
+      "question_number": 2,
+      "question_part": "bi"
+     },
+     "spec_point_ids": [
+      "spcpt_hySwTDshsbJ6FWJJ"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **George’s Gym (GG) **\n> \n> George identified a potential niche market for a new gym in his local area. He set up GG as a sole trader business three years ago. GG is a modern gym with the latest equipment.\n> \n> George has recently gained planning permission to build a new swimming pool. George wants to open the swimming pool because a national competitor is planning to open a new gym close by and he wants GG to remain competitive. The swimming pool will cost \\$400 000 and George has yet to decide on the best source of fi nance. He has \\$50 000 in savings that he could use and he does not have any mortgage or loans. George is thinking about seeking a private investor but is unsure of the risks involved.\n> \n> The local population is wealthy. Last year (2012), GG had 300 members who each paid a membership fee of \\$60 per month. George is thinking about new ways of increasing revenue such as offering additional ‘keep fit’ classes. He also plans to increase the monthly fee he charges members to \\$66. His accountant has told him he needs to think about the price elasticity of demand before making a pricing decision.\n> \n> **Table 3 – Annual revenue and profit for the year for the previous 3 years (\\$000)**\n> \n> |   | 2010 | 2011 | 2012 |\n> |---|---|---|---|\n> | Annual revenue | 120 | 160 | X |\n> | Profit for the year | 20 | 50 | 80 |\n> \n> George hopes that the information in Table 3 will help show any potential lender how attractive the gym is as an investment.\n> \n> GG has a problem of a high labour turnover of personal trainers. Three of them have left in the last six months. He has just employed a new personal trainer, Sally. George needs to issue her contract of employment. George thinks that the reasons for the high labour turnover include:\n> \n> - George is always busy and so he can never offer an effective induction training programme for his employees\n> - GG salaries are below average for the industry.\n\nCalculate the value of X in Table 3.",
+     "solution_md": "**X = \\$216,000** **[2]**\n\nAnnual revenue = Monthly fee × Number of members × 12 months\n\n`equals space $ 60 space cross times space 300 space cross times space 12 space space\n\nequals space $ 216 comma 000`\n\n> **[mark-scheme]**\n> - 1 mark for a valid working\n> - 1 mark for the correct answer of `$ 216 comma 000`\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  }
+ ]
+}
