@@ -1,0 +1,2317 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:37Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/4-processor-fundamentals-/central-processing-unit-cpu-architecture/",
+  "section_slug": "4-processor-fundamentals-",
+  "section_name": "4. Processor Fundamentals",
+  "topic_slug": "central-processing-unit-cpu-architecture",
+  "title": "Central Processing Unit (CPU) Architecture",
+  "order": 0
+ },
+ "card_count": 92,
+ "card_types": {
+  "keyword_definition": 11,
+  "question_and_answer": 69,
+  "fill_in_the_blanks": 6,
+  "true_or_false": 6
+ },
+ "spec_link_cards": 92,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_XfZ39Xr9GbbnzxVP",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **the Von Neumann model**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The Von Neumann model is a **design of the CPU** that outlines **how the computer memory, input/output devices and processor all work together**, and on which most general-purpose computers are built."
+    }
+   ],
+   "front_md": "Define **the Von Neumann model**.\n",
+   "back_md": "The Von Neumann model is a **design of the CPU** that outlines **how the computer memory, input/output devices and processor all work together**, and on which most general-purpose computers are built.\n",
+   "spec_links": [
+    "spcpt_kCG4YJc7PcSHvtMf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yV4kDstzcJRQQhdP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four things the Von Neumann model consists of."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **central processing unit**, the ability to **access memory directly**, **memory that can store programs as well as data**, and **stored programs containing instructions that can be executed in order**."
+    }
+   ],
+   "front_md": "Name the four things the Von Neumann model consists of.\n",
+   "back_md": "A **central processing unit**, the ability to **access memory directly**, **memory that can store programs as well as data**, and **stored programs containing instructions that can be executed in order**.\n",
+   "spec_links": [
+    "spcpt_kCG4YJc7PcSHvtMf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Yw9MjkH3RQMtvZQF",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **register**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A register is **extremely small, extremely fast memory located in the CPU** that holds small amounts of data **needed as part of the fetch-execute cycle**."
+    }
+   ],
+   "front_md": "Define **register**.\n",
+   "back_md": "A register is **extremely small, extremely fast memory located in the CPU** that holds small amounts of data **needed as part of the fetch-execute cycle**.\n",
+   "spec_links": [
+    "spcpt_kCG4YJc7PcSHvtMf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jCqbfy6BYFKFW22q",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a general purpose register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A register that can store **any data the CPU is currently working on**, and is **flexible** enough to be used for various operations."
+    }
+   ],
+   "front_md": "What is a general purpose register?\n",
+   "back_md": "A register that can store **any data the CPU is currently working on**, and is **flexible** enough to be used for various operations.\n",
+   "spec_links": [
+    "spcpt_kCG4YJc7PcSHvtMf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BWjKMVKqKTx2rDs3",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **special purpose register**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A special purpose register **has a dedicated role** within the operation of the CPU, controlling or tracking data."
+    }
+   ],
+   "front_md": "Define **special purpose register**.\n",
+   "back_md": "A special purpose register **has a dedicated role** within the operation of the CPU, controlling or tracking data.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8cfZVsfKncZHGZT7",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Program Counter?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **holds the memory address of the next instruction to be executed**, and **increments by 1** as the fetch-decode-execute cycle runs."
+    }
+   ],
+   "front_md": "What is the purpose of the Program Counter?\n",
+   "back_md": "It **holds the memory address of the next instruction to be executed**, and **increments by 1** as the fetch-decode-execute cycle runs.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HfHj7vZBcjWQtCTP",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Memory Address Register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **holds the memory address of where data or instructions are to be fetched from memory**."
+    }
+   ],
+   "front_md": "What is the purpose of the Memory Address Register?\n",
+   "back_md": "It **holds the memory address of where data or instructions are to be fetched from memory**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nPhBB375WXtjmCkR",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Memory Data Register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stores the data or instruction which has been fetched from memory**."
+    }
+   ],
+   "front_md": "What is the purpose of the Memory Data Register?\n",
+   "back_md": "It **stores the data or instruction which has been fetched from memory**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g4RHsXP84WxkMgwH",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Current Instruction Register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stores the instruction the CPU is currently decoding or executing**."
+    }
+   ],
+   "front_md": "What is the purpose of the Current Instruction Register?\n",
+   "back_md": "It **stores the instruction the CPU is currently decoding or executing**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K7bYK8ZtgBhZvFVP",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Accumulator?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stores the results of any calculations that have taken place in the Arithmetic Logic Unit**."
+    }
+   ],
+   "front_md": "What is the purpose of the Accumulator?\n",
+   "back_md": "It **stores the results of any calculations that have taken place in the Arithmetic Logic Unit**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9jy62gc3VwMPK5qp",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Index Register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stores a value that can be added to an address to get the effective memory address**, and is used for **indexed addressing**."
+    }
+   ],
+   "front_md": "What is the purpose of the Index Register?\n",
+   "back_md": "It **stores a value that can be added to an address to get the effective memory address**, and is used for **indexed addressing**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X8s9v4vSx5ZNxxqF",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the Status Register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stores flags that reflect the outcome of CPU operations**, holding individual bits that are **set or cleared depending on the result of an instruction**, such as overflow."
+    }
+   ],
+   "front_md": "What is the purpose of the Status Register?\n",
+   "back_md": "It **stores flags that reflect the outcome of CPU operations**, holding individual bits that are **set or cleared depending on the result of an instruction**, such as overflow.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fCzM9b3h8QbRfq6X",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The acronym <u>**      **</u> stands for the Current Instruction Register."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The acronym **CIR** stands for the Current Instruction Register."
+    }
+   ],
+   "front_md": "The acronym <u>**      **</u> stands for the Current Instruction Register.\n",
+   "back_md": "The acronym **CIR** stands for the Current Instruction Register.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_w9hmXsZsXwhGm3w7",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three things must you know about each special purpose register?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **name of the register**, its **acronym**, and the **purpose of the register**."
+    }
+   ],
+   "front_md": "What three things must you know about each special purpose register?\n",
+   "back_md": "The **name of the register**, its **acronym**, and the **purpose of the register**.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SYgPGhsBVY5XqWTw",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_XhcZ8hSrjrJr8m4t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The Memory Address Register stores the data that has been fetched from memory."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **MAR holds the address** of where data is to be fetched from; it is the **MDR** that **stores the data or instruction** fetched."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe Memory Address Register stores the data that has been fetched from memory.\n",
+   "back_md": "**False.**\n\nThe **MAR holds the address** of where data is to be fetched from; it is the **MDR** that **stores the data or instruction** fetched.\n",
+   "spec_links": [
+    "spcpt_kmJ2B5YYGtGNhQRR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BsWmG7WXNvW332Qz",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the CPU responsible for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Processing all data within the computer**."
+    }
+   ],
+   "front_md": "What is the CPU responsible for?\n",
+   "back_md": "**Processing all data within the computer**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BgXmDMFyFR5dPxZX",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five components that make up the CPU."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **Arithmetic Logic Unit (ALU)**, the **Control Unit (CU)**, the **system clock**, the **Immediate Access Store (IAS)** and the **buses**."
+    }
+   ],
+   "front_md": "Name the five components that make up the CPU.\n",
+   "back_md": "The **Arithmetic Logic Unit (ALU)**, the **Control Unit (CU)**, the **system clock**, the **Immediate Access Store (IAS)** and the **buses**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DZbVG2TGRkvyhRnp",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the Arithmetic Logic Unit do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It performs **calculations**, such as add and subtract, and **logic operations**, such as AND and OR."
+    }
+   ],
+   "front_md": "What does the Arithmetic Logic Unit do?\n",
+   "back_md": "It performs **calculations**, such as add and subtract, and **logic operations**, such as AND and OR.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m8tNFDSxCbcnqPq8",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the Control Unit do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **manages and controls the execution of instructions** and **directs data flow**."
+    }
+   ],
+   "front_md": "What does the Control Unit do?\n",
+   "back_md": "It **manages and controls the execution of instructions** and **directs data flow**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kS5ZjcJDGvR8bW98",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the system clock do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sends out **regular pulses to synchronise all CPU operations**."
+    }
+   ],
+   "front_md": "What does the system clock do?\n",
+   "back_md": "It sends out **regular pulses to synchronise all CPU operations**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9tCd84wThvbcG8b5",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the Immediate Access Store?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **main memory** where **instructions and data needed by the CPU are temporarily stored**."
+    }
+   ],
+   "front_md": "What is the Immediate Access Store?\n",
+   "back_md": "The **main memory** where **instructions and data needed by the CPU are temporarily stored**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g5nwDXpSsjDNQHrd",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **bus**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bus is **a set of parallel wires through which data or signals are transmitted** from one component to another."
+    }
+   ],
+   "front_md": "Define **bus**.\n",
+   "back_md": "A bus is **a set of parallel wires through which data or signals are transmitted** from one component to another.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dxh39pSv4nChcM9K",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three types of bus."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **address bus**, the **data bus** and the **control bus**."
+    }
+   ],
+   "front_md": "Name the three types of bus.\n",
+   "back_md": "The **address bus**, the **data bus** and the **control bus**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cDh5hX9QvxtkxVfp",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the address bus carry, and in which direction?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It carries **location data (addresses)** that data is written to or read from, and it is **unidirectional**."
+    }
+   ],
+   "front_md": "What does the address bus carry, and in which direction?\n",
+   "back_md": "It carries **location data (addresses)** that data is written to or read from, and it is **unidirectional**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_268pCdzH2fXRxfKW",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the data bus carry, and in which direction?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It carries **data or instructions**, and it is **bidirectional**."
+    }
+   ],
+   "front_md": "What does the data bus carry, and in which direction?\n",
+   "back_md": "It carries **data or instructions**, and it is **bidirectional**.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gt9dCRb3YnJKTWGs",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The <u>**                    **</u> bus carries commands and control signals, and is bidirectional."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **control** bus carries commands and control signals, and is bidirectional."
+    }
+   ],
+   "front_md": "The <u>**                    **</u> bus carries commands and control signals, and is bidirectional.\n",
+   "back_md": "The **control** bus carries commands and control signals, and is bidirectional.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Jx8k5WNX7HnTdJw2",
+   "card_type": "true_or_false",
+   "order": 11,
+   "set_id": "flst_yhQ3X3Ghj5QSCx7C",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The address bus is bidirectional."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The address bus is **unidirectional**; the **data** and **control** buses are the bidirectional ones."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe address bus is bidirectional.\n",
+   "back_md": "**False.**\n\nThe address bus is **unidirectional**; the **data** and **control** buses are the bidirectional ones.\n",
+   "spec_links": [
+    "spcpt_VWvqb7ST5nKbXx5F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GTjrBKqQkYsVZkfv",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **core**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A core acts like a **mini CPU** that can **fetch, decode and execute instructions on its own**."
+    }
+   ],
+   "front_md": "Define **core**.\n",
+   "back_md": "A core acts like a **mini CPU** that can **fetch, decode and execute instructions on its own**.\n",
+   "spec_links": [
+    "spcpt_hcX5gFV85CjPxKGc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2XJx4tpYcHrxBtDc",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three components does each core have of its own?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its own **Control Unit**, **Arithmetic Logic Unit** and **registers**."
+    }
+   ],
+   "front_md": "What three components does each core have of its own?\n",
+   "back_md": "Its own **Control Unit**, **Arithmetic Logic Unit** and **registers**.\n",
+   "spec_links": [
+    "spcpt_hcX5gFV85CjPxKGc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qcwzx9Xxx9yVhhFY",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a multicore CPU allow?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Parallel processing**, where **multiple instructions are processed at the same time**."
+    }
+   ],
+   "front_md": "What does a multicore CPU allow?\n",
+   "back_md": "**Parallel processing**, where **multiple instructions are processed at the same time**.\n",
+   "spec_links": [
+    "spcpt_hcX5gFV85CjPxKGc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9D5rXy7FPjJxytCS",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many instructions per second can a quad-core CPU running at 3 GHz perform?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "4 cores × 3 billion gives **12 billion instructions per second**."
+    }
+   ],
+   "front_md": "How many instructions per second can a quad-core CPU running at 3 GHz perform?\n",
+   "back_md": "4 cores × 3 billion gives **12 billion instructions per second**.\n",
+   "spec_links": [
+    "spcpt_hcX5gFV85CjPxKGc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bQNGC7hrNqrwCyff",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a dual-core processor not always twice as fast as a single-core one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Some time is used for **organising tasks between cores**, and **not all tasks can be split across cores** because some are **sequential** and must be done step-by-step."
+    }
+   ],
+   "front_md": "Why is a dual-core processor not always twice as fast as a single-core one?\n",
+   "back_md": "Some time is used for **organising tasks between cores**, and **not all tasks can be split across cores** because some are **sequential** and must be done step-by-step.\n",
+   "spec_links": [
+    "spcpt_hcX5gFV85CjPxKGc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zW6cdPZVRHSGqWR6",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the clock control, and what is a state change?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The clock controls the **timing of operations inside the CPU**, constantly **switching between 0 and 1**; each switch is a **state change**, which can represent one step in the fetch-decode-execute cycle."
+    }
+   ],
+   "front_md": "What does the clock control, and what is a state change?\n",
+   "back_md": "The clock controls the **timing of operations inside the CPU**, constantly **switching between 0 and 1**; each switch is a **state change**, which can represent one step in the fetch-decode-execute cycle.\n",
+   "spec_links": [
+    "spcpt_gtz89tmjhC4zK57C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TT2xgBPPMVp8wMRp",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does clock speed measure, and in what unit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It measures **how many state changes happen per second**, where **1 cycle per second = 1 Hz**."
+    }
+   ],
+   "front_md": "What does clock speed measure, and in what unit?\n",
+   "back_md": "It measures **how many state changes happen per second**, where **1 cycle per second = 1 Hz**.\n",
+   "spec_links": [
+    "spcpt_gtz89tmjhC4zK57C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fv8Ngv6s6rJRWsjd",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A typical clock speed of 2.3 GHz means <u>**                    **</u> cycles per second."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A typical clock speed of 2.3 GHz means **2.3 billion** cycles per second."
+    }
+   ],
+   "front_md": "A typical clock speed of 2.3 GHz means <u>**                    **</u> cycles per second.\n",
+   "back_md": "A typical clock speed of 2.3 GHz means **2.3 billion** cycles per second.\n",
+   "spec_links": [
+    "spcpt_gtz89tmjhC4zK57C"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_w3TQpQJByzfNPFSB",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does a higher clock speed improve performance?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The CPU can **execute more instructions per second**, helping the computer **run tasks more quickly and efficiently**."
+    }
+   ],
+   "front_md": "Why does a higher clock speed improve performance?\n",
+   "back_md": "The CPU can **execute more instructions per second**, helping the computer **run tasks more quickly and efficiently**.\n",
+   "spec_links": [
+    "spcpt_gtz89tmjhC4zK57C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nZSccZVjg8PnX26G",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **cache memory**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cache is part of **primary storage** that stores **frequently used data and instructions**, located **closer to the CPU than RAM** so it is faster to access."
+    }
+   ],
+   "front_md": "Define **cache memory**.\n",
+   "back_md": "Cache is part of **primary storage** that stores **frequently used data and instructions**, located **closer to the CPU than RAM** so it is faster to access.\n",
+   "spec_links": [
+    "spcpt_dQ4JhDcjqMDgBtCp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pvK4VpNPkRpsDzgm",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does more cache improve CPU performance?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**More data is stored nearby**, which means **less time waiting for data from RAM**."
+    }
+   ],
+   "front_md": "Why does more cache improve CPU performance?\n",
+   "back_md": "**More data is stored nearby**, which means **less time waiting for data from RAM**.\n",
+   "spec_links": [
+    "spcpt_dQ4JhDcjqMDgBtCp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TBz2KGRrzG77csts",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is Level 1 cache located, and what are its speed and size?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Inside each CPU core**; it is the **fastest** and the **smallest**."
+    }
+   ],
+   "front_md": "Where is Level 1 cache located, and what are its speed and size?\n",
+   "back_md": "**Inside each CPU core**; it is the **fastest** and the **smallest**.\n",
+   "spec_links": [
+    "spcpt_dQ4JhDcjqMDgBtCp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NPbCGdDtHGS4596k",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is Level 3 cache located, and what are its speed and size?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **shared by all cores**, and is **slower than L1 and L2** but the **largest**."
+    }
+   ],
+   "front_md": "Where is Level 3 cache located, and what are its speed and size?\n",
+   "back_md": "It is **shared by all cores**, and is **slower than L1 and L2** but the **largest**.\n",
+   "spec_links": [
+    "spcpt_dQ4JhDcjqMDgBtCp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3jyN722qQ25v5k7b",
+   "card_type": "keyword_definition",
+   "order": 13,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **bus width**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bus width is the **number of bits a bus can carry at once**, so a **wider bus can transfer more bits in a single operation**."
+    }
+   ],
+   "front_md": "Define **bus width**.\n",
+   "back_md": "Bus width is the **number of bits a bus can carry at once**, so a **wider bus can transfer more bits in a single operation**.\n",
+   "spec_links": [
+    "spcpt_ddMfxchnq2rSTShF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jjrvKfqV2JYV4B8B",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a wider data bus mean for a computer?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Faster processing** and **more efficient memory access**, which matters for high-performance tasks such as gaming, video editing and large data processing."
+    }
+   ],
+   "front_md": "What does a wider data bus mean for a computer?\n",
+   "back_md": "**Faster processing** and **more efficient memory access**, which matters for high-performance tasks such as gaming, video editing and large data processing.\n",
+   "spec_links": [
+    "spcpt_ddMfxchnq2rSTShF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s8W9kbWfNYSYkKMM",
+   "card_type": "true_or_false",
+   "order": 15,
+   "set_id": "flst_Fd2Jx6HxJndCTcx4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every instruction takes exactly one clock cycle to complete."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A state change can represent one step in the cycle, but **some instructions may take more than one cycle**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery instruction takes exactly one clock cycle to complete.\n",
+   "back_md": "**False.**\n\nA state change can represent one step in the cycle, but **some instructions may take more than one cycle**.\n",
+   "spec_links": [
+    "spcpt_gtz89tmjhC4zK57C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2qqNXntSRmm6Smp2",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does USB stand for, and what kind of communication method is it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Universal Serial Bus** — a **serial communication method** that operates **asynchronously**."
+    }
+   ],
+   "front_md": "What does USB stand for, and what kind of communication method is it?\n",
+   "back_md": "**Universal Serial Bus** — a **serial communication method** that operates **asynchronously**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g6RSZtNrnBNQrZvs",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the letters in USB-A, USB-B and USB-C refer to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **physical shape and design of the connector**."
+    }
+   ],
+   "front_md": "What do the letters in USB-A, USB-B and USB-C refer to?\n",
+   "back_md": "The **physical shape and design of the connector**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fb53sTBYhm2mc9qf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three qualities is USB-C known for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **small size**, its **transfer speeds**, and its **ability to carry power**."
+    }
+   ],
+   "front_md": "What three qualities is USB-C known for?\n",
+   "back_md": "Its **small size**, its **transfer speeds**, and its **ability to carry power**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xjcNbKpv5yNj6ytC",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the numbers in USB 2.0, 3.0 and 4 refer to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **generation of USB technology**, which determines the **speed and performance**."
+    }
+   ],
+   "front_md": "What do the numbers in USB 2.0, 3.0 and 4 refer to?\n",
+   "back_md": "The **generation of USB technology**, which determines the **speed and performance**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xwGvbZpt6DrG4wJ4",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give the transfer speeds of USB 2.0 and USB4."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "USB 2.0 reaches **480 Mbps**, while **USB4 and USB4 2.0** reach up to **80 Gbps**."
+    }
+   ],
+   "front_md": "Give the transfer speeds of USB 2.0 and USB4.\n",
+   "back_md": "USB 2.0 reaches **480 Mbps**, while **USB4 and USB4 2.0** reach up to **80 Gbps**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6YrsjykRryRzKhYg",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Describe what happens when a device is connected to a USB port."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The computer **automatically detects the device**, then **looks for the correct driver** — loading it if already installed, searching for a compatible one if the device is new, and requiring the **user to install one manually** if none is found."
+    }
+   ],
+   "front_md": "Describe what happens when a device is connected to a USB port.\n",
+   "back_md": "The computer **automatically detects the device**, then **looks for the correct driver** — loading it if already installed, searching for a compatible one if the device is new, and requiring the **user to install one manually** if none is found.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r5n45hRGr3dqPBbZ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give three advantages of USB."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Devices are **automatically detected with drivers loaded**, connectors **fit in only one way** which prevents incorrect connections, usage is **standardised** so support is widely available, several **data transmission rates** are supported, and newer standards are **backwards compatible**."
+    }
+   ],
+   "front_md": "Give three advantages of USB.\n",
+   "back_md": "Devices are **automatically detected with drivers loaded**, connectors **fit in only one way** which prevents incorrect connections, usage is **standardised** so support is widely available, several **data transmission rates** are supported, and newer standards are **backwards compatible**.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GnjW7qF774cwPxYD",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The maximum USB cable length is roughly <u>**      **</u> metres, which limits its use over long distances."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The maximum USB cable length is roughly **5** metres, which limits its use over long distances."
+    }
+   ],
+   "front_md": "The maximum USB cable length is roughly <u>**      **</u> metres, which limits its use over long distances.\n",
+   "back_md": "The maximum USB cable length is roughly **5** metres, which limits its use over long distances.\n",
+   "spec_links": [
+    "spcpt_3jfBCFWwyPC7VNtG"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_P9BP2SHGrbgDqg6R",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does HDMI carry, and what did it replace?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **digital port** carrying both **video and audio output**, and it replaced older **VGA analogue systems**."
+    }
+   ],
+   "front_md": "What does HDMI carry, and what did it replace?\n",
+   "back_md": "It is a **digital port** carrying both **video and audio output**, and it replaced older **VGA analogue systems**.\n",
+   "spec_links": [
+    "spcpt_tNJPwB3kcrYK7ghk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9VFpHbd9R4SfFk9S",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name four features of modern HD displays that demand more data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Widescreen format**, **higher resolution**, **faster refresh rates**, and a **wider colour range** of millions of variations."
+    }
+   ],
+   "front_md": "Name four features of modern HD displays that demand more data.\n",
+   "back_md": "**Widescreen format**, **higher resolution**, **faster refresh rates**, and a **wider colour range** of millions of variations.\n",
+   "spec_links": [
+    "spcpt_tNJPwB3kcrYK7ghk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9PhVGThPNnSw4HjT",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What bandwidth does HDMI provide?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Up to **10 Gbps**."
+    }
+   ],
+   "front_md": "What bandwidth does HDMI provide?\n",
+   "back_md": "Up to **10 Gbps**.\n",
+   "spec_links": [
+    "spcpt_tNJPwB3kcrYK7ghk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SydzvzPRrDJwmw47",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does HDCP stand for, and what does it do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**High-bandwidth Digital Content Protection** — devices check for an **authentication key** before sending data, and if authenticated a **handshake** occurs, which helps prevent **unauthorised copying** of protected content."
+    }
+   ],
+   "front_md": "What does HDCP stand for, and what does it do?\n",
+   "back_md": "**High-bandwidth Digital Content Protection** — devices check for an **authentication key** before sending data, and if authenticated a **handshake** occurs, which helps prevent **unauthorised copying** of protected content.\n",
+   "spec_links": [
+    "spcpt_tNJPwB3kcrYK7ghk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fH6kgFbrmXNqsGN7",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the maximum resolution and refresh rate of VGA?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**640 × 480 pixels** at up to **60 Hz**, but only **16 colours** at that rate."
+    }
+   ],
+   "front_md": "What is the maximum resolution and refresh rate of VGA?\n",
+   "back_md": "**640 × 480 pixels** at up to **60 Hz**, but only **16 colours** at that rate.\n",
+   "spec_links": [
+    "spcpt_35XGDBgFXDK2HZTH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TrNN38QhzKSKy3ND",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can VGA display more colours?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By **reducing the resolution** — at 320 × 200 it can support up to **256 colours**."
+    }
+   ],
+   "front_md": "How can VGA display more colours?\n",
+   "back_md": "By **reducing the resolution** — at 320 × 200 it can support up to **256 colours**.\n",
+   "spec_links": [
+    "spcpt_35XGDBgFXDK2HZTH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GDxB5yvvDwdCyVVH",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two consequences of VGA being an analogue signal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Lower image quality over long cables**, and it is **more likely to experience signal loss or interference**."
+    }
+   ],
+   "front_md": "Give two consequences of VGA being an analogue signal.\n",
+   "back_md": "**Lower image quality over long cables**, and it is **more likely to experience signal loss or interference**.\n",
+   "spec_links": [
+    "spcpt_35XGDBgFXDK2HZTH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h9rfJxYTDYsSJW4x",
+   "card_type": "true_or_false",
+   "order": 15,
+   "set_id": "flst_75bWsZNCvmDq3cfP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "VGA carries both video and audio, like HDMI."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "VGA was the standard for **video output** only and is an **analogue** signal; it is **HDMI** that carries **both video and audio** digitally."
+    }
+   ],
+   "front_md": "**True or False?**\n\nVGA carries both video and audio, like HDMI.\n",
+   "back_md": "**False.**\n\nVGA was the standard for **video output** only and is an **analogue** signal; it is **HDMI** that carries **both video and audio** digitally.\n",
+   "spec_links": [
+    "spcpt_35XGDBgFXDK2HZTH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3pKhZBFhrrJVqdvf",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **the fetch-execute cycle**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The fetch-execute cycle is the **process the CPU goes through repeatedly to process instructions**."
+    }
+   ],
+   "front_md": "Define **the fetch-execute cycle**.\n",
+   "back_md": "The fetch-execute cycle is the **process the CPU goes through repeatedly to process instructions**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XhxQBTYp4YkxYZMs",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three stages of the fetch-execute cycle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Fetching** an instruction from memory, **decoding** the instruction, and **executing** it."
+    }
+   ],
+   "front_md": "Name the three stages of the fetch-execute cycle.\n",
+   "back_md": "**Fetching** an instruction from memory, **decoding** the instruction, and **executing** it.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p3nfkhzGqycvTxpg",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens during the decode stage?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The instruction is **interpreted**, and the **required data is read and retrieved from their addresses**."
+    }
+   ],
+   "front_md": "What happens during the decode stage?\n",
+   "back_md": "The instruction is **interpreted**, and the **required data is read and retrieved from their addresses**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Dz6MKVt4N6FhJfBr",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which register is the PC value copied to at the start of a fetch?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **MAR**, the Memory Address Register."
+    }
+   ],
+   "front_md": "Which register is the PC value copied to at the start of a fetch?\n",
+   "back_md": "The **MAR**, the Memory Address Register.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TfYqWrnNJqyMCsrd",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the address in the MAR sent, and what accompanies it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The address is sent via the **address bus**, and a **read instruction is sent on the control bus**."
+    }
+   ],
+   "front_md": "How is the address in the MAR sent, and what accompanies it?\n",
+   "back_md": "The address is sent via the **address bus**, and a **read instruction is sent on the control bus**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b7ZMKmKbyXZgyRVS",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does data from the addressed memory location travel to, and along which bus?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is sent down the **data bus** to the **MDR**."
+    }
+   ],
+   "front_md": "Where does data from the addressed memory location travel to, and along which bus?\n",
+   "back_md": "It is sent down the **data bus** to the **MDR**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JQPJKKz9p6GpBwfd",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "During fetch the PC is incremented by <u>**      **</u>, ready for the next instruction."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "During fetch the PC is incremented by **1**, ready for the next instruction."
+    }
+   ],
+   "front_md": "During fetch the PC is incremented by <u>**      **</u>, ready for the next instruction.\n",
+   "back_md": "During fetch the PC is incremented by **1**, ready for the next instruction.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NKdWHMH3Rg365kmz",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two parts does the CIR split the instruction into?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **opcode** and the **operand**."
+    }
+   ],
+   "front_md": "What two parts does the CIR split the instruction into?\n",
+   "back_md": "The **opcode** and the **operand**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KnjcCfxqjGK5w48Q",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which component decodes what to do next, and where is the instruction sent from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The instruction is sent from the **CIR** to the **CU**, which decodes what to do next."
+    }
+   ],
+   "front_md": "Which component decodes what to do next, and where is the instruction sent from?\n",
+   "back_md": "The instruction is sent from the **CIR** to the **CU**, which decodes what to do next.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sBdxG5njFRQXk45G",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Register Transfer Notation (RTN)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "RTN is a way of describing **how data moves between registers in a CPU during the fetch-execute cycle**, using symbols for registers and the **←** arrow to show data being transferred."
+    }
+   ],
+   "front_md": "Define **Register Transfer Notation (RTN)**.\n",
+   "back_md": "RTN is a way of describing **how data moves between registers in a CPU during the fetch-execute cycle**, using symbols for registers and the **←** arrow to show data being transferred.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zSfnq3qBTCp6PSrS",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In RTN, what is the difference between [MAR] and [[MAR]]?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**[ ]** means the **contents of a register**, while **[[ ]]** means the **contents of the memory location addressed by that register**."
+    }
+   ],
+   "front_md": "In RTN, what is the difference between [MAR] and [[MAR]]?\n",
+   "back_md": "**[ ]** means the **contents of a register**, while **[[ ]]** means the **contents of the memory location addressed by that register**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fbXgFthz5YK4txyN",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the fetch stage in Register Transfer Notation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**MAR ← [PC]**, then **MDR ← [[MAR]]**, then **PC ← [PC] + 1**, then **CIR ← [MDR]**."
+    }
+   ],
+   "front_md": "Write the fetch stage in Register Transfer Notation.\n",
+   "back_md": "**MAR ← [PC]**, then **MDR ← [[MAR]]**, then **PC ← [PC] + 1**, then **CIR ← [MDR]**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gnVcCR5sP6kJwRbP",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write LDA X in Register Transfer Notation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**MAR ← [operand]**, then **MDR ← [[MAR]]**, then **ACC ← [MDR]**."
+    }
+   ],
+   "front_md": "Write LDA X in Register Transfer Notation.\n",
+   "back_md": "**MAR ← [operand]**, then **MDR ← [[MAR]]**, then **ACC ← [MDR]**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z3zb7TXmhd63V7Fd",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write STA X in Register Transfer Notation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**MAR ← [operand]**, then **MDR ← [ACC]**, then **[[MAR]] ← [MDR]**."
+    }
+   ],
+   "front_md": "Write STA X in Register Transfer Notation.\n",
+   "back_md": "**MAR ← [operand]**, then **MDR ← [ACC]**, then **[[MAR]] ← [MDR]**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NjH2YSfvwPYcz75N",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write BRZ X in Register Transfer Notation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**If [ACC] = 0 then PC ← [operand]**."
+    }
+   ],
+   "front_md": "Write BRZ X in Register Transfer Notation.\n",
+   "back_md": "**If [ACC] = 0 then PC ← [operand]**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YPtPJZ6jMMfcN5XB",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does an ADD instruction perform its calculation, and where is the result stored?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The value from RAM is loaded into the **MDR**, the calculation happens in the **ALU**, and the result is stored in the **ACC**."
+    }
+   ],
+   "front_md": "Where does an ADD instruction perform its calculation, and where is the result stored?\n",
+   "back_md": "The value from RAM is loaded into the **MDR**, the calculation happens in the **ALU**, and the result is stored in the **ACC**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gKTpZ3NR4gVKSwGW",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_dqDNphrgTpvYgQSN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The decode stage involves a specific register transfer of its own."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is **no specific register transfer** in decode — the **CU decodes the instruction held in the CIR**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe decode stage involves a specific register transfer of its own.\n",
+   "back_md": "**False.**\n\nThere is **no specific register transfer** in decode — the **CU decodes the instruction held in the CIR**.\n",
+   "spec_links": [
+    "spcpt_rmcnBZJ4KpBrs933"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2vKyC3xsc4yst24P",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **interrupt**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An interrupt is a **signal to the processor that stops its current task** and performs a different task temporarily."
+    }
+   ],
+   "front_md": "Define **interrupt**.\n",
+   "back_md": "An interrupt is a **signal to the processor that stops its current task** and performs a different task temporarily.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3fY32CN3Kwt3xSDp",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the processor do when an interrupt occurs?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **suspends the current program execution** and **transfers control to an interrupt service routine**."
+    }
+   ],
+   "front_md": "What does the processor do when an interrupt occurs?\n",
+   "back_md": "It **suspends the current program execution** and **transfers control to an interrupt service routine**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_35jbBj9cGZkh3Nht",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three purposes of interrupts."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Real-time event handling**, such as hardware errors; **device communication**, such as printer jams and network errors; and **multitasking**, suspending one application so the user can switch to another."
+    }
+   ],
+   "front_md": "Name the three purposes of interrupts.\n",
+   "back_md": "**Real-time event handling**, such as hardware errors; **device communication**, such as printer jams and network errors; and **multitasking**, suspending one application so the user can switch to another.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PnGJYq455tZTxXRF",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three types of interrupt."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Hardware interrupts**, **software interrupts** and **trap interrupts**."
+    }
+   ],
+   "front_md": "Name the three types of interrupt.\n",
+   "back_md": "**Hardware interrupts**, **software interrupts** and **trap interrupts**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wRgTYtNBBwq9nrJQ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What generates a hardware interrupt? Give two examples."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **generated by external devices**, such as **keyboard input**, **mouse movements** or **disk I/O requests**."
+    }
+   ],
+   "front_md": "What generates a hardware interrupt? Give two examples.\n",
+   "back_md": "They are **generated by external devices**, such as **keyboard input**, **mouse movements** or **disk I/O requests**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4QjzYX4cNkZ9th9R",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What triggers a software interrupt? Give two examples."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **triggered by software or the operating system**, such as an **application request to open a file** or a **division by zero error**."
+    }
+   ],
+   "front_md": "What triggers a software interrupt? Give two examples.\n",
+   "back_md": "They are **triggered by software or the operating system**, such as an **application request to open a file** or a **division by zero error**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JXv2Kz8fqBkxSGvB",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a trap interrupt?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "One that is **intentionally triggered by a program**, for example during **software debugging** or when **handling unexpected error cases**."
+    }
+   ],
+   "front_md": "What is a trap interrupt?\n",
+   "back_md": "One that is **intentionally triggered by a program**, for example during **software debugging** or when **handling unexpected error cases**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9RfDmdTtyBKNKd7X",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five stages of the interrupt process."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Interrupt request (IRQ)**, **interrupt acknowledge**, **ISR lookup**, **ISR execution** and **interrupt exit**."
+    }
+   ],
+   "front_md": "Name the five stages of the interrupt process.\n",
+   "back_md": "**Interrupt request (IRQ)**, **interrupt acknowledge**, **ISR lookup**, **ISR execution** and **interrupt exit**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YXPJhRPZSCST6mYC",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens during interrupt acknowledge?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The interrupt handler **decides if the interrupt needs to be dealt with now or later**, and if so the **current contents of the processor registers are saved in memory**."
+    }
+   ],
+   "front_md": "What happens during interrupt acknowledge?\n",
+   "back_md": "The interrupt handler **decides if the interrupt needs to be dealt with now or later**, and if so the **current contents of the processor registers are saved in memory**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wmnWss67mKX2mPDP",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens at interrupt exit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The processor **restores the contents of the registers** that were saved, and the **fetch-decode-execute cycle is resumed**."
+    }
+   ],
+   "front_md": "What happens at interrupt exit?\n",
+   "back_md": "The processor **restores the contents of the registers** that were saved, and the **fetch-decode-execute cycle is resumed**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sVw5S2g9Jw24r5mq",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Interrupt Service Routine (ISR)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An ISR is a **special function that handles a particular interrupt type**, and each type of interrupt has a **corresponding routine**."
+    }
+   ],
+   "front_md": "Define **Interrupt Service Routine (ISR)**.\n",
+   "back_md": "An ISR is a **special function that handles a particular interrupt type**, and each type of interrupt has a **corresponding routine**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nMw48bsbsZc93whr",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must an ISR be concise and efficient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because ISRs **often need to handle time-sensitive events**, so they are designed to **minimise the time taken to execute**."
+    }
+   ],
+   "front_md": "Why must an ISR be concise and efficient?\n",
+   "back_md": "Because ISRs **often need to handle time-sensitive events**, so they are designed to **minimise the time taken to execute**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8TPQNq3GG39bzpFS",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is prioritising interrupts vital?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because **many things can go wrong at the same time**, so the processor must be able to **switch to resolving a higher-priority interrupt**, with **lower-priority ISRs temporarily suspended**."
+    }
+   ],
+   "front_md": "Why is prioritising interrupts vital?\n",
+   "back_md": "Because **many things can go wrong at the same time**, so the processor must be able to **switch to resolving a higher-priority interrupt**, with **lower-priority ISRs temporarily suspended**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vdFzR88phs2Rrgzx",
+   "card_type": "fill_in_the_blanks",
+   "order": 13,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "<u>**                    **</u> of interrupts refers to the processor's ability to handle interrupts within interrupts."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Nesting** of interrupts refers to the processor's ability to handle interrupts within interrupts."
+    }
+   ],
+   "front_md": "<u>**                    **</u> of interrupts refers to the processor's ability to handle interrupts within interrupts.\n",
+   "back_md": "**Nesting** of interrupts refers to the processor's ability to handle interrupts within interrupts.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NMnkwZFHFNMjwn86",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Describe how a computer handles an interrupt when a key is pressed."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **interrupt flag is raised in the interrupt register**, the system **finishes its current fetch-execute cycle**, the register is **checked for a higher priority interrupt**, the **current register contents are pushed to the stack**, the **appropriate ISR is executed**, then the **register contents are restored** and **control returns to the original process**."
+    }
+   ],
+   "front_md": "Describe how a computer handles an interrupt when a key is pressed.\n",
+   "back_md": "An **interrupt flag is raised in the interrupt register**, the system **finishes its current fetch-execute cycle**, the register is **checked for a higher priority interrupt**, the **current register contents are pushed to the stack**, the **appropriate ISR is executed**, then the **register contents are restored** and **control returns to the original process**.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r95fRJSSjpjKrnKD",
+   "card_type": "true_or_false",
+   "order": 15,
+   "set_id": "flst_CPhJX4RFp6bfxg3x",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The processor abandons its current fetch-execute cycle the instant an interrupt flag is raised."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The system **finishes its current fetch-execute cycle** first, and only then checks the interrupt register."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe processor abandons its current fetch-execute cycle the instant an interrupt flag is raised.\n",
+   "back_md": "**False.**\n\nThe system **finishes its current fetch-execute cycle** first, and only then checks the interrupt register.\n",
+   "spec_links": [
+    "spcpt_mkQtdg2xB6dgPMsJ"
+   ],
+   "flags": []
+  }
+ ]
+}

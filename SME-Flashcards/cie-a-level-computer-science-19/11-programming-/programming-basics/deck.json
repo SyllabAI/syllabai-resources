@@ -1,0 +1,637 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:25Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/11-programming-/programming-basics/",
+  "section_slug": "11-programming-",
+  "section_name": "11. Programming",
+  "topic_slug": "programming-basics",
+  "title": "Programming Basics",
+  "order": 0
+ },
+ "card_count": 24,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 18,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_gJkmM2cSy9t45G4K",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **variable**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A variable is an **identifier that can change** during the lifetime of a program."
+    }
+   ],
+   "front_md": "Define **variable**.\n",
+   "back_md": "A variable is an **identifier that can change** during the lifetime of a program.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sYkJNDcmkP8xpYYj",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **constant**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A constant is an **identifier that is set once in the lifetime of a program**."
+    }
+   ],
+   "front_md": "Define **constant**.\n",
+   "back_md": "A constant is an **identifier that is set once in the lifetime of a program**.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FxFjpWV2ZRWg8kk5",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a variable and a constant?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **variable can change** during the program's lifetime, whereas a **constant is set once** and is never reassigned."
+    }
+   ],
+   "front_md": "What is the difference between a variable and a constant?\n",
+   "back_md": "A **variable can change** during the program's lifetime, whereas a **constant is set once** and is never reassigned.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZjvFhRbvkV2HXXyB",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are constants usually named?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **all uppercase characters**."
+    }
+   ],
+   "front_md": "How are constants usually named?\n",
+   "back_md": "In **all uppercase characters**.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xjt3SVFXjSwwTmpR",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How should a variable identifier be written?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **mixed case (Pascal case)**, starting with a **capital letter** and not a digit."
+    }
+   ],
+   "front_md": "How should a variable identifier be written?\n",
+   "back_md": "In **mixed case (Pascal case)**, starting with a **capital letter** and not a digit.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BjsY4wRfFdWjkHPq",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when a variable is declared?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Memory is allocated** based on the data type indicated."
+    }
+   ],
+   "front_md": "What happens when a variable is declared?\n",
+   "back_md": "**Memory is allocated** based on the data type indicated.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fQr6DgJN7M2sngzp",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A variable can be associated with a <u>**                **</u> when it is declared."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A variable can be associated with a **datatype** when it is declared."
+    }
+   ],
+   "front_md": "A variable can be associated with a <u>**                **</u> when it is declared.\n",
+   "back_md": "A variable can be associated with a **datatype** when it is declared.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ZzFQtCMVgWR6pxZp",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the pseudocode syntax for declaring a constant?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CONSTANT <identifier> ← <value>`"
+    }
+   ],
+   "front_md": "What is the pseudocode syntax for declaring a constant?\n",
+   "back_md": "`CONSTANT <identifier> ← <value>`\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b2dNk3X8phRTV6ZJ",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write pseudocode to declare a constant `Pi` with the value 3.14159."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CONSTANT Pi ← 3.14159`"
+    }
+   ],
+   "front_md": "Write pseudocode to declare a constant `Pi` with the value 3.14159.\n",
+   "back_md": "`CONSTANT Pi ← 3.14159`\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TQYkBqg9GHG7dBQQ",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do constants help a program?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They aid the **readability and maintainability** of the code."
+    }
+   ],
+   "front_md": "Why do constants help a program?\n",
+   "back_md": "They aid the **readability and maintainability** of the code.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qQWWq6CR28MSqvW8",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A constant can be reassigned during execution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Constants are **not reassigned** during execution. They are fixed values used throughout the algorithm."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA constant can be reassigned during execution.\n",
+   "back_md": "**False.**\n\nConstants are **not reassigned** during execution. They are fixed values used throughout the algorithm.\n",
+   "spec_links": [
+    "spcpt_wPhvFYpKRJJwwdPN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FnNz5tXBHQTbPjzy",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are arithmetic operators used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To perform basic **maths operations** in a program, such as adding, subtracting, multiplying and dividing values."
+    }
+   ],
+   "front_md": "What are arithmetic operators used for?\n",
+   "back_md": "To perform basic **maths operations** in a program, such as adding, subtracting, multiplying and dividing values.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cGJKhbrR5fJysGWW",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which operator gives the remainder after division?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`MOD`. For example, `10 MOD 3` gives **1**."
+    }
+   ],
+   "front_md": "Which operator gives the remainder after division?\n",
+   "back_md": "`MOD`. For example, `10 MOD 3` gives **1**.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gcVX64btQcxhzrty",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which operator is used for exponentiation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`^`. For example, `3 ^ 3` gives **27**."
+    }
+   ],
+   "front_md": "Which operator is used for exponentiation?\n",
+   "back_md": "`^`. For example, `3 ^ 3` gives **27**.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SJHr2rSvnHC89S2x",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the `+` operator do when used with strings?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It performs **concatenation**. For example, `\"John\" + \" \" + \"Doe\"` gives `\"John Doe\"`."
+    }
+   ],
+   "front_md": "What does the `+` operator do when used with strings?\n",
+   "back_md": "It performs **concatenation**. For example, `\"John\" + \" \" + \"Doe\"` gives `\"John Doe\"`.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5Hy5Q9YdjxpCY2G6",
+   "card_type": "fill_in_the_blanks",
+   "order": 15,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Arithmetic operators follow operator <u>**                    **</u>, so multiplication happens before addition."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Arithmetic operators follow operator **precedence**, so multiplication happens before addition."
+    }
+   ],
+   "front_md": "Arithmetic operators follow operator <u>**                    **</u>, so multiplication happens before addition.\n",
+   "back_md": "Arithmetic operators follow operator **precedence**, so multiplication happens before addition.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HFqzs576bKXZxGSz",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `2 + 3 * 4` evaluate to, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**14**, because multiplication is carried out **before** addition under operator precedence."
+    }
+   ],
+   "front_md": "What does `2 + 3 * 4` evaluate to, and why?\n",
+   "back_md": "**14**, because multiplication is carried out **before** addition under operator precedence.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pXCrwGVfzwbbHCMt",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `(2 + 3) * 4` evaluate to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**20**, because the brackets are evaluated first."
+    }
+   ],
+   "front_md": "What does `(2 + 3) * 4` evaluate to?\n",
+   "back_md": "**20**, because the brackets are evaluated first.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TkQtZtvymwm84g9N",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are logical operators used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **compare values**. They return either **TRUE** or **FALSE**, and are commonly used in conditions and loops."
+    }
+   ],
+   "front_md": "What are logical operators used for?\n",
+   "back_md": "To **compare values**. They return either **TRUE** or **FALSE**, and are commonly used in conditions and loops.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DcbmbFjBkZSVzfTx",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which pseudocode operator means 'not equal to'?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`<>`"
+    }
+   ],
+   "front_md": "Which pseudocode operator means 'not equal to'?\n",
+   "back_md": "`<>`\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K5FsXjqxPYt57PJq",
+   "card_type": "true_or_false",
+   "order": 20,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In 9618 pseudocode, `!=` means 'not equal to'."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The 9618 operator for 'not equal to' is `<>`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn 9618 pseudocode, `!=` means 'not equal to'.\n",
+   "back_md": "**False.**\n\nThe 9618 operator for 'not equal to' is `<>`.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C255yVJS3n952kSV",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the two operators that combine a comparison with equality."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`>=` meaning greater than or equal to, and `<=` meaning less than or equal to."
+    }
+   ],
+   "front_md": "Name the two operators that combine a comparison with equality.\n",
+   "back_md": "`>=` meaning greater than or equal to, and `<=` meaning less than or equal to.\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PW43btT65nMCqqDP",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`x` is 5 and `y` is 10."
+    },
+    {
+     "type": "paragraph",
+     "md": "What does `x < y` evaluate to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**TRUE**"
+    }
+   ],
+   "front_md": "`x` is 5 and `y` is 10.\n\nWhat does `x < y` evaluate to?\n",
+   "back_md": "**TRUE**\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f6p8qjWCkxRRzDyX",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_9S4SrQFs7mTzZxJR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`x` is 5 and `y` is 10."
+    },
+    {
+     "type": "paragraph",
+     "md": "What does `x >= y` evaluate to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**FALSE**"
+    }
+   ],
+   "front_md": "`x` is 5 and `y` is 10.\n\nWhat does `x >= y` evaluate to?\n",
+   "back_md": "**FALSE**\n",
+   "spec_links": [
+    "spcpt_nxXYPdhQmhNPS4bX"
+   ],
+   "flags": []
+  }
+ ]
+}

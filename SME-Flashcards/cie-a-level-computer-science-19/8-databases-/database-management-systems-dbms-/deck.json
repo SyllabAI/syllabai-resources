@@ -1,0 +1,581 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:41Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/8-databases-/database-management-systems-dbms-/",
+  "section_slug": "8-databases-",
+  "section_name": "8. Databases",
+  "topic_slug": "database-management-systems-dbms-",
+  "title": "Database Management Systems (DBMS)",
+  "order": 1
+ },
+ "card_count": 22,
+ "card_types": {
+  "keyword_definition": 5,
+  "question_and_answer": 13,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 22,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_DQj52ZyxR2DZtdKy",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **DBMS**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS (Database Management System) is **software used to create, manage and interact with databases**."
+    }
+   ],
+   "front_md": "Define **DBMS**.\n",
+   "back_md": "A DBMS (Database Management System) is **software used to create, manage and interact with databases**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h2GTYsymNdmM4NbP",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **logical schema**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A logical schema is the **overall logical design of the database**, covering tables, fields, relationships and constraints, showing how data is organised **independently of how it is physically stored**."
+    }
+   ],
+   "front_md": "Define **logical schema**.\n",
+   "back_md": "A logical schema is the **overall logical design of the database**, covering tables, fields, relationships and constraints, showing how data is organised **independently of how it is physically stored**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DbMZXw8TMNZFf2vz",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a DBMS maintain data integrity?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **enforces rules and constraints**, so data changed in one place is updated everywhere, and each **foreign key has a corresponding primary key**."
+    }
+   ],
+   "front_md": "How does a DBMS maintain data integrity?\n",
+   "back_md": "It **enforces rules and constraints**, so data changed in one place is updated everywhere, and each **foreign key has a corresponding primary key**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GXhVK3ZzpXNYKrDk",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS uses <u>**                      **</u> such as primary keys and foreign keys to enforce data integrity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS uses **constraints** such as primary keys and foreign keys to enforce data integrity."
+    }
+   ],
+   "front_md": "A DBMS uses <u>**                      **</u> such as primary keys and foreign keys to enforce data integrity.\n",
+   "back_md": "A DBMS uses **constraints** such as primary keys and foreign keys to enforce data integrity.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_98y47Gn67VGFjfYG",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **concurrency control**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Concurrency control allows **multiple users to access the database at the same time without errors**."
+    }
+   ],
+   "front_md": "Define **concurrency control**.\n",
+   "back_md": "Concurrency control allows **multiple users to access the database at the same time without errors**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZvwwhpFkWfKrbCJC",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **data independence**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data independence ensures that **changes to storage methods do not affect how the data is used**."
+    }
+   ],
+   "front_md": "Define **data independence**.\n",
+   "back_md": "Data independence ensures that **changes to storage methods do not affect how the data is used**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FFnRY8gFq9cGkWQJ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a DBMS solve data redundancy?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS **centralises data**, so it is stored **once** and referenced whenever it is needed."
+    }
+   ],
+   "front_md": "How does a DBMS solve data redundancy?\n",
+   "back_md": "A DBMS **centralises data**, so it is stored **once** and referenced whenever it is needed.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9MhsCfrYjtjk5KmJ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a DBMS solve data inconsistency?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS ensures **data consistency** by updating a **single source of truth**."
+    }
+   ],
+   "front_md": "How does a DBMS solve data inconsistency?\n",
+   "back_md": "A DBMS ensures **data consistency** by updating a **single source of truth**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gg5dSXcbKk4SKt49",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **data dictionary**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A data dictionary **defines all the data elements across the system**, such as field names, table names and data types."
+    }
+   ],
+   "front_md": "Define **data dictionary**.\n",
+   "back_md": "A data dictionary **defines all the data elements across the system**, such as field names, table names and data types.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KHvfP6jD4SpnDzN6",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What tools does a DBMS provide for data modelling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS uses **data modelling tools**, such as **E-R diagrams**, to define entities and their relationships."
+    }
+   ],
+   "front_md": "What tools does a DBMS provide for data modelling?\n",
+   "back_md": "A DBMS uses **data modelling tools**, such as **E-R diagrams**, to define entities and their relationships.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q2mCSwz6Mxg6FP6W",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a DBMS improve data security compared with a file-based system?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS supports **user accounts, access rights and permissions** for individuals and groups, whereas a file-based system has poor control over who can access or change data."
+    }
+   ],
+   "front_md": "How does a DBMS improve data security compared with a file-based system?\n",
+   "back_md": "A DBMS supports **user accounts, access rights and permissions** for individuals and groups, whereas a file-based system has poor control over who can access or change data.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GhcVzG8y6CJ2rhVj",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a DBMS reduce the risk of data loss?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DBMS includes **automated backup and recovery tools**."
+    }
+   ],
+   "front_md": "How does a DBMS reduce the risk of data loss?\n",
+   "back_md": "A DBMS includes **automated backup and recovery tools**.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9HxRS2t926HQs4ph",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a file-based system, backup procedures are usually automated."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a file-based system backups are often **manual and inconsistent**. It is a **DBMS** that provides automated backup and recovery tools."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a file-based system, backup procedures are usually automated.\n",
+   "back_md": "**False.**\n\nIn a file-based system backups are often **manual and inconsistent**. It is a **DBMS** that provides automated backup and recovery tools.\n",
+   "spec_links": [
+    "spcpt_bxsBsBSGhJ5VdwYJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f2wwQYdKSZDggFns",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the developer interface allow developers to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It allows developers to **write database queries using Structured Query Language (SQL)**."
+    }
+   ],
+   "front_md": "What does the developer interface allow developers to do?\n",
+   "back_md": "It allows developers to **write database queries using Structured Query Language (SQL)**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xMZ3Gt9drC2CyT8c",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is SQL more flexible than query-by-example?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "SQL allows developers to create **more complex and precise queries** to search, update or manage data, whereas query-by-example tools are **visual and simplified**."
+    }
+   ],
+   "front_md": "Why is SQL more flexible than query-by-example?\n",
+   "back_md": "SQL allows developers to create **more complex and precise queries** to search, update or manage data, whereas query-by-example tools are **visual and simplified**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D3JjDVj2qPwz3dWW",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the query processor responsible for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The query processor is responsible for **handling and executing SQL queries**."
+    }
+   ],
+   "front_md": "What is the query processor responsible for?\n",
+   "back_md": "The query processor is responsible for **handling and executing SQL queries**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gqvkq9vY86DjsPzC",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three components of the query processor."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **DDL interpreter**, the **DML compiler** and the **query evaluation engine**."
+    }
+   ],
+   "front_md": "Name the three components of the query processor.\n",
+   "back_md": "The **DDL interpreter**, the **DML compiler** and the **query evaluation engine**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c2zy7cBXHQg86F8t",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the DDL interpreter do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It interprets **Data Definition Language commands** such as `CREATE`, `ALTER` and `DROP`, and **updates the data dictionary**."
+    }
+   ],
+   "front_md": "What does the DDL interpreter do?\n",
+   "back_md": "It interprets **Data Definition Language commands** such as `CREATE`, `ALTER` and `DROP`, and **updates the data dictionary**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s7nmcMnjDzpNmd5Z",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the DML compiler do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **compiles Data Manipulation Language statements** such as `SELECT`, `INSERT` and `UPDATE` into **low-level instructions**, and **optimises** the query."
+    }
+   ],
+   "front_md": "What does the DML compiler do?\n",
+   "back_md": "It **compiles Data Manipulation Language statements** such as `SELECT`, `INSERT` and `UPDATE` into **low-level instructions**, and **optimises** the query.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cD2Qq8b9x66N3JM8",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the query evaluation engine do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **executes the compiled instructions** to retrieve or manipulate the actual data in the database."
+    }
+   ],
+   "front_md": "What does the query evaluation engine do?\n",
+   "back_md": "It **executes the compiled instructions** to retrieve or manipulate the actual data in the database.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z78p4NHXvR4WCNQb",
+   "card_type": "true_or_false",
+   "order": 20,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The DML compiler updates the data dictionary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **DDL interpreter** updates the data dictionary. The **DML compiler** compiles and optimises DML statements."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe DML compiler updates the data dictionary.\n",
+   "back_md": "**False.**\n\nThe **DDL interpreter** updates the data dictionary. The **DML compiler** compiles and optimises DML statements.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5cxYZyT87QQWsrzK",
+   "card_type": "fill_in_the_blanks",
+   "order": 21,
+   "set_id": "flst_Kby7fsQK4SCRXs3V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Together, the query processor's components ensure that a query is interpreted, optimised and executed <u>**                      **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Together, the query processor's components ensure that a query is interpreted, optimised and executed **efficiently**."
+    }
+   ],
+   "front_md": "Together, the query processor's components ensure that a query is interpreted, optimised and executed <u>**                      **</u>.\n",
+   "back_md": "Together, the query processor's components ensure that a query is interpreted, optimised and executed **efficiently**.\n",
+   "spec_links": [
+    "spcpt_5XKWt64PcsV2w3K2"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:45:00Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/chemistry/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/chemistry",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "stoichiometry",
+  "name": "3. Stoichiometry"
+ },
+ "topic": {
+  "id": "top_CzGXcvBRgvyFgF87",
+  "slug": "formulae-equations",
+  "name": "Formulae & Equations",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "writing-equations",
+   "name": "Writing Equations",
+   "revision_note_id": "rn_Qm2CdxpC9PzdQH5Y"
+  },
+  {
+   "slug": "formulae",
+   "name": "Formulae",
+   "revision_note_id": "rn_NqrDjRp5H5kPdtSn"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_GDZWpTvdFMND8jkR",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/chemistry/topic-questions/stoichiometry/formulae-equations/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 3,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_Wq2HncgQpJBTcvxn",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_39NnMN3xcsmMyxFW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0653/04",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_X6MRSqBTZkVy33bY"
+     ],
+     "part_tier": null,
+     "problem_md": "Gasoline contains octane, C<sub>8</sub>H<sub>18</sub>. Octane is a liquid at room temperature.\n\nComplete the state symbols to show the states of octane, carbon dioxide, carbon monoxide and carbon particulates at room temperature:\n\nC<sub>8</sub>H<sub>18</sub>(...............)                 CO<sub>2</sub>(..............)           CO(.............)             C(...............)",
+     "solution_md": "> **[mark-scheme]**\n> - CO<sub>2</sub>(g) and CO(g) **[1 mark]**\n> - C(s) and C<sub>8</sub>H<sub>18</sub>(l) **[1 mark]**\n\n> **[exam-tip]**\n> Room-temperature state symbols follow from each substance's physical state: gases stay (g), solids stay (s), and octane (a liquid fuel) stays (l)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Kk4Zk8VZ7MCvXQnT",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wsz9yNRhNWvGXDdf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/02",
+      "question_number": 17,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9yCK42rkn2kgczrP"
+     ],
+     "part_tier": null,
+     "problem_md": "The formula of sodium phosphate is Na₃PO₄.\n\nThe formula of calcium chloride is CaCl₂.\n\nWhat is the formula of calcium phosphate?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The calcium ion is Ca<sup>2+</sup> and the phosphate ion is PO<sub>4</sub><sup>3-</sup>\n- Balancing the charges needs 3 × Ca<sup>2+</sup> (+6) and 2 × PO<sub>4</sub><sup>3-</sup> (−6), giving the formula Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\n\n**A** is incorrect because it does not balance the charges of Ca<sup>2+</sup> and PO<sub>4</sub><sup>3-</sup>\n\n**C** is incorrect because it does not balance the charges of Ca<sup>2+</sup> and PO<sub>4</sub><sup>3-</sup>\n\n**D** is incorrect because it does not balance the charges of Ca<sup>2+</sup> and PO<sub>4</sub><sup>3-</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CaPO<sub>4</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Ca(PO<sub>4</sub>)<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Ca<sub>3</sub>PO<sub>4</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8vtqWBfQh3SxGVf9",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cJfCrjwCxvwXZD85",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 16,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_X6MRSqBTZkVy33bY"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation for the reaction between magnesium and dilute hydrochloric acid is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Magnesium reacts with dilute hydrochloric acid to produce magnesium chloride and hydrogen gas\n- Dilute hydrochloric acid is aqueous, so the acid and the soluble salt product both take the aqueous state symbol, (aq)\n\nMg (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + H<sub>2</sub> (g)\n\n**A** is incorrect because it uses the state symbol (l) instead of (aq) for the acid and the salt\n\n**C** is incorrect because it uses (l) instead of (aq) and unnecessarily doubles every coefficient in an already balanced equation\n\n**D** is incorrect because it unnecessarily doubles every coefficient in an already balanced equation",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Mg (s) + 2HCl (l) → MgCl<sub>2</sub> (l) + H<sub>2</sub> (g)"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Mg (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + H<sub>2</sub> (g)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2Mg (s) + 2HCl (l) → 2MgCl<sub>2</sub> (l) + H<sub>2</sub> (g)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "2Mg (s) + 2HCl (aq) → 2MgCl<sub>2</sub> (aq) + H<sub>2</sub> (g)"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

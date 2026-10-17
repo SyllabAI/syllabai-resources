@@ -1,0 +1,377 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:58Z",
+ "course_slug": "cie-a-level-maths-20-pure-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-1/flashcards/series/arithmetic-progressions/",
+  "section_slug": "series",
+  "section_name": "Series",
+  "topic_slug": "arithmetic-progressions",
+  "title": "Arithmetic Progressions",
+  "order": 1
+ },
+ "card_count": 11,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 6,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 11,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Vcz47msGYryPq9QR",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **arithmetic progression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **arithmetic progression** is a progression in which the difference between consecutive terms is always the same."
+    },
+    {
+     "type": "paragraph",
+     "md": "That constant difference is called the **common difference**, written $d$."
+    }
+   ],
+   "front_md": "Define **arithmetic progression**.\n",
+   "back_md": "An **arithmetic progression** is a progression in which the difference between consecutive terms is always the same.\n\nThat constant difference is called the **common difference**, written $d$.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4jVjghwHgG2N5M2t",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an arithmetic progression with first term $a$ and common difference $d$, what is the $n$th term?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The $n$th term is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`u_{n} = a + \\left(n - 1\\right)d`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $a$ is the first term and $d$ is the common difference."
+    }
+   ],
+   "front_md": "In an arithmetic progression with first term $a$ and common difference $d$, what is the $n$th term?\n",
+   "back_md": "The $n$th term is:\n\n`u_{n} = a + \\left(n - 1\\right)d`\n\nHere $a$ is the first term and $d$ is the common difference.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3SJkQmtGCcYzmH6V",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The 15th term of an arithmetic progression with first term $a$ and common difference $d$ is $- 19$. Complete the equation this gives:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`a + \\_\\_\\_\\_\\_\\_d = -19`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed equation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$a + 14 d = - 19$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first term is already $a$, so by the time you reach the 15th term the common difference has been added only 14 times."
+    }
+   ],
+   "front_md": "The 15th term of an arithmetic progression with first term $a$ and common difference $d$ is $- 19$. Complete the equation this gives:\n\n`a + \\_\\_\\_\\_\\_\\_d = -19`\n",
+   "back_md": "The completed equation is:\n\n$a + 14 d = - 19$\n\nThe first term is already $a$, so by the time you reach the 15th term the common difference has been added only 14 times.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_b2HNcCbVGvsWVgqp",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In an arithmetic progression, the common difference must be positive."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The common difference can be negative, and then every term is smaller than the one before: $2 ,  0 . 5 ,  - 1 ,  - 2 . 5 ,  - 4 ,  \\dots$ has $d = - 1 . 5$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn an arithmetic progression, the common difference must be positive.\n",
+   "back_md": "**False.**\n\nThe common difference can be negative, and then every term is smaller than the one before: $2 ,  0 . 5 ,  - 1 ,  - 2 . 5 ,  - 4 ,  \\dots$ has $d = - 1 . 5$.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K4rWS28C3NDSZnHJ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first three terms of an arithmetic progression are $12$, $k^{2}$ and $5 k$. What equation does being arithmetic give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There is only one common difference, so the second term minus the first must equal the third minus the second:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$k^{2} - 12 = 5 k - k^{2}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranging gives the quadratic $2 k^{2} - 5 k - 12 = 0$."
+    }
+   ],
+   "front_md": "The first three terms of an arithmetic progression are $12$, $k^{2}$ and $5 k$. What equation does being arithmetic give you?\n",
+   "back_md": "There is only one common difference, so the second term minus the first must equal the third minus the second:\n\n$k^{2} - 12 = 5 k - k^{2}$\n\nRearranging gives the quadratic $2 k^{2} - 5 k - 12 = 0$.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rmZ4Cx3hrty7pbB6",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Gh5tRqDwFxYtRkj6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You know the 9th term and the 15th term of an arithmetic progression. How do you find the first term and the common difference?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute each of them into the $n$th term formula, which gives two simultaneous equations in $a$ and $d$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting one equation from the other removes $a$ and leaves $d$, which you then substitute back to find $a$."
+    }
+   ],
+   "front_md": "You know the 9th term and the 15th term of an arithmetic progression. How do you find the first term and the common difference?\n",
+   "back_md": "Substitute each of them into the $n$th term formula, which gives two simultaneous equations in $a$ and $d$.\n\nSubtracting one equation from the other removes $a$ and leaves $d$, which you then substitute back to find $a$.\n",
+   "spec_links": [
+    "spcpt_9SQ4wbwXtfG2kzgV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TCdjZDgCnfF547sr",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_JJvFhyF99vK288R5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an arithmetic progression with first term $a$ and common difference $d$, complete the formula for the sum of the first $n$ terms:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{n}{2}\\left(\\_\\_\\_\\_\\_\\_ + \\left(n - 1\\right)d\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{n}{2}\\left(2a + \\left(n - 1\\right)d\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Note that the first term inside the bracket is $2 a$, not $a$."
+    }
+   ],
+   "front_md": "In an arithmetic progression with first term $a$ and common difference $d$, complete the formula for the sum of the first $n$ terms:\n\n`S_{n} = \\frac{n}{2}\\left(\\_\\_\\_\\_\\_\\_ + \\left(n - 1\\right)d\\right)`\n",
+   "back_md": "The completed formula is:\n\n`S_{n} = \\frac{n}{2}\\left(2a + \\left(n - 1\\right)d\\right)`\n\nNote that the first term inside the bracket is $2 a$, not $a$.\n",
+   "spec_links": [
+    "spcpt_ddrBsXXjK9zB6S5t"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6zBJ42jPTHtRjmSX",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_JJvFhyF99vK288R5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the proof of the arithmetic series formula, why divide by 2 at the end?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the sum has been written out twice, once forwards and once in reverse, and the two copies added together."
+    },
+    {
+     "type": "paragraph",
+     "md": "That total is $2 S_{n}$, so halving it recovers the sum of the first $n$ terms."
+    }
+   ],
+   "front_md": "In the proof of the arithmetic series formula, why divide by 2 at the end?\n",
+   "back_md": "Because the sum has been written out twice, once forwards and once in reverse, and the two copies added together.\n\nThat total is $2 S_{n}$, so halving it recovers the sum of the first $n$ terms.\n",
+   "spec_links": [
+    "spcpt_ddrBsXXjK9zB6S5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cWwyVHTZ3fSFD7HT",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_JJvFhyF99vK288R5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The sum of the first $n$ terms of an arithmetic progression is $n$ times the average of its first and last terms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "That is exactly the formula `S_{n} = \\frac{n}{2}\\left(a + l\\right)`, where $l$ is the last term, since $\\frac{a+l}{2}$ is the average of the first and last terms."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe sum of the first $n$ terms of an arithmetic progression is $n$ times the average of its first and last terms.\n",
+   "back_md": "**True.**\n\nThat is exactly the formula `S_{n} = \\frac{n}{2}\\left(a + l\\right)`, where $l$ is the last term, since $\\frac{a+l}{2}$ is the average of the first and last terms.\n",
+   "spec_links": [
+    "spcpt_ddrBsXXjK9zB6S5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qTsRqFFQgkKrfgdw",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_JJvFhyF99vK288R5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does setting the sum of the first $n$ terms of an arithmetic progression equal to a given total produce a quadratic equation in $n$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the sum formula multiplies $n$ by a bracket that itself contains $n$, so expanding it produces a term in $n^{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Setting that equal to a number and rearranging therefore leaves a quadratic to solve."
+    }
+   ],
+   "front_md": "Why does setting the sum of the first $n$ terms of an arithmetic progression equal to a given total produce a quadratic equation in $n$?\n",
+   "back_md": "Because the sum formula multiplies $n$ by a bracket that itself contains $n$, so expanding it produces a term in $n^{2}$.\n\nSetting that equal to a number and rearranging therefore leaves a quadratic to solve.\n",
+   "spec_links": [
+    "spcpt_ddrBsXXjK9zB6S5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S7fYsfjydcWKm2s7",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_JJvFhyF99vK288R5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Solving a problem about an arithmetic series gives $n = 40$ or $n = - \\frac{125}{3}$. Which do you take, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $n = 40$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $n$ counts how many terms are being added, it must be a positive whole number, which rules the other root out."
+    }
+   ],
+   "front_md": "Solving a problem about an arithmetic series gives $n = 40$ or $n = - \\frac{125}{3}$. Which do you take, and why?\n",
+   "back_md": "Take $n = 40$.\n\nSince $n$ counts how many terms are being added, it must be a positive whole number, which rules the other root out.\n",
+   "spec_links": [
+    "spcpt_ddrBsXXjK9zB6S5t"
+   ],
+   "flags": []
+  }
+ ]
+}

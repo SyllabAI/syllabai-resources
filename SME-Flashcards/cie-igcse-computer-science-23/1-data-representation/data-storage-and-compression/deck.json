@@ -1,0 +1,813 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:21:13Z",
+ "course_slug": "cie-igcse-computer-science-23",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/flashcards/1-data-representation/data-storage-and-compression/",
+  "section_slug": "1-data-representation",
+  "section_name": "1. Data Representation",
+  "topic_slug": "data-storage-and-compression",
+  "title": "Data Storage & Compression",
+  "order": 2
+ },
+ "card_count": 30,
+ "card_types": {
+  "question_and_answer": 17,
+  "true_or_false": 6,
+  "keyword_definition": 7
+ },
+ "spec_link_cards": 30,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_V3yRXggs4MHXvQvG",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a **bit**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bit is the **smallest unit of data storage**, representing a single **bi**nary digi**t **\n(either **1** **or 0**.)"
+    }
+   ],
+   "front_md": "What is a **bit**?\n",
+   "back_md": "A bit is the **smallest unit of data storage**, representing a single **bi**nary digi**t **\n(either **1** **or 0**.)\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_P2bqvmNm2CXjQmFd",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many **bits **are in a **byte**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A byte is **8 bits**."
+    }
+   ],
+   "front_md": "How many **bits **are in a **byte**?\n",
+   "back_md": "A byte is **8 bits**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3MfkQZ9gPvtkYvQW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many **bits** are in a **Kibibyte?**"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A kibibyte is **1024 bytes** (2^10 bytes)."
+    }
+   ],
+   "front_md": "How many **bits** are in a **Kibibyte?**\n",
+   "back_md": "A kibibyte is **1024 bytes** (2^10 bytes).\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W2tJZhHDRcZ8jGfv",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **difference **between a **megabyte** and a **mebibyte**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **megabyte is **$1000^{2}$ bytes, while a **mebibyte is **$1024^{2}$**bytes**."
+    }
+   ],
+   "front_md": "What is the **difference **between a **megabyte** and a **mebibyte**?\n",
+   "back_md": "A **megabyte is **$1000^{2}$ bytes, while a **mebibyte is **$1024^{2}$**bytes**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g2YB4qvbNftxYj6D",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "When converting between units larger than a byte, we use **multiples of 1000**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "When converting between units larger than a byte, we use **multiples of 1024 **(2^10)."
+    }
+   ],
+   "front_md": "**True or False? **\n\nWhen converting between units larger than a byte, we use **multiples of 1000**.\n",
+   "back_md": "**False. **\n\nWhen converting between units larger than a byte, we use **multiples of 1024 **(2^10).\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RFDW6vqzQpnVwp2r",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you **convert** from **bytes** to **bits**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert from bytes to bits, **multiply by 8**."
+    }
+   ],
+   "front_md": "How do you **convert** from **bytes** to **bits**?\n",
+   "back_md": "To convert from bytes to bits, **multiply by 8**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ThRc47KcxtDMGKWn",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a **Tebibyte**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tebibyte is **1,099,511,626,776 bytes** (2^40 bytes)."
+    }
+   ],
+   "front_md": "What is a **Tebibyte**?\n",
+   "back_md": "A tebibyte is **1,099,511,626,776 bytes** (2^40 bytes).\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2jH4sKXXRkvdQQwf",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **symbol** for **mebibyte**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The symbol for mebibyte is **MiB**."
+    }
+   ],
+   "front_md": "What is the **symbol** for **mebibyte**?\n",
+   "back_md": "The symbol for mebibyte is **MiB**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Cd3sJdhMyP2CB6G3",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "A nibble is **2 bits**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "A nibble is **4 bits**."
+    }
+   ],
+   "front_md": "**True or False? **\n\nA nibble is **2 bits**.\n",
+   "back_md": "**False. **\n\nA nibble is **4 bits**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mhcNVV5MKP5xDK26",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_VTNWqcBVy2gZppBh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you convert from **kibibytes** to **bytes**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert from kibibytes to bytes, **multiply by 1024**."
+    }
+   ],
+   "front_md": "How do you convert from **kibibytes** to **bytes**?\n",
+   "back_md": "To convert from kibibytes to bytes, **multiply by 1024**.\n",
+   "spec_links": [
+    "spcpt_PpBvnfFP4Ms9PQZZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QTFxGbBGmRKDvcjn",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **formula for calculating** the size of a **bitmap image**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The size of a bitmap image is calculated by:"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Resolution x colour depth** \nor \n**Image width x image height x colour depth**"
+    }
+   ],
+   "front_md": "What is the **formula for calculating** the size of a **bitmap image**?\n",
+   "back_md": "The size of a bitmap image is calculated by:\n\n**Resolution x colour depth** \nor \n**Image width x image height x colour depth**\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NzdYwg8jqNzXpYvc",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **resolution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Resolution is the **total number of pixels in an image**, calculated by multiplying the image width by the image height."
+    }
+   ],
+   "front_md": "Define **resolution**.\n",
+   "back_md": "Resolution is the **total number of pixels in an image**, calculated by multiplying the image width by the image height.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_P7Sb7zq7vSjth2dG",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **colour depth**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Colour depth is the **number of bits** used to represent the colour of each pixel."
+    }
+   ],
+   "front_md": "Define **colour depth**.\n",
+   "back_md": "Colour depth is the **number of bits** used to represent the colour of each pixel.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CxB4Hbw5WPtYhfss",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "A colour depth of** 24 bits** is equal to **3 bytes**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A colour depth of 24 bits is equal to 3 bytes."
+    }
+   ],
+   "front_md": "**True or False? **\n\nA colour depth of** 24 bits** is equal to **3 bytes**.\n",
+   "back_md": "**True**.\n\nA colour depth of 24 bits is equal to 3 bytes.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z2VxS8vHwvS2bjhx",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the f**ormula for calculating** the size of a **sound file**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The size of a sound file is calculated by"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Sample rate x duration x sample resolution**."
+    }
+   ],
+   "front_md": "What is the f**ormula for calculating** the size of a **sound file**?\n",
+   "back_md": "The size of a sound file is calculated by\n\n**Sample rate x duration x sample resolution**.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KKZpYGxYMmBCzbqD",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **sample rate**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sample rate is the **number of samples taken per second** in a digital audio recording."
+    }
+   ],
+   "front_md": "Define **sample rate**.\n",
+   "back_md": "Sample rate is the **number of samples taken per second** in a digital audio recording.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cMS5rJHFWV4zWKZJ",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **sample resolution.**"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sample resolution is the **number of bits stored per sample** in a digital audio recording."
+    }
+   ],
+   "front_md": "Define **sample resolution.**\n",
+   "back_md": "Sample resolution is the **number of bits stored per sample** in a digital audio recording.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gWzXvtqP5Y4R8hRv",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you convert file size from **bits to bytes**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert file size from bits to bytes, **divide by 8.**"
+    }
+   ],
+   "front_md": "How do you convert file size from **bits to bytes**?\n",
+   "back_md": "To convert file size from bits to bytes, **divide by 8.**\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9cBFfqTQhwSDvkCS",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you convert file size from **bytes** **to** **kibibytes**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert file size from bytes to kibibytes, **divide by 1024**."
+    }
+   ],
+   "front_md": "How do you convert file size from **bytes** **to** **kibibytes**?\n",
+   "back_md": "To convert file size from bytes to kibibytes, **divide by 1024**.\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NtDWYvfNfkScTS6J",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_4tH2PPzPNcHWhX4P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "The resolution of an image is **measured in bits**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "The resolution of an image is measured in pixels (**width x height**)."
+    }
+   ],
+   "front_md": "**True or False? **\n\nThe resolution of an image is **measured in bits**.\n",
+   "back_md": "**False. **\n\nThe resolution of an image is measured in pixels (**width x height**).\n",
+   "spec_links": [
+    "spcpt_9chWxVfYNtCVTVhy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9fFngStPjdnvy2zZ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **compression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Compression is **reducing the size of a file **so that it takes up less space on secondary storage."
+    }
+   ],
+   "front_md": "Define **compression**.\n",
+   "back_md": "Compression is **reducing the size of a file **so that it takes up less space on secondary storage.\n",
+   "spec_links": [
+    "spcpt_wcPqybNRz9mzhZ88",
+    "spcpt_KxDFJXB9MhZTzPFn",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DvHdfBN9hPM8JTpN",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State **three benefits** of compression."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Three benefits of compression are:"
+    },
+    {
+     "type": "bullets",
+     "md": "- **Less storage space required**\n- **Less bandwidth required**\n- **Shorter transmission time**"
+    }
+   ],
+   "front_md": "State **three benefits** of compression.\n",
+   "back_md": "Three benefits of compression are:\n\n- **Less storage space required**\n- **Less bandwidth required**\n- **Shorter transmission time**\n",
+   "spec_links": [
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bq55BBYGpMkTtSc2",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **lossy** **compression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Lossy compression is a method of data compression where **data is lost** in order to reduce file size, resulting in a **loss of quality** but smaller file sizes."
+    }
+   ],
+   "front_md": "Define **lossy** **compression**.\n",
+   "back_md": "Lossy compression is a method of data compression where **data is lost** in order to reduce file size, resulting in a **loss of quality** but smaller file sizes.\n",
+   "spec_links": [
+    "spcpt_KxDFJXB9MhZTzPFn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7PxFkwkXNxJzx85h",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **lossless** **compression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Lossless compression is a method of data compression where data is **encoded** to reduce file size **without losing any information**, allowing the **original data to be perfectly reconstructed**."
+    }
+   ],
+   "front_md": "Define **lossless** **compression**.\n",
+   "back_md": "Lossless compression is a method of data compression where data is **encoded** to reduce file size **without losing any information**, allowing the **original data to be perfectly reconstructed**.\n",
+   "spec_links": [
+    "spcpt_wcPqybNRz9mzhZ88"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bxmkVxr8XSj3SqDn",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Lossy compression is **reversible**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Lossy compression is **irreversible**."
+    }
+   ],
+   "front_md": "**True or False? **\n\nLossy compression is **reversible**.\n",
+   "back_md": "**False. **\n\nLossy compression is **irreversible**.\n",
+   "spec_links": [
+    "spcpt_KxDFJXB9MhZTzPFn",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rHSbR2tn3NkjcQbx",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What** types of files **are suitable for **lossy** compression?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Files suitable for lossy compression are those where **reducing quality is acceptable**, such as **images**, **video**, and **sound** files."
+    }
+   ],
+   "front_md": "What** types of files **are suitable for **lossy** compression?\n",
+   "back_md": "Files suitable for lossy compression are those where **reducing quality is acceptable**, such as **images**, **video**, and **sound** files.\n",
+   "spec_links": [
+    "spcpt_KxDFJXB9MhZTzPFn",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7xBhgBNhrZ4NSnY8",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does **lossy** **compression **work on **photographs**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In photographs, lossy compression tries to **group similar colours** together, reducing the number of colours in the image without significantly compromising the overall visual quality."
+    }
+   ],
+   "front_md": "How does **lossy** **compression **work on **photographs**?\n",
+   "back_md": "In photographs, lossy compression tries to **group similar colours** together, reducing the number of colours in the image without significantly compromising the overall visual quality.\n",
+   "spec_links": [
+    "spcpt_KxDFJXB9MhZTzPFn",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4ZMtjtXtTzZ3FSgP",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Lossless compression can be used **on all types** of data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Lossless compression can be used **on all types** of data."
+    }
+   ],
+   "front_md": "**True or False? **\n\nLossless compression can be used **on all types** of data.\n",
+   "back_md": "**True. **\n\nLossless compression can be used **on all types** of data.\n",
+   "spec_links": [
+    "spcpt_wcPqybNRz9mzhZ88",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CtX2JrJ57RdHcZWF",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does** lossless compression** work on **documents**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In documents, lossless compression **uses algorithms** to analyse the contents, looking for **patterns and repetition**, such as **replacing repeating characters** with a single character and the number of occurrences."
+    }
+   ],
+   "front_md": "How does** lossless compression** work on **documents**?\n",
+   "back_md": "In documents, lossless compression **uses algorithms** to analyse the contents, looking for **patterns and repetition**, such as **replacing repeating characters** with a single character and the number of occurrences.\n",
+   "spec_links": [
+    "spcpt_wcPqybNRz9mzhZ88",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZDsQBNVzX38jQ8t6",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_m7CxrrRYScbfgGzb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is an **advantage** of **lossless compression** over lossy compression?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An advantage of lossless compression is that the file **can be returned to its original** state without any loss of data quality."
+    }
+   ],
+   "front_md": "What is an **advantage** of **lossless compression** over lossy compression?\n",
+   "back_md": "An advantage of lossless compression is that the file **can be returned to its original** state without any loss of data quality.\n",
+   "spec_links": [
+    "spcpt_wcPqybNRz9mzhZ88",
+    "spcpt_KxDFJXB9MhZTzPFn",
+    "spcpt_7yQvFRq6Ky8kv2RY"
+   ],
+   "flags": []
+  }
+ ]
+}

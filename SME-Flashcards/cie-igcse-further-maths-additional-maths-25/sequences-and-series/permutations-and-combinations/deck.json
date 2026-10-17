@@ -1,0 +1,813 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:22:35Z",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/flashcards/sequences-and-series/permutations-and-combinations/",
+  "section_slug": "sequences-and-series",
+  "section_name": "Sequences & Series",
+  "topic_slug": "permutations-and-combinations",
+  "title": "Permutations & Combinations",
+  "order": 0
+ },
+ "card_count": 24,
+ "card_types": {
+  "question_and_answer": 14,
+  "keyword_definition": 2,
+  "true_or_false": 4,
+  "fill_in_the_blanks": 4
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_w7CxvJy5rP8DTqB6",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many ways can $n$ different objects be arranged in a row?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There are $n \\times ( n - 1 ) \\times ( n - 2 ) \\times \\dots \\times 2 \\times 1$ ways."
+    },
+    {
+     "type": "paragraph",
+     "md": "The count drops by one each time because every object you place is no longer available for the next position."
+    }
+   ],
+   "front_md": "How many ways can $n$ different objects be arranged in a row?\n",
+   "back_md": "There are $n \\times ( n - 1 ) \\times ( n - 2 ) \\times \\dots \\times 2 \\times 1$ ways.\n\nThe count drops by one each time because every object you place is no longer available for the next position.\n",
+   "spec_links": [
+    "spcpt_jYCdPVrS3gNFw5JW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_F7wZ2fkQffj87wj9",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many distinct arrangements are there of the letters in MATHS?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There are $5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Five different letters can go first, then four remain for the second place, and so on down to one."
+    }
+   ],
+   "front_md": "How many distinct arrangements are there of the letters in MATHS?\n",
+   "back_md": "There are $5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.\n\nFive different letters can go first, then four remain for the second place, and so on down to one.\n",
+   "spec_links": [
+    "spcpt_jYCdPVrS3gNFw5JW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZkzzCTDbfHwpw8tJ",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define $n$ **factorial**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$n !$ means $n \\times ( n - 1 ) \\times ( n - 2 ) \\times \\dots \\times 2 \\times 1$, for any non-negative integer $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is an operation like $+$ or $\\times$, and it is exactly the number of ways of arranging $n$ different objects."
+    }
+   ],
+   "front_md": "Define $n$ **factorial**.\n",
+   "back_md": "$n !$ means $n \\times ( n - 1 ) \\times ( n - 2 ) \\times \\dots \\times 2 \\times 1$, for any non-negative integer $n$.\n\nIt is an operation like $+$ or $\\times$, and it is exactly the number of ways of arranging $n$ different objects.\n",
+   "spec_links": [
+    "spcpt_8R5wf3qRTj6JYQj3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VVNDTK3DfdYd4sz2",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$0 ! = 1$"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is exactly **one** way to arrange nothing at all, namely the empty arrangement, so the count is 1 rather than 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "The factorial of a negative number, by contrast, is simply not defined."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$0 ! = 1$\n",
+   "back_md": "**True.**\n\nThere is exactly **one** way to arrange nothing at all, namely the empty arrangement, so the count is 1 rather than 0.\n\nThe factorial of a negative number, by contrast, is simply not defined.\n",
+   "spec_links": [
+    "spcpt_8R5wf3qRTj6JYQj3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c4kQ3vK7hB2HXqv2",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete these factorial results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{(n-1)!} = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{(n-2)!} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{n!}{(n-1)!} = n$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{n!}{(n-2)!} = n ( n - 1 )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Everything from $( n - 1 )$ downwards cancels, leaving only the factors at the top end."
+    }
+   ],
+   "front_md": "Complete these factorial results:\n\n`\\frac{n!}{(n-1)!} = \\_\\_\\_\\_\\_\\_`\n\n`\\frac{n!}{(n-2)!} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\frac{n!}{(n-1)!} = n$\n\n$\\frac{n!}{(n-2)!} = n ( n - 1 )$\n\nEverything from $( n - 1 )$ downwards cancels, leaving only the factors at the top end.\n",
+   "spec_links": [
+    "spcpt_8R5wf3qRTj6JYQj3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_FscYWDjd9BGmp6jj",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Simplify $\\frac{7!}{4!}$ by cancelling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Writing both out in full, everything from 4 downwards is common to the top and bottom:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{7\\times6\\times5\\times4\\times3\\times2\\times1}{4\\times3\\times2\\times1} = 7 \\times 6 \\times 5$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing a large factorial by a smaller one always collapses like this, so never work the two out separately."
+    }
+   ],
+   "front_md": "Simplify $\\frac{7!}{4!}$ by cancelling.\n",
+   "back_md": "Writing both out in full, everything from 4 downwards is common to the top and bottom:\n\n$\\frac{7\\times6\\times5\\times4\\times3\\times2\\times1}{4\\times3\\times2\\times1} = 7 \\times 6 \\times 5$\n\nDividing a large factorial by a smaller one always collapses like this, so never work the two out separately.\n",
+   "spec_links": [
+    "spcpt_8R5wf3qRTj6JYQj3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RgFDHCfggWY6Jbqm",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the number of permutations of $r$ objects chosen from $n$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{P}_{r} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{P}_{r} = \\frac{n!}{(n-r)!}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "A permutation counts arrangements, so the **order** of the $r$ chosen objects matters."
+    }
+   ],
+   "front_md": "Complete the formula for the number of permutations of $r$ objects chosen from $n$:\n\n`{}^{n}\\text{P}_{r} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n`{}^{n}\\text{P}_{r} = \\frac{n!}{(n-r)!}`\n\nA permutation counts arrangements, so the **order** of the $r$ chosen objects matters.\n",
+   "spec_links": [
+    "spcpt_VkKccRJhrmwPw7tM"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ns5wVXX2bWCJz9Fs",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is arranging 3 out of 5 objects the same as $\\frac{5!}{2!}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Counting directly gives $5 \\times 4 \\times 3$, since there are five choices, then four, then three."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $5 !$ by $2 !$ cancels the $2 \\times 1$ at the bottom end, leaving exactly $5 \\times 4 \\times 3$."
+    }
+   ],
+   "front_md": "Why is arranging 3 out of 5 objects the same as $\\frac{5!}{2!}$?\n",
+   "back_md": "Counting directly gives $5 \\times 4 \\times 3$, since there are five choices, then four, then three.\n\nDividing $5 !$ by $2 !$ cancels the $2 \\times 1$ at the bottom end, leaving exactly $5 \\times 4 \\times 3$.\n",
+   "spec_links": [
+    "spcpt_VkKccRJhrmwPw7tM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Rb63jzc9f9Bnv5yB",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you count arrangements where two items must stay together?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Treat the two as **stuck together** into a single item, and arrange that block with everything else."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then arrange the two items **within** the block separately, and multiply the two counts together."
+    }
+   ],
+   "front_md": "How do you count arrangements where two items must stay together?\n",
+   "back_md": "Treat the two as **stuck together** into a single item, and arrange that block with everything else.\n\nThen arrange the two items **within** the block separately, and multiply the two counts together.\n",
+   "spec_links": [
+    "spcpt_VkKccRJhrmwPw7tM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wv8gy73F5ccN5wQG",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_WzXRnfFgYkw5mdfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"All three items must be separated\" means the same as \"the three items cannot all be together\"."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"Cannot all be together\" still allows two of them to sit side by side, so you find it by subtracting the all-together arrangements from the total."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"Completely separated\" is stricter: lay out the other items first and slot these into the gaps between them."
+    }
+   ],
+   "front_md": "**True or False?**\n\n\"All three items must be separated\" means the same as \"the three items cannot all be together\".\n",
+   "back_md": "**False.**\n\n\"Cannot all be together\" still allows two of them to sit side by side, so you find it by subtracting the all-together arrangements from the total.\n\n\"Completely separated\" is stricter: lay out the other items first and slot these into the gaps between them.\n",
+   "spec_links": [
+    "spcpt_VkKccRJhrmwPw7tM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9RTsxJc3brRRfmHD",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **combination**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **combination** is a selection of $r$ objects from $n$ in which the **order does not matter**."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is the whole difference from a permutation, where a different order counts as a different arrangement."
+    }
+   ],
+   "front_md": "Define a **combination**.\n",
+   "back_md": "A **combination** is a selection of $r$ objects from $n$ in which the **order does not matter**.\n\nThat is the whole difference from a permutation, where a different order counts as a different arrangement.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_P4sH92J9GTr9q2VP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Choosing 2 letters from A, B and C gives 6 permutations but only 3 combinations. Why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because AB and BA are two different **arrangements** but the same **selection**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each combination has been counted twice over, so dividing the 6 permutations by 2 gives 3 combinations."
+    }
+   ],
+   "front_md": "Choosing 2 letters from A, B and C gives 6 permutations but only 3 combinations. Why?\n",
+   "back_md": "Because AB and BA are two different **arrangements** but the same **selection**.\n\nEach combination has been counted twice over, so dividing the 6 permutations by 2 gives 3 combinations.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tJ6DDNbqy634xFXm",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the number of combinations of $r$ objects from $n$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r} = \\frac{n!}{(n-r)!\\,r!}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also written `\\binom{n}{r}` and read as **n choose r**."
+    }
+   ],
+   "front_md": "Complete the formula for the number of combinations of $r$ objects from $n$:\n\n`{}^{n}\\text{C}_{r} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n`{}^{n}\\text{C}_{r} = \\frac{n!}{(n-r)!\\,r!}`\n\nIt is also written `\\binom{n}{r}` and read as **n choose r**.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JvYMgDrMp4yJqGZF",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the combination formula divide by $r !$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because `{}^{n}\\text{P}_{r}` counts every selection once for each way of ordering it, and there are $r !$ such orderings."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing by $r !$ removes that duplication, which is why `{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{r!}`."
+    }
+   ],
+   "front_md": "Why does the combination formula divide by $r !$?\n",
+   "back_md": "Because `{}^{n}\\text{P}_{r}` counts every selection once for each way of ordering it, and there are $r !$ such orderings.\n\nDividing by $r !$ removes that duplication, which is why `{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{r!}`.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CXXt5QMy54c3FSnZ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are `{}^{n}\\text{C}_{n}` and `{}^{n}\\text{C}_{0}`, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both equal **1**."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is only one way to choose all $n$ objects, and only one way to choose none of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working these out from the formula also shows why $0 !$ has to be 1."
+    }
+   ],
+   "front_md": "What are `{}^{n}\\text{C}_{n}` and `{}^{n}\\text{C}_{0}`, and why?\n",
+   "back_md": "Both equal **1**.\n\nThere is only one way to choose all $n$ objects, and only one way to choose none of them.\n\nWorking these out from the formula also shows why $0 !$ has to be 1.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5X9h5TD4sZrMJj8b",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r} = {}^{n}\\text{C}_{n-r}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Choosing which $r$ objects to **take** is the same decision as choosing which $n - r$ to **leave behind**."
+    },
+    {
+     "type": "paragraph",
+     "md": "This symmetry is a useful shortcut, since `{}^{20}\\text{C}_{18}` is much quicker worked as `{}^{20}\\text{C}_{2}`."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`{}^{n}\\text{C}_{r} = {}^{n}\\text{C}_{n-r}`\n",
+   "back_md": "**True.**\n\nChoosing which $r$ objects to **take** is the same decision as choosing which $n - r$ to **leave behind**.\n\nThis symmetry is a useful shortcut, since `{}^{20}\\text{C}_{18}` is much quicker worked as `{}^{20}\\text{C}_{2}`.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FfrGWbdn86QKKByy",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_s8X2PTq84xrv2Dyf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is `{}^{n}\\text{C}_{r}` also called a **binomial coefficient**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the same numbers appear as the coefficients when a two-term bracket is raised to a power."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the quantity that counts selections is exactly the quantity that multiplies each term of a binomial expansion."
+    }
+   ],
+   "front_md": "Why is `{}^{n}\\text{C}_{r}` also called a **binomial coefficient**?\n",
+   "back_md": "Because the same numbers appear as the coefficients when a two-term bracket is raised to a power.\n\nSo the quantity that counts selections is exactly the quantity that multiplies each term of a binomial expansion.\n",
+   "spec_links": [
+    "spcpt_Mtg25yFQFXdCDYdC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cB9G5HvnpTqKHpPN",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you tell whether a question is about permutations or combinations?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Ask whether the **order matters**: if rearranging the same objects gives a genuinely different outcome, it is a permutation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Guessing first, second and third prize is a permutation, while naming the top three scorers in any order is a combination."
+    }
+   ],
+   "front_md": "How do you tell whether a question is about permutations or combinations?\n",
+   "back_md": "Ask whether the **order matters**: if rearranging the same objects gives a genuinely different outcome, it is a permutation.\n\nGuessing first, second and third prize is a permutation, while naming the top three scorers in any order is a combination.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jGHhbSB5W8nwQT3m",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the type each set of keywords points to:"
+    },
+    {
+     "type": "paragraph",
+     "md": "**arrange**, **order**, **sequence** suggest `\\_\\_\\_\\_\\_\\_`."
+    },
+    {
+     "type": "paragraph",
+     "md": "**select**, **choose**, **group** suggest `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentences are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "**arrange**, **order**, **sequence** suggest **permutations**."
+    },
+    {
+     "type": "paragraph",
+     "md": "**select**, **choose**, **group** suggest **combinations**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Keywords are a strong hint rather than a guarantee, so check the context as well."
+    }
+   ],
+   "front_md": "Fill in the type each set of keywords points to:\n\n**arrange**, **order**, **sequence** suggest `\\_\\_\\_\\_\\_\\_`.\n\n**select**, **choose**, **group** suggest `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed sentences are:\n\n**arrange**, **order**, **sequence** suggest **permutations**.\n\n**select**, **choose**, **group** suggest **combinations**.\n\nKeywords are a strong hint rather than a guarantee, so check the context as well.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kYP9nyzh65YkJVmy",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When do you multiply your options, and when do you add them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Multiply** when you need one thing **and** another, since every choice of the first pairs with every choice of the second."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Add** when you need one thing **or** another, since those are separate cases that do not combine."
+    }
+   ],
+   "front_md": "When do you multiply your options, and when do you add them?\n",
+   "back_md": "**Multiply** when you need one thing **and** another, since every choice of the first pairs with every choice of the second.\n\n**Add** when you need one thing **or** another, since those are separate cases that do not combine.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Zdrsh6qzvD4MfXX4",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A four-digit PIN is built from ten digits. How does the count change if digits may be repeated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With repetition allowed every position still has all ten options, giving $10 \\times 10 \\times 10 \\times 10$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Without repetition the options fall away each time, giving $10 \\times 9 \\times 8 \\times 7$, so check this before choosing any formula."
+    }
+   ],
+   "front_md": "A four-digit PIN is built from ten digits. How does the count change if digits may be repeated?\n",
+   "back_md": "With repetition allowed every position still has all ten options, giving $10 \\times 10 \\times 10 \\times 10$.\n\nWithout repetition the options fall away each time, giving $10 \\times 9 \\times 8 \\times 7$, so check this before choosing any formula.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XRBfhHJ2vrdKKxfb",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A password is 2 letters from A to E followed by 3 digits from 0 to 9, with no repeats. How many are there?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Order matters in a password, so each part is a permutation: `{}^{5}\\text{P}_{2}` for the letters and `{}^{10}\\text{P}_{3}` for the digits."
+    },
+    {
+     "type": "paragraph",
+     "md": "You need letters **and** digits, so multiply:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$( 5 \\times 4 ) \\times ( 10 \\times 9 \\times 8 ) = 14400$"
+    }
+   ],
+   "front_md": "A password is 2 letters from A to E followed by 3 digits from 0 to 9, with no repeats. How many are there?\n",
+   "back_md": "Order matters in a password, so each part is a permutation: `{}^{5}\\text{P}_{2}` for the letters and `{}^{10}\\text{P}_{3}` for the digits.\n\nYou need letters **and** digits, so multiply:\n\n$( 5 \\times 4 ) \\times ( 10 \\times 9 \\times 8 ) = 14400$\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fh3KqQScj5ZBJKkz",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you handle a restriction such as \"at least one yellow and no more than three reds\"?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Break it into every case that satisfies the restriction, such as one yellow with three reds, then two yellows with two reds, and so on."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Multiply** within each case, because both conditions must hold, then **add** the cases together, because any one of them will do."
+    }
+   ],
+   "front_md": "How do you handle a restriction such as \"at least one yellow and no more than three reds\"?\n",
+   "back_md": "Break it into every case that satisfies the restriction, such as one yellow with three reds, then two yellows with two reds, and so on.\n\n**Multiply** within each case, because both conditions must hold, then **add** the cases together, because any one of them will do.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GNTHHBPtXcc6tTvg",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_tTMmNpZzz2NcQ3kB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A question asking \"how many ways\" is always a combinations question."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"How many ways\" is used for both types, so it settles nothing on its own."
+    },
+    {
+     "type": "paragraph",
+     "md": "Look instead for whether order matters, or for the stronger keywords such as **arrange** against **choose**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA question asking \"how many ways\" is always a combinations question.\n",
+   "back_md": "**False.**\n\n\"How many ways\" is used for both types, so it settles nothing on its own.\n\nLook instead for whether order matters, or for the stronger keywords such as **arrange** against **choose**.\n",
+   "spec_links": [
+    "spcpt_5CR4bZZmb6VNWxVT"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,1360 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:38:00Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "physics",
+  "exam_code": "0625 & 0972",
+  "sme_course_id": "crs_WsCBzh6k4tzy6V9J",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Physics"
+ },
+ "section": {
+  "slug": "6-space-physics",
+  "name": "6. Space Physics"
+ },
+ "topic": {
+  "id": "top_xy7BNCKc4xHzKs4G",
+  "slug": "6-1-earth-and-the-solar-system",
+  "name": "Earth & The Solar System",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "6-1-2-the-solar-system",
+   "name": "The Solar System",
+   "revision_note_id": "rn_HJ4Bk9x22T5D2k4M"
+  },
+  {
+   "slug": "6-1-1-the-earth-moon-and-sun",
+   "name": "The Earth, Moon & Sun",
+   "revision_note_id": "rn_7Zr8Dh7TWkc7tKw6"
+  },
+  {
+   "slug": "6-1-6-orbital-speed-equation",
+   "name": "Orbital Speed Equation",
+   "revision_note_id": "rn_7pWGpQKnSwwqHBRd"
+  },
+  {
+   "slug": "6-1-7-elliptical-orbits",
+   "name": "Elliptical Orbits",
+   "revision_note_id": "rn_XDtQM5D3k38WTcbT"
+  },
+  {
+   "slug": "6-1-5-gravitational-field-strength",
+   "name": "Gravitational Field Strength",
+   "revision_note_id": "rn_2htbyv8MJVkpYZK4"
+  },
+  {
+   "slug": "6-1-3-formation-of-the-solar-system",
+   "name": "Formation of the Solar System",
+   "revision_note_id": "rn_8nbyJ5qQJkN7HsVF"
+  },
+  {
+   "slug": "6-1-4-light-speed-calculations",
+   "name": "Light Speed Calculations",
+   "revision_note_id": "rn_drfpHXR3FsK9pbvH"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_YYFdNB9ykCbZCyt6",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 22,
+   "questions_embedded": 22,
+   "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/6-space-physics/6-1-earth-and-the-solar-system/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 22,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/08/6-1-q6-medium-planets-mnemonic-commentary.PNG": "001-6-1-q6-medium-planets-mnemonic-commentary.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/6-1-h-mcq-5-qun.png": "002-6-1-h-mcq-5-qun.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5d2W2EIZ_6-1-h-mcq-5-soln.png": "003-5d2w2eiz-6-1-h-mcq-5-soln.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/phases-of-the-moon-for-question-commentary.png": "004-phases-of-the-moon-for-question-commentary.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_hkMQNdSDJMG4Mzhf",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qQNsvfNrN5mhCzBZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y3MbXgVDnmDSqMph"
+     ],
+     "part_tier": null,
+     "problem_md": "A comet is at the point in its orbit where it is furthest from the Sun.\n\nWhich row is correct?\n\n|   | orbital speed | energy in gravitational potential store |\n|---|---|---|\n| **A** | at its maximum | at its maximum |\n| **B** | at its maximum | at its minimum |\n| **C** | at its minimum | at its maximum |\n| **D** | at its minimum | at its minimum |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Comets travel in highly elliptical orbits around the Sun\n- As a comet moves further away from the Sun, the distance between them increases, which means energy is transferred to its gravitational potential store\n\n  - Therefore, at the point furthest from the Sun, the energy in the gravitational potential store is at its **maximum**\n- The total energy of the comet remains constant throughout its orbit\n- Due to the principle of conservation of energy, an increase in gravitational potential energy results in a decrease in kinetic energy\n- When the gravitational potential energy is at its maximum, the kinetic energy is at its minimum\n\n  - Since kinetic energy depends on speed, a minimum kinetic energy means the orbital speed of the comet is also at its **minimum**\n\n**A** is incorrect as it assumes the orbital speed is at its maximum when the comet is furthest from the Sun\n\n**B** is incorrect because the comet has its minimum orbital speed and maximum gravitational potential energy at this point, not the other way around\n\n**D** is incorrect as the energy in the gravitational potential store is at its maximum, not its minimum, when the comet is furthest away\n\n> **[exam-tip]**\n> A great way to remember this is to apply the principle of conservation of energy. When a comet approaches the Sun, it \"falls\" towards it, losing gravitational potential energy and gaining kinetic energy, causing it to speed up. As it moves away, it travels \"uphill\" against the Sun's gravity, losing kinetic energy and gaining gravitational potential energy, causing it to slow down.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9RXghZJCHCPpq5YQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fphWrh3JTPcRjV4w",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Q7bWTdn9ycPfzzpk",
+      "spcpt_BkdmdYCfhSvVnFVf"
+     ],
+     "part_tier": null,
+     "problem_md": "Which time interval is the largest?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Distances in space are vast, and light takes different amounts of time to travel between objects depending on the scale of the system\n- The distance to the centre of the Milky Way is so large that it is measured in light-years\n- It takes light approximately 30 000 years to travel from the Sun to the centre of the Milky Way\n\n**A** is incorrect as light takes only a few minutes to reach a rocky planet in the inner Solar System.\n\n**B** is incorrect as light takes several hours to reach a gaseous planet in the outer Solar System.\n\n**D** is incorrect as light takes several years to travel from the Sun to Proxima Centauri (approximately 4 light-years away).\n\n> **[exam-tip]**\n> Remember that distances in space increase dramatically as you move from within our Solar System to interstellar distances and beyond. Light-years are used specifically because the distances between stars and galactic structures are so vast that using kilometres or even astronomical units becomes impractical. When comparing time intervals for light travel, think about the scale: minutes for inner planets, hours for outer planets, years for nearby stars, and thousands of years for galactic distances.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the time for light to travel from the Sun to a rocky planet in the Solar System"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the time for light to travel from the Sun to a gaseous planet in the Solar System"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "the time for light to travel from the Sun to the centre of the Milky Way"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the time for light to travel from the Sun to the next nearest star, Proxima Centauri"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qZH7sNxBTtSSwMZf",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gpRYb9WrFDYFFFNH",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VK4PVHgZ5QCQkKQN"
+     ],
+     "part_tier": null,
+     "problem_md": "The Earth is a planet in the Solar System.\n\nWhich row relates the motion of the Earth to the cycle of day and night and the cycle of the seasons?\n\n|   | **cause of day and night** | **cause of the seasons** |\n|---|---|---|\n| **A** | Earth orbits the Sun | Earth orbits the Sun |\n| **B** | Earth orbits the Sun | Earth rotates on its axis |\n| **C** | Earth rotates on its axis | Earth orbits the Sun |\n| **D** | Earth rotates on its axis | Earth rotates on its axis |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The Earth rotates on its axis once every 24 hours\n\n  - This rotation causes the side of the Earth facing the Sun to change, creating the cycle of **day and night**\n- The Earth orbits the Sun once approximately every 365 days\n\n  - This orbital motion, combined with the tilt of the Earth's axis, causes the periodic cycle of the **seasons**\n\n**A** is incorrect as the orbit around the Sun is too slow to cause the daily cycle of day and night.\n\n**B** is incorrect as it reverses the two causes.\n\n**D** is incorrect as the rotation on the axis happens daily and is not responsible for the yearly change in seasons.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ykCp44B5NxBNTC5h",
+   "set_slug": "multiple-choice-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_T679H6SGwB4dWrrC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "JUNE 2023",
+      "number": "0972/21",
+      "question_number": 38,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": null,
+     "problem_md": "A space station orbits the Earth at a distance of 7000 km from the Earth’s centre. It makes 15 orbits in every 24-hour period.\n\nWhat is the speed of the space station in its orbit?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- The circumference of the orbit is the distance the space station travels each orbit $\\mathrm{circumference}=2\\mathrm{πr}=2\\timesπ\\times7000\\mathrm{km}=43982\\mathrm{km}$\n- The space station completes 15 orbits in 24 hours, so the total distance travelled in this time is: $\\mathrm{distance} \\mathrm{travelled}=43982\\mathrm{km}\\times15=659735\\mathrm{km}$\n- Finally, the speed is found using the speed equation:\n\n$v=\\frac{s}{t}=\\frac{659735\\mathrm{km}}{24h}=27489\\mathrm{km}/h$\n\n$v=27000\\mathrm{km}/h(\\mathrm{to}2\\mathrm{significant} \\mathrm{figures})$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2900 km / h"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "4400 km / h"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "8800 km / h"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "27 000 km / h"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\mathrm{circumference}=2\\mathrm{πr}=2\\timesπ\\times7000\\mathrm{km}=43982\\mathrm{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>circumference</mi><mo>&#160;</mo><mo>=</mo><mn>2</mn><mi>&#960;r</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mi mathvariant=\"normal\">&#960;</mi><mo>&#215;</mo><mn>7000</mn><mo>&#160;</mo><mi>km</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>43</mn><mo>&#160;</mo><mn>982</mn><mo>&#160;</mo><mi>km</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "circumference space equals 2 straight pi straight r equals 2 cross times straight pi cross times 7000 space km space equals space 43 space 982 space km"
+      },
+      {
+       "latex": "\\mathrm{distance} \\mathrm{travelled}=43982\\mathrm{km}\\times15=659735\\mathrm{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>distance</mi><mo>&#160;</mo><mi>travelled</mi><mo>=</mo><mn>43</mn><mo>&#160;</mo><mn>982</mn><mo>&#160;</mo><mi>km</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>15</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>659</mn><mo>&#160;</mo><mn>735</mn><mo>&#160;</mo><mi>km</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "distance space travelled equals 43 space 982 space km space cross times space 15 space equals space 659 space 735 space km space"
+      },
+      {
+       "latex": "v=\\frac{s}{t}=\\frac{659735\\mathrm{km}}{24h}=27489\\mathrm{km}/h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo mathvariant=\"italic\">&#160;</mo><mo mathvariant=\"italic\">=</mo><mfrac><mi mathvariant=\"italic\">s</mi><mi mathvariant=\"italic\">t</mi></mfrac><mo>=</mo><mfrac><mrow><mn>659</mn><mo>&#160;</mo><mn>735</mn><mo>&#160;</mo><mi>km</mi></mrow><mrow><mn>24</mn><mo>&#160;</mo><mi mathvariant=\"normal\">h</mi></mrow></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>27</mn><mo>&#160;</mo><mn>489</mn><mo>&#160;</mo><mi>km</mi><mo>/</mo><mi mathvariant=\"normal\">h</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v italic space italic equals s over t equals fraction numerator 659 space 735 space km over denominator 24 space straight h end fraction space space space equals space 27 space 489 space km divided by straight h space"
+      },
+      {
+       "latex": "v=27000\\mathrm{km}/h(\\mathrm{to}2\\mathrm{significant} \\mathrm{figures})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>27</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mi>km</mi><mo>/</mo><mi mathvariant=\"normal\">h</mi><mo>&#160;</mo><mo>(</mo><mi>to</mi><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mi>significant</mi><mo>&#160;</mo><mi>figures</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space 27 space 000 space km divided by straight h space left parenthesis to space 2 space significant space figures right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jYwf3V4zRfH8mt3w",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2XWscvRs7X8nH6Mz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0972/11",
+      "question_number": 38,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BkdmdYCfhSvVnFVf"
+     ],
+     "part_tier": null,
+     "problem_md": "Which planet in our Solar System is nearest to the Sun and what is the nature of the planet?\n\n| ** ** | **planet** | **nature** |\n|---|---|---|\n| **A** | Mercury | rocky |\n| **B** | Mercury | gaseous |\n| **C** | Venus | rocky |\n| **D** | Venus | gaseous |",
+     "solution_md": "**Final answer:** **The correct answer is ****A****, because:**\n\n- Mercury is the planet nearest to the Sun\n\n  - Therefore, eliminate options **C** and **D**\n- Mercury is rocky\n\n  - Therefore, option **A** is correct\n\nThe four inner planets (Mercury, Venus, Earth and Mars) are all rocky. The four outer planets (Jupiter, Saturn, Uranus, Neptune) are much larger and are gaseous.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_K25dkVRQm98rYyFV",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xfjMpXbWCkJTwMY3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "2023 specimen",
+      "number": "paper 2",
+      "question_number": 39,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extended Tier Only**\n\nThe orbit of the Moon around the Earth is modelled as a circular path of radius $3.8\\times10^{5}$km.\n\nThe orbital period is 29.5 days (710 hours).\n\nWhat is the orbital speed of the Moon?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- To find the speed of the Moon, the distance it covers each orbit and the time of each orbit are both needed\n- The distance is the circumference, *C*, of its circular orbit\n\n$C=2πr$\n\n- The orbital time is given as 710 hours (h) and the radius is 3.8 × 10<sup>5</sup> km\n- Speed is distance per unit time\n\n$v=\\frac{2π\\times(3.8\\times10^{5})}{710}=3360$   km/h\n\n- Written in standard form to two significant figures, this is\n\n$v=3360$  km/h = 3.4 $\\times$10<sup>3</sup>  km/h\n\nIt is possible to memorise the equation $v=\\frac{2πr}{T}$ , but a little physical reasoning and understanding of where this equation comes from could save you having to learn one more equation (and potentially mis-remembering it under exam pressure!).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "5.4$\\times$10<sup>2</sup> km/h"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.1$\\times$10<sup>3</sup> km/h"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "1.7$\\times$10<sup>3</sup> km/h"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "3.4$\\times$10<sup>3</sup> km/h"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "3.8\\times10^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3.8 cross times 10 to the power of 5"
+      },
+      {
+       "latex": "C=2πr",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>&#960;</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C equals 2 pi r"
+      },
+      {
+       "latex": "v=\\frac{2π\\times(3.8\\times10^{5})}{710}=3360",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi><mo>&#215;</mo><mo>(</mo><mn>3</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>710</mn></mfrac><mo>=</mo><mn>3360</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals fraction numerator 2 pi cross times left parenthesis 3.8 cross times 10 to the power of 5 right parenthesis over denominator 710 end fraction equals 3360"
+      },
+      {
+       "latex": "v=3360",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3360</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals 3360"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "v=\\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi><mi>r</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals fraction numerator 2 pi r over denominator T end fraction"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ypZYTywHmXXfRrr7",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XgcyycPn7h4gjFQx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "2023 Specimen",
+      "number": "paper 1",
+      "question_number": 39,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BkdmdYCfhSvVnFVf"
+     ],
+     "part_tier": null,
+     "problem_md": "Which type of object orbits the Sun?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A comet is the only listed object which orbits the Sun\n\n**A **is incorrect as ‘interstellar’ implies the dust and gas cloud is between stars, not orbiting our Sun\n\n**C **is incorrect as a galaxy’s mass is too large to orbit the Sun\n\n**D **is incorrect as the solar system contains only one star, which is the Sun",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "an interstellar cloud of gas and dust"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "a comet"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "a galaxy"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "another star"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XMkwc3KSVpNZh9W4",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_GBNQ2BHHwhgxkmMf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VK4PVHgZ5QCQkKQN"
+     ],
+     "part_tier": null,
+     "problem_md": "What creates the periodic nature of the seasons?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The tilting of the Earth's axis means that certain hemispheres (halves) of the Earth tilt towards the Sun for one half of the year, and away from the Sun from the other half\n\n  - When the northern hemisphere is tilted towards the Sun, this is spring and summer\n  - When it is tilted away from the Sun, this is autumn and winter\n- The orbiting of the Earth around the Sun means that different sides of the Earth face the Sun at different parts of the year, every 365 days\n\n  - Therefore, the combination of both creates the seasons\n\nThe tilting of the Earth's axis and its orbit around the Sun is why when it is winter in Europe (in the northern hemisphere), it is summer in Australia (in the southern hemisphere). Whilst Europe is facing away from the Sun during that time, this means Australia is facing towards the Sun, because of the tilt.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The tilting of the Earth's axis"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The orbiting of the Earth around the Sun"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "The combination of the orbiting of the Earth around the Sun and the Earth's tilting axis"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The change in temperature of the Sun"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tbHBV9pKj4Bvc3ts",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZTtBgjHWYJk4MxFr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BkdmdYCfhSvVnFVf"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the planets listed is the gaseous planet which is closest to the Sun?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Jupiter, Saturn and Uranus are gaseous planets while Mars is a rocky planet\n\n  - Option **B** cannot be correct\n- The order of the planets counting from the Sun outwards is:\n\n  - Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune\n- Therefore, Jupiter is the gaseous planet closest to the Sun\n\nTo learn the order of the planets, try a mnemonic such as ***'my very excellent mother just served us noodles'***.\n\n![6-1-q6-medium-planets-mnemonic-commentary](assets/001-6-1-q6-medium-planets-mnemonic-commentary.png)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "Jupiter"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Mars"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Saturn"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Uranus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QX4wVDXJWPfCtXrs",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jqqdwDSy5T2sHzRv",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y3MbXgVDnmDSqMph"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nWhich of the following statements about orbits is true?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Most objects in our solar system have elliptical orbits\n\n  - This includes all planets, minor planets (such as dwarf planets and moons) and comets\n\n**B** is incorrect as the Sun is at the centre of a **circular** orbit, not in an elliptical one\n\n**C** is incorrect as planets also have elliptical orbits **D** is incorrect as the orbital radius of an object in an elliptical orbit constantly changes (an ellipse looks like a squashed circle)\n\nIt is a common misconception that planets have a circular orbit around the Sun. You will notice calculations for orbital speed and radius will assume the orbit is circular, this is a simplified model that is only an approximation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "All planets, minor planets and comets have elliptical orbits"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The Sun is at the centre of an elliptical orbit"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Only comets and minor planets have elliptical orbits"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "An object in an elliptical orbit has a constant orbital radius"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FfWZPJ96KFgz3S3Z",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DN6m8PSkz5T9xxbN",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BkdmdYCfhSvVnFVf"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following objects are described as orbiting the Sun?\n\n1. Asteroids\n2. Comets\n3. Galaxies\n4. Moons",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- **Asteroids** are mostly found between Mars and Jupiter where they orbit the Sun in an area called the Asteroid Belt\n- **Comets** orbit the Sun on long paths which bring them periodically into the Solar System and then far out to an area called the Oort Cloud\n- **Galaxies **are distant groupings of stars which are receding from our own galaxy\n- **Moons** are described as orbiting their parent planet\n\n  - It could be said that since the planet orbits the Sun that the Moon does too, but this is not the **usual** description of their motion",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "1 and 2 only"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1, 2 and 3"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "1, 2, and 4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1, 2, 3 and 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bjj2MsXms9QhGTwR",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_GHG9HcKF6ytmsrVN",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZqCx3RfcF5jq63Zk"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following statements about the strength of a gravitational field is correct?\n\n|   | ** At the surface of a planet it depends on** | ** Around a planet it** |\n|---|---|---|\n| **A** | the diameter of the planet | decreases as the distance from the planet increases |\n| **B** | the diameter of the planet | increases as the distance from the planet decreases |\n| **C** | the mass of the planet | decreases as the distance from the planet increases |\n| **D** | the mass of the planet | increases as the distance from the planet increases |",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The strength of the gravitational field:\n\n  - At the surface of a planet depends on the **mass** of the planet - more mass means more gravitational pull\n  - Around a planet **decreases** as the distance from the planet **increases **- gravitational field strength gets weaker the further you are from the planet\n- This is row **C**\n\nMake sure to remember it is the **mass** of the planet that affects its gravitational field strength the most, not so much its surface area or diameter or density.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zncqj32fbM63MjJt",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MWP2QKPcZtTJfMFM",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZqCx3RfcF5jq63Zk"
+     ],
+     "part_tier": null,
+     "problem_md": "The Earth and Moon are held together by a gravitational force acting between them.\n\nWhich row describes possible changes to the mass of the Earth and the distance between the Earth and the Moon that would cause the gravitational force to increase?\n\n|   | **Mass of Earth** | **Distance between the Earth and the Moon** |\n|---|---|---|\n| **A** | Double | Drop to one quarter |\n| **B** | Stay the same | Stay the same |\n| **C** | Halve | Stay the same |\n| **D** | Drop to one quarter | Double |",
+     "solution_md": "**The answer is ****A**** because**\n\n- Gravitational field strength is proportional to the mass\n\n  - If the mass of Earth were higher then the force would be higher\n  - Only option **A** shows the force increase\n\n- Gravitational force decreases as the distance between the masses increases\n\n  - Therefore, if the distance between the Earth and the Moon increased then the force would decrease\n  - This confirms that option **A** is the only possible correct solution",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_S6QT65rYT4f4TZMT",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Q5BrjWsJ3mHJ22wn",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe orbit of the Earth around the Sun can be thought of as following a circular path with a circumference of 942 × 10<sup>6</sup> km.\n\nWhat is the approximate orbital speed of the Earth?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- To find the orbital speed use the equation for speed\n$v=\\frac{d}{t}$\n- Where *v* = average velocity, *d* = distance and *t *= time\n- From the question:\n\n  - Circumference, or distance, *d* = 942 × 10<sup>6</sup> km\n  - Time of one orbit, *t* = 365 days\n  - Time can be converted using *t *= (365 × 24) hours = **8760 hours**\n\n- Therefore, the orbital speed,\n- $v=\\frac{(942\\times10^{6})\\mathrm{km}}{8760h}=107534\\mathrm{km}/h$\n- This can be written as 100 000 km /h when rounded to one significant figure\n\nNotice that if a more accurate value for time is used, 365.25 days = 8766 hours, the final answer still rounds to the same value.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "10 000 km /h"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "100 000 km /h"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2.5 × 10<sup>6</sup> km /h"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "50 × 10<sup>6</sup> km /h"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "v=\\frac{d}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mi>d</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "v space equals space d over t"
+      },
+      {
+       "latex": "v=\\frac{(942\\times10^{6})\\mathrm{km}}{8760h}=107534\\mathrm{km}/h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mo>(</mo><mn>942</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo><mo> </mo><mi>km</mi></mrow><mrow><mn>8760</mn><mo> </mo><mi mathvariant=\"normal\">h</mi></mrow></mfrac><mo > </mo><mo >=</mo><mo > </mo><mn >107</mn><mo > </mo><mn >534</mn><mo > </mo><mi >km</mi><mo >/</mo><mi mathvariant=\"normal\" >h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator left parenthesis 942 space cross times space 10 to the power of 6 right parenthesis space km over denominator 8760 space straight h end fraction space equals space 107 space 534 space km divided by straight h"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_r7qqch2bBqyknn5j",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qSKfkNKgBpgrgSzT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VK4PVHgZ5QCQkKQN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which line in the table best describes the angle of the Earth’s axis from the vertical, and the effect of this tilt?\n\n|   | **Angle of tilt** | **Effect of tilt** |\n|---|---|---|\n| **A** | 23.4° | Rising and setting of the Sun |\n| **B** | 23.4° | Changing of the seasons |\n| **C** | 66.6° | Rising and setting of the Sun |\n| **D** | 66.6° | Changing of the seasons |",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- The Earth’s axis tilts 23.4° from the vertical\n- The effect of this tilt is a change in intensity of the sunlight falling on the surface of the Earth at different times of year\n\n  - Therefore, the tilt of the Earth’s axis causes the changing of the seasons\n\n**A** and **C** are incorrect as the rising and setting of the Sun are caused by the rotation of the Earth on its axis\n\n**D** is incorrect as the angle is too large\n\nIt’s a common misconception to think that the seasons are caused by the Earth being closer to the Sun during the summer.\n\nBut, when it is summer in the Northern Hemisphere it is winter in the Southern Hemisphere!\n\nAlthough the Earth **is **slightly closer to the Sun at certain times, the distances are so huge that it makes virtually no difference to the heat and light energy received.\n\nWhat **does **make a big difference is the tilt, so that sometimes the Earth ‘leans into’ the sunlight, and at other times, ‘leans away’.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_P2pxQ9r6mwKZzPv3",
+   "set_slug": "multiple-choice-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CnPgytKGRsmYWpgd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhprhgKF2K9Nh2Rf",
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe table shows some planetary data for planets in our Solar System\n\n| **Planet** | **Orbital distance / million km** | **Orbital duration / days or years** | **Density / kg/m**<sup>**3**</sup> | **Surface Temperature/ °C** | **Uniform Surface Gravitational Field Strength/ N/kg** |\n|---|---|---|---|---|---|\n| **Mercury** | 57.9 | 88 days | 5427 | 350 | 3.7 |\n| **Venus** | 108.2 | 225 days | 5243 | 460 | 8.9 |\n| **Earth** | 149.6 | 365 days | 5514 | 20 | 9.8 |\n| **Mars** | 227.9 | 687 days | 3933 | –23 | 3.7 |\n| **Jupiter** | 778.6 | 11.9 years | 1326 | –120 | 23.1 |\n| **Saturn** | 1433.5 | 29.5 years | 687 | –180 | 9.0 |\n| **Uranus** | 2872.5 | 75 years | 1271 | –210 | 8.7 |\n| **Neptune** | 4495.1 | 165 years | 1638 | –220 | 11.0 |\n\nWhat is the orbital speed of Mars?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The average orbital speed, *v* is calculated by: $v=\\frac{2πr}{T}$\n\n  - Where *r* is the orbital radius and *T* is the orbital time period\n\n- Convert the orbital radius (distance) from km into m\n\n  - 227.9 million km = 227.9 × 10<sup>6</sup> km = 227.9 × 10<sup>9</sup> m\n  - orbital radius, *r*  = 227.9 × 10<sup>9</sup> m\n\n- Convert the time period (orbital duration) from days into hours:\n\n  - 1 day = 24 hours\n  - orbital period, *T* = 687 × 24 = 16 488 hours\n\n- Substituting the values into the orbital speed equation gives:\n\n  - `v space equals space fraction numerator 2 straight pi cross times open parentheses 227.9 cross times 10 to the power of 9 close parentheses space over denominator 16 space 488 end fraction space equals space 8.68 cross times 10 to the power of 7 space straight m divided by hr`\n\nWhenever you are doing calculations based on values from a table, make sure to read the units properly!\n\nIn this case, the orbital distance (radius) has been given in 'million km' and the orbital duration (time period) has been given in days or hours (hr). These must match the units that are needed for the orbital speed (m/hr)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "8.68 × 10<sup>4</sup> m/hr"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.38 × 10<sup>7</sup> m/hr"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "8.68 × 10<sup>7</sup> m/hr"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "2.08 × 10<sup>9</sup> m/hr"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "v=\\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi><mi>r</mi><mo> </mo></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator 2 straight pi r space over denominator T end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nFrt7kFDYq8B7wZj",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_SwxYKzC6783sZTF4",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wrry5gnbRnZBbv3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Select the combination which best defines and describes an accretion disc.\n\n1. Gases rotating around a star\n2. Ring of rocky material\n3. Leads to formation of orbiting planets\n4. Explains the range of elements in rocky planets\n5. Explains the range of elements in the parent star",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- **Accretion disc** describes a rotating disc of gas, plasma and other matter which forms around a star\n\n  - It is not made up of rocky material as this is the description of an asteroid belt\n  - Therefore statement **1** is correct and statement **2** is not correct\n\n- The accretion disc which formed around the early Sun provided the material which now makes up the rocky and gaseous planets\n\n  - Statement **3** is correct\n\n- The range of elements in the accretion disc therefore explains the range of elements found in the planets\n\n  - Statement **4** is correct\n\n- The Sun had already formed, and elements are created within it, they do not come from the accretion disc\n\n  - Statement **5** is not correct\n\nThe Space topic has a lot of vocabulary which is completely new to you.\n\nDon't be surprised or put off if sometimes that feels difficult.\n\nBut it does mean that it's essential that you spend time learning the definitions and getting used to using the language in this topic.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1, 3 and 5"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2, 3 and 5"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "1, 3 and 4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "2, 3 and 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FGqq9VnMQJT7KVYn",
+   "set_slug": "multiple-choice-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sqZNGqSnjvqzYyWg",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gSSSsxBDz642BSsR"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows a phase of the Moon.\n\n![6-1-h-mcq-5-qun](assets/002-6-1-h-mcq-5-qun.png)\n\nWhich of the four options shows the Moon 7 days later?\n\n![5d2W2EIZ_6-1-h-mcq-5-soln](assets/003-5d2w2eiz-6-1-h-mcq-5-soln.png)",
+     "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- The question shows the Moon in its **first quarter**\n\n  - This is the phase seen a quarter of a lunar month (7 days) after the New Moon\n- Seven days after the first quarter the Moon will be **full,** as shown in Option **C**\n\n**A **is incorrect as this shows the third quarter, which is seen 21 days into the Lunar cycle, two weeks after the phase in the question\n\n**B** is incorrect as  this shows a waxing crescent, which is seen a few days before the phase seen in the question\n\n**D** is incorrect as this is a New Moon, seen three weeks after the first quarter\n\nIt can be difficult to visualise the different phases of the moon. The easiest way is to draw them out in a simpler version of the diagram below.\n\n![phases-of-the-moon-for-question-commentary](assets/004-phases-of-the-moon-for-question-commentary.png)\n\nIn this diagram, you need to read the cycle anticlockwise, beginning with the New Moon",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7FfmBfx7SttWfjGq",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MPYtd56kvsWKnrfq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8K7hzBRCQjRdqBG8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nComets travel faster within the Solar System than they do when they are outside it.\n\nWhich of the following gives the correct reason for this?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Energy is always conserved\n\n  - This means that throughout the orbit of a comet, the total of its kinetic energy and gravitational energy must always be the same\n\n- Gravitational potential energy **increases** when the comet is far from the Sun (and about to be pulled back towards it) and **decreases** when it is close to the Sun\n\n  - The decrease in gravitational potential energy is balanced by an increase in kinetic energy",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "A comet near to the Sun has more gravitational potential energy."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Comets closer to the Sun transfer gravitational potential energy to kinetic energy due to conservation of energy."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "A comet which is outside the Solar System has less energy than one which is passing through it."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Comets closer to the Sun transfer kinetic energy to gravitational potential energy due to conservation of energy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6Qdd4zJ4vJHxkshY",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_tpcTFXrkvhkRYHkf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe orbit of Venus around the Sun is treated as a circular path with an average radius of 108.2 million km. The orbital period of Venus is 225 days.\n\nWhat is the orbital speed of Venus?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Average orbital speed is defined by the equation $v=\\frac{2πr}{T}$\n\n  - Where *r *is the average radius of the orbit and *T* is the orbital period\n\n- From the question\n\n  - Average radius, *r* = 108.2 million km = 108.2 × 10<sup>6</sup> km\n  - Orbital period, *T* = 225 days = 225 × 24 = 5400 hours\n\n- Therefore, average orbital speed,\n- $v=\\frac{2π\\times(108.2\\times10^{6})}{5400}=125896\\mathrm{km}/h$ Rounding to 3 significant figures gives 126 000 km/h\n\n**A** is incorrect as the value of π has been left out of the calculation\n\n**B** is incorrect as the 2 was left out of the calculation\n\n**D** is incorrect as the answer is derived from dividing the distance by the number of days, rather than hours",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "40 000 km / h"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "62 900 km / h"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "126 000 km / h"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "810 000 km / h"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "v=\\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi><mi>r</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator 2 straight pi r over denominator T end fraction"
+      },
+      {
+       "latex": "v=\\frac{2π\\times(108.2\\times10^{6})}{5400}=125896\\mathrm{km}/h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi><mo>×</mo><mo>(</mo><mn>108</mn><mo>.</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow><mn>5400</mn></mfrac><mo >=</mo><mo > </mo><mn >125</mn><mo > </mo><mn >896</mn><mo > </mo><mi >km</mi><mo >/</mo><mi mathvariant=\"normal\" >h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator 2 straight pi cross times left parenthesis 108.2 cross times 10 to the power of 6 right parenthesis over denominator 5400 end fraction equals space 125 space 896 space km divided by straight h"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_64MT8NcK4pmSYwyZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hsdjyNkc3GCvcfXm",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VK4PVHgZ5QCQkKQN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which line in the table correctly identifies the length of one year, one day and daylight hours during an equinox, all as experienced on Earth?\n\n|   | **One Earth year / days** | **One Earth day / hours** | **Daylight hours during an equinox / hours** |\n|---|---|---|---|\n| **A** | 356 | 8 | 8 |\n| **B** | 364 | 12 | 12 |\n| **C** | 365 | 12 | 8 |\n| **D** | 365 | 24 | 12 |",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- A **year **is defined as the amount of time it takes for a planet to complete one orbit of its star\n\n  - In this case the Earth is usually said to orbit the Sun once every 365 days\n  - Only **C** or **D** could be correct\n\n- A **day **is defined as the amount of time it takes for a planet to complete one full rotation on its axis\n\n  - The Earth rotates once every 24 hours\n  - **D** must be correct\n\n- An **equinox **(meaning ‘equal night’) happens twice a year (21st March and 23rd September) when the daylight and night-time hours are equal\n\n  - Therefore, daylight hours during an equinox are half of 24, or 12 hours\n  - This confirms that answer** D** is correct\n\nIn fact the Earth takes 365.25 days to orbit the Sun.\n\nThese extra 6 hours are ‘saved up’ for four years, then added to February in leap years. This prevents the calendar getting out of synch with the seasons (which otherwise it would eventually) and creates that extra day in February.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4nYNpjtZwnx48CyC",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qZY7tN76y4sC2msc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P5YzFgM688vDqSmH"
+     ],
+     "part_tier": null,
+     "problem_md": "The radius of Jupiter's orbit is 778 × 10<sup>6 </sup>km. What is the time taken for light from the Sun to reach the surface of Jupiter?\n\nThe speed of light is 3 × 10<sup>8</sup> m/s.",
+     "solution_md": "The answer is **B** because:\n\n- The time is calculated by:\n\n  - $speed=\\frac{distance}{time}\\Rightarrowtime=\\frac{distance}{speed}$\n- The speed is the speed of light = 3 × 10<sup>8</sup> m/s\n- Converting the distance into metres (m) gives:\n\n  - 1 km = 1000 m\n  - 778 × 10<sup>6</sup> km = (778 × 10<sup>6</sup>) × 10<sup>3</sup> m = 778 × 10<sup>9</sup> m\n- Substituting these values into the time equation gives:\n\n  - $timetaken=\\frac{778\\times10^{9}}{3\\times10^{8}}=2593=2600s$\n\n**A** is incorrect as the distance has not been converted from km into m\n\n**B** is incorrect as the time has been calculated as \n$\\frac{speed}{distance}$instead of $\\frac{distance}{time}$ and the distance has not been converted into m\n\n**D** is incorrect as the time has been calculated as $\\frac{speed}{distance}$instead of $\\frac{distance}{time}$\n\nFor the time to be in s, the distance must be in m and the speed in m/s. Make sure to look out for unit conversions, as units on both sides of the equations must be equal",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2600 ms"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "2600 s"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "0.39 s"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3.9 × 10<sup>–4</sup> s"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "speed=\\frac{distance}{time}\\Rightarrowtime=\\frac{distance}{speed}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >s</mi><mi >p</mi><mi >e</mi><mi >e</mi><mi >d</mi><mo > </mo><mo >=</mo><mfrac ><mrow><mo> </mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo > </mo><mo > </mo><mo > </mo><mo >⇒</mo><mo > </mo><mo > </mo><mo > </mo><mi >t</mi><mi >i</mi><mi >m</mi><mi >e</mi><mo > </mo><mo >=</mo><mfrac ><mrow><mo> </mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>s</mi><mi>p</mi><mi>e</mi><mi>e</mi><mi>d</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s p e e d space equals fraction numerator space d i s t a n c e over denominator t i m e end fraction space space space rightwards double arrow space space space t i m e space equals fraction numerator space d i s t a n c e over denominator s p e e d end fraction"
+      },
+      {
+       "latex": "timetaken=\\frac{778\\times10^{9}}{3\\times10^{8}}=2593=2600s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >t</mi><mi >i</mi><mi >m</mi><mi >e</mi><mo > </mo><mi >t</mi><mi >a</mi><mi >k</mi><mi >e</mi><mi >n</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mn>778</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>9</mn></msup><mo> </mo></mrow><mrow><mn>3</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>8</mn></msup></mrow></mfrac><mo > </mo><mo >=</mo><mo > </mo><mn >2593</mn><mo > </mo><mo >=</mo><mo > </mo><mn >2600</mn><mo > </mo><mi mathvariant=\"normal\" >s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t i m e space t a k e n space equals space fraction numerator 778 space cross times space 10 to the power of 9 space over denominator 3 space cross times space 10 to the power of 8 end fraction space equals space 2593 space equals space 2600 space straight s"
+      },
+      {
+       "latex": "\\frac{speed}{distance}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac ><mrow><mi>s</mi><mi>p</mi><mi>e</mi><mi>e</mi><mi>d</mi></mrow><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator s p e e d over denominator d i s t a n c e end fraction"
+      },
+      {
+       "latex": "\\frac{distance}{time}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac ><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator d i s t a n c e over denominator t i m e end fraction"
+      },
+      {
+       "latex": "\\frac{speed}{distance}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac ><mrow><mi>s</mi><mi>p</mi><mi>e</mi><mi>e</mi><mi>d</mi></mrow><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator s p e e d over denominator d i s t a n c e end fraction"
+      },
+      {
+       "latex": "\\frac{distance}{time}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac ><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator d i s t a n c e over denominator t i m e end fraction"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

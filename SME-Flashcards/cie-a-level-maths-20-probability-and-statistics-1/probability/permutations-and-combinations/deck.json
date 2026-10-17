@@ -1,0 +1,789 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:20Z",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/flashcards/probability/permutations-and-combinations/",
+  "section_slug": "probability",
+  "section_name": "Probability",
+  "topic_slug": "permutations-and-combinations",
+  "title": "Permutations & Combinations",
+  "order": 1
+ },
+ "card_count": 21,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 11,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 21,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_c4C9KtqxH45KD7HG",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **factorial**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **factorial** of a non-negative whole number $n$, written $n !$, is the result of multiplying $n$ by every whole number below it down to 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $5 ! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is an operation in its own right, in the same way that $+$ and $\\times$ are, and it is written after the number rather than before it."
+    }
+   ],
+   "front_md": "Define **factorial**.\n",
+   "back_md": "The **factorial** of a non-negative whole number $n$, written $n !$, is the result of multiplying $n$ by every whole number below it down to 1.\n\nSo, **for example**, $5 ! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.\n\nIt is an operation in its own right, in the same way that $+$ and $\\times$ are, and it is written after the number rather than before it.\n",
+   "spec_links": [
+    "spcpt_v9GnPyX4sbCvf8Ff"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tKSBfPfFr6csMfbm",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the number of ways of arranging $n$ **different** objects in a row equal to $n !$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the positions are filled one at a time: any of the $n$ objects can go first, $n - 1$ are left for the second position, $n - 2$ for the third, and so on until one object is left for the last."
+    },
+    {
+     "type": "paragraph",
+     "md": "The number of choices at each stage multiplies together, and that product is exactly the factorial of $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why factorials appear everywhere in counting problems rather than only in this one."
+    }
+   ],
+   "front_md": "Why is the number of ways of arranging $n$ **different** objects in a row equal to $n !$?\n",
+   "back_md": "Because the positions are filled one at a time: any of the $n$ objects can go first, $n - 1$ are left for the second position, $n - 2$ for the third, and so on until one object is left for the last.\n\nThe number of choices at each stage multiplies together, and that product is exactly the factorial of $n$.\n\nThis is why factorials appear everywhere in counting problems rather than only in this one.\n",
+   "spec_links": [
+    "spcpt_7gKmB69fTvMSjrvw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PRCYWBbCzqh6pbHX",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two gaps:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The value of $0 !$ is `\\_\\_\\_\\_\\_\\_`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The factorial of a negative number is `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statements are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The value of $0 !$ is **1**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The factorial of a negative number is **not defined**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Zero objects can be arranged in exactly one way, which is to arrange nothing at all, whereas there is no way at all to arrange a negative number of objects."
+    }
+   ],
+   "front_md": "Fill in the two gaps:\n\nThe value of $0 !$ is `\\_\\_\\_\\_\\_\\_`.\n\nThe factorial of a negative number is `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed statements are:\n\nThe value of $0 !$ is **1**.\n\nThe factorial of a negative number is **not defined**.\n\nZero objects can be arranged in exactly one way, which is to arrange nothing at all, whereas there is no way at all to arrange a negative number of objects.\n",
+   "spec_links": [
+    "spcpt_v9GnPyX4sbCvf8Ff"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_DyZkDMC5GQ4gzrxt",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you simplify a fraction with a larger factorial on top and a smaller one underneath, such as $\\frac{8!}{5!}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the larger factorial out only as far down as the smaller one reaches, because every factor from the smaller factorial downwards cancels."
+    },
+    {
+     "type": "paragraph",
+     "md": "That leaves"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{8!}{5!} = 8 \\times 7 \\times 6$"
+    },
+    {
+     "type": "paragraph",
+     "md": "and the same cancelling works whatever the two factorials are, which is what keeps the numbers manageable."
+    }
+   ],
+   "front_md": "How do you simplify a fraction with a larger factorial on top and a smaller one underneath, such as $\\frac{8!}{5!}$?\n",
+   "back_md": "Write the larger factorial out only as far down as the smaller one reaches, because every factor from the smaller factorial downwards cancels.\n\nThat leaves\n\n$\\frac{8!}{5!} = 8 \\times 7 \\times 6$\n\nand the same cancelling works whatever the two factorials are, which is what keeps the numbers manageable.\n",
+   "spec_links": [
+    "spcpt_v9GnPyX4sbCvf8Ff"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fst6Vrzqv8QdvYtM",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the objects being arranged in a row are not all different, what has to be done to $n !$, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide by the factorial of the number of copies of each repeated object."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each arrangement has been counted once for every way the identical copies could be swapped over, and all those swaps give the same-looking row."
+    },
+    {
+     "type": "paragraph",
+     "md": "So with one object repeated $r$ times the count is $\\frac{n!}{r!}$, and with a second object repeated $s$ times it is $\\frac{n!}{r!s!}$."
+    }
+   ],
+   "front_md": "When the objects being arranged in a row are not all different, what has to be done to $n !$, and why?\n",
+   "back_md": "Divide by the factorial of the number of copies of each repeated object.\n\nEach arrangement has been counted once for every way the identical copies could be swapped over, and all those swaps give the same-looking row.\n\nSo with one object repeated $r$ times the count is $\\frac{n!}{r!}$, and with a second object repeated $s$ times it is $\\frac{n!}{r!s!}$.\n",
+   "spec_links": [
+    "spcpt_7gKmB69fTvMSjrvw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xgf7FSPyq76tsBgx",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The word REVISE has six letters, so it has $6 ! = 720$ different arrangements."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two Es are identical, so REVISE has only **360** different-looking arrangements."
+    },
+    {
+     "type": "paragraph",
+     "md": "The answer 720 would be right only if all six letters were different, which is why checking for repeated letters is the first thing to do."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe word REVISE has six letters, so it has $6 ! = 720$ different arrangements.\n",
+   "back_md": "**False.**\n\nThe two Es are identical, so REVISE has only **360** different-looking arrangements.\n\nThe answer 720 would be right only if all six letters were different, which is why checking for repeated letters is the first thing to do.\n",
+   "spec_links": [
+    "spcpt_7gKmB69fTvMSjrvw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SZPz7KsxT4jGgVsg",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_k5nY2B2h3sF5yNnm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two standard factorial results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{\\left(n - 1\\right)!} = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{\\left(n - 2\\right)!} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{\\left(n - 1\\right)!} = n`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{n!}{\\left(n - 2\\right)!} = n \\left(n - 1\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both follow from `n! = n \\times \\left(n - 1\\right)!`, which lets you peel one factor at a time off the front of a factorial."
+    },
+    {
+     "type": "paragraph",
+     "md": "Results like these are what turn an equation containing factorials into an ordinary equation you can solve."
+    }
+   ],
+   "front_md": "Fill in the two standard factorial results:\n\n`\\frac{n!}{\\left(n - 1\\right)!} = \\_\\_\\_\\_\\_\\_`\n\n`\\frac{n!}{\\left(n - 2\\right)!} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n`\\frac{n!}{\\left(n - 1\\right)!} = n`\n\n`\\frac{n!}{\\left(n - 2\\right)!} = n \\left(n - 1\\right)`\n\nBoth follow from `n! = n \\times \\left(n - 1\\right)!`, which lets you peel one factor at a time off the front of a factorial.\n\nResults like these are what turn an equation containing factorials into an ordinary equation you can solve.\n",
+   "spec_links": [
+    "spcpt_v9GnPyX4sbCvf8Ff"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_XKDPTsdWy9mBYrF3",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **permutation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **permutation** is an arrangement of objects in which the **order** matters, so the same objects in a different order count as a different permutation."
+    },
+    {
+     "type": "paragraph",
+     "md": "It covers both arranging all $n$ of the objects and arranging only $r$ of them chosen from $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, AB and BA are two different permutations of the letters A and B."
+    }
+   ],
+   "front_md": "Define **permutation**.\n",
+   "back_md": "A **permutation** is an arrangement of objects in which the **order** matters, so the same objects in a different order count as a different permutation.\n\nIt covers both arranging all $n$ of the objects and arranging only $r$ of them chosen from $n$.\n\nSo, **for example**, AB and BA are two different permutations of the letters A and B.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4PgmNbhP25cpZgKN",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the formula for the number of ways of arranging $r$ objects chosen from $n$ different objects:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{P}_{r} = \\frac{n!}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{P}_{r} = \\frac{n!}{\\left(n - r\\right)!}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The `\\left(n - r\\right)!` underneath cancels away the arrangements of the objects you did **not** choose, leaving only the $r$ positions you are filling."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, arranging 3 objects chosen from 5 gives $\\frac{5!}{2!} = 5 \\times 4 \\times 3 = 60$."
+    }
+   ],
+   "front_md": "Fill in the formula for the number of ways of arranging $r$ objects chosen from $n$ different objects:\n\n`{}^{n}\\text{P}_{r} = \\frac{n!}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n`{}^{n}\\text{P}_{r} = \\frac{n!}{\\left(n - r\\right)!}`\n\nThe `\\left(n - r\\right)!` underneath cancels away the arrangements of the objects you did **not** choose, leaving only the $r$ positions you are filling.\n\nSo, **for example**, arranging 3 objects chosen from 5 gives $\\frac{5!}{2!} = 5 \\times 4 \\times 3 = 60$.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_dGSGBp3MTv9z77ZN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Besides arranging $r$ objects chosen from $n$, what else does `{}^{n}\\text{P}_{r}` count?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It counts the ways of placing a **smaller** number of objects into a **larger** number of spaces, at most one object to a space."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, seating 5 people in a row of 10 empty chairs is `{}^{10}\\text{P}_{5}`, because you are choosing which chairs get used and in which order."
+    },
+    {
+     "type": "paragraph",
+     "md": "Spotting this second reading is what makes the formula usable on problems that never mention choosing anything."
+    }
+   ],
+   "front_md": "Besides arranging $r$ objects chosen from $n$, what else does `{}^{n}\\text{P}_{r}` count?\n",
+   "back_md": "It counts the ways of placing a **smaller** number of objects into a **larger** number of spaces, at most one object to a space.\n\nSo, **for example**, seating 5 people in a row of 10 empty chairs is `{}^{10}\\text{P}_{5}`, because you are choosing which chairs get used and in which order.\n\nSpotting this second reading is what makes the formula usable on problems that never mention choosing anything.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fGkZJ7N5S4WGhS9t",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you count the arrangements in which two or more particular items must **stay together**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Treat the items that must stay together as a **single object**, and count the arrangements of the shorter list that results."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then count the arrangements of those items **within** their block, and multiply the two counts together."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, the seven letters of ORANGES with the three vowels together give $5 ! \\times 3 ! = 720$."
+    }
+   ],
+   "front_md": "How do you count the arrangements in which two or more particular items must **stay together**?\n",
+   "back_md": "Treat the items that must stay together as a **single object**, and count the arrangements of the shorter list that results.\n\nThen count the arrangements of those items **within** their block, and multiply the two counts together.\n\nSo, **for example**, the seven letters of ORANGES with the three vowels together give $5 ! \\times 3 ! = 720$.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8njgMGm865fgtnJG",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting the arrangements in which three items are all together from the total leaves the arrangements in which the three items are all separated."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "What is left over also includes every arrangement in which exactly **two** of the three items are next to each other, since those were never subtracted."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"Not all together\" and \"all separated\" are different conditions, and the subtraction answers only the first of them."
+    }
+   ],
+   "front_md": "**True or False?**\n\nSubtracting the arrangements in which three items are all together from the total leaves the arrangements in which the three items are all separated.\n",
+   "back_md": "**False.**\n\nWhat is left over also includes every arrangement in which exactly **two** of the three items are next to each other, since those were never subtracted.\n\n\"Not all together\" and \"all separated\" are different conditions, and the subtraction answers only the first of them.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RZCKngH8FBbMH6Vv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you count the arrangements in which several particular items must **all be separated** from one another?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "First arrange all the **other** items, then count the gaps between them, remembering the gap before the first item and the gap after the last, so $k$ other items leave $k + 1$ gaps."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then place the items that have to be kept apart into those gaps, at most one to a gap, and multiply the two counts together."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, ORANGES with its three vowels all separated gives `4! \\times {}^{5}\\text{P}_{3} = 1440`."
+    }
+   ],
+   "front_md": "How do you count the arrangements in which several particular items must **all be separated** from one another?\n",
+   "back_md": "First arrange all the **other** items, then count the gaps between them, remembering the gap before the first item and the gap after the last, so $k$ other items leave $k + 1$ gaps.\n\nThen place the items that have to be kept apart into those gaps, at most one to a gap, and multiply the two counts together.\n\nSo, **for example**, ORANGES with its three vowels all separated gives `4! \\times {}^{5}\\text{P}_{3} = 1440`.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z4qnjXvh7YkwRm4X",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_fby3tcb8R9nqyrhN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The letters of BANANAS are arranged with the B and the S at the two ends. Why is the answer not simply the number of arrangements of the middle five letters?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the B and the S can also be swapped over, so each arrangement of the middle five letters occurs twice, once with the B first and once with the S first."
+    },
+    {
+     "type": "paragraph",
+     "md": "The count is therefore"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{5!}{3!2!} \\times 2 ! = 20$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Asking whether the items you pinned in place could be interchanged is the step most often left out."
+    }
+   ],
+   "front_md": "The letters of BANANAS are arranged with the B and the S at the two ends. Why is the answer not simply the number of arrangements of the middle five letters?\n",
+   "back_md": "Because the B and the S can also be swapped over, so each arrangement of the middle five letters occurs twice, once with the B first and once with the S first.\n\nThe count is therefore\n\n$\\frac{5!}{3!2!} \\times 2 ! = 20$\n\nAsking whether the items you pinned in place could be interchanged is the step most often left out.\n",
+   "spec_links": [
+    "spcpt_89ps9KCVtj4YGq2C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4DRBzw3xmYMDHw7D",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **combination**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **combination** is a selection of $r$ objects from $n$ in which the **order** does not matter, so the same objects picked in a different order count only once."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, choosing two letters from CAB, the selections AB and BA are one combination although they are two permutations."
+    },
+    {
+     "type": "paragraph",
+     "md": "The number of combinations is written `{}^{n}\\text{C}_{r}` and read \"$n$ choose $r$\"."
+    }
+   ],
+   "front_md": "Define **combination**.\n",
+   "back_md": "A **combination** is a selection of $r$ objects from $n$ in which the **order** does not matter, so the same objects picked in a different order count only once.\n\nSo, **for example**, choosing two letters from CAB, the selections AB and BA are one combination although they are two permutations.\n\nThe number of combinations is written `{}^{n}\\text{C}_{r}` and read \"$n$ choose $r$\".\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4xF42pXq6NJtFZwD",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the gap linking the two counting formulae:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed link is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{r!}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every selection of $r$ objects has been counted once for each of the $r !$ orders those objects could have been picked in, so dividing removes the orderings and leaves the selections."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing `{}^{n}\\text{P}_{r}` out in full then gives `{}^{n}\\text{C}_{r} = \\frac{n!}{r! \\left(n - r\\right)!}`."
+    }
+   ],
+   "front_md": "Fill in the gap linking the two counting formulae:\n\n`{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed link is:\n\n`{}^{n}\\text{C}_{r} = \\frac{{}^{n}\\text{P}_{r}}{r!}`\n\nEvery selection of $r$ objects has been counted once for each of the $r !$ orders those objects could have been picked in, so dividing removes the orderings and leaves the selections.\n\nWriting `{}^{n}\\text{P}_{r}` out in full then gives `{}^{n}\\text{C}_{r} = \\frac{n!}{r! \\left(n - r\\right)!}`.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_qCwZJK8VrwTF7QrN",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{n}\\text{C}_{r}` always works out to a whole number, even though its formula is a fraction."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It counts how many different selections there are, and there is no such thing as a fraction of a selection, so the division always comes out exactly."
+    },
+    {
+     "type": "paragraph",
+     "md": "A decimal answer is a reliable sign that the numbers have gone into the formula in the wrong places."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`{}^{n}\\text{C}_{r}` always works out to a whole number, even though its formula is a fraction.\n",
+   "back_md": "**True.**\n\nIt counts how many different selections there are, and there is no such thing as a fraction of a selection, so the division always comes out exactly.\n\nA decimal answer is a reliable sign that the numbers have gone into the formula in the wrong places.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j4Gv6vy9zJWyynnV",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does `{}^{n}\\text{C}_{r}` always equal `{}^{n}\\text{C}_{n - r}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because choosing which $r$ objects to **take** is the same act as choosing which $n - r$ objects to **leave behind**, so the two counts cannot differ."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula agrees, since exchanging $r$ for $n - r$ simply swaps the two factorials underneath and leaves their product unchanged."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth using, because it turns an awkward calculation into an easier one."
+    }
+   ],
+   "front_md": "Why does `{}^{n}\\text{C}_{r}` always equal `{}^{n}\\text{C}_{n - r}`?\n",
+   "back_md": "Because choosing which $r$ objects to **take** is the same act as choosing which $n - r$ objects to **leave behind**, so the two counts cannot differ.\n\nThe formula agrees, since exchanging $r$ for $n - r$ simply swaps the two factorials underneath and leaves their product unchanged.\n\nIt is worth using, because it turns an awkward calculation into an easier one.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3vP474xqVVcCPSpn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When a selection has to meet several conditions, when do you **multiply** the separate counts and when do you **add** them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply when all the conditions have to hold at once, which is an **and**, and add when the selection could be made in one of several alternative ways, which is an **or**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, taking exactly 3 pure and 2 statistics questions is a product, while taking either 5 pure or 5 statistics is a sum."
+    },
+    {
+     "type": "paragraph",
+     "md": "Deciding which word the question means before writing anything down is what keeps the two apart."
+    }
+   ],
+   "front_md": "When a selection has to meet several conditions, when do you **multiply** the separate counts and when do you **add** them?\n",
+   "back_md": "Multiply when all the conditions have to hold at once, which is an **and**, and add when the selection could be made in one of several alternative ways, which is an **or**.\n\nSo, **for example**, taking exactly 3 pure and 2 statistics questions is a product, while taking either 5 pure or 5 statistics is a sum.\n\nDeciding which word the question means before writing anything down is what keeps the two apart.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_T3TRwZMKyMWvMPQR",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Oscar picks 4 books from 4 fantasy, 5 historical fiction and 2 classics, and must take **at least two** fantasy books. How is that counted?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "List every split that meets the condition, count each split as a product, and add the results."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here he takes 2, 3 or 4 fantasy books, and once the fantasy count is fixed the other categories no longer matter, so the rest can be drawn from the 7 **non-fantasy** books:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`{}^{4}\\text{C}_{2} \\times {}^{7}\\text{C}_{2} + {}^{4}\\text{C}_{3} \\times {}^{7}\\text{C}_{1} + {}^{4}\\text{C}_{4} \\times {}^{7}\\text{C}_{0} = 155`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Collapsing the categories the condition says nothing about turns six cases into three."
+    }
+   ],
+   "front_md": "Oscar picks 4 books from 4 fantasy, 5 historical fiction and 2 classics, and must take **at least two** fantasy books. How is that counted?\n",
+   "back_md": "List every split that meets the condition, count each split as a product, and add the results.\n\nHere he takes 2, 3 or 4 fantasy books, and once the fantasy count is fixed the other categories no longer matter, so the rest can be drawn from the 7 **non-fantasy** books:\n\n`{}^{4}\\text{C}_{2} \\times {}^{7}\\text{C}_{2} + {}^{4}\\text{C}_{3} \\times {}^{7}\\text{C}_{1} + {}^{4}\\text{C}_{4} \\times {}^{7}\\text{C}_{0} = 155`\n\nCollapsing the categories the condition says nothing about turns six cases into three.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z49mGTkgymtvF9jd",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_HndSJ5ndBC8tMKpf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you count the ways of choosing objects when some of the objects available are **identical**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split the count into cases according to how many of the identical objects are taken, work out each case on its own, and add the results."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, choosing 4 letters from CHOOSE means handling zero Os, one O and two Os as three separate cases."
+    },
+    {
+     "type": "paragraph",
+     "md": "The identical objects have to be dealt with separately because the formula assumes the objects you are choosing from are all distinguishable."
+    }
+   ],
+   "front_md": "How do you count the ways of choosing objects when some of the objects available are **identical**?\n",
+   "back_md": "Split the count into cases according to how many of the identical objects are taken, work out each case on its own, and add the results.\n\nSo, **for example**, choosing 4 letters from CHOOSE means handling zero Os, one O and two Os as three separate cases.\n\nThe identical objects have to be dealt with separately because the formula assumes the objects you are choosing from are all distinguishable.\n",
+   "spec_links": [
+    "spcpt_fVVc579xDmZm4X5t"
+   ],
+   "flags": []
+  }
+ ]
+}

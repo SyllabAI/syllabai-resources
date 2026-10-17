@@ -1,0 +1,657 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:25Z",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/flashcards/hypothesis-testing/hypothesis-testing/",
+  "section_slug": "hypothesis-testing",
+  "section_name": "Hypothesis Testing",
+  "topic_slug": "hypothesis-testing",
+  "title": "Hypothesis Testing",
+  "order": 0
+ },
+ "card_count": 19,
+ "card_types": {
+  "keyword_definition": 4,
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 10,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 19,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_hJMYBFbq3qBPNGzP",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **null hypothesis** and **alternative hypothesis**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **null hypothesis** $\\text{H}_{0}$ states the assumed value of the population parameter, taking it that nothing has changed."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **alternative hypothesis** $\\text{H}_{1}$ states how that parameter may have changed."
+    },
+    {
+     "type": "paragraph",
+     "md": "A test assumes $\\text{H}_{0}$ is true throughout, and ends by either **rejecting** it or not."
+    }
+   ],
+   "front_md": "Define **null hypothesis** and **alternative hypothesis**.\n",
+   "back_md": "The **null hypothesis** $\\text{H}_{0}$ states the assumed value of the population parameter, taking it that nothing has changed.\n\nThe **alternative hypothesis** $\\text{H}_{1}$ states how that parameter may have changed.\n\nA test assumes $\\text{H}_{0}$ is true throughout, and ends by either **rejecting** it or not.\n",
+   "spec_links": [
+    "spcpt_FyrqXqf8PCg6CTb8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qg63w3zHqy6BJCKJ",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **population parameter**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A numerical characteristic that helps define a **population**, such as the probability $p$ of an event happening, or the mean $μ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A hypothesis test uses a **sample** to test a claim made about one of these values."
+    }
+   ],
+   "front_md": "Define **population parameter**.\n",
+   "back_md": "A numerical characteristic that helps define a **population**, such as the probability $p$ of an event happening, or the mean $μ$.\n\nA hypothesis test uses a **sample** to test a claim made about one of these values.\n",
+   "spec_links": [
+    "spcpt_FyrqXqf8PCg6CTb8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rCgxDwHFssXfNQXY",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **significance level**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability threshold a test is judged against, setting how unlikely a result has to be before $\\text{H}_{0}$ is rejected."
+    },
+    {
+     "type": "paragraph",
+     "md": "It must be fixed **before** the test is carried out, and is usually 1%, 5% or 10%."
+    }
+   ],
+   "front_md": "Define **significance level**.\n",
+   "back_md": "The probability threshold a test is judged against, setting how unlikely a result has to be before $\\text{H}_{0}$ is rejected.\n\nIt must be fixed **before** the test is carried out, and is usually 1%, 5% or 10%.\n",
+   "spec_links": [
+    "spcpt_FyrqXqf8PCg6CTb8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xWg3s7GrZJXKgzRW",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the **alternative hypothesis** in each case, for a population parameter $θ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for a **decrease**: `\\text{H}_1 : \\theta \\_\\_\\_\\_\\_\\_ \\dots`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for a **change**: `\\text{H}_1 : \\theta \\_\\_\\_\\_\\_\\_ \\dots`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed hypotheses are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for a **decrease**: $\\text{H}_{1} : θ < \\dots$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for a **change**: $\\text{H}_{1} : θ \\neq \\dots$"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **one-tailed** test uses $>$ or $<$, and a **two-tailed** test uses $\\neq$."
+    }
+   ],
+   "front_md": "Complete the **alternative hypothesis** in each case, for a population parameter $θ$.\n\nTesting for a **decrease**: `\\text{H}_1 : \\theta \\_\\_\\_\\_\\_\\_ \\dots`\n\nTesting for a **change**: `\\text{H}_1 : \\theta \\_\\_\\_\\_\\_\\_ \\dots`\n",
+   "back_md": "The completed hypotheses are:\n\nTesting for a **decrease**: $\\text{H}_{1} : θ < \\dots$\n\nTesting for a **change**: $\\text{H}_{1} : θ \\neq \\dots$\n\nA **one-tailed** test uses $>$ or $<$, and a **two-tailed** test uses $\\neq$.\n",
+   "spec_links": [
+    "spcpt_FyrqXqf8PCg6CTb8"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_YsMxjgTpB6zMtzFP",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **critical region** and **critical value**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **critical region** is the set of values the test statistic could take that would lead to $\\text{H}_{0}$ being **rejected**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **critical value** is its boundary, the least extreme value that still causes rejection."
+    },
+    {
+     "type": "paragraph",
+     "md": "The test statistic is also called the **observed value**, and the significance level fixes where the boundary sits."
+    }
+   ],
+   "front_md": "Define **critical region** and **critical value**.\n",
+   "back_md": "The **critical region** is the set of values the test statistic could take that would lead to $\\text{H}_{0}$ being **rejected**.\n\nThe **critical value** is its boundary, the least extreme value that still causes rejection.\n\nThe test statistic is also called the **observed value**, and the significance level fixes where the boundary sits.\n",
+   "spec_links": [
+    "spcpt_SXgS5mjTMgfKTPsD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MBQTr8DjfJzbWZpW",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a discrete distribution, why is the actual significance level usually below the stated one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The critical value has to be a **whole value** the variable can actually take, so the region cannot be trimmed to meet the stated level exactly."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability of landing inside it, assuming $\\text{H}_{0}$ is true, therefore comes out at or below the stated level."
+    },
+    {
+     "type": "paragraph",
+     "md": "That probability is the **actual significance level**."
+    }
+   ],
+   "front_md": "For a discrete distribution, why is the actual significance level usually below the stated one?\n",
+   "back_md": "The critical value has to be a **whole value** the variable can actually take, so the region cannot be trimmed to meet the stated level exactly.\n\nThe probability of landing inside it, assuming $\\text{H}_{0}$ is true, therefore comes out at or below the stated level.\n\nThat probability is the **actual significance level**.\n",
+   "spec_links": [
+    "spcpt_SXgS5mjTMgfKTPsD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SW38bsSDpmcq4KKY",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is compared with the significance level when a test is carried out without finding a critical region?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **p-value**: the probability, assuming $\\text{H}_{0}$ is true, of a value at least as extreme as the one observed."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use $\\text{P} ( X \\geq \\text{observed value} )$ when testing for an **increase**, and $\\text{P} ( X \\leq \\text{observed value} )$ when testing for a **decrease**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Reject $\\text{H}_{0}$ if the p-value is **less than** the significance level."
+    }
+   ],
+   "front_md": "What is compared with the significance level when a test is carried out without finding a critical region?\n",
+   "back_md": "The **p-value**: the probability, assuming $\\text{H}_{0}$ is true, of a value at least as extreme as the one observed.\n\nUse $\\text{P} ( X \\geq \\text{observed value} )$ when testing for an **increase**, and $\\text{P} ( X \\leq \\text{observed value} )$ when testing for a **decrease**.\n\nReject $\\text{H}_{0}$ if the p-value is **less than** the significance level.\n",
+   "spec_links": [
+    "spcpt_SXgS5mjTMgfKTPsD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zDg8nM4YQG8DJrHT",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a two-tailed test, what is a one-tail probability compared with?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Half** the significance level, because the level is shared between the two tails."
+    },
+    {
+     "type": "paragraph",
+     "md": "At 5% each tail holds 2.5%, and at 1% each tail holds 0.5%."
+    },
+    {
+     "type": "paragraph",
+     "md": "Comparing a one-tail probability with the full level would make rejection twice as easy as intended."
+    }
+   ],
+   "front_md": "In a two-tailed test, what is a one-tail probability compared with?\n",
+   "back_md": "**Half** the significance level, because the level is shared between the two tails.\n\nAt 5% each tail holds 2.5%, and at 1% each tail holds 0.5%.\n\nComparing a one-tail probability with the full level would make rejection twice as easy as intended.\n",
+   "spec_links": [
+    "spcpt_SXgS5mjTMgfKTPsD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sd7kvGnr3nvMKGGM",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A p-value of 0.0429 in a one-tailed test gives the same conclusion at the 1% level as at the 5% level."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "At 5% the p-value is below the significance level, so $\\text{H}_{0}$ is **rejected**; at 1% it is above, so $\\text{H}_{0}$ is **not rejected**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A conclusion is only ever a conclusion **at the stated significance level**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA p-value of 0.0429 in a one-tailed test gives the same conclusion at the 1% level as at the 5% level.\n",
+   "back_md": "**False.**\n\nAt 5% the p-value is below the significance level, so $\\text{H}_{0}$ is **rejected**; at 1% it is above, so $\\text{H}_{0}$ is **not rejected**.\n\nA conclusion is only ever a conclusion **at the stated significance level**.\n",
+   "spec_links": [
+    "spcpt_SXgS5mjTMgfKTPsD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dyVjhThNpSjDrjBC",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How should the conclusion of a hypothesis test be worded?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**In the context of the question**, reusing its own wording, and never definitively."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rejecting $\\text{H}_{0}$ gives **sufficient evidence to suggest** the alternative hypothesis at that significance level."
+    },
+    {
+     "type": "paragraph",
+     "md": "Not rejecting it gives **insufficient evidence** to suggest the alternative hypothesis."
+    }
+   ],
+   "front_md": "How should the conclusion of a hypothesis test be worded?\n",
+   "back_md": "**In the context of the question**, reusing its own wording, and never definitively.\n\nRejecting $\\text{H}_{0}$ gives **sufficient evidence to suggest** the alternative hypothesis at that significance level.\n\nNot rejecting it gives **insufficient evidence** to suggest the alternative hypothesis.\n",
+   "spec_links": [
+    "spcpt_mPVJHc5CKHN5mQyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CDJMHvTBBJP9dgzr",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A hypothesis test carried out correctly can still reach the wrong conclusion."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The test weighs the **probability** of what one sample showed, so an unusual sample can point the wrong way."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why a conclusion is written as **evidence** rather than as proof."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA hypothesis test carried out correctly can still reach the wrong conclusion.\n",
+   "back_md": "**True.**\n\nThe test weighs the **probability** of what one sample showed, so an unusual sample can point the wrong way.\n\nThis is why a conclusion is written as **evidence** rather than as proof.\n",
+   "spec_links": [
+    "spcpt_mPVJHc5CKHN5mQyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nkM5ZGZWsxZFydVV",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_HbmcGGTRtGcQ84K7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a two-tailed test that rejects $\\text{H}_{0}$ show, and what does it not show?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It shows there is evidence that the population parameter has **changed**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It does not show **which direction** the change was in, so the conclusion must not say the parameter increased or decreased."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only a **one-tailed** test provides evidence about direction."
+    }
+   ],
+   "front_md": "What does a two-tailed test that rejects $\\text{H}_{0}$ show, and what does it not show?\n",
+   "back_md": "It shows there is evidence that the population parameter has **changed**.\n\nIt does not show **which direction** the change was in, so the conclusion must not say the parameter increased or decreased.\n\nOnly a **one-tailed** test provides evidence about direction.\n",
+   "spec_links": [
+    "spcpt_mPVJHc5CKHN5mQyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jMmvGc9MNCqDxM4F",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete each description, using **true** or **false**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **Type I** error is rejecting a `\\_\\_\\_\\_\\_\\_` null hypothesis."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **Type II** error is accepting a `\\_\\_\\_\\_\\_\\_` null hypothesis."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed descriptions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **Type I** error is rejecting a **true** null hypothesis."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **Type II** error is accepting a **false** null hypothesis."
+    }
+   ],
+   "front_md": "Complete each description, using **true** or **false**.\n\nA **Type I** error is rejecting a `\\_\\_\\_\\_\\_\\_` null hypothesis.\n\nA **Type II** error is accepting a `\\_\\_\\_\\_\\_\\_` null hypothesis.\n",
+   "back_md": "The completed descriptions are:\n\nA **Type I** error is rejecting a **true** null hypothesis.\n\nA **Type II** error is accepting a **false** null hypothesis.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_wggMZxNWhsrXNr6X",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the conclusion of a test tell you which error could have occurred?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $\\text{H}_{0}$ was **rejected**, only a **Type I** error is possible."
+    },
+    {
+     "type": "paragraph",
+     "md": "If $\\text{H}_{0}$ was **not rejected**, only a **Type II** error is possible."
+    },
+    {
+     "type": "paragraph",
+     "md": "The conclusion settles which of the two is available before anything is known about the truth."
+    }
+   ],
+   "front_md": "How does the conclusion of a test tell you which error could have occurred?\n",
+   "back_md": "If $\\text{H}_{0}$ was **rejected**, only a **Type I** error is possible.\n\nIf $\\text{H}_{0}$ was **not rejected**, only a **Type II** error is possible.\n\nThe conclusion settles which of the two is available before anything is known about the truth.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YJ3rhMVDCQ4VdN66",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the probability of a Type I error equal to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability of **rejecting** $\\text{H}_{0}$ given that $\\text{H}_{0}$ is in fact **true**."
+    },
+    {
+     "type": "paragraph",
+     "md": "In a completed test this is the **actual significance level**, so it does not have to be worked out separately."
+    }
+   ],
+   "front_md": "What is the probability of a Type I error equal to?\n",
+   "back_md": "The probability of **rejecting** $\\text{H}_{0}$ given that $\\text{H}_{0}$ is in fact **true**.\n\nIn a completed test this is the **actual significance level**, so it does not have to be worked out separately.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WyGFsZQdFCV2FBQ5",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What extra information is needed to find the probability of a Type II error?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **true value** of the population parameter, which the question has to supply."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability is then that of the observed value falling **outside** the critical region, worked out using that true value in place of the one in $\\text{H}_{0}$."
+    }
+   ],
+   "front_md": "What extra information is needed to find the probability of a Type II error?\n",
+   "back_md": "The **true value** of the population parameter, which the question has to supply.\n\nThe probability is then that of the observed value falling **outside** the critical region, worked out using that true value in place of the one in $\\text{H}_{0}$.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CzJJytk3N58sp7wf",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Lowering the significance level reduces the probability of both types of error."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A lower significance level **shrinks** the critical region, so $\\text{H}_{0}$ is rejected less often and a **Type I** error becomes less likely."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same change makes $\\text{H}_{0}$ harder to reject, so a **Type II** error becomes more likely."
+    }
+   ],
+   "front_md": "**True or False?**\n\nLowering the significance level reduces the probability of both types of error.\n",
+   "back_md": "**False.**\n\nA lower significance level **shrinks** the critical region, so $\\text{H}_{0}$ is rejected less often and a **Type I** error becomes less likely.\n\nThe same change makes $\\text{H}_{0}$ harder to reject, so a **Type II** error becomes more likely.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k2PfgjZzQhJXvKdj",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In which two situations does a hypothesis test make no error?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When $\\text{H}_{0}$ is **true** and the test does not reject it, and when $\\text{H}_{0}$ is **false** and the test rejects it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the two mismatched pairings of reality and conclusion count as errors."
+    }
+   ],
+   "front_md": "In which two situations does a hypothesis test make no error?\n",
+   "back_md": "When $\\text{H}_{0}$ is **true** and the test does not reject it, and when $\\text{H}_{0}$ is **false** and the test rejects it.\n\nOnly the two mismatched pairings of reality and conclusion count as errors.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FJX9xbt8F83WvctZ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_YB6r3MXRncJvZwfh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might two parties want the significance level set differently?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because they are exposed to different errors."
+    },
+    {
+     "type": "paragraph",
+     "md": "Someone defending a claim wants a **Type I** error to be unlikely, so a true claim is not rejected."
+    },
+    {
+     "type": "paragraph",
+     "md": "Someone challenging it wants a **Type II** error to be unlikely, so a real change is not missed."
+    }
+   ],
+   "front_md": "Why might two parties want the significance level set differently?\n",
+   "back_md": "Because they are exposed to different errors.\n\nSomeone defending a claim wants a **Type I** error to be unlikely, so a true claim is not rejected.\n\nSomeone challenging it wants a **Type II** error to be unlikely, so a real change is not missed.\n",
+   "spec_links": [
+    "spcpt_KCFcWTMfnmj3W3yc"
+   ],
+   "flags": []
+  }
+ ]
+}

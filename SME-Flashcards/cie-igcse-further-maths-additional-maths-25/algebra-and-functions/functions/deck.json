@@ -1,0 +1,843 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:22:30Z",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/flashcards/algebra-and-functions/functions/",
+  "section_slug": "algebra-and-functions",
+  "section_name": "Algebra & Functions",
+  "topic_slug": "functions",
+  "title": "Functions",
+  "order": 0
+ },
+ "card_count": 26,
+ "card_types": {
+  "keyword_definition": 5,
+  "question_and_answer": 15,
+  "fill_in_the_blanks": 3,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 26,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_yDM4XjDkb3M9HyTn",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **function** is a mapping in which every input maps to exactly **one** output."
+    },
+    {
+     "type": "paragraph",
+     "md": "This means **one-one** and **many-one** mappings are functions, but a mapping that sends a single input to more than one output is not."
+    }
+   ],
+   "front_md": "Define **function**.\n",
+   "back_md": "A **function** is a mapping in which every input maps to exactly **one** output.\n\nThis means **one-one** and **many-one** mappings are functions, but a mapping that sends a single input to more than one output is not.\n",
+   "spec_links": [
+    "spcpt_yxJ4zdcrjvnzZcfN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JGWYpmXzrwRM5Nqj",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a **one-one** mapping and a **many-one** mapping?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a **one-one** mapping, every input has its own output, so no output value is ever repeated."
+    },
+    {
+     "type": "paragraph",
+     "md": "In a **many-one** mapping, two or more different inputs give the same output."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both are functions, because in each case one input still gives only one output."
+    }
+   ],
+   "front_md": "What is the difference between a **one-one** mapping and a **many-one** mapping?\n",
+   "back_md": "In a **one-one** mapping, every input has its own output, so no output value is ever repeated.\n\nIn a **many-one** mapping, two or more different inputs give the same output.\n\nBoth are functions, because in each case one input still gives only one output.\n",
+   "spec_links": [
+    "spcpt_yxJ4zdcrjvnzZcfN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hCSCgYwykrcbfsm2",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A function is given by `\\text{f} : x \\mapsto 3x - 4`. What does this notation mean, and what is $\\text{f} ( 5 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "This is **mapping notation**, and it means the same as $\\text{f} ( x ) = 3 x - 4$."
+    },
+    {
+     "type": "paragraph",
+     "md": "To find $\\text{f} ( 5 )$, replace every $x$ with 5:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ( 5 ) = 3 ( 5 ) - 4 = 11$"
+    }
+   ],
+   "front_md": "A function is given by `\\text{f} : x \\mapsto 3x - 4`. What does this notation mean, and what is $\\text{f} ( 5 )$?\n",
+   "back_md": "This is **mapping notation**, and it means the same as $\\text{f} ( x ) = 3 x - 4$.\n\nTo find $\\text{f} ( 5 )$, replace every $x$ with 5:\n\n$\\text{f} ( 5 ) = 3 ( 5 ) - 4 = 11$\n",
+   "spec_links": [
+    "spcpt_yxJ4zdcrjvnzZcfN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G6jGBrDkR8ZSBTVn",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For the function $\\text{f} ( x ) = 2 x + 1$, the output is 15. How do you find the input?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set the expression equal to the given output and solve the equation:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$2 x + 1 = 15 \\Rightarrow x = 7$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Finding an output means **substituting**, but finding an input means **solving**."
+    }
+   ],
+   "front_md": "For the function $\\text{f} ( x ) = 2 x + 1$, the output is 15. How do you find the input?\n",
+   "back_md": "Set the expression equal to the given output and solve the equation:\n\n$2 x + 1 = 15 \\Rightarrow x = 7$\n\nFinding an output means **substituting**, but finding an input means **solving**.\n",
+   "spec_links": [
+    "spcpt_yxJ4zdcrjvnzZcfN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2bXSCXW734XrkJnk",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **domain** and the **range** of a function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **domain** is the set of values allowed as **inputs**, and the **range** is the set of all possible **outputs**."
+    },
+    {
+     "type": "paragraph",
+     "md": "On a graph, the domain values are the $x$-coordinates and the range values are the $y$-coordinates."
+    }
+   ],
+   "front_md": "Define the **domain** and the **range** of a function.\n",
+   "back_md": "The **domain** is the set of values allowed as **inputs**, and the **range** is the set of all possible **outputs**.\n\nOn a graph, the domain values are the $x$-coordinates and the range values are the $y$-coordinates.\n",
+   "spec_links": [
+    "spcpt_pYXZH2ttg7ZPH73n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ws9XhtwFsJ3CWvCY",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A function is written with no domain stated. What domain should you assume?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Assume the **largest set of values the function can accept**."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, $\\text{f} ( x ) = \\sqrt{x}$ has an assumed domain of $x \\geq 0$, because the square root of a negative number is not a real number."
+    }
+   ],
+   "front_md": "A function is written with no domain stated. What domain should you assume?\n",
+   "back_md": "Assume the **largest set of values the function can accept**.\n\nFor example, $\\text{f} ( x ) = \\sqrt{x}$ has an assumed domain of $x \\geq 0$, because the square root of a negative number is not a real number.\n",
+   "spec_links": [
+    "spcpt_pYXZH2ttg7ZPH73n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WNSp45pP8V8GqdPn",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the gaps for the function $\\text{f} ( x ) = x^{2}$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "With domain $- 10 \\leq x \\leq 10$ it is `\\_\\_\\_\\_\\_\\_`, but with domain $0 \\leq x \\leq 10$ it is `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "With domain $- 10 \\leq x \\leq 10$ it is **many-one**, but with domain $0 \\leq x \\leq 10$ it is **one-one**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Restricting the domain removes the negative inputs, so no two inputs share an output any more."
+    }
+   ],
+   "front_md": "Fill in the gaps for the function $\\text{f} ( x ) = x^{2}$:\n\nWith domain $- 10 \\leq x \\leq 10$ it is `\\_\\_\\_\\_\\_\\_`, but with domain $0 \\leq x \\leq 10$ it is `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed sentence is:\n\nWith domain $- 10 \\leq x \\leq 10$ it is **many-one**, but with domain $0 \\leq x \\leq 10$ it is **one-one**.\n\nRestricting the domain removes the negative inputs, so no two inputs share an output any more.\n",
+   "spec_links": [
+    "spcpt_pYXZH2ttg7ZPH73n"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ChGzgtMGWjtbFtkB",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{f} ( x ) = 2 x + 1$ changes from $x \\geq 0$ to $x \\geq 10$. What happens to the range?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The range changes from $\\text{f} ( x ) \\geq 1$ to $\\text{f} ( x ) \\geq 21$, because the smallest input is now 10 and $2 ( 10 ) + 1 = 21$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Always work out the range from the domain you have been given, not from the expression alone."
+    }
+   ],
+   "front_md": "The domain of $\\text{f} ( x ) = 2 x + 1$ changes from $x \\geq 0$ to $x \\geq 10$. What happens to the range?\n",
+   "back_md": "The range changes from $\\text{f} ( x ) \\geq 1$ to $\\text{f} ( x ) \\geq 21$, because the smallest input is now 10 and $2 ( 10 ) + 1 = 21$.\n\nAlways work out the range from the domain you have been given, not from the expression alone.\n",
+   "spec_links": [
+    "spcpt_pYXZH2ttg7ZPH73n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yrkbQ7qw9Dk2DgSN",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **modulus** of a number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **modulus** of a number is its size with any negative sign removed, so it is never negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is written between vertical lines, so `\\left|7\\right| = 7` and `\\left|-7\\right| = 7`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also called the **absolute value**."
+    }
+   ],
+   "front_md": "Define the **modulus** of a number.\n",
+   "back_md": "The **modulus** of a number is its size with any negative sign removed, so it is never negative.\n\nIt is written between vertical lines, so `\\left|7\\right| = 7` and `\\left|-7\\right| = 7`.\n\nIt is also called the **absolute value**.\n",
+   "spec_links": [
+    "spcpt_PQmGGSY2kf3PFGpX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tMMwFtBrX7Y3pJXy",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_FpZBfFysjXpQxsxd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If $\\text{f} ( x )$ is negative, then `\\left|\\text{f}(x)\\right| = -\\text{f}(x)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying a negative value by $- 1$ makes it positive, which is exactly what the modulus has to do."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, if $\\text{f} ( x ) = - 7$ then `-\\text{f}(x) = 7 = \\left|\\text{f}(x)\\right|`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf $\\text{f} ( x )$ is negative, then `\\left|\\text{f}(x)\\right| = -\\text{f}(x)`.\n",
+   "back_md": "**True.**\n\nMultiplying a negative value by $- 1$ makes it positive, which is exactly what the modulus has to do.\n\nFor example, if $\\text{f} ( x ) = - 7$ then `-\\text{f}(x) = 7 = \\left|\\text{f}(x)\\right|`.\n",
+   "spec_links": [
+    "spcpt_PQmGGSY2kf3PFGpX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8K9GwSjD6NcpZ5tG",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define an **inverse function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **inverse function** $\\text{f}^{-1}$ undoes whatever $\\text{f}$ does, so applying $\\text{f}$ and then $\\text{f}^{-1}$ returns the original input."
+    },
+    {
+     "type": "paragraph",
+     "md": "It carries out the inverse operations in the **reverse order**: if $\\text{f}$ doubles and then adds 1, $\\text{f}^{-1}$ subtracts 1 and then halves."
+    }
+   ],
+   "front_md": "Define an **inverse function**.\n",
+   "back_md": "An **inverse function** $\\text{f}^{-1}$ undoes whatever $\\text{f}$ does, so applying $\\text{f}$ and then $\\text{f}^{-1}$ returns the original input.\n\nIt carries out the inverse operations in the **reverse order**: if $\\text{f}$ doubles and then adds 1, $\\text{f}^{-1}$ subtracts 1 and then halves.\n",
+   "spec_links": [
+    "spcpt_rqhzVMXZ3X4XpbYw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x6kpWF54DDcNqdBk",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must a function be **one-one** for an inverse function to exist?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the inverse has to send each output back to a single input."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the function is **many-one**, two different inputs share an output, so the inverse would have to send that one value back to two places, and that is not a function."
+    }
+   ],
+   "front_md": "Why must a function be **one-one** for an inverse function to exist?\n",
+   "back_md": "Because the inverse has to send each output back to a single input.\n\nIf the function is **many-one**, two different inputs share an output, so the inverse would have to send that one value back to two places, and that is not a function.\n",
+   "spec_links": [
+    "spcpt_rqhzVMXZ3X4XpbYw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9JnNdFXXr5Y7wMKw",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Describe how to find $\\text{f}^{-1} ( x )$ from $\\text{f} ( x ) = 5 - 3 x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write it as $y = 5 - 3 x$, swap the $x$ and the $y$ to get $x = 5 - 3 y$, then rearrange to make $y$ the subject:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{f}^{-1} ( x ) = \\frac{5-x}{3}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Finish in inverse-function notation, with no $y$ left in the answer."
+    }
+   ],
+   "front_md": "Describe how to find $\\text{f}^{-1} ( x )$ from $\\text{f} ( x ) = 5 - 3 x$.\n",
+   "back_md": "Write it as $y = 5 - 3 x$, swap the $x$ and the $y$ to get $x = 5 - 3 y$, then rearrange to make $y$ the subject:\n\n$\\text{f}^{-1} ( x ) = \\frac{5-x}{3}$\n\nFinish in inverse-function notation, with no $y$ left in the answer.\n",
+   "spec_links": [
+    "spcpt_rqhzVMXZ3X4XpbYw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sHSzj9MyNK6jWFJV",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ( x ) = 2^{x}$. How can you solve $\\text{f}^{-1} ( x ) = 5$ without first finding $\\text{f}^{-1}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Apply $\\text{f}$ to both sides and use the fact that $\\text{ff}^{-1} ( x ) = x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$x = \\text{f} ( 5 ) = 2^{5} = 32$"
+    },
+    {
+     "type": "paragraph",
+     "md": "This works because a function and its inverse cancel each other out whenever they are applied together."
+    }
+   ],
+   "front_md": "$\\text{f} ( x ) = 2^{x}$. How can you solve $\\text{f}^{-1} ( x ) = 5$ without first finding $\\text{f}^{-1}$?\n",
+   "back_md": "Apply $\\text{f}$ to both sides and use the fact that $\\text{ff}^{-1} ( x ) = x$:\n\n$x = \\text{f} ( 5 ) = 2^{5} = 32$\n\nThis works because a function and its inverse cancel each other out whenever they are applied together.\n",
+   "spec_links": [
+    "spcpt_rqhzVMXZ3X4XpbYw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m7z7TcMjWdk82JQd",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the gaps for a function $\\text{f}$ and its inverse $\\text{f}^{-1}$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{f}^{-1}$ is the `\\_\\_\\_\\_\\_\\_` of $\\text{f}$, and the range of $\\text{f}^{-1}$ is the `\\_\\_\\_\\_\\_\\_` of $\\text{f}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{f}^{-1}$ is the **range** of $\\text{f}$, and the range of $\\text{f}^{-1}$ is the **domain** of $\\text{f}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "They swap over, because the inverse turns every output of $\\text{f}$ back into the input it came from."
+    }
+   ],
+   "front_md": "Fill in the gaps for a function $\\text{f}$ and its inverse $\\text{f}^{-1}$:\n\nThe domain of $\\text{f}^{-1}$ is the `\\_\\_\\_\\_\\_\\_` of $\\text{f}$, and the range of $\\text{f}^{-1}$ is the `\\_\\_\\_\\_\\_\\_` of $\\text{f}$.\n",
+   "back_md": "The completed sentence is:\n\nThe domain of $\\text{f}^{-1}$ is the **range** of $\\text{f}$, and the range of $\\text{f}^{-1}$ is the **domain** of $\\text{f}$.\n\nThey swap over, because the inverse turns every output of $\\text{f}$ back into the input it came from.\n",
+   "spec_links": [
+    "spcpt_2b724HbPFJPDMZ2Y"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GzYdGfPsnnsFfc2q",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ( x ) = \\sqrt{3x-2}$ for $x \\geq \\frac{2}{3}$. Write down the domain and range of $\\text{f}^{-1} ( x )$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{f}^{-1}$ is $x \\geq 0$, because that is the range of $\\text{f}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The range of $\\text{f}^{-1}$ is $\\text{f}^{-1} ( x ) \\geq \\frac{2}{3}$, because that was the domain of $\\text{f}$."
+    }
+   ],
+   "front_md": "$\\text{f} ( x ) = \\sqrt{3x-2}$ for $x \\geq \\frac{2}{3}$. Write down the domain and range of $\\text{f}^{-1} ( x )$.\n",
+   "back_md": "The domain of $\\text{f}^{-1}$ is $x \\geq 0$, because that is the range of $\\text{f}$.\n\nThe range of $\\text{f}^{-1}$ is $\\text{f}^{-1} ( x ) \\geq \\frac{2}{3}$, because that was the domain of $\\text{f}$.\n",
+   "spec_links": [
+    "spcpt_2b724HbPFJPDMZ2Y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h3RZz7XNXx8VTdB2",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are the graphs of $y = \\text{f} ( x )$ and $y = \\text{f}^{-1} ( x )$ related?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each is a **reflection** of the other in the line $y = x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every key feature reflects with it, so axis intercepts, turning points and asymptotes all swap their $x$ and $y$ roles."
+    }
+   ],
+   "front_md": "How are the graphs of $y = \\text{f} ( x )$ and $y = \\text{f}^{-1} ( x )$ related?\n",
+   "back_md": "Each is a **reflection** of the other in the line $y = x$.\n\nEvery key feature reflects with it, so axis intercepts, turning points and asymptotes all swap their $x$ and $y$ roles.\n",
+   "spec_links": [
+    "spcpt_VsPqmkcp657mcw6N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d2dZgM2Wn4VMhpm5",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The graph of $y = \\text{f} ( x )$ crosses the $x$-axis at $( 4 , 0 )$ and has the asymptote $x = - 2$. What happens to each on the graph of $y = \\text{f}^{-1} ( x )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The intercept becomes $( 0 , 4 )$ and the asymptote becomes the line $y = - 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Reflecting in $y = x$ swaps every $x$-coordinate with its $y$-coordinate, which turns a vertical asymptote into a horizontal one."
+    }
+   ],
+   "front_md": "The graph of $y = \\text{f} ( x )$ crosses the $x$-axis at $( 4 , 0 )$ and has the asymptote $x = - 2$. What happens to each on the graph of $y = \\text{f}^{-1} ( x )$?\n",
+   "back_md": "The intercept becomes $( 0 , 4 )$ and the asymptote becomes the line $y = - 2$.\n\nReflecting in $y = x$ swaps every $x$-coordinate with its $y$-coordinate, which turns a vertical asymptote into a horizontal one.\n",
+   "spec_links": [
+    "spcpt_VsPqmkcp657mcw6N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FkJRyR8znV379xMX",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_PxPC8mMWnRdPChbn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You need the expression for $\\text{f} ( x )$ before you can draw the graph of $y = \\text{f}^{-1} ( x )$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If you are given the graph of $y = \\text{f} ( x )$, reflecting it in the line $y = x$ produces the graph of the inverse."
+    },
+    {
+     "type": "paragraph",
+     "md": "The reflection is a geometric operation, so it works whatever the expression for $\\text{f} ( x )$ happens to be."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou need the expression for $\\text{f} ( x )$ before you can draw the graph of $y = \\text{f}^{-1} ( x )$.\n",
+   "back_md": "**False.**\n\nIf you are given the graph of $y = \\text{f} ( x )$, reflecting it in the line $y = x$ produces the graph of the inverse.\n\nThe reflection is a geometric operation, so it works whatever the expression for $\\text{f} ( x )$ happens to be.\n",
+   "spec_links": [
+    "spcpt_VsPqmkcp657mcw6N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FhRpZjbcgM4RqKsp",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **composite function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **composite function** applies one function to the output of another, so the output of the first becomes the input of the second."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{fg} ( x )$ means $\\text{f} ( \\text{g} ( x ) )$, read as **f of g of x**."
+    }
+   ],
+   "front_md": "Define a **composite function**.\n",
+   "back_md": "A **composite function** applies one function to the output of another, so the output of the first becomes the input of the second.\n\n$\\text{fg} ( x )$ means $\\text{f} ( \\text{g} ( x ) )$, read as **f of g of x**.\n",
+   "spec_links": [
+    "spcpt_NbgkVjMb8tWmrx9b"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D2Nkcb3RVssczMPb",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In $\\text{fg} ( x )$, which function is applied first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{g}$ is applied first, because it is the function **closest to the variable**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its output then becomes the input of $\\text{f}$, which is why $\\text{fg} ( x )$ means $\\text{f} ( \\text{g} ( x ) )$."
+    }
+   ],
+   "front_md": "In $\\text{fg} ( x )$, which function is applied first?\n",
+   "back_md": "$\\text{g}$ is applied first, because it is the function **closest to the variable**.\n\nIts output then becomes the input of $\\text{f}$, which is why $\\text{fg} ( x )$ means $\\text{f} ( \\text{g} ( x ) )$.\n",
+   "spec_links": [
+    "spcpt_NbgkVjMb8tWmrx9b"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MRhB8PGtdSCqgTTy",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ( x ) = x^{2}$ and $\\text{g} ( x ) = 2 x$. Find $\\text{fg} ( x )$ and $\\text{gf} ( x )$, and say what they show."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{fg} ( x ) = \\text{f} ( 2 x ) = ( 2 x )^{2} = 4 x^{2}$, while $\\text{gf} ( x ) = \\text{g} ( x^{2} ) = 2 x^{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "They are different, which shows that the **order matters**: $\\text{fg}$ is not usually the same as $\\text{gf}$."
+    }
+   ],
+   "front_md": "$\\text{f} ( x ) = x^{2}$ and $\\text{g} ( x ) = 2 x$. Find $\\text{fg} ( x )$ and $\\text{gf} ( x )$, and say what they show.\n",
+   "back_md": "$\\text{fg} ( x ) = \\text{f} ( 2 x ) = ( 2 x )^{2} = 4 x^{2}$, while $\\text{gf} ( x ) = \\text{g} ( x^{2} ) = 2 x^{2}$.\n\nThey are different, which shows that the **order matters**: $\\text{fg}$ is not usually the same as $\\text{gf}$.\n",
+   "spec_links": [
+    "spcpt_NbgkVjMb8tWmrx9b"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B7Tf6nNyfpk5rFP6",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For some pairs of functions, $\\text{fg} ( x )$ and $\\text{gf} ( x )$ are exactly the same."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The order usually matters, but not always."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, if $\\text{f} ( x ) = 3 x - 2$ and $\\text{g} ( x ) = 6 x - 5$ then $\\text{fg} ( x ) = \\text{gf} ( x ) = 18 x - 17$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor some pairs of functions, $\\text{fg} ( x )$ and $\\text{gf} ( x )$ are exactly the same.\n",
+   "back_md": "**True.**\n\nThe order usually matters, but not always.\n\nFor example, if $\\text{f} ( x ) = 3 x - 2$ and $\\text{g} ( x ) = 6 x - 5$ then $\\text{fg} ( x ) = \\text{gf} ( x ) = 18 x - 17$.\n",
+   "spec_links": [
+    "spcpt_NbgkVjMb8tWmrx9b"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PfXDhsnCwncMJJfQ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\text{f}^{2} ( x )$ mean, and why is this notation not used with trigonometric functions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{f}^{2} ( x )$ means $\\text{ff} ( x )$, that is $\\text{f} ( \\text{f} ( x ) )$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is not used with trigonometric functions because there the superscript means a power: $\\mathrm{sin}^{2} ( x )$ means $( \\mathrm{sin} x )^{2}$, not $\\mathrm{sin} ( \\mathrm{sin} x )$."
+    }
+   ],
+   "front_md": "What does $\\text{f}^{2} ( x )$ mean, and why is this notation not used with trigonometric functions?\n",
+   "back_md": "$\\text{f}^{2} ( x )$ means $\\text{ff} ( x )$, that is $\\text{f} ( \\text{f} ( x ) )$.\n\nIt is not used with trigonometric functions because there the superscript means a power: $\\mathrm{sin}^{2} ( x )$ means $( \\mathrm{sin} x )^{2}$, not $\\mathrm{sin} ( \\mathrm{sin} x )$.\n",
+   "spec_links": [
+    "spcpt_NbgkVjMb8tWmrx9b"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8NfYJzVMYWxfJ7y6",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the gaps for the composite function $\\text{fg} ( x )$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{fg}$ is at best the domain of `\\_\\_\\_\\_\\_\\_`, and the range of $\\text{fg}$ is at best the range of `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The domain of $\\text{fg}$ is at best the domain of **g**, and the range of $\\text{fg}$ is at best the range of **f**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is only **at best** because $\\text{fg}$ needs the range of $\\text{g}$ to fit inside the domain of $\\text{f}$, and where it does not, the domain of $\\text{fg}$ has to be restricted."
+    }
+   ],
+   "front_md": "Fill in the gaps for the composite function $\\text{fg} ( x )$:\n\nThe domain of $\\text{fg}$ is at best the domain of `\\_\\_\\_\\_\\_\\_`, and the range of $\\text{fg}$ is at best the range of `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed sentence is:\n\nThe domain of $\\text{fg}$ is at best the domain of **g**, and the range of $\\text{fg}$ is at best the range of **f**.\n\nIt is only **at best** because $\\text{fg}$ needs the range of $\\text{g}$ to fit inside the domain of $\\text{f}$, and where it does not, the domain of $\\text{fg}$ has to be restricted.\n",
+   "spec_links": [
+    "spcpt_22RwCmKzC8PNYndf"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_rq3cxXXQgJQCT27t",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_kfhZRG98hXcknW2T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ( x ) = \\frac{1}{x}$ for $0 < x < 1$, and $\\text{g} ( x ) = x^{2}$ for $x > 1$. Explain why $\\text{fg} ( x )$ does not exist."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The range of $\\text{g}$ is $\\text{g} ( x ) > 1$, but the domain of $\\text{f}$ is $0 < x < 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nothing that $\\text{g}$ produces is an acceptable input for $\\text{f}$, so $\\text{fg} ( x )$ cannot be formed."
+    }
+   ],
+   "front_md": "$\\text{f} ( x ) = \\frac{1}{x}$ for $0 < x < 1$, and $\\text{g} ( x ) = x^{2}$ for $x > 1$. Explain why $\\text{fg} ( x )$ does not exist.\n",
+   "back_md": "The range of $\\text{g}$ is $\\text{g} ( x ) > 1$, but the domain of $\\text{f}$ is $0 < x < 1$.\n\nNothing that $\\text{g}$ produces is an acceptable input for $\\text{f}$, so $\\text{fg} ( x )$ cannot be formed.\n",
+   "spec_links": [
+    "spcpt_22RwCmKzC8PNYndf"
+   ],
+   "flags": []
+  }
+ ]
+}

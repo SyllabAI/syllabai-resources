@@ -1,0 +1,1011 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:20Z",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/flashcards/statistical-distributions/binomial-and-geometric-distribution/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "binomial-and-geometric-distribution",
+  "title": "Binomial & Geometric Distribution",
+  "order": 1
+ },
+ "card_count": 27,
+ "card_types": {
+  "fill_in_the_blanks": 5,
+  "question_and_answer": 18,
+  "true_or_false": 3,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 27,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_7tzfCrvt2mdywD7Z",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution needs four conditions. Fill in the two that are missing:"
+    },
+    {
+     "type": "paragraph",
+     "md": "the number of trials, $n$, is `\\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "the trials are **independent**"
+    },
+    {
+     "type": "paragraph",
+     "md": "each trial has exactly **two** outcomes, success or failure"
+    },
+    {
+     "type": "paragraph",
+     "md": "the probability of success, $p$, is `\\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conditions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "the number of trials, $n$, is **fixed**"
+    },
+    {
+     "type": "paragraph",
+     "md": "the probability of success, $p$, is **constant**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A number of trials that is not fixed in advance, or a probability that drifts as the trials go on, rules a binomial model out however well the other two conditions hold."
+    },
+    {
+     "type": "paragraph",
+     "md": "All four have to be satisfied together, which is why a question asking you to criticise a model is really asking which one has failed."
+    }
+   ],
+   "front_md": "A binomial distribution needs four conditions. Fill in the two that are missing:\n\nthe number of trials, $n$, is `\\_\\_\\_\\_\\_\\_`\n\nthe trials are **independent**\n\neach trial has exactly **two** outcomes, success or failure\n\nthe probability of success, $p$, is `\\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed conditions are:\n\nthe number of trials, $n$, is **fixed**\n\nthe probability of success, $p$, is **constant**\n\nA number of trials that is not fixed in advance, or a probability that drifts as the trials go on, rules a binomial model out however well the other two conditions hold.\n\nAll four have to be satisfied together, which is why a question asking you to criticise a model is really asking which one has failed.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zPJ5jFBs5RnQmmCv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the two numbers in `X \\sim \\text{B}(n, p)` stand for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$n$ is the **fixed number of trials** and $p$ is the **probability of success** on a single trial."
+    },
+    {
+     "type": "paragraph",
+     "md": "The variable $X$ itself counts how many of those $n$ trials are successes, so it can take any whole-number value from 0 to $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability of failure is $1 - p$, which is often written as $q$."
+    }
+   ],
+   "front_md": "What do the two numbers in `X \\sim \\text{B}(n, p)` stand for?\n",
+   "back_md": "$n$ is the **fixed number of trials** and $p$ is the **probability of success** on a single trial.\n\nThe variable $X$ itself counts how many of those $n$ trials are successes, so it can take any whole-number value from 0 to $n$.\n\nThe probability of failure is $1 - p$, which is often written as $q$.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DKsrCVdxwVRhFk7j",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the probability of exactly $r$ successes, filling in the missing **index**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(X = r) = \\begin{bmatrix} n \\\\ r \\end{bmatrix} p^{r} \\left(1 - p\\right)^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(X = r) = \\begin{bmatrix} n \\\\ r \\end{bmatrix} p^{r} \\left(1 - p\\right)^{n - r}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "If $r$ of the $n$ trials succeed then the other $n - r$ must fail, so the two indices always add up to $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is a quick way to check you have written the formula down correctly."
+    }
+   ],
+   "front_md": "Complete the formula for the probability of exactly $r$ successes, filling in the missing **index**:\n\n`\\text{P}(X = r) = \\begin{bmatrix} n \\\\ r \\end{bmatrix} p^{r} \\left(1 - p\\right)^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n`\\text{P}(X = r) = \\begin{bmatrix} n \\\\ r \\end{bmatrix} p^{r} \\left(1 - p\\right)^{n - r}`\n\nIf $r$ of the $n$ trials succeed then the other $n - r$ must fail, so the two indices always add up to $n$.\n\nThat is a quick way to check you have written the formula down correctly.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_jjSbjd4bmc68BPbx",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the binomial probability formula, what is the binomial coefficient counting?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The number of different **orders** in which the $r$ successes could fall among the $n$ trials."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every one of those orders has the same probability, so you work out the probability of one of them and multiply by how many there are."
+    },
+    {
+     "type": "paragraph",
+     "md": "Without that factor you would be finding the probability of one particular sequence rather than of $r$ successes however they arise."
+    }
+   ],
+   "front_md": "In the binomial probability formula, what is the binomial coefficient counting?\n",
+   "back_md": "The number of different **orders** in which the $r$ successes could fall among the $n$ trials.\n\nEvery one of those orders has the same probability, so you work out the probability of one of them and multiply by how many there are.\n\nWithout that factor you would be finding the probability of one particular sequence rather than of $r$ successes however they arise.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w26HTSqyy88KzQwH",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the mean and the variance for `X \\sim \\text{B}(n, p)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E}(X) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{Var}(X) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{E} ( X ) = n p$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{Var} ( X ) = n p ( 1 - p )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean is what intuition expects: 50 trials with a 0.08 chance each give 4 successes on average."
+    },
+    {
+     "type": "paragraph",
+     "md": "Square-rooting the variance gives the standard deviation, and note that the variance is largest when $p$ is 0.5."
+    }
+   ],
+   "front_md": "Fill in the mean and the variance for `X \\sim \\text{B}(n, p)`:\n\n`\\text{E}(X) = \\_\\_\\_\\_\\_\\_`\n\n`\\text{Var}(X) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\text{E} ( X ) = n p$\n\n$\\text{Var} ( X ) = n p ( 1 - p )$\n\nThe mean is what intuition expects: 50 trials with a 0.08 chance each give 4 successes on average.\n\nSquare-rooting the variance gives the standard deviation, and note that the variance is largest when $p$ is 0.5.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_74BTcGR6PMZRhpJD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the shape of a binomial distribution depend on $p$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With $p$ below 0.5 the graph has a **tail to the right**, and with $p$ above 0.5 a **tail to the left**."
+    },
+    {
+     "type": "paragraph",
+     "md": "At exactly $p = 0 . 5$ it is **symmetrical**, and the closer $p$ is to 0.5 the more nearly symmetrical it becomes."
+    },
+    {
+     "type": "paragraph",
+     "md": "The reason is simply that the bulk of the probability sits near $n p$, which is near one end when $p$ is extreme."
+    }
+   ],
+   "front_md": "How does the shape of a binomial distribution depend on $p$?\n",
+   "back_md": "With $p$ below 0.5 the graph has a **tail to the right**, and with $p$ above 0.5 a **tail to the left**.\n\nAt exactly $p = 0 . 5$ it is **symmetrical**, and the closer $p$ is to 0.5 the more nearly symmetrical it becomes.\n\nThe reason is simply that the bulk of the probability sits near $n p$, which is near one end when $p$ is extreme.\n",
+   "spec_links": [
+    "spcpt_CFPBfrF9PVcrbCk6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sBSDgQFKQWsbzKhn",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three things must you identify before writing down a binomial model?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What one **trial** is, what counts as a **success**, and what your **random variable** is."
+    },
+    {
+     "type": "paragraph",
+     "md": "State the variable in words, for example \"let $X$ be the number of students in a class of 30 with black hair\", and only then write `X \\sim \\text{B}(30, p)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "This matters because the four conditions are conditions on a **variable**, not on a story, so until the variable is named there is nothing to check them against."
+    }
+   ],
+   "front_md": "What three things must you identify before writing down a binomial model?\n",
+   "back_md": "What one **trial** is, what counts as a **success**, and what your **random variable** is.\n\nState the variable in words, for example \"let $X$ be the number of students in a class of 30 with black hair\", and only then write `X \\sim \\text{B}(30, p)`.\n\nThis matters because the four conditions are conditions on a **variable**, not on a story, so until the variable is named there is nothing to check them against.\n",
+   "spec_links": [
+    "spcpt_cBCMfVF2MRC2fhZS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rxmnMzb78j6yvHRT",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The number of yellow cars in a car park of 100 cannot be binomial, because cars come in more than two colours."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The trial is whether a given car **is yellow**, and that has exactly two outcomes: yellow, or not yellow."
+    },
+    {
+     "type": "paragraph",
+     "md": "Grouping every other colour together as \"not yellow\" is what makes the two-outcome condition hold, and it is worth looking for whenever a situation seems to have too many outcomes."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe number of yellow cars in a car park of 100 cannot be binomial, because cars come in more than two colours.\n",
+   "back_md": "**False.**\n\nThe trial is whether a given car **is yellow**, and that has exactly two outcomes: yellow, or not yellow.\n\nGrouping every other colour together as \"not yellow\" is what makes the two-outcome condition hold, and it is worth looking for whenever a situation seems to have too many outcomes.\n",
+   "spec_links": [
+    "spcpt_cBCMfVF2MRC2fhZS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FPyYpVPCHpqWqKdc",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Someone eats 5 sweets from a bag of 6 caramels and 4 marshmallows, and $X$ is the number of caramels eaten. Which binomial condition fails?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The trials are not **independent**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Eating a caramel first leaves fewer caramels in the bag, so what happens on one trial changes the probability on the next."
+    },
+    {
+     "type": "paragraph",
+     "md": "Sampling without replacement from a small population is the usual way this condition breaks, and it is the condition worth checking first whenever a binomial model looks doubtful."
+    }
+   ],
+   "front_md": "Someone eats 5 sweets from a bag of 6 caramels and 4 marshmallows, and $X$ is the number of caramels eaten. Which binomial condition fails?\n",
+   "back_md": "The trials are not **independent**.\n\nEating a caramel first leaves fewer caramels in the bag, so what happens on one trial changes the probability on the next.\n\nSampling without replacement from a small population is the usual way this condition breaks, and it is the condition worth checking first whenever a binomial model looks doubtful.\n",
+   "spec_links": [
+    "spcpt_cBCMfVF2MRC2fhZS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MNsmY6NpTndfcP2R",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_y4fX7phFn7fBf4Xq",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "8% of a **large** population is immune to a virus, and a **random** sample of 50 is taken. What two assumptions let a binomial model be used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That every person in the sample has the same 8% chance of being immune, and that whether one person is immune does not affect whether another is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The sample being random and the population being large are what make both of those reasonable, since removing 50 people barely changes the make-up of the population."
+    },
+    {
+     "type": "paragraph",
+     "md": "If all 50 came from the same family neither assumption would hold."
+    }
+   ],
+   "front_md": "8% of a **large** population is immune to a virus, and a **random** sample of 50 is taken. What two assumptions let a binomial model be used?\n",
+   "back_md": "That every person in the sample has the same 8% chance of being immune, and that whether one person is immune does not affect whether another is.\n\nThe sample being random and the population being large are what make both of those reasonable, since removing 50 people barely changes the make-up of the population.\n\nIf all 50 came from the same family neither assumption would hold.\n",
+   "spec_links": [
+    "spcpt_cBCMfVF2MRC2fhZS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n9BRsYJc2BcCwYRD",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find $\\text{P} ( X \\leq 3 )$ for a binomial distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out $\\text{P} ( X = 0 )$, $\\text{P} ( X = 1 )$, $\\text{P} ( X = 2 )$ and $\\text{P} ( X = 3 )$ separately from the formula, then add them."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no single formula for a cumulative binomial probability, so the sum is the method rather than a shortcut."
+    },
+    {
+     "type": "paragraph",
+     "md": "Forgetting $\\text{P} ( X = 0 )$ is the usual slip, and it is easy to make because zero successes feels like nothing happening."
+    }
+   ],
+   "front_md": "How do you find $\\text{P} ( X \\leq 3 )$ for a binomial distribution?\n",
+   "back_md": "Work out $\\text{P} ( X = 0 )$, $\\text{P} ( X = 1 )$, $\\text{P} ( X = 2 )$ and $\\text{P} ( X = 3 )$ separately from the formula, then add them.\n\nThere is no single formula for a cumulative binomial probability, so the sum is the method rather than a shortcut.\n\nForgetting $\\text{P} ( X = 0 )$ is the usual slip, and it is easy to make because zero successes feels like nothing happening.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k2RqCwJtQRKT2vS9",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is $\\text{P} ( X = 2 . 5 )$ for a binomial distribution, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A binomial variable counts successes among a whole number of trials, so the only values it can take are the integers from 0 to $n$, and every other value has probability zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why every binomial inequality comes down to deciding which **integers** are included."
+    }
+   ],
+   "front_md": "What is $\\text{P} ( X = 2 . 5 )$ for a binomial distribution, and why?\n",
+   "back_md": "It is **zero**.\n\nA binomial variable counts successes among a whole number of trials, so the only values it can take are the integers from 0 to $n$, and every other value has probability zero.\n\nThat is why every binomial inequality comes down to deciding which **integers** are included.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Vgm8XxgXJB6pNkSg",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a binomial distribution, fill in the integers each probability covers:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( X < 4 )$ covers $X = 0$ up to and including `\\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( 4 < X \\leq 10 )$ covers $X = 10$ down to and including `\\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed ranges are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( X < 4 )$ covers $X = 0$ up to and including **3**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( 4 < X \\leq 10 )$ covers $X = 10$ down to and including **5**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A strict inequality excludes its own endpoint, so $X < 4$ stops at 3 and $4 < X$ starts at 5."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing out the list of integers before calculating anything is the surest way to avoid an off-by-one error."
+    }
+   ],
+   "front_md": "For a binomial distribution, fill in the integers each probability covers:\n\n$\\text{P} ( X < 4 )$ covers $X = 0$ up to and including `\\_\\_\\_\\_\\_\\_`\n\n$\\text{P} ( 4 < X \\leq 10 )$ covers $X = 10$ down to and including `\\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed ranges are:\n\n$\\text{P} ( X < 4 )$ covers $X = 0$ up to and including **3**\n\n$\\text{P} ( 4 < X \\leq 10 )$ covers $X = 10$ down to and including **5**\n\nA strict inequality excludes its own endpoint, so $X < 4$ stops at 3 and $4 < X$ starts at 5.\n\nWriting out the list of integers before calculating anything is the surest way to avoid an off-by-one error.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2V5gNMGs6V5KsVGh",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For a binomial distribution, $\\text{P} ( X \\leq 3 )$ and $\\text{P} ( X < 4 )$ are the same."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no value between 3 and 4 for the two to disagree about, so both cover exactly the integers 0, 1, 2 and 3."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rewriting one as the other is often what lets you reuse a cumulative result you have already worked out."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor a binomial distribution, $\\text{P} ( X \\leq 3 )$ and $\\text{P} ( X < 4 )$ are the same.\n",
+   "back_md": "**True.**\n\nThere is no value between 3 and 4 for the two to disagree about, so both cover exactly the integers 0, 1, 2 and 3.\n\nRewriting one as the other is often what lets you reuse a cumulative result you have already worked out.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d7CQXcPS2wQVkMHZ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{B}(10, 0.35)`, why find $\\text{P} ( X > 3 )$ as $1 - \\text{P} ( X \\leq 3 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $X$ can be any integer from 0 to 10, so \"greater than 3\" covers seven values while \"at most 3\" covers only four."
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting from 1 therefore replaces seven separate binomial calculations with four."
+    },
+    {
+     "type": "paragraph",
+     "md": "Whenever the unwanted values are fewer than the wanted ones, this is the quicker route."
+    }
+   ],
+   "front_md": "For `X \\sim \\text{B}(10, 0.35)`, why find $\\text{P} ( X > 3 )$ as $1 - \\text{P} ( X \\leq 3 )$?\n",
+   "back_md": "Because $X$ can be any integer from 0 to 10, so \"greater than 3\" covers seven values while \"at most 3\" covers only four.\n\nSubtracting from 1 therefore replaces seven separate binomial calculations with four.\n\nWhenever the unwanted values are fewer than the wanted ones, this is the quicker route.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TCBbnxBzP8qPFS3s",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_hG7P59rCmgcsfcQ5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{B}(10, 0.35)`, how do you find $\\text{P} ( 3 < X < 6 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both inequalities are strict, so 3 and 6 are excluded and only $X = 4$ and $X = 5$ are wanted."
+    },
+    {
+     "type": "paragraph",
+     "md": "Work out each from the formula and add:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{bmatrix} 10 \\\\ 4 \\end{bmatrix} (0.35)^{4}(0.65)^{6} + \\begin{bmatrix} 10 \\\\ 5 \\end{bmatrix} (0.35)^{5}(0.65)^{5} = 0.391`"
+    },
+    {
+     "type": "paragraph",
+     "md": "With only two terms there is nothing to be gained by subtracting from 1 here."
+    }
+   ],
+   "front_md": "For `X \\sim \\text{B}(10, 0.35)`, how do you find $\\text{P} ( 3 < X < 6 )$?\n",
+   "back_md": "Both inequalities are strict, so 3 and 6 are excluded and only $X = 4$ and $X = 5$ are wanted.\n\nWork out each from the formula and add:\n\n`\\begin{bmatrix} 10 \\\\ 4 \\end{bmatrix} (0.35)^{4}(0.65)^{6} + \\begin{bmatrix} 10 \\\\ 5 \\end{bmatrix} (0.35)^{5}(0.65)^{5} = 0.391`\n\nWith only two terms there is nothing to be gained by subtracting from 1 here.\n",
+   "spec_links": [
+    "spcpt_JpjTxPV33Mm5vDvf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xn4kckZD8RkjnR7J",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **geometric distribution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **geometric distribution** describes the number of trials needed up to and **including** the first success."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is written `X \\sim \\text{Geo}(p)`, where $p$ is the probability of success on any single trial."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because a success might never have happened yet, $X$ can be any positive whole number, so the distribution has infinitely many values."
+    }
+   ],
+   "front_md": "Define **geometric distribution**.\n",
+   "back_md": "The **geometric distribution** describes the number of trials needed up to and **including** the first success.\n\nIt is written `X \\sim \\text{Geo}(p)`, where $p$ is the probability of success on any single trial.\n\nBecause a success might never have happened yet, $X$ can be any positive whole number, so the distribution has infinitely many values.\n",
+   "spec_links": [
+    "spcpt_7RxxhPNkwYwmz3vV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DtvfvPnqZRrkPJW6",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between what a binomial variable counts and what a geometric variable counts?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **binomial** variable counts the number of **successes** in a fixed number of trials."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **geometric** variable counts the number of **trials** taken to reach the first success."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the binomial fixes the trials and lets the successes vary, while the geometric fixes the successes at one and lets the trials vary."
+    }
+   ],
+   "front_md": "What is the difference between what a binomial variable counts and what a geometric variable counts?\n",
+   "back_md": "A **binomial** variable counts the number of **successes** in a fixed number of trials.\n\nA **geometric** variable counts the number of **trials** taken to reach the first success.\n\nSo the binomial fixes the trials and lets the successes vary, while the geometric fixes the successes at one and lets the trials vary.\n",
+   "spec_links": [
+    "spcpt_7RxxhPNkwYwmz3vV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4d5sQhKvgtPTTxpp",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the geometric probability formula, filling in the missing **index**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(X = r) = \\left(1 - p\\right)^{\\_\\_\\_\\_\\_\\_} p`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(X = r) = \\left(1 - p\\right)^{r - 1} p`"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the first success comes on trial $r$, then the $r - 1$ trials before it must all have **failed** and the last one succeeded."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why there is a single factor of $p$ sitting outside the power rather than inside it."
+    }
+   ],
+   "front_md": "Complete the geometric probability formula, filling in the missing **index**:\n\n`\\text{P}(X = r) = \\left(1 - p\\right)^{\\_\\_\\_\\_\\_\\_} p`\n",
+   "back_md": "The completed formula is:\n\n`\\text{P}(X = r) = \\left(1 - p\\right)^{r - 1} p`\n\nIf the first success comes on trial $r$, then the $r - 1$ trials before it must all have **failed** and the last one succeeded.\n\nThat is why there is a single factor of $p$ sitting outside the power rather than inside it.\n",
+   "spec_links": [
+    "spcpt_CrCq4jsdbsJthgqb"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_FDkkDbfPnJJ9S8BW",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is `\\text{P}(X > r) = \\left(1 - p\\right)^{r}` for a geometric distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Saying $X > r$ says the first success has **not** happened within the first $r$ trials, so all $r$ of them failed."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability of that is just $1 - p$ multiplied by itself $r$ times."
+    },
+    {
+     "type": "paragraph",
+     "md": "This one short expression replaces an infinite sum, which is what makes geometric inequalities much easier than binomial ones."
+    }
+   ],
+   "front_md": "Why is `\\text{P}(X > r) = \\left(1 - p\\right)^{r}` for a geometric distribution?\n",
+   "back_md": "Saying $X > r$ says the first success has **not** happened within the first $r$ trials, so all $r$ of them failed.\n\nThe probability of that is just $1 - p$ multiplied by itself $r$ times.\n\nThis one short expression replaces an infinite sum, which is what makes geometric inequalities much easier than binomial ones.\n",
+   "spec_links": [
+    "spcpt_CrCq4jsdbsJthgqb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VwSM4zgqfmsPvq72",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find $\\text{P} ( 3 \\leq X < 8 )$ for `X \\sim \\text{Geo}(0.4)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Turn it into a difference of two \"greater than\" probabilities, which are the easy ones to work out:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( X > 2 ) - \\text{P} ( X > 7 ) = 0 . 6^{2} - 0 . 6^{7} = 0 . 332$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Getting the two indices right is the whole difficulty: $X \\geq 3$ means more than 2 trials, and $X < 8$ means at most 7."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing down which integers are wanted before converting is what keeps them straight."
+    }
+   ],
+   "front_md": "How do you find $\\text{P} ( 3 \\leq X < 8 )$ for `X \\sim \\text{Geo}(0.4)`?\n",
+   "back_md": "Turn it into a difference of two \"greater than\" probabilities, which are the easy ones to work out:\n\n$\\text{P} ( X > 2 ) - \\text{P} ( X > 7 ) = 0 . 6^{2} - 0 . 6^{7} = 0 . 332$\n\nGetting the two indices right is the whole difficulty: $X \\geq 3$ means more than 2 trials, and $X < 8$ means at most 7.\n\nWriting down which integers are wanted before converting is what keeps them straight.\n",
+   "spec_links": [
+    "spcpt_CrCq4jsdbsJthgqb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RbNd6NsFjdcmryvY",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The most likely number of trials to the first success is 1, however small $p$ is."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whatever the value of $p$, the single value $r = 1$ has a higher probability than any other, so the **mode** of every geometric distribution is 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "That surprises people who expect a small $p$ to push the most likely wait further out; what a small $p$ actually does is flatten the decline, not move the peak."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe most likely number of trials to the first success is 1, however small $p$ is.\n",
+   "back_md": "**True.**\n\nWhatever the value of $p$, the single value $r = 1$ has a higher probability than any other, so the **mode** of every geometric distribution is 1.\n\nThat surprises people who expect a small $p$ to push the most likely wait further out; what a small $p$ actually does is flatten the decline, not move the peak.\n",
+   "spec_links": [
+    "spcpt_7RxxhPNkwYwmz3vV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Rs3ZjrMqFPRvv9V",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a geometric distribution, why does `\\text{P}(X = 8 \\vert X > 5)` equal $\\text{P} ( X = 3 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The trials are independent and $p$ never changes, so five failures leave you in exactly the situation you started in."
+    },
+    {
+     "type": "paragraph",
+     "md": "Counting afresh from that point, needing the success on trial 8 is needing it on the third trial from now."
+    },
+    {
+     "type": "paragraph",
+     "md": "This property is called being **memoryless**, and it is what \"given that\" questions on a geometric distribution are testing."
+    }
+   ],
+   "front_md": "For a geometric distribution, why does `\\text{P}(X = 8 \\vert X > 5)` equal $\\text{P} ( X = 3 )$?\n",
+   "back_md": "The trials are independent and $p$ never changes, so five failures leave you in exactly the situation you started in.\n\nCounting afresh from that point, needing the success on trial 8 is needing it on the third trial from now.\n\nThis property is called being **memoryless**, and it is what \"given that\" questions on a geometric distribution are testing.\n",
+   "spec_links": [
+    "spcpt_CrCq4jsdbsJthgqb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gVdgqj2FpY2CFBGy",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{Geo}(p)`, what is $\\text{E} ( X )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $\\frac{1}{p}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a success with probability 0.25 takes 4 trials on average, and a success with probability 0.1 takes 10."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rarer the success, the longer the expected wait, which is exactly what intuition would say."
+    }
+   ],
+   "front_md": "For `X \\sim \\text{Geo}(p)`, what is $\\text{E} ( X )$?\n",
+   "back_md": "It is $\\frac{1}{p}$.\n\nSo a success with probability 0.25 takes 4 trials on average, and a success with probability 0.1 takes 10.\n\nThe rarer the success, the longer the expected wait, which is exactly what intuition would say.\n",
+   "spec_links": [
+    "spcpt_7RxxhPNkwYwmz3vV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gdNm6MSNb3hY5Bmn",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do the probabilities of a geometric distribution form a geometric progression, and what do they sum to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each probability is the one before it multiplied by $1 - p$, so they form a progression with first term $p$ and common ratio $1 - p$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its sum to infinity is $\\frac{p}{1-(1-p)} = 1$, which is exactly what any probability distribution has to total."
+    },
+    {
+     "type": "paragraph",
+     "md": "That sum is also where the distribution gets its name."
+    }
+   ],
+   "front_md": "Why do the probabilities of a geometric distribution form a geometric progression, and what do they sum to?\n",
+   "back_md": "Each probability is the one before it multiplied by $1 - p$, so they form a progression with first term $p$ and common ratio $1 - p$.\n\nIts sum to infinity is $\\frac{p}{1-(1-p)} = 1$, which is exactly what any probability distribution has to total.\n\nThat sum is also where the distribution gets its name.\n",
+   "spec_links": [
+    "spcpt_7RxxhPNkwYwmz3vV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MW5bmwvVvGsvFhMX",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A skateboarder attempts a trick repeatedly until they land it. Why might a geometric model be unsuitable here?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the probability of success should **increase** with practice, so it is not constant from trial to trial."
+    },
+    {
+     "type": "paragraph",
+     "md": "The trials are not really independent either, since each attempt teaches the skateboarder something about the next."
+    },
+    {
+     "type": "paragraph",
+     "md": "Anything involving practising, learning or tiring is worth checking for this, and it is the condition that fails most often."
+    }
+   ],
+   "front_md": "A skateboarder attempts a trick repeatedly until they land it. Why might a geometric model be unsuitable here?\n",
+   "back_md": "Because the probability of success should **increase** with practice, so it is not constant from trial to trial.\n\nThe trials are not really independent either, since each attempt teaches the skateboarder something about the next.\n\nAnything involving practising, learning or tiring is worth checking for this, and it is the condition that fails most often.\n",
+   "spec_links": [
+    "spcpt_VxJMMF37MG3rQ92M"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RkJnFfZDV6HvzXBj",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_spP63np6nZFMCdFD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A switch is pressed on and off until it wears out. Why is that geometric rather than binomial?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is being counted is the number of presses **up to and including** the one that breaks it, not how many failures occur in a fixed number of presses."
+    },
+    {
+     "type": "paragraph",
+     "md": "The \"success\" here is the switch failing, which shows that a success just means the outcome you are interested in rather than a good outcome."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any situation where the **first** occurrence of something is what matters is a geometric one."
+    }
+   ],
+   "front_md": "A switch is pressed on and off until it wears out. Why is that geometric rather than binomial?\n",
+   "back_md": "What is being counted is the number of presses **up to and including** the one that breaks it, not how many failures occur in a fixed number of presses.\n\nThe \"success\" here is the switch failing, which shows that a success just means the outcome you are interested in rather than a good outcome.\n\nAny situation where the **first** occurrence of something is what matters is a geometric one.\n",
+   "spec_links": [
+    "spcpt_VxJMMF37MG3rQ92M"
+   ],
+   "flags": []
+  }
+ ]
+}

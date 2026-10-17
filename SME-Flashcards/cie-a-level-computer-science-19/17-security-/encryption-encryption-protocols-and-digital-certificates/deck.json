@@ -1,0 +1,1743 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:30Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/17-security-/encryption-encryption-protocols-and-digital-certificates/",
+  "section_slug": "17-security-",
+  "section_name": "17. Security",
+  "topic_slug": "encryption-encryption-protocols-and-digital-certificates",
+  "title": "Encryption, Encryption Protocols & Digital Certificates",
+  "order": 0
+ },
+ "card_count": 68,
+ "card_types": {
+  "keyword_definition": 11,
+  "question_and_answer": 45,
+  "true_or_false": 7,
+  "fill_in_the_blanks": 5
+ },
+ "spec_link_cards": 68,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_96NKXTWB355HKcGR",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **encryption**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Encryption is a method of **scrambling data before it is transmitted across a network**, protecting the contents from unauthorised access by **making the data meaningless**."
+    }
+   ],
+   "front_md": "Define **encryption**.\n",
+   "back_md": "Encryption is a method of **scrambling data before it is transmitted across a network**, protecting the contents from unauthorised access by **making the data meaningless**.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yVfvXwsmw5XXzvKB",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is encryption even more critical on wireless networks?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data is transmitted over **radio waves**, which makes it **easy to intercept**."
+    }
+   ],
+   "front_md": "Why is encryption even more critical on wireless networks?\n",
+   "back_md": "Data is transmitted over **radio waves**, which makes it **easy to intercept**.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fGRg2hm77Tzb226v",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the master key created from on a wireless network?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **SSID** together with the **password**."
+    }
+   ],
+   "front_md": "What is the master key created from on a wireless network?\n",
+   "back_md": "The **SSID** together with the **password**.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q33XnjZSWyzDbKGb",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **cipher text**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cipher text is data that has been **encrypted using the master key**, before it is transmitted."
+    }
+   ],
+   "front_md": "Define **cipher text**.\n",
+   "back_md": "Cipher text is data that has been **encrypted using the master key**, before it is transmitted.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RGwwMkjtv5FjGDQN",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The master key is transmitted along with the data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The master key is **never transmitted**. Without it, any intercepted data is rendered useless."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe master key is transmitted along with the data.\n",
+   "back_md": "**False.**\n\nThe master key is **never transmitted**. Without it, any intercepted data is rendered useless.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4jsTtR89j7h6xYdT",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does wired encryption differ from wireless encryption?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is often left to **individual applications to decide** how encryption is used, for example HTTPS."
+    }
+   ],
+   "front_md": "How does wired encryption differ from wireless encryption?\n",
+   "back_md": "It is often left to **individual applications to decide** how encryption is used, for example HTTPS.\n",
+   "spec_links": [
+    "spcpt_YKWdkZyRCKkV3zsj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MjBTf6MysTDnfPtS",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does symmetric encryption work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The sender uses a key to **encrypt** the data before transmission, and the receiver **uses the same key** to **decrypt** it."
+    }
+   ],
+   "front_md": "How does symmetric encryption work?\n",
+   "back_md": "The sender uses a key to **encrypt** the data before transmission, and the receiver **uses the same key** to **decrypt** it.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZgWVfh4GY5VwP3x9",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is symmetric encryption ideal for large amounts of data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is usually **faster**."
+    }
+   ],
+   "front_md": "Why is symmetric encryption ideal for large amounts of data?\n",
+   "back_md": "It is usually **faster**.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j76gKTM56RvSwjdp",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the significant downside of symmetric encryption?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The challenge of **securely sharing the key** between the sender and the receiver."
+    }
+   ],
+   "front_md": "What is the significant downside of symmetric encryption?\n",
+   "back_md": "The challenge of **securely sharing the key** between the sender and the receiver.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_F8fmhVjRxNGMVmp9",
+   "card_type": "fill_in_the_blanks",
+   "order": 9,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Symmetric encryption is fast but has key-<u>**              **</u> issues."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Symmetric encryption is fast but has key-**sharing** issues."
+    }
+   ],
+   "front_md": "Symmetric encryption is fast but has key-<u>**              **</u> issues.\n",
+   "back_md": "Symmetric encryption is fast but has key-**sharing** issues.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_QpZJBwBrBJkxWwCc",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if a bad actor captures a symmetric key?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They can **decrypt all messages intercepted** in transmission."
+    }
+   ],
+   "front_md": "What happens if a bad actor captures a symmetric key?\n",
+   "back_md": "They can **decrypt all messages intercepted** in transmission.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cDbNQ7WKZfKbgR8R",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does asymmetric encryption work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It uses **two keys**: a **public key for encryption** and a **private key for decryption**."
+    }
+   ],
+   "front_md": "How does asymmetric encryption work?\n",
+   "back_md": "It uses **two keys**: a **public key for encryption** and a **private key for decryption**.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nmgSH2nSQxNn8HkH",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Asymmetric encryption uses the same key to encrypt and decrypt."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It uses a **public key to encrypt** and a **private key to decrypt**. It is **symmetric** encryption that uses the same key for both."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAsymmetric encryption uses the same key to encrypt and decrypt.\n",
+   "back_md": "**False.**\n\nIt uses a **public key to encrypt** and a **private key to decrypt**. It is **symmetric** encryption that uses the same key for both.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3j6pzrzv2nVRSFXD",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Who shares the public key, and who keeps the private key?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Receivers openly share their public key**. The **receiver's private key** is kept locally and is the only key that can decrypt the data."
+    }
+   ],
+   "front_md": "Who shares the public key, and who keeps the private key?\n",
+   "back_md": "**Receivers openly share their public key**. The **receiver's private key** is kept locally and is the only key that can decrypt the data.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zc3NZcDnpc9TnTYF",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are the public and private keys created?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**At the same time**, and they are **designed to work together**."
+    }
+   ],
+   "front_md": "How are the public and private keys created?\n",
+   "back_md": "**At the same time**, and they are **designed to work together**.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DXS397T3WSddjzvY",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does asymmetric encryption compare with symmetric for speed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is typically **slower than symmetric encryption**."
+    }
+   ],
+   "front_md": "How does asymmetric encryption compare with symmetric for speed?\n",
+   "back_md": "It is typically **slower than symmetric encryption**.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DNRQY5NFqwVWr7W2",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is asymmetric encryption generally used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**More secure and smaller data transactions**, such as passwords and bank details."
+    }
+   ],
+   "front_md": "What is asymmetric encryption generally used for?\n",
+   "back_md": "**More secure and smaller data transactions**, such as passwords and bank details.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_76YhTQr8PN2t7zrc",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When would you choose symmetric encryption?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For **large files and databases**, because it is fast and efficient for bulk data, and where **the same person encrypts and decrypts**, such as backing up data."
+    }
+   ],
+   "front_md": "When would you choose symmetric encryption?\n",
+   "back_md": "For **large files and databases**, because it is fast and efficient for bulk data, and where **the same person encrypts and decrypts**, such as backing up data.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pVXyfGrqxmjMDTDv",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When would you choose asymmetric encryption?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For **confidential or secret communications**, such as passwords or government communications."
+    }
+   ],
+   "front_md": "When would you choose asymmetric encryption?\n",
+   "back_md": "For **confidential or secret communications**, such as passwords or government communications.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CTfmFNnqNhJyGbgc",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Describe the purpose of asymmetric key cryptography."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To provide **better security** by using **two different keys**, a public key and a private key. **One key encrypts** the message and **the matching key decrypts** it."
+    }
+   ],
+   "front_md": "Describe the purpose of asymmetric key cryptography.\n",
+   "back_md": "To provide **better security** by using **two different keys**, a public key and a private key. **One key encrypts** the message and **the matching key decrypts** it.\n",
+   "spec_links": [
+    "spcpt_Kff6dyNm2C3y8JYR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2KCGDsYcdgsDzvq5",
+   "card_type": "keyword_definition",
+   "order": 20,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **quantum cryptography**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Quantum cryptography uses **quantum mechanics to securely transmit encryption keys**."
+    }
+   ],
+   "front_md": "Define **quantum cryptography**.\n",
+   "back_md": "Quantum cryptography uses **quantum mechanics to securely transmit encryption keys**.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WKPcPFhXX4MSHqSV",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the main goal of quantum cryptography?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To enable **unbreakable communication** by **detecting any attempt to intercept or tamper with the key**."
+    }
+   ],
+   "front_md": "What is the main goal of quantum cryptography?\n",
+   "back_md": "To enable **unbreakable communication** by **detecting any attempt to intercept or tamper with the key**.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s69FgvnmDtxNN3ng",
+   "card_type": "keyword_definition",
+   "order": 22,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Quantum Key Distribution (QKD)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "QKD uses **quantum particles, such as photons, to share a secret key** between two parties securely."
+    }
+   ],
+   "front_md": "Define **Quantum Key Distribution (QKD)**.\n",
+   "back_md": "QKD uses **quantum particles, such as photons, to share a secret key** between two parties securely.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f3tfqYsGZY2RxgsB",
+   "card_type": "fill_in_the_blanks",
+   "order": 23,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The best known quantum method is Quantum <u>**        **</u> Distribution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The best known quantum method is Quantum **Key** Distribution."
+    }
+   ],
+   "front_md": "The best known quantum method is Quantum <u>**        **</u> Distribution.\n",
+   "back_md": "The best known quantum method is Quantum **Key** Distribution.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_fDVdvqQFTF26QJVR",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is quantum key transmission unbreakable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Measuring a quantum state disturbs it**, so any eavesdropping is **detectable** and alerts the users."
+    }
+   ],
+   "front_md": "Why is quantum key transmission unbreakable?\n",
+   "back_md": "**Measuring a quantum state disturbs it**, so any eavesdropping is **detectable** and alerts the users.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fqn8FfnKjggzPpSK",
+   "card_type": "keyword_definition",
+   "order": 25,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **perfect forward secrecy**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Keys are **used once and then discarded**, which reduces the impact of future key leaks."
+    }
+   ],
+   "front_md": "Define **perfect forward secrecy**.\n",
+   "back_md": "Keys are **used once and then discarded**, which reduces the impact of future key leaks.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fTXzrMFTt2d7P4rJ",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is quantum cryptography stronger than classical encryption?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **not based on mathematical problems** like factoring large primes, so it is not vulnerable to advances in computing such as quantum computers."
+    }
+   ],
+   "front_md": "Why is quantum cryptography stronger than classical encryption?\n",
+   "back_md": "It is **not based on mathematical problems** like factoring large primes, so it is not vulnerable to advances in computing such as quantum computers.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QzYnV7tXcGX5yS3K",
+   "card_type": "question_and_answer",
+   "order": 27,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three drawbacks of quantum cryptography."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **expensive and complex**, works only over **short distances**, has a **slow transmission speed**, is **still evolving**, and **only secures key exchange**."
+    }
+   ],
+   "front_md": "Name three drawbacks of quantum cryptography.\n",
+   "back_md": "It is **expensive and complex**, works only over **short distances**, has a **slow transmission speed**, is **still evolving**, and **only secures key exchange**.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CmywvMkkSSbKbvqg",
+   "card_type": "true_or_false",
+   "order": 28,
+   "set_id": "flst_VXHqpSyr2MzQhmcK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Quantum cryptography encrypts the message itself."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It secures the **key** used in encryption. **Traditional algorithms are still needed** for the actual data encryption."
+    }
+   ],
+   "front_md": "**True or False?**\n\nQuantum cryptography encrypts the message itself.\n",
+   "back_md": "**False.**\n\nIt secures the **key** used in encryption. **Traditional algorithms are still needed** for the actual data encryption.\n",
+   "spec_links": [
+    "spcpt_cNf6KNtZmJ4yMYZD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VKHm6DCcmsYFhJQh",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **SSL**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Secure Sockets Layer is a **security protocol used to encrypt data sent over the internet**."
+    }
+   ],
+   "front_md": "Define **SSL**.\n",
+   "back_md": "Secure Sockets Layer is a **security protocol used to encrypt data sent over the internet**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RMG9mbFfHZrfgmNt",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which three attacks does SSL help prevent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Eavesdropping**, **tampering** and **man-in-the-middle attacks**."
+    }
+   ],
+   "front_md": "Which three attacks does SSL help prevent?\n",
+   "back_md": "**Eavesdropping**, **tampering** and **man-in-the-middle attacks**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JVnP4WqXzrSTjrDY",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three common uses of SSL."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Protecting websites**, **online payments** and **login credentials**."
+    }
+   ],
+   "front_md": "Name three common uses of SSL.\n",
+   "back_md": "**Protecting websites**, **online payments** and **login credentials**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xKFGwH73m2TBKQPd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does SSL create?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **secure connection between a web server and a browser**."
+    }
+   ],
+   "front_md": "What does SSL create?\n",
+   "back_md": "A **secure connection between a web server and a browser**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QsWFRZGkPDPWJjx9",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **TLS**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Transport Layer Security is the **successor to SSL**. It performs the same functions but is **more secure and efficient**."
+    }
+   ],
+   "front_md": "Define **TLS**.\n",
+   "back_md": "Transport Layer Security is the **successor to SSL**. It performs the same functions but is **more secure and efficient**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WjsM5ss5dgCSvxFh",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "TLS and SSL are unrelated protocols."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**TLS is the successor to SSL** and performs the same functions, more securely and efficiently."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTLS and SSL are unrelated protocols.\n",
+   "back_md": "**False.**\n\n**TLS is the successor to SSL** and performs the same functions, more securely and efficiently.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zsH4QWwPzXwPr5jg",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which do modern websites use, SSL or TLS?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**TLS**, although people often still refer to it as 'SSL'."
+    }
+   ],
+   "front_md": "Which do modern websites use, SSL or TLS?\n",
+   "back_md": "**TLS**, although people often still refer to it as 'SSL'.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HjrPfxBgzkY7ZK3j",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does HTTPS in the browser mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That **TLS/SSL encryption is active**."
+    }
+   ],
+   "front_md": "What does HTTPS in the browser mean?\n",
+   "back_md": "That **TLS/SSL encryption is active**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PjkHTSPjzztThnTm",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first step when you visit a secure website?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The server sends your browser its **digital certificate**."
+    }
+   ],
+   "front_md": "What is the first step when you visit a secure website?\n",
+   "back_md": "The server sends your browser its **digital certificate**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zD7234x85cqhQ96g",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three things a digital certificate contains."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The server's **public key**, information about the **website and the Certificate Authority (CA)**, and a **digital signature from the CA**."
+    }
+   ],
+   "front_md": "Name the three things a digital certificate contains.\n",
+   "back_md": "The server's **public key**, information about the **website and the Certificate Authority (CA)**, and a **digital signature from the CA**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fqh2xm7TP7ZB3TQQ",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the browser check the certificate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It checks that the certificate is **valid and trusted**, using the **CA's public key**."
+    }
+   ],
+   "front_md": "How does the browser check the certificate?\n",
+   "back_md": "It checks that the certificate is **valid and trusted**, using the **CA's public key**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QpmKrVc6PwP22dJ2",
+   "card_type": "fill_in_the_blanks",
+   "order": 11,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The browser uses the CA's <u>**            **</u> key to verify the certificate."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The browser uses the CA's **public** key to verify the certificate."
+    }
+   ],
+   "front_md": "The browser uses the CA's <u>**            **</u> key to verify the certificate.\n",
+   "back_md": "The browser uses the CA's **public** key to verify the certificate.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cpqKvPpJFv59Z4j2",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the certificate is trusted?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **secure connection is established**, often using a **shared secret key** created during the handshake."
+    }
+   ],
+   "front_md": "What happens if the certificate is trusted?\n",
+   "back_md": "A **secure connection is established**, often using a **shared secret key** created during the handshake.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZG9ppJgDffXZRH9d",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which type of encryption is used for the shared secret key?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Symmetric** encryption."
+    }
+   ],
+   "front_md": "Which type of encryption is used for the shared secret key?\n",
+   "back_md": "**Symmetric** encryption.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gv5CQ5Bdv2bndy8b",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the public key in a certificate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **used by the browser to create secure communication**."
+    }
+   ],
+   "front_md": "What is the purpose of the public key in a certificate?\n",
+   "back_md": "It is **used by the browser to create secure communication**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2j2t9n73vpqQTBXb",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the Certificate Authority do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **signs the certificate** to confirm that it is trustworthy."
+    }
+   ],
+   "front_md": "What does the Certificate Authority do?\n",
+   "back_md": "It **signs the certificate** to confirm that it is trustworthy.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j3Q6ZpRg2tGvrxg6",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_gSx7N7DqX5hwW4Mp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The website identity in a certificate shows who owns the public key."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The website identity **shows who owns the key**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe website identity in a certificate shows who owns the public key.\n",
+   "back_md": "**True.**\n\nThe website identity **shows who owns the key**.\n",
+   "spec_links": [
+    "spcpt_jC32rTS6sZ6SmccB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cWGdskpDnNRQ9cBQ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **digital certificate**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A digital certificate is an **electronic file that confirms someone's identity** and proves that a **public key belongs to them**."
+    }
+   ],
+   "front_md": "Define **digital certificate**.\n",
+   "back_md": "A digital certificate is an **electronic file that confirms someone's identity** and proves that a **public key belongs to them**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FDprc2gWZS9ZJHRQ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Who issues a digital certificate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A trusted third party called a **Certificate Authority (CA)**."
+    }
+   ],
+   "front_md": "Who issues a digital certificate?\n",
+   "back_md": "A trusted third party called a **Certificate Authority (CA)**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QnB36n2Jfd955VGY",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A digital certificate is issued by a trusted third party called a Certificate <u>**                  **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A digital certificate is issued by a trusted third party called a Certificate **Authority**."
+    }
+   ],
+   "front_md": "A digital certificate is issued by a trusted third party called a Certificate <u>**                  **</u>.\n",
+   "back_md": "A digital certificate is issued by a trusted third party called a Certificate **Authority**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kGxGtwTM87M9hCkf",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four things a digital certificate includes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The owner's **public key**, the owner's **identity details**, the **expiry date**, and the **Certificate Authority's digital signature**."
+    }
+   ],
+   "front_md": "Name the four things a digital certificate includes.\n",
+   "back_md": "The owner's **public key**, the owner's **identity details**, the **expiry date**, and the **Certificate Authority's digital signature**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VtF2Ts9f3HdKsz4j",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **hash function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A hash function is a **one-way algorithm** that takes an input and produces a **fixed-length output**, called a hash value or message-digest."
+    }
+   ],
+   "front_md": "Define **hash function**.\n",
+   "back_md": "A hash function is a **one-way algorithm** that takes an input and produces a **fixed-length output**, called a hash value or message-digest.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gZSBpzBy7fQy35Rt",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three key features of a hash function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The output is **always the same length** regardless of input size, it is **one-way** so cannot be reversed, and **even a small change in input produces a completely different output**."
+    }
+   ],
+   "front_md": "Name three key features of a hash function.\n",
+   "back_md": "The output is **always the same length** regardless of input size, it is **one-way** so cannot be reversed, and **even a small change in input produces a completely different output**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BD7V4NMgJ5srMj68",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A hash function can be reversed to recover the original message."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **one-way**. You cannot reverse it to get the original input."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA hash function can be reversed to recover the original message.\n",
+   "back_md": "**False.**\n\nIt is **one-way**. You cannot reverse it to get the original input.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_49ZpTxjXb34YjtHG",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a hash function like a fingerprint for data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the output is **unique to the input**, and even a small change in the input produces a completely different output."
+    }
+   ],
+   "front_md": "Why is a hash function like a fingerprint for data?\n",
+   "back_md": "Because the output is **unique to the input**, and even a small change in the input produces a completely different output.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hfH43CGmRwC6Yb7v",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two common uses of hash functions."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Digital signatures** and **password storage**."
+    }
+   ],
+   "front_md": "Name two common uses of hash functions.\n",
+   "back_md": "**Digital signatures** and **password storage**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Vh78Gx5QpKtmjHVP",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **message-digest**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A message-digest is the **output, or hash value, produced when a message is processed through a hash function**."
+    }
+   ],
+   "front_md": "Define **message-digest**.\n",
+   "back_md": "A message-digest is the **output, or hash value, produced when a message is processed through a hash function**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_krPvHXxtShBkSJkh",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three properties of a message-digest."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **fixed-length summary** of the original message, it is **unique to the message**, and it is used to **check whether a message has been altered**."
+    }
+   ],
+   "front_md": "Name three properties of a message-digest.\n",
+   "back_md": "It is a **fixed-length summary** of the original message, it is **unique to the message**, and it is used to **check whether a message has been altered**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JbXRJXcPHHpTmnx8",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first step in acquiring a digital certificate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The person **generates a key pair**: one private key and one public key."
+    }
+   ],
+   "front_md": "What is the first step in acquiring a digital certificate?\n",
+   "back_md": "The person **generates a key pair**: one private key and one public key.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z2fBv3kV6PwQJ77g",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Certificate Signing Request (CSR)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A request sent to a Certificate Authority containing the sender's **public key and identity details**."
+    }
+   ],
+   "front_md": "Define **Certificate Signing Request (CSR)**.\n",
+   "back_md": "A request sent to a Certificate Authority containing the sender's **public key and identity details**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2CT8pGRgSsFSWm2q",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the CA do with a Certificate Signing Request?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **verifies the identity** using documents or other checks. If approved, it **digitally signs a certificate** and sends it back."
+    }
+   ],
+   "front_md": "What does the CA do with a Certificate Signing Request?\n",
+   "back_md": "It **verifies the identity** using documents or other checks. If approved, it **digitally signs a certificate** and sends it back.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zZQKBjXnGyt27FFp",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the returned certificate contain?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The owner's **public key**, their **identity**, and the **CA's signature**."
+    }
+   ],
+   "front_md": "What does the returned certificate contain?\n",
+   "back_md": "The owner's **public key**, their **identity**, and the **CA's signature**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gk9Tb7k4MFKwNybK",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a digital signature produced?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **hash function** is applied to the message to create a **message-digest**, which is then **encrypted using the sender's private key**."
+    }
+   ],
+   "front_md": "How is a digital signature produced?\n",
+   "back_md": "A **hash function** is applied to the message to create a **message-digest**, which is then **encrypted using the sender's private key**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NvgWthCG7ywCXFKC",
+   "card_type": "fill_in_the_blanks",
+   "order": 16,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The digital signature is the message-digest encrypted with the sender's <u>**              **</u> key."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The digital signature is the message-digest encrypted with the sender's **private** key."
+    }
+   ],
+   "front_md": "The digital signature is the message-digest encrypted with the sender's <u>**              **</u> key.\n",
+   "back_md": "The digital signature is the message-digest encrypted with the sender's **private** key.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_3VPBh25FR3RGZChk",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three things does the sender send?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **original message**, their **digital signature**, and their **digital certificate**."
+    }
+   ],
+   "front_md": "What three things does the sender send?\n",
+   "back_md": "The **original message**, their **digital signature**, and their **digital certificate**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9x9k2zrb3fZCmSry",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the recipient verify the digital signature?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using the **sender's public key**, taken from the digital certificate."
+    }
+   ],
+   "front_md": "How does the recipient verify the digital signature?\n",
+   "back_md": "Using the **sender's public key**, taken from the digital certificate.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jMWM56D7RfGrRYmq",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the recipient verify that the certificate is genuine?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using the **CA's public key**, which confirms the certificate has not been forged."
+    }
+   ],
+   "front_md": "How does the recipient verify that the certificate is genuine?\n",
+   "back_md": "Using the **CA's public key**, which confirms the certificate has not been forged.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dbQnRWDrtkrwNNNJ",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a digital certificate and a digital signature?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **certificate proves ownership of a public key**. A **signature proves a message came from the claimed sender** and was not altered."
+    }
+   ],
+   "front_md": "What is the difference between a digital certificate and a digital signature?\n",
+   "back_md": "A **certificate proves ownership of a public key**. A **signature proves a message came from the claimed sender** and was not altered.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bdJdNDQYZGsjzBJy",
+   "card_type": "true_or_false",
+   "order": 21,
+   "set_id": "flst_mpNc9XmfdxZTrTJC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A digital certificate proves that a message has not been altered."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what a **digital signature** does. A **certificate proves ownership of a public key**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA digital certificate proves that a message has not been altered.\n",
+   "back_md": "**False.**\n\nThat is what a **digital signature** does. A **certificate proves ownership of a public key**.\n",
+   "spec_links": [
+    "spcpt_9HZjnCMwpRjvrzpc"
+   ],
+   "flags": []
+  }
+ ]
+}

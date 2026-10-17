@@ -1,0 +1,2129 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:30Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/16-system-software-/purposes-of-an-operating-system-os/",
+  "section_slug": "16-system-software-",
+  "section_name": "16. System Software",
+  "topic_slug": "purposes-of-an-operating-system-os",
+  "title": "Purposes of an Operating System (OS)",
+  "order": 0
+ },
+ "card_count": 84,
+ "card_types": {
+  "keyword_definition": 18,
+  "question_and_answer": 54,
+  "fill_in_the_blanks": 6,
+  "true_or_false": 6
+ },
+ "spec_link_cards": 84,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_mFzsf83cVmyrb5x9",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **resource management**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Resource management is the operating system **managing the computer's hardware efficiently** to ensure the system runs smoothly."
+    }
+   ],
+   "front_md": "Define **resource management**.\n",
+   "back_md": "Resource management is the operating system **managing the computer's hardware efficiently** to ensure the system runs smoothly.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6d43PJ34NdCZ8SCW",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three things resource management is vital for."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Maximising performance**, **reducing bottlenecks**, and **ensuring multitasking works correctly**."
+    }
+   ],
+   "front_md": "Name three things resource management is vital for.\n",
+   "back_md": "**Maximising performance**, **reducing bottlenecks**, and **ensuring multitasking works correctly**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JBH5zvGXCGZwP9mc",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What runs when a computer is switched on?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **BIOS**, stored in ROM, runs a **bootstrap** program."
+    }
+   ],
+   "front_md": "What runs when a computer is switched on?\n",
+   "back_md": "The **BIOS**, stored in ROM, runs a **bootstrap** program.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q4VK659nW4bbQNj9",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The BIOS is stored in <u>**        **</u> and runs the bootstrap program."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The BIOS is stored in **ROM** and runs the bootstrap program."
+    }
+   ],
+   "front_md": "The BIOS is stored in <u>**        **</u> and runs the bootstrap program.\n",
+   "back_md": "The BIOS is stored in **ROM** and runs the bootstrap program.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_SrTkS8Shyjs35b7D",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the bootstrap program load?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **kernel** and essential parts of the OS, from hard disk or flash storage into **main memory (RAM)**."
+    }
+   ],
+   "front_md": "What does the bootstrap program load?\n",
+   "back_md": "The **kernel** and essential parts of the OS, from hard disk or flash storage into **main memory (RAM)**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5H2vM6tzXk4z8xp2",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is flash memory organised on tablets and smartphones?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **read-only section for the operating system**, and a **second section for apps and user data**."
+    }
+   ],
+   "front_md": "How is flash memory organised on tablets and smartphones?\n",
+   "back_md": "A **read-only section for the operating system**, and a **second section for apps and user data**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GP7DQHbws84vs6rn",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **kernel**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The kernel is the **core of the operating system**, responsible for process, memory, device, interrupt and file management."
+    }
+   ],
+   "front_md": "Define **kernel**.\n",
+   "back_md": "The kernel is the **core of the operating system**, responsible for process, memory, device, interrupt and file management.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pz6kbSCWKvCCFskm",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The kernel is responsible only for memory management."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The kernel manages **processes, memory, devices, interrupts and files**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe kernel is responsible only for memory management.\n",
+   "back_md": "**False.**\n\nThe kernel manages **processes, memory, devices, interrupts and files**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7NCD2DhbZYSxFJ3d",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the kernel do for process management?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **schedules processes**, **allocates CPU time**, and **handles multitasking**."
+    }
+   ],
+   "front_md": "What does the kernel do for process management?\n",
+   "back_md": "It **schedules processes**, **allocates CPU time**, and **handles multitasking**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fs2J7mZZTRfrY4yx",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the kernel do for memory management?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **allocates RAM to processes**, handles **virtual memory**, and **prevents clashes**."
+    }
+   ],
+   "front_md": "What does the kernel do for memory management?\n",
+   "back_md": "It **allocates RAM to processes**, handles **virtual memory**, and **prevents clashes**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fFt4qQcJcVzK5gMZ",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the kernel use to control input and output devices?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Device drivers**."
+    }
+   ],
+   "front_md": "What does the kernel use to control input and output devices?\n",
+   "back_md": "**Device drivers**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QCQZcW3ZQ9Rn8VXT",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the OS maximise CPU usage?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Through **scheduling**, which allows multiple processes to be managed efficiently."
+    }
+   ],
+   "front_md": "How does the OS maximise CPU usage?\n",
+   "back_md": "Through **scheduling**, which allows multiple processes to be managed efficiently.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dPg7YD2X46VJNfFr",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does multitasking ensure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That the CPU **switches rapidly between processes**."
+    }
+   ],
+   "front_md": "What does multitasking ensure?\n",
+   "back_md": "That the CPU **switches rapidly between processes**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MncXhJQFnZf2wK7r",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when RAM is full?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The OS may use **virtual memory** on disk to simulate extra memory, which allows more programs to run than would otherwise fit."
+    }
+   ],
+   "front_md": "What happens when RAM is full?\n",
+   "back_md": "The OS may use **virtual memory** on disk to simulate extra memory, which allows more programs to run than would otherwise fit.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PdH4GvgdwdRVsXPF",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do input and output devices need optimising?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **much slower than the CPU**."
+    }
+   ],
+   "front_md": "Why do input and output devices need optimising?\n",
+   "back_md": "They are **much slower than the CPU**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PBbCdpfRK87zmnvR",
+   "card_type": "keyword_definition",
+   "order": 15,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Direct Memory Access (DMA) controller**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A DMA controller allows **data transfer between memory and devices without CPU involvement**."
+    }
+   ],
+   "front_md": "Define **Direct Memory Access (DMA) controller**.\n",
+   "back_md": "A DMA controller allows **data transfer between memory and devices without CPU involvement**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wjpnrDsTVSgVHQkV",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The DMA controller requires the CPU to manage each data transfer."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "DMA allows transfer **without CPU involvement**, which frees the CPU to perform other tasks."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe DMA controller requires the CPU to manage each data transfer.\n",
+   "back_md": "**False.**\n\nDMA allows transfer **without CPU involvement**, which frees the CPU to perform other tasks.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gGGGk7QPZrkc7Z8D",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the benefit of DMA?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **frees up the CPU** to perform other tasks while data is being moved."
+    }
+   ],
+   "front_md": "What is the benefit of DMA?\n",
+   "back_md": "It **frees up the CPU** to perform other tasks while data is being moved.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yWYNsvBx7gprrNYN",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the DMA controller do when a transfer is complete?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sends an **interrupt** to the CPU."
+    }
+   ],
+   "front_md": "What does the DMA controller do when a transfer is complete?\n",
+   "back_md": "It sends an **interrupt** to the CPU.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QCnfP8T9VBJMnsfr",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the OS hide hardware complexity?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It provides a **user-friendly interface** through **GUIs**, and uses **device drivers** to handle communication with specific hardware, so users do not need to know technical commands."
+    }
+   ],
+   "front_md": "How does the OS hide hardware complexity?\n",
+   "back_md": "It provides a **user-friendly interface** through **GUIs**, and uses **device drivers** to handle communication with specific hardware, so users do not need to know technical commands.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bpZJtFP2ZDjtdzxR",
+   "card_type": "fill_in_the_blanks",
+   "order": 20,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A GUI makes tasks like file transfers easy, for example <u>**                          **</u> instead of the command line."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A GUI makes tasks like file transfers easy, for example **drag-and-drop** instead of the command line."
+    }
+   ],
+   "front_md": "A GUI makes tasks like file transfers easy, for example <u>**                          **</u> instead of the command line.\n",
+   "back_md": "A GUI makes tasks like file transfers easy, for example **drag-and-drop** instead of the command line.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JTYptCjnxjp3jsmn",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which is faster, a laser printer or a hard disk?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **hard disk**, at around **100 Mbps**, against around **1 Mbps** for a laser printer."
+    }
+   ],
+   "front_md": "Which is faster, a laser printer or a hard disk?\n",
+   "back_md": "A **hard disk**, at around **100 Mbps**, against around **1 Mbps** for a laser printer.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WQYdsvw9RcmTNyw2",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which techniques manage the input/output resource?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Interrupts**, **DMA**, **buffering** and **driver management**."
+    }
+   ],
+   "front_md": "Which techniques manage the input/output resource?\n",
+   "back_md": "**Interrupts**, **DMA**, **buffering** and **driver management**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CyhvzPNvcgbstYWP",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_FqxmbjT6sJJbBtyj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which techniques manage the storage resource?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**File system management**, and read/write optimisation via **caching and buffering**."
+    }
+   ],
+   "front_md": "Which techniques manage the storage resource?\n",
+   "back_md": "**File system management**, and read/write optimisation via **caching and buffering**.\n",
+   "spec_links": [
+    "spcpt_CsXnJscqXWtXVj5V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J6Zmbqj8q7vNQmvy",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **multitasking**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multitasking is the operating system **managing system resources** so that the user has the impression that **multiple programs are running at the same time**."
+    }
+   ],
+   "front_md": "Define **multitasking**.\n",
+   "back_md": "Multitasking is the operating system **managing system resources** so that the user has the impression that **multiple programs are running at the same time**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dQn8ZZxSt9Z2xrKx",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many instructions can a CPU execute at a time?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One.** It processes billions per second and switches between tasks so quickly that it gives the **illusion** of programs running simultaneously."
+    }
+   ],
+   "front_md": "How many instructions can a CPU execute at a time?\n",
+   "back_md": "**One.** It processes billions per second and switches between tasks so quickly that it gives the **illusion** of programs running simultaneously.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_99RrqYPsyyqvxn5W",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The OS splits tasks and allocates system resources based on a <u>**                **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The OS splits tasks and allocates system resources based on a **priority**."
+    }
+   ],
+   "front_md": "The OS splits tasks and allocates system resources based on a <u>**                **</u>.\n",
+   "back_md": "The OS splits tasks and allocates system resources based on a **priority**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_sj57wGzF9xBS5mK9",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **process**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A process is a **program in execution**, including the **program code**, **current data**, **register values** and **memory space**."
+    }
+   ],
+   "front_md": "Define **process**.\n",
+   "back_md": "A process is a **program in execution**, including the **program code**, **current data**, **register values** and **memory space**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bjk4xmsY6SZ4bs5b",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the OS treat each running application?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As a **separate process**."
+    }
+   ],
+   "front_md": "How does the OS treat each running application?\n",
+   "back_md": "As a **separate process**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qxTMZDKZtN4WwZmt",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three process states."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Running**, **ready** and **blocked**."
+    }
+   ],
+   "front_md": "Name the three process states.\n",
+   "back_md": "**Running**, **ready** and **blocked**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jV2nsVGDtz2dxJ4n",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the running state mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The process is **actively being executed by the CPU**."
+    }
+   ],
+   "front_md": "What does the running state mean?\n",
+   "back_md": "The process is **actively being executed by the CPU**.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q3rmv6pZgqTkVcCJ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the ready state mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The process is **prepared to run but is waiting for the CPU** to be available."
+    }
+   ],
+   "front_md": "What does the ready state mean?\n",
+   "back_md": "The process is **prepared to run but is waiting for the CPU** to be available.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qny7cv7tVWkDXfwd",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the blocked state mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The process is **waiting for an event or resource**, such as I/O completion."
+    }
+   ],
+   "front_md": "What does the blocked state mean?\n",
+   "back_md": "The process is **waiting for an event or resource**, such as I/O completion.\n",
+   "spec_links": [
+    "spcpt_GMyF3qVHqNnkQ5Gv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2RXFzvB7w5DSdNMG",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **scheduling**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Scheduling is deciding **which tasks to process, for how long, and in what order**."
+    }
+   ],
+   "front_md": "Define **scheduling**.\n",
+   "back_md": "Scheduling is deciding **which tasks to process, for how long, and in what order**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nrjzvvnt4nffczrd",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between pre-emptive and non-pre-emptive scheduling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Pre-emptive** allocates the CPU for **time-limited slots** and allows processes to be interrupted. **Non-pre-emptive** allocates the CPU for **unlimited time slots**, and a process cannot be interrupted until it completes or reaches its burst time."
+    }
+   ],
+   "front_md": "What is the difference between pre-emptive and non-pre-emptive scheduling?\n",
+   "back_md": "**Pre-emptive** allocates the CPU for **time-limited slots** and allows processes to be interrupted. **Non-pre-emptive** allocates the CPU for **unlimited time slots**, and a process cannot be interrupted until it completes or reaches its burst time.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yDqgNGDByZHR87sQ",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two pre-emptive scheduling algorithms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Round Robin** and **Shortest Remaining Time First**."
+    }
+   ],
+   "front_md": "Name two pre-emptive scheduling algorithms.\n",
+   "back_md": "**Round Robin** and **Shortest Remaining Time First**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xqMhWfvjqNm5zSZ6",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two non-pre-emptive scheduling algorithms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**First Come First Serve** and **Shortest Job First**."
+    }
+   ],
+   "front_md": "Name two non-pre-emptive scheduling algorithms.\n",
+   "back_md": "**First Come First Serve** and **Shortest Job First**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bvkHCJwPNN56j6Vd",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the risk of pre-emptive scheduling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Low-priority processes can be neglected** if high-priority processes arrive frequently."
+    }
+   ],
+   "front_md": "What is the risk of pre-emptive scheduling?\n",
+   "back_md": "**Low-priority processes can be neglected** if high-priority processes arrive frequently.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qjztgvJtpXNndg7v",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the risk of non-pre-emptive scheduling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If a process with a **long burst time** is running, **shorter processes are neglected**."
+    }
+   ],
+   "front_md": "What is the risk of non-pre-emptive scheduling?\n",
+   "back_md": "If a process with a **long burst time** is running, **shorter processes are neglected**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k72SPnG36y2rs4tk",
+   "card_type": "keyword_definition",
+   "order": 15,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Round Robin** scheduling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A pre-emptive algorithm that **distributes processor time equally**, giving each process a **time quantum**. A process not finished by the end of its quantum moves to the **back of the queue**."
+    }
+   ],
+   "front_md": "Define **Round Robin** scheduling.\n",
+   "back_md": "A pre-emptive algorithm that **distributes processor time equally**, giving each process a **time quantum**. A process not finished by the end of its quantum moves to the **back of the queue**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dsXBzpdJcKWqxK7P",
+   "card_type": "keyword_definition",
+   "order": 16,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **First-Come-First-Served** scheduling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A non-pre-emptive algorithm that **prioritises processes that arrive at the queue first**. The current process blocks all others until it completes."
+    }
+   ],
+   "front_md": "Define **First-Come-First-Served** scheduling.\n",
+   "back_md": "A non-pre-emptive algorithm that **prioritises processes that arrive at the queue first**. The current process blocks all others until it completes.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R7zZmBYGSGg9MNKg",
+   "card_type": "keyword_definition",
+   "order": 17,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Multi-Level Feedback Queue** scheduling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A pre-emptive priority algorithm using **multiple queues** so tasks of equal size are grouped together. Processes start in the highest priority queue and **trickle down** if they exceed the time quantum."
+    }
+   ],
+   "front_md": "Define **Multi-Level Feedback Queue** scheduling.\n",
+   "back_md": "A pre-emptive priority algorithm using **multiple queues** so tasks of equal size are grouped together. Processes start in the highest priority queue and **trickle down** if they exceed the time quantum.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5VxTb5M8Gyht6Zkr",
+   "card_type": "keyword_definition",
+   "order": 18,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Shortest Job First** scheduling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A non-pre-emptive algorithm where processes are **continuously sorted by burst time**, shortest to longest, with shorter jobs at the front of the queue."
+    }
+   ],
+   "front_md": "Define **Shortest Job First** scheduling.\n",
+   "back_md": "A non-pre-emptive algorithm where processes are **continuously sorted by burst time**, shortest to longest, with shorter jobs at the front of the queue.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BsdvwndYDgCQNJY5",
+   "card_type": "keyword_definition",
+   "order": 19,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Shortest Remaining Time First** scheduling."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **pre-emptive version of Shortest Job First**, where processes with the **shortest remaining time** have higher priority."
+    }
+   ],
+   "front_md": "Define **Shortest Remaining Time First** scheduling.\n",
+   "back_md": "A **pre-emptive version of Shortest Job First**, where processes with the **shortest remaining time** have higher priority.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RV6sJQPRHswRbpwb",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give a benefit and a drawback of Round Robin."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Benefit:** all processes get a fair share of the CPU, and it is predictable. **Drawback:** choosing the right time quantum is difficult, and long processes get high turnaround and waiting times."
+    }
+   ],
+   "front_md": "Give a benefit and a drawback of Round Robin.\n",
+   "back_md": "**Benefit:** all processes get a fair share of the CPU, and it is predictable. **Drawback:** choosing the right time quantum is difficult, and long processes get high turnaround and waiting times.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pSnKQDDCGFrjcB5w",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do both Shortest Job First and Shortest Remaining Time First require?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Knowing the burst time of processes in advance**."
+    }
+   ],
+   "front_md": "What do both Shortest Job First and Shortest Remaining Time First require?\n",
+   "back_md": "**Knowing the burst time of processes in advance**.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bxDf4J2Xtf6Qg4zd",
+   "card_type": "true_or_false",
+   "order": 22,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A drawback of one scheduling algorithm is always a drawback."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Suitability depends on the **specific scenario and system requirements**. A drawback in one scenario may not be a drawback in another."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA drawback of one scheduling algorithm is always a drawback.\n",
+   "back_md": "**False.**\n\nSuitability depends on the **specific scenario and system requirements**. A drawback in one scenario may not be a drawback in another.\n",
+   "spec_links": [
+    "spcpt_NCSN5NHRmwzRpzNk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hk69x8w7PqGnWWMN",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the five steps of interrupt handling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **interrupt signal occurs**; the **current process is paused and its state saved**; the kernel identifies the **source and priority**; the appropriate **Interrupt Service Routine (ISR)** is called; the original process is **restored and resumed**."
+    }
+   ],
+   "front_md": "What are the five steps of interrupt handling?\n",
+   "back_md": "An **interrupt signal occurs**; the **current process is paused and its state saved**; the kernel identifies the **source and priority**; the appropriate **Interrupt Service Routine (ISR)** is called; the original process is **restored and resumed**.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m9mgG6HVbDShnMy4",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is saved when a process is paused for an interrupt?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **state**, including the **registers** and the **program counter**."
+    }
+   ],
+   "front_md": "What is saved when a process is paused for an interrupt?\n",
+   "back_md": "Its **state**, including the **registers** and the **program counter**.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KWQ3HZ5FBkdRPYjW",
+   "card_type": "keyword_definition",
+   "order": 25,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Interrupt Service Routine (ISR)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The routine that is called to handle a particular interrupt, once the kernel has identified its source and priority."
+    }
+   ],
+   "front_md": "Define **Interrupt Service Routine (ISR)**.\n",
+   "back_md": "The routine that is called to handle a particular interrupt, once the kernel has identified its source and priority.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xfvjrDw6y76M7Bc7",
+   "card_type": "true_or_false",
+   "order": 26,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "After an interrupt has been handled, the original process is discarded."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The original process is **restored and resumed**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAfter an interrupt has been handled, the original process is discarded.\n",
+   "back_md": "**False.**\n\nThe original process is **restored and resumed**.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qHhkT75kvK8HXdHB",
+   "card_type": "question_and_answer",
+   "order": 27,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do timer interrupts do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They **trigger a context switch** between processes, supporting **pre-emptive multitasking**."
+    }
+   ],
+   "front_md": "What do timer interrupts do?\n",
+   "back_md": "They **trigger a context switch** between processes, supporting **pre-emptive multitasking**.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8mYjcFPgTjJ3tTbx",
+   "card_type": "question_and_answer",
+   "order": 28,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do I/O interrupts signal?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That an **I/O task has finished**, such as a file write or printer job, which **unblocks waiting processes**."
+    }
+   ],
+   "front_md": "What do I/O interrupts signal?\n",
+   "back_md": "That an **I/O task has finished**, such as a file write or printer job, which **unblocks waiting processes**.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5rnpQr8TZzzqbtPs",
+   "card_type": "question_and_answer",
+   "order": 29,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do hardware interrupts respond to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Urgent external events**, such as a power failure or mouse input."
+    }
+   ],
+   "front_md": "What do hardware interrupts respond to?\n",
+   "back_md": "**Urgent external events**, such as a power failure or mouse input.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vRhNVQtMmnP3fjg5",
+   "card_type": "question_and_answer",
+   "order": 30,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do software interrupts do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **generated by programs to request system-level services**, such as memory allocation."
+    }
+   ],
+   "front_md": "What do software interrupts do?\n",
+   "back_md": "They are **generated by programs to request system-level services**, such as memory allocation.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_45jJbZFdZw3dx9M9",
+   "card_type": "fill_in_the_blanks",
+   "order": 31,
+   "set_id": "flst_xJTFb4tzVjZ4Wz8t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The <u>**                  **</u>, which is part of the kernel, uses interrupts to decide which process should run next."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **scheduler**, which is part of the kernel, uses interrupts to decide which process should run next."
+    }
+   ],
+   "front_md": "The <u>**                  **</u>, which is part of the kernel, uses interrupts to decide which process should run next.\n",
+   "back_md": "The **scheduler**, which is part of the kernel, uses interrupts to decide which process should run next.\n",
+   "spec_links": [
+    "spcpt_C3mgT4G7C6jMqGSq"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2zy4cPSkfXnG9ykv",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **memory management**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Memory management is a fundamental role of the operating system, dealing with the **allocation and deallocation of the computer's primary memory**."
+    }
+   ],
+   "front_md": "Define **memory management**.\n",
+   "back_md": "Memory management is a fundamental role of the operating system, dealing with the **allocation and deallocation of the computer's primary memory**.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bw9V3W6mqb3kN55w",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when a user opens an application?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **data is loaded from storage into active memory** so that it can run smoothly."
+    }
+   ],
+   "front_md": "What happens when a user opens an application?\n",
+   "back_md": "Its **data is loaded from storage into active memory** so that it can run smoothly.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kRn9T7Ps77V5Yb6d",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does primary memory need careful management?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **limited resource** in the system."
+    }
+   ],
+   "front_md": "Why does primary memory need careful management?\n",
+   "back_md": "It is a **limited resource** in the system.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rxhBMqK9R5BJ2C5s",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two benefits of memory management."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Efficient allocation **enables multitasking**, and it **maintains security** by not letting programs access memory reserved for other programs."
+    }
+   ],
+   "front_md": "Name two benefits of memory management.\n",
+   "back_md": "Efficient allocation **enables multitasking**, and it **maintains security** by not letting programs access memory reserved for other programs.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cckyFRNJ5Syzt5yH",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Memory management maintains <u>**                **</u> by stopping programs accessing memory reserved for others."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Memory management maintains **security** by stopping programs accessing memory reserved for others."
+    }
+   ],
+   "front_md": "Memory management maintains <u>**                **</u> by stopping programs accessing memory reserved for others.\n",
+   "back_md": "Memory management maintains **security** by stopping programs accessing memory reserved for others.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Bph7vSsr7gnzB4sH",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three memory management techniques."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Paging**, **segmentation** and **virtual memory**."
+    }
+   ],
+   "front_md": "Name the three memory management techniques.\n",
+   "back_md": "**Paging**, **segmentation** and **virtual memory**.\n",
+   "spec_links": [
+    "spcpt_4BtYyv8hgvms2CFG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VVKrNc9xhsxx28Cz",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **paging**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Paging is a method of **chunking primary memory into equal-sized blocks**."
+    }
+   ],
+   "front_md": "Define **paging**.\n",
+   "back_md": "Paging is a method of **chunking primary memory into equal-sized blocks**.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zZncGpcfnvHQbgvX",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Pages are variable in size."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Paging divides memory into **fixed, equal-sized blocks**. It is **segmentation** that uses variable sizes."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPages are variable in size.\n",
+   "back_md": "**False.**\n\nPaging divides memory into **fixed, equal-sized blocks**. It is **segmentation** that uses variable sizes.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yYT7cy66NynQv3jn",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to pages as users switch between applications?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Memory is **dynamically allocated**. Pages are taken away from applications not in active use and granted to applications that are in active use."
+    }
+   ],
+   "front_md": "What happens to pages as users switch between applications?\n",
+   "back_md": "Memory is **dynamically allocated**. Pages are taken away from applications not in active use and granted to applications that are in active use.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5sng2Kd5GFb6xVyx",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **internal fragmentation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Internal fragmentation is the wasted space that builds up **inside pages** over time, because unused space in a page cannot hold other unrelated data."
+    }
+   ],
+   "front_md": "Define **internal fragmentation**.\n",
+   "back_md": "Internal fragmentation is the wasted space that builds up **inside pages** over time, because unused space in a page cannot hold other unrelated data.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4ymGPk4gBKdFN5kj",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A 200KB file is divided into four 64KB pages."
+    },
+    {
+     "type": "paragraph",
+     "md": "How much of the last page is used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first three pages hold 192KB, so the fourth page has **8KB used** and **56KB unused**."
+    }
+   ],
+   "front_md": "A 200KB file is divided into four 64KB pages.\n\nHow much of the last page is used?\n",
+   "back_md": "The first three pages hold 192KB, so the fourth page has **8KB used** and **56KB unused**.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PKq629JnB7sCF3TM",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is unused space in a page wasteful?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because **other unrelated data cannot be stored in that page**."
+    }
+   ],
+   "front_md": "Why is unused space in a page wasteful?\n",
+   "back_md": "Because **other unrelated data cannot be stored in that page**.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sxvDXvBRh3W6T5hZ",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give one benefit and one drawback of paging."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Benefit:** it facilitates efficient memory management and enables the use of virtual memory. **Drawback:** it can lead to **internal fragmentation**."
+    }
+   ],
+   "front_md": "Give one benefit and one drawback of paging.\n",
+   "back_md": "**Benefit:** it facilitates efficient memory management and enables the use of virtual memory. **Drawback:** it can lead to **internal fragmentation**.\n",
+   "spec_links": [
+    "spcpt_75hmrd2yg9xz7V8W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hfWqyRy3qRqxrPsv",
+   "card_type": "keyword_definition",
+   "order": 13,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **segmentation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Segmentation is a method of **chunking memory into blocks that correspond to different types of data** needed by an application."
+    }
+   ],
+   "front_md": "Define **segmentation**.\n",
+   "back_md": "Segmentation is a method of **chunking memory into blocks that correspond to different types of data** needed by an application.\n",
+   "spec_links": [
+    "spcpt_ztV4XcxXGcRJ9KRK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RsFtRTzj9R825N2q",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Are segments all the same size?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No.** They are **sized depending on their allocated data**."
+    }
+   ],
+   "front_md": "Are segments all the same size?\n",
+   "back_md": "**No.** They are **sized depending on their allocated data**.\n",
+   "spec_links": [
+    "spcpt_ztV4XcxXGcRJ9KRK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_46Y28zFcNVc9Gg8J",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example of segments in an application."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A video editing application may have a segment for **video data**, **audio data** and **special effects**."
+    }
+   ],
+   "front_md": "Give an example of segments in an application.\n",
+   "back_md": "A video editing application may have a segment for **video data**, **audio data** and **special effects**.\n",
+   "spec_links": [
+    "spcpt_ztV4XcxXGcRJ9KRK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZxhcHYY9z2Gqydts",
+   "card_type": "keyword_definition",
+   "order": 16,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **external fragmentation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As segments fill up the memory, **physical gaps reduce the maximum size of new segments** that can be allocated."
+    }
+   ],
+   "front_md": "Define **external fragmentation**.\n",
+   "back_md": "As segments fill up the memory, **physical gaps reduce the maximum size of new segments** that can be allocated.\n",
+   "spec_links": [
+    "spcpt_ztV4XcxXGcRJ9KRK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_py5gRH9kh67rTvTT",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give one benefit and one drawback of segmentation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Benefit:** it allows intuitive and efficient memory access, allocating only the space an application needs. **Drawback:** it can result in **external fragmentation**."
+    }
+   ],
+   "front_md": "Give one benefit and one drawback of segmentation.\n",
+   "back_md": "**Benefit:** it allows intuitive and efficient memory access, allocating only the space an application needs. **Drawback:** it can result in **external fragmentation**.\n",
+   "spec_links": [
+    "spcpt_ztV4XcxXGcRJ9KRK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_THCPHNyFm5F2rxTp",
+   "card_type": "keyword_definition",
+   "order": 18,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **virtual memory**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When a computer is running low on primary memory, **secondary storage acts as an extension of the main memory**."
+    }
+   ],
+   "front_md": "Define **virtual memory**.\n",
+   "back_md": "When a computer is running low on primary memory, **secondary storage acts as an extension of the main memory**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yCmMvFFDGRDVr3gH",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does virtual memory create?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **illusion of a larger memory**, which enables applications to continue to multitask."
+    }
+   ],
+   "front_md": "What does virtual memory create?\n",
+   "back_md": "An **illusion of a larger memory**, which enables applications to continue to multitask.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NkGGGdYqxHkWXj9N",
+   "card_type": "fill_in_the_blanks",
+   "order": 20,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Virtual memory is created <u>**                      **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Virtual memory is created **temporarily**."
+    }
+   ],
+   "front_md": "Virtual memory is created <u>**                      **</u>.\n",
+   "back_md": "Virtual memory is created **temporarily**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HGdVkfBYYKZwHFGd",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does virtual memory compare with RAM for speed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Accessing data in virtual memory is **considerably slower** than RAM. Solid-state drives are faster than hard-disk drives, but **neither is as fast as RAM**."
+    }
+   ],
+   "front_md": "How does virtual memory compare with RAM for speed?\n",
+   "back_md": "Accessing data in virtual memory is **considerably slower** than RAM. Solid-state drives are faster than hard-disk drives, but **neither is as fast as RAM**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nRJCCZfVMdqNSFgk",
+   "card_type": "true_or_false",
+   "order": 22,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Virtual memory is as fast as RAM."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **considerably slower**. Neither solid-state drives nor hard disks are as fast as RAM."
+    }
+   ],
+   "front_md": "**True or False?**\n\nVirtual memory is as fast as RAM.\n",
+   "back_md": "**False.**\n\nIt is **considerably slower**. Neither solid-state drives nor hard disks are as fast as RAM.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RHjHRGFRvPdzW3mx",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the risk of over-relying on virtual memory?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Performance issues**."
+    }
+   ],
+   "front_md": "What is the risk of over-relying on virtual memory?\n",
+   "back_md": "**Performance issues**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DQZnPxt8SWn3wF3f",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Explain what is meant by virtual memory, for 3 marks."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Disk or secondary storage is used to extend the RAM available**, so the CPU **appears able to access more memory than the available RAM**. Only the data in use needs to be in main memory, so data can be **swapped between RAM and virtual memory** as necessary."
+    }
+   ],
+   "front_md": "Explain what is meant by virtual memory, for 3 marks.\n",
+   "back_md": "**Disk or secondary storage is used to extend the RAM available**, so the CPU **appears able to access more memory than the available RAM**. Only the data in use needs to be in main memory, so data can be **swapped between RAM and virtual memory** as necessary.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wV3N84bVJWCH4Vyc",
+   "card_type": "question_and_answer",
+   "order": 25,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State one difference between paging and segmentation in how memory is divided."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Paging** divides memory into **fixed size blocks**. **Segmentation** divides memory into **variable sized blocks**."
+    }
+   ],
+   "front_md": "State one difference between paging and segmentation in how memory is divided.\n",
+   "back_md": "**Paging** divides memory into **fixed size blocks**. **Segmentation** divides memory into **variable sized blocks**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FFn8ngBghFrz2dkG",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Who decides the size, for paging and for segmentation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **operating system** divides the memory into pages. The **compiler** is responsible for calculating the segment size."
+    }
+   ],
+   "front_md": "Who decides the size, for paging and for segmentation?\n",
+   "back_md": "The **operating system** divides the memory into pages. The **compiler** is responsible for calculating the segment size.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8254kGnbgwPWhrMh",
+   "card_type": "question_and_answer",
+   "order": 27,
+   "set_id": "flst_7w3DZYJBsdxH6XsC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which has faster access times, paging or segmentation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Paging**."
+    }
+   ],
+   "front_md": "Which has faster access times, paging or segmentation?\n",
+   "back_md": "**Paging**.\n",
+   "spec_links": [
+    "spcpt_y7VT64ymwJ6m4GnB"
+   ],
+   "flags": []
+  }
+ ]
+}

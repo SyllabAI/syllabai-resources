@@ -1,0 +1,877 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:38Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/6-security-privacy-and-data-integrity-/data-integrity/",
+  "section_slug": "6-security-privacy-and-data-integrity-",
+  "section_name": "6. Security, privacy & data integrity",
+  "topic_slug": "data-integrity",
+  "title": "Data Integrity",
+  "order": 1
+ },
+ "card_count": 34,
+ "card_types": {
+  "keyword_definition": 13,
+  "question_and_answer": 17,
+  "true_or_false": 2,
+  "fill_in_the_blanks": 2
+ },
+ "spec_link_cards": 34,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_r3jF6fxMnxRJQQtr",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **validation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Validation is an **automated process** where a computer checks if a user input is **sensible** and meets the program's requirements."
+    }
+   ],
+   "front_md": "Define **validation**.\n",
+   "back_md": "Validation is an **automated process** where a computer checks if a user input is **sensible** and meets the program's requirements.\n",
+   "spec_links": [
+    "spcpt_Qwcvb7R46yWB7bgy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dDMhXPFNmcbDmqP5",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **verification**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Verification is the act of **checking data is accurate** when it is being **transferred or entered** into a system."
+    }
+   ],
+   "front_md": "Define **verification**.\n",
+   "back_md": "Verification is the act of **checking data is accurate** when it is being **transferred or entered** into a system.\n",
+   "spec_links": [
+    "spcpt_Qwcvb7R46yWB7bgy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kw6SzCwzN4pMTfQV",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between validation and verification?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Validation** checks that data is **sensible** and meets the program's requirements. **Verification** checks that data is **accurate** when it is transferred or entered."
+    }
+   ],
+   "front_md": "What is the difference between validation and verification?\n",
+   "back_md": "**Validation** checks that data is **sensible** and meets the program's requirements. **Verification** checks that data is **accurate** when it is transferred or entered.\n",
+   "spec_links": [
+    "spcpt_Qwcvb7R46yWB7bgy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W7hwMtZ3XHTT2NQg",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four verification methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The four verification methods are a **parity check** and a **checksum** (used on transfer), and **double entry checking** and **visual checks** (used on entry)."
+    }
+   ],
+   "front_md": "Name the four verification methods.\n",
+   "back_md": "The four verification methods are a **parity check** and a **checksum** (used on transfer), and **double entry checking** and **visual checks** (used on entry).\n",
+   "spec_links": [
+    "spcpt_Qwcvb7R46yWB7bgy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NnbZRs6BzJ4H79q7",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only one type of validation can be applied to a field."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "More than one type of validation can be used on a field. A password field could have a **length**, **presence** and **type** check on it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOnly one type of validation can be applied to a field.\n",
+   "back_md": "**False.**\n\nMore than one type of validation can be used on a field. A password field could have a **length**, **presence** and **type** check on it.\n",
+   "spec_links": [
+    "spcpt_Qwcvb7R46yWB7bgy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3xT9QD8h2c5xTfR9",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the seven categories of validation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The seven categories are a **range check**, **format check**, **length check**, **presence check**, **existence check**, **limit check** and **check digit**."
+    }
+   ],
+   "front_md": "Name the seven categories of validation.\n",
+   "back_md": "The seven categories are a **range check**, **format check**, **length check**, **presence check**, **existence check**, **limit check** and **check digit**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Nqm2NzfSPSNYKYCT",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **range check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A range check ensures a number **falls within a set range**, for example that a percentage is between 0 and 100."
+    }
+   ],
+   "front_md": "Define **range check**.\n",
+   "back_md": "A range check ensures a number **falls within a set range**, for example that a percentage is between 0 and 100.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KdjrtZK3CPWXFvJv",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **limit check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A limit check checks that a value **does not exceed a maximum limit**, for example that no more than 5 items can be bought in a special offer."
+    }
+   ],
+   "front_md": "Define **limit check**.\n",
+   "back_md": "A limit check checks that a value **does not exceed a maximum limit**, for example that no more than 5 items can be bought in a special offer.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kq7ggzNWwNX2K8Vb",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a range check and a limit check?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **range check** ensures a number falls within a **set range**, whereas a **limit check** only checks that a value **does not exceed a maximum**."
+    }
+   ],
+   "front_md": "What is the difference between a range check and a limit check?\n",
+   "back_md": "A **range check** ensures a number falls within a **set range**, whereas a **limit check** only checks that a value **does not exceed a maximum**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7kkfxp2MvzSGS88T",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **length check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A length check checks the **length of a string**, for example confirming that a PIN is exactly 4 digits long."
+    }
+   ],
+   "front_md": "Define **length check**.\n",
+   "back_md": "A length check checks the **length of a string**, for example confirming that a PIN is exactly 4 digits long.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vZsvwjVVcPfHtRrQ",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **presence check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A presence check checks that **data has been entered** and that the field is **not blank**."
+    }
+   ],
+   "front_md": "Define **presence check**.\n",
+   "back_md": "A presence check checks that **data has been entered** and that the field is **not blank**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5NPj5CF5tCrYYxBw",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **existence check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An existence check checks that a **referenced value exists** in a database or list, for example that a student ID exists in the school records."
+    }
+   ],
+   "front_md": "Define **existence check**.\n",
+   "back_md": "An existence check checks that a **referenced value exists** in a database or list, for example that a student ID exists in the school records.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XcCVhWsDS76HJHJ8",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **format check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A format check ensures data is in the **correct format**, for example that an email address contains '@' and a domain such as '.com'."
+    }
+   ],
+   "front_md": "Define **format check**.\n",
+   "back_md": "A format check ensures data is in the **correct format**, for example that an email address contains '@' and a domain such as '.com'.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CHHmcvVGbCc9Cgjc",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a type check do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A type check checks that the input is of the **correct data type**, for example that an age is entered as a whole number."
+    }
+   ],
+   "front_md": "What does a type check do?\n",
+   "back_md": "A type check checks that the input is of the **correct data type**, for example that an age is entered as a whole number.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C4Q5PfmRVkWN6XfT",
+   "card_type": "keyword_definition",
+   "order": 14,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **check digit**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A check digit is the **last digit** included in a code or sequence, used to **detect errors in numeric data entry**."
+    }
+   ],
+   "front_md": "Define **check digit**.\n",
+   "back_md": "A check digit is the **last digit** included in a code or sequence, used to **detect errors in numeric data entry**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_McDXThYwcZfbCjhS",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three types of error that a check digit can identify."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A check digit can identify **incorrect digits entered**, **omitted or extra digits** and **phonetic errors**."
+    }
+   ],
+   "front_md": "Name three types of error that a check digit can identify.\n",
+   "back_md": "A check digit can identify **incorrect digits entered**, **omitted or extra digits** and **phonetic errors**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D32tMH3ZJghCMymB",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two examples of where check digits are used."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Check digits are used in **ISBN book numbers** and **barcodes**."
+    }
+   ],
+   "front_md": "Give two examples of where check digits are used.\n",
+   "back_md": "Check digits are used in **ISBN book numbers** and **barcodes**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WHyKCTvc35ybPqs8",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a check digit show that an ISBN is valid?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A check digit algorithm is performed on the ISBN, and if the result is a **whole number** with no remainder then the ISBN is **valid**."
+    }
+   ],
+   "front_md": "How does a check digit show that an ISBN is valid?\n",
+   "back_md": "A check digit algorithm is performed on the ISBN, and if the result is a **whole number** with no remainder then the ISBN is **valid**.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xph5pFmNwTmdHrnv",
+   "card_type": "fill_in_the_blanks",
+   "order": 18,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a barcode, the <u>**          **</u> digit is usually the check digit."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a barcode, the **final** digit is usually the check digit."
+    }
+   ],
+   "front_md": "On a barcode, the <u>**          **</u> digit is usually the check digit.\n",
+   "back_md": "On a barcode, the **final** digit is usually the check digit.\n",
+   "spec_links": [
+    "spcpt_32jYtVRJtPznbZjb"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_jJh6qgVc4Zxf8kdc",
+   "card_type": "keyword_definition",
+   "order": 19,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **parity check**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A parity check determines whether **bits in a transmission have been corrupted**."
+    }
+   ],
+   "front_md": "Define **parity check**.\n",
+   "back_md": "A parity check determines whether **bits in a transmission have been corrupted**.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PfB8PSHQPmr7xVrD",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must the sender and receiver agree before transmission?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They must agree whether they are using **odd** or **even parity**."
+    }
+   ],
+   "front_md": "What must the sender and receiver agree before transmission?\n",
+   "back_md": "They must agree whether they are using **odd** or **even parity**.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6pBdDb7vznRqYPz4",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many bits of each transmitted byte are allocated as the parity bit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One** bit of every byte transmitted is allocated as the parity bit."
+    }
+   ],
+   "front_md": "How many bits of each transmitted byte are allocated as the parity bit?\n",
+   "back_md": "**One** bit of every byte transmitted is allocated as the parity bit.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TPBBf533BPC8GB8r",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If even parity is used, what must be true of the byte?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There must be an **even number of 1s in the byte**, including the parity bit."
+    }
+   ],
+   "front_md": "If even parity is used, what must be true of the byte?\n",
+   "back_md": "There must be an **even number of 1s in the byte**, including the parity bit.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nNjqk547GwZxmfh5",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Even parity is agreed and the main bit string is 1 0 1 1 0 1 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the parity bit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There are **four** 1s in the bit string, which is already even, so the parity bit is **0**."
+    }
+   ],
+   "front_md": "Even parity is agreed and the main bit string is 1 0 1 1 0 1 0.\n\nWhat is the parity bit?\n",
+   "back_md": "There are **four** 1s in the bit string, which is already even, so the parity bit is **0**.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jGWwKchQmcXdg7Qb",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Odd parity is agreed and the main bit string is 1 1 0 1 0 0 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the parity bit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There are **four** 1s in the bit string, which is even, so the parity bit must be **1** to make the total number of 1s odd (**five**)."
+    }
+   ],
+   "front_md": "Odd parity is agreed and the main bit string is 1 1 0 1 0 0 1.\n\nWhat is the parity bit?\n",
+   "back_md": "There are **four** 1s in the bit string, which is even, so the parity bit must be **1** to make the total number of 1s odd (**five**).\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_smbDwhyS4VpDGPcb",
+   "card_type": "true_or_false",
+   "order": 25,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A parity check tells you where in the byte the error occurred."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A parity check only shows that **an error has occurred**, not where it occurred."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA parity check tells you where in the byte the error occurred.\n",
+   "back_md": "**False.**\n\nA parity check only shows that **an error has occurred**, not where it occurred.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SptXPMYbYXsz9mxD",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What weakness do parity checks have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Parity checks are quick and easy to implement, but they **fail to detect bit swaps** that leave the parity unchanged."
+    }
+   ],
+   "front_md": "What weakness do parity checks have?\n",
+   "back_md": "Parity checks are quick and easy to implement, but they **fail to detect bit swaps** that leave the parity unchanged.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XNvSQcd2GXf3P6Mg",
+   "card_type": "fill_in_the_blanks",
+   "order": 27,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bits can be flipped due to <u>**                        **</u> on a wire, or wirelessly due to weather or other signals."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bits can be flipped due to **interference** on a wire, or wirelessly due to weather or other signals."
+    }
+   ],
+   "front_md": "Bits can be flipped due to <u>**                        **</u> on a wire, or wirelessly due to weather or other signals.\n",
+   "back_md": "Bits can be flipped due to **interference** on a wire, or wirelessly due to weather or other signals.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_rpr33bkB9nsJqKv7",
+   "card_type": "question_and_answer",
+   "order": 28,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a parity block allow an error to be pinpointed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A parity block totals the 1s **horizontally and vertically**, and by **cross referencing** the horizontal parity bits with the vertical parity byte the exact bit in error can be located."
+    }
+   ],
+   "front_md": "How does a parity block allow an error to be pinpointed?\n",
+   "back_md": "A parity block totals the 1s **horizontally and vertically**, and by **cross referencing** the horizontal parity bits with the vertical parity byte the exact bit in error can be located.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zyrpDtwJWzQjvxvQ",
+   "card_type": "keyword_definition",
+   "order": 29,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **parity byte**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A parity byte is a byte sent with the data that contains the **parity bits from the vertical parity calculation**."
+    }
+   ],
+   "front_md": "Define **parity byte**.\n",
+   "back_md": "A parity byte is a byte sent with the data that contains the **parity bits from the vertical parity calculation**.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cCggRkTrsqJNTS26",
+   "card_type": "keyword_definition",
+   "order": 30,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **checksum**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A checksum is a value used to determine if data has been **corrupted or altered**."
+    }
+   ],
+   "front_md": "Define **checksum**.\n",
+   "back_md": "A checksum is a value used to determine if data has been **corrupted or altered**.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D9Qz3c654cqtYVmT",
+   "card_type": "question_and_answer",
+   "order": 31,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a checksum detect an error?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The receiving device **re-calculates** the checksum and **compares** it with the original. If the checksums **do not match**, an error is assumed."
+    }
+   ],
+   "front_md": "How does a checksum detect an error?\n",
+   "back_md": "The receiving device **re-calculates** the checksum and **compares** it with the original. If the checksums **do not match**, an error is assumed.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6bdtqgbKmWfsrS6K",
+   "card_type": "keyword_definition",
+   "order": 32,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **double entry checking**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Double entry checking involves **entering the data twice** in separate input boxes and comparing them to ensure they match."
+    }
+   ],
+   "front_md": "Define **double entry checking**.\n",
+   "back_md": "Double entry checking involves **entering the data twice** in separate input boxes and comparing them to ensure they match.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZfxJQfS8rj39SYDh",
+   "card_type": "question_and_answer",
+   "order": 33,
+   "set_id": "flst_n2Jsh527BsrTtCYc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a visual check?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A visual check is where the user **visually checks the data on the screen**, and a message asks if the data is correct before proceeding."
+    }
+   ],
+   "front_md": "What is a visual check?\n",
+   "back_md": "A visual check is where the user **visually checks the data on the screen**, and a message asks if the data is correct before proceeding.\n",
+   "spec_links": [
+    "spcpt_Q4M6BsPSYkPpsctR"
+   ],
+   "flags": []
+  }
+ ]
+}

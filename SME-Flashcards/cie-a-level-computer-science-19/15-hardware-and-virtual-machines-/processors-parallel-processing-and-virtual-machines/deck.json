@@ -1,0 +1,2559 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:29Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/15-hardware-and-virtual-machines-/processors-parallel-processing-and-virtual-machines/",
+  "section_slug": "15-hardware-and-virtual-machines-",
+  "section_name": "15. Hardware & Virtual Machines",
+  "topic_slug": "processors-parallel-processing-and-virtual-machines",
+  "title": "Processors, Parallel Processing & Virtual Machines",
+  "order": 0
+ },
+ "card_count": 100,
+ "card_types": {
+  "keyword_definition": 14,
+  "question_and_answer": 67,
+  "fill_in_the_blanks": 9,
+  "true_or_false": 10
+ },
+ "spec_link_cards": 100,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_YZn8VDdHkH5qq6xh",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **RISC**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Reduced Instruction Set Computer: a processor with a **smaller instruction set** made up of **simpler instructions**."
+    }
+   ],
+   "front_md": "Define **RISC**.\n",
+   "back_md": "Reduced Instruction Set Computer: a processor with a **smaller instruction set** made up of **simpler instructions**.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7VRqp8CfhW28WXQw",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **CISC**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complex Instruction Set Computer: a processor with a **larger instruction set** that includes **more complex instructions**."
+    }
+   ],
+   "front_md": "Define **CISC**.\n",
+   "back_md": "Complex Instruction Set Computer: a processor with a **larger instruction set** that includes **more complex instructions**.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5h4MnVjx8PYY2MrS",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many clock cycles does a RISC instruction take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One clock cycle**, which is what makes RISC more suitable for pipelining."
+    }
+   ],
+   "front_md": "How many clock cycles does a RISC instruction take?\n",
+   "back_md": "**One clock cycle**, which is what makes RISC more suitable for pipelining.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yKq9Hkx9T2XfxKtV",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many clock cycles does a CISC instruction take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**More than one clock cycle**, because the instructions are more complex."
+    }
+   ],
+   "front_md": "How many clock cycles does a CISC instruction take?\n",
+   "back_md": "**More than one clock cycle**, because the instructions are more complex.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nFHsqHpPzBtVc4yp",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "RISC is better suited to <u>**                    **</u> because each instruction takes one clock cycle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "RISC is better suited to **pipelining** because each instruction takes one clock cycle."
+    }
+   ],
+   "front_md": "RISC is better suited to <u>**                    **</u> because each instruction takes one clock cycle.\n",
+   "back_md": "RISC is better suited to **pipelining** because each instruction takes one clock cycle.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_khyhwmCnJVf836vx",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a RISC program require more instructions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because **each instruction performs a simpler operation**."
+    }
+   ],
+   "front_md": "Why might a RISC program require more instructions?\n",
+   "back_md": "Because **each instruction performs a simpler operation**.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vjxBNG3FJ9dfMtHG",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which has more general-purpose registers, RISC or CISC?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC** has more general-purpose registers. **CISC** has fewer."
+    }
+   ],
+   "front_md": "Which has more general-purpose registers, RISC or CISC?\n",
+   "back_md": "**RISC** has more general-purpose registers. **CISC** has fewer.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z5RrxJqvthxqSwNr",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which has more addressing modes, RISC or CISC?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CISC** has more addressing modes. **RISC** has fewer."
+    }
+   ],
+   "front_md": "Which has more addressing modes, RISC or CISC?\n",
+   "back_md": "**CISC** has more addressing modes. **RISC** has fewer.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZgGBDPcHpwvVch2r",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which uses more memory, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC** uses more memory, because it needs **more instructions**. CISC instructions take up **less space in memory**."
+    }
+   ],
+   "front_md": "Which uses more memory, and why?\n",
+   "back_md": "**RISC** uses more memory, because it needs **more instructions**. CISC instructions take up **less space in memory**.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q4q4TKGnXHrkMTMV",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which has the more complex compiler?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC** has a **more complex** compiler. CISC's compiler is less complex."
+    }
+   ],
+   "front_md": "Which has the more complex compiler?\n",
+   "back_md": "**RISC** has a **more complex** compiler. CISC's compiler is less complex.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jjmq4d3hDBNsc5Hg",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Compare RISC and CISC on power usage and cost."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC** has **lower** power usage and **lower** cost. **CISC** is **higher** on both."
+    }
+   ],
+   "front_md": "Compare RISC and CISC on power usage and cost.\n",
+   "back_md": "**RISC** has **lower** power usage and **lower** cost. **CISC** is **higher** on both.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yfFrcX3NnZx2hVSN",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which devices typically use RISC, and which use CISC?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC** is usually used in **smartphones and tablets**. **CISC** is usually used in **laptops and desktop computers**."
+    }
+   ],
+   "front_md": "Which devices typically use RISC, and which use CISC?\n",
+   "back_md": "**RISC** is usually used in **smartphones and tablets**. **CISC** is usually used in **laptops and desktop computers**.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xSbYgx3P8Rb3g9Xb",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which processor type uses both a hardwired and a micro-coded control unit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CISC**"
+    }
+   ],
+   "front_md": "Which processor type uses both a hardwired and a micro-coded control unit?\n",
+   "back_md": "**CISC**\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Sw8RMcgK2vnFYyfX",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which processor type splits cache between data and instructions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**RISC**"
+    }
+   ],
+   "front_md": "Which processor type splits cache between data and instructions?\n",
+   "back_md": "**RISC**\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pw7pmnPRJT8H9KtT",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A program written for a RISC processor will run on a CISC processor."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It **will not work**. It will not necessarily work on **another RISC** processor either, because they may have different instruction sets."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA program written for a RISC processor will run on a CISC processor.\n",
+   "back_md": "**False.**\n\nIt **will not work**. It will not necessarily work on **another RISC** processor either, because they may have different instruction sets.\n",
+   "spec_links": [
+    "spcpt_ZbWSzmYtMGRXPsSW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mmsndyt7BBPjh3g4",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does CISC handle interrupts?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using **microcode and dedicated hardware instructions**, which manages interrupts efficiently."
+    }
+   ],
+   "front_md": "How does CISC handle interrupts?\n",
+   "back_md": "Using **microcode and dedicated hardware instructions**, which manages interrupts efficiently.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kQ5pBt6Hvn7X6K3j",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does RISC handle interrupts?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using **software-based interrupt handlers**, managed through general-purpose registers and simple instructions."
+    }
+   ],
+   "front_md": "How does RISC handle interrupts?\n",
+   "back_md": "Using **software-based interrupt handlers**, managed through general-purpose registers and simple instructions.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HPvG2qyzvCt2Jd3k",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does context switching differ between RISC and CISC?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CISC** may have **hardware support** to save and restore the processor state automatically. **RISC** typically handles it in **software**, giving more control but requiring more instructions."
+    }
+   ],
+   "front_md": "How does context switching differ between RISC and CISC?\n",
+   "back_md": "**CISC** may have **hardware support** to save and restore the processor state automatically. **RISC** typically handles it in **software**, giving more control but requiring more instructions.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9zFcVYYZcqZHmQpK",
+   "card_type": "fill_in_the_blanks",
+   "order": 18,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "CISC can handle multiple tasks in a single instruction, including context <u>**            **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "CISC can handle multiple tasks in a single instruction, including context **saving**."
+    }
+   ],
+   "front_md": "CISC can handle multiple tasks in a single instruction, including context <u>**            **</u>.\n",
+   "back_md": "CISC can handle multiple tasks in a single instruction, including context **saving**.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tbTWWTx3bhPrwyvm",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which responds to interrupts faster, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CISC**, because of its **built-in support**. RISC is slower, but **more flexible and consistent** across all instructions."
+    }
+   ],
+   "front_md": "Which responds to interrupts faster, and why?\n",
+   "back_md": "**CISC**, because of its **built-in support**. RISC is slower, but **more flexible and consistent** across all instructions.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QfVZv2MMd8pBqxP6",
+   "card_type": "true_or_false",
+   "order": 20,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "RISC handles interrupts faster than CISC."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**CISC** is generally faster due to built-in support. RISC is **slower but more flexible**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nRISC handles interrupts faster than CISC.\n",
+   "back_md": "**False.**\n\n**CISC** is generally faster due to built-in support. RISC is **slower but more flexible**.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ksWryT9Sg7rh3XzX",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the trade-off in CISC interrupt handling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **more efficient but less flexible**."
+    }
+   ],
+   "front_md": "What is the trade-off in CISC interrupt handling?\n",
+   "back_md": "It is **more efficient but less flexible**.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fjxMC8SFcBKVvxnZ",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the advantage of RISC interrupt handling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **simpler and more predictable**, and gives the operating system **greater control**."
+    }
+   ],
+   "front_md": "What is the advantage of RISC interrupt handling?\n",
+   "back_md": "It is **simpler and more predictable**, and gives the operating system **greater control**.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6ZxbWchmYQz3cSYc",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_9k8HDB9GY5rHzfkF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do both architectures aim to do with interrupts?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Respond to interrupts quickly and resume execution correctly**, using different design philosophies."
+    }
+   ],
+   "front_md": "What do both architectures aim to do with interrupts?\n",
+   "back_md": "**Respond to interrupts quickly and resume execution correctly**, using different design philosophies.\n",
+   "spec_links": [
+    "spcpt_xQNZWgjMdJQxThH4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VvRyzf6f2VTFdRXR",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **pipelining**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pipelining is the process of **carrying out multiple instructions concurrently**, with each instruction at a different stage of the fetch-decode-execute cycle."
+    }
+   ],
+   "front_md": "Define **pipelining**.\n",
+   "back_md": "Pipelining is the process of **carrying out multiple instructions concurrently**, with each instruction at a different stage of the fetch-decode-execute cycle.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RdQjjJvJR4499bPG",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In pipelining, all instructions are at the same stage at the same time."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each instruction is at a **different stage** of the fetch-decode-execute cycle."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn pipelining, all instructions are at the same stage at the same time.\n",
+   "back_md": "**False.**\n\nEach instruction is at a **different stage** of the fetch-decode-execute cycle.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tHjHQMXGv8kbxp9f",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example of what happens at once during pipelining."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "One instruction can be **fetched** while the previous one is being **decoded** and the one before that is being **executed**."
+    }
+   ],
+   "front_md": "Give an example of what happens at once during pipelining.\n",
+   "back_md": "One instruction can be **fetched** while the previous one is being **decoded** and the one before that is being **executed**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x4GhjpWWFFk57tBz",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to the pipeline in the case of a branch?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The pipeline is **flushed**."
+    }
+   ],
+   "front_md": "What happens to the pipeline in the case of a branch?\n",
+   "back_md": "The pipeline is **flushed**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ws23N7YVnKSkHfJV",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At step 3 of a pipeline, which instructions are at which stage?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Instruction **C is being fetched**, instruction **B is being decoded**, and instruction **A is being executed**."
+    }
+   ],
+   "front_md": "At step 3 of a pipeline, which instructions are at which stage?\n",
+   "back_md": "Instruction **C is being fetched**, instruction **B is being decoded**, and instruction **A is being executed**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CPhbvd55b3Fz9wmy",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five stages of the pipeline in a RISC processor."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Instruction fetch (IF)**, **instruction decode (ID)**, **operand fetch (OF)**, **instruction execute (IE)**, and **write back result (WB)**."
+    }
+   ],
+   "front_md": "Name the five stages of the pipeline in a RISC processor.\n",
+   "back_md": "**Instruction fetch (IF)**, **instruction decode (ID)**, **operand fetch (OF)**, **instruction execute (IE)**, and **write back result (WB)**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tzHrV7jmpmDBzvMf",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How long does each pipeline subtask take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One clock cycle**."
+    }
+   ],
+   "front_md": "How long does each pipeline subtask take?\n",
+   "back_md": "**One clock cycle**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GjB4b6Jw7GWBJqWc",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Can two instructions execute the same stage in the same clock cycle?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No.** No two instructions can execute their same stage at the same clock cycle."
+    }
+   ],
+   "front_md": "Can two instructions execute the same stage in the same clock cycle?\n",
+   "back_md": "**No.** No two instructions can execute their same stage at the same clock cycle.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mz4qJK9Pk8tqfv54",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When does the second instruction begin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the **second clock cycle**, while the first instruction has moved on to its second subtask."
+    }
+   ],
+   "front_md": "When does the second instruction begin?\n",
+   "back_md": "In the **second clock cycle**, while the first instruction has moved on to its second subtask.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gwXptMYGHjrpQ6Jw",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are RISC processors designed for pipelining efficiency?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each instruction takes **one clock cycle**, instructions are **fixed-length**, the **instruction set is limited**, and there are **many general-purpose registers**."
+    }
+   ],
+   "front_md": "Why are RISC processors designed for pipelining efficiency?\n",
+   "back_md": "Each instruction takes **one clock cycle**, instructions are **fixed-length**, the **instruction set is limited**, and there are **many general-purpose registers**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PdRhbqhb8mgYxhY9",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do fixed-length instructions help pipelining?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They make **decoding easier**."
+    }
+   ],
+   "front_md": "How do fixed-length instructions help pipelining?\n",
+   "back_md": "They make **decoding easier**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D7NPNYZVqQ68mM8W",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a limited instruction set help pipelining?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **reduces complexity and stage duration**."
+    }
+   ],
+   "front_md": "How does a limited instruction set help pipelining?\n",
+   "back_md": "It **reduces complexity and stage duration**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KtC2pWcnGJ34BbhY",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **register** in the context of pipelining."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Registers are **fast, temporary storage inside the CPU**."
+    }
+   ],
+   "front_md": "Define **register** in the context of pipelining.\n",
+   "back_md": "Registers are **fast, temporary storage inside the CPU**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cPjdwyVT4d7tTDqJ",
+   "card_type": "fill_in_the_blanks",
+   "order": 13,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "RISC processors rely heavily on registers for <u>**              **</u> storage rather than accessing RAM."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "RISC processors rely heavily on registers for **operand** storage rather than accessing RAM."
+    }
+   ],
+   "front_md": "RISC processors rely heavily on registers for <u>**              **</u> storage rather than accessing RAM.\n",
+   "back_md": "RISC processors rely heavily on registers for **operand** storage rather than accessing RAM.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_7rwdbQkXtyw3xkyT",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do RISC processors rely on registers rather than RAM?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Register usage **reduces memory bottlenecks**, allowing pipelining to run smoothly."
+    }
+   ],
+   "front_md": "Why do RISC processors rely on registers rather than RAM?\n",
+   "back_md": "Register usage **reduces memory bottlenecks**, allowing pipelining to run smoothly.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d7P57CjSsmS24H32",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are intermediate values stored during pipelining?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **registers between stages**."
+    }
+   ],
+   "front_md": "Where are intermediate values stored during pipelining?\n",
+   "back_md": "In **registers between stages**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cCkMb9TTFsn39mN5",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name four benefits of pipelining."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Increased throughput**, **better use of CPU components**, **reduced idle time**, and **faster execution of the instruction stream**."
+    }
+   ],
+   "front_md": "Name four benefits of pipelining.\n",
+   "back_md": "**Increased throughput**, **better use of CPU components**, **reduced idle time**, and **faster execution of the instruction stream**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pTmn8WtD6J5PtSdm",
+   "card_type": "fill_in_the_blanks",
+   "order": 17,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pipelining means the fetch, decode and execute units are all in use <u>**                            **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pipelining means the fetch, decode and execute units are all in use **simultaneously**."
+    }
+   ],
+   "front_md": "Pipelining means the fetch, decode and execute units are all in use <u>**                            **</u>.\n",
+   "back_md": "Pipelining means the fetch, decode and execute units are all in use **simultaneously**.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_c4Y3ZcVPJSD2TpYb",
+   "card_type": "true_or_false",
+   "order": 18,
+   "set_id": "flst_4zV4B8977BTzYjhJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Pipelining makes each individual instruction execute faster."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Individual instructions do not run faster. It is the **instruction stream** as a whole that executes faster."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPipelining makes each individual instruction execute faster.\n",
+   "back_md": "**False.**\n\nIndividual instructions do not run faster. It is the **instruction stream** as a whole that executes faster.\n",
+   "spec_links": [
+    "spcpt_wrYpPwbDRqWRBC2B"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HJ6V5VrpMBFsHv7W",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **computer architecture**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A computer architecture is the **design and structure of a computer system**, describing how it **fetches, processes and stores data and instructions**."
+    }
+   ],
+   "front_md": "Define **computer architecture**.\n",
+   "back_md": "A computer architecture is the **design and structure of a computer system**, describing how it **fetches, processes and stores data and instructions**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MtK6gsJ7HfpmkbRp",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a computer architecture define?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How components like the **CPU, memory and input/output devices work together to execute programs**."
+    }
+   ],
+   "front_md": "What does a computer architecture define?\n",
+   "back_md": "How components like the **CPU, memory and input/output devices work together to execute programs**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WZF6PK3PR28fbbBC",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two things is each architecture categorised by?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether it has a **single or multiple instruction stream**, and a **single or multiple data stream**."
+    }
+   ],
+   "front_md": "What two things is each architecture categorised by?\n",
+   "back_md": "Whether it has a **single or multiple instruction stream**, and a **single or multiple data stream**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f7zhkMxHRVg82y8t",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **SISD**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Single Instruction, Single Data: one processor executes **one instruction on one data stream at a time**."
+    }
+   ],
+   "front_md": "Define **SISD**.\n",
+   "back_md": "Single Instruction, Single Data: one processor executes **one instruction on one data stream at a time**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NBhZx66vrtv7XrQF",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "SISD is a traditional <u>**            **</u>, non-parallel architecture."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "SISD is a traditional **serial**, non-parallel architecture."
+    }
+   ],
+   "front_md": "SISD is a traditional <u>**            **</u>, non-parallel architecture.\n",
+   "back_md": "SISD is a traditional **serial**, non-parallel architecture.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HpGD8VC9F7dhd2kv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is SISD used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **basic, single-core processors**, for example a classic desktop CPU running one task at a time."
+    }
+   ],
+   "front_md": "Where is SISD used?\n",
+   "back_md": "In **basic, single-core processors**, for example a classic desktop CPU running one task at a time.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ng6jgFXNnfGnJSs7",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **SIMD**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Single Instruction, Multiple Data: **one instruction is applied to multiple pieces of data at once**."
+    }
+   ],
+   "front_md": "Define **SIMD**.\n",
+   "back_md": "Single Instruction, Multiple Data: **one instruction is applied to multiple pieces of data at once**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5ZrBDkJgkTMQF9mR",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do all processing units do in SIMD?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They perform the **same operation in parallel**."
+    }
+   ],
+   "front_md": "What do all processing units do in SIMD?\n",
+   "back_md": "They perform the **same operation in parallel**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VCjxPCrfvpm4N8wn",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In SIMD, each processing unit performs a different operation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "All processing units perform the **same operation** in parallel."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn SIMD, each processing unit performs a different operation.\n",
+   "back_md": "**False.**\n\nAll processing units perform the **same operation** in parallel.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VPvftdsx9BMkxY4B",
+   "card_type": "fill_in_the_blanks",
+   "order": 9,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "SIMD is ideal for graphics or <u>**                    **</u> computation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "SIMD is ideal for graphics or **scientific** computation."
+    }
+   ],
+   "front_md": "SIMD is ideal for graphics or <u>**                    **</u> computation.\n",
+   "back_md": "SIMD is ideal for graphics or **scientific** computation.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_b4QtC9PHdvPg8Mg8",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is SIMD used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **GPU operations and image processing**, where it is useful for parallel processing."
+    }
+   ],
+   "front_md": "Where is SIMD used?\n",
+   "back_md": "In **GPU operations and image processing**, where it is useful for parallel processing.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hpWdT8NP8dj9nTyg",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **MISD**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiple Instruction, Single Data: multiple processors execute **different instructions on the same data**."
+    }
+   ],
+   "front_md": "Define **MISD**.\n",
+   "back_md": "Multiple Instruction, Single Data: multiple processors execute **different instructions on the same data**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NvcWGwBxgcvpcWPZ",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How common is MISD in practice?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Very uncommon**."
+    }
+   ],
+   "front_md": "How common is MISD in practice?\n",
+   "back_md": "**Very uncommon**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BJSM8gqRzZy9Jk2G",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is MISD used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Specialised systems for **fault tolerance**, where each unit **checks the same input differently**, such as redundant systems in safety-critical environments."
+    }
+   ],
+   "front_md": "What is MISD used for?\n",
+   "back_md": "Specialised systems for **fault tolerance**, where each unit **checks the same input differently**, such as redundant systems in safety-critical environments.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RSFxZR2rMsY7NN7s",
+   "card_type": "keyword_definition",
+   "order": 14,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **MIMD**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiple Instruction, Multiple Data: multiple processors execute **different instructions on different data sets**."
+    }
+   ],
+   "front_md": "Define **MIMD**.\n",
+   "back_md": "Multiple Instruction, Multiple Data: multiple processors execute **different instructions on different data sets**.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xTq5XmD7CBs3CT8z",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does MIMD allow?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Full **concurrent processing of independent tasks**, making it flexible and scalable for parallel programs."
+    }
+   ],
+   "front_md": "What does MIMD allow?\n",
+   "back_md": "Full **concurrent processing of independent tasks**, making it flexible and scalable for parallel programs.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FbYkVPxxWg9r3pFG",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is MIMD used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **most modern multi-core processors**, distributed systems and cloud computing."
+    }
+   ],
+   "front_md": "Where is MIMD used?\n",
+   "back_md": "In **most modern multi-core processors**, distributed systems and cloud computing.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wYtj9q5wHkTHnhvQ",
+   "card_type": "true_or_false",
+   "order": 17,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "MISD is the architecture used by most modern multi-core processors."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**MIMD** is used by most modern multi-core processors. MISD is **very uncommon** in practice."
+    }
+   ],
+   "front_md": "**True or False?**\n\nMISD is the architecture used by most modern multi-core processors.\n",
+   "back_md": "**False.**\n\n**MIMD** is used by most modern multi-core processors. MISD is **very uncommon** in practice.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VMKKCBnFD5ChXwWN",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between SIMD and MIMD?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**SIMD** applies **one instruction to many data items** at once. **MIMD** runs **different instructions on different data**, fully independently."
+    }
+   ],
+   "front_md": "What is the difference between SIMD and MIMD?\n",
+   "back_md": "**SIMD** applies **one instruction to many data items** at once. **MIMD** runs **different instructions on different data**, fully independently.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hKGMBhD9DWckYz9Y",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_PScCpzvg83DYhM87",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which architecture is used for vector processing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**SIMD**, for example in GPUs."
+    }
+   ],
+   "front_md": "Which architecture is used for vector processing?\n",
+   "back_md": "**SIMD**, for example in GPUs.\n",
+   "spec_links": [
+    "spcpt_hn7PRVxWyP4SzNWt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_27BBBRz3KJj9Rcy2",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **massively parallel computer**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A system made up of **thousands of processors working simultaneously** to solve a single large problem."
+    }
+   ],
+   "front_md": "Define **massively parallel computer**.\n",
+   "back_md": "A system made up of **thousands of processors working simultaneously** to solve a single large problem.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FGXFhsT76hpnMpCv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a massively parallel system work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each processor **executes part of a program**, and the **results are combined** to produce the final output."
+    }
+   ],
+   "front_md": "How does a massively parallel system work?\n",
+   "back_md": "Each processor **executes part of a program**, and the **results are combined** to produce the final output.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7BZVSm7kHYK6vy38",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each processor in a massively parallel system solves a separate problem."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "They work **simultaneously to solve a single large problem**, each executing **part of a program**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEach processor in a massively parallel system solves a separate problem.\n",
+   "back_md": "**False.**\n\nThey work **simultaneously to solve a single large problem**, each executing **part of a program**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d5tFckWhGXpM6V78",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three fields that use massively parallel computers."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Scientific research**, **weather simulation**, **cryptography** and **AI**."
+    }
+   ],
+   "front_md": "Name three fields that use massively parallel computers.\n",
+   "back_md": "**Scientific research**, **weather simulation**, **cryptography** and **AI**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gs3mFT8JxYgk2bFS",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is memory arranged in a massively parallel system?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each processor may have **its own memory**, or access **shared memory resources**."
+    }
+   ],
+   "front_md": "How is memory arranged in a massively parallel system?\n",
+   "back_md": "Each processor may have **its own memory**, or access **shared memory resources**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rtxgPVTR5d4NKqYV",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Processors in a massively parallel system are linked by high-speed <u>**                          **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Processors in a massively parallel system are linked by high-speed **interconnects**."
+    }
+   ],
+   "front_md": "Processors in a massively parallel system are linked by high-speed <u>**                          **</u>.\n",
+   "back_md": "Processors in a massively parallel system are linked by high-speed **interconnects**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_QDGTpfFYzFMQ9XWz",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What links the processors together?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**High-speed interconnects**, which are fast communication pathways used to share results."
+    }
+   ],
+   "front_md": "What links the processors together?\n",
+   "back_md": "**High-speed interconnects**, which are fast communication pathways used to share results.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6stxxy7rB85mHJN5",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **data parallelism**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data parallelism is where **many data items are processed at once**, often using SIMD or MIMD."
+    }
+   ],
+   "front_md": "Define **data parallelism**.\n",
+   "back_md": "Data parallelism is where **many data items are processed at once**, often using SIMD or MIMD.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dwkn63Sk8csGNcjb",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **task parallelism**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Task parallelism is where different processors perform **different tasks on different data sets**."
+    }
+   ],
+   "front_md": "Define **task parallelism**.\n",
+   "back_md": "Task parallelism is where different processors perform **different tasks on different data sets**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZNsbbrTjqyFyjfzg",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What kind of software does a massively parallel system need?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Specialised software**, written to **distribute the work efficiently** across the processors."
+    }
+   ],
+   "front_md": "What kind of software does a massively parallel system need?\n",
+   "back_md": "**Specialised software**, written to **distribute the work efficiently** across the processors.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KcDczF5xCrtdCW2J",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Massively parallel systems are <u>**              **</u> coupled, so the processors depend on one another."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Massively parallel systems are **tightly** coupled, so the processors depend on one another."
+    }
+   ],
+   "front_md": "Massively parallel systems are <u>**              **</u> coupled, so the processors depend on one another.\n",
+   "back_md": "Massively parallel systems are **tightly** coupled, so the processors depend on one another.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_5jKNFBvFCDVWWX3n",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does 'tightly coupled' mean for a massively parallel system?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Processors **depend on one another** and work collaboratively as a **single system**."
+    }
+   ],
+   "front_md": "What does 'tightly coupled' mean for a massively parallel system?\n",
+   "back_md": "Processors **depend on one another** and work collaboratively as a **single system**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PKfFqNqq8S9prvZZ",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do massively parallel computers differ from clusters in structure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Massively parallel systems are **thousands of processors forming a single tightly integrated system**. Clusters are **multiple independent systems networked together**."
+    }
+   ],
+   "front_md": "How do massively parallel computers differ from clusters in structure?\n",
+   "back_md": "Massively parallel systems are **thousands of processors forming a single tightly integrated system**. Clusters are **multiple independent systems networked together**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_75BYh49f75Bp7kq8",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A cluster computer is a single tightly integrated system."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A cluster is **multiple independent systems networked together**, often **loosely coupled**. It is the massively parallel computer that is tightly integrated."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA cluster computer is a single tightly integrated system.\n",
+   "back_md": "**False.**\n\nA cluster is **multiple independent systems networked together**, often **loosely coupled**. It is the massively parallel computer that is tightly integrated.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PRDSytTq6gJC4yM3",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does communication differ between a massively parallel system and a cluster?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Massively parallel processors **communicate continuously via shared architecture**. Clusters communicate **via a network**, often loosely coupled."
+    }
+   ],
+   "front_md": "How does communication differ between a massively parallel system and a cluster?\n",
+   "back_md": "Massively parallel processors **communicate continuously via shared architecture**. Clusters communicate **via a network**, often loosely coupled.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KzDQDr9krxjrwD5Y",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do a massively parallel system and a cluster differ in behaviour?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A massively parallel system acts like **one machine** with distributed processing. A cluster is a group of **co-operating systems**."
+    }
+   ],
+   "front_md": "How do a massively parallel system and a cluster differ in behaviour?\n",
+   "back_md": "A massively parallel system acts like **one machine** with distributed processing. A cluster is a group of **co-operating systems**.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8sJdtYV65hDz6kvp",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do a massively parallel system and a cluster differ in use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Massively parallel systems give **higher performance** and are used for **supercomputing tasks**. Clusters are **more general-purpose or batch processing** systems."
+    }
+   ],
+   "front_md": "How do a massively parallel system and a cluster differ in use?\n",
+   "back_md": "Massively parallel systems give **higher performance** and are used for **supercomputing tasks**. Clusters are **more general-purpose or batch processing** systems.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HHNSN8Gjr8bczCWB",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_KNbZ8CFF9Kphczcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which two architectures do massively parallel systems often use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**SIMD**, applying one instruction to many data points at once, and **MIMD**, running different instructions on different data."
+    }
+   ],
+   "front_md": "Which two architectures do massively parallel systems often use?\n",
+   "back_md": "**SIMD**, applying one instruction to many data points at once, and **MIMD**, running different instructions on different data.\n",
+   "spec_links": [
+    "spcpt_fC5Mj8ZrPJNw6zYP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DRBfgBqbMGb63xgN",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **virtual machine (VM)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A virtual machine is an **entire operating system running inside another operating system**."
+    }
+   ],
+   "front_md": "Define **virtual machine (VM)**.\n",
+   "back_md": "A virtual machine is an **entire operating system running inside another operating system**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qy3cWzhTKKF8zvFz",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can a user do with a virtual machine of another operating system?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Navigate its GUI** and **install software** on it."
+    }
+   ],
+   "front_md": "What can a user do with a virtual machine of another operating system?\n",
+   "back_md": "**Navigate its GUI** and **install software** on it.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ycGvryj4WFnYdT4q",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is running a virtual machine useful?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It helps **access software that is only designed to run on specific operating systems**."
+    }
+   ],
+   "front_md": "Why is running a virtual machine useful?\n",
+   "back_md": "It helps **access software that is only designed to run on specific operating systems**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bm8xGbTMH4pJ8pyQ",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **hypervisor**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A hypervisor is VM management software that **monitors all activity happening inside the virtual machine**."
+    }
+   ],
+   "front_md": "Define **hypervisor**.\n",
+   "back_md": "A hypervisor is VM management software that **monitors all activity happening inside the virtual machine**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fmct3TRrp8t4NTCQ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a Windows user run a MacOS virtual machine?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because some software is written to **run only on MacOS**, so the virtual machine lets them install and use it."
+    }
+   ],
+   "front_md": "Why might a Windows user run a MacOS virtual machine?\n",
+   "back_md": "Because some software is written to **run only on MacOS**, so the virtual machine lets them install and use it.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JQGdBnXDzr6vjDpX",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is forwards compatibility in the context of virtual machines?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Most software **needs updating to work on the latest operating system versions**, so a user on the newest release may run a VM of a **previous release** to use an application that has not had a forwards-compatibility update."
+    }
+   ],
+   "front_md": "What is forwards compatibility in the context of virtual machines?\n",
+   "back_md": "Most software **needs updating to work on the latest operating system versions**, so a user on the newest release may run a VM of a **previous release** to use an application that has not had a forwards-compatibility update.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dpcWhccrZX8QQBdQ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are virtual machines used in software testing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They create **isolated test environments** that leave the host operating system **unaffected**."
+    }
+   ],
+   "front_md": "How are virtual machines used in software testing?\n",
+   "back_md": "They create **isolated test environments** that leave the host operating system **unaffected**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W8GbtV9t2MZCBPDN",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing inside a virtual machine affects the host operating system."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Virtual machines create **isolated test environments** that leave the host operating system **unaffected**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTesting inside a virtual machine affects the host operating system.\n",
+   "back_md": "**False.**\n\nVirtual machines create **isolated test environments** that leave the host operating system **unaffected**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z84BRPkJK26kN9pR",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two things an isolated test environment lets a developer do."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Monitor how their software affects system performance**, and **test on a clean-slate system** with no other applications running."
+    }
+   ],
+   "front_md": "Name two things an isolated test environment lets a developer do.\n",
+   "back_md": "**Monitor how their software affects system performance**, and **test on a clean-slate system** with no other applications running.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_scwZqZPh5vrRBBRx",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can virtual machines help software reach more users?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "VM software can create machines that **act like they have older hardware**, so developers can build software that runs on older hardware too."
+    }
+   ],
+   "front_md": "How can virtual machines help software reach more users?\n",
+   "back_md": "VM software can create machines that **act like they have older hardware**, so developers can build software that runs on older hardware too.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GHbpCY7xVm9zFBY4",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do virtual machines help with cross-platform compatibility?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A developer can **test against various operating systems**, such as MacOS, Linux and Windows, for greater compatibility."
+    }
+   ],
+   "front_md": "How do virtual machines help with cross-platform compatibility?\n",
+   "back_md": "A developer can **test against various operating systems**, such as MacOS, Linux and Windows, for greater compatibility.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Yhxb9swMWshSKyGB",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What allows programs to run across different operating systems?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Intermediate code**, which is generated through compilation."
+    }
+   ],
+   "front_md": "What allows programs to run across different operating systems?\n",
+   "back_md": "**Intermediate code**, which is generated through compilation.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sF338RnBShHWfBSY",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What hardware do virtual machines use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "VMs **share the same system hardware as the host operating system**."
+    }
+   ],
+   "front_md": "What hardware do virtual machines use?\n",
+   "back_md": "VMs **share the same system hardware as the host operating system**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jKwWhds5P7nY7w9g",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A virtual machine has its own dedicated hardware, separate from the host."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Virtual machines **share the same system hardware as the host operating system**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA virtual machine has its own dedicated hardware, separate from the host.\n",
+   "back_md": "**False.**\n\nVirtual machines **share the same system hardware as the host operating system**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_F5rT98WPgFK7rzgD",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the risk of over-using virtual machines?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It can **exhaust the host system of CPU, hard disk and memory**."
+    }
+   ],
+   "front_md": "What is the risk of over-using virtual machines?\n",
+   "back_md": "It can **exhaust the host system of CPU, hard disk and memory**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FGD82xX373hymTCX",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can the resource risk of virtual machines be managed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "VM software can **set maximum limits on system resources**."
+    }
+   ],
+   "front_md": "How can the resource risk of virtual machines be managed?\n",
+   "back_md": "VM software can **set maximum limits on system resources**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VtbJbn3Bb3QcH5yq",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How might a low-specification machine be configured to run a VM?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To allocate only **1GB of memory and 20% of the CPU**."
+    }
+   ],
+   "front_md": "How might a low-specification machine be configured to run a VM?\n",
+   "back_md": "To allocate only **1GB of memory and 20% of the CPU**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3DFgfW5C4km7jyXX",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How might a high-specification machine be configured to run a VM?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Up to **8GB of memory and 50% of the CPU**."
+    }
+   ],
+   "front_md": "How might a high-specification machine be configured to run a VM?\n",
+   "back_md": "Up to **8GB of memory and 50% of the CPU**.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gV4tFymMfVhxqJJD",
+   "card_type": "fill_in_the_blanks",
+   "order": 18,
+   "set_id": "flst_wxmvPH2tFcWRC8SM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Operating systems are commonly free to download, but require an <u>**                    **</u> payment to access all features."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Operating systems are commonly free to download, but require an **activation** payment to access all features."
+    }
+   ],
+   "front_md": "Operating systems are commonly free to download, but require an <u>**                    **</u> payment to access all features.\n",
+   "back_md": "Operating systems are commonly free to download, but require an **activation** payment to access all features.\n",
+   "spec_links": [
+    "spcpt_t4rHbRNyK8FV5Qx2"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  }
+ ]
+}

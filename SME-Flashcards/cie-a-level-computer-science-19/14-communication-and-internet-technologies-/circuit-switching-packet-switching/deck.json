@@ -1,0 +1,629 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:28Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/14-communication-and-internet-technologies-/circuit-switching-packet-switching/",
+  "section_slug": "14-communication-and-internet-technologies-",
+  "section_name": "14. Communication & internet technologies",
+  "topic_slug": "circuit-switching-packet-switching",
+  "title": "Circuit Switching, Packet Switching",
+  "order": 1
+ },
+ "card_count": 24,
+ "card_types": {
+  "keyword_definition": 4,
+  "question_and_answer": 16,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Sf2wZyyJ3RvGzf8h",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **packetising**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Packetising is the process of **dividing a large message into smaller, manageable units called packets**, each of which can be transmitted individually."
+    }
+   ],
+   "front_md": "Define **packetising**.\n",
+   "back_md": "Packetising is the process of **dividing a large message into smaller, manageable units called packets**, each of which can be transmitted individually.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w6WpYdjkmFTVdVBd",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three parts of a packet."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Header**, **payload** and **footer (trailer)**."
+    }
+   ],
+   "front_md": "Name the three parts of a packet.\n",
+   "back_md": "**Header**, **payload** and **footer (trailer)**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nnNTVJxh8yYxbkvm",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **payload**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The payload is the **actual data being sent**."
+    }
+   ],
+   "front_md": "Define **payload**.\n",
+   "back_md": "The payload is the **actual data being sent**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X3XtMykkNKy3SRTB",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name four items found in a packet header."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Source IP address**, **destination IP address**, **sequence number**, **protocol**, **packet length** and **checksum**."
+    }
+   ],
+   "front_md": "Name four items found in a packet header.\n",
+   "back_md": "**Source IP address**, **destination IP address**, **sequence number**, **protocol**, **packet length** and **checksum**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QjcsVyGGc4mWH2GH",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The packet header contains the <u>**            **</u> IP address, showing who sent the packet."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The packet header contains the **source** IP address, showing who sent the packet."
+    }
+   ],
+   "front_md": "The packet header contains the <u>**            **</u> IP address, showing who sent the packet.\n",
+   "back_md": "The packet header contains the **source** IP address, showing who sent the packet.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Ns9R342r2ppkmYsB",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the sequence number in a packet header used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **reassemble the packets in the correct order** at the destination."
+    }
+   ],
+   "front_md": "What is the sequence number in a packet header used for?\n",
+   "back_md": "To **reassemble the packets in the correct order** at the destination.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nR8HFpcvC6z5D6yC",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the checksum in a packet header used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Error checking**."
+    }
+   ],
+   "front_md": "What is the checksum in a packet header used for?\n",
+   "back_md": "**Error checking**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bZxYSFst7jNpp59D",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What may a packet footer contain?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Extra **error-checking or control information**."
+    }
+   ],
+   "front_md": "What may a packet footer contain?\n",
+   "back_md": "Extra **error-checking or control information**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dJ6nNn7qsNby65vq",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do packets travel across a network?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Independently**, and they may travel along **different routes** through the network."
+    }
+   ],
+   "front_md": "How do packets travel across a network?\n",
+   "back_md": "**Independently**, and they may travel along **different routes** through the network.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3BRbtzYwBhRT6mFH",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the original message recovered?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The packets are **reassembled** at the destination using their **sequence numbers**."
+    }
+   ],
+   "front_md": "How is the original message recovered?\n",
+   "back_md": "The packets are **reassembled** at the destination using their **sequence numbers**.\n",
+   "spec_links": [
+    "spcpt_pSnZ8RGQhrg33tZQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jm92pCqbcPWYHhdW",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **packet switching**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Packet switching is a communication method where **data is broken into packets** and sent across a **shared network**, with each packet possibly taking a different path and reassembled on arrival."
+    }
+   ],
+   "front_md": "Define **packet switching**.\n",
+   "back_md": "Packet switching is a communication method where **data is broken into packets** and sent across a **shared network**, with each packet possibly taking a different path and reassembled on arrival.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NWsRhhGdq7wXCjTC",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **circuit switching**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Circuit switching sets up a **dedicated communication path** between two devices for the duration of a session."
+    }
+   ],
+   "front_md": "Define **circuit switching**.\n",
+   "back_md": "Circuit switching sets up a **dedicated communication path** between two devices for the duration of a session.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GjnzzqKM9kCq22KN",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Circuit switching works like a traditional <u>**          **</u> call."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Circuit switching works like a traditional **phone** call."
+    }
+   ],
+   "front_md": "Circuit switching works like a traditional <u>**          **</u> call.\n",
+   "back_md": "Circuit switching works like a traditional **phone** call.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_4WXNbp8b8Vk4V7fD",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Packet switching sends data as a continuous stream."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Packet switching sends data in **individual packets**. It is **circuit switching** that sends a continuous stream."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPacket switching sends data as a continuous stream.\n",
+   "back_md": "**False.**\n\nPacket switching sends data in **individual packets**. It is **circuit switching** that sends a continuous stream.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7f7dSnQCNtcM2cSf",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three benefits of packet switching."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Efficient use of network bandwidth**, **more reliable** because only lost or corrupted packets need resending, and **lower cost** because network resources are shared."
+    }
+   ],
+   "front_md": "Name three benefits of packet switching.\n",
+   "back_md": "**Efficient use of network bandwidth**, **more reliable** because only lost or corrupted packets need resending, and **lower cost** because network resources are shared.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x5wdqfxCPGgNGhzD",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three drawbacks of packet switching."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Not ideal for real-time applications**, packets can **arrive out of order** and need reassembly, and network congestion may cause **packet delay or loss**."
+    }
+   ],
+   "front_md": "Name three drawbacks of packet switching.\n",
+   "back_md": "**Not ideal for real-time applications**, packets can **arrive out of order** and need reassembly, and network congestion may cause **packet delay or loss**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2Cjj3zxsFR5Fmq7m",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three benefits of circuit switching."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is ideal for **real-time communication** with a steady continuous flow, there are **no delays** once the circuit is established, and data **arrives in order**."
+    }
+   ],
+   "front_md": "Name three benefits of circuit switching.\n",
+   "back_md": "It is ideal for **real-time communication** with a steady continuous flow, there are **no delays** once the circuit is established, and data **arrives in order**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_y43PcgFfp7NsZzFf",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three drawbacks of circuit switching."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **less efficient** because resources stay reserved when not in use, it has a **higher cost** due to dedicated lines, and it is **less scalable**."
+    }
+   ],
+   "front_md": "Name three drawbacks of circuit switching.\n",
+   "back_md": "It is **less efficient** because resources stay reserved when not in use, it has a **higher cost** due to dedicated lines, and it is **less scalable**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cDKyJHZkyDxxZWT6",
+   "card_type": "true_or_false",
+   "order": 18,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In circuit switching, resources are freed when the line is idle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Resources **remain reserved even when not in use**, which is what makes circuit switching less efficient."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn circuit switching, resources are freed when the line is idle.\n",
+   "back_md": "**False.**\n\nResources **remain reserved even when not in use**, which is what makes circuit switching less efficient.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pTwVCWqVjv4m9CP2",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does data order differ between the two switching methods?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With **packet switching**, data **may arrive out of order** and requires reassembly. With **circuit switching**, data **always arrives in order**."
+    }
+   ],
+   "front_md": "How does data order differ between the two switching methods?\n",
+   "back_md": "With **packet switching**, data **may arrive out of order** and requires reassembly. With **circuit switching**, data **always arrives in order**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8hxHV5gxP4xRpHyM",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which switching method is more robust to failure, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Packet switching**, because packets can be **rerouted** if a failure occurs. In circuit switching, if the path fails the call is **dropped and must be re-established**."
+    }
+   ],
+   "front_md": "Which switching method is more robust to failure, and why?\n",
+   "back_md": "**Packet switching**, because packets can be **rerouted** if a failure occurs. In circuit switching, if the path fails the call is **dropped and must be re-established**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8zQ8P73YMYFGTdxm",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which switching method is more scalable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Packet switching**, which handles large volumes of data and users. Circuit switching needs **more physical paths** as more users are added."
+    }
+   ],
+   "front_md": "Which switching method is more scalable?\n",
+   "back_md": "**Packet switching**, which handles large volumes of data and users. Circuit switching needs **more physical paths** as more users are added.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QqvRpj8tjDstpNSF",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is packet switching best used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Emails, web pages and file downloads**."
+    }
+   ],
+   "front_md": "What is packet switching best used for?\n",
+   "back_md": "**Emails, web pages and file downloads**.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4BPNPChDCgzw4mBb",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_W9spJ62WV58DFzmK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is circuit switching best used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Real-time communication**, such as voice calls and video conferencing."
+    }
+   ],
+   "front_md": "What is circuit switching best used for?\n",
+   "back_md": "**Real-time communication**, such as voice calls and video conferencing.\n",
+   "spec_links": [
+    "spcpt_wbXgB3cVXN6Y87Ts"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:45:09Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/physics",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "motion-forces-energy",
+  "name": "1. Motion, Forces & Energy"
+ },
+ "topic": {
+  "id": "top_fZXk9gCBMJbWg8yp",
+  "slug": "effects-of-forces",
+  "name": "Effects of Forces",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "newtons-first-law",
+   "name": "Newton's First Law",
+   "revision_note_id": "rn_FhPYQ5XTDXx3rZsz"
+  },
+  {
+   "slug": "newtons-second-law",
+   "name": "Newton's Second Law",
+   "revision_note_id": "rn_BhSmbhnszfWvrfvQ"
+  },
+  {
+   "slug": "resultant-forces",
+   "name": "Resultant Forces",
+   "revision_note_id": "rn_DhXZNggyHHhZz2QQ"
+  },
+  {
+   "slug": "friction",
+   "name": "Friction",
+   "revision_note_id": "rn_5jXrr2mpmT77Wm5C"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_n7kz9yskfbvVmbzD",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/motion-forces-energy/effects-of-forces/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 1,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_khTb6Bg32Jf2npry",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sWcqkXjhb5QrcK36",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/02",
+      "question_number": 28,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_svrBX4KGBXW3qkyS"
+     ],
+     "part_tier": null,
+     "problem_md": "A car of mass 800 kg is travelling in a straight line at a constant speed of 12 m/s. A constant resultant force then acts on the car causing the speed to increase.\n\nAfter 5.0 s, the speed of the car is 20 m/s.\n\nWhat is the size of the resultant force acting on the car?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Acceleration = change in velocity ÷ time\n\n$a = \\frac{v-u}{t} = \\frac{20-12}{5.0}$\n\n$= 1 . 6 \\text{m} / \\text{s}^{2}$\n\n- Force = mass × acceleration\n\n$F = m a = 800 \\times 1 . 6$\n\n$= 1280 \\text{N}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0 N"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "500 N"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "1280 N"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3200 N"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "a = \\frac{v-u}{t} = \\frac{20-12}{5.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mi>v</mi><mo>-</mo><mi>u</mi></mrow><mi>t</mi></mfrac><mo>=</mo><mfrac><mrow><mn>20</mn><mo>-</mo><mn>12</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "a = \\frac{v - u}{t} = \\frac{20 - 12}{5.0}"
+      },
+      {
+       "latex": "= 1 . 6 \\text{m} / \\text{s}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>.</mo><mn>6</mn><mtext>&#xA0;m</mtext><mo>/</mo><msup><mtext>s</mtext><mn>2</mn></msup></math>",
+       "alt": "= 1.6 \\text{ m}/\\text{s}^{2}"
+      },
+      {
+       "latex": "F = m a = 800 \\times 1 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi><mo>=</mo><mn>800</mn><mo>&#xD7;</mo><mn>1</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "F = m a = 800 \\times 1.6"
+      },
+      {
+       "latex": "= 1280 \\text{N}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1280</mn><mtext>&#xA0;N</mtext></math>",
+       "alt": "= 1280 \\text{ N}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

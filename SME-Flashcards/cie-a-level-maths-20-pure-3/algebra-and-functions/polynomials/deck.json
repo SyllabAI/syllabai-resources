@@ -1,0 +1,972 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:07Z",
+ "course_slug": "cie-a-level-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-3/flashcards/algebra-and-functions/polynomials/",
+  "section_slug": "algebra-and-functions",
+  "section_name": "Algebra & Functions",
+  "topic_slug": "polynomials",
+  "title": "Polynomials",
+  "order": 1
+ },
+ "card_count": 30,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 17,
+  "fill_in_the_blanks": 5,
+  "true_or_false": 5
+ },
+ "spec_link_cards": 30,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_jRMz9ybHDyT3GHcc",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **polynomial**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **polynomial** is an algebraic expression made up of a finite number of terms whose indices are all **non-negative integers**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $2 x^{2} y - 4 y + 6$ is a polynomial, but $\\sqrt{x}$ and $\\frac{3}{x}$ are not, because their indices are $\\frac{1}{2}$ and $- 1$."
+    }
+   ],
+   "front_md": "Define **polynomial**.\n",
+   "back_md": "A **polynomial** is an algebraic expression made up of a finite number of terms whose indices are all **non-negative integers**.\n\nSo $2 x^{2} y - 4 y + 6$ is a polynomial, but $\\sqrt{x}$ and $\\frac{3}{x}$ are not, because their indices are $\\frac{1}{2}$ and $- 1$.\n",
+   "spec_links": [
+    "spcpt_kBy4bx3WW7hnqwkZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mf5TBST322BPSMkP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When dividing one polynomial by another, which term of the answer comes first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You find the **highest power term** first, by asking what the highest power of the divisor must be multiplied by to give the highest power of the dividend."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $x^{3} + 6 x^{2} - 9 x - 14$ by $x - 2$ starts with $x^{2}$, because $x^{2} \\times x = x^{3}$."
+    }
+   ],
+   "front_md": "When dividing one polynomial by another, which term of the answer comes first?\n",
+   "back_md": "You find the **highest power term** first, by asking what the highest power of the divisor must be multiplied by to give the highest power of the dividend.\n\nDividing $x^{3} + 6 x^{2} - 9 x - 14$ by $x - 2$ starts with $x^{2}$, because $x^{2} \\times x = x^{3}$.\n",
+   "spec_links": [
+    "spcpt_kBy4bx3WW7hnqwkZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m6rpdBVSk5BJnjD8",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete this division, which does not come out exactly:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + \\_\\_\\_\\_\\_\\_ x + 6\\right) + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed identity is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + 3 x + 6\\right) + 10`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $10$ is the **remainder**, and it is left over precisely because `\\left(x - 1\\right)` is not a factor of the polynomial."
+    }
+   ],
+   "front_md": "Complete this division, which does not come out exactly:\n\n`x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + \\_\\_\\_\\_\\_\\_ x + 6\\right) + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed identity is:\n\n`x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + 3 x + 6\\right) + 10`\n\nThe $10$ is the **remainder**, and it is left over precisely because `\\left(x - 1\\right)` is not a factor of the polynomial.\n",
+   "spec_links": [
+    "spcpt_kBy4bx3WW7hnqwkZ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_bg3XcqcvKSc4JX6C",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "After subtracting, what do you do with the terms you have not yet used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bring them down and carry on, treating what is left as a **new polynomial of lower degree** and dividing that by the same divisor."
+    },
+    {
+     "type": "paragraph",
+     "md": "The cycle of divide, multiply and subtract simply repeats, one power at a time, until nothing further can be divided."
+    }
+   ],
+   "front_md": "After subtracting, what do you do with the terms you have not yet used?\n",
+   "back_md": "Bring them down and carry on, treating what is left as a **new polynomial of lower degree** and dividing that by the same divisor.\n\nThe cycle of divide, multiply and subtract simply repeats, one power at a time, until nothing further can be divided.\n",
+   "spec_links": [
+    "spcpt_kBy4bx3WW7hnqwkZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4mQWkjPz8TRFzbh8",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing a cubic by a linear divisor always leaves a quadratic quotient."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying a quadratic by a linear expression gives a cubic, so the quotient that has to pair with a linear divisor to rebuild a cubic must itself be a quadratic."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any remainder sits separately at the end and does not change that."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDividing a cubic by a linear divisor always leaves a quadratic quotient.\n",
+   "back_md": "**True.**\n\nMultiplying a quadratic by a linear expression gives a cubic, so the quotient that has to pair with a linear divisor to rebuild a cubic must itself be a quadratic.\n\nAny remainder sits separately at the end and does not change that.\n",
+   "spec_links": [
+    "spcpt_kBy4bx3WW7hnqwkZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6mpT7vSD85Rqb8rq",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What degree is the quotient when a degree $n$ polynomial is divided by a quadratic?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The quotient has degree $n - 2$, two lower than the polynomial you started with."
+    },
+    {
+     "type": "paragraph",
+     "md": "The degree drops by the degree of the divisor, so a quartic divided by a quadratic leaves a quadratic quotient."
+    }
+   ],
+   "front_md": "What degree is the quotient when a degree $n$ polynomial is divided by a quadratic?\n",
+   "back_md": "The quotient has degree $n - 2$, two lower than the polynomial you started with.\n\nThe degree drops by the degree of the divisor, so a quartic divided by a quadratic leaves a quadratic quotient.\n",
+   "spec_links": [
+    "spcpt_TcPn78cMVm5Tk3jf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VxQzfM7BvMcj4kZM",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_fk76vXkBFkdKT5WG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the possible degrees of the remainder when dividing by a quadratic?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The remainder must have degree less than $2$**, so it is either **linear, of the form $a x + b$, or a **constant**."
+    },
+    {
+     "type": "paragraph",
+     "md": "If anything of degree $2$ or more were left, the divisor would still go into it, so the division would not yet be finished."
+    }
+   ],
+   "front_md": "What are the possible degrees of the remainder when dividing by a quadratic?\n",
+   "back_md": "The remainder must have degree less than $2$**, so it is either **linear, of the form $a x + b$, or a **constant**.\n\nIf anything of degree $2$ or more were left, the divisor would still go into it, so the division would not yet be finished.\n",
+   "spec_links": [
+    "spcpt_TcPn78cMVm5Tk3jf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cntW34ndrXH5ssyc",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the factor theorem say about a polynomial $\\text{f}$ and a number $p$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It says that `\\text{f} \\left(p\\right) = 0` and `\\left(x - p\\right)` being a factor of `\\text{f} \\left(x\\right)` are two ways of saying the same thing."
+    },
+    {
+     "type": "paragraph",
+     "md": "The link runs **both ways**: a zero tells you there is a factor, and a factor tells you there is a zero."
+    }
+   ],
+   "front_md": "What does the factor theorem say about a polynomial $\\text{f}$ and a number $p$?\n",
+   "back_md": "It says that `\\text{f} \\left(p\\right) = 0` and `\\left(x - p\\right)` being a factor of `\\text{f} \\left(x\\right)` are two ways of saying the same thing.\n\nThe link runs **both ways**: a zero tells you there is a factor, and a factor tells you there is a zero.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JSrQfXS962sYT9MB",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To test whether `\\left(x + 2\\right)` is a factor of `\\text{f} \\left(x\\right)`, what do you work out?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out `\\text{f} \\left(- 2\\right)`, **not** `\\text{f} \\left(2\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The theorem is stated for a bracket of the form `\\left(x - p\\right)`, and `\\left(x + 2\\right)` is `\\left(x - \\left(- 2\\right)\\right)`, so here $p = - 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the result is zero, the bracket is a factor."
+    }
+   ],
+   "front_md": "To test whether `\\left(x + 2\\right)` is a factor of `\\text{f} \\left(x\\right)`, what do you work out?\n",
+   "back_md": "Work out `\\text{f} \\left(- 2\\right)`, **not** `\\text{f} \\left(2\\right)`.\n\nThe theorem is stated for a bracket of the form `\\left(x - p\\right)`, and `\\left(x + 2\\right)` is `\\left(x - \\left(- 2\\right)\\right)`, so here $p = - 2$.\n\nIf the result is zero, the bracket is a factor.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VFTcTcBwX7pMHhph",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The factor theorem is a special case of the remainder theorem."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whatever remainder the remainder theorem gives on division by `\\left(x - a\\right)`, having a factor is exactly the case where that remainder comes out as **zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing `\\text{f} \\left(x\\right) = \\left(x - a\\right) \\text{Q} \\left(x\\right) + \\text{remainder}` shows it: with a zero remainder, `\\left(x - a\\right)` multiplies up to give `\\text{f} \\left(x\\right)` exactly."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe factor theorem is a special case of the remainder theorem.\n",
+   "back_md": "**True.**\n\nWhatever remainder the remainder theorem gives on division by `\\left(x - a\\right)`, having a factor is exactly the case where that remainder comes out as **zero**.\n\nWriting `\\text{f} \\left(x\\right) = \\left(x - a\\right) \\text{Q} \\left(x\\right) + \\text{remainder}` shows it: with a zero remainder, `\\left(x - a\\right)` multiplies up to give `\\text{f} \\left(x\\right)` exactly.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM",
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dxfxmGNffC72HrHR",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do you learn if `\\text{f} \\left(1\\right)` turns out not to be zero?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You learn that `\\left(x - 1\\right)` is **not** a factor of `\\text{f} \\left(x\\right)`, and nothing more than that."
+    },
+    {
+     "type": "paragraph",
+     "md": "It rules out that single bracket and says nothing about any other value, which is why you simply move on and try the next one."
+    }
+   ],
+   "front_md": "What do you learn if `\\text{f} \\left(1\\right)` turns out not to be zero?\n",
+   "back_md": "You learn that `\\left(x - 1\\right)` is **not** a factor of `\\text{f} \\left(x\\right)`, and nothing more than that.\n\nIt rules out that single bracket and says nothing about any other value, which is why you simply move on and try the next one.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c74jcm4YtgCK3K8D",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the shortcut for the remainder when `\\text{f} \\left(x\\right)` is divided by `\\left(2 x - 1\\right)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{remainder} = \\text{f} \\left(\\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed shortcut is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{remainder} = \\text{f} \\left(\\frac{1}{2}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "You substitute the value of $x$ that makes the divisor zero, and $2 x - 1 = 0$ gives $x = \\frac{1}{2}$, which need not be a whole number."
+    }
+   ],
+   "front_md": "Complete the shortcut for the remainder when `\\text{f} \\left(x\\right)` is divided by `\\left(2 x - 1\\right)`:\n\n`\\text{remainder} = \\text{f} \\left(\\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed shortcut is:\n\n`\\text{remainder} = \\text{f} \\left(\\frac{1}{2}\\right)`\n\nYou substitute the value of $x$ that makes the divisor zero, and $2 x - 1 = 0$ gives $x = \\frac{1}{2}$, which need not be a whole number.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_xVtRnYWrWvPSyDvc",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the remainder theorem quicker than carrying out the division?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it produces the remainder from a **single substitution**, with no division to set out at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "Finding the remainder of $x^{2} - 2 x$ on division by `\\left(x - 3\\right)` takes only $3^{2} - 2 \\times 3 = 3$."
+    }
+   ],
+   "front_md": "Why is the remainder theorem quicker than carrying out the division?\n",
+   "back_md": "Because it produces the remainder from a **single substitution**, with no division to set out at all.\n\nFinding the remainder of $x^{2} - 2 x$ on division by `\\left(x - 3\\right)` takes only $3^{2} - 2 \\times 3 = 3$.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7gyj95dMRbPY5QMZ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_j327NTZYPNMTdQKx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A polynomial's remainder on division by `\\left(x - 2\\right)` is known. How does that help you find an unknown coefficient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substituting $x = 2$ turns the known remainder into an **equation** in the unknown coefficient, which you can then solve."
+    },
+    {
+     "type": "paragraph",
+     "md": "If `\\left(x^{2} + p x\\right) \\div \\left(x - 2\\right)` leaves remainder $8$, then `2^{2} + p \\left(2\\right) = 8`, giving $p = 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "With two unknowns you need two such remainders and solve the resulting pair simultaneously."
+    }
+   ],
+   "front_md": "A polynomial's remainder on division by `\\left(x - 2\\right)` is known. How does that help you find an unknown coefficient?\n",
+   "back_md": "Substituting $x = 2$ turns the known remainder into an **equation** in the unknown coefficient, which you can then solve.\n\nIf `\\left(x^{2} + p x\\right) \\div \\left(x - 2\\right)` leaves remainder $8$, then `2^{2} + p \\left(2\\right) = 8`, giving $p = 2$.\n\nWith two unknowns you need two such remainders and solve the resulting pair simultaneously.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VQjX83Hd8CVmJ8nk",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which two techniques does factorising a cubic combine?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **factor theorem**, to find one linear factor, and **polynomial division**, to get the rest."
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither is enough alone: the theorem gives a factor but not the quotient, and division needs a divisor before it can start."
+    }
+   ],
+   "front_md": "Which two techniques does factorising a cubic combine?\n",
+   "back_md": "The **factor theorem**, to find one linear factor, and **polynomial division**, to get the rest.\n\nNeither is enough alone: the theorem gives a factor but not the quotient, and division needs a divisor before it can start.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r5xX8FsmKKQvtTfT",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the goal when fully factorising a polynomial?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To write it as a **product of linear factors**, taken as far as it will go."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `x^{3} + 4 x^{2} - 11 x - 30 = \\left(x + 2\\right) \\left(x - 3\\right) \\left(x + 5\\right)`."
+    }
+   ],
+   "front_md": "What is the goal when fully factorising a polynomial?\n",
+   "back_md": "To write it as a **product of linear factors**, taken as far as it will go.\n\nFor example `x^{3} + 4 x^{2} - 11 x - 30 = \\left(x + 2\\right) \\left(x - 3\\right) \\left(x + 5\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FxKMBFc7QtBfrwK8",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first move in factorising a cubic `\\text{f}\\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find a value $p$ for which `\\text{f}\\left(p\\right) = 0`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Until you have one factor there is nothing to divide by, so this has to come first."
+    }
+   ],
+   "front_md": "What is the first move in factorising a cubic `\\text{f}\\left(x\\right)`?\n",
+   "back_md": "Find a value $p$ for which `\\text{f}\\left(p\\right) = 0`.\n\nUntil you have one factor there is nothing to divide by, so this has to come first.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VR6vS3bcMjmbJGkN",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every cubic can be written as a product of three linear factors."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the quadratic left after dividing does not factorise, the answer stops at one linear factor times a quadratic."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `2 x^{3} + 3 x^{2} + 10 x - 6 = \\left(2 x - 1\\right) \\left(x^{2} + 2 x + 6\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery cubic can be written as a product of three linear factors.\n",
+   "back_md": "**False.**\n\nIf the quadratic left after dividing does not factorise, the answer stops at one linear factor times a quadratic.\n\nFor example `2 x^{3} + 3 x^{2} + 10 x - 6 = \\left(2 x - 1\\right) \\left(x^{2} + 2 x + 6\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fgrDDPNxFjVdRvJc",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Factorising $x^{3} + 6 x^{2} - 9 x - 14$: since `\\text{f} \\left(- 1\\right) = 0`, dividing by `\\left(x + 1\\right)` leaves $x^{2} + 5 x - 14$, which factorises as:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x + \\_\\_\\_\\_\\_\\_\\right) \\left(x - \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\left(x + 7\\right) \\left(x - 2\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "So the full factorisation is `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 1\\right) \\left(x + 7\\right) \\left(x - 2\\right)`."
+    }
+   ],
+   "front_md": "Factorising $x^{3} + 6 x^{2} - 9 x - 14$: since `\\text{f} \\left(- 1\\right) = 0`, dividing by `\\left(x + 1\\right)` leaves $x^{2} + 5 x - 14$, which factorises as:\n\n`\\left(x + \\_\\_\\_\\_\\_\\_\\right) \\left(x - \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "`\\left(x + 7\\right) \\left(x - 2\\right)`\n\nSo the full factorisation is `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 1\\right) \\left(x + 7\\right) \\left(x - 2\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NmJxCtKB5P2rKH6t",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Can the same method be used on a polynomial of degree higher than three?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes, because each linear factor found reduces the degree by one."
+    },
+    {
+     "type": "paragraph",
+     "md": "A quartic simply needs the find-a-factor-then-divide cycle carried out twice before a quadratic is left."
+    }
+   ],
+   "front_md": "Can the same method be used on a polynomial of degree higher than three?\n",
+   "back_md": "Yes, because each linear factor found reduces the degree by one.\n\nA quartic simply needs the find-a-factor-then-divide cycle carried out twice before a quadratic is left.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YmwK2J3VR4hc9Nqz",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_xC4pWYBZKnVPKMwg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **rational expression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **rational expression** is an algebraic fraction: one polynomial divided by another."
+    },
+    {
+     "type": "paragraph",
+     "md": "The name comes from **ratio**, in the same way that a rational number is a ratio of two integers."
+    }
+   ],
+   "front_md": "Define **rational expression**.\n",
+   "back_md": "A **rational expression** is an algebraic fraction: one polynomial divided by another.\n\nThe name comes from **ratio**, in the same way that a rational number is a ratio of two integers.\n",
+   "spec_links": [
+    "spcpt_qSZ2WFQK56tZM8GG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rwGdhQHvDGwW9ty7",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xC4pWYBZKnVPKMwg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you simplify a rational expression?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Factorise the numerator and the denominator**, then cancel any factors common to both."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nothing can be cancelled until each is written as a product."
+    }
+   ],
+   "front_md": "How do you simplify a rational expression?\n",
+   "back_md": "**Factorise the numerator and the denominator**, then cancel any factors common to both.\n\nNothing can be cancelled until each is written as a product.\n",
+   "spec_links": [
+    "spcpt_qSZ2WFQK56tZM8GG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dbvjRNyFSTV5ZTS4",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_xC4pWYBZKnVPKMwg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{x^{2}+3x}{x^{2}+5}$ simplifies to $\\frac{3x}{5}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only common **factors** can be cancelled, and $x^{2}$ is a term in a sum here, not a factor."
+    },
+    {
+     "type": "paragraph",
+     "md": "The numerator does factorise, to `x \\left(x + 3\\right)`, but the denominator has no matching factor, so nothing cancels at all."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\frac{x^{2}+3x}{x^{2}+5}$ simplifies to $\\frac{3x}{5}$.\n",
+   "back_md": "**False.**\n\nOnly common **factors** can be cancelled, and $x^{2}$ is a term in a sum here, not a factor.\n\nThe numerator does factorise, to `x \\left(x + 3\\right)`, but the denominator has no matching factor, so nothing cancels at all.\n",
+   "spec_links": [
+    "spcpt_qSZ2WFQK56tZM8GG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RNM8yzfN2nZ7sqXb",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_xC4pWYBZKnVPKMwg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cancel the common factors:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\left(x - 1\\right) \\left(x + 3\\right) \\left(x - 2\\right)}{\\left(x + 3\\right) \\left(x - 1\\right)} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\left(x - 1\\right) \\left(x + 3\\right) \\left(x - 2\\right)}{\\left(x + 3\\right) \\left(x - 1\\right)} = x - 2`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both `\\left(x + 3\\right)` and `\\left(x - 1\\right)` appear top and bottom, so both go, leaving a single bracket."
+    }
+   ],
+   "front_md": "Cancel the common factors:\n\n`\\frac{\\left(x - 1\\right) \\left(x + 3\\right) \\left(x - 2\\right)}{\\left(x + 3\\right) \\left(x - 1\\right)} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "`\\frac{\\left(x - 1\\right) \\left(x + 3\\right) \\left(x - 2\\right)}{\\left(x + 3\\right) \\left(x - 1\\right)} = x - 2`\n\nBoth `\\left(x + 3\\right)` and `\\left(x - 1\\right)` appear top and bottom, so both go, leaving a single bracket.\n",
+   "spec_links": [
+    "spcpt_qSZ2WFQK56tZM8GG"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_nWWr2kWmyTHQ5d4Q",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_xC4pWYBZKnVPKMwg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the numerator and denominator of a rational expression share no common factor?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is already in its simplest form and cannot be reduced any further."
+    },
+    {
+     "type": "paragraph",
+     "md": "Factorising both is still worth doing, because that is the only way to be certain nothing cancels."
+    }
+   ],
+   "front_md": "What happens if the numerator and denominator of a rational expression share no common factor?\n",
+   "back_md": "It is already in its simplest form and cannot be reduced any further.\n\nFactorising both is still worth doing, because that is the only way to be certain nothing cancels.\n",
+   "spec_links": [
+    "spcpt_qSZ2WFQK56tZM8GG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K3qTC4KyTqGbFx9t",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Vrc7TGFyzNZtQBWD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **improper algebraic fraction**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An algebraic fraction in which the **degree of the numerator is greater than or equal to the degree of the denominator**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $\\frac{x^{3}+2x^{2}-x+4}{x-5}$ is improper, being degree $3$ over degree $1$."
+    }
+   ],
+   "front_md": "Define **improper algebraic fraction**.\n",
+   "back_md": "An algebraic fraction in which the **degree of the numerator is greater than or equal to the degree of the denominator**.\n\nSo $\\frac{x^{3}+2x^{2}-x+4}{x-5}$ is improper, being degree $3$ over degree $1$.\n",
+   "spec_links": [
+    "spcpt_yh53SXJHw2svRkJ8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XQDjydCMYvhtghSs",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_Vrc7TGFyzNZtQBWD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Any improper algebraic fraction can be written as:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{p} \\left(x\\right)}{a x + b} \\equiv \\_\\_\\_\\_\\_\\_ + \\frac{\\_\\_\\_\\_\\_\\_}{a x + b}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{p} \\left(x\\right)}{a x + b} \\equiv \\text{q} \\left(x\\right) + \\frac{r}{a x + b}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Here `\\text{q} \\left(x\\right)` is the **quotient** and $r$ the **remainder**, and the remainder keeps the original denominator underneath it."
+    }
+   ],
+   "front_md": "Any improper algebraic fraction can be written as:\n\n`\\frac{\\text{p} \\left(x\\right)}{a x + b} \\equiv \\_\\_\\_\\_\\_\\_ + \\frac{\\_\\_\\_\\_\\_\\_}{a x + b}`\n",
+   "back_md": "`\\frac{\\text{p} \\left(x\\right)}{a x + b} \\equiv \\text{q} \\left(x\\right) + \\frac{r}{a x + b}`\n\nHere `\\text{q} \\left(x\\right)` is the **quotient** and $r$ the **remainder**, and the remainder keeps the original denominator underneath it.\n",
+   "spec_links": [
+    "spcpt_yh53SXJHw2svRkJ8"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tKG5PHQqrBCJ26nW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Vrc7TGFyzNZtQBWD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the arithmetic equivalent of writing an improper algebraic fraction as a quotient and a remainder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Turning a top-heavy fraction into a **mixed number**."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{17}{5} = 3 \\frac{2}{5}$ is exactly the same move: divide, then write whatever is left over as a fraction."
+    }
+   ],
+   "front_md": "What is the arithmetic equivalent of writing an improper algebraic fraction as a quotient and a remainder?\n",
+   "back_md": "Turning a top-heavy fraction into a **mixed number**.\n\n$\\frac{17}{5} = 3 \\frac{2}{5}$ is exactly the same move: divide, then write whatever is left over as a fraction.\n",
+   "spec_links": [
+    "spcpt_yh53SXJHw2svRkJ8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2GDg7v3yMPwVjzfP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Vrc7TGFyzNZtQBWD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you split an improper algebraic fraction into a quotient and a remainder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Divide the numerator by the denominator**, using algebraic division."
+    },
+    {
+     "type": "paragraph",
+     "md": "The quotient becomes the whole part of the answer, and the remainder goes back over the original denominator."
+    }
+   ],
+   "front_md": "How do you split an improper algebraic fraction into a quotient and a remainder?\n",
+   "back_md": "**Divide the numerator by the denominator**, using algebraic division.\n\nThe quotient becomes the whole part of the answer, and the remainder goes back over the original denominator.\n",
+   "spec_links": [
+    "spcpt_yh53SXJHw2svRkJ8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_N8kk9KC2HcXVCFrp",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_Vrc7TGFyzNZtQBWD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{x}{x+1}$ is an improper algebraic fraction."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Numerator and denominator are both **degree 1**, and the definition covers the case where the degrees are equal."
+    },
+    {
+     "type": "paragraph",
+     "md": "Cases like this are the easiest to miss, and this one can be rewritten as $1 - \\frac{1}{x+1}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\frac{x}{x+1}$ is an improper algebraic fraction.\n",
+   "back_md": "**True.**\n\nNumerator and denominator are both **degree 1**, and the definition covers the case where the degrees are equal.\n\nCases like this are the easiest to miss, and this one can be rewritten as $1 - \\frac{1}{x+1}$.\n",
+   "spec_links": [
+    "spcpt_yh53SXJHw2svRkJ8"
+   ],
+   "flags": []
+  }
+ ]
+}

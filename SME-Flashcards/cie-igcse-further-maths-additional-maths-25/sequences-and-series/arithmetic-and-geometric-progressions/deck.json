@@ -1,0 +1,741 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:22:33Z",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/flashcards/sequences-and-series/arithmetic-and-geometric-progressions/",
+  "section_slug": "sequences-and-series",
+  "section_name": "Sequences & Series",
+  "topic_slug": "arithmetic-and-geometric-progressions",
+  "title": "Arithmetic & Geometric Progressions",
+  "order": 2
+ },
+ "card_count": 22,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 11,
+  "true_or_false": 4,
+  "fill_in_the_blanks": 4
+ },
+ "spec_link_cards": 22,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_9gnrRFvRb2sq9fch",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **sequence** and a **term**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **sequence**, also called a progression, is an ordered list of numbers together with a rule for generating them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each number in it is a **term**, and terms are usually labelled $u_{1}$, $u_{2}$, $u_{3}$ and so on."
+    }
+   ],
+   "front_md": "Define a **sequence** and a **term**.\n",
+   "back_md": "A **sequence**, also called a progression, is an ordered list of numbers together with a rule for generating them.\n\nEach number in it is a **term**, and terms are usually labelled $u_{1}$, $u_{2}$, $u_{3}$ and so on.\n",
+   "spec_links": [
+    "spcpt_Ps3XJXF8Nq4dNKFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FKxTQf6y5z4cmkdM",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a sequence and a series?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **sequence** is the list of terms; a **series** is what you get by **adding** those terms together."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $1 , 3 , 5 , 7$ is a sequence, while $1 + 3 + 5 + 7$ is the matching series."
+    }
+   ],
+   "front_md": "What is the difference between a sequence and a series?\n",
+   "back_md": "A **sequence** is the list of terms; a **series** is what you get by **adding** those terms together.\n\nSo $1 , 3 , 5 , 7$ is a sequence, while $1 + 3 + 5 + 7$ is the matching series.\n",
+   "spec_links": [
+    "spcpt_Ps3XJXF8Nq4dNKFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f6NMvJVQcB4jgyTP",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{n}$ means the $n$th term of a sequence."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{n}$ is the **sum** of the first $n$ terms, so $S_{n} = u_{1} + u_{2} + \\dots + u_{n}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $n$th term on its own is written $u_{n}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$S_{n}$ means the $n$th term of a sequence.\n",
+   "back_md": "**False.**\n\n$S_{n}$ is the **sum** of the first $n$ terms, so $S_{n} = u_{1} + u_{2} + \\dots + u_{n}$.\n\nThe $n$th term on its own is written $u_{n}$.\n",
+   "spec_links": [
+    "spcpt_Ps3XJXF8Nq4dNKFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7437KYb7XyZcFdRM",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A sequence is defined by $u_{n} = 5 - 2 n$. Find the first five terms and $S_{5}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substituting $n = 1$ to $5$ gives the terms $3$, $1$, $- 1$, $- 3$, $- 5$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding those together gives $S_{5} = - 5$, which is negative because the later terms outweigh the early ones."
+    }
+   ],
+   "front_md": "A sequence is defined by $u_{n} = 5 - 2 n$. Find the first five terms and $S_{5}$.\n",
+   "back_md": "Substituting $n = 1$ to $5$ gives the terms $3$, $1$, $- 1$, $- 3$, $- 5$.\n\nAdding those together gives $S_{5} = - 5$, which is negative because the later terms outweigh the early ones.\n",
+   "spec_links": [
+    "spcpt_Ps3XJXF8Nq4dNKFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sZjzGzt77wnG4kMn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the symbol $Σ$ tell you to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$Σ$ is the Greek capital sigma and stands for **sum**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The expression to its right says what is being added, and the numbers below and above it say where the counting starts and stops."
+    }
+   ],
+   "front_md": "What does the symbol $Σ$ tell you to do?\n",
+   "back_md": "$Σ$ is the Greek capital sigma and stands for **sum**.\n\nThe expression to its right says what is being added, and the numbers below and above it say where the counting starts and stops.\n",
+   "spec_links": [
+    "spcpt_4s9n8rqcZCWKC7Bt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j8ffgz4wJQ4Tfbz6",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_d5BHZ6thzYgc6mTP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The number below the $Σ$ is always 1."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The lower limit can be any value, so `\\sum_{k=0}^{4}(2k+1)` and `\\sum_{k=7}^{14}(2k-13)` are both perfectly ordinary sums."
+    },
+    {
+     "type": "paragraph",
+     "md": "Always read the limits rather than assuming the count begins at 1."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe number below the $Σ$ is always 1.\n",
+   "back_md": "**False.**\n\nThe lower limit can be any value, so `\\sum_{k=0}^{4}(2k+1)` and `\\sum_{k=7}^{14}(2k-13)` are both perfectly ordinary sums.\n\nAlways read the limits rather than assuming the count begins at 1.\n",
+   "spec_links": [
+    "spcpt_4s9n8rqcZCWKC7Bt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pSStvjKSxp8z3Fmg",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define an **arithmetic progression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **arithmetic progression** is a sequence in which the difference between consecutive terms is constant."
+    },
+    {
+     "type": "paragraph",
+     "md": "That constant is called the **common difference**, $d$, and the sequence starts at the **first term**, $a$."
+    }
+   ],
+   "front_md": "Define an **arithmetic progression**.\n",
+   "back_md": "An **arithmetic progression** is a sequence in which the difference between consecutive terms is constant.\n\nThat constant is called the **common difference**, $d$, and the sequence starts at the **first term**, $a$.\n",
+   "spec_links": [
+    "spcpt_v7G5PNqmCFK47VWw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4hYv8gtz8ZfcH3SH",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the $n$th term of an arithmetic progression:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`u_{n} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$u_{n} = a + ( n - 1 ) d$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $a$ is the first term and $d$ the common difference."
+    }
+   ],
+   "front_md": "Complete the formula for the $n$th term of an arithmetic progression:\n\n`u_{n} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n$u_{n} = a + ( n - 1 ) d$\n\nHere $a$ is the first term and $d$ the common difference.\n",
+   "spec_links": [
+    "spcpt_v7G5PNqmCFK47VWw"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_nvqyftNDVgcJpfDf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the formula use $( n - 1 ) d$ rather than $n d$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the first term has had **no** common differences added to it yet."
+    },
+    {
+     "type": "paragraph",
+     "md": "Check it with $n = 1$: the formula gives $a + 0 \\times d = a$, which is right, whereas $n d$ would wrongly add one difference straight away."
+    }
+   ],
+   "front_md": "Why does the formula use $( n - 1 ) d$ rather than $n d$?\n",
+   "back_md": "Because the first term has had **no** common differences added to it yet.\n\nCheck it with $n = 1$: the formula gives $a + 0 \\times d = a$, which is right, whereas $n d$ would wrongly add one difference straight away.\n",
+   "spec_links": [
+    "spcpt_v7G5PNqmCFK47VWw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Hng46tcYqTJgfCf",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The common difference of an arithmetic progression can be negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A negative common difference simply makes the sequence **decrease**, as in $20 , 17 , 14 , 11 , \\dots$ where $d = - 3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The word progression says nothing about the direction of travel."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe common difference of an arithmetic progression can be negative.\n",
+   "back_md": "**True.**\n\nA negative common difference simply makes the sequence **decrease**, as in $20 , 17 , 14 , 11 , \\dots$ where $d = - 3$.\n\nThe word progression says nothing about the direction of travel.\n",
+   "spec_links": [
+    "spcpt_v7G5PNqmCFK47VWw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YrVJVtBP6VHnsTbQ",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two forms for the sum of the first $n$ terms:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{1}{2}n(a + \\_\\_\\_\\_\\_\\_)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{1}{2}n(2a + \\_\\_\\_\\_\\_\\_)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed forms are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{n} = \\frac{1}{2} n ( a + l )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{n} = \\frac{1}{2} n ( 2 a + ( n - 1 ) d )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $l$ is the **last** term, and the second form is just the first with $l$ replaced by $a + ( n - 1 ) d$."
+    }
+   ],
+   "front_md": "Complete the two forms for the sum of the first $n$ terms:\n\n`S_{n} = \\frac{1}{2}n(a + \\_\\_\\_\\_\\_\\_)`\n\n`S_{n} = \\frac{1}{2}n(2a + \\_\\_\\_\\_\\_\\_)`\n",
+   "back_md": "The completed forms are:\n\n$S_{n} = \\frac{1}{2} n ( a + l )$\n\n$S_{n} = \\frac{1}{2} n ( 2 a + ( n - 1 ) d )$\n\nHere $l$ is the **last** term, and the second form is just the first with $l$ replaced by $a + ( n - 1 ) d$.\n",
+   "spec_links": [
+    "spcpt_T9nZHcf2qK49B5pP"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2PPHWWwD7xqCwrBJ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which form of the sum formula should you use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use $\\frac{1}{2} n ( a + l )$ when you know the **first and last** terms."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use $\\frac{1}{2} n ( 2 a + ( n - 1 ) d )$ when you know the **first term and the common difference** but not the last term."
+    }
+   ],
+   "front_md": "Which form of the sum formula should you use?\n",
+   "back_md": "Use $\\frac{1}{2} n ( a + l )$ when you know the **first and last** terms.\n\nUse $\\frac{1}{2} n ( 2 a + ( n - 1 ) d )$ when you know the **first term and the common difference** but not the last term.\n",
+   "spec_links": [
+    "spcpt_T9nZHcf2qK49B5pP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WbWTd3NGhTPPQVjH",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An arithmetic progression has first term 3 and twentieth term 60. Find $S_{20}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both the first and last terms are known, so use the shorter form:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{20} = \\frac{1}{2} \\times 20 \\times ( 3 + 60 ) = 630$"
+    },
+    {
+     "type": "paragraph",
+     "md": "No common difference is needed, which is why this form is worth spotting."
+    }
+   ],
+   "front_md": "An arithmetic progression has first term 3 and twentieth term 60. Find $S_{20}$.\n",
+   "back_md": "Both the first and last terms are known, so use the shorter form:\n\n$S_{20} = \\frac{1}{2} \\times 20 \\times ( 3 + 60 ) = 630$\n\nNo common difference is needed, which is why this form is worth spotting.\n",
+   "spec_links": [
+    "spcpt_T9nZHcf2qK49B5pP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tvfctjsGW7sCmWsH",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_MSM8rwb4f6Km5jDH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question gives you $S_{n}$ and the first term, and asks for the common difference. What do you do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute everything you know into $S_{n} = \\frac{1}{2} n ( 2 a + ( n - 1 ) d )$ and solve the resulting equation for $d$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formulas work in any direction, so an unknown inside one is found the same way as the sum itself."
+    }
+   ],
+   "front_md": "A question gives you $S_{n}$ and the first term, and asks for the common difference. What do you do?\n",
+   "back_md": "Substitute everything you know into $S_{n} = \\frac{1}{2} n ( 2 a + ( n - 1 ) d )$ and solve the resulting equation for $d$.\n\nThe formulas work in any direction, so an unknown inside one is found the same way as the sum itself.\n",
+   "spec_links": [
+    "spcpt_T9nZHcf2qK49B5pP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7qJnrNsZ65WnnJZC",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **geometric progression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **geometric progression** is a sequence in which consecutive terms are related by a constant multiplier."
+    },
+    {
+     "type": "paragraph",
+     "md": "That multiplier is the **common ratio**, $r$, and the sequence starts at the **first term**, $a$."
+    }
+   ],
+   "front_md": "Define a **geometric progression**.\n",
+   "back_md": "A **geometric progression** is a sequence in which consecutive terms are related by a constant multiplier.\n\nThat multiplier is the **common ratio**, $r$, and the sequence starts at the **first term**, $a$.\n",
+   "spec_links": [
+    "spcpt_z8nfcb8kZqJ49yXb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cBB5MWDmQjKW7BKF",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the $n$th term of a geometric progression:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`u_{n} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$u_{n} = a r^{n-1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The power is $n - 1$ for the same reason as in an arithmetic progression: the first term has not yet been multiplied by anything."
+    }
+   ],
+   "front_md": "Complete the formula for the $n$th term of a geometric progression:\n\n`u_{n} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n$u_{n} = a r^{n-1}$\n\nThe power is $n - 1$ for the same reason as in an arithmetic progression: the first term has not yet been multiplied by anything.\n",
+   "spec_links": [
+    "spcpt_z8nfcb8kZqJ49yXb"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Twk2SYVp4xNWwC3y",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to a geometric progression when $r$ is negative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The terms **alternate** between positive and negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "For instance $1 , - 4 , 16 , - 64 , 256 , \\dots$ has $r = - 4$, and the signs flip with every multiplication."
+    }
+   ],
+   "front_md": "What happens to a geometric progression when $r$ is negative?\n",
+   "back_md": "The terms **alternate** between positive and negative.\n\nFor instance $1 , - 4 , 16 , - 64 , 256 , \\dots$ has $r = - 4$, and the signs flip with every multiplication.\n",
+   "spec_links": [
+    "spcpt_z8nfcb8kZqJ49yXb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PXQ2v6XNcf3WVnwb",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are given two consecutive terms of a geometric progression. How do you find $r$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide a term by the one immediately before it, since that division undoes the multiplication."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $r$ known, substituting either term into $u_{n} = a r^{n-1}$ then gives the first term."
+    }
+   ],
+   "front_md": "You are given two consecutive terms of a geometric progression. How do you find $r$?\n",
+   "back_md": "Divide a term by the one immediately before it, since that division undoes the multiplication.\n\nWith $r$ known, substituting either term into $u_{n} = a r^{n-1}$ then gives the first term.\n",
+   "spec_links": [
+    "spcpt_z8nfcb8kZqJ49yXb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k2MfPwcXkBJjNkCF",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a geometric series?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the **sum** of the terms of a geometric progression."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the progression $2 , 6 , 18 , 54 , \\dots$ has the matching series $2 + 6 + 18 + 54 + \\dots$"
+    }
+   ],
+   "front_md": "What is a geometric series?\n",
+   "back_md": "It is the **sum** of the terms of a geometric progression.\n\nSo the progression $2 , 6 , 18 , 54 , \\dots$ has the matching series $2 + 6 + 18 + 54 + \\dots$\n",
+   "spec_links": [
+    "spcpt_sJK3jcQkZJQG5zDH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zcnYCCsb9pBc28ns",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the sum of the first $n$ terms of a geometric progression:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{a(1 - \\_\\_\\_\\_\\_\\_)}{1 - r}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{n} = \\frac{a(1-r^{n})}{1-r}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is an equivalent form, $\\frac{a(r^{n}-1)}{r-1}$, and both require $r \\neq 1$."
+    }
+   ],
+   "front_md": "Complete the sum of the first $n$ terms of a geometric progression:\n\n`S_{n} = \\frac{a(1 - \\_\\_\\_\\_\\_\\_)}{1 - r}`\n",
+   "back_md": "The completed formula is:\n\n$S_{n} = \\frac{a(1-r^{n})}{1-r}$\n\nThere is an equivalent form, $\\frac{a(r^{n}-1)}{r-1}$, and both require $r \\neq 1$.\n",
+   "spec_links": [
+    "spcpt_sJK3jcQkZJQG5zDH"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_vm7kfxNf3hwd8bVW",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which form of the geometric sum formula is more convenient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use $\\frac{a(1-r^{n})}{1-r}$ when $r < 1$, so that both the top and bottom stay positive."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use $\\frac{a(r^{n}-1)}{r-1}$ when $r > 1$, for the same reason, since the two are just each other multiplied through by $- 1$."
+    }
+   ],
+   "front_md": "Which form of the geometric sum formula is more convenient?\n",
+   "back_md": "Use $\\frac{a(1-r^{n})}{1-r}$ when $r < 1$, so that both the top and bottom stay positive.\n\nUse $\\frac{a(r^{n}-1)}{r-1}$ when $r > 1$, for the same reason, since the two are just each other multiplied through by $- 1$.\n",
+   "spec_links": [
+    "spcpt_sJK3jcQkZJQG5zDH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_77rK2brXqjjKgzWm",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_wSRHTVvxYZfQdDv4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every geometric series has a sum to infinity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A sum to infinity exists only when `|r| < 1`, and it is then $S_{\\infty} = \\frac{a}{1-r}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "If `|r| \\ge 1` the terms do not shrink away, so the total grows without limit and the series diverges."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery geometric series has a sum to infinity.\n",
+   "back_md": "**False.**\n\nA sum to infinity exists only when `|r| < 1`, and it is then $S_{\\infty} = \\frac{a}{1-r}$.\n\nIf `|r| \\ge 1` the terms do not shrink away, so the total grows without limit and the series diverges.\n",
+   "spec_links": [
+    "spcpt_sJK3jcQkZJQG5zDH"
+   ],
+   "flags": []
+  }
+ ]
+}

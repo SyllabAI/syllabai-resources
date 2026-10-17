@@ -1,0 +1,879 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:29Z",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/flashcards/statistical-sampling-and-estimation/sampling-and-estimation/",
+  "section_slug": "statistical-sampling-and-estimation",
+  "section_name": "Statistical Sampling & Estimation",
+  "topic_slug": "sampling-and-estimation",
+  "title": "Sampling & Estimation",
+  "order": 1
+ },
+ "card_count": 24,
+ "card_types": {
+  "keyword_definition": 3,
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 14,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Gk55YvbX33MHhQ3j",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **unbiased estimate**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **unbiased estimate** is one produced by a statistic whose expected value is equal to the population parameter being estimated."
+    },
+    {
+     "type": "paragraph",
+     "md": "In plainer terms, individual estimates will vary from sample to sample, but the process gives an accurate result **on average**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the mean of many such estimates closes in on the true parameter as more samples are taken."
+    }
+   ],
+   "front_md": "Define **unbiased estimate**.\n",
+   "back_md": "An **unbiased estimate** is one produced by a statistic whose expected value is equal to the population parameter being estimated.\n\nIn plainer terms, individual estimates will vary from sample to sample, but the process gives an accurate result **on average**.\n\nSo the mean of many such estimates closes in on the true parameter as more samples are taken.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BZfQpWK4x9m87ZRT",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the unbiased estimate of a population variance from a sample of size $n$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`s^{2} = \\frac{1}{\\_\\_\\_\\_\\_\\_}\\left(\\Sigma x^{2} - \\frac{\\left(\\Sigma x\\right)^{2}}{n}\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`s^{2} = \\frac{1}{n - 1}\\left(\\Sigma x^{2} - \\frac{\\left(\\Sigma x\\right)^{2}}{n}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Notice that the $n$ inside the bracket is still $n$: only the divisor outside it changes."
+    },
+    {
+     "type": "paragraph",
+     "md": "Getting those two the wrong way round is the commonest slip in the whole calculation."
+    }
+   ],
+   "front_md": "Complete the unbiased estimate of a population variance from a sample of size $n$:\n\n`s^{2} = \\frac{1}{\\_\\_\\_\\_\\_\\_}\\left(\\Sigma x^{2} - \\frac{\\left(\\Sigma x\\right)^{2}}{n}\\right)`\n",
+   "back_md": "The completed formula is:\n\n`s^{2} = \\frac{1}{n - 1}\\left(\\Sigma x^{2} - \\frac{\\left(\\Sigma x\\right)^{2}}{n}\\right)`\n\nNotice that the $n$ inside the bracket is still $n$: only the divisor outside it changes.\n\nGetting those two the wrong way round is the commonest slip in the whole calculation.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_gyJKWJxWsNvWrRYm",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the one difference between the formula for a population variance and the unbiased estimate of it from a sample?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **divisor**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A population variance divides by $n$, while the unbiased estimate from a sample divides by $n - 1$; everything else is identical."
+    },
+    {
+     "type": "paragraph",
+     "md": "So one route to the estimate is to work out the sample's own variance and then multiply it by $\\frac{n}{n-1}$."
+    }
+   ],
+   "front_md": "What is the one difference between the formula for a population variance and the unbiased estimate of it from a sample?\n",
+   "back_md": "The **divisor**.\n\nA population variance divides by $n$, while the unbiased estimate from a sample divides by $n - 1$; everything else is identical.\n\nSo one route to the estimate is to work out the sample's own variance and then multiply it by $\\frac{n}{n-1}$.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8F2tNHDYg2fqD7Fv",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The unbiased estimate of a population mean is just the sample mean."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is exactly the same formula, $\\overline{x} = \\frac{Σx}{n}$, with no adjustment of any kind."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean needs no correction; it is only the variance that does, which is what makes the two cases worth keeping apart in your head."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe unbiased estimate of a population mean is just the sample mean.\n",
+   "back_md": "**True.**\n\nIt is exactly the same formula, $\\overline{x} = \\frac{Σx}{n}$, with no adjustment of any kind.\n\nThe mean needs no correction; it is only the variance that does, which is what makes the two cases worth keeping apart in your head.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PRT6PtFswNKcfd4r",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Square-rooting an unbiased estimate of the variance gives an unbiased estimate of the standard deviation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Square-rooting does not preserve unbiasedness, and there is no formula that gives an unbiased estimate of the standard deviation for every population."
+    },
+    {
+     "type": "paragraph",
+     "md": "The square root of $s^{2}$ is still a perfectly good estimate and is what you would quote, but it is better to work with the variance wherever you can."
+    }
+   ],
+   "front_md": "**True or False?**\n\nSquare-rooting an unbiased estimate of the variance gives an unbiased estimate of the standard deviation.\n",
+   "back_md": "**False.**\n\nSquare-rooting does not preserve unbiasedness, and there is no formula that gives an unbiased estimate of the standard deviation for every population.\n\nThe square root of $s^{2}$ is still a perfectly good estimate and is what you would quote, but it is better to work with the variance wherever you can.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G6KqRyCjwpXJWKs7",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From $n = 50$, $Σ t = 6174$ and $Σ t^{2} = 831581$, what are the unbiased estimates?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The mean is $\\frac{6174}{50} = 123$ minutes to 3 significant figures."
+    },
+    {
+     "type": "paragraph",
+     "md": "The variance is"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{1}{49}\\left(831581 - \\frac{6174^{2}}{50}\\right) = 1410 \\text{ min}^{2}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Note the units: a variance carries the **square** of the unit of the original data."
+    }
+   ],
+   "front_md": "From $n = 50$, $Σ t = 6174$ and $Σ t^{2} = 831581$, what are the unbiased estimates?\n",
+   "back_md": "The mean is $\\frac{6174}{50} = 123$ minutes to 3 significant figures.\n\nThe variance is\n\n`\\frac{1}{49}\\left(831581 - \\frac{6174^{2}}{50}\\right) = 1410 \\text{ min}^{2}`\n\nNote the units: a variance carries the **square** of the unit of the original data.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J5QgdBBzyZN8n4fK",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_PhJwCZyB8HGXbWB2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question gives you the raw data rather than the summary statistics. What is the first thing to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out $Σ x$ and $Σ x^{2}$ from the data yourself, then use exactly the same formulae."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formulae are written in terms of those two sums precisely so that raw data and summarised data can be handled the same way."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth writing both sums down before substituting anything, because each is used more than once."
+    }
+   ],
+   "front_md": "A question gives you the raw data rather than the summary statistics. What is the first thing to do?\n",
+   "back_md": "Work out $Σ x$ and $Σ x^{2}$ from the data yourself, then use exactly the same formulae.\n\nThe formulae are written in terms of those two sums precisely so that raw data and summarised data can be handled the same way.\n\nIt is worth writing both sums down before substituting anything, because each is used more than once.\n",
+   "spec_links": [
+    "spcpt_fRD8dzP7gVHcXjn6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zGD5R3wYGj9Vw4cX",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\overline{X}$ stand for, and why is it a random variable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\overline{X}$ is the mean of a sample of size $n$ taken from a population."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a **random variable** because a different sample gives a different value for it, so before the sample is taken its value is unknown."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its distribution is the distribution of all the values a sample mean could take."
+    }
+   ],
+   "front_md": "What does $\\overline{X}$ stand for, and why is it a random variable?\n",
+   "back_md": "$\\overline{X}$ is the mean of a sample of size $n$ taken from a population.\n\nIt is a **random variable** because a different sample gives a different value for it, so before the sample is taken its value is unknown.\n\nIts distribution is the distribution of all the values a sample mean could take.\n",
+   "spec_links": [
+    "spcpt_c4NPrDp59NSdW45n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TsD5r4rmJ7ky9JHS",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a sample of size $n$ from a population with mean $μ$ and variance $σ^{2}$, fill in the two results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E}(\\bar{X}) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{Var}(\\bar{X}) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{E} ( \\overline{X} ) = μ$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{Var} ( \\overline{X} ) = \\frac{σ^{2}}{n}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Averaging does not shift the centre, so the mean is unchanged; what it does is reduce the spread."
+    },
+    {
+     "type": "paragraph",
+     "md": "The variance is divided by $n$ itself, not by the square root of it."
+    }
+   ],
+   "front_md": "For a sample of size $n$ from a population with mean $μ$ and variance $σ^{2}$, fill in the two results:\n\n`\\text{E}(\\bar{X}) = \\_\\_\\_\\_\\_\\_`\n\n`\\text{Var}(\\bar{X}) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\text{E} ( \\overline{X} ) = μ$\n\n$\\text{Var} ( \\overline{X} ) = \\frac{σ^{2}}{n}$\n\nAveraging does not shift the centre, so the mean is unchanged; what it does is reduce the spread.\n\nThe variance is divided by $n$ itself, not by the square root of it.\n",
+   "spec_links": [
+    "spcpt_c4NPrDp59NSdW45n"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_hStNJgwTB6HZSQm6",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the standard deviation of $\\overline{X}$, and what happens to it as $n$ grows?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $\\frac{σ}{\\sqrt{n}}$, so it is inversely proportional to the **square root** of the sample size."
+    },
+    {
+     "type": "paragraph",
+     "md": "A larger sample therefore makes the distribution of sample means narrower and taller."
+    },
+    {
+     "type": "paragraph",
+     "md": "The square root is what makes this expensive: quadrupling the sample only halves the spread."
+    }
+   ],
+   "front_md": "What is the standard deviation of $\\overline{X}$, and what happens to it as $n$ grows?\n",
+   "back_md": "It is $\\frac{σ}{\\sqrt{n}}$, so it is inversely proportional to the **square root** of the sample size.\n\nA larger sample therefore makes the distribution of sample means narrower and taller.\n\nThe square root is what makes this expensive: quadrupling the sample only halves the spread.\n",
+   "spec_links": [
+    "spcpt_c4NPrDp59NSdW45n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H7yrQCzSMyVtKwrm",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If `X \\sim \\text{N}(30, 25)` and a sample of 10 is taken, what is the distribution of $\\overline{X}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\bar{X} \\sim \\text{N}(30, 2.5)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean stays at 30 and the variance becomes $\\frac{25}{10}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because the population is normal, this is **exact**, with no approximation involved anywhere."
+    }
+   ],
+   "front_md": "If `X \\sim \\text{N}(30, 25)` and a sample of 10 is taken, what is the distribution of $\\overline{X}$?\n",
+   "back_md": "It is `\\bar{X} \\sim \\text{N}(30, 2.5)`.\n\nThe mean stays at 30 and the variance becomes $\\frac{25}{10}$.\n\nBecause the population is normal, this is **exact**, with no approximation involved anywhere.\n",
+   "spec_links": [
+    "spcpt_c4NPrDp59NSdW45n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_thCfr55h6q86bpqC",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the mean of a sample a more reliable estimate of $μ$ than a single observation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Taking a mean dilutes the effect of any one extreme value, since a high reading can be offset by a low one."
+    },
+    {
+     "type": "paragraph",
+     "md": "The distribution of sample means is correspondingly narrower than the population's, and the larger the sample the narrower it gets."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a sample mean clusters much more tightly around $μ$ than a single reading ever does."
+    }
+   ],
+   "front_md": "Why is the mean of a sample a more reliable estimate of $μ$ than a single observation?\n",
+   "back_md": "Taking a mean dilutes the effect of any one extreme value, since a high reading can be offset by a low one.\n\nThe distribution of sample means is correspondingly narrower than the population's, and the larger the sample the narrower it gets.\n\nSo a sample mean clusters much more tightly around $μ$ than a single reading ever does.\n",
+   "spec_links": [
+    "spcpt_c4NPrDp59NSdW45n"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TsCycFHZd8XNhMcb",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **Central Limit Theorem**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a random sample of size $n$ from **any** population with mean $μ$ and variance $σ^{2}$, the **Central Limit Theorem** says that $\\overline{X}$ can be approximated by `\\text{N}\\left(\\mu, \\frac{\\sigma^{2}}{n}\\right)`, provided $n$ is large enough."
+    },
+    {
+     "type": "paragraph",
+     "md": "Large enough is usually taken to mean at least 30."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its power is that it says nothing at all about the shape of the population."
+    }
+   ],
+   "front_md": "Define the **Central Limit Theorem**.\n",
+   "back_md": "For a random sample of size $n$ from **any** population with mean $μ$ and variance $σ^{2}$, the **Central Limit Theorem** says that $\\overline{X}$ can be approximated by `\\text{N}\\left(\\mu, \\frac{\\sigma^{2}}{n}\\right)`, provided $n$ is large enough.\n\nLarge enough is usually taken to mean at least 30.\n\nIts power is that it says nothing at all about the shape of the population.\n",
+   "spec_links": [
+    "spcpt_9GfWnqSpBjXwDKVj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yJnCnKmtMCT3Wqkv",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the population is normal, the sample mean is exactly normal however small the sample."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A normal population gives an exactly normal distribution of sample means at any sample size, with no approximation at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the Central Limit Theorem is **not needed** here: it is only for populations that are not normal, and then only when the sample is large."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf the population is normal, the sample mean is exactly normal however small the sample.\n",
+   "back_md": "**True.**\n\nA normal population gives an exactly normal distribution of sample means at any sample size, with no approximation at all.\n\nSo the Central Limit Theorem is **not needed** here: it is only for populations that are not normal, and then only when the sample is large.\n",
+   "spec_links": [
+    "spcpt_9GfWnqSpBjXwDKVj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZcScrvqPbrbwfW9D",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_8XM5yYFnzNDPDcdk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Susie's 40 numbers come from a population with mean 15 and variance 70. How do you find $\\text{P} ( \\overline{X} < 13 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The population is not normal, but 40 is a large sample, so the Central Limit Theorem gives `\\bar{X} \\approx \\text{N}\\left(15, \\frac{70}{40}\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Standardising 13 against that distribution gives $z = - 1 . 512$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability is then $0 . 0653$, and the answer should say that the Central Limit Theorem was used and why."
+    }
+   ],
+   "front_md": "Susie's 40 numbers come from a population with mean 15 and variance 70. How do you find $\\text{P} ( \\overline{X} < 13 )$?\n",
+   "back_md": "The population is not normal, but 40 is a large sample, so the Central Limit Theorem gives `\\bar{X} \\approx \\text{N}\\left(15, \\frac{70}{40}\\right)`.\n\nStandardising 13 against that distribution gives $z = - 1 . 512$.\n\nThe probability is then $0 . 0653$, and the answer should say that the Central Limit Theorem was used and why.\n",
+   "spec_links": [
+    "spcpt_9GfWnqSpBjXwDKVj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NNpD9TxRkqypb34B",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **confidence interval**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **confidence interval** is an interval, calculated from a sample, within which a population parameter is likely to lie."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its **confidence level** is the probability that an interval constructed in that way contains the parameter."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the best that can be done when the exact value of a parameter cannot be found from a sample."
+    }
+   ],
+   "front_md": "Define **confidence interval**.\n",
+   "back_md": "A **confidence interval** is an interval, calculated from a sample, within which a population parameter is likely to lie.\n\nIts **confidence level** is the probability that an interval constructed in that way contains the parameter.\n\nIt is the best that can be done when the exact value of a parameter cannot be found from a sample.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JFtm9jGTxBX9ThVq",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it wrong to say there is a 95% probability that $μ$ lies inside a particular confidence interval?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $μ$ is a **fixed** number: it either is inside that particular interval or it is not, and there is no probability about it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The 95% describes the **procedure** instead. If 100 samples were taken and an interval built from each, about 95 of those intervals would contain $μ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why the wording is always \"the interval contains the parameter\" rather than the other way round."
+    }
+   ],
+   "front_md": "Why is it wrong to say there is a 95% probability that $μ$ lies inside a particular confidence interval?\n",
+   "back_md": "Because $μ$ is a **fixed** number: it either is inside that particular interval or it is not, and there is no probability about it.\n\nThe 95% describes the **procedure** instead. If 100 samples were taken and an interval built from each, about 95 of those intervals would contain $μ$.\n\nThat is why the wording is always \"the interval contains the parameter\" rather than the other way round.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g27yRrpj6PkdNfwr",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the $z$-values for these three confidence levels:"
+    },
+    {
+     "type": "paragraph",
+     "md": "90%: `z = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "95%: `z = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "99%: `z = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed values are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "90%: $z = 1 . 645$"
+    },
+    {
+     "type": "paragraph",
+     "md": "95%: $z = 1 . 960$"
+    },
+    {
+     "type": "paragraph",
+     "md": "99%: $z = 2 . 576$"
+    },
+    {
+     "type": "paragraph",
+     "md": "They are quoted to three decimal places because $z$ is multiplied by a standard deviation, so an error in it is magnified."
+    },
+    {
+     "type": "paragraph",
+     "md": "All three appear in the table of critical values, so they need not be memorised, but recognising them is a useful check."
+    }
+   ],
+   "front_md": "Fill in the $z$-values for these three confidence levels:\n\n90%: `z = \\_\\_\\_\\_\\_\\_`\n\n95%: `z = \\_\\_\\_\\_\\_\\_`\n\n99%: `z = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed values are:\n\n90%: $z = 1 . 645$\n\n95%: $z = 1 . 960$\n\n99%: $z = 2 . 576$\n\nThey are quoted to three decimal places because $z$ is multiplied by a standard deviation, so an error in it is magnified.\n\nAll three appear in the table of critical values, so they need not be memorised, but recognising them is a useful check.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_yrMBqpZPkhG3bv8F",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a 90% confidence interval, why do you look up $0 . 95$ rather than $0 . 90$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The 90% sits in the **middle** of the distribution, so the remaining 10% is shared equally between the two tails, leaving 5% above $z$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability below $z$ is therefore 95%, which is what the table needs."
+    },
+    {
+     "type": "paragraph",
+     "md": "In general you look up $\\frac{α+100}{2}$ per cent for a confidence level of $α$%."
+    }
+   ],
+   "front_md": "For a 90% confidence interval, why do you look up $0 . 95$ rather than $0 . 90$?\n",
+   "back_md": "The 90% sits in the **middle** of the distribution, so the remaining 10% is shared equally between the two tails, leaving 5% above $z$.\n\nThe probability below $z$ is therefore 95%, which is what the table needs.\n\nIn general you look up $\\frac{α+100}{2}$ per cent for a confidence level of $α$%.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RgkvjQw6dc3b235N",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two things affect the width of a confidence interval, and in which direction?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **higher confidence level** makes it wider, because catching the parameter more often requires casting a wider net."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **larger sample** makes it narrower, because $\\frac{σ}{\\sqrt{n}}$ shrinks as $n$ grows."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two pull against each other, which is why more confidence is not simply better."
+    }
+   ],
+   "front_md": "What two things affect the width of a confidence interval, and in which direction?\n",
+   "back_md": "A **higher confidence level** makes it wider, because catching the parameter more often requires casting a wider net.\n\nA **larger sample** makes it narrower, because $\\frac{σ}{\\sqrt{n}}$ shrinks as $n$ grows.\n\nThe two pull against each other, which is why more confidence is not simply better.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9WbTrkmWn7HNq2hw",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The sample mean affects both where a confidence interval for $μ$ sits and how wide it is."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The sample mean is the **midpoint**, so it fixes where the interval sits, but the width is $2 z \\times \\frac{σ}{\\sqrt{n}}$ and does not contain $\\overline{x}$ at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "An interval for a **proportion** behaves differently: there the sample proportion appears in the width as well as at the centre."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe sample mean affects both where a confidence interval for $μ$ sits and how wide it is.\n",
+   "back_md": "**False.**\n\nThe sample mean is the **midpoint**, so it fixes where the interval sits, but the width is $2 z \\times \\frac{σ}{\\sqrt{n}}$ and does not contain $\\overline{x}$ at all.\n\nAn interval for a **proportion** behaves differently: there the sample proportion appears in the width as well as at the centre.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bk9p4kzzphs2ppZr",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A 95% confidence interval for $μ$ is 18.5 to 22.1, and someone claims that $μ = 23$. What can you say?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "23 lies **outside** the interval, so there is **not enough evidence to support** the claim."
+    },
+    {
+     "type": "paragraph",
+     "md": "A value lying inside the interval would be supported by it instead."
+    },
+    {
+     "type": "paragraph",
+     "md": "The wording matters either way: a confidence interval gives evidence rather than proof, so it never establishes a value or rules one out for certain."
+    }
+   ],
+   "front_md": "A 95% confidence interval for $μ$ is 18.5 to 22.1, and someone claims that $μ = 23$. What can you say?\n",
+   "back_md": "23 lies **outside** the interval, so there is **not enough evidence to support** the claim.\n\nA value lying inside the interval would be supported by it instead.\n\nThe wording matters either way: a confidence interval gives evidence rather than proof, so it never establishes a value or rules one out for certain.\n",
+   "spec_links": [
+    "spcpt_4rg88C35yg494Krw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w8kH55T929tnWbzH",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the confidence interval for a population proportion?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\hat{p} \\pm z \\times \\sqrt{\\frac{\\hat{p}(1 - \\hat{p})}{n}}`, where `\\hat{p}` is the proportion in the sample."
+    },
+    {
+     "type": "paragraph",
+     "md": "It may only be used when the sample is large enough for the Central Limit Theorem to apply."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives the distribution of the sample proportion as `\\text{N}\\left(p, \\frac{p(1 - p)}{n}\\right)`, which is where the square root comes from."
+    }
+   ],
+   "front_md": "What is the confidence interval for a population proportion?\n",
+   "back_md": "It is `\\hat{p} \\pm z \\times \\sqrt{\\frac{\\hat{p}(1 - \\hat{p})}{n}}`, where `\\hat{p}` is the proportion in the sample.\n\nIt may only be used when the sample is large enough for the Central Limit Theorem to apply.\n\nThe formula booklet gives the distribution of the sample proportion as `\\text{N}\\left(p, \\frac{p(1 - p)}{n}\\right)`, which is where the square root comes from.\n",
+   "spec_links": [
+    "spcpt_WrdZ9XXxJsS2Jrd3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7kTPXCzBgd66DT9w",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_HFNMxh6QKTpzkRgd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a confidence interval for a proportion test whether a coin is fair?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out the proportion of heads in a sample and build a confidence interval for the population proportion $p$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A fair coin would have $p = 0 . 5$, so check whether $0 . 5$ lies inside the interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it lies outside there is evidence the coin is not fair; if it lies inside, there is not enough evidence to say so."
+    }
+   ],
+   "front_md": "How can a confidence interval for a proportion test whether a coin is fair?\n",
+   "back_md": "Work out the proportion of heads in a sample and build a confidence interval for the population proportion $p$.\n\nA fair coin would have $p = 0 . 5$, so check whether $0 . 5$ lies inside the interval.\n\nIf it lies outside there is evidence the coin is not fair; if it lies inside, there is not enough evidence to say so.\n",
+   "spec_links": [
+    "spcpt_WrdZ9XXxJsS2Jrd3"
+   ],
+   "flags": []
+  }
+ ]
+}

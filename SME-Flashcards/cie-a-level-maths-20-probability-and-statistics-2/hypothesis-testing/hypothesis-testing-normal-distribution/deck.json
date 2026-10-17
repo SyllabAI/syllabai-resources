@@ -1,0 +1,258 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:25Z",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/flashcards/hypothesis-testing/hypothesis-testing-normal-distribution/",
+  "section_slug": "hypothesis-testing",
+  "section_name": "Hypothesis Testing",
+  "topic_slug": "hypothesis-testing-normal-distribution",
+  "title": "Hypothesis Testing (Normal Distribution)",
+  "order": 2
+ },
+ "card_count": 7,
+ "card_types": {
+  "question_and_answer": 5,
+  "fill_in_the_blanks": 1,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 7,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_9jNBXFpvhG7dMB2b",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a test on a population mean, which distribution does the test actually work with?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The distribution of the **sample mean** $\\overline{X}$, not the population distribution $X$ the question quotes."
+    },
+    {
+     "type": "paragraph",
+     "md": "Assuming $\\text{H}_{0}$ is true, `\\bar{X} \\sim \\text{N} \\left(\\mu, \\frac{\\sigma^{2}}{n}\\right)`, and the observed sample mean is judged against that."
+    },
+    {
+     "type": "paragraph",
+     "md": "Using the population distribution instead treats a mean of $n$ readings as though it were a single reading."
+    }
+   ],
+   "front_md": "In a test on a population mean, which distribution does the test actually work with?\n",
+   "back_md": "The distribution of the **sample mean** $\\overline{X}$, not the population distribution $X$ the question quotes.\n\nAssuming $\\text{H}_{0}$ is true, `\\bar{X} \\sim \\text{N} \\left(\\mu, \\frac{\\sigma^{2}}{n}\\right)`, and the observed sample mean is judged against that.\n\nUsing the population distribution instead treats a mean of $n$ readings as though it were a single reading.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NH7SRqk2m9Sn8GMR",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the test statistic for a hypothesis test on the mean of a normal distribution."
+    },
+    {
+     "type": "paragraph",
+     "md": "`z = \\frac{\\bar{x} - \\mu}{\\frac{\\sigma}{\\_\\_\\_\\_\\_\\_}}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed test statistic is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$z = \\frac{\\overline{x}-μ}{\\frac{σ}{\\sqrt{n}}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The denominator is the standard deviation of $\\overline{X}$, so it carries $\\sqrt{n}$ rather than $n$."
+    }
+   ],
+   "front_md": "Complete the test statistic for a hypothesis test on the mean of a normal distribution.\n\n`z = \\frac{\\bar{x} - \\mu}{\\frac{\\sigma}{\\_\\_\\_\\_\\_\\_}}`\n",
+   "back_md": "The completed test statistic is:\n\n$z = \\frac{\\overline{x}-μ}{\\frac{σ}{\\sqrt{n}}}$\n\nThe denominator is the standard deviation of $\\overline{X}$, so it carries $\\sqrt{n}$ rather than $n$.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_bWrJTwDRRSMW8T9Q",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{N} \\left(204, 81\\right)` and a sample of 12, what is the denominator of $z$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $\\frac{9}{\\sqrt{12}} = 2 . 598$ to three decimal places."
+    },
+    {
+     "type": "paragraph",
+     "md": "The 81 is the **variance**, so the standard deviation is $\\sqrt{81} = 9$, and it is the standard deviation that goes into the formula."
+    },
+    {
+     "type": "paragraph",
+     "md": "Putting 81 in the numerator of the fraction is the commonest slip here."
+    }
+   ],
+   "front_md": "For `X \\sim \\text{N} \\left(204, 81\\right)` and a sample of 12, what is the denominator of $z$?\n",
+   "back_md": "It is $\\frac{9}{\\sqrt{12}} = 2 . 598$ to three decimal places.\n\nThe 81 is the **variance**, so the standard deviation is $\\sqrt{81} = 9$, and it is the standard deviation that goes into the formula.\n\nPutting 81 in the numerator of the fraction is the commonest slip here.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_swbm9QV7fDqd83gp",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the critical $z$ value found for a 5% one-tailed test?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Read it from the **table of critical values** for the standard normal distribution, which gives $z = 1 . 645$ at 5%."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use $- 1 . 645$ when the test is for a decrease, since the critical region is then in the lower tail."
+    }
+   ],
+   "front_md": "How is the critical $z$ value found for a 5% one-tailed test?\n",
+   "back_md": "Read it from the **table of critical values** for the standard normal distribution, which gives $z = 1 . 645$ at 5%.\n\nUse $- 1 . 645$ when the test is for a decrease, since the critical region is then in the lower tail.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BrDQVjS45vFD7CPk",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A test statistic of $z = - 1 . 15$ does not lie in the critical region of a 5% lower-tailed test."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The critical value is $- 1 . 645$, and $- 1 . 15$ is **closer to zero** than that, so it sits outside the region."
+    },
+    {
+     "type": "paragraph",
+     "md": "Compare how far each value is from 0 rather than which is numerically larger, or the negative signs will reverse the decision."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA test statistic of $z = - 1 . 15$ does not lie in the critical region of a 5% lower-tailed test.\n",
+   "back_md": "**True.**\n\nThe critical value is $- 1 . 645$, and $- 1 . 15$ is **closer to zero** than that, so it sits outside the region.\n\nCompare how far each value is from 0 rather than which is numerically larger, or the negative signs will reverse the decision.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bTcCn3fyDvV3XW6r",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the critical value found as a value of $\\overline{x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set the test statistic equal to the critical $z$ from the table, then solve for $\\overline{x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For `\\text{N} \\left(204, 81\\right)` with $n = 12$ at 5% for a decrease, $- 1 . 645 = \\frac{\\overline{x}-204}{2.598}$ gives $\\overline{x} = 199 . 7$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The observed sample mean can then be compared directly, in the units of the question."
+    }
+   ],
+   "front_md": "How is the critical value found as a value of $\\overline{x}$?\n",
+   "back_md": "Set the test statistic equal to the critical $z$ from the table, then solve for $\\overline{x}$.\n\nFor `\\text{N} \\left(204, 81\\right)` with $n = 12$ at 5% for a decrease, $- 1 . 645 = \\frac{\\overline{x}-204}{2.598}$ gives $\\overline{x} = 199 . 7$.\n\nThe observed sample mean can then be compared directly, in the units of the question.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4BsbPTDSdq9qMWRc",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_stFtV7fJ9pt2zpgr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two critical values in a two-tailed test on a normal mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The positive and negative $z$ for **half** the significance level, which have the same size because the normal distribution is symmetrical."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving with each in turn gives two values of $\\overline{x}$, and they should come out the same distance either side of the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "That symmetry is a useful check on the arithmetic."
+    }
+   ],
+   "front_md": "What are the two critical values in a two-tailed test on a normal mean?\n",
+   "back_md": "The positive and negative $z$ for **half** the significance level, which have the same size because the normal distribution is symmetrical.\n\nSolving with each in turn gives two values of $\\overline{x}$, and they should come out the same distance either side of the mean.\n\nThat symmetry is a useful check on the arithmetic.\n",
+   "spec_links": [
+    "spcpt_DBjZPz9tFvYW9SQs"
+   ],
+   "flags": []
+  }
+ ]
+}
