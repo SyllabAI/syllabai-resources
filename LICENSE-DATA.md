@@ -44,6 +44,38 @@ Consequences of this amendment:
 - Provenance (front-matter source URLs, SHA-256 ledgers) remains in force
   unchanged; takedown / correction handling remains as stated above.
 
+## Amendment 2026-10-17 — Cambridge (CAIE) extension of the SME corpora (operator directive)
+
+By operator directive recorded 2026-10-17 (zai-web session, gateway trace
+`1a1472e1880cc011`: "similarly download Cambridge ones as well. Push it in
+the repo"), the SME-attested corpora are extended to the Cambridge
+International lanes of savemyexams.com: 44 lanes across `a-level/cie`
+(full A Level incl. AS+A2; maths 20 as 5 unit lanes), `as/cie` (only where
+a-level has no counterpart), and `igcse/cie` (incl. tier/strand variant
+lanes mirroring the Edexcel lane model). The same rights holder (Save My
+Exams Ltd) publishes this material on the same public site; the extension
+is covered by the same attestation recorded above (operator: Nawaf Al
+Hussain Khondokar).
+
+- Acquisition channel: SME's own public site and sitemaps only — no
+  aggregator hosts, no Pearson DAM, no access-control circumvention of any
+  kind. The lane-level acquisition-track closure recorded 2026-09 (basis:
+  unlicensed Pearson-copyright redistribution via aggregator/evasion
+  channels) remains in force and untouched.
+- Scrape tooling: `scripts/sme_cambridge_courses.py` (44-lane registry,
+  scope decisions recorded in-file), `scripts/sme_cambridge_examq_scrape.py`,
+  the existing registry-driven notes/flashcards scrapers, and
+  `scripts/sme_cambridge_verify.py` (gates; verdict at
+  `graph/reports/SME_CAMBRIDGE_VERIFICATION.json`).
+- Courses with no SME content of a given kind are recorded honestly in the
+  registries (`missing_on_sme` / `no_topic_questions_on_sme`), never
+  synthesized. SME spec-point ids are preserved verbatim; resolution to
+  official CAIE codes is NOT asserted anywhere.
+- Pearson (Edexcel) examination material remains unaffected (ADR-013
+  license-wall posture); the existing Edexcel corpora are byte-untouched
+  by this extension (registry manifests/READMEs rebuilt additively).
+- Provenance and takedown handling remain as stated above.
+
 ## Related internal policy
 
 - `SyllabAI/syllabai` → ADR-013 (license wall), `PROJECT_CONTEXT.md` (Approved technology direction — license wall), and the corpus charter in `syllabai-pastpapers` (README).

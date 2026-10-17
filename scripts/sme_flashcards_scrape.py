@@ -126,6 +126,101 @@ REGISTRY: dict[str, dict] = {
     "igcse-science-double-award-modular-24-chemistry-unit-2": {"status": MISSING, "reason": MISSING_REASON},
     "igcse-science-double-award-modular-24-physics-unit-1": {"status": MISSING, "reason": MISSING_REASON},
     "igcse-science-double-award-modular-24-physics-unit-2": {"status": MISSING, "reason": MISSING_REASON},
+    # T-SME-CAMBRIDGE (2026-10-17): Cambridge/CAIE lanes (44).
+    # Shared AS subjects are covered by the full a-level lanes
+    # (SME's a-level trees carry AS+A2); as/ lanes only where
+    # a-level has no counterpart. a-level maths 20 = 5 unit lanes;
+    # maths tiers / science strands are variant lanes mirroring the
+    # Edexcel unit / double-award lane model. expected_decks =
+    # sitemap census 2026-10-17 (deck URLs minus landing page).
+    "cie-a-level-accounting-21": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-a-level-biology-25":
+        {"path": "a-level/biology/cie/25", "expected_decks": 44},
+    "cie-a-level-business-23": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-a-level-chemistry-25":
+        {"path": "a-level/chemistry/cie/25", "expected_decks": 90},
+    "cie-a-level-computer-science-19":
+        {"path": "a-level/computer-science/cie/19", "expected_decks": 45},
+    "cie-a-level-economics-23": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-a-level-maths-20-mechanics":
+        {"path": "a-level/maths/cie/20/mechanics", "expected_decks": 10},
+    "cie-a-level-maths-20-pure-1":
+        {"path": "a-level/maths/cie/20/pure-1", "expected_decks": 22},
+    "cie-a-level-maths-20-pure-3":
+        {"path": "a-level/maths/cie/20/pure-3", "expected_decks": 24},
+    "cie-a-level-maths-20-probability-and-statistics-1":
+        {"path": "a-level/maths/cie/20/probability-and-statistics-1", "expected_decks": 10},
+    "cie-a-level-maths-20-probability-and-statistics-2":
+        {"path": "a-level/maths/cie/20/probability-and-statistics-2", "expected_decks": 9},
+    "cie-a-level-physics-25":
+        {"path": "a-level/physics/cie/25", "expected_decks": 76},
+    "cie-as-english-general-paper-21": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-as-environmental-management-20": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-accounting-21": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-accounting-25":
+        {"path": "igcse/accounting/cie/25", "expected_decks": 22},
+    "cie-igcse-biology-23":
+        {"path": "igcse/biology/cie/23", "expected_decks": 21},
+    "cie-igcse-business-23": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-business-25":
+        {"path": "igcse/business/cie/25", "expected_decks": 29},
+    "cie-igcse-chemistry-23":
+        {"path": "igcse/chemistry/cie/23", "expected_decks": 28},
+    "cie-igcse-computer-science-23":
+        {"path": "igcse/computer-science/cie/23", "expected_decks": 30},
+    "cie-igcse-economics-20":
+        {"path": "igcse/economics/cie/20", "expected_decks": 39},
+    "cie-igcse-economics-25":
+        {"path": "igcse/economics/cie/25", "expected_decks": 36},
+    "cie-igcse-english-language-20": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-english-language-25":
+        {"path": "igcse/english-language/cie/25", "expected_decks": 8},
+    "cie-igcse-english-literature-21":
+        {"path": "igcse/english-literature/cie/21", "expected_decks": 14},
+    "cie-igcse-environmental-management-25":
+        {"path": "igcse/environmental-management/cie/25", "expected_decks": 30},
+    "cie-igcse-further-maths-additional-maths-25":
+        {"path": "igcse/further-maths/cie/additional-maths/25", "expected_decks": 17},
+    "cie-igcse-geography-20":
+        {"path": "igcse/geography/cie/20", "expected_decks": 21},
+    "cie-igcse-geography-25":
+        {"path": "igcse/geography/cie/25", "expected_decks": 27},
+    "cie-igcse-history-18":
+        {"path": "igcse/history/cie/18", "expected_decks": 18},
+    "cie-igcse-ict-21":
+        {"path": "igcse/ict/cie/21", "expected_decks": 23},
+    "cie-igcse-maths-25-core":
+        {"path": "igcse/maths/cie/25/core", "expected_decks": 44},
+    "cie-igcse-maths-25-extended":
+        {"path": "igcse/maths/cie/25/extended", "expected_decks": 55},
+    "cie-igcse-maths-international-maths-23-core":
+        {"path": "igcse/maths/cie/international-maths/23/core", "expected_decks": 44},
+    "cie-igcse-maths-international-maths-23-extended":
+        {"path": "igcse/maths/cie/international-maths/23/extended", "expected_decks": 53},
+    "cie-igcse-physics-23":
+        {"path": "igcse/physics/cie/23", "expected_decks": 24},
+    "cie-igcse-religious-studies-23": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-science-co-ordinated-sciences-double-award-23-biology":
+        {"path": "igcse/science/cie/co-ordinated-sciences-double-award/23/biology", "expected_decks": 19},
+    "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry":
+        {"path": "igcse/science/cie/co-ordinated-sciences-double-award/23/chemistry", "expected_decks": 26},
+    "cie-igcse-science-co-ordinated-sciences-double-award-23-physics":
+        {"path": "igcse/science/cie/co-ordinated-sciences-double-award/23/physics", "expected_decks": 21},
+    "cie-igcse-science-combined-science-23-biology": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    "cie-igcse-science-combined-science-23-chemistry":
+        {"path": "igcse/science/cie/combined-science/23/chemistry", "expected_decks": 26},
+    "cie-igcse-science-combined-science-23-physics": {"status": MISSING,
+        "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
 }
 
 
@@ -516,7 +611,7 @@ def write_global(course_summaries: list[dict]) -> None:
 
 def write_readme() -> None:
     lines = [
-        "# SME Flashcards corpus (Edexcel)",
+        "# SME Flashcards corpus (Edexcel + Cambridge/CAIE)",
         "",
         "Scraped from Save My Exams flashcards decks via "
         "`scripts/sme_flashcards_scrape.py` (registry-driven; see that file "

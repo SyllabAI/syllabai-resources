@@ -1,6 +1,6 @@
-# SME Revision Notes (Edexcel IGCSE + IAL)
+# SME Revision Notes (Edexcel IGCSE + IAL; Cambridge IGCSE + A Level/AS)
 
-Scraped from Save My Exams revision-notes trees for the same 49 courses as `../SME-ExamQuestion/`. 3743/3743 leaf pages, 8569 assets, 5988 spec-point links.
+Scraped from Save My Exams revision-notes trees (93 courses incl. the Cambridge/CAIE lanes, T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` course-for-course. 8203/8203 leaf pages, 17611 assets, 14639 spec-point links.
 
 Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim) + `<leaf>.md` (render). Callout variants map to typed blocks (`exam-tip` -> Exam Hint, `worked-example` -> Worked Example, `case-study` -> Case Study).
 
@@ -11,6 +11,50 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 
 | course | pages | assets | spec links |
 |---|---|---|---|
+| cie-a-level-accounting-21 | 159/159 | 91 | 247 |
+| cie-a-level-biology-25 | 239/239 | 458 | 273 |
+| cie-a-level-business-23 | 139/139 | 295 | 482 |
+| cie-a-level-chemistry-25 | 239/239 | 756 | 330 |
+| cie-a-level-computer-science-19 | 135/135 | 203 | 244 |
+| cie-a-level-economics-23 | 159/159 | 286 | 507 |
+| cie-a-level-maths-20-mechanics | 31/31 | 111 | 36 |
+| cie-a-level-maths-20-probability-and-statistics-1 | 31/31 | 104 | 46 |
+| cie-a-level-maths-20-probability-and-statistics-2 | 16/16 | 43 | 28 |
+| cie-a-level-maths-20-pure-1 | 74/74 | 342 | 77 |
+| cie-a-level-maths-20-pure-3 | 79/79 | 394 | 84 |
+| cie-a-level-physics-25 | 201/201 | 514 | 300 |
+| cie-as-english-general-paper-21 | 22/22 | 7 | 80 |
+| cie-as-environmental-management-20 | 52/52 | 140 | 83 |
+| cie-igcse-accounting-21 | 75/75 | 69 | 157 |
+| cie-igcse-accounting-25 | 105/105 | 74 | 166 |
+| cie-igcse-biology-23 | 148/148 | 245 | 239 |
+| cie-igcse-business-23 | 99/99 | 134 | 216 |
+| cie-igcse-business-25 | 20/20 | 41 | 51 |
+| cie-igcse-chemistry-23 | 107/107 | 236 | 175 |
+| cie-igcse-computer-science-23 | 97/97 | 88 | 176 |
+| cie-igcse-economics-20 | 62/62 | 62 | 126 |
+| cie-igcse-economics-25 | 8/8 | 5 | 16 |
+| cie-igcse-english-language-20 | 45/45 | 105 | 208 |
+| cie-igcse-english-language-25 | 53/53 | 55 | 183 |
+| cie-igcse-english-literature-21 | 167/167 | 224 | 686 |
+| cie-igcse-environmental-management-25 | 82/82 | 107 | 203 |
+| cie-igcse-further-maths-additional-maths-25 | 67/67 | 230 | 120 |
+| cie-igcse-geography-20 | 69/69 | 212 | 115 |
+| cie-igcse-geography-25 | 117/117 | 183 | 308 |
+| cie-igcse-history-18 | 87/87 | 295 | 318 |
+| cie-igcse-ict-21 | 78/78 | 105 | 156 |
+| cie-igcse-maths-25-core | 139/139 | 221 | 153 |
+| cie-igcse-maths-25-extended | 189/189 | 370 | 202 |
+| cie-igcse-maths-international-maths-23-core | 138/138 | 208 | 152 |
+| cie-igcse-maths-international-maths-23-extended | 178/178 | 332 | 189 |
+| cie-igcse-physics-23 | 138/138 | 465 | 303 |
+| cie-igcse-religious-studies-23 | 97/97 | 41 | 354 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-biology | 103/103 | 195 | 152 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry | 86/86 | 198 | 134 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-physics | 118/118 | 339 | 233 |
+| cie-igcse-science-combined-science-23-biology | 62/62 | 104 | 90 |
+| cie-igcse-science-combined-science-23-chemistry | 66/66 | 138 | 97 |
+| cie-igcse-science-combined-science-23-physics | 84/84 | 217 | 156 |
 | ial-biology-18 | 170/170 | 439 | 223 |
 | ial-chemistry-17 | 196/196 | 634 | 262 |
 | ial-further-maths-18-further-pure-1 | 25/25 | 24 | 44 |

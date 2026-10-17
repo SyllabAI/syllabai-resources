@@ -1,4 +1,4 @@
-# SME Flashcards corpus (Edexcel)
+# SME Flashcards corpus (Edexcel + Cambridge/CAIE)
 
 Scraped from Save My Exams flashcards decks via `scripts/sme_flashcards_scrape.py` (registry-driven; see that file for the course registry incl. courses with no SME decks).
 

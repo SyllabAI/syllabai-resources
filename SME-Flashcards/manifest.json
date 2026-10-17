@@ -1,16 +1,16 @@
 {
  "schema": "syllabai.sme-flashcards/1.0",
- "generated_utc": "2026-09-19T19:16:35Z",
+ "generated_utc": "2026-10-17T03:46:57Z",
  "source": {
   "provider": "Save My Exams",
   "registry": "scripts/sme_flashcards_scrape.py REGISTRY",
   "license": "operator-authorized; see LICENSE-DATA.md (SME attestation)"
  },
  "totals": {
-  "courses_active": 37,
-  "decks": 746,
-  "cards": 24128,
-  "flags": 624,
+  "courses_active": 70,
+  "decks": 1751,
+  "cards": 52846,
+  "flags": 1680,
   "deck_failures": 0
  },
  "registry": {
@@ -209,9 +209,704 @@
   "igcse-science-double-award-modular-24-physics-unit-2": {
    "status": "missing_on_sme",
    "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "cie-a-level-accounting-21": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-a-level-biology-25": {
+   "path": "a-level/biology/cie/25",
+   "expected_decks": 44
+  },
+  "cie-a-level-business-23": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-a-level-chemistry-25": {
+   "path": "a-level/chemistry/cie/25",
+   "expected_decks": 90
+  },
+  "cie-a-level-computer-science-19": {
+   "path": "a-level/computer-science/cie/19",
+   "expected_decks": 45
+  },
+  "cie-a-level-economics-23": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-a-level-maths-20-mechanics": {
+   "path": "a-level/maths/cie/20/mechanics",
+   "expected_decks": 10
+  },
+  "cie-a-level-maths-20-pure-1": {
+   "path": "a-level/maths/cie/20/pure-1",
+   "expected_decks": 22
+  },
+  "cie-a-level-maths-20-pure-3": {
+   "path": "a-level/maths/cie/20/pure-3",
+   "expected_decks": 24
+  },
+  "cie-a-level-maths-20-probability-and-statistics-1": {
+   "path": "a-level/maths/cie/20/probability-and-statistics-1",
+   "expected_decks": 10
+  },
+  "cie-a-level-maths-20-probability-and-statistics-2": {
+   "path": "a-level/maths/cie/20/probability-and-statistics-2",
+   "expected_decks": 9
+  },
+  "cie-a-level-physics-25": {
+   "path": "a-level/physics/cie/25",
+   "expected_decks": 76
+  },
+  "cie-as-english-general-paper-21": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-as-environmental-management-20": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-accounting-21": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-accounting-25": {
+   "path": "igcse/accounting/cie/25",
+   "expected_decks": 22
+  },
+  "cie-igcse-biology-23": {
+   "path": "igcse/biology/cie/23",
+   "expected_decks": 21
+  },
+  "cie-igcse-business-23": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-business-25": {
+   "path": "igcse/business/cie/25",
+   "expected_decks": 29
+  },
+  "cie-igcse-chemistry-23": {
+   "path": "igcse/chemistry/cie/23",
+   "expected_decks": 28
+  },
+  "cie-igcse-computer-science-23": {
+   "path": "igcse/computer-science/cie/23",
+   "expected_decks": 30
+  },
+  "cie-igcse-economics-20": {
+   "path": "igcse/economics/cie/20",
+   "expected_decks": 39
+  },
+  "cie-igcse-economics-25": {
+   "path": "igcse/economics/cie/25",
+   "expected_decks": 36
+  },
+  "cie-igcse-english-language-20": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-english-language-25": {
+   "path": "igcse/english-language/cie/25",
+   "expected_decks": 8
+  },
+  "cie-igcse-english-literature-21": {
+   "path": "igcse/english-literature/cie/21",
+   "expected_decks": 14
+  },
+  "cie-igcse-environmental-management-25": {
+   "path": "igcse/environmental-management/cie/25",
+   "expected_decks": 30
+  },
+  "cie-igcse-further-maths-additional-maths-25": {
+   "path": "igcse/further-maths/cie/additional-maths/25",
+   "expected_decks": 17
+  },
+  "cie-igcse-geography-20": {
+   "path": "igcse/geography/cie/20",
+   "expected_decks": 21
+  },
+  "cie-igcse-geography-25": {
+   "path": "igcse/geography/cie/25",
+   "expected_decks": 27
+  },
+  "cie-igcse-history-18": {
+   "path": "igcse/history/cie/18",
+   "expected_decks": 18
+  },
+  "cie-igcse-ict-21": {
+   "path": "igcse/ict/cie/21",
+   "expected_decks": 23
+  },
+  "cie-igcse-maths-25-core": {
+   "path": "igcse/maths/cie/25/core",
+   "expected_decks": 44
+  },
+  "cie-igcse-maths-25-extended": {
+   "path": "igcse/maths/cie/25/extended",
+   "expected_decks": 55
+  },
+  "cie-igcse-maths-international-maths-23-core": {
+   "path": "igcse/maths/cie/international-maths/23/core",
+   "expected_decks": 44
+  },
+  "cie-igcse-maths-international-maths-23-extended": {
+   "path": "igcse/maths/cie/international-maths/23/extended",
+   "expected_decks": 53
+  },
+  "cie-igcse-physics-23": {
+   "path": "igcse/physics/cie/23",
+   "expected_decks": 24
+  },
+  "cie-igcse-religious-studies-23": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-biology": {
+   "path": "igcse/science/cie/co-ordinated-sciences-double-award/23/biology",
+   "expected_decks": 19
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry": {
+   "path": "igcse/science/cie/co-ordinated-sciences-double-award/23/chemistry",
+   "expected_decks": 26
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-physics": {
+   "path": "igcse/science/cie/co-ordinated-sciences-double-award/23/physics",
+   "expected_decks": 21
+  },
+  "cie-igcse-science-combined-science-23-biology": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-igcse-science-combined-science-23-chemistry": {
+   "path": "igcse/science/cie/combined-science/23/chemistry",
+   "expected_decks": 26
+  },
+  "cie-igcse-science-combined-science-23-physics": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
   }
  },
  "courses": {
+  "cie-a-level-biology-25": {
+   "slug": "cie-a-level-biology-25",
+   "decks": 44,
+   "cards": 1585,
+   "card_types": {
+    "keyword_definition": 301,
+    "question_and_answer": 877,
+    "fill_in_the_blanks": 258,
+    "true_or_false": 149
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 44
+  },
+  "cie-a-level-chemistry-25": {
+   "slug": "cie-a-level-chemistry-25",
+   "decks": 90,
+   "cards": 2152,
+   "card_types": {
+    "keyword_definition": 426,
+    "fill_in_the_blanks": 473,
+    "question_and_answer": 764,
+    "true_or_false": 489
+   },
+   "flags": 12,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 90
+  },
+  "cie-a-level-computer-science-19": {
+   "slug": "cie-a-level-computer-science-19",
+   "decks": 45,
+   "cards": 2656,
+   "card_types": {
+    "keyword_definition": 423,
+    "question_and_answer": 1773,
+    "fill_in_the_blanks": 225,
+    "true_or_false": 235
+   },
+   "flags": 225,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 45
+  },
+  "cie-a-level-maths-20-mechanics": {
+   "slug": "cie-a-level-maths-20-mechanics",
+   "decks": 10,
+   "cards": 207,
+   "card_types": {
+    "keyword_definition": 23,
+    "question_and_answer": 127,
+    "true_or_false": 32,
+    "fill_in_the_blanks": 25
+   },
+   "flags": 25,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 10
+  },
+  "cie-a-level-maths-20-probability-and-statistics-1": {
+   "slug": "cie-a-level-maths-20-probability-and-statistics-1",
+   "decks": 10,
+   "cards": 230,
+   "card_types": {
+    "keyword_definition": 17,
+    "question_and_answer": 140,
+    "fill_in_the_blanks": 38,
+    "true_or_false": 35
+   },
+   "flags": 38,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 10
+  },
+  "cie-a-level-maths-20-probability-and-statistics-2": {
+   "slug": "cie-a-level-maths-20-probability-and-statistics-2",
+   "decks": 9,
+   "cards": 130,
+   "card_types": {
+    "keyword_definition": 11,
+    "fill_in_the_blanks": 21,
+    "question_and_answer": 80,
+    "true_or_false": 18
+   },
+   "flags": 21,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 9
+  },
+  "cie-a-level-maths-20-pure-1": {
+   "slug": "cie-a-level-maths-20-pure-1",
+   "decks": 22,
+   "cards": 448,
+   "card_types": {
+    "question_and_answer": 268,
+    "true_or_false": 75,
+    "keyword_definition": 39,
+    "fill_in_the_blanks": 66
+   },
+   "flags": 66,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 22
+  },
+  "cie-a-level-maths-20-pure-3": {
+   "slug": "cie-a-level-maths-20-pure-3",
+   "decks": 24,
+   "cards": 473,
+   "card_types": {
+    "fill_in_the_blanks": 67,
+    "question_and_answer": 286,
+    "true_or_false": 89,
+    "keyword_definition": 31
+   },
+   "flags": 67,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 24
+  },
+  "cie-a-level-physics-25": {
+   "slug": "cie-a-level-physics-25",
+   "decks": 76,
+   "cards": 1300,
+   "card_types": {
+    "keyword_definition": 241,
+    "question_and_answer": 671,
+    "fill_in_the_blanks": 187,
+    "true_or_false": 201
+   },
+   "flags": 5,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 76
+  },
+  "cie-igcse-accounting-25": {
+   "slug": "cie-igcse-accounting-25",
+   "decks": 22,
+   "cards": 781,
+   "card_types": {
+    "keyword_definition": 97,
+    "question_and_answer": 488,
+    "true_or_false": 100,
+    "fill_in_the_blanks": 96
+   },
+   "flags": 96,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 22
+  },
+  "cie-igcse-biology-23": {
+   "slug": "cie-igcse-biology-23",
+   "decks": 21,
+   "cards": 863,
+   "card_types": {
+    "question_and_answer": 558,
+    "keyword_definition": 100,
+    "true_or_false": 205
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 21
+  },
+  "cie-igcse-business-25": {
+   "slug": "cie-igcse-business-25",
+   "decks": 29,
+   "cards": 694,
+   "card_types": {
+    "keyword_definition": 205,
+    "question_and_answer": 318,
+    "true_or_false": 123,
+    "fill_in_the_blanks": 48
+   },
+   "flags": 1,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 29
+  },
+  "cie-igcse-chemistry-23": {
+   "slug": "cie-igcse-chemistry-23",
+   "decks": 28,
+   "cards": 1133,
+   "card_types": {
+    "question_and_answer": 741,
+    "keyword_definition": 114,
+    "true_or_false": 278
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 28
+  },
+  "cie-igcse-computer-science-23": {
+   "slug": "cie-igcse-computer-science-23",
+   "decks": 30,
+   "cards": 905,
+   "card_types": {
+    "question_and_answer": 431,
+    "true_or_false": 172,
+    "keyword_definition": 302
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 30
+  },
+  "cie-igcse-economics-20": {
+   "slug": "cie-igcse-economics-20",
+   "decks": 39,
+   "cards": 836,
+   "card_types": {
+    "keyword_definition": 270,
+    "question_and_answer": 426,
+    "true_or_false": 140
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 39
+  },
+  "cie-igcse-economics-25": {
+   "slug": "cie-igcse-economics-25",
+   "decks": 36,
+   "cards": 827,
+   "card_types": {
+    "keyword_definition": 215,
+    "true_or_false": 114,
+    "question_and_answer": 318,
+    "fill_in_the_blanks": 180
+   },
+   "flags": 4,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 36
+  },
+  "cie-igcse-english-language-25": {
+   "slug": "cie-igcse-english-language-25",
+   "decks": 8,
+   "cards": 119,
+   "card_types": {
+    "keyword_definition": 42,
+    "fill_in_the_blanks": 22,
+    "question_and_answer": 55
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 8
+  },
+  "cie-igcse-english-literature-21": {
+   "slug": "cie-igcse-english-literature-21",
+   "decks": 14,
+   "cards": 367,
+   "card_types": {
+    "fill_in_the_blanks": 143,
+    "keyword_definition": 224
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 14
+  },
+  "cie-igcse-environmental-management-25": {
+   "slug": "cie-igcse-environmental-management-25",
+   "decks": 30,
+   "cards": 1349,
+   "card_types": {
+    "keyword_definition": 261,
+    "fill_in_the_blanks": 180,
+    "question_and_answer": 663,
+    "true_or_false": 245
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 30
+  },
+  "cie-igcse-further-maths-additional-maths-25": {
+   "slug": "cie-igcse-further-maths-additional-maths-25",
+   "decks": 17,
+   "cards": 512,
+   "card_types": {
+    "question_and_answer": 331,
+    "true_or_false": 74,
+    "keyword_definition": 33,
+    "fill_in_the_blanks": 74
+   },
+   "flags": 74,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 17
+  },
+  "cie-igcse-geography-20": {
+   "slug": "cie-igcse-geography-20",
+   "decks": 21,
+   "cards": 676,
+   "card_types": {
+    "keyword_definition": 215,
+    "question_and_answer": 301,
+    "true_or_false": 160
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 21
+  },
+  "cie-igcse-geography-25": {
+   "slug": "cie-igcse-geography-25",
+   "decks": 27,
+   "cards": 1157,
+   "card_types": {
+    "keyword_definition": 162,
+    "question_and_answer": 729,
+    "fill_in_the_blanks": 162,
+    "true_or_false": 104
+   },
+   "flags": 1,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 27
+  },
+  "cie-igcse-history-18": {
+   "slug": "cie-igcse-history-18",
+   "decks": 18,
+   "cards": 1050,
+   "card_types": {
+    "keyword_definition": 248,
+    "question_and_answer": 498,
+    "fill_in_the_blanks": 165,
+    "true_or_false": 139
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 18
+  },
+  "cie-igcse-ict-21": {
+   "slug": "cie-igcse-ict-21",
+   "decks": 23,
+   "cards": 963,
+   "card_types": {
+    "keyword_definition": 198,
+    "question_and_answer": 621,
+    "true_or_false": 91,
+    "fill_in_the_blanks": 53
+   },
+   "flags": 20,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 23
+  },
+  "cie-igcse-maths-25-core": {
+   "slug": "cie-igcse-maths-25-core",
+   "decks": 44,
+   "cards": 764,
+   "card_types": {
+    "keyword_definition": 121,
+    "true_or_false": 222,
+    "question_and_answer": 361,
+    "fill_in_the_blanks": 60
+   },
+   "flags": 60,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 44
+  },
+  "cie-igcse-maths-25-extended": {
+   "slug": "cie-igcse-maths-25-extended",
+   "decks": 55,
+   "cards": 981,
+   "card_types": {
+    "question_and_answer": 404,
+    "true_or_false": 356,
+    "keyword_definition": 221
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 55
+  },
+  "cie-igcse-maths-international-maths-23-core": {
+   "slug": "cie-igcse-maths-international-maths-23-core",
+   "decks": 44,
+   "cards": 770,
+   "card_types": {
+    "true_or_false": 216,
+    "keyword_definition": 118,
+    "question_and_answer": 370,
+    "fill_in_the_blanks": 66
+   },
+   "flags": 66,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 44
+  },
+  "cie-igcse-maths-international-maths-23-extended": {
+   "slug": "cie-igcse-maths-international-maths-23-extended",
+   "decks": 53,
+   "cards": 971,
+   "card_types": {
+    "keyword_definition": 202,
+    "true_or_false": 323,
+    "question_and_answer": 425,
+    "fill_in_the_blanks": 21
+   },
+   "flags": 21,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 53
+  },
+  "cie-igcse-physics-23": {
+   "slug": "cie-igcse-physics-23",
+   "decks": 24,
+   "cards": 1125,
+   "card_types": {
+    "question_and_answer": 555,
+    "true_or_false": 365,
+    "keyword_definition": 195,
+    "fill_in_the_blanks": 10
+   },
+   "flags": 4,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 24
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-biology": {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-biology",
+   "decks": 19,
+   "cards": 617,
+   "card_types": {
+    "keyword_definition": 100,
+    "fill_in_the_blanks": 210,
+    "question_and_answer": 297,
+    "true_or_false": 10
+   },
+   "flags": 194,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 19
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry": {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry",
+   "decks": 26,
+   "cards": 603,
+   "card_types": {
+    "question_and_answer": 235,
+    "true_or_false": 113,
+    "fill_in_the_blanks": 166,
+    "keyword_definition": 89
+   },
+   "flags": 12,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 26
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-physics": {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-physics",
+   "decks": 21,
+   "cards": 882,
+   "card_types": {
+    "question_and_answer": 470,
+    "keyword_definition": 131,
+    "true_or_false": 257,
+    "fill_in_the_blanks": 24
+   },
+   "flags": 8,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 21
+  },
+  "cie-igcse-science-combined-science-23-chemistry": {
+   "slug": "cie-igcse-science-combined-science-23-chemistry",
+   "decks": 26,
+   "cards": 592,
+   "card_types": {
+    "keyword_definition": 85,
+    "question_and_answer": 243,
+    "fill_in_the_blanks": 132,
+    "true_or_false": 132
+   },
+   "flags": 36,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 26
+  },
   "ial-biology-18": {
    "slug": "ial-biology-18",
    "decks": 28,

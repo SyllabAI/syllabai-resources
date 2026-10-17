@@ -1,4 +1,4 @@
-# SME Exam Questions — multi-course corpus (Edexcel)
+# SME Exam Questions — multi-course corpus (Edexcel + Cambridge/CAIE)
 
 Atomized Save My Exams exam questions (questions + mark schemes +
 images + KaTeX equations) for **Edexcel** courses, one folder per
@@ -109,3 +109,54 @@ here.
     scripts/sme_spcpt_harvest_verify.py # G1-G5 gates over harvested indexes
 
 (public pages only; no credentials; resumable per page)
+
+## Cambridge (CAIE) extension — T-SME-CAMBRIDGE (2026-10-17)
+
+Added by operator directive (trace 1a1472e1880cc011): the attested SME corpora extended to the Cambridge lanes on savemyexams.com — 8 `a-level/cie` full-course lanes (AS+A2), 2 `as/cie` lanes where a-level has no counterpart, 24 `igcse/cie` lanes; O Level out of scope (no Edexcel equivalent). Scraper: `scripts/sme_cambridge_examq_scrape.py` (compiled set-page model, corpus schema 1.1, curriculum page-sourced). Same authorization — LICENSE-DATA.md SME attestation. spcpt/spec-index harvest not yet run for these lanes (no `spec_index` blocks yet — honestly absent).
+
+| course | status | topics | questions | assets |
+|---|---|---|---|---|
+| cie-a-level-accounting-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-a-level-biology-25 | scraped | 44 | 930 | 588 |
+| cie-a-level-business-23 | scraped | 33 | 692 | 29 |
+| cie-a-level-chemistry-25 | scraped | 90 | 1003 | 846 |
+| cie-a-level-computer-science-19 | scraped | 45 | 1060 | 136 |
+| cie-a-level-economics-23 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-a-level-maths-20-mechanics | scraped | 10 | 304 | 332 |
+| cie-a-level-maths-20-pure-1 | scraped | 22 | 725 | 363 |
+| cie-a-level-maths-20-pure-3 | scraped | 24 | 791 | 182 |
+| cie-a-level-maths-20-probability-and-statistics-1 | scraped | 10 | 276 | 253 |
+| cie-a-level-maths-20-probability-and-statistics-2 | scraped | 9 | 254 | 544 |
+| cie-a-level-physics-25 | scraped | 76 | 1049 | 1145 |
+| cie-as-english-general-paper-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-as-environmental-management-20 | scraped | 22 | 70 | 46 |
+| cie-igcse-accounting-21 | scraped | 21 | 242 | 2 |
+| cie-igcse-accounting-25 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-igcse-biology-23 | scraped | 21 | 586 | 228 |
+| cie-igcse-business-23 | scraped | 25 | 478 | 8 |
+| cie-igcse-business-25 | scraped | 29 | 576 | 33 |
+| cie-igcse-chemistry-23 | scraped | 28 | 528 | 164 |
+| cie-igcse-computer-science-23 | scraped | 30 | 280 | 54 |
+| cie-igcse-economics-20 | scraped | 39 | 612 | 31 |
+| cie-igcse-economics-25 | scraped | 36 | 625 | 34 |
+| cie-igcse-english-language-20 | scraped | 3 | 9 | 0 |
+| cie-igcse-english-language-25 | scraped | 5 | 30 | 0 |
+| cie-igcse-english-literature-21 | scraped | 15 | 95 | 0 |
+| cie-igcse-environmental-management-25 | scraped | 14 | 72 | 20 |
+| cie-igcse-further-maths-additional-maths-25 | scraped | 17 | 256 | 134 |
+| cie-igcse-geography-20 | scraped | 21 | 483 | 431 |
+| cie-igcse-geography-25 | scraped | 30 | 384 | 187 |
+| cie-igcse-history-18 | scraped | 18 | 321 | 6 |
+| cie-igcse-ict-21 | scraped | 23 | 313 | 32 |
+| cie-igcse-maths-25-core | scraped | 44 | 1022 | 899 |
+| cie-igcse-maths-25-extended | scraped | 55 | 1171 | 1113 |
+| cie-igcse-maths-international-maths-23-core | scraped | 45 | 912 | 714 |
+| cie-igcse-maths-international-maths-23-extended | scraped | 55 | 1159 | 1067 |
+| cie-igcse-physics-23 | scraped | 24 | 662 | 327 |
+| cie-igcse-religious-studies-23 | scraped | 21 | 72 | 0 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-biology | scraped | 19 | 236 | 89 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry | scraped | 26 | 378 | 135 |
+| cie-igcse-science-co-ordinated-sciences-double-award-23-physics | scraped | 21 | 320 | 174 |
+| cie-igcse-science-combined-science-23-biology | scraped | 14 | 37 | 26 |
+| cie-igcse-science-combined-science-23-chemistry | scraped | 20 | 41 | 17 |
+| cie-igcse-science-combined-science-23-physics | scraped | 14 | 41 | 23 |

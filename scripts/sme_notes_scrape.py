@@ -517,10 +517,12 @@ def write_registry() -> int:
     (OUT / "manifest.json").write_text(
         json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    lines = ["# SME Revision Notes (Edexcel IGCSE + IAL)",
+    lines = ["# SME Revision Notes (Edexcel IGCSE + IAL; Cambridge IGCSE + A Level/AS)",
              "",
-             f"Scraped from Save My Exams revision-notes trees for the same "
-             f"39 courses as `../SME-ExamQuestion/`. "
+             f"Scraped from Save My Exams revision-notes trees "
+             f"({len(courses)} courses incl. the Cambridge/CAIE lanes, "
+             f"T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` "
+             f"course-for-course. "
              f"{tot['pages_scraped']}/{tot['pages_expected']} leaf pages, "
              f"{tot['assets']} assets, {tot['spec_point_links']} spec-point "
              f"links.",

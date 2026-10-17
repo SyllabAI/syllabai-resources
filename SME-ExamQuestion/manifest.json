@@ -1,14 +1,21 @@
 {
  "schema": "syllabai.sme-exam-questions-registry/1.0",
- "generated_utc": "2026-09-19T19:16:35Z",
+ "generated_utc": "2026-10-17T03:45:49Z",
  "source": {
   "provider": "Save My Exams",
   "board": "Edexcel",
   "registry_builder": "scripts/sme_examq_courses.py",
-  "license": "operator-authorized; see LICENSE-DATA.md (SME attestation 2026-09-17, covers all SME corpora in this repo)"
+  "license": "operator-authorized; see LICENSE-DATA.md (SME attestation 2026-09-17, covers all SME corpora in this repo)",
+  "cambridge_extension": {
+   "date": "2026-10-17",
+   "directive": "operator trace 1a1472e1880cc011 — 'similarly download Cambridge ones as well. Push it in the repo'",
+   "registry_builder": "scripts/sme_cambridge_courses.py",
+   "scraper": "scripts/sme_cambridge_examq_scrape.py",
+   "lanes": 34
+  }
  },
- "course_count": 49,
- "scraped_courses": 41,
+ "course_count": 93,
+ "scraped_courses": 81,
  "courses": [
   {
    "slug": "ial-biology-18",
@@ -1601,6 +1608,1028 @@
     "missing": 0
    },
    "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19; re-verified live 2026-09-20: the only syllabus version 2024 flags has_published_topic_questions=false and all 10 topics carry published_questions_count=0 - per-topic question_set relationships hold only unpublished qstnst_ shells). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "cie-a-level-accounting-21",
+   "level": "a-level",
+   "subject": "accounting",
+   "mid": "21",
+   "landing_url": "https://www.savemyexams.com/a-level/accounting/cie/21/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-a-level-biology-25",
+   "level": "a-level",
+   "subject": "biology",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/",
+   "page_count": 44,
+   "leaf_types": {
+    "multiple-choice-questions": 24,
+    "structured-questions": 20
+   },
+   "sections": 19,
+   "status": "scraped",
+   "totals": {
+    "topics": 44,
+    "questions": 930,
+    "parts": 1549,
+    "marks": 3019,
+    "assets": 588,
+    "asset_failures": 2,
+    "missing_questions": 2,
+    "equations": 70
+   }
+  },
+  {
+   "slug": "cie-a-level-business-23",
+   "level": "a-level",
+   "subject": "business",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/a-level/business/cie/23/topic-questions/",
+   "page_count": 33,
+   "leaf_types": {
+    "exam-questions": 33
+   },
+   "sections": 5,
+   "status": "scraped",
+   "totals": {
+    "topics": 33,
+    "questions": 692,
+    "parts": 692,
+    "marks": 4144,
+    "assets": 29,
+    "asset_failures": 0,
+    "missing_questions": 76,
+    "equations": 57
+   }
+  },
+  {
+   "slug": "cie-a-level-chemistry-25",
+   "level": "a-level",
+   "subject": "chemistry",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+   "page_count": 90,
+   "leaf_types": {
+    "multiple-choice-questions": 51,
+    "structured-questions": 39
+   },
+   "sections": 37,
+   "status": "scraped",
+   "totals": {
+    "topics": 90,
+    "questions": 1003,
+    "parts": 1682,
+    "marks": 3224,
+    "assets": 846,
+    "asset_failures": 0,
+    "missing_questions": 4,
+    "equations": 579
+   }
+  },
+  {
+   "slug": "cie-a-level-computer-science-19",
+   "level": "a-level",
+   "subject": "computer-science",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+   "page_count": 45,
+   "leaf_types": {
+    "exam-questions": 45
+   },
+   "sections": 20,
+   "status": "scraped",
+   "totals": {
+    "topics": 45,
+    "questions": 1060,
+    "parts": 1253,
+    "marks": 4039,
+    "assets": 136,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 450
+   }
+  },
+  {
+   "slug": "cie-a-level-economics-23",
+   "level": "a-level",
+   "subject": "economics",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/a-level/economics/cie/23/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-a-level-maths-20-mechanics",
+   "level": "a-level",
+   "subject": "maths",
+   "mid": "20/mechanics",
+   "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/mechanics/topic-questions/",
+   "page_count": 10,
+   "leaf_types": {
+    "exam-questions": 10
+   },
+   "sections": 5,
+   "status": "scraped",
+   "totals": {
+    "topics": 10,
+    "questions": 304,
+    "parts": 534,
+    "marks": 1825,
+    "assets": 332,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 7176
+   }
+  },
+  {
+   "slug": "cie-a-level-maths-20-pure-1",
+   "level": "a-level",
+   "subject": "maths",
+   "mid": "20/pure-1",
+   "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-1/topic-questions/",
+   "page_count": 22,
+   "leaf_types": {
+    "exam-questions": 22
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 22,
+    "questions": 725,
+    "parts": 1206,
+    "marks": 3700,
+    "assets": 363,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 20126
+   }
+  },
+  {
+   "slug": "cie-a-level-maths-20-pure-3",
+   "level": "a-level",
+   "subject": "maths",
+   "mid": "20/pure-3",
+   "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-3/topic-questions/",
+   "page_count": 24,
+   "leaf_types": {
+    "exam-questions": 24
+   },
+   "sections": 8,
+   "status": "scraped",
+   "totals": {
+    "topics": 24,
+    "questions": 791,
+    "parts": 1331,
+    "marks": 4229,
+    "assets": 182,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 23822
+   }
+  },
+  {
+   "slug": "cie-a-level-maths-20-probability-and-statistics-1",
+   "level": "a-level",
+   "subject": "maths",
+   "mid": "20/probability-and-statistics-1",
+   "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/topic-questions/",
+   "page_count": 10,
+   "leaf_types": {
+    "exam-questions": 10
+   },
+   "sections": 3,
+   "status": "scraped",
+   "totals": {
+    "topics": 10,
+    "questions": 276,
+    "parts": 602,
+    "marks": 1790,
+    "assets": 253,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 4605
+   }
+  },
+  {
+   "slug": "cie-a-level-maths-20-probability-and-statistics-2",
+   "level": "a-level",
+   "subject": "maths",
+   "mid": "20/probability-and-statistics-2",
+   "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/topic-questions/",
+   "page_count": 9,
+   "leaf_types": {
+    "exam-questions": 9
+   },
+   "sections": 3,
+   "status": "scraped",
+   "totals": {
+    "topics": 9,
+    "questions": 254,
+    "parts": 633,
+    "marks": 1836,
+    "assets": 544,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 1573
+   }
+  },
+  {
+   "slug": "cie-a-level-physics-25",
+   "level": "a-level",
+   "subject": "physics",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+   "page_count": 76,
+   "leaf_types": {
+    "multiple-choice-questions": 32,
+    "structured-questions": 44
+   },
+   "sections": 25,
+   "status": "scraped",
+   "totals": {
+    "topics": 76,
+    "questions": 1049,
+    "parts": 1857,
+    "marks": 3921,
+    "assets": 1145,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 5595
+   }
+  },
+  {
+   "slug": "cie-as-english-general-paper-21",
+   "level": "as",
+   "subject": "english",
+   "mid": "general-paper/21",
+   "landing_url": "https://www.savemyexams.com/as/english/cie/general-paper/21/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-as-environmental-management-20",
+   "level": "as",
+   "subject": "environmental-management",
+   "mid": "20",
+   "landing_url": "https://www.savemyexams.com/as/environmental-management/cie/20/topic-questions/",
+   "page_count": 22,
+   "leaf_types": {
+    "exam-questions": 22
+   },
+   "sections": 8,
+   "status": "scraped",
+   "totals": {
+    "topics": 22,
+    "questions": 70,
+    "parts": 100,
+    "marks": 541,
+    "assets": 46,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 12
+   }
+  },
+  {
+   "slug": "cie-igcse-accounting-21",
+   "level": "igcse",
+   "subject": "accounting",
+   "mid": "21",
+   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "multiple-choice-questions": 21
+   },
+   "sections": 7,
+   "status": "scraped",
+   "totals": {
+    "topics": 21,
+    "questions": 242,
+    "parts": 242,
+    "marks": 242,
+    "assets": 2,
+    "asset_failures": 0,
+    "missing_questions": 3,
+    "equations": 36
+   }
+  },
+  {
+   "slug": "cie-igcse-accounting-25",
+   "level": "igcse",
+   "subject": "accounting",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/25/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-biology-23",
+   "level": "igcse",
+   "subject": "biology",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "multiple-choice-questions": 21
+   },
+   "sections": 21,
+   "status": "scraped",
+   "totals": {
+    "topics": 21,
+    "questions": 586,
+    "parts": 586,
+    "marks": 586,
+    "assets": 228,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 10
+   }
+  },
+  {
+   "slug": "cie-igcse-business-23",
+   "level": "igcse",
+   "subject": "business",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/business/cie/23/topic-questions/",
+   "page_count": 25,
+   "leaf_types": {
+    "exam-questions": 25
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 25,
+    "questions": 478,
+    "parts": 478,
+    "marks": 2691,
+    "assets": 8,
+    "asset_failures": 0,
+    "missing_questions": 3,
+    "equations": 18
+   }
+  },
+  {
+   "slug": "cie-igcse-business-25",
+   "level": "igcse",
+   "subject": "business",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/business/cie/25/topic-questions/",
+   "page_count": 29,
+   "leaf_types": {
+    "exam-questions": 29
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 29,
+    "questions": 576,
+    "parts": 581,
+    "marks": 3237,
+    "assets": 33,
+    "asset_failures": 0,
+    "missing_questions": 2,
+    "equations": 19
+   }
+  },
+  {
+   "slug": "cie-igcse-chemistry-23",
+   "level": "igcse",
+   "subject": "chemistry",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
+   "page_count": 28,
+   "leaf_types": {
+    "multiple-choice-questions": 28
+   },
+   "sections": 12,
+   "status": "scraped",
+   "totals": {
+    "topics": 28,
+    "questions": 528,
+    "parts": 528,
+    "marks": 528,
+    "assets": 164,
+    "asset_failures": 0,
+    "missing_questions": 182,
+    "equations": 101
+   }
+  },
+  {
+   "slug": "cie-igcse-computer-science-23",
+   "level": "igcse",
+   "subject": "computer-science",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+   "page_count": 30,
+   "leaf_types": {
+    "exam-questions": 30
+   },
+   "sections": 10,
+   "status": "scraped",
+   "totals": {
+    "topics": 30,
+    "questions": 280,
+    "parts": 343,
+    "marks": 1064,
+    "assets": 54,
+    "asset_failures": 0,
+    "missing_questions": 9,
+    "equations": 42
+   }
+  },
+  {
+   "slug": "cie-igcse-economics-20",
+   "level": "igcse",
+   "subject": "economics",
+   "mid": "20",
+   "landing_url": "https://www.savemyexams.com/igcse/economics/cie/20/topic-questions/",
+   "page_count": 39,
+   "leaf_types": {
+    "paper-1": 39
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 39,
+    "questions": 612,
+    "parts": 612,
+    "marks": 612,
+    "assets": 31,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 17
+   }
+  },
+  {
+   "slug": "cie-igcse-economics-25",
+   "level": "igcse",
+   "subject": "economics",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/economics/cie/25/topic-questions/",
+   "page_count": 36,
+   "leaf_types": {
+    "paper-1": 36
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 36,
+    "questions": 625,
+    "parts": 625,
+    "marks": 625,
+    "assets": 34,
+    "asset_failures": 0,
+    "missing_questions": 1,
+    "equations": 17
+   }
+  },
+  {
+   "slug": "cie-igcse-english-language-20",
+   "level": "igcse",
+   "subject": "english-language",
+   "mid": "20",
+   "landing_url": "https://www.savemyexams.com/igcse/english-language/cie/20/topic-questions/",
+   "page_count": 3,
+   "leaf_types": {
+    "november-2023-050011-reading": 1,
+    "november-2023-050021-section-a": 1,
+    "november-2023-050021-section-b": 1
+   },
+   "sections": 2,
+   "status": "scraped",
+   "totals": {
+    "topics": 3,
+    "questions": 9,
+    "parts": 23,
+    "marks": 280,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-english-language-25",
+   "level": "igcse",
+   "subject": "english-language",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/english-language/cie/25/topic-questions/",
+   "page_count": 5,
+   "leaf_types": {
+    "exam-questions-question-1-a-f": 1,
+    "exam-questions-question-2a": 1,
+    "exam-questions-question-3-a-c": 1,
+    "exam-questions-question-4-letter": 1,
+    "exam-questions-question-1a": 1
+   },
+   "sections": 2,
+   "status": "scraped",
+   "totals": {
+    "topics": 5,
+    "questions": 30,
+    "parts": 121,
+    "marks": 390,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-english-literature-21",
+   "level": "igcse",
+   "subject": "english-literature",
+   "mid": "21",
+   "landing_url": "https://www.savemyexams.com/igcse/english-literature/cie/21/topic-questions/",
+   "page_count": 15,
+   "leaf_types": {
+    "exam-questions": 15
+   },
+   "sections": 3,
+   "status": "scraped",
+   "totals": {
+    "topics": 15,
+    "questions": 95,
+    "parts": 95,
+    "marks": 2375,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-environmental-management-25",
+   "level": "igcse",
+   "subject": "environmental-management",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/environmental-management/cie/25/topic-questions/",
+   "page_count": 14,
+   "leaf_types": {
+    "exam-questions": 14
+   },
+   "sections": 7,
+   "status": "scraped",
+   "totals": {
+    "topics": 14,
+    "questions": 72,
+    "parts": 72,
+    "marks": 159,
+    "assets": 20,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-further-maths-additional-maths-25",
+   "level": "igcse",
+   "subject": "further-maths",
+   "mid": "additional-maths/25",
+   "landing_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/",
+   "page_count": 17,
+   "leaf_types": {
+    "exam-questions": 17
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 17,
+    "questions": 256,
+    "parts": 441,
+    "marks": 1552,
+    "assets": 134,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 4541
+   }
+  },
+  {
+   "slug": "cie-igcse-geography-20",
+   "level": "igcse",
+   "subject": "geography",
+   "mid": "20",
+   "landing_url": "https://www.savemyexams.com/igcse/geography/cie/20/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "paper-1": 19,
+    "paper-2": 1,
+    "paper-4": 1
+   },
+   "sections": 5,
+   "status": "scraped",
+   "totals": {
+    "topics": 21,
+    "questions": 483,
+    "parts": 734,
+    "marks": 3440,
+    "assets": 431,
+    "asset_failures": 0,
+    "missing_questions": 1,
+    "equations": 12
+   }
+  },
+  {
+   "slug": "cie-igcse-geography-25",
+   "level": "igcse",
+   "subject": "geography",
+   "mid": "25",
+   "landing_url": "https://www.savemyexams.com/igcse/geography/cie/25/topic-questions/",
+   "page_count": 30,
+   "leaf_types": {
+    "exam-questions": 30
+   },
+   "sections": 11,
+   "status": "scraped",
+   "totals": {
+    "topics": 30,
+    "questions": 384,
+    "parts": 477,
+    "marks": 1757,
+    "assets": 187,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 1
+   }
+  },
+  {
+   "slug": "cie-igcse-history-18",
+   "level": "igcse",
+   "subject": "history",
+   "mid": "18",
+   "landing_url": "https://www.savemyexams.com/igcse/history/cie/18/topic-questions/",
+   "page_count": 18,
+   "leaf_types": {
+    "exam-questions": 18
+   },
+   "sections": 4,
+   "status": "scraped",
+   "totals": {
+    "topics": 18,
+    "questions": 321,
+    "parts": 321,
+    "marks": 3436,
+    "assets": 6,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-ict-21",
+   "level": "igcse",
+   "subject": "ict",
+   "mid": "21",
+   "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+   "page_count": 23,
+   "leaf_types": {
+    "exam-questions": 23
+   },
+   "sections": 13,
+   "status": "scraped",
+   "totals": {
+    "topics": 23,
+    "questions": 313,
+    "parts": 401,
+    "marks": 1253,
+    "assets": 32,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-maths-25-core",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "25/core",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/cie/25/core/topic-questions/",
+   "page_count": 44,
+   "leaf_types": {
+    "exam-questions": 44
+   },
+   "sections": 9,
+   "status": "scraped",
+   "totals": {
+    "topics": 44,
+    "questions": 1022,
+    "parts": 1372,
+    "marks": 3135,
+    "assets": 899,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 6727
+   }
+  },
+  {
+   "slug": "cie-igcse-maths-25-extended",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "25/extended",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/cie/25/extended/topic-questions/",
+   "page_count": 55,
+   "leaf_types": {
+    "calculator-questions": 44,
+    "exam-questions": 11
+   },
+   "sections": 9,
+   "status": "scraped",
+   "totals": {
+    "topics": 55,
+    "questions": 1171,
+    "parts": 1559,
+    "marks": 4492,
+    "assets": 1113,
+    "asset_failures": 0,
+    "missing_questions": 2,
+    "equations": 10122
+   }
+  },
+  {
+   "slug": "cie-igcse-maths-international-maths-23-core",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "international-maths/23/core",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+   "page_count": 45,
+   "leaf_types": {
+    "exam-questions": 43,
+    "hexagonal-numbers": 1,
+    "exam-questionss": 1
+   },
+   "sections": 10,
+   "status": "scraped",
+   "totals": {
+    "topics": 45,
+    "questions": 912,
+    "parts": 1175,
+    "marks": 2661,
+    "assets": 714,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 5864
+   }
+  },
+  {
+   "slug": "cie-igcse-maths-international-maths-23-extended",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "international-maths/23/extended",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/",
+   "page_count": 55,
+   "leaf_types": {
+    "calculator-questions": 32,
+    "non-calculator-questions": 4,
+    "exam-questions": 17,
+    "hexagonal-numbers": 1,
+    "road-traffic": 1
+   },
+   "sections": 10,
+   "status": "scraped",
+   "totals": {
+    "topics": 55,
+    "questions": 1159,
+    "parts": 1543,
+    "marks": 4218,
+    "assets": 1067,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 9471
+   }
+  },
+  {
+   "slug": "cie-igcse-physics-23",
+   "level": "igcse",
+   "subject": "physics",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/",
+   "page_count": 24,
+   "leaf_types": {
+    "multiple-choice-questions": 24
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 24,
+    "questions": 662,
+    "parts": 662,
+    "marks": 662,
+    "assets": 327,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 730
+   }
+  },
+  {
+   "slug": "cie-igcse-religious-studies-23",
+   "level": "igcse",
+   "subject": "religious-studies",
+   "mid": "23",
+   "landing_url": "https://www.savemyexams.com/igcse/religious-studies/cie/23/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "exam-questions": 21
+   },
+   "sections": 3,
+   "status": "scraped",
+   "totals": {
+    "topics": 21,
+    "questions": 72,
+    "parts": 145,
+    "marks": 913,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-biology",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "co-ordinated-sciences-double-award/23/biology",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/co-ordinated-sciences-double-award/23/biology/topic-questions/",
+   "page_count": 19,
+   "leaf_types": {
+    "multiple-choice-questions": 19
+   },
+   "sections": 19,
+   "status": "scraped",
+   "totals": {
+    "topics": 19,
+    "questions": 236,
+    "parts": 236,
+    "marks": 236,
+    "assets": 89,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 3
+   }
+  },
+  {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "co-ordinated-sciences-double-award/23/chemistry",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/co-ordinated-sciences-double-award/23/chemistry/topic-questions/",
+   "page_count": 26,
+   "leaf_types": {
+    "multiple-choice-questions": 26
+   },
+   "sections": 12,
+   "status": "scraped",
+   "totals": {
+    "topics": 26,
+    "questions": 378,
+    "parts": 380,
+    "marks": 380,
+    "assets": 135,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 73
+   }
+  },
+  {
+   "slug": "cie-igcse-science-co-ordinated-sciences-double-award-23-physics",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "co-ordinated-sciences-double-award/23/physics",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/co-ordinated-sciences-double-award/23/physics/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "multiple-choice-questions": 21
+   },
+   "sections": 6,
+   "status": "scraped",
+   "totals": {
+    "topics": 21,
+    "questions": 320,
+    "parts": 320,
+    "marks": 320,
+    "assets": 174,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 309
+   }
+  },
+  {
+   "slug": "cie-igcse-science-combined-science-23-biology",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "combined-science/23/biology",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/biology/topic-questions/",
+   "page_count": 14,
+   "leaf_types": {
+    "exam-questions": 14
+   },
+   "sections": 14,
+   "status": "scraped",
+   "totals": {
+    "topics": 14,
+    "questions": 37,
+    "parts": 44,
+    "marks": 92,
+    "assets": 26,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-science-combined-science-23-chemistry",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "combined-science/23/chemistry",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/chemistry/topic-questions/",
+   "page_count": 20,
+   "leaf_types": {
+    "exam-questions": 20
+   },
+   "sections": 12,
+   "status": "scraped",
+   "totals": {
+    "topics": 20,
+    "questions": 41,
+    "parts": 51,
+    "marks": 105,
+    "assets": 17,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   }
+  },
+  {
+   "slug": "cie-igcse-science-combined-science-23-physics",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "combined-science/23/physics",
+   "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/",
+   "page_count": 14,
+   "leaf_types": {
+    "exam-questions": 14
+   },
+   "sections": 5,
+   "status": "scraped",
+   "totals": {
+    "topics": 14,
+    "questions": 41,
+    "parts": 48,
+    "marks": 106,
+    "assets": 23,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 112
+   }
   }
  ],
  "spec_index_courses": 49

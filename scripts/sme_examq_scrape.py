@@ -51,6 +51,13 @@ SECTION_LETTERS = "abcdefghijklmnopqrstuvwxyz"
 # ----------------------------------------------------------------------------- http
 def http_get(url: str, *, binary: bool = False, retries: int = 3, delay: float = 0.8):
     last = None
+    # percent-encode non-ASCII URL paths (CDN URLs with ’, –, α, β ...):
+    # urllib cannot open raw unicode URLs ('ascii' codec error)
+    if any(ord(ch) > 127 for ch in url):
+        p = urllib.parse.urlsplit(url)
+        url = urllib.parse.urlunsplit(
+            (p.scheme, p.netloc, urllib.parse.quote(p.path, safe="/"),
+             p.query, p.fragment))
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={
