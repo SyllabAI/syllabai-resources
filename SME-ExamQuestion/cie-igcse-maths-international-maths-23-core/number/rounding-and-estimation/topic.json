@@ -1,0 +1,1027 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:22:47Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/core",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "number",
+  "name": "Number"
+ },
+ "topic": {
+  "id": "top_kgkygB5NtVV7X2Dr",
+  "slug": "rounding-and-estimation",
+  "name": "Rounding & Estimation",
+  "order": 15
+ },
+ "subtopics": [
+  {
+   "slug": "rounding-to-a-given-place-value",
+   "name": "Rounding to a Given Place Value",
+   "revision_note_id": "rn_dTNSfrWgTx5BYxtz"
+  },
+  {
+   "slug": "rounding-to-significant-figures",
+   "name": "Rounding to Significant Figures",
+   "revision_note_id": "rn_JCPpjF72B8xc8sjq"
+  },
+  {
+   "slug": "estimation",
+   "name": "Estimation",
+   "revision_note_id": "rn_nCPkKkwRGxSt4sSG"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_TRJsnNXGyqXjmTSr",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 20,
+   "questions_embedded": 20,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/number/rounding-and-estimation/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 20,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_zV6Q9RbhPB9J6xTW",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6JJDM4bV6Bcxr5Jf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 26,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DYWSrM2HQDcmNW55",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "By rounding each number correct to 1 significant figure, estimate the value of $\\sqrt{\\frac{90006}{10.01^{2}}}$\n\nYou must show all your working.",
+     "solution_md": "> *The first significant figure of the number *$90,006$* is *$9$* which is in the ten thousands place value column*\n\n> *Round this number to the nearest *$10,000$\n\n> *As the thousands column contains a *$0$*, round down to the previous *$10,000$\n\n$90,006\\rightarrow90,000$\n\n> *The first significant figure of the number *$10.1$* is the *$1$* in the tens place value column*\n\n> *Round this number to the nearest *$10$\n\n> *As the ones column contains a *$0$*, round down to the previous *$10$\n\n$10.1\\rightarrow10$\n\n> *Rewrite the calculation using the rounded values and calculate the estimate for the solution*\n\n$\\sqrt{\\frac{90000}{10^{2}}}$\n\n**[1]**\n\n$=\\sqrt{\\frac{90000}{100}}$\n\n$=\\sqrt{900}$\n\n$30$ **[1]**",
+     "equations": [
+      {
+       "latex": "\\sqrt{\\frac{90006}{10.01^{2}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mfrac><mn>90006</mn><mrow><mn>10</mn><mo>.</mo><msup><mn>01</mn><mn>2</mn></msup></mrow></mfrac></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of fraction numerator 90006 over denominator 10.01 squared end fraction end root"
+      },
+      {
+       "latex": "90,006",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>90</mn><mo>,</mo><mn>006</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "90 comma 006"
+      },
+      {
+       "latex": "9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>9</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9"
+      },
+      {
+       "latex": "10,000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 comma 000"
+      },
+      {
+       "latex": "0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>0</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0"
+      },
+      {
+       "latex": "10,000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 comma 000"
+      },
+      {
+       "latex": "90,006\\rightarrow90,000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>90</mn><mo>,</mo><mn>006</mn><mo>&#8594;</mo><mn>90</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "90 comma 006 rightwards arrow 90 comma 000"
+      },
+      {
+       "latex": "10.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10.1"
+      },
+      {
+       "latex": "1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>1</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1"
+      },
+      {
+       "latex": "10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>10</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10"
+      },
+      {
+       "latex": "0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>0</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0"
+      },
+      {
+       "latex": "10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>10</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10"
+      },
+      {
+       "latex": "10.1\\rightarrow10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo>.</mo><mn>1</mn><mo>&#8594;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10.1 rightwards arrow 10"
+      },
+      {
+       "latex": "\\sqrt{\\frac{90000}{10^{2}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mfrac><mn>90000</mn><msup><mn>10</mn><mn>2</mn></msup></mfrac></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of 90000 over 10 squared end root"
+      },
+      {
+       "latex": "=\\sqrt{\\frac{90000}{100}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><msqrt><mfrac><mn>90000</mn><mn>100</mn></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals square root of 90000 over 100 end root"
+      },
+      {
+       "latex": "=\\sqrt{900}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><msqrt><mn>900</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals square root of 900"
+      },
+      {
+       "latex": "30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">30</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YWFfzpVNDHBFN7Cs",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_XTjXfxqgqdR95d6V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/11",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX"
+     ],
+     "part_tier": null,
+     "problem_md": "$T=\\frac{49.2-9.59}{4.085\\times2.35}$\n\nBy writing each number correct to 1 significant figure, work out an estimate for $T$. \nYou must show all your working.",
+     "solution_md": "> *Round each number to one significant figure.*\n\n$T=\\frac{50-10}{4\\times2}$\n\n**[1]**\n\n> *Perform the calculation with the rounded numbers.*\n\n$\\frac{50-10}{4\\times2}=\\frac{40}{8}=5$\n\n** **$5$* ***[1]**",
+     "equations": [
+      {
+       "latex": "T=\\frac{49.2-9.59}{4.085\\times2.35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><mn>49</mn><mo>.</mo><mn>2</mn><mo>-</mo><mn>9</mn><mo>.</mo><mn>59</mn></mrow><mrow><mn>4</mn><mo>.</mo><mn>085</mn><mo>&#215;</mo><mn>2</mn><mo>.</mo><mn>35</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T equals fraction numerator 49.2 minus 9.59 over denominator 4.085 cross times 2.35 end fraction"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T=\\frac{50-10}{4\\times2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><mn>50</mn><mo>-</mo><mn>10</mn></mrow><mrow><mn>4</mn><mo>&#215;</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T equals fraction numerator 50 minus 10 over denominator 4 cross times 2 end fraction"
+      },
+      {
+       "latex": "\\frac{50-10}{4\\times2}=\\frac{40}{8}=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>50</mn><mo>-</mo><mn>10</mn></mrow><mrow><mn>4</mn><mo>&#215;</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mn>40</mn><mn>8</mn></mfrac><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 50 minus 10 over denominator 4 cross times 2 end fraction equals 40 over 8 equals 5"
+      },
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JBGHBHPMyCXQSxBy",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YSRs5QQghdksdjt3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 0.046875 correct to 2 significant figures.",
+     "solution_md": "> *The second significant figure is the second digit from the highest non-zero place value column.*\n\n> *The second significant figure is *$6$* in the thousands column so round to the nearest thousandth.*\n\n> *The next place value column is greater than *$4$* so round up to the next thousandth*\n\n$0.047$ **[1]**",
+     "equations": [
+      {
+       "latex": "6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>6</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>4</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "0.047",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">047</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 0 bold. bold 047"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_djS76xPtznnk3DVV",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_s2V9HJ2sNXJZvNsY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 13,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Without using a calculator**, estimate, by rounding each number correct to 1 significant figure,\n\n$\\frac{\\sqrt{104.3}}{8.72-7.389}$\n\nYou must show all your working.",
+     "solution_md": "> *Round each value to 1 significant figure*\n\n`104.3 almost equal to 100 space open parentheses 1 sf close parentheses`\n\n`8.72 almost equal to 9 space open parentheses 1 sf close parentheses`\n\n`7.389 almost equal to 7 space open parentheses 1 sf close parentheses`\n\n> *Substitute these values in place of the original and evaluate*\n\n$\\frac{\\sqrt{100}}{9-7}$\n\n**[1]**\n\n$=\\frac{10}{2}=5$\n\n**5 ****[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{\\sqrt{104.3}}{8.72-7.389}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msqrt><mn>104</mn><mo>.</mo><mn>3</mn></msqrt><mrow><mn>8</mn><mo>.</mo><mn>72</mn><mo>-</mo><mn>7</mn><mo>.</mo><mn>389</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator square root of 104.3 end root over denominator 8.72 minus 7.389 end fraction"
+      },
+      {
+       "latex": "\\frac{\\sqrt{100}}{9-7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msqrt><mn>100</mn></msqrt><mrow><mn>9</mn><mo>-</mo><mn>7</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator square root of 100 over denominator 9 minus 7 end fraction"
+      },
+      {
+       "latex": "=\\frac{10}{2}=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mn>10</mn><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 10 over 2 equals 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8cXJsQRq9h5JZpCr",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_VMDczJTbjS8KFTxW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 13,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "$p=\\frac{1.6+9.6^{2}}{5.9-4.3}$\n\nBy writing each number correct to 1 significant figure, work out an estimate for $p$.\nYou must show all your working.",
+     "solution_md": "> *Round each value to the first significant figure*\n\n`1.6 equals 2 space open parentheses 1 s f close parentheses`\n\n`9.6 equals 10 space open parentheses 1 s f close parentheses`\n\n`5.9 equals 6 space open parentheses 1 s f close parentheses`\n\n`4.3 equals 4 space open parentheses 1 s f close parentheses`\n\n> *Write the original calculation with each value rounded to 1 significant figure*\n\n$\\frac{2+10^{2}}{6-4}$\n\n**[1]**\n\n> *Evaluate this*\n\n$=\\frac{2+100}{2}$$=\\frac{102}{2}=51$\n\n**51**** ****[1]**",
+     "equations": [
+      {
+       "latex": "p=\\frac{1.6+9.6^{2}}{5.9-4.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>+</mo><mn>9</mn><mo>.</mo><msup><mn>6</mn><mn>2</mn></msup></mrow><mrow><mn>5</mn><mo>.</mo><mn>9</mn><mo>-</mo><mn>4</mn><mo>.</mo><mn>3</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals fraction numerator 1.6 plus 9.6 squared over denominator 5.9 minus 4.3 end fraction"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "\\frac{2+10^{2}}{6-4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup></mrow><mrow><mn>6</mn><mo>-</mo><mn>4</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 plus 10 squared over denominator 6 minus 4 end fraction"
+      },
+      {
+       "latex": "=\\frac{2+100}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mrow><mn>2</mn><mo>+</mo><mn>100</mn></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals fraction numerator 2 plus 100 over denominator 2 end fraction"
+      },
+      {
+       "latex": "=\\frac{102}{2}=51",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mn>102</mn><mn>2</mn></mfrac><mo>=</mo><mn>51</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 102 over 2 equals 51"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zKPkh6wvbmKzKYxc",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_DcQNdzQCzphDvBKd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 15,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "By writing each number correct to 1 significant figure, estimate the value of\n\n$\\frac{37.8\\times13.2}{28.5+22.1}$\n\nYou must show all your working.",
+     "solution_md": "> *Round all the numbers to one significant figure.*\n\n> * *\n\n$\\frac{40\\times10}{30+20}$\n\n* ***[1]**\n\n> *Perform the calculation with the rounded numbers.*\n\n> * *\n\n$\\frac{40\\times10}{30+20}=\\frac{400}{50}=8$\n\n> * *\n\n**8**** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{37.8\\times13.2}{28.5+22.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>37</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><mn>13</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>28</mn><mo>.</mo><mn>5</mn><mo>+</mo><mn>22</mn><mo>.</mo><mn>1</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 37.8 cross times 13.2 over denominator 28.5 plus 22.1 end fraction"
+      },
+      {
+       "latex": "\\frac{40\\times10}{30+20}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>40</mn><mo>&#215;</mo><mn>10</mn></mrow><mrow><mn>30</mn><mo>+</mo><mn>20</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 40 cross times 10 over denominator 30 plus 20 end fraction"
+      },
+      {
+       "latex": "\\frac{40\\times10}{30+20}=\\frac{400}{50}=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>40</mn><mo>&#215;</mo><mn>10</mn></mrow><mrow><mn>30</mn><mo>+</mo><mn>20</mn></mrow></mfrac><mo>=</mo><mfrac><mn>400</mn><mn>50</mn></mfrac><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 40 cross times 10 over denominator 30 plus 20 end fraction equals 400 over 50 equals 8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zG53ggPcnMhFpN2k",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xytghXSkFmKkYDVr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/12",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 0.047883 correct to 2 significant figures.",
+     "solution_md": "> *The second significant figure is the second digit from the highest non-zero place value column of the number.*\n\n> *The second significant figure is 7 thousandths so round to the nearest thousandth.*\n\n> *The next place value column is greater than 4 so round up to the next thousandth*\n\n$0.048$ **[1]**",
+     "equations": [
+      {
+       "latex": "0.048",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">048</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 0 bold. bold 048"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nBJDRSSrRNz92hd2",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_vjF4nZTwR3XxzMnk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 19,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "By rounding each number correct to 1 significant figure, estimate the value of\n\n$\\frac{71\\times32.4}{4.8^{2}}$\n\nYou must show all your working.",
+     "solution_md": "> *Round all the numbers to one significant figure.*\n\n> * *\n\n$\\frac{70\\times30}{5^{2}}$\n\n* ***[1]**\n\n> *Perform the calculation with the rounded numbers.*\n\n> * *\n\n$\\frac{70\\times30}{5^{2}}=\\frac{2100}{25}=84$\n\n> * *\n\n**84** **[1] **\n**Rounding must be shown to gain marks**",
+     "equations": [
+      {
+       "latex": "\\frac{71\\times32.4}{4.8^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>71</mn><mo>&#215;</mo><mn>32</mn><mo>.</mo><mn>4</mn></mrow><mrow><mn>4</mn><mo>.</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 71 cross times 32.4 over denominator 4.8 squared end fraction"
+      },
+      {
+       "latex": "\\frac{70\\times30}{5^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>70</mn><mo>&#215;</mo><mn>30</mn></mrow><msup><mn>5</mn><mn>2</mn></msup></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 70 cross times 30 over denominator 5 squared end fraction"
+      },
+      {
+       "latex": "\\frac{70\\times30}{5^{2}}=\\frac{2100}{25}=84",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>70</mn><mo>&#215;</mo><mn>30</mn></mrow><msup><mn>5</mn><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mn>2100</mn><mn>25</mn></mfrac><mo>=</mo><mn>84</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 70 cross times 30 over denominator 5 squared end fraction equals 2100 over 25 equals 84"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CPSgykkQZ5dygZPx",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_B8wPY49rcnshQnc6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Feb/March 2018",
+      "number": "0580/12",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 6.8167 correct to 3 significant figures.",
+     "solution_md": "> *The 3rd significant figure in the number *$6.8167$* is the digit *$1$* in the hundredths column*\n\n> *Round *$6.8167$* to the nearest hundredth*\n\n> *As the digit in the thousandths column is greater than 4, round up to the next hundredth*\n\n> * *\n\n$6.82$ **[1]**",
+     "equations": [
+      {
+       "latex": "6.8167",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>.</mo><mn>8167</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6.8167"
+      },
+      {
+       "latex": "1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>1</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1"
+      },
+      {
+       "latex": "6.8167",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>.</mo><mn>8167</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6.8167"
+      },
+      {
+       "latex": "6.82",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">82</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 6 bold. bold 82"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_c44YV65gQfQPFqvG",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9VWXy4nyw4bfy8tN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate `cube root of 40`\n\nGive your answer correct to 4 decimal places",
+     "solution_md": "> *Put into your calculator*\n\n$3.419951893...$\n\n** [1]**\n\n**Any value in the range 3.419 to 3.420 is accepted**\n\n> *Round to 4 decimal places*\n\n$3.4200$** [1]**",
+     "equations": [
+      {
+       "latex": "3.419951893...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>419951893</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3.419951893..."
+      },
+      {
+       "latex": "3.4200",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">4200</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 bold. bold 4200"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9jQcYKyJWqWVGgDr",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_C6jp3x3ydQ7RpcYT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "prove",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/33",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX",
+      "spcpt_CTJ7Gt64Pr6WSFZK"
+     ],
+     "part_tier": null,
+     "problem_md": "By rounding each number correct to 1 significant figure, show that an estimate for this calculation is 20.\n\n$\\frac{9.78+31.562}{0.381\\times5.09}$",
+     "solution_md": "> *Round each number and rewrite the calculation*\n\n$\\frac{10+30}{0.4\\times5}$\n\n**[1]**\n\n> *Simplify*\n\n$\\frac{40}{2}=20$\n\n**20**** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{9.78+31.562}{0.381\\times5.09}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>9</mn><mo>.</mo><mn>78</mn><mo>+</mo><mn>31</mn><mo>.</mo><mn>562</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>381</mn><mo>&#215;</mo><mn>5</mn><mo>.</mo><mn>09</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 9.78 plus 31.562 over denominator 0.381 cross times 5.09 end fraction"
+      },
+      {
+       "latex": "\\frac{10+30}{0.4\\times5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>10</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>30</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>4</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>5</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 10 space plus thin space 30 over denominator 0.4 space cross times space 5 end fraction"
+      },
+      {
+       "latex": "\\frac{40}{2}=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>40</mn><mn>2</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "40 over 2 space equals space 20"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zxhRq7z2XDC5Gfy8",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Vf5mYjNY7JZQqDBQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 8379 correct to the nearest hundred.",
+     "solution_md": "> *Identify the digit to the **right **of the hundreds column.*\n\n> * *\n\n$83\\underset{-}{7}9$\n\n> *As this digit is 5 or greater, round the hundreds up from a 3 to a 4.*\n\n> *The digits in the tens and ones columns become 0.*\n\n**8400**** [1]**",
+     "equations": [
+      {
+       "latex": "83\\underset{-}{7}9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>83</mn><munder><mn mathvariant=\"bold\">7</mn><mo mathvariant=\"bold\">-</mo></munder><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "83 bold 7 with bold minus below 9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XtCKzdmSTwM2mQsv",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_kppDbjjwk6cv8w23",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 849.481 correct to 1 decimal place.",
+     "solution_md": "> *Identify the digit to the **right **of the first decimal place.*\n\n$849.4\\underset{-}{8}1$\n\n> *As this digit is 5 or greater, we will round the first decimal place up from a 4 to a 5.*\n\n$849.5$* ***[1]**",
+     "equations": [
+      {
+       "latex": "849.4\\underset{-}{8}1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>849</mn><mo>.</mo><mn>4</mn><munder><mn mathvariant=\"bold\">8</mn><mo mathvariant=\"bold\">-</mo></munder><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "849.4 bold 8 with bold minus below 1"
+      },
+      {
+       "latex": "849.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">849</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 849 bold. bold 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mCWCXfJ4czt8MrJy",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_rrmNytskc2CgpJVK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 6789 correct to the nearest 100.",
+     "solution_md": "> *When rounding to the nearest 100, the tens and units column must contain a 0*\n\n> *As the tens column is 5 or more, round to the next 100*\n\n**6800** **[1]**"
+    },
+    {
+     "id": "qstnprt_JVmHNt8XtnWq96VP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hF46XXMHpkhMNDvX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 6789 correct to 3 significant figures.",
+     "solution_md": "> *The third significant figure is the 8 in the tens column so round the number to the nearest 10*\n\n> *As the digit in the ones column is 5 or more, round up to the next 10*\n\n**6790** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_m2ngrB49XYbJFwgw",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CzZDjyMr6jnX52jz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 97.4236 correct to 3 decimal places.",
+     "solution_md": "> *Identify the digit to the **right **of the third decimal place.*\n\n$97.423\\underset{-}{6}$\n\n> *As this digit is 5 or greater, we will round the third decimal place up from a 3 to a 4.*\n\n$97.424$* ***[1]**",
+     "equations": [
+      {
+       "latex": "97.423\\underset{-}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>97</mn><mo>.</mo><mn>423</mn><munder><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">-</mo></munder></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "97.423 bold 6 with bold minus below"
+      },
+      {
+       "latex": "97.424",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">97</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">424</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 97 bold. bold 424"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kh4ZWJYQhTGsYHy2",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vHvJYPvxjRzhfy7R",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 867 correct to the nearest ten.",
+     "solution_md": "> *Identify the digit to the **right **of the **tens column**.*\n\n$86\\underset{-}{7}$\n\n> *As this digit is 5 or greater, we will round the digit in the tens column up from a 6 to a 7.*\n\n> *The number in the ones column becomes a 0.*\n\n$870$* ***[1]**",
+     "equations": [
+      {
+       "latex": "86\\underset{-}{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>86</mn><munder><mn mathvariant=\"bold\">7</mn><mo mathvariant=\"bold\">-</mo></munder></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "86 bold 7 with bold minus below"
+      },
+      {
+       "latex": "870",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">870</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 870"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DNhstNFgHRrxryyd",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_g7n3Btn57dqP52CX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "May/June 2019",
+      "number": "0580/13",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 3.058 correct to 3 significant figures.",
+     "solution_md": "> *The third significant figure of a number greater than 1 is the third digit from the highest non-zero place value column.*\n\n> *The third place value of this number is the hundredths column, so round the number to the nearest hundredth.*\n\n> *As the digit in the next place value column is greater than 4, round up to the next hundredth*\n\n**3.06** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8t8MD6cz6Rj4gWXM",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3JxnqkJWYXBh3Gn9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/31",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 3.72194 correct to 3 decimal places.",
+     "solution_md": "> *Identify the digit to the **right **of the third decimal place.*\n\n> * *\n\n$3.721\\underset{-}{9}4$\n\n> *As this digit is 5 or greater, round the third decimal place up from a 1 to a 2.*\n\n**3.722**** ****[1]**",
+     "equations": [
+      {
+       "latex": "3.721\\underset{-}{9}4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>721</mn><munder><mn mathvariant=\"bold\">9</mn><mo mathvariant=\"bold\">-</mo></munder><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3.721 bold 9 with bold minus below 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7ZZwtR8HZnpdVMsp",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pp3s3C2D4TqXMgbs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 5,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 0.3728 correct to 1 decimal place.\n\n[1]",
+     "solution_md": "> *Identify the digit to the **right **of the first decimal place.*\n\n$0.3\\underset{-}{7}28$\n\n> *As this digit is 5 or greater, round the first decimal place up from a 3 to a 4.*\n\n$0.4$* ***[1]**",
+     "equations": [
+      {
+       "latex": "0.3\\underset{-}{7}28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>3</mn><munder><mn mathvariant=\"bold\">7</mn><mo mathvariant=\"bold\">-</mo></munder><mn>28</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.3 bold 7 with bold minus below 28"
+      },
+      {
+       "latex": "0.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 0 bold. bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6HdNxxNHBjsRz88q",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_v2Dcxshp9zRMcmDw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 8473 correct to the nearest ten.",
+     "solution_md": "> *To round a number to the nearest 10, underline the number in the tens column.*\n\n*84**<u>7</u>**3*\n\n> *The two nearest tens are 8470 and 8480.*\n* Use the number to the right of the 7 to decide how to round the number. *\n*The number to the right of the 7 is a 3. 3 is less than 5 so round to the smaller number.*\n\n**8470**** ****[1]**"
+    },
+    {
+     "id": "qstnprt_Yh2XYMPrpfJsqCBy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 16.086 correct to 2 decimal places.",
+     "solution_md": "> *When rounding a number to 2 decimal places, underline the number in the second decimal place.*\n\n*16.0**<u>8</u>**6*\n\n> *The second decimal place is the hundredths column. *\n*The hundredths either side would be 16.08 and 16.09.*\n* Look at the number to the right of the 8 to decide how to round the number. *\n*6 is bigger than 5 so round to the bigger number.*\n\n**16.09** **[1]**"
+    }
+   ]
+  }
+ ]
+}

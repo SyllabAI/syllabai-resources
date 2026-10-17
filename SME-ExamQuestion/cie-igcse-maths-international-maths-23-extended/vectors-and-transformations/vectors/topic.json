@@ -1,0 +1,1012 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:34:31Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/extended",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "vectors-and-transformations",
+  "name": "Vectors & Transformations"
+ },
+ "topic": {
+  "id": "top_8h6Mq7BY3P9yGCBn",
+  "slug": "vectors",
+  "name": "Vectors",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "introduction-to-vectors",
+   "name": "Introduction to Column Vectors",
+   "revision_note_id": "rn_ksTGGjfHZxR9CCQG"
+  },
+  {
+   "slug": "magnitude-of-a-vector",
+   "name": "Magnitude of a Vector",
+   "revision_note_id": "rn_fn96WkrYDfFK289F"
+  },
+  {
+   "slug": "representing-vectors-as-diagrams",
+   "name": "Representing Vectors as Diagrams",
+   "revision_note_id": "rn_kwftGG9RJ8DHqtjg"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Y9BZsgWhWTZB2vDR",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 16,
+   "questions_embedded": 16,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/vectors-and-transformations/vectors/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 16,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/09/cie-igcse-2018-oct-nov-p4-tz3-q1b.png": "001-cie-igcse-2018-oct-nov-p4-tz3-q1b.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_vyYxZV5yP8VNsbWG",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9vsjCC7nq7dbkpwc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "$A$ is the point (-2, 1) and `stack A B with rightwards arrow on top equals open parentheses table row 4 row 2 end table close parentheses`.\n\nFind the coordinates of point $B$.",
+     "solution_md": "> $\\overset{\\rightarrow}{AB}$* is the vector from *$A$* to *$B$*, i.e. the difference between *$A$* and *$B$\n\n> *Writing *$A$* as the vector *`open parentheses table row 4 row 2 end table close parentheses`* and *$B$* as the vector *`open parentheses table row x row y end table close parentheses`\n\n`table row cell stack A B with rightwards arrow on top end cell equals cell open parentheses table row 4 row 2 end table close parentheses equals open parentheses table row x row y end table close parentheses minus open parentheses table row cell negative 2 end cell row 1 end table close parentheses end cell end table`\n\n**[M1]**\n\n`table row cell open parentheses table row 4 row 2 end table close parentheses plus open parentheses table row cell negative 2 end cell row 1 end table close parentheses end cell equals cell open parentheses table row x row y end table close parentheses end cell row cell open parentheses table row 2 row 3 end table close parentheses end cell equals cell open parentheses table row x row y end table close parentheses end cell end table`\n\n**Final answer:** $B$** is (2, 3)**\n\n**[A1]**\n\n> **[exam-tip]**\n> Make sure you give your answer as a coordinate rather than a vector.",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "\\overset{\\rightarrow}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo>&#8594;</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "stack A B with rightwards arrow on top"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2v7Dm3z8BTQ3cDTZ",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_zxx3Dv827NpD39KP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "November 2023",
+      "number": "0607/41",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold p equals open parentheses space space space space 3\nminus 2 close parentheses space space space space space space space space space space bold q equals open parentheses negative 5\nspace space space 1 close parentheses`\n\n(i) Work out  $p+2q$.\n\n[2]\n\n(ii) $A$is the point `open parentheses 2 comma space 6 close parentheses` and $B$ is the image of point $A$after a translation by the vector $p$. \n\nFind the coordinates of $B$.\n\n( ...................... , ...................... ) [1]\n\n(iii) Find the magnitude of $q$.\n\n[2]",
+     "solution_md": "(i) *Multiply both components of *$q$** ***by 2*\n\n`2 bottom enclose bold q equals open parentheses table row cell 2 cross times negative 5 end cell row cell space space space 2 cross times 1 end cell end table close parentheses equals open parentheses table row cell negative 10 end cell row cell space space space space 2 end cell end table close parentheses`\n\n**[1]**\n\n> *Add together *$p$* and *$2q$* by adding together corresponding terms*\n\n`bottom enclose bold p plus 2 bottom enclose bold q equals open parentheses table row cell 3 plus open parentheses negative 10 close parentheses end cell row cell space space space minus 2 plus 2 end cell end table close parentheses`\n\n`bottom enclose bold p plus 2 bottom enclose bold q equals stretchy left parenthesis table row cell negative 7 end cell row cell space space space 0 end cell end table stretchy right parenthesis`** **\n**1 mark for each correct number if previous mark not gained**** [2]**\n\n(ii) *The vector *`bold p equals open parentheses space space space space 3\nminus 2 close parentheses`* represents a movement of *$3$*units in the *$x$* direction and *$-2$* units in the *$y$* direction*\n\n> $B$* will be 3 unit to the left and 2 units vertically downwards from *$A$\n\n`table row cell 2 plus 3 end cell equals 5 row cell 6 plus negative 2 end cell equals 4 end table`\n\n`open parentheses 5 comma space 4 close parentheses`** ****[1]**\n\n(iii) *The magnitude of a vector can be found using the formula*\n\n`table row cell open vertical bar bold q close vertical bar end cell equals cell square root of open parentheses negative 5 close parentheses squared plus 1 squared end root end cell end table`\n\n**[1]**\n\n> *Simplify the expression and use a calculator to write as a decimal.*\n\n`table row cell open vertical bar bold q close vertical bar end cell equals cell square root of 25 plus 1 end root equals square root of 26 end cell row blank equals cell 5.09901... end cell end table`\n\n> *Round to 3 significant figures.*\n\n`stretchy vertical line bold q stretchy vertical line equals 5.10` **[1]**",
+     "equations": [
+      {
+       "latex": "p+2q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mo>+</mo><mn>2</mn><mi mathvariant=\"bold\">q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold p plus 2 bold q"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold p"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold q"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold q"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold p"
+      },
+      {
+       "latex": "2q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold\">q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold 2 bold q"
+      },
+      {
+       "latex": "3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>3</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 3
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 2"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5RhhHtVYnCkhBKFy",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_GcFJYZZtT4vMW2bR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "March 2022",
+      "number": "0607/22",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Work out   `2 open parentheses space 2\nspace 3 close parentheses minus open parentheses negative 3\nspace space space 5 close parentheses`.\n\n`open parentheses\nspace space space space space space space close parentheses`",
+     "solution_md": "> *Work out  *`2 open parentheses 2\n3 close parentheses`*  by multiplying both the top and bottom number in the vector by 2*\n\n`2 cross times open parentheses table row 2 row 3 end table close parentheses equals open parentheses table row 4 row 6 end table close parentheses`\n\n** ****[1]**\n\n> *Now subtract the second vector from this*\n\n`table row cell open parentheses table row 4 row 6 end table close parentheses minus open parentheses table row cell negative 3 end cell row cell space space space 5 end cell end table close parentheses end cell equals cell open parentheses table row cell 4 minus negative 3 end cell row cell space space space space 6 minus 5 end cell end table close parentheses end cell end table`\n\n`open parentheses space 7 space\nspace 1 close parentheses`** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_m9v6qSsQs3sVJVj2",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_z5B8z3S4VK2TBCd5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "November  2023",
+      "number": "0607/22",
+      "question_number": 13,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Find the magnitude of the vector  `open parentheses negative 6\nspace space space 8 close parentheses` .",
+     "solution_md": "> *The magnitude of a vector can be found using the formula *\n\n> *Use brackets around negatives*\n\n`table row cell open vertical bar open parentheses table row cell negative 6 end cell row 8 end table close parentheses close vertical bar end cell equals cell square root of open parentheses negative 6 close parentheses squared plus 8 squared end root end cell end table`\n\n**[1]**\n\n> *Simplify the expression*\n\n`table row cell open vertical bar open parentheses table row cell negative 6 end cell row 8 end table close parentheses close vertical bar end cell equals cell square root of 36 plus 64 end root end cell row blank equals cell square root of 100 end cell end table`\n\n`open vertical bar open parentheses negative 6\nspace space space 8 close parentheses close vertical bar equals 10`** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sfs3vgZPp9HkfhBB",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_JX23ZBy5gNqXQ7qv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2025",
+      "number": "Specimen 2",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk",
+      "spcpt_Jw35TTKhvXxmGGfP",
+      "spcpt_5FMXZMjqSZ3GK53q"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "$A$ is the point `open parentheses 1 comma space 2 close parentheses` and `stack A B with rightwards arrow on top equals open parentheses negative 1\n3 close parentheses`.\n\nFind the coordinates of the point $B$.",
+     "solution_md": "> *The vector *$\\overset{\\rightarrow}{AB}$* represents a movement of *$-1$*unit in the *$x$* direction and *$3$* units in the *$y$* direction*\n\n> $B$* will be 1 unit to the left and 3 units vertically upwards from *$A$\n\n`table row cell 1 minus 1 end cell equals 0 row cell 2 plus 3 end cell equals 5 end table`\n\n`open parentheses 0 comma space 5 close parentheses`** ****[2]**\n**1 mark for each correct coordinate**",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "\\overset{\\rightarrow}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo>&#8594;</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "stack A B with rightwards arrow on top"
+      },
+      {
+       "latex": "-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 1 space"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>3</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_x49tBhtSG28s3sJg",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mTrhwHKXWqHd8Mq4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020\tMay/June",
+      "number": "0580/21",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold m equals open parentheses table row 5 row 7 end table close parentheses` \nFind $3m$.\n\n`open parentheses table row cell space space space space space space end cell row blank end table close parentheses`",
+     "solution_md": "> *To multiply a vector by a scalar simply multiply the *$x$* and *$y$* components of the vector by the scalar*\n\n`3 open parentheses table row 5 row 7 end table close parentheses equals open parentheses table row cell 3 cross times 5 end cell row cell 3 cross times 7 end cell end table close parentheses equals open parentheses table row 15 row 21 end table close parentheses`\n\n`begin bold style stretchy left parenthesis table row 15 row 21 end table stretchy right parenthesis end style` **[1]**",
+     "equations": [
+      {
+       "latex": "3m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi mathvariant=\"bold\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 bold m"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tdM3BnGkXGqBZc8F",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_K2MTqrDgTNrzsxQk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/42",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk",
+      "spcpt_h5yjgd2WdgmJqHJM"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`\n\n$ma+nb=\\text{c}$\n\nWrite down two simultaneous equations and solve them to find the value of $m$ and the value of $n$. Show all your working.\n\n$m$ = ................................................     \n $n$ = ................................................",
+     "solution_md": "> *Substitute *$a$*, *$b$* and *$c$* into the formula *\n\n`m open parentheses table row cell negative 3 end cell row 2 end table close parentheses plus n open parentheses table row 5 row 4 end table close parentheses equals open parentheses table row 14 row 9 end table close parentheses`\n\n> *Multiply any letters on the outside of a vector by the two numbers inside *\n\n> `open parentheses table row cell negative 3 m end cell row cell 2 m end cell end table close parentheses plus open parentheses table row cell 5 n end cell row cell 4 n end cell end table close parentheses equals open parentheses table row 14 row 9 end table close parentheses`* *\n\n> *Add the two vectors on the left (by adding the tops and bottoms separately) *\n\n> `open parentheses table row cell negative 3 m plus 5 n end cell row cell 2 m plus 4 n end cell end table close parentheses equals open parentheses table row 14 row 9 end table close parentheses`* *\n\n> *Form simultaneous equations (by reading off the top row and the bottom row) *\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 3 m plus 5 n end cell equals 14 row cell 2 m plus 4 n end cell equals 9 end table`\n\n**[1]**\n\n*These simultaneous equations can be solved by eliminating *$m$*(or *$n$*)* *Make the *$m$* terms equal in size (by multiplying the first equation by 2 and the second equation by 3) *\n\n`table row cell negative 6 m plus 10 n end cell equals 28 row cell 6 m plus 12 n end cell equals 27 end table`\n\n**[1]**\n\n*Add these two equations by adding \"like\" (similar) terms* *The *$m$* terms should disappear *\n\n> $22n=55$* *\n\n> *Solve this equation for *$n$* (by dividing both sides by 22) *\n\n$n=\\frac{55}{22}=\\frac{5}{2}$\n\n**[1]**\n\n> *Substitute *$n=\\frac{5}{2}$* back into the first equation (or the second) *\n\n`table row cell negative 3 m plus 5 cross times 5 over 2 end cell equals 14 row cell negative 3 m plus 25 over 2 end cell equals 14 end table`\n\n**[1]**\n\n> *Solve this equation for *$m$* (for example, by subtracting *$\\frac{25}{2}$* from both sides then dividing by *$-3$*) *\n\n`table row cell negative 3 m end cell equals cell 14 minus 25 over 2 end cell row cell negative 3 m end cell equals cell 3 over 2 end cell row m equals cell fraction numerator 3 over 2 over denominator negative 3 end fraction equals negative 1 half end cell end table`\n\n> *Check *$m=-\\frac{1}{2}$* and *$n=\\frac{5}{2}$* satisfy the other equation (*$2m+4n=9$*) by substituting them into the left-hand side *\n\n> `2 cross times open parentheses negative 1 half close parentheses plus 4 cross times 5 over 2\nequals negative 1 plus 10\nequals 9`*  *\n\n> *Give both answers together at the end*\n\n$m=-\\frac{1}{2}$** ****and**** **$n=\\frac{5}{2}$**[1]**",
+     "equations": [
+      {
+       "latex": "ma+nb=\\text{c}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi mathvariant=\"bold\">a</mi><mo>+</mo><mi>n</mi><mi mathvariant=\"bold\">b</mi><mo>=</mo><mtext mathvariant=\"bold\">c</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m bold a plus n bold b equals text bold c end text"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold b"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold c"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "22n=55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>22</mn><mi>n</mi><mo>=</mo><mn>55</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "22 n equals 55"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n=\\frac{55}{22}=\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mfrac><mn>55</mn><mn>22</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 55 over 22 equals 5 over 2"
+      },
+      {
+       "latex": "n=\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 5 over 2"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "\\frac{25}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>25</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25 over 2"
+      },
+      {
+       "latex": "-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3"
+      },
+      {
+       "latex": "m=-\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m equals negative 1 half"
+      },
+      {
+       "latex": "n=\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 5 over 2"
+      },
+      {
+       "latex": "2m+4n=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>m</mi><mo>+</mo><mn>4</mn><mi>n</mi><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 m plus 4 n equals 9"
+      },
+      {
+       "latex": "m=-\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic m bold equals bold minus bold 1 over bold 2"
+      },
+      {
+       "latex": "n=\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic n bold equals bold 5 over bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SF7RqCxfS7pQ2XJW",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Y5vQfwjbXj9qBF4V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2018\tFeb/Mar",
+      "number": "0580/42",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Find the magnitude of the vector `open parentheses table row cell negative 1 end cell row 7 end table close parentheses`.",
+     "solution_md": "> *The magnitude of a vector can be found using the formula: *`open vertical bar open parentheses table row x row y end table close parentheses close vertical bar equals square root of x squared plus y squared end root.`* *\n*Use brackets around negatives.*\n\n`table row cell open vertical bar open parentheses table row cell negative 1 end cell row 7 end table close parentheses close vertical bar end cell equals cell square root of open parentheses negative 1 close parentheses squared plus 7 squared end root end cell end table`\n\n**[1]**\n\n> *Simplify the expression and use a calculator to write as a decimal.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell open vertical bar open parentheses table attributes columnalign right end attributes row cell negative 1 end cell row 7 end table close parentheses close vertical bar end cell equals cell square root of 50 end cell row blank equals cell 5 square root of 2 end cell row blank equals cell 7.071067... end cell end table`\n\n> *Round to 3 significant figures.*\n\n`equation` **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sDhY7d5bbsJTjJ6b",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3d2xPHQ659YjQ5Rg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020 May/June",
+      "number": "0580/42",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk",
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold p equals open parentheses table row 4 row 5 end table close parentheses`       `bold q equals open parentheses table row cell negative 2 end cell row 7 end table close parentheses`\n\ni) Find $2p+q.$\n\n`open parentheses table row cell space space space space space end cell row blank end table close parentheses` [2]\n\nii) Find `open vertical bar bold p close vertical bar`.\n\n[2]",
+     "solution_md": "i) *Multiply both components of **p **by 2.*\n\n`2 bottom enclose straight p equals open parentheses table row cell 2 cross times 4 end cell row cell 2 cross times 5 end cell end table close parentheses equals open parentheses table row 8 row 10 end table close parentheses`\n\n> *Add together 2**p** and **q** by adding together corresponding terms.*\n\n`2 bottom enclose straight p plus bottom enclose straight q equals open parentheses table row cell 8 plus open parentheses negative 2 close parentheses end cell row cell 10 plus 7 end cell end table close parentheses`\n\n`bold 2 bottom enclose bold p bold plus bottom enclose bold q bold equals stretchy left parenthesis table row 6 row 17 end table stretchy right parenthesis`** **\n**1 mark for each correct number**** [2]**\n\nii) *|**p**| means the magnitude of **p**.*\n\n> *The magnitude of a vector can be found using the formula: *`open vertical bar open parentheses table row x row y end table close parentheses close vertical bar equals square root of x squared plus y squared end root.`\n\n`table row cell open vertical bar bottom enclose straight p close vertical bar end cell equals cell square root of 4 squared plus 5 squared end root end cell end table`\n\n**[1]**\n\n> *Simplify the expression and use a calculator to write as a decimal.*\n\n`table row cell open vertical bar bottom enclose straight p close vertical bar end cell equals cell square root of 41 end cell row blank equals cell 6.40312... end cell end table`\n\n> *Round to 3 significant figures.*\n\n`stretchy vertical line bottom enclose p stretchy vertical line bold equals bold 6 bold. bold 40` **[1]**",
+     "equations": [
+      {
+       "latex": "2p+q.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"bold\">p</mi><mo>+</mo><mi mathvariant=\"bold\">q</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 bold p plus bold q."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mY7tt6b6tPqmhkY2",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_rBHzk5X4s5btYwgb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0580/02",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold u bold space equals space open parentheses table row 3 row cell negative 2 end cell end table close parentheses space space space space space space space space space space space bold italic v space equals space open parentheses table row cell negative 12 end cell row 5 end table close parentheses`\n\nFind $u--2v.$",
+     "solution_md": "> *Work out 2**v*\n\n`2 bold italic v bold equals 2 cross times open parentheses table row cell negative 12 end cell row 5 end table close parentheses equals open parentheses table row cell negative 24 end cell row 10 end table close parentheses`\n\n> *Now subtract 2**v** from **u*\n\n`table row cell open parentheses table row 3 row cell negative 2 end cell end table close parentheses minus open parentheses table row cell negative 24 end cell row 10 end table close parentheses end cell equals cell open parentheses table row cell 3 plus 24 end cell row cell negative 2 minus 10 end cell end table close parentheses end cell end table`\n\n`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell begin bold style stretchy left parenthesis table row 27 row cell negative 12 end cell end table stretchy right parenthesis end style end cell end table`** ****[2]**\n\n**one mark for \"27\" as top number and one mark for \"-12\" as bottom number, inside the vector brackets**",
+     "equations": [
+      {
+       "latex": "u--2v.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">u</mi><mo> </mo><mo>–</mo><mo> </mo><mn>2</mn><mi mathvariant=\"bold\">v</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold u space – space 2 bold v."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nfXSmbngdmg3cTzd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0580/02",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nbold italic v space equals space open parentheses table row cell negative 12 end cell row 5 end table close parentheses\n\nFind `space vertical line bold v vertical line space` .",
+     "solution_md": "> *To find the magnitude of a vector use the Pythagorean formula for finding the hypotenuse of a right angled triangle. *\n\n> *Formula for the magnitude of a vector:*\n\n> `open vertical bar open parentheses a\nb close parentheses close vertical bar space equals space square root of a squared space plus space b squared end root`* *\n\n> *Substituting -12 and 5 into the formula, being careful to use brackets when squaring the negative 12*\n\n> `table row cell space open vertical bar bold v close vertical bar end cell equals cell open vertical bar open parentheses space minus 12\n5 close parentheses close vertical bar space end cell row blank equals cell space square root of open parentheses negative 12 close parentheses squared space plus space open parentheses 5 close parentheses squared end root end cell row blank equals cell square root of 144 plus 25 end root end cell row blank equals cell square root of 169 end cell row blank blank blank end table`* *\n\n**[1]**\n\n`stretchy vertical line v stretchy vertical line bold equals bold 13`** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MD9bfn4X37dGhd7t",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WkjrC9JNdFfGRqW9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "select",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/02",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Ahmed finds the magnitude of the vector `open parentheses space space space space 2\nminus 3 close parentheses`. \nFrom this list, select the correct calculation.\n\n`square root of 2 squared space plus space minus 3 squared end root space space space space space space space space space space 2 to the power of 2 space end exponent minus space 3 squared space space space space space space space space space space square root of 2 squared space minus space 3 squared end root space space space space space space space space space space 2 to the power of 2 space end exponent plus space open parentheses negative 3 squared close parentheses space space space space space space space space space space square root of 2 squared space plus space open parentheses negative 3 close parentheses squared end root`",
+     "solution_md": "> *To find the magnitude of a vector use the Pythagorean formula for finding the hypotenuse of a right angled triangle. *\n\n> *Formula for the magnitude of a vector:*\n\n> `open vertical bar open parentheses a\nb close parentheses close vertical bar space equals space square root of a squared space plus space b squared end root`* *\n\n> *Substituting 2 and -3 into the formula, being careful to use brackets when squaring the negative 3*\n\n> `space open vertical bar open parentheses space space space 2\nminus 3 close parentheses close vertical bar space equals space square root of open parentheses 2 close parentheses squared space plus space open parentheses negative 3 close parentheses squared end root`* *\n\n**The correct answer is **$\\sqrt{2^{2}+(-3)^{2}}$** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\sqrt{2^{2}+(-3)^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><msup><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><msup><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mo>-</mo><mn>3</mn></mrow><mo stretchy=\"true\">)</mo></mstyle><mn mathvariant=\"bold\">2</mn></msup></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of bold 2 to the power of bold 2 bold space bold plus bold space stretchy left parenthesis negative 3 stretchy right parenthesis to the power of bold 2 end root"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kBZsHnXsRDqmzsrV",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_kc5HPTXyXyhrn3dW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/42",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk",
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`\n\ni) Find  $3a-2b$ .\n\n`open parentheses table row cell space space space space space end cell row cell space space space space space end cell end table close parentheses` [2]\n\nii) Find  `vertical line space bold a bold space vertical line`.\n\n[2]",
+     "solution_md": "i*)  Find *$3a$* (by multiplying both numbers in *$a$* by 3)* * *\n\n`3 bold a equals open parentheses table row cell negative 9 end cell row 6 end table close parentheses` * *\n\n*Find *$2b$* (by multiplying both numbers in *$c$* by 2)* * *\n\n`2 bold b equals open parentheses table row 10 row 8 end table close parentheses`\n\n**either correct**** [1]**\n\n*Find *$3a-2b$* (by subtracting the tops and bottoms of the two vectors above)* * *\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 bold a minus 2 bold b end cell equals cell open parentheses table row cell negative 9 end cell row 6 end table close parentheses minus open parentheses table row 10 row 8 end table close parentheses end cell row blank equals cell open parentheses table row cell negative 9 minus 10 end cell row cell 6 minus 8 end cell end table close parentheses end cell end table` * *\n\n> *Give your final answer as a vector*\n\n`stretchy left parenthesis table row cell negative 19 end cell row cell negative 2 end cell end table stretchy right parenthesis`** [1]**\n\nii) *The magnitude of a vector is *`open vertical bar open parentheses table row x row y end table close parentheses close vertical bar equals square root of x squared plus y squared end root` \n*Substitute *$x=-3$* and *$y=2$* into this formula* * *\n\n`vertical line bold a vertical line equals open vertical bar open parentheses table row cell negative 3 end cell row 2 end table close parentheses close vertical bar equals square root of open parentheses negative 3 close parentheses squared plus 2 squared end root`\n\n**[1]**\n\n> *Use a calculator to work this out, giving your answer to 3 significant figures*\n\n**Final answer:** **3.61 ****[1]**",
+     "equations": [
+      {
+       "latex": "3a-2b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi mathvariant=\"bold\">a</mi><mo>-</mo><mn>2</mn><mi mathvariant=\"bold\">b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 bold a minus 2 bold b"
+      },
+      {
+       "latex": "3a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi mathvariant=\"bold\">a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 bold a"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold a"
+      },
+      {
+       "latex": "2b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"bold\">b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 bold b"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold c"
+      },
+      {
+       "latex": "3a-2b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi mathvariant=\"bold\">a</mi><mo>-</mo><mn>2</mn><mi mathvariant=\"bold\">b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 bold a minus 2 bold b"
+      },
+      {
+       "latex": "x=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative 3"
+      },
+      {
+       "latex": "y=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Dnvgz9zxQ54KQrjS",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xrcdT2NZkPC5v5ZV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020 Specimen",
+      "number": "0580/04",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`stack M T with rightwards arrow on top space space equals space open parentheses 2 k\nminus k close parentheses`  and  `open vertical bar stack M T with rightwards arrow on top space close vertical bar equals space square root of 180`.   \nFind the positive value of $k$.\n\n$k=$ ..............................................",
+     "solution_md": "> `open vertical bar stack M T with rightwards arrow on top close vertical bar`* means magnitude of a vector. The formula for the magnitude of a vector is*\n\n`open vertical bar open parentheses a\nb close parentheses close vertical bar space equals space square root of a to the power of 2 space end exponent plus space b squared space end root`\n\n> *Substitute the components of the vector into the formula for the magnitude.*\n\n`square root of open parentheses 2 k close parentheses to the power of 2 space end exponent space plus space open parentheses negative k close parentheses to the power of 2 space end exponent end root space equals space square root of 180`\n\n**[1]**\n\n> *Get rid of the square root by squaring both sides.*\n\n`table row cell space open parentheses 2 k close parentheses to the power of 2 space end exponent space plus space open parentheses negative k close parentheses to the power of 2 space end exponent end cell equals cell space 180 end cell row cell 4 k to the power of 2 space end exponent plus space k squared space end cell equals cell space 180 end cell row cell 5 k squared space end cell equals cell space 180 end cell end table`\n\n**[1]**\n\n> *Solve.*\n\n`table row cell k squared space end cell equals cell space 36 end cell row cell k space end cell equals cell plus-or-minus 6 end cell end table`\n\n**Positive value of **$k=6$**  ****[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo> </mo><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "k space equals"
+      },
+      {
+       "latex": "k=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold space bold equals bold space bold 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_D5nSrHvysHZwDQzm",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7F74gNJSjRFGn974",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020\tMay/June",
+      "number": "0580/21",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": "extended_only",
+     "problem_md": "`stack V W with rightwards arrow on top equals open parentheses table row 10 row cell negative 24 end cell end table close parentheses` \nFind  `open vertical bar stack V W with rightwards arrow on top close vertical bar.`",
+     "solution_md": "> *To find the magnitude of a vector *`open parentheses table row x row y end table close parentheses`* use Pythagoras' theorem, magnitude*$=\\sqrt{x^{2}+y^{2}}$\n\n`stack V W with rightwards arrow on top equals square root of 10 squared plus open parentheses negative 24 close parentheses squared end root`\n\n**[1]**\n\n> *Evaluate*\n\n$=\\sqrt{100+576}\\,=\\sqrt{676}\\,=26$\n\n$26$ **[1]**",
+     "equations": [
+      {
+       "latex": "=\\sqrt{x^{2}+y^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals square root of x squared plus y squared end root"
+      },
+      {
+       "latex": "=\\sqrt{100+576}\\,=\\sqrt{676}\\,=26",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><msqrt><mn>100</mn><mo>+</mo><mn>576</mn></msqrt><mspace linebreak=\"newline\"/><mo>=</mo><msqrt><mn>676</mn></msqrt><mspace linebreak=\"newline\"/><mo>=</mo><mn>26</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals square root of 100 plus 576 end root\nequals square root of 676\nequals 26"
+      },
+      {
+       "latex": "26",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"bold\"><mn>26</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CHmD3hcdhFHVH9tD",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vdkxn2ZnFqwRNsXY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/43",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_v6tP4DSVShVJMJhk",
+      "spcpt_phQCN2JJ4d856qsx"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "![cie-igcse-2018-oct-nov-p4-tz3-q1b](assets/001-cie-igcse-2018-oct-nov-p4-tz3-q1b.png)\n\ni) Find the column vector $\\overset{\\rightarrow}{AB}$.\n\n`stack A B with rightwards arrow on top equals open parentheses table row cell space space space space end cell row cell space space space space space space end cell end table close parentheses` [1]\n\nii) Find  `vertical line stack A B with rightwards arrow on top vertical line`.\n\n`vertical line stack A B with rightwards arrow on top vertical line equals`................................................. [2]",
+     "solution_md": "i)  *The column vector *$\\overset{\\rightarrow}{AB}$* is *`open parentheses table row x row y end table close parentheses`* where **x** is the horizontal distance from **A **to **B** and **y** is the vertical distance from **A **to **B** ** **Find **x** and **y** (by working out the difference in their coordinates)*\n\n**x*** = 5 - 3 = 2* \n**y*** = 6 - 2 = 4*\n\n> *Write your answer as a column vector*\n\n`begin bold style stretchy left parenthesis table row 2 row 4 end table stretchy right parenthesis end style` **[1]**\n\nii) *The magnitude of a vector is *`open vertical bar open parentheses table row x row y end table close parentheses close vertical bar equals square root of x squared plus y squared end root` *Find the magnitude of *$\\overset{\\rightarrow}{AB}$* (by substituting **x** = 2 and **y** = 4 into the formula)   *\n\n`vertical line stack A B with rightwards arrow on top vertical line equals open vertical bar open parentheses table row 2 row 4 end table close parentheses close vertical bar equals square root of 2 squared plus 4 squared end root`\n\n**2**<sup>**2**</sup>**+4**<sup>**2**</sup>** seen ****[1]**\n\n> *Use a calculator to work this out and give your answer to 3 significant figures*\n\n**4.47** **[1]**",
+     "equations": [
+      {
+       "latex": "\\overset{\\rightarrow}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo>→</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "stack A B with rightwards arrow on top"
+      },
+      {
+       "latex": "\\overset{\\rightarrow}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo>→</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "stack A B with rightwards arrow on top"
+      },
+      {
+       "latex": "\\overset{\\rightarrow}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo>→</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "stack A B with rightwards arrow on top"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4BW6qqKRsD7PCz3j",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_q4XhPyj7fWj5yt3d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020\tMay/June",
+      "number": "0580/21",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": "extended_only",
+     "problem_md": "`bold m equals open parentheses table row 5 row 7 end table close parentheses` \nFind $3m$.\n\n`open parentheses table row cell space space space space space space end cell row blank end table close parentheses`",
+     "solution_md": "> *To multiply a vector by a scalar simply multiply the *$x$* and *$y$* components of the vector by the scalar*\n\n`3 open parentheses table row 5 row 7 end table close parentheses equals open parentheses table row cell 3 cross times 5 end cell row cell 3 cross times 7 end cell end table close parentheses equals open parentheses table row 15 row 21 end table close parentheses`\n\n`begin bold style stretchy left parenthesis table row 15 row 21 end table stretchy right parenthesis end style` **[1]**",
+     "equations": [
+      {
+       "latex": "3m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi mathvariant=\"bold\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 bold m"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
