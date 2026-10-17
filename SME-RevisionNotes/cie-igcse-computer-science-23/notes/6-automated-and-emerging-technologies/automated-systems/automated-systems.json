@@ -1,0 +1,112 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_44z6NtRGqZrbrdsQ",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/6-automated-and-emerging-technologies/automated-systems/automated-systems",
+ "title": "Automated Systems",
+ "page_title": "Automated Systems - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "6-automated-and-emerging-technologies",
+   "automated-systems",
+   "automated-systems"
+  ],
+  "section": "6-automated-and-emerging-technologies",
+  "topic": "automated-systems",
+  "leaf": "automated-systems"
+ },
+ "titles": {
+  "section": "6. Automated & Emerging Technologies",
+  "topic": "Automated Systems",
+  "subtopic": "Automated Systems"
+ },
+ "updated_at": "2025-11-28T06:16:29.632Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_btd8THw2hf68Kfym",
+  "spcpt_Wry8zvRVrB745cNY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 11,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_btd8THw2hf68Kfym",
+   "name": "Automated Systems",
+   "definition": "\"1 Describe how sensors, microprocessors and\nactuators can be used in collaboration to create\nautomated systems\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Automated Systems"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an automated system?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An automated system is a computer system that** collects information** and can **react **and **perform tasks **based on the data\n- Automated systems are made using **three **components:\n\n  - **Sensors**\n  - **Microprocessors**\n  - **Actuators**\n- A [sensor](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/input-and-output-devices/sensors/) **collects information** and provides the microprocessor with it as an input\n- A microprocessor **processes the information** and **makes decisions** based on pre-programmed rules\n- An actuator **makes physical changes** based on instructions given by the microprocessor (**outputs**)\n- Examples of physical changes include:\n\n  - **Opening/closing a door/valve**\n  - **Activating an alarm**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Wry8zvRVrB745cNY",
+   "name": "Advantages & Disadvantages of Automated Systems",
+   "definition": "\"2 Describe the advantages and disadvantages of an\nautomated system used for a given scenario\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Advantages & Disadvantages of Automated Systems"
+  },
+  {
+   "type": "bullets",
+   "md": "- There are general advantages and disadvantages of automated systems"
+  },
+  {
+   "type": "table",
+   "md": "| Advantages | Disadvantages |\n|---|---|\n| **Cost **- long-term cost saving | **Cost **- short-term expensive to set up |\n| **Safer **- timely interventions | **Testing **- significant testing must be done before being used |\n| **Safer **- keeps humans away from hazardous environments | **Security **- open to cyber attacks |\n| **Efficient **- materials and resources | **Flexibility **- will only react to programmed scenarios |\n| **Consistent **- results are repeatable | **Maintenance **- needs to be well maintained |\n|   | **Unethical **- can result in major job losses |"
+  },
+  {
+   "type": "bullets",
+   "md": "- There are also scenarios where specific advantages and disadvantages are important such as:"
+  },
+  {
+   "type": "table",
+   "md": "| **Scenario** | **Advantages** | **Disadvantages ** |\n|---|---|---|\n| Industry | - Increased production<br>- Improved quality control | - High investment costs<br>- Job losses |\n| Transport | - Less accidents & traffic congestion<br>- Increased logistical efficiency | - Transportation drivers lose jobs<br>- Technology reliability |\n| Agriculture | - Less manual labour<br>- Increased crop yield & resource management | - High start-up costs for equipment and sensors |\n| Weather | - Accurate forecasting<br>- Improved early warning systems | - Dependence on accurate sensor data |\n| Gaming | - Personalised experience<br>- AI enhanced opponents add challenge | - Reduced creativity & problem solving for players<br>- Repetitive gameplay |\n| Lighting | - Increased energy efficiency<br>- Better security with motion-activated systems | - Lack of human control with light adjustments |\n| Science | - Faster & more precise<br>- Reduced risk of human error | - High cost development and maintenance<br>- Potential for algorithm bias |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A theme park has a game where a player tries to run from the start to the finish without getting wet.\n\nThe system for the game uses sensors and a microprocessor to spray water at a player as they run past each sensor.\n\nDescribe how the sensors and the microprocessor are used in this system\n\n**[8]**\n\n**Answer**\n\n- **A motion sensor collects data [1]**\n- **This data is converted to digital using ADC [1]**\n- **The sensor sends data to the microprocessor... [1]**\n- **... where the data is compared to stored data [1]**\n- **If the value is outside range, water will be sprayed [1]**\n- **A signal is sent to the actuator to spray water [1]**\n- **If the value is within range no action is taken [1]**\n- **This runs in a continuous loop [1]**"
+  }
+ ]
+}

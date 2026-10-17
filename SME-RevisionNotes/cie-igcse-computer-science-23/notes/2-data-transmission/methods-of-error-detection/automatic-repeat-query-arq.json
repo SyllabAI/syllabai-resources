@@ -1,0 +1,90 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jwpNRvbwwqs2RNb5",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/methods-of-error-detection/automatic-repeat-query-arq",
+ "title": "Automatic Repeat Query (ARQ)",
+ "page_title": "ARQ - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-data-transmission",
+   "methods-of-error-detection",
+   "automatic-repeat-query-arq"
+  ],
+  "section": "2-data-transmission",
+  "topic": "methods-of-error-detection",
+  "leaf": "automatic-repeat-query-arq"
+ },
+ "titles": {
+  "section": "2. Data Transmission",
+  "topic": "Methods of Error Detection",
+  "subtopic": "Automatic Repeat Query (ARQ)"
+ },
+ "updated_at": "2024-04-11T14:56:53.920Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_8wrfXRgP6N49Zc73"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 6,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_8wrfXRgP6N49Zc73",
+   "name": "Automatic Repeat Query (ARQ)",
+   "definition": "\"4 Describe how an automatic repeat query (ARQ)\ncan be used to establish that data is received\nwithout error\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Automatic Repeat reQuests(ARQ)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an automatic repeat request(ARQ)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An automatic repeat request is a *protocol* that **notifies the sender that an error has occurred** and that the **data received is incorrect**\n- It works as follows:\n\n  - If an error is detected the receiver sends a** negative acknowledgement transmission** to **indicate the data is corrupted**\n  - If no error is detected the receiver sends a **positive acknowledgement transmission** meaning **the data is correct**\n  - If the receiver** does not send any acknowledgement transmission **then the sender waits for a certain time period known as a **time-out** before **automatically resending** the data\n  - This process is repeated until all data has been **received **and **acknowledged**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "In this specification ARQ is referred to as** Automatic Repeat Query** but in past exam questions it has been referred to as **Automatic Repeat reQuests**\n\nBoth words are **interchangeable **and should not cause any confusion!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Explain how Automatic Repeat reQuests (ARQ) are used in data transmission and storage\n\n**[2]**\n\n**Answer**\n\nAny **two **from:\n\n- **Set of rules for controlling error checking/detection // it’s an error detection method // used to detect errors**\n- **Uses acknowledgement and timeout**\n- **Request is sent (with data) requiring acknowledgement**\n- **If no response/acknowledgment within certain time frame data package is resent**\n- **When data received contains an error a request is sent (automatically) to resend the data**\n- **The resend request is repeatedly sent until packet is received error free/limit is reached/acknowledgement received**"
+  }
+ ]
+}

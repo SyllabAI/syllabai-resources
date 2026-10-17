@@ -1,0 +1,220 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9kXNGXfqM5t2VV8M",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/methods-of-error-detection/error-detection-methods",
+ "title": "Error Detection Methods",
+ "page_title": "Checksum - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-data-transmission",
+   "methods-of-error-detection",
+   "error-detection-methods"
+  ],
+  "section": "2-data-transmission",
+  "topic": "methods-of-error-detection",
+  "leaf": "error-detection-methods"
+ },
+ "titles": {
+  "section": "2. Data Transmission",
+  "topic": "Methods of Error Detection",
+  "subtopic": "Error Detection Methods"
+ },
+ "updated_at": "2024-10-04T10:49:10.824Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_yPdhHr5bcN8bbDKr",
+  "spcpt_WSBqqQcqkNF2BqV4",
+  "spcpt_t5ZMFTmJhJbqcwct",
+  "spcpt_hB2th7BHPxc834Cf"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 34,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_yPdhHr5bcN8bbDKr",
+   "name": "Parity Check",
+   "definition": "\"2 Describe the processes involved in each of the\nfollowing error detection methods for detecting\nerrors in data after transmission: parity check\n(odd and even), checksum and echo check\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Parity Check"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a parity check?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A parity check determines whether **bits in a transmission** have been **corrupted**\n- Every byte transmitted has **one of its bits** allocated as a** parity bit**\n- The sender and receiver must **agree** before transmission whether they are using **odd **or **even parity**\n- If** odd parity** is used then there must be an **odd number of 1’s in the byte**, including the parity bit\n- If **even parity **is used then there must be an **even number of 1’s in the byte**, including the parity bit\n- The **value of the parity bit** is determined by** counting the number of 1’s in the byte**, including the parity bit\n- If the number of 1’s **does not match the agreed parity** then an** error has occurred**\n- Parity checks **only check that an error has occurred**, they do not reveal where the error(s) occurred"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Even parity"
+  },
+  {
+   "type": "bullets",
+   "md": "- Below is an arbitrary binary string"
+  },
+  {
+   "type": "table",
+   "md": "| **EVEN**<br>**Parity bit** | **Byte** |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n| *0* | *1* | *0* | *1* | *1* | *0* | *1* | *0* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- If an **even parity bit** is used then** all bits** in the byte, including the parity bit, must **add up to an even number**\n\n  - There are four 1’s in the byte\n  - This means the parity bit must be 0 otherwise the whole byte, including the parity bit, would add up to five which is an odd number"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Odd parity"
+  },
+  {
+   "type": "bullets",
+   "md": "- Below is an arbitrary binary string"
+  },
+  {
+   "type": "table",
+   "md": "| **ODD**<br>**Parity bit** | **Byte** |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n| *1* | *1* | *0* | *1* | *1* | *0* | *1* | *0* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- If an **odd parity bit** is used then** all bits** in the byte, including the parity bit, must **add up to an odd number**\n\n  - There are four 1’s in the byte. This means the parity bit must be a 1 otherwise the whole byte, including the parity bit, would add up to four which is an even number\n- The table below shows a number of examples of the agreed parity between a sender and receiver and the parity bit used for each byte"
+  },
+  {
+   "type": "table",
+   "md": "| **Example #** | **Agreed parity** | **Parity bit** | **Main bit string** | **Total number of 1’s** |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|\n| #1 | ODD | *0* | *1* | *1* | *0* | *1* | *0* | *1* | *1* | **5** |\n| #2 | EVEN | *1* | *0* | *0* | *0* | *1* | *0* | *0* | *0* | **2** |\n| #3 | EVEN | *1* | *0* | *1* | *0* | *1* | *1* | *1* | *1* | **6** |\n| #4 | ODD | *1* | *0* | *1* | *1* | *1* | *0* | *0* | *1* | **5** |\n| #5 | ODD | *1* | *1* | *0* | *1* | *0* | *1* | *0* | *1* | **5** |\n| #6 | EVEN | *0* | *1* | *0* | *0* | *1* | *1* | *1* | *0* | **4** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Example #1: The agreed parity is **odd**. All of the 1’s in the main bit string are added** (5)**. As this number is** odd already** the **parity bit **is set to** 0** so the whole byte **stays odd**\n- Example #2: The agreed parity is **even**. All of the 1’s in the main bit string are added **(1)**. As this number is **odd** the **parity bit** is set to** 1** to make the** total number of 1’s even** **(2)**\n- Example #6: The agreed parity is **even**. All of the 1’s in the main bit string are added** (4)**. As this number is **even already** the **parity bit **is set to** 0** so the whole byte **stays even**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do errors occur?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When using parity bits, an** error** occurs when the number of **total bits does not match the agreed parity**\n- Bits can be** flipped** or **changed** due to** interference** on a wire or wirelessly due to **weather **or **other signals**"
+  },
+  {
+   "type": "table",
+   "md": "| **Example #** | **Agreed parity** | **Parity bit** | **Main bit string** | **Total number of 1’s** | **Error** |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| #1 | ODD | *1* | *1* | *1* | *0* | *1* | *0* | *1* | *1* | *6* | *Error* |\n| #2 | EVEN | *1* | *0* | *0* | *0* | *1* | *0* | *0* | *0* | *2* | **Final answer:** **No error** |\n| #3 | EVEN | *1* | *0* | *1* | *1* | *1* | *1* | *1* | *1* | *7* | *Error* |\n| #4 | ODD | *1* | *0* | *1* | *1* | *1* | *0* | *0* | *1* | *5* | **Final answer:** **No error** |\n| #5 | ODD | *1* | *1* | *0* | *1* | *0* | *1* | *1* | *1* | *6* | *Error* |\n| #6 | EVEN | *0* | *1* | *0* | *0* | *0* | *1* | *1* | *0* | *3* | *Error* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Parity checks are **quick **and** easy to implement** but **fail to detect bit swaps** that cause the parity to remain the same"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_WSBqqQcqkNF2BqV4",
+   "name": "Parity Byte & Block Check",
+   "definition": "\"2 Describe the processes involved in each of the\nfollowing error detection methods for detecting\nerrors in data after transmission: parity check\n(odd and even), checksum and echo check\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Parity Byte & Block Check"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are parity byte & block checks?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Parity blocks and parity bytes can be used to **check an error has occurred** and **where the error is located**\n- Parity checks on their own **do not pinpoint where errors in data exist**, only that an error has occurred\n- A parity block consists of **a block of data **with the number of 1’s totalled **horizontally **and **vertically**\n- A parity byte is also sent with the data which contains the **parity bits **from the **vertical parity calculation**\n- Below is a parity block with a parity byte at the bottom and a parity bit column in the second column"
+  },
+  {
+   "type": "table",
+   "md": "| **ODD** | **Parity bit** | **Bit 2** | **Bit 3** | **Bit 4** | **Bit 5** | **Bit 6** | **Bit 7** | **Bit 8** |\n|---|---|---|---|---|---|---|---|---|\n| Byte 1 | *0* | *1* | *1* | *0* | **1** | *0* | *1* | *1* |\n| Byte 2 | *0* | *0* | *0* | *0* | **1** | *0* | *0* | *0* |\n| **Byte 3** | **1** | **0** | **1** | **0** | **1** | **1** | **1** | **1** |\n| Byte 4 | *1* | *0* | *1* | *1* | **1** | *0* | *0* | *1* |\n| Byte 5 | *1* | *1* | *0* | *1* | **0** | *1* | *0* | *1* |\n| Byte 6 | *1* | *1* | *0* | *0* | **1** | *1* | *1* | *0* |\n| Byte 7 | *0* | *0* | *1* | *1* | **1** | *1* | *1* | *0* |\n| Byte 8 | *0* | *1* | *0* | *1* | **1** | *0* | *0* | *0* |\n| **Parity byte** | *0* | *1* | *1* | *1* | **1** | *1* | *1* | *1* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The above table uses **odd parity**\n- Each** byte row** calculates the** horizontal parity** as a parity bit **as normal**\n- Each **bit column** calculates the **vertical parity** for each row, the **parity byte**\n- It is **calculated before transmission** and **sent with the parity block**\n- Each **parity bit tracks if a flip error** occurred in a byte while the **parity byte** calculates if an **error occurred in a bit column**\n- By **cross referencing** both **horizontal and vertical** parity values the **error can be pinpointed**\n- In the above example the **byte 3 / bit 5 cell** is the error and** should be a 0 instead**\n- The error could be **fixed automatically or a retransmission request could be sent **to the sender"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_t5ZMFTmJhJbqcwct",
+   "name": "Checksum",
+   "definition": "\"2 Describe the processes involved in each of the\nfollowing error detection methods for detecting\nerrors in data after transmission: parity check\n(odd and even), checksum and echo check\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Checksum"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a checksum?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A checksum is a value that can be used to determine if data has been** corrupted or altered **\n- It indicates whether data **differs from its original form** but **does not **specify where\n- Checksums are **calculated using an algorithm** and the value is **added to the transmission**\n- The receiving device **re-calculates** the checksum and **compares** to the original\n- If the **checksums do not match**, it is assumed an error has occurred"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Describe the process a checksum algorithm uses to determine if an error has occurred\n\n**[5]**\n\n**Answer**\n\n- **Before data is transmitted a checksum value is calculated [1]**\n- **The checksum value is transmitted with the data  [1]**\n- **The receiver calculates the checksum value using the received data  [1]**\n- **The calculated checksum is compared to the transmitted checksum [1]**\n- **If they are the same then there is no error otherwise an error has occurred [1]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_hB2th7BHPxc834Cf",
+   "name": "Echo Check",
+   "definition": "\"2 Describe the processes involved in each of the\nfollowing error detection methods for detecting\nerrors in data after transmission: parity check\n(odd and even), checksum and echo check\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Echo Check"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an echo check?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An echo checks involve **transmitting the received data back to the sender**\n- The **sender** then **checks the data** to see if any errors occurred during transmission\n- This method **isn’t reliable** as an** error** could have** occurred when the sender transmits the data or when the receiver transmits the data**\n- If an **error does occur** the sender will** retransmit the data**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Four 7-bit binary values are transmitted from one computer to another.\n\nA parity bit is added to each binary value creating 8-bit binary values. All the binary values are transmitted and received correctly.\n\n(**a**) Identify whether each 8-bit binary value has been sent using odd or even parity by writing odd or even in the type of parity column.\n\n| **8-bit binary value** | **Type of parity** |\n|---|---|\n| 01100100 |   |\n| 10010001 |   |\n| 00000011 |   |\n| 10110010 |   |\n\n**[4]**\n\n(**b**) An error may not be detected when using a parity check.\n\nIdentify why an error may not be detected.\n\n**[1]**\n\n**Answers**\n\n(**a**)\n\n| **8-bit binary value** | **Type of parity** |\n|---|---|\n| 01100100 | **Final answer:** **Odd  [1]** |\n| 10010001 | **Final answer:** **Odd  [1]** |\n| 00000011 | **Final answer:** **Even [1] ** |\n| 10110010 | **Final answer:** **Even [1] ** |\n\n(**b**)\n\nAny **one **from:\n\n- **there is a transposition of bits [1]**\n\n- **it does not check the order of the bits (just the sum of 1s/0s) [1]**\n\n- **even number of bits change [1]**\n\n- **incorrect bits still add up to correct parity [1]**"
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_hdskWDRm6NZY6T27",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/10-databases/create-a-database-structure/form-design",
+ "title": "Form Design",
+ "page_title": "What is a Form in a Database - IGCSE ICT Revision Notes",
+ "path": {
+  "segs": [
+   "10-databases",
+   "create-a-database-structure",
+   "form-design"
+  ],
+  "section": "10-databases",
+  "topic": "create-a-database-structure",
+  "leaf": "form-design"
+ },
+ "titles": {
+  "section": "10. Databases",
+  "topic": "Create a Database Structure",
+  "subtopic": "Form Design"
+ },
+ "updated_at": "2024-05-09T11:52:06.692Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_GDjH8fnFdWJcDgk9"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 16,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_GDjH8fnFdWJcDgk9",
+   "name": "Form Design",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Form design"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a database form?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Forms of a tool used to **capture data** to be **stored in a database**\n- Examples of forms include:\n\n  - Online form to **sign up to a website**\n  - Filling in personal details on a mobile device to** join a gym**\n- Database forms follow **set design principles** to ensure they include particular features"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Characteristics of good form design"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Simplicity** - The design should be clean and straightforward, not cluttered\n- **Ease of use** - Users should be able to understand how to fill out the form quickly\n- **Intuitive layout** - Related fields should be grouped together, and the sequence of fields should follow a logical order\n- **Clear labels** - Each field should have a clear, concise label indicating what information is expected\n- **Appropriate controls** - Use controls such as:\n\n  - radio buttons\n  - checkboxes\n  - drop-down menus\n  - Submit button\n  - Save button\n  - Next/previous records"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Creating a Data Entry Form"
+  },
+  {
+   "type": "bullets",
+   "md": "- You need to specify the fields required for data input\n- Choose the appropriate font styles and sizes. Aim for consistency and readability\n- Keep adequate spacing between fields for clarity and ease of use"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/06/unnamed-23.png",
+   "file": "assets/ceb4b7de59cc-unnamed-23.png",
+   "alt": "unnamed-23",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Fine-Tuning Form Design"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Appropriate Spacing"
+  },
+  {
+   "type": "bullets",
+   "md": "- The spacing between individual characters in fields should be adjusted for readability\n- The use of white space is crucial - it improves readability and reduces cognitive load"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Control Elements"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Radio Buttons** - Used when there is a list of two or more options that are mutually exclusive\n- **Check Boxes** - Used when the user can select multiple options from a list\n- **Drop Down Menus** - Used when you want to provide many options but conserve space"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always focus on simplicity and user-friendliness in form design\n- Make sure your form uses clear labels, logical field grouping, and intuitive sequence"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A school is setting up a new computerised system to manage many aspects of the school administration. The data from the registration system is saved in the school administration database. The headteacher will need to check the attendance records for any student for any semester. She will type in the Student_ID and the Semester (Autumn, Spring or Summer). After she has done this the following data will appear on the same screen.\n\n| **Field name** |\n|---|\n| Student_name |\n| Days_present |\n| Number_of_lates |\n| Number_absences |\n| Parents_phone_number |\n| Tutor_group |\n\nDesign a suitable screen layout to display one record. It must have appropriate spacing for each field, navigation aids and a space to type in search data. \n\nDo not include examples of student data. **[6]**\n\n**Final answer:** **Answer**\n\n> *Include 4 of:*\n\n**Appropriate spacing for each field ****[1]**\n**Forward/backward buttons  ****[1]**\n**Submit/search button  ****[1]**\n**Information attempts to fill the page AND the design looks appropriate to scenario  ****[1]**\n**Box/boxes to enter Semester or Student_ID  ****[1]**\n**Drop down for the Semester or Student_ID // radio button for semester  ****[1]**\n**Suitable title  ****[1]**\n**Instructions/help  ****[1]**\n\n> *2 marks for all six fields*\n*1 mark for three to five fields*\n*0 marks for less than three fields*"
+  }
+ ]
+}

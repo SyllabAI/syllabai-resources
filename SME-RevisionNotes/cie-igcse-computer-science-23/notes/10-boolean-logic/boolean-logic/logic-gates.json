@@ -1,0 +1,159 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_M6wSxbrqMMTpfpwt",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/10-boolean-logic/boolean-logic/logic-gates",
+ "title": "Logic Gates",
+ "page_title": "Logic Gates - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "10-boolean-logic",
+   "boolean-logic",
+   "logic-gates"
+  ],
+  "section": "10-boolean-logic",
+  "topic": "boolean-logic",
+  "leaf": "logic-gates"
+ },
+ "titles": {
+  "section": "10. Boolean Logic",
+  "topic": "Boolean Logic",
+  "subtopic": "Logic Gates"
+ },
+ "updated_at": "2025-05-07T13:00:39.443Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PYd6kWddn3J27m4s"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 21,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_PYd6kWddn3J27m4s",
+   "name": "Logic gates",
+   "definition": "\"1 Identify and use the standard symbols for logic\ngates\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Logic gates"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Boolean logic?"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Cambridge IGCSE 0478 expects you to identify logic gates, write Boolean expressions, and interpret simple logic circuits. This page covers exactly the gates and formats examiners use—nothing more, nothing less.*"
+  },
+  {
+   "type": "bullets",
+   "md": "- Boolean logic is used in computer science and electronics to make **logical decisions**\n- Boolean operators are either **TRUE **or **FALSE**, often represented as **1 **or **0**\n- Inputs and outputs are given **letters to represent them**\n- To define Boolean logic we use **special symbols** to make **writing expressions** much **easier **"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are logic gates?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Logic gates are a **visual way** of representing a **Boolean expression**\n- The logic gates covered in this course are:\n\n  - **AND**\n  - **OR**\n  - **NOT**\n  - **XOR**\n  - **NAND**\n  - **NOR**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "AND"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (A **AND **B) | ![and-gate](assets/e8e6485b0912-and-gate.png) | Returns TRUE only if** both** inputs are TRUE<br><br>**TRUE **AND **TRUE **= **TRUE**<br><br>Otherwise = FALSE |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "OR"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (A **OR **B) | ![or-gate](assets/5b7eee70ea7c-or-gate.png) | Returns TRUE if **either** input is TRUE<br><br>**TRUE **OR **FALSE **= **TRUE**<br><br>**FALSE **OR **FALSE **= **FALSE** |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NOT"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (**NOT **A) | ![not-gate](assets/7ed9b463218d-not-gate.png) | **Reverses **the input value<br><br>NOT **TRUE **= **FALSE**<br><br>NOT **FALSE **= **TRUE** |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "XOR (exclusive OR)"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (A **XOR** B) | ![xor](assets/9e0424c74965-screenshot-2023-05-30-at-08-25-28.png) | Returns TRUE if **either** input is TRUE but **NOT **both<br><br>**TRUE **OR **FALSE **= **TRUE**<br><br>**FALSE **OR **FALSE **= **FALSE**<br><br>**TRUE **OR **TRUE **=** FALSE** |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*The most common exam mistake is confusing *`OR`* and *`XOR`*. Remember: *`XOR`* is only ****true if exactly one input is true****. It’s false if both are true or both are false.*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NAND (not and)"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (A **NAND **B) | ![screenshot-2023-05-30-at-08-25-01](assets/88cbded23e3f-screenshot-2023-05-30-at-08-25-01.png) | Returns TRUE if **either or both **inputs are FALSE<br><br>**TRUE **OR **FALSE **= **TRUE**<br><br>**FALSE **OR **FALSE **= **TRUE**<br><br>**TRUE **OR **TRUE **=** FALSE** |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NOR (not OR)"
+  },
+  {
+   "type": "table",
+   "md": "| **Expression operator** | **Circuit symbol** | **Explanation** |\n|---|---|---|\n| (A **NOR **B) | ![screenshot-2023-05-30-at-08-25-22](assets/dea8458c864e-screenshot-2023-05-30-at-08-25-22.png) | Returns TRUE if **both **inputs are FALSE<br><br>**TRUE **OR **FALSE **= **FALSE**<br><br>**FALSE **OR **FALSE **= **TRUE**<br><br>**TRUE **OR **TRUE **=** FALSE** |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*“Draw the logic circuit for the expression (A AND B) OR (NOT C)”*\nTip: **Draw from left to right**, and label all inputs clearly. Mislabelled inputs = lost marks"
+  }
+ ]
+}

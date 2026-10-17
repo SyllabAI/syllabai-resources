@@ -1,0 +1,216 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_58Zb5f5M8RPFFTwy",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/10-boolean-logic/boolean-logic/truth-tables",
+ "title": "Truth Tables",
+ "page_title": "Truth Tables - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "10-boolean-logic",
+   "boolean-logic",
+   "truth-tables"
+  ],
+  "section": "10-boolean-logic",
+  "topic": "boolean-logic",
+  "leaf": "truth-tables"
+ },
+ "titles": {
+  "section": "10. Boolean Logic",
+  "topic": "Boolean Logic",
+  "subtopic": "Truth Tables"
+ },
+ "updated_at": "2025-07-17T09:30:36.496Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_YFjMnPc9Ns3fb8WS",
+  "spcpt_pnccJBcWKPYZWjR7"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 34,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_YFjMnPc9Ns3fb8WS",
+   "name": "Truth Tables",
+   "definition": "\"(b) Complete a truth table from a:\n (i) problem statement\n (ii) logic expression\n (iii) logic circuit\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Truth Tables"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a truth table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A truth table is a tool used in logic and computer science to **visualise **the **results **of **Boolean expressions**\n- They represent **all possible inputs** and the **associated outputs** for a **given Boolean expression**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "AND"
+  },
+  {
+   "type": "table",
+   "md": "| **Circuit symbol** | **Truth Table** |\n|---|---|\n| ![screenshot-2023-05-30-at-08-24-36](assets/28bda956492e-screenshot-2023-05-30-at-08-24-36.png) | \\| A \\| B \\| A AND B \\|<br>\\|---\\|---\\|---\\|<br>\\| 0 \\| 0 \\| 0 \\|<br>\\| 0 \\| 1 \\| 0 \\|<br>\\| 1 \\| 0 \\| 0 \\|<br>\\| 1 \\| 1 \\| 1 \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "OR"
+  },
+  {
+   "type": "table",
+   "md": "| **Circuit symbol** | **Truth Table** |\n|---|---|\n| ![screenshot-2023-05-30-at-08-24-49](assets/46087ced0a82-screenshot-2023-05-30-at-08-24-49.png) | \\| A \\| B \\| A OR B \\|<br>\\|---\\|---\\|---\\|<br>\\| 0 \\| 0 \\| 0 \\|<br>\\| 0 \\| 1 \\| 1 \\|<br>\\| 1 \\| 0 \\| 1 \\|<br>\\| 1 \\| 1 \\| 1 \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NOT"
+  },
+  {
+   "type": "table",
+   "md": "| Circuit symbol | Truth Table |\n|---|---|\n| ![screenshot-2023-05-30-at-08-24-28](assets/a35d1c8ac2f8-screenshot-2023-05-30-at-08-24-28.png) | \\| A \\| NOT \\|<br>\\|---\\|---\\|<br>\\| 0 \\| 1 \\|<br>\\| 1 \\| 0 \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "XOR (exclusive)"
+  },
+  {
+   "type": "table",
+   "md": "| **Circuit symbol** | **Truth Table** |\n|---|---|\n| ![screenshot-2023-05-30-at-08-25-28](assets/9e0424c74965-screenshot-2023-05-30-at-08-25-28.png) | \\| A \\| B \\| A XOR B \\|<br>\\|---\\|---\\|---\\|<br>\\| 0 \\| 0 \\| 0 \\|<br>\\| 0 \\| 1 \\| 1 \\|<br>\\| 1 \\| 0 \\| 1 \\|<br>\\| 1 \\| 1 \\| 0 \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NAND (not and)"
+  },
+  {
+   "type": "table",
+   "md": "| **Circuit symbol** | **Truth Table** |\n|---|---|\n| ![screenshot-2023-05-30-at-08-25-01](assets/88cbded23e3f-screenshot-2023-05-30-at-08-25-01.png) | \\| A \\| B \\| NOT (A AND B) \\|<br>\\|---\\|---\\|---\\|<br>\\| 0 \\| 0 \\| 1 \\|<br>\\| 0 \\| 1 \\| 1 \\|<br>\\| 1 \\| 0 \\| 1 \\|<br>\\| 1 \\| 1 \\| 0 \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "NOR (not or)"
+  },
+  {
+   "type": "table",
+   "md": "| **Circuit symbol** | **Truth Table** |\n|---|---|\n| ![Logic gate diagram showing a NOR gate with two input lines on the left and one output line on the right with a small circle.](assets/dea8458c864e-screenshot-2023-05-30-at-08-25-22.png) | \\| A \\| B \\| NOT (A OR B) \\|<br>\\|---\\|---\\|---\\|<br>\\| 0 \\| 0 \\| 1 \\|<br>\\| 0 \\| 1 \\| 0 \\|<br>\\| 1 \\| 0 \\| 0 \\|<br>\\| 1 \\| 1 \\| 0 \\| |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_pnccJBcWKPYZWjR7",
+   "name": "Truth Tables for Logic Circuits",
+   "definition": "\"(b) Complete a truth table from a:\n (i) problem statement\n (ii) logic expression\n (iii) logic circuit\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Truth Tables for Logic Circuits"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you create truth tables for logic circuits?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To create a truth table for the expression **P = (A AND B) AND NOT C **\n\n  - Calculate the numbers of rows needed (**2**<sup>**number of inputs**</sup>)\n  - In this example there are 3 inputs (**A, B, C**) so a total of **8 rows** are needed (**2**<sup>**3**</sup>)\n  - To not miss any combination of inputs, start with **000 **and **count **up in** 3-bit binary (0-7)**"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** |\n|---|---|---|\n| **0** | **0** | **0** |\n| **0** | **0** | **1** |\n| **0** | **1** | **0** |\n| **0** | **1** | **1** |\n| **1** | **0** | **0** |\n| **1** | **0** | **1** |\n| **1** | **1** | **0** |\n| **1** | **1** | **1** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add a new column to show the **results **of the brackets first (A AND B)"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | **A AND B** |\n|---|---|---|---|\n| 0 | 0 | 0 | **0** |\n| 0 | 0 | 1 | **0** |\n| 0 | 1 | 0 | **0** |\n| 0 | 1 | 1 | **0** |\n| 1 | 0 | 0 | **0** |\n| 1 | 0 | 1 | **0** |\n| 1 | 1 | 0 | **1** |\n| 1 | 1 | 1 | **1** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add a new column to show the **results **of NOT C"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | **A AND B** | **NOT C** |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | **1** |\n| 0 | 0 | 1 | 0 | **0** |\n| 0 | 1 | 0 | 0 | **1** |\n| 0 | 1 | 1 | 0 | **0** |\n| 1 | 0 | 0 | 0 | **1** |\n| 1 | 0 | 1 | 0 | **0** |\n| 1 | 1 | 0 | 1 | **1** |\n| 1 | 1 | 1 | 1 | **0** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The last column shows the **result **of the Boolean expression (**P**) by comparing (A AND B) AND NOT C** **// `open parentheses A. B close parentheses. top enclose C`"
+  },
+  {
+   "type": "table",
+   "md": "| A | B | C | **A AND B** | **NOT C** | P |\n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 1 | **0** |\n| 0 | 0 | 1 | 0 | 0 | **0** |\n| 0 | 1 | 0 | 0 | 1 | **0** |\n| 0 | 1 | 1 | 0 | 0 | **0** |\n| 1 | 0 | 0 | 0 | 1 | **0** |\n| 1 | 0 | 1 | 0 | 0 | **0** |\n| 1 | 1 | 0 | 1 | 1 | **1** |\n| 1 | 1 | 1 | 1 | 0 | **0** |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "It is possible to create a truth table when combining expressions that show only the inputs and the final outputs.\n\nThe inclusion of the extra columns supports the process but can be skipped if you feel able to do those in your head as you go."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you create logic circuits from a truth table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To create a logic circuit from a truth table you need to:\n\n  - Find the rows where the **output = 1**\n  - **Build a logic branch** for each of the rows\n  - **Combine **the branches\n  - Determine the **gates needed**\n  - Construct a [logic expression](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/10-boolean-logic/boolean-logic/logic-expressions/)\n  - **Create **the logic circuit"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | X |\n|---|---|---|---|\n| 0 | 0 | 0 | **0** |\n| 0 | 0 | 1 | **0** |\n| 0 | 1 | 0 | **0** |\n| 0 | 1 | 1 | **0** |\n| `1` | `0` | `0` | `1` |\n| 1 | 0 | 1 | **0** |\n| 1 | 1 | 0 | **0** |\n| `1` | `1` | `1` | `1` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Look at the truth table and **find the rows where X = 1**\n- This happens when:\n\n  - **A = 1, B = 0, C = 0**\n  - **A = 1, B = 1, C = 1**\n- Build a logic branch:\n\n  - **A = 1, B = 0, C = 0**\n  \n    - Use a **NOT gate** on B\n    - Use a **NOT gate** on C\n    - **AND A**, **NOT B**, and **NOT C** together\n    - This gives output = 1 for that row\n  - **A = 1, B = 1, C = 1**\n  \n    - Just **AND** A, B, and C together\n- Combine the branches\n\n  - Use an **OR gate** to combine the two outputs\n  \n    - This way, X = 1 if either input combination happens\n- Determine the gates needed:\n\n  - **NOT gates**:\n  \n    - NOT B\n    - NOT C\n  - **AND gates**:\n  \n    - A AND NOT B → first AND\n    - that result AND NOT C → second AND\n    - A AND B → third AND\n    - that result AND C → fourth AND\n  - **OR gate**:\n  \n    - Combines the outputs of the second and fourth AND gates\n- Construct the[ logic expression](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/10-boolean-logic/boolean-logic/logic-expressions/)\n\n  - Final logic:\n  \n    - **(A AND NOT B AND NOT C) OR (A AND B AND C)**\n- Create the logic circuit"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/07/6360_2025-07-17-0hi-kleki.png",
+   "file": "assets/6164c06014e8-6360-2025-07-17-0hi-kleki.png",
+   "alt": "Logic circuit diagram with inputs A, B, and C, using AND, OR, and NOT gates, connected to output X.",
+   "caption": ""
+  }
+ ]
+}

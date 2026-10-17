@@ -1,0 +1,125 @@
+---
+note_id: "rn_GD57tThxXW3YknQg"
+title: "Descriptive Writing: How to Get Full Marks"
+source: https://www.savemyexams.com/igcse/english-language/cie/20/revision-notes/2-paper-2-writing/section-b-composition/descriptive-writing-how-to-get-full-marks
+path: 2-paper-2-writing/section-b-composition/descriptive-writing-how-to-get-full-marks
+updated_at: "2026-10-08T10:53:05.987Z"
+spec_point_ids: ["spcpt_G3mbMHHrnX649PHB", "spcpt_V7JF95jqB4WPKZBy", "spcpt_NyvmVMVsmGcSDKZk", "spcpt_cTW2ZDD2VHn8ryxW"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Descriptive Writing: How to Get Full Marks
+
+## Descriptive writing: how to get full marks
+
+> **Spec point** — `spcpt_G3mbMHHrnX649PHB`
+
+## Descriptive writing: how to get full marks
+
+**Section B** requires you to write for a specific purpose and in a specific form. It is important that you write in the correct format and use the conventions of this form, as the mark scheme states that you should **adapt** your **tone, style** and *register* for different forms, purposes and audiences.
+
+This means:
+
+- The tone (the sound of the narrator’s “voice”) is appropriate and convincing
+- The *register* (your vocabulary and phrasing) is suitable for the purpose
+- The **style** of the writing (the sentence structure and the overall structure of your writing) is dynamic and engaging
+
+As with any extended piece of writing, **planning is vital**. You should spend 10-15 minutes mind-mapping your ideas before you start writing. Here, we will consider how you can produce an effective piece of descriptive writing.
+
+## How to structure your descriptive writing
+
+> **Spec point** — `spcpt_V7JF95jqB4WPKZBy`
+
+## How to structure your descriptive writing
+
+Descriptive writing is **observational writing**. This means that the narrator does not interact with their surroundings, or other characters. In fact, no characters are crafted. Descriptive writing is like imagining you are behind the lens of a camera, describing a **“snap-shot”** of a moment. However, this does not mean the scene you are describing is static; it is important to note the movements and action you “witness”.
+
+Below is a suggested step-by-step structure for a piece of descriptive writing, including the techniques to use during each of the six steps:
+
+| **Stage** | **Details of descriptive writing structure** |   |
+|---|---|---|
+| **Step 1** | **Panoramic** | - Broadly describe the scene<br>- Introduce the time and atmosphere |
+| **Step 2** | **Zoom** | - Focus your lens on one segment of the “image”<br>- Choose smaller, less obvious details |
+| **Step 3** | **Single line** | - Emphasise the key feeling of your description in one line |
+| **Step 4** | **Shift** | - Focus your lens on another segment of the “image”<br>- If you started in the foreground, then move to something in the background |
+| **Step 5** | **Shift** | - Now move your lens to a final segment of the “image”, or suggest something that is just “off camera” |
+| **Step 6** | **Panoramic** | - Zoom out again to look at the scene from a new perspective<br>- How has it changed? Time? Atmosphere? Mood? |
+
+Remember, you can include action or movement in your description, but this should not involve any story progression or interaction. Any action should only cover a short period of “real time”, such as the wind blowing a basket over. Something seemingly inconsequential could move in the background, which is especially effective if you contrast this with things that remain still.
+
+Your paragraphs should be appropriately linked, but should vary in terms of size and structure. **Variety and accuracy are key**; you are bringing a scene to life for your reader, so they should be able to picture it, hear it, even smell it!
+
+> **Exam Hint**
+> Remember, this is an extended written response. Therefore, the most effective answers will demonstrate a well-planned answer which has considered what details are the most interesting to the reader and the most effective way to order the writing.
+
+## Descriptive writing techniques
+
+> **Spec point** — `spcpt_NyvmVMVsmGcSDKZk`
+
+## Descriptive writing techniques
+
+### Tone
+
+Descriptive writing should craft a **tone of voice** in keeping with the **mood of the scene**. This means your sentences should reflect the atmosphere. For example, if the scene is mysterious and frightening, your sentences should reflect this suspenseful mood.
+
+In order to craft a** **tone in keeping with the mood of your description, consider how you can use sentence lengths and types:
+
+- Short sentences reflect tension and unease, e.g. “No sound could be heard.”
+- Longer sentences and listing can create a sense of being overwhelmed, or of abundance, e.g. “The market was laden with apples, grapes, oranges, loaves of bread, chunks of cheese and every type of vegetable one could imagine.”
+
+### Style and register
+
+The **style** of your descriptive writing is closely related to the language you use. For example, the best descriptive writing responses show evidence of careful word choices and the deliberate but judicious use of linguistic techniques.
+
+Descriptive writing helps the reader to **visualise** the person, place, or situation being described. Your word choice and linguistic techniques should conjure a vivid, sensory impression in the reader’s mind.
+
+The best way to do this is to:
+
+- Use **vocabulary** which is **useful** to the reader:
+
+  - For example, describing something as “brilliant” or “amazing” is not descriptive
+  - Be specific and ambitious in your choice of adjectives
+- Use *sensory language* to bring the scene to life:
+
+  - Focus not just on what can be seen, but also what can be heard, smelled or felt
+- Emphasise key ideas or impressions using **language techniques** and imagery:
+
+  - For example, you could use a [simile](https://www.savemyexams.com/glossary/gcse/english-language/simile-definition/)** **to create associations about size or colour
+  - [Personification](https://www.savemyexams.com/glossary/gcse/english-language/personification-definition/) is a useful technique when describing weather or objects
+- Ensure you describe the **important details**:
+
+  - For example, you do not need to describe every inch of a person or scene bit by bit; instead, focus on key features
+
+When considering the detail you should include in your description, it is useful to consider the types of things that bring a scene to life. These things are normally rooted in **contrast**. For example:
+
+| **Sound and silence** | - Noise contributes to the reality of a scene:<br><br>  - Chatter, background noise, the weather or nearby wildlife all bring the scene to life<br>- Using moments of silence can also be effective:<br><br>  - A momentary lull, or a really purposeful moment of quiet |
+|---|---|
+| **Movement and stillness** | - Some things may move:<br><br>  - This could be the main focus of your writing, or something in the background<br>  - It could be human, animal or object - use personification<br>  - Powerful verbs and adverbs can create dynamic movement in a piece of writing<br>  - For example: “The swarming, struggling crowd.”<br>- Other things will remain still:<br><br>  - Try to focus on things that resist being moved, or whose stillness is in contrast with the movement of something<br>  - Avoid cliches such as “still as a statue” |
+| **Light and dark** | - There will be sources of light, so describe them:<br><br>  - But also describe the way the light hits other things in your description<br>- Where there’s light, there’s also darkness:<br><br>  - Consider what shadows are cast or where the light does not reach<br>  - Who, or what, is left in the darkness? |
+
+> **Exam Hint**
+> Keep using sensory language throughout, but adjust the focus and perspective as your paragraphs develop. Make sure that you include description of movement and description of sound to effectively craft a mood.
+
+Let’s consider the following example of an opening paragraph of a piece of descriptive writing:
+
+![Text box with annotations highlighting literary devices: contrast in the first line, simile of soldiers for intimidation, and sensory language for chaos.](../../../assets/1689a8bba9f5-descriptive-writing-how-to-get-full-marks.png)
+
+## Steps to success
+
+> **Spec point** — `spcpt_cTW2ZDD2VHn8ryxW`
+
+## Steps to success
+
+1. Read the two task options carefully:
+
+  - Decide which one you can best picture in your mind
+2. Spend 10-15 minutes **planning** your writing:
+
+  - Use a mind-map or a table
+  - Use the “panoramic, zoom, single line, shift, shift, panoramic” six-step structure
+3. Write down some reminders of [figurative language](https://www.savemyexams.com/glossary/gcse/english-literature/figurative-language-definition/) or literary techniques to include to add interest and detail:
+
+  - It might be helpful to jot down “sound and silence”, “movement and stillness” and “light and dark” to prompt you
+4. Write your description, sticking to your plan
+5. Try to leave five minutes at the end to re-read your writing carefully, correcting any obvious mistakes you have made

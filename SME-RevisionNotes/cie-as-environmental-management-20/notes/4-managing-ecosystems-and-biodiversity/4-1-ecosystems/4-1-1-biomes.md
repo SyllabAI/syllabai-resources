@@ -1,0 +1,95 @@
+---
+note_id: "rn_9Z4G6cw4yNnGn29y"
+title: "4.1.1 Biomes"
+source: https://www.savemyexams.com/as/environmental-management/cie/20/revision-notes/4-managing-ecosystems-and-biodiversity/4-1-ecosystems/4-1-1-biomes
+path: 4-managing-ecosystems-and-biodiversity/4-1-ecosystems/4-1-1-biomes
+updated_at: "2024-03-11T08:54:45.875Z"
+spec_point_ids: ["spcpt_dgqsYdhZVVcd7wJQ"]
+spec_point_codes: []
+guided_study: false
+---
+
+# 4.1.1 Biomes
+
+## Terrestrial Biomes
+
+> **Spec point** — `spcpt_dgqsYdhZVVcd7wJQ`
+
+## Terrestrial Biomes
+
+- Biomes are large-scale ecological communities or ecosystem types that are characterised by their dominant vegetation, climate and other abiotic factors that shape their biotic communities
+- Biomes cover **large geographic areas** (different ecosystems can be found within a single biome):
+
+  - These larger zones have similar climatic and ecosystem characteristics
+- Terrestrial biomes (i.e. non-aquatic biomes) are classified into **four** major classes:
+
+  - **Forest**
+  - **Grassland**
+  - **Desert**
+  - **Tundra**
+- These major classes can be divided into further categories, for example:
+
+  - Forest biomes are dominated by trees and are categorised into **tropical** rainforests, **temperate** **deciduous** forests and **boreal** forests
+  - Grassland biomes are characterised by grasses and herbaceous plants and are categorised into **savanna** and **temperate** grasslands
+  - Desert biomes are characterised by low rainfall and are dominated by cacti and other drought-resistant plants - they can be further divided into subcategories such as **hot** deserts, **cold** deserts, **coastal** deserts and **semi-arid** deserts
+  - Tundra biomes are found in high latitudes and are characterised by low temperatures and permafrost - they can be further divided into subcategories such as **arctic** tundra and **alpine** tundra
+
+![Map showing the distribution of different types of terrestrial biomes on Earth](../../../assets/b0c89c9df74c-distribution-of-terrestrial-biomes.bin)
+
+*Terrestrial biomes of the world*
+
+### Forest
+
+**Forest Biomes**
+
+| Characteristics | Tropical rainforest | Temperate forest | Boreal forest |
+|---|---|---|---|
+| Location | - Low *latitudes*<br>- Within Tropics: 23.5° north and south of  equator<br>- E.g. Amazon in South America, New Guinea, Southeast Asia, Zaire Basin | - Between 40°–60° north and south of equator<br>- E.g. Western Europe, northeast USA, Eastern Asia | - Between 50°–60° north and south of equator<br>- E.g. Canada, Russia, Scandinavia |
+| Annual precipitation | - Over 2000 mm | - 750–1500 mm (all year round) | 300–900 mm (all year round) |
+| Temperature range | - 26 to 28°C | - Over 0° C in winter<br>- 20 to 25°C in summer | - -30°C in winter<br>- Up to 20°C in summer |
+| Seasons | - No seasons: hot and wet all year round | - Four seasons of equal length | - Two main seasons: winter and summer |
+| Growing season | - All year round | - 6–8 months | 2–3 months |
+| Soils | - Relatively infertile due to leaching and rapid uptake of nutrients by plants | - Relatively fertile and nutrient rich due to decomposition of organic matter over autumn and winter | - Not very fertile: often acidic, with permafrost<br>- Shallow soil with a thick litter layer due to slow decomposition |
+| Biodiversity | - Approx. 50% of world's plant and animal species live within the rainforest biome<br>- Example *flora*: mahogany, teak trees, lianas, orchids<br>- Example *fauna*: Toucans, jaguars, frogs, snakes | - Wide range of animals and plants with higher biodiversity than boreal forests<br>- Example flora: deciduous trees e.g. beech, oak, birch<br>- Example fauna: deer, rabbits, squirrels, bears | - Less biodiverse than temperate forests<br>- Example flora: coniferous trees<br>- Example fauna: squirrels, bears, reindeer, wolves |
+
+### Grassland
+
+**Grassland Biomes**
+
+| Characteristics | Savanna | Temperate grasslands |
+|---|---|---|
+| Location | - 5°–30° north and south of  equator<br>- North and south of tropical and monsoon forest biomes<br>- E.g. central Africa: Tanzania, Kenya | - 40°–60° north and south of equator<br>- E.g." veldts" of South Africa,  "pampas" of Argentina, "steppes" of Russia, "plains" of USA |
+| Annual precipitation | - 800–900 mm | - 250–750 mm |
+| Temperature range | - 15–35°C | - -40 to 40°C |
+| Seasons | - Wet and dry season | - Four seasons |
+| Growing season | - During wet season (4–5 months) | - During summer (dependent on temperature) |
+| Soils | - Free draining with thin layer of humus<br>- Not very fertile: most nutrients near surface | - Fertile soil |
+| Biodiversity | - Wide range of plant and animal species<br>- Greatest diversity of hoofed animals<br>- Grasses, baobab and acacia trees<br>- Zebras, elephants, giraffes | - Large numbers of plant and animal species<br>- Grasses, sunflowers<br>- Bison, antelopes, rabbits |
+
+### Desert
+
+**Desert Biomes**
+
+| Characteristics | Hot desert |
+|---|---|
+| Location | - 15°–30° north and south of equator<br>- North Africa e.g. Sahara, Southern Africa e.g. Kalahari and Namib, Australia, Middle East |
+| Annual precipitation | - Below 250 mm |
+| Temperature range | - Daytime temperatures can reach 50°C but average around 25°C<br>- Night time temperatures below 0°C |
+| Seasons | - Summer and winter |
+| Growing season | - All year round |
+| Soils | - Infertile, dry |
+| Biodiversity | - Low biodiversity<br>- Cacti, yucca<br>- Spiders, scorpions, camels, meerkats |
+
+### Tundra
+
+**Tundra Biomes**
+
+| Characteristics | Tundra |
+|---|---|
+| Location | - North of the Arctic Circle and Antarctica |
+| Annual precipitation | - Less than 250 mm |
+| Temperature range | - Below 0°C for 6–10 months |
+| Seasons | - Winter and summer |
+| Growing season | - 6–10 weeks |
+| Soils | - Thin infertile soil<br>- Permafrost |
+| Biodiversity | - Low biodiversity<br>- Small grasses, mosses, lichen<br>- Snowy owls, snow bunting, tundra swan<br>- Arctic foxes, hares and wolves<br>- Polar bears, musk ox and caribou |

@@ -1,0 +1,148 @@
+---
+note_id: "rn_WVMQXygR6Tn849vf"
+title: "How to Answer Question 4: Extended Response"
+source: https://www.savemyexams.com/igcse/english-language/cie/25/revision-notes/paper-1-reading/question-4-extended-response/how-to-answer-question-4-extended-response
+path: paper-1-reading/question-4-extended-response/how-to-answer-question-4-extended-response
+updated_at: "2026-09-25T09:48:01.690Z"
+spec_point_ids: ["spcpt_Dd6VbBPbfkFqQXd7", "spcpt_65VGbCcJjqnqcKNH", "spcpt_NpT9Q6jPR27kgW2K", "spcpt_XcYHbyND9Cqyfcdg", "spcpt_rxQ8thYXvQNk3zDn"]
+spec_point_codes: []
+guided_study: false
+---
+
+# How to Answer Question 4: Extended Response
+
+## Paper 1: How to answer Question 4
+
+> **Spec point** — `spcpt_Dd6VbBPbfkFqQXd7`
+
+## How to answer Question 4
+
+Paper 1: Reading is the **compulsory** exam for the Cambridge IGCSE First Language English qualification , and examiners recommend that you complete the questions in the order they are set.
+
+The following guide will provide you with the information you need to answer **Question 4 (Extended Response)** to a high standard. It includes:
+
+- An overview for Question 4
+- Breaking down the question
+- Steps to success
+- Exam tips
+
+## Paper 1: Overview for Question 4
+
+> **Spec point** — `spcpt_65VGbCcJjqnqcKNH`
+
+## Overview for Question 4
+
+- Source: **Text C**
+- Marks: **20**
+- Time: approximately **30-35 minutes**
+- Skills tested:
+
+  - Explicit and implicit meanings (R1 and R2)
+  - Analyse/evaluate (R3)
+  - Writer's effects (R4)
+  - Select and use information (R5)
+  - Clarity (W1)
+  - Organisation and structure (W2)
+  - Vocabulary and sentence structure (W3)
+  - Use of appropriate language (W4)
+- Word count: **250-300 words**
+
+For this task, you will be asked to write in one of six possible formats (genres):
+
+- A letter
+- A report
+- A journal entry
+- A speech
+- An interview
+- An article
+
+## Paper 1: Question 4: Breaking down the question
+
+> **Spec point** — `spcpt_NpT9Q6jPR27kgW2K`
+
+## Breaking down the question
+
+Question 4 is quite detailed. It is therefore important that you **read the whole of the question** and **instructions** carefully.
+
+The question will follow this formula:
+
+1. **The scenario**: "You are Annie. Two months later, you are in LA. You are interviewed by Marty Green on his popular TV show."
+2. **The bullets**: Three specific points you must cover
+3. **The task**: "Write a..."
+
+For example:
+
+![Interview script for a TV show where Annie discusses her journey in LA, addressing challenges, people's reactions, and her achievements in 250-300 words.](../../../assets/ce3794f9b725-3910-screenshot-2026-02-16-111251.png)
+
+*Question 4 (2027-2029 syllabus)*
+
+The question is worth **20 marks** in total and is broken down as follows:
+
+| Assessment Objective tested | What this means | Marks |
+|---|---|---|
+| - **R1**: demonstrate understanding of explicit meanings<br>- **R2**: demonstrate understanding of implicit meanings and attitudes<br>- **R3**: analyse, evaluate and develop facts, ideas and opinions, using appropriate support from the text<br>- R5: select and use information for specific purposes | - Identify specific facts and details from Text C that are relevant to the bullet points in the question<br>- Understand what is suggested but not stated<br>- Take a point from the text and modify it to fit the new perspective (such as explaining *why* an event mattered to the character, or evaluating a situation)<br>- Choose only the details that answer the specific bullet points (filter out irrelevant plot points) | 10 |
+| - **W1**: articulate experience and express what is thought, felt and imagined<br>- **W2**: organise and structure facts, ideas and opinions for effect<br>- **W3**: use a range of vocabulary and sentence structures appropriate to context<br>- **W4**: use language appropriate to audience and purpose | - Adopt a convincing [persona](https://www.savemyexams.com/glossary/gcse/english-literature/persona-definition/)<br>- If you are writing a diary, it should sound personal and emotional<br>- If you are writing a report, it should be objective<br>- Use paragraphs effectively to guide the reader<br>- Give equal weight/balance to all three bullet points in the question<br>- Use ambitious, precise *synonyms* rather than copying words directly from the text<br>- Ensure the tone matches the text type (such as formal for a letter to an editor) | 10 |
+
+You should **highlight** the **key information** you have been given, and start by **annotating the text for information** that answers each of the three bullet points in the question.
+
+## Paper 1: Question 4: Steps to success
+
+> **Spec point** — `spcpt_XcYHbyND9Cqyfcdg`
+
+## Steps to success
+
+Following these steps will give you a strategy for answering this question effectively:
+
+1. Read the question and **highlight**:
+
+  - The **important information in the scenario** (in the above example, you are asked to imagine that you are "Annie")
+  - The **format** you are being asked to write in (letter, speech, article, etc.)
+  - The **important information** from each of the **three bullet points** that you need to include in your answer
+2. Re-read **Text C** and **annotate** any references directly **relevant** to the focus of the bullet points:
+
+  - You need roughly **3-4 developed points** per bullet point to get full reading marks
+  - Do not just highlight the events; look for feelings, reactions and reasons
+3. Adopt the [persona](https://www.savemyexams.com/glossary/gcse/english-literature/persona-definition/) **(voice)** before you write. Ask yourself:
+
+  - Who am I?
+  - Who am I talking to?
+4. Work through the bullet points in order:
+
+  - Maintain your **focus** on each bullet point — avoid the temptation to write about everything or make up information not directly relevant to the bullet point
+5. Ensure you modify and **develop each point**. For example:
+
+  - The text says: "The vet examined the hoof minutely."
+  - You can write: "I felt so insulted when that vet checked every inch of Hero's hooves: he clearly expected to find I had mistreated him."
+  - Here, we have added the feeling (insulted) which wasn't explicitly in the text; this is **development**
+6. Ensure you write in the **format** instructed:
+
+  - This means that if you are being asked to write an interview, then you need to use language and a tone appropriate for this style of writing
+  - You can use the three bullet points as sub-headings, if appropriate
+7. Ensure you leave time  at the end to edit and correct your response
+
+You are advised to spend no more than **35 minutes** on this question.
+
+## Paper 1: Question 4: Exam tips
+
+> **Spec point** — `spcpt_rxQ8thYXvQNk3zDn`
+
+## Exam tips
+
+- Always remember to base your answer on the ideas and details you find in **Text C**:
+
+  - If you write your answer without any reference to Text C, you will score very low marks
+- Keep the intended audience and purpose of writing in mind throughout your answer:
+
+  - Maintain a consistent voice and style throughout
+- Do not invent extra information or details outside of what you read in Text C:
+
+  - Look for clues and evidence **in the text** to help you make informed judgements about characters and situations
+- Give equal attention to each of the three bullet points
+- Do not copy directly from the text:
+
+  - You need to **use your own words** as far as possible to express your ideas
+- Avoid just repeating details of what happens in the text:
+
+  - Try to develop your ideas by explaining feelings or commenting from the point of view of the character you are writing as
+
+For more advice on how to apply the skills required for success in this question, please see our [Question 4 Skills: Extended Response to Reading revision note](https://www.savemyexams.com/igcse/english-language/cie/25/revision-notes/paper-1-reading/question-4-extended-response/question-4-skills-extended-response-to-reading-/).

@@ -1,0 +1,178 @@
+---
+note_id: "rn_WcTVfbcWvpG22DP8"
+title: "Question A: How To Get Full Marks"
+source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/how-to-answer-the-paper-2-drama-questions/question-a-how-to-get-full-marks
+path: 2-drama-closed-book/how-to-answer-the-paper-2-drama-questions/question-a-how-to-get-full-marks
+updated_at: "2026-09-25T10:35:35.996Z"
+spec_point_ids: ["spcpt_GdsYJptcbRwc9wst", "spcpt_7Cprt98s7Vk9mMTm", "spcpt_cHqfmYtvBHBhRNX3", "spcpt_BCjqrnV6xfBQc9Mj"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Question A: How To Get Full Marks
+
+## Paper 2 Drama: Question A: How to get full marks
+
+> **Spec point** — `spcpt_GdsYJptcbRwc9wst`
+
+## Question A: How To Get Full Marks
+
+The starting point for the analysis of any text is active reading. This means, as you read, annotating the text with your own comments and questions. Plays will often contain many layers of meaning, so it is important that you explore beyond any surface meanings to uncover the deeper ideas and themes. Some appreciation of the context in which a play was written can also help your understanding, but this should never be the main focus of your exploration.
+
+It is tempting to jump straight in and start writing immediately. However, following this guide will ensure you answer the question in the way the examiners are looking for.
+
+Below you will find sections on:
+
+- What skills are required
+- Steps for success
+- Top tips
+
+## Paper 2 Drama: Question A: What skills are required
+
+> **Spec point** — `spcpt_7Cprt98s7Vk9mMTm`
+
+## What skills are required
+
+Each question on this exam paper assesses all four Assessment Objectives equally. This means it is important that you know what skills these Assessment Objectives require you to demonstrate in order to get the most marks.
+
+- **AO1** is about demonstrating knowledge of the play’s content through reference to specific sections of the text:
+
+  - As you read through the passage, **annotate** any questions you have
+  - This objective is about working out what is going on in terms of content, structure and word choice
+- **AO2** is about going beyond the surface meaning and story, to look for underlying ideas and attitudes – the writer’s and your own:
+
+  - This requires you to ask “why” the author has made the choices they have
+  - Some elements of the writer’s context can be used to inform your personal response, but only if relevant to the focus of the question
+- **AO3** requires **critical engagement** and evaluation of how the text works:
+
+  - “Meanings and effects” suggests that there is more than one meaning for a text, and the language, structure and form of the play contribute to those meanings
+  - It does not mean just listing the literary techniques the writer has used
+- **AO4 **refers to the way you shape your writing in order to communicate your engagement with the text:
+
+  - A personal response means that you may wish to make comparisons with similar experiences of your own, whether in real life or in your reading
+  - Contextual information should help reinforce your own interpretation, but not replace it
+  - Your own response is valid as long as it is supported by evidence
+
+The following sections explore the skills you will need to demonstrate in more detail:
+
+- Analysing drama
+- Developing a personal response
+
+**Analysing drama**
+
+It is essential to remember that drama is written for an audience; plays and drama texts are intended for performance on a stage. This impacts how you read and consider a dramatic text, as you also need to consider how a play would appear to an audience.
+
+Form and structure apply to drama as well as poetry and prose. The form is the type of writing the author has selected to tell their story and explore themes when presenting their work, while the structure is how the piece of drama unfolds. It is therefore important to consider what choices the writer has made in terms of form and structure, and whether they have conformed to, or subverted, the conventions of that particular form or elements of structure. The examples below are not exhaustive, and you are encouraged to research the dramatic form of your set texts.
+
+| **Dramatic form** | **Definition** | **Example** |
+|---|---|---|
+| Farce | Comedy that entertains through situations that are highly exaggerated, extravagant, ridiculous or absurd | The Comedy of Errors by William Shakespeare |
+| [Satire](https://www.savemyexams.com/glossary/gcse/english-language/satire/) | A play written to criticise people or situations in a humorous or ironic way | Animal Farm by George Orwell |
+| Melodrama | A play involving strong or exaggerated events and emotions | Still Life, Brief Encounter by Noel Coward |
+| Domestic drama | A play that focuses on the realistic everyday lives of the middle or lower classes in a certain society | Death of a Salesman by Arthur Miller |
+| Heroic drama | A play that involves epic stories of noble heroes and lavish, exotic settings | The Indian Queen by Robert Howard |
+| Historical drama | Dramatic texts based on historical material | Henry V by William Shakespeare |
+
+> **Exam Hint**
+> Examiners like to see that students have an awareness of the form of a text, whether it’s a novel, a play, a poem, etc. All texts on this paper are **plays**, and so it’s important that you signal to the examiner that you know this. This is as simple as using the term “**audience**” instead of **reader**, and other play-specific terminology such as “**act**”, “**scene**”, “**on stage**” and even “**playwright**” instead of writer.
+> 
+> It is also important to add that commenting on stage directions is as valuable as analysing any other writer’s method. Indeed, it has the advantage of showing the examiner you are aware of the writer’s intentions (the overall message he/she is trying to convey), because all stage directions are literally their intentions for what happens on stage.
+
+| **Dramatic structure** | **Explanation** |
+|---|---|
+| Plot structure | A plot could be cyclical:<br><br>- This means there could be a recurrent theme or [motif](https://www.savemyexams.com/glossary/gcse/english-literature/motif-definition/)<br><br>Or it could mean that the plot “circles back” to the beginning<br><br>The writer might also use [parallelism](https://www.savemyexams.com/glossary/gcse/english-language/parallelism/):<br><br>- This means the use of matching sentences or phrases to balance ideas of equal importance<br><br>You might also wish to consider the arrangements of scenes and/or acts, and why the writer has positioned them in the way that they have |
+| Mood | Mood describes the feelings or attitudes of roles and/or characters<br><br>It is the emotional impact intended by the writer |
+| [Juxtaposition](https://www.savemyexams.com/glossary/gcse/english-language/juxtaposition-definition/) | To place two things side by side to compare or contrast for effect:<br><br>- This might include the use of foil characters<br>- A foil is a character who contrasts with another character<br>- For example, Harry Potter and Voldemort are foils |
+| [Foreshadowing](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/) | This is a warning or a prediction of a future event in the play<br><br>The writer might also employ [dramatic irony](https://www.savemyexams.com/glossary/gcse/english-literature/dramatic-irony-definition/), where the audience might be aware of what is coming, but the characters are not |
+| [In medias res](https://www.savemyexams.com/glossary/gcse/english-literature/in-medias-res-definition/) | This is when the play starts in the middle of the action |
+| [Flashbacks](https://www.savemyexams.com/glossary/gcse/english-language/flashback-definition/) | A scene in a play set in a time earlier than the main story:<br><br>- This device can be used to convey extra information about plot or character |
+| Soliloquies/dialogue | A [soliloquy](https://www.savemyexams.com/glossary/gcse/english-literature/soliloquy-definition/) is a speech that a character makes to themselves:<br><br>- It is a device through which a character’s inner thoughts can be made known to the audience<br><br>Dialogue is a conversation between two or more characters in a play |
+
+You might also wish to consider the use of stage directions, setting, how conflicts are introduced and resolved (or not) and character development, and it is always a good idea to take particular note of how the play ends.
+
+Some of the other things you need to consider when preparing your answer to the passage-based question include:
+
+| Where does the passage occur in the play as a whole? | - Locate where the passage is located in the scene and/or play<br>- What events have occurred? What might the characters be reacting to, or affected by?<br>- Where is the passage going to lead?<br>- Identify who is speaking, to whom, and who else might be present<br>- What prominent themes of the play are developed in the passage and how are they advanced or deepened?<br>- Why does this conversation and/or action take place?<br>- Why did the writer include this scene, with these characters, in this location? |
+|---|---|
+| What choices has the writer made in terms of language, form and structure? | - Is action taking place, or is it being conveyed indirectly e.g. through descriptive speech?<br>- What effect does this passage have on the audience?<br>- Is the passage in verse or in prose?<br>- Is punctuation abundant or sparse? How do these details betray the mood of the characters or of the scene?<br>- Look at language – dialects, *lexis*, tone – how does this affect mood? Is there anything particularly significant about what is said and how it is said?<br>- Explore any use of imagery – why did the writer use this [metaphor](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/)/[simile](https://www.savemyexams.com/glossary/gcse/english-language/simile-definition/) etc.?<br>- Consider how genre is manipulated or referred to in the scene. Does it use traditional or comedic forms? How are they imitated or distorted by the writer? |
+| How is the play staged? | - The level of detail a writer provides in their scripts is called staging<br>- A playwright cannot rely on descriptions, so everything they want their audience to be aware of has to be seen or heard on stage<br>- So, ask yourself what the writer tells you about setting, lighting, sound or props<br>- If the writer has given very detailed staging instructions, why have they done this? What does this tell you? |
+| How are stage directions used? | - These might include instructions on how an actor should deliver a particular line<br>- The level of detail may vary, so again consider why the writer has included stage directions |
+
+> **Exam Hint**
+> If you are studying a Shakespeare play as one of your set texts, then you might find our AQA revision notes on [*How to Answer the Shakespeare Essay Question*](https://www.savemyexams.com/gcse/english-literature/aqa/17/revision-notes/1-shakespeare/how-to-answer-the-shakespeare-essay-question/structuring-the-shakespeare-essay/) helpful, as these go into detail about the different forms of Shakespearean drama and how to quote from Shakespearean plays.
+
+**Developing a personal response**
+
+A personal response is your opinion about the text, as relevant to the focus of the question. You are being asked to consider what the writer has tried to do and whether you think they have succeeded. However, it is important that your arguments are convincing, which means that they need to be supported with evidence. Your choice of evidence, whether that be direct quotation of language, or references to the form and structure of a text, must be careful, accurate and effectively explained.
+
+How to structure your response:
+
+| Start with an introduction that demonstrates that you understand the focus of the question and the play | - You can do this by using the wording of the question to develop a **thesis** statement<br>- For example: “Shakespeare makes this moment in the play so upsetting because it happens when…” |
+|---|---|
+| Then, structure your response into paragraphs | - Each paragraph should start with a topic sentence<br>- You should integrate direct quotation or specific reference to the text to prove your point<br>- Then comment on **how** this evidence proves your point<br>- Each point you make must be directly relevant to the focus of the question |
+| With the passage-based question: | - Start with a close analysis of the passage, linking to the focus of the question<br>- Then, incorporate commentary on how the extract relates to the text as a whole<br>- Think of the passage as a stepping stone to the whole text |
+| Finish with a conclusion | - Summarise your findings and your response to these findings<br>- Do not just repeat the points you have already made |
+
+## Paper 2 Drama: Question A: Steps for success
+
+> **Spec point** — `spcpt_cHqfmYtvBHBhRNX3`
+
+## Steps for success
+
+Following these steps will give you a strategy for answering the passage-based drama question effectively:
+
+1. Grab your highlighter and **read the question first***:*
+
+  - Read carefully and highlight the focus of the question
+2. Read the passage with the focus of the question in mind:
+
+  - Highlight and annotate as you read
+  - Note down any comments about structure, form and language that will help you to answer the question
+  - Ask yourself: how does what I am noting down *show* the focus of the question?
+  
+    - Do not just write a list of techniques the writer has used
+3. Do a brief plan of 4–5 points, linking to the quotations you are going to use
+4. Start your answer using the wording of the question:
+
+  - This demonstrates to the examiner that you have understood both the question, the passage and the play
+5. Go into detail:
+
+  - Now you need to make as many points as possible, ranging throughout the passage and play
+  - It is a good idea to make your points in chronological order, if possible
+  - Use the annotations you have made in the margins to form the basis of each point:
+  
+    - Make your point, then support it with quotations and/or direct references to the passage
+    - Explain how the quote highlights the idea in the question
+    - Analyse what the key words and phrases in the quote make the reader feel about the idea in the question
+  - Comment on and analyse language, form and structure
+  - Link your ideas to the theme and the focus of the question:
+  
+    - You should refer back to the keyword in the question throughout your answer
+    - Use “because” or “as” to support your ideas with detailed reasons
+  - Explore the writer’s intention and message
+6. Sum up:
+
+  - Finish your answer with a “So overall…” statement
+  - Zoom back out to the big ideas in the text
+  - Your finishing statement should sum up what you have discovered, relevant to the focus of the question:
+  
+    - However, it should not just repeat the points you have already made
+
+## Paper 2 Drama: Question A: Top tips for full marks
+
+> **Spec point** — `spcpt_BCjqrnV6xfBQc9Mj`
+
+## Top tips
+
+- Avoid being too general or vague in your introduction:
+
+  - Your introduction should address the Assessment Objectives in some way
+- Avoid simply “re-telling” the narrative of the play
+- Make sure every paragraph answers the question:
+
+  - Do not just write everything you know about the text
+- Avoid unnecessary words
+- Re-read each of the paragraphs you have written before you write the next:
+
+  - Check that each paragraph is clear and that it answers the question
+- Ensure your selection of quotations is directly relevant to the focus of the question

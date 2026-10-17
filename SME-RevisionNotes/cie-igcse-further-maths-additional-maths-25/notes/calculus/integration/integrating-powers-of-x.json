@@ -1,0 +1,290 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jXDdP3MMJ8dSbSYx",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/integration/integrating-powers-of-x",
+ "title": "Integrating Powers of x",
+ "page_title": "Integrating Powers of x | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "integrating-powers-of-x"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "integrating-powers-of-x"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Integrating Powers of x"
+ },
+ "updated_at": "2026-07-02T08:19:38.534Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_b8YJ77mKsSyF3zCy",
+  "spcpt_ZQNM4dHgZkvDTmXJ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=x^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals x to the power of n"
+  },
+  {
+   "latex": "n\\inℚ,n\\neq-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>n</mi><mo>∈</mo><mi mathvariant=\"normal\">ℚ</mi><mo>,</mo><mo> </mo><mi>n</mi><mo>≠</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space n element of straight rational numbers comma space n not equal to negative 1"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=ax^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals a x to the power of n"
+  },
+  {
+   "latex": "n\\inℚ,n\\neq-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>n</mi><mo>∈</mo><mi mathvariant=\"normal\">ℚ</mi><mo>,</mo><mo> </mo><mi>n</mi><mo>≠</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space n element of straight rational numbers comma space n not equal to negative 1"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space a"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=8x^{3}-2x+4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mrow><mi mathsize=\"16px\">f</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">8</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">3</mn></msup><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">2</mn><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">4</mn></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals 8 x cubed minus 2 x plus 4"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=5x^{\\frac{1}{3}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>5</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals 5 x to the power of 1 third end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold italic x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=\\frac{4}{x^{2}}+x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals 4 over x squared plus x squared"
+  },
+  {
+   "latex": "f(x)=4x^{-2}+x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>4</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis equals 4 x to the power of negative 2 end exponent plus x squared"
+  },
+  {
+   "latex": "f(x)=8x^{2}(2x-3)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mrow><mi>f</mi><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">8</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">(</mo><mn mathsize=\"16px\">2</mn><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f stretchy left parenthesis x stretchy right parenthesis equals 8 x squared left parenthesis 2 x minus 3 right parenthesis"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=3x^{4}-2x^{2}+3-\\frac{1}{\\sqrt{x}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">y</mi></mrow><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">x</mi></mrow></mfrac><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">3</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">4</mn></msup><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">2</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">-</mo><mfrac><mn mathsize=\"16px\">1</mn><msqrt><mi mathsize=\"16px\">x</mi></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space fraction numerator straight d y over denominator straight d x end fraction equals 3 x to the power of 4 minus 2 x squared plus 3 minus fraction numerator 1 over denominator square root of x end fraction"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=3x^{4}-2x^{2}+3-x^{-\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mo> </mo><mn>3</mn><msup><mi>x</mi><mn>4</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>3</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mi>x</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals space 3 x to the power of 4 space minus space 2 x squared space plus space 3 space minus space x to the power of negative 1 half end exponent"
+  },
+  {
+   "latex": "y=\\frac{3x^{5}}{5}-\\frac{2x^{3}}{3}+3x-\\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mn>3</mn><msup><mi>x</mi><mn>5</mn></msup></mrow><mn>5</mn></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo> </mo><mo>+</mo><mo> </mo><mn>3</mn><mi>x</mi><mo> </mo><mo>-</mo><mfrac><mrow><mo> </mo><msup><mi>x</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></msup></mrow><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mfrac><mo> </mo><mo>+</mo><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y space equals fraction numerator space 3 x to the power of 5 over denominator 5 end fraction minus fraction numerator 2 x cubed over denominator 3 end fraction space plus space 3 x space minus fraction numerator space x to the power of 1 half end exponent over denominator 1 half end fraction space plus space c"
+  },
+  {
+   "latex": "y=\\frac{3}{5}x^{5}-\\frac{2}{3}x^{3}+3x-2\\sqrt{x}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">5</mn></mfrac><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">5</mn></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">3</mn></mfrac><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn><msqrt><mi mathvariant=\"bold\">x</mi></msqrt><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold space bold equals bold space bold 3 over bold 5 bold italic x to the power of bold 5 bold space bold minus bold space bold 2 over bold 3 bold italic x to the power of bold 3 bold space bold plus bold space bold 3 bold italic x bold space bold minus bold space bold 2 square root of bold x bold space bold plus bold italic c"
+  },
+  {
+   "latex": "f(x)=\\frac{2}{5}x^{\\frac{5}{2}}+4x^{\\frac{3}{2}}+18x^{\\frac{1}{2}}+\\frac{13}{5}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">f</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">5</mn></mfrac><msup><mi mathvariant=\"bold-italic\">x</mi><mfrac><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></mfrac></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">4</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">2</mn></mfrac></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">18</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">13</mn></mrow><mn mathvariant=\"bold\">5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold f stretchy left parenthesis x stretchy right parenthesis bold space bold equals bold 2 over bold 5 bold italic x to the power of bold 5 over bold 2 end exponent bold space bold plus bold space bold 4 bold italic x to the power of bold 3 over bold 2 end exponent bold space bold plus bold space bold 18 bold italic x to the power of bold 1 over bold 2 end exponent bold space bold plus fraction numerator bold space bold 13 over denominator bold 5 end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 18,
+  "figures": 3,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 26
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_b8YJ77mKsSyF3zCy",
+   "name": "Integrating Powers of x",
+   "definition": null,
+   "video_id": "814216506"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating powers of x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Powers of$x$ are integrated according to the following formulae:\n\n  - If$f(x)=x^{n}$ then`space integral f left parenthesis x right parenthesis space straight d x equals fraction numerator x to the power of n plus 1 end exponent over denominator n plus 1 end fraction plus c` where$n\\inℚ,n\\neq-1$ and$c$ is the **constant** of **integration**\n  - For each term …\n  \n    - … increase the power (of x) by 1\n    - … divide by the new power\n  - This does not apply when the original power is -1\n  \n    - the new power would be 0 and division by 0 is undefined"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.1.2-Notes-fig2.png",
+   "file": "assets/8b60ecd8ff7e-8-1-2-notes-fig2.png",
+   "alt": "Formula for integrating x to the power of a constant",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- If the power of$x$ is multiplied by a constant then the integral is also multiplied by that constant\n\n  - If$f(x)=ax^{n}$ then`space integral f left parenthesis x right parenthesis space straight d x equals fraction numerator a x to the power of n plus 1 end exponent over denominator n plus 1 end fraction plus c` where$n\\inℚ,n\\neq-1$ and$a$ is a constant and$c$ is the **constant** of **integration**\n- Remember the special case:\n\n  - `space integral a space straight d x equals a x plus c`\n  \n    - e.g. `space integral 4 space straight d x equals 4 x plus c`\n  - This allows **constant** terms to be integrated"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate expressions containing powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formulae for integrating powers of$x$ apply to **all** **rational** **numbers** so it is possible to integrate any expression that is a sum or difference of powers of$x$\n\n  - e.g.  If$f(x)=8x^{3}-2x+4$ then`space integral f stretchy left parenthesis x stretchy right parenthesis blank straight d x equals fraction numerator 8 x to the power of 3 plus 1 end exponent over denominator 3 plus 1 end fraction minus fraction numerator 2 x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction plus 4 x plus c equals 2 x to the power of 4 minus x squared plus 4 x plus c`\n- Functions involving **roots** will need to be rewritten as **fractional powers** of$x$ first\n\n  - eg. If`space f left parenthesis x right parenthesis equals 5 cube root of x` then rewrite as$f(x)=5x^{\\frac{1}{3}}$ and integrate\n- Functions involving **fractions** with **denominators** in **terms** of$x$ will need to be rewritten as **negative powers** of$x$ first\n\n  - e.g.  If$f(x)=\\frac{4}{x^{2}}+x^{2}$ then rewrite as$f(x)=4x^{-2}+x^{2}$ and integrate\n- **Products** and **quotients** cannot be integrated this way so would need **expanding**/**simplifying** first\n\n  - e.g.  If$f(x)=8x^{2}(2x-3)$ then`Error converting from MathML to accessible text.`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- You can speed up the process of integration in the exam by committing the pattern of basic integration to memory\n\n  - In general you can think of it as 'raising the power by one and dividing by the new power'\n  - Practice this lots before your exam so that it comes quickly and naturally when doing more complicated integration questions"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given that\n\n$\\frac{dy}{dx}=3x^{4}-2x^{2}+3-\\frac{1}{\\sqrt{x}}$\n\nfind an expression for$y$ in terms of$x$.\n\n> *Rewrite all terms as powers of **x **using the laws of indices for fractional and negative powers on the last term.*\n\n$\\frac{dy}{dx}=3x^{4}-2x^{2}+3-x^{-\\frac{1}{2}}$\n\n> *Find **y **by integrating each term. *\n\n`y space equals space integral space open parentheses 3 x to the power of 4 space minus space 2 x squared space plus space 3 space minus space x to the power of negative 1 half end exponent space close parentheses space straight d x`\n\n$y=\\frac{3x^{5}}{5}-\\frac{2x^{3}}{3}+3x-\\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}}+c$\n\n> *Rewrite using the same format given in the question. *\n\n$y=\\frac{3}{5}x^{5}-\\frac{2}{3}x^{3}+3x-2\\sqrt{x}+c$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZQNM4dHgZkvDTmXJ",
+   "name": "Finding the Constant of Integration",
+   "definition": null,
+   "video_id": "814873885"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Finding the constant of integration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the constant of integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1 **\n\n  - Rewrite the function into a more easily *integrable* form\n  \n    - Each term needs to be a power of **x** (or a constant)\n- **STEP 2**\n\n  - Integrate each term and remember “+c”\n  \n    - Increase power by 1 and divide by new power\n- **STEP 3**\n\n  - Substitute the coordinates of a given point in to form an equation in **c**\n  \n    - Solve the equation to find **c**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.1.2-Notes-fig3.png",
+   "file": "assets/fe8672720279-8-1-2-notes-fig3.png",
+   "alt": "Notes fig3, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.2-Notes-fig4.png",
+   "file": "assets/3b93c867ccea-8-1-2-notes-fig4.png",
+   "alt": "Example of finding the constant of integration",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If a constant of integration can be found then the question will need to give you some extra information\n\n  - If this is given then make sure you use it to find the value of c"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given `straight f apostrophe open parentheses x close parentheses space equals space fraction numerator open parentheses x plus 3 close parentheses squared over denominator square root of x end fraction` and `straight f open parentheses 1 close parentheses space equals space 25`, find `straight f open parentheses x close parentheses`.\n\n> *Rewrite *`straight f to the power of apostrophe open parentheses x close parentheses`* in a form the can be integrated more easily. *\n\n> `table row cell straight f to the power of apostrophe open parentheses x close parentheses space end cell equals cell space fraction numerator open parentheses x plus 3 close parentheses open parentheses x plus 3 close parentheses over denominator square root of x end fraction end cell row blank equals cell space fraction numerator x to the power of 2 space end exponent plus space 6 x space plus space 9 over denominator x to the power of 1 half end exponent end fraction end cell row space equals cell fraction numerator space x squared over denominator x to the power of 1 half end exponent end fraction space plus fraction numerator space 6 x over denominator x to the power of 1 half end exponent end fraction space plus fraction numerator space 9 over denominator x to the power of 1 half end exponent end fraction end cell row blank equals cell space x to the power of 3 over 2 space end exponent plus space 6 x to the power of 1 half end exponent space plus space 9 x to the power of negative 1 half end exponent end cell end table`*   *\n\n> *Integrate each term, remember to include a constant of integration.*\n\n> `straight f open parentheses x close parentheses space equals fraction numerator space x to the power of 5 over 2 end exponent over denominator 5 over 2 end fraction plus fraction numerator 6 x to the power of 3 over 2 end exponent over denominator 3 over 2 end fraction plus fraction numerator 9 x to the power of 1 half end exponent over denominator 1 half end fraction plus c`*   *\n\n> *Simplify.*\n\n`straight f open parentheses x close parentheses space equals 2 over 5 x to the power of 5 over 2 end exponent plus 4 x to the power of 3 over 2 end exponent plus 18 x to the power of 1 half end exponent plus c`\n\n> *Use f(1) =25 to find the value of **c.*\n\n`straight f open parentheses 1 close parentheses space equals 2 over 5 open parentheses 1 close parentheses to the power of 5 over 2 end exponent plus 4 open parentheses 1 close parentheses to the power of 3 over 2 end exponent plus 18 open parentheses 1 close parentheses to the power of 1 half end exponent plus c\n`\n\n`table row cell 2 over 5 plus 4 plus 18 space plus c space end cell equals cell space 25 end cell row cell 22 2 over 5 space plus space c space end cell equals cell space 25 end cell row cell c space end cell equals cell fraction numerator space 13 space over denominator 5 end fraction end cell end table`\n\n$f(x)=\\frac{2}{5}x^{\\frac{5}{2}}+4x^{\\frac{3}{2}}+18x^{\\frac{1}{2}}+\\frac{13}{5}$"
+  }
+ ]
+}

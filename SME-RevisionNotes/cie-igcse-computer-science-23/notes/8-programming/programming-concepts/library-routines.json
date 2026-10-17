@@ -1,0 +1,138 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_H5BQgcB2M8CBVzJm",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/8-programming/programming-concepts/library-routines",
+ "title": "Library Routines",
+ "page_title": "Library Routines - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "8-programming",
+   "programming-concepts",
+   "library-routines"
+  ],
+  "section": "8-programming",
+  "topic": "programming-concepts",
+  "leaf": "library-routines"
+ },
+ "titles": {
+  "section": "8. Programming",
+  "topic": "Programming Concepts",
+  "subtopic": "Library Routines"
+ },
+ "updated_at": "2026-01-14T09:04:27.696Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_zpYxxFKTn4XpkbRD",
+   "rnl_27NNwJbPrjvdhBZY",
+   "rnl_BVjNGFyCcqZk23Xc"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_7MsH9h9SPYYpmrn9"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 17,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_7MsH9h9SPYYpmrn9",
+   "name": "Library Routines",
+   "definition": "7 Understand and use library routines \n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Library Routines"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are library routines?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A library routine is **reusable code** that can be used throughout a program\n- The code has been made public through **reusable modules or functions**\n- Using library routines **saves programmers time** by using working code that has **already been** **tested**\n- Some examples of pre-existing libraries are:\n\n  - **Random**\n  - **Round**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Random"
+  },
+  {
+   "type": "bullets",
+   "md": "- The random library is a library of code which allows users to make use of '**random**' in their programs\n- Examples of random that are most common are:\n\n  - **Random choices**\n  - **Random numbers**\n- Random number generation is a programming concept that involves** a computer generating a random number** to be used within a program to add an element of **unpredictability**\n- Examples of where this concept could be used include:\n\n  - **Simulating the roll of a dice**\n  - **Selecting a random question (from a numbered list)**\n  - **National lottery**\n  - **Cryptography **"
+  },
+  {
+   "type": "table",
+   "md": "| **Concept** | Pseudocode | **Python** |\n|---|---|---|\n| **Random numbers** | `RANDOM(1,6)` | `import random`<br><br>`number = random.randint(1,10)`<br><br>`number = random.randint(-1.0,10.0)` |\n| **Random choice** |   | `import random`<br><br>`choice = random.choice()` |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Examples"
+  },
+  {
+   "type": "bullets",
+   "md": "- Random number"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode | Python |\n|---|---|\n|   |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- National lottery"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode | Python |\n|---|---|\n|   |   |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Round"
+  },
+  {
+   "type": "bullets",
+   "md": "- The round library is a library of code which allows users to **round numerical values to a set amount of decimal places**\n- An example of rounding is using **REAL **values and rounding to 2 decimal places\n- The round library can be written as: **ROUND(<identifier>, <places>)**"
+  },
+  {
+   "type": "table",
+   "md": "| **Concept** | Pseudocode | **Python** |\n|---|---|---|\n| Round |   |   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "paragraph",
+   "md": "So if the variable `Price` was `12.6789`, the output would be:"
+  }
+ ]
+}

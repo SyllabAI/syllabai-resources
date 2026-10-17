@@ -1,0 +1,104 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_b7pKqWRjcnFBHSGR",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/8-programming/programming-concepts/data-types",
+ "title": "Data Types",
+ "page_title": "Data Types - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "8-programming",
+   "programming-concepts",
+   "data-types"
+  ],
+  "section": "8-programming",
+  "topic": "programming-concepts",
+  "leaf": "data-types"
+ },
+ "titles": {
+  "section": "8. Programming",
+  "topic": "Programming Concepts",
+  "subtopic": "Data Types"
+ },
+ "updated_at": "2025-09-24T13:09:49.529Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_rMkcJVwBTRXXrDcX",
+   "rnl_DqjJzpwP26j5CDYy"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_MvS5PXSq9qWddWRK"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_MvS5PXSq9qWddWRK",
+   "name": "Data Types",
+   "definition": "2 Understand and use the basic data types\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Data Types"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a data type?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A data type is **a classification of data into groups** according to the **kind of data they represent**\n- Computers use** different data types** to represent **different types of data** in a program\n- The basic data types include:"
+  },
+  {
+   "type": "table",
+   "md": "| **Data type** | **Used for** | Pseudocode | **Example** |\n|---|---|---|---|\n| **Integer** | Whole numbers | `INTEGER` | `10, -5, 0` |\n| **Real** | Numbers with a fractional part (decimal) | `REAL` | `3.14, -2.5, 0.0` |\n| **Character ** | Single character | `CHAR` | `'a', 'B', '6', '£'` |\n| **String** | Sequence of characters | `STRING` | `\"Hello world\", \"ABC\", \"@#!%\"` |\n| **Boolean** | True or false values | `BOOLEAN` | `True, False` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- It is important to choose the correct data type for a given situation to ensure **accuracy **and **efficiency **in the program\n- Data types can be changed within a program, this is called **casting**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Programming data types"
+  },
+  {
+   "type": "table",
+   "md": "| **Data type** | Pseudocode | Python |\n|---|---|---|\n| **Integer** | `Number ← 5` | `number = 5` |\n| **Real** | `RealNumber ← 3.14` | `realNumber = 3.14` |\n| **Character ** | `FirstNameInitial ← 'a'` | `firstNameInitial = 'a'` |\n| **String** | `Password ← \"letmein\"` | `password = \"letmein\"` |\n| **Boolean** | `LightSensor ← True` | `lightSensor = True` |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Name and describe the most appropriate programming data type for each of the examples of data given. Each data type must be different\n\n**[6]**\n\n**Data**: 83\n\n**Data**: [myemail@savemyexams.co.uk](mailto:myemail@savemyexams.co.uk)\n\n**Data**: True\n\n**Answers**\n\n- **Data type name: ****Integer**** [1]**\n**Data type description: ****The number is a whole number**** [1]**\n- **Data type name: ****String ****[1]**\n**Data type description: ****It is a group of characters**** [1]**\n- **Data type name: ****Boolean**** [1]**\n**Data type description: ****The value is True (or could be False)**** [1]**"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_zkVQ7zXzM6x8j8Q4",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/11-exam-technique/structuring-your-responses/how-to-answer-programming-questions",
+ "title": "How to Answer Programming Questions",
+ "page_title": "How to Answer Programming Questions | Cambridge (CIE) IGCSE Computer Science Revision Notes 2021",
+ "path": {
+  "segs": [
+   "11-exam-technique",
+   "structuring-your-responses",
+   "how-to-answer-programming-questions"
+  ],
+  "section": "11-exam-technique",
+  "topic": "structuring-your-responses",
+  "leaf": "how-to-answer-programming-questions"
+ },
+ "titles": {
+  "section": "11. Exam Technique",
+  "topic": "Structuring Your Responses",
+  "subtopic": "How to Answer Programming Questions"
+ },
+ "updated_at": "2025-08-01T15:03:34.040Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ZQP6RTpbGm4qzMFD"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 5,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZQP6RTpbGm4qzMFD",
+   "name": "How do I answer an OCR GCSE (9-1) Computer Science programming question?",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How do I answer a CIE IGCSE Computer Science programming question?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Programming questions can appear in** both papers**\n- **Paper 1** may include questions that test understanding and interpretation of **algorithms** and **computational thinking principles**, including the ability to **trace and explain pseudocode**\n- **Paper 2** is the paper that primarily assesses the ability to **design, write, test**, and **refine programs**\n\n  - It also includes a **fixed 15‑mark programming question** at the end of the paper\n- **All questions** must be answered using:\n\n  - CIE **pseudocode **notation\n  - **Structured English**\n  - **High‑level** programming language\n- To attempt a programming question that requires the writing of a new program,  you should always ask yourself the following** five key questions**:\n\n  - What are the ***inputs***?\n  - What are the ***outputs***?\n  - What ***processes***** **take place?\n  - What ***constructs ***will I need to use?\n  - Do I need to use ***subprograms***?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "table",
+   "md": "| Question |\n|---|\n| The string operation `SUBSTRING(Quote, Start, Number)` returns a string from `Quote`<br><br>beginning at position `Start` that is `Number` characters long. The first character in `Quote` is in position 1.<br><br>**Write **pseudocode statements to:<br><br>- store the string \"`Learning Never Exhausts The Mind`\" in `Quote`<br>- extract and display the words \"`The Mind`\" from the string<br>- output the original string in lower case.<br><br>**[5 marks]** |\n| What are the **inputs**? What are the **outputs**? What **processes **take place? |\n| The string operation *SUBSTRING(Quote, Start, Number) returns a string from Quote*<br><br>beginning at position `Start` that is `Number` characters long. The first character in `Quote` is in position 1.<br><br>- *store the string* \"`Learning Never Exhausts The Mind`\" in `Quote`<br>- *extract* and *display the words* \"`The Mind`\" from the string<br>- *output the original string* in *lower case*. |\n| What **constructs **will I need to use? |\n| - **Sequence**<br><br>  - Each pseudocode instruction is executed in order<br>- **Assignment**<br><br>  - Assigning the string to `Quote`<br>- **String manipulation**<br><br>  - Using `SUBSTRING()` to extract part of a string<br>- **Case conversion**<br><br>  - Using `LCASE()` (or similar function) to convert the string to lowercase |\n| Do I need to use **subprograms**? |\n| - In this question, the subprograms are **built-in string handling functions**:<br><br>  - `SUBSTRING(Quote, Start, Number)` – extracts part of a string<br>  - `LCASE(Quote)` – returns the lowercase version of the string |\n| **Final answer:** **Answer** |\n| **Pseudocode** |\n| Quote ← \"Learning Never Exhausts The Mind\"<br><br>Start ← 25<br><br>Number ← 8<br><br>OUTPUT SUBSTRING(Quote, Start, Number)<br><br>OUTPUT LCASE(Quote) |"
+  }
+ ]
+}

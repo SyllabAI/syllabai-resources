@@ -1,0 +1,193 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Gv8NnGZh3P9XFvHF",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/7-algorithm-design-and-problem-solving/standard-methods-of-a-solution/linear-search-and-bubble-sort",
+ "title": "Linear Search & Bubble Sort",
+ "page_title": "Bubble Sort in Computer Science - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "7-algorithm-design-and-problem-solving",
+   "standard-methods-of-a-solution",
+   "linear-search-and-bubble-sort"
+  ],
+  "section": "7-algorithm-design-and-problem-solving",
+  "topic": "standard-methods-of-a-solution",
+  "leaf": "linear-search-and-bubble-sort"
+ },
+ "titles": {
+  "section": "7. Algorithm Design & Problem-Solving",
+  "topic": "Standard Methods of a Solution",
+  "subtopic": "Linear Search & Bubble Sort"
+ },
+ "updated_at": "2025-05-21T13:31:16.601Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_QCk9tMyQr3Hncd6J",
+  "spcpt_cMDFWfmYfmSXjgBR"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 28,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_QCk9tMyQr3Hncd6J",
+   "name": "Linear Search",
+   "definition": "4 Understand standard methods of solution \n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Linear Search"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a searching algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Searching algorithms are **precise step-by-step instructions** that a computer can follow to **efficiently locate specific data** in massive datasets"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a linear search?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A linear search **starts with the first value** in a dataset and** checks every value one at a time** until all values have been checked\n- A linear search can be performed **even if the values are not in order**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you perform a linear search?"
+  },
+  {
+   "type": "table",
+   "md": "| **Step** | **Instruction** |\n|---|---|\n| **1** | Check the first value |\n| **2** | **IF **it is the value you are looking for<br><br>- STOP! |\n| **3** | **ELSE **move to the next value and check |\n| **4** | **REPEAT UNTIL **you have checked all values and not found the value you are looking for |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "You will not be asked to perform a linear search on a dataset in the exam, you will be expected to understand how to do it and know the advantages and disadvantages of performing it"
+  },
+  {
+   "type": "table",
+   "md": "| A linear search in Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "table",
+   "md": "| A linear search in Python code |\n|---|\n|   |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_cMDFWfmYfmSXjgBR",
+   "name": "Bubble Sort",
+   "definition": "5 Understand standard methods of solution\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Bubble Sort"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a sorting algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Sorting algorithms are **precise step-by-step instructions** that a computer can follow to **efficiently sort data** in massive datasets"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a bubble sort?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A bubble sort is a simple sorting algorithm that starts at the beginning of a dataset and **checks values **in **'pairs'** and **swaps them **if they are** not in the correct order**\n- One full run of comparisons from beginning to end is called a '**pass**', a bubble sort may require multiple '**passes**' to sort the dataset\n- The algorithm is finished when there are **no more swaps to make**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you perform a bubble sort?"
+  },
+  {
+   "type": "table",
+   "md": "| **Step** | **Instruction** |\n|---|---|\n| **1** | Compare the first two values in the dataset |\n| **2** | **IF **they are in the wrong order...<br><br>- Swap them |\n| **3** | Compare the next two values |\n| **4** | **REPEAT **step 2 & 3 until you reach the end of the dataset (**pass 1**) |\n| **5** | **IF **you have made any swaps...<br><br>- **REPEAT **from the start (pass 2,3,4...) |\n| **6** | **ELSE **you have not made any swaps...<br><br>- STOP! the list is in the correct order |"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/1205_bubble-sort-fixed.png",
+   "file": "assets/2ee0cf9c70aa-1205-bubble-sort-fixed.png",
+   "alt": "Bubble sort algorithm illustration showing two passes on the list: 9, 2, 4, 7, 10, 3, 1. Arrows indicate comparisons and swaps.",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "bullets",
+   "md": "- Perform a bubble sort on the following dataset"
+  },
+  {
+   "type": "table",
+   "md": "| **5** | **2** | **4** | **1** | **6** | **3** |\n|---|---|---|---|---|---|"
+  },
+  {
+   "type": "table",
+   "md": "| **Step** | **Instruction** |\n|---|---|\n| **1** | Compare the first two values in the dataset<br><br>\\| **5** \\| **2** \\| **4** \\| **1** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\| |\n| **2** | **IF **they are in the wrong order...<br><br>- Swap them<br><br>\\| **2** \\| **5** \\| **4** \\| **1** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\| |\n| **3** | Compare the next two values<br><br>\\| **2** \\| **5** \\| **4** \\| **1** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\| |\n| **4** | **REPEAT **step 2 & 3 until you reach the end of the dataset<br><br>- 5 & 4 SWAP!<br><br>\\| **2** \\| **4** \\| **5** \\| **1** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- 5 & 1 SWAP!<br><br>\\| **2** \\| **4** \\| **1** \\| **5** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- 5 & 6 NO SWAP!<br><br>\\| **2** \\| **4** \\| **1** \\| **5** \\| **6** \\| **3** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- 6 & 3 SWAP!<br><br>\\| **2** \\| **4** \\| **1** \\| **5** \\| **3** \\| **6** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- End of pass 1 |\n| **5** | **IF **you have made any swaps...<br><br>- **REPEAT **from the start<br>- End of pass 2 (swaps made)<br><br>\\| **2** \\| **1** \\| **4** \\| **3** \\| **5** \\| **6** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- End of pass 3 (swaps made)<br><br>\\| **1** \\| **2** \\| **3** \\| **4** \\| **5** \\| **6** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\|<br><br>- End of pass 4 (no swaps)<br><br>\\| **1** \\| **2** \\| **3** \\| **4** \\| **5** \\| **6** \\|<br>\\|---\\|---\\|---\\|---\\|---\\|---\\| |\n| **6** | **ELSE **you have not made any swaps...<br><br>- STOP! the list is in the correct order |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "In the exam you do not have to show every swap that takes place in a bubble sort. You can show the outcome of a bubble sort at the end of each pass. If you have the outcome of each pass correct then a bubble sort has been implemented correctly and all marks will be given!"
+  },
+  {
+   "type": "table",
+   "md": "| A bubble sort in Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "table",
+   "md": "| A bubble sort in Python code |\n|---|\n|   |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A program uses a file to store a list of words.\n\nA sample of this data is shown\n\n| Milk | Eggs | Bananas | Cheese | Potatoes | Grapes |\n|---|---|---|---|---|---|\n\nShow the stages of a bubble sort when applied to data shown  **[2]**\n\n**How to answer this question**\n\n- We need to sort the values in to **alphabetical order **from A-Z\n- You **CAN **use the first letter of each word to simplify the process\n\n**Answer**\n\n- E, B, C, M, G, P (pass 1)\n- B, C, E, G, M, P (pass 2)"
+  }
+ ]
+}

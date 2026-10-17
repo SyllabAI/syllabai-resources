@@ -1,0 +1,115 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_3487S9YjFM5FPrvw",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/10-databases/create-a-database-structure/perform-calculations",
+ "title": "Perform Calculations",
+ "page_title": "How to Perform Calculations in Excel - IGCSE ICT Revision",
+ "path": {
+  "segs": [
+   "10-databases",
+   "create-a-database-structure",
+   "perform-calculations"
+  ],
+  "section": "10-databases",
+  "topic": "create-a-database-structure",
+  "leaf": "perform-calculations"
+ },
+ "titles": {
+  "section": "10. Databases",
+  "topic": "Create a Database Structure",
+  "subtopic": "Perform Calculations"
+ },
+ "updated_at": "2024-06-27T09:52:30.235Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_QYqXy4Hkz2nn4QR9"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 12,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_QYqXy4Hkz2nn4QR9",
+   "name": "Perform calculations",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Perform calculations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you perform calculations in a database?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a database, you can use **arithmetic operations or numeric functions** to perform calculations\n- Calculated fields are fields that carry out a calculation **based on other number fields in the database**\n\n  - For example, a '*products*' table with a `stock `and` unit_price` fields\n  - You could use a calculated field named `stockvalue` to calculate `unit_price` * `stock`\n  - This calculation multiplies the price of each item by its quantity to find the total value of the stock"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/60550_database-calculations-ezgif-com-optiwebp.webp",
+   "file": "assets/863345dce31c-60550-database-calculations-ezgif-com-optiwebp.webp",
+   "alt": "Database window showing a table with products listed by name, brand, category, unit price, unit size, and stock. Navigation pane on the left includes Tables and Shortcuts.",
+   "caption": "Adding a calculated field to a database table"
+  },
+  {
+   "type": "bullets",
+   "md": "- Calculated controls are **objects you place on forms or reports** to display the **result **of an expression\n\n  - For example, a form in a sales database where you input the `QuantitySold` and `UnitPrice`\n  - A calculated control could be used to display the `TotalSale`\n  - `TotalSale = QuantitySold * UnitPrice`\n  - This displays the total sale on the form without storing it in the database"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Using formulae and functions to perform calculations"
+  },
+  {
+   "type": "bullets",
+   "md": "- Databases allow you to use **formulae **and **functions **to perform calculations at run time\n- This can include basic arithmetic operations: addition, subtraction, multiplication, and division\n- For example, you have a discount field and you want to subtract it from the total cost, you could use a subtraction operation like this:\n\n  - `FinalCost = TotalCost - Discount`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Aggregate functions"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can also use aggregate functions to** calculate statistical information** about a set of records\n- Some examples include:"
+  },
+  {
+   "type": "table",
+   "md": "| **Sum** | Adds together all the numbers in a column | `SUM(TotalCost)` |\n|---|---|---|\n| **Average** | Computes the average of a set of numbers in a column | `AVERAGE(Price)` |\n| **Maximum** | Finds the highest number in a column | `MAX(Price)` |\n| **Minimum** | Finds the lowest number in a column | `MIN(Price)` |\n| **Count** | Counts the number of rows in a column | `COUNT(ProductID)` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Remember that the actual syntax and function names might differ slightly depending on the specific database system being used."
+  }
+ ]
+}

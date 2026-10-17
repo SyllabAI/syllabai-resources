@@ -1,0 +1,194 @@
+---
+note_id: "rn_DQmfS5JksG47Kq6T"
+title: "No.47 Haywards Heath"
+source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-47-haywards-heath
+path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-47-haywards-heath
+updated_at: "2026-10-11T10:19:16.311Z"
+spec_point_ids: ["spcpt_cd4jGbVpzMtmgDCX", "spcpt_2zzdkkMqbNDrjQzV", "spcpt_bgzr6Qvc5p6tw3Z3", "spcpt_5bjshptTRvKqbfW8", "spcpt_bSXNM3shWQ34BSGR"]
+spec_point_codes: []
+guided_study: false
+---
+
+# No.47 Haywards Heath
+
+## No.47 Haywards Heath: Haywards Heath analysis
+
+> **Spec point** — `spcpt_cd4jGbVpzMtmgDCX`
+
+## Haywards Heath analysis
+
+In the exam, you will be asked to **answer one question from two options**. Both questions will be on a different text from the selection of ten texts in Stories of Ourselves Volume 2.
+
+Because there are so many text options, make sure you read through the exam instructions carefully, and look for the questions on Stories of Ourselves.
+
+The following guide to Haywards Heath by Aminatta Forna contains:
+
+- Plot summary
+- Themes, ideas and perspectives
+- Writer’s methods
+- Key quotations
+
+## No.47 Haywards Heath: Plot summary
+
+> **Spec point** — `spcpt_2zzdkkMqbNDrjQzV`
+
+## Plot summary of Haywards Heath
+
+When the story begins, the [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/), Attila, is driving to the English town of Haywards Heath. He thinks back to the “youth” at the car-hire desk, and his hired car from the “Prestige” range. He remembers Rosie, and how they shared a joke about the “overseas students” who could not pronounce the name of her home town, “Haywards Heath”. Attila has found out where Rosie is from the “London hospital” where he consults as a trauma doctor for displaced populations twice a year.
+
+Readers learn that Attila is visiting England and is excited about his impulsive trip to find Rosie. He reflects on the last time he saw her, and his sudden departure after graduation to go “6,000 miles away”.
+
+When he arrives he is surprised to find the address he has been given has directed him to a care home. He finds Rosie in the “day room”. He remembers how she pleaded with him to stay, and apologises to her for leaving her all those years before. However, although she says she has a friend called Attila who is coming to visit her soon, Rosie is unable to recognise him.
+
+They go for a walk in the garden, during which Attila is reminded of her cheerful and youthful nature despite her age and *dementia*. She steals a sweet from an elderly woman sitting on a bench, telling him that they are her favourites.
+
+Attila goes back to visit two months later, once he has found the sweets Rosie loves. However, once there, he sees her dancing with one of the African care workers. Attila notices that the man has the same “smooth” skin and little beard that he had when he was young. He sees her place her head on his chest and ask him to dance “another turn, Attila”.
+
+He places the box of her favourite “Newbury” sweets on the table and sits down to watch.
+
+> **Exam Hint**
+> In order to answer the question in Section B of the CIE Literature in English Poetry and Prose Paper 1, it is best to have a thorough knowledge of the story’s plot. You will need to be able to support your points with references from the story, and consider how themes and characters develop (or not).
+
+## No.47 Haywards Heath: Themes, ideas and perspectives
+
+> **Spec point** — `spcpt_bgzr6Qvc5p6tw3Z3`
+
+## Themes, ideas and perspectives in Haywards Heath
+
+For top marks, you need to form a critical understanding of the text’s themes and ideas. This is best when it includes personal judgements and evaluations of the themes, ideas, and perspectives of the text. Here are some of the key ideas you will need to understand in Aminatta Forna’s Haywards Heath.
+
+### What are the key themes in Haywards Heath?
+
+| **Theme ** | **Analysis** |
+|---|---|
+| **Romantic  relationships ** | - Forna’s story revolves around memories that create bonds between people that last forever:<br><br>  - Attila says that “Haywards Heath” had been a “joke” between him and Rosie for a “long time”<br>  - This implies Attila has thought about it for the duration of their separation<br>- Forna reveals the *poignant* nature of an unresolved romantic relationship:<br><br>  - Although separated for decades, Attila has carried his feelings for Rosie throughout his life<br>  - When Rosie fails to remember him, Attila has to find solace in the bathroom<br>- Forna shows the frustration Attila feels when it is revealed that Rosie remembers him, but that she cannot recognise him:<br><br>  - Attila is pleased to hear Rosie’s familiar words: “Shall we do another turn, Attila?”<br>  - But these words are spoken to a care worker, not him |
+| **Individual identity** | - Forna creates a complex character in Attila:<br><br>  - He spends his life torn between his career as a doctor and his love for Rosie<br>  - He used to have a “*Malcolm X* goatee”, which made Rosie pity him<br>  - He seems pleased that the English do not stare at him, and that he can pronounce “Haywards Heath”<br>  - His introspection veers between his own successes and thoughts of Rosie<br>- The story details Attila’s need for closure and a sense of redemption:<br><br>  - Readers learn about his troubled life — although he married, his wife has since died<br>  - Attila feels regret over his failed romance with Rosie<br>- Attila is humbled by unfolding events:<br><br>  - At first he is self-absorbed and thinks about his “Jaguar” hire car, annoying youths, and food<br>  - He chooses not to imagine Rosie has a husband<br>  - He remembers how she wanted him to stay when they were together |
+| **The past and the present     ** | - Beginning the story with Attila driving to find Rosie, Forna [alludes](https://www.savemyexams.com/glossary/gcse/english-language/allusion-definition/) to the [metaphorical](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/) route of his life:<br><br>  - Attila makes an “emergency stop” when the car radio “blasts” out, and he must gather his thoughts<br>- Forna introduces Attila as an elderly man thinking back on his youth and puzzled by the “new generation”:<br><br>  - [Ironically](https://www.savemyexams.com/glossary/gcse/english-language/irony-definition/), the young man who Rosie dances with at the end of the story reminds her of a young Attila<br>- The story progresses through Attila’s memories, showing the significant impact of a past decision on his life:<br><br>  - His memories of Rosie are *nostalgic*; he is drawn powerfully to the past, and imagines Rosie as she once was<br>  - Forna creates [pathos](https://www.savemyexams.com/glossary/gcse/english-literature/pathos-definition/) with [juxtaposition](https://www.savemyexams.com/glossary/gcse/english-language/juxtaposition-definition/) of happy memories against the harsh reality of their present-day realities |
+
+> **Exam Hint**
+> Examiners are looking for responses that demonstrate good knowledge of the text through well-selected references. To do this, identify key words or phrases that very specifically support your point, rather than writing out long quotations. By considering a particular word or phrase you will find it easier to notice patterns or techniques. This will lead to a stronger analysis of the writer’s choices and how they achieve their intentions.
+> 
+> Try to notice patterns of verbs, for example. What tense are they in? Do they inform you about the character’s mood or attitude? You can then explain how this may convey deeper ideas.
+
+## No.47 Haywards Heath: Writer's methods
+
+> **Spec point** — `spcpt_5bjshptTRvKqbfW8`
+
+## Writer's methods in Haywards Heath
+
+### How does Forna present her ideas and perspectives?
+
+In her short story Haywards Heath, Aminatta Forna conveys the hopes and disappointments of an elderly man returning to a past love.
+
+| **Technique ** | **Analysis** |
+|---|---|
+| **Omniscient narrator ** | - Forna uses an [omniscient narrator](https://www.savemyexams.com/glossary/gcse/english-language/omniscient-narrator/)** **to show Attila’s perspective<br>- The [third-person](https://www.savemyexams.com/glossary/gcse/english-language/third-person/) narration creates [pathos](https://www.savemyexams.com/glossary/gcse/english-literature/pathos-definition/) as his every emotion is revealed:<br><br>  - His “heart beat wildly, and his scalp had shrunk against his skull”<br>- The narrator contrasts the garden where Attila and Rosie feel youthful with the "overheated” “day room” that represents their harsh reality:<br><br>  - The "chrysanthemum"-filled garden creates *nostalgia* |
+| [Symbolism](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/)** ** | - Forna represents the path Attila has taken in life with his hire-car, a “Jaguar XJ”, which represents financial success:<br><br>  - He is identified by his car when a publican “remembered him, or, more accurately, the Jaguar”<br>- Forna represents Attila’s life through the car’s gadgets:<br><br>  - That he finds the “satnav” annoying may be symbolic of his age and his sense of misdirection<br>  - When he gets there, Rosie’s ‘home’ is not what he had expected<br>  - The “car radio”, which is set too loud, represents the disconnection he feels to the “new generation” and his sense of frustrated youth<br>- Forna’s symbolic use of the “Newbury Fruits” represents the missed romance between Attila and Rosie:<br><br>  - When he finally takes her the sweets, she is in another man’s arms |
+
+## No.47 Haywards Heath: Key quotations
+
+> **Spec point** — `spcpt_bSXNM3shWQ34BSGR`
+
+## Haywards Heath key quotations
+
+The mark scheme for Section B of Literature in English Paper 1 asks you to showcase your knowledge of the story in the question. To do this, you should refer to the text through references and quotations. You will not be required to remember direct quotations, though. Summarising, paraphrasing, referencing single words, and referring to plot events are all considered valid supporting evidence for your points.
+
+The best way to revise quotations is in connection to a theme. Below you will find explanations and analysis of some key quotations from Aminatta Forna’s Haywards Heath, arranged by the following themes:
+
+- **Romantic relationships **
+- **Individual Identity**
+- **The past and the present  **
+
+### Romantic relationships
+
+> **blockquote**
+> **“...exhaled all the breath in his lungs at the sound of her name” — Narrator**
+
+#### Meaning and context
+
+- The narrator says that Attila became breathless when he heard Rosie’s name mentioned at the “London hospital” where she used to work
+
+#### Analysis
+
+- Forna shows Attila’s strong and lasting feelings for Rosie by emphasising his excitement at simply hearing her name:
+
+  - His reaction is so strong it is physical
+
+> **blockquote**
+> **“On this slender hope he hung his heart” — Narrator**
+
+#### Meaning and context
+
+- Attila hopes that Rosie will remember him when he visits next
+
+#### Analysis
+
+- Forna’s [alliteration](https://www.savemyexams.com/glossary/gcse/english-language/alliteration-definition/) in “hope”, “hung” and “heart” accentuates the *emotive language*:
+
+  - Attila is very disappointed to find Rosie in a care home, but he still holds out a vain and desperate “hope” for a rekindled romance
+  - Forna implies Attila has a sense of regret over the missed chance to be with Rosie
+
+### Individual identity
+
+> **blockquote**
+> **“But he went back to his country anyway, full of ideas of himself, of the future” — Narrator **
+
+#### Meaning and context
+
+- Attila’s choice to go back home after graduating from university in England was because he had dreams and personal goals
+
+#### Analysis
+
+- Forna highlights the difficult decision Attila faced choosing between Rosie and a career as a doctor back home:
+
+  - It is implied Attila went back to Africa to help “displaced populations” with “trauma”, and that it was there that his wife was killed in an atrocity
+- Forna here raises themes about personal identity and impactful decisions
+
+> **blockquote**
+> **“She reached out to touch the drops or rain on the leaves” — Narrator **
+
+#### Meaning and context
+
+- When Attila and Rosie are walking in the garden of the care home, Rosie is “youthful”, and takes in the “wonder” of nature by touching the wet leaves
+
+#### Analysis
+
+- Forna highlights, with *sensory imagery*, Rosie’s cheerful nature
+- Despite her age and condition, she takes pleasure in simple things
+- This may emphasise the sense of loss Attila feels having lived without her
+
+### The past and the present
+
+> **blockquote**
+> **“At the desk he asked for her by her maiden name” — Narrator**
+
+#### Meaning and context
+
+- Attila does not consider Rosie may be married when he visits her at the care home
+- That he does not know if she has married highlights the length of absence between them
+
+#### Analysis
+
+- Forna illustrates how Attila’s memory of Rosie is limited to their time at university
+- This creates suspense, as readers and Attila wait to find out what Rosie is like now
+- It also reveals Attila as stuck in the past
+
+> **blockquote**
+> **“Attila felt light-headed and — somewhat bizarrely — youthful” — Narrator **
+
+#### Meaning and context
+
+- When Attila and Rosie walk in the garden he is taken back to the past and feels excited:
+
+  - In a strange way, she makes him feel young again
+
+#### Analysis
+
+- Forna creates a sympathetic portrayal of Attila and Rosie’s romance:
+
+  - Despite their age, he is “youthful” when he is with her, and this, Forna implies, he has not felt for a long time
+- Forna implies Rosie would have brought fun to his life as she used to say he was “too serious”
+
+#### Sources
+
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

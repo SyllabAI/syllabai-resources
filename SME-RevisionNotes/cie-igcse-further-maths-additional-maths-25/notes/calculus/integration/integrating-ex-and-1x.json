@@ -1,0 +1,216 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_M4BvnTC9rwJhbdjy",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/integration/integrating-ex-and-1x",
+ "title": "Integrating e^x & 1/x",
+ "page_title": "Integrating e^x & 1/x | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "integrating-ex-and-1x"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "integrating-ex-and-1x"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Integrating e^x & 1/x"
+ },
+ "updated_at": "2026-07-02T08:19:38.536Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_N2d7b7XT2gzcq6Mz"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><msup><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold-italic\">x</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold e to the power of bold italic x"
+  },
+  {
+   "latex": "\\mathrm{ln}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"bold\">ln</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space bold ln bold space bold italic x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic c"
+  },
+  {
+   "latex": "(ax+b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"bold-italic\">a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space bold italic a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"bold-italic\">b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space bold italic b"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space k"
+  },
+  {
+   "latex": "\\mathrm{ln}(ax+b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>ln</mi><mo> </mo><mo>(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space ln space left parenthesis a x plus b right parenthesis"
+  },
+  {
+   "latex": "b=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>b</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space b equals 0"
+  },
+  {
+   "latex": "f'(x)=\\frac{3}{3x+2}+e^{4-x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>+</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>4</mn><mo>-</mo><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f apostrophe left parenthesis x right parenthesis equals fraction numerator 3 over denominator 3 x plus 2 end fraction plus straight e to the power of 4 minus x end exponent"
+  },
+  {
+   "latex": "f(1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis 1 right parenthesis"
+  },
+  {
+   "latex": "\\mathrm{ln}10-e^{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>ln</mi><mo> </mo><mn>10</mn><mo>-</mo><msup><mi mathvariant=\"normal\">e</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space ln space 10 minus straight e cubed"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 1"
+  },
+  {
+   "latex": "c.",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c."
+  },
+  {
+   "latex": "\\mathrm{ln}10-e^{3}=\\mathrm{ln}5-e^{3}+c\\,\\mathrm{ln}10-\\mathrm{ln}5=c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ln</mi><mo> </mo><mn>10</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mi>e</mi><mn>3</mn></msup><mo> </mo><mo>=</mo><mo> </mo><mi>ln</mi><mo> </mo><mn>5</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mi>e</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>c</mi><mspace linebreak=\"newline\"/><mi>ln</mi><mo> </mo><mn>10</mn><mo>-</mo><mi>ln</mi><mo> </mo><mn>5</mn><mo> </mo><mo>=</mo><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "ln space 10 space minus space e cubed space equals space ln space 5 space minus space e cubed space plus space c\nln space 10 minus ln space 5 space equals space c"
+  },
+  {
+   "latex": "\\mathrm{ln}a-\\mathrm{ln}b=\\mathrm{ln}\\frac{a}{b}.",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ln</mi><mo> </mo><mi>a</mi><mo> </mo><mo>-</mo><mo> </mo><mi>ln</mi><mo> </mo><mi>b</mi><mo> </mo><mo>=</mo><mi>ln</mi><mo> </mo><mfrac><mi>a</mi><mi>b</mi></mfrac><mo> </mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "ln space a space minus space ln space b space equals ln space a over b space."
+  },
+  {
+   "latex": "c=\\mathrm{ln}\\frac{10}{5}=\\mathrm{ln}2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>=</mo><mi>ln</mi><mo> </mo><mfrac><mn>10</mn><mn>5</mn></mfrac><mo>=</mo><mi>ln</mi><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c equals ln space 10 over 5 equals ln space 2"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 19
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_N2d7b7XT2gzcq6Mz",
+   "name": "Integrating e^x & 1/x",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating e^x & 1/x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate exponentials and 1/x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **integrals** involving$e^{x}$ and$\\mathrm{ln}x$ are"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold space bold integral bold space bold e to the power of bold italic x bold space bold d bold italic x bold equals bold space bold e to the power of bold italic x bold plus bold italic c`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`equation`"
+  },
+  {
+   "type": "paragraph",
+   "md": "where $c$ is the **constant** of **integration**"
+  },
+  {
+   "type": "bullets",
+   "md": "- For the **linear** function$(ax+b)$, where$a$ and$b$ are constants,"
+  },
+  {
+   "type": "paragraph",
+   "md": "** **`bold space bold integral bold e to the power of bold italic a bold italic x bold plus bold italic b end exponent bold space bold d bold italic x bold equals bold 1 over bold italic a bold e to the power of bold italic a bold italic x bold plus bold italic b end exponent bold plus bold italic c`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`equation`"
+  },
+  {
+   "type": "bullets",
+   "md": "- It follows from the last result that"
+  },
+  {
+   "type": "paragraph",
+   "md": "`equation`"
+  },
+  {
+   "type": "bullets",
+   "md": "- which can be deduced using **Reverse Chain Rule**\n- With **ln,** it can be useful to write the constant of integration,$c$, as a logarithm\n\n  - using the laws of logarithms, the answer can be written as a single term\n  - `equation`where$k$ is a constant\n  - This is similar to the special case of **differentiating**$\\mathrm{ln}(ax+b)$ when$b=0$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A curve has the gradient function$f'(x)=\\frac{3}{3x+2}+e^{4-x}$.\n\nGiven the exact value of$f(1)$ is$\\mathrm{ln}10-e^{3}$ find an expression for$f(x)$.\n\n> *To find *`f open parentheses x close parentheses`*, we need to integrate the expression for *`f apostrophe open parentheses x close parentheses.`*   *\n\n`f open parentheses x close parentheses equals integral fraction numerator 3 over denominator 3 x plus 2 end fraction plus e to the power of 4 minus x end exponent space d x`\n\n> *Rewrite as two separate integrals which can be found individually, and factor out any constants.  *\n\n`f open parentheses x close parentheses equals 3 integral fraction numerator 1 over denominator 3 x plus 2 end fraction d x space plus space integral e to the power of 4 minus x end exponent space d x`\n\n*Use the two results:* `integral fraction numerator 1 over denominator a x plus b end fraction d x equals 1 over a ln vertical line a x plus b vertical line space plus space c` `integral e to the power of a x plus b end exponent d x space equals fraction numerator space 1 over denominator a end fraction space e to the power of a x plus b end exponent space plus c`\n\n`f open parentheses x close parentheses equals 3 open parentheses 1 third ln vertical line 3 x plus 2 vertical line close parentheses space plus space minus 1 e to the power of 4 minus x end exponent space plus c\nf open parentheses x close parentheses equals ln vertical line 3 x plus 2 vertical line space minus space e to the power of 4 minus x end exponent space plus c`\n\n> *The question states that *`f open parentheses 1 close parentheses equals ln 10 space minus space e cubed`*, so substitute in *$x=1$* and equate to the given expression.  *\n\n`ln space 10 space minus space e cubed space equals space ln vertical line 3 open parentheses 1 close parentheses plus 2 vertical line space minus space e to the power of 4 minus 1 end exponent plus c`\n\n> *Simplify and solve to find *$c.$*  *\n\n$\\mathrm{ln}10-e^{3}=\\mathrm{ln}5-e^{3}+c\\,\\mathrm{ln}10-\\mathrm{ln}5=c$\n\n> *Recall from laws of logarithms that *$\\mathrm{ln}a-\\mathrm{ln}b=\\mathrm{ln}\\frac{a}{b}.$*  *\n\n$c=\\mathrm{ln}\\frac{10}{5}=\\mathrm{ln}2$\n\n> *Rewrite the full expression for *`f open parentheses x close parentheses.`*  *\n\n`equation`  \n**or by combining logs, this could be written as **`f open parentheses x close parentheses equals ln space open parentheses 2 vertical line 3 x plus 2 vertical line close parentheses space minus space e to the power of 4 minus x end exponent`"
+  }
+ ]
+}

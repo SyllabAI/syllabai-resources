@@ -1,0 +1,117 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_hbxj8Phd5VK273zy",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/10-boolean-logic/boolean-logic/logic-circuits",
+ "title": "Logic Circuits",
+ "page_title": "Logic Circuits - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "10-boolean-logic",
+   "boolean-logic",
+   "logic-circuits"
+  ],
+  "section": "10-boolean-logic",
+  "topic": "boolean-logic",
+  "leaf": "logic-circuits"
+ },
+ "titles": {
+  "section": "10. Boolean Logic",
+  "topic": "Boolean Logic",
+  "subtopic": "Logic Circuits"
+ },
+ "updated_at": "2024-06-27T15:03:28.943Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_HY2mCJxGw3T58Q6D"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 11,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_HY2mCJxGw3T58Q6D",
+   "name": "Logic Circuits",
+   "definition": "\"3 (a) Use logic gates to create given logic circuits\nfrom a:\n (i) problem statement\n (ii) logic expression\n (iii) truth table\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Logic Circuits"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a logic circuit?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A logic circuit **performs logical operations** on binary information\n- Logic gates are **core components** of logic circuits\n- Based on the** arrangement of logic gates** and the** input signals**, the circuit performs a specific function\n- A logic diagram is a **visual representation** of a combinations of logic gates within a logic circuit\n- **Brackets **are used to clarify the **order **of operations\n- An example logic diagram for the *Boolean expression* **Q =** **NOT(A OR B) **would be:"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/05/screenshot-2023-05-30-at-08-31-16.png",
+   "file": "assets/7cae4b772242-screenshot-2023-05-30-at-08-31-16.png",
+   "alt": "logic circuit1",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In the logic diagram above, the **inputs **are represented by **A and B**\n- **P** is the **output **of the OR gate on the left and becomes the input of the NOT gate\n- **Q** is the **final output **of the logic circuit"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "You may be asked to draw a logic circuit from a logic statement or a Boolean expression **OR **write the logical expression that is expressed in the logic diagram using Boolean expression operators\n\nLogic circuits will be limited to a **maximum of three inputs and one output**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example of combining logic gates"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/10-boolean-logic.png",
+   "file": "assets/54753df62cf6-10-boolean-logic.png",
+   "alt": "10-boolean-logic",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- **P = (A OR B) AND NOT C **"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A sprinkler system switches on if it is not daytime (input A) and the temperature is greater than 40 (input B)\n\nDraw a logic circuit to represent the problem statement above\n\n**[2]**\n\n![screenshot-2023-05-30-at-08-34-38](assets/b2a4b60e28b3-screenshot-2023-05-30-at-08-34-38.png)"
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mFQrBpFJGgHjvxdS",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/5-the-internet-and-its-uses/cyber-security/keeping-data-safe",
+ "title": "Keeping Data Safe",
+ "page_title": "Defensive Design - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "5-the-internet-and-its-uses",
+   "cyber-security",
+   "keeping-data-safe"
+  ],
+  "section": "5-the-internet-and-its-uses",
+  "topic": "cyber-security",
+  "leaf": "keeping-data-safe"
+ },
+ "titles": {
+  "section": "5. The Internet & its Uses",
+  "topic": "Cyber Security",
+  "subtopic": "Keeping Data Safe"
+ },
+ "updated_at": "2025-01-17T11:27:13.132Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_QxrV2RTBKVNvdJnv",
+  "spcpt_Tzt3Cn3HMp4Qz9XF",
+  "spcpt_GCBVHmTMRZvBDSxj",
+  "spcpt_5FtK6Fnjph9j5zJR",
+  "spcpt_d6zXhfPYRXt9yZmK",
+  "spcpt_HbfW5v8mcwyPVsNb",
+  "spcpt_g2PdzSRQTnBmcntD",
+  "spcpt_39xh2vcp5zQdZCm2",
+  "spcpt_XrshRxKWjqd9XrCx",
+  "spcpt_46gyBTd48R2cBY57"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 48,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_QxrV2RTBKVNvdJnv",
+   "name": "Access Levels",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Access Levels"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are access levels?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Access levels ensure users of a network **can access what they need to access** and do not have access to information/resources they shouldn't\n- Users can have **designated** **roles** on a network\n- Access levels can be set based on a user's **role, responsibility, or clearance level**\n\n  - **Full access - **this allows the user to open, create, edit & delete files\n  - **Read-only access - **this only allows the user to open files without editing or deleting\n  - **No access - **this hides the file from the user\n- Some examples of different levels of access to a school network could include:\n\n  - **Administrators: ***Unrestricted* - Can access all areas of the network\n  - **Teaching Staff:** *Partially restricted - *Can access all student data but cannot access other staff members' data\n  - **Students:** *Restricted* - Can only access their own data and files\n- Users and groups of users can be given **specific file permissions**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Tzt3Cn3HMp4Qz9XF",
+   "name": "Anti Malware",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Anti Malware"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is anti-malware software?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anti-malware software is a term used to describe a combination of different software to prevent computers from being susceptible to **viruses** and other **malicious software**\n- The different software anti-malware includes are\n\n  - **Anti-virus**\n  - **Anti-spam**\n  - **Anti-spyware **"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How does anti-malware work?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anti-malware **scans** through **email** attachments, **websites** and downloaded **files** to search for issues\n- Anti-malware software has a list of known malware **signatures to block** immediately if they try to access your device in any way\n- Anti-malware will also perform **checks for updates** to ensure the database of known issues is up to date"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_GCBVHmTMRZvBDSxj",
+   "name": "Authentication",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Authentication"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is authentication?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Authentication is the process of **ensuring that a system is secure** by asking the user to **complete tasks to prove they are an authorised** user of the system\n- Authentication is done because **bots can submit data in online forms**\n- Authentication can be done in several ways, these include\n\n  - **Usernames and passwords**\n  - ***Multi-factor authentication***\n  - ***CAPTCHA***** **- see example below"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/authentication-recaptcha.png",
+   "file": "assets/3550a1697208-authentication-recaptcha.png",
+   "alt": "authentication-recaptcha",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Biometrics"
+  },
+  {
+   "type": "bullets",
+   "md": "- Biometrics use** biological data **for authentication by identifying **unique physical characteristics** of a human such as **fingerprints**, **facial recognition**, or** iris scans**\n- Biometric authentication is **more secure** than using passwords as:\n\n  - A biometric password **cannot be guessed**\n  - It is very **difficult to fake** a biometric password\n  - A biometric password** cannot be recorded **by spyware\n  - A perpetrator **cannot shoulder surf** to see a biometric password"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_5FtK6Fnjph9j5zJR",
+   "name": "Automating Software Updates",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Automating Software Updates"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are automatic software updates?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Automatic software updates take away the need for a user to remember to keep software updated and **reduce the risk of software flaws/vulnerabilities** being targeted in** out of date software**\n- Automatic updates** ensure fast deployment** of updates as they release"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_d6zXhfPYRXt9yZmK",
+   "name": "Communication",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Communication"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is communication?"
+  },
+  {
+   "type": "bullets",
+   "md": "- One way of protecting data is by **monitoring digital communication** to check for errors in the **spelling** and **grammar **or **tone **of the communication\n- Phishing scams often involve communication with users, monitoring it can be effective as:\n\n  - **Rushed **- emails and texts pretending to be from a reputable company are focused on quantity rather than quality and often contain basic spelling and grammar errors\n  - **Urgency **- emails using a tone that creates panic or makes a user feel rushed is often a sign that something is suspicious\n  - **Professionalism **- emails from reputable companies should have flawless spelling and grammar"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_HbfW5v8mcwyPVsNb",
+   "name": "URL",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "URL"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How to check a URL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Checking the **URL attached to a link **is another way to prevent phishing attacks\n- Hackers often use fake URLs to trick users into visiting fraudulent websites\n\n  - e.g. **http://amaz.on.co.uk/** rather than** http://amazon.co.uk/ **\n- If you are unsure, always check the website URL **before clicking any links** contained in an email"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_g2PdzSRQTnBmcntD",
+   "name": "Firewalls",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Firewalls"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a firewall?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A firewall** monitors incoming and outgoing network traffic **and uses a set of rules to determine which traffic to allow\n- A firewall prevents **unwanted traffic** from entering a network by filtering requests to ensure they are **legitimate**\n- It can be both **hardware** and **software** and they are often used together to provide stronger security to a network\n\n  - **Hardware firewalls** will protect the whole network and prevent unauthorised traffic\n  - **Software firewalls** will protect the individual devices on the network, monitoring the data going to and from each computer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What form of attack would this prevent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hackers\n- Malware\n- Unauthorised access to a network"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_39xh2vcp5zQdZCm2",
+   "name": "Privacy Settings",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Privacy Settings"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are privacy settings?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Privacy settings are used to **control the amount of personal information** that is shared online\n- They are an important measure to prevent identity theft and other forms of online fraud\n- Users should **regularly review** their privacy settings and adjust them as needed"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_XrshRxKWjqd9XrCx",
+   "name": "Proxy Servers",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Proxy Servers"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a proxy server?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A proxy-server is used to** hide a user's IP address** and **location**, making it more difficult for** hackers to track them**\n- They **act as a firewall **and can also be used to** filter web traffic **by setting criteria for traffic\n- Malicious content **is blocked** and a warning message can be sent to the user\n- Proxy-servers are a useful security measure for protecting against external security threats as it can direct traffic away from the server"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_46gyBTd48R2cBY57",
+   "name": "SSL",
+   "definition": "\"2 Explain how a range of solutions are used to help\nkeep data safe from security threats\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "SSL"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is SSL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Secure Socket Layer (**SSL**) is a** security protocol **which is used to **encrypt data** transmitted **over the internet**\n- This helps to prevent **eavesdropping **and other forms of **interception**\n- SSL is widely used to protect **online transactions**, such as those involving credit card information or other sensitive data\n- It works by sending a **digital certificate **to the user’s browser\n- This contains the **public key** which can be used for **authentication**\n- Once the certificate is authenticated, the transaction will begin"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(i) ) Identify a security solution that could be used to protect a computer from a computer virus, hacking and spyware.\n\nEach security solution must be different\n\n| Threat | Security solution |\n|---|---|\n| **Computer virus** |   |\n| **Hacking** |   |\n| **Spyware** |   |\n\n**[3]**\n\n(ii) Describe how each security solution you identified in (i) will help protect the computer.\n\n**[6]**\n\n**Answers**\n\n(i)\n\n| Threat | Security solution |\n|---|---|\n| **Computer virus** | **Final answer:** **Anti-malware/virus (software) Firewall** |\n| **Hacking** | **Final answer:** **Firewall**<br><br>**Final answer:** **Passwords**<br><br>**Final answer:** **Biometrics**<br><br>**Final answer:** **Two-step verification** |\n| **Spyware** | **Final answer:** **Anti-malware/virus (software)**<br><br>**Final answer:** **Two-step verification**<br><br>**Final answer:** **Firewall** |\n\n(ii) **Two **marks for each description\n\n- **Anti-malware/virus (software)**\n\n  - ** Scans the computer system (for viruses)**\n  - **Has a record of known viruses**\n  - **Removes/quarantines any viruses that are found**\n  - **Checks data before it is downloaded**\n  - **… and stops download if virus found/warns user may contain virus**\n- **Anti-malware/spyware (software)**\n\n  - **Scans the computer for spyware**\n  - **Removes/quarantines any spyware that is found**\n  - **Can prevent spyware being downloaded**\n- **Firewall**\n\n  - **Monitors traffic coming ****into and out of**** the computer system**\n  - **Checks**** that the traffic meets any criteria/rules set**\n  - **Blocks any traffic that does not meet the criteria/rules set // set blacklist/whitelist**\n- **Passwords**\n\n  - **Making a password stronger // by example**\n  - **Changing it regularly**\n  - **Lock out after set number of attempts // stops brute force attacks // makes it more difficult to guess**\n- **Biometrics**\n\n  - **Data needed to enter is unique to individual**\n  - **… therefore it is very difficult to replicate**\n  - **Lock out after set number of attempts**\n- **Two-step verification**\n\n  - **Extra data is sent to device, pre-set by user**\n  - **… making it more difficult for hacker to obtain it**\n  - **Data has to be entered into the same system**\n  - **… so if attempted from a remote location, it will not be accepted**"
+  }
+ ]
+}
