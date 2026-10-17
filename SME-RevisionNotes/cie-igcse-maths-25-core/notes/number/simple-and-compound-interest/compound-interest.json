@@ -1,0 +1,134 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_s8zTmwzJ28dChpsm",
+ "course_slug": "cie-igcse-maths-25-core",
+ "url": "https://www.savemyexams.com/igcse/maths/cie/25/core/revision-notes/number/simple-and-compound-interest/compound-interest",
+ "title": "Compound Interest",
+ "page_title": "Compound Interest | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "number",
+   "simple-and-compound-interest",
+   "compound-interest"
+  ],
+  "section": "number",
+  "topic": "simple-and-compound-interest",
+  "leaf": "compound-interest"
+ },
+ "titles": {
+  "section": "Number",
+  "topic": "Simple & Compound Interest",
+  "subtopic": "Compound Interest"
+ },
+ "updated_at": "2026-01-19T11:26:56.500Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_X5nyhcXpq3TP33H5",
+   "rnl_mZHMWntbKc49tmWd",
+   "rnl_G57fFD8n8nrKy5qF",
+   "rnl_7mBTBqKmyqQbndK5"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_VzvvzCkn52qnHts8"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "1+\\frac{r}{100}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mfrac><mi>r</mi><mn>100</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "1 plus r over 100"
+  },
+  {
+   "latex": "\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04=1.04^{7}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#215;</mo><mn >1</mn><mo >.</mo><mn >04</mn><mo >&#160;</mo><mo >=</mo><mo >&#160;</mo><mn >1</mn><mo >.</mo><msup><mn >04</mn><mn >7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "cross times 1.04 cross times 1.04 cross times 1.04 cross times 1.04 cross times 1.04 cross times 1.04 cross times 1.04 space equals space 1.04 to the power of 7"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_VzvvzCkn52qnHts8",
+   "name": "Compound Interest",
+   "definition": null,
+   "video_id": "327453576"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Compound Interest"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is compound interest?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Compound interest** is where interest is calculated on the **running total**, not just the starting amount\n\n  - This is different from **simple interest** where interest is only based on the starting amount\n- e.g. **\\$ 100** earns **10% interest** each year, for 3 years\n\n  - At the end of year 1, **10% of \\$ 100 is earned**\n  \n    - The total balance will now be 100+10 = **\\$ 110**\n  - At the end of year 2, **10% of \\$ 110 is earned**\n  \n    - The balance will now be 110+11 = **\\$ 121**\n  - At the end of year 3, **10% of \\$ 121 is earned**\n  \n    - The balance will now be 121+12.1 = **\\$ 133.10**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I calculate compound interest?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Compound interest **increases an amount by a percentage**, and then **increases the new amount by the same percentage**\n\n  - This process repeats each time period (yearly or monthly etc)\n- We can use a **multiplier **to carry out the percentage increase multiple times\n\n  - To increase **\\$ 300** by **5%** **once**, we would find **300×1.05**\n  - To increase **\\$ 300** by **5%**, each year for** 2 years**, we would find (300×1.05)×1.05\n  \n    - This could be rewritten as **300×1.05**<sup>**2**</sup>\n  - To increase **\\$ 300** by **5%**, each year for **3 years**, we would find ((300×1.05)×1.05)×1.05\n  \n    - This could be rewritten as **300×1.05**<sup>**3**</sup>\n- This can be extended to any number of periods that the interest is applied for\n\n  - If **\\$ 2000** is subject to **4%** compound interest each year for **12 years**\n  - Find **2000×1.04**<sup>**12**</sup>**, **which is \\$ 3202.06\n- Note that this method calculates the** total balance** at the end of the period, **not the interest** **earned**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I calculate depreciation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A similar method can be used if something **decreases in value** by a percentage every year (e.g. a car)\n- This is known as **depreciation **\n- Change the **multiplier **to one which represents a percentage decrease\n\n  - e.g. a decrease of 15% would be a multiplier of 0.85\n- If a car worth \\$ 16 000 depreciates by 15% each year for 6 years\n\n  - Its value will be 16 000 × 0.85<sup>6</sup>, which is \\$ 6034.39"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Compound interest formula"
+  },
+  {
+   "type": "bullets",
+   "md": "- An **alternative method** is to use the **following formula** to calculate the final balance\n\n  - Final balance = `P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent` where\n  \n    - *P* is the original amount,\n    - *r* is the % increase,\n    - and *n* is the number of years\n  - Note that $1+\\frac{r}{100}$ is the same value as the multiplier\n  \n    - e.g. 1.15 for 15% interest\n- This formula is **not given** in the exam"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Double check if the question uses simple interest or compound interest\n- The formula for compound interest is **not **given in the exam"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Jasmina invests \\$ 1200 in a savings account which pays compound interest at the rate of 4% per year for 7 years.\n\nTo the nearest dollar, what is her investment worth at the end of the 7 years?\n\n**Answer:**\n\n> *We want an increase of 4% per year, this is equivalent to a multiplier of 1.04, or 104% of the original amount*\n\n> *This multiplier is applied 7 times; *$\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04\\times1.04=1.04^{7}$\n\n> *Therefore the final value after 7 years will be*\n\n`1200 space cross times space 1.04 to the power of 7 space equals space $ space 1579.118135`\n\n> *Round to the nearest dollar*\n\n`bold $ bold space bold 1579`\n\n> *Alternate method*\n*Using the formula for the final amount   *`P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent`\n*Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *\n\n`1200 open parentheses 1 plus 4 over 100 close parentheses to the power of 7`\n\n`bold $ bold space bold 1579`"
+  }
+ ]
+}
