@@ -1,0 +1,990 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:55:53Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "1-types-and-components-of-computer-systems",
+  "name": "1. Types & Components of Computer Systems"
+ },
+ "topic": {
+  "id": "top_bk7MsdRxBtf9dsc7",
+  "slug": "components-of-computer-systems",
+  "name": "Components of Computer Systems",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "internal-memory",
+   "name": "Internal Memory",
+   "revision_note_id": "rn_J5T3h4Fm2ZJQgp77"
+  },
+  {
+   "slug": "central-processing-unit-cpu",
+   "name": "Central Processing Unit (CPU)",
+   "revision_note_id": "rn_Kf6kcXzsNJpJfGx6"
+  },
+  {
+   "slug": "input-devices",
+   "name": "Input Devices",
+   "revision_note_id": "rn_cvY4hQrzNdkKCCRY"
+  },
+  {
+   "slug": "output-devices",
+   "name": "Output Devices",
+   "revision_note_id": "rn_BQbVqm32K54BF3QC"
+  },
+  {
+   "slug": "storage",
+   "name": "Storage",
+   "revision_note_id": "rn_fWckPVdgYCb6TFV4"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8kx5RZRrQ9HB6sPH",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 27,
+   "questions_embedded": 27,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/1-types-and-components-of-computer-systems/components-of-computer-systems/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 27,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/07/64262_0417-13-q13c.png": "001-table-listing-types-of-fruit-with-corresponding-.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/26327_0417-12-q13ci.png": "002-a-black-and-white-qr-code-on-a-white-background-.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/36879_0417-12-q13cii.png": "003-barcode-with-parallel-black-lines-and-the-number.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/9037_0417-12-q13ciii.png": "004-blank-white-card-with-a-prominent-black-magnetic.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/55257_0417-12-q13civ.png": "005-abstract-black-and-grey-geometric-design-with-la.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_rjgRqbxjpNcgDR36",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_v9yFNjnpd5jR2Sx6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Desktop computers commonly use Hard Disc Drives (HDD) rather than Solid State Drives (SSD).\n\n**Describe two** advantages of using an HDD rather than an SSD in a desktop computer.",
+     "solution_md": "Two advantages of using an HDD rather than an SSD in a desktop are:\n\n- Cheaper cost per Gb than SSD **[1 mark]**\n- Longer lifespan with unlimited read/write cycles **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XwmFbXhjtyC4FHwY",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mNQDktBGGWNTZ9Wz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/13",
+      "question_number": 13,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "A shopkeeper sells fruit and has created a table containing the name of the fruit, its bar code number and an image of the bar code.\n\nPart of the table is shown.\n\n![Table listing types of fruit with corresponding bar code numbers and images: Apple Fuji, Apple Jona Gold, and Apricot with numeric bar codes.](assets/001-table-listing-types-of-fruit-with-corresponding-.png)\n\n**Describe **the advantages and disadvantages of entering the data by scanning the bar code rather than typing in the number.",
+     "solution_md": "Examples of the advantages of entering data by scanning the bar code include:\n\nMax **two **from the following:\n\n- Faster data entry **[1 mark]**\n- Fewer data entry errors are made **[1 mark]**\n\nExamples of the disadvantages of entering data by scanning the bar code include:\n\nMax **two **from the following:\n\n- The scanner could misread the barcode whereas people typing in the data are more likely to check **[1 mark]**\n- Extra hardware is required increasing costs **[1 mark]**\n- If the bar code is damaged/folded/missing then the data may not be read properly **[1 mark]**\n- More reliant on the technology **[1 mark]**\n- If the barcode is incorrect the scanner would not know whereas a human could see the difference **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dPDX8CQBtFGMn7gH",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_qJ5YvSBpPPZH6563",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "circle",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/13",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **solid-state storage devices from the list below:\n\n- Actuator\n- Cloud\n- CD-ROM drive\n- DVD drive\n- HDD\n- Pen drive\n- Sensor\n- SSD",
+     "solution_md": "Two solid-state storage devices are:\n\n- Pen drive **[1 mark]**\n- SSD **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7qywCRp4FF38YXPJ",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VqpHfvmmwwDJh7Rg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/13",
+      "question_number": 13,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "A shopkeeper sells fruit and has created a table containing the name of the fruit, its bar code number and an image of the bar code.\n\nPart of the table is shown.\n\n![Table listing types of fruit with corresponding bar code numbers and images: Apple Fuji, Apple Jona Gold, and Apricot with numeric bar codes.](assets/001-table-listing-types-of-fruit-with-corresponding-.png)\n\nA bar code reader is an example of a direct data entry device.\n\nState **three **other examples of direct data entry devices.",
+     "solution_md": "Examples of other direct data entry devices include:\n\nAny **three **of the following:\n\n- Magnetic stripe reader **[1 mark]**\n- Radio Frequency Identification reader **[1 mark]**\n- Optical Mark Reader **[1 mark]**\n- Optical Character Reader **[1 mark]**\n- QR scanner **[1 mark]**\n- Biometric scanner **[1 mark]**\n- Magnetic Ink Character Reader **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_W92KMzkH5sxXb294",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_smdTNTbnvMfhCB6V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 14,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "State **three **advantages of using solid state storage devices rather than magnetic storage devices.",
+     "solution_md": "Advantages of using solid state storage devices include:\n\nAny **three **of the following:\n\n- More robust **[1 mark]**\n- Faster data access times **[1 mark]**\n- Faster data transfer times **[1 mark]**\n- Faster read and write speeds **[1 mark]**\n- Less likely to be affected by magnetic fields **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BYpghfyWY6nCh8GJ",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_77x4nx3w3mK5zX3W",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 13,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd",
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "When a person changes their password they are asked to verify that it has been entered correctly by re-entering the password.\n\nThe keyboard used to enter the password is an input device.\n\n**Explain **the differences between input and output devices.",
+     "solution_md": "The difference between input and output devices include:\n\nAny **four **of the following:\n\n- An input device sends data to a computer for processing **[1 mark]**\n- An output device receives data from the computer **[1 mark]**\n- An output device displays the results of processed data **[1 mark]**\n- Input devices are controlled by the user **[1 mark]**\n- Output devices are controlled by the computer **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kjnt886BHzGHzY8w",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_7mqJkmSwwKd2ttDC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 13,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "When a person changes their password they are asked to verify that it has been entered correctly by re-entering the password.\n\n**State **the direct data entry device that is used to read the following types of data.\n\n![A black and white QR code on a white background, consisting of square patterns. It can be scanned by a smartphone for more information or links.](assets/002-a-black-and-white-qr-code-on-a-white-background-.png)",
+     "solution_md": "The direct data entry device that is used is:\n\n- QR (Code) reader/scanner  **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_GnKhzXjhShPvV6bY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 13,
+      "question_part": "c(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "![Barcode with parallel black lines and the numbers 977135120128602 below, used for scanning and identifying products.](assets/003-barcode-with-parallel-black-lines-and-the-number.png)",
+     "solution_md": "The direct data entry device that is used is:\n\n- Bar code reader/scanner **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_yFmv3ThttgHxhRcY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 13,
+      "question_part": "c(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "![Blank white card with a prominent black magnetic strip on the top. The card lacks text or designs, implying it's unbranded or a template.](assets/004-blank-white-card-with-a-prominent-black-magnetic.png)",
+     "solution_md": "The direct data entry device that is used is:\n\n- Magnetic strip(e) reader/scanner **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_WHqWbRYXXvXzYt2x",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/12",
+      "question_number": 13,
+      "question_part": "c(iv)"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "![Abstract black and grey geometric design with layered squares and curves, resembling a stylised labyrinth or maze on a light grey background.](assets/005-abstract-black-and-grey-geometric-design-with-la.png)",
+     "solution_md": "The direct data entry device that is used is:\n\n- RFID reader/scanner **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nQNf3Hf4krYQ6fkd",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_kdFCT3w4MBqPpjzt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/2",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dnrJ2cF3xRPCgRhQ"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **items of internal memory from the list below:\n\n- Actuator\n- Cloud\n- DVD\n- Memory stick\n- Printer\n- RAM\n- ROM\n- Sensor",
+     "solution_md": "Two items of internal memory are:\n\n- RAM **[1 mark]**\n- ROM **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_w9PXWvGr9N5TxrcK",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ymcSP3tgMHTF9rCF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/12",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PXj3PRdt9jhkKT39",
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "Laptop computers use Solid State Drives (SSD) rather than Hard Disc Drives (HDD).\n\n**Describe two** disadvantages of using an SSD rather than an HDD in a laptop computer.",
+     "solution_md": "Two disadvantages of using an SSD rather than an HDD in a laptop are:\n\n- They tend to have a more limited number of read and writes **[1 mark]**\n- More expensive per Gb than HDD **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sQcTd6z47wPwpykp",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_KdvKCMw8HHWrMn6y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/11",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Q5Ww5v5pSBPrjsGz",
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "Many laptop computers use the cloud to store data. A technician has produced a report on his laptop computer but has stored the report on a memory stick rather than storing it on the cloud.\n\n**Describe two **advantages of using a memory stick rather than the cloud to store data.",
+     "solution_md": "Advantages of using a memory stick rather than the cloud to store data include:\n\nAny **two** of the following:\n\n- Does not need access to the internet **[1 mark]**\n- Fewer issues storing the data as the connection could drop during storage if the cloud is used **[1 mark]**\n- More control over the stored data **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DTQcth5dnJz5VGGQ",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_VMWwXsBGdBcbRrQr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 11,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbHtcNjxtnhbsGCp",
+      "spcpt_PXj3PRdt9jhkKT39"
+     ],
+     "part_tier": null,
+     "problem_md": "Portable hard drives can be Solid State Drives (SSDs) or Hard Disk Drives (HDDs).\n\n**Explain **why the SSD may be better to use than the HDD.",
+     "solution_md": "Reasons why the SSD may be better to use than the HDD include:\n\nAny **four **of the following:\n\n- The SSD is more portable **[1 mark]**\n- The seek time in the SSD is smaller **[1 mark]**\n- The data transfer rate in the SSD is better/smaller **[1 mark]**\n- There is less chance of the data becoming corrupted as it can save whilst the drive is being moved **[1 mark]**\n- The SSD is smaller/thinner **[1 mark]**\n- The SSD uses less energy SSD is more robust as no moving parts **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FyttrWT4kTVfW7BW",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3QcFfkyStkzrVXbS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/12",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PXj3PRdt9jhkKT39"
+     ],
+     "part_tier": null,
+     "problem_md": "**Tick (✓)** the most appropriate storage medium that should be used in each scenario.\n\n| Scenario | Magnetic tape (✓) | RAM (✓) | ROM (✓) |\n|---|---|---|---|\n| To store the current instructions in use by a computer |   |   |   |\n| To back up data from a school network server |   |   |   |\n| To store data temporarily |   |   |   |\n| To store the start-up instructions of a computer |   |   |   |",
+     "solution_md": "| Scenario | Magnetic tape (✓) | RAM (✓) | ROM (✓) |\n|---|---|---|---|\n| To store the current instructions in use by a computer |   | **✓** |   |\n| To back up data from a school network server | **✓** |   |   |\n| To store data temporarily |   | **✓** |   |\n| To store the start-up instructions of a computer |   |   | **✓** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6MZnp3xRBQqT3ssS",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_TM9y8259XPHFszZ9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/12",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**State two** items that could be used to output data directly from a smartphone.\n\n| **Blu-ray disc** | ** microphone** |\n|---|---|\n| **mouse** | **screen** |\n| **SD card** | ** sensor ** |\n| **speaker** | **webcam** |",
+     "solution_md": "Two items that could be used to output data directly are:\n\n- Speaker **[1 mark]**\n- Screen **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PGRcZSmnwYZS8r4Q",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_BDTR3rjXg6VgqvkC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/11",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "**State two** input devices that could be used in a smartphone.\n\n| **HDD** | **magnetic stripe reader ** |\n|---|---|\n| **microphone** | **mouse** |\n| **remote  control  ** | **speaker ** |\n| ** touchpad** | **touch screen** |",
+     "solution_md": "The input devices used in a smartphone are:\n\n- Microphone **[1 mark]**\n- Touch screen **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Tq3p6GkcNTR67YDT",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_K8BRtyHSnbj3ymfJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 1,
+      "question_part": "a(i) & (ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "A tablet computer has input and output devices.\n\n**Give two **examples of input devices which are part of a tablet computer.",
+     "solution_md": "Examples of input devices which are part of a tablet computer include:\n\nAny **two **of the following:\n\n- Touchscreen **[1 mark]**\n- Camera **[1 mark]**\n- Microphone **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_DjtFjZpxNkZnbgtk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Give two **examples of output devices which are part of a tablet computer",
+     "solution_md": "Examples of output devices which are part of a tablet computer are:\n\n- Speakers **[1 mark]**\n- Screen **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rhmbdzbkb9QcbQPv",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CVQqq29SqF84VcYj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/12",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd"
+     ],
+     "part_tier": null,
+     "problem_md": "An air-conditioning system has been fitted in a hotel bedroom. The air-conditioning system will contain fans which operate at varying speeds.\n\n**Name **the output device that operates the fan.",
+     "solution_md": "The output device that would operate the fan is:\n\n- Actuator/motor **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GVD2dcndstxW5nXq",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_4xHTshrZtkhzPnqH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/12",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "Modern computers often do not have an optical drive.\n\n**State two **ways music can be transferred onto a computer that does not contain an optical drive.",
+     "solution_md": "Examples of ways music can be transferred onto a computer that does not contain an optical drive include:\n\nAny **two **of the following:\n\n- Streaming music from the internet **[1 mark]**\n- Sent by Bluetooth from another device **[1 mark]**\n- Plugging in an optical device/flash drive/HDD/SSD **[1 mark]**\n- Downloading music from the cloud **[1 mark]**\n- Direct input using a microphone **[1 mark]**\n- Sent by email attachment **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CgjDSVj3Jw7sBgm8",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_2yxKby6yfs764WnD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/12",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer consists of both hardware and software.\n\n**Give two **examples of input devices which are part of a laptop computer.",
+     "solution_md": "Examples of input devices which are part of a laptop computer include:\n\nAny **two **of the following:\n\n- Touchscreen **[1 mark]**\n- Touchpad **[1 mark]**\n- Webcam **[1 mark]**\n- Microphone **[1 mark]**\n- Keyboard **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fCM46PgrndyC6trN",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_TQCVymYMsXycfVSs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/13",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "**Identify two **input devices which are used in computer control systems.",
+     "solution_md": "Examples of input devices used in computer control systems include:\n\nAny **two **of the following:\n\n- Sensors **[1 mark]**\n- Keypad/Number pad **[1 mark]**\n- Touch screen **[1 mark]**\n- Microphone **[1 mark]**\n- Camera **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PJ3BPCfyJ9Gnsjdr",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_z3zsBnnwZkMvKVtn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/13",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PXj3PRdt9jhkKT39",
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "**State two **storage devices.\n\n| **Bridge** | **Digital camera** |\n|---|---|\n| **Magnetic tape** | **Linker** |\n| **USB Memory stick** | **Mouse** |\n| **Printer** | **Spreadsheet** |",
+     "solution_md": "The two storage devices are:\n\n- Magnetic tape **[1 mark]**\n- USB Memory stick **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZDkZyF8GRnYhvVGK",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_75mVwkY97dTGSS32",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer-controlled glasshouse is used to grow plants.\n\n**Identify two **output devices used in this glasshouse.",
+     "solution_md": "Examples output devices that would be used in the glasshouse include:\n\nAny **two **of the following:\n\n- Sprinkler **[1 mark]**\n- Lamp **[1 mark]**\n- Heater **[1 mark]**\n- Vents/Window openers/Motor **[1 mark]**\n- Actuator **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TrHz2FGgyQJnscGb",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_y3tkDcHms3ZDcVzH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/12",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "**State two **input devices.\n\n| **3D printer** | ** Actuator** |\n|---|---|\n| **CD ROM** | **Digital camera** |\n| **Keyboard** | **Linker** |\n| ** Monitor** | **Speaker** |",
+     "solution_md": "The two input devices are:\n\n- Keyboard **[1 mark]**\n- Digital camera **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FJQgRsHTCGfYfpVJ",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_N4GM9gPJJRT4fDrT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "name",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/11",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Nfvbnw5Zjj6KVjcd",
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "Martin wants to record a message for his students. His voice will be added to the presentation. He will also need to listen to his voice to make sure the sound is of good quality.\n\n**Name two **devices that he will need.",
+     "solution_md": "Devices that will be needed include:\n\nAny **two **of the following:\n\n- Microphone **[1 mark]**\n- Headphones/speakers **[1 mark]**\n- Sound card **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ndb9fS6nnPGsgvTQ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4ZTRkMKtrsW9rzFk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/11",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_HPT7mdB9Gk93RSHR"
+     ],
+     "part_tier": null,
+     "problem_md": "**Complete **the sentence using the most appropriate item from the list.\n\n| **ADC** | **an applet** |\n|---|---|\n| **hardware** | **HDD** |\n| **a router** | **a sensor ** |\n| **software** | ** SSD** |\n\nAn input device used in measurement applications is called …",
+     "solution_md": "An input device used in measurement applications is called …\n\n- a sensor **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zSwwmyZ67xxCgKxQ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_YvjkXZWmMSbNwGVb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0471/01",
+      "question_number": 13,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbHtcNjxtnhbsGCp"
+     ],
+     "part_tier": null,
+     "problem_md": "A media student is creating a movie, in school, for a project.\n\nHe needs to take the movie home to edit it.\n\nThe student intends to use a CFast solid-state memory card to transport the movie files.\n\nThe student is unable to save the work on the memory card.\n\n**Give two **error messages that may appear when attempting to save the work.",
+     "solution_md": "Examples of error messages that may appear include:\n\nAny **two **of the following:\n\n- Medium is full **[1 mark]**\n- Corrupt card **[1 mark]**\n- Write error **[1 mark]**\n- Card error **[1 mark]**\n- Card not initialised **[1 mark]**\n- Virus found on the card **[1 mark]**\n- Device not recognised **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zpk5t5Q5pNTxDM4j",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_ndDtRZvVVfsTvMwY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0417/01",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "For each of the following uses of data capture, **name one **appropriate direct data entry device.\n\nThe devices **must **be different in each case.\n\n1. Contactless credit cards",
+     "solution_md": "- Radio Frequency Identification/RFID reader **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_dbNGcVrvmKsZWJFK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0471/01",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "2. Multiple choice answers in an examination paper",
+     "solution_md": "- Optical Mark Reader/OMR **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_ZBD6hZfPjFcdmTD2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0471/01",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_5NKw2MCvtbcFzkY9"
+     ],
+     "part_tier": null,
+     "problem_md": "3. To scan items at a computerised till",
+     "solution_md": "- Bar Code reader/scanner **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ddVSk4tVS7njDxS6",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_kxRDGfZCjVmWNb2T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0471/01",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dnrJ2cF3xRPCgRhQ"
+     ],
+     "part_tier": null,
+     "problem_md": "One component of the internal memory of a computer is Random Access Memory (RAM).\n\n**State two **characteristics of RAM.",
+     "solution_md": "Characteristics of RAM include:\n\nAny **two **of the following:\n\n- RAM can be read from and written to **[1 mark]**\n- RAM is volatile memory **[1 mark]**\n- RAM is temporary storage **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

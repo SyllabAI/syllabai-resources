@@ -1,0 +1,209 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:56:11Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "12-website-authoring",
+  "name": "12. Website Authoring"
+ },
+ "topic": {
+  "id": "top_nx57qZNw4yjhKfsy",
+  "slug": "web-development-layers",
+  "name": "Web Development Layers",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "layers",
+   "name": "Layers",
+   "revision_note_id": "rn_zWBhvw4BrFHjnfvG"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_QyBjZ534gHmMV272",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/12-website-authoring/web-development-layers/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 5,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_MKMXDKVQcv6fycMy",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_gJwqzYNNZRnmvwQb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "discuss",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5WgxxZnfbwGp79cW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Discuss **the use of layers in the development of a webpage.",
+     "solution_md": "Webpages are typically developed using **three distinct layers**: **content**, **presentation**, and **behaviour**. Each layer has a specific role and contributes to a more structured and manageable development process.\n\nThe **content layer** is responsible for the structure and information on the webpage. It includes **text, images, headings, and links**, and is usually written using **HTML**. This layer forms the foundation of the site’s information.\n\nThe **presentation layer** controls how the content looks. This includes the **layout, fonts, colours, and overall styling** of the page. It is handled using **CSS (Cascading Style Sheets)**, which ensures that the appearance of the site is consistent and easily adjustable.\n\nThe **behaviour layer** adds interactivity and dynamic features to the webpage. This can include **form validation, animations, and interactive menus**, and is typically implemented using **JavaScript**.\n\nUsing a layered approach has several benefits. Each layer can be **developed and updated independently**, which makes maintaining and improving the site more efficient. It also allows **specialist developers to work on separate areas**—such as designers focusing on CSS and developers working on JavaScript—leading to **faster and more organised development** overall.\n\n> **[mark-scheme]**\n> - Defines what a layer is **[1 mark]**\n> - Describes the **content layer** (structure, HTML) **[1 mark]**\n> - Describes the **presentation layer** (appearance, CSS) **[1 mark]**\n> - Describes the **behaviour layer** (interactivity, JavaScript) **[1 mark]**\n> - Explains that layers can be developed independently **[1 mark]**\n> - Explains that specialists can work on different layers for efficient development **[1 mark]**\n> \n> **[Total marks: 6/6]**\n\n> **[exam-tip]**\n> **Five **top tips for answering this 6-mark \"discuss\" question effectively:\n> \n> 1. **Explain all three layers clearly**\n> \n>   - Describe what each layer does and what language/technology is typically used (HTML, CSS, JavaScript).\n> 2. **Use technical terms appropriately**\n> \n>   - Include words like **structure**, **layout**, **interactivity**, **form validation**, **independent development**, etc.\n> 3. **Include benefits of using layers**\n> \n>   - Don’t just list the layers—**explain why separating them improves development**, maintenance, and collaboration.\n> 4. **Be concise but complete**\n> \n>   - Each point should be **fully explained but not overly wordy**. Focus on covering all aspects of the indicative content.\n> 5. **Avoid vague answers**\n> \n>   - Instead of saying **\"layers make things better,\"** be specific:\n>   \n>     - *\"Using layers allows CSS files to be changed without altering the HTML content.\"*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VtpF9QTY3j7sY7Cp",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_p42xtXvkXks57Zp4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0417/12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5WgxxZnfbwGp79cW"
+     ],
+     "part_tier": null,
+     "problem_md": "A website can have three web development layers.\n\n**Tick (✔️) **whether the following statements refer to the behaviour layer, content layer or presentation layer.\n\n|   | Behaviour (**✔️)** | Content (**✔️) ** | Presentation (**✔️)** |\n|---|---|---|---|\n| This layer is used to display and format elements within the web page |   |   |   |\n| This layer includes the hyperlinks to navigate around the website |   |   |   |\n| This layer is used to enter scripting language to elements within a web page |   |   |   |\n| This layer is used to create the structure of a web page |   |   |   |",
+     "solution_md": "|   | Behaviour (**✔️)** | Content (**✔️) ** | Presentation (**✔️)** |\n|---|---|---|---|\n| This layer is used to display and format elements within the web page |   |   | **✔️ ****[1 mark]** |\n| This layer includes the hyperlinks to navigate around the website |   | **✔️ ****[1 mark]** |   |\n| This layer is used to enter scripting language to elements within a web page | **✔️ ****[1 mark]** |   |   |\n| This layer is used to create the structure of a web page |   | **✔️ ****[1 mark]** |   |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sZ7cvyFQZFWRRrzs",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_CkFfQdHKFWCBDXSn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0417/13",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_5WgxxZnfbwGp79cW"
+     ],
+     "part_tier": null,
+     "problem_md": "When a website is created, three web development layers are used: the content layer, the presentation layer and the behaviour layer.\n\n**Describe **what is meant by the presentation layer",
+     "solution_md": "The presentation layer can be described as:\n\nAny **three **of the following:\n\n- Usually includes media queries **[1 mark]**\n- Media queries changes the site’s display based on screen size and device **[1 mark]**\n- This is used to display and format elements within the web page/format of the web page/customise **[1 mark]**\n- This layer is defined by CSS (Cascading Style Sheets) **[1 mark]**\n- Contain styles that indicate how the document should be displayed in a web browser **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xVxBfXj9Vfb4yF5S",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_kry5bh28J4SHpqm6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Nov 202",
+      "number": "0417/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5WgxxZnfbwGp79cW"
+     ],
+     "part_tier": null,
+     "problem_md": "When a website is created, three web development layers are used: the content layer, the presentation layer and the behaviour layer.\n\n**Describe **what is meant by the content layer.",
+     "solution_md": "The content layer can be described as:\n\nAny **three **of the following:\n\n- Created using HTML Every aspect of the site’s content/information/data should be represented in this layer **[1 mark]**\n- Can consist of text/images/hyperlinks/multimedia **[1 mark]**\n- Layer used to create the structure of the web page **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ghk7KfmNvknnDkpC",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_KphbStCz5BjmYRmD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/12",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5WgxxZnfbwGp79cW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Identify **and **describe **the three web development layers.",
+     "solution_md": "The three web development layers are:\n\nAny **six** of the following:\n\n**Content layer ****[1 mark]**\n\n- Content can consist of text or images **[1 mark]**\n\n**Presentation layer ****[1 mark]**\n\n- This layer is defined by the CSS or styles to indicate how elements are displayed **[1 mark]**\n\n**Behaviour layer ****[1 mark]**\n\n- This layer of a web page allows interaction **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

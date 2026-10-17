@@ -1,0 +1,1323 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:03:15Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/25/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0580 & 0980",
+  "sme_course_id": "crs_xkcWDHFHdkKcxGnN",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25/core",
+  "course_name": "Cambridge (CIE) IGCSE Maths"
+ },
+ "section": {
+  "slug": "number",
+  "name": "Number"
+ },
+ "topic": {
+  "id": "top_z9jJP82jP8rt6p8H",
+  "slug": "simple-and-compound-interest",
+  "name": "Simple & Compound Interest",
+  "order": 8
+ },
+ "subtopics": [
+  {
+   "slug": "simple-interest",
+   "name": "Simple Interest",
+   "revision_note_id": "rn_TVyThzHTD5VvGJ4M"
+  },
+  {
+   "slug": "compound-interest",
+   "name": "Compound Interest",
+   "revision_note_id": "rn_s8zTmwzJ28dChpsm"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_5GpDvrgQT7y5PC6n",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/25/core/topic-questions/number/simple-and-compound-interest/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/01/qp18-0580-13-paper-1-may-2020-cie-igcse-maths.png": "001-qp18-0580-13-paper-1-may-2020-cie-igcse-maths.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_2JKMZd9dNf5RTBwR",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_t6Y8KzS4MVbhQkdg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8",
+      "spcpt_k4jVy6shrwS6DVwY",
+      "spcpt_CMmCdHzzw6vSwwk6"
+     ],
+     "part_tier": null,
+     "problem_md": "Geri and Tom start a business together.\n\nIn the first year, the business makes a profit of \\$127 600.\nGeri receives $\\frac{3}{8}$ of the profit.\nTom receives \\$22 330 of the profit.\nThe rest of the profit is put into a bank account.\n\n(i) Calculate how much money Geri receives.\n\n\\$ ............................................... [1]\n\n(ii) Calculate the amount put into the bank account as a percentage of the profit.\n\n............................................% [2]\n\n(iii) Tom invests his \\$22 330 at a rate of 3.2% per year compound interest. Calculate the value of this investment at the end of 5 years.\n\n\\$ ............................................... [2]",
+     "solution_md": "(i)\n\nMultiply \\$127600 by $\\frac{3}{8}$ to find how much Geri receives\n\n$\\frac{3}{8}\\times127600=47850$\n\n**Final answer:** **\\$47 850**\n\n**[B1]**\n\n(ii)\n\nSubtract the amounts Geri and Tom get from \\$127600\n\n$127600-47850-22330=57420$\n\nSo \\$57420 is put in the bank account\n\nTo find that as a percentage of the profit\n\n- divide it by the profit\n\n$\\frac{57420}{127600}$\n\n**[M1]**\n\n- and multiply by 100\n\n$\\frac{57420}{127600}\\times100=45$\n\n**Final answer:** **45%**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: For `fraction numerator 127600 minus your space Geri space amount minus 22330 over denominator 127600 end fraction space open square brackets cross times 100 close square brackets` or equivalent.\n> \n> **A1**: For 45.\n\n(iii)\n\nFind the percentage multiplier for a 3.2% increase\n\n- After increasing by 3.2% you will have 103.2% of the original amount\n- Divide by 100 to make into a decimal\n\n$\\frac{103.2}{100}=1.032$\n\nWith compound interest over 5 years, that increase happens 5 times\n\n- so multiply 22330 by 1.032 to the power of 5\n\n$22330\\times1.032^{5}$\n\n**[M1]**\n\nUse your calculator to work that out\n\n$=26138.8941...$\n\n- This is a money question, so round to 2 decimal places\n- The '4' in the third decimal place tells you to leave the '9' in the second decimal place unchanged\n\n**Final answer:** **\\$26 138.89**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: For `22330 cross times open parentheses 1 plus fraction numerator 3.2 over denominator 100 end fraction close parentheses to the power of 5` or equivalent.\n> \n> **A1**: For 26100 or 26140 or 26139 or 26138.[89...].",
+     "equations": [
+      {
+       "latex": "\\frac{3}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>8</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 over 8"
+      },
+      {
+       "latex": "\\frac{3}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>8</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 over 8"
+      },
+      {
+       "latex": "\\frac{3}{8}\\times127600=47850",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>&#215;</mo><mn>127600</mn><mo>=</mo><mn>47850</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 over 8 cross times 127600 equals 47850"
+      },
+      {
+       "latex": "127600-47850-22330=57420",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>127600</mn><mo>-</mo><mn>47850</mn><mo>-</mo><mn>22330</mn><mo>=</mo><mn>57420</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "127600 minus 47850 minus 22330 equals 57420"
+      },
+      {
+       "latex": "\\frac{57420}{127600}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>57420</mn><mn>127600</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "57420 over 127600"
+      },
+      {
+       "latex": "\\frac{57420}{127600}\\times100=45",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>57420</mn><mn>127600</mn></mfrac><mo>&#215;</mo><mn>100</mn><mo>=</mo><mn>45</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "57420 over 127600 cross times 100 equals 45"
+      },
+      {
+       "latex": "\\frac{103.2}{100}=1.032",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>103</mn><mo>.</mo><mn>2</mn></mrow><mn>100</mn></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>032</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 103.2 over denominator 100 end fraction equals 1.032"
+      },
+      {
+       "latex": "22330\\times1.032^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>22330</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>032</mn><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "22330 cross times 1.032 to the power of 5"
+      },
+      {
+       "latex": "=26138.8941...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>26138</mn><mo>.</mo><mn>8941</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals 26138.8941..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cdGhrb8XVvQq57yH",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_tk43QwZQ9KCFfSqM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Kim invests £13000 at a rate of 10% per year simple interest.\n\nCalculate the total value of his investment after five years.",
+     "solution_md": "> *Using the correct formula*\n\n- $P=13000$* is the initial amount*\n- $r=10$* is the rate*\n- $t=5$* is the amount of time*\n\n$I=\\frac{P\\timesr\\timest}{100}\\,I=\\frac{13000\\times10\\times5}{100}\\,I=6500$\n\n**[M1]**\n\n> *Add the interest amount to the initial amount*\n\n$6500+13000=19500$\n\n`£ 19500`\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "P=13000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>13000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P equals 13000"
+      },
+      {
+       "latex": "r=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r equals 10"
+      },
+      {
+       "latex": "t=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 5"
+      },
+      {
+       "latex": "I=\\frac{P\\timesr\\timest}{100}\\,I=\\frac{13000\\times10\\times5}{100}\\,I=6500",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mfrac><mrow><mi>P</mi><mo>&#215;</mo><mi>r</mi><mo>&#215;</mo><mi>t</mi></mrow><mn>100</mn></mfrac><mspace linebreak=\"newline\"/><mi>I</mi><mo>=</mo><mfrac><mrow><mn>13000</mn><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><mn>5</mn></mrow><mn>100</mn></mfrac><mspace linebreak=\"newline\"/><mi>I</mi><mo>=</mo><mn>6500</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I equals fraction numerator P cross times r cross times t over denominator 100 end fraction\nI equals fraction numerator 13000 cross times 10 cross times 5 over denominator 100 end fraction\nI equals 6500"
+      },
+      {
+       "latex": "6500+13000=19500",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6500</mn><mo>+</mo><mn>13000</mn><mo>=</mo><mn>19500</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "6500 plus 13000 equals 19500"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QznZzGdd8X3DVfwF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Kim finds another option to invest his £13000.\n\nThis second option has a rate of 6% compounded annually.\n\nFind the value of his investment after four years.",
+     "solution_md": "> *Use the compound interest formula*\n\n`A equals P open parentheses 1 plus r over 100 close parentheses to the power of n`\n\n**[M1]**\n\n`A equals 13000 open parentheses 1 plus 6 over 100 close parentheses to the power of 4`\n\n**[M1]**\n\n$16412.20$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "16412.20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16412</mn><mo>.</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "16412.20"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_p22mdGSJzKwfPr5z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ",
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Kim is looking to invest a £1000 and is choosing between two options.\n\nOption A is a compound interest rate of 10%.\n\nOption B is a simple interest rate of 12%\n\nThe two options are shown in the table below.\n\n| Year | Option A | Option B |\n|---|---|---|\n| 1 | £1100 | £1120 |\n| 2 | £1210 | £1240 |\n| 3 | £1331 | £1360 |\n| 4 |   |   |\n| 5 |   |   |\n| 6 |   |   |\n\nOption B gives a greater investment than Option A after $k$ years.\n\nFind the smallest integer value of $k$.",
+     "solution_md": "> *Setting up the compound rate formula for Option A*\n\n`A equals P open parentheses 1 plus r over 100 close parentheses to the power of n\nA equals 1000 open parentheses 1 plus 10 over 100 close parentheses to the power of n`\n\n**[M1]**\n\n> *Setting up the simple rate formula for Option B*\n\n`A equals P open parentheses 1 plus fraction numerator n r over denominator 100 end fraction close parentheses\nA equals 1000 open parentheses 1 plus n cross times 12 over 100 close parentheses`\n\n**[M1]**\n\n| Year | Option A | Option B |\n|---|---|---|\n| 1 | £1100 | £1120 |\n| 2 | £1210 | £1240 |\n| 3 | £1331 | £1360 |\n| 4 | *1464.1* | *1480* |\n| 5 | *£1610.51* | *£1600* |\n| 6 |   |   |\n\n**[M1]**\n\n> **[mark-scheme]**\n> This M1 mark is awarded for at least two correct values.\n\n> *Option A begins to return a greater amount than Option B after 5 years*\n\n$k=5$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals 5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Htt8MsG5WsqyvzpF",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ",
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the compound interest rate eventually **always** returns a greater amount than simple interest?",
+     "solution_md": "- **Simple interest adds the same amount every year**\n- **Compound interest earns interest on the previous interest**\n\n**[B1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_z2FPXPm8xdwv3fRC",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_WNpxPzzcpvqpmGrr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "May/June 2019",
+      "number": "0580/13",
+      "question_number": 19,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Harry invests \\$800 for 2 years at a rate of 3% per year compound interest.\n\nCalculate the amount of interest he receives at the end of the 2 years.\n\n\\$ ...........................",
+     "solution_md": "> *The compound interest formula is: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the original amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions. Here, *\n\n$P=800$\n\n$r=3$\n\n$n=2$\n\n> *Substitute these values into the compound interest formula to determine the value of the amount after the interest*\n\n`A equals 800 cross times open parentheses 1 plus 3 over 100 close parentheses squared`\n\n**[1]**\n\n$=800\\times1.03^{2}$\n\n$=848.72$\n\n**[1]**\n\n> *Subtract the original amount from this value to determine the amount of interest*\n\n`848.72 minus 800 equals $ 48.72`\n\n**\\$ 48.72**** ****[1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "P=800",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 800"
+      },
+      {
+       "latex": "r=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 3"
+      },
+      {
+       "latex": "n=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 2"
+      },
+      {
+       "latex": "=800\\times1.03^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>800</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>03</mn><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 800 cross times 1.03 squared"
+      },
+      {
+       "latex": "=848.72",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>848</mn><mo>.</mo><mn>72</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 848.72"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YBz7XSnKjwXmkZB4",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_4GSVrKT2w6VgHXKB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 15,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Riya invests \\$30000 at a rate of 2.5% per year compound interest.\n\nCalculate the value of her investment at the end of 7 years. \nGive your answer correct to the nearest dollar.\n\n\\$ .................................................",
+     "solution_md": "> *The compound interest formula is *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*\n\n> *Here,*\n\n$P=30000$\n\n$r=2.5$\n\n$n=7$\n\n> *Substitute these values into the compound interest formula and evaluate*\n\n`A equals 30 space 000 cross times open parentheses 1 plus fraction numerator 2.5 over denominator 100 end fraction close parentheses to the power of 7`\n\n**[1]**\n\n$=30000\\times1.025^{7}$\n\n$=35660.57261...$\n\n**[1]**\n\n> *Round this value to the nearest integer*\n\n`bold $ bold 35 bold space bold 661`** [1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "P=30000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>30</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 30 space 000"
+      },
+      {
+       "latex": "r=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 2.5"
+      },
+      {
+       "latex": "n=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 7"
+      },
+      {
+       "latex": "=30000\\times1.025^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>30</mn><mo>&#160;</mo><mn>000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>025</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 30 space 000 cross times 1.025 to the power of 7"
+      },
+      {
+       "latex": "=35660.57261...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>35</mn><mo>&#160;</mo><mn>660</mn><mo>.</mo><mn>57261</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 35 space 660.57261..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_W4Rtg8YJvfCGg6Gy",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_rYqBDpk49Kg8HSzP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/32",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "\\$12000 is invested at a rate of n% per year simple interest. \nAt the end of 3 years the value of the investment is \\$12900.\n\nFind the value of $n$.\n\n$n$ = .................................",
+     "solution_md": "> *Subtract the amount of money invested, \\$12000, from the value of the investment after 3 years, \\$12900, to work out how much interest received over 3 years.*\n\n> * *\n\n$12900-12000=900$\n\n> * *\n\n> *Because it is simple interest, you can divide by 3 to work out how much interest is earned per year.*\n\n> * *\n\n$900\\div3=300$\n\n**[1]**\n\n** **\n\n> *Express the amount of interest per year, \\$300, as a fraction of the original amount invested, \\$12000, and multiply by 100 to express as a percentage.*\n\n> * *\n\n$\\frac{300}{12000}\\times100=2.5$\n\n* ***[1]**\n\n**2.5%** **[1]**",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "12900-12000=900",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12900</mn><mo>-</mo><mn>12000</mn><mo>=</mo><mn>900</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12900 minus 12000 equals 900"
+      },
+      {
+       "latex": "900\\div3=300",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>900</mn><mo>&#247;</mo><mn>3</mn><mo>=</mo><mn>300</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "900 divided by 3 equals 300"
+      },
+      {
+       "latex": "\\frac{300}{12000}\\times100=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>300</mn><mn>12000</mn></mfrac><mo>&#215;</mo><mn>100</mn><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "300 over 12000 cross times 100 equals 2.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QCgCZmhNJjPJWNYq",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_sKTHnywcvVXy5XX8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/33",
+      "question_number": 1,
+      "question_part": "h"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "\\$8400 is invested for 2 years at a rate of 3.5% per year compound interest. \nWork out the total amount of interest earned by the end of the 2 years.\n\n\\$....................................................",
+     "solution_md": "> *Work out the total amount as a percentage*\n\n`100 percent sign space plus thin space 3.5 percent sign space equals space 103.5 percent sign`\n\n> *Divide by 100 to convert to a decimal*\n\n`103.5 percent sign space divided by space 100 space equals space 1.035`\n\n> *The amount is invested for 2 years so the power is 2.*\n\n`8400 space cross times space 1.035 squared space equals space $ 8998.29...`\n\n**correct calculation ****[1]**\n** ****\\$8998.29**** [1]**\n\n> *Subtract the original amount to find the amount of interest.*\n\n`$ 8998.29 space minus space $ 8400 space equals space $ 598.29`\n\n**\\$598.29**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_q3tbT88knB3fP5d5",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Bz4qTRN9HwBdXhpv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 15,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Paula invests \\$600 at a rate of$r$% per year simple interest.\n\nAt the end of 10 years, the total interest earned is \\$90.\n\nFind the value of $r.$\n\n$r$ =........................................",
+     "solution_md": "> *Simple interest means the same amount is being paid in interest every year.*\n\n`$ 90 space divided by space 10 space equals space $ 9`\n\n**[1]**\n\n> *\\$9 interest is being earned each year. Work this out as a percentage of \\$600. Write as a fraction and multiply by 100.*\n\n`9 over 600 space cross times 100 space equals space 1.5 percent sign`\n\n**1.5%**** ****[1]**",
+     "equations": [
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space r"
+      },
+      {
+       "latex": "r.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r."
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mm4HHtqpm8Wh75h2",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_qbwdwSsBpzhjq7cz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "which",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 18,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zsm4wBNtCYHBNc5Y",
+      "spcpt_ZfXgst3HwHg7ycKz",
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Sonia wants to invest \\$5000 for 6 years.\n\nBank A pays compound interest at a rate of 3.5% per year. \nBank B increases the \\$5000 by 22% at the end of 6 years.\n\nWhich bank will give Sonia the most money at the end of 6 years and by how much? You must show all your working.\n\n![qp18-0580-13-paper-1-may-2020-cie-igcse-maths](assets/001-qp18-0580-13-paper-1-may-2020-cie-igcse-maths.png)",
+     "solution_md": "> *Bank A*\n\n> *An increase of 3.5% means 103.5% of the original amount. Divide 103.5 by 100 to find the multiplier.*\n\n> * *\n\n$103.5\\div100=1.035$\n\n> * *\n\n> *The multiplier will be applied 6 times, so multiply \\$5000 by *$1.035^{6}$*.*\n\n> * *\n\n$5000\\times1.035^{6}=6146.2766...$\n\n**[1]**\n\n> *Round to 2 decimal places (because it is money).*\n\n> * *\n\n`Bank space straight A space equals space $ 6146.28`\n\n**[1]**\n\n** **\n\n> *Bank B*\n\n> *An increase of 22% means 122% of the original amount. Divide 122% by 100 to find the multiplier.*\n\n> * *\n\n$122\\div100=1.22$\n\n> * *\n\n> *Multiply \\$5000 by the multiplier, 1.22.*\n\n> * *\n\n$5000\\times1.22=6100$\n\n* ***[1]**\n\n`Bank space straight B space equals space $ 6100`\n\n**[1]**\n\n** **\n\n> *Bank A will give Sonia the most money.*\n\n> *Subtract the Bank B figure, \\$6100, from the Bank A figure, \\$6146.28 to work out how much more Bank A gives.*\n\n> * *\n\n$6146.28-6100=46.28$\n\n> * *\n\n**Bank ****A**** will give ****\\$ 46.28**** more money**. **[1]**",
+     "equations": [
+      {
+       "latex": "103.5\\div100=1.035",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>103</mn><mo>.</mo><mn>5</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>035</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "103.5 divided by 100 equals 1.035"
+      },
+      {
+       "latex": "1.035^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><msup><mn>035</mn><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.035 to the power of 6"
+      },
+      {
+       "latex": "5000\\times1.035^{6}=6146.2766...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>035</mn><mn>6</mn></msup><mo>=</mo><mn>6146</mn><mo>.</mo><mn>2766</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5000 cross times 1.035 to the power of 6 equals 6146.2766..."
+      },
+      {
+       "latex": "122\\div100=1.22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>122</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>22</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "122 divided by 100 equals 1.22"
+      },
+      {
+       "latex": "5000\\times1.22=6100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><mn>22</mn><mo>=</mo><mn>6100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5000 cross times 1.22 equals 6100"
+      },
+      {
+       "latex": "6146.28-6100=46.28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6146</mn><mo>.</mo><mn>28</mn><mo>-</mo><mn>6100</mn><mo>=</mo><mn>46</mn><mo>.</mo><mn>28</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6146.28 minus 6100 equals 46.28"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KmmyWrYJTjZ5wFVM",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_t8NzgJYjXnXcRKCF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Feb/March 2018",
+      "number": "0580/12",
+      "question_number": 18,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Tomas borrows \\$5000 for 3 years at a rate of 2.5% per year compound interest. \nHe pays back the whole amount, with interest, at the end of 3 years.\n\nCalculate the total amount of money he pays back at the end of the 3 years.\n\n\\$ ..............................",
+     "solution_md": "> *Substitute the required values into the compound interest formula *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the original amount, *$r$* is the percentage interest and *$n$* is the number of repetitions*\n\n> * *\n\n$P=5000$\n\n$r=2.5$\n\n$n=3$\n\n> *Substitute these values into the formula and evaluate*\n\n> * *\n\n`A equals 5000 cross times open parentheses 1 plus fraction numerator 2.5 over denominator 100 end fraction close parentheses cubed`\n\n**[1]**\n\n$A=5000\\times1.025^{3}$\n\n**[1]**\n\n$A=5384.453125...$\n\n`bold $ bold 5384 bold. bold 45` **[1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "P=5000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>5000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 5000"
+      },
+      {
+       "latex": "r=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 2.5"
+      },
+      {
+       "latex": "n=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 3"
+      },
+      {
+       "latex": "A=5000\\times1.025^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mn>5000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>025</mn><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A equals 5000 cross times 1.025 cubed"
+      },
+      {
+       "latex": "A=5384.453125...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mn>5384</mn><mo>.</mo><mn>453125</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A equals 5384.453125..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fk3kfQZc7BMkQYnR",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ZzcJVTgyZjY6wDxj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/03",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8",
+      "spcpt_bMYrxtVc2SZgt8mX"
+     ],
+     "part_tier": null,
+     "problem_md": "Six years ago a farmer invested \\$3750 at a rate of 4% per year compound interest.\n\ni) Calculate the total value of his investment after the 6 years. Give your answer correct to the nearest dollar.\n\n\\$ ............................................... [3]\n\nii) The farmer wants to spend his investment on buying goats. Goats cost \\$126 each.\n\nWork out the maximum number of goats he can buy **and **the amount of money left over.\n\nNumber of goats .............................................. Amount of money left over \\$ ............................................... [4]",
+     "solution_md": "i) *Use the compound interest formula: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the current amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions  *\n\n$P=3750$\n\n$r=4$\n\n$n=6$\n\n> *Substitute these values into the compound interest formula and evaluate*\n\n> * *\n\n`A equals 3750 cross times open parentheses 1 plus 4 over 100 close parentheses to the power of 6`\n\n**[1]**\n\n$=3750\\times1.04^{6}$\n\n$=4744.946319...$\n\n**[1]**\n\n** **\n\n> *Round to the nearest dollar*\n\n`bold $ bold 4745`** [1]**\n\n** **\n\n** **\n\nii) *Divide the investment by the number of goats to determine the maximum number of goats that can be bought*\n\n> * *\n\n$4745\\div126$$=37.65873016...$\n\n**[1]**\n\n> *The maximum number of goats must be the nearest whole number below this value.*\n\n> *  *\n\n> $37.65873016...\\rightarrow37$* *\n\n> *  Multiply this number of goats by *`$ 126`* to work out the total cost *\n\n$37\\times126=4662$\n\n> *Subtract this value from the total investment to find the amount of money left over*\n* *\n\n$4745-4662$\n\n**[1]**\n\n$=83$\n\n*  *\n\n**Final answer:** **37 goats**** [1]**\n\n`bold $ bold 83`** [1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "P=3750",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>3750</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 3750"
+      },
+      {
+       "latex": "r=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 4"
+      },
+      {
+       "latex": "n=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 6"
+      },
+      {
+       "latex": "=3750\\times1.04^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>3750</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>04</mn><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 3750 cross times 1.04 to the power of 6"
+      },
+      {
+       "latex": "=4744.946319...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>4744</mn><mo>.</mo><mn>946319</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 4744.946319..."
+      },
+      {
+       "latex": "4745\\div126",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4745</mn><mo>&#247;</mo><mn>126</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4745 divided by 126"
+      },
+      {
+       "latex": "=37.65873016...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>37</mn><mo>.</mo><mn>65873016</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 37.65873016..."
+      },
+      {
+       "latex": "37.65873016...\\rightarrow37",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>37</mn><mo>.</mo><mn>65873016</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#8594;</mo><mn>37</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "37.65873016... rightwards arrow 37"
+      },
+      {
+       "latex": "37\\times126=4662",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>37</mn><mo>&#215;</mo><mn>126</mn><mo>=</mo><mn>4662</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "37 cross times 126 equals 4662"
+      },
+      {
+       "latex": "4745-4662",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4745</mn><mo>-</mo><mn>4662</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4745 minus 4662"
+      },
+      {
+       "latex": "=83",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>83</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 83"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XBVz8BqKQKDkfYmM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/03",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ZfXgst3HwHg7ycKz"
+     ],
+     "part_tier": null,
+     "problem_md": "The farmer grows carrots. \nIn 2018 the selling price for carrots was \\$96 per tonne. \nIn 2019 this selling price increased by 18%.\n\nWork out the increase in the selling price from 2018 to 2019.\n\n\\$ ..............................................",
+     "solution_md": "> *Multiply the amount by *$0.18$* to get the increase in the selling price  *\n\n$96\\times0.18$\n\n> * *\n\n`bold $ bold 17 bold. bold 28`* ***[1]**",
+     "equations": [
+      {
+       "latex": "0.18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.18"
+      },
+      {
+       "latex": "96\\times0.18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>96</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "96 cross times 0.18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sqhrDfRRbrknc8Wx",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Zj9ypg5BwSsg6BRB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 6,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Gino invests \\$6000 for 5 years at a rate of 1.2% per year compound interest.\n\nCalculate the value of his investment at the end of the 5 years. Give your answer correct to the nearest dollar.\n\n\\$ .................................................",
+     "solution_md": "> *We want an increase of 1.2% per year, this is 101.2% of the original amount.*\n\n> *Divide 101.2% by 100 to work out the multiplier.*\n\n> * *\n\n$101.2\\div100=1.012$\n\n> * *\n\n> *The multiplier is applied 5 times, because he is investing the money for 5 years, so multiply by *$1.012^{5}$*.*\n\n> * *\n\n$6000\\times1.012^{5}$\n\n* ***[1]**\n\n$=6368.7443$\n\n**[1]**\n\n> *Round to the nearest whole number.*\n\n`bold $ bold 6369`* ***[1]**",
+     "equations": [
+      {
+       "latex": "101.2\\div100=1.012",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>101</mn><mo>.</mo><mn>2</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>012</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "101.2 divided by 100 equals 1.012"
+      },
+      {
+       "latex": "1.012^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><msup><mn>012</mn><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.012 to the power of 5"
+      },
+      {
+       "latex": "6000\\times1.012^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>012</mn><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6000 cross times 1.012 to the power of 5"
+      },
+      {
+       "latex": "=6368.7443",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>6368</mn><mo>.</mo><mn>7443</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 6368.7443"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ht72wVC7HBdcxwHQ",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yKvkq9TwRsMjQkFG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/11",
+      "question_number": 21,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Lucia invests \\$5000 at a rate of 4.5% per year compound interest.\n\nCalculate the value of her investment at the end of 7 years.\n\n\\$ ..................................................",
+     "solution_md": "> *An increase of 4.5% means finding 104.5%. Divide 104.5% by 100 to find the multiplier.*\n\n> * *\n\n$104.5\\div100=1.045$\n\n> * *\n\n> *Multiply \\$5000 by the multiplier to the power 7 (because she's investing the money for 7 years, the multiplier will be applied 7 times).*\n\n> * *\n\n$5000\\times1.045^{7}=6804.309...$\n\n**[1]**\n\n> *Round to 3 significant figures.*\n\n**\\$6800** **[1]**\n\n> *6804, or answers between 6804.3 and 6804.31, also accepted *",
+     "equations": [
+      {
+       "latex": "104.5\\div100=1.045",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>104</mn><mo>.</mo><mn>5</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>045</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "104.5 divided by 100 equals 1.045"
+      },
+      {
+       "latex": "5000\\times1.045^{7}=6804.309...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>045</mn><mn>7</mn></msup><mo>=</mo><mn>6804</mn><mo>.</mo><mn>309</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5000 cross times 1.045 to the power of 7 equals 6804.309..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gBkhYsrzQnkhrm6r",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wgkmN9P5WFNH8PDx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 18,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Javier invests \\$750 for 3 years at a rate of 1.8% per year compound interest.\n\nCalculate the value of his investment at the end of the 3 years.\n\n\\$ ...................................................",
+     "solution_md": "> *To work out the decimal multiplier, add the interest rate to the original 100% and divide by 100.*\n\n`1.8 percent sign space plus space 100 percent sign space equals space 101.8 percent sign\n101.8 percent sign space divided by space 100 space equals space 1.018`\n\n> *Multiply the amount invested by the decimal multiplier raised to the power of the number of years*\n\n`750 space cross times space 1.018 cubed space equals space $ 791.23...`\n\n**correct multiplier with power of 3 ****[1]**\n\n**fully correct calculation ****[1]**\n\n> *Answers involving money cannot have more than two decimal places.*\n\n**\\$791.23**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DPxBstnNqdgsrTYc",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2pf42ScbcStYyCJw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/31",
+      "question_number": 4,
+      "question_part": "h"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Ella invests \\$4000 for 3 years at a rate of 1.2% per year compound interest.\n\nCalculate the value of her investment at the end of the 3 years.\n\n\\$...................................................",
+     "solution_md": "> *The increase is 1.2% so add 1.2% to the original 100% and divide by 100 to find the decimal multiplier*\n\n`1.2 percent sign space plus thin space 100 percent sign space equals space 101.2 percent sign`\n\n$101.2\\div100=1.012$\n\n> *Multiply the original amount by the decimal multiplier to the power of 3 to find the amount after 3 years.*\n\n`$ 4000 space cross times space 1.012 cubed space equals space $ 4145.7349...`\n\n** c****orrect multiplier with power of 3 ****[1]**\n\n**fully correct calculation**** [1]**\n\n**\\$4145.73**** ****[1]**",
+     "equations": [
+      {
+       "latex": "101.2\\div100=1.012",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>101</mn><mo>.</mo><mn>2</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>100</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>012</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "101.2 space divided by space 100 space equals space 1.012"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BWTvT2wyM26HgzPT",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dPcjhssDfXKC9rXC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/32",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Hawa invests \\$750 at a rate of 3.5% per year compound interest.\n\nCalculate the value of his investment at the end of 3 years.\n\n\\$ ..............................",
+     "solution_md": "> *Use the compound interest formula *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*\n\n> *Here,*\n\n$P=750$\n\n$r=3.5$\n\n$n=3$\n\n> *Substitute these values into the compound interest formula and evaluate*\n\n`A equals 750 cross times open parentheses 1 plus fraction numerator 3.5 over denominator 100 end fraction close parentheses cubed`\n\n**[1]**\n\n$=750\\times1.035^{3}$\n\n**[1]**\n\n$=831.5384063$\n\n`bold $ bold 831 bold. bold 54` **[1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "P=750",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>750</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 750"
+      },
+      {
+       "latex": "r=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 3.5"
+      },
+      {
+       "latex": "n=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 3"
+      },
+      {
+       "latex": "=750\\times1.035^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>750</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>035</mn><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 750 cross times 1.035 cubed"
+      },
+      {
+       "latex": "=831.5384063",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>831</mn><mo>.</mo><mn>5384063</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 831.5384063"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9z5BGBZBnF3jYwSd",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_2RQkyQJp6NvtHjqR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/11",
+      "question_number": 17,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Trina invests \\$16000 at a rate of 5% per year compound interest.\n\nWork out the value of her investment at the end of 4 years.\n\n\\$.........................",
+     "solution_md": "> *An increase of 5% is equivalent to 105% of the original amount.*\n\n> *Divide 105% by 100 to find the multiplier.*\n\n> * *\n\n$105\\div100=1.05$\n\n> * *\n\n> *The multiplier is applied 4 times, so we multiply by *$1.05^{4}$*.*\n\n> * *\n\n$16000\\times1.05^{4}$\n\n**[1]**\n\n`bold $ bold 19448 bold. bold 10`* ***[1]**",
+     "equations": [
+      {
+       "latex": "105\\div100=1.05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>105</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>05</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "105 divided by 100 equals 1.05"
+      },
+      {
+       "latex": "1.05^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><msup><mn>05</mn><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.05 to the power of 4"
+      },
+      {
+       "latex": "16000\\times1.05^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>05</mn><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16000 cross times 1.05 to the power of 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZzfhD29Cj4ZRYhWq",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_CtJb5gPZykZpyCT2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethan invests \\$6400 at a rate of 2.6% per year simple interest.\n\nCalculate the total value of his investment at the end of 3 years.\n\n\\$ ................................................",
+     "solution_md": "> *Divide 2.6% by 100 to work out the multiplier.*\n\n> * *\n\n$2.6\\div100=0.026$\n\n> * *\n\n> *Multiply \\$6400 by 0.026 to work out 2.6%.  This is the interest for one year.*\n\n> * *\n\n$6400\\times0.026=166.4$\n\n> * *\n\n> *Multiply by 3 to work out the total interest for 3 years.*\n\n> * *\n\n$166.4\\times3=499.2$\n\n* ***[1]**\n\n> *Add the interest, 499.2, onto 6400.*\n\n> * *\n\n$6400+499.20=6899.2$\n\n* ***[1]**\n\n> *Write to 2 decimal places, because it is money.*\n\n> * *\n\n**\\$6899.20** **[1]**",
+     "equations": [
+      {
+       "latex": "2.6\\div100=0.026",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>6</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>026</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2.6 divided by 100 equals 0.026"
+      },
+      {
+       "latex": "6400\\times0.026=166.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6400</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>026</mn><mo>=</mo><mn>166</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6400 cross times 0.026 equals 166.4"
+      },
+      {
+       "latex": "166.4\\times3=499.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>166</mn><mo>.</mo><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>499</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "166.4 cross times 3 equals 499.2"
+      },
+      {
+       "latex": "6400+499.20=6899.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6400</mn><mo>+</mo><mn>499</mn><mo>.</mo><mn>20</mn><mo>=</mo><mn>6899</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6400 plus 499.20 equals 6899.2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZR3DC7tRX4X4JMFK",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_bKMnGJPw2fkhpZnV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Oct/Nov 2018",
+      "number": "0580/11",
+      "question_number": 18,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WS2Jvf7gFCY6KszZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Jan invests \\$800 at a rate of 3% per year simple interest.\n\nCalculate the value of her investment at the end of 4 years.\n\n\\$ ....................................",
+     "solution_md": "> *As it is simple interest, 3% of 800 is added on every year, for 4 years*\n\n> *Find 3% of 800*\n\n$0.03\\times800=24$\n\n**[1]**\n\n> *This is added onto the initial amount, each year for 4 years*\n\n`800 plus open parentheses 4 cross times 24 close parentheses equals 896`\n\n**[1]**\n\n**\\$ 896** **[1]**",
+     "equations": [
+      {
+       "latex": "0.03\\times800=24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>03</mn><mo>&#215;</mo><mn>800</mn><mo>=</mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.03 cross times 800 equals 24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_v9f9YTvf5GmtZWSw",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_qfNPgVSNtBQykGGv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "how",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Cody is aiming to save \\$2000 in total.\n\nThey invest \\$1750 in a savings account which pays 6.5% compound interest each year.\n\nHow many years will it take for the balance in the account to reach at least \\$2000?",
+     "solution_md": "*Find the amount in the account at the end of each year* *An increase of 6.5% will be a multiplier of 1.065*\n\n*After 1 year there will be: 1750×1.065 = \\$ 1863.75*\n\n**[1]**\n\n*This is not greater than 2000, so increase the amount by 6.5% again* *Round the answer to 2 decimal places*\n\n*After 2 years there will be: 1863.75×1.065 = \\$ 1984.89375 ≈ \\$ 1984.89*\n\n**[1]**\n\n*This is still not greater than 2000, so increase the amount by 6.5% again* *Round the answer to 2 decimal places*\n\n*After 3 years there will be: 1984.89×1.065 = \\$ 2113.90785 ≈ \\$ 2113.91*\n\n> *This is now more than 2000*\n\n**It will take ****3 years****  for the balance to reach more than \\$2000 ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_T4MpjKW99jzQg2sX",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_yF34wvwNKggVcyJT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Sam invests \\$4500 into a savings account which pays 3.5% compound interest each year.\n\nFind the total amount in the account after 6 years.",
+     "solution_md": "> *3.5% compound interest is a repeated percentage increase*\n\n> *The multiplier for a 3.5% increase is 1.035, and it is applied 6 times*\n\n*4500 × 1.035**<sup>6</sup>** = 5 531.648969...*\n\n**Use of 1.035**** [1]** \n**Fully correct calculation**** [1]**\n\n> *Round to 2 decimal places*\n\n**\\$ 5 531.65** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5hB5q6jRD2rczxBd",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_JDW6wNWW8VpZwQgQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_VzvvzCkn52qnHts8"
+     ],
+     "part_tier": null,
+     "problem_md": "Jamie invests \\$12000 at a rate of 5% per year compound interest.\n\nCalculate the value of his investment at the end of 3 years.\n\n\\$ ..............................................",
+     "solution_md": "> *Use the compound interest formula: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest and *$n$* is the number of repetitions. *\n\n> *Here,*\n\n$P=12000$\n\n$r=5$\n\n$n=3$\n\n> *Substitute these values into the compound interest formula and evaluate*\n\n`A equals 12000 cross times open parentheses 1 plus 5 over 100 close parentheses cubed`\n\n**[1]**\n\n$=12000\\times1.05^{3}$\n\n**[1]**\n\n**Final answer:** **\\$ 13 891.50**** [1]**",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "P=12000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>12</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P equals 12 space 000"
+      },
+      {
+       "latex": "r=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 5"
+      },
+      {
+       "latex": "n=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 3"
+      },
+      {
+       "latex": "=12000\\times1.05^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>12000</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><msup><mn>05</mn><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 12000 cross times 1.05 cubed"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
