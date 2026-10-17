@@ -1,0 +1,102 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_TDGNqFYCJYmvnYXx",
+ "course_slug": "cie-a-level-physics-25",
+ "url": "https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/10-d-c-circuits/10-3-potential-dividers/potential-divider-components",
+ "title": "Potential Divider Components",
+ "page_title": "Potential Divider Components - A Level Physics",
+ "path": {
+  "segs": [
+   "10-d-c-circuits",
+   "10-3-potential-dividers",
+   "potential-divider-components"
+  ],
+  "section": "10-d-c-circuits",
+  "topic": "10-3-potential-dividers",
+  "leaf": "potential-divider-components"
+ },
+ "titles": {
+  "section": "10. D.C. Circuits",
+  "topic": "Potential Dividers",
+  "subtopic": "Potential Divider Components"
+ },
+ "updated_at": "2026-07-02T08:19:40.500Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_QJZkcR3ytmbpGFPq",
+   "name": "Ashika",
+   "role": "Physics Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_PXpScD7ncs34zBm9",
+   "name": "Caroline Carroll",
+   "role": "Head of Content Delivery"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_9xzwQXg6vbv79rBq",
+   "rnl_JnD44wWyjqmsxKHM"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ZHGNdF5Z2WphFQt7"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 8,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZHGNdF5Z2WphFQt7",
+   "name": "Variable Resistance Components",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Variable resistance components"
+  },
+  {
+   "type": "bullets",
+   "md": "- Variable and sensory resistors are used in potential dividers to vary the output voltage\n\n  - This could cause an external component to switch on or off e.g. a heater switching off automatically when its surroundings are at room temperature\n- Sensory resistors used are **Light Dependent Resistors (LDRs)** and **thermistors**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "LDR and thermistors in a circuit"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/10.2.4-Sensory-potential-divider-circuits.png",
+   "file": "assets/819d4e9c9bfe-10-2-4-sensory-potential-divider-circuits.png",
+   "alt": "Sensory potential divider circuits, downloadable AS & A Level Physics revision notes",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***LDR and thermistor in a potential divider circuit with a fixed resistor R***"
+  },
+  {
+   "type": "bullets",
+   "md": "- The voltmeter in both circuits is measuring *V*<sub>out</sub>\n- Recall that the resistance of an LDR varies with light intensity\n\n  - The higher the light intensity, the lower the resistance and vice versa\n- An LDR circuit is often used for street and security lights\n- The resistance of a thermistor varies with temperature\n\n  - The hotter the thermistor, the lower the resistance and vice versa\n- A thermistor circuit is used in fire alarms, ovens and digital thermometers\n- From Ohm’s law ***V = IR***, the potential difference *V*<sub>out</sub> from a resistor in a potential divider circuit is **proportional** to its resistance\n\n  - If an LDR or thermistor's resistance **decreases**, the potential difference through it also **decreases**\n  - If an LDR or thermistor's resistance **increases**, the potential difference through it also **increases**\n- Since the total p.d of the components must be equal to *V*<sub>in</sub>, if the p.d of the sensory resistor **decreases** then the p.d of the other resistor in the circuit must **increase** and vice versa"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A potential divider consists of a fixed resistor R and a thermistor.\n\n![WE - Thermistor potential divider question image, downloadable AS & A Level Physics revision notes](assets/efcbd186b777-we-thermistor-potential-divider-question-image.png)\n\nWhat happens to the p.d through resistor R and the thermistor when the temperature of the thermistor decreases?\n\n|   | **P.d of thermistor / V** | **P.d of resistor / V** |\n|---|---|---|\n| **A.** | Increases | Increases |\n| **B.** | Decreases | Increases |\n| **C.** | Decreases | Decreases |\n| **D.** | Increases | Decreases |\n\n**Answer: D**\n\n- Due to Ohm’s Law (*V = IR*), both the resistor and thermistor are connected in series and have the same current *I*\n- In a thermistor, if the temperature **decreases**, its resistance **increases**\n- This means the potential difference across the thermistor also **increases**\n- As the resistance *R* **increases**, the potential difference across the thermistor also **increases**\n- In series, the potential difference is shared equally amongst the components. Their sum equals the e.m.f of the supply (Kirchhoff’s second law)\n- This means the potential difference across the resistance R must **decrease**, to keep the same overall total e.m.f"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_WVBnHQwp2ZnGfTMn",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/revision-notes/statistical-distributions/continuous-random-variables/ex-and-varx-continuous",
+ "title": "E(X) & Var(X) (Continuous)",
+ "page_title": "E(X) & Var(X) (Continuous) | Cambridge (CIE) A Level Maths Revision Notes 2021",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "continuous-random-variables",
+   "ex-and-varx-continuous"
+  ],
+  "section": "statistical-distributions",
+  "topic": "continuous-random-variables",
+  "leaf": "ex-and-varx-continuous"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Continuous Random Variables",
+  "subtopic": "E(X) & Var(X) (Continuous)"
+ },
+ "updated_at": "2026-07-02T08:19:38.468Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_pgj2xH7MnJbCKK2H",
+   "rnl_vtp2wfpMH6HFqhnD",
+   "rnl_ysXCXtk9xjFmK87n"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_tQpsd6ts3DXRzHSR"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "ΣxP(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Σ</mi><mi>x</mi><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma x straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "E(X^{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>E</mi><mo>(</mo><msup><mi>X</mi><mn>2</mn></msup><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "E left parenthesis X squared right parenthesis"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 5
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_tQpsd6ts3DXRzHSR",
+   "name": "E(X) & Var(X) (Continuous)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "E(X) & Var(X) (Continuous)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are E(X) and Var(X)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- E(X)is the **expected** **value**, or **mean**, of a **random** **variable X**\n\n  - E(X) is the same as the population mean so can also be denoted by *µ*\n- **Var (X) **is the **variance** of the continuous random variable* X*\n\n  - **Standard** **deviation** is the **square** **root** of the **variance**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the mean and variance of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **mean**, for a **continuous** **random** **variable *****X*** is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x bold f bold left parenthesis bold italic x bold right parenthesis bold space bold d bold italic x`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is equivalent to $ΣxP(X=x)$ for discrete random variables\n- If the graph of $y=f(x)$has **axis** of **symmetry,** x = a , then  E(X) = a"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **variance** is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold Var bold left parenthesis bold italic X bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x to the power of bold 2 bold f bold left parenthesis bold italic x bold right parenthesis bold d bold italic x bold minus stretchy left square bracket E open parentheses X close parentheses stretchy right square bracket to the power of bold 2`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is equivalent to `straight capital sigma x squared straight P left parenthesis X equals x right parenthesis minus stretchy left square bracket E open parentheses X close parentheses stretchy right square bracket squared`  for discrete random variables\n- Be careful about confusing $E(X^{2})$  and `begin mathsize 16px style open square brackets E open parentheses X close parentheses close square brackets squared end style`\n\n  - `E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`                “mean of the squares”\n  - `open square brackets E left parenthesis X right parenthesis close square brackets squared equals open square brackets integral subscript negative infinity end subscript superscript infinity x space straight f left parenthesis x right parenthesis space straight d x close square brackets squared`       “square of the mean”\n  - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward"
+  },
+  {
+   "type": "paragraph",
+   "md": "`Var left parenthesis X right parenthesis equals straight E left parenthesis X squared right parenthesis minus open square brackets straight E left parenthesis X right parenthesis close square brackets squared`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate E(g(X))?"
+  },
+  {
+   "type": "bullets",
+   "md": "- `straight E open parentheses g open parentheses X close parentheses close parentheses equals integral subscript negative infinity end subscript superscript infinity g open parentheses x close parentheses straight f left parenthesis x right parenthesis space straight d x`\n- In particular:\n\n  - `straight E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`as seen above"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A continuous random variable, $X$, is modelled by the probability distribution function $f(x)$, such that\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1.5 x squared left parenthesis 1 minus 0.5 x right parenthesis end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space space space space space space 0 end cell otherwise end table close`\n\n(i) Find `E open parentheses X close parentheses`\n\n**Answer:**\n\n![2-3-2-cie-fig1-we-solution_a](assets/5338b0703d78-image.bin)\n\n(ii) Find `Var open parentheses X close parentheses`\n\n**Answer:**\n\n![2-3-2-cie-fig1-we-solution_b](assets/44ec122e6a3c-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- A **sketch** of the graph of y =  f(x) can highlight any **symmetrical** properties which can help reduce the work involved in finding the **mean** and **variance**\n- Take care with awkward **values** and **negatives** – use the **memory** features on your calculator and **avoid** **rounding** until your **final** answer (if rounding at all!)"
+  }
+ ]
+}

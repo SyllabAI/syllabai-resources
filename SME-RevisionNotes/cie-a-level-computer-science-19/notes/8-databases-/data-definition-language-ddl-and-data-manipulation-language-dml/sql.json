@@ -1,0 +1,156 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_3T5ZH7BpcR54PYqt",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/8-databases-/data-definition-language-ddl-and-data-manipulation-language-dml/sql",
+ "title": "SQL",
+ "page_title": "SQL | Cambridge (CIE) A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "8-databases-",
+   "data-definition-language-ddl-and-data-manipulation-language-dml",
+   "sql"
+  ],
+  "section": "8-databases-",
+  "topic": "data-definition-language-ddl-and-data-manipulation-language-dml",
+  "leaf": "sql"
+ },
+ "titles": {
+  "section": "8. Databases",
+  "topic": "Data Definition Language (DDL) & Data Manipulation Language (DML)",
+  "subtopic": "SQL"
+ },
+ "updated_at": "2025-06-02T13:39:51.521Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_4sNNXJzkJ6JY7QFT",
+  "spcpt_YvhTymvGYBsBHZVH",
+  "spcpt_bsXwjxYjByd2Drmb"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_4sNNXJzkJ6JY7QFT",
+   "name": "DDL & DML",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "DDL & DML"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is DDL & DML?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data Definition Language (**DDL**) is used to **build and manage the structure** of a relational database\n- It defines **how data is stored** by creating and modifying tables, fields, indexes, and relationships\n- Data Manipulation Language (**DML**) is used to **manage the data** stored within the database structures created by DDL\n- It deals with **adding, updating, deleting**, and **retrieving** data\n- Both DDL and DML use ***SQL***** syntax** to interact with the database\n- DDL **structures **the database, while DML maintains the **contents** of the database\n- Most modern **DBMSs use SQL** to support both DDL and DML operations"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YvhTymvGYBsBHZVH",
+   "name": "Basic DDL commands",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Basic DDL commands"
+  },
+  {
+   "type": "table",
+   "md": "| **Command** | **Purpose** | **Example** |\n|---|---|---|\n| `CREATE DATABASE` | Creates a new database | `CREATE DATABASE SchoolDB` |\n| `CREATE TABLE` | Creates a new table with specified fields and data types | `CREATE TABLE Students (StudentID INTEGER, Name VARCHAR(50))` |\n| **Data types for attributes:** | Defines the type of data each field can store |   |\n| `CHARACTER` | Fixed-length text | `Name CHARACTER(10)` |\n| `VARCHAR(n)` | Variable-length text (max length n) | `Email VARCHAR(100)` |\n| `BOOLEAN` | True or False value | `IsActive BOOLEAN` |\n| `INTEGER` | Whole numbers | `Age INTEGER` |\n| `REAL` | Decimal numbers | `Score REAL` |\n| `DATE` | Calendar date | `DateOfBirth DATE` |\n| `TIME` | Time of day | `StartTime TIME` |\n| `ALTER TABLE` | Changes an existing table (e.g. add or remove fields) | `ALTER TABLE Students ADD Email VARCHAR(100)` |\n| `PRIMARY KEY (field)` | Sets a field as the primary key (unique identifier) | `PRIMARY KEY (StudentID)` inside a `CREATE TABLE` or `ALTER TABLE` command |\n| `FOREIGN KEY (field) REFERENCES Table(Field)` | Sets up a foreign key relationship between tables | `FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)` |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: School database"
+  },
+  {
+   "type": "bullets",
+   "md": "- You are designing a database to store information about **students** and the **courses** they are enrolled in\n- Each student can enrol in many courses, and each course can have many students (a **many-to-many relationship**)\n- Three tables are needed:\n\n  - `Students` – to store student details\n  - `Courses` – to store course details\n  - `Enrolments` – a link table to handle the many-to-many relationship"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_bsXwjxYjByd2Drmb",
+   "name": "Basic DML commands",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Basic DML commands"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Retrieving data"
+  },
+  {
+   "type": "table",
+   "md": "| **Command** | **Purpose** | **Example** |\n|---|---|---|\n| `SELECT ... FROM` | Retrieves specific columns from a table | `SELECT FirstName, LastName FROM Students` |\n| `WHERE` | Filters results based on a condition | `SELECT * FROM Students WHERE Age > 16` |\n| `ORDER BY` | Sorts the results in ascending or descending order | `SELECT * FROM Students ORDER BY LastName ASC` |\n| `GROUP BY` | Groups rows that have the same value in specified columns | `SELECT CourseID, COUNT(*) FROM Enrolments GROUP BY CourseID` |\n| `INNER JOIN` | Combines rows from two tables where there is a matching key | `SELECT Students.FirstName, Courses.CourseName FROM Students INNER JOIN Enrolments ON Students.StudentID = Enrolments.StudentID INNER JOIN Courses ON Enrolments.CourseID = Courses.CourseID` |\n| `SUM()` | Calculates the total of a numeric column | `SELECT SUM(Credits) FROM Courses` |\n| `COUNT()` | Counts the number of rows (or non-null entries in a column) | `SELECT COUNT(*) FROM Enrolments` |\n| `AVG()` | Calculates the average value of a numeric column | `SELECT AVG(Age) FROM Students` |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Data maintenance"
+  },
+  {
+   "type": "table",
+   "md": "| **Command** | **Purpose** | **Example** |\n|---|---|---|\n| `INSERT INTO` | Adds a new record to a table | `INSERT INTO Students (StudentID, FirstName, LastName) VALUES (1, 'Ali', 'Khan')` |\n| `DELETE FROM` | Removes records from a table | `DELETE FROM Students WHERE StudentID = 1` |\n| `UPDATE` | Modifies existing data in a table | `UPDATE Students SET Age = 17 WHERE StudentID = 1` |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: School database"
+  },
+  {
+   "type": "bullets",
+   "md": "- You're working with a school database containing three tables:\n\n  - `Students(StudentID, FirstName, LastName, Age)`\n  - `Courses(CourseID, CourseName, Credits)`\n  - `Enrolments(StudentID, CourseID, EnrolDate)`\n- You want to **query the database** and **maintain the data** as students enrol in courses, update their details, or leave the school"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Querying**"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Maintaining**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Part of a database table `BIRD_TYPE` is shown:\n\n| `BirdID` | `Name` | `Size` |\n|---|---|---|\n| 0123 | Blackbird | Medium |\n| 0035 | Jay | Large |\n| 0004 | Raven | Large |\n| 0085 | Robin | Small |\n\nThe database only supports these data types:\n\n- character\n- varchar\n- Boolean\n- integer\n- real\n- date\n- time\n\nWrite a Structured Query Language (SQL) script to define the table `Bird_Type`. **[4]**\n\n**Final answer:** **Answer**\n\n- `CREATE TABLE` start and end bracket **[1 mark]**\n- Bird ID as CHAR/VARCHAR **[1 mark]**\n- Name **and **size as VARCHAR/CHAR **[1 mark]**\n- Bird ID as primary key **[1 mark]**\n\n**Example answer**\n\n`CREATE TABLE BIRD_TYPE(`\n    `BirdID CHAR(4) NOT NULL,`\n    `Name VARCHAR(9),`\n    `Size VARCHAR(6),`\n    `PRIMARY KEY (BirdID)`\n`);`"
+  }
+ ]
+}

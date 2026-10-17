@@ -1,0 +1,82 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9wJrGNS9nfcYKf7N",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/10-data-types-and-structures-/data-types-and-records/data-types",
+ "title": "Data Types",
+ "page_title": "Data Types | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "10-data-types-and-structures-",
+   "data-types-and-records",
+   "data-types"
+  ],
+  "section": "10-data-types-and-structures-",
+  "topic": "data-types-and-records",
+  "leaf": "data-types"
+ },
+ "titles": {
+  "section": "10. Data Types & Structures",
+  "topic": "Data Types & Records",
+  "subtopic": "Data Types"
+ },
+ "updated_at": "2025-04-30T09:11:22.925Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_6n4XbSGGc38X55SY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 5,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_6n4XbSGGc38X55SY",
+   "name": "Primitive data types",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Primitive data types"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are data types?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A data type is a classification of data into groups according to the **kind of data they represent**\n- Computers use different data types to represent different types of data in a program\n- The basic data types include:\n\n  - **Integer**: used to represent **whole numbers**, either positive or negative\n  \n    - Examples: 10, -5, 0\n  - **Real**: used to represent **numbers with a fractional part**, either positive or negative\n  \n    - Examples: 3.14, -2.5, 0.0\n  - **Char**: used to represent a **single character** such as a letter, digit or symbol\n  \n    - Examples: 'a', 'B', '5', '\\$'\n  - **String**: used to represent a **sequence of alphanumerical characters**\n  \n    - Examples: \"Hello World\", \"1234\", \"@#\\$%\"\n  - **Boolean**: used to represent **true or false** values\n  \n    - Examples: True, False\n  - **Date**: used to store a **calendar date**\n  \n    - Example: DD/MM/YY\n- It is important to choose the **correct data type for a given situation** to ensure accuracy and efficiency in the program\n- In pseudocode and some other programming languages, **data types must be declared** before they can be used\n\n  - The data types are declared with each **data item** to be used\n  - Each data item is given a **unique **name called an **identifier**\n  - `DECLARE <identifier> : <data type>`"
+  },
+  {
+   "type": "table",
+   "md": "| **Data Type** | **Example Value** | **Pseudocode** | **Python** | **Java** | **VB.NET** |\n|---|---|---|---|---|---|\n| **Integer** | `10` | `DECLARE Age : INTEGER`<br>`Age ← 10` | `age = 10` | `int age = 10;` | `Dim age As Integer = 10` |\n| **Real** | `3.14` | `DECLARE Temp : REAL`<br>`Temp ← 3.14` | `temp = 3.14` | `double temp = 3.14;` | `Dim temp As Double = 3.14` |\n| **Char** | `'A'` | `DECLARE Grade : CHAR`<br>`Grade ← 'A'` | `grade = 'A'` | `char grade = 'A';` | `Dim grade As Char = \"A\"c` |\n| **String** | `\"Hello\"` | `DECLARE Name : STRING`<br>`Name ← \"Hello\"` | `name = \"Hello\"` | `String name = \"Hello\";` | `Dim name As String = \"Hello\"` |\n| **Boolean** | `TRUE` | `DECLARE LoggedIn : BOOLEAN`<br>`LoggedIn ← TRUE` | `logged_in = True` | `boolean loggedIn = true;` | `Dim loggedIn As Boolean = True` |\n| **Date** | `24/04/2025` | `DECLARE DOB : DATE`<br>`DOB ← \"24/04/2025\"` | `dob = \"24/04/2025\"` (string or `datetime`) | `LocalDate dob = LocalDate.of(2025, 4, 24);` | `Dim dob As Date = #24/04/2025#` |"
+  }
+ ]
+}

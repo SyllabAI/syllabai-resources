@@ -1,0 +1,357 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9mHkCTVy3ZPPwJnn",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/1-information-representation/data-representation/number-systems",
+ "title": "Number Systems",
+ "page_title": "Number Systems | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "data-representation",
+   "number-systems"
+  ],
+  "section": "1-information-representation",
+  "topic": "data-representation",
+  "leaf": "number-systems"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Data Representation",
+  "subtopic": "Number Systems"
+ },
+ "updated_at": "2025-07-24T09:41:38.666Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ZSfwmXYvdV7kmcfb",
+  "spcpt_sb47nFHwV4pHGHHy",
+  "spcpt_CzpJmK3GTyQDRnpk"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 65,
+  "figures": 3,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZSfwmXYvdV7kmcfb",
+   "name": "Number bases",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Number bases"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a number base?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A number base is the number of **different digits or symbols** a number system uses to represent values\n- Each place in a number represents a **power of the base**, starting from the right"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Denary"
+  },
+  {
+   "type": "bullets",
+   "md": "- Denary is a number system that is made up of **10 digits (0-9)**\n- Denary is referred to as a **base-10** number system\n- Each digit has a weight factor of **10 raised to a power**, the rightmost digit is 1s (10<sup>0</sup>), the next digit to the left 10s (10<sup>1</sup>) and so on\n- Humans use the denary system for **counting**, **measuring **and **performing maths calculations**\n- Using combinations of the 10 digits we can represent any number"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/1-1-number-systems-number-systems-1-ib-computer-science-revision.webp",
+   "file": "assets/238337de4a3a-1-1-number-systems-number-systems-1-ib-computer-.webp",
+   "alt": "Diagram showing denary number 3268 with column headings",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In this example, (3 x 1000) + (2 x 100) + (6 x 10) + (8 x 1) = 3268\n- To represent a bigger number we **add more digits**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Binary"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary is a number system that is made up of **two digits (1 and 0) **\n- Binary is referred to as a **base-2** number system\n- Each digit has a weight factor of **2 raised to a power**, the rightmost digit is 1s (2<sup>0</sup>), the next digit to the left 2s (2<sup>1</sup>) and so on\n- Each time a new digit is added, the **column value is multiplied by 2**\n- Using **combinations of the 2 digits** we can represent any number"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/uCiRLNB9_1-1-number-systems-number-systems-2-ib-psychology-revision.webp",
+   "file": "assets/00b3873a5486-ucirlnb9-1-1-number-systems-number-systems-2-ib-.webp",
+   "alt": "Diagram showing binary 1101 using binary column headings",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In this example, **Binary 1100** = **(1 x 8) + (1 x 4) = 12**\n- To represent bigger numbers we add more **b**inary dig**its** (bits)"
+  },
+  {
+   "type": "table",
+   "md": "| **32,768** | **16,384** | **8,192** | **4,096** | **2,048** | **1,024** | **512** | **256** | **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 2<sup>15</sup> | 2<sup>14</sup> | 2<sup>13</sup> | 2<sup>12</sup> | 2<sup>11</sup> | 2<sup>10</sup> | 2<sup>9</sup> | 2<sup>8</sup> | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Hexadecimal"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hexadecimal is a number system that is made up of **16 digits**, 10 numbers (**0-9**) and 6 letters (**A-F**)"
+  },
+  {
+   "type": "table",
+   "md": "| **0** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **11** | **12** | **13** | **14** | **15** |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hexadecimal is referred to as a **base-16** number system\n- Each digit has a weight factor of **16 raised to a power**, the rightmost digit is 1s (16<sup>0</sup>), the next digit to the left 16s (16<sup>1</sup>)"
+  },
+  {
+   "type": "table",
+   "md": "| **16s** | **1s** | ** ** |\n|---|---|---|\n| **1** | **3** |   |\n| 1 x16 | 3 x 1 | = 19 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- A quick comparison table demonstrates a **relationship **between **hexadecimal and a binary *****nibble***\n- One hexadecimal digit can represent **four bits** of binary data"
+  },
+  {
+   "type": "table",
+   "md": "| **Denary** | **Binary** | **Hexadecimal** |\n|---|---|---|\n| 0 | ***0000*** | **0** |\n| 1 | ***0001*** | **1** |\n| 2 | ***0010*** | **2** |\n| 3 | ***0011*** | **3** |\n| 4 | ***0100*** | **4** |\n| 5 | ***0101*** | **5** |\n| 6 | ***0110*** | **6** |\n| 7 | ***0111*** | **7** |\n| 8 | ***1000*** | **8** |\n| 9 | ***1001*** | **9** |\n| 10 | ***1010*** | **A** |\n| 11 | ***1011*** | **B** |\n| 12 | ***1100*** | **C** |\n| 13 | ***1101*** | **D** |\n| 14 | ***1110*** | **E** |\n| 15 | ***1111*** | **F** |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Binary to denary & denary to binary"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary numbers can be converted into denary and vice-versa\n- For example the 8-bit binary number ***01101001*** can be converted into denary using the following method:"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/binary-to-decimal.png",
+   "file": "assets/49081f292229-binary-to-decimal.png",
+   "alt": "Binary to decimal conversion: binary 01101001 equals decimal 105. Bit values shown from 128 to 1 with corresponding binary digits.",
+   "caption": "Binary to denary conversion"
+  },
+  {
+   "type": "bullets",
+   "md": "- Therefore the 8-bit binary number ***01101001 ***is **105 **as a denary value\n- To convert the denary number **101** to binary, we firstly write out binary number system"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Then we start at the left and look for the highest number that is less than or equal to **101 **and if so, place a 1 in that column\n- Otherwise, place a 0 in the column\n- **128** is bigger than **101** and therefore we place a 0 in that column\n- **64** is smaller than **101 **so we place a 1 in that column\n\n  - **101 - 64 = 37**\n  - This now means we have **37 **left to find\n- **32** is smaller than **37 **so we place a 1 in that column\n\n  - **37 - 32 = 5**\n  - This now means we have **5 **left to find\n- **16** is bigger than **5** and therefore we place a 0 in that column\n- **8** is bigger than **5** and therefore we place a 0 in that column\n- **4** is smaller than **5** so we place a **1** in that column\n\n  - **5 - 1 = 1**\n  - This now means we have **1** left to find\n- **2** is bigger than **1** and therefore we place a 0 in that column\n- **1** is equal to the number we have left so we place a 1 in that column\n- 64 + 32 + 4 + 1 = **101**\n\n  - Therefore the denary number** 101** in binary is ***01100101***"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |\n|---|---|---|---|---|---|---|---|\n| *0* | *1* | *1* | *0* | *0* | *1* | *0* | *1* |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Hexadecimal to denary & denary to hexadecimal"
+  },
+  {
+   "type": "bullets",
+   "md": "- To convert the denary number **163 **to hexadecimal, start by **dividing the denary value by 16 **and recording the **whole times** the number goes in and the **remainder**\n- 163 ➗16 = 10 remainder 3\n- In hexadecimal the **whole number = digit 1** and the **remainder = digit 2**\n- Digit 1 = 10 (A)\n- Digit 2 = 3\n- Denary **163 **is **A3** in hexadecimal"
+  },
+  {
+   "type": "bullets",
+   "md": "- To convert the hexadecimal number **79 **to denary, start by **multiplying the first hexadecimal digit by 16**\n- 7 ✖ 16 = 112\n- **Add digit 2** to the result\n- 112 + 9 = 121\n- Hexadecimal **79 **is **121 **in denary"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Binary to hexadecimal & hexadecimal to binary"
+  },
+  {
+   "type": "bullets",
+   "md": "- To convert the binary number ***10110111 ***to **hexadecimal**, first split the 8 bit number into 2 binary** *****nibbles***"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | ** **<br><br>** ** | **8** | **4** | **2** | **1** |\n|---|---|---|---|---|---|---|---|---|\n| ***1*** | ***0*** | ***1*** | ***1*** | ***0*** | ***1*** | ***1*** | ***1*** |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- For each nibble, convert the binary to it’s denary value\n- (1 x 8) + (1 x 2) + (1 x 1) = **11 (B)**\n- (1 x 4) + (1 x 2) + (1 x 1) = **7**\n- Join them together to make a 2 digit hexadecimal number\n- Binary ***10110111 ***is **B7 **in hexadecimal"
+  },
+  {
+   "type": "bullets",
+   "md": "- To convert the hexadecimal number **5F **to binary, first **split the digits apart** and convert each to a **binary nibble**"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | ** ** |\n|---|---|---|---|---|\n| ***0*** | ***1*** | ***0*** | ***1*** | **= 5** |"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | ** ** |\n|---|---|---|---|---|\n| ***1*** | ***1*** | ***1*** | ***1*** | **= 15 (F)** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Join the 2 binary nibbles together to create an 8 bit binary number"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |\n|---|---|---|---|---|---|---|---|\n| ***0*** | ***1*** | ***0*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hexadecimal **5F **is ***01011111 ***in binary"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Convert the positive binary integer 1010 0010 into hexadecimal. **[1]**\n\n**Final answer:** **Answer**\n\n- A2 **[1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_sb47nFHwV4pHGHHy",
+   "name": "Binary Coded Decimal (BCD)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binary Coded Decimal (BCD)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Binary Coded Decimal?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary coded decimal is a number system that uses **4 bit codes to represent each denary digit** (0-9)"
+  },
+  {
+   "type": "table",
+   "md": "| BCD | Denary digit |\n|---|---|\n| *0000* | 0 |\n| *0001* | 1 |\n| *0010* | 2 |\n| *0011* | 3 |\n| *0100* | 4 |\n| *0101* | 5 |\n| *0110* | 6 |\n| *0111* | 7 |\n| *1000* | 8 |\n| *1001* | 9 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- To represent the denary number **2500 **in **BCD **format would be:\n\n  - **2500 **= *0010 0101 0000 0000*\n- BCD can be stored in a computer as **either half a byte** (4 bits) or as** two 4 bit codes** joined to from a byte (8 bits)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Four single bytes"
+  },
+  {
+   "type": "table",
+   "md": "| 0 | 0 | 0 | 0 | *0* | *0* | *1* | *0* | **= 2** |\n|---|---|---|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | *0* | *1* | *0* | *1* | **= 5** |\n| 0 | 0 | 0 | 0 | *0* | *0* | *0* | *0* | **= 0** |\n| 0 | 0 | 0 | 0 | *0* | *0* | *0* | *0* | **= 0** |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Two bytes"
+  },
+  {
+   "type": "table",
+   "md": "| *0* | *0* | *1* | *0* | *0* | *1* | *0* | *1* | **= 2, 5** |\n|---|---|---|---|---|---|---|---|---|\n| *0* | *0* | *0* | *0* | *0* | *0* | *0* | *0* | **= 0, 0** |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_CzpJmK3GTyQDRnpk",
+   "name": "One's & two's complement",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "One's & two's complement"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is one's complement?"
+  },
+  {
+   "type": "bullets",
+   "md": "- One's complement is a method of representing **both positive and negative numbers**\n- To turn a positive binary number in to a negative the** positive binary number is inverted** (0 becomes 1 and 1 becomes 0)"
+  },
+  {
+   "type": "table",
+   "md": "| *0* | *1* | *0* | *0* | *1* | *0* | *0* | *0* | **= 72** |\n|---|---|---|---|---|---|---|---|---|\n| *1* | *0* | *1* | *1* | *0* | *1* | *1* | *1* | **= -72** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The issue with one's complement is that it can have **two representations for 0 **(positive and negative)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Be careful not to confuse one’s complement with two’s complement. In one’s complement, you just invert the bits to get the negative version, you don’t treat the MSB as negative like you would in two’s complement. That’s a different system!"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is two's complement?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Two's complement is another method of representing **both positive and negative numbers**\n- To turn a positive binary number into a negative:\n\n  - Positive binary number is **inverted**\n  - **'1' is added** to the right most bit\n- Using two's complement the** leftmost bit** is designated the **most significant bit** (**MSB**)\n- To represent negative numbers this bit** must equal 1**, turning the column value into a **negative**\n- Working with **8 bits**, the** 128** column becomes **-128**"
+  },
+  {
+   "type": "table",
+   "md": "| **-128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |   |\n|---|---|---|---|---|---|---|---|---|\n| *0* | *1* | *0* | *0* | *1* | *0* | *0* | *0* | **= 72** |\n| **invert** |   |   |   |   |   |   |   |   |\n| *1* | *0* | *1* | *1* | *0* | *1* | *1* | *1* |   |\n| **add 1** |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   | *1* | **+** |\n| **result** |   |   |   |   |   |   |   |   |\n| *1* | *0* | *1* | *1* | *1* | *0* | *0* | *0* | **= -72** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **8 bit two's complement** can represent values between *0111 1111* (**+127**) and *1000 0000* (**-128**)\n- An alternative way of thinking about this is:\n\n  - Starting from the right, keep all the bits the same **up to and including** the first 1\n  - Flip the rest of the digits\n  \n    - *0101  1000* becomes...\n    - *1010  1000*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Key reasons to use two's complement"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Consistency**\n\n  - You **don’t need** different rules for signed and unsigned numbers\n  - Whether you're adding +37 and +58, or −37 and +58, or −37 and −58, the **binary addition process is the same**\n  - Two’s complement works for **any combination** of positive and negative values\n- **Hardware simplicity**\n\n  - **CPUs** are built to do simple binary addition\n  - Two’s complement means:\n  \n    - The same **adder circuit** can handle everything\n    - No special logic is needed to detect signs or subtract manually\n- **It still works, up to a point**\n\n  - As long as the **sum doesn't exceed the max value (+127 in 8-bit)**, you can add two positive numbers with two’s complement without any issues"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Convert the denary number 649 into Binary Coded Decimal (BCD) **[1]**\n\n**Final answer:** **Answer**\n\n- 0110 0100 1001 ** [1 mark]**"
+  }
+ ]
+}

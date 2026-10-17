@@ -1,0 +1,258 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_gYWVW6pg6pGDpnN7",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/file-processing-and-exception-handling/file-handling",
+ "title": "File Handling",
+ "page_title": "File Handling | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "file-processing-and-exception-handling",
+   "file-handling"
+  ],
+  "section": "20-further-programming-",
+  "topic": "file-processing-and-exception-handling",
+  "leaf": "file-handling"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "File Processing & Exception Handling",
+  "subtopic": "File Handling"
+ },
+ "updated_at": "2026-08-31T10:52:55.885Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_bFkV2WZqZCzyH7vk",
+  "spcpt_kkVZSM5jzGhgy9Jw"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 43,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_bFkV2WZqZCzyH7vk",
+   "name": "File operations",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "File operations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are file-processing operations?"
+  },
+  {
+   "type": "bullets",
+   "md": "- File-processing involves **interacting with external files **stored on  secondary storage (e.g. hard drives, SSDs)\n- In programming, files must be properly **opened**, **read/written**, and **closed** to ensure data is handled correctly\n- Different **types of file access** are also used"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Common file operations"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Description** |\n|---|---|\n| `Open` | The file is opened in a specific **mode**: <br>• `read` – to read data <br>• `write` – to overwrite data <br>• `append` – to add new data to the end |\n| `Read` | Data (e.g. lines or records) is read from the file into memory |\n| `Write` | Data is written to the file (overwriting or appending depending on mode) |\n| `Close` | Ends access to the file and ensures all data is saved properly |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Types of file access"
+  },
+  {
+   "type": "table",
+   "md": "| **Access type** | **Description** |\n|---|---|\n| **Serial access** | Records are **stored one after another**, and accessed in the **order they were added**. Often used for logging |\n| **Sequential access** | Records are **read from the beginning to the end**, in order. Common for batch processing and text files |\n| **Random access** | Records can be **accessed directly** using a **key or file position**. Common in databases or indexed files |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kkVZSM5jzGhgy9Jw",
+   "name": "Programming file-operations",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Programming file-operations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Pseudocode"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Basic file operations"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Serial access (e.g. logging events)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data is written **one after another** (no specific order)\n- Often used with **APPEND** mode"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Writing logs serially"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Sequential access (e.g. reading through all records)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Records are **read in order** from start to end\n- Common for reports or summaries"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Reading student grades sequentially"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Random access (e.g. accessing specific records by key)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Accesses records **directly using a key** (e.g. record number or unique ID)\n- Requires **indexed files** or fixed-length records"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Update a student’s grade by record position"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Command** | **Purpose** | **Example** |\n|---|---|---|\n| `OPENFILE` | Opens a file in a specified mode | `OPENFILE \"file.txt\" FOR READ` |\n| `READFILE` | Reads one line from a text file | `READFILE student FROM \"file.txt\"` |\n| `WRITEFILE` | Writes one line to  a text file | `WRITEFILE student TO \"file.txt\"` |\n| `CLOSEFILE` | Closes the file | `CLOSEFILE \"file.txt\"` |\n| `SEEK` | Moves to a specific record (random access) | `SEEK \"file.txt\", 5` |\n| `EOF` | Tests whether the end of the file has been reached | `WHILE NOT EOF(\"file.txt\")` |\n| `GETRECORD` | Reads the record at the file pointer | `GETRECORD \"file.dat\", ThisStudent` |\n| `PUTRECORD` | Writes a record at the file pointer | `PUTRECORD \"file.dat\", ThisStudent` |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Python"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Basic file operations"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Serial access (e.g. logging events)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Appending log entries to a file (serial write)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Sequential access (e.g. reading through all records)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Reading through each student line by line"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Random access (e.g. accessing specific records by key)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Update a student’s grade by index (record number)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Python Example** |\n|---|---|\n| Open | `open(\"file.txt\", \"r\")` |\n| Read | `file.readline()` / `for line in file:` |\n| Write | `file.write(\"text\")` |\n| Close | `file.close()` or use `with open(...)` |\n| Random access | `lines = file.readlines()` + list indexing |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Java"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Basic file operations"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Serial access (e.g. logging events)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Appending log entries to a file (serial write)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Sequential access (e.g. reading through all records)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Reading through each student line by line"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Random access (e.g. accessing specific records by key)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Update a student’s grade by index (record number)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Java Example** |\n|---|---|\n| Open (read) | `BufferedReader reader = new BufferedReader(...)` |\n| Read | `reader.readLine()` or `while ((line = ...) != null)` |\n| Write | `BufferedWriter writer = new BufferedWriter(...)` |\n| Append | `new FileWriter(\"file.txt\", true)` |\n| Close | `reader.close()` / `writer.close()` |\n| Random access | `RandomAccessFile` (complex) or simulate with `List` |"
+  }
+ ]
+}

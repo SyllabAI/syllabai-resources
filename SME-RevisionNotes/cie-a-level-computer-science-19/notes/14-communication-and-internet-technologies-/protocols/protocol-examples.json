@@ -1,0 +1,157 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_s3Mqfghfj6VFdqkk",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/14-communication-and-internet-technologies-/protocols/protocol-examples",
+ "title": "Protocol Examples",
+ "page_title": "Protocol Examples | CIE A Level Computer Science Revision Note",
+ "path": {
+  "segs": [
+   "14-communication-and-internet-technologies-",
+   "protocols",
+   "protocol-examples"
+  ],
+  "section": "14-communication-and-internet-technologies-",
+  "topic": "protocols",
+  "leaf": "protocol-examples"
+ },
+ "titles": {
+  "section": "14. Communication & internet technologies",
+  "topic": "Protocols",
+  "subtopic": "Protocol Examples"
+ },
+ "updated_at": "2026-10-01T13:14:07.867Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_yBvfCkxCYJPX6n34"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 3,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_yBvfCkxCYJPX6n34",
+   "name": "Standard protocols",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Standard protocols"
+  },
+  {
+   "type": "bullets",
+   "md": "- A protocol is a **set of rules** that govern **communication **on a network\n- There are protocols for different purposes, such as:\n\n  - **HTTP & HTTPS**\n  - **FTP**\n  - **POP3, IMAP & SMTP**\n  - **BitTorrent**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "HTTP & HTTPS"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hypertext Transfer Protocol (**HTTP**) allows communication between clients and servers for **website viewing**\n- HTTP allows clients to **receive data** from the server (fetching a webpage) and **send data** to the server (submitting a form, uploading a file)\n- **HTTPS **works in the same way as HTTP but with an **added layer of security**\n- All data sent and received using HTTPS is **encrypted**\n- HTTPS is used to **protect sensitive information **such as passwords, financial information and personal data"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/http.png",
+   "file": "assets/89eaa5dc4237-http.png",
+   "alt": "http",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "FTP"
+  },
+  {
+   "type": "bullets",
+   "md": "- File Transfer Protocol (**FTP**) allows **sending and receiving files between computers**\n- Uploading and downloading files** to/from a web server** is often completed using FTP\n- FTP offers **greater efficiency** and support for **bulk transfers and large files** such as resuming interrupted transfers\n- **FTP clients **are software applications that use the FTP protocol to make the process easier for users"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/ftp.png",
+   "file": "assets/7c4154c7f60d-ftp.png",
+   "alt": "ftp",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "POP3, IMAP & SMTP"
+  },
+  {
+   "type": "bullets",
+   "md": "- A family of protocols that handle **sending and receiving of email** across the internet (WAN)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/imapi-1.png",
+   "file": "assets/30ade2c2fb10-imapi-1.png",
+   "alt": "imapi-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "SMTP"
+  },
+  {
+   "type": "bullets",
+   "md": "- SMTP is a **push protocol**: it is used for **sending (uploading) emails**\n- In the diagram above, **SMTP** is used to transfer the senders email to their email providers server and SMTP is used to transfer the email to the recipients email server"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "POP3"
+  },
+  {
+   "type": "bullets",
+   "md": "- POP3 is a **pull protocol**: it is used for **receiving (downloading) emails** from a mail server\n- Once the email has been retrieved **it is removed from the server**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "IMAP"
+  },
+  {
+   "type": "bullets",
+   "md": "- IMAP is also a **pull protocol** used for **receiving (downloading) emails** from a mail server\n- Once the email has been retrieved, **a copy is retained on the mail server**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "BitTorrent"
+  },
+  {
+   "type": "bullets",
+   "md": "- BitTorrent is a protocol for **peer-to-peer file sharing** over a network\n- It allows files to be shared between **thousands of users** who are connected together over the internet\n- Users **share files directly with each other**: the users' computers act as **peers**\n- **No web server or central device** is used, and all users are of **equal status**\n- This makes it efficient for sharing **large files**, as no single server has to supply the whole file to everyone\n- While BitTorrent is a legal technology, it is sometimes used for sharing **copyrighted content illegally**, so ethical and legal use is important"
+  }
+ ]
+}

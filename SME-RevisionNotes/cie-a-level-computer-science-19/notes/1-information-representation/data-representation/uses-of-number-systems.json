@@ -1,0 +1,144 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_s2xj3WR3R9W69tTw",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/1-information-representation/data-representation/uses-of-number-systems",
+ "title": "Uses of Number Systems",
+ "page_title": "Uses of Number Systems | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "data-representation",
+   "uses-of-number-systems"
+  ],
+  "section": "1-information-representation",
+  "topic": "data-representation",
+  "leaf": "uses-of-number-systems"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Data Representation",
+  "subtopic": "Uses of Number Systems"
+ },
+ "updated_at": "2026-10-01T09:05:35.434Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_8khG62swj8NKqrXS",
+  "spcpt_dFZDFtbK5sqy4WNY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 17,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_8khG62swj8NKqrXS",
+   "name": "Applications of BCD",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Applications of Binary Coded Decimal (BCD)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the uses of binary-coded decimal (BCD)?"
+  },
+  {
+   "type": "table",
+   "md": "| Use Case | Why BCD is used |\n|---|---|\n| **Electronic calculators** | Keeps numbers in decimal format for easier display and accuracy |\n| **Digital clocks and watches** | Time is naturally decimal (e.g. 12:45), so BCD makes display logic simpler |\n| **Banking and financial systems** | Avoids rounding errors when doing decimal calculations, especially with money |\n| **Old digital systems / embedded systems** | Simpler to implement with hardware that displays digits individually |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary coded decimal is commonly used in systems that need to** display decimal numbers clearly** and accurately\n- BCD is ideal for applications like digital clocks, calculators, and financial systems **where decimal precision matters**\n- Using BCD **avoids rounding errors** that can occur in binary-based arithmetic, especially with money and time\n- It’s still found in older or embedded systems where **simple hardware-based decimal** output is needed"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_dFZDFtbK5sqy4WNY",
+   "name": "Applications of hexadecimal",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Applications of hexadecimal"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why is hexadecimal used?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In Computer Science hexadecimal is often preferred when working with** large values**\n- It takes **fewer digits to represent a given value** in hexadecimal than in binary\n\n  - 1 hexadecimal digit corresponds 4 bits and can represent 16 unique values (0-F)\n- It is **beneficial **to use hexadecimal over binary because:\n\n  - The more bits there are in a binary number, the **harder it makes for a human to read**\n  - Numbers with more bits are more **prone to errors** when being copied\n- Examples of where hexadecimal can be seen:\n\n  - **MAC addresses**\n  - **Colour codes**\n  - **URLs**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "MAC addresses"
+  },
+  {
+   "type": "bullets",
+   "md": "- A typical MAC address consists of **12 hexadecimal digits**, equivalent to** 48 digits** in binary\n\n  - **AA:BB:CC:DD:EE:FF**\n  - **10101010:10111011:11001100:11011101:11101110:11111111**\n- **Writing down** or **performing calculations** with 48 binary digits makes it** very easy to make a mistake**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/xaPxjdos_computer-mac-address.png",
+   "file": "assets/c97f2c27d6c7-xapxjdos-computer-mac-address.png",
+   "alt": "Example of a MAC addresses displayed in a windows command prompt",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Colour codes"
+  },
+  {
+   "type": "bullets",
+   "md": "- A typical hexadecimal colour code consists of **6 hexadecimal digits**, equivalent to** 24 digits** in binary\n\n  - **#66FF33** (green)\n  - **01100110:11111111:00110011**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/hexcolours.png",
+   "file": "assets/5c8a858b8f83-hexcolours.png",
+   "alt": "Example colour palette with colours and their hexadecimal codes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "URL's"
+  },
+  {
+   "type": "bullets",
+   "md": "- A URL can only contain **standard characters** (a-z and A-Z), **numbers **(0-9) and some **special symbols** which is enough for basic web browsing\n- If a URL needs to include a character **outside of this set**, they are converted into a **hexadecimal code**\n- Hexadecimal codes included in a URL are prefixed with a **% **sign"
+  }
+ ]
+}

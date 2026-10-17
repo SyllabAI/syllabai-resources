@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_S4XcBYNvsGrjr27N",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/object-oriented-programming/inheritance-oop",
+ "title": "Inheritance (OOP)",
+ "page_title": "Inheritance (OOP) | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "object-oriented-programming",
+   "inheritance-oop"
+  ],
+  "section": "20-further-programming-",
+  "topic": "object-oriented-programming",
+  "leaf": "inheritance-oop"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Object-Oriented Programming",
+  "subtopic": "Inheritance (OOP)"
+ },
+ "updated_at": "2025-06-03T10:04:49.608Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_DZTVTnD8468FWpMj",
+  "spcpt_XRj64GWyhZFKdc87"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_DZTVTnD8468FWpMj",
+   "name": "Inheritance (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Inheritance (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is inheritance?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Inheritance** is a key concept in **object-oriented programming (OOP)** that allows a **class** to inherit the properties and behaviours (methods and attributes) of another class\n- **Inheritance** promotes code reuse by allowing ***derived classes*** to inherit and utilise the existing code from the ***base class***. This avoids duplicating code and promotes better organization and maintainability\n- **Inheritance** establishes an **\"IS-A\" relationship** between the base class and the derived class\n- For example, if you have a base class called Vehicle and a derived class called Car, you can say that \"a Car is a Vehicle.\"\n- The car class** inherits** the properties and behaviours associated with being a vehicle\n- Inheritance involves two main entities:\n\n  - The **base class** (also known as the parent class or superclass) and the derived class (also known as the child class or subclass)\n  - The **derived class** inherits the characteristics of the base class, meaning it can access and use the methods and attributes defined in the base class"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/inheritance-diagram.png",
+   "file": "assets/9ef7a45c6000-inheritance-diagram.png",
+   "alt": "Example of a base class and derived classes",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Example of a base class and derived classes***"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Base Class**: The base class serves as the blueprint or template from which the derived class inherits\n\n  - It defines common properties and behaviours that can be shared among multiple derived classes\n- **Derived Class**: The derived class inherits the attributes and methods of the base class\n\n  - It can add additional attributes and methods\n- If a car object was to be created, it may have the following attributes:\n\n  - Manufacturer - The company that makes the car\n  - Make -The model of the car\n  - Cost – The price of the car to purchase\n  - IsInsured – Whether or not the car is insured\n  - EngineCapacity – The size of the engine for the car"
+  },
+  {
+   "type": "bullets",
+   "md": "- It may also have access to the following **methods**:\n\n  - `TurnEngineOn()` – To start the car engine\n  - `TurnEngineOff()` – To turn off the car engine\n  - `SteerLeft()` – To turn the car to the left\n  - `SteerRight()` – To steer the car to the left\n  - `GearChange()` – To change the gear of the car\n  - `UnlockDoors()` – To unlock the doors to the car"
+  },
+  {
+   "type": "bullets",
+   "md": "- The above **methods** are only a select few and there could be many more added for extra functionality"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the following code, the **super keyword** is used in inheritance to refer to the superclass (Base class: Vehicles) and access its members (methods, attributes, or constructors) from within the subclass (Derived Class: Cars)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_XRj64GWyhZFKdc87",
+   "name": "Programming inheritance",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Programming inheritance"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you program inheritance?"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Pseudocode"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/inheritance-pseudo-1.png",
+   "file": "assets/2c41e438d7a2-inheritance-pseudo-1.png",
+   "alt": "Pseudocode for a class created using inheritance (part 1)",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/inheritance-pseudo-2.png",
+   "file": "assets/cb040c313e47-inheritance-pseudo-2.png",
+   "alt": "Pseudocode for a class created using inheritance (part 2)",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Pseudocode for a class created using inheritance***"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Java"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Python"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The child class `Helicopter` inherits from the parent class `Vehicle`. A helicopter also has a vertical position and changes the vertical position when it increases speed.\n\n![Diagram of a Helicopter class with attributes VerticalPosition, VerticalChange, MaxHeight, and methods Constructor, GetVerticalPosition, IncreaseSpeed.](assets/526bf98512b5-12657-2025-06-03-0ia-kleki.png)\n\nWrite program code to declare the class `Helicopter`. You only need to declare the class and its constructor. You do not need to declare the other methods.\n\nUse your programming language’s appropriate constructor.\n\nAll attributes must be private.\n\nIf you are writing in Python, include attribute declarations using comments. **[5]**\n\n**Final answer:** **Answer**\n\n- Class header (and end where appropriate) inheriting from Vehicle **[1 mark]**\n- 3 (private) attribute declarations with data types **[1 mark]**\n- Constructor (and end where appropriate) with (min) 5 parameters **[1 mark]**\n- Calling parent constructor with appropriate parameters **[1 mark]**\n- Initialising `VerticalPosition` to 0 and `VerticalChange` and `MaxHeight` to attributes **[1 mark]**\n\nExample program code:\n\n**VB.NET**\n\n**Java**\n\n**Python**"
+  }
+ ]
+}

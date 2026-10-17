@@ -1,0 +1,283 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RZ83BKNrMdx2SMg4",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/4-processor-fundamentals-/bit-manipulation/bitwise-operations",
+ "title": "Bitwise Operations",
+ "page_title": "Bitwise Operations | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "4-processor-fundamentals-",
+   "bit-manipulation",
+   "bitwise-operations"
+  ],
+  "section": "4-processor-fundamentals-",
+  "topic": "bit-manipulation",
+  "leaf": "bitwise-operations"
+ },
+ "titles": {
+  "section": "4. Processor Fundamentals",
+  "topic": "Bit Manipulation",
+  "subtopic": "Bitwise Operations"
+ },
+ "updated_at": "2026-10-01T09:41:25.787Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PwG2t8r8YrZZ4Hbd",
+  "spcpt_524dyCyXXWhkGfNr"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 51,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_PwG2t8r8YrZZ4Hbd",
+   "name": "Binary shifts",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binary shifts"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are binary shifts?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A binary shift is an operation that **moves all the bits in a binary number left or right** by a certain number of positions\n- Often used in programming and computer systems for **fast multiplication or division by powers of 2**, or for manipulating individual bits\n- There are three main types of binary shift:\n\n  - **Logical**\n  - **Arithmetic**\n  - **Cyclic**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Logical"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Moves bits left or right** and **fills the gap with 0s**\n- Used for **unsigned binary numbers** or raw bit manipulation"
+  },
+  {
+   "type": "table",
+   "md": "| Direction | What happens |\n|---|---|\n| Left | All bits shift left, a `0` fills the rightmost bit |\n| Right | All bits shift right, a `0` fills the leftmost bit |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Left"
+  },
+  {
+   "type": "bullets",
+   "md": "- The following number is shifted by **two **places to the left"
+  },
+  {
+   "type": "table",
+   "md": "| Step | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Original** | 0 | 0 | 0 | 0 | *1* | *1* | *1* | 0 |\n| **Left shift by 2** | 0 | 0 | *1* | *1* | *1* | 0 | 0 | 0 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Original number:** *0000 1110* = **14**\n- **Left shift (2) result: ***0011 1000* = **56**\n- Each left shift has **doubled **the number:\n\n  - **Original value **=** 14**\n  - **Left shift 1** - Doubled the number to 28\n  - **Left shift 2** - Doubled the number to 56"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Right"
+  },
+  {
+   "type": "bullets",
+   "md": "- The following number is shifted by** three **places to the right"
+  },
+  {
+   "type": "table",
+   "md": "| Step | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Original** | *1* | *1* | 0 | 0 | *1* | 0 | 0 | 0 |\n| **Right shift by 3** | 0 | 0 | 0 | *1* | *1* | 0 | 0 | *1* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Original number:**       *1100 1000 *= **200**\n- **Right shift (3) result: ***0001 1001* = **25**\n- Each right shift has **halved** the number:\n\n  - **Original value **=** 200**\n  - **Right shift 1** - Halved the number to 100\n  - **Right shift 2** - Halved the number to 50\n  - **Right shift 3** - Halved the number to 25"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Arithmetic"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Moves bits**, but **preserves the sign bit** (used for signed binary numbers in two's complement)"
+  },
+  {
+   "type": "table",
+   "md": "| Direction | What happens |\n|---|---|\n| Left | Same as logical left (shift left, 0 in) |\n| Right | Shift right, **copy the sign bit (MSB)** into the new leftmost bit |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Right"
+  },
+  {
+   "type": "bullets",
+   "md": "- The following number is shifted by** three **places to the right"
+  },
+  {
+   "type": "table",
+   "md": "| Step | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Original** | *1* | *1* | *1* | 0 | *1* | 0 | 0 | 0 |\n| **Right shift by 3** | *1* | *1* | *1* | *1* | *1* | *1* | 0 | *1* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Original number**: *1110 1000*` `= **−24**\n- **Right shift (3)** **result**: *1111 1101 *= **−3**\n- Each arithmetic right shift **divides the number by 2**, rounding **towards negative infinity** (preserving the sign bit)\n\n  - **Original value** = **−24**\n  - **Right shift 1** → *1111 0100 *= **−12**\n  - **Right shift 2** → *1111 1010 *= **−6**\n  - **Right shift 3** → *1111 1101 *= **−3**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Cyclic"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Rotates** the bits around, nothing is lost, no 0s added\n- The bit that falls off one end is **reused** at the other end"
+  },
+  {
+   "type": "table",
+   "md": "| Direction | What happens |\n|---|---|\n| Left | Leftmost bit moves to the rightmost position |\n| Right | Rightmost bit moves to the leftmost position |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The following number is shifted by **three **places to the left and right"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Left and Right"
+  },
+  {
+   "type": "table",
+   "md": "| **Step** | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Original** | *1* | 0 | *1* | *1* | 0 | 0 | 0 | *1* |\n| **Cyclic left (×3)** | *1* | 0 | 0 | 0 | *1* | *1* | 0 | *1* |\n| **Cyclic right (×3)** | 0 | 0 | *1* | *1* | 0 | ***1*** | *1* | 0 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The 3 leftmost bits *101 *wrap around to the right side\n- The 3 rightmost bits *001 *wrap around to the left side\n- **Original**: *1011 0001 *= **177**\n- **Cyclic left (3)**: *1000 1101 *= **141**\n- **Cyclic right (3)**: *0011 0110 *= **54**"
+  },
+  {
+   "type": "table",
+   "md": "| **Shift type** | **Left shift** | **Right shift** | **Used for** |\n|---|---|---|---|\n| Logical Shift | Shift bits left, fill with `0` | Shift bits right, fill with `0` | Unsigned numbers, raw bits |\n| Arithmetic Shift | Same as logical left | Shift bits right, **preserve sign bit** | Signed numbers (two's complement) |\n| Cyclic Shift | Rotate bits left (no loss) | Rotate bits right (no loss) | Bit rotation, encryption, checksums |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Cyclic shifts **do not** preserve the sign bit and are not equivalent to multiplying or dividing by powers of two"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_524dyCyXXWhkGfNr",
+   "name": "Device control & bit masking",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Device control & bit masking"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is device control?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In computer systems and embedded devices, **each bit** in a byte can be used to represent the **state of a device or feature** (e.g. turning a light on, checking if a sensor is active, or flagging an error)\n- You can **control or monitor** these bits using **bitwise operations** and **bit masking**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is bit masking?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Bit masking uses binary patterns (masks) to **test**, **set**, **clear**, or **toggle** specific bits **without affecting the others**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Bitwise AND operation (&)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Used to **test** if a specific bit is set to 1\n- Only returns 1 when **both** the binary value **and** the mask have 1 in the same position\n- Useful for **checking** the status of a device"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Binary** | *1* | *0* | *1* | *1* | *1* | *0* | *0* | *1* |\n| **Mask** | *0* | *0* | *1* | *1* | *0* | *0* | *0* | *0* |\n| **Result** | *0* | *0* | *1* | *1* | *0* | *0* | *0* | *0* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Check if a **heater (Bit 5)** and **light (Bit 4)** are both ON\n- **AND **the value with a mask that has 1s at those positions: `00110000`\n- If the result **equals the mask** (`00110000`), both devices are **ON**\n- If the result is 0, both are OFF; any other result means only one of them is ON"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Bitwise OR operation (|)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Used to **set** specific bits to 1\n- Returns 1 if **either** the binary value **or** the mask has 1\n- This is useful to **turn on a device** (set a bit to 1) without changing the others"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Binary** | *1* | *1* | *0* | *0* | *1* | *0* | *1* | *0* |\n| **Mask** | *0* | *1* | *1* | *0* | *0* | *0* | *0* | *0* |\n| **Result** | *1* | *1* | *1* | *0* | *1* | *0* | *1* | *0* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Turn ON the **alarm system (Bit 6)** and **door lock (Bit 5)** by ORing with a mask that has 1s at those positions"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Bitwise XOR operation (^)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Used to **toggle** (flip) specific bits\n- Returns 1 if the bits are **different**\n- Can be used for **switching** a device from ON to OFF or vice versa"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|---|\n| **Binary** | *1* | *0* | *1* | *0* | *1* | *0* | *1* | *0* |\n| **Mask** | *0* | *0* | *1* | *1* | *0* | *0* | *0* | *0* |\n| **Result** | *1* | *0* | *0* | *1* | *1* | *0* | *1* | *0* |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Toggle the **fan (Bit 5)** and **heating system (Bit 4)** with a mask that has 1s in those positions"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Purpose** | **Example Use** |\n|---|---|---|\n| Bitwise AND | Test a bit | Check if a sensor is active |\n| Bitwise OR | Set a bit | Turn ON a device |\n| Bitwise XOR | Toggle a bit | Flip device state (ON ↔ OFF) |"
+  }
+ ]
+}

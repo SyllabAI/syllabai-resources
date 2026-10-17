@@ -1,0 +1,110 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_khzrcdBNJkFqtnHg",
+ "course_slug": "cie-a-level-physics-25",
+ "url": "https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/24-medical-physics/24-1-production-and-use-of-ultrasound/intensity-reflection-coefficient",
+ "title": "Intensity Reflection Coefficient",
+ "page_title": "Intensity Reflection Coefficient - CIE A Level Physics",
+ "path": {
+  "segs": [
+   "24-medical-physics",
+   "24-1-production-and-use-of-ultrasound",
+   "intensity-reflection-coefficient"
+  ],
+  "section": "24-medical-physics",
+  "topic": "24-1-production-and-use-of-ultrasound",
+  "leaf": "intensity-reflection-coefficient"
+ },
+ "titles": {
+  "section": "24. Medical Physics",
+  "topic": "Production & Use of Ultrasound",
+  "subtopic": "Intensity Reflection Coefficient"
+ },
+ "updated_at": "2026-07-02T08:19:40.574Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_QJZkcR3ytmbpGFPq",
+   "name": "Ashika",
+   "role": "Physics Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_PXpScD7ncs34zBm9",
+   "name": "Caroline Carroll",
+   "role": "Head of Content Delivery"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_ZszmcpZ92YSfwrNn",
+   "rnl_MqWCSCh9nc55b3hp",
+   "rnl_bC8JYyDrbCKmszgq"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_kbQN6wkHqfK9stqc"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "I=I_{T}+I_{R}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>I</mi><mi>T</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mi>I</mi><mi>R</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "I space equals space I subscript T thin space plus space I subscript R"
+  }
+ ],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_kbQN6wkHqfK9stqc",
+   "name": "Intensity Reflection Coefficient",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Intensity reflection coefficient"
+  },
+  {
+   "type": "bullets",
+   "md": "- The intensity reflection coefficient α is defined as: **The ratio of the intensity of the reflected wave relative to the incident (transmitted) wave**\n- This can be calculated using the fraction:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`alpha space equals space fraction numerator I subscript R space over denominator I subscript 0 end fraction space equals space fraction numerator open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space over denominator open parentheses Z subscript 2 space plus thin space Z subscript 1 close parentheses squared end fraction`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where:\n\n  - *α *= intensity reflection coefficient\n  - *I*<sub>R</sub> = intensity of the reflected wave (W m<sup>-2</sup>)\n  - *I*<sub>0</sub> = intensity of the incident wave (W m<sup>-2</sup>)\n  - *Z*<sub>1</sub> = acoustic impedance of one material (kg m<sup>-2</sup> s<sup>-1</sup>)\n  - *Z*<sub>2</sub> = acoustic impedance of a second material (kg m<sup>-2</sup> s<sup>-1</sup>)"
+  },
+  {
+   "type": "bullets",
+   "md": "- This equation will be provided on the datasheet for your exam\n- This ratio shows:\n\n  - If there is a large difference between the impedance of the two materials, then most of the energy will be reflected\n  - If the impedance is the same, then there will be **no reflection**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Coupling medium"
+  },
+  {
+   "type": "bullets",
+   "md": "- When ultrasound is used in medical imaging, a **coupler **is needed between the transducer and the body\n- The soft tissues of the body are much denser than air\n- If air is present between the transducer and the body, then almost all the ultrasound energy will be reflected\n- The coupling gel is placed between the transducer and the body, as skin and the coupling gel have a similar density, so little ultrasound is reflected\n\n  - This is an example of *impedance matching*"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A beam of ultrasound is incident at right angles to a boundary between two materials as shown in the diagram.\n\n![WE - Intensity reflection coefficient question image, downloadable AS & A Level Physics revision notes](assets/bca880104f7c-24-1-we-intensity-reflection-coefficient-questio.png)\n\nThe materials have acoustic impedances of *Z*<sub>1</sub> and *Z*<sub>2</sub>. The intensity of the transmitted ultrasound beam is *I*<sub>T</sub>, and the reflected intensity is *I*<sub>R</sub>.\n\n(a) What is the relationship between *I*, *I*<sub>T</sub> and *I*<sub>R</sub>?\n\n(b) Use the data from the table to determine the reflection coefficient α for a boundary between\n\n(i)  gel and soft tissue\n\n(ii)  air and soft tissue\n\n(c) Explain why gel is usually put on the skin during medical diagnosis using ultrasound.\n\n| **medium** | **speed of ultrasound / m s**<sup>**–1**</sup> | **acoustic impedance / kg m**<sup>**–2**</sup>** s**<sup>**–1**</sup> |\n|---|---|---|\n| air | 330 | 4.3 × 10<sup>2</sup> |\n| gel | 1500 | 1.5 × 10<sup>6</sup> |\n| soft tisuse | 1600 | 1.6 × 10<sup>6</sup> |\n| bone | 4100 | 7.0 × 10<sup>6</sup> |\n\n**Answer:**\n\n**Part (a)**\n\nState the relationship between *I*, *I*<sub>T</sub> and *I*<sub>R</sub>:\n\nIncident intensity = Transmitted intensity + Reflected intensity\n\n$I=I_{T}+I_{R}$\n\n**Part (b)(i)**\n\n**Step 1: Write down the equation for intensity reflection coefficient α**\n\n`alpha space equals space fraction numerator open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space over denominator open parentheses Z subscript 2 space plus thin space Z subscript 1 close parentheses squared end fraction`\n\n**Step 2: Write down the acoustic impedances for gel and soft tissue**\n\n- Gel, *Z*<sub>1</sub> = 1.5 × 10<sup>6</sup> kg m<sup>-2</sup> s<sup>-1</sup>\n- Soft tissue, *Z*<sub>2</sub> = 1.6 × 10<sup>6</sup> kg m<sup>-2</sup> s<sup>-1</sup>\n\n**Step 3: Calculate the intensity reflection coefficient**\n\n`alpha space equals space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 space minus space 1.5 space cross times space 10 to the power of 6 close parentheses squared space over denominator open parentheses 1.6 space cross times space 10 to the power of 6 space plus space 1.5 space cross times space 10 to the power of 6 close parentheses squared end fraction space equals space fraction numerator open parentheses 0.1 close parentheses squared space over denominator open parentheses 3.1 close parentheses squared end fraction space equals space 0.001`\n\n- This result means that only **0.1%** of the incident intensity will be reflected, with the remaining being transmitted\n\n**Part (b)(ii)**\n\n**Step 1: Write down the acoustic impedances for air and soft tissue**\n\n- Air, *Z*<sub>1</sub> = 4.3 × 10<sup>2</sup> kg m<sup>-2</sup> s<sup>-1</sup>\n- Soft tissue, *Z*<sub>2</sub> = 1.6 × 10<sup>6</sup> kg m<sup>-2</sup> s<sup>-1</sup>\n\n**Step 2:** **Calculate the intensity reflection coefficient**\n\n`alpha space equals space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 space minus space 4.3 space cross times space 10 squared close parentheses squared space over denominator open parentheses 1.6 space cross times 10 to the power of 6 space plus thin space 4.3 space cross times space 10 squared close parentheses squared end fraction space almost equal to space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 close parentheses squared space over denominator open parentheses 1.6 space cross times space 10 to the power of 6 close parentheses squared end fraction space almost equal to space 1`\n\n- This result means that **100%** of the incident intensity will be reflected, with none being transmitted\n\n**Part (c)**\n\n- At the air-soft tissue boundary, the intensity reflection coefficient is* α* ≈ 1\n\n  - Therefore, without gel, there is almost complete reflection, no ultrasound is transmitted through the skin\n\n- Therefore, the gel enables almost complete transmission of the ultrasound through the skin, with very little reflection\n\n  - At the gel-soft tissue boundary, the intensity reflection coefficient is *α* = 0.001"
+  }
+ ]
+}

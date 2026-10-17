@@ -1,0 +1,145 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_B9NQVv2Zc7H8WWzm",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/16-system-software-/translation-software/syntax-rules",
+ "title": "Syntax Rules",
+ "page_title": "Syntax Rules | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "16-system-software-",
+   "translation-software",
+   "syntax-rules"
+  ],
+  "section": "16-system-software-",
+  "topic": "translation-software",
+  "leaf": "syntax-rules"
+ },
+ "titles": {
+  "section": "16. System Software",
+  "topic": "Translation Software",
+  "subtopic": "Syntax Rules"
+ },
+ "updated_at": "2025-05-23T11:07:06.516Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_gWsF6g49PnYds2Bw"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 18,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_gWsF6g49PnYds2Bw",
+   "name": "BNF & syntax diagrams ",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "BNF & syntax diagrams"
+  },
+  {
+   "type": "bullets",
+   "md": "- When writing programs, you must follow a set of strict rules known as **syntax** — the structure that defines how code must be written.\n\n  - Just like spoken languages have grammar rules, **programming languages have syntax rules**\n  - **Each language has its own syntax**, e.g. Python uses indentation, Java uses semicolons\n- Programs are first written in **source code** (a high-level language like Python, Java, etc.)\n- To run the program, this source code must be **translated into machine code**\n- For translation to work, syntax must be **precisely defined** to avoid **ambiguity**\n- Translators (compilers or interpreters) rely on these rules to correctly convert the program into a form the CPU can understand"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Regular expressions and meta-languages"
+  },
+  {
+   "type": "bullets",
+   "md": "- Regular expressions are used to **describe simple patterns** in text or syntax\n- Many programming constructs (like variable names or simple statements) **can be defined** using regular expressions\n- However\n\n  - Some aspects of a programming language are **too complex** for regular expressions alone\n- When regular expressions aren't enough, we use a **meta-language**\n- A language used to **describe the structure of another language**\n- The most common example is **Backus-Naur Form (BNF)** or **syntax diagrams**\n- These allow us to define:\n\n  - Full grammar rules\n  - Nested structures\n  - Hierarchical syntax"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Backus-Naur form (BNF)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- BNF is a **meta-language**, a way of writing rules that define the **syntax of programming languages** or **data structures**\n- BNF is used to:\n\n  - Describe **formal grammar**\n  - Define how statements and expressions are **structured**\n  - Ensure that syntax rules are **unambiguous** and **machine-readable**\n- BNF uses a set of **rules** made up of:"
+  },
+  {
+   "type": "table",
+   "md": "| **Term** | **Meaning** |\n|---|---|\n| **Non-terminal** | A category or component (e.g. `<digit>`, `<identifier>`) |\n| **Terminal** | An actual value or symbol (e.g. `0`, `1`, `+`, `if`) |\n| **::=** | \"Is defined as\", separates the name from its definition |\n| **\\|** | \"or\", it gives alternative definitions |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 1"
+  },
+  {
+   "type": "bullets",
+   "md": "- `<digit>` is defined as any single digit 0–9\n- `<number>` is defined as:\n\n  - a single digit, or\n  - a digit followed by another number (i.e. multiple digits)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 2"
+  },
+  {
+   "type": "bullets",
+   "md": "- `<number>` contains one or more digits\n- BNF for `<number>` and use it to define `<IDcode>`, which consists of a `<number>` followed by either a `<letter>` or another `<number>`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Recursive definition of one or more items\n- Use of `|` for choice\n- Application to a second rule with multiple components"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a syntax diagram?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A syntax diagram is a** graphical representation of BNF** (meta-language)\n- It uses** symbols** to map directly to the structure of BNF\n- The symbols used are:"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/17873_data.png",
+   "file": "assets/8d338c995558-17873-data.png",
+   "alt": "Diagram showing a terminal element in a circle and two non-terminal elements in rectangles with different annotations for further breakdown and reuse.",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Examples"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/43697_data-1.png",
+   "file": "assets/adae8b64183c-43697-data-1.png",
+   "alt": "Flowchart showing letters A, B, and C as valid options, and a formula calculating area as length multiplied by width in a sequence of shapes.",
+   "caption": ""
+  }
+ ]
+}

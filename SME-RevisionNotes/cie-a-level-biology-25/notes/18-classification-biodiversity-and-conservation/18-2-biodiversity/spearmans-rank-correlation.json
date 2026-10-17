@@ -1,0 +1,168 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DF2NtMNFh27byY4G",
+ "course_slug": "cie-a-level-biology-25",
+ "url": "https://www.savemyexams.com/a-level/biology/cie/25/revision-notes/18-classification-biodiversity-and-conservation/18-2-biodiversity/spearmans-rank-correlation",
+ "title": "Spearman's Rank Correlation",
+ "page_title": "Spearmans Rank Correlation - CIE A Level Biology Revision",
+ "path": {
+  "segs": [
+   "18-classification-biodiversity-and-conservation",
+   "18-2-biodiversity",
+   "spearmans-rank-correlation"
+  ],
+  "section": "18-classification-biodiversity-and-conservation",
+  "topic": "18-2-biodiversity",
+  "leaf": "spearmans-rank-correlation"
+ },
+ "titles": {
+  "section": "18. Classification, Biodiversity & Conservation",
+  "topic": "Biodiversity",
+  "subtopic": "Spearman's Rank Correlation"
+ },
+ "updated_at": "2026-10-15T18:23:47.423Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_CfxchGFKG2FhP4Tw",
+   "name": "Phil",
+   "role": "Biology Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_nqk42pRRXKTwNYsg",
+   "name": "Alistair Marjot",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_z8QVW755hYJtS6Sn",
+   "rnl_ssFTknYFtHY8dWFC",
+   "rnl_X9MpyVgrS9wp3y3t"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_khDYmn8DZHCNCXYr"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 24,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_khDYmn8DZHCNCXYr",
+   "name": "Spearman's Rank Correlation",
+   "definition": "use Spearman’s rank correlation and Pearson’s linear correlation to analyse the relationships between two variables, including how biotic and abiotic factors affect the distribution and abundance of species"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Spearman's rank correlation"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Spearman’s rank** correlation test can be used to determine whether there is correlation between variables when:\n\n  - Data is **not quantitative**, e.g. an abundance scale has been used rather than a count of individuals\n  - A visual inspection of data suggests a **non-linear** correlation\n  - Data may **not** be *normally distributed*\n- Method:\n\n  - **Step 1:** Create a scatter graph and identify a possible correlation (the relationship does not need to be linear, but should be consistently increasing or decreasing)\n  - **Step 2:** State a null hypothesis\n  - **Step 3:** Use the following equation to work out Spearman’s rank correlation coefficient *r*"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2021/03/Spearmans-rank-equation.png",
+   "file": "assets/0905e901d299-spearmans-rank-equation.png",
+   "alt": "Spearmans rank equation, downloadable AS & A Level Biology revision notes",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "Where:"
+  },
+  {
+   "type": "bullets",
+   "md": "- **r**<sub>**s**</sub> = Spearman’s rank coefficient\n- **D** = difference in rank\n- **n** = number of samples"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Step 4:** Refer to a table that relates critical values of r<sub>s </sub>to levels of probability"
+  },
+  {
+   "type": "bullets",
+   "md": "- If the value calculated for Spearman’s rank (**ignoring any negative sign**) is greater than the critical value for the number of samples in the data ( *n* ) at the 0.05 *probability level*** ***(p)*,  then the **null hypothesis can be rejected**, meaning there is a correlation between two variables"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A group of students conducted an experiment using quadrats to measure the abundance of different plant species in a neglected allotment. They wanted to see if there was correlation between the abundance of species C and D.  When they looked at their data and plotted a scatter graph they saw some correlation.\n\nInvestigate the possible correlation using Spearman’s rank correlation coefficient.\n\n![Scatter plot of species interaction, showing a positive correlation between individuals of species C (x-axis) and species D (y-axis).](assets/2ed4b54907f5-47659-httpscdn-savemyexams-comuploads202011spear.png)\n\n*Scatter graph showing the correlation between the abundance of species C and species D*"
+  },
+  {
+   "type": "paragraph",
+   "md": "Because the **data was not normally distributed** they decided to use Spearman’s rank correlation coefficient."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Null hypothesis**: there is no correlation between the abundance of species C and species D."
+  },
+  {
+   "type": "bullets",
+   "md": "- n = 10 because there are 10 quadrat samples"
+  },
+  {
+   "type": "table",
+   "md": "| **Quadrat** | **No. of individuals of species C** | **Rank for species C** | **No. of individuals of species D** | **Rank for species D** | **Difference in rank (D)** | **D**<sup>**2**</sup> |\n|---|---|---|---|---|---|---|\n| 1 | 36 | 7 | 25 | 6 | 1 | 1 |\n| 2 | 1 | 1 | 4 | 1 | 0 | 0 |\n| 3 | 23 | 5 | 8 | 4 | 1 | 1 |\n| 4 | 51 | 10 | 32 | 9 | 1 | 1 |\n| 5 | 26 | 6 | 27 | 7 | -1 | 1 |\n| 6 | 8 | 2 | 5 | 2 | 0 | 0 |\n| 7 | 43 | 9 | 35 | 10 | -1 | 1 |\n| 8 | 12 | 3 | 6 | 3 | 0 | 0 |\n| 9 | 20 | 4 | 10 | 5 | -1 | 1 |\n| 10 | 41 | 8 | 29 | 8 | 0 | 0 |\n|   |   |   |   |   |   | ∑D<sup>2</sup> = 6 |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 1:** Rank each set of data (rank 1 being the smallest data figure)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 2:** Find the difference in rank between the two species, **D**"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 3: **Square the difference in rank, **D**<sup>**2**</sup>"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 4:** Add up the values of D<sup>2</sup> to give **∑D**<sup>**2**</sup> (= 6)"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 5**: Substitute the appropriate numbers into the equation (remember ***n*** = 10)"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight r subscript straight s equals 1 minus open parentheses fraction numerator 6 cross times sum from blank to blank of straight D squared over denominator straight n cubed minus straight n end fraction close parentheses`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight r subscript straight s equals 1 minus open parentheses fraction numerator 6 open parentheses 6 close parentheses over denominator 10 cubed minus 10 end fraction close parentheses equals 0.964`"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Step 5:**  Refer to a table that relates values of *r*<sub>*s*</sub> to probability. Look for the 0.05 probability level with n = 10"
+  },
+  {
+   "type": "table",
+   "md": "| **n** | **10** |\n|---|---|\n| Critical value of r<sub>s</sub> | 0.65 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Because R<sub>s</sub> = 0.964, it is greater than the critical value of 0.65\n- The **null hypothesis can be rejected**, there is genuine **positive correlation** between the abundance of species C and D"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "You will be provided with the formula for Spearman’s rank correlation in the exam. You need to be able to carry out the calculation to test for correlation, as you could be asked to do this in the exam. You should understand when it is appropriate to use the different statistical tests that crop up in this topic, and the conditions in which each is valid.\n\n**Correlation does not always mean causation. **Just because there is a correlation between the abundance of species C and species D it does not mean that the presence of species C causes the presence of species D."
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_SJxW6CtvZPzjnF9Q",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/16-system-software-/purposes-of-an-operating-system-os/resource-management",
+ "title": "Resource Management",
+ "page_title": "Resource Management | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "16-system-software-",
+   "purposes-of-an-operating-system-os",
+   "resource-management"
+  ],
+  "section": "16-system-software-",
+  "topic": "purposes-of-an-operating-system-os",
+  "leaf": "resource-management"
+ },
+ "titles": {
+  "section": "16. System Software",
+  "topic": "Purposes of an Operating System (OS)",
+  "subtopic": "Resource Management"
+ },
+ "updated_at": "2025-05-16T11:55:46.516Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CsXnJscqXWtXVj5V"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CsXnJscqXWtXVj5V",
+   "name": "Resource management",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Resource management"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How does an operating system maximise the use of resources?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Operating System (OS) is responsible for **managing the computer's hardware efficiently** to ensure the system runs smoothly\n- This is known as **resource management** and is vital for:\n\n  - **Maximising performance**\n  - **Reducing bottlenecks**\n  - **Ensuring multitasking** works correctly"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Start-up and system loading"
+  },
+  {
+   "type": "bullets",
+   "md": "- When a computer is switched on, the **BIOS** (stored in ROM) runs a **bootstrap** program\n- This loads the **kernel** and essential parts of the OS from the hard disk or flash storage into **main memory (RAM)**\n- On tablets and smartphones, flash memory contains a read-only section for the OS and a second section for apps and user data\n- **RAM** is then used to **execute apps** and **store active data**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Kernel"
+  },
+  {
+   "type": "bullets",
+   "md": "- The kernel is the **core of the OS** responsible for managing:"
+  },
+  {
+   "type": "table",
+   "md": "| **Area** | **Responsibility** |\n|---|---|\n| **Process management** | Schedules processes, allocates CPU time, handles multitasking |\n| **Memory management** | Allocates RAM to processes, handles virtual memory, prevents clashes |\n| **Device management** | Controls input/output devices using **device drivers** |\n| **Interrupt handling** | Deals with interrupts from hardware (e.g. DMA controller or I/O devices) |\n| **File management** | Handles reading/writing from files and file systems |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "CPU resource management – scheduling"
+  },
+  {
+   "type": "bullets",
+   "md": "- The OS maximises CPU usage through **scheduling**, which allows multiple processes to be managed efficiently\n\n  - **Multitasking** ensures that the CPU switches rapidly between processes\n  - Different **scheduling algorithms** (e.g. round-robin, priority-based) are used to share CPU time fairly"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Memory resource management"
+  },
+  {
+   "type": "bullets",
+   "md": "- RAM is **allocated dynamically** to active programs and system processes\n- If RAM is full, the OS may use **virtual memory** on disk to simulate extra memory\n- This allows **more programs to run** than would otherwise fit in RAM"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Input/output management and DMA"
+  },
+  {
+   "type": "bullets",
+   "md": "- I/O devices are **much slower** than the CPU, so the OS optimises their use:\n\n  - I/O operations are managed through **device drivers** and **interrupts**\n  - The **Direct Memory Access (DMA) controller** allows data transfer between memory and devices **without CPU involvement**\n  - This** frees up the CPU **to perform other tasks while data is being moved\n  - When the transfer is complete, the DMA sends an **interrupt** to the CPU"
+  },
+  {
+   "type": "table",
+   "md": "| **Device** | **Typical data rate** |\n|---|---|\n| Keyboard | ~50 bps |\n| Mouse | ~120 bps |\n| Laser printer | ~1 Mbps |\n| Hard disk | ~100 Mbps |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Hiding hardware complexity"
+  },
+  {
+   "type": "bullets",
+   "md": "- The OS provides a **user-friendly interface** and handles the complexity of interacting with hardware:\n\n  - **GUIs** make tasks like file transfers easy (e.g. drag-and-drop instead of command-line)\n  - **Device drivers** handle communication with specific hardware\n  - Users **don’t need to know** technical commands, the OS abstracts this complexity"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Resource** | **Technique used** |\n|---|---|\n| **CPU** | Scheduling, multitasking, process control |\n| **Memory** | Allocation, paging, virtual memory |\n| **I/O** | Interrupts, DMA, buffering, driver management |\n| **User interface** | Abstracts complexity through GUI and system utilities |\n| **Storage** | File system management, read/write optimisation via caching and buffering |"
+  }
+ ]
+}

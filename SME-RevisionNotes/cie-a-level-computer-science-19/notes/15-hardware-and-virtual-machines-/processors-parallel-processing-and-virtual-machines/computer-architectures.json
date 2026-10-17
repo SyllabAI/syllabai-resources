@@ -1,0 +1,167 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DyQ99xJcdcV2DKXw",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/15-hardware-and-virtual-machines-/processors-parallel-processing-and-virtual-machines/computer-architectures",
+ "title": "Computer Architectures",
+ "page_title": "Computer Architectures | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "15-hardware-and-virtual-machines-",
+   "processors-parallel-processing-and-virtual-machines",
+   "computer-architectures"
+  ],
+  "section": "15-hardware-and-virtual-machines-",
+  "topic": "processors-parallel-processing-and-virtual-machines",
+  "leaf": "computer-architectures"
+ },
+ "titles": {
+  "section": "15. Hardware & Virtual Machines",
+  "topic": "Processors, Parallel Processing & Virtual Machines",
+  "subtopic": "Computer Architectures"
+ },
+ "updated_at": "2025-05-14T10:38:17.071Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_hn7PRVxWyP4SzNWt"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 22,
+  "figures": 4,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_hn7PRVxWyP4SzNWt",
+   "name": "Architecture types",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Architecture types"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a computer architecture?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A computer architecture is the design and structure of a computer system\n- It describes how it **fetches, processes, and stores data and instructions**\n- It defines how components like the CPU, memory, and input/output devices **work together to execute programs**\n- Each architecture is categorised as:\n\n  - **S**ingle or **M**ultiple **Instruction** stream\n  - **S**ingle or **M**ultiple **Data** stream"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "SISD – Single Instruction, Single Data"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | **Key Features** |\n|---|---|\n| One processor executes **one instruction** on **one data stream** at a time | Traditional serial (non-parallel) architecture |\n| Used in **basic, single-core processors** | Step-by-step processing |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Classic desktop CPU running one task at a time"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/48364_1.png",
+   "file": "assets/35b74df1b24e-48364-1.png",
+   "alt": "Diagram showing data flow: blue box labelled 'Data' connected by arrow to green 'Processor', leading to orange box labelled 'Instructions'.",
+   "caption": "Single Instruction, Single Data Diagram"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "SIMD – Single Instruction, Multiple Data"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | **Key Features** |\n|---|---|\n| One instruction is applied to **multiple pieces of data** at once | Useful for **parallel processing** |\n| All processing units perform the **same operation** in parallel | Ideal for graphics or scientific computation |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: GPU operations, image processing"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/18769_2.png",
+   "file": "assets/505c829ce8c5-18769-2.png",
+   "alt": "Flowchart depicting data flowing from a blue \"Data\" block to three \"Processor\" blocks, and orange arrows to an \"Instructions\" block.",
+   "caption": "Single Instruction, Multiple Data Diagram"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "MISD – Multiple Instruction, Single Data"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | **Key Features** |\n|---|---|\n| Multiple processors execute **different instructions** on the **same data** | Very uncommon in practice |\n| Used in specialised systems for **fault tolerance** | Each unit checks the same input differently |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Redundant systems in safety-critical environments"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/28038_3.png",
+   "file": "assets/43de77e9cefe-28038-3.png",
+   "alt": "Diagram with a blue \"Data\" box connected to four green \"Processor\" boxes, which in turn connect to an orange \"Instructions\" box.",
+   "caption": "Multiple Instruction, Single Data Diagram"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "MIMD – Multiple Instruction, Multiple Data"
+  },
+  {
+   "type": "table",
+   "md": "| **Description** | **Key Features** |\n|---|---|\n| **Multiple processors** execute **different instructions** on **different data sets** | Most **modern multi-core processors** use this model |\n| Allows full **concurrent processing** of independent tasks | Flexible and scalable for parallel programs |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**: Multi-core CPUs, distributed systems, cloud computing"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/05/48232_4.png",
+   "file": "assets/e10cdd802e30-48232-4.png",
+   "alt": "Diagram showing data and instructions connecting to several processors with blue and orange arrows indicating data and instruction flow.",
+   "caption": "Multiple Instruction, Multiple Data Diagram"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary table"
+  },
+  {
+   "type": "table",
+   "md": "| **Architecture** | **Instruction Stream** | **Data Stream** | **Used In** |\n|---|---|---|---|\n| **SISD** | Single | Single | Standard sequential processors |\n| **SIMD** | Single | Multiple | Vector processing (e.g. GPUs) |\n| **MISD** | Multiple | Single | Specialised fault-tolerant systems |\n| **MIMD** | Multiple | Multiple | Multi-core processors, parallel systems |"
+  }
+ ]
+}

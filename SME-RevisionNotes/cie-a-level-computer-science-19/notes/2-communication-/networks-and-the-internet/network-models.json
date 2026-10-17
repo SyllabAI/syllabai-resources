@@ -1,0 +1,166 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_54rhKVSnQSKGDyfk",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/2-communication-/networks-and-the-internet/network-models",
+ "title": "Network Models",
+ "page_title": "Network Models | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-communication-",
+   "networks-and-the-internet",
+   "network-models"
+  ],
+  "section": "2-communication-",
+  "topic": "networks-and-the-internet",
+  "leaf": "network-models"
+ },
+ "titles": {
+  "section": "2. Communication",
+  "topic": "Networks & the Internet",
+  "subtopic": "Network Models"
+ },
+ "updated_at": "2026-10-01T09:18:54.723Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_x2PCNzpvYrRTgRtf",
+  "spcpt_HGRp8vVYv5y7qwS7"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 22,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_x2PCNzpvYrRTgRtf",
+   "name": "Client-server & peer-to-peer",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Client-server & peer-to-peer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a client-server network?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A client-server network is when** powerful and reliable ‘server’ computers **control the network and **‘serve’ the clients** with services such as files, email, web access, etc\n- Clients **connect to the servers** to access network services\n- In this setup, the server **hosts**, **delivers **and **manages **most of the resources and services to be consumed by the clients"
+  },
+  {
+   "type": "table",
+   "md": "| **Benefits** | **Drawbacks** |\n|---|---|\n| Easier **central management** | **Single point of failure** -  if the server goes down, services could be unavailable |\n| **Scalability**: new clients can be added easily | It can be **expensive **to set up and maintain - often need dedicated teams of people to maintain them |\n| **Higher reliability** as resources are managed centrally |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- A client-server network is typically used by **larger organisations** where **centralised control is needed**, and reliability and security are paramount"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/client-server-network-computer-science-revision-notes.webp",
+   "file": "assets/0c26ec707fbb-client-server-network-computer-science-revision-.webp",
+   "alt": "Diagram showing three clients each connecting to a file, web, and email server, illustrating client-server network architecture.",
+   "caption": "Client computers connected to different servers"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "When to use a client-server network"
+  },
+  {
+   "type": "bullets",
+   "md": "- The choice between client-server and peer-to-peer depends on the **specific needs and resources** of the network in question\n- **Security**, **cost**, **ease of setup**, and **maintenance **requirements should be considered"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Peer-to-peer"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is the **simplest **type of network\n- In this setup, all** computers in the network share equal responsibility,** and there is no central server\n- All **machines have equal status**\n- Each machine is the **responsibility of that machine’s user** in terms of security, backup, etc.\n- **Data is often spread around the network, **with each user being responsible for their data"
+  },
+  {
+   "type": "table",
+   "md": "| **Benefits** | **Drawbacks** |\n|---|---|\n| **Easy to set up** and less expensive than client-server as no administrative staff are needed | **Lack of central control **can lead to security issues and vulnerabilities |\n| **No dependency** on a central server | **Not suitable for large networks** as it can have performance issues |\n| **Data can be shared directly** between systems without the need for a central server |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- A peer-to-peer network is typically used in** home networks**, by **small businesses**, or for **specific applications** like file sharing"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/peer-to-peer-network-computer-science-revision-notes.webp",
+   "file": "assets/184583545e0d-peer-to-peer-network-computer-science-revision-n.webp",
+   "alt": "Peer to peer network example setup",
+   "caption": "Peer to peer network example setup"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Describe the role of clients and servers on the Internet **[2]**\n\n**Final answer:** **Answer**\n\n1 mark per point (**max 2**):\n\n- Web pages/files are saved on servers **[1 mark]**\n- Clients send requests to the web servers** [1 mark]**\n- Web servers process the requests... **[1 mark]**\n- ...and return the results to the client **[1 mark]**\n- The client displays the results to the user **[1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_HGRp8vVYv5y7qwS7",
+   "name": "Thin-client & thick-client",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Thin-client & thick-client"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a thin-client?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **thin client** relies on a **permanent connection** to a server to function\n- Can be **hardware** (a device) or **software** (an app or program)\n- Depends on the **processing power** of another computer or server\n- **Cannot function** without being connected to a networked computer or server\n- The server can be part of a **LAN** (local area network) or a **WAN** (wide area network)\n- Examples of thin-clients include:\n\n  - **Cloud-based apps** like Google Docs or Microsoft 365\n  - **Remote desktop software** (e.g. Chrome Remote Desktop, Citrix)\n  - **Supermarket *****POS***** systems** connected to a central server for prices, stock, and payments"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Thick-client"
+  },
+  {
+   "type": "bullets",
+   "md": "- Works **independently** without needing constant connection to a server\n- Can be a **hardware device** or **software** installed on a local machine\n- Uses the **processing power of its own device** to run applications\n- May connect to a network for updates or data sharing, but **can function offline**\n- Often used where **performance, speed or offline access** is important\n- Examples of thick-clients include:\n\n  - **Installed software** like Adobe Photoshop or Microsoft Word\n  - **Standalone games** installed and played on a PC or console\n  - **School or office PCs** running full applications locally\n  - **Laptops** that can run applications without an internet connection"
+  },
+  {
+   "type": "table",
+   "md": "| Feature | Thin-client | Thick-client |\n|---|---|---|\n| **Dependence on server\t** | Needs a **permanent connection** to a server to function | Can work **independently** of a server |\n| **Processing power\t** | Uses the **server’s processing power** | Uses its own **local processing power** |\n| **Functionality when offline\t** | **Does not work** without a connection | Can **function offline** |\n| **Examples** | Google Docs, Microsoft 365, Remote Desktop, supermarket POS systems | Microsoft Word, Adobe Photoshop, standalone games, school laptops |\n| **Best for\t** | **Centralised control**, low-cost devices, shared environments | **Performance**, flexibility, offline access |\n| **Network type\t** | Part of a** LAN** or **WAN** | May connect to a network, but **not reliant** on it |"
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Pz73xDKQdbhqCPsH",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/1-information-representation/data-representation/character-encoding",
+ "title": "Character Encoding",
+ "page_title": "Character Encoding | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "data-representation",
+   "character-encoding"
+  ],
+  "section": "1-information-representation",
+  "topic": "data-representation",
+  "leaf": "character-encoding"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Data Representation",
+  "subtopic": "Character Encoding"
+ },
+ "updated_at": "2025-04-01T07:49:41.216Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_NnMxGWyGN55Xt4t5",
+  "spcpt_ZChTwM4bV6bXWSph",
+  "spcpt_3cMhSypHmPYmSpGB"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 19,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Character sets"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a character set?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A character set is **all the characters and symbols** that can be **represented **by a computer system\n- Each character is given a **unique **binary code\n- Character sets are **ordered logically**, the code for ‘B’ is one more than the code for ‘A’\n- A character set provides a ***standard*** for computers to communicate and send/receive information\n- Without a character set, one system might interpret *01000001 *differently from another\n- The number of characters that can be represented is determined by the** number of bits used** by the character set\n- Two common character sets are:\n\n  - American Standard Code for Information Interchange (**ASCII**)\n  - Universal Character Encoding (**UNICODE**)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_NnMxGWyGN55Xt4t5",
+   "name": "ASCII",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "ASCII"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is ASCII?"
+  },
+  {
+   "type": "bullets",
+   "md": "- ASCII is a character set and was an accepted standard for information interchange\n- ASCII uses **7 bits**, providing 2<sup>7</sup> unique codes (128) or a maximum of **128 characters **it can represent\n- This is enough to represent the letters, numbers, and symbols from a **standard keyboard**\n- The **sixth bit** changes from 1 to 0 when **comparing uppercase and lowercase characters**\n\n  - **a** *0110 0001*\n  - **A** *0100 0001*\n  - **b** *0110 0010*\n  - **B*** 0100 0010*\n- This made conversion between the two much easier\n- This speeds up the overall usability of the character set"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/-ascii-table.png",
+   "file": "assets/fce7a8eb3b39-ascii-table.png",
+   "alt": "A table showing letters with corresponding ASCII codes and binary values, separated into lowercase and uppercase sections.",
+   "caption": "Part of the ASCII code table"
+  },
+  {
+   "type": "bullets",
+   "md": "- ASCII **only** represents basic characters needed for **English**, limiting its use for other languages"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZChTwM4bV6bXWSph",
+   "name": "Extended ASCII",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Extended ASCII"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is extended ASCII?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Extended ASCII uses an **8th bit**, providing 256 unique codes (2<sup>8</sup> = 256) or a maximum of **256 characters **it can represent\n- Extended ASCII provides** essential characters** such as mathematical operators and more recent symbols such as ©\n- This allows for** non-English characters** and for drawing characters to be included"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_3cMhSypHmPYmSpGB",
+   "name": "UNICODE",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "UNICODE"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is UNICODE?"
+  },
+  {
+   "type": "bullets",
+   "md": "- UNICODE is a **character set** and was created as a solution to the limitations of ASCII\n- UNICODE uses a minimum of **16 bits**, providing 2<sup>16</sup>  unique codes (65,536) or a minimum of **65,536 characters** it can represent\n- UNICODE can represent characters from **all the major languages** around the world\n- UNICODE was designed to **create a universal standard** that covered all languages and all writing systems\n- The** first 128 characters** in the UNICODE character set are the same as ASCII"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "ASCII vs UNICODE"
+  },
+  {
+   "type": "table",
+   "md": "| ** ** | **ASCII** | **UNICODE** |\n|---|---|---|\n| **Number of bits** | 7-bits | 16-bits |\n| **Number of characters** | 128 characters | 65,536 characters |\n| **Uses** | Used to represent characters in the English language. | Used to represent characters across the world. |\n| **Benefits** | It uses a lot less storage space than UNICODE. | It can represent more characters than ASCII.<br><br>It can support all common characters across the world.<br><br>It can represent special characters such as emoji's. |\n| **Drawbacks** | It can only represent 128 characters.<br><br>It cannot store special characters such as emoji's. | It uses a lot more storage space than ASCII. |"
+  }
+ ]
+}

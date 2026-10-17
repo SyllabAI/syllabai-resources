@@ -1,0 +1,67 @@
+---
+note_id: "rn_f4358nTm5jTXshy7"
+title: "Equilibrium in 2D"
+source: https://www.savemyexams.com/a-level/maths/cie/20/mechanics/revision-notes/forces-and-equilibrium/forces/equilibrium-in-2d
+path: forces-and-equilibrium/forces/equilibrium-in-2d
+updated_at: "2026-07-02T08:19:38.190Z"
+spec_point_ids: ["spcpt_KPSrRFXKn55fhQ6P"]
+spec_point_codes: []
+guided_study: true
+---
+
+# Equilibrium in 2D
+
+## Equilibrium in 2D
+
+> **Spec point** — `spcpt_KPSrRFXKn55fhQ6P`
+
+## Equilibrium in 2D
+
+#### What does two dimensions (2D) mean in mechanics?
+
+- In **two** **dimensions**, a particle may be considered as existing and being able to move around two-dimensional space rather than in a single straight line (1D)
+
+  - This 2D space is called a **plane** – so you may see the O***xy *****plane** mentioned
+- The directions of the two dimensions are chosen so that they are perpendicular to each other
+- The two directions are usually
+
+  - **horizontal** and **vertical**, or
+  - **parallel** and **perpendicular** to an inclined plane
+
+#### What is the resultant force in 2D and an unbalanced force in 2D?
+
+- The **resultant** **force** in 2D is the **sum** **of** **forces** acting on a particle but this will now need to be considered in two parts – one for each direction
+- An **unbalanced** **force** is a force acting on a particle that whereby one or both parts are **not** cancelled by another force acting in the opposite direction
+- So a **non**-**zero** resultant force will be non-zero in at **least** **one** of the two dimensions, is therefore **unbalanced** and the particle will **accelerate**
+
+#### What does equilibrium in 2D mean?
+
+- In two dimensions a **particle** is in **equilibrium** if the **resultant** **force** acting on it is **zero**
+
+  - For example, if the two dimensions involved are the **horizontal** and **vertical** directions, a particle will be in equilibrium if any forces acting **left** are **balanced** by any forces acting **right** <u>and</u> any forces acting **up** are **balanced** by any forces acting **down**
+- When a particle has **several** forces (at least 3 – have a think as to why!) acting on it – and it is in **equilibrium** – the forces can be drawn “nose-to-tail” such that they form a polygon
+
+![3-1-3-fig1-four-forces-polygon](../../../assets/f6f8d680585e-3-1-3-fig1-four-forces-polygon.png)
+
+> **Worked Example**
+> A particle of mass 2 kg is suspended in the air by three strings, one vertical and two horizontal. The particle is in equilibrium and the magnitudes of the tensions in the strings are illustrated in the diagram below.
+> 
+> ![Diagram showing a circle with three force vectors: left labelled (x+7)N, up labelled (4x+2)N, and right labelled FN.](assets/5852e4dd8ac2-8255-screenshot-2025-02-03-214422.png)
+> 
+> (a) Write down the resultant forces acting on the particle in both the horizontal and vertical directions.
+> 
+> **Answer:**
+> 
+> ![cie-3-1-3-fig2-we-solution-part-1](assets/1313e2acf7db-cie-3-1-3-fig2-we-solution-part-1.png)
+> 
+> ![cie-3-1-3-fig2-we-solution-part-2](assets/6cdf0149a42e-cie-3-1-3-fig2-we-solution-part-2.png)
+> 
+> (b) Find the value of $F$.
+> 
+> **Answer:**
+> 
+> ![cie-3-1-3-fig2-we-solution-part-3](assets/961f3b401a3f-image.bin)
+
+> **Exam Hint**
+> - F<sub>*net*</sub> is often used for **resultant** **force** in equations.
+> - Sketching diagrams, or adding to any given in a question, can help you to understand a problem and pick up some marks.

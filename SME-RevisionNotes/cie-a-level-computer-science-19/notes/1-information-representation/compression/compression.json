@@ -1,0 +1,130 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_yXms9PZTq9fDHnnF",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/1-information-representation/compression/compression",
+ "title": "Compression",
+ "page_title": "Compression | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "compression",
+   "compression"
+  ],
+  "section": "1-information-representation",
+  "topic": "compression",
+  "leaf": "compression"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Compression",
+  "subtopic": "Compression"
+ },
+ "updated_at": "2025-04-01T10:41:28.760Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_jvdKMHxvtM9crtGx",
+  "spcpt_87TFdzgnwr8ybjNV"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 14,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_jvdKMHxvtM9crtGx",
+   "name": "The need for compression",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "The need for compression"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is compression?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Compression is **reducing the the size of a file** so that it **takes up less space on secondary storage**\n- There are scenarios where compression may be needed, such as:\n\n  - **Maximise the amount of data you can store** on a digital device such as a mobile phone or tablet\n  - **Minimise the transfer time** of data being uploaded, downloaded or streamed across a network such as the Internet\n- Compression can be achieved using two methods, **lossy **and **lossless**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_87TFdzgnwr8ybjNV",
+   "name": "Lossy vs lossless",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Lossy vs lossless"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is lossy compression?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Lossy compression is when** data is lost **in order to **reduce the size** on secondary storage\n- Lossy compression is ***irreversible***\n- Lossy can** greatly reduce the size** of a file but at the **expense of losing quality**\n- Lossy is only suitable for data **where reducing quality is acceptable**, for example images, video and sound\n- In photographs, lossy compression **will try to group similar colours together**, reducing the amount of colours in the image without compromising the overall quality of the image"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/lossy-images.png",
+   "file": "assets/24b51f018c49-lossy-images.png",
+   "alt": "lossy-images",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In the images above, lossy compression is applied to a photograph and **dramatically reduces the file size**\n- **Data has been removed** and the **overall quality has been reduced**, however it is acceptable as it is difficult to visually see a difference\n- Lossy compressed photographs** take up less storage space** which means you can store more and they are quicker to share across a network"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is lossless compression?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Lossless compression is when data is ***encoded*** in order to **reduce the size on secondary storage**\n- Lossless compression is **reversible**, the file** can be returned to its original state**\n- Lossless can reduce the size of a file but not as dramatically as lossy\n- Lossless can be used on all data but is more suitable for data where **a loss in quality is unacceptable**, for example documents\n- In a document, lossless compression uses algorithms to analyse the contents looking for **patterns **and **repetition**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/lossless-compression-demo---word-vs-pdf.png",
+   "file": "assets/8b39b5eae7eb-lossless-compression-demo-word-vs-pdf.png",
+   "alt": "lossless-compression-demo---word-vs-pdf",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In the image above, lossless compression is **automatically applied **to document formats such as **DOCX** and **PDF **with a different rate of success\n- When you open a lossless compressed document the **decompression process reverses the algorithms** and returns the data back to its **original state**\n- Lossless compressed documents **take up less storage space** which means you can store more and they are quicker to share across a network"
+  }
+ ]
+}

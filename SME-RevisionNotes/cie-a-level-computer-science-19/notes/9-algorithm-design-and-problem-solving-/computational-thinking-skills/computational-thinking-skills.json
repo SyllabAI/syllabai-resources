@@ -1,0 +1,156 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wq3XmQHDqTDMsRPK",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/9-algorithm-design-and-problem-solving-/computational-thinking-skills/computational-thinking-skills",
+ "title": "Computational Thinking Skills",
+ "page_title": "Computational Thinking Skills | CIE A Level Computer Science",
+ "path": {
+  "segs": [
+   "9-algorithm-design-and-problem-solving-",
+   "computational-thinking-skills",
+   "computational-thinking-skills"
+  ],
+  "section": "9-algorithm-design-and-problem-solving-",
+  "topic": "computational-thinking-skills",
+  "leaf": "computational-thinking-skills"
+ },
+ "titles": {
+  "section": "9. Algorithm Design & Problem-solving",
+  "topic": "Computational Thinking Skills",
+  "subtopic": "Computational Thinking Skills"
+ },
+ "updated_at": "2025-04-17T14:32:47.289Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_jMSSWQwbp23xmKMM",
+  "spcpt_BT28pP7VkkWZYZbM"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 19,
+  "figures": 3,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_jMSSWQwbp23xmKMM",
+   "name": "Abstraction",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Abstraction"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is abstraction?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Abstraction is the process of** removing unnecessary details **from a problem to **focus on the important features **for implementing a solution\n- Examples of abstraction include modelling a:\n\n  - **real-life object**\n  - **environment**\n  - **action**\n  - **sequence of actions**\n  - **concept**\n- Implementations of these include:\n\n  - **a computer game that simulates playing a sport**\n  - **a simulator such as a car or flight simulator,**\n  - **a map of a bus or train route in a city**\n- When creating a program, developers must **identify important features** that will contribute to solving the problem or have a role to play in the solution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Computer games"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/computer-games.png",
+   "file": "assets/52cd6e4c1487-computer-games.png",
+   "alt": "computer-games",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Computer games use a large amount of abstraction, **removing the elements that a user does not need to consider** in order to enjoy playing the game\n- When using abstraction in computer games which are designed to simulate real life, the aim is to make the game realistic and visually appealing whilst keeping the game fun to play\n- In a game that simulates a sport, it is important to the user that visually they recognise the environment and when they perform an action, they see a response\n- However, users do not need to know the complex algorithms used to control the non player characters (NPCs)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Train map"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/nature-of-abstraction-1-1.png",
+   "file": "assets/0892ac6e293b-nature-of-abstraction-1-1.png",
+   "alt": "nature-of-abstraction-1-1",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Another specific example of abstraction would be the London underground train route map; travellers **do not need to know the geographical layout** of the routes, only that getting on at stop A will eventually transport you to stop B"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_BT28pP7VkkWZYZbM",
+   "name": "Decomposition",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Decomposition"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is decomposition?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Decomposition is **breaking down a big problem** into smaller problems so that they can be **solved independently**\n- Programmers use decomposition to:\n\n  - **Break **problems down\n  - **Identify **the steps, parts or processes involved in a problem\n  - **Identify **reusable components\n  - **Split **tasks between programmers\n- In the case of slow appointment booking, you could **decompose **the problem into issues such as server limitations during peak hours, inefficient backend algorithms, and user interface delays"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/big-problem-1.png",
+   "file": "assets/945fb4ea075e-big-problem-1.png",
+   "alt": "Flowchart showing a big problem divided into two smaller problems, each further divided into sub-problems, highlighting problem breakdown.",
+   "caption": "Process of decomposition to break problems down"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Using abstraction to design a solution"
+  },
+  {
+   "type": "bullets",
+   "md": "- Before we start to break problems down, it is often useful to **apply the rules of abstraction** to the problem\n- Applying abstraction will remove **non-essential elements** and that programmers can **focus on critical aspects** for problem-solving\n- When addressing a slow booking system, a programmer could ignore elements like the system's colour scheme or graphics and focus on critical performance metrics such as server response time and database query efficiency"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Decomposing slow response times problem"
+  },
+  {
+   "type": "ordered",
+   "md": "1. **Big problem**: Slow response times during the online appointment booking process\n2. **Decompose **into sub-problems:\n\n  - Server limitations causing **bottlenecks **during peak hours\n  - Inefficient algorithms leading to **delayed confirmation** screens\n  - Poor user interface contributing to an overall **bad user experience**\n3. **Prioritise **sub-problems:\n\n  1. Address **server limitations**, as solving this could have a broad impact on system performance\n  2. Look into **optimising algorithms** to speed up the booking and confirmation process\n  3. Lastly, make **user interface improvements** to enhance user experience, possibly mitigating some of the frustration caused by slow response times"
+  }
+ ]
+}
