@@ -1,0 +1,858 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:32:25Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "accounting",
+  "exam_code": "0452 & 0985",
+  "sme_course_id": "crs_C9w7QKF3dhnTWnNS",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE Accounting"
+ },
+ "section": {
+  "slug": "5-preparation-of-financial-statements",
+  "name": "5. Preparation of Financial Statements"
+ },
+ "topic": {
+  "id": "top_yjTFjDfxcQcmYjhG",
+  "slug": "incomplete-records",
+  "name": "Incomplete Records",
+  "order": 5
+ },
+ "subtopics": [
+  {
+   "slug": "incomplete-records",
+   "name": "Incomplete Records",
+   "revision_note_id": "rn_h84X9Kqd7QPHHqnj"
+  },
+  {
+   "slug": "statement-of-affairs",
+   "name": "Statement of Affairs",
+   "revision_note_id": "rn_33yB4T6gHrqKcxw5"
+  },
+  {
+   "slug": "calculating-values-using-accounting-ratios",
+   "name": "Calculating Values using Accounting Ratios",
+   "revision_note_id": "rn_MtbKVXcjngnnyhdw"
+  },
+  {
+   "slug": "calculating-values-using-control-accounts",
+   "name": "Calculating Values using Control Accounts",
+   "revision_note_id": "rn_8Z336GHJrqGyzRT3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_x3wfVNSM5vrWB6x5",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 14,
+   "questions_embedded": 14,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/5-preparation-of-financial-statements/incomplete-records/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_Z4kyzbCRyNHYSPV3",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JNMSsqZP45FpHBnK",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YdGfdyKcXpv9c88Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Zelda provided the following information.\n\n| mark-up | 30% |\n|---|---|\n| opening inventory | \\$38 000 |\n| closing inventory | \\$46 000 |\n| rate of inventory turnover | 4 times |\n\nWhat was Zelda's revenue for the year?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The formula for*** inventory turnover ***is $\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}$\n\n  - This is given as a **number of times**\n- Find the average inventory using the formula $\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}$\n\n  - `fraction numerator $ 38 space 000 space plus space $ 46 space 000 over denominator 2 end fraction equals $ 42 space 000`\n- You can find the cost of sales by multiplying the average inventory by the rate of inventory turnover\n\n  - \\$42 000 × 4 = \\$168 000\n- The formula for mark-up is $\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}\\times100$\n\n  - This is given as a **percentage**\n- To find the gross profit multiply the mark-up by the cost of sales\n\n  - 30% × \\$168 000 = \\$50 400\n- Gross profit = revenue - cost of sales\n\n  - revenue = gross profit + cost of sales\n  - revenue = \\$50 400 + \\$168 000 = \\$218 400\n\n**A** is incorrect; you get this value if you subtract \\$50 400 from the cost of sales\n\n**B** is incorrect; this is the cost of sales\n\n**D** is incorrect; you get this value if you mistakenly use 30% as the gross margin (instead of mark-up)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$117 600"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$168 000"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$218 400"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$240 000"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Cost</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>sales</mi></mrow><mrow><mi>Average</mi><mo>&#160;</mo><mi>inventory</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Cost space of space sales over denominator Average space inventory end fraction"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Opening</mi><mo>&#160;</mo><mi>inventory</mi><mo>+</mo><mi>Closing</mi><mo>&#160;</mo><mi>inventory</mi></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Opening space inventory plus Closing space inventory over denominator 2 end fraction"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}\\times100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>Gross</mi><mo>&#160;</mo><mi>profit</mi></mrow><mrow><mi>Cost</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>sales</mi></mrow></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Gross space profit over denominator Cost space of space sales end fraction cross times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_P6nsSqvzdWRkwGZ5",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Y9wNHM8CY5X3jdpZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rfn6Cb7v3fTVM9P7"
+     ],
+     "part_tier": null,
+     "problem_md": "What are advantages of keeping a full set of accounting records?\n\n1. Financial statements will be free from errors.\n2. The calculation of profit is more accurate.\n3. More informed decision-making is possible.\n4. A trial balance can be easily prepared.",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Consider each statement\n\n  - 1 is not true\n  \n    - there still might be errors in the financial statements\n  - 2 is an advantage\n  \n    - the profit is more accurate as each transaction has been entered twice\n  - 3 is an advantage\n  \n    - current balances are easily accessible with a full set of records, which helps with decision-making\n  - 4 is an advantage\n  \n    - a trial balance can be easily prepared using a full set of records\n  - 2, 3 and 4 are the only advantages\n\n**A** is incorrect; there are other advantages\n\n**B **and **D** are incorrect; maintaining a full set of records does not automatically guarantee that the financial statements will be free from errors",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "4 only"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1 and 4 only"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "2, 3 and 4 only"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1, 2, 3 and 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tRdfjZyH9RBWPhyC",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZkRK528vtzK6nTMW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YdGfdyKcXpv9c88Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Diego provided the following information.\n\n| revenue | \\$300 000 |\n|---|---|\n| gross margin | 15% |\n| opening inventory | \\$10 000 |\n| rate of inventory turnover | 6 times |\n\nWhat was the value of Diego's inventory at the end of the year?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The formula for ***margin*** is $\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Revenue}}\\times100$\n\n  - This is given as a **percentage**\n- To find the gross profit multiply the margin by the revenue\n\n  - 15% × \\$300 000 = \\$45 000\n- Gross profit = revenue - cost of sales\n\n  - Cost of sales = revenue - gross profit\n  - Cost of sales = \\$300 000 - \\$45 000 = \\$255 000\n- The formula for*** inventory turnover ***is $\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}$\n\n  - This is given as a **number of times**\n- You can find the average inventory by dividing the cost of sales by the rate of inventory turnover\n\n  - \\$255 000 ÷ 6 = \\$42 500\n- The formula for average inventory is $\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}$\n- You can find the closing inventory by multiplying the average inventory by 2 and subtracting the opening inventory\n\n  - \\$42 500 × 2 = \\$85 000\n  - \\$85 000 - \\$10 000 = \\$75 000\n\n**A** is incorrect; you get this value if you mistakenly use \\$45 000 as the cost of sales (instead of subtracting it from the revenue)\n\n**B** is incorrect; this is the average inventory\n\n**C** is incorrect; this is the gross profit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$5 000"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$42 500"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$45 000"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "\\$75 000"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Revenue}}\\times100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>Gross</mi><mo>&#160;</mo><mi>profit</mi></mrow><mi>Revenue</mi></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Gross space profit over denominator Revenue end fraction cross times 100"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Cost</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>sales</mi></mrow><mrow><mi>Average</mi><mo>&#160;</mo><mi>inventory</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Cost space of space sales over denominator Average space inventory end fraction"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Opening</mi><mo>&#160;</mo><mi>inventory</mi><mo>+</mo><mi>Closing</mi><mo>&#160;</mo><mi>inventory</mi></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Opening space inventory plus Closing space inventory over denominator 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QpGPK6XMrV44rPJC",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dRdqBjqnNbJrcFqB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QF7bYYGmVMgG3qYK"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader has not maintained a full set of accounting records.\n\nHow can she calculate the credit sales for the year?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- To find the sales:\n\n  - start with the receipts from credit customers\n  - add the closing trade receivables\n  \n    - these are for sales made during the year that have not yet been paid\n  - add cash discounts allowed\n  \n    - these also form part of the total sales figure\n  - subtract the opening trade receivables\n  \n    - these are for sales made in the previous year\n\n**A** is incorrect; discount allowed should be added to the receipts\n\n**B** is incorrect; the opening and closing receivables are the wrong way around (opening should be subtracted and closing should be added)\n\n**C** is incorrect; the opening and closing receivables are the wrong way around (opening should be subtracted and closing should be added) and the discount allowed should be added",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "receipts from credit customers + closing trade receivables – discount allowed – opening trade receivables"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "receipts from credit customers - closing trade receivables + discount allowed + opening trade receivables"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "receipts from credit customers - closing trade receivables – discount allowed + opening trade receivables"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "receipts from credit customers + closing trade receivables + discount allowed – opening trade receivables"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XCFhrZWTbyvTKccg",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cZtBDSKHhkqbZGDd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YdGfdyKcXpv9c88Z"
+     ],
+     "part_tier": null,
+     "problem_md": "A business provided the following information for the financial year ended 31 May 2024.\n\n| inventory at 1 June 2023 | \\$7 400 |\n|---|---|\n| inventory at 31 May 2024 | \\$8 200 |\n| rate of inventory turnover | 4.5 times |\n\nWhat was the purchases for the year?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The formula for*** inventory turnover ***is $\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}$\n\n  - This is given as a **number of times**\n  - The formula for average inventory is $\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}$\n- Calculate the average inventory\n\n  - `fraction numerator $ 7 space 400 plus $ 8 space 200 over denominator 2 end fraction equals $ 7 space 800`\n- You can find the cost of sales by multiplying the average inventory by the rate of inventory turnover\n\n  - \\$7 800 × 4.5 = \\$35 100\n- Cost of sales = opening inventory + purchases - closing inventory\n\n  - \\$35 100 = \\$7 400 + purchases - \\$8 200\n  - purchases = \\$35 100 - \\$7 400 + \\$8 200 = \\$35 900\n\n**A** is incorrect; you get this value if you reverse the inventories (add the opening and subtract the closing)\n\n**B** is incorrect; this is the value for the cost of sales, you need to adjust it for the inventories\n\n**D** is incorrect; you get this value if you use the closing inventory instead of the average inventory in the inventory turnover formula",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$34 300"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$35 100"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$35 900"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$37 700"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}{\\mathrm{Average} \\mathrm{inventory}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Cost</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>sales</mi></mrow><mrow><mi>Average</mi><mo>&#160;</mo><mi>inventory</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Cost space of space sales over denominator Average space inventory end fraction"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Opening</mi><mo>&#160;</mo><mi>inventory</mi><mo>+</mo><mi>Closing</mi><mo>&#160;</mo><mi>inventory</mi></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Opening space inventory plus Closing space inventory over denominator 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JbWhsnsTBCsMP3bf",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YrtFXKfvbnSKpcpZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YdGfdyKcXpv9c88Z",
+      "spcpt_sV4PZNjxJW786NvP"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader provided the following information.\n\n|   | \\$ |\n|---|---|\n| revenue | 150 000 |\n| opening inventory | 8 400 |\n| closing inventory | 6 800 |\n\nA mark-up of 20% is applied.\n\nWhat were the purchases for the year?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The formula for mark-up is $\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}\\times100$\n\n  - This is given as a **percentage**\n- If you add the mark-up to 100% you get the revenue as a percentage of the cost of sales\n\n  - 100% + 20% = 120%\n- You know the revenue so divide this by 120% to get the cost of sales\n\n  - \\$150 000 ÷ 120% = \\$125 000\n- Cost of sales = opening inventory + purchases - closing inventory\n\n  - \\$125 000 = \\$8 400 + purchases - \\$6 800\n  - purchases = \\$125 000 - \\$8 400 + \\$6 800 = \\$123 400\n\n**A** is incorrect; you get this value if you use 20% as the gross margin instead of the mark-up\n\n**B** is incorrect; you get this value if you use 20% as the gross margin instead of the mark-up and you get the inventories the wrong way around\n\n**D** is incorrect; you get this value if you reverse the inventories (add the opening and subtract the closing)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$118 400"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$121 600"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$123 400"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$126 600"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}\\times100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>Gross</mi><mo>&#160;</mo><mi>profit</mi></mrow><mrow><mi>Cost</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>sales</mi></mrow></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Gross space profit over denominator Cost space of space sales end fraction cross times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8XHwxcfCXHsyxHGM",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YTkVY53kMJbztRcq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qvjxcsyFpHChKr2V",
+      "spcpt_QF7bYYGmVMgG3qYK"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader has not maintained a full set of accounting records.\n\nHow can she calculate the credit purchases for the year?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- To find the purchases:\n\n  - start with the payments to credit suppliers\n  - add the closing trade payables\n  \n    - these are for purchases made during the year that have not yet been paid\n  - add cash discounts received\n  \n    - these also form part of the total purchases figure\n  - subtract the opening trade payables\n  \n    - these are for purchases made in the previous year\n\n**A** is incorrect; discount received should be added to the payments\n\n**B** is incorrect; the opening and closing payables are the wrong way around (opening should be subtracted and closing should be added)\n\n**C** is incorrect; the opening and closing payables are the wrong way around (opening should be subtracted and closing should be added) and the discount received should be added",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "payments to credit suppliers + closing trade payables – discount received – opening trade payables"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "payments to credit suppliers - closing trade payables + discount received + opening trade payables"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "payments to credit suppliers - closing trade payables – discount received + opening trade payables"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "payments to credit suppliers + closing trade payables + discount received – opening trade payables"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kFXTkGz78d6sYF77",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w6W8GnhjvF94G7Rt",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QF7bYYGmVMgG3qYK"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader who does not keep full accounting records was able to supply the following information. All of his sales are on credit terms.\n\n|   | \\$ |\n|---|---|\n| amount owed by trade receivables at 1 June 2023 | 6 500 |\n| cheques received from trade receivables during the year | 31 400 |\n| interest charged to trade receivables | 950 |\n| amount owed by trade receivables at 31 May 2024 | 5 800 |\n\nHow much were the credit sales for the year ended 31 May 2024?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- To find the amount of credit sales:\n\n  - start with the payments received from trade receivables (\\$31 400)\n  - subtract the opening trade receivables (\\$6 500)\n  \n    - because these did not contribute to sales during this financial year\n  - add the closing trade receivables (\\$5 800)\n  \n    - because these are sales also made during the year that have not yet been paid\n  - subtract the interest charged to trade receivables (\\$950)\n  \n    - because this amount was not charged on sales during the year\n    - interest is charged on overdue balances from trade receivables\n  - \\$31 400 - \\$6 500 + \\$5 800 - \\$950 = \\$29 750\n- Alternatively, you can use a sales ledger control account and the balancing figure will be the sales amount\n\n| Details | \\$ | Details | \\$ |\n|---|---|---|---|\n| balance b/d | 6 500 | bank (payments received) | 31 400 |\n| sales | ? | balance c/d | 5 800 |\n| interest | <u>950</u> |   | <u>         </u> |\n|   | <u>37 200</u> |   | <u>37 200</u> |\n| balance b/d | 5 800 |   |   |\n\n- Sales = \\$37 200 - \\$950 - \\$6 500 = \\$29 750\n\n**B** is incorrect; you get this value if you use the trade receivable amounts the wrong way around\n\n**C** is incorrect; the interest has been added not subtracted\n\n**D **is incorrect; you get this value if you use the trade receivable amounts the wrong way around and you add the interest",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "\\$29 750"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$31 150"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$31 650"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$33 050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nG7Zmyck6KBZfKZf",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_svF4bqNRSM3z8brx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2YgHfXfnSb6z8yQK",
+      "spcpt_YdGfdyKcXpv9c88Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Roshan’s sales for the year were \\$60 000. His gross profit margin was 25%. The inventory at the end of the financial year was \\$800 more than the inventory at the start of the financial year.\n\nWhat were the purchases for the year?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The formula for ***margin*** is $\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Revenue}}\\times100$\n\n  - This is given as a **percentage**\n- To find the gross profit multiply the margin by the revenue\n\n  - 25% × \\$60 000 = \\$15 000\n- Gross profit = revenue - cost of sales\n\n  - Cost of sales = revenue - gross profit\n  - Cost of sales = \\$60 000 - \\$15 000 = \\$45 000\n- Cost of sales = opening inventory + purchases - closing inventory\n- Adjust the purchases for the opening and closing inventory\n\n  - As the closing inventory is \\$800 more than the opening inventory, you know that you need to subtract \\$800 from the purchases to get the cost of sales\n  - Purchases - \\$800 = \\$45 000\n  - Therefore purchases is \\$45 800\n- If you are unsure about whether to add or subtract the \\$800 then make up a value for the opening inventory and add \\$800 to get the closing inventory\n\n  - e.g. Cost of sales = opening inventory + purchases - closing inventory\n  - \\$45 000 = \\$1 000 + purchases - \\$1 800\n  - \\$45 000 = purchases - \\$800\n  - Therefore purchases is \\$45 800\n\n**A** is incorrect; this is the value you get if you subtract \\$800 from the cost of sales\n\n**B** is incorrect; this is just the cost of sales (it needs to be adjusted for the opening and closing inventories)\n\n**D** is incorrect; this is the value you get if you use 25% as the mark-up instead of the margin",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$44 200"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$45 000"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$45 800"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$48 800"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Revenue}}\\times100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>Gross</mi><mo>&#160;</mo><mi>profit</mi></mrow><mi>Revenue</mi></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Gross space profit over denominator Revenue end fraction cross times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bRpgKPNFjf5fxvKD",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dmyTpR64MMjfFXMX",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ytcNp656RhhwqXqg",
+      "spcpt_5ZB58QkKmzBKDfCT"
+     ],
+     "part_tier": null,
+     "problem_md": "Hamza does not maintain a full set of accounting records. He provided the following information for the year ended 31 December.\n\n|   | 1 January<br><br>\\$ | 31 December<br><br>\\$ |\n|---|---|---|\n| non-current assets | 30 000 | 50 000 |\n| current assets | 8 000 | 8 500 |\n| working capital | 5 000 | 4 000 |\n| non-current liabilities | 6 000 | 10 000 |\n\nDuring the year, Hamza took goods costing \\$2 000 from the business for personal use.\n\nWhat was his profit for the year?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Remember working capital is current assets minus current liabilities\n\n  - Therefore capital = non-current assets + working capital - non-current liabilities\n  - You do not need to include current assets separately\n- The opening capital is \\$29 000\n\n  - Non-current assets (30 000) + working capital (5 000) - non-current liabilities (6 000)\n  - Note that the working capital is the current assets minus the current liabilities so you do not need to include the value of the current assets\n- The closing capital is \\$44 000\n\n  - Non-current assets (50 000) + working capital (4 000) - non-current liabilities (10 000)\n  - Note that the working capital is the current assets minus the current liabilities so you do not need to include the value of the current assets\n- Taking goods for own use is a form of drawings\n- The formula for the profit is\n\n  - profit = closing capital - opening capital + drawings\n  - profit = \\$44 000 - \\$29 000 + \\$2 000 = \\$17 000\n\n**A** is incorrect; this is the value you get if you subtract the value of drawings instead of adding it\n\n**C** is incorrect; this is the value you get if you add current assets as well as the working capital in the calculation for the capital\n\n**D** is incorrect; this is the value you get if you add up all the values at 31 December and subtract all the values at 1 January",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$13 000"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$17 000"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$17 500"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$23 500"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bcCqFpBF8x7j3JHx",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_thvHZyCVssgcbJfd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ytcNp656RhhwqXqg"
+     ],
+     "part_tier": null,
+     "problem_md": "Nikita started a business as a delivery driver on 1 June 2023. She purchased a vehicle for the business, using her own money, which cost \\$8 000. She also transferred \\$500 of her own money into a business bank account.\n\nShe did not keep any accounting records. On 31 May 2024, she had \\$2 400 in the business bank account, her vehicle was valued at \\$6 800 and she owed \\$100 for insurance. During the year, she took \\$2 100 out of the business bank account as drawings.\n\nWhat was the profit for the year?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The opening capital is \\$8 500\n\n  - Vehicle (8 000) + bank (500)\n- The closing capital is \\$9 100\n\n  - Vehicle (6 800) + bank (2 400) - insurance owed (100)\n- The formula for the profit is\n\n  - profit = closing capital - opening capital + drawings\n  - profit = \\$9 100 - \\$8 500 + \\$2 100 = \\$2 700\n\n**A** is incorrect; this is the increase in the amount at the bank which does not equal the profit\n\n**C** is incorrect; the amount for the insurance owed has not been subtracted\n\n**D** is incorrect; this is the increase in the amount at the bank plus the drawings which gives how much cash the business has generated but this does not equal the profit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$1 900"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$2 700"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$2 800"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$4 000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zxs2BHjFRJjNH4qp",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HYsGbJBhJr66Zq4v",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QF7bYYGmVMgG3qYK"
+     ],
+     "part_tier": null,
+     "problem_md": "Jakob purchases all his goods on a credit basis. He does not keep a complete set of accounts, but he has provided the following information for the year.\n\n|   | \\$ |\n|---|---|\n| opening trade payables | 6 400 |\n| closing trade payables | 8 900 |\n| payments to credit suppliers | 27 000 |\n| cash discounts received | 3 000 |\n\nWhich value should be used for purchases on the income statement?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- To find the purchases:\n\n  - start with the payments to credit suppliers\n  - subtract the opening trade payables\n  \n    - these are for purchases made in the previous year\n  - add the closing trade payables\n  \n    - these are for purchases made during the year that have not yet been paid\n  - add cash discounts received\n  \n    - these also form part of the total purchases figure\n  - \\$27 000 - \\$6 400 + \\$8 900  + \\$3 000 = \\$32 500\n- You could also draw up a purchases ledger control account and find the balancing value for the purchases\n\n| Details | \\$ | Details | \\$ |\n|---|---|---|---|\n| Payments to credit suppliers | 27 000 | Opening trade payables | 6 400 |\n| Cash discounts received | 3 000 | Purchases | ? |\n| Closing trade payables | <u>8 900</u> |   | <u>            </u> |\n|   | <u>38 900</u> |   | <u>38 900</u> |\n\n**A** is incorrect; you get this value if you subtract the cash discounts instead of adding them\n\n**B** is incorrect; you get this value if you put the opening and closing trade payables values the wrong way around\n\n**C** is incorrect; you get this value if do not include the cash discounts received",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$26 500"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$27 500"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$29 500"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "\\$32 500"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QQNRhB4dFdnWTk3S",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_RjdjChzNRBMzqTfs",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ytcNp656RhhwqXqg",
+      "spcpt_KgzRTngWVf3gtKdt"
+     ],
+     "part_tier": null,
+     "problem_md": "Maria made a profit of \\$4 000 in a year, but her capital only increased by \\$500.\n\nWhich transactions caused this?\n\n|   | capital introduced<br><br>\\$ | drawings<br><br>\\$ |\n|---|---|---|\n| **A** | 1 000 | 5 500 |\n| **B** | 1 000 | 4 500 |\n| **C** | 4 500 | 1 000 |\n| **D** | 5 500 | 1 000 |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Profit increases capital\n\n  - If there was no capital introduced or drawings taken then the capital would have increased by \\$4 000\n- Only \\$500 of the profit increased the capital\n\n  - \\$4 000 - \\$500 = \\$3 500\n  - Overall, the other transactions decreased the capital by \\$3 500\n- Taking drawings decreases the capital and introducing capital increases it\n\n  - As the overall effect of these two transactions decreased the capital, it means more drawings were taken than capital introduced\n  - The difference between the two values should be \\$3 500\n- change in capital = profit + capital introduced - drawings\n\n  - Check the formula works when \\$1 000 is introduced and \\$4 500 is taken\n  - 500 = 4 000 + 1 000 - 4 500\n\n**A** is incorrect; this would have resulted in the capital decreasing by \\$500 as (\\$4 000 + \\$1 000 - \\$5 500 = -\\$500)\n\n**C** and **D** are incorrect; the amount of drawings needs to be more than the amount of capital introduced otherwise the capital would have increased more than the profit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Q4Q96dfYB8mc2cCn",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3hTTXZ42W9SMv9mJ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ytcNp656RhhwqXqg"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader does not keep a full set of accounting records.\n\nHow can he calculate the profit for the year?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The formula for the closing capital balance is\n\n  - closing capital = opening capital + profit - drawings\n- Rearrange this formula to find the profit\n\n  - profit = closing capital - opening capital + drawings\n\n**A **is incorrect; the opening and closing capital balances are the wrong way around\n\n**B **is incorrect; the drawings have been subtracted instead of added (you would subtract drawings to find the closing capital but you add it to find the profit)\n\n**D** is incorrect; you need to find the difference between the capital balances so you do not add them together",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "opening capital - closing capital + drawings"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "closing capital - opening capital - drawings"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "closing capital - opening capital + drawings"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "opening capital + closing capital - drawings"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

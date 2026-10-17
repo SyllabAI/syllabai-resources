@@ -1,0 +1,580 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:16Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "3-hardware",
+  "name": "3. Hardware"
+ },
+ "topic": {
+  "id": "top_ZMkTG4Jpxnf6697k",
+  "slug": "data-storage",
+  "name": "Data Storage",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "primary-storage",
+   "name": "Primary Storage",
+   "revision_note_id": "rn_rxHVWV5fGx7bP98K"
+  },
+  {
+   "slug": "secondary-storage",
+   "name": "Secondary Storage",
+   "revision_note_id": "rn_SFrq6Z8mK5nX4jng"
+  },
+  {
+   "slug": "virtual-memory",
+   "name": "Virtual Memory",
+   "revision_note_id": "rn_KvgDr7ZcS3T8MDBW"
+  },
+  {
+   "slug": "cloud-storage",
+   "name": "Cloud Storage",
+   "revision_note_id": "rn_mZFQQSWhKrbNDwbz"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_6MBXz6j2tBKCGg7X",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 13,
+   "questions_embedded": 13,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/3-hardware/data-storage/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 13,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/09/18604_ram-to-virtual-memory.png": "001-diagram-illustrating-the-transfer-of-pages-betwe.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_NpKSmkbsXfZrmZNg",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_B6rdD4YykSjdFbj6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11 ",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_crpB5X4RtvhkFdJv"
+     ],
+     "part_tier": null,
+     "problem_md": "One type of secondary storage is optical.\n\nFrom the list, **state **three examples of optical storage.\n\n- Read only memory (ROM)\n- Secure digital (SD) card\n- Compact disk (CD)\n- Hard disk drive (HDD)\n- Digital versatile disk (DVD)\n- Blu-ray disk\n- Universal serial bus (USB) drive\n- Solid-state drive (SSD)",
+     "solution_md": "Three examples of optical storage are:\n\n- Compact disk (CD) **[1 mark]**\n- Digital versatile disk (DVD) **[1 mark]**\n- Blu-ray disk **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_83tq5VTRQhvPX73p",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_gP26XyVFkNYC6QVm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **why a computer needs RAM.",
+     "solution_md": "Examples of why a computer needs RAM include:\n\nAny **three **of the following:\n\n- To store data temporarily **[1 mark]**\n- To store data currently in use **[1 mark]**\n- To store software currently in use **[1 mark]**\n- Data can be accessed faster (than secondary storage) **[1 mark]**\n- To speed up the fetch stage (of the fetch-execute cycle) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2gXN8NvmdMgmgh7V",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dWWgrxVFtVH6bjyV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4TzDSW7wjt83BXTF"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer uses both random access memory (RAM) and secondary storage.\n\n**State **the purpose of secondary storage.",
+     "solution_md": "The purpose of secondary storage is:\n\n- To store data/files/software **permanently ****[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_4ZGxngKWPvfqMYCk",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Wf6Yy7md5mGh7kZS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_TtfQMfsCwkfdcYrC"
+     ],
+     "part_tier": null,
+     "problem_md": "A finance company uses cloud storage to archive their accounts.\n\nThe computers also use virtual memory\n\n**Describe how** virtual memory is **created **and **used**.",
+     "solution_md": "Virtual memory is created and used by:\n\nAny **four **of the following:\n\n- The hard drive is partitioned to create virtual memory **[1 mark]**\n- When RAM is full **[1 mark]**\n- … pages of data that are not required  **[1 mark]**\n- … are transferred from RAM to virtual memory **[1 mark]**\n- When the data is required again the pages are transferred back to RAM **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JdZKcdWkVdVmYrh8",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_58KKZx9sK3tYN5b3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TtfQMfsCwkfdcYrC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Draw a diagram **to represent how** virtual memory** is created and used.",
+     "solution_md": "The diagram shows:\n\n- Secondary storage** [1 mark]**\n- The secondary storage portioned in some way to create virtual memory **[1 mark]**\n- RAM **[1 mark]**\n- An indication of pages transferred between the RAM and the virtual memory **[1 mark]**\n\n![Diagram illustrating the transfer of pages between RAM and virtual memory within the hard drive, showing the interaction and data flow between these components.](assets/001-diagram-illustrating-the-transfer-of-pages-betwe.png)"
+    },
+    {
+     "id": "qstnprt_bmrnh3BRnCwvZRp7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_TtfQMfsCwkfdcYrC"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is using software to create 3D models. This process often requires the use of virtual memory.\n\n**Explain why** virtual memory is needed for this process.",
+     "solution_md": "Virtual memory would be used to:\n\n- Extend the RAM capacity **[1 mark]**\n- … to stop the 3D modelling software from freezing/crashing when the physical RAM is full **[1 mark]**\n- Allow the computer to process the large amount of data required for 3D modelling **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_93M46bRqqtxy95PD",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6BvRhmy7xJhgWWCx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_hP6YRH4KZnwmZwZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A business is creating a new mobile device that has an SSD as secondary storage.\n\n**Give three **reasons why an SSD is the **most suitable** secondary storage for their mobile device.",
+     "solution_md": "Examples of why SSD is the most suitable include:\n\nAny **three **of the following:\n\n- It is small in size **OR **compact **OR** lightweight **OR** portable **[1 mark]**\n- It has low power consumption **[1 mark]**\n- It runs quietly **[1 mark]**\n- It runs at a cool temperature **[1 mark]**\n- It is robust when dropped **OR** durable **[1 mark]**\n- Fast access/read/write speed **[1 mark]**\n- High capacity **[1 mark]**\n- Not affected by magnets **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tzfRs9JVwvQrmvkC",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BF93Hg6Q6mrY7bxs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_crpB5X4RtvhkFdJv"
+     ],
+     "part_tier": null,
+     "problem_md": "Three types of storage media are magnetic, optical and solid state\n\nOptical storage uses a laser to store and read data from a disk\n\n**Explain how **the laser is used to **store and read data** from the disk.",
+     "solution_md": "A laser is used to store and read data on a disk by:\n\nAny **three **of the following:\n\n- A laser is shone at the disk **[1 mark]**\n- An (arm/head) moves the laser across the surface of the disk **[1 mark]**\n- The laser burns pits onto the surface of the disk **[1 mark]**\n- The laser is used to read the pits and lands on the surface of the disk **[1 mark]**\n- The reflected light from the laser shining on the disk is captured (by a sensor) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YrCnx7c5XxSwdX2V",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xMTVt5PwSpqvx2V4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June  2023",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4TzDSW7wjt83BXTF"
+     ],
+     "part_tier": null,
+     "problem_md": "Secondary storage devices are used to store data in a computer.\n\n**Identify three **components from the list that are **secondary storage** devices.\n\n- central processing unit (CPU)\n- compact disk (CD)\n- hard disk drive (HDD)\n- random access memory (RAM)\n- read only memory (ROM)\n- register\n- sensor\n- solid‑state drive (SSD)",
+     "solution_md": "The three components that are secondary storage devices are:\n\n- Compact disk (CD) **[1 mark]**\n- Solid-state drive (SSD) **[1 mark]**\n- Hard disk drive (HDD) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_BDdnwpnj2cxTnhZd",
+     "order": 1,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": " 0478/11 ",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_4TzDSW7wjt83BXTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Tick (✓) one box** to show which statement about **secondary storage **is correct.",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- **C **is correct as secondary storage permanently stores software and data files **[1 mark]**\n- **A **is incorrect as primary storage is directly accessed by the CPU\n- **B **is incorrect as optical and solid-state are also secondary storage\n- **D **is incorrect as as secondary storage is non-volatile",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "It is directly accessed by the CPU"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "It is magnetic storage only"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "It is used to permanently store software and data files"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "It is volatile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zhYzDpwnn5ZPDXDS",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_jgj826dRFGfd69Qv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_crpB5X4RtvhkFdJv"
+     ],
+     "part_tier": null,
+     "problem_md": "Cassie stores data for her business every day. She stores the data using optical data storage.\n\n**Identify three **examples of optical data storage.",
+     "solution_md": "Three examples of optical data storage are:\n\n- CD **[1 mark]**\n- DVD **[1 mark]**\n- Blu-ray **[1 mark]**\n\n> **[exam-tip]**\n> - Any variation of each are acceptable i.e. DVD-RW"
+    },
+    {
+     "id": "qstnprt_rKzHs3hsVNXS8VsB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hP6YRH4KZnwmZwZJ",
+      "spcpt_crpB5X4RtvhkFdJv",
+      "spcpt_3WQhvNCVYsrXcHHx"
+     ],
+     "part_tier": null,
+     "problem_md": "Six statements are given about the operation of three different **types of storage**.\n\n**Tick (✓) **to show which statements apply to each type of storage. Some statements** may apply to more than one** type of storage.\n\n| **Statement** | **Magnetic (✓)** | **Optical (✓)** | **Solid state (✓)** |\n|---|---|---|---|\n| this storage has no moving parts |   |   |   |\n| this storage uses a laser to read and write data |   |   |   |\n| this storage uses a read/write head |   |   |   |\n| this storage burns pits onto a reflective surface |   |   |   |\n| this storage uses NAND and NOR technology |   |   |   |\n| this storage stores data in tracks and sectors |   |   |   |",
+     "solution_md": "| **Statement** | **Magnetic (✓)** | **Optical (✓)** | **Solid state (✓)** |\n|---|---|---|---|\n| this storage has no moving parts |   |   | **✓** |\n| this storage uses a laser to read and write data |   | **✓** |   |\n| this storage uses a read/write head | **✓** | **✓** |   |\n| this storage burns pits onto a reflective surface |   | **✓** |   |\n| this storage uses NAND and NOR technology |   |   | **✓** |\n| this storage stores data in tracks and sectors | **✓** | **✓** |   |\n\n> **[mark-scheme]**\n> - **Must **have both ticks on row 3 & 6 for mark"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yJDh5HJfCSNPyrsj",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_c28MH4nhjJT6Jc7g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hP6YRH4KZnwmZwZJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Three types of storage media are magnetic, optical and solid state\n\nOne example of solid‑state storage is a Solid State Drive (SSD).\n\n**Identify **one other** **example of solid‑state storage.",
+     "solution_md": "Examples of solid-state storage include:\n\nAny **one **of the following:\n\n- SD card **[1 mark]**\n- USB flash memory drive (accept: USB, USB stick, USB pen drive) **[1 mark]**\n- Random access memory **OR** RAM **[1 mark]**\n\n> **[exam-tip]**\n> Remember a hard disk drive (HDD) is magnetic storage, not solid-state, so it will not be credited here"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pyNcC6ghmvnhSFC4",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZSBPx7JxKp9VPBZ8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 2,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_mSfNbK7GHsG9KPcr",
+      "spcpt_gP26XyVFkNYC6QVm"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer is designed using the Von Neumann model for a computer system.\n\nThe computer has a central processing unit (CPU).\n\nData is fetched from primary storage into the CPU to be processed\n\n**State **the name of the primary storage from where data is fetched.",
+     "solution_md": "Data is fetched from:\n\n- Random access memory **OR** RAM **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gnxZRTRGh52GRSTB",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2jgvpF5qr8d9tKG8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 6,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_mSfNbK7GHsG9KPcr",
+      "spcpt_gP26XyVFkNYC6QVm"
+     ],
+     "part_tier": null,
+     "problem_md": "A finance company uses cloud storage to archive their accounts.\n\nThe computers in the finance company use both primary and secondary storage.\n\nOne example of primary storage is ROM.\n\n**Give one other **example of primary storage.",
+     "solution_md": "A second example of primary storage is:\n\n- RAM **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_CZmXYjTp3H6h5jGj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/011B",
+      "question_number": 6,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_crpB5X4RtvhkFdJv",
+      "spcpt_4TzDSW7wjt83BXTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Give two** examples of secondary storage",
+     "solution_md": "Examples of secondary storage include:\n\nAny **two **of the following:\n\n- Hard disk drive/HDD **[1 mark]**\n- Solid-state drive/SSD **[1 mark]**\n- Any valid example of offline storage is also secondary storage e.g. CD/DVD (two can be awarded) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FdtXyZcTgpm33HRR",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MTwFHjQfW8Y96dCp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Cy7sNfqSxkwdRnyM"
+     ],
+     "part_tier": null,
+     "problem_md": "A finance company uses cloud storage to archive their accounts.\n\n**Describe **what is meant by **cloud storage**.",
+     "solution_md": "Cloud storage is described as:\n\nAny **two **of the following:\n\n- Storage consisting of servers **[1 mark]**\n- … that are often in a remote location **[1 mark]**\n- … that are often maintained/backed up by a third-party company **[1 mark]**\n- Storage that is normally accessed using a network (often the internet) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dzGCDq3dgFY8F8Xk",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_f8S5r2YtGrMNm3Zq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_HDj78GXDD7cwb6Yj"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop and a calculator for schoolwork.\n\nBoth the laptop and the calculator have read only memory (**ROM**).\n\n**State one **reason why both devices have ROM.",
+     "solution_md": "Reasons why the devices have ROM are:\n\nAny **one **of the following:\n\n- They both need to store boot-up instructions **[1 mark]**\n- They both need data that should not be deleted **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

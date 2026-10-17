@@ -1,0 +1,263 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:41:15Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "9-databases",
+  "name": "9. Databases"
+ },
+ "topic": {
+  "id": "top_sSQQMV96SVzBtfXg",
+  "slug": "sql",
+  "name": "SQL",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "sql",
+   "name": "SQL",
+   "revision_note_id": "rn_vjxqj4hgq9crZdbF"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_FH6SSbrt4KpDgHJz",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/9-databases/sql/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [
+   "qstn_KDXNjTnnjgrsmYwm",
+   "qstn_MV3q6fs9B7bQ9jZ5"
+  ],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/09/54614_june-2023-21-10a.png": "001-table-listing-various-tv-models-with-columns-for.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/32695_specimen-2023-2a-11a-flowchart.png": "002-table-listing-movie-catalog-numbers-titles-genre.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_pRRmypGJ75DNytrt",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_NcKhpyNd5pfs47gc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table called `SoftDrinks` stores details of the soft drinks sold by a small shop.\n\n| Field | Example data |\n|---|---|\n| `Name` | Cola |\n| `Supplier` | Cambridge Beverages |\n| `Container` | Can |\n| `SizeCl` | 330 |\n| `NumberInStock` | 30 |\n| `ReorderLevel` | 15 |\n| `Reordered` | Yes |\n\n**Complete **the structured query language (SQL) statement to return the number of cans the shop has in stock.\n\n`SELECT ..................(..............) `\n\n`FROM ................ `\n\n`WHERE ......................... =...........................;`",
+     "solution_md": "- `SUM` **[1 mark]**\n- `NumberInStock` **[1 mark]**\n- `SoftDrinks` **[1 mark]**\n- `Container` **[1 mark]**\n- '`Can`' **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_K5MpgnJ35TNXSmZv",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_vVPvnNdT66cWHC4m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "The table `students `stores information about students and their exam results. The table has the following structure:\n\n| **Field Name** | **Data Type** | **Description** |\n|---|---|---|\n| StudentID | NUMERIC | Unique identifier for each student |\n| FirstName | STRING | First name of the student |\n| LastName | STRING | Last name of the student |\n| Class | STRING | Class of the student (e.g., '10A') |\n| Subject | STRING | Subject of the exam (e.g., 'Maths') |\n| Score | NUMERIC | Score obtained in the exam (0-100) |\n\n**Write an SQL query** to find the total sum of scores obtained by students in each class. The results should be ordered by class, and the output should display the class and the total sum of scores",
+     "solution_md": "The completed SQL query would be:\n\n- `SELECT Class, SUM(Score)`\n`FROM students`\n`GROUP BY Class`\n`ORDER BY Class;`\n\n- Correct use of `SELECT `statement** [1 mark]**\n- Correct use of `SUM(Score)` to calculate total score **[1 mark]**\n- Correct use of `FROM students `**[1 mark]**\n- Correct use of `GROUP BY Class` to group results by class **[1 mark]**\n\n> **[exam-tip]**\n> Remember that `ORDER BY` only sorts rows — it is `GROUP BY` that aggregates values into one result per group.\n> \n> Whenever you use an aggregate function like `SUM()` alongside another field, group by that field."
+    },
+    {
+     "id": "qstnprt_sGM76NsDtrvdGd7F",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table students stores information about students and their exam results. The table has the following structure:\n\n| **Field Name** | **Data Type** | **Description** |\n| --- | --- | --- |\n| StudentID | NUMERIC | Unique identifier for each student |\n| FirstName | STRING | First name of the student |\n| LastName | STRING | Last name of the student |\n| Class | STRING | Class of the student (e.g., '10A') |\n| Subject | STRING | Subject of the exam (e.g., 'Maths') |\n| Score | NUMERIC | Score obtained in the exam (0-100) |\n\n** Write an SQL query** to find the total number of exam records where the students scored above 75. The output should display just the total count",
+     "solution_md": "The completed SQL would be:\n\n- `SELECT COUNT(*)` `FROM students` `WHERE Score > 75;`\n- Correct use of `SELECT `statement with `COUNT(*)`  **[1 mark]**\n- Correct use of `FROM students `**[1 mark]**\n- Correct use of `WHERE` clause to filter scores greater than 75 **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wx9p9XV87hdsxFcp",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_v5Gg5wYYydfxFw2p",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 10,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "A music streaming service has a new database table named Songs to store details of songs available for streaming. The table contains the fields:\n\n- `SongNumber` – the catalogue number, for example AG123\n- `Title `– the title of the song\n- `Author `– the name of the song writer(s)\n- `Singer `– the name of the singer(s)\n- `Genre `– the type of music, for example rock\n- `Minutes `– the length of the song in minutes, for example 3.75\n- `Recorded `– the date the song was recorded.\n\n**Explain the purpose **of the structured query language (**SQL**) statements.\n\n`SUM (Minutes) FROM Songs WHERE Genre = \"rock\"; `\n\n`COUNT (Title) FROM Songs WHERE Genre = \"rock\";`",
+     "solution_md": "The purpose of the SQL statements is to:\n\n- Find the total number of minutes of music** [1 mark]**\n- Find the total number of songs **[1 mark]**\n- … available for the genre rock **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HbQmgScYKtm4GQjq",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xdQ5rrq2wDB8XcKP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 10,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table called TVRange shows the main features and prices of a range of televisions.\n\n![Table listing various TV models with columns for TV Code, Screen Size, Satellite support, Smart TV support, Sound Bar inclusion, and Price in dollars.](assets/001-table-listing-various-tv-models-with-columns-for.png)\n\n**Complete the structured query language** (**SQL**) query to return the television (TV) code, screen size and price of all Smart TVs in the database table\n\n`SELECT TVCode,..................................., `\n\n`.................TVRange `\n\n`WHERE SmartTV =.............................;`",
+     "solution_md": "The completed SQL statement is:\n\n- `SELECT TVCode, `**ScreenSize**`, `**Price\\$**`,`\n**FROM**` TVRange `\n`WHERE SmartTV = `**YES**`;`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CrH9PjH6pSv6hTnb",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_kQqrYYZpPMJxbsJQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 11,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, 2018MOV, is used to keep a record of movie details.\n\n![Table listing movie catalog numbers, titles, genres, and availability on Blu-ray, DVD, and streaming. Films include \"Power Rangers,\" \"Wonder Woman,\" and \"Despicable Me.\"](assets/002-table-listing-movie-catalog-numbers-titles-genre.png)\n\n**Complete the structured query language** (**SQL**) to return the category number and title for all Comedy movies.\n\n`SELECT CatNo, Title `\n\n`....................2018MOV `\n\n`WHERE Genre1 = ...................................;`",
+     "solution_md": "The completed SQL query is:\n\n- `SELECT CatNo, Title `\n\n**FROM **`2018MOV `\n\n`WHERE Genre1 = `**\"Comedy\"**`;`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XTsYb5QfP37MYPhK",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_BH77yPJTJFd84SG6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_6nMNqQB7kkqFzt6H"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, PERFORMANCE, is used to keep a record of the performances at a local theatre.\n\n| **ShowNumber** | **Type** | **Title** | **Date** | **SoldOut** |\n|---|---|---|---|---|\n| SN091 | Comedy | An Evening at Home | 01 Sept | Yes |\n| SN102 | Drama | Old Places | 02 Oct | No |\n| SN113 | Jazz | Acoustic Evening | 03 Nov | No |\n| SN124 | Classical | Mozart Evening | 04 Dec | Yes |\n| SN021 | Classical | Bach Favourites | 01 Feb | Yes |\n| SN032 | Jazz | 30 Years of Jazz | 02 Mar | Yes |\n| SN043 | Comedy | Street Night | 03 Apr | No |\n| SN054 | Comedy | Hoot | 04 May | No |\n\n**Show the output** that would be given by this structured query language (SQL) statement:\n\n`SELECT Date, Title`\n\n`FROM PERFORMANCE`\n\n`WHERE SoldOut=\"No\" AND Type = \"Jazz\";`",
+     "solution_md": "The output of the SQL statement would be:\n\n- 03 Nov Acoustic Evening **[2 marks]**\n\n> **[mark-scheme]**\n> - **One** mark for correct content\n> - **One** mark for correct field order"
+    }
+   ]
+  }
+ ]
+}

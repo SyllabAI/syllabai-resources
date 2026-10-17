@@ -1,0 +1,1106 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:32:02Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "accounting",
+  "exam_code": "0452 & 0985",
+  "sme_course_id": "crs_C9w7QKF3dhnTWnNS",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE Accounting"
+ },
+ "section": {
+  "slug": "3-verification-of-accounting-records",
+  "name": "3. Verification of Accounting Records"
+ },
+ "topic": {
+  "id": "top_3KymptRXZBbRSpTC",
+  "slug": "the-trial-balance-and-correction-of-errors",
+  "name": "The Trial Balance & Correction of Errors",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "errors-and-the-suspense-account",
+   "name": "Errors & The Suspense Account",
+   "revision_note_id": "rn_j6yhVQwnt4fwyyGN"
+  },
+  {
+   "slug": "the-trial-balance",
+   "name": "The Trial Balance",
+   "revision_note_id": "rn_p6WFZCnXW49dBRPx"
+  },
+  {
+   "slug": "errors-and-journal-entries",
+   "name": "Errors & Journal Entries",
+   "revision_note_id": "rn_dT5wQCC2yvSQKPFG"
+  },
+  {
+   "slug": "impact-of-errors-on-profit-and-financial-position",
+   "name": "Impact of Errors on Profit & Financial Position",
+   "revision_note_id": "rn_NfrWsGnCD74Bg8x3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_fpgVXMCXQsQgCgyr",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 20,
+   "questions_embedded": 20,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/the-trial-balance-and-correction-of-errors/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 20,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_4hhybc34G4V8v2zf",
+   "set_slug": "multiple-choice-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Y7ZktHg8CBvjhW9g",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Marsha, a trader, prepared a draft income statement for her business, which showed a profit for the year of \\$42 500.\n\nWhen she checked her books, however, she noticed the following information.\n\n1. Drawings she had made of \\$1 100 had been debited to the wages account.\n2. She had decreased the provision for doubtful debts by \\$50 at the year-end. However, the total provision of \\$420 had been debited to the income statement.\n3. The total of the discount received column in the cash book, \\$130, for one month had not been credited to the discount received account.\n\nWhat was Marsha's correct profit for the year?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Remember profit for the year is given by\n\n  - profit for the year = gross profit + other income - other expenses\n- Consider the effects of each of the errors\n- Error 1\n\n  - Wages is a business expense\n  \n    - Debiting the wages account \\$1100 decreased the profit for the year by \\$1100\n    \n      - Because more was taken away from gross profit\n    - To undo that error the profit needs to be increased by \\$1100\n  - Drawings do **not** affect the profit for the year\n  \n    - So entering that \\$1100 in the correct account will have no further effect on the profit for the year\n- Error 2\n\n  - Increasing the provision for doubtful debts decreases the profit for the year\n  \n    - And decreasing the provision increases the profit for the year\n  - Decreasing the provision by \\$50 should have increased the profit for the year by \\$50\n  - Instead, \\$420 was debited to the income statement\n  \n    - Debits to the income statement decrease the profit\n    - Therefore, the profit for the year was understated by \\$420\n  - To undo this error the profit for the year needs to be increased by \\$470\n  \n    - \\$420 to undo the effect of the \\$420 charged to the income statement\n    - And another \\$50 for the effect of the correct \\$50 reduction of the provision\n- Error 3\n\n  - Discount received can be thought of as a form of 'other income' for the business\n  \n    - Not crediting the \\$130 to the discount received account would have understated the other income by \\$130\n    - And this would have understated the profit for the year by \\$130\n    \n      - Because less was added to gross profit\n    - To undo that error the profit needs to be increased by \\$130\n- So altogether, the draft profit needs to be increased by \\$1100 + \\$470 + \\$130 = \\$1700\n\n  - \\$42 500 + \\$1700 = \\$44 200\n\n**A** is incorrect; this is what you would get if you calculated \\$42 500 - \\$1100 +\\$50 - \\$420 - \\$130\n\n**B** is incorrect; this is what you would get if you calculated \\$42 500 + \\$1100 +\\$50 - \\$420 - \\$130\n\n**C** is incorrect; this is what you would get if you calculated \\$42 500 + \\$1100 -\\$50 + \\$420 - \\$130",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$40 900"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$43 100"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$43 840"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "\\$44 200"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_scVVfvg2Q7T9yv8f",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8zzD2KFWjkq54NTD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Equipment, \\$3 000, was incorrectly posted to the credit side of the purchases account.\n\nThe draft version of the profit for the year was \\$82 000.\n\nWhat was the revised profit for the year **after** the correction of the error? You may ignore depreciation.",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The first thing to note is that purchase of equipment is not recorded in the purchases account\n\n  - The purchases account is for goods purchased for resale\n  \n    - Equipment, however, is a non-current asset\n  - So the entry will just be removed from the purchases account\n  \n    - It will **not** be moved to the debit side\n- The effect of the error on the purchases account was to overstate the credits by \\$3000\n\n  - Purchases is an account that affects profit for the year\n  - And for accounts that affect the profit for the year\n  \n    - Credit entries increase the profit\n  - So overstating the credits by \\$3000 would have also overstated the profit for the year by \\$3000\n  - To find the correct profit for the year, reduce the draft profit by \\$3000\n  \n    - \\$82 000 - \\$3000 = \\$79 000\n- Note that purchases of non-current assets do not affect the profit for the year\n\n  - One type of asset (money) is turned into another (non-current assets)\n  - So as long as depreciation can be ignored, recording the equipment purchase in the correct place will have no further effect on the profit for the year\n\n**A** is incorrect; \\$3000 has been subtracted twice from \\$82 000 (this would have been the case if a credit entry in the purchases account needed to be changed into a debit entry in the purchases account)\n\n**C** is incorrect;\\$3000 has been added to \\$82 000\n\n**D **is incorrect;\\$3000 has been added twice to \\$82 000",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$76 000"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$79 000"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$85 000"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$88 000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vbqVrCbPbpcz9PwD",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vPmJxbq2bkQCrjx5",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_C7r59XBDpbKhPgQr"
+     ],
+     "part_tier": null,
+     "problem_md": "Rent paid to a landlord was credited to the rent payable account and debited to the cash book.\n\nWhich type of error has been made?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- An error of complete reversal occurs when a transaction is entered into the wrong sides of both of the correct ledger accounts\n\n  - The account that was debited should have been credited\n  - The account that was credited should have been debited\n- Here the rent paid should have been credited to the cash book\n\n  - Paying an expense reduces money (an asset)\n  \n    - And transactions that reduce an asset are entered as credit transactions\n  - So the entry was in the right account, but on the wrong side\n- It should also have been debited to the rent payable account\n\n  - Paying an expense reduces the amount owed (a liability)\n  \n    - And transactions that reduce a liability are entered as debit transactions\n  - So this entry was also in the right account, but on the wrong side\n- So the error is an error of complete reversal\n\n**A** is incorrect; an error of commission occurs when one entry for a transaction is entered into an incorrect account but the type of account is correct\n\n**C** is incorrect; an error of omission occurs when a transaction is not entered into any ledger accounts\n\n**D** is incorrect; an error of principle occurs when one entry for a transaction is entered into an incorrect account and the type of account is also incorrect",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "commission"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "complete reversal"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "omission"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "principle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dc3trtZDt89j9fyw",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3cqhhGtjJ2KFhzqj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Which one of the following statements correctly describes a suspense account?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A suspense account is used to correct errors when the totals in the trial balance are not equal\n- It is a temporary account\n\n  - It should be opened when totals in the trial balance are found to disagree\n  - It should be fully balanced once all the errors are corrected\n\n**A** is incorrect; a suspense account is not opened to check for errors, it is opened when disagreement of the trial balance totals suggests that errors are present\n\n**C** is incorrect; a suspense account is not a permanent account, and is isn't used (at least not directly!) to correct the income statement\n\n**D** is incorrect; the suspense account is a temporary, but it isn't used to correct errors of omission because those do not affect the trial balance",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "It is an account that is opened to check for errors in a trial balance."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "It is an account that is opened when the totals of a trial balance are not equal."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "It is a permanent  account that is used to correct the income statement."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "It is a temporary account that is used to correct errors of omission."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MSWRTX3fnSWrDnpc",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dMhsQY7GWhjDkK6G",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Jethro discovered two errors in his ledger accounts. He made entries in a suspense account to correct these errors, and then closed the suspense account once the corrections were completed.\n\nThe errors were:\n\n1. \\$650 sales returns had been omitted from the sales returns account\n2. The sales journal had been overcast by \\$400\n\nWhich entry was made in the suspense account to balance the trial balance?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In a trial balance:\n\n  - Sales returns go on the debit side\n  \n    - So omitting \\$650 in sales returns caused the debit column to be understated by \\$650\n  - Sales go on the credit side\n  \n    - So the sales journal being overcast by \\$400 caused the credit side to be overstated by \\$400\n- Debits understated by \\$650 and credits overstated by \\$400 means:\n\n  - a difference in the trial balance columns of \\$650 + \\$400 = \\$1050\n  - the debits column will have the lower total\n- The difference is entered in the suspense account on the side which has the lower total\n\n  - So that would mean a \\$1050 entry on the debit side\n\n**A** is incorrect; it says credit instead of debit, and \\$250 is the difference of \\$650 and \\$400 instead of the sum\n\n**B** is incorrect; the amount is right, but it says credit instead of debit\n\n**C** is incorrect; \\$250 is the difference of \\$650 and \\$400 instead of the sum",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "credit \\$250"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "credit \\$1050"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "debit \\$250"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "debit \\$1050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_THqtTmr4SVsVzXC7",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JggdY35TBBHym3Bc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mjq5Zhf33pzS463X"
+     ],
+     "part_tier": null,
+     "problem_md": "Gwydion prepared a trial balance. He entered both the balance on the discount received account, \\$850, and the drawings, \\$625, in the wrong column.\n\nWhich total of the trial balance was higher, and what was the amount of the difference between the debit total and the credit total?\n\n|   | total that was higher | amount of difference<br><br>\\$ |\n|---|---|---|\n| **A** | credit column | 225 |\n| **B** | credit column | 1475 |\n| **C** | debit column | 450 |\n| **D** | debit column | 2950 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Consider the effect of each incorrect entry on the trial balance\n- Discount received is a form of 'income' (it increases profits), so that \\$850 should have gone on the credit side of the trial balance\n\n  - Putting it on the debit side by mistake causes the debit side to be overstated by \\$850\n  - But not putting it on the credit side also causes the credit side to be understated by \\$850\n- Drawings go on the debit side of a trial balance, so that \\$625 should have gone on the debit side\n\n  - Putting it on the credit side by mistake causes the credit side to be overstated by \\$625\n  - But not putting it on the debit side also causes the debit side to be understated by \\$625\n- Consider the combined effects\n\n  - Debit has been overstated by \\$850 and understated by \\$625\n  \n    - Combined that means debit is overstated by \\$850 - \\$625 = \\$225\n  - Credit has been understated by \\$850 and overstated by \\$625\n  \n    - Combined that means credit is understated by \\$850 - \\$625 = \\$225\n- Debit overstated by \\$225 and credit understated by \\$225 means\n\n  - debit column is higher\n  - difference is \\$225 + \\$225 = \\$450\n\n**A** is incorrect; the higher total is wrong, and \\$225 is just the difference between \\$850 and \\$625\n\n**B** is incorrect; the higher total is wrong, and \\$1475 is just the sum of \\$850 and \\$625\n\n**D** is incorrect; the higher total is right, but \\$2950 is twice the sum of \\$850 and \\$625 (it doesn't take account of the fact that the two mistakes affect credits and debits in opposite directions)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3FCpNt6RdKCGTQYm",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2GPKG3fg4n2TFwxx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Sal has opened a suspense account because of a discrepancy in his trial balance. He found that a rent received amount of \\$370 had been correctly entered in the rental income account, but had been debited to the bank account as \\$730.\n\nWhich entries will correct this error?\n\n|   | debit | \\$ | credit | \\$ |\n|---|---|---|---|---|\n| **A** | bank account | 360 | suspense account | 360 |\n| **B** | bank account | 730 | suspense account | 730 |\n| **C** | suspense account | 360 | bank account | 360 |\n| **D** | suspense account | 730 | bank account | 730 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Sal was correct to debit the bank account for money received\n\n  - Because debits increase assets\n- But the debit should have been for \\$370, not \\$730\n\n  - So the debit was too high\n  - To undo this, credit the bank account by \\$730 - \\$370 = \\$360\n- Then a corresponding entry should be made on the other side of the suspense account\n\n  - So debit the suspense account by \\$360\n\n**A** is incorrect; debit and credit are the wrong way round\n\n**B** is incorrect; debit and credit are the wrong way round, and the full incorrect value (\\$730) has been used instead of the difference between the incorrect and correct values\n\n**D** is incorrect; the full incorrect value (\\$730) has been used instead of the difference between the incorrect and correct values",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cky2KBTWF3jxP2th",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_TpvVYxQz4TVpB74q",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "After his trial balance did not agree, Ameen created a suspense account and placed the difference from the trial balance in it.\n\nAmeen has discovered the following errors.\n\n1. A cheque used to pay for business expenses, for \\$350, had been debited to the bank account.\n2. A cheque received from Rabul, for \\$80, had not been entered in Rabul's account.\n\nWhat was the balance on the suspense account **before** the errors were corrected.",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Consider what effect the mistakes would have had on debits and credits\n- A cheque used for a payment should have been credited to the bank account (because credits reduce asset accounts)\n\n  - Debiting the \\$350 cheque by mistake means that debits are overstated by \\$350\n  - But not crediting it means that credits are also understated by \\$350\n- If Rabul is paying by cheque then he is a customer, and his account is an asset for the business\n\n  - Therefore the check received should have been credited to his account (because credits reduce asset accounts, and Rabul owes less to the business after the payment)\n  - Not crediting the \\$80 check means that credits are understated by \\$80\n- So altogether, credits are too small by \\$350 + \\$80 = \\$430\n\n  - And debits are too big by \\$350\n- This means that the difference between debits and credits will be \\$430 + \\$350 = \\$780\n\n  - And because credits are the smaller amount, the \\$780 difference will be entered as a credit on the suspense account\n\n**A** is incorrect; \\$270 is the difference between \\$350 and \\$80\n\n**B** is incorrect; \\$430 is the sum of \\$350 and \\$80, and the balance is identified as a debit instead of a credit\n\n**C** is incorrect; \\$620 is \\$350 + \\$350 - \\$80 (instead of \\$350 + \\$350 + \\$80 = \\$780), and the balance is identified as a debit instead of a credit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$270 credit"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$430 debit"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$620 debit"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "\\$780 credit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2HJD85JscfDZ2cDB",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_GW85wW334vsNN5DD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m5qQMDtkdg7xFC9Q",
+      "spcpt_kf8J3mV9z6q5qZmt"
+     ],
+     "part_tier": null,
+     "problem_md": "Kamda bought a new motor vehicle for her business. She paid \\$28 000, which included \\$120 for fuel and \\$260 for road tax. In her accounting records she debited the purchases account and credited the bank account with \\$28 000.\n\nWhich of the following journal entries would correct her error?\n\n|   |   | debit<br><br>\\$ | credit<br><br>\\$ |\n|---|---|---|---|\n| **A** | motor vehicles<br><br>purchases | 28 000 | 28 000 |\n| **B** | purchases<br><br>motor vehicles | 28 000 | 28 000 |\n| **C** | motor vehicles<br><br>motor vehicle expenses<br><br>purchases | 27 620<br><br>380 | 28 000 |\n| **D** | purchases<br><br>motor vehicles<br><br>motor vehicle expenses | 28 000 | 27 620<br><br>380 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Note that crediting the bank account \\$28 000 was the correct thing to do\n\n  - Bank is an asset account, so a credit entry decreases it\n- So the error was debiting the purchases account \\$28 000\n\n  - The purchases account is for goods purchased to resell, not for non-current assets like a vehicle\n- To cancel the incorrect \\$28 000 debiting of the purchases account, a \\$28 000 credit to the purchases account should be made\n\n  - So either 'A' or 'C' is the correct answer\n- Fuel and road tax are both motor vehicle expenses\n\n  - They are not part of the value of the non-current asset (the vehicle), so should not go in the motor vehicles account\n  - Instead \\$120 + \\$260 = \\$380 should be debited to motor vehicle expenses\n  - And \\$28 000 - \\$380 = \\$27 620 should be debited to motor vehicles\n  - Therefore the correct answer is 'C'\n\n**A** is incorrect; the \\$28 000 has not been split between the motor vehicles and motor vehicle expenses accounts\n\n**B** is incorrect; debit and credit are the wrong way round, and the \\$28 000 has not been split between the motor vehicles and motor vehicle expenses accounts\n\n**D** is incorrect; debit and credit are the wrong way round",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kTFyFyssfzFzM49p",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_s8sjNkSMsg6DgTbC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mjq5Zhf33pzS463X",
+      "spcpt_2mCRbkg434VMNXWt"
+     ],
+     "part_tier": null,
+     "problem_md": "The trial balance shown below failed to balance.\n\n|   | debit<br><br>\\$ | credit<br><br>\\$ |\n|---|---|---|\n| premises at cost | 45 000 |   |\n| fittings at cost | 18 000 |   |\n| provision for depreciation of fittings | 3 000 |   |\n| bank loan |   | 27 000 |\n| purchases | 82 843 |   |\n| sales |   | 166 596 |\n| general expenses |   | 15 523 |\n| trade receivables |   | 8 512 |\n| trade payables |   | 5 220 |\n| wages | 34 872 |   |\n| bank overdraft |   | 1 026 |\n| cash in hand |   | 314 |\n| opening inventory | 5 577 |   |\n| capital | 7 799 |   |\n\nWhich items have been entered onto the **wrong** side of the trial balance?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The table below summarises the accounts that should go in each column in a trial balance\n\n| **Accounts with debit balances** | **Accounts with credit balances** |\n|---|---|\n| Purchases | Purchases returns (returns inwards) |\n| Sales returns (returns outwards) | Sales (revenue) |\n| Other expenses | Other income |\n| Trade receivables | Trade payables |\n| Bank | Bank overdraft |\n| Other assets<br><br>(Including inventory, vehicles, machinery, etc) | Other liabilities<br><br>(Including bank loan, mortgage, etc) |\n| Drawings | Capital |\n|   | Provision for depreciation |\n| Provision for doubtful debt |   |\n\n- This shows the following three problems right away:\n\n  - **provision for depreciation of fittings** should be in the credit column\n  - **trade receivables** should go in the debit column\n  - **capital** should go in the credit column\n- The other two errors can be found by considering type of account\n\n  - **general expenses** is an expenses account, that should go with 'other expenses' in the debit column\n  - **cash in hand** is an asset account, that should go with 'other assets' in the debit column\n- So the correct answer is C\n- If you have time, you can check your answer by putting the figures into their correct columns and seeing if the trial balance balances\n\n  - If you do this, you will find that each column adds up to \\$210 641\n\n**A** is incorrect; bank loan and trade payables are both in the correct column\n\n**B** is incorrect; fittings at cost, bank overdraft and opening inventory are all in the correct column\n\n**D** is incorrect; purchases, sales, trade payables and opening inventory are all in the correct column",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "bank loan, general expenses, trade payables, cash in hand, capital"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "fittings at cost, provision for depreciation of fittings, general expenses, bank overdraft, opening inventory"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "provision for depreciation of fittings, general expenses, trade receivables, cash in hand, capital"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "purchases, sales, trade payables, cash in hand, opening inventory"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tHFXmT6qNmfSv29d",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_T3yTNHGJsVdNJCtN",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TNJJCGcczjyz9V92",
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "While preparing his draft financial statements, Nasir made two errors. These caused his gross profit to be understated by \\$850 and his profit for the year to be overstated by \\$100.\n\nWhich two errors did Nasir make?\n\n|   | closing inventory | depreciation charge |\n|---|---|---|\n| **A** | \\$850 overstated | \\$750 overstated |\n| **B** | \\$850 overstated | \\$950 overstated |\n| **C** | \\$850 understated | \\$750 understated |\n| **D** | \\$850 understated | \\$950 understated |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- First consider the effect of closing inventory on gross profit\n\n  - Gross profit = net revenue - cost of sales\n  \n    - So anything that overstates cost of sales will cause gross profit to be understated\n    - Because you are taking more away from net revenue\n  - Cost of sales = opening inventory + net purchases - closing inventory\n  \n    - So anything that understates closing inventory will cause  cost of sales to be overstated\n    - Because you are taking less away from opening inventory + net purchases\n  - Therefore closing inventory must have been understated by \\$850\n- Now consider the profit for the year\n\n  - Profit for the year = gross profit + other incomes - other expenses\n  \n    - So gross profit being understated by \\$850 would cause profit for the year to be understated by \\$850\n  - But profit for the year was *over*stated by \\$100\n  \n    - This means that the second mistake had to cause profit for the year to be overstated by\n    \n      - \\$850, to take profit for the year back to the correct value\n      - plus another \\$100, to cause profit for the year to be overstated by \\$100\n  - So the total effect of the second mistake was to overstate profit for the year by \\$850 + \\$100 = \\$950\n- At this point you already know the correct answer must be 'D'\n- But to check, you can consider the effect of depreciation charges on profit for the year\n\n  - Depreciation charges are included under 'other expenses' when calculating profit for the year\n  - Profit for the year = gross profit + other incomes - other expenses\n  \n    - So anything that understates other expenses will cause  profit for the year to be overstated\n    - Because you are taking less away from gross profit + other incomes\n  - So depreciation charges must have been understated by \\$950\n\n**A** is incorrect; both values are given as overstated instead of understated, and the depreciation charge value is given as \\$750 instead of \\$950\n\n**B** is incorrect; both values are given as overstated instead of understated\n\n**C** is incorrect; the depreciation charge value is given as \\$750 instead of \\$950",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MGKpPdhR2QHPKqHn",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4Vq59pPfSCDnFX3Y",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CmkWQBxPVRMZ42Sw",
+      "spcpt_C7r59XBDpbKhPgQr"
+     ],
+     "part_tier": null,
+     "problem_md": "Karen introduced additional capital of \\$7500 to her business. She mistakenly debited this to the capital account and credited it to the bank account.\n\nWhen this error is corrected, what effect will that have on the statement of financial position?\n\n|   | capital<br><br>\\$ | bank<br><br>\\$ |\n|---|---|---|\n| **A** | decreases by 7 500 | decreases by 7 500 |\n| **B** | decreases by 15 000 | decreases by 15 000 |\n| **C** | increases by 7 500 | increases by 7 500 |\n| **D** | increases by 15 000 | increases by 15 000 |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Start by thinking what effect the mistake and its correction would have on the bank account\n\n  - The bank account is an asset, so crediting it by mistake would have reduced it by \\$7 500\n  - Simply removing that credit entry will therefore increase the bank account by \\$7 500\n  - Then changing it to a debit entry will increase it by another \\$7 500\n  \n    - because debit entries increase asset accounts\n  - So in total the bank account is increased by \\$7 500 + \\$7 500 = \\$15 000\n- At this point, you know that 'D' is the only possible correct answer\n- To be sure, you can also consider the capital account\n\n  - The capital account normally has a credit balance, so debiting it by mistake would have reduced it by \\$7 500\n  - Simply removing that debit entry will therefore increase the capital account by \\$7 500\n  - Then changing it to a credit entry will increase it by another \\$7 500\n  - So in total the capital account is increased by \\$7 500 + \\$7 500 = \\$15 000\n\n**A** and **B** are incorrect; they both have the capital and bank accounts decreasing instead of increasing\n\n**C** is incorrect; this has the capital and bank accounts increasing, but only by \\$7500",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MStDmjzCMFSg7kZx",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_tb8h7MqTjynNkt7H",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HX77vwtbqVzJ4GGn",
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following errors would cause the gross profit to be overstated?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Gross profit = net revenue - cost of sales\n\n  - So anything that under-values cost of sales will cause gross profit to be overstated\n  - Because you are taking less away from net revenue\n- Cost of sales = opening inventory + net purchases - closing inventory\n\n  - So anything that under-values opening inventory will under-value cost of sales\n- Therefore if opening inventory is under-valued, gross profit will be overstated\n\n**A** is incorrect; if closing inventory is under-valued (or omitted), then cost of sales will increase, which causes gross profit to decrease\n\n**C** is incorrect; omitting trade discounts will increase net purchases, which increases cost of sales and decreases gross profit\n\n**D** is incorrect; not recording sales causes net revenue to decrease, which causes gross profit to decrease",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "closing inventory omitted from the income statement"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "opening inventory under-valued"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "purchases recorded at list price, without trade discount deducted"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "sales invoices not recorded in the sales journal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_39TjkrVGf5t5MmzQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_D8XDnMyyjMXBjccw",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6YJQ8smNcMnRnYbQ"
+     ],
+     "part_tier": null,
+     "problem_md": "After completing the trial balance, it was found that an amount of \\$2700 for equipment repairs had been entered in the equipment account.\n\nWhich type of error is this?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- An error of principle occurs when one entry for a transaction is entered into an incorrect account and the type of account is also incorrect\n- Here the account is incorrect\n\n  - equipment instead of equipment repairs\n- And the type of account was also incorrect\n\n  - repairs of non-current assets (like equipment) are a form of revenue expenditure, and belong in an expenses account\n  - whereas equipment is a type of non-current asset, and belongs in a non-current assets account\n\n**A** is incorrect; compensating errors occur when the effects of unrelated errors balance out when totalling the debits and credits\n\n**B** is incorrect; an error of complete reversal occurs when a transaction is entered into the wrong sides of both of the correct ledger accounts\n\n**C** is incorrect; an error of original entry occurs when a transaction is entered into both of the ledger accounts using an incorrect amount",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "compensating"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "complete reversal"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "original entry"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "principle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Dm8tTXNKRJzM48Cn",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CXd8NkmHr2K5bryD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mjq5Zhf33pzS463X",
+      "spcpt_2mCRbkg434VMNXWt"
+     ],
+     "part_tier": null,
+     "problem_md": "After a trial balance had been completed, the following errors were found.\n\nThe total of the purchases account was overstated by \\$50\n\nThe total of the rental income account was overstated by \\$50\n\nWhich of the following statements is correct about the trial balance that had been completed?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In a trial balance, purchases is an account that should have a debit balance\n\n  - So overstating purchases by \\$50 means the debit column will be \\$50 too high\n- Rental income is an income account\n\n  - In a trial balance, an income account should have a credit balance\n  \n    - So overstating rental income by \\$50 means the credit column will also be \\$50 too high\n- So both the debit and credit columns will be \\$50 too high\n\n  - But that means that they will still be equal (assuming there are no other mistakes)\n- So 'D' is the correct answer\n\n  - This is an example of compensating errors, that 'cancel' each other and do not affect the trial balance\n\n**A**, **B** and **C** are incorrect; none of them give the correct effect of the two errors on the trial balance",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The total of the credit column was \\$50 more than that of the debit column."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The total of the credit column was \\$100 more than that of the debit column."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The total of the debit column was \\$100 more than that of the credit column."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The total of the debit column and the credit column were equal."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YYPXWDXZm27vKSD7",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JrY7DCkytf5K9K8F",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vfNB97tQQRqFPg4k",
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "A suspense account was opened after the totals of a trial balance did not agree. It was found that sales returns, \\$730, had been credited to the purchases returns account.\n\nWhich journal entry is required to correct this error?\n\n|   |   | debit<br><br>\\$ | credit<br><br>\\$ |\n|---|---|---|---|\n| **A** | purchases returns<br><br>sales returns | 730 | 730 |\n| **B** | suspense<br><br>sales returns | 730 | 730 |\n| **C** | purchases returns<br><br>sales returns<br><br>suspense | 730<br><br>730 | 1 460 |\n| **D** | purchases returns<br><br>suspense<br><br>sales returns | 730<br><br>730 | 1 460 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- \\$730 had been incorrectly credited to the purchases returns account\n\n  - To 'undo' this credit, \\$730 should be debited to the purchases returns account\n- Sales returns are recorded by debiting the sales returns account\n\n  - \\$730 should have been debited to the sales returns account, but wasn't\n  - To correct this omission, \\$730 should be debited to the sales returns account\n- The two \\$730 debits should be balanced by an equivalent credit to the suspense account\n\n  - \\$730 + \\$730 = \\$1460\n- Therefore 'C' is the correct answer\n- Note that in the suspense account itself a 'difference on trial balance' of \\$1460 would appear on the debit side\n\n  - and the balancing \\$730 entries for purchases returns and sales returns would appear on the credit side\n\n**A** is incorrect; only two of the three necessary accounts appear, and sales returns are credited instead of debited\n\n**B** is incorrect; only two of the three necessary accounts appear, debits and credits are the wrong way round, and \\$730 is assigned to the suspense account instead of \\$1460\n\n**D** is incorrect; the entries for the suspense account and sales returns are the wrong way round (both the amounts, and in terms of credit versus debit)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zsC7fGsg4DrzxrCY",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w4B5BSGKgwqRMN4x",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4RgSNcmjWkMgkfvz"
+     ],
+     "part_tier": null,
+     "problem_md": "Goods bought on credit from T Jones were credited in error to the account of W Jones.\n\nWhich type of error has been made?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- An error of commission occurs when one entry for a transaction is entered into an incorrect account but the type of account is correct\n\n  - Here the purchase has been entered into the account for an incorrect supplier\n\n**B** is incorrect; an error of omission occurs when a transaction is not entered into any ledger accounts\n\n**C** is incorrect; an error of original entry occurs when a transaction is entered into both of the ledger accounts using an incorrect amount\n\n**D** is incorrect; an error of principle occurs when one entry for a transaction is entered into an incorrect account and the type of account is also incorrect",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "commission"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "omission"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "original entry"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "principle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_h3z3w2QsRMf44MBr",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_f626VyTpss7Zv2kC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Jeb opened a suspense account at the end of his financial year.\n\nWhy did he need to open this account?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A suspense account is a temporary account used to correct errors when the totals in the trial balance are not equal\n\n**A** is incorrect; a suspense account will not normally appear in the ledger, unless the trial balance has first indicated errors that need to be corrected\n\n**C** is incorrect;  a suspense account is only opened once errors in the ledger have already been indicated by a disagreement in the trial balance totals (the trial balance checks for errors, the suspense account is used to correct them)\n\n**D** is incorrect; errors of commission do not affect the trial balance, so they would not lead to a disagreement of trial balance totals that would lead to a suspense account being opened",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the suspense account had not been included in the ledger"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "the totals  on the trial balance did not agree"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "to check that there were no errors in the ledger"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "to correct an error of commission"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Sr8YwTnz8hGRbjbd",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_T8s4RPGFp2ddD7Xr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t83ZfyP7c4B3j88c"
+     ],
+     "part_tier": null,
+     "problem_md": "A trader prepared a trial balance for his business at 31 March 2024.\n\nWhich of the following statements about this trial balance is correct?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- A** **trial balance is a statement which lists all ledger accounts and their balances on a particular date\n\n**A** is incorrect; the statement of financial position shows the summary of a business's financial position at a particular date\n\n**B** is incorrect; gross profit for the year is shown on the income statement\n\n**D** is incorrect; sales transactions will appear in relevant journals and ledger accounts",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "It shows a summary of the financial position at 31 March 2024."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "It shows the gross profit for the year ended 31 March 2024."
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "It shows the ledger account balances as of 31 March 2024."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "It shows the sales transactions for the year to 31 March 2024."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mz2XyBRGvVV58Yx6",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fQG8wXGpkHYYMQBd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t83ZfyP7c4B3j88c"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following consists of a list of ledger balances on a particular date?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A** **trial balance is a statement which lists all accounts and their balances on a particular date\n\n**A** is incorrect; bank statements are issued by a bank to customers at regular intervals, to show activity and balances for the bank account\n\n**B** is incorrect; a control account is a summary of all balances and transactions for trade receivables or for trade payables\n\n**C** is incorrect; a suspense account is a temporary account used to correct errors when the totals in the trial balance are not equal",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "bank statement"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "control account"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "suspense account"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "trial balance"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,597 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:41:12Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "9-databases",
+  "name": "9. Databases"
+ },
+ "topic": {
+  "id": "top_8WjQ98rsg7FytQ5S",
+  "slug": "databases",
+  "name": "Databases",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "single-table-databases",
+   "name": "Single Table Databases",
+   "revision_note_id": "rn_pzFQ4MZnDWbnY6rf"
+  },
+  {
+   "slug": "primary-keys",
+   "name": "Primary Keys",
+   "revision_note_id": "rn_KGhttHj9fT889Bm2"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_3TmfZ4PFy2KzJygF",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 14,
+   "questions_embedded": 14,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/9-databases/databases/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/09/27175_june-2023-21-10a.png": "001-a-table-listing-tv-models-with-their-specificati.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/27249_specimen-2023-2a-11a-flowchart.png": "002-a-table-listing-movies-with-columns-for-catalogu.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/63181_specimen-2023-2a-11a-flowchart.png": "003-a-table-listing-movies-with-columns-for-catalog-.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_qYvvKNhzQS2ntBfm",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_y3W3M6Xp5NtBN7mz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table called `SoftDrinks` stores details of the soft drinks sold by a small shop\n\n| Field | Example data |\n|---|---|\n| `Name` | `Cola` |\n| `Supplier` | `Cambridge Beverages` |\n| `Container` | `Can` |\n| `SizeCl` | `330` |\n| `NumberInStock` | `30` |\n| `ReorderLevel` | `15` |\n| `Reordered` | `Yes` |\n\n**State **whether any of the given fields would be suitable as a primary key and give a reason for your answer.",
+     "solution_md": "The field that would be suitable as  primary key is:\n\n- **None **of the fields are likely to contain **unique **data **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ktCHVMyxnDYMtP6d",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_n9WxgR8Xb7BxcHBD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NNNzT3vsdXS97q4S",
+      "spcpt_7JRKzsBqqdfPqf5t"
+     ],
+     "part_tier": null,
+     "problem_md": "Consider the following database table for an online shopping system:\n\n| **OrderID** | **CustomerName** | **ProductCode** | **Quantity** | **PricePerUnit** | **TotalPrice** |\n|---|---|---|---|---|---|\n| 1001 | John Smith | PC12345 | 3 | 19.99 | 59.9 |\n\n**Suggest** two different types of validation that could be applied to the `ProductCode` field.\n\n**Explain why **they would be important.",
+     "solution_md": "Two types of validation that could be used on the `ProductCode `field are:\n\n- Format check **[1 mark]**\n- Length check **[1 mark]**\n\nThis is because:\n\nAny **one **of the following:\n\n- important to maintain consistency **[1 mark]**\n- ensure correct data entry **[1 mark]**\n- avoid errors in processing orders **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FhpThrhvmn9cCMVx",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Rtvcbd6KJfPkCc9v",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7JRKzsBqqdfPqf5t",
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A school database is used to store information about students and their exam scores. The following fields have been identified:\n\n- `StudentID`\n- `FirstName`\n- `LastName`\n- `DateOfBirth`\n- `ExamScore`\n- `PassedExam`\n\n**Describe **the most appropriate data type for each of the following fields and **justify **your choice.\n\n- `StudentID`\n- `ExamScore`\n- `PassedExam`",
+     "solution_md": "The most appropriate data types are:\n\n`StudentID`** (integer) ****[1 mark]**\n\n- **… **is a unique number assigned to each student and does not require decimal places **[1 mark]**\n\n> *Accept alphanumeric / text / string for StudentID if justified by IDs containing both letters and numbers, or that no calculations are performed on the ID*\n\n`ExamScore `**(real) ****[1 mark]**\n\n- … exam scores may include decimal values e.g. 85.5% **[1 mark]**\n\n`PassedExam`** (boolean) ****[1 mark]**\n\n- **… **represents a true/false condition, e.g. it only needs to store two possible values: true (passed) or false (failed) **[1 mark]**\n\n> **[exam-tip]**\n> Name a specific data type for each field and then justify it — describing only what the field stores earns no marks\n> \n> Remember a field that stores only two possibilities is boolean, and any value that could include decimals needs a real type"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2dqVkmP6zxdJDHVx",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_pTWpvVWHVZQ8V8PY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "In a database for an online store, there are two tables: Customers and Orders.\n\n1. **Customers Table:**\n\n| **CustomerID** | **Name** | **Email** | **PhoneNumber** |\n|---|---|---|---|\n| C001 | Alice Brown | alice@example.com | 0123456789 |\n| C002 | Bob Smith | bob@example.com | 0987654321 |\n\n3. **Orders Table:**\n\n| **OrderID** | **CustomerID** | **OrderDate** | **TotalAmount** |\n|---|---|---|---|\n| O001 | C001 | 2024-08-01 | 150.00 |\n| O002 | C002 | 2024-08-02 | 200.00 |\n\n**Identify **the primary key for each table and **explain why **it is suitable.",
+     "solution_md": "The primary key fields would be:\n\n**Customers Table:**\n\n- `CustomerID `**[1 mark]**\n- … unique for each customer and ensures that each customer record can be individually identified **[1 mark]**\n\n**Orders Table:**\n\n- `OrderID `**[1 mark]**\n- … uniquely identifies each order and ensures that each order record is distinct **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_9XXBQngWPnZFqpdt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn a database for an online store, there are two tables: Customers and Orders.\n\n1. Customers Table:\n\n| CustomerID | Name | Email | PhoneNumber |\n| --- | --- | --- | --- |\n| C001 | Alice Brown | alice@example.com | 0123456789 |\n| C002 | Bob Smith | bob@example.com | 0987654321 |\n\n2. Orders Table:\n\n| OrderID | CustomerID | OrderDate | TotalAmount |\n| --- | --- | --- | --- |\n| O001 | C001 | 2024-08-01 | 150.00 |\n| O002 | C002 | 2024-08-02 | 200.00 |\n\n**Describe how **you would use the `CustomerID` field in the `Orders` table to link it to the `Customers` table.",
+     "solution_md": "You would use the `CustomerID` field as:\n\n- A foreign key **[1 mark]**\n- … creates a link between `Orders` and `Customers`, allowing each order to be associated with the corresponding customer **[1 mark]**\n\n> **[exam-tip]**\n> Use precise technical terms — vague descriptions rarely earn the mark here\n> \n> Explain how the field links the two tables, not just what it is used for"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vB5f6Trj6C7CYVpq",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Qp7NtwvyJ6rz22MD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NNNzT3vsdXS97q4S",
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table contains the following fields:\n\n- StudentID (integer)\n- FirstName (text)\n- LastName (text)\n- DateOfBirth (date)\n- Email (text)\n\n**Identify which field** could benefit from a *format check* validation and **justify **your answer",
+     "solution_md": "The most appropriate field for a format check is:\n\n- Email **[1 mark]**\n- To ensure it contains an '@' symbol **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_rdcT295MJ7phkMmz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NNNzT3vsdXS97q4S",
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA database table contains the following fields:\n\n- StudentID (integer)\n- FirstName (text)\n- LastName (text)\n- DateOfBirth (date)\n- Email (text)\n\n**Identify which field** would require a *type check* validation and **justify **your answer.",
+     "solution_md": "The most appropriate field for a type check  is:\n\n- StudentID **[1 mark]**\n- To ensure that user does not enter text or symbols (only integers allowed) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wgD425cP3yFZ4kKW",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_y5dZcwvCX2r72ZVJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Describe **what a *field* is in a database.\n\n**Provide an example** of a field in a student database",
+     "solution_md": "A field is described as:\n\n- one piece of information relating to one person, item, or object **[1 mark]**\n- e.g., \"A field in a student database could be 'FirstName' which stores students' first names.\" **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V6SGkPzSFgHSnTPh",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_pZX2rMJ9gQcWjNmM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NNNzT3vsdXS97q4S"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, `PERFORMANCE`, is used to keep a record of the performances at a local theatre.\n\n| `ShowNumber` | `Type` | `Title` | `Date` | `SoldOut` |\n|---|---|---|---|---|\n| SN091 | Comedy | An Evening at Home | 01 Sept | Yes |\n| SN102 | Drama | Old Places | 02 Oct | No |\n| SN113 | Jazz | Acoustic Evening | 03 Nov | No |\n| SN124 | Classical | Mozart Evening | 04 Dec | Yes |\n| SN021 | Classical | Bach Favourites | 01 Feb | Yes |\n| SN032 | Jazz | 30 Years of Jazz | 02 Mar | Yes |\n| SN043 | Comedy | Street Night | 03 Apr | No |\n| SN054 | Comedy | Hoot | 04 May | No |\n\n**Give two validation checks** that could be performed on the `ShowNumber` field",
+     "solution_md": "Examples of validation checks that could be performed include:\n\nAny **two **of the following:\n\n- length check **[1 mark]**\n- type check **[1 mark]**\n- presence check **[1 mark]**\n- format check **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JR3xtdDX7V9RCYCQ",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_cDcH4sPWBvV3NHXG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A music streaming service has a new database table named Songs to store details of songs available for streaming. The table contains the fields:\n\n- `SongNumber `– the catalogue number, for example AG123\n- `Title` – the title of the song\n- `Author` – the name of the song writer(s)\n- `Singer `– the name of the singer(s)\n- `Genre` – the type of music, for example rock\n- `Minutes` – the length of the song in minutes, for example 3.75\n- `Recorded` – the date the song was recorded.\n\n**Identify **the field** **that will be the most appropriate primary key for this table.",
+     "solution_md": "The most appropriate field for the primary key is:\n\n- `SongNumber `**[1 mark]**"
+    },
+    {
+     "id": "qstnprt_8PS4FqGYx55Zbpc4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YpvJsHgf4fknYnDy"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- SongNumber – the catalogue number, for example AG123\n- Title – the title of the song\n- Author – the name of the song writer(s)\n- Singer – the name of the singer(s)\n- Genre – the type of music, for example rock\n- Minutes – the length of the song in minutes, for example 3.75\n- Recorded – the date the song was recorded.\n\n**Complete the table** to identify the most appropriate data type for the fields in `Songs`\n\n| **Field** | **Data type** |\n|---|---|\n| `SongNumber` |   |\n| `Title` |   |\n| `Recorded` |   |\n| `Minutes` |   |",
+     "solution_md": "| **Field** | **Data type** |\n|---|---|\n| `SongNumber` | Text/Alphanumeric |\n| `Title` | Text/Alphanumeric |\n| `Recorded` | Date/time |\n| `Minutes` | Real |\n\n> **[mark-scheme]**\n> - **One **mark for every **two **correct data types"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PbpWzrMSDcthmXXd",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_kYTTnZPbPQpZvx6H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table called `TVRange` shows the main features and prices of a range of televisions.\n\n![A table listing TV models with their specifications: screen size, satellite capability, Smart TV, soundbar inclusion, and prices ranging from $650 to $9750.](assets/001-a-table-listing-tv-models-with-their-specificati.png)\n\n**Give the name of the field** that is most suitable to be the primary key.\n\n**State the reason** for this choice.",
+     "solution_md": "The name of the field that is most suitable is:\n\n- `TVCode `**[1 mark]**\n\nThis is because:\n\n- Each entry in this field is a unique identifier **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_ry7dYCym9mcH5Smr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YpvJsHgf4fknYnDy"
+     ],
+     "part_tier": null,
+     "problem_md": "The database uses the data types:\n\n- **text **\n- **character **\n- **Boolean **\n- **integer **\n- **real **\n- **date/time**\n\n**Complete the table** to show the most appropriate data type for each field. Each data type must be different.\n\n| **Field** | **Data type** |\n|---|---|\n| `TVCode` |   |\n| `ScreenSize` |   |\n| `SmartTV` |   |\n| `Price\\$` |   |",
+     "solution_md": "| **Field** | **Data type** |\n|---|---|\n| `TVCode` | **Text** |\n| `ScreenSize` | **Integer** |\n| `SmartTV` | **Boolean** |\n| `Price\\$` | **Real** |\n\n> **[mark-scheme]**\n> - **Two **marks for four correct answers\n> - **One **mark for two or three correct answers"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BGNMgQRk5BYnSzpN",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_bYYg6WQHH3Q7hyjP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/22",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, NURSE, is used to keep a record of disposable items worn by veterinary nurses.\n\nThis is part of the table:\n\n| ItemNumber | Description | SingleUse | Uses | StockLevel | ReorderLevel |\n|---|---|---|---|---|---|\n| DIG1 | Glove (pair) | Y | 1 | 500 | 800 |\n| DIA1 | Apron | Y | 1 | 700 | 800 |\n| DIM5 | Hair net | Y | 1 | 650 | 500 |\n| DIA2 | Apron | N | 5 | 25 | 100 |\n| DIS4 | Suit | N | 3 | 70 | 50 |\n| DIV9 | Shoe cover (pair) | Y | 1 | 400 | 250 |\n\n**Give a reason** why the field `SingleUse` is not required in the table `NURSE`.",
+     "solution_md": "The reason why the field is not required is:\n\n- the field `Uses `already shows this information **OR** duplication of data **OR** redundant data **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6tmKHqBpPPWHxfKw",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_m9XVMQSsRXMGbQF5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "21",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer game shop records its stock levels in a database table called GAMES. The fields used in the stock table are shown.\n\n| Name | Description |\n|---|---|\n| GameID | primary key |\n| GameName | the name of each game |\n| AgeRestriction | the minimum age at which a person is allowed to play each game |\n| GamePrice | the selling price for each game |\n| NumberStock | the quantity of each game currently in stock |\n| OnOrder | whether or not each game is on order from the suppliers |\n| DateLastOrdered | the date the most recent order for each game was placed |\n| GameDescription | a summary of the contents and purpose of each game |\n\n**State the number of fields** that are in the table GAMES.",
+     "solution_md": "The number of fields in the database is:\n\n- 8 **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_FkTm9QyTpGDC5kQk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/21",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "**State one **important fact that must be true for a field to be a primary key.",
+     "solution_md": "The factor that must be true for a field to be a primary key is:\n\n- must be unique/different for each record in the table **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8NzFZRt6TSyTwmJF",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_w34jwWN7CpSCNQqT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, PERFORMANCE, is used to keep a record of the performances at a local theatre.\n\n| **ShowNumber** | **Type** | **Title** | **Date** | **SoldOut** |\n|---|---|---|---|---|\n| SN091 | Comedy | An Evening at Home | 01 Sept | Yes |\n| SN102 | Drama | Old Places | 02 Oct | No |\n| SN113 | Jazz | Acoustic Evening | 03 Nov | No |\n| SN124 | Classical | Mozart Evening | 04 Dec | Yes |\n| SN021 | Classical | Bach Favourites | 01 Feb | Yes |\n| SN032 | Jazz | 30 Years of Jazz | 02 Mar | Yes |\n| SN043 | Comedy | Street Night | 03 Apr | No |\n| SN054 | Comedy | Hoot | 04 May | No |\n\n**State **the number of **fields** and **records **in the table.",
+     "solution_md": "The number of fields and records in the database is:\n\n***Fields***:\n\n- 5 **[1 mark]**\n\n***Records****:*\n\n- 8 **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wbs6b6vzNP53fFDW",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_kryXmSj3dFbcBHhr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 11,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "![A table listing movies with columns for catalogue number, title, genres, and availability on Blu-ray, DVD, and streaming services.](assets/002-a-table-listing-movies-with-columns-for-catalogu.png)\n\n**Give **the name of the field that would be used for the primary key.",
+     "solution_md": "The name of the field that would be used for the primary key is:\n\n- `CatNo `**[1 mark]**"
+    },
+    {
+     "id": "qstnprt_HNz9CnSKbTzw6wmN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 11,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_rGVN6hJn6Mb9z2nR"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe name of the field that would be used for the primary key is:\n\n- CatNo [1 mark]\n\n**State **the reason for choosing this field for the primary key",
+     "solution_md": "The reason for choosing the field is:\n\n- it is a unique identifier **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bw7mRPFmM26jVcWG",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3NkY8kQ3mqkZqffK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3hpC7gNs8YZ6t7kd"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, 2018MOV, is used to keep a record of movie details.\n\n![A table listing movies with columns for catalog number, title, two genres, Blu-ray, DVD, and streaming availability; 24 entries in total.](assets/003-a-table-listing-movies-with-columns-for-catalog-.png)\n\n**State **the number of records** **in the database table.",
+     "solution_md": "The number of records in the database is:\n\n- 20 **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

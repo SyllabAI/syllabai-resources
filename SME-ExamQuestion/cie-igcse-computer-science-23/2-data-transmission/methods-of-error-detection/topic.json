@@ -1,0 +1,371 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:09Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "2-data-transmission",
+  "name": "2. Data Transmission"
+ },
+ "topic": {
+  "id": "top_wnf4mHk7c9y7fZGq",
+  "slug": "methods-of-error-detection",
+  "name": "Methods of Error Detection",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "error-checking",
+   "name": "Error Checking",
+   "revision_note_id": "rn_W4TGSGFpGkGcmQhb"
+  },
+  {
+   "slug": "error-detection-methods",
+   "name": "Error Detection Methods",
+   "revision_note_id": "rn_9kXNGXfqM5t2VV8M"
+  },
+  {
+   "slug": "check-digits",
+   "name": "Check Digits",
+   "revision_note_id": "rn_Kjq96m6hwB37bMxg"
+  },
+  {
+   "slug": "automatic-repeat-query-arq",
+   "name": "Automatic Repeat Query (ARQ)",
+   "revision_note_id": "rn_jwpNRvbwwqs2RNb5"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Vjkxqxxv2wZ7QYpQ",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/2-data-transmission/methods-of-error-detection/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_8b4RhgfJyS5T6fmG",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_zC7BkZ4wPqBfrQkG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "june 2024",
+      "number": "0478/11",
+      "question_number": 8,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_t5ZMFTmJhJbqcwct",
+      "spcpt_hB2th7BHPxc834Cf"
+     ],
+     "part_tier": null,
+     "problem_md": "The company owner decides to introduce an error detection system to check the data for errors after transmission.\n\nThe error detection system uses an odd parity check and a positive automatic repeat query (ARQ).\n\n**Give two **other error detection methods that could be used.",
+     "solution_md": "Examples of error detection methods that could be used include:\n\nAny **two **of the following:\n\n- Echo check **[1 mark]**\n- Checksum **[1 mark]**\n- Even parity check **[1 mark]**\n- Negative ARQ **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V86wMQZc2k7nvfVR",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_rgPXfr8Qb64sWR3b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 9,
+      "question_part": "b(i) & b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_yPdhHr5bcN8bbDKr",
+      "spcpt_8wrfXRgP6N49Zc73"
+     ],
+     "part_tier": null,
+     "problem_md": "The company owner decides to introduce an error detection system to check the data for errors after transmission.\n\nThe error detection system uses an odd parity check and a positive automatic repeat query (ARQ).\n\n(i) **Describe **how the error detection system operates to check for errors\n\n(ii) **Give two **other error detection methods that could be used.",
+     "solution_md": "(i)\n\nExamples of how the error detection system operates include:\n\nAny **six **of the following:\n\n- The 1s are counted (in each byte) **[1 mark]**\n- Each byte has a parity bit **[1 mark]**\n- If the number of 1s is odd, the parity bit is 0 (otherwise it is 1) **[1 mark]**\n- (The first packet of) data is sent and a timer is started **[1 mark]**\n- The receiving device counts the number of 1s (in each byte) **[1 mark]**\n- If the number of 1s is odd/data meets odd parity, an acknowledgement is sent to say the data is error free… **[1 mark]**\n- … the sender then sends the next packet of data… **[1 mark]**\n- … and the timer is restarted **[1 mark]**\n- If the number of 1s is even, an acknowledgement is not sent **[1 mark]**\n- If no acknowledgement is received within a set timeframe/before timeout… **[1 mark]**\n- … the data packet is resent **[1 mark]**\n\n(ii)\n\nExamples of other error detection methods include:\n\nAny **two **of the following:\n\n- Echo check **[1 mark]**\n- Checksum **[1 mark]**\n- Even parity check **[1 mark]**\n- Negative ARQ **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5j2sGFGTN2mG7Mr2",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_J4Z3BPGc2sJR2rjb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rYGQnC9SrgGvXqrb"
+     ],
+     "part_tier": null,
+     "problem_md": "A company owner has installed a new network. Data is correct before it is transmitted across the network.\n\nThe company owner is concerned that data might have errors after transmission.\n\n**Explain **how the data might have errors after transmission.",
+     "solution_md": "Examples of how the data might have errors after transmission include:\n\nAny **three **of the following:\n\n- Data could be lost **[1 mark]**\n- Data could be gained/added **[1 mark]**\n- Data could be changed **[1 mark]**\n- Bits could be reassembled in the wrong order **[1 mark]**\n- Interference could occur **[1 mark]**\n- Crosstalk could occur **[1 mark]**\n- Data collisions could occur **[1 mark]**\n- Data packets could time out/reach their hop count **[1 mark]**\n- Network could be infected with malware **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TDpQGVR9T4xTPTxS",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_R2tWCZbqfK2dsssx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8wrfXRgP6N49Zc73"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain how** the Automatic Repeat reQuest (**ARQ**) protocol ensures data integrity during transmission",
+     "solution_md": "Automatic Repeat reQuest protocol ensures data integrity by:\n\nAny **four **of the following:\n\n- Requiring the receiver to send acknowledgements (ACK) back to confirm data was received correctly **[1 mark]**\n- Sending a negative acknowledgement (NACK) if the data is corrupted or an error is detected **[1 mark]**\n- Resending the data when a NACK is received to ensure data integrity **[1 mark]**\n- Using a time-out feature; if no acknowledgement is received in time, the data is resent automatically **[1 mark]**\n- Continuing the process until a positive acknowledgement (ACK) is received, ensuring all data is correctly transmitted **[1 mark]**\n\n> **[exam-tip]**\n> - An example four mark response could include:\n> \n> *The ARQ protocol ensures data integrity by requiring the receiver to send an acknowledgement (ACK) when data is received correctly. If an error is detected, the receiver sends a negative acknowledgement (NACK) back to the sender, requesting the data be resent. If no acknowledgement is received within a set time frame, the sender automatically resends the data. This process continues until the sender receives an ACK, confirming that all data has been successfully transmitted.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_T9y7rxXXK8ZRd9mG",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_djv6FBbh9CFVhpj7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rYGQnC9SrgGvXqrb"
+     ],
+     "part_tier": null,
+     "problem_md": "**Identify two **reasons why errors can occur when using wireless technology to transmit data.",
+     "solution_md": "Errors can occur by:\n\n- Interference **[1 mark]**\n- Bad weather conditions **[1 mark]**\n- Physical obstruction / barriers (e.g. walls / ceilings / concrete) **[1 mark]**\n- Distance from source causing weak / unstable signal **[1 mark]**\n\n> *Award any two distinct valid reasons, up to 2 marks*\n\n> **[exam-tip]**\n> You can get full marks by giving valid examples of each\n> \n> Name physical causes of wireless errors, not security issues (e.g. interception) or general transmission consequences (e.g. out-of-order packets)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dTNQM4h6Yv74xGyc",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_5k8mQCgbvGgPM48g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rYGQnC9SrgGvXqrb"
+     ],
+     "part_tier": null,
+     "problem_md": "**State **why it is important for computers to check that data is in the expected format?\n\nProvide **one example** of a format where errors could occur.",
+     "solution_md": "It is important to ensure data is in the correct format because if not:\n\nAny **one** of the following:\n\n- It can lead to misunderstandings or errors in processing the data** [1 mark]**\n- Makes it difficult or impossible for computers to use the data correctly **[1 mark]**\n\nSome common examples of where format errors occur could include:\n\nAny **one** of the following, this list is not exhaustive:\n\n- Data format **[1 mark]**\n- Phone number format **[1 mark]**\n- email address format **[1 mark]**\n- currency format **[1 mark]**\n- Post code / zip code format **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_682NCvvWPRj8fNnf",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_5XNcbRwntBRRMrBD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t5ZMFTmJhJbqcwct"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept an implied calculation for \"a value is calculated from the data\" where the answer states the checksum is derived from/using the data (e.g. \"sent with a checksum and a corresponding algorithm\" combined with recalculating using that algorithm).\n\nData will be checked using a checksum.\n\n**Describe how** a checksum can be used to check that data entered into a system has been transmitted correctly",
+     "solution_md": "A checksum can be used by:\n\nAny** five** of the following:\n\n- A value is calculated from the data** ****[1 mark]**\n- The value is calculated using an algorithm  **[1 mark] **\n- The value is appended to the data to be transmitted **[1 mark] **\n- Value is recalculated after transmission **[1 mark] **\n- Values are compared **[1 mark] **\n- If the values match the data is correct **/ **if the values do not match the data is incorrect **[1 mark] **\n\n> **[exam-tip]**\n> - An example five mark response could be:\n> \n> *A checksum is a method used to verify that data has been transmitted correctly. First, a value is calculated from the original data using an algorithm. This checksum value is then attached to the data before it is transmitted. After the data is received, the system recalculates the checksum value from the received data. The original checksum and the recalculated one are compared. If the values don't match, it indicates an error occurred during transmission.*\n> \n> Be clear that the recalculated checksum is compared with the originally sent checksum, not with the original data.\n> \n> A checksum is recalculated from the received data, not decrypted or run backwards — don't confuse it with encryption."
+    }
+   ]
+  },
+  {
+   "id": "qstn_X7vGf2Ccgc8XF9nR",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_783ZmfWKhvyxKcgn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nzr2RVhWmZ9KRVyN"
+     ],
+     "part_tier": null,
+     "problem_md": "Victoria is entering data into a computer system. The data will be transmitted to cloud storage.\n\nA check digit is used to check whether data is correct when entered into the system.\n\n**Describe how **a check digit can be used to make sure the data entered is correct.",
+     "solution_md": "A check digit can be used to make sure the data entered is correct by:\n\nAny** four** of the following:\n\n- Data is** **input with check digit **[1 mark]**\n- A calculation is performed on the (inputted) data **[1 mark] **\n- The calculated digit is compared to a stored value** [1 mark] **\n- If it matches, the data entered is correct** [1 mark]**\n- If it does not match, the data entered is incorrect **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Nz4QF2QXysc5ZHK7",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_JmYHG3SDbdh7K2km",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yPdhHr5bcN8bbDKr"
+     ],
+     "part_tier": null,
+     "problem_md": "The contents of three binary registers have been transmitted from one computer to another.\n\nEven parity has been used as an error detection method.\n\nThe outcome after transmission is:\n\nNo errors have been detected in **Register A** and **Register C**.\n\nAn error has been detected in **Register B**.\n\n**Complete **the parity bit for each register to show the given outcome\n\n| Register | Parity bit |   |\n|---|---|---|\n| **A** |   | `0100101` |\n| **B** |   | `1000001` |\n| **C** |   | `1000011` |\n\nPlease enter your response as **bit**, **bit**, **bit**",
+     "solution_md": "> **[mark-scheme]**\n> - A = **1**` `**[1 mark]**\n> - B = **1**` `**[1 mark]**\n> - C = **1**` `**[1 mark]**\n> \n> Even parity means the total number of 1s (including the parity bit) must be even for no error to be detected.\n> \n> - Register A has three 1s in the data (`0100101`), so the parity bit must be 1 to make the total even (4). No error detected.\n> - Register B has two 1s in the data (`1000001`), so the parity bit must be 1 to make the total odd (3). This means an error is detected because the total is not even.\n> - Register C has three 1s in the data (`1000011`), so the parity bit must be 1 to make the total even (4). No error detected.\n\n> **[exam-tip]**\n> Remember that with even parity, the total number of 1s (data bits plus the parity bit) should be even when no error is present. For Register B, you need to choose a parity bit that results in an odd total number of 1s, since the question states that an error has been detected. Many students forget that the question asks you to show a specific outcome — read carefully whether the register should pass or fail the parity check before deciding on the parity bit.\n\n**[3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2GQCDHrtWMpwrgjK",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_8sHGpNVmRNP5mghc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0984/11",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_yPdhHr5bcN8bbDKr"
+     ],
+     "part_tier": null,
+     "problem_md": "Four 7-bit binary values are transmitted from one computer to another. A parity bit is added to each binary value creating 8-bit binary values. All the binary values are transmitted and received correctly.\n\n**Identify **whether each 8-bit binary value has been sent using **odd **or **even** parity by writing odd or even in the type of parity column.\n\n| **8-bit binary value** | **Type of parity** |\n|---|---|\n| 01100100 |   |\n| 10010001 |   |\n| 00000011 |   |\n| 10110010 |   |",
+     "solution_md": "The completed table shows the odd or even parity:\n\n| **8-bit binary value** | **Type of parity** |\n|---|---|\n| 01100100 | Odd **[1 mark]** |\n| 10010001 | Odd **[1 mark]** |\n| 00000011 | Even **[1 mark]** |\n| 10110010 | Even **[1 mark]** |"
+    }
+   ]
+  }
+ ]
+}

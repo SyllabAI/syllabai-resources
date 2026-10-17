@@ -1,0 +1,479 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:31:58Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "accounting",
+  "exam_code": "0452 & 0985",
+  "sme_course_id": "crs_C9w7QKF3dhnTWnNS",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE Accounting"
+ },
+ "section": {
+  "slug": "3-verification-of-accounting-records",
+  "name": "3. Verification of Accounting Records"
+ },
+ "topic": {
+  "id": "top_sVHbK9BPJ6rJsypM",
+  "slug": "bank-reconciliation",
+  "name": "Bank Reconciliation",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "bank-reconciliation-statements",
+   "name": "Bank Reconciliation Statements",
+   "revision_note_id": "rn_DXTvS2fg2FFH2brW"
+  },
+  {
+   "slug": "use-of-a-bank-statement",
+   "name": "Use of a Bank Statement",
+   "revision_note_id": "rn_kDqbnnKWGDY8Vmm7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_WqhjK2YdjF499Dkm",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/bank-reconciliation/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_RnjpMCsBwyGt8dKm",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_36mzysG8yv8brtjZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yPXt72qncMcVHNFw",
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "The balance of cash at bank shown in Edith's cash book is \\$2300. The bank statement she received showed the balance to be \\$2620 at the same date.\n\nWhich one of the following could explain the difference?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The bank statement shows that the bank account has \\$2620 - \\$2300 = \\$320 more than is shown in the cash book\n- Consider the four options\n- Option A\n\n  - The \\$160 unpresented cheques to suppliers will already have been subtracted from the balance in the cash book\n  \n    - But the bank statement wouldn't 'know about them' yet\n  - So the bank statement would 'think' that there was \\$160 more in the account than the cash book showed\n  \n    - \\$2300 + \\$160 = \\$2460\n  - That is not equal to \\$2620, so answer A is not correct\n- Option B\n\n  - The \\$160 payment from a customer should have been entered on the debit side of the cash book\n  \n    - Because it is increasing the bank balance, which is an asset\n  - If it was entered on the credit side by mistake, then it would have decreased the bank balance by \\$160 instead\n  - To correct the error the credit entry would first have to be removed\n  \n    - This would undo the \\$160 reduction and increase the bank balance by \\$160\n  - Then the correct \\$160 debit entry would have to be entered\n  \n    - This would increase the bank balance by another \\$160\n  - So in total correcting the error would increase the bank balance by \\$160 + \\$160 = \\$320\n  \n    - \\$2300 + \\$320 = \\$2620\n  - Therefore B is the correct answer\n- Option C\n\n  - The \\$320 bank charges would already be included in the bank statement\n  - Entering them into the cash book would decrease the cash book balance by \\$320\n  \n    - \\$2300 - \\$320 = \\$1980\n  - That is not equal to \\$2620, so answer C is not correct\n- Option D\n\n  - The \\$320 uncredited deposits from customers will already have been added to the balance in the cash book\n  \n    - But the bank statement wouldn't 'know about them' yet\n  - So the bank statement would 'think' that there was \\$320 less in the account than the cash book showed\n  \n    - \\$2300 - \\$320 = \\$1980\n  - That is not equal to \\$2620, so answer D is not correct\n\n**A** is incorrect; this would have resulted in a bank statement balance of \\$2460\n\n**C** is incorrect; this would have resulted in a bank statement balance of \\$1980\n\n**D** is incorrect; this would have resulted in a bank statement balance of \\$1980",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "cheques to suppliers, \\$160, not yet presented to the bank"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "payment from a customer, \\$160, entered on the wrong side of the cash book"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "bank charges, \\$320, not in the cash book"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "receipts from customers, \\$320, banked but not yet entered in the bank statement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PzvQqw7b3C4D7yBC",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_PPfZk8RSPYcY8C3x",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "In a trader's cash book, the balance of the bank column was \\$780 debit.\n\nWhen the trader received his bank statement, he discovered that the following items did not appear on it.\n\ncheque not yet credited \\$650\n\ncheque not yet presented \\$55\n\nWhat was the balance on the trader's bank statement?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Start with the cash book balance, and use the information to figure out what the bank statement balance would show as being in the account\n- The cash book shows a \\$780 debit balance\n\n  - Bank is an asset account for the business, so a \\$780 debit balance means there is \\$780 in the bank\n  - (A credit balance in the cash book would mean the account was overdrawn)\n- The \\$650 'cheque not yet credited' is an uncredited deposit\n\n  - Uncredited deposits are cheques that the trader has paid into his account, but that have not yet appeared on the bank statement\n  - The trader has already added them into his bank balance\n  - But the bank statement doesn't 'know about them' yet, so take those away from the balance\n  \n    - \\$780 - \\$650 = \\$130\n- The \\$55 'cheque not yet presented' is an unpresented cheque\n\n  - Unpresented cheques are cheques the trader has written, but which haven't been deposited yet\n  - The trader has already subtracted them from his bank balance\n  - But the bank statement doesn't 'know about them' yet, so add those back onto the balance\n  \n    - \\$130 + \\$55 = \\$185\n- So the bank statement 'thinks' that the trader has \\$185 in his account\n\n  - Remember that bank statements are written from the point of view of the bank\n  \n    - So a credit balance means there is money in the bank account\n    - (And a debit balance means the account is overdrawn)\n  - Therefore the bank statement would show a \\$185 credit balance\n\n**B** is incorrect; the amount is right, but it is given as a debit instead of a credit\n\n**C** is incorrect; this is what you would get if you added the uncredited deposit and subtracted the unpresented cheque\n\n**D** is incorrect; the amount is what you would get if you added the uncredited deposits and subtracted the unpresented cheques, but it is given as a debit instead of a credit",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "\\$185 credit"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$185 debit"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$1375 credit"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$1375 debit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BtQD78Y4QmbR3m2W",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_v4QKhNhS4SMnnyvv",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yBccpvmcrXJtFHdQ"
+     ],
+     "part_tier": null,
+     "problem_md": "The bank account in Ina's cash book showed a debit balance of \\$230. After comparing her cash book to the bank statement, she used the information in the bank statement to update the cash book with the following items.\n\n|   | \\$ |\n|---|---|\n| bank interest paid | 23 |\n| credit transfer from a credit customer | 80 |\n| credit transfer to a credit supplier | 110 |\n\nWhat was the debit balance on the bank account after Ina updated her cash book?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- None of these items would have been in the bank book already\n\n  - I.e., they are additional entries, not corrections of mistakes\n- The bank account is an asset\n\n  - So the original debit balance represents \\$230 in the bank\n  - (A credit balance would represent an overdraft)\n- 'Bank interest paid' means money that Ina had to pay to the bank\n\n  - If the bank had paid interest to Ina it would appear in the cash book as bank interest received\n  - So subtract that \\$23\n  \n    - \\$230 - \\$23 = \\$207\n- A credit transfer from a credit customer means money received\n\n  - So add that \\$80\n  \n    - \\$207 + \\$80 = \\$287\n- A credit transfer to a credit supplier means money paid\n\n  - So subtract that \\$110\n  \n    - \\$287 - \\$110 = \\$177\n\n**A** is incorrect; you would get this if you added the bank interest paid and subtracted both credit transfers\n\n**C** is incorrect; you would get this if you added the bank interest paid instead of subtracting it\n\n**D** is incorrect; you would get this is you subtracted the credit transfer from the customer (instead of adding), and added the credit transfer to the supplier (instead of subtracting)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$63"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$177"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$223"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$237"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tcD4qhm5ZQZky5Mj",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sK6xcxVYY8BtCN33",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "The bank column in Arthur's cash book showed a debit balance of \\$5167.* *Arthur discovered the following when he compared his cash book with his bank statement.\n\n|   | \\$ |\n|---|---|\n| uncredited deposits | 512 |\n| unpresented cheques | 407 |\n| a standing order paid in error by the bank | 66 |\n\nWhat was the closing balance shown on Arthur's bank statement?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Start with the cash book balance, and use the information to figure out what the bank statement balance would show as being in the account\n- The cash book shows a \\$5167 debit balance\n\n  - Bank is an asset account for Arthur, so a \\$5167 debit balance means he has \\$5167 in the bank\n  - (A credit balance in the cash book would mean the account was overdrawn)\n- Uncredited deposits are cheques that Arthur has paid into his account, but that have not yet appeared on the bank statement\n\n  - Arthur has already added them into his bank balance\n  - But the bank statement doesn't 'know about them' yet, so take those away from the balance\n  \n    - \\$5167 - \\$512 = \\$4655\n- Unpresented cheques are cheques Arthur has written, but which haven't been deposited yet\n\n  - Arthur has already subtracted them from his bank balance\n  - But the bank statement doesn't 'know about them' yet, so add those back onto the balance\n  \n    - \\$4655 + \\$407 = \\$5062\n- The standing order paid in error is a mistake that wouldn't have been in the cash book\n\n  - Arthur didn't know about it, so it didn't figure in his own balance\n  - But the bank statement 'thinks' it has been charged to his account, so take it away from the balance\n  \n    - \\$5062- \\$66 = \\$4996\n- So the bank statement 'thinks' that Arthur has \\$4996 in his account\n\n  - Remember that bank statements are written from the point of view of the bank\n  \n    - So a credit balance means there is money in the bank account\n    - (And a debit balance means the account is overdrawn)\n  - Therefore the bank statement would show a \\$4996 credit balance\n\n**B** is incorrect; the amount is right, but it is given as a debit instead of a credit\n\n**C** is incorrect; this is what you would get if you added the uncredited deposits and standing order, and subtracted the unpresented cheques\n\n**D** is incorrect; the amount is what you would get if you added the uncredited deposits and standing order, and subtracted the unpresented cheques (and it is also given as a debit instead of a credit)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "\\$4996 credit"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$4996 debit"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$5338 credit"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$5338 debit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pKjpzx5P6ZrDhxGg",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6FjBbFKmcnR8XRng",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "In her most recent bank statement, Ayanna found that the bank had charged her interest in error, and also that a credit transfer had been made to her account.\n\nAyanna then updated her cash book and prepared a bank reconciliation statement.\n\nWhere did she record these two items?\n\n|   | bank error | credit transfer |\n|---|---|---|\n| **A** | bank reconciliation statement | bank reconciliation statement |\n| **B** | bank reconciliation statement | updated cash book |\n| **C** | updated cash book | bank reconciliation statement |\n| **D** | updated cash book | updated cash book |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- For valid missing transactions that are on the bank statement, the cash book should be updated\n\n  - The credit transfer is a missing transaction of this sort\n  - So it is recorded by updating the cash book\n- Errors however are reconciled in a bank reconciliation statement\n\n  - So the bank error is recorded in the bank reconciliation statement\n\n**A** is incorrect; the credit transfer should be recorded by updating the cash book\n\n**C** is incorrect; the two entries are the wrong way round\n\n**D** is incorrect; the bank error should be recorded in the bank reconciliation statement",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_T6QXfZ377JDXS4qW",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_KYKxrtmqVwtbW5dF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Seung provided the following information on 31 October.\n\n|   | \\$ |\n|---|---|\n| debit balance in cash book at 31 October | 342 |\n| unpresented cheques | 196 |\n| uncredited deposits | 263 |\n| interest charged in error by the bank | 15 |\n\nWhat was the credit balance on the bank statement at 31 October?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Start with the cash book balance, and use the information to figure out what the bank statement balance would show as being in the account\n- The cash book shows a \\$342 debit balance\n\n  - Bank is an asset account for Seung, so a \\$342 debit means he has \\$342 in the bank\n  - (A credit balance in the cash book would mean the account was overdrawn)\n- Unpresented cheques are cheques Seung has written, but which haven't been deposited yet\n\n  - Seung has already subtracted them from his bank balance\n  - But the bank statement doesn't 'know about them' yet, so add those back onto the balance\n  \n    - \\$342 + \\$196 = \\$538\n- Uncredited deposits are cheques that Seung has paid into his account, but that have not yet appeared on the bank statement\n\n  - Seung has already added them into his bank balance\n  - But the bank statement doesn't 'know about them' yet, so take those away from the balance\n  \n    - \\$538 - \\$263 = \\$275\n- The interest charged in error is a mistake that wouldn't have been in the cash book\n\n  - Seung didn't know about it, so it didn't figure in his own balance\n  - But the bank statement 'thinks' it has been charged to his account, so take it away from the balance\n  \n    - \\$275- \\$15 = \\$260\n- So the bank statement 'thinks' that Seung has \\$260 in his account\n\n  - Remember that bank statements are written from the point of view of the bank\n  \n    - So a credit balance means there is money in the bank account\n  - Therefore the bank statement would show a \\$260 credit balance at 31 October\n\n**B** is incorrect; this is what you would get if you added \\$15 to (\\$342 +\\$196-\\$263), instead of subtracting it\n\n**C** is incorrect; this is what you would get if you calculated \\$342 -\\$196 + \\$263 - \\$15\n\n**D** is incorrect; this is what you would get if you calculated \\$342 -\\$196 + \\$263 + \\$15",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "\\$260"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$290"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$394"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$424"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KCJcVHG9Xz8RwTM9",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_scMKjmF4f2x8xGGk",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yBccpvmcrXJtFHdQ",
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "According to the bank column in his cash book, Bob had \\$420 in the bank on 31 October. On that same date, the statement from the bank showed a credit balance of \\$495 for the account.\n\nBob found that a bank charge for \\$37 had not been recorded in the cash book, and also that a cheque he had written to a supplier for \\$112 had not yet been debited by the bank.\n\nWhat is the bank balance that Bob should show in his statement of financial position for 31 October?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- From the point of view of the cash book, the only thing that needs to be updated is the bank charges for \\$37\n\n  - This will leave Bob with \\$420 - \\$37 = \\$383 in the bank\n  - As that is money in the bank (not an overdraft) it should be shown as an asset in the statement of financial position\n- The \\$495 credit balance on the bank statement is not relevant if working from the point of view of the cash book\n\n  - Bank statement and cash book balances will often not agree (because of timing issues, etc.)\n- The unpresented cheque for \\$112 is also not relevant if working from the point of view of the cash book\n\n  - It will appear in the bank statement when the supplier deposits the cheque\n  - But it was already recorded in the cash book when the cheque was written\n- Note that you could also do this from the point of view of the bank statement\n\n  - In this case the cash book balance and the bank charge do not need to be taken into account\n  - A credit balance of \\$495 means money in the account (not an overdraft)\n  \n    - Remember the bank statement is written from the point of view of the bank\n  - But the \\$112 cheque to the supplier needs to be subtracted, because it has not yet appeared in the bank statement\n  \n    - \\$495 - \\$112 = \\$383\n  - That is still a credit balance, which on the bank statement means money in the bank\n  \n    - So it should be shown as an asset in the statement of financial position\n\n**B** is incorrect; \\$420 is what you would get if you added \\$495 and \\$37, and then subtracted \\$112 from that sum\n\n**C** is incorrect; this is what you would get if you added \\$37 to \\$420, instead of subtracting it\n\n**D** is incorrect; \\$607 is the sum of \\$112 and \\$495",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "\\$383 asset"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$420 liability"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$457 asset"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$607 liability"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dcrgzjj6VfgCM2sH",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JqqzT2r8BSJWdfFg",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yBccpvmcrXJtFHdQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Jill has received her bank statement from the bank.\n\nWhich of the following does she need to record when updating her cash book?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Bank charges are items that might appear on the bank statement but not in the cash book\n- These are items that must be updated in the cash book when a bank statement is received\n\n**B** is incorrect; the business needs to tell the bank about bank errors and ask for them to be corrected\n\n**C** is incorrect; uncredited deposits are cheques deposited by the business which have not yet been cleared by the bank (they should appear on a subsequent statement)\n\n**D** is incorrect; the bank statement balance is not expected match the current balance in the cash book (because of timing issues or errors, for example)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "a bank charge"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "a bank error"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "an uncredited deposit"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the bank statement balance"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
