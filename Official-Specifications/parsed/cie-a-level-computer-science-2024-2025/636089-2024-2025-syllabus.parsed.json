@@ -1,0 +1,6635 @@
+{
+ "schema": "syllabai.parsed-specification/1.0",
+ "id": "cie-a-level-computer-science-2024-2025",
+ "family": "int_statements",
+ "source": {
+  "pdf": "636089-2024-2025-syllabus.pdf",
+  "pdf_sha1": "34e201e83a0936807cd5dc0b768830603f2ce46f",
+  "pages": 48,
+  "parser": "cie-spec-parser-1.0",
+  "parsed_utc": "2026-10-18T19:31:08+00:00"
+ },
+ "topics": [
+  {
+   "number": "1",
+   "title": "Information representation",
+   "page": 14,
+   "oy": 351.1
+  },
+  {
+   "number": "2",
+   "title": "Communication",
+   "page": 16,
+   "oy": 99.3
+  },
+  {
+   "number": "3",
+   "title": "Hardware",
+   "page": 17,
+   "oy": 360.4
+  },
+  {
+   "number": "4",
+   "title": "Processor Fundamentals",
+   "page": 19,
+   "oy": 99.3
+  },
+  {
+   "number": "5",
+   "title": "System Software",
+   "page": 23,
+   "oy": 99.3
+  },
+  {
+   "number": "6",
+   "title": "Security, privacy and data integrity",
+   "page": 24,
+   "oy": 99.3
+  },
+  {
+   "number": "7",
+   "title": "Ethics and Ownership",
+   "page": 25,
+   "oy": 99.3
+  },
+  {
+   "number": "8",
+   "title": "Databases",
+   "page": 25,
+   "oy": 418.4
+  },
+  {
+   "number": "9",
+   "title": "Algorithm Design and Problem-solving",
+   "page": 27,
+   "oy": 238.1
+  },
+  {
+   "number": "10",
+   "title": "Data Types and Structures",
+   "page": 28,
+   "oy": 220.7
+  },
+  {
+   "number": "11",
+   "title": "Programming",
+   "page": 29,
+   "oy": 308.0
+  },
+  {
+   "number": "12",
+   "title": "Software Development",
+   "page": 30,
+   "oy": 370.5
+  },
+  {
+   "number": "13",
+   "title": "Data Representation",
+   "page": 32,
+   "oy": 250.4,
+   "scope": "A Level"
+  },
+  {
+   "number": "14",
+   "title": "Communication and internet technologies",
+   "page": 33,
+   "oy": 356.7,
+   "scope": "A Level"
+  },
+  {
+   "number": "15",
+   "title": "Hardware and Virtual Machines",
+   "page": 34,
+   "oy": 99.3,
+   "scope": "A Level"
+  },
+  {
+   "number": "16",
+   "title": "System Software",
+   "page": 35,
+   "oy": 99.3,
+   "scope": "A Level"
+  },
+  {
+   "number": "17",
+   "title": "Security",
+   "page": 36,
+   "oy": 99.3,
+   "scope": "A Level"
+  },
+  {
+   "number": "18",
+   "title": "Artificial Intelligence (AI)",
+   "page": 36,
+   "oy": 473.7,
+   "scope": "A Level"
+  },
+  {
+   "number": "19",
+   "title": "Computational thinking and Problem-solving",
+   "page": 37,
+   "oy": 99.3,
+   "scope": "A Level"
+  },
+  {
+   "number": "20",
+   "title": "Further Programming",
+   "page": 38,
+   "oy": 276.7,
+   "scope": "A Level"
+  }
+ ],
+ "subsections": [
+  {
+   "title": "Data Representation",
+   "page": 14,
+   "oy": 373.9,
+   "official_code": "1.1"
+  },
+  {
+   "title": "Multimedia",
+   "page": 15,
+   "oy": 99.3,
+   "official_code": "1.2"
+  },
+  {
+   "title": "Compression",
+   "page": 15,
+   "oy": 488.3,
+   "official_code": "1.3"
+  },
+  {
+   "title": "Networks including the internet",
+   "page": 16,
+   "oy": 122.0,
+   "official_code": "2.1"
+  },
+  {
+   "title": "Computers and their components",
+   "page": 17,
+   "oy": 383.1,
+   "official_code": "3.1"
+  },
+  {
+   "title": "Logic Gates and Logic Circuits",
+   "page": 18,
+   "oy": 99.3,
+   "official_code": "3.2"
+  },
+  {
+   "title": "Central Processing Unit (CPU) Architecture",
+   "page": 19,
+   "oy": 122.0,
+   "official_code": "4.1"
+  },
+  {
+   "title": "Assembly Language",
+   "page": 20,
+   "oy": 99.3,
+   "official_code": "4.2"
+  },
+  {
+   "title": "Bit manipulation",
+   "page": 22,
+   "oy": 99.3,
+   "official_code": "4.3"
+  },
+  {
+   "title": "Operating Systems",
+   "page": 23,
+   "oy": 122.0,
+   "official_code": "5.1"
+  },
+  {
+   "title": "Language Translators",
+   "page": 23,
+   "oy": 430.2,
+   "official_code": "5.2"
+  },
+  {
+   "title": "Data Security",
+   "page": 24,
+   "oy": 122.0,
+   "official_code": "6.1"
+  },
+  {
+   "title": "Data Integrity",
+   "page": 24,
+   "oy": 409.5,
+   "official_code": "6.2"
+  },
+  {
+   "title": "Ethics and Ownership",
+   "page": 25,
+   "oy": 122.0,
+   "official_code": "7.1"
+  },
+  {
+   "title": "Database Concepts",
+   "page": 25,
+   "oy": 441.2,
+   "official_code": "8.1"
+  },
+  {
+   "title": "Database Management Systems (DBMS)",
+   "page": 26,
+   "oy": 99.3,
+   "official_code": "8.2"
+  },
+  {
+   "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+   "page": 26,
+   "oy": 358.7,
+   "official_code": "8.3"
+  },
+  {
+   "title": "Computational Thinking Skills",
+   "page": 27,
+   "oy": 283.6,
+   "official_code": "9.1"
+  },
+  {
+   "title": "Algorithms",
+   "page": 27,
+   "oy": 458.2,
+   "official_code": "9.2"
+  },
+  {
+   "title": "Data Types and Records",
+   "page": 28,
+   "oy": 243.4,
+   "official_code": "10.1"
+  },
+  {
+   "title": "Arrays",
+   "page": 28,
+   "oy": 415.2,
+   "official_code": "10.2"
+  },
+  {
+   "title": "Files",
+   "page": 28,
+   "oy": 587.7,
+   "official_code": "10.3"
+  },
+  {
+   "title": "Introduction to Abstract Data Types (ADT)",
+   "page": 29,
+   "oy": 99.3,
+   "official_code": "10.4"
+  },
+  {
+   "title": "Programming Basics",
+   "page": 29,
+   "oy": 330.7,
+   "official_code": "11.1"
+  },
+  {
+   "title": "Constructs",
+   "page": 29,
+   "oy": 601.5,
+   "official_code": "11.2"
+  },
+  {
+   "title": "Structured Programming",
+   "page": 30,
+   "oy": 99.3,
+   "official_code": "11.3"
+  },
+  {
+   "title": "Program Development Life cycle",
+   "page": 30,
+   "oy": 393.2,
+   "official_code": "12.1"
+  },
+  {
+   "title": "Program Design",
+   "page": 30,
+   "oy": 614.9,
+   "official_code": "12.2"
+  },
+  {
+   "title": "Program Testing and Maintenance",
+   "page": 31,
+   "oy": 99.3,
+   "official_code": "12.3"
+  },
+  {
+   "title": "User-defined data types",
+   "page": 32,
+   "oy": 273.1,
+   "official_code": "13.1"
+  },
+  {
+   "title": "File organisation and access",
+   "page": 32,
+   "oy": 442.8,
+   "official_code": "13.2"
+  },
+  {
+   "title": "Floating-point numbers, representation and manipulation",
+   "page": 33,
+   "oy": 99.3,
+   "official_code": "13.3"
+  },
+  {
+   "title": "Protocols",
+   "page": 33,
+   "oy": 379.4,
+   "official_code": "14.1"
+  },
+  {
+   "title": "Circuit switching, packet switching",
+   "page": 33,
+   "oy": 619.8,
+   "official_code": "14.2"
+  },
+  {
+   "title": "Processors, Parallel Processing and Virtual Machines",
+   "page": 34,
+   "oy": 122.0,
+   "official_code": "15.1"
+  },
+  {
+   "title": "Boolean Algebra and Logic Circuits",
+   "page": 34,
+   "oy": 382.3,
+   "official_code": "15.2"
+  },
+  {
+   "title": "Purposes of an Operating System (OS)",
+   "page": 35,
+   "oy": 122.0,
+   "official_code": "16.1"
+  },
+  {
+   "title": "Translation Software",
+   "page": 35,
+   "oy": 464.7,
+   "official_code": "16.2"
+  },
+  {
+   "title": "Encryption, Encryption Protocols and Digital certificates",
+   "page": 36,
+   "oy": 122.0,
+   "official_code": "17.1"
+  },
+  {
+   "title": "Artificial Intelligence (AI)",
+   "page": 36,
+   "oy": 496.4,
+   "official_code": "18.1"
+  },
+  {
+   "title": "Algorithms",
+   "page": 37,
+   "oy": 122.0,
+   "official_code": "19.1"
+  },
+  {
+   "title": "Recursion",
+   "page": 38,
+   "oy": 99.3,
+   "official_code": "19.2"
+  },
+  {
+   "title": "Programming Paradigms",
+   "page": 38,
+   "oy": 299.4,
+   "official_code": "20.1"
+  },
+  {
+   "title": "File Processing and Exception Handling",
+   "page": 39,
+   "oy": 99.3,
+   "official_code": "20.2"
+  }
+ ],
+ "spec_points": [
+  {
+   "official_code": "1.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of binary magnitudes and the difference between binary prefixes and decimal prefixes",
+   "page": 14,
+   "oy": 412.4,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.1",
+    "title": "Data Representation",
+    "page": 14,
+    "oy": 373.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.1.1"
+  },
+  {
+   "official_code": "1.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of different number systems",
+   "page": 14,
+   "oy": 498.5,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.1",
+    "title": "Data Representation",
+    "page": 14,
+    "oy": 373.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.1.2"
+  },
+  {
+   "official_code": "1.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Perform binary addition and subtraction",
+   "page": 14,
+   "oy": 586.2,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.1",
+    "title": "Data Representation",
+    "page": 14,
+    "oy": 373.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.1.3"
+  },
+  {
+   "official_code": "1.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Describe practical applications where Binary Coded Decimal (BCD) and Hexadecimal are used",
+   "page": 14,
+   "oy": 622.0,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.1",
+    "title": "Data Representation",
+    "page": 14,
+    "oy": 373.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.1.4"
+  },
+  {
+   "official_code": "1.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of and be able to represent character data in its internal binary form, depending on the character set used",
+   "page": 14,
+   "oy": 654.9,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.1",
+    "title": "Data Representation",
+    "page": 14,
+    "oy": 373.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.1.5"
+  },
+  {
+   "official_code": "1.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of how data for a bitmapped image are encoded",
+   "page": 15,
+   "oy": 150.8,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.1"
+  },
+  {
+   "official_code": "1.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Perform calculations to estimate the file size for a bitmap image",
+   "page": 15,
+   "oy": 196.7,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.2"
+  },
+  {
+   "official_code": "1.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the effects of changing elements of a bitmap image on the image quality and file size",
+   "page": 15,
+   "oy": 229.6,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.3"
+  },
+  {
+   "official_code": "1.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of how data for a vector graphic are encoded",
+   "page": 15,
+   "oy": 275.5,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.4"
+  },
+  {
+   "official_code": "1.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Justify the use of a bitmap image or a vector graphic for a given task",
+   "page": 15,
+   "oy": 308.4,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.5"
+  },
+  {
+   "official_code": "1.2.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Sound",
+   "page": 15,
+   "oy": 361.2,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.6"
+  },
+  {
+   "official_code": "1.2.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Show understanding of how sound is represented and encoded",
+   "page": 15,
+   "oy": 396.9,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.7"
+  },
+  {
+   "official_code": "1.2.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Show understanding of the impact of changing the sampling rate and resolution",
+   "page": 15,
+   "oy": 429.8,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.2",
+    "title": "Multimedia",
+    "page": 15,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.2.8"
+  },
+  {
+   "official_code": "1.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the need for and examples of the use of compression",
+   "page": 15,
+   "oy": 526.9,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.3",
+    "title": "Compression",
+    "page": 15,
+    "oy": 488.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.3.1"
+  },
+  {
+   "official_code": "1.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of lossy and lossless compression and justify the use of a method in a given situation",
+   "page": 15,
+   "oy": 559.8,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.3",
+    "title": "Compression",
+    "page": 15,
+    "oy": 488.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.3.2"
+  },
+  {
+   "official_code": "1.3.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of how a text file, bitmap image, vector graphic and sound file can be compressed",
+   "page": 15,
+   "oy": 605.6,
+   "topic": {
+    "number": "1",
+    "title": "Information representation",
+    "page": 14,
+    "oy": 351.1
+   },
+   "subsection": {
+    "code": "1.3",
+    "title": "Compression",
+    "page": 15,
+    "oy": 488.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:1.3.3"
+  },
+  {
+   "official_code": "2.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the purpose and benefits of networking devices",
+   "page": 16,
+   "oy": 160.6,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.1"
+  },
+  {
+   "official_code": "2.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the characteristics of a LAN (local area network) and a WAN (wide area network)",
+   "page": 16,
+   "oy": 193.5,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.2"
+  },
+  {
+   "official_code": "2.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Explain the client-server and peer-to-peer models of networked computers",
+   "page": 16,
+   "oy": 226.4,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.3"
+  },
+  {
+   "official_code": "2.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of thin-client and thick-client and the differences between them",
+   "page": 16,
+   "oy": 290.9,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.4"
+  },
+  {
+   "official_code": "2.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of the bus, star, mesh and hybrid topologies",
+   "page": 16,
+   "oy": 323.8,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.5"
+  },
+  {
+   "official_code": "2.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Show understanding of cloud computing",
+   "page": 16,
+   "oy": 372.5,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.6"
+  },
+  {
+   "official_code": "2.1.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Show understanding of the differences between and implications of the use of wireless and wired networks",
+   "page": 16,
+   "oy": 408.3,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.7"
+  },
+  {
+   "official_code": "2.1.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Describe the hardware that is used to support a LAN",
+   "page": 16,
+   "oy": 454.2,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.8"
+  },
+  {
+   "official_code": "2.1.9",
+   "scope": null,
+   "tier": null,
+   "number": 9,
+   "text": "Describe the role and function of a router in a network",
+   "page": 16,
+   "oy": 513.1,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.9"
+  },
+  {
+   "official_code": "2.1.10",
+   "scope": null,
+   "tier": null,
+   "number": 10,
+   "text": "Show understanding of Ethernet and how collisions are detected and avoided",
+   "page": 16,
+   "oy": 546.0,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.10"
+  },
+  {
+   "official_code": "2.1.11",
+   "scope": null,
+   "tier": null,
+   "number": 11,
+   "text": "Show understanding of bit streaming",
+   "page": 16,
+   "oy": 578.9,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.11"
+  },
+  {
+   "official_code": "2.1.12",
+   "scope": null,
+   "tier": null,
+   "number": 12,
+   "text": "Show understanding of the differences between the World Wide Web (WWW) and the internet",
+   "page": 16,
+   "oy": 640.6,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.12"
+  },
+  {
+   "official_code": "2.1.13",
+   "scope": null,
+   "tier": null,
+   "number": 13,
+   "text": "Describe the hardware that is used to support the internet",
+   "page": 16,
+   "oy": 673.5,
+   "topic": {
+    "number": "2",
+    "title": "Communication",
+    "page": 16,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "2.1",
+    "title": "Networks including the internet",
+    "page": 16,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:2.1.13"
+  },
+  {
+   "official_code": "3.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the need for input, output, primary memory and secondary (including removable) storage",
+   "page": 17,
+   "oy": 421.7,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.1"
+  },
+  {
+   "official_code": "3.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of embedded systems",
+   "page": 17,
+   "oy": 467.6,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.2"
+  },
+  {
+   "official_code": "3.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Describe the principal operations of hardware devices",
+   "page": 17,
+   "oy": 500.4,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.3"
+  },
+  {
+   "official_code": "3.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the use of buffers",
+   "page": 17,
+   "oy": 559.3,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.4"
+  },
+  {
+   "official_code": "3.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Explain the differences between Random Access Memory (RAM) and Read Only Memory (ROM)",
+   "page": 17,
+   "oy": 579.2,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.5"
+  },
+  {
+   "official_code": "3.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Explain the differences between Static RAM (SRAM) and Dynamic RAM (DRAM)",
+   "page": 17,
+   "oy": 612.1,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.6"
+  },
+  {
+   "official_code": "3.1.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Explain the difference between Programmable ROM (PROM), Erasable Programmable ROM (EPROM) and Electrically Erasable Programmable ROM (EEPROM)",
+   "page": 17,
+   "oy": 671.0,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.7"
+  },
+  {
+   "official_code": "3.1.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Show an understanding of monitoring and control systems",
+   "page": 17,
+   "oy": 729.9,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.1",
+    "title": "Computers and their components",
+    "page": 17,
+    "oy": 383.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.1.8"
+  },
+  {
+   "official_code": "3.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Use the following logic gate symbols:",
+   "page": 18,
+   "oy": 137.8,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.1"
+  },
+  {
+   "official_code": "3.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "NOT AND OR",
+   "page": 18,
+   "oy": 188.8,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.2"
+  },
+  {
+   "official_code": "3.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "NAND NOR XOR",
+   "page": 18,
+   "oy": 244.6,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.3"
+  },
+  {
+   "official_code": "3.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Understand and define the functions of :",
+   "page": 18,
+   "oy": 268.5,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.4"
+  },
+  {
+   "official_code": "3.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "NOT, AND, OR, NAND, NOR and XOR (EOR) gates",
+   "page": 18,
+   "oy": 284.3,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.5"
+  },
+  {
+   "official_code": "3.2.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Construct the truth table for each of the logic gates above",
+   "page": 18,
+   "oy": 304.2,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.6"
+  },
+  {
+   "official_code": "3.2.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Construct a logic circuit",
+   "page": 18,
+   "oy": 337.1,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.7"
+  },
+  {
+   "official_code": "3.2.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Construct a truth table",
+   "page": 18,
+   "oy": 407.4,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.8"
+  },
+  {
+   "official_code": "3.2.9",
+   "scope": null,
+   "tier": null,
+   "number": 9,
+   "text": "Construct a logic expression",
+   "page": 18,
+   "oy": 477.6,
+   "topic": {
+    "number": "3",
+    "title": "Hardware",
+    "page": 17,
+    "oy": 360.4
+   },
+   "subsection": {
+    "code": "3.2",
+    "title": "Logic Gates and Logic Circuits",
+    "page": 18,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:3.2.9"
+  },
+  {
+   "official_code": "4.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the basic Von Neumann model for a computer system and the stored program concept",
+   "page": 19,
+   "oy": 160.6,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.1"
+  },
+  {
+   "official_code": "4.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the purpose and role of registers, including the difference between general purpose and special purpose registers",
+   "page": 19,
+   "oy": 206.5,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.2"
+  },
+  {
+   "official_code": "4.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the purpose and roles of the Arithmetic and Logic Unit (ALU), Control Unit (CU) and system clock, Immediate Access Store (IAS)",
+   "page": 19,
+   "oy": 340.0,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.3"
+  },
+  {
+   "official_code": "4.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of how data are transferred between various components of the computer system using the address bus, data bus and control bus",
+   "page": 19,
+   "oy": 385.9,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.4"
+  },
+  {
+   "official_code": "4.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of how factors contribute to the performance of the computer system",
+   "page": 19,
+   "oy": 444.8,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.5"
+  },
+  {
+   "official_code": "4.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Understand how different ports provide connection to peripheral devices",
+   "page": 19,
+   "oy": 530.9,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.6"
+  },
+  {
+   "official_code": "4.1.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Describe the stages of the Fetch-Execute (F-E) cycle",
+   "page": 19,
+   "oy": 601.1,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.7"
+  },
+  {
+   "official_code": "4.1.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Show understanding of the purpose of interrupts",
+   "page": 19,
+   "oy": 634.0,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.1",
+    "title": "Central Processing Unit (CPU) Architecture",
+    "page": 19,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.1.8"
+  },
+  {
+   "official_code": "4.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the relationship between assembly language and machine code",
+   "page": 20,
+   "oy": 137.8,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.2",
+    "title": "Assembly Language",
+    "page": 20,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.2.1"
+  },
+  {
+   "official_code": "4.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Describe the different stages of the assembly process for a two-pass assembler",
+   "page": 20,
+   "oy": 170.7,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.2",
+    "title": "Assembly Language",
+    "page": 20,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.2.2"
+  },
+  {
+   "official_code": "4.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Trace a given simple assembly language program",
+   "page": 20,
+   "oy": 203.6,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.2",
+    "title": "Assembly Language",
+    "page": 20,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.2.3"
+  },
+  {
+   "official_code": "4.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding that a set of instructions are grouped",
+   "page": 20,
+   "oy": 223.5,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.2",
+    "title": "Assembly Language",
+    "page": 20,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.2.4"
+  },
+  {
+   "official_code": "4.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of and be able to use different modes of addressing",
+   "page": 20,
+   "oy": 325.4,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.2",
+    "title": "Assembly Language",
+    "page": 20,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.2.5"
+  },
+  {
+   "official_code": "4.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of and perform binary shifts",
+   "page": 22,
+   "oy": 137.8,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.3",
+    "title": "Bit manipulation",
+    "page": 22,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.3.1"
+  },
+  {
+   "official_code": "4.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of how bit manipulation can be used to monitor/control a device",
+   "page": 22,
+   "oy": 173.6,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.3",
+    "title": "Bit manipulation",
+    "page": 22,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.3.2"
+  },
+  {
+   "official_code": "4.3.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "AND #n / Bn / &n Bitwise AND operation of the contents of ACC with the operand AND <address> Bitwise AND operation of the contents of ACC with the contents of <address> XOR #n / Bn / &n Bitwise XOR operation of the contents of ACC with the operand XOR <address> Bitwise XOR operation of the contents of ACC with the contents of <address> OR #n / Bn / &n Bitwise OR operation of the contents of ACC with the operand OR <address> Bitwise OR operation of the contents of ACC with the contents of <address> LSL #n Bits in ACC are shifted logically n places to the left. Zeros are introduced on the right hand end LSR #n Bits in ACC are shifted logically n places to the right. Zeros are introduced on the left hand end <label>: <opcode> <operand> Labels an instruction <label>: <data> Gives a symbolic address <label> to the memory location with contents <data>",
+   "page": 22,
+   "oy": 256.9,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.3",
+    "title": "Bit manipulation",
+    "page": 22,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.3.3"
+  },
+  {
+   "official_code": "4.3.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "All questions will assume there is only one general purpose register available (Accumulator) ACC denotes Accumulator IX denotes Index Register <address> can be an absolute or symbolic address # denotes a denary number, e.g. #123 B denotes a binary number, e.g. B01001010 & denotes a hexadecimal number, e.g. &4A",
+   "page": 22,
+   "oy": 527.9,
+   "topic": {
+    "number": "4",
+    "title": "Processor Fundamentals",
+    "page": 19,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "4.3",
+    "title": "Bit manipulation",
+    "page": 22,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:4.3.4"
+  },
+  {
+   "official_code": "5.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Explain why a computer system requires an Operating System (OS)",
+   "page": 23,
+   "oy": 160.6,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.1",
+    "title": "Operating Systems",
+    "page": 23,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.1.1"
+  },
+  {
+   "official_code": "5.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Explain the key management tasks carried out by the Operating System",
+   "page": 23,
+   "oy": 193.5,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.1",
+    "title": "Operating Systems",
+    "page": 23,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.1.2"
+  },
+  {
+   "official_code": "5.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the need for typical utility software provided with an Operating System",
+   "page": 23,
+   "oy": 239.4,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.1",
+    "title": "Operating Systems",
+    "page": 23,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.1.3"
+  },
+  {
+   "official_code": "5.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of program libraries",
+   "page": 23,
+   "oy": 298.2,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.1",
+    "title": "Operating Systems",
+    "page": 23,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.1.4"
+  },
+  {
+   "official_code": "5.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the need for:",
+   "page": 23,
+   "oy": 468.8,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.1"
+  },
+  {
+   "official_code": "5.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "assembler software for the translation of an assembly language program",
+   "page": 23,
+   "oy": 487.4,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.2"
+  },
+  {
+   "official_code": "5.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "a compiler for the translation of a high-level language program",
+   "page": 23,
+   "oy": 516.3,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.3"
+  },
+  {
+   "official_code": "5.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "an interpreter for translation and execution of a high-level language program",
+   "page": 23,
+   "oy": 545.1,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.4"
+  },
+  {
+   "official_code": "5.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Explain the benefits and drawbacks of using either a compiler or interpreter and justify the use of each",
+   "page": 23,
+   "oy": 578.0,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.5"
+  },
+  {
+   "official_code": "5.2.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Show awareness that high-level language programs may be partially compiled and partially interpreted, such as Java (console mode)",
+   "page": 23,
+   "oy": 610.9,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.6"
+  },
+  {
+   "official_code": "5.2.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Describe features found in a typical Integrated Development Environment (IDE)",
+   "page": 23,
+   "oy": 656.8,
+   "topic": {
+    "number": "5",
+    "title": "System Software",
+    "page": 23,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "5.2",
+    "title": "Language Translators",
+    "page": 23,
+    "oy": 430.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:5.2.7"
+  },
+  {
+   "official_code": "6.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Explain the difference between the terms security, privacy and integrity of data",
+   "page": 24,
+   "oy": 160.6,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.1"
+  },
+  {
+   "official_code": "6.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show appreciation of the need for both the security of data and the security of the computer system",
+   "page": 24,
+   "oy": 193.5,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.2"
+  },
+  {
+   "official_code": "6.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Describe security measures designed to protect computer systems, ranging from the stand-alone PC to a network of computers",
+   "page": 24,
+   "oy": 226.4,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.3"
+  },
+  {
+   "official_code": "6.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the threats to computer and data security posed by networks and the internet",
+   "page": 24,
+   "oy": 285.2,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.4"
+  },
+  {
+   "official_code": "6.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Describe methods that can be used to restrict the risks posed by threats",
+   "page": 24,
+   "oy": 318.1,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.5"
+  },
+  {
+   "official_code": "6.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Describe security methods designed to protect the security of data",
+   "page": 24,
+   "oy": 351.0,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.1",
+    "title": "Data Security",
+    "page": 24,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.1.6"
+  },
+  {
+   "official_code": "6.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Describe how data validation and data verification help protect the integrity of data",
+   "page": 24,
+   "oy": 448.1,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.2",
+    "title": "Data Integrity",
+    "page": 24,
+    "oy": 409.5
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.2.1"
+  },
+  {
+   "official_code": "6.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Describe and use methods of data validation",
+   "page": 24,
+   "oy": 481.0,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.2",
+    "title": "Data Integrity",
+    "page": 24,
+    "oy": 409.5
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.2.2"
+  },
+  {
+   "official_code": "6.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Describe and use methods of data verification during data entry and data transfer",
+   "page": 24,
+   "oy": 526.9,
+   "topic": {
+    "number": "6",
+    "title": "Security, privacy and data integrity",
+    "page": 24,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "6.2",
+    "title": "Data Integrity",
+    "page": 24,
+    "oy": 409.5
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:6.2.3"
+  },
+  {
+   "official_code": "7.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the need for and purpose of ethics as a computing professional",
+   "page": 25,
+   "oy": 160.6,
+   "topic": {
+    "number": "7",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "7.1",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:7.1.1"
+  },
+  {
+   "official_code": "7.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the need to act ethically and the impact of acting ethically or unethically for a given situation",
+   "page": 25,
+   "oy": 219.5,
+   "topic": {
+    "number": "7",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "7.1",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:7.1.2"
+  },
+  {
+   "official_code": "7.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the need for copyright legislation",
+   "page": 25,
+   "oy": 265.4,
+   "topic": {
+    "number": "7",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "7.1",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:7.1.3"
+  },
+  {
+   "official_code": "7.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the different types of software licencing and justify the use of a licence for a given situation",
+   "page": 25,
+   "oy": 298.2,
+   "topic": {
+    "number": "7",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "7.1",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:7.1.4"
+  },
+  {
+   "official_code": "7.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of Artificial Intelligence (AI)",
+   "page": 25,
+   "oy": 344.1,
+   "topic": {
+    "number": "7",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 99.3
+   },
+   "subsection": {
+    "code": "7.1",
+    "title": "Ethics and Ownership",
+    "page": 25,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:7.1.5"
+  },
+  {
+   "official_code": "8.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the limitations of using a file- based approach for the storage and retrieval of data",
+   "page": 25,
+   "oy": 479.7,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.1"
+  },
+  {
+   "official_code": "8.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Describe the features of a relational database that address the limitations of a file-based approach",
+   "page": 25,
+   "oy": 512.6,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.2"
+  },
+  {
+   "official_code": "8.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of and use the terminology associated with a relational database model",
+   "page": 25,
+   "oy": 545.5,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.3"
+  },
+  {
+   "official_code": "8.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Use an entity-relationship (E-R) diagram to document a database design",
+   "page": 25,
+   "oy": 604.4,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.4"
+  },
+  {
+   "official_code": "8.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of the normalisation process",
+   "page": 25,
+   "oy": 637.3,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.5"
+  },
+  {
+   "official_code": "8.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Explain why a given set of database tables are, or are not, in 3NF",
+   "page": 25,
+   "oy": 683.2,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.6"
+  },
+  {
+   "official_code": "8.1.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Produce a normalised database design for a description of a database, a given set of data, or a given set of tables",
+   "page": 25,
+   "oy": 716.1,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.1",
+    "title": "Database Concepts",
+    "page": 25,
+    "oy": 441.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.1.7"
+  },
+  {
+   "official_code": "8.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the features provided by a Database Management System (DBMS) that address the issues of a file based approach",
+   "page": 26,
+   "oy": 137.8,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.2",
+    "title": "Database Management Systems (DBMS)",
+    "page": 26,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.2.1"
+  },
+  {
+   "official_code": "8.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of how software tools found within a DBMS are used in practice",
+   "page": 26,
+   "oy": 278.7,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.2",
+    "title": "Database Management Systems (DBMS)",
+    "page": 26,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.2.2"
+  },
+  {
+   "official_code": "8.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding that the DBMS carries out all creation / modification of the database structure using its Data Definition Language (DDL)",
+   "page": 26,
+   "oy": 397.3,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.3",
+    "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+    "page": 26,
+    "oy": 358.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.3.1"
+  },
+  {
+   "official_code": "8.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding that the DBMS carries out all queries and maintenance of data using its DML",
+   "page": 26,
+   "oy": 443.2,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.3",
+    "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+    "page": 26,
+    "oy": 358.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.3.2"
+  },
+  {
+   "official_code": "8.3.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding that the industry standard for both DDL and DML is Structured Query Language",
+   "page": 26,
+   "oy": 476.1,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.3",
+    "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+    "page": 26,
+    "oy": 358.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.3.3"
+  },
+  {
+   "official_code": "8.3.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Understand given SQL (DDL) statements and be able to write simple SQL (DDL) statements using a sub-set of statements",
+   "page": 26,
+   "oy": 522.0,
+   "topic": {
+    "number": "8",
+    "title": "Databases",
+    "page": 25,
+    "oy": 418.4
+   },
+   "subsection": {
+    "code": "8.3",
+    "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+    "page": 26,
+    "oy": 358.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:8.3.4"
+  },
+  {
+   "official_code": "9.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show an understanding of abstraction",
+   "page": 27,
+   "oy": 322.2,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.1",
+    "title": "Computational Thinking Skills",
+    "page": 27,
+    "oy": 283.6
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.1.1"
+  },
+  {
+   "official_code": "9.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Describe and use decomposition",
+   "page": 27,
+   "oy": 386.7,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.1",
+    "title": "Computational Thinking Skills",
+    "page": 27,
+    "oy": 283.6
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.1.2"
+  },
+  {
+   "official_code": "9.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding that an algorithm is a solution to a problem expressed as a sequence of defined steps",
+   "page": 27,
+   "oy": 496.7,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.1"
+  },
+  {
+   "official_code": "9.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Use suitable identifier names for the representation of data used by a problem and represent these using an identifier table",
+   "page": 27,
+   "oy": 529.6,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.2"
+  },
+  {
+   "official_code": "9.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Write pseudocode that contains input, process and output",
+   "page": 27,
+   "oy": 575.5,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.3"
+  },
+  {
+   "official_code": "9.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Write pseudocode using the three basic constructs of sequence, selection and iteration (repetition)",
+   "page": 27,
+   "oy": 608.4,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.4"
+  },
+  {
+   "official_code": "9.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Document a simple algorithm using a structured English description, a flowchart or pseudocode",
+   "page": 27,
+   "oy": 641.3,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.5"
+  },
+  {
+   "official_code": "9.2.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Write pseudocode from:",
+   "page": 27,
+   "oy": 674.2,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.6"
+  },
+  {
+   "official_code": "9.2.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "a structured English description",
+   "page": 27,
+   "oy": 692.9,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.7"
+  },
+  {
+   "official_code": "9.2.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "a flowchart",
+   "page": 27,
+   "oy": 708.7,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.8"
+  },
+  {
+   "official_code": "9.2.9",
+   "scope": null,
+   "tier": null,
+   "number": 9,
+   "text": "Draw a flowchart from:",
+   "page": 27,
+   "oy": 728.6,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.9"
+  },
+  {
+   "official_code": "9.2.10",
+   "scope": null,
+   "tier": null,
+   "number": 10,
+   "text": "a structured English description",
+   "page": 27,
+   "oy": 747.3,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.10"
+  },
+  {
+   "official_code": "9.2.11",
+   "scope": null,
+   "tier": null,
+   "number": 11,
+   "text": "pseudocode",
+   "page": 27,
+   "oy": 763.1,
+   "topic": {
+    "number": "9",
+    "title": "Algorithm Design and Problem-solving",
+    "page": 27,
+    "oy": 238.1
+   },
+   "subsection": {
+    "code": "9.2",
+    "title": "Algorithms",
+    "page": 27,
+    "oy": 458.2
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:9.2.11"
+  },
+  {
+   "official_code": "10.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Select and use appropriate data types for a problem solution",
+   "page": 28,
+   "oy": 282.0,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.1",
+    "title": "Data Types and Records",
+    "page": 28,
+    "oy": 243.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.1.1"
+  },
+  {
+   "official_code": "10.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the purpose of a record structure to hold a set of data of different data types under one identifier",
+   "page": 28,
+   "oy": 340.9,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.1",
+    "title": "Data Types and Records",
+    "page": 28,
+    "oy": 243.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.1.2"
+  },
+  {
+   "official_code": "10.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Use the technical terms associated with arrays",
+   "page": 28,
+   "oy": 453.7,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.2",
+    "title": "Arrays",
+    "page": 28,
+    "oy": 415.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.2.1"
+  },
+  {
+   "official_code": "10.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Select a suitable data structure (1D or 2D array) to use for a given task",
+   "page": 28,
+   "oy": 473.6,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.2",
+    "title": "Arrays",
+    "page": 28,
+    "oy": 415.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.2.2"
+  },
+  {
+   "official_code": "10.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Write pseudocode for 1D and 2D arrays",
+   "page": 28,
+   "oy": 506.5,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.2",
+    "title": "Arrays",
+    "page": 28,
+    "oy": 415.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.2.3"
+  },
+  {
+   "official_code": "10.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Write pseudocode to process array data",
+   "page": 28,
+   "oy": 526.4,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.2",
+    "title": "Arrays",
+    "page": 28,
+    "oy": 415.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.2.4"
+  },
+  {
+   "official_code": "10.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of why files are needed",
+   "page": 28,
+   "oy": 626.3,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.3",
+    "title": "Files",
+    "page": 28,
+    "oy": 587.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.3.1"
+  },
+  {
+   "official_code": "10.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Write pseudocode to handle text files that consist of one or more lines",
+   "page": 28,
+   "oy": 646.2,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.3",
+    "title": "Files",
+    "page": 28,
+    "oy": 587.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.3.2"
+  },
+  {
+   "official_code": "10.4.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding that an ADT is a collection of data and a set of operations on those data",
+   "page": 29,
+   "oy": 137.8,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.4",
+    "title": "Introduction to Abstract Data Types (ADT)",
+    "page": 29,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.4.1"
+  },
+  {
+   "official_code": "10.4.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding that a stack, queue and linked list are examples of ADTs",
+   "page": 29,
+   "oy": 170.7,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.4",
+    "title": "Introduction to Abstract Data Types (ADT)",
+    "page": 29,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.4.2"
+  },
+  {
+   "official_code": "10.4.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Use a stack, queue and linked list to store data",
+   "page": 29,
+   "oy": 203.6,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.4",
+    "title": "Introduction to Abstract Data Types (ADT)",
+    "page": 29,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.4.3"
+  },
+  {
+   "official_code": "10.4.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Describe how a queue, stack and linked list can be implemented using arrays",
+   "page": 29,
+   "oy": 249.5,
+   "topic": {
+    "number": "10",
+    "title": "Data Types and Structures",
+    "page": 28,
+    "oy": 220.7
+   },
+   "subsection": {
+    "code": "10.4",
+    "title": "Introduction to Abstract Data Types (ADT)",
+    "page": 29,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:10.4.4"
+  },
+  {
+   "official_code": "11.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Implement and write pseudocode from a given design presented as either a program flowchart or structured English",
+   "page": 29,
+   "oy": 369.3,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.1"
+  },
+  {
+   "official_code": "11.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Write pseudocode statements for:",
+   "page": 29,
+   "oy": 415.2,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.2"
+  },
+  {
+   "official_code": "11.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "the declaration and initialisation of constants",
+   "page": 29,
+   "oy": 433.8,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.3"
+  },
+  {
+   "official_code": "11.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "the declaration of variables",
+   "page": 29,
+   "oy": 449.7,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.4"
+  },
+  {
+   "official_code": "11.1.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "the assignment of values to variables",
+   "page": 29,
+   "oy": 465.5,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.5"
+  },
+  {
+   "official_code": "11.1.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "expressions involving any of the arithmetic or logical operators input from the keyboard and output to the console",
+   "page": 29,
+   "oy": 481.3,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.6"
+  },
+  {
+   "official_code": "11.1.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Use built-in functions and library routines",
+   "page": 29,
+   "oy": 527.2,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.1",
+    "title": "Programming Basics",
+    "page": 29,
+    "oy": 330.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.1.7"
+  },
+  {
+   "official_code": "11.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Use pseudocode to write:",
+   "page": 29,
+   "oy": 640.1,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.1"
+  },
+  {
+   "official_code": "11.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "an ‘IF’ statement including the ‘ELSE’ clause and nested IF statements",
+   "page": 29,
+   "oy": 658.8,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.2"
+  },
+  {
+   "official_code": "11.2.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "a ‘CASE’ structure",
+   "page": 29,
+   "oy": 687.6,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.3"
+  },
+  {
+   "official_code": "11.2.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "a ‘count-controlled’ loop:",
+   "page": 29,
+   "oy": 703.4,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.4"
+  },
+  {
+   "official_code": "11.2.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "a ‘post-condition’ loop",
+   "page": 29,
+   "oy": 719.3,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.5"
+  },
+  {
+   "official_code": "11.2.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "a ‘pre-condition’ loop",
+   "page": 29,
+   "oy": 735.1,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.6"
+  },
+  {
+   "official_code": "11.2.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Justify why one loop structure may be better suited to solve a problem than the others",
+   "page": 29,
+   "oy": 755.0,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.2",
+    "title": "Constructs",
+    "page": 29,
+    "oy": 601.5
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.2.7"
+  },
+  {
+   "official_code": "11.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Define and use a procedure",
+   "page": 30,
+   "oy": 137.8,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.1"
+  },
+  {
+   "official_code": "11.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Explain where in the construction of an algorithm it would be appropriate to use a procedure",
+   "page": 30,
+   "oy": 157.7,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.2"
+  },
+  {
+   "official_code": "11.3.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Use parameters",
+   "page": 30,
+   "oy": 190.6,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.3"
+  },
+  {
+   "official_code": "11.3.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Define and use a function",
+   "page": 30,
+   "oy": 239.4,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.4"
+  },
+  {
+   "official_code": "11.3.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Explain where in the construction of an algorithm it is appropriate to use a function",
+   "page": 30,
+   "oy": 259.2,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.5"
+  },
+  {
+   "official_code": "11.3.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Use the terminology associated with procedures and functions",
+   "page": 30,
+   "oy": 292.1,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.6"
+  },
+  {
+   "official_code": "11.3.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Write efficient pseudocode",
+   "page": 30,
+   "oy": 325.0,
+   "topic": {
+    "number": "11",
+    "title": "Programming",
+    "page": 29,
+    "oy": 308.0
+   },
+   "subsection": {
+    "code": "11.3",
+    "title": "Structured Programming",
+    "page": 30,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:11.3.7"
+  },
+  {
+   "official_code": "12.1.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the purpose of a development life cycle",
+   "page": 30,
+   "oy": 431.8,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.1",
+    "title": "Program Development Life cycle",
+    "page": 30,
+    "oy": 393.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.1.1"
+  },
+  {
+   "official_code": "12.1.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the need for different development life cycles depending on the program being developed",
+   "page": 30,
+   "oy": 464.7,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.1",
+    "title": "Program Development Life cycle",
+    "page": 30,
+    "oy": 393.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.1.2"
+  },
+  {
+   "official_code": "12.1.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Describe the principles, benefits and drawbacks of each type of life cycle",
+   "page": 30,
+   "oy": 510.6,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.1",
+    "title": "Program Development Life cycle",
+    "page": 30,
+    "oy": 393.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.1.3"
+  },
+  {
+   "official_code": "12.1.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the analysis, design, coding, testing and maintenance stages in the program development life cycle",
+   "page": 30,
+   "oy": 543.5,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.1",
+    "title": "Program Development Life cycle",
+    "page": 30,
+    "oy": 393.2
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.1.4"
+  },
+  {
+   "official_code": "12.2.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Use a structure chart to decompose a problem into sub-tasks and express the parameters passed between the various modules / procedures / functions which are part of the algorithm design",
+   "page": 30,
+   "oy": 653.5,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.2",
+    "title": "Program Design",
+    "page": 30,
+    "oy": 614.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.2.1"
+  },
+  {
+   "official_code": "12.2.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the purpose of state-transition diagrams to document an algorithm",
+   "page": 30,
+   "oy": 725.4,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.2",
+    "title": "Program Design",
+    "page": 30,
+    "oy": 614.9
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.2.2"
+  },
+  {
+   "official_code": "12.3.1",
+   "scope": null,
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of ways of exposing and avoiding faults in programs",
+   "page": 31,
+   "oy": 137.8,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.1"
+  },
+  {
+   "official_code": "12.3.2",
+   "scope": null,
+   "tier": null,
+   "number": 2,
+   "text": "Locate and identify the different types of errors",
+   "page": 31,
+   "oy": 170.7,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.2"
+  },
+  {
+   "official_code": "12.3.3",
+   "scope": null,
+   "tier": null,
+   "number": 3,
+   "text": "Correct identified errors",
+   "page": 31,
+   "oy": 222.3,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.3"
+  },
+  {
+   "official_code": "12.3.4",
+   "scope": null,
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the methods of testing available and select appropriate data for a given method",
+   "page": 31,
+   "oy": 242.2,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.4"
+  },
+  {
+   "official_code": "12.3.5",
+   "scope": null,
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of the need for a test strategy and test plan and their likely contents",
+   "page": 31,
+   "oy": 288.1,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.5"
+  },
+  {
+   "official_code": "12.3.6",
+   "scope": null,
+   "tier": null,
+   "number": 6,
+   "text": "Choose appropriate test data for a test plan",
+   "page": 31,
+   "oy": 321.0,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.6"
+  },
+  {
+   "official_code": "12.3.7",
+   "scope": null,
+   "tier": null,
+   "number": 7,
+   "text": "Show understanding of the need for continuing maintenance of a system and the differences between each type of maintenance",
+   "page": 31,
+   "oy": 340.9,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.7"
+  },
+  {
+   "official_code": "12.3.8",
+   "scope": null,
+   "tier": null,
+   "number": 8,
+   "text": "Analyse an existing program and make amendments to enhance functionality",
+   "page": 31,
+   "oy": 386.8,
+   "topic": {
+    "number": "12",
+    "title": "Software Development",
+    "page": 30,
+    "oy": 370.5
+   },
+   "subsection": {
+    "code": "12.3",
+    "title": "Program Testing and Maintenance",
+    "page": 31,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:12.3.8"
+  },
+  {
+   "official_code": "13.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of why user-defined types are necessary",
+   "page": 32,
+   "oy": 311.7,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.1",
+    "title": "User-defined data types",
+    "page": 32,
+    "oy": 273.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.1.1"
+  },
+  {
+   "official_code": "13.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Define and use non-composite types",
+   "page": 32,
+   "oy": 344.6,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.1",
+    "title": "User-defined data types",
+    "page": 32,
+    "oy": 273.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.1.2"
+  },
+  {
+   "official_code": "13.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Define and use composite data types",
+   "page": 32,
+   "oy": 364.4,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.1",
+    "title": "User-defined data types",
+    "page": 32,
+    "oy": 273.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.1.3"
+  },
+  {
+   "official_code": "13.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Choose and design an appropriate user-defined data type for a given problem",
+   "page": 32,
+   "oy": 384.3,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.1",
+    "title": "User-defined data types",
+    "page": 32,
+    "oy": 273.1
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.1.4"
+  },
+  {
+   "official_code": "13.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of the methods of file organisation and select an appropriate method of file organisation and file access for a given problem",
+   "page": 32,
+   "oy": 481.4,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.2",
+    "title": "File organisation and access",
+    "page": 32,
+    "oy": 442.8
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.2.1"
+  },
+  {
+   "official_code": "13.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of methods of file access",
+   "page": 32,
+   "oy": 527.3,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.2",
+    "title": "File organisation and access",
+    "page": 32,
+    "oy": 442.8
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.2.2"
+  },
+  {
+   "official_code": "13.2.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of hashing algorithms",
+   "page": 32,
+   "oy": 578.8,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.2",
+    "title": "File organisation and access",
+    "page": 32,
+    "oy": 442.8
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.2.3"
+  },
+  {
+   "official_code": "13.3.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Describe the format of binary floating-point real numbers",
+   "page": 33,
+   "oy": 137.8,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.3",
+    "title": "Floating-point numbers, representation and manipulation",
+    "page": 33,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.3.1"
+  },
+  {
+   "official_code": "13.3.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Convert binary floating-point real numbers into denary and vice versa",
+   "page": 33,
+   "oy": 199.6,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.3",
+    "title": "Floating-point numbers, representation and manipulation",
+    "page": 33,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.3.2"
+  },
+  {
+   "official_code": "13.3.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Normalise floating-point numbers",
+   "page": 33,
+   "oy": 232.5,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.3",
+    "title": "Floating-point numbers, representation and manipulation",
+    "page": 33,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.3.3"
+  },
+  {
+   "official_code": "13.3.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the consequences of a binary representation only being an approximation to the real number it represents (in certain cases)",
+   "page": 33,
+   "oy": 252.4,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.3",
+    "title": "Floating-point numbers, representation and manipulation",
+    "page": 33,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.3.4"
+  },
+  {
+   "official_code": "13.3.5",
+   "scope": "A Level",
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding that binary representations can give rise to rounding errors",
+   "page": 33,
+   "oy": 298.2,
+   "topic": {
+    "number": "13",
+    "title": "Data Representation",
+    "page": 32,
+    "oy": 250.4,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "13.3",
+    "title": "Floating-point numbers, representation and manipulation",
+    "page": 33,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:13.3.5"
+  },
+  {
+   "official_code": "14.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of why a protocol is essential for communication between computers",
+   "page": 33,
+   "oy": 418.0,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.1",
+    "title": "Protocols",
+    "page": 33,
+    "oy": 379.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.1.1"
+  },
+  {
+   "official_code": "14.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of how protocol implementation can be viewed as a stack, where each layer has its own functionality",
+   "page": 33,
+   "oy": 450.9,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.1",
+    "title": "Protocols",
+    "page": 33,
+    "oy": 379.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.1.2"
+  },
+  {
+   "official_code": "14.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the TCP / IP protocol suite",
+   "page": 33,
+   "oy": 496.8,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.1",
+    "title": "Protocols",
+    "page": 33,
+    "oy": 379.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.1.3"
+  },
+  {
+   "official_code": "14.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of protocols (HTTP, FTP, POP3, IMAP, SMTP, BitTorrent) and their purposes",
+   "page": 33,
+   "oy": 561.4,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.1",
+    "title": "Protocols",
+    "page": 33,
+    "oy": 379.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.1.4"
+  },
+  {
+   "official_code": "14.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of circuit switching",
+   "page": 33,
+   "oy": 658.4,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.2",
+    "title": "Circuit switching, packet switching",
+    "page": 33,
+    "oy": 619.8
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.2.1"
+  },
+  {
+   "official_code": "14.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of packet switching",
+   "page": 33,
+   "oy": 678.3,
+   "topic": {
+    "number": "14",
+    "title": "Communication and internet technologies",
+    "page": 33,
+    "oy": 356.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "14.2",
+    "title": "Circuit switching, packet switching",
+    "page": 33,
+    "oy": 619.8
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:14.2.2"
+  },
+  {
+   "official_code": "15.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of Reduced Instruction Set Computers (RISC) and Complex Instruction Set Computers (CISC) processors",
+   "page": 34,
+   "oy": 160.6,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.1",
+    "title": "Processors, Parallel Processing and Virtual Machines",
+    "page": 34,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.1.1"
+  },
+  {
+   "official_code": "15.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the importance / use of pipelining and registers in RISC processors",
+   "page": 34,
+   "oy": 209.3,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.1",
+    "title": "Processors, Parallel Processing and Virtual Machines",
+    "page": 34,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.1.2"
+  },
+  {
+   "official_code": "15.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of the four basic computer architectures",
+   "page": 34,
+   "oy": 242.2,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.1",
+    "title": "Processors, Parallel Processing and Virtual Machines",
+    "page": 34,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.1.3"
+  },
+  {
+   "official_code": "15.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of the characteristics of massively parallel computers",
+   "page": 34,
+   "oy": 275.1,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.1",
+    "title": "Processors, Parallel Processing and Virtual Machines",
+    "page": 34,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.1.4"
+  },
+  {
+   "official_code": "15.1.5",
+   "scope": "A Level",
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding of the concept of a virtual machine",
+   "page": 34,
+   "oy": 308.0,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.1",
+    "title": "Processors, Parallel Processing and Virtual Machines",
+    "page": 34,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.1.5"
+  },
+  {
+   "official_code": "15.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Produce truth tables for logic circuits including half adders and full adders",
+   "page": 34,
+   "oy": 420.8,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.2",
+    "title": "Boolean Algebra and Logic Circuits",
+    "page": 34,
+    "oy": 382.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.2.1"
+  },
+  {
+   "official_code": "15.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of a flip-flop (SR, JK)",
+   "page": 34,
+   "oy": 453.7,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.2",
+    "title": "Boolean Algebra and Logic Circuits",
+    "page": 34,
+    "oy": 382.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.2.2"
+  },
+  {
+   "official_code": "15.2.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of Boolean algebra",
+   "page": 34,
+   "oy": 515.5,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.2",
+    "title": "Boolean Algebra and Logic Circuits",
+    "page": 34,
+    "oy": 382.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.2.3"
+  },
+  {
+   "official_code": "15.2.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of Karnaugh maps (K-map)",
+   "page": 34,
+   "oy": 580.0,
+   "topic": {
+    "number": "15",
+    "title": "Hardware and Virtual Machines",
+    "page": 34,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "15.2",
+    "title": "Boolean Algebra and Logic Circuits",
+    "page": 34,
+    "oy": 382.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:15.2.4"
+  },
+  {
+   "official_code": "16.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of how an OS can maximise the use of resources",
+   "page": 35,
+   "oy": 160.6,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.1",
+    "title": "Purposes of an Operating System (OS)",
+    "page": 35,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.1.1"
+  },
+  {
+   "official_code": "16.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Describe the ways in which the user interface hides the complexities of the hardware from the user",
+   "page": 35,
+   "oy": 193.5,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.1",
+    "title": "Purposes of an Operating System (OS)",
+    "page": 35,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.1.2"
+  },
+  {
+   "official_code": "16.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of process management",
+   "page": 35,
+   "oy": 226.4,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.1",
+    "title": "Purposes of an Operating System (OS)",
+    "page": 35,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.1.3"
+  },
+  {
+   "official_code": "16.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of virtual memory, paging and segmentation for memory management",
+   "page": 35,
+   "oy": 358.8,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.1",
+    "title": "Purposes of an Operating System (OS)",
+    "page": 35,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.1.4"
+  },
+  {
+   "official_code": "16.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of how an interpreter can execute programs without producing a translated version",
+   "page": 35,
+   "oy": 503.3,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.2",
+    "title": "Translation Software",
+    "page": 35,
+    "oy": 464.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.2.1"
+  },
+  {
+   "official_code": "16.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the various stages in the compilation of a program",
+   "page": 35,
+   "oy": 549.2,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.2",
+    "title": "Translation Software",
+    "page": 35,
+    "oy": 464.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.2.2"
+  },
+  {
+   "official_code": "16.2.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of how the grammar of a language can be expressed using syntax diagrams or Backus-Naur Form (BNF) notation",
+   "page": 35,
+   "oy": 582.1,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.2",
+    "title": "Translation Software",
+    "page": 35,
+    "oy": 464.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.2.3"
+  },
+  {
+   "official_code": "16.2.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of how Reverse Polish Notation (RPN) can be used to carry out the evaluation of expressions",
+   "page": 35,
+   "oy": 628.0,
+   "topic": {
+    "number": "16",
+    "title": "System Software",
+    "page": 35,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "16.2",
+    "title": "Translation Software",
+    "page": 35,
+    "oy": 464.7
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:16.2.4"
+  },
+  {
+   "official_code": "17.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of how encryption works",
+   "page": 36,
+   "oy": 160.6,
+   "topic": {
+    "number": "17",
+    "title": "Security",
+    "page": 36,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "17.1",
+    "title": "Encryption, Encryption Protocols and Digital certificates",
+    "page": 36,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:17.1.1"
+  },
+  {
+   "official_code": "17.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show awareness of the Secure Socket Layer (SSL)/ Transport Layer Security (TLS)",
+   "page": 36,
+   "oy": 334.8,
+   "topic": {
+    "number": "17",
+    "title": "Security",
+    "page": 36,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "17.1",
+    "title": "Encryption, Encryption Protocols and Digital certificates",
+    "page": 36,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:17.1.2"
+  },
+  {
+   "official_code": "17.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of digital certification",
+   "page": 36,
+   "oy": 399.4,
+   "topic": {
+    "number": "17",
+    "title": "Security",
+    "page": 36,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "17.1",
+    "title": "Encryption, Encryption Protocols and Digital certificates",
+    "page": 36,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:17.1.3"
+  },
+  {
+   "official_code": "18.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of how graphs can be used to aid Artificial Intelligence (AI)",
+   "page": 36,
+   "oy": 535.0,
+   "topic": {
+    "number": "18",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 473.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "18.1",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 496.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:18.1.1"
+  },
+  {
+   "official_code": "18.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of how artificial neural networks have helped with machine learning",
+   "page": 36,
+   "oy": 612.5,
+   "topic": {
+    "number": "18",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 473.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "18.1",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 496.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:18.1.2"
+  },
+  {
+   "official_code": "18.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of Deep Learning, Machine Learning and Reinforcement Learning and the reasons for using these methods.",
+   "page": 36,
+   "oy": 645.4,
+   "topic": {
+    "number": "18",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 473.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "18.1",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 496.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:18.1.3"
+  },
+  {
+   "official_code": "18.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show understanding of back propagation of errors and regression methods in machine learning",
+   "page": 36,
+   "oy": 691.3,
+   "topic": {
+    "number": "18",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 473.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "18.1",
+    "title": "Artificial Intelligence (AI)",
+    "page": 36,
+    "oy": 496.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:18.1.4"
+  },
+  {
+   "official_code": "19.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of linear and binary searching methods",
+   "page": 37,
+   "oy": 160.6,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.1",
+    "title": "Algorithms",
+    "page": 37,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.1.1"
+  },
+  {
+   "official_code": "19.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of insertion sort and bubble sort methods",
+   "page": 37,
+   "oy": 254.0,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.1",
+    "title": "Algorithms",
+    "page": 37,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.1.2"
+  },
+  {
+   "official_code": "19.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Show understanding of and use Abstract Data Types (ADT)",
+   "page": 37,
+   "oy": 331.5,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.1",
+    "title": "Algorithms",
+    "page": 37,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.1.3"
+  },
+  {
+   "official_code": "19.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Show how it is possible for ADTs to be implemented from another ADT",
+   "page": 37,
+   "oy": 476.9,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.1",
+    "title": "Algorithms",
+    "page": 37,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.1.4"
+  },
+  {
+   "official_code": "19.1.5",
+   "scope": "A Level",
+   "tier": null,
+   "number": 5,
+   "text": "Show understanding that different algorithms which perform the same task can be compared by using criteria (e.g. time taken to complete the task and memory used)",
+   "page": 37,
+   "oy": 535.8,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.1",
+    "title": "Algorithms",
+    "page": 37,
+    "oy": 122.0
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.1.5"
+  },
+  {
+   "official_code": "19.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Show understanding of recursion",
+   "page": 38,
+   "oy": 137.8,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.2",
+    "title": "Recursion",
+    "page": 38,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.2.1"
+  },
+  {
+   "official_code": "19.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show awareness of what a compiler has to do to translate recursive programming code",
+   "page": 38,
+   "oy": 218.2,
+   "topic": {
+    "number": "19",
+    "title": "Computational thinking and Problem-solving",
+    "page": 37,
+    "oy": 99.3,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "19.2",
+    "title": "Recursion",
+    "page": 38,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:19.2.2"
+  },
+  {
+   "official_code": "20.1.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Understanding what is meant by a programming paradigm",
+   "page": 38,
+   "oy": 338.0,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.1"
+  },
+  {
+   "official_code": "20.1.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of the characteristics of a number of programming paradigms:",
+   "page": 38,
+   "oy": 370.9,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.2"
+  },
+  {
+   "official_code": "20.1.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Low-level",
+   "page": 38,
+   "oy": 402.6,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.3"
+  },
+  {
+   "official_code": "20.1.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Imperative (Procedural)",
+   "page": 38,
+   "oy": 448.4,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.4"
+  },
+  {
+   "official_code": "20.1.5",
+   "scope": "A Level",
+   "tier": null,
+   "number": 5,
+   "text": "Object Oriented",
+   "page": 38,
+   "oy": 567.8,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.5"
+  },
+  {
+   "official_code": "20.1.6",
+   "scope": "A Level",
+   "tier": null,
+   "number": 6,
+   "text": "Declarative",
+   "page": 38,
+   "oy": 716.1,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.1",
+    "title": "Programming Paradigms",
+    "page": 38,
+    "oy": 299.4
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.1.6"
+  },
+  {
+   "official_code": "20.2.1",
+   "scope": "A Level",
+   "tier": null,
+   "number": 1,
+   "text": "Write code to perform file-processing operations",
+   "page": 39,
+   "oy": 137.8,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.1"
+  },
+  {
+   "official_code": "20.2.2",
+   "scope": "A Level",
+   "tier": null,
+   "number": 2,
+   "text": "Show understanding of an exception and the importance of exception handling",
+   "page": 39,
+   "oy": 202.4,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.2"
+  },
+  {
+   "official_code": "20.2.3",
+   "scope": "A Level",
+   "tier": null,
+   "number": 3,
+   "text": "Teacher guidance Equipment and facilities Computer science is a practical subject and the Cambridge AS and A Level syllabus places emphasis on the use of procedural high-level programming languages. Centres must ensure that their equipment and facilities are adequate for candidates to be able to satisfy the requirements of the syllabus. The hardware facilities needed will depend on the number of candidates, but should be sufficient for all candidates to have enough time to practise their programming skills.",
+   "page": 39,
+   "oy": 281.9,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.3"
+  },
+  {
+   "official_code": "20.2.4",
+   "scope": "A Level",
+   "tier": null,
+   "number": 4,
+   "text": "Hardware Candidates need to have access to a system with direct-access file capability on backing store and hardcopy facilities.",
+   "page": 39,
+   "oy": 405.2,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.4"
+  },
+  {
+   "official_code": "20.2.5",
+   "scope": "A Level",
+   "tier": null,
+   "number": 5,
+   "text": "Software Candidates should have experience of using a high-level programming language, chosen by the centre, from the following list:",
+   "page": 39,
+   "oy": 466.9,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.5"
+  },
+  {
+   "official_code": "20.2.6",
+   "scope": "A Level",
+   "tier": null,
+   "number": 6,
+   "text": "Java (console mode)",
+   "page": 39,
+   "oy": 517.3,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.6"
+  },
+  {
+   "official_code": "20.2.7",
+   "scope": "A Level",
+   "tier": null,
+   "number": 7,
+   "text": "Visual Basic (console mode)",
+   "page": 39,
+   "oy": 533.1,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.7"
+  },
+  {
+   "official_code": "20.2.8",
+   "scope": "A Level",
+   "tier": null,
+   "number": 8,
+   "text": "Python (console mode).",
+   "page": 39,
+   "oy": 548.9,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "bullet-row",
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.8"
+  },
+  {
+   "official_code": "20.2.9",
+   "scope": "A Level",
+   "tier": null,
+   "number": 9,
+   "text": "Books The British Computer Society (BCS) book list for schools and colleges are suitable for use as reference. Teachers will need to consult several books to cover the whole syllabus adequately. There is a suggested book list on our website.",
+   "page": 39,
+   "oy": 578.9,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.9"
+  },
+  {
+   "official_code": "20.2.10",
+   "scope": "A Level",
+   "tier": null,
+   "number": 10,
+   "text": "Practical skills Computing is a practical subject and a range of practical exercises should supplement the study of most parts of the syllabus.",
+   "page": 39,
+   "oy": 653.6,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.10"
+  },
+  {
+   "official_code": "20.2.11",
+   "scope": "A Level",
+   "tier": null,
+   "number": 11,
+   "text": "It is important that centres encourage candidates, as early as possible in the course, to develop a systematic approach to practical problem-solving using appropriate resources.",
+   "page": 39,
+   "oy": 711.3,
+   "topic": {
+    "number": "20",
+    "title": "Further Programming",
+    "page": 38,
+    "oy": 276.7,
+    "scope": "A Level"
+   },
+   "subsection": {
+    "code": "20.2",
+    "title": "File Processing and Exception Handling",
+    "page": 39,
+    "oy": 99.3
+   },
+   "sub_items": [],
+   "flags": [
+    "synthesized-ordinal"
+   ],
+   "practical": false,
+   "id": "CIE_A_LEVEL_COMPUTER_SCIENCE_2024_2025:20.2.11"
+  }
+ ],
+ "counts": {
+  "spec_points": 227,
+  "practicals": 0,
+  "topics": 20,
+  "subsections": 44,
+  "flagged": 227
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "lane": "T-SPECS-CIE-PARSE-1",
+ "generated_utc": "2026-10-18T19:31:32+00:00",
+ "parser": "cie-spec-parser-1.0",
+ "schema": "syllabai.parsed-specification/1.0 + CIE extension (tier/number, assembled/synth flags)",
+ "quals_parsed": 33,
+ "spec_points_total": 6758,
+ "families": {
+  "ce_codes": 2,
+  "heading_bullets": 5,
+  "int_statements": 12,
+  "lettered_items": 1,
+  "nmk_outcomes": 8,
+  "tier_columns": 5
+ },
+ "checks": [
+  {
+   "id": "C1",
+   "check": "33 parsed registries, schema+sha1+parser pinned",
+   "pass": true,
+   "detail": "33/33 ok; fails: none"
+  },
+  {
+   "id": "C2",
+   "check": "G1-G4 ALL PASS x33, zero duplicate ids",
+   "pass": true,
+   "detail": "33 reports; failures: none"
+  },
+  {
+   "id": "C3",
+   "check": "id prefix <QUAL>: + uniqueness (independent)",
+   "pass": true,
+   "detail": "6758 points; failures: none"
+  },
+  {
+   "id": "C4",
+   "check": "family map conformance x33",
+   "pass": true,
+   "detail": "failures: none"
+  },
+  {
+   "id": "C5",
+   "check": "page+oy+provenance complete, text non-empty",
+   "pass": true,
+   "detail": "failures: none"
+  },
+  {
+   "id": "C6",
+   "check": "_summary 56 rows, Edexcel 23 deep-equal, CIE 33 gates pass",
+   "pass": true,
+   "detail": "CIE rows 33, points 6758"
+  },
+  {
+   "id": "C7",
+   "check": "flag policy (printed codes unflagged; synth flagged)",
+   "pass": true,
+   "detail": "violations: none"
+  },
+  {
+   "id": "C8",
+   "check": "Edexcel parsed tree untouched vs HEAD",
+   "pass": true,
+   "detail": "touched: none"
+  },
+  {
+   "id": "C9",
+   "check": "footprint guard (declared paths only)",
+   "pass": true,
+   "detail": "violations: none"
+  },
+  {
+   "id": "C10",
+   "check": "cross-foot parsed totals == summary rows",
+   "pass": true,
+   "detail": "parsed 6758 == summary 6758"
+  }
+ ],
+ "all_pass": true
+}
