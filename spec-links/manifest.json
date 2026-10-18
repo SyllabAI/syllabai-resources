@@ -1402,5 +1402,29 @@
   "lane": "T-SPECS-CIE-JOIN-1",
   "review_state": "SUGGESTED",
   "lanes": 1
+ },
+ "cie_gate": {
+  "gate": "T-SPECS-CIE-GATE-1",
+  "state": "ACCEPTED",
+  "accepted_utc": "2026-10-18T21:58:37Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d)",
+  "lanes": 44,
+  "tier_policy": {
+   "T1_verbatim": "authoritative",
+   "T2_near": "accepted-near; non-authoritative hint"
+  },
+  "verification": {
+   "v2_t1": {
+    "total": 3547,
+    "verified": 3547,
+    "failed": 0
+   },
+   "v3_t2": {
+    "total": 584,
+    "verified": 584,
+    "failed": 0
+   },
+   "defects": 0
+  }
  }
 }

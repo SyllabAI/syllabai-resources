@@ -85,8 +85,15 @@ def main() -> int:
         if d.get("course") != lane:
             bad.append(f"{lane}:course")
         rs = d.get("review_state") or {}
-        if rs.get("state") != "SUGGESTED" or rs.get("lane") != LANE_ID \
-                or rs.get("gate") != "pending":
+        # battery evolved by T-SPECS-CIE-GATE-1: SUGGESTED pre-gate,
+        # ACCEPTED post-gate (with the gate lane recorded)
+        state_ok = rs.get("state") in ("SUGGESTED", "ACCEPTED") and \
+            rs.get("lane") == LANE_ID
+        if rs.get("state") == "ACCEPTED":
+            state_ok = state_ok and rs.get("gate") not in (None, "", "pending")
+        else:
+            state_ok = state_ok and rs.get("gate") == "pending"
+        if not state_ok:
             bad.append(f"{lane}:review_state")
         if d.get("board") != "cambridge-cie":
             bad.append(f"{lane}:board")
@@ -218,10 +225,11 @@ def main() -> int:
                         capture_output=True, text=True).stdout.splitlines()
     allowed_added = re.compile(
         r"^(\?\?|A )? ?(spec-links/cie-[a-z0-9-]+\.json|"
-        r"graph/reports/T_SPECS_CIE_JOIN_1_(RECORD\.md|CHECK\.json)|"
-        r"scripts/cie_spec_join\.py|scripts/cie_join_check\.py)$")
+        r"graph/reports/T_SPECS_CIE_(JOIN_1_(RECORD\.md|CHECK\.json)|"
+        r"GATE_1_(VERIFY\.json|RECORD\.md|CHECK\.json))|"
+        r"scripts/cie_(spec_join|join_check|gate_verify|gate_apply|gate_check)\.py)$")
     allowed_mod = re.compile(
-        r"^(spec-links/manifest\.json|spec-links/README\.md)$")
+        r"^(spec-links/(manifest\.json|README\.md|cie-[a-z0-9-]+\.json))$")
     violations = []
     for line in st:
         code, _, path = line[:2], line[2:3], line[3:]
@@ -236,22 +244,32 @@ def main() -> int:
           str(violations[:6]))
 
     # ---- J10 reproducibility on 3 sample lanes
+    # (battery evolved by T-SPECS-CIE-GATE-1: the join payload must reproduce
+    # byte-identically MODULO review_state — the gate legitimately flips that
+    # one block post-join; everything else must be byte-identical.)
     import hashlib
+
+    def payload(text: str) -> str:
+        d = json.loads(text)
+        d.pop("review_state", None)
+        return json.dumps(d, sort_keys=True, ensure_ascii=False)
+
     samples = ["cie-igcse-chemistry-23", "cie-a-level-biology-25",
                "cie-igcse-maths-25-core"]
     same = True
     det = ""
     for lane in samples:
-        before = hashlib.sha256((SL / f"{lane}.json").read_bytes()).hexdigest()
+        before = payload((SL / f"{lane}.json").read_text(encoding="utf-8"))
         r = subprocess.run([sys.executable, str(REPO / "scripts/cie_spec_join.py"),
                             "--stamp", "2026-10-19T12:00:00Z", "--lanes", lane],
                            capture_output=True, text=True)
-        after = hashlib.sha256((SL / f"{lane}.json").read_bytes()).hexdigest()
+        after = payload((SL / f"{lane}.json").read_text(encoding="utf-8"))
         if before != after or r.returncode != 0:
             same = False
             det = f"{lane} rerun differs or rc={r.returncode}"
             break
-    check("J10", "fixed-stamp rerun byte-identical (3 lanes)", same, det)
+    check("J10", "fixed-stamp rerun payload-identical modulo review_state (3 lanes)",
+          same, det)
 
     # ---- summary
     fails = [r for r in results if not r[2]]

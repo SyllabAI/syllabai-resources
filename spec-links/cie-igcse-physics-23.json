@@ -5,10 +5,16 @@
  "qual": "cie-igcse-physics-2023-2025",
  "board": "cambridge-cie",
  "review_state": {
-  "state": "SUGGESTED",
+  "state": "ACCEPTED",
   "lane": "T-SPECS-CIE-JOIN-1",
-  "gate": "pending",
-  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3)"
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
  },
  "registry": {
   "id": "cie-igcse-physics-2023-2025",

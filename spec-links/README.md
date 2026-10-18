@@ -47,16 +47,19 @@ renders for "spec links" — canonical truth only (no learner state).
 When any upstream layer changes, re-run the downstream builders; the
 manifest records coverage so regressions are visible.
 
-## CIE lanes (T-SPECS-CIE-JOIN-1) — SUGGESTED
+## CIE lanes (T-SPECS-CIE-JOIN-1) — ACCEPTED (T-SPECS-CIE-GATE-1)
 
 The 44 `cie-*.json` sidecars join the Cambridge (CIE) SME lanes to the
 official codes parsed by T-SPECS-CIE-PARSE-1 (`Official-Specifications/
 parsed/<cie-slug>/`, 33 qualifications). Same item shape and schema as the
 Edexcel files, plus additive CIE blocks:
 
-- `review_state` — **SUGGESTED / gate pending** (AGENT.md rule 2: these are
-  agent-generated mappings, not authoritative until the review/promotion
-  gate accepts them; unresolved anchors stay `pending`, rule 3).
+- `review_state` — **ACCEPTED by T-SPECS-CIE-GATE-1** (2026-10-19, operator
+  directive "review/promotion gate proceed"): promoted from SUGGESTED after
+  the join battery + independent re-verification (T1 3547/3547, T2 584/584
+  lower-bound, zero defects). Tier policy: `T1_verbatim` authoritative,
+  `T2_near` accepted-near non-authoritative hint; unresolved anchors stay
+  `pending` (AGENT.md rules 1-3).
 - `registry` — the lane's parsed qualification (id, family, point count).
 - `anchors` — spcpt anchor counts, universe size/resolved, and the count of
   flashcards discovered-but-uncoded (CIE decks carry no spec links, so
