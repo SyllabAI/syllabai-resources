@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 1280,
-  "items_with_codes": 0,
+  "items_with_codes": 104,
   "by_kind": {
    "notes": 74,
    "question_parts": 1206,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 6,
+   "question_parts": 98,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 77,
   "parts": 1612,
   "universe_ids": 77,
-  "universe_resolved": 0,
-  "pending_refs": 1689,
-  "flashcards_discovered_uncoded": 448
+  "universe_resolved": 6,
+  "pending_refs": 1584,
+  "flashcards_discovered_uncoded": 448,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 6,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 6,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 71,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 9,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 61
+   },
+   "dangling_eq_refs_pending": 3
+  }
  },
  "items": {
   "rn_JktVvHShgnFzjbtg": {
@@ -59,10 +95,15 @@
    "label": "Composite Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_rcZXFRb9qgGfQtk2": {
    "kind": "note",
@@ -350,10 +391,15 @@
    "label": "Equation of a Straight Line | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_qhWrsKmD9VgQTXpS": {
    "kind": "note",
@@ -390,20 +436,30 @@
    "label": "Gradients, Tangents & Normals | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_4mty3cNgGDVYdjyD": {
    "kind": "note",
    "label": "Increasing & Decreasing Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_q5dBFXzQDnNrjszX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_xPfFT4DDk5FK4NcV": {
    "kind": "note",
@@ -450,10 +506,15 @@
    "label": "Chain Rule | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_pXGkzz47DZXRHj94": {
    "kind": "note",
@@ -551,10 +612,15 @@
    "label": "Definite Integration - A Level Maths Revision Notes",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_qf9zHysjdC2Vndyy": {
    "kind": "note",
@@ -1171,10 +1237,16 @@
    "label": "qstn_PQ9bXW28bzbhKj2n / part 0",
    "section": "algebra-and-functions",
    "topic": "combinations-of-transformations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_5XkJJjsdgWnxMBDF",
-    "spcpt_vHVvC2TmqrTFqBq7",
     "spcpt_BDJMvyt2SwNGyFPd"
    ]
   },
@@ -1295,20 +1367,30 @@
    "label": "qstn_n8t5TZ5xjw43q88B / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cmTpkCRdG55RTRTY": {
    "kind": "question_part",
    "label": "qstn_n8t5TZ5xjw43q88B / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FSP5GXRCpw2X36Pn": {
    "kind": "question_part",
@@ -1476,10 +1558,15 @@
    "label": "qstn_KKCKNQbQJh4DFSFP / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HTQvhMfJbcGPP9yy": {
    "kind": "question_part",
@@ -1496,10 +1583,15 @@
    "label": "qstn_c2wDpmjpyD8hTG5P / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H5xg6R9sNztXHz2w": {
    "kind": "question_part",
@@ -1567,10 +1659,15 @@
    "label": "qstn_pzTQSQjh7xgvbFnx / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WRxcZzn37RfcsFtp": {
    "kind": "question_part",
@@ -1707,10 +1804,15 @@
    "label": "qstn_dwjJNDqMN4YBqqsH / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n5rbYkrc8NcwWxbr": {
    "kind": "question_part",
@@ -1737,10 +1839,15 @@
    "label": "qstn_CrHc6pzwwN3fz3n3 / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nz25KDjNqKdwSHSv": {
    "kind": "question_part",
@@ -5386,10 +5493,16 @@
    "label": "qstn_s3zHVQz9HT72R2kp / part 1",
    "section": "coordinate-geometry",
    "topic": "circles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XQ5kYb9wHhXvrFdP",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_XQ5kYb9wHhXvrFdP"
    ]
   },
   "qstnprt_N99pJJryvWyQ7wrV": {
@@ -5546,10 +5659,16 @@
    "label": "qstn_rBSqnX8v8pGmkvzt / part 1",
    "section": "coordinate-geometry",
    "topic": "circles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XQ5kYb9wHhXvrFdP",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_XQ5kYb9wHhXvrFdP"
    ]
   },
   "qstnprt_HhC3QXZZg2gZQKYt": {
@@ -5568,10 +5687,15 @@
    "label": "qstn_cpHXgRfdpk6Ny65k / part 0",
    "section": "coordinate-geometry",
    "topic": "circles",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cVqbv9zg7TSrfpZn": {
    "kind": "question_part",
@@ -5589,10 +5713,15 @@
    "label": "qstn_cpHXgRfdpk6Ny65k / part 2",
    "section": "coordinate-geometry",
    "topic": "circles",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ww9kpDm6y66kbNGg": {
    "kind": "question_part",
@@ -5643,10 +5772,15 @@
    "label": "qstn_ZCFq7x3BKfws94bk / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6qKNT7D5knBPPHkT": {
    "kind": "question_part",
@@ -5683,10 +5817,16 @@
    "label": "qstn_Y3g7vmXGg3FFCxJZ / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_4Ksf39wZTBpngMdS": {
@@ -5704,20 +5844,31 @@
    "label": "qstn_PBDqnzqgfPrtWQGc / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BM8ChY7cdSbMJxtj": {
    "kind": "question_part",
    "label": "qstn_jtdDqVRg85rXpsgF / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_CNtHDTt3tqqs6xmh": {
@@ -5725,10 +5876,16 @@
    "label": "qstn_Hk6KHwJThmZPx7Rq / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_ZzhFWpPW4cSGRcwT": {
@@ -5746,20 +5903,30 @@
    "label": "qstn_DYh4R29RF62vjSQK / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_72MYyfxB2vCqBpDX": {
    "kind": "question_part",
    "label": "qstn_5J3dDYQRGw4PdyG3 / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vbg5hMDhWD3B6spH": {
    "kind": "question_part",
@@ -5776,10 +5943,16 @@
    "label": "qstn_YVX4Wvxs4Jvkd6Vn / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_zDw4K6Dwzqhgqjqv": {
@@ -5787,11 +5960,17 @@
    "label": "qstn_tpVzwPXNhSyfKFR4 / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_z3g3BqWDTV9M2rrr": {
@@ -5799,11 +5978,17 @@
    "label": "qstn_rmdxfkZ62n8fBCwc / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_n79SNtH3C8DTrQTb": {
@@ -5811,10 +5996,16 @@
    "label": "qstn_qsbgR4p4PP3yj4KD / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_frKVrxqvdnQSSbJt": {
@@ -5822,10 +6013,16 @@
    "label": "qstn_N2PY5pjTv3jzyk8f / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_KG64TbNWkXMxZHf4": {
@@ -5843,10 +6040,16 @@
    "label": "qstn_hbX4HNQ5N8RWHmhM / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_tk9sQcdzwvCP4Gnr": {
@@ -5854,20 +6057,30 @@
    "label": "qstn_bpcsF7YnhDDpY6HY / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g2mYJsjfmW558J3S": {
    "kind": "question_part",
    "label": "qstn_bpcsF7YnhDDpY6HY / part 1",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mHDdwSVjp3cpQ6cx": {
    "kind": "question_part",
@@ -5904,10 +6117,16 @@
    "label": "qstn_wgw7pBp4NnD2jvNB / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_6XRFNjY5YN2ZMwqM": {
@@ -5915,10 +6134,16 @@
    "label": "qstn_qvhwnJKcgFHvQkgW / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_5vx6gWPWf7bvg5m4": {
@@ -5926,10 +6151,15 @@
    "label": "qstn_MPzN877G28rJRJ2c / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X96p5FfJNMK8TH9C": {
    "kind": "question_part",
@@ -5956,30 +6186,46 @@
    "label": "qstn_crDzdj8xkWVJVRXp / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_twd2J8r3rWgTbkWP": {
    "kind": "question_part",
    "label": "qstn_bGzTC834DxyyZm7F / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vxmq8zz3Yg36Sh8T": {
    "kind": "question_part",
    "label": "qstn_9cfzFd23m7mkB7Fb / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_KGQDGRZ2CC4sWChr": {
@@ -5987,10 +6233,16 @@
    "label": "qstn_9cfzFd23m7mkB7Fb / part 1",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_3BfKfrr47jB3QDDz": {
@@ -6008,10 +6260,15 @@
    "label": "qstn_542pvrTWd5shSxkd / part 1",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Wf8D726fT33qsbT4": {
    "kind": "question_part",
@@ -6088,10 +6345,15 @@
    "label": "qstn_X9T7hnGYsBFBcrYX / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W5WR7msy7mFDKpBK": {
    "kind": "question_part",
@@ -6148,10 +6410,15 @@
    "label": "qstn_SmRyrb7Cz5v6m6ds / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pqVG8HjWzkCqm5Y5": {
    "kind": "question_part",
@@ -6178,20 +6445,31 @@
    "label": "qstn_rBffgdGXJtPq3M9d / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tMd7K5gtMzJwWvRB": {
    "kind": "question_part",
    "label": "qstn_pRfYyKcJdWRzbZ4G / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_vHVvC2TmqrTFqBq7"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_scx3rrwFgpvnryzk": {
@@ -6209,20 +6487,30 @@
    "label": "qstn_JJchnV9cJ3gcC9p9 / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p9HjTrxtfSG98Pry": {
    "kind": "question_part",
    "label": "qstn_JJchnV9cJ3gcC9p9 / part 1",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yxng8kgnX37mvVfN": {
    "kind": "question_part",
@@ -6239,9 +6527,15 @@
    "label": "qstn_HRrb2h2yBDFS5r2d / part 0",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7",
     "spcpt_Mp2xB3kzS88pG3yz"
    ]
   },
@@ -6260,10 +6554,15 @@
    "label": "qstn_HRrb2h2yBDFS5r2d / part 2",
    "section": "coordinate-geometry",
    "topic": "equation-of-a-straight-line",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8ZzZGXQqS9Vydwv3": {
    "kind": "question_part",
@@ -6332,10 +6631,16 @@
    "label": "qstn_rpq7F2mv9Qc52kB4 / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_WCpTZp6CnPf8q8M9": {
@@ -6353,19 +6658,30 @@
    "label": "qstn_NW5dSt9Ds4yVn63N / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dP7RrWXF95vVXCbQ": {
    "kind": "question_part",
    "label": "qstn_jZH42dbjS8Dv7Qpn / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6394,10 +6710,16 @@
    "label": "qstn_GhYdNdhcjhSWySV6 / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_QwSr4wt4qKWDDM7m": {
@@ -6447,10 +6769,16 @@
    "label": "qstn_5FrCBdfWMBzfJ5W2 / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_dn8srfD9nTX6TvMK": {
@@ -6458,10 +6786,16 @@
    "label": "qstn_5FrCBdfWMBzfJ5W2 / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_xg9PmNQbrj5k8mtV": {
@@ -6553,10 +6887,16 @@
    "label": "qstn_ttMk7zxTPnxkNDBZ / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_hvQHs2TWqS56vV6T": {
@@ -6564,11 +6904,17 @@
    "label": "qstn_rf9dYzNKzZ74f99n / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_XDrvh9698zd2QtSM": {
@@ -6576,30 +6922,51 @@
    "label": "qstn_rf9dYzNKzZ74f99n / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8DVgDZhGc25HfHwh": {
    "kind": "question_part",
    "label": "qstn_rf9dYzNKzZ74f99n / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Rw6xnjStCKGNNNx7": {
    "kind": "question_part",
    "label": "qstn_pkQgyn3SDbc5kshG / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_4FyzMxCjDT3yDDFP"
    ]
   },
@@ -6703,10 +7070,16 @@
    "label": "qstn_25rjXXf5QTBFCC6k / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_9tQnVHScZQQfvt5P": {
@@ -6714,10 +7087,16 @@
    "label": "qstn_ztNHgXSM9jyDkKYC / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_PJRvkX4xBrbvxCt6": {
@@ -6795,10 +7174,16 @@
    "label": "qstn_QnqwMrPrG5ZMTkFR / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_P85fNV4JhZhHwND8": {
@@ -6806,10 +7191,16 @@
    "label": "qstn_jtjMCVh4NN8ZQZRK / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_dBc624nvbwb6BpHV": {
@@ -6848,10 +7239,16 @@
    "label": "qstn_GnHpTnVjmvV8fz5b / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_d25mXT9H5XKrkrk5": {
@@ -6929,10 +7326,16 @@
    "label": "qstn_X8xsPzkGjCRrPRQr / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_Nt8n7KSW3kqSswrf": {
@@ -6971,10 +7374,16 @@
    "label": "qstn_KPQnhM7wBjYpNNp6 / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Jzb4MpfMDbXWqFCZ",
-    "spcpt_q5dBFXzQDnNrjszX"
+    "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
   "qstnprt_Tp3xW7Y8z8XfbXgJ": {
@@ -6992,9 +7401,15 @@
    "label": "qstn_KNvnKhrkr3jD9xws / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7003,10 +7418,16 @@
    "label": "qstn_KNvnKhrkr3jD9xws / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_M68RCGr2vxH6d4sw": {
@@ -7119,19 +7540,30 @@
    "label": "qstn_3Nd8TDYyqkYKvY3d / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3j9fbdJYvRjNGZqD": {
    "kind": "question_part",
    "label": "qstn_3Nd8TDYyqkYKvY3d / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7140,10 +7572,15 @@
    "label": "qstn_3Nd8TDYyqkYKvY3d / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6Jg7dYJWktPcvcQf": {
    "kind": "question_part",
@@ -7180,9 +7617,15 @@
    "label": "qstn_T2m9xpfFNqV84wpM / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7275,19 +7718,30 @@
    "label": "qstn_3D6fb4QN29BwGCC2 / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hzKkH7wbtsd3qv3j": {
    "kind": "question_part",
    "label": "qstn_3D6fb4QN29BwGCC2 / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7338,9 +7792,15 @@
    "label": "qstn_p3KJpMw9vVrzvHsp / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7349,9 +7809,15 @@
    "label": "qstn_p3KJpMw9vVrzvHsp / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7422,9 +7888,15 @@
    "label": "qstn_3D64k7KwFWKQh4C6 / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7453,9 +7925,15 @@
    "label": "qstn_2cCCgHt3vYMhVdWS / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7495,9 +7973,15 @@
    "label": "qstn_Sz6C8XCMtr3F7P7V / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7506,9 +7990,15 @@
    "label": "qstn_Sz6C8XCMtr3F7P7V / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7538,10 +8028,15 @@
    "label": "qstn_SNK5GzhQXHCBM8cb / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CTnfJSKS4j4PyQTY": {
    "kind": "question_part",
@@ -7600,9 +8095,15 @@
    "label": "qstn_7fwCT4kyH7hrhSr4 / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7671,10 +8172,15 @@
    "label": "qstn_WxB6CR9fQNCqFNsZ / part 2",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RTdHcj3KvbpBmDz3": {
    "kind": "question_part",
@@ -7691,19 +8197,30 @@
    "label": "qstn_tkDcc8k8x9khCH8P / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7zmDMqd6DgqmQcQN": {
    "kind": "question_part",
    "label": "qstn_P9T5Q9YqXbffgcw7 / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7762,19 +8279,30 @@
    "label": "qstn_DqrYgWP44XvkNhRK / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_djTczw8hgrpZMyFn": {
    "kind": "question_part",
    "label": "qstn_DqrYgWP44XvkNhRK / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7783,9 +8311,15 @@
    "label": "qstn_CkWtwrKrFNYj5txP / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7945,10 +8479,15 @@
    "label": "qstn_zc3QNySqtsRfGs3Z / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qqD5tYb5wvPbQ6tY": {
    "kind": "question_part",
@@ -8145,10 +8684,15 @@
    "label": "qstn_85vkhfPqrpYfJ7Kx / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b6CmjYY5x7P6JgmR": {
    "kind": "question_part",
@@ -8225,10 +8769,15 @@
    "label": "qstn_pYwpnhtH3rWNXzX8 / part 2",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qZ5dRTVNfww2wNGB": {
    "kind": "question_part",
@@ -8325,10 +8874,15 @@
    "label": "qstn_3zJbxKtyf356rKpj / part 1",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NpR4FF4zbMNHjGGg": {
    "kind": "question_part",
@@ -8345,10 +8899,15 @@
    "label": "qstn_wKz2xgB5sJWxjgZj / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HtcSp9vR8NdgCM5Y": {
    "kind": "question_part",
@@ -8376,10 +8935,15 @@
    "label": "qstn_nyDHVk5cpb3tZmD8 / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w9WVDYWbPY8zPrn3": {
    "kind": "question_part",
@@ -8427,10 +8991,16 @@
    "label": "qstn_cgrWnV23TRxd8CVN / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rd5TcbbZnVFFCh7N",
-    "spcpt_cm95VZDQGBnnfkPv"
+    "spcpt_rd5TcbbZnVFFCh7N"
    ]
   },
   "qstnprt_CNxXpKSnvjXWC3PT": {
@@ -8438,10 +9008,15 @@
    "label": "qstn_cgrWnV23TRxd8CVN / part 1",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Vz5XnX2GfVyKhfz9": {
    "kind": "question_part",
@@ -8479,10 +9054,15 @@
    "label": "qstn_NbpQPcH8rH3W5fr4 / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fK6wxBNKgzd2qZvZ": {
    "kind": "question_part",
@@ -8530,20 +9110,30 @@
    "label": "qstn_7JPzrVtDZC537M6s / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZrBgqdqkQHbSngjX": {
    "kind": "question_part",
    "label": "qstn_Vp5xKMbkrKBbkNjC / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y9ZbfTDHHsVMnyMt": {
    "kind": "question_part",
@@ -8603,10 +9193,15 @@
    "label": "qstn_DQnFQpdTSk6j6fpm / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ns8qnZy4PmSChk83": {
    "kind": "question_part",
@@ -8623,10 +9218,16 @@
    "label": "qstn_S4rQgRCC67RqvXbM / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rd5TcbbZnVFFCh7N",
-    "spcpt_cm95VZDQGBnnfkPv"
+    "spcpt_rd5TcbbZnVFFCh7N"
    ]
   },
   "qstnprt_VvMGkhp7sfrCBYjq": {
@@ -8644,10 +9245,15 @@
    "label": "qstn_nJj8fMrvDCDSjxhH / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BjRk2JnRtnh5qjfK": {
    "kind": "question_part",
@@ -8676,10 +9282,15 @@
    "label": "qstn_MT7YTdSf8GRYtJfD / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yxF2HHN5psqHQPyG": {
    "kind": "question_part",

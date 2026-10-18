@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-maths-2025-2027",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 1504,
-  "items_with_codes": 0,
+  "items_with_codes": 231,
   "by_kind": {
    "notes": 139,
    "question_parts": 1365,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 19,
+   "question_parts": 212,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 153,
   "parts": 2021,
   "universe_ids": 153,
-  "universe_resolved": 0,
-  "pending_refs": 2174,
-  "flashcards_discovered_uncoded": 764
+  "universe_resolved": 20,
+  "pending_refs": 1934,
+  "flashcards_discovered_uncoded": 764,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 20,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 20,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 133,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 6,
+    "no_unique_identity": 127
+   },
+   "dangling_eq_refs_pending": 290
+  }
  },
  "items": {
   "rn_Sh9dKWHr3tWzYkJ9": {
@@ -130,10 +166,15 @@
    "label": "Collecting Like Terms | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_tDSfZHFrXn2y7zsk": {
    "kind": "note",
@@ -260,10 +301,15 @@
    "label": "Solving Simultaneous Equations | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4xsdMKbx5zYg9FpN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_bbrwX9QVmMWjrsHk": {
    "kind": "note",
@@ -330,10 +376,15 @@
    "label": "Parallel Lines | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "coordinate-geometry-and-graphs",
    "topic": "linear-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qPRh2fycSMYwytcV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.6.2",
+     "official_code": "C4.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_RQBWzHZCg3Fpt3RC": {
    "kind": "note",
@@ -350,10 +401,15 @@
    "label": "Conversion Graphs | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_sRfSMKGB4rZkZKXH": {
    "kind": "note",
@@ -520,10 +576,15 @@
    "label": "Properties of Circles | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_7MqFyfS6dmbZjmWJ": {
    "kind": "note",
@@ -540,10 +601,15 @@
    "label": "Rotational Symmetry | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_J8TKyNvHcd8pST5W": {
    "kind": "note",
@@ -571,10 +637,15 @@
    "label": "Perimeter | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_FZ43cs6fQgvgdVwH": {
    "kind": "note",
@@ -651,10 +722,15 @@
    "label": "Surface Area | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_3MSrpsHhDSydTCPf": {
    "kind": "note",
@@ -957,10 +1033,15 @@
    "label": "Problem Solving with Ratios | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_QCFCRydYzgVqbHyZ": {
    "kind": "note",
@@ -1047,10 +1128,15 @@
    "label": "Compound Interest | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_TVyThzHTD5VvGJ4M": {
    "kind": "note",
@@ -1107,10 +1193,21 @@
    "label": "Multiples, Factors & Primes | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_n8dbknTqNp88nyfk",
-    "spcpt_TMZ9PCbwcPC9S63s",
     "spcpt_fDJc5vx3rHjF7mqC"
    ]
   },
@@ -1179,9 +1276,15 @@
    "label": "Relative & Expected Frequency | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "probability",
    "topic": "basic-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C8.2.1",
+     "official_code": "C8.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_bPTTmJSGkKv2PDc5",
     "spcpt_8GsFXwdQTJymxXw8"
    ]
   },
@@ -1220,9 +1323,15 @@
    "label": "Set Notation & Venn Diagrams | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_STPtxxbX3N7dSZn4",
     "spcpt_ffCvVFy6ppvSMNPD"
    ]
   },
@@ -1231,10 +1340,15 @@
    "label": "Two-Way Tables | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_Mqy7bXbYyFBwKTsV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_sRv9yQyzWPnx56cD": {
    "kind": "note",
@@ -1321,29 +1435,45 @@
    "label": "Range | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "averages-and-range",
-   "codes": [],
-   "pending": [
-    "spcpt_jgWpDXX6QTytnqVr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.3.1",
+     "official_code": "C9.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_wt8wHkz7FGPmJqbD": {
    "kind": "note",
    "label": "Lines of Best Fit | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_X86vRkMNGKkFy9gv": {
    "kind": "note",
    "label": "Scatter Graphs & Correlation | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -1372,20 +1502,30 @@
    "label": "Pie Charts | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_HYKhYBBxHSsGtVtC": {
    "kind": "note",
    "label": "Stem & Leaf Diagrams | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_pKt9YC9n9mjm65Mc": {
    "kind": "note",
@@ -2225,10 +2365,15 @@
    "label": "qstn_cxW2N6hnBvSN7V7n / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n7tKJMk99ZhTrHV4": {
    "kind": "question_part",
@@ -2257,10 +2402,15 @@
    "label": "qstn_vnTnB5XzNf55nFRV / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CB8yzjG2xYVWyfyY": {
    "kind": "question_part",
@@ -2287,11 +2437,21 @@
    "label": "qstn_NS4BV2sghqJbx4bC / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VCrkZhWD3Q2JcRwz": {
    "kind": "question_part",
@@ -2318,10 +2478,15 @@
    "label": "qstn_sGx2vtsXJZqWBrXf / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pPb76MYNcJqrYFdR": {
    "kind": "question_part",
@@ -2348,70 +2513,105 @@
    "label": "qstn_ZRWP9cpp7ndG94Jn / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_J6dG7TBjtqynj49D": {
    "kind": "question_part",
    "label": "qstn_Wst8kFxQwQtd8NrJ / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NPYYJRTNZXC3GbvF": {
    "kind": "question_part",
    "label": "qstn_qzHGMMF8FHFqvByZ / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rcgXFYJHvWpZzpGT": {
    "kind": "question_part",
    "label": "qstn_PCCts8WTK57HZkkq / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YjD6wvy2Hggry6J4": {
    "kind": "question_part",
    "label": "qstn_n2HkKmkZK2GFCfgX / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_F2bfVSBjpkwjH7zf": {
    "kind": "question_part",
    "label": "qstn_9fbHzpwfQYCQNMCN / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BwbVVktgxD7SX7SP": {
    "kind": "question_part",
    "label": "qstn_7yn6bXvRhDvRC8Bj / part 0",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_twCXWyxzdvvqRzdd": {
    "kind": "question_part",
@@ -3353,10 +3553,15 @@
    "label": "qstn_R2bbHgH9mJvbpqsr / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4xsdMKbx5zYg9FpN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mW9KfwhvJDsjNnc8": {
    "kind": "question_part",
@@ -4045,9 +4250,15 @@
    "label": "qstn_ywBZXkQfGZBksQ86 / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "linear-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.6.2",
+     "official_code": "C4.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qPRh2fycSMYwytcV",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
   },
@@ -4100,11 +4311,17 @@
    "label": "qstn_tWff7VNRthgh7TM6 / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "linear-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.6.2",
+     "official_code": "C4.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_9T88gcsX6z4FqbXN",
     "spcpt_Jw35TTKhvXxmGGfP",
-    "spcpt_qPRh2fycSMYwytcV",
     "spcpt_h8QyRmzX5mCJb3X9",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
@@ -4225,9 +4442,15 @@
    "label": "qstn_4RmwZXMJQW5HzQMc / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "linear-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.6.2",
+     "official_code": "C4.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qPRh2fycSMYwytcV",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
   },
@@ -4558,9 +4781,15 @@
    "label": "qstn_87frHqZPyDsmTWBy / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf",
     "spcpt_h8QyRmzX5mCJb3X9",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
@@ -4570,9 +4799,15 @@
    "label": "qstn_87frHqZPyDsmTWBy / part 1",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf",
     "spcpt_h8QyRmzX5mCJb3X9",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
@@ -4604,40 +4839,60 @@
    "label": "qstn_rKqzcGPX4KtzfYYn / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NsPwQRpQzMnzxydf": {
    "kind": "question_part",
    "label": "qstn_Nr5Hgcbw7fvzQQPH / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZqNgKcB7MkHfrf4h": {
    "kind": "question_part",
    "label": "qstn_Nr5Hgcbw7fvzQQPH / part 1",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_q2msdYSwRfq4thMW": {
    "kind": "question_part",
    "label": "qstn_Nr5Hgcbw7fvzQQPH / part 2",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yctrjjRnyBhM6TN7": {
    "kind": "question_part",
@@ -4704,10 +4959,15 @@
    "label": "qstn_ZzQMdD75hXB5NbpF / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "real-life-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_Nh8WWWGQxmJGVvvf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.9.1",
+     "official_code": "C2.9.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t83NpX9SPMv25dbZ": {
    "kind": "question_part",
@@ -4846,10 +5106,15 @@
    "label": "qstn_NTW9NPPHtJbGnGB9 / part 0",
    "section": "geometry",
    "topic": "angles-in-polygons-and-parallel-lines",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7m4kFS8Qqk9Vgpg3": {
    "kind": "question_part",
@@ -5414,9 +5679,15 @@
    "label": "qstn_TvS9fqKhHzPws9gZ / part 0",
    "section": "geometry",
    "topic": "bearings-constructions-and-scale-drawings",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_M22YV66GjwTPqSPX",
     "spcpt_Hz8tqtDtg6GKzSzP"
    ]
   },
@@ -5805,10 +6076,16 @@
    "label": "qstn_dGzzYJXnk8RChPp2 / part 0",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PfHj6M333W3nyzJJ",
-    "spcpt_M22YV66GjwTPqSPX",
     "spcpt_hDkpmvbsQZJG5hVW"
    ]
   },
@@ -5903,10 +6180,16 @@
    "label": "qstn_zmfcwHxFmP3VhDTZ / part 0",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vGfjmcJJ9yzSFbzs",
-    "spcpt_M22YV66GjwTPqSPX"
+    "spcpt_vGfjmcJJ9yzSFbzs"
    ]
   },
   "qstnprt_HjNw387vBpN6MSHh": {
@@ -5914,10 +6197,16 @@
    "label": "qstn_qGRWx4w2qKNrYmSV / part 0",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vGfjmcJJ9yzSFbzs",
-    "spcpt_M22YV66GjwTPqSPX"
+    "spcpt_vGfjmcJJ9yzSFbzs"
    ]
   },
   "qstnprt_PQBCsdTjv7tFp5ts": {
@@ -5935,10 +6224,15 @@
    "label": "qstn_bSF9PWNmNBnyJn2q / part 0",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bRrrbWdZ5Vjq9SJs": {
    "kind": "question_part",
@@ -5955,20 +6249,30 @@
    "label": "qstn_bQxgDqZtdRz6cdvS / part 0",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kP5cwCQ2S8j9ZJX7": {
    "kind": "question_part",
    "label": "qstn_bQxgDqZtdRz6cdvS / part 1",
    "section": "geometry",
    "topic": "circle-theorems",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3jYtGJMjfDJ3HksJ": {
    "kind": "question_part",
@@ -5986,9 +6290,15 @@
    "label": "qstn_85nHSb8mTkpMKbF5 / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_YbnQpJQYYZhVMwpX",
     "spcpt_4sc6x5s5mSrZfSnb"
    ]
@@ -5998,10 +6308,16 @@
    "label": "qstn_85nHSb8mTkpMKbF5 / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YbnQpJQYYZhVMwpX",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_YbnQpJQYYZhVMwpX"
    ]
   },
   "qstnprt_5zCPdVJxKwtBDGjW": {
@@ -6009,20 +6325,30 @@
    "label": "qstn_qkGbq8TDktv8VNJp / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mk5GvbcXnyW2phCS": {
    "kind": "question_part",
    "label": "qstn_qkGbq8TDktv8VNJp / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rYtrcX8YwXy23ztY": {
    "kind": "question_part",
@@ -6049,29 +6375,45 @@
    "label": "qstn_GsbZyC3Hqhr3JjBY / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nqcXppGhHWxDvBvJ": {
    "kind": "question_part",
    "label": "qstn_MgnXrtc32gqXQQfz / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wnQMjxwJrQJ9pB7Q": {
    "kind": "question_part",
    "label": "qstn_MgnXrtc32gqXQQfz / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_M22YV66GjwTPqSPX",
     "spcpt_Jw35TTKhvXxmGGfP"
    ]
   },
@@ -6090,20 +6432,30 @@
    "label": "qstn_xd6DKGp5GchrbSKv / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KYTMXdyRHNZV3msB": {
    "kind": "question_part",
    "label": "qstn_sG8J3GRHyZFwHxXr / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kstdQHbGp2y48cJF": {
    "kind": "question_part",
@@ -6161,10 +6513,15 @@
    "label": "qstn_Mpkv7KvWkRmJq9Xq / part 3",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_75rjvrkzBPNzjFGf": {
    "kind": "question_part",
@@ -6192,9 +6549,15 @@
    "label": "qstn_bRTDx368DPs4gbrz / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_YbnQpJQYYZhVMwpX"
    ]
   },
@@ -6253,9 +6616,15 @@
    "label": "qstn_TyWTXPpjTxcd7CxP / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.6.2",
+     "official_code": "C4.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qPRh2fycSMYwytcV",
     "spcpt_CBHJZtkzvkpJJPwX"
    ]
   },
@@ -6284,20 +6653,30 @@
    "label": "qstn_RJy8Q8J7p7FFTDyf / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_F34Jjbd6cvSYgRsf": {
    "kind": "question_part",
    "label": "qstn_QB3Hpy52tQrnyRQ7 / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hkw4FJjpgMmT8pw6": {
    "kind": "question_part",
@@ -6324,10 +6703,15 @@
    "label": "qstn_p3qM5229RgMDh6D2 / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rpW43SfhrXtnXkMy": {
    "kind": "question_part",
@@ -6354,10 +6738,16 @@
    "label": "qstn_Ng5jt62X3TJZkRHQ / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_NyC8VYj2kktfwnZP",
-    "spcpt_7gdmq8MbcShywrkB"
+    "spcpt_NyC8VYj2kktfwnZP"
    ]
   },
   "qstnprt_6SyhkqdZMzNV8Cr8": {
@@ -6395,10 +6785,16 @@
    "label": "qstn_kqYCJSv2F9pJFTth / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_NyC8VYj2kktfwnZP",
-    "spcpt_7gdmq8MbcShywrkB"
+    "spcpt_NyC8VYj2kktfwnZP"
    ]
   },
   "qstnprt_KfhCM6MgkyXCHHk7": {
@@ -6426,10 +6822,16 @@
    "label": "qstn_htdbKKZ968htPqRT / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_NyC8VYj2kktfwnZP",
-    "spcpt_7gdmq8MbcShywrkB"
+    "spcpt_NyC8VYj2kktfwnZP"
    ]
   },
   "qstnprt_ByB6g87GdfFyjhVz": {
@@ -6437,10 +6839,15 @@
    "label": "qstn_CyQ7H76pgT4WYZ2r / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9XHWBjBFPJCd5t2b": {
    "kind": "question_part",
@@ -6487,10 +6894,15 @@
    "label": "qstn_yDN7vDZXh98BqkBR / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XpTYGGFT7BK6MtSF": {
    "kind": "question_part",
@@ -6517,10 +6929,15 @@
    "label": "qstn_wxrBbkWHpXnZrrFn / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nj8Qty4pSqWNbF4Y": {
    "kind": "question_part",
@@ -6598,20 +7015,31 @@
    "label": "qstn_Dw3BNr2YM9RTQddT / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_39y58nP4GNTPF6Zt": {
    "kind": "question_part",
    "label": "qstn_dJxH7PSZVNv83KCc / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_CBHJZtkzvkpJJPwX",
-    "spcpt_7gdmq8MbcShywrkB"
+    "spcpt_CBHJZtkzvkpJJPwX"
    ]
   },
   "qstnprt_qvNzMbTkdJSxmhZy": {
@@ -6619,40 +7047,60 @@
    "label": "qstn_649VDbFXjBSKWtKz / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hRWpzScYnmYbK72n": {
    "kind": "question_part",
    "label": "qstn_5YZRGWc5m5rzRT7Q / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_7gdmq8MbcShywrkB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.5.1",
+     "official_code": "C4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XGpCgsh6Z4mjfdNp": {
    "kind": "question_part",
    "label": "qstn_5c5hC3NBmZq5zDwX / part 0",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z386tjBpBTV5YhwN": {
    "kind": "question_part",
    "label": "qstn_5c5hC3NBmZq5zDwX / part 1",
    "section": "geometry",
    "topic": "symmetry-and-shapes",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X9CZDFSR3jfwTzrs": {
    "kind": "question_part",
@@ -6669,10 +7117,16 @@
    "label": "qstn_KWJbtDmv4JPMbmRZ / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YbnQpJQYYZhVMwpX",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_YbnQpJQYYZhVMwpX"
    ]
   },
   "qstnprt_bH7nnXh3TK95TW5s": {
@@ -6732,10 +7186,15 @@
    "label": "qstn_NGbvRKRxvtzNZ8bG / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_M22YV66GjwTPqSPX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XCT9ZJHVK7R5D6SD": {
    "kind": "question_part",
@@ -6764,9 +7223,15 @@
    "label": "qstn_9VxBpMFSzKwQ8HZf / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_F2BG7bHjbM3fZkrR"
    ]
   },
@@ -6775,10 +7240,16 @@
    "label": "qstn_9VxBpMFSzKwQ8HZf / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C4.7.1",
+     "official_code": "C4.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_tDgR2x7kSCmnhnGC",
-    "spcpt_M22YV66GjwTPqSPX"
+    "spcpt_tDgR2x7kSCmnhnGC"
    ]
   },
   "qstnprt_HC2tfY7gzsQds7Dn": {
@@ -6786,10 +7257,15 @@
    "label": "qstn_7xD2HyVSWd2kWzQr / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s3BpQkTFWCh7fp2D": {
    "kind": "question_part",
@@ -6806,9 +7282,15 @@
    "label": "qstn_W4gMGt3G4tcMNphb / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_552XpFTM8tQhFKrm"
    ]
   },
@@ -6881,9 +7363,15 @@
    "label": "qstn_bWKV37MZJgMgXgV6 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_2NQRqtzTGgzNksfC"
    ]
   },
@@ -6902,20 +7390,36 @@
    "label": "qstn_2PTt58pQcQ3qnP9c / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dXtrkrY23bjW7M5x": {
    "kind": "question_part",
    "label": "qstn_2hG5kVSFKhtP9Dz6 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_F2BG7bHjbM3fZkrR"
    ]
   },
@@ -6934,9 +7438,15 @@
    "label": "qstn_tDxzwWz579Kmk3Bk / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_552XpFTM8tQhFKrm"
    ]
   },
@@ -6945,11 +7455,22 @@
    "label": "qstn_sVCzCcRbN6gWXw4V / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.1",
+     "official_code": "C2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
-    "spcpt_tDgR2x7kSCmnhnGC",
-    "spcpt_rsCdKqXKjhfmkyqT"
+    "spcpt_tDgR2x7kSCmnhnGC"
    ]
   },
   "qstnprt_qbc9xqnT6YCWRc8b": {
@@ -7009,9 +7530,15 @@
    "label": "qstn_22NX5rzhyjjFv3YF / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_552XpFTM8tQhFKrm"
    ]
   },
@@ -7148,9 +7675,15 @@
    "label": "qstn_gTgcxnqbkvJCk8sS / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "circles-arcs-and-sectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_jmyDqP5Fm6jwRn4q"
    ]
   },
@@ -7386,9 +7919,15 @@
    "label": "qstn_4N4gMNsYNpVNfrqQ / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_YbnQpJQYYZhVMwpX",
     "spcpt_4sc6x5s5mSrZfSnb"
    ]
@@ -7408,20 +7947,30 @@
    "label": "qstn_KKh2JkWmgPrYR3gq / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C3WCzRhrw5HhgCFQ": {
    "kind": "question_part",
    "label": "qstn_8NnhsPph8yZjPrbS / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GYx3pDD6zsZDmZ6T": {
    "kind": "question_part",
@@ -7438,10 +7987,15 @@
    "label": "qstn_H6HsMtRKF4hCpVWs / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FKT8DDbjqk3pHQVb": {
    "kind": "question_part",
@@ -7510,9 +8064,15 @@
    "label": "qstn_btpW92BYc9yY648x / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_4sc6x5s5mSrZfSnb"
    ]
   },
@@ -7521,9 +8081,15 @@
    "label": "qstn_3BPgZTxzPygwTcVk / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_4sc6x5s5mSrZfSnb"
    ]
   },
@@ -7532,10 +8098,15 @@
    "label": "qstn_2jTn8xDp4BRnPnpk / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kxqVgD777MFHWkYz": {
    "kind": "question_part",
@@ -7552,10 +8123,15 @@
    "label": "qstn_zyk6Qyt2pSt39j5B / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fnwrmbc6fJH9QTpW": {
    "kind": "question_part",
@@ -7572,9 +8148,15 @@
    "label": "qstn_v72Vpv2pM4F6PMh7 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_6tmCTQJYPsTdKKZ6"
    ]
   },
@@ -7616,10 +8198,15 @@
    "label": "qstn_nKcHPPFrz2gQWG6J / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jxRb84DhQdR49hXQ": {
    "kind": "question_part",
@@ -7678,10 +8265,15 @@
    "label": "qstn_WMHF8685h8mCcYQG / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rp8BT53mB4W4w6n6": {
    "kind": "question_part",
@@ -7698,9 +8290,15 @@
    "label": "qstn_s2tSNycHFqC3SJCF / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_YbnQpJQYYZhVMwpX"
    ]
   },
@@ -7729,29 +8327,45 @@
    "label": "qstn_C8CDjBnTmyxmyWZ5 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sGVrpV6tscjkSZjt": {
    "kind": "question_part",
    "label": "qstn_b3Gkr4Hq3DFXTY3C / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NcjR73ZPYkSTqp2r": {
    "kind": "question_part",
    "label": "qstn_8Kzv7bkwqT79HRgQ / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.4.1",
+     "official_code": "C5.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_4sc6x5s5mSrZfSnb"
    ]
   },
@@ -7792,9 +8406,15 @@
    "label": "qstn_mDd6XKJVDQwpgRdc / part 0",
    "section": "number",
    "topic": "compound-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6",
     "spcpt_27Znm3wFFhCxBD52",
     "spcpt_XWwgtKhQDRhyY5m4",
     "spcpt_h2p7nv6zkR4xFJ3P",
@@ -10162,9 +10782,15 @@
    "label": "qstn_cn5JcBfPBGcxmCRS / part 0",
    "section": "number",
    "topic": "prime-factors-hcf-and-lcm",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
     "spcpt_P88yS9wysymQ2brq"
    ]
   },
@@ -10173,9 +10799,15 @@
    "label": "qstn_Mk8KX6cShcv8QPwf / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_jjvZCHPKFSPFqRPJ"
    ]
   },
@@ -10194,20 +10826,30 @@
    "label": "qstn_TKpyGRhfgm6jV9J2 / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pjfHDCkxNTGhDPht": {
    "kind": "question_part",
    "label": "qstn_TKpyGRhfgm6jV9J2 / part 1",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4Fb8qrMF56K49RG2": {
    "kind": "question_part",
@@ -10248,9 +10890,15 @@
    "label": "qstn_tBypHQrjCtd6fMpj / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_jjvZCHPKFSPFqRPJ"
    ]
   },
@@ -10259,9 +10907,15 @@
    "label": "qstn_rPyTQMGWjGwbDMdB / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_Mgf9PGRQsNn5jFp3"
    ]
   },
@@ -10270,9 +10924,15 @@
    "label": "qstn_rPyTQMGWjGwbDMdB / part 1",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_jjvZCHPKFSPFqRPJ",
     "spcpt_bMYrxtVc2SZgt8mX"
    ]
@@ -10282,10 +10942,15 @@
    "label": "qstn_Kj6pTKMyGVKjgQkr / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cyskKTDvDgmvRk6d": {
    "kind": "question_part",
@@ -10312,10 +10977,15 @@
    "label": "qstn_xQq4xydXbjSHyzFQ / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kbdSPwGVZvFTjQfz": {
    "kind": "question_part",
@@ -10343,9 +11013,15 @@
    "label": "qstn_T5RDHfx4ZkpRQhT3 / part 1",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_jjvZCHPKFSPFqRPJ"
    ]
   },
@@ -10385,9 +11061,15 @@
    "label": "qstn_8gH2dv4T4dqXFXws / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_QW3jnwjTXKpbCgqq"
    ]
   },
@@ -10416,9 +11098,15 @@
    "label": "qstn_2KJKzDPq5nX7m4V2 / part 0",
    "section": "number",
    "topic": "ratio-and-proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.11.1",
+     "official_code": "C1.11.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VSxJhmQZ5ZFz23SW",
     "spcpt_jjvZCHPKFSPFqRPJ"
    ]
   },
@@ -11241,9 +11929,15 @@
    "label": "qstn_2JKMZd9dNf5RTBwR / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_k4jVy6shrwS6DVwY",
     "spcpt_CMmCdHzzw6vSwwk6"
    ]
@@ -11263,20 +11957,31 @@
    "label": "qstn_cdGhrb8XVvQq57yH / part 1",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p22mdGSJzKwfPr5z": {
    "kind": "question_part",
    "label": "qstn_cdGhrb8XVvQq57yH / part 2",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_WS2Jvf7gFCY6KszZ",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WS2Jvf7gFCY6KszZ"
    ]
   },
   "qstnprt_Htt8MsG5WsqyvzpF": {
@@ -11284,10 +11989,16 @@
    "label": "qstn_cdGhrb8XVvQq57yH / part 3",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_WS2Jvf7gFCY6KszZ",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WS2Jvf7gFCY6KszZ"
    ]
   },
   "qstnprt_WNpxPzzcpvqpmGrr": {
@@ -11295,40 +12006,60 @@
    "label": "qstn_z2FPXPm8xdwv3fRC / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4GSVrKT2w6VgHXKB": {
    "kind": "question_part",
    "label": "qstn_YBz7XSnKjwXmkZB4 / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rYqBDpk49Kg8HSzP": {
    "kind": "question_part",
    "label": "qstn_W4Rtg8YJvfCGg6Gy / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sKTHnywcvVXy5XX8": {
    "kind": "question_part",
    "label": "qstn_QCgCZmhNJjPJWNYq / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Bz4qTRN9HwBdXhpv": {
    "kind": "question_part",
@@ -11345,11 +12076,17 @@
    "label": "qstn_mm4HHtqpm8Wh75h2 / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Zsm4wBNtCYHBNc5Y",
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_t8NzgJYjXnXcRKCF": {
@@ -11357,19 +12094,30 @@
    "label": "qstn_KmmyWrYJTjZ5wFVM / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZzcJVTgyZjY6wDxj": {
    "kind": "question_part",
    "label": "qstn_Fk3kfQZc7BMkQYnR / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_bMYrxtVc2SZgt8mX"
    ]
   },
@@ -11388,60 +12136,90 @@
    "label": "qstn_sqhrDfRRbrknc8Wx / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yKvkq9TwRsMjQkFG": {
    "kind": "question_part",
    "label": "qstn_ht72wVC7HBdcxwHQ / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wgkmN9P5WFNH8PDx": {
    "kind": "question_part",
    "label": "qstn_gBkhYsrzQnkhrm6r / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2pf42ScbcStYyCJw": {
    "kind": "question_part",
    "label": "qstn_DPxBstnNqdgsrTYc / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dPcjhssDfXKC9rXC": {
    "kind": "question_part",
    "label": "qstn_BWTvT2wyM26HgzPT / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2RQkyQJp6NvtHjqR": {
    "kind": "question_part",
    "label": "qstn_9z5BGBZBnF3jYwSd / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CtJb5gPZykZpyCT2": {
    "kind": "question_part",
@@ -11468,30 +12246,45 @@
    "label": "qstn_v9f9YTvf5GmtZWSw / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yF34wvwNKggVcyJT": {
    "kind": "question_part",
    "label": "qstn_T4MpjKW99jzQg2sX / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JDW6wNWW8VpZwQgQ": {
    "kind": "question_part",
    "label": "qstn_5hB5q6jRD2rczxBd / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.13.4",
+     "official_code": "C1.13.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vfNW4HNKQy79ksN2": {
    "kind": "question_part",
@@ -12016,10 +12809,15 @@
    "label": "qstn_8yk3yMwdC729xN2h / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_st2CkQxRQGhrPcdP": {
    "kind": "question_part",
@@ -12056,9 +12854,15 @@
    "label": "qstn_ZzR72495rTyqbb7P / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_n8dbknTqNp88nyfk",
     "spcpt_fDJc5vx3rHjF7mqC",
     "spcpt_5PKsSqbXq5fF9Z67"
    ]
@@ -12068,9 +12872,15 @@
    "label": "qstn_xCxBRWV83tZYvDzw / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
     "spcpt_P88yS9wysymQ2brq"
    ]
   },
@@ -12079,10 +12889,21 @@
    "label": "qstn_MJYwTbRxsck3RyWG / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
-    "spcpt_n8dbknTqNp88nyfk",
     "spcpt_fDJc5vx3rHjF7mqC",
     "spcpt_5PKsSqbXq5fF9Z67"
    ]
@@ -12114,10 +12935,21 @@
    "label": "qstn_D86y8gKcCsyxDPw9 / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
-    "spcpt_n8dbknTqNp88nyfk",
     "spcpt_DYWSrM2HQDcmNW55",
     "spcpt_6PQvz8gFHWQzG69x",
     "spcpt_5PKsSqbXq5fF9Z67"
@@ -12148,10 +12980,15 @@
    "label": "qstn_z9mKSfsDg3H5jrvz / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JNRBGMZh3RBKdvWy": {
    "kind": "question_part",
@@ -12189,10 +13026,15 @@
    "label": "qstn_PWhhpQjnpgzN4tSF / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CXTPv533ZyWryWjT": {
    "kind": "question_part",
@@ -12209,20 +13051,30 @@
    "label": "qstn_PDxJrmwGRty2xkyz / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p67YWm3dYGcXmH52": {
    "kind": "question_part",
    "label": "qstn_Mcg8R8Z3wH3zSn6D / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7kXXVkFzcpbVMvf9": {
    "kind": "question_part",
@@ -12249,10 +13101,15 @@
    "label": "qstn_JQgRxgN38Rh6HRZt / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MGJGPQJdwSmF4j6P": {
    "kind": "question_part",
@@ -12292,10 +13149,15 @@
    "label": "qstn_gVMT42mPygkBpydr / part 2",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8JHF6NYnhfDhkvpH": {
    "kind": "question_part",
@@ -12323,20 +13185,30 @@
    "label": "qstn_76QnCWPJyf4vVbX4 / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ftkj3xCMMKY2nqqw": {
    "kind": "question_part",
    "label": "qstn_65qnYd5TDPpS7Qdc / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_n8dbknTqNp88nyfk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C7.1.2",
+     "official_code": "C7.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JcppKr2RYYbRVqk8": {
    "kind": "question_part",
@@ -12383,10 +13255,15 @@
    "label": "qstn_y8RzYzzjYrKzDr8n / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_k7GH5Jc7D5dsjgRy": {
    "kind": "question_part",
@@ -12413,9 +13290,15 @@
    "label": "qstn_wBCyc65qjJmprFd3 / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
     "spcpt_fDJc5vx3rHjF7mqC"
    ]
   },
@@ -12424,10 +13307,15 @@
    "label": "qstn_HwKNVrV6bxtb2bdt / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_K8GtBX8mzTYkCTzc": {
    "kind": "question_part",
@@ -12444,10 +13332,15 @@
    "label": "qstn_DK4C3BC9BpSwQd7V / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X7H9wC4Q2TkyShr4": {
    "kind": "question_part",
@@ -12485,10 +13378,15 @@
    "label": "qstn_53zCSMsPvJRymYSN / part 0",
    "section": "number",
    "topic": "types-of-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tKNbdnGnSTHwcXQ6": {
    "kind": "question_part",
@@ -13336,9 +14234,15 @@
    "label": "qstn_YGR3wxyZGh24TcWN / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_STPtxxbX3N7dSZn4",
     "spcpt_ffCvVFy6ppvSMNPD"
    ]
   },
@@ -13347,9 +14251,15 @@
    "label": "qstn_YGR3wxyZGh24TcWN / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_STPtxxbX3N7dSZn4",
     "spcpt_ffCvVFy6ppvSMNPD"
    ]
   },
@@ -13358,9 +14268,15 @@
    "label": "qstn_YGR3wxyZGh24TcWN / part 2",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_STPtxxbX3N7dSZn4",
     "spcpt_ffCvVFy6ppvSMNPD"
    ]
   },
@@ -13369,9 +14285,15 @@
    "label": "qstn_sq5mXxXK3CFNJ5yJ / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_STPtxxbX3N7dSZn4",
     "spcpt_ffCvVFy6ppvSMNPD",
     "spcpt_cQfwjPhH7njT2V2Y",
     "spcpt_9KDr4cg2JmqZWcxw"
@@ -13382,29 +14304,45 @@
    "label": "qstn_sq5mXxXK3CFNJ5yJ / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_STPtxxbX3N7dSZn4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3xD7VYvXYd75NKY7": {
    "kind": "question_part",
    "label": "qstn_QNV8gXNmd7ctk45C / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_Mqy7bXbYyFBwKTsV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xg8rD9xzS6GB7Jzr": {
    "kind": "question_part",
    "label": "qstn_QNV8gXNmd7ctk45C / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Mqy7bXbYyFBwKTsV",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -13425,9 +14363,15 @@
    "label": "qstn_DbgYpkrd2SXdCy2R / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.2.3",
+     "official_code": "C2.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TMZ9PCbwcPC9S63s",
     "spcpt_Rv3DcsGBkxSkb8Ms",
     "spcpt_cQfwjPhH7njT2V2Y",
     "spcpt_9KDr4cg2JmqZWcxw"
@@ -13482,10 +14426,15 @@
    "label": "qstn_crVKvvXKHM4PdDfh / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_STPtxxbX3N7dSZn4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wcGhPCSx6DQrjjVk": {
    "kind": "question_part",
@@ -13504,9 +14453,15 @@
    "label": "qstn_7hGGy9xcR734KPrG / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Mqy7bXbYyFBwKTsV",
     "spcpt_CMmCdHzzw6vSwwk6"
    ]
   },
@@ -13612,10 +14567,16 @@
    "label": "qstn_Zk2YJy3xQhmKVrZx / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "pythagoras",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_bzphBfxFGBBWdgfZ": {
@@ -13623,10 +14584,16 @@
    "label": "qstn_r32SdycKp6vMHZDc / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "pythagoras",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_bMYrxtVc2SZgt8mX"
    ]
   },
@@ -13635,10 +14602,16 @@
    "label": "qstn_GzX38xJ2SKRff9nw / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "pythagoras",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_BBwxKjdVk9q8Z8BW": {
@@ -14034,10 +15007,16 @@
    "label": "qstn_bKFjDFYPHTHsSrCg / part 0",
    "section": "statistics",
    "topic": "averages-and-range",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_7DmJpJ5yFdHKX2nB": {
@@ -14045,10 +15024,16 @@
    "label": "qstn_bKFjDFYPHTHsSrCg / part 1",
    "section": "statistics",
    "topic": "averages-and-range",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_7SpyKrMcMw9rFmR3": {
@@ -14076,10 +15061,15 @@
    "label": "qstn_9F9kdKqSvmqgTmhW / part 2",
    "section": "statistics",
    "topic": "averages-and-range",
-   "codes": [],
-   "pending": [
-    "spcpt_jgWpDXX6QTytnqVr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.3.1",
+     "official_code": "C9.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_22mqwBvFbdqTyDJz": {
    "kind": "question_part",
@@ -14161,9 +15151,15 @@
    "label": "qstn_ZsNy76xFbs74YBkW / part 0",
    "section": "statistics",
    "topic": "averages-and-range",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rxmWrBrc2s2q45wF",
     "spcpt_QkZ2S7CKb8GrYdYx"
    ]
   },
@@ -14326,30 +15322,45 @@
    "label": "qstn_XkFtRddFW2GbVb94 / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Djdfy4GhK4gft5HP": {
    "kind": "question_part",
    "label": "qstn_XkFtRddFW2GbVb94 / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RQ4Q6NpFWJxzHF8D": {
    "kind": "question_part",
    "label": "qstn_XkFtRddFW2GbVb94 / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jnQxMS8wmHwZRP3H": {
    "kind": "question_part",
@@ -14366,20 +15377,30 @@
    "label": "qstn_sP5xxx3mwRtF7xvd / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WJV5fDmHzrPrvhKX": {
    "kind": "question_part",
    "label": "qstn_sP5xxx3mwRtF7xvd / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P8z8Y4P4XKWBKNd8": {
    "kind": "question_part",
@@ -14396,10 +15417,15 @@
    "label": "qstn_pQCQzDFV5vhsd6gT / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DXSmPmm7bfVrbhk8": {
    "kind": "question_part",
@@ -14416,20 +15442,30 @@
    "label": "qstn_pQCQzDFV5vhsd6gT / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sv9VQrgVvKGR6RnG": {
    "kind": "question_part",
    "label": "qstn_pQCQzDFV5vhsd6gT / part 4",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fDFsMk9bwvNPZXXK": {
    "kind": "question_part",
@@ -14446,30 +15482,46 @@
    "label": "qstn_gwMqjjxpjfJmBvcb / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Sjb8Gdp2NCr8bqTg": {
    "kind": "question_part",
    "label": "qstn_gwMqjjxpjfJmBvcb / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7Xs3TkjFWsRmVhMc": {
    "kind": "question_part",
    "label": "qstn_gwMqjjxpjfJmBvcb / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_JK83zyxBrnYR5bpf"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_NKC2TNr56C6B3tVp": {
@@ -14497,31 +15549,51 @@
    "label": "qstn_C3tHh2WzpKxPSQY5 / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QbvsXnSPcszFF3JC": {
    "kind": "question_part",
    "label": "qstn_C3tHh2WzpKxPSQY5 / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9k6kFWFFrJqj4yvG": {
    "kind": "question_part",
    "label": "qstn_ByqhMGqFN33psDhv / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf",
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Vt53sG5zp3QptS5c": {
    "kind": "question_part",
@@ -14548,30 +15620,45 @@
    "label": "qstn_8TfFsbZ8W3Jj5RCy / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kmcQyRXKnQd2mCkt": {
    "kind": "question_part",
    "label": "qstn_8TfFsbZ8W3Jj5RCy / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vBvnKqbxjKY9kDH8": {
    "kind": "question_part",
    "label": "qstn_8TfFsbZ8W3Jj5RCy / part 4",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b8GhwdnmXxVpB3TM": {
    "kind": "question_part",
@@ -14588,20 +15675,30 @@
    "label": "qstn_yvJggxZs7RpbQJMc / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MSxmgRtkbPV2tjMD": {
    "kind": "question_part",
    "label": "qstn_yvJggxZs7RpbQJMc / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jYrTpWdVPxk5YXNR": {
    "kind": "question_part",
@@ -14618,11 +15715,22 @@
    "label": "qstn_RySZC9fFvzSdgQTw / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_JK83zyxBrnYR5bpf",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_Vv4NrxzrzBpdyWfK": {
@@ -14630,10 +15738,15 @@
    "label": "qstn_RjjtszxhXTspwfJV / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dX8HDYnV2CMGtyF7": {
    "kind": "question_part",
@@ -14650,30 +15763,45 @@
    "label": "qstn_HnCFmV7R6X2gD63m / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vTNfSWhxmrhNy6dt": {
    "kind": "question_part",
    "label": "qstn_HnCFmV7R6X2gD63m / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_29hwx5XBPD4WhRdr": {
    "kind": "question_part",
    "label": "qstn_HnCFmV7R6X2gD63m / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5z9CDsBCQRx4yxd4": {
    "kind": "question_part",
@@ -14690,11 +15818,22 @@
    "label": "qstn_6MWJBYdSpD6kqtRH / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_JK83zyxBrnYR5bpf",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_bGShKk943BhMbw7p": {
@@ -14702,20 +15841,30 @@
    "label": "qstn_ZnsRNRn5wx2PZyDJ / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PmMMqQkkJ3QSzSmK": {
    "kind": "question_part",
    "label": "qstn_ZnsRNRn5wx2PZyDJ / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KJtNRfCvzH2KJnyz": {
    "kind": "question_part",
@@ -14732,20 +15881,30 @@
    "label": "qstn_WDmwj8py8QH8mbDJ / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hjzt2HFFSW5fmGfj": {
    "kind": "question_part",
    "label": "qstn_WDmwj8py8QH8mbDJ / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pv6NZQcfwNw59xhy": {
    "kind": "question_part",
@@ -14762,20 +15921,31 @@
    "label": "qstn_tByDYNCNPvXHpSRR / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_JK83zyxBrnYR5bpf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.3",
+     "official_code": "C9.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tRc6TXM2rYDc773Z": {
    "kind": "question_part",
    "label": "qstn_tByDYNCNPvXHpSRR / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_xVGkN3r3DGzwQTsK": {
@@ -14783,10 +15953,16 @@
    "label": "qstn_tByDYNCNPvXHpSRR / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_ZdvjK9s4DkY4zJgR": {
@@ -14794,10 +15970,15 @@
    "label": "qstn_qvRPyTGQQBCTmVkD / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VqTbXKSmhfsshQWd": {
    "kind": "question_part",
@@ -14814,10 +15995,16 @@
    "label": "qstn_pb4JwWQNdb8w6Dc9 / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.5.2",
+     "official_code": "C9.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_qQmHpJzPr5J5DbPc": {
@@ -14865,50 +16052,76 @@
    "label": "qstn_7PGjdrbt9bGCYfj9 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nbrMTVQXQGQDHgj9": {
    "kind": "question_part",
    "label": "qstn_7PGjdrbt9bGCYfj9 / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FnWjCzHf5kkg4RwH": {
    "kind": "question_part",
    "label": "qstn_7PGjdrbt9bGCYfj9 / part 2",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zbRrrYbYNy9PjZwg": {
    "kind": "question_part",
    "label": "qstn_gNVrsctcz8vqcrWm / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YXjYh2grqHCq5zKr": {
    "kind": "question_part",
    "label": "qstn_gNVrsctcz8vqcrWm / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_j9N6yGR3JvbMnw8v": {
@@ -14916,10 +16129,16 @@
    "label": "qstn_gNVrsctcz8vqcrWm / part 2",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_qG9rdDQVc4bjzgJj": {
@@ -14927,9 +16146,15 @@
    "label": "qstn_X2ZmWPtzSrZkJ8Jy / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rxmWrBrc2s2q45wF",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -14949,20 +16174,30 @@
    "label": "qstn_vVPNvt7ZTVtWpfS6 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XV6BhF93srWyJzVJ": {
    "kind": "question_part",
    "label": "qstn_PFCrh5Y8WxJXrXtY / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fVvgzzJcPyW2Ggzk": {
    "kind": "question_part",
@@ -14999,10 +16234,15 @@
    "label": "qstn_ngCKnMQVXHVfpXFs / part 3",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XfZTYwhKysrDsBhh": {
    "kind": "question_part",
@@ -15021,30 +16261,45 @@
    "label": "qstn_wsR7JN9nRXd4Cqpr / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fwk7DqTJYh82c5PS": {
    "kind": "question_part",
    "label": "qstn_vYkzhM2QQyxqpdyg / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VCVbgcKrqzTDHZRG": {
    "kind": "question_part",
    "label": "qstn_rtpCjBN7RcB34cMs / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gqpKj5pcBgGgYfhP": {
    "kind": "question_part",
@@ -15073,30 +16328,45 @@
    "label": "qstn_NsdR6c9sf6gQ9s6t / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YZXnw8GDHgQVRqSv": {
    "kind": "question_part",
    "label": "qstn_NsdR6c9sf6gQ9s6t / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p8jjpWNDRWvYK3fk": {
    "kind": "question_part",
    "label": "qstn_NsdR6c9sf6gQ9s6t / part 2",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kM66pJXpYd6Yj43v": {
    "kind": "question_part",
@@ -15113,40 +16383,60 @@
    "label": "qstn_KBSYP2sThvxFfXsd / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fg8tXzWjS9ns53kY": {
    "kind": "question_part",
    "label": "qstn_HF2pFsKnQ6RBWdP6 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_35WjgcFds5bwTk5h": {
    "kind": "question_part",
    "label": "qstn_Ft3HT7mrtHRfkC3C / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QK4ZfbFVVzKVMsJT": {
    "kind": "question_part",
    "label": "qstn_fqzmMqzHvB7VwCPG / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6NptVtDNDhp5YnYc": {
    "kind": "question_part",
@@ -15224,11 +16514,17 @@
    "label": "qstn_PWm2mjJs7xwTsKVk / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_kHwc5r3247TGRwyS",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_kHwc5r3247TGRwyS"
    ]
   },
   "qstnprt_s7djnB4f6gHgTgD6": {
@@ -15236,10 +16532,15 @@
    "label": "qstn_PWm2mjJs7xwTsKVk / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7Jtz6hp5fQy2MvhN": {
    "kind": "question_part",
@@ -15299,10 +16600,15 @@
    "label": "qstn_dbkwjyc62HjbT97P / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vvtw6mBcyxs4hFFH": {
    "kind": "question_part",
@@ -15320,10 +16626,16 @@
    "label": "qstn_CXKgNsjYNQBBNnT8 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C9.4.1",
+     "official_code": "C9.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_kM6yX7KPt7YCdvWy": {
@@ -15462,9 +16774,15 @@
    "label": "qstn_gb699FwhVFJm6Stf / part 0",
    "section": "transformations",
    "topic": "transformations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C5.2.1",
+     "official_code": "C5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_552XpFTM8tQhFKrm"
    ]
   },

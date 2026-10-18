@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-environmental-management-2027-2029",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 154,
-  "items_with_codes": 0,
+  "items_with_codes": 53,
   "by_kind": {
    "notes": 82,
    "question_parts": 72,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 32,
+   "question_parts": 21,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 203,
   "parts": 84,
   "universe_ids": 203,
-  "universe_resolved": 0,
-  "pending_refs": 287,
-  "flashcards_discovered_uncoded": 1349
+  "universe_resolved": 46,
+  "pending_refs": 219,
+  "flashcards_discovered_uncoded": 1349,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 46,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 36,
+    "V3_subsection_head_identity": 10,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 157,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 151,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 6,
+    "no_unique_identity": 0
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_G9FGbmQGkfVZtQM5": {
@@ -70,10 +106,16 @@
    "label": "Energy Flows in an Ecosystem | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.1.7",
+     "official_code": "5.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6cdVtH8Y6Q9Y8p4q",
-    "spcpt_N26HPgsKhkFHR92X",
     "spcpt_TDdKHx5sbNFnDT7K"
    ]
   },
@@ -105,11 +147,17 @@
    "label": "Sample Strategies | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "fieldwork-investigations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.4.3",
+     "official_code": "5.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_4JH4FbQRMcZWWJ6T",
-    "spcpt_NSVxDDGr87J2rPxG",
-    "spcpt_nj69Ht4DhKpgzWzS"
+    "spcpt_NSVxDDGr87J2rPxG"
    ]
   },
   "rn_xvydGXRgcS7XMFH2": {
@@ -117,10 +165,16 @@
    "label": "Scientific Method: Collection of Data | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "fieldwork-investigations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_5wsDJJMN5jyc6FhJ",
-    "spcpt_7KnkxbdHD8s4sjKN",
     "spcpt_gGTSgpvmxBvWVm3k",
     "spcpt_gHnwsMx2wTK22YB6",
     "spcpt_f6n9pfkts59bpmCX"
@@ -131,11 +185,21 @@
    "label": "Causes & Impacts of Deforestation | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "forest-ecosystems",
-   "codes": [],
-   "pending": [
-    "spcpt_tNQCfDsM7Kjnnwrt",
-    "spcpt_VWj5wC5G93yXxxdh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_GvqMqVttbxHqRvjF": {
    "kind": "note",
@@ -164,10 +228,16 @@
    "label": "Population Density & Distribution | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "human-population",
    "topic": "human-population-density-distribution-and-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:7.1.1",
+     "official_code": "7.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_FzGdwwhwNcX8shn4",
-    "spcpt_yCMKNgMZQnrKnyjC"
+    "spcpt_FzGdwwhwNcX8shn4"
    ]
   },
   "rn_45RPRYQFPqR6jYy4": {
@@ -186,9 +256,15 @@
    "label": "Population Structure by Income Groups | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "human-population",
    "topic": "human-population-density-distribution-and-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:7.1.3",
+     "official_code": "7.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_28Nkfk9K5mjXygDK",
     "spcpt_trGSTd7KzFBpkSy3"
    ]
   },
@@ -222,11 +298,17 @@
    "label": "Strategies for Managing Human Population Size | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "human-population",
    "topic": "managing-human-population-size",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:7.3.2",
+     "official_code": "7.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_JxWkH4YxHGhT9V28",
-    "spcpt_3XmXDMtwk3tDvWVz",
-    "spcpt_8qfjGWVm9gJpDZDX"
+    "spcpt_3XmXDMtwk3tDvWVz"
    ]
   },
   "rn_dmHvghZHk6QDMXmm": {
@@ -282,74 +364,135 @@
    "label": "Causes & Impacts of Soil Erosion | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soil-erosion",
-   "codes": [],
-   "pending": [
-    "spcpt_X5s48ssgwxmBJhGf",
-    "spcpt_FvstYbfkYQXBtX6h"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_cMz4D92BZ2dM9CZR": {
    "kind": "note",
    "label": "Soil Erosion Management Strategies | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soil-erosion",
-   "codes": [],
-   "pending": [
-    "spcpt_7bkR76nzrMyDcKYY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_cZnNQZ9c2rW48kTC": {
    "kind": "note",
    "label": "Composition of Soils | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_48NwQ3K52cTwmsCz",
-    "spcpt_dVpM7BvWfPgB5Xsc",
-    "spcpt_rwFTfhvrbZb7GYM5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_nR8Dhs55TnWjJD4P": {
    "kind": "note",
    "label": "Importance of Soil Composition | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_9dwYMjCpXTQbf6XH",
-    "spcpt_YGghXr6mftzHddgY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_zvKS23VgrgRKvQPV": {
    "kind": "note",
    "label": "Photosynthesis & Crop Growth | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_7rv96wWGhnt26p6v"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_gF2HwKcD8hmG58Rv": {
    "kind": "note",
    "label": "Weather & Crop Growth | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_8xJtgHc2vBjRjrSn",
-    "spcpt_XxZzfy9XT38QQ2zh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_CY2DjtZnktr2d8r6": {
    "kind": "note",
    "label": "Causes & Impacts of Drought | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "drought",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.4.2",
+     "official_code": "6.4.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_dQvRZqYt3vrrH5RS",
     "spcpt_zj2NptgKNvbRjJMf"
    ]
   },
@@ -358,11 +501,22 @@
    "label": "Earth Structure | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_5p628b76XVSY4tPT",
-    "spcpt_pTNv8nH8mmz6cktN",
-    "spcpt_fpHww6bpRfGqM6yS"
+    "spcpt_5p628b76XVSY4tPT"
    ]
   },
   "rn_67btR84BbqYJF6Jb": {
@@ -370,22 +524,48 @@
    "label": "Features & Impacts of Earthquakes & Volcanoes | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_xqSRddqsgZNw9gpd",
-    "spcpt_C8fKy85Y77JRYyjP",
-    "spcpt_Ng67RrMMVvJc9bR5",
-    "spcpt_MqRvm6m3H2mqHKqP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.6",
+     "official_code": "6.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.10",
+     "official_code": "6.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_7QhbfWdtmStvkT5g": {
    "kind": "note",
    "label": "Formation of Earthquakes & Volcanoes | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_8ktVVHQmcKsXdn7Z",
     "spcpt_2BJBKwvP5bWtDYkd"
    ]
   },
@@ -405,12 +585,27 @@
    "label": "Causes & Impacts of Flooding | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "flooding",
-   "codes": [],
-   "pending": [
-    "spcpt_gh5Zpd8RTHBp95RS",
-    "spcpt_hKwKRjjqcwW92zHM",
-    "spcpt_zZ29WJqTbv6GWfdc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.3.2",
+     "official_code": "6.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.3.5",
+     "official_code": "6.3.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_SsSGvwJ7nb54GNjH": {
    "kind": "note",
@@ -440,10 +635,16 @@
    "label": "Tropical Cyclone Formation | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-hazards",
    "topic": "tropical-cyclones",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.2.2",
+     "official_code": "6.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fn4RwcWVPKQqRK96",
-    "spcpt_BsPtpBS625qkC9DS"
+    "spcpt_fn4RwcWVPKQqRK96"
    ]
   },
   "rn_N5n87b2GYPvqGhFr": {
@@ -614,10 +815,15 @@
    "label": "Benefits & Limitations of Fracking | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "natural-resources",
    "topic": "fracking",
-   "codes": [],
-   "pending": [
-    "spcpt_8RPCW9G4c6jyTz77"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:1.6.2",
+     "official_code": "1.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_mwkQQrGQk6wvpRrt": {
    "kind": "note",
@@ -682,10 +888,15 @@
    "label": "Climate Change Adaptation | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "the-atmosphere-and-human-activities",
    "topic": "climate-change",
-   "codes": [],
-   "pending": [
-    "spcpt_5dw9WsR2yzZ9379D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:4.2.8",
+     "official_code": "4.2.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_nHvmsR3zV8zPW9Gh": {
    "kind": "note",
@@ -771,9 +982,15 @@
    "label": "Structure & Composition of the Atmosphere | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "the-atmosphere-and-human-activities",
    "topic": "the-atmosphere",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YXFYhKhqR52PZhTT",
     "spcpt_xzX8c22Rcnwr8ySY",
     "spcpt_vnsJzV9bXYgKFzzH"
    ]
@@ -794,10 +1011,16 @@
    "label": "Farming of Marine Species | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "marine-aquaculture",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.4.3",
+     "official_code": "3.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mfmY5nxkPVcXs2qJ",
-    "spcpt_dGrqc24YGJFVMvFP"
+    "spcpt_mfmY5nxkPVcXs2qJ"
    ]
   },
   "rn_Y66jZpZZb3jRrJZH": {
@@ -816,20 +1039,36 @@
    "label": "Causes & Impacts of Oil Pollution | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "oil-pollution",
-   "codes": [],
-   "pending": [
-    "spcpt_Tj2b5dzsdH7w7xQK",
-    "spcpt_XMWQnd3srNY9KnTf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.5.2",
+     "official_code": "3.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_8Nk58Q9FQCmHqPBW": {
    "kind": "note",
    "label": "Management of Oil Pollution | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "oil-pollution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.5.3",
+     "official_code": "3.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xNFPQYWktcC4ZcbP",
     "spcpt_SMHzzTvsWp6RhVJP"
    ]
   },
@@ -871,10 +1110,15 @@
    "label": "Sources of Water Pollution | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-pollution",
-   "codes": [],
-   "pending": [
-    "spcpt_JFjvWtvNKXkFHBvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_b9knZjmKHg6z9hjR": {
    "kind": "note",
@@ -893,30 +1137,46 @@
    "label": "Benefits & Limitations of Strategies to Control Water-Related Diseases | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-related-diseases",
-   "codes": [],
-   "pending": [
-    "spcpt_JGNMqMK83CDytCyG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_YnSNKxzSMqNJjC6K": {
    "kind": "note",
    "label": "Cholera | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-related-diseases",
-   "codes": [],
-   "pending": [
-    "spcpt_h8B2fb8NPDSBNmct"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.3.3",
+     "official_code": "3.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_kWjsZFHNDQSTtRvq": {
    "kind": "note",
    "label": "Malaria | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-related-diseases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_8Tbx6gJ9R9TzPr4w",
-    "spcpt_X5nb7vXyqkVD3Tgx"
+    "spcpt_8Tbx6gJ9R9TzPr4w"
    ]
   },
   "rn_4jqgvWmcs7cWHCYm": {
@@ -924,11 +1184,17 @@
    "label": "Desalination | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-sources-and-supply",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.1.8",
+     "official_code": "3.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_XzhqtHYqDyrGzgrp",
-    "spcpt_DZTjN9YRqzJspn9K",
-    "spcpt_hxbtV5RjhRMB8GQv"
+    "spcpt_DZTjN9YRqzJspn9K"
    ]
   },
   "rn_J3MVbXWg2WgZDQrh": {
@@ -947,21 +1213,37 @@
    "label": "Oceans | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-sources-and-supply",
-   "codes": [],
-   "pending": [
-    "spcpt_6MkQJqwxCq7GzghC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_2zhDJYzDqBSK7dpz": {
    "kind": "note",
    "label": "Potable Water | Cambridge (CIE) IGCSE Environmental Management Revision Notes 2025",
    "section": "water",
    "topic": "water-sources-and-supply",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_DgMNHVHxZm7ftvbQ",
-    "spcpt_C997tSm5ZSVd24yH",
-    "spcpt_8rCmn8ccT6c9Y599"
+    "spcpt_DgMNHVHxZm7ftvbQ"
    ]
   },
   "rn_WpmpwYCQ427fj8y2": {
@@ -1000,9 +1282,15 @@
    "label": "qstn_d3Dqpjv4yMvh7fzV / part 0",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.1.7",
+     "official_code": "5.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_N26HPgsKhkFHR92X",
     "spcpt_6cdVtH8Y6Q9Y8p4q"
    ]
   },
@@ -1111,10 +1399,16 @@
    "label": "qstn_jf2Myxk3pXrcHvrT / part 0",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "fieldwork-investigations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:5.4.3",
+     "official_code": "5.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_NSVxDDGr87J2rPxG",
-    "spcpt_nj69Ht4DhKpgzWzS"
+    "spcpt_NSVxDDGr87J2rPxG"
    ]
   },
   "qstnprt_WS4kgchzm9mCwMmZ": {
@@ -1133,10 +1427,15 @@
    "label": "qstn_ngG9DkWVdSDHQ3kF / part 0",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "fieldwork-investigations",
-   "codes": [],
-   "pending": [
-    "spcpt_7KnkxbdHD8s4sjKN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bjQDFBD3vBRWrSgr": {
    "kind": "question_part",
@@ -1163,10 +1462,15 @@
    "label": "qstn_NBC3c4HksD2yPTjJ / part 0",
    "section": "ecosystems-biodiversity-and-fieldwork",
    "topic": "fieldwork-investigations",
-   "codes": [],
-   "pending": [
-    "spcpt_7KnkxbdHD8s4sjKN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hpt2gdyW4HtmGSRY": {
    "kind": "question_part",
@@ -1244,121 +1548,186 @@
    "label": "qstn_pd84WXgfrKSXgJ68 / part 0",
    "section": "land",
    "topic": "soil-erosion",
-   "codes": [],
-   "pending": [
-    "spcpt_7bkR76nzrMyDcKYY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zNJyH99QNg5X2HTP": {
    "kind": "question_part",
    "label": "qstn_2SnwwjDM8gB4fM6g / part 0",
    "section": "land",
    "topic": "soil-erosion",
-   "codes": [],
-   "pending": [
-    "spcpt_FvstYbfkYQXBtX6h"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dpTZ4y9Q834272RV": {
    "kind": "question_part",
    "label": "qstn_bXkXzZybDyzJSZtj / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_9dwYMjCpXTQbf6XH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3bMY5ksjWdfgMbhp": {
    "kind": "question_part",
    "label": "qstn_ksmt7tqM99S8qhrf / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_rwFTfhvrbZb7GYM5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bPSTrdwbPZSHMK7H": {
    "kind": "question_part",
    "label": "qstn_TdyFYwHBHzqWvJ9Z / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_48NwQ3K52cTwmsCz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YGPZjvfxmZQtbFWB": {
    "kind": "question_part",
    "label": "qstn_9f92RmMYSygnthw7 / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_dVpM7BvWfPgB5Xsc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BS6SVc8SntZNr9C7": {
    "kind": "question_part",
    "label": "qstn_9zqThYkr4mKdrfcm / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_XxZzfy9XT38QQ2zh",
-    "spcpt_7rv96wWGhnt26p6v"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d6VWx5twr62bPC4G": {
    "kind": "question_part",
    "label": "qstn_BXJGy8w9rBc6cjXG / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_8xJtgHc2vBjRjrSn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6nkHMv8s53M2qTY6": {
    "kind": "question_part",
    "label": "qstn_fZkPxyxYHGdSTz2s / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_8xJtgHc2vBjRjrSn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4ksFqvCpp3gQdV5t": {
    "kind": "question_part",
    "label": "qstn_frd3cN2z4tMJhG8H / part 0",
    "section": "land",
    "topic": "soils-and-crop-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_8xJtgHc2vBjRjrSn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rHygh9DH6BJJ3YF3": {
    "kind": "question_part",
    "label": "qstn_K4dS7jt3mY5cT5yV / part 0",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_Ng67RrMMVvJc9bR5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.10",
+     "official_code": "6.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5ncSxWsd9NCWXCvd": {
    "kind": "question_part",
    "label": "qstn_t6XFgdc78yFbPCYz / part 0",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_C8fKy85Y77JRYyjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.6",
+     "official_code": "6.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qD4wZjPZ5P3dXsvZ": {
    "kind": "question_part",
@@ -1376,20 +1745,30 @@
    "label": "qstn_7hvbXghZMXzZJHP3 / part 0",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_C8fKy85Y77JRYyjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.6",
+     "official_code": "6.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wyjtQpDWpjpPCTzM": {
    "kind": "question_part",
    "label": "qstn_sN5JYSjZjKdBNjsw / part 0",
    "section": "natural-hazards",
    "topic": "earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_fpHww6bpRfGqM6yS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MWhyckcyvnkC6R6N": {
    "kind": "question_part",
@@ -1541,20 +1920,30 @@
    "label": "qstn_nKzM5dKv5WFmjytG / part 0",
    "section": "the-atmosphere-and-human-activities",
    "topic": "climate-change",
-   "codes": [],
-   "pending": [
-    "spcpt_5dw9WsR2yzZ9379D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:4.2.8",
+     "official_code": "4.2.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Bs99P8ffRVghJMzP": {
    "kind": "question_part",
    "label": "qstn_fBmGMq8PyPMXHPxj / part 0",
    "section": "the-atmosphere-and-human-activities",
    "topic": "climate-change",
-   "codes": [],
-   "pending": [
-    "spcpt_5dw9WsR2yzZ9379D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:4.2.8",
+     "official_code": "4.2.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_c8rPP5tXPZv6mkp2": {
    "kind": "question_part",
@@ -1662,10 +2051,15 @@
    "label": "qstn_htfB25y3Z2fVjz9y / part 0",
    "section": "water",
    "topic": "water-sources-and-supply",
-   "codes": [],
-   "pending": [
-    "spcpt_hxbtV5RjhRMB8GQv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENVIRONMENTAL_MANAGEMENT_2027_2029:3.1.8",
+     "official_code": "3.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cRrQpbFZMV6zvkSQ": {
    "kind": "question_part",

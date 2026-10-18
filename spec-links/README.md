@@ -80,3 +80,33 @@ as the Edexcel side evolved (T-SPEC-2b/2c).
 Built by `scripts/cie_spec_join.py` (deterministic; `--stamp` pins
 `generated_utc`), validated by `scripts/cie_join_check.py` (battery J1-J10,
 `graph/reports/T_SPECS_CIE_JOIN_1_CHECK.json`).
+
+## CIE operator-verdict fill (T-SPECS-CIE-VERDICT-1, 2026-10-19)
+
+The 25 honest-zero lanes (coded == 0 post-gate) received identity-grade
+operator verdicts per the operator directive "operator-verdict fill lane"
+(T-SPECS-CIE-GATE-1 NEXT #1), mirroring the Edexcel T-SPEC-2b/2c evolution:
+
+- **613 spec-point ids resolved / 2,923 learner code entries added**, each a
+  deterministic single-target identity match with verbatim evidence recorded
+  in `scripts/cie_verdict_fill_verdicts.yaml` — authoritative by construction
+  (AGENT.md rule 1). Tier vocabulary: `V1_name_text_identity`,
+  `V2_name_phrase_identity`, `V3_subsection_head_identity`,
+  `V4_settext_title_identity`, `V5_topic_scoped_phrase_identity`; method
+  `operator_verdict`.
+- **4,386 ids stay `pending` with structured reasons** recorded per lane in
+  `anchors.verdict.pending_reasons` (`no_unique_identity` 3,421,
+  `finer_than_official_subsection` 786 — an id spanning several statements is
+  never collapsed onto one code, per the T-SPEC-2c doctrine —
+  `name_phrase_multi_text` 179). Nothing manufactured (rule 3).
+- Pools mirror the join lane's scoping (scope filter for the co-ordinated
+  science lanes, tier filter for the core/extended maths lanes, per-component
+  topics for the 9709 maths lanes). SME reuses `spcpt_*` ids across course
+  trees; verdicts are evaluated and recorded per (lane, id).
+- The gate's ACCEPTED review states and provenance are preserved
+  (`review_state.verdict` block is additive).
+
+Built by `scripts/cie_verdict_fill.py` (deterministic, fixed stamp,
+byte-idempotent on re-run), validated by `scripts/cie_verdict_check.py`
+(battery V1-V10, `graph/reports/T_SPECS_CIE_VERDICT_1_CHECK.json`), including
+an independent re-derivation of every resolve from source blobs.

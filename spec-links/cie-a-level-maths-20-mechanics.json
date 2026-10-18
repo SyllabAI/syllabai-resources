@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 565,
-  "items_with_codes": 0,
+  "items_with_codes": 173,
   "by_kind": {
    "notes": 31,
    "question_parts": 534,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 5,
+   "question_parts": 168,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 36,
   "parts": 823,
   "universe_ids": 36,
-  "universe_resolved": 0,
-  "pending_refs": 859,
-  "flashcards_discovered_uncoded": 207
+  "universe_resolved": 6,
+  "pending_refs": 675,
+  "flashcards_discovered_uncoded": 207,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 6,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 6,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 30,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 2,
+    "no_unique_identity": 28
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_mzPqkVnhY8vM2m4X": {
@@ -49,20 +85,31 @@
    "label": "Power in Mechanics - A Level Maths Revision Notes",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_QrMpYhnmmTTj8Jr5": {
    "kind": "note",
    "label": "Energy Principles | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_pj3GdcWqJzRMWZMz"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "rn_7vFZ9m4DpPc6jx37": {
@@ -70,11 +117,21 @@
    "label": "Kinetic & Potential Energy Formulae - A Level Maths Revision",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_s8nz9JZjyMQsHmgc": {
    "kind": "note",
@@ -243,10 +300,15 @@
    "label": "Displacement Time Graphs - A Level Maths Revision Notes",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_SzC3rKwDsSPSHrk9": {
    "kind": "note",
@@ -263,10 +325,15 @@
    "label": "Velocity-Time Graphs | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_CSV3cjq7Tx5C3PMQ": {
    "kind": "note",
@@ -364,11 +431,22 @@
    "label": "qstn_ZD3qGxnJYqs68Mdg / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_T3w5XpX45nsNRxxB",
-    "spcpt_GNthPPh4KNTZpVMW",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
   "qstnprt_nMPkgJWwjFgTbjR9": {
@@ -376,10 +454,16 @@
    "label": "qstn_ZD3qGxnJYqs68Mdg / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_Fp5rxfMSSPQJsCmH": {
@@ -387,20 +471,31 @@
    "label": "qstn_Yw58X3bXdJw2tZGF / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rNND7N6txnNRbM2w": {
    "kind": "question_part",
    "label": "qstn_Yw58X3bXdJw2tZGF / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_xDTHcPzvBtVZnfbk": {
@@ -408,9 +503,15 @@
    "label": "qstn_vCkWmPGnqfJrGB8Y / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -419,10 +520,16 @@
    "label": "qstn_rRJ3dRxFZjZDhghr / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_H3Fszw9fH9nyFqpV": {
@@ -430,9 +537,15 @@
    "label": "qstn_rkVPv3qhJnfdC6XT / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_tJ3DwXWcR567CPy5"
    ]
   },
@@ -441,9 +554,15 @@
    "label": "qstn_rkVPv3qhJnfdC6XT / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_tJ3DwXWcR567CPy5"
    ]
   },
@@ -452,9 +571,15 @@
    "label": "qstn_GWXNKdSwHPcxThtg / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
@@ -463,20 +588,31 @@
    "label": "qstn_B9ZSPpxZ6ZxsXywK / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S9DVhRtqzCrN2gzR": {
    "kind": "question_part",
    "label": "qstn_B9ZSPpxZ6ZxsXywK / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_rBvD2nDPHvNS93kj": {
@@ -484,10 +620,16 @@
    "label": "qstn_Ps5cG8CZrJFTzNdk / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_X3YFMgP5XjX82x9n": {
@@ -495,10 +637,16 @@
    "label": "qstn_Ps5cG8CZrJFTzNdk / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_dgJM8WbqqWwFsmXw": {
@@ -506,20 +654,31 @@
    "label": "qstn_Ps5cG8CZrJFTzNdk / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BbGBBVGmKcWqy6Sv": {
    "kind": "question_part",
    "label": "qstn_PHbGCP3CnP46r8Wh / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_rhnjCXd2WbrWzzfd": {
@@ -527,10 +686,16 @@
    "label": "qstn_PHbGCP3CnP46r8Wh / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_pZgqY2t5t74N4Xqs": {
@@ -538,19 +703,30 @@
    "label": "qstn_ghssVpTmkRH8M575 / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H9Z6xznnDQMJH7vC": {
    "kind": "question_part",
    "label": "qstn_ghssVpTmkRH8M575 / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -559,11 +735,17 @@
    "label": "qstn_FcBcyNvzRDR5FBbj / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_9ghBfh7ZqGtNrgF7": {
@@ -571,9 +753,15 @@
    "label": "qstn_5Cw3GW6s5P37SC6z / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
@@ -582,10 +770,16 @@
    "label": "qstn_5Cw3GW6s5P37SC6z / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "qstnprt_NbG9D9XMh9mRkN6Y": {
@@ -593,10 +787,16 @@
    "label": "qstn_5Cw3GW6s5P37SC6z / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "qstnprt_GYM4F6kWjKHzXCnd": {
@@ -604,20 +804,31 @@
    "label": "qstn_4wzzSmt7TgD6sPNm / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xNtPB78G3tNtCY3x": {
    "kind": "question_part",
    "label": "qstn_4wzzSmt7TgD6sPNm / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_GkCfwWxh4Gx65YJJ": {
@@ -625,9 +836,15 @@
    "label": "qstn_RGYMVZvTtBbnSgJK / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_KSK3hXnJBMBQPbNm"
    ]
   },
@@ -636,30 +853,46 @@
    "label": "qstn_RGYMVZvTtBbnSgJK / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SRYZqHyX74GtX78W": {
    "kind": "question_part",
    "label": "qstn_Mk6vNDxGkm8zyVzQ / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_64ppw7w3G4dPW5gk": {
    "kind": "question_part",
    "label": "qstn_Mk6vNDxGkm8zyVzQ / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_Cckm7Fm5YyPYsfK9": {
@@ -667,10 +900,16 @@
    "label": "qstn_KmJvBYncNJz46rB4 / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_NVHJpQRthsptqwy9": {
@@ -678,9 +917,15 @@
    "label": "qstn_KmJvBYncNJz46rB4 / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -689,19 +934,30 @@
    "label": "qstn_DV3mYPvftg9pBt5m / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7fHgHYXKWmTVyGVk": {
    "kind": "question_part",
    "label": "qstn_DV3mYPvftg9pBt5m / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -710,10 +966,16 @@
    "label": "qstn_CxccZ57ZBgSCGmMF / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_hmrxDwhRht2KPKPk": {
@@ -721,30 +983,46 @@
    "label": "qstn_CxccZ57ZBgSCGmMF / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ptw5rbbXbz2nt9W9": {
    "kind": "question_part",
    "label": "qstn_CxccZ57ZBgSCGmMF / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pNWxfZc8p7pF48yV": {
    "kind": "question_part",
    "label": "qstn_CTHsgHJKk22wnYsk / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_QRTw8DC9pXfbxMh9": {
@@ -752,10 +1030,16 @@
    "label": "qstn_CTHsgHJKk22wnYsk / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_8NjNdW5Nbr5wxwGc": {
@@ -763,10 +1047,21 @@
    "label": "qstn_6Wk7d54PyTXn9vpr / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
@@ -775,10 +1070,16 @@
    "label": "qstn_y9KnF6mQqtqqYfHG / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2nK4hVYkKjxzPtT2",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
   "qstnprt_xk7fhzcVRxX2zFhg": {
@@ -786,10 +1087,16 @@
    "label": "qstn_QXHM3ph66fyNkVsg / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KSK3hXnJBMBQPbNm",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_KSK3hXnJBMBQPbNm"
    ]
   },
   "qstnprt_q5WFJNGpf7B2MkbF": {
@@ -797,10 +1104,16 @@
    "label": "qstn_QXHM3ph66fyNkVsg / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_T3w5XpX45nsNRxxB",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
   "qstnprt_dF455HBQRk5vhTF7": {
@@ -808,9 +1121,15 @@
    "label": "qstn_HKbHsk9P43yZVSkf / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
@@ -819,10 +1138,15 @@
    "label": "qstn_HKbHsk9P43yZVSkf / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_K7BCyDDtbhRVzMHV": {
    "kind": "question_part",
@@ -839,20 +1163,31 @@
    "label": "qstn_DRjztrjrmmMZP6sh / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R2pgkzVgbrXxxctH": {
    "kind": "question_part",
    "label": "qstn_DRjztrjrmmMZP6sh / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VGGwQCfRXHbx69kG",
-    "spcpt_Z7D4nHnFhnFrbVXx"
+    "spcpt_VGGwQCfRXHbx69kG"
    ]
   },
   "qstnprt_bBtfZXhBssXv3JFq": {
@@ -860,9 +1195,15 @@
    "label": "qstn_bz5zTGJ4HbbMKwN2 / part 0",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -871,9 +1212,15 @@
    "label": "qstn_bz5zTGJ4HbbMKwN2 / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -882,10 +1229,15 @@
    "label": "qstn_bz5zTGJ4HbbMKwN2 / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
-   "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TtFD7k6yzTYRh8h6": {
    "kind": "question_part",
@@ -903,9 +1255,15 @@
    "label": "qstn_6J9cTZCD7yzGzj2Z / part 1",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -914,9 +1272,15 @@
    "label": "qstn_6J9cTZCD7yzGzj2Z / part 2",
    "section": "energy-work-and-power",
    "topic": "power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Z7D4nHnFhnFrbVXx",
     "spcpt_2nK4hVYkKjxzPtT2"
    ]
   },
@@ -925,11 +1289,21 @@
    "label": "qstn_rCR9kdzrwgNvFfZf / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mf9b9PzhwJ6dkTnV": {
    "kind": "question_part",
@@ -946,9 +1320,15 @@
    "label": "qstn_kt783ktBKnnhrGXJ / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
     "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
@@ -967,10 +1347,16 @@
    "label": "qstn_GT4XkwF8dF3jVZVd / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_GNthPPh4KNTZpVMW"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "qstnprt_KDCHwJCw6WSWjgjV": {
@@ -1009,20 +1395,30 @@
    "label": "qstn_F2YtFdfYJw4Jt45C / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T3nyM6hrJTS9BKjF": {
    "kind": "question_part",
    "label": "qstn_F2YtFdfYJw4Jt45C / part 2",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WNfh2tHB4SvhSq9p": {
    "kind": "question_part",
@@ -1039,21 +1435,36 @@
    "label": "qstn_7gywjFGTwYHZMNrC / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_pj3GdcWqJzRMWZMz",
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Dbddf4ZQdQK3nsXq": {
    "kind": "question_part",
    "label": "qstn_7gywjFGTwYHZMNrC / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6VwqRHfHS5M3Z2hs": {
    "kind": "question_part",
@@ -1081,10 +1492,16 @@
    "label": "qstn_79VvBDQYzgkmDqcq / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_GNthPPh4KNTZpVMW"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "qstnprt_VV8qDDYkDp3TGFVY": {
@@ -1092,10 +1509,15 @@
    "label": "qstn_4MZkNtZ7V2WvVxGN / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sBjjZ8bh4vhJYbsp": {
    "kind": "question_part",
@@ -1155,10 +1577,15 @@
    "label": "qstn_RnNZtFr4xmvKMN8J / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QFBWCHynTSBDVVr4": {
    "kind": "question_part",
@@ -1176,11 +1603,21 @@
    "label": "qstn_H8k8ZFR8Q7TSTn5q / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7m2zxPMf2t4TPKZ9": {
    "kind": "question_part",
@@ -1198,9 +1635,15 @@
    "label": "qstn_gCMphPCqbCzJTJWK / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GNthPPh4KNTZpVMW",
     "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
@@ -1219,9 +1662,15 @@
    "label": "qstn_CJRsbCZnJQdDR8Vt / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GNthPPh4KNTZpVMW",
     "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
@@ -1261,10 +1710,16 @@
    "label": "qstn_zMWrdFmNVQWrnPjj / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zCJ9d64JFdCCZvNF",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
   "qstnprt_SRffVG2h67bvKXqN": {
@@ -1283,11 +1738,21 @@
    "label": "qstn_TZYsgzsrtvtCVkpx / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PKkGRKnMkfKKqKYZ": {
    "kind": "question_part",
@@ -1304,9 +1769,15 @@
    "label": "qstn_nMpsCpJWjfBMTpsN / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GNthPPh4KNTZpVMW",
     "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
@@ -1315,9 +1786,15 @@
    "label": "qstn_K9t7KHhMTYT8cNWD / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
     "spcpt_MKZ5JCZTHydyNZXQ"
    ]
   },
@@ -1337,20 +1814,30 @@
    "label": "qstn_Jk3PjtKGdy6Kb5yV / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xRjX6qDQVMmdzrSx": {
    "kind": "question_part",
    "label": "qstn_Jk3PjtKGdy6Kb5yV / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HQSBdfZhXJ332rWD": {
    "kind": "question_part",
@@ -1399,21 +1886,36 @@
    "label": "qstn_5KWjjvGK52HvTK2Z / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cJV7cCZVy6dM85JT": {
    "kind": "question_part",
    "label": "qstn_5KWjjvGK52HvTK2Z / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Mkw65SmB29mpmJMc": {
    "kind": "question_part",
@@ -1431,10 +1933,16 @@
    "label": "qstn_2n4PPwKMCPcN36qC / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_T3w5XpX45nsNRxxB",
-    "spcpt_GNthPPh4KNTZpVMW"
+    "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
   "qstnprt_qhHJHZssdQXZjN8P": {
@@ -1452,12 +1960,27 @@
    "label": "qstn_xNnTrs86mssD6QWs / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_GNthPPh4KNTZpVMW",
-    "spcpt_pj3GdcWqJzRMWZMz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wfvSsCJ3DgqSgRkp": {
    "kind": "question_part",
@@ -1485,10 +2008,15 @@
    "label": "qstn_tQCdwc75Kd7pYvnY / part 2",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xtwkx7VVPZpzd3k8": {
    "kind": "question_part",
@@ -1535,10 +2063,16 @@
    "label": "qstn_P7fmXzptSWT59k6W / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_T3w5XpX45nsNRxxB",
-    "spcpt_GNthPPh4KNTZpVMW"
+    "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
   "qstnprt_xGDSx2PgPpWs5Zpt": {
@@ -1557,30 +2091,51 @@
    "label": "qstn_MrFvHdgQVHNP4MF3 / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GBsBq5jvD472bFCW": {
    "kind": "question_part",
    "label": "qstn_MrFvHdgQVHNP4MF3 / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GHRvb3ZS2FWDHRXN": {
    "kind": "question_part",
    "label": "qstn_FbHPHPT3skpKZ9t7 / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
-    "spcpt_GNthPPh4KNTZpVMW",
     "spcpt_zCJ9d64JFdCCZvNF"
    ]
   },
@@ -1589,10 +2144,16 @@
    "label": "qstn_Brgm6SVsWvkWTyb6 / part 0",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_T3w5XpX45nsNRxxB",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_T3w5XpX45nsNRxxB"
    ]
   },
   "qstnprt_h98ShfpbdTTxhFnM": {
@@ -1600,10 +2161,15 @@
    "label": "qstn_Brgm6SVsWvkWTyb6 / part 1",
    "section": "energy-work-and-power",
    "topic": "work-and-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_GNthPPh4KNTZpVMW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S2fJX9pTXqw7t3HR": {
    "kind": "question_part",
@@ -3221,9 +3787,15 @@
    "label": "qstn_yCdSzVM5NhQ2C7Nq / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_f2XM2XNHqVGhXsnk"
    ]
   },
@@ -3362,9 +3934,15 @@
    "label": "qstn_j2mr9ScDQ5xVMfYw / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_f2XM2XNHqVGhXsnk"
    ]
   },
@@ -3423,9 +4001,15 @@
    "label": "qstn_y9vvFrSZTw3NWdTd / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_WFsVkCnbGZDSPsYN"
    ]
   },
@@ -3454,9 +4038,15 @@
    "label": "qstn_rMSW96QmWBJFz6vJ / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_f2XM2XNHqVGhXsnk"
    ]
   },
@@ -3465,9 +4055,15 @@
    "label": "qstn_rMSW96QmWBJFz6vJ / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_f2XM2XNHqVGhXsnk"
    ]
   },
@@ -3476,9 +4072,15 @@
    "label": "qstn_rMSW96QmWBJFz6vJ / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "constant-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_f2XM2XNHqVGhXsnk"
    ]
   },
@@ -3677,69 +4279,105 @@
    "label": "qstn_WWT4RdTRqSxghhnN / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HMJqg22RMH375sSx": {
    "kind": "question_part",
    "label": "qstn_WWT4RdTRqSxghhnN / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jkg2SYVn4bqxMDbz": {
    "kind": "question_part",
    "label": "qstn_WWT4RdTRqSxghhnN / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DgzWWYRdK393tpbD": {
    "kind": "question_part",
    "label": "qstn_w3SkBrR8HSbsjPwr / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B8VKdsBwxjNKtyqD": {
    "kind": "question_part",
    "label": "qstn_QG2S4TsfF9hDvJvY / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XkfBHsTczpxDHdVb": {
    "kind": "question_part",
    "label": "qstn_kySBshwRxgMSWGVM / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vDSYtqzNX2nXyTW9": {
    "kind": "question_part",
    "label": "qstn_KgMYyH8pjZ3C9j4b / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3748,29 +4386,45 @@
    "label": "qstn_jbbFGgrWS4tKqx4D / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nHMsYSWWcxHpYChc": {
    "kind": "question_part",
    "label": "qstn_jbbFGgrWS4tKqx4D / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PsYmX5Hnvr6nZDSV": {
    "kind": "question_part",
    "label": "qstn_J6sk4ffDgx9GmWhP / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3779,29 +4433,45 @@
    "label": "qstn_hVdQdc3k4JWBjrxP / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sQxsdnQkFkT5KKQv": {
    "kind": "question_part",
    "label": "qstn_hVdQdc3k4JWBjrxP / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M8hJhhs7Znp8QmnY": {
    "kind": "question_part",
    "label": "qstn_54kmMx54YFqSGR9D / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3810,9 +4480,15 @@
    "label": "qstn_3hJ2F7rNm7ZMWGym / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3821,9 +4497,15 @@
    "label": "qstn_w82pGHRjkjdKM5zS / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3832,150 +4514,226 @@
    "label": "qstn_w82pGHRjkjdKM5zS / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fbwTkhc62cwfWftV": {
    "kind": "question_part",
    "label": "qstn_w82pGHRjkjdKM5zS / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CjQ9Z483WNkHG7gG": {
    "kind": "question_part",
    "label": "qstn_qZj5vz9GFsYCzSV9 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GxTShTkSjnHyVqCy": {
    "kind": "question_part",
    "label": "qstn_jmzR6Qrnw7KwZXZ9 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TDJB3ktfRcqyBXHf": {
    "kind": "question_part",
    "label": "qstn_jmzR6Qrnw7KwZXZ9 / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_89ndZgSQ2xZD377r": {
    "kind": "question_part",
    "label": "qstn_H9sX42rNBxVSf2CN / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_F7vjx8hRWM9nKmHd": {
    "kind": "question_part",
    "label": "qstn_H9sX42rNBxVSf2CN / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RHZNfTPZcd8VNbRS": {
    "kind": "question_part",
    "label": "qstn_H9sX42rNBxVSf2CN / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p4gfjXmHskJbqJQK": {
    "kind": "question_part",
    "label": "qstn_GchF6Y4XTS7dKWKJ / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ztB2c4JBZZY8wGyx": {
    "kind": "question_part",
    "label": "qstn_GchF6Y4XTS7dKWKJ / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NxyJqG6HzcS9NgTS": {
    "kind": "question_part",
    "label": "qstn_GchF6Y4XTS7dKWKJ / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QwkvpkR4XwtFq7w6": {
    "kind": "question_part",
    "label": "qstn_C4b9c5j7hSdfPJYc / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zpYDBcg5f3fXYtx7": {
    "kind": "question_part",
    "label": "qstn_99zYmFmQKxNw6SRV / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WzgV5t3QjycNNhp6": {
    "kind": "question_part",
    "label": "qstn_99zYmFmQKxNw6SRV / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zd9h5csGw9Ksxdqb": {
    "kind": "question_part",
    "label": "qstn_6Zfsvxq9DdPx325D / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_3hQ5czf8zhQ7jNr8",
-    "spcpt_w6WvWNXxQmC65FFg"
+    "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
   "qstnprt_TsJQr4jk2CwqCZqc": {
@@ -3983,9 +4741,15 @@
    "label": "qstn_5CzfD6ypkfX4jyqX / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -3994,139 +4758,210 @@
    "label": "qstn_5CzfD6ypkfX4jyqX / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C7hnQTtsJXDcGZGW": {
    "kind": "question_part",
    "label": "qstn_4pwSjndTWy6YGzfn / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H49SVvmcR2St4qsX": {
    "kind": "question_part",
    "label": "qstn_4pwSjndTWy6YGzfn / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P8qTPWGmGWZbpZcz": {
    "kind": "question_part",
    "label": "qstn_kxCwKk7cTktnRvWQ / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qr8bw32C2FZcg5Vs": {
    "kind": "question_part",
    "label": "qstn_kxCwKk7cTktnRvWQ / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TD2WY2f55JrBmnSw": {
    "kind": "question_part",
    "label": "qstn_kxCwKk7cTktnRvWQ / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZZT7w79kph75h7S2": {
    "kind": "question_part",
    "label": "qstn_h83p5xSpHNBRQMgS / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3pRVJ8cnSJsZqgpN": {
    "kind": "question_part",
    "label": "qstn_GBWtNnmmSND2h5pV / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h5QCqs2Vv5MQTDkN": {
    "kind": "question_part",
    "label": "qstn_GBWtNnmmSND2h5pV / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8pn5dNGTgW62tfd3": {
    "kind": "question_part",
    "label": "qstn_GBWtNnmmSND2h5pV / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ByXCfJVvrWxtPHRX": {
    "kind": "question_part",
    "label": "qstn_cCVfZYkR76JqxXf2 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MC4F8fsw2YMRkNMC": {
    "kind": "question_part",
    "label": "qstn_cCVfZYkR76JqxXf2 / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ktRS5jhk3VVWyzFj": {
    "kind": "question_part",
    "label": "qstn_cCVfZYkR76JqxXf2 / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XjWhznJrDVVxsB6B": {
    "kind": "question_part",
    "label": "qstn_93NQhZPKB2wcyVC4 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -4135,29 +4970,45 @@
    "label": "qstn_8WmFv2yx8Hnbv9yz / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bdxVrYgZCDpJjcds": {
    "kind": "question_part",
    "label": "qstn_8WmFv2yx8Hnbv9yz / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w2NkN3zYNFDrXXWh": {
    "kind": "question_part",
    "label": "qstn_5qjq3vPDRKZxyyZ7 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -4166,119 +5017,180 @@
    "label": "qstn_5qjq3vPDRKZxyyZ7 / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_47sbFxSjg4d5wKPb": {
    "kind": "question_part",
    "label": "qstn_ZpkX4GxDvBVmnmQf / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6wtnGrVT7N4JDKH5": {
    "kind": "question_part",
    "label": "qstn_ZpkX4GxDvBVmnmQf / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4QR2rrK4PKQNyM2r": {
    "kind": "question_part",
    "label": "qstn_YrCXQBCW4hQnHWPW / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tVs5SgjWsbTBD5Jc": {
    "kind": "question_part",
    "label": "qstn_YrCXQBCW4hQnHWPW / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JnPjSVNgc7wGtK5k": {
    "kind": "question_part",
    "label": "qstn_YrCXQBCW4hQnHWPW / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GmV3JVmrxkbt9Fxr": {
    "kind": "question_part",
    "label": "qstn_RRZMNZfxkQF8pz7f / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YZVqGcWkYQgbs492": {
    "kind": "question_part",
    "label": "qstn_RRZMNZfxkQF8pz7f / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GGfbz88cfKccHCK3": {
    "kind": "question_part",
    "label": "qstn_QRvXFBdYqgjDNczy / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pg6kYxJDfpYDSCyp": {
    "kind": "question_part",
    "label": "qstn_QRvXFBdYqgjDNczy / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bm6sh27Rcjh2GSbD": {
    "kind": "question_part",
    "label": "qstn_QRvXFBdYqgjDNczy / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6pYPQyHQxRR2PbZJ": {
    "kind": "question_part",
    "label": "qstn_pRZSzqD4tKHQdVh3 / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -4287,59 +5199,90 @@
    "label": "qstn_pGQdc9hfSq8kH4nd / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kVwMPTdy6v3ykghV": {
    "kind": "question_part",
    "label": "qstn_pGQdc9hfSq8kH4nd / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GpPTFJMZ2FJ7XhTx": {
    "kind": "question_part",
    "label": "qstn_g7crhMQkdvdsVMTR / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QDyrvyBMy22K4hgP": {
    "kind": "question_part",
    "label": "qstn_g7crhMQkdvdsVMTR / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GwGfhkrCkxmWh8Td": {
    "kind": "question_part",
    "label": "qstn_g7crhMQkdvdsVMTR / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FQDkxWksJrkH4Hpm": {
    "kind": "question_part",
    "label": "qstn_CMCz2q58nRXG8wCh / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -4348,49 +5291,75 @@
    "label": "qstn_CMCz2q58nRXG8wCh / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QyJq23Cp7H4QHM7F": {
    "kind": "question_part",
    "label": "qstn_bSc9ZXyVxQrW37DX / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GBjP7b9y9JfqJFTm": {
    "kind": "question_part",
    "label": "qstn_bSc9ZXyVxQrW37DX / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2qRWynJBRbbb6xxz": {
    "kind": "question_part",
    "label": "qstn_bSc9ZXyVxQrW37DX / part 2",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6jtMZ9RfSb9QZKmN": {
    "kind": "question_part",
    "label": "qstn_9PgRmcKbn6H24zKN / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_w6WvWNXxQmC65FFg",
     "spcpt_3hQ5czf8zhQ7jNr8"
    ]
   },
@@ -4399,10 +5368,15 @@
    "label": "qstn_9PgRmcKbn6H24zKN / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "kinematics-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_w6WvWNXxQmC65FFg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7bRzTdTy5YwWPNGx": {
    "kind": "question_part",
@@ -4439,9 +5413,15 @@
    "label": "qstn_PYSXxDzbMBtCHvhs / part 1",
    "section": "kinematics-straight-line-motion",
    "topic": "variable-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_JqNkg4qXvkzKyC8N"
    ]
   },
@@ -4610,10 +5590,16 @@
    "label": "qstn_M2syN9BhCCqnrDjT / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "variable-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_JqNkg4qXvkzKyC8N",
-    "spcpt_qjrGSfMRNrHFKFX5"
+    "spcpt_JqNkg4qXvkzKyC8N"
    ]
   },
   "qstnprt_XZcFCtRMXCdJK4hB": {
@@ -4732,9 +5718,15 @@
    "label": "qstn_N72Py96dpzwWQsYd / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "variable-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qjrGSfMRNrHFKFX5",
     "spcpt_JqNkg4qXvkzKyC8N"
    ]
   },
@@ -4975,10 +5967,16 @@
    "label": "qstn_8BH5v9Bmz2VRMvVq / part 0",
    "section": "kinematics-straight-line-motion",
    "topic": "variable-acceleration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_JqNkg4qXvkzKyC8N",
-    "spcpt_qjrGSfMRNrHFKFX5"
+    "spcpt_JqNkg4qXvkzKyC8N"
    ]
   },
   "qstnprt_jf9xJwPHyGkvcCjd": {
@@ -5501,10 +6499,16 @@
    "label": "qstn_hD9q5q8wZTKmDWtr / part 0",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XFW9FFKtQHckyhBB",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_XFW9FFKtQHckyhBB"
    ]
   },
   "qstnprt_gzWV3SjHTgry8zrx": {
@@ -5512,11 +6516,17 @@
    "label": "qstn_frRDVq9z7mrz7p2t / part 0",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_HKGykwT46zGnYKzK",
-    "spcpt_XFW9FFKtQHckyhBB",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_XFW9FFKtQHckyhBB"
    ]
   },
   "qstnprt_h699PKBrnymvjHRB": {
@@ -5768,9 +6778,15 @@
    "label": "qstn_HG9DtyFQCdtCpqcs / part 1",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
     "spcpt_HKGykwT46zGnYKzK"
    ]
   },
@@ -5801,11 +6817,17 @@
    "label": "qstn_cMmxgWR7dnpVzSRM / part 2",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_H2rCPXxbhdRrYwvy",
-    "spcpt_XFW9FFKtQHckyhBB",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_XFW9FFKtQHckyhBB"
    ]
   },
   "qstnprt_zBh3dRP28hzTW9Z8": {
@@ -5835,9 +6857,15 @@
    "label": "qstn_m8wFyc4mfBgyfpqy / part 1",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hyPrsgjw24DC9kfJ",
     "spcpt_HKGykwT46zGnYKzK"
    ]
   },
@@ -5888,10 +6916,16 @@
    "label": "qstn_gTqFZk9Z9rvb8PVw / part 0",
    "section": "momentum",
    "topic": "momentum-and-collisions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_HKGykwT46zGnYKzK",
-    "spcpt_hyPrsgjw24DC9kfJ"
+    "spcpt_HKGykwT46zGnYKzK"
    ]
   },
   "qstnprt_ZDjYtzgCzHNgzbjd": {

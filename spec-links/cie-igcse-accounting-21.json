@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-accounting-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 316,
-  "items_with_codes": 0,
+  "items_with_codes": 105,
   "by_kind": {
    "notes": 75,
    "question_parts": 241,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 25,
+   "question_parts": 80,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 157,
   "parts": 313,
   "universe_ids": 157,
-  "universe_resolved": 0,
-  "pending_refs": 470,
-  "flashcards_discovered_uncoded": 0
+  "universe_resolved": 35,
+  "pending_refs": 347,
+  "flashcards_discovered_uncoded": 0,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 35,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 30,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 122,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 39,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 15,
+    "no_unique_identity": 68
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_MjhXs6vjVcsrdM2C": {
@@ -49,10 +85,15 @@
    "label": "Book-keeping & Accounting | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_Ms3hW7MVnPwhxhkw": {
    "kind": "note",
@@ -70,20 +111,31 @@
    "label": "The Accounting Equation | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_TVZvNxCxm8yhwKfk": {
    "kind": "note",
    "label": "Cash Books & The General Journal | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_FNj5fhjFBtW9n9YT",
-    "spcpt_xGpzcNHqZBkPtR74"
+    "spcpt_FNj5fhjFBtW9n9YT"
    ]
   },
   "rn_Qwztsn3xWvYYBTzw": {
@@ -91,13 +143,34 @@
    "label": "Introduction to Books of Prime Entry | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_dCHR4vYKKS4Y8cHm",
-    "spcpt_SpRZW3wdPqKW3kFP",
-    "spcpt_QmJGQTJJf9mYXhzg",
-    "spcpt_yvFgNxcwmM75q5fW",
-    "spcpt_9nrwHDHGY4w5TmqR"
+    "spcpt_dCHR4vYKKS4Y8cHm"
    ]
   },
   "rn_WSdQTPJNQhfwR8WS": {
@@ -189,14 +262,25 @@
    "label": "Recording Purchase Transactions | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "2-sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.4.3",
+     "official_code": "3.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_bQjSdjBHq2nrp7gT",
-    "spcpt_KYByxCgWQySVxw9N",
     "spcpt_PWDp3n4QT3ZssXRd",
     "spcpt_dBxxZ83gsPKXv6Nw",
     "spcpt_5SMd2PsVqMZH3pPZ",
-    "spcpt_6YDcpjC3rnkYKtPG",
     "spcpt_M7grc94WFVp658Mq"
    ]
   },
@@ -205,14 +289,20 @@
    "label": "Recording Sale Transactions | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "2-sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_QbRDsxNCzdHVGRN9",
     "spcpt_rPykFfTDjXq2wd4h",
     "spcpt_mxFw4Kb9JbgVBQzQ",
     "spcpt_YVYTXGdjSfcMgNxF",
     "spcpt_ycJKkmSpbzWTDGtj",
-    "spcpt_Kyprsr6rMn8cXX66",
     "spcpt_wSFrDBJ9Kqqq7bTf"
    ]
   },
@@ -254,10 +344,16 @@
    "label": "The Petty Cash Book | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "2-sources-and-recording-of-data",
    "topic": "the-cash-and-petty-cash-books",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.7",
+     "official_code": "2.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KGJGHCSn8px5mmjB",
-    "spcpt_rTV5rK5fWBR32rKZ"
+    "spcpt_KGJGHCSn8px5mmjB"
    ]
   },
   "rn_DXTvS2fg2FFH2brW": {
@@ -333,10 +429,16 @@
    "label": "Errors & The Suspense Account | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vfNB97tQQRqFPg4k",
-    "spcpt_8hGVCZkWws9nBhnH"
+    "spcpt_vfNB97tQQRqFPg4k"
    ]
   },
   "rn_NfrWsGnCD74Bg8x3": {
@@ -355,9 +457,15 @@
    "label": "The Trial Balance | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_t83ZfyP7c4B3j88c",
     "spcpt_mjq5Zhf33pzS463X"
    ]
   },
@@ -412,10 +520,15 @@
    "label": "Provision for Depreciation | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
-   "pending": [
-    "spcpt_dQWRXcNvJjh8cVVP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_dxMNdjpT4PvZqWqb": {
    "kind": "note",
@@ -433,10 +546,16 @@
    "label": "Provision for Doubtful Debts | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rd2msrC7pY9jyrqb",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_Rd2msrC7pY9jyrqb"
    ]
   },
   "rn_MgCz43GfGq7xrXBK": {
@@ -457,11 +576,17 @@
    "label": "Accrued & Prepaid Income | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "4-accounting-procedures",
    "topic": "other-payables-and-other-receivables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_pFPxD7ms4NjTKXgs",
     "spcpt_cBzkwD8d9ZvVkCfR",
-    "spcpt_k97nnsPRKJp8kKFK",
     "spcpt_SqNKvsdSQdP47z53"
    ]
   },
@@ -480,11 +605,21 @@
    "label": "The Basis of the Valuation of Inventory | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3",
-    "spcpt_Gq6YRdG9WthvVkTx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_6htsD8fYYjNrTnBg": {
    "kind": "note",
@@ -563,10 +698,15 @@
    "label": "Statement of Changes in Equity | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_h8CPbgWbqpTJFGYm": {
    "kind": "note",
@@ -594,20 +734,31 @@
    "label": "Manufacturing Account | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_2G7q5hh8kd5XWhhy": {
    "kind": "note",
    "label": "Manufacturing Businesses | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ZZCjHfXSRPrnMTMB",
-    "spcpt_FkwvnkcXy7rWSzMc",
     "spcpt_Fx7YCFVqfD32PG5m"
    ]
   },
@@ -616,10 +767,15 @@
    "label": "Appropriation Accounts | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_HXSPW2T3gnpJqPgJ": {
    "kind": "note",
@@ -647,10 +803,16 @@
    "label": "Partnerships | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_MbYQBH8cfgkPXsNN",
-    "spcpt_bphR5b8bjg4DwRhq"
+    "spcpt_MbYQBH8cfgkPXsNN"
    ]
   },
   "rn_p4nW5J27KRszHcZk": {
@@ -668,10 +830,15 @@
    "label": "Adjustments for Accrued & Prepaid Expenses | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-sole-traders",
-   "codes": [],
-   "pending": [
-    "spcpt_43dwcRy3J8HVgzmF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_gRfg8qVwGRq7d2jJ": {
    "kind": "note",
@@ -688,10 +855,15 @@
    "label": "Adjustments for Provision for Depreciation | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-sole-traders",
-   "codes": [],
-   "pending": [
-    "spcpt_HjY7CjQ26J7qQZ2X"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_tY3B5yCr5KTKphfz": {
    "kind": "note",
@@ -780,21 +952,37 @@
    "label": "Statement of Affairs | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
-   "pending": [
-    "spcpt_ytcNp656RhhwqXqg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.2",
+     "official_code": "5.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_VjVhnVZnq85Xvsn6": {
    "kind": "note",
    "label": "Efficiency Ratios | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_sMD4pGVxmnvyDrHg",
-    "spcpt_xfsyH3bJ9K9ppgj4",
-    "spcpt_j2dzTVCTznjTZKwV",
     "spcpt_9Gm9GQbFkD3GdvH3"
    ]
   },
@@ -803,10 +991,16 @@
    "label": "Inter-firm Comparison | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VKKVd62ZJDBKXFF4",
-    "spcpt_HznbxwdDSXsc3yvN"
+    "spcpt_VKKVd62ZJDBKXFF4"
    ]
   },
   "rn_FjzVPXv2MrN2qjYz": {
@@ -835,10 +1029,21 @@
    "label": "Liquidity Ratios | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fKHGR7jrT4dxsjVb",
-    "spcpt_9rcjm2MdqMhzyt36",
     "spcpt_n3jRYrN3zpfkZHyx"
    ]
   },
@@ -847,12 +1052,33 @@
    "label": "Profitability Ratios | Cambridge (CIE) IGCSE Accounting Revision Notes 2021",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.7",
+     "official_code": "5.6.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2YgHfXfnSb6z8yQK",
-    "spcpt_sV4PZNjxJW786NvP",
-    "spcpt_CSDQKGHGVjNgrBM3",
-    "spcpt_ZsNxfshk6MGcvz9P",
     "spcpt_6tkDkdmg2vMRgzm6"
    ]
   },
@@ -891,10 +1117,15 @@
    "label": "qstn_jWNpq6mH34RDDM5Q / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ynjZY787MmyFhmYW": {
    "kind": "question_part",
@@ -911,10 +1142,15 @@
    "label": "qstn_dmJJcqtsyMDYS8V9 / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZMM8FDTRM3j3CGRD": {
    "kind": "question_part",
@@ -931,9 +1167,15 @@
    "label": "qstn_4GpJNqD39tRKTT2b / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GFCZzW9fjGR377Vy",
     "spcpt_5ZB58QkKmzBKDfCT"
    ]
   },
@@ -942,49 +1184,75 @@
    "label": "qstn_C8ksZCTtRXHYrGsQ / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JsZgnrvK4mc2Cgy3": {
    "kind": "question_part",
    "label": "qstn_p5BFcQbsmkNQFzcY / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d3ZCDGppvbqkBPqZ": {
    "kind": "question_part",
    "label": "qstn_h7rMGdWyctfwZmnW / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PJm9QTkBpZdj8B5h": {
    "kind": "question_part",
    "label": "qstn_YKBgT3KRNY6hMkRZ / part 0",
    "section": "1-the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NWJC5cWwqYX7qt8R": {
    "kind": "question_part",
    "label": "qstn_c47sm3BYsghc3tnz / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP",
     "spcpt_dCHR4vYKKS4Y8cHm"
    ]
   },
@@ -993,50 +1261,81 @@
    "label": "qstn_cQvQPYc8KQ78DGxv / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_9nrwHDHGY4w5TmqR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7P4PpBKhCKkpWd5X": {
    "kind": "question_part",
    "label": "qstn_dZWKMTrxTDnYJ5Mr / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP",
-    "spcpt_QmJGQTJJf9mYXhzg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Np7qfMBJjWYHfHRm": {
    "kind": "question_part",
    "label": "qstn_FYFd5K7gmSkFgjWt / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nY7wwg2VCZy7Wpd3": {
    "kind": "question_part",
    "label": "qstn_p4gvH6S4VQGWdcnw / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zvfQHPCqT885tsGh": {
    "kind": "question_part",
    "label": "qstn_66YFYQBg378sWxzx / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_t83ZfyP7c4B3j88c",
     "spcpt_dCHR4vYKKS4Y8cHm"
    ]
   },
@@ -1237,10 +1536,16 @@
    "label": "qstn_9MjQKxJNGj4PJZtJ / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SK54ZGNYMYKHhBFM",
-    "spcpt_RbWZBTRFgb7FbDx3"
+    "spcpt_SK54ZGNYMYKHhBFM"
    ]
   },
   "qstnprt_GpHSk2gfkQNZ9wP4": {
@@ -1278,11 +1583,21 @@
    "label": "qstn_JqFYnHmGpvwZZJqN / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_QmJGQTJJf9mYXhzg",
-    "spcpt_Kyprsr6rMn8cXX66"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W85yvftvDPK6gqF7": {
    "kind": "question_part",
@@ -1362,10 +1677,15 @@
    "label": "qstn_WJvt93fHmJ99Yyr5 / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "the-cash-and-petty-cash-books",
-   "codes": [],
-   "pending": [
-    "spcpt_rTV5rK5fWBR32rKZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.7",
+     "official_code": "2.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vZrXfmFgtvvwcHqs": {
    "kind": "question_part",
@@ -1598,20 +1918,30 @@
    "label": "qstn_dc3trtZDt89j9fyw / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dMhsQY7GWhjDkK6G": {
    "kind": "question_part",
    "label": "qstn_MSWRTX3fnSWrDnpc / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JggdY35TBBHym3Bc": {
    "kind": "question_part",
@@ -1628,20 +1958,30 @@
    "label": "qstn_3FCpNt6RdKCGTQYm / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TpvVYxQz4TVpB74q": {
    "kind": "question_part",
    "label": "qstn_cky2KBTWF3jxP2th / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GW85wW334vsNN5DD": {
    "kind": "question_part",
@@ -1724,10 +2064,16 @@
    "label": "qstn_YYPXWDXZm27vKSD7 / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vfNB97tQQRqFPg4k",
-    "spcpt_8hGVCZkWws9nBhnH"
+    "spcpt_vfNB97tQQRqFPg4k"
    ]
   },
   "qstnprt_w4B5BSGKgwqRMN4x": {
@@ -1745,30 +2091,45 @@
    "label": "qstn_h3z3w2QsRMf44MBr / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T8s4RPGFp2ddD7Xr": {
    "kind": "question_part",
    "label": "qstn_Sr8YwTnz8hGRbjbd / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_t83ZfyP7c4B3j88c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fQG8wXGpkHYYMQBd": {
    "kind": "question_part",
    "label": "qstn_Mz2XyBRGvVV58Yx6 / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_t83ZfyP7c4B3j88c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ytDPXV8DPKWSm5t5": {
    "kind": "question_part",
@@ -1899,9 +2260,15 @@
    "label": "qstn_Z8wTV8wcxDdGZ328 / part 0",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_dQWRXcNvJjh8cVVP",
     "spcpt_7ZP4XqvvpK3gdps5"
    ]
   },
@@ -1932,10 +2299,15 @@
    "label": "qstn_9C8z3WB2Qqstfcnt / part 0",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
-   "pending": [
-    "spcpt_dQWRXcNvJjh8cVVP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bkTHqjHjXV94YbJx": {
    "kind": "question_part",
@@ -1974,20 +2346,31 @@
    "label": "qstn_J6fbcMjZrBtGDDzJ / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_6ntSqP6M6Gh97H9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jGxmJd5fBjqQs9qn": {
    "kind": "question_part",
    "label": "qstn_WQkBdkymcNsdgmzg / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZTq9x6qnynkSdPz3",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_ZTq9x6qnynkSdPz3"
    ]
   },
   "qstnprt_6WXSnDDDhBF6tTZK": {
@@ -1995,10 +2378,16 @@
    "label": "qstn_NgdZFVJtRBgcnwY9 / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rd2msrC7pY9jyrqb",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_Rd2msrC7pY9jyrqb"
    ]
   },
   "qstnprt_7hxc7X6zwXKgHMM9": {
@@ -2016,10 +2405,16 @@
    "label": "qstn_87ssnDhPYDkpw8nG / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rd2msrC7pY9jyrqb",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_Rd2msrC7pY9jyrqb"
    ]
   },
   "qstnprt_CHGYWGxGxzYPmzpX": {
@@ -2027,10 +2422,16 @@
    "label": "qstn_QBDyMhvKzKG8Dmz5 / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rd2msrC7pY9jyrqb",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_Rd2msrC7pY9jyrqb"
    ]
   },
   "qstnprt_dvmNthTSXfqZrQXJ": {
@@ -2079,10 +2480,16 @@
    "label": "qstn_3Sc69V94pr5zy7SZ / part 0",
    "section": "4-accounting-procedures",
    "topic": "other-payables-and-other-receivables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kmmk347qVjZnkzTZ",
-    "spcpt_k97nnsPRKJp8kKFK"
+    "spcpt_kmmk347qVjZnkzTZ"
    ]
   },
   "qstnprt_7YkckknzWMctpY7z": {
@@ -2171,42 +2578,72 @@
    "label": "qstn_yt3Knyr7F9DXJ3G4 / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3",
-    "spcpt_Gq6YRdG9WthvVkTx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5Jd4mnVGgQDnwGGy": {
    "kind": "question_part",
    "label": "qstn_ZtzpcMD5d8sfBHwb / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3",
-    "spcpt_Gq6YRdG9WthvVkTx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MsWRPBHYmCv4cNc8": {
    "kind": "question_part",
    "label": "qstn_ZX95GWVpFX3KSjKP / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RvNnC4CWMb8Rr4vB": {
    "kind": "question_part",
    "label": "qstn_QZCBykB3MpjSzt9r / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wSN4CpXJZrCDFN2j": {
    "kind": "question_part",
@@ -2223,32 +2660,57 @@
    "label": "qstn_sMyZz5vxhzRVCPr3 / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3",
-    "spcpt_Gq6YRdG9WthvVkTx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8HCtwPnwhWJFngCF": {
    "kind": "question_part",
    "label": "qstn_8ZWSnsTjBy3FBmdg / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3",
-    "spcpt_Gq6YRdG9WthvVkTx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qFxRn3Yhsp3B6Pg3": {
    "kind": "question_part",
    "label": "qstn_TqqRv8hKxhxb3Dhx / part 0",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_RbWZBTRFgb7FbDx3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x4MtYTr9KNFfVs89": {
    "kind": "question_part",
@@ -2400,9 +2862,15 @@
    "label": "qstn_WYhZb2h9b5R78XvG / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YJmNWfynd7cJyT2N",
     "spcpt_6MrKYPC5jTWcnBKP"
    ]
   },
@@ -2411,10 +2879,16 @@
    "label": "qstn_3WsMPycHZNpkHmtm / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zSgtjPfwf57tJJCF",
-    "spcpt_YJmNWfynd7cJyT2N"
+    "spcpt_zSgtjPfwf57tJJCF"
    ]
   },
   "qstnprt_xHWGFqpgcCZZtw8c": {
@@ -2422,10 +2896,16 @@
    "label": "qstn_WCF5SyHgbrTPSKWy / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ZTq9x6qnynkSdPz3",
-    "spcpt_YJmNWfynd7cJyT2N",
     "spcpt_6MrKYPC5jTWcnBKP"
    ]
   },
@@ -2434,19 +2914,30 @@
    "label": "qstn_mrw53dmYYsfbGj8V / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tdspbhhFZhpQSZg3": {
    "kind": "question_part",
    "label": "qstn_SfHsj4QnPR5mqMDN / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YJmNWfynd7cJyT2N",
     "spcpt_zSgtjPfwf57tJJCF"
    ]
   },
@@ -2486,19 +2977,30 @@
    "label": "qstn_cTvmPsFsmxWySTKz / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3GxJNjrYsMkc8K9M": {
    "kind": "question_part",
    "label": "qstn_ZPVdgN8m58TMsZsK / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy",
     "spcpt_cQWncxztgtcV6Cn4"
    ]
   },
@@ -2507,41 +3009,66 @@
    "label": "qstn_ZTVJ894M4H9W5SNg / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YhgKybkCRGrTzQ2s": {
    "kind": "question_part",
    "label": "qstn_TRHcNQ4wNPrzkK89 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_FkwvnkcXy7rWSzMc",
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QgYZbVnsKbfMXKNG": {
    "kind": "question_part",
    "label": "qstn_8N256Pm57XTnF6Rq / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m53y6k7Rwtrr9tGd": {
    "kind": "question_part",
    "label": "qstn_YyG7x6GhrTzx4B3C / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_FkwvnkcXy7rWSzMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_znSJjgBdqVdwMThX": {
    "kind": "question_part",
@@ -2558,50 +3085,75 @@
    "label": "qstn_4SRSqyP7GD8DYKjt / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RkQXrCTwsHNF4GWF": {
    "kind": "question_part",
    "label": "qstn_bNNnjFxzxCvbCsBF / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JZdK28MQWdJG8MwP": {
    "kind": "question_part",
    "label": "qstn_Ds9RkY8HpxGHzDYw / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cNvQkGYYQxq2pd9q": {
    "kind": "question_part",
    "label": "qstn_yn3gVJNNKxMzwShT / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_FkwvnkcXy7rWSzMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8TRtc8znBT5ckBjd": {
    "kind": "question_part",
    "label": "qstn_MC5Rw2fCYHSrJrc2 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_FkwvnkcXy7rWSzMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qmRvCnPTWnr2fZxJ": {
    "kind": "question_part",
@@ -2619,10 +3171,15 @@
    "label": "qstn_B3kjMRw5vMgPWXTJ / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7gj86tVm5HKfjttG": {
    "kind": "question_part",
@@ -2639,10 +3196,15 @@
    "label": "qstn_PVyk8hSTvy9WRw8t / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ttjvg4KT97dKVm5f": {
    "kind": "question_part",
@@ -2689,9 +3251,15 @@
    "label": "qstn_SWmZwk7tkd6yjTB8 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PJZysRdcNSyKffjp",
     "spcpt_hbxKTK6kh8fNGRHx"
    ]
   },
@@ -2710,9 +3278,15 @@
    "label": "qstn_5k5DkzgdK5dHBZbw / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PJZysRdcNSyKffjp",
     "spcpt_hbxKTK6kh8fNGRHx"
    ]
   },
@@ -2731,20 +3305,30 @@
    "label": "qstn_hNtstf9Drzryd5BS / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JBYQMMnVVRyY7YF3": {
    "kind": "question_part",
    "label": "qstn_cVNgRHWyqnkbK6hD / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vgnsPfXvhjFvnMYW": {
    "kind": "question_part",
@@ -2782,10 +3366,15 @@
    "label": "qstn_NSXgJwxVBG4mpW45 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-sole-traders",
-   "codes": [],
-   "pending": [
-    "spcpt_43dwcRy3J8HVgzmF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hZvzRXkQbfFxYWBz": {
    "kind": "question_part",
@@ -2834,9 +3423,15 @@
    "label": "qstn_hzQjwRMtkG7GTFsc / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-sole-traders",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GFCZzW9fjGR377Vy",
     "spcpt_GCPSwBW4ZkftdgvD"
    ]
   },
@@ -2965,10 +3560,16 @@
    "label": "qstn_JbWhsnsTBCsMP3bf / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.7",
+     "official_code": "5.6.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YdGfdyKcXpv9c88Z",
-    "spcpt_sV4PZNjxJW786NvP"
+    "spcpt_YdGfdyKcXpv9c88Z"
    ]
   },
   "qstnprt_YTkVY53kMJbztRcq": {
@@ -2997,9 +3598,15 @@
    "label": "qstn_nG7Zmyck6KBZfKZf / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2YgHfXfnSb6z8yQK",
     "spcpt_YdGfdyKcXpv9c88Z"
    ]
   },
@@ -3008,9 +3615,15 @@
    "label": "qstn_bRpgKPNFjf5fxvKD / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.2",
+     "official_code": "5.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ytcNp656RhhwqXqg",
     "spcpt_5ZB58QkKmzBKDfCT"
    ]
   },
@@ -3019,10 +3632,15 @@
    "label": "qstn_bcCqFpBF8x7j3JHx / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
-   "pending": [
-    "spcpt_ytcNp656RhhwqXqg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.2",
+     "official_code": "5.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HYsGbJBhJr66Zq4v": {
    "kind": "question_part",
@@ -3039,9 +3657,15 @@
    "label": "qstn_QQNRhB4dFdnWTk3S / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.2",
+     "official_code": "5.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ytcNp656RhhwqXqg",
     "spcpt_KgzRTngWVf3gtKdt"
    ]
   },
@@ -3050,30 +3674,45 @@
    "label": "qstn_Q4Q96dfYB8mc2cCn / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
-   "pending": [
-    "spcpt_ytcNp656RhhwqXqg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.2",
+     "official_code": "5.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BFd3WjfYF7GHx79G": {
    "kind": "question_part",
    "label": "qstn_cfSQfNf8DTfXmBMD / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_xfsyH3bJ9K9ppgj4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hGCfW3SCTnPRYfBr": {
    "kind": "question_part",
    "label": "qstn_5CrHvmpqh7JpCBN6 / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_j2dzTVCTznjTZKwV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FqHsssgVK5FV6gpb": {
    "kind": "question_part",
@@ -3090,21 +3729,36 @@
    "label": "qstn_hfncdHZkZNkqPQ86 / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_xfsyH3bJ9K9ppgj4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HqjtVMTf9b6pCpz9": {
    "kind": "question_part",
    "label": "qstn_8RYkRzhQgdJBCNDQ / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_ZsNxfshk6MGcvz9P",
-    "spcpt_j2dzTVCTznjTZKwV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rJ4MTkRT75Z8fYR6": {
    "kind": "question_part",
@@ -3121,20 +3775,30 @@
    "label": "qstn_HwnYh6GxjQ77kWgV / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_HznbxwdDSXsc3yvN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xxvkFrCj2G3W3c5h": {
    "kind": "question_part",
    "label": "qstn_9xBxKsW6GGhBSHQS / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_ZsNxfshk6MGcvz9P"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NDBdfZ4ftMSwc5Yn": {
    "kind": "question_part",
@@ -3151,10 +3815,15 @@
    "label": "qstn_XvWwVf2P65Pcr6PQ / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_9rcjm2MdqMhzyt36"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8V94VF8YPrCjr3cQ": {
    "kind": "question_part",
@@ -3171,10 +3840,16 @@
    "label": "qstn_5zBWqCQ4tPJTYTkj / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_n3jRYrN3zpfkZHyx",
-    "spcpt_9rcjm2MdqMhzyt36"
+    "spcpt_n3jRYrN3zpfkZHyx"
    ]
   },
   "qstnprt_CNrYRrQcKPfCfktV": {
@@ -3182,30 +3857,45 @@
    "label": "qstn_s3pcHb6htjKdPtHX / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_CSDQKGHGVjNgrBM3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sSFbQYqbhGrj4qDx": {
    "kind": "question_part",
    "label": "qstn_NFTNByCzkY5qv9gx / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_2YgHfXfnSb6z8yQK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hGgZ3gyvkpCb7Y9r": {
    "kind": "question_part",
    "label": "qstn_FCxKVBd4cpFrCDVN / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_fKHGR7jrT4dxsjVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VKMgbXWc6cXBWmsv": {
    "kind": "question_part",

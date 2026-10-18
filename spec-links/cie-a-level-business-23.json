@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-business-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 831,
-  "items_with_codes": 0,
+  "items_with_codes": 108,
   "by_kind": {
    "notes": 139,
    "question_parts": 692,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 14,
+   "question_parts": 94,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 482,
   "parts": 938,
   "universe_ids": 482,
-  "universe_resolved": 0,
-  "pending_refs": 1420,
-  "flashcards_discovered_uncoded": 0
+  "universe_resolved": 29,
+  "pending_refs": 1286,
+  "flashcards_discovered_uncoded": 0,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 29,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 10,
+    "V3_subsection_head_identity": 14,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 453,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 216,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 237
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_w6J44MY6wmcXzNk4": {
@@ -174,12 +210,18 @@
    "label": "Ansoff Matrix | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "business-and-its-environment",
    "topic": "business-strategy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_RJ7pFCGVKH6bzcbj",
     "spcpt_Fr96RrnX7tbcgFbW",
     "spcpt_WpCPCChkQM4HfXMk",
-    "spcpt_qRtQFZpJ2mGNHWVM",
     "spcpt_27cRP83KmDHKkvwy"
    ]
   },
@@ -370,9 +412,15 @@
    "label": "Entrepreneurship - CIE A Level Business Revision Notes",
    "section": "business-and-its-environment",
    "topic": "enterprise",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YMFyNMm9ZbPwqJ3r",
     "spcpt_rvhxNZ5Nn4SnNbYh",
     "spcpt_kfxfzx2TcZ2TpxCr",
     "spcpt_F4vZ6hfmD4xqV7cj"
@@ -732,12 +780,18 @@
    "label": "Using Budgets Effectively | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PhwzKXch6sY2gh8c",
     "spcpt_rkj8ySdMtxRCPcDs",
     "spcpt_tHGX29nKMyPf2b4w",
-    "spcpt_tvBZWjGwzsDBT984",
     "spcpt_Yh4pS8Qnnb4NZY4P",
     "spcpt_ZPcdZxjWCYvzZpMX"
    ]
@@ -875,13 +929,33 @@
    "label": "Cash Flow Forecasts | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_VJjK6rKzSqr9b7wP",
-    "spcpt_2Z63rXk8wM62P8P9",
-    "spcpt_yS3VScpS35RVQf9m",
-    "spcpt_m3JpkNyTH9zk2cFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_8rCCMmYfrtz6GKdZ": {
    "kind": "note",
@@ -934,14 +1008,20 @@
    "label": "Internal Sources of Finance | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "finance-and-accounting",
    "topic": "sources-of-finance",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Rj79DGRnvmB3k8VB",
     "spcpt_FmwxHQzHB2v8ydZG",
     "spcpt_SwfQQHpXbZ5ZBvtn",
     "spcpt_5swFS3RXNpkmkpn9",
     "spcpt_KKMwySbtmDJ7nGJg",
-    "spcpt_wRvkRVx965VDB2q6",
     "spcpt_nMjkDn56nrtGcy5k"
    ]
   },
@@ -1054,11 +1134,21 @@
    "label": "Redundancy and Dismissal | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "human-resource-management",
    "topic": "human-resource-management-hrm",
-   "codes": [],
-   "pending": [
-    "spcpt_7brF8KrmmqX2nsRp",
-    "spcpt_MwrmQ8kh9x5vVQkS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_HvV723fJfXVh3pt7": {
    "kind": "note",
@@ -1174,38 +1264,99 @@
    "label": "Managerial roles - A Level Business Revision Notes",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_3ky4crMCr3qV8ygv",
-    "spcpt_V67PvPwfCcFqv6hy",
-    "spcpt_dzXCvvykbGG43ZKb",
-    "spcpt_tPQ3HX5zyZFNZ9dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_pb2bFdr8BPvthGST": {
    "kind": "note",
    "label": "Leadership styles - A Level Business Revision Notes",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_3djjqqRTyyTTqjrC",
-    "spcpt_2BHWpstsF6GvCjGm",
-    "spcpt_d6PfyQ79YyqfvYgd",
-    "spcpt_rVXPwzP8ZVXcfC34",
-    "spcpt_TvDK4d3Kg4zQKKxR",
-    "spcpt_GPrvVcNFdh3sHjMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_P9pQrMHkSmkGyXxX": {
    "kind": "note",
    "label": "Motivation Methods in Practice | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4",
     "spcpt_KqZW6bhZpwnDNWCx",
     "spcpt_FcMkPS8VgDGvdCY6"
    ]
@@ -1319,11 +1470,17 @@
    "label": "Primary Research and Secondary Research | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "marketing",
    "topic": "market-research",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_qsGGFgRrYBpZtwxc",
     "spcpt_dbJDdXbrsxvzh6tR",
-    "spcpt_XF8XpMZ8qW8rrg9N",
     "spcpt_sBGQbnrwWDfFWBzS"
    ]
   },
@@ -1447,10 +1604,16 @@
    "label": "Marketing Mix: Place | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "marketing",
    "topic": "the-marketing-mix",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_qJyf7pPSKcSQnDQy",
-    "spcpt_7nGyWK3gzKHVYR2Y",
     "spcpt_Xj6DTvRJ4nPRwRQn"
    ]
   },
@@ -1610,13 +1773,19 @@
    "label": "Capacity Utilisation & Outsourcing | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "operations-management",
    "topic": "capacity-utilisation-and-outsourcing",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_4PXfBg7Fp8PKcRHC",
     "spcpt_N3kz46fzvdmd8wdq",
     "spcpt_dHNHbvSbF4qZd7Rc",
-    "spcpt_qGdVSzRBCMs8tdBQ",
-    "spcpt_QBqy5GYt9ZQSqQJd"
+    "spcpt_qGdVSzRBCMs8tdBQ"
    ]
   },
   "rn_Z6WKkJPKKYfWP5xm": {
@@ -1727,11 +1896,22 @@
    "label": "Methods of Quality Management | Cambridge (CIE) A Level Business Revision Notes 2021",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_cTm9hDd2CBmGxMRZ",
-    "spcpt_qdZVQ9cNnPNZGQ9x",
-    "spcpt_MxFhW7whKdFyNfPs",
     "spcpt_c96P8QhrfMPvDPsy",
     "spcpt_2JpcZRH5p4YCs2hK"
    ]
@@ -1753,15 +1933,26 @@
    "label": "Operation methods - A Level Business Revision Notes",
    "section": "operations-management",
    "topic": "the-nature-of-operations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.4",
+     "official_code": "4.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_TWbnNKRVc2zzxQx8",
-    "spcpt_Gbjy7rm7dD9Nh8CH",
     "spcpt_FxgBFWSXRF8C6nVB",
     "spcpt_sbgVqKmMs7Cfbq3M",
     "spcpt_NGJCXXNvzdkwC9hB",
     "spcpt_n5ggqskjmfnmBGrM",
-    "spcpt_vXK2DxFgwJMV89JJ",
     "spcpt_jpGMJGN3gnNvtXBk"
    ]
   },
@@ -2064,10 +2255,15 @@
    "label": "qstn_5dSPNNwyg6PzKpsK / part 0",
    "section": "business-and-its-environment",
    "topic": "business-strategy",
-   "codes": [],
-   "pending": [
-    "spcpt_qRtQFZpJ2mGNHWVM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CDJNXrDFd7XJRc7b": {
    "kind": "question_part",
@@ -2204,11 +2400,17 @@
    "label": "qstn_2xCsRZvn2Dr6s7mG / part 0",
    "section": "business-and-its-environment",
    "topic": "business-strategy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ww8dZ483jrpHwQwv",
     "spcpt_Sp4cv7Crxd3Wynnq",
-    "spcpt_qRtQFZpJ2mGNHWVM",
     "spcpt_MYrhcR78FcmmMVxZ"
    ]
   },
@@ -2696,10 +2898,15 @@
    "label": "qstn_gVQSHNGzqwp6djk9 / part 0",
    "section": "business-and-its-environment",
    "topic": "enterprise",
-   "codes": [],
-   "pending": [
-    "spcpt_YMFyNMm9ZbPwqJ3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7j7JysRKmmRtWdj7": {
    "kind": "question_part",
@@ -2726,9 +2933,15 @@
    "label": "qstn_snYpKY2ymW2GTtbr / part 0",
    "section": "business-and-its-environment",
    "topic": "enterprise",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YMFyNMm9ZbPwqJ3r",
     "spcpt_frGPB2CPDrcyf5ZK"
    ]
   },
@@ -2849,10 +3062,15 @@
    "label": "qstn_P6rT7VV2GNq44ZgS / part 0",
    "section": "business-and-its-environment",
    "topic": "enterprise",
-   "codes": [],
-   "pending": [
-    "spcpt_YMFyNMm9ZbPwqJ3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xCnBxgmN4pHX8trx": {
    "kind": "question_part",
@@ -3750,9 +3968,15 @@
    "label": "qstn_4Gcvsn9NVPmxsXx9 / part 0",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_tvBZWjGwzsDBT984",
     "spcpt_tHGX29nKMyPf2b4w"
    ]
   },
@@ -3761,9 +3985,15 @@
    "label": "qstn_Cqdky7J27XVTdgbD / part 0",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_tvBZWjGwzsDBT984",
     "spcpt_rkj8ySdMtxRCPcDs"
    ]
   },
@@ -3783,10 +4013,16 @@
    "label": "qstn_mpzcC8Py9ST4gz4t / part 0",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Yh4pS8Qnnb4NZY4P",
-    "spcpt_tvBZWjGwzsDBT984"
+    "spcpt_Yh4pS8Qnnb4NZY4P"
    ]
   },
   "qstnprt_wVHhBvsvbydZh2kr": {
@@ -3836,10 +4072,15 @@
    "label": "qstn_PkxPh8HRpy4y3vY3 / part 0",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
-   "pending": [
-    "spcpt_tvBZWjGwzsDBT984"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YgpQrxmcXHyVbvN9": {
    "kind": "question_part",
@@ -3856,10 +4097,15 @@
    "label": "qstn_QNGrP6rRHxgh2kK7 / part 0",
    "section": "finance-and-accounting",
    "topic": "budgets",
-   "codes": [],
-   "pending": [
-    "spcpt_tvBZWjGwzsDBT984"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xBYKGZYyKdFxXCtc": {
    "kind": "question_part",
@@ -4547,182 +4793,282 @@
    "label": "qstn_sGmnZbxf4SWDNyQ7 / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_VJjK6rKzSqr9b7wP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RV2kZWM7hsPn6MNz": {
    "kind": "question_part",
    "label": "qstn_JYx3YfjDbVW8CmP6 / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n7CJFp3qyXCQw8hp": {
    "kind": "question_part",
    "label": "qstn_Yq5G5zQ4j8C3gyKz / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_2Z63rXk8wM62P8P9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WHyDbNJfzyDDGyQ2": {
    "kind": "question_part",
    "label": "qstn_GqtPGBh4Y953gwhT / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_m3JpkNyTH9zk2cFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xrfgDkHvPpTjpQ9R": {
    "kind": "question_part",
    "label": "qstn_hVDfsvSjBH2nYqcQ / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_VJjK6rKzSqr9b7wP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_993CYhRvcH4Qxy2f": {
    "kind": "question_part",
    "label": "qstn_nVZxp2vGfyBK3Ypt / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_m3JpkNyTH9zk2cFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ggfhrqyNxzK6tzSx": {
    "kind": "question_part",
    "label": "qstn_kZmkq9w7sm4nQSQt / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_m3JpkNyTH9zk2cFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yGnKFkq7M8HJ7r6M": {
    "kind": "question_part",
    "label": "qstn_9rdHvxRdcxyP4GVb / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_m3JpkNyTH9zk2cFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3RZqFxfDzTSFN8TV": {
    "kind": "question_part",
    "label": "qstn_Y7BN7MppR3DX2MpN / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_2Z63rXk8wM62P8P9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GbDJdQH5Z9mQbdnt": {
    "kind": "question_part",
    "label": "qstn_Rx6YPRMj49rrdNbb / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_2Z63rXk8wM62P8P9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4nnDRPXC8NNbCdyV": {
    "kind": "question_part",
    "label": "qstn_DXBkg6vDfHCWKzgy / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZshqW9hFzzqR6p78": {
    "kind": "question_part",
    "label": "qstn_VcCk64HcH6WKMWVJ / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nDBfdnsFxVxyKzg5": {
    "kind": "question_part",
    "label": "qstn_X8x97zQwT4yHpph3 / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_VJjK6rKzSqr9b7wP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CSCdTq5x2sgRG8m3": {
    "kind": "question_part",
    "label": "qstn_g6HyrDcBx6gfRs4c / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TZfJcTTdCWvfxhpb": {
    "kind": "question_part",
    "label": "qstn_HyBnP9fqQdPVsk3w / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_m3JpkNyTH9zk2cFy",
-    "spcpt_2Z63rXk8wM62P8P9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qv2cZc8ZGVGq9ffN": {
    "kind": "question_part",
    "label": "qstn_MwkD6JtgpnKS4CD2 / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_VJjK6rKzSqr9b7wP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dShPXd4xQyGRmjWJ": {
    "kind": "question_part",
    "label": "qstn_nCcMvPGfTNCfBsvz / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FVcRqJYdF8tQkMHd": {
    "kind": "question_part",
    "label": "qstn_YbM6Pf7dDkks9RWT / part 0",
    "section": "finance-and-accounting",
    "topic": "forecasting-and-managing-cash-flows",
-   "codes": [],
-   "pending": [
-    "spcpt_yS3VScpS35RVQf9m",
-    "spcpt_VJjK6rKzSqr9b7wP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZHdy5KYGvMTctHPH": {
    "kind": "question_part",
@@ -4965,10 +5311,15 @@
    "label": "qstn_SwC3sTjFwF7Z3HwK / part 0",
    "section": "finance-and-accounting",
    "topic": "sources-of-finance",
-   "codes": [],
-   "pending": [
-    "spcpt_wRvkRVx965VDB2q6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4xMgYRM4VX7ct6bS": {
    "kind": "question_part",
@@ -5093,9 +5444,15 @@
    "label": "qstn_Kr9MtwCbQQKDcbHj / part 0",
    "section": "finance-and-accounting",
    "topic": "sources-of-finance",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_wRvkRVx965VDB2q6",
     "spcpt_SwfQQHpXbZ5ZBvtn",
     "spcpt_nMjkDn56nrtGcy5k",
     "spcpt_5swFS3RXNpkmkpn9"
@@ -5106,10 +5463,15 @@
    "label": "qstn_Qs3RdxSdYtjpHSj4 / part 0",
    "section": "finance-and-accounting",
    "topic": "sources-of-finance",
-   "codes": [],
-   "pending": [
-    "spcpt_wRvkRVx965VDB2q6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TGmxRd77892vVkHM": {
    "kind": "question_part",
@@ -5437,11 +5799,21 @@
    "label": "qstn_Vz9WqQRNrj6j3C3X / part 0",
    "section": "human-resource-management",
    "topic": "human-resource-management-hrm",
-   "codes": [],
-   "pending": [
-    "spcpt_MwrmQ8kh9x5vVQkS",
-    "spcpt_7brF8KrmmqX2nsRp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6XVY4PJJmQjGBxCJ": {
    "kind": "question_part",
@@ -5459,10 +5831,16 @@
    "label": "qstn_FZTX9yyG2dhS5Jgy / part 0",
    "section": "human-resource-management",
    "topic": "human-resource-management-hrm",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_RJ5fT57vqQq4YTbC",
-    "spcpt_MwrmQ8kh9x5vVQkS"
+    "spcpt_RJ5fT57vqQq4YTbC"
    ]
   },
   "qstnprt_BydQr5wxBcHmzTWT": {
@@ -5511,11 +5889,22 @@
    "label": "qstn_vXmGhTs6jf2VxgFz / part 0",
    "section": "human-resource-management",
    "topic": "human-resource-management-hrm",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_RJ5fT57vqQq4YTbC",
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4"
+    "spcpt_RJ5fT57vqQq4YTbC"
    ]
   },
   "qstnprt_xdzHsPvGvCnvpcnX": {
@@ -5563,10 +5952,15 @@
    "label": "qstn_b8GWn5GG3Zjzkr7q / part 0",
    "section": "human-resource-management",
    "topic": "human-resource-management-hrm",
-   "codes": [],
-   "pending": [
-    "spcpt_7brF8KrmmqX2nsRp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zkxSs4KWDpMxTyVq": {
    "kind": "question_part",
@@ -5999,192 +6393,297 @@
    "label": "qstn_3R5JsGX25nkDsWvm / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_tPQ3HX5zyZFNZ9dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WZWwrZRMGGh9XfRT": {
    "kind": "question_part",
    "label": "qstn_yKqDZNtdMCwbJ4Wp / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_rVXPwzP8ZVXcfC34"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vpdzBkPhyr35F5y6": {
    "kind": "question_part",
    "label": "qstn_35fsThTFMCnXrvkG / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_d6PfyQ79YyqfvYgd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T7YjfrJxHVHk6W24": {
    "kind": "question_part",
    "label": "qstn_ZbK34M7HJfxxWZ6H / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_V67PvPwfCcFqv6hy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bn6HZdHngcyMHsYY": {
    "kind": "question_part",
    "label": "qstn_WFr9FR9s3VtYYV3X / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_tPQ3HX5zyZFNZ9dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GMXp3X5g53JYn3Sn": {
    "kind": "question_part",
    "label": "qstn_gzDHcDQ7Bst2rR9F / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_dzXCvvykbGG43ZKb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SxqCVcZMdXzqsbPB": {
    "kind": "question_part",
    "label": "qstn_J7dYCxkvR2bjbs4h / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_3ky4crMCr3qV8ygv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Wm9HQYP6q3S3d5Sx": {
    "kind": "question_part",
    "label": "qstn_4pQy35jwptsVr3Fg / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_GPrvVcNFdh3sHjMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NzshH88RqvgMvRkj": {
    "kind": "question_part",
    "label": "qstn_wqbjBJm9skrD3xg3 / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_3djjqqRTyyTTqjrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QMn93MQFJWTYhw9K": {
    "kind": "question_part",
    "label": "qstn_xNcZmmSMzSVTKN8n / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_TvDK4d3Kg4zQKKxR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FrPmC3pC2sNNdMDD": {
    "kind": "question_part",
    "label": "qstn_y3kNPr9rNrVVFVFK / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_d6PfyQ79YyqfvYgd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sGTKfH58yG2QdQpn": {
    "kind": "question_part",
    "label": "qstn_MYkcYcpqRNccr5wD / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_rVXPwzP8ZVXcfC34"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C6cfmqzKZwtRPpxH": {
    "kind": "question_part",
    "label": "qstn_h4cx2tqj7zNCnYvn / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_GPrvVcNFdh3sHjMc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SvJGGxJcRKkmX3S2": {
    "kind": "question_part",
    "label": "qstn_FGxrMxw3WHKymsK2 / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_TvDK4d3Kg4zQKKxR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FJd3wwCm9PrPKNrw": {
    "kind": "question_part",
    "label": "qstn_wNcPSYysyHznkkRy / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_rVXPwzP8ZVXcfC34"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9kf3D7F8XcjMsbXC": {
    "kind": "question_part",
    "label": "qstn_sczWzCK7wFZNcPG7 / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_rVXPwzP8ZVXcfC34",
-    "spcpt_3djjqqRTyyTTqjrC",
-    "spcpt_2BHWpstsF6GvCjGm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QBRxR7gRjCt6DTK2": {
    "kind": "question_part",
    "label": "qstn_ZftFvp2hJ448hGrN / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_2BHWpstsF6GvCjGm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pSZX5k8ZypYzqz7d": {
    "kind": "question_part",
    "label": "qstn_S7xWvXhBwqmwvHWH / part 0",
    "section": "human-resource-management",
    "topic": "management",
-   "codes": [],
-   "pending": [
-    "spcpt_2BHWpstsF6GvCjGm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GP6tqqHM7sC4BfhM": {
    "kind": "question_part",
    "label": "qstn_StFVKwSkCXXrN27g / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hdX7VhDnqJbpCNnn": {
    "kind": "question_part",
@@ -6201,21 +6700,36 @@
    "label": "qstn_85NF6tzwQYcwFXSd / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8f4jQ8zGsCg84bfh": {
    "kind": "question_part",
    "label": "qstn_7Tk2MwHRhvRZqvsM / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tgt3Cp3HqjQ5QVYx": {
    "kind": "question_part",
@@ -6232,21 +6746,37 @@
    "label": "qstn_jZH9nkvzPJ7TFQBz / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SXMR87CjhJ7qcrbK": {
    "kind": "question_part",
    "label": "qstn_xCRBb5BnXVy4b6DK / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KqZW6bhZpwnDNWCx",
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4"
+    "spcpt_KqZW6bhZpwnDNWCx"
    ]
   },
   "qstnprt_8NJjMBThTBshrD22": {
@@ -6254,11 +6784,22 @@
    "label": "qstn_WBTDRPmKyyN5ZYy6 / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KqZW6bhZpwnDNWCx",
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4"
+    "spcpt_KqZW6bhZpwnDNWCx"
    ]
   },
   "qstnprt_9SZstcTKyF9bs74B": {
@@ -6266,30 +6807,46 @@
    "label": "qstn_2bmzzCShSj3hvF5F / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nfP9wysyDtKn8yCw": {
    "kind": "question_part",
    "label": "qstn_TJjF2GVkBw9kxQjm / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_q5GW5bbrs4HDdvsh": {
    "kind": "question_part",
    "label": "qstn_gbVgNvq3ZvJ2FMM3 / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VNBxNSmCGc3rmvQK",
-    "spcpt_5pQYXh9vHYF8pwm4"
+    "spcpt_VNBxNSmCGc3rmvQK"
    ]
   },
   "qstnprt_kp6Gd4RPNP8bxm5q": {
@@ -6297,10 +6854,15 @@
    "label": "qstn_QZJfHqbcf68BbW2B / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NYY2yBMjmqxj7GMX": {
    "kind": "question_part",
@@ -6317,21 +6879,32 @@
    "label": "qstn_RrkbCJ8x5SFHfndV / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4T74pHNJP6T69CNd": {
    "kind": "question_part",
    "label": "qstn_DQ73d2wMndGbvXMV / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_yr953J85cRZGnD8n",
-    "spcpt_KqZW6bhZpwnDNWCx",
-    "spcpt_9ZqbfZBbHQqRmPck"
+    "spcpt_KqZW6bhZpwnDNWCx"
    ]
   },
   "qstnprt_wjwM9Ys5sYWhtZhg": {
@@ -6339,40 +6912,60 @@
    "label": "qstn_4qCNV6kq3XYfWZjh / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7hV3WnyY84r6bfsH": {
    "kind": "question_part",
    "label": "qstn_TRhBBR4B8SkCy6fQ / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JBRBffy6BJjf2Z9f": {
    "kind": "question_part",
    "label": "qstn_nrKB8mbbG3bvhrh6 / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KVHYdtxqWGVCJg9w": {
    "kind": "question_part",
    "label": "qstn_C8KsdYrtxJV7Yr9W / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FfYXqSFFwmXtYjRC": {
    "kind": "question_part",
@@ -6389,51 +6982,81 @@
    "label": "qstn_vPRtv8kK2sVYVNGQ / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PbdGGydp6M64SfYb": {
    "kind": "question_part",
    "label": "qstn_NY8gH9CKFjGsJ4by / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck",
-    "spcpt_5pQYXh9vHYF8pwm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ngYzhbYBfhCMtQ3W": {
    "kind": "question_part",
    "label": "qstn_JYfKCTgCvQDKMd3p / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GZCCHs3xBc2StnVN": {
    "kind": "question_part",
    "label": "qstn_8Kr9dJB3rmVwr27N / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YbsFsHd8HPnqj4tJ": {
    "kind": "question_part",
    "label": "qstn_B5S7wdyMfR3NTMN7 / part 0",
    "section": "human-resource-management",
    "topic": "motivation",
-   "codes": [],
-   "pending": [
-    "spcpt_9ZqbfZBbHQqRmPck"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j5DqSydxBD8fBRSd": {
    "kind": "question_part",
@@ -6675,10 +7298,15 @@
    "label": "qstn_SvySDMvvGqzyKY9d / part 0",
    "section": "marketing",
    "topic": "market-research",
-   "codes": [],
-   "pending": [
-    "spcpt_XF8XpMZ8qW8rrg9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PPZrDZdYYdnSWcN4": {
    "kind": "question_part",
@@ -6735,10 +7363,15 @@
    "label": "qstn_8tqtVYNrfGgHkB5f / part 0",
    "section": "marketing",
    "topic": "market-research",
-   "codes": [],
-   "pending": [
-    "spcpt_XF8XpMZ8qW8rrg9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ks2rMMmMqrHGhmmk": {
    "kind": "question_part",
@@ -6765,10 +7398,15 @@
    "label": "qstn_V2YsMWT3Hy8Krg6P / part 0",
    "section": "marketing",
    "topic": "market-research",
-   "codes": [],
-   "pending": [
-    "spcpt_XF8XpMZ8qW8rrg9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bfDfg46qnBTrT57S": {
    "kind": "question_part",
@@ -7782,20 +8420,30 @@
    "label": "qstn_ZVGQFkH8Mkj6B2JS / part 0",
    "section": "operations-management",
    "topic": "capacity-utilisation-and-outsourcing",
-   "codes": [],
-   "pending": [
-    "spcpt_QBqy5GYt9ZQSqQJd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QHQTh8s6FDQ8fkZN": {
    "kind": "question_part",
    "label": "qstn_qd7Pq8FD4GNWRzFy / part 0",
    "section": "operations-management",
    "topic": "capacity-utilisation-and-outsourcing",
-   "codes": [],
-   "pending": [
-    "spcpt_QBqy5GYt9ZQSqQJd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xy5B7nqgFbn4gMC5": {
    "kind": "question_part",
@@ -7842,10 +8490,15 @@
    "label": "qstn_TJ2WmXYhxdbs4rcn / part 0",
    "section": "operations-management",
    "topic": "capacity-utilisation-and-outsourcing",
-   "codes": [],
-   "pending": [
-    "spcpt_QBqy5GYt9ZQSqQJd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dqPDsd3phfjgSb85": {
    "kind": "question_part",
@@ -7902,10 +8555,15 @@
    "label": "qstn_rz36fjskFTpx4KR4 / part 0",
    "section": "operations-management",
    "topic": "capacity-utilisation-and-outsourcing",
-   "codes": [],
-   "pending": [
-    "spcpt_QBqy5GYt9ZQSqQJd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_khGhrkbgTN5nhZYj": {
    "kind": "question_part",
@@ -8496,11 +9154,21 @@
    "label": "qstn_p2ywJ6vXP2KQTXqr / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x",
-    "spcpt_MxFhW7whKdFyNfPs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DRSfXJKmmnjk6KRJ": {
    "kind": "question_part",
@@ -8527,10 +9195,15 @@
    "label": "qstn_zpJsJqZwhVT74Gyg / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FHXK3Z8W6NTpPV8Y": {
    "kind": "question_part",
@@ -8577,40 +9250,60 @@
    "label": "qstn_PjjhrssPz9wjRncy / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_MxFhW7whKdFyNfPs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fFrWPGcZZGPgXJKz": {
    "kind": "question_part",
    "label": "qstn_RCwVvzds2dqKjGsx / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_MxFhW7whKdFyNfPs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5YJ8byjvp38RP23m": {
    "kind": "question_part",
    "label": "qstn_nYFSp3WqFzpc9tt4 / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nss7tMQkJJTVJ4wt": {
    "kind": "question_part",
    "label": "qstn_tBvw5zkTGcd9bVQh / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8xFc23cg8FbnPX5W": {
    "kind": "question_part",
@@ -8637,9 +9330,15 @@
    "label": "qstn_6vcmn5xpbdZwv2VV / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x",
     "spcpt_cTm9hDd2CBmGxMRZ",
     "spcpt_c96P8QhrfMPvDPsy"
    ]
@@ -8649,10 +9348,15 @@
    "label": "qstn_kVcyYcQ2ZqVx2qSh / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_qdZVQ9cNnPNZGQ9x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4BfRrHRGzGdrGS5z": {
    "kind": "question_part",
@@ -8669,10 +9373,15 @@
    "label": "qstn_94ns4j76bY5shsR2 / part 0",
    "section": "operations-management",
    "topic": "quality-management",
-   "codes": [],
-   "pending": [
-    "spcpt_MxFhW7whKdFyNfPs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2Dzwqn8tYtDsT2YM": {
    "kind": "question_part",
@@ -8784,10 +9493,15 @@
    "label": "qstn_bPCQ9WZvkYgCfvS9 / part 0",
    "section": "operations-management",
    "topic": "the-nature-of-operations",
-   "codes": [],
-   "pending": [
-    "spcpt_Gbjy7rm7dD9Nh8CH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ddbdbkG8VqKKCDvf": {
    "kind": "question_part",
@@ -8846,10 +9560,15 @@
    "label": "qstn_hNRnzhZCfBzMPNXm / part 0",
    "section": "operations-management",
    "topic": "the-nature-of-operations",
-   "codes": [],
-   "pending": [
-    "spcpt_Gbjy7rm7dD9Nh8CH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FjqcMD7xG6Hx2sSY": {
    "kind": "question_part",
@@ -8876,20 +9595,30 @@
    "label": "qstn_Cw6FNDttFsQBtZ9x / part 0",
    "section": "operations-management",
    "topic": "the-nature-of-operations",
-   "codes": [],
-   "pending": [
-    "spcpt_Gbjy7rm7dD9Nh8CH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sF4wfnK3QF2w4n52": {
    "kind": "question_part",
    "label": "qstn_V5B43FfxMyCJ42xf / part 0",
    "section": "operations-management",
    "topic": "the-nature-of-operations",
-   "codes": [],
-   "pending": [
-    "spcpt_vXK2DxFgwJMV89JJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_BUSINESS_2023_2025:4.1.4",
+     "official_code": "4.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_47d2MbbdrGdFv9Jm": {
    "kind": "question_part",

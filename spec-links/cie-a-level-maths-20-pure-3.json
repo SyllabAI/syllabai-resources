@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 1400,
-  "items_with_codes": 0,
+  "items_with_codes": 51,
   "by_kind": {
    "notes": 79,
    "question_parts": 1321,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 3,
+   "question_parts": 48,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 84,
   "parts": 1688,
   "universe_ids": 84,
-  "universe_resolved": 0,
-  "pending_refs": 1772,
-  "flashcards_discovered_uncoded": 473
+  "universe_resolved": 3,
+  "pending_refs": 1721,
+  "flashcards_discovered_uncoded": 473,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 3,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 3,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 81,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 14,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 66
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_64KPvjqtjbDTgxXQ": {
@@ -284,10 +320,15 @@
    "label": "Square Roots of Complex Numbers - A Level Maths Revision",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_32hXpM9wSNZbhXJk": {
    "kind": "note",
@@ -494,10 +535,15 @@
    "label": "Integration by Parts | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_zNJGNnMKzqrPXNt9": {
    "kind": "note",
@@ -544,10 +590,15 @@
    "label": "Laws of Logarithms | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_tny9XWPn2fNVPTFc": {
    "kind": "note",
@@ -4797,10 +4848,15 @@
    "label": "qstn_BQ3YNMpTmbbdJrjz / part 1",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zZtBQNBT8PxrnJQg": {
    "kind": "question_part",
@@ -4919,40 +4975,60 @@
    "label": "qstn_9H8fvZG3jn7xBZwf / part 0",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zBDsfrp92cS69ngY": {
    "kind": "question_part",
    "label": "qstn_9H8fvZG3jn7xBZwf / part 1",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bhCh4CQPdjWMJ7hX": {
    "kind": "question_part",
    "label": "qstn_9H8fvZG3jn7xBZwf / part 2",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4M6YQhHKbKPhSy6m": {
    "kind": "question_part",
    "label": "qstn_9H8fvZG3jn7xBZwf / part 3",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KXj8YsGbyjZsm5HD": {
    "kind": "question_part",
@@ -5029,10 +5105,15 @@
    "label": "qstn_JM56GB9p5Yh2DQ7J / part 0",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_znsJYkdBtRdCgmQz": {
    "kind": "question_part",
@@ -5140,20 +5221,30 @@
    "label": "qstn_n39kzxY2HVFtSwMW / part 0",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wzdxdMFdTvjC3qXP": {
    "kind": "question_part",
    "label": "qstn_n39kzxY2HVFtSwMW / part 1",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
-   "pending": [
-    "spcpt_9MmmwCK8g2Kp2Tb9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QD6qmG8PpZyBdQ5t": {
    "kind": "question_part",
@@ -7708,10 +7799,16 @@
    "label": "qstn_rx4PjS5vVDwTSrwW / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_wyhNQnwTntpyh6Zq",
-    "spcpt_PCpf3jBwZjZyVDhQ"
+    "spcpt_wyhNQnwTntpyh6Zq"
    ]
   },
   "qstnprt_hcwxfJcxKtDTfyq6": {
@@ -7772,29 +7869,45 @@
    "label": "qstn_Qz3qNG2rVPfghqp9 / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m2y7J6zWhVMjyYzP": {
    "kind": "question_part",
    "label": "qstn_Qz3qNG2rVPfghqp9 / part 1",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZFxZ5v3RDkjBrGgc": {
    "kind": "question_part",
    "label": "qstn_PKTm2QzRSDQQXmqP / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ",
     "spcpt_JwrdCCvhVRQqRksD"
    ]
   },
@@ -7898,10 +8011,15 @@
    "label": "qstn_5MyCQmx3F7dPnBk6 / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2hXbV8h9dprZ4F95": {
    "kind": "question_part",
@@ -8053,20 +8171,30 @@
    "label": "qstn_hf6gPPKTKq4Kz6VS / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hw89YDGxFB4P2bzN": {
    "kind": "question_part",
    "label": "qstn_hf6gPPKTKq4Kz6VS / part 1",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SPK9cFPpkDfK6mPx": {
    "kind": "question_part",
@@ -8254,10 +8382,15 @@
    "label": "qstn_VNGrT293ys55bw6x / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XHRrJHPc9WhZd9dg": {
    "kind": "question_part",
@@ -8503,10 +8636,15 @@
    "label": "qstn_hrW4Md75sjhpsDdP / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NGFPgtYN8Sn9W8kX": {
    "kind": "question_part",
@@ -8604,10 +8742,15 @@
    "label": "qstn_4KzHrWfXx4dcW3DF / part 0",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_ysNvB269Jc4fKjT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VJ7WCbYFS6w8Ygp8": {
    "kind": "question_part",
@@ -8635,10 +8778,15 @@
    "label": "qstn_ZpxRSRqQ32HC7Xq3 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cxYZdGjryQX5ggDy": {
    "kind": "question_part",
@@ -8665,130 +8813,195 @@
    "label": "qstn_RVwz4gqtBJSFvbDY / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fDXbvNjtZ7d9S7PP": {
    "kind": "question_part",
    "label": "qstn_PjCPMVqwZbShZSn2 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yfpYRHYf3WTXxG8H": {
    "kind": "question_part",
    "label": "qstn_GWkwpY9g9K2wnHHx / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9nYcC5sHWhwBq5wt": {
    "kind": "question_part",
    "label": "qstn_dCmFMykSgBXCZVGX / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5t87Wxt2J295Cfg4": {
    "kind": "question_part",
    "label": "qstn_CfBngcrddwy3jbWY / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d8TnbP5f3bjKyx62": {
    "kind": "question_part",
    "label": "qstn_CbRmGZwGFMbCxFnt / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ncjDm36TTMscQJby": {
    "kind": "question_part",
    "label": "qstn_bSnfMRr5v27cYgmM / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nT3VMVKyxmCPvjQX": {
    "kind": "question_part",
    "label": "qstn_ykJ9KfTjWq5NYHSQ / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zWy5ZZ3NvsHkjwzG": {
    "kind": "question_part",
    "label": "qstn_xCT2WVXt78YYtNjF / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SZdXPJ95tkvsJP38": {
    "kind": "question_part",
    "label": "qstn_nHy5DSMWTrSmTFBt / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vpzBfhfCzYc8Vwvr": {
    "kind": "question_part",
    "label": "qstn_m3G93rSwMqSFR2Zp / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RM9488RhtpgrDDBp": {
    "kind": "question_part",
    "label": "qstn_kQsfXCqn4JK9H7Yx / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hXvB7sJ7zGSyNppW": {
    "kind": "question_part",
    "label": "qstn_9pPhgzYXTnTWcQD4 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dXYpws54S6pWxNVn": {
    "kind": "question_part",
@@ -8805,30 +9018,45 @@
    "label": "qstn_3kQjP62yKjtCH2w2 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h4skpRm9jTBCNVhN": {
    "kind": "question_part",
    "label": "qstn_3kQjP62yKjtCH2w2 / part 1",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y2tbtxcS22M6kJMZ": {
    "kind": "question_part",
    "label": "qstn_yQT9QXgccS84FdPx / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p3ZZD2wvBSS3wZ5X": {
    "kind": "question_part",
@@ -8865,50 +9093,75 @@
    "label": "qstn_NcGkd8gd4yRMBxg3 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gqSFWypYH9C3pBnV": {
    "kind": "question_part",
    "label": "qstn_DrFR6PNG5h6VvzZP / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8JW9PRcSvXCRbh8f": {
    "kind": "question_part",
    "label": "qstn_DrFR6PNG5h6VvzZP / part 1",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nn6kwZ83SSczNwts": {
    "kind": "question_part",
    "label": "qstn_D2xRtNRkqRwgMyVH / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d6JnQGyWJSGv4YCZ": {
    "kind": "question_part",
    "label": "qstn_D2xRtNRkqRwgMyVH / part 1",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j9GSqJ63WZ3BgwbQ": {
    "kind": "question_part",
@@ -8935,10 +9188,15 @@
    "label": "qstn_8pxQ8sT3FJ7VdN3j / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_q75P228772bbqSWV": {
    "kind": "question_part",
@@ -8955,30 +9213,45 @@
    "label": "qstn_xNfqSRsk6Skss4Df / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ygYTt6ZCM3swBwSQ": {
    "kind": "question_part",
    "label": "qstn_RcMsWPrvBRB76bYN / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qdJG8yGrzDxNmZXF": {
    "kind": "question_part",
    "label": "qstn_RcMsWPrvBRB76bYN / part 1",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wNjZcZty3YnZ5QHV": {
    "kind": "question_part",
@@ -9005,10 +9278,15 @@
    "label": "qstn_hC4BHGcxZr7DprM3 / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C2tVdM8fctnhCxDd": {
    "kind": "question_part",
@@ -9045,30 +9323,45 @@
    "label": "qstn_GkxRVk6bRvWZnS9Y / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZK87JTDgMYHFry44": {
    "kind": "question_part",
    "label": "qstn_BsywZ25W76tHQh2r / part 0",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x5V6S86QXzD5wd9S": {
    "kind": "question_part",
    "label": "qstn_BsywZ25W76tHQh2r / part 1",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_PCpf3jBwZjZyVDhQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mctVG9sbmQKrRKxY": {
    "kind": "question_part",

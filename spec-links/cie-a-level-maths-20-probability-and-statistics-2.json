@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 580,
-  "items_with_codes": 0,
+  "items_with_codes": 77,
   "by_kind": {
    "notes": 16,
    "question_parts": 564,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 2,
+   "question_parts": 75,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 28,
   "parts": 787,
   "universe_ids": 28,
-  "universe_resolved": 0,
-  "pending_refs": 815,
-  "flashcards_discovered_uncoded": 130
+  "universe_resolved": 2,
+  "pending_refs": 738,
+  "flashcards_discovered_uncoded": 130,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 2,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 2,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 26,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 8,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 18
+   },
+   "dangling_eq_refs_pending": 114
+  }
  },
  "items": {
   "rn_vKg66qNHVRRnsjPY": {
@@ -91,10 +127,15 @@
    "label": "Type I and Type II Errors - A Level Maths Revision Notes",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_7pKsh9Yyrwm832Tt": {
    "kind": "note",
@@ -189,9 +230,15 @@
    "label": "Confidence Intervals - A Level Maths Revision Notes",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_4rg88C35yg494Krw",
     "spcpt_WrdZ9XXxJsS2Jrd3"
    ]
   },
@@ -221,10 +268,16 @@
    "label": "qstn_zXn9fzHXV4NqnfPy / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QmfvPPDFyty4DBtv",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_QmfvPPDFyty4DBtv"
    ]
   },
   "qstnprt_f5YTy7XShtpD2MZ3": {
@@ -262,20 +315,31 @@
    "label": "qstn_y7CyhyHVpmwYzTYB / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P44MgspkgbDgk4KY": {
    "kind": "question_part",
    "label": "qstn_y7CyhyHVpmwYzTYB / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_CwT6FJQTgghng8vY": {
@@ -283,10 +347,16 @@
    "label": "qstn_y7CyhyHVpmwYzTYB / part 3",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mWctnbvnpcSVbDh5",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mWctnbvnpcSVbDh5"
    ]
   },
   "qstnprt_sTSFYwxSYctMMJQq": {
@@ -294,10 +364,16 @@
    "label": "qstn_y7CyhyHVpmwYzTYB / part 4",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_hF5Yh4D8CnffZg2j": {
@@ -326,10 +402,16 @@
    "label": "qstn_v59kJ6g77XNx7kt5 / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_cCkTDQsVGPm9JC9J": {
@@ -422,10 +504,16 @@
    "label": "qstn_jcn2Z74Hjxd6gdh5 / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_B5msXBYdx8zyKPcr": {
@@ -475,10 +563,15 @@
    "label": "qstn_WCqmZyQXyvD7rxkD / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fTMggS683RTkkWDv": {
    "kind": "question_part",
@@ -580,10 +673,16 @@
    "label": "qstn_gNJFhGVq2VVCn7Xk / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_nDQxkmrg3zG75zhz": {
@@ -727,10 +826,16 @@
    "label": "qstn_n2ZQHt3N5KS9GSzt / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_3ng5Twpd5X3jcvPT": {
@@ -738,10 +843,15 @@
    "label": "qstn_n2ZQHt3N5KS9GSzt / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JS2bbqr24HNB4S6M": {
    "kind": "question_part",
@@ -758,10 +868,16 @@
    "label": "qstn_kFB7s8T5GwYGYMSc / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mWctnbvnpcSVbDh5",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mWctnbvnpcSVbDh5"
    ]
   },
   "qstnprt_YwVmVSd7JT87ymyR": {
@@ -780,10 +896,16 @@
    "label": "qstn_hgjhGps92gZNJmyM / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_vmRbYyzN5S29tz72": {
@@ -802,10 +924,16 @@
    "label": "qstn_df5t4TZ2MMbWRV9x / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mPVJHc5CKHN5mQyS",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mPVJHc5CKHN5mQyS"
    ]
   },
   "qstnprt_KbJt8M4SmYzYkBph": {
@@ -823,10 +951,16 @@
    "label": "qstn_cMF2mfYnjHw9dwbS / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QmfvPPDFyty4DBtv",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_QmfvPPDFyty4DBtv"
    ]
   },
   "qstnprt_HCCRV6pVD5BfmRRT": {
@@ -845,9 +979,15 @@
    "label": "qstn_5wchJhTdv3SmWnj5 / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_FyrqXqf8PCg6CTb8"
    ]
   },
@@ -867,10 +1007,15 @@
    "label": "qstn_5wchJhTdv3SmWnj5 / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NRKxS7VHHVwp87h4": {
    "kind": "question_part",
@@ -1036,19 +1181,30 @@
    "label": "qstn_6xBPJ49ztWk5DZZK / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hmRwVqKNzcBHFsmV": {
    "kind": "question_part",
    "label": "qstn_6xBPJ49ztWk5DZZK / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-binomial-and-poisson-distributions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_FyrqXqf8PCg6CTb8"
    ]
   },
@@ -1120,10 +1276,16 @@
    "label": "qstn_SpyXgPBdqwB8WvRw / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mPVJHc5CKHN5mQyS",
-    "spcpt_4rg88C35yg494Krw"
+    "spcpt_mPVJHc5CKHN5mQyS"
    ]
   },
   "qstnprt_QS8T35wjhk23kG8H": {
@@ -1195,10 +1357,15 @@
    "label": "qstn_mvbQwHBBgbnf4f83 / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hmnxD92rmrWvdSZB": {
    "kind": "question_part",
@@ -1259,10 +1426,16 @@
    "label": "qstn_f5yjXKBKtR47Krgx / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mPVJHc5CKHN5mQyS",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mPVJHc5CKHN5mQyS"
    ]
   },
   "qstnprt_45Pz8hX3Y4YH4Ngz": {
@@ -1270,19 +1443,30 @@
    "label": "qstn_f5yjXKBKtR47Krgx / part 3",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6xCCWwkh5S9PxjvF": {
    "kind": "question_part",
    "label": "qstn_bnQ62776Ny9htjWP / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_DBjZPz9tFvYW9SQs"
    ]
   },
@@ -1421,19 +1605,30 @@
    "label": "qstn_GWcNrSCDjcD9CJXF / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zjwqft7JQx66PzfX": {
    "kind": "question_part",
    "label": "qstn_GWcNrSCDjcD9CJXF / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_DBjZPz9tFvYW9SQs"
    ]
   },
@@ -1442,10 +1637,16 @@
    "label": "qstn_GWcNrSCDjcD9CJXF / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_BF3xmNKrdPsBx4xW": {
@@ -1637,10 +1838,16 @@
    "label": "qstn_KT6RxjKrj89WtYqS / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_wbMtdTQT9CRh7RJ8": {
@@ -1648,10 +1855,16 @@
    "label": "qstn_KT6RxjKrj89WtYqS / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_cHKN3rM229DtQczd": {
@@ -1680,10 +1893,16 @@
    "label": "qstn_JdrwTDpdfVJzFZvh / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_qSSxrYhTcYQfT5vD": {
@@ -1691,10 +1910,16 @@
    "label": "qstn_JdrwTDpdfVJzFZvh / part 3",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_khMnCCKvzPBXzDVw": {
@@ -1861,10 +2086,16 @@
    "label": "qstn_hcFr48yp6Shswqxg / part 3",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mPVJHc5CKHN5mQyS",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mPVJHc5CKHN5mQyS"
    ]
   },
   "qstnprt_38NjvSqN65RtPxwN": {
@@ -1872,10 +2103,16 @@
    "label": "qstn_hcFr48yp6Shswqxg / part 4",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_BB97NPftGzg6yq8S": {
@@ -1894,10 +2131,16 @@
    "label": "qstn_gpMwsxXnRm4fqkKg / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_qMRxfGnrSmJTNC7X": {
@@ -1971,10 +2214,16 @@
    "label": "qstn_4QXczCMnJwKBvzfP / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing-normal-distribution",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_mPVJHc5CKHN5mQyS",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_mPVJHc5CKHN5mQyS"
    ]
   },
   "qstnprt_TJsh3H7gDFGpN4mq": {
@@ -1993,9 +2242,15 @@
    "label": "qstn_zg7YvW8bj8dQ5tDz / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_FyrqXqf8PCg6CTb8"
    ]
   },
@@ -2139,20 +2394,30 @@
    "label": "qstn_D4xpKMCNDjPFxdJY / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QP3dQrX6VGRdhBS8": {
    "kind": "question_part",
    "label": "qstn_D4xpKMCNDjPFxdJY / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rG84S5YxhmSkHd5n": {
    "kind": "question_part",
@@ -2331,20 +2596,30 @@
    "label": "qstn_jkC4kdMpkfQrbXXY / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bcMD8HCdM4MvQcxh": {
    "kind": "question_part",
    "label": "qstn_jkC4kdMpkfQrbXXY / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XQz4N2gVGbfbQXw7": {
    "kind": "question_part",
@@ -2472,20 +2747,30 @@
    "label": "qstn_qyxqMjHVBd9Y8JqS / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_77B2RkwpF5Tj4y5c": {
    "kind": "question_part",
    "label": "qstn_qyxqMjHVBd9Y8JqS / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sP5kmfV66WDDdpcH": {
    "kind": "question_part",
@@ -2627,30 +2912,45 @@
    "label": "qstn_SbFJZVqB4VVPKPv4 / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SX7ZMc8dpvwmMWFY": {
    "kind": "question_part",
    "label": "qstn_SbFJZVqB4VVPKPv4 / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g8rTVDVdRBKPzzvh": {
    "kind": "question_part",
    "label": "qstn_SbFJZVqB4VVPKPv4 / part 2",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
-   "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PJgHFKJm59vJ84nn": {
    "kind": "question_part",
@@ -2688,9 +2988,15 @@
    "label": "qstn_gYCMqrBJkcwKbv8v / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_FyrqXqf8PCg6CTb8"
    ]
   },
@@ -2699,10 +3005,16 @@
    "label": "qstn_gYCMqrBJkcwKbv8v / part 1",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SXgS5mjTMgfKTPsD",
-    "spcpt_KCFcWTMfnmj3W3yc"
+    "spcpt_SXgS5mjTMgfKTPsD"
    ]
   },
   "qstnprt_rm58T5v7DyJvS3mH": {
@@ -2710,9 +3022,15 @@
    "label": "qstn_fMW9ZFTHgJDvt88b / part 0",
    "section": "hypothesis-testing",
    "topic": "hypothesis-testing",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.5.5",
+     "official_code": "6.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCFcWTMfnmj3W3yc",
     "spcpt_FyrqXqf8PCg6CTb8"
    ]
   },
@@ -5321,10 +5639,16 @@
    "label": "qstn_VRV7KDSKq3YxCzpB / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fRD8dzP7gVHcXjn6",
-    "spcpt_4rg88C35yg494Krw"
+    "spcpt_fRD8dzP7gVHcXjn6"
    ]
   },
   "qstnprt_S4HfHhjfzMSTzTQy": {
@@ -5332,10 +5656,16 @@
    "label": "qstn_VRV7KDSKq3YxCzpB / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_JpjTxPV33Mm5vDvf",
-    "spcpt_4rg88C35yg494Krw"
+    "spcpt_JpjTxPV33Mm5vDvf"
    ]
   },
   "qstnprt_bG6txXT89PF72Q7P": {
@@ -5343,60 +5673,90 @@
    "label": "qstn_t8v4mBTFbWB65qMj / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RB2Rwd98pTjjGy6M": {
    "kind": "question_part",
    "label": "qstn_t8v4mBTFbWB65qMj / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KK6WM857ztbTNdND": {
    "kind": "question_part",
    "label": "qstn_t8v4mBTFbWB65qMj / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gBtwGyfJvy3tRsFc": {
    "kind": "question_part",
    "label": "qstn_pRS5kwZvP5r9dXMK / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dJMfysz7hC5DJy2b": {
    "kind": "question_part",
    "label": "qstn_pRS5kwZvP5r9dXMK / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HNyW8nQbwGBt3DX7": {
    "kind": "question_part",
    "label": "qstn_pRS5kwZvP5r9dXMK / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SBPJXvcnC3tR9XxT": {
    "kind": "question_part",
@@ -5425,10 +5785,15 @@
    "label": "qstn_p9jSzf349p9QbCq6 / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jXCzmMbnX5X8B339": {
    "kind": "question_part",
@@ -5476,10 +5841,15 @@
    "label": "qstn_GGFzfmvB7Cm765pV / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nry5yqFQ4gv5365x": {
    "kind": "question_part",
@@ -5528,20 +5898,30 @@
    "label": "qstn_XqHjDvqNgyQ9QhsP / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6VJ8mCBMmQxTYSk7": {
    "kind": "question_part",
    "label": "qstn_XqHjDvqNgyQ9QhsP / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9RWK9tBFhpm9fYtR": {
    "kind": "question_part",
@@ -5670,10 +6050,16 @@
    "label": "qstn_VpvrZFHJK7VRHxq6 / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fRD8dzP7gVHcXjn6",
-    "spcpt_4rg88C35yg494Krw"
+    "spcpt_fRD8dzP7gVHcXjn6"
    ]
   },
   "qstnprt_4rfd5gpgbm5t8hkq": {
@@ -5691,10 +6077,16 @@
    "label": "qstn_VpvrZFHJK7VRHxq6 / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_B8jpsFGFMWZ2ywS5",
-    "spcpt_4rg88C35yg494Krw"
+    "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
   "qstnprt_NzJPW3P7Nsngjknv": {
@@ -5702,10 +6094,15 @@
    "label": "qstn_t9wQ7c2Wc2Py97kF / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8FFdSvmQgms8yy6T": {
    "kind": "question_part",
@@ -5722,20 +6119,30 @@
    "label": "qstn_t9wQ7c2Wc2Py97kF / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nyCcpgvnph6pS2vN": {
    "kind": "question_part",
    "label": "qstn_t9wQ7c2Wc2Py97kF / part 3",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NBBDJN8w6sxbC9Vs": {
    "kind": "question_part",
@@ -5784,10 +6191,15 @@
    "label": "qstn_KC6qRYzZZbPbvzCx / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_StYJt2H7QxXp532p": {
    "kind": "question_part",
@@ -5804,10 +6216,15 @@
    "label": "qstn_KC6qRYzZZbPbvzCx / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FH7x7Mst6Xd6hY2S": {
    "kind": "question_part",
@@ -5844,30 +6261,45 @@
    "label": "qstn_HjJPjSMMZ7bfdVHH / part 0",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N4vhB3JxKDYbsbr6": {
    "kind": "question_part",
    "label": "qstn_HjJPjSMMZ7bfdVHH / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W8tkxdg8mhSCkyqy": {
    "kind": "question_part",
    "label": "qstn_HjJPjSMMZ7bfdVHH / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9fStXHm9yh8TcsQb": {
    "kind": "question_part",
@@ -5884,30 +6316,45 @@
    "label": "qstn_9xRGkZPDKzxFP7Yb / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DkccJ8g9rCBnRQwv": {
    "kind": "question_part",
    "label": "qstn_9xRGkZPDKzxFP7Yb / part 2",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XZhZwKYGQWNNR3xS": {
    "kind": "question_part",
    "label": "qstn_9xRGkZPDKzxFP7Yb / part 3",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mg5VcygGv2wKFGnh": {
    "kind": "question_part",
@@ -6034,10 +6481,15 @@
    "label": "qstn_jTc2hZ9fvfkgwSyT / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7Zb63Crk2pntW9ZB": {
    "kind": "question_part",
@@ -6054,10 +6506,15 @@
    "label": "qstn_923SxgjJb3TmdnNP / part 1",
    "section": "statistical-sampling-and-estimation",
    "topic": "sampling-and-estimation",
-   "codes": [],
-   "pending": [
-    "spcpt_4rg88C35yg494Krw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NGJc6NjR2Y7zvwq2": {
    "kind": "question_part",

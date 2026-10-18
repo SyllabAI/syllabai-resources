@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-maths-international-maths-2025-2027",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 1639,
-  "items_with_codes": 0,
+  "items_with_codes": 235,
   "by_kind": {
    "notes": 178,
    "question_parts": 1461,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 26,
+   "question_parts": 209,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 189,
   "parts": 2001,
   "universe_ids": 189,
-  "universe_resolved": 0,
-  "pending_refs": 2190,
-  "flashcards_discovered_uncoded": 971
+  "universe_resolved": 26,
+  "pending_refs": 1954,
+  "flashcards_discovered_uncoded": 971,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 26,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 26,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 163,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 7,
+    "no_unique_identity": 156
+   },
+   "dangling_eq_refs_pending": 16
+  }
  },
  "items": {
   "rn_XDKBYvZP5QNfgHTx": {
@@ -191,10 +227,15 @@
    "label": "Exponential Growth & Decay | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "exponentials-and-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_qqvSFN8pdPKVGKCR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.16.1",
+     "official_code": "E1.16.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_c2m93xXbwc8GhmJb": {
    "kind": "note",
@@ -251,10 +292,15 @@
    "label": "Domain and Range - IGCSE Maths Revision Notes",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_2w6yB8pYShK9mGRb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.1",
+     "official_code": "E3.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_FPdjpQQ9Q6qgVxHV": {
    "kind": "note",
@@ -271,10 +317,15 @@
    "label": "Inverse Functions - IGCSE Maths Revision Notes",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_sgBdcX2qJKy8NtkT": {
    "kind": "note",
@@ -301,10 +352,15 @@
    "label": "Collecting Like Terms | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "introduction-to-algebra",
-   "codes": [],
-   "pending": [
-    "spcpt_rsCdKqXKjhfmkyqT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.2.1",
+     "official_code": "E2.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_tDSfZHFrXn2y7zsk": {
    "kind": "note",
@@ -351,10 +407,15 @@
    "label": "Inverse Proportion | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_SFJDv96KP6Tz56Cm": {
    "kind": "note",
@@ -391,10 +452,15 @@
    "label": "The Quadratic Formula | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_RgxwYrKNzVy9ncYF": {
    "kind": "note",
@@ -501,20 +567,30 @@
    "label": "Length of a Line | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_SSvGSF9kjwYMBR6F": {
    "kind": "note",
    "label": "Midpoint of a Line | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_84hZy4pDd8nBGN3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_f2qzYWb8xTg84s9G": {
    "kind": "note",
@@ -561,10 +637,15 @@
    "label": "Parallel Lines | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "coordinate-geometry-and-graphs",
    "topic": "straight-line-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_qPRh2fycSMYwytcV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.5.2",
+     "official_code": "E5.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_Xp6BwXFDJSRcMw4d": {
    "kind": "note",
@@ -832,10 +913,15 @@
    "label": "Perimeter | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_FZ43cs6fQgvgdVwH": {
    "kind": "note",
@@ -902,10 +988,15 @@
    "label": "Similarity | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "lengths-areas-and-volumes",
    "topic": "congruence-and-similarity",
-   "codes": [],
-   "pending": [
-    "spcpt_HcBpSfpzpdZqCFXk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.3.3",
+     "official_code": "E5.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_PM6Txf52K8HwTfhR": {
    "kind": "note",
@@ -922,10 +1013,15 @@
    "label": "Surface Area | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_3MSrpsHhDSydTCPf": {
    "kind": "note",
@@ -952,10 +1048,15 @@
    "label": "Speed | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "number",
    "topic": "compound-measures-and-speed",
-   "codes": [],
-   "pending": [
-    "spcpt_fjrhtKRwCZcZyHpP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.11.2",
+     "official_code": "E1.11.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_57F55mFpWXqbCG5s": {
    "kind": "note",
@@ -1134,10 +1235,15 @@
    "label": "Reverse Percentages | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_88DPWyhHkGSPW4Nf": {
    "kind": "note",
@@ -1225,10 +1331,15 @@
    "label": "Ratios | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_j374f4KYwfyj2dNn": {
    "kind": "note",
@@ -1255,9 +1366,15 @@
    "label": "Set Notation & Venn Diagrams | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw",
     "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
@@ -1276,10 +1393,15 @@
    "label": "Depreciation | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "number",
    "topic": "simple-and-compound-interest",
-   "codes": [],
-   "pending": [
-    "spcpt_rDHZfZ8PrdwXcT2y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.16.1",
+     "official_code": "E1.16.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_TVyThzHTD5VvGJ4M": {
    "kind": "note",
@@ -1377,9 +1499,15 @@
    "label": "Relative & Expected Frequency | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E9.2.1",
+     "official_code": "E9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_bPTTmJSGkKv2PDc5",
     "spcpt_8GsFXwdQTJymxXw8"
    ]
   },
@@ -1408,10 +1536,15 @@
    "label": "Two-Way Tables | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
-   "pending": [
-    "spcpt_Mqy7bXbYyFBwKTsV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.1.1",
+     "official_code": "E10.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_BfhsHDbPHHXW7xmV": {
    "kind": "note",
@@ -1468,10 +1601,15 @@
    "label": "Angles of Elevation & Depression | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "pythagoras-and-trigonometry",
    "topic": "right-angled-triangles",
-   "codes": [],
-   "pending": [
-    "spcpt_9JzR7VMzsQqT4KHq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.4",
+     "official_code": "E7.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_z4GpP3dQzzdbKgjp": {
    "kind": "note",
@@ -1618,10 +1756,15 @@
    "label": "Discrete & Continuous Data | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "averages-ranges-and-comparing-data",
-   "codes": [],
-   "pending": [
-    "spcpt_QWXhzVp2S3VYZdZc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.3.1",
+     "official_code": "E10.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_NZwfv927gy35vn6z": {
    "kind": "note",
@@ -1698,19 +1841,30 @@
    "label": "Line of Best Fit - Maths IGCSE Revision Notes",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_QXHybhKkY7YXjZxb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_X86vRkMNGKkFy9gv": {
    "kind": "note",
    "label": "Scatter Graphs & Correlation | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -1739,10 +1893,15 @@
    "label": "Pie Charts | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_kbd8qTg47M53KDnc": {
    "kind": "note",
@@ -1759,10 +1918,15 @@
    "label": "Stem & Leaf Diagrams | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_KfNxwJRB5wFVKbHw": {
    "kind": "note",
@@ -1820,10 +1984,15 @@
    "label": "Magnitude of a Vector | Cambridge (CIE) IGCSE International Maths Revision Notes 2023",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_kwftGG9RJ8DHqtjg": {
    "kind": "note",
@@ -1860,10 +2029,16 @@
    "label": "qstn_WfSCscqMDhn8CkfB / part 0",
    "section": "algebra-and-sequences",
    "topic": "algebraic-fractions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xwx7PVk7fQ5QpdMk",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_xwx7PVk7fQ5QpdMk"
    ]
   },
   "qstnprt_wHDcvTNR8zMkWSGf": {
@@ -2443,20 +2618,30 @@
    "label": "qstn_7ZmHKHkMQMX4jMsS / part 0",
    "section": "algebra-and-sequences",
    "topic": "exponentials-and-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_qqvSFN8pdPKVGKCR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.16.1",
+     "official_code": "E1.16.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sC3D42tSZKDBTTnm": {
    "kind": "question_part",
    "label": "qstn_7ZmHKHkMQMX4jMsS / part 1",
    "section": "algebra-and-sequences",
    "topic": "exponentials-and-logarithms",
-   "codes": [],
-   "pending": [
-    "spcpt_qqvSFN8pdPKVGKCR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.16.1",
+     "official_code": "E1.16.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WR9tPd4pVmcdKh9F": {
    "kind": "question_part",
@@ -2473,9 +2658,15 @@
    "label": "qstn_wg84GT7Rk5B5jCyy / part 0",
    "section": "algebra-and-sequences",
    "topic": "exponentials-and-logarithms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.16.1",
+     "official_code": "E1.16.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qqvSFN8pdPKVGKCR",
     "spcpt_6RvsM8sgsQBvtjGP"
    ]
   },
@@ -2588,10 +2779,16 @@
    "label": "qstn_Jn324VcpdgwxCQVq / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VgH3YPmpp6Yqy9KC",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
   "qstnprt_dnTxKPWxdWrnSS6B": {
@@ -2651,9 +2848,15 @@
    "label": "qstn_BKtKgxc5tRWP8WXs / part 2",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_6tmCTQJYPsTdKKZ6"
    ]
   },
@@ -2726,11 +2929,17 @@
    "label": "qstn_vCSp5Br7qfwZYMzB / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_VgH3YPmpp6Yqy9KC",
-    "spcpt_dxtWxKmTWPrYkWt3",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_dxtWxKmTWPrYkWt3"
    ]
   },
   "qstnprt_3KJKcHJ6jTjHDkK7": {
@@ -2780,12 +2989,18 @@
    "label": "qstn_s9CvSVGgt2Brz5Cp / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_VgH3YPmpp6Yqy9KC",
     "spcpt_djG6mt4Gk3T4wJwC",
-    "spcpt_6tmCTQJYPsTdKKZ6",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_6tmCTQJYPsTdKKZ6"
    ]
   },
   "qstnprt_vZcTxgJWfFj4Kmmj": {
@@ -2825,10 +3040,15 @@
    "label": "qstn_QWDjZzKwh8ZwMD5g / part 2",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_crnTkZmN3tHgBcw8": {
    "kind": "question_part",
@@ -2888,10 +3108,15 @@
    "label": "qstn_MjfzssxGX7R56NC8 / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KzHYGG2jKXWhMjC2": {
    "kind": "question_part",
@@ -3048,10 +3273,15 @@
    "label": "qstn_dC2XsPg9XKyqKkQn / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CY6sTnvbbcz7sQHc": {
    "kind": "question_part",
@@ -3119,10 +3349,15 @@
    "label": "qstn_xRqCF74N79NMY9R5 / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yqzgzw5kR2WXS5w6": {
    "kind": "question_part",
@@ -3139,19 +3374,30 @@
    "label": "qstn_vgzmrQnbM58ZGVNm / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x7hMpzmVctfSH6s2": {
    "kind": "question_part",
    "label": "qstn_vFQX7794jV4HncMs / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_vhWwR7cbywTfdzjs"
    ]
   },
@@ -3181,9 +3427,15 @@
    "label": "qstn_tMJNkZxskFZbXDkD / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_myBDCxnzv7DGRssV"
    ]
   },
@@ -3202,9 +3454,15 @@
    "label": "qstn_T2qXWY73nKbZjKDs / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_vhWwR7cbywTfdzjs"
    ]
   },
@@ -3224,10 +3482,15 @@
    "label": "qstn_S8ry5hTggpn6Cjr8 / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X4bfXwK7qmMQFH2j": {
    "kind": "question_part",
@@ -3275,9 +3538,15 @@
    "label": "qstn_QKV58Jj48fTBJ87F / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_myBDCxnzv7DGRssV"
    ]
   },
@@ -3326,9 +3595,15 @@
    "label": "qstn_jsDT8rnkRVKjhsCy / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_vhWwR7cbywTfdzjs"
    ]
   },
@@ -3348,10 +3623,15 @@
    "label": "qstn_Gtk7yZWxxcxZDzss / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Mp3M42cSCKRRcywh": {
    "kind": "question_part",
@@ -3368,10 +3648,15 @@
    "label": "qstn_gsfdV2PxZnnyjsGT / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T8ffPcdDCVnZTQXC": {
    "kind": "question_part",
@@ -3388,10 +3673,15 @@
    "label": "qstn_GkjYRTM2HDScRJFN / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dHJXGHbH2x6BP5RY": {
    "kind": "question_part",
@@ -3408,9 +3698,15 @@
    "label": "qstn_F6qVXJRTRrGFQTKx / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8",
     "spcpt_myBDCxnzv7DGRssV"
    ]
   },
@@ -3451,10 +3747,15 @@
    "label": "qstn_Ck4Z3NNttykJmCWy / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WzRVq9gXdPfNPN75": {
    "kind": "question_part",
@@ -3471,10 +3772,15 @@
    "label": "qstn_bvKRR9235FW3tDJz / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rvvzYQznjDcMctC4": {
    "kind": "question_part",
@@ -3502,10 +3808,15 @@
    "label": "qstn_bvH8y2SYySVvq7t4 / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6FGD9Y2TJrkQ6q7y": {
    "kind": "question_part",
@@ -3542,10 +3853,15 @@
    "label": "qstn_bcN2n3KXZwb2b635 / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S9PdgKCZ9SBwvcjg": {
    "kind": "question_part",
@@ -3573,10 +3889,15 @@
    "label": "qstn_B8yhxJVdSMSXfWgn / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tpWptrwGj4kMFwqh": {
    "kind": "question_part",
@@ -3594,10 +3915,15 @@
    "label": "qstn_9ySPKS9VSCMjBdgT / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Wm3bXdMvQbNWXGR2": {
    "kind": "question_part",
@@ -3614,10 +3940,15 @@
    "label": "qstn_7DTkmQWdrCcn7XXC / part 0",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MDvKxhc83MDJXTrq": {
    "kind": "question_part",
@@ -3644,10 +3975,15 @@
    "label": "qstn_79t5TJqXjZxBmjk9 / part 2",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_McMr7kSGwqbS52KR": {
    "kind": "question_part",
@@ -3685,10 +4021,15 @@
    "label": "qstn_3vZ6YfmDvCsZVJBs / part 1",
    "section": "algebra-and-sequences",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_yHCJJTYp2B3zFpT8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E3.3.2",
+     "official_code": "E3.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YzDNCJ6GGxbBg8y3": {
    "kind": "question_part",
@@ -4007,30 +4348,46 @@
    "label": "qstn_gqb9gnmJns6g8rfQ / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jBs8vfJxwNMkPqxz": {
    "kind": "question_part",
    "label": "qstn_CkyR9Ss5D3BRMsY2 / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9R5xKRh5hDGmXx3p": {
    "kind": "question_part",
    "label": "qstn_CRDy94gRd28nDncX / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VgH3YPmpp6Yqy9KC",
-    "spcpt_PKG2m4GZ343f4Rkh"
+    "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
   "qstnprt_VBnmR5ys9VRrnmQ6": {
@@ -4048,10 +4405,15 @@
    "label": "qstn_68S8vKnz8N4zg6Wj / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SrwQqWjSdWbKH2zK": {
    "kind": "question_part",
@@ -4068,10 +4430,15 @@
    "label": "qstn_9q4CXRhtHxYVSGDC / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PYRDtDgxYkszGTVt": {
    "kind": "question_part",
@@ -4108,10 +4475,16 @@
    "label": "qstn_Yy5ppDNj77Q8DdzX / part 1",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Vy3hcHd5KHJCvYNJ",
-    "spcpt_PKG2m4GZ343f4Rkh"
+    "spcpt_Vy3hcHd5KHJCvYNJ"
    ]
   },
   "qstnprt_4V3RDDdRNRcDzFsw": {
@@ -4119,10 +4492,16 @@
    "label": "qstn_Yy5ppDNj77Q8DdzX / part 2",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Vy3hcHd5KHJCvYNJ",
-    "spcpt_PKG2m4GZ343f4Rkh"
+    "spcpt_Vy3hcHd5KHJCvYNJ"
    ]
   },
   "qstnprt_9ZrRsC59hng79Myt": {
@@ -4170,10 +4549,15 @@
    "label": "qstn_qb6bpbQ9Knr2H65v / part 0",
    "section": "algebra-and-sequences",
    "topic": "proportion",
-   "codes": [],
-   "pending": [
-    "spcpt_PKG2m4GZ343f4Rkh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.8.1",
+     "official_code": "E2.8.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4ZRFQfGxmjssCGjx": {
    "kind": "question_part",
@@ -4201,10 +4585,15 @@
    "label": "qstn_GNDcBV5HKTj6ytRM / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZBHMp35M8X8NhvcN": {
    "kind": "question_part",
@@ -4232,70 +4621,105 @@
    "label": "qstn_qhcmf6fhNKVj9MNJ / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z6nJPmQB9TWpCRyt": {
    "kind": "question_part",
    "label": "qstn_7Rn53nsZmtbFf6Y2 / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B9gfdMhsgvWfTWSc": {
    "kind": "question_part",
    "label": "qstn_NqkgxtbkCHYdKcry / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d7NChqp4ytX76Cbf": {
    "kind": "question_part",
    "label": "qstn_WXn88mdtnWCbncFS / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pnkZkWjzZtDjhVXt": {
    "kind": "question_part",
    "label": "qstn_fzfwQ65TrfSC9Ms3 / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DJRTsYpJ3FPFGdtQ": {
    "kind": "question_part",
    "label": "qstn_NJD2BWFhnRzzwkgX / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vFSzq8cV2ZVYvp5D": {
    "kind": "question_part",
    "label": "qstn_vSxCxC7m2k33c5Ts / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cyM6WXrR443km4FR": {
    "kind": "question_part",
@@ -4324,10 +4748,16 @@
    "label": "qstn_r95RM573F6ZwFddq / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_czFGRwThBTYrwjJg",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_czFGRwThBTYrwjJg"
    ]
   },
   "qstnprt_tm2mfKC82pv6fFkS": {
@@ -4335,10 +4765,16 @@
    "label": "qstn_2QjJnvPWrbY9RXDy / part 0",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.11.2",
+     "official_code": "E1.11.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VgH3YPmpp6Yqy9KC",
-    "spcpt_fjrhtKRwCZcZyHpP"
+    "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
   "qstnprt_BNJrmRt49TDKDY79": {
@@ -4346,10 +4782,15 @@
    "label": "qstn_2QjJnvPWrbY9RXDy / part 1",
    "section": "algebra-and-sequences",
    "topic": "quadratic-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_4WgMZ8mF9QJrhzjS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qkhHwd4fnSjmNRyq": {
    "kind": "question_part",
@@ -5001,10 +5442,16 @@
    "label": "qstn_CcRRySzVK9vvnRBM / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pGsqq7xcztBg59Yh",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_pGsqq7xcztBg59Yh"
    ]
   },
   "qstnprt_fd5r6k3CjVdVwYwh": {
@@ -5072,21 +5519,37 @@
    "label": "qstn_776kG3ZDgN22Gdcb / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8",
-    "spcpt_84hZy4pDd8nBGN3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_64Tr2yzXp7q7ryhK": {
    "kind": "question_part",
    "label": "qstn_VkJ2fvkQqscc7czP / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XhXhg6sRyMQ88chp",
-    "spcpt_84hZy4pDd8nBGN3r"
+    "spcpt_XhXhg6sRyMQ88chp"
    ]
   },
   "qstnprt_7BPTJ6NzX9Zvn9dD": {
@@ -5094,30 +5557,46 @@
    "label": "qstn_twQtvR5nV4NNpY5p / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HPpdzmmks8dNGz2G": {
    "kind": "question_part",
    "label": "qstn_rYXVtVbmPwRw3mxp / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nwsMMkxgvPFkbvh3": {
    "kind": "question_part",
    "label": "qstn_qDkZ6RWBczPTqzwh / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XhXhg6sRyMQ88chp",
-    "spcpt_hMqjBRzQQfvsc9f8"
+    "spcpt_XhXhg6sRyMQ88chp"
    ]
   },
   "qstnprt_JWwJBrHPXpvwgFvF": {
@@ -5125,19 +5604,30 @@
    "label": "qstn_NMwbSwzcdmRDgHJm / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RY3bQPhBtFRyjrhN": {
    "kind": "question_part",
    "label": "qstn_jXtC7KTMt4P55kQf / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8",
     "spcpt_dxtWxKmTWPrYkWt3"
    ]
   },
@@ -5146,30 +5636,46 @@
    "label": "qstn_Gqdts86vqyftGMfP / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ByHgvkD73X9Fs6NT": {
    "kind": "question_part",
    "label": "qstn_cb7TvbxHXqqBCxfG / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SwfKM4mJBXf8TMcy": {
    "kind": "question_part",
    "label": "qstn_bYW6tKm8v4nfGVhC / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_hMqjBRzQQfvsc9f8"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_r2bdjPmWCqh7RPBQ": {
@@ -5177,10 +5683,15 @@
    "label": "qstn_7kdwkRd4n7GvJjV5 / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3YDCs65cwmcWJgpk": {
    "kind": "question_part",
@@ -5207,10 +5718,15 @@
    "label": "qstn_tTkZHJqD3GsNrmvf / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_84hZy4pDd8nBGN3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q8XmpFBwffbgyZXm": {
    "kind": "question_part",
@@ -5228,10 +5744,15 @@
    "label": "qstn_Q9ypzxnmmdNDtYZt / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "coordinate-geometry",
-   "codes": [],
-   "pending": [
-    "spcpt_84hZy4pDd8nBGN3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cBHGW77JDKwRPwj5": {
    "kind": "question_part",
@@ -5545,9 +6066,15 @@
    "label": "qstn_tdMPsDJKwBNMjDcQ / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "straight-line-graphs",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.5.2",
+     "official_code": "E5.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_qPRh2fycSMYwytcV",
     "spcpt_2D9sp6d4f6jCmRMx"
    ]
   },
@@ -5578,10 +6105,15 @@
    "label": "qstn_t8DZP4YBJgQhqbvg / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "straight-line-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_hMqjBRzQQfvsc9f8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.1",
+     "official_code": "E4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wN6GRdcwKctBcTYR": {
    "kind": "question_part",
@@ -5682,10 +6214,15 @@
    "label": "qstn_GFPdKT7sgRtZkftm / part 0",
    "section": "coordinate-geometry-and-graphs",
    "topic": "straight-line-graphs",
-   "codes": [],
-   "pending": [
-    "spcpt_84hZy4pDd8nBGN3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E4.3.2",
+     "official_code": "E4.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hw5gXsJxGnNdZG2b": {
    "kind": "question_part",
@@ -7337,10 +7874,15 @@
    "label": "qstn_sZqyWmCK6yx8sxrg / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_26KV2DgfXQNWGsRd": {
    "kind": "question_part",
@@ -7367,10 +7909,15 @@
    "label": "qstn_Mt8tCDzSmghZwp56 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
-   "pending": [
-    "spcpt_W2yYk784rNVZBxPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xgKNNYXTyBjtd25D": {
    "kind": "question_part",
@@ -7418,10 +7965,16 @@
    "label": "qstn_85ZQ93GXgVWrNcqv / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "area-and-perimeter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_mrJyQtrfJC5wCkpc": {
@@ -7597,9 +8150,15 @@
    "label": "qstn_tBRFTRXxYjXP8CdC / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "circles-arcs-and-sectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_jmyDqP5Fm6jwRn4q"
    ]
   },
@@ -7608,9 +8167,15 @@
    "label": "qstn_Sx5N5Fdj2yywNBTz / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "circles-arcs-and-sectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_jmyDqP5Fm6jwRn4q"
    ]
   },
@@ -7818,9 +8383,15 @@
    "label": "qstn_4mJg3v7zHj8kn95z / part 2",
    "section": "lengths-areas-and-volumes",
    "topic": "circles-arcs-and-sectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_3wKWZdpcWm62JQBD"
    ]
   },
@@ -7923,10 +8494,16 @@
    "label": "qstn_tCFmGwFpKybPnRtY / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "congruence-and-similarity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xDpKVBxDTCk2x6vS",
-    "spcpt_gwgYtf7WTFcF8J6H"
+    "spcpt_xDpKVBxDTCk2x6vS"
    ]
   },
   "qstnprt_zsmTrcqrjhYdT3SS": {
@@ -7945,10 +8522,16 @@
    "label": "qstn_S6n8gtKj8ThVzQ4R / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "congruence-and-similarity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.3.3",
+     "official_code": "E5.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xDpKVBxDTCk2x6vS",
-    "spcpt_HcBpSfpzpdZqCFXk"
+    "spcpt_xDpKVBxDTCk2x6vS"
    ]
   },
   "qstnprt_rjyrhcVk5DwYxztw": {
@@ -7956,10 +8539,16 @@
    "label": "qstn_S6n8gtKj8ThVzQ4R / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "congruence-and-similarity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.3.3",
+     "official_code": "E5.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xDpKVBxDTCk2x6vS",
-    "spcpt_HcBpSfpzpdZqCFXk"
+    "spcpt_xDpKVBxDTCk2x6vS"
    ]
   },
   "qstnprt_QHwBhzgNBQQks7VJ": {
@@ -8124,10 +8713,16 @@
    "label": "qstn_7VfyB5qPjHgjVkCJ / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "congruence-and-similarity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.3.3",
+     "official_code": "E5.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xDpKVBxDTCk2x6vS",
-    "spcpt_HcBpSfpzpdZqCFXk"
+    "spcpt_xDpKVBxDTCk2x6vS"
    ]
   },
   "qstnprt_6PMWn4xDyCT3PgB6": {
@@ -8199,20 +8794,30 @@
    "label": "qstn_wVwF6fGXjPpfyG35 / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y9TnpZxPWfV67QrT": {
    "kind": "question_part",
    "label": "qstn_ZH9P7gtX3TcQ7mWX / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rk6pMGN899yxbDvc": {
    "kind": "question_part",
@@ -8239,9 +8844,15 @@
    "label": "qstn_zF38bK4gYRpQZdnS / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_3wKWZdpcWm62JQBD"
    ]
   },
@@ -8272,10 +8883,15 @@
    "label": "qstn_yYVjQpQBRHcbN4pH / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JC9vWc7GTCcK5gHv": {
    "kind": "question_part",
@@ -8356,9 +8972,15 @@
    "label": "qstn_tpSpzTmq7rKPfy2Z / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_djG6mt4Gk3T4wJwC"
    ]
   },
@@ -8421,9 +9043,15 @@
    "label": "qstn_jzhvvzyPCGn2hfY8 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_vMcrBY5bkBpMVHMF"
    ]
   },
@@ -8465,9 +9093,15 @@
    "label": "qstn_hmvRBfJgqtMwN9MC / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
@@ -8486,9 +9120,15 @@
    "label": "qstn_hkF2wbMy94VsW5g9 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_bMYrxtVc2SZgt8mX"
    ]
   },
@@ -8519,9 +9159,15 @@
    "label": "qstn_fPZWySncfRxPsMBC / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
@@ -8638,9 +9284,15 @@
    "label": "qstn_7H864g33t4SjZqwQ / part 1",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
@@ -8692,10 +9344,15 @@
    "label": "qstn_kTZjvwSgMzFFFmz2 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PpTvYF7Y3R8bYrbg": {
    "kind": "question_part",
@@ -8712,20 +9369,30 @@
    "label": "qstn_68bHGhnf2cz7DNcT / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hjyjst69StCXTj78": {
    "kind": "question_part",
    "label": "qstn_2MZfwBFBqmvzwmJ5 / part 0",
    "section": "lengths-areas-and-volumes",
    "topic": "volume-and-surface-area",
-   "codes": [],
-   "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dDjPJG79b3zv329j": {
    "kind": "question_part",
@@ -9638,10 +10305,15 @@
    "label": "qstn_zd7Wg6hNvDSShzTQ / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kR3q4BDjyW3tmTK3": {
    "kind": "question_part",
@@ -9728,10 +10400,15 @@
    "label": "qstn_RFg6Tc7qnvXzC37z / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rgDW8QXXVCVTDn9Q": {
    "kind": "question_part",
@@ -9748,20 +10425,31 @@
    "label": "qstn_nTg32T9mFy9S42xg / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gQRxGYp7c4ncbnTF": {
    "kind": "question_part",
    "label": "qstn_n79ZCX54YDNPpRtP / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_5CHMgxBWhBwxh5Y6"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_m8RCT2xFd5HQKCXq": {
@@ -9789,10 +10477,15 @@
    "label": "qstn_KGvHDF2KfYMHHm4s / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RggzhVXFNbF2XWdq": {
    "kind": "question_part",
@@ -9829,10 +10522,16 @@
    "label": "qstn_JJtJp5hhb3Qhg8Jf / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9T2dpGhRRNvzf2n3",
-    "spcpt_5CHMgxBWhBwxh5Y6"
+    "spcpt_9T2dpGhRRNvzf2n3"
    ]
   },
   "qstnprt_VNYPfddqp3scH62z": {
@@ -9860,20 +10559,31 @@
    "label": "qstn_Hg8SHvB8njS3nkvY / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZMmng6C7dM5mMqqp": {
    "kind": "question_part",
    "label": "qstn_GwQvgjnp3ptRMmPt / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_5CHMgxBWhBwxh5Y6"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_k2s3FMCr3wSQWf4d": {
@@ -9891,10 +10601,15 @@
    "label": "qstn_GqWSzjN5JNxtwj4G / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CGC9XtkPhTgYkkb2": {
    "kind": "question_part",
@@ -9911,10 +10626,15 @@
    "label": "qstn_fVdSyr8hpm7FFFvF / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DR9Jv4nDNqwZMYRr": {
    "kind": "question_part",
@@ -9952,10 +10672,15 @@
    "label": "qstn_dbZnqvBFgHz8cY3p / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mSfhTGXKQ4F8jm4F": {
    "kind": "question_part",
@@ -9984,10 +10709,16 @@
    "label": "qstn_BKdyyCzdP7yFvytq / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_5CHMgxBWhBwxh5Y6"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_sbWPDGQ23P48mhX6": {
@@ -9995,20 +10726,30 @@
    "label": "qstn_9Xhpqt928NTS67Wp / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nTnXrhrqRzkfzzDf": {
    "kind": "question_part",
    "label": "qstn_9QMwQz4cpvmth7z7 / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JmDHbmqYpHPbsJjn": {
    "kind": "question_part",
@@ -10046,10 +10787,15 @@
    "label": "qstn_6CmRX2bD9W86nkj4 / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y4rcX52kNbfzjSdq": {
    "kind": "question_part",
@@ -10066,10 +10812,16 @@
    "label": "qstn_4KMKCcPBcFXPpMnn / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_5CHMgxBWhBwxh5Y6"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_8w7tkBKQWYFSkHjT": {
@@ -10077,10 +10829,15 @@
    "label": "qstn_4hvpNxGhftF8nJFz / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sH7b34xM9q4D2tMq": {
    "kind": "question_part",
@@ -10107,10 +10864,15 @@
    "label": "qstn_2kfx3YmycBCNMvWD / part 0",
    "section": "number",
    "topic": "percentages",
-   "codes": [],
-   "pending": [
-    "spcpt_5CHMgxBWhBwxh5Y6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.12.5",
+     "official_code": "E1.12.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gr4CR3RSkFrpQX9P": {
    "kind": "question_part",
@@ -10177,9 +10939,15 @@
    "label": "qstn_WSGQVyv33jTbzcnX / part 1",
    "section": "number",
    "topic": "powers-roots-and-standard-form",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_FMHcRjkjQZ9B9tB4"
    ]
   },
@@ -10658,9 +11426,15 @@
    "label": "qstn_ycTvBmngKnpdGwQf / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_bZf6P52f499pPCKn"
    ]
   },
@@ -10669,9 +11443,15 @@
    "label": "qstn_XwHCmrmtqtGrdGVT / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_bZf6P52f499pPCKn"
    ]
   },
@@ -10680,20 +11460,30 @@
    "label": "qstn_X7KS8ZcRXKHfpTXP / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RFWrZftKfgwHdpXq": {
    "kind": "question_part",
    "label": "qstn_vnkMmXKvbgMVQgry / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jYd2Bnv6CJxv7Gy4": {
    "kind": "question_part",
@@ -10710,10 +11500,15 @@
    "label": "qstn_psqFSmZjH25Ydptn / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3QnjYsycPyqxSdFN": {
    "kind": "question_part",
@@ -10730,9 +11525,15 @@
    "label": "qstn_kY89g78VGWgngHg6 / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_FMHcRjkjQZ9B9tB4"
    ]
   },
@@ -10762,9 +11563,15 @@
    "label": "qstn_cqfb9jMb2SVDMNvf / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_bZf6P52f499pPCKn"
    ]
   },
@@ -10773,9 +11580,15 @@
    "label": "qstn_4z55nDRHtXjSYZkS / part 0",
    "section": "number",
    "topic": "ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_bZf6P52f499pPCKn"
    ]
   },
@@ -10924,20 +11737,30 @@
    "label": "qstn_xtCphZkG2pRCqZnM / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v8KcFkXwwdPYX3qN": {
    "kind": "question_part",
    "label": "qstn_xtCphZkG2pRCqZnM / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q9jChQNyVFcPTB74": {
    "kind": "question_part",
@@ -10954,10 +11777,16 @@
    "label": "qstn_WpYr8hmFyy6prkYQ / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_nVyWbW6xtZnxjdZk": {
@@ -10965,20 +11794,30 @@
    "label": "qstn_WDpx5SjR5h2vFZrC / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pcjCgtxG2j7mPhKF": {
    "kind": "question_part",
    "label": "qstn_WDpx5SjR5h2vFZrC / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MTRnZyWYZcdzjGDK": {
    "kind": "question_part",
@@ -10996,10 +11835,16 @@
    "label": "qstn_SKP2njCYH59btg93 / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_8N2kXkwdP3h7VfRM": {
@@ -11037,10 +11882,16 @@
    "label": "qstn_nfm25nBhdZF7wxBf / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_PCHPbSFvHhx97SzR": {
@@ -11048,10 +11899,16 @@
    "label": "qstn_nfm25nBhdZF7wxBf / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_RdMQh8gnJVJbrMV6": {
@@ -11059,10 +11916,16 @@
    "label": "qstn_nfm25nBhdZF7wxBf / part 2",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_jX3PKqn5Vy6NWGJb": {
@@ -11070,10 +11933,16 @@
    "label": "qstn_nfm25nBhdZF7wxBf / part 3",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_4jPKjmpwkGxDNGvb": {
@@ -11081,20 +11950,30 @@
    "label": "qstn_MQCNfQMbtkpbF88d / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RVwPQgFsh8chnVnX": {
    "kind": "question_part",
    "label": "qstn_MQCNfQMbtkpbF88d / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xCbGR9mQ8gWjww3k": {
    "kind": "question_part",
@@ -11111,10 +11990,16 @@
    "label": "qstn_mjJWFhhvmHcfWpW8 / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_2ddD3xDTH2PPDWWD": {
@@ -11122,20 +12007,31 @@
    "label": "qstn_mjJWFhhvmHcfWpW8 / part 2",
    "section": "number",
    "topic": "sets",
-   "codes": [],
-   "pending": [
-    "spcpt_9KDr4cg2JmqZWcxw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nmp2V3qszVZR7F2N": {
    "kind": "question_part",
    "label": "qstn_KzVrddgXg7wgXKjg / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_7bBY5jf4FpVc9Bzb": {
@@ -11143,10 +12039,16 @@
    "label": "qstn_KzVrddgXg7wgXKjg / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_vt9CByk8kCTJSQTC": {
@@ -11174,10 +12076,16 @@
    "label": "qstn_hMHndcxpq8XK2D2k / part 2",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_WgvCzzNZWCz9sSnF": {
@@ -11195,10 +12103,16 @@
    "label": "qstn_G64rdhTNqXMbBBft / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_2fpMM9dKr8mH4vKS": {
@@ -11206,10 +12120,16 @@
    "label": "qstn_G64rdhTNqXMbBBft / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_RW5ZFf3rqXSdN6ZB": {
@@ -11217,10 +12137,16 @@
    "label": "qstn_G64rdhTNqXMbBBft / part 2",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_zWkYPm2wShQWXQqX": {
@@ -11238,10 +12164,16 @@
    "label": "qstn_drXRBhbpcS9Y9FHG / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_ryk3SKDSb88cPhfc": {
@@ -11249,10 +12181,16 @@
    "label": "qstn_cZZ9gT2wRr4FdSYD / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_V5sz5kd6sCg3WKTr": {
@@ -11260,10 +12198,16 @@
    "label": "qstn_7yTTC5CT6xHJJkgd / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_t9kxXPKxCQcFWsBJ": {
@@ -11271,10 +12215,16 @@
    "label": "qstn_7yTTC5CT6xHJJkgd / part 1",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_zJFT44Tt2nPrZ8vf": {
@@ -11282,10 +12232,16 @@
    "label": "qstn_5ysSSrRFSv9FKxQY / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_Xb67FHCjz682NW4D": {
@@ -11293,10 +12249,16 @@
    "label": "qstn_3FKmkrMMnWhqNHzz / part 0",
    "section": "number",
    "topic": "sets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_cqZV9pRdV3x8hpwZ": {
@@ -12589,9 +13551,15 @@
    "label": "qstn_rhy8ScvcgFvRrY73 / part 0",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -12600,30 +13568,46 @@
    "label": "qstn_PmSNvzY6KQ2kqSpZ / part 0",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
-   "pending": [
-    "spcpt_bPTTmJSGkKv2PDc5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E9.2.1",
+     "official_code": "E9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DNPwD3jyR2G2Qd26": {
    "kind": "question_part",
    "label": "qstn_PmSNvzY6KQ2kqSpZ / part 1",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
-   "pending": [
-    "spcpt_bPTTmJSGkKv2PDc5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E9.2.1",
+     "official_code": "E9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hCnssPCQpXXb5W2w": {
    "kind": "question_part",
    "label": "qstn_PmSNvzY6KQ2kqSpZ / part 2",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E9.2.1",
+     "official_code": "E9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_RJtRSrxJtXZPyDHz",
-    "spcpt_bPTTmJSGkKv2PDc5"
+    "spcpt_RJtRSrxJtXZPyDHz"
    ]
   },
   "qstnprt_9XbWs4rb6Xsyn7sM": {
@@ -12652,9 +13636,15 @@
    "label": "qstn_HWsR2ZXd3pxS6hQZ / part 0",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -12663,9 +13653,15 @@
    "label": "qstn_HWsR2ZXd3pxS6hQZ / part 1",
    "section": "probability",
    "topic": "introduction-to-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.1",
+     "official_code": "E7.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gwgYtf7WTFcF8J6H",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -12832,10 +13828,16 @@
    "label": "qstn_9bCGMtcNMNMNDYRh / part 1",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_Rv3DcsGBkxSkb8Ms"
    ]
   },
   "qstnprt_cNxN2rPSJmQ44yfv": {
@@ -12843,10 +13845,16 @@
    "label": "qstn_wF98MmhMCPT6HjSh / part 0",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_QjxXbF3mn9nfRJcd": {
@@ -12865,10 +13873,16 @@
    "label": "qstn_v4vdV7jtjN9GsStq / part 0",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_Rv3DcsGBkxSkb8Ms"
    ]
   },
   "qstnprt_wKMv8xNkztJJBZGY": {
@@ -12906,10 +13920,16 @@
    "label": "qstn_k7tK9VzpCfMxZRJt / part 0",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_Rv3DcsGBkxSkb8Ms"
    ]
   },
   "qstnprt_gGx66ZDkB7DKTD3G": {
@@ -12928,10 +13948,16 @@
    "label": "qstn_dwQXtVBrkYdd2cKw / part 0",
    "section": "probability",
    "topic": "probabilities-from-tables-and-charts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_Rv3DcsGBkxSkb8Ms"
    ]
   },
   "qstnprt_3Y4qqtTcRKVvgtXy": {
@@ -13034,10 +14060,16 @@
    "label": "qstn_QzZSqbXTYWRvwGD5 / part 0",
    "section": "probability",
    "topic": "tree-diagrams-and-multiple-events",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E1.2.1",
+     "official_code": "E1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_FKZpXCmZSQkvpZhw": {
@@ -13546,9 +14578,15 @@
    "label": "qstn_Rh3yXzpRYcxrfTmg / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "3d-pythagoras-and-trigonometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_kX4655D8M3Q3TRzW"
    ]
   },
@@ -13659,10 +14697,16 @@
    "label": "qstn_JcJY4pgTCb9VZq8Q / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "3d-pythagoras-and-trigonometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E7.2.4",
+     "official_code": "E7.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kX4655D8M3Q3TRzW",
-    "spcpt_9JzR7VMzsQqT4KHq"
+    "spcpt_kX4655D8M3Q3TRzW"
    ]
   },
   "qstnprt_jdbbHCc6jdbD2nwM": {
@@ -13690,10 +14734,16 @@
    "label": "qstn_hT68Bgs5MPKy3JY5 / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "3d-pythagoras-and-trigonometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E5.3.3",
+     "official_code": "E5.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kX4655D8M3Q3TRzW",
-    "spcpt_HcBpSfpzpdZqCFXk"
+    "spcpt_kX4655D8M3Q3TRzW"
    ]
   },
   "qstnprt_yP8KRByHSsNG49sB": {
@@ -13701,9 +14751,15 @@
    "label": "qstn_HnrCfHRYBmZVTWxr / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "3d-pythagoras-and-trigonometry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_h2SHkwgcS67NJYVP"
    ]
   },
@@ -13815,9 +14871,15 @@
    "label": "qstn_zRFbrKRV88BwDXJk / part 2",
    "section": "pythagoras-and-trigonometry",
    "topic": "right-angled-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.4.1",
+     "official_code": "E6.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zq7bqPfMCSJc6Zr4",
     "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
@@ -13939,10 +15001,16 @@
    "label": "qstn_T3Kkdz2QMmvtM6KQ / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "right-angled-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_hZw9pqq4xmQSYv4C": {
@@ -13960,10 +15028,16 @@
    "label": "qstn_sJzKzXJHpfGYqnCJ / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "right-angled-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_cwZYqkjqgrwrQzkZ": {
@@ -14564,10 +15638,16 @@
    "label": "qstn_rcYQswbwtW2Sh3qN / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "sine-cosine-rule-and-area-of-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_djG6mt4Gk3T4wJwC",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_djG6mt4Gk3T4wJwC"
    ]
   },
   "qstnprt_mksTt32NchDDy54P": {
@@ -14699,10 +15779,16 @@
    "label": "qstn_gV5Q73D9XQzHQpRM / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "sine-cosine-rule-and-area-of-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E2.5.5",
+     "official_code": "E2.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_djG6mt4Gk3T4wJwC",
-    "spcpt_4WgMZ8mF9QJrhzjS"
+    "spcpt_djG6mt4Gk3T4wJwC"
    ]
   },
   "qstnprt_hyZd7HmrXjCdZwTb": {
@@ -14825,10 +15911,16 @@
    "label": "qstn_7jVWH973zPVnjCb4 / part 0",
    "section": "pythagoras-and-trigonometry",
    "topic": "sine-cosine-rule-and-area-of-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XWwgtKhQDRhyY5m4",
-    "spcpt_W2yYk784rNVZBxPh"
+    "spcpt_XWwgtKhQDRhyY5m4"
    ]
   },
   "qstnprt_YVbV4JyDmp867fZ8": {
@@ -14939,9 +16031,15 @@
    "label": "qstn_2gd9SBrs7yxBBQrv / part 2",
    "section": "pythagoras-and-trigonometry",
    "topic": "sine-cosine-rule-and-area-of-triangles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E6.2.1",
+     "official_code": "E6.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_W2yYk784rNVZBxPh",
     "spcpt_3wKWZdpcWm62JQBD"
    ]
   },
@@ -15871,10 +16969,16 @@
    "label": "qstn_s4DwqBnW9TThjm4k / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_sdJWThCFKmkwNYpN",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_sdJWThCFKmkwNYpN"
    ]
   },
   "qstnprt_MghT4hwFwvyD6WKw": {
@@ -15943,10 +17047,16 @@
    "label": "qstn_d5rrvHfvsvcqYHzt / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_sdJWThCFKmkwNYpN",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_sdJWThCFKmkwNYpN"
    ]
   },
   "qstnprt_3js8tQ2HncGvcTyT": {
@@ -15995,10 +17105,16 @@
    "label": "qstn_cFzgPg9jRwvPjtvn / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_sfGXrp2JjXqwtrFF": {
@@ -16026,10 +17142,16 @@
    "label": "qstn_Z8QH5Grhywm3tXdc / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_KtBDm8Q2bTM9pJBj": {
@@ -16048,9 +17170,15 @@
    "label": "qstn_Z8QH5Grhywm3tXdc / part 3",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QXHybhKkY7YXjZxb",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -16059,9 +17187,15 @@
    "label": "qstn_Z8QH5Grhywm3tXdc / part 4",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QXHybhKkY7YXjZxb",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -16080,10 +17214,16 @@
    "label": "qstn_WNNbbt5wvfbYH39Y / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_SZRZ6dy2C5D4j6WG": {
@@ -16091,9 +17231,15 @@
    "label": "qstn_WNNbbt5wvfbYH39Y / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QXHybhKkY7YXjZxb",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -16132,10 +17278,16 @@
    "label": "qstn_tJb55TVsg8KQqYwW / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_2yrSPp3DF5dWMrZP": {
@@ -16203,20 +17355,30 @@
    "label": "qstn_npHmP2s63zZG9z9d / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_b7NJ2fgyz9vSppx6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jBX7GgQr3Xmw3Twr": {
    "kind": "question_part",
    "label": "qstn_npHmP2s63zZG9z9d / part 2",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
-   "pending": [
-    "spcpt_QXHybhKkY7YXjZxb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t2dqdmDRcd6sfQBB": {
    "kind": "question_part",
@@ -16365,10 +17527,16 @@
    "label": "qstn_G72c7n9VkT6Ty3bY / part 0",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XhXhg6sRyMQ88chp",
-    "spcpt_QXHybhKkY7YXjZxb"
+    "spcpt_XhXhg6sRyMQ88chp"
    ]
   },
   "qstnprt_XQ4NnZRFRdS2WrXs": {
@@ -16376,9 +17544,15 @@
    "label": "qstn_G72c7n9VkT6Ty3bY / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.3",
+     "official_code": "E10.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_QXHybhKkY7YXjZxb",
     "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
@@ -16437,10 +17611,16 @@
    "label": "qstn_4kZD7T2dFYznn9GJ / part 1",
    "section": "statistics",
    "topic": "scatter-graphs-and-correlation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.7.2",
+     "official_code": "E10.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQJxjvWFpSXzHfGm",
-    "spcpt_b7NJ2fgyz9vSppx6"
+    "spcpt_kQJxjvWFpSXzHfGm"
    ]
   },
   "qstnprt_N2pwxTXhKHdTrvDv": {
@@ -16458,20 +17638,31 @@
    "label": "qstn_xNGJ3g9P9RKCWYrX / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QJKbQG2sz4bRpQmv": {
    "kind": "question_part",
    "label": "qstn_xNGJ3g9P9RKCWYrX / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_myNYhxstM7xnZd9P",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_myNYhxstM7xnZd9P"
    ]
   },
   "qstnprt_Qn2Dy3Z8nKppzWbT": {
@@ -16479,9 +17670,15 @@
    "label": "qstn_xjWfBjTfZCTjbMJy / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rxmWrBrc2s2q45wF",
     "spcpt_6V72YPxBkdhdh7gW"
    ]
   },
@@ -16490,29 +17687,45 @@
    "label": "qstn_WJHVrQvgVSz7VmD2 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6g2cjYfw5JyVzVxF": {
    "kind": "question_part",
    "label": "qstn_VrV6gGc6tP7VxTTJ / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jWqKTScf82H4KpTy": {
    "kind": "question_part",
    "label": "qstn_VrV6gGc6tP7VxTTJ / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D",
     "spcpt_FVX7YRftjhnwYHQF"
    ]
   },
@@ -16521,59 +17734,90 @@
    "label": "qstn_tgcpTmVwjd2QMztR / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Wm3Tw6NszkYDnZb7": {
    "kind": "question_part",
    "label": "qstn_q5s5m2FFgHC2bksG / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ykxW2YWgTkJ9sbjW": {
    "kind": "question_part",
    "label": "qstn_kNsbJ9sjWMDbyzkM / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2kTjTJzMvC9kxDvp": {
    "kind": "question_part",
    "label": "qstn_Jv6hBnnhGHgW238f / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XScyMwd9Yqp2ykm4": {
    "kind": "question_part",
    "label": "qstn_J2BKbCd4Bzn3GzqG / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tQymq2bDVmgHHMYM": {
    "kind": "question_part",
    "label": "qstn_hfwCHXNGz4DBQQT5 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rxmWrBrc2s2q45wF",
     "spcpt_2y9nzgtjjWN7zVQD"
    ]
   },
@@ -16582,60 +17826,91 @@
    "label": "qstn_H4Xc2rqNDSmd8khv / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_rxmWrBrc2s2q45wF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZnrFZKxzzgRpkH83": {
    "kind": "question_part",
    "label": "qstn_Dd4hHSNQ7PvW5nTD / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yH7JxsFDXHPh2WBr": {
    "kind": "question_part",
    "label": "qstn_CjZFzWK3sC4w34f3 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xtmG9gbBqS73hVPQ": {
    "kind": "question_part",
    "label": "qstn_BtQS6FZmjSRdfKx5 / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cwZGqkxJ8htXWRch": {
    "kind": "question_part",
    "label": "qstn_9ZsGB2kkDYG8HHVd / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4Qx6B9bQV6YCXhB4": {
    "kind": "question_part",
    "label": "qstn_9ZsGB2kkDYG8HHVd / part 1",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_VxHsmH6y75my5yX9",
-    "spcpt_HqkhYPSV6yTYnB9D"
+    "spcpt_VxHsmH6y75my5yX9"
    ]
   },
   "qstnprt_qPRS6ZYwTFZ3rBCm": {
@@ -16643,20 +17918,30 @@
    "label": "qstn_6BxywgS7qWnFhmGH / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VMtZgq2tWbvC7fQS": {
    "kind": "question_part",
    "label": "qstn_33Z69qc2BBftz7Ss / part 0",
    "section": "statistics",
    "topic": "statistical-diagrams",
-   "codes": [],
-   "pending": [
-    "spcpt_HqkhYPSV6yTYnB9D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E10.6.1",
+     "official_code": "E10.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VZRQSqcJW6jTgnJ5": {
    "kind": "question_part",
@@ -16864,10 +18149,15 @@
    "label": "qstn_m9v6qSsQs3sVJVj2 / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JX23ZBy5gNqXQ7qv": {
    "kind": "question_part",
@@ -16907,20 +18197,31 @@
    "label": "qstn_SF7RqCxfS7pQ2XJW / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3d2xPHQ659YjQ5Rg": {
    "kind": "question_part",
    "label": "qstn_sDhY7d5bbsJTjJ6b / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_v6tP4DSVShVJMJhk",
-    "spcpt_phQCN2JJ4d856qsx"
+    "spcpt_v6tP4DSVShVJMJhk"
    ]
   },
   "qstnprt_rBHzk5X4s5btYwgb": {
@@ -16938,30 +18239,46 @@
    "label": "qstn_mY7tt6b6tPqmhkY2 / part 1",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WkjrC9JNdFfGRqW9": {
    "kind": "question_part",
    "label": "qstn_MD9bfn4X37dGhd7t / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kc5HPTXyXyhrn3dW": {
    "kind": "question_part",
    "label": "qstn_kBZsHnXsRDqmzsrV / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_v6tP4DSVShVJMJhk",
-    "spcpt_phQCN2JJ4d856qsx"
+    "spcpt_v6tP4DSVShVJMJhk"
    ]
   },
   "qstnprt_xrcdT2NZkPC5v5ZV": {
@@ -16969,20 +18286,31 @@
    "label": "qstn_Dnvgz9zxQ54KQrjS / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
-   "pending": [
-    "spcpt_phQCN2JJ4d856qsx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vdkxn2ZnFqwRNsXY": {
    "kind": "question_part",
    "label": "qstn_CHmD3hcdhFHVH9tD / part 0",
    "section": "vectors-and-transformations",
    "topic": "vectors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_INTERNATIONAL_MATHS_2025_2027:E8.3.1",
+     "official_code": "E8.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_v6tP4DSVShVJMJhk",
-    "spcpt_phQCN2JJ4d856qsx"
+    "spcpt_v6tP4DSVShVJMJhk"
    ]
   }
  }

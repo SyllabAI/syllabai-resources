@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-economics-2023-2025",
@@ -23,14 +38,14 @@
  },
  "totals": {
   "items": 159,
-  "items_with_codes": 0,
+  "items_with_codes": 55,
   "by_kind": {
    "notes": 159,
    "question_parts": 0,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
+   "notes": 55,
    "question_parts": 0,
    "flashcards": 0
   }
@@ -39,9 +54,30 @@
   "notes": 507,
   "parts": 0,
   "universe_ids": 507,
-  "universe_resolved": 0,
-  "pending_refs": 507,
-  "flashcards_discovered_uncoded": 0
+  "universe_resolved": 78,
+  "pending_refs": 429,
+  "flashcards_discovered_uncoded": 0,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 78,
+   "by_tier": {
+    "V1_name_text_identity": 26,
+    "V2_name_phrase_identity": 52,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 429,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 114,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 15,
+    "no_unique_identity": 300
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_fNvWqTbGdYfVnNWc": {
@@ -62,12 +98,23 @@
    "label": "Economics as a social science - Cambridge (CIE) A Level Economics",
    "section": "basic-economic-ideas-and-resource-allocation",
    "topic": "economic-methodology",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_FFrmqDJRbmxs6yXD",
     "spcpt_x7SBmBCHFrmSHKN6",
     "spcpt_KV4XcchdVNYgJcPm",
-    "spcpt_n4mbKnbmVbbFGmJ8",
     "spcpt_rH3VJ2Qkbnc5nsbr",
     "spcpt_qZ25X7YjV9Q7pjT2"
    ]
@@ -77,12 +124,18 @@
    "label": "Economic Resources - Cambridge (CIE) A Level Economics",
    "section": "basic-economic-ideas-and-resource-allocation",
    "topic": "factors-of-production",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_xXrz75nbcV8ZHrJM",
     "spcpt_5MM6Zz4qWWjRQ2D6",
     "spcpt_pfChCzxKCc5pVMFd",
-    "spcpt_J64YHq4g9rXJyFkY",
     "spcpt_WpMYbDmYgtyMhgFf"
    ]
   },
@@ -150,10 +203,16 @@
    "label": "Government budgets - Cambridge (CIE) A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "fiscal-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:5.2.3",
+     "official_code": "5.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XKmj2tM5vVxJDVrK",
-    "spcpt_TmRvRCqK25YGv5SB"
+    "spcpt_XKmj2tM5vVxJDVrK"
    ]
   },
   "rn_dzPKKvYhYPDNPW8j": {
@@ -184,14 +243,25 @@
    "label": "Common policy objectives - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "government-macroeconomic-policy-objectives-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:5.1.1",
+     "official_code": "5.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_mGXMHFzHHqSMVCTb",
     "spcpt_3GxgqBvJJfDGVG3C",
-    "spcpt_GVKNRDmKTdbY5RDT",
     "spcpt_bN4C9Y98FJQFZkfr",
     "spcpt_SZ9zJjKWkgZqqFGx",
-    "spcpt_vx2GzRKDdBFX9dyS",
     "spcpt_mCHCxGzcCtqqvv6S"
    ]
   },
@@ -200,11 +270,17 @@
    "label": "Links between macroeconomic problems - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "government-macroeconomic-policy-objectives-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:10.2.2",
+     "official_code": "10.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PSShmwGJQnGYjjR4",
     "spcpt_ZrybkbnBbPcjHCjP",
-    "spcpt_pdYTjDvW7DWTNJvT",
     "spcpt_jzgvXQCKYqyWTXWS",
     "spcpt_yPwZGyJ3WvsmSGgv",
     "spcpt_hcj2gQwzSNVTFKMp"
@@ -228,11 +304,17 @@
    "label": "Typical macroeconomic objectives - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "government-macroeconomic-policy-objectives",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:5.1.1",
+     "official_code": "5.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_xzkn477XQvR2JTj7",
     "spcpt_zWdHm6CsQsRjF6CW",
-    "spcpt_RVmHJkmR8NCQftzv",
     "spcpt_hrJsqyQbn5HXW6tN"
    ]
   },
@@ -252,10 +334,16 @@
    "label": "Monetary policy tools - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "monetary-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PsQTykXYzMw5y7hM",
-    "spcpt_dVqcSH2K6n97KbdW"
+    "spcpt_PsQTykXYzMw5y7hM"
    ]
   },
   "rn_WPg8bGJwSQ8ThKNW": {
@@ -273,11 +361,17 @@
    "label": "Supply Side Policy - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "supply-side-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:5.4.3",
+     "official_code": "5.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ztF9mh947rDKZ9hq",
-    "spcpt_fGnF25kVjPKKQnKc",
-    "spcpt_SkCSSbbrtgGMjcNj"
+    "spcpt_fGnF25kVjPKKQnKc"
    ]
   },
   "rn_q7M65nGDBmCJ7nFs": {
@@ -285,13 +379,19 @@
    "label": "Policy objectives & government failure - CIE A Level Economics",
    "section": "government-macroeconomic-intervention",
    "topic": "the-effectiveness-of-macroeconomic-policies-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:10.3.3",
+     "official_code": "10.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_v8yq6fKkfKzdbd9N",
     "spcpt_VFWQvrshrsKvQFVD",
     "spcpt_BbRmqrzdBRx9z4w9",
     "spcpt_c4bVgb8wqHhpjKNj",
-    "spcpt_vY69rSv86X5r7hPj",
     "spcpt_h6XVgTDQ6X8SpgkD"
    ]
   },
@@ -337,12 +437,28 @@
    "label": "Income & Wealth Inequality - CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "addressing-income-and-wealth-inequality",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.3.3",
+     "official_code": "3.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_DZMRpFSZhGfNBFTC",
-    "spcpt_YHqgnq4J8ZQhWX8R",
-    "spcpt_NRqhnWk3hmTT4msn",
-    "spcpt_gmCTXWW8JwZ7V58j"
+    "spcpt_NRqhnWk3hmTT4msn"
    ]
   },
   "rn_mffFWpSYwrGHGvKn": {
@@ -390,10 +506,16 @@
    "label": "Understanding poverty - CIE)A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "equity-and-redistribution-of-income-and-wealth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:8.2.4",
+     "official_code": "8.2.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_tCjVCHYm2byfkzzk",
-    "spcpt_kykRb5x6FFT52QWq"
+    "spcpt_tCjVCHYm2byfkzzk"
    ]
   },
   "rn_rPsybfkFdD8gMQt2": {
@@ -496,12 +618,23 @@
    "label": "Subsidies & Direct Provision - CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "government-policies-to-correct-market-failure-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_stKtMdGNPwMyv3rP",
-    "spcpt_NNtYhrKs8HxnQ3Bd",
     "spcpt_4rYpWwky8X7BfQGz",
-    "spcpt_mmjT6bc7hX9ps3VK",
     "spcpt_G52wQ5JDYwdFzSSF"
    ]
   },
@@ -510,10 +643,15 @@
    "label": "Determination of wage differentials - CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "labour-market-forces-and-government-intervention",
-   "codes": [],
-   "pending": [
-    "spcpt_bJgGwTntyd6K6Hyz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:8.3.9",
+     "official_code": "8.3.9",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_dxqGK2hKtwrdYF3w": {
    "kind": "note",
@@ -531,9 +669,15 @@
    "label": "The Demand for Labour - CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "labour-market-forces-and-government-intervention",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:8.3.1",
+     "official_code": "8.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fH9q7kTHxzGHRWXD",
     "spcpt_x3c2vwBMtbPQf3wB",
     "spcpt_ncK2DtPQcpQzZMZG",
     "spcpt_RH57chsDRVsGFmMx"
@@ -556,10 +700,15 @@
    "label": "Transfer Earnings & Economic Rent - CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "labour-market-forces-and-government-intervention",
-   "codes": [],
-   "pending": [
-    "spcpt_FSxqYTPFjs7HD7mF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:8.3.10",
+     "official_code": "8.3.10",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_X43PfKCbBt9ffvXR": {
    "kind": "note",
@@ -590,9 +739,15 @@
    "label": "Buffer Stocks & Information provision - Cambridge CIE Economics",
    "section": "government-microeconomic-intervention",
    "topic": "methods-and-effects-of-government-intervention-in-markets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.2.5",
+     "official_code": "3.2.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_CJjYWS2JXPbhMRB6",
     "spcpt_zhwyS6qhXJgC2Cfx",
     "spcpt_nRQ8mXpmS3MYn8Ry",
     "spcpt_NZfptKwyyw8YnTfY"
@@ -603,11 +758,17 @@
    "label": "Maximum & Minimum Prices - Cambridge CIE A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "methods-and-effects-of-government-intervention-in-markets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_5Mt9VVZ54F3kHtBz",
-    "spcpt_jKzhTpnrmDK9D3vc",
-    "spcpt_vTQvPfzxrvXHyyvB"
+    "spcpt_jKzhTpnrmDK9D3vc"
    ]
   },
   "rn_d3twzVwNQG2nwdrm": {
@@ -626,9 +787,15 @@
    "label": "Impact & Incidence of Subsidies - Cambridge A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "methods-and-effects-of-government-intervention-in-markets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_nKZVXPqVsXd3KXr5",
     "spcpt_4cs65dpfR8prtKGq",
     "spcpt_rsGRMXNhZyhJB32b"
    ]
@@ -661,11 +828,21 @@
    "label": "Demerit and Merit Goods - Cambridge (CIE) A Level Economics",
    "section": "government-microeconomic-intervention",
    "topic": "reasons-for-government-intervention-in-markets",
-   "codes": [],
-   "pending": [
-    "spcpt_ZPdyK9hqP99FYby4",
-    "spcpt_c2SVhCR7X5RKdQNP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_qfJ7txNS7VDB3ZD2": {
    "kind": "note",
@@ -720,10 +897,15 @@
    "label": "Balance of payments accounts - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "correcting-balance-of-payments-imbalances-a-level",
-   "codes": [],
-   "pending": [
-    "spcpt_fQXq6wd4hGcbvfF6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.1.1",
+     "official_code": "11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_8RMDYwrsb7xbfy2t": {
    "kind": "note",
@@ -744,10 +926,16 @@
    "label": "Expenditure-switching & -reducing policy - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "correcting-balance-of-payments-imbalances-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.1.3",
+     "official_code": "11.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_6szpNTFtjc8CSrZf",
-    "spcpt_5zwJrCQ8B2gPKwwW"
+    "spcpt_6szpNTFtjc8CSrZf"
    ]
   },
   "rn_VpgpvsQsTJ5pmHkZ": {
@@ -755,9 +943,15 @@
    "label": "Correcting current account imbalance - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "correcting-current-account-imbalances",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_nzFnpByCRfKHqprG",
     "spcpt_dJ4WFxX6qMTdWqS9",
     "spcpt_dz8F2m4wHG757Wgx",
     "spcpt_gk3PYnk755H6fRg3",
@@ -769,20 +963,36 @@
    "label": "Causes & consequences of imbalances - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "current-account-of-the-balance-of-payments",
-   "codes": [],
-   "pending": [
-    "spcpt_gyGx4rpbHFz9zB9P",
-    "spcpt_vPRMyZkDcmqDCNxW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.3.3",
+     "official_code": "6.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.3.4",
+     "official_code": "6.3.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_DVCr28gPNDkdZwXt": {
    "kind": "note",
    "label": "Components of the current account - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "current-account-of-the-balance-of-payments",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XRxxdfFF2j26rSgT",
     "spcpt_xs4HKnwx4nNHW92W"
    ]
   },
@@ -791,11 +1001,21 @@
    "label": "Classification of economies - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "economic-development-a-level",
-   "codes": [],
-   "pending": [
-    "spcpt_CbH76DWt3sXhZ52Y",
-    "spcpt_CbyBZ3hxXZqXrQr9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.3.1",
+     "official_code": "11.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_v3qbP7fW7R5c6n4N": {
    "kind": "note",
@@ -858,10 +1078,16 @@
    "label": "Fixed & managed exchange rate systems - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "exchange-rates-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.2.3",
+     "official_code": "11.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ktvBd7RkFHhw2HW6",
-    "spcpt_H8XhJcjm3dSxBPxc",
     "spcpt_cSK3SWsd8Wq5CPmM"
    ]
   },
@@ -881,22 +1107,43 @@
    "label": "Causes of changes & AD/AS analysis - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "exchange-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_d4vbvqM9NMR9TdZJ",
-    "spcpt_SHrvZxmxZmHPW99b"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.4.4",
+     "official_code": "6.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.4.5",
+     "official_code": "6.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_dDbD4qrQm8TxdyxF": {
    "kind": "note",
    "label": "Floating exchange rates - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "exchange-rates",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.4.2",
+     "official_code": "6.4.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.4.3",
+     "official_code": "6.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_GmVY7f6vzD9kkWRf",
-    "spcpt_9KDMbRdYqMcnRcZc",
-    "spcpt_jgsf8nTvXV7cpkVG"
+    "spcpt_GmVY7f6vzD9kkWRf"
    ]
   },
   "rn_vCZsKYsVsDxNjhZm": {
@@ -904,9 +1151,15 @@
    "label": "Causes & consequences of globalisation - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "globalisation-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.6.1",
+     "official_code": "11.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9rq2S4gJsNCx9nWt",
     "spcpt_qjC8jHPsWmfc5Hb8",
     "spcpt_57zHqfnsyM34XqHQ"
    ]
@@ -916,13 +1169,34 @@
    "label": "Economic integration - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "globalisation-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.6.2",
+     "official_code": "11.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.6.2",
+     "official_code": "11.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.6.2",
+     "official_code": "11.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.6.2",
+     "official_code": "11.6.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_3wqZzdzjvRvkWmrj",
-    "spcpt_Y5jY4Cht8vPDMbqv",
-    "spcpt_tMG2kRTxpWZ6VYtK",
-    "spcpt_43Vhg9MWsmkQCjtc",
-    "spcpt_67jqvt2T6zjrxWkh",
     "spcpt_gnqRzkywHx7sB6nN"
    ]
   },
@@ -942,11 +1216,22 @@
    "label": "FDI & external investment - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "international-development-relationships-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.5.4",
+     "official_code": "11.5.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.5.5",
+     "official_code": "11.5.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_2FYrRJt5DYVjjyfr",
-    "spcpt_Vxyw2fV2rXQ2cW8v",
-    "spcpt_49hCrsxTqSXCHrPN",
     "spcpt_FWrs6YjCz9Z4b46B"
    ]
   },
@@ -969,11 +1254,17 @@
    "label": "Role of the IMF & World Bank - CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "international-development-relationships-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:11.5.7",
+     "official_code": "11.5.7",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_xSCsb6XhRMm3YcsM",
     "spcpt_76sWHJgRDdJYyBtn",
-    "spcpt_8k3KSxQ4BJzz7DDJ",
     "spcpt_QwVq9z4Bz2nCHMfy"
    ]
   },
@@ -1044,11 +1335,22 @@
    "label": "Specialisation & trade liberalisation- CIE A Level Economics",
    "section": "international-economic-issues",
    "topic": "the-reasons-for-international-trade",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_KCrJVTvrZ3tkrFMq",
-    "spcpt_vj5WGpZr9P2SNnfm",
-    "spcpt_8vFTn8YGTkK7CyrC"
+    "spcpt_KCrJVTvrZ3tkrFMq"
    ]
   },
   "rn_gsXQk7Qcg4qHmPgp": {
@@ -1119,11 +1421,22 @@
    "label": "Actual & potential growth & output gaps - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "economic-growth-and-sustainability-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.2.2",
+     "official_code": "9.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2TM4JzGbjCbWr3Js",
-    "spcpt_Yd9YzzJDmNCGHWw6",
-    "spcpt_c6NxmDh97TTgNTm2"
+    "spcpt_2TM4JzGbjCbWr3Js"
    ]
   },
   "rn_vBtMb3XggvJNGMvF": {
@@ -1179,21 +1492,37 @@
    "label": "Causes & consequences of Economic Growth - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "economic-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_jtcgXv6jW9qxd6b7",
-    "spcpt_hTXQv4hSgxJztyT3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.4.4",
+     "official_code": "4.4.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_dh5kf64VQhxmVpjx": {
    "kind": "note",
    "label": "Understanding economic growth - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.4.2",
+     "official_code": "4.4.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Pmv2wZsXbKKy8bDN",
-    "spcpt_32qVtp3YXzQvGtVg",
     "spcpt_fRSptZWR29xRVRjx"
    ]
   },
@@ -1202,10 +1531,15 @@
    "label": "Patterns and trends in (Un)employment - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "employment-and-unemployment-a-level",
-   "codes": [],
-   "pending": [
-    "spcpt_s24wJ8K5Czp35KZq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.3.5",
+     "official_code": "9.3.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_jkwTPHcJrdQRcKQk": {
    "kind": "note",
@@ -1236,12 +1570,23 @@
    "label": "Types of unemployment & the natural rate - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "employment-and-unemployment-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.3.2",
+     "official_code": "9.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.3.3",
+     "official_code": "9.3.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vybTnHMph39pHsnf",
     "spcpt_GswXMjbpybHzNRZH",
-    "spcpt_J32st7MQj8mSFrfJ",
-    "spcpt_sGQqfCMc7cshVs2J",
     "spcpt_Rs8NBw4M87sGF3Pk"
    ]
   },
@@ -1250,11 +1595,17 @@
    "label": "What is the circular flow of income? - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "introduction-to-the-circular-flow-of-income",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_myxdDd6XD3tfzmrN",
     "spcpt_K24dX63ZvPbmg5YF",
-    "spcpt_43jPKVM7QFD6SpYt",
     "spcpt_5n2rrVGWZzMBTdnm"
    ]
   },
@@ -1289,12 +1640,18 @@
    "label": "Interest rate determination - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "money-and-banking-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.4.8",
+     "official_code": "9.4.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6rDKPcm96KWFdmsf",
     "spcpt_bqFQGpBZHRycKs2b",
     "spcpt_Nhgppbc8f7WVnRk4",
-    "spcpt_s4pn26DmsG7XtxFm",
     "spcpt_DdvhjZcmkhk5bMTh"
    ]
   },
@@ -1328,9 +1685,15 @@
    "label": "Money supply & quantity theory of money - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "money-and-banking-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.4.5",
+     "official_code": "9.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XvdKF72YJnjsMd8Z",
     "spcpt_5JgzfvBt5c42sZb7"
    ]
   },
@@ -1339,10 +1702,16 @@
    "label": "Measuring national income - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "national-income-statistics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_rny5PgGs7D2DhvvY",
-    "spcpt_yzzvcYQpkz2Bcvqm",
     "spcpt_cbdZTCBxHg2gfxy4"
    ]
   },
@@ -1362,11 +1731,22 @@
    "label": "Understanding price stability - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "price-stability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.6.1",
+     "official_code": "4.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Nzmm7Qs28ZXHzwZ4",
     "spcpt_bSQhTdG4jPNScg9S",
-    "spcpt_n8nhQ9rQf29MWxYV",
     "spcpt_yy2r4WjG6mFQQX76"
    ]
   },
@@ -1440,12 +1820,28 @@
    "label": "Understanding unemployment - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "unemployment",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_yFMH794FYhdDXVCd",
-    "spcpt_98QZBZVJZ3xz4Cm4",
-    "spcpt_ZjbJVks8pdnvsMb5",
-    "spcpt_SddXh9hHkm8xGn7G"
+    "spcpt_yFMH794FYhdDXVCd"
    ]
   },
   "rn_khZkhGGSMDd4KcSY": {
@@ -1466,12 +1862,18 @@
    "label": "Long-run Costs - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "costs-revenue-and-production",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.5.7",
+     "official_code": "7.5.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_bv8T94gtRrQ26HF6",
     "spcpt_MkgnbvjxDQrxhjWm",
     "spcpt_2sJRMMQtmC8rK5VK",
-    "spcpt_kFFvMnfBgyzTSYFd",
     "spcpt_DYFfHjGN5Cs4FjR9"
    ]
   },
@@ -1480,9 +1882,15 @@
    "label": "Long-run Production - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "costs-revenue-and-production",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.5.3",
+     "official_code": "7.5.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kfY7vQgSt4HwTVxz",
     "spcpt_387NKpFYZgSscxjK"
    ]
   },
@@ -1513,9 +1921,15 @@
    "label": "Short-Run Production - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "costs-revenue-and-production",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.5.1",
+     "official_code": "7.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_jr8YJWS3pHyPCv76",
     "spcpt_v4JJYSkv3Q322CXn"
    ]
   },
@@ -1537,11 +1951,17 @@
    "label": "Supply curves - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "demand-and-supply-curves",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_dDbT85NqbC9YVZfb",
     "spcpt_v5BhFQ9D4GbjT8yq",
-    "spcpt_mPc9HRGkSJbCVdp4",
     "spcpt_CpKz8kvTR83hs7FD"
    ]
   },
@@ -1597,10 +2017,16 @@
    "label": "Allocative & Dynamic Outcomes - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "efficiency-and-market-failure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.3.4",
+     "official_code": "7.3.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_2N8gfHKdVVVhHk5m",
-    "spcpt_8vkG7Nfy2DYJZyZX"
+    "spcpt_2N8gfHKdVVVhHk5m"
    ]
   },
   "rn_MyVPr5ttVkMxS4tG": {
@@ -1744,9 +2170,15 @@
    "label": "External Growth - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "growth-and-survival-of-firms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.7.3",
+     "official_code": "7.7.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9n243RkTcTXRrzgz",
     "spcpt_PBx4pFTJzMjQ53gf",
     "spcpt_2FM3Y32jbzVygksD"
    ]
@@ -1756,11 +2188,22 @@
    "label": "Size of Firms & Growth - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "growth-and-survival-of-firms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.7.2",
+     "official_code": "7.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.7.2",
+     "official_code": "7.7.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_B8pM49CgMzZY5NDJ",
-    "spcpt_JHPGSHYsRssbs5Kv",
-    "spcpt_RvG6FpPG9p23MjQZ"
+    "spcpt_B8pM49CgMzZY5NDJ"
    ]
   },
   "rn_nmXQcv6FSkJxvkdK": {
@@ -1792,9 +2235,15 @@
    "label": "Indifference Curves & Budget Lines - Cambridge A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "indifference-curves-and-budget-lines",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.2.4",
+     "official_code": "7.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_rnmHbh5ZHzcXBVcq",
     "spcpt_x44c8GdJj64c93Nj",
     "spcpt_P7WZRhmq8jSktkFw",
     "spcpt_QChXkzX5RdvNfXFP"
@@ -1819,20 +2268,31 @@
    "label": "Interrelated markets - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "market-equilibrium",
-   "codes": [],
-   "pending": [
-    "spcpt_bWy37Gq4ffHpFXyM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:2.4.3",
+     "official_code": "2.4.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_Pdfs75yDF7BzNR9x": {
    "kind": "note",
    "label": "Market Equilibrium & Disequilibrium - CIE A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "market-equilibrium",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_4XFKd76PzBhctw9w",
-    "spcpt_wZWDCNR3swpXt5W4",
     "spcpt_mDRCdVNds8JnZbqZ"
    ]
   },
@@ -1940,11 +2400,21 @@
    "label": "Types of Market Structure - Cambridge (CIE) A Level Economics",
    "section": "the-price-system-and-the-microeconomy",
    "topic": "market-structures",
-   "codes": [],
-   "pending": [
-    "spcpt_jJQ3WYS7TRMvb54f",
-    "spcpt_whDzVjzvXmqd6T92"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.6.1",
+     "official_code": "7.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:7.6.1",
+     "official_code": "7.6.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_n7tbWvJwJVRFhgtz": {
    "kind": "note",

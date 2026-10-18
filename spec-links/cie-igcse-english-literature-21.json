@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-english-literature-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 255,
-  "items_with_codes": 0,
+  "items_with_codes": 2,
   "by_kind": {
    "notes": 166,
    "question_parts": 89,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 1,
+   "question_parts": 1,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 686,
   "parts": 89,
   "universe_ids": 686,
-  "universe_resolved": 0,
-  "pending_refs": 775,
-  "flashcards_discovered_uncoded": 367
+  "universe_resolved": 3,
+  "pending_refs": 771,
+  "flashcards_discovered_uncoded": 367,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 3,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 3,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 683,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 49,
+    "no_unique_identity": 634
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_4v3c76ktpcZDrNwp": {
@@ -847,12 +883,27 @@
    "label": "Song: Love Armed: CIE IGCSE English Literature Revision",
    "section": "1-poetry-and-prose",
    "topic": "songs-of-ourselves-volume-1",
-   "codes": [],
-   "pending": [
-    "spcpt_pWx9CGnM3CCYFvMd",
-    "spcpt_zsqwhM9JxmbV8NMB",
-    "spcpt_JhD3GDXtPMSHtYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_DKdKVQZhnkd9yDYP": {
    "kind": "note",
@@ -2519,10 +2570,15 @@
    "label": "qstn_MPP7W9Jg4vnjsVSY / part 0",
    "section": "1-poetry-and-prose",
    "topic": "songs-of-ourselves-volume-1",
-   "codes": [],
-   "pending": [
-    "spcpt_JhD3GDXtPMSHtYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qHc8HNQpJ7ZkH4H9": {
    "kind": "question_part",

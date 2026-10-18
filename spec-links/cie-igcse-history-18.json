@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-history-2024-2026",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 407,
-  "items_with_codes": 0,
+  "items_with_codes": 55,
   "by_kind": {
    "notes": 86,
    "question_parts": 321,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 17,
+   "question_parts": 38,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 318,
   "parts": 619,
   "universe_ids": 318,
-  "universe_resolved": 0,
-  "pending_refs": 937,
-  "flashcards_discovered_uncoded": 1050
+  "universe_resolved": 24,
+  "pending_refs": 868,
+  "flashcards_discovered_uncoded": 1050,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 24,
+   "by_tier": {
+    "V1_name_text_identity": 10,
+    "V2_name_phrase_identity": 14,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 294,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 2,
+    "no_unique_identity": 292
+   },
+   "dangling_eq_refs_pending": 2
+  }
  },
  "items": {
   "rn_RMGhqM528P9TFfTz": {
@@ -124,12 +160,18 @@
    "label": "Germany After World War One - IGCSE History Revision Notes",
    "section": "germany-1918-45",
    "topic": "was-the-weimar-republic-doomed-from-the-start",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_nv39qMmvWf8Nzt5Q",
     "spcpt_3mKSKn97knkfzKdQ",
-    "spcpt_qb6PY5jwHsgQFdFt",
-    "spcpt_skCWgTJWFNjYGW47"
+    "spcpt_qb6PY5jwHsgQFdFt"
    ]
   },
   "rn_xFr4Z8Br2FHHGDKS": {
@@ -137,14 +179,20 @@
    "label": "The Impact of the Treaty of Versailles on the Republic | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "germany-1918-45",
    "topic": "was-the-weimar-republic-doomed-from-the-start",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_7HfJwYptjbD42Kpc",
     "spcpt_B4YGYjXBk3MRQHFd",
     "spcpt_J4zCxNFTJhxwdZcJ",
     "spcpt_3XGz9sdPDkt7TJyn",
     "spcpt_pBbkNbTYrmnx7xdn",
-    "spcpt_d5MTbTZJGjMqmMKh",
     "spcpt_xQrZSGdFHxH4m48K"
    ]
   },
@@ -188,10 +236,16 @@
    "label": "Nazi Policies Towards Women - IGCSE History Revision Notes",
    "section": "germany-1918-45",
    "topic": "what-was-it-like-to-live-in-nazi-germany",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_kTKMcPMpbKV8Hw4M",
-    "spcpt_8k9rYSSPdRhKCG6k",
     "spcpt_F7rXRqXZ3kJfy8Hf"
    ]
   },
@@ -228,14 +282,40 @@
    "label": "Hitler's Consolidation of Power - IGCSE History Notes",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_JbFTNfK3CBH45Y59",
-    "spcpt_mMJYK3w25bCpcZWw",
-    "spcpt_S5Sn96VxtHpwy67k",
-    "spcpt_r6bCTkjhDkdCh22N",
-    "spcpt_2pDMvYbkYHPFsCS5",
-    "spcpt_DvTGGVtTT2VPrnys"
+    "spcpt_r6bCTkjhDkdCh22N"
    ]
   },
   "rn_NfZQFtQGQjgWPjD8": {
@@ -255,9 +335,15 @@
    "label": "Why Did the Nazis have Little Success Before 1930? | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_dJvc7VKpFStpqBTq",
     "spcpt_FSJX2T2JRd7Kppf7"
    ]
   },
@@ -607,10 +693,16 @@
    "label": "How did the Great Depression Affect the League of Nations",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.020",
+     "official_code": "S13.020",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_BSw48cZHvbM3KtZH",
-    "spcpt_Wp6qnY9KtbQMq9mq",
     "spcpt_J8jQn5pqnb64qNp5",
     "spcpt_5Dt37wMMzSpqcSk8"
    ]
@@ -633,11 +725,17 @@
    "label": "Manchurian Crisis - IGCSE History Revision Notes",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_8ZF6x5njgJ4w2S5z",
     "spcpt_DgQPwrNdQZKcJBKv",
-    "spcpt_7my4PrHXG9JGTF7D",
     "spcpt_BNgvFgqdnSKpbbsH"
    ]
   },
@@ -646,14 +744,30 @@
    "label": "The League of Nations Attempts at Peacekeeping in the 1920s | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.018",
+     "official_code": "S4.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.020",
+     "official_code": "S4.020",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.021",
+     "official_code": "S4.021",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_GkmdJhwMGhfWCkVs",
-    "spcpt_K2rvzvNTfXjXfrsY",
     "spcpt_MNmfYFvQYQvNVg34",
-    "spcpt_YgFVtkHZx8Zt4qbq",
-    "spcpt_B49YbCpNbsGXVpRw",
-    "spcpt_8yHNpcBMYxKm8csr"
+    "spcpt_YgFVtkHZx8Zt4qbq"
    ]
   },
   "rn_nPC2NSr7hvW9X5pP": {
@@ -697,13 +811,19 @@
    "label": "Consequences of the Failures of the League of Nations in the 1930s | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.039",
+     "official_code": "S4.039",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_SfZySNDWwRqRgxHV",
     "spcpt_nn8pnSkQcpdYf4wk",
     "spcpt_pjvR4W7yD7S6jxhF",
-    "spcpt_mjMvc7FK7YzYdZGr",
-    "spcpt_ChM3MPB6th7kwBNQ"
+    "spcpt_mjMvc7FK7YzYdZGr"
    ]
   },
   "rn_HFgFjfynq5Y75DJm": {
@@ -772,10 +892,16 @@
    "label": "Why did Britain and France Declare War on Germany? - IGCSE",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.042",
+     "official_code": "S4.042",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_kCz4KNkKnbHjtqwR",
-    "spcpt_B9w2ZBQStVmDYqft",
     "spcpt_Tgww3zN23WnXjjHd"
    ]
   },
@@ -819,11 +945,17 @@
    "label": "What was the Impact of the Treaty of Versailles on Germany? | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "was-the-treaty-of-versailles-fair",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_sDWw85FgjXbXtjqK",
     "spcpt_JhrTNbsVPKKH6kCV",
-    "spcpt_nkxgcnwsTrXJYSTy",
     "spcpt_YDs7bjWpQxkMJsPm",
     "spcpt_tW8m9SwYt27SVMV6"
    ]
@@ -874,12 +1006,18 @@
    "label": "Why did the Grand Alliance Break Down? - IGCSE History Notes",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "who-was-to-blame-for-the-cold-war",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Zs5J8cKwhthtp73N",
     "spcpt_hW8FFSzRXg8JgC93",
     "spcpt_pQXFHjNJyYXQsrNP",
-    "spcpt_wymbtsSmmSkcCTqJ",
     "spcpt_SstrvnkRFTPMgxbn"
    ]
   },
@@ -942,10 +1080,16 @@
    "label": "Reasons For the Economic Boom | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_F5HGx7X74B5HvP9J",
-    "spcpt_stVbDDhz4GCQb4qX",
     "spcpt_2GGy6WS4QVrVxVCW",
     "spcpt_XyMyBsQ39XmFSHBT",
     "spcpt_JC99BvCmcK9WVGd7",
@@ -1018,10 +1162,16 @@
    "label": "Why was Prohibition Introduced & Repealed? | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-us-society-change-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_CJKjGQ4GJvcC9Shv",
-    "spcpt_5h2jWF7pvBTdMp3b",
     "spcpt_hGQvpKGQD9GB3MqT",
     "spcpt_mPn96MN5psbyS9m4"
    ]
@@ -1056,11 +1206,21 @@
    "label": "The New Deal, 1933 | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Vw22xkn5mc6Gf8",
-    "spcpt_tg5hDn4WrHph7FjW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.025",
+     "official_code": "S19.025",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_WSJYt6Gskcm5V5qz": {
    "kind": "note",
@@ -1078,11 +1238,17 @@
    "label": "Why Did Unemployment Continue? | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_KS2VWpGTY8XK5SMh",
-    "spcpt_6sQxH3yx58RbSCxJ",
-    "spcpt_pSHMzJnWw2yQZB5t"
+    "spcpt_6sQxH3yx58RbSCxJ"
    ]
   },
   "rn_84VHXRbdcrzy2jxd": {
@@ -1127,10 +1293,16 @@
    "label": "Why Did Roosevelt Win the Election of 1932? | Cambridge (CIE) IGCSE History Revision Notes 2018",
    "section": "the-united-states-1919-41",
    "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_MnQ79BkHBTFbFHpQ",
-    "spcpt_9HP7sfgGHm52bxDr",
     "spcpt_C9dVwBdJDSrb6p64",
     "spcpt_6M4FmSx945NwKfXQ",
     "spcpt_jVkFzhTwHyCnVr37"
@@ -1427,9 +1599,15 @@
    "label": "qstn_NJzvXrGpmNG7smvy / part 0",
    "section": "germany-1918-45",
    "topic": "was-the-weimar-republic-doomed-from-the-start",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_skCWgTJWFNjYGW47",
     "spcpt_qb6PY5jwHsgQFdFt"
    ]
   },
@@ -1498,9 +1676,15 @@
    "label": "qstn_58gj7gGb6RCHrjhp / part 0",
    "section": "germany-1918-45",
    "topic": "was-the-weimar-republic-doomed-from-the-start",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_skCWgTJWFNjYGW47",
     "spcpt_qb6PY5jwHsgQFdFt"
    ]
   },
@@ -1552,11 +1736,17 @@
    "label": "qstn_VJF8Ht3cNT2sDtpr / part 0",
    "section": "germany-1918-45",
    "topic": "was-the-weimar-republic-doomed-from-the-start",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_xQrZSGdFHxH4m48K",
     "spcpt_pBbkNbTYrmnx7xdn",
-    "spcpt_nkxgcnwsTrXJYSTy",
     "spcpt_3XGz9sdPDkt7TJyn"
    ]
   },
@@ -1597,10 +1787,16 @@
    "label": "qstn_63NZXYzgjksDWPwM / part 0",
    "section": "germany-1918-45",
    "topic": "what-was-it-like-to-live-in-nazi-germany",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_F7rXRqXZ3kJfy8Hf",
-    "spcpt_8k9rYSSPdRhKCG6k"
+    "spcpt_F7rXRqXZ3kJfy8Hf"
    ]
   },
   "qstnprt_f6SNc7msGztqGwBq": {
@@ -1618,10 +1814,16 @@
    "label": "qstn_zwVmbtxYj9Q9Pswq / part 0",
    "section": "germany-1918-45",
    "topic": "what-was-it-like-to-live-in-nazi-germany",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kTKMcPMpbKV8Hw4M",
-    "spcpt_8k9rYSSPdRhKCG6k"
+    "spcpt_kTKMcPMpbKV8Hw4M"
    ]
   },
   "qstnprt_kzChYSrJKm6VK2Xy": {
@@ -1685,10 +1887,15 @@
    "label": "qstn_MZ6FsdvdwCYsnPGv / part 0",
    "section": "germany-1918-45",
    "topic": "what-was-it-like-to-live-in-nazi-germany",
-   "codes": [],
-   "pending": [
-    "spcpt_8k9rYSSPdRhKCG6k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H8fPhD7QGzVzqptg": {
    "kind": "question_part",
@@ -1705,10 +1912,16 @@
    "label": "qstn_qn9RSz38v2zJK6nf / part 0",
    "section": "germany-1918-45",
    "topic": "what-was-it-like-to-live-in-nazi-germany",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kTKMcPMpbKV8Hw4M",
-    "spcpt_8k9rYSSPdRhKCG6k"
+    "spcpt_kTKMcPMpbKV8Hw4M"
    ]
   },
   "qstnprt_9GxqfBtJ9QJYZP7V": {
@@ -1791,10 +2004,16 @@
    "label": "qstn_9S4FTDWXQg8BH4Xk / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kGrvjrmXG8Y6Hyzd",
-    "spcpt_2pDMvYbkYHPFsCS5"
+    "spcpt_kGrvjrmXG8Y6Hyzd"
    ]
   },
   "qstnprt_SNXRPBRMPfhcDd3y": {
@@ -1849,21 +2068,37 @@
    "label": "qstn_G5FsVwZHTqHzzYSD / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
-   "pending": [
-    "spcpt_dJvc7VKpFStpqBTq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Gy3b3NVBkybwWWcf": {
    "kind": "question_part",
    "label": "qstn_BnWVt6CRcjbbZ2D7 / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_r6bCTkjhDkdCh22N",
-    "spcpt_DvTGGVtTT2VPrnys",
-    "spcpt_2pDMvYbkYHPFsCS5"
+    "spcpt_r6bCTkjhDkdCh22N"
    ]
   },
   "qstnprt_sFtT6bQdFJqC9XF6": {
@@ -1883,21 +2118,36 @@
    "label": "qstn_RcB9S362GKYtBvBV / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
-   "pending": [
-    "spcpt_mMJYK3w25bCpcZWw",
-    "spcpt_JbFTNfK3CBH45Y59"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FCKHGv6mCMMvkRtm": {
    "kind": "question_part",
    "label": "qstn_wRCYZVQTcGngdqRV / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
-   "pending": [
-    "spcpt_dJvc7VKpFStpqBTq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8T5jVtK5FpZN5XSQ": {
    "kind": "question_part",
@@ -1925,22 +2175,43 @@
    "label": "qstn_TVjQbVj6YsgkdG9R / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
-   "pending": [
-    "spcpt_S5Sn96VxtHpwy67k",
-    "spcpt_JbFTNfK3CBH45Y59",
-    "spcpt_2pDMvYbkYHPFsCS5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KcdJ6XC7ZfPGcyNV": {
    "kind": "question_part",
    "label": "qstn_pVqJhjNk55pBb37G / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_FSJX2T2JRd7Kppf7",
-    "spcpt_dJvc7VKpFStpqBTq"
+    "spcpt_FSJX2T2JRd7Kppf7"
    ]
   },
   "qstnprt_2ytnPr7tppjgbMkF": {
@@ -1948,12 +2219,27 @@
    "label": "qstn_xnxnMqWVbGZJvD4R / part 0",
    "section": "germany-1918-45",
    "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
-   "codes": [],
-   "pending": [
-    "spcpt_S5Sn96VxtHpwy67k",
-    "spcpt_DvTGGVtTT2VPrnys",
-    "spcpt_2pDMvYbkYHPFsCS5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QcfyVcbHySPtGbqz": {
    "kind": "question_part",
@@ -3189,9 +3475,15 @@
    "label": "qstn_wjkGGFjFsVySGj7F / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.020",
+     "official_code": "S13.020",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Wp6qnY9KtbQMq9mq",
     "spcpt_J8jQn5pqnb64qNp5",
     "spcpt_C4qFW2jkr26vZWKx"
    ]
@@ -3201,11 +3493,17 @@
    "label": "qstn_BkHPXRXdvz8SRWYP / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_fMsNx3F92hNxwQcs",
-    "spcpt_F7khB9CF9W7NHssr",
-    "spcpt_7my4PrHXG9JGTF7D"
+    "spcpt_F7khB9CF9W7NHssr"
    ]
   },
   "qstnprt_wgpN8sZ2pHDJBHRj": {
@@ -3213,10 +3511,16 @@
    "label": "qstn_3Rfw2XQC84YM8DWP / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.018",
+     "official_code": "S4.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_YgFVtkHZx8Zt4qbq",
-    "spcpt_K2rvzvNTfXjXfrsY",
     "spcpt_GkmdJhwMGhfWCkVs"
    ]
   },
@@ -3235,10 +3539,15 @@
    "label": "qstn_R3ZxhkCsKGhctxfr / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "to-what-extent-was-the-league-of-nations-a-success",
-   "codes": [],
-   "pending": [
-    "spcpt_7my4PrHXG9JGTF7D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fFzzBSRTYP6RgCx6": {
    "kind": "question_part",
@@ -3615,12 +3924,23 @@
    "label": "qstn_jWcP2wJKb9WkvK49 / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "was-the-treaty-of-versailles-fair",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_tW8m9SwYt27SVMV6",
-    "spcpt_JhrTNbsVPKKH6kCV",
-    "spcpt_dJvc7VKpFStpqBTq",
-    "spcpt_d5MTbTZJGjMqmMKh"
+    "spcpt_JhrTNbsVPKKH6kCV"
    ]
   },
   "qstnprt_xBxy89wY5YGX5VSz": {
@@ -3662,10 +3982,15 @@
    "label": "qstn_npW8sxjQ35ZfwYwD / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "who-was-to-blame-for-the-cold-war",
-   "codes": [],
-   "pending": [
-    "spcpt_wymbtsSmmSkcCTqJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YPD2wDTpCc3TYj62": {
    "kind": "question_part",
@@ -3724,10 +4049,16 @@
    "label": "qstn_xMZqT23yzMSfY8tc / part 0",
    "section": "the-20th-century-international-relations-from-1919",
    "topic": "who-was-to-blame-for-the-cold-war",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Zs5J8cKwhthtp73N",
-    "spcpt_wymbtsSmmSkcCTqJ",
     "spcpt_SstrvnkRFTPMgxbn"
    ]
   },
@@ -3800,11 +4131,17 @@
    "label": "qstn_4q7gWcMN89yxwvJm / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_XyMyBsQ39XmFSHBT",
     "spcpt_WSB3CwSTjbWdg2SP",
-    "spcpt_stVbDDhz4GCQb4qX",
     "spcpt_JC99BvCmcK9WVGd7",
     "spcpt_F5HGx7X74B5HvP9J",
     "spcpt_2GGy6WS4QVrVxVCW"
@@ -3909,11 +4246,17 @@
    "label": "qstn_sgf6g9CyDYhst8gd / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_XyMyBsQ39XmFSHBT",
-    "spcpt_WSB3CwSTjbWdg2SP",
-    "spcpt_stVbDDhz4GCQb4qX"
+    "spcpt_WSB3CwSTjbWdg2SP"
    ]
   },
   "qstnprt_pSgw8pYVkwwj52RR": {
@@ -3921,9 +4264,15 @@
    "label": "qstn_szbWvgjbxBTThx6V / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_stVbDDhz4GCQb4qX",
     "spcpt_JGSqpyfcDNP57MDC",
     "spcpt_2GGy6WS4QVrVxVCW"
    ]
@@ -4008,11 +4357,17 @@
    "label": "qstn_bmkK5vnscdd54NdV / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-us-society-change-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_hGQvpKGQD9GB3MqT",
-    "spcpt_CJKjGQ4GJvcC9Shv",
-    "spcpt_5h2jWF7pvBTdMp3b"
+    "spcpt_CJKjGQ4GJvcC9Shv"
    ]
   },
   "qstnprt_X45xcvdqs89VrvPn": {
@@ -4040,12 +4395,18 @@
    "label": "qstn_hdHg9FxpF55fSS5T / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-us-society-change-in-the-1920s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_mPn96MN5psbyS9m4",
     "spcpt_hGQvpKGQD9GB3MqT",
-    "spcpt_CJKjGQ4GJvcC9Shv",
-    "spcpt_5h2jWF7pvBTdMp3b"
+    "spcpt_CJKjGQ4GJvcC9Shv"
    ]
   },
   "qstnprt_DGK4BmHZJKkpmVtk": {
@@ -4086,10 +4447,15 @@
    "label": "qstn_VFkj22RwHNF6fZnY / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-far-did-us-society-change-in-the-1920s",
-   "codes": [],
-   "pending": [
-    "spcpt_5h2jWF7pvBTdMp3b"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QkvFdmDPCTy8WSCm": {
    "kind": "question_part",
@@ -4240,10 +4606,15 @@
    "label": "qstn_scH8mtnn2VDNGY3c / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Vw22xkn5mc6Gf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JVY6dZHMB9YPBjCD": {
    "kind": "question_part",
@@ -4303,10 +4674,15 @@
    "label": "qstn_GH3HXh53VQx369bV / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Vw22xkn5mc6Gf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZhYxqcqhgbBdGShd": {
    "kind": "question_part",
@@ -4334,10 +4710,16 @@
    "label": "qstn_FWzXyNJMkkdGsyzt / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_xxJphWp99NsKK5P7",
-    "spcpt_pSHMzJnWw2yQZB5t",
     "spcpt_KS2VWpGTY8XK5SMh"
    ]
   },
@@ -4367,9 +4749,15 @@
    "label": "qstn_yHfMj3QT7Mq2zW6D / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_pSHMzJnWw2yQZB5t",
     "spcpt_KS2VWpGTY8XK5SMh"
    ]
   },
@@ -4378,10 +4766,15 @@
    "label": "qstn_nKSpFMTzfpkKmVpx / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
-   "pending": [
-    "spcpt_pSHMzJnWw2yQZB5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vpwTxSgMN7sjwVkT": {
    "kind": "question_part",
@@ -4400,10 +4793,15 @@
    "label": "qstn_dPPhnRMNWhGXsvmt / part 0",
    "section": "the-united-states-1919-41",
    "topic": "how-successful-was-the-new-deal",
-   "codes": [],
-   "pending": [
-    "spcpt_tg5hDn4WrHph7FjW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.025",
+     "official_code": "S19.025",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QxyPZjkMBXYywQKn": {
    "kind": "question_part",
@@ -4421,11 +4819,17 @@
    "label": "qstn_mbZtws6sJfK5WgTC / part 0",
    "section": "the-united-states-1919-41",
    "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_MnQ79BkHBTFbFHpQ",
     "spcpt_jVkFzhTwHyCnVr37",
-    "spcpt_9HP7sfgGHm52bxDr",
     "spcpt_6M4FmSx945NwKfXQ"
    ]
   },
@@ -4458,10 +4862,16 @@
    "label": "qstn_s4V9dsTZY3c6rFxV / part 0",
    "section": "the-united-states-1919-41",
    "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_C9dVwBdJDSrb6p64",
-    "spcpt_9HP7sfgGHm52bxDr",
     "spcpt_MnQ79BkHBTFbFHpQ",
     "spcpt_jVkFzhTwHyCnVr37",
     "spcpt_6M4FmSx945NwKfXQ"
@@ -4595,11 +5005,17 @@
    "label": "qstn_KQkqQ2tqt8wtvDqj / part 0",
    "section": "the-united-states-1919-41",
    "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_MnQ79BkHBTFbFHpQ",
-    "spcpt_C9dVwBdJDSrb6p64",
-    "spcpt_9HP7sfgGHm52bxDr"
+    "spcpt_C9dVwBdJDSrb6p64"
    ]
   },
   "qstnprt_Zm9y63pM8rK9jT6G": {
@@ -4639,10 +5055,15 @@
    "label": "qstn_fY6RDC8pxWzM4bWt / part 0",
    "section": "the-united-states-1919-41",
    "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
-   "codes": [],
-   "pending": [
-    "spcpt_9HP7sfgGHm52bxDr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   }
  }
 }

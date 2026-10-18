@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-religious-studies-2025-2027",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 238,
-  "items_with_codes": 0,
+  "items_with_codes": 98,
   "by_kind": {
    "notes": 97,
    "question_parts": 141,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 45,
+   "question_parts": 53,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 354,
   "parts": 355,
   "universe_ids": 354,
-  "universe_resolved": 0,
-  "pending_refs": 709,
-  "flashcards_discovered_uncoded": 0
+  "universe_resolved": 79,
+  "pending_refs": 555,
+  "flashcards_discovered_uncoded": 0,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 79,
+   "by_tier": {
+    "V1_name_text_identity": 22,
+    "V2_name_phrase_identity": 57,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 275,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 274
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_qTzsSJcWh5Xh2nPh": {
@@ -49,10 +85,21 @@
    "label": "Christian Beliefs about God | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.1a",
+     "official_code": "C2.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.1b",
+     "official_code": "C2.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_59j9XxM32vY4w4Hq",
-    "spcpt_F6Rf9Rr7KdQgbpfv",
     "spcpt_6mgppzJPVZJrGJ2c"
    ]
   },
@@ -61,14 +108,30 @@
    "label": "Christian Beliefs about Jesus | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2b",
+     "official_code": "C2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2d",
+     "official_code": "C2.2d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2f",
+     "official_code": "C2.2f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_dgv5rMjB9GpXS9HW",
-    "spcpt_3BYq2rkTrm5X4pwm",
     "spcpt_BgJbHvTrKHR4Wm5y",
-    "spcpt_ZcxVJxkpfTc7tJsP",
-    "spcpt_QnDgZht8hgwgYqjJ",
-    "spcpt_qrn9N93mrX6W3kdc"
+    "spcpt_QnDgZht8hgwgYqjJ"
    ]
   },
   "rn_y9k6BqK47Wngd9my": {
@@ -89,10 +152,16 @@
    "label": "Christian Beliefs about the Holy Spirit | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.3b",
+     "official_code": "C2.3b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_nc6TSXGdvq3jMz9r",
-    "spcpt_9YdbKrjTv8f7jSnF",
     "spcpt_vpH7KYNDHN663zq6"
    ]
   },
@@ -124,13 +193,24 @@
    "label": "Christian Fasts: Lent | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.6d",
+     "official_code": "C4.6d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.6e",
+     "official_code": "C4.6e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_RQmZGp5tmhdp2bX4",
     "spcpt_zCZjKbrWVqgbHJMP",
     "spcpt_VSpy3R7zbvPbzHj8",
-    "spcpt_2dVDH6Mjf6Y6zhMK",
-    "spcpt_4gvNbHj2d3SDyghZ",
     "spcpt_H4n3d99BWjTVs33s"
    ]
   },
@@ -139,13 +219,24 @@
    "label": "Christian Festivals: Advent | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.7d",
+     "official_code": "C4.7d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.7e",
+     "official_code": "C4.7e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ryqg5qC3ZQTpTwGT",
     "spcpt_cP73mRnFCMbrHKSQ",
     "spcpt_R4srYZBmwpvHXCsn",
-    "spcpt_JpMkmmSJ4TrBtFkS",
-    "spcpt_6cm5KCbH23vq5Cp5",
     "spcpt_TVWpxSSYG4CdGBZk"
    ]
   },
@@ -154,11 +245,22 @@
    "label": "Christian Festivals: Ascension | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.4a",
+     "official_code": "C4.4a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.4c",
+     "official_code": "C4.4c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Drwfx2XdTHWGXb39",
     "spcpt_yPRBFX37BCSMKhCw",
-    "spcpt_2kGtHDgFrX72S3Fb",
     "spcpt_dfnxGDdW6c8CDy92",
     "spcpt_7wSRrgMDgvPCh2Bk"
    ]
@@ -168,12 +270,23 @@
    "label": "Christian Festivals: Christmas | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.2c",
+     "official_code": "C4.2c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.2d",
+     "official_code": "C4.2d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_d7cfNGcfPTPpDCgV",
     "spcpt_QQfd9pJ2DWG4dJGg",
-    "spcpt_3Z8Yjx7cFmqhPCZt",
-    "spcpt_z8w9sHKMtFrBQXpZ",
     "spcpt_vFgMc6kjStqD54C6"
    ]
   },
@@ -182,13 +295,34 @@
    "label": "Christian Festivals: Easter & Holy Week | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1a",
+     "official_code": "C4.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1c",
+     "official_code": "C4.1c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1d",
+     "official_code": "C4.1d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1e",
+     "official_code": "C4.1e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_RZKG3G94rnnPkjtD",
-    "spcpt_N3V3vZsT2bjPBZyq",
-    "spcpt_DcbTH2373tMxGq55",
-    "spcpt_vb2qyvr3499tTKSZ",
-    "spcpt_ndZzfkHfQT5VZZgB"
+    "spcpt_N3V3vZsT2bjPBZyq"
    ]
   },
   "rn_kT4FbJpfP2zCKR8Y": {
@@ -196,13 +330,34 @@
    "label": "Christian Festivals: Epiphany | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.3a",
+     "official_code": "C4.3a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.3b",
+     "official_code": "C4.3b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.3d",
+     "official_code": "C4.3d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.3e",
+     "official_code": "C4.3e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PzmgDTBK44tDXWyc",
-    "spcpt_W2w6MjfdsNHq6Kb5",
     "spcpt_3yVqhX22GNC564ft",
-    "spcpt_d6Y2gQpnZ9TRMYWW",
-    "spcpt_XtRrZF6GYntwyFww",
     "spcpt_T7FvNRrsDzBhZ3Vw"
    ]
   },
@@ -211,13 +366,24 @@
    "label": "Christian Festivals: Pentecost | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.5d",
+     "official_code": "C4.5d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.5e",
+     "official_code": "C4.5e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_gm4gY7dS36S5dsZ5",
     "spcpt_R5VSvk3GMJNv7ZMx",
     "spcpt_kqMBWBz2rqxyk4GF",
-    "spcpt_5ymyKGshG57drkxz",
-    "spcpt_rXvGmrrgPrYMYKc6",
     "spcpt_jxvZcYKzwmWrdftz"
    ]
   },
@@ -226,10 +392,21 @@
    "label": "Observation of Easter & Holy Week | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1f",
+     "official_code": "C4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1g",
+     "official_code": "C4.1g",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Rjk5bhKfS2T6YRgJ",
-    "spcpt_5N8yqTyn3xQy2wNH",
     "spcpt_P4Wdd4k2fmxK6CPc"
    ]
   },
@@ -238,10 +415,16 @@
    "label": "Christianity & Baptism | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C5.1b",
+     "official_code": "C5.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_j3wqFjdQSmz3mWQC",
-    "spcpt_ShxrVj5Zpw9SvFk7",
     "spcpt_QpBp8z4kCJ8T6pqG"
    ]
   },
@@ -250,10 +433,16 @@
    "label": "Christianity & Coming of Age Ceremonies | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C5.2b",
+     "official_code": "C5.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_zVtFVn9xvz7jd2Zy",
-    "spcpt_ktS4sNvSk5S2Ppnm",
     "spcpt_FD7kN7sMqgvXy45P"
    ]
   },
@@ -322,11 +511,17 @@
    "label": "Differing Christian Views on Worship | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4i",
+     "official_code": "C1.4i",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_79KGF4zjYHZ73t8c",
-    "spcpt_6jqHqyFqNNT5fpT8",
-    "spcpt_jxrs7T6F7tGVN9M9"
+    "spcpt_6jqHqyFqNNT5fpT8"
    ]
   },
   "rn_tNbbCszRNykPGJ5d": {
@@ -346,14 +541,25 @@
    "label": "Public & Private Worship in Christianity | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "christianity",
    "topic": "christian-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4d",
+     "official_code": "C1.4d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4f",
+     "official_code": "C1.4f",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_gJqD5nKC6vbPwy8Z",
     "spcpt_BC5Bt48DSrJRwnCC",
     "spcpt_bMc7w7dQ5jBjf4d8",
-    "spcpt_fRNdrjNgs3GngmbZ",
-    "spcpt_MS4hHtC5WdKg85g6",
-    "spcpt_5wNcfD286HjQTDhm"
+    "spcpt_MS4hHtC5WdKg85g6"
    ]
   },
   "rn_fpWP9bmMBptynjDV": {
@@ -479,9 +685,15 @@
    "label": "Shar'iah Legal System | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islam-and-social-action",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I6.2a",
+     "official_code": "I6.2a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_X6gjNQDRhMwm4PMF",
     "spcpt_hqxmk6w6dfSKTK3Q",
     "spcpt_kNhwfnJZvRMBbvT9",
     "spcpt_TZh4MrHkTT3H63kX",
@@ -532,16 +744,27 @@
    "label": "Public & Private Worship in Muslim Communities | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islam-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I1.4d",
+     "official_code": "I1.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I1.4h",
+     "official_code": "I1.4h",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_2X6p8WVBp52ymTHM",
     "spcpt_PPqKmrwfHchw776b",
     "spcpt_PcdfNZ4ZzgrYjxmY",
-    "spcpt_PDQPvcDpshSSTM8R",
     "spcpt_xzdfhpwYZSdKPWQf",
     "spcpt_tNgBnCzm9W6xrSkT",
-    "spcpt_3hTjrTBYzx22gw3V",
-    "spcpt_WYRnQyyvVtWtcNmh"
+    "spcpt_3hTjrTBYzx22gw3V"
    ]
   },
   "rn_QfsFXn4X227bp2W2": {
@@ -560,10 +783,16 @@
    "label": "Worship in the Mosque | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islam-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I1.1b",
+     "official_code": "I1.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_kQwYDdWMSZK64TNR",
-    "spcpt_n5PYvNHkTnJ5G6hD"
+    "spcpt_kQwYDdWMSZK64TNR"
    ]
   },
   "rn_Pj5r8p7KrQfctvxB": {
@@ -571,14 +800,20 @@
    "label": "Islam & Family Life | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islam-religion-and-family-life",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.4d",
+     "official_code": "I5.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_RcFgR2JfSx3SsJ74",
     "spcpt_6Sq23JG5F427b492",
     "spcpt_K6BBPjMJ5fdFKTwj",
     "spcpt_kSfmt6FQNN6BgR3R",
-    "spcpt_s4h8P2QFNT3Qc6mV",
-    "spcpt_sGHgKyHgkNpQrygD"
+    "spcpt_s4h8P2QFNT3Qc6mV"
    ]
   },
   "rn_b3pkxpGtQq9rGwrH": {
@@ -644,13 +879,34 @@
    "label": "The Development of Islam | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.5a",
+     "official_code": "I2.5a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.5b",
+     "official_code": "I2.5b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.5c",
+     "official_code": "I2.5c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.5d",
+     "official_code": "I2.5d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_ZtYdP3MbnNvCwSMv",
-    "spcpt_5x3fwg94GYmQZFpk",
-    "spcpt_drpyWfqbHF8F5476",
-    "spcpt_5GKFvSr3JzV2TVrB",
-    "spcpt_27Vvgd6gZrCQ6SJ4"
+    "spcpt_ZtYdP3MbnNvCwSMv"
    ]
   },
   "rn_Tx4d7yBBQThgzDT3": {
@@ -672,13 +928,29 @@
    "label": "The Five Roots of Usul ad-Din | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.2b",
+     "official_code": "I2.2b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.2d",
+     "official_code": "I2.2d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.2e",
+     "official_code": "I2.2e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_9VyBN2pzTyzQ66jd",
-    "spcpt_4B9zbkgmCy3vPvdM",
-    "spcpt_WFkPZ72KCsZSKF5J",
-    "spcpt_r2rY4NKHsMKVbhXd",
-    "spcpt_2Vg8vW7xc5GNTHy5"
+    "spcpt_WFkPZ72KCsZSKF5J"
    ]
   },
   "rn_rqX3QRHZfQkMPTV5": {
@@ -686,13 +958,19 @@
    "label": "The Prophet Muhammad (pbuh) | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.4e",
+     "official_code": "I2.4e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_jdTqr6mnSQyw4XCR",
     "spcpt_M2D5G9KMqjbtrQc2",
     "spcpt_vXcz73pmxySKbXBY",
-    "spcpt_6GFSvF8wTYCkKS83",
-    "spcpt_7Q2zydsFwXGnZ5mt"
+    "spcpt_6GFSvF8wTYCkKS83"
    ]
   },
   "rn_JgxcCFZCnpKqYXrn": {
@@ -700,14 +978,30 @@
    "label": "The Six Articles of Faith | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1c",
+     "official_code": "I2.1c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1e",
+     "official_code": "I2.1e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1f",
+     "official_code": "I2.1f",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_D59FrPvCgmfdyPpD",
     "spcpt_qDSD4qq4XTYbbs4J",
-    "spcpt_K9NB8wxj6qQ5QdXF",
-    "spcpt_mKHj6VtZMXDNmb26",
-    "spcpt_gHbJfXKk6DYJxVXD",
-    "spcpt_PwV4Y4zqBr5nQzMr"
+    "spcpt_mKHj6VtZMXDNmb26"
    ]
   },
   "rn_Fr3XhNwYfJNtw9j9": {
@@ -738,13 +1032,29 @@
    "label": "Id al-Fitr - the end of Ramadan | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3b",
+     "official_code": "I4.3b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3c",
+     "official_code": "I4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3e",
+     "official_code": "I4.3e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_3gGVN4zNZgYzs6Ky",
-    "spcpt_vxyDnFThNQmJ3hbt",
-    "spcpt_gqKDxTBPfcdq7X37",
-    "spcpt_6r7w56b6zVC7rSMZ",
-    "spcpt_XrDvvWh8YSxcW2yJ"
+    "spcpt_6r7w56b6zVC7rSMZ"
    ]
   },
   "rn_nY3vtxn7mMFf3GvH": {
@@ -752,11 +1062,22 @@
    "label": "Observation of Id al-Adha | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.1d",
+     "official_code": "I4.1d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.1f",
+     "official_code": "I4.1f",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_3FJHpWfPqQBNnWvs",
-    "spcpt_wNsHt2k8KPBwV6wC",
-    "spcpt_bWZg7VSCPHFtc6HF"
+    "spcpt_wNsHt2k8KPBwV6wC"
    ]
   },
   "rn_DQKNF5KWt6rs4QsC": {
@@ -764,11 +1085,17 @@
    "label": "Observation of Ramadan | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.2j",
+     "official_code": "I4.2j",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6MGRPprw2vsgH97j",
-    "spcpt_NFx45mhvV2MDBzFx",
-    "spcpt_9zpPc6HHp924H67m"
+    "spcpt_NFx45mhvV2MDBzFx"
    ]
   },
   "rn_GzS6NWjhFfTpgWTV": {
@@ -776,10 +1103,16 @@
    "label": "The Fast of Ramadan | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.2b",
+     "official_code": "I4.2b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PT6F7dvs86Q5GZfy",
-    "spcpt_GtxYkTYVJz2DmXsC",
     "spcpt_32SG9jvzKNPgDV8r",
     "spcpt_zHSSz9nBKJBBcRXP",
     "spcpt_qRsmH9fQK9JGQrKq",
@@ -792,10 +1125,16 @@
    "label": "Islam & Birth Rites | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.1b",
+     "official_code": "I5.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_fS23ncbXZ3p6BHX4",
-    "spcpt_YXCX4NpxDXDjbdmk"
+    "spcpt_fS23ncbXZ3p6BHX4"
    ]
   },
   "rn_KP2Q7tFPsNsPgSdB": {
@@ -803,11 +1142,17 @@
    "label": "Islam & Funeral rites | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.3c",
+     "official_code": "I5.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_K65QJWqg78jTWGQW",
-    "spcpt_kSQz8t9JyMtWMQwr",
-    "spcpt_JZnp3kgFS8zGzRMY"
+    "spcpt_kSQz8t9JyMtWMQwr"
    ]
   },
   "rn_qNRV32yT6C4Y5NNn": {
@@ -848,15 +1193,36 @@
    "label": "The Stages of Hajj | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "islam",
    "topic": "islamic-sacred-places",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I3.2c",
+     "official_code": "I3.2c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I3.2d",
+     "official_code": "I3.2d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I3.2e",
+     "official_code": "I3.2e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I3.2g",
+     "official_code": "I3.2g",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_2hKVBM92NJDqqZDV",
     "spcpt_krnCqKghVkR23Jp5",
-    "spcpt_BCWKZGDXrMJBjktK",
-    "spcpt_d5594YtkvfcpFtKj",
-    "spcpt_95MjRy38mmfhKKz4",
     "spcpt_T3qZSsj4JPsTYvHp",
-    "spcpt_sK8KfvW3BvfHtSKX",
     "spcpt_42nHGNxGw4q4kFsQ"
    ]
   },
@@ -875,10 +1241,21 @@
    "label": "Covenants with the Jewish People | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2a",
+     "official_code": "J2.2a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2b",
+     "official_code": "J2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_7sdnpn9yxY3yK2SV",
-    "spcpt_t5DCZWDBBfjRhJQf",
     "spcpt_8x2WXxNXZXXJWXcK",
     "spcpt_kTS27Ys4XV5gc3vj",
     "spcpt_fmZXZZ4S4z6qdSjY"
@@ -925,9 +1302,15 @@
    "label": "Observation of Yom Kippur | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2e",
+     "official_code": "J4.2e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_zvq8c2hy5MYRbk7m",
     "spcpt_SPqKxCSRbDJrHsdp",
     "spcpt_GSrcc2qBF58GjgMB"
    ]
@@ -937,9 +1320,15 @@
    "label": "Observtion of Rosh Hashanah | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1f",
+     "official_code": "J4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_BgxnjrhYmyfmc6Q8",
     "spcpt_BddB9RzyK2wMNKsj",
     "spcpt_W3vvS3zjzpM3Pk8v"
    ]
@@ -949,11 +1338,17 @@
    "label": "Peasch (Passover) | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.3c",
+     "official_code": "J4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_7GrF6TsKRrpXW3yZ",
     "spcpt_9zW28YtRv7CRfJDW",
-    "spcpt_sBHSnr7qhBSXn7Kd",
     "spcpt_pZ6qD4vbznsnrSrW",
     "spcpt_rZsPZZ9T2xwgkP4r"
    ]
@@ -963,11 +1358,22 @@
    "label": "Rosh Hashanah - Jewish festival of New Year | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1a",
+     "official_code": "J4.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1c",
+     "official_code": "J4.1c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_F4vbC2BWc7RvDnYn",
     "spcpt_qQJzt5FnCpkD5Jsw",
-    "spcpt_CPQW8pPjQKJ8nwd9",
     "spcpt_PXRHvX7CVqwDQJJN",
     "spcpt_DxkVwFVPF5HPhYsd"
    ]
@@ -977,12 +1383,18 @@
    "label": "Sukkot | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.4d",
+     "official_code": "J4.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vYkJXZVPtCYrhxnW",
     "spcpt_drNZZ3D5rdwhQbKw",
     "spcpt_bJjyJM5xwBgkmfTJ",
-    "spcpt_vzM3tZJFx4Mbj89D",
     "spcpt_t4Jj337vg8bCNVFb",
     "spcpt_CXQPw6DQZHyjR3cy"
    ]
@@ -992,12 +1404,23 @@
    "label": "Yom Kippur | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2c",
+     "official_code": "J4.2c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2d",
+     "official_code": "J4.2d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_fc4hBBpRwkddZZJR",
-    "spcpt_CWGkG4WcrcpH7FRy",
-    "spcpt_h9vQb3HgJd2fyRYw",
-    "spcpt_gcpZpZkbPrfG9Fbk"
+    "spcpt_CWGkG4WcrcpH7FRy"
    ]
   },
   "rn_NzY6cmFC5VtfTcbK": {
@@ -1063,11 +1486,17 @@
    "label": "Jewish Coming of Age Ceremonies | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "jewish-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J5.2b",
+     "official_code": "J5.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vw87vZ4j4MzDYt7s",
-    "spcpt_Dfqg2ZFz6sfRgwsj",
-    "spcpt_nwmRqy5jzzGrThJs"
+    "spcpt_Dfqg2ZFz6sfRgwsj"
    ]
   },
   "rn_8KNzXY3bNFqjGwyv": {
@@ -1098,11 +1527,17 @@
    "label": "Jewish Stewardship of the Environment | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-social-action",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J6.2c",
+     "official_code": "J6.2c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_jb5ptkCmXFDNXYwX",
-    "spcpt_CVqWPVzV7hXgpbSv",
-    "spcpt_5jTHv2jdq2GD6Sbg"
+    "spcpt_CVqWPVzV7hXgpbSv"
    ]
   },
   "rn_2vGkzCW7pyrq5YP8": {
@@ -1121,9 +1556,15 @@
    "label": "Judaism & Poverty | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-social-action",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J6.3a",
+     "official_code": "J6.3a",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Y7n747rtsF9znScC",
     "spcpt_sPQdpQdVsCv228KS",
     "spcpt_JQG5xz9dVBr6T4Kf",
     "spcpt_3t4bQyZFqtnV53Zb"
@@ -1134,9 +1575,15 @@
    "label": "Artefacts used in Jewish Worship | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.3a",
+     "official_code": "J1.3a",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_Hybsxb4b6SBS3Vs8",
     "spcpt_Xd8Q5tSwHJJCQwsW",
     "spcpt_KbW2Nng4znMxZKsB",
     "spcpt_DbGycqqxtYBbStq8",
@@ -1149,10 +1596,16 @@
    "label": "Celebration of Shabbat | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.6b",
+     "official_code": "J1.6b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_SRbDX5B34Ysz2JhX",
-    "spcpt_QXzR6QNCtnjHwZGQ",
     "spcpt_g7jN45Bvgf3bvFgS"
    ]
   },
@@ -1161,7 +1614,14 @@
    "label": "Key Features of a Synagogue | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.2h",
+     "official_code": "J1.2h",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_2vBZ5kd3RYxmQ8Jx",
     "spcpt_fsj8HH3hWSqZvrZy",
@@ -1169,7 +1629,6 @@
     "spcpt_QPqHhvWqbWXF2zHV",
     "spcpt_M6gtZqyrtkZ8CF48",
     "spcpt_SNYJhYCT3tKQCM5C",
-    "spcpt_NvwWVPqGHBRxFgMp",
     "spcpt_tFJV69n55YKq7Nht"
    ]
   },
@@ -1215,11 +1674,22 @@
    "label": "The Torah & Worship | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.5e",
+     "official_code": "J1.5e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.5g",
+     "official_code": "J1.5g",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XZj6PkYS63758K4N",
-    "spcpt_Ydwjtfk73WBg8pMS",
-    "spcpt_tQqx5K5RfKsRTTQF"
+    "spcpt_Ydwjtfk73WBg8pMS"
    ]
   },
   "rn_KYfMJjD29YKkhh97": {
@@ -1227,10 +1697,16 @@
    "label": "Worship in a Synagogue | Cambridge (CIE) IGCSE Religious Studies Revision Notes 2023",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.1b",
+     "official_code": "J1.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_z7C4sKmh5VMjkx3q",
-    "spcpt_BCgPMY9X2CdF4ymH"
+    "spcpt_z7C4sKmh5VMjkx3q"
    ]
   },
   "rn_HGbhD3sKbkgR3W6H": {
@@ -1287,10 +1763,16 @@
    "label": "qstn_RzBNhNYHYwvqhWq8 / part 1",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.3b",
+     "official_code": "C2.3b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vpH7KYNDHN663zq6",
-    "spcpt_9YdbKrjTv8f7jSnF",
     "spcpt_nc6TSXGdvq3jMz9r"
    ]
   },
@@ -1310,12 +1792,23 @@
    "label": "qstn_rJGv3hZ2Y2fKqWXx / part 0",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2b",
+     "official_code": "C2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2f",
+     "official_code": "C2.2f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_3BYq2rkTrm5X4pwm",
     "spcpt_dgv5rMjB9GpXS9HW",
-    "spcpt_6mgppzJPVZJrGJ2c",
-    "spcpt_qrn9N93mrX6W3kdc"
+    "spcpt_6mgppzJPVZJrGJ2c"
    ]
   },
   "qstnprt_d3fSwrkK2DcDKgyG": {
@@ -1333,10 +1826,15 @@
    "label": "qstn_rJGv3hZ2Y2fKqWXx / part 2",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
-   "pending": [
-    "spcpt_59j9XxM32vY4w4Hq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.1a",
+     "official_code": "C2.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DFc5TnTVx67tPH5g": {
    "kind": "question_part",
@@ -1354,11 +1852,22 @@
    "label": "qstn_mGP2CwysrBz54B83 / part 0",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.1a",
+     "official_code": "C2.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2b",
+     "official_code": "C2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_59j9XxM32vY4w4Hq",
-    "spcpt_dgv5rMjB9GpXS9HW",
-    "spcpt_3BYq2rkTrm5X4pwm"
+    "spcpt_dgv5rMjB9GpXS9HW"
    ]
   },
   "qstnprt_tVGj857X7b3vr4qF": {
@@ -1378,20 +1887,31 @@
    "label": "qstn_2fXY4vpjDYz37wXV / part 1",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
-   "pending": [
-    "spcpt_3BYq2rkTrm5X4pwm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2b",
+     "official_code": "C2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D3jpzf88TXkJJXbc": {
    "kind": "question_part",
    "label": "qstn_dVk4rqNJnrMQJm2p / part 0",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2d",
+     "official_code": "C2.2d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_BgJbHvTrKHR4Wm5y",
-    "spcpt_ZcxVJxkpfTc7tJsP"
+    "spcpt_BgJbHvTrKHR4Wm5y"
    ]
   },
   "qstnprt_rYjqcKqF6mFk6C68": {
@@ -1409,10 +1929,15 @@
    "label": "qstn_dVk4rqNJnrMQJm2p / part 2",
    "section": "christianity",
    "topic": "christian-beliefs-and-scriptures",
-   "codes": [],
-   "pending": [
-    "spcpt_qrn9N93mrX6W3kdc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C2.2f",
+     "official_code": "C2.2f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jb93bHHFPq73bKmr": {
    "kind": "question_part",
@@ -1430,10 +1955,16 @@
    "label": "qstn_fbCXWxCJFbS9Zx6d / part 1",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.2c",
+     "official_code": "C4.2c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_d7cfNGcfPTPpDCgV",
-    "spcpt_3Z8Yjx7cFmqhPCZt"
+    "spcpt_d7cfNGcfPTPpDCgV"
    ]
   },
   "qstnprt_rkDzGPxFv9TQSZQr": {
@@ -1452,33 +1983,64 @@
    "label": "qstn_7wtznMfJnZ2cvRY7 / part 0",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_vb2qyvr3499tTKSZ",
-    "spcpt_Rjk5bhKfS2T6YRgJ",
-    "spcpt_ndZzfkHfQT5VZZgB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1d",
+     "official_code": "C4.1d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1f",
+     "official_code": "C4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1e",
+     "official_code": "C4.1e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nVq7KZ2ycRdyVbWz": {
    "kind": "question_part",
    "label": "qstn_7wtznMfJnZ2cvRY7 / part 1",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_ndZzfkHfQT5VZZgB",
-    "spcpt_Rjk5bhKfS2T6YRgJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1e",
+     "official_code": "C4.1e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1f",
+     "official_code": "C4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WbwKjJPKY4HCMxhV": {
    "kind": "question_part",
    "label": "qstn_YRb2FH4qwkFgCghZ / part 0",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.1e",
+     "official_code": "C4.1e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_P4Wdd4k2fmxK6CPc",
-    "spcpt_ndZzfkHfQT5VZZgB"
+    "spcpt_P4Wdd4k2fmxK6CPc"
    ]
   },
   "qstnprt_NwZ6pPd7fCNDWCKC": {
@@ -1486,20 +2048,30 @@
    "label": "qstn_YRb2FH4qwkFgCghZ / part 1",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_3Z8Yjx7cFmqhPCZt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.2c",
+     "official_code": "C4.2c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5pSSkdMGvtrcFjyY": {
    "kind": "question_part",
    "label": "qstn_YRb2FH4qwkFgCghZ / part 2",
    "section": "christianity",
    "topic": "christian-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_5ymyKGshG57drkxz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C4.5d",
+     "official_code": "C4.5d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4W4PTZjFjnScCwvH": {
    "kind": "question_part",
@@ -1629,9 +2201,15 @@
    "label": "qstn_bHCVp9NF2gfxdFrz / part 0",
    "section": "christianity",
    "topic": "christian-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4i",
+     "official_code": "C1.4i",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_jxrs7T6F7tGVN9M9",
     "spcpt_WMqH7MYvPFjT34c7",
     "spcpt_6jqHqyFqNNT5fpT8"
    ]
@@ -1641,13 +2219,19 @@
    "label": "qstn_CVCkyJn9V8xmjtkg / part 0",
    "section": "christianity",
    "topic": "christian-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4d",
+     "official_code": "C1.4d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6jqHqyFqNNT5fpT8",
     "spcpt_x4Z6GFRhVVNPB27Y",
     "spcpt_4YpHX6pTSfknHCzx",
-    "spcpt_WMqH7MYvPFjT34c7",
-    "spcpt_fRNdrjNgs3GngmbZ"
+    "spcpt_WMqH7MYvPFjT34c7"
    ]
   },
   "qstnprt_4pTzZNBVcVzBM3nM": {
@@ -1871,9 +2455,15 @@
    "label": "qstn_hDT2yGqw4VDYVdxS / part 0",
    "section": "islam",
    "topic": "islam-and-social-action",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I6.2a",
+     "official_code": "I6.2a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_X6gjNQDRhMwm4PMF",
     "spcpt_hqxmk6w6dfSKTK3Q"
    ]
   },
@@ -1938,10 +2528,16 @@
    "label": "qstn_6SXX2Nx3h4m2RX4M / part 2",
    "section": "islam",
    "topic": "islam-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I1.1b",
+     "official_code": "I1.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PcdfNZ4ZzgrYjxmY",
-    "spcpt_n5PYvNHkTnJ5G6hD",
     "spcpt_xzdfhpwYZSdKPWQf"
    ]
   },
@@ -1961,10 +2557,15 @@
    "label": "qstn_fkcmK2rJxt7VJnbb / part 1",
    "section": "islam",
    "topic": "islam-and-worship",
-   "codes": [],
-   "pending": [
-    "spcpt_PDQPvcDpshSSTM8R"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I1.4d",
+     "official_code": "I1.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_grrvYBz9wt2GWn2B": {
    "kind": "question_part",
@@ -1982,10 +2583,15 @@
    "label": "qstn_tM46B4Mp5jzBxYQ3 / part 1",
    "section": "islam",
    "topic": "islam-religion-and-family-life",
-   "codes": [],
-   "pending": [
-    "spcpt_sGHgKyHgkNpQrygD"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.4d",
+     "official_code": "I5.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WWgR6S5gFW2gKns2": {
    "kind": "question_part",
@@ -2068,10 +2674,16 @@
    "label": "qstn_2M6k4fZk5pYzbXWk / part 0",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1c",
+     "official_code": "I2.1c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_mKHj6VtZMXDNmb26",
-    "spcpt_K9NB8wxj6qQ5QdXF",
     "spcpt_qDSD4qq4XTYbbs4J",
     "spcpt_D59FrPvCgmfdyPpD"
    ]
@@ -2094,11 +2706,22 @@
    "label": "qstn_ky7BPb5gnNGJrWR3 / part 0",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1f",
+     "official_code": "I2.1f",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.4e",
+     "official_code": "I2.4e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_PwV4Y4zqBr5nQzMr",
-    "spcpt_qDSD4qq4XTYbbs4J",
-    "spcpt_7Q2zydsFwXGnZ5mt"
+    "spcpt_qDSD4qq4XTYbbs4J"
    ]
   },
   "qstnprt_BppBSp7ZsJWZ45xN": {
@@ -2131,12 +2754,23 @@
    "label": "qstn_rWKXtGTRYWYxnMry / part 0",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.2d",
+     "official_code": "I2.2d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.2b",
+     "official_code": "I2.2b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_WFkPZ72KCsZSKF5J",
-    "spcpt_r2rY4NKHsMKVbhXd",
-    "spcpt_9VyBN2pzTyzQ66jd",
-    "spcpt_4B9zbkgmCy3vPvdM"
+    "spcpt_9VyBN2pzTyzQ66jd"
    ]
   },
   "qstnprt_MtmzznmqJyMK376y": {
@@ -2154,10 +2788,16 @@
    "label": "qstn_rWKXtGTRYWYxnMry / part 2",
    "section": "islam",
    "topic": "islamic-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1e",
+     "official_code": "I2.1e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_MCv5HdcBQXZgP5pK",
-    "spcpt_gHbJfXKk6DYJxVXD"
+    "spcpt_MCv5HdcBQXZgP5pK"
    ]
   },
   "qstnprt_MbrgWVtHyTb7KXHN": {
@@ -2177,12 +2817,18 @@
    "label": "qstn_5ZWpskZcB6Yh2fWJ / part 0",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.1d",
+     "official_code": "I4.1d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_wNsHt2k8KPBwV6wC",
     "spcpt_vygtHRwDB2RMcG3H",
-    "spcpt_6dFNV5XNyZGFwcKp",
-    "spcpt_3FJHpWfPqQBNnWvs"
+    "spcpt_6dFNV5XNyZGFwcKp"
    ]
   },
   "qstnprt_rvRJcHhv3DNjZNnZ": {
@@ -2190,11 +2836,22 @@
    "label": "qstn_YqxzMTpCZ8QTpvSb / part 0",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3c",
+     "official_code": "I4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3b",
+     "official_code": "I4.3b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6r7w56b6zVC7rSMZ",
-    "spcpt_gqKDxTBPfcdq7X37",
-    "spcpt_vxyDnFThNQmJ3hbt",
     "spcpt_PT6F7dvs86Q5GZfy"
    ]
   },
@@ -2203,12 +2860,23 @@
    "label": "qstn_YqxzMTpCZ8QTpvSb / part 1",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.4e",
+     "official_code": "I2.4e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3c",
+     "official_code": "I4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6r7w56b6zVC7rSMZ",
-    "spcpt_qRsmH9fQK9JGQrKq",
-    "spcpt_7Q2zydsFwXGnZ5mt",
-    "spcpt_gqKDxTBPfcdq7X37"
+    "spcpt_qRsmH9fQK9JGQrKq"
    ]
   },
   "qstnprt_M8zfNb4M236gBqrn": {
@@ -2216,9 +2884,15 @@
    "label": "qstn_YqxzMTpCZ8QTpvSb / part 2",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3b",
+     "official_code": "I4.3b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_vxyDnFThNQmJ3hbt",
     "spcpt_kHqNFXWnWDFN2GNr",
     "spcpt_sVd2xKjCQNx7fNsX"
    ]
@@ -2228,12 +2902,18 @@
    "label": "qstn_HCbMwKkDkprVSBTs / part 0",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.2b",
+     "official_code": "I4.2b",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_zHSSz9nBKJBBcRXP",
     "spcpt_PT6F7dvs86Q5GZfy",
-    "spcpt_32SG9jvzKNPgDV8r",
-    "spcpt_GtxYkTYVJz2DmXsC"
+    "spcpt_32SG9jvzKNPgDV8r"
    ]
   },
   "qstnprt_wcbDSMNwYswJSgBz": {
@@ -2241,9 +2921,15 @@
    "label": "qstn_HCbMwKkDkprVSBTs / part 1",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.1d",
+     "official_code": "I4.1d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_3FJHpWfPqQBNnWvs",
     "spcpt_kh2XN4kgsX9VMmZb",
     "spcpt_6dFNV5XNyZGFwcKp"
    ]
@@ -2253,11 +2939,22 @@
    "label": "qstn_HCbMwKkDkprVSBTs / part 2",
    "section": "islam",
    "topic": "islamic-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3b",
+     "official_code": "I4.3b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I4.3c",
+     "official_code": "I4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_6r7w56b6zVC7rSMZ",
-    "spcpt_vxyDnFThNQmJ3hbt",
-    "spcpt_gqKDxTBPfcdq7X37",
     "spcpt_3gGVN4zNZgYzs6Ky"
    ]
   },
@@ -2277,9 +2974,15 @@
    "label": "qstn_Bd4dMx3YCbDj47bQ / part 0",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.1b",
+     "official_code": "I5.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YXCX4NpxDXDjbdmk",
     "spcpt_fS23ncbXZ3p6BHX4"
    ]
   },
@@ -2288,10 +2991,21 @@
    "label": "qstn_Bd4dMx3YCbDj47bQ / part 1",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1e",
+     "official_code": "I2.1e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I2.1c",
+     "official_code": "I2.1c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_gHbJfXKk6DYJxVXD",
-    "spcpt_K9NB8wxj6qQ5QdXF",
     "spcpt_K65QJWqg78jTWGQW"
    ]
   },
@@ -2300,9 +3014,15 @@
    "label": "qstn_sJSpSS9znpJTgpj5 / part 0",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.1b",
+     "official_code": "I5.1b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_YXCX4NpxDXDjbdmk",
     "spcpt_fS23ncbXZ3p6BHX4"
    ]
   },
@@ -2322,10 +3042,15 @@
    "label": "qstn_sJSpSS9znpJTgpj5 / part 2",
    "section": "islam",
    "topic": "islamic-rites-of-passage",
-   "codes": [],
-   "pending": [
-    "spcpt_JZnp3kgFS8zGzRMY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I5.3c",
+     "official_code": "I5.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pqyN2fJkt2QX9DRg": {
    "kind": "question_part",
@@ -2342,11 +3067,17 @@
    "label": "qstn_GKH98vbTSXz85f96 / part 0",
    "section": "islam",
    "topic": "islamic-sacred-places",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:I3.2e",
+     "official_code": "I3.2e",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_T3qZSsj4JPsTYvHp",
     "spcpt_krnCqKghVkR23Jp5",
-    "spcpt_95MjRy38mmfhKKz4",
     "spcpt_2hKVBM92NJDqqZDV"
    ]
   },
@@ -2390,12 +3121,23 @@
    "label": "qstn_2rw93Wtj63rmHfzp / part 0",
    "section": "judaism",
    "topic": "jewish-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2b",
+     "official_code": "J2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2a",
+     "official_code": "J2.2a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ZF2d2QNnk6Cxm7YB",
-    "spcpt_8x2WXxNXZXXJWXcK",
-    "spcpt_t5DCZWDBBfjRhJQf",
-    "spcpt_7sdnpn9yxY3yK2SV"
+    "spcpt_8x2WXxNXZXXJWXcK"
    ]
   },
   "qstnprt_KYtks7qZHtNsrhgD": {
@@ -2403,9 +3145,15 @@
    "label": "qstn_2rw93Wtj63rmHfzp / part 1",
    "section": "judaism",
    "topic": "jewish-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2b",
+     "official_code": "J2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_t5DCZWDBBfjRhJQf",
     "spcpt_fmZXZZ4S4z6qdSjY",
     "spcpt_kTS27Ys4XV5gc3vj",
     "spcpt_8x2WXxNXZXXJWXcK"
@@ -2416,11 +3164,22 @@
    "label": "qstn_whKVkkPHNczMgRnB / part 0",
    "section": "judaism",
    "topic": "jewish-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2b",
+     "official_code": "J2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2a",
+     "official_code": "J2.2a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_8x2WXxNXZXXJWXcK",
-    "spcpt_t5DCZWDBBfjRhJQf",
-    "spcpt_7sdnpn9yxY3yK2SV"
+    "spcpt_8x2WXxNXZXXJWXcK"
    ]
   },
   "qstnprt_tq465mmXXtm3tPFM": {
@@ -2428,9 +3187,15 @@
    "label": "qstn_whKVkkPHNczMgRnB / part 1",
    "section": "judaism",
    "topic": "jewish-beliefs-and-scriptures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J2.2b",
+     "official_code": "J2.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_t5DCZWDBBfjRhJQf",
     "spcpt_fmZXZZ4S4z6qdSjY"
    ]
   },
@@ -2450,12 +3215,23 @@
    "label": "qstn_9cMpkwwH3P8NbDSh / part 0",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1c",
+     "official_code": "J4.1c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1a",
+     "official_code": "J4.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_PXRHvX7CVqwDQJJN",
-    "spcpt_CPQW8pPjQKJ8nwd9",
-    "spcpt_qQJzt5FnCpkD5Jsw",
-    "spcpt_F4vbC2BWc7RvDnYn"
+    "spcpt_qQJzt5FnCpkD5Jsw"
    ]
   },
   "qstnprt_gKxgWTdRDZbYHc9C": {
@@ -2463,13 +3239,33 @@
    "label": "qstn_9cMpkwwH3P8NbDSh / part 1",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_vzM3tZJFx4Mbj89D",
-    "spcpt_sBHSnr7qhBSXn7Kd",
-    "spcpt_zvq8c2hy5MYRbk7m",
-    "spcpt_BgxnjrhYmyfmc6Q8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.4d",
+     "official_code": "J4.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.3c",
+     "official_code": "J4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2e",
+     "official_code": "J4.2e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1f",
+     "official_code": "J4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KBHMWsbmgPFjcTCh": {
    "kind": "question_part",
@@ -2487,9 +3283,15 @@
    "label": "qstn_YGyZCn4n7Kt24fy4 / part 0",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.3c",
+     "official_code": "J4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_sBHSnr7qhBSXn7Kd",
     "spcpt_9zW28YtRv7CRfJDW",
     "spcpt_7GrF6TsKRrpXW3yZ"
    ]
@@ -2499,10 +3301,21 @@
    "label": "qstn_mhMcQRW9qZMhzrnh / part 0",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1c",
+     "official_code": "J4.1c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2d",
+     "official_code": "J4.2d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_CPQW8pPjQKJ8nwd9",
-    "spcpt_gcpZpZkbPrfG9Fbk",
     "spcpt_CWGkG4WcrcpH7FRy",
     "spcpt_fc4hBBpRwkddZZJR"
    ]
@@ -2512,11 +3325,22 @@
    "label": "qstn_mhMcQRW9qZMhzrnh / part 1",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2c",
+     "official_code": "J4.2c",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2e",
+     "official_code": "J4.2e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_h9vQb3HgJd2fyRYw",
-    "spcpt_fc4hBBpRwkddZZJR",
-    "spcpt_zvq8c2hy5MYRbk7m"
+    "spcpt_fc4hBBpRwkddZZJR"
    ]
   },
   "qstnprt_4vZ2R7TQvtFNrDDf": {
@@ -2524,10 +3348,16 @@
    "label": "qstn_mhMcQRW9qZMhzrnh / part 2",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2e",
+     "official_code": "J4.2e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_pwPHcbXFh6gBXsc2",
-    "spcpt_zvq8c2hy5MYRbk7m",
     "spcpt_8wSbtJdyJZvKdRj2",
     "spcpt_Sm3cZbDtPYsXbPnf"
    ]
@@ -2548,24 +3378,50 @@
    "label": "qstn_K7KhxD5gmWYtYYcQ / part 1",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
-   "pending": [
-    "spcpt_vzM3tZJFx4Mbj89D",
-    "spcpt_sBHSnr7qhBSXn7Kd",
-    "spcpt_zvq8c2hy5MYRbk7m",
-    "spcpt_BgxnjrhYmyfmc6Q8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.4d",
+     "official_code": "J4.4d",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.3c",
+     "official_code": "J4.3c",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.2e",
+     "official_code": "J4.2e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1f",
+     "official_code": "J4.1f",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DdYyypCmsBMrTWMR": {
    "kind": "question_part",
    "label": "qstn_K7KhxD5gmWYtYYcQ / part 2",
    "section": "judaism",
    "topic": "jewish-festivals-and-fasts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J4.1a",
+     "official_code": "J4.1a",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_vYkJXZVPtCYrhxnW",
-    "spcpt_7GrF6TsKRrpXW3yZ",
-    "spcpt_F4vbC2BWc7RvDnYn"
+    "spcpt_7GrF6TsKRrpXW3yZ"
    ]
   },
   "qstnprt_hBRNW6bDjQj6JzZw": {
@@ -2596,11 +3452,17 @@
    "label": "qstn_vYpYXqHvzckRP6HR / part 2",
    "section": "judaism",
    "topic": "jewish-places-of-pilgrimage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:C1.4d",
+     "official_code": "C1.4d",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_XBZ8dsz6cMmvdnMD",
-    "spcpt_Q6Dbdw3yyWqDFTj7",
-    "spcpt_fRNdrjNgs3GngmbZ"
+    "spcpt_Q6Dbdw3yyWqDFTj7"
    ]
   },
   "qstnprt_6pq7DNJ6Cn2pZMtx": {
@@ -2619,9 +3481,15 @@
    "label": "qstn_zmtQN4vZXS5wMM4K / part 1",
    "section": "judaism",
    "topic": "jewish-rites-of-passage",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J5.2b",
+     "official_code": "J5.2b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_nwmRqy5jzzGrThJs",
     "spcpt_Dfqg2ZFz6sfRgwsj",
     "spcpt_vw87vZ4j4MzDYt7s"
    ]
@@ -2708,10 +3576,16 @@
    "label": "qstn_FWrHPSR5hTJMFW2h / part 0",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.6b",
+     "official_code": "J1.6b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_ZF2d2QNnk6Cxm7YB",
-    "spcpt_QXzR6QNCtnjHwZGQ",
     "spcpt_SRbDX5B34Ysz2JhX"
    ]
   },
@@ -2755,12 +3629,18 @@
    "label": "qstn_nPQwYfnJTkfRmxTk / part 0",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.6b",
+     "official_code": "J1.6b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_QPqHhvWqbWXF2zHV",
     "spcpt_tpsr8Vr3G35ygsB3",
     "spcpt_2vBZ5kd3RYxmQ8Jx",
-    "spcpt_QXzR6QNCtnjHwZGQ",
     "spcpt_SRbDX5B34Ysz2JhX",
     "spcpt_DbGycqqxtYBbStq8"
    ]
@@ -2770,9 +3650,15 @@
    "label": "qstn_nPQwYfnJTkfRmxTk / part 1",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.5e",
+     "official_code": "J1.5e",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_XZj6PkYS63758K4N",
     "spcpt_SRbDX5B34Ysz2JhX",
     "spcpt_JSvNcRb6bpQgQxnV"
    ]
@@ -2782,10 +3668,16 @@
    "label": "qstn_nPQwYfnJTkfRmxTk / part 2",
    "section": "judaism",
    "topic": "judaism-and-worship",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_RELIGIOUS_STUDIES_2025_2027:J1.6b",
+     "official_code": "J1.6b",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_SRbDX5B34Ysz2JhX",
-    "spcpt_QXzR6QNCtnjHwZGQ",
     "spcpt_hKYTQKZ3yR3Qr7QK",
     "spcpt_c6KTBFhF8Rm8zhXj"
    ]

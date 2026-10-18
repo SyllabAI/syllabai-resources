@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -23,15 +38,15 @@
  },
  "totals": {
   "items": 633,
-  "items_with_codes": 0,
+  "items_with_codes": 32,
   "by_kind": {
    "notes": 31,
    "question_parts": 602,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 2,
+   "question_parts": 30,
    "flashcards": 0
   }
  },
@@ -39,9 +54,30 @@
   "notes": 46,
   "parts": 901,
   "universe_ids": 46,
-  "universe_resolved": 0,
-  "pending_refs": 947,
-  "flashcards_discovered_uncoded": 230
+  "universe_resolved": 2,
+  "pending_refs": 913,
+  "flashcards_discovered_uncoded": 230,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 2,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 2,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 44,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 1,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 43
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_P7fM8CyfyTQV6FQn": {
@@ -236,20 +272,30 @@
    "label": "Combination in Probability - A Level Maths Revision Notes",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_t24MPRg5mF6ZvDyt": {
    "kind": "note",
    "label": "Permutation and Combination - A Level Maths Revision Notes",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_JgZhprbWpgpfH976": {
    "kind": "note",
@@ -2826,10 +2872,16 @@
    "label": "qstn_MWGz656wQmCN5q8J / part 0",
    "section": "probability",
    "topic": "further-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_FzzVfjwhkyjcBrzK",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_FzzVfjwhkyjcBrzK"
    ]
   },
   "qstnprt_pXDt9mf3s3jGB57D": {
@@ -2920,10 +2972,15 @@
    "label": "qstn_tXmycQgJXPfxh2Jy / part 0",
    "section": "probability",
    "topic": "further-probability",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fgfXhcWcGJSXWGbQ": {
    "kind": "question_part",
@@ -3330,10 +3387,15 @@
    "label": "qstn_ttZpKyKRrqyrfvn3 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6BVKcXyXrpgJMcpH": {
    "kind": "question_part",
@@ -3403,10 +3465,16 @@
    "label": "qstn_pmDGJJXGJtCkDFn9 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_7gKmB69fTvMSjrvw"
    ]
   },
   "qstnprt_tk9RJV62mZz8kJn2": {
@@ -3414,9 +3482,15 @@
    "label": "qstn_pmDGJJXGJtCkDFn9 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_89ps9KCVtj4YGq2C",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3435,10 +3509,15 @@
    "label": "qstn_M7Jf4PD6C97Gfwv9 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pzRSrVV8D24tNP8j": {
    "kind": "question_part",
@@ -3466,11 +3545,21 @@
    "label": "qstn_zy6WSxZKsMj2sfVD / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_k9tBPQx96jt3yBX4": {
    "kind": "question_part",
@@ -3508,10 +3597,15 @@
    "label": "qstn_QjnXbht6Xsm9QprK / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fDhxXwpy5GWYsfS8": {
    "kind": "question_part",
@@ -3528,21 +3622,36 @@
    "label": "qstn_Nq9mt3Wr8MnMxw9c / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j7RCXwnNWw7mmpf2": {
    "kind": "question_part",
    "label": "qstn_Nq9mt3Wr8MnMxw9c / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rCYfpQCWhwvY9TQn": {
    "kind": "question_part",
@@ -3580,10 +3689,15 @@
    "label": "qstn_5zpnQVwjfTQQfgGB / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9xN7PyjY7VF3QXTz": {
    "kind": "question_part",
@@ -3622,30 +3736,45 @@
    "label": "qstn_4dCFC3wfDQZNBVbw / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S6rzgywJ7q9rK4HN": {
    "kind": "question_part",
    "label": "qstn_xPqngKbW3yxBWFzr / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w5kCHBrGtHPG2S6x": {
    "kind": "question_part",
    "label": "qstn_xPqngKbW3yxBWFzr / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T5dJBZjf2k5xM9Bq": {
    "kind": "question_part",
@@ -3662,10 +3791,15 @@
    "label": "qstn_wmbshxrxFVyCZFqf / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XqWYN5b8gHb4cfXb": {
    "kind": "question_part",
@@ -3703,30 +3837,45 @@
    "label": "qstn_RX2jC9VDyJpCDPWw / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xTCYS6FS3BKRYKfZ": {
    "kind": "question_part",
    "label": "qstn_RX2jC9VDyJpCDPWw / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qsXDh3gQk7qJdcxp": {
    "kind": "question_part",
    "label": "qstn_Hz82SGwHKrkhfxtw / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4p5sjyQFgWkPvzh7": {
    "kind": "question_part",
@@ -3753,10 +3902,16 @@
    "label": "qstn_6nDBpdjQzGP5KjKg / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_7gKmB69fTvMSjrvw"
    ]
   },
   "qstnprt_vd6CtJDxnPf7rJ7s": {
@@ -3764,20 +3919,30 @@
    "label": "qstn_3YFJxmt29ZhY7xtK / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bhYNDZz5BB22wkGw": {
    "kind": "question_part",
    "label": "qstn_3YFJxmt29ZhY7xtK / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V9jr2Cx3cV7NXc5b": {
    "kind": "question_part",
@@ -3794,20 +3959,31 @@
    "label": "qstn_2P9MHrX8gcBZRzCg / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WFcHvgx6kgh7fryW": {
    "kind": "question_part",
    "label": "qstn_zxYqwPYsD3jrPfXt / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_7gKmB69fTvMSjrvw"
    ]
   },
   "qstnprt_w2DwhKtpcRzmK37R": {
@@ -3825,30 +4001,46 @@
    "label": "qstn_rv2rYs5KGRbn6N68 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dNT9m8KmjjpzWfPY": {
    "kind": "question_part",
    "label": "qstn_rv2rYs5KGRbn6N68 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mWbbX7D3HBV3fJ49": {
    "kind": "question_part",
    "label": "qstn_qMvzdhxhHQg36Fxw / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_7gKmB69fTvMSjrvw"
    ]
   },
   "qstnprt_w4pY9ptMM98XdfWG": {
@@ -3867,9 +4059,15 @@
    "label": "qstn_D8DWVyJ47xhBHwPB / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_89ps9KCVtj4YGq2C",
     "spcpt_7gKmB69fTvMSjrvw"
    ]
   },
@@ -3898,20 +4096,30 @@
    "label": "qstn_6MJY36TkNXncrjGM / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RVVPnXpQWTgvTXzS": {
    "kind": "question_part",
    "label": "qstn_6MJY36TkNXncrjGM / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_64tjZkYGbvZrDzvH": {
    "kind": "question_part",
@@ -3939,10 +4147,15 @@
    "label": "qstn_28pK96BF9fRD5JHV / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_fVVc579xDmZm4X5t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sp9Jq2gvMqGDgQYH": {
    "kind": "question_part",

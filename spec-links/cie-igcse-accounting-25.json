@@ -14,7 +14,22 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-accounting-2027-2029",
@@ -23,14 +38,14 @@
  },
  "totals": {
   "items": 105,
-  "items_with_codes": 0,
+  "items_with_codes": 26,
   "by_kind": {
    "notes": 105,
    "question_parts": 0,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
+   "notes": 26,
    "question_parts": 0,
    "flashcards": 0
   }
@@ -39,9 +54,30 @@
   "notes": 166,
   "parts": 0,
   "universe_ids": 166,
-  "universe_resolved": 0,
-  "pending_refs": 166,
-  "flashcards_discovered_uncoded": 781
+  "universe_resolved": 34,
+  "pending_refs": 132,
+  "flashcards_discovered_uncoded": 781,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 34,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 29,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 132,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 25,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 17,
+    "no_unique_identity": 90
+   },
+   "dangling_eq_refs_pending": 0
+  }
  },
  "items": {
   "rn_DXTvS2fg2FFH2brW": {
@@ -275,10 +311,15 @@
    "label": "Provision for Depreciation | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
-   "pending": [
-    "spcpt_RccNT86CCgMj9v5N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:4.2.7",
+     "official_code": "4.2.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_95jjxDhhCNzshg6h": {
    "kind": "note",
@@ -315,10 +356,16 @@
    "label": "Allowance for Irrecoverable Debts | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-allowance-for-irrecoverable-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_SdFbzMpmsf3hNVwY",
-    "spcpt_Dx6fR5dkV6CBXH3g"
+    "spcpt_SdFbzMpmsf3hNVwY"
    ]
   },
   "rn_734mvJtg8cgkWqhH": {
@@ -357,10 +404,16 @@
    "label": "Accrued & Prepaid Incomes | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "4-accounting-procedures",
    "topic": "other-payables-and-other-receivables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_TzX2x22XNtM2DKmy",
-    "spcpt_mb8H9xRnXj7F5jsZ"
+    "spcpt_TzX2x22XNtM2DKmy"
    ]
   },
   "rn_qyK3s9mFXTkVh7FG": {
@@ -398,20 +451,30 @@
    "label": "Matching Costs & Revenues | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "4-accounting-procedures",
    "topic": "other-payables-and-other-receivables",
-   "codes": [],
-   "pending": [
-    "spcpt_g2QZgBbrZR7Dgx45"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_tMZP826ypY888D4c": {
    "kind": "note",
    "label": "Cost & Net Realisable Value | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "4-accounting-procedures",
    "topic": "valuation-of-inventory",
-   "codes": [],
-   "pending": [
-    "spcpt_Wd8gRqpvjvtnM9Cw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_H85W5w7zgWX45s3T": {
    "kind": "note",
@@ -479,10 +542,16 @@
    "label": "Costs & Inventories | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.4.1",
+     "official_code": "5.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_RRgctYSdzgYxXZ63",
-    "spcpt_DNxT2swm9RFMtbCp",
     "spcpt_3B426PVHNmmjmKXy"
    ]
   },
@@ -491,10 +560,15 @@
    "label": "Manufacturing Account | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_3BNrpRWHyHjRWpYj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.4.5",
+     "official_code": "5.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_rk96Pq8bZq9VxrTF": {
    "kind": "note",
@@ -542,10 +616,15 @@
    "label": "Statement of Affairs | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
-   "pending": [
-    "spcpt_8khhZjs7Fs5JgjyS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.6.3",
+     "official_code": "5.6.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_Tj6sFNr7Kx4m926s": {
    "kind": "note",
@@ -562,10 +641,15 @@
    "label": "Statement of Changes in Equity | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_28Nh56fBJ9nS3pcT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.3.8",
+     "official_code": "5.3.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_bYwd222tD7NSyC3j": {
    "kind": "note",
@@ -592,10 +676,15 @@
    "label": "Appropriation Account | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_xmbRNPjWg6ZZ4fmp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_rmDcRjFJsYCr7c2x": {
    "kind": "note",
@@ -613,10 +702,15 @@
    "label": "Partnership Agreement | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_WxSGP6KgDjM2QbtJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.2.3",
+     "official_code": "5.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_nh7VNfKgNQx6xzMK": {
    "kind": "note",
@@ -643,10 +737,15 @@
    "label": "Adjustments for Accrued & Prepaid Expenses | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "sole-traders",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2QGWpNz9tfXn6c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_TKgn2JbjQMyfjbxX": {
    "kind": "note",
@@ -673,10 +772,15 @@
    "label": "Adjustments for Accumulated Depreciation | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "5-preparation-of-financial-statements",
    "topic": "sole-traders",
-   "codes": [],
-   "pending": [
-    "spcpt_DkY7MrrWMwJm5hJp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_5YF7BDr5dtNPGzVN": {
    "kind": "note",
@@ -714,12 +818,28 @@
    "label": "Efficiency Ratios | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.10",
+     "official_code": "6.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_WFsSsP2wQrmVVVRT",
-    "spcpt_rthg7FrvCkn2PcTC",
-    "spcpt_wZ7MpHxqyr46XMWg",
-    "spcpt_436fF9bZ58VhDFYN"
+    "spcpt_rthg7FrvCkn2PcTC"
    ]
   },
   "rn_6cqfmP4nTtXqY6zb": {
@@ -740,10 +860,16 @@
    "label": "Inter-business Comparison | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.3.2",
+     "official_code": "6.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_RWDkqQrsByKzjGM5",
-    "spcpt_S99HCJsMk4m5ZbZS"
+    "spcpt_RWDkqQrsByKzjGM5"
    ]
   },
   "rn_2S7M62t8kcm8jXnx": {
@@ -751,10 +877,15 @@
    "label": "Interested Parties | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_FQW8G5THMqfGDtkW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.4.10",
+     "official_code": "6.4.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_MsHjpKC94PGCgBWP": {
    "kind": "note",
@@ -782,12 +913,28 @@
    "label": "Profitability Ratios | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_wkBhk6WrpVmWRn2J",
-    "spcpt_vXs8Z52hMnx6qkjS",
-    "spcpt_2tNGsbChtRdsGPZp",
-    "spcpt_hK6CKYPjPBpwgBZb"
+    "spcpt_wkBhk6WrpVmWRn2J"
    ]
   },
   "rn_tS6P3qQy3M5CQw8H": {
@@ -874,10 +1021,16 @@
    "label": "Cash Books & The General Journal | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "business-documents-and-books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_xwSgP3z32gs5rb3f",
-    "spcpt_y8hkcBCgj2vtkRbn"
+    "spcpt_xwSgP3z32gs5rb3f"
    ]
   },
   "rn_Gxrjqp8mNhrBbVJY": {
@@ -885,13 +1038,33 @@
    "label": "Journals | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "business-documents-and-books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_T9c6qFyr2GKNRkZk",
-    "spcpt_5wNgprCFgYjYrYyF",
-    "spcpt_z9WCMHdphMFCrb9P",
-    "spcpt_423z2K2yq5zbW2FR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_k8PTNPK6vNfWZDRM": {
    "kind": "note",
@@ -957,13 +1130,24 @@
    "label": "Recording Purchase Transactions | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:3.4.3",
+     "official_code": "3.4.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_3c69HT3wwzGXPSXg",
-    "spcpt_FftYS2qh285mXdWf",
     "spcpt_q4VbzwTqyrV9qCJR",
-    "spcpt_fGQKxQQfjtzCTBGr",
-    "spcpt_ptHymvMGvqzGwgkg"
+    "spcpt_fGQKxQQfjtzCTBGr"
    ]
   },
   "rn_YcwXwjZTRXb2zPMB": {
@@ -982,13 +1166,19 @@
    "label": "Recording Sale Transactions | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
     "spcpt_Xh7hNTyDzxp7nVd8",
     "spcpt_22cjYhpbd85rjXFY",
     "spcpt_7wJWb85hcFKRPzYY",
-    "spcpt_QFM2dyWk4fxvxcb3",
-    "spcpt_ZwQryJkG6fCsKpWg"
+    "spcpt_QFM2dyWk4fxvxcb3"
    ]
   },
   "rn_T6GzqZpCsPSJYnsd": {
@@ -996,9 +1186,15 @@
    "label": "The Double Entry System | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_9xX8mxPszYTKKCgG",
     "spcpt_2mCRbkg434VMNXWt"
    ]
   },
@@ -1017,10 +1213,15 @@
    "label": "Three-Column Running Balance Format | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "double-entry-book-keeping-with-ledger-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_SycDmb62w6fmfjw7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_M4jmdxgVK3QNWT82": {
    "kind": "note",
@@ -1047,10 +1248,16 @@
    "label": "Cash & Bank | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "sources-and-recording-of-data",
    "topic": "the-cash-and-petty-cash-books",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:2.3.8",
+     "official_code": "2.3.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
    "pending": [
-    "spcpt_q7K7VWNv73QhKFXc",
-    "spcpt_bDjHHRw5gxBGxp5T"
+    "spcpt_q7K7VWNv73QhKFXc"
    ]
   },
   "rn_DTRQMSf7XrVhbYgz": {
@@ -1079,10 +1286,15 @@
    "label": "Book-Keeping & Accounting | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting-and-the-accounting-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_mKbPctgrnyN5kQhX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_mRCYXn5bRpTj24kK": {
    "kind": "note",
@@ -1100,10 +1312,15 @@
    "label": "The Accounting Equation | Cambridge (CIE) IGCSE Accounting Revision Notes 2025",
    "section": "the-fundamentals-of-accounting",
    "topic": "the-purpose-of-accounting-and-the-accounting-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2027_2029:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
   },
   "rn_ZqXmwJt3hnHGqftK": {
    "kind": "note",
