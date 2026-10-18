@@ -79,3 +79,7 @@ Hussain Khondokar).
 ## Related internal policy
 
 - `SyllabAI/syllabai` → ADR-013 (license wall), `PROJECT_CONTEXT.md` (Approved technology direction — license wall), and the corpus charter in `syllabai-pastpapers` (README).
+
+## Cambridge International syllabus documents (T-SPECS-CIE-1, 2026-10-18)
+
+The `Official-Specifications/cie-*` qualification directories hold official Cambridge International Education syllabus PDFs (IGCSE and AS/A Level editions matching the SME course lanes), downloaded from cambridgeinternational.org with the source URL, edition window and SHA-1 identity recorded per qualification (`spec.json` + `manifest.json`). Syllabus documents are © Cambridge University Press & Assessment; they are publicly provided documents used under the same non-commercial educational course-project posture as the rest of this notice, and no ownership is claimed. Redistribution beyond the pilot is not authorized by this paragraph. Takedown / correction requests: as above — affected material will be removed promptly.
