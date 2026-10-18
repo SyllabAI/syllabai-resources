@@ -46,3 +46,34 @@ renders for "spec links" — canonical truth only (no learner state).
 (map_flashcards.py) → `spec-links/` (build_learner_spec_links.py).
 When any upstream layer changes, re-run the downstream builders; the
 manifest records coverage so regressions are visible.
+
+## CIE lanes (T-SPECS-CIE-JOIN-1) — SUGGESTED
+
+The 44 `cie-*.json` sidecars join the Cambridge (CIE) SME lanes to the
+official codes parsed by T-SPECS-CIE-PARSE-1 (`Official-Specifications/
+parsed/<cie-slug>/`, 33 qualifications). Same item shape and schema as the
+Edexcel files, plus additive CIE blocks:
+
+- `review_state` — **SUGGESTED / gate pending** (AGENT.md rule 2: these are
+  agent-generated mappings, not authoritative until the review/promotion
+  gate accepts them; unresolved anchors stay `pending`, rule 3).
+- `registry` — the lane's parsed qualification (id, family, point count).
+- `anchors` — spcpt anchor counts, universe size/resolved, and the count of
+  flashcards discovered-but-uncoded (CIE decks carry no spec links, so
+  flashcards contribute honest zeros and are not itemized).
+
+Method: deterministic text join only. SME spec-point `definition` lines are
+matched against official point texts (`T1_verbatim` normalized equality or
+>=8-token containment; `T2_near` Jaccard >= 0.55 path-restricted / >= 0.75
+global), with the SME Cambridge path numbering (section/topic/leaf -> X.Y.Z)
+generating candidates where the SME paths mirror the official numbering.
+Co-ordinated-science lanes filter by point scope; core/extended maths lanes
+prefer their tier. No semantic-similarity coverage is manufactured — lanes
+whose SME substrate carries name-only spec-point records (maths, English,
+ICT, RS, accounting, economics-25, further maths, double-award biology)
+land their anchors in `pending` for a later operator-verdict lane, exactly
+as the Edexcel side evolved (T-SPEC-2b/2c).
+
+Built by `scripts/cie_spec_join.py` (deterministic; `--stamp` pins
+`generated_utc`), validated by `scripts/cie_join_check.py` (battery J1-J10,
+`graph/reports/T_SPECS_CIE_JOIN_1_CHECK.json`).
