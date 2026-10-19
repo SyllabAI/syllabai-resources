@@ -1,0 +1,237 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:41:03Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "8-programming",
+  "name": "8. Programming"
+ },
+ "topic": {
+  "id": "top_H9ssGqkhgDc4htyV",
+  "slug": "file-handling",
+  "name": "File Handling",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "file-handling",
+   "name": "File Handling",
+   "revision_note_id": "rn_TjX4sdSgSJB3dgS3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_BhMnwWdWTHnXZQbh",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/8-programming/file-handling/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_9vr5F9FzzrPhwr87",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_V73MpQskWnxwRYky",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "outline",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Outline **why it is useful to store data in a file.",
+     "solution_md": "It is useful to store data in a file as:\n\nAny **two **of the following:\n\n- Data stored in a file gives a permanent copy / prevents the data from being lost **[1 mark]**\n- … so it can be recalled / used again in a program / in another program **[1 mark]**\n- can be stored elsewhere / transferred to another computer **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MCnfGt57zNWqqXrJ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3vqWS5t3WvFTvCdx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "The function `LENGTH(X)` calculates the length of a string `X`\n\n**Write **the pseudocode statements to:\n\n- read the contents of the text file **Quotation.txt** into an appropriate string variable that has been declared\n- output the string in **upper case** and the **length** of the string.",
+     "solution_md": "- Declaration of a string variable **[1 mark]**\n- Correct use of `OPENFILE` keywords for reading **[1 mark]**\n- Correct use of `READFILE` with string variable **[1 mark]**\n- Correct use of `UCASE` and `LENGTH` functions and output of each **[1 mark]**\n- Correct use of `CLOSEFILE `**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_prsXG73SKJhxhDT8",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_bTjY2wRH9yF7zdKf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **why a program might need to store data in a file",
+     "solution_md": "A program might need to store data as:\n\nAny **three **of the following:\n\n- Data is not lost when the computer is switched off **OR** data is stored permanently **[1 mark]**\n- Data can be used by more than one program or reused when a program is run again **[1 mark]**\n- Data can be backed up or archived **[1 mark]**\n- Data can be transported from one place / system to another **[1 mark]**\n\n> **[exam-tip]**\n> Give three distinct reasons and make each precise, e.g. reuse on a rerun rather than a vague 'for future use'\n> \n> Stick to reasons for storing data permanently, not points about editing, deleting or manipulating files"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QWxt6qZ3GzssbMCs",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yC4jVc9n2Y47GqfQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "outline",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "A program halted unexpectedly with the error message ‘File not found’ whilst trying to read data from a file.\n\n**Outline **the actions that the program needs to take to prevent this error occurring.",
+     "solution_md": "To prevent this error occurring, the actions needed are:\n\nAny **two **of the following:\n\n- Before trying to open the file **[1 mark]**\n- Check the file exists **[1 mark]**\n- If the file does not exist, then output a suitable error message **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QVgpHdRPXxyZhMyn",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_wHrmTZSr6TrBvgXm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "**State five **file-handling operations from the list below:\n\n- calculate\n- close\n- count\n- create\n- input\n- open\n- output\n- print\n- read\n- sort\n- search\n- test\n- total\n- write",
+     "solution_md": "The five file handling operations are:\n\n- **open**: Used to open a file for reading, writing, or both **[1 mark]**\n- **create**: Refers to creating a new file if it doesn’t exist **[1 mark]**\n- **read**: Reads data from a file **[1 mark]**\n- **write**: Writes data to a file **[1 mark]**\n- **close**: Closes a file after operations are done to ensure resources are freed **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6ZgBwCKZKyH3qnmm",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_qjJYXQp7nd2Gypcp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_g6bDb6MVnB3Kz5vT"
+     ],
+     "part_tier": null,
+     "problem_md": "**State **the **two actions from the list below **that a program needs to take to store data in a file.\n\n- activate\n- calculate\n- close\n- open\n- output\n- print\n- read\n- search\n- sort\n- write",
+     "solution_md": "The two actions that a program needs to take to store data in a file are:\n\n- open **[1 mark]**\n- write **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

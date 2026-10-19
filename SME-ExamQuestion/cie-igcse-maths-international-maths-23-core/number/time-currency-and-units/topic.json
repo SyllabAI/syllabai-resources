@@ -1,0 +1,1769 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:23:06Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/core",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "number",
+  "name": "Number"
+ },
+ "topic": {
+  "id": "top_M6y4SgFx5tHB7DvZ",
+  "slug": "time-currency-and-units",
+  "name": "Time, Currency & Units",
+  "order": 13
+ },
+ "subtopics": [
+  {
+   "slug": "time",
+   "name": "Time",
+   "revision_note_id": "rn_QwwWPbQrmcpjWVvM"
+  },
+  {
+   "slug": "exchange-rates",
+   "name": "Exchange Rates",
+   "revision_note_id": "rn_KkCTMQdPyk4dKg9D"
+  },
+  {
+   "slug": "converting-between-units",
+   "name": "Converting between Units",
+   "revision_note_id": "rn_qVHzkpsw9qRwcBmq"
+  },
+  {
+   "slug": "squared-and-cubic-units",
+   "name": "Squared & Cubic Units",
+   "revision_note_id": "rn_HvHf76msbbFdYBtS"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_9k33CJ7sNMvdMT4k",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 40,
+   "questions_embedded": 40,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/number/time-currency-and-units/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 40,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/12/may-0580-11-q6.GIF": "001-may-0580-11-q6.gif"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_yTCXYpGfxfRRvKpS",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_QdHj4ZKJTxHn5D5c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/32",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "A ticket to a football match costs \\$20.\n\nCalculate the cost of the ticket in rupees when the exchange rate is 1 rupee = \\$0.016 .\n\n...................................... rupees",
+     "solution_md": "> *Divide the number of dollars by the conversion rate to determine the number of rupees*\n\n$\\frac{20}{0.016}$\n\n**[1]**\n\n**1250** **[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{20}{0.016}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>20</mn><mrow><mn>0</mn><mo>.</mo><mn>016</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 20 over denominator 0.016 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wHGWkdMY78qRwQZX",
+   "set_slug": "exam-questions",
+   "order": 38,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hCZYfrYwQ8Dmrv4c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Feb/March 2018",
+      "number": "0580/12",
+      "question_number": 22,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "On the internet, Pranay sees a grey jacket for 165 euros (€) and a blue jacket for \\$180. \nThese are the exchange rates.\n\n`table row cell € 1 space end cell equals cell space 76.05 space rupees space end cell row cell 1 space rupee space end cell equals cell space $ 0.0152 end cell end table`\n\nWork out which jacket is the cheapest and by how many rupees.\n\nThe .................. jacket is cheapest by .................. rupees",
+     "solution_md": "> *Convert the cost of the jacket in euros to rupees by multiplying the value by the appropriate conversion rate*\n\n> * *\n\n$165\\times76.05=12548.25$\n\n**[1]**\n\n** **\n\n> *Convert the cost of the jacket in dollars to rupees by dividing by the appropriate exchange rate*\n\n> * *\n\n$180\\div0.0152$\n\n**[1]**\n\n** **\n\n$=11842.10526$\n\n**[1]**\n\n** **\n\n> *Find the difference between the two values in rupees to determine how much cheaper the blue jacket is than the grey jacket*\n\n$12548.25-11842.10526=706.1447368$\n\n**The blue jacket is cheapest by 706 rupees**** ****[1]**\n\n> *Any value between 706.1 to 706.2 will be accepted*",
+     "equations": [
+      {
+       "latex": "165\\times76.05=12548.25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>165</mn><mo>&#215;</mo><mn>76</mn><mo>.</mo><mn>05</mn><mo>=</mo><mn>12548</mn><mo>.</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "165 cross times 76.05 equals 12548.25"
+      },
+      {
+       "latex": "180\\div0.0152",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>180</mn><mo>&#247;</mo><mn>0</mn><mo>.</mo><mn>0152</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "180 divided by 0.0152"
+      },
+      {
+       "latex": "=11842.10526",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>11842</mn><mo>.</mo><mn>10526</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 11842.10526"
+      },
+      {
+       "latex": "12548.25-11842.10526=706.1447368",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12548</mn><mo>.</mo><mn>25</mn><mo>-</mo><mn>11842</mn><mo>.</mo><mn>10526</mn><mo>=</mo><mn>706</mn><mo>.</mo><mn>1447368</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12548.25 minus 11842.10526 equals 706.1447368"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TYTMsdkmyQBzhK4h",
+   "set_slug": "exam-questions",
+   "order": 34,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QnGvjp5QxSrKsgR8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/33",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_gf3Rympg8JzG2mHC",
+      "spcpt_fjrhtKRwCZcZyHpP"
+     ],
+     "part_tier": null,
+     "problem_md": "A plane leaves Karachi at 1530 to fly to Bangkok. \nThe distance is 3840 km.\n\nThe plane flies at an average speed of 720 km/h.\n The local time in Bangkok is 2 hours ahead of the local time in Karachi.\n\nFind the local time in Bangkok when the plane arrives.",
+     "solution_md": "> *The formula for speed is*\n\n$\\mathrm{speed}=\\frac{\\mathrm{distance}}{\\mathrm{time}}$\n\n> *Rearrange to make time the subject*\n\n$\\mathrm{time}=\\frac{\\mathrm{distance}}{\\mathrm{speed}}$\n\n> *Substitute in the values*\n\n$\\mathrm{time}=\\frac{3840}{720}=5.333...$\n\n**[1]**\n\n> *Convert to hours and minutes.*\n\n$5.333...\\mathrm{hours}=5\\mathrm{hours}20\\mathrm{minutes}$\n\n**[1]**\n\n> *Add the time onto the start time.*\n\n$15:30+5\\mathrm{hours}20\\mathrm{minutes}=20:50$\n\n**[1]**\n\n> *The time is 2 hours ahead so add on 2 hours.*\n\n$20:50+2\\mathrm{hours}=22:50$\n\n**22:50** **[1]**",
+     "equations": [
+      {
+       "latex": "\\mathrm{speed}=\\frac{\\mathrm{distance}}{\\mathrm{time}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>speed</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>distance</mi></mrow><mi>time</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "speed space equals fraction numerator space distance over denominator time end fraction"
+      },
+      {
+       "latex": "\\mathrm{time}=\\frac{\\mathrm{distance}}{\\mathrm{speed}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>time</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>distance</mi></mrow><mi>speed</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "time space equals fraction numerator space distance over denominator speed end fraction"
+      },
+      {
+       "latex": "\\mathrm{time}=\\frac{3840}{720}=5.333...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>time</mi><mo>&#160;</mo><mo>=</mo><mfrac><mn>3840</mn><mn>720</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>333</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "time space equals 3840 over 720 space equals space 5.333..."
+      },
+      {
+       "latex": "5.333...\\mathrm{hours}=5\\mathrm{hours}20\\mathrm{minutes}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>333</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mn>20</mn><mo>&#160;</mo><mi>minutes</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5.333... space hours space equals space 5 space hours space 20 space minutes"
+      },
+      {
+       "latex": "15:30+5\\mathrm{hours}20\\mathrm{minutes}=20:50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>:</mo><mn>30</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mn>20</mn><mo>&#160;</mo><mi>minutes</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>20</mn><mo>:</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 colon 30 space plus space 5 space hours space 20 space minutes space equals space 20 colon 50"
+      },
+      {
+       "latex": "20:50+2\\mathrm{hours}=22:50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo>:</mo><mn>50</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>22</mn><mo>:</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 colon 50 space plus space 2 space hours space equals space 22 colon 50"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bTBVPqWW3R3ptCS2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/33",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "In Bangkok a watch costs 2610baht. \nThe exchange rate is \\$1 = 34.8 baht.\n\nFind the cost of the watch in dollars.\n\n\\$....................................................",
+     "solution_md": "> *To convert from baht to dollars, divide by 34.8*\n\n$2610\\div34.8=75$\n\n**correct calculation ****[1]**\n\n**\\$75**** ****[1]**",
+     "equations": [
+      {
+       "latex": "2610\\div34.8=75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2610</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>34</mn><mo>.</mo><mn>8</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>75</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2610 space divided by space 34.8 space equals space 75"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RkMdrkkdbqgfp4X5",
+   "set_slug": "exam-questions",
+   "order": 35,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_WmFDHptsc24zbmPR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Jamie buys a clock from Japan for 9395 yen. \nThe exchange rate is \\$1 = 110.27 yen.\n\nWork out the cost of the clock in dollars, correct to the nearest cent.\n\n\\$ ..............................................",
+     "solution_md": "> *Divide the number of Japanese Yen by the exchange rate to determine the value in dollars*\n\n$9395\\div110.27$\n\n**[1]**\n\n$=85.19996373$\n\n**[1]**\n\n**\\$ 85.20 ****[1]**",
+     "equations": [
+      {
+       "latex": "9395\\div110.27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9395</mn><mo>&#247;</mo><mn>110</mn><mo>.</mo><mn>27</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9395 divided by 110.27"
+      },
+      {
+       "latex": "=85.19996373",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>85</mn><mo>.</mo><mn>19996373</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 85.19996373"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pQ6nyrDrD2JkZDyJ",
+   "set_slug": "exam-questions",
+   "order": 37,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_GTF2hfnBTFzgh8TN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 15,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_trxtpbq9c342p3qw"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 4.1m<sup>3</sup> into cm<sup>3</sup>.\n\n...............................cm<sup>3</sup>",
+     "solution_md": "> *Convert from *$m^{3}$* to *$\\mathrm{cm}^{3}$* by multiplying by *$1000000$* This is equal to 100*<sup>*3*</sup>\n\n$4.1\\times1000000=4100000$\n\n**4 100 000 cm**<sup>**3**</sup>** [1]**",
+     "equations": [
+      {
+       "latex": "m^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight m cubed"
+      },
+      {
+       "latex": "\\mathrm{cm}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>cm</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cm cubed"
+      },
+      {
+       "latex": "1000000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space 000 space 000"
+      },
+      {
+       "latex": "4.1\\times1000000=4100000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>1</mn><mo>&#215;</mo><mn>1</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mn>000</mn><mo>=</mo><mn>4</mn><mo>&#160;</mo><mn>100</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4.1 cross times 1 space 000 space 000 equals 4 space 100 space 000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MQN8xKrXMdRHny3c",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_S8m85jYWx4QSzbPZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 17,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q",
+      "spcpt_bMYrxtVc2SZgt8mX"
+     ],
+     "part_tier": null,
+     "problem_md": "A chef buys some cheese from France. \n200g of cheese costs 3.45 euros. \nThe exchange rate is \\$1 = 0.84 euros.\n\nWork out the maximum mass of cheese the chef can buy with \\$150. \nGive your answer in kilograms, correct to 1 decimal place.\n\n............................................ kg",
+     "solution_md": "> *Convert \\$150 into euros by multiplying by 0.84.*\n\n> * *\n\n$150\\times0.84=126$\n\n* ***[1]**\n\n> *Divide the total amount of euros (126) by the cost for each 200g block of cheese (3.45) to find how many the chef can buy.*\n\n> * *\n\n$126\\div3.45=36.5217...$\n\n* ***[1]**\n\n> *Multiply the number of blocks of cheese the chef can buy (36.5217...) by the number of grams in each block (200).*\n\n> * *\n\n$36.5217...\\times200=7304.3478...$\n\n* ***[1]**\n\n> *Divide by 1000 to convert into kg.*\n\n> * *\n\n$7304.3478...\\div1000=7.3043...$\n\n> * *\n\n> *Round to one decimal place.*\n\n> * *\n\n**7.3 kg** **[1]**",
+     "equations": [
+      {
+       "latex": "150\\times0.84=126",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>150</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>84</mn><mo>=</mo><mn>126</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "150 cross times 0.84 equals 126"
+      },
+      {
+       "latex": "126\\div3.45=36.5217...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>126</mn><mo>&#247;</mo><mn>3</mn><mo>.</mo><mn>45</mn><mo>=</mo><mn>36</mn><mo>.</mo><mn>5217</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "126 divided by 3.45 equals 36.5217..."
+      },
+      {
+       "latex": "36.5217...\\times200=7304.3478...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>36</mn><mo>.</mo><mn>5217</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#215;</mo><mn>200</mn><mo>=</mo><mn>7304</mn><mo>.</mo><mn>3478</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "36.5217... cross times 200 equals 7304.3478..."
+      },
+      {
+       "latex": "7304.3478...\\div1000=7.3043...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7304</mn><mo>.</mo><mn>3478</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#247;</mo><mn>1000</mn><mo>=</mo><mn>7</mn><mo>.</mo><mn>3043</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7304.3478... divided by 1000 equals 7.3043..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_md4b5MCMhzGpksfF",
+   "set_slug": "exam-questions",
+   "order": 36,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CrGvfbm6dHHmJsNH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q",
+      "spcpt_k4jVy6shrwS6DVwY"
+     ],
+     "part_tier": null,
+     "problem_md": "| \\$1 = 0.88 euros<br><br>£1 = 1.15 euros |\n|---|\n\nZach changes \\$575 into euros. He spends 45% of the euros in France. \nHe changes the euros he does not use into pounds (£) to spend in England.\n\nWork out how many pounds he receives.\n\n£ ...................................................",
+     "solution_md": "> *Multiply \\$575 by the exchange rate for euros*\n\n`575 cross times 0.88 equals € 506`\n\n**[1]**\n\n> *As 45% of the total amount was spent in France, the remaining percentage was not spent in France*\n\n`100 minus 45 equals 55 percent sign`\n\n> *Calculate 55% of the number of euros*\n\n`506 cross times 0.55 equals € 278.30`\n\n**[1]**\n\n> *Convert this amount to pounds sterling by dividing the amount of euros remaining by the conversion rate*\n\n`278.3 divided by 1.15 equals £ 242`\n\n**[1]**\n\n`bold £ bold 242`** [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M9znJR6vvns2rNxT",
+   "set_slug": "exam-questions",
+   "order": 33,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7DYt7bH3ZKVMwxSn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/32",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop is open for 6 days each week. \nOn each day, the shop is open from 09 30 until 13 00 and from 14 15 until 20 30.\n\nWork out the total number of hours the shop is open in one week.\n\n.......................................... hours",
+     "solution_md": "> *The time from 09:30 am to 13:00 am is 3.5 hours. *\n*The time from 14:15 am to 20:30 am is 6.25 hours. *\n\n$3.5+6.25=9.75\\mathrm{hours} \\mathrm{per} \\mathrm{day}$\n\n**[1]**\n\n> *The shop is open 6 days a week.*\n\n$6\\times9.75=58.5$\n\n**58.5**** ****[1]**",
+     "equations": [
+      {
+       "latex": "3.5+6.25=9.75\\mathrm{hours} \\mathrm{per} \\mathrm{day}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>6</mn><mo>.</mo><mn>25</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mi>per</mi><mo>&#160;</mo><mi>day</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3.5 space plus thin space 6.25 space equals space 9.75 space hours space per space day"
+      },
+      {
+       "latex": "6\\times9.75=58.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>58</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 space cross times space 9.75 space equals space 58.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kWcPy9Gqkk8mccvs",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2bvMQdmkK4DsN2Fx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Diego flies from Madrid to Buenos Aires. \nHis flight leaves at 20 55 and arrives at 03 50 local time. \nThe local time in Buenos Aires is 5 hours behind the local time in Madrid.\n\nWork out, in hours and minutes, the time the flight takes.\n\n................... h ................... min",
+     "solution_md": "> *Add 5 hours onto 03:50 to find the time in Madrid when the plane lands.*\n\n> * *\n\n$03:50+5\\mathrm{hours}=08:50$\n\n**[1]**\n\n> *Work out the time difference between 20:55 and 08:50 by working in chunks of time.*\n\n> * *\n\n![may-0580-11-q6](assets/001-may-0580-11-q6.gif)\n\n*11 hours + 50 minutes + 5 minutes = 11 hours 55 minutes*\n\n* *\n\n**11 hours 55 minutes** **[1]**",
+     "equations": [
+      {
+       "latex": "03:50+5\\mathrm{hours}=08:50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>03</mn><mo>:</mo><mn>50</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>08</mn><mo>:</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "03 colon 50 space plus space 5 space hours space equals space 08 colon 50"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bZxVmN6SHFnv5YkF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Diego changes 200 euros into Argentine Peso.\n\nThe exchange rate is 1 euro = 24.8 pesos.\n\nWork out how many pesos he receives.\n\n....................................... pesos",
+     "solution_md": "> *To convert from euros to pesos, multiply by 24.8.*\n\n> * *\n\n$200\\times24.8=4960$\n\n> * *\n\n**4960 pesos** **[1]**",
+     "equations": [
+      {
+       "latex": "200\\times24.8=4960",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>200</mn><mo>&#215;</mo><mn>24</mn><mo>.</mo><mn>8</mn><mo>=</mo><mn>4960</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "200 cross times 24.8 equals 4960"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Km9F2h9mKp3vX5M9",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_zzRDs968mzQhQRQD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "The month of July has 31 days.\n\nCalculate the number of seconds in the month of July.\n\n.................................... seconds",
+     "solution_md": "> *Multiply the number of days by the number of hours in a day by the number of minutes in an hour and by the number of seconds in a minute.*\n\n$31\\times24\\times60\\times60$\n\n**[1]**\n\n$2678400$* ***[1]**",
+     "equations": [
+      {
+       "latex": "31\\times24\\times60\\times60",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>31</mn><mo>&#215;</mo><mn>24</mn><mo>&#215;</mo><mn>60</mn><mo>&#215;</mo><mn>60</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "31 cross times 24 cross times 60 cross times 60"
+      },
+      {
+       "latex": "2678400",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">&#160;</mo><mn mathvariant=\"bold\">678</mn><mo mathvariant=\"bold\">&#160;</mo><mn mathvariant=\"bold\">400</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold space bold 678 bold space bold 400"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JVKmCCntnmFVGYhz",
+   "set_slug": "exam-questions",
+   "order": 39,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_BwbgV9HTVFpmTk4Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Seven students want to join the school diving club. Some information about these students is recorded in the table below.\n\n| Name | Month and year of birth | Height (metres) | Distance each student can swim (metres) |\n|---|---|---|---|\n| Arj | November 2004 | 1.62 | 200 |\n| Biva | October 2006 | 1.43 | 500 |\n| Cala | February 2006 | 1.53 | 1500 |\n| Dainy | January 2007 | 1.56 | 1000 |\n| Elu | December 2005 | 1.64 | 600 |\n| Ful | August 2006 | 1.52 | 1000 |\n| Gani | January 2006 | 1.46 | 1000 |\n\nTo join the diving club you must be\n\n- at least 12 years old in March 2018\n\nand\n\n- at least 150 centimetres tall\n\nand\n\n- able to swim at least 0.5 kilometres.\n\nWrite down the names of the students who can join the club.",
+     "solution_md": "> *Subtract 12 years from March 2018 to determine those who were born before this date  *\n\n*March 2018 - 12 years = March 2006  *\n\n> *Those who were born before March 2006 are:  *\n\n*Arj, Cala, Elu, and Gani  *\n\n> *Divide 150 by 100 to convert from metres to centimetres  *\n\n*150 cm *$\\div$* 100 = 1.5 m  *\n\n> *Of the people listed above, those who are at least 1.5 metres tall are:*\n\n*Arj, Cala, and Elu  *\n\n> *Multiply 0.5 by 1000 to convert from kilometres to metres  *\n\n*0.5 km *$\\times$* 1000 = 500 m  *\n\n> *Of the people listed above, those who are able to swim at least 500m are:   *\n\n**Cala** **[1] **\n**Elu**** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\div",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#247;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "divided by"
+      },
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cross times"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JB4K93YbypdxdWgd",
+   "set_slug": "exam-questions",
+   "order": 32,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yKFX6VxStrpQz5dz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_trxtpbq9c342p3qw",
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the statements.\n\n3.5 kg = ..................................... g\n\n1.4 m<sup>2</sup> = ..................................... cm<sup>2</sup>",
+     "solution_md": "> *There are 1000 g in 1 kg so to convert from kg to g, multiply by 1000.*\n\n$3.5\\times1000=3500$\n\n**3500 kg**** ****[1]**\n\n> *There are 100cm in a m so to convert from m*<sup>*2 *</sup>*to cm*<sup>*2*</sup>*, multiply by 100*<sup>*2*</sup>*.*\n\n$1.4\\times100^{2}=14000$\n\n**14 000 cm**<sup>**2**</sup>** ****[1]**",
+     "equations": [
+      {
+       "latex": "3.5\\times1000=3500",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>1000</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3500</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3.5 space cross times space 1000 space equals space 3500"
+      },
+      {
+       "latex": "1.4\\times100^{2}=14000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>4</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>100</mn><mn>2</mn></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>14</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.4 space cross times space 100 squared space equals space 14 space 000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HZcq82vN85wRp4Cy",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_T6sRGc7HgBDCCCd3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the number of minutes from 1758 to 7.13 pm.\n\n........................................ min",
+     "solution_md": "> *Convert 7.13 pm to a 24 hour clock by adding 12 hours*\n\n*7.13 pm + 12 hours*\n\n*= 19 13*\n\n> *Calculate the number of minutes to 18 00*\n\n*60 - 58 = 2 minutes*\n\n> *Calculate the number of minutes from 18 00 to 19 13*\n\n*19 13 - 18 00 = 1 hour 13 minutes*\n\n*= 60 minutes + 13 minutes*\n\n*= 73 minutes*\n\n> *Add the 2 minutes onto this time for the total time*\n\n*73 + 2*\n\n**75 minutes ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DkYqtsZbR93nZqFM",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_YM84RBs9C3StMF6t",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete these statements.\n\n6 m is the same length as ..............................mm.\n\n[1]",
+     "solution_md": "> *To convert from metres to millimetres, multiply by 1000*\n\n**6000** **[1]**"
+    },
+    {
+     "id": "qstnprt_rz3WfQvVHqzSwW94",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 12,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_trxtpbq9c342p3qw"
+     ],
+     "part_tier": null,
+     "problem_md": "7000 cm<sup>2</sup> is the same area as ..............................m<sup>2</sup>.",
+     "solution_md": "> *To convert from square centimetres to square metres, divide by 10,000 (equal to 100*<sup>*2*</sup>*)*\n\n**0.7** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3yw3HjP4H3Jsxfmr",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_svns5JCD9QtzngWC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "These are the opening times for a museum.\n\n| Monday to Friday | 0900 to 1700 |\n|---|---|\n| Saturday and Sunday | 1000 to 1600 |\n\nDuring opening hours the museum has 4 security guards working. \nEach guard works a maximum of 30 hours each week.\n\nWork out the smallest number of guards needed each week.",
+     "solution_md": "> *Work out how many hours the museum is open.*\n\n> *Monday to Friday, the museum is open for 8 hours per day. *\n\n> * *\n\n$5\\times8\\mathrm{hours}=40\\mathrm{hours}$\n\n> * *\n\n> * Saturday and Sunday, it is open for 6 hours per day.*\n\n> * *\n\n$2\\times6\\mathrm{hours}=12\\mathrm{hours}$\n\n> * *\n\n> *Add together.*\n\n$40+12=52\\mathrm{hours}$\n\n**[1]**\n\n> *Multiply the number of hours by the number of guards (4).*\n\n> * *\n\n$52\\times4=208$\n\n**[1]**\n\n> *Divide by 30 because each guard can only work 30 hours per week.*\n\n> * *\n\n$208\\div30=6.933...$\n\n**[1]**\n\n> *As whole number of guards is needed, round up. *\n\n$7$* ***[1]**",
+     "equations": [
+      {
+       "latex": "5\\times8\\mathrm{hours}=40\\mathrm{hours}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#215;</mo><mn>8</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>40</mn><mo>&#160;</mo><mi>hours</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 cross times 8 space hours space equals space 40 space hours"
+      },
+      {
+       "latex": "2\\times6\\mathrm{hours}=12\\mathrm{hours}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>&#215;</mo><mn>6</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>12</mn><mo>&#160;</mo><mi>hours</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 cross times 6 space hours space equals space 12 space hours"
+      },
+      {
+       "latex": "40+12=52\\mathrm{hours}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>40</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>52</mn><mo>&#160;</mo><mi>hours</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "40 plus 12 equals 52 space hours"
+      },
+      {
+       "latex": "52\\times4=208",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>52</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>208</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "52 cross times 4 equals 208"
+      },
+      {
+       "latex": "208\\div30=6.933...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>208</mn><mo>&#247;</mo><mn>30</mn><mo>=</mo><mn>6</mn><mo>.</mo><mn>933</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "208 divided by 30 equals 6.933..."
+      },
+      {
+       "latex": "7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">7</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_y22YmDNZyRJ4hKtd",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZBCR7X7Q7qjknX4G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Sean is the manager of a museum.\n\nHe buys a Chinese pot costing 1200 yuan. \nThe exchange rate is \\$1 = 6.4 yuan.\n\nWork out the cost of this pot in dollars.\n\n\\$ .................................................",
+     "solution_md": "> *To convert between yuan and dollars, divide by 6.4*\n\n> * *\n\n$1200\\div6.4=187.5$\n\n> * *\n\n`bold $ bold 187 bold. bold 50`** [1]**",
+     "equations": [
+      {
+       "latex": "1200\\div6.4=187.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1200</mn><mo>÷</mo><mn>6</mn><mo>.</mo><mn>4</mn><mo>=</mo><mn>187</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1200 divided by 6.4 equals 187.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tDktsWvmyty8csSc",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_stD2mrChWHBjJ9nn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/32",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Musa has a glass that holds 250ml of water. \nHe drinks 5 of these glasses of water. \nHe fills his glass from a 2-litre bottle of water.\n\nWork out how much water is left in the bottle. \nGive your answer in millilitres.\n\n............................................... ml",
+     "solution_md": "> *First work out how much Musa has drunk.*\n\n$5\\times250\\mathrm{ml}=1250\\mathrm{ml}$\n\n**[1]**\n\n> *Then work out how much is left in the bottle. There are 1000 ml in a litre, so 2 litres is 2000 ml.*\n\n$2000-1250=750\\mathrm{ml}$\n\n**750 ml**** ****[1]**",
+     "equations": [
+      {
+       "latex": "5\\times250\\mathrm{ml}=1250\\mathrm{ml}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>250</mn><mi>ml</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1250</mn><mi>ml</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 space cross times space 250 ml space equals space 1250 ml space"
+      },
+      {
+       "latex": "2000-1250=750\\mathrm{ml}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2000</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1250</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>750</mn><mi>ml</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2000 space minus space 1250 space equals space 750 ml"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SdB4WVrFg2rSq2r5",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ZJKB24cpscXjdcGc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 14,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "A tourist changes \\$500 to euros (€) when the exchange rate is €1 = \\$1.0697.\n\nCalculate how many euros he receives.\n\n€ ..................................",
+     "solution_md": "> *Divide the number of dollars by the exchange rate*\n\n$500\\div1.0697=467.4207722$\n\n**[1]**\n\n**€ 467.42** **[1]**",
+     "equations": [
+      {
+       "latex": "500\\div1.0697=467.4207722",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>500</mn><mo>&#247;</mo><mn>1</mn><mo>.</mo><mn>0697</mn><mo>=</mo><mn>467</mn><mo>.</mo><mn>4207722</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "500 divided by 1.0697 equals 467.4207722"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_S4vXsHkSw6M5pSQ7",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GwYQjwnH5dkr5rNQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/03",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows part of a bus timetable.\n\n| Town Hall | 1015 | 1035 | 1055 | 1115 |\n|---|---|---|---|---|\n| City Gate | 1032 | 1052 | 1112 | 1132 |\n| Beacon Hill | 1058 | 1118 | 1138 | 1158 |\n| Kingswood Park | 1110 | 1130 | 1150 | 1210 |\n\ni) Yana leaves home at 1050. \nShe takes 14 minutes to walk to the bus stop at City Gate.\n\nAt what time does she reach the bus stop?\n\n[1]\n\nii) She gets on the next bus at City Gate and travels to Kingswood Park.\n\nAt what time does this bus arrive at Kingswood Park?\n\n[1]\n\niii) Work out how many minutes the bus takes to get from City Gate to Kingswood Park.\n\n........................................ min [1]",
+     "solution_md": "a) *Add 14 minutes to the time  *\n\n*10 50 + 14 minutes*\n\n* *\n\n**11 04**** ****[1]**\n\n** **\n\nii) *From the timetable, the next bus at City Gate after 11 04 is*\n\n*11 12*\n\n> *Follow the timetable down the column until the row for Kingswood Park*\n\n**11 50**** [1]**\n\n** **\n\niii) *Subtract the times for one bus at these two places*\n\n*11 50 - 11 12*\n\n**Final answer:** **38 minutes**** [1]**\n\n** **"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RFHFwV6pJcj569X5",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_479bp3PsM7x25cXQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "These are the opening times of the café.\n\n| Monday to Friday | 8am to 6pm |\n|---|---|\n| Saturday | 9.30 am to 3pm |\n| Sunday | Closed |\n\nWork out the total number of hours the café is open in one week.\n\n........................................ hours",
+     "solution_md": "> *For **five days** during the week (Monday to Friday), the cafe is open **10 hours**. On Saturdays it is open for **5.5 hours**.*\n\n> *Multiply 5 by 10 and add on 5.5.*\n\n> * *\n\n`open parentheses 5 cross times 10 close parentheses plus 5.5 equals 55.5 space hours`\n\n* ***[1]**\n\n> *There are no more hours to add on, because the cafe is closed on Sundays.*\n\n> * *\n\n$55.5\\mathrm{hours}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "55.5\\mathrm{hours}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">55</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">hours</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 55 bold. bold 5 bold space bold hours"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_R8cvW399BcbNpxWS",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vKDgMNPn2spMpnTJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the time 7 hours and 36 minutes before 13 26.\n\n[1]",
+     "solution_md": "> *Partition 36 minutes into 26 minutes and 10 minutes to subtract back across the hour*\n\n*13 26 - 26 mins = 13 00*\n\n*13 00 - 10 mins = 12 50*\n\n> *Subtract 7 hours from this time*\n\n*12 50 - 7 hours = 05 50*\n\n**05 50 ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mg8WGJvysPwGy68G",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_PqQFmQB26xvQFWVx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "A train from Woodton to Northley takes 6 hours 25 minutes. \nThe train leaves Woodton at 19 46.\n\nWork out the time the train arrives at Northley.",
+     "solution_md": "> *Add 6 hours on to 19:46.*\n\n> * *\n\n$19:46+6\\mathrm{hours}=01:46$\n\n> * *\n\n> *Add on 25 minutes (use the fact that there are 60 minutes in an hour to help).*\n\n> * *\n\n$01:46+25\\mathrm{minutes}=02:11$\n\n> * *\n\n**02:11** **[1]**",
+     "equations": [
+      {
+       "latex": "19:46+6\\mathrm{hours}=01:46",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>19</mn><mo>:</mo><mn>46</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>6</mn><mo>&#160;</mo><mi>hours</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>01</mn><mo>:</mo><mn>46</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "19 colon 46 space plus space 6 space hours space equals space 01 colon 46"
+      },
+      {
+       "latex": "01:46+25\\mathrm{minutes}=02:11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>01</mn><mo>:</mo><mn>46</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>25</mn><mo>&#160;</mo><mi>minutes</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>02</mn><mo>:</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "01 colon 46 space plus space 25 space minutes space equals space 02 colon 11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Kn4Wcy5HdxBQyQPH",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xT4SvdMyKKCYc7mr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/11",
+      "question_number": 15,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_trxtpbq9c342p3qw",
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 4.37 litres into cubic centimetres.\n\n..........................cm<sup>3 </sup>",
+     "solution_md": "$1\\mathrm{litre}=1000\\mathrm{cm}^{3}$\n\n> *Multiply *$4.37$* by *$1000$*.*\n\n$4.37\\times1000=4370$\n\n$4370$* ***[1]**",
+     "equations": [
+      {
+       "latex": "1\\mathrm{litre}=1000\\mathrm{cm}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>&#160;</mo><mi>litre</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1000</mn><mo>&#160;</mo><msup><mi>cm</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space litre space equals space 1000 space cm cubed"
+      },
+      {
+       "latex": "4.37",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>37</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4.37"
+      },
+      {
+       "latex": "1000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>1000</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1000"
+      },
+      {
+       "latex": "4.37\\times1000=4370",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>37</mn><mo>&#215;</mo><mn>1000</mn><mo>=</mo><mn>4370</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4.37 cross times 1000 equals 4370"
+      },
+      {
+       "latex": "4370",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">4370</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 4370"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gK683HJNvJY4jghY",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_vNFGmzjvYnw4RQCx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Peter works these hours each week at a café.\n\n| Day | Time |\n|---|---|\n| Monday | 0830 to 16 00 |\n| Tuesday | 1000 to 17 00 |\n| Thursday | 0830 to 16 30 |\n| Saturday | 0800 to 18 30 |\n\nWork out the number of hours he works in one week.\n\n...................................... hours",
+     "solution_md": "> *The number of hours each day can be calculated by partitioning the time up to and beyond midday (12:00)*\n\n*Monday: 8:30 to 16:00 = 3.5 hours + 4 hours = 7.5 hours*\n\n*Tuesday: 10:00 to 17:00 = 2 hours + 5 hours = 7 hours*\n\n*Thursday: 8:30 to 16:30 = 3.5 hours + 4.5 hours = 8 hours*\n\n*Saturday: 8:00 to 18:30 = 4 hours + 6.5 hours = 10.5 hours*\n\n**[1]**\n\n> *Add these times together for the total number of hours worked*\n\n*7.5 + 7 + 8 + 10.5 = 33*\n\n**33 hours**** [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ctz3bzCKyMrv7hQh",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_kJfksxTdZRmRwqRk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/12",
+      "question_number": 18,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "A machine always takes 5 minutes to paint an 80 metre white line on a road.\n\nWork out the number of metres painted in 45 minutes.\n\n........................................... m",
+     "solution_md": "> *Determine the number of metres covered in 1 minute*\n\n$80\\div5=16$* metres per minute*\n\n> *Multiply the number of metres by the number of minutes*\n\n$16\\times45=720m$\n\n**720 m**** ****[1]**",
+     "equations": [
+      {
+       "latex": "80\\div5=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>80</mn><mo>&#247;</mo><mn>5</mn><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "80 divided by 5 equals 16"
+      },
+      {
+       "latex": "16\\times45=720m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>&#215;</mo><mn>45</mn><mo>=</mo><mn>720</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 cross times 45 equals 720 space straight m"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_CcsPQ6NtJPDWDHrm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/12",
+      "question_number": 18,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pXzkD7CNQYh2bGDN",
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA machine always takes 5 minutes to paint an 80 metre white line on a road.\n\nWork out the number of minutes taken to paint a 2.8 km line.\n\n........................................ min",
+     "solution_md": "> *Convert *$2.8km$* into metres by multiplying by *$1000$\n\n$2.8\\times1000=2800m$\n\n> *Divide the number of metres by the number of metres per minute*\n\n$2800\\div16=175$* minutes*\n\n**[1]**\n\n**175 min** **[1]**",
+     "equations": [
+      {
+       "latex": "2.8km",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>8</mn><mi>k</mi><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2.8 k m"
+      },
+      {
+       "latex": "1000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>1000</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1000"
+      },
+      {
+       "latex": "2.8\\times1000=2800m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><mn>1000</mn><mo>=</mo><mn>2800</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2.8 cross times 1000 equals 2800 space straight m"
+      },
+      {
+       "latex": "2800\\div16=175",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2800</mn><mo>&#247;</mo><mn>16</mn><mo>=</mo><mn>175</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2800 divided by 16 equals 175"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_c7VhtFpm9JMx7cfm",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_J5GbFJfCsK3dXgmX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 14,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Levante changes 24650 Hungarian forints to dollars. \nThe exchange rate is \\$1 = 290 forints.\n\nCalculate how many dollars Levante receives.\n\n\\$ ...................................................",
+     "solution_md": "> *Write the exchange rate as a ratio.*\n\n*US Dollars : Hungarian forints*\n\n`$ 1 space colon space 290 space forints`\n\n> *Levante changes 24 650 Hungarian forints so add a line to the ratio*\n\n`$ 1 space colon space 290 space forints`\n\n`$ x space colon space 24 space 650 space forints`\n\n> *Convert 24 650 Hungarian forints to dollars by dividing 24 650 by 290*\n\n`24 space 650 space divided by space 290 space equals space $ 85`\n\n**[1]**\n\n** **`bold $ bold 85 bold space`** [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BF59HSxnSYVbCT4Q",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_SZvfWWtNS5pjxQwR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "how",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Rashid changes 30 000 rupees to dollars when the exchange rate is \\$1 = 68.14 rupees.\n\nHow many dollars does he receive?\n\n\\$ ...................................................",
+     "solution_md": "> *The exchange rate is \\$1 = 68.14 rupees so to convert from dollars to rupees, multiply by 68.14. To convert form rupees to dollars, divide by 68.14. *\n\n`30 space 000 space divided by space 68.14 space equals space $ 440.27...`\n\n**[1]**\n\n**\\$440**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vQ34dbJT6yPX9g8c",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_757NDpxWnpM83WWS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/12",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the number of hours in 3 days.\n\n..........................hours",
+     "solution_md": "> *There are **24 hours** in **one day**.*\n\n> *Multiply 24 hours by 3.*\n\n$24\\times3=72$\n\n$72\\mathrm{hours}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "24\\times3=72",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>24</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>72</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "24 cross times 3 equals 72"
+      },
+      {
+       "latex": "72\\mathrm{hours}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">72</mn><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">hours</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 72 bold space bold hours"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VmXZn8RzBVvrvcxj",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XKF74RN83svxKqhv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "A mathematics lesson starts at 1105. The lesson lasts for 75 minutes.\n\nWork out the time that the lesson ends.",
+     "solution_md": "> *Convert 75 minutes to hours and minutes*\n\n*75 mins = 60 mins + 15 mins = 1 hour 15 minutes*\n\n> *Add 1 hour and 15 minutes to 11:10*\n\n*11:05 + 1 hour + 15 mins*\n\n*= 12:05 + 15 mins*\n\n**12:20**** [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VhTXjCdyVkqPt5cq",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MNWWZjsHHHGFMDdb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/32",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "In Tokyo, Jeremy buys a bracelet for 2050 yen. \nThe exchange rate is 1 yen = \\$0.0125 .\n\nCalculate the price of the bracelet in dollars. \nGive your answer correct to the nearest dollar.\n\n\\$ .................................................",
+     "solution_md": "> *To convert from yen to dollars, multiply by 0.0125.*\n\n> * *\n\n$2050\\times0.0125=25.625$\n\n**[1]**\n\n** **\n\n> *Round to the nearest dollar.*\n\n> * *\n\n**\\$26** **[1]**",
+     "equations": [
+      {
+       "latex": "2050\\times0.0125=25.625",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2050</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>0125</mn><mo>=</mo><mn>25</mn><mo>.</mo><mn>625</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2050 cross times 0.0125 equals 25.625"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tBvtb67Df2Zkhrgg",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_F2J87h5CPGJSPTtJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 15,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 645 mm into cm.\n\n................................... cm",
+     "solution_md": "> *Convert from *$\\mathrm{mm}$* to *$\\mathrm{cm}$* by dividing by *$10$\n\n$645\\div10=64.5$\n\n**64.5 cm**** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\mathrm{mm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>mm</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mm"
+      },
+      {
+       "latex": "\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>cm</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cm"
+      },
+      {
+       "latex": "10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>10</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10"
+      },
+      {
+       "latex": "645\\div10=64.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>645</mn><mo>&#247;</mo><mn>10</mn><mo>=</mo><mn>64</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "645 divided by 10 equals 64.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sQDPDTHhn6QY3y2Q",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ng2MNbbWRJ2PXVdD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 3.25pm in the 24-hour clock.",
+     "solution_md": "> *Increase the number of hours by 12*\n\n$3+12=15$\n\n> *Include the minutes within the final answer*\n\n**15 25**** [1]**",
+     "equations": [
+      {
+       "latex": "3+12=15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 plus 12 equals 15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_njqPsMBc6YGFhMxD",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XT9RC9wc7k3Wz3fD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/12",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 5.3 kilometres into metres.\n\n............................................. m [1]",
+     "solution_md": "> *There are 1000 metres in a kilometre.  So to change kilometres into metres, multiply by 1000.*\n\n> * *\n\n$5.3\\times1000=5300$\n\n> * *\n\n**5300** **[1]**",
+     "equations": [
+      {
+       "latex": "5.3\\times1000=5300",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><mn>1000</mn><mo>=</mo><mn>5300</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5.3 cross times 1000 equals 5300"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mG9JrkCCPNbHq7wz",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_9sHzqBVKd2H3K6wJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 4365 metres into centimetres.\n\n......................................... cm",
+     "solution_md": "> *Convert from metres to centimetres by multiplying by 100*\n\n*4365 × 100 = 436 500*\n\n**436 500 cm**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KYBcc9mpRzdQkmD7",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_VwMRBPbCC2wJdKtX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/11",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 4.6 metres to centimetres.\n\n.............................................. cm",
+     "solution_md": "> *1 metre is the same as 100 centimetres.*\n\n$1m=100\\mathrm{cm}$\n\n> *To change 4.6 metres into centimetres, multiply 4.6 by 100.*\n\n$4.6m\\times100=460\\mathrm{cm}$\n\n$460$**cm**** ****[1]**",
+     "equations": [
+      {
+       "latex": "1m=100\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>100</mn><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 straight m space equals space 100 cm"
+      },
+      {
+       "latex": "4.6m\\times100=460\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>6</mn><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>100</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>460</mn><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4.6 straight m space cross times space 100 space equals space 460 cm"
+      },
+      {
+       "latex": "460",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">460</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 460"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jZGMQPwD2KCgbCSr",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WBVDtd74cj8RCcwP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XC6PSG6CcXnNDb3Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Thor changes 40 000 Icelandic Krona into dollars when the exchange rate is 1 krona = \\$0.0099 .\n\nWork out how many dollars he receives.\n\n\\$ ................................................",
+     "solution_md": "> *To convert between Krona and Dollars, multiply by 0.0099.*\n\n> * *\n\n$40000\\times0.0099=396$\n\n> * *\n\n`bold $ bold 396`* ***[1]**",
+     "equations": [
+      {
+       "latex": "40000\\times0.0099=396",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>40000</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>0099</mn><mo>=</mo><mn>396</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "40000 cross times 0.0099 equals 396"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hvPngzrF4RfMGXJm",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_g4cz7d49P4YyxDd8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/13",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 560 metres into kilometres.\n\n.............................................. km",
+     "solution_md": "> *There are 1000 m in a km. To convert from metres into kilometres, divide by 1000.*\n\n$560\\div1000=0.56$\n\n**0.56 km**** ****[1]**",
+     "equations": [
+      {
+       "latex": "560\\div1000=0.56",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>560</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>1000</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>56</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "560 space divided by space 1000 space equals space 0.56"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FwPdYRGKTCJYZ8qz",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_BbCFRfmZZrYsSJHw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "Sami travels to work by bus. The bus leaves the bus station at 0735.\n\ni) It takes Sami 23 minutes to walk from his house to the bus station.\n\nWork out the latest time Sami can leave his house.\n\n[1]\n\nii) The bus journey takes 41 minutes. Work out the arrival time of the bus.\n\n[1]",
+     "solution_md": "(i) *The bus leaves at 35 minutes past 7.*\n\n> *Subtract 23 minutes from 35.*\n\n> * *\n\n$35-23=12$\n\n> * *\n\n> *He needs to leave his house at **12 minutes past 7.*\n\n> * *\n\n**07:12**** ****[1]**\n\n(ii) *The bus leaves at 35 minutes past 7.*\n\n> *Add 41 minutes onto 35.*\n\n> * *\n\n$35+41=76$\n\n> * *\n\n> *76 minutes is **1 hour and 16 minutes **(because there are 60 minutes in one hour).*\n\n> *Add this onto 07 00.*\n\n> * *\n\n$700+1\\mathrm{hr}16=0816$\n\n> * *\n\n**08:16** **[1]**",
+     "equations": [
+      {
+       "latex": "35-23=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>35</mn><mo>-</mo><mn>23</mn><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "35 minus 23 equals 12"
+      },
+      {
+       "latex": "35+41=76",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>35</mn><mo>+</mo><mn>41</mn><mo>=</mo><mn>76</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "35 plus 41 equals 76"
+      },
+      {
+       "latex": "700+1\\mathrm{hr}16=0816",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#160;</mo><mn>00</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mi>hr</mi><mo>&#160;</mo><mn>16</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>08</mn><mo>&#160;</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 space 00 space plus space 1 space hr space 16 space equals space 08 space 16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bwVZVj8ZhTxct6qF",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2bJR6h36gxw868tX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "change",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 20,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pFVDbZgQGCHHRDtc"
+     ],
+     "part_tier": null,
+     "problem_md": "Change 3670 centimetres to metres.\n\n.........................................m",
+     "solution_md": "> *To convert from centimetres to metres, divide the amount by *$100$\n\n$3670\\div100=36.7$\n\n**36.7 m ****[1]**",
+     "equations": [
+      {
+       "latex": "100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>100</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "100"
+      },
+      {
+       "latex": "3670\\div100=36.7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3670</mn><mo>&#247;</mo><mn>100</mn><mo>=</mo><mn>36</mn><mo>.</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3670 divided by 100 equals 36.7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7HZT7v7KqWjZxkT6",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_4RzvbsY4KwV8rJ7b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h2p7nv6zkR4xFJ3P"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the times of the high and low tides.\n\n| Day | 1st high tide | 1st low tide | 2nd high tide | 2nd low tide |\n|---|---|---|---|---|\n| Monday | 0030 | 06 09 | 13 12 | 1835 |\n| Tuesday | 0130 | 07 20 | 14 22 | 1952 |\n| Wednesday | 0243 | 08 36 | 1537 | 21 06 |\n| Thursday | 03 58 | 09 41 | 1644 | 2207 |\n| Friday | 0500 | 10 35 | 17 37 | 2258 |\n\ni) Write down the time of the 2nd high tide on Wednesday using the 12-hour clock.\n\n[1]\n\nii) Work out the time between the two low tides on Thursday.\n\n.............. h .............. min [1]\n\niii) The surfing activity starts $1\\frac{1}{2}$ hours before the high tide on Tuesday afternoon.\n\nWrite down the time that the surfing activity starts.\n\n[1]",
+     "solution_md": "i) *The second high tide on Wednesday is at *\n\n*15 37*\n\n> *Decrease the number of hours by 12*\n\n*15 - 12 = 3*\n\n> *As 15 37 is after midday, the answer will be \"pm\" Include the minutes within the final answer*\n\n**  ****3.37 pm*** ***[1]**\n\n** **\n\nii) *The two low tides on Thursday are:*\n\n*1st low tide at 09 41*\n\n*2nd low tide at 22 07** *\n\n> *Calculate the number of minutes between 9 41 and 10 07*\n\n*(60 - 41) + 7 = 19 + 7 = 26 minutes*\n\n> *Calculate the number of hours between the new time of 10:07 and 22:07*\n\n*22 - 10 = 12 hours*\n\n**12 h  26 min** **[1]**\n\n** **\n\niii) *Write down the time of the high tide on Tuesday afternoon*\n\n*14 22*\n\n> *Partition 30 minutes into 22 minutes and 8 minutes to subtract back across the hour *\n\n*14 22 - 22 mins = 14 00*\n*14 00 - 8 mins = 13 52*\n\n> *Subtract 1 hour from this time *\n\n*13 52 - 1 hour*\n\n* *\n\n**12 52** **[1]**",
+     "equations": [
+      {
+       "latex": "1\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 1 half"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

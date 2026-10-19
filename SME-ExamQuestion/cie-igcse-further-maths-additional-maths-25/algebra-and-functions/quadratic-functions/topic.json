@@ -1,0 +1,1492 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:46:24Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "further-maths",
+  "exam_code": "0606",
+  "sme_course_id": "crs_HfmFCcT36XRYg8tr",
+  "syllabus_version": "2023",
+  "sme_alias_path": "additional-maths/25",
+  "course_name": "Cambridge (CIE) IGCSE Additional Maths"
+ },
+ "section": {
+  "slug": "algebra-and-functions",
+  "name": "Algebra & Functions"
+ },
+ "topic": {
+  "id": "top_T43mrZ9Fpgb8j96h",
+  "slug": "quadratic-functions",
+  "name": "Quadratic Functions",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "completing-the-square",
+   "name": "Completing the Square",
+   "revision_note_id": "rn_HsZ9KRpYrXpdk4BZ"
+  },
+  {
+   "slug": "quadratic-formula",
+   "name": "Quadratic Formula",
+   "revision_note_id": "rn_R9FWGqvfthtKZNwd"
+  },
+  {
+   "slug": "quadratic-inequalities",
+   "name": "Quadratic Inequalities",
+   "revision_note_id": "rn_cDrSDbQfYnbWmTwk"
+  },
+  {
+   "slug": "solving-quadratics-by-factorising",
+   "name": "Solving Quadratics by Factorising",
+   "revision_note_id": "rn_xMHt3Xd3tqMwtPZB"
+  },
+  {
+   "slug": "quadratic-graphs",
+   "name": "Quadratic Graphs",
+   "revision_note_id": "rn_NSmwJNPjJWSFDkmk"
+  },
+  {
+   "slug": "discriminants",
+   "name": "Discriminants",
+   "revision_note_id": "rn_b77xQnhSDm5kc4pg"
+  },
+  {
+   "slug": "quadratic-equation-methods",
+   "name": "Quadratic Equation Methods",
+   "revision_note_id": "rn_X7JSKRnH3SwHCQXb"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_swHKbZ8TqgpRYpdn",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 16,
+   "questions_embedded": 16,
+   "page_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/algebra-and-functions/quadratic-functions/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 16,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/10/june-2020-paper-21-graph-q6.png": "001-june-2020-paper-21-graph-q6.png",
+   "https://cdn.savemyexams.com/uploads/2023/10/kZexSSVL_olevel-cie-oct-20-paper-2-q1.png": "002-kzexssvl-olevel-cie-oct-20-paper-2-q1.png",
+   "https://cdn.savemyexams.com/uploads/2023/08/cie-spec2-q2.png": "003-cie-spec2-q2.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_mBmXkcnQrQvNwTHV",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_bvGzNktSTy6YHMhD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xpY6Fjvr8NfCHTb4",
+      "spcpt_NvHCD8kCbVz7tb7N",
+      "spcpt_cWq7d2hrR4fZkxtW"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of the constant $k$ for which the equation\n\n`2 k x squared plus open parentheses k minus 6 close parentheses x minus 4 equals 0`\n\nhas no real solutions.",
+     "solution_md": "> *No real solutions means the discriminant is negative, *$b^{2}-4ac<0$\n\n`open parentheses k minus 6 close parentheses squared minus 4 open parentheses 2 k close parentheses open parentheses negative 4 close parentheses less than 0`\n\n**[M1]**\n\n> *Expand and simplify, remember *`open parentheses k minus 6 close parentheses squared equals open parentheses k minus 6 close parentheses open parentheses k minus 6 close parentheses`\n\n`table row cell k squared minus 12 k plus 36 plus 32 k end cell less than 0 row cell k squared plus 20 k plus 36 end cell less than 0 end table`\n\n**[A1]**\n\n> *Solve this quadratic inequality*\n\n> *First finding the critical points, e.g. by factorising*\n\n`k squared plus 20 k plus 36 equals 0\nopen parentheses k plus 18 close parentheses open parentheses k plus 2 close parentheses equals 0`\n\n**[M1]**\n\n$k=-18$* or *$k=-2$\n\n**[A1]**\n\n> $y=k^{2}+20k+36$* is a positive quadratic (U-shape) so state the *$k$* values for where it is below *$x$*-axis (*$y<0$*)*\n\n$-18<k<-2$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "b^{2}-4ac<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&#60;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c less than 0"
+      },
+      {
+       "latex": "k=-18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals negative 18"
+      },
+      {
+       "latex": "k=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals negative 2"
+      },
+      {
+       "latex": "y=k^{2}+20k+36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals k squared plus 20 k plus 36"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>&#60;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y less than 0"
+      },
+      {
+       "latex": "-18<k<-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>18</mn><mo>&#60;</mo><mi>k</mi><mo>&#60;</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 18 less than k less than negative 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hTKgpXfyrwkq3sH9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cWq7d2hrR4fZkxtW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Award the mark for a correct final answer of \"2\" (two points of intersection) with or without justification.\n\nHence determine the number of points of intersection, if any, between the line $y=6x$ and the curve $y=2kx^{2}+kx-4$ for $k>0$.",
+     "solution_md": "> *The 'hence' means you need to relate this question to part (a)*\n\n> *Find the *$x$*-coordinates of the points of intersection (e.g. by setting the *$y$*'s equal to each other)*\n\n$2kx^{2}+kx-4=6x$\n\n> *Rearrange to the quadratic in part (a)*\n\n`2 k x squared plus open parentheses k minus 6 close parentheses x minus 4 equals 0`\n\n> *You know this quadratic has no real solutions for *$-18<k<-2$* (the line and curve never intersect)*\n\n> *At the endpoints, *$k=-18$* or *$k=-2$*, the line will be a tangent to the curve*\n\n> *However *$k>0$* is outside this range completely, so they must intersect twice*\n\n**Final answer:** **The straight line **$y=6x$** intersects the curve **$y=2kx^{2}+kx-4$** twice when **$k>0$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "y=6x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 6 x"
+      },
+      {
+       "latex": "y=2kx^{2}+kx-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 2 k x squared plus k x minus 4"
+      },
+      {
+       "latex": "k>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k greater than 0"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2kx^{2}+kx-4=6x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>-</mo><mn>4</mn><mo>=</mo><mn>6</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 k x squared plus k x minus 4 equals 6 x"
+      },
+      {
+       "latex": "-18<k<-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>18</mn><mo>&#60;</mo><mi>k</mi><mo>&#60;</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 18 less than k less than negative 2"
+      },
+      {
+       "latex": "k=-18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals negative 18"
+      },
+      {
+       "latex": "k=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals negative 2"
+      },
+      {
+       "latex": "k>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k greater than 0"
+      },
+      {
+       "latex": "y=6x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 6 x"
+      },
+      {
+       "latex": "y=2kx^{2}+kx-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 2 k x squared plus k x minus 4"
+      },
+      {
+       "latex": "k>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k greater than 0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yHGmmcXfXxNsv9xQ",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_twrj7d4mN5PYf52K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XxWjyzftRknSBkhg",
+      "spcpt_cWq7d2hrR4fZkxtW"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of $k$ for which the line $y=kx-7$ and the curve $y=3x^{2}+8x+5$ do not intersect.",
+     "solution_md": "> *Setting the two equations equal to each other*\n\n$3x^{2}+8x+5=kx-7$\n\n**[1]**\n\n> *Collecting all terms to the left to set the quadratic equal to 0*\n\n$3x^{2}+8x-kx+12=0$\n\n`3 x squared plus open parentheses 8 space minus space k close parentheses x space plus thin space 12 space equals space 0`\n\n**[1]**\n\n> *If the line and the curve do not intersect, then there are no solutions so the discriminant must be less than 0.*\n\n$b^{2}-4ac<0$\n\n`a space equals space 3 comma space b space equals space open parentheses 8 space minus space k close parentheses comma space c space equals space 12`\n\n`open parentheses 8 space minus space k close parentheses to the power of 2 space end exponent space minus space 4 space open parentheses 3 close parentheses open parentheses 12 close parentheses space less than thin space 0`\n\n**[1]**\n\n> *Expanding the brackets and simplifying gives*\n\n$64-16k+k^{2}-144<0$\n\n$k^{2}-16k-80<0$\n\n**[1]**\n\n> *Factorising to find critical values *\n\n`open parentheses k space plus thin space 4 close parentheses open parentheses k space minus space 20 close parentheses space less than thin space 0`\n\n*Critical values are* $k=-4,k=20$\n\n**[1]**\n\n> *To determine the correct region that satisfies the inequality, sketch a graph of the quadratic.*\n\n![june-2020-paper-21-graph-q6](assets/001-june-2020-paper-21-graph-q6.png)\n\n> *The region that satisfies the inequality is less than 0 so the correct region is below the x axis.*\n\n$-4<k<20$ **[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "y=kx-7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi>k</mi><mi>x</mi><mo>-</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space k x minus 7"
+      },
+      {
+       "latex": "y=3x^{2}+8x+5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 3 x squared space plus 8 x plus 5"
+      },
+      {
+       "latex": "3x^{2}+8x+5=kx-7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>+</mo><mo> </mo><mn>8</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mo> </mo><mo>=</mo><mo> </mo><mi>k</mi><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x to the power of 2 space end exponent plus space 8 x space plus thin space 5 space equals space k x space minus space 7"
+      },
+      {
+       "latex": "3x^{2}+8x-kx+12=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>+</mo><mo> </mo><mn>8</mn><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mi>k</mi><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>12</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x to the power of 2 space end exponent plus thin space 8 x space minus space k x space plus thin space 12 space equals space 0"
+      },
+      {
+       "latex": "b^{2}-4ac<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>4</mn><mi>a</mi><mi>c</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared space minus space 4 a c space less than thin space 0"
+      },
+      {
+       "latex": "64-16k+k^{2}-144<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>64</mn><mo> </mo><mo>-</mo><mo> </mo><mn>16</mn><mi>k</mi><mo> </mo><mo>+</mo><mo> </mo><msup><mi>k</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>144</mn><mo> </mo><mo>&lt;</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "64 space minus space 16 k space plus thin space k squared space minus space 144 space less than space 0"
+      },
+      {
+       "latex": "k^{2}-16k-80<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>16</mn><mi>k</mi><mo> </mo><mo>-</mo><mo> </mo><mn>80</mn><mo> </mo><mo>&lt;</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared space minus space 16 k space minus space 80 space less than space 0"
+      },
+      {
+       "latex": "k=-4,k=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>4</mn><mo>,</mo><mo> </mo><mi>k</mi><mo> </mo><mo>=</mo><mo> </mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k space equals space minus 4 comma space k space equals space 20"
+      },
+      {
+       "latex": "-4<k<20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">&lt;</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">&lt;</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 4 bold space bold less than bold thin space bold italic k bold space bold less than bold thin space bold 20"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xDrZ9vQhRmr7xMWv",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_bFk4h8fvQHHQcBJh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 21",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cWq7d2hrR4fZkxtW"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the exact values of the constant $k$ for which the line $y=2x+1$ is a tangent to the curve $y=4x^{2}+kx+k-2.$",
+     "solution_md": "> *Method 1*\n\n> *Put the equations equal to each other and simplify.*\n\n$4x^{2}+kx+k-2=2x+1$\n\n**[1]**\n\n`4 x squared plus open parentheses k minus 2 close parentheses x plus open parentheses k minus 3 close parentheses equals 0`\n\n**[1]**\n\n> $y=2x+1$* and *$y=4x^{2}+kx+k-2$* only intersect once (because *$y=2x+1$*is a tangent to the curve) and so *`4 x squared plus open parentheses k minus 2 close parentheses x plus open parentheses k minus 3 close parentheses equals 0`* must have only one real root and therefore *$b^{2}-4ac=0$\n\n`open parentheses k minus 2 close parentheses squared minus open parentheses 4 close parentheses open parentheses 4 close parentheses open parentheses k minus 3 close parentheses equals 0`\n\n**[1]**\n\n$k^{2}-20k+52=0$\n\n**[1]**\n\n> *Solve using the quadratic formula.*\n\n`k equals fraction numerator negative open parentheses negative 20 close parentheses plus square root of open parentheses negative 20 close parentheses squared minus open parentheses 4 close parentheses open parentheses 1 close parentheses open parentheses 52 close parentheses end root over denominator 2 open parentheses 1 close parentheses end fraction`\n\n**[1]**\n\n$k=10+4\\sqrt{3}$* **and** *$k=10-4\\sqrt{3}$* ***[1]**\n\n> *Method 2*\n\n> *Put the equations equal to each other.*\n\n$4x^{2}+kx+k-2=2x+1$\n\n> *The gradients of the curve and the line are equal because the line is a tangent to the curve, so differentiate both sides.*\n\n$8x+k=2$\n\n**[1]**\n\n> *Rearrange to get an equation for *$k$*.*\n\n$k=2-8x$\n\n> *Substitute this into the original equation, simplify and rearrange.*\n\n`4 x squared plus open parentheses 2 minus 8 x close parentheses x plus open parentheses 2 minus 8 x close parentheses minus 2 equals 2 x plus 1`\n\n**[1]**\n\n$4x^{2}+8x+1=0$\n\n**[1]**\n\n> *Solve using the quadratic formula.*\n\n`x equals fraction numerator negative open parentheses 8 close parentheses plus square root of open parentheses 8 close parentheses squared minus open parentheses 4 close parentheses open parentheses 4 close parentheses open parentheses 1 close parentheses end root over denominator 2 open parentheses 4 close parentheses end fraction`\n\n**[1]**\n\n$x=-1\\pm\\frac{\\sqrt{48}}{8}$\n\n**[1]**\n\n> *Substitute into *$8x+k=2$* and solve to find *$k$*.*\n\n`8 open parentheses negative 1 plus-or-minus fraction numerator square root of 48 over denominator 8 end fraction close parentheses plus k equals 2`\n\n$k=10+4\\sqrt{3}$** ****and **$k=10-4\\sqrt{3}$** ****[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "y=2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 2 x plus 1"
+      },
+      {
+       "latex": "y=4x^{2}+kx+k-2.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>4</mn><msup><mi>x</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>2</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 4 x to the power of 2 space end exponent plus k x plus k minus 2."
+      },
+      {
+       "latex": "4x^{2}+kx+k-2=2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 x squared plus k x plus k minus 2 equals 2 x plus 1"
+      },
+      {
+       "latex": "y=2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 2 x plus 1"
+      },
+      {
+       "latex": "y=4x^{2}+kx+k-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 4 x squared plus k x plus k minus 2"
+      },
+      {
+       "latex": "y=2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 2 x plus 1"
+      },
+      {
+       "latex": "b^{2}-4ac=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c equals 0"
+      },
+      {
+       "latex": "k^{2}-20k+52=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>52</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared minus 20 k plus 52 equals 0"
+      },
+      {
+       "latex": "k=10+4\\sqrt{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><msqrt><mn mathvariant=\"bold\">3</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold equals bold 10 bold plus bold 4 square root of bold 3"
+      },
+      {
+       "latex": "k=10-4\\sqrt{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn><msqrt><mn mathvariant=\"bold\">3</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold equals bold 10 bold minus bold 4 square root of bold 3"
+      },
+      {
+       "latex": "4x^{2}+kx+k-2=2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 x squared plus k x plus k minus 2 equals 2 x plus 1"
+      },
+      {
+       "latex": "8x+k=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 x plus k equals 2"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k=2-8x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mo>-</mo><mn>8</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals 2 minus 8 x"
+      },
+      {
+       "latex": "4x^{2}+8x+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 x squared plus 8 x plus 1 equals 0"
+      },
+      {
+       "latex": "x=-1\\pm\\frac{\\sqrt{48}}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>±</mo><mfrac><msqrt><mn>48</mn></msqrt><mn>8</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative 1 plus-or-minus fraction numerator square root of 48 over denominator 8 end fraction"
+      },
+      {
+       "latex": "8x+k=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 x plus k equals 2"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k=10+4\\sqrt{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><msqrt><mn mathvariant=\"bold\">3</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold equals bold 10 bold plus bold 4 square root of bold 3"
+      },
+      {
+       "latex": "k=10-4\\sqrt{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn><msqrt><mn mathvariant=\"bold\">3</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold equals bold 10 bold minus bold 4 square root of bold 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qZkCSGvtwd3wFN8W",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_NzKKdFgNpsPJsQmq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/23",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the set of values of $k$ for which $4x^{2}-4kx+2k+3=0$ has no real roots.",
+     "solution_md": "> *A quadratic has no real roots when the discriminant is negative, since we cannot take the square root of a negative number.*\n\n> *Substitute the values from the equation into *$b^{2}-4ac<0$\n\n> *   *\n\n`open parentheses negative 4 k close parentheses squared minus open parentheses 4 close parentheses open parentheses 4 close parentheses open parentheses 2 k plus 3 close parentheses less than 0`\n\n**[1]**\n\n> *Expand and simplify.*\n\n$16k^{2}-32k-48<0$\n\n**[1]**\n\n> *Divide through by 16.*\n\n$k^{2}-2k-3<0$\n\n> *  *\n\n> *Factorise and solve *$k^{2}-2k-3=0$* to find critical values.*\n\n> *   *\n\n`open parentheses k plus 1 close parentheses open parentheses k minus 3 close parentheses equals 0`\n\n**[1]**\n\n$k=-1$* **and** *$k=3$\n\n**[1]**\n\n> *We are solving a quadratic inequality, therefore we need to examine the graph of *$y=k^{2}-2k-3$* to determine which inequality signs are needed. Since we want the equation to be smaller than 0, we want the part of the graph **under **the *$x$* axis, between the two critical values.*\n\n> *Therefore,*\n\n$-1<k<3$* ***[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "4x^{2}-4kx+2k+3=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>4</mn><mi>k</mi><mi>x</mi><mo>+</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 x squared space minus 4 k x plus 2 k plus 3 space equals space 0"
+      },
+      {
+       "latex": "b^{2}-4ac<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c less than 0"
+      },
+      {
+       "latex": "16k^{2}-32k-48<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>32</mn><mi>k</mi><mo>-</mo><mn>48</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 k squared minus 32 k minus 48 less than 0"
+      },
+      {
+       "latex": "k^{2}-2k-3<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>k</mi><mo>-</mo><mn>3</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared minus 2 k minus 3 less than 0"
+      },
+      {
+       "latex": "k^{2}-2k-3=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>k</mi><mo>-</mo><mn>3</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared minus 2 k minus 3 equals 0"
+      },
+      {
+       "latex": "k=-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals negative 1"
+      },
+      {
+       "latex": "k=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals 3"
+      },
+      {
+       "latex": "y=k^{2}-2k-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>k</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals k squared minus 2 k minus 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "-1<k<3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">&lt;</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&lt;</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 1 bold less than bold italic k bold less than bold 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pPkBZZkzFcmMx4m4",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mR62JdBM5t8wPFXc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/22",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xpY6Fjvr8NfCHTb4"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the inequality $(x-8)(x-10)>35$ .",
+     "solution_md": "> *Expand the double bracket*\n\n$x^{2}-10x-8x+80>35$\n\n> *Collect the like terms on the left hand side of the inequality*\n\n$x^{2}-18x+80>35$\n\n> *Subtract 35 from both sides to make the right hand side 0*\n\n$x^{2}-18x+45>0$\n\n**[1]**\n\n> *We want to find where the quadratic graph is greater than 0*\n\n> *Consider *$y=x^{2}-18x+45$* and draw a sketch*\n\n> *Identify the roots by factorising (or using the quadratic formula)*\n\n`open parentheses x minus 15 close parentheses open parentheses x minus 3 close parentheses equals 0`\n\n**[1]**\n\n$x=15\\mathrm{and}x=3$\n\n**[1]**\n\n![kZexSSVL_olevel-cie-oct-20-paper-2-q1](assets/002-kzexssvl-olevel-cie-oct-20-paper-2-q1.png)\n\n> *The quadratic is greater than 0 when the graph is above the *$x$*-axis*\n\n$x<3\\mathrm{or}x>15$ **[1]**\n\n** **`open parentheses negative infinity comma space 3 close parentheses union open parentheses 15 comma space infinity close parentheses`** ***is also accepted*",
+     "equations": [
+      {
+       "latex": "(x-8)(x-10)>35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>8</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>10</mn><mo>)</mo><mo> </mo><mo>&gt;</mo><mo> </mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis x minus 8 right parenthesis left parenthesis x minus 10 right parenthesis space greater than space 35"
+      },
+      {
+       "latex": "x^{2}-10x-8x+80>35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>80</mn><mo>&gt;</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 10 x minus 8 x plus 80 greater than 35"
+      },
+      {
+       "latex": "x^{2}-18x+80>35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>18</mn><mi>x</mi><mo>+</mo><mn>80</mn><mo>&gt;</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 18 x plus 80 greater than 35"
+      },
+      {
+       "latex": "x^{2}-18x+45>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>18</mn><mi>x</mi><mo>+</mo><mn>45</mn><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 18 x plus 45 greater than 0"
+      },
+      {
+       "latex": "y=x^{2}-18x+45",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>18</mn><mi>x</mi><mo>+</mo><mn>45</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x squared minus 18 x plus 45"
+      },
+      {
+       "latex": "x=15\\mathrm{and}x=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>15</mn><mo> </mo><mi>and</mi><mo> </mo><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 15 space and space x equals 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x<3\\mathrm{or}x>15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">&lt;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold less than bold 3 bold space bold or bold space bold italic x bold greater than bold 15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pFjpX9vPRphjX3gN",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_PqZXjzFV62NwYPfX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/22",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xpY6Fjvr8NfCHTb4"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of $x$ for which `12 x squared minus 20 x plus 5 space less than space open parentheses 2 x plus 1 close parentheses open parentheses x minus 1 close parentheses`.",
+     "solution_md": "> *Expand the right-hand side of the inequality*\n\n`12 x squared minus 20 x plus 5 less than open parentheses 2 x plus 1 close parentheses open parentheses x minus 1 close parentheses`\n\n$12x^{2}-20x+5<2x^{2}-2x+x-1$\n\n> *Simplify*\n\n$12x^{2}-20x+5<2x^{2}-x-1$\n\n**[1]**\n\n> *Make the quadratic inequality equal to 0 on one side*\n\n$10x^{2}-19x+6<0$\n\n> *Find the roots of the quadratic equation using the quadratic formula*\n\n$x=\\frac{2}{5}\\mathrm{or}x=\\frac{3}{2}$\n\n**factorise or solve quadratic equation**** [1]**\n\n**for correct values**** [1]**\n\n> *We have a positive quadratic and we are trying to see where the quadratic is strictly less than 0 (i.e. below the *$x$*-axis)*\n\n$\\frac{2}{5}<x<\\frac{3}{2}$ **[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "12x^{2}-20x+5<2x^{2}-2x+x-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>&lt;</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12 x squared minus 20 x plus 5 less than 2 x squared minus 2 x plus x minus 1"
+      },
+      {
+       "latex": "12x^{2}-20x+5<2x^{2}-x-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>&lt;</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12 x squared minus 20 x plus 5 less than 2 x squared minus x minus 1"
+      },
+      {
+       "latex": "10x^{2}-19x+6<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>19</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 x squared minus 19 x plus 6 less than 0"
+      },
+      {
+       "latex": "x=\\frac{2}{5}\\mathrm{or}x=\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo> </mo><mi>or</mi><mo> </mo><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 2 over 5 space or space x equals 3 over 2"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{2}{5}<x<\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">5</mn></mfrac><mo mathvariant=\"bold\">&lt;</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">&lt;</mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 over bold 5 bold less than bold italic x bold less than bold 3 over bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mrWWSHpvNY7BXG2B",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9dWvXgJKFGPdyH2h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_69qXcFBbcmd6HWHX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write $9x^{2}-12x+5$ in the form $p(x-q)^{2}+r$, where $p$,$q$ and $r$ are constants.",
+     "solution_md": "> *Dividing the first two terms by the coefficient of *$x^{2}$\n\n`9 open parentheses x to the power of 2 space end exponent minus 4 over 3 x close parentheses space plus thin space 5`\n\n> *Completing the square inside the bracket*\n\n`9 open square brackets open parentheses x minus 2 over 3 close parentheses squared minus 4 over 9 close square brackets space plus thin space 5`\n\n> *Expanding the square bracket gives*\n\n`9 open parentheses x minus 2 over 3 close parentheses to the power of 2 space end exponent minus space 4 space plus thin space 5`\n\n$9(x-\\frac{2}{3})^{2}+1$\n\n**1 mark for each correct of p, q, and r**** [3]**",
+     "equations": [
+      {
+       "latex": "9x^{2}-12x+5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>12</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 x squared space minus 12 x plus 5"
+      },
+      {
+       "latex": "p(x-q)^{2}+r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>q</mi><mo>)</mo></mrow><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p left parenthesis x minus q right parenthesis squared space plus r"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>q</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space q space"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared"
+      },
+      {
+       "latex": "9(x-\\frac{2}{3})^{2}+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">9</mn><msup><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">3</mn></mfrac><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\"> </mo></mrow></msup><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WtQqSnv4WKvKrKnF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_69qXcFBbcmd6HWHX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWrite 9x² - 12x + 5 in the form p(x - q)² + r, where p, q and r are constants.\n\nHence write down the coordinates of the minimum point of the curve $y=9x^{2}-12x+5$.",
+     "solution_md": "> *If *`y space equals space p open parentheses x space minus space q close parentheses squared space plus thin space r space space`* then the turning point is at *`open parentheses q comma space r close parentheses`\n\n$(\\frac{2}{3},1)$ **[1]**",
+     "equations": [
+      {
+       "latex": "y=9x^{2}-12x+5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>12</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 9 x squared space minus 12 x plus 5"
+      },
+      {
+       "latex": "(\\frac{2}{3},1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo> </mo><mo>,</mo><mo> </mo><mn>1</mn></mrow><mo stretchy=\"true\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "stretchy left parenthesis 2 over 3 space comma space 1 stretchy right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gpK8xNPvM2mKz7bj",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_csgxyhyhNdS2fWJ6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_W6qk7y5NY3skmtYq",
+      "spcpt_DdW4C2wKbf4Pn2Ty"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve $6x^{\\frac{2}{3}}-5x^{\\frac{1}{3}}+1=0$.",
+     "solution_md": "> *This is a hidden quadratic equation which is easier to solve if we let *$y=x^{\\frac{1}{3}}$*. This means that the quadratic becomes*\n\n$6y^{2}-5y+1=0$\n\n> *To factorise this quadratic, we know that the final terms in the brackets must both be -1, as they must have a product of +1. The first terms in the brackets must have a product of 6, so this must be 3 and 2, or 1 and 6. Upon inspection we see that the brackets must be*\n\n`open parentheses 3 y space minus space 1 close parentheses open parentheses 2 y space minus space 1 close parentheses space equals space 0`\n\n**[1]**\n\n> *Solving these by setting each bracket equal to 0 gives*\n\n$3y-1=02y-1=0$\n\n$y=\\frac{1}{3}y=\\frac{1}{2}$\n\n> *Using our previous substitution we have*\n\n$x^{\\frac{1}{3}}=\\frac{1}{3}x^{\\frac{1}{3}}=\\frac{1}{2}$* *\n\n**[1]**\n\n> *Cubing both sides of each equation gives us the final solutions*\n\n$x=\\frac{1}{27},x=\\frac{1}{8}$ **[1] **",
+     "equations": [
+      {
+       "latex": "6x^{\\frac{2}{3}}-5x^{\\frac{1}{3}}+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>-</mo><mn>5</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x to the power of 2 over 3 end exponent minus 5 x to the power of 1 third end exponent plus 1 equals 0"
+      },
+      {
+       "latex": "y=x^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space x to the power of 1 third end exponent"
+      },
+      {
+       "latex": "6y^{2}-5y+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>y</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>-</mo><mn>5</mn><mi>y</mi><mo> </mo><mo>+</mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 y to the power of 2 space end exponent minus 5 y space plus 1 space equals space 0"
+      },
+      {
+       "latex": "3y-1=02y-1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>y</mi><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mn>2</mn><mi>y</mi><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 y space minus space 1 space equals space 0 space space space space space space space space space 2 y space minus space 1 space equals space 0"
+      },
+      {
+       "latex": "y=\\frac{1}{3}y=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mi>y</mi><mo> </mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals 1 third space space space space space space space space space space space space space space y space equals 1 half"
+      },
+      {
+       "latex": "x^{\\frac{1}{3}}=\\frac{1}{3}x^{\\frac{1}{3}}=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo> </mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x to the power of 1 third end exponent space equals 1 third space space space space space space space space space space space x to the power of 1 third end exponent equals 1 half"
+      },
+      {
+       "latex": "x=\\frac{1}{27},x=\\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">27</mn></mfrac><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">8</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold space bold equals bold 1 over bold 27 bold comma bold space bold italic x bold space bold equals bold 1 over bold 8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gHBGBcYYBjzPYtXJ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_SHrrWX5XVxxnvWnC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xpY6Fjvr8NfCHTb4",
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of the constant $k$ for which the equation $(2k--1)x^{2}+6x+k+1=0$ has real roots.",
+     "solution_md": "*A quadratic equation has real roots if *$b^{2}-4ac\\geq0$ $a=2k-1$*, *$b=6$* and *$c=k+1$\n\n`6 squared minus 4 open parentheses 2 k minus 1 close parentheses open parentheses k plus 1 close parentheses greater or equal than 0`\n\n**[1]**\n\n> *Solve for **k*\n\n`table row cell 36 minus 4 open parentheses 2 k squared plus k minus 1 close parentheses end cell greater or equal than 0 row cell 36 minus 8 k squared minus 4 k plus 4 end cell greater or equal than 0 row cell 8 k squared plus 4 k minus 40 end cell less or equal than 0 end table`\n\n**[1]**\n\n> *Factorise or use the quadratic formula to solve and find the critical values*\n\n`table row cell 2 k squared plus k minus 10 end cell less or equal than 0 row cell let space space 2 k squared plus k minus 10 end cell equals 0 row cell open parentheses k minus 2 close parentheses open parentheses 2 k plus 5 close parentheses end cell equals 0 end table`\n\n**[1]**\n\n> *   *`table row k equals cell 2 comma space k equals negative 5 over 2 end cell end table`\n\n**both critical values found ****[1]**\n\n*To decide which way the inequalities go, draw a very quick sketch of the graph of *`table row cell 8 k squared plus 4 k minus 40 end cell less or equal than 0 end table`* with the critical values marked; it's a positive quadratic and we're looking for the values below the **x**-axis* *(or sketch *`table row cell negative 8 k squared minus 4 k plus 40 end cell greater or equal than 0 end table`* as a negative parabola, and look for the region above the **x**-axis)*\n\n![cie-spec2-q2](assets/003-cie-spec2-q2.png)\n\n$-\\frac{5}{2}\\leqk\\leq2$** [1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "(2k--1)x^{2}+6x+k+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo> </mo><mo>–</mo><mo> </mo><mn>1</mn><mo>)</mo><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>6</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mi>k</mi><mo> </mo><mo>+</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis 2 k space – space 1 right parenthesis x squared space plus space 6 x space plus space k space plus space 1 space equals space 0"
+      },
+      {
+       "latex": "b^{2}-4ac\\geq0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c greater or equal than 0"
+      },
+      {
+       "latex": "a=2k-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 2 k minus 1"
+      },
+      {
+       "latex": "b=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 6"
+      },
+      {
+       "latex": "c=k+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c equals k plus 1"
+      },
+      {
+       "latex": "-\\frac{5}{2}\\leqk\\leq2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></mfrac><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">≤</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 5 over bold 2 bold less or equal than bold italic k bold less or equal than bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fr94gR2Jy8yHVw42",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_C962mtmSrKC9ZFM6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_W6qk7y5NY3skmtYq"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the equation $2x-11\\sqrt{x}+12=0.$",
+     "solution_md": "> *Rewrite the equation, using *$\\sqrt{x}=x^{\\frac{1}{2}}$\n\n$2x-11x^{\\frac{1}{2}}+12=0$\n\n> *Let *$u=x^{\\frac{1}{2}}$\n\n$2u^{2}-11u+12=0$\n\n> *Factorise and solve.*\n\n`open parentheses 2 u minus 3 close parentheses open parentheses u minus 4 close parentheses equals 0`\n\n**[1]**\n\n$u=\\frac{3}{2}$* **and *$u=4$\n\n> *Replace *$u$* with *$x^{\\frac{1}{2}}$*.*\n\n$x^{\\frac{1}{2}}=\\frac{3}{2}$*   **and    *$x^{\\frac{1}{2}}=4$\n\n**[1]**\n\n> *Solve.*\n\n`x equals open parentheses 3 over 2 close parentheses squared`\n\n`x equals open parentheses 4 close parentheses squared`\n\n$x=\\frac{9}{4}$**and**** **$x=16$* ***[1]**",
+     "equations": [
+      {
+       "latex": "2x-11\\sqrt{x}+12=0.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>11</mn><mo> </mo><msqrt><mi>x</mi></msqrt><mo> </mo><mo>+</mo><mn>12</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x minus 11 space square root of x space plus 12 space equals space 0."
+      },
+      {
+       "latex": "\\sqrt{x}=x^{\\frac{1}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of x equals x to the power of 1 half end exponent"
+      },
+      {
+       "latex": "2x-11x^{\\frac{1}{2}}+12=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>11</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>12</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x minus 11 x to the power of 1 half end exponent plus 12 equals 0"
+      },
+      {
+       "latex": "u=x^{\\frac{1}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mo>=</mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u equals x to the power of 1 half end exponent"
+      },
+      {
+       "latex": "2u^{2}-11u+12=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>u</mi><mn>2</mn></msup><mo>-</mo><mn>11</mn><mi>u</mi><mo>+</mo><mn>12</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 u squared minus 11 u plus 12 equals 0"
+      },
+      {
+       "latex": "u=\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u equals 3 over 2"
+      },
+      {
+       "latex": "u=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u equals 4"
+      },
+      {
+       "latex": "u",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>u</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u"
+      },
+      {
+       "latex": "x^{\\frac{1}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x to the power of 1 half end exponent"
+      },
+      {
+       "latex": "x^{\\frac{1}{2}}=\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x to the power of 1 half end exponent equals 3 over 2"
+      },
+      {
+       "latex": "x^{\\frac{1}{2}}=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x to the power of 1 half end exponent equals 4"
+      },
+      {
+       "latex": "x=\\frac{9}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">9</mn><mn mathvariant=\"bold\">4</mn></mfrac><mo mathvariant=\"bold\"> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 9 over bold 4 bold space"
+      },
+      {
+       "latex": "x=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dqK7Wg9vTQGGdsDh",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wQJJQjwZHhCHQJYv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/23",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cWq7d2hrR4fZkxtW"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of $k$ for which the equation $x^{2}+(k+9)x+9=0$ has two distinct real roots.",
+     "solution_md": "> *When an equation has two real roots, the discriminant is positive.*\n\n`table row cell b squared minus 4 a c end cell greater than 0 row blank blank blank row cell open parentheses k plus 9 close parentheses squared minus open parentheses 4 close parentheses open parentheses 1 close parentheses open parentheses 9 close parentheses end cell greater than 0 end table`\n\n**[1]**\n\n> *Expand and simplify.*\n\n`table row cell k squared plus 18 x plus 81 minus 36 end cell greater than 0 row cell k squared plus 18 x plus 45 end cell greater than 0 end table`\n\n**[1]**\n\n> *Factorise and solve *$k^{2}+18x+45=0$* to find critical values.*\n\n> *  *\n\n`open parentheses k plus 15 close parentheses open parentheses k plus 3 close parentheses equals 0`\n\n$k=-15,k=-3$\n\n**[1]**\n\n> *Since we want where the positive quadratic is greater than 0, we want *$k$* values to the left of -15, and to the right of -3.*\n\n> *  *\n\n$k<-15\\mathrm{or}k>-3$* ***[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "x^{2}+(k+9)x+9=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>9</mn><mo>)</mo><mi>x</mi><mo>+</mo><mn>9</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared space plus space left parenthesis k plus 9 right parenthesis x plus 9 space equals space 0"
+      },
+      {
+       "latex": "k^{2}+18x+45=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>18</mn><mi>x</mi><mo>+</mo><mn>45</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared plus 18 x plus 45 equals 0"
+      },
+      {
+       "latex": "k=-15,k=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>15</mn><mo>,</mo><mo> </mo><mo> </mo><mo> </mo><mi>k</mi><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals negative 15 comma space space space k equals negative 3"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k<-15\\mathrm{or}k>-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&#60;</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">15</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold-italic\">&#160;</mo><mo mathvariant=\"bold-italic\">&#160;</mo><mo mathvariant=\"bold-italic\">&#160;</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold-italic\">&#62;</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold italic k bold less than bold minus bold 15 bold space bold space bold space bold or bold italic space bold italic space bold italic space bold italic k bold italic greater than bold minus bold 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Dkndn7xXxdGtcRqx",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_FGc2W4ncfzvGWwz9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "Paper 12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of $k$ for which the line $y=kx+3$ is a tangent to the curve $y=2x^{2}+4x+k-1$.",
+     "solution_md": "> *If the line meets the curve, they will have the same *$x$* and *$y$*-coordinate at one point. Set the curve equal to the line.*\n\n$2x^{2}+4x+k-1=kx+3$\n\n[1]\n\n> *Bring all the terms to one side to equal the equation to 0:*\n\n$2x^{2}+4x-kx+k-1-3=0$\n\n[1]\n\n> *Simplify:*\n\n`2 x squared plus open parentheses 4 minus k close parentheses x plus k minus 4 equals 0`\n\n> *If the line is tangent to the curve, they meet once, therefore this quadratic equation will have 1 solution only. Use that the discriminant *$b^{2}-4ac$* is equal to 0.*\n\n`b squared minus 4 a c space equals open parentheses 4 minus k close parentheses squared minus 4 open parentheses 2 close parentheses open parentheses k minus 4 close parentheses space equals 0`\n\n[1]\n\n$16-8k+k^{2}-8k+32=0$\n\n$k^{2}-16k+48=0$\n\n> *Solve the quadratic equation using the quadratic formula:*\n\n`k equals fraction numerator negative open parentheses negative 16 close parentheses plus-or-minus square root of open parentheses negative 16 close parentheses squared minus 4 open parentheses 1 close parentheses open parentheses 48 close parentheses end root over denominator 2 open parentheses 1 close parentheses end fraction`\n\n$k=12,k=4$** ****[2]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "y=kx+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi>k</mi><mi>x</mi><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space k x plus 3"
+      },
+      {
+       "latex": "y=2x^{2}+4x+k-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 2 x squared space plus 4 x plus k minus 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2x^{2}+4x+k-1=kx+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>1</mn><mo>=</mo><mi>k</mi><mi>x</mi><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x squared plus 4 x plus k minus 1 equals k x plus 3"
+      },
+      {
+       "latex": "2x^{2}+4x-kx+k-1-3=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>-</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo>-</mo><mn>1</mn><mo>-</mo><mn>3</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x squared plus 4 x minus k x plus k minus 1 minus 3 equals 0"
+      },
+      {
+       "latex": "b^{2}-4ac",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c"
+      },
+      {
+       "latex": "16-8k+k^{2}-8k+32=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>-</mo><mn>8</mn><mi>k</mi><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>k</mi><mo>+</mo><mn>32</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 minus 8 k plus k squared minus 8 k plus 32 equals 0"
+      },
+      {
+       "latex": "k^{2}-16k+48=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>k</mi><mo>+</mo><mn>48</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k squared minus 16 k plus 48 equals 0"
+      },
+      {
+       "latex": "k=12,k=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">12</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold equals bold 12 bold comma bold space bold italic k bold equals bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CgYFcQBt6zVRRjrw",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_d7Vrxw8Jngc5XxM2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/22",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the values of $k$ for which the line $y=x-3$ intersects the curve $y=k^{2}x^{2}+5kx+1$ at two distinct points.",
+     "solution_md": "> *Since they intersect, set the line equal to the curve *\n\n$x-3=k^{2}x^{2}+5kx+1$\n\n**[1]**\n\n> *Rearrange the equation to make it equal to 0*\n\n> *Subtract *$x$*from both sides*\n\n`negative 3 equals k squared x squared plus open parentheses 5 k minus 1 close parentheses x plus 1`\n\n> *Add 3 to both sides*\n\n`0 equals k squared x squared plus open parentheses 5 k minus 1 close parentheses x plus 4`\n\n**[1]**\n\n> *The line meets the curve twice (at 2 distinct points) so the discriminant, *$b^{2}-4ac>0$\n\n> *Work out the discriminant*\n\n`open parentheses 5 k minus 1 close parentheses squared minus 4 open parentheses k squared close parentheses open parentheses 4 close parentheses greater than 0`\n\n**[1]**\n\n`open parentheses 5 k minus 1 close parentheses squared minus 16 k squared greater than 0`\n\n> *Expand the double bracket*\n\n$25k^{2}-10k+1-16k^{2}>0$\n\n> *Simplify*\n\n$9k^{2}-10k+1>0$\n\n**[1]**\n\n> *Solve the quadratic inequality*\n\n> *Find the critical values using the quadratic formula (or by factorisation)*\n\n`k equals fraction numerator negative open parentheses negative 10 close parentheses plus-or-minus square root of open parentheses negative 10 close parentheses squared minus 4 open parentheses 9 close parentheses open parentheses 1 close parentheses end root over denominator 2 open parentheses 9 close parentheses end fraction`\n\n$k=1\\mathrm{or}\\frac{1}{9}$\n\n**[1]**\n\n> *We are trying to find where the (positive) quadratic is greater than zero, so consider where the graph is above the *$x$*-axis*\n\n$k<\\frac{1}{9}\\mathrm{or}k>1$ **[1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "y=x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space x minus 3"
+      },
+      {
+       "latex": "y=k^{2}x^{2}+5kx+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>k</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mn>5</mn><mi>k</mi><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space k squared x squared space plus 5 k x plus 1"
+      },
+      {
+       "latex": "x-3=k^{2}x^{2}+5kx+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>3</mn><mo>=</mo><msup><mi>k</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>k</mi><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 3 equals k squared x squared plus 5 k x plus 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "b^{2}-4ac>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c greater than 0"
+      },
+      {
+       "latex": "25k^{2}-10k+1-16k^{2}>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>-</mo><mn>16</mn><msup><mi>k</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25 k squared minus 10 k plus 1 minus 16 k squared greater than 0"
+      },
+      {
+       "latex": "9k^{2}-10k+1>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 k squared minus 10 k plus 1 greater than 0"
+      },
+      {
+       "latex": "k=1\\mathrm{or}\\frac{1}{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn><mo> </mo><mi>or</mi><mo> </mo><mfrac><mn>1</mn><mn>9</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals 1 space or space 1 over 9"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "k<\\frac{1}{9}\\mathrm{or}k>1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&lt;</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">9</mn></mfrac><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold less than bold 1 over bold 9 bold space bold or bold space bold italic k bold greater than bold 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cfhr8JHcsMj4gD2g",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_HV6S2frRqJt243Xd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/12",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "The curve $y=2x^{2}+k+4$ intersects the straight line $y=(k+4)x$ at two distinct points. Find the possible values of $k$.",
+     "solution_md": "> *Substitute *`y equals open parentheses k plus 4 close parentheses x`* into *$y=2x^{2}+k+4$\n\n`open parentheses k plus 4 close parentheses x equals 2 x squared plus k plus 4`\n\n> *Rearrange.*\n\n`2 x squared minus open parentheses k plus 4 close parentheses x plus k plus 4 equals 0`\n\n**[1]**\n\n> *Since the lines intersect at two distinct points, this means the discriminant of this equation must be greater than 0.*\n\n> *Substitute values from the equation into *$b^{2}-4ac>0$\n\n> *  *\n\n`open parentheses negative open parentheses k plus 4 close parentheses close parentheses squared minus open parentheses 4 close parentheses open parentheses 2 close parentheses open parentheses k plus 4 close parentheses greater than 0`\n\n**[1]**\n\n> *Simplify.*\n\n`table row cell k squared plus 8 k plus 16 minus 8 k minus 32 end cell greater than 0 row cell k squared minus 16 end cell greater than 0 end table`\n\n> *  *\n\n> *Factorise and solve to find critical values.*\n\n`open parentheses k plus 4 close parentheses open parentheses k minus 4 close parentheses equals 0`\n\n$k=-4$* **and *$k=4$\n\n**[1]**\n\n*  *\n\n> *Since we want where the graph is greater than 0, we want values to the left of the negative root, and to the right of the positive root.*\n\n$k<-4$** ****and **$k>4$** ****[1]**",
+     "equations": [
+      {
+       "latex": "y=2x^{2}+k+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>k</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space 2 x squared space plus k plus 4"
+      },
+      {
+       "latex": "y=(k+4)x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>4</mn><mo>)</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space left parenthesis k plus 4 right parenthesis x"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "y=2x^{2}+k+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 2 x squared plus k plus 4"
+      },
+      {
+       "latex": "b^{2}-4ac>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared minus 4 a c greater than 0"
+      },
+      {
+       "latex": "k=-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals negative 4"
+      },
+      {
+       "latex": "k=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k equals 4"
+      },
+      {
+       "latex": "k<-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&lt;</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold less than bold minus bold 4"
+      },
+      {
+       "latex": "k>4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic k bold greater than bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7NJSnZ3kbdK85FSY",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_qwb4MWrqVFFQ5vMr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 21",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_69qXcFBbcmd6HWHX"
+     ],
+     "part_tier": null,
+     "problem_md": "Write the expression $x^{2}-6x+1$ in the form $(x+a)^{2}+b$, where $a$ and $b$ are constants.",
+     "solution_md": "> *To complete the square, *`x squared plus b x plus c space equals space open parentheses x minus b over 2 close parentheses squared minus open parentheses b over 2 close parentheses plus c`\n\n`x squared minus 6 x plus 1 space equals space open parentheses x minus 3 close parentheses squared minus open parentheses 3 close parentheses squared plus 1`\n\n**correct squared term **`open parentheses x minus 3 close parentheses squared`** ****[1]**\n\n> *Simplify.*\n\n`equals open parentheses x minus 3 close parentheses squared minus 9 plus 1`\n\n$(x-3)^{2}-8$ **[1]**",
+     "equations": [
+      {
+       "latex": "x^{2}-6x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared space minus 6 x plus 1"
+      },
+      {
+       "latex": "(x+a)^{2}+b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis x plus a right parenthesis squared space plus b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "(x-3)^{2}-8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RPyN8H4c6HkG8jXq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 21",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_69qXcFBbcmd6HWHX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWrite the expression x² - 6x + 1 in the form (x + a)² + b, where a and b are constants.\n\nx² - 6x + 1 = (x - 3)² - (3)² + 1\n= (x - 3)² - 9 + 1\n= (x - 3)² - 8\n\nHence write down the coordinates of the minimum point on the curve $y=x^{2}-6x+1$.",
+     "solution_md": "> *The minimum point on the curve *`y equals open parentheses x plus a close parentheses squared plus b`*  is  *`open parentheses negative a comma space b close parentheses`*.*\n\n> *For *`y equals open parentheses x minus 3 close parentheses squared minus 8`* is *\n\n$(3,-8)$* ***[1]**",
+     "equations": [
+      {
+       "latex": "y=x^{2}-6x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space x squared space minus 6 x plus 1"
+      },
+      {
+       "latex": "(3,-8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mn>3</mn><mo>,</mo><mo> </mo><mo>-</mo><mn>8</mn></mrow><mo stretchy=\"true\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "stretchy left parenthesis 3 comma space minus 8 stretchy right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4M2tcykDmnMTGS5G",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_k9hk3C5q38v3hGFM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_W6qk7y5NY3skmtYq"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve $2x^{\\frac{2}{3}}-x^{\\frac{1}{3}}-10=0$.",
+     "solution_md": "> *Let *$y=x^{\\frac{1}{3}}$*, then*\n\n$2y^{2}-y-10=0$\n\n`open parentheses 2 y space minus space 5 close parentheses open parentheses y space plus thin space 2 close parentheses equals 0`\n\n**[1]**\n\n> *Solving the quadratic gives*\n\n$y=\\frac{5}{2}\\mathrm{and}y=-2$\n\n> *Substituting *$y=x^{\\frac{1}{3}}$\n\n$x^{\\frac{1}{3}}=\\frac{5}{2}\\mathrm{and}x^{\\frac{1}{3}}=-2$\n\n**[1]**\n\n> *Cubing both sides of each equation gives*\n\n$x=\\frac{125}{8},x=-8$ **[1]**",
+     "equations": [
+      {
+       "latex": "2x^{\\frac{2}{3}}-x^{\\frac{1}{3}}-10=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>-</mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>-</mo><mn>10</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x to the power of 2 over 3 end exponent minus x to the power of 1 third end exponent minus 10 equals 0"
+      },
+      {
+       "latex": "y=x^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space x to the power of 1 third end exponent"
+      },
+      {
+       "latex": "2y^{2}-y-10=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>y</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>-</mo><mo> </mo><mi>y</mi><mo> </mo><mo>-</mo><mo> </mo><mn>10</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 y to the power of 2 space end exponent minus space y space minus space 10 space equals space 0"
+      },
+      {
+       "latex": "y=\\frac{5}{2}\\mathrm{and}y=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo> </mo><mi>and</mi><mo> </mo><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals 5 over 2 space and space y space equals space minus 2"
+      },
+      {
+       "latex": "y=x^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space x to the power of 1 third end exponent"
+      },
+      {
+       "latex": "x^{\\frac{1}{3}}=\\frac{5}{2}\\mathrm{and}x^{\\frac{1}{3}}=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo> </mo><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo> </mo><mi>and</mi><mo> </mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x to the power of 1 third end exponent space equals 5 over 2 space and space x to the power of 1 third end exponent space equals space minus 2"
+      },
+      {
+       "latex": "x=\\frac{125}{8},x=-8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">125</mn></mrow><mn mathvariant=\"bold\">8</mn></mfrac><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold space bold equals fraction numerator bold space bold 125 over denominator bold 8 end fraction bold space bold comma bold space bold space bold italic x bold space bold equals bold space bold minus bold 8"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

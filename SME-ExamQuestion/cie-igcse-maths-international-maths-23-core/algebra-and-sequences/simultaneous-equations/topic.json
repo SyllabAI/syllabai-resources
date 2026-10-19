@@ -1,0 +1,1672 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:19:48Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/core",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "algebra-and-sequences",
+  "name": "Algebra & Sequences"
+ },
+ "topic": {
+  "id": "top_vZN5w6g969g2xHC5",
+  "slug": "simultaneous-equations",
+  "name": "Simultaneous Equations",
+  "order": 7
+ },
+ "subtopics": [
+  {
+   "slug": "solving-simultaneous-equations",
+   "name": "Solving Simultaneous Equations",
+   "revision_note_id": "rn_QJRwXT4qgH9SRbP2"
+  },
+  {
+   "slug": "forming-simultaneous-equations",
+   "name": "Forming Simultaneous Equations",
+   "revision_note_id": "rn_yYX72sVgfhWQspB5"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_MNqGX5kHzdx2Hmh3",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 15,
+   "questions_embedded": 15,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/algebra-and-sequences/simultaneous-equations/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 15,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/12/igcse-cie-mar-20-paper-3-q5biii.png": "001-igcse-cie-mar-20-paper-3-q5biii.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_NCHMTHk6x9KGsSPX",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_72CDXvCZ8VksKdhW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 4,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_bB34gNwvBJVq8KMM",
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "The Fraser family and the Singh family go to the cinema. \nThe Fraser family buys 6 adult tickets and 2 child tickets for \\$124. The Singh family buys 3 adult tickets and 5 child tickets for \\$100.\n\nFind the price of an adult ticket and the price of a child ticket.\n\nAdult ticket \\$ .....................................................\n\nChild ticket \\$ .................................................",
+     "solution_md": "> *Let *$a$* be the cost of an adult ticket, and *$c$* be the cost of a child ticket.*\n\n> *The Fraser family buy 6 adult tickets (*$6a$*) and 2 child tickets (*$2c$*) and their total cost is \\$124. We can write this as:*\n\n$6a+2c=124$\n\n* ***[1]**\n\n> *The Singh family buys 3 adult tickets (*$3a$*) and 5 child tickets (*$5c$*) and their total cost is \\$100. We can write this as:*\n\n$3a+5c=100$\n\n**[1]**\n\n> *Number the equations.*\n\n$6a+2c=124$*  **(1)*\n\n$3a+5c=100$*  (2)*\n\n* *\n\n> *Multiply all of the terms in equation (2) by 2 to make the coefficient of *$a$* the same in both equations.*\n\n* *$6a+10c=200$*  **(3)*\n\n* **Eliminate the *$a$* terms by subtracting equation 1 from equation 3.*\n\n`equation`\n\n**[1]**\n\n> *Solve *$8c=76$* by dividing both sides of the equation by 8.*\n\n$c=76\\div8\\,c=9.5$\n\n> * Substitute *$c=9.5$* into one of the original equations.*\n\n> * *`table row cell 6 a plus open parentheses 2 cross times 9.5 close parentheses end cell equals 124 row blank blank blank row cell 6 a plus 19 end cell equals 124 end table`\n\n> * Solve this equation to find *$a$*. Subtract 19 from both sides.*\n\n> * *$6a=124-19\\,6a=105$\n\n> *Divide both sides by 6.*\n\n$a=105\\div6\\,a=17.5$\n\n> * Write the answers to 2 decimal places, because the values are money.*\n\n**adult ticket **`bold equals bold $ bold 17 bold. bold 50`* ***[1]**\n**child ticket*** *`bold equals bold $ bold 9 bold. bold 50`* ***[1]**",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "6a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a"
+      },
+      {
+       "latex": "2c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 c"
+      },
+      {
+       "latex": "6a+2c=124",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>124</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a plus 2 c equals 124"
+      },
+      {
+       "latex": "3a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 a"
+      },
+      {
+       "latex": "5c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 c"
+      },
+      {
+       "latex": "3a+5c=100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>c</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 a plus 5 c equals 100"
+      },
+      {
+       "latex": "6a+2c=124",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>124</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a plus 2 c equals 124"
+      },
+      {
+       "latex": "3a+5c=100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>c</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 a plus 5 c equals 100"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "6a+10c=200",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>c</mi><mo>=</mo><mn>200</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a plus 10 c equals 200"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "8c=76",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>c</mi><mo>=</mo><mn>76</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 c equals 76"
+      },
+      {
+       "latex": "c=76\\div8\\,c=9.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>=</mo><mn>76</mn><mo>&#247;</mo><mn>8</mn><mspace linebreak=\"newline\"></mspace><mi>c</mi><mo>=</mo><mn>9</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c equals 76 divided by 8\nc equals 9.5"
+      },
+      {
+       "latex": "c=9.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>=</mo><mn>9</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c equals 9.5"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "6a=124-19\\,6a=105",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi><mo>=</mo><mn>124</mn><mo>-</mo><mn>19</mn><mspace linebreak=\"newline\"></mspace><mn>6</mn><mi>a</mi><mo>=</mo><mn>105</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a equals 124 minus 19\n6 a equals 105"
+      },
+      {
+       "latex": "a=105\\div6\\,a=17.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>105</mn><mo>&#247;</mo><mn>6</mn><mspace linebreak=\"newline\"></mspace><mi>a</mi><mo>=</mo><mn>17</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 105 divided by 6\na equals 17.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hyz7sr4g66DYRKVw",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_sttHvDB9WpPrFDg8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_bB34gNwvBJVq8KMM",
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A plant costs $p$ dollars and a bush costs $b$ dollars. \nAna buys 2 plants and 4 bushes for \\$42. \nPaola buys 7 plants and 9 bushes for \\$107.\n\nWrite down a pair of simultaneous equations and solve them to find the value of $p$ and the value of $b$.\n You must show all your working.\n\n$p=.................................................\\,b=.................................................$",
+     "solution_md": "> *Form an equation for Ana in terms of *$p$* and *$b$*.*\n\n* *$2p+4b=42$* **(equation 1)*\n\n**[1]**\n\n> *Form an equation for Paola.*\n\n* *$7p+9b=107$* **(equation 2)*\n\n* ***[1]**\n\n> *Multiply all the terms in equation 1 by 7 and all the terms in equation 2 by 2 to equate the *$p$* coefficients.*\n\n* *$14p+28b=294$* **(equation 3)*\n\n* *$14p+18b=214$* **(equation 4)*\n\n> * *\n\n**equating coefficients of **$p$** or **$b$** ****[1]**\n\n> *Subtract equation 4 from equation 3 to eliminate *$p$*.*\n\n> * *`equation`\n\n** eliminating one variable**** [1]**\n\n> *Solve *$10b=80$* by dividing both sides by 10.*\n\n> * *$b=80\\div10\\,\\,b=8$\n\n> * *\n\n> *Substitute *$b=8$* into one of the equations.*\n\n> * *`2 p plus open parentheses 4 cross times 8 close parentheses equals 42`\n\n> * Work out *$4\\times8$*, and subtract from both sides.*\n\n> * *$2p=42-32\\,\\,2p=10$\n\n> * *\n\n> *Divide both sides by 2 to solve for *$p$*.*\n\n> * *$p=10\\div2\\,\\,p=5$\n\n* *$p=5$* ***[1]**\n\n$b=8$** [1]**",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p=.................................................\\,b=.................................................",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><mspace linebreak=\"newline\"></mspace><mi>b</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p space equals space................................................. space\nb space equals space................................................. space"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "2p+4b=42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>p</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mn>42</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 p plus 4 b equals 42"
+      },
+      {
+       "latex": "7p+9b=107",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>p</mi><mo>+</mo><mn>9</mn><mi>b</mi><mo>=</mo><mn>107</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 p plus 9 b equals 107"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "14p+28b=294",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14</mn><mi>p</mi><mo>+</mo><mn>28</mn><mi>b</mi><mo>=</mo><mn>294</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "14 p plus 28 b equals 294"
+      },
+      {
+       "latex": "14p+18b=214",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14</mn><mi>p</mi><mo>+</mo><mn>18</mn><mi>b</mi><mo>=</mo><mn>214</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "14 p plus 18 b equals 214"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "10b=80",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mi>b</mi><mo>=</mo><mn>80</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 b equals 80"
+      },
+      {
+       "latex": "b=80\\div10\\,\\,b=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>80</mn><mo>&#247;</mo><mn>10</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>b</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 80 divided by 10\n\nb equals 8"
+      },
+      {
+       "latex": "b=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 8"
+      },
+      {
+       "latex": "4\\times8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>&#215;</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 cross times 8"
+      },
+      {
+       "latex": "2p=42-32\\,\\,2p=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>p</mi><mo>=</mo><mn>42</mn><mo>-</mo><mn>32</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mn>2</mn><mi>p</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 p equals 42 minus 32\n\n2 p equals 10"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p=10\\div2\\,\\,p=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mn>10</mn><mo>&#247;</mo><mn>2</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>p</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals 10 divided by 2\n\np equals 5"
+      },
+      {
+       "latex": "p=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic p bold equals bold 5"
+      },
+      {
+       "latex": "b=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic b bold equals bold 8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gMkPdS4PBbwmYFPc",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Rm24sd6gMCCwtwwG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "use",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/31",
+      "question_number": 8,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN",
+      "spcpt_bB34gNwvBJVq8KMM"
+     ],
+     "part_tier": null,
+     "problem_md": "Alphonse is $x$ years old and Beatrice is $y$ years old.\n\nThree times Alphonse’s age is equal to 5 times Beatrice’s age. Twice Beatrice’s age is 4 years more than Alphonse’s age.\n\ni) Use this information to write down two equations in $x$ and $y$.\n\n[2]\n\nii) Find the age of Alphonse and the age of Beatrice.\n\nAlphonse .................................. years old\n\nBeatrice .................................. years old [3]",
+     "solution_md": "(i) *Three times Alphonse’s age (*$3x$*) is **equal** to 5 times Beatrice’s age (*$5y$*). *\n\n$3x=5y$** [1] **\n\n> *Twice Beatrice’s age (*$2y$*) is 4 years more than Alphonse’s age (*$x+4$*).*\n\n* *$2y=x+4$* ***[1]**\n\n(ii) *Rearrange the equations so that *$x$* and *$y$* terms are on one side of the equals sign, and any constants are on the other.*\n\n> *Label the equations. *\n\n`table row cell 3 x minus 5 y end cell equals cell 0 space space open parentheses equation space 1 close parentheses end cell row blank blank blank row cell negative x plus 2 y end cell equals cell 4 space space open parentheses equation space 2 close parentheses end cell end table`\n\n> * *\n\n> *Multiply equation 2 by 3 to make the coefficients of *$x$* the same.*\n\n> * *`negative 3 x plus 6 y equals 12 space space open parentheses equation space 3 close parentheses`\n\n> * Add equation 1 and equation 3 to eliminate *$x$*.*\n\n> * *`table row cell space 3 x minus 5 y plus open parentheses negative 3 x plus 6 y close parentheses end cell equals cell 0 plus 12 end cell row cell space 3 x minus 3 x minus 5 y plus 6 y end cell equals cell 0 plus 12 end cell row y equals 12 end table`\n\n* ***eliminate one variable ****[1]**\n\n** **\n\n> *Substitute *$y=12$* into one of the equations.*\n\n> * *`table row cell 3 x minus open parentheses 5 cross times 12 close parentheses end cell equals 0 row blank blank blank row cell 3 x minus 60 end cell equals 0 end table`\n\n> * *\n\n> *Add 60 to both sides.*\n\n> * *$3x=0+60\\,\\,3x=60$\n\n> * Divide both sides by 3.*\n\n$x=60\\div3\\,\\,x=20$\n\n* *$x=20$* ***[1]**\n\n$y=12$** [1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 bold italic x"
+      },
+      {
+       "latex": "5y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 5 bold italic y"
+      },
+      {
+       "latex": "3x=5y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 bold italic x bold equals bold 5 bold italic y"
+      },
+      {
+       "latex": "2y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold italic y"
+      },
+      {
+       "latex": "x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold plus bold 4"
+      },
+      {
+       "latex": "2y=x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold italic y bold equals bold italic x bold plus bold 4"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 12"
+      },
+      {
+       "latex": "3x=0+60\\,\\,3x=60",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>0</mn><mo>+</mo><mn>60</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mn>3</mn><mi>x</mi><mo>=</mo><mn>60</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x equals 0 plus 60\n\n3 x equals 60"
+      },
+      {
+       "latex": "x=60\\div3\\,\\,x=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>60</mn><mo>&#247;</mo><mn>3</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>x</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 60 divided by 3\n\nx equals 20"
+      },
+      {
+       "latex": "x=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 20"
+      },
+      {
+       "latex": "y=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic y bold equals bold 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dCQHD7QDTN4pPz8Y",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_3V94gXk2CW7DsyqK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/32",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A cost to hire a minibus depends on the number of hours it is hired for, and the number of passengers. \nThe cost is \\$h per hour plus \\$p per passenger.\n\ni) When the minibus is hired for 3 hours with 10 passengers the cost is \\$61.\n\nComplete the equation.\n\n$3h+10p=$............................\n\n[1]\n\nii) When the minibus is hired for 5 hours with 8 passengers the cost is \\$80.\n\nWrite this information as an equation.\n\n[2]\n\niii) Solve your two simultaneous equations to find $h$ and $p$. You must show all your working.\n\n$h=$................................................\n\n$p=$................................................[4]",
+     "solution_md": "i) *The cost is equal to the combination of hours and passengers stated*\n\n**61** **[1]**\n\n** **ii) *5 hours and 8 passengers can be represented as *\n\n$5h+8p$\n\n**[1]**\n\n> *Use the same linear format for the equation as in part bi)*\n\n**5****h**** + 8****p**** = 80**** ****[1]**\n\n**  **\n\niii) *The two simultaneous equations to solve are*\n\n$3h+10p=61$\n\n$5h+8p=80$\n\n> *Multiply the first equation by 5 to make the coefficients of *$h$* the same*\n\n`open parentheses 5 cross times 3 h close parentheses plus open parentheses 5 cross times 10 p close parentheses equals open parentheses 5 cross times 61 close parentheses`\n\n$15h+50p=305$\n\n> *Multiply the second equation by 3 to make the coefficients of *$h$* the same*\n\n*  *`open parentheses 3 cross times 5 h close parentheses plus open parentheses 3 cross times 8 p close parentheses equals open parentheses 3 cross times 80 close parentheses`\n\n$15h+24p=240$\n\n**Equating coefficients of **$h$** or **$p$** [1]**\n\n*Eliminate the *$h$* term from each equation by subtracting one equation from the other*\n\n![igcse-cie-mar-20-paper-3-q5biii](assets/001-igcse-cie-mar-20-paper-3-q5biii.png)\n\n**Correctly eliminating **$h$** or **$p$** [1]**\n\n> *Solve the 1-step equation by dividing both sides by 26*\n\n$p=65\\div26=2.5$\n\n**Correctly finding **$p=2.5$**or **$h=12$** [1]**\n\n> *Substitute *$p=2.5$* into either of the two original equations and solve for *$h$\n\n`table row cell 3 h plus open parentheses 10 cross times 2.5 close parentheses end cell equals 61 end table`\n\n$3h+25=61$\n\n$3h=61-25$\n\n$3h=36$\n\n$h=\\frac{36}{3}$\n\n$h=12$\n\n* ***h**** = 12, ****p**** = 2.5 ****[1]**",
+     "equations": [
+      {
+       "latex": "3h+10p=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>h</mi><mo>+</mo><mn>10</mn><mi>p</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 h plus 10 p equals"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "h=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h equals"
+      },
+      {
+       "latex": "p=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals"
+      },
+      {
+       "latex": "5h+8p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>h</mi><mo>+</mo><mn>8</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 h plus 8 p"
+      },
+      {
+       "latex": "3h+10p=61",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>h</mi><mo>+</mo><mn>10</mn><mi>p</mi><mo>=</mo><mn>61</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 h plus 10 p equals 61"
+      },
+      {
+       "latex": "5h+8p=80",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>h</mi><mo>+</mo><mn>8</mn><mi>p</mi><mo>=</mo><mn>80</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 h plus 8 p equals 80"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "15h+50p=305",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mi>h</mi><mo>+</mo><mn>50</mn><mi>p</mi><mo>=</mo><mn>305</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 h plus 50 p equals 305"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "15h+24p=240",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mi>h</mi><mo>+</mo><mn>24</mn><mi>p</mi><mo>=</mo><mn>240</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 h plus 24 p equals 240"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p=65\\div26=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mn>65</mn><mo>&#247;</mo><mn>26</mn><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals 65 divided by 26 equals 2.5"
+      },
+      {
+       "latex": "p=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals 2.5"
+      },
+      {
+       "latex": "h=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h equals 12"
+      },
+      {
+       "latex": "p=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals 2.5"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "3h+25=61",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>h</mi><mo>+</mo><mn>25</mn><mo>=</mo><mn>61</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 h plus 25 equals 61"
+      },
+      {
+       "latex": "3h=61-25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>h</mi><mo>=</mo><mn>61</mn><mo>-</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 h equals 61 minus 25"
+      },
+      {
+       "latex": "3h=36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>h</mi><mo>=</mo><mn>36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 h equals 36"
+      },
+      {
+       "latex": "h=\\frac{36}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi><mo>=</mo><mfrac><mn>36</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h equals 36 over 3"
+      },
+      {
+       "latex": "h=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h equals 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6J6Vs74sJV8h4KfP",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3NR6FtPrksfJ6TzR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 20,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bB34gNwvBJVq8KMM",
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Des thinks of two numbers. \nThe sum of his two numbers is -6. \nThe difference between his two numbers is 62.\n\nFind the two numbers.\n\n..................... and .....................",
+     "solution_md": "> *Let one number be *$x$* and the other be *$y$*.*\n\n> *Write the sum of the numbers is -6 using *$x$* and *$y$*.*\n\n> * *$x+y=-6$\n\n**[1]**\n\n> *Write the difference of the numbers is 62 using *$x$* and *$y$*.*\n\n> * *$x-y=62$\n\n**[1]**\n\n> *Solve the two equations simultaneously by subtracting one from the other.*\n\n> * *`table row cell open parentheses x plus y close parentheses minus open parentheses x minus y close parentheses end cell equals cell negative 6 minus 62 end cell row cell 2 y end cell equals cell negative 68 end cell end table`\n\n> *Divide both sides of the equation by 2.*\n\n> * *$y=-68\\div2\\,\\,y=-34$\n\n* ***[1]**\n\n> *Substitute *$y=-34$* into one of the original equations.*\n\n> * *`table row cell x plus open parentheses negative 34 close parentheses end cell equals cell negative 6 end cell row cell x minus 34 end cell equals cell negative 6 end cell end table`\n\n> *Add 34 to both sides of the equation.*\n\n> * *$x=-6+34\\,\\,x=28$\n\n> * *\n\n**28 and -34**** ****[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x+y=-6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mo>-</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x plus y equals negative 6"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x-y=62",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mi>y</mi><mo>=</mo><mn>62</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus y equals 62"
+      },
+      {
+       "latex": "y=-68\\div2\\,\\,y=-34",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>68</mn><mo>&#247;</mo><mn>2</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>y</mi><mo>=</mo><mo>-</mo><mn>34</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals negative 68 divided by 2\n\ny equals negative 34"
+      },
+      {
+       "latex": "y=-34",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>34</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals negative 34"
+      },
+      {
+       "latex": "x=-6+34\\,\\,x=28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>6</mn><mo>+</mo><mn>34</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>x</mi><mo>=</mo><mn>28</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative 6 plus 34\n\nx equals 28"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pPsq7jFCyTGWRxDv",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_sHXtxjQzb7k9SBW3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop sells pens and notebooks. The cost of a pen is $p$ cents and the cost of a notebook is $n$ cents.\n\nOn Monday, the shop sells 5 pens and 4 notebooks for 450 cents.\n\nComplete the equation.\n\n$5p+4n=$..................",
+     "solution_md": "> *The cost is equal to the combination of pens and notebooks stated*\n\n$5p+4n=450$ **[1]**",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "5p+4n=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>4</mn><mo>&#160;</mo><mi>n</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 p space plus space 4 space n equals"
+      },
+      {
+       "latex": "5p+4n=450",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">450</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 5 bold italic p bold plus bold 4 bold italic n bold equals bold 450"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RX9gFMMDHS2fJ49f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "On Tuesday, the shop sells 10 pens and 3 notebooks for 525 cents.\n\nWrite this information as an equation.\n\n................................................ = .........................",
+     "solution_md": "> *10 pens and 3 notebooks can be represented as *\n\n> * *$10p+3n$\n\n**[1]**\n\n*Use the same linear format for the equation as in part a)*\n\n$10p+3n=525$ **[1]**",
+     "equations": [
+      {
+       "latex": "10p+3n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mi>p</mi><mo>+</mo><mn>3</mn><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 p plus 3 n"
+      },
+      {
+       "latex": "10p+3n=525",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">10</mn><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">525</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 10 bold italic p bold plus bold 3 bold italic n bold equals bold 525"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cVTGvVYgrBvKp3P5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA shop sells pens and notebooks. The cost of a pen is p cents and the cost of a notebook is n cents.\nOn Monday, the shop sells 5 pens and 4 notebooks for 450 cents.\nOn Tuesday, the shop sells 10 pens and 3 notebooks for 525 cents.\n\nSolve your two equations to find the cost of a pen and the cost of a notebook.\n\nYou must show all your working.\n\nCost of a pen = ...................................... cents  Cost of a notebook = ...................................... cents",
+     "solution_md": "> *The two simultaneous equations to solve are*\n\n> * *$5p+4n=450$\n\n$10p+3n=525$\n\n> *Multiply the first equation by 2 to make coefficients of *$p$* the same*\n\n> * *`open parentheses 2 cross times 5 p close parentheses plus open parentheses 2 cross times 4 n close parentheses equals open parentheses 2 cross times 450 close parentheses`\n\n$10p+8n=900$\n\n> *Eliminate the *$p$* term from each equation by subtracting one equation from the other*\n\n$\\frac{10p+8n=900\\,10p+3n=525-}{5n=375}$\n\n** [1]**\n\n> *Solve the 1-step equation by dividing both sides by 5*\n\n$n=75$\n\n*Substitute *$n=75$* into either of the two original equations and solve for *$p$* *\n\n`table row cell 10 p plus open parentheses 3 cross times 75 close parentheses end cell equals 525 row cell 10 p plus 225 end cell equals 525 row cell 10 p end cell equals cell 525 minus 225 end cell row cell 10 p end cell equals 300 row p equals cell 300 divided by 10 end cell row p equals 30 end table`\n\n**Cost of a pen = 30 cents**** ****[1]**** **\n**Cost of a notebook = 75 cents ****[1]**",
+     "equations": [
+      {
+       "latex": "5p+4n=450",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi><mo>+</mo><mn>4</mn><mi>n</mi><mo>=</mo><mn>450</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 p plus 4 n equals 450"
+      },
+      {
+       "latex": "10p+3n=525",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mi>p</mi><mo>+</mo><mn>3</mn><mi>n</mi><mo>=</mo><mn>525</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 p plus 3 n equals 525"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "10p+8n=900",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mi>p</mi><mo>+</mo><mn>8</mn><mi>n</mi><mo>=</mo><mn>900</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 p plus 8 n equals 900"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "\\frac{10p+8n=900\\,10p+3n=525-}{5n=375}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>10</mn><mi>p</mi><mo>+</mo><mn>8</mn><mi>n</mi><mo>=</mo><mn>900</mn><mspace linebreak=\"newline\"></mspace><mn>10</mn><mi>p</mi><mo>+</mo><mn>3</mn><mi>n</mi><mo>=</mo><mn>525</mn><mo>&#160;</mo><mo>-</mo></mrow><mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>5</mn><mi>n</mi><mo>=</mo><mn>375</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 10 p plus 8 n equals 900\n10 p plus 3 n equals 525 space minus over denominator space space space space space space space 5 n equals 375 end fraction"
+      },
+      {
+       "latex": "n=75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>75</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 75"
+      },
+      {
+       "latex": "n=75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>75</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 75"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kRs4ywB45tPwRFHq",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Nd5xXcBwcPFns3rw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/32",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations. You must show all your working.\n\n`table row cell 5 x minus 2 y end cell equals 44 row cell 2 x plus 3 y end cell equals 10 end table`\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell x space end cell equals cell space................................................. space end cell row cell y space end cell equals cell space................................................. space end cell end table`",
+     "solution_md": "> *Label the equations.*\n\n> * *`5 x minus 2 y equals 44 space space space open parentheses equation space 1 close parentheses\n\n2 x plus 3 y equals 10 space space space open parentheses equation space 2 close parentheses`\n\n> * *\n\n> *Multiply every terms in equation 1 by 2, and every term in equation 2 by 5, to make the coefficients of *$x$* the same.*\n\n> * *\n\n`table row cell 10 x minus 4 y end cell equals cell 88 space space space open parentheses equation space 3 close parentheses end cell row blank blank blank row cell 10 x plus 15 y end cell equals cell 50 space space space open parentheses equation space 4 close parentheses end cell end table`\n\n* ***[1]**\n\n> *Subtract equation 4 from equation 3 to eliminate *$x$*.*\n\n> * *`table row cell 10 x space minus 4 y minus open parentheses 10 x plus 15 y close parentheses end cell equals cell 88 minus 50 end cell row cell 10 x minus 10 x minus 4 y minus 15 y end cell equals cell 88 minus 50 end cell row cell negative 19 y end cell equals 38 end table`\n\n* ***[1]**\n\n> *Divide both sides of the equation by -19 to solve for *$y$*.*\n\n> * *`y equals 38 divided by open parentheses negative 19 close parentheses`\n\n$y=-2$* ***[1]**\n\n> *Substitute *$y=-2$* into one of the original equations and solve to find *$x$*.*\n\n> * *`table row cell 2 x plus open parentheses 3 cross times negative 2 close parentheses end cell equals 10 row blank blank blank row cell 2 x minus 6 end cell equals 10 end table`\n\n> * *\n\n> *Add 6 to both sides.*\n\n> * *$2x=10+6\\,\\,2x=16$\n\n> * *\n\n> *Divide both sides by 2.*\n\n> * *$x=16\\div2$\n\n$x=8$* ***[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic y bold equals bold minus bold 2"
+      },
+      {
+       "latex": "y=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals negative 2"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "2x=10+6\\,\\,2x=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>10</mn><mo>+</mo><mn>6</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mn>2</mn><mi>x</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x equals 10 plus 6\n\n2 x equals 16"
+      },
+      {
+       "latex": "x=16\\div2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>16</mn><mo>&#247;</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 16 divided by 2"
+      },
+      {
+       "latex": "x=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GnNHdX2YJpkTFcx8",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9xVPh4YzzhM4GMZc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 23,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations.\n\nYou must show all your working.\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 x plus 4 y end cell equals 10 row cell 7 x minus 6 y end cell equals 43 end table`\n\n$x=...................................................\\,y=...................................................$",
+     "solution_md": "> *To eliminate one of the variables, either the **x** or **y** variable needs to have the same coefficient in each equation. *\n\n> *Number the equations*\n\n`5 x space plus thin space 4 y space equals space 10 space space space space space space space circle enclose 1\n7 x space minus space 6 y space equals space 43 space space space space space space space circle enclose 2`\n\n> *Make the **y **coefficients the same. Find the lowest common multiple of 4 and 6 which is 12.*\n\n> *Multiply everything in equation (1) by 3 and everything in equation (2) by 2.*\n\n`15 x space plus thin space 12 y space equals space 30 space space space space space space space circle enclose 3\n14 x space minus space 12 y space equals space 86 space space space space space space space circle enclose 4`\n\n**[1]**\n\n> *Add the equations together to eliminate the **y** variable.*\n\n$29x=116$\n\n**[1]**\n\n> *Divide both sides by 29*\n\n$x=4$* ***[1]**\n\n> *To find the value of **y**, substitute the value of **x** into one of the other equations.*\n\n$5\\times4+4y=10$\n\n$20+4y=10$\n\n> *Subtract 20 from both sides*\n\n$4y=-10$\n\n> *Divide both sides by 4*\n\n$y=-2.5$* ***[1]**",
+     "equations": [
+      {
+       "latex": "x=...................................................\\,y=...................................................",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><mspace linebreak=\"newline\"></mspace><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space................................................... space\ny space equals space................................................... space"
+      },
+      {
+       "latex": "29x=116",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>29</mn><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>116</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "29 x space equals space 116"
+      },
+      {
+       "latex": "x=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">&#160;</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold space bold equals bold space bold 4"
+      },
+      {
+       "latex": "5\\times4+4y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>4</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>4</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 space cross times space 4 space plus thin space 4 y space equals space 10"
+      },
+      {
+       "latex": "20+4y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>4</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 space plus thin space 4 y space equals space 10"
+      },
+      {
+       "latex": "4y=-10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 y space equals space minus 10"
+      },
+      {
+       "latex": "y=-2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic y bold space bold equals bold space bold minus bold 2 bold. bold 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gKdbfpzXWF4zjzxz",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_K8Dvt63PHW8QNtwQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "May/June 2018",
+      "number": "0580/32",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bB34gNwvBJVq8KMM",
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Beindu goes to the market to buy apples and bananas.\n\nShe can buy\n\n- 7 apples and 4 bananas for 85 cents\n\nor\n\n- 3 apples and 8 bananas for 93 cents.\n\nApples cost $a$ cents each and bananas cost $b$ cents each.\n\ni) This information can be used to write down two equations. One of these is $7a+4b=85$. Write down the other equation.\n\n....................... = ............... [2]\n\nii) Solve these two simultaneous equations. You must show all your working.\n\na = .................................\n\nb = .................................  [3]",
+     "solution_md": "(i) *3 apples *`open parentheses a close parentheses`* and 8 bananas *`open parentheses b close parentheses`* cost 93 cents*\n\n$3a+8b=93$ **[2]** \n**1 mark for each side of equation**\n\n(ii) *The two equations are*\n\n`table row cell 7 a plus 4 b end cell equals 85 row cell 3 a plus 8 b end cell equals 93 end table`\n\n> *Multiply the first equation by 2, so the coefficients of *$b$* match*\n\n`table row cell 14 a plus 8 b end cell equals 170 row cell 3 a plus 8 b end cell equals 93 end table`\n\n> *Subtract the second equation from the first equation to eliminate *$b$\n\n$11a=77$\n\n**Eliminating either variable**** [1]**\n\n> *Divide both sides by 11 to find *$a$\n\n$a=7$\n\n**Either variable found ****[1]**\n\n> *Substitute into the first equation, *$7a+4b=85$*, and solve to find *$b$\n\n`table row cell 7 open parentheses 7 close parentheses plus 4 b end cell equals 85 row cell 49 plus 4 b end cell equals 85 row cell 4 b end cell equals 36 row b equals 9 end table`\n\n$a=7$ \n$b=9$\n\n**Both variables found ****[1]**",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "7a+4b=85",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mn>4</mn><mi>b</mi><mo> </mo><mo>=</mo><mo> </mo><mn>85</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 a space plus space 4 b space equals space 85"
+      },
+      {
+       "latex": "3a+8b=93",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">8</mn><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">93</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 bold italic a bold plus bold 8 bold italic b bold equals bold 93"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "11a=77",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>11</mn><mi>a</mi><mo>=</mo><mn>77</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "11 a equals 77"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 7"
+      },
+      {
+       "latex": "7a+4b=85",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mn>85</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 a plus 4 b equals 85"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 7"
+      },
+      {
+       "latex": "b=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic b bold equals bold 9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5X3tsgdrsxM3Smxs",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6kqbbpB4XrWz5ccD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/32",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "The equations of two straight lines are $y=3x+13$ and $y=7x-3$.\n\nUse algebra to solve these two simultaneous equations to find the co-ordinates of the point where the lines meet.\nYou must show all your working.",
+     "solution_md": "> *As both equations are equivalent to *$y$*, they are equal to each other*\n\n$3x+13=7x-3$\n\n**[1]**\n\n> *Solve this equation for *$x$\n\n$13=7x-3-3x$\n\n$13=4x-3$\n\n$13+3=4x$\n\n$16=4x$\n\n$x=16\\div4=4$\n\n**[1]**\n\n> *Substitute *$x=4$* into one of the two straight line equations and solve for *$y$\n\n$y=3\\times4+13$\n\n$y=12+13=25$\n\n**(4, 25)**** ****[1]**",
+     "equations": [
+      {
+       "latex": "y=3x+13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 3 x plus 13"
+      },
+      {
+       "latex": "y=7x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 7 x minus 3"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "3x+13=7x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>13</mn><mo>=</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x plus 13 equals 7 x minus 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "13=7x-3-3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>=</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>3</mn><mo>-</mo><mn>3</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13 equals 7 x minus 3 minus 3 x"
+      },
+      {
+       "latex": "13=4x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13 equals 4 x minus 3"
+      },
+      {
+       "latex": "13+3=4x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13 plus 3 equals 4 x"
+      },
+      {
+       "latex": "16=4x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>=</mo><mn>4</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 equals 4 x"
+      },
+      {
+       "latex": "x=16\\div4=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>16</mn><mo>&#247;</mo><mn>4</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 16 divided by 4 equals 4"
+      },
+      {
+       "latex": "x=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 4"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y=3\\times4+13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>4</mn><mo>+</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 3 cross times 4 plus 13"
+      },
+      {
+       "latex": "y=12+13=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>12</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 12 plus 13 equals 25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SMbfDphRbx3F9Psm",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XVgmgMxqH37fNwDt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 23,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations.\n\nYou must show all your working.\n\n`table row cell 3 x minus 8 y end cell equals 22 row cell x plus 4 y end cell equals 4 end table`\n\n$x=......................................\\,y=......................................$",
+     "solution_md": "> *Label the equations.*\n\n> * *`table row cell 3 x minus 8 y end cell equals cell 22 space space space open parentheses equation space 1 close parentheses end cell row cell x plus 4 y end cell equals cell 4 space space space space space space open parentheses equation space 2 close parentheses end cell end table`\n\n> * Multiply all the terms in equation 2 by 3.*\n\n> * *`3 x plus 12 y equals 12 space space space open parentheses equation space 3 close parentheses`\n\n> *Subtract equation 3 from equation 1 to eliminate *$x$*.*\n\n> * *`equation`\n\n* ***[1]**\n\n> *Solve *$-20y=10$* by dividing both sides by -20.*\n\n> * *$y=\\frac{10}{-20}=-0.5$\n\n* *$y=-0.5$* ***[1]**\n\n> *Substitute *$y=-0.5$* into one of the equations to find *$x$*.*\n\n> * *`table row cell x plus open parentheses 4 cross times negative 0.5 close parentheses end cell equals 4 row blank blank blank row cell x minus 2 end cell equals 4 end table`\n\n> *Add 2 to both sides.*\n\n$x=4+2$\n\n* *$x=6$* ***[1]**",
+     "equations": [
+      {
+       "latex": "x=......................................\\,y=......................................",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><mspace linebreak=\"newline\"></mspace><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space...................................... space\ny space equals space...................................... space"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "-20y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>20</mn><mi>y</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 20 y equals 10"
+      },
+      {
+       "latex": "y=\\frac{10}{-20}=-0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>10</mn><mrow><mo>-</mo><mn>20</mn></mrow></mfrac><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals fraction numerator 10 over denominator negative 20 end fraction equals negative 0.5"
+      },
+      {
+       "latex": "y=-0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic y bold equals bold minus bold 0 bold. bold 5"
+      },
+      {
+       "latex": "y=-0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals negative 0.5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x=4+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 4 plus 2"
+      },
+      {
+       "latex": "x=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RssRCVfPVJKs86GV",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wyhtN6dy3ZcjKmFg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "May/June 2019",
+      "number": "0580/13",
+      "question_number": 20,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations.\n\nYou must show all your working.\n\n$5x-2y=26\\,7x+6y=10$\n\n$x=$............................\n\n$y=$............................",
+     "solution_md": "> *Equate coefficients of *$y$* by multiplying the first equation by *$3$\n\n$5x\\times3-2y\\times3=26\\times3$\n\n$15x-6y=78$\n\n> *As one coefficient of *$y$* is the negative of the other coefficient of *$y$*, add the two equations together to eliminate *$y$*and solve for *$x$\n\n$15x-6y=78\\,\\frac{7x+6y=10+}{22x=88}$\n\n**[1]**\n\n$x=88\\div22=4$\n\n**[1]**\n\n> *Substitute *$x=4$* into either equation and solve for *$y$\n\n$7\\times4+6y=10$\n\n$28+6y=10$\n\n$6y=10-28$\n\n$6y=-18$\n\n$y=-18\\div6=-3$\n\n$x=4,y=-3$** [1]**",
+     "equations": [
+      {
+       "latex": "5x-2y=26\\,7x+6y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>x</mi><mo>-</mo><mn>2</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>26</mn><mspace linebreak=\"newline\"></mspace><mn>7</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 x minus 2 y space equals space 26\n7 x plus 6 y space equals space 10"
+      },
+      {
+       "latex": "x=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals"
+      },
+      {
+       "latex": "y=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>3</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3"
+      },
+      {
+       "latex": "5x\\times3-2y\\times3=26\\times3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>x</mi><mo>&#215;</mo><mn>3</mn><mo>-</mo><mn>2</mn><mi>y</mi><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>26</mn><mo>&#215;</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 x cross times 3 minus 2 y cross times 3 equals 26 cross times 3"
+      },
+      {
+       "latex": "15x-6y=78",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mi>x</mi><mo>-</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>78</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 x minus 6 y equals 78"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "15x-6y=78\\,\\frac{7x+6y=10+}{22x=88}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mi>x</mi><mo>-</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>78</mn><mspace linebreak=\"newline\"></mspace><mfrac><mrow><mo>&#160;</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>10</mn><mo>&#160;</mo><mo>+</mo></mrow><mrow><mn>22</mn><mi>x</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mn>88</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 x minus 6 y equals 78\nfraction numerator space 7 x plus 6 y equals 10 space plus over denominator 22 x space space space space space space space equals 88 space space space space space end fraction"
+      },
+      {
+       "latex": "x=88\\div22=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>88</mn><mo>&#247;</mo><mn>22</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 88 divided by 22 equals 4"
+      },
+      {
+       "latex": "x=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 4"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "7\\times4+6y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#215;</mo><mn>4</mn><mo>+</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 cross times 4 plus 6 y equals 10"
+      },
+      {
+       "latex": "28+6y=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>28</mn><mo>+</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "28 plus 6 y equals 10"
+      },
+      {
+       "latex": "6y=10-28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>y</mi><mo>=</mo><mn>10</mn><mo>-</mo><mn>28</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 y equals 10 minus 28"
+      },
+      {
+       "latex": "6y=-18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>y</mi><mo>=</mo><mo>-</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 y equals negative 18"
+      },
+      {
+       "latex": "y=-18\\div6=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>18</mn><mo>&#247;</mo><mn>6</mn><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals negative 18 divided by 6 equals negative 3"
+      },
+      {
+       "latex": "x=4,y=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 4 bold comma bold space bold space bold italic y bold equals bold minus bold 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RfKBM97nNJvHGvrP",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2Hr4kxtxFzC5ZkDv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/33",
+      "question_number": 5,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_KHyJQphnVvh4cdZF",
+      "spcpt_6tmCTQJYPsTdKKZ6"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations.\n You must show all your working.\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x minus y end cell equals 22 row cell x plus 2 y end cell equals 5 end table`\n\n$x=...................................................\\,y=...................................................$",
+     "solution_md": "> *Multiply the first equation by 2 in order to eliminate the **y** variable*\n\n$6x-2y=44\\,x+2y=5$\n\n**[1]**\n\n> *Add the equations together*\n\n$7x=49$\n\n> *Divide by 7*\n\n$x=7$\n\n**x ****= 7**** ****[1]**\n\n> *Substitute into one of the equations*\n\n$7+2y=5$\n\n> *Subtract 7 from both sides*\n\n$2y=-2$\n\n> *Divide both sides by 2*\n\n$y=-1$\n\n**y**** = -1**** ****[1]**",
+     "equations": [
+      {
+       "latex": "x=...................................................\\,y=...................................................",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><mspace linebreak=\"newline\"></mspace><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space................................................... space\ny space equals space................................................... space"
+      },
+      {
+       "latex": "6x-2y=44\\,x+2y=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>x</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>2</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>44</mn><mspace linebreak=\"newline\"></mspace><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>2</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x space minus space 2 y space equals space 44\nspace space x space plus thin space 2 y space equals space 5"
+      },
+      {
+       "latex": "7x=49",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>49</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 x space equals space 49"
+      },
+      {
+       "latex": "x=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space 7"
+      },
+      {
+       "latex": "7+2y=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>2</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 space plus space 2 y space equals space 5"
+      },
+      {
+       "latex": "2y=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 y space equals space minus 2"
+      },
+      {
+       "latex": "y=-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space minus 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GY4dyG4FHZVPbJmW",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_bD2yvJ5sYxMkCQXZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 22,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_bB34gNwvBJVq8KMM"
+     ],
+     "part_tier": null,
+     "problem_md": "Esme buys $x$ magazines at \\$2.45 each and y cards at \\$3.15 each.\n\nWrite down an expression, in terms of $x$ and $y$, for the total cost, in dollars, of the magazines and the cards.\n\n\\$ ...................................................",
+     "solution_md": "> *Esme will have **x** lots of \\$2.45 and **y** lots of \\$3.15. Write these as a sum but do not add them together as they are not like terms.*\n\n$2.45x+3.15y$ **[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2.45x+3.15y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">45</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\">&#8201;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">15</mn><mi mathvariant=\"bold-italic\">y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold. bold 45 bold italic x bold space bold plus bold thin space bold 3 bold. bold 15 bold italic y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5wK3w6KWp9Z8XdYm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "how",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 22,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEsme buys x magazines at \\$2.45 each and y cards at \\$3.15 each.\n\nEsme spends \\$60.55 in total. \nShe buys 8 magazines.\n\nHow many cards does she buy?",
+     "solution_md": "> *One magazine costs \\$2.45. Find the cost of 8 magazines.*\n\n`8 space cross times space $ 2.45 space equals space $ 19.60`\n\n> *Esme spent \\$60.55 in total so subtract the cost of the magazines to find out how much she spent on cards.*\n\n`$ 60.55 space minus space $ 19.60 space equals space $ 40.95`\n\n**[1]**\n\n> *To work out how many cards she bought, divide the total cost of the cards by the cost of one card.*\n\n`$ 40.95 space divided by space $ 3.15 space equals space 13`\n\n**13 ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_D9yf9Vc7vQb3BR4n",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_S7NX2HY99DPKqqqx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 20,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations. You must show all your working.\n\n`table row cell 6 x minus 3 y space end cell equals 12 row cell 2 x space plus space 3 y space end cell equals 16 end table`\n\n$x=$ .................................\n\n$y=$ .................................",
+     "solution_md": "> *As one coefficient of *$y$* is the negative of the other coefficient of *$y$*, add the two equations to eliminate *$y$\n\n$\\frac{6x-3y=12\\,2x+3y=16+}{8x=28}$\n\n**[1]**\n\n$x=28\\div8=3.5$\n\n> *Substitute *$x=3.5$* into either of the two equations and solve for *$y$\n\n$2\\times3.5+3y=16$\n\n$7+3y=16$\n\n$3y=16-7$\n\n$3y=9$\n\n$y=9\\div3=3$\n\n$x=3.5$** ****and **$y=3$** ****[1]**",
+     "equations": [
+      {
+       "latex": "x=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals"
+      },
+      {
+       "latex": "y=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>&#160;</mo><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\frac{6x-3y=12\\,2x+3y=16+}{8x=28}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>6</mn><mi>x</mi><mo>-</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>12</mn><mspace linebreak=\"newline\"></mspace><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>16</mn><mo>&#160;</mo><mo>+</mo></mrow><mrow><mn>8</mn><mi>x</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mn>28</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 6 x minus 3 y equals 12\n2 x plus 3 y equals 16 space plus over denominator 8 x space space space space space space space space space equals 28 space space space space end fraction"
+      },
+      {
+       "latex": "x=28\\div8=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>28</mn><mo>&#247;</mo><mn>8</mn><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 28 divided by 8 equals 3.5"
+      },
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 3.5"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2\\times3.5+3y=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>+</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 cross times 3.5 plus 3 y equals 16"
+      },
+      {
+       "latex": "7+3y=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>+</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 plus 3 y equals 16"
+      },
+      {
+       "latex": "3y=16-7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>y</mi><mo>=</mo><mn>16</mn><mo>-</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 y equals 16 minus 7"
+      },
+      {
+       "latex": "3y=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>y</mi><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 y equals 9"
+      },
+      {
+       "latex": "y=9\\div3=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>9</mn><mo>&#247;</mo><mn>3</mn><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 9 divided by 3 equals 3"
+      },
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 3 bold. bold 5"
+      },
+      {
+       "latex": "y=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic y bold equals bold 3"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

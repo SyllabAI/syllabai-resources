@@ -1,0 +1,695 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:55:23Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "5-chemical-energetics",
+  "name": "5. Chemical Energetics"
+ },
+ "topic": {
+  "id": "top_rTkr3ySgYNsddf4w",
+  "slug": "5-2-hesss-law",
+  "name": "Hess’s Law",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "hesss-law",
+   "name": "Hess’s Law",
+   "revision_note_id": "rn_ftMpjmDTBMSqN5Dt"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_hrsspNQXn9YPGHtx",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 12,
+   "questions_embedded": 12,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/5-chemical-energetics/5-2-hesss-law/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 12,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/03/q10_5-2_ib_sl_easy_mcq.png": "001-hess-s-law-enthalpy-cycle-for-the-conversion-of-.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/2-3-h-2.JPG": "002-hess-s-law-cycle-for-the-formation-of-1-mol-of-i.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-h-8.JPG": "003-hess-s-law-cycle-for-the-formation-of-1-mol-of-i.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-e-2.JPG": "004-hess-s-law-enthalpy-cycle-for-the-combustion-of-.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-h-9.JPG": "005-hess-s-law-cycle-showing-the-route-from-co-2-g-a.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_ykVmfYpT29ZhWzk8",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wvKfZxhnFf5cXcch",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows a Hess's law cycle for the conversion of graphite to diamond.\n\n![Hess's law enthalpy cycle for the conversion of graphite to diamond, showing ΔH~1~ for combustion of graphite, ΔH~2~ for combustion of diamond, and ΔH~r~ for the graphite to diamond conversion](assets/001-hess-s-law-enthalpy-cycle-for-the-conversion-of-.png)\n\nWhich equation represents ΔH<sub>r</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is B because:**\n\n- To calculate Δ*H*<sub>r</sub> using Hess's law, find an alternative route through the cycle:\n- Travel along Δ*H*<sub>1</sub> in the same direction = add Δ*H*<sub>1</sub>\n- Travel along Δ*H*<sub>2</sub> in the opposite direction = subtract Δ*H*<sub>2</sub>\n- This gives Δ*H*<sub>r</sub> = Δ*H*<sub>1</sub> − Δ*H*<sub>2</sub>\n\n**A **is incorrect as it adds both enthalpy changes rather than subtracting Δ*H*<sub>2</sub>.\n\n**C **is incorrect as the signs of Δ*H*<sub>1</sub> and Δ*H*<sub>2</sub> are reversed. It is Δ*H*<sub>1</sub> − Δ*H*<sub>2</sub>, not Δ*H*<sub>2</sub> − Δ*H*<sub>1</sub>.\n\n**D **is incorrect as it reverses both arrows, giving a negative sum. Only Δ*H*<sub>2</sub> is reversed in the correct route.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub> = Δ*H*<sub>1</sub> + Δ*H*<sub>2</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Δ*H*<sub>r</sub> = Δ*H*<sub>1</sub> − Δ*H*<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub> = Δ*H*<sub>2</sub> − Δ*H*<sub>1</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub> = −(Δ*H*<sub>1</sub> + Δ*H*<sub>2</sub>)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zGZStfb6PTHGJN2b",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_K2njpn4pb4H57W7F",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "A student calculated the standard enthalpy change of formation of propane, C<sub>3</sub>H<sub>8</sub>, using the standard enthalpy changes of combustion shown.\n\n| **Substance** | Δ*H*<sub>*c*</sub><sup>θ</sup>** / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| C<sub>3</sub>H<sub>8</sub> (g) | −2220 |\n| H<sub>2</sub> (g) | −286 |\n| C (s) | Y |\n\nThe student used an incorrect value, Y, for the standard enthalpy change of combustion of carbon but performed the calculation correctly. The final answer obtained was −158 kJ mol<sup>−1</sup>.\n\nWhat value did the student use for the standard enthalpy change of combustion of carbon?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Known quantities:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(C<sub>3</sub>H<sub>8</sub>) = −158 kJ mol<sup>−1</sup> (the student's calculated answer)\n  - Δ*H*<sub>c</sub><sup>θ</sup>(C<sub>3</sub>H<sub>8</sub>) = −2220 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>c</sub><sup>θ</sup>(H<sub>2</sub>) = −286 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>c</sub><sup>θ</sup>(C) = Y kJ mol<sup>−1</sup> (unknown)\n- Calculate Y using the Hess's law formation expression:\n\nΔ*H*<sub>f</sub><sup>θ</sup>(C<sub>3</sub>H<sub>8</sub>) = ΣΔ*H*<sub>c</sub><sup>θ</sup>(elements) − Δ*H*<sub>c</sub><sup>θ</sup>(compound)\n\n−158 = [3Y + 4 × (−286)] − (−2220)\n\n−158 = 3Y − 1144 + 2220\n\n−158 = 3Y + 1076\n\n3Y = −1234\n\nY = −1234 ÷ 3 = **−411 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it gives −1234 kJ mol<sup>−1</sup>, which is the value of 3Y before dividing by the stoichiometric coefficient of carbon.\n\n**B** is incorrect as it uses only 1 mol of H<sub>2</sub> instead of 4 mol in the combustion equation for propane: [3Y + 1 × (−286)] − (−2220) = −158 gives Y = −697 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it inverts the Hess cycle expression, subtracting the element combustion enthalpies from the compound combustion enthalpy: (−2220) − [3Y + 4(−286)] = −158 gives Y = −306 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "−1234 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−697 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "−411 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "−306 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yvydgfQ8hyvfSpTd",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fwpn7wT3GgNw46qc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "The first stage in the industrial production of nitric acid from ammonia can be represented by the following equation.\n\n4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) ⇌ 4NO (g) + 6H<sub>2</sub>O (g)\n\nUsing the following standard enthalpy change of formation data, what is the standard enthalpy change of reaction, Δ*H*<sub>r</sub><sup>θ</sup>, for this reaction?\n\n| **Compound** | ***∆H***<sub>**f**</sub><sup>**θ**</sup>** /kJ mol**<sup>**–1**</sup> |\n|---|---|\n| NH<sub>3</sub> (g) | −51.3 |\n| NO (g) | +92.2 |\n| H<sub>2</sub>O (g) | −239.6 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Known quantities:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(NH<sub>3</sub> (g)) = −51.3 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(NO (g)) = +92.2 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O (g)) = −239.6 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(O<sub>2</sub> (g)) = 0 (element in standard state)\n- Calculate Δ*H*<sub>r</sub><sup>θ</sup> for 4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) ⇌ 4NO (g) + 6H<sub>2</sub>O (g):\n\nΔ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(products) = 4(+92.2) + 6(−239.6) = +368.8 + (−1437.6) = −1068.8 kJ\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants) = 4(−51.3) + 5(0) = −205.2 kJ\n\nΔ*H*<sub>r</sub><sup>θ</sup> = −1068.8 − (−205.2) = −1068.8 + 205.2 = **−863.6 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it gives +863.6 kJ mol<sup>−1</sup>, which has the correct magnitude but the wrong sign. This is caused by reversing the products and reactants in the formula: (−205.2) − (−1068.8) = +863.6 kJ mol<sup>−1</sup>.\n\n**B** is incorrect as it gives −1601.2 kJ mol<sup>−1</sup>. This is caused by an error in the stoichiometric coefficients applied to the product enthalpies.\n\n**D** is incorrect as it gives −1274.0 kJ mol<sup>−1</sup>. This is caused by from treating Δ*H*<sub>f</sub><sup>θ</sup>(NH<sub>3</sub>) as positive (+51.3) instead of negative: −1068.8 − (+205.2) = −1274.0 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "+ 863.6 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "- 1601.2 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "- 863.6 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "- 1274.0 kJ mol<sup>–1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_y6NPMq9MD996zmF6",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7yHcJzkbvRNfqJfP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "The combustion of ethanol is increasingly being used to fuel cars.\n\n| **Substance** | Δ*H*<sub>f</sub><sup>θ</sup>** / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| CO<sub>2</sub> (g) | −382 |\n| H<sub>2</sub>O (g) | −275 |\n| C<sub>2</sub>H<sub>5</sub>OH (l) | −266 |\n\nWhat is the standard enthalpy change of combustion, Δ*H*<sub>c</sub><sup>θ</sup>, of ethanol?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Known quantities:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(CO<sub>2</sub> (g)) = −382 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O (g)) = −275 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(C<sub>2</sub>H<sub>5</sub>OH (l)) = −266 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(O<sub>2</sub> (g)) = 0 (element in standard state)\n- Combustion equation:\n\nC<sub>2</sub>H<sub>5</sub>OH (l) + 3O<sub>2</sub> (g) → 2CO<sub>2</sub> (g) + 3H<sub>2</sub>O (g)\n\n- Calculate Δ*H*<sub>c</sub><sup>θ</sup>(C<sub>2</sub>H<sub>5</sub>OH):\n\nΔ*H*<sub>c</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(products) = 2(−382) + 3(−275) = −764 + (−825) = −1589 kJ\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants) = (−266) + 3(0) = −266 kJ\n\nΔ*H*<sub>c</sub><sup>θ</sup> = (−1589) − (−266) = −1589 + 266 = **−1323 kJ mol**<sup>**−1**</sup>\n\n**B** is incorrect as it uses 1 mol of CO<sub>2</sub> and 1 mol of H<sub>2</sub>O instead of the correct 2 and 3: [(−382) + (−275)] − (−266) = −657 + 266 = −391 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it inverts the formula and uses 1 mol of each product: (−266) − [(−382) + (−275)] = −266 + 657 = +391 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it inverts the formula with the correct stoichiometry: (−266) − (−1589) = +1323 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "−1323 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−391 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+391 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+1323 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rw4R5XyMvCmdTRyy",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_C7nbVjzdRF5ycrgB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw",
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Iodine trichloride, ICl<sub>3</sub>, is made by reacting iodine with chlorine.\n\nI<sub>2</sub> (s) + Cl<sub>2</sub> (g) → 2ICl (s)   Δ*H*<sup>θ</sup> = +14 kJ mol<sup>–1</sup>\n\nICl (s) + Cl<sub>2</sub> (g) → ICl<sub>3</sub> (s)   Δ*H*<sup>θ</sup> = –88 kJ mol<sup>–1</sup>\n\nWhat is the standard enthalpy change of formation, Δ*H*<sub>f</sub><sup>θ</sup>, of solid iodine trichloride?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Known quantities:\n\n  - I<sub>2</sub> (s) + Cl<sub>2</sub> (g) → 2ICl (s): Δ*H*<sup>θ</sup> = +14 kJ mol<sup>−1</sup> (equation 1)\n  - ICl (s) + Cl<sub>2</sub> (g) → ICl<sub>3</sub> (s): Δ*H*<sup>θ</sup> = −88 kJ mol<sup>−1</sup> (equation 2)\n- Target:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub> (s)) for 1 mol, from I<sub>2</sub> (s) and Cl<sub>2</sub> (g)\n- Equation 1 produces 2 mol of ICl (s); halve it to give 1 mol of ICl (s) as intermediate ![Hess's law cycle for the formation of 1 mol of ICl~3~ (s) from I~2~ (s) and Cl~2~ (g), showing the intermediate formation of ICl (s) via two steps](assets/002-hess-s-law-cycle-for-the-formation-of-1-mol-of-i.jpg)\n- Halved equation 1:\n\n½ × (+14) = +7 kJ mol<sup>−1</sup>\n\n- Equation 2 as written:\n\n−88 kJ mol<sup>−1</sup>\n\n- Calculate Δ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub>):\n\nΔ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub>) = +7 + (−88) = **−81 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it uses the full first equation and applies equation 2 twice: +14 + 2(−88) = −162 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it uses the full first equation without halving: +14 + (−88) = −74 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it gives −60 kJ mol<sup>−1</sup>, arising from an incorrect combination of the two equations without the required halving adjustment.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "–162 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "–81 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "–74 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "–60 kJ mol<sup>–1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qsV659YkqQdGrbH2",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Mk8PztB7Tv5QR8ZJ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation calculates enthalpy of reaction using enthalpy of formation data?",
+     "solution_md": "**Final answer:** **The correct answer is B because:**\n\n- To calculate Δ*H*<sub>r</sub><sup>θ</sup> using standard enthalpy of formation data, use products minus reactants:\n- Δ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)\n\n** **A is incorrect as it adds the formation enthalpies of products and reactants rather than subtracting.\n\n**C **is incorrect as the products and reactants are the wrong way around.\n\n**D **is incorrect as the correct formula subtracts the reactant formation enthalpies from the product formation enthalpies.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) + ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Δ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(products)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Δ*H*<sub>r</sub><sup>θ</sup> = −ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HxpVcFjDPrxhZtyJ",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JqT7gKh6ymfzx3X5",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Given the following standard enthalpy changes,\n\nI<sub>2</sub> (s) → I<sub>2</sub> (g)   ∆H<sup>Ɵ</sup> = +38 kJ mol<sup>–1</sup>\n\nI<sub>2</sub> (g) + 3Cl<sub>2</sub> (g) → 2ICl<sub>3</sub> (s)   ∆H<sup>Ɵ</sup> = –214 kJ mol<sup>–1</sup>\n\nWhat is the standard enthalpy change of formation, Δ*H*<sub>f</sub><sup>θ</sup>, of ICl<sub>3</sub> (s)?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Known quantities:\n- I<sub>2</sub> (s) → I<sub>2</sub> (g): Δ*H*<sup>θ</sup> = +38 kJ mol<sup>−1</sup>\n- I<sub>2</sub> (g) + 3Cl<sub>2</sub> (g) → 2ICl<sub>3</sub> (s): Δ*H*<sup>θ</sup> = −214 kJ mol<sup>−1</sup>\n- Target: Δ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub> (s)) for 1 mol, from I<sub>2</sub> (s) and Cl<sub>2</sub> (g)\n\n- Both equations produce 2 mol of ICl<sub>3</sub> (s); halve each to give 1 mol\n\n![Hess's law cycle for the formation of 1 mol of ICl~3~ (s) from I~2~ (s) and Cl~2~ (g), showing the sublimation of I~2~ and the reaction of I~2~ (g) with Cl~2~ (g)](assets/003-hess-s-law-cycle-for-the-formation-of-1-mol-of-i.jpg)\n\n- Halved sublimation step:\n\n½ × (+38) = +19 kJ mol<sup>−1</sup>\n\n- Halved reaction step:\n\n½ × (−214) = −107 kJ mol<sup>−1</sup>\n\n- Calculate Δ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub>):\n\nΔ*H*<sub>f</sub><sup>θ</sup>(ICl<sub>3</sub>) = +19 + (−107) = **−88 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it uses the full enthalpy of the second equation without halving: −214 kJ mol<sup>−1</sup> is the enthalpy for forming 2 mol of ICl<sub>3</sub> (s), not 1 mol.\n\n**B** is incorrect as it uses both equations at full scale without halving: +38 + (−214) = −176 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it halves the second equation correctly but omits the sublimation step, starting from I<sub>2</sub> (g) rather than I<sub>2</sub> (s): ½ × (−214) = −107 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "–214 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "–176 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "–107 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "−88 kJ mol<sup>– 1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_65jfqCxpnxn8cCkW",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BYNMBdjmXPYGQcDV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Titanium occurs naturally as the mineral rutile, TiO<sub>2</sub>. One possible method of extraction of titanium is to reduce it by heating with carbon.\n\nTiO<sub>2</sub> (s) + 2C (s) → Ti (s) + 2CO (g)\n\nThe standard enthalpy changes of formation of TiO<sub>2</sub> (s) and CO (g) are –890 kJ mol<sup>−1</sup> and –105 kJ mol<sup>−1</sup> respectively.\n\nWhat is the standard enthalpy change of reaction, Δ*H*<sub>r</sub><sup>θ</sup>, for this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Known quantities:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(TiO<sub>2</sub> (s)) = −890 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(CO (g)) = −105 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(C (s)) = 0 and Δ*H*<sub>f</sub><sup>θ</sup>(Ti (s)) = 0 (elements in standard state)\n- Calculate Δ*H*<sub>r</sub><sup>θ</sup> for TiO<sub>2</sub> (s) + 2C (s) → Ti (s) + 2CO (g):\n\nΔ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(products) = 0 + 2(−105) = −210 kJ\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants) = (−890) + 2(0) = −890 kJ\n\nΔ*H*<sub>r</sub><sup>θ</sup> = (−210) − (−890) = −210 + 890 = **+680 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it gives −785 kJ mol<sup>−1</sup>. This is caused by using only 1 mol of CO instead of 2 mol and then reversing the sign: (−105) − (−890) = +785, taken as −785 kJ mol<sup>−1</sup>.\n\n**B** is incorrect as it gives −680 kJ mol<sup>−1</sup>, which is the correct magnitude with the wrong sign. This is caused by reversing the products and reactants in the formula: (−890) − (−210) = −680 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it gives +785 kJ mol<sup>−1</sup>. This is caused by using only 1 mol of CO instead of the correct 2 mol: (−105) − (−890) = +785 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "−785 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−680 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "+680 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+785 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5mbyz696BB6nt7pZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4SWSpCKgcn4CqW3g",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the standard enthalpy change of formation, Δ*H*<sub>f</sub><sup>θ</sup>, of propan-1-ol, C<sub>3</sub>H<sub>8</sub>O?\n\n| **Substance** | Δ*H*<sub>c</sub><sup>θ</sup>** / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| C (s) | −394 |\n| H<sub>2</sub> (g) | −286 |\n| C<sub>3</sub>H<sub>8</sub>O (l) | −1816 |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Known quantities:\n\n  - Δ*H*<sub>c</sub><sup>θ</sup>(C (s)) = −394 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>c</sub><sup>θ</sup>(H<sub>2</sub> (g)) = −286 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>c</sub><sup>θ</sup>(C<sub>3</sub>H<sub>8</sub>O (l)) = −1816 kJ mol<sup>−1</sup>\n- Formula C<sub>3</sub>H<sub>8</sub>O requires 3 mol C and 4 mol H<sub>2</sub> as elements (O<sub>2</sub> has Δ*H*<sub>c</sub><sup>θ</sup> = 0)\n- Calculate Δ*H*<sub>f</sub><sup>θ</sup>(C<sub>3</sub>H<sub>8</sub>O):\n\nΔ*H*<sub>f</sub><sup>θ</sup> = ΣΔ*H*<sub>c</sub><sup>θ</sup>(elements) − Δ*H*<sub>c</sub><sup>θ</sup>(compound)\n\nΣΔ*H*<sub>c</sub><sup>θ</sup>(elements) = 3(−394) + 4(−286) = −1182 + (−1144) = −2326 kJ\n\nΔ*H*<sub>f</sub><sup>θ</sup> = −2326 − (−1816) = −2326 + 1816 = **−510 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it inverts the formula and uses only 1 mol each of C and H<sub>2</sub>: (−1816) − [(−394) + (−286)] = −1816 + 680 = −1136 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it inverts the formula with the correct stoichiometry: (−1816) − (−2326) = +510 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it uses only 1 mol each of C and H<sub>2</sub> with the correct formula: [(−394) + (−286)] − (−1816) = −680 + 1816 = +1136 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "−1136 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "−510 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+510 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+1136 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5bDzgJT8STmJ6Vm4",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dG9FdXhZ6x8SK8QF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "The equations for the formation of two sulfur oxides are shown.\n\nS (s) + O<sub>2 </sub>(g) → SO<sub>2</sub> (g)     *∆H*<sub>f</sub><sup>θ</sup> = –297 kJ mol<sup>–1</sup>\n\nS (s) + 1.5O<sub>2</sub> (g) → SO<sub>3</sub> (g)    *∆H*<sub>f</sub><sup>θ</sup> = –395 kJ mol<sup>–1</sup>\n\nWhat is the standard enthalpy change of reaction, Δ*H*<sub>r</sub><sup>θ</sup>, for 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) → 2SO<sub>3</sub> (g)?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Known quantities:\n\n  - Δ*H*<sub>f</sub><sup>θ</sup>(SO<sub>2</sub>) = −297 kJ mol<sup>−1</sup>\n  - Δ*H*<sub>f</sub><sup>θ</sup>(SO<sub>3</sub>) = −395 kJ mol<sup>−1</sup>\n  - Stoichiometry from the target equation: 2 mol of each\n- Calculate Δ*H*<sub>r</sub><sup>θ</sup>:\n\nΔ*H*<sub>r</sub><sup>θ</sup> = ΣΔ*H*<sub>f</sub><sup>θ</sup>(products) − ΣΔ*H*<sub>f</sub><sup>θ</sup>(reactants)\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(2SO<sub>3</sub>) = 2 × (−395) = −790 kJ\n\nΣΔ*H*<sub>f</sub><sup>θ</sup>(2SO<sub>2</sub>) = 2 × (−297) = −594 kJ\n\nΔ*H*<sub>r</sub><sup>θ</sup> = (−790) − (−594) = **−196 kJ mol**<sup>**−1**</sup>\n\n**B** is incorrect as it uses a coefficient of 1 for both sulfur oxides instead of 2: (−395) − (−297) = −98 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it uses a coefficient of 1 and reverses the products and reactants: (−297) − (−395) = +98 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as it reverses the products and reactants with the correct stoichiometric coefficients: 2(−297) − 2(−395) = +196 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "−196 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−98 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+98 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+196 kJ mol<sup>–1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4r57GFgssMbtCWPr",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MqgVNr8TPFhFrS87",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Which enthalpy change is indicated by X in the enthalpy cycle shown?\n\n![Hess's law enthalpy cycle for the combustion of ethane (C~2~H~6~), with X indicating the enthalpy change for the formation of 3 mol of H~2~O (l) from its elements in their standard states](assets/004-hess-s-law-enthalpy-cycle-for-the-combustion-of-.jpg)",
+     "solution_md": "**Final answer:** **The correct answer is C because:**\n\n- Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O) is the enthalpy change when 1 mol of H<sub>2</sub>O (l) is formed from H<sub>2</sub> (g) and O<sub>2</sub> (g) in their standard states\n- X represents the formation of 3 mol of H<sub>2</sub>O (l) from its elements, so X = +3Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O)\n- The positive sign indicates the arrow for X travels in the same direction as the standard enthalpy of formation\n\n**A** is incorrect as it uses a coefficient of 1, not 3.\n\n**B **is incorrect as it uses a coefficient of 1 and a negative sign, which would represent the decomposition of 1 mol of H<sub>2</sub>O (l).\n\n**D **is incorrect as the negative sign would represent the decomposition of 3 mol of H<sub>2</sub>O (l), not its formation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "+Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O)"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "+3Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "−3Δ*H*<sub>f</sub><sup>θ</sup>(H<sub>2</sub>O)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2G3mJwYH2qdVF5ck",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MnCCybngBXYcckyD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "The following standard enthalpy changes are given.\n\nCO (g) + $\\frac{1}{2}$ O<sub>2</sub> (g)   → CO<sub>2</sub> (g)   ∆*H*<sup>θ</sup>  = –283 kJ mol<sup>–1</sup>\n\nH<sub>2</sub> (g) + $\\frac{1}{2}$ O<sub>2</sub> (g)   → H<sub>2</sub>O (I)   ∆*H*<sup>θ</sup>  = –286 kJ mol<sup>–1</sup>\n\nH<sub>2</sub>O (g)   → H<sub>2</sub>O (I)   ∆*H*<sup>θ</sup> = –44 kJ mol<sup>–1</sup>\n\nWhat is the standard enthalpy change, Δ*H*<sup>θ</sup>, for the following reaction?\n\nCO<sub>2</sub> (g) + H<sub>2</sub> (g) → CO (g) + H<sub>2</sub>O (g)",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Known quantities:\n\n  - CO (g) + ½O<sub>2</sub> (g) → CO<sub>2</sub> (g): Δ*H*<sup>θ</sup> = −283 kJ mol<sup>−1</sup> (equation 1)\n  - H<sub>2</sub> (g) + ½O<sub>2</sub> (g) → H<sub>2</sub>O (l): Δ*H*<sup>θ</sup> = −286 kJ mol<sup>−1</sup> (equation 2)\n  - H<sub>2</sub>O (g) → H<sub>2</sub>O (l): Δ*H*<sup>θ</sup> = −44 kJ mol<sup>−1</sup> (equation 3)\n- Target reaction:\n\nCO<sub>2</sub> (g) + H<sub>2</sub> (g) → CO (g) + H<sub>2</sub>O (g)\n\n- Reverse equation 1 (CO<sub>2</sub> → CO + ½O<sub>2</sub>): +283 kJ mol<sup>−1</sup>\n- Use equation 2 as written (H<sub>2</sub> + ½O<sub>2</sub> → H<sub>2</sub>O (l)): −286 kJ mol<sup>−1</sup>\n- Reverse equation 3 (H<sub>2</sub>O (l) → H<sub>2</sub>O (g)): +44 kJ mol<sup>−1</sup> ![Hess's law cycle showing the route from CO~2~ (g) and H~2~ (g) to CO (g) and H~2~O (g) via CO~2~, H~2~O (l), and the three given equations](assets/005-hess-s-law-cycle-showing-the-route-from-co-2-g-a.jpg)\n- Calculate Δ*H*<sup>θ</sup> by combining the three equations:\n\nΔ*H*<sup>θ</sup> = +283 + (−286) + 44 = **+41 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as it gives the enthalpy change for the reverse of the target reaction: −(+41) = −41 kJ mol<sup>−1</sup>.\n\n**B** is incorrect as it omits the H<sub>2</sub>O vaporisation step (equation 3): +283 + (−286) = −3 kJ mol<sup>−1</sup>.\n\n**C** is incorrect as it omits equation 3 and uses equation 1 in the forward direction rather than reversed: (−283) + (+286) = +3 kJ mol<sup>−1</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "−41 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−3 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+3 kJ mol<sup>– 1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "+41 kJ mol<sup>– 1</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

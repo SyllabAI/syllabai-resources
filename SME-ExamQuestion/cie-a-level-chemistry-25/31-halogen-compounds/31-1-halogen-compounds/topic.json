@@ -1,0 +1,749 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:52:24Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "31-halogen-compounds",
+  "name": "31. Halogen Compounds"
+ },
+ "topic": {
+  "id": "top_wJ5vSsw97R59FVnQ",
+  "slug": "31-1-halogen-compounds",
+  "name": "Halogen Compounds",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "reactivity-of-halogenoarenes",
+   "name": "Reactivity of Halogenoarenes",
+   "revision_note_id": "rn_PsMjzgvkpthzsxVt"
+  },
+  {
+   "slug": "producing-halogenoarenes",
+   "name": "Producing Halogenoarenes",
+   "revision_note_id": "rn_5mKbgWqSkMtTBkCQ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8Z5wwD3VpWFJF5w8",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/31-halogen-compounds/31-1-halogen-compounds/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/04/synthesis-4-chlorophenylamine.png": "001-synthesis-pathway-from-benzene-to-4-chlorophenyl.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/chlorobenzene.png": "002-structure-of-chlorobenzene-showing-a-benzene-rin.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/4-chloronitrobenzene.png": "003-structure-of-4-chloronitrobenzene-showing-a-benz.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/26-dibromo-4-chlorophenylbenzene.png": "004-structure-of-2-6-dibromo-4-chlorophenylamine-sho.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/52e8e77b-9464-48b8-87b0-b5e91f3646ab.jpeg": "005-reaction-scheme-for-nitrobenzene.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/08/16ecca57-ccef-4f7b-95cc-f4ffafe701b0.jpeg": "006-structures-of-compound-x-3-bromonitrobenzene-and.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/08/f1b31db6-2fb8-47a0-9b6c-ee65554ec3c9.jpeg": "007-electrophilic-substitution-mechanism-for-the-bro.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/08/f365e2ec-eaee-4151-b144-0d222316c4f6.jpeg": "008-reaction-scheme-benzene-ring-with-nh-and-cooh-gr.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/08/4c79b613-7cb1-4b70-a5f0-bea2a8b0fd9f.jpeg": "009-structure-of-compound-z-4-amino-3-5-dichlorobenz.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/04/7-3-3a-m-reactions-of-phenylethene-fig-3-1-a.png": "010-reaction-scheme-for-phenylethene-with-br2-follow.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/75e7e298-eab4-4316-bda5-4be6d2f142be.jpeg": "011-structure-of-compound-a-showing-1-1-2-dibromoeth.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/04/81bbfad5-e8fa-4753-861b-391832f1c70b.jpeg": "012-structures-of-the-three-possible-compound-b-isom.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/04/abd4777e-5180-43fc-bac0-ed31b5ff1da8.jpeg": "013-electrophilic-substitution-mechanism-showing-cur.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/2c877804-0bc1-4f5a-8aba-053d52442f5e.jpeg": "014-structure-of-3-chloronitrobenzene-showing-a-benz.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/53e2c44d-f5e5-4887-81bd-a9e6940e43db.jpeg": "015-mechanism-for-the-chlorination-of-benzene-showin.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/7-3-1a-e-formation-of-bromonium-ion-a.png": "016-incomplete-mechanism-for-the-reaction-of-br2-wit.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/br2-and-albr3-mech-answer.png": "017-completed-mechanism-showing-polarised-br-attacki.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/7-3-1b-e-bromobenzene-mechanism-a.png": "018-electrophilic-bromination-of-benzene-br-adds-for.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/img-2513.jpeg": "019-reaction-scheme-of-electrophilic-bromination-of-.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/7-3-2a-e-monochloro-products.png": "020-diagram-of-aromatic-reactions-methylbenzene-conv.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-dichloromethylbenzene.png": "021-structure-of-2-4-dichloromethylbenzene.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/26-dichloromethylbenzene.png": "022-structure-of-2-6-dichloromethylbenzene.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/246-trichloromethylbenzene.png": "023-structure-of-2-4-6-trichloromethylbenzene.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/7-3-2a-m-cie-ial-7-3-m-fig-2-1--question-a.png": "024-reaction-scheme-of-1-2-dimethylbenzene-undergoin.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/9ce4592e-7d8f-4518-91e5-223d7f8b5d6c.jpeg": "025-reaction-scheme-of-1-2-dimethylbenzene-undergoin.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/41468420-372e-4ebe-b6dd-58ee4389e1f0.jpeg": "026-mechanism-for-the-bromination-of-methylbenzene-s.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/06/7-3-3a-h-cie-chloro-1.png": "027-two-reactions-of-methylbenzene-reaction-1-shows-.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/7-3-3b-h.png": "028-reaction-3-showing-the-conversion-of-4-methylben.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_wkYFKNjNkWNnDvJF",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_C56tYFQ5hhcnXVxR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorobenzene is formed by bubbling chlorine gas into benzene at room temperature in the presence of anhydrous AlCl<sub>3</sub>.\n\nExplain, by the use of equations, how AlCl<sub>3</sub> acts as a catalyst in the chlorination of benzene.",
+     "solution_md": "To explain how AlCl<sub>3</sub> acts as a catalyst in the chlorination of benzene:\n\n- Construct the equation for generation of the electrophile:\n\nCl<sub>2</sub> + AlCl<sub>3</sub> → Cl<sup>+</sup> + AlCl<sub>4</sub><sup>–</sup> **[1 mark]**\n\n- Construct the equation for the electrophilic substitution of benzene:\n\nCl<sup>+</sup> + C<sub>6</sub>H<sub>6</sub> → C<sub>6</sub>H<sub>5</sub>Cl + H<sup>+</sup> **[1 mark]**\n\n- Construct the equation showing regeneration of the catalyst:\n\nH<sup>+</sup> + AlCl<sub>4</sub><sup>–</sup> → HCl + AlCl<sub>3</sub> **[1 mark]**\n\n- AlCl<sub>3</sub> is used in the first step\n**AND**\nAlCl<sub>3</sub> is regenerated in the final step **[1 mark]**\n\n> **[mark-scheme]**\n> State symbols are not required\n\n> **[exam-tip]**\n> AlCl<sub>3</sub> acts as a Lewis acid (halogen carrier). It accepts Cl<sup>–</sup> from Cl<sub>2</sub> to generate the Cl<sup>+</sup> electrophile, then recovers it from H<sup>+</sup> in the final step to reform AlCl<sub>3</sub> and release HCl. This completes the catalytic cycle: AlCl<sub>3</sub> is consumed in step 1 but regenerated in step 3, so the overall amount of AlCl<sub>3</sub> is unchanged."
+    },
+    {
+     "id": "qstnprt_WgCwGpKTH3cS25XG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD",
+      "spcpt_7gVH6tscddxG7V3y"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrobenzene undergoes further substitution considerably more slowly than chlorobenzene. In nitrobenzene, the incoming group joins the benzene ring in the 3-position, whereas in chlorobenzene the incoming group joins to the benzene ring in the 4-position. Use these ideas to suggest the structures of the intermediate compounds **Y** and **Z** in the following synthesis of 4-chlorophenylamine.\n\n![Synthesis pathway from benzene to 4-chlorophenylamine showing intermediate compounds Y and Z with reactions A, B, and a reduction step](assets/001-synthesis-pathway-from-benzene-to-4-chlorophenyl.png)",
+     "solution_md": "The structures of Compounds **Y** and **Z** are:\n\nCompound **Y** (chlorobenzene):\n\n![Structure of chlorobenzene showing a benzene ring with a Cl substituent](assets/002-structure-of-chlorobenzene-showing-a-benzene-rin.png)\n\nCompound **Z** (4-chloronitrobenzene):\n\n![Structure of 4-chloronitrobenzene showing a benzene ring with Cl at position 4 and a NO2 group at position 1](assets/003-structure-of-4-chloronitrobenzene-showing-a-benz.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct structure of Compound Y: chlorobenzene\n> \n> 1 mark for correct structure of Compound Z: 4-chloronitrobenzene\n\n> **[exam-tip]**\n> The order matters: chlorination must occur before nitration so that the –Cl group directs the –NO<sub>2</sub> into the 4-position\n> \n> To decide which step comes first, work backwards from the final product (4-chlorophenylamine) and consider the directing effects:\n> \n> The –Cl group is 2,4-directing, so if chlorination occurs first, nitration is directed to the 4-position. This gives 4-chloronitrobenzene (Compound Z). Reduction of the –NO<sub>2</sub> group then gives 4-chlorophenylamine.\n> \n> If nitration had occurred first, the –NO<sub>2</sub> group would direct chlorination to the 3-position, giving 3-chloronitrobenzene, which would produce 3-chlorophenylamine after reduction (not the desired product)."
+    },
+    {
+     "id": "qstnprt_spY4tJdnvFfFQB94",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Suggest the structure of the organic product formed when 4-chlorophenylamine reacts with bromine water.",
+     "solution_md": "The structure of the organic product is:\n\n![Structure of 2,6-dibromo-4-chlorophenylamine showing a benzene ring with an NH~2~ group, Cl at the 4-position, and Br atoms at positions 2 and 6](assets/004-structure-of-2-6-dibromo-4-chlorophenylamine-sho.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the correct structure of 2,6-dibromo-4-chloroaminobenzene\n> \n> Br atoms must be at positions 2 and 6\n\n> **[exam-tip]**\n> The –NH<sub>2</sub> group is strongly electron-donating and o/p directing. For unsubstituted aniline, reaction with bromine water gives 2,4,6-tribromoaniline.\n> \n> In 4-chlorophenylamine, the 4-position (para to –NH<sub>2</sub>) is already occupied by –Cl. Only positions 2 and 6 (ortho to –NH<sub>2</sub>) are available, so the product is 2,6-dibromo-4-chlorophenylamine."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rZNDPdG4HCKBdFxt",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_HKjmh64BswWt73F4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7gVH6tscddxG7V3y"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitration of a benzene ring forms nitrobenzene. The subsequent reactions of nitrobenzene are shown in Fig. 1.1.\n\n![Reaction scheme for nitrobenzene](assets/005-reaction-scheme-for-nitrobenzene.jpeg)\n\n**Fig. 1.1**\n\nThe structures of the products have the same molecular formula. Explain why these products are different. In your answer include the structures of compounds **X** and **Y** and reagents for reactions **A** and **B**.",
+     "solution_md": "Structures of **X** and **Y**:\n\n![Structures of Compound X (3-bromonitrobenzene) and Compound Y (2-bromo or 4-bromoaminobenzene) showing the different positions of bromination due to directing effects](assets/006-structures-of-compound-x-3-bromonitrobenzene-and.jpeg)\n\n**[2 marks]**\n\nReagents for Reactions **A** and **B**:\n\n- Br<sub>2</sub> in the presence of anhydrous AlBr<sub>3</sub> **[1 mark]**\n\nThe products are different because:\n\n- Reaction **A** (bromination) must be performed before reduction: the –NO<sub>2</sub> group is 3-directing, so bromination of nitrobenzene gives 3-bromonitrobenzene (Compound **X**) **[1 mark]**\n- Reduction must be performed before Reaction **B** (bromination): the –NH<sub>2</sub> group is 2,4-directing, so bromination of aniline gives 2- or 4-bromoaminobenzene (Compound **Y**) **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the correct structure of aniline / aminobenzene\n> \n> 1 mark for the correct structure of 3-bromoaniline / 3-bromoaminobenzene\n> \n> 1 mark for the correct reagents: Br<sub>2</sub> in the presence of anhydrous AlBr<sub>3</sub>\n> \n> 1 mark for the correct explanation for reaction **A**\n> \n> 1 mark for the correct explanation for reaction **B**\n\n> **[exam-tip]**\n> This question tests knowledge of directing effects. The two products have the same molecular formula but are different structural isomers because the position of bromination on the ring depends on which substituent is present when bromination takes place.\n> \n> As a general rule:\n> \n> - Electron-donating groups (e.g. –NH<sub>2</sub>) make the ring more reactive and direct incoming electrophiles to the 2- and 4-positions\n> - Electron-withdrawing groups (e.g. –NO<sub>2</sub>) make the ring less reactive and direct incoming electrophiles to the 3-position"
+    },
+    {
+     "id": "qstnprt_zFbRDXcqnsjyS2WJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNitration of a benzene ring forms nitrobenzene. The subsequent reactions of nitrobenzene are shown in Fig. 1.1.\n\nReagents for Reaction A: Br~2~ in the presence of anhydrous AlBr~3~\n\nReaction A (bromination) must be performed before reduction: the –NO~2~ group is 3-directing, so bromination of nitrobenzene gives 3-bromonitrobenzene (Compound X)\n\nUsing curly arrows, describe the mechanism for reaction **A**.",
+     "solution_md": "The mechanism for Reaction **A** is:\n\n![Electrophilic substitution mechanism for the bromination of nitrobenzene at the 3-position, showing curly arrows, carbocation intermediate with horseshoe ring at C3, and 3-bromonitrobenzene product with H^+^](assets/007-electrophilic-substitution-mechanism-for-the-bro.jpeg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a curly arrow from the benzene ring to the Br<sup>+</sup> electrophile\n> \n> 1 mark for a correct carbocation intermediate with the positive charge shown in the horseshoe ring\n> \n> The horseshoe must cover more than half the ring, with the gap at carbon 3 (the carbon being substituted)\n> \n> 1 mark for a curly arrow from the C–H bond towards the positive charge in the ring **AND** correct products shown\n\n> **[exam-tip]**\n> Since the –NO<sub>2</sub> group is 3-directing, bromine substitutes at carbon 3. The horseshoe in the intermediate must have its opening (gap) at carbon 3. The –NO<sub>2</sub> group makes the ring less reactive overall, so electrophilic substitution is slower than for benzene itself."
+    },
+    {
+     "id": "qstnprt_64Pkt284y4bcvSWD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Ktxgj3rBYkydsFcF",
+      "spcpt_7gVH6tscddxG7V3y"
+     ],
+     "part_tier": null,
+     "problem_md": "State the IUPAC name of Compound **Z** and draw the structure.\n\n![Reaction scheme: benzene ring with NH₂ and COOH groups undergoes chlorination, forming an unspecified product labelled compound Z in a box.](assets/008-reaction-scheme-benzene-ring-with-nh-and-cooh-gr.jpeg)",
+     "solution_md": "The IUPAC name and structure of Compound **Z** are:\n\n4-amino-3,5-dichlorobenzoic acid:\n\n![Structure of Compound Z: 4-amino-3,5-dichlorobenzoic acid showing the benzene ring with COOH at position 1, Cl at positions 3 and 5, and NH~2~ at position 4](assets/009-structure-of-compound-z-4-amino-3-5-dichlorobenz.jpeg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the correct name: 4-amino-3,5-dichlorobenzoic acid\n> \n> 1 mark for the correct structure of 4-amino-3,5-dichlorobenzoic acid\n\n> **[exam-tip]**\n> Two groups compete to direct chlorination onto this ring:\n> \n> The –NH<sub>2</sub> group is electron-donating and directs to the 2- and 4-positions. However, the 4-position is already occupied by –COOH, so no chlorination occurs there.\n> \n> The –COOH group is electron-withdrawing and directs to the 3- and 5-positions.\n> \n> Both effects therefore direct chlorination to the 3- and 5-positions, giving 3,5-dichlorosubstitution."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rrTcB4BTsTrrj7gc",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_qNnk42cs2nzH2n7r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZqhMdzk62nwdGGrr",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated two reactions of phenylethene, C<sub>6</sub>H<sub>5</sub>CH=CH<sub>2</sub> as shown in Fig. 3.1. First she reacted phenylethene with excess bromine at room temperature to form Compound **A**. She then added aluminium bromide, AlBr<sub>3</sub> to the reaction mixture to form Compound **B**.\n\n![Reaction scheme for phenylethene with Br2 followed by AlBr3, with blank boxes for intermediate and product structures](assets/010-reaction-scheme-for-phenylethene-with-br2-follow.png)\n\n**Fig. 3.1**\n\nDraw the structures of Compounds **A** and **B**.",
+     "solution_md": "The structures of Compounds **A** and **B** are:\n\nCompound **A**:\n\n![Structure of Compound A showing 1-(1,2-dibromoethyl)benzene formed by electrophilic addition of bromine across the C=C double bond of phenylethene](assets/011-structure-of-compound-a-showing-1-1-2-dibromoeth.jpeg)\n\nCompound **B** (any one isomer accepted):\n\n![Structures of the three possible Compound B isomers showing bromine substituted at the 2-, 3-, or 4-position on the benzene ring](assets/012-structures-of-the-three-possible-compound-b-isom.jpeg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct structure of Compound A\n> \n> 1 mark for any one of the three possible isomers of Compound B: Br at the 2-, 3-, or 4-position on the ring\n\n> **[exam-tip]**\n> Compound A is formed by electrophilic addition of bromine across the C=C double bond. No halogen carrier is needed as alkenes react with halogens directly at room temperature). This adds two Br atoms across the side chain.\n> \n> When AlBr<sub>3</sub> is added, it acts as a halogen carrier to generate the Br<sup>+</sup> electrophile for electrophilic substitution of the ring. There are three possible isomers for Compound B because Br can substitute at the 2nd, 3rd, or 4th position relative to the side chain."
+    },
+    {
+     "id": "qstnprt_2dNcGhFzK2MP28yv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_T47tXfbF7rvThY8r",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated two reactions of phenylethene, C~6~H~5~CH=CH~2~ as shown in Fig. 3.1. First she reacted phenylethene with excess bromine at room temperature to form Compound **A**. She then added aluminium bromide, AlBr~3~ to the reaction mixture to form Compound **B**.\n\nName and outline the mechanism for the formation of Compound **B** from Compound **A**.",
+     "solution_md": "The mechanism for the formation of Compound **B** from Compound **A** is:\n\nMechanism: electrophilic substitution\n\n![Electrophilic substitution mechanism showing curly arrows from the benzene ring to Br^+^, carbocation intermediate with horseshoe ring, and final bromomethylbenzene products with H^+^](assets/013-electrophilic-substitution-mechanism-showing-cur.jpeg)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for naming the mechanism: electrophilic substitution\n> \n> 1 mark for a curly arrow from the benzene ring to the Br<sup>+</sup> electrophile\n> \n> 1 mark for a correct carbocation intermediate with the positive charge shown in the horseshoe ring\n> \n> The horseshoe must cover more than half the ring, with the gap at the carbon being substituted (must not extend past carbon 2 or 4)\n> \n> 1 mark for a curly arrow from the C–H bond towards the positive charge in the ring **AND** correct products shown\n\n> **[exam-tip]**\n> All electrophilic substitution mechanisms follow the same general pattern:\n> \n> Pay careful attention to the horseshoe in the intermediate: it must cover more than half the benzene ring with the opening (gap) at the carbon being substituted."
+    },
+    {
+     "id": "qstnprt_k3KxP5hJ9TSkv5bW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7gVH6tscddxG7V3y"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrobenzene was reacted with aluminium chloride and chlorine. Name and draw the structure of the aromatic product formed in this reaction.",
+     "solution_md": "The name and structure of the aromatic product are:\n\n- 3-chloronitrobenzene\n\n![Structure of 3-chloronitrobenzene showing a benzene ring with a nitro group and a chlorine atom in the meta (3-) position](assets/014-structure-of-3-chloronitrobenzene-showing-a-benz.jpeg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the correct name: 3-chloronitrobenzene\n> \n> 1 mark for the correct structure of 3-chloronitrobenzene\n> \n> 5-chloronitrobenzene is an accepted alternative name\n> \n> The Cl must be at the 3- or 5-position; products with Cl at any other position are not accepted\n\n> **[exam-tip]**\n> The nitro group (–NO<sub>2</sub>) is an electron-withdrawing group that deactivates the benzene ring and directs incoming electrophiles to the 3- and 5-positions (meta positions). The chlorine atom will therefore substitute onto the 3rd or 5th carbon of the ring."
+    }
+   ]
+  },
+  {
+   "id": "qstn_jkh2YVyvsBPnWN6K",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_fHN7KZknwkxzMBsN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about halogenoarene compounds.\n\nState the reagents and name of the mechanism used to convert benzene into chlorobenzene",
+     "solution_md": "> **[mark-scheme]**\n> The reagents and mechanism for the conversion of benzene to chlorobenzene:\n> \n> - AlCl<sub>3</sub>\n> **AND**\n> Cl<sub>2</sub> **[1 mark]**\n> - Electrophilic substitution **[1 mark]**\n\n> **[exam-tip]**\n> Chlorine gas is passed into benzene in the presence of anhydrous AlCl<sub>3</sub> (a halogen carrier). The AlCl<sub>3</sub> reacts with Cl<sub>2</sub> to generate the Cl<sup>+</sup> electrophile, which then attacks the benzene ring. Because a hydrogen is substituted by the chloro group, the mechanism is electrophilic substitution."
+    },
+    {
+     "id": "qstnprt_5BFn4NV92VN9nBpF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nState the reagents and name of the mechanism used to convert benzene into chlorobenzene\n\nThe reagents and mechanism for the conversion of benzene to chlorobenzene:\n- AlCl3 AND Cl2\n- Electrophilic substitution\n\nUsing your answer to **(a)**, construct an equation for the generation of the ion which reacts with benzene.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the generation of the electrophile (Cl<sup>+</sup>):\n> \n> - Cl<sub>2</sub> + AlCl<sub>3</sub> → AlCl<sub>4</sub><sup>–</sup> + Cl<sup>+</sup> **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> The halogen carrier (AlCl<sub>3</sub>) accepts a chloride ion from Cl<sub>2</sub>, generating the Cl<sup>+</sup> electrophile. AlCl<sub>3</sub> acts as a Lewis acid because it accepts an electron pair from Cl<sup>–</sup>, forming the tetrachloroaluminate ion (AlCl<sub>4</sub><sup>–</sup>)."
+    },
+    {
+     "id": "qstnprt_WV28vJxYtJBzhzRc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about halogenoarene compounds.\n\nState the reagents and name of the mechanism used to convert benzene into chlorobenzene\n\nThe reagents and mechanism for the conversion of benzene to chlorobenzene:\n- AlCl3 AND Cl2\n- Electrophilic substitution\n\nThe equation for the generation of the electrophile (Cl+):\n- Cl2 + AlCl3 → AlCl4– + Cl+\n\nDraw the mechanism for the chlorination of benzene.",
+     "solution_md": "The mechanism for the chlorination of benzene is:\n\n![Mechanism for the chlorination of benzene showing curly arrows, carbocation intermediate, and chlorobenzene product](assets/015-mechanism-for-the-chlorination-of-benzene-showin.jpeg)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a curly arrow from the benzene ring to the Cl<sup>+</sup> ion\n> \n> 1 mark for a correct carbocation intermediate with the positive charge shown in the horseshoe ring\n> \n> 1 mark for a curly arrow from the C–H bond towards the positive charge in the benzene cation\n> \n> 1 mark for correct structure of chlorobenzene **AND** H<sup>+</sup>\n\n> **[exam-tip]**\n> All electrophilic substitution mechanisms follow the same general pattern:\n> \n> The electrophile bonds to the benzene ring, forming an intermediate with a partially delocalised electron system (shown as a horseshoe with a + charge). The + charge may be drawn on the electron-deficient carbon or in the centre of the horseshoe. The intermediate then loses a proton to restore the delocalised electron system."
+    },
+    {
+     "id": "qstnprt_8DggcZVrgtWMGrqF",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8XsxkP29yk9mkKxS"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how the C–Cl bond in chlorobenzene prevents nucleophilic substitution from occurring.",
+     "solution_md": "> **[mark-scheme]**\n> How the C–Cl bond in chlorobenzene prevents nucleophilic substitution:\n> \n> - One of the lone pairs of electrons on the chlorine atom is delocalised into the π system of the benzene ring **[1 mark]**\n> - The C–Cl bond therefore has partial double-bond character **[1 mark]**\n> - The C–Cl bond in chlorobenzene is very strong / stronger than in a halogenoalkane **[1 mark]**\n\n> **[exam-tip]**\n> Focus your answer on the C–Cl bond itself: the delocalisation of the lone pair into the π system creates partial double-bond character, making the bond very strong.\n> \n> Note that the question asks about the C–Cl bond specifically. The repulsion of nucleophiles by the benzene ring's π electron cloud is a valid point about unreactivity in general, but is not what this question is asking about."
+    }
+   ]
+  },
+  {
+   "id": "qstn_G4TBnw7w6Ggqx4MF",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_sNKRPVfM4vbmy8Kg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Benzene reacts with bromine in the presence of an aluminium bromide, AlBr<sub>3</sub>, catalyst to form bromobenzene. Fig. 1.1 shows an incomplete mechanism for the generation of the Br<sup>+</sup> electrophile.\n\nComplete the mechanism in Fig. 1.1. Include all relevant curly arrows, lone pairs, and dipoles.\n\n![Incomplete mechanism for the reaction of Br2 with AlBr3 to form Br and AlBr4+](assets/016-incomplete-mechanism-for-the-reaction-of-br2-wit.png)\n\n**Fig. 1.1**",
+     "solution_md": "The completed mechanism showing the generation of the Br<sup>+</sup> electrophile is:\n\n![Completed mechanism showing polarised Br₂ attacking AlBr₃ to form Br⁺ and the tetrahedral complex anion [AlBr₄]⁻, with a curved arrow from Br₂ to AlBr₃](assets/017-completed-mechanism-showing-polarised-br-attacki.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct partial charges on Br<sub>2</sub> and full charges on Br<sup>+</sup> and [AlBr<sub>4</sub>]<sup>–</sup>\n> \n> 1 mark for curly arrow going from δ– Br to Al\n\n> **[exam-tip]**\n> A lone pair of electrons from the δ– bromine atom is donated to AlBr<sub>3</sub>, forming a coordinate bond. This draws electrons away from the other bromine atom, making it electron-deficient and generating the Br<sup>+</sup> electrophile."
+    },
+    {
+     "id": "qstnprt_6r7BPfNdCzGQmHdc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the mechanism in Fig. 1.2 to show the reaction between benzene and the Br<sup>+</sup> electrophile. Include all relevant curly arrows and charges.\n\n![Electrophilic bromination of benzene: Br⁺ adds forming a sigma complex with H and Br on one carbon, then H⁺ is lost giving bromobenzene.](assets/018-electrophilic-bromination-of-benzene-br-adds-for.png)\n\n**Fig. 1.2**",
+     "solution_md": "The completed mechanism for the reaction of benzene with the Br<sup>+</sup> electrophile is:\n\n![Reaction scheme of electrophilic bromination of benzene, showing Br⁺ attack, sigma complex formation, then restoration of aromaticity to give bromobenzene and H⁺](assets/019-reaction-scheme-of-electrophilic-bromination-of-.jpeg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for curly arrow from the benzene ring to the Br<sup>+</sup> ion\n> \n> 1 mark for positive charge in the horseshoe intermediate ring **AND** curly arrow from the middle of the C–H bond towards the positive charge of the benzene cation\n> \n> 1 mark for positive charge on the H atom\n\n> **[exam-tip]**\n> All electrophilic substitution mechanisms follow the same general pattern:\n> \n> The electrophile bonds to the benzene ring, forming an intermediate with a partially delocalised electron system, shown as a horseshoe with + inside. The + charge can be placed either on the electron-deficient carbon atom or in the centre of the benzene ring. The intermediate then loses a proton, restoring the delocalised electron system."
+    },
+    {
+     "id": "qstnprt_WCBdRmjKVkqsPCx7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nBenzene reacts with bromine in the presence of an aluminium bromide, AlBr3, catalyst to form bromobenzene. Fig. 1.1 shows an incomplete mechanism for the generation of the Br+ electrophile.\n\nA lone pair of electrons from the δ– bromine atom is donated to AlBr3, forming a coordinate bond. This draws electrons away from the other bromine atom, making it electron-deficient and generating the Br+ electrophile.\n\nThe intermediate then loses a proton, restoring the delocalised electron system.\n\nConstruct an equation to show how the AlBr<sub>3</sub> catalyst is regenerated.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the regeneration of the AlBr<sub>3</sub> catalyst is:\n> \n> - H<sup>+</sup> + [AlBr<sub>4</sub>]<sup>–</sup> → HBr + AlBr<sub>3</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The AlBr<sub>3</sub> catalyst is consumed in the first step to generate the Br<sup>+</sup> electrophile. It is regenerated when the H<sup>+</sup> ion produced during the substitution step reacts with [AlBr<sub>4</sub>]<sup>–</sup>. The overall equation for the reaction is:\n> \n> C<sub>6</sub>H<sub>6</sub> + Br<sub>2</sub> → C<sub>6</sub>H<sub>5</sub>Br + HBr"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DKPGMBNfvvFpxZJ6",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Gv7W2VdXpDWc2gqW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PdCjhrpSzKtztrWh",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Methylbenzene can react with chlorine under different conditions to give the monochloro derivatives **F** and **G**, shown in Fig. 2.1.\n\n![Diagram of aromatic reactions: methylbenzene converts to 4-chloromethylbenzene (F) via reaction 1 and to chloromethylbenzene (G) via reaction 2.](assets/020-diagram-of-aromatic-reactions-methylbenzene-conv.png)\n\n**Fig. 2.1**\n\nState the reagents and conditions for each reaction.",
+     "solution_md": "> **[mark-scheme]**\n> The reagents and conditions for each reaction are:\n> \n> - Reaction 1: Cl<sub>2</sub> **AND** AlCl<sub>3</sub> / FeCl<sub>3</sub> / Fe / Al **[1 mark]**\n> - Reaction 2: Cl<sub>2</sub> **AND** ultraviolet / UV light **[1 mark]**\n\n> **[exam-tip]**\n> Halogenation of alkylarenes occurs in two different ways depending on the conditions:\n> \n> - In the aromatic ring: requires a halogen carrier. For chlorination, the carrier must be a chloride compound, such as AlCl<sub>3</sub>, FeCl<sub>3</sub>, Fe, or Al. Bromide carriers (e.g. AlBr<sub>3</sub>) would not generate the Cl<sup>+</sup> electrophile needed.\n> - In the side chain: requires ultraviolet (UV) light to initiate homolytic fission of the Cl–Cl bond, generating chlorine radicals."
+    },
+    {
+     "id": "qstnprt_8Rzzrqp4sssCfCPN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PdCjhrpSzKtztrWh",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethylbenzene can react with chlorine under different conditions to give the monochloro derivatives **F** and **G**, shown in Fig. 2.1.\n\n{align=center} **Fig. 2.1**\n\nState the name of the mechanism for each reaction in Fig. 2.1.",
+     "solution_md": "> **[mark-scheme]**\n> The mechanism for each reaction is:\n> \n> - Reaction 1: electrophilic substitution **[1 mark]**\n> - Reaction 2: free radical substitution **[1 mark]**\n\n> **[exam-tip]**\n> In reaction 1, the AlCl<sub>3</sub> catalyst generates the Cl<sup>+</sup> electrophile, which attacks the electron-rich benzene ring in an electrophilic substitution reaction.\n> \n> In reaction 2, UV light causes homolytic fission of the Cl–Cl bond, producing chlorine radicals that react with the methyl side chain in a free radical substitution reaction.\n> \n> Both are substitution reactions because a hydrogen atom is replaced by chlorine, but the mechanisms are completely different."
+    },
+    {
+     "id": "qstnprt_YFQqPFh8cBSjvdHB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethylbenzene can react with chlorine under different conditions to give the monochloro derivatives F and G, shown in Fig. 2.1.\n\nFig. 2.1\n\nReaction 1: Cl2 AND AlCl3 / FeCl3 / Fe / Al\n\nProduct F: 4-chloromethylbenzene\n\nWhen the reagent used in reaction 1 is present in excess, further substitution occurs.\n\ni) Draw the skeletal formula of one organic product formed.\n\n[1]\n\nii) State the systematic name of the product drawn in **(i)**.\n\n[1]",
+     "solution_md": "i) One organic product formed with excess chlorine is:\n\n![Structure of 2,4-dichloromethylbenzene](assets/021-structure-of-2-4-dichloromethylbenzene.png)\n\n**OR**\n\n![Structure of 2,6-dichloromethylbenzene](assets/022-structure-of-2-6-dichloromethylbenzene.png)\n\n**OR**\n\n![Structure of 2,4,6-trichloromethylbenzene](assets/023-structure-of-2-4-6-trichloromethylbenzene.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for a correct structure for 2,4-dichloromethylbenzene **OR **2,6-dichloromethylbenzene **OR **2,4, 6-trichloromethylbenzene\n\n> **[mark-scheme]**\n> ii) The systematic name of the product drawn in (i) is:\n> \n> - 2,4-dichloromethylbenzene\n> **OR**\n> 2,6-dichloromethylbenzene\n> **OR**\n> 2,4,6-trichloromethylbenzene **[1 mark]**\n> \n> The name must match the structure drawn in (i).\n> \n> 4,6-dichloromethylbenzene is the same compound as 2,4-dichloromethylbenzene and is not accepted as a separate answer.\n\n> **[exam-tip]**\n> The methyl group is an electron-donating substituent, so it directs incoming electrophiles to the 2- and 4-positions on the ring. When excess chlorine is present, further substitution can occur at any available 2-, 4-, or 6-position, giving up to three possible monochloro, dichloro, or trichloro products."
+    }
+   ]
+  },
+  {
+   "id": "qstn_C5GjnMR4yj42qwYt",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_S4p66d4BYBxF7cqm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_T47tXfbF7rvThY8r",
+      "spcpt_PfqCXXkxHSs3pGcc",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Predict the products of the following reactions in Fig. 2.1 and draw their structures in the boxes provided. Note that the molecular formula of the final product is given in each case.\n\n![Reaction scheme of 1,2-dimethylbenzene undergoing bromination under light or AlBr₃ catalysis, followed by NaOH heat or nitration, forming C₈H₁₀O and C₈H₁₀BrO₂N products, with blank boxes for intermediate and product structures](assets/024-reaction-scheme-of-1-2-dimethylbenzene-undergoin.png)\n\n**Fig. 2.1**",
+     "solution_md": "The correct products are:\n\n![Reaction scheme of 1,2-dimethylbenzene undergoing bromination under light or AlBr₃ catalysis, followed by NaOH heat or nitration, forming C₈H₁₀O and C₈H₁₀BrO₂N products, with intermediate and product structures](assets/025-reaction-scheme-of-1-2-dimethylbenzene-undergoin.jpeg)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the correct structure of 1-(bromomethyl)-2-methylbenzene\n> \n> 1 mark for the correct structure of (2-methylphenyl)methanol\n> \n> 1 mark for the correct structure of 4-bromo-1,2-dimethylbenzene\n> \n> 1 mark for the correct structure of 1-bromo-4,5-dimethyl-2-nitrobenzene\n> \n> Any orientation of the bromine on the substituted methylbenzene compounds is accepted\n> \n> Another suitable halogen carrier is FeBr<sub>3</sub>\n\n> **[exam-tip]**\n> The question covers two different reaction types.\n> \n> 1. The first sequence uses UV light and Br<sub>2</sub>\n> \n>   - These are conditions for free radical substitution, not electrophilic substitution.\n>   - The Br substitutes a hydrogen on the methyl group side chain to give a bromomethyl compound.\n>   - Nucleophilic substitution with OH<sup>–</sup> then forms the alcohol product.\n> 2. The second sequence uses a halogen carrier (AlBr<sub>3</sub> or FeBr<sub>3</sub>)\n> \n>   - These are conditions for electrophilic substitution of the ring.\n>   - The methyl group is electron-donating and 2,4-directing, so Br enters the ring at the 2- or 4-position.\n>   - Concentrated HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> generates the NO<sub>2</sub><sup>+</sup> electrophile for nitration, which also undergoes electrophilic substitution."
+    },
+    {
+     "id": "qstnprt_tjM55WmR4bctZWRV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_T47tXfbF7rvThY8r",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Construct an equation for the generation of the electrophile when methylbenzene reacts with bromine and aluminium bromide.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the generation of the electrophile (Br<sup>+</sup>):\n> \n> - AlBr<sub>3</sub> + Br<sub>2</sub> → [AlBr<sub>4</sub>]<sup>–</sup> + Br<sup>+</sup> **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> The halogen carrier (AlBr<sub>3</sub>) acts as a Lewis acid, accepting a Br<sup>–</sup> ion from Br<sub>2</sub> to generate the Br<sup>+</sup> electrophile. Any anhydrous aluminium halide (AlCl<sub>3</sub>, AlBr<sub>3</sub>) or iron halide (FeCl<sub>3</sub>, FeBr<sub>3</sub>) can act as a halogen carrier."
+    },
+    {
+     "id": "qstnprt_VG3WR9R8632PdBYz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_T47tXfbF7rvThY8r",
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw the reaction mechanism for the reaction of methylbenzene with bromine and aluminium bromide.",
+     "solution_md": "The mechanism for the bromination of methylbenzene is:\n\n![Mechanism for the bromination of methylbenzene showing curly arrows, carbocation intermediate with horseshoe ring, and bromomethylbenzene product with H^+^](assets/026-mechanism-for-the-bromination-of-methylbenzene-s.jpeg)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a curly arrow from the benzene ring to the Br<sup>+</sup> ion\n> \n> 1 mark for a correct carbocation intermediate with the positive charge shown in the horseshoe ring\n> \n> 1 mark for a curly arrow from the C–H bond towards the positive charge in the methylbenzene cation\n> \n> 1 mark for correct structure of 2-bromomethylbenzene or 4-bromomethylbenzene **AND** H<sup>+</sup>\n\n> **[exam-tip]**\n> All electrophilic substitution mechanisms follow the same general pattern:\n> \n> The methyl group is electron-donating and 2,4-directing, so bromine must substitute at the 2- or 4-position relative to the methyl group:"
+    },
+    {
+     "id": "qstnprt_738fqQnzy4pssQkT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8XsxkP29yk9mkKxS"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why halogenoalkanes such as bromopropane are more reactive than halogenoarenes such as bromobenzene.",
+     "solution_md": "> **[mark-scheme]**\n> Why halogenoalkanes are more reactive than halogenoarenes towards nucleophilic substitution:\n> \n> - The C–Br bond in halogenoalkanes / bromopropane is polar: δ+ C atom and δ– Br atom **[1 mark]**\n> - Nucleophiles can attack the δ+ carbon atom **[1 mark]**\n> - One of the lone pairs of electrons on the bromine in bromobenzene is delocalised into the π system of the benzene ring **[1 mark]**\n> - The C–Br bond in bromobenzene therefore has partial double-bond character and is very strong **[1 mark]**\n\n> **[exam-tip]**\n> A complete answer contrasts both compounds: in halogenoalkanes, the polar C–Br bond is open to nucleophilic attack at the δ+ carbon; in halogenoarenes, lone pair donation from Br into the ring creates partial double-bond character that strengthens the C–Br bond and prevents nucleophilic substitution."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8j56TftxvMdq6pkg",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_bjSghDRQ83xSVN79",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8XsxkP29yk9mkKxS"
+     ],
+     "part_tier": null,
+     "problem_md": "2-bromopentane is a halogenoalkane and bromobenzene is a halogenoarene.\n\nState which compound is more reactive towards nucleophilic substitution.",
+     "solution_md": "> **[mark-scheme]**\n> The more reactive compound towards nucleophilic substitution is:\n> \n> - 2-bromopentane **[1 mark]**\n\n> **[exam-tip]**\n> Halogenoarenes are much less reactive than halogenoalkanes towards nucleophilic substitution. In bromobenzene, the lone pair on the bromine atom is partially delocalised into the benzene ring, which strengthens the C–Br bond significantly compared to the average C–Br bond."
+    },
+    {
+     "id": "qstnprt_StrY84vmGgpDFZHm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8XsxkP29yk9mkKxS"
+     ],
+     "part_tier": null,
+     "problem_md": "The average bond enthalpy of a C–Br bond is 276 kJ mol<sup>-1</sup>. Suggest whether the bond enthalpy of the C–Br bond in bromobenzene is greater or less than the average bond enthalpy and state what this means about the strength of the C–Br bond in bromobenzene.",
+     "solution_md": "> **[mark-scheme]**\n> The bond enthalpy of the C–Br bond in bromobenzene compared to the average C–Br bond enthalpy, and what this means for bond strength:\n> \n> - Greater **[1 mark]**\n> - The C–Br bond in bromobenzene is stronger than a typical C–Br bond **[1 mark]**\n\n> **[exam-tip]**\n> This question has two parts: state whether the bond enthalpy is greater or less, then state what this means about bond strength. One mark is available for each.\n> \n> You are not asked to explain why the bond is strong. There is no need to mention delocalisation of the bromine lone pair into the benzene ring."
+    },
+    {
+     "id": "qstnprt_ZcXBtkpQHHWhnnVS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8XsxkP29yk9mkKxS"
+     ],
+     "part_tier": null,
+     "problem_md": "2-bromopentane readily undergoes nucleophilic substitution with a hydroxide ion, OH<sup>–</sup>, to form pentan-2-ol whereas bromobenzene requires extreme conditions to react when attacked by a nucleophile, such as OH<sup>–</sup>.\n\nSuggest what happens, under standard conditions, as a hydroxide ion approaches a molecule of bromobenzene.",
+     "solution_md": "> **[mark-scheme]**\n> When a hydroxide ion approaches bromobenzene under standard conditions:\n> \n> - The hydroxide ion / OH<sup>–</sup> is repelled by the delocalised electrons of the benzene ring **[1 mark]**\n\n> **[exam-tip]**\n> Under standard conditions, the negative charge of the hydroxide ion is repelled by the pi electron cloud above and below the benzene ring, preventing nucleophilic substitution. Only under extreme conditions (around 200 °C and 200 atm pressure) is this repulsion overcome."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2CFyRT4gr78kG6ch",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_gfzGNngwbSsyJ99B",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2004",
+      "number": "4",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_FRWWV78WKDwVvHRD"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 3.1 shows two reactions of methylbenzene.\n\n![Two reactions of methylbenzene: Reaction 1 shows chlorination of the ring with Cl~2~/AlCl~3~ (electrophilic substitution), and Reaction 2 shows chlorination of the methyl group side chain with Cl~2~/UV light (free radical substitution)](assets/027-two-reactions-of-methylbenzene-reaction-1-shows-.png)\n\n**Fig. 3.1**\n\ni) State the conditions required for reaction **1**.\n\n[1]\n\nii) State the conditions required for reaction **2**.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The conditions required for Reaction 1 (electrophilic substitution of the ring):\n> \n> Any **one** from:\n> \n> - AlCl<sub>3</sub>\n> - FeCl<sub>3</sub>\n> - Al\n> - Fe\n> \n> **[1 mark]**\n> \n> ii) The conditions required for Reaction 2 (free radical substitution of the side chain):\n> \n> - UV light / sunlight / hf **[1 mark]**\n> \n> 'Aqueous' is not accepted as a condition for Reaction 2\n\n> **[exam-tip]**\n> Reaction 1 substitutes a hydrogen on the benzene ring (electrophilic substitution), requiring a halogen carrier.\n> \n> AlCl<sub>3</sub> and FeCl<sub>3</sub> are used directly; Al and Fe react with Cl<sub>2</sub> in situ to form the halide. I<sub>2</sub> is not a valid halogen carrier for chlorination.\n> \n> Reaction 2 substitutes a hydrogen on the methyl group side chain (free radical substitution), requiring UV light. Writing 'aqueous' does not gain the mark."
+    },
+    {
+     "id": "qstnprt_nTWFdX6TrnCNTRNB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2004",
+      "number": "4",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B6ncnh7hNfFYwFdh"
+     ],
+     "part_tier": null,
+     "problem_md": "State the reagent needed to carry out the following reaction occurring in Fig. 3.2.\n\n![Reaction 3 showing the conversion of 4-methylbenzoic acid (a carboxylic acid) to the corresponding acyl chloride using a suitable reagent](assets/028-reaction-3-showing-the-conversion-of-4-methylben.png)\n\n**Fig. 3.2**",
+     "solution_md": "> **[mark-scheme]**\n> The reagent for Reaction 3 (conversion of carboxylic acid to acyl chloride):\n> \n> Any **one** from:\n> \n> - SOCl<sub>2</sub>\n> - PCl<sub>5</sub>\n> - PCl<sub>3</sub>\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> Three reagents can convert a carboxylic acid to an acyl chloride:\n> \n> - Sulfur dichloride oxide, SOCl<sub>2</sub> (liquid)\n> - Phosphorus(V) chloride, PCl<sub>5</sub> (solid)\n> - Phosphorus(III) chloride, PCl<sub>3</sub> (liquid, with heat)"
+    },
+    {
+     "id": "qstnprt_xRpRJqr48wqxqcYC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2004",
+      "number": "4",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WSGChyvVnBFDWBhq"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 3.1 shows two reactions of methylbenzene.\n\nReaction 1 shows chlorination of the ring with Cl~2~/AlCl~3~ (electrophilic substitution), and Reaction 2 shows chlorination of the methyl group side chain with Cl~2~/UV light (free radical substitution)\n\nFig. 3.2 shows Reaction 3 showing the conversion of 4-methylbenzoic acid (a carboxylic acid) to the corresponding acyl chloride using a suitable reagent\n\nThe three chloro-compounds **A**, **B** and **C** vary in their ease of hydrolysis.\n\ni) Place a tick in the box in Table 3.1 corresponding to the correct relative rates of hydrolysis. [the symbol '>' means 'faster than'].\n\n**Table 3.1**\n\n|   | Place **one** tick only in this column |\n|---|---|\n| **A** > **B** > **C** |   |\n| **A** > **C** > **B** |   |\n| **B** > **A** > **C** |   |\n| **B** > **C** > **A** |   |\n| **C** > **B** > **A** |   |\n| **C** > **A** > **B** |   |\n\n[1]\n\nii) Suggest an explanation for these differences in reactivity.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The correct order of ease of hydrolysis:\n> \n> - **C** > **B** > **A** **[1 mark]**\n> \n> ii) The explanation for the differences in reactivity:\n> \n> - Compound **C** (acyl chloride) is most reactive: the carbon atom is highly δ+ due to bonding to two electronegative atoms (Cl and =O)\n> **OR**\n> an addition-elimination mechanism is possible **[1 mark]**\n> - Compound **A** (aryl chloride) is least reactive: a lone pair on the Cl atom is delocalised into the π system of the benzene ring, giving the C–Cl bond partial double-bond character and making it very strong **[1 mark]**\n\n> **[exam-tip]**\n> Hydrolysis involves nucleophilic attack by OH<sup>–</sup> on the carbon atom. Ease of hydrolysis depends on how accessible and electron-deficient that carbon is:\n> \n> Compound **C** (acyl chloride) is most reactive: the carbon is highly δ+ (bonded to two electronegative groups: Cl and C=O), and an addition-elimination mechanism is available.\n> \n> Compound **B** (chloroalkyl benzene) is intermediate: the C–Cl bond is polar and accessible, but the carbon is less activated than in an acyl chloride.\n> \n> Compound **A** (aryl chloride) is least reactive: the lone pair on Cl is delocalised into the benzene ring π system, creating partial double-bond character that significantly strengthens the C–Cl bond."
+    }
+   ]
+  }
+ ]
+}

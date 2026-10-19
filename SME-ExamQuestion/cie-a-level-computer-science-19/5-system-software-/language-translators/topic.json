@@ -1,0 +1,715 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:18Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "5-system-software-",
+  "name": "5. System Software"
+ },
+ "topic": {
+  "id": "top_YRT63tdMZnFnXBSg",
+  "slug": "language-translators",
+  "name": "Language Translators",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "development-tools",
+   "name": "Development Tools",
+   "revision_note_id": "rn_VC5WR2zs35hdf8tJ"
+  },
+  {
+   "slug": "translator-types",
+   "name": "Translator Types",
+   "revision_note_id": "rn_JJh9fSb6YyhgPg95"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_pmtdfkRPhybDnQtJ",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 19,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/5-system-software-/language-translators/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 19,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_rhsdQrfynbN2QgfK",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_YxM87ywmcSK6hCRz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c32hVzKhMjckFJNB"
+     ],
+     "part_tier": null,
+     "problem_md": "A software company must choose between two ways of supplying a new program to its customers, who use three different operating systems.\n\n**Method A:** fully compile the program separately for each of the three operating systems, and supply three different executable files.\n\n**Method B:** partially compile the program once, and supply one file that is interpreted when it is run.\n\nExplain **one** benefit and **one** drawback to the company of choosing Method B.",
+     "solution_md": "Benefit: the company only has to produce and maintain one file, **[1]** because the partially compiled file is interpreted when it is run and so works on all three operating systems. **[1]**\n\nDrawback: every customer's computer must have the interpreting software installed, **[1]** and part of the translation then happens every time the program is run, so the program takes longer to run than a fully compiled executable file. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Max 2 marks** for the benefit and **max 2 marks** for the drawback.\n> \n> Benefit, **1 mark** for each point:\n> \n> - Only one file has to be produced // only one file has to be maintained and updated\n> - ... because the partially compiled file is interpreted when it is run, so it works on all three operating systems\n> - A change to the program only has to be made and translated once, not three times\n> - The machine code is generated at run time, so the code is optimised for the processor it is running on\n> \n> Drawback, **1 mark** for each point:\n> \n> - The customer's computer must have the interpreting software installed\n> - ... so the program will not run on a computer that does not have it\n> - Part of the translation happens every time the program is run\n> - ... so the program takes longer to run than a fully compiled executable file\n> \n> Do not credit two benefits or two drawbacks. The maximum for each side is 2 marks.\n> \n> Do not accept \"Method B is easier\" without saying what is easier and why.\n\n> **[exam-tip]**\n> Read the tariff and the wording together. Four marks split as one benefit and one drawback means two marks are available on each side, so develop each point with a \"because\" rather than writing four separate one-line advantages. Two benefits and no drawback caps you at 2 marks however good they are.\n> \n> The drawback students miss is that Method B still needs a translator on the customer's computer. Method A does not. That is the trade the company is really making."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mwSSZy3RRVqv3Jy6",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Vd98RVJmP5PR7M97",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c32hVzKhMjckFJNB"
+     ],
+     "part_tier": null,
+     "problem_md": "A company writes one program and supplies exactly the same partially compiled file to customers who use three different types of computer.\n\nExplain how partial compilation allows the same file to run on all three types of computer.",
+     "solution_md": "The compiled file is not the machine code of one particular processor, so it is not tied to a single type of computer. **[1]**\n\nEach type of computer has its own interpreter, which translates the compiled file when the program is run. **[1]**\n\nThe machine code is therefore generated at run time for whichever processor the program is running on, so the company does not need to produce a separately compiled version for each type of computer. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each point, **max 3**:\n> \n> - The compiled file is not the machine code of one particular processor\n> - Each type of computer has its own interpreter for the compiled file\n> - The compiled file is interpreted when the program is run\n> - ... so the machine code is generated at run time for that processor\n> - The company only has to produce and supply one file rather than one for each type of computer\n> \n> Accept \"platform\" in place of \"type of computer\".\n> \n> Do not accept \"Java runs on any computer\" on its own. The answer must say why.\n> \n> Do not accept \"the file is compiled for each computer\". Nothing is recompiled by the customer.\n\n> **[exam-tip]**\n> \"It works on any computer\" is a statement, not an explanation, and it earns nothing. An \"explain\" question wants the mechanism, so give the two halves: the compiled file is not machine code for one processor, and an interpreter on each computer finishes the translation while the program runs.\n> \n> Be careful with the word compile in your last sentence. The customer's computer interprets the file; it does not compile it again."
+    }
+   ]
+  },
+  {
+   "id": "qstn_D2Ch4hbRGxbY8hQ6",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Syb5hDTBZtc5Yx2y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c32hVzKhMjckFJNB"
+     ],
+     "part_tier": null,
+     "problem_md": "Some programs written in a high-level language are partially compiled and partially interpreted. Java (console mode) is one example.\n\nDescribe what happens when a program is partially compiled and partially interpreted.",
+     "solution_md": "The source code is first compiled into a form that is not the machine code of any one processor. **[1]**\n\nThat compiled code is then interpreted when the program is run, so the machine code is generated at run time. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - The source code is compiled first\n> - ... into a form that is not the machine code of one particular processor\n> - The compiled code is then interpreted when the program is run\n> - ... so the machine code is generated at run time\n> - Translation is therefore completed in two stages, one before the program is run and one while it runs\n> \n> **[2 marks]**\n> \n> Do not accept \"the whole program is compiled into machine code and then run\". If the program were fully compiled there would be nothing left to interpret.\n> \n> Do not accept an answer that only gives a benefit, such as \"it can be used on different platforms\". The question asks what happens, not why it is useful.\n\n> **[exam-tip]**\n> The word students drop is \"interpreted\". Many answers say the program is compiled and then run, which describes ordinary compilation and earns one mark at most. Say clearly that the compiled code is interpreted while the program runs.\n> \n> Two stages, two marks. Write one sentence about the compiling stage and one about the interpreting stage and you have the answer."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3xHPvwmt54NbFwvr",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_hc4596zxm6rBwzdF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A company has finished writing a program that controls the lighting in a large office building.\n\nThe program will be installed on 200 identical control units. Each control unit has a small amount of memory and has no translator software installed on it.\n\nThe company does not want its customers to be able to read or change the program code.\n\nIdentify whether a compiler or an interpreter should be used to prepare the program for the control units, and justify your choice.",
+     "solution_md": "A compiler should be used.\n\nA compiler produces an executable file, **[1]** so each control unit can run the program even though it has no translator software installed. **[1]**\n\nThe program is translated once, before it is installed, so no translation takes place while the program is running. **[1]**\n\nOnly the executable file is installed on the control units, not the source code, **[1]** so customers cannot read or change the program code. **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> No mark is given for the choice. **1 mark** for each justification point, **max 5**:\n> \n> - A compiler produces an executable file\n> - ... so the control unit can run the program without any translator installed\n> - ... whereas an interpreter would have to be installed on all 200 control units\n> - The program is translated once, before it is installed\n> - ... so no translation takes place while the program is running\n> - ... so the program does not need memory for a translator while it runs\n> - Only the executable file is installed, not the source code\n> - ... so the customer cannot read, change or copy the program code\n> - The program is complete, so the real-time error correction an interpreter offers is no longer needed\n> - The compiler produces a full error report, so all errors can be found before the program is installed on 200 units\n> \n> Marks are only available for a justification of the compiler. A justification of the interpreter earns 0.\n> \n> Do not accept \"compiled code always runs faster\" on its own. It must be linked to a reason, for example that the program is translated once before it is run so no translating happens while it runs.\n> \n> Do not accept \"it is easier to debug\" as a justification here. The program is already finished.\n\n> **[exam-tip]**\n> The marks in a \"justify\" question are in the justification, not in the choice, so never stop at \"a compiler\". Work through the facts you were given, one at a time: no translator installed, small memory, and code that must stay hidden. Each of those gives you a separate justification point.\n> \n> \"Compiled code runs faster\" is the answer examiners see most and credit least. Add the reason and it becomes a mark: the whole program is translated before it is run, so no time is spent translating while it is running."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3rx55NgCGVzbYQkD",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_pTv2tghhfVJ4QzRG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is written in a high-level language.\n\nCompare the way a compiler translates the program with the way an interpreter translates the program.",
+     "solution_md": "A compiler translates the whole program in one go, before any of it is run, and produces an executable file. **[1]**\n\nAn interpreter translates one statement at a time and executes each statement immediately after translating it. **[1]**\n\nThe executable file produced by the compiler can be run without the compiler being present, but the interpreter has to translate the program again every time it is run, so the interpreter must be present each time. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Max 3 marks**, with at least **1 mark** from each list.\n> \n> Compiler:\n> \n> - Translates the whole program in one go // translates all of the source code before any of it is run\n> - Produces an executable file // produces object code that is saved\n> - The program is translated once, and the executable file can then be run many times\n> - The compiler is not needed when the program is run\n> - Produces a full error report after translating\n> \n> Interpreter:\n> \n> - Translates one statement at a time\n> - Executes each statement immediately after translating it\n> - The program is translated again every time it is run\n> - The interpreter must be present whenever the program is run\n> - Stops at the first error and reports it\n> \n> **[3 marks]**\n> \n> Do not accept \"a compiler is faster\" without saying what is faster and why.\n> \n> Do not accept \"an interpreter translates line by line\" on its own for both marks. The interpreter mark also needs the execution point, that each statement is executed as it is translated.\n\n> **[exam-tip]**\n> A \"compare\" question needs both sides. Answers that describe only the compiler cannot reach full marks, however detailed they are. Write a point about the compiler, then the matching point about the interpreter.\n> \n> The point students most often leave out is that an interpreter executes each statement as well as translating it. A compiler only translates. That single difference explains why the compiler produces a file you can run later and the interpreter does not."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sHp3VmSP83G2ykP9",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9BS2DY9kST7CBWJf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A finished program written in a high-level language is supplied to customers.\n\nState **two** drawbacks of supplying this program so that it is run by an interpreter, instead of supplying a compiled version.",
+     "solution_md": "The customer must have the interpreter installed, otherwise the program will not run. **[1]**\n\nThe program is translated every time it is run, so translation takes time on every run. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - The customer must have the interpreter installed in order to run the program\n> - The program has to be translated every time it is run // it is not translated once and then reused\n> - ... so the program takes longer to run than a compiled executable file\n> - The source code has to be supplied to the customer\n> - ... so the customer can read, change or copy the program code\n> \n> **[2 marks]**\n> \n> Do not accept \"the interpreter reports only one error at a time\" or \"errors can be corrected in real time\". Those describe an interpreter during development, and neither is a drawback of supplying a finished program.\n> \n> Do not accept \"an interpreter is slower\" without saying why it is slower.\n\n> **[exam-tip]**\n> Students revise the list of interpreter advantages and then write the same points here with the word \"not\" added. That does not work. The advantages of an interpreter, stopping at the first error and letting you correct it immediately, belong to the programmer writing the code. This question is about the customer running a finished program.\n> \n> If you write that the program is slower, add the reason: it is translated again every time it is run."
+    }
+   ]
+  },
+  {
+   "id": "qstn_nFWdVkz9Nbfxns7B",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_K4ngSymKVMVJtkDv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSpsp5hvwsWwRzdX"
+     ],
+     "part_tier": null,
+     "problem_md": "A company is working on three programs.\n\n- **Program 1** is written in assembly language and controls a robot arm in a factory.\n- **Program 2** is written in a high-level language. A programmer is still writing and testing it.\n- **Program 3** is a finished high-level language program that will be sold to customers on a memory stick.\n\nComplete the table by naming the most appropriate translator for each program and giving **one** reason for each choice.\n\n| Program | Translator | Reason |\n|---|---|---|\n| Program 1 |   |   |\n| Program 2 |   |   |\n| Program 3 |   |   |",
+     "solution_md": "| Program | Translator | Reason |\n|---|---|---|\n| Program 1 | **Assembler** **[1]** | **It is the only translator that converts an assembly language program into machine code.** **[1]** |\n| Program 2 | **Interpreter** **[1]** | **It translates and executes one statement at a time and stops at the first error, so the programmer can correct the error and see the effect immediately.** **[1]** |\n| Program 3 | **Compiler** **[1]** | **It produces an executable file, so the customer can run the program without having a translator installed.** **[1]** |\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each correct translator and **1 mark** for a matching reason.\n> \n> Accept for the Program 1 reason: the program is not written in a high-level language, so a compiler or an interpreter cannot be used // it translates the assembly language program into machine code that the robot arm controller can execute\n> \n> Accept for the Program 2 reason: only one error is reported at a time, so there are no dependent errors to sort out // a partially written program can be translated and tested\n> \n> Accept for the Program 3 reason: the source code is not supplied, so the customer cannot read or change it // the program is translated once rather than every time the customer runs it\n> \n> A reason mark can only be awarded if the translator named in the same row is correct.\n> \n> Do not accept \"it is faster\" on its own for any row.\n> \n> Do not accept \"an interpreter is slower\" as the reason for Program 3, because a reason must say what the compiler gives the customer.\n\n> **[exam-tip]**\n> Each reason must fit the program described in that row, not translators in general. \"A compiler is better\" earns nothing. \"It produces an executable file so the customer does not need a translator installed\" earns the mark because it uses the detail in the question, that the program is sold to customers.\n> \n> Program 1 catches students out because they are thinking about compilers and interpreters. Look at the language first. Assembly language means assembler, whatever the program is for."
+    }
+   ]
+  },
+  {
+   "id": "qstn_NbPYfbKrBHct8ZbN",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dG3vPQqtW8p6ZD6J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSpsp5hvwsWwRzdX"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer writes the control program for a washing machine in assembly language.\n\nExplain why an assembler is needed before the washing machine can run this program.",
+     "solution_md": "The processor in the washing machine can only execute instructions that are in machine code. **[1]**\n\nAssembly language is a low-level language written in a text form, so the processor cannot execute it directly. **[1]**\n\nThe assembler translates the assembly language program into machine code, which is then loaded and run by the washing machine. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each point, **max 3**:\n> \n> - The processor can only execute machine code\n> - Assembly language cannot be executed by the processor directly\n> - The assembler translates the assembly language program into machine code\n> - ... so the translated program can be loaded and run by the washing machine\n> \n> Accept \"object code\" in place of \"machine code\".\n> \n> Accept \"each assembly language instruction is translated into one machine code instruction\" for the third point.\n> \n> Do not accept \"so the computer can understand it\" on its own. The answer must name machine code.\n> \n> Do not accept a description of the first pass and second pass of the assembler. That is not what this question asks for.\n\n> **[exam-tip]**\n> Two answers lose marks here every year. The first is \"so the computer can understand it\", which is too vague to credit. Name machine code and say that this is the only form the processor can execute.\n> \n> The second is a description of the two passes of a two-pass assembler. That is a different question. This one asks why the assembler is needed at all, so keep your answer on what the processor can and cannot run."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kZVdJjYjxwt8yXK5",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_FkmzvrjnPMNxqMD2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSpsp5hvwsWwRzdX"
+     ],
+     "part_tier": null,
+     "problem_md": "A software company writes several programs. Each program must be translated before a computer can run it.\n\nIdentify the translator needed in each of the following situations.\n\n(i) A program written in assembly language must be translated into machine code.\n\n(1)\n\n(ii) A finished program written in a high-level language must be translated into an executable file that a customer can run without a translator being installed.\n\n(1)",
+     "solution_md": "(i) Assembler **[1]**\n\n(ii) Compiler **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for assembler\n> \n> **1 mark** for compiler\n> \n> Accept \"assembler software\" for (i)\n> \n> Do not accept compiler or interpreter for (i). Only an assembler translates a program written in assembly language\n> \n> Do not accept interpreter for (ii). An interpreter does not produce an executable file, and it must be present every time the program is run\n\n> **[exam-tip]**\n> The most common error here is writing \"compiler\" for the assembly language program. A compiler and an interpreter both take a high-level language as their input. Assembly language is a low-level language, and the assembler is the only translator that handles it.\n> \n> Read part (ii) for the words \"executable file\". Those two words rule the interpreter out on their own."
+    }
+   ]
+  },
+  {
+   "id": "qstn_s58b4BrrHPC8htkn",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_b8Ht2vn2yPG4pmJ4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer is developing a program using an Integrated Development Environment (IDE).\n\nThe table describes five problems the programmer has while developing the program.\n\nComplete the table by naming the feature of a typical IDE that solves each problem.\n\n| Problem | IDE feature |\n|---|---|\n| The programmer types a keyword incorrectly and wants the mistake to be shown on the screen straight away, before the program is run. |   |\n| The programmer cannot remember the exact name of a built-in function and wants the IDE to offer the possible names while the name is being typed. |   |\n| The program is now several thousand lines long and the programmer wants to hide the sections of code that they are not working on. |   |\n| A variable holds the wrong value, and the programmer wants the program to stop running at a chosen line so that the value can be checked at that point. |   |\n| The programmer wants the current values of several variables to be displayed on the screen while the program runs. |   |",
+     "solution_md": "| Problem | IDE feature |\n|---|---|\n| The programmer types a keyword incorrectly and wants the mistake to be shown on the screen straight away, before the program is run. | **Dynamic syntax check** **[1]** |\n| The programmer cannot remember the exact name of a built-in function and wants the IDE to offer the possible names while the name is being typed. | **Context-sensitive prompt** **[1]** |\n| The program is now several thousand lines long and the programmer wants to hide the sections of code that they are not working on. | **Expand and collapse code blocks** **[1]** |\n| A variable holds the wrong value, and the programmer wants the program to stop running at a chosen line so that the value can be checked at that point. | **Breakpoint** **[1]** |\n| The programmer wants the current values of several variables to be displayed on the screen while the program runs. | **Report window** **[1]** |\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for row 1: dynamic syntax check. Accept \"syntax check as the code is typed\" or \"dynamic syntax checking\". Accept \"prettyprint\", because Cambridge credits pretty-printing as colour-coding keywords \"so the user can identify any errors\"\n> \n> **1 mark** for row 2: context-sensitive prompt. Accept \"auto-complete\" or \"auto-completion\"\n> \n> **1 mark** for row 3: expand and collapse code blocks. Accept \"collapse code blocks\" or \"expand/collapse blocks\". Do not accept \"comments\", because commenting out a block removes it from the program instead of hiding it on the screen\n> \n> **1 mark** for row 4: breakpoint. Do not accept \"single stepping\", because single stepping runs the program one statement at a time from the start rather than stopping it at a line the programmer chooses\n> \n> **1 mark** for row 5: report window. Accept \"watch window\", \"variable watch window\" or \"variable window\". Do not accept \"breakpoint\", because a breakpoint halts the program and it is the report window that displays the values\n\n> **[exam-tip]**\n> Rows 4 and 5 are where marks are lost, because the three debugging features get mixed up. A breakpoint decides where the program stops, single stepping decides how fast it moves, and the report window is the only one of the three that actually displays the contents of the variables. Learn them as three different jobs, not as three names for debugging.\n> \n> The syllabus groups IDE features under four purposes: coding, initial error detection, presentation and debugging. When a question describes a problem, decide which of those four purposes it belongs to first. That narrows five possible answers down to one or two."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hT7GChm2v294tdcm",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_83HpHc97BCzdD9SW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer is working on a program that contains several thousand lines of code.\n\nThe Integrated Development Environment (IDE) displays the code using prettyprint.\n\nExplain how prettyprint helps the programmer while the program is being written.",
+     "solution_md": "Keywords are displayed in a different colour from the rest of the code. **[1]**\n\nStrings, comments and identifiers are each given their own colour, so the separate parts of a statement can be told apart. **[1]**\n\nA keyword that has been typed incorrectly is not coloured, so the programmer notices the mistake as it is made. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - Keywords are displayed in a different colour / font / style from the rest of the code\n> - Strings, comments, identifiers and other parts of the code are shown in different colours so they can be told apart\n> - A keyword typed incorrectly is not coloured or highlighted, so the mistake is noticed as it is made\n> - The code is easier to read, so the programmer can find their way around a long program more quickly\n> \n> **[3 marks]**\n> \n> Accept \"syntax highlighting\" as an alternative name, but write prettyprint, which is the term used in the syllabus\n> \n> Do not accept \"it corrects the spelling of a keyword\", because prettyprint changes how the code is displayed and never changes the code itself\n> \n> Do not accept \"it checks the code against the rules of the language\", which is a dynamic syntax check and not prettyprint\n\n> **[exam-tip]**\n> \"It makes the code look nice\" earns nothing. Say what prettyprint does to the code on the screen, which is colour, and then say what the programmer gains from it.\n> \n> Keep prettyprint apart from a dynamic syntax check. Prettyprint is a presentation feature, so it changes how correct code is displayed. It does not test a statement against the rules of the language."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5NKqnnwGBtYDNtYS",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MyrQ9Pz6KpQdQfTt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer writes a program in a high-level language using an Integrated Development Environment (IDE).\n\nThe IDE provides features for initial error detection.\n\nDescribe how a dynamic syntax check helps the programmer.",
+     "solution_md": "Each statement is checked against the rules of the programming language as the code is being typed. **[1]**\n\nAny statement that does not follow the rules is underlined or highlighted, so the programmer sees the error before the program is run. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the check happening while the code is entered, e.g. each statement is checked against the rules (syntax) of the language as it is typed\n> \n> **1 mark** for how the error is shown, e.g. the statement that breaks the rules is underlined / highlighted / coloured, so the error is seen before the program is run\n> \n> Accept \"the grammar of the language\" or \"the rules of the language\" in place of syntax\n> \n> Accept \"flags\", \"marks\" or \"displays an error message beside the line\" in place of underlines or highlights\n> \n> Do not accept \"it produces a list of all the errors at the end of translation\", which describes a compiler's error report and not a dynamic check\n> \n> Do not accept \"it finds logic errors\", because a syntax check only tests the rules of the language\n> \n> Do not accept \"it corrects the error\", because the IDE shows the error and the programmer repairs it\n\n> **[exam-tip]**\n> The mark that goes missing here is the one hidden in the word \"dynamic\". The examiner wants to see that the checking happens as you type, not when you press run. Put \"as the code is being entered\" somewhere in your answer and that mark is safe.\n> \n> Keep syntax errors and logic errors apart. A dynamic syntax check cannot tell you that you have written a plus sign where you needed a minus sign, because that statement still obeys the rules of the language."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bj6FtMH2V37bfzWR",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_h3qXKx5YPzhRZqdD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses an Integrated Development Environment (IDE) to develop a program that monitors air quality.\n\nDescribe the following features of a typical IDE.\n\nContext‑sensitive prompts ....................................\n\nSingle stepping .......................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2** for each feature).\n> \n> Context-sensitive prompts:\n> \n> - As the code is being written\n> - …the options to complete the statement are shown\n> \n> Single stepping:\n> \n> - allows the programmer to execute the program one line at a time\n> - …so that the effects of each statement can be seen"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vr3TTd73gCG462Nz",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_xP2HBp6PJvxwD4vj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses both a compiler and an interpreter to translate a program written in a high-level language.\n\nDescribe the advantages of using the interpreter compared to the compiler to translate the program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 4**)\n> \n> - easier to debug the program\n> - … because it translates line-by-line and stops when an error is found whereas the compiler translates all the program at the same time\n> - … only reporting one error at a time\n> - … which allows the error to be corrected in real time whereas the program would need to be corrected and recompiled\n> - ... and the program can restart at same point when error occurred with a compiler the program needs to be re-run\n> - The effect of any changes made by the programmer can be seen immediately with a compiler the effects can only be seen after re-running\n> - A partially completed program can be translated / tested on its own a compiler cannot translate a partial program"
+    },
+    {
+     "id": "qstnprt_yFbKjmxQjfT6kSmy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_c32hVzKhMjckFJNB"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **reason why some high-level languages are partially compiled and partially interpreted.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Partially compiled programs can be used on different platforms as they are interpreted when run\n> - Code is optimised for the CPU as machine code is generated at run time\n> - Source code does not need recompiling so more efficient to run"
+    },
+    {
+     "id": "qstnprt_X6gQsYT4MPcM9PPq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Identify **two **features that support the visual presentation of the code in a typical Integrated Development Environment (IDE).\n\n(2)\n\n(ii) Identify **two **features that support the debugging of the code in a typical IDE.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Prettyprint\n> - Expand/collapse code blocks\n> - Auto indentation / formatting\n> \n> **1 mark** for each bullet point (**max 2**)\n> \n> - Single stepping\n> - Breakpoints\n> - Report window\n> - Variable expressions"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JVy4RnmB24HqGDqd",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_DmnTKzY2svQNQsCb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A program has been developed and released for general use. After a few months of use an error is detected where under certain circumstances it outputs an unexpected value.\n\nThe program contains a function `Lookup()`. After investigation, it is found that this is the function that sometimes returns an incorrect value.\n\nAn Integrated Development Environment (IDE) is used to help locate the error.\n\nThe IDE features of watch window, single stepping and breakpoint will be used.\n\nExplain these features including the order that they will be used in to locate the error in `Lookup()`.",
+     "solution_md": "> **[mark-scheme]**\n> For example:\n> \n> - Set a breakpoint at the start of / within Lookup, to stop execution at a given statement\n> - then use single stepping to execute one statement / instruction at a time\n> - to display the value of variables using a watch window\n> \n> One mark for each:\n> \n> **MP1 **Order starting with a breakpoint **and **an explanation – ‘stop execution <u>at this statement / line’</u>\n> \n> **MP2 **Explanation of single stepping – execute ‘line by line’ / statements\n> \n> **MP3 **Explanation of watch window – displaying the value of <u>variable(s)</u>"
+    },
+    {
+     "id": "qstnprt_CmRBSK8fbRwkh2Hj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "To solve the error a programmer decides to create a new module.\n\nThe design of the new module has been completed and the module is being coded.\n\nIdentify **two** features of an IDE that will help during the coding of this new module.",
+     "solution_md": "> **[mark-scheme]**\n> Features include:\n> \n> **MP1 **Editor\n> \n> **MP2 **<u>Auto</u>- (syntax) complete / <u>auto </u>correction // identify undeclared variables(s)\n> \n> **MP3 **Prettyprint / <u>auto</u>-indentation / <u>auto</u> (structure) highlighter\n> \n> **MP4 **<u>Dynamic</u> syntax checking\n> \n> **MP5 **Expand / collapse code blocks\n> \n> **MP6 **Context sensitive prompts\n> \n> **Max 2 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qctX8TDk3TdfR3ds",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ZWTg7vgyXPYTMphM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses an Integrated Development Environment (IDE) to write a computer program. The IDE has both a compiler and an interpreter as built-in translators.\n\nThe programmer decides to use the compiler when testing the final program.\n\nDescribe the benefits of using the compiler during testing.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Creates an executable file\n> - … so the code can be tested multiple times without having to recompile\n> - … so** repeated testing** takes less time"
+    },
+    {
+     "id": "qstnprt_kVvFDQt8HtdnwrSx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "IDEs have many features other than built-in translators.\n\nComplete the table by identifying **one other **common IDE feature that can be used for each purpose. Describe how each feature helps the user during program development.\n\nEach feature must be different. Do **not **give translator as one of your features.\n\n| **Purpose** | IDE feature | Description |\n|---|---|---|\n| **for coding** |   |   |\n| **for presentation** |   |   |\n| **for debugging** |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for identification of each feature and **1 mark** for matching description:\n> \n> e.g.\n> \n> *For coding:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Context-sensitive prompts | **Gives suggestions** for code as the user types instead of having to write/remember the code |\n> | **Auto**-correct | Corrects spelling mistakes so that user has fewer errors to correct |\n> \n> *For presentation:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Pretty-printing | Colour code keywords so the user can identify any errors |\n> | Expand/collapse (code) blocks | The user can hide code that they are not currently working on |\n> \n> *For debugging:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Single stepping | Run the code **one line at a time** // shows the effect of each line of code |\n> | Breakpoints | Stop the code running at a set point to check the flow/variable contents |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xzXZmKgCKfdVtCp2",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_2HyPXY63mB287tst",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A software developer is writing a computer program.\n\nThe developer uses an interpreter while writing the program code because it is easier for debugging.\n\nExplain **one **reason why it is easier to debug the program code using an interpreter instead of a compiler.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - The interpreter will stop when an error is found\n> - ... so the error can be corrected in real-time, and the result of changes seen immediately\n> - Only one error is displayed at a time\n> - … so fewer errors to correct simultaneously and no dependent errors"
+    },
+    {
+     "id": "qstnprt_VXcdRnyJQJJrdd6h",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "The program is ready to be sold to customers.\n\nThe developer uses a compiler because it creates an executable file.\n\nExplain the reasons why the need to create an executable file makes the complier the appropriate choice when the program is complete.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 3**:\n> \n> - Program can be distributed without source code\n> - ... so it cannot be edited/stolen/plagiarised\n> - Users do not require the translator to run the program\n> - … so time is not spent retranslating by user"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FmNYGw4pFhxpmTdq",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_kFvN8Yxhc7nm6GyJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is written in a high-level language by a team of three programmers using an Integrated Development Environment (IDE).\n\nDescribe how the programmers can use the debugging features of a typical IDE during the development of the program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> e.g.\n> \n> - Single stepping\n> - Run the program one line at a time\n> - … and check the variable contents / program flow // show the effect of each line of code\n> - Set breakpoints\n> - … run the code up to a set line\n> - ... and then check the status\n> - Variable/report watch window\n> - … view how the data changes as the program is running"
+    }
+   ]
+  },
+  {
+   "id": "qstn_psdfy8zXPNgYgCrd",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_PbvtgH3xPXs6Bcvn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe program code is written using an Integrated Development Environment (IDE).\n\n(i) One presentation feature found in a typical IDE is prettyprint.\n\nIdentify **and **describe **one other** presentation feature found in a typical IDE.\n\n(2)\n\n(ii) One debugging feature found in a typical IDE is single stepping.\n\nIdentify **and **describe **one other **debugging feature found in a typical IDE.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for correct name, **1 mark **for matching description\n> \n> - Expand/collapse code blocks…\n> - … sections of source code that are part of the same block can be expanded to see the content or collapsed so that the overall code is seen\n> - Auto-indentation // auto-formatting...\n> - ... automatically indents/formats code as the user types so that the structure is clear // aids readability\n> \n> (ii) **1 mark** for correct name, **1 mark **for matching description\n> \n> - Breakpoints …\n> - … stops the code running on a set line to view the current status/variable contents/program flow\n> - Report window // variable watch window …\n> - … shows the values in variables/data structures and how they change when each line is run"
+    }
+   ]
+  }
+ ]
+}

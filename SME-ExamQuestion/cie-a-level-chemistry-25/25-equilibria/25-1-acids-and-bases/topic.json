@@ -1,0 +1,1012 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:50:10Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "25-equilibria",
+  "name": "25. Equilibria"
+ },
+ "topic": {
+  "id": "top_qMt96T76TtQrwf63",
+  "slug": "25-1-acids-and-bases",
+  "name": "Acids & Bases",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "solubility-product-calculations",
+   "name": "Solubility Product Calculations",
+   "revision_note_id": "rn_pcb2VhCnMnzgfw4r"
+  },
+  {
+   "slug": "solubility-product",
+   "name": "Solubility Product",
+   "revision_note_id": "rn_cHxChng2KdRvwqDK"
+  },
+  {
+   "slug": "buffer-calculations",
+   "name": "Buffer Calculations",
+   "revision_note_id": "rn_bcpRQSkjprXTdW66"
+  },
+  {
+   "slug": "buffers",
+   "name": "Buffers",
+   "revision_note_id": "rn_3hNmsbryjJYJss7F"
+  },
+  {
+   "slug": "ph-ka-pka-and-kw-calculations",
+   "name": "pH, Ka, pKa & Kw Calculations",
+   "revision_note_id": "rn_ZhBfj7MwMS8GRj58"
+  },
+  {
+   "slug": "the-common-ion-effect",
+   "name": "The Common Ion Effect",
+   "revision_note_id": "rn_8JRsjfVcpm7HS8Bv"
+  },
+  {
+   "slug": "ph-and-h-and--calculations",
+   "name": "pH & [H+] Calculations",
+   "revision_note_id": "rn_5jdRQ7FRtvMH9zfv"
+  },
+  {
+   "slug": "conjugate-acids-and-bases",
+   "name": "Conjugate Acids & Bases",
+   "revision_note_id": "rn_2mwXVxgmxTKwptHC"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_XScwMNxwDNhnkRVg",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/25-equilibria/25-1-acids-and-bases/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/screenshot-2023-05-25-215318.png": "001-dot-and-cross-diagram-of-hocn-cyanic-acid-showin.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/screenshot-2023-05-25-215451.png": "002-dot-and-cross-diagram-of-hnco-isocyanic-acid-sho.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/ph-axes.png": "003-blank-graph-showing-ph-y-axis-0-to-14-against-vo.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/img-2527.jpeg": "004-completed-ph-titration-curve-starting-at-ph-2-46.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/05/benzenesulfonic-acid.png": "005-reaction-scheme-showing-benzenesulfonic-acid-con.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/5-5-3b-m-ph-curve---addition-of-hcl-a.png": "006-blank-graph-showing-ph-on-the-y-axis-and-volume-.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/0fe981d5-f478-41f7-a228-d179a7a803f4.jpeg": "007-completed-ph-curve-for-addition-of-0-200-mol-dm-.jpeg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_J7bMQjzsX6dNxG5D",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_9rRmKmYG9K7Mr8vx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rcYTTx2Xn8VynVS7"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Define the term pH.\n\n[1]\n\nii) Calculate the pH of 0.025 mol dm<sup>-3</sup> Ba(OH)<sub>2</sub> (aq) at 298 K. Show your working.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) pH is defined as:\n> \n> - pH = -log[H<sup>+</sup>] **[1 mark]**\n\nii) To calculate the pH of 0.025 mol dm<sup>-3</sup> Ba(OH)<sub>2</sub> (aq) at 298 K:\n\n- Ba(OH)<sub>2</sub> is a strong base and fully dissociates:\n\nBa(OH)<sub>2</sub> → Ba<sup>2+</sup> + 2OH<sup>-</sup>\n\n[OH<sup>-</sup>] = 2 x [Ba(OH)<sub>2</sub>]\n\n[OH<sup>-</sup>] = 2 x 0.025\n\n[OH<sup>-</sup>] = 0.050 mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate [H<sup>+</sup>] using the ionic product of water, *K*<sub>w</sub> = [H<sup>+</sup>][OH<sup>-</sup>] (*K*<sub>w</sub> = 1 x 10<sup>-14</sup> mol<sup>2</sup> dm<sup>-6</sup> at 298 K):\n\n[H<sup>+</sup>] = `\\frac{K_{w}}{[OH^{-}]}`\n\n[H<sup>+</sup>] = $\\frac{1\\times10^{-14}}{0.050}$\n\n[H<sup>+</sup>] = 2 x 10<sup>-13</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Use pH = -log[H<sup>+</sup>] to calculate pH:\n\npH = -log(2 x 10<sup>-13</sup>)\n\npH = **12.7** **[1 mark]**\n\n> **[exam-tip]**\n> When performing calculations involving *K*<sub>w</sub>, always ensure your final answer is consistent with the significant figures provided in the data, typically 3 significant figures for 1.00 x 10<sup>-14</sup>.\n> \n> Failure to include or correctly derive units in structured questions can lead to a loss of marks.\n> \n> As a quick check, strong alkalis at this concentration should give a pH well above 12, so an answer near neutral should immediately raise concern.",
+     "equations": [
+      {
+       "latex": "\\frac{1\\times10^{-14}}{0.050}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>14</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>050</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1 \\times 10^{-14}}{0.050}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ZB46Dvjs8dyKZkcJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3",
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "A buffer solution has 0.40 mol dm<sup>-3</sup> CH<sub>3</sub>COOH and 0.60 mol dm<sup>-3</sup> CH<sub>3</sub>COONa.\n\ni) Calculate the pH of the buffer (*K*<sub>a</sub> = 1.75 x 10<sup>-5</sup>). Show your working.\n\n[3]\n\nii) Construct an equation and explain how the buffer resists pH change when NaOH is added.\n\n[2]",
+     "solution_md": "i) To calculate the pH of the buffer solution:\n\n**Method 1:**\n\n- Find the p*K*<sub>a</sub> using p*K*<sub>a</sub> = -log(*K*<sub>a</sub>):\n\np*K*<sub>a</sub> = -log(1.75 x 10<sup>-5</sup>)\n\np*K*<sub>a</sub> = 4.76 **[1 mark]**\n\n- Substitute values into the Henderson-Hasselbalch equation, pH = p*K*<sub>a</sub> + log([salt]/[acid]):\n\npH = 4.76 + log`\\left(\\frac{0.60}{0.40}\\right)`\n\npH = 4.76 + 0.176 **[1 mark]**\n\npH = **4.93** **[1 mark]**\n\n**Method 2:**\n\n- Write the *K*<sub>a</sub> expression and rearrange to find [H<sup>+</sup>]:\n\n*K*<sub>a</sub> = `\\frac{[H^{+}][A^{-}]}{[HA]}`\n\n[H<sup>+</sup>] = `\\frac{K_{a} \\times [HA]}{[A^{-}]}` **[1 mark]**\n\n- Substitute values:\n\n[H<sup>+</sup>] = $\\frac{1.75\\times10^{-5}\\times0.40}{0.60}$\n\n[H<sup>+</sup>] = 1.167 x 10<sup>-5</sup> mol dm<sup>-3</sup> **[1 mark]**\n\npH = -log(1.167 x 10<sup>-5</sup>)\n\npH = **4.93** **[1 mark]**\n\n> **[mark-scheme]**\n> Method 1:\n> \n> - 1 mark for p*K*<sub>a</sub> = 4.76\n> - 1 mark for pH = 4.76 + log(0.60/0.40) with the log step shown\n> - 1 mark for pH = 4.93\n> \n> A final answer of pH = 4.94 is allowed from Method 1\n> \n> Method 2:\n> \n> - 1 mark for [H<sup>+</sup>] = *K*<sub>a</sub> x [HA] / [A<sup>-</sup>] correctly stated\n> - 1 mark for [H<sup>+</sup>] = 1.167 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n> - 1 mark for pH = 4.93\n\n> **[exam-tip]**\n> For buffer calculations, you can use either the Henderson-Hasselbalch equation (pH = p*K*<sub>a</sub> + log([salt]/[acid])) or the *K*<sub>a</sub> expression rearranged for [H<sup>+</sup>]. Both give the same result.\n> \n> Always place the conjugate base (CH<sub>3</sub>COO<sup>-</sup>) over the weak acid (CH<sub>3</sub>COOH) in the log term, not the other way around.\n\n> **[mark-scheme]**\n> ii) When NaOH is added to the buffer:\n> \n> - CH<sub>3</sub>COOH + OH<sup>-</sup> → CH<sub>3</sub>COO<sup>-</sup> + H<sub>2</sub>O **[1 mark]**\n> - The OH<sup>-</sup> ions are neutralised by reacting with CH<sub>3</sub>COOH, preventing a significant change in pH **[1 mark]**\n\n> **[exam-tip]**\n> When NaOH is added, OH<sup>-</sup> is removed by reaction with the weak acid CH<sub>3</sub>COOH, so the pH changes only slightly.",
+     "equations": [
+      {
+       "latex": "\\frac{1.75\\times10^{-5}\\times0.40}{0.60}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>75</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>40</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>60</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.75 \\times 10^{-5} \\times 0.40}{0.60}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hG7y559JWmRC3wn6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y57yCcdf7wxdpZr9",
+      "spcpt_phqcyxJvJchDcTMN",
+      "spcpt_mjhMDJVnvhydvMWZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Silver sulfate, Ag<sub>2</sub>SO<sub>4</sub>, is a sparingly soluble salt.\n\ni) Define the term solubility product, *K*<sub>sp</sub>.\n\n[2]\n\nii) The *K*<sub>sp</sub> for Ag<sub>2</sub>SO<sub>4</sub> is 1.20 x 10<sup>-5</sup> mol<sup>3</sup> dm<sup>-9</sup>.\n\nCalculate the solubility of Ag<sub>2</sub>SO<sub>4</sub> in water in mol dm<sup>-3</sup>. Show your working.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The solubility product, *K*<sub>sp</sub>, is defined as:\n> \n> - The product of the equilibrium concentrations of each ion in a saturated solution **[1 mark]**\n> - Each raised to the power of its stoichiometric coefficient **[1 mark]**\n\nii) To calculate the solubility of Ag<sub>2</sub>SO<sub>4</sub> in water in mol dm<sup>-3</sup>:\n\n- Write out the ionic equation for dissolution:\n\nAg<sub>2</sub>SO<sub>4</sub> (s) ⇌ 2Ag<sup>+</sup> (aq) + SO<sub>4</sub><sup>2-</sup> (aq)\n\n- Write out the *K*<sub>sp</sub> expression:\n\n*K*<sub>sp</sub> = [Ag<sup>+</sup>]<sup>2</sup>[SO<sub>4</sub><sup>2-</sup>] **[1 mark]**\n\n- Let the solubility of Ag<sub>2</sub>SO<sub>4</sub> be s mol dm<sup>-3</sup>:\n\n[SO<sub>4</sub><sup>2-</sup>] = s, and [Ag<sup>+</sup>] = 2s\n\n- Substitute into the *K*<sub>sp</sub> expression:\n\n*K*<sub>sp</sub> = (2s)<sup>2</sup>(s)\n\n*K*<sub>sp</sub> = 4s<sup>3</sup>\n\n1.20 x 10<sup>-5</sup> = 4s<sup>3</sup> **[1 mark]**\n\n- Solve for s:\n\ns<sup>3</sup> = $\\frac{1.20\\times10^{-5}}{4}$\n\ns<sup>3</sup> = 3.0 x 10<sup>-6</sup>\n\ns = `\\sqrt[3]{3.0 \\times 10^{-6}}`\n\ns = **0.0144 mol dm**<sup>**-3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *K*<sub>sp</sub> = [Ag<sup>+</sup>]<sup>2</sup>[SO<sub>4</sub><sup>2-</sup>]\n> \n> 1 mark for *K*<sub>sp</sub> = (2s)<sup>2</sup>(s) **OR** *K*<sub>sp</sub> = 4s<sup>3</sup> **OR** 1.20 x 10<sup>-5</sup> = 4s<sup>3</sup>\n> \n> 1 mark for s = 0.0144 mol dm<sup>-3</sup>\n\n> **[exam-tip]**\n> A common error is missing powers when an ion appears more than once in the dissolution equation.\n> \n> Always write the dissociation equation first, then express every ion concentration in terms of s before substituting into the *K*<sub>sp</sub> expression.",
+     "equations": [
+      {
+       "latex": "\\frac{1.20\\times10^{-5}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>20</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></mrow><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{1.20 \\times 10^{-5}}{4}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WX6WRs3Y3NWYHW9m",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mjhMDJVnvhydvMWZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSilver sulfate, Ag₂SO₄, is a sparingly soluble salt.\n\nThe Ksp for Ag₂SO₄ is 1.20 x 10⁻⁵ mol³ dm⁻⁹.\n\ni) Predict whether the solubility of Ag<sub>2</sub>SO<sub>4</sub> in 0.10 mol dm<sup>-3</sup> Na<sub>2</sub>SO<sub>4</sub> (aq) is greater than, less than, or equal to its solubility in pure water.\n\n[1]\n\nii) Explain your answer to (d)(i).\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The solubility of Ag<sub>2</sub>SO<sub>4</sub> in 0.10 mol dm<sup>-3</sup> Na<sub>2</sub>SO<sub>4</sub> (aq) is:\n> \n> - Less than its solubility in pure water **[1 mark]**\n> \n> ii) The reason for this is:\n> \n> - Adding Na<sub>2</sub>SO<sub>4</sub> increases the concentration of the common ion, SO<sub>4</sub><sup>2-</sup> **[1 mark]**\n> - This shifts the equilibrium to the left, resulting in precipitation of Ag<sub>2</sub>SO<sub>4</sub> and a reduction in solubility **[1 mark]**\n\n> **[exam-tip]**\n> If a solution already contains one of the ions from a sparingly soluble salt, solubility always decreases.\n> \n> Always name the specific common ion (here: SO<sub>4</sub><sup>2-</sup>). Saying \"a common ion\" without naming it can lose credit.\n> \n> Use the phrase \"shifts the equilibrium to the left\" as examiners look for this.\n> \n> A quick check: adding more product ions never increases solubility."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wxYcrdct5VGx694R",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_NTMXX4SDBfy7Bs8n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "pH calculations of buffer solutions use the following equation:\n\n`K_a = \\frac{[H^+][A^-]}{[HA]}`\n\nState the assumptions made when using this equation for buffer solutions.",
+     "solution_md": "> **[mark-scheme]**\n> The assumptions made when using this equation for buffer calculations are:\n> \n> - The equilibrium concentration of the weak acid, [HA], is equal to the initial concentration of the weak acid **[1 mark]**\n> - The equilibrium concentration of the conjugate base, [A<sup>-</sup>], is equal to the initial concentration of the salt **[1 mark]**\n> \n> These assumptions hold because the degree of dissociation of the weak acid is negligible, so the contributions to [HA] and [A<sup>-</sup>] from dissociation are insignificant.\n\n> **[exam-tip]**\n> Both assumptions stem from the same principle: the weak acid dissociates so slightly that the equilibrium concentrations of HA and A<sup>-</sup> are effectively unchanged from the initial values. If asked to justify the assumptions, state that the degree of dissociation is negligible."
+    },
+    {
+     "id": "qstnprt_dnqMnrnkXtMkWsXc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "Suggest a salt that could be used to form a buffer solution with propanoic acid, CH<sub>3</sub>CH<sub>2</sub>COOH.",
+     "solution_md": "> **[mark-scheme]**\n> A salt that could be used to form a buffer solution with propanoic acid is:\n> \n> - Sodium propanoate / CH<sub>3</sub>CH<sub>2</sub>COONa\n> **OR**\n> Potassium propanoate / CH<sub>3</sub>CH<sub>2</sub>COOK\n> **OR**\n> Lithium propanoate / CH<sub>3</sub>CH<sub>2</sub>COOLi **[1 mark]**\n> \n> Any other soluble salt containing the CH<sub>3</sub>CH<sub>2</sub>COO<sup>-</sup> ion is accepted\n\n> **[exam-tip]**\n> An acidic buffer requires a weak acid and the salt of that weak acid. The salt must be soluble. Group 1 metal salts (sodium, potassium, lithium) are always soluble and are the standard choices."
+    },
+    {
+     "id": "qstnprt_BPvv9RmWkkf3NkjJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\npH calculations of buffer solutions use the following equation:\n\n\\$\\$K_{a} = \\frac{\\left[\\right. H^{+} \\left]\\right. \\left[\\right. A^{-} \\left]\\right.}{\\left[\\right. H A \\left]\\right.}\\$\\$\n\nA buffer solution contains propanoic acid at a concentration of 0.15 mol dm<sup>-3</sup> and a propanoate salt with [A<sup>-</sup>] = 0.30 mol dm<sup>-3</sup>.\n\nThe value of *K*<sub>a</sub> for propanoic acid at 298 K is 1.35 × 10<sup>-5</sup> mol dm<sup>-3</sup>.\n\nCalculate the pH of this buffer solution at 298 K. Show your working.",
+     "solution_md": "To calculate the pH of the buffer solution:\n\n- Write the expression for *K*<sub>a</sub>:\n\n`K_a = \\frac{[H^+][A^-]}{[HA]}` **[1 mark]**\n\n- Rearrange to find [H<sup>+</sup>]:\n\n`[H^+] = \\frac{K_a \\times [HA]}{[A^-]}` **[1 mark]**\n\n- Substitute values and calculate [H<sup>+</sup>]:\n\n`[H^+] = \\frac{1.35 \\times 10^{-5} \\times 0.15}{0.30}`\n\n[H<sup>+</sup>] = 6.75 × 10<sup>-6</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log(6.75 × 10<sup>-6</sup>)\n\npH = **5.17** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct *K*<sub>a</sub> expression\n> \n> 1 mark for correctly rearranging to find [H<sup>+</sup>]\n> \n> 1 mark for [H<sup>+</sup>] = 6.75 × 10<sup>-6</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 5.17\n> \n> Allow error carried forward from an incorrect [H<sup>+</sup>] value if pH = –log[H<sup>+</sup>] is correctly applied\n\n> **[exam-tip]**\n> The Henderson-Hasselbalch equation gives an equivalent route:\n> \n> pH = p*K*<sub>a</sub> + log([A<sup>-</sup>] / [HA]).\n> \n> Here p*K*<sub>a</sub> = –log(1.35 × 10<sup>-5</sup>) = 4.87, and log(0.30 / 0.15) = log 2 = 0.30, giving pH = 4.87 + 0.30 = 5.17."
+    },
+    {
+     "id": "qstnprt_K6tNjdxQz3KxvwTV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\npH calculations of buffer solutions use the following equation:\n\nKa = [H+][A-] / [HA]\n\nBuffer solutions can be tailored to a specific pH by 'coarse-tuning' by changing the acid used, and 'fine-tuning' by altering the ratio of [HA] : [A<sup>-</sup>].\n\nState and explain the effect on the pH of the buffer solution of increasing the concentration of the salt only.",
+     "solution_md": "> **[mark-scheme]**\n> The effect on pH when the concentration of the salt is increased:\n> \n> - The pH will increase **[1 mark]**\n> - [A<sup>-</sup>] increases, so [H<sup>+</sup>] = *K*<sub>a</sub>[HA] / [A<sup>-</sup>] decreases, therefore pH increases **[1 mark]**\n\n> **[exam-tip]**\n> Use the expression [H<sup>+</sup>] = *K*<sub>a</sub>[HA] / [A<sup>-</sup>] to reason through the effect: a larger [A<sup>-</sup>] makes the fraction smaller, decreasing [H<sup>+</sup>] and increasing pH. This is 'fine-tuning' as the ratio [HA] : [A<sup>-</sup>] is being shifted towards A<sup>-</sup>."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SzhBMpm3CHThZM3X",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_wJDRvMsJNsn4ZtNR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2017",
+      "number": "43",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_tCRzWvJsYwc8Wf2y",
+      "spcpt_cbGwbCF5MyQYBRf5"
+     ],
+     "part_tier": null,
+     "problem_md": "One atom of each of the four elements H, C, N and O can bond together in different ways.\n\nTwo examples are molecules of cyanic acid, HOCN, and isocyanic acid, HNCO. The atoms are bonded in the order they are written.\n\ni) Draw 'dot-and-cross' diagrams of HOCN (cyanic acid) and HNCO (isocyanic acid), showing outer shell electrons only.\n\n[3]\n\nii) Suggest the values of the bond angles HNC and NCO in isocyanic acid.\n\n[1]\n\niii) Suggest which acid, cyanic or isocyanic, will have the shorter C–N bond length. Explain your answer.\n\n[1]",
+     "solution_md": "i) The dot-and-cross diagrams showing outer shell electrons only are:\n\n**HOCN, cyanic acid**\n\n![Dot-and-cross diagram of HOCN (cyanic acid) showing outer shell electrons only](assets/001-dot-and-cross-diagram-of-hocn-cyanic-acid-showin.png)\n\n**HNCO, isocyanic acid**\n\n![Dot-and-cross diagram of HNCO (isocyanic acid) showing outer shell electrons only](assets/002-dot-and-cross-diagram-of-hnco-isocyanic-acid-sho.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct dot-and-cross structure for HOCN\n> \n> 1 mark for correct dot-and-cross structure for HNCO\n> \n> 1 mark for 16 outer shell electrons shown on each diagram (H: 1, C: 4, N: 5, O: 6)\n> \n> ii) Bond angles in HNCO:\n> \n> - HNC = 115–125°\n> **AND**\n> NCO = 180° **[1 mark]**\n> \n> iii) The acid with the shorter C–N bond length:\n> \n> - Cyanic acid, HOCN\n> **AND**\n> The C–N bond in HOCN is a triple bond (C≡N), which is shorter than the C=N double bond in HNCO **[1 mark]**\n\n> **[exam-tip]**\n> For dot-and-cross diagrams, check: total outer shell electrons = H(1) + C(4) + N(5) + O(6) = 16.\n> \n> In HOCN the bonding is H–O–C≡N (H–O single bond, O–C double bond, C≡N triple bond).\n> \n> In HNCO the bonding is H–N=C=O (H–N single bond, two double bonds). N has a lone pair in HNCO, which compresses the HNC angle to 115–125°; the linear N=C=O arrangement gives NCO = 180°. A triple bond has greater electron density between nuclei than a double bond, so it is shorter."
+    },
+    {
+     "id": "qstnprt_DYsXW2TDhmdCcVRs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2017",
+      "number": "43",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Isocyanic acid is a weak acid.\n\nHNCO $\\rightleftharpoons$ H<sup>+</sup> + NCO<sup>-</sup>    *K*<sub>a</sub> = 1.2 × 10<sup>-4</sup> mol dm<sup>-3</sup>\n\ni) Calculate the pH of a 0.10 mol dm<sup>-3</sup> solution of isocyanic acid. Show your working.\n\n[2]\n\nSodium cyanate, NaNCO, is used in the production of isocyanic acid. Sodium cyanate is prepared commercially by reacting urea, (NH<sub>2</sub>)<sub>2</sub>CO, with sodium carbonate. Other products in this reaction include ammonia and steam.\n\nii) Construct an equation for the production of NaNCO by this method.\n\n[1]",
+     "solution_md": "i) To calculate the pH of 0.10 mol dm<sup>-3</sup> isocyanic acid:\n\n- Rearrange the *K*<sub>a</sub> expression (applying [H<sup>+</sup>] = [NCO<sup>-</sup>]):\n\n[H<sup>+</sup>] = `\\sqrt{K_a \\times [HNCO]}`\n\n[H<sup>+</sup>] = $\\sqrt{1.2\\times10^{-4}\\times0.10}$\n\n[H<sup>+</sup>] = 3.46 x 10<sup>-3</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log(3.46 x 10<sup>-3</sup>)\n\npH = **2.46** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for [H<sup>+</sup>] = 3.46 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 2.46 (allow 2.46 to 2.5)\n> \n> Allow error carried forward from an incorrect [H<sup>+</sup>] if pH = –log[H<sup>+</sup>] is correctly applied\n\n> **[exam-tip]**\n> For the pH calculation, the assumption [H<sup>+</sup>] = [NCO<sup>-</sup>] (equal amounts from dissociation) gives [H<sup>+</sup>]<sup>2</sup> = Ka × [HNCO]. This approximation is valid when [H<sup>+</sup>] << [HNCO]: here 3.46 x 10<sup>-3</sup> << 0.10 mol dm<sup>-3</sup>.\n\n> **[mark-scheme]**\n> ii) The equation for the production of NaNCO:\n> \n> - Na<sub>2</sub>CO<sub>3</sub> + 2(NH<sub>2</sub>)<sub>2</sub>CO → 2NaNCO + CO<sub>2</sub> + 2NH<sub>3</sub> + H<sub>2</sub>O **[1 mark]**\n\n> **[exam-tip]**\n> For the equation in ii), balance by inspection: Na<sub>2</sub>CO<sub>3</sub> provides 2 Na for 2 NaNCO; CO<sub>2</sub> and H<sub>2</sub>O account for the oxygen from CO<sub>3</sub><sup>2-</sup>.",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x21CC;</mo></math>",
+       "alt": "\\rightleftharpoons"
+      },
+      {
+       "latex": "\\sqrt{1.2\\times10^{-4}\\times0.10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>.</mo><mn>2</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>10</mn></msqrt></math>",
+       "alt": "\\sqrt{1.2 \\times 10^{-4} \\times 0.10}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hkR7hS7JHR28wqwj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2017",
+      "number": "43",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ",
+      "spcpt_hp29KmkdFhKN6DZk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIsocyanic acid is a weak acid.\n\nHNCO ⇌ H⁺ + NCO⁻    Ka = 1.2 × 10⁻⁴ mol dm⁻³\n\ni) Calculate the pH of a 0.10 mol dm⁻³ solution of isocyanic acid. Show your working.\n\npH = 2.46\n\nBarium hydroxide, Ba(OH)<sub>2</sub>, is completely ionised in aqueous solutions. During the addition of 30.0 cm<sup>3</sup> of 0.100 mol dm<sup>-3</sup> Ba(OH)<sub>2</sub> to 20.0 cm<sup>3</sup> of 0.100 mol dm<sup>-3</sup> isocyanic acid, the pH was measured.\n\nCalculate [OH<sup>-</sup>] and the pH of the solution at the end of the addition. Show your working.\n\nOn Fig. 2.1, sketch how the pH changes during the addition of a total of 30.0 cm<sup>3</sup> of 0.100 mol dm<sup>-3</sup> Ba(OH)<sub>2</sub> to 20.0 cm<sup>3</sup> of 0.100 mol dm<sup>-3</sup> isocyanic acid.\n\n![Blank graph showing pH (y-axis, 0 to 14) against volume of Ba(OH)2 added in cm3 (x-axis, 0 to 30.0), for sketching the titration curve](assets/003-blank-graph-showing-ph-y-axis-0-to-14-against-vo.png)\n\n**Fig. 2.1**",
+     "solution_md": "To calculate [OH<sup>-</sup>] and the pH at the end of the addition:\n\n- Calculate the initial moles of OH<sup>-</sup> and of HNCO:\n\nmoles of OH<sup>-</sup> = 2 x 0.100 x $\\frac{30.0}{1000}$ = 6.00 x 10<sup>-3</sup> mol\n\nmoles of HNCO = 0.100 x $\\frac{20.0}{1000}$ = 2.00 x 10<sup>-3</sup> mol\n\n- Find the moles of OH<sup>-</sup> remaining after neutralisation (in 50.0 cm<sup>3</sup>):\n\nmoles of OH<sup>-</sup> remaining = (6.00 – 2.00) x 10<sup>-3</sup> = 4.00 x 10<sup>-3</sup> mol\n\n[OH<sup>-</sup>] = $\\frac{4.00\\times10^{-3}}{0.0500}$ = 0.0800 mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate [H<sup>+</sup>] using *K*<sub>w</sub>:\n\n[H<sup>+</sup>] = `\\frac{K_w}{[OH^-]}` = $\\frac{1.00\\times10^{-14}}{0.0800}$ = 1.25 x 10<sup>-13</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log(1.25 x 10<sup>-13</sup>)\n\npH = **12.9** **[1 mark]**\n\nThe completed pH curve is:\n\n![Completed pH titration curve starting at pH 2.46, with a steep rise at the equivalence point (10.0 cm3 Ba(OH)2 added), reaching a final pH of 12.9](assets/004-completed-ph-titration-curve-starting-at-ph-2-46.jpeg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for [OH<sup>-</sup>] = 0.0800 mol dm<sup>-3</sup>\n> \n> 1 mark for [H<sup>+</sup>] = 1.25 x 10<sup>-13</sup> mol dm<sup>-3</sup> and pH = 12.9\n> \n> 1 mark for sketch starting at pH = 12.9 is not awarded if [OH<sup>-</sup>] is incorrect\n> \n> 1 mark for sketch: curve starts at pH 2.46 (allow 2.5)\n> \n> 1 mark for sketch: steep vertical rise (equivalence point) at volume added = 10.0 cm<sup>3</sup>\n> \n> 1 mark for sketch: curve finishes at pH 12.9\n\n> **[exam-tip]**\n> Ba(OH)<sub>2</sub> provides 2 mol OH<sup>-</sup> per mol Ba(OH)<sub>2</sub>.\n> \n> The equivalence point occurs when moles of OH<sup>-</sup> = moles of HNCO: 2 x 0.100 x V/1000 = 2.00 x 10<sup>-3</sup> mol, giving V = 10.0 cm<sup>3</sup>.\n> \n> After this point, excess OH<sup>-</sup> raises the pH above 7.\n> \n> To find the final pH, use [H<sup>+</sup>] = Kw / [OH<sup>-</sup>] rather than pH = 14 + log[OH<sup>-</sup>]. Both methods give the same answer but the Kw route is more explicit.",
+     "equations": [
+      {
+       "latex": "\\frac{30.0}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>.</mo><mn>0</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{30.0}{1000}"
+      },
+      {
+       "latex": "\\frac{20.0}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>20</mn><mo>.</mo><mn>0</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{20.0}{1000}"
+      },
+      {
+       "latex": "\\frac{4.00\\times10^{-3}}{0.0500}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>0500</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.00 \\times 10^{-3}}{0.0500}"
+      },
+      {
+       "latex": "\\frac{1.00\\times10^{-14}}{0.0800}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>14</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>0800</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.00 \\times 10^{-14}}{0.0800}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sbWqbZJN6RHSjmn5",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_zfrS9yMfhBbrBkSs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_phqcyxJvJchDcTMN"
+     ],
+     "part_tier": null,
+     "problem_md": "Write an expression for the solubility product, *K*<sub>sp</sub>, of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The expression for the *K*<sub>sp</sub> of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>:\n> \n> - *K*<sub>sp</sub> = [Ca<sup>2+</sup>]<sup>3</sup>[PO<sub>4</sub><sup>3-</sup>]<sup>2</sup> **[1 mark]**\n\n> **[exam-tip]**\n> For solubility product expressions, raise each concentration term to the power of its stoichiometric coefficient in the dissolution equation:\n> \n> Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (s) ⇌ 3Ca<sup>2+</sup> (aq) + 2PO<sub>4</sub><sup>3-</sup> (aq).\n> \n> So *K*<sub>sp</sub> = [Ca<sup>2+</sup>]<sup>3</sup>[PO<sub>4</sub><sup>3-</sup>]<sup>2</sup>.\n> \n> Solid Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> does not appear in the expression."
+    },
+    {
+     "id": "qstnprt_NTjRM64jXbt8zMCF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NjwGX5WsGm4tfWS7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n*K*~sp~ = [Ca^2+^]^3^[PO~4~^3-^]^2^\n\nAt 298 K, the solubility of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> is 2.50 x 10<sup>-6</sup> mol dm<sup>-3</sup>.\n\nCalculate the solubility product, *K*<sub>sp</sub>, for Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> at this temperature. State the units. Show your working.",
+     "solution_md": "To calculate the *K*<sub>sp</sub> for Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>:\n\n- Calculate the concentrations of each ion:\n\n[Ca<sup>2+</sup>] = 3 x 2.50 x 10<sup>-6</sup>\n\n[Ca<sup>2+</sup>] = 7.50 x 10<sup>-6</sup> mol dm<sup>-3</sup>\n\n[PO<sub>4</sub><sup>3-</sup>] = 2 x 2.50 x 10<sup>-6</sup>\n\n[PO<sub>4</sub><sup>3-</sup>] = 5.00 x 10<sup>-6</sup> mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Calculate *K*<sub>sp</sub>:\n\n*K*<sub>sp</sub> = (7.50 x 10<sup>-6</sup>)<sup>3</sup> x (5.00 x 10<sup>-6</sup>)<sup>2</sup>\n\n*K*<sub>sp</sub> = **1.05 x 10**<sup>**-26**</sup>\n\n**[1 mark]**\n\n- State the units:\n\nunits = **mol**<sup>**5**</sup>** dm**<sup>**-15**</sup>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for [Ca<sup>2+</sup>] = 7.50 x 10<sup>-6</sup> mol dm<sup>-3</sup> AND [PO<sub>4</sub><sup>3-</sup>] = 5.00 x 10<sup>-6</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for *K*<sub>sp</sub> = 1.05 x 10<sup>-26</sup>\n> \n> 1 mark for units = mol<sup>5</sup> dm<sup>-15</sup>\n\n> **[exam-tip]**\n> Multiply the solubility by the stoichiometric coefficient to find each ion concentration: [Ca<sup>2+</sup>] = 3s and [PO<sub>4</sub><sup>3-</sup>] = 2s, where s = 2.50 x 10<sup>-6</sup> mol dm<sup>-3</sup>.\n> \n> Units are derived as (mol dm<sup>-3</sup>)<sup>3</sup> x (mol dm<sup>-3</sup>)<sup>2</sup> = mol<sup>5</sup> dm<sup>-15</sup>."
+    },
+    {
+     "id": "qstnprt_DmQ5ZTFBKphM6MPS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89JCGbqQYkZ6dyRt"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the lattice energy of calcium phosphate is more exothermic than that of strontium phosphate.",
+     "solution_md": "> **[mark-scheme]**\n> The lattice energy of calcium phosphate is more exothermic than strontium phosphate because:\n> \n> - Ca<sup>2+</sup> has a smaller ionic radius than Sr<sup>2+</sup> **[1 mark]**\n> - The smaller Ca<sup>2+</sup> ions are closer to the PO<sub>4</sub><sup>3-</sup> ions in the lattice, so the electrostatic attraction between the ions is stronger, making the lattice energy more exothermic **[1 mark]**\n\n> **[exam-tip]**\n> Lattice energy depends on ionic charge and ionic radius.\n> \n> Both Ca<sup>2+</sup> and Sr<sup>2+</sup> have the same charge (+2), so the difference comes from ionic radius: Ca<sup>2+</sup> is smaller (r = 100 pm) than Sr<sup>2+</sup> (r = 118 pm).\n> \n> Smaller ions means shorter interionic distance, stronger electrostatic attraction, and a more exothermic (more negative) lattice energy."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rmmM8N9y2Xps9tMG",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_qpfJryPtKZZK3Wtq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BYxDMWGVpx8M2cnb"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a 0.10 mol dm<sup>-3</sup> solution of a strong acid has a significantly different pH from a 0.10 mol dm<sup>-3</sup> solution of a weak acid.",
+     "solution_md": "> **[mark-scheme]**\n> The reason why equal concentrations of a strong and weak acid have different pH values:\n> \n> - A strong acid fully dissociates / ionises in solution, so [H<sup>+</sup>] is equal to the initial concentration of the acid\n> **AND**\n> A weak acid only partially dissociates, so [H<sup>+</sup>] is much less than the initial concentration **[1 mark]**\n> - The strong acid therefore has a higher [H<sup>+</sup>] and a lower pH than the weak acid **[1 mark]**\n\n> **[exam-tip]**\n> pH depends on [H<sup>+</sup>], not on the total concentration of acid molecules.\n> \n> A strong acid at 0.10 mol dm<sup>-3</sup> fully dissociates to give [H<sup>+</sup>] = 0.10 mol dm<sup>-3</sup> and pH = 1.0.\n> \n> A weak acid at the same concentration only partially dissociates, giving a much lower [H<sup>+</sup>] and a higher pH."
+    },
+    {
+     "id": "qstnprt_gHNCGKHYVRwTQCpx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rcYTTx2Xn8VynVS7"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the pH of a 0.1 mol dm<sup>-3</sup> solution of HCl.",
+     "solution_md": "As HCl is a strong acid, it fully dissociates, so [H<sup>+</sup>] = 0.1 mol dm<sup>-3</sup>.\n\npH = –log<sub>10</sub>(0.1)\n\npH = **1.0** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for pH = 1.0\n> \n> Allow pH = 1 (without decimal place)\n\n> **[exam-tip]**\n> HCl is a strong acid and fully dissociates in water:\n> \n> HCl → H<sup>+</sup> + Cl<sup>-</sup>.\n> \n> This means [H<sup>+</sup>] = [HCl] = 0.1 mol dm<sup>-3</sup>. Substituting directly into pH = –log<sub>10</sub>[H<sup>+</sup>] gives pH = 1.0."
+    },
+    {
+     "id": "qstnprt_2ZP4HwrsW5VMBbqN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of 0.1 mol dm<sup>-3</sup> methanoic acid has a *K*<sub>a</sub> value of 1.78 x 10<sup>-4</sup> mol dm<sup>-3</sup> at 298 K.\n\ni) Write an expression for the acid dissociation constant, *K*<sub>a</sub>, for methanoic acid.\n\n[1]\n\nii) Calculate the pH of the 0.1 mol dm<sup>-3</sup> methanoic acid. Give your answer to two decimal places and show your working.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The *K*<sub>a</sub> expression for methanoic acid is:\n> \n> - `K_a = \\frac{[H^+][HCOO^-]}{[HCOOH]}` **[1 mark]**\n\nii) To calculate the pH of 0.1 mol dm<sup>-3</sup> methanoic acid:\n\n- Rearrange the *K*<sub>a</sub> expression (applying the assumption that [H<sup>+</sup>] << [HCOOH]):\n\n[H<sup>+</sup>]<sup>2</sup> = *K*<sub>a</sub> x [HCOOH]\n\n[H<sup>+</sup>]<sup>2</sup> = 1.78 x 10<sup>-4</sup> x 0.1\n\n[H<sup>+</sup>]<sup>2</sup> = 1.78 x 10<sup>-5</sup> (mol dm<sup>-3</sup>)<sup>2</sup> **[1 mark]**\n\n- Calculate [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = $\\sqrt{1.78\\times10^{-5}}$\n\n[H<sup>+</sup>] = 4.22 x 10<sup>-3</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log<sub>10</sub>(4.22 x 10<sup>-3</sup>)\n\npH = **2.37** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for [H<sup>+</sup>]<sup>2</sup> = 1.78 x 10<sup>-5</sup> (mol dm<sup>-3</sup>)<sup>2</sup>\n> \n> 1 mark for [H<sup>+</sup>] = 4.22 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 2.37\n> \n> Allow error carried forward from an incorrect [H<sup>+</sup>] value if pH = –log<sub>10</sub>[H<sup>+</sup>] is correctly applied\n\n> **[exam-tip]**\n> The *K*<sub>a</sub> expression must name the specific species (H<sup>+</sup>, HCOO<sup>-</sup>, HCOOH), not a generic HA/A<sup>-</sup> formula.\n> \n> In the calculation, the approximation [H<sup>+</sup>]<sup>2</sup> = *K*<sub>a</sub> x [HCOOH] assumes minimal dissociation, so [HCOOH]<sub>eq</sub> ≈ [HCOOH]<sub>initial</sub>.\n> \n> Check the assumption holds: here [H<sup>+</sup>] = 4.22 x 10<sup>-3</sup> mol dm<sup>-3</sup> is much less than 0.1 mol dm<sup>-3</sup>, so the approximation is valid.",
+     "equations": [
+      {
+       "latex": "\\sqrt{1.78\\times10^{-5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>.</mo><mn>78</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></msqrt></math>",
+       "alt": "\\sqrt{1.78 \\times 10^{-5}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GXVdpVVjgZPHTfyX",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_b9v7Sk68cChw5RKY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about buffers.\n\nDefine the term buffer solution.",
+     "solution_md": "> **[mark-scheme]**\n> A buffer solution is defined as:\n> \n> - A solution that resists significant changes in pH **[1 mark]**\n> - when small amounts of acid or alkali are added **[1 mark]**\n\n> **[exam-tip]**\n> The definition must include both components to gain full marks:\n> \n> 1. Resists pH change...\n> 2. ...on addition of small amounts of acid or alkali.\n> \n> A buffer does not completely prevent pH change, it minimises it. 'Small amounts' is important as adding large volumes of acid or alkali will overcome the buffer capacity."
+    },
+    {
+     "id": "qstnprt_gg9ZzgBNyXjKPSBZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "Buffers can be acidic or basic, depending on the substances mixed to create them.\n\ni) State the two types of substance that must be mixed to prepare an acidic buffer solution.\n\n[1]\n\nii) State the key feature which makes a buffer acidic.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The two types of substance required for an acidic buffer:\n> \n> - A weak acid\n> **AND**\n> The salt of that same weak acid (providing the conjugate base) **[1 mark]**\n> \n> ii) The key feature of an acidic buffer:\n> \n> - The pH is less than 7 **[1 mark]**\n\n> **[exam-tip]**\n> A common example is ethanoic acid (CH<sub>3</sub>COOH) mixed with sodium ethanoate (CH<sub>3</sub>COONa).\n> \n> The salt must be from the same weak acid so that both the acid (HA) and conjugate base (A<sup>-</sup>) are present in solution.\n> \n> The salt fully dissociates providing the A<sup>-</sup> ions; the weak acid partially dissociates providing HA."
+    },
+    {
+     "id": "qstnprt_wbYR6yt6gPr95tKr",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanoic acid is a weak acid. Hydrogen carbonate ions act as a weak acid in aqueous solution.\n\ni) Construct equilibrium equations for each of these weak acids.\n\n[2]\n\nii) A solution was made up containing sodium hydrogen carbonate and sodium carbonate. Explain how this solution would act as a buffer if a small amount of acid was added to it.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) Equilibrium equations for the two weak acids:\n> \n> - CH<sub>3</sub>COOH (aq) ⇌ CH<sub>3</sub>COO<sup>-</sup> (aq) + H<sup>+</sup> (aq) **[1 mark]**\n> - HCO<sub>3</sub><sup>-</sup> (aq) ⇌ CO<sub>3</sub><sup>2-</sup> (aq) + H<sup>+</sup> (aq)\n> **OR**\n> H<sub>2</sub>O (aq) + HCO<sub>3</sub><sup>-</sup> (aq) ⇌ CO<sub>3</sub><sup>2-</sup> (aq) + H<sub>3</sub>O<sup>+</sup> (aq) **[1 mark]**\n> \n> State symbols are not required for either equation\n> \n> ii) How the Na<sub>2</sub>CO<sub>3</sub> / NaHCO<sub>3</sub> buffer acts when acid is added:\n> \n> - [H<sup>+</sup>] increases; the equilibrium shifts to the left\n> **OR**\n> Added H<sup>+</sup> ions react with CO<sub>3</sub><sup>2-</sup> ions: H<sup>+</sup> + CO<sub>3</sub><sup>2-</sup> → HCO<sub>3</sub><sup>-</sup> **[1 mark]**\n> - The concentration of H<sup>+</sup> remains approximately constant\n> **OR**\n> The added H<sup>+</sup> ions are consumed / removed **[1 mark]**\n\n> **[exam-tip]**\n> The Na<sub>2</sub>CO<sub>3</sub> / NaHCO<sub>3</sub> buffer uses CO<sub>3</sub><sup>2-</sup> as the conjugate base to mop up H<sup>+</sup> ions.\n> \n> Note that the HCO<sub>3</sub><sup>-</sup> equilibrium equation (the less familiar one) must specifically show HCO<sub>3</sub><sup>-</sup> acting as the acid, donating H<sup>+</sup> to form CO<sub>3</sub><sup>2-</sup>. This is the species that acts as the buffer's base component when acid is added."
+    },
+    {
+     "id": "qstnprt_C478g5SYX7KS7b7S",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how a buffer solution made from ethanoic acid and sodium ethanoate works when small amounts of alkali are added.",
+     "solution_md": "> **[mark-scheme]**\n> The ethanoic acid / sodium ethanoate buffer works when alkali is added because:\n> \n> - OH<sup>-</sup> ions are added; the equilibrium shifts to the right\n> **OR**\n> OH<sup>-</sup> ions react with H<sup>+</sup> ions: OH<sup>-</sup> (aq) + H<sup>+</sup> (aq) → H<sub>2</sub>O (l) **[1 mark]**\n> - The concentration of H<sup>+</sup> remains approximately constant\n> **OR**\n> H<sup>+</sup> ions are replenished by further dissociation of CH<sub>3</sub>COOH **[1 mark]**\n\n> **[exam-tip]**\n> The buffer resists pH change because the weak acid (CH<sub>3</sub>COOH) acts as a reservoir of H<sup>+</sup> ions. When OH<sup>-</sup> ions are added, they react with H<sup>+</sup> to form water, removing H<sup>+</sup> and shifting the equilibrium CH<sub>3</sub>COOH ⇌ CH<sub>3</sub>COO<sup>-</sup> + H<sup>+</sup> to the right. This releases more H<sup>+</sup>, maintaining a nearly constant [H<sup>+</sup>] and pH."
+    },
+    {
+     "id": "qstnprt_Bp39gf8yfMF7QCg2",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "A buffer solution contains 0.10 mol dm<sup>-3</sup> methanoic acid and 0.20 mol dm<sup>-3</sup> sodium methanoate. The value of *K*<sub>a</sub> for methanoic acid is 1.80 × 10<sup>-5</sup> mol dm<sup>-3</sup>.\n\nCalculate the pH of this buffer solution at 298 K. Give your answer to 2 decimal places and show your working.",
+     "solution_md": "To calculate the pH of the buffer solution:\n\n- Write the *K*<sub>a</sub> expression and rearrange to find [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = `\\frac{K_a \\times [HA]}{[A^-]}` **[1 mark]**\n\n- Substitute the known values:\n\n[H<sup>+</sup>] = $\\frac{1.80\\times10^{-5}\\times0.10}{0.20}$\n\n[H<sup>+</sup>] = 9.0 x 10<sup>-6</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log(9.0 x 10<sup>-6</sup>)\n\npH = **5.05** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct *K*<sub>a</sub> expression rearranged to find [H<sup>+</sup>]\n> \n> 1 mark for [H<sup>+</sup>] = 9.0 x 10<sup>-6</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 5.05\n> \n> Allow Henderson-Hasselbalch equation:\n> \n> pH = p*K*<sub>a</sub> + log([A<sup>-</sup>]/[HA])\n> \n> pH = 4.74 + log(0.20/0.10)\n> \n> pH = 4.74 + 0.30\n> \n> pH= 5.04–5.05\n\n> **[exam-tip]**\n> In the *K*<sub>a</sub> expression:\n> \n> - [A<sup>-</sup>] is the concentration of the methanoate ion (HCOO<sup>-</sup>), which equals the concentration of sodium methanoate because the salt fully dissociates\n> - [HA] is the equilibrium concentration of methanoic acid, approximated as the initial concentration (minimal dissociation assumption).\n> \n> The Henderson-Hasselbalch equation p*K*<sub>a</sub> + log([salt]/[acid]) gives the same result.",
+     "equations": [
+      {
+       "latex": "\\frac{1.80\\times10^{-5}\\times0.10}{0.20}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>80</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>10</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>20</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.80 \\times 10^{-5} \\times 0.10}{0.20}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fpcGTY3JzyDws9vf",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_DVkwV5SxrYW7KTxX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_T47tXfbF7rvThY8r"
+     ],
+     "part_tier": null,
+     "problem_md": "3-dodecylbenzenesulfonic acid can be prepared from benzenesulfonic acid.\n\n![Reaction scheme showing benzenesulfonic acid converting to 3-dodecylbenzenesulfonic acid by adding a C12H25 alkyl chain to the benzene ring](assets/005-reaction-scheme-showing-benzenesulfonic-acid-con.png)\n\nIdentify the reagents and conditions, and state the name of the mechanism, for this reaction.",
+     "solution_md": "> **[mark-scheme]**\n> The reagents, conditions and mechanism for the reaction are:\n> \n> - C<sub>12</sub>H<sub>25</sub>Br **AND**AlBr<sub>3</sub>\n> **OR**\n> C<sub>12</sub>H<sub>25</sub>Cl **AND** AlCl<sub>3</sub> **[1 mark]**\n> - Electrophilic substitution **[1 mark]**\n\n> **[exam-tip]**\n> This reaction is Friedel-Crafts alkylation.\n> \n> The halogen carrier (AlBr<sub>3</sub> or AlCl<sub>3</sub>) acts as a Lewis acid, generating a carbocation electrophile from the halogenoalkane:\n> \n> C<sub>12</sub>H<sub>25</sub>Br + AlBr<sub>3</sub> → C<sub>12</sub>H<sub>25</sub><sup>+</sup> + AlBr<sub>4</sub><sup>-</sup>.\n> \n> This carbocation attacks the benzene ring via electrophilic substitution."
+    },
+    {
+     "id": "qstnprt_wNnbDqnGhZv9RsMk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ"
+     ],
+     "part_tier": null,
+     "problem_md": "When concentrated sulfuric acid is added to water, dissociation takes place in two stages.\n\nstage 1 H<sub>2</sub>SO<sub>4</sub> $\\rightleftharpoons$ H<sup>+</sup> + HSO<sub>4</sub><sup>-</sup>\n\nstage 2 HSO<sub>4</sub><sup>-</sup> $\\rightleftharpoons$ H<sup>+</sup> + SO<sub>4</sub><sup>2-</sup>     *K*<sub>a2</sub> = 1.0 × 10<sup>-2</sup> mol dm<sup>-3</sup>\n\n*K*<sub>a2</sub> is the acid dissociation constant for stage 2.\n\ni) Write an expression for the acid dissociation constant *K*<sub>a2</sub>.\n\n[1]\n\nii) H<sub>2</sub>SO<sub>4</sub> is considered a strong acid whereas HSO<sub>4</sub><sup>-</sup> is considered a weak acid.\n\nSuggest how the magnitude of the acid dissociation constant for stage 1 compares to *K*<sub>a2</sub>.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The expression for *K*<sub>a2</sub> is:\n> \n> - `K_{a2} = \\frac{[H^+][SO_4^{2-}]}{[HSO_4^-]}` **[1 mark]**\n> \n> ii) The *K*<sub>a</sub> of H<sub>2</sub>SO<sub>4</sub> compared with *K*<sub>a2</sub>:\n> \n> - *K*<sub>a1</sub> of H<sub>2</sub>SO<sub>4</sub> is larger / greater than *K*<sub>a2</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The stronger the acid, the larger its *K*<sub>a</sub> value.\n> \n> The *K*<sub>a</sub> value measures the extent of dissociation.\n> \n> Stage 1 (H<sub>2</sub>SO<sub>4</sub> → H<sup>+</sup> + HSO<sub>4</sub><sup>-</sup>) is essentially complete for a strong acid, so *K*<sub>a1</sub> is very large.\n> \n> Stage 2 has *K*<sub>a2</sub> = 1.0 × 10<sup>-2</sup> mol dm<sup>-3</sup>, confirming HSO<sub>4</sub><sup>-</sup> is weak.\n> \n> A useful check: a strong acid has Ka >> 1 mol dm<sup>-3</sup>; a weak acid has Ka << 1 mol dm<sup>-3</sup>.",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x21CC;</mo></math>",
+       "alt": "\\rightleftharpoons"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x21CC;</mo></math>",
+       "alt": "\\rightleftharpoons"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YjVh5GHdgbxJS8vq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Benzoic acid, C<sub>6</sub>H<sub>5</sub>CO<sub>2</sub>H, is a weak acid.\n\nThe value of the acid dissociation constant, *K*<sub>a</sub>, of benzoic acid is 6.3 x 10<sup>-5</sup> mol dm<sup>-3</sup> at 298K.\n\nCalculate the pH of the solution formed when 0.50 g of benzoic acid is dissolved in 250 cm<sup>3</sup> of water.\n\nGive your answer to two decimal places and show your working.",
+     "solution_md": "To calculate the pH of the benzoic acid solution:\n\n- Calculate the moles and concentration of benzoic acid (*M*<sub>r</sub> of C<sub>6</sub>H<sub>5</sub>COOH = 122.0):\n\nmoles of C<sub>6</sub>H<sub>5</sub>COOH = $\\frac{0.50}{122.0}$ = 4.10 x 10<sup>-3</sup> mol\n\n[C<sub>6</sub>H<sub>5</sub>COOH] = $\\frac{4.10\\times10^{-3}}{0.250}$ = 0.0164 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Write the simplified *K*<sub>a</sub> expression (applying the assumption [H<sup>+</sup>] = [C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup>]):\n\n`K_a = \\frac{[H^+]^2}{[C_6H_5COOH]}`\n\n**[1 mark]**\n\n- Calculate [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = `\\sqrt{K_a \\times [C_6H_5COOH]}` = $\\sqrt{6.3\\times10^{-5}\\times0.0164}$\n\n[H<sup>+</sup>] = 1.02 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Calculate the pH:\n\npH = –log<sub>10</sub>(1.02 x 10<sup>-3</sup>)\n\npH = **2.99**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct moles **AND **concentration of benzoic acid (allow 0.016 mol dm<sup>-3</sup> if moles rounded to 4.00 x 10<sup>-3</sup>)\n> \n> 1 mark for correct *K*<sub>a</sub> expression for benzoic acid\n> \n> Accept full or simplified form with [H<sup>+</sup>]<sup>2</sup> in the numerator\n> \n> 1 mark for [H<sup>+</sup>] in the range 1.00–1.02 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 2.99 (allow 2.99–3.00 depending on rounding of [H<sup>+</sup>])\n> \n> Allow error carried forward from an incorrect [H<sup>+</sup>] if pH = –log<sub>10</sub>[H<sup>+</sup>] is correctly applied\n\n> **[exam-tip]**\n> The simplified form *K*<sub>a</sub> = [H<sup>+</sup>]<sup>2</sup> / [HA] uses the approximation that [H<sup>+</sup>] = [A<sup>-</sup>] (minimal dissociation, so equal amounts of H<sup>+</sup> and A<sup>-</sup> are produced).\n> \n> This approximation is valid when Ka << [HA], which should be checked: here Ka = 6.3 x 10<sup>-5</sup> << 0.016, so the approximation holds.",
+     "equations": [
+      {
+       "latex": "\\frac{0.50}{122.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow><mrow><mn>122</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.50}{122.0}"
+      },
+      {
+       "latex": "\\frac{4.10\\times10^{-3}}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>10</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.10 \\times 10^{-3}}{0.250}"
+      },
+      {
+       "latex": "\\sqrt{6.3\\times10^{-5}\\times0.0164}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn><mo>.</mo><mn>3</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>0164</mn></msqrt></math>",
+       "alt": "\\sqrt{6.3 \\times 10^{-5} \\times 0.0164}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Mcw4TBPGR8swF93y",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m7HVCDD4RZSvGKzJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nBenzoic acid, C₆H₅CO₂H, is a weak acid.\n\nThe value of the acid dissociation constant, Ka, of benzoic acid is 6.3 x 10⁻⁵ mol dm⁻³ at 298K.\n\nCalculate the pH of the solution formed when 0.060 g of sodium hydroxide is added to 500.00 cm<sup>3</sup> of 0.005 mol dm<sup>-3</sup> benzoic acid.\n\nGive your answer to two decimal places. Show your working.",
+     "solution_md": "To calculate the pH of the buffer solution formed:\n\nNaOH + C<sub>6</sub>H<sub>5</sub>COOH → C<sub>6</sub>H<sub>5</sub>COONa + H<sub>2</sub>O\n\n- Calculate the moles of NaOH added:\n\nmoles of NaOH = $\\frac{0.060}{40.0}$ = 1.50 x 10<sup>-3</sup> mol **[1 mark]**\n\n- Calculate the remaining moles of benzoic acid and the moles of benzoate formed:\n\nmoles of C<sub>6</sub>H<sub>5</sub>COOH = 0.005 x 0.500 – 1.50 x 10<sup>-3</sup> = 1.00 x 10<sup>-3</sup> mol\n\nmoles of C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup> = 1.50 x 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n- Rearrange the *K*<sub>a</sub> expression to find [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = *K*<sub>a</sub> x (moles of acid / moles of salt) **[1 mark]**\n\n[H<sup>+</sup>] = 6.3 x 10<sup>-5</sup> x (1.00 x 10<sup>-3</sup> / 1.50 x 10<sup>-3</sup>)\n\n[H<sup>+</sup>] = 4.2 x 10<sup>-5</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log<sub>10</sub>(4.2 x 10<sup>-5</sup>)\n\npH = **4.38** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of NaOH = 1.50 x 10<sup>-3</sup> mol\n> \n> 1 mark for moles of C<sub>6</sub>H<sub>5</sub>COOH remaining = 1.00 x 10<sup>-3</sup> mol **AND** moles of C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup> = 1.50 x 10<sup>-3</sup> mol\n> \n> 1 mark for correct *K*<sub>a</sub> rearrangement applied to the buffer, or Henderson-Hasselbalch equation used correctly\n> \n> 1 mark for [H<sup>+</sup>] = 4.2 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 4.38\n> \n> Allow error carried forward from incorrect moles if method is correct\n\n> **[exam-tip]**\n> Moles can be used directly in the ratio *K*<sub>a</sub> x (moles acid / moles salt) because both species are in the same solution volume — the volume cancels.\n> \n> The Henderson-Hasselbalch equation gives the same answer:\n> \n> pH = p*K*<sub>a</sub> + log([salt] / [acid])\n> \n> pH = 4.20 + log(1.50 x 10<sup>-3</sup> / 1.00 x 10<sup>-3</sup>)\n> \n> pH = 4.20 + log(1.5)\n> \n> pH = 4.20 + 0.18\n> \n> pH = 4.38",
+     "equations": [
+      {
+       "latex": "\\frac{0.060}{40.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>060</mn></mrow><mrow><mn>40</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.060}{40.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fmYF5yp5RC5SqNwP",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_g2ZRTwsQD4QVV4Mm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rcYTTx2Xn8VynVS7"
+     ],
+     "part_tier": null,
+     "problem_md": "The pH of a 0.150 mol dm<sup>-3</sup> solution of piperidine is 11.9.\n\n20.0 cm<sup>3</sup> of 0.200 mol dm<sup>-3</sup> HCl was slowly added to a 20.0 cm<sup>3</sup> sample of 0.150 mol dm<sup>-3</sup> piperidine. The pH was measured throughout the addition. One mole of hydrochloric acid reacts with one mole of piperidine.\n\ni) Calculate the number of moles of HCl remaining at the end of the addition. Show your working.\n\n[2]\n\nii) Hence calculate [H<sup>+</sup>] and the pH at the end of the addition.\n\n[2]",
+     "solution_md": "i) To calculate the moles of HCl remaining at the end of the addition:\n\n- Calculate the initial moles of each reactant:\n\nn(HCl) = $\\frac{20.0}{1000}$ x 0.200 =\n\nn(HCl) 4.00 x 10<sup>-3</sup> mol\n\nn(piperidine) = $\\frac{20.0}{1000}$ x 0.150\n\nn(piperidine) = 3.00 x 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n- Calculate the moles of HCl remaining:\n\nn(HCl) remaining = 4.00 x 10<sup>-3</sup> – 3.00 x 10<sup>-3</sup> = 1.00 x 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for n(HCl) = 4.00 x 10<sup>-3</sup> mol **AND **n(piperidine) = 3.00 x 10<sup>-3</sup> mol\n> \n> 1 mark for n(HCl) remaining = 1.00 x 10<sup>-3</sup> mol\n\nii) To calculate [H<sup>+</sup>] and the pH at the end of the addition (total volume = 40.0 cm<sup>3</sup>):\n\n[H<sup>+</sup>] = $\\frac{1.00\\times10^{-3}}{0.0400}$\n\n[H<sup>+</sup>] = 0.025 mol dm<sup>-3</sup> **[1 mark]**\n\npH = –log(0.025)\n\npH = **1.60** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for [H<sup>+</sup>] = 0.025 mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 1.60\n> \n> Allow error carried forward from an incorrect n(HCl) remaining if [H<sup>+</sup>] = n / V is correctly applied\n\n> **[exam-tip]**\n> HCl is in excess at the end of the addition, so the excess H<sup>+</sup> ions determine the pH.\n> \n> The total volume of the final solution is 20.0 + 20.0 = 40.0 cm<sup>3</sup> = 0.0400 dm<sup>3</sup>.\n> \n> Divide the excess moles of HCl by this total volume to find [H<sup>+</sup>].",
+     "equations": [
+      {
+       "latex": "\\frac{20.0}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>20</mn><mo>.</mo><mn>0</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{20.0}{1000}"
+      },
+      {
+       "latex": "\\frac{20.0}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>20</mn><mo>.</mo><mn>0</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{20.0}{1000}"
+      },
+      {
+       "latex": "\\frac{1.00\\times10^{-3}}{0.0400}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>0400</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.00 \\times 10^{-3}}{0.0400}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fM2jJKGrVxmSP988",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hp29KmkdFhKN6DZk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe pH of a 0.150 mol dm⁻³ solution of piperidine is 11.9.\n\n20.0 cm³ of 0.200 mol dm⁻³ HCl was slowly added to a 20.0 cm³ sample of 0.150 mol dm⁻³ piperidine. The pH was measured throughout the addition. One mole of hydrochloric acid reacts with one mole of piperidine.\n\nOn the following axes shown in Fig. 3.1, sketch how the pH will change during the addition of a total of 20.0 cm<sup>3</sup> of 0.200 mol dm<sup>-3</sup> HCl.\n\n![Blank graph showing pH on the y-axis and volume of 0.200 mol dm-3 HCl added in cm3 on the x-axis (0 to 20.0), for sketching the titration curve](assets/006-blank-graph-showing-ph-on-the-y-axis-and-volume-.png)\n\n**Fig. 3.1**",
+     "solution_md": "The completed pH curve is:\n\n![Completed pH curve for addition of 0.200 mol dm-3 HCl to 0.150 mol dm-3 piperidine: starts at pH 11.9, with equivalence point at 15.0 cm3 added, ending at pH 1.6](assets/007-completed-ph-curve-for-addition-of-0-200-mol-dm-.jpeg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for curve starting at pH 11.9\n> \n> 1 mark for steep vertical portion (equivalence point) at volume of HCl added = 15.0 cm<sup>3</sup>\n> \n> 1 mark for curve levelling off at pH 1.6\n\n> **[exam-tip]**\n> The equivalence point volume can be found from: conc<sub>acid</sub> x V<sub>acid</sub> = conc<sub>base</sub> x V<sub>base</sub>. So 0.200 x V<sub>acid</sub> = 0.150 x 20.0, giving V<sub>acid</sub> = 15.0 cm<sup>3</sup>.\n> \n> This is a weak base–strong acid titration, so the equivalence point is below pH 7 (the solution is acidic at equivalence because the ammonium-type salt formed undergoes partial hydrolysis)."
+    },
+    {
+     "id": "qstnprt_82VtpzW8Czjp7HD5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_z6tmpdvg4TZhmwV7",
+      "spcpt_hp29KmkdFhKN6DZk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nmultiple\n\n25.0 cm<sup>3</sup> of 0.100 mol dm<sup>-3</sup> nitric acid, HNO<sub>3</sub> (aq), is added to 0.100 mol dm<sup>-3</sup> ammonia, NH<sub>3</sub> (aq).\n\ni) Construct an equation for this reaction.\n\n[1]\n\nii) Explain why the salt produced in this reaction is acidic.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction:\n> \n> - HNO<sub>3</sub> (aq) + NH<sub>3</sub> (aq) → NH<sub>4</sub>NO<sub>3</sub> (aq) **[1 mark]**\n> \n> ii) The explanation of why NH<sub>4</sub>NO<sub>3</sub> is acidic:\n> \n> - NH<sub>4</sub>NO<sub>3</sub> dissociates to form NH<sub>4</sub><sup>+</sup> ions; NH<sub>4</sub><sup>+</sup> is the conjugate acid of the weak base NH<sub>3</sub> **[1 mark]**\n> - NH<sub>4</sub><sup>+</sup> (aq) donates a proton to water: NH<sub>4</sub><sup>+</sup> (aq) + H<sub>2</sub>O (l) ⇌ NH<sub>3</sub> (aq) + H<sub>3</sub>O<sup>+</sup> (aq), producing H<sub>3</sub>O<sup>+</sup> ions which lower the pH below 7 **[1 mark]**\n\n> **[exam-tip]**\n> The acidity of a salt depends on the nature of its parent acid and base.\n> \n> Ammonium nitrate forms from a strong acid (HNO<sub>3</sub>) and a weak base (NH<sub>3</sub>). The anion NO<sub>3</sub><sup>-</sup> is the conjugate base of a strong acid and does not hydrolyse. The cation NH<sub>4</sub><sup>+</sup> is the conjugate acid of a weak base and does donate H<sup>+</sup> to water, which is the hydrolysis step that makes the solution acidic.\n> \n> General rule:\n> \n> strong acid + weak base → acidic salt."
+    },
+    {
+     "id": "qstnprt_BmfsHdwzdQY8Xv5w",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_z6tmpdvg4TZhmwV7"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Construct an equation for the reaction between nitric acid and water.\n\n[1]\n\nii) Identify the conjugate acid formed in this reaction.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction between HNO<sub>3</sub> and water:\n> \n> - HNO<sub>3</sub> (aq) + H<sub>2</sub>O (l) → NO<sub>3</sub><sup>-</sup> (aq) + H<sub>3</sub>O<sup>+</sup> (aq) **[1 mark]**\n> \n> The equation must use → not ⇌ as HNO<sub>3</sub> is a strong acid and dissociation is essentially complete\n> \n> ii) The conjugate acid formed:\n> \n> - H<sub>3</sub>O<sup>+</sup> **[1 mark]**\n\n> **[exam-tip]**\n> In the Brønsted-Lowry model, HNO<sub>3</sub> is the acid (H<sup>+</sup> donor) and H<sub>2</sub>O is the base (H<sup>+</sup> acceptor).\n> \n> After accepting H<sup>+</sup>, H<sub>2</sub>O becomes H<sub>3</sub>O<sup>+</sup>, which is the conjugate acid of H<sub>2</sub>O.\n> \n> The conjugate acid–base pairs are:\n> \n> - HNO<sub>3</sub> / NO<sub>3</sub><sup>-</sup>\n> - H<sub>3</sub>O<sup>+</sup> / H<sub>2</sub>O"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BmCmV6h7FgHgMGhr",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_QxtJqbq2cN6Xywxd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about buffer solutions.\n\nCalculate the pH of a buffer solution made by dissolving 0.275 g of benzoic acid (*K*<sub>a</sub> = 6.3 x 10<sup>-5</sup> mol dm<sup>-3</sup>) and 0.525 g of sodium benzoate in 250 cm<sup>3</sup> of water. Show your working.",
+     "solution_md": "To calculate the pH of the buffer solution:\n\n- Calculate the moles and concentration of benzoic acid (*M*<sub>r</sub> = 122.0):\n\nmoles of C<sub>6</sub>H<sub>5</sub>COOH = $\\frac{0.275}{122.0}$ = 2.25 x 10<sup>-3</sup> mol\n\n[C<sub>6</sub>H<sub>5</sub>COOH] = $\\frac{2.25\\times10^{-3}}{0.250}$ = 9.02 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Calculate the moles and concentration of sodium benzoate (*M*<sub>r</sub> = 144.0):\n\nmoles of C<sub>6</sub>H<sub>5</sub>COONa = $\\frac{0.525}{144.0}$ = 3.65 x 10<sup>-3</sup> mol\n\n[C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup>] = $\\frac{3.65\\times10^{-3}}{0.250}$ = 0.0146 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Apply the *K*<sub>a</sub> expression to find [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = *K*<sub>a</sub> x ([C<sub>6</sub>H<sub>5</sub>COOH] / [C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup>])\n\n[H<sup>+</sup>] = 6.3 x 10<sup>-5</sup> x (9.02 x 10<sup>-3</sup> / 0.0146)\n\n[H<sup>+</sup>] = 3.90 x 10<sup>-5</sup> mol dm<sup>-3</sup> **[1 mark]**\n\n- Calculate the pH:\n\npH = –log(3.90 x 10<sup>-5</sup>)\n\npH = **4.41** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct moles **AND **concentration of benzoic acid\n> \n> 1 mark for correct moles **AND **concentration of sodium benzoate\n> \n> 1 mark for [H<sup>+</sup>] = 3.90 x 10<sup>-5</sup> mol dm<sup>-3</sup> (allow 3.89–3.90 x 10<sup>-5</sup>)\n> \n> 1 mark for pH = 4.41\n> \n> Allow moles ratio used directly in place of concentration ratio (volume cancels)\n\n> **[exam-tip]**\n> Since both acid and salt are dissolved in the same 250 cm<sup>3</sup>, their volumes are equal and cancel in the ratio [acid]/[salt]. This means moles can be used directly instead of concentrations: [H<sup>+</sup>] = *K*<sub>a</sub> x (moles acid / moles salt).\n> \n> The Henderson-Hasselbalch equation gives the same answer:\n> \n> pH = p*K*<sub>a</sub> + log([salt] / [acid])\n> \n> pH = 4.20 + log(0.0146 / 9.02 x 10<sup>-3</sup>)\n> \n> pH = 4.20 + 0.21\n> \n> pH = 4.41",
+     "equations": [
+      {
+       "latex": "\\frac{0.275}{122.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>275</mn></mrow><mrow><mn>122</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.275}{122.0}"
+      },
+      {
+       "latex": "\\frac{2.25\\times10^{-3}}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>25</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.25 \\times 10^{-3}}{0.250}"
+      },
+      {
+       "latex": "\\frac{0.525}{144.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>525</mn></mrow><mrow><mn>144</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.525}{144.0}"
+      },
+      {
+       "latex": "\\frac{3.65\\times10^{-3}}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>65</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.65 \\times 10^{-3}}{0.250}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DX3ThhHXb5RCHKKf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the pH of a buffer solution made by mixing together 130 cm<sup>3</sup> of 0.2 mol dm<sup>-3</sup> ethanoic acid (*K*<sub>a</sub> = 1.74 x 10<sup>-5</sup> mol dm<sup>-3</sup>) and 85 cm<sup>3</sup> of 0.45 mol dm<sup>-3</sup> sodium ethanoate. Show your working.",
+     "solution_md": "To calculate the pH of the buffer solution:\n\n- Calculate the diluted concentrations after mixing (total volume = 215 cm<sup>3</sup>):\n\n[CH<sub>3</sub>COOH] = 0.2 x $\\frac{130}{215}$ = 0.121 mol dm<sup>-3</sup>\n\n[CH<sub>3</sub>COO<sup>-</sup>] = 0.45 x $\\frac{85}{215}$ = 0.178 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Apply the *K*<sub>a</sub> expression to find [H<sup>+</sup>]:\n\n[H<sup>+</sup>] = *K*<sub>a</sub> x ([CH<sub>3</sub>COOH] / [CH<sub>3</sub>COO<sup>-</sup>])\n\n[H<sup>+</sup>] = 1.74 x 10<sup>-5</sup> x (0.121 / 0.178)\n\n[H<sup>+</sup>] = 1.18 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Calculate the pH:\n\npH = –log(1.18 x 10<sup>-5</sup>)\n\npH = **4.93**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct diluted concentrations of CH<sub>3</sub>COOH **AND **CH<sub>3</sub>COO<sup>-</sup> (allow slight rounding variations)\n> \n> 1 mark for [H<sup>+</sup>] = 1.18 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 4.93 (allow 4.92–4.93)\n> \n> Allow moles used directly instead of concentrations (volume cancels in the ratio)\n> \n> Allow error carried forward from incorrect concentrations if the *K*<sub>a</sub> method is correctly applied\n\n> **[exam-tip]**\n> When mixing two solutions, the total volume must be used to calculate the new diluted concentrations.\n> \n> Alternatively, use moles directly:\n> \n> moles CH<sub>3</sub>COOH = 0.2 x 0.130 = 0.026 mol\n> \n> moles CH<sub>3</sub>COO<sup>-</sup> = 0.45 x 0.085 = 0.038 mol\n> \n> The ratio of moles = ratio of concentrations (same volume), giving the same [H<sup>+</sup>] and pH.",
+     "equations": [
+      {
+       "latex": "\\frac{130}{215}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>130</mn><mn>215</mn></mfrac></math>",
+       "alt": "\\frac{130}{215}"
+      },
+      {
+       "latex": "\\frac{85}{215}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>85</mn><mn>215</mn></mfrac></math>",
+       "alt": "\\frac{85}{215}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_g4ZvbQXpKvgQC5gV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mJRT89K2QYQn2gqs"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalculate the pH of a buffer solution made by mixing together 130 cm^3^ of 0.2 mol dm^-3^ ethanoic acid (*K*~a~ = 1.74 x 10^-5^ mol dm^-3^) and 85 cm^3^ of 0.45 mol dm^-3^ sodium ethanoate. Show your working.\n\n1.00 cm<sup>3</sup> of 1.00 mol dm<sup>-3</sup> sodium hydroxide is added to the buffer solution in part **(b)**.\n\ni) State what the comparison of the pH values before and after the addition of NaOH demonstrates about the buffer solution.\n\n[1]\n\nii) Calculate the new pH of the buffer solution after the addition. Show your working.\n\n[4]",
+     "solution_md": "> **[mark-scheme]**\n> i) The comparison of pH values before and after addition of NaOH demonstrates:\n> \n> - The pH changed by only ~0.02 (from 4.93 to 4.95)\n> **AND**\n> This demonstrates the buffer successfully resists significant changes in pH when a small amount of alkali is added **[1 mark]**\n\nii) To calculate the new pH of the buffer after adding 1.00 cm<sup>3</sup> of 1.00 mol dm<sup>-3</sup> NaOH:\n\n- List the initial moles of acid and salt from part **(b)**:\n\n  - moles of CH<sub>3</sub>COOH = 0.121 x 0.215 = 0.026 mol\n  - moles of CH<sub>3</sub>COO<sup>-</sup> = 0.178 x 0.215 = 0.038 mol\n- Calculate the moles of OH<sup>-</sup> added:\n\nmoles of OH<sup>-</sup> = 1.00 x $\\frac{1.00}{1000}$ = 1.00 x 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n- Calculate the new moles of acid and salt after the reaction OH<sup>-</sup> + CH<sub>3</sub>COOH → CH<sub>3</sub>COO<sup>-</sup> + H<sub>2</sub>O:\n\nmoles of CH<sub>3</sub>COOH = 0.026 – 1.00 x 10<sup>-3</sup> = 0.025 mol\n\nmoles of CH<sub>3</sub>COO<sup>-</sup> = 0.038 + 1.00 x 10<sup>-3</sup> = 0.039 mol\n\n**[1 mark]**\n\n- Apply the *K*<sub>a</sub> expression:\n\n[H<sup>+</sup>] = *K*<sub>a</sub> x (moles acid / moles salt) = 1.74 x 10<sup>-5</sup> x (0.025 / 0.039)\n\n[H<sup>+</sup>] = 1.12 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Calculate the pH:\n\npH = –log(1.12 x 10<sup>-5</sup>)\n\npH = **4.95**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of OH<sup>-</sup> = 1.00 x 10<sup>-3</sup> mol\n> \n> 1 mark for new moles of CH<sub>3</sub>COOH AND CH<sub>3</sub>COO<sup>-</sup>\n> \n> 1 mark for [H<sup>+</sup>] = 1.12 x 10<sup>-5</sup> mol dm<sup>-3</sup>\n> \n> 1 mark for pH = 4.95 (allow 4.95–4.96)\n> \n> Allow error carried forward from incorrect moles if the *K*<sub>a</sub> method is correctly applied\n\n> **[exam-tip]**\n> When NaOH is added to the buffer, OH<sup>-</sup> reacts with the weak acid:\n> \n> CH<sub>3</sub>COOH + OH<sup>-</sup> → CH<sub>3</sub>COO<sup>-</sup> + H<sub>2</sub>O.\n> \n> This decreases the moles of acid and increases the moles of salt by the same amount. Since both components change by only 1.00 x 10<sup>-3</sup> mol, and the initial moles are much larger, the pH changes by only ~0.02. This is the buffer in action.",
+     "equations": [
+      {
+       "latex": "\\frac{1.00}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>00</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{1.00}{1000}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_7wxGdQjfTpDDHHdR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YXgprkBMDtsH6nb3"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalculate the pH of a buffer solution made by mixing together 130 cm^3^ of 0.2 mol dm^-3^ ethanoic acid (*K*~a~ = 1.74 x 10^-5^ mol dm^-3^) and 85 cm^3^ of 0.45 mol dm^-3^ sodium ethanoate.\n\nConstruct two equations for the separate addition of a small volume of acid and a small volume of base to the buffer solution in part **(b)**.",
+     "solution_md": "> **[mark-scheme]**\n> Equation 1: addition of acid to the buffer\n> \n> - CH<sub>3</sub>COO<sup>-</sup> (aq) + H<sup>+</sup> (aq) → CH<sub>3</sub>COOH (aq)\n> **OR**\n> CH<sub>3</sub>COO<sup>-</sup> (aq) + H<sub>3</sub>O<sup>+</sup> (aq) → CH<sub>3</sub>COOH (aq) + H<sub>2</sub>O (l) **[1 mark]**\n> \n> Equation 2: addition of base to the buffer\n> \n> - CH<sub>3</sub>COOH (aq) + OH<sup>-</sup> (aq) → CH<sub>3</sub>COO<sup>-</sup> (aq) + H<sub>2</sub>O (l) **[1 mark]**\n> \n> State symbols are required for each equation\n\n> **[exam-tip]**\n> Buffers resist pH change by reacting with both added acid and added base. The conjugate base (CH<sub>3</sub>COO<sup>-</sup>) mops up added H<sup>+</sup> ions, and the weak acid (CH<sub>3</sub>COOH) reacts with added OH<sup>-</sup> ions. Both equations must include state symbols. Note: adding H<sub>3</sub>O<sup>+</sup> and H<sub>2</sub>O as a product is also accepted for equation 1."
+    }
+   ]
+  }
+ ]
+}

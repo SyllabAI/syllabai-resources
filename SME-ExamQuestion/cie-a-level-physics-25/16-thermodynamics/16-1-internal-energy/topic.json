@@ -1,0 +1,680 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:20:17Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "16-thermodynamics",
+  "name": "16. Thermodynamics"
+ },
+ "topic": {
+  "id": "top_GNHrSfkHHdh63dmk",
+  "slug": "16-1-internal-energy",
+  "name": "Internal Energy",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "internal-energy",
+   "name": "Internal energy",
+   "revision_note_id": "rn_pCvnrfXvfs4Kkq9v"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_JTHGH89FWjVSrcgH",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/16-thermodynamics/16-1-internal-energy/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/01/3a.png": "001-3a.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/3a-ms.png": "002-3a-ms.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_YnQPCFMh3C3DXcJv",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_FWnHzC2tpsXPNhyd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XrS6py9275ZQvvDf",
+      "spcpt_kNySbncfcZKPxpKJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A container of fixed volume holds 15.0 moles of a monatomic ideal gas. This is 9.03 × 10<sup>24</sup> atoms in total.\n\nEach atom has a mass of 6.64 × 10<sup>−27</sup> kg.\n\nThe gas is held at a temperature such that the root-mean-square speed is 1680 m s<sup>−1</sup>.\n\nCalculate this temperature.",
+     "solution_md": "To find the temperature:\n\nList the known quantities:\n\n- Number of moles, *n*  = 15.0 mol\n- Number of atoms, *N* = 9.03 × 10<sup>24</sup>\n- Root-mean-square speed, `square root of open angle brackets c squared close angle brackets end root` = 1680 m s<sup>−1</sup>\n- Mass of an individual atom, *m* = 6.64 × 10<sup>−27</sup> kg\n- Molar gas constant, *R*  = 8.31 J K<sup>−1</sup> mol<sup>−1</sup>\n\nRecall the ideal gas law:\n\n- $pV=nRT$\n\nUse the pressure of an ideal gas equation from the formulae page:\n\n- `p space equals space 1 third fraction numerator N m over denominator V end fraction open angle brackets c squared close angle brackets`\n\nCombine the two to eliminate pressure and volume:\n\n- `p V space equals space open parentheses 1 third fraction numerator N m over denominator up diagonal strike V end fraction open angle brackets c squared close angle brackets close parentheses space cross times space up diagonal strike V space equals space n R T` **[1 mark]**\n\nRearrange for temperature:\n\n- `n R T space equals space fraction numerator N m open angle brackets c squared close angle brackets over denominator 3 end fraction`\n- `T space equals space fraction numerator N m open angle brackets c squared close angle brackets over denominator 3 n R end fraction space equals space fraction numerator open parentheses 9.03 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 6.64 space cross times space 10 to the power of negative 27 end exponent close parentheses space cross times space 1680 squared over denominator 3 space cross times space 15 space cross times space 8.31 end fraction` **[1 mark]**\n- $T=453K$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Combining these two known equations requires some careful algebra. Additionally, a common pitfall is to forget to square the root-mean-square speed when using the pressure of an ideal gas equation. You had to square the 1680 m s*<sup>*−1*</sup>* to get the correct answer.*\n\n> *Root-mean-square speed is written as *`square root of open angle brackets c squared close angle brackets end root`* and has units of speed,  m s*<sup>*−1*</sup>*.*\n\n> *Mean-square speed is written as *`open angle brackets c squared close angle brackets`* and has units of speed-squared, m*<sup>*2*</sup>* s*<sup>*−2*</sup>*.*",
+     "equations": [
+      {
+       "latex": "pV=nRT",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>R</mi><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p V space equals space n R T"
+      },
+      {
+       "latex": "T=453K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>453</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space equals space 453 space straight K"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JRBtrWD2yj3v5Xgd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yBrgNYY2b47JJzdD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA container of fixed volume holds 15.0 moles of a monatomic ideal gas. This is 9.03 × 10^24^ atoms in total.\n\nThe gas undergoes a process and now has a pressure of 150 kPa. The container has a fixed volume of 0.300 m<sup>3</sup>.\n\nCalculate the new temperature of the gas.",
+     "solution_md": "To find the new temperature:\n\nList the known quantities:\n\n- Number of moles, *n*  = 15 mol (from (a))\n- Molar gas constant, *R*  = 8.31 J K<sup>−1</sup> mol<sup>−1</sup>\n- Pressure, *p*  = 150 kPa = 150 × 10<sup>3</sup> Pa\n- Volume, *V*  = 0.300 m<sup>3</sup>\n\nRearrange the ideal gas equation for temperature:\n\n- $pV=nRT$\n- $T=\\frac{pV}{nR}$\n\nSubstitute the known quantities:\n\n- `T space equals space fraction numerator open parentheses 150 space cross times space 10 cubed close parentheses space cross times space 0.300 over denominator 15 space cross times space 8.31 end fraction` **[1 mark]**\n- $T=361K$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "pV=nRT",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>R</mi><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p V space equals space n R T"
+      },
+      {
+       "latex": "T=\\frac{pV}{nR}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>n</mi><mi>R</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space equals space fraction numerator p V over denominator n R end fraction"
+      },
+      {
+       "latex": "T=361K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>361</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space equals space 361 space straight K"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zK58FBws3kn27f9z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9",
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA container of fixed volume holds 15.0 moles of a monatomic ideal gas. ... The gas is held at a temperature such that the root-mean-square speed is 1680 m s^−1^. Calculate this temperature. [Answer: T = 453 K]\n\nThe gas undergoes a process and now has a pressure of 150 kPa. The container has a fixed volume of 0.300 m^3^. Calculate the new temperature of the gas. [Answer: T = 361 K]\n\nFor the process outlined in part (b):\n\n(i) Describe the change in internal energy. Explain your answer.\n\n[3]\n\n(ii) Describe the process which caused this change in internal energy. Explain your answer.\n\n[4]",
+     "solution_md": "(i) Describe the change in internal energy:\n\n- The internal energy decreases; **[1 mark]**\n\nExplain your answer:\n\n- Temperature has decreased; **[1 mark]**\n- Internal energy is proportional to temperature **OR** Δ*U* ∝ Δ*T* ; **[1 mark]**\n\n(ii) Describe the process which caused this:\n\n- Heat / thermal energy was transferred from the gas to the surroundings; **[1 mark]**\n\nExplain your answer:\n\n- The volume was fixed / constant; **[1 mark]**\n- No work was done; **[1 mark]**\n- (Therefore) heat loss caused a loss of internal energy; **[1 mark]**\n\n**[Total: 7 marks]**\n\n> *Recall that internal energy can be decreased either by the gas doing work (i.e. expanding) or heat being transferred away from the gas. The container has a fixed volume, so the gas cannot expand or be compressed.*\n\n> *This leaves only heat transfer as a means of reducing internal energy. This is a less formal way of stating the first law of thermodynamics - a concept you will come a cross in the next topic.*"
+    },
+    {
+     "id": "qstnprt_KHp2bG3R9ryfPbKb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA container of fixed volume holds 15.0 moles of a monatomic ideal gas.\n\nThe boiling point of this gas is 350 K. Explain why the potential energy of this ideal gas does not change.",
+     "solution_md": "The potential energy is unchanged because:\n\n- (For an ideal gas) there are no intermolecular forces; **[1 mark]**\n- (Additionally) no phase changes occur; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Of course, in reality there are intermolecular forces between gaseous particles. For an ideal gas, however, these interactions are ignored and all internal energy is assumed to be derived from the average kinetic energy of the particles.*\n\n> *This is why internal energy is directly proportional to temperature for an ideal gas. *\n\n> *Potential energy changes if the gas condenses, as bonds form between the particles in a liquid phase, but that is not occurring here.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TwFNq6BgXjqbffkN",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_Xc4VCK7stHnM8j5B",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "A monatomic gas, contained within a balloon, increases in temperature from 260 K to 310 K.\n\nCalculate the factor by which the internal energy changes, stating whether this is an increase or decrease.",
+     "solution_md": "Calculate the change in internal energy:\n\nList the known quantities:\n\n- Initial temperature = 260 K\n- Final temperature = 310 K\n\nThe change in internal energy of an ideal gas is proportional to the change in temperature, and can be written as:\n\n- $ΔU\\proptoΔT$\n\nCalculate the factor by which temperature increases:\n\n- $\\frac{310}{260}=1.19$ **[1 mark]**\n\nWrite the factor by which internal energy changes:\n\n- Internal energy <u>increases</u> by a factor of 1.2 **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "ΔU\\proptoΔT",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi mathvariant=\"normal\">&#916;</mi><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space proportional to space straight capital delta T"
+      },
+      {
+       "latex": "\\frac{310}{260}=1.19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>310</mn><mn>260</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>19</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "310 over 260 space equals space 1.19"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pVNpPj2kHqhjsm6m",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA monatomic gas, contained within a balloon, increases in temperature from 260 K to 310 K. Calculate the factor by which the internal energy changes, stating whether this is an increase or decrease. [Answer: Internal energy increases by a factor of 1.19 (310/260 = 1.19)]\n\nThe initial internal energy was 2.3 kJ. The gas in the balloon is perfectly insulated.\n\n(i) Describe the heat transferred between the gas and its surroundings.\n\nExplain your answer.\n\n[2]\n\n(ii) Calculate the work done on the gas.\n\n[3]",
+     "solution_md": "(i) Describe the heat transferred:\n\n- No heat is transferred between gas and surroundings; **[1 mark]**\n\nExplain why:\n\n- The gas is perfectly <u>insulated</u>; **[1 mark]**\n\n(ii) Calculate the work done on the gas:\n\nList the known quantities:\n\n- Initial internal energy, *U*<sub>*i*</sub>  = 2.3 kJ = 2300 J\n- Factor by which internal energy increases, *α* = 1.19\n- Heat transferred between gas and surroundings = 0 J\n\nRelate work done and internal energy:\n\n- The internal energy is increased by work done on the gas\n- Work done = Δ*U*  **[1 mark]**\n\nCalculate work done:\n\n- Final internal energy, *U*<sub>*f*</sub>*  *= 1.19*U*<sub>*i*</sub>\n- $ΔU=U_{f}-U_{i}=1.19U_{i}-U_{i}$\n- `W space equals space straight capital delta U space equals space open parentheses 1.19 space cross times space 2300 close parentheses space minus space 2300` **[1 mark]**\n- $W=437J=440J$ **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "ΔU=U_{f}-U_{i}=1.19U_{i}-U_{i}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>U</mi><mi>f</mi></msub><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>U</mi><mi>i</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>19</mn><msub><mi>U</mi><mi>i</mi></msub><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>U</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space equals space U subscript f space minus space U subscript i space equals space 1.19 U subscript i space minus space U subscript i"
+      },
+      {
+       "latex": "W=437J=440J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>437</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>440</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space 437 space straight J space equals space 440 space straight J"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DpqBHRj6SZXk64xW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY",
+      "spcpt_mKx2s9SjbZ7TbmKx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA monatomic gas, contained within a balloon, increases in temperature from 260 K to 310 K.\n\nThe initial internal energy was 2.3 kJ. The gas in the balloon is perfectly insulated. Calculate the work done on the gas. (Work done = ΔU = (1.19 × 2300) − 2300 = 437 J = 440 J, work is done on the gas.)\n\nState whether the balloon increases or decreases in size.\n\nExplain your answer.",
+     "solution_md": "State whether the balloon shrinks or grows:\n\n- The balloon decreases in size / shrinks; **[1 mark]**\n\nExplain why:\n\n- Work is done <u>on</u> the gas; **[1 mark]**\n- (Therefore) <u>volume</u> decreases; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Work done is force exerted over a distance. To do work on a gas in a balloon, a force is exerted on it over a distance i.e. the balloon shrinks. This means the volume decreases.*"
+    },
+    {
+     "id": "qstnprt_QTrzfWMSJb9M9cJb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA monatomic gas, contained within a balloon, increases in temperature from 260 K to 310 K.\n\nDescribe and explain the change in average kinetic energy of the particles in this process.",
+     "solution_md": "Describe changes in average kinetic energy:\n\n- Average kinetic energy increases; **[1 mark]**\n\nExplain why:\n\n- As temperature increases, particles move with <u>greater average speed</u>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Temperature is just a measure of the average kinetic energies of all the particles in a substance.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M4b2WmfRCG2sn7Vn",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_pQtW75pT2MxtWJJ5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "Define internal energy.",
+     "solution_md": "Internal energy is defined as:\n\n- The sum of (the random distribution of) kinetic and potential energies within a system of molecules; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_V8ZWKNvh8BYmJvFz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the change in internal energy if a system's temperature decreases.",
+     "solution_md": "If the temperature decreases:\n\n- (The system's) internal energy will decrease; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_G6C27fP9rrnJjVyG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the sentence, using words from the options below:\n\nFor an ideal gas, temperature is .................... proportional to ................... kinetic energy.\n\n| **inversely** | **never** | **an atom's** |\n|---|---|---|\n| **total** | **directly** | **average** |",
+     "solution_md": "To complete the sentence:\n\n**One**** mark for each correct word:**\n\n- For an ideal gas, temperature is **directly**** **proportional to **average **kinetic energy\n\n**[Total: 2 marks]**\n\n> *Temperature is simply a measure of the average kinetic energy of the particles in a system. If the particles are moving faster, the temperature is higher.*\n\n> *This proportional relationship only applies, however, when using the **kelvin** scale. At 0 K, or absolute zero, the particles have no kinetic energy.*"
+    },
+    {
+     "id": "qstnprt_Dv6BVKQwFK4h79sd",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the following statement made by a student is only true for an ideal gas:\n\n'*internal energy is the sum of the kinetic energies of all the particles*'.",
+     "solution_md": "This is only true for an ideal gas because:\n\n- Ideal gases have no potential energy; **[1 mark]**\n- Because there are no interactions / forces between the particles; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The statement above omits the potential energy from the definition of internal energy.*\n\n> *In this topic, you must be familiar with the assumptions made in the ideal gas model. An ideal gas has particles that collide but have no intermolecular interactions.*\n\n> *In a solid, liquid, or real gas, however, there are interactions between particles. These make up the system's potential energy, which contributes to internal energy. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DfdrVW8Z3Sy8yd8K",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_h236r9KdKmRJmYP5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "For an ideal gas, internal energy is directly proportional to temperature in kelvin.\n\nA sample of ideal gas is in a perfectly insulated box of fixed volume.\n\nThe temperature of the sample rises from 400 K to 600 K. Its internal energy was initially 2800 J.\n\nCalculate its new internal energy.",
+     "solution_md": "To calculate the new internal energy:\n\nList the known quantities:\n\n- Initial temperature, *T*<sub>*i*</sub>  = 400 K\n- Final temperature, *T*<sub>*f*</sub>  = 600 K\n- Initial internal energy, *U*<sub>*i*</sub>  = 2800 J\n\nUse direct proportionality:\n\n- $T\\proptoU$\n- Therefore, $\\frac{T_{f}}{T_{i}}=\\frac{U_{f}}{U_{i}}$ **[1 mark]**\n\nSubstitute the known quantities to find the new internal energy, *U*<sub>*f*</sub> :\n\n- $U_{f}=U_{i}\\times\\frac{T_{f}}{T_{i}}=2800\\times\\frac{600}{400}$ **[1 mark]**\n- $U_{f}=4200J$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The equation *$\\frac{T_{f}}{T_{i}}=\\frac{U_{f}}{U_{i}}$* is essentially saying 'if temperature doubles, internal energy also doubles'. This is direct proportionality, but you could have also used the initial temperature and initial internal energy to find a constant of proportionality and found final internal energy that way. Both methods are equivalent.*",
+     "equations": [
+      {
+       "latex": "T\\proptoU",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>U</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space proportional to space U"
+      },
+      {
+       "latex": "\\frac{T_{f}}{T_{i}}=\\frac{U_{f}}{U_{i}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>T</mi><mi>f</mi></msub><msub><mi>T</mi><mi>i</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>U</mi><mi>f</mi></msub><msub><mi>U</mi><mi>i</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript f over T subscript i space equals space U subscript f over U subscript i"
+      },
+      {
+       "latex": "U_{f}=U_{i}\\times\\frac{T_{f}}{T_{i}}=2800\\times\\frac{600}{400}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>U</mi><mi>f</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>U</mi><mi>i</mi></msub><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mfrac><msub><mi>T</mi><mi>f</mi></msub><msub><mi>T</mi><mi>i</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2800</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mfrac><mn>600</mn><mn>400</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U subscript f space equals space U subscript i space cross times space T subscript f over T subscript i space equals space 2800 space cross times space 600 over 400"
+      },
+      {
+       "latex": "U_{f}=4200J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>U</mi><mi>f</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4200</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U subscript f space equals space 4200 space straight J"
+      },
+      {
+       "latex": "\\frac{T_{f}}{T_{i}}=\\frac{U_{f}}{U_{i}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>T</mi><mi>f</mi></msub><msub><mi>T</mi><mi>i</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>U</mi><mi>f</mi></msub><msub><mi>U</mi><mi>i</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript f over T subscript i space equals space U subscript f over U subscript i"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RdXPD5JPwhgXFPXC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFor an ideal gas, internal energy is directly proportional to temperature in kelvin. A sample of ideal gas is in a perfectly insulated box of fixed volume. The temperature of the sample rises from 400 K to 600 K. Its internal energy was initially 2800 J.\nU_f = 4200 J (new internal energy calculated in part a)\n\nCalculate the increase in total kinetic energy of the particles in the ideal gas.",
+     "solution_md": "To calculate the increase in total kinetic energy:\n\nList the known quantities:\n\n- Initial internal energy, *U*<sub>*i*</sub>  = 2800 J\n- Final internal energy, *U*<sub>*f*</sub>  = 4200 J\n\nDetermine the increase in internal energy:\n\n- $ΔU=U_{f}-U_{i}=4200-2800$\n- $ΔU=1400J$ **[1 mark]**\n\nState the change in total kinetic energy:\n\n- Change in total kinetic energy = change in internal energy = 1400 J **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Recall the definition of internal energy:*\n\n- *Internal energy is the sum of a random distribution of kinetic and potential energies associated with molecules of a system*\n- *Ideal gases have no potential energy*\n- *All internal energy is kinetic energy*\n\n> *Remembering this will help you answer the final part of the question.*",
+     "equations": [
+      {
+       "latex": "ΔU=U_{f}-U_{i}=4200-2800",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>U</mi><mi>f</mi></msub><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>U</mi><mi>i</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4200</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>2800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space equals space U subscript f space minus space U subscript i space equals space 4200 space minus space 2800"
+      },
+      {
+       "latex": "ΔU=1400J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1400</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space equals space 1400 space straight J"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_y6J52wBny8sJFCrV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2fZq6KG2vqwsJ3FM"
+     ],
+     "part_tier": null,
+     "problem_md": "The sample contains 3 moles of ideal gas.\n\nCalculate the number of atoms in the sample.",
+     "solution_md": "To find the number of atoms:\n\nList the known quantities:\n\n- Number of moles, *n* = 3 mol\n\nFrom the data page:\n\n- Avogadro constant, *N*<sub>*A*</sub>*  = *6.02 × 10<sup>23</sup> mol<sup>−1</sup>\n\nCalculate the number of atoms:\n\n- *N*<sub>*A*</sub> is the number of atoms in 1 mol\n- $\\mathrm{number} \\mathrm{of} \\mathrm{atoms}=3\\times6.02\\times10^{23}$\n- $\\mathrm{number} \\mathrm{of} \\mathrm{atoms}=1.8\\times10^{24}$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "\\mathrm{number} \\mathrm{of} \\mathrm{atoms}=3\\times6.02\\times10^{23}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>number</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>atoms</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>6</mn><mo>.</mo><mn>02</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>23</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "number space of space atoms space equals space 3 space cross times space 6.02 space cross times space 10 to the power of 23"
+      },
+      {
+       "latex": "\\mathrm{number} \\mathrm{of} \\mathrm{atoms}=1.8\\times10^{24}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>number</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>atoms</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>8</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>24</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "number space of space atoms space equals space 1.8 space cross times space 10 to the power of 24"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DZ6rMVVjbp99qhD8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe temperature of the sample rises from 400 K to 600 K. Its internal energy was initially 2800 J. New internal energy U_f = 4200 J.\n\nAll internal energy is kinetic energy. Final total kinetic energy = 4200 J.\n\nThe sample contains 3 moles of ideal gas. Number of atoms N = 1.8 × 10^24.\n\nCalculate the average kinetic energy of a particle in the sample of ideal gas after it has been heated.",
+     "solution_md": "To find average kinetic energy of a single particle:\n\nList the known quantities:\n\n- Final total kinetic energy, *E *= 4200 J (from part (b))\n- Number of atoms, *N* = 1.8 × 10<sup>24 </sup>(from part (c))\n\nCalculate average kinetic energy per particle, *E*<sub>*k avg *</sub>:\n\n- $E_{kavg}=\\frac{E}{N}=\\frac{4200}{1.8\\times10^{24}}$ **[1 mark]**\n- $E_{kavg}=2.3\\times10^{-21}J$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "E_{kavg}=\\frac{E}{N}=\\frac{4200}{1.8\\times10^{24}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mrow><mi>k</mi><mo>&#160;</mo><mi>a</mi><mi>v</mi><mi>g</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>E</mi><mi>N</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>4200</mn><mrow><mn>1</mn><mo>.</mo><mn>8</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>24</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript k space a v g end subscript space equals space E over N space equals space fraction numerator 4200 over denominator 1.8 space cross times space 10 to the power of 24 end fraction"
+      },
+      {
+       "latex": "E_{kavg}=2.3\\times10^{-21}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mrow><mi>k</mi><mo>&#160;</mo><mi>a</mi><mi>v</mi><mi>g</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>21</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript k space a v g end subscript space equals space 2.3 space cross times space 10 to the power of negative 21 end exponent space straight J"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CspSJGqCXvSqDKNk",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ZtvytwrbVnyPp7VJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw **three** lines on Fig 1.1 between the corresponding effects on internal energy and changes to the system.\n\n![3a](assets/001-3a.png)\n\n**Fig 1.1**",
+     "solution_md": "Three correct lines:\n\n**One**** mark for each correct line**\n\n![3a-ms](assets/002-3a-ms.png)\n\n**[Total: 3 marks]**\n\n> *If temperature decreases, then internal energy also decreases. This explains the first line.*\n\n> *For the second line, internal energy is independent of pressure provided that temperature is constant. Equally, pressure could be constant or decrease - as long as temperature is constant, internal energy is also constant for an ideal gas.*\n\n> *Internal energy is a measure of the total kinetic and potential energies of all particles in a system. If there are more particles, it follows that internal energy increases.*"
+    },
+    {
+     "id": "qstnprt_SqnSPKDGR2xJ2pxb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "The internal energy of an ideal gas increases.\n\nDescribe the change in average particle motion.",
+     "solution_md": "If internal energy increases, the average particle motion changes as follows:\n\n- Average speed of the particles <u>increases</u> / the particles move <u>faster</u> on average; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_xtnsQBnV5YT5ptBX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "Name two ways the internal energy of the system may be increased.",
+     "solution_md": "The internal energy may be increased by:\n\n- Doing work on the system; **[1 mark]**\n- Heating the system; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_SGyCWRFtjH5RSrBJ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "The volume of a container filled with an ideal gas is reduced. In this process, 3.5 kJ of work is done **on **the system.\n\nAt the same time, 1.2 kJ of thermal energy is transferred **from **the system to its surroundings.\n\nCalculate the change in internal energy.",
+     "solution_md": "To find the change in internal energy:\n\nList the known quantities:\n\n- Work done on system, *W*  = 3.5 kJ\n- Thermal energy transferred from system, *Q*  = 1.2 kJ\n\nDetermine energy gained and energy lost by the system:\n\n- Work done on system increases internal energy\n- Thermal energy transferred away from system reduces internal energy\n\nCalculate the change in internal energy, Δ*U* :\n\n- $ΔU=W-Q$ **[1 mark]**\n- $ΔU=3.5-1.2$\n- $ΔU=2.3\\mathrm{kJ}$ **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question gives a preview of the next topic: Δ**U = Q − W ** is a rearrangement of the first law of thermodynamics.*\n\n> *You need to remember the things that either increase or decrease internal energy. Refer back to the revision notes to recap this if necessary.*",
+     "equations": [
+      {
+       "latex": "ΔU=W-Q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>W</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mi>Q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space equals space W space minus space Q"
+      },
+      {
+       "latex": "ΔU=3.5-1.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U space equals space 3.5 space minus space 1.2"
+      },
+      {
+       "latex": "ΔU=2.3\\mathrm{kJ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>U</mi><mo mathvariant=\"italic\">&#160;</mo><mo mathvariant=\"italic\">=</mo><mo mathvariant=\"italic\">&#160;</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>&#160;</mo><mi>kJ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta U italic space italic equals italic space 2.3 space kJ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CmJw9qHBT2zfRW2p",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_VVKNnzqFfYSyGzgc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MySRd8FkjVpn7WHY"
+     ],
+     "part_tier": null,
+     "problem_md": "Define internal energy.",
+     "solution_md": "Internal energy is defined as\n\n- The sum of the <u>random distribution</u> of <u>kinetic and potential energies</u> within a system of molecules; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_4vZdkhjQHrpc6CdX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SkCBvtWytQs2gbj9"
+     ],
+     "part_tier": null,
+     "problem_md": "State and explain, in molecular terms, whether the internal energy of the following increases, decreases or does not change.\n\n(i) A lump of copper as it is cooled.\n\n[3]\n\n(ii) Some water as it evaporates at a constant temperature.\n\n[3]",
+     "solution_md": "(i) The internal energy of a lump of copper as it cools:\n\n- The potential energy is unchanged as the atoms remain in the same positions (in the solid); **[1 mark]**\n- The vibrational kinetic energy reduces because the temperature gets lower; **[1 mark]**\n- So the internal energy is less; **[1 mark]**\n\n(ii) The internal energy of some water as it evaporates at a constant temperature:\n\n- The potential energy increases because the separation of the atoms increases (as the water molecules move from a liquid to evaporate as a gas); **[1 mark]**\n- The kinetic energy remains constant because the temperature remains constant; **[1 mark]**\n- So the internal energy increases; **[1 mark]**\n\n**[Total: 6 marks]**"
+    }
+   ]
+  }
+ ]
+}

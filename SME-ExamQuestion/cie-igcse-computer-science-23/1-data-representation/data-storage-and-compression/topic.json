@@ -1,0 +1,385 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:39:50Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "1-data-representation",
+  "name": "1. Data Representation"
+ },
+ "topic": {
+  "id": "top_wpRwVSMZxPn38sd5",
+  "slug": "data-storage-and-compression",
+  "name": "Data Storage & Compression",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "units-of-data-storage",
+   "name": "Units of Data Storage",
+   "revision_note_id": "rn_8PPzSsp8NQczNxCC"
+  },
+  {
+   "slug": "calculating-file-sizes",
+   "name": "Calculating File Sizes",
+   "revision_note_id": "rn_Jv4GfCgyDvx8ycVB"
+  },
+  {
+   "slug": "compression",
+   "name": "Compression",
+   "revision_note_id": "rn_ZSgwrnCkrXhC3462"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_ZtxjRzyYV9MWrnQx",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/1-data-representation/data-storage-and-compression/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_jGfPVj9PmqkHDgXw",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_GctHwxGSBjBJtFcD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_PpBvnfFP4Ms9PQZZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The binary number is measured as a byte because it has 8 bits.\n\n**State **how many bytes there are in a kibibyte (KiB).",
+     "solution_md": "The total number of bytes in a kibibyte are:\n\n- 1024 **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vwS87C5WKB3wfRkJ",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hkCx4FR7sCsYBbMB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PpBvnfFP4Ms9PQZZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **the difference between a megabyte (**MB**) and a mebibyte (**MiB**).",
+     "solution_md": "The differences between a MB and  MIB include:\n\nAny **two **of the following:\n\n- A megabyte (MB) is a decimal unit of data storage **[1 mark]**\n- … based on powers of 10 **[1 mark]**\n- … equivalent to 1,000,000 bytes / 1000 kilobytes **[1 mark]**\n- A mebibyte (MiB) is a binary unit of data storage **[1 mark]**\n- … based on powers of 2 **[1 mark]**\n- … equivalent to 1,048,576 bytes (2^20) / 1024 kibibytes **[1 mark]**\n\n> **[exam-tip]**\n> The command word is 'explain', so quoting numbers alone won't gain full credit — you need to make the underlying distinction clear\n> \n> Quote storage in bytes (not bits) and get the exact figures right rather than rounding or approximating"
+    },
+    {
+     "id": "qstnprt_V96N2mxdW5rYRcdg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PpBvnfFP4Ms9PQZZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Calculate **how many **kibibytes **(KiB) there are in **3 gibibytes **(GiB)?\n\nShow your **working**.",
+     "solution_md": "The number of kibibytes in 3 gibibytes is:\n\n- 3,145,728 KiB **[1 mark]**\n- Correct working* ***[1 mark]**\n\n  - *3 GiB = 3×1024 MiB *\n  - *= 3×1024 × 1024 KiB*\n  - *= 3 × 1,048,576 KiB * **OR**\n  - *3 x 1024 x 1024*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rf8M2tpBgXKg5XM4",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_NvKBvSCWDFPFtCBV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wcPqybNRz9mzhZ88"
+     ],
+     "part_tier": null,
+     "problem_md": "The following data is stored as a **text file**:\n\n| red, green, yellow, green, purple, blue, red, purple, blue, yellow, grey, black, pink, red, |\n|---|\n\n**Explain **how lossless compression would compress this file.",
+     "solution_md": "Lossless compression would compress the file by:\n\nAny **five **of the following:\n\n- A (compression) algorithm is used **[1 mark]**\n- No data is removed in the process **OR **original file can be restored **[1 mark]**\n- Repeated words/symbols (are identified) **OR **Patterns in the data (are identified) **[1 mark]**\n- … and are indexed/put into a table **OR** by example **[1 mark]**\n- … and are replaced with their index **OR**  by example **[1 mark]**\n- … and their positions are stored (in the table) **OR** by example **[1 mark]**\n- … and the number of times the word/pattern appears is stored (in the table) **OR** by example **[1 mark]**\n\n> **[exam-tip]**\n> - An example of a five mark response could be:\n> \n> *Lossless compression works by using an algorithm that identifies repeated patterns in the data, such as the repeated colours in the list. These patterns are then indexed and stored in a table. For example, the word \"red\" might be replaced with the number \"1\" in the file, \"green\" with \"2\", and so on. The original positions and the number of times each colour appears are also stored in the table. This way, the file is compressed without losing any data, and the original file can be fully restored when needed.*\n> \n> Describe the dictionary method here, not run-length encoding — the colours are scattered rather than consecutive.\n> \n> For a 5-mark 'explain', use a worked example of the actual data to show each step clearly rather than vague 'grouping' language."
+    }
+   ]
+  },
+  {
+   "id": "qstn_BDGhYwwcz73C6Thm",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_zBk5fdxBGxKW8Snw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9chWxVfYNtCVTVhy"
+     ],
+     "part_tier": null,
+     "problem_md": "An image is stored on a computer. The image is 16‑bit colour and is 100 pixels high and 150 pixels wide.\n\n**Calculate the file size** of the image in bytes.\n\nShow all your **working**.",
+     "solution_md": "The size of the file is:\n\n- 30 000 bytes **[1 mark]**\n\n*Working*\n\n- $100\\times150$\n- $15000\\times16OR15000\\times2$\n- * *$240000/8$\n\n> **[mark-scheme]**\n> - Two marks for **two** correct stages of working",
+     "equations": [
+      {
+       "latex": "100\\times150",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>100</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>150</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "100 space cross times space 150"
+      },
+      {
+       "latex": "15000\\times16OR15000\\times2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>16</mn><mo>&#160;</mo><mi>O</mi><mi>R</mi><mo>&#160;</mo><mn>15</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "15 space 000 space cross times space 16 space O R space 15 space 000 space cross times space 2 space"
+      },
+      {
+       "latex": "240000/8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>240</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mo>/</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "240 space 000 space divided by space 8 space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SBx7MMhSmYMr36x9",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6wbzGyMSZzYxTNb6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PpBvnfFP4Ms9PQZZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Computer memories are measured in terms of the number of bytes.\n\n**State **what is meant by the term* byte*",
+     "solution_md": "The term byte means:\n\nAny **one** of the following:\n\n- Unit of data/memory **[1 mark]**\n- 8 bits **[1 mark]**\n- Used to represent a character **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dMxcCQ5yJp3ShQnv",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_tyMWCvQrGZCnCgPw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wcPqybNRz9mzhZ88",
+      "spcpt_KxDFJXB9MhZTzPFn",
+      "spcpt_PpBvnfFP4Ms9PQZZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student has a sound file that is too large to be stored on their external secondary storage device. The student compresses the sound file to make the file size smaller.\n\nThe compression method used **reduces the sample rate** and the **sample resolution** of the sound file.\n\n**Identify **which **type** of compression has been used to compress the sound file.",
+     "solution_md": "The type of compression that has been used is:\n\n- Lossy compression **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DX3zDqwWSYYNBmbH",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_F22QJTvSKX7ws78K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 1,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_KxDFJXB9MhZTzPFn"
+     ],
+     "part_tier": null,
+     "problem_md": "Jack has an MP3 file stored on his computer.\n\n**Tick (✓) **to show whether the MP3 file is a **lossy **compressed file or a **lossless **compressed file or** not a compressed** file.\n\n|   | **Tick (✓) ** |\n|---|---|\n| Lossy compressed file |   |\n| Lossless compressed file |   |\n| **Not **a compressed file |   |",
+     "solution_md": "|   | **Tick (✓) ** |\n|---|---|\n| Lossy compressed file | **✓** |\n| Lossless compressed file |   |\n| **Not **a compressed file |   |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7x4ZzRy3sTnnkzgZ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YSZmr48XVqmxJh9W",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01",
+      "question_number": 2,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_7yQvFRq6Ky8kv2RY"
+     ],
+     "part_tier": null,
+     "problem_md": "The website hosts videos that users can stream. The company uploads new videos to the website.\n\nThe videos are compressed before they are uploaded to the website.\n\n**Tick (✓) one box **to show which statement is a benefit of compressing the videos.",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- **C** is correct as less storage space is a benefit of compression **[1 mark]**\n- **A, B **and** D **are incorrect as they are not benefits of compression",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Data is encrypted."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Duration of each video will be reduced."
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Less storage space on the web server is required."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "More bandwidth is required when viewing the videos."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_x6NRP92XxJWxr8XP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01",
+      "question_number": 2,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_wcPqybNRz9mzhZ88"
+     ],
+     "part_tier": null,
+     "problem_md": "**Give two **methods of compression that could be used to compress the videos.",
+     "solution_md": "Methods of compression that could be used are:\n\n- lossy **[1 mark]**\n- lossless **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

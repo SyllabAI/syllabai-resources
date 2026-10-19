@@ -1,0 +1,2524 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:12:58Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "maths",
+  "exam_code": "9709",
+  "sme_course_id": "crs_9fVmFm3g3fXrykfz",
+  "syllabus_version": "2021",
+  "sme_alias_path": "20/probability-and-statistics-2",
+  "course_name": "Cambridge (CIE) A Level Maths"
+ },
+ "section": {
+  "slug": "hypothesis-testing",
+  "name": "Hypothesis Testing"
+ },
+ "topic": {
+  "id": "top_k9GxRbcbgKZJkKv8",
+  "slug": "hypothesis-testing-binomial-and-poisson-distributions",
+  "name": "Hypothesis Testing (Binomial & Poisson Distributions)",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "hypothesis-testing-for-lambda",
+   "name": "Hypothesis Testing for the Mean of a Poisson Distribution",
+   "revision_note_id": "rn_vKg66qNHVRRnsjPY"
+  },
+  {
+   "slug": "hypothesis-testing-for-p",
+   "name": "Hypothesis Testing for the Proportion of a Binomial Distribution",
+   "revision_note_id": "rn_vwT29GSMvKNysWFT"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_NHV9tt3hKDWN6WkC",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 32,
+   "questions_embedded": 32,
+   "page_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/topic-questions/hypothesis-testing/hypothesis-testing-binomial-and-poisson-distributions/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 32,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths-1.png": "001-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths-1.png": "002-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths-1.png": "003-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "004-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "005-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6c_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "006-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6d_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "007-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6e_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "008-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths-1-1.png": "009-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "010-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4c_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "011-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "012-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "013-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "014-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1c_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "015-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "016-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "017-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5a_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "018-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5b_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths.png": "019-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5c_3.2-Hypothesis-Testing-Discrete_Hard_CIE_P6_A_Level_Maths-1.png": "020-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "021-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "022-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5c_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "023-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q9a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "024-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q9b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "025-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q9c_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "026-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "027-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "028-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "029-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8c_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "030-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "031-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "032-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "033-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "034-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "035-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "036-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "037-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "038-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "039-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4a_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "040-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4b_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "041-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4c_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "042-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4d_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "043-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4e_3.2_CIE_P6_Hypothesis-Testing-DD_Medium_A_Level_Maths_S2.png": "044-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "045-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "046-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "047-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "048-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "049-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4c_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "050-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "051-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "052-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5c_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "053-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "054-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "055-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "056-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "057-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "058-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3c_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "059-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6a_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "060-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6b_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "061-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6c_3.2_CIE_P6_Hypothesis-Testing-DD_VH_A_Level_Maths_S2.png": "062-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1a_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "063-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1b_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "064-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1c_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "065-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8a_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "066-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8b_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "067-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8c_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "068-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q8d_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "069-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "070-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "071-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "072-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q5_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "073-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q4a_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "074-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q4b_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "075-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6a_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "076-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6b_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "077-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q9a_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "078-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q9b_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "079-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2a_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "080-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2b_3.2_CIE_P6_Hypothesis-Testing-DD_Easy_A_Level_Maths_S2.png": "081-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q3a_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "082-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q3b_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "083-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q3c_5.2_Hypothesis-Testing-Binomial-Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "084-img.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_zXn9fzHXV4NqnfPy",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_FwSsXwyrjcBrWb5c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Anna likes to make crocheted fish for her friends.  Anna models the number of faults in her crocheted fish as having a Poisson distribution with a mean of 45 faults per square metre of material.  After taking a course she believes that this rate has decreased, and she decides to test her belief at the 10% significance level by counting the number of errors in a randomly chosen crocheted fish.\n\nOne of Anna’s crocheted fish uses 1000 cm<sup>2</sup><sub> </sub>of crocheted material.\n\nState what is meant by a Type I error in the context of the question and find the probability that Anna’s test will result in a Type I error.",
+     "solution_md": "![](assets/001-img.png)"
+    },
+    {
+     "id": "qstnprt_f5YTy7XShtpD2MZ3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that Anna finds 2 faults in the randomly chosen crocheted fish, carry out the hypothesis test.",
+     "solution_md": "![](assets/002-img.png)"
+    },
+    {
+     "id": "qstnprt_n9RG8hWWqZWrcq66",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that a Type II error could have occurred in Anna’s test, if the rate of faults after Anna took her course has actually become 25 faults per square metre.",
+     "solution_md": "![](assets/003-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_y7CyhyHVpmwYzTYB",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_HKnk6CK2ZpkRqSpX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "It is known that in the past customers have had a 90% success rate when attempting to order festival tickets from a particular website. The website manager has made some improvements and claims that its customers should now have a greater probability of success. It is decided to conduct a hypothesis test at the 10% significance level to test the manager’s claim, using the next 50 people who attempt to purchase tickets as a sample.\n\nState the null and alternative hypotheses to be used in conducting the test.",
+     "solution_md": "![](assets/004-img.png)"
+    },
+    {
+     "id": "qstnprt_3jK2zHf3qcP7wgf9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Explain, in context, what is meant by\n\n(i) A Type I error,\n\n(ii) A Type II error.",
+     "solution_md": "![](assets/005-img.png)"
+    },
+    {
+     "id": "qstnprt_P44MgspkgbDgk4KY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability of the hypothesis test resulting in a Type I error.",
+     "solution_md": "![](assets/006-img.png)"
+    },
+    {
+     "id": "qstnprt_CwT6FJQTgghng8vY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Out of the next 50 people who attempt to purchase tickets, 48 are successful.\n\nUsing the hypotheses from part (a), carry out the appropriate hypothesis test to test the manager’s claim at the 10% significance level.",
+     "solution_md": "![](assets/007-img.png)"
+    },
+    {
+     "id": "qstnprt_sTSFYwxSYctMMJQq",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "If after the improvements were made to the website the success rate had in fact become 95%, determine the probability that the hypothesis test could have resulted in a Type II error.",
+     "solution_md": "![](assets/008-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_v59kJ6g77XNx7kt5",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_hF5Yh4D8CnffZg2j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "On a particular Pokémon game, it is possible to create offspring through breeding.  Sometimes when two Pokémon are bred together, their offspring possess a hidden ability.\n\nOne Pokémon fan website,$A$, claims that the probability of producing offspring with a hidden ability is 0.6.  Another website,$B$, claims the probability is higher.\n\nMaya conducts an experiment and finds that 17 out of 20 of her Pokémon’s offspring possess a hidden ability.\n\nUse Maya’s sample to test the claim of website  $A$ against website $B$ at the 5% significance level, stating your null and alternative hypotheses clearly.",
+     "solution_md": "![](assets/009-img.png)",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kP4WTDR4r6bqG6T7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Website $B$ claims that the probability is 0.8.\n\nUsing a two-tailed hypothesis test, test the claim at the 5% significance level and make a statement about which website is more likely to be correct.",
+     "solution_md": "![](assets/010-img.png)",
+     "equations": [
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_58mXP4YHdpnTCGQf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The critical regions of a two-tailed hypothesis test to test $B's$ claim are $X\\leq12\\mathrm{and}X\\geq20$. Given that under the null hypothesis $P(X\\geq12)=0.990018$, find the probability of the hypothesis test resulting in a Type I error.",
+     "solution_md": "![](assets/011-img.png)",
+     "equations": [
+      {
+       "latex": "B's",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>'</mo><mi>s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B apostrophe s"
+      },
+      {
+       "latex": "X\\leq12\\mathrm{and}X\\geq20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>12</mn><mo> </mo><mi>and</mi><mo> </mo><mi>X</mi><mo>≥</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X less or equal than 12 space and space X greater or equal than 20"
+      },
+      {
+       "latex": "P(X\\geq12)=0.990018",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>990018</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 12 right parenthesis equals 0.990018"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sc69crKmTHbhrPdn",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_cCkTDQsVGPm9JC9J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "It is known that there is a 0.35% chance of picking up a virus when downloading a file from a particular website.  After a security update, a security analyst believes that the chances of picking up a virus have been reduced.  In a sample of 1542 files downloaded from the website, 1 virus is detected.  The analyst wishes to use a hypothesis test with significance levels  appropriately chosen to allow her to report with as much certainty as possible that her belief is correct.\n\nTest at the 1%, 5% and 10% significance levels and explain which of those significance levels the analyst should use for the test in her report.",
+     "solution_md": "![](assets/012-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_R3mNCRDHRjPmr5XQ",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ZG2zPJNf5CtjFpCm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Historical records show that England wins 45% of Ashes test cricket series.  Rory believes that in the recent past that proportion has decreased.  To test this, he looks at their results in the last 17 series.\n\nUsing a 5% level of significance identify the critical region to enable Rory to test his claim.",
+     "solution_md": "![](assets/013-img.png)"
+    },
+    {
+     "id": "qstnprt_XMTHWVbFqbmPDVWD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "England have won five series in the last 17. Use your answer in part (a) to state, with a reason, whether this sample supports Rory’s claim.",
+     "solution_md": "![](assets/014-img.png)"
+    },
+    {
+     "id": "qstnprt_DxJZRCfs9jPh8mpv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "State an assumption made when using a binomial model.",
+     "solution_md": "![](assets/015-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KrnnDG7NznnPkHNy",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_7pYqN72Nn5PvGbFZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "At a school it is known that 80% of students obtain 3 or more A* to C grades in their A levels.  The principal claims that another local school has a different proportion of A* to C grades at A level.\n\nLast year the other school had 57 out of 80 students achieve 3 or more A* to C grades at A level.\n\nUsing a two-tailed hypothesis test, test the principal’s claim at the 5% significance level stating suitable null and alternative hypotheses.",
+     "solution_md": "![](assets/016-img.png)"
+    },
+    {
+     "id": "qstnprt_Qwgq3ftmT5GH4T8z",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Suggest a hypothesis test with an alternative significance level that would lead to a different conclusion.",
+     "solution_md": "![](assets/017-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jcn2Z74Hjxd6gdh5",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_6d2bw39hgpyrM2wQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CbcjyRyGd65mXstM"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A walk-in vaccination centre can model the number of people arriving every 5 minutes by the random variable $X$ with distribution $Po(0.6)$.\n\nState two assumptions required for the Poisson model to be valid.",
+     "solution_md": "![](assets/018-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "Po(0.6)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mi>o</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P o left parenthesis 0.6 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_7NdMyX3RxRKGzGRp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The centre launches a new advertising campaign and conducts a hypothesis test to see if it has increased the number of people arriving for a vaccine. They choose a half hour period at random and find that 7 people arrive for a vaccine during that time.\n\nClearly stating your hypotheses, test at the 10% significance level whether the number of arrivals has increased.",
+     "solution_md": "![](assets/019-img.png)"
+    },
+    {
+     "id": "qstnprt_ZNxdPBPQjt7MG2kb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability of a Type I error, being sure to justify your answer.",
+     "solution_md": "![](assets/020-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zBTw858nmBG9Rq9d",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_B5msXBYdx8zyKPcr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8",
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The existing treatment for a disease is known to be effective in 85% of cases. Dr Sabir develops a new treatment which she claims is more effective than the existing one. To test her claim she uses the new treatment on a sample of 60 patients with the disease and uses a binomial distribution to model the number of them who are cured.\n\nExplain two assumptions that Dr Sabir has made when using a binomial distribution to model the number of patients cured by the new treatment.",
+     "solution_md": "![](assets/021-img.png)"
+    },
+    {
+     "id": "qstnprt_dKY8zcV5KSX292kW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Dr Sabir notes that her treatment was effective for 57 out of the 60 patients used in the sample.\n\nTest, at the 1% level of significance, the validity of Dr Sabir’s claim that her treatment is more effective than the existing one. State your hypotheses clearly.",
+     "solution_md": "![](assets/022-img.png)"
+    },
+    {
+     "id": "qstnprt_6J8FfzgZGHmpXhyt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "State the conclusion you would have reached if a 5% level of significance had been used for this test.",
+     "solution_md": "![](assets/023-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WCqmZyQXyvD7rxkD",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_sVTj6GpGFzwFFzJT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Zien and her younger sister Ying are playing a game of ‘rock, paper, scissors’. Zien claims that she can predict which out of the three options – rock, paper or scissors – Ying will choose every time they play the game. Ying thinks Zien is just guessing so she decides to conduct a hypothesis test to test Zien’s claim. They play the game 10 times and if Zien is correct in 8 or more games, Ying agrees to accept Zien’s claim.\n\nState suitable null and alternative hypotheses for Ying’s test.",
+     "solution_md": "![](assets/024-img.png)"
+    },
+    {
+     "id": "qstnprt_9FP7MKQDjSxFBXzn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Calculate the probability of a Type I error.",
+     "solution_md": "![](assets/025-img.png)"
+    },
+    {
+     "id": "qstnprt_fTMggS683RTkkWDv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the range of values that Ying could have been using for the significance level of her test, and hence write down the most likely significance level she used.",
+     "solution_md": "![](assets/026-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tt26V4vGjfW7YHX4",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tcPbCx9NwzMg8m53",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The owner of a website claims that his website receives an average of 60 hits per hour. An interested purchaser believes the website receives on average less than 60 hits per hour. The owner chooses a 10 minute period and observes that the website receives 4 hits. Assuming that the number of hits the website receives follows a Poisson Distribution,\n\n(i) State null and alternative hypotheses to test the purchaser’s claim, and\n\n(ii) Test at the 1% significance level whether the purchaser’s claim is justified.",
+     "solution_md": "![](assets/027-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TjZymCGq3QmQW9qf",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_FQgD4Zs8w4j6Vxv8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "It is known that 61% of male dragons eat more than 20 sheep within a day. Bill, a dragon breeder, suspects that the proportion of female dragons that eat more than 20 sheep within a day is different to males.\n\nState suitable null and alternative hypotheses for a two-tailed test for Bill’s suspicion.",
+     "solution_md": "![](assets/028-img.png)"
+    },
+    {
+     "id": "qstnprt_jbB6Wy36hh9MkFxr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "To test his suspicion, Bill observes a random sample of 18 female dragons during a full day and counts how many sheep they eat. He finds that 15 out of the 18 female dragons ate more than 20 sheep within the day.\n\nTest, at the 5% level, whether there is evidence to support Bill’s suspicion.",
+     "solution_md": "![](assets/029-img.png)"
+    },
+    {
+     "id": "qstnprt_HsH46GyPXGH4zNsY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Determine the outcome of the test, at the 5% level, if Bill had used a one-tailed test to check whether the proportion of females eating more than 20 sheep within a day is greater than the proportion of males.",
+     "solution_md": "![](assets/030-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NWhHc2CZQnTSpK8C",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tgSFN65w6whzfvfG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A single observation is taken from a discrete random variable `X tilde B left parenthesis 15 comma space 0.4 right parenthesis`  to test $H_{0}:p=0.4$ against $H_{1}:p<0.4$.\n\nUsing a 5% level of significance, find the critical region for this test.",
+     "solution_md": "![](assets/031-img.png)",
+     "equations": [
+      {
+       "latex": "H_{0}:p=0.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>0</mn></msub><mo>:</mo><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 0 colon p equals 0.4"
+      },
+      {
+       "latex": "H_{1}:p<0.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>1</mn></msub><mo>:</mo><mi>p</mi><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 1 colon p less than 0.4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pjfHFtCZWjSSrcjv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The actual value for the observation was 4.\n\nState a conclusion to the hypothesis test for this value, giving a reason for your answer.",
+     "solution_md": "![](assets/032-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mK3RmfwQ3Vx8rfDF",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_4hbT3MnpFQccsgdx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Charlie, the owner of a chocolate shop, claims that more than 60% of people can tell the difference between two brands of chocolate.  Charlie takes a random sample of 15 customers and asks them to taste both brands of chocolate.  He records that 12 of them could successfully tell the difference between the two brands of chocolate.\n\nState suitable null and alternative hypotheses to test Charlie’s claim.",
+     "solution_md": "![](assets/033-img.png)"
+    },
+    {
+     "id": "qstnprt_vMdDdCq5Y47yGYZ5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Test, at the 10% level of significance, whether Charlie’s claim is justified.",
+     "solution_md": "![](assets/034-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gNJFhGVq2VVCn7Xk",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_CCmxV6mmxG28S89P",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Harry is using the random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`  to test the hypotheses:\n\n$H_{0}:p=0.15$\n\n$H_{1}:p\\neq0.15$\n\nHarry states that the critical regions are $X\\leq2$ and $X\\geq11$.\n\n(i) Given that $P(X\\geq11)=0.029921$, calculate the probability of incorrectly rejecting the null hypothesis.\n\n(ii) State which type of error is represented in part (a)(i).\n\n(iii) State, with a reason, the conclusion of Harry’s test given that the observed value is $x=10$.",
+     "solution_md": "![](assets/035-img.png)",
+     "equations": [
+      {
+       "latex": "H_{0}:p=0.15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>0</mn></msub><mo>:</mo><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 0 colon p equals 0.15"
+      },
+      {
+       "latex": "H_{1}:p\\neq0.15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>1</mn></msub><mo>:</mo><mi>p</mi><mo>≠</mo><mn>0</mn><mo>.</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 1 colon p not equal to 0.15"
+      },
+      {
+       "latex": "X\\leq2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X less or equal than 2"
+      },
+      {
+       "latex": "X\\geq11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≥</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X greater or equal than 11"
+      },
+      {
+       "latex": "P(X\\geq11)=0.029921",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>11</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>029921</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 11 right parenthesis space equals space 0.029921"
+      },
+      {
+       "latex": "x=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 10"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nDQxkmrg3zG75zhz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_JpjTxPV33Mm5vDvf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Sally is using the random variable `Y tilde B left parenthesis 35 comma 0.03 right parenthesis` to test the hypotheses:\n\n$H_{0}:p=0.3$\n\n$H_{1}:p>0.3$\n\nSally observes the value $y=3$.\n\n(i) Find the relevant probability that Sally should calculate to test her hypothesis using the observed value.\n\n(ii) State, with a reason, the conclusion of Sally’s test if a 5% level of significance is used.",
+     "solution_md": "![](assets/036-img.png)",
+     "equations": [
+      {
+       "latex": "H_{0}:p=0.3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>0</mn></msub><mo>:</mo><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 0 colon p equals 0.3"
+      },
+      {
+       "latex": "H_{1}:p>0.3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">H</mi><mn>1</mn></msub><mo>:</mo><mi>p</mi><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 1 colon p greater than 0.3"
+      },
+      {
+       "latex": "y=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cnW2dzMmpB4pfCZN",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_cxgjjQGdBD8dtKY5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A “double yolker” is an egg which contains two yolks. It is known that the probability of a chicken laying a double yolker is 0.1%. A chicken farmer, Paolo, claims that double yolkers are rarer than the stated 0.1%. To test his claim, Paolo records that his chickens lay 1217 eggs in a month and he uses these as his sample. He discovers that none of these eggs are double yolkers.\n\nTest, at the 5% level of significance, whether there is evidence to support Paolo’s claim that double yolkers are rarer than 0.1%. State your hypotheses clearly.",
+     "solution_md": "![](assets/037-img.png)"
+    },
+    {
+     "id": "qstnprt_DgynV9RXhgnms3vS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_z3bqrJJTTNNyrnj2",
+      "spcpt_QmfvPPDFyty4DBtv"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Paolo decides to take a larger sample so extends his test to six months. During this time, a sample of 7300 eggs is formed and two of them are double yolkers.\n\nUse a suitable approximation to show that there is evidence, at the 5% level of significance, to support Paolo’s claim that double yolkers are rarer than 0.1%.",
+     "solution_md": "![](assets/038-img.png)"
+    },
+    {
+     "id": "qstnprt_M7zS547wXvRJ6CtX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Paolo concludes that the probability of a double yolker is **definitely** less than 0.1%. Give a reason to explain whether Paolo’s conclusion is justified.",
+     "solution_md": "![](assets/039-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bq9K5wR4JYNmKpsT",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_rvQJP9yHSRDkjcDX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Nationally it is reported that four out of five people are right-handed.  Edward, an education researcher, takes a random sample of 30 children under the age of 18 years old and records the number of them, $X$, who write with their right hand.\n\nAssuming that the national proportion applies to the sample, write down a suitable distribution for $X$.",
+     "solution_md": "![](assets/040-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gHxbQcsHJ8hMCW25",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Edward believes that the proportion of right-handed children differs from the national proportion for all people. To test his belief, he uses his sample of 30 children.\n\nState suitable null and alternative hypotheses to test Edward’s belief.",
+     "solution_md": "![](assets/041-img.png)"
+    },
+    {
+     "id": "qstnprt_9bGQfrr7tVTtWyBT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that $P(X\\leq19)=0.02561625\\mathrm{and}P(X\\leq20)=0.06108714$, find the critical values for a two-tailed test at the 10% significance level for Edward’s belief.  You should state the probability of rejection for each tail, which should be less than 0.05 for each.",
+     "solution_md": "![](assets/042-img.png)",
+     "equations": [
+      {
+       "latex": "P(X\\leq19)=0.02561625\\mathrm{and}P(X\\leq20)=0.06108714",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>19</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>02561625</mn><mo> </mo><mo> </mo><mi>and</mi><mo> </mo><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>06108714</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 19 right parenthesis equals 0.02561625 space space and space space P left parenthesis X less or equal than 20 right parenthesis equals 0.06108714"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_9rXmzmWpZXzcrxjp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use your critical values to find the probability of the test resulting in a Type I error.",
+     "solution_md": "![](assets/043-img.png)"
+    },
+    {
+     "id": "qstnprt_VJqh7kK3rfgzmzjZ",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Out of the 30 children in the sample, Edward recorded that 20 of them write with their right hand.\n\nComment on Edward’s belief based on this observation.",
+     "solution_md": "![](assets/044-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YHfk4m5Jr59GMRby",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_YxF5mZ4PrPj8X3T3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable has distribution  `X tilde B left parenthesis 20 comma p right parenthesis`.\n\nIn order to test the hypotheses\n\n`straight H subscript 0 ∶ p equals 0.4 space space space space space space space space space space space space space space straight H subscript 1 ∶ p not equal to 0.4`\n\na random observation of $X$ is taken and found to be 3.\n\nCarry out a hypothesis test at the 2% significance level.",
+     "solution_md": "![](assets/045-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bY9MJRSxgcjmrVwm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Another random variable has distribution  `Y tilde B left parenthesis m comma p right parenthesis`.\n\nA random observation of is taken and found to be 0. Using the same hypotheses as above, find the maximum value of $m$ for which $H_{0}$ would not be rejected at the 2% significance level.",
+     "solution_md": "![](assets/046-img.png)",
+     "equations": [
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "H_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi mathvariant=\"normal\">H</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_CQM8Rg3nWKJ3VhW2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Another random observation of $Y$ is taken and found to be $y$. For the same hypotheses as above, this provides evidence to reject $H_{0}$ at the 5% significance level.\n\nUsing your answer to part (b) as the value for $m$, find the possible values of $y$.",
+     "solution_md": "![](assets/047-img.png)",
+     "equations": [
+      {
+       "latex": "Y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "H_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi mathvariant=\"normal\">H</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H subscript 0"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_n2ZQHt3N5KS9GSzt",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_Syj5HmSMrdYXXqfj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Historic company data shows that the proportion of customers ordering a large vegetable box from Lakebridge Organics* *is 0.4.\n\nLast week a random sample of 12 customers’ orders was taken and it was found that 10 of them had ordered a large vegetable box.\n\nTest, at the 5% significance level, whether this suggests that the proportion of customers ordering large vegetable boxes has increased. State your hypotheses clearly.",
+     "solution_md": "![](assets/048-img.png)"
+    },
+    {
+     "id": "qstnprt_N9rBC2vSXw2xx7FJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Historic company data shows that the proportion of customers ordering a medium vegetable box is also 0.4. Lucinda, a delivery driver, suspects that the proportion of current customers ordering medium boxes is different from 0.4. She takes a random sample of 10 customers’ orders.\n\n(i) Stating your hypotheses clearly, identify the critical regions for a hypothesis test at the 5% significance level.\n\n(ii) State the probability of making a Type I error.",
+     "solution_md": "![](assets/049-img.png)"
+    },
+    {
+     "id": "qstnprt_3ng5Twpd5X3jcvPT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In actual fact, half of all customers order a medium vegetable box when they shop at Lakebridge Organics. Find the probability of the hypothesis test resulting in a Type II error.",
+     "solution_md": "![](assets/050-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kFB7s8T5GwYGYMSc",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_JS2bbqr24HNB4S6M",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JpjTxPV33Mm5vDvf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A football team, Dinamo Galacticos*, *are trying to decide on a colour for their new kit.  They are told by a local sports commentator that the proportion of games won by teams wearing red is 0.6.  The manager takes a random sample of  games where one team wears red and observes how many are won by the team wearing red.  Assuming that the proportion of games won by teams in red really is 0.6, then the probability that all of the games would be won is equal to 0.0279936.\n\nFind the value of $n$.",
+     "solution_md": "![](assets/051-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GQBq6FkP6n8Jvw6P",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The manager decides to increase her random sample to include $n+4$ games. She suspects that the actual proportion of games won by teams in red is lower than 0.6.\n\n(i) Using a 5% level of significance, find the critical region for a one-tailed hypothesis test. State your hypotheses clearly.\n\n(ii) Describe, in context, what a Type I error would be and find the probability the test results in a Type I error.\n\n(iii) Using a 10% level of significance, find the largest number of games that could be won by teams wearing red without the test resulting in a possible Type II error.",
+     "solution_md": "![](assets/052-img.png)",
+     "equations": [
+      {
+       "latex": "n+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n plus 4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YwVmVSd7JT87ymyR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The sports commentator later says that he may have gotten mixed up, and that he thinks it is actually teams wearing green that win 60% of their games.\n\nGiven that teams wearing green have won 13 games from the last 15 in which they played, test at the 5% significance level whether the commentator’s new claim is justified. You must clearly state your null and alternative hypotheses.",
+     "solution_md": "![](assets/053-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_hgjhGps92gZNJmyM",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xJzmDfKgYKS7mbJb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A single observation, $x$, is taken from a discrete random variable `space X tilde B left parenthesis 15 comma p right parenthesis` to test `straight H subscript 0 ∶ p equals 0.5` against  `straight H subscript 1 ∶ p not equal to 0.5`.\n\nFor the purposes of this test, one of the critical regions is specified as being $X\\geq12$.\n\nCalculate the probability of incorrectly rejecting the null hypothesis when conducting this test and state whether this would be a Type I or a Type II error.",
+     "solution_md": "![](assets/054-img.png)",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "X\\geq12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≥</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X greater or equal than 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_df5t4TZ2MMbWRV9x",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_vmRbYyzN5S29tz72",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The probability of a wild Asian elephant living past 40 years old is 45%.\n\nRosie, a zoologist, obtains data on 20 elephants in captivity and records their ages at death. She suspects that the proportion of Asian elephants that live past 40 years old is smaller for those in captivity than those in the wild.\n\nUsing a 1% level of significance, find the critical value of a one-tailed hypothesis test to enable Rosie to test her suspicion. Clearly state your hypotheses.",
+     "solution_md": "![](assets/055-img.png)"
+    },
+    {
+     "id": "qstnprt_2Tx5pbWNzGMxZ9MN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Rosie finds that only one elephant, out of the 20 in captivity, lived past 40 years old.\n\n(i) Write down the conclusion of the hypothesis test based on this information.\n\n(ii) Calculate the probability that this observed result has led to a Type I error.",
+     "solution_md": "![](assets/056-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cMF2mfYnjHw9dwbS",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_KbJt8M4SmYzYkBph",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_F5rFq42MxcZZYVvp"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Roger’s bunnies are well trained and almost always leave their droppings in a designated area, however, Roger occasionally finds that they have left their droppings in his garden too.\n\nGiven that over a six-hour period the probability there are no droppings found in the garden is $4.53999\\times10^{-5}$ correct to 6 significant figures, find the mean number of droppings left per hour in Roger’s garden.",
+     "solution_md": "![](assets/057-img.png)",
+     "equations": [
+      {
+       "latex": "4.53999\\times10^{-5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>53999</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4.53999 cross times 10 to the power of negative 5 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5FXSxpMg48JBSR9Z",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv",
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Roger’s bunnies’ new treat craze is popcorn and Roger believes that the bunnies leave less droppings in the garden after he has given them this treat. Roger decides to test his theory by giving his bunnies the popcorn and then seeing how many droppings are left in the garden over a three-hour period.\n\nGiven that the probability of a Type I error is 0.0404277 correct to 6 significant figures, find the critical region for Roger’s hypothesis test.",
+     "solution_md": "![](assets/058-img.png)"
+    },
+    {
+     "id": "qstnprt_HCCRV6pVD5BfmRRT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Roger finds that two droppings were left in his garden during the three-hour period. Stating your hypotheses clearly, write down the conclusion of Roger’s hypothesis test.",
+     "solution_md": "![](assets/059-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5wchJhTdv3SmWnj5",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_b68qTYMwCRkHSDxP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A catering company’s past records show that the proportion of their customers who are vegetarian has previously been 0.2.  The company decides to take a random sample of 30 current customers to test whether that figure 0.2 is still valid for their current customer base.\n\nLet $X$ denote the number of vegetarians in the sample. Given that, if there has been no change to the proportion of customers who are vegetarian, the probability that less than 10 customers are vegetarian is 0.938913 correct to 6 decimal places, find the probability of the test resulting in a Type I error, using a 10% significance level.",
+     "solution_md": "![](assets/060-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2xjgsGygHVwBNp7f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The number of vegetarian customers in the sample is 11.  One of the company’s employees used the same sample to suggest that this shows that the proportion of vegetarian customers has not just changed but has in fact increased.\n\nUse this observed value to test, at the 5% level of significance, whether the proportion of vegetarian customers has increased. State your hypotheses clearly.",
+     "solution_md": "![](assets/061-img.png)"
+    },
+    {
+     "id": "qstnprt_CKWHbQVDHCmtd4D6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that the proportion of vegetarian customers is in fact 0.25 and that the probability that less than 10 customers are vegetarian is actually 0.803407 correct to 6 decimal places, find the probability that the test in part (a) produces a Type II error.",
+     "solution_md": "![](assets/062-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YZptFhrKJnMjnMGT",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_NRKxS7VHHVwp87h4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8",
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable has distribution $B(n,p)$. Anna uses a single observation of the random variable to carry out a hypothesis test.\n\nWrite down the conditions that must be met in order to model a random variable using the binomial distribution.",
+     "solution_md": "![](assets/063-img.png)",
+     "equations": [
+      {
+       "latex": "B(n,p)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>(</mo><mi>n</mi><mo>,</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B left parenthesis n comma p right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dVG7hYNWv5nb88sW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Explain how the parameters $n$ and $p$ are used in the context of a hypothesis test.",
+     "solution_md": "![](assets/064-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WTPXm8tHGvRmCZVd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Anna is carrying out a two-tailed hypothesis test. Explain how what is being tested for in a two-tailed test differs from what is being tested for in a one-tailed test.",
+     "solution_md": "![](assets/065-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rDmyBq8fkJNzxFCN",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_Cm2RQDkgmMchrnxW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8",
+      "spcpt_F5rFq42MxcZZYVvp"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The number of leaves on the grass in Danny’s garden on October 1<sup>st</sup> every year has a Poisson distribution with mean 280.\n\nGiven that Danny’s garden is 56 square metres,\n\n(i) Write down the distribution for the number of leaves per square metre in Danny’s garden on October 1<sup>st</sup>,\n\n(ii) Find the probability that in a randomly chosen square metre of Danny’s garden, there are less than 3 leaves.",
+     "solution_md": "![](assets/066-img.png)"
+    },
+    {
+     "id": "qstnprt_BT4w6b6B4CQx2wvB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QmfvPPDFyty4DBtv",
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Danny’s neighbour has cut down a tree and Danny believes this will decrease the number of leaves in his garden this year. He is devising a hypothesis test to test his theory at the 10% significance level. On October 1<sup>st</sup> he will choose a square metre of his garden at random and count the number of leaves.\n\nWrite down suitable null and alternative hypotheses Danny can use for his test.",
+     "solution_md": "![](assets/067-img.png)"
+    },
+    {
+     "id": "qstnprt_rx9g943VQX6CQb5b",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use your answer to part (a)(ii) to determine if finding 2 leaves will lead Danny to accept or reject his null hypothesis. Justify your answer.",
+     "solution_md": "![](assets/068-img.png)"
+    },
+    {
+     "id": "qstnprt_W6SMypmVX9yRjbTY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Determine the critical region for this hypothesis test and hence, write down the maximum number of leaves that will lead Danny to reject his null hypothesis.",
+     "solution_md": "![](assets/069-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PXtb88rXvgMCXWBB",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_nJT7dZPGgQDTyKNm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FyrqXqf8PCg6CTb8",
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The probability of a student in a primary school library returning his or her books on time had been found to be 0.35.  Joanna, the school librarian, has started a new incentive scheme and believes that more students are now returning their books on time because of it.  She conducts a hypothesis test using the null hypothesis  $H_{0}:p=0.35$ to test her belief\n\n(i) State a suitable alternative hypothesis to test Joanna’s belief that more students are now returning their books on time.\n\n(ii) Write down the conditions under which Joanna could use a binomial probability distribution to model this problem.",
+     "solution_md": "![](assets/070-img.png)",
+     "equations": [
+      {
+       "latex": "H_{0}:p=0.35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo>:</mo><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 colon p equals 0.35"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_35dWDMNjHwNWV5P4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Joanna takes a random sample of 30 students who have checked out books and finds that under the new incentive scheme 15 of them return their books on time.  She calculates the following probabilities for the random variable  `X space tilde space B left parenthesis 30 comma 0.35 right parenthesis` :\n\n$P(X=14)=0.06112$\n\n$P(X=15)=0.03511$\n\n$P(X\\geq16)=0.03008$\n\nWrite down the values of $P(X\\geq15)$ and  $P(X\\geq14).$",
+     "solution_md": "![](assets/071-img.png)",
+     "equations": [
+      {
+       "latex": "P(X=14)=0.06112",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>14</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>06112</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X equals 14 right parenthesis space equals space 0.06112"
+      },
+      {
+       "latex": "P(X=15)=0.03511",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>15</mn><mo>)</mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03511</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X equals 15 right parenthesis equals space 0.03511"
+      },
+      {
+       "latex": "P(X\\geq16)=0.03008",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>16</mn><mo>)</mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03008</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X greater or equal than 16 right parenthesis equals space 0.03008"
+      },
+      {
+       "latex": "P(X\\geq15)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>15</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X greater or equal than 15 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq14).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>14</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X greater or equal than 14 right parenthesis."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_n669Cvt852xMZ9Nc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Write a conclusion for the hypothesis test, in context, if Joanna had chosen a significance level of:\n\n(i) 5%\n\n(ii) 10%",
+     "solution_md": "![](assets/072-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JpQpJ5RWnKDpCKGV",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_whzXybBdpCMgGcR7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In a school where all the teachers drink coffee in the staffroom, a headteacher wants to see if using a new brand of coffee in the staffroom improves teachers’ report writing punctuality.  Previously, 75% of teachers in her school would meet the deadline for writing reports.  After the new brand of coffee is introduced the headteacher takes a random sample of 15 teachers, and conducts an experiment to test whether the proportion of teachers meeting the deadline on the next set of reports has improved.  The test is conducted at the 5% significance level, using the following hypotheses:\n\n`straight H subscript 0 ∶ p equals 0.75 space space space space space space space straight H subscript 1 ∶ p greater than 0.75`\n\n(i) Write down a suitable distribution for the random variable $X$, the number of teachers in the headteacher’s sample who meet the deadline.\n\n(ii) Calculate the probability that all the teachers in the sample would meet the deadline if the null hypothesis were true.\n\n(iii) By first calculating the probability that exactly 14 of the teachers would meet the deadline if the null hypothesis were true, find the critical value for the test.",
+     "solution_md": "![](assets/073-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fc4Qh2NhbjX58swn",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_C3d7Nxh7DbMJSm53",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A hypothesis test at the 6% significance level is carried out on a coin using the following hypotheses:\n\n`straight H subscript 0 ∶ p equals 1 half space space space space space space space space straight H subscript 1 colon p not equal to 1 half`\n\n(i) Give an example of what the parameter, $p$, could represent.\n\n(ii) In the context of your answer from part (i), explain what is meant by $p=\\frac{1}{2}$.\n\n(iii) This is a two-tailed test. Explain what should be done with the 6% significance level.",
+     "solution_md": "![](assets/074-img.png)",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mstyle displaystyle=\"false\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals begin inline style begin display style 1 half end style end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vkW4yxnJwJn58VQV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A single observation $x$ is to be taken from a binomial distribution `X space tilde space B left parenthesis 100 comma p right parenthesis` to test the hypotheses for the coin. One tail of the critical region is found to be  $X\\leq6$.\n\n(i) Using your knowledge of the binomial distribution $B(100,0.5)$, write down the other tail of the critical region.\n\n(ii) Write down the set of values for $x$ which would lead to the acceptance of the null hypothesis.",
+     "solution_md": "![](assets/075-img.png)",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "X\\leq6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X less or equal than 6"
+      },
+      {
+       "latex": "B(100,0.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>(</mo><mn>100</mn><mo>,</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B left parenthesis 100 comma 0.5 right parenthesis"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CJsZQDHF8QhycTWP",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_DfTFYb3sCckJc4NY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A study of ladybirds in the UK found that 65% of all ladybirds are found to be of the seven-spot species.  Alex believes that more than 65% of the ladybirds in his garden are of the seven-spot species.  He conducts a hypothesis test at the 5% significance level by collecting a sample of 25 ladybirds from his garden and counting the number of them that are seven-spot ladybirds.\n\n(i) Alex uses the random variable `X space tilde space B left parenthesis n comma p right parenthesis` to represent the number of seven-spot ladybirds in his sample.  Explain what $n$ and $p$ represent in the context of Alex’ experiment.\n\n(ii) State an assumption Alex has made in order to use the distribution in part (a)(i).\n\n(iii) State suitable null and alternative hypotheses that Alex could use to test his belief that more than 65% of the ladybirds in his garden are seven-spot ladybirds.",
+     "solution_md": "![](assets/076-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ZhfkMq6QxCgzDFWD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_JpjTxPV33Mm5vDvf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Alex finds that 21 out of the 25 ladybirds in his sample are seven-spot ladybirds.\n\n(i) The $p$-value for the observed test statistic is 0.03205. Write this in the form  $P(X\\geqa)=b.$ .\n\n(ii) Alex has not yet calculated the critical value for his hypothesis test.  Explain why he does not need to do this to come to a conclusion for his test.",
+     "solution_md": "![](assets/077-img.png)",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "P(X\\geqa)=b.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>a</mi><mo>)</mo><mo>=</mo><mo> </mo><mi>b</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than a right parenthesis equals space b."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6xBPJ49ztWk5DZZK",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_Ds9bJh5YFWS5tfpX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A company releases a rapid testing kit for a particular virus and claims that the kit is correct 90% of the time. A medical professional believes this is false advertising and carries out a hypothesis test at the 1% significance level to test the company’s claim.\n\nFor each of the following statements, write down whether the hypothesis test has resulted in an error, and if so state whether it is a Type I or a Type II error.\n\n(i) The kit is correct 85% of the time. The medical professional rejects the null hypothesis in favour of the alternative hypothesis.\n\n(ii) The kit is correct 95% of the time. The medical professional accepts the null hypothesis.\n\n(iii) The kit is correct 90% of the time. The medical professional rejects the null hypothesis in favour of the alternative hypothesis.\n\n(iv) The kit is correct 90% of the time. The medical professional accepts the null hypothesis.",
+     "solution_md": "![](assets/078-img.png)"
+    },
+    {
+     "id": "qstnprt_hmRwVqKNzcBHFsmV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KCFcWTMfnmj3W3yc",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Write down the greatest possible probability of the hypothesis test resulting in a Type I error.",
+     "solution_md": "![](assets/079-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5Jh4HhbmC6stPD2X",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4GF2zDqpDPfbThzM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For the random variable `X space tilde space B left parenthesis 20 comma 0.3 right parenthesis` calculate\n\n(i) $P(X\\leq2)$\n\n(ii) $P(X<3)$",
+     "solution_md": "![](assets/080-img.png)",
+     "equations": [
+      {
+       "latex": "P(X\\leq2)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>2</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X less or equal than 2 right parenthesis"
+      },
+      {
+       "latex": "P(X<3)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X less than 3 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_f5vbPZJVMTJ2ngrX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A hypothesis test is to be carried out using an observation of the random variable $X$ to test the hypotheses:\n\n`straight H subscript 0 ∶ p equals 0.3 space space space space space space space space space straight H subscript 1 ∶ p less than 0.3`\n\nBefore carrying out the test, a significance level of 5% is chosen. The critical region is defined as $X\\leq2.$\n\n(i) Explain why the critical region is defined as $X\\leq2$.\n\n(ii) State the actual significance level for the test.",
+     "solution_md": "![](assets/081-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "X\\leq2.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>2</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X less or equal than 2."
+      },
+      {
+       "latex": "X\\leq2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X less or equal than 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2FV6rgZykMzmPmjf",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_pnhSmkjQw2fKN6Rg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mWctnbvnpcSVbDh5",
+      "spcpt_FyrqXqf8PCg6CTb8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Alina is running for student council president at her school.  She claims she has the support of 60% of students in the school.  A rival candidate, John, wants to test at the 10% level of significance whether Alina is overestimating her support.\n\nIn mathematical terms, the experiment John conducts uses an observation of the random variable  `X space tilde space B left parenthesis 100 comma p right parenthesis space space`to test the hypotheses:\n\n`straight H subscript 0 ∶ p equals 0.6 space space space space space space space space space space space straight H subscript 1 ∶ p less than 0.6`\n\n(i) State how many people are in John’s sample and explain what the parameter $p$ means in the context of this question.\n\n(ii) Explain why John has chosen this alternative hypothesis for his test.",
+     "solution_md": "![](assets/082-img.png)",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_F9V56yzpBfr4GvCH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mPVJHc5CKHN5mQyS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Assuming Alina’s claim is true, John calculates the following cumulative probabilities:\n\n| $x$ | 51 | 52 | 53 | 54 | 55 |\n|---|---|---|---|---|---|\n| $P(X\\leqx)$ | 0.04230 | 0.06379 | 0.09298 | 0.13109 | 0.17890 |\n\nIn John’s survey, 55 people say that they will support Alina.\n\n(i) Calculate $P(X=55)$.\n\n(ii) State whether John should compare the value of $P(X\\leq55)$ or  $P(X=55)$ with his significance level of 10%.\n\n(iii) In the context of this question, write a conclusion for John’s test.",
+     "solution_md": "![](assets/083-img.png)",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P(X\\leqx)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X less or equal than x right parenthesis"
+      },
+      {
+       "latex": "P(X=55)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>55</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X equals 55 right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq55)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>55</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X less or equal than 55 right parenthesis"
+      },
+      {
+       "latex": "P(X=55)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>55</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X equals 55 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zTMqCcv9FvRSBDDq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SXgS5mjTMgfKTPsD"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Write down the critical value and the critical region for John’s test.",
+     "solution_md": "![](assets/084-img.png)"
+    }
+   ]
+  }
+ ]
+}

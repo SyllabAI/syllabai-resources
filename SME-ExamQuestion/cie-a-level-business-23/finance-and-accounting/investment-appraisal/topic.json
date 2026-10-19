@@ -1,0 +1,615 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:45:15Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/business/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "business",
+  "exam_code": "9609",
+  "sme_course_id": "crs_MVTsfcs5G3nDb2ky",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) A Level Business"
+ },
+ "section": {
+  "slug": "finance-and-accounting",
+  "name": "5. Finance & Accounting"
+ },
+ "topic": {
+  "id": "top_KkVnFXGJnNm4DF2K",
+  "slug": "investment-appraisal",
+  "name": "Investment Appraisal (A Level)",
+  "order": 7
+ },
+ "subtopics": [
+  {
+   "slug": "investment-appraisal-decisions",
+   "name": "Investment Appraisal Decisions",
+   "revision_note_id": "rn_8rCCMmYfrtz6GKdZ"
+  },
+  {
+   "slug": "methods-of-investment-appraisal",
+   "name": "Methods of Investment Appraisal",
+   "revision_note_id": "rn_m4TjNgBKp3pDRwZM"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_pPxHKWN8YCVtbrBn",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/a-level/business/cie/23/topic-questions/finance-and-accounting/investment-appraisal/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 18,
+  "questions_missing": [
+   "qstn_prxyQH8TVrgJYVxM"
+  ],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/08/44318-screenshot-2026-08-07-173248.png": "001-project-network-diagram-showing-activities-a-g-l.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_Qyw3cFH7Vhrz2sjJ",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_ZHdy5KYGvMTctHPH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSGqp6NR2qsXP3PV",
+      "spcpt_BxkX7x3RqtB2Ypxv"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Nayland Water**\n> \n> Nayland Water designs and installs water treatment systems in country E. It is appraising a new plant costing \\$2.4 million with an expected life of ten years.\n> \n> The appraisal produces:\n> \n> - a net present value of \\$410 000 at a discount rate of 8%\n> - a payback period of 6 years 2 months\n> \n> The forecast assumes revenue grows 5% a year for ten years. Nayland's revenue has grown at 5% a year for the last three years.\n> \n> Two of Nayland's four largest contracts are with the government and are re-tendered every three years.\n> \n> Nayland's bank has indicated that borrowing costs will rise. At a discount rate of 11%, the net present value becomes negative.\n> \n> The treatment technology used in the plant is expected to be superseded within about eight years.\n\nEvaluate whether Nayland Water can rely on its investment appraisal when deciding to proceed with the new plant.",
+     "solution_md": "Investment appraisal produces figures from forecasts, so its usefulness depends on how sound those forecasts are **[K]**. Nayland's net present value of \\$410 000 rests on revenue growing 5% a year for ten years **[Ap]**. That rate matches the last three years, so it is not invented, but two of the four largest contracts are with the government and are re-tendered every three years, meaning roughly half the revenue base is re-competed three times during the project's life **[An]**. A single lost tender would break the growth assumption early, and because net present value compounds those flows across ten years the error would widen rather than stay contained **[An]**\n\nThe discount rate is a second weakness **[K]**. The appraisal uses 8%, but the bank has indicated borrowing costs will rise, and at 11% the net present value becomes negative **[Ap]**. The project therefore sits close to the boundary between adding and destroying value, and what decides which side it falls on is a rate Nayland does not control **[An]**. A net present value of \\$410 000 on a \\$2.4 million investment is a thin margin for a ten-year commitment, and it disappears on a three-point movement in a single input **[An]**\n\nNayland cannot rely on this appraisal as it stands **[E]**. That is not because the arithmetic is wrong; the methods have been applied properly and give a genuine result at the assumptions used **[E]**. The problem is that both key assumptions are fragile in the same direction, and a payback of 6 years 2 months on technology expected to be superseded within about eight leaves almost no margin if either moves **[E]**. Appraisal is most dependable over short horizons and least dependable exactly where Nayland is using it, a decade ahead in a market where the technology and half the customer base both turn over **[E]**. Nayland should test the net present value across a range of discount rates and growth assumptions rather than presenting one figure, and should not commit until it knows whether the project survives the loss of a government contract **[E]**. If it does not, the appraisal will have told the directors something considerably more useful than the \\$410 000 did **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n> - Strong knowledge applied to the business context or question stem throughout\n> - Detailed interconnected points with logical chains of reasoning\n> - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n> - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **4** | - Shows understanding of two limitations of investment appraisal in context |\n> | **3** | - Shows understanding of one limitation of investment appraisal in context |\n> | **2** | - Shows knowledge of two limitations of investment appraisal |\n> | **1** | - Shows knowledge of one limitation of investment appraisal |\n> \n> **Analysis and evaluation**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **8** | - Justified recommendation with developed weighing of key arguments in business context |\n> | **7** | - Justified recommendation based on arguments in context |\n> | **6** | - Developed recommendation based on arguments in context |\n> | **5** | - An evaluative statement or recommendation based on arguments in context |\n> | **4** | - Argument based on two limitations of investment appraisal in context |\n> | **3** | - Argument based on one limitation of investment appraisal in context |\n> | **2** | - Analysis of two limitations of investment appraisal |\n> | **1** | - Analysis of one limitation of investment appraisal |\n> \n> **Indicative content**\n> \n> - Nayland could rely on the appraisal and proceed. Applied correctly the methods give a positive net present value of \\$410 000 at 8%, the 5% growth assumption reflects actual recent performance rather than optimism, and appraisal makes its assumptions explicit so they can be challenged. However, half the revenue base is re-tendered three times during the ten-year life, so the growth assumption is far less secure than the recent record suggests\n> - The appraisal provides a benchmark against which the plant's later performance can be judged, which has value even if the forecast proves wrong. However, errors compound across a ten-year horizon rather than remaining contained, so an early deviation would grow rather than average out\n> - The net present value turns negative at 11%, a rate the bank has already signalled is coming, so the project sits close to the boundary between adding and destroying value on a rate Nayland does not control. However, rates may not rise as far or as fast as indicated, and the project would then remain positive throughout\n> - \\$410 000 on a \\$2.4 million investment is a thin margin for a decade-long commitment, and payback of 6 years 2 months against a technology life of about eight years leaves little room. However, the technology estimate is itself uncertain, and treatment plant often remains serviceable well beyond the point at which newer equipment appears\n> - Nayland could test the net present value across a range of discount rates and growth assumptions rather than presenting a single figure. However, sensitivity analysis takes time and expertise, and a range of outcomes can make a decision harder to take rather than easier\n> - Nayland could delay until it knows whether the government contracts renew. However, delay may mean losing the opportunity, and the contracts are re-tendered repeatedly, so there is no point at which that uncertainty disappears\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XWhShryJTdxD57tc",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_VSgjGXkDQHS6ZH6H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSGqp6NR2qsXP3PV",
+      "spcpt_BxkX7x3RqtB2Ypxv",
+      "spcpt_3StSY7BsQvxFTzyX"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Radlett Timber**\n> \n> Radlett Timber runs a sawmill in country S, employing 60 people. It is the largest employer in its town. Its customers are furniture makers who buy from Radlett because it supplies hand-finished, made-to-order timber.\n> \n> Radlett is choosing between two investments:\n> \n> - **Option 1: an automated cutting line.** Net present value \\$620 000. It would replace 22 of the 60 workers and produces standard sizes only.\n> - **Option 2: upgrading the existing line.** Net present value \\$310 000. No redundancies.\n> \n> Radlett's directors promised employees in 2025 that there would be no compulsory redundancies before 2028.\n> \n> The automated line's net present value assumes the mill runs at 85% capacity. Over the last three years Radlett has averaged 68%.\n\nEvaluate whether Radlett Timber should choose the automated cutting line rather than upgrading its existing line.",
+     "solution_md": "Net present value measures the value a project adds once future cash flows are discounted to today's terms **[K]**. The automated line has a net present value of \\$620 000 against \\$310 000 for the upgrade, exactly double **[Ap]**. On quantitative grounds the decision looks settled, since the same method and the same discount rate show one option adding twice the value of the other **[An]**. Rejecting it would mean giving up \\$310 000 of forecast value, which the directors would have to justify to shareholders **[An]**\n\nThe qualitative factors point the other way **[K]**. The automated line would replace 22 of 60 workers in the town's largest employer, and the directors promised no compulsory redundancies before 2028 **[Ap]**. Breaking that promise would damage trust among the 38 who remain, and in a small town where the mill is the main employer the effect reaches customers and the local authority too **[An]**. Radlett would also lose the hand-finished, made-to-order work its furniture makers buy it for, since the automated line produces standard sizes only, so the higher figure is being earned by abandoning the business's point of difference **[An]**\n\nRadlett should not choose the automated line on these figures **[E]**. The gap between the two is large, and were it reliable the qualitative arguments alone might not be enough to overturn it **[E]**. What weakens it is that the \\$620 000 assumes 85% capacity while the mill has averaged 68% over three years, so at anything close to its actual utilisation the advantage narrows sharply or disappears **[E]**. That is the more serious objection, because it means the quantitative case is not as strong as it looks rather than merely being outweighed by other considerations **[E]**. Radlett should recalculate the automated line at 68% and across a range of realistic utilisations before comparing the two, and should proceed with the upgrade unless the automated line remains clearly ahead under assumptions the mill has actually achieved **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n> - Strong knowledge applied to the business context or question stem throughout\n> - Detailed interconnected points with logical chains of reasoning\n> - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n> - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **4** | - Shows understanding of two factors affecting the investment decision in context |\n> | **3** | - Shows understanding of one factor affecting the investment decision in context |\n> | **2** | - Shows knowledge of two factors affecting the investment decision |\n> | **1** | - Shows knowledge of one factor affecting the investment decision |\n> \n> **Analysis and evaluation**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **8** | - Justified recommendation with developed weighing of key arguments in business context |\n> | **7** | - Justified recommendation based on arguments in context |\n> | **6** | - Developed recommendation based on arguments in context |\n> | **5** | - An evaluative statement or recommendation based on arguments in context |\n> | **4** | - Argument based on two factors affecting the investment decision in context |\n> | **3** | - Argument based on one factor affecting the investment decision in context |\n> | **2** | - Analysis of two factors affecting the investment decision |\n> | **1** | - Analysis of one factor affecting the investment decision |\n> \n> **Indicative content**\n> \n> - Radlett could choose the automated line. Its net present value of \\$620 000 is double the upgrade's \\$310 000, both are appraised on the same basis so the comparison is valid on its own terms, and automation may reduce unit costs and improve consistency. However, the \\$620 000 assumes 85% capacity while the mill has averaged 68% over three years, so the figure is not dependable\n> - Rejecting \\$310 000 of forecast added value requires justification to the owners, and a business that declines the better-performing option needs a clear reason. However, recalculating at realistic utilisation may remove the advantage altogether, in which case there is nothing to justify\n> - The automated line would replace 22 of 60 workers in the town's largest employer and break a promise of no compulsory redundancies before 2028, damaging trust among the 38 who remain. However, refusing all automation indefinitely may put more jobs at risk later if competitors mechanise and Radlett cannot match their costs\n> - Standard sizes only would end the hand-finished, made-to-order work customers buy Radlett for, so the higher return is earned by abandoning its point of difference. However, some customers may value lower prices more than bespoke sizing, which the case does not establish either way\n> - Radlett could choose the upgrade, which protects the competitive position while still adding \\$310 000 of value and requiring no redundancies. However, it forgoes whatever genuine efficiency automation would bring, and the mill's equipment still needs to remain competitive\n> - Radlett could revisit automation later if utilisation genuinely rises towards 85%. However, delay may mean the technology or the supplier terms have changed, and competitors may have moved first\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gSChsqRv5tZR2tZm",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_njCQVDRk5Q9mnydy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SdwZrjNDzkBWYcbm",
+      "spcpt_NfVfBHmS46rJ9Rw5"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Torrin**\n> \n> Torrin hires out excavators and diggers to builders in country N. It is choosing between two machines, each costing \\$240 000.\n> \n> **Table 1.1 Forecast net cash inflows (\\$)**\n> \n> |   | Machine A | Machine B |\n> |---|---|---|\n> | Year 1 | 110 000 | 40 000 |\n> | Year 2 | 100 000 | 60 000 |\n> | Year 3 | 40 000 | 90 000 |\n> | Year 4 | 20 000 | 120 000 |\n> | Year 5 | 10 000 | 140 000 |\n> \n> Torrin's finance director appraises every project using payback alone, and applies a rule that an investment must pay back within three years. Machine A pays back in 2 years 9 months and Machine B in 3 years 5 months.\n> \n> Torrin has an overdraft of \\$90 000 which its bank has asked it to reduce. Machine B is a newer model with lower emissions, and country N introduces emissions rules for hire equipment in 2029.\n> \n> Torrin's owner says the business has always used payback and it has never let them down.\n\nEvaluate whether Torrin should continue to rely on the payback method when choosing between the two machines.",
+     "solution_md": "Payback measures how long an investment takes to recover its initial cost **[K]**. Machine A pays back in 2 years 9 months and Machine B in 3 years 5 months, so under Torrin's three-year rule only A qualifies **[Ap]**. That rule is not arbitrary: Torrin has a \\$90 000 overdraft the bank wants reduced, and a machine returning its cost nine months sooner frees cash to do exactly that **[An]**. For a business under pressure from its lender, knowing when the money comes back may genuinely matter more than knowing how much eventually arrives **[An]**\n\nThe difficulty is what payback ignores **[K]**. Machine A generates \\$280 000 across five years while Machine B generates \\$450 000, a difference of \\$170 000 **[Ap]**. Payback stops counting the moment the initial cost is recovered, so every dollar Machine B earns in years four and five is invisible to the decision, even though those are the years in which it earns most **[An]**. Choosing A means rejecting \\$170 000 of cash inflow because it arrives eight months later than a rule of thumb permits **[An]**\n\nTorrin should not rely on payback alone **[E]**. The method suits its immediate position, and with the bank pressing on the overdraft it would be wrong to treat liquidity as a secondary concern **[E]**. But payback answers a narrower question than the one Torrin faces, because a three-year cut-off measures speed rather than value, and here eight months is being allowed to outweigh \\$170 000 **[E]**. The 2029 emissions rules strengthen the point further, since Machine A's later cash flows may not be achievable at all if an older machine cannot legally be hired out **[E]**. Torrin should calculate net present value for both machines and treat payback as a constraint rather than the decision itself, perhaps discussing a short extension of the overdraft with the bank on the strength of Machine B's forecast returns **[E]**\n\n> **[mark-scheme]**\n> - This is a 'Level of response' answer where the examiner judges how well you have displayed the key skills of knowledge and application, analysis and evaluation\n> - A full-mark answer will include\n> \n> - Strong knowledge applied to the business context or question stem throughout\n> - Detailed interconnected points with logical chains of reasoning\n> - Evaluation of relevant issues which leads to a conclusion supported by strong reasoning\n> - The importance of at least two points must be identified and analysed\n> \n> **Knowledge and application**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **4** | - Shows understanding of two investment appraisal methods in context |\n> | **3** | - Shows understanding of one investment appraisal method in context |\n> | **2** | - Shows knowledge of two investment appraisal methods |\n> | **1** | - Shows knowledge of one investment appraisal method |\n> \n> **Analysis and evaluation**\n> \n> | **Mark** | **Descriptor** |\n> |---|---|\n> | **8** | - Justified recommendation with developed weighing of key arguments in business context |\n> | **7** | - Justified recommendation based on arguments in context |\n> | **6** | - Developed recommendation based on arguments in context |\n> | **5** | - An evaluative statement or recommendation based on arguments in context |\n> | **4** | - Argument based on two investment appraisal methods in context |\n> | **3** | - Argument based on one investment appraisal method in context |\n> | **2** | - Analysis of two investment appraisal methods |\n> | **1** | - Analysis of one investment appraisal method |\n> \n> **Indicative content**\n> \n> - Torrin could continue to rely on payback and choose Machine A. It pays back nine months sooner, releasing cash to reduce the \\$90 000 overdraft the bank has asked it to cut, and payback is quick to apply and easily understood in an owner-managed business. However, Machine B generates \\$450 000 against Machine A's \\$280 000, so the rule rejects \\$170 000 of inflow over an eight-month difference\n> - Payback reduces risk by favouring projects with shorter exposure, which matters where equipment values and demand are uncertain. However, it ignores every cash flow after the recovery point, and years four and five are exactly when Machine B earns most\n> - The three-year cut-off gives a clear and consistent decision rule that removes argument. However, it is a rule of thumb rather than a measure of value added, and it ignores the time value of money entirely, unlike net present value\n> - The 2029 emissions rules may make Machine A's later inflows unachievable if an older machine cannot legally be hired out, which payback would never have counted anyway. However, those rules are three years away and their detail is not yet known, so the risk is real but not quantifiable\n> - Torrin could calculate net present value for both machines and use payback as a constraint rather than the decision. However, that requires a discount rate the business may not be able to justify, and it takes time a small firm may not have\n> - The overdraft problem may be solvable by negotiation, whereas \\$170 000 of forgone inflow is not recoverable. However, a bank already pressing for reduction may refuse an extension, in which case the liquidity constraint is real rather than negotiable\n> \n> Accept any other valid response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tjfdHJ9nHDYNJvPn",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GGBZbp8W9BJ2gy9q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SdwZrjNDzkBWYcbm"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** reason why a business might use more than one investment appraisal method.",
+     "solution_md": "Each method measures something different: payback measures speed of recovery, the accounting rate of return measures profitability, and net present value measures value added after discounting **[1]**. A business uses several because a project can look attractive on one and poor on another; the project with the highest net present value may take seven years to pay back **[1]**. Seeing that disagreement is itself useful, because it shows the business exactly what it would be trading away, in this case liquidity in exchange for long-term value, which no single figure would reveal **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Different methods measure different things: recovery time, profitability and discounted value\n> \n> AO2\n> \n> - A project can rank highly on one method and poorly on another\n> - Where methods disagree, the business learns what it is trading off\n> - Payback addresses liquidity, which matters to a firm short of cash\n> - Net present value accounts for the time value of money, which payback ignores\n> - Using several reduces reliance on any one method's particular weakness\n> - Different stakeholders, such as lenders and shareholders, care about different measures\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> The interesting case is when the methods disagree, and that disagreement is information rather than a problem. If payback favours one project and net present value another, the business has learned what the choice actually costs it. Answers saying only that \"more methods are more accurate\" miss the point, because the methods are not measuring the same thing."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wYQDTYGMywPWXHHV",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_hp6JGztrGZ3yvwSJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3StSY7BsQvxFTzyX"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** qualitative factor a business should consider before making a major investment.",
+     "solution_md": "Qualitative factors are influences on an investment decision that cannot be reduced to a figure in the appraisal **[1]**. One is the effect on employees: a project replacing a production line changes how people work and may make some roles redundant **[1]**. If experienced staff resist the change or leave, the business loses knowledge that took years to build and faces recruitment and training costs, so a project that appears sound on the numbers can underperform because the people expected to operate it were not brought with it **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Qualitative factors are influences that cannot be expressed as figures in the appraisal\n> \n> AO2\n> \n> - Employee reaction, morale and possible resistance to change\n> - The effect on reputation with customers or the local community\n> - Whether the project fits the business's objectives and existing strengths\n> - Environmental impact and the risk of future regulation\n> - The likely reaction of competitors to the investment\n> - The owners' or directors' attitude to risk\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Qualitative does not mean vague. A qualitative factor still has to arrive at a consequence for the business: morale matters because turnover costs money and disrupts output, reputation matters because customers leave. Name the factor, then follow it through to something that affects performance, or the answer stays at one mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_nDFvTpKTHS6XgWCg",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5n6NctCS2QHF2yw2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JSGqp6NR2qsXP3PV"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what a positive net present value tells a business about an investment.",
+     "solution_md": "A positive net present value means the discounted value of a project's future cash inflows is greater than the cost of the investment **[1]**. This tells the business the project is expected to return more than the discount rate applied to it, so it adds value rather than merely recovering its cost **[1]**. The conclusion holds only for that rate, however: if the business raised the rate to reflect more expensive borrowing, the same forecasts could produce a negative figure, so the result is a judgement about the project measured against a chosen cost of capital **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - A positive net present value means discounted inflows exceed the cost of the investment\n> \n> AO2\n> \n> - The project is forecast to earn more than the discount rate used, so it adds value\n> - It provides a basis for accepting the project, or for ranking it against alternatives\n> - The result depends on the discount rate chosen, so a higher rate could reverse it\n> - It depends on forecast cash flows, which may not be achieved\n> - A positive figure says nothing about the size of the investment or how long the money is committed\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Always say what the figure is positive relative to. A positive net present value does not simply mean the project makes a profit; it means the project beats the discount rate the business applied. Change that rate and the same forecasts can turn negative, so naming the rate shows you understand the measure rather than just its sign."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mMy7GXkHM59KbVQy",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_7ZprZyJMS7x9Rm37",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Vq5VgvXqVvWSsWxS"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a business discounts future cash flows when appraising an investment.",
+     "solution_md": "Discounting converts cash a business expects to receive in future years into what that money is worth today **[1]**. A business does this because money received now can be put to use immediately, whether invested, used to repay borrowing or spent on another project, so a dollar in five years is genuinely worth less than a dollar today **[1]**. Without discounting, cash arriving in year five would be added to cash arriving in year one as though they were equivalent, overstating the value of long projects and possibly leading the business to choose the wrong one **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Discounting restates future cash flows in present-day values\n> \n> AO2\n> \n> - Money available now can be invested, so waiting carries an opportunity cost\n> - Cash received sooner can repay borrowing and reduce interest\n> - Forecasts further into the future are less certain, and discounting reduces their weight\n> - Inflation reduces the purchasing power of money received later\n> - Without discounting, projects with distant returns appear more attractive than they are\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> The reason is not only inflation. Even with prices completely stable, money in hand today can be invested, used to repay a loan or put into another project, so waiting has a cost of its own. Answers resting entirely on inflation give a partial reason, and the opportunity cost of waiting is the stronger half of the argument."
+    }
+   ]
+  },
+  {
+   "id": "qstn_TFWvhVSdJx4bFxgN",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_RK3GnQqNKzCvnWQg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Vq5VgvXqVvWSsWxS"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'net present value'.",
+     "solution_md": "Net present value is the total value today of all the future cash flows expected from an investment, less the cost of making that investment **[1]**, calculated by discounting each future cash flow to what it is worth in present-day terms **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - The sum of discounted future cash inflows minus the initial investment\n> - The value of a project's future cash flows expressed in today's money, net of its cost\n> - A measure showing whether a project adds value once the timing of cash flows is taken into account\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> \"Present\" is the word doing the work. Net present value restates future cash in today's terms before comparing it with the cost, and a definition leaving that out has described total profit instead. If your answer would read the same with no mention of time, it is not yet a definition of net present value."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DCtpwXHW7sr4fjPC",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_p3NWZv3vgjnrJnK5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SdwZrjNDzkBWYcbm",
+      "spcpt_f5VX9vDFW2mZVrsy"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** limitation of the accounting rate of return.",
+     "solution_md": "The accounting rate of return compares average annual profit with the average sum invested **[1]**. Its limitation is that averaging hides when the profit arrives: two projects returning the same average each year score identically, even if one earns most of its profit in year one and the other in year five **[1]**. Money received earlier can be reinvested or used to repay borrowing, so the business would clearly prefer the first, yet the accounting rate of return gives it no way of seeing that difference **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - The accounting rate of return uses average profit against average investment\n> \n> AO2\n> \n> - Averaging conceals the timing of returns, so early and late profits are treated alike\n> - It ignores the time value of money, unlike net present value\n> - It is based on profit rather than cash, so depreciation policy affects it\n> - It relies on forecasts extending across the whole life of the project\n> - A percentage alone gives no indication of the size of the project\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> A limitation about timing has to put two years side by side. Writing that the accounting rate of return \"ignores timing\" states the fault without showing it; contrasting a project earning its profit in year one with one earning the same in year five demonstrates it. Two contrasting figures turn an assertion into an explanation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_d65FVfdC8HT37y3q",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_GFwB37Q7rJRCR5js",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_f5VX9vDFW2mZVrsy"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'accounting rate of return'.",
+     "solution_md": "The accounting rate of return expresses the average annual profit from an investment as a percentage of the average amount invested **[1]**, allowing the return to be compared with a target rate or with other projects **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - Average profit divided by average investment, multiplied by 100\n> - The average annual percentage return an investment is expected to generate\n> - A measure allowing projects of different sizes to be compared on a common percentage basis\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> Both figures in this formula are averages. The syllabus gives it as average profit divided by average investment, so answers using total profit or the initial cost instead will produce a different percentage. Saying \"average\" twice is a quick way to show the examiner you have the right measure."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2hxSxDVTW3zN8fVj",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_X64zXC5cwHz678my",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NfVfBHmS46rJ9Rw5"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one** advantage to a business of using the payback method.",
+     "solution_md": "The payback period shows how long an investment takes to recover its initial cost **[1]**. One advantage is that it suits a business whose cash is tight, because it identifies the project returning money soonest **[1]**. A firm that recovers its investment in two years rather than five has cash available again for wages, suppliers or the next project, so payback answers the question that actually constrains it, which is when the money comes back rather than how much it eventually earns **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Payback shows how quickly an investment recovers its initial cost\n> \n> AO2\n> \n> - Suits businesses with limited cash, since it prioritises early recovery\n> - Simple to calculate and to explain to non-financial managers\n> - Useful in fast-changing markets where distant forecasts are unreliable\n> - Reduces risk by favouring projects with shorter exposure\n> - Offers a quick way to reject unsuitable projects before detailed appraisal\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> \"It is simple to calculate\" is worth very little on its own, because every appraisal method is simple once it has been learned. The mark comes from saying why that simplicity matters here: a small firm with no finance department, or a market changing so fast that a five-year forecast is guesswork. Give the reason simplicity is valuable and the point develops itself."
+    }
+   ]
+  },
+  {
+   "id": "qstn_msR99r84RJBt58Sr",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_rZDCHK8g2gVn9mXp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NfVfBHmS46rJ9Rw5"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term 'payback period'.",
+     "solution_md": "The payback period is the length of time it takes for the cash generated by an investment to cover its initial cost **[1]**, usually expressed in years and months **[1]**\n\n> **[mark-scheme]**\n> Define requires a clear statement of the meaning of the term\n> \n> An example alone is not sufficient for full marks but can support a partial definition for 1 mark\n> \n> **Indicative content**\n> \n> - The time taken for cumulative net cash inflows to equal the original sum invested\n> - How long a business must wait before it recovers the money it spent on a project\n> - Normally measured in years and months\n> \n> Accept all valid responses.\n\n> **[exam-tip]**\n> Payback measures the return of capital, not the return on it. It tells a business when its money comes back, not how much it earns, so a project can pay back quickly and still be the less profitable of two options. Keeping that distinction clear separates payback from the accounting rate of return and net present value."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KCBnYmyYMWg6xMZx",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Zt6yNBkSYN35RTyG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NtVgQGJMgqmNy4HR"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a business carries out investment appraisal before committing to a major project.",
+     "solution_md": "Investment appraisal is the process of assessing the likely financial returns from a project before the money is spent **[1]**. A business does this because large investments usually tie up cash for several years and cannot easily be reversed once the equipment is bought or the site is built **[1]**. Comparing the forecast returns of competing projects allows the business to put its limited finance into the option expected to generate most value, rather than discovering afterwards that a cheaper or faster-returning alternative existed **[1]**\n\n> **[mark-scheme]**\n> Explain requires a clear statement of meaning (AO1) supported by contextual development (AO2)\n> \n> - Valid AO1 is awarded 1 mark\n> - Valid AO2 is awarded up to 2 marks\n> \n> **Indicative content**\n> \n> AO1\n> \n> - Investment appraisal assesses the expected financial returns of a project before money is committed\n> \n> AO2\n> \n> - Large investments tie up cash for years and are difficult to reverse\n> - Finance is limited, so competing projects must be compared\n> - It provides evidence to support a request for external funding\n> - It sets a benchmark against which the project's actual performance can later be judged\n> - It reduces the influence of personal preference in a major decision\n> \n> Accept any other valid response.\n\n> **[exam-tip]**\n> Investment appraisal does not remove risk; it prices it. Every method works on forecast figures, so it improves the quality of the decision without guaranteeing the outcome. Answers claiming appraisal shows a project \"will succeed\" overstate what it does, and the more accurate point, that it makes risks visible and comparable, is the one that earns marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_zH8g2yRHF3FckNqj",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5gHbzDGT3Zbbbxp9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_f5VX9vDFW2mZVrsy"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**KOPARA BEVERAGES (KB)**\n\n**Background**\n\nKopara Beverages (KB) is a private limited company based in country P. It manufactures and sells premium fruit juices and plant-based drinks, including cold-pressed juices, coconut water blends, and protein smoothies. Founded 15 years ago by entrepreneur Lily Sato, KB now employs 400 workers in one large production facility in country P.\n\nKB sells its products domestically and has recently begun exporting to country Q, where demand for healthy, natural drinks is growing rapidly. KB's mission is 'to bring nutritious, sustainably produced beverages to customers across the world'.\n\n**Organisational Structure**\n\nTwo years ago, KB moved from a centralised management structure to a decentralised one, giving production and marketing managers greater autonomy over day-to-day decisions. Lily believes the change has increased innovation and improved employee morale.\n\nHowever, KB's Finance Director has raised concerns about inconsistent financial decisions being made across departments and a lack of coordinated budgeting.\n\n**Investment Projects**\n\nTo meet growing demand from country Q, KB is evaluating two investment projects. Table 1 shows data for Project A. Table 2 shows projected annual net cash flows and discount factors for Project B.\n\n**Table 1: Project A — New Production Line**\n\n| Initial investment (\\$000) | 500 |\n|---|---|\n| Useful life | 4 years |\n| Residual value at end of useful life (\\$000) | 0 |\n| Estimated annual profit (\\$000) | 80 |\n\n**Table 2: Project B — Automated Bottling System**\n\n| **Year** | **Net Cash Flow (\\$000)** | **Discount Factor (10%)** | **Present Value (\\$000) ** |\n|---|---|---|---|\n| 1 | 100 | 0.909 | 90.9 |\n| 2 | 120 | 0.826 | 99.1 |\n| 3 | 150 | 0.751 | 112.7 |\n| 4 | 80 | 0.683 | 54.6 |\n| **Total present value (\\$000)** |   |   |   |\n| **Initial investment (\\$000)** |   |   | **340** |\n| **Net present value (NPV) (\\$000)** |   |   |   |\n\n**Financial Performance**\n\nKB's Finance Director has produced financial data for 2022 and 2023 to allow comparison of the business's performance. Table 3 shows selected financial data.\n\n**Table 3: KB selected financial data**\n\n|   | **2023 (\\$000)** | **2022 (\\$000)** |\n|---|---|---|\n| Revenue | 8,500 | 7,200 |\n| Net profit | 510 | 576 |\n| Share capital | 1,500 | 1,500 |\n| Retained earnings | 700 | 600 |\n| Long-term borrowings | 800 | 300 |\n\n**Competitive Pressures**\n\nThe domestic market for beverages in country P has become increasingly competitive. Several large multinational companies (MNCs) have entered the market with similar healthy drink products, often at significantly lower prices than KB. KB's share of the domestic market has fallen from 18% to 14% over the past two years.\n\nKB's Marketing Director is recommending that KB invests in product innovation — developing new flavours, new formats, and stronger branding — to differentiate its products from MNC rivals and justify its premium price.\n\nThe Finance Director disagrees, believing that KB must reduce prices to remain competitive and maintain market share.\n\nKB's export revenue from country Q has grown by 35% in the past year. Country Q has a growing middle-class population with rising health awareness and disposable income. Lily is considering whether KB should seek additional long-term finance to accelerate its expansion into country Q.\n\nRead the [insert ](https://cdn.savemyexams.com/uploads/2026/04/45237-Insert%20-%20CIE%20A%20Level%20Business%20Paper%203%20Insert%20Practice%20Set%202.pdf)before answering questions 3a, 3b and 3c\n\nCalculate the average rate of return (ARR) for Project A.",
+     "solution_md": "**ARR = 16% ****[3]**\n\n$\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100$\n\n`text ARR end text equals 80 over 500 cross times 100\n\nequals space 16 percent sign`\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of `16 percent sign`\n> \n> A correct answer with no working shown still receives full marks.\n\n> **[exam-tip]**\n> Always show your working when performing calculations. Even if you make an arithmetic slip, you can still pick up a mark for demonstrating the correct method. Make sure you learn the ARR formula precisely — it uses average annual profit (not total profit) divided by the initial investment, multiplied by 100 to express it as a percentage.",
+     "equations": [
+      {
+       "latex": "\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ARR</mtext><mo>=</mo><mfrac><mtext>Average annual profit</mtext><mtext>Initial investment</mtext></mfrac><mo>&#xD7;</mo><mn>100</mn></math>",
+       "alt": "\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CxQqFGRcxfwzfmq9",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_9yxNBHbxPQGVJSqw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_f5VX9vDFW2mZVrsy"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n## MERIDIAN TECHNOLOGIES (MT)\n\n**Background**\n\nMeridian Technologies (MT) is a private limited company based in country K. It designs and manufactures smart home devices, including wireless speakers, smart thermostats, and home security systems.\n\nMT was founded 12 years ago by entrepreneur Hana Park and has grown to employ 850 workers across two manufacturing facilities in country K.\n\nMT sells its products domestically and exports to several countries in Asia and Europe. Competition in the smart home device market is intense. MT faces growing pressure from several large multinational companies (MNCs) that compete aggressively on price and brand recognition.\n\n**Organisational Change**\n\nUntil two years ago, MT operated with a flat organisational structure in which considerable authority was delegated to regional managers. Following a period of rapid growth, Hana decided to restructure the business, reducing the number of management levels and centralising all major decision-making at head office.\n\nThe restructuring has not been universally welcomed. A recent internal employee survey found that 64% of workers felt less motivated since the change was introduced. Three experienced regional managers left the business within six months of the restructuring being implemented.\n\n**Expansion Plans**\n\nMT is planning to expand its production capacity and is evaluating two investment projects. Table 1 shows data for Project A. Table 2 shows the projected annual net cash flows for Project B.\n\n**Table 1: Project A — Automated Production Line**\n\n| Initial investment (\\$) | 600,000 |\n|---|---|\n| Useful life | 5 years |\n| Residual value at end of useful life (\\$) | 0 |\n| Estimated annual profit (\\$) | 120,000 |\n\n**Table 2: Project B — Expansion of Existing Facility**\n\n| **Year** | **Net cash flow (\\$)** |\n|---|---|\n| 1 | 80,000 |\n| 2 | 100,000 |\n| 3 | 120,000 |\n| 4 | 150,000 |\n| 5 | 100,000 |\n| **Initial investment** | **400,000** |\n\n**Export Markets and Exchange Rates**\n\nMT currently generates 40% of its revenue from exports. Approximately 60% of MT's export revenue is earned in euros (€). In the past 12 months, country K's currency has strengthened significantly against the euro, rising in value by 15%.\n\nTable 3 shows MT's revenue by market for the year ended December 2023.\n\n**Table 3: MT Revenue by Market (year ended December 2023)**\n\n| **Market** | **Revenue (\\$000)** |\n|---|---|\n| Country K (domestic) | 6,200 |\n| Europe | 2,800 |\n| Asia | 1,300 |\n| **Total** | **10,300** |\n\n**Pricing Strategy**\n\nMT's Finance Director has suggested reducing the selling price of the smart thermostat in order to increase market share and compete more effectively against MNC rivals. Table 4 shows the relevant pricing and demand data.\n\n**Table 4: Smart Thermostat — Pricing and Demand Data**\n\n| Current selling price (\\$) | 80 |\n|---|---|\n| Current annual sales (units) | 50,000 |\n| Proposed new selling price (\\$) | 72 |\n| Forecast annual sales at new price (units) | 57,500 |\n\n**Corporate Social Responsibility**\n\nMT sources many of its components from suppliers based in country L, where labour costs are significantly lower than in country K. A pressure group called EthicsWatch has recently published a report claiming that some of MT's suppliers in country L use poor working conditions and pay employees below the minimum wage. The report has received widespread media coverage in country K and has been shared extensively on social media.\n\nHana is considering whether to introduce a formal corporate social responsibility (CSR) strategy. This would include auditing all of MT's suppliers in country L and switching to certified ethical suppliers where necessary. MT's operations director estimates that this would increase raw material costs by approximately 12%.\n\nRead the [insert ](https://cdn.savemyexams.com/uploads/2026/04/52945-Insert%20-%20Paper%203%20Business%20Decision-Making%20%E2%80%94%20Practice%20Paper%20Set%201.pdf)before answering this question.\n\nCalculate the average rate of return (ARR) for Project A.",
+     "solution_md": "**ARR = 20% ****[3]**\n\n$\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100$\n\n`equals fraction numerator 120 comma 000 over denominator 600 comma 000 end fraction cross times 100\n\nequals 20 percent sign`\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of `20 percent sign`\n> \n> A correct answer with no working shown still receives full marks.\n\n> **[exam-tip]**\n> Always show your working when answering calculation questions. Even if you arrive at the wrong final answer, you can still pick up a mark for demonstrating the correct method. Make sure you write out the ARR formula first, then substitute the figures clearly. Remember that ARR uses average annual profit (not total profit) divided by the initial investment, expressed as a percentage.",
+     "equations": [
+      {
+       "latex": "\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ARR</mtext><mo>=</mo><mfrac><mtext>Average annual profit</mtext><mtext>Initial investment</mtext></mfrac><mo>&#xD7;</mo><mn>100</mn></math>",
+       "alt": "\\text{ARR} = \\frac{\\text{Average annual profit}}{\\text{Initial investment}} \\times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QdDQ9YtskQ7r7thD",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VT9vqDR4xHvSsCdy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "Paper 33",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pN5XV3knh9Sdsxv7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Pizza Adventure Company (PAC) **\n\nPAC is a private limited company which owns restaurants. It was started ten years ago in a large city in country X, which is located in Asia. The business was set up by Paulo who had moved to country X from Italy with his parents to start a farm. Paulo soon decided to move to the city where he observed the growing popularity of international food. He decided that he could adapt traditional pizza recipes to appeal to the tastes of Asian customers. This would also attract the increasing numbers of tourists visiting the city. PAC has grown very fast and now owns 10 restaurants throughout country X, in major cities and tourist resorts. The restaurants are managed by local employees. Their performance is assessed by Paulo and his brother Gio, the directors of PAC. Planning and resource management is supported by enterprise resource planning (ERP) software throughout the company. Economic environment The economy of country X has grown in recent years and average incomes are rising by 5% per year. Annual inflation is steady at 4% and unemployment is falling, especially in the cities. Changes in government policy have led to the currency exchange rate of country X appreciating (increasing in value) against other major currencies. The government of country X sees overseas tourists as an economic benefit, so it has lifted travel restrictions and launched a worldwide advertising campaign to encourage visitors. Products and services PAC restaurants sell a wide range of pizzas and other foods, such as salads. Customers have a wide choice of ingredients and toppings for their pizza. Many of these ingredients and toppings are grown or produced at Paulo’s own family farm. This business model has proved very popular and the restaurants are full most lunchtimes and evenings. PAC also offers a takeaway service that enables customers to order by phone or online using an App. Food delivery is outsourced to a specialist company which uses motorbikes to avoid the problem of heavy traffic in the cities. Marketing Paulo’s daughter, Alice, is responsible for marketing. She has talked to Paulo about increasing the range of food available in the restaurants, as she believes that the market for pizza in country X is approaching the maturity stage. In addition, competition is increasing with several multi-national pizza companies starting up in country X. Alice would like PAC to serve a wider range of vegetarian options and many more salads, as well as the pizzas. She has noticed increasing numbers of online articles about the need to eat a healthy diet, with pizzas often mentioned as examples of unhealthy food items. Alice wants to launch a new ‘healthy life’ range of meals at two of the biggest restaurants to test the market. The target market for the new range will be young professionals trying to lead a healthy lifestyle. Alice has used her skills as an ICT graduate to build a website for PAC, which she now maintains on a daily basis, including news on new products, special offers and customer reviews. PAC restaurants have received many excellent reviews on travellers’ websites as well as in local newspaper articles and tourism guides.\n\nFinance PAC’s profits have increased every year. Paulo has always reinvested most of the profit back into the company, after paying dividends to himself and other family shareholders. Paulo has also financed the purchase of some of PAC’s restaurants through loans from banks. Financial data for PAC is shown in Appendix 1. A new project Paulo has identified the rising popularity of ‘street food’ being sold by mobile vendors at events and markets. He would like to import four pizza vans in 2020, equipped with ovens. Pizzas can then be prepared and sold wherever the vans are taken. The total investment will be \\$50000 per van. Each van will cost \\$2000 per year to maintain. Paulo plans to purchase the vans using a bank loan. However, Gio is worried about PAC taking on further non-current liabilities. The data for the proposed pizza van project is shown in Appendix 2 and Appendix 3. Human resource and quality issues The restaurant managers have a wide range of delegated powers, including employee recruitment and food ordering, according to the individual restaurant sales. Paulo promotes teamwork in each location. All employees are provided with a uniform and given a free meal at the end of their duty hours. Restaurant opening times are long, requiring careful workforce planning. PAC employees have different employment contracts. Restaurant managers are full-time, permanent employees. Most waiting staff have flexible, part-time contracts. Labour turnover rates are high because restaurant work is demanding and pressurised, with some leavers saying they feel ‘undervalued’. Paulo and his management team try to ensure that food and quality service standards are consistently high in all PAC restaurants. All ingredients are stored carefully and used while still fresh. However, recently there have been an increasing number of customer complaints about the quality of service at two PAC restaurants. A customer has also complained that they became very ill after eating a pizza at a PAC restaurant. She claimed that the food had not been cooked thoroughly. The manager of the restaurant did not take this complaint seriously and she did not inform Gio and Paulo about it. Further expansion Paulo would like to expand PAC further with the aim of increasing return on capital employed. He is planning to meet with his management team to consider two opportunities. Only one strategy will be chosen. A summary of research data is shown in Appendix 4. Option 1: Purchase of ‘Healthy Juice’ bar business Take over ownership of a business which operates two ‘Healthy Juice’ bars in shopping malls in country X. Option 2: Sell franchises of PAC restaurants in countries Y and Z Sell franchises of the PAC restaurant model in neighbouring countries Y and Z. This would require the establishment of a central head office to administer the franchised outlets. Ingredients would be sourced from local suppliers.\n\nAppendix 1: Financial data for PAC (\\$m) Actual data for 2019 Forecast for 2020 (without new pizza van investment) Revenue 5.2 5.3 Cost of sales 1.3 1.5 Labour costs 1.5 1.7 Marketing and administration costs 0.7 0.8 Other expenses 1.1 1.1 Non-current liabilities 4.9 4.8 Capital employed 10 10 Appendix 2: Financial data for pizza van project Year Net cash flow (\\$000) Discount factors at 8% 0 (200) 1 1 70 0.93 2 70 0.86 3 80 0.79 4 80 0.74 Appendix 3: Forecast data for each pizza van in 2021, prepared by Gio Forecasted number of customers 6000 Average spend per customer \\$7.00 Average variable cost per customer \\$2.50 Labour costs \\$12000 Van operating costs including maintenance \\$3500\n\nAppendix 4: Research data for Options 1 and 2 Option 1 Purchase of ‘Healthy Juice’ bar business Option 2 Sell franchises of PAC restaurants in countries Y and Z Initial cost \\$0.75m \\$0.5m Timescale needed for implementation 3 months 1–2 years Probability of success 0.85 0.55 Main driving forces • Widen PAC product portfolio • Widen market and extend reach of PAC brand • Use of PAC core competency • Become an international company and brand name Main restraining force • Lack of familiarity with juice products and shopping mall environment • Increasing local and international competitors • Lack of familiarity with franchising and countries Y and Z • Difficult to control franchisees outside country X Position on Ansoff matrix New product, existing market Existing product, new market\n\nRead the following [extract ](https://www.savemyexams.com/a-level/business/cie/past-papers/paper/ppr_7KtnPqWVY4HFRSHC/?pdf=https%3A%2F%2Fpastpapers.papacambridge.com%2Fdirectories%2FCAIE%2FCAIE-pastpapers%2Fupload%2F9609_s20_in_33.pdf&type=resource&resourceIndex=0)(Appendix 2) before answering\n\nCalculate the forecast net present value (NPV) of the proposed pizza van project over four years.",
+     "solution_md": "**\\$47,700** **[3]**\n\nYear 1: `$ 70 comma 000 space cross times space 0.93 space equals space $ 65 comma 100`\n\nYear 2: `$ 70 comma 000 space cross times space 0.86 space equals space $ 60 comma 200`\n\nYear 3: `$ 80 comma 000 space cross times space 0.79 space equals space $ 63 comma 200`\n\nYear 4: `$ 80 comma 000 space cross times space 0.74 space equals space $ 59 comma 200`\n\nTotal present value (Years 1–4)\n\n`equals space $ 65 comma 100 space plus space $ 60 comma 200 space plus space $ 63 comma 200 space plus space $ 59 comma 200 space\n\nequals space $ 247 comma 700`\n\nNPV\n\n`equals space $ 247 comma 700 space minus space $ 200 comma 000 space space\n\nequals space $ 47 comma 700`\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of `$ 47 comma 700`\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_dXN6zSVWWD853rFh",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_sj9sTP46jqwG9pPH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "November 2021",
+      "number": "Paper 33",
+      "question_number": 4,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_pN5XV3knh9Sdsxv7",
+      "spcpt_NfVfBHmS46rJ9Rw5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**World Spices Corporation (WSC) **\n\nWorld Spices Corporation (WSC) is based in country X, which uses the dollar (\\$) as its currency. WSC was started 20 years ago by Max Cole. His daughters Suki and Dasha, together with a board of directors now manage the company. It converted to a public limited company in 2009. The Cole family has a controlling interest, owning 55% of the shares. WSC imports raw spices from many countries, including the US and India. WSC processes the raw spices into a range of products, including single and mixed spices for cooking and spiced sauces, dips and relishes. Recipes for these products are kept secret. The exact details are only known to Suki, Dasha and the Operations Director. These recipes are important intellectual property of the company. WSC markets its products as ‘fair trade’ and publicises that fair prices are paid to spice growers. WSC also claims to monitor working conditions and employment practices of its suppliers. This is difficult due to the fact that growers are in remote locations around the world. The WSC brand name is recognised globally. Products are sold globally to both food manufacturing businesses and retailers. WSC has grown very fast due to the increasing popularity of spicy food in developed countries. WSC built a new factory to meet this demand. The final stage of spice processing is highly automated, using computer aided machinery (CAM). Economic environment Country X’s economy is slowly recovering from recession. Economic growth is forecast to be 2% this year and unemployment is falling. The \\$ in country X has appreciated against other major currencies in recent years. The demand for WSC’s products from different countries fluctuates for many reasons, including changes in foreign exchange rates. Table 1: Annual changes in demand for WSC’s products (%) Area 2018 2019 2020 Europe +10 +8 +5 US +14 +9 –3 Asia +8 +5 –2 Others +5 +4 –1 Marketing WSC sells mainly to business customers and marketing communications are all online. WSC uses social media to keep in touch with business customers. Its website publicises products to both businesses and consumers. The website also has a range of recipes using WSC’s spices, which are updated regularly to encourage users to visit regularly\n\nThe ready meals project WSC’s marketing department has investigated demand for ‘ready meals’. These are pre-cooked meals that are sold ready prepared and packaged. Customers will be able to heat the ready meals quickly using an oven or microwave. Demand for spicy ready meals is growing quickly, especially in Asian markets. Reaction to WSC’s new ready meals has been very positive in focus group tasting sessions. The factory extension and new production equipment necessary for the ready meals project will cost \\$1.5m. In addition, WSC’s Marketing Director has requested a launch marketing budget of \\$750000 to increase customers’ awareness of the new products. WSC plans to distribute these ready meals through supermarkets. A coordinated marketing strategy will be needed for the new ready meals. Table 2 shows investment appraisal data for the ready meals project. Table 2: Investment appraisal data for the ready meals project Year Net cash flow \\$m Discount factors at 6% 0 (1.5) 1 1 0.30 0.94 2 0.55 0.89 3 0.60 0.84 4 0.60 0.79 5 0.60 0.75\n\nFinance WSC financed its growth with retained profits and a bank loan of \\$10m. Dividend payments to investors have remained stable and comparable to companies in the same industry. Suki and Dasha would like to finance the new ready meals project by offering new shares for sale to existing shareholders (a rights issue), instead of more bank borrowing. Financial data for WSC is shown in Table 3. Table 3: Financial data for WSC 2019 (\\$) 2020 (\\$) Revenue 21.5m 23.5m Cost of raw materials 10.0m 11.0m Direct labour costs 2.6m 2.8m Marketing and administration costs 1.6m 1.7m Other expenses 1.0m 1.1m Operating profit 6.3m 6.9m Profit after tax and interest 4.8m 5.9m Non-current liabilities 10.0m 10.0m Capital employed 24.0m 25.0m Total annual dividends 3.5m 3.4m Share price at year end 12.00 11.00 Dividend per share 1.50 1.45 Human resources and operations Production workers, who maintain the taste and quality of the spice products, are highly skilled and important to the business. They are able to detect small differences in the products by regular tasting. The directors are worried that labour turnover has increased recently. Some experienced employees have moved to companies that offer better chances of promotion. Suki and Dasha would like to increase employee involvement in order to widen employees’ roles and increase labour flexibility. This would be part of a move towards lean production with the aim of making factory operations more efficient. Raw spices lose flavour if inventory is kept for too long and a large amount of space is needed for storage. The current production system leads to high wastage rates of raw materials.\n\nFurther developments The directors of WSC would like to expand the company further. There are two possible options. They need to make a strategic choice as it will not be possible to carry out both projects. Option A Take over a small fast food restaurant chain in country X and rebrand it as ‘WSC street food cafés.’ WSC would need to recruit experienced senior staff to manage the street food cafés. They would retain existing fast food chain employees. Option B Extend the WSC product range into drinks for the first time. These would include exclusive recipe tea, coffee and chocolate drink mixes. WSC would need to find suppliers of raw materials and build a new production line. A summary of the information collected so far is shown in Appendix 1. Appendix 1: Research data for Options A and B Option A Take over a small fast food restaurant chain in country X Option B Extend the WSC product range into drinks Initial cost \\$3.5m \\$2m Estimated time for completion 9 months 1.5 years Main driving forces • WSC expertise in spice recipes • Growing demand for spicy foods • WSC expertise in processing spices • Recognised brand name Main restraining forces • Highly competitive fast food market in country X • WSC lack of knowledge and experience of running street food cafés • WSC lack of knowledge and experience in market for drinks • Need to find reliable suppliers Competitive rivalry • Low supplier power • High threat of substitutes • High supplier power • High threat of substitutes Estimated chances of success 65% 55% Estimated monetary value over five years \\$5m \\$4m\n\nRead the following [extract ](https://www.savemyexams.com/a-level/business/cie/past-papers/paper/ppr_xX39VSNfF3VMtrBk/?pdf=https%3A%2F%2Fpastpapers.co%2Fcie%2FA-Level%2FBusiness-9609%2F2021-Oct-Nov%2F9609_w21_in_33.pdf&type=resource&resourceIndex=0)(Table 2) before answering\n\nCalculate the forecast net present value (NPV), for the ready meals project.",
+     "solution_md": "**NPV = \\$0.6995m** **[3]**\n\nTotal present value (Years 1–5)\n\n`equals space 0.282 space plus space 0.4895 space plus space 0.504 space plus space 0.474 space plus space 0.450 space\n\nequals space $ 2.1995 straight m`\n\nNPV\n\n`equals space $ 2.1995 straight m space minus space $ 1.5 straight m space space\n\nequals space $ 0.6995 straight m`\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of `$ 0.6995 straight m`\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_72wH8fMKmnZM9BKc",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dwk8fc4YxnKf58YM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "Paper 3",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_NfVfBHmS46rJ9Rw5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDevonice Ltd (DL) Gabriel Romana founded DL in 2012 in country Y. He used his savings to develop Devonice, a luxury ice cream brand made from natural ingredients. DL started manufacturing ice cream in a small factory in 2013. Organisation and growth DL has grown rapidly. Gabriel has increased the product range with new flavours of ice cream. In 2016, DL opened its second factory and its first Devonice ice cream shop in country Y. At present, most sales are made to supermarkets in country Y. However, Gabriel has plans to open more ice cream shops. He is also considering selling DL franchise agreements to increase export sales. Gabriel enjoys being in control of the business and intends to maintain a centralised structure. Managers of the functional departments report directly to Gabriel and he makes all major decisions. The production line project DL has two factories, operating 24 hours a day. In total, there are 5 production lines and 200 workers able to produce 30 million litres of ice cream per year. Capacity utilisation is currently 90%. To increase capacity and flexibility, Gabriel is considering investing in computerised production lines. Gabriel wants this project completed within 20 weeks in time for the summer season. The operations manager has prepared a critical path analysis (CPA) for the project (see Appendix 1 and Appendix 2). The operations manager is worried about the project. He told Gabriel: ‘This new system is complex and untried. I am also worried about delays and the impact on our workers.’ Estimated net cash flows of the project are shown in Table 1. Table 1: Estimated net cash flows for the new production line project Year Net cash flow (\\$m) Discount factor (8%) 0 (2.5) 1 1 0.5 0.93 2 0.8 0.86 3 1.2 0.79 4 1.5 0.74 5 1.5 0.68 A competitive market Devonice is now the market-leading brand in country Y and is exported to 10 other countries. DL’s innovative marketing and high quality product have contributed to sales growth. DL targets young adults and has developed a premium brand image. Promotion includes the use of social media, school sponsorship and celebrity endorsement. DL also donates a share of its profits to environmental charities.\n\nMarket conditions in country Y are challenging. A multi-million dollar advertising campaign by a global ice cream brand has increased competition. DL sales have remained stable but market share has fallen. In response, Gabriel is considering reducing the price of Devonice or increasing promotional spending. The marketing department has estimated the promotional elasticity of demand and price elasticity of demand for Devonice. Details are in Table 2. Table 2: Estimated data for Devonice Price elasticity of demand Promotional elasticity of demand Action Reduce price to supermarkets by 8% Increase annual promotional spending by \\$0.5m to \\$1.75m Outcome Demand increases by 10% Demand increases by 10% The marketing manager recommends reducing price to widen the market appeal of the brand and open up new distribution opportunities. However, Gabriel believes this could damage the brand image. In his opinion, increasing promotional spending is the better decision. Corporate social responsibility (CSR) Despite rising incomes in country Y, there is concern about health related problems due to poor diet. In 2020, a pressure group started a campaign to persuade food manufacturers to take greater responsibility for the impact of their products. The group demanded government action to reduce sales of food products high in sugar and fat by: • regulating product labelling • restricting advertising • introducing a tax on these products. DL could change ingredients to reduce sugar content. However, Gabriel is worried about consumer reaction. DL is also facing pressure to stop using palm oil because of the loss of rainforest associated with its production. Palm oil helps make ice cream smooth and creamy. There are alternatives DL could use, but these are more expensive. Appendix 1: Critical path analysis (CPA) for the production line project Activity Description A Run existing production lines at full capacity to increase inventory for changeover B Order and delivery of ice cream equipment C Order and delivery of packaging equipment D Removal of existing production equipment E Installation of new production equipment F Training of production line workers G Testing of production lines\n\n![Project network diagram showing activities A–G linking numbered nodes with durations, earliest and latest times, illustrating a production line schedule.](assets/001-project-network-diagram-showing-activities-a-g-l.png)\n\nRead the following [extract ](https://www.savemyexams.com/a-level/business/cie/past-papers/paper/ppr_WRR6Rd9qmYKKgv2g/?pdf=https%3A%2F%2Fwww.cambridgeinternational.org%2FImages%2F596165-2023-specmen-paper-3-insert.pdf&type=resource&resourceIndex=0)(Table 1)before answering\n\nUsing the data in Table 1, calculate the payback period for the production line project.",
+     "solution_md": "**The payback period is 3 years** **[3]**\n\n| Year | Net cash flow (\\$m) | Cumulative cash flow (\\$m) |\n|---|---|---|\n| 0 | (2.5) | (2.5) |\n| 1 | 0.5 | (2.0) |\n| 2 | 0.8 | (1.2) |\n| 3 | 1.2 | 0 |\n| 4 | 1.5 | 1.5 |\n| 5 | 1.5 | 3 |\n\n- The cumulative cash flow reaches exactly \\$0 at the end of Year 3\n\n> **[mark-scheme]**\n> - Up to 2 marks for valid workings\n> - 1 mark for the correct answer of 3 years\n> \n> A correct answer with no working shown still receives full marks."
+    }
+   ]
+  }
+ ]
+}

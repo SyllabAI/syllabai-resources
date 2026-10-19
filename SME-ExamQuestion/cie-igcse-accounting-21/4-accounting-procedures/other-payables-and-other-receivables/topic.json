@@ -1,0 +1,687 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:32:11Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "accounting",
+  "exam_code": "0452 & 0985",
+  "sme_course_id": "crs_C9w7QKF3dhnTWnNS",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE Accounting"
+ },
+ "section": {
+  "slug": "4-accounting-procedures",
+  "name": "4. Accounting Procedures"
+ },
+ "topic": {
+  "id": "top_FS42vyfzwGtqptWD",
+  "slug": "other-payables-and-other-receivables",
+  "name": "Other Payables & Other Receivables",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "accrued-and-prepaid-expenses",
+   "name": "Accrued & Prepaid Expenses",
+   "revision_note_id": "rn_MgCz43GfGq7xrXBK"
+  },
+  {
+   "slug": "accrued-and-prepaid-income",
+   "name": "Accrued & Prepaid Income",
+   "revision_note_id": "rn_T2QkfrCMzCSqD7Dx"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Kb9kRKqrNqFWKvK8",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 12,
+   "questions_embedded": 12,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/other-payables-and-other-receivables/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 12,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/04/expense-account.png": "001-layout-of-an-expense-account-showing-the-entries.png",
+   "https://cdn.savemyexams.com/uploads/2024/04/income-account.png": "002-layout-of-an-income-account-showing-the-entries-.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_C6c6xNCPwnXP8zDh",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wvKBJXqcbwCVHzN7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5YKW8C4QWCDFZZ9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Tom is a trader. The following ledger account appeared in his books.\n\nRates account\n\n|   |   | \\$ |   |   | \\$ |\n|---|---|---|---|---|---|\n| June 30 | Bank | 3 120 | Jan 1 | Balance b/d | 240 |\n|   |   |   | Dec 31 | Income statement | 2 770 |\n|   |   | <u>              </u> | Dec 31 | Balance c/d | <u>110</u> |\n|   |   | <u>3 120</u> |   |   | <u>3 120</u> |\n\nWhich statement is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The rates account is an expense account\n- An opening balance on the credit side means that money is still owed at the start of the year from the previous year\n\n  - So the \\$240 balance b/d on Jan 1 on the credit side means that rates were accrued at the start of the year\n- An opening balance on the debit side means that money has been prepaid towards the account in the preceding year\n\n  - The \\$110 balance c/d on Dec 31 on the credit side will become a \\$110 balance b/d on the debit side on Jan 1 in the following year\n  - So that means the rates were prepaid at the end of the year\n- You could also read the account this way\n\n  - The \\$2770 income statement credit entry on 31 December means that rates charges for the year were \\$2770\n  - Adding in the accrued amount at the start of the year (the \\$240 balance b/d entry), the total payable during the year was\n  \n    - \\$2770 + \\$240 = \\$3010\n  - The \\$3120 bank debit entry means that \\$3120 was paid on the account during the year\n  - That is an overpayment of\n  \n    - \\$3120 - \\$3010 = \\$110\n  - So at the end of the year there was a \\$110 prepayment towards the following year\n\n**A** is incorrect; rates are prepaid at the end of the year\n\n**C** is incorrect; rates are accrued at the start of the year\n\n**D** is incorrect; both of these are the wrong way round",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Rates are accrued at both the start and the end of the year."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Rates are accrued at the start of the year and prepaid at the end of the year."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Rates are prepaid at both the start and the end of the year."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Rates are prepaid at the start of the year and accrued at the end of the year."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hsTJXNvjPG8kYtFT",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qWP2bZmwFMNCy4Xf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "Cai's financial year ends on 31 August 2024. He provided the following information.\n\n|   | \\$ |\n|---|---|\n| on 1 September 2023<br><br>rent receivable accrued | 530 |\n| during the year ended 31 August 2024<br><br>rent received | 7 500 |\n| on 31 August 2024<br><br>rent received in advance | 270 |\n\nWhich journal entry would be made on 31 August 2024?\n\n|   |   | debit<br><br>\\$ | credit<br><br>\\$ |\n|---|---|---|---|\n| **A** | income statement<br><br>rent receivable | 6700 | 6700 |\n| **B** | income statement<br><br>rent receivable | 7240 | 7240 |\n| **C** | rent receivable<br><br>income statement | 6700 | 6700 |\n| **D** | rent receivable<br><br>income statement | 7240 | 7240 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The \\$530 rent receivable accrued is rent that had been due, but had not been paid, during the preceding financial year\n\n  - It is an accrued income\n- Of the rent received during the year, \\$530 would have paid off the rent owed from the previous year\n\n  - So of the rent received, the amount which could pay for rent incurred during the financial year is\n  \n    - \\$7500 - \\$530 = \\$6970\n  - If that exactly paid off all the rent for the year, then there would not have been a rent received in advance balance on 31 August 2024\n- The \\$270 rent received in advance at the end of the year means that the \\$6970 calculated above was \\$270 too much for what was incurred during the financial year\n\n  - So the total for rent incurred during the financial year is\n  \n    - \\$6970 - \\$270 = \\$6700\n- So \\$6700 is the amount that should be shown on Cai's income statement for the year\n\n  - The accounting principle of matching says that only income made during the year should be shown on the income statement\n  \n    - It does not matter that the year started with rent still owed from the previous year\n    - Or that the year ended with rent prepaid towards the following year\n  - Sources of income increase profit, and are shown as credit entries on the income statement\n  \n    - The corresponding entry is a debit entry on the rent receivable account\n\n**A** is incorrect; debit and credit are the wrong way round\n\n**B** and **D** are incorrect; \\$7240 is the amount you would get if you subtracted the difference of \\$530 and \\$270 (\\$530 - \\$270 = \\$260), from \\$7500 (\\$7500 - \\$260 = \\$7240)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nqSSnkxtpMJRnNcX",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NFHgFw9JSVG9cJBf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Cmp4xYSqwnhJSN3q",
+      "spcpt_5YKW8C4QWCDFZZ9s"
+     ],
+     "part_tier": null,
+     "problem_md": "At the end of his financial year on 31 October 2024, Alex had prepaid towards his phone bill.\n\nHow will this appear in Alex's statement of financial position and phone account at 31 October 2024?\n\n|   | statement of financial position | phone account |\n|---|---|---|\n| **A** | current asset | credit balance carried down |\n| **B** | current asset | debit balance carried down |\n| **C** | current liability | credit balance carried down |\n| **D** | current liability | debit balance carried down |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The amount Alex prepaid against his phone bill is a prepaid expense\n\n  - Prepaid expenses appear as current assets in the statement of financial position\n  - This already rules out options C and D\n- Recall the layout of an expense account\n\n![Layout of an expense account showing the entries on each side for accruals and prepayments](assets/001-layout-of-an-expense-account-showing-the-entries.png)\n\n*Layout of an expense account showing the entries on each side for accruals and prepayments*\n\n- At the start of the *following* financial year (1 November 2024), the amount of the prepaid expense will appear as an opening balance on the debit side of the account\n- But at the end of the current financial year (31 October 2024), the prepaid expense will appear as a balance carried down on the credit side\n\n  - So option A is correct\n\n**B** is incorrect; a prepaid expense appears as a credit balance carried down, not a debit balance carried down\n\n**C** and **D** are incorrect; a prepaid expense is a current asset, not a current liability",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3Sc69V94pr5zy7SZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pTFDNfX7x8sPkJWg",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kmmk347qVjZnkzTZ",
+      "spcpt_k97nnsPRKJp8kKFK"
+     ],
+     "part_tier": null,
+     "problem_md": "A business provided the following information\n\n|   | \\$ |\n|---|---|\n| trade payables | 4 800 |\n| trade receivables | 3 200 |\n| bank overdraft | 600 |\n| long-term loan | 13 000 |\n| accrued wages | 2 300 |\n| rent receivable prepaid | 450 |\n| prepaid insurance | 650 |\n\nWhat was the total of the current liabilities?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Identify the items on the list that are current liabilities\n\n  - trade payables (\\$4800)\n  - bank overdraft (\\$600)\n  - accrued wages (\\$2300)\n  \n    - this is money owed to employees in wages that had not been paid by the end of the financial year\n    - it is an accrued expense, and is considered a current liability\n  - rent receivable prepaid (\\$450)\n  \n    - this is rent pre-paid to the business that will not actually be due until the following financial year\n    - it is a prepaid income, and is considered a current liability\n  - The total of the current liabilities is\n  \n    - \\$4800 + \\$600 + \\$2300 + \\$450 = \\$8150\n- As for the other items on the list\n\n  - trade receivables is a current asset\n  - the long-term loan is a non-current liability\n  \n    - these are liabilities that are not expected to be repaid within a year\n  - prepaid insurance is a current asset\n  \n    - prepaid expenses are considered to be current assets\n\n**A** is incorrect; this is the sum of trade receivables, bank overdraft, accrued wages and prepaid insurance\n\n**C** is incorrect; this is the sum of the long-term loan, trade payables, accrued wages and rent receivable prepaid\n\n**D** is incorrect; this is the sum of the long-term loan, trade payables, bank overdraft and accrued wages",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$6750"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$8150"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$20 550"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$20 700"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HyPqyMssHZQNDcPB",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7YkckknzWMctpY7z",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "The following ledger account appeared in Brian's books.\n\nRent receivable account\n\n|   |   | \\$ |   |   | \\$ |\n|---|---|---|---|---|---|\n| 31 March 2024 | balance c/d | 200 | 1 April 2023 | balance b/d | 500 |\n|   |   |   | 31 March 2024 | bank | 4 500 |\n\nWhich one of the following entries should me made for rent receivable in the income statement for the year ended 31 March 2024?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Recall the layout of an income account\n\n![Layout of an income account showing the entries on each side for accruals and prepayments](assets/002-layout-of-an-income-account-showing-the-entries-.png)\n\n*Layout of an income account showing the entries on each side for accruals and prepayments*\n\n- In Brian's rent receivable account\n\n  - The \\$500 balance b/d on the credit side is rent that was prepaid in the previous financial year\n  - The \\$4500 bank entry on the credit side is the amount received for rent during the current year\n  \n    - So that's \\$500 + \\$4500 = \\$5000 received that could have been applied to the current year's rent due\n  - The \\$200 balance c/d on the debit side is rent that has been prepaid during the current financial year\n  \n    - This means that the \\$5000 calculated above was \\$200 too much for what was actually due in the current year\n- The missing amount that will balance the account will appear on the debit side\n\n  - This will be the amount of rent due for the current financial year\n  - As a source of income, it will also be entered as a credit on the income statement\n- The total of credits is \\$500 + \\$4500 = \\$5000\n\n  - This has to be balanced on the debit side, so\n  \n    - rent due for year + \\$200 = \\$5000\n    - rent due for year = \\$5000 - \\$200\n    - rent due for year = \\$4800\n- Therefore the entry on the income statement will be a \\$4800 credit\n\n**A** and **B** are incorrect; \\$4200 is what you would get if you subtracted the difference between \\$200 and \\$500 (\\$500-\\$200=\\$300), from \\$4500 (\\$4500 - \\$300 = \\$4200)\n\n**D** is incorrect; the amount is correct, but it is given as a debit instead of a credit (note that it will appear as a debit in the rent receivable account, but as a credit on the income statement)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$4200 credit"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$4200 debit"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$4800 credit"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$4800 debit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pMmSYhYMwsdwrwRn",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_5b9ynq6ShCPXRFff",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "Alfred owns a business providing professional consulting services. He provided the following information for the financial year ended 31 December 2023.\n\n|   | \\$ |\n|---|---|\n| fees owed by clients on 1 January 2023 | \\$1 900 |\n| fees received by clients during the year ended 31 December 2023 | \\$35 200 |\n| fees owed by clients on 31 December 2023 | \\$3 100 |\n\nWhat was the amount of fees showed in Alfred's income statement for the year ended 31 December 2023?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Of the fees received during the year, \\$1900 would have paid off the fees owed from the previous year\n\n  - So of the fees received, the amount which was for fees incurred during the financial year is\n  \n    - \\$35 200 - \\$1900 = \\$33 300\n- If that paid off all the fees for the year, then there would have been no fees owed at the end of the year\n- The \\$3100 owed at the end of the year means that fees of \\$3100 more than \\$33 300 were incurred during the year\n\n  - So the total for fees incurred during the financial year is\n  \n    - \\$33 300 + \\$3100 = \\$36 400\n- That is the amount that should be shown on Alfred's income statement for the year\n\n  - The accounting principle of matching says that only income made during the year should be shown on the income statement\n  \n    - It does not matter that all of the fees had not actually been received by the end of the year\n    - Or that the year started with fees still owed from the previous year\n\n**A** is incorrect; this is the difference of \\$1900 and \\$3100 (\\$3100 - \\$1900 = \\$1200), subtracted from \\$35 200 (\\$35 200 - \\$1200 = \\$34 000)\n\n**B** is incorrect; this is just the fees received during the year\n\n**D** is incorrect; this is the sum of \\$1900 and \\$3100 (\\$3100 + \\$1900 = \\$5000), added to \\$35 200 (\\$35 200 + \\$5000 = \\$40 200)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$34 000"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$35 200"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$36 400"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$40 200"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bwk9WqhgQ2c3cd33",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BzRnbrNNpg6Pf4RF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBzkwD8d9ZvVkCfR"
+     ],
+     "part_tier": null,
+     "problem_md": "Donovan made a loan to one of his employees. At the end of the financial year Donovan was owed \\$130 interest on the loan. He recorded this in his financial statements.\n\nWhere was the interest on the loan recorded in Donovan's statement of financial position, and how did it affect his profit for the year?\n\n|   | statement of financial position | profit for the year |\n|---|---|---|\n| **A** | current assets | decreased |\n| **B** | current assets | increased |\n| **C** | current liabilities | decreased |\n| **D** | current liabilities | increased |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Interest charged on the loan is a profit for Donovan's business\n\n  - The interest was incurred during the financial year\n  \n    - So it will increase the profit for the year\n  - It doesn't matter that the interest has not been paid yet\n  \n    - The profit still belongs to the financial year in which it was made\n    - This accords with the accounting principle of matching\n- The accrued interest has not been paid by the employee yet\n\n  - It represents money owed to the business\n  - Therefore it is entered as a current asset on the statement of financial position\n\n**A** is incorrect; the loan interest increases the profit for the year\n\n**C** and **D** are incorrect; a current liability would be money owed *by* the business, not money owed *to* the business",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3TvVSJ6F9DxrrGcW",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wqkZJZrZr8d69bfF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5YKW8C4QWCDFZZ9s"
+     ],
+     "part_tier": null,
+     "problem_md": "At 1 January 2023 a business's books showed a credit balance of \\$200 on the electricity account. Payments made during the year totalled \\$4100. At 31 December 2023, the business had used a further \\$1200 of electricity since the last invoice had been paid.\n\nWhat is the charge to the income statement for electricity for the year 2023?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The income statement for 2023 should only include electricity used during that year\n- The \\$200 credit balance on the electricity account at 1 January 2023 means that the business still owed that much from the previous year\n\n  - I.e. it is an accrued expense\n  - A credit balance on an expense account indicates an amount owed\n  - (A debit balance would indicate a pre-paid expense instead)\n- Of the \\$4100 payments made during the year\n\n  - \\$200 went toward paying off the credit balance\n  - The rest went towards paying for electricity used in 2023\n  \n    - \\$4100 - \\$200 = \\$3900\n- In addition to that \\$3900, another \\$1200 of electricity was used during 2023\n\n  - \\$3900 + \\$1200 = \\$5100\n\n**A** is incorrect; this is what you would get if you subtracted \\$200 and \\$1200 from \\$4100\n\n**C** is incorrect; this is the sum of \\$4100 and \\$1200, and doesn't take account of the \\$200 credit balance at the start of the year\n\n**D** is incorrect; this is just the sum of \\$200, \\$1200 and \\$4100",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$2700"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$5100"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$5300"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$5500"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KK2v4GbHZSJXH4Bk",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_9pkNrS2xpjgdmhKm",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qdwprVmJXmQPCv6j"
+     ],
+     "part_tier": null,
+     "problem_md": "Salima pays her insurance premium on 1 January each year for the following 12 months.\n\nShe made the following payments for insurance.\n\n|   | \\$ |\n|---|---|\n| 1 January 2023 | 1 740 |\n| 1 January 2024 | 1 860 |\n\nHow much did Salima include for insurance in her income statement for the year ended 31 March 2024?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Salima should only include the parts of the insurance payments that belong to the year ended 31 March 2024\n\n  - i.e. the year from 1 April 2023 to 31 March 2024\n- Find the monthly amount for the 1 January 2023 premium by dividing by 12\n\n  - \\$1740 ÷ 12 = \\$145\n- That premium payment covered 1 January - 31 December 2023\n\n  - 9 months from that premium period belonged to the year ended 31 March 2024\n  \n    - April, May, June, July, August, September, October, November, December 2023\n  - \\$145 ✕ 9 = \\$1305\n- Find the monthly amount for the 1 January 2024 premium by dividing by 12\n\n  - \\$1860 ÷ 12 = \\$155\n- That premium payment covered 1 January - 31 December 2024\n\n  - 3 months from that premium period belonged to the year ended 31 March 2024\n  \n    - January, February, March 2024\n  - \\$155 ✕ 3 = \\$465\n- Add together the two contributions to find the total\n\n  - \\$1305 + \\$465 = \\$1770\n\n**A** is incorrect; this is just the premium paid on 1 January 2023\n\n**C** is incorrect; this is just the premium paid on 1 January 2024\n\n**D** is incorrect; this is the difference between the two premiums (\\$1860 - \\$1740 = \\$120) added onto the premium paid on 1 January 2024",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$1 740"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$1 770"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$1 860"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$1 980"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_32BgGCjStJb7Zs8V",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rrMMkZKkySHdF2jy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "The annual rental income from one of a business's tenants, Basil, is \\$5400. At the start of the year Basil had accrued rent of \\$300. He owed two months' rent at the end of the year.\n\nHow much rent did the business receive from Basil during the year?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Start by figuring out the total amount due from Basil during the year\n\n  - The annual rent is \\$5400\n  - But the \\$300 accrued rent was rent from the previous year that he still owed at the start of the current year\n  - So the total owed during the year is\n  \n    - \\$5400 + \\$300 = \\$5700\n- If he had paid \\$5700 during the year, he wouldn't owe anything at the end of the year\n\n  - But he still owes two months' rent at the end of the year\n  - The amount he actually paid during the year is the difference between \\$5700 and that two months' rent\n- To find how much two months' rent is\n\n  - Divide the annual rent by 12 to find one month\n  \n    - \\$5400 ÷ 12 = \\$450\n  - Multiply by 2 to find two months\n  \n    - \\$450 ✕ 2 = \\$900\n- So the amount the business received during the year is\n\n  - \\$5700 - \\$900 = \\$4800\n\n**A** is incorrect; this is what you would get if you subtracted \\$300 from \\$5700 (instead of adding it) to find the total amount owed by Basil during the year\n\n**C** is incorrect; this would result from calculating \\$5400 - \\$300 +\\$900, instead of \\$5400 + \\$300 -\\$900\n\n**D** is incorrect; this is what you would get if you added \\$900 to \\$5700 at the end, instead of subtracting it",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$4200"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "\\$4800"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "\\$6000"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$6600"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7mgzqvMhc3ncHvGT",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pF3MMh9j6YnDH4RH",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "A business's books contained the following ledger account.\n\nrent receivable account\n\n|   |   | \\$ |   |   | \\$ |\n|---|---|---|---|---|---|\n| Dec 31 | income statement | 4 200 | Jan 1 | balance b/d | 150 |\n|   |   |   | Dec 31 | bank | 3 850 |\n|   |   | <u>            </u> |   | balance c/d | <u>200</u> |\n|   |   | <u>4 200</u> |   |   | <u>4 200</u> |\n\nWhat does the balance of \\$200 on 31 March represent?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- This is a rent receivable account\n\n  - Therefore the rent referred to is an income for the business\n- Consider the different entries\n\n  - The \\$4200 debit entry is the amount owed to the business for the year\n  - The \\$150 credit entry on 1 Jan is rent that had been pre-paid during the previous year\n  \n    - This is money the business owed to the customer at the start of the year\n  - The \\$3850 credit entry on 31 Dec is the amount paid to the business by the customer during the year\n  - The \\$200 balance on 31 Dec is the difference between what the business is owed for the year and what the business has received for the year\n  \n    - So it means the business is still owed that \\$200 on 31 December\n- Because that \\$200 is an income that is still owed to the business at the end of a financial period, it is an accrued income\n\n  - At the start of the next financial year it will be carried across as a balance b/d in the debit column\n  - It will thus be an asset for the company at the start of the next financial year\n\n**A** and **C** are incorrect; the balance is an income, not an expense\n\n**D **is incorrect; the balance is an accrued income, not a prepaid income",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "accrued expense"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "accrued income"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "prepaid expense"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "prepaid income"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PgmC6KpgtJbv5Rq7",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BK8d7FfT88KVJwPD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53",
+      "spcpt_cBzkwD8d9ZvVkCfR"
+     ],
+     "part_tier": null,
+     "problem_md": "On 31 March Lucian was owed commission.\n\nHow would this commission be shown in Lucian's statement of financial position on 31 March?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- An accrued income is an income that is still owed to the business at the end of a financial period\n- An accrued income is an asset to the business\n\n  - The business is owed money by its customers\n\n**B** is incorrect; the commission owed is an asset, not a liability\n\n**C** and **D** are incorrect; a prepaid income is an income for the next financial period that has been paid inadvance",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "as accrued income in current assets"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "as accrued income in current liabilities"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "as prepaid income in current assets"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "as prepaid income in current liabilities"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

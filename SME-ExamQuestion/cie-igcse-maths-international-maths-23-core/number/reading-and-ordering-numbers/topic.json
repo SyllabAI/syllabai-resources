@@ -1,0 +1,1223 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:22:45Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/core",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "number",
+  "name": "Number"
+ },
+ "topic": {
+  "id": "top_vHjmcYFtpzRFhrht",
+  "slug": "reading-and-ordering-numbers",
+  "name": "Reading & Ordering Numbers",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "place-value",
+   "name": "Place Value",
+   "revision_note_id": "rn_xjY2WZs8Q3jSjQBV"
+  },
+  {
+   "slug": "negative-and-directed-numbers",
+   "name": "Negative & Directed Numbers",
+   "revision_note_id": "rn_VRrHn6MXb4jfwRYX"
+  },
+  {
+   "slug": "ordering-numbers",
+   "name": "Ordering Numbers",
+   "revision_note_id": "rn_wHkBSdJBQKbKqZfp"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_bKfVrV7Yqh2dgwBJ",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 27,
+   "questions_embedded": 27,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/number/reading-and-ordering-numbers/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 27,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/11/oct-nov-2020-0580-12-q1.GIF": "001-oct-nov-2020-0580-12-q1.gif",
+   "https://cdn.savemyexams.com/uploads/2023/11/oct-nov-2020-0580-31-q5a.GIF": "002-oct-nov-2020-0580-31-q5a.gif",
+   "https://cdn.savemyexams.com/uploads/2023/12/paper-1-q1.GIF": "003-paper-1-q1.gif",
+   "https://cdn.savemyexams.com/uploads/2023/12/oct-nov-2020-0580-32-q6a.GIF": "004-oct-nov-2020-0580-32-q6a.gif"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_XQmMDkKRDZfQzPwX",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6F7kNmzqy256xxbz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv",
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "Sean records the maximum and minimum temperatures, in °C, at a museum. \nSome of the results for one week are shown in the table.\n\n| Day | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|---|---|---|---|---|---|---|---|\n| Maximum temperature (°C) | 8 | 12 | 15 | 14 | 11 | 7 | 4 |\n| Minimum temperature (°C) | -5 | -2 | -4 | -1 | 3 |   |   |\n\ni) Find the difference between the maximum temperature and the minimum temperature on Wednesday.\n\n............................................. °C [1]\n\nii) The minimum temperature on Saturday was 2°C higher than the minimum temperature on Monday.\n\nFind the minimum temperature on Saturday.\n\n............................................. °C [1]\n\niii) In this week the range of temperatures was 23°C.\n\nFind the minimum temperature on Sunday.\n\n............................................. °C [1]",
+     "solution_md": "(i) *Subtract Wednesday's minimum temperature from Wednesday's maximum temperature. *\n\n`15 minus open parentheses negative 4 close parentheses equals 19`\n\n$19^{\\circ}C$* ***[1]**\n\n(ii) *The minimum temperature on Monday was *$-5^{\\circ}C$*.*\n\n> *Add *$2^{\\circ}C$*. *\n\n$-5+2=-3$\n\n$-3^{\\circ}C$ **[1]**\n\n(iii) *The range (*$23^{\\circ}C$*) is the difference between the highest temperature (*$15^{\\circ}C$*) and the lowest temperature.* * *\n\n$15-23=-8$\n\n$-8^{\\circ}C$* ***[1]**",
+     "equations": [
+      {
+       "latex": "19^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">19</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 19 bold degree bold C"
+      },
+      {
+       "latex": "-5^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn><mo>°</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 5 degree straight C"
+      },
+      {
+       "latex": "2^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>°</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 degree straight C"
+      },
+      {
+       "latex": "-5+2=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn><mo>+</mo><mn>2</mn><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 5 plus 2 equals negative 3"
+      },
+      {
+       "latex": "-3^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">°</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 3 bold degree bold C"
+      },
+      {
+       "latex": "23^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>23</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "23 degree straight C"
+      },
+      {
+       "latex": "15^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 degree straight C"
+      },
+      {
+       "latex": "15-23=-8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>-</mo><mn>23</mn><mo>=</mo><mo>-</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 minus 23 equals negative 8"
+      },
+      {
+       "latex": "-8^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">8</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 8 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XfXHbTdDGcfjRhGH",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_s7KvNpHRvdrrc6cX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "May/June 2019",
+      "number": "0580/33",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9",
+      "spcpt_WbrqNJmtkggWfmbp"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this number in figures.\n\nOne million three hundred and two thousand five hundred and ninety-six.",
+     "solution_md": "> *Separate the millions and thousands with a space*\n\n$1302596$ **[1]**",
+     "equations": [
+      {
+       "latex": "1302596",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">&#160;</mo><mn mathvariant=\"bold\">302</mn><mo mathvariant=\"bold\">&#160;</mo><mn mathvariant=\"bold\">596</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 1 bold space bold 302 bold space bold 596"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XBGnc2KyRyR4P6Cb",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_TSnXK5pbBNdfKFsk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0580/32",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YJXJpK2M5xGWQmkZ",
+      "spcpt_xw9z6fM2cqDvqCt9",
+      "spcpt_fDJc5vx3rHjF7mqC",
+      "spcpt_DYWSrM2HQDcmNW55"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Part (i): accept answers that omit \"and\", commas or hyphens, e.g. \"six hundred four thousand nine hundred twenty five\", provided every number word is correct.\n\nWrite down\n\ni) the number 604925 in words,\n\n[1]\n\nii) a prime number between 50 and 60,\n\n[1]\n\niii) the value of $999^{0}$.\n\n[1]",
+     "solution_md": "i) *Group the number into thousands and ones using the spacing provided*\n\n**Six hundred and four thousand, nine hundred and twenty-five**** ****[1]**\n\n** **\n\nii) *A prime number has only two factors, itself and 1*\n\n**  ****53 or 59**** ****[1]**\n\n> * *\n\niii) *For all values of* $x,x^{0}=1$\n\n$999^{0}=1$\n\n$1$ **[1]**",
+     "equations": [
+      {
+       "latex": "999^{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mn>999</mn><mn>0</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "999 to the power of 0"
+      },
+      {
+       "latex": "x,x^{0}=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mo>&#160;</mo><msup><mi>x</mi><mn>0</mn></msup><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x comma space x to the power of 0 equals 1"
+      },
+      {
+       "latex": "999^{0}=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mn>999</mn><mn>0</mn></msup><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "999 to the power of 0 equals 1"
+      },
+      {
+       "latex": "1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">1</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fvmpt2tstnpNWCqj",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_kJsC4Fcb5h9DkPjd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/12",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "The temperature on Monday was -7°C. \nThe temperature on Tuesday was 5°C lower than on Monday. \nThe temperature on Wednesday was 8°C higher than on Tuesday.\n\nFind the temperature on Wednesday.\n\n............................................ °C",
+     "solution_md": "> *Change the temperature by subtracting *$5$\n\n$-7-5=-12$\n\n**[1]**\n\n> *Then add 8 to the result*\n\n$-12+8$\n\n$-4^{\\circ}C$ **[1]**",
+     "equations": [
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5"
+      },
+      {
+       "latex": "-7-5=-12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>7</mn><mo>-</mo><mn>5</mn><mo>=</mo><mo>-</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 7 minus 5 equals negative 12"
+      },
+      {
+       "latex": "-12+8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>12</mn><mo>+</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 12 plus 8"
+      },
+      {
+       "latex": "-4^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 4 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BdK63JvDZnpDHMVH",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Wn6DJxn4WQ43XrsZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/12",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "The lowest temperature recorded at Scott Base in Antarctica is -57.0°C. \nThe highest temperature recorded at Scott Base is 63.8°C more than this.\n\nWhat is the highest temperature recorded at Scott Base?\n\n................................................ °C",
+     "solution_md": "> *The key word in the question is \"more\". Work out the number that is 63.8 **more** than -57.0*\n\n$-57.0+63.8=6.8$\n\n**6.8**** ****[1]**",
+     "equations": [
+      {
+       "latex": "-57.0+63.8=6.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>57</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>63</mn><mo>.</mo><mn>8</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 57.0 space plus thin space 63.8 space equals space 6.8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bCcXZXq9gzc6YSvy",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xJR6JRCv5p72fMn8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "This table shows the temperature, in °C, at midnight and at 3 pm for four cities on the same day.\n\n| City | Temperature at midnight (°C) | Temperature at 3pm (°C) |\n|---|---|---|\n| Sydney | 21 | 28 |\n| Oslo | -3 | 1 |\n| Toronto | -18 | -8 |\n| Seoul | -5 | 4 |\n\nUse the table to complete this statement.\n\nThe city with the biggest difference in temperature between midnight and 3pm\n\nis .................................................. with a difference of ................................°C.",
+     "solution_md": "> *Work out the difference in temperature in all the cities by subtracting the temperature at midnight from the the temperature at 3pm.*\n\n> *Sydney: *\n\n$28-21=7$\n\n> * *\n\n> *Oslo:*\n\n`1 minus open parentheses negative 3 close parentheses equals 4`\n\n> * *\n\n> *Toronto:*\n\n`open parentheses negative 8 close parentheses minus open parentheses negative 18 close parentheses equals 10`\n\n> * *\n\n> *Seoul:*\n\n`4 minus open parentheses negative 5 close parentheses equals 9`\n\n> * *\n\n> *Toronto** has the biggest difference in temperature.*\n\n*Toronto ***[1]**\n* *$10^{\\circ}C$* ***[1]**",
+     "equations": [
+      {
+       "latex": "28-21=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>28</mn><mo>-</mo><mn>21</mn><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "28 minus 21 equals 7"
+      },
+      {
+       "latex": "10^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 10 bold degree bold C"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Rw284sV6gSByTgF5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The temperature at midnight in Moscow was  –11 °C. At 3 pm the temperature has increased by 5°C.\n\nWork out the temperature at 3 pm.\n\n............................................. °C",
+     "solution_md": "> *Add 5 onto -11.*\n\n> * *\n\n$-11+5=-6$\n\n> * *\n\n$-6^{\\circ}C$ **[1]**",
+     "equations": [
+      {
+       "latex": "-11+5=-6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>11</mn><mo>+</mo><mn>5</mn><mo>=</mo><mo>-</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 11 plus 5 equals negative 6"
+      },
+      {
+       "latex": "-6^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 6 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XySHH9r6NmFd5jNj",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_9HSsZyxQ44fgZYkg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write two hundred thousand and seventeen in figures.",
+     "solution_md": "> *There are **two **hundred thousands, **zero **ten thousands, **zero **thousands, **zero **hundreds, **one **ten and **seven **ones.*\n\n> * *\n\n![oct-nov-2020-0580-12-q1](assets/001-oct-nov-2020-0580-12-q1.gif)\n\n> * *\n\n**200 017** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XDr77fvPWbZBF35G",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Byrnc2V2hB4DfJHc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/13",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the temperature that is 7°C below -3°C.\n\n................................................°C",
+     "solution_md": "> *Subtract to find 7°C below -3°C *\n\n$-3-7=-10$\n\n**-10°C**** ****[1]**",
+     "equations": [
+      {
+       "latex": "-3-7=-10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>7</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 3 space minus space 7 space equals space minus 10"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_9HGFxqy6zD8Z9Jw9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/13",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the difference in temperature between -4 °C and 4 °C.\n\n................................................°C",
+     "solution_md": "> *To find the difference, subtract*\n\n`4 space minus space open parentheses negative 4 close parentheses space equals space 4 space plus thin space 4 space equals space 8`\n\n**8**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WkJFsdh8KFzZ8nB4",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Xvcmb9XwjkF3RBXB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/31",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "When Marco arrives at a port the temperature is 5°C. \nAt midnight the temperature has fallen by 7°C.\n\nFind the temperature at midnight.\n\n............................................... °C",
+     "solution_md": "> *The starting temperature is 5 and it has decreased by 7 so we need to subtract 7*\n\n$5-7=-2$\n\n**-2 ****[1]**",
+     "equations": [
+      {
+       "latex": "5-7=-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo> </mo><mo>-</mo><mo> </mo><mn>7</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 space minus space 7 space equals space minus 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QDK7cKcz8J4X4Jv9",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_zdyNVtzHYbKSQFJY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "Alexa, Ben and Chloe own a restaurant.\n\nAlexa records some temperatures.\n\nFridge 4 °C    Cool box -3°C    Freezer -19°C\n\ni) Find the difference in temperature between the fridge and the cool box.\n\n............................................ °C [1]\n\nii) Find the difference in temperature between the cool box and the freezer.\n\n............................................ °C [1]\n\niii) The temperature in the cold room is 5°C lower than the fridge.\n\nFind the temperature in the cold room.\n\n............................................ °C [1]",
+     "solution_md": "(i) *Subtract the lower temperature (the cool box temperature of *$-3^{\\circ}C$*) from the higher temperature (the fridge temperature of *$4^{\\circ}C$*). *\n\n> `4 minus open parentheses negative 3 close parentheses equals 7`* *\n\n$7^{\\circ}C$* ***[1]**\n\n(ii) *Subtract the lower temperature (the freezer temperature of *$-19^{\\circ}C$*) from the higher temperature (the cool box temperature of *$-3^{\\circ}C$*). *\n\n> `negative 3 minus open parentheses negative 19 close parentheses equals 16`*  *\n\n$16^{\\circ}C$* ***[1]**\n\n(iii) *Subtract the *$5^{\\circ}C$* from the fridge temperature (*$4^{\\circ}C$*). *\n\n> $4-5=-1$* *\n\n$-1^{\\circ}C$* ***[1]**",
+     "equations": [
+      {
+       "latex": "-3^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 degree straight C"
+      },
+      {
+       "latex": "4^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 degree straight C"
+      },
+      {
+       "latex": "7^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">7</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 7 bold degree bold C"
+      },
+      {
+       "latex": "-19^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>19</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 19 degree straight C"
+      },
+      {
+       "latex": "-3^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 degree straight C"
+      },
+      {
+       "latex": "16^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">16</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 16 bold degree bold C"
+      },
+      {
+       "latex": "5^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 degree straight C"
+      },
+      {
+       "latex": "4^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 degree straight C"
+      },
+      {
+       "latex": "4-5=-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>-</mo><mn>5</mn><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 minus 5 equals negative 1"
+      },
+      {
+       "latex": "-1^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 1 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pZT9GrygQQ5j6Bsm",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dNzZVPfjYGCZqKnF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write the number four hundred and eighteen thousand and seventy two in figures.",
+     "solution_md": "> *Write the number in a place value table. 4 would be in the hundred thousands column, 1 is in the ten thousands column, there are 8 thousands, no hundreds, 7 tens, and 2 ones.*\n\n| *Hundred thousands* | *Ten thousands* | *Thousands* | *Hundreds* | *Tens* | *Ones* |\n|---|---|---|---|---|---|\n| *4* | *1* | *8* | *0* | *7* | *2* |\n\n**418 072**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MHkWQDDFYGfvZ9tj",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_kkbj4mD27ZJS6BJs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/12",
+      "question_number": 8,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the difference in temperature between -6 °C and 5 °C.\n\n............................................. °C",
+     "solution_md": "> *Subtract the smaller temperature from the larger one to find the difference.*\n\n`5 minus open parentheses negative 6 close parentheses equals 11`\n\n$11^{\\circ}C$* ***[1]**",
+     "equations": [
+      {
+       "latex": "11^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">11</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 11 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JzWm3yNsSPK8fXgR",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yxwsN9jjzZ2YZVfk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "The temperature at 0700 is -3 °C. \nThis temperature is 11°C higher than the temperature at 0100.\n\nFind the temperature at 0100.\n\n............................... °C",
+     "solution_md": "> *The temperate at 0100 is 11°C colder than the temperate at 0700*\n\n> *Subtract 11 from the given temperature*\n\n$-3-11=-14$\n\n$-14^{\\circ}C$** [1]**",
+     "equations": [
+      {
+       "latex": "-3-11=-14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo>-</mo><mn>11</mn><mo>=</mo><mo>-</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 minus 11 equals negative 14"
+      },
+      {
+       "latex": "-14^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">14</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 14 bold space bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Gsn5jtbq2crZQbbq",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_wB6yhbyZYpBHS2Nv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "On Monday the temperature at midday is 4°C and the temperature at midnight is -3°C.\n\nWork out the difference between these two temperatures.\n\n........................................°C",
+     "solution_md": "> *The difference is a subtraction of the two temperatures*\n\n`4 minus open parentheses negative 3 close parentheses equals 4 plus 3 equals 7`\n\n**7° C**** [1]**"
+    },
+    {
+     "id": "qstnprt_nb7w3TcNMfrwdYcP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "On Wednesday the temperature at midday is -1°C. \nBy 7pm the temperature has fallen by 4°C.\n\nWork out the temperature at 7pm.\n\n........................................°C",
+     "solution_md": "> *As the temperature has fallen by *$4^{\\circ}C$*, subtract this from the temperature at midday*\n\n$-1-4=-5$\n\n**-5°**** C** **[1]**",
+     "equations": [
+      {
+       "latex": "4^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>&#176;</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 degree C"
+      },
+      {
+       "latex": "-1-4=-5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mn>4</mn><mo>=</mo><mo>-</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 minus 4 equals negative 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gC2bkGCbdbmQstMs",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ptxZCQ9KGzYccpb3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write one hundred and twenty thousand and twenty in figures.",
+     "solution_md": "> *There are **one **hundred thousands, **two **ten thousands, **zero **thousands, **zero **hundreds, **two **tens and **zero **ones.*\n\n> * *\n\n![oct-nov-2020-0580-31-q5a](assets/002-oct-nov-2020-0580-31-q5a.gif)\n\n$120020$* ***[1]*** *",
+     "equations": [
+      {
+       "latex": "120020",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">120</mn><mpadded lspace=\"-1px\"><mo mathvariant=\"bold\">&#160;</mo><mpadded lspace=\"-2px\"><mn mathvariant=\"bold\">020</mn></mpadded></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 120 bold space bold 020"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_33PyqwY3KFtP3358",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_TkqmBgZX2nYNGVKM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/31",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_wzjNKKVCG9vHybyb"
+     ],
+     "part_tier": null,
+     "problem_md": "The average temperature at the North Pole is -23°C in January and -11 °C in March.\n\ni) Find the difference between these temperatures.\n\n............................................ °C\n\nii) The average temperature in July is 28°C higher than the average temperature in March.\n\nFind the average temperature in July.\n\n............................................ °C [1]",
+     "solution_md": "(i) *Difference in temperature = highest temperature (*$-11^{\\circ}C$*) *$-$* lowest temperature (*$-23^{\\circ}C$*).*\n\n> * *\n\n> `open parentheses negative 11 close parentheses minus open parentheses negative 23 close parentheses equals 12`* *\n\n$12^{\\circ}C$* ***[1]**\n\n(ii) *Add *$28^{\\circ}C$* to the average temperature in March (*$-11^{\\circ}C$*).*\n\n> * *\n\n> $-11+28=17$* *\n\n$17^{\\circ}C$* ***[1]**",
+     "equations": [
+      {
+       "latex": "-11^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>11</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 11 degree straight C"
+      },
+      {
+       "latex": "-",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>-</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "minus"
+      },
+      {
+       "latex": "-23^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>23</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 23 degree straight C"
+      },
+      {
+       "latex": "12^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">12</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 12 bold degree bold C"
+      },
+      {
+       "latex": "28^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>28</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "28 degree straight C"
+      },
+      {
+       "latex": "-11^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>11</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 11 degree straight C"
+      },
+      {
+       "latex": "-11+28=17",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>11</mn><mo>+</mo><mn>28</mn><mo>=</mo><mn>17</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 11 plus 28 equals 17"
+      },
+      {
+       "latex": "17^{\\circ}C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">17</mn><mo mathvariant=\"bold\">&#176;</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 17 bold degree bold C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_p44TrMyRX7Zs2MQp",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w3Js9JfvcNRDd73s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/11",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the value of the 7 in the number 570296.",
+     "solution_md": "> *The 7 is in the** ten thousands **column.*\n\n> * *$7\\times10000=70000$* *\n\n**70 000**** ****[1]**",
+     "equations": [
+      {
+       "latex": "7\\times10000=70000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#215;</mo><mn>10</mn><mo>&#160;</mo><mn>000</mn><mo>=</mo><mn>70</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 cross times 10 space 000 equals 70 space 000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NM6B39yMZqZ569dx",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vDb9d7tC8WWVRKcm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0580/01",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write seventeen thousand and seventeen in figures.",
+     "solution_md": "> *Remember to use a place holder 0 in the hundred column*\n\n**17 017**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JQ8DK3NYJd7kbQBv",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8FqwdmD4MWJ2Hybv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write in figures the number fifty‐three thousand and thirty‐five.",
+     "solution_md": "> *Fifty-three thousand means a **5** in the ten thousands column and a **3** in the thousands column. There are **0** hundreds.*\n\n> *Thirty-five means a **3** in the tens column and a **5** in the ones.*\n\n> * *\n\n**53 035** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_J4yDQj85bm4WBgbt",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7g9h9vcpG9PvHRGr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 15 060 in words.",
+     "solution_md": "> *Considering the place value columns, we have*\n\n*1 ten thousand*\n\n*5 thousands*\n\n*0 hundreds*\n\n*6 tens*\n\n*0 ones*\n\n> *Writing this in words, we have*\n\n**Fifteen thousand and sixty ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gt3VwQ4B9Zfw7xGZ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pwr36NgTP7k9TcHR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XTYY5cY92F9Dw7Rv"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the number that is 7 more than -38.",
+     "solution_md": "> *Add 7 on to -38.*\n\n> * *\n\n$-38+7=-31$\n\n> * *\n\n**-31**** ****[1]**",
+     "equations": [
+      {
+       "latex": "-38+7=-31",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>38</mn><mo>+</mo><mn>7</mn><mo>=</mo><mo>-</mo><mn>31</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 38 plus 7 equals negative 31"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GN4bm6KfgKQnR3jF",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ZTkxNQpvvysP9nxN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0580/32",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9",
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "The attendance at a football match is 11 678.\n\ni) Write 11 678 in words.\n\n[1]\n\nii) Write 11 678 correct to the nearest 100.\n\n[1]",
+     "solution_md": "i) *Group the digits into thousands and ones using the spacing as a guide*\n\n**Eleven thousand, six hundred and seventy-eight** **[1]**\n\n** **\n\nii) *The two place value columns we need to inspect are the hundreds and the tens*\n\n*Tens digit is 7*\n*Hundreds digit is 6*\n\n> *Any value that is 5 or above must round up to 10. Any value 4 or less rounds down to 0*\n\n*The tens digit is a 7 so round up to the next hundred*\n*678 rounds up to 700**  *\n\n> *The remaining digits in each place value column to the left of the hundreds column are not affected and so they remain unchanged and part of the solution*\n\n> * *\n\n**Final answer:** **11 700**** [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fjKy78FqQ7yJDGfZ",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_29rsWGQZSqZ3BDx5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/33",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9",
+      "spcpt_r5q5BK8C6NHJGV5f"
+     ],
+     "part_tier": null,
+     "problem_md": "A cruise ship travels 2067 km.\n\ni) Write 2067 in words.\n\n[1]\n\nii) Write 2067 correct to the nearest hundred.\n\n[1]",
+     "solution_md": "(i) *There is a **two **in the thousands column, a **six **in the tens column and a **seven **in the ones column. *\n\n**Two thousand and sixty seven** **[1]**\n\n(i) *Identify the digit to the **right **of the hundreds column.*\n\n$20\\underset{-}{6}7$\n\n> *As this digit is 5 or greater, we will round the hundreds digit from a 0 to a 1.*\n\n> *The tens and ones columns become 0.*\n\n$2100$* ***[1]**",
+     "equations": [
+      {
+       "latex": "20\\underset{-}{6}7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><munder><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">-</mo></munder><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 bold 6 with bold minus below 7"
+      },
+      {
+       "latex": "2100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">2100</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_f8BxVDjRzpKfgGbm",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_TGDbCQhG48jTrhpT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/13",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write six hundred and seven thousand and twenty-one in figures.",
+     "solution_md": "> *Six hundred and seven thousand means that there is a **6 **in the hundred thousands column and a **7 **in the thousands column. Twenty-one means there is a **2** in the tens column and a **1 **in the ones column.*\n\n> *There are **0 **ten thousands and **0 **hundreds.*\n\n> * *\n\n![paper-1-q1](assets/003-paper-1-q1.gif)\n\n**607 021**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dbxgpPy3bNCfHX6k",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZgnfJ5pPs3Kzw54S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/12",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 30682 in words.",
+     "solution_md": "> *Write the number of thousands followed by the number of ones*\n\n**Thirty thousand, six hundred and eighty-two**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bKFjKpjFZpKgPm6H",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2B6CS5nTHnrtQsgy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/13",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write the number forty thousand three hundred in figures.",
+     "solution_md": "> *Use a place value table and put the three in the hundreds column, and the four in the ten thousands column. The other columns should have a zero as a place holder.*\n\n| Ten thousands | Thousands | Hundreds | Tens | Ones |\n|---|---|---|---|---|\n| *4* | *0* | *3* | *0* | *0* |\n\n**40 300**** ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_37d235QNKh7xRSdZ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_j6hkbJMqdGgBDz7X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/32",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xw9z6fM2cqDvqCt9"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 60 025 in words.",
+     "solution_md": "> *There **six **ten thousands, **zero **thousands, **zero **hundreds, **two **tens and **five **ones.*\n\n> * *\n\n![oct-nov-2020-0580-32-q6a](assets/004-oct-nov-2020-0580-32-q6a.gif)\n\n> * *\n\n> *Six ten thousands is **sixty thousand**. Two tens and five ones is **twenty five**.*\n\n**sixty thousand and twenty five** **[1]**"
+    }
+   ]
+  }
+ ]
+}

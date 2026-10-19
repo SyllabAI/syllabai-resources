@@ -1,0 +1,563 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:56:06Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "11-spreadsheets",
+  "name": "11. Spreadsheets"
+ },
+ "topic": {
+  "id": "top_fqRYQHTV8X6PbKdP",
+  "slug": "create-a-data-model",
+  "name": "Create a Data Model",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "formulae-and-functions",
+   "name": "Formulae & Functions",
+   "revision_note_id": "rn_7RDMpysNd4k7B8Bb"
+  },
+  {
+   "slug": "order-of-operations",
+   "name": "Order of Operations",
+   "revision_note_id": "rn_GFFgBfqbR5vNVq9s"
+  },
+  {
+   "slug": "cell-referencing",
+   "name": "Cell Referencing",
+   "revision_note_id": "rn_DqjzY9PXhjjJQ8Km"
+  },
+  {
+   "slug": "present-data",
+   "name": "Present Data",
+   "revision_note_id": "rn_TJykWrrXm9JmYzG9"
+  },
+  {
+   "slug": "create-and-edit-a-spreadsheet",
+   "name": "Create & Edit a Spreadsheet",
+   "revision_note_id": "rn_M8pdcjpm6hVMsXhG"
+  },
+  {
+   "slug": "search-and-select-data",
+   "name": "Search & Select Data",
+   "revision_note_id": "rn_7xNnF9sHhqz9k7YW"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_SWCNmpRkd6nM8YZ9",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/11-spreadsheets/create-a-data-model/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/03/55881_2025-03-18-0j8-kleki.png": "001-spreadsheet-showing-student-lateness-data-per-ha.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/32915_airport-spreadsheet.png": "002-spreadsheet-with-airport-codes-and-names-from-va.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/15696_student-shop-spreadsheet.png": "003-spreadsheet-titled-tawara-school-shop-showing-it.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/16045_blood-pressure-spreadsheet.png": "004-spreadsheet-showing-blood-pressure-readings-from.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/22229_blood-reading-spreadsheets.png": "005-spreadsheet-with-blood-pressure-readings-from-10.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/12745_world-game-medals-sheet.png": "006-table-showing-world-games-medals-by-country-ital.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/59125_staff-spreadsheet.png": "007-spreadsheet-showing-room-assignments-by-departme.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/8162_spreadsheet-related-to-airport.png": "008-spreadsheet-showing-airport-codes-names-and-coun.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/8578_student-shop-spreadsheet.png": "009-spreadsheet-showing-tawara-school-shop-items-tie.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_8xgxFTX4zYWgc3Tj",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2xcK9NWJtC6Y4f8s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/11",
+      "question_number": 10,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb",
+      "spcpt_mXDvNxwqJhTR78p4"
+     ],
+     "part_tier": null,
+     "problem_md": "A teacher in the school has created a spreadsheet to display whether a student has good timekeeping when arriving at lessons. He has produced a formula but thinks it could be improved. The formula is:\n\n=IF(B4>=A\\$18,B\\$18,IF(B4>=A\\$17,B\\$17,IF(B4>=A\\$16,B\\$16,IF(B4>=A\\$15,B\\$15,IF(B4>=A\\$14,B\\$14,\"\")))))\n\n![Spreadsheet showing student lateness data per half term and a formula for assessing lateness rating with a legend for ratings from \"Excellent\" to \"Very Poor\".](assets/001-spreadsheet-showing-student-lateness-data-per-ha.png)\n\nThe teacher has improved the formula and has typed in =VLOOKUP(B4,A\\$14:B\\$18,2)\n\n**Explain **the advantages of using this formula compared to the original one.",
+     "solution_md": "Advantages of using this formula compared to the original one include:\n\nAny **four **of the following:\n\n- Quicker to type in the formula **[1 mark]**\n- Fewer mistakes when typing in the formula **[1 mark]**\n- Easier to spot mistakes **[1 mark]**\n- Easier to expand the range **[1 mark]**\n- Takes up less storage space **[1 mark]**\n- Easier to remember when retyping **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_f44HRZM4cTD7JFBR",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_grr9Xb4dNsKkYY44",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mXDvNxwqJhTR78p4"
+     ],
+     "part_tier": null,
+     "problem_md": "A teacher in the school has created a spreadsheet to display whether a student has good timekeeping when arriving at lessons. He has produced a formula but thinks it could be improved. The formula is:\n\n=IF(B4>=A\\$18,B\\$18,IF(B4>=A\\$17,B\\$17,IF(B4>=A\\$16,B\\$16,IF(B4>=A\\$15,B\\$15,IF(B4>=A\\$14,B\\$14,\"\")))))\n\n![Spreadsheet showing student lateness data per half term and a formula for assessing lateness rating with a legend for ratings from \"Excellent\" to \"Very Poor\".](assets/001-spreadsheet-showing-student-lateness-data-per-ha.png)\n\n**Write **down the value that should appear in cell C4.",
+     "solution_md": "The value that should appear in cell C4 is:\n\n- Poor **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kYsKpyX5Z7QJQZbB",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_rFrH57dGHX426YjF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/12",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mXDvNxwqJhTR78p4",
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is creating a spreadsheet of airports for a project.\n\n![Spreadsheet with airport codes and names from various countries, including LHR for London Heathrow, MIL for Milan, and others from Italy, France, and Sweden.](assets/002-spreadsheet-with-airport-codes-and-names-from-va.png)\n\n**Explain**, using examples, the differences between a function and a formula.",
+     "solution_md": "The difference between a function and a formula are:\n\nMax **two **of the following:\n\n**Formula **\n\n- A formula is a statement written by the user **[1 mark]**\n- A formula is an equation **[1 mark]**\n- A formula can contain values/references to cells/defined names **[1 mark]**\n- A formula can contain functions **[1 mark]**\n\n**One **mark for a valid example:\n\n- =A1+B1, =SUM(A2:B2) **[1 mark]**\n\nMax **two **of the following:\n\n**Function **\n\n- A function is a named piece of code designed to calculate specific values **[1 mark]**\n- Functions are used inside formulas **[1 mark]**\n- A function is a built in/predefined operation **[1 mark]**\n\n**One** mark for a valid example\n\n- =SUM/AVERAGE etc **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GSYCf9JGWb6RMkRr",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_KdVRv3N76GP5Vdgn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/12",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "Petr has set up a database for a science project on planets in the solar system. Part of the database is shown.\n\n| `ID` | `Name_of_planet` | `Number_of_moons` | `Orbital_period` | `Rings` | `Gravity` | `Type_of_planet` | `First_observed` |\n|---|---|---|---|---|---|---|---|\n| 4 | Mars | 2 | 1.88 | N | 0.38 | Regular | 1610 |\n| 5 | Ceres | 0 | 4.61 | N | 0.27 | Dwarf | 1801 |\n| 7 | Saturn | 62 | 29 | Y | 1.16 | Gas Giant | 1610 |\n| 9 | Neptune | 14 | 165 | Y | 1.21 | Gas Giant | 1846 |\n| 10 | Pluto | 5 | 248 | N | 0.62 | Dwarf | 1930 |\n| 11 | Haumea | 1 | 309 | N | 0.401 | Dwarf | 2004 |\n\nPetr has copied the data from the Orbital_period field into a spreadsheet. The data for the orbital period for Mars, 1.88, is stored in cell A2. In cell B2 he has entered a function of:\n\nROUND(A2,0)\n\n**Explain **in detail the function used in cell B2.",
+     "solution_md": "The function used in cell B2 would:\n\n- It would take the value of A2 **[1 mark]**\n- Changes the value into an integer/zero decimal places **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3WFHPpNQq32BQF4q",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_B9hBpRVZwNJVCKz3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/11",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mXDvNxwqJhTR78p4"
+     ],
+     "part_tier": null,
+     "problem_md": "Tawara school has a shop that sells items needed by pupils in school. Part of a spreadsheet with details of the items is shown.\n\n![Spreadsheet titled \"Tawara School Shop\" showing items, cost, selling price, profit, tax, amount sold, total profit per item, and total tax per item.](assets/003-spreadsheet-titled-tawara-school-shop-showing-it.png)\n\nTax is paid on certain items sold in the shop. The tax rate that has to be paid is 20% of the selling price. If tax is to be paid on an item, then ‘Y’ is placed underneath the Tax heading.\n\nThe formula in I4 is: IF(F4=''Y'',(\\$I\\$1*D4*G4),'''')\n\n**Explain**, in detail, what the formula does.",
+     "solution_md": "The formula is responsible for:\n\nAny **five **of the following:\n\n- If Tax is payable then//If F4 is equal to \"Y\" then **[1 mark]**\n- If true the tax is paid **[1 mark]**\n- Multiply the rate of tax/I1 … **[1 mark]**\n- … by the selling price/D4 **[1 mark]**\n- … by the amount sold/G4 **[1 mark]**\n- If Tax is not payable//If F4 <>\"Y\"//Else//Otherwise … **[1 mark]**\n- … then display a blank **[1 mark]**\n- … the tax is not paid **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nJPkDbVMjq3v2c8b",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_pgP8K6MZHyWMFZwJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_6dFsRMw3XbXTz3yh"
+     ],
+     "part_tier": null,
+     "problem_md": "A doctor measures the blood pressure of some of his patients regularly. The patients take home a blood pressure machine and record their results on a spreadsheet which the doctor has created. Part of the spreadsheet is shown.\n\n![Spreadsheet showing blood pressure readings from 10-16 Feb, with systolic, diastolic values, and warnings. Another section lists warning levels for reference.](assets/004-spreadsheet-showing-blood-pressure-readings-from.png)\n\nWhen a reading produces a Severe or Low warning then the text automatically changes to a red font on a light red background.\n\n**Explain **how the doctor could set up automatic colour change for these warnings on the spreadsheet.",
+     "solution_md": "The doctor could set up automatic colour changes by:\n\nAny **five **of the following:\n\n- Highlight Column D **[1 mark]**\n- Select Conditional Formatting **[1 mark]**\n- Select Highlight Cell Rules **[1 mark]**\n- Select Equal to Type in the Equal to box…**[1 mark]**\n- Severe/Low Click on Format Select/Set the red font on light red background **[1 mark]**\n- Repeat the process for Low/Severe **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_F8BtRmQ4j9nQcym2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 12,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZhZW4NsfZb9MTX2v"
+     ],
+     "part_tier": null,
+     "problem_md": "The doctor has set up a named range called Bloodpressure for the cells F3 to H7.\n\n**Explain **why the doctor has used a named range.",
+     "solution_md": "The doctor has used a named range due to:\n\nAny **three **of the following:\n\n- Removes the confusion over absolute and relative referencing **[1 mark]**\n- Reduces the issues involved in changing the range **[1 mark]**\n- Easier to understand the formula **[1 mark]**\n- Easier to check for errors in the formula **[1 mark]**\n- Easier to enter the formula **OR **Less errors in entering the formula **[1 mark]**\n- Faster to write the name than to select the range **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_g3rqBGVyZwNNMbPc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 12,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "The formula =VLOOKUP(B3,Bloodpressure,3) has been entered into cell D3.\n\n**Explain **what the formula does.",
+     "solution_md": "The formula is responsible for:\n\nAny **four **of the following:\n\n- Looks up the value of B3 **[1 mark]**\n- Looks in the named range Bloodpressure **[1 mark]**\n- Returns the corresponding value... **[1 mark]**\n- …from the 3rd column **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_zQ7nQFYBxSn6WVQv",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/13",
+      "question_number": 12,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_ZhZW4NsfZb9MTX2v"
+     ],
+     "part_tier": null,
+     "problem_md": "The doctor has created a graph of the readings for one patient and has displayed it on the spreadsheet. However, there are elements missing.\n\n![Spreadsheet with blood pressure readings from 10-16 Feb, showing systolic and diastolic values with warnings. Includes a line chart depicting the data trends.](assets/005-spreadsheet-with-blood-pressure-readings-from-10.png)\n\n**Explain **how the doctor created the graph.\n\nWrite in your answer one improvement that could be made to the graph.",
+     "solution_md": "The doctor created the graph by:\n\nMax **two **of the following:\n\n- Highlight A2 to C9 **[1 mark]**\n- Click Insert **[1 mark]**\n- Select table…Click Chart **[1 mark]**\n- Select 2D line chart/select type of graph **[1 mark]**\n\nAny **one **of the following improvements:\n\n- Add a chart title **[1 mark]**\n- Add axis title Remove 09-Feb/17-Feb as not needed **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YkJxY969Y4Mpxfmg",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_NfGfhhgWrS3nbZ26",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TwH5tzBr6bMxgkzX",
+      "spcpt_ZhZW4NsfZb9MTX2v"
+     ],
+     "part_tier": null,
+     "problem_md": "You are creating a presentation on the World Games. You have created a spreadsheet showing the number of gold, silver and bronze medals awarded to different countries.\n\nYou are planning to create a graph in the presentation showing the country, the number of gold medals and the total number of medals.\n\n![Table showing World Games Medals by country. Italy leads with 440 total medals, followed by the US with 382, Germany 386, and Russia 319.](assets/006-table-showing-world-games-medals-by-country-ital.png)\n\n**Explain **how you would create a vertical bar chart, showing the name of the country, the number of gold medals and the total number of medals awarded to each country, on a new slide in the presentation.",
+     "solution_md": "To create the bar chart you would need to:\n\nMax **four **of the following:\n\n- Open spreadsheet **[1 mark]**\n- Load the file **[1 mark]**\n- Select B3 to C13 **[1 mark]**\n- Then hold CTRL and select F3 to F13 **[1 mark]**\n- Click insert then click bar chart/graph **[1 mark]**\n- Select the format/type of chart/graph **[1 mark]**\n- Highlight the chart/graph **[1 mark]**\n- Copy the bar chart/graph **[1 mark]**\n\n**AND**\n\nMax **four **of the following:\n\n- Open the presentation software **[1 mark]**\n- Add a new slide **[1 mark]**\n- Click on new slide **[1 mark]**\n- Paste the bar chart/graph **[1 mark]**\n- Add titles/legend/axes labels **[1 mark]**\n- Save the file **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_wnY4Z4Fn3tCtmpMF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 21",
+      "number": "0417/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mXDvNxwqJhTR78p4"
+     ],
+     "part_tier": null,
+     "problem_md": "The total number of medals has been calculated manually and entered as a value. This could lead to errors.\n\n**Explain **how you could create a formula to calculate the total number of medals awarded for Italy, using only the mouse.",
+     "solution_md": "You could create a formula to calculate the total number of medals by:\n\nAny **four **of the following:\n\n- Click on the cell F4 **[1 mark]**\n- Select formulas **[1 mark]**\n- Click Autosum/Σ **[1 mark]**\n- Check the correct range has been highlighted/highlight/drag C4 to E4 **[1 mark]**\n- Click ✓ **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_mN8V9G2Fc8bSfxxd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j3qbn54SDBDZvwrd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **how the data could be sorted by the total number of medals won by each country. The country with the largest number of medals should be at the top of the list.",
+     "solution_md": "You could sort the data by:\n\nAny **four **of the following:\n\n- Highlight B3 to F13 **[1 mark]**\n- Click Data then Sort **[1 mark]**\n- Select data has headers **[1 mark]**\n- Sort by Total/Column F **[1 mark]**\n- Select Largest to smallest/Descending/Z to A **[1 mark]**\n- Click OK/enter **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fVxgRTm2zBNXpdmy",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_PbvHP4vcd7PckMN8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/11",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain** the differences between a VLOOKUP function and a LOOKUP function.",
+     "solution_md": "Differences between a VLOOKUP function and a LOOKUP function include:\n\nAny **three **of the following:\n\n- LOOKUP allows for horizontal and vertical searching whereas VLOOKUP allows for vertical searching **[1 mark]**\n- LOOKUP does not require an index value/only works on the second row/column whereas VLOOKUP requires an index value **[1 mark]**\n- LOOKUP usually only works when the data is sorted VLOOKUP only returns data to the right of the searched column **[1 mark]**\n- VLOOKUP user can select either an approximate or exact match to the lookup value **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_4fXqXcKKhYhYypQS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/11",
+      "question_number": 10,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "A spreadsheet contains a list of staff and the rooms they work in at a school.\n\n![Spreadsheet showing room assignments by department and name, with a VLOOKUP formula. Departments include Languages, History, Chemistry, and more.](assets/007-spreadsheet-showing-room-assignments-by-departme.png)\n\n**Explain**, in detail, what the formula in cell E2 does.",
+     "solution_md": "The formula in cell E2 is responsible for:\n\nAny **three **of the following:\n\n- The formula looks up the value in D2… **[1 mark]**\n- …In the (range) A2 to A7 **[1 mark]**\n- And returns the <u>corresponding </u>value **[1 mark]**\n- In the 3rd column/Column C **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_gg5py3pTP7M54fVw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "0417/11",
+      "question_number": 10,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_qkmwy23c23Vpvqkb"
+     ],
+     "part_tier": null,
+     "problem_md": "When certain room numbers are typed into cell D2 unexpected results appear in cell E2.\n\n**Suggest **improvements that could be made to ensure the correct result is displayed.",
+     "solution_md": "Improvements that could be made to ensure the correct result is displayed are:\n\n- Add FALSE/0 to the end of the formula **[1 mark]**\n- Sort the range into ascending order of column A **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rZ3bMT8Jnms2b2HM",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_pK5kf3dScsPDnwdF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/12",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mXDvNxwqJhTR78p4"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is creating a spreadsheet of airports for a project.\n\n![Spreadsheet showing airport codes, names, and countries. Includes London Heathrow (UK), Rome (Italy), Paris (France), Milan (Italy), and others.](assets/008-spreadsheet-showing-airport-codes-names-and-coun.png)\n\nThe formula in G2 is:\n\n=VLOOKUP(F2,A2:B9,2,0)\n\n**Explain**, in detail, what the formula in G2 does",
+     "solution_md": "The formula =VLOOKUP(F2,A2:B9,2,0) is used to:\n\nAny **four **of the following:\n\n- Looks up F2/Airport name **[1 mark]**\n- Looks up in the range A2:B9/Code and Name **[1 mark]**\n- Finds the corresponding value from the 2nd column **[1 mark]**\n- Displays the value in G2 Finds exact match **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jQVZbmKYxP5J9Vq4",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2YdFxTVxPGdKgk6j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/11",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ZhZW4NsfZb9MTX2v"
+     ],
+     "part_tier": null,
+     "problem_md": "Tawara school has a shop that sells items needed by pupils in school. Part of a spreadsheet with details of the items is shown.\n\n![Spreadsheet showing Tawara School Shop items: ties, scarves, blazers, pens. Includes cost, selling price, profit, tax status, amount sold, and total profit.](assets/009-spreadsheet-showing-tawara-school-shop-items-tie.png)\n\n**Write **down the number of rows that are shown in the spreadsheet that contain text.",
+     "solution_md": "The number of rows that are shown in the spreadsheet that contain text is:\n\n- 6 rows **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_bX55FgfPT8Fbtx3K",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/11",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZhZW4NsfZb9MTX2v"
+     ],
+     "part_tier": null,
+     "problem_md": "**Write **down the number of columns that are shown in the spreadsheet that contain text",
+     "solution_md": "The number of columns that are shown in the spreadsheet are:\n\n- 8 columns **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_w4QThsCPMyznFZXf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0417/11",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_6dFsRMw3XbXTz3yh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **the steps that need to be taken to display cell H4 as US dollars.",
+     "solution_md": "The steps that need to be taken to display the cell H4 as US dollars are:\n\nAny **two **of the following:\n\n- Highlight/select cell H4 **[1 mark]**\n- Select format cells **[1 mark]**\n- Select currency/accounting **[1 mark]**\n- Select dollar/USD icon **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

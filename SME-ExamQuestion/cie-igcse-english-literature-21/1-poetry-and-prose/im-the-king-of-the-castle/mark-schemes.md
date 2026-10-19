@@ -1,0 +1,145 @@
+# Mark Schemes — I'm the King of the Castle
+**1. Poetry & Prose** · Cambridge (CIE) IGCSE english-literature (0475 & 0992)
+
+
+## Exam Questions (5 questions)
+
+
+### Q1
+## Model answer
+
+In I'm the King of the Castle, Hill portrays the adults as selfish and neglectful. They are too wrapped up in their own lives to see the cruelty that is destroying Charles Kingshaw, and this failure makes the tragedy possible.
+
+From the start, Hill presents Mr Joseph Hooper as emotionally hollow. Her omniscient narration lets us inside his mind, where he admits he is "an ineffectual man" and "a dull man". This honesty makes his failure worse, because he knows his own weakness yet does nothing to change it. He cares more about the status that the gloomy house Warings gives him than about his son, and he is too self-absorbed to notice Edmund's growing viciousness. By showing a father who understands himself but still cannot act, Hill suggests that the adults' neglect is not innocent ignorance but a kind of laziness, and the reader feels a quiet anger at how easily he gives up on really knowing his child.
+
+Mrs Helena Kingshaw is just as selfish, but in a more cheerful, deluded way. Hill shows her treating Warings as her chance of security and a new marriage, and she throws herself into pleasing Mr Hooper, "excited as a girl". She is even glad to send Charles off with Edmund, crying "So you are both going on a tour of the estate!", because the boys' supposed friendship leaves her free to court Mr Hooper. Her gushing optimism, "How nice to see them enjoying themselves!", reveals a woman performing happiness rather than checking whether it is real. Hill's free indirect style sets her cheerful phrases next to the reader's knowledge of Kingshaw's misery, so her words feel hollow and even cruel, and we sense that Charles is, to her, an obstacle to be managed rather than a son to be protected.
+
+The adults' greatest failure is their shared, deliberate blindness. Hill drives this home through sustained dramatic irony. The two parents constantly misread the boys: Mr Hooper announces it is nice to see them "shaking down together", and they comfort themselves that the boys are "very good friends". Because Hill has already shown us the bullying, the threatening notes and the Red Room full of dead moths, these complacent phrases land as bitter irony. The adults believe what is convenient because seeing the truth would threaten their plans, and Mr Hooper even thanks Mrs Kingshaw for taking "a load off my shoulders". Hill suggests that their neglect is partly deliberate: they need the boys to be friends, so they simply decide that they are.
+
+Finally, Hill makes the cost of this failure clear. The adults never once register Kingshaw's terror, even when he runs away or is driven to despair, and their blindness continues past his death. When Kingshaw drowns himself in the stream, it is the boy Edmund who feels "a spurt of triumph", and the adults grasp nothing at all, never realising that their neglect helped to kill him. By ending on the adults' total failure to understand, Hill leaves us with the sense that cruelty in the novel flourishes not only because of Edmund's deliberate evil, but because the adults who should have protected Kingshaw were always looking the other way.
+
+In conclusion, Hill shows the adults failing in three ways. Mr Hooper is too weak to act, Mrs Kingshaw is too selfish to notice, and both refuse to see the truth in front of them. Their failure is one of attention and love, and Hill makes the reader feel that this ordinary, everyday neglect is just as responsible for the tragedy as Edmund's cruelty.
+
+> **[mark-scheme]**
+> This is a 25-mark question. This answer would be placed in the top band (Level 8) because it shows a perceptive, well-supported and sustained personal response to how Hill presents the failures of the adults.
+> 
+> **Commentary**
+> 
+> The response is tightly focused on the question, building a clear argument that the adults fail through self-absorption and willful blindness rather than simple ignorance. It ranges confidently across the whole novel, from Mr Hooper's opening self-assessment to the boy Edmund's final "spurt of triumph", and supports each point with well-selected, embedded quotations (AO1).
+> 
+> It shows critical understanding of Hill's methods and meanings (AO2 and AO3): the omniscient narration and free indirect style are analysed for how they expose the adults' inner emptiness, and the sustained dramatic irony shows how their complacent phrases become an indictment. The personal response (AO4) is genuine and evaluative throughout, judging the adults' neglect as a real cause of the tragedy.
+
+> **[exam-tip]**
+> - Keep returning to the word "failures" — show how each adult fails, not just that they are unpleasant.
+> - Cover both Mr Hooper and Mrs Kingshaw; an answer on only one parent limits your range.
+> - Use the gap between what the adults say and what we know is happening to discuss dramatic irony.
+> - Embed short quotations like "shaking down together" rather than copying out long passages.
+> - Remember AO4: make clear personal judgements about how responsible the adults are.
+> - Link the adults' neglect to the novel's ending to show why their failure matters.
+
+### Q2
+## Model answer
+
+In I’m the King of the Castle, Susan Hill creates a particularly disturbing impression of childhood by presenting it as a brutal, Darwinian struggle for territorial dominance rather than a period of innocence. Through the relentless psychological warfare between Edmund Hooper and Charles Kingshaw, Hill explores how a "loveless" environment can breed a sophisticated "power of evil" in children. By utilising Gothic motifs and the crushing isolation of her protagonists, Hill suggests that the cruelty children inflict upon one another is often more systematic and permanent than any adult intervention.
+
+The most disturbing impression is conveyed through the characterisation of Hooper as a juvenile ghoul whose malice is clinical and premeditated. From the moment Kingshaw arrives at Warings, Hooper establishes a reign of terror through written threats, such as the note reading "I DIDN’T WANT YOU TO COME HERE". Hill presents Hooper’s mind as "cunning" and "inventive" in its ability to identify and exploit Kingshaw’s specific phobias. The incident with the "stuffed and dead" crow is strikingly disturbing because it demonstrates Hooper’s willingness to use the "paraphernalia of death" as a tool for psychological torture. By forcing Kingshaw to wake up to a "terrible bird" pressing down on his thigh, Hill portrays childhood as a state of constant, breathless vulnerability.
+
+Hill further creates a disturbing atmosphere by using settings like the Red Room to symbolise the "solidity and the gloom" of a childhood devoid of affection. The description of the moths as "flattened and pinned and dead" serves as a visceral metaphor for Kingshaw’s own entrapment. The physical impact of this environment is vividly conveyed when Kingshaw is "violently sick" after being locked in the Red Room, showing how childhood fear manifests as a bodily rejection of his surroundings. Nature provides no sanctuary; even in Hang Wood, the disturbing image of a dead rabbit with a "mealy wound" full of "grubs" reinforces the idea that the "power of evil" permeates the entire world of the child.
+
+The most profound sense of unease arises from the disturbing blindness of the adults, who facilitate the children's suffering through their own selfish and insensitive needs. Mrs Kingshaw and Mr Hooper frequently misinterpret the boys’ interactions as "shaking down together" or "becoming very good friends," when the reality is a predatory hierarchy. This adult complicity is strikingly presented when Mr Hooper strikes Kingshaw for defending his own property, an act of "unfairness" that leaves Kingshaw feeling that the adults "don’t want anything to do with me here". By ending the novel with Hooper’s "spurt of triumph" at Kingshaw’s suicide, Hill provides a final, chilling impression that in this version of childhood, the tormentor is not only unpunished but victorious.
+
+In conclusion, Hill creates disturbing impressions of childhood by stripping away the veneer of play to reveal a "bitter misery". Through the use of visceral imagery and the depiction of a loveless household, she shows that when children are left to govern their own "castles," the result is often a tragic and "inevitable" destruction of the spirit.
+
+> **[mark-scheme]**
+> This is a 25-mark question. This answer would be placed in the top band (Level 8) because it shows a perceptive and well-supported understanding of how Hill uses Gothic elements and character psychology to create a disturbing narrative.
+> 
+> **Commentary**
+> 
+> The essay demonstrates a sophisticated understanding of Hill’s authorial purpose, specifically the exploration of evil in a loveless environment. The response explores the crow and moth motifs in detail, showing deep engagement with how Hill uses sensory details to convey Kingshaw’s terror. The link between adult blindness and the children’s escalating conflict is analysed with insight and individuality.
+
+> **[exam-tip]**
+> - Use the word **“construct”** to discuss how **Hooper** and **Kingshaw** represent the **archetypes** of “victim” and “tormentor”
+> - Analyse how Hill uses the Red Room as a **Gothic space** that mirrors the **psychological entrapment** of the **protagonists**
+> - Discuss the significance of the **Afterword** to explain **Hill’s belief** that **childhood** can be a time of “appalling damage”
+> - Highlight how the “spurt of triumph” in the **final sentence** **subverts** the reader’s expectation of a **moral resolution**
+> - Explore how the **sensory language** (smells of “pig muck” or “dead moths”) contributes to the **“disturbing” impressions** mentioned in the **task prompt**
+
+### Q3
+## Model answer
+
+In I'm the King of the Castle, Susan Hill vividly conveys the impact of the Red Room and Hang Wood on Kingshaw by transforming these settings into psychological landscapes that mirror his internal state of terror and temporary hope. Through visceral sensory details and the shifting power dynamics between Kingshaw and Hooper, Hill presents the Red Room as a site of absolute entrapment, and Hang Wood as a deceptive sanctuary that ultimately confirms Kingshaw's isolation.
+
+The Red Room is presented as a museum-like space defined by a "dead smell" and the "solidity and the gloom" of the Hooper legacy. Hill uses the setting to exploit Kingshaw’s specific phobia of "whirring, pattering wings," making the impact of the "flattened and pinned and dead" moths strikingly personal. The vivid description of the "thin veins along their wings" and eyes that "stuck out" creates a sense of macabre scrutiny that paralyses Kingshaw. When Hooper locks him inside, Hill uses the Gothic motif of the "bolted" windows and the "driving" rain to heighten Kingshaw's physical and mental distress. The impact is so profound that, upon his release, he is "violently sick," a visceral reaction that demonstrates how the Red Room has become a physical manifestation of Hooper's psychological cruelty.
+
+In contrast, Hill initially presents Hang Wood as an "innocent" and "completely hidden" world where Kingshaw feels a sense of agency. The "coppery green" light and the sight of a rabbit washing itself suggest a natural harmony that stands in opposition to the "ugly" and "tall" house of Warings. For a brief moment, Hill suggests that the wood provides a "new world" where Kingshaw can be "master" and "conqueror". The impact of this setting is most vividly seen during the thunderstorm, where the roles are reversed; while Hooper is "whimpering" and "rocking himself" in a panic of terror, Kingshaw becomes "matter-of-fact" and "resourceful". Here, the wood acts as a crucible that reveals Kingshaw’s innate strength when stripped of the social hierarchies of the house.
+
+However, Hill quickly undermines this sanctuary by depicting the wood as a "dark, damp tunnel" that smells "sweetish and rotten". The impact of the dead rabbit, with its "mealy wound" full of "grubs," serves as a striking symbol of how the "power of evil" permeates even the natural world. Despite Kingshaw’s competence during the storm, he realizes that his power is "temporary" and that he is "stuck with Hooper". The wood does not offer escape but rather a different form of "isolation," as seen when Kingshaw's "exultation" at being "leader" is crushed by Hooper's immediate return to "treachery" once they are rescued.
+
+In conclusion, Hill vividly conveys the impact of these settings by showing how they both contribute to Kingshaw's "bitter misery". The Red Room breaks his spirit through fear, while Hang Wood breaks his spirit through the false promise of freedom. Ultimately, Hill uses these environments to show that for a "trapped, tormented boy," there is "no other way out" but the finality of the stream.
+
+> **[mark-scheme]**
+> This is a 25-mark question. This answer would be placed in the top band (Level 8) because it shows a perceptive, detailed and well-supported understanding of how Hill uses environment to reflect character psychology.
+> 
+> **Commentary**
+> 
+> The essay demonstrates a sophisticated understanding of Hill’s use of Gothic and naturalistic motifs, such as the “dead smell” of the Red Room and the “maggoty wound” of the rabbit. The response explores the shifting power dynamics between the boys in detail, showing deep engagement with how the setting influences their behaviour.
+
+> **[exam-tip]**
+> - Analyse how Hill’s** use of light**, such as the “steely grey”** **in the Red Room versus the “limey-yellow**” **in the wood, highlights **Kingshaw’s emotional state**
+> - Use the **Afterword** to discuss **Hill’s intention** to portray **evil** in a **loveless environment**
+> - Discuss how the “violently sick”** reaction** acts as a **structural link** between the Red Room and the circus
+> - Explore the **irony** that the wood, which **Kingshaw** hoped would be his **escape**, is where he is ultimately “found” and returned to **Hooper’s control**
+> - Highlight how Hill uses **sensory language**, particularly **smell**, to convey a sense of “decay” in the **Hooper household**
+
+### Q4
+## Model answer
+
+In I’m the King of the Castle, Susan Hill strikingly presents Edmund Hooper as a character for whom sympathy is elusive, yet perhaps clinically necessary. While Hill documents his escalating cruelty with unflinching detail, she simultaneously embeds his "evil" behaviour within a vacuum of affection. Through her portrayal of a motherless boy governed by an ineffectual father and a morbid obsession with territory, Hill suggests that Hooper is a product of a loveless environment, even if his actions remain utterly reprehensible.
+
+Initially, Hill invites a degree of pity by establishing Hooper’s profound isolation. Warings is described as a "graceless," "ugly," and "tall" house, where the father, Joseph Hooper, eventually comes to "admire the solidity and the gloom." In this setting, Hooper is raised by a "dull man" who acknowledges his own "ineffectual" nature. Hill portrays the father-son relationship as one of distance, where Joseph Hooper "shrinks" from the "knowingness" in the boy’s eyes. This lack of maternal warmth and parental guidance creates a "lonely" atmosphere where Hooper’s only legacy is a "dynastic sense" and a "collection of dead moths." Hill’s writing suggests that Hooper’s cruelty is a perverted attempt to find agency in a world where he is "little regarded."
+
+However, Hill makes it difficult to sustain this sympathy by vividly portraying Hooper’s instinctive malice. From the moment he meets Kingshaw, he employs psychological warfare, such as the note stating, "I DIDN’T WANT YOU TO COME HERE." Hill presents Hooper’s mind as "cunning" and "inventive," particularly when he uses Kingshaw’s fears against him, such as placing the "stuffed crow" on his bed. The writing here is visceral; by describing Hooper as he "watched and watched" Kingshaw’s distress from a window, Hill highlights a predatory nature that goes beyond mere childhood sibling rivalry. The lack of remorse after locking Kingshaw in the "Red Room" or the "shed" presents a child who finds "charm" and "excitement" in the suffering of others.
+
+The possibility of sympathy is most severely tested in the novel’s conclusion. When Kingshaw commits suicide, Hooper’s reaction is not one of grief or guilt, but "a spurt of triumph." Hill’s choice of the word "triumph" is chilling, as it confirms that Hooper views Kingshaw’s death as his ultimate territorial victory. Although Hill notes in her afterword that "Hooper is all that he is because of [a lack of love]," the "power of evil" she allows him to wield over Kingshaw is so absolute that any reader’s sympathy is likely to be eclipsed by horror.
+
+In conclusion, Hill’s writing provides the evidence required to understand Hooper’s pathology but rarely permits the reader to forgive it. By contrasting his "ashy white" face of fear during the thunderstorm with his gloating cruelty back at Warings, she presents a boy who is evil because he has been hollowed out by his environment. We may pity the child because "no one in the book is loved," but Hill’s presentation of the "juvenile ghoul" ensures that our final loyalty remains with his victim.
+
+> **[mark-scheme]**
+> This is a 25-mark question. This answer would be placed in the top band (Level 8) because it shows a perceptive, detailed and well-supported understanding of how Hill balances character psychology with moral judgement.
+> 
+> **Commentary**
+> 
+> The essay demonstrates a sophisticated understanding of Hill’s authorial intentions, particularly the idea that Hooper is a construct of his “loveless” environment. The response explores the contrast between the father’s “ineffectual” nature and the son’s “cunning” cruelty in detail, showing deep engagement with how Hill achieves her effects.
+
+> **[exam-tip]**
+> - Use the “Afterword” to discuss **Hill’s own reflections** on the “power of evil” in **children**
+> - Analyse the **setting of Warings** as a **metaphor** for the “gloom” and “solidity” of **Hooper’s internal life**
+> - Discuss how **Hooper’s **“triumph” at the end of the **novel** **subverts** the traditional expectations of **childhood innocence**
+> - Explore the “moth”** imagery** as a **symbol** of the “dead” and “dry” emotional state of the **Hooper family**
+> - Highlight how **Hill** uses the term “juvenile ghoul” to **direct** the reader’s **initial impressions** of **Hooper**
+
+### Q5
+## Model answer
+
+In this passage from Chapter 15, Susan Hill vividly conveys the profound unfairness of Charles Kingshaw’s situation by exploring his total loss of agency and the betrayal of his emotional needs by the adults in his life. Through the clinical atmosphere of the London shopping trip and the violent confrontation back at Warings, Hill presents Kingshaw as a victim of a system where he is treated as a commodity rather than a child. The unfairness is strikingly manifested in the erasure of his past identity and the physical punishment he receives for defending his only remaining possession.
+
+Hill initially conveys unfairness through the detached and impersonal way Mr Hooper treats Kingshaw during their trip to London. Mr Hooper recites the names of landmarks like “the Strand” and “the Mall” not to engage Kingshaw, but out of a “belief in the usefulness and fascination of such facts,” entirely ignoring Kingshaw’s own history of having lived in the city. This intellectual dismissal sets the stage for the deeper unfairness of the school outfitting. As Kingshaw is “measured and pushed in and out” of the black and gold uniform of Drummonds, he is treated as an object by Mr Hooper and the tailor, who talk about him “over the top of his head” as if he is not there. The verbs “measured” and “pushed in and out” present him as passive and compliant, reinforcing his lack of control. The most vivid image of unfairness occurs when Kingshaw looks into the ‘tall glass’ and sees himself transformed into a version of his tormentor, Edmund Hooper; with the mirror becoming a symbol of imposed identity. This moment signifies the death of his hope and the beginning of his total assimilation into a world that hates him.
+
+The theme of unfairness intensifies upon their return to Warings, where the concept of ownership is used to gaslight Kingshaw. When Kingshaw discovers Hooper has taken his silver cardboard fort, the unfairness is portrayed through the adults’ immediate side-taking. Despite the model being a product of Kingshaw’s own labour and the most important thing of all to him, Mr Hooper and Mrs Kingshaw view his justified anger as a social embarrassment. Hill uses the “look that passed between his mother and Mr Hooper” to convey an alliance that excludes Kingshaw. The lack of dialogue here is crucial: the unfairness lies in what is not said, making him feel that “they don’t want anything to do with me here”.
+
+The climax of this unfairness is the physical assault on Kingshaw by Mr Hooper. The act of Mr Hooper striking Kingshaw across the cheek is presented with a shocking lack of context or inquiry into the cause of the dispute. Hill highlights the unfairness through the “silence” that follows, where Mrs Kingshaw’s face is full of “relief and shock” rather than maternal protection, showing that she prioritises social harmony over this. By ending the scene with Kingshaw being sent to his room, Hill demonstrates the ultimate unfairness: Kingshaw has been abandoned by the one person who should have defended him.
+
+In conclusion, Hill vividly conveys unfairness by showing how Kingshaw is systematically stripped of his identity, his property, and his safety. Through the symbolic uniform and the unjust slap, she portrays a world where the power of the Hoopers, backed by his mother’s complicity, creates an inescapable cage for a boy who only wanted his own place.
+
+> **[mark-scheme]**
+> This is a 25-mark question. This answer would be placed in the top band (Level 8) because it shows a perceptive, detailed and well-supported understanding of how Hill uses narrative perspective to highlight Kingshaw’s isolation.
+> 
+> **Commentary**
+> 
+> The essay demonstrates a sophisticated understanding of Hill’s use of setting, particularly the contrast between the “soft grey carpets” of the store and the “dark, wood-panelled hall” of Warings to mirror Kingshaw’s entrapment. The response explores the symbolism of the uniform in detail, showing deep engagement with how Hill uses clothing to represent the erasure of the self.
+
+> **[exam-tip]**
+> - Analyse the “mirror” scene in the **tailor’s shop** to discuss Kingshaw’s **internalised sense of defeat**
+> - Use the **dialogue** between the boys regarding the fort to explore how the **Hoopers** use financial power to claim ownership of Kingshaw’s **internal life**
+> - Discuss the significance of the phrase “He did not look at her” to show the complete **breakdown** of the **mother-son relationship**
+> - Explore how Mr Hooper’s “bony fingers” and **clinical attitude** present him as a **predatory**, **bird-like** figure in Kingshaw’s mind

@@ -1,0 +1,122 @@
+# Mark Schemes — Number Toolkit
+**Number** · Cambridge (CIE) IGCSE maths (0580 & 0980)
+
+
+## Calculator Questions (10 questions)
+
+
+### Q1
+> *Multiply the hours worked by how much he is paid per hour*
+
+$26\times13.5=351$
+
+`£ 351`
+
+**[B1]**
+> *Each extra hour, he is paid*
+
+$13.5\times1.5=20.25$
+
+> *The total amount Jimmy is paid for the additional 10 hours*
+
+$20.25\times10=202.5$
+
+**[M1]**
+
+> *The total amount jimmy is paid *
+
+$351+202.5=553.5$
+
+`£ 553.50`
+
+**[A1]**
+
+> **[exam-tip]**
+> Before writing your final answer, re-read the question to check you have found the total it asks for and not just one part of it.
+> 
+> When a percentage is added on, decide whether you need the increase alone or the new amount, and check which quantity the increase applies to.
+
+### Q2
+$\sqrt{3}$** is an irrational number because it cannot be written as a fraction. ****[1]**
+
+### Q3
+> *Consider the place value of each part*
+
+*two hundred thousand = 200 000* *and seventeen = 17*
+
+> *two hundred thousand + seventeen = 200 000 + 17*
+
+**200 017** **[1]**
+
+### Q4
+> *"Integer values" are whole numbers "*$-2\leqx$*" means greater than **or equal to −2** and "*$x<2$*" means less than but **not inclusive of 2*
+
+**Final answer:** **−2, −1, 0, 1 **
+
+**only one error/ omission/ extra value**** [1]**
+**fully correct answer**** [1]**
+
+### Q5
+> *Using your calculator could help here.*
+
+$7-(5-1)+4=7$ **[1]**
+
+### Q6
+> *The answers must be multiples of all of the numbers given.*
+
+> *Consider the rules of the multiples of each value. *
+
+*All multiples of 5 end in either 0 or 5, so the answer must be either 0 or 5.  All multiples of 2 end in 0, 2, 4, 6, or 8 so it is not possible for the answer to be 5.*
+
+> *Therefore the answer must be 0.*
+
+**0**** [1]**
+
+### Q7
+> *A prime number is an integer that has no factors except itself and one*
+
+**23 ****or**** 29 ****[1]**
+
+**You only need to write one of these two numbers to get the mark**
+
+### Q8
+> *Think about the numbers in chunks, 15 000 and 60*
+
+**Fifteen thousand and sixty**** ****[1]**
+
+### Q9
+> *A prime number is only divisible by 1 and itself*
+
+**53** **[1]**
+
+**59 also correct**
+
+### Q10
+i)*A multiple of 3 is any number divisible by 3 (any number in the three times table).*
+
+**12** **[1]**
+
+ii)*The cube of a number is that number raised to the power of 3.*
+
+> *e.g.  The second cube number is *$2^{3}=2\times2\times2=8$*. You can easily work out cube numbers (if you've not remembered them).*
+
+`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 cubed end cell equals 1 row cell 2 cubed end cell equals 8 row cell 3 cubed end cell equals 27 end table`
+
+> *No number on the list is bigger than 27 so we can stop.*
+
+**8*** ***[1]**
+
+iii)*A prime number is an integer, greater than or equal to 2, that has only 2 distinct (different) factors. You need to memorise the first few prime numbers as there is no pattern to them.*
+
+*2    3    5    7    11    13    17    ...*
+
+**5** **[1]**
+
+iv) *An irrational number is a non-terminating, non-recurring decimal (its decimal places go on forever).*
+
+> *3.65, 5, 8 and 12 are rational numbers.*
+* *$\sqrt{196}=14$* which is a whole number so is rational (196 is a square number).*
+* *$\sqrt{7}=2.64575131...$*and so is irrational *
+*Write the answer how it appears in the question. *
+
+$\sqrt{7}$ **[1]**

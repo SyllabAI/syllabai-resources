@@ -1,0 +1,377 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:31:49Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "accounting",
+  "exam_code": "0452 & 0985",
+  "sme_course_id": "crs_C9w7QKF3dhnTWnNS",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE Accounting"
+ },
+ "section": {
+  "slug": "2-sources-and-recording-of-data",
+  "name": "2. Sources & Recording of Data"
+ },
+ "topic": {
+  "id": "top_Qky44hSDcY3By9Jd",
+  "slug": "books-of-prime-entry",
+  "name": "Books of Prime Entry",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "cash-books-and-the-general-journal",
+   "name": "Cash Books & The General Journal",
+   "revision_note_id": "rn_TVZvNxCxm8yhwKfk"
+  },
+  {
+   "slug": "introduction-to-books-of-prime-entry",
+   "name": "Introduction to Books of Prime Entry",
+   "revision_note_id": "rn_Qwztsn3xWvYYBTzw"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_cxBwgpFh3bhsKv28",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/books-of-prime-entry/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_c47sm3BYsghc3tnz",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NWJC5cWwqYX7qt8R",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP",
+      "spcpt_dCHR4vYKKS4Y8cHm"
+     ],
+     "part_tier": null,
+     "problem_md": "Estel sold goods to a customer on credit.\n\nWhich one of the following is the first place where she recorded the invoice she issued?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The sales journal is the book of prime entry for credit sales\n- Therefore it is the first place that invoices for sales on credit are recorded\n\n**A** is incorrect; the general journal is not used to record credit sales\n\n**B** is incorrect; the general ledger is not a book of prime entry (the total from the sales journal will later be entered in the sales account in the general ledger)\n\n**D** is incorrect; the sales ledger is not a book of prime entry (entries will be made in it later, based on the sub-totals for each customer in the sales journal)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "general journal"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "general ledger"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "sales journal"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "sales ledger"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cQvQPYc8KQ78DGxv",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2WCc94GvHqS95m6F",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9nrwHDHGY4w5TmqR"
+     ],
+     "part_tier": null,
+     "problem_md": "In October, Elvin entered all the credit notes he received in the correct returns journal.\n\nHow was the total of that journal recorded in the ledger at the end of the month?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Credit notes **received** will be with reference to purchases made (and then returned) by the business\n\n  - They are recorded in the purchases returns journal\n- When they are transferred to the ledger\n\n  - The total is credited to the purchases returns account\n  - (The sub-totals for each merchant are debited from the individual trade payables accounts)\n\n**B** is incorrect; totals of credit notes *issued* (not received) are debited (not credited) to the sales returns account\n\n**C** is incorrect; the purchases returns account is credited (not debited)\n\n**D** is incorrect; totals of credit notes *issued* (not received) are debited to the sales returns account",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "credit purchases returns account"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "credit sales returns account"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "debit purchases returns account"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "debit sales returns account"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dZWKMTrxTDnYJ5Mr",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7P4PpBKhCKkpWd5X",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP",
+      "spcpt_QmJGQTJJf9mYXhzg"
+     ],
+     "part_tier": null,
+     "problem_md": "When writing up the sales journal and the sales returns journal, which business documents are used to provide the information?\n\n|   | sales journal | sales returns journal |\n|---|---|---|\n| **A** | invoices issued | credit notes issued |\n| **B** | invoices issued | credit notes received |\n| **C** | invoices received | credit notes issued |\n| **D** | invoices received | credit notes received |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Invoices for sales are issued *to* a credit customer *by* the business\n- Credit notes for sales are issued *to* a credit customer *by* the business\n- So 'A' is the correct option\n\n**B** is incorrect; credit notes received would be with reference to *purchases* by the business which have, for example, been returned to a supplier\n\n**C** is incorrect; invoices received would be with references to *purchases* by the business, and would be issued by the supplier\n\n**D** is incorrect; invoices and credit notes received would both be with reference to *purchases* made by the business",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FYFd5K7gmSkFgjWt",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Np7qfMBJjWYHfHRm",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP"
+     ],
+     "part_tier": null,
+     "problem_md": "How is the total from the sales journal recorded in the ledger at the end of the month?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- At regular intervals (for example at the end of every month) the book-keeper transfers information from the sales journal to the ledger accounts\n\n  - The **total** is credited to the sales account\n  - The sub-totals pertaining to each customer are debited to the customers' individual trade receivables accounts\n\n**A** is incorrect; the total is credited to the sales account\n\n**C** is incorrect; the total is not debited to the customers' personal accounts (only the amounts pertaining to each customer are)\n\n**D** is incorrect; the total is credited to the sales account",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "credited to customers' personal accounts"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "credited to the sales account"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "debited to customers' personal accounts"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "debited to the sales account"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_p4gvH6S4VQGWdcnw",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_nY7wwg2VCZy7Wpd3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP"
+     ],
+     "part_tier": null,
+     "problem_md": "Leilani issues an invoice for goods sold on credit which have a full price of \\$3500.\n\nShe offers a trade discount of 12%, and also a cash discount of 5% for prompt payment.\n\nWhich amount should she record in the sales journal?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- A trade discount is a reduction in the selling price of goods or services, and is applied before a transaction takes place\n\n  - Therefore the amount recorded in the sales journal will be the full price minus the trade discount\n  - 12%  ✕ \\$3500 = \\$420\n  - \\$3500 - \\$420 = \\$3080\n- If if the customer pays by the cash discount deadline, then the discount will be recorded at that time in the cash book as a separate entry\n\n  - A cash discount is  not recorded in the sales journal at the time of the sale\n\n**A** is incorrect; this is what you would get if you combined the trade and cash discounts (12% + 5% = 17%), and then reduced the full price by 17%\n\n**B** is incorrect; this is what you would get if you first reduced the sale price by 12% to \\$3080, and then reduced \\$3080 by 5%\n\n**D** is incorrect; this is the full price without any discounts applied",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "\\$2905"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "\\$2926"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "\\$3080"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "\\$3500"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_66YFYQBg378sWxzx",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zvfQHPCqT885tsGh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t83ZfyP7c4B3j88c",
+      "spcpt_dCHR4vYKKS4Y8cHm"
+     ],
+     "part_tier": null,
+     "problem_md": "In which order should accounting data be processed when using the double entry system?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- When processing accounting data\n\n  - Information is taken from the business documents and entered into the books of prime entry\n  \n    - Journals are books of prime entry\n  - The details are then transferred from the books of prime entry to the ledger accounts\n  - A trial balance is then a way to check for arithmetic errors in the ledger accounts\n- So the correct order is business documents, journals, ledgers, trial balance\n\n**B**, **C** and **D** are incorrect; none of these options have all 4 items in the correct order",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "business documents, journals, ledgers, trial balance"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "journals, ledgers, business documents, trial balance"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "ledgers, business documents, trial balance, journals"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "trial balance, ledgers, business documents, journals"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

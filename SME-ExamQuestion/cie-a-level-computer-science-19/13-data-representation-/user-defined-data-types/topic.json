@@ -1,0 +1,472 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "13-data-representation-",
+  "name": "13. Data Representation"
+ },
+ "topic": {
+  "id": "top_qsTdGKGZTB7R3X4p",
+  "slug": "user-defined-data-types",
+  "name": "User-defined Data Types",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "user-defined-types",
+   "name": "User-Defined Types",
+   "revision_note_id": "rn_C9tHVM7pB7hZRM5H"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8MbPqMr7w8CVs894",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 12,
+   "questions_embedded": 12,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/13-data-representation-/user-defined-data-types/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 12,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_nYmr5jKm3NF3Zgvy",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_HS3yQmHjh4NYttqC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports club program contains these user-defined data types:\n\nThe program declares an array that has already been filled with the 200 members of the club:\n\nWrite pseudocode to count how many members are in the `Senior` category, and to output that count after every member has been checked.",
+     "solution_md": "Declaring the counter and setting it to zero before the loop earns the first mark. **[1]**\n\nThe count-controlled loop running from 1 to 200, closed with `NEXT`, earns the second mark. **[1]**\n\nReaching the category of the current array element with dot notation earns the third mark. **[1]**\n\nComparing that category with `Senior` and increasing the counter earn the fourth mark. **[1]**\n\nClosing the `IF` and outputting the count after the loop earn the fifth mark. **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for declaring a counter and setting it to 0 before the loop\n> \n> **1 mark** for a loop covering 1 to 200 inclusive, correctly closed\n> \n> **1 mark** for `Members[Index].Category`, using the loop variable as the array index\n> \n> **1 mark** for the comparison with `Senior` and `SeniorCount ← SeniorCount + 1`\n> \n> **1 mark** for `ENDIF` present and `OUTPUT SeniorCount` placed after the loop\n> \n> Accept a `WHILE` loop or a `REPEAT` loop that covers indices 1 to 200 inclusive and handles its own counter correctly.\n> \n> Accept any sensible identifier for the counter and for the loop variable.\n> \n> Accept the `DECLARE` statements being left out, provided the counter is still set to 0 before the loop.\n> \n> Do not accept `Members.Category[Index]`. The array subscript selects the record first, and dot notation then selects a field inside that record.\n> \n> Do not accept `OUTPUT SeniorCount` written inside the loop, which outputs 200 values instead of one.\n> \n> Do not accept a loop running `1 TO 199` or `0 TO 200`. The array is declared `ARRAY[1:200]`, so both bounds are included.\n\n> **[exam-tip]**\n> The order of the subscript and the dot is what this question is really testing. `Members[Index]` is one whole record, and `.Category` then picks one field out of that record. Writing the dot first asks for a field of the array itself, which does not exist.\n> \n> Two easy marks sit outside the loop. Set the counter to zero before the loop starts, and put the `OUTPUT` after `NEXT`. If you write a perfect loop and then output inside it, you lose a mark you never needed to risk."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wymnz9Mgz5NrCrK3",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GhjqP3brmq9Z9dtj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports club program already contains this user-defined data type:\n\nWrite pseudocode statements to define the composite data type `ClubMember` to hold data about one member, including:\n\n- the family name of the member\n- the date the member joined the club\n- the membership category of the member.\n\nUse the data type `Membership` in your answer.",
+     "solution_md": "Opening with `TYPE ClubMember` and closing with `ENDTYPE` earns the first mark. **[1]**\n\nThe two fields that use built-in data types earn the second mark. **[1]**\n\nThe field whose data type is the user-defined type `Membership` earns the third mark. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `TYPE ClubMember` and `ENDTYPE` both correct\n> \n> **1 mark** for `DECLARE FamilyName : STRING` and `DECLARE DateJoined : DATE`\n> \n> **1 mark** for `DECLARE Category : Membership`\n> \n> Accept any sensible identifier for each of the three fields.\n> \n> Accept the three `DECLARE` statements in any order.\n> \n> Accept `STRING` for the date field, although `DATE` is the expected type.\n> \n> Do not accept `DECLARE Category : (Junior, Adult, Senior)`. The type already exists and must be named.\n> \n> Do not accept an answer with no `ENDTYPE`, or one using `ENDDECLARE` or `END TYPE`.\n\n> **[exam-tip]**\n> The mark most likely to cost you here is the third one. When a question hands you an existing user-defined type and tells you to use it, the data type of that field is the type's name, copied exactly as printed. Repeating the list of values instead defines a second, unnamed type and earns nothing.\n> \n> A record is the only user-defined type on this course that needs `ENDTYPE`. Write `TYPE` and `ENDTYPE` first and fill in the fields between them, so that running short of time cannot cost you that mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DbHPY7m8rYvqhRRb",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vmf4X5vf2GwYsw4j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer is choosing a composite user-defined data type for each of three requirements.\n\nComplete the table by writing the most appropriate composite user-defined data type for each requirement.\n\n| Requirement | Composite data type |\n|---|---|\n| A collection of the valid currency symbols used by a program. Every symbol is a CHAR and the order of the symbols does not matter. |   |\n| A group of related items about one employee: family name, salary and start date. |   |\n| A template that groups data together with the procedures and functions that operate on that data. |   |",
+     "solution_md": "| Requirement | Composite data type |\n|---|---|\n| A collection of the valid currency symbols used by a program. Every symbol is a CHAR and the order of the symbols does not matter. | **Set** |\n| A group of related items about one employee: family name, salary and start date. | **Record** |\n| A template that groups data together with the procedures and functions that operate on that data. | **Class** |\n\nSet, for an unordered collection whose elements are all of one data type. **[1]**\n\nRecord, for a fixed number of related items that may be of different data types. **[1]**\n\nClass, for data grouped with the operations that act on it. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Set in the first row\n> \n> **1 mark** for Record in the second row\n> \n> **1 mark** for Class in the third row\n> \n> Accept object for the third row.\n> \n> Do not accept array in the first row. An array is a built-in structure, not a user-defined composite data type, and its elements are ordered by index.\n> \n> Do not accept enumerated or pointer in any row. Both are non-composite.\n\n> **[exam-tip]**\n> Set and array are easy to confuse because both hold many items of one data type. The deciding words in a question are order and index. If the question says the order does not matter, or mentions union and intersection, it is a set. If the items are reached by position, it is an array.\n> \n> Read the word composite in the question before you answer. Enumerated and pointer are user-defined too, but they are non-composite, so neither can ever be the answer to a question phrased like this one."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kTgjVMB6nH83wd57",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Dnrky6TzxgMDb9T2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "A library program uses this user-defined data type:\n\nThe variable `ThisMember`, of type `MemberLevel`, has already been declared.\n\nWrite pseudocode to:\n\n- store the value `Silver` in `ThisMember`\n- output the message `Discount applies` when `ThisMember` holds `Gold` or `Platinum`\n- output the message `No discount` in every other case.",
+     "solution_md": "The assignment of the enumerated value earns the first mark. **[1]**\n\nThe condition testing both qualifying values earns the second mark. **[1]**\n\nThe output inside the `THEN` branch earns the third mark. **[1]**\n\nThe `ELSE` branch with its output, and `ENDIF`, earn the fourth mark. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `ThisMember ← Silver`\n> \n> **1 mark** for an `IF` whose condition is true for `Gold` and for `Platinum` and false for the other two values\n> \n> **1 mark** for `OUTPUT \"Discount applies\"` inside the `THEN` branch\n> \n> **1 mark** for `ELSE`, `OUTPUT \"No discount\"` and `ENDIF`\n> \n> Accept `ThisMember >= Gold` as the condition, because the values of an enumerated type are ordered and `Gold` and `Platinum` are the last two in the list.\n> \n> Accept the two outputs the other way round with the condition reversed, for example testing for `Basic` or `Silver` first.\n> \n> Do not accept `ThisMember ← \"Silver\"`. The value is an identifier from the type definition, not a `STRING`.\n> \n> Do not accept `ThisMember = Gold OR Platinum`. The second half of the condition has nothing to compare.\n> \n> Do not accept an answer with no `ENDIF`.\n\n> **[exam-tip]**\n> The condition `ThisMember = Gold OR Platinum` reads correctly in English and is the single most common wrong answer on questions of this shape. Pseudocode compares one thing with one thing, so the variable has to be named on both sides of the `OR`.\n> \n> There is no else-if keyword in this course's pseudocode, so do not reach for one. A single `IF` with an `ELSE` is all this task needs."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gTDJFMbRkjTMY3zs",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_HnD2JMWYbMz7HZxH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "A program monitors the temperature inside a cold store. Each temperature is stored as a `REAL` value.\n\nThe program needs a user-defined non-composite data type that will hold the memory location of a temperature value, and a variable of that type.\n\nGive the pseudocode statements to:\n\n- define the pointer data type `TTempPointer`\n- declare a variable `TempStore` of that type.",
+     "solution_md": "The keyword `TYPE` with the type name earns the first mark. **[1]**\n\nThe pointer symbol followed by the data type held at the memory location earns the second mark. **[1]**\n\nThe variable declaration, using the new type name, earns the third mark. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `TYPE TTempPointer =`\n> \n> **1 mark** for the right-hand side written as the pointer symbol followed by REAL, exactly as shown in the model answer\n> \n> **1 mark** for `DECLARE TempStore : TTempPointer`\n> \n> Accept any spelling of the two identifiers, provided the name used in the `DECLARE` statement matches the name used in the `TYPE` statement.\n> \n> Do not accept the pointer symbol in the `DECLARE` statement. Declaring a variable of a pointer type does not use it.\n> \n> Do not accept a right-hand side naming a type other than REAL, because the stored temperature is a `REAL` value.\n\n> **[exam-tip]**\n> Two marks are commonly lost together here. The first is writing the pointer symbol in the variable declaration as well as in the type definition. It belongs only in the `TYPE` line, which is where the pointer type is created.\n> \n> The second is naming the pointer type itself on the right-hand side, giving a definition that refers to itself. The data type on the right is the type of the data sitting at the memory location, which the question tells you is `REAL`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VfK9x9fHbMkGGSzX",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_nntGXSfg8Z2SzdDH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station program records the condition of the sky at each reading.\n\nThe sky condition is always exactly one of these five values:\n\nClear, Cloudy, Rain, Snow, Fog\n\nWrite the pseudocode statement to define the enumerated data type `SkyState` to hold these values.",
+     "solution_md": "The keyword `TYPE` and the type name earn the first mark. **[1]**\n\nThe five values, in brackets and separated by commas, earn the second mark. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `TYPE SkyState =`\n> \n> **1 mark** for `(Clear, Cloudy, Rain, Snow, Fog)`\n> \n> Accept the five values in any order.\n> \n> Accept a different capitalisation of the type name and of the values.\n> \n> Do not accept the values written as strings, for example `(\"Clear\", \"Cloudy\")`. The values of an enumerated type are identifiers, not `STRING` literals.\n> \n> Do not accept `DECLARE SkyState = (Clear, Cloudy, Rain, Snow, Fog)`. A type is defined with `TYPE`; `DECLARE` creates a variable.\n> \n> Do not accept `ENDTYPE` on a following line. `ENDTYPE` closes a record definition only.\n\n> **[exam-tip]**\n> The commonest loss of a mark here is putting quotation marks round the values. If you have met `STRING` arrays first, you may reach for `\"Clear\"` out of habit. An enumerated value is a name the program invents, so it is written bare.\n> \n> The second habit to break is adding `ENDTYPE`. An enumerated definition is one line and ends at the closing bracket. Only a record definition, which starts with `TYPE` on its own line, needs `ENDTYPE`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Xq2xkMS8NR6RB4gp",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_jTtrJh4FYjZ9SNCn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93",
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe what is meant by **composite **and **non‑composite** data types.",
+     "solution_md": "**One mark** per mark point – composite (**Max 2**)\n\nMP1 A (user defined) data type that is a collection of data that can consist of multiple elements\n\nMP2 …of different or the same **data types **\n\nMP3 …grouped under a single identifier.\n\n**One mark **per mark point – non-composite (**Max 2**)\n\nMP4 It can be defined without referencing another data type.\n\nMP5 It can be a primitive type available in a programming language, or a user- defined type."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FShFtZdqMsckRqXS",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_SKGwYRH4qNRKFxr7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe what is meant by **enumerated **and **pointer **data types.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** per mark point – enumerated type (**Max 2**)\n> \n> MP1 A user-defined non-composite (data type) (only award once)\n> \n> MP2 …with a list of all possible values\n> \n> MP3 …that is ordered.\n> \n> **One mark** per mark point – pointer type (**Max 2**)\n> \n> MP4 A user-defined non-composite (data type) (only award once)\n> \n> MP5 …that stores addresses/memory locations only\n> \n> MP6 …and indicates the type of data stored in the memory location."
+    }
+   ]
+  },
+  {
+   "id": "qstn_vJRsq9TScgsjYCMF",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_sFtb947hfT7MVKc7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by the term **non-composite data type** and give an example of a non-composite data type.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark **per mark point (**Max 3**)\n> \n> MP1 A data type that is defined without referencing another data type.\n> \n> MP2 It can be a primitive data type found in a programming language **or** a user-defined data type.\n> \n> MP3 Example – enumerated data type / pointer data type / allow a correct example of an enumerated or pointer data type declaration."
+    },
+    {
+     "id": "qstnprt_KtVynmCkvScnjdjB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "Write **pseudocode** statements to declare the set data type `EvenNumbers` to hold this set of even numbers between 2 and 12:\n\n2, 4, 6, 8, 10,12",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** per mark point (**Max 4**)\n> \n> MP1 Type statement fully correct\n> \n> MP2` DEFINE EvenNumbers `\n> \n> MP3 Correct list of values in brackets\n> \n> MP4 :`<set identifier>`  from Type statement used\n> \n> **Example answer**\n> \n> `TYPE Numbers = SET OF INTEGER `\n> `DEFINE EvenNumbers (2, 4, 6, 8, 10, 12): Numbers`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JqGvfTJ9DxdDCrYb",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BM3Bsjq4qF59Vjvj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93",
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by **non-composite** and **composite **data types.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per mark point (**Max 2**)\n> \n> *non-composite data types*\n> \n> MP1 Non-composite data types can both be user-defined or primitive\n> \n> MP2 Non-composite data types do not refer to other data types in their definition / contain one data type in their definition\n> \n> MP3 Non-composite data types can be primitive/enumerated/pointer\n> \n> **One **mark per mark point (**Max 2**)\n> \n> *composite data types*\n> \n> MP4 Composite data types can be user-defined or primitive\n> \n> MP5 Composite data types refer to other data types in their definition/contain more than one data type in their definition\n> \n> MP6 Composite data types can be record/set/class"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KvP2jnFwY6XqzwYc",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_HWW8bWmjXP5SpSCx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the user‑defined data type **record**.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** per mark point (**Max 3**)\n> \n> MP1 A user-defined record data type is a composite data type\n> \n> MP2 It uses other data types in its definition to form a single new data type\n> \n> MP3 The data types referenced may be primitive data types from a programming language or they may be other userdefined data types.\n> \n> MP4 Includes related items\n> \n> MP5 Includes a fixed number of items."
+    },
+    {
+     "id": "qstnprt_yDKmfvPvnksWRhGg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer defines a record, `Order`, to store the following data:\n\n- account number\n- order number\n- order price\n- order date.\n\nWrite **pseudocode **statements to define this record.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark for `TYPE Order `and `ENDTYPE` correct\n> \n> **One **mark for correct use of `DECLARE` in all declarations seen\n> \n> **One **mark for the **two **shaded declarations\n> \n> **One **mark for the **two **unshaded declarations\n> \n> Example answer\n> \n> `TYPE Order`\n> \n> `            DECLARE AccountNumber : INTEGER `\n> \n> `            DECLARE OrderNumber : INTEGER `\n> \n> `            DECLARE OrderPrice : REAL `\n> \n> `           DECLARE OrderDate : DATE`\n> \n> `ENDTYPE`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mwNB8HGrtHg3rdmQ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_ZQD3WKMPZXNK4xhv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the user-defined data type **set**.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 A set user-defined data type is a composite data type\n> \n> MP2 … which includes a list of unordered elements\n> \n> MP3 Set theory operations, such as intersection and union, can be applied to these elements\n> \n> MP4 A set data type includes the type of data/data type it uses as part of its definition\n> \n> MP5 All the elements are of the same data type."
+    },
+    {
+     "id": "qstnprt_Z6bDvyyptrzV4R3R",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WsRKgbbSqqhzvS93",
+      "spcpt_fmFd4vgJtVWcghDF"
+     ],
+     "part_tier": null,
+     "problem_md": "Write **pseudocode **statements to declare the set data type, `SymbolSet`, to hold the following set of mathematical operators, using the variable `Operators`.\n\n`+    –     *     /    ^`",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** for each mark point (**Max 4**)\n> \n> MP1 `TYPE SymbolSet/Operators = `\n> \n> MP2 `SET OF CHAR `\n> \n> MP3 `DEFINE Operators/SymbolSet `\n> \n> MP4 `('+', '–', '*', '/', '^')`\n> \n> MP5 : `SymbolSet/Operators`\n> \n> Example answers\n> \n> `TYPE SymbolSet = SET OF CHAR `\n> `DEFINE Operators ('+', '–', '*', '/', '^') : SymbolSet `\n> \n> `TYPE Operators = SET OF CHAR `\n> `DEFINE SymbolSet ('+', '–', '*', '/', '^') : Operators`"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,868 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:41Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "16-system-software-",
+  "name": "16. System Software"
+ },
+ "topic": {
+  "id": "top_rvSTtCCXRcVn2sVJ",
+  "slug": "purposes-of-an-operating-system-os",
+  "name": "Purposes of an Operating System (OS)",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "memory-management",
+   "name": "Memory Management",
+   "revision_note_id": "rn_Yj7mKGX6qwCg6Rws"
+  },
+  {
+   "slug": "resource-management",
+   "name": "Resource Management",
+   "revision_note_id": "rn_SJxW6CtvZPzjnF9Q"
+  },
+  {
+   "slug": "process-management",
+   "name": "Process Management",
+   "revision_note_id": "rn_DQQcCvPgsyBMJvrR"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_njtz5r5XfYBJ9shx",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 24,
+   "questions_embedded": 24,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/16-system-software-/purposes-of-an-operating-system-os/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 24,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_k8chd4ym7rFSGj7C",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_Kgg4zttNvbXs8zqy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer uses virtual memory stored on a hard disk drive. A technician records how the computer spends its time as more programs are opened.\n\n| Number of programs open | Percentage of time spent processing data | Percentage of time spent swapping pages |\n|---|---|---|\n| 2 | 95 | 5 |\n| 4 | 88 | 12 |\n| 6 | 70 | 30 |\n| 8 | 45 | 55 |\n| 10 | 10 | 90 |\n\n(i) Using the table, state the smallest number of programs open at which the computer has reached the thrash point. Give a reason for your answer.\n\n(2)\n\n(ii) Explain why the percentage of time spent swapping pages increases as more programs are opened.\n\n(3)",
+     "solution_md": "**(i)**\n\n8 programs **[1]**\n\nAt 8 programs, more time is spent swapping pages (55%) than processing data (45%) **[1]**\n\n**(ii)**\n\nAs more programs are opened, the RAM fills up **[1]**\n\nMore and more pages need to be swapped in and out of virtual memory **[1]**\n\nThis causes a very high rate of hard disk access, and moving the read/write head takes a relatively long time, so swapping uses up more and more of the computer's time **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **(i)**\n> \n> **1 mark** for 8 (programs)\n> \n> **1 mark** for more time is spent swapping pages than processing data / 55% swapping is greater than 45% processing\n> \n> The reason mark can only be awarded with the answer 8\n> \n> Do not accept 10, because the thrash point is reached as soon as more time is spent swapping pages than processing data, which first happens at 8 programs\n> \n> **(ii)**\n> \n> **Any three from:**\n> \n> - As more programs are opened, the RAM / main memory fills up\n> - More and more pages need to be swapped in and out of virtual memory / secondary storage\n> - This leads to a very high rate of hard disk access / excessive disk head movements\n> - Moving the hard disk read/write head takes a relatively long time / has a long latency\n> \n> **[3 marks]**\n\n> **[exam-tip]**\n> In (i), a frequent error is to choose 10 programs because the computer has almost stopped processing. The thrash point is not the moment the computer freezes. It is the point at which more time is spent swapping pages than processing data, and at 8 programs swapping (55%) has already overtaken processing (45%).\n> \n> In (ii), \"the computer slows down\" earns nothing on its own. Build the chain of cause and effect: the RAM fills, so pages are swapped in and out more often, and every swap needs slow hard disk access."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rqnK7gTBmRxKv5BZ",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_65qwvs4qdNqZXbsX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer uses paging and virtual memory. The RAM is full. A running program needs a page that is currently held in virtual memory.\n\nDescribe how the operating system replaces a page in RAM so that the program can use the page it needs.",
+     "solution_md": "A page in RAM that is not immediately needed is identified **[1]**\n\nThis page is swapped out of RAM and moved to virtual memory on secondary storage, which frees space in RAM **[1]**\n\nThe page the program needs is swapped in from virtual memory into the space in RAM **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - A page in RAM that is not immediately needed / not in use is identified\n> - This page is moved / swapped out of RAM to virtual memory / secondary storage\n> - This frees space in RAM\n> - The needed page is moved / swapped in from virtual memory / secondary storage into RAM\n> - Pages are swapped between RAM and virtual memory in this way whenever they are needed\n> \n> **[3 marks]**\n> \n> Accept disk / hard disk for secondary storage\n> \n> Do not accept \"the program waits until RAM becomes free\", because the operating system makes the space itself by swapping a page out\n\n> **[exam-tip]**\n> Students often describe only half of the swap. They say the needed page is loaded into RAM but never say where the space comes from. The RAM is full, so a page that is not immediately needed must first be swapped out to virtual memory.\n> \n> Past mark schemes describe replacement as pages being swapped in and out of virtual memory. They have not asked for a named method of choosing which page to remove, so spend your time describing both directions of the swap clearly."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RWCY4k5K5qcr9X4d",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ZctXKyHQwNSYRHQ9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe what is meant by **virtual memory**.",
+     "solution_md": "Virtual memory is when secondary storage, such as a hard disk, is used to extend the RAM **[1]**\n\nThis means the computer appears to be able to access more memory than the RAM it actually has **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - Secondary storage / disk is used to extend the RAM / to simulate additional main memory\n> - The CPU appears to be able to access more memory than the RAM available\n> - Only the data in use needs to be held in RAM\n> - Data / programs not immediately needed are swapped between RAM and virtual memory as necessary\n> - Virtual memory is created temporarily\n> \n> **[2 marks]**\n> \n> Do not accept cache memory, because cache is fast memory used by the processor, not secondary storage used to extend RAM\n> \n> Do not accept a virtual machine, because a virtual machine is software that emulates a computer, which is a different idea\n\n> **[exam-tip]**\n> Do not confuse virtual memory with a virtual machine. The names are similar, but a virtual machine emulates a whole computer, while virtual memory is secondary storage being used as if it were extra main memory.\n> \n> Avoid writing that virtual memory \"is extra RAM\". No RAM is added. The mark is for saying that secondary storage is used to extend the memory available."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MqnFmYh2mXSrhcSW",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_sqRC8wntHVF84B66",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ztV4XcxXGcRJ9KRK"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has 8 GiB of RAM. A user starts a program that needs 12 GiB of memory for its code and data. The operating system uses segmentation and virtual memory.\n\nExplain how segmentation and virtual memory allow this program to run on the computer.",
+     "solution_md": "The logical address space of the program is divided into blocks of varying size called segments **[1]**\n\nThe segments are held in virtual memory, which uses secondary storage such as a hard disk to extend the RAM **[1]**\n\nWhile the program runs, a segment is loaded from virtual memory into physical memory only when it is needed, so only the segments in use are in RAM **[1]**\n\nA segment map table maps the logical addresses in the program to physical addresses in RAM **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> - The logical / virtual address space is divided into variable / varying sized blocks called segments\n> - Each segment has a name / number and a size\n> - Segments are held in virtual memory / on secondary storage, which is used to extend the RAM available\n> - During execution, segments are loaded from virtual memory into physical memory / RAM when they are needed\n> - Only the segments in use need to be in RAM, so segments are swapped between RAM and virtual memory as necessary\n> - A segment map table maps logical / virtual addresses to physical addresses\n> - An address is given as a segment number and an offset, and the segment number is used as an index in the segment map table\n> - So the CPU appears to be able to access more memory (12 GiB) than the RAM available (8 GiB)\n> \n> **[4 marks]**\n> \n> Accept disk / hard disk for secondary storage\n> \n> Do not accept \"virtual memory adds more RAM\", because the RAM stays at 8 GiB and secondary storage only makes more memory appear to be available\n> \n> Do not accept segments of fixed size, because fixed-size blocks are pages\n\n> **[exam-tip]**\n> A common error is to write that virtual memory increases the RAM. It does not. Secondary storage is used to extend the memory available, so the CPU only appears to have access to more memory than the RAM holds.\n> \n> Students also answer about segmentation and virtual memory separately and never connect them. To reach 4 marks, show the link: the segments wait in virtual memory and are loaded into RAM only when they are needed, and the segment map table tells the computer where each segment is in physical memory."
+    }
+   ]
+  },
+  {
+   "id": "qstn_699yjfBwRgfRpvx7",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_pf35f84c4pfqZX9n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ztV4XcxXGcRJ9KRK"
+     ],
+     "part_tier": null,
+     "problem_md": "Paging and segmentation are both used in memory management.\n\nComplete the table to show **one** difference between paging and segmentation for each feature.\n\n| Feature | Paging | Segmentation |\n|---|---|---|\n| Size of each block of memory |   |   |\n| What calculates the size of the blocks |   |   |\n| Speed of access |   |   |",
+     "solution_md": "| Feature | Paging | Segmentation |\n|---|---|---|\n| Size of each block of memory | **Fixed size** | **Variable size** **[1]** |\n| What calculates the size of the blocks | **The operating system** | **The compiler** **[1]** |\n| Speed of access | **Faster** | **Slower** **[1]** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for paging: fixed size **and** segmentation: variable size\n> \n> **1 mark** for paging: the operating system **and** segmentation: the compiler\n> \n> **1 mark** for paging: faster **and** segmentation: slower\n> \n> Both cells in a row must be correct for the mark\n> \n> Accept same size / equal size for fixed size, and varying size / different sizes for variable size\n> \n> Accept OS for the operating system\n> \n> Accept access times are shorter for paging and longer for segmentation\n> \n> Do not accept a row that gives the same answer for paging and segmentation, because the row must show a difference\n\n> **[exam-tip]**\n> The most common error is to describe segments as \"bigger\" than pages, or as blocks for \"different types of data\". Neither is the difference that is credited. The key word is size: pages are all a fixed size, but each segment has its own variable size.\n> \n> Treat every row as a two-sided comparison. A row with only one column filled in, or with a statement about only one technique, cannot earn the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MsFf5DjxDfCXSpyp",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9R6pQ98wzYHkXqYD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ztV4XcxXGcRJ9KRK"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer uses segmentation for memory management.\n\nIdentify the **two** values that make up an address in a program's logical address space when segmentation is used.",
+     "solution_md": "Segment number / segment name **[1]**\n\nOffset / offset value **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for segment number / segment name\n> \n> **1 mark** for offset / offset value\n> \n> Accept the two values in either order\n> \n> Do not accept page number, because pages are the fixed-size blocks used in paging, not in segmentation\n> \n> Do not accept physical address, because the address the program uses is a logical address that is mapped to a physical address\n\n> **[exam-tip]**\n> Many students mix up the vocabulary of paging and segmentation and write \"page number and offset\". In segmentation the blocks are called segments, so the address holds the segment number or segment name together with an offset.\n> \n> Do not answer \"the physical address\". The program works with logical addresses. The operating system uses the segment number as an index in the segment map table, and that table maps the logical address to a physical address."
+    }
+   ]
+  },
+  {
+   "id": "qstn_NgDn9ZC59B7mR9HJ",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3cG96bDRH9ynrjCP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NCSN5NHRmwzRpzNk"
+     ],
+     "part_tier": null,
+     "problem_md": "Four processes are waiting in the queue for the processor. They joined the queue in the order shown. No other processes join the queue.\n\n| Process | Order of joining the queue | Processor time needed (ms) |\n|---|---|---|\n| P | 1 | 45 |\n| Q | 2 | 5 |\n| R | 3 | 20 |\n| S | 4 | 10 |\n\nThroughput is the number of processes completed in a given amount of time.\n\nUse the information in the table to explain why shortest job first scheduling gives a higher throughput than first come first served scheduling for these processes.",
+     "solution_md": "First come first served executes the processes in the order they joined the queue, so P, the process that needs the most processor time, is executed first. **[1]**\n\nQ, R and S need much less processor time, but they must all wait until P has finished, so no process is completed for a long time. **[1]**\n\nShortest job first executes the processes in ascending order of the processor time needed: Q, S, R, P. **[1]**\n\nThe short processes Q, S and R are completed first, so more processes are executed in a smaller amount of time, which is an increased throughput. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **One mark for each point (max 2) for first come first served:**\n> \n> - processes are executed one by one in the order they joined the queue // in the order P, Q, R, S\n> - ... so P, the longest process, is executed first // Q, R and S must all wait until P has finished // no process is completed for the first 45 ms\n> \n> **One mark for each point (max 2) for shortest job first:**\n> \n> - processes are executed in ascending order of the amount of processor / CPU time required // short processes are executed first and followed by longer processes // in the order Q, S, R, P\n> - ... which leads to an increased throughput because more processes are executed in a smaller amount of time // Q, S and R are all completed before P would have finished under first come first served\n> \n> **[4 marks]**\n> \n> The answer must use the processes in the table: a description of the two routines that never refers to P, Q, R or S earns a maximum of 2 marks\n> \n> Do not accept \"shortest job first completes all four processes sooner\": both routines finish all four processes at the same time\n\n> **[exam-tip]**\n> Shortest job first does not finish the whole set of processes any sooner, because the processor has the same total amount of work to do. The benefit is that more processes are finished early on, which is what throughput measures.\n> \n> Make the table do the work. Name the long process that holds everything up under first come first served, and give the order that shortest job first uses. A general description of the two routines that could apply to any set of processes will not earn full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cq7fDQXvX9vdVS7F",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_m8S26GZGMrW5mYvC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_75hmrd2yg9xz7V8W"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer uses paging. The table shows eight blocks of main memory. All the blocks are the same size.\n\n| Block | Status |\n|---|---|\n| 1 | In use |\n| 2 | Free |\n| 3 | In use |\n| 4 | Free |\n| 5 | In use |\n| 6 | In use |\n| 7 | Free |\n| 8 | In use |\n\nA running program needs three more of its pages to be loaded from secondary storage. There is no area of main memory where three free blocks are next to each other.\n\nExplain how paging allows all three pages to be loaded into main memory.",
+     "solution_md": "- Each page is the same size as a block of main memory, so a page fits exactly into any free block **[1]**\n- The three pages do not need to be next to each other, so they can be loaded into blocks 2, 4 and 7 **[1]**\n- The operating system keeps a record of which block each page has been loaded into, so the pages of the program can still be found **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - pages and blocks are the same (fixed) size\n> - ... so any page fits exactly into any free block // there is no need to find a free area that matches the size of the data\n> - the pages do not have to be stored next to each other / in one continuous area of memory\n> - each page is placed in a separate free block // the pages are placed in blocks 2, 4 and 7 (in any order)\n> - the operating system reads each page from secondary storage into a free block\n> - the operating system records which block holds each page\n> \n> **[3 marks]**\n> \n> Accept \"page table\" or \"page map table\" for the record of which block holds each page.\n> \n> Do not accept \"the operating system moves the blocks that are in use so that the free blocks are next to each other\". Paging does not need one large free area, because each page can go into a separate block.\n> \n> Do not accept \"a page that is not needed is removed to make room\". There are already three free blocks, so no page has to be removed.\n\n> **[exam-tip]**\n> The trap is the sentence saying that no three free blocks are next to each other. Many students assume the pages must be stored together, and then suggest moving data around in memory or removing a page. Neither is needed. Every page is exactly one block in size, so each page can go into any free block, wherever that block is.\n> \n> Read the table before you answer. Naming the actual free blocks (2, 4 and 7) shows the examiner that you have applied the idea to this memory, not just written a definition."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5nSdBnpFCGQ9GRgJ",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_g9csTcWPhmhZb477",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_75hmrd2yg9xz7V8W"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is stored on secondary storage. The operating system uses paging when the program is run.\n\nDescribe how paging is used to manage main memory while the program is running.",
+     "solution_md": "- The operating system divides memory into fixed-size blocks, and the program is held in pages of this same size **[1]**\n- Only the pages that are needed at the moment are held in main memory, while the other pages stay on secondary storage **[1]**\n- When a page that is not in main memory is required, it is read from secondary storage into a free block of main memory **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - memory is divided (by the operating system) into fixed-size / same-size blocks // the program is divided into pages of the same size\n> - only the pages that are currently needed are held in main memory // the other pages are kept on secondary storage\n> - a page is read from secondary storage into main memory when it is required\n> - a page that is no longer needed can be written / moved out to secondary storage (to free space in main memory)\n> \n> **[3 marks]**\n> \n> Accept \"swapped in\" and \"swapped out\" for moved between secondary storage and main memory.\n> \n> Do not accept \"the program is loaded into main memory\" on its own. With paging, only the pages that are needed are loaded.\n> \n> Do not accept \"memory is divided into variable-sized blocks\". This describes segmentation.\n\n> **[exam-tip]**\n> A common weak answer describes virtual memory in general, such as \"the hard disk is used as extra RAM\", and never mentions pages at all. That earns very little here. Describe what happens to the pages: they are all the same size, only the ones needed are in main memory, and a page is read in from secondary storage when it is required.\n> \n> The question does not ask how the operating system chooses which page to remove when main memory is full, so do not spend your time on that."
+    }
+   ]
+  },
+  {
+   "id": "qstn_txsv7DfcKpkzYsPx",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Y6bvRbBpSvFjfDrV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_75hmrd2yg9xz7V8W"
+     ],
+     "part_tier": null,
+     "problem_md": "Paging is one of the techniques an operating system uses for memory management.\n\nDescribe what is meant by **paging**.",
+     "solution_md": "- Memory is divided by the operating system into fixed-size blocks, called pages **[1]**\n- These same-size blocks of data are read from or written to secondary storage when they are required **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for memory is divided into fixed-size / same-size / equal-size blocks (called pages)\n> \n> **1 mark** for pages / blocks of data are read from / written to secondary storage when required // pages are moved between secondary storage and main memory when required\n> \n> Do not accept \"memory is divided into blocks\" without the idea that the blocks are the same size. Segmentation also divides memory into blocks.\n> \n> Do not accept \"memory is divided into variable-sized blocks\" or \"blocks sized to fit the parts of a program\". These describe segmentation.\n\n> **[exam-tip]**\n> The mark for the first point depends on two words: fixed size, or same size. \"Paging splits memory into blocks\" is not enough, because that is also true of segmentation.\n> \n> Do not confuse paging with defragmentation. Moving the blocks of a file on a disk so that they are next to each other is done by defragmentation software. Paging moves same-size blocks of data between secondary storage and main memory."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vh4C69c8PfCpXMCX",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_fGnW6rWMBNzHNWnR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NCSN5NHRmwzRpzNk"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer is used for two tasks at once. A user is typing a report in a word processor. At the same time, a video-editing program is producing a long video file, which needs a lot of processor time. The video-editing process joined the queue for the processor first.\n\nExplain why round robin scheduling is more suitable than first come first served scheduling in this situation.",
+     "solution_md": "With first come first served, the video-editing process would be executed until it had finished, because it joined the queue first. **[1]**\n\nThe word processor would then have to wait a long time for processor time, so it would not respond while the user is typing. **[1]**\n\nWith round robin, each process is given the processor for a fixed time slice in turn, so the word processor gets processor time regularly and responds while the video is still being produced. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - first come first served executes processes one by one in the order they are queued // the video-editing process runs until it has finished\n> - ... so the word processor has to wait a long time for the processor // does not respond to the user's typing\n> - round robin gives each process the processor for a fixed time / time slice\n> - ... in turn, so every process gets processor time regularly\n> - ... so the word processor responds to the user while the video is still being produced\n> \n> **[3 marks]**\n> \n> Do not accept \"with first come first served the word processor would never run / would be starved\": every process in a first-come-first-served queue eventually gets a chance to run\n\n> **[exam-tip]**\n> Do not argue that first come first served causes starvation. It does not: every process in the queue eventually runs, and the mark scheme gives \"starvation does not occur\" as a benefit of first come first served as well as of round robin. The real problem here is how long the word processor has to wait.\n> \n> Round robin shares the processor out in fixed time slices. It does not make any process run faster, so do not claim the video is produced sooner."
+    }
+   ]
+  },
+  {
+   "id": "qstn_BBSPFrkpSdB229Np",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_DrZQFBxhm7YGS7rn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4BtYyv8hgvms2CFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer is running several programs at the same time, including a web browser, a word processor and a music player.\n\nExplain why the operating system needs to carry out memory management while these programs are running.",
+     "solution_md": "- Main memory (RAM) is limited, so the operating system must allocate blocks of RAM to each program as it needs them **[1]**\n- It must prevent two programs occupying the same area of RAM at the same time, so that one program does not overwrite another program's data **[1]**\n- When a program is closed, the operating system reclaims its blocks of RAM so they can be allocated to another program **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - allocates (blocks of) RAM to programs / processes // dynamic allocation of RAM to processes\n> - prevents two programs / processes occupying the same area of RAM at the same time // stops the data of different programs overwriting each other\n> - reclaims unused blocks of RAM (so they can be allocated again)\n> - decides which processes / data should be in main memory\n> - makes efficient use of (limited) memory\n> - moves data from secondary storage when needed // manages paging, segmentation and virtual memory\n> \n> **[3 marks]**\n> \n> Accept main memory or memory for RAM throughout.\n> \n> Do not accept \"decides which process runs next\" or \"shares processor time between programs\". These describe process management and scheduling, not memory management.\n> \n> Do not accept paging, segmentation and virtual memory as three separate points. Naming the techniques earns one mark at most.\n\n> **[exam-tip]**\n> Many students answer about the processor instead of memory. \"Decides which program runs next\" is scheduling. Keep every point about RAM: which program is given which blocks, keeping programs apart so they do not overwrite each other, and freeing the blocks again when a program closes.\n> \n> Listing \"paging, segmentation and virtual memory\" does not earn three marks. The question asks why memory management is needed, so say what it achieves."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qS6gJVVS6QZJpTRw",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_tDkkpbnsHfCnFz6y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NCSN5NHRmwzRpzNk"
+     ],
+     "part_tier": null,
+     "problem_md": "A file server has a single processor. Its operating system has many processes to run.\n\nGive two reasons why the operating system needs to schedule these processes.",
+     "solution_md": "Scheduling allows more than one process to appear to be executed at the same time (multi-tasking). **[1]**\n\nScheduling ensures that every process has fair access to the processor, so no process is starved of processor time. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - allows more than one process to appear to be executed at the same time // enables multi-tasking\n> - allows high priority processes to be completed first\n> - keeps the processor busy all the time // ensures all processes are executed efficiently\n> - ensures all processes have fair access to the processor // prevents starvation of some processes\n> - reduces the time that processes wait for the processor\n> \n> **[2 marks]**\n> \n> \"Fair access\" and \"prevents starvation\" are the same point and earn only one mark\n> \n> Do not accept \"to decide which process runs next\" on its own: that describes what scheduling does, not why it is needed\n> \n> Do not accept \"so that processes are executed at the same time\": on a single processor processes only appear to be executed at the same time\n\n> **[exam-tip]**\n> Make your two reasons genuinely different. Students often write \"every process gets a fair share\" and then \"no process is left waiting forever\". These are the same point in different words, so they earn one mark, not two."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8Dnwg7YP9fsfR6jG",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3xgntn4FYRczVmc2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CsXnJscqXWtXVj5V"
+     ],
+     "part_tier": null,
+     "problem_md": "A student's computer has a processor with a single core. The student has a web browser, a music player and a spreadsheet open at the same time. The student also sends a long document to a printer.\n\nExplain how the Operating System (OS) maximises the use of the computer's resources in this situation.\n\nYour answer must refer to the processor, main memory **and** the printer.",
+     "solution_md": "The OS shares processor time between the web browser, the music player, the spreadsheet and the printing task. It switches between them so that they appear to run at the same time. **[1]**\n\nThis keeps the processor busy all the time instead of leaving it idle. **[1]**\n\nThe OS allocates main memory to each open program and stops the data of one program overwriting the data of another. **[1]**\n\nThe printer works much more slowly than the processor, so the OS holds the document data in a buffer for the printer. The processor can then carry on with other tasks while the document prints. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from, max 2 for each resource:**\n> \n> Processor\n> \n> - processor time is shared between the processes / programs // multi-tasking\n> - the processor switches between processes so that they appear to run at the same time\n> - the processor is kept busy all the time // is not left idle\n> \n> Main memory\n> \n> - main memory is allocated to each process // the data of all the running programs is held in main memory at the same time\n> - the data of one process is stopped from overwriting the data of another // prevents interference between processes\n> - the OS decides which processes should be in main memory\n> \n> Printer\n> \n> - the OS allocates the printer to the process that needs it // resolves a conflict if two processes need the printer at the same time\n> - the data for the printer is held in a buffer\n> - ... because the processor and the printer work at different speeds\n> - ... so the processor is not held up waiting for the printer // can carry on with other tasks\n> \n> **[4 marks]**\n> \n> Accept \"scheduling decides which process uses the processor next\" for a processor mark.\n> \n> Accept \"virtual memory is used when main memory is full\" for a main memory mark.\n> \n> Do not accept \"the processor runs all the programs at exactly the same time\". A single-core processor carries out one process at a time, so the programs only appear to run at the same time.\n> \n> Do not accept \"the OS uses the resources efficiently\" on its own. It repeats the question without saying how.\n\n> **[exam-tip]**\n> The most common weak answer lists management tasks, such as \"memory management and process management\", and stops. Naming a task does not explain how the resource is used more fully. For each resource, say what the OS actually does with it.\n> \n> Watch the \"max 2 for each resource\" rule. A student who writes four good points about the processor alone scores only 2. The stem names three resources for a reason, so cover all three before adding detail to any one of them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Qg5PR4nKQN3kxmpc",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Xfgxnx7FC7hBHFPs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GMyF3qVHqNnkQ5Gv"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has a single processor. A user has three programs open at the same time:\n\n- a music player\n- a word processor\n- a program that is copying a large file to a USB flash drive.\n\nThe user believes that all three programs are running at the same time.\n\nExplain how the operating system uses the running, ready and blocked process states to make it appear that all three programs are running at the same time.",
+     "solution_md": "There is only one processor, so only one process can be in the running state at any one time. **[1]**\n\nThe other processes that are able to run wait in the ready state. **[1]**\n\nEach process is given a short amount of processor time and is then moved from the running state back to the ready state, and a process from the ready state is moved to the running state. **[1]**\n\nWhile the file-copy program waits for the USB flash drive to finish writing, it is moved to the blocked state, so the processor is given to a process that is able to run. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> - only one process can be in the running state at a time // there is only one processor\n> - processes that are able to run wait in the ready state / in the ready queue\n> - the running process is moved back to the ready state (for example when its time slice ends / when a higher priority process is ready)\n> - a process from the ready state is moved to the running state / is given processor time\n> - the processes are switched so quickly that they appear to run at the same time\n> - a process waiting for input/output (for example the file copy waiting for the USB flash drive) is moved to the blocked state\n> - ... so processor time is not wasted on a process that cannot continue // the processor is given to a ready process\n> \n> **[4 marks]**\n> \n> Do not accept \"the processor runs all three programs at the same time\": with a single processor the programs only appear to run at the same time\n\n> **[exam-tip]**\n> Many answers define the three states and stop. A list of definitions scores little here, because the question asks how the states are used. Describe the movement between states: running to ready, ready to running, and running to blocked when a process waits for a device.\n> \n> Do not write that multi-tasking runs programs at the same time. On a single processor the programs take turns, and the switching is so fast that they seem to run together."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pWctJtMQrhH8cVXD",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_rmstT4DHK3494gq2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GMyF3qVHqNnkQ5Gv"
+     ],
+     "part_tier": null,
+     "problem_md": "A process is in the running state. It needs to read data from a file stored on a hard disk before it can continue.\n\nDescribe the changes of process state that happen from this point until the process is executed by the processor again.",
+     "solution_md": "The process moves from the running state to the blocked state, because it must wait for the data to be read from the hard disk. **[1]**\n\nWhen the data has been read, the process moves from the blocked state to the ready state. **[1]**\n\nWhen the operating system decides that this process is the next to run, it moves from the ready state to the running state. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for running to blocked, while it waits for the read / input/output operation to finish\n> \n> **1 mark** for blocked to ready, when the read / input/output operation has finished\n> \n> **1 mark** for ready to running, when the operating system selects it as the next process to run / it is given processor time / it reaches the front of the ready queue\n> \n> Accept \"an interrupt signals that the read has finished\" as the reason for the second change\n> \n> Do not accept running to ready for the first change: the process is not waiting for the processor, it is waiting for the hard disk\n> \n> Do not accept a change from blocked directly to running: when the read finishes, the processor may be in use by another process, so the process must wait in the ready state first\n\n> **[exam-tip]**\n> The most common mistake is to send the process straight from blocked back to running as soon as the data arrives. The data arriving only means the process is able to run again. It still has to wait in the ready state until the operating system gives it the processor.\n> \n> Give both states in every change (\"from blocked to ready\"). An answer that only says \"it becomes ready\" leaves the examiner to guess which change you mean."
+    }
+   ]
+  },
+  {
+   "id": "qstn_r2V8vt38Y7Mw42vx",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_FRNtZqG9yJBnxK8y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GMyF3qVHqNnkQ5Gv"
+     ],
+     "part_tier": null,
+     "problem_md": "An operating system (OS) gives every process a process state.\n\nComplete the table by writing the name of the process state that matches each description. The first row has been done for you.\n\n| Description | Process state |\n|---|---|\n| The process is being executed by the processor. | Running |\n| The process could be executed, but it is waiting for the processor to become available. |   |\n| The process cannot continue until an event happens, such as an input/output operation finishing. |   |",
+     "solution_md": "| Description | Process state |\n|---|---|\n| The process is being executed by the processor. | Running |\n| The process could be executed, but it is waiting for the processor to become available. | **Ready** **[1]** |\n| The process cannot continue until an event happens, such as an input/output operation finishing. | **Blocked** **[1]** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Ready (state) in the second row\n> \n> **1 mark** for Blocked (state) in the third row\n> \n> Accept \"in the ready queue\" for the second row\n> \n> Do not accept Running in either row: it is already given in the first row, and only a process that is being executed is in the running state\n> \n> Do not accept Terminated or Finished for the third row: a blocked process has not ended, it continues once the event has happened\n\n> **[exam-tip]**\n> Students often swap ready and blocked, because a process in both states is \"waiting\". Ask what it is waiting for. A ready process is waiting only for the processor, so it could run straight away if the processor became free. A blocked process is waiting for something else, such as data from a disk, so it could not run even if the processor were free.\n> \n> Use the three state names from the syllabus: running, ready and blocked."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3DwhgWmTVdGRYqvG",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_jVJzkJczYm5STcyy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_C3mgT4G7C6jMqGSq"
+     ],
+     "part_tier": null,
+     "problem_md": "An operating system uses interrupt handling to manage low-level scheduling.\n\nProcess A is in the running state and process B is in the ready state. An interrupt is generated. The interrupt has a higher priority than process A.\n\nExplain how the kernel handles this interrupt so that process A stops running and can later continue from the point at which it stopped.",
+     "solution_md": "The kernel receives a signal that the interrupt has been generated. It checks the priority of the interrupt, and because it is higher than the priority of process A, the system enters kernel mode. **[1]**\n\nThe state of process A, which is the contents of its registers including the Program Counter, is saved on the kernel stack. **[1]**\n\nProcess A is pre-empted, so it moves from the running state to the ready state. **[1]**\n\nThe kernel consults the interrupt dispatch table (IDT) and the Interrupt Service Routine (ISR) is executed. When the interrupt has been serviced, the scheduling routine decides which process in the ready state runs next. This could be process A or process B.\n\nWhen process A is given the processor again, its saved state is restored from the kernel stack, so it continues from the instruction where it stopped. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> - the kernel receives a signal when the interrupt is generated\n> - the kernel checks the priority of the interrupt against process A // the system enters kernel mode because the interrupt has a higher priority than process A\n> - the state of process A // the contents of the registers of process A is saved on the (kernel) stack\n> - process A is pre-empted // process A moves from the running state to the ready state\n> - the kernel consults the interrupt dispatch table / IDT to find the ISR, which is then executed\n> - after the interrupt has been serviced, scheduling decides which process in the ready state runs next (process A or process B)\n> - when process A runs again, its saved state // the contents of its registers is restored (from the kernel stack) so that it continues from where it stopped\n> \n> **[4 marks]**\n> \n> Accept \"the kernel restores the state of process A once the interrupt has been serviced\" for the last point.\n> \n> Do not accept \"process A moves to the blocked state\". A blocked process is waiting for an event or a resource. Process A is able to run and is only waiting for the processor, so it is in the ready state.\n> \n> Do not accept \"process A is terminated\". Its state is saved precisely so that it can continue later.\n> \n> Do not credit a statement that process B always runs next. The scheduling routine makes that decision.\n\n> **[exam-tip]**\n> The most common answer here is the Paper 1 one: the interrupt is detected at the end of the fetch-execute cycle, the ISR runs, the registers are restored and the process carries on. That answer never mentions the kernel, the process states or scheduling, and it misses most of the marks. This question is about how an interrupt lets the operating system take the processor away from one process and decide what runs next.\n> \n> Watch the process state. An interrupted process goes from running to ready, not to blocked. Blocked is for a process that is waiting for something such as data from a device, and process A is not waiting for anything except the processor."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gS6JdcXDpd2Pshqm",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_XJ2hc8wJ3yTfytbT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CsXnJscqXWtXVj5V"
+     ],
+     "part_tier": null,
+     "problem_md": "A student copies a photo from the hard disk of a computer to a USB flash drive. The student does this by dragging the icon for the photo onto the icon for the flash drive.\n\nThe user interface hides the complexities of the hardware from the student.\n\nIdentify **two** complexities of the hardware that are hidden from the student during this task.",
+     "solution_md": "The memory locations (addresses) that the data for the photo is read from and written to. **[1]**\n\nThe buses that are used to transfer the data for the photo. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - the memory locations / addresses that the data is read from or written to // where the data is physically stored on the hard disk or flash drive\n> - the buses used to transfer the data // the data bus / the address bus\n> - the commands needed to control the hard disk or the flash drive\n> \n> **[2 marks]**\n> \n> Do not accept the icon, or dragging and dropping. These are what the user interface shows the student, not what it hides.\n> \n> Do not accept \"it makes the computer easier to use\". This is a benefit of the user interface, not a complexity of the hardware.\n\n> **[exam-tip]**\n> This question asks what is hidden, not why hiding it is useful. Many students write a benefit, such as \"the student does not need technical knowledge\". That answers a different question and scores nothing here.\n> \n> Name a real hardware detail that the student never sees: the memory locations the data goes to, the buses it travels along, or the commands sent to the storage device. If your answer is something the student can see on the screen, such as an icon or a file name, it is not hidden."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GBPYr9mtVRKhZskp",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6TykdZQ6VtK553mv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_C3mgT4G7C6jMqGSq"
+     ],
+     "part_tier": null,
+     "problem_md": "An operating system receives an interrupt that has a higher priority than the process that is currently running.\n\nIdentify:\n\n- the mode that the system enters to handle the interrupt\n- the table that is consulted to find the Interrupt Service Routine (ISR) for this type of interrupt.",
+     "solution_md": "Mode: kernel mode **[1]**\n\nTable: interrupt dispatch table (IDT) **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for kernel mode\n> \n> **1 mark** for interrupt dispatch table // IDT\n> \n> Do not accept \"interrupt register\" for the table. The interrupt register holds the flag that shows an interrupt is waiting. It does not identify the ISR to run.\n> \n> Do not accept \"stack\" or \"kernel stack\" for the table. The stack is where the state of the interrupted process is saved, not where the ISR is found.\n\n> **[exam-tip]**\n> Students often answer this with the Paper 1 description of interrupts and write \"the interrupt register is checked\". At A Level the interrupt is handled by the kernel of the operating system. The interrupt register only shows that an interrupt has been raised. The interrupt dispatch table is what the kernel uses to find the correct ISR.\n> \n> Three kernel terms are easy to mix up, so learn them as a set: the system enters kernel mode, the kernel consults the interrupt dispatch table, and the state of the interrupted process is saved on the kernel stack."
+    }
+   ]
+  },
+  {
+   "id": "qstn_b6TGMZvYrHydjHrh",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_KgGSKHpmdkNcvYRn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_C3mgT4G7C6jMqGSq"
+     ],
+     "part_tier": null,
+     "problem_md": "The kernel is the central component of an Operating System (OS).\n\nOutline how the kernel of an OS acts as an interrupt handler.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 the kernel receives a signal when an interrupt is generated\n> \n> MP2 the kernel checks the priority and reviews the status/priority of the current interrupts\n> \n> MP3 system enters kernel mode if the type of interrupt is of higher priority than the current process\n> \n> MP4 the kernel consults the interrupt dispatch table / IDT\n> \n> MP5 … and saves the state of the interrupted process / contents of the registers on the kernel stack\n> \n> MP6 the kernel restores the process state e.g. contents of registers once the interrupt is serviced"
+    },
+    {
+     "id": "qstnprt_HnCQmhGG7jqNSPxW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NCSN5NHRmwzRpzNk",
+      "spcpt_GMyF3qVHqNnkQ5Gv"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) State what is meant by the term **multi‑tasking** in an Operating System.\n\n(1)\n\n(ii) Describe how multi‑tasking is implemented in an Operating System.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **One **mark per mark point (**Max 1**)\n> \n> MP1 multi-tasking allows computers to carry out / seem to carry out more than one process at a time\n> \n> (ii) **One **mark per mark point (**Max 2**)\n> \n> MP1 processor time/common hardware and resources is/are shared between tasks\n> \n> MP2 scheduling is used to decide on the processes to be carried out to ensure multi-tasking operates correctly / efficiently / without clashes\n> \n> MP3 one task of a higher priority can interrupt another task that is currently running"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3kCJzW4MNc7wRc7g",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_867Y3yDq8gB6Zynj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ztV4XcxXGcRJ9KRK",
+      "spcpt_4BtYyv8hgvms2CFG"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the process of **segmentation **for memory management.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 4**)\n> \n> MP1 In segmented memory, the logical / virtual address space is broken into varying sized blocks called segments / sections.\n> \n> MP2 Each segment has a name and size.\n> \n> MP3 During execution segments from logical / virtual memory are loaded into physical memory.\n> \n> MP4 The address is specified by the user\n> \n> MP5 … it contains the segment name and offset value.\n> \n> MP6 Segments are numbered\n> \n> MP7 … and this number is used as an index in the segment map table.\n> \n> MP8 The offset value determines the size of the segment.\n> \n> MP9 A segment map table maps logical / virtual addresses to physical addresses / contains the segment number and offset"
+    },
+    {
+     "id": "qstnprt_VbMdVbjGJKTMrQjw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by **disk thrashing.**",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 Disk thrashing is a problem that may occur when virtual memory is being used.\n> \n> MP2 As the main memory fills up, more and more pages need to be swapped in and out of virtual memory.\n> \n> MP3 This swapping leads to a very high rate of hard disk access / excessive disk head movements.\n> \n> MP4 Moving a hard disk read/write head takes a relatively long time / long latency time.\n> \n> MP5 Eventually, more time is spent swapping pages than processing data thrash point, which can cause the program to freeze or not run."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bFG8MX9BtvNczGwf",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_bGjZBWTs49G3Y96x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB",
+      "spcpt_4BtYyv8hgvms2CFG"
+     ],
+     "part_tier": null,
+     "problem_md": "Outline the reasons why an operating system may need to use virtual memory.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 2) **\n> \n> - MP1    Virtual memory is used when RAM is running low\n> - MP2    …such as when a computer is running many processes at once.\n> - MP3    Virtual memory may be used for efficient use of RAM / the processor\n> - MP4    …such as if data / programs are not immediately needed, they can be moved from RAM to virtual memory"
+    },
+    {
+     "id": "qstnprt_BvydtFQZcNNdXgXf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_y7VT64ymwJ6m4GnB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the circumstances in which disk thrashing could occur.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 3) **\n> \n> - MP1 Disk thrashing is a problem that may occur when frequent transfers between main memory and secondary memory take place // Disk thrashing is a problem that may occur when virtual memory is being used\n> - MP2 As main memory fills up, more pages need to be swapped in and out of secondary/virtual memory\n> - MP3 This swapping leads to a very high rate of hard disk head movements\n> - MP4 Eventually, more time is spent swapping the pages/data than processing the data."
+    }
+   ]
+  },
+  {
+   "id": "qstn_d7yBXqNM59rdw6P9",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_FhDhcZfw4q4QTqFh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A student buys a new computer.\n\nState one benefit to the student of a user interface and give an example.\n\nBenefit\n\nExample",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark for a benefit **(Max 1)** e.g.\n> \n> - MP1    The user interface hides the complexities of the computer hardware/operating system from the user\n> - MP2    It provides appropriate access systems for users with differing needs\n> - MP3    Complex commands involving memory locations/buses/computer hardware/ are avoided\n> \n> **One** mark for a valid example **(Max 1) **e.g.\n> \n> Clicking on icon rather than writing code \n> Using a graphical user interface / icons for navigation"
+    },
+    {
+     "id": "qstnprt_JwyqKWgbH3dYKvB2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_GMyF3qVHqNnkQ5Gv"
+     ],
+     "part_tier": null,
+     "problem_md": "Two of the process states are the running state and the ready state.\n\nIdentify one other process state.",
+     "solution_md": "> **[mark-scheme]**\n> Blocked (state)"
+    },
+    {
+     "id": "qstnprt_ydgB63dZwkpNYjnQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_NCSN5NHRmwzRpzNk",
+      "spcpt_GMyF3qVHqNnkQ5Gv",
+      "spcpt_C3mgT4G7C6jMqGSq"
+     ],
+     "part_tier": null,
+     "problem_md": "Outline conditions under which a process could change from the running state to the ready state.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 2) **\n> \n> - MP1    When the time slice of the running process expires (round robin).\n> - MP2    …and there is a process with a higher priority in the ready queue, the running process is pre-empted\n> - MP3    When an interrupt arrives at the CPU, (the process running on the CPU gets pre-empted)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,659 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:24Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "13-data-representation-",
+  "name": "13. Data Representation"
+ },
+ "topic": {
+  "id": "top_s89rHGYKyg2md5By",
+  "slug": "file-organisation-and-access-",
+  "name": "File Organisation & Access",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "hashing",
+   "name": "Hashing",
+   "revision_note_id": "rn_jY8JBHJvJcFj4w5k"
+  },
+  {
+   "slug": "file-organisation",
+   "name": "File Organisation",
+   "revision_note_id": "rn_wxHq8dNrgZCjVFdR"
+  },
+  {
+   "slug": "file-access",
+   "name": "File Access",
+   "revision_note_id": "rn_9ttsrrtY9bQ7pnVC"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8hD3dPgkkzmWMrHz",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 16,
+   "questions_embedded": 16,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/13-data-representation-/file-organisation-and-access-/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 16,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_hkYGfgDbvM6Y5rY2",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_JSXgv4R2tXrhDHsb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN"
+     ],
+     "part_tier": null,
+     "problem_md": "A random access file stores account records. Each record has a record key, which is a four-digit number.\n\nThe main area of the file has seven storage locations, with the addresses 0 to 6. The file also has a separate overflow area.\n\nThe hashing algorithm calculates the hash value as the record key modulus 7. The function modulus gives the remainder after integer division.\n\nWhen a record is added and the address given by its hash value is already in use, the record is stored in the first free location in the overflow area.\n\nThe current contents of the main area are shown.\n\n| Address | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| Record key | 4802 | 3025 | 2571 | 8410 | 1236 | 1874 | 6089 |\n\nThe overflow area currently holds one record, with the record key 7318.\n\n(i) A new record with the record key 9260 is added to the file.\n\nExplain where this record is stored.\n\n(2)\n\n(ii) The program then searches the file for the record with the record key 7318.\n\nExplain how this record is found.\n\n(3)",
+     "solution_md": "**(i)**\n\n9260 modulus 7 = 6, because 9260 = (7 x 1322) + 6, so the hashing algorithm gives address 6. **[1]**\n\nAddress 6 already holds the record with record key 6089, so a collision occurs and the new record is stored in the first free location in the overflow area. **[1]**\n\n**(ii)**\n\n7318 modulus 7 = 3, because 7318 = (7 x 1045) + 3, so the hashing algorithm gives address 3. **[1]**\n\nThe record key stored at address 3 is 8410, which does not match 7318, so the required record is not at that address. **[1]**\n\nThe overflow area is then searched, one record after another, until the record with record key 7318 is found. **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> Part (i)\n> \n> **1 mark** for a hash value or address of 6 for record key 9260\n> \n> **1 mark** for stating that address 6 is already in use by record key 6089, so the new record is written to the overflow area\n> \n> Part (ii)\n> \n> **1 mark** for a hash value or address of 3 for record key 7318\n> \n> **1 mark** for comparing the record key held at address 3 with 7318 and finding that 8410 does not match\n> \n> **1 mark** for searching the overflow area one record after another until the matching record key is found\n> \n> Accept storage location, storage space or memory location in place of address throughout.\n> \n> Accept linearly, in a linear fashion, one at a time or in turn, in place of one record after another.\n> \n> Do not accept that the new record is stored at address 0 in part (i). Every address in the main area is already in use, and this file resolves a collision by using the overflow area, not by returning to the start of the main area.\n> \n> Do not accept that the new record replaces record key 6089. A record already in the file is not overwritten by a record with a different record key.\n> \n> Do not accept that the record held at address 3 is returned as the answer in part (ii). The record key stored at that address must be compared with the record key being searched for before the record is accepted.\n\n> **[exam-tip]**\n> The comparison mark in part (ii) is the one you are most likely to lose. Calculating the hash value only tells you where to look first. The record found there may belong to a different record key, so the algorithm must compare the stored record key with the one being searched for before it accepts the record.\n> \n> Read the stem to see which collision method this particular file uses. Here the stem states an overflow area, so an answer describing a search through the following addresses of the main area does not fit this file, and in this case there is no free address left in the main area anyway."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ycDD9NHKp7789PR4",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_t759r8XDnK8Nwrtn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN"
+     ],
+     "part_tier": null,
+     "problem_md": "A random access file stores product records. Each record has a record key, which is a four-digit number.\n\nThe main area of the file has five storage locations, with the addresses 0, 1, 2, 3 and 4.\n\nThe hashing algorithm has two steps:\n\n1. add together the four digits of the record key\n2. the hash value is the answer to step 1 modulus 5\n\nThe function modulus gives the remainder after integer division.\n\nIf the address given by the hash value is already in use, the record is stored at the next free address after it.\n\nThe main area is empty. Four records are then added, in the order shown in the table.\n\nThe first row has been completed for you. The digits of 3142 add up to 10, and 10 modulus 5 = 0, so that record is stored at address 0.\n\nComplete the table to show the hash value and the storage address for each of the remaining three records.\n\n| Record key | Hash value | Address where the record is stored |\n|---|---|---|\n| 3142 | 0 | 0 |\n| 2081 |   |   |\n| 5230 |   |   |\n| 4207 |   |   |",
+     "solution_md": "| Record key | Hash value | Address where the record is stored |\n|---|---|---|\n| 3142 | 0 | 0 |\n| 2081 | **1** | **1** |\n| 5230 | **0** | **2** |\n| 4207 | **3** | **3** |\n\n2081: 2 + 0 + 8 + 1 = 11, and 11 modulus 5 = 1. Address 1 is free, so the record is stored at address 1. **[1]**\n\n5230: 5 + 2 + 3 + 0 = 10, and 10 modulus 5 = 0. **[1]**\n\nAddress 0 already holds record key 3142, so a collision occurs. Address 1 already holds record key 2081, so the next free address is 2. **[1]**\n\n4207: 4 + 2 + 0 + 7 = 13, and 13 modulus 5 = 3. Address 3 is free, so the record is stored at address 3. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for record key 2081 given a hash value of 1 and an address of 1\n> \n> **1 mark** for record key 5230 given a hash value of 0\n> \n> **1 mark** for record key 5230 given an address of 2\n> \n> **1 mark** for record key 4207 given a hash value of 3 and an address of 3\n> \n> Accept the digit sum shown as working alongside the hash value, for example 11 then 1.\n> \n> Do not accept an address of 0 for record key 5230. Address 0 already holds record key 3142, and two records cannot occupy the same address.\n> \n> Do not accept an address of 1 for record key 5230. Address 1 is not free either, because record key 2081 was stored there first, so the search continues to address 2.\n> \n> Do not accept a hash value of 2 for record key 4207. That is 4207 modulus 5, which leaves out step 1 of the algorithm.\n> \n> Do not accept 11, 10 or 13 as hash values. These are the digit sums before step 2 has been carried out, and they fall outside the address range 0 to 4.\n\n> **[exam-tip]**\n> Work down the table one record at a time and write each address in as you go. The order matters: record key 5230 only ends up at address 2 because 2081 was already placed at address 1. If you calculate all four hash values first, and fill in the addresses afterwards, it is easy to forget that an earlier record is now in the way.\n> \n> Keep the two steps of the algorithm separate. Adding the digits and then taking modulus 5 gives a different answer from taking modulus 5 of the record key itself, and only the first is what this question asked for."
+    }
+   ]
+  },
+  {
+   "id": "qstn_YhK8n93DxdRmpNJz",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_TXWGMrD2Xr2ys2NV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN"
+     ],
+     "part_tier": null,
+     "problem_md": "A random access file stores customer records. Each record has a record key, which is a four-digit number.\n\nA hashing algorithm is used to calculate the storage location of each record. It calculates hash values by using the function modulus 7.\n\nThe function modulus gives the remainder after integer division.\n\nFor example, 4021 modulus 7 = 3. Therefore, the record key 4021 gives a hash value of 3.\n\nComplete the table to show the remaining hash values.\n\n| Record key | Hash value |\n|---|---|\n| 4021 | 3 |\n| 5009 |   |\n| 6134 |   |",
+     "solution_md": "| Record key | Hash value |\n|---|---|\n| 4021 | 3 |\n| 5009 | **4** |\n| 6134 | **2** |\n\n5009 = (7 x 715) + 4, so 5009 modulus 7 = 4 **[1]**\n\n6134 = (7 x 876) + 2, so 6134 modulus 7 = 2 **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the hash value of record key 5009 given as 4\n> \n> **1 mark** for the hash value of record key 6134 given as 2\n> \n> Accept the value shown inside the working, for example 5009 - 5005 = 4, provided the hash value itself is clear.\n> \n> Do not accept 715 for 5009, or 876 for 6134. These are the whole-number results of the division. The hash value is the remainder that is left over, not the number of times 7 divides into the record key.\n> \n> Do not accept any value of 7 or more. A hash value produced by modulus 7 can only be 0, 1, 2, 3, 4, 5 or 6.\n\n> **[exam-tip]**\n> Calculators are not allowed in this paper, so do the division by hand and keep the remainder. Find the largest multiple of 7 that is not greater than the record key, then subtract it: 7 x 715 = 5005, and 5009 - 5005 = 4.\n> \n> The most common mistake here is writing down the answer to the division instead of the remainder. One quick check saves the mark every time: if your hash value is bigger than 6, you have not used modulus 7."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sDmGQkBnJWN6mpTx",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_ZWzkVkc9VMMMvQC2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "A sequential file holds eight employee records. The records are ordered on the key field `EmployeeID`.\n\nThe `EmployeeID` values, in the order in which the records appear in the file, are:\n\n104, 118, 127, 133, 141, 156, 160, 172\n\nSequential access is used to search this file.\n\n(i) State the number of records that are read when the record with `EmployeeID` 133 is searched for.\n\n(1)\n\n(ii) A search is made for `EmployeeID` 147. There is no record with this value in the file.\n\nState the number of records that are read, and explain why the search does not have to read every record in the file.\n\n(3)",
+     "solution_md": "**(i)** 4 records are read. **[1]**\n\n**(ii)** 6 records are read. **[1]**\n\nSequential access reads the records one at a time from the physical start of the file and compares the key field of each record with 147. **[1]**\n\nThe sixth record read has the key field 156, which is greater than 147. Because the file is ordered on the key field, no record after this point can hold 147, so the search stops there. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for (i) 4\n> \n> **1 mark** for (ii) 6\n> \n> **1 mark** for records are read one at a time from the physical start of the file and each key field is compared with the target value\n> \n> **1 mark** for once a key field greater than 147 is read the record cannot appear later, because the file is ordered on the key field\n> \n> Accept for (i) a list of the four values read, 104, 118, 127, 133.\n> \n> Accept for the final mark \"156 is past 147 in the order, so 147 is not in the file\".\n> \n> Do not accept 8 for (ii). Reading every record is what sequential access does on a serial file, where the records are in no key order. This file is a sequential file.\n> \n> Do not accept 7 for (ii). The search stops on the record that fails the test; it does not read a further record afterwards.\n\n> **[exam-tip]**\n> Almost every mark lost here is the same mistake: answering 8 because \"sequential access checks every record\". That is only true when there is no key order to rely on. On a sequential file the early stop is the whole point, and CIE marks it explicitly. Count the reads by hand rather than reasoning about them, and remember to include the record that triggers the stop."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SMbwDjyZmNrsWCJd",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_t8CsNMtftSrNBcWK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "An online store keeps a file of 400 000 customer records. The file uses random organisation. Each customer has a unique customer number, which is the key field of the record.\n\nWhen a customer signs in, the store must display that customer's record without delay.\n\nExplain why direct access, rather than sequential access, is the appropriate method of file access for this file.",
+     "solution_md": "Direct access allows the one customer record that is needed to be read without any of the other records in the file being read. **[1]**\n\nThe address of the record is worked out from the key field, the customer number, using a hashing algorithm, so the record can be read as soon as the customer number is entered. **[1]**\n\nSequential access would instead read records one after the other from the physical start of the file, and with 400 000 records the response would be far too slow. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - Direct access finds the required record without reading the other records in the file\n> - The address of the record is obtained from the key field / the customer number\n> - A hashing algorithm is applied to the key field to give the address\n> - Sequential access would read records one at a time from the physical start of the file\n> - The records in a random file are stored in no particular order, so a sequential search would have to continue to the end of the file before the record could be reported as missing\n> - With 400 000 records the number of records read would be very large, so the response would be too slow\n> \n> **[3 marks]**\n> \n> Accept \"calculated from the customer number\" for the address point.\n> \n> Do not accept an answer that only says direct access is faster. The mark is for saying why: the other records are not read.\n> \n> Do not accept \"an index is used to find the address\". An index is how direct access works on a sequential file. This file uses random organisation.\n\n> **[exam-tip]**\n> The most common loss of marks here is writing a general comparison of the two access methods instead of answering about this file. Tie every point to the scenario: one record is wanted, it is wanted straight away, and there are 400 000 of them. A second frequent error is to describe an index. Keep the two routes apart: direct access on a sequential file uses an index of key fields, direct access on a random file uses a hashing algorithm."
+    }
+   ]
+  },
+  {
+   "id": "qstn_YCxr6wVsCpdRGYb4",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_HCFkm2YWYHzYFp8K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "A company stores its data records in files. Different files on the company's system use different methods of file organisation.\n\nComplete the table by writing the method of file access that can be used with each method of file organisation.\n\n| Method of file organisation | Method of file access |\n|---|---|\n| Serial |   |\n| Random |   |",
+     "solution_md": "| Method of file organisation | Method of file access |\n|---|---|\n| Serial | **Sequential access** **[1]** |\n| Random | **Direct access** **[1]** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for Serial: sequential access\n> \n> **1 mark** for Random: direct access\n> \n> Accept \"sequential\" and \"direct\" written on their own.\n> \n> Do not accept direct access for a serial file. A serial file has no key field ordering and there is no way of working out where a record is stored, so a record can only be reached by reading the records in front of it.\n> \n> Do not accept sequential access for a random file. The records are stored in no particular order, so reading them one after the other is not a way of finding a target record from its key.\n\n> **[exam-tip]**\n> Students lose this mark by matching the two words that look the same. \"Sequential access\" and \"sequential organisation\" are not the same thing, and a serial file is read using sequential access even though it is not a sequential file. Learn the pairing in the form the syllabus states it: sequential access for serial and sequential files, direct access for sequential and random files."
+    }
+   ]
+  },
+  {
+   "id": "qstn_542ysdnCVmYxTWGh",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_6bQf2FJDZcmS5Xf7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "An online ticket agency stores one record for each booking. Each record has a unique booking reference, which is the key field. The records are currently held in a file that uses sequential file organisation.\n\nThe agency is changing its system. Customers will be able to amend their own bookings at any time of day, so amendments will be made continuously.\n\nExplain why sequential file organisation is no longer suitable for this file, and describe how the records would be held in a file that uses random file organisation.",
+     "solution_md": "In a sequential file the records must stay in order of the key field, so a record cannot simply be altered where it sits. **[1]**\n\nEvery amendment therefore means writing out a new version of the whole file, and with amendments arriving continuously the file would have to be rewritten again and again. **[1]**\n\nIn a file that uses random organisation the records are stored in no particular order. **[1]**\n\nThe position of each record is fixed by its own booking reference rather than by the records around it, so an amended record can be written back directly, in place, without rewriting the file. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Sequential organisation, any two from:**\n> \n> - the records in the file are ordered\n> - the order is based on the key field\n> - a new version of the file has to be created to update the file, which is not practical when amendments are continuous\n> \n> Maximum 2 marks for sequential organisation\n> \n> **1 mark** for the random layout: the records are stored in no particular order // there is no sequencing in the placement of the records\n> \n> **1 mark** for the consequence: the location of a record is determined by its record key, so updates can be carried out directly\n> \n> Accept \"a new master file has to be produced\" for the new-version point.\n> \n> Accept \"a hashing algorithm is applied to the booking reference to give the record's location\" for the final mark on random organisation.\n> \n> Do not accept \"sequential files are slow to search\". That is a point about file access, not about how the file is organised, and the difficulty here is updating rather than searching.\n> \n> Do not accept \"random files are faster\" on its own. A bare speed claim earns nothing without the reason, which is that a record's position comes from its key, so that record can be rewritten on its own.\n\n> **[exam-tip]**\n> The mark is for the consequence, not the label. Writing \"sequential files are hard to update\" only repeats the question. Say why: the records have to stay in key order, so changing one means writing the whole file out again.\n> \n> Watch the word \"continuously\" in the stem. It is there to tell you that batch updating is not an option, and that is the whole reason sequential organisation fails. Exam scenarios usually hide the deciding detail in one short phrase like this."
+    }
+   ]
+  },
+  {
+   "id": "qstn_M8gvkqKpSTSCbrjg",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_X3rtVRt2fhsxZgFX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "A national library keeps one record for each book it holds. Each record has a unique catalogue number, which is the key field.\n\nNew books are added to the collection once a month, in a single batch.\n\nEvery week the library produces a printed list of all the books it holds, in catalogue-number order.\n\nIdentify the most appropriate method of file organisation for this file and explain your choice.",
+     "solution_md": "Sequential file organisation. **[1]**\n\nThe records are held in order of the key field, which is the catalogue number, so the file is already arranged in the order the printed list needs. **[1]**\n\nThe file is only changed once a month, in a single batch, so the need to write out a new version of the file whenever it is updated is not a problem here. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for naming sequential file organisation\n> \n> **1 mark** for linking the ordering to the key field: the records are stored in order of the catalogue number // the file is already held in catalogue-number order\n> \n> **1 mark** for linking the cost of updating to the batch pattern: a sequential file has to be written out as a new version when records are added, and additions here happen only once a month // updates are infrequent, so rewriting the file is acceptable\n> \n> Accept \"sorted file\" for sequential.\n> \n> Do not accept serial. In a serial file the records are stored in the order they arrive, so the file would be in the order the books were bought, not in catalogue-number order.\n> \n> Do not accept random. In a random file the records are stored in no particular order, so the file itself is not held in catalogue-number order.\n\n> **[exam-tip]**\n> A \"choose the method\" question only earns full marks if your reasons are tied to detail in the scenario. Two details do the work here: the unique catalogue number, which is the key field, and the fact that new books arrive once a month in a batch. Name them both.\n> \n> The common error is to pick random organisation because it sounds faster. How quickly one record can be reached is a question about file access, not about file organisation. This file is always used as a whole list and is updated in batches, which is what sequential organisation is for."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SR9WQSX7VPtnjwRP",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_DWVPFcT6MDGy4zwH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer is deciding how to store data records in a file.\n\nComplete the table by describing how the records are placed in the file for each method of file organisation.\n\n| Method of file organisation | How the records are placed in the file |\n|---|---|\n| Sequential |   |\n| Random |   |",
+     "solution_md": "| Method of file organisation | How the records are placed in the file |\n|---|---|\n| Sequential | **The records are stored in order, and that order is set by the value of a key field** **[1]** |\n| Random | **The records are stored in no particular order, and the position of each record is set by that record's key** **[1]** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for sequential: the records are stored in order // the records are sorted, based on the value of a key field\n> \n> **1 mark** for random: the records are stored in no particular order // there is no sequencing in the placement of the records // the location of a record is set by its record key\n> \n> Accept \"ordered on a record key\" or \"ordered on an index\" for the sequential mark.\n> \n> Accept \"a hashing algorithm is applied to the record key to give the location\" for the random mark.\n> \n> Do not accept \"the records are stored in the order they arrive\" for sequential. That describes serial organisation, where each new record is appended to the end of the file.\n> \n> Accept \"the records are stored in no particular order\" on its own for random; \"stored randomly\" may be read as the same point. Do not accept \"the records are put anywhere at random, by chance\".\n\n> **[exam-tip]**\n> \"Random\" is a misleading name. Records in a random file are not scattered by chance. Each record's position comes from its key, and that is exactly what makes the file useful. Students who write \"the records are put anywhere by chance\" lose the mark; \"stored in no particular order\" earns it.\n> \n> Sequential and serial are easy to mix up because the words look alike. Serial means the order the records arrived in. Sequential means sorted on a key field. Naming the field your order is based on shows the examiner you know the difference."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gnqdMfxJjnxJGGd2",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tkq8njWFNP8MKj54",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN"
+     ],
+     "part_tier": null,
+     "problem_md": "The location of a record in a random file is determined using a hashing algorithm. A collision may occur during the process of adding a record.\n\nOutline what is meant by the term **collision** in this context.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 A collision is when the two values / data items in the key field for two records (pass through a hashing algorithm and) result in the same hash value\n> \n> MP2 …so the location identified (by the hashing algorithm) may already be in use // two records cannot occupy the same address."
+    },
+    {
+     "id": "qstnprt_C6YC59HSbsRsCyt2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN",
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how a collision can be dealt with when writing records to a random file.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 A process of collision resolution is used\n> \n> MP2 Start at the original hashed storage space\n> \n> MP3 …go through the following spaces in a linear fashion\n> \n> MP4 …and **store the data item** in the first available slot.\n> \n> **OR **\n> \n> MP5 Search the overflow area\n> \n> MP6 …go through the following spaces in a linear fashion\n> \n> MP7 …and **store the data item** in the first available slot.\n> \n> **OR **\n> \n> MP8 Each storage space holds a reference to a collection / chain of items\n> \n> MP9 …which can be searched individually.\n> \n> MP10 The **data item is stored** in the first available space in this chain."
+    }
+   ]
+  },
+  {
+   "id": "qstn_nBWNwwkMB3hkrZzt",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_srcwRf84nbcZjJXt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe sequential and random methods of file organisation.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point – sequential (**Max 2**)\n> \n> MP1 **Records **(in the file) are ordered\n> \n> MP2 …based on the **key field **\n> \n> MP3 A new version (of the file) has to be created to update the file\n> \n> One mark per mark point – random (**Max 2**)\n> \n> MP4 **Records **are stored in no particular order within the file // There is no sequencing in the placement of the **records **\n> \n> MP5 There is a relationship between the key of the **record **and its location within the file // a hashing algorithm is used to find the location of the **record **\n> \n> MP6 Updates to the file can be carried out directly."
+    },
+    {
+     "id": "qstnprt_xsvYgySKDjmkTDwg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Outline the process of sequential access for serial and sequential files.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 Start at the beginning of the file\n> \n> MP2 …check records linearly\n> \n> MP3 …until the desired record is found // … processing / updating records as required //… EOF found."
+    }
+   ]
+  },
+  {
+   "id": "qstn_v2hzvrrq6Z7HYYzz",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_FvYKtnyc3XhkvQrJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Outline what is meant by **direct access** as a method of file access.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** per mark point (**Max 2**)\n> \n> MP1 Direct access allows a **record **to be found in a file without other records being read.\n> \n> MP2 **Records **are found by using the **key field** of the target **record **// the location of the record is found using a **hashing algorithm.**"
+    },
+    {
+     "id": "qstnprt_RZD6wXVHqrtMkXCR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN",
+      "spcpt_t3kQPYdsm3nhhMHb",
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how direct access is used to locate a specific record in sequential files and random files.\n\n(i) Sequential files\n\n(2)\n\n(ii) Random files\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **One mark** per mark point (**Max 2**)\n> \n> MP1 In sequential files, an index of all key fields is kept\n> \n> MP2 The index is **searched **for the address of the file location where the target record is stored.\n> \n> (ii) **One mark** per mark point (**Max 2**)\n> \n> MP1 A **hashing algorithm** is used on the **key **field of the record\n> \n> MP2 … to calculate the address of the memory **location** where the target record is expected to be stored.\n> \n> MP3 Method to find a record if it is not at the expected location e.g. linear probing, search overflow area etc."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3JYVpx3ys8CDgMXJ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_ZfDmZxdngtkbRmkx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the sequential method of file access.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point (**Max 2**)\n> \n> MP1 Sequential access method searches for records one after the other\n> \n> MP2 … from the physical start of the file until the record is found/the end of file."
+    },
+    {
+     "id": "qstnprt_VyjvNbMHDvZfDRZr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb",
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how the sequential method of file access is applied to files with serial organisation and to files with sequential organisation.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point (**Max 3**)\n> \n> MP1 For serial files, records are stored in chronological order\n> \n> MP2 … every record needs to be checked until the record is found, or all records have been checked.\n> \n> MP3 For sequential files, records are stored in order of a key field/index, and it is the key field/index that is compared.\n> \n> MP4 … every record is checked until the record is found, or the key field of the current record is greater than the key field of the target recor"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JsCwKbxQxH5Q2m4B",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_PhTNXDDx4mQV7hhP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb",
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe **serial file organisation** as a method of storing data records in a file.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 Records are stored one after the other as they are collected // records are stored in chronological order \n> MP2 New records are appended to the end of the file."
+    },
+    {
+     "id": "qstnprt_4Nt6xR5CMDf6qqdn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **example of a use for serial file organisation.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark for a use (**Max 1**)\n> \n> MP1 Creating unsorted / temporary transaction files \n> MP2 Creating data logging files"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3WSmRb4pckkHfW7k",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_msQYQzw6qhKcSRmc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN",
+      "spcpt_t3kQPYdsm3nhhMHb",
+      "spcpt_Bd5rpm2XnqkVD5KP"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by a hashing algorithm in the context of file access.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** per mark point (**Max 3**)\n> \n> MP1 A hashing algorithm is used in direct access methods on random and sequential files\n> \n> MP2 It is a mathematical formula\n> \n> MP3 … used to perform a calculation applied to the key field of the record being searched / stored\n> \n> MP4 The result of the calculation gives the address where the record should be found / stored."
+    },
+    {
+     "id": "qstnprt_8Rmg7yDVt6gvFnDq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XWPwvhWzsWwv4jKN"
+     ],
+     "part_tier": null,
+     "problem_md": "The use of a hashing algorithm can result in the same storage location being identified for more than one record.\n\nOutline **two **methods of overcoming this issue.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark **per mark point (**Max 2**)\n> \n> MP1 The record is stored in the next free memory space after the one identified by the hashing algorithm // Use linear progression\n> \n> MP2 An overflow area is set up and the record is stored in the next free memory space in the overflow area."
+    }
+   ]
+  },
+  {
+   "id": "qstn_93KnnVmD8JRxs6M7",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_nkH4FFDYhzHNG72J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_t3kQPYdsm3nhhMHb"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being developed to implement a game for up to six players.\n\nDuring the game, each player assembles a team of characters. At the start of the game there are 45 characters available.\n\nEach character has four attributes, as follows:\n\n| **Attribute** | Examples | Comment |\n|---|---|---|\n| **Player** | 0, 1, 3 | The player the character is assigned to. |\n| **Role** | Builder, Teacher, Doctor | The job that the character will perform in the game. |\n| **Name** | Bill, Lee, Farah, Mo | The name of the character. Several characters may perform the same role, but they will each have a unique name. |\n| **Level** | 14, 23, 76 | The skill level of the character. An integer in the range 0 to 100 inclusive. |\n\nThe programmer has defined a record type to define each character.\n\nThe record type definition is shown in pseudocode as follows:\n\n`TYPE CharacterType`\n`       DECLARE Player : INTEGER `\n`       DECLARE Role : STRING`\n`       DECLARE Name : STRING `\n`       DECLARE Level : INTEGER `\n`ENDTYPE`\n\nThe `Player `field indicates the player to which the character is assigned (1 to 6). The field value is 0 if the character is **not **assigned to any player.\n\nThe programmer has defined a global array to store the character data as follows:\n\n`DECLARE Character : ARRAY[1:45] OF CharacterType`\n\nAt the start of the game all record fields are initialised, and all `Player` field values are set to 0\n\nThe programmer has defined a program module as follows:\n\n| **Module** | **Description** |\n|---|---|\n| `Assign()` | - called with two parameters:<br><br>  - an integer representing a player<br>  - a string representing a character role<br>- search the `Character` array for an unassigned character with the required role<br>- If found, assign the character to the given player and output a confirmation message, for example:  `\"Bill the Builder has been assigned to player 3\"`<br>- If no unassigned character with the required role is found, output a suitable message. |\n\nThe save operation is to be extended so that multiple files may be saved as the game progresses. This will allow the user to restore the game from any saved position. The filename must reflect the sequence in which the files are saved.\n\nDescribe a method that would allow multiple files to be saved **and **give an example of **two** consecutive filenames.",
+     "solution_md": "> **[mark-scheme]**\n> **MP1 **Method: Create a filename **suffix** which is **incremented **for each file save\n> \n> **MP2 **Example: SaveFile01.txt, SaveFile02.txt"
+    }
+   ]
+  }
+ ]
+}

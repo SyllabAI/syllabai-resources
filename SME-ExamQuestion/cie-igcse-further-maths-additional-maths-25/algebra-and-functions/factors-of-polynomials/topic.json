@@ -1,0 +1,1473 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:46:02Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "further-maths",
+  "exam_code": "0606",
+  "sme_course_id": "crs_HfmFCcT36XRYg8tr",
+  "syllabus_version": "2023",
+  "sme_alias_path": "additional-maths/25",
+  "course_name": "Cambridge (CIE) IGCSE Additional Maths"
+ },
+ "section": {
+  "slug": "algebra-and-functions",
+  "name": "Algebra & Functions"
+ },
+ "topic": {
+  "id": "top_q83BBT8GP62dy96n",
+  "slug": "factors-of-polynomials",
+  "name": "Factors of Polynomials",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "operations-with-polynomials",
+   "name": "Operations with Polynomials",
+   "revision_note_id": "rn_swjpBvbHyDmNPxZT"
+  },
+  {
+   "slug": "factor-and-remainder-theorem",
+   "name": "Factor & Remainder Theorem",
+   "revision_note_id": "rn_VrTbNyJ2KHJNfqKQ"
+  },
+  {
+   "slug": "solving-cubic-equations",
+   "name": "Solving Cubic Equations",
+   "revision_note_id": "rn_QMV8TxSD9WjM8KPq"
+  },
+  {
+   "slug": "polynomial-division",
+   "name": "Polynomial Division",
+   "revision_note_id": "rn_9H8h7XhYhYpwhZTz"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_kqjv9RzTD6gyPpwN",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/algebra-and-functions/factors-of-polynomials/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_YsGZSSbhd2jgP6ks",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_dWm2BG8b6F93nGzN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/22",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db"
+     ],
+     "part_tier": null,
+     "problem_md": "The three roots of `straight p open parentheses x close parentheses equals 0` , where `straight p open parentheses x close parentheses equals 2 x cubed plus a x squared plus b x plus c` are $x=\\frac{1}{2},x=n$ and $x=-n$, where $a,b,c$ and $n$ are integers. The $y$-intercept of the graph of $y=p(x)$ is 4. Find $p(x)$, simplifying your coefficients.",
+     "solution_md": "> *The *$y$*-intercept is 4 and this occurs when *$x=0$* *\n\n> *Substitute *$x=0$* into *`straight p open parentheses x close parentheses`\n\n`straight p open parentheses x close parentheses equals 2 open parentheses 0 close parentheses cubed plus a open parentheses 0 close parentheses squared plus b open parentheses 0 close parentheses plus c`\n\n`straight p open parentheses x close parentheses equals c equals 4`\n\n> *Rewrite the polynomial*\n\n*(1)      *`straight p open parentheses x close parentheses equals 2 x cubed plus a x squared plus b x plus 4`\n\n> *Use the given roots to factorise the polynomial*\n\n`straight p open parentheses x close parentheses equals open parentheses x plus n close parentheses open parentheses x minus n close parentheses open parentheses 2 x minus 1 close parentheses`\n\n**[1]**\n\n> *Expand the first 2 brackets*\n\n`straight p open parentheses x close parentheses equals open parentheses x squared minus x n plus x n minus n squared close parentheses open parentheses 2 x minus 1 close parentheses`\n\n> *Simplify*\n\n`straight p open parentheses x close parentheses equals open parentheses x squared minus n squared close parentheses open parentheses 2 x minus 1 close parentheses`\n\n**[1]**\n\n> *Expand the brackets*\n\n*(2)     ** *`straight p open parentheses x close parentheses equals 2 x cubed minus x squared minus 2 n squared x plus n squared`\n\n**[1]**\n\n> *(1) and (2) are the same cubic so:*\n\n> *Compare constants:*\n\n$4=n^{2}$\n\n**[1]**\n\n$n=\\pm2$\n\n> *Compare coefficients of *$x^{2}$\n\n$a=-1$\n\n> *Compare coefficients of *$x$\n\n$b=-2n^{2}=-2\\times2^{2}=-8$\n\n> *Write down *`straight p open parentheses x close parentheses`\n\n$p(x)=2x^{3}-x^{2}-8x+4$ **[1]**",
+     "equations": [
+      {
+       "latex": "x=\\frac{1}{2},x=n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mo> </mo><mi>x</mi><mo>=</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 1 half comma space x equals n"
+      },
+      {
+       "latex": "x=-n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative n"
+      },
+      {
+       "latex": "a,b,c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>,</mo><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a comma space b comma space c"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y=p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0"
+      },
+      {
+       "latex": "x=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0"
+      },
+      {
+       "latex": "4=n^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 equals n squared"
+      },
+      {
+       "latex": "n=\\pm2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mo>±</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals plus-or-minus 2"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared"
+      },
+      {
+       "latex": "a=-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals negative 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "b=-2n^{2}=-2\\times2^{2}=-8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mo>-</mo><mn>2</mn><mo>×</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mo>-</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals negative 2 n squared equals negative 2 cross times 2 squared equals negative 8"
+      },
+      {
+       "latex": "p(x)=2x^{3}-x^{2}-8x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\">-</mo><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">8</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VwdmNJKMW2JMVcJC",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_mzkvzHHWCX4kgW6V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/21",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db"
+     ],
+     "part_tier": null,
+     "problem_md": "$p(x)=2x^{3}-3x^{2}-23x+12$\n\nFind the value of `straight p open parentheses 1 half close parentheses`.",
+     "solution_md": "> *Substituting *$x=\\frac{1}{2}$* into the equation gives*\n\n`straight p open parentheses 1 half close parentheses space equals space 2 open parentheses 1 half close parentheses cubed space minus space 3 open parentheses 1 half close parentheses squared space minus space 23 open parentheses 1 half close parentheses space plus thin space 12`\n\n$p(\\frac{1}{2})=0$ **[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=2x^{3}-3x^{2}-23x+12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>23</mn><mi>x</mi><mo>+</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 2 x cubed space minus 3 x squared space minus 23 x plus 12"
+      },
+      {
+       "latex": "x=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals 1 half"
+      },
+      {
+       "latex": "p(\\frac{1}{2})=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mrow><mo stretchy=\"true\" mathvariant=\"bold\">(</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac><mo stretchy=\"true\" mathvariant=\"bold\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vhg8g6d5mD53WnwK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/21",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\np(x) = 2x³ - 3x² - 23x + 12\n\nFind the value of p(1/2).\n\nWrite $p(x)_{}$ as the product of three linear factors and hence solve $p(x)=0$.",
+     "solution_md": "> *Using the factor theorem, if *`straight p open parentheses 1 half close parentheses space equals space 0`*, then *`open parentheses 2 x space minus space 1 close parentheses`* is a factor of *`straight p open parentheses x close parentheses`*.*\n\n> *To find the other factors, we need to use polynomial division to find the quadratic factor.*\n\n`long division by 2 x minus 1 yields none x squared none minus none x none minus 12 none pile 2 x cubed none minus 3 x squared none minus 23 x none plus 12 2 x cubed none minus none x squared none none none none none none none none none none none minus horizontal line none none none negative 2 x squared none minus 23 x none plus 12 none none none none negative 2 x squared none plus none none x none none none none none none minus horizontal line none none none none none none none negative 24 x none plus 12 none none none none none none none negative 24 x none plus 12 none none minus horizontal line none none none none none none none none none none none none 0 end pile end long division`\n\n**Two correct terms in the quadratic factor **** [1]**\n\n**Fully correct quadratic factor**** [1]**\n\n> *This means that *\n\n`straight p open parentheses x close parentheses space equals space open parentheses 2 x space minus space 1 close parentheses open parentheses x squared space minus space x space minus space 12 close parentheses`\n\n> *We need to factorise the quadratic bracket by finding a factor pair of -12 that has a sum of -1. This would be -4 and +3, therefore*\n\n`straight p open parentheses x close parentheses space equals space open parentheses 2 x space minus space 1 close parentheses open parentheses x space plus thin space 3 close parentheses open parentheses x space minus space 4 close parentheses`\n\n**[1]**\n\n> *To solve, *`straight p open parentheses x close parentheses space equals space 0`* we find the value of x that would make the bracket equal to 0. In this case*\n\n$x=\\frac{1}{2},-3,4$ \n**Two correct solutions**** [1]**\n** ****All three correct solutions**** [1]**",
+     "equations": [
+      {
+       "latex": "p(x)_{}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><msub><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow/></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis subscript blank"
+      },
+      {
+       "latex": "p(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "x=\\frac{1}{2},-3,4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">1</mn></mrow><mn mathvariant=\"bold\">2</mn></mfrac><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold space bold equals fraction numerator bold space bold 1 over denominator bold 2 end fraction bold comma bold space bold minus bold 3 bold comma bold space bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tmzzT69WbGZ4RCPD",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_WBgpnKf2fb4SYPNQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/12",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db",
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "$p(x)=ax^{3}+3x^{2}+bx-12$ has a factor of $2x+1$. When $p(x)$ is divided by $x-3$ the remainder is 105.\n\nFind the value of $a$ and of $b$.",
+     "solution_md": "> *By the factor theorem, if *$2x+1$* is a factor, then *`straight p open parentheses negative 1 half close parentheses equals 0`* [this is obtained by solving *$2x+1=0$* to get *$x=-\\frac{1}{2}$*]*\n\n> *Substitute this into the polynomial*\n\n`straight p open parentheses negative 1 half close parentheses equals a open parentheses negative 1 half close parentheses cubed plus 3 open parentheses negative 1 half close parentheses squared plus b open parentheses negative 1 half close parentheses minus 12 equals 0`\n\n$-\\frac{1}{8}a+\\frac{3}{4}-\\frac{1}{2}b-12=0$\n\n> *Multiply through by 8*\n\n$-a+6-4b-96=0$\n\n> *Collect the constant term on one side*\n\n$a+4b=-90$\n\n**[1]**\n\n> `p open parentheses 3 close parentheses equals 105`* so use this to make a second equation*\n\n`straight p open parentheses 3 close parentheses equals a open parentheses 3 close parentheses cubed plus 3 open parentheses 3 close parentheses squared plus b open parentheses 3 close parentheses minus 12 equals 105`\n\n**[1]**\n\n$27a+27+3b-12=105$\n\n$27a+3b=90$\n\n$9a+b=30$\n\n**[1]**\n\n> *Now we have two equations which we can solve simultaneously*\n\n$a+4b=-90$\n\n$9a+b=30$\n\n> *Multiply the second equation by 4 and then subtract the equations*\n\n$a+4b=-90$\n\n$36a+4b=120$\n\n> *Subtracting gives*\n\n$35a=210$\n\n$a=6$\n\n> *Find b*\n\n`b equals 30 minus open parentheses 9 cross times 6 close parentheses equals negative 24`\n\n$a=6,b=-24$** [2]**",
+     "equations": [
+      {
+       "latex": "p(x)=ax^{3}+3x^{2}+bx-12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>b</mi><mi>x</mi><mo>-</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space a x cubed space plus 3 x squared space plus b x minus 12"
+      },
+      {
+       "latex": "2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x plus 1"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 3"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x plus 1"
+      },
+      {
+       "latex": "2x+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x plus 1 equals 0"
+      },
+      {
+       "latex": "x=-\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative 1 half"
+      },
+      {
+       "latex": "-\\frac{1}{8}a+\\frac{3}{4}-\\frac{1}{2}b-12=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>a</mi><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mo>-</mo><mn>12</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 over 8 a plus 3 over 4 minus 1 half b minus 12 equals 0"
+      },
+      {
+       "latex": "-a+6-4b-96=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>a</mi><mo>+</mo><mn>6</mn><mo>-</mo><mn>4</mn><mi>b</mi><mo>-</mo><mn>96</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative a plus 6 minus 4 b minus 96 equals 0"
+      },
+      {
+       "latex": "a+4b=-90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mo>-</mo><mn>90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus 4 b equals negative 90"
+      },
+      {
+       "latex": "27a+27+3b-12=105",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>27</mn><mi>a</mi><mo>+</mo><mn>27</mn><mo>+</mo><mn>3</mn><mi>b</mi><mo>-</mo><mn>12</mn><mo>=</mo><mn>105</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "27 a plus 27 plus 3 b minus 12 equals 105"
+      },
+      {
+       "latex": "27a+3b=90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>27</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>=</mo><mn>90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "27 a plus 3 b equals 90"
+      },
+      {
+       "latex": "9a+b=30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 a plus b equals 30"
+      },
+      {
+       "latex": "a+4b=-90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mo>-</mo><mn>90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus 4 b equals negative 90"
+      },
+      {
+       "latex": "9a+b=30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 a plus b equals 30"
+      },
+      {
+       "latex": "a+4b=-90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mo>-</mo><mn>90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus 4 b equals negative 90"
+      },
+      {
+       "latex": "36a+4b=120",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>36</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>=</mo><mn>120</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "36 a plus 4 b equals 120"
+      },
+      {
+       "latex": "35a=210",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>35</mn><mi>a</mi><mo>=</mo><mn>210</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "35 a equals 210"
+      },
+      {
+       "latex": "a=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 6"
+      },
+      {
+       "latex": "a=6,b=-24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 6 bold comma bold space bold italic b bold equals bold minus bold 24"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_m82zjnW4GdsfkT3T",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/12",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db",
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\np(x) = ax³ + 3x² + bx - 12 has a factor of 2x + 1.\n\na = 6, b = -24\n\nUsing your values of $a$ and $b$, write $p(x)$ as a product of $2x+1$ and a quadratic factor.",
+     "solution_md": "> $a=6,b=-24$* so *`straight p open parentheses x close parentheses equals 6 x cubed plus 3 x squared minus 24 x minus 12`\n\n> *Rearrange *`straight p open parentheses x close parentheses`* so that the first 2 terms have a common factor of *$2x$* and the second 2 terms have a common factor of 1*\n\n`straight p open parentheses x close parentheses equals 6 x cubed minus 24 x plus 3 x squared minus 12`\n\n> *A shortcut is to spot that the first two terms are equal to the last two terms multiply by 2**x**. Take out the common factor of the first 2 terms and the second 2 terms*\n\n`straight p open parentheses x close parentheses equals 2 x open parentheses 3 x squared minus 12 close parentheses plus 1 open parentheses 3 x squared minus 12 close parentheses`\n\n> *Factorise*\n\n`straight p open parentheses x close parentheses equals open parentheses 2 x plus 1 close parentheses open parentheses 3 x squared minus 12 close parentheses`\n\n$(2x+1)(3x^{2}-12)$** [2]**\n\n**1 mark for each term **$3x^{2}and-12$",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space"
+      },
+      {
+       "latex": "2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x plus 1"
+      },
+      {
+       "latex": "a=6,b=-24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mo>-</mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 6 comma space b equals negative 24"
+      },
+      {
+       "latex": "2x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x"
+      },
+      {
+       "latex": "(2x+1)(3x^{2}-12)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">12</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "3x^{2}and-12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mi>a</mi><mi>n</mi><mi>d</mi><mo> </mo><mo>-</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x squared space a n d space minus 12"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NybW9F2KgCpynGVf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/12",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_fBT3kZpGCVKd7BqS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUsing your values of a and b, write p(x) as a product of 2x + 1 and a quadratic factor.\n\na = 6, b = -24 so p(x) = 6x³ + 3x² - 24x - 12\n\nRearrange p(x) so that the first 2 terms have a common factor of 2x and the second 2 terms have a common factor of 1\n\np(x) = 6x³ - 24x + 3x² - 12\n\nTake out the common factor of the first 2 terms and the second 2 terms\n\np(x) = 2x(3x² - 12) + 1(3x² - 12)\n\nFactorise\n\np(x) = (2x + 1)(3x² - 12)\n\nHence solve$p(x)$= 0.",
+     "solution_md": "> `straight p open parentheses x close parentheses equals open parentheses 2 x plus 1 close parentheses open parentheses 3 x squared minus 12 close parentheses`* so we are solving *`straight p open parentheses x close parentheses equals 0`\n\n`open parentheses 2 x plus 1 close parentheses open parentheses 3 x squared minus 12 close parentheses equals 0`\n\n*either *`open parentheses 2 x plus 1 close parentheses equals 0 space or space open parentheses 3 x squared minus 12 close parentheses equals 0`\n\n*if *`open parentheses 2 x plus 1 close parentheses equals 0 space then space x equals negative 1 half`\n\n*if *$3x^{2}-12=0\\mathrm{then}3x^{2}=12$\n\n**[1]**\n\n$x^{2}=4$\n\n$x=\\pm2$\n\n$x=-\\frac{1}{2},-2\\mathrm{or}2$** ****[1]**",
+     "equations": [
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight p left parenthesis x right parenthesis space"
+      },
+      {
+       "latex": "3x^{2}-12=0\\mathrm{then}3x^{2}=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>12</mn><mo>=</mo><mn>0</mn><mo> </mo><mi>then</mi><mo> </mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x squared minus 12 equals 0 space then space 3 x squared equals 12"
+      },
+      {
+       "latex": "x^{2}=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared equals 4"
+      },
+      {
+       "latex": "x=\\pm2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>±</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals plus-or-minus 2"
+      },
+      {
+       "latex": "x=-\\frac{1}{2},-2\\mathrm{or}2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold minus bold 1 over bold 2 bold comma bold space bold minus bold 2 bold space bold or bold space bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RzmYfYPWFxkVC3DW",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_SGVSZgybfSbx4RNX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db",
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The polynomial $p(x)=ax^{3}-9x^{2}+bx-6$, where $a$ and $b$ are constants, has a factor of $x-2$. The polynomial has a remainder of 66 when divided by $x-3$. Find the value of $a$ and of $b$.",
+     "solution_md": "> *Using the Factor Theorem, *`straight p open parentheses 2 close parentheses equals 0`*.*\n\n> *Therefore*\n\n`0 equals a open parentheses 2 close parentheses cubed minus 9 open parentheses 2 close parentheses squared plus b open parentheses 2 close parentheses minus 6`\n\n**[1]**\n\n> *Rearrange.*\n\n$8a+2b=42$\n\n> *Using the Remainder Theorem,  *`straight p open parentheses 3 close parentheses equals 66`*.*\n\n`66 equals a open parentheses 3 close parentheses cubed minus 9 open parentheses 2 close parentheses squared plus b open parentheses 3 close parentheses minus 6`\n\n**[1]**\n\n> *Rearrange.*\n\n$27a+3b=153$\n\n> *Solve the simultaneous equations to find the values of *$a$* and *$b$*.*\n\n`space space space stack attributes charalign center stackalign right end attributes row none 54 a none plus none 6 b none equals 306 end row row minus 24 a none plus none 6 b none equals 126 end row horizontal line row 30 a none none none none none none equals 180 end row end stack`\n\n$a=6$\n\n> *Substitute *$a=6$* into one of the equations to find the value of *$b$*.*\n\n`table row cell 8 open parentheses 6 close parentheses plus 2 b end cell equals 42 row b equals cell negative 3 end cell end table`\n\n**correct method to solve for both **$a$** and **$b$** [1]**\n\n$a=6$** ****and**** **$b=-3$** ****[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=ax^{3}-9x^{2}+bx-6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>-</mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>b</mi><mi>x</mi><mo>-</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space a x cubed space minus 9 x squared space plus b x minus 6"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "x-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 2"
+      },
+      {
+       "latex": "x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 3"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "8a+2b=42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>42</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 a plus 2 b equals 42"
+      },
+      {
+       "latex": "27a+3b=153",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>27</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>=</mo><mn>153</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "27 a plus 3 b equals 153"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 6"
+      },
+      {
+       "latex": "a=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 6"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 6"
+      },
+      {
+       "latex": "b=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic b bold equals bold minus bold 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3FBqCVxf9V2WzVQD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe polynomial p(x) = ax³ - 9x² + bx - 6, where a and b are constants, has a factor of x - 2. The polynomial has a remainder of 66 when divided by x - 3.\n\na = 6 and b = -3\n\nUsing your values of $a$ and $b$, show that $p(x)=(x-2)q(x)$, where $q(x)$ is a quadratic factor to be found.",
+     "solution_md": "> *To work out the quadratic factor *`q open parentheses x close parentheses`*, we can use algebraic long division to divide *`p open parentheses x close parentheses`* by *$x-2$\n\n`long division by x minus 2 yields 6 x squared none plus 3 x none plus 3 none pile 6 x cubed none minus 9 x squared none minus 3 x none minus 6 6 x cubed minus 12 x squared none none none none none none none none minus horizontal line none none none none 3 x squared none minus 3 x none none none none none none 3 x squared none minus 6 x none none none none minus horizontal line none none none none none none none none 3 x none minus 6 none none none none none none none none 3 x none minus 6 none minus horizontal line none none none none none none none none none none none none 0 end pile end long division`\n\n**first two terms correct: **$6x^{2}+3x...$`open square brackets 1 close square brackets`\n\n$p(x)=(x-2)(6x^{2}+3x+3)$ `open square brackets 1 close square brackets`",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p(x)=(x-2)q(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mi mathvariant=\"normal\">q</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space left parenthesis x minus 2 right parenthesis straight q left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "q(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">q</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight q left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 2"
+      },
+      {
+       "latex": "6x^{2}+3x...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x squared plus 3 x..."
+      },
+      {
+       "latex": "p(x)=(x-2)(6x^{2}+3x+3)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\">=</mo><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Y9RSChSscQYfKDMX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 11",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_NvHCD8kCbVz7tb7N"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUsing your values of a and b, show that p(x) = (x - 2)q(x), where q(x) is a quadratic factor to be found.\n\nTo work out the quadratic factor q(x), we can use algebraic long division to divide p(x) by x - 2\n\nq(x) = 6x² + 3x + 3\n\nHence show that the equation $p(x)=0$ has only one real solution.",
+     "solution_md": "> *Using *`straight q open parentheses x close parentheses`* from part *$b$*, examine the discriminant to find any real roots.*\n\n`b squared minus 4 a c space equals space open parentheses 3 close parentheses squared minus open parentheses 4 close parentheses open parentheses 6 close parentheses open parentheses 3 close parentheses`\n\n$=-63$\n\n$-63<0$\n\n**[1]**\n\n> *In the quadratic formula, the discriminant is square rooted. Since we cannot take the square root of a negative number, a negative discriminant means no real roots.*\n\n> *Therefore, the only real solution to *`p open parentheses x close parentheses`* is when *`open parentheses x minus 2 close parentheses equals 0`\n\n$x=2$* **is the only real root*\n\n$q(x)=0$** has no real solutions, hence **$p(x)$**only has one real solution**** ****[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "=-63",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mo> </mo><mo> </mo><mo>-</mo><mn>63</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals space space minus 63"
+      },
+      {
+       "latex": "-63<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>63</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 63 less than 0"
+      },
+      {
+       "latex": "x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 2"
+      },
+      {
+       "latex": "q(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">q</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rQfHNFMTJWhk2PzJ",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ZNsWBNP444KKybqf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qXnjgtRXNtVkk5Db",
+      "spcpt_7WC8ZhjytbbK2kDN"
+     ],
+     "part_tier": null,
+     "problem_md": "The polynomial $p(x)=6x^{3}+ax^{2}+bx+2$, where $a$ and $b$ are integers, has a factor of $x--2$ . \nGiven that $p(1)=--2p(0)$, find the values of $a$ and $b$.",
+     "solution_md": "> *In this question you need to use the information given to form and then solve two linear simultaneous equations*\n\n> $p(x)$* has a factor *$(x-2)$*, so from the factor theorem we know *$x=2$* is a solution of*$p(x)=0$*. Substitute *$x=2$*into *$p(x)=0$\n\n`6 open parentheses 2 close parentheses cubed plus a open parentheses 2 close parentheses squared plus b open parentheses 2 close parentheses plus 2 equals 0`\n\n> *Now simplify to get an equation in terms of*$a$* and *$b$*. *\n\n$6\\times8+4a+2b+2=0\\,48+4a+2b+2=0$\n\n**[1]**\n\n> *We can also collect like terms and pass the constant term to the right hand side*\n\n$4a+2b=-50$\n\n> *As all the terms are even, we can also divide both sides by 2*\n\n`2 a plus b equals negative 25 space space circle enclose 1`\n\n> *We now have one of two simultaneous equations*\n\n> *To get the other, use \"p(1) = -2p(0)\". Substitute 1 into p to get p(1), substitute 0 into p to get p(0)  *\n\n`table row cell straight p open parentheses 1 close parentheses end cell equals cell 6 open parentheses 1 close parentheses cubed plus a open parentheses 1 close parentheses squared plus b open parentheses 1 close parentheses plus 2 end cell row blank equals cell 6 plus a plus b plus 2 end cell row blank equals cell 8 plus a plus b end cell row blank blank blank row cell straight p open parentheses 0 close parentheses end cell equals cell 6 open parentheses 0 close parentheses cubed plus a open parentheses 0 close parentheses squared plus b open parentheses 0 close parentheses plus 2 end cell row blank equals 2 end table`\n\n> *p(1) = -2p(0) so equate p(1) to negative two times p(0)*\n\n`table row cell 8 plus a plus b end cell equals cell negative 2 cross times 2 end cell end table`\n\n**[1]**\n\n> *Simplify this and pass the constants to the right hand side to get the second of the two simultaneous equations*\n\n`table row cell 8 plus a plus b end cell equals cell negative 4 end cell row cell a plus b end cell equals cell negative 12 space space circle enclose 2 end cell end table`\n\n> *Solve the simultaneous equations by elimination as below or by substitution; whichever method you feel most comfortable with!*\n\n`table row cell 2 a plus b end cell equals cell negative 25 space space circle enclose 1 end cell row cell a plus b end cell equals cell negative 12 space space circle enclose 2 end cell end table`\n\n> *Subtract *`circle enclose 2`* from *`circle enclose 1`*, taking care with the negative numbers*\n\n`table row cell circle enclose 1 minus circle enclose 2 colon space space a end cell equals cell negative 13 end cell end table`\n\n**any valid attempt to solve simultaneous equations ****[1]**\n\n> *And substitute *$a=-13$* into *`circle enclose 1`* or *`circle enclose 2`* (*`circle enclose 2`* is easier) to obtain *$a$\n\n`table row cell a plus b end cell equals cell negative 12 end cell row cell negative 13 plus b end cell equals cell negative 12 end cell row b equals 1 end table`\n\n> *Make sure that both the values of *$a$* and *$b$* are clearly written.*\n\n$a=-13,b=1$** [1]**",
+     "equations": [
+      {
+       "latex": "p(x)=6x^{3}+ax^{2}+bx+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>b</mi><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight p left parenthesis x right parenthesis space equals space 6 x cubed space plus space a x squared space plus space b x space plus space 2 space"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "x--2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>–</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space – space 2"
+      },
+      {
+       "latex": "p(1)=--2p(0)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">p</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>–</mo><mn>2</mn><mi mathvariant=\"normal\">p</mi><mo>(</mo><mn>0</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight p left parenthesis 1 right parenthesis space equals space – 2 straight p left parenthesis 0 right parenthesis"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "(x-2)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>2</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis x space minus space 2 right parenthesis"
+      },
+      {
+       "latex": "x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space 2"
+      },
+      {
+       "latex": "p(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight p left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space 2 space"
+      },
+      {
+       "latex": "p(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "6\\times8+4a+2b+2=0\\,48+4a+2b+2=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>&#215;</mo><mn>8</mn><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0</mn><mspace linebreak=\"newline\"></mspace><mn>48</mn><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 cross times 8 plus 4 a plus 2 b plus 2 equals 0\n48 plus 4 a plus 2 b plus 2 equals 0"
+      },
+      {
+       "latex": "4a+2b=-50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mo>-</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 a plus 2 b equals negative 50"
+      },
+      {
+       "latex": "a=-13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space equals space minus 13"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a=-13,b=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">13</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold minus bold 13 bold comma bold space bold italic b bold equals bold 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kxtbwb7N5sZ75xFN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe polynomial p(x) = 6x³ + ax² + bx + 2, where a and b are integers, has a factor of x - 2.\n\nUsing your values of $a$ and $b$,\n\n(i) find the remainder when $p(x)$ is divided by$2x--1$\n\n(ii) factorise $p(x)$.",
+     "solution_md": "i) *From (a) we know that  *\n\n> `straight p open parentheses x close parentheses equals 6 x cubed minus 13 x squared plus x plus 2`*  *\n\n> *The remainder theorem tells us that when p(x) is divided by (2**x** - 1), then the remainder is equal to *`straight p open parentheses 1 half close parentheses`*. *\n*So substitute *$x=\\frac{1}{2}$* into p:*\n\n`straight p open parentheses 1 half close parentheses equals 6 open parentheses 1 half close parentheses cubed minus 13 open parentheses 1 half close parentheses squared plus 1 half plus 2`\n\n**[1]**\n\n> *Evaluate to find the remainder:*\n\n`equals 6 open parentheses 1 over 8 close parentheses minus 13 open parentheses 1 fourth close parentheses squared plus 1 half plus 2\nequals 6 over 8 minus 13 over 4 plus 1 half plus 2\nequals 6 over 8 minus 26 over 8 plus 4 over 8 plus 16 over 8\nequals 0 over 8`\n\n**0*** ***[1]**\n\nii)`begin mathsize 16px style table row blank row blank end table end style` *From (b)(i) we know that the remainder of *`straight p open parentheses 1 half close parentheses`* is 0.*\n\n> *Therefore:*\n\n`open parentheses 2 x minus 1 close parentheses`*is a factor  *\n\n**[1]**\n\n> *We also know from the (a) that *`open parentheses x minus 2 close parentheses`* is a factor, therefore:   *\n\n> `open parentheses 2 x minus 1 close parentheses open parentheses x minus 2 close parentheses open parentheses box enclose blank end enclose x plus box enclose blank end enclose close parentheses equals 6 x cubed minus 13 x squared plus x plus 2`*  *\n\n> *Looking at the constant terms in the factors (the numbers on their own inside the brackets), -1 times -2 equals 2, therefore the missing constant must be '1' And looking at the coefficients of *$x$* **in the factors (the numbers next to *$x$* inside the brackets), 2 times 1 equals 2 so to multiply to '6' the missing coefficient of *$x$* must be '3'  *\n\n$(2x-1)(x-2)(3x+1)$* ***[1] **\n*You can also use polynomial division*",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "2x--1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mn>2</mn><mi>x</mi><mo> </mo><mo>–</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space 2 x space – space 1"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 1 half"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "(2x-1)(x-2)(3x+1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nmZN5RmHTw8g6dFR",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_pYcq6M5Bqf8tYKC5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "$p(x)=15x^{3}+22x^{2}-15x+2$\n\nFind the remainder when $p(x)$ is divided by $x+1$.",
+     "solution_md": "> *Using the remainder theorem to find the value of *`straight p open parentheses negative 1 close parentheses`\n\n`straight p open parentheses negative 1 close parentheses space equals space 15 open parentheses negative 1 close parentheses to the power of 3 space end exponent plus space 22 open parentheses negative 1 close parentheses squared space minus space 15 open parentheses negative 1 close parentheses space plus thin space 2`\n\n**[1]**\n\n> *Simplifying gives*\n\n`straight p open parentheses negative 1 close parentheses space equals space minus 15 space plus space 22 space plus space 15 space plus space 2`\n\n$24$ **[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=15x^{3}+22x^{2}-15x+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>15</mn><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mn>22</mn><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>15</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 15 x cubed space plus 22 x squared space minus 15 x plus 2"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x plus 1"
+      },
+      {
+       "latex": "24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">24</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 24"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PY3XWMgTSgYBDVm2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr",
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\np(x) = 15x³ + 22x² - 15x + 2\n\n(i) Show that $x+2$ is a factor of $p(x)$ .\n\n[1]\n\n(ii) Write $p(x)$ as a product of linear factors.\n\n[3]",
+     "solution_md": "i) *Using the factor theorem, if *$x-a$* is a factor of *`straight f open parentheses x close parentheses`*, then *`straight f open parentheses a close parentheses space equals space 0`*    *\n\n`straight p open parentheses negative 2 close parentheses space equals space 15 open parentheses negative 2 close parentheses to the power of 3 space end exponent plus space 22 open parentheses negative 2 close parentheses squared space minus space 15 open parentheses negative 2 close parentheses space plus thin space 2`\n\n> *Simplifying each term   *\n\n$p(-2)=-120+88+30+2$\n\n$p(-2)=0$ **[1]**\n\nii) *If *$x+2$* is a factor then factorising by inspection or using polynomial division gives*\n\n`long division by x plus 2 yields 15 x squared none minus 8 x none plus 1 none pile 15 x cubed none plus 22 x squared none minus 15 x none plus 2 15 x cubed none plus 30 x squared none minus 15 x none plus 2 none minus horizontal line none none none none none negative 8 x squared none minus 15 x none none none none none none negative 8 x squared none minus 16 x none none none none minus horizontal line none none none none none none none none none none none none x none plus 2 none none none none none none none none none none none none x none plus 2 none minus horizontal line none none none none none none none none none none none none none none none 0 end pile end long division`\n\n> *  *\n\n`open parentheses x space plus thin space 2 close parentheses open parentheses 15 x to the power of 2 space end exponent minus space 8 x space plus thin space 1 close parentheses`\n\n**correct method to find the quadratic factor** **[1]**\n\n**fully correct quadratic factor**** [1]**\n\n> *Factorising the second bracket*\n\n> *We need a pair of numbers that for *$ax^{2}+bx+c$*, multiply to *$ac$* and add to *$b$*. In this case this is -3 and -5. *\n\n> *Rewrite the middle term using *$-3x$* and *$-5x$\n\n$15x^{2}-3x-5x+1$\n\n> *Group and factorise the first two terms, using *$3x$* as the highest common factor, and group and factorise the second two terms, using -1 as the factor*\n\n`3 x open parentheses 5 x space minus space 1 close parentheses space minus space 1 open parentheses 5 x space minus space 1 close parentheses`\n\n> *Note that these terms now have a common factor of *`open parentheses 5 x space minus space 1 close parentheses`* so this whole bracket can be factorised out, leaving *$3x-1$* in its own bracket.*\n\n> *This means that the quadratic factorises to *\n\n`open parentheses 3 x space minus space 1 close parentheses open parentheses 5 x space minus space 1 close parentheses`\n\n> *Therefore, the cubic factorises to*\n\n$(x+2)(3x-1)(5x-1)$ **[1]**",
+     "equations": [
+      {
+       "latex": "x+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x plus 2"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x-a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space minus space a"
+      },
+      {
+       "latex": "p(-2)=-120+88+30+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mrow><mo stretchy=\"true\">(</mo><mo>-</mo><mn>2</mn><mo stretchy=\"true\">)</mo></mrow><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>120</mn><mo> </mo><mo>+</mo><mo> </mo><mn>88</mn><mo> </mo><mo>+</mo><mo> </mo><mn>30</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p stretchy left parenthesis negative 2 stretchy right parenthesis space equals space minus 120 space plus thin space 88 space plus thin space 30 space plus thin space 2"
+      },
+      {
+       "latex": "p(-2)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">p</mi><mrow><mo stretchy=\"true\" mathvariant=\"bold\">(</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo stretchy=\"true\" mathvariant=\"bold\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "x+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x thin space plus space 2"
+      },
+      {
+       "latex": "ax^{2}+bx+c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a x squared plus b x plus c"
+      },
+      {
+       "latex": "ac",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a c"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "-3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 x"
+      },
+      {
+       "latex": "-5x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 5 x"
+      },
+      {
+       "latex": "15x^{2}-3x-5x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><msup><mi>x</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>-</mo><mo> </mo><mn>3</mn><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mn>5</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 x to the power of 2 space end exponent minus space 3 x space minus space 5 x space plus space 1"
+      },
+      {
+       "latex": "3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x"
+      },
+      {
+       "latex": "3x-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x space minus space 1"
+      },
+      {
+       "latex": "(x+2)(3x-1)(5x-1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9JG9K5n5z2hc3YSb",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_DbSzTPbJNjcbZXvZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "show",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/13",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr"
+     ],
+     "part_tier": null,
+     "problem_md": "The polynomial $p(x)=ax^{3}+bx^{2}-19x+4$, where $a$ and $b$ are constants, has a factor $x+4$ and is such that $2p(1)=5p(0)$.\n\nShow that $p(x)=(x+4)(Ax^{2}+Bx+C)$, where $A$, $B$ and $C$ are integers to be found.",
+     "solution_md": "> *Find *`straight p open parentheses 1 close parentheses`*.*\n\n`straight p open parentheses 1 close parentheses equals a open parentheses 1 close parentheses cubed plus b open parentheses 1 close parentheses squared minus 19 open parentheses 1 close parentheses plus 4\nstraight p open parentheses 1 close parentheses equals a italic plus b italic minus italic 15`\n\n> *Therefore,*\n\n`2 straight p open parentheses 1 close parentheses equals italic 2 a italic plus italic 2 b italic minus italic 30`\n\n> *Find *`straight p open parentheses 0 close parentheses`*.*\n\n`straight p open parentheses 0 close parentheses equals 4`\n\n> *Therefore,*\n\n`5 straight p open parentheses 0 close parentheses equals 20`\n\n> *We are told that *`2 straight p open parentheses 1 close parentheses equals 5 straight p open parentheses 0 close parentheses`*.*\n\n> *Therefore,*\n\n`table row cell 2 a plus 2 b minus 30 end cell equals 20 row blank blank blank row cell a plus b minus 15 end cell equals 10 row blank blank blank row cell a plus b minus 25 end cell equals 0 end table`\n\n**[1]**\n\n> *We are told that *`open parentheses x plus 4 close parentheses`* is a factor of *`straight p open parentheses x close parentheses`*. Using factor theorem, this means that *`straight p open parentheses negative 4 close parentheses equals 0`*.*\n\n`equation`\n\n> *Divide through by 16.*\n\n`table row cell negative 4 a plus b plus 5 end cell equals 0 end table`\n\n**[1]**\n\n> *We now have two equations in terms of *$a$* and *$b$*. Solve simultaneously. *\n\n> * *\n\n`table row cell negative 4 a plus b plus 5 end cell equals cell a plus b minus 25 end cell row cell negative 5 a end cell equals cell negative 30 end cell row a equals 6 end table`\n\n> *Substitute into one of the equations to find a value for *$b$*.*\n\n> * *\n\n`table row cell negative 4 open parentheses 6 close parentheses plus b plus 5 end cell equals 0 row cell b minus 19 end cell equals 0 row b equals 19 end table`\n\n> *  *\n\n**1 mark for each value ****[2]**\n\n> *Substituting these values into the polynomial,*\n\n`straight p open parentheses x close parentheses equals 6 x cubed plus 19 x squared minus 19 x plus 4`\n\n> *  *\n\n> *We know one of the factors of the polynomial is *`open parentheses x plus 4 close parentheses`*. We can find the missing quadratic factor by inspection.*\n\n> *  *\n\n`6 x cubed plus 19 x squared minus 19 x plus 4 equals open parentheses x plus 4 close parentheses open parentheses A x squared plus B x plus C close parentheses`\n\n> *  *\n\n> $A$* must be 6 to achieve the *$6x^{3}$*. *$C$* must be 1 to achieve the 4.*\n\n> *  *\n\n`6 x cubed plus 19 x squared minus 19 x plus 4 equals open parentheses x plus 4 close parentheses open parentheses 6 x squared plus B x plus 1 close parentheses`\n\n**[1]**\n\n> *  *\n\n> *When expanded, the *$x^{2}$* terms are *`open parentheses 4 cross times 6 x squared close parentheses`* and *`open parentheses x cross times B x close parentheses`*. Sum and equate to *$19x^{2}$*.*\n\n> * *\n\n`open parentheses 24 plus B close parentheses x squared equals 19 x squared`\n\n> * *\n\n> *Therefore,*\n\n`table row cell 24 plus B end cell equals 19 row B equals cell negative 5 end cell end table`\n\n> *  *\n\n$(x+4)(6x^{2}-5x+1)$** **`open square brackets 1 close square brackets`",
+     "equations": [
+      {
+       "latex": "p(x)=ax^{3}+bx^{2}-19x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mn>19</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space a x cubed space plus b x squared space minus 19 x plus 4"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x plus 4"
+      },
+      {
+       "latex": "2p(1)=5p(0)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"normal\">p</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>5</mn><mi mathvariant=\"normal\">p</mi><mo>(</mo><mn>0</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 straight p left parenthesis 1 right parenthesis space equals space 5 straight p left parenthesis 0 right parenthesis"
+      },
+      {
+       "latex": "p(x)=(x+4)(Ax^{2}+Bx+C)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>A</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mi>B</mi><mi>x</mi><mo>+</mo><mi>C</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space left parenthesis x plus 4 right parenthesis left parenthesis A x squared space plus B x plus C right parenthesis"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "6x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x cubed"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared"
+      },
+      {
+       "latex": "19x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>19</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "19 x squared"
+      },
+      {
+       "latex": "(x+4)(6x^{2}-5x+1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Error converting from MathML to accessible text."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pncHD3mPRggW8q82",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/13",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe polynomial p(x) = ax³ + bx² - 19x + 4, where a and b are constants, has a factor x + 4 and is such that 2p(1) = 5p(0).\n\nFrom part a, we found that a = 6 and b = 19, giving:\np(x) = 6x³ + 19x² - 19x + 4\n\nAnd we showed that:\np(x) = (x + 4)(Ax² + Bx + C)\n\nwhere A = 6, B = -5, and C = 1.\n\nTherefore:\np(x) = (x + 4)(6x² - 5x + 1)\n\nHence factorise $p(x)$.",
+     "solution_md": "> *Factorise *$6x^{2}-5x+1$*.*\n\n> *For example, by using the AC method.*\n\n`6 x squared minus 3 x minus 2 x plus 1\n\n3 x open parentheses 2 x minus 1 close parentheses minus 1 open parentheses 2 x minus 1 close parentheses\n\nopen parentheses 3 x minus 1 close parentheses open parentheses 2 x minus 1 close parentheses\n\n`\n\n$(x+4)(3x-1)(2x-1)$* ***[1]**",
+     "equations": [
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "6x^{2}-5x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x squared minus 5 x plus 1"
+      },
+      {
+       "latex": "(x+4)(3x-1)(2x-1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xGtxCRdqtYVbjmmH",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/13",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe polynomial p(x) = ax³ + bx² - 19x + 4, where a and b are constants, has a factor x + 4 and is such that 2p(1) = 5p(0).\n\nFrom the mark scheme:\na = 6\nb = 19\n\nSubstituting these values into the polynomial,\np(x) = 6x³ + 19x² - 19x + 4\n\nFind the remainder when $p'(x)$ is divided by$x$.",
+     "solution_md": "> *Differentiate *$6x^{3}+19x^{2}-19x+4$\n\n`straight p apostrophe open parentheses x close parentheses equals 18 x squared plus 38 x minus 19`\n\n> *When *`straight p apostrophe open parentheses x close parentheses`* is divided by *$x$*, we substitute 0 into the equation.*\n\n`straight p apostrophe open parentheses 0 close parentheses equals 18 open parentheses 0 close parentheses squared plus 38 open parentheses 0 close parentheses minus 19\nstraight p apostrophe open parentheses 0 close parentheses equals negative 19`\n\n$-19$* ***[1]**",
+     "equations": [
+      {
+       "latex": "p'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p apostrophe left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x"
+      },
+      {
+       "latex": "6x^{3}+19x^{2}-19x+4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>19</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>19</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x cubed plus 19 x squared minus 19 x plus 4"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "-19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">19</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold minus bold 19"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5WwTSj8t6tngy8mM",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_NcPZ9yg6hVTbMtFc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Xmmw5xQYXQbJN3xr",
+      "spcpt_MMYSScSQhVSp55tZ"
+     ],
+     "part_tier": null,
+     "problem_md": "$p(x)=6x^{3}+ax^{2}+12x+b$, where $a$ and $b$ are integers.\n\n$p(x)$ has a remainder of 11 when divided by $x-3$ and a remainder of $-21$ when divided by $x+1$. \nGiven that $p(x)=(x-2)Q(x)$, find $Q(x)$, a quadratic factor with numerical coefficients.",
+     "solution_md": "> *Using remainder theorem, *`straight p open parentheses 3 close parentheses equals 11`* and *`straight p open parentheses negative 1 close parentheses equals negative 21`*.*\n\n`table row cell 6 open parentheses 3 close parentheses cubed plus a open parentheses 3 close parentheses squared plus 12 open parentheses 3 close parentheses plus b end cell equals 11 row blank blank blank row cell 6 open parentheses negative 1 close parentheses cubed plus a open parentheses negative 1 close parentheses squared plus 12 open parentheses negative 1 close parentheses plus b end cell equals cell negative 21 end cell end table`\n\n**[1]**\n\n> *Rearrange and simplify to get two equations in terms of *$a$* and *$b$*.*\n\n`table row cell 9 a plus b plus 187 end cell equals 0 row blank blank blank row cell a plus b plus 3 end cell equals 0 end table`\n\n**[1]**\n\n> *Solve the simultaneous equations.*\n\n> *For example, by multiplying the second equation by 9 and using the elimination method.*\n\n> *  *\n\n`Error converting from MathML to accessible text.`\n\n*  ***[1]**\n\n> *Substitute *$b=20$* into one of the equations to find *$a$*.*\n\n`table row cell a plus 20 plus 3 end cell equals 0 row a equals cell negative 23 end cell end table`\n\n* *** ****[1]**\n\n> *Substitute these values into the original equation.*\n\n`straight p open parentheses x close parentheses equals 6 x cubed minus 23 x squared plus 12 x plus 20`\n\n> *Use algebraic (polynomial) long division to divide *`straight p open parentheses x close parentheses`* by *`open parentheses x minus 2 close parentheses`*.*\n\n`long division by x minus 2 yields 6 x squared minus 11 x minus 10 none pile 6 x cubed minus 23 x squared space plus 12 x none plus 20 6 x cubed minus 12 x squared none none none none none none none none minus horizontal line none none negative 11 x squared plus 12 x none none none none negative 11 x squared plus 22 x none none none none minus horizontal line none none none none none none negative 10 x none plus 20 none none none none none none negative 10 x none plus 20 none minus horizontal line none none none none none none none none none none none none 0 end pile end long division`\n\n**using algebraic long division ****[1]**\n\n> *Therefore,*\n\n$p(x)=(x-2)(6x^{2}-11x-10)$\n\n$Q(x)=6x^{2}-11x-10$* ***[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=6x^{3}+ax^{2}+12x+b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup><mo> </mo><mo>+</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mn>12</mn><mi>x</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 6 x cubed space plus a x squared space plus 12 x plus b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "p(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 3"
+      },
+      {
+       "latex": "-21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 21"
+      },
+      {
+       "latex": "x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x plus 1"
+      },
+      {
+       "latex": "p(x)=(x-2)Q(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mi>Q</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space left parenthesis x minus 2 right parenthesis Q left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "Q(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 20"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "p(x)=(x-2)(6x^{2}-11x-10)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mrow><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\">(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo stretchy=\"true\">)</mo></mrow><mrow><mo stretchy=\"true\">(</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>11</mn><mi>x</mi><mo>-</mo><mn>10</mn><mo stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\"> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p stretchy left parenthesis x stretchy right parenthesis equals stretchy left parenthesis x minus 2 stretchy right parenthesis stretchy left parenthesis 6 x squared minus 11 x minus 10 stretchy right parenthesis bold space"
+      },
+      {
+       "latex": "Q(x)=6x^{2}-11x-10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">Q</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold-italic\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">11</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pTyFrDzfGTy2QVq3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/13",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_DdW4C2wKbf4Pn2Ty"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\np(x) = 6x³ + ax² + 12x + b, where a and b are integers.\n\np(x) has a remainder of 11 when divided by x - 3 and a remainder of -21 when divided by x + 1.\n\nGiven that p(x) = (x - 2)Q(x), find Q(x), a quadratic factor with numerical coefficients.\n\nUsing remainder theorem and solving simultaneous equations: a = -23 and b = 20.\n\nTherefore p(x) = 6x³ - 23x² + 12x + 20\n\nUsing algebraic long division:\n\np(x) = (x - 2)(6x² - 11x - 10)\n\nHence solve $p(x)=0$.",
+     "solution_md": "> *Factorise *$6x^{2}-11x-10$* in order to write *`straight p open parentheses x close parentheses`* as the product of three linear factors.*\n\n`6 x squared minus 11 x minus 10 space equals space open parentheses 3 x plus 2 close parentheses open parentheses 2 x minus 5 close parentheses`\n\n**[1]**\n\n> *Therefore,*\n\n`straight p open parentheses x close parentheses equals open parentheses x minus 2 close parentheses open parentheses 3 x plus 2 close parentheses open parentheses 2 x minus 5 close parentheses`\n\n> *When *`straight p open parentheses x close parentheses equals 0`\n\n`open parentheses x minus 2 close parentheses open parentheses 3 x plus 2 close parentheses open parentheses 2 x minus 5 close parentheses equals 0`\n\n> *Solve.*\n\n$x=2,x=-\\frac{2}{3},x=\\frac{5}{2}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "p(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight p left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "6x^{2}-11x-10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>11</mn><mi>x</mi><mo>-</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 x squared minus 11 x minus 10"
+      },
+      {
+       "latex": "x=2,x=-\\frac{2}{3},x=\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">3</mn></mfrac><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 2 bold comma bold space bold space bold space bold space bold space bold space bold italic x bold equals bold minus bold 2 over bold 3 bold comma bold space bold space bold space bold space bold space bold space bold italic x bold equals bold 5 over bold 2"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,909 @@
+# Mark Schemes — How Far Did US Society Change in the 1920s?
+**The United States, 1919–41** · Cambridge (CIE) IGCSE history (0470 & 0977)
+
+
+## Exam Questions (20 questions)
+
+
+### Q1
+The 1920s are often remembered in popular culture as a decade of dramatic change and new personal freedom right across American society, but for Black Americans the picture was, in reality, considerably more mixed and complicated [R].
+
+The first facet is that legal and social oppression in the South remained essentially unchanged throughout the decade, and in some respects actually worsened. The Jim Crow Laws continued to force Black Americans into separate schools, transport, restaurants and other public facilities, while deliberately designed literacy tests and voting taxes stripped most Black southerners of any meaningful right to vote [R]. Lynchings continued largely unpunished across the South, with 70 recorded in 1919 alone, partly because many local law enforcement officers were themselves active members of the Ku Klux Klan, whose national membership grew to around 5 million people by the mid-1920s, giving racist violence a genuinely mass base of support [R].
+
+The second facet is that the Great Migration to the North brought only limited practical improvement for most of those who took part in it. Hundreds of thousands of Black Americans moved to northern cities such as Chicago and New York during this period, seeking genuinely better economic opportunities and escaping the South's rigid, formal legal segregation [R]. However, they found no equivalent civil rights legislation protecting them in the North, and deeply held racist attitudes remained widespread there too; Black migrants were very often the last workers to be hired and the first to be fired whenever times grew harder, were paid noticeably less than White workers doing identical jobs, and were confined to overcrowded, poor-quality housing in the single most deprived urban districts of these northern cities [R].
+
+The third facet is organised resistance and some genuine, if limited, progress in the ongoing fight for civil rights. The NAACP, founded in 1909 in response to the Springfield Race Riot, continued to campaign vigorously against lynching and wider racial injustice throughout the 1920s, working through the law courts, public awareness campaigns and organised local community action across the country [R]. Although it could not realistically overturn the entire system of Jim Crow segregation during this single decade, its continued existence and steadily growing national influence show clearly that Black Americans were not merely passive victims of discrimination throughout this period, but were actively and persistently organising to resist and challenge it [E].
+
+The fourth facet is genuine cultural achievement and new national visibility. Jazz, developed originally by Black American musicians in the southern states, spread rapidly across the entire country during the decade, and individual figures such as Louis Armstrong achieved real, lasting national and international fame for their music [R]. This represented a form of change and recognition that the country's legal and political structures did not yet come close to reflecting, showing clearly that Black American culture could reach and genuinely influence White American society even while formal legal discrimination continued largely unabated and unchallenged in most areas of public life [E].
+
+These four facets connect closely to one another rather than existing as isolated, unrelated developments across the decade. Cultural achievement and migration to the North both represented genuine, active attempts by Black Americans to seek greater opportunity and wider recognition within American society, but both were consistently met by real forms of resistance, whether the outright racism jazz provoked in cities such as Detroit and New York or the informal, everyday discrimination migrants encountered in employment and housing once they actually arrived, showing that no single area of apparent change fully escaped the wider, persistent pattern of American racial prejudice [A].
+
+On balance, having weighed all four facets carefully against one another, American society changed for Black Americans only to a limited extent during the 1920s, whatever the decade's wider popular reputation for social transformation might suggest [A]. Cultural visibility through jazz and continued organisation through groups such as the NAACP represented real, though genuinely limited, progress within the decade, but both existed alongside a South still enforcing rigid legal segregation through everyday violence and intimidation, and a North that had simply replaced formal legal segregation with an equally effective, if less visible, system of informal economic and social discrimination [A]. For the great majority of ordinary Black Americans, the celebrated 'Roaring Twenties' brought considerably less genuine change to their daily lives than the decade's enduring popular reputation would ever suggest [A].
+
+**[25 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> The ladder is built around **facets**.
+> 
+> **Mark allocation**
+> 
+> - **21-25 marks:** presents more than one facet, with well-supported explanations in support of more than one facet, and reaches a clear, convincing and substantiated judgement on relative importance.
+> - **16-20 marks:** presents more than one facet, with explanations that support the facets presented. May attempt a judgement that is only partially supported.
+> - **11-15 marks:** presents one or more facets, but the explanation supports only one facet. May attempt a judgement that is unsupported.
+> - **6-10 marks:** attempts to address one or more facets but only by assertion. Relevant comments are undeveloped or implicit. May attempt a generalised judgement that is mostly asserted.
+> - **1-5 marks:** general knowledge of the topic, describing or identifying some points with limited focus. No attempt at judgement, or a very general and undeveloped one.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 21-25 marks include:
+> 
+> - Writing only about the South or only about the North, rather than covering both regions.
+> - Treating jazz's popularity as proof that racial attitudes had generally improved, without weighing it against continued discrimination.
+> - Ending without a clear, substantiated judgement on how far society actually changed.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Some Black Americans found opportunities in northern industries during the economic boom, though these were usually the lowest-paid and least secure positions available.
+> - The NAACP's court cases during this period laid groundwork for later, more successful civil rights campaigns in subsequent decades.
+
+> **[exam-tip]**
+> - Cover both the North and the South explicitly, since the question is about the USA as a whole, not one region alone.
+> - Weigh cultural achievement against continued legal and economic discrimination rather than treating them as separate, unconnected facts.
+> - Use precise figures throughout: 70 lynchings in 1919, and Klan membership of around 5 million by the mid-1920s.
+> - A judgement with two clear halves, such as real but narrow progress, is stronger than a single flat verdict.
+
+### Q2
+Jazz emerged as one of the most distinctive and influential cultural developments of the American 1920s, spreading rapidly from its origins among Black American blues and ragtime musicians in the southern states to reach almost every corner of the country within a single decade, so thoroughly that the era is sometimes even called the 'Jazz Age'. [R]
+
+The first facet is jazz's important role in creating a genuinely national, shared American culture for the first time in the country's history. Radios, gramophones and films carried jazz into towns and communities that had never heard it performed live, so that a musical style rooted specifically in the American South, and in Black American musical traditions in particular, became genuinely familiar to audiences right across the whole country, from major northern cities to small rural settlements, within a remarkably short period of time that mirrored the speed of change across the wider decade. [E]
+
+The second facet is jazz's particular importance to the youth culture of the decade specifically. It became especially popular among young Americans, who invented energetic new dances such as the Charleston to accompany it, and jazz music and dancing became closely associated with the wider generational rebellion against older, more conservative social values that characterised much of the decade, particularly among flappers and other young, fashionable urban Americans who deliberately used jazz to signal their break from their parents' generation and its expectations. [E]
+
+The third facet is jazz's real significance as a form of authentic Black American cultural expression reaching a mainstream, largely White national audience for the very first time. Musicians such as Louis Armstrong achieved genuine, lasting international fame through jazz during this decade, despite the widespread prejudice and discrimination that Black Americans continued to face throughout the whole period in employment, housing, voting rights and almost every other area of daily American life. [R] This gave jazz a cultural importance that went well beyond simple entertainment alone, since a Black-created art form was, for the first time, shaping the tastes and behaviour of White Americans on a genuinely national scale, reversing the usual direction of cultural influence in a still deeply segregated society. [E]
+
+The fourth facet is the significant and sustained opposition jazz provoked throughout the decade, which itself reveals a great deal about the genuine scale of its cultural power and reach. To many older and more conservative Americans, jazz represented the music of drinking, nightclubs and immoral behaviour, and some cities, including Detroit and New York, actually banned jazz music because of its association with speakeasies and criminal activity. [R] Much of this opposition was rooted specifically and unmistakably in racial prejudice against a Black American art form succeeding among White audiences, rather than in any genuine concern about its musical content. [E] The very intensity of this backlash is itself telling evidence of how threatening some Americans found the cultural power jazz had come to hold. [A]
+
+These four facets connect very closely to one another rather than existing as separate, unrelated observations about the decade. Jazz could only have provoked such strong and organised opposition precisely because it had become so genuinely popular and influential across such a wide, national audience; a marginal, little-known regional musical style would never have attracted formal bans in major cities such as Detroit and New York in the first place. [A]
+
+On balance, jazz was hugely important to American culture in the 1920s, not primarily as entertainment in the way cinema or radio were, but as the clearest example of Black American culture achieving real national visibility and influence during a decade otherwise defined by segregation and discrimination. [A] While the motor car reshaped where Americans actually lived and cinema and radio reached by far the largest audiences in sheer weekly numbers, jazz's deeper importance lies in what it genuinely represented: solid proof that Black American artistic achievement could reach, move and ultimately unsettle White American society on a national scale, even while the legal, political and social position of Black Americans themselves remained almost entirely unchanged throughout the very same celebrated decade. [A]
+
+**[25 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> The ladder is built around **facets**.
+> 
+> **Mark allocation**
+> 
+> - **21-25 marks:** presents more than one facet, with well-supported explanations in support of more than one facet, and reaches a clear, convincing and substantiated judgement on relative importance.
+> - **16-20 marks:** presents more than one facet, with explanations that support the facets presented. May attempt a judgement that is only partially supported.
+> - **11-15 marks:** presents one or more facets, but the explanation supports only one facet. May attempt a judgement that is unsupported.
+> - **6-10 marks:** attempts to address one or more facets but only by assertion. Relevant comments are undeveloped or implicit. May attempt a generalised judgement that is mostly asserted.
+> - **1-5 marks:** general knowledge of the topic, describing or identifying some points with limited focus. No attempt at judgement, or a very general and undeveloped one.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 21-25 marks include:
+> 
+> - Describing jazz's popularity as a list of facts without ever explaining why it mattered culturally.
+> - Ignoring the opposition jazz provoked, which is essential evidence for judging its true cultural significance.
+> - Ending without a clear, substantiated judgement on how important jazz actually was compared with other cultural developments.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Cinema and radio are useful comparison points, since both reached far larger weekly audiences than jazz alone, which a strong answer may use to qualify jazz's importance.
+> - The Charleston and other jazz-era dances spread partly because of the same media, such as radio and film, that carried jazz itself across the country.
+
+> **[exam-tip]**
+> - Ask the counterfactual: would jazz have provoked bans in Detroit and New York if it had remained a minor regional style? Answering that directly produces a judgement rather than a summary.
+> - Show how the facets connect. Saying that jazz's popularity is what caused the backlash against it is a high-level move examiners reward.
+> - Compare jazz to cinema and radio explicitly in your judgement, since without a comparison there is nothing to weigh its importance against.
+> - Distinguish scale of audience from depth of cultural significance. That distinction is exactly what explains why jazz's importance goes beyond simple popularity.
+
+### Q3
+Prohibition, introduced by the 18th Amendment and the Volstead Act and in force in the USA from 1920 to 1933, is widely regarded by historians as one of the clearest and most instructive policy failures of the entire decade. [R] It was originally introduced with strong, well-organised support from religious and temperance groups such as the Anti-Saloon League, yet it collapsed within little more than a single decade.
+
+The first facet is the rise of organised crime. Bootlegging, the illegal production, smuggling and sale of alcohol, grew rapidly once legal alcohol was banned, and gangsters such as Al Capone became extremely powerful and wealthy figures through it. [R] Every city in the USA developed serious problems with gang violence, as competing criminal organisations fought for control of this hugely profitable illegal trade, producing a scale of organised violence the country had rarely experienced outside of wartime itself. [E] Capone alone is estimated to have earned tens of millions of dollars a year from illegal alcohol, bribery and related rackets, showing just how lucrative bootlegging had become under prohibition. [E]
+
+The second facet is corruption. Bootleggers routinely bribed police officers, and in some cases even judges, to turn a blind eye to their illegal activities, which undermined the rule of law from within the very institutions meant to enforce it. [E] This corruption eroded public trust not just in prohibition itself but in law enforcement and government more broadly, since ordinary citizens could plainly see that the law applied unevenly, protecting those with enough money to spend on bribes while doing little to protect anyone else from the resulting violence. [E]
+
+The third facet is the lack of genuine public support for the law. Many Americans had never supported prohibition in the first place, and even among those who had, enthusiasm faded quickly once it became clear how ineffective the ban actually was in practice. [R] A law that such a large proportion of the population was willing to break, or at the very least quietly tolerate others breaking around them, was always going to be extremely difficult for the government to enforce successfully over any genuinely sustained period of time. [E] Speakeasies, illegal bars selling smuggled or home-produced alcohol, sprang up in every major American city, often operating quite openly with the knowledge of local residents and even, in many cases, local police. [R]
+
+The fourth facet is the sheer practical difficulty and cost of enforcement across such a vast country. Enforcing prohibition cost the US government around \$13.4 million, while the government simultaneously lost out on approximately \$11 billion of potential revenue from taxing legal alcohol sales. [R] Policing every single state, city and remote rural community for illegal alcohol production and smuggling proved to be an almost impossible administrative task given the limited resources actually available to federal and state government at the time. [E] Alcohol could be smuggled across the long, largely unguarded borders with Canada and Mexico, or produced secretly and locally in home stills scattered across the countryside, making comprehensive enforcement essentially unachievable in practice. [R]
+
+These four facets connect very closely to one another rather than operating as separate, unrelated causes of failure. The lack of public support made enforcement harder, which allowed organised crime to grow unchecked, which in turn produced the corruption that further weakened whatever enforcement remained, creating a self-reinforcing cycle of failure that grew worse throughout the entire decade. [A]
+
+On balance, having weighed all four facets against one another, the lack of genuine public support was the single most fundamental reason for prohibition's eventual failure, because it explains why all three of the other facets developed and grew so quickly in the first place. [A] Organised crime could only flourish because enough ordinary Americans were willing to buy illegal alcohol, corruption could only spread because enough officials were willing to accept bribes rather than enforce an unpopular law, and enforcement remained so difficult and expensive precisely because the government was fighting against the actual everyday preferences of large numbers of its own ordinary citizens throughout the entire thirteen years that prohibition remained officially in force, a conflict no amount of policing or legislation could ultimately win. [A]
+
+**[25 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> The ladder is built around **facets**.
+> 
+> **Mark allocation**
+> 
+> - **21-25 marks:** presents more than one facet, with well-supported explanations in support of more than one facet, and reaches a clear, convincing and substantiated judgement on relative importance.
+> - **16-20 marks:** presents more than one facet, with explanations that support the facets presented. May attempt a judgement that is only partially supported.
+> - **11-15 marks:** presents one or more facets, but the explanation supports only one facet. May attempt a judgement that is unsupported.
+> - **6-10 marks:** attempts to address one or more facets but only by assertion. Relevant comments are undeveloped or implicit. May attempt a generalised judgement that is mostly asserted.
+> - **1-5 marks:** general knowledge of the topic, describing or identifying some points with limited focus. No attempt at judgement, or a very general and undeveloped one.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 21-25 marks include:
+> 
+> - Describing the reasons prohibition was introduced instead of the reasons it failed, which are the reverse of the question.
+> - Writing about gangsterism at length without connecting it back to why prohibition specifically failed as a policy.
+> - Ending without ranking the facets. The top band requires a judgement on which mattered most.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - The Ku Klux Klan is a separate but related problem of the decade, and a strong answer should not confuse it with the specific causes of prohibition's failure.
+> - The eventual repeal in 1933 by President Roosevelt is the clearest single piece of evidence that these reasons had genuinely overwhelmed the policy.
+
+> **[exam-tip]**
+> - Ask the counterfactual: could prohibition have worked with stronger enforcement alone? Answering that directly shows why public support was the deeper problem.
+> - Show how the facets connect. Saying that weak public support enabled both crime and corruption is a high-level move examiners reward.
+> - Give proper attention to all four facets rather than focusing only on gangsters; the top band needs more than one facet explained.
+> - Use precise figures throughout: \$13.4 million in enforcement costs and \$11 billion in lost tax revenue.
+
+### Q4
+The popular term 'Roaring Twenties' describes a period of rapid cultural, social and economic change that swept across the United States during the 1920s, a decade in which developments occurred so frequently and so quickly, one after another, that it genuinely felt to many contemporaries as though the whole of American life was roaring past them.
+
+Economically, the USA experienced very rapid and sustained growth throughout almost the entire decade, driven by technological innovation, mass production, increased consumer spending and generally supportive Republican government policies. [R] This economic boom led to rising living standards for many Americans and the emergence of a genuinely modern consumer culture, in which growing numbers of ordinary citizens enjoyed real wealth and easy access to a wide range of new goods and services that had simply not existed even a decade earlier, from motor cars to household electrical appliances. [D]
+
+New technology transformed everyday life in ways previous generations could scarcely have imagined. The motor car, mass-produced through Henry Ford's assembly line and increasingly affordable, reached around 23 million owners across the country by 1929, enabling ordinary people to travel much further than before, supporting the physical expansion of cities into new suburbs, and creating considerable wealth across a wide range of connected supplying industries such as steel, rubber and construction. [R] Radio became the single most popular form of entertainment in the country, with around 10 million American homes owning a set by 1929, spreading news, ideas, music and organised sport to even the smallest and most remote rural communities, regardless of whether individual listeners could actually read or write themselves. [R]
+
+Culturally, the decade was above all a time of social freedom and genuine experimentation, during which many Americans, particularly the young, began openly to challenge traditional social values and entirely new forms of artistic and personal expression emerged across the country. [D] Jazz music, developed originally by Black American musicians in the southern states, spread rapidly and enthusiastically across the whole country, closely associated with new dances such as the Charleston, while cinema became hugely and almost universally popular, with Americans making around 110 million visits to the cinema every single week by 1929, drawn by cheap tickets and glamorous Hollywood stars. [R]
+
+**[15 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - Recall - [R]
+> - Description - [D]
+> 
+> Accuracy, coverage and sequence earn the marks, not explanation.
+> 
+> **Mark allocation**
+> 
+> - **11-15 marks:** the account includes the main events and developments and directly addresses the question. It is consistently supported by accurate historical knowledge and is logically sequenced.
+> - **6-10 marks:** the account describes some events and developments relevant to the question. It is mostly supported by accurate historical knowledge and is structured in its approach.
+> - **1-5 marks:** limited relevance to the question. Some accurate historical knowledge. Points are generally unconnected.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 11-15 marks include:
+> 
+> - Writing only about one aspect of the term, such as the economic boom, without covering technology and culture as well.
+> - Assuming the term means all Americans shared equally in the changes described, without any qualification.
+> - Confusing this general overview question with a detailed account of a single development, such as jazz or the motor car alone.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - The rise of consumer credit and hire-purchase schemes is part of what made the new consumer culture of the decade possible for ordinary families.
+> - The decade's reputation contrasts sharply with the hardship many farmers and rural Americans experienced throughout the same period.
+
+> **[exam-tip]**
+> - Structure the account by theme: economic growth, then technology, then culture, then a brief qualification.
+> - Get the key figures in: 23 million cars, 10 million radios, and 110 million weekly cinema visits, all by 1929.
+> - Naming jazz and the Charleston alongside cinema and radio shows a genuinely full range of cultural coverage.
+> - This is Paper Four, so no introduction or conclusion is required; focus entirely on accurate, sequenced coverage.
+
+### Q5
+Jazz music originated in the southern states of the USA, developed by Black American blues and ragtime musicians who combined earlier African American and folk musical traditions into a distinctive new, high-tempo style unlike anything that had come before it. [R] During the 1920s, a decade sometimes even referred to as the 'Jazz Age' because of the music's cultural importance, it spread far beyond its original southern origins to become popular across the entire country. [D]
+
+Radios, gramophones and films all helped carry jazz into homes and communities that had never heard it performed live before, spreading it into every region of such a vast and geographically diverse country within a remarkably short space of time. [R] This new mass media, developed and expanding at exactly the same time as jazz itself, meant that a style of music rooted in a specific regional and racial tradition could reach a truly national audience for the first time. [D] It became especially popular among young Americans, who invented energetic new dances to go with it, most famously the Charleston, which became one of the single most recognisable and defining images of the whole decade, closely associated with flappers, jazz clubs and the wider rebellious youth culture of the entire era. [R]
+
+Individual musicians achieved genuine national and even international fame through jazz for the very first time. Louis Armstrong, in particular, became internationally famous during this period for his trumpet playing and distinctive singing style, despite the widespread prejudice and discrimination that Black Americans continued to face throughout the 1920s in almost every area of daily life, from employment and housing to voting rights. [R]
+
+However, jazz also provoked significant and sustained hostility from many older and more conservative Americans throughout the decade. To them, jazz represented the music of drinking, nightclubs and what they considered immoral, disreputable behaviour, and some cities, including Detroit and New York, went so far as to formally ban jazz music because of its close association with criminal activity, gangsters and illegal speakeasies during the era of prohibition. [R] Others objected to jazz specifically and primarily because it was a Black American art form succeeding among White audiences, revealing that a great deal of the wider opposition to it was rooted fundamentally in racial prejudice rather than in any genuine, considered concern about its actual musical content or performance context. [D]
+
+**[15 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - Recall - [R]
+> - Description - [D]
+> 
+> Accuracy, coverage and sequence earn the marks, not explanation.
+> 
+> **Mark allocation**
+> 
+> - **11-15 marks:** the account includes the main events and developments and directly addresses the question. It is consistently supported by accurate historical knowledge and is logically sequenced.
+> - **6-10 marks:** the account describes some events and developments relevant to the question. It is mostly supported by accurate historical knowledge and is structured in its approach.
+> - **1-5 marks:** limited relevance to the question. Some accurate historical knowledge. Points are generally unconnected.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 11-15 marks include:
+> 
+> - Writing only about jazz's popularity without also covering the opposition and hostility it provoked.
+> - Confusing jazz with cinema or radio, which are separate cultural developments of the same decade.
+> - Leaving out its origins among Black American musicians, which is essential to explaining why it provoked racial opposition.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - The Charleston and other new dances were often performed in nightclubs and speakeasies, linking jazz culture directly to the era of prohibition.
+> - Some White musicians and bandleaders also began performing jazz during the decade, though the music's origins remained firmly rooted in Black American communities.
+
+> **[exam-tip]**
+> - Structure the account chronologically: origins in the South, spread via new media, individual fame, then the opposition it provoked.
+> - Naming Louis Armstrong and the Charleston shows precise knowledge of specific figures and developments.
+> - Always include the opposition to jazz, not just its popularity, since both are part of a complete account.
+> - This is Paper Four, so no introduction or conclusion is required; focus entirely on accurate, sequenced coverage.
+
+### Q6
+Discussions about introducing prohibition in the USA had begun as early as 1917. [R] In 1919 the government passed two acts to bring it into force: the 18th Amendment made the sale of alcohol illegal, while the Volstead Act classified alcohol as any drink that had ever contained more than 0.5% alcohol. [R] As a federal law, prohibition applied to every state in the country, and it formally began in 1920. [R]
+
+Several groups had campaigned for prohibition before it was introduced. The Methodists and Baptists believed drinking alcohol was a sin, and organisations such as the Anti-Saloon League and the Women's Christian Temperance Union blamed alcohol for causing poverty, crime and broken marriages. [R] Anti-German feeling around the First World War added further support, since many alcohol companies, especially breweries, were German-owned, and buying from them came to be seen as distinctly unpatriotic at a time of heightened wartime suspicion of German-Americans generally. [R] Powerful industrialists such as Henry Ford also supported prohibition, believing that drinking decreased worker efficiency and increased sick days, and such figures had real influence over federal politics at the time. [R] Anti-immigrant feeling more generally also played a part, since communities such as the Irish, Germans and Eastern Europeans had a reputation for drinking heavily, and support for prohibition was closely linked to a wider dislike of these groups. [D]
+
+Once in force, prohibition did not work as its supporters had hoped. Bootlegging, the illegal production and sale of alcohol, grew rapidly, and gangsters such as Al Capone became extremely powerful and wealthy figures by smuggling and distributing it. [R] Every city in the USA developed serious problems with gang violence as competing criminal groups fought over control of the trade. [D] Corruption also spread widely, as bootleggers bribed police officers and even judges to turn a blind eye to their illegal activities, undermining public trust in law enforcement and the government. [R]
+
+By the early 1930s, in the midst of the Great Depression, the US government could no longer plausibly justify continuing prohibition as it had originally been designed. [R] Enforcing it had cost around \$13.4 million, while the government was losing out on approximately \$11 billion of potential revenue from taxing legal alcohol sales. [R] Public opposition had grown considerably, and businessmen increasingly opposed prohibition because of the crime it had caused. [D] The Great Depression, which brought mass unemployment from 1929, meant that legalising alcohol production again was expected to create many badly needed jobs. [R] Campaign groups such as the Women's Organisation for National Prohibition Reform protested against the huge number of arrests prohibition had caused. [R]
+
+In 1933 President Roosevelt repealed the 18th Amendment, ending federal prohibition after thirteen years. [R] The decision to ban alcohol was handed back to individual states, meaning that prohibition continued in some states even after it ended nationally. [D]
+
+**[15 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - Recall - [R]
+> - Description - [D]
+> 
+> Accuracy, coverage and sequence earn the marks, not explanation.
+> 
+> **Mark allocation**
+> 
+> - **11-15 marks:** the account includes the main events and developments and directly addresses the question. It is consistently supported by accurate historical knowledge and is logically sequenced.
+> - **6-10 marks:** the account describes some events and developments relevant to the question. It is mostly supported by accurate historical knowledge and is structured in its approach.
+> - **1-5 marks:** limited relevance to the question. Some accurate historical knowledge. Points are generally unconnected.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 11-15 marks include:
+> 
+> - Covering only the introduction or only the failure of prohibition instead of the full sequence from introduction to repeal.
+> - Confusing this with the wider problem of gangsterism in general, rather than keeping the focus specifically on prohibition itself.
+> - Leaving out the repeal in 1933, which is essential to a complete account of the policy.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Support for prohibition was also linked to a wider dislike of immigrant communities with a reputation for drinking heavily, such as the Irish and Eastern Europeans.
+> - Speakeasies, illegal bars selling smuggled or home-produced alcohol, operated openly in many major American cities throughout the period.
+
+> **[exam-tip]**
+> - Structure the account chronologically: the campaign to introduce it, the law itself, its failure in practice, then its repeal.
+> - Get the key dates in: 1917, 1919, 1920, and 1933.
+> - Naming Al Capone and the \$13.4 million enforcement cost shows precise knowledge.
+> - This is Paper Four, so no introduction or conclusion is required; focus entirely on accurate, sequenced narrative.
+
+### Q7
+Jazz originated among Black American blues and ragtime musicians in the southern states and, during the 1920s, spread right across the country thanks to radios, gramophones and films [R]. It was especially popular with young people, who invented new dances such as the Charleston to go with it, meaning a genuinely new, Black-originated sound was now heard in homes nationwide rather than only by audiences who could see it performed live [E].
+
+Despite the prejudice and discrimination Black Americans faced throughout the decade, musicians such as Louis Armstrong achieved international fame through jazz [R]. This mattered because it carried Black American culture into the American mainstream at a time when segregation and discrimination still dominated everyday life, giving jazz a social significance that went well beyond its role as popular entertainment [E].
+
+Cinema reached an even larger audience in sheer numbers [R]. By 1929 Americans were making 110 million visits to the cinema every week, drawn by cheap tickets costing under 25 cents that made a trip to the pictures affordable for people of every social class [E].
+
+Cinemas also offered a wide range of genres from romance to comedy and glamorous stars such as Rudolph Valentino and Clara Bow, while the introduction of sound with The Jazz Singer in 1927 made films even more exciting [R]. This explains its huge popularity because cinema offered a comfortable, glamorous escape from everyday life that kept audiences coming back throughout the decade [E].
+
+The two were closely linked rather than being entirely separate forms of entertainment [R]. The very film that introduced sound to cinema, The Jazz Singer, was itself named after the music, and jazz spread partly because films and radio carried it into homes that had never heard it performed live [A].
+
+On balance, cinema had the greater overall impact, simply because of its sheer scale and universal reach across every social class and region. Jazz was culturally revolutionary and carried real social significance, particularly for Black Americans, but some older Americans and entire cities such as Detroit and New York actively banned or resisted it. Cinema, by contrast, was embraced almost universally, reaching a weekly audience of 110 million in a country of only around 120 million people [A].
+
+**[10 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> **Mark allocation**
+> 
+> - 10 marks require you to explain both sides and then support a valid judgement on which had the greater impact.
+> - Explaining both sides without a supported judgement is worth 7-9 marks. Seven marks are given for one explanation on each side, with one further mark for each additional explanation on either side.
+> - Explaining only one side is worth 4-6 marks, with one mark for each explanation.
+> - Identifying or describing valid points without explaining them is worth 2-3 marks.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 10 marks include:
+> 
+> - Describing jazz or cinema in detail without ever comparing their impact on American culture.
+> - Covering only one option in detail. An answer covering only one is capped at 6 marks however detailed.
+> - Concluding that both mattered equally. Choose one and give a reason for choosing it.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Mickey Mouse's first appearance in Steamboat Willie in 1928 shows how quickly cinema technology and popularity continued to develop across the decade.
+> - Jazz's association with speakeasies and prohibition-era nightlife is part of why some cities banned it, linking cultural change to the wider problems of the decade.
+
+> **[exam-tip]**
+> - A useful test for questions like this is to ask how many people each change actually reached, rather than how significant it looks in hindsight.
+> - Handle both options properly. An answer covering only one is capped at 6 marks however detailed.
+> - Noticing that The Jazz Singer connects the two forms of entertainment directly is a high-level move examiners reward, provided you still name a winner.
+
+### Q8
+Prohibition was introduced with strong support from religious groups such as the Methodists and Baptists, who saw drinking as a sin, and from temperance campaigners such as the Anti-Saloon League and the Women's Christian Temperance Union, who blamed alcohol for poverty, crime and broken marriages [R]. This mattered because it shows prohibition responded to genuine, widely-shared concerns about the social harm alcohol was believed to cause [E].
+
+Prohibition did reduce the overall amount of alcohol legally available and consumed compared with before 1920 [R]. For some Americans who supported the temperance movement, simply having such a law on the statute books at all was itself considered a genuine moral victory, whatever its practical effects turned out to be [E].
+
+Bootlegging grew rapidly, and gangsters such as Al Capone became extremely rich and powerful by smuggling and distributing illegal alcohol, while corruption spread as bootleggers bribed police officers and judges to look the other way [R]. This mattered because every city in the USA developed serious problems with gang violence as a direct result [E].
+
+By the early 1930s the government could no longer realistically afford to enforce the law, having already spent \$13.4 million on enforcement while losing out on around \$11 billion in potential tax revenue that could otherwise have been raised [R]. This mattered because the Great Depression's mass unemployment meant legalising alcohol production again offered a practical way to create jobs and much-needed tax revenue [E].
+
+These two pictures fit together rather than contradicting each other [R]. Prohibition may have reduced overall alcohol consumption slightly, but it did so at the cost of creating a large, violent and deeply entrenched criminal industry that caused far greater harm to American society than the drinking it was meant to prevent [A].
+
+On balance, prohibition was a clear failure. It is genuinely difficult to call a policy successful when it had to be repealed after only thirteen years, when it created the exact conditions for organised crime to flourish on a national scale, and when even the government itself eventually concluded that the costs of enforcing it clearly outweighed any benefit it might have brought. The repeal of the 18th Amendment by President Roosevelt in 1933 is itself the clearest evidence that prohibition had not achieved what it set out to do [A].
+
+**[10 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> **Mark allocation**
+> 
+> - 10 marks require you to explain both sides and then support a valid judgement on how successful prohibition was.
+> - Explaining both sides without a supported judgement is worth 7-9 marks. Seven marks are given for one explanation on each side, with one further mark for each additional explanation on either side.
+> - Explaining only one side is worth 4-6 marks, with one mark for each explanation.
+> - Identifying or describing valid points without explaining them is worth 2-3 marks.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 10 marks include:
+> 
+> - Describing what prohibition banned without ever addressing how successful it actually was.
+> - Covering only its failures, or only its original aims, without weighing both sides.
+> - Giving no clear final judgement on how successful prohibition was overall.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Speakeasies operated openly in most major American cities throughout the period, showing how widely the law was ignored.
+> - Campaign groups such as the Women's Organisation for National Prohibition Reform actively protested against the huge number of arrests prohibition had caused.
+
+> **[exam-tip]**
+> - A strong response examines both prohibition's original aims and its practical failures before reaching a judgement.
+> - Precise details, such as the \$13.4 million enforcement cost and \$11 billion in lost revenue, earn the higher marks.
+> - Use phrases like 'largely unsuccessful' or 'a clear failure' in your conclusion to show a clear, supported judgement.
+
+### Q9
+One reason is the rise of organised crime [R]. Bootlegging, the illegal making and selling of alcohol, grew rapidly once legal alcohol was banned, and gangsters such as Al Capone became extremely powerful and wealthy figures by smuggling and distributing it. This mattered because it meant ordinary Americans who wanted a drink could still get one fairly easily, simply through criminals rather than through legal, licensed businesses as before [E].
+
+A second reason is corruption and weak enforcement. Bootleggers bribed police officers, and in some cases even judges, to turn a blind eye to their illegal activities, which undermined the rule of law and eroded public trust in government [R]. Enforcement was also extremely difficult and expensive across such a vast country, and there was never enough genuine public support for the law to make it work in practice. This explains the failure of prohibition because a law that could be so easily bypassed through bribery, and that so many ordinary Americans quietly disagreed with in private, was never realistically going to be properly enforced across such a vast country [E].
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> 
+> **Mark allocation**
+> 
+> - 6 marks are awarded for explaining two reasons.
+> - Explaining one reason is worth 4 marks, rising to 5 marks where the explanation is supported by specific contextual knowledge.
+> - Identifying or describing valid reasons without explaining them is worth 2-3 marks, with one mark for each identification.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 6 marks include:
+> 
+> - Describing what gangsters did in general instead of explaining why prohibition specifically failed.
+> - Writing only that 'people kept drinking anyway' without naming a specific mechanism such as bootlegging or bribery.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Speakeasies, illegal bars selling smuggled or home-produced alcohol, operated openly in most major American cities throughout the period.
+> - Enforcing prohibition cost the government \$13.4 million, showing how expensive and difficult effective enforcement actually was.
+
+> **[exam-tip]**
+> - In Paper One, 'why' questions are worth either six or ten marks. For full marks here, an examiner is looking for two fully explained reasons.
+> - Use the PEE structure: make a point, use evidence, then explain why that evidence explains prohibition's failure.
+> - Naming Al Capone with a specific detail about his activities gives you the specific contextual knowledge that lifts an answer to 5 marks.
+
+### Q10
+One reason is pressure from religious and temperance groups [R]. The Methodists and Baptists did not agree with drinking alcohol, believing it to be a sin, and organisations such as the Anti-Saloon League and the Women's Christian Temperance Union campaigned actively for prohibition, blaming alcohol for causing poverty, crime and broken marriages across the country. This mattered because it gave prohibition a powerful, well-organised base of religious and moral support long before any actual federal law was ever passed by Congress [E].
+
+A second reason is anti-German and anti-immigrant feeling around the First World War. Many German immigrants owned alcohol companies, especially breweries, and the American public increasingly viewed buying alcohol from German-owned businesses as unpatriotic during and after the war [R]. Support for prohibition was also linked more broadly to a dislike of immigrant communities such as the Irish, Germans and Eastern Europeans, who had a reputation for drinking heavily. This explains prohibition's introduction because wartime patriotism and prejudice against immigrant communities reinforced the existing moral case against alcohol that religious groups had already been making for years [E].
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> 
+> **Mark allocation**
+> 
+> - 6 marks are awarded for explaining two reasons.
+> - Explaining one reason is worth 4 marks, rising to 5 marks where the explanation is supported by specific contextual knowledge.
+> - Identifying or describing valid reasons without explaining them is worth 2-3 marks, with one mark for each identification.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 6 marks include:
+> 
+> - Describing what prohibition banned instead of explaining why it was introduced.
+> - Writing only that 'people thought alcohol was bad' without naming a specific group or reason, such as the Anti-Saloon League or anti-German feeling.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Powerful industrialists such as Henry Ford supported prohibition, believing that drinking decreased worker efficiency and increased sick days.
+> - Discussions about prohibition had already begun as early as 1917, before it was formally passed into law in 1919.
+
+> **[exam-tip]**
+> - In Paper One, 'why' questions are worth either six or ten marks. For full marks here, an examiner is looking for two fully explained reasons.
+> - Use the PEE structure: make a point, use evidence, then explain why that evidence led to prohibition.
+> - Naming the Anti-Saloon League and the Women's Christian Temperance Union gives you the specific contextual knowledge that lifts an answer to 5 marks.
+
+### Q11
+Enforcing prohibition cost the US government \$13.4 million, while the government was also losing out on around \$11 billion of potential revenue from taxing alcohol sales [1]. Opposition among ordinary US citizens increased steadily, and businessmen no longer wanted prohibition because of the rise in organised crime it had caused [1]. The Great Depression led to mass unemployment, and legalising alcohol production again was expected to create many new jobs [1]. In 1933 President Roosevelt repealed the 18th Amendment, making the banning of alcohol a decision for individual states rather than a federal law [1].
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - 1 mark for each relevant point - [1]
+> 
+> **Mark allocation**
+> 
+> 1 mark for each distinct piece of information. Four separate points are needed for 4 marks. Developing a point further does not earn an additional mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 4 marks include:
+> 
+> - Describing why prohibition was introduced instead of why it ended. Those are the reverse of each other and answer different questions.
+> - Writing only that 'prohibition did not work' without a specific supporting detail such as cost, unemployment or a named campaign group.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Campaign groups such as the Women's Organisation for National Prohibition Reform protested against the large number of arrests prohibition had caused.
+> - After 1933, the ban on alcohol remained in place in some individual states even though it had ended at the federal level.
+
+> **[exam-tip]**
+> - Write in complete, clear sentences rather than bullet points.
+> - Keep each point in its own sentence so the examiner can count them.
+> - Naming President Roosevelt and the year 1933 is a quick way to show precise knowledge.
+
+### Q12
+Prohibition made the production, selling and distribution of alcohol illegal across the whole of the United States, since it was a federal law that applied to every state [1]. In 1919 the government passed two acts to bring it into force: the 18th Amendment made the sale of alcohol illegal, while the Volstead Act classified alcohol as any drink that had ever contained more than 0.5% alcohol [1]. Discussions about introducing prohibition had actually begun as early as 1917, some years before it came into force [1]. Prohibition began in 1920 and lasted until it was repealed in 1933 [1].
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - 1 mark for each relevant point - [1]
+> 
+> **Mark allocation**
+> 
+> 1 mark for each distinct piece of information. Four separate points are needed for 4 marks. Developing a point further does not earn an additional mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 4 marks include:
+> 
+> - Explaining why prohibition was introduced or why it failed instead of describing what it actually was. Those are worth marks on other questions.
+> - Writing only that 'alcohol was banned' without a supporting detail such as a date or the name of an act.
+> 
+> **Alternative content**
+> 
+> Answers may include the following. This list is not exhaustive and any other valid material should be credited.
+> 
+> - Prohibition applied to the production and transportation of alcohol as well as its sale, not just its sale alone.
+> - The 18th Amendment and the Volstead Act together are sometimes referred to jointly as the legal basis for prohibition.
+
+> **[exam-tip]**
+> - Write in complete, clear sentences rather than bullet points.
+> - Keep each point in its own sentence so the examiner can count them.
+> - Naming the 18th Amendment and the Volstead Act separately, with what each one did, is a quick way to two distinct points.
+
+### Q13
+One reason why the cinema became popular in the 1920s was the state of the economy. The 1920s, often called the 'Roaring Twenties', was a period of prosperity, and many middle-class Americans had surplus money to spend on leisure, including films [R]. Cinemas were also cheap and accessible, so even working-class Americans could afford to go regularly. Films acted as an escape from everyday life and provided entertainment for all ages [E]. A range of genres, including comedy, romantic comedy, melodrama and epic fantasy, added to the appeal. With cars now available, driving to the cinema was easy, and the cinema became a new place to socialise [E].
+
+Secondly, the quality of films improved. They became longer, with fuller and more complex storylines and deeper narratives [E]. Until the late 1920s films were silent, and musicians were employed to play during screenings. The introduction of sound, which arrived with The Jazz Singer in 1927, was a revolutionary technological advance that boosted the popularity of cinema and created a new genre of musical films. Sound and speech made films far more exciting, drawing still more Americans into cinemas [E].
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> 
+> **Mark allocation**
+> 
+> - 6 marks are awarded for explaining two reasons.
+> - Explaining one reason is worth 4 marks, rising to 5 marks where the explanation is supported by specific contextual knowledge.
+> - Identifying or describing valid reasons without explaining them is worth 2-3 marks, with one mark for each identification.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 6 marks include:
+> 
+> - Focusing only on the entertainment value of films.
+> - Ignoring the economic, social and technological factors that worked together to make cinema popular.
+> - Bringing in material from outside the 1920s.
+> 
+> **Alternative content**
+> 
+> - Hollywood's location added to the quality of films. Its mild weather and varied landscape made it a prime destination for film-makers, who could build large production facilities there.
+> - Metro-Goldwyn-Mayer and Paramount Pictures began the trend of large studios dominating film production and distribution.
+> - Huge, elaborately decorated urban cinemas were built, seating thousands.
+> - Film stars such as Charlie Chaplin, Clara Bow and Greta Garbo became national icons.
+
+> **[exam-tip]**
+> - A simple introductory statement can be given, but it is not required.
+> - Two explained reasons is the target, supported with accurate subject knowledge.
+> - Specific detail earns the fifth mark, such as The Jazz Singer in 1927 or the growth of the big studios.
+
+### Q14
+The 1920s saw not only economic growth and prosperity but also serious problems of law and order. Two of the most prominent were gangsterism and the Ku Klux Klan. In this essay, I will examine how the Ku Klux Klan was the bigger and more serious problem for the USA [R].
+
+One reason the Klan was such a significant problem was its sheer size. Membership grew to around 5 million by the mid-1920s, whereas gangsters were a small minority. The Klan represented racial prejudice, an attitude deeply rooted in American society [E]. Its primary targets were Black people, immigrants, Catholics and Jewish people, which shows how widespread racial and religious intolerance was, especially in the South. It spread terror through lynchings, beatings and intimidation, and murdered far more people than the gangsters did [A].
+
+Secondly, the Klan was nationwide, and it threatened the foundations of American society by spreading fear, racism and violence. Its ideas ran deeper and lasted longer. Because of its influence in politics and the legal system, its members could act with near-impunity and victims rarely got justice. This went against the spirit of democracy and made life dangerous for millions of Americans [A].
+
+Gangsters, by contrast, were mainly active in the cities and engaged in organised crime and corruption [E]. Small gangs involved in theft and gambling already existed, but they were transformed into structured criminal enterprises in the 1920s by Prohibition. Gangsters such as Al Capone smuggled alcohol and bribed police and politicians, and ran illegal bars called speakeasies [E]. To protect that business they used violence, producing incidents such as the St Valentine's Day Massacre in 1929. Competing gangs fought gun battles and murdered each other. They openly disregarded the law, which made government authority look weak. Gangsterism was therefore a serious problem, but the Klan was a bigger one [A].
+
+To conclude, the Klan was more of a problem because it directly challenged America's democratic ideals. Gangsterism was limited in scope and closely tied to Prohibition, so it could be dealt with [A]. When Prohibition was abolished in 1933, gangsterism was largely brought under control, but the racism and intolerance the Klan promoted could not be legislated away [A].
+
+**[10 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> **Mark allocation**
+> 
+> - 10 marks require you to explain both sides and then support a valid judgement on which was the greater problem.
+> - Explaining both sides without a supported judgement is worth 7-9 marks. Seven marks are given for one explanation on each side, with one further mark for each additional explanation on either side.
+> - Explaining only one side is worth 4-6 marks, with one mark for each explanation.
+> - Identifying or describing valid points without explaining them is worth 2-3 marks.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 10 marks include:
+> 
+> - Assuming that the Klan operated only in the South and targeted only Black people.
+> - Not reaching a judgement on which issue was worse for American society.
+> - Assuming that organised crime began with Prohibition. It already existed; Prohibition transformed its scale.
+> 
+> **Alternative content**
+> 
+> **Arguments for the Ku Klux Klan**
+> 
+> - The Klan was revived after the film The Birth of a Nation in 1915, and was supported by many politicians.
+> - Even after committing murders and lynchings in public, Klan members were often found not guilty in southern courts.
+> - Klan influence began to decline after 1925 because of internal disagreements over goals and methods, scandals and bad publicity, weak leadership, corruption, and the loss of political and social support.
+> 
+> **Arguments for gangsterism**
+> 
+> - Organised crime existed before Prohibition and expanded because of it.
+> - Bootleggers smuggled alcohol from the Caribbean, Canada and Mexico, or produced it secretly in illegal distilleries.
+> - They bribed police officers, judges and politicians, and that corruption of public institutions was arguably a bigger problem for society than the violence itself.
+
+> **[exam-tip]**
+> - A simple introductory statement should be given, and a judgement can be introduced there.
+> - Three points, two on one side and one on the other, should be explained with accurate subject knowledge. Evaluate the perspective to reach the highest mark band.
+> - Include a concluding statement that clearly supports or opposes the statement in the question.
+
+### Q15
+**The first facet is that the car changed where Americans could live.** The motor car had been invented in 1885, but before the First World War its price meant only the wealthy owned one; mass production changed that, and by 1929 there were around 23 million cars in the United States. Once ordinary families could own a vehicle, they no longer had to live within walking distance of work. Cities expanded outwards and suburbs developed around them. This is a change of a different order from a new product or a new pastime, because it altered the physical shape of American communities and separated home from workplace for millions of people [E].
+
+**The second facet is that the car changed how far people could go and what they could do.** It improved the road network, because the country had to build roads to accommodate the vehicles, and it enabled people to travel much further than before. Journeys that had been impossible became routine, which widened where Americans could work, shop and take their leisure. For young people in particular it offered a degree of privacy and independence from family supervision that earlier generations had not had [E].
+
+**The third facet is the employment and wealth it generated across society.** The car industry supported many others, since steel, rubber, glass, leather and oil producers all boomed supplying parts and materials. This spread the benefits of the car well beyond those who made or owned one, creating jobs in a wide range of industries and generating considerable wealth, particularly for business owners [E].
+
+**The fourth facet is that the car was not the only thing transforming American life.** Radio spread across the country during the decade, reaching even the smallest and most remote settlements, so that news travelled faster and new ideas spread nationally; crucially it reached the many Americans who could not read, and by 1929 about 10 million homes had a set. Cinema grew just as fast, with Americans making 110 million visits a week by 1929, drawn by tickets costing under 25 cents and by a glamorous world quite unlike their own. Jazz spread from the southern states across the country, carried by radios, gramophones and films. Any claim about the car has to be measured against these [E].
+
+**The fifth facet is that the benefits were unevenly distributed.** The prosperity that put cars on the road was concentrated in the cities. Rural America was in difficulty throughout the decade, with corn and wheat prices falling by nearly 50 per cent between 1920 and 1921 and unskilled agricultural workers losing their jobs to machinery. Around half the population lived in rural areas, so a substantial part of American society experienced the 1920s as decline rather than as new mobility [E].
+
+**Judgement.** The motor car had the deepest impact of any single development of the decade, though not the most visible one [A]. Radio and cinema changed what Americans knew, heard and enjoyed, and those changes were real; but they reached people where they already were. The car changed where people were. Suburbanisation restructured American cities in a way that outlasted the decade by a century, and no other 1920s development altered the basic geography of daily life.
+
+The car also differs from the others in being simultaneously a cause and a symbol of the boom [A]. Radio and cinema were products of prosperity; the car helped create it, dragging steel, rubber, glass, leather and oil along behind it. That dual role is why its impact is best judged the greatest. The proper qualification is the fifth facet: this was an impact on urban and suburban America above all, and for the rural half of the population the defining experience of the 1920s was not the freedom of the road but falling prices and lost work [A].
+
+**[25 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> The ladder is built around **facets**.
+> 
+> **Mark allocation**
+> 
+> - **21-25 marks:** presents more than one facet, with well-supported explanations in support of more than one facet, and reaches a clear, convincing and substantiated judgement on relative importance.
+> - **16-20 marks:** presents more than one facet, with explanations that support the facets presented. May attempt a judgement that is only partially supported.
+> - **11-15 marks:** presents one or more facets, but the explanation supports only one facet. May attempt a judgement that is unsupported.
+> - **6-10 marks:** attempts to address one or more facets but only by assertion. Relevant comments are undeveloped or implicit. May attempt a generalised judgement that is mostly asserted.
+> - **1-5 marks:** general knowledge of the topic, describing or identifying some points with limited focus. No attempt at judgement, or a very general and undeveloped one.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 21-25 marks include:
+> 
+> - Explaining how the Model T was built. The assembly line explains why cars became cheap, which is worth a sentence; the question is about the effect on society, not the production method.
+> - Listing the industries the car supported and stopping there. Each economic point needs to be connected back to how people lived.
+> - Ignoring radio and cinema. Without rival factors there is nothing to weigh the car against, and the answer cannot reach the top level.
+> - Assuming all Americans owned cars. Around half the population lived in rural areas that were struggling badly, and the best answers say so.
+> 
+> **Alternative content**
+> 
+> - The growth of the car industry encouraged government spending on roads, so it changed public policy as well as private behaviour.
+> - Cars gave women, and young women in particular, greater freedom of movement, which connects to the wider changes in women's lives during the decade.
+> - Radio's ability to reach illiterate Americans meant it had a democratising effect the car did not, since owning a car required money while listening to a radio did not.
+> - Cinema created a shared national culture through stars such as Rudolph Valentino and Clara Bow, so it changed what Americans had in common.
+> - Reliance on car sales left the economy exposed once the market approached saturation, which contributed to the downturn at the end of the decade.
+
+> **[exam-tip]**
+> - Ask what kind of change each development produced. Distinguishing changes in where people lived from changes in what they watched or listened to gives you a clear basis for ranking.
+> - Suburbanisation is your strongest single argument, because it is the change that lasted longest and touched everything else.
+> - Bring in radio and cinema properly, with their figures. Ten million radio-owning homes and 110 million weekly cinema visits by 1929 make them serious rivals, and taking them seriously strengthens your judgement.
+> - Remember the rural half of the country. Noting who was left out is the qualification that turns a good conclusion into a convincing one.
+> - Avoid drifting into how cars were manufactured. Keep asking what the car did to people's lives.
+
+### Q16
+Before the First World War, American society expected women to be modest, respectable and above all domestic. Women were expected to wear long dresses, not to flirt in public, and to be accompanied by an older or married woman when out; smoking and drinking were regarded as unacceptable. Most did not work outside the home, and those who did took stereotypical jobs such as seamstress or maid. Whether employed or not, they were expected to look after the children and the men of the household [R].
+
+The war began to change this. From 1917 conscription took American men abroad, and in their absence women took on jobs that had been closed to them, working in munitions factories and heavy industry and serving as bus and tram conductors, police officers and firefighters. This work was vital in keeping the country running, and it persuaded some men that women were capable of far more than had been assumed [R].
+
+The most important political change came in 1920, when the 19th Amendment gave American women the right to vote in general elections. Politicians began introducing measures designed to appeal to the new electorate, such as the Maternity and Infancy Protection Act of 1921, which provided federal and state funds to reduce deaths of mothers and babies in childbirth [R].
+
+Employment changed too. The economic boom created new jobs, and many women found work in offices as telephonists, secretaries and typists. By 1929 around 10.9 million women were working outside the home, 25 per cent more than in 1920. Earning their own wages made many women less dependent on their husbands and readier to make their own decisions, and the divorce rate doubled over the decade [R].
+
+The most visible symbol of the new independence was the flapper. Flappers cut their hair short, wore short skirts, used bold make-up, smoked, drank and danced to jazz, deliberately rejecting almost every expectation their mothers had lived under [R].
+
+However, the flapper was not typical. Most employed women were in low-skilled jobs and were paid less than men for the same work, management positions were rarely given to women, and almost all politicians remained men. Flappers were overwhelmingly white, wealthy, upper-class women from northern cities, and there was a determined backlash from groups campaigning for what they called decent behaviour. Most women continued to have children early and to carry nearly all of the burden of childcare. For a great many American women, life in 1929 looked much as it had for their mothers [R].
+
+**[15 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - Recall - [R]
+> 
+> Accuracy, coverage and sequence earn the marks, not explanation.
+> 
+> **Mark allocation**
+> 
+> - **11-15 marks:** the account includes the main events and developments and directly addresses the question. It is consistently supported by accurate historical knowledge and is logically sequenced.
+> - **6-10 marks:** the account describes some events and developments relevant to the question. It is mostly supported by accurate historical knowledge and is structured in its approach.
+> - **1-5 marks:** limited relevance to the question. Some accurate historical knowledge. Points are generally unconnected.
+> - **0 marks:** no creditable material.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 11-15 marks include:
+> 
+> - Writing only about flappers. This is the mistake examiners see most often on this topic. Flappers were a small, wealthy, urban minority and were never representative of American women as a whole.
+> - Leaving out the starting point. Without knowing what was expected of women before the war, there is no way to show what actually changed.
+> - Treating the change as universal. An account that never mentions unequal pay, the absence of women from management or the continuing burden of childcare has told only half the story.
+> - Forgetting the vote. The 19th Amendment of 1920 is the single most significant development of the decade for American women.
+> 
+> **Alternative content**
+> 
+> - New consumer goods such as vacuum cleaners and washing machines reduced the time domestic work took, which is part of why some women could take paid employment.
+> - The motor car gave young women greater independence from family supervision than earlier generations had known.
+> - Black American women experienced far less of this change, facing discrimination in employment on top of the barriers all women encountered.
+> - Advertising increasingly targeted women as the main household purchasers, which gave them new economic influence even where it did not change their legal position.
+
+> **[exam-tip]**
+> - Structure the account as before, during and after: expectations before the war, the wartime shift, then the political, economic and social changes of the 1920s.
+> - Always include the limits. An account that shows both what changed and for whom it did not change is what separates the top band from the middle.
+> - Use the figures: the 19th Amendment in 1920, the 1921 Maternity and Infancy Protection Act, 10.9 million women in work by 1929, a 25 per cent rise, and a doubled divorce rate.
+> - Mention flappers, but place them accurately. Describing who they actually were, mostly wealthy white women in northern cities, shows real understanding rather than a stock image.
+
+### Q17
+One reason is that the people who should have investigated were often involved themselves [R]. Lynchings were carried out by mobs of White Americans against Black Americans they accused of crimes, and there were 70 such murders in 1919 alone. They were usually not investigated by the police, and the reason is straightforward: many members of southern law enforcement were themselves members of the Ku Klux Klan. Nor was this only a local problem, since some Klansmen held senior public office, and David Bibb Graves was both governor of Alabama and a Klan leader. When the sheriff and the governor share the murderers' beliefs, there is nobody left to bring a prosecution [E].
+
+A second reason is that the victims had no political power to change it [R]. The Jim Crow Laws in the southern states used literacy tests designed to be impossible for people who had been denied education, together with taxes on registering to vote, to strip most Black southerners of the franchise. A group that cannot vote cannot elect officials who would prosecute these crimes, and cannot remove the ones who will not. The exclusion from politics and the failure to punish lynching were therefore the same problem, and each kept the other in place [E].
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> 
+> **Mark allocation**
+> 
+> - 6 marks are awarded for explaining two reasons.
+> - Explaining one reason is worth 4 marks, rising to 5 marks where the explanation is supported by specific contextual knowledge.
+> - Identifying or describing valid reasons without explaining them is worth 2-3 marks, with one mark for each identification.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 6 marks include:
+> 
+> - Describing what the Ku Klux Klan did. The question asks why the murders went unpunished, not what the violence consisted of.
+> - Writing that 'people were racist' and stopping. That is the background; the marks come from explaining the mechanisms, such as Klansmen in the police or the removal of the vote.
+> - Drifting into the northern states. The question is specifically about the South, where the Jim Crow Laws applied.
+> 
+> **Alternative content**
+> 
+> - Klan membership had grown to around five million by 1925 after the 1915 film The Birth of a Nation, so the organisation had support on a scale that made local prosecution politically impossible.
+> - The Klan operated in secret with members hooded in public, which made identifying individual attackers genuinely difficult even where there was a will to try.
+> - No federal anti-lynching law was passed, because presidents needed the support of southern politicians in Congress.
+
+> **[exam-tip]**
+> - Two explained reasons is the target. A strong pairing is who enforced the law and who was allowed to vote.
+> - Keep asking why nobody stopped it. That question keeps the answer on the demand rather than on describing the violence.
+> - Specific detail earns the fifth mark. The 70 lynchings of 1919 and the case of David Bibb Graves are both worth knowing.
+
+### Q18
+The motor car reshaped where and how Americans lived [R]. Mass production brought the price down far enough that by 1929 there were around 23 million cars in the United States, where before the war only the wealthy had owned one. Because people could now travel further, they no longer had to live within walking distance of work, and this produced the suburbs that spread out around every major American city. It also forced the building of a proper road network and created whole new businesses along it, from filling stations to roadside hotels and holiday resorts. The car changed the physical shape of the country [E].
+
+The radio changed something different: what Americans knew and shared [R]. By 1929 around 10 million homes had one and there were hundreds of stations. Because broadcasts reached even the smallest and most remote settlements, news travelled faster than ever and new ideas spread nationally rather than staying local. Live coverage of baseball turned sport into a national pastime for people who would never see a stadium, and sponsored programmes and advertisements pushed listeners towards the new consumer goods. Jazz spread out of the southern states across the whole country largely because of it [E].
+
+The decisive difference is reach [A]. A car had to be bought, so it changed life first and most for those who already had money, and a family without one was simply left out. A radio was cheaper, was listened to by a whole household at once and asked nothing of its audience except that they could hear. That mattered enormously in a country where many people were still illiterate, because the radio reached them regardless of whether they could read, and it reached the isolated rural communities that the boom otherwise passed by [E].
+
+So the radio did more [A]. The car produced the more visible change, and the suburbs and highways it created outlasted the decade. But it transformed the lives of those who could afford one, whereas the radio reached almost everyone, including the poor, the remote and the illiterate. If the question is how much of American life was changed rather than how dramatically, the radio has the stronger claim [A].
+
+**[10 marks]**
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following codes have been used:
+> 
+> - Recall - [R]
+> - Explanation - [E]
+> - Analysis - [A]
+> 
+> **Mark allocation**
+> 
+> - 10 marks require you to explain both sides and then support a valid judgement on which did more.
+> - Explaining both sides without a supported judgement is worth 7-9 marks. Seven marks are given for one explanation on each side, with one further mark for each additional explanation on either side.
+> - Explaining only one side is worth 4-6 marks, with one mark for each explanation.
+> - Identifying or describing valid points without explaining them is worth 2-3 marks.
+> - Writing about the topic without addressing the question is worth 1 mark.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 10 marks include:
+> 
+> - Turning the answer into an account of the economic boom. The question is about changes to American life, not about what caused the boom, so the car's effect on the steel and rubber industries is only relevant if you link it to how people lived.
+> - Describing each invention in turn without comparing them.
+> - Bringing in the cinema. It is a third factor and the question offers two.
+> 
+> **Alternative content**
+> 
+> - The car gave young people in particular a freedom from parental supervision that older Americans found alarming, so it changed social behaviour as well as geography.
+> - Radio advertising helped create the modern consumer culture, so its influence on daily life was economic as well as cultural.
+> - Both depended on the spread of electricity and on rising real wages, so a strong answer may note that neither would have reached ordinary homes without those underlying changes.
+
+> **[exam-tip]**
+> - Choosing a clear basis for comparison is what makes this answer work. Asking how many people each change reached, rather than how dramatic it looked, gives you a judgement you can defend.
+> - Handle both properly. An answer covering only one is capped at 6 marks.
+> - Figures are worth learning here: 23 million cars and 10 million radio-owning homes by 1929 let you compare scale directly.
+
+### Q19
+The NAACP was the National Association for the Advancement of Colored People, founded in 1909 [1]. It was set up after the Springfield Race Riot, in which a White mob attacked the homes and businesses of Black people in Springfield, Illinois, leaving at least two people dead and hundreds homeless [1]. Its purpose was to fight racial injustice across the whole of the United States rather than in one place [1]. It worked through the law courts, by raising public awareness of civil rights issues and by organising local communities to act together [1].
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - 1 mark for each relevant point - [1]
+> 
+> **Mark allocation**
+> 
+> - 1 mark for each relevant point, up to a maximum of 4.
+> - Four separate points are needed for four marks. Developing a point you have already made does not earn a second mark.
+> - Accept all valid responses.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 4 marks include:
+> 
+> - Describing the Ku Klux Klan instead. The two organisations are opposites, and only one answers this question.
+> - Writing that the NAACP was founded in the 1920s. It was founded in 1909, and getting the date right shows it existed before the decade the exam focuses on.
+> - Saying only that it 'fought for Black rights'. Naming its methods, such as court cases or public campaigns, is what turns that into further marks.
+> 
+> **Alternative content**
+> 
+> - W. E. B. Du Bois was one of its founding members and became one of its most important figures.
+> - Much of its work was concentrated in the southern states, where lynchings and the Jim Crow Laws were most common.
+> - It campaigned against lynching in particular, at a time when such murders were rarely investigated by the police.
+
+> **[exam-tip]**
+> - Keep each point in its own sentence so the examiner can count them.
+> - The 1909 founding date and the Springfield Race Riot are the two details most candidates will miss, so they are worth learning.
+> - Four points is the whole task. There are no marks for judging how successful the NAACP was.
+
+### Q20
+The Red Scare was the name given to the period after the First World War when there was an atmosphere of panic in the United States caused by fear of communism and left-wing ideas [1]. Immigrants from Russia, southern Europe and eastern Europe were viewed with suspicion, on the assumption that they were trying to undermine American institutions by infiltrating society [1]. The strikes and bomb attacks of 1919 increased the fear of communist influence, because many Americans believed the strikes had been inspired by communists [1]. The period saw investigations that led to suspected communists being rounded up and deported [1].
+
+> **[mark-scheme]**
+> To help identify where credit will be awarded, the following code has been used:
+> 
+> - 1 mark for each relevant point - [1]
+> 
+> **Mark allocation**
+> 
+> - 1 mark for each relevant point, up to a maximum of 4.
+> - Four separate points are needed for four marks. Developing a point you have already made does not earn a second mark.
+> - Accept all valid responses.
+> 
+> **Common errors**
+> 
+> Common errors which prevent an answer from achieving 4 marks include:
+> 
+> - Writing about the second Red Scare, which came after the Second World War. Your answer should focus on the Red Scare of the 1920s.
+> - Writing only that 'Americans were afraid of communism'. That is one point; three more are needed.
+> 
+> **Alternative content**
+> 
+> - After the Russian Revolution, some Western European countries and the United States sent troops to support the White Army in the Russian Civil War in order to contain the spread of communism.
+> - The threat of communism in America was never as widespread as the government feared. Its main effect was to harden anti-immigration attitudes.
+
+> **[exam-tip]**
+> - Write in complete, clear sentences rather than bullet points.
+> - Keep each point in its own sentence so the examiner can count them. Do not put two points together in one sentence.
+> - Use subject-specific terminology. This response needs no introduction, conclusion or explanation, and no extra marks are given beyond four points.
