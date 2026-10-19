@@ -1,0 +1,160 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:45:30Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/physics",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "thermal-physics",
+  "name": "2. Thermal Physics"
+ },
+ "topic": {
+  "id": "top_GDG9WyjDqRdtdTYd",
+  "slug": "kinetic-particle-model-of-matter",
+  "name": "Kinetic Particle Model of Matter",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "molecular-matter",
+   "name": "Molecular Matter",
+   "revision_note_id": "rn_kQVQVYfS4MWvtNMh"
+  },
+  {
+   "slug": "temperature-pressure",
+   "name": "Temperature & Pressure",
+   "revision_note_id": "rn_KkF7kNstTWpyVfW2"
+  },
+  {
+   "slug": "states-of-matter",
+   "name": "States of Matter",
+   "revision_note_id": "rn_NrwbyffZyhkkqH5w"
+  },
+  {
+   "slug": "pressure-changes",
+   "name": "Pressure Changes",
+   "revision_note_id": "rn_HZDcx4YhYnYcyDXk"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_B85Zb9pDzJyTcy6C",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/thermal-physics/kinetic-particle-model-of-matter/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 2,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/06/61577-screenshot-2026-06-03-214932.png": "001-two-square-containers-labelled-x-and-y-x-is-tigh.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_sr2FxjShqvNHqXBz",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_hVGdN8sqghcKGy8b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/03",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Dfb4h9V3H8KXNbfY"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 9.1 shows the arrangements of particles in ethanol and sulfur at a temperature of 25 °C.\n\n![Two square containers labelled X and Y: X is tightly packed with equal circles in a grid, Y has the same circles loosely packed with gaps between them](assets/001-two-square-containers-labelled-x-and-y-x-is-tigh.png)\n\n**Fig. 9.1**\n\nUse Fig. 9.1 and information from Table 9.1 to state which diagram, X or Y, shows the structure of ethanol and of sulfur at 25°C.\n\nExplain your answer in terms of particles.\n\nethanol: ..................\n\nsulfur: ..................\n\nexplanation: ..................",
+     "solution_md": "> **[mark-scheme]**\n> - ethanol: Y AND sulfur: X AND at 25 °C, sulfur is solid and ethanol is liquid **[1 mark]**\n> - solid has a regular particle arrangement / liquid has an irregular particle arrangement / solid has more closely packed particles / liquid has less closely packed particles **[1 mark]**\n\n> **[exam-tip]**\n> Link the particle diagram to the state of matter first (regular, close-packed particles = solid; irregular, more spread out particles = liquid), then use that to match each substance to its correct diagram."
+    }
+   ]
+  },
+  {
+   "id": "qstn_yCtn7MvVtVcWyW3j",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_FkVMVvY64zCSd7Cp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/02",
+      "question_number": 30,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cy67RR2YjzH6zzFq"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of a substance has a definite shape and a definite volume.\n\nThe substance changes state. The sample now has **no** definite shape but still has a definite volume.\n\nWhat is the name of the change of state?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A solid has a definite shape and a definite volume\n- A liquid has no definite shape but still has a definite volume\n- The change from solid to liquid is melting",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "condensation"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "evaporation"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "freezing"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "melting"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

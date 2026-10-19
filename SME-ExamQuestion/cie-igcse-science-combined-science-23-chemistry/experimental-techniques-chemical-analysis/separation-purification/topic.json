@@ -1,0 +1,118 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:44:44Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/chemistry/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/chemistry",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "experimental-techniques-chemical-analysis",
+  "name": "12. Experimental Techniques & Chemical Analysis"
+ },
+ "topic": {
+  "id": "top_7xWvF85xNJm6J54K",
+  "slug": "separation-purification",
+  "name": "Separation & Purification",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "paper-chromatography",
+   "name": "Paper Chromatography",
+   "revision_note_id": "rn_k37YxPxzgfjRgXMR"
+  },
+  {
+   "slug": "separation-purification-techniques",
+   "name": "Separation & Purification Techniques",
+   "revision_note_id": "rn_HV9xW9nmV2SkqnT7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_GgvGxgvCkK5qXFW8",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/chemistry/topic-questions/experimental-techniques-chemical-analysis/separation-purification/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 1,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_XZnxXydy9rH3CJbk",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_SDz86rYVGqB2fKPs",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 27,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gpJvWd4Dv97PHj3h"
+     ],
+     "part_tier": null,
+     "problem_md": "A mixture of salt solution and an insoluble solid is separated by …**P**… .\n\nThe insoluble solid that is collected is the …**Q**… .\n\nPure salt crystals are obtained from the separated salt solution by …**R**… of the water.\n\nWhich words complete gaps **P**, **Q** and **R**?\n\n|   | **P** | **Q** | **R** |\n|---|---|---|---|\n| **A** | evaporation | filtrate | filtration |\n| **B** | evaporation | residue | filtration |\n| **C** | filtration | filtrate | evaporation |\n| **D** | filtration | residue | evaporation |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Filtration separates the insoluble solid from the salt solution\n- The insoluble solid collected on the filter paper is called the residue\n- Evaporation of the water from the filtrate (the salt solution that passed through the filter) leaves pure salt crystals behind\n\n**A** is incorrect because evaporation cannot separate an insoluble solid from a solution; filtration must be used first\n\n**B** is incorrect because evaporation cannot separate an insoluble solid from a solution; filtration must be used first\n\n**C** is incorrect because the insoluble solid collected is called the residue, not the filtrate",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

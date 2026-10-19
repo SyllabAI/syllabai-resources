@@ -1,0 +1,113 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:43:41Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/biology/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/biology",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "13-drugs",
+  "name": "13. Drugs"
+ },
+ "topic": {
+  "id": "top_zr2Hy3NqhkDdZXCr",
+  "slug": "drugs-in-medicine",
+  "name": "Drugs in Medicine",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "drugs-in-medicine",
+   "name": "Drugs in Medicine",
+   "revision_note_id": "rn_cw7DqtSm7d7qWbW7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Q6Ff4hvsCRHnG5Dq",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/biology/topic-questions/13-drugs/drugs-in-medicine/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 1,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_mYfmtBHWgHgWg7jh",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mx9F73YgjkKGbWDj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 11,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ktBKzK8SbwKvTDY8"
+     ],
+     "part_tier": null,
+     "problem_md": "A doctor tells a patient that they are suffering from a viral infection.\n\nWhy would the doctor **not** prescribe antibiotics to the patient?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Antibiotics work by targeting bacterial cell structures, which viruses do not have\n- This means antibiotics have no effect on viruses\n\n**B** is incorrect because being a drug does not explain why antibiotics have no effect specifically on viruses\n\n**C** is incorrect because reduced effectiveness from long-term use applies to antibiotic resistance in bacteria, not to viral infections\n\n**D** is incorrect because bacterial resistance to antibiotics does not explain why antibiotics have no effect on a viral infection",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "Antibiotics do not affect viruses."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Antibiotics are drugs."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Long-term use of antibiotics may reduce their effectiveness against viruses."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Some bacteria are resistant to antibiotics."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

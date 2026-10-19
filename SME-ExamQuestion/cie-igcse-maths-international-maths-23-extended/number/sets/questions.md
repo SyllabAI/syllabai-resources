@@ -1,0 +1,709 @@
+# Exam Questions — Sets
+**Number** · Cambridge (CIE) IGCSE maths (0607)
+> Source: [https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/](https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/) · 19 questions across 1 sets
+
+
+## Calculator  Questions (19 questions)
+
+
+### Q1 — hard — 3 marks
+
+**Q1** [3 marks]
+
+$E$ = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+
+$A\capB$ = {5, 10, 15}
+
+$B'$= {7, 8, 9, 11, 12, 13, 14}
+
+$A'$= {4, 6, 7, 8, 14}
+
+Complete the Venn diagram for this information.
+
+![Venn diagram with two overlapping circles labelled A and B, representing a set intersection, enclosed in a rectangle denoted as E.](assets/001-venn-diagram-with-two-overlapping-circles-labell.png)
+
+*Source: Jan 2022 4MA1/1H Q7*
+
+
+### Q2 — easy — 3 marks
+
+**Q2** [2 marks]
+
+$E$= {letters of the alphabet} 
+$B$ = {b, r, a, z, i, l}
+ $I$ = {i, r, e, l, a, n, d}
+
+List the members of the set
+
+i) $B\cupI$
+
+[1]
+
+ii) $B\capIʹ$
+
+[1]
+
+*Source: June 2021 4MA1/2H Q4*
+
+
+**Q2** [1 mark]
+
+**Extract:**
+
+![B] = {b, r, a, z, i, l}
+
+$K$ = {k, e, n, y, a}
+
+Cody writes down the statement $B\capK=\emptyset$
+
+Cody’s statement is wrong. Explain why.
+
+*Source: June 2021 4MA1/2H Q4B*
+
+
+### Q3 — hard — 3 marks
+
+**Q3** [2 marks]
+
+![cie-igcse-2018-oct-nov-p4-tz1-q6a](assets/006-cie-igcse-2018-oct-nov-p4-tz1-q6a.png)
+
+The Venn diagram above shows information about the number of students who study Music (*M*), Drama (*D*) and Geography (*G*).
+
+i) How many students study Music?
+
+[1]
+
+ii) How many students study exactly two subjects?
+
+[1]
+
+*Source: 2018	Oct/Nov 0580/41 Q6A*
+
+
+**Q3** [1 mark]
+
+In the Venn diagram above, shade  $M\capD'$.
+
+*Source: 2018	Oct/Nov 0580/41 Q6AIV*
+
+
+### Q4 — easy — 3 marks
+
+**Q4** [2 marks]
+
+$E$ = {21, 22, 23, 24, 25, 26, 27, 28, 29, 30}
+
+$A$ = {22, 24, 26, 28, 30}
+
+$B$ = {21, 24, 27, 30}
+
+List the members of the set
+
+i) $A\capB$
+
+[1]
+
+ii) $A'$
+
+[1]
+
+*Source: Jan 2021 4MA1/2HR Q3A*
+
+
+**Q4** [1 mark]
+
+**Extract:**
+
+![A] = {22, 24, 26, 28, 30}
+
+![B] = {21, 24, 27, 30}
+
+$C$ = {23, 25, 29}
+
+Using set notation, find an expression for $C$ in terms of $A$ and $B$.
+
+*Source: Jan 2021 4MA1/2HR Q3B*
+
+
+### Q5 — very_hard — 6 marks
+
+**Q5** [4 marks]
+
+50 students study at least one of the subjects geography ($G$), mathematics ($M$) and history ($H$). 
+18 study only mathematics. 
+19 study two or three of these subjects. 
+23 study geography.
+
+The Venn diagram below is to be used to show this information.
+
+![cie-igcse-2019-march-p4-q9c](assets/010-cie-igcse-2019-march-p4-q9c.png)
+
+i) Show that $x=4$.
+
+[2]
+
+ii) Complete the Venn diagram.
+
+[2]
+
+*Source: 2019 March 0580/42 Q9C*
+
+
+**Q5** [2 marks]
+
+**Extract:**
+
+50 students study at least one of the subjects geography (![G]), mathematics (![M]) and history (![H]). 
+
+18 study only mathematics. 
+
+19 study two or three of these subjects. 
+
+23 study geography.
+
+i) Use set notation to complete this statement.
+
+`open parentheses G union M union H close parentheses apostrophe equals`....................... [1]
+
+ii) Find `space straight n open parentheses G intersection open parentheses M union H close parentheses close parentheses`.
+
+[1]
+
+*Source: 2019 March 0580/42 Q9C*
+
+
+### Q6 — medium — 2 marks
+
+**Q6** [2 marks]
+
+There are 32 students in a class.
+
+5 do not study any languages. 
+15 study German (G). 
+18 study Spanish (S).
+
+![cie-igcse-2020-oct-nov-p4-tz1-q9a](assets/014-cie-igcse-2020-oct-nov-p4-tz1-q9a.png)
+
+Complete the Venn diagram to show this information.
+
+*Source: 2020 Oct/Nov 0580/41 Q9A*
+
+
+### Q7 — very_hard — 6 marks
+
+**Q7** [3 marks]
+
+Some students were asked the following question.
+
+“Which of the subjects Russian (*R*), French (*F*) and German (*G*) do you study?”
+
+Of these students
+
+4 study all three of Russian, French and German 
+10 study Russian and French 
+13 study French and German 
+6 study Russian and German 
+24 study German
+11 study none of the three subjects
+the number who study Russian only is twice the number who study French only.
+
+Let $x$ be the number of students who study French only.
+
+Show all this information on the Venn diagram, giving the number of students in each appropriate subset, in terms of $x$ where necessary.
+
+![q16a-4ma1-2h-qp-jan21-paper2-igcse-maths](assets/017-q16a-4ma1-2h-qp-jan21-paper2-igcse-maths.png)
+
+*Source: Jan 2021 4MA1/2H Q16A*
+
+
+**Q7** [3 marks]
+
+**Extract:**
+
+4 study all three of Russian, French and German 
+
+10 study Russian and French 
+
+13 study French and German 
+
+6 study Russian and German 
+
+24 study German
+
+11 study none of the three subjects
+
+the number who study Russian only is twice the number who study French only.
+
+Let [x] be the number of students who study French only.
+
+Given that the number of students who were asked the question was 80, work out the number of these students that study Russian.
+
+*Source: Jan 2021 4MA1/2H Q16B*
+
+
+### Q8 — hard — 4 marks
+
+**Q8** [1 mark]
+
+The Venn diagram shows a universal set $E$ and three sets $A,B$ and $C$.
+
+![q17-4ma1-1hr-qp-jan22-paper1-igcse-maths](assets/019-q17-4ma1-1hr-qp-jan22-paper1-igcse-maths.png)
+
+6, 3, 8, 2, 5 and 4 represent the **numbers **of elements.
+
+Find
+
+$n(A\cupB)$
+
+*Source: Jan 2022 4MA1/1HR Q174*
+
+
+**Q8** [1 mark]
+
+$n(A\capB)$
+
+*Source: Jan 2022 4MA1/1HR Q17I*
+
+
+**Q8** [1 mark]
+
+**Extract:**
+
+The Venn diagram shows a universal set and three sets A, B and C. 6, 3, 8, 2, 5 and 4 represent the numbers of elements.
+
+$n(B\capC')$
+
+*Source: Jan 2022 4MA1/1HR Q17III*
+
+
+**Q8** [1 mark]
+
+**Extract:**
+
+The Venn diagram shows a universal set ![calligraphic E] and three sets ![A comma space B] and ![C].
+
+![q17-4ma1-1hr-qp-jan22-paper1-igcse-maths](https://cdn.savemyexams.com/uploads/2022/11/q17-4ma1-1hr-qp-jan22-paper1-igcse-maths.png)
+
+6, 3, 8, 2, 5 and 4 represent the numbers of elements.
+
+$n(A'\cupB'\cupC')$
+
+*Source: Jan 2022 4MA1/1HR Q17IV*
+
+
+### Q9 — easy — 3 marks
+
+**Q9** [2 marks]
+
+`table attributes columnalign right center left columnspacing 0px end attributes row B equals cell open curly brackets straight b comma straight l comma straight u comma straight e close curly brackets end cell row G equals cell open curly brackets straight g comma straight r comma straight e comma straight y close curly brackets end cell row W equals cell open curly brackets straight w comma straight h comma straight i comma straight t comma straight e close curly brackets end cell end table`
+
+List all the members of the set
+
+i) $B\cupG$
+
+[1]
+
+ii) $W\capG'$
+
+[1]
+
+*Source: Jan 2020 4MA1/1HR Q4A*
+
+
+**Q9** [1 mark]
+
+**Extract:**
+
+B = {b, l, u, e}
+G = {g, r, e, y}
+W = {w, h, i, t, e}
+
+Serena writes down the statement $B\capG\capW=\emptyset$
+
+Is Serena’s statement correct? 
+You must give a reason for your answer.
+
+[1]
+
+*Source: Jan 2020 4MA1/1HR Q4B*
+
+
+### Q10 — very_hard — 5 marks
+
+**Q10** [3 marks]
+
+This year, 40 students have each travelled by one or more of plane ($P$), train ($T$) or boat ($B$).
+
+7 have travelled only by plane. 
+11 have travelled only by train. 
+9 have travelled only by boat.
+
+$n(P\capT)=8$
+ $n(B\capT)=3$
+ $n(B\capP)=6$
+
+![cie-igcse-2020-march-p4-tz2-q9a](assets/022-cie-igcse-2020-march-p4-tz2-q9a.png)
+
+Complete the Venn diagram.
+
+*Source: 2020 March 0580/42 Q9A*
+
+
+**Q10** [1 mark]
+
+**Extract:**
+
+This year, 40 students have each travelled by one or more of plane (P), train (T) or boat (B). 
+
+7 have travelled only by plane. 
+
+11 have travelled only by train. 
+
+9 have travelled only by boat.
+
+n(P ∩ T) = 8
+
+n(B ∩ T) = 3
+
+n(B ∩ P) = 6
+
+Find $n((P\cupB)')$.
+
+*Source: 2020 March 0580/42 Q9B*
+
+
+**Q10** [1 mark]
+
+**Extract:**
+
+This year, 40 students have each travelled by one or more of plane (![P]), train (![T]) or boat (![B]).
+
+Use set notation to complete the statement.
+
+$(P\cupT\cupB)'=$...........................
+
+*Source: 2020 March 0580/42 Q9C*
+
+
+### Q11 — hard — 3 marks
+
+**Q11** [2 marks]
+
+![q11-paper4-spec-2025-cie-igcse-further-maths](assets/027-q11-paper4-spec-2025-cie-igcse-further-maths.png)
+
+$n(E)=20,n(A\cupB)'=3,n(A)=10\mathrm{and}n(B)=13$.
+ The Venn diagram shows some of this information.
+
+Find
+
+n(A ∩ B)
+
+*Source: Specimen 2025 0580/04 Q11A*
+
+
+**Q11** [1 mark]
+
+**Extract:**
+
+n(E) = 20, n((A ∪ B)′) = 3, n(A) = 10 and n(B) = 13.
+
+n(A′ ∩ B) .
+
+*Source: Specimen 2025 0580/04 Q11B*
+
+
+### Q12 — very_hard — 6 marks
+
+**Q12** [3 marks]
+
+Some students in a school were asked the following question.
+
+“Do you have a dog ($D$), a cat ($C$) or a rabbit ($R$)?”
+
+Of these students
+
+28 have a dog 
+   18 have a cat
+    20 have a rabbit
+     8 have both a cat and a rabbit 
+    9 have both a dog and a rabbit 
+    $x$ have both a dog and a cat
+     6 have a dog, a cat and a rabbit
+     5 have not got a dog or a cat or a rabbit
+
+Using this information, complete the Venn diagram to show the number of students in each appropriate subset. 
+Give the numbers in terms of $x$ where necessary.
+
+![q17a-ma1-2hr-qp-jan20-paper2-igcse-maths](assets/029-q17a-ma1-2hr-qp-jan20-paper2-igcse-maths.png)
+
+*Source: Jan 2020 4MA1/2HR Q17A*
+
+
+**Q12** [2 marks]
+
+**Extract:**
+
+Some students in a school were asked the following question.
+
+"Do you have a dog (![D]), a cat (![C]) or a rabbit (![R])?"
+
+Of these students
+
+   28 have a dog 
+
+   18 have a cat
+
+    20 have a rabbit
+
+     8 have both a cat and a rabbit 
+
+    9 have both a dog and a rabbit 
+
+    ![x] have both a dog and a cat
+
+     6 have a dog, a cat and a rabbit
+
+     5 have not got a dog or a cat or a rabbit
+
+Given that a total of 50 students answered the question,
+
+work out the value of $x$.
+
+$x$ = ........................
+
+*Source: Jan 2020 4MA1/2HR Q17B*
+
+
+**Q12** [1 mark]
+
+**Extract:**
+
+Some students in a school were asked the following question.
+
+"Do you have a dog (![D]), a cat (![C]) or a rabbit (![R])?"
+
+Of these students
+
+   28 have a dog 
+
+   18 have a cat
+
+    20 have a rabbit
+
+     8 have both a cat and a rabbit 
+
+    9 have both a dog and a rabbit 
+
+    ![x] have both a dog and a cat
+
+     6 have a dog, a cat and a rabbit
+
+     5 have not got a dog or a cat or a rabbit
+
+Find  $n(Cʹ\capDʹ)$
+
+*Source: Jan 2020 4MA1/2HR Q17C*
+
+
+### Q13 — medium — 2 marks
+
+**Q13** [2 marks]
+
+The number of members of a leisure centre using the exercise machines (*E*), the swimming pool (*S*) and the tennis courts (*T*) is shown on the Venn diagram.
+
+![Venn diagram with three overlapping sets, E, S, and T. Numbers in regions are 20, 33, 7, 8, 16, 5, 4, representing elements in each part of the diagram inside the ovals.](assets/034-venn-diagram-with-three-overlapping-sets-e-s-and.png)
+
+i) Find the number of members using only the tennis courts.
+
+[1]
+
+ii) Find the number of members using the swimming pool.
+
+[1]
+
+*Source: 2018	May/June 0580/41 Q10C*
+
+
+### Q14 — medium — 6 marks
+
+**Q14** [3 marks]
+
+$x$ is an integer.
+
+`ℰ equals open curly brackets x space colon space 41 less or equal than x less or equal than 50 close curly brackets`
+
+`A equals left curly bracket x space colon space x space`is an odd number`right curly bracket`
+
+`B equals left curly bracket x space colon space x space`is a multiple of 3`right curly bracket`
+
+`C equals left curly bracket x space colon space x space`is a prime number`right curly bracket`
+
+Complete the Venn diagram to show this information.
+
+![cie-igcse-2020-may-june-p4-tz1-q5](assets/037-cie-igcse-2020-may-june-p4-tz1-q5.png)
+
+*Source: 2020	May/June 0580/41 Q5A*
+
+
+**Q14** [2 marks]
+
+**Extract:**
+
+ℰ equals {x : 41 ≤ x ≤ 50}
+A = {x : x is an odd number}
+B = {x : x is a multiple of 3}
+C = {x : x is a prime number}
+
+List the elements of
+
+i) $A\capC,$
+
+[1]
+
+ii) `open parentheses B union C close parentheses apostrophe.`
+
+[1]
+
+*Source: 2020	May/June 0580/41 Q5B*
+
+
+**Q14** [1 mark]
+
+**Extract:**
+
+![x] is an integer.
+
+![ℰ equals open curly brackets x space colon space 41 less or equal than x less or equal than 50 close curly brackets]
+
+![A equals left curly bracket x space colon space x space]is an odd number![right curly bracket]
+
+![B equals left curly bracket x space colon space x space]is a multiple of 3![right curly bracket]
+
+![C equals left curly bracket x space colon space x space]is a prime number![right curly bracket]
+
+Find `straight n open parentheses A intersection B intersection C close parentheses.`
+
+*Source: 2020	May/June 0580/41 Q5C*
+
+
+### Q15 — medium — 3 marks
+
+**Q15** [2 marks]
+
+$E=${students in a school}
+
+$F=${students who play football}
+
+$B=${students who play baseball}
+
+There are 240 students in the school.
+
+• 120 students play football
+
+• 40 students play baseball
+
+• 90 students play football but not baseball.
+
+Complete the Venn diagram to show this information.
+
+![cie-igcse-2019-may-jun-p4-tz1-q6a](assets/042-cie-igcse-2019-may-jun-p4-tz1-q6a.png)
+
+*Source: 2019	May/June 0580/41 Q6A*
+
+
+**Q15** [1 mark]
+
+**Extract:**
+
+There are 240 students in the school.  
+• 120 students play football 
+• 40 students play baseball  
+• 90 students play football but not baseball.
+
+Find $\text{n}(F'\capB').$
+
+*Source: 2019	May/June 0580/41 Q6B*
+
+
+### Q16 — medium — 3 marks
+
+**Q16** [3 marks]
+
+![cie-igcse-2019-march-p4-q9a](assets/048-cie-igcse-2019-march-p4-q9a.png)
+
+Use set notation to complete the statements.
+
+i) $d$...................$A$
+
+[1]
+
+ii) `left curly bracket f comma space g right curly bracket equals`...............................
+
+[1]
+
+iii) Complete the statement.
+
+$n(.........................)=6$ [1]
+
+*Source: 2019 March 0580/42 Q9A*
+
+
+### Q17 — hard — 5 marks
+
+**Q17** [4 marks]
+
+`calligraphic E equals left curly bracket x space colon space x space`is an integer and `1 less or equal than x less or equal than 10 right curly bracket`
+ `A equals left curly bracket x space colon space x space`is even`right curly bracket` 
+`4 element of A intersection B
+straight n left parenthesis A intersection B right parenthesis equals 1
+left parenthesis A union B right parenthesis apostrophe equals left curly bracket 1 comma 7 comma 9 right curly bracket`
+
+![cie-igcse-2018-oct-nov-p4-tz1-q6b](assets/049-cie-igcse-2018-oct-nov-p4-tz1-q6b.png)
+
+Complete the Venn diagram using this information.
+
+*Source: 2018	Oct/Nov 0580/41 Q6B*
+
+
+**Q17** [1 mark]
+
+**Extract:**
+
+![calligraphic E equals left curly bracket x space colon space x space]is an integer and ![1 less or equal than x less or equal than 10 right curly bracket]
+
+ ![A equals left curly bracket x space colon space x space]is even![right curly bracket] 
+
+![4 element of A intersection B
+straight n left parenthesis A intersection B right parenthesis equals 1
+left parenthesis A union B right parenthesis apostrophe equals left curly bracket 1 comma 7 comma 9 right curly bracket]
+
+Use your Venn diagram to complete the statement.
+
+`B equals left curly bracket`....................................................`right curly bracket`
+
+*Source: 2018	Oct/Nov 0580/41 Q6B*
+
+
+### Q18 — hard — 1 marks
+
+**Q18** [1 mark]
+
+The number of members of a leisure centre using the exercise machines (*E*), the swimming pool (*S*) and the tennis courts (*T*) is shown on the Venn diagram.
+
+![cie-igcse-2018-may-jun-1-p4-q10c](assets/053-cie-igcse-2018-may-jun-1-p4-q10c.png)
+
+Find $n(T\cap(E\cupS))$.
+
+*Source: 2018	May/June 0580/41 Q10C*
+
+
+### Q19 — medium — 1 marks
+
+**Q19** [1 mark]
+
+In the Venn diagram below, shade $C\capD'.$
+
+![cie-igcse-2019-march-p4-q9b](assets/056-cie-igcse-2019-march-p4-q9b.png)
+
+*Source: 2019 March 0580/42 Q9B*
+
