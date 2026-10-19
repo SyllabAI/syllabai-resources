@@ -1,0 +1,66 @@
+{
+  "schema": "c42-r34-rebuild-check/1.0",
+  "task": "T-C42",
+  "stage": "r34-substrate-rebuild-check",
+  "round": "R34",
+  "round_start": "9cd386c12aac240da7796ea6724748979397aaf8",
+  "audited_head": "3ddbb1baad7d361a3f50967dd05402ed1d875de0",
+  "baseline_store_sha256_16": "4aeb73e1575f9586",
+  "store_sha256_16": "9174915650d49f4a",
+  "record_sha256_16": "f5e4a3aba67ad9c6",
+  "checks": [
+    {
+      "check": "B1_census_meta",
+      "pass": true,
+      "detail": "917 rows = 835 anchored (831 HUMAN_VALIDATED + 4 SUGGESTED) + 27 unresolved-span + 55 uncovered-SP; covered 133/188 UNCHANGED (the R33 projections landing: gained none, lost none — 1.8B keeps ords 0-5, 1.8D already covered via the R10 join); meta KEY SETS identical with the delta by VALUE == exactly the stage key + the 4 reapplied fields re-dated (promoted_rows stays 831 — the value unchanged, the set re-pinned); the 7 other R5 promotion fields byte-equal; tool @2.7.0 (NO version move)"
+    },
+    {
+      "check": "B2_reattributions",
+      "pass": true,
+      "detail": "3/3 map rows landed verbatim: 4MA1-1.8B->4MA1-1.8D, 4MA1-1.8B->4MA1-1.8D, 4MA1-1.8B->4MA1-1.8D (rounding-and-estimation ords 6/7/8); old ids == the R33 map's rows; provenance.override == the map blocks (map sha c4bdea37bb331ef1); all 3 promoted rows HUMAN_VALIDATED at the amended codes with byte-stable blocks; ZERO DEMOTEs this round"
+    },
+    {
+      "check": "B3_promotions_two_way",
+      "pass": true,
+      "detail": "store <-> files+amendments 831 == 831 exact identities (823 direct + 3 R26-chain re-keyed + 5 R30 superseded re-keyed via the R31 record + 3 R33 superseded re-keyed AT THE AMENDED CODES 1.8B->1.8D + 3 R31-ADDED sign-off promotions); the R26 + R30 excluded rows NOT promoted (unresolved-span worklist); validated_by operator everywhere; sampled 457 == the R21 CONFIRM set; every applied block == the R5 tool's block shape; the SUGGESTED anchored residue == 3 R22 REJECTs + 1 re-homed hold; promotions file sha 9bad739bd79e5899 == the R5 record's pin == the R33 amendment's base pin"
+    },
+    {
+      "check": "B4_structural_reproof",
+      "pass": true,
+      "detail": "vs baseline blob 9cd386c12aac: chunk-identity set identical (862); the re-applied non-moved promoted rows BYTE-IDENTICAL (provenance.tool stays @2.7.0 — no tool churn) with byte-equal promotion blocks; the 3 re-attributed rows carry exactly the enumerated fields (ZERO status changes this round); the non-chunk worklist byte-identical (55 == 55, no vanishing row)"
+    },
+    {
+      "check": "B5_protected_surfaces",
+      "pass": true,
+      "detail": "99 protected paths byte-identical baseline blob -> HEAD blob (the resolution substrate incl. the R14-era pin, the R27 join artifact, the promotions file, the R26+R30+R33 amendments, the nine maps, the R5/R21/R22/R23/R24/R25/R26/R27/R29/R30/R31/R32/R33 records + tools + carriers, the Lane C stores, the chemistry substrate, the corpus manifest, the ratified registry)"
+    },
+    {
+      "check": "B6_determinism",
+      "pass": true,
+      "detail": "G7 two constructions byte-identical; store sha 9174915650d49f4a == the record's post pin; the record's pre pin == the baseline blob sha"
+    },
+    {
+      "check": "B7_standing_pins",
+      "pass": true,
+      "detail": "the FOUR R26 STANDING joins verified against the R26 map's own list-shaped adjudications + the carried pins (the 4.11C anchor, the 1.7B anchor, the 3.3F anchor) + the R33 SPLIT-note anchors (the corpus anchor STANDS at 1.8B — ords 0-5; the R10 related-calculations anchor STANDS at 1.8D) — the join layer untouched"
+    },
+    {
+      "check": "B8_commit_state",
+      "pass": true,
+      "detail": "committed-clean: HEAD 3ddbb1baad7d; tree clean; the committed delta vs HEAD~1 inside the R34 footprint"
+    },
+    {
+      "check": "B9_anti_forgery",
+      "pass": true,
+      "detail": "831 HUMAN_VALIDATED rows carry operator-attributed promotion blocks; provenance tiers RULE_DERIVED everywhere; the re-homed hold + the 3 R22 REJECT rows stay SUGGESTED unpromoted; ZERO DEMOTE rows this round (no worklist landings)"
+    },
+    {
+      "check": "B10_ci_parity",
+      "pass": true,
+      "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census 42 lines (the pre-existing sparse-checkout environmental set), zero failures naming the chunk store"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "result": "ALL PASS"
+}

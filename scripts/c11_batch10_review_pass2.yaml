@@ -1,0 +1,137 @@
+meta:
+  pass: c11-batch10-review-2
+  session: 64
+  reviewed_date: '2026-09-25'
+  reviewer: GLM (Super Z agent, z.ai)
+  record_under_review: scripts/c11_batch10_decisions.yaml
+  boundary_ruling: scripts/c11_batch10_boundary_ruling.yaml
+  method: every evidence anchor re-read in its source file (the batch-9/8
+    pass-2 method); every derivation challenged against the spec text, the
+    teaching sequence and the pinned Alkenes MS; the failure classes of the
+    held records re-checked against the session-53 Step-3 characterization
+    rule; the 4.15 carve-out re-verified absent; zero tolerance for
+    insufficiently-characterized refusals
+nodes:
+  4CH1-CON-ALKENES:
+    verdict: CONFIRM
+    note: the 4.23-4.26 one-family ruling (B10-ID-01) is the note's own shape
+      — one teaching thread from the C=C functional group through the
+      general formula to the first-four table; the examiner-tip
+      reactivity sentence rides the family, not a separate node
+  4CH1-CON-BROMINE-WATER-TEST:
+    verdict: CONFIRM
+    note: 4.27 and 4.28 are one thread — the bromination IS the chemistry the
+      test observes (decolourisation); splitting the test from the reaction
+      would orphan the observation (B10-ID-02)
+  4CH1-CON-ALCOHOLS:
+    verdict: CONFIRM
+    note: the -OH functional group + the first-four table + the neutral-solution
+      property + the fuel use form the family surface; the naming sentence
+      explicitly invokes the shared system (the TARGET-6 boundary edge)
+  4CH1-CON-ETHANOL-OXIDATION:
+    verdict: CONFIRM
+    note: the three oxidation routes are taught as one enumeration on one
+      molecule; the combustion/aerobic/dichromate split is the note's own
+      heading structure
+  4CH1-CON-ETHANOL-MANUFACTURE:
+    verdict: CONFIRM
+    note: the two routes (hydration, fermentation) with their conditions form
+      one manufacture thread (B10-ID-03); the routes share the fractional-
+      distillation finish, which the split reading would have to duplicate
+  4CH1-CON-CARBOXYLIC-ACIDS:
+    verdict: CONFIRM
+    note: 4.34C+4.35C+4.37C form the family surface (group, formulae, naming,
+      vinegar) — the vinegar sentence sits inside the note's naming section
+      (B10-ID-04); the reactions surface (4.36C) is genuinely separate
+  4CH1-CON-CARBOXYLIC-ACID-REACTIONS:
+    verdict: CONFIRM
+    note: the metal/carbonate reaction set with the -anoate salt naming is the
+      4.36C demand verbatim; 'behave like other acids' anchors the batch-2
+      owner application
+  4CH1-MIS-PROPANOL-POSITION:
+    verdict: CONFIRM
+    note: the pinned Alkenes MS Q4(b)(ii) Reject column is a clean documented
+      class (expected propan-2-ol accepted; propan-1-ol/1-propanol rejected);
+      the Alcohols note's position-convention Examiner Tip is the corrective
+      content — the narrow-but-exact B8/B9 mint precedent; the note's own
+      'Accept propanol' line means the class is specifically the POSITION
+      error, not bare naming, matching the mint's title
+edges:
+  BROMINE-WATER-TEST RP ALKENES: AGREE_HOLD
+  ETHANOL-OXIDATION RP ALCOHOLS: AGREE_HOLD
+  ETHANOL-MANUFACTURE RP ALCOHOLS: AGREE_HOLD
+  CARBOXYLIC-ACID-REACTIONS RP CARBOXYLIC-ACIDS: AGREE_HOLD
+  MIS-PROPANOL-POSITION WAP ALCOHOLS: AGREE_HOLD
+  MIS-PROPANOL-POSITION REMEDIATED_BY ALCOHOLS: AGREE_HOLD
+  ALKENES RP HOMOLOGOUS-SERIES: AGREE_HOLD
+  ALKENES RP ORGANIC-FORMULAE: AGREE_HOLD
+  ALKENES RP HYDROCARBON: AGREE_HOLD
+  BROMINE-WATER-TEST RP ALKANES: AGREE_HOLD
+  BROMINE-WATER-TEST RP ORGANIC-REACTION-CLASSES: AGREE_HOLD
+  ALCOHOLS RP HOMOLOGOUS-SERIES: AGREE_HOLD
+  ALCOHOLS RP IUPAC-NAMING: AGREE_HOLD
+  ETHANOL-OXIDATION RP COMBUSTION-O2: AGREE_HOLD
+  ETHANOL-OXIDATION RP OX-RED-AGENTS: AGREE_HOLD
+  ETHANOL-MANUFACTURE RP CRACKING: AGREE_HOLD
+  ETHANOL-MANUFACTURE RP FRACTIONAL-DISTILLATION: AGREE_HOLD
+  CARBOXYLIC-ACIDS RP ORGANIC-FORMULAE: AGREE_HOLD
+  CARBOXYLIC-ACID-REACTIONS RP ACID-REACTIONS: AGREE_HOLD
+held_review:
+  agreement: all 9 held candidates AGREE_HOLD — the quarantine is correctly
+    characterized (each cites its failure class; none is an
+    insufficiently-characterized refusal under the session-53 Step-3 rule;
+    B10-H-08 is the strongest question — the MS-documented ethanol-CO surface
+    — and its held record names the re-open path explicitly)
+findings:
+- id: FP-B10-1
+  kind: identity shape
+  text: the 4.23-4.26 alkenes family as ONE node (definition + formulae + the
+    first-four table taught in one thread) — the B7-ID-01/B8-ID-01/B9-ID-05
+    one-family precedent; recorded as identity question B10-ID-01 for the
+    operator
+  resolution: no re-authoring; the family ruling stands
+- id: FP-B10-2
+  kind: identity shape
+  text: the 4.27-4.28 reaction+test pair as ONE node — the test observes the
+    addition chemistry; recorded as identity question B10-ID-02 for the
+    operator
+  resolution: no re-authoring; the family ruling stands
+- id: FP-B10-3
+  kind: identity shape
+  text: the 4.32C-4.33C routes+conditions pair as ONE node — both manufacture
+    routes share the fractional-distillation finish; recorded as identity
+    question B10-ID-03 for the operator
+  resolution: no re-authoring; the family ruling stands
+- id: FP-B10-4
+  kind: identity shape
+  text: the 4.34C+4.35C+4.37C acids family with vinegar folded in — the
+    vinegar sentence is taught inside the naming section; recorded as
+    identity question B10-ID-04 for the operator
+  resolution: no re-authoring; the family ruling stands
+- id: FP-B10-5
+  kind: anchor byte-honesty
+  text: the Alcohols note's naming sentence carries TYPOGRAPHIC quote marks
+    (U+2018/U+2019 around e and ol) — the anchor is recorded byte-honest with
+    the source's own characters (the FP-B8-2 convention); the normalization
+    table does not translate curly single quotes
+  resolution: no re-authoring; the quote probe verifies the anchor verbatim
+- id: FP-B10-6
+  kind: source typos observed, not anchored
+  text: the Alkenes note's double-bond-opening caption reads 'A carbon-carbon
+    double can break' (missing 'bond'); the asset filename 'Structrual'
+    persists in the b-directory imagery — observed and NOT anchored (the
+    no-anchor-of-broken-source rule)
+  resolution: no re-authoring; recorded for the corpus-repair ledger
+- id: FN-B10-1
+  kind: false-negative question
+  text: the ethanol incomplete-combustion CO surface (pinned Alkenes MS
+    Q4(d)ii into the batch-9 CON-CO-POISONING owner) is documented by the MS
+    but not taught by the notes — authored edge or held?
+  resolution: HELD as B10-H-08 (the notes-only evidence rule; the held record
+    names the re-open path if a later batch's notes teach the surface)
+- id: FN-B10-2
+  kind: false-negative question
+  text: the alcohols-as-fuels energy classification (the exo/endothermic
+    framing) — authored RELATED_TO into the batch-4 EXO-ENDO owner or held?
+  resolution: HELD as B10-H-09 (the fuel use is a property mention; the
+    energy classification is never load-bearing in the notes)

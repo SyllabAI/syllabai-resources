@@ -1,0 +1,122 @@
+# T-C11 §16 — CROSS-SLICE BOUNDARY RULING (S1 complete ↔ S3 batch 4).
+# Recorded session 52 (2026-09-13), commissioned by the operator's
+# session-52 directive: "Resolve only the boundary decisions necessary to
+# prevent duplicate or conflicting concepts between the completed Section 1
+# graph and Section 3. Do not turn this into another large ontology
+# exercise."
+#
+# This ruling is exactly that and nothing more. It does NOT redesign the
+# concept ontology, does NOT re-open any settled identity, and does NOT
+# mint any node or edge. It records the conflict audit + the boundary
+# discipline batch 4 (S3 Physical) authoring MUST follow, extending the
+# ratified FN-B1-2/FN-B2-2 cross-batch discipline to the first
+# cross-SECTION boundary. Machine-verified by
+# scripts/c11_batch4_boundary_check.py.
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 52
+  recorded_date: '2026-09-13'
+  commissioned_by: 'operator session-52 directive ("Cross-slice boundary ruling: resolve only the boundary decisions necessary to prevent duplicate or conflicting concepts between the completed Section 1 graph and Section 3. Do not turn this into another large ontology exercise.")'
+  scope: 'conflict-prevention ruling for the S1(complete)->S3(batch 4) boundary only; supersedes nothing; ratifies the FN-B1-2/FN-B2-2 discipline at section scale'
+  applies_to_batch: 'c11-s16-batch-4 (Section 3 Physical Chemistry, 22 SPs 4CH1-3.1-3.22C, subsections a Energetics / b Rates / c Reversibility & Equilibria)'
+
+# --- 1. conflict audit (machine-verified; see c11_batch4_boundary_check.py)
+conflict_audit:
+  method: 'S3 candidate term vocabulary matched against the whole merged S1
+    store (node codes + titles + aliases + all edge endpoints, case-folded)'
+  s3_candidate_terms:
+  - exothermic
+  - endothermic
+  - calorimetry
+  - enthalpy
+  - energy level diagram
+  - bond energy
+  - bond breaking
+  - bond making
+  - rate of reaction
+  - collision theory
+  - catalyst
+  - activation energy
+  - reaction profile
+  - reversible
+  - dynamic equilibrium
+  - position of equilibrium
+  - surface area
+  - pressure
+  - temperature change
+  - heat energy
+  result: ZERO canonical conflicts — no S3 term exists anywhere in the S1
+    store; Section 3 mints an entirely new concept vocabulary.
+
+# --- 2. mint ruling (what batch 4 mints, per the established discipline)
+mint_ruling:
+  rule: 'batch 4 mints its own concept families exactly as batches 1-3 did
+    (one node per SP-family at the ratified granularity; know/understand
+    pairs stay dual attachments — the 1.19/1.20 and B3-ID-01 precedents;
+    practicals own their SP when the SP is an investigation — the 1.13/1.60C
+    precedent)'
+  expected_new_families:
+  - 'Energetics: exothermic/endothermic, calorimetry, Q=mc(delta)T, molar
+    enthalpy, energy level diagrams, bond-breaking/making energetics, bond
+    energies'
+  - 'Rates: rate factors (surface area / concentration / pressure /
+    temperature), collision-theory explanations, catalysts, activation
+    energy, reaction profiles'
+  - 'Reversibility & equilibria: reversible reactions, the CuSO4/hydrated-
+    sulfate reversible example, dynamic equilibrium, position of
+    equilibrium'
+
+# --- 3. boundary-edge ruling (the sanctioned cross-section references)
+boundary_edge_ruling:
+  rule: 'boundary EDGES from new batch-4 nodes into S1-owned nodes are
+    sanctioned (the FN-B1-2/FN-B2-2 discipline at section scale); boundary
+    MINTING is not — no S1 identity may be re-created, re-scoped, or
+    re-owned by a batch-4 record'
+  sanctioned_targets:
+  - target: 4CH1-CON-MOLE
+    owner: pilot
+    for: 'molar enthalpy calculation (3.4) presupposes the mole (Q/n)'
+  - target: 4CH1-CON-COVALENT-BOND
+    owner: batch 3
+    for: 'bond-energy work (3.6C/3.7C) presupposes the covalent bond the
+      energies are measured over'
+  - target: 4CH1-CON-CONCENTRATION
+    owner: pilot
+    for: 'the concentration-rate factor (3.9-3.11) presupposes the
+      concentration-of-solution concept'
+  - target: 4CH1-CON-EQ-SYMBOL
+    owner: pilot
+    for: 'reversible-reaction notation (3.17, the (rightleftharpoons)
+      symbol) presupposes balanced symbol equations'
+  - target: 4CH1-CON-WATER-CRYST
+    owner: pilot
+    for: 'the 3.18 dehydration-of-hydrated-copper(II)-sulfate example
+      presupposes water of crystallisation (the pilot node owns the term;
+      3.18 owns the reversible behaviour, NOT the hydration term)'
+  non_mint_list:
+  - 4CH1-CON-MOLE
+  - 4CH1-CON-COVALENT-BOND
+  - 4CH1-CON-CONCENTRATION
+  - 4CH1-CON-EQ-SYMBOL
+  - 4CH1-CON-WATER-CRYST
+  - 4CH1-CON-CONC-CALC
+  - 4CH1-CON-REDOX-ELECTRONS
+  note: 'the non_mint_list is a floor, not a ceiling: the operative rule is
+    the machine-verified zero-overlap audit — if batch-4 authoring ever
+    finds an S3 term already in the store, the boundary edge is mandatory
+    and the mint is forbidden (fail-closed at preverify, the G03 quote
+    gates, and c11.4)'
+
+# --- 4. what this ruling explicitly does NOT do
+non_goals:
+- 'no ontology redesign, no re-opening of any settled identity decision
+  (pilot OD-1/OD-2, B1-ID-01..04, B2-ID-01..04, B3-ID-01..07 all stand)'
+- 'no re-scoping of any S1 node (the pilot CON-CONCENTRATION /
+  CON-WATER-CRYST / CON-MOLE / CON-EQ-SYMBOL and batch-3 CON-COVALENT-BOND
+  keep their exact scope and ownership)'
+- 'no promotion authority, no graph writes, no DB writes (this file is a
+  review-state record only; HUMAN_VALIDATED remains reachable only through
+  the §18 pathway)'
+- 'no pre-commitment of batch-4 node/edge counts (the forecast instrument
+  predicts; the batch authors; the gate reviews)'

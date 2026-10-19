@@ -1,0 +1,1503 @@
+{
+ "schema": "syllabai.t-spec-8-parse-repair/1.0",
+ "generated_utc": "2026-09-19T06:26:50Z",
+ "parser": "spec-parser-1.0 + t-spec-8 repair",
+ "ial_maths": {
+  "removed": [
+   "IAL_MATHS:D1-1.10",
+   "IAL_MATHS:D1-1.11",
+   "IAL_MATHS:D1-1.12",
+   "IAL_MATHS:D1-1.13",
+   "IAL_MATHS:D1-1.14",
+   "IAL_MATHS:D1-1.15",
+   "IAL_MATHS:D1-1.16",
+   "IAL_MATHS:D1-1.17",
+   "IAL_MATHS:D1-1.18",
+   "IAL_MATHS:D1-1.19",
+   "IAL_MATHS:D1-1.20",
+   "IAL_MATHS:D1-1.21",
+   "IAL_MATHS:D1-1.22",
+   "IAL_MATHS:D1-1.23",
+   "IAL_MATHS:D1-1.24",
+   "IAL_MATHS:D1-1.25",
+   "IAL_MATHS:D1-1.26",
+   "IAL_MATHS:D1-1.27",
+   "IAL_MATHS:D1-1.28",
+   "IAL_MATHS:D1-1.29",
+   "IAL_MATHS:D1-1.3",
+   "IAL_MATHS:D1-1.30",
+   "IAL_MATHS:D1-1.4",
+   "IAL_MATHS:D1-1.5",
+   "IAL_MATHS:D1-1.6",
+   "IAL_MATHS:D1-1.7",
+   "IAL_MATHS:D1-1.8",
+   "IAL_MATHS:D1-1.9",
+   "IAL_MATHS:D1-10.1",
+   "IAL_MATHS:D1-10.11",
+   "IAL_MATHS:D1-10.12",
+   "IAL_MATHS:D1-10.13",
+   "IAL_MATHS:D1-10.14",
+   "IAL_MATHS:D1-10.15",
+   "IAL_MATHS:D1-10.16",
+   "IAL_MATHS:D1-10.17",
+   "IAL_MATHS:D1-10.18",
+   "IAL_MATHS:D1-10.19",
+   "IAL_MATHS:D1-10.2",
+   "IAL_MATHS:D1-10.20",
+   "IAL_MATHS:D1-10.21",
+   "IAL_MATHS:D1-10.22",
+   "IAL_MATHS:D1-10.23",
+   "IAL_MATHS:D1-10.24",
+   "IAL_MATHS:D1-10.25",
+   "IAL_MATHS:D1-10.26",
+   "IAL_MATHS:D1-10.27",
+   "IAL_MATHS:D1-10.28",
+   "IAL_MATHS:D1-10.29",
+   "IAL_MATHS:D1-10.3",
+   "IAL_MATHS:D1-10.30",
+   "IAL_MATHS:D1-10.31",
+   "IAL_MATHS:D1-10.4",
+   "IAL_MATHS:D1-10.5",
+   "IAL_MATHS:D1-10.6",
+   "IAL_MATHS:D1-10.7",
+   "IAL_MATHS:D1-10.8",
+   "IAL_MATHS:D1-10.9",
+   "IAL_MATHS:D1-2.10",
+   "IAL_MATHS:D1-2.11",
+   "IAL_MATHS:D1-2.12",
+   "IAL_MATHS:D1-2.13",
+   "IAL_MATHS:D1-2.14",
+   "IAL_MATHS:D1-2.15",
+   "IAL_MATHS:D1-2.16",
+   "IAL_MATHS:D1-2.17",
+   "IAL_MATHS:D1-2.18",
+   "IAL_MATHS:D1-2.19",
+   "IAL_MATHS:D1-2.3",
+   "IAL_MATHS:D1-2.4",
+   "IAL_MATHS:D1-2.5",
+   "IAL_MATHS:D1-2.6",
+   "IAL_MATHS:D1-2.7",
+   "IAL_MATHS:D1-2.8",
+   "IAL_MATHS:D1-2.9",
+   "IAL_MATHS:D1-3.10",
+   "IAL_MATHS:D1-3.4",
+   "IAL_MATHS:D1-3.5",
+   "IAL_MATHS:D1-3.6",
+   "IAL_MATHS:D1-3.7",
+   "IAL_MATHS:D1-3.8",
+   "IAL_MATHS:D1-3.9",
+   "IAL_MATHS:D1-4.10",
+   "IAL_MATHS:D1-4.11",
+   "IAL_MATHS:D1-4.12",
+   "IAL_MATHS:D1-4.13",
+   "IAL_MATHS:D1-4.14",
+   "IAL_MATHS:D1-4.2",
+   "IAL_MATHS:D1-4.4",
+   "IAL_MATHS:D1-4.5",
+   "IAL_MATHS:D1-4.6",
+   "IAL_MATHS:D1-4.7",
+   "IAL_MATHS:D1-4.8",
+   "IAL_MATHS:D1-4.9",
+   "IAL_MATHS:D1-5.4",
+   "IAL_MATHS:D1-5.5",
+   "IAL_MATHS:D1-6.1",
+   "IAL_MATHS:D1-6.2",
+   "IAL_MATHS:D1-6.3",
+   "IAL_MATHS:D1-6.4",
+   "IAL_MATHS:D1-7.1",
+   "IAL_MATHS:D1-7.2",
+   "IAL_MATHS:D1-7.3",
+   "IAL_MATHS:D1-7.4",
+   "IAL_MATHS:D1-7.5",
+   "IAL_MATHS:D1-7.6",
+   "IAL_MATHS:D1-7.7",
+   "IAL_MATHS:D1-8.1",
+   "IAL_MATHS:D1-8.2",
+   "IAL_MATHS:D1-8.3",
+   "IAL_MATHS:D1-8.4",
+   "IAL_MATHS:D1-9.1",
+   "IAL_MATHS:D1-9.2",
+   "IAL_MATHS:D1-9.3",
+   "IAL_MATHS:D1-9.4",
+   "IAL_MATHS:D1-9.5",
+   "IAL_MATHS:D1-9.6",
+   "IAL_MATHS:D1-9.7",
+   "IAL_MATHS:D1-9.8"
+  ],
+  "patched": [
+   {
+    "id": "IAL_MATHS:D1-2.1",
+    "before": {
+     "text": "The minimum spanning tree Matrix representation for Prim’s algorithm is expected. (minimum connector) problem. Drawing a network from a given matrix and writing down Prim’s and Kruskal’s algorithm. the matrix associated with a network will be involved.",
+     "page": 70,
+     "oy": 283.7,
+     "sub_items": []
+    },
+    "after": {
+     "text": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm.",
+     "page": 70,
+     "oy": 283.7
+    }
+   },
+   {
+    "id": "IAL_MATHS:S2-4.6",
+    "before": {
+     "text": "Hypothesis tests for the parameter p Students are expected to know how to use tables to carry of a binomial distribution and for out these tests. Questions may also be set not involving the mean of a Poisson distribution. tabular values. Tests for the parameter p of a binomial distribution may involve the use of a normal approximation to calculate probabilities.",
+     "page": 65,
+     "oy": 279.8,
+     "sub_items": [
+      "The assessment is 1 hour and 30 minutes.",
+      "The assessment is out of 75 marks.",
+      "Students must answer all questions.",
+      "Calculators may be used in the examination. Please see Appendix 6: Use of calculators .",
+      "The booklet Mathematical Formulae and Statistical Tables will be provided for use in the assessments. Appendix 7: Notation . Formulae that students are expected to know are given below and will not appear in the booklet Mathematical Formulae and Statistical Tables , which will be provided for use with the paper. Questions will be set in SI units and other units in common usage. aX ± bY ∼ N( aμ x ± bμ y , a 2 σ x 2 + b 2 σ y 2 ) where X and Y are independent and X ∼ N( μ x , σ x 2 ) and Y ∼ N( μ y , σ y 2 )."
+     ]
+    },
+    "after": {
+     "text": "Hypothesis tests for the parameter p of a binomial distribution and for the mean of a Poisson distribution.",
+     "page": 65,
+     "oy": 279.8
+    }
+   },
+   {
+    "id": "IAL_MATHS:D1-3.4",
+    "before": null,
+    "after": {
+     "text": "The nearest neighbour algorithm.",
+     "page": 70,
+     "oy": 588.7
+    }
+   },
+   {
+    "id": "IAL_MATHS:D1-4.2",
+    "before": null,
+    "after": {
+     "text": "Completion of the precedence table for a given activity network.",
+     "page": 71,
+     "oy": 182.6
+    }
+   },
+   {
+    "id": "IAL_MATHS:D1-4.4",
+    "before": null,
+    "after": {
+     "text": "Total float. Gantt (cascade) charts. Scheduling.",
+     "page": 71,
+     "oy": 273.7
+    }
+   }
+  ]
+ },
+ "igcse_geography": {
+  "added": [
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.156",
+    "text": "The hydrological cycle: characteristics, stores and transfers.",
+    "page": 15,
+    "oy": 198.6,
+    "topic": "1",
+    "subsection": "1.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.157",
+    "text": "Features of a drainage basin: source, watershed, channel network, mouth.",
+    "page": 15,
+    "oy": 217.7,
+    "topic": "1",
+    "subsection": "1.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.158",
+    "text": "Factors affecting river regimes: precipitation, including storm hydrographs, temperature, vegetation, land use, water abstraction, dams. (1)",
+    "page": 15,
+    "oy": 249.6,
+    "topic": "1",
+    "subsection": "1.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.159",
+    "text": "Fluvial processes involved in river valley and river channel formation: erosion (vertical and lateral), weathering and mass movement, transportation and deposition, and factors affecting these processes (climate, slope, geology, altitude and aspect).",
+    "page": 15,
+    "oy": 295.1,
+    "topic": "1",
+    "subsection": "1.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.160",
+    "text": "How channel shape (width, depth), valley profile (long and cross profiles), gradient, velocity, discharge, and sediment size and shape change along the course of a named river . (2)",
+    "page": 15,
+    "oy": 353.1,
+    "topic": "1",
+    "subsection": "1.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.161",
+    "text": "How river landscapes change over the course of a river, with distinctive upland and lowland landforms, including the formation of valleys, interlocking spurs, waterfalls, meanders, oxbow lakes, flood plains and levees. (3)",
+    "page": 15,
+    "oy": 398.1,
+    "topic": "1",
+    "subsection": "1.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.162",
+    "text": "Case studies of river management in a developed country and a developing country or an emerging country.",
+    "page": 15,
+    "oy": 475.7,
+    "topic": "1",
+    "subsection": "1.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.163",
+    "text": "Uses of water, including agriculture, industry, human hygiene and leisure, and the rising demand for and supply of water: areas of water shortage and water surplus.",
+    "page": 15,
+    "oy": 508.1,
+    "topic": "1",
+    "subsection": "1.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.164",
+    "text": "Reasons for variations in water quality, including pollution (sewage, industrial waste, agriculture) and the storage and supply of clean water (dams and reservoirs, pipelines, treatment works). (4)",
+    "page": 15,
+    "oy": 553.1,
+    "topic": "1",
+    "subsection": "1.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S1.165",
+    "text": "Causes of river flooding, including rainfall intensity, seasonal variations in discharge due to monsoons or snowmelt, relief, urbanisation, and the prediction and prevention of flooding. (5)",
+    "page": 15,
+    "oy": 611.1,
+    "topic": "1",
+    "subsection": "1.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.166",
+    "text": "Physical processes at work on the coast: marine processes (wave action, erosion, deposition and transportation, including longshore drift), weathering (mechanical, chemical and biological) and mass movement (sliding and slumping).",
+    "page": 16,
+    "oy": 157.5,
+    "topic": "2",
+    "subsection": "2.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.167",
+    "text": "Influence of geology, vegetation, people and sea-level changes on coastal environments. (1)",
+    "page": 16,
+    "oy": 215.6,
+    "topic": "2",
+    "subsection": "2.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.168",
+    "text": "Role of erosional and depositional processes in the development of landforms: headlands and bays, cliffs, wave- cut platforms, caves, arches, stacks and stumps, beaches, spits and bars. (2)",
+    "page": 16,
+    "oy": 247.5,
+    "topic": "2",
+    "subsection": "2.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.169",
+    "text": "Distributions and features of the world’s coastal ecosystems (coral reefs, mangroves, sand dunes and salt marshes). (3)",
+    "page": 16,
+    "oy": 306.1,
+    "topic": "2",
+    "subsection": "2.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.170",
+    "text": "Abiotic and biotic characteristics of one named coastal ecosystem . (4)",
+    "page": 16,
+    "oy": 338.2,
+    "topic": "2",
+    "subsection": "2.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.171",
+    "text": "How small- and large-scale coastal ecosystems are threatened by people and their activities (industrialisation, agricultural practices, tourism and deforestation).",
+    "page": 16,
+    "oy": 370.1,
+    "topic": "2",
+    "subsection": "2.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.172",
+    "text": "Case studies of coastal management in a developed country and a developing country or an emerging country.",
+    "page": 16,
+    "oy": 434.6,
+    "topic": "2",
+    "subsection": "2.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.173",
+    "text": "Conflicts between different users of the coast, with different views on coastal management (conservation or development).",
+    "page": 16,
+    "oy": 467.1,
+    "topic": "2",
+    "subsection": "2.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.174",
+    "text": "Causes of coastal flooding (storm surges, tsunamis, climate change) and the prediction and prevention of flooding (forecasting, building design, planning and education).",
+    "page": 16,
+    "oy": 499.1,
+    "topic": "2",
+    "subsection": "2.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S2.175",
+    "text": "There are different coastal management strategies, including soft engineering (beach replenishment, cliff regrading, ecosystem rehabilitation and revegetation, managed retreat), hard engineering (groynes, revetments, sea walls, gabions, riprap) and shoreline management plans. (5)",
+    "page": 16,
+    "oy": 544.1,
+    "topic": "2",
+    "subsection": "2.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.176",
+    "text": "Characteristics, distribution and measurement of different types of natural hazards including tropical cyclones, earthquakes and volcanoes. (1)",
+    "page": 17,
+    "oy": 157.6,
+    "topic": "3",
+    "subsection": "3.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.177",
+    "text": "Causes of tropical cyclone hazards, including ocean temperature, atmospheric pressure, wind shear and Coriolis force.",
+    "page": 17,
+    "oy": 202.6,
+    "topic": "3",
+    "subsection": "3.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.178",
+    "text": "Causes of volcanic and earthquake hazards, including the role of plate boundaries and hotspots. (2)",
+    "page": 17,
+    "oy": 247.6,
+    "topic": "3",
+    "subsection": "3.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.179",
+    "text": "Reasons why people continue to live in areas at risk from hazard events.",
+    "page": 17,
+    "oy": 280.1,
+    "topic": "3",
+    "subsection": "3.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.180",
+    "text": "Some countries are more vulnerable (physically, socially and economically) than others to the impacts of natural hazards.",
+    "page": 17,
+    "oy": 312.1,
+    "topic": "3",
+    "subsection": "3.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.181",
+    "text": "The shorter-term and longer-term impacts of one earthquake one volcano and one tropical cyclone hazard  (3).",
+    "page": 17,
+    "oy": 344.2,
+    "topic": "3",
+    "subsection": "3.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.182",
+    "text": "Case studies of hazard management for an earthquake in a developed country and a developing country or an emerging country.",
+    "page": 17,
+    "oy": 395.6,
+    "topic": "3",
+    "subsection": "3.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.183",
+    "text": "Preparation for earthquakes (warning and evacuation, building design, remote sensing and GIS). (4)",
+    "page": 17,
+    "oy": 428.1,
+    "topic": "3",
+    "subsection": "3.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.184",
+    "text": "Short-term responses and relief (emergency aid, shelter and supplies).",
+    "page": 17,
+    "oy": 460.1,
+    "topic": "3",
+    "subsection": "3.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S3.185",
+    "text": "Longer-term planning (risk assessment, hazard mapping and rebuilding programmes). (5)",
+    "page": 17,
+    "oy": 492.1,
+    "topic": "3",
+    "subsection": "3.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.186",
+    "text": "Classification of employment by economic sector (primary, secondary, tertiary and quaternary) and the reasons for the differences in the employment structures in countries at different levels of development (Clark Fisher Model). (1)",
+    "page": 24,
+    "oy": 198.6,
+    "topic": "4",
+    "subsection": "4.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.187",
+    "text": "Factors affecting the location of economic activity in each economic sector and how these factors can change over time.",
+    "page": 24,
+    "oy": 256.7,
+    "topic": "4",
+    "subsection": "4.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.188",
+    "text": "Reasons for the changes in the numbers of people employed in each economic sector, including the availability of raw materials, globalisation, mechanisation, demographic changes and government policies.",
+    "page": 24,
+    "oy": 288.6,
+    "topic": "4",
+    "subsection": "4.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.189",
+    "text": "Positive and negative impacts of economic sector shifts in a named developed  and a named developing  or emerging country . (2)",
+    "page": 24,
+    "oy": 347.1,
+    "topic": "4",
+    "subsection": "4.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.190",
+    "text": "Informal employment: causes (economic development, rural- urban migration) and characteristics (advantages and disadvantages) in a named megacity . (3)",
+    "page": 24,
+    "oy": 392.1,
+    "topic": "4",
+    "subsection": "4.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.191",
+    "text": "Different theories (Malthus and Boserup) are used to explain the relationship between population and resources. (4)",
+    "page": 24,
+    "oy": 437.1,
+    "topic": "4",
+    "subsection": "4.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.192",
+    "text": "Case studies of energy resource management in a developed country and a developing country or an emerging country.",
+    "page": 24,
+    "oy": 488.6,
+    "topic": "4",
+    "subsection": "4.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.193",
+    "text": "Energy demand and production varies globally and is affected by a range of factors: population growth, increased wealth and technological advances.",
+    "page": 24,
+    "oy": 521.1,
+    "topic": "4",
+    "subsection": "4.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.194",
+    "text": "Non-renewable, e.g. coal, oil, natural gas, uranium and shale gas/oil, and renewable sources of energy, e.g. solar, wind, hydroelectric power (HEP), geothermal, biomass, have advantages and disadvantages for people and the environment.",
+    "page": 24,
+    "oy": 566.1,
+    "topic": "4",
+    "subsection": "4.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S4.195",
+    "text": "Energy can be managed in a sustainable way through education, efficiency and conservation (within industry, transport and the home). (5)",
+    "page": 24,
+    "oy": 637.1,
+    "topic": "4",
+    "subsection": "4.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.196",
+    "text": "Distributions and characteristics of the world’s biomes (tropical, temperate and boreal forests, tropical and temperate grasslands, deserts and tundra). (1)",
+    "page": 26,
+    "oy": 157.5,
+    "topic": "5",
+    "subsection": "5.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.197",
+    "text": "Examples of goods and services provided for people by natural ecosystems (timber, tourism, food, energy, water resources, health services, natural protection, and climate regulation).",
+    "page": 26,
+    "oy": 202.5,
+    "topic": "5",
+    "subsection": "5.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.198",
+    "text": "How humans use, modify and change ecosystems and rural environments to obtain food through farming systems (arable/pastoral, commercial/subsistence, intensive/extensive). (2)",
+    "page": 26,
+    "oy": 247.5,
+    "topic": "5",
+    "subsection": "5.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.199",
+    "text": "Characteristics of a rural environment: landscape, climate, settlement, population, land use, employment, accessibility, management (development or conservation).",
+    "page": 26,
+    "oy": 306.1,
+    "topic": "5",
+    "subsection": "5.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.200",
+    "text": "Factors leading to rural changes in a named developed country : rural isolation, decline in farm employment, tourist pressures, suburbanisation, counter-urbanisation, and the negative multiplier effect.",
+    "page": 26,
+    "oy": 351.1,
+    "topic": "5",
+    "subsection": "5.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.201",
+    "text": "Factors leading to rural changes in a named developing country  or emerging country : population growth, changing farm economy and landholdings, natural hazards, and rural-urban migration. (3)",
+    "page": 26,
+    "oy": 409.1,
+    "topic": "5",
+    "subsection": "5.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.202",
+    "text": "Case studies of rural environments in a developed country and in a developing country or an emerging country.",
+    "page": 26,
+    "oy": 486.6,
+    "topic": "5",
+    "subsection": "5.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.203",
+    "text": "The diversification of farming to generate new income streams: GM crops, specialist crops and food, organic farming, recreation and leisure. (4)",
+    "page": 26,
+    "oy": 519.1,
+    "topic": "5",
+    "subsection": "5.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.204",
+    "text": "The range of possible strategies aimed at making rural living more sustainable and improving the quality of life (soil and air quality, water supplies, crop yields, health, employment and housing) for the chosen rural environment. (5)",
+    "page": 26,
+    "oy": 564.1,
+    "topic": "5",
+    "subsection": "5.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S5.205",
+    "text": "Role of different groups of people (national and local government, IGOs, NGOs and local communities) in managing the social, economic and environmental challenges within the chosen rural environment.",
+    "page": 26,
+    "oy": 622.1,
+    "topic": "5",
+    "subsection": "5.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.206",
+    "text": "Contrasting trends in urbanisation over the last 50 years in different parts of the world, including the processes of suburbanisation and counter-urbanisation. (1)",
+    "page": 28,
+    "oy": 157.5,
+    "topic": "6",
+    "subsection": "6.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.207",
+    "text": "Factors affecting the rate of urbanisation and the emergence of megacities.",
+    "page": 28,
+    "oy": 202.5,
+    "topic": "6",
+    "subsection": "6.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.208",
+    "text": "Problems associated with rapid urbanisation: congestion, transport, employment, crime and environmental issues. (2)",
+    "page": 28,
+    "oy": 234.6,
+    "topic": "6",
+    "subsection": "6.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.209",
+    "text": "Factors affecting urban land use patterns: locational needs, accessibility, land values. (3)",
+    "page": 28,
+    "oy": 267.1,
+    "topic": "6",
+    "subsection": "6.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.210",
+    "text": "Urban challenges in a named developed country : food, energy, transport and waste disposal demands, concentrated resource consumption, segregation. (4)",
+    "page": 28,
+    "oy": 299.2,
+    "topic": "6",
+    "subsection": "6.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.211",
+    "text": "Urban challenges in a named developing country  or emerging country : squatter settlements, informal economy, urban pollution, and low quality of life.",
+    "page": 28,
+    "oy": 344.2,
+    "topic": "6",
+    "subsection": "6.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.212",
+    "text": "Case studies of urban environments in a developed country and a developing country or an emerging country.",
+    "page": 28,
+    "oy": 404.8,
+    "topic": "6",
+    "subsection": "6.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.213",
+    "text": "Development of the rural-urban fringe: housing estates, retail, business and science parks, industrial estates, and the greenfield versus brownfield debate.",
+    "page": 28,
+    "oy": 436.4,
+    "topic": "6",
+    "subsection": "6.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.214",
+    "text": "The range of possible strategies aimed at making urban living more sustainable and improving the quality of life (waste disposal, transport, education, health, employment and housing) for the chosen urban environment. (5)",
+    "page": 28,
+    "oy": 481.4,
+    "topic": "6",
+    "subsection": "6.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S6.215",
+    "text": "Role of different groups of people (planners, politicians, property developers and industrialists) in managing the social, economic and environmental challenges in the chosen urban area.",
+    "page": 28,
+    "oy": 539.4,
+    "topic": "6",
+    "subsection": "6.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.216",
+    "text": "Distributions and characteristics of the world’s fragile environments. (1)",
+    "page": 34,
+    "oy": 198.6,
+    "topic": "7",
+    "subsection": "7.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.217",
+    "text": "Causes of desertification (drought, population pressure, fuel supply, overgrazing, migration) and deforestation (commercial timber extraction, agriculture, mining, transport; settlement and HEP (hydroelectric power). (2) and (3)",
+    "page": 34,
+    "oy": 230.6,
+    "topic": "7",
+    "subsection": "7.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.218",
+    "text": "Causes of natural climate change (Milankovitch cycles, solar variation and volcanism) and how human activities (industry, transport, energy, and farming) can cause the enhanced greenhouse effect. (4)",
+    "page": 34,
+    "oy": 301.7,
+    "topic": "7",
+    "subsection": "7.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.219",
+    "text": "Social, economic and environmental impacts of desertification (reduced agricultural output, malnutrition, famine, migration).",
+    "page": 34,
+    "oy": 360.1,
+    "topic": "7",
+    "subsection": "7.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.220",
+    "text": "Social, economic and environmental impacts of deforestation (loss of biodiversity, contribution to climate change, economic development and increased soil erosion).",
+    "page": 34,
+    "oy": 392.2,
+    "topic": "7",
+    "subsection": "7.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.221",
+    "text": "Negative effects that climate change is having on fragile environments and people (rising sea levels, more hazards, ecosystem changes, reduced employment opportunities, changing settlement patterns, health and wellbeing challenges, including food supply). (5)",
+    "page": 34,
+    "oy": 437.2,
+    "topic": "7",
+    "subsection": "7.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.222",
+    "text": "How technology can resolve water-resource shortages in fragile environments under threat from desertification.",
+    "page": 34,
+    "oy": 508.7,
+    "topic": "7",
+    "subsection": "7.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.223",
+    "text": "Different approaches to the sustainable use and management of a rainforest in a named region  to limit the extent of deforestation.",
+    "page": 34,
+    "oy": 540.6,
+    "topic": "7",
+    "subsection": "7.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S7.224",
+    "text": "Different responses to global warming and climate change from individuals, organisations and governments in a named developed  and a named emerging or developing country .",
+    "page": 34,
+    "oy": 585.6,
+    "topic": "7",
+    "subsection": "7.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.225",
+    "text": "Rise of the global economy (growth of production and commodity chains) and the factors encouraging it (trade, foreign investment, aid, labour, modern transport and information technologies). (1)",
+    "page": 35,
+    "oy": 157.5,
+    "topic": "8",
+    "subsection": "8.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.226",
+    "text": "Role of global institutions, including the World Trade Organization (WTO), the International Monetary Fund (IMF) and TNCs in creating a more globalised economy.",
+    "page": 35,
+    "oy": 215.6,
+    "topic": "8",
+    "subsection": "8.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.227",
+    "text": "Push and pull factors (social, economic and political) that have influenced rates of different types of migration over the last 50 years, including medical, sport, tourism and economic. (2)",
+    "page": 35,
+    "oy": 260.6,
+    "topic": "8",
+    "subsection": "8.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.228",
+    "text": "Impacts of globalisation on different groups of people, including the benefits and costs to countries hosting TNCs. (3)",
+    "page": 35,
+    "oy": 319.3,
+    "topic": "8",
+    "subsection": "8.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.229",
+    "text": "Impacts of migration (voluntary, forced, national, international, and rural-urban) on different groups of people. (4)",
+    "page": 35,
+    "oy": 364.3,
+    "topic": "8",
+    "subsection": "8.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.230",
+    "text": "Positive and negative impacts of the growth of global tourism, including mass tourism, on the environment, economy and people of destination areas. (5)",
+    "page": 35,
+    "oy": 409.3,
+    "topic": "8",
+    "subsection": "8.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.231",
+    "text": "How geopolitical relationships between countries are important in managing trade, migration and tourism.",
+    "page": 35,
+    "oy": 454.8,
+    "topic": "8",
+    "subsection": "8.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.232",
+    "text": "Different approaches to the management of long-term migration in a named country .",
+    "page": 35,
+    "oy": 486.7,
+    "topic": "8",
+    "subsection": "8.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S8.233",
+    "text": "Different approaches to make tourism more sustainable from individuals, organisations and governments in a named developed  and a named emerging or developing country .",
+    "page": 35,
+    "oy": 518.8,
+    "topic": "8",
+    "subsection": "8.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.234",
+    "text": "The different ways of defining development, using economic criteria and broader social and political measures.",
+    "page": 36,
+    "oy": 157.5,
+    "topic": "9",
+    "subsection": "9.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.235",
+    "text": "Different factors contribute to the development and human welfare of a country: economic, social, technological, cultural, as well as food and water security.",
+    "page": 36,
+    "oy": 202.5,
+    "topic": "9",
+    "subsection": "9.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.236",
+    "text": "Development is measured in different ways: GDP per capita, the Human Development Index, measures of inequality and indices of political corruption. (1) and (2)",
+    "page": 36,
+    "oy": 247.5,
+    "topic": "9",
+    "subsection": "9.1"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.237",
+    "text": "Global pattern of the uneven development between and within countries and the factors (social, historic and economic) that have led to these spatial variations.",
+    "page": 36,
+    "oy": 293.4,
+    "topic": "9",
+    "subsection": "9.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.238",
+    "text": "Impact of uneven development on welfare and quality of life within one named country : poverty, unemployment, inadequate housing and physical infrastructure. (3)",
+    "page": 36,
+    "oy": 338.4,
+    "topic": "9",
+    "subsection": "9.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.239",
+    "text": "How countries at different levels of development have differences in their demographic data (fertility rates, death rates, natural increase, population structures, maternal and infant mortality rates). (4) and (5)",
+    "page": 36,
+    "oy": 396.5,
+    "topic": "9",
+    "subsection": "9.2"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.240",
+    "text": "The range of international strategies (international aid and intergovernmental agreements) that attempt to reduce uneven development.",
+    "page": 36,
+    "oy": 454.9,
+    "topic": "9",
+    "subsection": "9.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.241",
+    "text": "Different views held by individuals, organisations and governments on tackling the development gap.",
+    "page": 36,
+    "oy": 499.9,
+    "topic": "9",
+    "subsection": "9.3"
+   },
+   {
+    "id": "IGCSE_GEOGRAPHY:S9.242",
+    "text": "Advantages and disadvantages of top-down and bottom- up development projects used to promote development in a named developed  and a named emerging or developing country .",
+    "page": 36,
+    "oy": 532.0,
+    "topic": "9",
+    "subsection": "9.3"
+   }
+  ],
+  "subsections_added": 75
+ },
+ "igcse_accounting": {
+  "added": [
+   {
+    "id": "IGCSE_ACCOUNTING:S1.119",
+    "text": "Explain the characteristics of:",
+    "page": 19,
+    "oy": 149.0,
+    "topic": "1",
+    "subsection": "1",
+    "sub_items": 4
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.120",
+    "text": "Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+    "page": 19,
+    "oy": 239.9,
+    "topic": "1",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.121",
+    "text": "Understand the significance of the following accounting concepts:",
+    "page": 19,
+    "oy": 282.4,
+    "topic": "1",
+    "subsection": "2",
+    "sub_items": 6
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.122",
+    "text": "Explain the benefits of using technology within accounting:",
+    "page": 19,
+    "oy": 421.6,
+    "topic": "1",
+    "subsection": "3",
+    "sub_items": 2
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.123",
+    "text": "Explain the issues regarding the security of data:",
+    "page": 19,
+    "oy": 476.0,
+    "topic": "1",
+    "subsection": "3",
+    "sub_items": 3
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.124",
+    "text": "Explain the methods of protecting data:",
+    "page": 19,
+    "oy": 548.6,
+    "topic": "1",
+    "subsection": "3",
+    "sub_items": 2
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.125",
+    "text": "Describe the principles of professional ethics.",
+    "page": 19,
+    "oy": 603.1,
+    "topic": "1",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.126",
+    "text": "Apply the principles of professional ethics to accounting roles and functions.",
+    "page": 19,
+    "oy": 621.2,
+    "topic": "1",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S1.127",
+    "text": "Explain the concept of public interest and how it is applied to accounting roles and functions.",
+    "page": 19,
+    "oy": 651.5,
+    "topic": "1",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.128",
+    "text": "Explain the purpose of business documents.",
+    "page": 21,
+    "oy": 149.0,
+    "topic": "2",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.129",
+    "text": "Prepare the following business documents:",
+    "page": 21,
+    "oy": 168.1,
+    "topic": "2",
+    "subsection": "1",
+    "sub_items": 7
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.130",
+    "text": "Cash receipt",
+    "page": 21,
+    "oy": 314.1,
+    "topic": "2",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.131",
+    "text": "Explain the purpose of books of original entry.",
+    "page": 21,
+    "oy": 333.1,
+    "topic": "2",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.132",
+    "text": "Prepare the following books of original entry:",
+    "page": 21,
+    "oy": 352.2,
+    "topic": "2",
+    "subsection": "2",
+    "sub_items": 7
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.133",
+    "text": "Explain the purpose of the:",
+    "page": 21,
+    "oy": 498.2,
+    "topic": "2",
+    "subsection": "3",
+    "sub_items": 3
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.134",
+    "text": "Record transactions in ledger accounts using double entry principles.",
+    "page": 21,
+    "oy": 571.7,
+    "topic": "2",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.135",
+    "text": "Explain the terms:",
+    "page": 21,
+    "oy": 603.7,
+    "topic": "2",
+    "subsection": "4",
+    "sub_items": 2
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.136",
+    "text": "Explain the importance of the correct treatment of capital expenditure and revenue expenditure.",
+    "page": 21,
+    "oy": 659.0,
+    "topic": "2",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.137",
+    "text": "Explain the causes of depreciation.",
+    "page": 21,
+    "oy": 691.0,
+    "topic": "2",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.138",
+    "text": "Distinguish between straight line and reducing balance methods of depreciation.",
+    "page": 21,
+    "oy": 710.0,
+    "topic": "2",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.139",
+    "text": "Calculate and record depreciation in the books of account.",
+    "page": 21,
+    "oy": 742.0,
+    "topic": "2",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.140",
+    "text": "Calculate and record profit or loss of disposal of non-current assets.",
+    "page": 21,
+    "oy": 761.0,
+    "topic": "2",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.141",
+    "text": "Explain why it is necessary to provide a provision for irrecoverable debts.",
+    "page": 22,
+    "oy": 83.4,
+    "topic": "2",
+    "subsection": "6",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.142",
+    "text": "Distinguish between an irrecoverable debt and a provision for an irrecoverable debt.",
+    "page": 22,
+    "oy": 115.4,
+    "topic": "2",
+    "subsection": "6",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.143",
+    "text": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+    "page": 22,
+    "oy": 147.4,
+    "topic": "2",
+    "subsection": "6",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.144",
+    "text": "Explain why it is necessary to account for other receivables and payables.",
+    "page": 22,
+    "oy": 179.4,
+    "topic": "2",
+    "subsection": "7",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.145",
+    "text": "Distinguish between other receivables and payables.",
+    "page": 22,
+    "oy": 211.4,
+    "topic": "2",
+    "subsection": "7",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S2.146",
+    "text": "Calculate and record other receivables and payables in the books of account.",
+    "page": 22,
+    "oy": 230.4,
+    "topic": "2",
+    "subsection": "7",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.147",
+    "text": "Explain the purpose of a trial balance.",
+    "page": 23,
+    "oy": 149.0,
+    "topic": "3",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.148",
+    "text": "Prepare a trial balance.",
+    "page": 23,
+    "oy": 168.1,
+    "topic": "3",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.149",
+    "text": "Understand the limitations of a trial balance.",
+    "page": 23,
+    "oy": 187.1,
+    "topic": "3",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.150",
+    "text": "Explain the purpose of control accounts.",
+    "page": 23,
+    "oy": 206.0,
+    "topic": "3",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.151",
+    "text": "Prepare a trade receivables control account and a trade payables control account.",
+    "page": 23,
+    "oy": 225.1,
+    "topic": "3",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.152",
+    "text": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+    "page": 23,
+    "oy": 257.0,
+    "topic": "3",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.153",
+    "text": "Prepare journal entries to correct errors.",
+    "page": 23,
+    "oy": 289.1,
+    "topic": "3",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.154",
+    "text": "Prepare a suspense account.",
+    "page": 23,
+    "oy": 308.0,
+    "topic": "3",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.155",
+    "text": "Explain the purpose of bank reconciliation statements.",
+    "page": 23,
+    "oy": 327.1,
+    "topic": "3",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.156",
+    "text": "Understand the process of bank reconciliation.",
+    "page": 23,
+    "oy": 346.1,
+    "topic": "3",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S3.157",
+    "text": "Prepare a bank reconciliation statement.",
+    "page": 23,
+    "oy": 365.0,
+    "topic": "3",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.158",
+    "text": "Prepare income statements to show gross profit and profit for the year.",
+    "page": 27,
+    "oy": 149.0,
+    "topic": "4",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.159",
+    "text": "Prepare statements of financial position to show assets, liabilities and equity.",
+    "page": 27,
+    "oy": 181.1,
+    "topic": "4",
+    "subsection": "1",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.160",
+    "text": "Understand the nature of a partnership and the reasons for forming one.",
+    "page": 27,
+    "oy": 213.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.161",
+    "text": "Understand the nature and structure of a limited liability partnership (LLP).",
+    "page": 27,
+    "oy": 245.0,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.162",
+    "text": "Apply the provisions of Section 24 of the Partnership Act 1890 in relation to partners’ salaries, division of profit or loss, interest on loans, capital and drawings.",
+    "page": 27,
+    "oy": 277.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.163",
+    "text": "Understand the nature and purpose of an appropriation account.",
+    "page": 27,
+    "oy": 322.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.164",
+    "text": "Prepare income statements and appropriation accounts.",
+    "page": 27,
+    "oy": 354.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.165",
+    "text": "Prepare partners’ current accounts and capital accounts.",
+    "page": 27,
+    "oy": 373.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.166",
+    "text": "Prepare statements of financial position to include partners’ capital balances and current account balances.",
+    "page": 27,
+    "oy": 392.1,
+    "topic": "4",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.167",
+    "text": "Calculate the profit for the year by comparing the open and closing equity figures.",
+    "page": 27,
+    "oy": 424.1,
+    "topic": "4",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.168",
+    "text": "Calculate revenue and purchases using appropriate accounting techniques, to include control accounts.",
+    "page": 27,
+    "oy": 456.1,
+    "topic": "4",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.169",
+    "text": "Prepare income statements and statements of financial position from incomplete records and information.",
+    "page": 27,
+    "oy": 488.0,
+    "topic": "4",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.170",
+    "text": "Explain the difference between profitability and liquidity.",
+    "page": 27,
+    "oy": 520.1,
+    "topic": "4",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.171",
+    "text": "Calculate and interpret the following profitability ratios:",
+    "page": 27,
+    "oy": 539.0,
+    "topic": "4",
+    "subsection": "4",
+    "sub_items": 3
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.172",
+    "text": "Calculate and interpret the following liquidity ratios:",
+    "page": 27,
+    "oy": 612.5,
+    "topic": "4",
+    "subsection": "4",
+    "sub_items": 2
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.173",
+    "text": "Understand the difference between the inventories of raw materials, work-in-progress and finished goods.",
+    "page": 27,
+    "oy": 667.8,
+    "topic": "4",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S4.174",
+    "text": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+    "page": 27,
+    "oy": 699.8,
+    "topic": "4",
+    "subsection": "5",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.175",
+    "text": "Apply the following accounting concepts:",
+    "page": 29,
+    "oy": 149.0,
+    "topic": "5",
+    "subsection": "1",
+    "sub_items": 6
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.176",
+    "text": "Explain the causes of depreciation.",
+    "page": 29,
+    "oy": 277.0,
+    "topic": "5",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.177",
+    "text": "Distinguish between straight line and reducing balance methods of depreciation.",
+    "page": 29,
+    "oy": 296.0,
+    "topic": "5",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.178",
+    "text": "Calculate and record depreciation in the books of account.",
+    "page": 29,
+    "oy": 328.0,
+    "topic": "5",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.179",
+    "text": "Calculate and record profit or loss of disposal of non-current assets.",
+    "page": 29,
+    "oy": 347.0,
+    "topic": "5",
+    "subsection": "2",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.180",
+    "text": "Explain why it is necessary to provide a provision for irrecoverable debts.",
+    "page": 29,
+    "oy": 379.0,
+    "topic": "5",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.181",
+    "text": "Distinguish between an irrecoverable debt and a provision for an irrecoverable debt.",
+    "page": 29,
+    "oy": 411.0,
+    "topic": "5",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.182",
+    "text": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+    "page": 29,
+    "oy": 443.0,
+    "topic": "5",
+    "subsection": "3",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.183",
+    "text": "Explain why it is necessary to account for other receivables and payables.",
+    "page": 29,
+    "oy": 475.0,
+    "topic": "5",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.184",
+    "text": "Distinguish between other receivables and payables.",
+    "page": 29,
+    "oy": 507.0,
+    "topic": "5",
+    "subsection": "4",
+    "sub_items": 0
+   },
+   {
+    "id": "IGCSE_ACCOUNTING:S5.185",
+    "text": "Calculate and record other receivables and payables in the books of account.",
+    "page": 29,
+    "oy": 526.0,
+    "topic": "5",
+    "subsection": "4",
+    "sub_items": 0
+   }
+  ],
+  "subsections_added": 24
+ },
+ "igcse_maths_a": {
+  "change": "none - H-walk statements verified present; corrected via T-SPEC-8 verdict round"
+ }
+}

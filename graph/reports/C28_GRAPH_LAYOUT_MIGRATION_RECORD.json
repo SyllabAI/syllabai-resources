@@ -1,0 +1,113 @@
+{
+  "schema": "c28-graph-layout-migration-record/1.0",
+  "task": "T-C28 stage execution — single-window graph/ layout migration (spec C28_MULTI_SUBJECT_EXPANSION_SPEC.md §7)",
+  "directive": {
+    "ruling": "a",
+    "meaning": "fire the 3-stage migration now; push per stage (per-directive push convention)",
+    "date": "2026-09-21",
+    "note": "D1 option (a) supersedes the spec's (b)-batch recommendation; D2-D5 remain open"
+  },
+  "baseline": "175ffc1",
+  "stage_commits": {
+    "stage_1_registry_first_noop": "639e38b",
+    "stage_1b_tooling_pins_hygiene": "75639a3",
+    "stage_2_move_flip_canonicalize": "b3bca02",
+    "stage_2b_s2_ledger_join_fix": "869bcf6",
+    "stage_3_record_and_spec_landing": "this commit"
+  },
+  "battery": {
+    "gates": 87,
+    "pass": 87,
+    "fail": 0,
+    "warn": 0,
+    "info": 7,
+    "verdict": "ALL_STORES_CLEAN",
+    "at_head": "869bcf6",
+    "note": "85 C27 gates + 2 new permanent C28 S0 gates (no-hardcode, registry consistency)"
+  },
+  "path_map": {
+    "graph/reports/": "graph/reports/ (SHARED, never per-qual)",
+    "stores": {
+      "graph/specification_points.yaml": "graph/igcse-chemistry/specification_points.yaml",
+      "graph/topics.yaml": "graph/igcse-chemistry/topics.yaml",
+      "graph/practicals.yaml": "graph/igcse-chemistry/practicals.yaml",
+      "graph/assessment_objectives.yaml": "graph/igcse-chemistry/assessment_objectives.yaml",
+      "graph/command_words.yaml": "graph/igcse-chemistry/command_words.yaml",
+      "graph/relationships.yaml": "graph/igcse-chemistry/relationships.yaml",
+      "graph/concepts.yaml": "graph/igcse-chemistry/concepts.yaml",
+      "graph/concept_edges.yaml": "graph/igcse-chemistry/concept_edges.yaml",
+      "graph/spec_chunk_mappings.yaml": "graph/igcse-chemistry/spec_chunk_mappings.yaml",
+      "graph/spec_command_kinds.yaml": "graph/igcse-chemistry/spec_command_kinds.yaml"
+    }
+  },
+  "sha256_40": {
+    "specification_points": {"pre": "956d276f6e4354fa7f5319ca320744f86fbb6ce086efb4a798b3a83f15aaaeb3", "post": "956d276f6e4354fa7f5319ca320744f86fbb6ce086efb4a798b3a83f15aaaeb3", "disposition": "PIN-CARRY"},
+    "topics": {"pre": "81a4745760bcce2ccc198ba3843a4ccd25d09c84b3faa7e93248c8b467ccf13d", "post": "81a4745760bcce2ccc198ba3843a4ccd25d09c84b3faa7e93248c8b467ccf13d", "disposition": "PIN-CARRY"},
+    "practicals": {"pre": "8e0ab9c4719376886b59f74dbf6222b56332cf87c7bba93d64b14c65e54d5285", "post": "8e0ab9c4719376886b59f74dbf6222b56332cf87c7bba93d64b14c65e54d5285", "disposition": "PIN-CARRY"},
+    "assessment_objectives": {"pre": "3dc670176f2f55290ac95990f35f82b5888ffa568349f96c32cb9e30e6f352e7", "post": "3dc670176f2f55290ac95990f35f82b5888ffa568349f96c32cb9e30e6f352e7", "disposition": "PIN-CARRY"},
+    "command_words": {"pre": "824c50ee0625672c7207827bfeef57899b4ed84a64ecde311dd825f930d9c537", "post": "824c50ee0625672c7207827bfeef57899b4ed84a64ecde311dd825f930d9c537", "disposition": "PIN-CARRY"},
+    "relationships": {"pre": "6bd3f8236ac2120a81b1db0a6097583e9e7d484fbd93cef8d772c2f6fd62ba94", "post": "6bd3f8236ac2120a81b1db0a6097583e9e7d484fbd93cef8d772c2f6fd62ba94", "disposition": "PIN-CARRY"},
+    "spec_command_kinds": {"pre": "1464540b1df29a3c00088be629d18a67344c594d2e9ee6d757009e2de48639aa", "post": "1464540b1df29a3c00088be629d18a67344c594d2e9ee6d757009e2de48639aa", "disposition": "PIN-CARRY"},
+    "concepts": {"pre": "634a743b65d1612bb6c078668d709ca31835fbced1ef916e271403db9034c27f", "post": "5904c7bc956d68586f6f606f7a9fd86868cd381a7a445b032bab2e79e0290634", "disposition": "RE-ISSUED", "reason": "92 SPEC evidence file: anchors canonicalized"},
+    "concept_edges": {"pre": "ccc674cf3a94b8e47d3df68ef011ac4c345ed3962d445d488369edf77182d737", "post": "ca73f7077ba82cc055a3f272a68198a0adb0a23a13dd31154c1c48e2e41eaafb", "disposition": "RE-ISSUED", "reason": "92 SPEC evidence file: anchors canonicalized"},
+    "spec_chunk_mappings": {"pre": "f36910450bd50726655a1e9fc1e01a28fdd838769236da28c4f1d316c451ce77", "post": "e8b58a7109104bb70bd37ef8244f3e5b86b61e8cd175ddf37f8c356ec39be567", "disposition": "RE-ISSUED", "reason": "1 sp_title_wording_source meta-note ref canonicalized"}
+  },
+  "canonicalization_audit": {
+    "total_refs": 185,
+    "all_target": "graph/specification_points.yaml -> graph/igcse-chemistry/specification_points.yaml",
+    "per_store": {"concepts": {"refs": 92, "lines_changed": 92}, "concept_edges": {"refs": 92, "lines_changed": 92}, "spec_chunk_mappings": {"refs": 1, "lines_changed": 1}},
+    "line_pattern_verification": "every changed line matched file: graph/specification_points.yaml (SPEC evidence anchors) or sp_title_wording_source: (meta note); zero other deltas; line counts preserved"
+  },
+  "registry": {
+    "files": ["scripts/graph_paths.yaml", "scripts/graph_paths.py", "scripts/check_no_hardcode.py"],
+    "schema": "graph-path-registry/1.0",
+    "stage_resolution": "layout.qual_prefix: '' (pre) -> 'igcse-chemistry' (post stage-2); legacy_map filled (10 entries, == derived mapping, check-enforced)",
+    "s0_gates_added": ["no-hardcode: legacy store paths extinct from tooling (C28 §3.2)", "graph-path registry consistency (C28 §3.2)"]
+  },
+  "tooling_refactor": {
+    "code_edits": {"count": 51, "files": 18, "patterns": ["store I/O via GP.store/qual_dir", "git-path I/O via GP.store_rel", "data-value comparisons via GP.store_rel", "reports-dir joins split from qual-dir consts", "download-mirror readers use canonical mirror literals (no GP)"]},
+    "text_swaps": {"count": 62, "files": 27, "note": "docstrings/messages/labels swapped to canonical form; §3.2 pattern is immune to the nested form"},
+    "s4_tooling_pins_refreshed": {
+      "scripts/c26_emit_definitive_sibling_stores.py": {"pre16": "c4ad56a19789cc4d", "post16": "e9cbf844e9247c07"},
+      "scripts/c26_postcheck.py": {"pre16": "b309c07b087792ac", "post16": "e506e0c9d4478523"},
+      "scripts/c23_emit_definitive_specpoints.py": {"pre16": "135452ddc1f3886c", "post16": "886df71645a57bc4"}
+    },
+    "hidden_class_lesson": "os.path.join(GRAPH, 'reports/...') join-through-GRAPH forms are invisible to store-path and bare-dir scans; one instance (S2 C26 ledger read) fixed via GP.reports_dir() at stage-2b; full GRAPH-usage audit found no others"
+  },
+  "no_hardcode_check": {
+    "pre_refactor": "34 tooling files carried 113 legacy-form refs (occurrence-counted)",
+    "post_refactor": "0 outside allowlist",
+    "allowlisted_immutable_ledgers": {
+      "scripts/c11_batch1_decisions.yaml": 24,
+      "scripts/c11_batch2_decisions.yaml": 18,
+      "scripts/c11_batch3_decisions.yaml": 29,
+      "scripts/c11_batch4_decisions.yaml": 24,
+      "scripts/c11_pilot_decisions.yaml": 16,
+      "scripts/c12_decisions/smoke-demo.agent-pass-1.yaml": 5
+    },
+    "allowlisted_ref_total": 116,
+    "resolution": "legacy refs resolve via graph_paths.resolve_rel (P5 errata bridge); ledger files byte-untouched"
+  },
+  "errata": {
+    "legacy_path_bridge": "see path_map.stores — every historical pinned path remains valid as a label and resolves via scripts/graph_paths.yaml legacy_map",
+    "byte_untouched": ["graph/reports/** (all prior records incl. C25/C26/C27)", "the 6 allowlisted ledgers", "parsed/**", "syllabai-core (core_sync_target registry-mapped; core-side layout is a separate core-lane decision)", "node states", "2012-Jan escalations", "data bridge", "explorer v77 HTML (self-contained build artifact; v78 build consumes registry paths per spec §4)"]
+  },
+  "findings": [
+    {
+      "id": "C28-F1",
+      "summary": "c13 negative-test in-repo mode: pre-existing load_registry(repo_root) regression (<repo>/specification_points.yaml never existed) repaired via registry routing; positive control then exposed that the untracked SME notes corpus (Chemistry IGCSE Revision Notes/) is absent from this workspace (untracked, wiped by workspace resets); corpus-presence guard added with actionable message; sandbox mode remains the supported path",
+      "disposition": "repaired + guarded; flagged to corpus owner alongside snap-002/T-C06 notes-surface open item"
+    },
+    {
+      "id": "C28-F2",
+      "summary": "join-through-GRAPH blind spot closed; S0 registry-consistency gate now guards store-path resolvability on every sweep",
+      "disposition": "fixed at stage-2b (869bcf6)"
+    }
+  ],
+  "interaction_with_open_items": {
+    "t_c11_batch_5": "unaffected; outputs land at graph/igcse-chemistry/ going forward; cross-slice rulings remain its own gate",
+    "snap_002_refreeze": "unaffected; concept_attachments joins on spec codes not paths; this record supplies the path remap for the bench record",
+    "worklist_4ch1_4_15": "moved with its store; disposition WORKLIST, owner-held, quote gap unchanged",
+    "d2_d5": "still open; subject-#2 K1 is now a pure registry entry (quals.<qual>) plus new graph/<qual>/ stores"
+  }
+}

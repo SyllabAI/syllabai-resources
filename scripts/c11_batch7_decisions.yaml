@@ -1,0 +1,1487 @@
+# T-C11 §16 batch 7 — DECISION RECORD (S2 Inorganic third slice 2.28-2.43C).
+# Commissioned by the operator's "Proceed with batch 7" directive (2026-09-23,
+# session 59) under the session-46 §16 authorization. The per-batch
+# cross-slice boundary ruling (scripts/c11_batch7_boundary_ruling.yaml,
+# machine-checked by c11_batch7_boundary_check.py) governs every mint and
+# boundary edge here. NOTHING in this record is authoritative: every node and
+# edge is AI_SUGGESTED, the batch ENDS at its operator gate
+# (graph/reports/C11_BATCH7_REVIEW_SHEET.md), and promotion happens only via
+# the operator's §18 verdict pathway in a later session. All 135 planned
+# quote anchors were probed green pre-authoring
+# (scripts/c11_batch7_quote_probe.py) and re-verified fail-closed by
+# scripts/c11_batch7_preverify.py.
+meta:
+  task: T-C11
+  stage: s16-batch-7
+  extraction_pass: c11-s16-batch-7
+  generated_date: '2026-09-23'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: 'operator directive (verbatim: "Proceed with batch 7") under the
+    session-46 §16 authorization; the gate report and the session-58 record both
+    name the slice ("the remaining S2 families (2.28-2.50: acids & alkalis / salt
+    preparations / chemical tests) are batches 7-8 per the item-14 plan — each
+    needs its own operator commissioning")'
+  scope:
+    spec_points: [4CH1-2.28, 4CH1-2.29, 4CH1-2.30, 4CH1-2.31, 4CH1-2.32,
+      4CH1-2.33C, 4CH1-2.34, 4CH1-2.35, 4CH1-2.36, 4CH1-2.37, 4CH1-2.38,
+      4CH1-2.39, 4CH1-2.40C, 4CH1-2.41C, 4CH1-2.42, 4CH1-2.43C]
+    practicals: [4CH1-PR-07, 4CH1-PR-08]
+    notes:
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing copper sulfate - IGCSE Chemistry Revision Notes.md
+      - Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing lead sulfate - IGCSE Chemistry Revision Notes.md
+    mark_scheme_evidence:
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        sha1_12: 14b605bc2f87
+        source: PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Acids, Alkalis and Titrations MS.pdf
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        sha1_12: 4f34b1580a60
+        source: PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Acids, Bases and Salt Preparations MS.pdf
+    negative_control: 4CH1-4.15
+  ms_coverage_note: 'FULL batch-7 Paper-2 coverage — the best of any slice to
+    date: BOTH S2-f/g families have a Paper-2 MS in this corpus and BOTH are
+    pinned (Acids, Alkalis and Titrations MS.pdf -> ACIDS_ALKALIS_TITRATIONS_MS_P2.txt,
+    sha1_12 14b605bc2f87, 10pp; Acids, Bases and Salt Preparations MS.pdf ->
+    ACIDS_BASES_SALT_PREP_MS_P2.txt, sha1_12 4f34b1580a60, 13pp; verified by
+    directory listing 2026-09-23). Unlike batch 6 (one partial pin) no family
+    carries UNPINNED status; misconception-class mining drew TWO clean
+    documented wrong-answer patterns (one Reject-column class per pin).
+    Paper-1 variants (the 1/2-suffixed MS files) exist and remain unpinned
+    per the Paper-2-first convention batches 2-6 established. The S2-h
+    Chemical Tests family (2.44-2.50) is batch-8 scope — its Chemical Tests
+    MS.pdf is NOT pinned here.'
+  contract: graph/reports/C11_ARCHITECTURE.md
+  authorization: scripts/c11_s16_authorization.yaml
+  boundary_ruling: scripts/c11_batch7_boundary_ruling.yaml
+  session: 59
+command_kinds:
+  - code: 4CH1-2.28
+    verb: describe
+    guide_class: KNOW_TERM
+    demanded_substance: 'the use of litmus, phenolphthalein and methyl orange to
+      distinguish between acidic and alkaline solutions — the two-colour
+      indicator table (litmus red/blue; phenolphthalein colourless/pink;
+      methyl orange red/yellow) and litmus''s unsuitability for titrations'
+  - code: 4CH1-2.29
+    verb: understand
+    guide_class: UNDERSTAND_RELATION
+    demanded_substance: 'the pH scale 0-14 as the classification instrument:
+      strongly acidic (0-3), weakly acidic (4-6), neutral (7), weakly alkaline
+      (8-10), strongly alkaline (11-14); lower pH = more acidic, higher pH =
+      more alkaline'
+  - code: 4CH1-2.30
+    verb: describe
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'universal indicator as the approximate-pH measurement
+      technique: a mixture of plant indicators across a broad range, a few
+      drops added and the colour matched against a chart — approximate only,
+      and never the titration indicator (the note''s own examiner tip)'
+  - code: 4CH1-2.31
+    verb: know
+    guide_class: KNOW_TERM
+    demanded_substance: 'acids in aqueous solution as sources of hydrogen ions
+      and alkalis in aqueous solution as sources of hydroxide ions — the
+      solution-ionisation picture that makes a solution acidic or alkaline'
+  - code: 4CH1-2.32
+    verb: know
+    guide_class: KNOW_TERM
+    demanded_substance: 'alkalis can neutralise acids: the H+ + OH- -> water
+      frame (net ionic equation of all acid-base neutralisations), with the
+      scope limit that NOT every acid reaction is a neutralisation (metal +
+      acid produces no water)'
+  - code: 4CH1-2.33C
+    verb: describe
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'how to carry out an acid-alkali titration: pipette the
+      alkali (exactly 25 cm3), fill/run the burette, rough titration then
+      dropwise approach, endpoint via sharp indicator colour change, white
+      tile, meniscus reading to 0.05 cm3, repeat to two concordant results'
+  - code: 4CH1-2.34
+    verb: know
+    guide_class: KNOW_TERM
+    demanded_substance: 'the general solubility rules for ionic compounds in
+      water: sodium/potassium/ammonium salts all soluble; nitrates all;
+      chlorides except silver and lead(II); sulfates except barium, calcium
+      and lead(II); carbonates and hydroxides except Na/K/NH4 (calcium
+      hydroxide sparingly soluble) — the method-selection frame for salt
+      preparation'
+  - code: 4CH1-2.35
+    verb: understand
+    guide_class: UNDERSTAND_RELATION
+    demanded_substance: 'acids and bases in terms of proton transfer — the
+      framework that EXTENDS the earlier (ion-source) definitions: how each
+      substance interacts with protons'
+  - code: 4CH1-2.36
+    verb: understand
+    guide_class: UNDERSTAND_RELATION
+    demanded_substance: 'acid = proton donor (ionises producing H+), base =
+      proton acceptor (produces OH- which accepts protons) — the donor/
+      acceptor definitions with their ionisation equations (HCl, NaOH)'
+  - code: 4CH1-2.37
+    verb: describe
+    guide_class: KNOW_TERM
+    demanded_substance: 'the reactions of hydrochloric, sulfuric and nitric
+      acids with metals (salt + hydrogen; nitric acid + metals EXCLUDED by the
+      spec''s own wording), with bases (salt + water) and with metal carbonates
+      (salt + water + carbon dioxide, effervescence) — the acid determines the
+      salt family (chloride/sulfate/nitrate); the acid-metal row rides the
+      reactivity-series placement (the sanctioned boundary edge)'
+  - code: 4CH1-2.38
+    verb: know
+    guide_class: KNOW_TERM
+    demanded_substance: 'metal oxides, metal hydroxides and ammonia can act as
+      bases; alkalis are bases that are soluble in water (all alkalis are
+      bases, not all bases are alkalis; ammonia solution the unusual base
+      producing OH- in water)'
+  - code: 4CH1-2.39
+    verb: describe
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'an experiment to prepare a pure, dry soluble salt
+      from an INSOLUBLE reactant: warm the acid, add the insoluble base/
+      carbonate IN EXCESS (so no unreacted acid concentrates during
+      evaporation), filter the excess, evaporate until small crystals appear,
+      leave to crystallise (slow evaporation -> larger crystals)'
+  - code: 4CH1-2.40C
+    verb: describe
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'an experiment to prepare a pure, dry soluble salt
+      from an ACID and ALKALI: titrate with indicator to find the neutralisation
+      volume, then repeat the same volumes WITHOUT indicator, partially
+      evaporate to a saturated solution, leave to crystallise and dry'
+  - code: 4CH1-2.41C
+    verb: describe
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'an experiment to prepare a pure, dry INSOLUBLE salt
+      from two SOLUBLE reactants: mix the two salt solutions (one slightly in
+      excess), the precipitate IS the salt, filter it off, wash with distilled
+      water to remove contaminating reactants, dry — the silver/lead(II)-salt
+      route from nitrates (all nitrates soluble)'
+  - code: 4CH1-2.42
+    verb: prepare
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'practical: prepare pure, dry hydrated copper(II)
+      sulfate crystals from copper(II) oxide — the PR-07 named practical
+      (warm dilute sulfuric acid, add CuO in excess, filter, gently evaporate
+      to saturation, crystallise, dry; bright blue regularly shaped crystals)'
+  - code: 4CH1-2.43C
+    verb: prepare
+    guide_class: DESCRIBE_EXPERIMENT
+    demanded_substance: 'practical: prepare a pure, dry sample of lead(II)
+      sulfate — the PR-08 named practical (precipitation from lead(II)
+      nitrate + potassium sulfate, both soluble; filter the precipitate,
+      wash with distilled water, dry)'
+nodes:
+  # ===================== S2-f: acids, alkalis & titrations =====================
+  - code: 4CH1-CON-INDICATORS
+    family: CONCEPT
+    title: Indicators for distinguishing acidic and alkaline solutions (litmus,
+      phenolphthalein, methyl orange)
+    aliases:
+      - two-colour indicators
+      - acid-alkali indicator colours
+      - litmus colour in acid and alkali
+      - phenolphthalein endpoint colour
+      - methyl orange endpoint colour
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.28
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Two colours indicators are used to distinguish between acids and alkalis
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Phenolphthalein and methyl orange are synthetic indicators frequently used in acid-alkali titrations
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Litmus is not suitable for titrations as the colour change is not sharp and it goes through a purple transition colour in neutral solutions making it difficult to determine an endpoint
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.28 demand verbatim: the three named indicators used to
+        DISTINGUISH acidic from alkaline solutions. One SP-family node; the
+        two-colour table (litmus red/blue, phenolphthalein colourless/pink,
+        methyl orange red/yellow) is the demand''s substance. The
+        titration-suitability content (sharp change vs litmus''s purple
+        transition) is taught in the same note and rides the in-slice
+        CON-TITRATION REQUIRES_PREREQUISITE CON-INDICATORS edge.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.28 @ What is an indicator (2026-09-11); spec 4CH1-2.28 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-PH-SCALE
+    family: CONCEPT
+    title: The pH scale 0-14 and the acidity/alkalinity classification bands
+    aliases:
+      - pH classification
+      - strongly acidic 0-3
+      - pH 7 neutral
+      - weak and strong acids and alkalis
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.29
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: The pH scale goes from 0 - 14
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: All acids have pH values of below 7, all alkalis have pH values of above 7
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: A solution of pH 7 is described as being neutral
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: understand how to use the pH scale, from 0-14, can be used to classify solutions as strongly acidic (0-3), weakly acidic (4-6), neutral (7), weakly alkaline (8-10) and strongly alkaline (11-14)
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.29 demand verbatim: the 0-14 scale with its five
+        classification bands. The pH-as-H+-measure sentence lives in the
+        neutralisation note; the resulting CON-PH-SCALE <- CON-ACID-ALKALI-IONS
+        edge candidate is HELD (B7-H-01) as explanatory enrichment, not
+        load-bearing for the classification demand (the indicator note teaches
+        the bands before any ion theory; spec order 2.29 < 2.31).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.29 @ What is an indicator (high) + Acids, Alkalis & Neutralisation (medium) (2026-09-11); spec 4CH1-2.29 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-UNIVERSAL-INDICATOR
+    family: CONCEPT
+    title: Universal indicator as approximate pH measurement (colour-chart matching)
+    aliases:
+      - wide range indicator
+      - estimating pH of an unknown solution
+      - universal indicator colour chart
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.30
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Universal indicator is a wide range indicator and can give only an approximate value for pH
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: A few drops are added to the solution and the colour is matched with a colour chart which indicates the pH which matches with specific colours
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe the use of universal indicator to measure the approximate pH value of an aqueous solution
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.30 demand verbatim: the universal-indicator technique
+        (broad-range mixture, chart matching, approximate only). The note''s
+        examiner tip (universal indicator is NOT a titration indicator — no
+        sharp endpoint) documents the common error but is NOT MS-documented;
+        the resulting misconception mint is HELD (B7-H-06) per the batch-4..6
+        MS-documented discipline.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.30 @ What is an indicator (2026-09-11); spec 4CH1-2.30 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-ACID-ALKALI-IONS
+    family: CONCEPT
+    title: Acids as hydrogen-ion sources and alkalis as hydroxide-ion sources in
+      aqueous solution
+    aliases:
+      - hydrogen ions in solution
+      - hydroxide ions in solution
+      - what makes a solution acidic or alkaline
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.31
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: When acids are added to water, they form positively charged hydrogen ions
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: When alkalis are added to water, they form negative hydroxide ions
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: It is a measure of the amount of the hydrogen ions present in solution
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: know that acids in aqueous solution are a source of hydrogen ions and alkalis in a aqueous solution are a source of hydroxide ions
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.31 demand verbatim (both halves): acid -> H+ source,
+        alkali -> OH- source, in aqueous solution. The note teaches the
+        solution-ionisation picture SELF-CONTAINEDLY with its own statements —
+        no dependency on the S1 CON-ION owner (electron loss/gain ion
+        FORMATION is a different mechanism and demand; the session-59 ruling''s
+        "ion" disposition).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.31 @ Acids, Alkalis & Neutralisation (2026-09-11); spec 4CH1-2.31 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-NEUTRALISATION
+    family: CONCEPT
+    title: Neutralisation (alkalis neutralise acids; H+ + OH- -> water)
+    aliases:
+      - acid-base neutralisation
+      - neutralisation reaction
+      - not all reactions of acids are neutralisations
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.32
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: A neutralisation reaction occurs when an acid reacts with an alkali
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: When these substances react together in a neutralisation reaction, the H+ ions react with the OH- ions to produce water
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+            kind: NOTE
+            quote: Not all reactions of acids are neutralisations
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: know that alkalis can neutralise acids
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.32 demand verbatim, taught through the H+/OH- frame
+        (the ionic-equation sentence) with the note''s own scope limit (metal +
+        acid produces a salt but NO water — not a neutralisation; the
+        acid-metal row is CON-ACID-REACTIONS''s, not this node''s). The
+        soil-treatment application sentence (limestone/quicklime) is
+        application context, not a concept family — no SP demand behind it.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.32 @ Acids, Alkalis & Neutralisation (2026-09-11); spec 4CH1-2.32 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-TITRATION
+    family: CONCEPT
+    title: Acid-alkali titration technique (pipette, burette, endpoint, concordant titres)
+    aliases:
+      - carrying out a titration
+      - rough titration
+      - concordant results
+      - titre volume
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.33C
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Use the pipette and pipette filler and place exactly 25 cm3 sodium hydroxide solution into the conical flask
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: The end-point wil be indicated by a sharp colour change
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Repeat until you achieve two concordant results (two results that are within 0.1 cm3 of each other) to increase accuracy
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe how to carry out an acid-alkali titration
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.33C demand verbatim: the full technique (the note''s
+        14-step method; the "wil" typo in the endpoint sentence is the source
+        file''s own). The titre-calculation application surface (moles,
+        concentration — both pinned MS files document it) belongs to the S3
+        quantitative lane: future_boundary_note + held B7-H-05, no edge.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.33C @ Acid-Alkali Titrations (2026-09-11); spec 4CH1-2.33C official wording
+    validation_status: SUGGESTED
+    version: 1
+  # ===================== S2-g: acids, bases & salt preparations =====================
+  - code: 4CH1-CON-SOLUBILITY-RULES
+    family: CONCEPT
+    title: Solubility rules for ionic compounds in water (the salt-preparation
+      method-selection frame)
+    aliases:
+      - general solubility rules
+      - predicting solubility of ionic compounds
+      - which salts are soluble or insoluble
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.34
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Ionic compounds are generally soluble in water compared to covalent substances, but there are exceptions
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: A knowledge of the solubility of ionic compounds helps us to determine the most appropriate method for the preparation of salts
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Note that calcium hydroxide is slightly soluble in water
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: 'know the general rules for predicting the solubility of ionic compounds in water:'
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.34 demand verbatim: the QUALITATIVE rules table (Na/K/
+        NH4 all; nitrates all; chlorides except Ag/Pb; sulfates except Ba/Ca/Pb;
+        carbonates/hydroxides except Na/K/NH4) — distinct from the S3
+        QUANTITATIVE solubility owners (g per 100 g, curves; the session-59
+        ruling''s "solubility" disposition, B7-ID-02). The rules presuppose the
+        named-ion vocabulary WITHOUT re-teaching it — the sanctioned boundary
+        edge into CON-ION-CHARGE-RULES (batch-3 owner).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.34 @ Solubility Rules (2026-09-11); spec 4CH1-2.34 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-PROTON-TRANSFER
+    family: CONCEPT
+    title: Acids and bases as proton transfer (donor and acceptor)
+    aliases:
+      - acid as proton donor
+      - base as proton acceptor
+      - acids and bases in terms of protons
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.35
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: The earlier definition of an acid and a base can be extended
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: In terms of proton transfer, we can further define each substance in how they interact with protons
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: understand acids and bases in terms of proton transfer
+      - code: 4CH1-2.36
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Acids are proton donors as they ionize in solution producing protons
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Bases (alkalis) are proton acceptors as they ionize in solution producing OH- ions which can accept protons
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: understand that an acid is a proton donor and a base is a proton acceptor
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: 'ONE family node attaching BOTH 2.35 and 2.36 (B7-ID-01,
+        KEEP_AS_IS = one node): the note teaches the transfer FRAMEWORK and the
+        donor/acceptor definitions as one extension of the earlier ion-source
+        definition ("The earlier definition of an acid and a base can be
+        extended"), with its own ionisation equations. The pinned Salt-Prep MS
+        (Q6b) Accept column documents the hydronium alternative ("H3O+ in
+        place of H+") — recorded here as context only: the generator''s G04
+        keeps MARK_SCHEME anchors misconception-class-only on CONCEPT
+        attachments (session-59 dated note), so the MS anchor is NOT carried
+        on the attachment. The
+        "proton" senses here (Brønsted H+ in solution) are distinct from the
+        S1 subatomic-particle owners (the ruling''s disposition).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.35/2.36 @ What are acids and bases (2026-09-11); spec 4CH1-2.35/2.36 official wording; pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q6b
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-ACID-REACTIONS
+    family: CONCEPT
+    title: Reactions of acids with metals, bases and metal carbonates to form salts
+    aliases:
+      - acid and metal reaction
+      - acid and base reaction
+      - acid and metal carbonate reaction
+      - chloride sulfate nitrate salt families
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.37
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: When acids react with metals they form a salt and hydrogen gas
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: In all acid-base neutralisation reactions, a salt and water are produced
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Acids will react with metal carbonates to form the corresponding metal salt, carbon dioxide and water
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Hydrochloric acid produces chlorides, sulfuric acid produces sulfate salts and nitric acid produces nitrates
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals, bases and metal carbonates (excluding the reactions between nitric acid and metals) to form salts
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.37 demand verbatim: THREE reaction families in one
+        SP (metal -> salt + hydrogen; base -> salt + water; carbonate -> salt +
+        water + CO2) with the salt-family rule (acid determines the salt). The
+        note''s equation tables are taught inline as part of the demand. The
+        acid-metal row APPLIES the reactivity-series placement without
+        re-teaching it — the ONE sanctioned boundary edge into CON-REACT-ORDER
+        (batch-6 owner; the ruling''s "reactivity series" disposition). The
+        spec''s own nitric-acid-metals exclusion is respected (the note''s
+        metal table carries no nitric acid column). The acid+carbonate row is
+        DIFFERENT chemistry from the batch-5 CON-CO2-FROM-CARBONATES owner
+        (acid attack vs thermal decomposition — the ruling''s disposition;
+        adjacency held B7-H-07 for operator visibility).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.37 @ Reactions of acids (2026-09-11); spec 4CH1-2.37 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-BASES-ALKALIS
+    family: CONCEPT
+    title: Bases and alkalis (metal oxides/hydroxides/ammonia as bases; alkalis =
+      soluble bases)
+    aliases:
+      - base versus alkali
+      - all alkalis are bases
+      - ammonia solution as a base
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.38
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Bases are substances which can neutralise an acid, forming a salt and water
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: A base which is water-soluble is referred to as an alkali
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: Bases are usually oxides, hydroxides or carbonates of metals
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: One unusual base is ammonia solution
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis are bases that are soluble in water
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.38 demand verbatim: the base family (oxides/
+        hydroxides/ammonia) and the base/alkali distinction (solubility). The
+        note re-teaches the ammonium surface inline in its own alkali table
+        (NH4+ + OH-) — the ruling''s "ammonium" disposition; the pH sentence
+        ("Alkalis have pH values of above 7") is incidental to the demand —
+        held B7-H-02.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.38 @ Bases and alkalis (2026-09-11); spec 4CH1-2.38 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-SALT-INSOLUBLE-REACTANT
+    family: CONCEPT
+    title: Preparing a pure, dry soluble salt from an insoluble reactant
+      (excess-base route)
+    aliases:
+      - making soluble salts
+      - excess insoluble base method
+      - soluble salt from acid and insoluble base
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.39
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: A soluble salt can be made from the reaction of an acid with an insoluble base
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: During the preparation of soluble salts, the insoluble reactant is added in excess to ensure that all of the acid has reacted
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: The excess reactant is then removed by filtration to ensure that only the salt and water remain
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+            kind: NOTE
+            quote: The water is evaporated by heating until small crystals begin to appear
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an insoluble reactant
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.39 demand verbatim: the excess-base route (excess ->
+        filter -> evaporate to saturation -> crystallise). The note re-teaches
+        the separation steps inline WITH their purposes (the ruling''s
+        "filtration"/"crystallisation"/"evaporation"/"saturated" dispositions —
+        no boundary edges into the S1 separation owners, the B5-H-02 rule).
+        The route presupposes the solubility frame (the method-selection
+        sentence -> the in-slice CON-SOLUBILITY-RULES edge) and the acid+base
+        reaction family (-> the in-slice CON-ACID-REACTIONS edge; the note''s
+        own CuO equation). The acid+metal alternative sentence rides the
+        placement rule (covered by the sanctioned CON-REACT-ORDER edge).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.39 @ Making soluble salts (high) + Preparing copper sulfate (medium) (2026-09-11); spec 4CH1-2.39 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-SALT-TITRATION-ROUTE
+    family: CONCEPT
+    title: Preparing a pure, dry soluble salt from an acid and alkali (titration
+      route)
+    aliases:
+      - salt preparation by titration
+      - soluble salt from acid and alkali
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.40C
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: It is also possible to prepare a sample of a dry salt starting from an acid and an alkali
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Use a pipette to measure the alkali into a conical flask and add a few drops of indicator (phenolphthalein or methyl orange)
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Add this same volume of acid into the same volume of alkali without the indicator
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an acid and alkali
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.40C demand verbatim: the titration route (titrate
+        with indicator to find the volume; repeat WITHOUT indicator; partial
+        evaporation; crystallise). The route RUNS the 2.33C technique — the
+        in-slice CON-SALT-TITRATION-ROUTE REQUIRES_PREREQUISITE CON-TITRATION
+        edge; the repeat-without-indicator step is the route''s own signature
+        move taught in the note.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.40C @ Prepare a Soluble Salt II (2026-09-11); spec 4CH1-2.40C official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-CON-SALT-PRECIPITATION
+    family: CONCEPT
+    title: Preparing a pure, dry insoluble salt from two soluble reactants
+      (precipitation)
+    aliases:
+      - precipitation reaction
+      - insoluble salt preparation
+      - double decomposition reaction
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    spec_points:
+      - code: 4CH1-2.41C
+        role: CORE
+        evidence:
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: Insoluble salts can be prepared using a precipitation reaction
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: The solid salt obtained is the precipitate, thus in order to successfully use this method the solid salt being formed must be insoluble in water
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: The precipitate is recovered by filtration
+          - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+            kind: NOTE
+            quote: This method is a good way to prepare silver and lead(II) salts which are often insoluble; the starting material will usually be the nitrate of silver or lead(II) since all nitrates are soluble
+          - file: graph/specification_points.yaml
+            kind: SPEC
+            quote: describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: SPEC_VERBATIM
+      derivation_notes: '2.41C demand verbatim: the precipitation route (mix two
+        soluble salt solutions, slight excess for maximum precipitate, filter,
+        wash with distilled water, dry). "Double decomposition" is the note''s
+        own alternate naming — an alias, not a separate node. The route''s
+        reagent-choice logic (insoluble product; soluble nitrates as
+        starting materials) presupposes the solubility rules — the in-slice
+        CON-SALT-PRECIPITATION REQUIRES_PREREQUISITE CON-SOLUBILITY-RULES
+        edge. The pinned MS Q2a(iii) documents the filtrate/residue
+        wrong-answer class -> the MIS-PRECIPITATE-IN-FILTRATE mint.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.41C @ Prepare an Insoluble Salt (high) + Preparing lead sulfate (medium) (2026-09-11); spec 4CH1-2.41C official wording
+    validation_status: SUGGESTED
+    version: 1
+  # --- misconceptions (mark-scheme-documented WRONG_ANSWER_PATTERNs) ---------
+  - code: 4CH1-MIS-ENDPOINT-PH-ABOVE-7
+    family: MISCONCEPTION
+    pattern_class: WRONG_ANSWER_PATTERN
+    title: Identifying complete neutralisation as the pH changing to any value
+      above 7 (instead of the temperature maximum / pH reaching 7)
+    aliases:
+      - endpoint above pH 7 answer
+      - neutralisation completion error
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    evidence:
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: temperature goes down/stops rising/stays constant
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: Accept measure pH/when pH = 7/when pH is less than 7
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: Reject changing to any pH value > 7
+    remediation_evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+        kind: NOTE
+        quote: A neutralisation reaction occurs when an acid reacts with an alkali
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: Accept measure pH/when pH = 7/when pH is less than 7
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'The pinned Titrations Paper-2 MS documents the
+        wrong-answer class on the neutralisation-completion surface (Q2a(iv),
+        a temperature-rise neutralisation experiment — the S3 3.8/PR-09
+        calorimetry adjacency is recorded as the ruling''s future_boundary_note):
+        the expected answer is the TEMPERATURE signal ("temperature goes
+        down/stops rising/stays constant") with "Accept measure pH/when pH =
+        7/when pH is less than 7" and the EXPLICIT Reject "changing to any pH
+        value > 7" — students claiming completion at any pH above 7 score
+        nothing. The misconception is anchored against the neutralisation
+        family (2.32) whose completion the question probes; the remediation IS
+        the neutralisation definition the note teaches. pdftotext line-wrap
+        attribution: the Accept line wraps after "pH =" and is quoted as the
+        contiguous normalized phrase (the batch-6 convention).'
+      upstream: pinned ACIDS_ALKALIS_TITRATIONS_MS_P2 (sha1_12 14b605bc2f87) Q2a(iv) Reject column; spec 4CH1-2.32 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - code: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    family: MISCONCEPTION
+    pattern_class: WRONG_ANSWER_PATTERN
+    title: Recovering the insoluble salt from the filtrate instead of the residue
+      in a precipitation preparation
+    aliases:
+      - filtrate contains the precipitate error
+      - residue versus filtrate confusion
+    confidence: high
+    created_at: '2026-09-23'
+    damage_flags: []
+    evidence:
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: they would obtain sodium nitrate instead
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: the filtrate does not contain lead(II) sulfate/the insoluble salt
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: the lead(II) sulfate/insoluble salt has already been obtained in step 3
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: they should have used the residue
+    remediation_evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: The precipitate is recovered by filtration
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: they should have used the residue
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'The pinned Salt-Prep Paper-2 MS documents the
+        wrong-answer class on the precipitation-method surface (Q2a(iii), the
+        lead(II) sulfate preparation): the expected answer explains that using
+        the FILTRATE yields the SOLUBLE by-product ("they would obtain sodium
+        nitrate instead") because "the filtrate does not contain lead(II)
+        sulfate/the insoluble salt" and "they should have used the residue" —
+        students treating the filtrate as the product recover nothing of the
+        target salt. The remediation IS the precipitation method''s own
+        teaching ("The precipitate is recovered by filtration"). pdftotext
+        line-wrap attribution: each quoted line wraps inside the scheme table
+        and is quoted as the contiguous normalized phrase (the batch-6
+        convention).'
+      upstream: pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q2a(iii); spec 4CH1-2.41C official wording
+    validation_status: SUGGESTED
+    version: 1
+edges:
+  # ===== in-slice teaching-sequence / definitional dependencies (S2-f) =====
+  - source: 4CH1-CON-UNIVERSAL-INDICATOR
+    target: 4CH1-CON-PH-SCALE
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: A few drops are added to the solution and the colour is matched with a colour chart which indicates the pH which matches with specific colours
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Universal indicator is a wide range indicator and can give only an approximate value for pH
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: EXPLICIT_TEACH_SEQUENCE
+      derivation_notes: 'The 2.30 technique MEASURES what the 2.29 scale defines:
+        the colour is "matched with a colour chart which indicates the pH" —
+        reading a universal-indicator result IS using the pH scale (the
+        note''s own order: indicators -> pH scale -> universal indicator).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.30/2.29 @ What is an indicator (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-NEUTRALISATION
+    target: 4CH1-CON-ACID-ALKALI-IONS
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+        kind: NOTE
+        quote: A neutralisation reaction occurs when an acid reacts with an alkali
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+        kind: NOTE
+        quote: When these substances react together in a neutralisation reaction, the H+ ions react with the OH- ions to produce water
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The neutralisation mechanism is STATED in terms of the
+        ion sources: "the H+ ions react with the OH- ions to produce water" —
+        the 2.32 definition presupposes the 2.31 picture (the spec''s own
+        2.31-then-2.32 order).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.32/2.31 @ Acids, Alkalis & Neutralisation (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-TITRATION
+    target: 4CH1-CON-NEUTRALISATION
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: They can determine exactly how much alkali is needed to neutralise a quantity of acid - and vice versa
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: Titrations can also be used to prepare salts
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The titration''s PURPOSE is defined by neutralisation:
+        "how much alkali is needed to neutralise a quantity of acid" — the
+        endpoint IS the neutralisation point; without the 2.32 concept the
+        procedure has no meaning.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.33C/2.32 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-TITRATION
+    target: 4CH1-CON-INDICATORS
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: Add a few drops of a suitable indicator to the solution to the conical flask
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Synthetic indicators are used to show the endpoint in titrations as they have a very sharp change of colour when an acid has been neutralised by an alkali and vice-versa
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: EXPLICIT_TEACH_SEQUENCE
+      derivation_notes: 'The titration method DEPENDS on indicator choice for
+        the endpoint (the sharp-change requirement); the indicator note teaches
+        the suitability content explicitly (litmus unsuitable — purple
+        transition; phenolphthalein/methyl orange the titration indicators).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.33C/2.28 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-PROTON-TRANSFER
+    target: 4CH1-CON-ACID-ALKALI-IONS
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: The earlier definition of an acid and a base can be extended
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: In terms of proton transfer, we can further define each substance in how they interact with protons
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: EXPLICIT_TEACH_SEQUENCE
+      derivation_notes: 'The note STATES the dependency: the proton-transfer
+        framework "extends the earlier definition" — the earlier definition IS
+        the 2.31 ion-source picture; the donor/acceptor definitions presuppose
+        the H+/OH- solution ions they donate/accept.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.35/2.36 @ What are acids and bases + 4CH1-2.31 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  # ===== in-slice dependencies (S2-g) ========================================
+  - source: 4CH1-CON-ACID-REACTIONS
+    target: 4CH1-CON-NEUTRALISATION
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: When an acid reacts with a base, a neutralisation reaction occurs
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: In all acid-base neutralisation reactions, a salt and water are produced
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The acid+base row of 2.37 is CLASSIFIED as neutralisation
+        ("a neutralisation reaction occurs") — the 2.32 concept organizes the
+        row (and the note''s own scope limit distinguishes it from the
+        metal/carbonate rows).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.37/2.32 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-BASES-ALKALIS
+    target: 4CH1-CON-NEUTRALISATION
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Bases are substances which can neutralise an acid, forming a salt and water
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: So, all alkalis are bases, but not all bases are alkalis
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The 2.38 base DEFINITION is stated through
+        neutralisation ("substances which can neutralise an acid") — the
+        concept presupposes the 2.32 frame it is defined by.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.38/2.32 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-SALT-INSOLUBLE-REACTANT
+    target: 4CH1-CON-SOLUBILITY-RULES
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: A knowledge of the solubility of ionic compounds helps us to determine the most appropriate method for the preparation of salts
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: A soluble salt can be made from the reaction of an acid with an insoluble base
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The method-SELECTION logic is explicit: knowing the
+        solubility of the target salt "determines the most appropriate method"
+        — the insoluble-reactant route IS the route the rules select when the
+        PRODUCT is soluble and the reactant is not (the solubility note''s own
+        framing sentence).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.34/2.39 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-SALT-INSOLUBLE-REACTANT
+    target: 4CH1-CON-ACID-REACTIONS
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: A soluble salt can be made from the reaction of an acid with an insoluble base
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: CuO (s) + H2SO4&nbsp; (aq) ⟶ CuSO4&nbsp; (aq) + H2O (l)
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The route RUNS the 2.37 acid+base reaction family
+        (the note''s own CuO + H2SO4 equation is that family''s chemistry) —
+        the preparation presupposes the reaction it scales up.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.39/2.37 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-SALT-TITRATION-ROUTE
+    target: 4CH1-CON-TITRATION
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: A titration can be used for this
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: Use a pipette to measure the alkali into a conical flask and add a few drops of indicator (phenolphthalein or methyl orange)
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: EXPLICIT_TEACH_SEQUENCE
+      derivation_notes: 'The route IS the 2.33C technique applied to
+        preparation (the note''s own sentence; the method steps reuse the
+        titration apparatus vocabulary) — the preparation presupposes the
+        technique that measures its neutralisation volume.'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.40C/2.33C (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-SALT-PRECIPITATION
+    target: 4CH1-CON-SOLUBILITY-RULES
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: The solid salt obtained is the precipitate, thus in order to successfully use this method the solid salt being formed must be insoluble in water
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: This method is a good way to prepare silver and lead(II) salts which are often insoluble; the starting material will usually be the nitrate of silver or lead(II) since all nitrates are soluble
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: DEFINITIONAL_DEPENDENCY
+      derivation_notes: 'The route''s own FEASIBILITY CONDITION is the solubility
+        rules: the product must be insoluble AND both reactants soluble — the
+        note applies the rules explicitly (the nitrates-all-soluble rule
+        selects the starting materials; the silver/lead(II) insolubility
+        selects the products).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.41C/2.34 (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  # ===== SANCTIONED BOUNDARY EDGES (the session-59 ruling's exactly-two set) ==
+  - source: 4CH1-CON-ACID-REACTIONS
+    target: 4CH1-CON-REACT-ORDER
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Only metals above hydrogen in the reactivity series will react with dilute acids
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Metals that are placed high on the reactivity series such as potassium and sodium are very dangerous and react explosively with acids
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: USED_WITHOUT_RETEACHING
+      derivation_notes: 'SANCTIONED BOUNDARY EDGE (the session-59 ruling,
+        target 1 — the batch-6 CON-REACT-ORDER owner): the 2.37 acid-metal row
+        APPLIES the reactivity-series placement as given (above-hydrogen rule,
+        the vigour gradient) without re-teaching the series — the ruling''s
+        "reactivity series" disposition. The target is the ORDER owner, not
+        CON-REACT-ARRANGE (the note uses the placement, not the arrangement
+        method).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.37 (2026-09-11); the batch-6 record (CON-REACT-ORDER, 2.17)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-CON-SOLUBILITY-RULES
+    target: 4CH1-CON-ION-CHARGE-RULES
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: A knowledge of the solubility of ionic compounds helps us to determine the most appropriate method for the preparation of salts
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: Note that calcium hydroxide is slightly soluble in water
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: USED_WITHOUT_RETEACHING
+      derivation_notes: 'SANCTIONED BOUNDARY EDGE (the session-59 ruling,
+        target 2 — the batch-3 CON-ION-CHARGE-RULES owner): the 2.34 rules
+        table is organised by ION families (Na/K/NH4+, nitrates, chlorides,
+        sulfates, carbonates, hydroxides) and predicts solubility from ion
+        identity — the named-ion/charge vocabulary applied as given, never
+        re-taught by the 2.34 note. "Ca(OH)2 sparingly soluble" is itself an
+        ion-family rule (the calcium hydroxide exception).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.34 (2026-09-11); the batch-3 record (CON-ION-CHARGE-RULES)
+    validation_status: SUGGESTED
+    version: 1
+  # ===== practical edges (the PR-06 shape; practicals own their SPs) =========
+  - source: 4CH1-PR-07
+    target: 4CH1-CON-SALT-INSOLUBLE-REACTANT
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing copper sulfate - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: To prepare a pure, dry sample of hydrated copper(II) sulfate crystals
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing copper sulfate - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Add the copper(II) oxide slowly to the hot dilute acid and stir until the base is in excess (i.e. until the base stops dissolving and a suspension of the base forms in the acid)
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: USED_WITHOUT_RETEACHING
+      derivation_notes: 'Practical->conceptual (the PR-05/PR-06 shape): the 2.42
+        practical RUNS the method its concept owns — the named practical IS the
+        insoluble-reactant route with copper(II) oxide ("the base stops
+        dissolving" = the excess-endpoint observation). 2.42 attaches NO
+        concept node (the 1.13/1.60C/2.14/2.21 precedent; 4CH1-PR-07 owns it).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.42/2.39 @ Preparing copper sulfate (2026-09-11); the practical record 4CH1-PR-07 (practicals.yaml, RULE_DERIVED)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-PR-08
+    target: 4CH1-CON-SALT-PRECIPITATION
+    relation: REQUIRES_PREREQUISITE
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing lead sulfate - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: The solid salt obtained is the precipitate, thus in order to successfully use this method the solid salt being formed must be insoluble in water, and the reactants must be soluble
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing lead sulfate - IGCSE Chemistry Revision Notes.md
+        kind: NOTE
+        quote: Filter to remove precipitate from mixture
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: USED_WITHOUT_RETEACHING
+      derivation_notes: 'Practical->conceptual (the PR-05/PR-06 shape): the 2.43C
+        practical RUNS the precipitation route its concept owns — lead(II)
+        nitrate + potassium sulfate IS the two-soluble-reactants precipitation
+        (the practical''s own aim sentence restates the concept''s feasibility
+        condition). 2.43C attaches NO concept node (4CH1-PR-08 owns it).'
+      upstream: T-C10 HUMAN_VALIDATED 4CH1-2.43C/2.41C @ Preparing lead sulfate (2026-09-11); the practical record 4CH1-PR-08 (practicals.yaml, RULE_DERIVED)
+    validation_status: SUGGESTED
+    version: 1
+  # ===== misconception edges (the B1-E-25 remediation-target pattern) ========
+  - source: 4CH1-MIS-ENDPOINT-PH-ABOVE-7
+    target: 4CH1-CON-NEUTRALISATION
+    relation: WRONG_ANSWER_PATTERN
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: Reject changing to any pH value > 7
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: temperature goes down/stops rising/stays constant
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'The WAP target is the concept whose completion the
+        question probes: the acid-alkali neutralisation (2.32) — the MS caps
+        the "any pH value > 7" answer class on exactly that surface (the
+        B5/B6 WAP-target pattern). The question''s temperature-experiment
+        context is recorded (the S3 3.8/PR-09 future_boundary_note).'
+      upstream: pinned ACIDS_ALKALIS_TITRATIONS_MS_P2 (sha1_12 14b605bc2f87) Q2a(iv); spec 4CH1-2.32 official wording
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-MIS-ENDPOINT-PH-ABOVE-7
+    target: 4CH1-CON-NEUTRALISATION
+    relation: REMEDIATED_BY
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md
+        kind: NOTE
+        quote: A neutralisation reaction occurs when an acid reacts with an alkali
+      - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: Accept measure pH/when pH = 7/when pH is less than 7
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'Remediation target = WAP target (the B1-E-25 pattern):
+        the corrective content IS the neutralisation definition ("an acid
+        reacts with an alkali") plus the MS''s own accepted completion signals
+        ("when pH = 7/when pH is less than 7" — the neutral point, not any
+        value above it).'
+      upstream: pinned ACIDS_ALKALIS_TITRATIONS_MS_P2 (sha1_12 14b605bc2f87) Q2a(iv); Acids, Alkalis & Neutralisation note (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    target: 4CH1-CON-SALT-PRECIPITATION
+    relation: WRONG_ANSWER_PATTERN
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: the filtrate does not contain lead(II) sulfate/the insoluble salt
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: they would obtain sodium nitrate instead
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'The WAP target is the concept the wrong answer
+        misapplies: the precipitation preparation (2.41C) — the MS caps the
+        "product in the filtrate" class on exactly that surface (the B5/B6
+        WAP-target pattern; the lead(II) sulfate preparation is the 2.41C/2.43C
+        exemplar).'
+      upstream: pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q2a(iii); spec 4CH1-2.41C official wording
+    validation_status: SUGGESTED
+    version: 1
+  - source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    target: 4CH1-CON-SALT-PRECIPITATION
+    relation: REMEDIATED_BY
+    confidence: high
+    created_at: '2026-09-23'
+    ambiguity_note: null
+    evidence:
+      - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md
+        kind: NOTE
+        quote: The precipitate is recovered by filtration
+      - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt
+        kind: MARK_SCHEME
+        quote: they should have used the residue
+    provenance:
+      tier: AI_SUGGESTED
+      model_version: GLM (Super Z agent, z.ai)
+      extraction_pass: c11-s16-batch-7
+      generated_date: '2026-09-23'
+      derivation_method: ASSESSMENT_DOCUMENTED
+      derivation_notes: 'Remediation target = WAP target (the B1-E-25 pattern):
+        the corrective content IS the method''s own teaching — the PRECIPITATE
+        (the residue on the filter paper) is the salt; the MS''s expected
+        answer ("they should have used the residue") is the same statement in
+        assessment form.'
+      upstream: pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q2a(iii); Prepare an Insoluble Salt note (2026-09-11)
+    validation_status: SUGGESTED
+    version: 1
+held:
+  - id: B7-H-01
+    candidate: REQUIRES_PREREQUISITE(CON-PH-SCALE, CON-ACID-ALKALI-IONS)
+    evidence: 'Neutralisation note: "It is a measure of the amount of the hydrogen
+      ions present in solution" — the pH-as-H+-measure sentence'
+    reason: ENRICHMENT, NOT LOAD-BEARING — the 2.29 demand is the 0-14
+      classification bands, taught in the indicator note BEFORE any ion theory
+      (and before 2.31 in the spec''s own order); the H+-measure sentence is
+      explanatory enrichment inside the neutralisation note. Held; revisit at
+      the operator verdict.
+    status: held
+  - id: B7-H-02
+    candidate: REQUIRES_PREREQUISITE(CON-BASES-ALKALIS, CON-PH-SCALE)
+    evidence: 'Bases note: "Alkalis have pH values of above 7" — a single
+      sentence inside the base/alkali section'
+    reason: INCIDENTAL TO THE DEMAND — the 2.38 demand is the base family and
+      the base/alkali solubility distinction; the pH sentence re-states a
+      2.29 classification fact without the concept being load-bearing for
+      "what can act as a base" / "alkalis are soluble bases". Held.
+    status: held
+  - id: B7-H-03
+    candidate: REQUIRES_PREREQUISITE(PR-07, CON-WATER-CRYST)
+    evidence: 'Copper sulfate practical: "Hydrated copper(II) sulfate crystals
+      should be bright blue and regularly shaped" — the hydrated naming only'
+    reason: NAMING-APPLIED-AS-GIVEN — the practical NAMES the hydrated product
+      but never teaches water of crystallisation; the practical''s method
+      dependency is the in-batch insoluble-reactant concept (the PR-07 edge);
+      a CON-WATER-CRYST boundary edge would double-count a naming surface
+      (the B5-H-02 rule). The S1 owner is untouched; revisit at the operator
+      verdict.
+    status: held
+  - id: B7-H-04
+    candidate: WRONG_ANSWER_PATTERN(CON-SALT-INSOLUBLE-REACTANT) — the reagent-selection
+      wrong-answer class (Salt-Prep MS Q1a "REJECT the use of reagents that
+      would not work, eg magnesium chloride")
+    evidence: 'Salt-Prep MS: "REJECT the use of reagents that would not work, eg
+      magnesium chloride" against the M2 expected answer "magnesium carbonate
+      is insoluble"'
+    reason: INSUFFICIENT CHARACTERIZATION (the session-53 Step-3 rule; the
+      B6-H-03 IGNORE-class precedent) — the extracted scheme documents the
+      Reject but not the mechanism (the question stem is not in the pin), so
+      the error class cannot be characterized without inference; revisit with
+      the question PDF before any mint.
+    status: held
+  - id: B7-H-05
+    candidate: RELATED_TO(CON-TITRATION, CON-CONC-CALC) and the titre-calculation
+      dependency surface
+    evidence: 'Titration note: "You may be asked to calculate the moles present
+      in a given amount, the concentration or volume required to neutralise";
+      BOTH pinned MS files carry full titre/molarity calculation chains'
+    reason: S3-OWNER SURFACE (the G07 MS-only class; the batch-6 Q1ai
+      rate-factor precedent) — the titration-calculation application lane
+      belongs to the S3 quantitative owners (CON-CONC-CALC/CON-MOLE); the
+      2.33C demand is the technique description; recorded as a
+      future_boundary_note in the session-59 ruling, no edge authored.
+    status: held
+  - id: B7-H-06
+    candidate: MISCONCEPTION mint — "suggesting universal indicator as the
+      titration indicator" (indicator note examiner tip)
+    evidence: 'Indicator note examiner tip: "A common error is to suggest using
+      universal indicator as a suitable indicator for an acid-base titration.
+      This is incorrect as a sharp colour change is required"'
+    reason: NOTE-ANCHORED, NOT MS-DOCUMENTED — the batch-4..6 §16 discipline
+      mints misconception classes from MARK_SCHEME documentation; the
+      ERRONEOUS_BELIEF lane exists in the machine gates but no pinned MS in
+      this batch documents this error; held for operator ruling (mint or keep
+      quarantined).
+    status: held
+  - id: B7-H-07
+    candidate: RELATED_TO(CON-ACID-REACTIONS, CON-CO2-FROM-CARBONATES) — the CO2
+      adjacency
+    evidence: 'Reactions-of-acids note: "Acids will react with metal carbonates
+      to form the corresponding metal salt, carbon dioxide and water" vs the
+      batch-5 owner''s thermal-decomposition demand (2.12)'
+    reason: DIFFERENT CHEMISTRY, REAL ADJACENCY — acid attack (room temperature,
+      effervescence) vs thermal decomposition (heat) are different reaction
+      classes with different equations; the ruling dispositions it
+      distinct-demand with NO edge; held here so the operator rules on the
+      adjacency with full visibility.
+    status: held
+  - id: B7-H-08
+    candidate: WRONG_ANSWER_PATTERN(CON-SALT-INSOLUBLE-REACTANT) — omitting the
+      excess-base step (the "dangerously concentrated" acid error)
+    evidence: 'Making soluble salts note: "If this step is not completed, any
+      unreacted acid would become dangerously concentrated during evaporation
+      and crystallisation"'
+    reason: NOTE-ANCHORED ONLY + EXISTING-OWNER ADJACENCY — no pinned MS
+      documents the excess-base omission class (the pinned Salt-Prep MS
+      documents the DRYNESS error class, which the S1 MIS-CRYSTALLISATION-
+      DRYNESS owner already owns, and the flame-heating Reject); held per the
+      MS-documented discipline; revisit if a future MS documents it.
+    status: held
+  - id: B7-H-09
+    candidate: REQUIRES_PREREQUISITE(CON-TITRATION, CON-CONCENTRATION)
+    evidence: 'Titration note: "Titrations are a method of analysing the
+      concentration of solutions" — the framing sentence'
+    reason: CONTEXT FRAMING, NOT LOAD-BEARING — the 2.33C demand is the
+      technique; the concentration link is the application context (whose
+      calculation lane is the S3 owner''s, held B7-H-05); the CON-CONCENTRATION
+      owner (S1) is untouched. Held.
+    status: held
+
+
+
+

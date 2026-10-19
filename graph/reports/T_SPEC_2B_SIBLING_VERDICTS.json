@@ -1,0 +1,650 @@
+{
+ "task": "T-SPEC-2b",
+ "generated_utc": "2026-09-18T11:47:23Z",
+ "source_sheet": "graph/reports/T_SPEC_2_SIBLING_REVIEW_SHEET.md",
+ "decision_record": "scripts/t_spec_2b_verdicts.yaml",
+ "evidence_sources": [
+  "SME-RevisionNotes note sections (committed)",
+  "SME id names/definitions",
+  "SME-ExamQuestion part texts",
+  "Official-Specifications/parsed registries"
+ ],
+ "excluded_sources": [
+  "PMT (PhysicsMathsTutor) — excluded entirely per operator instruction 2026-09-18"
+ ],
+ "totals": {
+  "resolve": 57,
+  "pending": 8
+ },
+ "tiers": {
+  "V2_note_verbatim": 16,
+  "V1_name_or_definition_exact": 34,
+  "V3_convergent": 7
+ },
+ "courses": {
+  "igcse-chemistry-modular-24-unit-1": {
+   "ids": 137,
+   "resolved": 132,
+   "unresolved": 5,
+   "verdict_resolves": 38,
+   "verdict_pendings": 5,
+   "delta_resolved": 38,
+   "parts_coded": 662,
+   "parts_uncoded": 19,
+   "parts_recoded": 219
+  },
+  "igcse-chemistry-modular-24-unit-2": {
+   "ids": 120,
+   "resolved": 116,
+   "unresolved": 4,
+   "verdict_resolves": 36,
+   "verdict_pendings": 4,
+   "delta_resolved": 36,
+   "parts_coded": 614,
+   "parts_uncoded": 8,
+   "parts_recoded": 225
+  },
+  "igcse-science-double-award-17-chemistry": {
+   "ids": 121,
+   "resolved": 120,
+   "unresolved": 1,
+   "verdict_resolves": 1,
+   "verdict_pendings": 1,
+   "delta_resolved": 1,
+   "parts_coded": 592,
+   "parts_uncoded": 0,
+   "parts_recoded": 79
+  }
+ },
+ "verdicts": {
+  "spcpt_2nVbXbMc8TvjBNDp": {
+   "verdict": "resolve",
+   "code": "5.8",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "When atoms share pairs of electrons, they form covalent bonds",
+    "statement": "know that a covalent bond is formed between atoms by the sharing of a pair of electrons"
+   },
+   "note": "note-coverage 0.80 vs 0.67 runner-up; parts ask which bond type carbon-hydrogen/methanol atoms form"
+  },
+  "spcpt_3W3fV5yWPtK7Nymg": {
+   "verdict": "resolve",
+   "code": "8.4C",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Ethanol can be synthesised by the hydration of ethene",
+    "statement": "know that ethanol can be manufactured by: reacting ethene with steam in the presence of a phosphoric acid catalyst"
+   },
+   "twin": "8.5C (fermentation conditions) — different route; note section is specifically 'Hydration of ethene'"
+  },
+  "spcpt_4Qz3GhHWYT9DYVrZ": {
+   "verdict": "resolve",
+   "code": "8.6C",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Carboxylic acids is the name given to compounds containing the functional group",
+    "statement": "know that carboxylic acids contain the functional group"
+   },
+   "twin": "8.9C (vinegar/ethanoic acid) — note mentions vinegar later; the id is the family-definition id"
+  },
+  "spcpt_54rFt6VnHDjnKPGp": {
+   "verdict": "resolve",
+   "code": "5.10",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Dot and cross diagrams for covalent compounds",
+    "statement": "understand how to use dot-and-cross diagrams to represent covalent bonds in: diatomic molecules"
+   },
+   "note": "parts ask to complete/draw dot-and-cross diagrams (methanol, BF3, hydrogen)"
+  },
+  "spcpt_5g5dcqWDcbmq2tqH": {
+   "verdict": "resolve",
+   "code": "1.12",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "We can use a chromatogram to compare the substances present",
+    "statement": "understand how to use the calculation of R f values to identify the components of a mixture"
+   },
+   "note": "name 'Identifying Mixtures' + note 'Interpreting chromatograms' + parts all chromatography/Rf experiments"
+  },
+  "spcpt_5vYXXdPtTjHWZnT8": {
+   "verdict": "resolve",
+   "code": "7.6C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Reaction profiles showing",
+    "statement": "draw and explain reaction profile diagrams showing Δ H and activation energy"
+   },
+   "twin": "3.5C (energy level diagrams) — same skill in energy-level language; id name and note title say 'reaction profiles'"
+  },
+  "spcpt_6MDHMySrg98kKbZM": {
+   "verdict": "resolve",
+   "code": "6.6",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Predicting properties in Group 7",
+    "statement": "use knowledge of trends in Group 7 to predict the properties of other halogens"
+   }
+  },
+  "spcpt_7hrnS95ZYZC77gkQ": {
+   "verdict": "resolve",
+   "code": "5.1",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "An ion is an electrically charged atom or group of atoms formed by",
+    "statement": "understand how ions are formed by electron loss or gain"
+   },
+   "note": "note-coverage 0.78 clear margin; parts on electronic configurations and ion formation"
+  },
+  "spcpt_7jg5zgWzPQsFCy2g": {
+   "verdict": "resolve",
+   "code": "8.17",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Addition polymers are formed by the joining up of many monomers",
+    "statement": "understand how to draw the repeat unit of an addition polymer, including poly(ethene), poly(propene)"
+   },
+   "note": "parts ask to complete/draw repeat units"
+  },
+  "spcpt_8R8yDKjXWNnwb9Bb": {
+   "verdict": "resolve",
+   "code": "4.13",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Carbon monoxide is a toxic and odourless",
+    "statement": "understand why carbon monoxide is poisonous, in terms of its effect on the capacity of blood to transport oxygen"
+   },
+   "note": "note heading 'Why is carbon monoxide dangerous?'; low token cov is an artefact of the statement's length"
+  },
+  "spcpt_Bkz2pSbQCdrF75dF": {
+   "verdict": "resolve",
+   "code": "7.1",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "describe experiments to investigate the effect of surface area, concentration, temperature and a catalyst on a rate of reaction",
+    "statement": "describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction"
+   },
+   "note": "note sentence is verbatim 7.1; note then gives the marble-chips and thiosulfate methods"
+  },
+  "spcpt_C5fZhY9hS6GpDBFZ": {
+   "verdict": "resolve",
+   "code": "5.18C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "What are the properties of metals?",
+    "statement": "explain typical physical properties of metals, including electrical conductivity and malleability"
+   }
+  },
+  "spcpt_G284gXq5gFVc9djK": {
+   "verdict": "resolve",
+   "code": "6.14",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The percentage of oxygen in air can be found by reacting a metal",
+    "statement": "practical: determine the approximate percentage by volume of oxygen in air using a metal or a non-metal"
+   },
+   "twin": "6.10 (rusting-specific understanding) — note wording 'a metal or a non-metal' is 6.14's phrasing; 6.10 also held for the same parts"
+  },
+  "spcpt_G8rXmWWm8nzZKJb5": {
+   "verdict": "resolve",
+   "code": "6.5",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Physical properties of Group 7 elements",
+    "statement": "know the colours, physical states (at room temperature) and trends in physical properties of these elements"
+   },
+   "note": "5.8's higher coverage is token leakage from the same RN page; parts ask which elements are gases at room temperature"
+  },
+  "spcpt_HPHxhYGrqHBpG2Jh": {
+   "verdict": "resolve",
+   "code": "6.18",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Metal cations in aqueous solution can be identified by the colour of the precipitate they form on addition of sodium hydroxide",
+    "statement": "describe tests for these cations: NH 4 + using sodium hydroxide solution and identifying the gas evolved Cu 2+ , Fe 2+ and Fe 3+ using sodium hydroxide solution."
+   },
+   "note": "note table is exactly 6.18's cation list (Cu2+/Fe2+/Fe3+/NH4+); part asks for the ammonium-chloride test; flame tests (6.16/6.17) do not appear in this note"
+  },
+  "spcpt_JcxxdPq5PH9yPDWb": {
+   "verdict": "resolve",
+   "code": "4.14",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "These compounds (NO and NO",
+    "statement": "know that, in car engines, the temperature reached is high enough to allow nitrogen and oxygen from air to react"
+   },
+   "note": "id name 'Formation of Nitrogen Oxides' = 4.14's formation process; 4.16 (acid rain) is the downstream effect and has its own content elsewhere in the note corpus"
+  },
+  "spcpt_RRgPKhXQ8v8P53vT": {
+   "verdict": "resolve",
+   "code": "1.25",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Writing equations",
+    "statement": "write word equations and balanced chemical equations (including state symbols): for reactions studied"
+   },
+   "note": "parts all ask to write/complete equations (copper carbonate, tungsten, manganese, tin)"
+  },
+  "spcpt_SYW8CX7tzPPgy3Vk": {
+   "verdict": "resolve",
+   "code": "7.14C",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "when a change is made to the conditions of a system at equilibrium, the system automatically moves to oppose the change",
+    "statement": "know the effect of changing either temperature or pressure on the position of equilibrium in a reversible reaction"
+   },
+   "note": "note teaches exactly the temperature/pressure shifts of 7.14C; 7.13C (catalysts) is a separate id in this same review round"
+  },
+  "spcpt_TpSDkFKJpdk9yFZY": {
+   "verdict": "resolve",
+   "code": "4.2",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Organic chemistry is the scientific study of",
+    "statement": "understand how to represent organic molecules using empirical formulae, molecular formulae, general formulae, structural formulae and displayed formulae"
+   },
+   "note": "id name 'Representing Organic Compounds' is 4.2 verbatim; 4.1's higher coverage is leakage from the wide intro section"
+  },
+  "spcpt_VPj7CKzRzPpJfZcP": {
+   "verdict": "resolve",
+   "code": "1.1",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "The three states of matter are solids, liquids and gases",
+    "statement": "understand the three states of matter in terms of the arrangement, movement and energy of the particles"
+   }
+  },
+  "spcpt_WsTzNt439ZnJ84Rw": {
+   "verdict": "resolve",
+   "code": "5.9",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "There is a strong electrostatic attraction between the shared pair",
+    "statement": "understand covalent bonds in terms of electrostatic attractions"
+   }
+  },
+  "spcpt_XNyFmvmKmpCXPC6k": {
+   "verdict": "resolve",
+   "code": "5.2",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "How to deduce the charge of an ion",
+    "statement": "know the charges of these ions: metals in Groups 1, 2 and 3 non-metals in Groups 5, 6 and 7"
+   },
+   "note": "parts deduce formulae/charges (Pb(NO3)2, ammonium, potassium sulfate) straight from the 5.2 ion list"
+  },
+  "spcpt_XQrd4cgStk9BjRKx": {
+   "verdict": "resolve",
+   "code": "3.7C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "During a chemical reaction energy must be taken in to break bonds",
+    "statement": "use bond energies to calculate the enthalpy change during a chemical reaction"
+   }
+  },
+  "spcpt_Z69R3dXWNZxNKyZD": {
+   "verdict": "resolve",
+   "code": "1.35C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Calculate Volumes of Gases",
+    "statement": "understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm 3 and 24 000 cm 3 at room temperature and pressure (rtp))"
+   }
+  },
+  "spcpt_cRqGRsJHbRW5VDtR": {
+   "verdict": "resolve",
+   "code": "7.5",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "The effect of a catalyst on rate of reaction",
+    "statement": "know that a catalyst works by providing an alternative pathway with lower activation energy"
+   },
+   "note": "part 'Explain how a catalyst increases the rate of a reaction' targets the mechanism (7.5); 7.4 (definition) is the twin and is fully contained in the same note"
+  },
+  "spcpt_cpBnmWZwd6vvbzFb": {
+   "verdict": "resolve",
+   "code": "2.14",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "Two colours indicators are used to distinguish",
+    "statement": "describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions"
+   },
+   "note": "parts identify litmus/phenolphthalein/methyl orange colours — the exact 2.14 indicator set"
+  },
+  "spcpt_dGNKvvtQ4VbWXzxR": {
+   "verdict": "resolve",
+   "code": "8.3C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Ethanol can undergo oxidation in three different ways",
+    "statement": "know that ethanol can be oxidised by: burning in air or oxygen (complete combustion) reaction with oxygen in the air to form ethanoic acid"
+   }
+  },
+  "spcpt_fvf69HZzGZk3s6B8": {
+   "verdict": "resolve",
+   "code": "1.19",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Electronic configuration of the first 20 elements",
+    "statement": "understand how to deduce the electronic configurations of the first 20 elements from their positions in the Periodic Table"
+   },
+   "note": "the two higher-coverage candidates (3.5C/7.6C) are energy-diagram statements leaking on 'draw/represent' tokens"
+  },
+  "spcpt_jPWvQmDPGgWg7RqC": {
+   "verdict": "resolve",
+   "code": "1.28",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "Calculating moles and masses",
+    "statement": "understand how to carry out calculations involving amount of substance, relative atomic mass ( A r ) and relative formula mass"
+   },
+   "note": "parts are mole-mass calculations (Al mass, gypsum water of crystallisation, alkene oxygen uptake); 1.17's higher coverage is isotopic-abundance leakage"
+  },
+  "spcpt_kYg5Znzk8ZcBSWPW": {
+   "verdict": "resolve",
+   "code": "8.20C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Condensation polymers are formed when two different monomers are linked together with the removal of a small molecule",
+    "statement": "know that condensation polymerisation, in which a dicarboxylic acid reacts with a diol, produces a polyester"
+   }
+  },
+  "spcpt_mzh6RzjSBdh6PpDW": {
+   "verdict": "resolve",
+   "code": "7.10",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "Some reactions go to completion",
+    "statement": "describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the effect"
+   },
+   "note": "all three parts heat ammonium chloride — 7.10's named second example ('the effect of heat on ammonium chloride')"
+  },
+  "spcpt_qd2bFQpW5v9JGQSD": {
+   "verdict": "resolve",
+   "code": "5.14",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Diamond and graphite are allotropes of carbon",
+    "statement": "explain how the structures of diamond, graphite and C 60 fullerene influence their physical properties, including electrical conductivity and hardness"
+   },
+   "note": "id name names exactly 5.14's three allotropes; stage-1 cross-unit winner at 0.63 vs 0.16 was this statement (unit-scope prior refused it, not the evidence)"
+  },
+  "spcpt_rVx4xf99pX64qmjW": {
+   "verdict": "resolve",
+   "code": "2.1",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The chemistry of the metals is studied by analysing their",
+    "statement": "understand how metals can be arranged in a reactivity series based on their reactions with: water dilute hydrochloric or sulfuric acid."
+   }
+  },
+  "spcpt_rc6J89bdxv7pZ2dW": {
+   "verdict": "resolve",
+   "code": "1.34C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Calculate Concentrations of Solutions",
+    "statement": "understand how to carry out calculations involving amount of substance, volume and concentration (in mol/dm 3 ) of solution"
+   }
+  },
+  "spcpt_sTK7qRNqzfFsVRj7": {
+   "verdict": "resolve",
+   "code": "5.23C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Electrolysis half equations",
+    "statement": "write ionic half-equations representing the reactions at the electrodes during electrolysis and understand why these reactions are classified as oxidation or reduction"
+   },
+   "note": "u2 stage-1 best 0.47 vs runner-up 0.17 — the winner was 5.23C below the 0.50 safe threshold, not contested"
+  },
+  "spcpt_y6fBTkfxqKGVX8p7": {
+   "verdict": "resolve",
+   "code": "1.4",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "You need to know all the following terms used when describing solutions",
+    "statement": "know what is meant by the terms: solvent solute solution saturated solution."
+   },
+   "note": "parts define solute / saturated solution verbatim"
+  },
+  "spcpt_yjv7ynM9xnXXFtSp": {
+   "verdict": "resolve",
+   "code": "5.20C",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "When the ionic compound is melted or dissolved in water, the ions are able to move and carry a charge",
+    "statement": "understand why ionic compounds conduct electricity only when molten or in aqueous solution"
+   },
+   "twin": "5.7 (the bare fact) — the note's structure is the explanation of why (fixed lattice vs free ions); 5.7's content is fully inside the same note"
+  },
+  "spcpt_zrWCBRRbwDMBbqrY": {
+   "verdict": "resolve",
+   "code": "8.16",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "made by linking together large numbers of smaller molecules called monomers",
+    "statement": "know that an addition polymer is formed by joining up many small molecules called monomers"
+   },
+   "note": "note continues 'This process is called addition polymerisation'; 8.18 (deduce monomer from repeat unit) is the separate id Vj2fjb7dCn6cBJFY"
+  },
+  "spcpt_6M5CVSK7tzZcFR2d": {
+   "verdict": "pending",
+   "reason": "no SME statement text exists in any committed corpus or official registry (cross-cutting id; confirmed again this round: zero note anchors, zero registry hits) — no target statement exists to join to; parts stay uncoded by design"
+  },
+  "spcpt_bv3zyZcvQJ7MBMbc": {
+   "verdict": "pending",
+   "reason": "no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+  },
+  "spcpt_mrskfQ9tppqwBNRB": {
+   "verdict": "pending",
+   "reason": "no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+  },
+  "spcpt_yKqfQW8CMn7xHjhn": {
+   "verdict": "pending",
+   "reason": "no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+  },
+  "spcpt_CB42QK2hMvHJJkQn": {
+   "verdict": "pending",
+   "reason": "SME page teaches organic nomenclature (prefix/suffix rules); the IGCSE_CHEMISTRY_MODULAR registry contains no nomenclature statement (registry grep 'naming': 0 hits; 8.7C's '...and name each compound' is carboxylic-acids-specific) — nearest statements are family functional-group knowledge the note only tabulates; no-guess refusal stands"
+  },
+  "spcpt_4VfshKJkCVBsGFqZ": {
+   "verdict": "resolve",
+   "code": "1.18",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "There are over 100 chemical elements which have been isolated and identified",
+    "statement": "understand how elements are arranged in the Periodic Table: in order of atomic number in groups and periods."
+   },
+   "note": "note-coverage 0.88 clear margin"
+  },
+  "spcpt_B3by6xCJpGJ8b7tw": {
+   "verdict": "resolve",
+   "code": "6.9",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "About four-fifths (approximately 80%) nitrogen",
+    "statement": "know the approximate percentages by volume of the four most abundant gases in dry air"
+   },
+   "note": "note gives the N2/O2/trace composition verbatim; no candidate in the stage-1 top-6 was a composition statement because 'percentages' vs 'proportions' tokenises apart — identity is nonetheless exact"
+  },
+  "spcpt_J7VSXTGspSWNH2FC": {
+   "verdict": "resolve",
+   "code": "1.31",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The formulae of simple compounds can be found by",
+    "statement": "understand how the formulae of simple compounds can be obtained experimentally, including metal oxides"
+   },
+   "note": "parts are experiment-to-formula determinations (value of x, hydrated copper sulfate)"
+  },
+  "spcpt_K5SR7p9cSGxhrBCP": {
+   "verdict": "resolve",
+   "code": "1.16",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "You need to know the following terms to describe",
+    "statement": "know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass ( A r )"
+   },
+   "note": "note heading 'Calculating protons, neutrons and electrons'; parts on isotopes (gallium-69/71); coverage 0.85 clear margin"
+  },
+  "spcpt_NND4RkbhRNkxfzSv": {
+   "verdict": "resolve",
+   "code": "5.4",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Dot and cross diagrams for ionic compounds",
+    "statement": "draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer"
+   },
+   "note": "parts are LiF / Na2O dot-and-cross items"
+  },
+  "spcpt_Rf7s6s9Bmf7yTqGC": {
+   "verdict": "resolve",
+   "code": "2.24",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "Bases are substances which can neutralise an acid",
+    "statement": "know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis are bases t"
+   },
+   "note": "stage-1 cross-unit scores 0.75 vs 0.72 were between 2.24 and 2.17; the note's definition of bases as neutralising substances is 2.24's subject"
+  },
+  "spcpt_TRFzg8xNR5DpYnrV": {
+   "verdict": "resolve",
+   "code": "7.13C",
+   "tier": "V3_convergent",
+   "evidence": {
+    "quote": "The effect of a catalyst on equilibrium position",
+    "statement": "understand why a catalyst does not affect the position of equilibrium in a reversible reaction"
+   },
+   "note": "part 'Describe the effect, if any, of using a catalyst' on the position of equilibrium is 7.13C verbatim; coverage 0.77 clear margin"
+  },
+  "spcpt_V9H9Mf3M3rkf64M7": {
+   "verdict": "resolve",
+   "code": "3.7C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Each chemical bond has a specific bond energy",
+    "statement": "use bond energies to calculate the enthalpy change during a chemical reaction"
+   },
+   "note": "coverage 0.85 clear margin; parts are bond-energy calculations"
+  },
+  "spcpt_Vj2fjb7dCn6cBJFY": {
+   "verdict": "resolve",
+   "code": "8.18",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Deducing the monomer from the polymer",
+    "statement": "understand how to deduce the structure of a monomer from the repeat unit of an addition polymer and vice versa"
+   }
+  },
+  "spcpt_YMhbzkT2NJJP32NN": {
+   "verdict": "resolve",
+   "code": "7.3",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Increasing the number of successful collisions",
+    "statement": "explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory"
+   },
+   "note": "id name 'Explaining Rates' = 7.3's 'explain' (7.2 'describe the effects' is the twin); all parts are explain-type"
+  },
+  "spcpt_cxQqxK2vSZdd9wqw": {
+   "verdict": "resolve",
+   "code": "3.1",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The changes in heat content can be determined and",
+    "statement": "know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic"
+   },
+   "note": "part asks 'The Haber process is exothermic. What is meant by...' — the 3.1 definition"
+  },
+  "spcpt_dgXNhDfskPcgNjBz": {
+   "verdict": "resolve",
+   "code": "5.21C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Anions are negatively charged ions",
+    "statement": "know that anion and cation are terms used to refer to negative and positive ions respectively"
+   }
+  },
+  "spcpt_hfQCph6gYyht3yPr": {
+   "verdict": "resolve",
+   "code": "6.13",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Greenhouse gases maintain the temperatures on Earth high enough",
+    "statement": "know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change"
+   }
+  },
+  "spcpt_wjk7Td2wsMdggt6D": {
+   "verdict": "resolve",
+   "code": "2.18",
+   "tier": "V2_note_verbatim",
+   "evidence": {
+    "quote": "A neutralisation reaction occurs when an acid reacts with an alkali",
+    "statement": "know that alkalis can neutralise acids"
+   },
+   "note": "2.18 is the only neutralisation statement in the registry (grep 'neutralis' hits 2.18 plus calorimetry practicals 3.2/3.8); the note's H+ + OH- mechanism detail exceeds 2.18 but has no richer registry target"
+  },
+  "spcpt_y4PqM2VKGx82tP5h": {
+   "verdict": "resolve",
+   "code": "1.17",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The relative atomic mass of each element is calculated from",
+    "statement": "be able to calculate the relative atomic mass of an element ( A r ) from isotopic abundances"
+   },
+   "note": "parts calculate Ar for chlorine (35/37) and bromine (79/81)"
+  },
+  "spcpt_yXVRVdm4cWSDJfNp": {
+   "verdict": "resolve",
+   "code": "2.27C",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Insoluble salts can be prepared using a precipitation reaction",
+    "statement": "describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants"
+   },
+   "note": "2.25's marginally higher coverage is the soluble-salt variant tokenising on 'soluble' — the id and note are the insoluble-salt preparation"
+  },
+  "spcpt_ydpF4fgzh754tqJD": {
+   "verdict": "resolve",
+   "code": "1.10",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "Fractional distillation is used to separate two or more liquids",
+    "statement": "describe these experimental techniques for the separation of mixtures: simple distillation fractional distillation filtration crystallisation paper chromatography."
+   },
+   "note": "parts separate ethanol mixtures by fractional distillation"
+  },
+  "spcpt_ypQ8qSNhpMrDGsD9": {
+   "verdict": "resolve",
+   "code": "4.6",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "The reactions of organic compounds can be classified into",
+    "statement": "understand how to classify reactions of organic compounds as substitution, addition and combustion"
+   },
+   "note": "4.12's higher coverage is 'combustion' token leakage; 4.6 is the classification statement itself"
+  },
+  "spcpt_VwybskmpnnBhx5sh": {
+   "verdict": "pending",
+   "reason": "topic-family id: the note verbatim covers 4.23 (functional group >C=C<), 4.24 (general formula CnH2n) and 4.25 (unsaturated classification) simultaneously; stage-1 0.84 vs 0.80 non-decisive and the sidecar schema carries one code per id — refusing to collapse a three-statement family onto one statement; no-guess refusal stands"
+  },
+  "spcpt_b5YczdCTkzHM78fH": {
+   "verdict": "pending",
+   "reason": "registry has no molar-enthalpy statement (grep 'molar enthalpy': 0 hits); the note's step-1 Q=mcΔT content matches 3.3 but the id's subject is ΔH = Q/n (kJ/mol), for which no registry target exists; mapping to 3.3 would mislabel the id's subject; no-guess refusal stands"
+  },
+  "spcpt_ZqH4JR9JMmG7Rspv": {
+   "verdict": "resolve",
+   "code": "1.32",
+   "tier": "V1_name_or_definition_exact",
+   "evidence": {
+    "quote": "know what is meant by the terms empirical formula and molecular formula",
+    "statement": "know what is meant by the terms 'empirical formula' and 'molecular formula'"
+   },
+   "note": "SME definition string is the statement verbatim (smart quotes aside); stage-1's 1.14 win (0.78 vs 0.70) was 'atom/molecule' token leakage"
+  },
+  "spcpt_msKxhyRzxt7pz78K": {
+   "verdict": "pending",
+   "reason": "SME id has an empty note anchor ('##' only), zero referencing parts and zero coverage against every registry statement — no evidence of any kind exists; no-guess refusal stands"
+  }
+ }
+}

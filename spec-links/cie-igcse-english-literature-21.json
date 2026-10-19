@@ -1,0 +1,3174 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-english-literature-21",
+ "qual": "cie-igcse-english-literature-2023-2025",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-english-literature-2023-2025",
+  "family": "heading_bullets",
+  "official_points": 203
+ },
+ "totals": {
+  "items": 255,
+  "items_with_codes": 2,
+  "by_kind": {
+   "notes": 166,
+   "question_parts": 89,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 1,
+   "question_parts": 1,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 686,
+  "parts": 89,
+  "universe_ids": 686,
+  "universe_resolved": 3,
+  "pending_refs": 771,
+  "flashcards_discovered_uncoded": 367,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 3,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 3,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 683,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 49,
+    "no_unique_identity": 634
+   },
+   "dangling_eq_refs_pending": 0
+  }
+ },
+ "items": {
+  "rn_4v3c76ktpcZDrNwp": {
+   "kind": "note",
+   "label": "Fire on the Mountain: Best Key Character Quotes for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_dx4XNTCCxssfs5ZC",
+    "spcpt_RJNSTKwf9jq9YxGs",
+    "spcpt_qJ896gDgfDntrBgw",
+    "spcpt_8zF2wPrxG4GzN4Wj"
+   ]
+  },
+  "rn_w7TBBQzZygt5pBHQ": {
+   "kind": "note",
+   "label": "Fire on the Mountain: Key Character Analysis for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_3RWnN6qc4P96t7J5",
+    "spcpt_BDDJjGtztDDKGVBM",
+    "spcpt_Mc3XjWMbKwRYpSwx",
+    "spcpt_Y5dyXCK3Q9wBkwG7"
+   ]
+  },
+  "rn_KtxRrC9spxJM75yM": {
+   "kind": "note",
+   "label": "Fire on the Mountain: Best Key Quotes for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_hwmxRzXN7TWKC6dp",
+    "spcpt_ZBxRSQgYWjgCK5tT",
+    "spcpt_M5x9qfswZ6hqW9mR",
+    "spcpt_GjRt5Frt8yDpVbR8"
+   ]
+  },
+  "rn_CMy2pzjcXhv8cgDZ": {
+   "kind": "note",
+   "label": "Plot summary: Fire on the Mountain by Anita Desai for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_zQhCxFmqkNjZfDNx",
+    "spcpt_6jDDckvjz6XPq4HG",
+    "spcpt_tVm57Vyj7mfdD7zh"
+   ]
+  },
+  "rn_VKD5kGkyYpw3MKnd": {
+   "kind": "note",
+   "label": "Key themes in Anita Desai's Fire on the Mountain for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_ShSRH4qT54GCjc8v",
+    "spcpt_V5fwV9jXxDGjNBWp",
+    "spcpt_C2RcWrTPZxzMCngb",
+    "spcpt_RR6ngrFmVSB3MMF3"
+   ]
+  },
+  "rn_KvRGn5WjjsHZRdRG": {
+   "kind": "note",
+   "label": "Fire on the Mountain Historical and Social Context for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_svyDtm9RSwRRvRwb",
+    "spcpt_JyMhjt8mJS2Jsg24",
+    "spcpt_MxC9hNnb9rHD22zx"
+   ]
+  },
+  "rn_ySr5Tr9Dmcfh9sH4": {
+   "kind": "note",
+   "label": "Fire on the Mountain: Devices and Techniques for IGCSE",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_dzJH2DbCnzwzTwkj",
+    "spcpt_SwWJyPCtHzjyCgKp",
+    "spcpt_C3cJy3Zj8YZJgj3s"
+   ]
+  },
+  "rn_HGCnTgkgGTMnYMZV": {
+   "kind": "note",
+   "label": "Great Expectations Character Quotes: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "great-expectations",
+   "codes": [],
+   "pending": [
+    "spcpt_RKxkkGkbZvhkXDvC",
+    "spcpt_ddDhfDRCMRQkX28k",
+    "spcpt_ydTySs7tYY5PXbDD",
+    "spcpt_gC243ppVJwptTfXJ"
+   ]
+  },
+  "rn_FrpGnwSpSZCXTPV3": {
+   "kind": "note",
+   "label": "Great Expectations: Context - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "great-expectations",
+   "codes": [],
+   "pending": [
+    "spcpt_bsStfmz9FrmWcZmB",
+    "spcpt_q9MQG3yQcPdTbCrt"
+   ]
+  },
+  "rn_gvZyBGx7HJ339jZS": {
+   "kind": "note",
+   "label": "Great Expectations Guide - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "great-expectations",
+   "codes": [],
+   "pending": [
+    "spcpt_yqR7wtzXCH9XvPWb",
+    "spcpt_ZdVFhmqHcqM7zHmN",
+    "spcpt_tgz9QPSJTfBK4k2b",
+    "spcpt_dkCjQN55sbtwfzqx"
+   ]
+  },
+  "rn_nxXpxj9BVcVNyKb5": {
+   "kind": "note",
+   "label": "Section A How To Get Full Marks: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_jjhxQYz6nhJwr4BP",
+    "spcpt_8qxTsTKzcRn7HP7T",
+    "spcpt_NjcV3t7py9XrDzH6",
+    "spcpt_vTTMDbHq8YycJCYR"
+   ]
+  },
+  "rn_Cx6DyNKCBdQY9BQh": {
+   "kind": "note",
+   "label": "Poetry Mark Scheme and Model Answer - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_Vjr6Wfg5CdXgy2Qg",
+    "spcpt_YSnFkCVS9qDx4r7p",
+    "spcpt_MdSWdN8XqBzXNy3x",
+    "spcpt_MKbHRKqnT97gFHfh",
+    "spcpt_ghtCc2p5s9cmcfnK",
+    "spcpt_6nm5B9qxtBrVD6c8"
+   ]
+  },
+  "rn_R7jCPKCCMn728Vwc": {
+   "kind": "note",
+   "label": "Section A What The Question Is Asking: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_vXsDrmQNVmcM4bsd",
+    "spcpt_2GvgKqzhBHVScd6F",
+    "spcpt_Gg55CtBs7zSRDTw9",
+    "spcpt_8ZBxWQR72CJBKPpR"
+   ]
+  },
+  "rn_XGtwgGNxhgfRB2TC": {
+   "kind": "note",
+   "label": "Section B How To Get Full Marks: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_nnC7XNs4pcDKGnHv",
+    "spcpt_rVWPvY9JFqpZXMDS",
+    "spcpt_fcYjx8BMRkwMj6vd",
+    "spcpt_3Rt6XTWjn3r4Mj8X"
+   ]
+  },
+  "rn_Gx5Nk48njY3ptZWk": {
+   "kind": "note",
+   "label": "Section B Mark Scheme & Model Answer: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_BQcpDp5M8SYZTWmz",
+    "spcpt_QPyzFJgmbk5fX6QK",
+    "spcpt_SHQPZ8TtRkwgf7H7",
+    "spcpt_RkwKF57t2wQnR3T6",
+    "spcpt_BjNXFt47Sbd5MDtj",
+    "spcpt_r9pCQBdnnJHS9S5w"
+   ]
+  },
+  "rn_B5rvgf9bXrGYJggf": {
+   "kind": "note",
+   "label": "Section B What The Question Is Asking: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "how-to-answer-the-poetry-and-prose-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_hwHJsPcNrp2Psb2W",
+    "spcpt_rktbZhwnBW7hrgNr",
+    "spcpt_WJpnwM4nZZtXWXxV",
+    "spcpt_ThTT68zZBcXbT7qb"
+   ]
+  },
+  "rn_YskY9YQ77CxXysJH": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Quotations: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_pfcptbv5SYBr42mf",
+    "spcpt_pjZQzdDP8nS7D9d8",
+    "spcpt_TyPq8hVQ9JYcWh6h",
+    "spcpt_N2Q7Gz4Bj5TVfpzC",
+    "spcpt_BbDW9BpXKvPNv93X"
+   ]
+  },
+  "rn_45pdRHbYFVWBwrx8": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Characters: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_dzkgdmBymR3mZW4W",
+    "spcpt_m7G9pK4ZwYdQm8JF"
+   ]
+  },
+  "rn_pYgkD2ryPcGRzJtj": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Key Quotations: CIE IGCSE Eng Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_SNbXdFnNh2Y8TYg5",
+    "spcpt_cxrCx89Hs2ZR4Q5M",
+    "spcpt_dRTVPhKQDdv3WFCM",
+    "spcpt_hM2PQ5XYt9XdyBDM",
+    "spcpt_W7vSJfBsB4kWqQJS"
+   ]
+  },
+  "rn_44TNmR3w8K96R7bc": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Plot Summary: IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_WYBN8s5N6CPDyDXP",
+    "spcpt_tw2sD6f5TJsd26p2",
+    "spcpt_Y3RW8Y2Dx28mhQ2v"
+   ]
+  },
+  "rn_xsTKD9g2fBsbD7Bx": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Themes: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_gWDDJTG53JBqy85y",
+    "spcpt_mSnVwzzmsjPqn42H",
+    "spcpt_TsNvrMwNqY29YDWZ",
+    "spcpt_T43KrhdrkF8pMGZ9",
+    "spcpt_6R92pDsRQgDbT6wc"
+   ]
+  },
+  "rn_4zW5jkZqnpYd348m": {
+   "kind": "note",
+   "label": "I'm the King of the Castle context: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_2BrDGFRXd7J4bd7J",
+    "spcpt_rGVx4HmZd22MBNBM"
+   ]
+  },
+  "rn_3b74SpBZ6PWGbfTy": {
+   "kind": "note",
+   "label": "I'm the King of the Castle Writer's Methods: IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_GmgZsP2wR6Yw5Kyc",
+    "spcpt_5v46sJrZQh68pRF2",
+    "spcpt_yBksB27BqWByPfSp",
+    "spcpt_BT42Kng535sVMvNx",
+    "spcpt_GRV4nMNccxSH6VcY",
+    "spcpt_qcT4f9hHmfPJvGmF"
+   ]
+  },
+  "rn_RMqWN7bQ4Dzmpq8Y": {
+   "kind": "note",
+   "label": "Paper 1 Overview - CIE IGCSE Literature in English",
+   "section": "1-poetry-and-prose",
+   "topic": "paper-1-overview",
+   "codes": [],
+   "pending": [
+    "spcpt_BHZn2vQ96k5sBMZg"
+   ]
+  },
+  "rn_VHycxG2dmRFrH4Mq": {
+   "kind": "note",
+   "label": "Pride and Prejudice Character Quotes: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_sb4DpCxZS6WPZ5dq",
+    "spcpt_zZztVWjHHQhZhd48",
+    "spcpt_J6WXhjPsz8Cmh9G5",
+    "spcpt_HnbhjCGrk6zqQQbM"
+   ]
+  },
+  "rn_9JKbMt96JmSRNx5c": {
+   "kind": "note",
+   "label": "Pride and Prejudice Characters: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_SRpFXXV86MSkHQ7c",
+    "spcpt_ZC8qYhv2svbw42ky",
+    "spcpt_tGHWhDgVdd3NWPgN",
+    "spcpt_DCjPv9TsVJBXHpCj",
+    "spcpt_Q5766zFRdNzxFchF",
+    "spcpt_F7ZQ6vFRGdsxxXDg"
+   ]
+  },
+  "rn_yXkHtmCBvm3XdxsJ": {
+   "kind": "note",
+   "label": "Pride and Prejudice: Context - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_5ttdDwQCT7rJSWcD",
+    "spcpt_ncDVgMq48JVjC8cX",
+    "spcpt_sNp9q6Hr7qmqHWKy"
+   ]
+  },
+  "rn_v66NSywwXg78YKwt": {
+   "kind": "note",
+   "label": "Pride and Prejudice Key Quotations - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_kzzQymhYRhjQjyhj",
+    "spcpt_MdR3qDCPGXHkyS2d",
+    "spcpt_NCZCSKKQ7PSN8rsz",
+    "spcpt_H6bTNppM2THP2rSJ"
+   ]
+  },
+  "rn_Ff5RzzNdrrVFtt3n": {
+   "kind": "note",
+   "label": "Pride and Prejudice Plot: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_8BMyZp9qHqYy4Mkb",
+    "spcpt_xR46qrK7qcwQZyjr",
+    "spcpt_jDZBq6qcqsPcqvFC",
+    "spcpt_NdBMzwKgcV4vgXfT"
+   ]
+  },
+  "rn_vMsjvhXrqhdSWvRN": {
+   "kind": "note",
+   "label": "Pride and Prejudice: Themes - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_gv9W4jYjwYxcbtBZ",
+    "spcpt_VycNqmgFxTgr25MG",
+    "spcpt_zTWG5Y7v6DB8jgC6",
+    "spcpt_9bbzJ8xY7w9t9TQ6"
+   ]
+  },
+  "rn_GgCkfDbmFP8QTfCQ": {
+   "kind": "note",
+   "label": "Pride and Prejudice Writer's Methods: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_Kgq8zjjybjsVyxWz",
+    "spcpt_pzcSbs4F32gQqHVt",
+    "spcpt_tJWgjXWRGmBk22YS",
+    "spcpt_hgBgtB3Tpm739BBH"
+   ]
+  },
+  "rn_pdjcNszVTWSGKKv6": {
+   "kind": "note",
+   "label": "Rebecca: Characters - CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_9DW66ZFNDYyn9tK8",
+    "spcpt_VmdH6FqptPNcyfhp",
+    "spcpt_GShqjCP8rSmGPhWd",
+    "spcpt_4tcV6D8BGdvGWSh7",
+    "spcpt_STCjMztw7yrY7KWF",
+    "spcpt_7rFN2ypmKN3srHjy"
+   ]
+  },
+  "rn_VjFvrCP7wHnMcbWS": {
+   "kind": "note",
+   "label": "Rebecca: Key Quotations - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_b9qpBR8WTw9kSz3B",
+    "spcpt_bJzzXHVWd57nyXNK",
+    "spcpt_zrwkyn79GNXCNVrq",
+    "spcpt_S96DGs8nJvtQpx8B",
+    "spcpt_Ks84RyDry4GqxbQd"
+   ]
+  },
+  "rn_YhwVG9YyD56kKp2D": {
+   "kind": "note",
+   "label": "Rebecca: Plot Summary - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_GtzfKbPfDqKmhXBj",
+    "spcpt_tdNfwWXRjyCbhkgT",
+    "spcpt_QP87sfrm8bqBDWx2"
+   ]
+  },
+  "rn_ybqQSByDXFK4W98b": {
+   "kind": "note",
+   "label": "Rebecca: Themes - CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_dH99YRpYrQ7QHMzm",
+    "spcpt_gh36ZmdndJwYzDMw",
+    "spcpt_SF9bMbJpvn2HZdg9",
+    "spcpt_fFwMc4KfcWff7mTN",
+    "spcpt_JJTMvrgjmBzp9pKQ"
+   ]
+  },
+  "rn_HSmgxx3sWN2zh4fR": {
+   "kind": "note",
+   "label": "Rebecca Context - CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_55VzB9zXQ9H2Bkdw",
+    "spcpt_43pGVtRTVnYq2jtJ",
+    "spcpt_XffWgcs8BctKjt3f",
+    "spcpt_Q6SGq7JQ7VPzCGRy"
+   ]
+  },
+  "rn_hpvxYGVz639s9Cs9": {
+   "kind": "note",
+   "label": "Rebecca: Writer's Methods - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "rebecca",
+   "codes": [],
+   "pending": [
+    "spcpt_tVyd5RgsfbXzVCdg",
+    "spcpt_vH5qw42YwGMwtVtf",
+    "spcpt_M7zN4qTRmnvkB4Wc",
+    "spcpt_BT6fkM9CW3bpvpWd",
+    "spcpt_QvnpxnTkbdcvkZh9",
+    "spcpt_gPRCqPWDnWf8h2XV"
+   ]
+  },
+  "rn_xpfYKHmbfpWBYVXf": {
+   "kind": "note",
+   "label": "A Consumer's Report Poem analysis - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_TDRMh4MwrCp2DH6y",
+    "spcpt_yYM53SwQQbpsgt2X",
+    "spcpt_Q53Nty9z67d8dVGn",
+    "spcpt_XfHgGkpwcJ2m7g9g"
+   ]
+  },
+  "rn_CHvfnPhVGhV7zC7J": {
+   "kind": "note",
+   "label": "Away, Melancholy Poem analysis - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_qh39PPYgkZSSPfCb",
+    "spcpt_5BNbJ5FSSDHgMSpq",
+    "spcpt_Pqw7NTqTr4dW7bZS",
+    "spcpt_V6qFrCg6BPbD8wjD"
+   ]
+  },
+  "rn_7DHt2sGvXJSXCxmv": {
+   "kind": "note",
+   "label": "From Long Distance Poem analysis - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_GhXzCpDn6sPN5DpR",
+    "spcpt_vGFJvGC3Zv3b44vK",
+    "spcpt_RcwqSh3hKn7tbHGY",
+    "spcpt_wN7SNfSk6pV2kMXf"
+   ]
+  },
+  "rn_rHMpJcKvw2q68Dhc": {
+   "kind": "note",
+   "label": "Funeral Blues: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_Jd48wGCB8C9jNq8M",
+    "spcpt_TNbkC2zHY4zSJPyF",
+    "spcpt_tjvvBnrWV7kmGcJB",
+    "spcpt_bxjwZqRg2KZjncQm"
+   ]
+  },
+  "rn_7BZFdfJGbvp35Jmr": {
+   "kind": "note",
+   "label": "He Never Expected Much analysis - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_2btp9YsH3PhBZ7t6",
+    "spcpt_8DNRRQP5N4GzzjC4",
+    "spcpt_bQdPhTvDmv9CD7Xx",
+    "spcpt_pjPzRYvBKHN7TJxQ"
+   ]
+  },
+  "rn_JqtXwy3jjwk27M2Y": {
+   "kind": "note",
+   "label": "Night Sweat Poem Analysis - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_Yd7GTPCyDXnv5km8",
+    "spcpt_q3299W4HMcM39P8m",
+    "spcpt_sX99cPWbMbTcB5ss",
+    "spcpt_P5gZGkSxYRKgfP75"
+   ]
+  },
+  "rn_42B4MNnpsybgcgjf": {
+   "kind": "note",
+   "label": "On Finding a Small Fly Crushed in a Book - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_5f2pTmsTsB6rSw2G",
+    "spcpt_7wd2rnQ8VBCMGFDw",
+    "spcpt_768YXZj95SmwnTDH",
+    "spcpt_sftMq5VHZDtmrBWh"
+   ]
+  },
+  "rn_h9b6CcS8DZ4hq3wW": {
+   "kind": "note",
+   "label": "Rain Poem analysis - CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_NGNByKdx2PF4sm8C",
+    "spcpt_HTftgvMsFzHNqvR6",
+    "spcpt_xsXzJSW4XGFFVBPZ",
+    "spcpt_fYfr5SB4NqD963bG"
+   ]
+  },
+  "rn_psbrNRbp95BvTN6n": {
+   "kind": "note",
+   "label": "Request To A Year Poem analysis - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_RZNp6JVGf57yz4BN",
+    "spcpt_dKShfqj6bzk2kSf8",
+    "spcpt_pmxk66SXDCyrmPQK",
+    "spcpt_fwvW8r5M948w8jFf"
+   ]
+  },
+  "rn_QB9xNxdYQYkWVCxM": {
+   "kind": "note",
+   "label": "Songs of Ourselves Volume 1, Part 4 - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_bj5rGYNdyNjch82N",
+    "spcpt_V6tYWpFQd7ZKvJ58",
+    "spcpt_488zHwJ99sJnQsqR",
+    "spcpt_CB77xZqJJM34CkKm"
+   ]
+  },
+  "rn_Ft2ppMTy3Ty8XRKh": {
+   "kind": "note",
+   "label": "The City Planners Poem analysis - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_4ZcTfBf5HKq59NrC",
+    "spcpt_z2Vn438RR3NBYM24",
+    "spcpt_FmnTQKgp5pDZKJMK",
+    "spcpt_NtwvqsmQGKtZt3fj"
+   ]
+  },
+  "rn_cqV4hbgZRHNSM4W9": {
+   "kind": "note",
+   "label": "The Man with Night Sweats Poem analysis - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_vHzRZBn9WqRBvZmT",
+    "spcpt_xTpgTPz3yf99YB4N",
+    "spcpt_FWGdHDJP6sSspKKt"
+   ]
+  },
+  "rn_k6QNH8PSJJtQcFbg": {
+   "kind": "note",
+   "label": "The Planners: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_4fsZTrWjgPPNGtHJ",
+    "spcpt_bdBbG92JYFcFhDKK",
+    "spcpt_RfGV8XYgRhXgTzB2",
+    "spcpt_KNYHRy8JmRZtTDCT"
+   ]
+  },
+  "rn_ZzqPcN9jZ9VJgcdg": {
+   "kind": "note",
+   "label": "The Spirit is too Blunt an Instrument - CIE IGCSE English",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_5Gk9JYg6vVkQbv3Y",
+    "spcpt_YpPkPjTvdVPCTzmb",
+    "spcpt_qj67y7yZbV7KjVnJ",
+    "spcpt_RDcf6Rt87sV9pDG9"
+   ]
+  },
+  "rn_qdfM74yphwhfHb9w": {
+   "kind": "note",
+   "label": "The Telephone Call analysis - CIE IGCSE English Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1-part-4",
+   "codes": [],
+   "pending": [
+    "spcpt_s3734CC56Y63x54G",
+    "spcpt_WZb6VVQzD7pGb2wk",
+    "spcpt_KVp9RmfcRbbbVYdh",
+    "spcpt_cn9WvNThF6zpy9rP"
+   ]
+  },
+  "rn_ch7BD2VRFrb8DxHz": {
+   "kind": "note",
+   "label": "A Different History: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_25HvpgKCcHsgysgN",
+    "spcpt_skvTvySssMRz7khK",
+    "spcpt_hPwZ6Br3xR5hG7QV"
+   ]
+  },
+  "rn_DQtxFqv5bTMbb36F": {
+   "kind": "note",
+   "label": "A Married State: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_Sy4GBTxcMyWRRm9R",
+    "spcpt_nJgD3rDxRCjPngcC",
+    "spcpt_JDTSPC43cjMK4ghn"
+   ]
+  },
+  "rn_Z37sX8GN3FVtDHYX": {
+   "kind": "note",
+   "label": "From An Essay on Man: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_PVSKJ6kcMXsCyzqF",
+    "spcpt_bsdhMQT6vGWr22XQ",
+    "spcpt_P9CZjhg6c4RhpsqQ"
+   ]
+  },
+  "rn_4FHxSQdWRzj4q3f5": {
+   "kind": "note",
+   "label": "Before the Sun: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_xxgFKR7fyXj9rrfG",
+    "spcpt_JYt99qCHWjBGmHDz",
+    "spcpt_8JyF74Gw7bhRnmMy"
+   ]
+  },
+  "rn_qMyBJMw6cg7FGCCy": {
+   "kind": "note",
+   "label": "Carpet-Weavers, Morocco: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_nMh5ycghZxrvPmhp",
+    "spcpt_QfBTYdsFBxHkXvtf",
+    "spcpt_XXpMjCfws559VfQH"
+   ]
+  },
+  "rn_FysV9sW2QWVqDMMM": {
+   "kind": "note",
+   "label": "Follower: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_4tT2fvYYVhZXsSWY",
+    "spcpt_vvzwW8dbGSYzqMJS",
+    "spcpt_W4xk4hHNX48cqTff"
+   ]
+  },
+  "rn_Ndhq7FqMwwkrVC4p": {
+   "kind": "note",
+   "label": "Hunting Snake: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_BNpVTb7rCkkfyBK8",
+    "spcpt_Yg8n3gz96DCw3kjg",
+    "spcpt_pwt5C7WX4Ytyxw6R"
+   ]
+  },
+  "rn_JrjpBxXD8dsKGpW6": {
+   "kind": "note",
+   "label": "Lament: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_wRy9yZQkcpcZFc6T",
+    "spcpt_gVjKyVsmvbs8t5pZ",
+    "spcpt_Xw7zJDvHMsfxywGY"
+   ]
+  },
+  "rn_XkP9DvFMbzfhGw2N": {
+   "kind": "note",
+   "label": "Songs of Ourselves Overview: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_SYrf6qgP6szbjdgD",
+    "spcpt_2XXY9c2MmTQBtJ38",
+    "spcpt_qKmSZYYVGfQHZcHp",
+    "spcpt_dQXpmB8Mtv4kDMvp"
+   ]
+  },
+  "rn_BXy6vFxW6ggtfJmS": {
+   "kind": "note",
+   "label": "Report to Wordsworth: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_xSVmtvXHHHTw7CTf",
+    "spcpt_vFfDyTXC5s9Y9KCR",
+    "spcpt_bk25dqrcQChbmhcR"
+   ]
+  },
+  "rn_X7Q4FHBjwgR48kT5": {
+   "kind": "note",
+   "label": "Song: Love Armed: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_DKdKVQZhnkd9yDYP": {
+   "kind": "note",
+   "label": "Sonnet 18: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_8V3N8C2QxvxCRHKR",
+    "spcpt_YpfbCQ7hMd3N7vhc",
+    "spcpt_6Zxj4XQrqFy8rzYz"
+   ]
+  },
+  "rn_D6VG2yvf9zYknS9C": {
+   "kind": "note",
+   "label": "Storyteller: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_Gcfzt9NNbzS3ydhz",
+    "spcpt_MxTkGKHqxqDm9gTB",
+    "spcpt_9GvkNVF7rmk3djkz"
+   ]
+  },
+  "rn_pX2W8h8sY5Pc4z7j": {
+   "kind": "note",
+   "label": "The Chimney-Sweeper: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_4RSbxpJZy4rNR5SP",
+    "spcpt_BGYf8wN2BYZ5rM9g",
+    "spcpt_57k26BhgZYDjnD9q"
+   ]
+  },
+  "rn_gfzQGdJGrrwGrwfx": {
+   "kind": "note",
+   "label": "The Cockroach: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_XHnxYMKWWTdhVHPQ",
+    "spcpt_RT8b8rTGmKZNNFFw",
+    "spcpt_xBxCYsGJxxrqWKCH"
+   ]
+  },
+  "rn_Z72QrWS5VzM8htPy": {
+   "kind": "note",
+   "label": "Where I Come From: CIE IGCSE English Literature Revision",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_v384rBj9K624Ysb7",
+    "spcpt_3bDy3dJVKkvNTYk9",
+    "spcpt_zkzNJ25WP7pdStY8"
+   ]
+  },
+  "rn_BGm7PYdvDB7xvCxH": {
+   "kind": "note",
+   "label": "No.14 The Woman's Rose: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_6cjXpq7nzMV6tNdf",
+    "spcpt_VzG6M9pMG7X6Y2pW",
+    "spcpt_RtFCx4fYg7ZnY6zt",
+    "spcpt_hRmXWv66pwrmrJBT",
+    "spcpt_ybz3H5fj4qWqqWYq"
+   ]
+  },
+  "rn_WzKms3dFK7jJHSBs": {
+   "kind": "note",
+   "label": "No.26 The Black Ball: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_Q9DBMVGfcZdnT3D7",
+    "spcpt_bqwzSHHT8dY5FyWb",
+    "spcpt_wB3Wy3NHXM5ph99v",
+    "spcpt_ZNmr5HhZmtsGB75F",
+    "spcpt_Hg9xqVP4np3ZzxTw"
+   ]
+  },
+  "rn_hHty9cYhrp4k96Hq": {
+   "kind": "note",
+   "label": "No.3 Nick: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_QhxjFytqxhNyQBDY",
+    "spcpt_s6h6KSnKbQqJzwXk",
+    "spcpt_QXChscNSrvsJnKFR",
+    "spcpt_7f3xrBDt5TkvhJTQ",
+    "spcpt_H9wCBKBbh3RxbWD3"
+   ]
+  },
+  "rn_4PY6VPwnpcDt7cVf": {
+   "kind": "note",
+   "label": "No.30 The Gold Watch: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_dpHMKKchj7bGtTKS",
+    "spcpt_ymSWwcQDkRwVt6Fx",
+    "spcpt_f3Svx2tXtYt2JqFB",
+    "spcpt_2CcW2bJB9nhxV9nF",
+    "spcpt_xzbb66drpkMsJt2g"
+   ]
+  },
+  "rn_XKW5q6PNbtyXNzXg": {
+   "kind": "note",
+   "label": "No.35 When It Happens: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_TtQ5y9hzWj6gmS8z",
+    "spcpt_2RZPr6HvC7Z4P9nK",
+    "spcpt_9CW85TxDS2cz2jBX",
+    "spcpt_pTcNM7w4Mhs4rwD4",
+    "spcpt_yWG8tsxxv7QWwrmm"
+   ]
+  },
+  "rn_x8WX9fYVyPf7FYrP": {
+   "kind": "note",
+   "label": "No.37 The Man Who Walked on the Moon: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_BM3bcF2qfDpGsfRQ",
+    "spcpt_5nHqQ3ZMr3H8H5b4",
+    "spcpt_Q39sFpHyvptHFtzR",
+    "spcpt_VgGs8NhtVnnndy8B",
+    "spcpt_mCn562TNnB7tVxYH"
+   ]
+  },
+  "rn_Fx6Pt6mQdsBfFmQg": {
+   "kind": "note",
+   "label": "No.38 A Walk to the Jetty: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_GhTkmbw9jY9JcCMY",
+    "spcpt_mPK8MzsmjRb5VQTw",
+    "spcpt_9Jh3W5ThSR9knD8p",
+    "spcpt_NRjRVbPkgRvPCvFX",
+    "spcpt_nYWzRtywmcwDqDmz"
+   ]
+  },
+  "rn_BzxHs7yzkJntWVXC": {
+   "kind": "note",
+   "label": "No.40 Showing the Flag: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_f5JtCHcThpW5rwhN",
+    "spcpt_p4QbcpswrpYBdSgV",
+    "spcpt_qvmnxqs9GRJJR4hh",
+    "spcpt_Vx3fs49hF7NtKMHQ",
+    "spcpt_WgP8CCWwvJ7rgwQh"
+   ]
+  },
+  "rn_DQmfS5JksG47Kq6T": {
+   "kind": "note",
+   "label": "No.47 Haywards Heath: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_cd4jGbVpzMtmgDCX",
+    "spcpt_2zzdkkMqbNDrjQzV",
+    "spcpt_bgzr6Qvc5p6tw3Z3",
+    "spcpt_5bjshptTRvKqbfW8",
+    "spcpt_bSXNM3shWQ34BSGR"
+   ]
+  },
+  "rn_fFhZpczJVCR7SJxQ": {
+   "kind": "note",
+   "label": "No.49 Fluke: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_Gg2wjH8Grmrzh6Sb",
+    "spcpt_jGTcQ2v7dhGpRcDv",
+    "spcpt_yxfr38TJmSN75PYx",
+    "spcpt_y3gwzgYnFd4RG86j",
+    "spcpt_285TsZM3449MjGDh"
+   ]
+  },
+  "rn_wcKZ5bB5bmmskKFZ": {
+   "kind": "note",
+   "label": "Stories of Ourselves Volume 2: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_QQNwqjK3qwNmJRcH",
+    "spcpt_gy9xKpsHPMjFpT5m",
+    "spcpt_GrNx3WbRMzf2qq2X"
+   ]
+  },
+  "rn_TnJJ3YsT2gNZNVZ7": {
+   "kind": "note",
+   "label": "The War of the Worlds Characters: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_Nv6ChqXpjfDtnVy3",
+    "spcpt_MJqNnWyZy5r4vvGp",
+    "spcpt_Dh73z2sv24TmD8t7",
+    "spcpt_3QGYkjDgRH3VTDYZ",
+    "spcpt_WZKYhQ8zH5mZJqzs",
+    "spcpt_SfwFnJZhQm4fP9z7",
+    "spcpt_vxbhxNSQMh78Jrb4",
+    "spcpt_vYskZC9DD6VX3x6V"
+   ]
+  },
+  "rn_ng5Pr4JjSw4b2Kgr": {
+   "kind": "note",
+   "label": "The War of the Worlds Context: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_ND2WMNnZbnSFTx24",
+    "spcpt_NP3N7kcJ2FvNw8VT",
+    "spcpt_6dSVXZxKqbV9KKvp",
+    "spcpt_5Qv2RTCYtvP98xNP",
+    "spcpt_yxnCZPN6HSgWNtcS"
+   ]
+  },
+  "rn_PrD7sbvhpddkyGBR": {
+   "kind": "note",
+   "label": "The War of the Worlds Key Quotations: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_55F2Zz75HPpXTvXn",
+    "spcpt_Vs7T5nW93Zk9RP8J",
+    "spcpt_6dkXffmK5wg2QyCs",
+    "spcpt_W2D7RVtb7T3CZjBj"
+   ]
+  },
+  "rn_cnmh5BxVhGzqVngj": {
+   "kind": "note",
+   "label": "The War of the Worlds Plot: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_xmMsv5kkYhF2dZd6",
+    "spcpt_6GKKxhqqP9g9swgw",
+    "spcpt_54tXdz7jdJMR6mRX",
+    "spcpt_ncBcz7n5QRdb4M5Z"
+   ]
+  },
+  "rn_HxfJyWmjJWYk377s": {
+   "kind": "note",
+   "label": "The War of the Worlds Themes: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_46jFNnBrcYBn3CFQ",
+    "spcpt_26NcggncmVGvhxth",
+    "spcpt_W9Q8tkmwyTwCymdB",
+    "spcpt_Dmbj6ytKPnsmqQfM"
+   ]
+  },
+  "rn_8g4ystBwKpRtkgQs": {
+   "kind": "note",
+   "label": "The War of the Worlds Writer's Techniques: CIE IGCSE Eng Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_MqYs9xxKwqpD5RZH",
+    "spcpt_KNd7FDDk8VM92Zvh",
+    "spcpt_XwDDXk95ryKsCBy2",
+    "spcpt_YH8QCVSmcpXqSGCV"
+   ]
+  },
+  "rn_sfWrvB8TMpzrSX8Q": {
+   "kind": "note",
+   "label": "Things Fall Apart Characters: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_b2DWkwfQbHrqFXvM",
+    "spcpt_28pkWdTbg7mmtvjg",
+    "spcpt_FKvgZMvMNRYh2yxw",
+    "spcpt_pdNGqqgBmNfQjfcn",
+    "spcpt_GVnJsM46tRZtTV9m"
+   ]
+  },
+  "rn_nCpN4TWrQq7rThMx": {
+   "kind": "note",
+   "label": "Things Fall Apart Key Quotations: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_QXtrdzG3jC4qNchY",
+    "spcpt_NHVkfmHkChZZsd6V",
+    "spcpt_NKkG9N8wSnWnQPyx",
+    "spcpt_wCVhBZhpmn7D4Zdb"
+   ]
+  },
+  "rn_hjXR9vncQwH6SyVk": {
+   "kind": "note",
+   "label": "Things Fall Apart Plot Summary: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_gp7gRSzrhbHWyVNd",
+    "spcpt_wF7PxmMtjVc73gKn",
+    "spcpt_RpygzZMSqfz5hQ3H"
+   ]
+  },
+  "rn_JQMRGwDgXwHzk6Mq": {
+   "kind": "note",
+   "label": "Things Fall Apart Themes: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_M7DtjTzDD9hZKnhR",
+    "spcpt_StsdfHcnf9QPtt5K",
+    "spcpt_QP2FBg3bBcpyPK6Q",
+    "spcpt_7VzGMWz6NJsFkpPS"
+   ]
+  },
+  "rn_SwZk77F3Knzx5tdf": {
+   "kind": "note",
+   "label": "Things Fall Apart Context: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_GR8SdGy6pMR8B3sm",
+    "spcpt_rzrDMvr7T7VcvQdY",
+    "spcpt_BhW3Hbw38GYbgs6S"
+   ]
+  },
+  "rn_nGd9yP4qVgWMWCQ5": {
+   "kind": "note",
+   "label": "Things Fall Apart Writer's Techniques: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_TKvSH4cWrjW38Xvv",
+    "spcpt_nmczJrMK7cd7gB4F",
+    "spcpt_qWbGGsw2yShr55D2",
+    "spcpt_Dmg8Q5QDgXwkBfMJ"
+   ]
+  },
+  "rn_GzNjdhhY4DvhWGgV": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Characters: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_Mn9MM5CZs2ZRfwy2",
+    "spcpt_thWfM6bfkm5Dn4Yd",
+    "spcpt_cNsr95rX4N9nGyMt",
+    "spcpt_bsZ4D94Xfr7vHQkM",
+    "spcpt_Pw5dqgydZCVrvMX4",
+    "spcpt_yVptdH6KnQ69WwdM"
+   ]
+  },
+  "rn_SkDWqdgQ72bB55Ck": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Context: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_KpgYCYC5JQ6ZdNnn",
+    "spcpt_7Mspb26XYJGXWv8q",
+    "spcpt_4hyxzxgMpwKWRFpJ",
+    "spcpt_TXQ5FxRWVMmPQC4P",
+    "spcpt_6RSJxhX2d95bbvM2",
+    "spcpt_f385pQHXKfJ9RJwb"
+   ]
+  },
+  "rn_mGvkt5QtbcKhhZsQ": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Key Quotations: CIE IGCSE English Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_Rjbx7psQQjKmYTCP",
+    "spcpt_ZQqBCF73tg4NZBjv",
+    "spcpt_zGN2VnWGFChTMRrS",
+    "spcpt_Qcc9qxNkTh92Pjp5",
+    "spcpt_8777gy99DQnXGGdt",
+    "spcpt_xzHBYR37sJ2Mr7b7"
+   ]
+  },
+  "rn_5fFvXz3TSJryxxJY": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Plot: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_88vKbGqGddjCg36r",
+    "spcpt_cWRNQKnHTcfVbVC8",
+    "spcpt_mVs8hcZ2BSJxrhjx",
+    "spcpt_GkqZSTczP8q3mBsW"
+   ]
+  },
+  "rn_g9WRgyPTKCVYfQMt": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Themes: CIE IGCSE English Literature",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_rfrqyVkxky5XHfHJ",
+    "spcpt_DHwqx23VYHgR2Jj3",
+    "spcpt_rChDPCYPjmKtXFgn",
+    "spcpt_CPJwYpnsgKjzWHNk",
+    "spcpt_5XGXhkDBK2YZ9zZj",
+    "spcpt_mW6TsdVYRMsCcHNC"
+   ]
+  },
+  "rn_yYSZgjFtfFmGWCSj": {
+   "kind": "note",
+   "label": "To Kill a Mockingbird Writer's Techniques: CIE IGCSE Eng Lit",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_nkV6Sf4VDTMXsSSQ",
+    "spcpt_kF9Wz2PrNYjY2QWd",
+    "spcpt_ZzJ9VYRg5v6k9Zt8",
+    "spcpt_ZDFcr4Y8KCHx3Tdw",
+    "spcpt_VXxCjr4B5cCGmdBt"
+   ]
+  },
+  "rn_4hVB3S7WR3p5GNDV": {
+   "kind": "note",
+   "label": "A Midsummer Night's Dream Characters - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_HFZjhS3Q2C5Jpv8V",
+    "spcpt_QGnTCgZHJF5Z47zX",
+    "spcpt_gds9cMbFRkVFTrT3",
+    "spcpt_nwk6m6PNX53bcX7v",
+    "spcpt_4fcqcd9S9sbntFwg",
+    "spcpt_BjhCKRH8x275vTMc",
+    "spcpt_DgdPgK4Pdrh8GFKQ"
+   ]
+  },
+  "rn_znvKtGPTxYbB7kxq": {
+   "kind": "note",
+   "label": "A Midsummer Night’s Dream Quotes - CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_rstVBvDXG396rBZw",
+    "spcpt_tyQPNPvgfRCCGWpJ",
+    "spcpt_tGkwVhZFN9P2Y4wx",
+    "spcpt_9sf89mBfHFFcHYD6"
+   ]
+  },
+  "rn_ZR4VcR3xHcWwRhSC": {
+   "kind": "note",
+   "label": "A Midsummer Night's Dream: Plot - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_848fnKmDfgdRywVT",
+    "spcpt_vNjWbG8kkN3xqRbd",
+    "spcpt_33kQ4ggKvcn99JF5"
+   ]
+  },
+  "rn_snWfccQX3wpJdmvv": {
+   "kind": "note",
+   "label": "A Midsummer Night's Dream: Themes - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_7DnWT7mZjjkbzchJ",
+    "spcpt_GzJ2cth98qpsXFcT",
+    "spcpt_cwNkdYYgvFzT6yNx",
+    "spcpt_btZzzynPTjrHQbqw"
+   ]
+  },
+  "rn_gFzWQ6JMrSnY4h6N": {
+   "kind": "note",
+   "label": "A Midsummer Night’s Dream Text - CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_kFv9P4KJfZvf2Bz8",
+    "spcpt_cvbfycPtsB2N2586",
+    "spcpt_pyfyJkvKKSjH3yB8",
+    "spcpt_M3wH39xB4vXH97nm",
+    "spcpt_hhsbW5xM8QfZF5k7"
+   ]
+  },
+  "rn_7jb8m87tFq5tPw7d": {
+   "kind": "note",
+   "label": "A Midsummer Night’s Dream: Techniques - CIE IGCSE Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_KgBcgyWVb4Z97pgx",
+    "spcpt_JXZtM434bV4dzFkj",
+    "spcpt_WCkv42VQhzKJdp5T"
+   ]
+  },
+  "rn_zK5CDRNKGGJrRz69": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire Characters - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_xxVbsJypbTYrvVH6",
+    "spcpt_s9RNSpCVkHNGFvSj",
+    "spcpt_xSfsnNq2Vd5h3Q7j",
+    "spcpt_NcxqdCVvzpHHPNgs",
+    "spcpt_WpWkpxCPpSRSCqfm",
+    "spcpt_pkPCkSzqXMSb5kJt"
+   ]
+  },
+  "rn_nQJy8cDGMs3Y85Hm": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire Key Quotations - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_nCwBR2SMFKDbxnJN",
+    "spcpt_TjnnvZz592brgZvW",
+    "spcpt_kQnGNyPV6dqz6qtm",
+    "spcpt_NpgFy3xXZyNt27JS"
+   ]
+  },
+  "rn_pRKqxtzKKPyrWGh7": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire: Plot - CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_4QbMkw6q8b6MStP2",
+    "spcpt_QBpBbfPwXnDg3wdr",
+    "spcpt_JWFtvxg394tqJ5fg",
+    "spcpt_5N2fyVypbsY8dZQv"
+   ]
+  },
+  "rn_v5bk55qsRjX3N35Z": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire: Themes - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_XB7xNxfXMvJB4ZWc",
+    "spcpt_rCd2rcF5ZHyNnn8B",
+    "spcpt_ZNP84cThw3bsycJ6",
+    "spcpt_VWNskVX9Rz5hXRgw"
+   ]
+  },
+  "rn_twzJ8ytQFz3XpmVx": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire Guide - CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_KxYsw9bKR3DPbMWb",
+    "spcpt_Bms94V2jBPCs74fW",
+    "spcpt_WtNPKPxv3GHtwczr",
+    "spcpt_gqwmZhTX9dDMkWSP"
+   ]
+  },
+  "rn_HHJ6wvW42ZZSmJtV": {
+   "kind": "note",
+   "label": "A Streetcar Named Desire Writer's Methods: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_kQ7fYrN793kX5Qgd",
+    "spcpt_4dY8Y24JB3hP9M28",
+    "spcpt_zqXFvm3SVgKDWsJC",
+    "spcpt_669Gkd4CgpbTbyQ3",
+    "spcpt_q39ZF5rrj4V8Bwqb"
+   ]
+  },
+  "rn_MWb47rG86rC3HD7C": {
+   "kind": "note",
+   "label": "A Taste of Honey Characters: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_myTpkFtqQFNPVfvN",
+    "spcpt_T8xgYCYRqPNJmh4x",
+    "spcpt_vsN8fgPsNmDRfJrZ",
+    "spcpt_yZJtQn7wpTtpkHFc",
+    "spcpt_JXf4847p8Q2bRxnf"
+   ]
+  },
+  "rn_pkbfRtzyBdq23FWj": {
+   "kind": "note",
+   "label": "A Taste of Honey Quotations: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_qbgNPWNhrfNRKdbc",
+    "spcpt_cF86RFx4mpXBmP2K",
+    "spcpt_Zjf5Py49SySX3St2",
+    "spcpt_6Tw7yZ2fqKZ9CkzX"
+   ]
+  },
+  "rn_B7jwhKvRfJSb82XQ": {
+   "kind": "note",
+   "label": "A Taste of Honey Plot Summary: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_yMnMkqJCRWg7shn5",
+    "spcpt_zYhtYFX4B2vj4wJv",
+    "spcpt_cfhtn42JGhy6dDCP",
+    "spcpt_DkJW4Td25pbwKW9G"
+   ]
+  },
+  "rn_q8npQ9h6xrwWdr64": {
+   "kind": "note",
+   "label": "A Taste of Honey Themes: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_J5k7zd2CGSbfHRqq",
+    "spcpt_fSZpv2FKrTV2V2rR",
+    "spcpt_yMx5w847xzrd89jQ",
+    "spcpt_qtKPMz5mmJtBhSy6"
+   ]
+  },
+  "rn_xQRZ8MTg4n6WtfsR": {
+   "kind": "note",
+   "label": "A Taste of Honey Context: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_9hSGJMtxvckzvT5p",
+    "spcpt_McGwcyzhRjKsMJw6",
+    "spcpt_yWsNpp7fFgWtyHp7"
+   ]
+  },
+  "rn_HMtRQFXSjJkPpnZF": {
+   "kind": "note",
+   "label": "A Taste of Honey Writer's Methods: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_mJZT8jW4qGHqCPc2",
+    "spcpt_rRVqj4c3nvBxP5PT",
+    "spcpt_j4TzjB2WjZ6vGDCn",
+    "spcpt_HzBTZnR4vbp6Drdn",
+    "spcpt_GyD9MmtRGT8KzXJp"
+   ]
+  },
+  "rn_2PRbCNPy94ZJM6xj": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Character Quotations: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_JWX7yTK3mts7cSc7",
+    "spcpt_ZrcCz6xSMFSwZ5vJ",
+    "spcpt_7h3BZB4WSRvjRDd6",
+    "spcpt_zRYzktqVFFnsHzDK"
+   ]
+  },
+  "rn_6JZKGwJXWk2ZTSW3": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Characters: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_dgsXkTkRzfhZycsC",
+    "spcpt_zZTvrrphB4YSJHnh"
+   ]
+  },
+  "rn_4PYwyHBj7Cgm73y7": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Key Quotations: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_hxMZzXG7H2FxBJQ3",
+    "spcpt_9SzVFyxV8bVdyQcX",
+    "spcpt_XBXKZnhVxM9SRxw5"
+   ]
+  },
+  "rn_vDCRpNjrTzF8S5KV": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Plot Summary: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_scpC2vHTpRgHJY88",
+    "spcpt_6bx75SypKfPx7bBr",
+    "spcpt_nyTDs3KDH543WtRG"
+   ]
+  },
+  "rn_ZDn2vQ9K7SDBbKn6": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Themes: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_pr6NHvrJX6TXYwJ8",
+    "spcpt_cZPywqKYmsngVxwV",
+    "spcpt_cDKXdBFb9m3Z2r5k"
+   ]
+  },
+  "rn_XY9HQqYh6YDcTdSQ": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Context: CIE IGCSE English Literature",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_SV85YjQjRy7zDRry",
+    "spcpt_xQhyBNySRqhz39df",
+    "spcpt_8cBNrRkTSD26mkYx"
+   ]
+  },
+  "rn_YgBGwtBQ7V8kcGXX": {
+   "kind": "note",
+   "label": "Antony and Cleopatra Writer's Methods: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_RHVRDGsRKTcQgsbv",
+    "spcpt_HRg4Vbx6hXn5svFz",
+    "spcpt_GVgMTYBKhtb8Q8ZR",
+    "spcpt_jwbbFjJsYbG8By6H"
+   ]
+  },
+  "rn_znfkGhmsdGNm9XWM": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Character Quotes: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_Bj5F9cbht6zh8K9G",
+    "spcpt_hP63H8QqDrqhjp6q",
+    "spcpt_XnnP6Zbb7cKm4GSd",
+    "spcpt_VnkgS9j7z2BJTVdg",
+    "spcpt_xKXf2zB7JQ2YgcgN"
+   ]
+  },
+  "rn_7s9t9HHM7kHjRQxj": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Characters: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_RNPDDT2qSVJNJd3v",
+    "spcpt_QVJW9y5wWBFcyfsP",
+    "spcpt_rBQ6mgPVqVF8XC3h",
+    "spcpt_26CPN8tdmwDSb3RK",
+    "spcpt_RhCng8QrC5nrTdfX"
+   ]
+  },
+  "rn_93yT5cy8fdFvQjsz": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Key Quotes: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_fj2PKvXB7Q8FWDjX",
+    "spcpt_WQG6WFZ63Z4qJhPt",
+    "spcpt_wGT89pCPqtMSFRF2"
+   ]
+  },
+  "rn_2vfNXCV6qtddGvgw": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Plot Summary: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_cd63X4srt3hJ3346",
+    "spcpt_7XGCvzwhjsqC49RC",
+    "spcpt_QMPYBcCSZYcr8kxD"
+   ]
+  },
+  "rn_sCSzJJ3z7fMcQfCz": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Themes: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_M6WqWfbQYX2TnQp7",
+    "spcpt_DbMsPqwGFPSnj3Dd",
+    "spcpt_xtZzNMM5JZX6VNft"
+   ]
+  },
+  "rn_SWG6QhqsX2gCrgVr": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Context: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_xtfCgvncjF3pwKWf",
+    "spcpt_3TVHK2gpGgNJ39vR",
+    "spcpt_9FWMDnww5zqtbmQg"
+   ]
+  },
+  "rn_TJsVFY4PZPRNh9Kw": {
+   "kind": "note",
+   "label": "Blues for an Alabama Sky Writer's Methods: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_C2nGP3b7Y2Wysm8D",
+    "spcpt_99GTwJMXbDxCnsqT",
+    "spcpt_3Vg9xxg2c2Z2kFRm",
+    "spcpt_VwpWmVTFRkpvTnR2"
+   ]
+  },
+  "rn_byT9pqJM462v6dWh": {
+   "kind": "note",
+   "label": "Death and the King’s Horseman Characters - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_dqbh4YHvbqY9yDPJ",
+    "spcpt_3gjY7kwxYBjc6h2J",
+    "spcpt_zJbNqcJPZkVhrVhx",
+    "spcpt_tZd79hDKsdNdQnjy",
+    "spcpt_9V2pcBvPbvWhJ5bb",
+    "spcpt_xnpjNZwjj6FTj8dB"
+   ]
+  },
+  "rn_C6W6zp7WxhN5DwDZ": {
+   "kind": "note",
+   "label": "Death and the King’s Horseman: Quotes - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_YRYRrzjSHZrXt5H4",
+    "spcpt_kzvv9yFZYSwq4WfW",
+    "spcpt_2frB3S6b8QpbdHkk",
+    "spcpt_24jhSC7M49tHnJGg",
+    "spcpt_7ncxmNmHzcBNcPXf"
+   ]
+  },
+  "rn_jc9fv3rg5TpTbYg2": {
+   "kind": "note",
+   "label": "Death and the King's Horseman Plot Summary - CIE IGCSE",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_GjrGYcmmCrYZ4bqC",
+    "spcpt_7nqRxBZRhR8xXRNR",
+    "spcpt_Q2qPPPSss9RhysJn",
+    "spcpt_rjdGVrzPxrpjx3XF"
+   ]
+  },
+  "rn_x8sR9RFdDqNKFRHc": {
+   "kind": "note",
+   "label": "Death & the King's Horseman: Themes - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_xR3wjS3VvTrfmSds",
+    "spcpt_MZx7V7pwrWpJHDHN",
+    "spcpt_GVGmcTRQDyRj5jYR",
+    "spcpt_3HsZ8qbTTpnWsTDJ",
+    "spcpt_6RkYvSPPKfqnHtTs"
+   ]
+  },
+  "rn_9g5z7XmD8tpPqtMC": {
+   "kind": "note",
+   "label": "Death and the King’s Horseman: analysis - CIE IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_mCtG8t5sSMKHNFzw",
+    "spcpt_hDt4VDtD954PZGNz",
+    "spcpt_9tS3kjGpdgCwCmM2",
+    "spcpt_NXHJQg7yNZqGPGkz",
+    "spcpt_tVBcnTbcCWD6wk72",
+    "spcpt_jZVXbR5XkFms9BcW"
+   ]
+  },
+  "rn_qq9KcQNgHGvyMSxf": {
+   "kind": "note",
+   "label": "Death and the King’s Horseman: Techniques - IGCSE English",
+   "section": "2-drama-closed-book",
+   "topic": "death-and-the-kings-horseman",
+   "codes": [],
+   "pending": [
+    "spcpt_9TsDRsmJf9RBgMHv",
+    "spcpt_Q6C8hWmyPYg4ZVVP",
+    "spcpt_trbBHxKxDCmzFyRD",
+    "spcpt_w68DHbtMKGmBSGyZ",
+    "spcpt_BCrXhBTPHv6WTkvm"
+   ]
+  },
+  "rn_WcTVfbcWvpG22DP8": {
+   "kind": "note",
+   "label": "Paper 2 Question A How To Get Full Marks: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_GdsYJptcbRwc9wst",
+    "spcpt_7Cprt98s7Vk9mMTm",
+    "spcpt_cHqfmYtvBHBhRNX3",
+    "spcpt_BCjqrnV6xfBQc9Mj"
+   ]
+  },
+  "rn_7z2MZ4vjD3XV52Nm": {
+   "kind": "note",
+   "label": "Paper 2 Question A Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_tvQkTzVvYvTcPX3Q",
+    "spcpt_WFmRqHrp5ykjqwDF",
+    "spcpt_78bHcPWpHXkH5ddW",
+    "spcpt_JPZvnbWGvz5WFqgt",
+    "spcpt_BvRwGpc2Wt758k4n",
+    "spcpt_4MKrdNdD9N2bKVZp"
+   ]
+  },
+  "rn_2547jHx9qRnxr3vB": {
+   "kind": "note",
+   "label": "Paper 2 Question A What The Question Is Asking: CIE IGCSE",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_kNDqkBSzKztTt2gG",
+    "spcpt_8jn9y6KRX7wYhy43",
+    "spcpt_rz4RMrsmk87FVrB3",
+    "spcpt_ZXZvKwrvfNsQ8NWv"
+   ]
+  },
+  "rn_TDpCJjXVNvFzjQbW": {
+   "kind": "note",
+   "label": "Paper 2 Question B How To Get Full Marks: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_pkXPGc86WSKM6xh5",
+    "spcpt_3MPBQSsB4pKfDTQT",
+    "spcpt_dZD2pbJMm5vt9jYP",
+    "spcpt_zPtrZDhk64xwwWgg"
+   ]
+  },
+  "rn_rssnRzZfGR5MtNp9": {
+   "kind": "note",
+   "label": "Paper 2 Question B Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_wyWcS2rxxyBGkfXj",
+    "spcpt_xJGwkz34jScztQGt",
+    "spcpt_ct2bKzNTRpw7Vx9Z",
+    "spcpt_bxPmZ56W3NW5vZFd",
+    "spcpt_VP5gPGPVfSWKfH2x",
+    "spcpt_qmrBpg8gWkkdxVNB"
+   ]
+  },
+  "rn_DF5YVRXYMDn8T8cS": {
+   "kind": "note",
+   "label": "Paper 2 Question B What The Question Is Asking: CIE IGCSE",
+   "section": "2-drama-closed-book",
+   "topic": "how-to-answer-the-paper-2-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_sC4QrsYhZDMC9hmQ",
+    "spcpt_2dvcNhHhXzmdWVCZ",
+    "spcpt_bsYJQNSDv97bP7KR",
+    "spcpt_qVHC3VFQnmwShdrF"
+   ]
+  },
+  "rn_WZWCXynfXZRWY2P3": {
+   "kind": "note",
+   "label": "Paper 2 Overview - CIE IGCSE Literature in English",
+   "section": "2-drama-closed-book",
+   "topic": "paper-2-overview",
+   "codes": [],
+   "pending": [
+    "spcpt_BtgXyhBfS8Gs8Jqz"
+   ]
+  },
+  "rn_tYZzpRWsq4NJZnmX": {
+   "kind": "note",
+   "label": "Princess and the Hustler Character Quotes: CIE IGCSE Eng Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_x7ZTXGsTskTBK8QD",
+    "spcpt_2QkTyqxT7tCbVqTS",
+    "spcpt_RkDp7764vyWS2xGg",
+    "spcpt_f3CxYz3VqXv98dGR",
+    "spcpt_5kYrtZzmcHmz4cKv",
+    "spcpt_BxnNk7jfMtVtX5my"
+   ]
+  },
+  "rn_bq7VHrt69WfnT6dH": {
+   "kind": "note",
+   "label": "Princess and the Hustler Characters: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_rBDJfQzn7wWTNHKB",
+    "spcpt_WYYq3QGc4kFqh4sq",
+    "spcpt_Y2Nrx5YbtNqsqJ4g",
+    "spcpt_tgxHSnz4dWBjKRCD",
+    "spcpt_ppyVJHPgPgmj2k38",
+    "spcpt_WHhPGQDNDr5TJCM9",
+    "spcpt_N9tm89K7KtNvW36V"
+   ]
+  },
+  "rn_Cd9wrqXbKyqvVYB2": {
+   "kind": "note",
+   "label": "Princess and the Hustler Quotations: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_x6GWxTb3Xgtr9gpq",
+    "spcpt_GzzKCzdcSHRg5wXP",
+    "spcpt_p2sXnpG6Ff7dWswy",
+    "spcpt_vX65BsFpXyqJZqcT",
+    "spcpt_7jhNpMTQV2HHVp6r"
+   ]
+  },
+  "rn_K2Hrc2zwRz5Xm8WD": {
+   "kind": "note",
+   "label": "Princess and the Hustler Plot Summary: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_MY2TSGV2SGRY9zqR",
+    "spcpt_mYrnx83znw73Vy4D",
+    "spcpt_wrcPjNrCtdJSk7YF",
+    "spcpt_6vj549Kd8D8M73BW"
+   ]
+  },
+  "rn_fkMDDJy32rwMsNfK": {
+   "kind": "note",
+   "label": "Princess and the Hustler Themes: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_SKJyFVbZZPPk55NH",
+    "spcpt_K528V9QhKN6qvJYd",
+    "spcpt_x7V95TVcWttpX6Zy",
+    "spcpt_DR9PPT4CqpjjyRs5",
+    "spcpt_KG8zjBMdFFvyQPYQ"
+   ]
+  },
+  "rn_yg9sTvvQs4CjyBcJ": {
+   "kind": "note",
+   "label": "Princess and the Hustler Context: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_tXYX8SZ6Hy8Pxm5N",
+    "spcpt_PKhCJ5x2zpYMf3Rr",
+    "spcpt_Yt85MTzChbMdcHw9"
+   ]
+  },
+  "rn_QDyXs3qPrrfq9br2": {
+   "kind": "note",
+   "label": "Princess and the Hustler Techniques: CIE IGCSE English Lit",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_pn3m9vtSRkvpVKNd",
+    "spcpt_Sy6wTh5KqTSBjpd2",
+    "spcpt_fVm7PZDKrDwDHGQr",
+    "spcpt_2bWR5Q59sX4wstMV",
+    "spcpt_yvcBqRjMMdhKvjSV"
+   ]
+  },
+  "rn_Rr7nK36mrsZr7JjN": {
+   "kind": "note",
+   "label": "Paper 3 Question A How To Get Full Marks: CIE IGCSE Eng Lit",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_YjFsfWMWSXXrF4GW",
+    "spcpt_FYnCq8W6mdgY6Gcg",
+    "spcpt_dqPBb6zJD9YjRK7g",
+    "spcpt_2yKJ35f5yMjRB92H"
+   ]
+  },
+  "rn_H4K5CH8vdd8YN8kp": {
+   "kind": "note",
+   "label": "Paper 3 Question A Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_nNMtZHJ4hG4nqWZy",
+    "spcpt_95pJ7Q3NVkCHkGBY",
+    "spcpt_HyHkkybPh5Nyh5tn",
+    "spcpt_3ZfQ6QXMFrvKgptM",
+    "spcpt_pHX8kqnHkvQJkPvW",
+    "spcpt_XTFwpS3r5gJsgDHr"
+   ]
+  },
+  "rn_tkbng3VTZQBqW9nh": {
+   "kind": "note",
+   "label": "Paper 3 Question A What The Question Is Asking: CIE IGCSE",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_BVG3bKJZMbVPP2fj",
+    "spcpt_Zdn8vZnYGfkthPGP",
+    "spcpt_8VB9r3GRBgghMhP4",
+    "spcpt_k3sGFTy7TNjvCNrQ"
+   ]
+  },
+  "rn_GhJvypKTPphFRmzj": {
+   "kind": "note",
+   "label": "Paper 3 Question B How To Get Full Marks: CIE IGCSE Eng Lit",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_Gf36VJBGx8VWZGq7",
+    "spcpt_KnQ4VhCWxnYbd4Dp",
+    "spcpt_jPXVcvCwr8md8Pnb",
+    "spcpt_7tbt5n6zg54wQFmx"
+   ]
+  },
+  "rn_NShvTMC9gxrmJBss": {
+   "kind": "note",
+   "label": "Paper 3 Question B Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_x2S4VRprYzsndF8r",
+    "spcpt_25QdXvxVBTHhwJC2",
+    "spcpt_77GpFtRZcJtnPFff",
+    "spcpt_qq29YMhcbFdTgW3B",
+    "spcpt_y7wGstPMwGz6zkbW",
+    "spcpt_nvtBjgWM7hcb849s"
+   ]
+  },
+  "rn_JpPjbJSSHCwCyMCW": {
+   "kind": "note",
+   "label": "Paper 3 Question B What The Question Is Asking: CIE IGCSE",
+   "section": "3-drama-open-book",
+   "topic": "how-to-answer-the-paper-3-drama-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_JsJRDFt2GwJQKMGT",
+    "spcpt_42MKtsg45fhWYXH4",
+    "spcpt_7mRm3xXR5yZnq8kn",
+    "spcpt_YQ48vH6YjhfFMcvw"
+   ]
+  },
+  "rn_Jj49WrMBJnMZpF69": {
+   "kind": "note",
+   "label": "Paper 3 Overview - CIE IGCSE Literature in English",
+   "section": "3-drama-open-book",
+   "topic": "paper-3-overview",
+   "codes": [],
+   "pending": [
+    "spcpt_nRnyXJbxTZK3YFgz"
+   ]
+  },
+  "rn_kWq9zxb2ShhvJv2s": {
+   "kind": "note",
+   "label": "Question 1 Poetry How To Get Full Marks: CIE IGCSE Eng Lit",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_PCc2yhkrXVXHsdJW",
+    "spcpt_PbWNW4gVcrbBcgQ8",
+    "spcpt_VywX3tPxYNzrbJ7p",
+    "spcpt_WXvQJkBJxhKrccJQ"
+   ]
+  },
+  "rn_3ZNXzPYBP5DScZ6N": {
+   "kind": "note",
+   "label": "Question 1 Poetry Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_DYrJXCpmPDxVhmQf",
+    "spcpt_4N2YqHd66pb59ZvM",
+    "spcpt_fTnv86rKFF4GdTKf",
+    "spcpt_Bq2MnDRbX2mm6qRB",
+    "spcpt_9KrgdzwjPyf78285"
+   ]
+  },
+  "rn_ndbXkxD63VThtG9H": {
+   "kind": "note",
+   "label": "Understanding the Unseen Poetry Question - CIE IGCSE English",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_2rhtfZhmGHSQ4fRc",
+    "spcpt_X9b6rCyxfchc2VKG",
+    "spcpt_VGhvbbGzvC2KTpgb",
+    "spcpt_CkdwVMjmZW5WgmhY"
+   ]
+  },
+  "rn_czBByhWCV9v76n5y": {
+   "kind": "note",
+   "label": "Revise for the Unseen Poetry Question - CIE IGCSE English",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_7BDvNq8sTnbTTS3f",
+    "spcpt_D3FSRXRzn5xQ5Tjh",
+    "spcpt_GnJ9XFBc4YYwzTh2",
+    "spcpt_VmwtRchXz3PpWXHf"
+   ]
+  },
+  "rn_DZvdYpr82JtcK3Wj": {
+   "kind": "note",
+   "label": "Question 2 Prose Mark Scheme & Model Answer: CIE IGCSE",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_dvk5Ththb4QD95zG",
+    "spcpt_4XsYqXT8gzYd24zv",
+    "spcpt_H2DxWGGQ6z9vCHvq",
+    "spcpt_Mt5RTz9S8PRWf8Sn",
+    "spcpt_kM47zgNjStFcMT72",
+    "spcpt_TpGFntrm8htvsbwB"
+   ]
+  },
+  "rn_FDsfgGHmv8K6qsJ5": {
+   "kind": "note",
+   "label": "Question 2 Prose What The Question Is Asking: CIE IGCSE",
+   "section": "4-unseen",
+   "topic": "how-to-answer-the-unseen-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_rD7Khwkn86svM35p",
+    "spcpt_7CBxHNB8VjFM8nZT",
+    "spcpt_CMbmKwbh5GSJKYDj",
+    "spcpt_N5jF9R4p87W9tgDn"
+   ]
+  },
+  "rn_gt5qJrs9zQsN3PqF": {
+   "kind": "note",
+   "label": "Paper 4 Overview - CIE IGCSE Literature in English",
+   "section": "4-unseen",
+   "topic": "paper-4-overview",
+   "codes": [],
+   "pending": [
+    "spcpt_fScjd6x6g5Tr2BXD"
+   ]
+  },
+  "rn_ndmBvkFStTPCm6Rq": {
+   "kind": "note",
+   "label": "How To Get Full Marks: CIE IGCSE English Literature",
+   "section": "5-coursework",
+   "topic": "how-to-answer-the-coursework-assignments",
+   "codes": [],
+   "pending": [
+    "spcpt_df65TwVj7NgMcnvP",
+    "spcpt_G6GrXZMKfmJF2JHW",
+    "spcpt_BYzhfj4CJ8Vn2pzH"
+   ]
+  },
+  "rn_NqGft7cYDXPFhmw3": {
+   "kind": "note",
+   "label": "Mark Scheme & Model Answer: CIE IGCSE English Literature",
+   "section": "5-coursework",
+   "topic": "how-to-answer-the-coursework-assignments",
+   "codes": [],
+   "pending": [
+    "spcpt_2nJ6y4QSSMNxs8dK",
+    "spcpt_8hVbsSVWdmzPgC2b",
+    "spcpt_WKY94KKRMxM5pSJS",
+    "spcpt_k3TwnhSRGTDnM8XJ",
+    "spcpt_yYWyFVfXqpC8H7hy"
+   ]
+  },
+  "rn_p58MVmqRVhRpzbfr": {
+   "kind": "note",
+   "label": "Coursework Top Tips - CIE IGCSE English Literature Revision",
+   "section": "5-coursework",
+   "topic": "how-to-answer-the-coursework-assignments",
+   "codes": [],
+   "pending": [
+    "spcpt_ny87V7vW5kNjYgjq",
+    "spcpt_zFF7s8GYZ6JKpSTs",
+    "spcpt_VGk5Xb8xG9R42Wqb",
+    "spcpt_7JZrYmdsSrr6Pcbn"
+   ]
+  },
+  "qstnprt_P6fmPXG2KmNPfYKh": {
+   "kind": "question_part",
+   "label": "qstn_Qfmrtfy7TGfjfYTg / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_V5fwV9jXxDGjNBWp"
+   ]
+  },
+  "qstnprt_qX6gztt6CWbPQxZB": {
+   "kind": "question_part",
+   "label": "qstn_cRkx5F2wKxZXHVRQ / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_BDDJjGtztDDKGVBM"
+   ]
+  },
+  "qstnprt_pxryZKbxwG2fPbCc": {
+   "kind": "question_part",
+   "label": "qstn_GNt2gKGk7fyvr8vd / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_3RWnN6qc4P96t7J5"
+   ]
+  },
+  "qstnprt_7Gc8Vmpgw95j2RBP": {
+   "kind": "question_part",
+   "label": "qstn_C9fBDY9md7wHPzCj / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "fire-on-the-mountain",
+   "codes": [],
+   "pending": [
+    "spcpt_ShSRH4qT54GCjc8v"
+   ]
+  },
+  "qstnprt_FR3MYwjTc97QbdDp": {
+   "kind": "question_part",
+   "label": "qstn_BXm67ntQ3hysBwHt / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_T43KrhdrkF8pMGZ9"
+   ]
+  },
+  "qstnprt_THm7ZwBC4ckfVg3n": {
+   "kind": "question_part",
+   "label": "qstn_PfrDFjVnhP48NbyQ / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_T43KrhdrkF8pMGZ9"
+   ]
+  },
+  "qstnprt_N7FcBd7JmXywytYf": {
+   "kind": "question_part",
+   "label": "qstn_4KXWY2JfMn8Xh6Tz / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_dzkgdmBymR3mZW4W"
+   ]
+  },
+  "qstnprt_7bRvfxGGT3fBvVQQ": {
+   "kind": "question_part",
+   "label": "qstn_5NvTqjH2SkV8h3N4 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "im-the-king-of-the-castle",
+   "codes": [],
+   "pending": [
+    "spcpt_mSnVwzzmsjPqn42H"
+   ]
+  },
+  "qstnprt_TpmG3BV83Yv3q3B6": {
+   "kind": "question_part",
+   "label": "qstn_HhySTdg3V6zhSy9t / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_F7ZQ6vFRGdsxxXDg"
+   ]
+  },
+  "qstnprt_2qZDZkPvJ3zKMT2B": {
+   "kind": "question_part",
+   "label": "qstn_5HVD4YjwvyB6bvvB / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_tGHWhDgVdd3NWPgN"
+   ]
+  },
+  "qstnprt_JYPhTHyzfJWdFVqf": {
+   "kind": "question_part",
+   "label": "qstn_vmBCgmcvsqJbv4Nx / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_VycNqmgFxTgr25MG"
+   ]
+  },
+  "qstnprt_Xcnw5RFKhjRqQTyf": {
+   "kind": "question_part",
+   "label": "qstn_jds4SBmk6ztyCFDT / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_zTWG5Y7v6DB8jgC6"
+   ]
+  },
+  "qstnprt_dBDwBq3czX35zsf6": {
+   "kind": "question_part",
+   "label": "qstn_KrYHs8pDyBs46rFc / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_9bbzJ8xY7w9t9TQ6"
+   ]
+  },
+  "qstnprt_npZp4yQ7ZjnSnqWY": {
+   "kind": "question_part",
+   "label": "qstn_MSGCDxBsNwBn3tMT / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_F7ZQ6vFRGdsxxXDg"
+   ]
+  },
+  "qstnprt_485fk4RK8HZwpydF": {
+   "kind": "question_part",
+   "label": "qstn_d8q5vCxD5p6RPFDz / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "pride-and-prejudice",
+   "codes": [],
+   "pending": [
+    "spcpt_VycNqmgFxTgr25MG"
+   ]
+  },
+  "qstnprt_ZcZKbxqsCrY6x9z2": {
+   "kind": "question_part",
+   "label": "qstn_tdY44byj3M2Q8RsK / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_pwt5C7WX4Ytyxw6R"
+   ]
+  },
+  "qstnprt_m8FyR4DFKRrpgD3d": {
+   "kind": "question_part",
+   "label": "qstn_2rrb2NZRzjP7hhkJ / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_6Zxj4XQrqFy8rzYz"
+   ]
+  },
+  "qstnprt_6vwqVR75pdzJNg3j": {
+   "kind": "question_part",
+   "label": "qstn_NfszVCzhj2YRRVTY / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_XXpMjCfws559VfQH"
+   ]
+  },
+  "qstnprt_fpSkXZrytzJS6ChD": {
+   "kind": "question_part",
+   "label": "qstn_rkzQbBFTpgD9gs3J / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_P9CZjhg6c4RhpsqQ"
+   ]
+  },
+  "qstnprt_RK4n9Cvg42FgSrv6": {
+   "kind": "question_part",
+   "label": "qstn_H5dpksBMkH9nhzNQ / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_JDTSPC43cjMK4ghn"
+   ]
+  },
+  "qstnprt_BtW5M7TstcYFRmYm": {
+   "kind": "question_part",
+   "label": "qstn_xYKpCnjDGjSMdtX5 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_8JyF74Gw7bhRnmMy"
+   ]
+  },
+  "qstnprt_fjPXnwtfWtVqwGDb": {
+   "kind": "question_part",
+   "label": "qstn_7TMJXnYngBhS2kmg / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_9GvkNVF7rmk3djkz"
+   ]
+  },
+  "qstnprt_Wzzp3PWR3KCgZ99b": {
+   "kind": "question_part",
+   "label": "qstn_tS7Rzjg7HfVpgQX3 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_W4xk4hHNX48cqTff"
+   ]
+  },
+  "qstnprt_vCcVg9VB5JQd6kxj": {
+   "kind": "question_part",
+   "label": "qstn_ZDq7KSQ5Pjhcc2WY / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_xBxCYsGJxxrqWKCH"
+   ]
+  },
+  "qstnprt_9h7cmzjsp2mgHMPX": {
+   "kind": "question_part",
+   "label": "qstn_GC7JDw2RYRn6NxCN / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_Xw7zJDvHMsfxywGY"
+   ]
+  },
+  "qstnprt_bRjk7MwJBpKCwWrf": {
+   "kind": "question_part",
+   "label": "qstn_vjGFrV5TJvRdqRJw / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_bk25dqrcQChbmhcR"
+   ]
+  },
+  "qstnprt_VZ8jmjySK7hdQtBJ": {
+   "kind": "question_part",
+   "label": "qstn_yZwNXBSbSX6PnPYG / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_zkzNJ25WP7pdStY8"
+   ]
+  },
+  "qstnprt_gszV9nZXZFT8B5Fw": {
+   "kind": "question_part",
+   "label": "qstn_jKJvtfJh9kKdGHwn / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_57k26BhgZYDjnD9q"
+   ]
+  },
+  "qstnprt_bXrpRSR8zZS48CV5": {
+   "kind": "question_part",
+   "label": "qstn_ww649kZcwx79qZQz / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [],
+   "pending": [
+    "spcpt_hPwZ6Br3xR5hG7QV"
+   ]
+  },
+  "qstnprt_6RST96sdq3vQRTn6": {
+   "kind": "question_part",
+   "label": "qstn_MPP7W9Jg4vnjsVSY / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "songs-of-ourselves-volume-1",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LITERATURE_2023_2025:S21.016",
+     "official_code": "S21.016",
+     "tier": "V4_settext_title_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_qHc8HNQpJ7ZkH4H9": {
+   "kind": "question_part",
+   "label": "qstn_W76p4xdYj5SxXxsW / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_QXChscNSrvsJnKFR"
+   ]
+  },
+  "qstnprt_ydRTnCMDpqWxndCC": {
+   "kind": "question_part",
+   "label": "qstn_p3B8tyMpnSM2BgJ8 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_RtFCx4fYg7ZnY6zt"
+   ]
+  },
+  "qstnprt_YP9sHGSFGH37F3Dc": {
+   "kind": "question_part",
+   "label": "qstn_C2hGYrj9xCnGxnRj / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_yxfr38TJmSN75PYx"
+   ]
+  },
+  "qstnprt_scMGCBrrjTF5rksN": {
+   "kind": "question_part",
+   "label": "qstn_McXD4K5Wx9tmNPP7 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_bgzr6Qvc5p6tw3Z3"
+   ]
+  },
+  "qstnprt_hKpxXGHWxsSpmMgt": {
+   "kind": "question_part",
+   "label": "qstn_btvRffwMrVHTXKWM / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_qvmnxqs9GRJJR4hh"
+   ]
+  },
+  "qstnprt_M5TFSCGpJhTv937C": {
+   "kind": "question_part",
+   "label": "qstn_J6XwYQHYNBBv4NPv / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_9Jh3W5ThSR9knD8p"
+   ]
+  },
+  "qstnprt_T6YZm7VzmcgyrV88": {
+   "kind": "question_part",
+   "label": "qstn_MQ4FCpZfj4xWQNnk / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_Q39sFpHyvptHFtzR"
+   ]
+  },
+  "qstnprt_DHQ3Y6Hh7Hx88mhF": {
+   "kind": "question_part",
+   "label": "qstn_ttx9qXfrwCVxYPv4 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_9CW85TxDS2cz2jBX"
+   ]
+  },
+  "qstnprt_NxN6kmJCKRn2xpwp": {
+   "kind": "question_part",
+   "label": "qstn_xHmzXDwdvjd6nMZN / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_f3Svx2tXtYt2JqFB"
+   ]
+  },
+  "qstnprt_MmdRYGJDdxtyh6D3": {
+   "kind": "question_part",
+   "label": "qstn_vCgSGMpV6tnRKyd3 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_wB3Wy3NHXM5ph99v"
+   ]
+  },
+  "qstnprt_fVjdVySTMs7Rt8Zy": {
+   "kind": "question_part",
+   "label": "qstn_VQPrjvzF5pJgQ5Zp / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_RtFCx4fYg7ZnY6zt"
+   ]
+  },
+  "qstnprt_SKhxdhdHVP585QfG": {
+   "kind": "question_part",
+   "label": "qstn_ksYkqNfrMshWyjSk / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "stories-of-ourselves-volume-2",
+   "codes": [],
+   "pending": [
+    "spcpt_QXChscNSrvsJnKFR"
+   ]
+  },
+  "qstnprt_jHh5NKqwVGVXWM6h": {
+   "kind": "question_part",
+   "label": "qstn_Xq2cNyNVYK4nh8zb / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_MJqNnWyZy5r4vvGp"
+   ]
+  },
+  "qstnprt_rtRmtjpwWKMGQ7ZX": {
+   "kind": "question_part",
+   "label": "qstn_S2XkMHQgMsCNnYV8 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_W9Q8tkmwyTwCymdB"
+   ]
+  },
+  "qstnprt_78SvXZzpYV4yyzQW": {
+   "kind": "question_part",
+   "label": "qstn_J2Hwq4xC4qw6fy5d / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_Dmbj6ytKPnsmqQfM"
+   ]
+  },
+  "qstnprt_b888jjX7JMWcspYT": {
+   "kind": "question_part",
+   "label": "qstn_JwFjKmPjS6whTB3b / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "the-war-of-the-worlds",
+   "codes": [],
+   "pending": [
+    "spcpt_W9Q8tkmwyTwCymdB"
+   ]
+  },
+  "qstnprt_TkQzdMSxCvj6cK9Q": {
+   "kind": "question_part",
+   "label": "qstn_4cM6STg8TQ6bsnCK / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_pdNGqqgBmNfQjfcn"
+   ]
+  },
+  "qstnprt_9HSjMM4SgP3n8w3y": {
+   "kind": "question_part",
+   "label": "qstn_dJws54Jf6PXzYXMS / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_M7DtjTzDD9hZKnhR"
+   ]
+  },
+  "qstnprt_r72YfWGDHz9NwZrW": {
+   "kind": "question_part",
+   "label": "qstn_3PPwKZRsK72vh7vG / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_StsdfHcnf9QPtt5K"
+   ]
+  },
+  "qstnprt_mDh8RKqzJMctVHgy": {
+   "kind": "question_part",
+   "label": "qstn_zwwKsFpjGB8bQPqx / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_M7DtjTzDD9hZKnhR"
+   ]
+  },
+  "qstnprt_fkQnRWtQWwBt22Gm": {
+   "kind": "question_part",
+   "label": "qstn_rxdqwfmt4bKYFD8C / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "things-fall-apart",
+   "codes": [],
+   "pending": [
+    "spcpt_pdNGqqgBmNfQjfcn"
+   ]
+  },
+  "qstnprt_8nMKvrPjNqHvTvSw": {
+   "kind": "question_part",
+   "label": "qstn_Gpj9MWZBHMscSfMw / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_yVptdH6KnQ69WwdM"
+   ]
+  },
+  "qstnprt_PxVwRppfMdzpTRCk": {
+   "kind": "question_part",
+   "label": "qstn_pw7yf5vSzBBfTZdx / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_Pw5dqgydZCVrvMX4"
+   ]
+  },
+  "qstnprt_TcYSWjMS35dnZRGh": {
+   "kind": "question_part",
+   "label": "qstn_TCWYwS7xDm75BHfr / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_5XGXhkDBK2YZ9zZj"
+   ]
+  },
+  "qstnprt_K92xMPNzY5HpyZnX": {
+   "kind": "question_part",
+   "label": "qstn_T9btBrhKTwqf5rFY / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_yVptdH6KnQ69WwdM"
+   ]
+  },
+  "qstnprt_f7pTqpwhNrBCkWdv": {
+   "kind": "question_part",
+   "label": "qstn_7V9cRhnPH6g2sMGX / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_yVptdH6KnQ69WwdM"
+   ]
+  },
+  "qstnprt_cfdbCHxgbrngcQFH": {
+   "kind": "question_part",
+   "label": "qstn_SMfx6tmPS7V3pC77 / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_CPJwYpnsgKjzWHNk"
+   ]
+  },
+  "qstnprt_QdnMMXktxvvYdKZF": {
+   "kind": "question_part",
+   "label": "qstn_G9H4xWZwfmSWvx7B / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_yVptdH6KnQ69WwdM"
+   ]
+  },
+  "qstnprt_WZgqQHNXK9tgCvCM": {
+   "kind": "question_part",
+   "label": "qstn_WNQdjVrmHh6RqQxK / part 0",
+   "section": "1-poetry-and-prose",
+   "topic": "to-kill-a-mockingbird",
+   "codes": [],
+   "pending": [
+    "spcpt_DHwqx23VYHgR2Jj3"
+   ]
+  },
+  "qstnprt_Zfq7ZwGY3Y3xHQVm": {
+   "kind": "question_part",
+   "label": "qstn_VPVsKHzG5dH4jKPf / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_btZzzynPTjrHQbqw"
+   ]
+  },
+  "qstnprt_2m6cBRGz7mSgyvTm": {
+   "kind": "question_part",
+   "label": "qstn_m7jrDJNXQYS3r5Qw / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_DgdPgK4Pdrh8GFKQ"
+   ]
+  },
+  "qstnprt_VCzqNQXT2kW9kYP8": {
+   "kind": "question_part",
+   "label": "qstn_ztdVfpcj7YmQQrRB / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_DgdPgK4Pdrh8GFKQ"
+   ]
+  },
+  "qstnprt_MYrNGJZCPxpz4SfZ": {
+   "kind": "question_part",
+   "label": "qstn_Hdr7n3VnchcK5PfD / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-midsummer-nights-dream",
+   "codes": [],
+   "pending": [
+    "spcpt_BjhCKRH8x275vTMc"
+   ]
+  },
+  "qstnprt_8xYfR2pNHd3hFSrC": {
+   "kind": "question_part",
+   "label": "qstn_pw7FrgvKnz8rj2rb / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_rCd2rcF5ZHyNnn8B"
+   ]
+  },
+  "qstnprt_gyVrBQP5JM6d6JFj": {
+   "kind": "question_part",
+   "label": "qstn_6nTdZ96mPp7Qymcg / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_ZNP84cThw3bsycJ6"
+   ]
+  },
+  "qstnprt_B5Y5JGy3B9VFQm7B": {
+   "kind": "question_part",
+   "label": "qstn_h6NPYBfkRBwWR4b4 / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_xSfsnNq2Vd5h3Q7j"
+   ]
+  },
+  "qstnprt_HT8DDR8MtD952ZrP": {
+   "kind": "question_part",
+   "label": "qstn_YFBCjHCJHcMG9Tpv / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-streetcar-named-desire",
+   "codes": [],
+   "pending": [
+    "spcpt_NcxqdCVvzpHHPNgs"
+   ]
+  },
+  "qstnprt_wGRFZDHqTHzSndXD": {
+   "kind": "question_part",
+   "label": "qstn_Mm23B3hFDwyhNvnd / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_qtKPMz5mmJtBhSy6"
+   ]
+  },
+  "qstnprt_5t9jXG6rCkqFwMXY": {
+   "kind": "question_part",
+   "label": "qstn_vRf2q6m67M3qWBKr / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_vsN8fgPsNmDRfJrZ"
+   ]
+  },
+  "qstnprt_nb5xYcGMmKhjpT34": {
+   "kind": "question_part",
+   "label": "qstn_dpz2Ksts55MFythK / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_fSZpv2FKrTV2V2rR"
+   ]
+  },
+  "qstnprt_NCrcTxHfMQszGQBG": {
+   "kind": "question_part",
+   "label": "qstn_gyj8GCqfHvsR8hMJ / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_fSZpv2FKrTV2V2rR"
+   ]
+  },
+  "qstnprt_52RgQ7fVm6RTb2Q7": {
+   "kind": "question_part",
+   "label": "qstn_4BvmVK5HrR3FjTJv / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_JXf4847p8Q2bRxnf"
+   ]
+  },
+  "qstnprt_F2c7Pm2G5nrf4htf": {
+   "kind": "question_part",
+   "label": "qstn_6ckZSMQBwtsBgyqw / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_qtKPMz5mmJtBhSy6"
+   ]
+  },
+  "qstnprt_C7PxrsZgmXdVR4yD": {
+   "kind": "question_part",
+   "label": "qstn_7nCHjVbjwH3dvMkn / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_yMx5w847xzrd89jQ"
+   ]
+  },
+  "qstnprt_Q9qMkdbn4x52DS9D": {
+   "kind": "question_part",
+   "label": "qstn_tg5c5kHsFjBTTh9P / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "a-taste-of-honey",
+   "codes": [],
+   "pending": [
+    "spcpt_T8xgYCYRqPNJmh4x"
+   ]
+  },
+  "qstnprt_r5tg7syVzttP7NHX": {
+   "kind": "question_part",
+   "label": "qstn_B4sXrdz8TsRZSGrX / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_cZPywqKYmsngVxwV"
+   ]
+  },
+  "qstnprt_PQwHTJg74QRcyX7C": {
+   "kind": "question_part",
+   "label": "qstn_FhJjfGHwHyb6prY6 / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_pr6NHvrJX6TXYwJ8"
+   ]
+  },
+  "qstnprt_jwdVp8QS4gWfwHxJ": {
+   "kind": "question_part",
+   "label": "qstn_wwXYH8bxhQ4DVmDN / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_dgsXkTkRzfhZycsC"
+   ]
+  },
+  "qstnprt_3H7RZTRzg8TbG8dn": {
+   "kind": "question_part",
+   "label": "qstn_7Ngt2q2rKBXRMwWk / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "antony-and-cleopatra",
+   "codes": [],
+   "pending": [
+    "spcpt_dgsXkTkRzfhZycsC"
+   ]
+  },
+  "qstnprt_xsRtpqjXDvvg4hn7": {
+   "kind": "question_part",
+   "label": "qstn_prVyBx63vfT6YN8D / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_RhCng8QrC5nrTdfX"
+   ]
+  },
+  "qstnprt_PXBVxdpxQcPfwt3p": {
+   "kind": "question_part",
+   "label": "qstn_vX6NMHcDRJmKxDrm / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_QVJW9y5wWBFcyfsP"
+   ]
+  },
+  "qstnprt_G6NnHpcGc978hX64": {
+   "kind": "question_part",
+   "label": "qstn_jhFRcYDvbJDqXSKz / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_xtZzNMM5JZX6VNft"
+   ]
+  },
+  "qstnprt_s8nC5K8fSGC7z8HF": {
+   "kind": "question_part",
+   "label": "qstn_MrwySmvXmTZp3zv8 / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "blues-for-an-alabama-sky",
+   "codes": [],
+   "pending": [
+    "spcpt_26CPN8tdmwDSb3RK"
+   ]
+  },
+  "qstnprt_pcNchtgcc7VB7JPp": {
+   "kind": "question_part",
+   "label": "qstn_f5KFXR38KWTv663N / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_K528V9QhKN6qvJYd"
+   ]
+  },
+  "qstnprt_2fxg986n2VqvXx8t": {
+   "kind": "question_part",
+   "label": "qstn_s4fpDMRGrC55BBRV / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_x7V95TVcWttpX6Zy"
+   ]
+  },
+  "qstnprt_RskR2WgtxQYy637r": {
+   "kind": "question_part",
+   "label": "qstn_R2S2hSkDxncVZvbT / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_KG8zjBMdFFvyQPYQ"
+   ]
+  },
+  "qstnprt_6ssxgsVWjPzR7BZz": {
+   "kind": "question_part",
+   "label": "qstn_DNxqF8D3Y25JXD8h / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_DR9PPT4CqpjjyRs5"
+   ]
+  },
+  "qstnprt_cJvhHHdqprjjFsyj": {
+   "kind": "question_part",
+   "label": "qstn_ddbyWFfngMHkkcYH / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_x7V95TVcWttpX6Zy"
+   ]
+  },
+  "qstnprt_cPxgfhk4Wq7XwRMX": {
+   "kind": "question_part",
+   "label": "qstn_RX88ccpxPD6C86cc / part 0",
+   "section": "2-drama-closed-book",
+   "topic": "princess-and-the-hustler",
+   "codes": [],
+   "pending": [
+    "spcpt_WYYq3QGc4kFqh4sq"
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "syllabai.c33-batch01-check/1.0",
+  "task": "T-C33",
+  "gate": "K2-C-1",
+  "batch": "B01",
+  "generated_utc": "2026-10-01T05:20:29.214330+00:00",
+  "baseline": "feb0e1c9caceb527661d5683b997edb612349164",
+  "result": "ALL PASS",
+  "gates": [
+    {
+      "gate": "G1",
+      "name": "commissioning_record",
+      "status": "PASS",
+      "detail": "decision=AUTHORIZED verbatim='K2-C-1' invariants=9"
+    },
+    {
+      "gate": "G2",
+      "name": "record_shape",
+      "status": "PASS",
+      "detail": "nodes=11 edges=12 held=5"
+    },
+    {
+      "gate": "G3",
+      "name": "preverify_gates",
+      "status": "PASS",
+      "detail": "c33_maths_a_batch01_preverify: ALL PASS (21 checks) — record shape, SP coverage, first-batch store state, evidence allow-list (the unjoined-corpus negative control), boundary and promotion discipline all verified; the ba"
+    },
+    {
+      "gate": "G4",
+      "name": "quote_probe_gates",
+      "status": "PASS",
+      "detail": "quote probe: 47 evidence anchors checked (kinds: {'NOTE': 18, 'SPEC': 25, 'MARK_SCHEME': 4}; read channels: {'disk': 1, 'git-batch': 5})"
+    },
+    {
+      "gate": "G5",
+      "name": "review_reproducible",
+      "status": "PASS",
+      "detail": "byte-stable across rebuilds: True"
+    },
+    {
+      "gate": "G6",
+      "name": "freeze_integrity",
+      "status": "PASS",
+      "detail": "HEAD=feb0e1c9cace baseline=feb0e1c9cace out-of-footprint=[]"
+    },
+    {
+      "gate": "G7",
+      "name": "standing_checkers",
+      "status": "PASS",
+      "detail": "graph_check rc=0, check_no_hardcode rc=0"
+    }
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c33_maths_a_batch01_authorization.yaml",
+      "sha256_16": "da599532b55f51c8"
+    },
+    "decisions": {
+      "path": "scripts/c33_maths_a_batch01_decisions.yaml",
+      "sha256_16": "d82a983945c91cbb"
+    },
+    "pass2": {
+      "path": "scripts/c33_maths_a_batch01_review_pass2.yaml",
+      "sha256_16": "e876c58cd9042552"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C33_BATCH01_REVIEW_SHEET.md",
+      "sha256_16": "dca6919d3f3437d8"
+    },
+    "review_json": {
+      "path": "graph/reports/C33_BATCH01_REVIEW.json",
+      "sha256_16": "45f703c72234b1be"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "c42-r9-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r9-regate",
+  "baseline": "03b6ce5a82b36343f2f23b2a1a045fd9ec70fb91",
+  "head": "03b6ce5a82b36343f2f23b2a1a045fd9ec70fb91",
+  "fill_record": "graph/reports/C42_R9_MATHS_A_REGATE_FILL_RECORD.json",
+  "gates": [
+    {
+      "gate": "X1 input_pins",
+      "ok": true,
+      "detail": "store 925=842+83, ledger 54, R1 45, R6 10, overrides 16+7, R4 record 467, fresh 50; fill baseline == 03b6ce5a82b3 (the R7/R8 commit); HEAD 03b6ce5a82b3"
+    },
+    {
+      "gate": "X2 sampling",
+      "ok": true,
+      "detail": "seed e754fcbd0783d8dc; strata {'exact': 472, 'none': 132, 'partial': 238}; sampled {'exact': 95, 'none': 132, 'partial': 238} == recorded"
+    },
+    {
+      "gate": "X3 record_agreement",
+      "ok": true,
+      "detail": "465 verdicts == sample; fields+strata+tier signatures agree; sources {'r9-fresh': 50, 'r6-id-verdict': 10, 'r4-carried': 305, 'r1-id-verdict': 89, 'r6-section-override': 2, 'r1-section-override': 9}; fresh set == the committed judgment file"
+    },
+    {
+      "gate": "X4 mechanical_replay",
+      "ok": true,
+      "detail": "465/465 rows re-verified (quote-in-chunk, hash/heading, SUGGESTED/RULE_DERIVED)"
+    },
+    {
+      "gate": "X5 carry_forward",
+      "ok": true,
+      "detail": "305 carried CONFIRMs: triple-identical in the R4 record, outside the R6 surface (0 violations)"
+    },
+    {
+      "gate": "X6 r6_r1_override_consistency",
+      "ok": true,
+      "detail": "10 R6-anchor rows + 89 R1-anchor rows CONFIRM on operator verdicts (CORRECT codes landed verbatim); 2 R6 override rows + 9 R1 override rows follow the operator rulings incl. 2 explicit heading-only HOLD; 0 subsumed rows ride the join"
+    },
+    {
+      "gate": "X7 both_tier",
+      "ok": true,
+      "detail": "signatures {'STORE_HIGHER': 411, 'LEDGER_FOUNDATION': 54}; LEDGER_FOUNDATION rows all on ledger codes; fresh-file signatures match the recomputation"
+    },
+    {
+      "gate": "X8 part_b",
+      "ok": true,
+      "detail": "83/83 worklist rows DEFER; surfaces 2 residual + 6 R1-cleared + 12 R6-cleared + 63 gap"
+    },
+    {
+      "gate": "X9 gate_arithmetic_antiforgery",
+      "ok": true,
+      "detail": "rollup recomputed == recorded (exact 76.8% / partial 99.6% / none 100.0%); outcome FAIL correctly derived; all 925 rows SUGGESTED / RULE_DERIVED"
+    },
+    {
+      "gate": "X10 protected_surfaces",
+      "ok": true,
+      "detail": "dirty set == the R9 footprint exactly (8 files, all new); zero tracked-file changes vs 03b6ce5a82b3 (Lane C stores, chemistry, spec-links, C25-C41 + C42 scope/R0-R8 records, corpora all byte-untouched)"
+    },
+    {
+      "gate": "X11 determinism",
+      "ok": true,
+      "detail": "fill re-run: sheet + verdict record byte-identical"
+    }
+  ],
+  "passed": 11,
+  "total": 11,
+  "all_pass": true,
+  "gate_outcome_recorded_by_fill": "FAIL"
+}

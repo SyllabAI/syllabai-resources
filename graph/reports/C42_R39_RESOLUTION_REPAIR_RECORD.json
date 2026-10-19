@@ -1,0 +1,145 @@
+{
+  "schema": "c42-r39-resolution-repair-record/1.0",
+  "task": "T-C42",
+  "round": "R39",
+  "stage": "operator-delegate disposition over the R38 defect inventory (the R38 validation re-gate's 2 fresh REJECTs)",
+  "generated": "2026-10-16",
+  "operator_directive": "\"fire R39/R40\" (2026-10-16, zai-web, gateway trace 1a145a7c26a0d4e5)",
+  "loop_position": "the ELEVENTH R1-shaped repair round, the FIFTH over the promoted surface, the FIRST 2-row DEMOTE disposition round",
+  "inventory": {
+    "source": "scripts/c42_r38_fresh_verdicts.yaml (the R38 fresh judgment record's own return)",
+    "rows": [
+      {
+        "row": "basic-probability::1",
+        "mapping_id": "a5b737e510606829",
+        "note_path": "notes/6-statistics-and-probability/probability-toolkit/basic-probability.json",
+        "chunk_ordinal": 1,
+        "chunk_sha256_16": "74b5c6214777c054",
+        "current_code": "4MA1-6.3A",
+        "tier_signature": "STORE_HIGHER"
+      },
+      {
+        "row": "calculations-with-the-mean::1",
+        "mapping_id": "d545cd5f5aeae9a9",
+        "note_path": "notes/6-statistics-and-probability/statistics-toolkit/calculations-with-the-mean.json",
+        "chunk_ordinal": 1,
+        "chunk_sha256_16": "22c1475d80a7d6df",
+        "current_code": "4MA1-6.2B",
+        "tier_signature": "STORE_HIGHER"
+      }
+    ]
+  },
+  "verdicts": [
+    {
+      "row": "basic-probability::1",
+      "mapping_id": "a5b737e510606829",
+      "current_code": "4MA1-6.3A",
+      "disposition": "DEMOTE_TO_WORKLIST",
+      "target": null,
+      "basis_summary": "the section teaches the probability-scale surface verbatim ('Probability describes the likelihood of something happening', the 0-to-1 calibration, 'Probabilities can be given as fractions, decimals or percentages') and exercises NONE of 6.3A 'draw and use tree diagrams' (the 'tree' AND 'diagram' fragments absent from the chunk); no canonical target in the ratified 188 ('tree diagram' wording ONLY on 6.3A; 6.3B Higher is independent events; 6.3D applies problems; 6.3E is sample space; the non-6.3 'scale' hits are instruments/drawings/enlargements) — the R18 no-target class, the R35 a107f5041769fdd9 precedent; the ledger fact CORRECTED (6.3A IS a higher_preferred two-tier ledger row: Higher 'draw and use tree diagrams' operative / Foundation 'understand the language of probability' non-operative; 6.3B Foundation 'understand and use the probability scale' recorded as the closest Foundation-tier shape — scoping only, no 188 target); the loop's SEVENTH DEMOTE, first row of the 2-row batch"
+    },
+    {
+      "row": "calculations-with-the-mean::1",
+      "mapping_id": "d545cd5f5aeae9a9",
+      "current_code": "4MA1-6.2B",
+      "disposition": "DEMOTE_TO_WORKLIST",
+      "target": null,
+      "basis_summary": "the section teaches the mean surface verbatim ('Mean = total of values / number of values', the rearrangement discipline, the backwards problems, the 24/25-student worked example) and exercises NONE of 6.2B 'understand the concept of a measure of spread' (no range/quartiles/IQR; 'spread', 'interquartile', 'quartile' absent from the chunk; 'range' occurs only as a substring of 'rearrange'); no canonical target in the ratified 188 (the word-boundary mean/average scan hits ONLY 4.4F average speed; the 6.2 family is entirely spread/data-handling shaped; the 6.1 family is histograms/cumulative frequency) — the R18 no-target class; the ledger fact CORRECTED (6.2B IS a higher_preferred two-tier ledger row: Higher 'measure of spread' operative / Foundation 'calculate the mean, median, mode and range for a discrete data set' non-operative — the chunk DOES teach calculating the mean, a PARTIAL Foundation-shape match, which STRENGTHENS the DEMOTE); the loop's EIGHTH DEMOTE, second row of the 2-row batch"
+    }
+  ],
+  "dated_corrections": [
+    {
+      "corrects": "scripts/c42_r38_fresh_verdicts.yaml (both REJECT notes' tier clause)",
+      "defect": "the R38 fresh-verdict notes stated both codes were \"absent from the C30 ledger — single-tier, verified this round\". The live ledger (graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json, 54 rows) pins BOTH codes as two-tier rows with higher_preferred true: 6.3A Higher \"draw and use tree diagrams\" / Foundation \"understand the language of probability\"; 6.2B Higher \"understand the concept of a measure of spread\" / Foundation \"calculate the mean, median, mode and range for a discrete data set\". The clause was carried from the R35/R36 sentence shape (1.6F IS absent — a genuinely single-tier code) without re-verification this time.",
+      "impact": "NONE on the R38 verdicts, the store, or the R38 check battery — the verdicts judged the chunks against the Higher-operative wordings (both rows' tier signatures ARE STORE_HIGHER, which the ledger's higher_preferred true CONFIRMS as operative), and the R38 check's ledger assertion (X7) was the LEDGER_FOUNDATION discipline (50 rows present-in-ledger), not these codes' absence. The \"no canonical target in the ratified 188\" finding is unaffected (the 188 is the Higher registry).",
+      "correction": "the tier-artifact escape closes on the CORRECTED facts: the higher_preferred rule makes the Higher text the operative demand for the Higher course store; the Foundation texts are recorded verbatim in this round's verdict evidence as scoping context (the closest Foundation-tier shapes for these chunks' contents). The R38 files stay byte-untouched (landed records never edited — the P5 convention); this dated correction is the record of the defect."
+    }
+  ],
+  "projected_rekeys": {
+    "a5b737e510606829": "09f012e4cabef0cc",
+    "d545cd5f5aeae9a9": "80d783fb13def4e2",
+    "note": "the c40 DEMOTE convention re-key sha16(\"demoted|<note_path>|1\"), recomputed live this round for both rows"
+  },
+  "no_target_facts": {
+    "verified": true,
+    "method": "live scans of graph/igcse-maths-a/specification_points.yaml (the ratified 188) this round: 'tree diagram' hits == [6.3A]; word-boundary mean/average hits == [4.4F average speed]; 'spread' hits == [6.2B]; 'scale' hits == [4.4A instruments, 4.5C scale drawings, 5.2J/5.2L enlargements]; no Higher wording names the probability-scale or the mean/central-tendency surface",
+    "foundation_scoping": {
+      "6.3A": {
+        "higher": "draw and use tree diagrams",
+        "foundation": "understand the language of probability",
+        "higher_preferred": true
+      },
+      "6.2B": {
+        "higher": "understand the concept of a measure of spread",
+        "foundation": "calculate the mean, median, mode and range for a discrete data set",
+        "higher_preferred": true
+      },
+      "6.3B": {
+        "foundation": "understand and use the probability scale",
+        "note": "the closest Foundation-tier shape for the probability-scale chunk — scoping only, non-operative for the Higher store"
+      }
+    }
+  },
+  "anchor_shape": {
+    "considered": true,
+    "rejected": true,
+    "basis": "every sign-off of record (the R30 H3 discharges) rests on a VERBATIM demand match — neither chunk teaches its joined code's demand word for word (both pins are coarse-join mislabels, the R29 4.11C root's class); an operator-authored anchor would place non-6.3A / non-6.2B surfaces on the validated sets against the rows' own of-record REJECTs (the R36 reasoning verbatim)"
+  },
+  "note_level_scoping": "both corpus anchors STAND at the untouched join layer: spcpt_FVX7YRftjhnwYHQF (basic-probability) at 6.3A — the note keeps ords 0/2/3/4/5; spcpt_n9ZtYfjh8sFCp5Kz (calculations-with-the-mean) at 6.2B — the note keeps ord 0. The resolution file stays byte-untouched (since R14); no new c40-pinned adjudications",
+  "census_projected": {
+    "promoted": "830 -> 828 (825 from the R5 chain [832 - 1 R26 - 3 R30 - 1 R36 - 2 R39 exclusions] + 3 R30-added sign-offs)",
+    "anchored": "834 -> 832 (828 HUMAN_VALIDATED + 4 anchored SUGGESTED)",
+    "unresolved_span": "28 -> 30 (the R39 DEMOTE batch of 2)",
+    "uncovered_sp": "55 -> 55",
+    "store_rows": "917 -> 917 (the DEMOTE rows re-key into the worklist — chunk identity intact, the W3 invariant; no row vanishes)",
+    "covered": "133 -> 133 (6.3A keeps 17, 6.2B keeps 23 — verified row-by-row this round)",
+    "per_code": "4MA1-6.3A anchored 18 -> 17; 4MA1-6.2B anchored 24 -> 23",
+    "worklist_demote_landed_class": "8 -> 10",
+    "discipline": "PROJECTED, ASSERTED NOWHERE — the DC-R24-01 discipline; every count lands at the R40-shaped rebuild lane, which computes its own delta proofs"
+  },
+  "baseline": {
+    "round_start_commit": "f2556cc395eb52dd09aabdee144f9299de7d13b1",
+    "store_sha16": "8d8474c59ca6341f",
+    "store_rows": "917 = 830 HUMAN_VALIDATED + 4 anchored SUGGESTED + 83 worklist (28 unresolved-span + 55 uncovered-SP)",
+    "covered": "133/188",
+    "r5_promotions_sha16": "9bad739bd79e5899 (byte-unchanged since R5)"
+  },
+  "carriers": [
+    {
+      "path": "scripts/c42_r39_repair_verdicts.yaml",
+      "sha256_16": "434447bf8e9df58a",
+      "role": "the operator-owned verdict record (2 DEMOTE verdicts + the zero-retain contract + 2 scoping notes + 2 census remarks + the dated correction)"
+    },
+    {
+      "path": "scripts/c42_section_overrides_r39.yaml",
+      "sha256_16": "a6c9bf11028e6325",
+      "role": "the consuming-lane override map (schema c42-r28-section-overrides/1.0, 2 verdicted DEMOTE entries, override_code null per the c40 R8 rule)"
+    },
+    {
+      "path": "scripts/c42_r39_promotions_amendment.yaml",
+      "sha256_16": "2bf4cb7240bffa14",
+      "role": "the promotions amendment (schema c42-r31-promotions-amendment/1.0, 0 supersedes + 2 excluded + 0 added — the SECOND exclusion-only record, prior_amendments R26+R30+R33+R36, base pin 9bad739bd79e5899)"
+    }
+  ],
+  "carrier_emitter": "scripts/c42_r39_override_projection.py (idempotent, byte-identical re-runs verified this round)",
+  "check": {
+    "script": "scripts/c42_r39_repair_check.py",
+    "report": "graph/reports/C42_R39_REPAIR_CHECK.json",
+    "battery": "A1 inventory agreement (the 2-row disposition set == verdicts == map == amendment exclusions, the not-fired guards over both notes' siblings and the full 6.3A/6.2B keeper sets); A2 projection agreement (map == verdicts, retains empty, 2 scoping notes, 2 remarks, EXACTLY ONE dated correction, amendment schema + base pin + prior_amendments R26+R30+R33+R36); A3 code domain (override_code null x2, current codes == the live substrate, both movers HUMAN_VALIDATED); A4 wordings + THE CORRECTED ledger facts + corpus pins (registry wordings verbatim; the no-target scans over the 188; 6.3A/6.2B PRESENT in the ledger as higher_preferred two-tier rows with the Foundation texts verbatim; the corpus chunks read live via the c40 reader with the negative pins); A5 joins STAND (both anchors) + resolution byte-untouched; A6 substrate pins (the R37/R38 landing of record, ZERO store bytes this round, 917 = 830 + 4 + 83, per-code censuses 18/24, the meta pins); A7 idempotency; A8/A10 footprint + commit state; A9 round artifacts + the projected re-keys recomputed live"
+  },
+  "scope_guards": "chemistry, parsed canonical bundles, the Lane C stores, spec-links/**, the C25-C41 records, the C42 scope/R0-R38 records, the C30 ledger, the resolution (byte-untouched since R14), the R1-R33 maps + verdicts + amendments, the R36 carriers, the R37/R38 records, the R5 promotions file, the store itself, the corpus — all byte-untouched",
+  "footprint": [
+    "scripts/c42_r39_repair_verdicts.yaml",
+    "scripts/c42_r39_override_projection.py",
+    "scripts/c42_r39_repair_check.py",
+    "scripts/c42_section_overrides_r39.yaml",
+    "scripts/c42_r39_promotions_amendment.yaml",
+    "graph/reports/C42_R39_RESOLUTION_REPAIR_RECORD.md",
+    "graph/reports/C42_R39_RESOLUTION_REPAIR_RECORD.json",
+    "graph/reports/C42_R39_REPAIR_CHECK.json"
+  ],
+  "next_lanes": [
+    "R40 — the substrate re-build consuming the R39 map AND amendment (2 exclusions, zero supersedes, zero additions; the delta proofs; the B-series battery). The store moves THERE, not here.",
+    "the next validation re-gate (R41-shaped) — NOT named by the directive; each the operator's call, explicit instruction only"
+  ]
+}

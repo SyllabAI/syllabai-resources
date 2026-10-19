@@ -1,0 +1,112 @@
+{
+  "schema": "syllabai.c34-batch02-review/1.0",
+  "task": "T-C34",
+  "gate": "K2-C-2",
+  "generated_utc": "2026-10-01T06:21:41.525139+00:00",
+  "decision_record": {
+    "path": "scripts/c34_maths_a_batch02_decisions.yaml",
+    "sha256_16": "5c548f576ba141f0"
+  },
+  "pass2_record": {
+    "path": "scripts/c34_maths_a_batch02_review_pass2.yaml",
+    "sha256_16": "e361a7e6ca523cfe"
+  },
+  "authorization": {
+    "path": "scripts/c34_maths_a_batch02_authorization.yaml",
+    "sha256_16": "8bed477924bf458c",
+    "directive_verbatim": "K2-C-2"
+  },
+  "totals": {
+    "concept_nodes": 12,
+    "misconception_nodes": 2,
+    "authored_edges": 10,
+    "requires_prerequisite_edges": 6,
+    "wap_edges": 2,
+    "remediated_by_edges": 2,
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": 3,
+    "node_attachments": 14,
+    "derived_partof_at_apply": 14,
+    "evidence_anchors": 61
+  },
+  "pass2_agreement": {
+    "nodes": "14/14 CONFIRM",
+    "edges": "10 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-1.2F",
+      "4MA1-1.2G",
+      "4MA1-1.2I",
+      "4MA1-1.3A",
+      "4MA1-1.3C",
+      "4MA1-1.4A",
+      "4MA1-1.4B"
+    ],
+    "notes_joined_count": 7,
+    "spec_text_only_sps": [
+      "4MA1-1.2E",
+      "4MA1-1.2H",
+      "4MA1-1.3B",
+      "4MA1-1.3D",
+      "4MA1-1.3E"
+    ],
+    "spec_text_only_count": 5,
+    "source": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json (the T-C32 K2-A lane artifact, 202 joins / 111 codes) — the C31 §3 standing input to Lane C, restated per batch. 7 of the 12 slice SPs carry note-level anchors through the operator-worked AI_VALIDATED substrate (13 join rows over 11 distinct note files; multiplying-and-dividing and simplifying-surds each carry two in-slice anchors); the other 5 author from the ratified spec-text store alone (SPEC-kind evidence), per the C31 scope record §3. Join-tier composition of the 13 rows: 6 P1_name_fragment_join, 2 P2_page_context_join, 1 P2_operator_content_join, 4 R1_parse_repair_statement_join — all operator-delegated T-SPEC-7/8/9 verdicts, inherited 1:1, none re-derived here.",
+    "ms_evidence_sps": [
+      "4MA1-1.2F",
+      "4MA1-1.3A",
+      "4MA1-1.3C",
+      "4MA1-1.4B"
+    ],
+    "ms_note": "the SME-ExamQuestion corpus carries per-topic mark-scheme surfaces (mark-schemes.md); three of the slice's topics supply MARK_SCHEME-kind evidence — the fractions topic MS for the common-denominator add/subtract demand (the same surface B01 pinned for 1.2C), the fractions-decimals-and-percentages topic MS for the recurring-decimal algebraic method and the decimal-place column comparison, and the surds topic MS for the rationalising demand AND the batch's two documented wrong-answer classes. This is a PARTIAL MS-documentation shape (the other B02-topic MS rows document correct procedures only), the chemistry batch-3/4/10 PARTIAL-coverage precedent."
+  },
+  "held_ids": [
+    "B02-H-01",
+    "B02-H-02",
+    "B02-H-03",
+    "B02-H-04",
+    "B02-H-05",
+    "B02-H-06",
+    "B02-H-07",
+    "B02-H-08"
+  ],
+  "inherited_held_quarantine": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05"
+  ],
+  "identity_decisions": [
+    "B02-ID-01",
+    "B02-ID-02",
+    "B02-ID-03"
+  ],
+  "misconception_mints": [
+    "4MA1-MIS-SURD-FACTOR-SWAP",
+    "4MA1-MIS-CONJUGATE-EXPANSION-SIGN"
+  ],
+  "uncited_join_census": [
+    "SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/number-toolkit/negative-numbers.md (joined to 4MA1-1.4A; signed-arithmetic content does not state the surds demand — disposition on the 1.4A node's derivation notes)",
+    "SME-RevisionNotes/igcse-maths-a-18-higher/notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-notation.md (joined to 4MA1-1.3A; letters-for-unknowns content recorded on the held B02-H-04 row instead)"
+  ],
+  "inherited_boundary_map": [
+    "4MA1-1.2F",
+    "4MA1-1.2I",
+    "4MA1-1.3B",
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A"
+  ],
+  "future_batch_boundary_map": [
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A",
+    "4MA1-1.8B"
+  ],
+  "stores_grown": 0
+}

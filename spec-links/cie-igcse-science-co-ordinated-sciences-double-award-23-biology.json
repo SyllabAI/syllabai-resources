@@ -1,0 +1,3954 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-science-co-ordinated-sciences-double-award-23-biology",
+ "qual": "cie-igcse-science-co-ordinated-sciences-double-award-2025-2027",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-science-co-ordinated-sciences-double-award-2025-2027",
+  "family": "tier_columns",
+  "official_points": 632
+ },
+ "totals": {
+  "items": 339,
+  "items_with_codes": 67,
+  "by_kind": {
+   "notes": 103,
+   "question_parts": 236,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 19,
+   "question_parts": 48,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 152,
+  "parts": 292,
+  "universe_ids": 152,
+  "universe_resolved": 22,
+  "pending_refs": 372,
+  "flashcards_discovered_uncoded": 617,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 22,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 22,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 130,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 24,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 17,
+    "no_unique_identity": 89
+   },
+   "dangling_eq_refs_pending": 0
+  }
+ },
+ "items": {
+  "rn_FTVpWRqf9ttJsznc": {
+   "kind": "note",
+   "label": "Chemicals & Life | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.1",
+     "official_code": "B4.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_mB3mxWZjnQc8vX3b": {
+   "kind": "note",
+   "label": "Food Tests | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "rn_8ybjgpP8FJsB93xH": {
+   "kind": "note",
+   "label": "Characteristics of Living Organisms | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_G5ZWHDyNYtX8Bk6R": {
+   "kind": "note",
+   "label": "Homeostasis & Temperature Control | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_qczFcMS5gQn5nnFP"
+   ]
+  },
+  "rn_mfB8hKh5qgttrSPy": {
+   "kind": "note",
+   "label": "Homeostasis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_s3bJCQw9GWTdkSfj",
+    "spcpt_7wdsBRVc9xWtGyhB",
+    "spcpt_GVj8GGkjsccWFWsk"
+   ]
+  },
+  "rn_vmKkx7JXsxq5Zzps": {
+   "kind": "note",
+   "label": "Hormones in Humans | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_RdRhRPg3KwypwXc9",
+    "spcpt_TK3GZvBVQZTcfVbP",
+    "spcpt_rJN5xmCfSvGSNKfk"
+   ]
+  },
+  "rn_qj7tFZpypZXVdhNh": {
+   "kind": "note",
+   "label": "Mammalian Nervous System | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_rPWdJKNmQrB255p8"
+   ]
+  },
+  "rn_JbcQ8YYtMk6pzxYm": {
+   "kind": "note",
+   "label": "Sense Organs | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_VPSHdjVd7myg5Cqb"
+   ]
+  },
+  "rn_HW3sXZF587fZtWkh": {
+   "kind": "note",
+   "label": "The Reflex Arc | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_FwRXZNzMK6ZzdxrT"
+   ]
+  },
+  "rn_TDwjbcs8nmk3VYd8": {
+   "kind": "note",
+   "label": "Types of Neurones | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_hKVDdqc8Y5Vj5nQj"
+   ]
+  },
+  "rn_9tCrGpmBM9DD44cc": {
+   "kind": "note",
+   "label": "Active Immunity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_h2Yn8XHjhpbhjQMn"
+   ]
+  },
+  "rn_kjZwPbg86xc4M25T": {
+   "kind": "note",
+   "label": "Antigens & Antibodies | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_4WVq8jH2CRxT8JjS"
+   ]
+  },
+  "rn_s7jQJFrRHsrkPJ5F": {
+   "kind": "note",
+   "label": "Controlling the Spread of Disease | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B10.1.5",
+     "official_code": "B10.1.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_92P8W8BbzTWY3dXk": {
+   "kind": "note",
+   "label": "Pathogens & Barriers | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B10.1.4",
+     "official_code": "B10.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq",
+    "spcpt_Z2rGFpyKWx9cKpB7"
+   ]
+  },
+  "rn_p7CyPyFKMYM8MMrd": {
+   "kind": "note",
+   "label": "Preventing the Spread of Disease | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_WznM9smQtsNk876x",
+    "spcpt_7mqFGKqMNV2FQhWT"
+   ]
+  },
+  "rn_vFdyr9swgnR8GPJF": {
+   "kind": "note",
+   "label": "Vaccination | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_ypKfYtsXpPChmvYP"
+   ]
+  },
+  "rn_sNYkxk64rRVBH92c": {
+   "kind": "note",
+   "label": "Drugs for Medicine | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_gjgHMsM6p5yQ7QnN",
+    "spcpt_tpkxWq3xZWTrrwC5",
+    "spcpt_x3RVPVdsBsxVHphB"
+   ]
+  },
+  "rn_qvDFKnYQqwZtRQ89": {
+   "kind": "note",
+   "label": "Enzyme Action & Specificity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_63nvfjHzNwNXtM7v"
+   ]
+  },
+  "rn_8wtVNXtBPdNT8r5V": {
+   "kind": "note",
+   "label": "Enzyme Investigations | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8gkFy3mw29ZnwRqg",
+    "spcpt_6PwGnQXnymYmBShg"
+   ]
+  },
+  "rn_x4JQGWFjBJ9VsSPY": {
+   "kind": "note",
+   "label": "Enzymes & pH | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_sGTvKmZpTSd9qKGK"
+   ]
+  },
+  "rn_7BfNMq9wJyTCS77D": {
+   "kind": "note",
+   "label": "Enzymes & Temperature | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_GKzqChJ4dZpB6vhr"
+   ]
+  },
+  "rn_hYkhY2dyyZvhXy3b": {
+   "kind": "note",
+   "label": "Enzymes | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8Zz3VggDbRrddpbW"
+   ]
+  },
+  "rn_dp8kvTPrpKvKCyGx": {
+   "kind": "note",
+   "label": "Differences in Inspired & Expired Air | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_z2tZFXhyWkQ7J93c"
+   ]
+  },
+  "rn_FXG8ZZGgB9gXJgdS": {
+   "kind": "note",
+   "label": "Explaining differences in Inspired &  Expired Air | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_XCKPFKnNP6ysVnnR"
+   ]
+  },
+  "rn_cqFppW7SyfxZ3bHR": {
+   "kind": "note",
+   "label": "Explaining the Link Between Physical Activity & Breathing | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_99JzfZyr7sM8svC4"
+   ]
+  },
+  "rn_v72rdzMnm4XjhZjV": {
+   "kind": "note",
+   "label": "Features of Gas Exchange Surfaces | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_gDB2kgBJN6XxWRkv"
+   ]
+  },
+  "rn_bZ2zCDFQSBN34qHM": {
+   "kind": "note",
+   "label": "Investigating the Differences in Inspired & Expired Air | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_tKkWNBVwqgHMC5jr"
+   ]
+  },
+  "rn_C99dHz4Mf6GGxPQk": {
+   "kind": "note",
+   "label": "Investigating the Effects of Physical Activity on Breathing | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_DcvGGypqsWDXfBqq"
+   ]
+  },
+  "rn_d68d2SkP5XrcC2W5": {
+   "kind": "note",
+   "label": "The Breathing System | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_MdkWsQFCVczqrrg6": {
+   "kind": "note",
+   "label": "Endangered Species | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-influences-on-ecosystems",
+   "topic": "human-impact-biodiversity-pollution-and-conservation",
+   "codes": [],
+   "pending": [
+    "spcpt_TQBzp2d754mjmRF2"
+   ]
+  },
+  "rn_YCxccQ6qgq9T8VgP": {
+   "kind": "note",
+   "label": "The Importance of Biodiversity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-influences-on-ecosystems",
+   "topic": "human-impact-biodiversity-pollution-and-conservation",
+   "codes": [],
+   "pending": [
+    "spcpt_bddxHmKFcWTFWb98",
+    "spcpt_2cyJ6x7txWtwYB9Y",
+    "spcpt_FDWRdK7RcZjjYPyz"
+   ]
+  },
+  "rn_rF263f3GjYZXj9sD": {
+   "kind": "note",
+   "label": "Bile & Emulsification | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_Xd2d6bkxsj9c7Qm9"
+   ]
+  },
+  "rn_bGYQnMtP3jTf5TrS": {
+   "kind": "note",
+   "label": "Chemical Digestion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_Ks73GtZTt68tJ3Gp"
+   ]
+  },
+  "rn_P6mRkRGc46wH9THg": {
+   "kind": "note",
+   "label": "Diet & Deficiencies | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B7.1.1",
+     "official_code": "B7.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B7.1.3",
+     "official_code": "B7.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_fp63Z4xYds5wrNbJ": {
+   "kind": "note",
+   "label": "Digestive System | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_cvnSpMbNfy2xRs7x",
+    "spcpt_tNs7zJVHyTqhk92r"
+   ]
+  },
+  "rn_ry8bsNzCwKDHpWjz": {
+   "kind": "note",
+   "label": "Enzymes in Digestion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_XN7Wc6KVz69nDSBy"
+   ]
+  },
+  "rn_78c3YMJg7DKXH2mG": {
+   "kind": "note",
+   "label": "Hydrochloric Acid | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_9g786GQkSTMSfFt8"
+   ]
+  },
+  "rn_rtgtW37ggBjR8M9v": {
+   "kind": "note",
+   "label": "Physical Digestion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_DjqGVyMPRh8Gc7QX"
+   ]
+  },
+  "rn_z32FGDGQKrYGdcY2": {
+   "kind": "note",
+   "label": "Chromosomes, Genes & Proteins | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xWKDNTvfQyBRrhxv"
+   ]
+  },
+  "rn_Fh252Pdy2qSCvTfp": {
+   "kind": "note",
+   "label": "Control of Gene Expression | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_jKqSfgBvPzhFFh5x"
+   ]
+  },
+  "rn_szQRmDTTJkjkJBcG": {
+   "kind": "note",
+   "label": "Meiosis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_VGFTvfbJZKYQPjn5"
+   ]
+  },
+  "rn_y92Zs9z8SB8NhS6D": {
+   "kind": "note",
+   "label": "Mitosis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xP8VZ4wSf9HTdKMd"
+   ]
+  },
+  "rn_Sc8HMbYZ3JRXVDTK": {
+   "kind": "note",
+   "label": "Monohybrid Inheritance | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_JMYbfjydfVnfpRTZ"
+   ]
+  },
+  "rn_d896WzJNHWRmpBcx": {
+   "kind": "note",
+   "label": "The Inheritance of Sex | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.1.4",
+     "official_code": "B16.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_jQpxVW5JkfYMMfbK": {
+   "kind": "note",
+   "label": "Active Transport | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_jcDsrgSCyz7Ty93K"
+   ]
+  },
+  "rn_6zR3bjrTJF3DFjcR": {
+   "kind": "note",
+   "label": "Diffusion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_tWGDNbtgKPsqTd5d"
+   ]
+  },
+  "rn_j8gKGtycyXQtSmkY": {
+   "kind": "note",
+   "label": "Factors that Influence Diffusion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_zTT9ww7dS9xsHynK"
+   ]
+  },
+  "rn_8Jkrsw53pPnRdw9d": {
+   "kind": "note",
+   "label": "Importance of Active Transport | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_r9srPw7yGRQMTSZ8"
+   ]
+  },
+  "rn_B35mrnWS5PQ5WnSP": {
+   "kind": "note",
+   "label": "Osmosis Experiments | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_F4y3SqDTrZdxZ8bQ"
+   ]
+  },
+  "rn_qPtq62Kqs4F3Qrd9": {
+   "kind": "note",
+   "label": "Osmosis in Animals & Plants | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_JHvFpKgNnDgdYY2b",
+    "spcpt_pqcfRtFQvZTqWy9n"
+   ]
+  },
+  "rn_STCHw86WjBYNxnxz": {
+   "kind": "note",
+   "label": "Osmosis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_qzd5hDr9JVSmPBWw"
+   ]
+  },
+  "rn_pYRcyhZqbQxhsS8W": {
+   "kind": "note",
+   "label": "Cell Structure | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ",
+    "spcpt_7T8xT94wKnqfx6hp",
+    "spcpt_Xz8HFk73jWRBfSn3"
+   ]
+  },
+  "rn_fWxP9V7zQ5wwQnsH": {
+   "kind": "note",
+   "label": "Converting Between Units | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_YDfKhrVnq4ryvkC6"
+   ]
+  },
+  "rn_HFM8VxZc7rkcGnVQ": {
+   "kind": "note",
+   "label": "Magnification Formula | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_qk7sZzJtqBnqrp4v"
+   ]
+  },
+  "rn_4wvMnF2KpwTXv2mM": {
+   "kind": "note",
+   "label": "Organisation of Cells | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B2.1.6",
+     "official_code": "B2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_HyFTMkCxS2prdz3P",
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "rn_9KKGNjYvvH9v6PVS": {
+   "kind": "note",
+   "label": "Efficiency of Energy Transfer | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [],
+   "pending": [
+    "spcpt_mdzFMx7DQz5thZBv"
+   ]
+  },
+  "rn_k4FQTwkWKHsCzWVW": {
+   "kind": "note",
+   "label": "Food Chains & Food Webs | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.2.10",
+     "official_code": "B18.2.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_qR4RcFs6WcKkSZQj": {
+   "kind": "note",
+   "label": "Nutrient Cycles | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.3.1",
+     "official_code": "B18.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_vjbYJwMfGc39wx4K": {
+   "kind": "note",
+   "label": "Transfer of Energy | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [],
+   "pending": [
+    "spcpt_QFxVrWG2M3QZZVJj"
+   ]
+  },
+  "rn_ZTZ6YGTRKFXXk69J": {
+   "kind": "note",
+   "label": "Trophic Levels | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [],
+   "pending": [
+    "spcpt_ZNxJCryKcsQHjSqc"
+   ]
+  },
+  "rn_phyJnPWXXgzkrJjD": {
+   "kind": "note",
+   "label": "Chlorophyll | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_SjR5d57tgQyk4CB2",
+    "spcpt_Y5B3KYcxbh34tR49"
+   ]
+  },
+  "rn_QrNy8vyTsH8dG3r7": {
+   "kind": "note",
+   "label": "Environmental Factors & the Rate of Photosynthesis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_x7h68tb5mMhWWy4h"
+   ]
+  },
+  "rn_x8jKbpsmC5F2F4PM": {
+   "kind": "note",
+   "label": "Identifying Leaf Structures in a Dicotyledonous Plant | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_hRhXx25YTYmp3pNS",
+    "spcpt_PpYMQtvsB7Z2Yzrn"
+   ]
+  },
+  "rn_XVYy6ZfD77r8rMBk": {
+   "kind": "note",
+   "label": "Investigating Gas Exchange | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_P8QVdWms8kDbkxdY"
+   ]
+  },
+  "rn_t3tzwQyScpcxWktx": {
+   "kind": "note",
+   "label": "Investigating the Need for Chlorophyll, Light & Carbon Dioxide | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_M6hkXJ3RCqYsJq7H",
+    "spcpt_MmJWPZxTHs3RrFm7",
+    "spcpt_2X6GXm34zntcy7Ds"
+   ]
+  },
+  "rn_v7zykB49KfvF78kj": {
+   "kind": "note",
+   "label": "Leaf Adaptations | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_Fw8G5pkpDJqmdG3z"
+   ]
+  },
+  "rn_kcxmBpCm9XJ3Rdqb": {
+   "kind": "note",
+   "label": "Minerals in Plants | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_4bg2tjBWVQZDRZcN"
+   ]
+  },
+  "rn_kNn4d2vfR2q2DyMn": {
+   "kind": "note",
+   "label": "Photosynthesis Chemical Equation | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fS22D42Wd9Qd9vW5"
+   ]
+  },
+  "rn_DjpmrBnYPDTxTK7K": {
+   "kind": "note",
+   "label": "Photosynthesis | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_hxv6kjzZ4ZnYcqzy",
+    "spcpt_3XBpMFgXWYjdTzqr"
+   ]
+  },
+  "rn_CVpHDMcmsWqfgQvz": {
+   "kind": "note",
+   "label": "Use & Storage of Carbohydrates | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_nng8Tr7BKzN3qYJD"
+   ]
+  },
+  "rn_8rc2r2v2zbRQ2V5W": {
+   "kind": "note",
+   "label": "Asexual Reproduction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.1.2",
+     "official_code": "B15.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_yRXpY3PmyZzbvGg3",
+    "spcpt_dXk4vwCkRGwM34Gw"
+   ]
+  },
+  "rn_kP28yDc3K7WWKmqm": {
+   "kind": "note",
+   "label": "Sexual Hormones in Humans | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.4.4",
+     "official_code": "B15.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.4.5",
+     "official_code": "B15.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_njjxCNckHZHH6YYP": {
+   "kind": "note",
+   "label": "Sexual Reproduction in Humans | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_Ghy9xkGBXgSyykH7",
+    "spcpt_nPRpSmk4zFRyKjmS",
+    "spcpt_vGtTC3DvcdH5pxFj",
+    "spcpt_TkcN6NYdpFPJMpvk"
+   ]
+  },
+  "rn_xQzbFWfmfDfFDmQT": {
+   "kind": "note",
+   "label": "Sexual Reproduction in Plants | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_dXP2ZqCZsrBNPKwG",
+    "spcpt_bhK8BpDDKR53NhYZ",
+    "spcpt_6NbPmZQ5HYbcwRbK",
+    "spcpt_7XYt9rMRWMsr6qv3"
+   ]
+  },
+  "rn_ZSnW3mNxXcHbVzmN": {
+   "kind": "note",
+   "label": "Sexual Reproduction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_78sK3VJ7SPwhMtZT",
+    "spcpt_9gS6YKXdH8TFS4gv",
+    "spcpt_Hpx3DbrsRW6RnfVC"
+   ]
+  },
+  "rn_SbRrgprM2ZpWTpj4": {
+   "kind": "note",
+   "label": "Sexually Transmitted Infections | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_tPxsXpgRJxFhfWwH",
+    "spcpt_mzPdPDPdQkYbYFTQ",
+    "spcpt_DJGYy3zf6STTHDGX"
+   ]
+  },
+  "rn_P7mJpsy7wHdSsqHk": {
+   "kind": "note",
+   "label": "Aerobic Respiration | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q",
+    "spcpt_yp8gRvpyPv7zGGck"
+   ]
+  },
+  "rn_9VWmN73VmGW42NCs": {
+   "kind": "note",
+   "label": "Anaerobic Respiration | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F",
+    "spcpt_GfsndxxBpsJ29TX6"
+   ]
+  },
+  "rn_2qXThkD9RpgKXc5R": {
+   "kind": "note",
+   "label": "Respiration in Cells | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B12.1.1",
+     "official_code": "B12.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_7vQ6nkXrRc8sbWvt"
+   ]
+  },
+  "rn_ZgFwCcCS7wX6MM6Q": {
+   "kind": "note",
+   "label": "Blood Clotting | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_xSPW2fg6ykV8NmQy"
+   ]
+  },
+  "rn_wTjpdd9mCBcng5Rh": {
+   "kind": "note",
+   "label": "Blood Vessels | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.3.1",
+     "official_code": "B9.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_VZbVmSfXr6jQxcCs": {
+   "kind": "note",
+   "label": "Circulatory System Continued | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_G4hYr5v2JNtZVq6n",
+    "spcpt_Jyj7Nr4h3cbYQgQJ"
+   ]
+  },
+  "rn_5RpFRMQkvXFrZ2m6": {
+   "kind": "note",
+   "label": "Circulatory System | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.1.1",
+     "official_code": "B9.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_qK5hSwX4BNTNMxwP": {
+   "kind": "note",
+   "label": "Components of Blood | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_jb7r3tGdfjtvDH7z",
+    "spcpt_rQMwYjyn75GpxtY7",
+    "spcpt_gsjnWZwqkPN53VFF"
+   ]
+  },
+  "rn_QtF5W9NGrv3V7rXy": {
+   "kind": "note",
+   "label": "Coronary Heart Disease | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.2.5",
+     "official_code": "B9.2.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_tDpgJzGYz3QYbPh9"
+   ]
+  },
+  "rn_65wQksP4pyqVffdW": {
+   "kind": "note",
+   "label": "Explaining the Effect of Physical Activity on Heart Rate | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_WYHZrrzB3HwD8Yht"
+   ]
+  },
+  "rn_MjQ4yYTwXm494SdC": {
+   "kind": "note",
+   "label": "Functioning of the Heart | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_bjcs5T4KrrT3xZfy"
+   ]
+  },
+  "rn_Snvp5dXbsNVxjnjp": {
+   "kind": "note",
+   "label": "Investigating Effect of Physical Activity on Heart Rate | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_NSQz62BDRHxPVjjq"
+   ]
+  },
+  "rn_Pq8M4654523Rr69k": {
+   "kind": "note",
+   "label": "Main Blood Vessels in the Body | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_WRNCbBbPWqSpVjYY"
+   ]
+  },
+  "rn_cpTP6B7wBDrkpH8P": {
+   "kind": "note",
+   "label": "Monitoring Activity of the Heart | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_G95wgdmNV4XhyXCR"
+   ]
+  },
+  "rn_2vdZks5QSPqR754h": {
+   "kind": "note",
+   "label": "Structure & Function of Blood Vessels | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_RRXCsbf9qBnGJpHK"
+   ]
+  },
+  "rn_nRWhHSGhgnfBhPyQ": {
+   "kind": "note",
+   "label": "The Mammalian Heart | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.2.1",
+     "official_code": "B9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_mqRKk3Cz6NrM2cVY": {
+   "kind": "note",
+   "label": "White Blood Cells | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_gGDz2m6k6t7GDBJT"
+   ]
+  },
+  "rn_Y7tCWFQkpf4SXyFn": {
+   "kind": "note",
+   "label": "Explaining the Effects of Temperature, Wind Speed & Humidity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_hZBxHtYq8pqMCrMV",
+    "spcpt_JhMnts7CMWb9j9S2"
+   ]
+  },
+  "rn_zTHXrB7d4vDjVXnm": {
+   "kind": "note",
+   "label": "Investigating Temperature & Wind Speed | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_3XBNPKPkrSbND2vy"
+   ]
+  },
+  "rn_Yd3swwwpS65yk27y": {
+   "kind": "note",
+   "label": "Pathway Taken by Water | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B8.2.3",
+     "official_code": "B8.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_Dqy2ndv3xDdNqgv9": {
+   "kind": "note",
+   "label": "Root Hair Cells | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_K7cRy27N88hsSxJS"
+   ]
+  },
+  "rn_DSxFRDJvzJPd2zSy": {
+   "kind": "note",
+   "label": "Translocation | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt"
+   ]
+  },
+  "rn_RgjK3zdY8VHPfZBp": {
+   "kind": "note",
+   "label": "Transpiration | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "rn_x39FTzVvFw4wfc2D": {
+   "kind": "note",
+   "label": "Xylem & Phloem | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_Rg2bYhpZFbpF42dF"
+   ]
+  },
+  "rn_bzxRjzsPMFTXXKMd": {
+   "kind": "note",
+   "label": "Artificial Selection | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_JWnF6wTmZCRSsSRS"
+   ]
+  },
+  "rn_XFVKjvnB5zVbpjzV": {
+   "kind": "note",
+   "label": "Natural Selection | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_HSWSQYrpN7Fsm46V",
+    "spcpt_NbChnfjNHzsv4DCb"
+   ]
+  },
+  "rn_HS8KrSJM2DgcCb7B": {
+   "kind": "note",
+   "label": "Variation | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_p992ynJ6ZzqNmQFT",
+    "spcpt_wmpdkyDrWxqRGBNw"
+   ]
+  },
+  "qstnprt_xhWsTFQBN96dgN65": {
+   "kind": "question_part",
+   "label": "qstn_KqvT4WbhZPWtn7Bh / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_XN7Wc6KVz69nDSBy"
+   ]
+  },
+  "qstnprt_9CnZyGYPhRdRhfqF": {
+   "kind": "question_part",
+   "label": "qstn_tY8NBRtky2jrBzvW / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_9rM5NvXmsVHFJpfW": {
+   "kind": "question_part",
+   "label": "qstn_ZwzF2CYfDTVXzgcX / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.1",
+     "official_code": "B4.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_PKZVBcMb9yQ3R9V7": {
+   "kind": "question_part",
+   "label": "qstn_YCJMpZrsCCjcC26T / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_KzfC47dRQNxQMTWP": {
+   "kind": "question_part",
+   "label": "qstn_T74NRcTTsNbvWWBZ / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_TdwgHFdFRqsfRxV7": {
+   "kind": "question_part",
+   "label": "qstn_R2jDzh4H4B8WGCV6 / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NRpsVgXK5SJTB5NW": {
+   "kind": "question_part",
+   "label": "qstn_qsY59f5MkFmFqhj3 / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_zYpnSd8kp4nFcyyg": {
+   "kind": "question_part",
+   "label": "qstn_phpc3vXzV7kkVwV6 / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_wH75j4XHKzwHNfnQ": {
+   "kind": "question_part",
+   "label": "qstn_NycyZXbw2gdsFwK8 / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gk5P9KykZVVNWYMy": {
+   "kind": "question_part",
+   "label": "qstn_Nk9HGF8hQ2hrmyWP / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JvbQfZ6T6bsnZSM6": {
+   "kind": "question_part",
+   "label": "qstn_GJjyzs4nr2JcYsSm / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_Y3BVNsGdMfHRf6Hx": {
+   "kind": "question_part",
+   "label": "qstn_CwJHp78dKp3rp4hw / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SFQn8nShtPMHBtzG": {
+   "kind": "question_part",
+   "label": "qstn_9DTfWRZY3kx9sJbh / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_thMxp5DRS9S4CpNv"
+   ]
+  },
+  "qstnprt_RcrCR32hX42XKJch": {
+   "kind": "question_part",
+   "label": "qstn_7Y93M6N6gsts5SDQ / part 0",
+   "section": "biological-molecules",
+   "topic": "biological-molecules",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B4.1.2",
+     "official_code": "B4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Mf5y4K2ptgkYsBJf": {
+   "kind": "question_part",
+   "label": "qstn_xZpjf8cbC5yXWjsh / part 0",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KJFvyzbqcxQwV4nJ": {
+   "kind": "question_part",
+   "label": "qstn_vm6Y4hBVQfbPrm8y / part 0",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8TGp8QkXZNdxbvh2": {
+   "kind": "question_part",
+   "label": "qstn_T6MqggSkzQzQvytT / part 0",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SzMTZK7PWXNnDbxW": {
+   "kind": "question_part",
+   "label": "qstn_PCBdZ6NDB4s7GN9H / part 0",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_nZm5ThdDxKqBgzDG": {
+   "kind": "question_part",
+   "label": "qstn_6x2bvbZNS266chmw / part 0",
+   "section": "characteristics-and-classification-of-living-organisms",
+   "topic": "characteristics-classification-and-features-of-organisms",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B1.1.1",
+     "official_code": "B1.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cNp5xNVgcDtbS7d3": {
+   "kind": "question_part",
+   "label": "qstn_ZN6qV7Y2YVrkG3mn / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_GVj8GGkjsccWFWsk"
+   ]
+  },
+  "qstnprt_RRTT85GhzqrsCQmY": {
+   "kind": "question_part",
+   "label": "qstn_cd9bNJzzb2qDpQkr / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_7wdsBRVc9xWtGyhB"
+   ]
+  },
+  "qstnprt_856mtRwH5jRCcKKw": {
+   "kind": "question_part",
+   "label": "qstn_TRnwZBb7BdtYHjKM / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_rPWdJKNmQrB255p8"
+   ]
+  },
+  "qstnprt_m5jvTH6NvSPqtd55": {
+   "kind": "question_part",
+   "label": "qstn_zCzjBzKDRTj5HBTz / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_VPSHdjVd7myg5Cqb"
+   ]
+  },
+  "qstnprt_N3rYrQSmjfJxyzGT": {
+   "kind": "question_part",
+   "label": "qstn_xCtqvh6MNw9tf5DZ / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_rPWdJKNmQrB255p8"
+   ]
+  },
+  "qstnprt_RzhJJ8Hj4t5J78Zr": {
+   "kind": "question_part",
+   "label": "qstn_WctcQYfYgWM88j9Y / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_FwRXZNzMK6ZzdxrT"
+   ]
+  },
+  "qstnprt_X2VXzDhkhxHNTwK8": {
+   "kind": "question_part",
+   "label": "qstn_tt54jT4cX5FxJZKH / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_FwRXZNzMK6ZzdxrT"
+   ]
+  },
+  "qstnprt_bzJc9g5PC3Z3zB9C": {
+   "kind": "question_part",
+   "label": "qstn_nX3MRxznYFW4F5FP / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_rPWdJKNmQrB255p8"
+   ]
+  },
+  "qstnprt_qf5ts9HPFXMNTc3P": {
+   "kind": "question_part",
+   "label": "qstn_j6vvk4wX6nzXRBsn / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_qczFcMS5gQn5nnFP"
+   ]
+  },
+  "qstnprt_6cG5TTRtbH4FgMR9": {
+   "kind": "question_part",
+   "label": "qstn_Cx5WHjkhgTnmVDq8 / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_qczFcMS5gQn5nnFP"
+   ]
+  },
+  "qstnprt_5YnMqDP6YX5yd664": {
+   "kind": "question_part",
+   "label": "qstn_cPvt3cf4k2gCqyqW / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_TK3GZvBVQZTcfVbP",
+    "spcpt_GVj8GGkjsccWFWsk"
+   ]
+  },
+  "qstnprt_BSMdGsgXsHccMK98": {
+   "kind": "question_part",
+   "label": "qstn_cBcKrH9fwDxY2c52 / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_7wdsBRVc9xWtGyhB"
+   ]
+  },
+  "qstnprt_hDTCWGtHrCTmkKHX": {
+   "kind": "question_part",
+   "label": "qstn_3BXVvB2bwC9ScMk3 / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_GVj8GGkjsccWFWsk"
+   ]
+  },
+  "qstnprt_3gG8gyMbRXyF2sDV": {
+   "kind": "question_part",
+   "label": "qstn_2KpKCFjMtmJKGH99 / part 0",
+   "section": "coordination-and-response",
+   "topic": "coordination-response-and-homeostasis",
+   "codes": [],
+   "pending": [
+    "spcpt_FwRXZNzMK6ZzdxrT"
+   ]
+  },
+  "qstnprt_6txkxYWzxdS9n7qw": {
+   "kind": "question_part",
+   "label": "qstn_WdqHkDwp7NjzGm8j / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq"
+   ]
+  },
+  "qstnprt_dXcHMjMYwpGgtYfN": {
+   "kind": "question_part",
+   "label": "qstn_XRZZBMdkQ92w7dbJ / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_4WVq8jH2CRxT8JjS"
+   ]
+  },
+  "qstnprt_swDQgmmXQDJ23HT9": {
+   "kind": "question_part",
+   "label": "qstn_vshPSnYnKd4qHPsg / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_gGDz2m6k6t7GDBJT",
+    "spcpt_4WVq8jH2CRxT8JjS"
+   ]
+  },
+  "qstnprt_zK5FJ7gwn6kmh4wf": {
+   "kind": "question_part",
+   "label": "qstn_VGJ7X2NgbqgSYFz3 / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq"
+   ]
+  },
+  "qstnprt_RqXgqdQwNfhmrTgY": {
+   "kind": "question_part",
+   "label": "qstn_T8cWYPFCbPnVZHFF / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq"
+   ]
+  },
+  "qstnprt_S2xvkmwhvkXXhCSb": {
+   "kind": "question_part",
+   "label": "qstn_RGnqNVpzqBjYK8tC / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B10.1.4",
+     "official_code": "B10.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_5mXnBC5SVSWhcmbF": {
+   "kind": "question_part",
+   "label": "qstn_qvrWKZQ9sRxMKbWJ / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq"
+   ]
+  },
+  "qstnprt_CBhZtJn5qFDr9Mw6": {
+   "kind": "question_part",
+   "label": "qstn_mcKZVBB5QRnCknV6 / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B10.1.4",
+     "official_code": "B10.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_nFQrGmvXNwgSngNz": {
+   "kind": "question_part",
+   "label": "qstn_M4v2xdVCNhVWN376 / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_JCM7MMYqgcPM84Tq"
+   ]
+  },
+  "qstnprt_bzw6s24Qmff7K7GP": {
+   "kind": "question_part",
+   "label": "qstn_HZfdSkQGDQhf69hZ / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_4WVq8jH2CRxT8JjS"
+   ]
+  },
+  "qstnprt_2WhYYm9bjdqqgJrm": {
+   "kind": "question_part",
+   "label": "qstn_7qjg4C9BKHPPRwkk / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_4WVq8jH2CRxT8JjS"
+   ]
+  },
+  "qstnprt_2SVFqPbspm98nkq7": {
+   "kind": "question_part",
+   "label": "qstn_25xSQssGgKc9c7WY / part 0",
+   "section": "diseases-and-immunity",
+   "topic": "diseases-and-immunity",
+   "codes": [],
+   "pending": [
+    "spcpt_ypKfYtsXpPChmvYP"
+   ]
+  },
+  "qstnprt_dPX9ttm9njVR6ryX": {
+   "kind": "question_part",
+   "label": "qstn_7zWGfBbY4QTpdwmm / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_x3RVPVdsBsxVHphB"
+   ]
+  },
+  "qstnprt_3j72cY6KJKTyH76D": {
+   "kind": "question_part",
+   "label": "qstn_zNBD7S297VwctNCc / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_sFT3JRjbnfYND7tT": {
+   "kind": "question_part",
+   "label": "qstn_W5Q2fGMqPDmmqsPG / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_x3RVPVdsBsxVHphB",
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_YKmvFwswFYk7zFFv": {
+   "kind": "question_part",
+   "label": "qstn_rFxKcjkWjGpMfMsx / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_wjcP5StdCNFZ8d5B": {
+   "kind": "question_part",
+   "label": "qstn_PgBNvrRsv5RRqCHR / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_RchtCK5NwDGdJ73G": {
+   "kind": "question_part",
+   "label": "qstn_KQppXfRv6PZFzVCr / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_x3RVPVdsBsxVHphB",
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_3mG2dDcV4NVBrSmC": {
+   "kind": "question_part",
+   "label": "qstn_HqjCYKnVMJGYgkwz / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_tpkxWq3xZWTrrwC5"
+   ]
+  },
+  "qstnprt_CCvc75BhqznQPKDD": {
+   "kind": "question_part",
+   "label": "qstn_bpRCFrJkqRPb68fC / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_gjgHMsM6p5yQ7QnN"
+   ]
+  },
+  "qstnprt_NPSqsgsZfjKfdbW7": {
+   "kind": "question_part",
+   "label": "qstn_3KXskZt75b8QV2MD / part 0",
+   "section": "drugs",
+   "topic": "drugs-in-medicine",
+   "codes": [],
+   "pending": [
+    "spcpt_x3RVPVdsBsxVHphB"
+   ]
+  },
+  "qstnprt_nzSK4cnGqKZ8j62P": {
+   "kind": "question_part",
+   "label": "qstn_J5xTqDFX5zBnTJXh / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_sGTvKmZpTSd9qKGK"
+   ]
+  },
+  "qstnprt_YkqWCM4zpjF4sQ8D": {
+   "kind": "question_part",
+   "label": "qstn_6J2bqDBbTwXDtmsb / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_sGTvKmZpTSd9qKGK",
+    "spcpt_GKzqChJ4dZpB6vhr"
+   ]
+  },
+  "qstnprt_zTYJTCrpY5GZtQwp": {
+   "kind": "question_part",
+   "label": "qstn_J2zSpjV6SZ5chhSY / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8gkFy3mw29ZnwRqg",
+    "spcpt_6PwGnQXnymYmBShg"
+   ]
+  },
+  "qstnprt_CSDXNz36t6kpJ2K3": {
+   "kind": "question_part",
+   "label": "qstn_zHvS4dSnbM5W6PXK / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_GKzqChJ4dZpB6vhr"
+   ]
+  },
+  "qstnprt_Y5qFw6K73jtCMGjS": {
+   "kind": "question_part",
+   "label": "qstn_YxrVN3RbFbqqvQyH / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_sGTvKmZpTSd9qKGK"
+   ]
+  },
+  "qstnprt_s9wRSnM2FWf98G75": {
+   "kind": "question_part",
+   "label": "qstn_vNPfRD2tXjxyqTX2 / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8Zz3VggDbRrddpbW"
+   ]
+  },
+  "qstnprt_YXHyY6WxFGQv8QMz": {
+   "kind": "question_part",
+   "label": "qstn_VJSnQCGkyWdp6Fbb / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_GKzqChJ4dZpB6vhr",
+    "spcpt_8gkFy3mw29ZnwRqg"
+   ]
+  },
+  "qstnprt_F7zgnMn7MDKtsYYr": {
+   "kind": "question_part",
+   "label": "qstn_Q9VmhDnyr6NBVJSs / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8Zz3VggDbRrddpbW"
+   ]
+  },
+  "qstnprt_RxZ3pY5X9z83Z8sw": {
+   "kind": "question_part",
+   "label": "qstn_PRZWJRhsysdm9PXQ / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_GKzqChJ4dZpB6vhr"
+   ]
+  },
+  "qstnprt_83QPRmznQ4D8XY9C": {
+   "kind": "question_part",
+   "label": "qstn_JRHZqJJpn2Rdmx7c / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_63nvfjHzNwNXtM7v"
+   ]
+  },
+  "qstnprt_fJc5GQMxpGsFq5GP": {
+   "kind": "question_part",
+   "label": "qstn_jn3bC8t4CgsyN57y / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_sGTvKmZpTSd9qKGK"
+   ]
+  },
+  "qstnprt_vFXHk4kK3Wm2jVsp": {
+   "kind": "question_part",
+   "label": "qstn_gjKtqB5J3Qd9d6N4 / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8gkFy3mw29ZnwRqg",
+    "spcpt_6PwGnQXnymYmBShg"
+   ]
+  },
+  "qstnprt_sRcsp7XTbxPKh8Nj": {
+   "kind": "question_part",
+   "label": "qstn_g53T95DPq9SdCKht / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_6PwGnQXnymYmBShg"
+   ]
+  },
+  "qstnprt_bnqmRfGyhTbNpSds": {
+   "kind": "question_part",
+   "label": "qstn_Fw5wYQ69cDNP9X88 / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_63nvfjHzNwNXtM7v"
+   ]
+  },
+  "qstnprt_Hpcw5FyxzYhGfq2s": {
+   "kind": "question_part",
+   "label": "qstn_fMtNRNwxfVJMsbbC / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8gkFy3mw29ZnwRqg"
+   ]
+  },
+  "qstnprt_r5CGHz8TKjNtspt3": {
+   "kind": "question_part",
+   "label": "qstn_DMRZKqKRtz54BJfF / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_63nvfjHzNwNXtM7v"
+   ]
+  },
+  "qstnprt_BYCkmcMngcMw4Q9H": {
+   "kind": "question_part",
+   "label": "qstn_7DVX4xpZxWqbrV7H / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8Zz3VggDbRrddpbW"
+   ]
+  },
+  "qstnprt_22GZwMKx79JJg9Jm": {
+   "kind": "question_part",
+   "label": "qstn_5j9wn3Y8mhTfNQf5 / part 0",
+   "section": "enzymes",
+   "topic": "enzymes",
+   "codes": [],
+   "pending": [
+    "spcpt_8Zz3VggDbRrddpbW"
+   ]
+  },
+  "qstnprt_YHB8dGGJNcTHqzGW": {
+   "kind": "question_part",
+   "label": "qstn_t4ncstP5t3j25sGd / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DgQ6DG2GdkVZrf2k": {
+   "kind": "question_part",
+   "label": "qstn_ZKcYFn93wFTNZM2Q / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_z2tZFXhyWkQ7J93c"
+   ]
+  },
+  "qstnprt_jsVrfYKkqT93x4B6": {
+   "kind": "question_part",
+   "label": "qstn_Xm8D9d6cy4sMQhFb / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_z2tZFXhyWkQ7J93c"
+   ]
+  },
+  "qstnprt_2CYNnnCJdkSvJHnQ": {
+   "kind": "question_part",
+   "label": "qstn_WQC8Zn2zjB8HK3G9 / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_K496bGDD9csCWFKc": {
+   "kind": "question_part",
+   "label": "qstn_wGN8szT5GWc8hQgv / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_tKkWNBVwqgHMC5jr"
+   ]
+  },
+  "qstnprt_j8cnV7kTgNbq9mTS": {
+   "kind": "question_part",
+   "label": "qstn_VqMRDJZyK5ZN4RZN / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_gDB2kgBJN6XxWRkv"
+   ]
+  },
+  "qstnprt_jnWQZSF77FqnQwrd": {
+   "kind": "question_part",
+   "label": "qstn_sVchKM37zHdH6pVf / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_gDB2kgBJN6XxWRkv"
+   ]
+  },
+  "qstnprt_Q43X5Fv2JDQJXPZw": {
+   "kind": "question_part",
+   "label": "qstn_nnVXfvrmWwM5xFvT / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_z2tZFXhyWkQ7J93c"
+   ]
+  },
+  "qstnprt_XSkRzVHHdb3TwpPQ": {
+   "kind": "question_part",
+   "label": "qstn_HZKPhXxhyj7vdqkg / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8PMj2W2ZXPFMMJF5": {
+   "kind": "question_part",
+   "label": "qstn_83sDR3zSXnnQKyhf / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_gDB2kgBJN6XxWRkv"
+   ]
+  },
+  "qstnprt_nZyS6QNPKfzRsrzV": {
+   "kind": "question_part",
+   "label": "qstn_65stjgBCz8pGk4gF / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B11.1.1",
+     "official_code": "B11.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zbPH6Ryf3Zpzb34C": {
+   "kind": "question_part",
+   "label": "qstn_5yKGPZwHvJSRNGwH / part 0",
+   "section": "gas-exchange-in-humans",
+   "topic": "gas-exchange-in-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_gDB2kgBJN6XxWRkv"
+   ]
+  },
+  "qstnprt_trVPrkjrrtRt4NCc": {
+   "kind": "question_part",
+   "label": "qstn_q4KBx8hhCKrVKsh4 / part 0",
+   "section": "human-influences-on-ecosystems",
+   "topic": "human-impact-biodiversity-pollution-and-conservation",
+   "codes": [],
+   "pending": [
+    "spcpt_TQBzp2d754mjmRF2"
+   ]
+  },
+  "qstnprt_gc2XpTxsKJMNMn6r": {
+   "kind": "question_part",
+   "label": "qstn_P5cmM6PcSbtfTxgq / part 0",
+   "section": "human-influences-on-ecosystems",
+   "topic": "human-impact-biodiversity-pollution-and-conservation",
+   "codes": [],
+   "pending": [
+    "spcpt_2cyJ6x7txWtwYB9Y"
+   ]
+  },
+  "qstnprt_NYbgFkVQZXhqTchD": {
+   "kind": "question_part",
+   "label": "qstn_8YvjgQ847wr2PCM8 / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_tNs7zJVHyTqhk92r",
+    "spcpt_cvnSpMbNfy2xRs7x"
+   ]
+  },
+  "qstnprt_NnM4xtWWDm9Gqv3B": {
+   "kind": "question_part",
+   "label": "qstn_Sz63pJgC4Xh5ffGX / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_XN7Wc6KVz69nDSBy",
+    "spcpt_Ks73GtZTt68tJ3Gp"
+   ]
+  },
+  "qstnprt_Hh99qR3zVKKBJgsD": {
+   "kind": "question_part",
+   "label": "qstn_shny2gzVQRVBdJdx / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_DjqGVyMPRh8Gc7QX"
+   ]
+  },
+  "qstnprt_zQRxKhYSZpGqCsB5": {
+   "kind": "question_part",
+   "label": "qstn_rrGdjpMWxxTBz6Qs / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B7.1.1",
+     "official_code": "B7.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MyJx7xwwKGdDkygN": {
+   "kind": "question_part",
+   "label": "qstn_R2mFBZry6KC23vJz / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_tNs7zJVHyTqhk92r"
+   ]
+  },
+  "qstnprt_mXvn64w78WjGrYR8": {
+   "kind": "question_part",
+   "label": "qstn_nBSTRj7M2HhvVvPR / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_9g786GQkSTMSfFt8"
+   ]
+  },
+  "qstnprt_PDHPgrw3bryHrNYX": {
+   "kind": "question_part",
+   "label": "qstn_GWgdFSK4RKNpw4ZD / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B7.1.3",
+     "official_code": "B7.1.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B7.1.1",
+     "official_code": "B7.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fngK2xCf6QdV2D6d": {
+   "kind": "question_part",
+   "label": "qstn_Gv4d8CMpMSFdfQpb / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_XN7Wc6KVz69nDSBy"
+   ]
+  },
+  "qstnprt_sX9TpfNF45FFFywr": {
+   "kind": "question_part",
+   "label": "qstn_9XjkQyf6BkjXHRkz / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_Xd2d6bkxsj9c7Qm9"
+   ]
+  },
+  "qstnprt_44tFDC4kRr3wDMz2": {
+   "kind": "question_part",
+   "label": "qstn_8N6vvHxmDwbwR6ch / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_tNs7zJVHyTqhk92r"
+   ]
+  },
+  "qstnprt_M2fscGtbNsxxQzpH": {
+   "kind": "question_part",
+   "label": "qstn_3S99N6msf2PCqSDD / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_Ks73GtZTt68tJ3Gp"
+   ]
+  },
+  "qstnprt_zhDyGQ29hWZ8Z58w": {
+   "kind": "question_part",
+   "label": "qstn_2nzWhJxCXdGd6zBM / part 0",
+   "section": "human-nutrition",
+   "topic": "human-diet-and-digestion",
+   "codes": [],
+   "pending": [
+    "spcpt_tNs7zJVHyTqhk92r"
+   ]
+  },
+  "qstnprt_KR58VTss4Frhv4zP": {
+   "kind": "question_part",
+   "label": "qstn_ynvfZYc6VkN7S5Zm / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xWKDNTvfQyBRrhxv"
+   ]
+  },
+  "qstnprt_qxK8Z3BpV2Xg6ySK": {
+   "kind": "question_part",
+   "label": "qstn_ZthSHJ8BZ45XTZtg / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_9gS6YKXdH8TFS4gv"
+   ]
+  },
+  "qstnprt_jwFzzz3mm3wMCD7v": {
+   "kind": "question_part",
+   "label": "qstn_ZJsZff3jMbJt58Dg / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xP8VZ4wSf9HTdKMd",
+    "spcpt_VGFTvfbJZKYQPjn5"
+   ]
+  },
+  "qstnprt_sx6hnDPrJZZcfyzk": {
+   "kind": "question_part",
+   "label": "qstn_y43ytDkjWPvGsNyh / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zjDWgfbDtcxbknyH": {
+   "kind": "question_part",
+   "label": "qstn_VBRWBBZ9fz4pQx8V / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_VGFTvfbJZKYQPjn5"
+   ]
+  },
+  "qstnprt_gtFt4YX5MgmS83hs": {
+   "kind": "question_part",
+   "label": "qstn_vBj9MjBkWzfr7SvZ / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gxd3ynqpny86zQFx": {
+   "kind": "question_part",
+   "label": "qstn_s7DTwpK4frZMp4zZ / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8Xzjsg5pHZvv3nQD": {
+   "kind": "question_part",
+   "label": "qstn_RBxb7hxmDc8bPpzY / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_g9jXbXk5DbfsnbDh": {
+   "kind": "question_part",
+   "label": "qstn_q79NbMhqtVfZ9Qjt / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xWKDNTvfQyBRrhxv"
+   ]
+  },
+  "qstnprt_RtnVt4BPBmtWKwdv": {
+   "kind": "question_part",
+   "label": "qstn_krBWbcgcD6kkvCYP / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_VGFTvfbJZKYQPjn5"
+   ]
+  },
+  "qstnprt_4sg798kSQGjd5Kpn": {
+   "kind": "question_part",
+   "label": "qstn_CySqMKydZTw8T3rg / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.1.4",
+     "official_code": "B16.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Z2WQMX7nCDgPtBjx": {
+   "kind": "question_part",
+   "label": "qstn_CyFD9Db2BnzXTqWs / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_JMYbfjydfVnfpRTZ"
+   ]
+  },
+  "qstnprt_snWDnkX279RMcphf": {
+   "kind": "question_part",
+   "label": "qstn_Bm3GtPfWHRtnZwJj / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.3.11",
+     "official_code": "B16.3.11",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_V4NSYfb8HFrksrQc": {
+   "kind": "question_part",
+   "label": "qstn_5r9zYHS9HNCyDb3p / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [],
+   "pending": [
+    "spcpt_xP8VZ4wSf9HTdKMd",
+    "spcpt_VGFTvfbJZKYQPjn5"
+   ]
+  },
+  "qstnprt_qcPmTfThb5VRvv8G": {
+   "kind": "question_part",
+   "label": "qstn_4R2KkNNTBpH55Hjb / part 0",
+   "section": "inheritance",
+   "topic": "inheritance-genes-and-cell-division",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B16.1.4",
+     "official_code": "B16.1.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_jDgJRnM4QBg2FdMs": {
+   "kind": "question_part",
+   "label": "qstn_3Dnh8y3KZbjGmhg7 / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_pqcfRtFQvZTqWy9n"
+   ]
+  },
+  "qstnprt_nVm4gNnS3tkPTNnz": {
+   "kind": "question_part",
+   "label": "qstn_nmJ3RbC6dBMV2njt / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_qzd5hDr9JVSmPBWw"
+   ]
+  },
+  "qstnprt_bXJJ7hxVPv8rrQDb": {
+   "kind": "question_part",
+   "label": "qstn_wr9N92hCd4pB8YMr / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_zTT9ww7dS9xsHynK"
+   ]
+  },
+  "qstnprt_FhVRJK9Jtqp9vNcr": {
+   "kind": "question_part",
+   "label": "qstn_VKZhJtyg34s5jcdq / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_F4y3SqDTrZdxZ8bQ"
+   ]
+  },
+  "qstnprt_HzbjY2VPtckck5RB": {
+   "kind": "question_part",
+   "label": "qstn_TsR45ZRpxkTZwS9w / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_F4y3SqDTrZdxZ8bQ"
+   ]
+  },
+  "qstnprt_bnHg6JrMMJHrZSB9": {
+   "kind": "question_part",
+   "label": "qstn_sPSdrPqQShhGsPYh / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_qzd5hDr9JVSmPBWw",
+    "spcpt_JHvFpKgNnDgdYY2b"
+   ]
+  },
+  "qstnprt_XV7nszckQNyfYYrM": {
+   "kind": "question_part",
+   "label": "qstn_RJ8Zsq3b5vhckGHS / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_F4y3SqDTrZdxZ8bQ"
+   ]
+  },
+  "qstnprt_SwXZj5dp4JHztcWv": {
+   "kind": "question_part",
+   "label": "qstn_Q7WHWCHwhYGm72Dz / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_tWGDNbtgKPsqTd5d",
+    "spcpt_qzd5hDr9JVSmPBWw"
+   ]
+  },
+  "qstnprt_2zvk6GYg6r66m8nS": {
+   "kind": "question_part",
+   "label": "qstn_kQWwyK7vp6n4yKG3 / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_tWGDNbtgKPsqTd5d"
+   ]
+  },
+  "qstnprt_zFvbQwznRshGzGct": {
+   "kind": "question_part",
+   "label": "qstn_jyr6qNWGKNjPz3QJ / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_pqcfRtFQvZTqWy9n"
+   ]
+  },
+  "qstnprt_tybrc8bXrXvx2j9z": {
+   "kind": "question_part",
+   "label": "qstn_Hy2SFvQGsQQzJ2Hq / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_JHvFpKgNnDgdYY2b"
+   ]
+  },
+  "qstnprt_qFZ4jxxytSXs73Pk": {
+   "kind": "question_part",
+   "label": "qstn_dj4NY63yfp89FmpH / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_tWGDNbtgKPsqTd5d",
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_jS4qXS9Cr3McZBkY": {
+   "kind": "question_part",
+   "label": "qstn_9ssbpDq3GKBFPm9y / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_tWGDNbtgKPsqTd5d",
+    "spcpt_qzd5hDr9JVSmPBWw"
+   ]
+  },
+  "qstnprt_Nzgwp8bdh9cytJ4P": {
+   "kind": "question_part",
+   "label": "qstn_8d4qRDSfN8vQhsjh / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_qzd5hDr9JVSmPBWw",
+    "spcpt_JHvFpKgNnDgdYY2b"
+   ]
+  },
+  "qstnprt_ZjCdkK4jnszwyFbY": {
+   "kind": "question_part",
+   "label": "qstn_5fNZ8p2bqpJ2Tt9s / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_pqcfRtFQvZTqWy9n"
+   ]
+  },
+  "qstnprt_cVxDs5y5FPK3783M": {
+   "kind": "question_part",
+   "label": "qstn_4NYkxrmbMZXcmxZD / part 0",
+   "section": "movement-into-and-out-of-cells",
+   "topic": "diffusion-osmosis-and-active-transport",
+   "codes": [],
+   "pending": [
+    "spcpt_r9srPw7yGRQMTSZ8",
+    "spcpt_qzd5hDr9JVSmPBWw"
+   ]
+  },
+  "qstnprt_8bd7kQFZC6tGgsZj": {
+   "kind": "question_part",
+   "label": "qstn_nJcQJ5tqpwTzpnw3 / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "qstnprt_4H5F4NN4n5zzhG73": {
+   "kind": "question_part",
+   "label": "qstn_J2p22WDwSB7q3yfn / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ",
+    "spcpt_Xz8HFk73jWRBfSn3"
+   ]
+  },
+  "qstnprt_zkyXRyZjNd2hdvG8": {
+   "kind": "question_part",
+   "label": "qstn_pGSxPd7nTGkGbCrz / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_7T8xT94wKnqfx6hp"
+   ]
+  },
+  "qstnprt_rpHxxFGVnc27gSns": {
+   "kind": "question_part",
+   "label": "qstn_zNCntwmyqM29tF3h / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B2.1.6",
+     "official_code": "B2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ",
+    "spcpt_K7cRy27N88hsSxJS"
+   ]
+  },
+  "qstnprt_4TbgFyZ5XVv79k7V": {
+   "kind": "question_part",
+   "label": "qstn_YqGhXjnfjKnYPRmj / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B2.1.6",
+     "official_code": "B2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_PpYMQtvsB7Z2Yzrn",
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_xHcsJnfVtjzs5kVm": {
+   "kind": "question_part",
+   "label": "qstn_sB2MVSKSHyYwBNkV / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ"
+   ]
+  },
+  "qstnprt_9zkStNYcDSYHDTzS": {
+   "kind": "question_part",
+   "label": "qstn_rw3CWWVKK4xyndpk / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B2.1.6",
+     "official_code": "B2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NZtRdPN87HxKBXtD": {
+   "kind": "question_part",
+   "label": "qstn_qrHcXx5DMnJTVZ4Y / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "qstnprt_shXJxNTB6875pxby": {
+   "kind": "question_part",
+   "label": "qstn_nP9BxZYTBGgqCCmK / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_Xz8HFk73jWRBfSn3",
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "qstnprt_2G3zdq5Q9dWdzDMv": {
+   "kind": "question_part",
+   "label": "qstn_NkHYkwPZyrdFHcmX / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "qstnprt_nvQw6sNGf2R4smS2": {
+   "kind": "question_part",
+   "label": "qstn_M8JFvsCV7KJr4HHz / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_Xz8HFk73jWRBfSn3",
+    "spcpt_xWKDNTvfQyBRrhxv",
+    "spcpt_bT3zBwCsBqRRNBpg"
+   ]
+  },
+  "qstnprt_jDJDrdTpMpgHygTn": {
+   "kind": "question_part",
+   "label": "qstn_gZTZHcjxkFrkwQ9D / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_7T8xT94wKnqfx6hp"
+   ]
+  },
+  "qstnprt_zXdzDzZG2zZdwpWm": {
+   "kind": "question_part",
+   "label": "qstn_GrzSNkmxKWDqJJdX / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B2.1.6",
+     "official_code": "B2.1.6",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ"
+   ]
+  },
+  "qstnprt_y96NY4tzXTb6yGNF": {
+   "kind": "question_part",
+   "label": "qstn_dFdMkFkqh2yXF6Qs / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_YDfKhrVnq4ryvkC6",
+    "spcpt_qk7sZzJtqBnqrp4v"
+   ]
+  },
+  "qstnprt_sW52YtrGJ38mTgwT": {
+   "kind": "question_part",
+   "label": "qstn_cpgS3n6vfKbzvZbt / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_YDfKhrVnq4ryvkC6",
+    "spcpt_qk7sZzJtqBnqrp4v"
+   ]
+  },
+  "qstnprt_jkNyMjshMX9qWkky": {
+   "kind": "question_part",
+   "label": "qstn_4zgTXM2MzsNfXWxn / part 0",
+   "section": "organisation-of-the-organism",
+   "topic": "cell-structure-and-size-of-specimens",
+   "codes": [],
+   "pending": [
+    "spcpt_yJQZ5jXv3CZknwpQ"
+   ]
+  },
+  "qstnprt_b6fs6cDhrNCKYf3M": {
+   "kind": "question_part",
+   "label": "qstn_q7kc3g9xTHHqYTZV / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.2.10",
+     "official_code": "B18.2.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_TRQ6WM24TGhGVM9B": {
+   "kind": "question_part",
+   "label": "qstn_KrKZj34qyBn73kSM / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [],
+   "pending": [
+    "spcpt_QFxVrWG2M3QZZVJj"
+   ]
+  },
+  "qstnprt_J8DdbBb4BvGMyxnj": {
+   "kind": "question_part",
+   "label": "qstn_JcDYx6JSq36qP3sS / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [],
+   "pending": [
+    "spcpt_mdzFMx7DQz5thZBv"
+   ]
+  },
+  "qstnprt_V6GQRfxxrd6Vzdqt": {
+   "kind": "question_part",
+   "label": "qstn_H5DwG3pJgVZD4Zkj / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.2.10",
+     "official_code": "B18.2.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tFFp2nTFdGNXQjmZ": {
+   "kind": "question_part",
+   "label": "qstn_FZY58G6PDzZW8np4 / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.2.10",
+     "official_code": "B18.2.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hHsSS6sBH57d5397": {
+   "kind": "question_part",
+   "label": "qstn_BNCZrzSNc32gdcbz / part 0",
+   "section": "organisms-and-their-environment",
+   "topic": "energy-and-feeding-relationships",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B18.3.1",
+     "official_code": "B18.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_GwHmhnPrJwKt4kMK": {
+   "kind": "question_part",
+   "label": "qstn_MShSc6TRwF9YC9Y9 / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_x7h68tb5mMhWWy4h"
+   ]
+  },
+  "qstnprt_Fcg35cYhg8Rc4Zdy": {
+   "kind": "question_part",
+   "label": "qstn_q2D93Bbnw7qWCb9m / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_hRhXx25YTYmp3pNS",
+    "spcpt_Fw8G5pkpDJqmdG3z"
+   ]
+  },
+  "qstnprt_tbg7FhCJB6M6dxG9": {
+   "kind": "question_part",
+   "label": "qstn_XxPtB44XXg2khDSF / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_Y5B3KYcxbh34tR49"
+   ]
+  },
+  "qstnprt_CgdB46yynFSk489f": {
+   "kind": "question_part",
+   "label": "qstn_x7b9wrh2RhN2V7YX / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_Y5B3KYcxbh34tR49"
+   ]
+  },
+  "qstnprt_FMVF3Qm3G4mMNHjM": {
+   "kind": "question_part",
+   "label": "qstn_wQxVSwktFk6wtSRY / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fS22D42Wd9Qd9vW5"
+   ]
+  },
+  "qstnprt_3282yNc4BpcGDzYx": {
+   "kind": "question_part",
+   "label": "qstn_t4xM3x4sjBFg3fN7 / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_M6hkXJ3RCqYsJq7H"
+   ]
+  },
+  "qstnprt_qxwQt9g8Q3QrNjGN": {
+   "kind": "question_part",
+   "label": "qstn_pVMnzSr343HzXpNY / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_4bg2tjBWVQZDRZcN"
+   ]
+  },
+  "qstnprt_yGtKkJh9jFpfGTnH": {
+   "kind": "question_part",
+   "label": "qstn_pmb4Qk7M4mfZVSX7 / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_PpYMQtvsB7Z2Yzrn"
+   ]
+  },
+  "qstnprt_4FPq8d7v5yntn2hK": {
+   "kind": "question_part",
+   "label": "qstn_pDyNy6J9gsVbZ5Kw / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_PpYMQtvsB7Z2Yzrn"
+   ]
+  },
+  "qstnprt_bnXXcd6PskVf4jZf": {
+   "kind": "question_part",
+   "label": "qstn_n6DNKgmWh3rhRJ5Z / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_PpYMQtvsB7Z2Yzrn"
+   ]
+  },
+  "qstnprt_rpsqcSTWT9ppPnxZ": {
+   "kind": "question_part",
+   "label": "qstn_K3BfpM4vd7t5vtR8 / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_nng8Tr7BKzN3qYJD"
+   ]
+  },
+  "qstnprt_PyqGHNG9VwSV3mwH": {
+   "kind": "question_part",
+   "label": "qstn_HWbztw23yQ8Dz2yM / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_P8QVdWms8kDbkxdY"
+   ]
+  },
+  "qstnprt_CRsJPdDND6TCpbF7": {
+   "kind": "question_part",
+   "label": "qstn_fp7bdvnTckJM2MHv / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_x7h68tb5mMhWWy4h"
+   ]
+  },
+  "qstnprt_2vwrjt3DRVjy4FB3": {
+   "kind": "question_part",
+   "label": "qstn_CTYYZdb9VQyDk2wK / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_P8QVdWms8kDbkxdY"
+   ]
+  },
+  "qstnprt_GHsgHf9kWTDnSMSz": {
+   "kind": "question_part",
+   "label": "qstn_cRqjr25TR89H4M3w / part 0",
+   "section": "plant-nutrition",
+   "topic": "photosynthesis-and-leaf-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_3XBpMFgXWYjdTzqr"
+   ]
+  },
+  "qstnprt_sZxzKKHBJtzBcDyh": {
+   "kind": "question_part",
+   "label": "qstn_hvqWjK3j5j2mggyr / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.4.4",
+     "official_code": "B15.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VtxpTCdj3Z8fwyvQ": {
+   "kind": "question_part",
+   "label": "qstn_zGvqpsxd9QJ7THND / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_dXP2ZqCZsrBNPKwG",
+    "spcpt_6NbPmZQ5HYbcwRbK"
+   ]
+  },
+  "qstnprt_2RJFsCzb9qnbY7Vz": {
+   "kind": "question_part",
+   "label": "qstn_xf6yMkBZNBSbnGHN / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_7XYt9rMRWMsr6qv3"
+   ]
+  },
+  "qstnprt_DQ2G6qPV6kCc4NcJ": {
+   "kind": "question_part",
+   "label": "qstn_RPNnYPHxJK6xTS4m / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_nPRpSmk4zFRyKjmS"
+   ]
+  },
+  "qstnprt_XPSmXzHnmwrHgR32": {
+   "kind": "question_part",
+   "label": "qstn_nmc95mJ6VKmt5CfK / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.4.5",
+     "official_code": "B15.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vbfswzj2xG8VscSv": {
+   "kind": "question_part",
+   "label": "qstn_K45Xv8GJpy4RMSc2 / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B15.4.4",
+     "official_code": "B15.4.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mfF9Yb9CZs4ZNcjy": {
+   "kind": "question_part",
+   "label": "qstn_K3tvGsqTkrGQDcpw / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_vGtTC3DvcdH5pxFj",
+    "spcpt_78sK3VJ7SPwhMtZT"
+   ]
+  },
+  "qstnprt_F4DzkJcD749NNx4f": {
+   "kind": "question_part",
+   "label": "qstn_HYykkRvFrSSpXnSH / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_yRXpY3PmyZzbvGg3",
+    "spcpt_dXk4vwCkRGwM34Gw"
+   ]
+  },
+  "qstnprt_4RmbRdBCTmJjFkT2": {
+   "kind": "question_part",
+   "label": "qstn_bVSJWf6XPqT2P4JH / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_mzPdPDPdQkYbYFTQ"
+   ]
+  },
+  "qstnprt_rJNqvGWg3svXBzQZ": {
+   "kind": "question_part",
+   "label": "qstn_8JRzyp5XhwcdZbD8 / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_7XYt9rMRWMsr6qv3"
+   ]
+  },
+  "qstnprt_ZnDJsm69gnTKMjZH": {
+   "kind": "question_part",
+   "label": "qstn_33mXsVXT5mrRF34b / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_Hpx3DbrsRW6RnfVC"
+   ]
+  },
+  "qstnprt_vhtDyzYxdNF32SXY": {
+   "kind": "question_part",
+   "label": "qstn_2kGnf2gWXMBgHprR / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_vGtTC3DvcdH5pxFj",
+    "spcpt_TkcN6NYdpFPJMpvk"
+   ]
+  },
+  "qstnprt_wpPtCpkgqQQyKmG4": {
+   "kind": "question_part",
+   "label": "qstn_26w36tdmfrQR8469 / part 0",
+   "section": "reproduction",
+   "topic": "reproduction-in-plants-and-humans",
+   "codes": [],
+   "pending": [
+    "spcpt_6NbPmZQ5HYbcwRbK"
+   ]
+  },
+  "qstnprt_R5XjvmFyHvkb8JNt": {
+   "kind": "question_part",
+   "label": "qstn_zmfKVWPMng2FzRXM / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_6yw9MxrbxnBf8Ncv": {
+   "kind": "question_part",
+   "label": "qstn_XX47xVfR3kXNGrzR / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_NvdZ95Rjk9Xhy78j": {
+   "kind": "question_part",
+   "label": "qstn_xk9x2pYHfDR4tSnD / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_qz2JCyxvvTdsNXTx": {
+   "kind": "question_part",
+   "label": "qstn_wjwNhjKP6VTgyJkW / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_yp8gRvpyPv7zGGck",
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_9mCSJ8VTr2h7SsFf": {
+   "kind": "question_part",
+   "label": "qstn_rYP76spn6qMbzGkJ / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_N8TWrP6xHBhTrnBh": {
+   "kind": "question_part",
+   "label": "qstn_NRWypkpbvCYCMvGK / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_jvWM75RJ2wNpbXMD": {
+   "kind": "question_part",
+   "label": "qstn_MYgXcd9n3s53GNfJ / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B12.1.1",
+     "official_code": "B12.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_PcmJhHM93zw4yngD": {
+   "kind": "question_part",
+   "label": "qstn_Kft4w7pTVQRHJ4fm / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_qzd5hDr9JVSmPBWw",
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_MPqNZf4D9mFKQmfQ": {
+   "kind": "question_part",
+   "label": "qstn_KcgGBTHtNYChKhxC / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_pzVfD9zG86YsMyVT": {
+   "kind": "question_part",
+   "label": "qstn_hyHwFhrrVzfNc9DG / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_cVV3gnmwRXwSwTGZ": {
+   "kind": "question_part",
+   "label": "qstn_gBN3wxwK328qvp3t / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_F9BkkhtCpCfjP86B": {
+   "kind": "question_part",
+   "label": "qstn_dxpvrtNfHNKbPPnz / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_2GWpdZSmYd7SwYVC": {
+   "kind": "question_part",
+   "label": "qstn_CkVWQcQc7Ptf7t88 / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_yp8gRvpyPv7zGGck",
+    "spcpt_KWcBkVSy8yjbrR8F"
+   ]
+  },
+  "qstnprt_4WsqwrD9vq5zSxkn": {
+   "kind": "question_part",
+   "label": "qstn_C86gTYrV9sMQhd9Q / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_WxHNmV5Zsvq2S9bH": {
+   "kind": "question_part",
+   "label": "qstn_8KdzqMtkSwF58dfp / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_PKVY9yJw83P6325q"
+   ]
+  },
+  "qstnprt_jtbpydYzZPcBJ6mn": {
+   "kind": "question_part",
+   "label": "qstn_5DXHwtjqqcT9wpbM / part 0",
+   "section": "respiration",
+   "topic": "respiration",
+   "codes": [],
+   "pending": [
+    "spcpt_KWcBkVSy8yjbrR8F",
+    "spcpt_GfsndxxBpsJ29TX6"
+   ]
+  },
+  "qstnprt_zxwfsYYRbdFfVMFS": {
+   "kind": "question_part",
+   "label": "qstn_YxrVB3mBS3Hphfgf / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_bjcs5T4KrrT3xZfy"
+   ]
+  },
+  "qstnprt_CtXRRWKJmnq3xr5X": {
+   "kind": "question_part",
+   "label": "qstn_n94tsfWWhgD5jMDj / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.2.1",
+     "official_code": "B9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vpPty7rnC4TbW8jB": {
+   "kind": "question_part",
+   "label": "qstn_Zk8W36q9HKTCS4nN / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_bjcs5T4KrrT3xZfy"
+   ]
+  },
+  "qstnprt_8tCNT4MhJyzymtzk": {
+   "kind": "question_part",
+   "label": "qstn_ynBSnJyYysXTmMCn / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.2.1",
+     "official_code": "B9.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8WzDgkThkTZbmwfN": {
+   "kind": "question_part",
+   "label": "qstn_xthNJNRCJh3tsPKF / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.3.1",
+     "official_code": "B9.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QY9zDcRj3kCVybKk": {
+   "kind": "question_part",
+   "label": "qstn_x8Wj3Sx9S3sRjQDp / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_WRNCbBbPWqSpVjYY",
+    "spcpt_RRXCsbf9qBnGJpHK"
+   ]
+  },
+  "qstnprt_Nw9qBZJ3vwk53bmw": {
+   "kind": "question_part",
+   "label": "qstn_qHhxcGqJzNN2NWZb / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_Jyj7Nr4h3cbYQgQJ"
+   ]
+  },
+  "qstnprt_jzWCCp8Wk8jV2tQB": {
+   "kind": "question_part",
+   "label": "qstn_hn3tM9H4zf9WwQrr / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_G4hYr5v2JNtZVq6n",
+    "spcpt_bjcs5T4KrrT3xZfy"
+   ]
+  },
+  "qstnprt_qpZy9PTQtzqcBntM": {
+   "kind": "question_part",
+   "label": "qstn_FfrsqktbMzXHkZXj / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B9.3.1",
+     "official_code": "B9.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Tf5qpPrYPqnJ4kkd": {
+   "kind": "question_part",
+   "label": "qstn_ffPksDVMg5VyMyCX / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_bjcs5T4KrrT3xZfy"
+   ]
+  },
+  "qstnprt_ZHnbbhb924f3YkFB": {
+   "kind": "question_part",
+   "label": "qstn_BgS7GtgTrNFmzWmh / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_RRXCsbf9qBnGJpHK"
+   ]
+  },
+  "qstnprt_HYhvcWb5GMY3rX6W": {
+   "kind": "question_part",
+   "label": "qstn_b2z9Cch8KCRKnbht / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_jb7r3tGdfjtvDH7z",
+    "spcpt_gsjnWZwqkPN53VFF"
+   ]
+  },
+  "qstnprt_K35F4qCC9s3D8ypq": {
+   "kind": "question_part",
+   "label": "qstn_73ZBfSnZnPCyskyH / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_tDpgJzGYz3QYbPh9"
+   ]
+  },
+  "qstnprt_hw9t6bn5f2JjhtBC": {
+   "kind": "question_part",
+   "label": "qstn_6Z4sPTbVHfkz7kt3 / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_gGDz2m6k6t7GDBJT"
+   ]
+  },
+  "qstnprt_mFZFT5Vt9VJKJMQQ": {
+   "kind": "question_part",
+   "label": "qstn_6Cbvgtpgg8TdshYZ / part 0",
+   "section": "transport-in-animals",
+   "topic": "circulatory-systems-heart-and-blood-vessels",
+   "codes": [],
+   "pending": [
+    "spcpt_rQMwYjyn75GpxtY7",
+    "spcpt_gGDz2m6k6t7GDBJT"
+   ]
+  },
+  "qstnprt_wpB2xcyQVk5PmjSX": {
+   "kind": "question_part",
+   "label": "qstn_vdJGK982gnM64vmM / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt",
+    "spcpt_Rg2bYhpZFbpF42dF"
+   ]
+  },
+  "qstnprt_Qg5XBdjhWj5TzR6s": {
+   "kind": "question_part",
+   "label": "qstn_wCS4fSMK9JD8f42v / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B8.2.3",
+     "official_code": "B8.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_6yXDjjQzSnGtNcfR": {
+   "kind": "question_part",
+   "label": "qstn_xT93tvdnw6QKxvCZ / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B8.2.3",
+     "official_code": "B8.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_GqfVBXHHvRWSGTcY": {
+   "kind": "question_part",
+   "label": "qstn_WFtqN2g7jqnYF4jj / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt"
+   ]
+  },
+  "qstnprt_5tbFqqTwrrrHZPZg": {
+   "kind": "question_part",
+   "label": "qstn_WCWtX5vXkyP73Bbm / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_YYsB3KwH9hcbSX68": {
+   "kind": "question_part",
+   "label": "qstn_TS4pP2hkkJMVfk2W / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_K7cRy27N88hsSxJS"
+   ]
+  },
+  "qstnprt_RnG4pyTMZzFvyFgK": {
+   "kind": "question_part",
+   "label": "qstn_Td33p4zSKSy7qHPy / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt",
+    "spcpt_Rg2bYhpZFbpF42dF"
+   ]
+  },
+  "qstnprt_3Cn7pqWqZNghGxnz": {
+   "kind": "question_part",
+   "label": "qstn_swqz2ZtWQT2rgQM9 / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_JhMnts7CMWb9j9S2",
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_sKhTc2rX5JVyPr4h": {
+   "kind": "question_part",
+   "label": "qstn_QbqdjGgbrpHnQ7fg / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_Rg2bYhpZFbpF42dF"
+   ]
+  },
+  "qstnprt_mqxPGq5mSHSR85rC": {
+   "kind": "question_part",
+   "label": "qstn_MGnw23jjgWt8qRNx / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:B8.2.3",
+     "official_code": "B8.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bYjpS6HSdk4fshg6": {
+   "kind": "question_part",
+   "label": "qstn_HRWXVbzQ5zMHXJYR / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_3XBNPKPkrSbND2vy"
+   ]
+  },
+  "qstnprt_7NYDvRkdHqxBhK99": {
+   "kind": "question_part",
+   "label": "qstn_gw25XW2MFnqQzxYB / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_JhMnts7CMWb9j9S2"
+   ]
+  },
+  "qstnprt_MygGw39hzrVvfsYP": {
+   "kind": "question_part",
+   "label": "qstn_ff7v64JGNRcMQ4yg / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_3XBNPKPkrSbND2vy"
+   ]
+  },
+  "qstnprt_bqxYxgxGyjJm9FCf": {
+   "kind": "question_part",
+   "label": "qstn_CZkm72pCvyBfpWq2 / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt"
+   ]
+  },
+  "qstnprt_8gfKnXycKY2zq22V": {
+   "kind": "question_part",
+   "label": "qstn_63j99hg6m5ByYz5Z / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R",
+    "spcpt_3XBNPKPkrSbND2vy"
+   ]
+  },
+  "qstnprt_C3cc7s5T3HsvJxPJ": {
+   "kind": "question_part",
+   "label": "qstn_5W8vdqxg4Z37JdnQ / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_hZBxHtYq8pqMCrMV"
+   ]
+  },
+  "qstnprt_8Fcn5zsD8NJ6m932": {
+   "kind": "question_part",
+   "label": "qstn_49fKXdvkKvh5cS4g / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_85fqQ6pzf7HVsX2R"
+   ]
+  },
+  "qstnprt_dTyGkB7H5YVt3HRW": {
+   "kind": "question_part",
+   "label": "qstn_3sgqwTZQGvcPfkPj / part 0",
+   "section": "transport-in-plants",
+   "topic": "transport-in-plants",
+   "codes": [],
+   "pending": [
+    "spcpt_wysxt5tDTXy6W7gt",
+    "spcpt_Rg2bYhpZFbpF42dF"
+   ]
+  },
+  "qstnprt_8VyqgWqZbsr5272p": {
+   "kind": "question_part",
+   "label": "qstn_XwHr8ZqNXcYKxTSk / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_HSWSQYrpN7Fsm46V"
+   ]
+  },
+  "qstnprt_TbWb7ZFf58PCXbvr": {
+   "kind": "question_part",
+   "label": "qstn_HsXFrF79CtKKfb3S / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_p992ynJ6ZzqNmQFT"
+   ]
+  },
+  "qstnprt_TYYxcqDsN3wPTTkN": {
+   "kind": "question_part",
+   "label": "qstn_h9Wp3W3RqVG6Qs45 / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_wmpdkyDrWxqRGBNw"
+   ]
+  },
+  "qstnprt_Z3Y83z9TTNcy9qZn": {
+   "kind": "question_part",
+   "label": "qstn_Gdvpbnhr5YYfKCjQ / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_HSWSQYrpN7Fsm46V"
+   ]
+  },
+  "qstnprt_Fpy2dyY6SRpGRW7N": {
+   "kind": "question_part",
+   "label": "qstn_gDDd2GfrQZ4trtpb / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_NbChnfjNHzsv4DCb",
+    "spcpt_HSWSQYrpN7Fsm46V"
+   ]
+  },
+  "qstnprt_Hrnr7xkn7H4JNDVw": {
+   "kind": "question_part",
+   "label": "qstn_5rh6WDtBkQnWnhkJ / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_p992ynJ6ZzqNmQFT"
+   ]
+  },
+  "qstnprt_9hXSp4X4DCKcWzMC": {
+   "kind": "question_part",
+   "label": "qstn_5dMD6NZqy2DmVmm2 / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_JWnF6wTmZCRSsSRS"
+   ]
+  },
+  "qstnprt_Cz73jxjW7YKfYVK6": {
+   "kind": "question_part",
+   "label": "qstn_3gv8WrknMW7zH47Z / part 0",
+   "section": "variation-and-selection",
+   "topic": "variation-and-natural-selection",
+   "codes": [],
+   "pending": [
+    "spcpt_p992ynJ6ZzqNmQFT"
+   ]
+  }
+ }
+}

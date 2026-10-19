@@ -1,0 +1,541 @@
+# T-C11 session 62 — batch-9 cross-slice boundary ruling (S4 Organic FIRST slice: a Introduction + b Crude Oil & Fuels + c Alkanes).
+# RENDERED by c11_batch9_ruling_finalize.py from machine truth — do not hand-edit the audit tables; the standing
+# checker c11_batch9_boundary_check.py re-runs the match as its B-gate.
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 62
+  recorded_date: '2026-09-24'
+  commissioned_by: operator directive "commission a new section" (2026-09-24, session 62) under the session-46
+    §16 authorization; the S4 slice plan (batches 9-11) is recorded in the session-62 commissioning record
+  scope: 'conflict-prevention ruling for the S2(complete)+S1+S3(complete) -> S4(batch 9: a Introduction
+    + b Crude Oil & Fuels + c Alkanes, 4CH1-4.1-4.22 minus the 4CH1-4.15 negative-control carve-out) boundary
+    only; supersedes nothing; extends the session-55/57/59/61 ruling pattern to the S4-a/b/c slice'
+  applies_to_batch: 9
+  scope_sp_note: the audit covers the 21 authorable SPs; 4CH1-4.15 (S4-b) is the standing negative control
+    and is CARVED OUT of the batch scope entirely — no node/edge may attach or cite it (the graph_check
+    D12 control continues to verify zero attachments)
+conflict_audit:
+  method: 'S4-a/b/c candidate term vocabulary (162 terms: introduction vocabulary, crude-oil/fuels vocabulary,
+    alkane vocabulary, the named reagents, generic chemistry vocabulary and equation scaffolding) matched
+    against the whole merged pre-batch-9 store at 4e6bc2f (node codes + titles + aliases + every edge
+    endpoint, case-folded substring; the probe is persisted as scripts/c11_batch9_term_audit_probe.py).
+    46 terms match; EVERY match is dispositioned below — sanctioned boundary edge, near-miss distinct-demand
+    (no edge, mint in-batch), reagent-applied-as-given (no edge), or sub-string noise (no owner surface).'
+  s4_candidate_terms:
+  - hydrocarbon
+  - hydrocarbons
+  - organic chemistry
+  - organic molecule
+  - organic molecules
+  - organic compound
+  - empirical formula
+  - molecular formula
+  - general formula
+  - structural formula
+  - displayed formula
+  - full displayed
+  - homologous series
+  - functional group
+  - isomer
+  - isomers
+  - isomerism
+  - iupac
+  - nomenclature
+  - naming
+  - naming organic
+  - substitution
+  - addition reaction
+  - combustion
+  - classify reactions
+  - classification of reactions
+  - alkane
+  - alkanes
+  - alkene
+  - alkenes
+  - alcohol
+  - alcohols
+  - carboxylic
+  - ester
+  - esters
+  - polymer
+  - polymers
+  - monomer
+  - carbon atom
+  - carbon atoms
+  - hydrogen atom
+  - hydrogen atoms
+  - chain
+  - branched
+  - unbranched
+  - molecular model
+  - crude oil
+  - fractional distillation
+  - fraction
+  - fractions
+  - fractionating column
+  - refinery gas
+  - gasoline
+  - kerosene
+  - diesel
+  - fuel oil
+  - bitumen
+  - residue
+  - petroleum
+  - boiling point
+  - viscosity
+  - colour
+  - trend
+  - flammable
+  - flammability
+  - fuel
+  - fuels
+  - complete combustion
+  - incomplete combustion
+  - carbon monoxide
+  - carbon particulates
+  - soot
+  - poisonous
+  - haemoglobin
+  - hemoglobin
+  - blood
+  - oxygen transport
+  - car engine
+  - car engines
+  - nitrogen oxide
+  - nitrogen oxides
+  - nitrogen dioxide
+  - sulfur dioxide
+  - sulphur dioxide
+  - acid rain
+  - impurity
+  - impurities
+  - sulfuric acid
+  - acidic
+  - ph below
+  - cracking
+  - catalytic cracking
+  - thermal cracking
+  - long-chain
+  - long chain
+  - shorter-chain
+  - shorter chain
+  - supply and demand
+  - vapor
+  - vapour
+  - condense
+  - condensation
+  - column
+  - temperature gradient
+  - saturated
+  - single bond
+  - single bonds
+  - c-c
+  - c-h
+  - cnh2n+2
+  - cnh2n+2
+  - methane
+  - ethane
+  - propane
+  - butane
+  - pentane
+  - halogen
+  - halogens
+  - bromine
+  - chlorine
+  - ultraviolet
+  - uv radiation
+  - uv light
+  - photochemical
+  - hydrogen bromide
+  - hydrogen chloride
+  - substitution reaction
+  - substituted
+  - free radical
+  - mixture of products
+  - limited to substitution
+  - equation
+  - equations
+  - molecule
+  - molecules
+  - compound
+  - compounds
+  - mixture
+  - mixtures
+  - boiling
+  - distillation
+  - heating
+  - catalyst
+  - oxide
+  - oxides
+  - combusts
+  - burns
+  - burning
+  - burned
+  - releases heat
+  - exothermic
+  - energy
+  - covalent bond
+  - covalent bonds
+  - electron
+  - electrons
+  - ion
+  - ions
+  - separation
+  - separated
+  - condenser
+  - flask
+  result: NO UNHANDLED canonical conflict — 46 terms match the pre-batch-9 store, all owned by existing
+    nodes or matched only at sub-string level, with an explicit disposition below; Section 4 mints its
+    own families at the ratified granularity and re-mints NO existing identity. The S4-a/b/c ORGANIC vocabulary
+    has NO existing owner anywhere in the store (the 116 unmatched terms include hydrocarbon, homologous
+    series, functional group, isomerism, IUPAC naming, displayed/structural/general formula, substitution,
+    addition, crude oil, refinery gases, gasoline, kerosene, diesel, fuel oil, bitumen, viscosity, complete/incomplete
+    combustion, carbon monoxide, haemoglobin, nitrogen oxides, sulfur dioxide, acid rain, cracking, catalytic
+    cracking, supply and demand, alkanes, CnH2n+2, saturated hydrocarbons, ultraviolet radiation, halogenoalkanes)
+    — the batch mints these families fresh; the only surfaces with existing owners are dispositioned below.
+match_dispositions:
+- term: organic molecule
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: organic molecules
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: empirical formula
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 4.2's representation surface APPLIES the pilot's empirical-formula definition ('simplest
+    possible ratio') to organic molecules; edge ORGANIC-FORMULAE RP EMPIRICAL-FORMULA sanctioned; the
+    mint is FORBIDDEN
+- term: molecular formula
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 4.2 applies the pilot's molecular-formula definition ('actual number of atoms'); edge ORGANIC-FORMULAE
+    RP MOLECULAR-FORMULA sanctioned; the mint is FORBIDDEN
+- term: naming
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: combustion
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 4.11/4.12's fuels surface presupposes the batch-5 combustion owner ('Complete combustion
+    occurs when there is excess oxygen'); CALORIMETRY is an incidental substring hit; edge FUELS-COMBUSTION
+    RP COMBUSTION-O2 sanctioned; the mint is FORBIDDEN
+- term: fractional distillation
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: the 4.8 industrial separation IS the batch-1 fractional-distillation technique applied to
+    crude oil (fractionating column, temperature gradient, vapourise/condense) — the technique concept
+    is the owner's fixed surface; edge CRUDE-OIL-FRACTIONS RP FRACTIONAL-DISTILLATION sanctioned; the
+    mint is FORBIDDEN
+- term: fraction
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: the 4.8 industrial separation IS the batch-1 fractional-distillation technique applied to
+    crude oil (fractionating column, temperature gradient, vapourise/condense) — the technique concept
+    is the owner's fixed surface; edge CRUDE-OIL-FRACTIONS RP FRACTIONAL-DISTILLATION sanctioned; the
+    mint is FORBIDDEN
+- term: residue
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: boiling point
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: colour
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: trend
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: impurity
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: acidic
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: vapor
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: condensation
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: saturated
+  disposition: NO_COLLISION_DIFFERENT_DOMAIN
+  rationale: saturated-SOLUTIONS (batch-3 owner) vs saturated HYDROCARBONS (single C-C bonds, 4.20) —
+    coincidental English, not a shared concept; the alkane family is minted in-batch
+- term: c-c
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: halogen
+  disposition: REAGENT_APPLIED_AS_GIVEN
+  rationale: the batch-2 G7 owners teach halogen properties/reactivity as the studied object; 4.22 uses
+    bromine/chlorine as REAGENTS whose new substitution chemistry is in-slice; no boundary edge (the mechanism-applied
+    class would double-count a reagent mention)
+- term: halogens
+  disposition: REAGENT_APPLIED_AS_GIVEN
+  rationale: SAME AS 'halogen'
+- term: bromine
+  disposition: REAGENT_APPLIED_AS_GIVEN
+  rationale: SAME AS 'halogen'
+- term: chlorine
+  disposition: REAGENT_APPLIED_AS_GIVEN
+  rationale: SAME AS 'halogen'
+- term: equation
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: equations
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: molecule
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: molecules
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: compound
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: compounds
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: mixture
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 4.7's definition IS the batch-1 mixture concept applied (not chemically combined, physically
+    separable — exactly why 4.8's distillation works); ALLOYS is incidental; edge CRUDE-OIL RP MIXTURE
+    sanctioned; the mint is FORBIDDEN
+- term: mixtures
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: boiling
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: distillation
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: heating
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: catalyst
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: oxide
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: oxides
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: burning
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: exothermic
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: energy
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: covalent bond
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: covalent bonds
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: electron
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: electrons
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: ion
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: ions
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+- term: separation
+  disposition: SUBSTRING_NOISE
+  rationale: generic cross-domain chemistry vocabulary; no batch-9 SP studies the hit owners; the owners
+    stay untouched except through the five sanctioned boundary edges; the trend explanation via intermolecular
+    attraction is HELD (B9-H-08) as deeper-than-demand
+mint_ruling:
+  rule: the batch-9 extraction mints only the in-slice family nodes the notes teach (14 CONCEPT + 1 MISCONCEPTION);
+    every existing owner the audit touched stays untouched except through the FIVE sanctioned boundary
+    edges; the negative control 4CH1-4.15 gains NO attachment and NO citation
+  mints: 14 CONCEPT (HYDROCARBON 4.1; ORGANIC-FORMULAE 4.2; HOMOLOGOUS-SERIES 4.3; IUPAC-NAMING 4.4; ISOMERS
+    4.5; ORGANIC-REACTION-CLASSES 4.6; CRUDE-OIL 4.7; CRUDE-OIL-FRACTIONS 4.8-4.10 one-family; FUELS-COMBUSTION
+    4.11-4.12 one-family; CO-POISONING 4.13; ACID-RAIN-CAUSES 4.14+4.16; CRACKING 4.17-4.18; ALKANES 4.19-4.21
+    one-family; ALKANE-HALOGEN-SUBSTITUTION 4.22) + 1 MISCONCEPTION (MIS-KEROSENE-DOUBLE-BONDS, the pinned
+    Crude Oil MS Q2b Reject class)
+boundary_edge_ruling:
+  rule: 'the FN-B1-2/FN-B2-2 cross-batch discipline at the S4-a/b/c boundary: boundary EDGES are sanctioned
+    ONLY into the exact-owner nodes below, ONLY for the stated dependency surfaces; boundary MINTING is
+    forbidden; if any batch-9 term ever matches an existing node outside this sanctioned set, the boundary
+    edge is MANDATORY and the mint FORBIDDEN (fail-closed at preverify/G03/c11.4). All FIVE sanctioned
+    targets are EXISTING-OWNER nodes (pilot x2, batch-1 x2, batch-5 x1) — batch 9 closes NO deferrals
+    and creates none: the batch-9 audit surfaces either resolve in-batch, ride the five sanctioned edges,
+    or are held/future-noted (B9-H-01..09, the future_boundary_notes).'
+  sanctioned_targets:
+  - for_sps:
+    - 4CH1-4.8
+    owner: batch 1
+    target: 4CH1-CON-FRACTIONAL-DISTILLATION
+    surface: the 4.8 industrial fractional distillation of crude oil runs the batch-1 separation technique
+      (fractionating column, temperature gradient, vapourise/condense) applied to petroleum — the note's
+      own sentences re-state the technique's vocabulary; the technique is never re-defined by the 4.8
+      note
+  - for_sps:
+    - 4CH1-4.2
+    owner: pilot
+    target: 4CH1-CON-EMPIRICAL-FORMULA
+    surface: the 4.2 representation surface applies the pilot's empirical-formula definition ('simplest
+      possible ratio') to organic molecules — the definition is the owner's, the organic application is
+      in-slice
+  - for_sps:
+    - 4CH1-4.2
+    owner: pilot
+    target: 4CH1-CON-MOLECULAR-FORMULA
+    surface: as above for the molecular-formula definition ('actual number of atoms')
+  - for_sps:
+    - 4CH1-4.11
+    - 4CH1-4.12
+    owner: batch 5
+    target: 4CH1-CON-COMBUSTION-O2
+    surface: the fuels family's complete/incomplete combustion presupposes the batch-5 combustion-in-oxygen
+      owner ('Complete combustion occurs when there is excess oxygen' — the oxygen reactant is the owner's
+      surface applied, never re-defined)
+  - for_sps:
+    - 4CH1-4.7
+    owner: batch 1
+    target: 4CH1-CON-MIXTURE
+    surface: 4.7's definition ('crude oil is a mixture of hydrocarbons') applies the batch-1 mixture concept
+      (not chemically combined; physically separable — which is precisely why the 4.8 distillation works)
+  max_boundary_edges: 5
+  non_mint_list:
+  - 4CH1-CON-ACID-ALKALI-IONS
+  - 4CH1-CON-ALLOYS
+  - 4CH1-CON-CALORIMETRY
+  - 4CH1-CON-CATALYST
+  - 4CH1-CON-CHROMATOGRAPHY
+  - 4CH1-CON-CO2-FROM-CARBONATES
+  - 4CH1-CON-CO2-GREENHOUSE
+  - 4CH1-CON-COMBUSTION-O2
+  - 4CH1-CON-COMPOUND
+  - 4CH1-CON-COVALENT-BOND
+  - 4CH1-CON-ELEMENT
+  - 4CH1-CON-EMP-MOL-CALC
+  - 4CH1-CON-EMPIRICAL-FORMULA
+  - 4CH1-CON-EQ-SYMBOL
+  - 4CH1-CON-EQ-WORD
+  - 4CH1-CON-EVAPORATION-BOILING
+  - 4CH1-CON-EXO-ENDO
+  - 4CH1-CON-FRACTIONAL-DISTILLATION
+  - 4CH1-CON-G7-DISPLACEMENT
+  - 4CH1-CON-G7-PREDICTION
+  - 4CH1-CON-G7-PROPERTIES
+  - 4CH1-CON-G7-REACTIVITY-ECONFIG
+  - 4CH1-CON-GAS-TESTS
+  - 4CH1-CON-GIANT-COVALENT
+  - 4CH1-CON-HEATING-CONSTANT-MASS
+  - 4CH1-CON-INDICATORS
+  - 4CH1-CON-ION
+  - 4CH1-CON-ION-CHARGE-RULES
+  - 4CH1-CON-IONIC-LATTICE
+  - 4CH1-CON-MIXTURE
+  - 4CH1-CON-MOLECULAR-FORMULA
+  - 4CH1-CON-MOLECULE
+  - 4CH1-CON-PH-SCALE
+  - 4CH1-CON-PURE-SUBSTANCE
+  - 4CH1-CON-SATURATED-SOLUTION
+  - 4CH1-CON-SIMPLE-DISTILLATION
+  - 4CH1-CON-SIMPLE-MOLECULAR
+  - 4CH1-CON-STATE-CHANGES
+  - 4CH1-CON-WATER-CUSO4-TEST
+  - 4CH1-CON-WATER-PURITY-TEST
+  - 4CH1-MIS-CUO-COLOUR
+  - 4CH1-MIS-GLOWING-SPLINT-HYDROGEN
+  - 4CH1-MIS-HALOGEN-HALIDE
+  - 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+future_boundary_notes:
+- 4.23-4.28 (S4-d alkenes) build directly on this batch's alkene vocabulary (addition reactions, bromine
+  water) — batch 10 owns the continuation; the cracking-products alkenes surface (this batch's 4.17/4.18)
+  plants the seed
+- 4.29C-4.33C (S4-e alcohols) + 4.38C-4.43C (S4-g esters) ride the functional-group vocabulary this batch's
+  4.3/4.4 nodes establish — batches 10-11 own them; the Crude Oil MS fermentation-vs-cracking comparison
+  (Q3c) is batch-10 evidence
+- 4.44-4.50C (S4-h polymers) ride 4.6's addition-reaction class and the Crude Oil MS condensation-polymerisation/disposal
+  surfaces — batch 11 owns them
+- the 4.15 negative control sits BETWEEN the 4.14 (NOx formation) and 4.16 (acid rain) rows this batch
+  authors — the acid-rain family node MUST NOT cite any 4.15-specific sentence (impurities -> SO2 formation);
+  its anchors stay on the note's 4.14/4.16-mapped sentences; the graph_check D12 zero-attachment control
+  continues
+- the Alkanes MS UV-light line ('If start with bromine (water) in presence of UV light then scores 0/3')
+  documents the UV condition from the MARK-SCHEME side — batch 10's 4.28 alkane/alkene distinction owns
+  the full bromine-water test surface; this batch's 4.22 anchors only the substitution-with-UV teaching
+non_goals:
+- no ontology redesign
+- no re-opening of settled batches
+- no re-scoping of the section plan
+- no promotion authority (SUGGESTED until the operator's §18 command)
+- no direct writes to graph/*.yaml

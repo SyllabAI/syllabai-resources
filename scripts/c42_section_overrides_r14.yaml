@@ -1,0 +1,147 @@
+schema: c42-r16-section-overrides/1.0
+task: T-C42
+round: R14
+generated: '2026-10-04'
+source: scripts/c42_r14_repair_verdicts.yaml (section_overrides + note_level_adjudications
+  + heading_only_convention)
+contract: 'consumed fail-closed by scripts/c40_maths_a_chunk_sp_substrate.py at R16
+  TOGETHER WITH scripts/c42_section_overrides.yaml (R1), scripts/c42_section_overrides_r6.yaml
+  (R6) and scripts/c42_section_overrides_r10.yaml (R10) — the R16 re-build wires this
+  map into the tool (the R12 precedent): an override naming a code outside the ratified
+  188 fails the build; current_code must equal the join-derived code; a DEMOTE_TO_WORKLIST
+  entry moves the chunk row to the unresolved-span worklist with its recorded reason;
+  the note-level re-point pins the composite-functions anchor as MOVED to 3.2D (the
+  refreshed R15 join re-derives it)'
+overrides:
+- note_slug: properties-of-2d-shapes
+  chunk_ordinal: 2
+  current_code: 4MA1-4.2C
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-4.1D
+  evidence: the section names the TYPES of triangles (equilateral, isosceles, scalene,
+    right-angled) with their side/angle properties — 4.1D 'understand the terms isosceles,
+    equilateral and right-angled triangles and the angle properties of these triangles'
+    is the surface verbatim (the store's operative 4.1D wording, a Foundation code
+    — no tier artifact); 4.2C's demand is the parallelogram/rectangle/square/rhombus/trapezium/kite
+    family and triangles are not in it; the note-level join stands via its quadrilateral
+    sections (ords 3-7, the R13-recorded finding; ord 1 common 2D shapes is an r4-carried
+    CONFIRM). R13 row 8d1dc5c6897f21cd
+- note_slug: properties-of-2d-shapes
+  chunk_ordinal: 8
+  current_code: 4MA1-4.2C
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-4.6A
+  evidence: the section teaches CIRCLE terminology (circumference, diameter, radius,
+    centre) — the Foundation wording of 4.6A per the C30 ledger ('recognise the terms
+    centre, radius, chord, diameter, circumference, tangent, arc, sector and segment
+    of a circle'; the store's operative 4.6A wording is the Higher internal/external
+    intersecting-chord properties text); 4.2C's demand is the parallelogram-family
+    properties and circles are not in it; the note-level join stands via its quadrilateral
+    sections (ords 3-7). R13 row 04b62ae1a6fbd346
+- note_slug: sharing-in-a-ratio
+  chunk_ordinal: 1
+  current_code: 4MA1-1.7E
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-1.7B
+  evidence: the section teaches SHARING an amount in a given ratio (add the parts,
+    value of one part, scale) — 1.7B 'divide a quantity in a given ratio or ratios'
+    verbatim; 1.7E's demand is 'solve word problems about ratio and proportion' and
+    the note carries that surface on its word-problem sections (ord 3 CONFIRMed fresh
+    in the same R13 draw) — the exact inverse of the R9 ratios-and-fdp ord-2 finding
+    (which moved ratios-and-fdp ord 2 from 1.7B to 1.7E; this moves sharing-in-a-ratio
+    ord 1 from 1.7E to 1.7B); the note-level join stands via its word-problem sections.
+    R13 row e770b78477bf94bf
+- note_slug: two-way-tables
+  chunk_ordinal: 2
+  current_code: 4MA1-6.1B
+  provenance_class: verdicted
+  action: REATTRIBUTE
+  override_code: 4MA1-6.3E
+  evidence: the section finds PROBABILITIES from a two-way table (totals, row/column
+    fractions) — the sample-space determination surface, 6.3E 'understand the concepts
+    of a sample space and an event, and how the probability of an event happening
+    can be determined from the sample space' verbatim (a two-way table IS the sample-space
+    representation; the store's operative 6.3E wording, a Foundation code); 6.1B's
+    Higher demand is constructing cumulative frequency diagrams and its Foundation
+    wording covers tabulation methods for statistical diagrams (which carries the
+    note's ords 0-1 — what two-way tables are and how to construct them, ord 0 resolved
+    by the standing convention) — the note-level join stands via its tabulation sections.
+    R13 row 3b7f3ef5aa7f26de
+- note_slug: unit-conversions
+  chunk_ordinal: 2
+  current_code: 4MA1-4.10F
+  provenance_class: verdicted
+  action: DEMOTE_TO_WORKLIST
+  override_code: null
+  evidence: 'DEMOTE — the scope §4 R1 surface-3 menu''s second action (exercised first
+    at R10, exercised again here). The section converts UNITS OF MASS (1 g = 1000
+    mg, 1 kg = 1000 g, 1 tonne = 1000 kg); 4.10F''s demand is ''convert between units
+    of volume within the metric system'' and the section is not volume; no canonical
+    188 row teaches metric mass conversion per se (the nearest surface is 1.10B ''carry
+    out calculations using standard units of mass, length, area, volume and capacity'',
+    which is calculations WITH standard units, not unit conversion; 4.9A''s ledger
+    Foundation wording covers linear and area units only, per the R6 ord-1 ruling
+    that already moved this note''s lengths section to 4.9A). The note-level join
+    STANDS (ords 0, 3 carry genuine volume/capacity content — ord 3 CONFIRMed fresh
+    at R13; ord 1 is the R6 4.9A ruling), so a section-level REATTRIBUTE has no target
+    and a RETAIN would knowingly re-create the scope difference for the R17 re-gate
+    to reject again: the honest disposition is the menu''s DEMOTE — the chunk leaves
+    the anchored surface for the unresolved-span worklist, recorded with this reason,
+    never forced. R13 row bccde73549e9e0e6'
+note_level_adjudications:
+  composite-functions:
+    anchor_id: spcpt_XWbj3PG2n8tdWF2w
+    ruling: THE NOTE-LEVEL JOIN IS RE-POINTED 3.3I -> 3.2D
+    evidence: the note teaches composite functions end to end (definition, fg notation,
+      numeric substitution, algebraic composition — its five chunk headings carry
+      zero plotting content) and 3.2D's Higher demand ('understand and find the composite
+      function fg and the inverse function f-1') is that teaching verbatim; the anchor's
+      own resolution row is a T-SPEC-7 P1_name_fragment_join (score 1.0) — the same
+      defect class as the R1 45-join inventory and the R10 pair; the sibling inverse-functions
+      note already joins H-3.2D correctly
+    consequence: the note's anchor moves to H-3.2D in the resolution file (see verdicts);
+      all 5 store rows of the note re-attribute wholesale at R15/R16 with the refreshed
+      join; the R15 census moves composite-functions from the 3.3I join to the 3.2D
+      join (a covered code — 3.3I keeps its coverage via the drawing-straight-line-graphs
+      re-attribution family, R1 ords 1/3)
+heading_only_convention:
+  decision_id: c42-heading-only-convention-1
+  record: graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md
+  ruling_summary: 'STANDING, unchanged — no new decision this round. The 4 fresh H3
+    HOLD rows on the R13 sheet (bounds ord 0, rearranging-formulae ord 0, expanding-single-brackets
+    ord 2, applications-of-trigonometry ord 0) are the convention''s fail-closed branch
+    working as designed: they are NOT part of the 6-row repair inventory and take
+    no R14 action; they un-hold automatically at the R17 re-gate once H1/H2 becomes
+    true — bounds ord 0 un-holds via H2 with the R13 record in the ladder''s source
+    base (bounds ord 2 CONFIRMed fresh at R13); the others un-hold the moment a content-row
+    CONFIRM of the same note+code accumulates or an H1 anchor ruling lands'
+  enforcement: the R17 re-gate fill resolves heading-only rows via the standing convention
+    ladder (the R13 record is in its source base — bounds ord 0 un-holds via H2);
+    the R16 build itself needs no convention wiring (chunk identity is untouched)
+subsumed_r1_entries: []
+observations:
+  contract: recorded for the operator, NOT verdicted, NOT overridden this round
+  items:
+  - id: eq-blast-radius-composite-functions
+    note: the composite-functions anchor carries referenced_by_parts = 40 EQ part
+      references that ride the wrong 3.3I code downstream (EQ part tagging); per the
+      scope §3 discipline the EQ-side repair is a census item for a separate operator
+      decision (the R0 pattern), never silently absorbed into the notes-lane rework
+  - id: mass-conversion-near-miss
+    note: the proposals packet's top-1 for unit-conversions ord 2 is 1.10B (score
+      0.193) — the same near-miss the R13 root itself examined and rejected (1.10B
+      is calculations WITH standard units, not unit conversion); the DEMOTE verdict
+      adjudicates on the ratified wordings, not on the scorer
+  - id: scorer-noise
+    note: the R14 proposals packet's top-1 candidates are deliberately noisy and bound
+      nothing — e.g. Composite Functions -> 2.1A (index notation) and sharing-in-a-ratio
+      -> 4.11A are scorer artifacts; the verdicts above adjudicate on the R13 root
+      evidence + the ratified wordings, not on the scorer
+  - id: expanding-squared-brackets-note-join
+    note: 'carried unchanged from R10: the corpus''s ''Expanding Squared Brackets''
+      note also joins 2.2E and was NEVER sampled by any round''s reject surface —
+      per the scope §7 discipline nothing self-repairs beyond this round''s inventoried
+      rows; recorded for a future operator look'

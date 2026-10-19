@@ -1,0 +1,79 @@
+{
+  "schema": "c42-r13-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r13-regate",
+  "baseline": "b031474c79877d07091ac7238889ac79cca4b26e",
+  "head": "b031474c79877d07091ac7238889ac79cca4b26e",
+  "fill_record": "graph/reports/C42_R13_MATHS_A_REGATE_FILL_RECORD.json",
+  "gates": [
+    {
+      "gate": "X1 input_pins",
+      "ok": true,
+      "detail": "store 923=841+82 (21 unresolved-span incl. the R10 DEMOTE + 61 gap), ledger 54, R1 45, R6 10, R10 2, overrides 16+7+8, R4 467, R9 465, fresh 30, convention pinned; fill baseline == the R11/R12 commit; HEAD b031474c7987"
+    },
+    {
+      "gate": "X2 sampling",
+      "ok": true,
+      "detail": "seed 4ca966d56f4d6748; strata {'exact': 471, 'none': 132, 'partial': 238}; sampled {'exact': 95, 'none': 132, 'partial': 238} == recorded"
+    },
+    {
+      "gate": "X3 record_agreement",
+      "ok": true,
+      "detail": "465 verdicts == sample; fields+strata+tier signatures agree; sources {'r4-carried': 8, 'r13-fresh': 30, 'r6-id-verdict': 7, 'r1-id-verdict': 91, 'heading-only-convention': 84, 'r6-section-override': 3, 'r1-section-override': 7, 'r10-standing': 1, 'r9-carried': 234}; fresh set == the committed judgment file"
+    },
+    {
+      "gate": "X4 mechanical_replay",
+      "ok": true,
+      "detail": "465/465 rows re-verified (quote-in-chunk, hash/heading, SUGGESTED/RULE_DERIVED)"
+    },
+    {
+      "gate": "X5 carry_forward",
+      "ok": true,
+      "detail": "234 R9-carried + 8 R4-carried CONFIRMs: triple-identical in the prior records, outside the R10 surface (R4 carries only for rows absent from the R9 record; 0 violations)"
+    },
+    {
+      "gate": "X6 r10_r6_r1_override_consistency",
+      "ok": true,
+      "detail": "0 R10-anchor rows + 1 STANDING rows + 7 R6-anchor rows + 91 R1-anchor rows CONFIRM on operator verdicts (CORRECT codes landed verbatim); 0 R10 override rows + 3 R6 override rows + 8 R1 override rows follow the operator rulings incl. 1 heading-only rows resolved by the convention; 0 subsumed rows ride the join"
+    },
+    {
+      "gate": "X7 both_tier",
+      "ok": true,
+      "detail": "signatures {'STORE_HIGHER': 412, 'LEDGER_FOUNDATION': 53}; LEDGER_FOUNDATION rows all on ledger codes; fresh-file signatures match the recomputation"
+    },
+    {
+      "gate": "X8 part_b",
+      "ok": true,
+      "detail": "82/82 worklist rows DEFER; surfaces 2 residual + 6 R1-cleared + 12 R6-cleared + 1 R10 DEMOTE + 61 gap"
+    },
+    {
+      "gate": "X9 gate_arithmetic_antiforgery",
+      "ok": true,
+      "detail": "rollup recomputed == recorded (exact 89.5% / partial 100.0% / none 100.0%); outcome FAIL correctly derived; all 923 rows SUGGESTED / RULE_DERIVED"
+    },
+    {
+      "gate": "X10 protected_surfaces",
+      "ok": true,
+      "detail": "dirty set == the R13 footprint exactly (8 files, all new); zero tracked-file changes vs b031474c7987 (Lane C stores, chemistry, spec-links, C25-C41 + C42 scope/R0-R12 records, corpora all byte-untouched)"
+    },
+    {
+      "gate": "X11 determinism",
+      "ok": true,
+      "detail": "fill re-run: sheet + verdict record byte-identical"
+    },
+    {
+      "gate": "X12 convention_ladder_replay",
+      "ok": true,
+      "detail": "107 sampled heading-only rows replayed through the H1/H2/H3 ladder independently (84 via the convention source, the rest via H1-class direct verdict sources); branches, verdicts and the fail-closed direction all agree"
+    },
+    {
+      "gate": "X13 h3_fail_closed_set",
+      "ok": true,
+      "detail": "4 H3 rows (no positive evidence yet; they un-hold automatically once H1/H2 becomes true at a later round): ['4MA1-1.8C bounds.json ord 0', '4MA1-2.2B expanding-single-brackets.json ord 2', '4MA1-2.3F rearranging-formulae.json ord 0', '4MA1-4.8C applications-of-trigonometry.json ord 0']; 6 REJECT rows recorded with root causes — the fresh defect inventory returns to the operator (scope §7)"
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "all_pass": true,
+  "gate_outcome_recorded_by_fill": "FAIL"
+}

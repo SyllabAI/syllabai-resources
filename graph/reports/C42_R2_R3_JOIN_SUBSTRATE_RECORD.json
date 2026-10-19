@@ -1,0 +1,169 @@
+{
+  "schema": "syllabai.c42-r2r3-record/1.0",
+  "task": "T-C42 K2-B rework — R2 join re-run + R3 substrate re-build (igcse-maths-a, 4MA1 Higher)",
+  "stage": "R2+R3 (agent-deterministic lanes of the C42 rework scope; no operator gate between R1 and R4)",
+  "generated_utc": "2026-10-02T11:08:05+00:00",
+  "directive": "\"fire R2-R3\" (operator, 2026-10-02, zai-web) — execute the two agent-deterministic lanes of the C42 K2-B rework scope (graph/reports/C42_IGCSE_MATHS_A_K2B_REWORK_SCOPE.json, lanes R2/R3) over the C42-R1-amended resolution substrate",
+  "executed_by": "operator-delegate (agent-deterministic construction only; every gate fail-closed; zero promotion of store rows — the substrate stays SUGGESTED and the C41-promoted 73 HUMAN_VALIDATED edges are untouched)",
+  "head_before": "6ade129",
+  "input_pins": {
+    "amended_resolution": {
+      "path": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+      "sha256_16": "05a57b056874e8dd",
+      "pre_repair_baseline_blob": "3a0b5dc48a65fb54"
+    },
+    "pre_r2_join_blob": "1fe9da180ad4ea5e411e35483ec3f9b52e8a908d",
+    "pre_r3_substrate_blob": "f3b2cc2be76934ee3b547a9b4e75d41581ceb6a6",
+    "section_override_map": {
+      "path": "scripts/c42_section_overrides.yaml",
+      "entries": 16,
+      "reattribute": 12,
+      "retain": 4
+    },
+    "workspace": "sparse cone extended by SME-RevisionNotes/igcse-maths-a-18-higher (local .git/info only, the R1 precedent for SME-ExamQuestion/igcse-maths-a-18-higher); corpus byte-frozen"
+  },
+  "r2_join_re_run": {
+    "tool": "scripts/c32_notes_maths_a_join.py (dated T-C42 R2 amendment; census guard re-pinned 202/1 -> 200/3 with the EXACT post-R1 unresolved id set pinned; anything else fails closed)",
+    "artifact": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "census": {
+      "anchors_total": 203,
+      "joined": 200,
+      "unresolved_recorded": 3,
+      "ids_absent_from_resolution": 0,
+      "foreign_codes": 0,
+      "distinct_official_codes": 119,
+      "coverage_of_188": "119/188",
+      "wording_check_census": {
+        "EXACT": 175,
+        "LEDGER_EXPLAINABLE": 25
+      }
+    },
+    "unresolved": [
+      {
+        "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
+        "sme_name": "Discrete & Continuous Data",
+        "status": "C31 §3 residual, KEPT UNRESOLVED at R1 (PDF-verified reason stands)"
+      },
+      {
+        "anchor_id": "spcpt_8Wtthy9gt8B5xsVW",
+        "sme_name": "Mathematical Symbols",
+        "status": "cleared UNRESOLVED by the C42 R1 operator verdict (no canonical row teaches it; wrong code removed, never forced)"
+      },
+      {
+        "anchor_id": "spcpt_3fMGfNtg3hXMg6gC",
+        "sme_name": "Problem Solving with Areas",
+        "status": "cleared UNRESOLVED by the C42 R1 operator verdict (no canonical row teaches it; wrong code removed, never forced)"
+      }
+    ],
+    "notes": [
+      "all 22 CORRECT codes landed verbatim (spot-verified: Exchange Rates -> 1.10C, Negative Numbers -> 1.1C, Length of a Line -> 4.8A, Angles in the Same Segment -> 4.6C)",
+      "the Foundation re-pointing is visible in the join itself: the 21 AFFIRM anchors now carry bare official_ids (e.g. IGCSE_MATHS_A:2.2B) with the Foundation wording and read LEDGER_EXPLAINABLE against the Higher-operative store wording, while genuinely-Higher anchors on the same codes keep H- ids and read EXACT (e.g. 'Expanding & Simplifying Single Brackets' on 2.2B) — the C30 tier-dedupe ledger structure surfacing exactly as the R1 key finding predicted",
+      "the 2 cleared anchors carry PROPOSAL-ONLY candidates (the same deterministic scorer as the residual); they bind nothing and no code was forced"
+    ]
+  },
+  "r3_substrate_rebuild": {
+    "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@2.0.0 (dated T-C42 R3 amendment; G2 re-pinned to 200+3 exact set; operator section-override map consumed FAIL-CLOSED; coverage + worklist recomputed; chunker and c40-chunk-convention-1 untouched)",
+    "artifact": "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+    "census": {
+      "rows_total": 928,
+      "rows_anchored": 854,
+      "rows_worklist_anchor_unresolved": 8,
+      "rows_worklist_unmapped_sps": 66,
+      "sp_codes_covered": 122,
+      "chunks_total": 862,
+      "chunks_intro": 0,
+      "spans": 203,
+      "notes": 191,
+      "registry_size": 188,
+      "chunks_section": 862
+    },
+    "chunk_identity_invariant": "HOLDS: the (note_path, ordinal, heading, sha256_16) multiset of all 862 chunk rows is IDENTICAL to the pre-R3 substrate blob — note_path/ordinal/heading/sha256_16 never moved; only code attribution changed (W3)",
+    "override_consumption": {
+      "mode": "fail-closed",
+      "checks_enforced": [
+        "every entry hits exactly one emitted chunk row keyed (note_slug, chunk_ordinal)",
+        "entry current_code == join-derived code (the map was authored against the post-R1 projection; all 16 matched — an independent validation of the R1 override projection)",
+        "REATTRIBUTE targets within the ratified 188 (registry membership)",
+        "REATTRIBUTE to the same code rejected; RETAIN with override_code rejected",
+        "census pinned 16 entries = 12 REATTRIBUTE + 4 RETAIN",
+        "no duplicate entries"
+      ],
+      "applied_rows_carry": "provenance.override {source (map sha), operator_round, action, evidence} — the R4 re-fill sees exactly what the operator ruled",
+      "overlap_with_verdict_anchors": 0
+    },
+    "coverage_recompute": {
+      "covered": "111 -> 122 of 188",
+      "gained": [
+        "4MA1-1.11A",
+        "4MA1-1.1C",
+        "4MA1-1.7A",
+        "4MA1-1.8A",
+        "4MA1-2.3A",
+        "4MA1-2.8C",
+        "4MA1-3.2D",
+        "4MA1-3.3A",
+        "4MA1-4.10C",
+        "4MA1-4.10E",
+        "4MA1-4.4F",
+        "4MA1-6.3C",
+        "4MA1-6.3D"
+      ],
+      "lost": [
+        "4MA1-1.5C",
+        "4MA1-6.3B"
+      ],
+      "note": "gained = corrected codes (1.1C, 1.7A, 1.8A, 1.11A, 2.3A, 3.2D, 3.3A, ...) + override codes (2.8C number-line, ...); lost = two wrong T-SPEC-7-era codes no other anchor covers (6.3B was Conditional Probability's wrong code; 1.5C the same class). The C40-era 111-code bound stays on its own record as a measurement under the defective mapping."
+    },
+    "worklist_recompute": "unresolved-span worklist 2 -> 8 rows (the residual 'Discrete & Continuous Data' keeps its 2 rows + the 2 cleared spans contribute 6 content chunks); uncovered-SP worklist 77 -> 66 rows; every worklist row carries a disposition and a reason naming its surface (C32 §3 residual vs C42 R1 surface 1)"
+  },
+  "reattribution_reconciliation": {
+    "measured": "all 862 pre-R3 chunk rows replayed (W4): 89 rows on the 22 CORRECT anchors re-pointed; 82 rows on the 21 AFFIRM anchors unchanged in code (their upstream official_id/official_wording re-pointed to the Foundation statement; wording_check EXACT -> LEDGER_EXPLAINABLE where applicable); 12 REATTRIBUTE + 4 RETAIN override rows; 6 rows of the 2 cleared spans demoted to worklist; the remaining 669 non-surface rows verified ZERO-DRIFT (spec_code AND upstream fields)",
+    "scope_record_189_note": "the scope record's '189 anchored store rows' was the C40 FILL-RECORD bookkeeping over the 45 defective (note, code) joins (rejected verdict rows); the substrate-side measurement under the same 45 anchors is 177 rows (89+82+6). Both numbers stand on their own records; the delta is bookkeeping base (fill verdict rows vs anchored substrate rows), not a defect."
+  },
+  "tool_amendments": [
+    "scripts/c32_notes_maths_a_join.py — dated T-C42 R2 amendment per P5 (generator re-pinned, landed records never edited): postcondition 200/3 with exact unresolved id set; task/validation_tier strings carry the C42 R1 repair clause; unresolved rows each print. Original 202/1 census guard remains on its own C32-era record (c32_k2a_check.py stays untouched and historical).",
+    "scripts/c40_maths_a_chunk_sp_substrate.py@2.0.0 — dated T-C42 R3 amendment per P5: G2 re-pin (200+3, exact id set), R1_CLEARED distinction, operator override map consumption fail-closed with provenance.override, coverage/worklist recompute, meta.stage + meta.r3_section_overrides pins, upstream census string derived from the artifact. The chunker, chunk convention, evidence-quote discipline and every anti-forgery gate are untouched."
+  ],
+  "verification": {
+    "battery": "scripts/c42_r2_r3_join_substrate_check.py",
+    "report": "graph/reports/C42_R2_R3_CHECK.json",
+    "result": "ALL PASS 7/7 (W1 join refresh / W2 substrate shape / W3 chunk identity invariant / W4 re-attribution audit / W5 coverage-worklist recompute / W6 protected surfaces / W7 determinism)",
+    "determinism": "substrate re-run byte-identical (no timestamp in the store); join re-run content-identical modulo generated_utc"
+  },
+  "staleness_after": {
+    "fresh": [
+      "T-C32 notes-join (R2)",
+      "C40 chunk substrate (R3)",
+      "coverage + worklist (R3)"
+    ],
+    "still_stale_or_superseded": [
+      "the C40-era fill verdict record (468 rows) and review sheet are superseded by the rebuilt surface — R4 renders a FRESH re-stratified review sheet and re-fills under the C12/C13 convention",
+      "spec-links/** — separate follow-up decision armed by the R0 census (per the R1 record); not touched here",
+      "sme_spcpt_verify.py legacy BASE pointer — operator queue (unchanged from R1)"
+    ]
+  },
+  "standing_instruction_for_r4": "the re-fill MUST consult BOTH tier wordings (the store's Higher-operative wording AND the C30 tier-dedupe ledger's foundation.text) or it will re-reject exactly the 21 wording-tier artifacts and the >=90% per-class gate can never pass (C42 R1 key finding)",
+  "untouched": [
+    "graph/igcse-chemistry/**",
+    "parsed/** canonical JSON",
+    "Lane C stores (concepts 82 / concept_edges 157 = 84 PART_OF + 73 semantic / kinds 72; the 73 HUMAN_VALIDATED edges byte-identical to 6ade129)",
+    "spec-links/**",
+    "C25-C41 records + the C42 scope/R0/R1 records",
+    "the SME corpora (notes + EQ) byte-frozen"
+  ],
+  "invariants_held": [
+    "c40-chunk-convention-1 forward contract survives untouched (chunk identity verified identical, W3)",
+    "zero HUMAN_VALIDATED rows: the substrate stays SUGGESTED / RULE_DERIVED end to end (W2)",
+    "the held quarantine and the §18 promotion surface are untouched (W6)"
+  ],
+  "footprint": [
+    "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json (R2 refresh)",
+    "graph/igcse-maths-a/spec_chunk_mappings.yaml (R3 rebuild, 928 rows)",
+    "scripts/c32_notes_maths_a_join.py (R2 amendment)",
+    "scripts/c40_maths_a_chunk_sp_substrate.py@2.0.0 (R3 amendment)",
+    "scripts/c42_r2_r3_join_substrate_check.py (new battery)",
+    "graph/reports/C42_R2_R3_CHECK.json",
+    "graph/reports/C42_R2_R3_JOIN_SUBSTRATE_RECORD.{md,json}"
+  ],
+  "next_gate": "R4 re-gate (OPERATOR EVIDENCE, gate 2): fresh re-stratified review sheet over the rebuilt surface, C12/C13 fill convention consuming both tier wordings, >=90% per-class required, Part B (2 unresolved-span + uncovered-SP rows) re-decided — the operator's choice to fire"
+}

@@ -1,0 +1,56 @@
+{
+ "battery": "T-SPECS-CIE-XJOIN-1",
+ "all_pass": true,
+ "checks": [
+  {
+   "id": "1",
+   "pass": true,
+   "detail": "44/44 well-formed additive cross_lane_join blocks (shape/stamps/counts/key order/no-trailing-NL)"
+  },
+  {
+   "id": "2",
+   "pass": true,
+   "detail": "byte-additivity 44/44: staged file == HEAD bytes + exactly the appended block; coverage/spec_points byte-stable"
+  },
+  {
+   "id": "3",
+   "pass": true,
+   "detail": "fresh corpus re-derivation 44/44; refs 32085, unique 5540 = covered 5218 + missing 322; split 54+0+268 == 322 == (54 present-in-sibling) + (268 recordless)"
+  },
+  {
+   "id": "4",
+   "pass": true,
+   "detail": "all 54 resolved entries verbatim-equal to fresh sibling records (representative = first recorded lane); grades def 9 / name 45; corroboration via_lanes honest 44/44"
+  },
+  {
+   "id": "5",
+   "pass": true,
+   "detail": "ambiguity quarantine honest: 0 entries, variants deep-equal to fresh sibling records"
+  },
+  {
+   "id": "6",
+   "pass": true,
+   "detail": "footprint 48 paths ⊆ declared set; guards intact; SME-ExamQuestion delta == 44 CIE files; 93 indexes at HEAD = 49 Edexcel (untouched) + 44 CIE"
+  },
+  {
+   "id": "7",
+   "pass": true,
+   "detail": "engine fixed-stamp re-run byte-identical across all 44 files"
+  },
+  {
+   "id": "8",
+   "pass": true,
+   "detail": "2-lane independent rebuild from fresh corpus data (maths-25-core 26 cures, chemistry-23 8 cures) == staged bytes"
+  },
+  {
+   "id": "9",
+   "pass": true,
+   "detail": "sidecar universe reconciliation 44/44 fail-closed; spec-links byte-identical vs HEAD"
+  },
+  {
+   "id": "10",
+   "pass": true,
+   "detail": "stats coherent with staged blocks; record pins (322, 54, 9, 45, 0, 268) ALL reproduced"
+  }
+ ]
+}

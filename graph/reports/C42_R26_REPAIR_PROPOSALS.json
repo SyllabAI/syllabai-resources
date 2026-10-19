@@ -1,0 +1,261 @@
+{
+  "schema": "syllabai.c42-r26-repair-proposals/1.0",
+  "task": "T-C42 / R26 (the seventh R1-shaped repair round, over the R25 4-row defect inventory — the FIRST over the promoted surface)",
+  "directive": "(a) an R26-shaped repair over the 4-row inventory (2026-10-04, zai-web, gateway trace 1a10641c64283c99)",
+  "method": "0.5*difflib(name, wording) + 0.5*token-jaccard + 0.10 section-prior, scored against BOTH tier wordings (store operative + C30 ledger foundation.text where the code is a shared-tier row, better-of-two recorded); name_text = chunk heading + evidence note (surface 2); the current code is scored and recorded separately per the R18 absence-finding convention; PROPOSAL-ONLY — binds nothing; top-1 candidates are deliberately published as noisy; PMT excluded as source; the operator verdict round decides. Surface 1 is EMPTY this round (no note-level-class root — all four note-level joins STAND, so there is no id-level anchor and NO resolution-file amendment). Surface 3 (the 4 H3 HOLD rows) is LISTED not scored — they ride the STANDING convention c42-heading-only-convention-1 with the R21 disposition unchanged; see graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md",
+  "store_context": "the R5 §18 apply has landed and was re-applied byte-stably at R24 (832 anchored rows HUMAN_VALIDATED, sha16 9bad739bd79e5899); ALL 4 R25 REJECT rows sit on that promoted surface (pinned with their then-codes) — this round moves ZERO store bytes; the adjudications land as next-re-build-facing records (the override map scripts/c42_section_overrides_r26.yaml + the promotions amendment scripts/c42_r26_promotions_amendment.yaml) consumed fail-closed at the R28-shaped lane",
+  "surface1_id_level": [],
+  "surface2_section_level": [
+    {
+      "mapping_id": "70f0b027f3f1528f",
+      "note_path": "notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json",
+      "chunk_ordinal": 2,
+      "heading": "How do I factorise by grouping?",
+      "current_code": "4MA1-2.2F",
+      "promoted_pin_code": "4MA1-2.2F",
+      "promoted_pin_matches_store": true,
+      "root": "REJECT — limit-scope difference with NO canonical 188 target: the section teaches FACTORISING BY GROUPING of a FOUR-TERM, TWO-VARIABLE expression (xy + 3x + 5y + 15 -> x(y + 3) + 5(y + 3) -> (y + 3)(x + 5)) — while 2.2F's demand is explicitly capped '(limited to x^2 + bx + c)' and the section's expression is not a quadratic in one variable at all (the same cap-exceeded class as the R21 difference-",
+      "top_candidates_excluding_current": [
+        {
+          "code": "4MA1-2.8C",
+          "score": 0.1937,
+          "wording": "solve simple linear inequalities in one variable and represent the solution set on a number line",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-2.2C",
+          "score": 0.1901,
+          "wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-2.2B",
+          "score": 0.1899,
+          "wording": "understand the concept of a quadratic expression and be able to factorise such expressions",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-2.5A",
+          "score": 0.1864,
+          "wording": "set up problems involving direct or inverse proportion and relate algebraic solutions to graphical representation of the equations",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-2.3D",
+          "score": 0.1837,
+          "wording": "use formulae from mathematics and other real-life contexts expressed initially in words or diagrammatic form and convert to letters and symbols",
+          "in_c30_ledger": false
+        }
+      ],
+      "current_code_score": {
+        "code": "4MA1-2.2F",
+        "score": 0.1944,
+        "wording": "understand the concept of a quadratic expression and be able to factorise such expressions (limited tox + bx + c)"
+      },
+      "top1_including_current": {
+        "code": "4MA1-2.2F"
+      },
+      "top1_excluding_current": {
+        "code": "4MA1-2.8C"
+      }
+    },
+    {
+      "mapping_id": "7fdded0b9245e1c3",
+      "note_path": "notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json",
+      "chunk_ordinal": 3,
+      "heading": "How do I multiply a vector by a scalar?",
+      "current_code": "4MA1-5.1D",
+      "promoted_pin_code": "4MA1-5.1D",
+      "promoted_pin_matches_store": true,
+      "root": "REJECT — adjacent-surface scope difference WITH a canonical target: the section teaches SCALAR MULTIPLICATION of a column vector (a scalar is a number not a vector — no direction; 3 x (2, -1) = (6, -3) componentwise) — while 5.1D's demand is 'add and subtract vectors' and the section contains NO addition or subtraction of vectors; the canonical target EXISTS — 5.1C 'multiply vectors by scalar quan",
+      "top_candidates_excluding_current": [
+        {
+          "code": "4MA1-5.1C",
+          "score": 0.1762,
+          "wording": "multiply vectors by scalar quantities",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-5.2I",
+          "score": 0.1762,
+          "wording": "understand that rotations, reflections and translations preserve length and angle so that a transformed shape under any of these transformations remains congruent to the original shape",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-5.2C",
+          "score": 0.1667,
+          "wording": "recognise that an anti-clockwise rotation is apositiveangle of rotation and a clockwise rotation is anegativeangle of rotation",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-5.1B",
+          "score": 0.1665,
+          "wording": "understand and use vector notation including column vectors",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-5.1F",
+          "score": 0.1638,
+          "wording": "find the resultant of two or more vectors",
+          "in_c30_ledger": false
+        }
+      ],
+      "current_code_score": {
+        "code": "4MA1-5.1D",
+        "score": 0.1545,
+        "wording": "add and subtract vectors"
+      },
+      "top1_including_current": {
+        "code": "4MA1-5.1C"
+      },
+      "top1_excluding_current": {
+        "code": "4MA1-5.1C"
+      }
+    },
+    {
+      "mapping_id": "81c0b59852d5d4b6",
+      "note_path": "notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json",
+      "chunk_ordinal": 1,
+      "heading": "What are integers and rational numbers?",
+      "current_code": "4MA1-1.1G",
+      "promoted_pin_code": "4MA1-1.1G",
+      "promoted_pin_matches_store": true,
+      "root": "REJECT — adjacent-surface scope difference WITH a partial canonical target: the section defines INTEGERS (whole numbers, positive/negative/zero, -3 to 3), RATIONAL numbers (a/b form, b != 0) and IRRATIONAL numbers (pi, sqrt(2), cube root of 5) — while 1.1G's demand is the vocabulary set 'odd, even, prime numbers, factors and multiples', none of which the section teaches; the integers surface match",
+      "top_candidates_excluding_current": [
+        {
+          "code": "4MA1-1.1A",
+          "score": 0.1859,
+          "wording": "understand and use integers (positive, negative and zero)",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-1.4C",
+          "score": 0.1824,
+          "wording": "use index notation and index laws for multiplication and division of positive and negative integer powers including zero",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-1.9A",
+          "score": 0.181,
+          "wording": "calculate with and interpret numbers in the forma × 10 wherenis an integer and1 a < 10",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-1.7A",
+          "score": 0.1766,
+          "wording": "use ratio notation, including reduction to its simplest form and its various links to fraction notation",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-1.5C",
+          "score": 0.1708,
+          "wording": "understand the concept of the universal set and the empty set and the symbols for these sets",
+          "in_c30_ledger": true
+        }
+      ],
+      "current_code_score": {
+        "code": "4MA1-1.1G",
+        "score": 0.1981,
+        "wording": "use the terms ‘odd’, ‘even’, ’prime numbers’, ‘factors’ and ‘multiples’"
+      },
+      "top1_including_current": {
+        "code": "4MA1-1.1G"
+      },
+      "top1_excluding_current": {
+        "code": "4MA1-1.1A"
+      }
+    },
+    {
+      "mapping_id": "e6ed72481e8ffc2e",
+      "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json",
+      "chunk_ordinal": 4,
+      "heading": "What if the equation is not in the form y = mx + c?",
+      "current_code": "4MA1-3.3F",
+      "promoted_pin_code": "4MA1-3.3F",
+      "promoted_pin_matches_store": true,
+      "root": "REJECT — adjacent-surface scope difference WITH a canonical target: the section teaches REARRANGING a linear equation to y = mx + c (3x + 5y = 30 -> 5y = -3x + 30 -> y = -3/5 x + 6) and reading off the gradient -3/5 and y-intercept 6 to make plotting easier — while 3.3F's demand is 'calculate the gradient of a straight line given the coordinates of two points' and NO two-point gradient calculation",
+      "top_candidates_excluding_current": [
+        {
+          "code": "4MA1-3.3H",
+          "score": 0.2752,
+          "wording": "recognise that equations of the form y = mx + care straight line graphs with gradientmand intercept on the y-axis at the point(0,c)",
+          "in_c30_ledger": false
+        },
+        {
+          "code": "4MA1-3.3E",
+          "score": 0.2242,
+          "wording": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-3.3G",
+          "score": 0.2167,
+          "wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-3.3B",
+          "score": 0.1937,
+          "wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+          "in_c30_ledger": true
+        },
+        {
+          "code": "4MA1-3.4C",
+          "score": 0.1817,
+          "wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
+          "in_c30_ledger": false
+        }
+      ],
+      "current_code_score": {
+        "code": "4MA1-3.3F",
+        "score": 0.2159,
+        "wording": "calculate the gradient of a straight line given the coordinates of two points"
+      },
+      "top1_including_current": {
+        "code": "4MA1-3.3H"
+      },
+      "top1_excluding_current": {
+        "code": "4MA1-3.3H"
+      }
+    }
+  ],
+  "surface3_heading_only_h3_continuity": [
+    {
+      "mapping_id": "1dfc65df88b35d69",
+      "spec_code": "4MA1-1.7B",
+      "note_path": "notes/1-numbers-and-the-number-system/ratio-problem-solving/multiple-ratios.json",
+      "chunk_ordinal": 0,
+      "heading": "Multiple ratios",
+      "validation_status": "SUGGESTED",
+      "disposition": "rides a future round only with the operator's explicit per-row sign-off (plus the convention decision itself), or stays SUGGESTED — the R21 disposition, unchanged through R25"
+    },
+    {
+      "mapping_id": "2d44bcf00f589c18",
+      "spec_code": "4MA1-6.3J",
+      "note_path": "notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json",
+      "chunk_ordinal": 4,
+      "heading": "Expected frequency",
+      "validation_status": "SUGGESTED",
+      "disposition": "rides a future round only with the operator's explicit per-row sign-off (plus the convention decision itself), or stays SUGGESTED — the R21 disposition, unchanged through R25"
+    },
+    {
+      "mapping_id": "91a5080f8b390de6",
+      "spec_code": "4MA1-3.3F",
+      "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json",
+      "chunk_ordinal": 0,
+      "heading": "Drawing linear graphs",
+      "validation_status": "SUGGESTED",
+      "disposition": "rides a future round only with the operator's explicit per-row sign-off (plus the convention decision itself), or stays SUGGESTED — the R21 disposition, unchanged through R25"
+    },
+    {
+      "mapping_id": "56905a113334dcd1",
+      "spec_code": "4MA1-2.2C",
+      "note_path": "notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json",
+      "chunk_ordinal": 0,
+      "heading": "Expanding one bracket",
+      "validation_status": "SUGGESTED",
+      "disposition": "rides a future round only with the operator's explicit per-row sign-off (plus the convention decision itself), or stays SUGGESTED — the R21 disposition, unchanged through R25"
+    }
+  ],
+  "residual": "the C32 §3 residual stays KEPT UNRESOLVED per its R1 adjudication (re-affirmed at R6, R10, R14, R18, R22); the 81 worklist rows stand as re-decided at R25 (81/81 DEFER)"
+}

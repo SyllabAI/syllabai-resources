@@ -1,0 +1,455 @@
+# T-C11 §16 batch 3 — OPERATOR verdict record (session-51 package), FILLED by operator decision session 52 (2026-09-13). OPERATOR-OWNED.
+# Operator verdict policy (session-52 directive, §2 Verdict policy): CONFIRM where the evidence
+# clearly supports the authored relationship; HOLD/REJECT only for genuine evidence insufficiency or an
+# architectural/semantic problem; ordinary ontology imperfection, wording preferences, enrichment opportunities
+# and theoretical alternative interpretations are NOT blockers — see meta.operator_ruling for the recorded mapping.
+# Vocabulary and pathway: see the meta.instructions block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) and the decision record's §7 blocks — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-3-verdicts
+  batch: 3
+  session: 52
+  file: OPERATOR-OWNED verdict record for C11_BATCH3_REVIEW_SHEET (session 51 package) — verdicts recorded
+    by operator decision, session 52 (2026-09-13).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-3 extraction_pass
+    is c11-s16-batch-3; its 14 held candidates are informational only (no reopening, no promotion of held
+    candidates). Six edges are cross-boundary into earlier-record nodes (CON-ATOM x2, CON-ELECTRONIC-CONFIGURATION
+    x2, CON-MOLECULE x2 — sanctioned, no duplicate mint). The next session applies verdicts via the §18
+    promotion pathway / §7 decision-record re-authoring; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'Where the evidence clearly supports the authored relationship: CONFIRM. Where there is
+      genuine evidence insufficiency or an architectural/semantic problem: HOLD or REJECT, as appropriate.
+      However, do not turn ordinary ontology imperfection, wording preferences, enrichment opportunities,
+      or theoretical alternative interpretations into blockers.'
+    session: 52
+    decided_by: operator
+    decided_date: '2026-09-13'
+    mapping: 'The operator authorized moving forward rather than reopening another prolonged review cycle,
+      delegating the practical per-row review under the established T-C11 rules (''For each row, make
+      the best evidence-based decision using the established T-C11 rules.'') and declaring this verdict
+      file the operator authorization for promotion (''My verdict file is that operator authorization.'').
+      Applied per row: every edge row CONFIRM (the evidence clearly supports each authored relationship
+      — 144/144 quote anchors machine-verified G03/c11.4; pass-2 adversarial review 39/39 with zero demotions;
+      the FLAGGED rows carry relation-class / first-deployment / family-overlap flags, the ordinary-ontology-imperfection
+      class the operator explicitly refuses to treat as a blocker); every node row CONFIRM (no duplicate
+      canonical mint; pass-2 verified 24/24); each identity decision KEEP_AS_IS (the simplest representation
+      that preserves meaningful distinctions and creates no duplicate canonical concept — no merge, no
+      split, no boundary re-scope); and the held appendix stays held (a clean quarantine is preferable
+      to inventing evidence). This batch authored NO REVIEW_REQUIRED edge, so no RR settlement row exists.
+      Verdicts recorded session 52; the application state lives in scripts/c11_promotions.yaml (the §18
+      pathway is the only HUMAN_VALIDATED source) and in the §7 decision-record re-authoring — this file
+      never carries promotion payload or promoted status. Changing a recorded verdict requires an explicit
+      operator decision.'
+edge_verdicts:
+- id: B3-E-01
+  triple: 4CH1-CON-ANODE-CATHODE REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-02
+  triple: 4CH1-CON-AQUEOUS-DISCHARGE REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-03
+  triple: 4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-04
+  triple: 4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-05
+  triple: 4CH1-CON-COVALENT-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-06
+  triple: 4CH1-CON-DIAMOND-GRAPHITE RELATED_TO 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the store''s FIRST RELATED_TO deployment
+    stands on the note''s explicit ''C60 is a simple molecular structure'' statement (FP-B3-3; relation_class_rationale
+    recorded per G08; the alternative modeling is B3-ID-07 KEEP_AS_IS). A first-class deployment is not
+    a blocker.'
+- id: B3-E-07
+  triple: 4CH1-CON-DIAMOND-GRAPHITE REQUIRES_PREREQUISITE 4CH1-CON-GIANT-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-08
+  triple: 4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-09
+  triple: 4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-10
+  triple: 4CH1-CON-DOT-CROSS-IONIC REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-11
+  triple: 4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-12
+  triple: 4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-REDOX-ELECTRONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-13
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-ANODE-CATHODE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-14
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the reachable-but-different-information
+    density flag (FP-B3-2; the §19 reachable-ne-redundant precedent: the edge carries the COMPOSITION
+    of what is electrolysed) is ordinary ontology imperfection, not a semantic defect.'
+- id: B3-E-15
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-CONDUCTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-16
+  triple: 4CH1-CON-GIANT-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-17
+  triple: 4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-18
+  triple: 4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-19
+  triple: 4CH1-CON-ION-CHARGE-RULES REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-20
+  triple: 4CH1-CON-IONIC-BOND COMMONLY_CONFUSED_WITH 4CH1-CON-COVALENT-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the store''s SECOND COMMONLY_CONFUSED_WITH
+    edge stands on the corpus''s explicit share-vs-transfer difference tip (FP-B3-4; one-directional storage
+    per the batch-2 convention; MS cross-REJECTs are G07-inadmissible assessment context only).'
+- id: B3-E-21
+  triple: 4CH1-CON-IONIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-22
+  triple: 4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-23
+  triple: 4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-IONIC-LATTICE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-24
+  triple: 4CH1-CON-IONIC-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-25
+  triple: 4CH1-CON-IONIC-LATTICE REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-26
+  triple: 4CH1-CON-METAL-PROPERTIES EXPLAINED_BY 4CH1-CON-METALLIC-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — EXPLAINED_BY is the stronger evidenced reading
+    for the explicit causal sentences (''This is because...''; FP-B3-2); the equally-real prerequisite
+    reading is a theoretical alternative interpretation, not a blocker; one relation per pair per the
+    ratified discipline.'
+- id: B3-E-27
+  triple: 4CH1-CON-METALLIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-28
+  triple: 4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-29
+  triple: 4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the vocabulary-level operand class (FP-B1-4)
+    + cross-boundary target was operator-CONFIRMED in batch 2 (B2-E-16); the cross-boundary target is
+    sanctioned per FN-B2-2, no duplicate mint.'
+- id: B3-E-30
+  triple: 4CH1-MIS-COVALENT-BONDS-BROKEN REMEDIATED_BY 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — remediation target equals the WAP target
+    (the batch-1 B1-E-25 pattern, operator-CONFIRMED in batches 1-2); kept for misconception-recommendation
+    queries (node remediation_evidence also carries the corrective text).'
+- id: B3-E-31
+  triple: 4CH1-MIS-COVALENT-BONDS-BROKEN WRONG_ANSWER_PATTERN 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-32
+  triple: 4CH1-MIS-GRAPHITE-LAYER-BONDS REMEDIATED_BY 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — remediation target equals the WAP target
+    (B1-E-25 pattern) + the family overlap is resolved by B3-ID-06 KEEP_AS_IS (two documented surfaces,
+    two targets); not a blocker.'
+- id: B3-E-33
+  triple: 4CH1-MIS-GRAPHITE-LAYER-BONDS WRONG_ANSWER_PATTERN 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the WAP evidence is independently documented
+    (COVALENT_MS_P2 Q1(b) REJECT) with a different target concept (1.50 vs 1.47); the family-overlap merge
+    question is B3-ID-06 KEEP_AS_IS.'
+- id: B3-E-34
+  triple: 4CH1-MIS-IONIC-BOND-ATOMS REMEDIATED_BY 4CH1-CON-IONIC-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — remediation target equals the WAP target
+    (the B1-E-25 pattern, operator-CONFIRMED in batches 1-2).'
+- id: B3-E-35
+  triple: 4CH1-MIS-IONIC-BOND-ATOMS WRONG_ANSWER_PATTERN 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-36
+  triple: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS MISCONCEPTION_OF 4CH1-CON-IONIC-CONDUCTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-37
+  triple: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS REMEDIATED_BY 4CH1-CON-IONIC-CONDUCTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — remediation target equals the MISCONCEPTION_OF
+    target (the B1-E-25 pattern); kept for misconception-recommendation queries.'
+- id: B3-E-38
+  triple: 4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-AQUEOUS-DISCHARGE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-E-39
+  triple: 4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+node_verdicts:
+- id: B3-N-01
+  code: 4CH1-CON-ANODE-CATHODE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the term pair + migration rule stay one
+    node (FP-B1-1 class; the corpus teaches them together; the granularity precedent CON-SUBATOMIC-PARTICLES).'
+- id: B3-N-02
+  code: 4CH1-CON-AQUEOUS-DISCHARGE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the 1.58C dual node attachment stands (B3-ID-05
+    KEEP_AS_IS: the discharge rules stay independently assessable; mirrors the spec''s describe + predict
+    wording).'
+- id: B3-N-03
+  code: 4CH1-CON-COVALENT-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the 1.44 sharing-definition + 1.45 electrostatic-mechanism
+    stay one node (B3-ID-02 KEEP_AS_IS: definition vs mechanism of one term; the ratified 1.19/1.20 dual-attachment
+    precedents).'
+- id: B3-N-04
+  code: 4CH1-CON-COVALENT-CONDUCTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the know/understand dual attachment (1.51+1.55C)
+    stays one node (B3-ID-01 KEEP_AS_IS: same learnable fact pair at two depths).'
+- id: B3-N-05
+  code: 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the three-allotrope block stays one node
+    (B3-ID-04 KEEP_AS_IS: one SP, one demand set); the node carries the store''s first RELATED_TO edge
+    (B3-E-06 CONFIRM).'
+- id: B3-N-06
+  code: 4CH1-CON-DOT-CROSS-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-07
+  code: 4CH1-CON-DOT-CROSS-IONIC
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-08
+  code: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-09
+  code: 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-10
+  code: 4CH1-CON-GIANT-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-11
+  code: 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-12
+  code: 4CH1-CON-ION-CHARGE-RULES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the deduction-rule + named-ion-table block
+    stays one node (FP-B1-1 class; the corpus teaches them as one block, the deduction rule introduces
+    the tables).'
+- id: B3-N-13
+  code: 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-14
+  code: 4CH1-CON-IONIC-CONDUCTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the know/understand dual attachment (1.43+1.56C)
+    stays one node (B3-ID-01 KEEP_AS_IS).'
+- id: B3-N-15
+  code: 4CH1-CON-IONIC-FORMULA
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-16
+  code: 4CH1-CON-IONIC-LATTICE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-17
+  code: 4CH1-CON-METAL-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-18
+  code: 4CH1-CON-METALLIC-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the representation-vs-bonding dual attachment
+    (1.52C+1.53C) stays one node (B3-ID-05 KEEP_AS_IS: the 2-D diagram IS the lattice the attraction lives
+    in).'
+- id: B3-N-19
+  code: 4CH1-CON-REDOX-ELECTRONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B3-N-20
+  code: 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the structure node keeps the intermolecular-forces
+    term as its own explanatory content (B3-ID-03 KEEP_AS_IS); it is also the remediation target of MIS-COVALENT-BONDS-BROKEN.'
+- id: B3-M-01
+  code: 4CH1-MIS-COVALENT-BONDS-BROKEN
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B3-M-02
+  code: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — kept separate from MIS-COVALENT-BONDS-BROKEN
+    for per-concept remediation targeting (B3-ID-06 KEEP_AS_IS); the WAP evidence is independently documented.'
+- id: B3-M-03
+  code: 4CH1-MIS-IONIC-BOND-ATOMS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator policy (session 52): CONFIRM as authored — the mark-scheme quote preserves the pinned
+    line-wrap artifact (FP-B3-5, layout-verified, noted in derivation_notes); the artifact is explicit,
+    not silent — not a blocker.'
+- id: B3-M-04
+  code: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict: CONFIRM
+  notes: ''
+identity_decisions:
+- id: B3-ID-01
+  question: split the know/understand dual-attachment pairs into separate nodes (CON-IONIC-CONDUCTION
+    1.43/1.56C; CON-COVALENT-CONDUCTION 1.51+1.55C)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — the know/understand dual-attachment pairs (CON-IONIC-CONDUCTION
+    1.43/1.56C; CON-COVALENT-CONDUCTION 1.51+1.55C) stay merged as dual attachments; the simplest representation
+    that preserves the distinction (same fact pair at two depths; the ratified 1.19/1.20 precedents).
+    B3-N-04/B3-N-14 confirmed as authored.'
+- id: B3-ID-02
+  question: split CON-COVALENT-BOND into the 1.44 sharing-definition node and the 1.45 electrostatic-mechanism
+    node
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — CON-COVALENT-BOND keeps the 1.44 sharing-definition
+    and 1.45 electrostatic-mechanism in one node (definition vs mechanism of one term; no duplicate canonical
+    concept arises from the merge). B3-N-03 confirmed as authored.'
+- id: B3-ID-03
+  question: split CON-SIMPLE-MOLECULAR into a structure node and a separate intermolecular-forces term
+    node (the spec names the term)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — CON-SIMPLE-MOLECULAR stays one node carrying the
+    intermolecular-forces term as its own explanatory content (the spec names the term; minting a separate
+    IMF node would be enrichment, not a defect fix). B3-N-20 confirmed as authored.'
+- id: B3-ID-04
+  question: split CON-DIAMOND-GRAPHITE into diamond/graphite/C60 term-level nodes (one SP, two notes)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — the diamond/graphite/C60 allotrope block stays one
+    node (one SP 4CH1-1.50, one demand set). B3-N-05 confirmed as authored.'
+- id: B3-ID-05
+  question: split CON-METALLIC-BOND (1.52C 2-D representation vs 1.53C bonding) and/or fold CON-AQUEOUS-DISCHARGE
+    into CON-ELECTROLYSIS (dual node attachment on 1.58C)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — CON-METALLIC-BOND keeps 1.52C representation + 1.53C
+    bonding as one node (the 2-D diagram is the same lattice the attraction lives in), and CON-AQUEOUS-DISCHARGE
+    stays a separate node on 1.58C (the discharge rules stay independently assessable). B3-N-02 / B3-N-18
+    confirmed as authored.'
+- id: B3-ID-06
+  question: merge MIS-GRAPHITE-LAYER-BONDS into MIS-COVALENT-BONDS-BROKEN (one bonds-vs-forces family,
+    two documented surfaces) or keep separate for per-concept remediation targeting
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — MIS-GRAPHITE-LAYER-BONDS stays separate from MIS-COVALENT-BONDS-BROKEN:
+    one bonds-vs-forces family, two independently documented wrong-answer surfaces and two different target
+    concepts (1.50 vs 1.47) — per-concept remediation targeting preserved; no duplicate canonical concept.
+    B3-E-32 / B3-E-33 / B3-M-02 confirmed as authored.'
+- id: B3-ID-07
+  question: replace the RELATED_TO(DIAMOND-GRAPHITE, SIMPLE-MOLECULAR) edge with a direct 1.50 attachment
+    on CON-SIMPLE-MOLECULAR (the alternative C60 modeling)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 52): KEEP_AS_IS — the RELATED_TO(DIAMOND-GRAPHITE, SIMPLE-MOLECULAR)
+    edge stands on the note''s explicit ''C60 is a simple molecular structure'' statement; no direct 1.50
+    attachment on CON-SIMPLE-MOLECULAR replaces it. B3-E-06 CONFIRM.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator policy (session 52): the 14 held candidates (B3-H-01..14) stay held — no reopening,
+    no promotion, no rescue attempts. A clean quarantine is preferable to inventing evidence (the two
+    no-MS abstentions B3-H-11/B3-H-12 revisit only with new mark-scheme evidence).'

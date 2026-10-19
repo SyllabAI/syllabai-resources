@@ -1,0 +1,91 @@
+schema: graph-path-registry/1.0
+note: >
+  C28 §3.2 — single source of ratified-plane store paths. Tooling MUST resolve
+  store paths through scripts/graph_paths.py (this file is its only input);
+  hardcoded store paths outside it are a check failure (check_no_hardcode.py,
+  wired as an S0 gate in the C27 sweep). {QUAL} templates resolve per stage.
+layout:
+  # C28 stage resolution for the migrating (default) qual:
+  #   ''                 = pre-migration root layout  (stores at graph/<store>.yaml)
+  #   'igcse-chemistry'  = post stage-2 git mv        (stores at graph/igcse-chemistry/<store>.yaml)
+  qual_prefix: igcse-chemistry
+default_qual: igcse-chemistry
+quals:
+  igcse-chemistry:
+    stores:
+      specification_points: graph/{QUAL}/specification_points.yaml
+      topics: graph/{QUAL}/topics.yaml
+      practicals: graph/{QUAL}/practicals.yaml
+      assessment_objectives: graph/{QUAL}/assessment_objectives.yaml
+      command_words: graph/{QUAL}/command_words.yaml
+      relationships: graph/{QUAL}/relationships.yaml
+      concepts: graph/{QUAL}/concepts.yaml
+      concept_edges: graph/{QUAL}/concept_edges.yaml
+      spec_chunk_mappings: graph/{QUAL}/spec_chunk_mappings.yaml
+      spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
+    reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
+    core_sync_target: syllabai-core/src/main/resources/concept-graph/
+  # T-C30 (K1, 2026-10-01): subject-#2 qual commissioned by T-C29 K0. P3:
+  # the qual's store set grows as its program earns stores — K1 emits the 5
+  # spec-text stores; concepts/edges/chunk-maps/kinds arrive with K2, the
+  # relationships store with the ratified-hierarchy lane. No root-form
+  # legacy paths ever existed for this qual — no legacy_map entries.
+  igcse-maths-a:
+    stores:
+      specification_points: graph/{QUAL}/specification_points.yaml
+      topics: graph/{QUAL}/topics.yaml
+      practicals: graph/{QUAL}/practicals.yaml
+      assessment_objectives: graph/{QUAL}/assessment_objectives.yaml
+      command_words: graph/{QUAL}/command_words.yaml
+      concepts: graph/{QUAL}/concepts.yaml
+      concept_edges: graph/{QUAL}/concept_edges.yaml
+      spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
+      spec_chunk_mappings: graph/{QUAL}/spec_chunk_mappings.yaml   # T-C40 K2 Lane B (the 9th and final K2 store)
+    reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
+legacy_map:
+  graph/specification_points.yaml: graph/igcse-chemistry/specification_points.yaml
+  graph/topics.yaml: graph/igcse-chemistry/topics.yaml
+  graph/practicals.yaml: graph/igcse-chemistry/practicals.yaml
+  graph/assessment_objectives.yaml: graph/igcse-chemistry/assessment_objectives.yaml
+  graph/command_words.yaml: graph/igcse-chemistry/command_words.yaml
+  graph/relationships.yaml: graph/igcse-chemistry/relationships.yaml
+  graph/concepts.yaml: graph/igcse-chemistry/concepts.yaml
+  graph/concept_edges.yaml: graph/igcse-chemistry/concept_edges.yaml
+  graph/spec_chunk_mappings.yaml: graph/igcse-chemistry/spec_chunk_mappings.yaml
+  graph/spec_command_kinds.yaml: graph/igcse-chemistry/spec_command_kinds.yaml
+  # Filled at C28 stage-2 — historical root-form store paths -> canonical per-qual
+  # paths. P5 errata bridge: landed records and verdict ledgers are never edited;
+  # checkers re-verifying their pinned paths resolve through graph_paths.resolve_rel().
+legacy_allowlist:
+  # Immutable verdict/decision ledgers that legitimately carry historical
+  # root-form store refs (P5: byte-untouched; resolved via legacy_map at re-verify).
+  - scripts/c11_batch1_decisions.yaml
+  - scripts/c11_batch2_decisions.yaml
+  - scripts/c11_batch3_decisions.yaml
+  - scripts/c11_batch4_decisions.yaml
+  - scripts/c11_batch5_decisions.yaml
+  # session-57 (C28 P5): the batch-6 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5 record; the registry resolves it at generation/check time
+  - scripts/c11_batch6_decisions.yaml
+  # session-59 (C28 P5): the batch-7 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5/6 records; the registry resolves it at generation/check time
+  - scripts/c11_batch7_decisions.yaml
+  # session-61 (C28 P5): the batch-8 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5/6/7 records; the registry resolves it at generation/check time
+  - scripts/c11_batch8_decisions.yaml
+  # session-62 (C28 P5): the batch-9 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5..8 records; the registry resolves it at generation/check time
+  - scripts/c11_batch9_decisions.yaml
+  # session-64 (C28 P5): the batch-10 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5..9 records; the registry resolves it at generation/check time
+  # session-66 (C28 P5): the batch-11 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5..10 records; the registry resolves it at generation/check time
+  - scripts/c11_batch11_decisions.yaml
+  - scripts/c11_pilot_decisions.yaml
+  - scripts/c12_decisions/smoke-demo.agent-pass-1.yaml

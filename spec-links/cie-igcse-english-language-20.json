@@ -1,0 +1,1147 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-english-language-20",
+ "qual": "cie-igcse-english-language-2024-2026",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-english-language-2024-2026",
+  "family": "heading_bullets",
+  "official_points": 163
+ },
+ "totals": {
+  "items": 68,
+  "items_with_codes": 25,
+  "by_kind": {
+   "notes": 45,
+   "question_parts": 23,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 25,
+   "question_parts": 0,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 208,
+  "parts": 23,
+  "universe_ids": 208,
+  "universe_resolved": 39,
+  "pending_refs": 192,
+  "flashcards_discovered_uncoded": 0,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 39,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 39,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 169,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 168
+   },
+   "dangling_eq_refs_pending": 0
+  }
+ },
+ "items": {
+  "rn_WRkMZtsqy7Nxp8h2": {
+   "kind": "note",
+   "label": "Paper 1 - CIE IGCSE English Language Revision Notes",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_nhf5jyPj4z7WKxbQ",
+    "spcpt_nBQ8W5g7BcF4qHty",
+    "spcpt_cSDs2v4RYmdYrf9q"
+   ]
+  },
+  "rn_zJ3xgCTzqJsFSfcN": {
+   "kind": "note",
+   "label": "How to Answer Question 1 Comprehension - CIE IGCSE Eng Lang",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-comprehension",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64",
+    "spcpt_f4gQw5ZhXqXqXqfH",
+    "spcpt_2GxW3XjfKtxdTgnd",
+    "spcpt_8y4t8wdQHJ2Pdt6y",
+    "spcpt_ZwCz9QbSXjXZ9sgw"
+   ]
+  },
+  "rn_HY44YDzpTKY2m4Wz": {
+   "kind": "note",
+   "label": "Question 1 Model Answers - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-comprehension",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_TNymxNtHwpq7tY3g",
+    "spcpt_G6495yJWMM2wnY7F",
+    "spcpt_7wbyhmDf8wmRcsSb"
+   ]
+  },
+  "rn_JF4nHcTh5XmdWKjD": {
+   "kind": "note",
+   "label": "Explicit and Implicit Questions - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-comprehension",
+   "codes": [],
+   "pending": [
+    "spcpt_fHZBWb5v8vBPvxXn",
+    "spcpt_Xjp7hW3324WSYQQx",
+    "spcpt_7R7Pht65YQ7cz23g",
+    "spcpt_jwQdQVrxDHrDsFWx"
+   ]
+  },
+  "rn_crCvKbM3dz6S78VQ": {
+   "kind": "note",
+   "label": "How to Answer Question 1 Summary - CIE IGCSE English Lang",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-summary",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kFh7BKh8WbfRjhRy",
+    "spcpt_nF6kt2m3m4svpvh4",
+    "spcpt_HBdGpGgFdHKctdS8"
+   ]
+  },
+  "rn_ykCtWXrv9Q9sNv4K": {
+   "kind": "note",
+   "label": "Summary Writing - CIE IGCSE English Language Revision",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-summary",
+   "codes": [],
+   "pending": [
+    "spcpt_fMrcs2VD6v2nTvTd",
+    "spcpt_ZmfQPVhGD9SwTGbW",
+    "spcpt_dh4DPfvns4Qzdvn2",
+    "spcpt_fhtnW2zsgxcFZdQp"
+   ]
+  },
+  "rn_z5kr6XPtchpkGgGw": {
+   "kind": "note",
+   "label": "Question 1 Summary Model Answer - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-1-summary",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_nP9CVdpGwwGrxKCw",
+    "spcpt_8FdG3WqHv6gbyG2B",
+    "spcpt_2QybnShXRqxqqwfn"
+   ]
+  },
+  "rn_hbFgMYgvhGRjmsQZ": {
+   "kind": "note",
+   "label": "How to Answer Question 2 Language Task - CIE IGCSE Eng Lang",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-language-task",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_k4Pkcp949WB8Bkz2",
+    "spcpt_2gkrc9VgfGb5QkbX",
+    "spcpt_D5VWfvBKNH2DN2n7",
+    "spcpt_jNFJj58KttqpcD4R"
+   ]
+  },
+  "rn_rWyB2RzGcybq5QtN": {
+   "kind": "note",
+   "label": "Question 2 Model Answer - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-language-task",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_tZrQFDyrb432t96r",
+    "spcpt_nSxpmJWtqSVVR3jC",
+    "spcpt_cgFWfJGhBDDVh4Nt"
+   ]
+  },
+  "rn_x7kDYb3FxXNdkhYX": {
+   "kind": "note",
+   "label": "Language Analysis - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-language-task",
+   "codes": [],
+   "pending": [
+    "spcpt_56P9qDyGqtDDs4Gs",
+    "spcpt_qZsH9HXJVt55zYQT",
+    "spcpt_VjrYPSmrfdtq3csW",
+    "spcpt_6r4dHdkH6JqVP3qW",
+    "spcpt_ZXBB2MptCzYkzbRW",
+    "spcpt_CKnvQ998NMTttqQ4"
+   ]
+  },
+  "rn_KKVg37HVgf8SSjgB": {
+   "kind": "note",
+   "label": "How to Answer Question 2 Short-Answer Questions - CIE IGCSE",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-short-answer-questions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW",
+    "spcpt_RmDs94fZmkpMH6FJ",
+    "spcpt_5B5yYv5QTRmmq9cc",
+    "spcpt_KSNdcZ6RdKymQfPn"
+   ]
+  },
+  "rn_JNqY6BWJskWcvKrc": {
+   "kind": "note",
+   "label": "Paper 1 Model Answers - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-short-answer-questions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_YbQz5dvPYKSDQDnv",
+    "spcpt_2tTC29Nq6PXMjgHK",
+    "spcpt_q2kK7jkwk4GrwVp2"
+   ]
+  },
+  "rn_nZ4J5HCdG6VPCrzK": {
+   "kind": "note",
+   "label": "Question 2: Synonyms - IGCSE English Language Revision Notes",
+   "section": "1-paper-1-reading",
+   "topic": "question-2-short-answer-questions",
+   "codes": [],
+   "pending": [
+    "spcpt_NkstRn52rS4DWjRd",
+    "spcpt_B3VkVWdfpTgkgDDc",
+    "spcpt_4KmSQ8BBbcKqkbh3"
+   ]
+  },
+  "rn_mKYsB9hdmMQvQWn6": {
+   "kind": "note",
+   "label": "Q3 Extended Response - CIE IGCSE English Language Revision",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_2w5WbcS9p69TD3sH",
+    "spcpt_ftR6zmpJZvyXpQQc",
+    "spcpt_Cgqfx5PXfcgJV8n7",
+    "spcpt_d3DDzGs3JxJpMPhV"
+   ]
+  },
+  "rn_Z88jmfM5n3RgVykg": {
+   "kind": "note",
+   "label": "Question 3 Model Answer Article - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_fFpNtYYYSJrhpqnX",
+    "spcpt_hg5yptbXZ4HjPg8p",
+    "spcpt_tYQPJDDhP6CSzM9R"
+   ]
+  },
+  "rn_4Qmr6nsx48b9nTr8": {
+   "kind": "note",
+   "label": "Interview Writing - CIE IGCSE English Language Revision",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_xZsfnY5p9ns8wC4Q",
+    "spcpt_cwfyrJY7SXfm5YQd",
+    "spcpt_jpX8hvv6fRzFxSWb"
+   ]
+  },
+  "rn_ycQP8CjG4nfFJNQg": {
+   "kind": "note",
+   "label": "IGCSE Journal Model Answer - CIE English Language Revision",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_6kbtD9hKh4NY79RB",
+    "spcpt_rJjQGQx3TbtNTJn4",
+    "spcpt_cDZ66VqnJj6PvwWN"
+   ]
+  },
+  "rn_82qWVFqPtk63gd2K": {
+   "kind": "note",
+   "label": "Question 3 Model Answer Letter - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S14.001",
+     "official_code": "S14.001",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_bSrPWGBXTx3CjpPy",
+    "spcpt_26vdTdnNFDTxRBpP",
+    "spcpt_QyttWhg9KwrHXfFx"
+   ]
+  },
+  "rn_NkzCMVx78WH4bMtq": {
+   "kind": "note",
+   "label": "English Report Model Answer - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_FCYMqBBbzzxGFVnq",
+    "spcpt_D44M4zgF2gCMRFBr",
+    "spcpt_4G5n5FxTTk8vwys8"
+   ]
+  },
+  "rn_j6xjpwdfhfDfn56g": {
+   "kind": "note",
+   "label": "Question 3 Model Answer Speech - CIE IGCSE English Language",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_SdRnQNDWDQh4x3pj",
+    "spcpt_XgCM5nzjxrkP65Zx",
+    "spcpt_WpTdMYxpWWbdmtHr"
+   ]
+  },
+  "rn_79ftkGvRmjx9zJ9S": {
+   "kind": "note",
+   "label": "Question 3 Skills Extended Response to Reading - CIE IGCSE",
+   "section": "1-paper-1-reading",
+   "topic": "question-3-extended-response",
+   "codes": [],
+   "pending": [
+    "spcpt_3MvWyrNCBHzQVcRM",
+    "spcpt_QsjcpVHt9RSsXC2R",
+    "spcpt_8QvGKr5FCJZjmvhm",
+    "spcpt_y7BZ43rkYDKzBWJh"
+   ]
+  },
+  "rn_SR4xjPWyrdTF9SD3": {
+   "kind": "note",
+   "label": "Paper 2 Overview - CIE IGCSE English Language 2018",
+   "section": "2-paper-2-writing",
+   "topic": "paper-2",
+   "codes": [],
+   "pending": [
+    "spcpt_dtQvgfhyc9vnv43b",
+    "spcpt_bMtMWn9MJSpv5YMV",
+    "spcpt_qCcJphXnpMF6k7sk",
+    "spcpt_2HdJbH4mbJxW9WRV"
+   ]
+  },
+  "rn_6RJmQXHpT9PjsQhc": {
+   "kind": "note",
+   "label": "Letter Writing Format - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [],
+   "pending": [
+    "spcpt_SsCSF2gBc6sgmTJz",
+    "spcpt_8RcwCqmymWnzKkTh",
+    "spcpt_FHbkx6ksVcntdwWd"
+   ]
+  },
+  "rn_tt4CWPTGD2BxWxTK": {
+   "kind": "note",
+   "label": "Question 1 Directed Writing How to Write a Speech - IGCSE",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [],
+   "pending": [
+    "spcpt_4M3D3ZP3ySZ7z3Qg",
+    "spcpt_z43mvGzRQncQtZVK",
+    "spcpt_9Hc6xW4pNdHjffMy"
+   ]
+  },
+  "rn_ZGjgFGh2shybwBcs": {
+   "kind": "note",
+   "label": "Question 1 Directed Writing How to Write an Article - IGCSE",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [],
+   "pending": [
+    "spcpt_hgbKrggtp7ZKzDC6",
+    "spcpt_BkrsYPTNhxxqZRWn",
+    "spcpt_yvdRvY5mxv3P7vYZ"
+   ]
+  },
+  "rn_JK6D7xxH78bRMqNn": {
+   "kind": "note",
+   "label": "Spelling, grammar and punctuation tips - CIE IGCSE English",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [],
+   "pending": [
+    "spcpt_NJRqrJK6h4PfZ5RC",
+    "spcpt_wb8DNwqFWTyMkYFx",
+    "spcpt_jDjdH2GqDcCNVpzG",
+    "spcpt_TxSXwzNfD62DzjVZ",
+    "spcpt_kM7JS48DCkrpR3Cr"
+   ]
+  },
+  "rn_hwjCV7ZZzfkPxxZ9": {
+   "kind": "note",
+   "label": "Question 1 Directed Writing - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_zcvJvbryFskGbHsT",
+    "spcpt_kx4YBN3zpFdRtj89",
+    "spcpt_dd4ZxVXdzB6kqCb9",
+    "spcpt_w5xzJx5fzpTxyQHH",
+    "spcpt_fZKqfQ9G72cNDdPp",
+    "spcpt_dzzmpYSn3ZQRDmhG"
+   ]
+  },
+  "rn_8v55GR9YbxvYmn46": {
+   "kind": "note",
+   "label": "IGCSE Article Model Answer - CIE English Language Revision",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_DjTBTp7jyYxQ8jBr",
+    "spcpt_vrBkB6nBRvJ2G83v",
+    "spcpt_tBGW5QFCj2QG48DM",
+    "spcpt_5jzwk6nHcwRX3qry"
+   ]
+  },
+  "rn_KMz8dGvHYT7TwQ9H": {
+   "kind": "note",
+   "label": "English Letter Model Answer - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kFRYSyZ73pZbnHFs",
+    "spcpt_jzBmDjcgXVKcrmYM",
+    "spcpt_YJdfPkFy9z7q8RWn",
+    "spcpt_xNhywTcnb9MccG47"
+   ]
+  },
+  "rn_cmZH9DZV2PJGPZ6W": {
+   "kind": "note",
+   "label": "Question 1 Model Answer Speech - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_v7NcFhpC25nNhQqf",
+    "spcpt_6dnDncPgYjrVvzzP",
+    "spcpt_NHtsnKPn3gr5xphC",
+    "spcpt_YBYm5D4tTfGvxjSt",
+    "spcpt_YNHszmjBvqTM4x2k"
+   ]
+  },
+  "rn_GD57tThxXW3YknQg": {
+   "kind": "note",
+   "label": "Descriptive Writing Techniques - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_G3mbMHHrnX649PHB",
+    "spcpt_V7JF95jqB4WPKZBy",
+    "spcpt_NyvmVMVsmGcSDKZk",
+    "spcpt_cTW2ZDD2VHn8ryxW"
+   ]
+  },
+  "rn_V6N5bg2C3y9PdZmv": {
+   "kind": "note",
+   "label": "Descriptive Writing - CIE IGCSE English Language Revision",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_bxsfMb3vWnbbhgKH",
+    "spcpt_hdjBNSwWvNJzdrVv",
+    "spcpt_ZnmR6FvRYgmSSPkt"
+   ]
+  },
+  "rn_8d5h4YfhxqtbFgRJ": {
+   "kind": "note",
+   "label": "Descriptive Writing Examples - IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_pwQn3cCKpmcYKkcW",
+    "spcpt_4RmzmXR6hdpRmcNd"
+   ]
+  },
+  "rn_TnNh6cqXVH3ZjGnY": {
+   "kind": "note",
+   "label": "Narrative Writing Sample Answers - IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_cMqrv5dDvYw9csfX",
+    "spcpt_P73qNcSBSncbTNrz",
+    "spcpt_kMRW68CTkKpjQh9n"
+   ]
+  },
+  "rn_BGZhKm55PxyjTbqs": {
+   "kind": "note",
+   "label": "Narrative Writing - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_8F5SFPYvWtx4cd9w",
+    "spcpt_Hc6BxFrVrrSxZgvC",
+    "spcpt_C6HpGsGHMfXtTMBQ",
+    "spcpt_qxYvTgHYPfhf3FmB"
+   ]
+  },
+  "rn_cfMTZmvqWDZH5BG6": {
+   "kind": "note",
+   "label": "Narrative writing guide - CIE IGCSE English Language",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_9bN67Wr2V3RBqkKv",
+    "spcpt_K7YqMnzQFFjqtyC7",
+    "spcpt_tfcNDJVD3c4JKMwj"
+   ]
+  },
+  "rn_zSwsbsYRCZCmnFK5": {
+   "kind": "note",
+   "label": "Assignment 1 - CIE IGCSE English Language Revision Notes",
+   "section": "3-coursework",
+   "topic": "assignment-1",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_9jwnYtdtB2d9qG3S",
+    "spcpt_YZQtrmBPMfwHQBg4",
+    "spcpt_3KHqf8qBsT2vmhYy"
+   ]
+  },
+  "rn_BzdT7XgkvKdgrTNh": {
+   "kind": "note",
+   "label": "Model Answer Article - CIE IGCSE English Language 2018",
+   "section": "3-coursework",
+   "topic": "assignment-1",
+   "codes": [],
+   "pending": [
+    "spcpt_vjR7NV8mcy8HDxcB",
+    "spcpt_b2jgFHyjVrxPq5pJ",
+    "spcpt_QGYs4FVCsYTgVxFg",
+    "spcpt_krN473chGMpVT9xP",
+    "spcpt_jFtzyVz5pnhFgYZK"
+   ]
+  },
+  "rn_PTCjqQ3ZVzjVT5y4": {
+   "kind": "note",
+   "label": "Model Answer Letter - CIE IGCSE English Language 2018",
+   "section": "3-coursework",
+   "topic": "assignment-1",
+   "codes": [],
+   "pending": [
+    "spcpt_syhKWvmc8y8TgjHV",
+    "spcpt_HfgSdXd2KvZmm6QW",
+    "spcpt_JxKwpJwMjtWzVJy7",
+    "spcpt_PVjG2VVbtq4Nd94T",
+    "spcpt_vbTX5NncmxqQdKQP"
+   ]
+  },
+  "rn_vh8M5h5BkrPGrgQY": {
+   "kind": "note",
+   "label": "IGCSE Speech Model Answer - CIE English Language Revision",
+   "section": "3-coursework",
+   "topic": "assignment-1",
+   "codes": [],
+   "pending": [
+    "spcpt_2yss2dYMj3fjKPV9",
+    "spcpt_V4hh2DpGM6hzf5GM",
+    "spcpt_FgtM6J7xP94nGDSN",
+    "spcpt_B4d8tJhwZs2wHqbd",
+    "spcpt_W4K7JbCXbxPsNbMd"
+   ]
+  },
+  "rn_kJDnYcwCSh7yYYBW": {
+   "kind": "note",
+   "label": "Descriptive Writing Assignment - IGCSE English Language",
+   "section": "3-coursework",
+   "topic": "assignment-2",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_DXNgY8JgPGmmG8yN",
+    "spcpt_J2sszVdGw2ySzdgh",
+    "spcpt_cT9tkvDf6Nspxck7",
+    "spcpt_zBFxy2vng3q7BKsw"
+   ]
+  },
+  "rn_z9B5KBvPjJprYXVZ": {
+   "kind": "note",
+   "label": "Assignment 2 Model Answer Descriptive Writing - CIE IGCSE",
+   "section": "3-coursework",
+   "topic": "assignment-2",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kdKkqmstQ5DpYTMy",
+    "spcpt_4P7GBmvRRFrnYXYK",
+    "spcpt_Xxj7HdB6G2jzxwT5",
+    "spcpt_xpCkJD3qhcGFhmzV"
+   ]
+  },
+  "rn_HMMqVz9CSDZ7trh2": {
+   "kind": "note",
+   "label": "Assignment 3 Narrative Writing - CIE IGCSE English Language",
+   "section": "3-coursework",
+   "topic": "assignment-3",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S4.022",
+     "official_code": "S4.022",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_h4SjNwFmWZTCCsGr",
+    "spcpt_WT85KZ8gyxWcsbQw",
+    "spcpt_MsKpp9DRWhXnWXdV",
+    "spcpt_QtJRY83hCvxNhq6W",
+    "spcpt_dPtwzKByfWqbqfZ4"
+   ]
+  },
+  "rn_BC3zHxgHBDD3QYcp": {
+   "kind": "note",
+   "label": "Assignment 3 Model Answer Narrative Writing - CIE IGCSE 2018",
+   "section": "3-coursework",
+   "topic": "assignment-3",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026:S3.006",
+     "official_code": "S3.006",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_cQMZYQmQ3Jn3KwbK",
+    "spcpt_Y5Hpc858knndYJZR",
+    "spcpt_Dr8B7FVkZVVSQ94G",
+    "spcpt_xWdHzrzvJWC3jPzR"
+   ]
+  },
+  "rn_6xGQKR4SnnHGJHHS": {
+   "kind": "note",
+   "label": "Coursework Overview - CIE IGCSE English Language 2018",
+   "section": "3-coursework",
+   "topic": "coursework",
+   "codes": [],
+   "pending": [
+    "spcpt_6kRRFBVC8Jp4GPKq",
+    "spcpt_bz7NcF5Fmz2Yjt8q",
+    "spcpt_mb3k7KbnkfPz88SW",
+    "spcpt_9qnG7BvGjrwC9C6h"
+   ]
+  },
+  "qstnprt_qBXbpdYSxpGCr7KX": {
+   "kind": "question_part",
+   "label": "qstn_WmV3SS3ht6bFmJJn / part 0",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_kFh7BKh8WbfRjhRy"
+   ]
+  },
+  "qstnprt_JjVWv73K6Sq7fJPH": {
+   "kind": "question_part",
+   "label": "qstn_4nTWd6ckYmPt9ngK / part 0",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_2w5WbcS9p69TD3sH"
+   ]
+  },
+  "qstnprt_bBdfcSjTgKyDZbtJ": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 0",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_Z5g2QtB9QgKy5NFC": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 1",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_P8vqN5vVFv59GxJw": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 2",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_WhBF6JJFhBM7KnvW": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 3",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_2GVSStvF8D7R92mX": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 4",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_xfBXbQgPM68ggr5r": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 5",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_kk4M72bcMtdyXStc": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 6",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_SnPyCSMt934P4vZj": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 7",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_ccFwJyhsYzyhRfKW"
+   ]
+  },
+  "qstnprt_SHMmCfJQBfzdJsBR": {
+   "kind": "question_part",
+   "label": "qstn_R463z8yVVDtz9dYC / part 8",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_k4Pkcp949WB8Bkz2"
+   ]
+  },
+  "qstnprt_Nmk252nsXQhVB54G": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 0",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_mgw4BbdKn37fdv4b": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 1",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_NmcWJW8Ybf9XTpyY": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 2",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_k2fghkxbFZnxVwT8": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 3",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_zRtcNtcZkmSBvvSZ": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 4",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_tcmYyTCfRhCXJV4Z": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 5",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_PKcRzHGr44m8Y4DG": {
+   "kind": "question_part",
+   "label": "qstn_4bmRsGPjtdqpMBXB / part 6",
+   "section": "1-paper-1-reading",
+   "topic": "paper-1-reading",
+   "codes": [],
+   "pending": [
+    "spcpt_5WgR9rcGj4Ghmh64"
+   ]
+  },
+  "qstnprt_TX22HmntChSNZ8YG": {
+   "kind": "question_part",
+   "label": "qstn_Rnr3VkGWnGtWd7QS / part 0",
+   "section": "2-paper-2-writing",
+   "topic": "section-a-directed-writing",
+   "codes": [],
+   "pending": [
+    "spcpt_4M3D3ZP3ySZ7z3Qg"
+   ]
+  },
+  "qstnprt_ShmG52tqQ6sFqP5y": {
+   "kind": "question_part",
+   "label": "qstn_hhK6mC7NzmZ96cnF / part 0",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_9bN67Wr2V3RBqkKv"
+   ]
+  },
+  "qstnprt_JWzrjZJjJ7nzCrbB": {
+   "kind": "question_part",
+   "label": "qstn_BbJn3HZMDX2SwwFt / part 0",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_9bN67Wr2V3RBqkKv"
+   ]
+  },
+  "qstnprt_fSRQjDGH7SRJQCH8": {
+   "kind": "question_part",
+   "label": "qstn_VnPVNMF6bZCHRHJ4 / part 0",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_bxsfMb3vWnbbhgKH"
+   ]
+  },
+  "qstnprt_qYW24WbC87RtkJyB": {
+   "kind": "question_part",
+   "label": "qstn_4B5Vys9gQD7nBZRM / part 0",
+   "section": "2-paper-2-writing",
+   "topic": "section-b-composition",
+   "codes": [],
+   "pending": [
+    "spcpt_bxsfMb3vWnbbhgKH"
+   ]
+  }
+ }
+}

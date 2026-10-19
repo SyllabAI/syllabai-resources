@@ -1,0 +1,661 @@
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 66
+  recorded_date: '2026-09-25'
+  commissioned_by: operator directive 'commission batch 11' (2026-09-25, session 66) under the session-46
+    §16 authorization; the S4 slice plan (batches 9-11) is recorded in the session-62 commissioning record
+  scope: 'conflict-prevention ruling for the S4-a/b/c/d/e/f(complete, settled) -> S4-g/h(batch 11: g Esters
+    4.38C-4.43C incl. the 4.43C practical + h Synthetic polymers 4.44-4.50C, 13 authorable SPs) boundary
+    only; supersedes nothing; extends the session-55/57/59/61/62/64 ruling pattern to the S4-g/h slice'
+  applies_to_batch: 11
+  scope_sp_note: the audit covers the 13 authorable SPs; 4CH1-4.15 (S4-b) is the standing negative control
+    and stays CARVED OUT of all batch scopes (no node/edge may attach or cite it); the 4CH1-4.43C practical-typed
+    SP is carried by the scoped T-C10 practical 4CH1-PR-12 (the batch-3 1.60C/PR-04 precedent)
+conflict_audit:
+  result: NO UNHANDLED CONFLICTS — every one of the 72 matches is dispositioned below; the TWELVE sanctioned
+    boundary targets are existing owners reached via boundary edges only; the non-mint discipline holds
+  method: 'S4-g/h candidate term vocabulary (171 terms: ester vocabulary, polymer vocabulary, the named
+    reagents and practical apparatus, the organic-family boundary vocabulary, generic chemistry vocabulary
+    and equation scaffolding) matched against the whole merged pre-batch-11 store at 15e0ce9 (node codes
+    + titles + aliases + every edge endpoint, case-folded substring; the probe is persisted as scripts/c11_batch11_term_audit_probe.py).
+    72 terms match; EVERY match is dispositioned below — sanctioned boundary edge, no-edge-adjacent-owner
+    (held or routed elsewhere), near-miss different-demand (no edge, mint in-batch), reagent-applied-as-given
+    (no edge), or sub-string noise (no owner surface).'
+  s4_def_candidate_terms:
+  - ester
+  - esters
+  - esterification
+  - r-coo-r
+  - -coo-
+  - coo
+  - ethyl ethanoate
+  - ethyl
+  - ethanoate
+  - butanoate
+  - pentyl
+  - -yl
+  - -oate
+  - sweet-smelling
+  - smell
+  - smells
+  - perfume
+  - perfumes
+  - flavouring
+  - flavourings
+  - food flavourings
+  - volatile
+  - volatility
+  - oily
+  - sulfuric acid
+  - concentrated
+  - acid catalyst
+  - ester link
+  - ester linkage
+  - hydrolysis
+  - sodium carbonate
+  - calcium chloride
+  - water bath
+  - bunsen
+  - flammable
+  - fizzing
+  - reverse reaction
+  - low boiling
+  - impurities
+  - purif
+  - distil
+  - distilled
+  - distillation
+  - condensation
+  - condenser
+  - polymer
+  - polymers
+  - polymerisation
+  - addition polymer
+  - monomer
+  - monomers
+  - repeat unit
+  - repeat units
+  - polyethene
+  - polypropene
+  - poly(chloroethene)
+  - chloroethene
+  - pvc
+  - ptfe
+  - tetrafluoroethene
+  - polystyrene
+  - nylon
+  - resins
+  - plastic
+  - subscript
+  - brackets
+  - extension
+  - continuation bonds
+  - high pressures
+  - macromolecule
+  - long chain
+  - synthetic
+  - natural
+  - biological
+  - landfill
+  - landfills
+  - incineration
+  - burned
+  - burning
+  - non-biodegradable
+  - biodegrade
+  - biodegradable
+  - inert
+  - unreactive
+  - toxic
+  - hydrogen chloride
+  - carbon monoxide
+  - greenhouse
+  - climate change
+  - carbon dioxide
+  - decomposers
+  - micro-organism
+  - microorganism
+  - bacteria
+  - strong c-c
+  - c-c bonds
+  - terylene
+  - dicarboxylic
+  - diol
+  - diols
+  - polyester
+  - polyesters
+  - biopolyester
+  - hydrolysis
+  - functional group
+  - homologous series
+  - general formula
+  - structural formula
+  - displayed formula
+  - displayed formulae
+  - isomer
+  - hydrocarbon
+  - hydrocarbons
+  - alkene
+  - alkenes
+  - ethene
+  - propene
+  - alkane
+  - alkanes
+  - alcohol
+  - alcohols
+  - ethanol
+  - carboxylic
+  - cooh
+  - oh group
+  - -oh
+  - ethanoic acid
+  - oxidation
+  - combustion
+  - incomplete combustion
+  - iupac
+  - naming
+  - prefix
+  - addition reaction
+  - addition reactions
+  - substitution
+  - catalyst
+  - catalysts
+  - c=c
+  - double bond
+  - double bonds
+  - single bond
+  - single bonds
+  - covalent bond
+  - covalent bonds
+  - saturated
+  - unsaturated
+  - equation
+  - equations
+  - molecule
+  - molecules
+  - compound
+  - compounds
+  - oxygen
+  - water
+  - acid
+  - acids
+  - salt
+  - salts
+  - energy
+  - heat
+  - exothermic
+  - vinegar
+  - methanoic
+  - propanoic
+  - butanoic
+  - cracking
+  - fractional distillation
+  - simple distillation
+  - evaporate
+  - evaporation
+match_dispositions:
+- term: coo
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2 + the in-slice ester-link row (the batch-10 CON-CARBOXYLIC-ACIDS owner hit): the
+    -COO- ester-link vocabulary rides the esterification-reactant edge and the CONDENSATION -> ESTERS
+    link row'
+- term: ethyl
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-4 (the batch-9 CON-IUPAC-NAMING owner): the ethyl- stem in ethyl ethanoate is the
+    batch-9 stem vocabulary applied (the INDICATORS hit is methyl-orange substring noise)'
+- term: ethanoate
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2 (the batch-10 CON-CARBOXYLIC-ACIDS owner): the -oate name part is the carboxylate
+    naming the batch-10 acids owner establishes (the CARBOXYLIC-ACID-REACTIONS -anoate hit rides the same
+    surface — no separate edge, BOUNDARY-TARGETS-ONCE)'
+- term: reverse reaction
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-4 CON-REVERSIBLE owner; the practical's reverse-reaction sentence HELD as B11-H-10,
+    the condensation hydrolysis surface HELD as B11-H-08
+- term: distil
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-5 (the batch-1 CON-SIMPLE-DISTILLATION owner): the practical''s distil-off-early
+    collection step applied as given'
+- term: distillation
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-5 (the batch-1 CON-SIMPLE-DISTILLATION owner): the collection step IS the technique
+    applied'
+- term: condensation
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the store's CON-STATE-CHANGES owner is the gas-to-liquid state change (a different domain);
+    the batch-11 condensation-polymerisation surface is minted in-slice; the practical's 'by condensation'
+    collection step rides TARGET-5
+- term: subscript
+  disposition: NO_COLLISION_DIFFERENT_DOMAIN
+  rationale: the MIS-EQ-SUBSCRIPT equation-balancing sense differs from the repeat-unit subscript n (taught
+    in-slice)
+- term: macromolecule
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-3 CON-GIANT-COVALENT owner uses 'macromolecule' for giant lattices — a different
+    structure class; the polymer long-chain surface is taught in-slice
+- term: burning
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the combustion-family owners; the disposal incineration surface routes via TARGET-9/TARGET-10
+    (B11-H-09)
+- term: inert
+  disposition: NO_COLLISION_DIFFERENT_DOMAIN
+  rationale: the inert-electrode (ELECTROLYSIS) and noble-gas (NOBLE-GAS-INERTNESS) senses differ from
+    the chemically-inert polymer sense — which is taught in-slice by the disposal node
+- term: carbon monoxide
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-10 (the batch-9 CON-CO-POISONING owner): the incomplete-combustion CO surface restates
+    the owner''s blood-oxygen surface as given (POLYMER-CO, not the held ethanol-CO B10-H-08)'
+- term: greenhouse
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-9 (the batch-5 CON-CO2-GREENHOUSE owner): the incineration surface (''a greenhouse
+    gas that contributes to climate change'') applied as given'
+- term: climate change
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-9 (the batch-5 CON-CO2-GREENHOUSE owner): the climate-change link applied as given'
+- term: carbon dioxide
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-9 (the batch-5 CON-CO2-GREENHOUSE owner): the incineration CO2 surface (the GAS-TESTS/CO2-FROM-CARBONATES
+    hits are adjacent owners — the practical''s carbonate fizzing rides TARGET-6)'
+- term: functional group
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-HOMOLOGOUS-SERIES owner's vocabulary applied IN-SLICE (the ester R-COO-R
+    group and the monomers' two-functional-groups surface are taught by the batch's own nodes); no notes
+    row names the ester/polymer families as series members, so no HOMOLOGOUS-SERIES edge (contrast the
+    batch-10 TARGET-1 rows)
+- term: homologous series
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 owner; no batch-11 notes row names the ester/polymer families as series members
+- term: general formula
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-3 (the batch-9 CON-ORGANIC-FORMULAE owner): the 4.40C/4.41C formulae demands run
+    the batch-9 representation toolkit on the new family'
+- term: structural formula
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-3 (the batch-9 CON-ORGANIC-FORMULAE owner): the structural-formulae demand applied
+    as given'
+- term: displayed formula
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-3 (the batch-9 CON-ORGANIC-FORMULAE owner): the displayed-formulae demand applied
+    as given'
+- term: displayed formulae
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-3 (the batch-9 CON-ORGANIC-FORMULAE owner): the displayed-formulae demand applied
+    as given'
+- term: isomer
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-ISOMERS owner; no isomerism surface in the batch-11 notes
+- term: hydrocarbon
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-HYDROCARBON owner; esters contain oxygen and the notes never classify the
+    families as hydrocarbons
+- term: hydrocarbons
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-HYDROCARBON owner; same no-surface
+- term: alkene
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): the C=C monomer requirement (''only occurs in
+    monomers that contain C=C bonds'') — the session-64 future-note 2 routing'
+- term: alkenes
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): ''Many polymers can be made by the addition of
+    alkene monomers'''
+- term: ethene
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): the polyethene monomer surface applied as given'
+- term: alkane
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-ALKANES owner; no batch-11 surface runs the saturated-alkane contrast (the
+    batch-10 TARGET-4 surface)
+- term: alkanes
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 CON-ALKANES owner; same no-surface
+- term: alcohol
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-1/TARGET-12 (the batch-10 CON-ALCOHOLS owner): the esterification reactant surface
+    (''Alcohols and carboxylic acids react to make esters'') and the diol monomer surface (an alcohol
+    with an -OH group at either end) — two distinct surfaces, the batch-5 x2 precedent'
+- term: alcohols
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-1 (the batch-10 CON-ALCOHOLS owner): the esterification reactant vocabulary applied
+    as given'
+- term: ethanol
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-1 (the batch-10 CON-ALCOHOLS owner): the ethanol reactant in the formation equation
+    (the ETHANOL-MANUFACTURE/ETHANOL-OXIDATION hits are the batch-10 owners; no batch-11 surface routes
+    there)'
+- term: carboxylic
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2/TARGET-11 (the batch-10 CON-CARBOXYLIC-ACIDS owner): the ethanoic-acid esterification
+    reactant and the dicarboxylic-acid monomer surfaces — two distinct surfaces, the batch-5 x2 precedent'
+- term: cooh
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2/TARGET-11 (the batch-10 CON-CARBOXYLIC-ACIDS owner): the -COOH reactant/monomer
+    vocabulary applied as given'
+- term: -oh
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-1/TARGET-12 (the batch-10 CON-ALCOHOLS owner): the -OH functional-group vocabulary
+    applied as given (the diol''s -OH at either end rides the terylene surface)'
+- term: ethanoic acid
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2 (the batch-10 CON-CARBOXYLIC-ACIDS owner): the formation-equation reactant surface
+    applied as given (the session-64 future-note 1 routing)'
+- term: oxidation
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: no batch-11 oxidation surface (the esterification is not oxidation; the OX-RED-AGENTS/REDOX-ELECTRONS
+    owners untouched)
+- term: combustion
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the incineration surface routes via TARGET-9/TARGET-10; the batch-5 CON-COMBUSTION-O2 owner
+    (elements in oxygen) is a different domain
+- term: incomplete combustion
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: routes via TARGET-10 (the CO-POISONING edge); CON-FUELS-COMBUSTION held as B11-H-09
+- term: iupac
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-4 (the batch-9 CON-IUPAC-NAMING owner): the 4.41C naming demand CONSTRUCTS ester
+    names from reactant stems (pent-yl + butan-oate) — the stem vocabulary applied as given'
+- term: naming
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-4 (the batch-9 CON-IUPAC-NAMING owner): the ester naming surface (the MIS-PROPANOL-POSITION
+    hit rides the batch-10 record''s own remediation note)'
+- term: addition reaction
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-8 (the batch-9 CON-ORGANIC-REACTION-CLASSES owner): addition polymerisation IS the
+    4.6 addition class (a distinct surface from batch-10''s TARGET-5 bromination row — the batch-5 x2
+    precedent)'
+- term: substitution
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 class owner's substitution surface; no batch-11 row
+- term: catalyst
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-4 owner reached only as a NAMED CONDITION (the sulfuric-acid catalyst B11-H-01,
+    the high-pressure/catalyst conditions B11-H-03) — held, the B10-H-01/B9-H-04 rule
+- term: catalysts
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: same named-condition surface as 'catalyst'
+- term: c=c
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): the C=C opening chemistry the polymerisation
+    rides'
+- term: double bond
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): the C=C-bond-opening surface (the MIS-KEROSENE-DOUBLE-BONDS
+    hit is the batch-9 misconception — no batch-11 surface)'
+- term: double bonds
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-7 (the batch-10 CON-ALKENES owner): same C=C-opening surface'
+- term: covalent bond
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-3 owner; the note's 'connected via covalent bonds' is vocabulary-as-given (held
+    B11-H-05; the C=C manipulation routes via TARGET-7)
+- term: covalent bonds
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: same vocabulary-as-given surface (held B11-H-05)
+- term: saturated
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9/10 saturated-hydrocarbon owners + the batch-2 CON-SATURATED-SOLUTION owner (a
+    different domain); no batch-11 notes usage
+- term: unsaturated
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-10 CON-ALKENES owner; no batch-11 notes usage
+- term: equation
+  disposition: SUBSTRING_NOISE
+  rationale: the equation owners exist; the esterification equation is the batch's own teaching surface
+- term: equations
+  disposition: SUBSTRING_NOISE
+  rationale: same substring surface
+- term: molecule
+  disposition: SUBSTRING_NOISE
+  rationale: generic vocabulary; the molecule owner's surface is not load-bearing in the batch-11 notes
+- term: molecules
+  disposition: SUBSTRING_NOISE
+  rationale: generic vocabulary
+- term: compound
+  disposition: SUBSTRING_NOISE
+  rationale: generic vocabulary
+- term: compounds
+  disposition: SUBSTRING_NOISE
+  rationale: generic vocabulary
+- term: oxygen
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the blood-oxygen surface rides TARGET-10; the store's oxygen owners are adjacent (no batch-11
+    mint)
+- term: water
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the condensation water-by-product surface is taught IN-SLICE by the batch's own node; the
+    store's water owners are different domains
+- term: acid
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2/TARGET-6 (the batch-10 CON-CARBOXYLIC-ACIDS and batch-7 CON-ACID-REACTIONS owners):
+    the esterification acids and the practical''s acidic-impurities removal surfaces'
+- term: acids
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-2/TARGET-11 (the batch-10 owners): the esterification + dicarboxylic-acid surfaces
+    applied as given'
+- term: salt
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the S1 salt-preparation owners are a different domain; the practical's carbonate step rides
+    TARGET-6
+- term: salts
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: same as 'salt'
+- term: energy
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the heat-energy release mention routes via TARGET-9; the energy owners untouched
+- term: heat
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: same as 'energy' — the incineration heat surface is not load-bearing on any energy owner
+- term: exothermic
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-4 energy owners; no batch-11 usage
+- term: vinegar
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-10 CON-CARBOXYLIC-ACIDS owner's surface; no batch-11 row
+- term: cracking
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-9 owner; ethene appears as the polyethene monomer, not via cracking; no batch-11
+    surface
+- term: fractional distillation
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-1 owner; the practical is a single-distillate collection with no column — the owner
+    stays single-targeted (the batch-9 4.8 row + batch-10 TARGET-10)
+- term: simple distillation
+  disposition: BOUNDARY_EDGE_SANCTIONED
+  rationale: 'TARGET-5 (the batch-1 CON-SIMPLE-DISTILLATION owner): the PR-12 edge''s exact owner'
+- term: evaporation
+  disposition: NO_EDGE_ADJACENT_OWNER
+  rationale: the batch-2 CON-EVAPORATION-BOILING owner; the practical's 'first to evaporate' mention rides
+    TARGET-5; no separate edge
+mint_ruling:
+  rule: the batch-11 extraction mints only the in-slice family nodes the notes teach (4 CONCEPT + 1 MISCONCEPTION);
+    every existing owner the audit touched stays untouched except through the TWELVE sanctioned boundary
+    edges; the negative control 4CH1-4.15 gains NO attachment and NO citation
+  mints: 4 CONCEPT (ESTERS 4.38C-4.42C one-family; ADDITION-POLYMERS 4.44-4.46 one-family; POLYMER-DISPOSAL
+    4.47; CONDENSATION-POLYMERS 4.48C-4.50C one-family with the biopolyesters fold) + 1 MISCONCEPTION
+    (MIS-POLYMER-DOUBLE-BOND from the pinned Alkenes MS Q2(c)/Synthetic Polymers MS Q4(c) Reject column
+    'Any double-bonded product scores 0/2' — the MIS-PROPANOL-POSITION/B10-M-01 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01
+    precedent); the 4.43C practical rides the scoped 4CH1-PR-12 (the batch-3 1.60C/PR-04 precedent); the
+    identity questions B11-ID-01..04 ride the one-family rulings and the mint
+boundary_edge_ruling:
+  rule: 'the FN-B1-2/FN-B2-2 cross-batch discipline at the S4-g/h boundary: boundary EDGES are sanctioned
+    ONLY into the exact-owner nodes below, ONLY for the surfaces named, and each target takes AT MOST
+    the edges its surface rows carry (BOUNDARY-TARGETS-ONCE: no second edge into the same owner family
+    where a held record routes the remainder; the two double-targeted owners carry the batch-5 x2 precedent)'
+  sanctioned_targets:
+  - id: TARGET-1
+    for_sps:
+    - 4CH1-4.38C
+    - 4CH1-4.39C
+    - 4CH1-4.42C
+    owner: batch 10
+    target: 4CH1-CON-ALCOHOLS
+    surface: the esterification reactant surface ('Alcohols and carboxylic acids react to make esters';
+      the ethanol reactant in the formation equation; the -yl name part is the alcohol chain) — the batch-10
+      owner applied as given; the session-64 future-note 1 routing
+  - id: TARGET-2
+    for_sps:
+    - 4CH1-4.38C
+    - 4CH1-4.39C
+    - 4CH1-4.40C
+    - 4CH1-4.41C
+    owner: batch 10
+    target: 4CH1-CON-CARBOXYLIC-ACIDS
+    surface: the ethanoic-acid reactant surface (the formation equation's CH3COOH; the -oate name part
+      is the acid chain) — the batch-10 owner applied as given
+  - id: TARGET-3
+    for_sps:
+    - 4CH1-4.40C
+    - 4CH1-4.41C
+    owner: batch 9
+    target: 4CH1-CON-ORGANIC-FORMULAE
+    surface: the structural/displayed-formulae demands of 4.40C/4.41C run the batch-9 representation toolkit
+      on the new family; the toolkit is applied, never re-taught (the batch's ONE formulae-toolkit edge
+      — the polymer candidates are held as B11-H-04/B11-H-07)
+  - id: TARGET-4
+    for_sps:
+    - 4CH1-4.41C
+    owner: batch 9
+    target: 4CH1-CON-IUPAC-NAMING
+    surface: the 4.41C naming demand CONSTRUCTS ester names from the reactant names (pent-yl + butan-oate)
+      — the batch-9 stem vocabulary applied as given; stems never re-taught
+  - id: TARGET-5
+    for_sps:
+    - 4CH1-4.43C
+    owner: batch 1
+    target: 4CH1-CON-SIMPLE-DISTILLATION
+    surface: the 4.43C practical's distil-off-early collection step IS the batch-1 simple-distillation
+      technique applied (single volatile product, condensation collection; no column — CON-FRACTIONAL-DISTILLATION
+      stays un-sanctioned)
+  - id: TARGET-6
+    for_sps:
+    - 4CH1-4.43C
+    owner: batch 7
+    target: 4CH1-CON-ACID-REACTIONS
+    surface: 'the 4.43C purification step (sodium carbonate until the mixture stops fizzing, no more carbon
+      dioxide) runs the batch-7 acid+carbonate reaction set as given (CON-CO2-FROM-CARBONATES stays un-sanctioned:
+      BOUNDARY-TARGETS-ONCE)'
+  - id: TARGET-7
+    for_sps:
+    - 4CH1-4.44
+    - 4CH1-4.45
+    - 4CH1-4.46
+    owner: batch 10
+    target: 4CH1-CON-ALKENES
+    surface: the C=C monomer requirement ('only occurs in monomers that contain C=C bonds'; 'Many polymers
+      can be made by the addition of alkene monomers'; the ethene/propene examples) — the batch-10 owner
+      applied as given; the session-64 future-note 2 routing
+  - id: TARGET-8
+    for_sps:
+    - 4CH1-4.44
+    owner: batch 9
+    target: 4CH1-CON-ORGANIC-REACTION-CLASSES
+    surface: addition polymerisation IS the 4.6 addition class ('This process is called addition polymerisation';
+      the condensation note's no-atoms-lost contrast) — a distinct surface from batch-10's TARGET-5 bromination
+      row (the batch-5 x2 precedent)
+  - id: TARGET-9
+    for_sps:
+    - 4CH1-4.47
+    owner: batch 5
+    target: 4CH1-CON-CO2-GREENHOUSE
+    surface: the incineration surface ('carbon dioxide which is a greenhouse gas that contributes to climate
+      change') applies the batch-5 owner as given
+  - id: TARGET-10
+    for_sps:
+    - 4CH1-4.47
+    owner: batch 9
+    target: 4CH1-CON-CO-POISONING
+    surface: the incomplete-combustion CO surface ('a toxic gas that reduces the capacity of the blood
+      to carry oxygen') restates the batch-9 owner's surface as given; POLYMER-CO, not the held ethanol-CO
+      record B10-H-08 (which stays held — no batch-11 note teaches the ethanol-CO surface)
+  - id: TARGET-11
+    for_sps:
+    - 4CH1-4.48C
+    - 4CH1-4.49C
+    owner: batch 10
+    target: 4CH1-CON-CARBOXYLIC-ACIDS
+    surface: the dicarboxylic-acid monomer surface (a carboxylic with a -COOH group at either end) — the
+      second edge into this owner, the batch-5 x2 precedent (distinct surface from TARGET-2's esterification-reactant
+      row)
+  - id: TARGET-12
+    for_sps:
+    - 4CH1-4.48C
+    - 4CH1-4.49C
+    owner: batch 10
+    target: 4CH1-CON-ALCOHOLS
+    surface: the diol monomer surface (an alcohol with an -OH group at either end) — the second edge into
+      this owner, the batch-5 x2 precedent (distinct surface from TARGET-1's esterification-reactant row)
+  max_boundary_edges: 12
+  non_mint_list:
+  - 4CH1-CON-ACID-ALKALI-IONS
+  - 4CH1-CON-ACID-REACTIONS
+  - 4CH1-CON-ALCOHOLS
+  - 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
+  - 4CH1-CON-ALKANES
+  - 4CH1-CON-ALKENES
+  - 4CH1-CON-BROMINE-WATER-TEST
+  - 4CH1-CON-CALORIMETRY
+  - 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  - 4CH1-CON-CARBOXYLIC-ACIDS
+  - 4CH1-CON-CATALYST
+  - 4CH1-CON-CO2-FROM-CARBONATES
+  - 4CH1-CON-CO2-GREENHOUSE
+  - 4CH1-CON-CO-POISONING
+  - 4CH1-CON-COMBUSTION-O2
+  - 4CH1-CON-COMPOUND
+  - 4CH1-CON-COVALENT-BOND
+  - 4CH1-CON-CRACKING
+  - 4CH1-CON-CRUDE-OIL-FRACTIONS
+  - 4CH1-CON-EQ-SYMBOL
+  - 4CH1-CON-ETHANOL-MANUFACTURE
+  - 4CH1-CON-ETHANOL-OXIDATION
+  - 4CH1-CON-EVAPORATION-BOILING
+  - 4CH1-CON-EXO-ENDO
+  - 4CH1-CON-FRACTIONAL-DISTILLATION
+  - 4CH1-CON-FUELS-COMBUSTION
+  - 4CH1-CON-GAS-TESTS
+  - 4CH1-CON-GIANT-COVALENT
+  - 4CH1-CON-HOMOLOGOUS-SERIES
+  - 4CH1-CON-HYDROCARBON
+  - 4CH1-CON-INDICATORS
+  - 4CH1-CON-IUPAC-NAMING
+  - 4CH1-CON-ISOMERS
+  - 4CH1-CON-MOLECULE
+  - 4CH1-CON-NEUTRALISATION
+  - 4CH1-CON-NOBLE-GAS-INERTNESS
+  - 4CH1-CON-ORGANIC-FORMULAE
+  - 4CH1-CON-ORGANIC-REACTION-CLASSES
+  - 4CH1-CON-OX-RED-AGENTS
+  - 4CH1-CON-REDOX-ELECTRONS
+  - 4CH1-CON-REVERSIBLE
+  - 4CH1-CON-SATURATED-SOLUTION
+  - 4CH1-CON-SIMPLE-DISTILLATION
+  - 4CH1-CON-SIMPLE-MOLECULAR
+  - 4CH1-CON-STATE-CHANGES
+  - 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+  - 4CH1-MIS-COVALENT-BONDS-BROKEN
+  - 4CH1-MIS-EQ-SUBSCRIPT
+  - 4CH1-MIS-KEROSENE-DOUBLE-BONDS
+  - 4CH1-MIS-PROPANOL-POSITION
+future_boundary_notes:
+- 'batch 11 COMPLETES S4 (and the §16 S1-S4 authoring program): 49 of the 50 S4 SPs carry candidate-level
+  coverage after this batch; the 4CH1-4.15 negative control is the only uncovered SP in the whole 182-SP
+  specification (181/182 covered at candidate level)'
+- the polymer-formulae toolkit rows are HELD (B11-H-04/B11-H-07, BOUNDARY-TARGETS-ONCE) with the batch's
+  ONE formulae-toolkit edge carried by ESTERS TARGET-3 — if the operator splits the esters node, the held
+  records name the re-open path
+- the ethanol-CO held record B10-H-08 STAYS HELD — batch 11's CO surface is polymer incineration (sanctioned
+  TARGET-10 into the batch-9 CON-CO-POISONING owner), not the ethanol-CO surface its re-open path requires;
+  no batch-11 note teaches ethanol-CO
+- the pinned Alkenes MS Q2(c) polymer-drawing Reject row ('Any double-bonded product scores 0/2' — dual-pinned
+  as Synthetic Polymers MS Q4(c)) minted the batch's ONE misconception (MIS-POLYMER-DOUBLE-BOND, B11-ID-04)
+  exactly as the session-64 ruling pre-routed
+- the PART_OF lane stays outside §18 (the 12 batch-11 derived rows SUGGESTED pending their own lane, the
+  T-C19 pattern); the next S4 session after the verdict gate is the batch-11 verdict encode + §18 apply
+  session, which closes the section program
+non_goals:
+- no ontology redesign
+- no re-opening of settled batches
+- no re-scoping of the section plan
+- no promotion authority (SUGGESTED until the operator's §18 command)
+- no direct writes to graph/*.yaml

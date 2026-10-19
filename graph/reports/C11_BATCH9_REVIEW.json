@@ -1,0 +1,89 @@
+{
+  "task": "T-C11",
+  "batch": 9,
+  "session": 62,
+  "generated": "2026-09-24",
+  "extraction_pass": "c11-s16-batch-9",
+  "scope": {
+    "spec_points": [
+      "4CH1-4.1",
+      "4CH1-4.2",
+      "4CH1-4.3",
+      "4CH1-4.4",
+      "4CH1-4.5",
+      "4CH1-4.6",
+      "4CH1-4.7",
+      "4CH1-4.8",
+      "4CH1-4.9",
+      "4CH1-4.10",
+      "4CH1-4.11",
+      "4CH1-4.12",
+      "4CH1-4.13",
+      "4CH1-4.14",
+      "4CH1-4.16",
+      "4CH1-4.17",
+      "4CH1-4.18",
+      "4CH1-4.19",
+      "4CH1-4.20",
+      "4CH1-4.21",
+      "4CH1-4.22"
+    ],
+    "negative_control": "4CH1-4.15 (carved out, uncovered)",
+    "practicals": []
+  },
+  "totals": {
+    "nodes": 15,
+    "concepts": 14,
+    "misconceptions": 1,
+    "authored_edges": 20,
+    "part_of_edges": 21,
+    "held": 9,
+    "review_required": 0,
+    "rejected": 0
+  },
+  "counts_in_store": {
+    "nodes": 180,
+    "edges": 425,
+    "part_of": 184,
+    "semantic_hv": 216
+  },
+  "pass2": {
+    "agreement": "raw (NOT kappa)",
+    "demotions": 0,
+    "re_authorings": 0,
+    "findings": [
+      "FP-B9-1",
+      "FP-B9-2",
+      "FP-B9-3",
+      "FP-B9-4",
+      "FN-B9-1",
+      "FN-B9-2"
+    ]
+  },
+  "boundary_ruling": {
+    "file": "scripts/c11_batch9_boundary_ruling.yaml",
+    "session": 62,
+    "sanctioned_targets": [
+      "4CH1-CON-FRACTIONAL-DISTILLATION",
+      "4CH1-CON-EMPIRICAL-FORMULA",
+      "4CH1-CON-MOLECULAR-FORMULA",
+      "4CH1-CON-COMBUSTION-O2",
+      "4CH1-CON-MIXTURE"
+    ],
+    "max_boundary_edges": 5,
+    "non_mint_count": 44
+  },
+  "ms_pins": [
+    {
+      "file": "scripts/c11_evidence/CRUDE_OIL_MS_P2.txt",
+      "sha1_12": "2a948c5036e7",
+      "source": "PMT Edexcel IGCSE Chemistry Resources/Unit 4/Mark Schemes/Paper 2/Crude Oil MS.pdf"
+    },
+    {
+      "file": "scripts/c11_evidence/ALKANES_MS_P2.txt",
+      "sha1_12": "9a1ef3815d3d",
+      "source": "PMT Edexcel IGCSE Chemistry Resources/Unit 4/Mark Schemes/Paper 2/Alkanes MS.pdf"
+    }
+  ],
+  "forecast": "the batch-9 record is appended to C11_BATCH_FORECAST.json future_batch_records by c11_batch_forecast.py at this gate"
+}

@@ -1,0 +1,80 @@
+{
+  "task": "T-C11",
+  "batch": 11,
+  "session": 66,
+  "generated": "2026-09-25",
+  "extraction_pass": "c11-s16-batch-11",
+  "scope": {
+    "spec_points": [
+      "4CH1-4.38C",
+      "4CH1-4.39C",
+      "4CH1-4.40C",
+      "4CH1-4.41C",
+      "4CH1-4.42C",
+      "4CH1-4.43C",
+      "4CH1-4.44",
+      "4CH1-4.45",
+      "4CH1-4.46",
+      "4CH1-4.47",
+      "4CH1-4.48C",
+      "4CH1-4.49C",
+      "4CH1-4.50C"
+    ],
+    "negative_control": "4CH1-4.15 (carved out, uncovered)",
+    "practicals": [
+      "4CH1-PR-12"
+    ]
+  },
+  "totals": {
+    "nodes": 5,
+    "concepts": 4,
+    "misconceptions": 1,
+    "authored_edges": 17,
+    "part_of_edges": 12,
+    "held": 10,
+    "review_required": 0,
+    "rejected": 0
+  },
+  "counts_in_store": {
+    "nodes": 193,
+    "edges": 488,
+    "part_of": 211,
+    "semantic_hv": 255
+  },
+  "pass2": {
+    "agreement": "raw (NOT kappa)",
+    "demotions": 0,
+    "re_authorings": 0,
+    "findings": [
+      "FP-B11-1",
+      "FP-B11-2",
+      "FP-B11-3",
+      "FP-B11-4",
+      "FN-B11-1",
+      "FN-B11-2",
+      "FN-B11-3"
+    ]
+  },
+  "boundary_ruling": {
+    "file": "scripts/c11_batch11_boundary_ruling.yaml",
+    "session": 66,
+    "sanctioned_targets": [
+      "4CH1-CON-ALCOHOLS",
+      "4CH1-CON-CARBOXYLIC-ACIDS",
+      "4CH1-CON-ORGANIC-FORMULAE",
+      "4CH1-CON-IUPAC-NAMING",
+      "4CH1-CON-SIMPLE-DISTILLATION",
+      "4CH1-CON-ACID-REACTIONS",
+      "4CH1-CON-ALKENES",
+      "4CH1-CON-ORGANIC-REACTION-CLASSES",
+      "4CH1-CON-CO2-GREENHOUSE",
+      "4CH1-CON-CO-POISONING",
+      "4CH1-CON-CARBOXYLIC-ACIDS",
+      "4CH1-CON-ALCOHOLS"
+    ],
+    "max_boundary_edges": 12,
+    "non_mint_count": 50
+  },
+  "ms_pins": "scripts/c11_evidence/SYNTHETIC_POLYMERS_MS_P2.txt (Synthetic Polymers MS.pdf sha1_12 fe7c6d0ed994, 11pp — the only Paper-2 MS file for the S4-h family; the esters families have NO dedicated Paper-2 MS file in this corpus, so the slice's mark-scheme surface is the SYNTHETIC_POLYMERS pin plus the ALREADY-PINNED ALKENES_MS_P2.txt (the Q2(c) polymer-drawing Reject row 'Any double-bonded product scores 0/2' the session-64 ruling routed to batch 11 as its mint evidence — the same row appears as Q4(c) in the Synthetic Polymers pin) and CRUDE_OIL_MS_P2.txt (the condensation-polymerisation, biodegradation and inertness rows) — a PARTIAL-coverage shape, the batch-3/4/10 precedent)",
+  "forecast": "the batch-11 record is appended to C11_BATCH_FORECAST.json future_batch_records by c11_batch_forecast.py at this gate"
+}

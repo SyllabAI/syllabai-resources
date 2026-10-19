@@ -1,0 +1,287 @@
+{
+  "task": "T-C11",
+  "stage": "s16-batch-6-review",
+  "batch": 6,
+  "generated": "2026-09-22",
+  "authorization": "scripts/c11_s16_authorization.yaml (§16 authorized 2026-09-12; batch 6 commissioned by the operator's 'commission batch 6' directive, session 57 — Section 2 Inorganic Chemistry SECOND slice; under the session-57 cross-slice boundary ruling scripts/c11_batch6_boundary_ruling.yaml)",
+  "pass1": {
+    "extraction_pass": "c11-s16-batch-6",
+    "decision_record": "scripts/c11_batch6_decisions.yaml",
+    "nodes": 13,
+    "authored_edges": 16,
+    "held": 9,
+    "command_kinds": 13
+  },
+  "pass2": {
+    "reviewer": "GLM (Super Z agent, z.ai)",
+    "pass": "c11-batch6-review-2",
+    "verdicts_file": "scripts/c11_batch6_review_pass2.yaml",
+    "nodes_confirm": 13,
+    "edges_confirm": 16,
+    "edges_hold": 0,
+    "edges_reject": 0
+  },
+  "agreement": {
+    "metric": "RAW AGREEMENT (pass-2 vs pass-1 emission)",
+    "explicitly_not": "Cohen's kappa (single human rater; see architecture §12)",
+    "nodes": 1.0,
+    "edges_asserted": {
+      "confirmed": 16,
+      "total_asserted": 16,
+      "rate": 1.0
+    },
+    "edges_uncertain_concordant_nonassertion": 0,
+    "edges_open_operator_decision": [],
+    "note": "one pass-2 finding (FP-B6-5, a non-load-bearing 2-word evidence fragment) was re-authored BEFORE the gate — the record carries 13 nodes / 16 authored edges at this gate; zero demotions at the re-authored state and zero RR quarantines: the pass-1 authoring sent 9 candidates to held BEFORE emission and resolved every remaining doubt on explicit evidence"
+  },
+  "reviewed_nodes": [
+    {
+      "code": "4CH1-CON-REACT-ARRANGE",
+      "verdict": "CONFIRM",
+      "note": "The arrangement-method node owns the 2.15 relation demand exactly (both reaction surfaces: the water-reaction vigour table AND the above-hydrogen acid rule with the salt+hydrogen products); the general equation is taught inline (the EQ-* disposition)."
+    },
+    {
+      "code": "4CH1-CON-METAL-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "Both 2.16 strands covered (metal + metal oxide on heating incl. the thermite and the no-reaction rows; metal + aqueous salt solution with the fading-blue observation); SEPARATE from the batch-5 halogen-displacement owner — different SPs, different reaction families; the pinned MS Q2 mines exactly this surface."
+    },
+    {
+      "code": "4CH1-CON-REACT-ORDER",
+      "verdict": "CONFIRM",
+      "note": "Post-re-authoring (FP-B6-5) the evidence is load-bearing: the SPEC wording enumerates the demanded order itself, the above-hydrogen placement fact and the practical's Mg > Zn > Fe ranking conclusion are order-relative facts; the mnemonic table is the recall surface the demand points at."
+    },
+    {
+      "code": "4CH1-CON-RUSTING",
+      "verdict": "CONFIRM",
+      "note": "The BOTH-conditions rule + the three control-tube investigation; the flaking/structural paragraph is correctly left as OD-2 context in the derivation_notes; the deferral-closure target the batch-5 ruling named."
+    },
+    {
+      "code": "4CH1-CON-RUST-PREVENTION",
+      "verdict": "CONFIRM",
+      "note": "All three prevention families (barrier/sacrificial/galvanising) with the galvanising-both-mechanisms nuance (\"still protected from rusting by sacrificial protection\" if scratched); the three dependency edges carry the taught prerequisites honestly."
+    },
+    {
+      "code": "4CH1-CON-OX-RED-AGENTS",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "B6-ID-01 for the operator: the 2.20 term-family node is BROADER than the batch-3 CON-REDOX-ELECTRONS owner (oxygen framework + agent terms + redox simultaneity vs the electron-transfer definition in the displacement context) and the note RE-TEACHES the electron framework inline (definitions, half equations, OIL RIG) — so no boundary edge and no re-mint (the B5-H-02 rule); a MERGE would corrupt the distinct-SP structure. Attack result: keep the split."
+    },
+    {
+      "code": "4CH1-CON-ORES",
+      "verdict": "CONFIRM",
+      "note": "Both 2.22C clauses (ores-in-the-crust with the worthwhile-extracting definition; unreactive-metals-native with the gold/platinum examples); the reduction framing is correctly bridge-context (the B6-H-08 hold), not a minted dependency."
+    },
+    {
+      "code": "4CH1-CON-EXTRACTION-METHOD",
+      "verdict": "CONFIRM",
+      "note": "The method-position relation with the spec's own two illustrations (carbon extraction for iron; electrolysis for aluminium); three dependency edges carry the taught prerequisites incl. the SANCTIONED boundary edge into CON-ELECTROLYSIS (the cell framework applied as given, never re-defined)."
+    },
+    {
+      "code": "4CH1-CON-EXTRACTION-EVALUATION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "B6-ID-02 for the operator: the comment-given-information skill is a SEPARATE demand from the 2.23C method relation (the B5-ID-03 know-vs-method precedent); the spec's own \"detailed knowledge ... not required\" waiver is recorded in the derivation_notes; the evaluation node's single dependency edge into the method node keeps the surface honest."
+    },
+    {
+      "code": "4CH1-CON-METAL-USES",
+      "verdict": "CONFIRM",
+      "note": "The use-property tables with the spec's own steel-types bound (low-carbon/mild, high-carbon, stainless); the steel-types content is taught inline by the note (the B6-H-01 hold); the SANCTIONED boundary edge carries the \"in terms of their properties\" dependency."
+    },
+    {
+      "code": "4CH1-CON-ALLOYS",
+      "verdict": "CONFIRM",
+      "note": "The 2.26C definition + named examples (steel, brass 70/30); SEPARATE from the batch-1 CON-MIXTURE identity (the metallurgical mixture substance; the ruling's distinct-demand disposition)."
+    },
+    {
+      "code": "4CH1-CON-ALLOY-HARDNESS",
+      "verdict": "CONFIRM",
+      "note": "The layered-lattice mechanism exactly as taught (different-sized atoms -> distorted arrangement -> layers cannot slide); the particle-diagram examination surface named by the note's Examiner Tip is recorded; the metallic-bonding background correctly not invoked (no boundary edge)."
+    },
+    {
+      "code": "4CH1-MIS-ION-OXIDE-REASONING",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "B6-ID-06 for the operator: the single clean Reject column (\"Reject references to ions and oxides\" against the reactivity-comparison expected answer) is the MIS-CUO-COLOUR-class narrow-but-exact documentation; the pdftotext line-wrap attribution is recorded in the derivation_notes (the batch-4/5 convention); the operator may rule it exam-trivia — the mint is defensible because the reactivity comparison is the most assessable 2.16 surface."
+    }
+  ],
+  "reviewed_edges": [
+    {
+      "edge": "4CH1-CON-REACT-ORDER REQUIRES_PREREQUISITE 4CH1-CON-REACT-ARRANGE",
+      "verdict": "CONFIRM",
+      "note": "The order is the PRODUCT of the arrangement comparisons (\"Based on these reactions a reactivity series of metals can be produced\") — definitional containment, the right direction (the spec's own 2.15-then-2.17 order)."
+    },
+    {
+      "edge": "4CH1-CON-METAL-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER",
+      "verdict": "CONFIRM",
+      "note": "Definitional containment (\"The reactivity of metals decreases going down the reactivity series. This means that a more reactive metal will displace...\") — the batch-5 G7-DISPLACEMENT shape; the reverse direction is correctly held (B6-H-06 — the comparison line is 2.16's own demand)."
+    },
+    {
+      "edge": "4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-RUSTING",
+      "verdict": "CONFIRM",
+      "note": "The barrier method is DEFINED over the 2.18 condition pair (\"barriers that prevent the iron from coming into contact with water and oxygen\"); the spec's own 2.18-then-2.19 order."
+    },
+    {
+      "edge": "4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER",
+      "verdict": "CONFIRM",
+      "note": "\"Iron can be prevented from rusting using the reactivity series\" — the sacrificial-metal selection operates on the taught order as given; used-without-reteaching verbatim."
+    },
+    {
+      "edge": "4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS",
+      "verdict": "CONFIRM",
+      "note": "The sacrificial MECHANISM is stated via oxidation (\"will oxidise and therefore corrode first\"; \"is oxidised more easily\") — explaining why sacrifice protects applies the oxidation concept as given; both frameworks appear and both are owned by the in-slice target (B6-ID-01 scope)."
+    },
+    {
+      "edge": "4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER",
+      "verdict": "CONFIRM",
+      "note": "The spec's own 2.23C demand verbatim plus the note's thesis line — the strongest in-batch dependency; definitional containment, direction correct."
+    },
+    {
+      "edge": "4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS",
+      "verdict": "CONFIRM",
+      "note": "The carbon-reduction route applies reduction as given (\"heating with carbon which reduces them\"; zone-3 \"Carbon monoxide reduces the iron(III) oxide\") — the extraction note never re-teaches the definitions."
+    },
+    {
+      "edge": "4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target (batch-3 owner); the electrolysis route applies the cell framework as given; the anode/cathode inline glosses and the OD-2 half-equation detail are dispositioned in the ruling (one edge per dependency surface)."
+    },
+    {
+      "edge": "4CH1-CON-EXTRACTION-EVALUATION REQUIRES_PREREQUISITE 4CH1-CON-EXTRACTION-METHOD",
+      "verdict": "CONFIRM",
+      "note": "The evaluation operates ON the method-position framework (the note's own Examiner Tip ties the comment question to the electrolysis-vs-reduction explanation); the worked information surfaces are descriptions OF the method node's content."
+    },
+    {
+      "edge": "4CH1-CON-METAL-USES REQUIRES_PREREQUISITE 4CH1-CON-METAL-PROPERTIES",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target (batch-3 owner); the spec's own \"in terms of their properties\" demand with the property vocabulary applied as given and never re-taught — the strongest possible anchor class."
+    },
+    {
+      "edge": "4CH1-CON-ALLOY-HARDNESS REQUIRES_PREREQUISITE 4CH1-CON-ALLOYS",
+      "verdict": "CONFIRM",
+      "note": "Definitional containment (\"Alloys are harder than pure metals because: Alloys contain atoms of DIFFERENT sizes\") — the different-sized atoms are the alloy-defining content; the spec's own 2.26C-then-2.27C order."
+    },
+    {
+      "edge": "4CH1-PR-06 REQUIRES_PREREQUISITE 4CH1-CON-REACT-ARRANGE",
+      "verdict": "CONFIRM",
+      "note": "Practical->conceptual (the PR-05 shape): the 2.21 practical RUNS the acid-metal comparison its concept owns, and its conclusion (\"The metals can be ranked in reactivity order Mg > Zn > Fe\") is the arrangement method in action; 2.21 correctly attaches no concept node."
+    },
+    {
+      "edge": "4CH1-CON-CO2-FROM-CARBONATES REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target — closes the batch-5 ruling's future_boundary_note and held B5-H-10 verbatim (\"Carbonates of metals from the LOWER HALF of the reactivity series\"); the anchor resolves via the source's own 2.12 mapping."
+    },
+    {
+      "edge": "4CH1-CON-O2-PERCENT-DETERMINATION REQUIRES_PREREQUISITE 4CH1-CON-RUSTING",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target — closes the batch-5 ruling's other future_boundary_note verbatim; the iron-wool route IS the rusting phenomenon applied (iron + air + water over 3-4 days — both 2.18 conditions present in the experiment design); the anchor resolves via the source's own 2.10 mapping."
+    },
+    {
+      "edge": "4CH1-MIS-ION-OXIDE-REASONING WRONG_ANSWER_PATTERN 4CH1-CON-METAL-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "The WAP target is the concept whose wrong explanations the MS caps — the aluminium/iron-oxide question is a 2.16a metal-oxide displacement item; the pattern_class contract holds."
+    },
+    {
+      "edge": "4CH1-MIS-ION-OXIDE-REASONING REMEDIATED_BY 4CH1-CON-METAL-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "Remediation target = WAP target (the B1-E-25 pattern); the corrective content IS the displacement rule and the MS's own expected answer is the same statement in assessment form."
+    }
+  ],
+  "held_review": [
+    {
+      "id": "B6-H-01",
+      "verdict": "AGREE_HOLD",
+      "note": "The uses note teaches the steel types with their alloying compositions in its own table — the inline re-teach defeats the dependency; the spec's own steel-types bound keeps the content in-slice."
+    },
+    {
+      "id": "B6-H-02",
+      "verdict": "AGREE_HOLD",
+      "note": "The 2.20 note's full electron-framework teaching (definitions + half equations + OIL RIG) defeats use-without-reteaching; the overlap is the B6-ID-01 identity decision, not an edge."
+    },
+    {
+      "id": "B6-H-03",
+      "verdict": "AGREE_HOLD",
+      "note": "The IGNORE class is a context-specific distractor rule on an S3-owned rate surface; acid amount IS a genuine rate factor in the S3 sense — the mint would misrepresent the failure class (the B5-H-04/05 conventions)."
+    },
+    {
+      "id": "B6-H-04",
+      "verdict": "AGREE_HOLD",
+      "note": "The zone-1 exothermic line is blast-furnace furniture (why the furnace stays hot); the 2.23C demand requires nothing about heat-energy changes."
+    },
+    {
+      "id": "B6-H-05",
+      "verdict": "AGREE_HOLD",
+      "note": "The ZnCO3 line is the REVERSE direction of the batch-5 decomposition family (carbonate forming, not decomposing) — true-and-thin, OD-2 aside (the B5-H-07 class)."
+    },
+    {
+      "id": "B6-H-06",
+      "verdict": "AGREE_HOLD",
+      "note": "The comparison line is 2.16's own arrangement demand living inside CON-METAL-DISPLACEMENT; the definitional direction is already authored — a reverse edge would double-count one evidence surface (the B5-H-12/13 conventions)."
+    },
+    {
+      "id": "B6-H-07",
+      "verdict": "AGREE_HOLD",
+      "note": "The evaluation already carries the dependency via the method node; a direct evaluation->order edge would bypass the intermediate owner and double-count the chain (the batch-4 composition discipline)."
+    },
+    {
+      "id": "B6-H-08",
+      "verdict": "AGREE_HOLD",
+      "note": "The reduction framing is the note's bridge TO the 2.23C demand, whose node carries the reduction dependency; the ORES edge would pre-empt it and stretch the recall demand (OD-2)."
+    },
+    {
+      "id": "B6-H-09",
+      "verdict": "AGREE_HOLD",
+      "note": "The classification sentence lives in the 2.20 note (inside CON-OX-RED-AGENTS's own evidence); the 2.18 conditions demand requires nothing about oxidation; the rusting note's only oxidation usage is the sacrificial section (already authored from CON-RUST-PREVENTION)."
+    }
+  ],
+  "findings": [
+    {
+      "id": "FP-B6-1",
+      "severity": "info",
+      "finding": "Identity overlap: the 2.20 term-family node (CON-OX-RED-AGENTS) overlaps the batch-3 CON-REDOX-ELECTRONS owner on the electron framework (its aliases are literally \"oxidation\"/\"reduction\"). A merge question is recorded for the operator (B6-ID-01); the split is the defensible default — the 2.20 demand is broader (oxygen framework + agents + redox pairing) and the note re-teaches the electron framework inline, so no boundary edge and no re-mint."
+    },
+    {
+      "id": "FP-B6-2",
+      "severity": "info",
+      "finding": "Misconception evidence asymmetry: the batch's ONE clean Reject-column mint (MIS-ION-OXIDE-REASONING) comes from the only pinned MS; the extraction family is UNPINNED (no PMT MS exists in any unit — meta.ms_coverage_note), so no misconception mining was possible there; the Q1ai IGNORE class is held (B6-H-03). The operator should confirm the asymmetry is acceptable (it is evidence-limited, not discipline-lax)."
+    },
+    {
+      "id": "FP-B6-3",
+      "severity": "info",
+      "finding": "Boundary discipline: exactly 4 sanctioned boundary edges into 4 ruled targets — two EXISTING owners (CON-ELECTROLYSIS, CON-METAL-PROPERTIES — both batch 3) and the TWO deferral closures the batch-5 ruling explicitly deferred to \"the batch that mints it\" (CON-REACT-ORDER, CON-RUSTING). Zero boundary minting; the batch-5 non_mint_list is respected (CON-REDOX-ELECTRONS never re-minted — the overlap is an identity decision, not a mint)."
+    },
+    {
+      "id": "FP-B6-4",
+      "severity": "info",
+      "finding": "Family shape: the 2.23C/2.24C method-vs-evaluation split (B6-ID-02, the B5-ID-03 know-vs-method precedent), the 2.15/2.16/2.17 trio split (two arrangement methods + one order — B6-ID-03), the 2.18/2.19 conditions-vs-prevention split (B6-ID-04) and the 2.26C/2.27C definition-vs-mechanism split (B6-ID-05); 2.21 attaches NO concept node (PR-06 owns it — the practical->concept edge authored)."
+    },
+    {
+      "id": "FP-B6-5",
+      "severity": "fixed-at-pass-2",
+      "finding": "The CON-REACT-ORDER node's evidence originally carried a 2-word table fragment (\"Most reactive\") that is not individually load-bearing for the ORDER demand. Re-authored BEFORE the gate: the evidence now cites the order-relative placement fact (\"Only metals above hydrogen in the reactivity series will react with dilute acids\") and the practical's own ranking conclusion (\"The metals can be ranked in reactivity order Mg > Zn > Fe\"). The record still carries 13 nodes / 16 authored edges."
+    },
+    {
+      "id": "FN-B6-1",
+      "severity": "info",
+      "finding": "Descriptive-slice yield: nodes/SP 1.0, edges/SP 1.23 — in the S2 band the item-14 plan anticipated; the one-node-per-SP-family shape held exactly (12 concept-bearing SPs + 1 practical-owned SP), and the abstentions (B6-H-01/02/06/08 inline-re-teach and double-count holds) account for the gap, not thin extraction."
+    },
+    {
+      "id": "FN-B6-2",
+      "severity": "info",
+      "finding": "Deferral ledger settled: both batch-5 future_boundary_notes are closed by this batch's sanctioned edges exactly as deferred (the B5-H-10 hold's dependency is now owned by CON-REACT-ORDER; the iron-route dependency is owned by CON-RUSTING); the batch-5 hold rows remain historical (holds are never deleted, only superseded by owned edges)."
+    },
+    {
+      "id": "FN-B6-3",
+      "severity": "info",
+      "finding": "Future-evidence surface: the REACTIVITY_MS Q1b sulfate-test surface (barium chloride / white precipitate) is recorded in the ruling's future_boundary_notes for the S2-h chemical-tests batches; the extraction family stays available for a future MS-evidence pass if PMT publishes one."
+    }
+  ],
+  "operator_gate": {
+    "gate": "per-batch operator review (§16 authorization scope.unlocked; each batch = own operator gate)",
+    "surface": {
+      "suggested_edges": 16,
+      "review_required_edges": 0,
+      "nodes": 13,
+      "held": 9
+    },
+    "pathway": "record verdicts in scripts/c11_batch6_verdicts.yaml (fill the template); a later session encodes + applies them via §18 promotion / §7 re-authoring",
+    "promotion_now": 0,
+    "cross_boundary_edges": 4
+  }
+}

@@ -1,0 +1,134 @@
+{
+ "schema": "syllabai.c30-k1-check/1.0",
+ "task": "T-C30 K1 spec store build \u2014 igcse-maths-a (4MA1 Higher)",
+ "generated_utc": "2026-09-30T19:27:23Z",
+ "head": "8430547fcfd6b174a8c4902d707e599e16769468",
+ "stores": {
+  "specification_points": "graph/igcse-maths-a/specification_points.yaml",
+  "topics": "graph/igcse-maths-a/topics.yaml",
+  "practicals": "graph/igcse-maths-a/practicals.yaml",
+  "assessment_objectives": "graph/igcse-maths-a/assessment_objectives.yaml",
+  "command_words": "graph/igcse-maths-a/command_words.yaml"
+ },
+ "gates": {
+  "G1_canonical_equality_1to1": {
+   "status": "PASS",
+   "detail": {
+    "rows": 188,
+    "unique_store_codes": 188,
+    "canonical_unique": 188,
+    "bad_wording": [],
+    "bad_verbatim": [],
+    "missing": [],
+    "global_order_contiguous": true
+   }
+  },
+  "G2_topics_subtopics_closure": {
+   "status": "PASS",
+   "detail": {
+    "topics": 6,
+    "subtopics": 39,
+    "membership_closure": true,
+    "parent_resolved": true,
+    "bad_titles": [],
+    "topics_json_disagreements": [],
+    "subtopic_ordering_contiguous": true,
+    "topic_ordering_contiguous": true,
+    "letter_is_subsection_code": true,
+    "sub_parent_section_agrees": true
+   }
+  },
+  "G3_counts_match_parse_report": {
+   "status": "PASS",
+   "detail": {
+    "parse_report": {
+     "spec_points": 242,
+     "topics": 18,
+     "subsections": 78,
+     "flagged": 8
+    },
+    "dedupe_note": "242 rows -> 188 unique official_codes (both tiers)",
+    "meta_counts_consistent": true,
+    "flagged": 8
+   }
+  },
+  "G4_schema_provenance_namespace": {
+   "status": "PASS",
+   "detail": {
+    "bad_schema": [],
+    "bad_provenance": [],
+    "foreign_code_hits": [],
+    "flag_vocab": [
+     "math-fragment-assembly"
+    ]
+   }
+  },
+  "G5_tier_dedupe_integrity": {
+   "status": "PASS",
+   "detail": {
+    "ledger_rows": 54,
+    "observed_dups": 54,
+    "census": {
+     "dup_codes": 54,
+     "reworded": 53,
+     "same_text": 1,
+     "higher_only": 26,
+     "foundation_only": 108
+    },
+    "reworded": 53,
+    "foundation_only": 108,
+    "higher_only": 26,
+    "title_variants": [
+     {
+      "section": 4,
+      "higher": "Geometry and trigonometry",
+      "foundation": "Geometry"
+     }
+    ]
+   }
+  },
+  "G6_damage_scan_zero": {
+   "status": "PASS",
+   "detail": {
+    "damage_hits": {},
+    "md_ocr_residue": {}
+   }
+  },
+  "G7_empty_by_parse_stores": {
+   "status": "PASS",
+   "detail": {
+    "practicals_note_verbatim": true,
+    "command_words_note_verbatim": true,
+    "practicals_empty": true,
+    "command_words_empty": true
+   }
+  },
+  "G8_assessment_objectives_verbatim": {
+   "status": "PASS",
+   "detail": {
+    "statements": 3,
+    "unit_weightings": 3,
+    "bad": []
+   }
+  },
+  "G9_chemistry_graph_check_green": {
+   "status": "PASS",
+   "detail": {
+    "exit": 0,
+    "tail": [
+     "PASS  c11-concept-edges",
+     "",
+     "graph_check: ALL PASS \u2014 182 spec points, 4 topics, 28 subtopics, 210 edges, 25 command words, 12 practicals, 2 papers; T-C11 store (pilot + \u00a716 batches 1-3 + S3 batch 4 + S2 batches 5-8 + the batch-9 slice S4-a/b/c 4.1-4.22 + the batch-10 authored-to-gate slice S4-d/e/f 4.23-4.37C + the batch-11 slice S4-g/h 4.38C-4.50C, batch-6 verdicts applied session 58, batch-7 verdicts applied session 60, batch-8 verdicts applied session 62, batch-9 verdicts applied session 63, batch-10 verdicts applied session 65, batch-11 verdicts applied session 67): 193 concept nodes, 488 concept edges (211 PART_OF + 277 semantic), 389 HUMAN_VALIDATED (operator promotions; 0 from generation; batch-1 verdicts applied session 48; batch-2 verdicts applied session 50; batch-3 verdicts applied session 52; batch-4 verdicts applied session 54; batch-5 verdicts applied session 56; batch-6 verdicts applied session 58; batch-7 verdicts applied session 60; batch-8 verdicts applied session 62; batch-9 verdicts applied session 63; batch-10 verdicts applied session 65; batch-11 verdicts applied session 67 \u2014 nodes have no \u00a718 pathway), negative control 4CH1-4.15 uncovered."
+    ]
+   }
+  },
+  "G10_no_hardcode_registry_green": {
+   "status": "PASS",
+   "detail": {
+    "exit": 0,
+    "registry_line": "registry consistency: OK \u2014 15 stores resolve across 2 quals (post-migration layout); legacy_map == derived (10)"
+   }
+  }
+ },
+ "all_pass": true
+}

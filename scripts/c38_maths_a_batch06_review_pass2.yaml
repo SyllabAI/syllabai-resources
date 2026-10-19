@@ -1,0 +1,107 @@
+# T-C38 K2-C-6 — batch-B06 adversarial pass-2 review record (the c37_maths_a_batch05_
+# review_pass2.yaml shape, sixth-batch instance). Pass 2 is the authoring agent's second,
+# adversarial pass over its own pass-1 extraction: every row re-ruled, every doubt either
+# resolved on explicit evidence or routed to the held record / the operator's identity
+# decisions. NOTHING in this file promotes anything — SUGGESTED stays SUGGESTED until the
+# operator's verdict gate.
+meta:
+  task: T-C38
+  stage: k2-c-batch-06-pass2
+  extraction_pass: c38-k2c-batch-06
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-02'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; the three misconception mints re-tested against the MS documentation (and
+    re-tested for NOT re-minting any of the EIGHT prior maths-a classes); the cross-batch
+    holds re-tested for silent-drop avoidance (the B05-H-06 and B04-H-06 landings
+    re-derived as B06-H-02 and B06-H-03 with the edges aimed at the authored B06 nodes);
+    the uncited-join census re-derived as a file-set check (empty — all 14 join-carried
+    pages cited); the edge DAG re-walked for cycles (8 REQUIRES_PREREQUISITE edges over 12
+    concept nodes — no cycles: 2.3B feeds 2.3C; 2.3D feeds 2.3F; 2.3F feeds 2.3A and 2.5A;
+    2.3E feeds 2.4B; 2.4A feeds 2.4B; 2.2F feeds 2.2D and 2.2E). THREE pass-2 findings,
+    all resolved BEFORE landing and re-verified by the machine gates: FP-B06-1 — the
+    substrate-alignment discovery on the three higher-preferred rows (2.2D's joined
+    factorising page carries the Foundation variant's common-factor substance; 2.2E's
+    joined bracket pages carry the Foundation variant's simple-expansion substance while
+    algebraic-proof.md carries the Higher substance; 2.3A carries ZERO joins with the
+    twice/powered substrate sitting on 2.3F's anchors) — resolved by recording the
+    alignment on the affected derivation notes and citing the pages for the shared
+    substrate while COREing the ratified Higher wordings; nothing repaired, nothing
+    padded. FP-B06-2 — two pass-1 SPEC quotes paraphrased the ratified wordings for 2.3D
+    and 2.5A (dropping the tail "and convert to letters and symbols" and the "of the
+    equations" tail) — caught by the quote probe, corrected to the store-exact wordings;
+    zero substance changed. FP-B06-3 — the authoring-time YAML serialization caught one
+    plain-scalar colon collision (a quote ending in a literal colon — the
+    rearranging-formulae familiar-formulae row) — resolved by quoting the scalar; zero
+    substance changed; re-verified by the preverify (35/35) and the quote probe (100/100
+    anchors byte-exact).
+node_verdicts:
+  4MA1-CON-COMPLETING-THE-SQUARE: CONFIRM
+  4MA1-CON-ALGEBRAIC-PROOF: CONFIRM
+  4MA1-CON-FACTORISING-SIMPLE-QUADRATICS: CONFIRM
+  4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES: CONFIRM
+  4MA1-CON-ALGEBRAIC-NOTATION-CONVENTIONS: CONFIRM
+  4MA1-CON-SUBSTITUTION: CONFIRM
+  4MA1-CON-FORMULAE-FROM-CONTEXT: CONFIRM
+  4MA1-CON-DERIVING-FORMULAE: CONFIRM
+  4MA1-CON-REARRANGING-FORMULAE: CONFIRM
+  4MA1-CON-SOLVING-LINEAR-EQUATIONS: CONFIRM
+  4MA1-CON-FORMING-AND-SOLVING-EQUATIONS: CONFIRM
+  4MA1-CON-DIRECT-AND-INVERSE-PROPORTION: CONFIRM
+  4MA1-MIS-INVERSE-OPERATION-ORDER: CONFIRM
+  4MA1-MIS-SUBJECT-POWER-MISHANDLING: CONFIRM
+  4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION: CONFIRM
+edge_verdicts:
+  "4MA1-CON-COMPLETING-THE-SQUARE REQUIRES_PREREQUISITE 4MA1-CON-FACTORISING-SIMPLE-QUADRATICS": CONFIRM
+  "4MA1-CON-ALGEBRAIC-PROOF REQUIRES_PREREQUISITE 4MA1-CON-FACTORISING-SIMPLE-QUADRATICS": CONFIRM
+  "4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES REQUIRES_PREREQUISITE 4MA1-CON-REARRANGING-FORMULAE": CONFIRM
+  "4MA1-CON-REARRANGING-FORMULAE REQUIRES_PREREQUISITE 4MA1-CON-FORMULAE-FROM-CONTEXT": CONFIRM
+  "4MA1-CON-SUBSTITUTION REQUIRES_PREREQUISITE 4MA1-CON-ALGEBRAIC-NOTATION-CONVENTIONS": CONFIRM
+  "4MA1-CON-FORMING-AND-SOLVING-EQUATIONS REQUIRES_PREREQUISITE 4MA1-CON-SOLVING-LINEAR-EQUATIONS": CONFIRM
+  "4MA1-CON-FORMING-AND-SOLVING-EQUATIONS REQUIRES_PREREQUISITE 4MA1-CON-DERIVING-FORMULAE": CONFIRM
+  "4MA1-CON-DIRECT-AND-INVERSE-PROPORTION REQUIRES_PREREQUISITE 4MA1-CON-REARRANGING-FORMULAE": CONFIRM
+  "4MA1-MIS-INVERSE-OPERATION-ORDER WRONG_ANSWER_PATTERN 4MA1-CON-REARRANGING-FORMULAE": CONFIRM
+  "4MA1-MIS-INVERSE-OPERATION-ORDER REMEDIATED_BY 4MA1-CON-REARRANGING-FORMULAE": CONFIRM
+  "4MA1-MIS-SUBJECT-POWER-MISHANDLING WRONG_ANSWER_PATTERN 4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES": CONFIRM
+  "4MA1-MIS-SUBJECT-POWER-MISHANDLING REMEDIATED_BY 4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES": CONFIRM
+  "4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION WRONG_ANSWER_PATTERN 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION": CONFIRM
+  "4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION REMEDIATED_BY 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION": CONFIRM
+held_agreements:
+  B06-H-01: AGREE
+  B06-H-02: AGREE
+  B06-H-03: AGREE
+  B06-H-04: AGREE
+  B06-H-05: AGREE
+  B06-H-06: AGREE
+  B06-H-07: AGREE
+  B06-H-08: AGREE
+findings:
+  FP-B06-1: >-
+    substrate-alignment discovery — the three higher-preferred rows' substrate sits as the
+    C30 ledger's Foundation texts demand (2.2D's joined factorising page carries the
+    common-factor variant; 2.2E's joined bracket pages carry the simple-expansion variant
+    while algebraic-proof.md carries the Higher proof substance; 2.3A carries zero joins
+    with the twice/powered substrate on 2.3F's anchors), recorded on the affected
+    derivation notes and cited for the shared substrate while COREing the ratified Higher
+    wordings — nothing repaired, nothing padded; re-verified by the preverify (35/35) and
+    the quote probe (100/100).
+  FP-B06-2: >-
+    pass-1 SPEC-quote paraphrase finding — two SPEC quotes paraphrased the ratified
+    wordings (2.3D missing the tail "and convert to letters and symbols"; 2.5A missing
+    "of the equations"), caught by the quote probe's byte-exact convention and corrected
+    to the store-exact wordings before landing; zero substance changed; re-verified by the
+    preverify (35/35) and the quote probe (100/100).
+  FP-B06-3: >-
+    authoring-time serialization finding — one plain-scalar colon collision (a quote
+    ending in a literal colon — the rearranging-formulae familiar-formulae row) surfaced
+    as a YAML scanner error during the first parse; resolved by quoting the scalar — zero
+    substance changed; re-verified by the preverify (35/35) and the quote probe (100/100
+    anchors byte-exact).
+  re_authoring_cases: 0
+  note: >-
+    all three findings were recording/serialization corrections resolved before landing;
+    no node, edge, held or identity row changed substance in pass 2 — zero demotions.
