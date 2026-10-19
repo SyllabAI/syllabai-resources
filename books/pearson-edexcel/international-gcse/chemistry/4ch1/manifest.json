@@ -1,5 +1,5 @@
 {
-  "schema": "book-slices-manifest-v1",
+  "schema": "book-slices-manifest-v2",
   "book": {
     "documentId": "e6c0db50-0f84-55de-b50c-e4d49285cd6d",
     "docVersion": 1,
@@ -14,49 +14,72 @@
   },
   "derivation": {
     "laws": {
-      "split": "L5 merged (133g, operator trace 1a15458e2e5bf235): ONE slice per chapter = the full registry range [pdfPageStart..pdfPageEnd] \u2014 study material + practice questions inline; the 133e hard-split _q slices retired (questions start where the study material ends, sometimes mid-page)",
+      "split": "133g L5 merged law unchanged: ONE slice per chapter = the full corrected range (study material + practice questions inline)",
+      "unitExam": "133i corrected: the unit's true exam-question run, page-content-verified against the of-record OCR text",
+      "boundary": "133i boundary laws (census trace 1a15534a152456f1): B1 next-unit opener pages belong to the NEXT unit's first chapter, never the previous unit's exam slice; B2 chapter-question pages stay in their chapter slice; B3 reference/appendix 329-383 unsliced (raw-book fallback); B4 unit openers (11/131/215/263) attach to the unit's first chapter",
       "fallback": "L2 whole-range",
-      "unitExam": "L3 registry-gap",
-      "deferred": "L4",
-      "anchor": "questionsStartPage = the retired _q split's start page (parse-derived of record, L1 heading-anchored); chapters the 133e lane could not honestly anchor carry null and render no jump"
+      "anchor": "133g law unchanged: questionsStartPage = the parse-derived question start; chapters without an honest anchor carry null",
+      "appendOnly": "133i: corrected slices are republished under r2 filenames; superseded v1 paths are retained in the archive and in the superseded slice shas below"
     },
     "sources": [
-      "book_chapters registry of record (29 ranges, live api + Neon)",
-      "manifest of record 133e run-003 (the retired _q split coordinates + the unit exam rows)"
+      "book_chapters registry of record (29 ranges, live api + Neon, corrected 133i)",
+      "census trace 1a15534a152456f1: scripts/audit_4ch1_boundaries.py against the of-record OCR text (ocr_pages/, 383 pages)",
+      "geometry of record: data/chem_geometry_corrected.json"
     ],
-    "workbook": "scripts/t133g_build_slices.py + scripts/t133g_fetch_verify.py (syllabai-v2 lane workspace, trace 1a15458e2e5bf235)",
-    "backMatterStart": 330
+    "superseded": "book-slices-manifest-v1 (133g, commit 4add496) \u2014 13 of 33 slices had boundary-carryover pages; the full error census is in the worklog of record",
+    "workbook": "scripts/t133i_recut.py (band 133i, trace 1a15557b74330e6d)",
+    "backMatterStart": 329
   },
   "deferred": {
     "runs": [
-      "1-11",
-      "46",
-      "93",
-      "145",
-      "235",
-      "330-383"
+      "1-10",
+      "329-383"
     ],
-    "law": "raw whole-book + ?page=N containment (L4)"
+    "law": "raw whole-book + ?page=N containment (L4)",
+    "reference_detail": {
+      "appendix_a": [
+        329,
+        329
+      ],
+      "appendix_b_c": [
+        330,
+        336
+      ],
+      "glossary": [
+        337,
+        344
+      ],
+      "index": [
+        345,
+        353
+      ],
+      "answers": [
+        354,
+        383
+      ]
+    }
   },
-  "generatedWith": "pypdf 6.6.0 (133g merge of record; the 133e slices were pikepdf 10.17.0)",
+  "generatedWith": "pypdf 6.6.0",
   "slices": [
     {
-      "file": "chapters/u1_c1.pdf",
+      "file": "chapters/u1_c1.r2.pdf",
       "role": "lesson",
       "chapterKey": "u1:c1",
       "title": "States of matter",
       "pdfRange": [
-        12,
+        11,
         22
       ],
-      "slicePages": 11,
-      "bytes": 1689138,
-      "sha256": "95e7671d57796634678260ece2a409db45496836c7b6b4e28d2e3ef8c0b12c70",
+      "slicePages": 12,
+      "bytes": 1845443,
+      "sha256": "18bd4c7d6c7edd83750953136b4df2f0e61722dbd403412710a86b40fe86ab46",
       "questionsStartPage": 21,
       "questionAnchor": {
         "page": 21,
         "chunkIndex": 22
-      }
+      },
+      "supersedes": "chapters/u1_c1.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [12, 22] -> [11, 22]; carries the unit opener page (B4)"
     },
     {
       "file": "chapters/u1_c2.pdf",
@@ -93,18 +116,19 @@
     },
     {
       "role": "lesson",
-      "file": "chapters/u1_c4.pdf",
+      "file": "chapters/u1_c4.r2.pdf",
       "chapterKey": "u1:c4",
       "title": "The periodic table",
       "pdfRange": [
         39,
-        45
+        46
       ],
-      "slicePages": 7,
-      "bytes": 1091910,
-      "sha256": "58e64319e1e8fa3fc53c018d8ae2bfe4f746f4a5bdab348384518a7f05844a8e",
-      "note": "no CHAPTER QUESTIONS heading anchor in parse of record \u2014 whole-range slice (L2)",
-      "questionsStartPage": null
+      "slicePages": 8,
+      "bytes": 1198405,
+      "sha256": "8c287df04b3e21fb26ad405dfc0e989f6bf7d4df402b96fbf1e67596099525ae",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [39, 45] -> [39, 46]; full chapter-question pages included (B2)",
+      "questionsStartPage": null,
+      "supersedes": "chapters/u1_c4.pdf"
     },
     {
       "file": "chapters/u1_c5.pdf",
@@ -143,22 +167,24 @@
       }
     },
     {
-      "file": "chapters/u1_c7.pdf",
+      "file": "chapters/u1_c7.r2.pdf",
       "role": "lesson",
       "chapterKey": "u1:c7",
       "title": "Ionic bonding",
       "pdfRange": [
         84,
-        92
+        93
       ],
-      "slicePages": 9,
-      "bytes": 1281478,
-      "sha256": "ef83943f614004564c4da245673baf6cd8cfab3f88d581b91b915e1b080098cc",
+      "slicePages": 10,
+      "bytes": 1345582,
+      "sha256": "a0de5b2d4bc7b9dac82af82f92adbb96fe1674f20ef978827a61088802e1c0ee",
       "questionsStartPage": 92,
       "questionAnchor": {
         "page": 92,
         "chunkIndex": 185
-      }
+      },
+      "supersedes": "chapters/u1_c7.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [84, 92] -> [84, 93]; full chapter-question pages included (B2)"
     },
     {
       "file": "chapters/u1_c8.pdf",
@@ -197,58 +223,64 @@
       }
     },
     {
-      "file": "chapters/u1_c10.pdf",
+      "file": "chapters/u1_c10.r2.pdf",
       "role": "lesson",
       "chapterKey": "u1:c10",
       "title": "Electrolysis (chemistry only)",
       "pdfRange": [
         110,
-        121
+        122
       ],
-      "slicePages": 12,
-      "bytes": 1796344,
-      "sha256": "61dc83c78c677bcd1afcb39aae788d2bda6c2bb3d9b5d4828fa3aacb59f7af50",
+      "slicePages": 13,
+      "bytes": 1904586,
+      "sha256": "1f75e0a8d5c96617b080be023161b0a585e10d45f7d95d8e281751257ea3a830",
       "questionsStartPage": 121,
       "questionAnchor": {
         "page": 121,
         "chunkIndex": 257
-      }
+      },
+      "supersedes": "chapters/u1_c10.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [110, 121] -> [110, 122]; full chapter-question pages included (B2)"
     },
     {
-      "file": "chapters/u2_c11.pdf",
+      "file": "chapters/u2_c11.r2.pdf",
       "role": "lesson",
       "chapterKey": "u2:c11",
       "title": "The alkali metals",
       "pdfRange": [
-        132,
+        131,
         138
       ],
-      "slicePages": 7,
-      "bytes": 990577,
-      "sha256": "1e1d9127ada5a38aafda06a11ac043682248a602c51b882db6cf5311532f713d",
+      "slicePages": 8,
+      "bytes": 1155595,
+      "sha256": "071ececfdccca753022df551f55098bce35388b5809a1f939d0b5f976cd54888",
       "questionsStartPage": 138,
       "questionAnchor": {
         "page": 138,
         "chunkIndex": 282
-      }
+      },
+      "supersedes": "chapters/u2_c11.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [132, 138] -> [131, 138]; carries the unit opener page (B4)"
     },
     {
-      "file": "chapters/u2_c12.pdf",
+      "file": "chapters/u2_c12.r2.pdf",
       "role": "lesson",
       "chapterKey": "u2:c12",
       "title": "The halogens",
       "pdfRange": [
         139,
-        144
+        145
       ],
-      "slicePages": 6,
-      "bytes": 837628,
-      "sha256": "12d8b15353ecc45f9d4a4ff5ae9375a850cba3a243932d6d2020f8f5b1c8a5bf",
+      "slicePages": 7,
+      "bytes": 949558,
+      "sha256": "833fef4288f5dc16e9c8cca61590c2cd3e7b60535f57a916ee04079414a14b66",
       "questionsStartPage": 143,
       "questionAnchor": {
         "page": 143,
         "chunkIndex": 297
-      }
+      },
+      "supersedes": "chapters/u2_c12.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [139, 144] -> [139, 145]; full chapter-question pages included (B2)"
     },
     {
       "file": "chapters/u2_c13.pdf",
@@ -341,40 +373,44 @@
       }
     },
     {
-      "file": "chapters/u2_c18.pdf",
+      "file": "chapters/u2_c18.r2.pdf",
       "role": "lesson",
       "chapterKey": "u2:c18",
       "title": "Chemical tests",
       "pdfRange": [
         199,
-        207
+        206
       ],
-      "slicePages": 9,
-      "bytes": 1204341,
-      "sha256": "d1ebead8cfb8108880d1a204d4c39b51023e36125ceb6b894adac2a96a3b5100",
+      "slicePages": 8,
+      "bytes": 1109592,
+      "sha256": "b23f1a8016fd033bda59a5e10860f1ce2f32328c72d0eaa8b59e3feea94811f0",
       "questionsStartPage": 204,
       "questionAnchor": {
         "page": 204,
         "chunkIndex": 430
-      }
+      },
+      "supersedes": "chapters/u2_c18.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [199, 207] -> [199, 206]; full chapter-question pages included (B2)"
     },
     {
-      "file": "chapters/u3_c19.pdf",
+      "file": "chapters/u3_c19.r2.pdf",
       "role": "lesson",
       "chapterKey": "u3:c19",
       "title": "Energetics",
       "pdfRange": [
-        216,
-        234
+        215,
+        235
       ],
-      "slicePages": 19,
-      "bytes": 2711084,
-      "sha256": "3386612244fdab0094155389a5ed75a7b20ded365f050a4a7b172ac138806fa3",
+      "slicePages": 21,
+      "bytes": 3002004,
+      "sha256": "419f9cac8161329003f656fdc376404e7b898c79d58911f142213cdd2baa9c76",
       "questionsStartPage": 232,
       "questionAnchor": {
         "page": 232,
         "chunkIndex": 494
-      }
+      },
+      "supersedes": "chapters/u3_c19.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [216, 234] -> [215, 235]; carries the unit opener page (B4)"
     },
     {
       "file": "chapters/u3_c20.pdf",
@@ -410,22 +446,24 @@
       "questionsStartPage": null
     },
     {
-      "file": "chapters/u4_c22.pdf",
+      "file": "chapters/u4_c22.r2.pdf",
       "role": "lesson",
       "chapterKey": "u4:c22",
       "title": "Introduction to organic chemistry",
       "pdfRange": [
-        264,
+        263,
         276
       ],
-      "slicePages": 13,
-      "bytes": 1720504,
-      "sha256": "d0c409242e42390fde5ce6e297122f61465700460e7c83d7edc532d5e49b6f49",
+      "slicePages": 14,
+      "bytes": 1899116,
+      "sha256": "92b4b6d66ea61b7f47ba82e8e3e3ee8bee0b14d1122a8613c92d9057b832c944",
       "questionsStartPage": 273,
       "questionAnchor": {
         "page": 273,
         "chunkIndex": 580
-      }
+      },
+      "supersedes": "chapters/u4_c22.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [264, 276] -> [263, 276]; carries the unit opener page (B4)"
     },
     {
       "file": "chapters/u4_c23.pdf",
@@ -554,87 +592,94 @@
       }
     },
     {
-      "file": "units/u1_practice.pdf",
+      "file": "units/u1_practice.r2.pdf",
       "role": "unit_exam",
       "chapterKey": "u1:xexam-practice",
       "title": "Unit 1 exam practice",
       "pdfRange": [
-        122,
-        131
+        123,
+        130
       ],
-      "slicePages": 10,
-      "bytes": 1115796,
-      "sha256": "dd7c6a82571f2a9cdfee45af10d915581c42334ea9bfbac60d5d30951c2c71c2",
+      "slicePages": 8,
+      "bytes": 842219,
+      "sha256": "9fddb979a97976ea79a0dfac75ab5861cc07852a25550e81063d8e9102df89f6",
       "groupSlugs": [
         "unit-1-end-of-unit-questions"
-      ]
+      ],
+      "supersedes": "units/u1_practice.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [122, 131] -> [123, 130]; next-unit opener page excluded (B1)"
     },
     {
-      "file": "units/u2_practice.pdf",
+      "file": "units/u2_practice.r2.pdf",
       "role": "unit_exam",
       "chapterKey": "u2:xexam-practice",
       "title": "Unit 2 exam practice",
       "pdfRange": [
-        208,
-        215
+        207,
+        214
       ],
       "slicePages": 8,
-      "bytes": 937836,
-      "sha256": "e4499100472d021f49b95e64421bf829f277773f065365b6026b722ccb62d58f",
+      "bytes": 897093,
+      "sha256": "25da1a1fd1e5af18c940ff80e753db373df8ba248897d0e160b1e350424e3dc6",
       "groupSlugs": [
         "unit-2-chemistry-only-skills-pages",
         "unit-2-end-of-unit-questions"
-      ]
+      ],
+      "supersedes": "units/u2_practice.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [208, 215] -> [207, 214]; next-unit opener page excluded (B1)"
     },
     {
-      "file": "units/u3_practice.pdf",
+      "file": "units/u3_practice.r2.pdf",
       "role": "unit_exam",
       "chapterKey": "u3:xexam-practice",
       "title": "Unit 3 exam practice",
       "pdfRange": [
         257,
-        263
+        262
       ],
-      "slicePages": 7,
-      "bytes": 880947,
-      "sha256": "1fd32c3d01915adf07ee1785f08978bff75465bbb3954ffae5193983c82aec06",
+      "slicePages": 6,
+      "bytes": 701959,
+      "sha256": "012bcb3f5ab94e7cdf51bfee6cb0b024cd14729c3ecf8a261e1a8a8f8f931faa",
       "groupSlugs": [
         "unit-3-end-of-unit-questions"
-      ]
+      ],
+      "supersedes": "units/u3_practice.pdf",
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [257, 263] -> [257, 262]; next-unit opener page excluded (B1)"
     },
     {
-      "file": "units/u4_practice.pdf",
+      "file": "units/u4_practice.r2.pdf",
       "role": "unit_exam",
       "chapterKey": "u4:xexam-practice",
       "title": "Unit 4 exam practice",
       "pdfRange": [
         322,
-        329
+        328
       ],
-      "slicePages": 8,
-      "bytes": 793880,
-      "sha256": "8e1eb49ef4e7f9ed0f95ca4b7f1ebb1032262badbdd8f0dc4541cfc96dabe459",
+      "slicePages": 7,
+      "bytes": 691359,
+      "sha256": "b4cfee835fdd2d7012d43a27f3e0f68c89eff484209502464a95f57f455dbbf0",
       "groupSlugs": [
         "unit-4-end-of-unit-questions"
       ],
-      "note": "span includes pdf 329 = the Periodic Table appendix page (book p.320), referenced by the unit questions themselves ('Periodic Table on page 320'); confirmed by ocr_pages/page_329.txt of record"
+      "note": "band 133i boundary correction (census trace 1a15534a152456f1): range [322, 329] -> [322, 328]; next-unit opener page excluded (B1)",
+      "supersedes": "units/u4_practice.pdf"
     }
   ],
   "byRole": {
     "lesson": {
       "count": 29,
-      "pages": 281,
-      "bytes": 39704161
+      "pages": 289,
+      "bytes": 40791038
     },
     "unit_exam": {
       "count": 4,
-      "pages": 33,
-      "bytes": 3728459
+      "pages": 29,
+      "bytes": 3132630
     }
   },
   "totals": {
     "slices": 33,
-    "bytes": 43432620,
+    "bytes": 43923668,
     "biggestSliceBytes": 3684846
   }
 }
