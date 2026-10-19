@@ -4,7 +4,7 @@
   "stage": "r42-regate-check",
   "round": "R42",
   "round_start": "50883f51cd5894eaf3f6b0419cc851bd76d5c8ed",
-  "audited_head": "50883f51cd5894eaf3f6b0419cc851bd76d5c8ed",
+  "audited_head": "85dc4560d45611bf6efb0becefe451072eb3ef1c",
   "store_sha256_16": "14d04dfebb71b849",
   "checks": [
     {
@@ -55,7 +55,7 @@
     {
       "check": "X10_protected_commit_state",
       "ok": true,
-      "detail": "101 protected paths byte-identical 50883f51 -> HEAD (the R40 store + the R30/R31/R32/R33/R34/R35/R36/R37/R38/R39/R40 carriers + records + the R41 re-gate's own files + the CIE rejoin-gate lane's files + the prior verdict records + the resolution + the registry + the ledger + the manifest); pre-commit: delta vs 50883f51 inside the declared 8-file R42 footprint"
+      "detail": "101 protected paths byte-identical 50883f51 -> HEAD (the R40 store + the R30/R31/R32/R33/R34/R35/R36/R37/R38/R39/R40 carriers + records + the R41 re-gate's own files + the CIE rejoin-gate lane's files + the prior verdict records + the resolution + the registry + the ledger + the manifest); committed-clean: HEAD 85dc4560; tree clean but for the check JSON's own regeneration (the audit convention); the committed delta vs HEAD~1 inside the R42 footprint"
     }
   ],
   "passed": 10,
