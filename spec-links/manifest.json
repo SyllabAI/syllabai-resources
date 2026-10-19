@@ -2195,7 +2195,41 @@
    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
   },
-  "state": "SUGGESTED",
-  "note": "index re-join on the pending anchors of the 44 CIE lanes (XJOIN-1 NEXT #1); engine-derived identity-grade text joins, SUGGESTED until the next review/promotion gate (rule 2); record-less pairs stay pending honestly (rule 3)"
+  "state": "ACCEPTED",
+  "note": "index re-join on the pending anchors of the 44 CIE lanes (XJOIN-1 NEXT #1); engine-derived identity-grade text joins, SUGGESTED until the next review/promotion gate (rule 2); record-less pairs stay pending honestly (rule 3)",
+  "gate": "T-SPECS-CIE-REJOIN-GATE-1",
+  "accepted_utc": "2026-10-20T12:00:00Z",
+  "accepted_by": "operator directive 're-join against the index, further re-gates' (gateway trace 1a155ee451def291, 2026-10-20, zai-web)",
+  "verification": {
+   "pairs": 634,
+   "code_entries": 2771,
+   "verified": 634,
+   "failed": 0,
+   "ambiguous_stay_quarantined": 166
+  }
+ },
+ "cie_rejoin_gate": {
+  "gate": "T-SPECS-CIE-REJOIN-GATE-1",
+  "state": "ACCEPTED",
+  "accepted_utc": "2026-10-20T12:00:00Z",
+  "accepted_by": "operator directive 're-join against the index, further re-gates' (gateway trace 1a155ee451def291, 2026-10-20, zai-web)",
+  "fires": "T-SPECS-CIE-REJOIN-1 record NEXT #1",
+  "base_commit": "0fe5f77210f74aaeb3f6c491dfe0263d12db738c",
+  "gateway_trace": "1a155ee451def291",
+  "lanes": 22,
+  "tier_policy": {
+   "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+   "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+   "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+   "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+  },
+  "verification": {
+   "pairs": 634,
+   "code_entries": 2771,
+   "verified": 634,
+   "failed": 0,
+   "ambiguous_stay_quarantined": 166
+  },
+  "note": "the R41-shaped re-gate of the re-join chain (REJOIN-1 NEXT #1): all 634 identity-grade resolutions independently re-fired and verified 634/634 before promotion; the 166 quarantines stay out; items/codes/pending/anchors byte-preserved (K2 deep-equal); record-less pairs stay pending honestly (AGENT.md rule 3)"
  }
 }

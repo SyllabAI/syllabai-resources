@@ -28,8 +28,18 @@
     "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
     "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
    },
-   "state": "SUGGESTED",
-   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+   "state": "ACCEPTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved",
+   "gate": "T-SPECS-CIE-REJOIN-GATE-1",
+   "accepted_utc": "2026-10-20T12:00:00Z",
+   "accepted_by": "operator directive 're-join against the index, further re-gates' (gateway trace 1a155ee451def291, 2026-10-20, zai-web)",
+   "verification": {
+    "pairs": 634,
+    "code_entries": 2771,
+    "verified": 634,
+    "failed": 0,
+    "ambiguous_stay_quarantined": 166
+   }
   }
  },
  "registry": {
