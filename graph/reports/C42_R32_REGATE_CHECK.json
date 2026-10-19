@@ -1,0 +1,64 @@
+{
+  "schema": "c42-r32-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r32-regate-check",
+  "round": "R32",
+  "round_start": "bd3acc1",
+  "audited_head": "3a5439f9f6d3ab388331fc4e9076817cc31a7b0c",
+  "store_sha256_16": "4aeb73e1575f9586",
+  "checks": [
+    {
+      "check": "X1_input_pins",
+      "ok": true,
+      "detail": "store sha16 4aeb73e1575f9586 == the R31 landing; census 917 = 835 anchored (831 HV) + 82 worklist; covered 133; amendment 5+3+3; fresh 7; promotions sha 9bad739bd79e5899 == the R5 record's pin"
+    },
+    {
+      "check": "X2_anti_forgery",
+      "ok": true,
+      "detail": "the 831-row HV set == the R5 file AMENDED by the R26+R30 amendments + the 3 ADDED sign-offs, by chunk identity; provenance tiers RULE_DERIVED everywhere"
+    },
+    {
+      "check": "X3_sampling_agreement",
+      "ok": true,
+      "detail": "seed 9a1b3b42fd827f35 re-derives; strata {'exact': 465, 'partial': 238, 'none': 132}; sample 463 = ceil(20%) exact + 100% low-assurance (the C40 convention)"
+    },
+    {
+      "check": "X4_verdict_record_agreement",
+      "ok": true,
+      "detail": "the emitted record == the fill record's totals (463 rows; exact/partial/none 93/238/132); both-tier signatures present on every row; the 7 fresh rows match the fresh yaml verbatim"
+    },
+    {
+      "check": "X5_mechanical_replay",
+      "ok": true,
+      "detail": "all 463 sampled rows re-verified against a fresh re-chunking (quote-in-chunk + sha/heading/identity); 0 fails"
+    },
+    {
+      "check": "X6_source_chain_integrity",
+      "ok": true,
+      "detail": "every r29-carried row triple-identical in the R29 record; the r30-section-override rows verified against the R30 map; the r30-signoff rows verified against the amendment's added block"
+    },
+    {
+      "check": "X7_both_tier_discipline",
+      "ok": true,
+      "detail": "DIVERGENT 0 across 463 sampled rows ({'STORE_HIGHER': 414, 'LEDGER_FOUNDATION': 49}); every LEDGER_FOUNDATION row sits on a code present in the C30 ledger"
+    },
+    {
+      "check": "X8_part_b_surfaces",
+      "ok": true,
+      "detail": "the worklist census == 82 decisions (7 demote-landed + 18 cleared + 57 residual, the R29 decisions carried); the 7 DEMOTE rows (R10 + R14 + R18 + R26 + the R30 batch of 3) verified SUGGESTED, no promotion blocks"
+    },
+    {
+      "check": "X9_gate_arithmetic_zero_movement",
+      "ok": true,
+      "detail": "per-class precisions recompute == recorded (exact 98.9% / partial 100.0% / none 100.0%); the 90% gate holds; the store bytes UNCHANGED from the R31 landing (zero movement — the re-gate lane is store-free)"
+    },
+    {
+      "check": "X10_protected_commit_state",
+      "ok": true,
+      "detail": "22 protected paths byte-identical bd3acc1 -> HEAD (the R31 store + the R30/R31 carriers + records + the prior verdict records + the resolution + the registry + the ledger); committed-clean: HEAD 3a5439f9; tree clean; the committed delta vs HEAD~1 inside the R32 footprint"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "result": "ALL PASS"
+}

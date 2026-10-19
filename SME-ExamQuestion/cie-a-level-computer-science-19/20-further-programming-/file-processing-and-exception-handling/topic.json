@@ -1,0 +1,1013 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:57:00Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "20-further-programming-",
+  "name": "20. Further Programming"
+ },
+ "topic": {
+  "id": "top_mnQW3ZQgQp7HQbDW",
+  "slug": "file-processing-and-exception-handling",
+  "name": "File Processing & Exception Handling",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "file-handling",
+   "name": "File Handling",
+   "revision_note_id": "rn_gYWVW6pg6pGDpnN7"
+  },
+  {
+   "slug": "exception-handling",
+   "name": "Exception Handling",
+   "revision_note_id": "rn_mr8Zz9FRbsBsSH55"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_vyd3fkj7CTxynnvt",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/20-further-programming-/file-processing-and-exception-handling/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_8VYNVqjx7Fkhcx7K",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QRqpq8XbrcmJMgxC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop stores data about its stock in the random file `Stock.dat`. The file holds exactly 500 records, at positions 1 to 500. Each record uses this user-defined data type.\n\nA procedure `Restock()` is needed. The procedure:\n\n- takes one parameter of type integer, `Amount`\n- checks every record in the file\n- for each item whose quantity is less than its reorder level, adds `Amount` to the quantity and writes the updated record back to the same position in the file\n- outputs the number of records that were updated, after all the records have been checked.\n\nWrite pseudocode for the procedure `Restock()`.",
+     "solution_md": "Procedure heading with an integer parameter, and `ENDPROCEDURE` **[1]**\n\nFile opened in `RANDOM` mode before the loop and closed after it **[1]**\n\nLoop through positions 1 to 500 **[1]**\n\n`SEEK` to the position, then `GETRECORD` into a `TItem` variable, in the loop **[1]**\n\nQuantity compared with reorder level, and `Amount` added **[1]**\n\n`SEEK` the same position and `PUTRECORD` the updated record **[1]**\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **Any six from:**\n> \n> - MP1 Procedure heading with an integer parameter, and `ENDPROCEDURE`\n> - MP2 `OPENFILE \"Stock.dat\" FOR RANDOM` and subsequent `CLOSEFILE \"Stock.dat\"`\n> - MP3 Loop for positions 1 to 500\n> - MP4 `SEEK` to the loop position and `GETRECORD` into a variable of type `TItem`, in the loop\n> - MP5 Test `ThisItem.Quantity < ThisItem.ReorderLevel` and add `Amount` to `Quantity`, in the loop\n> - MP6 `SEEK` the same position and `PUTRECORD` the updated record, in the loop\n> - MP7 Count initialised to 0, incremented for each updated record, and output after the loop\n> \n> **[6 marks]**\n> \n> Accept a conditional loop that counts from 1 to 500\n> \n> Accept the file name held in a variable or constant\n> \n> Accept `PUTRECORD` for every record, not only the updated ones, as long as `Quantity` is changed only when the test is true\n> \n> Do not accept `READFILE` or `WRITEFILE` for MP4 or MP6: these read and write lines of a text file, not records\n> \n> Do not accept a test of \"less than or equal to\" for MP5: an item exactly at its reorder level is not below it\n\n> **[exam-tip]**\n> The mark most often lost here is MP6. Adding `Amount` to `ThisItem.Quantity` changes only the copy of the record in memory. Unless the record is written back with `PUTRECORD` at the same position, the file is exactly as it was.\n> \n> Also watch where the file is opened and closed. Opening it inside the loop, or closing it before the loop ends, means the file is not open for the next `GETRECORD`."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rg35MZygWsnm2Gtb",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Mfq8RyP2S2JNBKV5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A sports centre has 60 lockers. The random file `Lockers.dat` stores one record for each locker. The record for locker number 1 is at position 1, the record for locker number 2 is at position 2, and so on.\n\nEach record uses this user-defined data type.\n\nThis pseudocode algorithm assigns a locker to a member. It reads the record for the locker, changes it, and writes it back to the same position in the file.\n\nComplete the file handling pseudocode.",
+     "solution_md": "Opening the file: `OPENFILE LockerFile FOR RANDOM` **[1]**\n\nReading the record: `GETRECORD LockerFile, ThisLocker` **[1]**\n\nReturning to the record's position: `SEEK LockerFile, LockerNum` **[1]**\n\nWriting the changed record back: `PUTRECORD LockerFile, ThisLocker` **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each correctly completed line (max 4)\n> \n> Accept `\"Lockers.dat\"` in place of `LockerFile` in any line\n> \n> Do not accept `READ`, `WRITE` or `APPEND` as the file mode: records are read and written at a chosen position, which needs `RANDOM` mode\n> \n> Do not accept `READFILE` or `WRITEFILE`: these are text file commands\n\n> **[exam-tip]**\n> Changing `ThisLocker` changes only the copy in memory. The file does not change until `PUTRECORD` writes the record back, and a common error is to stop after the assignment and leave the file untouched.\n> \n> Always `SEEK` to the position again before `PUTRECORD`, exactly as Cambridge's own random file examples do before every `GETRECORD` and `PUTRECORD`. Then the record is certain to go back to the place it came from."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fn4nBm9kfgprtWVy",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_hkwcBZNCkHVvrjQP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A club stores data about its members in the random file `Members.dat`. Each record uses the user-defined data type `TMember`.\n\nThe file has already been opened in `RANDOM` mode. The variable `ThisMember` has been declared as type `TMember`.\n\nWrite **two** pseudocode statements to read the record at position 12 of the file into `ThisMember`.",
+     "solution_md": "The `SEEK` statement moves the file pointer to position 12 **[1]**\n\nThe `GETRECORD` statement reads the record at the file pointer into `ThisMember` **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SEEK \"Members.dat\", 12`\n> \n> **1 mark** for `GETRECORD \"Members.dat\", ThisMember`, after the `SEEK`\n> \n> Do not accept `READFILE \"Members.dat\", ThisMember`: `READFILE` reads one line of a text file, not a record from a random file\n> \n> Do not accept `GETRECORD` before `SEEK`: the record read would be the one at the old file pointer position\n\n> **[exam-tip]**\n> Learn the exact order of the two items after each command. The file name always comes first, then a comma, then the position for `SEEK` or the variable for `GETRECORD`. Students who write `GETRECORD ThisMember, \"Members.dat\"` or `SEEK 12` lose the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pRNK477vrVj7xTmt",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3zw3QpDQRb9MyBTt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "The random file `Products.dat` stores one record at each position. Each record uses the user-defined data type `TProduct`. Only the `ProductCode` field is shown in the table.\n\nPositions 1 to 5 hold records and position 6 is empty. The variable `NewItem` already holds a complete record with the `ProductCode` \"P999\".\n\nA programmer wants to move the records at positions 2 to 5 up by one position each, and then insert `NewItem` at position 2. The programmer writes this pseudocode.\n\nComplete the table to show the `ProductCode` at each position after the pseudocode has run. Then explain why the pseudocode does not do what the programmer intended, and state the change needed to the `FOR` statement.\n\n| Position | ProductCode before | ProductCode after |\n|---|---|---|\n| 1 | A101 |   |\n| 2 | B202 |   |\n| 3 | C303 |   |\n| 4 | D404 |   |\n| 5 | E505 |   |\n| 6 | (empty) |   |",
+     "solution_md": "| Position | ProductCode before | ProductCode after |\n|---|---|---|\n| 1 | A101 | **A101** |\n| 2 | B202 | **P999** |\n| 3 | C303 | **B202** |\n| 4 | D404 | **B202** |\n| 5 | E505 | **B202** |\n| 6 | (empty) | **B202** |\n\nPositions 1 and 2 hold A101 and P999 **[1]**\n\nPositions 3, 4, 5 and 6 all hold B202 **[1]**\n\nThe loop works upwards from position 2, so each record is copied over the next record before that record has been moved. B202 is copied into every later position and C303, D404 and E505 are lost **[1]**\n\nThe loop must work downwards from the last record, for example `FOR Position ← 5 TO 2 STEP -1` **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for positions 1 and 2 correct: A101, P999\n> \n> **1 mark** for positions 3 to 6 all correct: B202\n> \n> **1 mark** for the explanation: a record is overwritten before it has been moved // B202 is copied forward into every later position // C303, D404 and E505 are overwritten and lost\n> \n> **1 mark** for the change: the loop counts down from 5 to 2, for example `FOR Position ← 5 TO 2 STEP -1`\n> \n> Accept a description of the change, for example \"start the loop at 5 and go down to 2\"\n> \n> Do not accept `FOR Position ← 2 TO 5 STEP -1`: a loop from 2 to 5 with a negative step does not work from the last record down\n> \n> Do not accept a change that starts at 6: position 6 is empty, and copying it to position 7 does not move any record\n\n> **[exam-tip]**\n> Students often assume the code works because every line is a correct file command. Trace the file itself, one iteration at a time, and write down what each position holds after every `PUTRECORD`. The overwrite shows up on the very first pass.\n> \n> To make space in a file, always move the record furthest from the gap first. The Cambridge Pseudocode Guide's own example of inserting a record uses a loop with `STEP -1` for exactly this reason."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4s2bMRfV2vg4FN8C",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_tCgCtsTgBYWJRktM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "A hotel stores one record for each room in the random file `Rooms.dat`. Each record uses the user-defined data type `TRoom`.\n\nThis pseudocode changes the status of one room.\n\nDescribe the purpose of each of these commands in the pseudocode:\n\n- `SEEK`\n- `GETRECORD`\n- `PUTRECORD`",
+     "solution_md": "`SEEK` moves the file pointer directly to record position 14 (the value of `RoomPosition`) in `Rooms.dat` **[1]**\n\n`GETRECORD` reads the record at the file pointer and assigns it to the variable `ThisRoom` **[1]**\n\n`PUTRECORD` writes the data in `ThisRoom` into the file at the file pointer, replacing the record that was stored there, so the file now holds the new status **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `SEEK`: moves the file pointer to the position / location / address given (record 14)\n> \n> **1 mark** for `GETRECORD`: reads the record at the file pointer into the variable `ThisRoom`\n> \n> **1 mark** for `PUTRECORD`: writes the record in `ThisRoom` to the file at the file pointer, replacing / overwriting the data that was there\n> \n> Accept \"record number 14\" or \"the 14th record\" for the position\n> \n> Do not accept \"`SEEK` searches the file for the room\": `SEEK` does not compare any values, it goes straight to the position it is given\n> \n> Do not accept \"`PUTRECORD` adds a new record to the end of the file\": it replaces the record at the file pointer\n\n> **[exam-tip]**\n> Many students read `SEEK` as \"search\" and describe a loop that checks each record in turn. No checking happens. The program already knows the position, and `SEEK` moves there in one step.\n> \n> Also keep the text file and random file commands apart. `READFILE` reads the next line of a text file; `GETRECORD` reads one whole record, with all its fields, from the position the file pointer is at."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zdx9X98X4b8MVNvv",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yd6ZTMvP8jpPFCPv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "A program uses four different files. For each task, complete the table by writing the file mode that the `OPENFILE` statement must use.\n\n| Task | File mode |\n|---|---|\n| Add a new line of text to the end of an existing log file, keeping the lines already in it |   |\n| Go directly to record 250 in a file of fixed-length records and replace that record |   |\n| Output every line of a text file of product names, in order |   |\n| Create a new text file to hold today's results, replacing any file with the same name |   |",
+     "solution_md": "| Task | File mode |\n|---|---|\n| Add a new line of text to the end of an existing log file, keeping the lines already in it | **APPEND** |\n| Go directly to record 250 in a file of fixed-length records and replace that record | **RANDOM** |\n| Output every line of a text file of product names, in order | **READ** |\n| Create a new text file to hold today's results, replacing any file with the same name | **WRITE** |\n\nTwo correct rows **[1]**\n\nAll four rows correct **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for any two rows correct\n> \n> **1 mark** for all four rows correct\n> \n> Accept the modes in lower case, for example append, random, read, write\n> \n> Do not accept `WRITE` for the log file: `WRITE` mode creates a new file, so every line already in the log is lost\n> \n> Do not accept `READ` or `WRITE` for record 250: the record must be read and then written back at the same position, and only `RANDOM` mode allows a record to be read or written at any position in the file\n\n> **[exam-tip]**\n> The most common error is writing `WRITE` for \"add a line to an existing file\". `WRITE` always starts an empty file, and `APPEND` is the mode that keeps the old data and adds after it.\n> \n> A file is opened in only one mode at a time. If a task needs to both read and replace a record in the middle of a file, the answer is `RANDOM`, not \"READ and WRITE\"."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3m8x8CkVwRdSwQvN",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_q3BdvfzTDp8hGvY3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fSKbbshqWdC8Mnnz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program uses this pseudocode to find the average of some readings entered by a user. Line numbers are shown on the left.\n\nIdentify **three** different line numbers where an exception could occur when this pseudocode is run.\n\nFor each line, describe an event that would cause the exception.",
+     "solution_md": "Three lines, each with a matching event, for example:\n\n| Line number | Event that causes the exception |\n|---|---|\n| **04** **[1]** | **The file Location.txt does not exist or cannot be found** **[1]** |\n| **11** **[1]** | **The user input 21 or more at line 08, so Index reaches 21 and Readings[21] is outside the array bounds** **[1]** |\n| **14** **[1]** | **The user input 0 at line 08, so the program attempts to divide by zero** **[1]** |\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> For each of three different lines (maximum 3 lines):\n> \n> **1 mark** for a line number where an exception could occur\n> \n> **1 mark** for an event that would cause the exception on that line\n> \n> Accepted lines and events\n> \n> Line 04: the file does not exist // is not found // the file name is wrong // the storage device fails (hardware failure)\n> \n> Line 05: the file is empty, so there is no line to read // the end of the file has been reached // the storage device fails (hardware failure)\n> \n> Line 08: the user inputs data of the wrong type // a non-integer, for example letters or 2.5\n> \n> Line 11: the value of NumReadings is greater than 20, so the array index goes out of bounds // the user inputs data of the wrong type for a reading\n> \n> Line 14: NumReadings is 0, so there is a divide by zero\n> \n> The event mark can only be awarded for an event that matches the line number given\n> \n> Do not accept line 12 for the out-of-bounds event: the exception occurs at line 11, which accesses the missing element first, so line 12 is never reached\n> \n> Do not accept line 10 for a negative number of readings: the loop runs zero times and no exception occurs. A negative value also gives no exception at line 14, because only 0 causes a divide by zero\n\n> **[exam-tip]**\n> Trace what the program does with an unusual value before you claim an exception. A common mistake is to say that a negative number of readings breaks the loop at line 10. It does not: a count-controlled loop from 1 to -3 simply runs zero times.\n> \n> Choose the line where the problem first happens. If the user asks for 25 readings, the error happens at line 11, when the program tries to store a value in Readings[21]. Line 12 would use that element too, but the program never gets there."
+    }
+   ]
+  },
+  {
+   "id": "qstn_h93QrtYYBYGM5cYX",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_3mKmV6mRCfmQN6RK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fSKbbshqWdC8Mnnz"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station program runs every hour. It reads the temperature readings stored in a text file on a separate storage device. It calculates the mean of the readings and displays the result on a screen in a public building.\n\nExplain why exception handling should be used in this program.",
+     "solution_md": "While the program is running, the text file might not be found, or the storage device that holds it might fail **[1]**\n\nException handling would trap this run-time error, so the program does not halt unexpectedly and the screen keeps working **[1]**\n\nIt would also let the program output a meaningful error message, for example \"Temperature file not found\", instead of stopping with no explanation **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - An exception is an unexpected event that happens while the program is running // an event that disrupts the normal flow of instructions\n> - An example of an exception in this program: the file is not found // the storage device fails // hardware failure // the file is empty, so the mean calculation attempts to divide by zero // the end of the file is reached unexpectedly\n> - Exception handling traps (some) run-time errors // responds to the unexpected event\n> - It prevents the program halting unexpectedly // the program can continue running and the display is not left blank\n> - It allows a meaningful error message to be produced\n> \n> **[3 marks]**\n> \n> Maximum 2 marks if no point refers to this program, for example the file, the storage device or the mean calculation\n\n> **[exam-tip]**\n> Do not confuse exception handling with validation. Validation checks data that a user inputs. It cannot stop a file going missing or a storage device failing while the program runs. Those are the events exception handling exists for.\n> \n> \"Explain why\" needs reasons, not just a definition. Give an exception that could happen in this program, then say what handling it achieves: the program does not halt unexpectedly, and it gives a meaningful error message."
+    }
+   ]
+  },
+  {
+   "id": "qstn_dRVwBf2CMWPHkxTD",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_zDTc62g2Jy6PvBq3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fSKbbshqWdC8Mnnz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program asks the user to input two whole numbers. It then divides the first number by the second number and outputs the result.\n\nIdentify **two** different exceptions that could be caused by the data the user inputs while this program is running.",
+     "solution_md": "The user inputs 0 as the second number, so the program attempts to divide by zero **[1]**\n\nThe user inputs data of the wrong type, for example letters instead of a whole number **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for divide by zero // the second number input is 0\n> \n> **1 mark** for an input of the wrong data type // a non-numeric input, for example typing \"ten\" when a whole number is expected\n> \n> Accept \"division by zero error\" or \"a run-time error caused by dividing by 0\" for the first point\n> \n> Accept \"user error, typing an incorrect data type\" for the second point\n> \n> Do not accept \"syntax error\": a syntax error stops the program being translated, so it never runs and no exception can occur\n> \n> Do not accept \"logic error\": a logic error gives a wrong result but does not interrupt the program\n> \n> Do not award two marks for two versions of the same exception, for example \"dividing by 0\" and \"the second number is zero\"\n\n> **[exam-tip]**\n> Name the event that causes the exception, not what happens afterwards. \"The program crashes\" or \"the program stops\" is the result of an exception that is not handled, so it earns no mark on its own.\n> \n> Make your two answers genuinely different. Both marks here come from two different inputs: a zero, and data of the wrong type."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8JjmpXJpGR8vyCjf",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_ySSG7Q7Kc7D6KYvh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Describe, with an example, what is meant by an **exception**.",
+     "solution_md": "**One **mark for description, for example:\n\nAn exception is an event that occurs during the execution of a program that\n\ndisrupts the normal flow of instructions / causes the program to halt execution\n\n**One **mark for example:\n\n- Hardware failure // hard disk crash\n- Programming error // trying to access out-of-bounds array element // divide by zero error // runtime error\n- User error // typing incorrect filename / data type"
+    },
+    {
+     "id": "qstnprt_KzhrwXd4JyDc49FH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 12,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A pseudocode algorithm searches for a customer record in a random file `AccountRecord.dat`. A user inputs the name of the customer.\n\nThe records are stored using the user‑defined data type `TAccount`.\n\n`TYPE TAccount`\n\n`    DECLARE AccountNumber : INTEGER`\n\n`    DECLARE Name : STRING`\n\n`    DECLARE Address : STRING`\n\n`    DECLARE Telephone : STRING`\n\n`ENDTYPE`\n\nIf the record is found, it is output, otherwise an error message is displayed.\n\nComplete the file handling pseudocode.\n\n`DECLARE Customer : TAccount`\n\n`DECLARE Location : INTEGER`\n\n`DECLARE MaxSize : INTEGER`\n\n`DECLARE FoundFlag : BOOLEAN`\n\n`DECLARE SearchCustomer : STRING`\n\n`MaxSize `$\\leftarrow$`1000`\n\n`OPENFILE ...............................................................................................................`\n\n`Location `$\\leftarrow$ `1`\n\n`............................................................................................................... `$\\leftarrow$ `FALSE`\n\n`OUTPUT \"Enter the customer’s name\"`\n\n`...............................................................................................................`\n\n`................................................................................... AND Location <= MaxSize`\n\n`................................... \"AccountRecord.dat\", ............................................`\n\n`GETRECORD \"AccountRecord.dat\", Customer`\n\n`IF SearchCustomer = Customer.Name THEN`\n\n`    OUTPUT \"Customer found: \"`\n\n`    OUTPUT Customer // output customer record`\n\n`    FoundFlag `$\\leftarrow$ `TRUE`\n\n`ENDIF`\n\n`Location `$\\leftarrow$` Location + 1`\n\n`ENDWHILE`\n\n`IF NOT FoundFlag THEN`\n\n`    OUTPUT \"..........................................................................................................\"`\n\n`ENDIF`",
+     "solution_md": "One mark for each correctly completed blank (Max 7)\n\n`DECLARE Customer : TAccount`\n\n`DECLARE Location : INTEGER`\n\n`DECLARE MaxSize : INTEGER`\n\n`DECLARE: FoundFlag : BOOLEAN`\n\n`DECLARE SearchCustomer : STRING`\n\n`MaxSize `$\\leftarrow$` 1000`\n\n`OPENFILE \"AccountRecord.dat\" FOR RANDOM`\n\n`Location  `$\\leftarrow$` 1`\n\n`FoundFlag  `$\\leftarrow$` FALSE`\n\n`OUTPUT \"Enter the customer’s name\"`\n\n`INPUT SearchCustomer`\n\n`WHILE NOT FoundFlag AND Location <= MaxSize`\n\n`    SEEK \"AccountRecord.dat\", Location`\n\n`    GETRECORD \"AccountRecord.dat\", Customer`\n\n`    IF SearchCustomer = Customer.Name THEN`\n\n`        OUTPUT \"Customer found: \"`\n\n`        OUTPUT Customer`\n\n`        FoundFlag  TRUE`\n\n`    ENDIF`\n\n`    Location  `$\\leftarrow$` Location + 1`\n\n`ENDWHILE`\n\n`IF NOT FoundFlag THEN`\n\n`    OUTPUT \"Customer does not exist.\"`\n\n`ENDIF`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qhqQjww5ZgjkF52T",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_m35gQnW63Zk8dwSW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A pseudocode algorithm finds a customer account record in a random file and outputs it. The records are stored using the user-defined data type `TAccount`.\n\n`TYPE TAccount`\n\n`    DECLARE AccountNumber   : INTEGER`\n\n`    DECLARE LastName        : STRING`\n\n`    DECLARE FirstName       : STRING`\n\n`    DECLARE Address         : STRING`\n\n`    DECLARE ContactNumber   : STRING`\n\n`ENDTYPE`\n\nComplete the file handling pseudocode.\n\nThe function `Hash() `takes the customer account number as a parameter, calculates and returns the hash value.\n\n`DECLARE Customer : TAccount`\n\n`DECLARE Location : INTEGER`\n\n`DECLARE AccountFile : STRING`\n\n`.................................................................................................. `$\\leftarrow$`\"AccountRecords.dat\"`\n\n`............................................................... AccountFile ..........................................................`\n\n`OUTPUT \"Please enter an account number\"`\n\n`INPUT Customer.AccountNumber`\n\n`Location `$\\leftarrow$` Hash( .............................................................................................................. )`\n\n`SEEK ..................................................................................................................... , Location`\n\n`............................................................. AccountFile, ..........................................................`\n\n`OUTPUT Customer  // output customer record`\n\n`CLOSEFILE AccountFile`",
+     "solution_md": "**One **mark for each correctly completed line **(Max 5)**\n\n`DECLARE Customer : TAccount`\n\n`DECLARE Location : INTEGER`\n\n`DECLARE AccountFile : STRING`\n\n`AccountFile `$\\leftarrow$` \"AccountRecords.dat\"`\n\n`OPENFILE AccountFile FOR RANDOM`\n\n`OUTPUT \"Please enter an account number\"`\n\n`INPUT Customer.AccountNumber`\n\n`Location `$\\leftarrow$` Hash(Customer.AccountNumber)`\n\n`SEEK AccountFile, Location`\n\n`GETRECORD AccountFile, Customer`\n\n`OUTPUT Customer`\n\n`CLOSEFILE AccountFile`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mBCf9S3dFWbFkpNv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fSKbbshqWdC8Mnnz"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term **exception handling**.",
+     "solution_md": "One mark for correct definition\n\n(Exception handling is the process of) responding to an unexpected event when the program is running so it does not halt unexpectedly"
+    },
+    {
+     "id": "qstnprt_8JKYcqRP9XqVSqCV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_fSKbbshqWdC8Mnnz"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **possible causes of an exception.",
+     "solution_md": "**One **mark per mark point (**Max 2**), for example:\n\n- Programming errors\n- User errors\n- Hardware failure\n- Runtime errors"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rf3fzNk8PtrdkJXz",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_n8dqN6mWTTYX2NsY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YqckDNpBf2DVyRcM",
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A class of students are developing a program to send data between computers. Many computers are connected together to form a wired network. Serial ports are used to connect one computer to another.\n\nEach computer:\n\n- is assigned a unique three-digit ID\n- has three ports, each identified by an integer value\n- is connected to between one and three other computers.\n\nMessages are sent between computers as a string of characters organised into fields as shown:\n\n<STX><DestinationID><SourceID><Data><ETX>\n\n| Field name | Description |\n|---|---|\n| STX | a single character marking the start of the message (ASCII value 02) |\n| DestinationID | three numeric characters identifying the destination computer |\n| SourceID | three numeric characters identifying the source computer |\n| Data | a variable length string containing the data being sent (Minimum length is 1 character) |\n| ETX | a single character marking the end of the message (ASCII value 03) |\n\nFor example, the following message contains the data \"Hello Jack\" being sent from computer \"202\" to computer \"454\":\n\n`<STX> \"454202Hello Jack\" <ETX>`\n\nEach computer will run a copy of the same program. Each program will contain a global variable MyID of type string which contains the unique ID of the computer in which the program is running.\n\nThe first two program modules are defined as follows:\n\n| Module | Description |\n|---|---|\n| `GetData()` (already written) | - returns the data field from a message that has been received<br>- If no message is available, the module waits until one has been received. |\n| `ReceiveFile()` | - takes a file name as a parameter of type string<br>- creates a text file with the given file name (no checking required)<br>- writes the data field returned by GetData() to the file<br>- repeats until the data field is \"****\", which is not written to the file<br>- outputs a final message giving the total number of characters written to the file, for example: `132456 characters were written to newfile.txt` |\n\nWrite pseudocode for module `ReceiveFile()`.\n\nModule GetData() has already been written and must be used.",
+     "solution_md": "`PROCEDURE ReceiveFile(FileName : STRING)`\n\n`    DECLARE FileData : STRING`\n\n`    DECLARE CharCount : INTEGER`\n\n`    CONSTANT Terminator = \"****\"`\n\n`    OPENFILE FileName FOR WRITE`\n\n`    FileData ← GetData()`\n\n`    CharCount ← 0`\n\n`    WHILE FileData <> Terminator`\n\n`        WRITEFILE FileName, FileData`\n\n`        CharCount ← CharCount + LENGTH(FileData)`\n\n`        FileData ← GetData()`\n\n`    ENDWHILE`\n\n`    CLOSEFILE FileName`\n\n`    OUTPUT CharCount (, \" characters were written to \", FileName)`\n\n`ENDPROCEDURE`\n\nMark as follows:\n\nMP1 OPEN file in WRITE mode and subsequently CLOSE \nMP2 Conditional loop until terminator received \nMP3 ‘Attempted’ use of GetData() – Ignore CALL … \nMP4 Fully correct use GetData()to return the data in a loop \nMP5 Maintain CharCount in a loop \nMP6 Write each line to the file - except the terminator in a loop \nMP7 Final output of message giving number of characters written outside loop"
+    },
+    {
+     "id": "qstnprt_wwY5mh7mJ8stN5BS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "The use of the string \"****\" as explained in the module description for ReceiveFile() may cause a problem.\n\nExplain the problem and suggest a solution.\n\nProblem .....................................................\n\nSolution ........................................................",
+     "solution_md": "### Max 3 marks\n\n**Problem:**\n\n- If the file being sent contains a line equal to `\"****\"`\n- Then the file written by `ReceiveFile()` will stop at that line and any subsequent lines will be lost.\n\n**Solution:**\n\n- Read the file at the sending end to count how many lines it contains.\n- Send an initial message containing the number of lines to be transmitted.\n\n**Alternative Solution:**\n\n- The transmitter chooses a different terminator string/character that does *not* occur anywhere in the file.\n- The transmitter sends this unique terminator *before* sending the first line of the file / before the transfer begins."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hkCh8V4gFXnJy5qF",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_R5Tttd9kg35WdWFc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/22",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YqckDNpBf2DVyRcM",
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A procedure CreateFiles() will take two parameters:\n\n- a string representing a file name\n- an integer representing the number of files to be created.\n\nThe procedure will create the number of text files specified.\n\nEach file is given a different name. Each file name is formed by concatenating the file name with a suffix based on the file number. The suffix is always three characters.\n\nFor example, the call `CreateFiles(\"TestData\", 3)` would result in the creation of the three files, TestData.001, TestData.002 and TestData.003.\n\nEach file will contain a single line. For example, file TestData.002 would contain the string:\n\n`This is File TestData.002 `\n\nWrite pseudocode for `CreateFiles()`.\n\nAssume both parameters are valid and that the integer value is between 1 and 999, inclusive.",
+     "solution_md": "> **[mark-scheme]**\n> Example Solution\n> \n> `PROCEDURE CreateFiles(NameRoot : STRING, NumFiles : INTEGER)`\n> \n> `    DECLARE FileName, Suffix : STRING`\n> \n> `    DECLARE Count : INTEGER`\n> \n> `    FOR Count  1 TO NumFiles`\n> \n> `        Suffix  NUM_TO_STR(Count)`\n> \n> `        WHILE LENGTH(Suffix) <> 3`\n> \n> `            Suffix  '0' & Suffix`\n> \n> `        ENDWHILE`\n> \n> `        FileName  NameRoot & '.' & Suffix`\n> \n> `        OPENFILE FileName FOR WRITE`\n> \n> `        WRITEFILE FileName, \"This is File \" & FileName`\n> \n> `        CLOSEFILE FileName`\n> \n> `    NEXT Count`\n> \n> `ENDPROCEDURE`\n> \n> **Mark as follows:**\n> \n> 1. Procedure heading, including parameters, and ending\n> 2. Loop for `NumFiles `iterations\n> 3. Attempt to create **filename suffix** using NUM_TO_STR() **in a loop**\n> 4. Completely correct filename\n> 5. `OPENFILE `in `WRITE `mode and subsequent `CLOSE `**in a loop**\n> 6. `WRITE `initial first line to the file** in a loop**"
+    },
+    {
+     "id": "qstnprt_rX3pG73ztQ8gcR7N",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A module CheckFiles() will count the number of files produced by CreateFiles() in part (a).\n\nCheckFiles() will take a string representing a file name and return the number of files found.\n\nState the file mode that should be used in `CheckFiles()`.",
+     "solution_md": "> **[mark-scheme]**\n> Read"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XwZvKc2p3VMQFhQX",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_XMsJxGzFn7z8Rwcv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw",
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "A new module is required:\n\n| Module | Description |\n|---|---|\n| FindModules() | - called with a parameter of type string representing a student project file name<br>- uses module Header() to check each line of the project<br>- assigns values to the ModInfo array for each module declaration in the student project |\n\nAs a reminder, the previous example of part of the array is repeated below:\n\n|   | x = 1 | x = 2 | x = 3 |\n|---|---|---|---|\n| ModInfo[10, x] | \"27\" | \"P\" | \"MyProc(Z : CHAR)\" |\n| ModInfo[11, x] | \"35\" | \"F\" | \"MyFun(Y : CHAR) RETURNS BOOLEAN\" |\n\nWrite pseudocode for module `FindModules()`.\n\nAssume that the array contains enough rows for the number of modules in each project.",
+     "solution_md": "Example:\n\n`PROCEDURE FindModules(FileName : STRING)`\n\n` DECLARE Line : STRING`\n\n` DECLARE Index, LineNum : INTEGER`\n\n` OPENFILE FileName FOR READ`\n\n` Index  1`\n\n` LineNum  0`\n\n` WHILE NOT EOF(FileName)`\n\n`  READFILE FileName, Line`\n\n`  LineNum  LineNum + 1`\n\n`  Line  Header(Line)`\n\n`  IF Line <> \"\" THEN`\n\n`   ModInfo[Index, 1]  NUM_TO_STR(LineNum)`\n\n`   ModInfo[Index, 2]  LEFT(Line, 1)`\n\n`   ModInfo[Index, 3]  RIGHT(Line, LENGTH(Line) - 1)`\n\n`   Index  Index + 1`\n\n`  ENDIF`\n\n` ENDWHILE`\n\n` CLOSEFILE FileName`\n\n`ENDPROCEDURE`\n\nMark as follows:\n\n1 Open file in `READ `mode **and **subsequently close\n\n2 Loop to `EOF(FileName)`\n\n3 Read a line from the file and maintain LineNum **in a loop**\n\n4 Call `Header()` and use return value** in a loop**\n\n5 Test return value for \"\" **in a loop**\n\n6 Attempt at all three-array assignment for all columns in correct row\n\n7 Correct values assigned to all columns of array\n\n8 Maintain correct array row index"
+    }
+   ]
+  },
+  {
+   "id": "qstn_g9rdqZ5k73XVFTrs",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_wcpkC6bbzjwX5T25",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/23",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A program uses a global 1D array of type string and a text file.\n\nAn algorithm that forms part of the program is expressed as follows:\n\n- copy the first line from the file into the first element of the array\n- copy the second line from the file into the second element of the array\n- continue until all lines in the file have been copied into the array\n\nStepwise refinement is applied to the algorithm.\n\nOutline **five **steps for this algorithm that could be used to produce pseudocode.\n\nAssume there are more elements in the array than lines in the file.\n\nDo **not **use pseudocode statements in your answer.\n\nStep 1 ...............................................\n\nStep 2 ...........................................\n\nStep 3 ............................................\n\nStep 4 ................................................\n\nStep 5 ................................................",
+     "solution_md": "One mark per point:\n\n1. Open the file (in read mode and subsequently close)\n\n2. Initialise an index variable (to 1 // 0)\n\n3. Repeat (the next three steps) until the end of file is reached\n\n4. Read a line from the file (into a string variable)\n\n5. Store the line / variable in the array at the index\n\n6. Increment the index** in a loop**\n\n**Note: max 5 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_m3kBhnph8KdkWnKv",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_tbgVmC8b77swQy5g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw",
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "Two modules are defined:\n\n| Module | Description |\n|---|---|\n| `DeleteComment() `(already written) | - called with a parameter of type string representing a line of pseudocode from a student’s project file<br>- returns the line after removing any comment |\n| `Stage_2()` | - called with two parameters:<br><br>  - a string representing an input file name<br>  - a string representing an output file name<br>- copies each line from the input file to the existing output file having first removed all leading spaces and comments from that line<br>- does not write blank lines to the output file<br>- outputs a final message giving the number of blank lines removed |\n\nWrite pseudocode for module `Stage_2()`. Modules `DeleteComment()` and `DeleteSpaces()` must be used in your solution.",
+     "solution_md": "Example:\n\n`PROCEDURE Stage_2(F1, F2 : STRING)`\n\n` DECLARE Line : STRING`\n\n` DECLARE Count : INTEGER`\n\n` Count `$\\leftarrow$` 0`\n\n` OPEN F1 FOR READ`\n\n` OPEN F2 FOR APPEND`\n\n` WHILE NOT EOF(F1)`\n\n`  READFILE F1, Line`\n\n`  Line `$\\leftarrow$` DeleteSpaces(Line)`\n\n`  Line `$\\leftarrow$` DeleteComment(Line)`\n\n`  IF Line <> \"\" THEN`\n\n`   WRITEFILE F2, Line // skip blank lines`\n\n`  ELSE`\n\n`   Count `$\\leftarrow$` Count + 1`\n\n`  ENDIF`\n\n` ENDWHILE`\n\n` CLOSEFILE F1`\n\n` CLOSEFILE F2`\n\n` OUTPUT Count, \" blank lines were removed\"`\n\n`ENDPROCEDURE`\n\nMark as follows:\n\n1 Procedure heading, parameters, ending\n\n2 Open both files in correct modes and subsequently close\n\n3 Loop to `EOF(F1)`\n\n4 Read a line from F1** in a loop**\n\n5 Assign return values from `DeleteComment() `and `DeleteSpaces() `**in a loop**\n\n6 Check return value following both MP5 function calls is not an empty string and if so write to F2 **in a loop**\n\n7 Count the blank lines** in a loop**\n\n8 Output number of blank lines removed following a reasonable attempt after the loop",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9t7wjBYn3YhmR3cN",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_btyGWc49PHN4rWSG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw",
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "A second module is defined:\n\n| Module | Description |\n|---|---|\n| `Stage_1()` | - called with a parameter of type string representing a student name<br>- creates a new stage 1 file<br>- copies each line from the student’s project file to the stage 1 file after removing any comment from each line<br>- does not write blank lines to the stage 1 file<br>- returns the number of lines written to the stage 1 file |\n|   |   |\n\nWrite pseudocode for module `Stage_1()`.\n\nModule `DeleteComment()` must be used in your solution",
+     "solution_md": "Example:\n\n`FUNCTION Stage_1(StudentName : STRING) RETURNS INTEGER`\n\n` DECLARE OldFile, NewFile, Line : STRING`\n\n` DECLARE Count : INTEGER`\n\n` OldFile `$\\leftarrow$`StudentName & \"_src.txt\"`\n\n` NewFile `$\\leftarrow$` StudentName & \"_S1.txt\"`\n\n` OPENFILE OldFile FOR READ`\n\n` OPENFILE NewFile FOR WRITE`\n\n` Count `$\\leftarrow$` 0`\n\n` WHILE NOT EOF(OldFile)`\n\n`  READFILE OldFile, Line`\n\n`  Line `$\\leftarrow$` DeleteComment(Line)`\n\n`  IF LENGTH(Line) <> 0 THEN`\n\n`   WRITEFILE NewFile, Line`\n\n`   Count `$\\leftarrow$` Count + 1`\n\n`  ENDIF`\n\n` ENDWHILE`\n\n` CLOSEFILE OldFile`\n\n` CLOSEFILE NewFile`\n\n` RETURN Count`\n\n`ENDFUNCTION`\n\nMark as follows:\n\n1 Generate filenames condone missing “_”\n\n2 Open both files in correct modes **and **subsequently close\n\n3 Loop to `EOF(OldFile)`\n\n4 Read a line from `OldFile `**and **execute DeleteComment() in a loop\n\n5 Skip blank lines after `DeleteComment()`** in a loop**\n\n6 Write `Line `to stage 1 file **and **increment Count\n\n7 Return the number of lines after a reasonable attempt at counting",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4fQ3wwykjjxG7s6s",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_vdSSkx4DDSpVyRts",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw",
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "The Character array data has been saved in the text file SaveFile.txt Each line of the file contains one element of the array (one record).\n\nNew modules are defined:\n\n| Module | Description |\n|---|---|\n| `Extract()` (already written) | - called with two parameters:<br><br>  - a string representing a complete line from the text file<br>  - an integer representing a field number (see structure below)<br>  - returns a string representing the required field |\n| `Restore()` | - opens the text file SaveFile.txt<br>- reads lines from the file and assigns values to each record in the Character array using data from each line of the file |\n\nAs a reminder, the record structure is repeated here:\n\n`TYPE CharacterType`\n\n` DECLARE Player : INTEGER //Field number 1`\n\n` DECLARE Role : STRING //Field number 2`\n\n` DECLARE Name : STRING //Field number 3`\n\n` DECLARE SkillLevel : INTEGER //Field number 4`\n\n`ENDTYPE`\n\nWrite pseudocode for module `Restore()`.\n\nYou must use the module `Extract()`.",
+     "solution_md": "Example solution:\n\n`PROCEDURE Restore()`\n\n` DECLARE Index : INTEGER`\n\n` DECLARE Line : STRING`\n\n` OPENFILE \"SaveFile.txt\" FOR READ`\n\n` FOR Index`$\\leftarrow$` 1 TO 45`\n\n`  READFILE \"SaveFile.txt\", Line`\n\n`  Character[Index].Player `$\\leftarrow$` STR_TO_NUM(Extract(Line, 1))`\n\n`  Character[Index].Role `$\\leftarrow$` Extract(Line, 2)`\n\n`  Character[Index].Name`$\\leftarrow$` Extract(Line, 3)`\n\n`  Character[Index].Skill `$\\leftarrow$` STR_TO_NUM(Extract(Line, 4))`\n\n` NEXT Index`\n\n` CLOSEFILE \"SaveFile.txt\"`\n\n`ENDPROCEDURE`\n\nMark as follows:\n\n**MP1** Open the file in read mode and subsequently close\n\n**MP2** Loop through 45 elements\n\n**MP3** Read a line from the file in a loop\n\n**MP4** Attempt to use Extract() in a loop\n\n**MP5** Correct use of Extract() for all fields in a loop\n\n**MP6** Use of STR_TO_NUM() on Player and Skill in a loop\n\n**MP7** Completely correct extraction and assignment of all fields in a loop",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BQ6pmpG3r4snKC7f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/23",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "The game can last for several days and users often find that they have to close and rerun the game program many times in order to complete it.\n\nDescribe the benefit of using the file `SaveFile.txt` as described above.",
+     "solution_md": "**MP1** The `Character `array / character data can be saved before the program is closed\n\n**MP2** Allowing the **game to continue** using the same data / from the point it was saved"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mTvKHvJNx3mfJ44H",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_BRVFpcm6zS4C8457",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw",
+      "spcpt_bFkV2WZqZCzyH7vk"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being developed to implement a game for up to six players.\n\nDuring the game, each player assembles a team of characters. At the start of the game there are 45 characters available.\n\nEach character has four attributes, as follows:\n\n| Attribute | Examples | Comment |\n|---|---|---|\n| Player | 0, 1, 3 | The player the character is assigned to. |\n| Role | Builder, Teacher, Doctor | The job that the character will perform in the game. |\n| Name | Bill, Lee, Farah, Mo | The name of the character. Several characters may perform the same role, but they will each have a unique name. |\n| Level | 14, 23, 76 | The skill level of the character. An integer in the range 0 to 100 inclusive. |\n\nThe programmer has defined a record type to define each character.\n\nA new module will store the contents of the Character array in a text file.\n\nThe module is defined as follows:\n\n| Module | Description |\n|---|---|\n| `Save()` | - form a string from each record with fields separated by the character '^'<br>- write each string to a separate line of the new file named SaveFile.txt |\n\nComplete the pseudocode for module `Save()`.\n\n`PROCEDURE Save()`",
+     "solution_md": "Example solution:\n\n`PROCEDURE Save()`\n\n` DECLARE Index : INTEGER`\n\n` DECLARE Line : STRING`\n\n` CONSTANT SEP = '^'`\n\n` OPENFILE \"SaveFile.txt\" FOR WRITE`\n\n` FOR Index `$\\leftarrow$` 1 TO 45`\n\n`  Line `$\\leftarrow$` NUM_TO_STR(Character[Index].Player) & SEP`\n\n`  Line `$\\leftarrow$` Line & Character[Index].Role & SEP`\n\n`  Line `$\\leftarrow$` Line & Character[Index].Name & SEP`\n\n`  Line `$\\leftarrow$` Line & NUM_TO_STR(Character[Index].Level)`\n\n`  WRITEFILE \"SaveFile.txt\", Line`\n\n` NEXT Index`\n\n` CLOSEFILE \"SaveFile.txt\"`\n\n`ENDPROCEDURE`\n\nMark as follows:\n\n**MP1** Declaration of local integer for Index (and string type for Line)\n\n**MP2** Open \"SaveFile.txt\" in write mode and subsequently close\n\n**MP3** Loop through 45 elements\n\n**MP4** Attempt to form Line - four fields in a loop\n\n**MP5** Correct use of NUM_TO_STR()x2 (Player and Level) in a loop\n\n**MP6 **Correct use of three &<separator>& strings in a loop\n\n**MP7** Line from MP4 written to file in a loop",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qnBdMr6294ZzdTG7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The program is changed and the record type definition is modified as follows:\n\n`TYPE CharacterType`\n\n` DECLARE Player : INTEGER`\n\n` DECLARE Role : STRING`\n\n` DECLARE Name : STRING`\n\n` DECLARE Level : INTEGER`\n\n` DECLARE Status : BOOLEAN`\n\n`ENDTYPE`\n\nDescribe how the additional Boolean field may be stored with the rest of the fields on one line of a text file.",
+     "solution_md": "**MP1 **Encode Status as a character / string **MP2** Append the ‘^’ separator and the character/string"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sX3PyYmqhmbBB4pm",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6zBdhvvFKmWC4ybb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/21",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "| Module | Description |\n|---|---|\n| `CheckAll()` | - called with a parameter of type integer representing the number of candidate marks in the `Result `array<br>- uses `CheckMark()` to check each candidate mark<br>- for each paper that needs to be checked, write the corresponding candidate ID on a separate line in a new file named `GRList.txt `<br>- outputs a message with a count of how many papers need to be checked |\n|   |   |\n\nThe requirement changes. Instead of a new file, the module described above needs to add the corresponding candidate ID for each paper that needs to be checked to an existing file.\n\nExplain the change that will need to be made to `CheckAll().`",
+     "solution_md": "> **[mark-scheme]**\n> The file will need to be opened in <u>APPEND </u>mode"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ycSb2rJV9jhpf5Bv",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_cmGMJPrwsbcyfY66",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YqckDNpBf2DVyRcM",
+      "spcpt_p6gdsGKbBwW2jTbr",
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "A class of students are developing a program to send data between computers. Many computers are connected together to form a wired network. Serial ports are used to connect one computer to another.\n\nEach computer:\n\n• is assigned a unique three-digit ID \n• has three ports, each identified by an integer value \n• is connected to between one and three other computers.\n\nMessages are sent between computers as a string of characters organised into fields as shown:\n\n`<STX><DestinationID><SourceID><Data><ETX>`\n\n| **Field number** | **Field name** | **Description** |\n|---|---|---|\n| n/a | `STX` | a single character marking the start of the message (ASCII value 02 |\n| 1 | `DestinationID` | three numeric characters that identify the destination computer |\n| 2 | `SourceID ` | three numeric characters that identify the source computer |\n| 3 | `Data` | a variable length string containing the data being sent (Minimum length is 1 character) |\n| n/a | `ETX` | a single character marking the end of the message (ASCII value 03 |\n\nFor example, the following message contains the data \"Hello Kevin\" being sent from computer \"101\" to computer \"232\":\n\n`<STX>\"232101Hello Kevin\"<ETX> `\n\nEach computer will run a copy of the same program. Each program will contain a global variable, `MyID` of type string, that contains the unique ID of the computer in which the program is running.\n\nThe programmer has defined the first two program modules as follows:\n\n| **Module** | **Description** |\n|---|---|\n| `Transmit()` (already written) | • takes two parameters:<br><br>o a string containing a message <br>        o an integer containing a port number<br><br>• transmits the message using the given port |\n| `SendFile()` | • takes three parameters: <br>         o a string containing a text file name <br>         o a string containing a Destination ID <br>         o an integer containing a Port number <br>• transmits the file one line at a time <br>• transmits a final message with data string \"****\" |\n\nWrite pseudocode for module `SendFile(). `\n\nAssume:\n\n- module `Transmit() `has already been written and is used to transmit a message\n- the value of `MyID` may be used as `SourceID `\n- the file specified contains no blank lines\n- e file specified does not contain the line \"****\"",
+     "solution_md": "> **[mark-scheme]**\n> `PROCEDURE SendFile(FileName, DestID : STRING, Port : INTEGER) `\n> \n> `        DECLARE FileData : STRING `\n> \n> `        CONSTANT STX = CHR(02) `\n> `        CONSTANT ETX = CHR(03) `\n> \n> `        OPENFILE FileName FOR READ `\n> \n> `        WHILE NOT EOF(FileName) `\n> `                 READFILE FileName, FileData `\n> `                 FileData `$\\leftarrow$`STX & DestID & MyID & FileData & ETX `\n> `                 CALL Transmit(FileData, Port) `\n> `      ENDWHILE `\n> \n> `      CLOSEFILE FileName `\n> \n> `      CALL Transmit(STX &  DestID & MyID & \"****\" & ETX, Port) `\n> \n> `ENDPROCEDURE`\n> \n> Mark as follows:\n> \n> - **MP1**   OPEN file in READ mode – using parameter - and subsequently CLOSE\n> - **MP2**   Conditional loop to EOF()\n> - **MP3**   Use of READFILE to get a line from the file\n> - **MP4**   ‘Attempt’ to form a message (minimum is DestID, MyID, FileData)\n> - **MP5**   Message formed is completely correct\n> - **MP6**   Call Transmit() with correct MP4 string **in a loop **\n> - **MP7**   Transmit the \"****\" message (all parts present) **after the loop**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ZrM2fgJNWg7FZK3d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kkVZSM5jzGhgy9Jw"
+     ],
+     "part_tier": null,
+     "problem_md": "Module `SendFile()` is used to copy a file from one computer to another.\n\nA module within the program running on the destination computer will receive the data and write it to a new file.\n\nExplain why module `SendFile() `transmits the message with data string \"****\" after the last line of the file.",
+     "solution_md": "> **[mark-scheme]**\n> **Max 2 **marks\n> \n> - **MP1**   Indicates that all the lines of the file have been sent // it is the end of the transmission / file transfer\n> - **MP2**   So that the receiving program can stop waiting for further data\n> - **MP3**   The file can be closed / saved"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:41:01Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "8-programming",
+  "name": "8. Programming"
+ },
+ "topic": {
+  "id": "top_PmS5B7gD3WpVzynV",
+  "slug": "arrays",
+  "name": "Arrays",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "arrays",
+   "name": "Arrays",
+   "revision_note_id": "rn_TNVHmdHbsDhwPg4H"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_fgq4Smn7Hgn78jrw",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/8-programming/arrays/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_gvV4PzwZ8kwYMt49",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_mTcdSFd3xjX3WQTD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 15,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A two-dimensional (2D) array `StudentData[]` contains student information for a school management system.\n\nA 2D array `Grades[]` has three columns containing the following academic details:\n\n- column one stores the current average grade – the student's overall percentage score, for example 78.5\n- column two stores the minimum grade threshold – the lowest percentage required to pass the course, for example 40.0\n- column three stores the maximum assignment score – the highest score achieved on any single assignment, for example 95.0\n\nA student's average grade can fall below the minimum threshold (failing status) but appropriate warnings must be displayed.\n\nFor example, a student with a minimum threshold of 40.0 must have an average grade of at least 40.0 to maintain passing status.\n\nSuitable messages must be displayed for grade updates, for example if a new grade would cause the student to fail or if an invalid grade is entered.\n\nThe student ID gives the index of each student's data held in the two arrays. For example, student ID 15's details would be held in:\n\n`StudentData[15,1]` and `StudentData[15,2]` for name and class\n\n`Grades[15,1]`, `Grades[15,2]` and `Grades[15,3]` for academic data\n\nThe variable TotalStudents contains the number of registered students.\n\nThe arrays and variable TotalStudents have already been set up and the data stored.\n\n**Write a program** that meets the following requirements:\n\n- checks the student ID exists and the name and class entered by the user match the name and class stored in `StudentData[]` before any action can take place\n- displays a menu showing the four actions available for the user to choose from:\n\n- **display grades**\n- **update average grade**\n- **add assignment score**\n- **exit**\n\n- allows an action to be chosen and completed. Each action is completed by a procedure with a parameter of the student ID.\n\nYou **must use** pseudocode or program code and add comments to explain how your code works. All inputs and outputs must contain **suitable messages**.\n\nYou only need to declare any local arrays and local variables that you use.\n\nYou **do not** need to declare and initialise the data in the global arrays `StudentData[]` and `Grades[]` and the variable TotalStudents.",
+     "solution_md": "The provided solutions are just two of many possible solutions; as long as your code **effectively addresses the problem**, it is equally valid and can receive full marks.\n\n**Pseudocode**\n\n`// Procedures to be called`\n\n`PROCEDURE CheckDetails(StudID : INTEGER)`\n\n`    DECLARE Name, Class : STRING // local variables`\n\n`    Valid ← FALSE`\n\n`    IF StudID < 0 OR StudID > TotalStudents`\n\n`      THEN`\n\n`        OUTPUT \"Invalid Student ID\"`\n\n`      ELSE`\n\n`        OUTPUT \"Please Enter Student Name \"`\n\n`        INPUT Name`\n\n`        OUTPUT \"Please Enter Class \"`\n\n`        INPUT Class`\n\n`        IF Name <> StudentData[StudID,1] OR Class <> StudentData[StudID,2]`\n\n`          THEN`\n\n`            OUTPUT \"Invalid name or class\"`\n\n`          ELSE`\n\n`            Valid ← TRUE`\n\n`        ENDIF`\n\n`      ENDIF`\n\n`ENDPROCEDURE`\n\n`PROCEDURE DisplayGrades(StudID : INTEGER)`\n\n`    OUTPUT \"Current average grade: \", Grades[StudID,1]`\n\n`    OUTPUT \"Minimum threshold: \", Grades[StudID,2]`\n\n`    OUTPUT \"Highest assignment score: \", Grades[StudID,3]`\n\n`ENDPROCEDURE`\n\n`PROCEDURE UpdateAverage(StudID : INTEGER)`\n\n`    DECLARE NewGrade : REAL // local variable`\n\n`    REPEAT`\n\n`        OUTPUT \"Please enter new average grade (0-100) \"`\n\n`        INPUT NewGrade`\n\n`        IF NewGrade < 0 OR NewGrade > 100`\n\n`          THEN`\n\n`            OUTPUT \"Grade must be between 0 and 100\"`\n\n`        ENDIF`\n\n`        IF NewGrade < Grades[StudID,2]`\n\n`          THEN`\n\n`            OUTPUT \"Warning: Grade below minimum threshold\"`\n\n`        ENDIF`\n\n`        IF NewGrade >= 0 AND NewGrade <= 100`\n\n`          THEN`\n\n`            Grades[StudID,1] ← NewGrade`\n\n`            OUTPUT \"Average grade updated successfully\"`\n\n`        ENDIF`\n\n`    UNTIL NewGrade >= 0 AND NewGrade <= 100`\n\n`ENDPROCEDURE`\n\n`PROCEDURE AddAssignment(StudID : INTEGER)`\n\n`    DECLARE Score : REAL // local variable`\n\n`    REPEAT`\n\n`        OUTPUT \"Please enter assignment score (0-100) \"`\n\n`        INPUT Score`\n\n`        IF Score < 0 OR Score > 100`\n\n`          THEN`\n\n`            OUTPUT \"Score must be between 0 and 100\"`\n\n`        ENDIF`\n\n`    UNTIL Score >= 0 AND Score <= 100`\n\n`    IF Score > Grades[StudID,3]`\n\n`      THEN`\n\n`        Grades[StudID,3] ← Score`\n\n`        OUTPUT \"New highest assignment score recorded\"`\n\n`      ELSE`\n\n`        OUTPUT \"Assignment score recorded\"`\n\n`    ENDIF`\n\n`ENDPROCEDURE`\n\n`// Main program`\n\n`DECLARE StudentID, Choice : INTEGER`\n\n`DECLARE Valid, Exit : BOOLEAN`\n\n`OUTPUT \"Please enter student ID \"`\n\n`INPUT StudentID`\n\n`CheckDetails(StudentID)`\n\n`IF Valid`\n\n`  THEN`\n\n`    REPEAT`\n\n`      OUTPUT \"Menu\"`\n\n`      OUTPUT \"1. display grades\"`\n\n`      OUTPUT \"2. update average grade\"`\n\n`      OUTPUT \"3. add assignment score\"`\n\n`      OUTPUT \"4. exit\"`\n\n`      OUTPUT \"Please choose 1, 2, 3 or 4\"`\n\n`      INPUT Choice`\n\n`      CASE OF Choice`\n\n`        1 : DisplayGrades(StudentID)`\n\n`        2 : UpdateAverage(StudentID)`\n\n`        3 : AddAssignment(StudentID)`\n\n`        4 : Exit ← TRUE`\n\n`        OTHERWISE OUTPUT \"Invalid choice\"`\n\n`      ENDCASE`\n\n`    UNTIL Choice = 4`\n\n`  ELSE`\n\n`    OUTPUT \"Access denied\"`\n\n`ENDIF`\n\n**Python**\n\n> **[mark-scheme]**\n> You must include the following in your solution to achieve a maximum score:\n> \n> 1. **Techniques:**\n> 2. Check student ID and authentication (**iteration** and **validation**, **selection**, **input**, **output**)\n> 3. Display menu and make a selection (**output**, **input** and **selection**)\n> 4. Perform actions selected (use of **arrays** and **procedures** with **parameters**)\n> \n> 1. **Data Structures:**\n> \n> required names shown underlined must be used as given in the scenario\n> \n> 1. **Arrays or lists**: `StudentData, Grades`\n> 2. **Variables**: `TotalStudents, StudentID`\n\n> **[exam-tip]**\n> - **All criteria** stated for the scenario have been covered by the use of **appropriate** programming techniques\n> - The data structures used **store all the data that is required** by the scenario\n> - **All** the data structures used have **meaningful names**\n> - Solution **logically performs** **all the tasks** given in the scenario"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vr2rpzgH7xhdDtjY",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_q9YQzPk6PF4MXQtw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 15,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PQMXnQ5tBcsvXFB4",
+      "spcpt_h49KrGZMc3PFGXGC"
+     ],
+     "part_tier": null,
+     "problem_md": "The one-dimensional (1D) array `Clubs[]` is used to store the names of 12 cricket clubs in a local sports league.\n\nThe two-dimensional (2D) array `Statistics[][]` is used to store, for each cricket club, the number of:\n\n- matches won\n- matches drawn\n- matches lost.\n\nThe 1D array `Points[]` is used to store the total number of points each cricket club has been awarded.\n\nThe position of any cricket club’s data is the same in all three arrays. For example, the data in index 2 of `Statistics[]` and index 2 of `Points[]` belongs to the cricket club in index 2 of `Clubs[]`.\n\nThe variable `Matches` stores the number of matches played by each team. Each team plays the same number of matches.\n\nPoints are awarded for:\n\n- a win – 12 points\n- a draw – 5 points\n- a loss – 0 points.\n\n**Write a program that meets the following requirements:**\n\n- allows the number of matches played to be input and stored, with a maximum of 22 matches\n- validates the number of matches played\n- allows the names of the cricket clubs to be input and stored\n- allows the number of matches won, drawn and lost to be input and stored for each team\n- validates the number of matches won, drawn or lost against the number of matches played\n- asks the user to re-enter the number of matches won, drawn or lost if the total does not match the number of matches played\n- calculates and stores the total number of points for each club\n- finds the cricket club or clubs with the highest number of points\n- outputs the name or names of the winning club or clubs, the number of wins and the total number of points awarded.\n\nYou **must use** pseudocode or program code and add comments to explain how your code works.\n\nYou **do not** need to declare any arrays or variables; you may assume that this has already been done.\n\nAll inputs and outputs **must **contain suitable messages.",
+     "solution_md": "**Example 15 mark solution:**\n\n**Data structures required:**\n\nThe names <u>underlined</u> must match those given in the scenario:\n\nArrays or lists: <u>**Clubs[]**</u>**, **<u>**Statistics[]**</u>, `Points[]`, `TieIndex[]`\n\nVariables:` `<u>**Matches**</u>, `Won, Drawn, Lost, Counter, Maximum, TieCheck, OutLoop, Max, Count`\n\n**Requirements (techniques):**\n\n- **One**\n\n  - Input and store number of matches, cricket club names, number of matches won, drawn and lost.\n  - Validation of number of matches played and matches won, lost and drawn against number of matches played (with prompts, iteration, storing data in variables, validation, 1D and 2D arrays).\n- **Two**\n\n  - Calculate and store the number of points for each cricket club.\n  Finding the index of the array with the highest score / highest score\n  (calculation, finding the maximum, iteration).\n- **Three**\n\n  - Identifying cricket clubs with highest number of points and whether there is a tie for the top position.\n  - Output with appropriate messages (iteration, selection and output)\n\n> **[mark-scheme]**\n> **7-9 Marks**\n> \n> - The range of programming techniques used is appropriate to the problem.\n> - All criteria stated for the scenario have been covered by the use of appropriate programming techniques, check the list of techniques needed.\n> - The data structures chosen are appropriate and store all the data required.\n> - The data structures used store all the data required by the scenario.\n> \n> **5-6 Marks**\n> \n> - The program has been fully commented.\n> - Suitable identifiers with names meaningful to their purpose have been used throughout.\n> - All of the data structures used have meaningful names.\n> - The program is in a logical order\n> - The solution is accurate.\n> - Solution logically performs all the tasks given in the scenario. Ignore minor syntax errors.\n> - The solution meets all the requirements given in the question.\n> - Solution performs all the tasks given in the scenario.\n> \n> **Total: [15 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QF4b4xDQDY7DFFfy",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_B2ZctjXJm7ZH2M4Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 15,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h49KrGZMc3PFGXGC"
+     ],
+     "part_tier": null,
+     "problem_md": "A two-dimensional (2D) array `Account[]` contains account holders’ names and passwords for a banking program.\n\nA 2D array `AccDetails[] `has three columns containing the following details:\n\n- column one stores the balance – the amount of money in the account, for example 250.00\n- column two stores the overdraft limit – the maximum total amount an account holder can borrow from the bank after the account balance reaches 0.00, for example 100.00\n- column three stores the withdrawal limit – the amount of money that can be withdrawn at one time, for example 200.00\n\nThe amount of money in a bank account can be negative (overdrawn) but not by more than the overdraft limit.\nFor example, an account with an overdraft limit of 100.00 must have a balance that is greater than or equal to –100.00\n\nSuitable error messages must be displayed if a withdrawal cannot take place, for example if the overdraft limit or the size of withdrawal is exceeded.\n\nThe bank account ID gives the index of each account holder’s data held in the two arrays. For example, account ID 20’s details would be held in:\n`Account[20,1]` and `Account[20,2] AccDetails[20,1], AccDetails[20,2] `and `AccDetails[20,3]`\n\nThe variable Size contains the number of accounts\n\nThe arrays and variable Size have already been set up and the data stored\n\n**Write a program** that meets the following requirements:\n\n- checks the account ID exists and the name and password entered by the account holder match the name and password stored in` Account[] `before any action can take place\n- displays a menu showing the four actions available for the account holder to choose from:\n\n  - **display balance **\n  - **withdraw money **\n  - **deposit money **\n  - **exit **\n\n- allows an action to be chosen and completed. Each action is completed by a procedure with a parameter of the account ID.\n\nYou **must use** pseudocode or program code and add comments to explain how your code works. All inputs and outputs must contain** suitable messages**.\n\nYou only need to declare any local arrays and local variables that you use.\n\nYou **do not** need to declare and initialise the data in the global arrays `Account[]` and `AccDetails[]` and the variable Size",
+     "solution_md": "The provided solutions are just two of many possible solutions; as long as your code **effectively addresses the problem**, it is equally valid and can receive full marks.\n\n**Pseudocode**\n\n`// Procedures to be called PROCEDURE CheckDetails(AccID : INTEGER) `\n`    DECLARE Name, Password : STRING // local variables `\n`    Valid  FALSE `\n`    IF AccID <0 OR AccID > Size `\n`      THEN `\n`        OUTPUT \"Invalid Account Number\" `\n`      ELSE `\n`        OUTPUT \"Please Enter Name \" `\n`        INPUT Name `\n`        OUTPUT \"Please Enter Password \" `\n`        INPUT Password `\n`        IF Name <> Account[AccID,1] OR Password <> Account[AccID,2] `\n`          THEN `\n`            OUTPUT \"Invalid name or password\" `\n`          ELSE`\n`            Valid  True `\n`         ENDIF `\n`      ENDIF `\n`ENDPROCEDURE `\n`PROCEDURE Balance(AccID : INTEGER) `\n`     OUTPUT \"Your balance is \", AccDetails[AccID,1] `\n`ENDPROCEDURE `\n\n`PROCEDURE WithDrawal(AccID : INTEGER) `\n`    DECLARE Amount : REAL // local variable `\n`    REPEAT `\n`       OUTPUT \"Please enter amount to withdraw \" `\n`       INPUT Amount `\n`       IF Amount > AccDetails[AccID,3] `\n`         THEN `\n`           OUTPUT \"Amount greater than withdrawal limit\" `\n`       ENDIF `\n`       IF Amount > AccDetails[AccID,2] + AccDetails[AccID,1] `\n`          THEN `\n`            OUTPUT \"Amount greater than cash available\" `\n`       ENDIF `\n`       IF Amount <= AccDetails[AccID,3] AND Amount < AccDetails[AccID,2] + AccDetails[AccID,1] `\n`          THEN `\n`            AccDetails[AccID,1]  AccDetails[AccID,1] - Amount `\n`       ENDIF `\n`   UNTIL Amount<= AccDetails[AccID,3] AND Amount > AccDetails[AccID,2] + AccDetails[AccID,1] AND Amount > 0 `\n`ENDPROCEDURE `\n\n`PROCEDURE Deposit(AccID : INTEGER) `\n`    DECLARE Amount : REAL // local variable `\n`    REPEAT `\n`      OUTPUT \"Please enter a positive amount to deposit \" `\n`      INPUT Amount `\n`  UNTIL Amount >0 AccDetails[AccID,1]  AccDetails[AccID,1] + Amount`\n`ENDPROCEDURE `\n`// Declarations of global variables for information – not required in candidate responses `\n`DECLARE AccountNumber, Choice : INTEGER `\n`DECLARE Valid, Exit : BOOLEAN `\n\n`OUTPUT \"Please enter your account number \" `\n`INPUT AccountNumber `\n`CheckDetails(AccountNumber) `\n\n`IF Valid `\n`  THEN `\n`    REPEAT `\n`      OUTPUT \"Menu\" `\n`      OUTPUT \"1. display balance\" `\n`      OUTPUT \"2. withdraw money\" `\n`      OUTPUT \"3. deposit money\" `\n`      OUTPUT \"4. exit\" `\n`      OUTPUT \"please choose 1, 2, 3 or 4\" `\n`      INPUT Choice `\n`      CASE OF Choice `\n`        1 : Balance(AccountNumber) `\n`        2 : Withdrawal(AccountNumber) `\n`        3 : Deposit(AccountNumber) `\n`        4 : Exit  TRUE `\n`        OTHERWISE OUTPUT \"Invalid choice\" `\n`      ENDCASE `\n`   UNTIL Choice = 4 `\n`  ELSE `\n`   OUTPUT \"Invalid account number \" `\n`ENDIF`\n\n**Python**\n\n> **[mark-scheme]**\n> You must include the following in your solution to achieve a maximum score:\n> \n> 1. **Techniques:**\n> \n>   1. Check account number and password (**iteration **and **validation**, **selection**, **input**, **output**)\n>   2. Display menu and make a selection (**output**, **input** and **selection**)\n>   3. Perform actions selected (use of **arrays **and **procedures **with **parameters**)\n> 2. **Data Structures:** required names shown underlined must be used as given in the scenario\n> \n>   1. **Arrays or lists**: `Account, AccDetails`\n>   2. **Variables**: `Size, AccountNumber`\n\n> **[exam-tip]**\n> - **All criteria** stated for the scenario have been covered by the use of **appropriate** programming techniques\n> - The data structures used **store all the data that is required** by the scenario\n> - **All** the data structures used have **meaningful names**\n> - Solution** logically performs** **all the tasks **given in the scenario"
+    }
+   ]
+  },
+  {
+   "id": "qstn_hSy95WCVDCDkwrV5",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_ZtD8vDR9DPxgbzt9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 15,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 11,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h49KrGZMc3PFGXGC"
+     ],
+     "part_tier": null,
+     "problem_md": "A one-dimensional (1D) array `Days[]` contains the **names of the days of the week**. A two-dimensional (2D) array `Readings[]` is used to **store 24 temperature readings**, taken once an hour, for each of the seven days of the week. A 1D array `AverageTemp[] `is used to **store the average temperature** for each day of the week.\n\nThe position of any day’s data is the same in all three arrays. For example, if Wednesday is in index 4 of `Days[]`, Wednesday’s temperature readings are in index 4 of `Readings[] `and Wednesday’s average temperature is in index 4 of `AverageTemp[]`\n\nThe temperature readings are in **Celsius **to **one decimal place**. Temperatures can only be from **–20.0°C to +50.0°C inclusive**.\n\n**Write a program** that meets the following requirements:\n\n- input and validate the hourly temperatures for one week\n- calculate and store the average temperature for each day of the week\n- calculate the average temperature for the whole week\n- convert all the average temperatures from Celsius to Fahrenheit by using the formula Fahrenheit = Celsius * 9/5 + 32\n- output the average temperature in Celsius and in Fahrenheit for each day\n- output the overall average temperature in Celsius and in Fahrenheit for the whole week.\n\nYou must use **pseudocode **or** program code** and **add comments to explain** how your code works.\n\nYou do **not **need to declare any arrays, variables or constants; you may assume that this has already been done.\n\nAll inputs and outputs **must **contain suitable messages.\n\nAll data output **must **be rounded to one decimal place\n\nYou will need to **initialise **and **populate **the array` Days[]` at the start of the program",
+     "solution_md": "The provided solutions are just two of many possible solutions; as long as your code **effectively addresses the problem**, it is equally valid and can receive full marks.\n\n**Pseudocode**\n\n`// meaningful identifiers and appropriate data structures for `\n`// all data required `\n`DECLARE Days : ARRAY[1:7] OF STRING `\n`DECLARE Readings : ARRAY[1:7, 1:24] OF REAL `\n`DECLARE AverageTemp : ARRAY[1:7] OF REAL `\n`DECLARE WeekLoop : INTEGER `\n`DECLARE DayLoop : INTEGER `\n`DECLARE InTemp : REAL`\n`DECLARE TotalDayTemp : REAL `\n`DECLARE TotalWeekTemp : REAL `\n`DECLARE AverageWeekTemp : REAL `\n`// initial population of Days[] array `\n`// input and a loop are also acceptable `\n`Days[1]`$\\leftarrow$` \"Sunday\" `\n`Days[2] `$\\leftarrow$`  \"Monday\" `\n`Days[3] `$\\leftarrow$`  \"Tuesday\" `\n`Days[4] `$\\leftarrow$`  \"Wednesday\" `\n`Days[5] `$\\leftarrow$`  \"Thursday\" `\n`Days[6] `$\\leftarrow$`  \"Friday\" `\n`Days[7] `$\\leftarrow$`  \"Saturday\" `\n`// input temperatures inside nested loop `\n`FOR WeekLoop `$\\leftarrow$`  1 TO 7 `\n`      TotalDayTemp`$\\leftarrow$`  0 `\n`      FOR DayLoop `$\\leftarrow$`  1 TO 24 `\n`          OUTPUT \"Enter temperature \", DayLoop, \" for \", Days[WeekLoop]`\n`          INPUT InTemp `\n`// validation of input for between -20 and +50 inclusive `\n`          WHILE InTemp < -20.0 OR InTemp > 50.0 DO `\n`            OUTPUT \"Your temperature must be between -20.0 and +50.0 inclusive. Please try again\" `\n`            INPUT InTemp `\n`          ENDWHILE `\n`          Readings[WeekLoop, DayLoop] `$\\leftarrow$`  InTemp `\n`// totalling of temperatures during the day `\n`          TotalDayTemp `$\\leftarrow$`  TotalDayTemp + ROUND(InTemp, 1) `\n`       NEXT DayLoop `\n`// average temperature for the day `\n`       AverageTemp[WeekLoop] `$\\leftarrow$`  ROUND(TotalDayTemp / 24,1) NEXT WeekLoop `\n`// calculate the average temperature for the week `\n`TotalWeekTemp`$\\leftarrow$`  0 `\n`FOR WeekLoop `$\\leftarrow$` 1 TO 7 TotalWeekTemp `$\\leftarrow$` TotalWeekTemp + AverageTemp[WeekLoop] `\n`NEXT WeekLoop `\n`AverageWeekTemp `$\\leftarrow$`  ROUND(TotalWeekTemp / 7,1) `\n`// outputs in Celsius and Fahrenheit `\n`FOR WeekLoop `$\\leftarrow$`  1 TO 7 `\n`    OUTPUT \"The average temperature on \", Days[WeekLoop], \" was \", AverageTemp[WeekLoop], \" Celsius and \",      `\n`        ROUND(AverageWeekTemp  9 / 5 + 32), 1, \" Fahrenheit\" `\n`NEXT WeekLoop `\n`OUTPUT \"The average temperature for the week was \", AverageWeekTemp,\" Celsius and \", ROUND(AverageWeekTemp  9 / 5 + 32, 1),\" Fahrenheit\"`\n\n**Python**\n\n> **[mark-scheme]**\n> You **must **include the following in your solution to achieve a maximum score:\n> \n> 1. **Techniques**:\n> \n>   1. Input and store hourly temperatures and validation of input temperatures for each day (with **prompts**, **range check** and (**nested**)**iteration**)\n>   2. Calculate, round to one decimal place and store daily average temperatures and calculate the weekly average temperature rounded to one decimal place (**iteration**, **totalling** and **rounding**)\n>   3. Convert all average temperatures to Fahrenheit (to one decimal place) and output the average temperatures in both Celsius and Fahrenheit. Output with appropriate messages. (**output **and **rounding**)\n> 2. **Data structures: **\n> The names underlined must match those given in the scenario\n> \n>   1. **Arrays or lists:** `Days[], Readings[], AverageTemp[]`\n>   2. **Variables: **`WeekLoop, DayLoop, InTemp, TotalDayTemp, TotalWeekTemp, AverageWeekTemp`\n\n> **[exam-tip]**\n> - **All criteria** stated for the scenario have been covered by the use of **appropriate** programming techniques\n> - The data structures used **store all the data that is required** by the scenario\n> - **All** the data structures used have **meaningful names**\n> - Solution** logically performs** **all the tasks **given in the scenario",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KhDY7zsyKH6yqD3R",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_RDXpPPH7c8yF9F6v",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/22",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PQMXnQ5tBcsvXFB4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **how indexing could be used to search for a value stored in a one-dimensional array.",
+     "solution_md": "Indexing could be used by:\n\n- using a counter to index the array **[1 mark]**\n- … so that the same code can be repeatedly used to check every element **OR** every element can be checked in a loop **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wVfwcm7mpzKhVKB8",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xmhwbc8g4qfPK7G7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/22",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_PQMXnQ5tBcsvXFB4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Describe** a one-dimensional array.\n\nInclude **an example** of an array declaration.",
+     "solution_md": "A one-dimensional array is described as:\n\nAny **two **of the following:\n\n- a list / one column of items **[1 mark]**\n- … of the same data type **[1 mark]**\n- … stored under a single identifier **[1 mark]**\n- … with a single index to identify each element **[1 mark]**\n\n**One **mark for an example of a declaration\n\n- example e.g. `DECLARE MyArray[1:10] OF INTEGER `**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pyDDgg3gGG2WR5HK",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jrc3YMVK95Jd8WjD",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_PQMXnQ5tBcsvXFB4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Tick (✓) one box** to show the name of the data structure used to store a collection of data of the same data type.",
+     "solution_md": "**Final answer:** **The correct answer is ****A**\n\n- **A **is correct as an array is described as a data structure used to store a collection of data of the same data type **[1 mark]**\n- **B **is incorrect as a constant is an identifier set once in the lifetime of a program\n- **C **is incorrect as a function is a sub program that returns a value\n- **D **is incorrect as a variable is an identifier that can change in the lifetime of a program",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "Array"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Constant"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Function"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Variable"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,692 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:48Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "18-artificial-intelligence-ai-",
+  "name": "18. Artificial Intelligence (AI)"
+ },
+ "topic": {
+  "id": "top_KM2zgKpC76qF5k7P",
+  "slug": "artificial-intelligence-ai",
+  "name": "Artificial Intelligence (AI)",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "machine-learning",
+   "name": "Machine Learning",
+   "revision_note_id": "rn_VZdHGM2VDbnV4xPN"
+  },
+  {
+   "slug": "ai-and-graphs",
+   "name": "AI & Graphs",
+   "revision_note_id": "rn_bGtCJCfcxYZVR7jt"
+  },
+  {
+   "slug": "a-algorithm",
+   "name": "A* Algorithm",
+   "revision_note_id": "rn_5rrjq9XGR9KvHr7g"
+  },
+  {
+   "slug": "dijkstras-shortest-path-algorithm",
+   "name": "Dijkstra's Shortest Path Algorithm",
+   "revision_note_id": "rn_zYhNbNMF7PwpkJd6"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_DnsqDYNyGBb8dPcd",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/18-artificial-intelligence-ai-/artificial-intelligence-ai/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/434_screenshot-2025-11-13-162953.png": "001-diagram-of-nodes-a-to-f-connected-by-lines-with-.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_vg3D3QxCNFr349Yd",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_jzqvmDPjFjcHrHZd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2bSXG5sGhv7NbRdz"
+     ],
+     "part_tier": null,
+     "problem_md": "A robot in a warehouse travels from the Dock to the Exit. The robot's software uses the A* algorithm.\n\nThe graph has eight nodes: Dock, A, B, C, D, E, F and Exit. The first table shows each pair of nodes that are joined in the graph, and the time in seconds to travel between them. Each route can be travelled in both directions.\n\n| Nodes joined | Time (seconds) |\n|---|---|\n| Dock and A | 6 |\n| Dock and B | 4 |\n| Dock and C | 8 |\n| A and E | 2 |\n| A and F | 8 |\n| B and D | 5 |\n| C and D | 3 |\n| C and Exit | 8 |\n| D and Exit | 5 |\n| E and F | 8 |\n| F and Exit | 4 |\n\nThe second table shows the heuristic (h) for each node.\n\n| Node | Heuristic (h) |\n|---|---|\n| Dock | 13 |\n| A | 9 |\n| B | 10 |\n| C | 5 |\n| D | 5 |\n| E | 7 |\n| F | 4 |\n| Exit | 0 |\n\nCalculate the path that takes the shortest time to travel from the Dock node to the Exit node, using the A* algorithm.\n\nShow your working in the table provided. The first two rows have already been completed.\n\n| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Dock | Dock | 0 | 13 | 13 |\n| Dock | A | 6 | 9 | 15 |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n\n| Final path |   |\n|---|---|",
+     "solution_md": "| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Dock | Dock | 0 | 13 | 13 |\n| Dock | A | 6 | 9 | 15 |\n| **Dock** | **B** | **4** | **10** | **14** |\n| **Dock** | **C** | **8** | **5** | **13** |\n| **C** | **Exit** | **8 + 8 = 16** | **0** | **16** |\n| **C** | **D** | **8 + 3 = 11** | **5** | **16** |\n| **B** | **D** | **4 + 5 = 9** | **5** | **14** |\n| **D** | **Exit** | **4 + 5 + 5 = 14** | **0** | **14** |\n\n| Final path | **Dock → B → D → Exit** |\n|---|---|\n\nFrom Dock: the row for B is g = 4, h = 10, f = 14 **[1]**\n\nFrom Dock: the row for C is g = 8, h = 5, f = 13 **[1]**\n\nC has the lowest total (13), so C is checked next, even though B has the lower cost from start node. The rows from C are Exit (f = 16) and D (f = 16). Dock is not given a row because it has already been checked **[1]**\n\nB now has the lowest total (14). The route to D through B (g = 9, f = 14) is shorter than the route through C (g = 11), so D gets a new row. D is then checked, giving a new row for Exit (g = 14, f = 14) **[1]**\n\nExit now has the lowest total, so the search ends. Reading back from the last Exit row: Exit came from D, D (g = 9) came from B, and B came from Dock. The final path is Dock → B → D → Exit, taking 14 seconds **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the row Dock, B, 4, 10, 14\n> \n> **1 mark** for the row Dock, C, 8, 5, 13\n> \n> **1 mark** for both rows from C: C, Exit, 16, 0, 16 and C, D, 11, 5, 16\n> \n> **1 mark** for both the row B, D, 9, 5, 14 and the row D, Exit, 14, 0, 14\n> \n> **1 mark** for the final path Dock → B → D → Exit\n> \n> Accept rows from the same Start node in any order\n> \n> Accept the cost from start node written as a sum, for example 4 + 5 = 9\n> \n> Do not accept Dock → C → Exit or Dock → C → D → Exit as the final path: each takes 16 seconds\n\n> **[exam-tip]**\n> Always choose the node with the lowest total (f), not the lowest cost from start node (g). Students who check B first because its cost (4) is lowest get the order wrong. Checking C first is correct, even though C is not on the final path.\n> \n> Do not stop when Exit first appears in the table. After checking C, Exit has a total of 16, but B has a lower total of 14. A cheaper route through B and D then gives Exit a second row with a total of 14. When a node appears twice, read the final path back from the row with the lower cost."
+    }
+   ]
+  },
+  {
+   "id": "qstn_953Jdgr8b4sdQ9pw",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wSBCjd3Pv8jDCGXt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2bSXG5sGhv7NbRdz"
+     ],
+     "part_tier": null,
+     "problem_md": "A taxi company uses the A* algorithm to find the shortest route from Home to the Airport.\n\nThe graph has six nodes: Home, P, Q, R, S and Airport. The first table shows each pair of nodes that are joined in the graph, and the distance between them in kilometres. Each route can be travelled in both directions.\n\n| Nodes joined | Distance (km) |\n|---|---|\n| Home and P | 5 |\n| Home and Q | 9 |\n| Home and S | 6 |\n| P and R | 2 |\n| P and Airport | 4 |\n| Q and S | 2 |\n| R and Airport | 4 |\n| S and Airport | 4 |\n\nThe second table shows the heuristic (h) for each node.\n\n| Node | Heuristic (h) |\n|---|---|\n| Home | 7 |\n| P | 4 |\n| Q | 4 |\n| R | 4 |\n| S | 2 |\n| Airport | 0 |\n\nThe algorithm has started. The first four rows of the working table have been completed.\n\n| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Home | Home | 0 | 7 | 7 |\n| Home | P | 5 | 4 | 9 |\n| Home | Q | 9 | 4 | 13 |\n| Home | S | 6 | 2 | 8 |\n|   |   |   |   |   |\n|   |   |   |   |   |\n\nCalculate the values for the next **two** rows and write them in the table.\n\nOne of these rows has Airport as its Destination node. Explain why the algorithm does not stop at this point.",
+     "solution_md": "| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Home | Home | 0 | 7 | 7 |\n| Home | P | 5 | 4 | 9 |\n| Home | Q | 9 | 4 | 13 |\n| Home | S | 6 | 2 | 8 |\n| **S** | **Airport** | **6 + 4 = 10** | **0** | **10** |\n| **S** | **Q** | **6 + 2 = 8** | **4** | **12** |\n\nS has the lowest total (8) of the nodes in the table that have not been checked from, so the next two rows start from S. Home is not given a row because it has already been checked from.\n\nS to Airport: g = 6 + 4 = 10, h = 0, f = 10 **[1]**\n\nS to Q: g = 6 + 2 = 8, h = 4, f = 12. This route to Q is shorter than the route straight from Home (g = 9), so Q gets a new row **[1]**\n\nThe algorithm does not stop because Airport does not have the lowest total. P has a lower total (9) than Airport (10), so P must be checked first **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the row S, Airport, 10, 0, 10\n> \n> **1 mark** for the row S, Q, 8, 4, 12\n> \n> **1 mark** for Airport does not have the lowest total // P has a lower total (9) than Airport (10) // P must be checked first\n> \n> Accept the two rows in either order\n> \n> Accept the cost from start node written as a sum, for example 6 + 4 = 10\n> \n> Do not accept rows that start from P: P has the lowest cost from start node (5), but S has the lowest total (8)\n> \n> Do not accept \"a shorter route might exist\" for the last mark unless it refers to the lower total of P\n\n> **[exam-tip]**\n> The most common error is choosing the node with the lowest cost from start node (g). The algorithm always chooses the lowest total (f = g + h). Here that is S with a total of 8, not P with a cost of 5.\n> \n> Students also miss the row for Q. Q is already in the table, but the route through S (cost 8) is shorter than the route straight from Home (cost 9), so Q needs a new row. Give a node a new row only when its new cost from start node is lower than the one already in the table."
+    }
+   ]
+  },
+  {
+   "id": "qstn_jq8k5KqVnJgTGQ9q",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_jPZ2DzZrWcNz6mFD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2bSXG5sGhv7NbRdz"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer game uses the A* algorithm to find a route for a character from the Gate node to the Tower node.\n\nThe table shows the working after a row has been added for each of the three nodes joined to Gate.\n\n| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Gate | Gate | 0 | 9 | 9 |\n| Gate | J | 3 | 9 |   |\n| Gate | K | 5 | 5 |   |\n| Gate | L | 2 | 10 |   |\n\nComplete the Total (f = g + h) column.\n\nState the node that will appear in the Start node column of the next row.",
+     "solution_md": "| Start node | Destination node | Cost from start node (g) | Heuristic (h) | Total (f = g + h) |\n|---|---|---|---|---|\n| Gate | Gate | 0 | 9 | 9 |\n| Gate | J | 3 | 9 | **12** |\n| Gate | K | 5 | 5 | **10** |\n| Gate | L | 2 | 10 | **12** |\n\nJ: 3 + 9 = 12, K: 5 + 5 = 10, L: 2 + 10 = 12 **[1]**\n\nGate has already been checked. Of the other nodes, K has the lowest total (10), so the next row starts from **K** **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for all three totals: J 12, K 10 and L 12\n> \n> **1 mark** for K\n> \n> Do not accept L: L has the lowest cost from start node (2), but K has the lowest total (10)\n> \n> Do not accept Gate: the nodes joined to Gate have already been added to the table\n\n> **[exam-tip]**\n> The algorithm chooses the node with the lowest total (f), not the lowest cost from start node (g). Students who look only at the cost column choose L, because 2 is the smallest cost. Adding the heuristic can change which node has the lowest value.\n> \n> Ignore the first row when you look for the lowest total. Gate has the smallest total of all (9), but its joined nodes are already in the table, so it is not chosen again."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wtXTBqjTs4Jj3tdv",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_ZfJMK6bxRVjdCGnJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mGZdmv3QdMBSsgXD"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer game contains a character that must find its way out of a maze. The character is controlled by a program that uses reinforcement learning.\n\nThe program is not given the route, and there is no data that shows the correct moves.\n\nExplain how reinforcement learning allows the program to learn to reach the exit, and why supervised learning would not be suitable.",
+     "solution_md": "The character is the agent and the maze is the environment. The agent learns by performing actions, such as moving in one direction, and seeing the results of those actions. **[1]**\n\nIt learns by trial and error, using its own experiences. **[1]**\n\nA good action, such as reaching the exit, receives positive feedback or a reward. A bad action, such as moving into a wall, receives negative feedback or a punishment. The program uses this feedback to improve its performance on later attempts. **[1]**\n\nSupervised learning needs labelled data, with known inputs and their associated outputs. There is no data showing the correct moves, so supervised learning has nothing to learn from, whereas reinforcement learning can learn without labelled data or specific instructions. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Reinforcement learning (Max 3 from):**\n> \n> - An agent (the character) learns to behave in an environment (the maze / the game)\n> - ... by performing actions and seeing the results of the actions\n> - It learns by trial and error using its own experiences\n> - A good action receives positive feedback // a reward\n> - A bad action receives negative feedback // a punishment\n> - It uses the feedback to improve its performance at accomplishing similar tasks\n> \n> **Supervised learning is not suitable (Max 2 from):**\n> \n> - Supervised learning needs known inputs with associated outputs // labelled input data\n> - ... there is no labelled data / no data showing the correct moves here, so it has no known outputs to learn from\n> - Reinforcement learning learns without any labelled data // without specific instructions\n> \n> **[4 marks]**\n> \n> Accept \"adjusts node weightings to achieve the correct outcome\" as a reinforcement learning point\n> \n> Award the second supervised learning point only when it is linked to the need for known outputs. Repeating \"there is no data showing the correct moves\" on its own is not enough, because the question already states it\n\n> **[exam-tip]**\n> Examiners report that answers specific to reinforcement learning score well, while generic statements about AI do not. Name the feedback: a reward for a good action and a punishment for a bad action.\n> \n> Use the scenario. Say which part is the agent and which part is the environment, and give an example of a good action and a bad action in the maze. For the second half, the key idea is that supervised learning needs known outputs, and this game has none."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bh2FsSQ5RVtJ2t7F",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GhpNCFZNgjG9tmS4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mGZdmv3QdMBSsgXD"
+     ],
+     "part_tier": null,
+     "problem_md": "A large public library has stored the records of every book loan for the last ten years. Each record contains the book, the date and the age of the borrower. Nobody at the library knows in advance what patterns the records contain.\n\nThe library wants to use machine learning to discover patterns in the loans that its staff have never noticed.\n\nExplain why unsupervised learning is suitable for this task.",
+     "solution_md": "Unsupervised learning only requires input data to be given, and the library has a very large amount of input data in its loan records. **[1]**\n\nThe loan records have no known outputs attached, so they are unlabelled data. Unsupervised learning is not trained on the right output, so it does not need known outputs to learn. **[1]**\n\nUnsupervised learning discovers patterns on its own, so it can find patterns in the loans that were previously undetected by the staff. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for unsupervised learning only requires input data to be given (the loan records)\n> \n> **1 mark** for it uses unlabelled input data // it is not trained on the right output (the loan records have no known outputs)\n> \n> **1 mark** for it helps unknown patterns in data to be found // it discovers patterns on its own that were previously undetected (by the staff)\n> \n> **Max 2 marks** if no point is linked to the library loan records\n> \n> Do not accept \"it uses the known outputs to make predictions\". That describes supervised learning, and these records have no known outputs\n\n> **[exam-tip]**\n> Be careful not to describe supervised learning by mistake, for example by writing that the system is \"trained on the correct answers\". Unsupervised learning is the category that needs no correct answers at all, only input data.\n> \n> Tie each point to the scenario. Saying \"it finds patterns\" earns more when you add that the patterns are ones the staff have not noticed, and that the loan records have no known outputs to learn from."
+    }
+   ]
+  },
+  {
+   "id": "qstn_P5zmBRXF2Y2tRP6F",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_59QbY9dC9jZZKjsf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mGZdmv3QdMBSsgXD"
+     ],
+     "part_tier": null,
+     "problem_md": "Machine learning can be divided into categories.\n\nComplete the table by writing the machine learning category that matches each description.\n\nChoose from: supervised learning, unsupervised learning, reinforcement learning, deep learning.\n\nUse each category **once**.\n\n| Description | Machine learning category |\n|---|---|\n| Learns from data in which each input is given together with its known output |   |\n| Learns by performing actions in an environment and receiving rewards or punishments |   |\n| Is given only input data and finds unknown patterns in it, without being trained on the right output |   |\n| Uses an artificial neural network with a large number of hidden layers |   |",
+     "solution_md": "| Description | Machine learning category |\n|---|---|\n| Learns from data in which each input is given together with its known output | **Supervised learning** |\n| Learns by performing actions in an environment and receiving rewards or punishments | **Reinforcement learning** |\n| Is given only input data and finds unknown patterns in it, without being trained on the right output | **Unsupervised learning** |\n| Uses an artificial neural network with a large number of hidden layers | **Deep learning** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **2 marks** for all four rows correct\n> \n> **1 mark** for two rows correct\n> \n> Each category is used once, so exactly three correct rows is not possible\n> \n> Accept \"supervised\", \"unsupervised\", \"reinforcement\" and \"deep\" without the word \"learning\"\n\n> **[exam-tip]**\n> The two rows that are easiest to confuse are unsupervised learning and deep learning, because both can find patterns that people have not noticed. Use the clue that belongs to only one of them: deep learning is the category built on an artificial neural network with a large number of hidden layers.\n> \n> Remember that deep learning counts as a machine learning category in its own right. If you are asked to state a category, any one of the four is accepted."
+    }
+   ]
+  },
+  {
+   "id": "qstn_BTt7GRCx4GwqRwHp",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_qJXQfvFWVBG4txtZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bY2pBD8YBHs9jWRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A company uses a machine learning system to make decisions from its data. The system is built on an artificial neural network. Each month the company gives the system more data, and its results become more accurate.\n\nThe developers now plan to increase the number of hidden layers in the network.\n\nExplain how the artificial neural network helps this system to learn, and why increasing the number of hidden layers could improve its results.",
+     "solution_md": "An artificial neural network simulates the functioning of a biological brain, and it is a key component of machine learning. **[1]**\n\nIt has self-learning capabilities, so it produces better results as more data becomes available. This is why the system becomes more accurate each month. **[1]**\n\nThe network is organised into an input layer, hidden layers and an output layer, and weights are assigned to the connections between the nodes. **[1]**\n\nIncreasing the number of hidden layers gives the system more complex learning capabilities, so it can produce more accurate results. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> - An artificial neural network simulates the functioning of a (biological / human) brain\n> - Artificial neural networks are a key component of machine learning // allow the system to make intelligent decisions on its own\n> - It has self-learning capabilities that produce better results as more data becomes available\n> - It can solve problems that would be impossible or difficult for humans\n> - It is layered (input, hidden and output layers) // it has many interconnected layers, some of which are hidden\n> - Weights are assigned between nodes\n> - Weights are adjusted through training to give a more accurate result\n> - A larger number of hidden layers gives more complex learning capabilities // more accurate results\n> - More layers progressively extract higher level features from the (raw) input\n> \n> **[4 marks]**\n> \n> **Max 3 marks** if no point is made about the effect of increasing the number of hidden layers\n> \n> Do not accept \"more hidden layers make the system faster\". The credited effect of more hidden layers is more complex learning and more accurate results, not speed\n\n> **[exam-tip]**\n> A common mistake is to spend the whole answer describing, step by step, how the weights are corrected after an error. Only one point about adjusting weights is credited here. The question also asks how the network helps the system learn from more data, and what extra hidden layers do.\n> \n> Make sure the second half of the question gets a point of its own. If you write \"more layers means it is better\", you do not score, because \"better\" is too vague. Say what improves: more complex learning, or more accurate results."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rNKxqwPBRVM4kyz3",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_j9C9fywrsstqZkvT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bY2pBD8YBHs9jWRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A company that installs security cameras has collected millions of images. The images are not labelled, so there is no record of who or what appears in each one.\n\nThe company wants a system that can identify faces in new images. The developers decide to use deep learning.\n\nOutline **three** reasons why deep learning is suitable for this system.",
+     "solution_md": "Deep learning makes good use of unstructured data, such as these images. **[1]**\n\nDeep learning outperforms other methods when the quantity of data is large, and the company has millions of images. **[1]**\n\nDeep learning is effective at identifying hidden patterns, such as the features of a face, that would be too complex or too time consuming for humans to find. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - Deep learning makes good use of unstructured data (such as images)\n> - Deep learning outperforms other methods when the data size is large\n> - Deep learning can be trained using large quantities of unlabelled data\n> - Deep learning is effective at identifying hidden patterns // patterns that humans might not be able to see // patterns that are too complex or time consuming for humans to find\n> - Deep learning enables machines to process data with a nonlinear approach\n> - Deep learning can give a more accurate outcome with higher numbers of hidden layers\n> \n> **[3 marks]**\n> \n> Do not accept a description of deep learning with no reason attached, for example \"it uses an artificial neural network\" on its own. That describes what deep learning is, not why it suits this system\n> \n> Do not accept \"it is more accurate\" on its own, with no link to the number of hidden layers\n\n> **[exam-tip]**\n> Examiners report that the highest marks go to answers that are specific to deep learning, not generic statements that could describe any kind of AI. \"It learns by itself\" or \"it is intelligent\" is too general to earn a mark here.\n> \n> Look back at the stem for the clues: a very large quantity of data, data in the form of images, and data that is not labelled. Each of these matches a reason examiners credit, because images are unstructured data. Accuracy is only credited when you link it to a higher number of hidden layers."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gKxXk3pGDXx4kvS8",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_g43PDqP3QfpfXyfw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bY2pBD8YBHs9jWRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following statements about artificial neural networks and deep learning.\n\nAn artificial neural network is modelled on the human .......................... .\n\nThe nodes in an artificial neural network are organised into an input layer, one or more .......................... layers and an output layer.\n\n.......................... are assigned to the connections between the nodes.\n\nDeep learning is a specialised form of .......................... learning.",
+     "solution_md": "An artificial neural network is modelled on the human **brain**.\n\nThe nodes in an artificial neural network are organised into an input layer, one or more **hidden** layers and an output layer.\n\n**Weights** are assigned to the connections between the nodes.\n\nDeep learning is a specialised form of **machine** learning.\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **2 marks** for all four gaps correct\n> \n> **1 mark** for two or three gaps correct\n> \n> Accept \"biological brain\" for the first gap\n> \n> Accept \"weightings\" for the third gap\n> \n> Do not accept \"input\" or \"output\" for the second gap, because both of those layers are already named in the sentence\n\n> **[exam-tip]**\n> Mark schemes name the three layers of a network exactly: input, hidden and output. A description such as \"the layers in the middle\" is not the technical term, so learn the word hidden.\n> \n> Do not treat deep learning as something separate from machine learning. Examiners credit it as a specialised form of machine learning, and they also accept it as one of the machine learning categories, alongside supervised, unsupervised and reinforcement learning."
+    }
+   ]
+  },
+  {
+   "id": "qstn_HvBRBpWWnnCyMFTr",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_MzDPcrt9jxTKJT2X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6F4Xrny7TCtHppSH"
+     ],
+     "part_tier": null,
+     "problem_md": "A delivery company sends vans from its **Depot** to six shops, A to F.\n\nThe table lists every road that joins two places, and the time in minutes to drive along that road. Each road can be driven in both directions.\n\n| Road | Time (minutes) |\n|---|---|\n| Depot to A | 7 |\n| Depot to B | 12 |\n| Depot to C | 3 |\n| A to B | 11 |\n| A to D | 9 |\n| B to D | 3 |\n| B to E | 5 |\n| C to E | 1 |\n| D to F | 12 |\n| E to F | 2 |\n| C to F | 4 |\n\nCalculate the shortest time between the Depot and each of the shops using Dijkstra's algorithm.\n\nShow your working **and** write your answers in the table.\n\n| A | B | C | D | E | F |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |",
+     "solution_md": "**Working**\n\nSet the Depot to 0 and every shop to ∞ **[1]**\n\nVisit Depot (0): A = 0 + 7 = 7, B = 0 + 12 = 12, C = 0 + 3 = 3\n\nVisit C (3): E = 3 + 1 = 4, F = 3 + 4 = 7\n\nVisit E (4): B = 4 + 5 = 9, which is less than 12, so B is updated. F = 4 + 2 = 6, which is less than 7, so F is updated **[1]**\n\nVisit F (6): D = 6 + 12 = 18\n\nVisit A (7): B through A = 7 + 11 = 18, which is more than 9, so B is not updated. D = 7 + 9 = 16, which is less than 18, so D is updated **[1]**\n\nVisit B (9): D = 9 + 3 = 12, which is less than 16, so D is updated\n\nVisit D (12): every node has now been visited\n\n**Answers**\n\n| A | B | C | D | E | F |\n|---|---|---|---|---|---|\n| **7** | **9** | **3** | **12** | **4** | **6** |\n\n**[2]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **Working (Max 3)**\n> \n> May be seen in a table or in the working lines\n> \n> MP1 Initialisation: setting the Depot to 0\n> \n> MP2 ... and the rest of the nodes to ∞\n> \n> MP3 Evidence to show values at nodes being updated\n> \n> MP4 Evidence to show visited node(s)\n> \n> MP5 Evidence to show a correct calculation of at least one route\n> \n> MP6 Evidence to show more than one route has been calculated for at least one node\n> \n> **Correct answers (Max 2)**\n> \n> **2 marks** for all six correct values\n> \n> **1 mark** for four or five correct values\n> \n> Accept infinity for ∞\n> \n> Do not accept B = 12, D = 15, D = 16 or F = 7. Each is the time of a real route, but not the shortest one\n\n> **[exam-tip]**\n> The direct road is not always the shortest route. The road from the Depot to B takes 12 minutes, but going through C and E takes only 9. Keep checking until every node has been visited, because a value can change more than once: D here goes from ∞ to 18, then 16, then 12.\n> \n> Three of the five marks are for working, so show it. Write the starting values (0 and ∞), show each addition, and make clear which nodes you have visited. A correct answer table with no working can score only 2 marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CCTyYmZvS9MDzRDQ",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6MDrTySznXMPJbJW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6F4Xrny7TCtHppSH"
+     ],
+     "part_tier": null,
+     "problem_md": "A delivery app uses Dijkstra's algorithm to find the shortest distance from **Start** to each of the other places, A to E.\n\nThe table lists every road that joins two places, and the length of the road in kilometres. Each road can be travelled in both directions.\n\n| Road | Distance (km) |\n|---|---|\n| Start to A | 2 |\n| Start to B | 5 |\n| Start to C | 9 |\n| A to C | 6 |\n| A to D | 7 |\n| B to C | 2 |\n| B to D | 6 |\n| C to E | 4 |\n| D to E | 3 |\n\nThe algorithm has visited Start, and then A. This table shows the working at this point.\n\n| Node | Shortest distance so far (km) | Visited |\n|---|---|---|\n| Start | 0 | Yes |\n| A | 2 | Yes |\n| B | 5 | No |\n| C | 8 | No |\n| D | 9 | No |\n| E | ∞ | No |\n\nComplete the table to show the working after the algorithm has visited the **next** node.\n\n| Node | Shortest distance so far (km) | Visited |\n|---|---|---|\n| Start |   |   |\n| A |   |   |\n| B |   |   |\n| C |   |   |\n| D |   |   |\n| E |   |   |",
+     "solution_md": "B has the lowest distance (5) of the nodes not yet visited, so B is visited next **[1]**\n\nRoute to C through B: 5 + 2 = 7. This is less than 8, so C is updated to 7 **[1]**\n\nRoute to D through B: 5 + 6 = 11. This is more than 9, so D stays at 9 **[1]**\n\n| Node | Shortest distance so far (km) | Visited |\n|---|---|---|\n| Start | 0 | Yes |\n| A | 2 | Yes |\n| B | 5 | **Yes** |\n| C | **7** | No |\n| D | **9** | No |\n| E | ∞ | No |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for B shown as visited, with no other new node shown as visited\n> \n> **1 mark** for C updated to 7\n> \n> **1 mark** for D still 9 and E still ∞\n> \n> Accept a tick, a cross or a crossed-out node to show visited\n> \n> Accept infinity for ∞\n> \n> Do not accept C visited next. C is the unvisited node nearest to A, but its distance so far (8) is not the lowest of the unvisited nodes\n> \n> Do not accept D = 11. A new route only replaces the old value when it is shorter\n\n> **[exam-tip]**\n> The next node to visit is the unvisited node with the lowest distance in the whole table. It does not have to be joined to the node you visited last. Here A was visited last, but B is next because 5 is the lowest value left.\n> \n> When you check a route through the node you are visiting, add its distance so far to the length of the road. Then compare with the value already in the table and keep the smaller one. Students often write the new value over the old one without comparing."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CbQbsD2mmnDSkQFn",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MPPZM8mZGn7Whmjm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6F4Xrny7TCtHppSH"
+     ],
+     "part_tier": null,
+     "problem_md": "A mapping app stores towns as nodes in a graph. Each road that joins two towns is labelled with its length in kilometres.\n\nThe app uses Dijkstra's algorithm on this graph.\n\nDescribe the purpose of Dijkstra's algorithm.",
+     "solution_md": "Dijkstra's algorithm is used to find the shortest route from one town (node) to another town in the graph **[1]**\n\nThe shortest route is decided by the total of the distances along the roads **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - to find the shortest / optimal / most cost-effective route\n> - between two nodes in a graph // from a start node to each of the other nodes\n> - based on distance / cost / time (the values on the roads)\n> \n> **[2 marks]**\n> \n> Accept path for route\n> \n> Do not award the first marking point for \"finds a route\" or \"searches the graph\" without the idea of shortest, optimal or lowest cost. Any search can find a route; Dijkstra's algorithm finds the best one.\n\n> **[exam-tip]**\n> Purpose means what the algorithm is for, not how it works. Many students use all their lines on the method (setting the start to 0, visiting nodes, updating values) and never write the one idea the question asks for: it finds the shortest route.\n> \n> Always say what \"shortest\" is measured in. In this app it is distance, but in another question it could be time or cost."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qGNJtpxsCHmbv5kY",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_vNQrtzN2W3mrzyMc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HNS3xKz4BqMRHX7K"
+     ],
+     "part_tier": null,
+     "problem_md": "A travel company is developing two Artificial Intelligence (AI) systems.\n\n- **System 1** finds the cheapest way to fly between two cities, using the flights that the company offers between pairs of cities.\n- **System 2** is an artificial neural network that learns to predict whether a flight will arrive late.\n\nExplain how graphs can be used to aid AI in **each** system.",
+     "solution_md": "**System 1**\n\nEach city is a node, and each flight is a connection between two nodes with the price of the flight as its value **[1]**\n\nAn algorithm such as A* or Dijkstra's algorithm analyses the graph to find the most cost-effective route between the two cities **[1]**\n\n**System 2**\n\nThe artificial neural network can itself be represented as a graph, with nodes arranged in layers (input, hidden and output) and weights on the connections between the nodes **[1]**\n\nThe graph is used by a machine learning method, such as back propagation of errors, and the weights are adjusted through training to give more accurate predictions **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> System 1 (max 2)\n> \n> - each city is a node // each flight is a connection between two nodes // the graph shows the relationships between the cities\n> - the price of each flight is the value on its connection\n> - the problem is solved by finding a path in the graph between the two cities\n> - the graph is analysed by an algorithm such as A* / Dijkstra's algorithm\n> - ... to find the cheapest / most cost-effective / optimal route\n> \n> System 2 (max 2)\n> \n> - an artificial neural network can be represented using a graph\n> - the nodes are arranged in layers // input, hidden and output layers\n> - weights are assigned to the connections between nodes\n> - the graph is used / analysed by algorithms used in machine learning ...\n> - ... such as back propagation of errors / regression methods\n> - the weights are adjusted through training to give a more accurate result\n> \n> **[4 marks]**\n> \n> Accept \"vertex\" for node, and \"edge\" / \"arc\" for connection\n> \n> Do not accept, for System 2, a chart of past flight delays plotted against time, because that is a different meaning of the word \"graph\"\n\n> **[exam-tip]**\n> Most students answer System 1 well, because a map of cities looks like a graph. Many then write nothing about graphs for System 2 and are limited to 2 marks. An artificial neural network is a graph too: its nodes are joined by connections, and each connection carries a weight.\n> \n> Watch the word \"each\" in the question. The marks are split between the two systems, so four points about route finding still only earn 2 marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZHnYc8TdKnmSx3wS",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_3R4c7HMsrYjhNGtN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PJ3XV294tnSqSBV3"
+     ],
+     "part_tier": null,
+     "problem_md": "An artificial neural network is being trained to recognise handwritten numbers.\n\nDescribe how back propagation of errors is used to improve the results produced by the network.",
+     "solution_md": "The network is given a handwritten number and produces an output. This output is compared with the correct outcome to find the errors. **[1]**\n\nInformation about the errors is transmitted back through the network, from the output layer through the hidden layers. **[1]**\n\nThe weights between the nodes are adjusted to reduce the errors, so the next result is more accurate. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - the errors in the output are found // the output is compared with the correct / known output\n> - information about the errors is transmitted / sent back through the network // through the hidden layers\n> - the weights between the nodes are adjusted to reduce the errors // to give a more accurate result\n> - this is repeated many times during training // the results become more accurate as more data is used\n> \n> **[3 marks]**\n> \n> Accept weightings for weights\n> \n> Accept information about the errors being transmitted through the network without a direction being given\n> \n> Credit the weights marking point once only, however many times weights are mentioned\n> \n> Do not accept the input data being changed to reduce the errors. The data stays the same and the weights change\n> \n> Do not accept a description of the structure of the network on its own, such as input, hidden and output layers, because it does not say what happens to the errors\n\n> **[exam-tip]**\n> Many students write down everything they know about neural networks, such as layers, nodes and deep learning, and score nothing. The question asks what happens to the errors. Build your answer around three steps: find the errors, send information about them back through the network, and adjust the weights.\n> \n> A common wrong answer is that the network changes its input data. The data does not change. The weights between the nodes change. You do not need to show how much each weight changes."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rwTM6GbY8ypyCVDF",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_R8SDKZFh2B2vzsZf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HNS3xKz4BqMRHX7K"
+     ],
+     "part_tier": null,
+     "problem_md": "A company uses an Artificial Intelligence (AI) system to plan routes for robots in a large warehouse. The warehouse has 20 storage points. Some pairs of storage points are joined directly by a path. The time taken to travel along each path is known.\n\nExplain how a graph can be used to help the AI plan a route for a robot.",
+     "solution_md": "Each storage point is represented as a node, and each path is a connection between two nodes **[1]**\n\nThe time taken to travel along a path is stored as the value on that connection **[1]**\n\nThe graph can be analysed by an algorithm such as A* or Dijkstra's algorithm to find the route with the shortest total time between the start node and the destination node **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - each storage point is represented as a node\n> - each path is a connection between two nodes // the graph shows the relationships between the storage points\n> - the time for each path is the value on its connection\n> - planning a route is solved as finding a path in the graph (from the start node to the destination node)\n> - the graph can be analysed by an algorithm ...\n> - ... such as A* / Dijkstra's algorithm\n> - ... to find the optimal / shortest / quickest route\n> \n> **[3 marks]**\n> \n> Accept \"vertex\" for node, and \"edge\" / \"arc\" for connection\n> \n> Do not accept distance as the value stored on a connection, because the values in this graph are travel times\n\n> **[exam-tip]**\n> This question does not ask you to carry out a search. Students who write out the steps of Dijkstra's algorithm, such as setting the start node to 0, spend a long time and still miss the marks for saying what the graph represents. Link every point to the warehouse: what is a node, what is a connection, and what the value on a connection means.\n> \n> The values on a graph do not have to be distances. Here they are times, so the best route is the quickest one, which is not always the physically shortest one."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fG3xQzbkgG9TnMyf",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4YHbDKx3dG6z3X6v",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PJ3XV294tnSqSBV3"
+     ],
+     "part_tier": null,
+     "problem_md": "An artificial neural network produces an output that contains errors. Information about these errors is transmitted back through the network so that the weights between the nodes can be adjusted.\n\nName this method used in machine learning.",
+     "solution_md": "Back propagation of errors **[1]**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> **1 mark** for back propagation (of errors)\n> \n> Accept backpropagation or back-propagation\n> \n> Do not accept regression, which is a different method named separately in the syllabus\n> \n> Do not accept deep learning, reinforcement learning, supervised learning or unsupervised learning, which are categories of machine learning and not this method\n\n> **[exam-tip]**\n> The syllabus names two methods side by side, back propagation of errors and regression, so students often swap them. Link the word \"back\" to the errors: information about the errors travels back through the network.\n> \n> Some students write reinforcement learning because it also helps a system improve. Reinforcement learning is a category of machine learning in which an agent learns from rewards and punishments. Back propagation of errors is a method that sends information about errors through a neural network so that its weights can be adjusted."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FkrmVDSdCWW9wmCj",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Wzs4TSn2ryBG64rF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HNS3xKz4BqMRHX7K"
+     ],
+     "part_tier": null,
+     "problem_md": "An Artificial Intelligence (AI) system stores information about a problem as a graph.\n\nDescribe the structure of a graph.",
+     "solution_md": "A graph is made up of nodes **[1]**\n\nThe nodes are joined by connections that show the relationships between the nodes **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **Any two from:**\n> \n> - a graph is a set of nodes\n> - nodes are joined / connected to other nodes // the connections show the relationships between nodes\n> - a connection between two nodes can have a value, such as a distance / cost / time\n> \n> **[2 marks]**\n> \n> Accept \"vertices\" for nodes, and \"edges\" / \"arcs\" / \"lines\" for connections\n> \n> Do not accept a description of a chart that plots data against x and y axes, such as a line graph or a bar chart, because that is a different meaning of the word \"graph\"\n\n> **[exam-tip]**\n> In AI, a graph is not a chart with axes. An answer about axes, plotted points or a line of best fit gains no marks. Picture a map of towns joined by roads instead: each town is a node and each road is a connection between two nodes.\n> \n> Two marks need two different points. \"A graph has nodes\" earns one mark. For the second mark, say what joins the nodes, or what the value on a connection can represent."
+    }
+   ]
+  },
+  {
+   "id": "qstn_6SyxDD2rXrvG99Bw",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Dvf9zNVSBdCv8xCn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 11,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mGZdmv3QdMBSsgXD"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by **Reinforcement Learning **in relation to Artificial Intelligence.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 Reinforcement learning is a machine learning technique based on feedback / rewards / punishment.\n> \n> MP2 … in which an agent learns to behave in an environment by performing the actions and seeing the results of the actions.\n> \n> MP3 … for each good action, the agent gets positive feedback / reward and each bad action receives negative feedback / punishment.\n> \n> MP4 The agent learns automatically using feedback without any labelled data / specific instructions.\n> \n> MP5 Adjust node weightings to achieve the correct outcome. // Using feedback to improve its performance at accomplishing similar tasks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_QmxxrC54n9ygsyry",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dZQGnNJGvRPmbjJ3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bY2pBD8YBHs9jWRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by **Deep Learning **in relation to Artificial Intelligence (AI).",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 Deep learning learns by finding hidden patterns that are **undetectable to humans**.\n> \n> MP2 It structures algorithms in layers: **input **layer, **hidden **layers and **output **layer.\n> \n> MP3 … to create an artificial neural network to learn and make intelligent decisions on its own.\n> \n> MP4 It is trained using large quantities of unlabelled data.\n> \n> MP5 Deep learning requires/uses a **large number of** hidden layers.\n> \n> MP6 … the larger the number of layers, the higher the level of success."
+    }
+   ]
+  },
+  {
+   "id": "qstn_PjyBrxTbGVnhBKf5",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_yXS8VqS2hXvmyQ6V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mGZdmv3QdMBSsgXD",
+      "spcpt_bY2pBD8YBHs9jWRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Artificial neural networks have played a significant role in the development of machine learning.\n\nExplain what is meant by the term **artificial neural network**.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 4) **\n> \n> MP1 An artificial neural network is the component of artificial intelligence that is meant to simulate the functioning of a biological brain.\n> \n> MP2 Artificial neural networks are a key component of machine learning.\n> \n> MP3 They can solve problems that would prove impossible or difficult for humans // Artificial neural networks have self-learning capabilities that enable them to produce better results as more data becomes available\n> \n> MP4 Artificial neural networks can be layered (input, hidden and output layers) // Artificial neural networks have many interconnected layers, some / many of which are hidden\n> \n> MP5 Weights are assigned between nodes\n> \n> MP6 Weights are adjusted through training to give a more accurate result\n> \n> MP7 More complex learning capabilities / more accurate results are available with larger numbers of hidden layers"
+    }
+   ]
+  },
+  {
+   "id": "qstn_4Tz3Wk4kjK2vSG3q",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_Bq6Nr2DpFjGC2tfN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_HNS3xKz4BqMRHX7K",
+      "spcpt_6F4Xrny7TCtHppSH"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the shortest distance between the Start and each of the destinations in the diagram using Dijkstra’s algorithm.\n\nShow your working and write your answers in the table provided.\n\n![Diagram of nodes A to F connected by lines with weights, depicting a graph. A to Start has 8, A-B 4, B-D 2, B-C 8, D-E 2, C-E 3, C-F 9, E-F 7, Start-F 10.](assets/001-diagram-of-nodes-a-to-f-connected-by-lines-with-.png)\n\nWorking\n\nAnswers:\n\n| **A** | **B** | **C** | **D** | **E** | **F** |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point - working **(Max 3) **\n> May be seen on diagram or in working section\n> \n> - MP1    Initialisation – setting Start to 0\n> - MP2    …and the rest of the towns to\n> - MP3    Evidence to show values at nodes being updated\n> - MP4    Evidence to show ‘visited node(s)’\n> - MP5    Evidence to show a correct calculation of at least one route\n> - MP6    Evidence to show more than one route has been calculated for at least one town\n> \n> Correct Answers **(Max 2)** \n> **Two **marks for all six correct values \n> **One** mark for four or five correct values.\n> \n> | **A** | **B** | **C** | **D** | **E** | **F** |\n> |---|---|---|---|---|---|\n> | 8 | 12 | 19 | 14 | 16 | 10 |"
+    }
+   ]
+  }
+ ]
+}

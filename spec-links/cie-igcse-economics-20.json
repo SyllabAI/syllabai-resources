@@ -1,0 +1,6367 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-economics-20",
+ "qual": "cie-igcse-economics-2023-2025",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-economics-2023-2025",
+  "family": "nmk_outcomes",
+  "official_points": 129
+ },
+ "totals": {
+  "items": 555,
+  "items_with_codes": 114,
+  "by_kind": {
+   "notes": 62,
+   "question_parts": 493,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 18,
+   "question_parts": 96,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 126,
+  "parts": 533,
+  "universe_ids": 126,
+  "universe_resolved": 7,
+  "pending_refs": 536,
+  "flashcards_discovered_uncoded": 836,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 18,
+   "resolved_refs": 97,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 13,
+    "J4_name_phrase_identity": 5
+   },
+   "ambiguous_pairs": 3,
+   "pending_refs": 536,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
+ },
+ "items": {
+  "rn_99ym9dT7PG6wVMMD": {
+   "kind": "note",
+   "label": "Scarcity - IGCSE Economics Revision Notes",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_9qXVsnyM5sCdKbKq": {
+   "kind": "note",
+   "label": "The Factors & Their Rewards - IGCSE Economics Revision Notes",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47",
+    "spcpt_vJRrS5TjzSJBwtzZ"
+   ]
+  },
+  "rn_8r3wHxQBFj9Bh3Tr": {
+   "kind": "note",
+   "label": "Opportunity Cost In Decision Making - IGCSE Economics ",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_8dzmQBr896tq5pQH"
+   ]
+  },
+  "rn_Kr9HqrHwQtSBGPqN": {
+   "kind": "note",
+   "label": "PPC & Economic Growth - IGCSE Economics Revision Notes",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "rn_JsxqbdNXtFzygcqy": {
+   "kind": "note",
+   "label": "Differences Between Micro & Macro - IGCSE Economics ",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h",
+    "spcpt_BjK2N8p2Ss3XBKhV"
+   ]
+  },
+  "rn_zfrcRFTDMNMVqYNP": {
+   "kind": "note",
+   "label": "Market Failure Terminology - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_nT7qSk9m8jx7kgjx",
+    "spcpt_gJCWVSz967s7C4sQ",
+    "spcpt_TPmsyF94VwDtYzr9"
+   ]
+  },
+  "rn_HbxQ7HfkprmsZtr2": {
+   "kind": "note",
+   "label": "The (Free) Market System | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_W2bDp2cDrcNKSqKT",
+    "spcpt_yqNr8ZVZP4qrfPKd",
+    "spcpt_WkP9hkTns4nRYYRJ"
+   ]
+  },
+  "rn_H5T7RgnVvDjd8FsH": {
+   "kind": "note",
+   "label": "Demand, Price & Quantity - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_FtjwQKmpHqn6F65m",
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "rn_w6WZmKjkhmQprky3": {
+   "kind": "note",
+   "label": "Conditions Of Demand - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_4bpTWFwBsDc8WBtb"
+   ]
+  },
+  "rn_WRxx5QtnQDRpHqcT": {
+   "kind": "note",
+   "label": "Supply, Price & Quantity - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_W2VqjcTDjpfP4pSF",
+    "spcpt_kNSpHbrHGdzp6TXp"
+   ]
+  },
+  "rn_r29TDgrMBnCXNPky": {
+   "kind": "note",
+   "label": "Conditions Of Supply - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "rn_BQWZrXkjTrZVKBQx": {
+   "kind": "note",
+   "label": "Equilibrium & Disequilibrium IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_5KcG9H3QS8sZNrc8"
+   ]
+  },
+  "rn_87cQrRTybZjkc7xk": {
+   "kind": "note",
+   "label": "Changing Market Conditions - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "rn_6VktR9PyrYRzRQth": {
+   "kind": "note",
+   "label": "Calculation & Determinants Of PED - IGCSE Economics ",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b",
+    "spcpt_668ZcW2t8Hv73FPW"
+   ]
+  },
+  "rn_cVws2c4z78Q2NWY8": {
+   "kind": "note",
+   "label": "Calculation, Determinants & PES Importance- IGCSE Economics ",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt",
+    "spcpt_zD8qPfw4bK6qzNvx",
+    "spcpt_QcFfMSKQYXcw46qf"
+   ]
+  },
+  "rn_R7rTsFSndhtYFgWB": {
+   "kind": "note",
+   "label": "The Free Market System - IGCSE Economics Revision Notes",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG",
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "rn_8jTXG67Q5x4SWxPD": {
+   "kind": "note",
+   "label": "Understanding Money - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_VNFZjgjTQxJpXPyb",
+    "spcpt_29mSKgVpDYhvnGyY",
+    "spcpt_GCMQwVhMh35q5z6v"
+   ]
+  },
+  "rn_TwcfnBHQmPJq2kDJ": {
+   "kind": "note",
+   "label": "Central & Commercial Banks - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF",
+    "spcpt_QSqgdkRphMhbBV8n"
+   ]
+  },
+  "rn_QP2wq4GzyvWZB8XF": {
+   "kind": "note",
+   "label": "Spending, Saving & Borrowing - IGCSE Economics Revision",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy",
+    "spcpt_s9GmFVS9cqbWGS5q"
+   ]
+  },
+  "rn_fjRbrD3jqHqRn4MK": {
+   "kind": "note",
+   "label": "Factors Affecting Choice Of Occupation - IGCSE Economics ",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "rn_Hnf3PhCgHhWpNchH": {
+   "kind": "note",
+   "label": "Wage Determination - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_MMPYJghg2JrGSHsb",
+    "spcpt_msTHbgcBMzwDxhNx",
+    "spcpt_9QXcyBDKyh7X4Bmn",
+    "spcpt_QHj64WKpX2wgtTTQ",
+    "spcpt_kdmvC9JCHKwc5QQy",
+    "spcpt_5V4myQxDbTSPVk9s"
+   ]
+  },
+  "rn_WDV2tdFtpQCRB24C": {
+   "kind": "note",
+   "label": "Wage Differentials - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_BVsndJgDWC9f4SNh"
+   ]
+  },
+  "rn_5Spy8vHKtRZb7Fbr": {
+   "kind": "note",
+   "label": "Division Of Labour & Specialisation - IGCSE Economics ",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_kG2g3BRz457k3Gwq",
+    "spcpt_24xWC7Cf4ywkkrSQ"
+   ]
+  },
+  "rn_WfDVtkfrvWgwQnrG": {
+   "kind": "note",
+   "label": "Types of Trade Unions | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_cBCkQjYdbQdVjYP7"
+   ]
+  },
+  "rn_bGnbPpKXzxhcGVnz": {
+   "kind": "note",
+   "label": "The Role of Trade Unions | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_F42pjqh5nphcvyr3",
+    "spcpt_tMQ5kQ4YGGwppcz8"
+   ]
+  },
+  "rn_d8Y8Qk2KjwH7WBxk": {
+   "kind": "note",
+   "label": "Advantages & Disadvantages Of Trade Unions IGCSE Economics ",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "rn_jskhJx4Ch7zhbgkJ": {
+   "kind": "note",
+   "label": "Classification Of Firms - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "rn_fyzmDc98F4M6cQGM": {
+   "kind": "note",
+   "label": "Small Firms - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JYV5Dq2yFqz4MVZr",
+    "spcpt_7Cwcg34n7qQNz99Z"
+   ]
+  },
+  "rn_3GxHqkMm85dcy3M5": {
+   "kind": "note",
+   "label": "The Growth Of Firms - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_rjpyqWNGKWBW8K6J",
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "rn_nxhHF8H5ttGQT9fp": {
+   "kind": "note",
+   "label": "Demand for the Factors of Production | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_jBbdgQrpbbPY5Xyb"
+   ]
+  },
+  "rn_chgFZqCckw3VgswS": {
+   "kind": "note",
+   "label": "Labour & Capital-Intensive Production - IGCSE Economics ",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_4WWRRFZBNdRrY65t",
+    "spcpt_SjXdG6jVcCj7dcY5"
+   ]
+  },
+  "rn_xFN6kq2sQhvsGDCx": {
+   "kind": "note",
+   "label": "Production & Productivity - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_Sd2fgXbGqh5BwqSR",
+    "spcpt_rpvvTZtfzkMv5qvB",
+    "spcpt_y7js6MK5GzTkV7c5"
+   ]
+  },
+  "rn_PCjgrJZW8MwmDYh4": {
+   "kind": "note",
+   "label": "Indicators Of Living Standards - IGCSE Economics ",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_4hTdfQ6kq2q3Y7y2",
+    "spcpt_nS9RxWthxNHnwBtY",
+    "spcpt_2c6hfFKVNHv54zX3",
+    "spcpt_nJN2FnfSNMHwKGyB"
+   ]
+  },
+  "rn_gjwWsxnnTT6fHm9j": {
+   "kind": "note",
+   "label": "Objectives Of Firms - IGCSE Economics Revision Notes",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_xZSDdRQXWYFwTqKm": {
+   "kind": "note",
+   "label": "Local, National & International - IGCSE Economics ",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "rn_HXV56HWrFyv9njFD": {
+   "kind": "note",
+   "label": "The Five Macroeconomic Aims - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_YgQdC63Fvc3Tqh8D",
+    "spcpt_kWmkQzj2DSCNQjB6",
+    "spcpt_bSy3hbRp7wHxXnt9",
+    "spcpt_SMKZtXfvJNzpwFcK",
+    "spcpt_5m4X7GK2kgmNcdM7"
+   ]
+  },
+  "rn_4K4QBcy7wPfB2NdG": {
+   "kind": "note",
+   "label": "Conflicts Between Macroeconomic Aims - IGCSE Economics ",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_TrVR8Q2SqgFSTr72"
+   ]
+  },
+  "rn_GQt2qgNsYVbB7ym2": {
+   "kind": "note",
+   "label": "The Government Budget - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.3",
+     "official_code": "4.3.3",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_tmGKDTZ2cvWhVqwH": {
+   "kind": "note",
+   "label": "Monetary Policy Measures - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF",
+    "spcpt_C3HpkM5NH5zwP64n"
+   ]
+  },
+  "rn_jVWD7ZP4SPf82gQD": {
+   "kind": "note",
+   "label": "Supply-Side Policy Measures - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_sxxCRd5x4sxXzFJn"
+   ]
+  },
+  "rn_xYY9KdcYPJ5m55HZ": {
+   "kind": "note",
+   "label": "Measures Of Economic Growth - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_M4ZYR9wm4N4ckKd7",
+    "spcpt_wvCtX8bHrntHWkDz",
+    "spcpt_j292tGmqW5tDV3gC"
+   ]
+  },
+  "rn_jgjXWNgYm7z4HQd5": {
+   "kind": "note",
+   "label": "Causes & Consequences of Growth | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_qB6MKM4CynHnMDvh"
+   ]
+  },
+  "rn_FmKTsxWPp5y7WMdW": {
+   "kind": "note",
+   "label": "Causes & Consequences of Recessions | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_NDP5FNrzKwFY36mZ",
+    "spcpt_qzZpRsZxpS3p8Ywb"
+   ]
+  },
+  "rn_FgD4S2JfyCyMb2Jd": {
+   "kind": "note",
+   "label": "Understanding Employment - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.1",
+     "official_code": "4.7.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_wRr2GdfmCbqQpRZV"
+   ]
+  },
+  "rn_kxK6CrdfrY57rNXc": {
+   "kind": "note",
+   "label": "Measurement Of Unemployment - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [],
+   "pending": [
+    "spcpt_8cV7kGzVB7MrMrBB",
+    "spcpt_NzBP5C2sKxNhvDVZ"
+   ]
+  },
+  "rn_y3k4KvWmj5kTBGzY": {
+   "kind": "note",
+   "label": "Types Of Unemployment - IGCSE Economics Revision Notes",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_Qbk8gmFd6THgCH3V": {
+   "kind": "note",
+   "label": "Indicators of Living Standards | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
+   "section": "5-economic-development",
+   "topic": "5-1-living-standards",
+   "codes": [],
+   "pending": [
+    "spcpt_YmfnjN44mMgMvyFH",
+    "spcpt_sKJBhjzdfn6wf85t"
+   ]
+  },
+  "rn_PCbMSzZRwHwWPXf5": {
+   "kind": "note",
+   "label": "Living Standards & Income Distribution - IGCSE Economics",
+   "section": "5-economic-development",
+   "topic": "5-1-living-standards",
+   "codes": [],
+   "pending": [
+    "spcpt_vS62KPdmxhxpPBS6"
+   ]
+  },
+  "rn_9KdfFhfqjC5g8m6H": {
+   "kind": "note",
+   "label": "Causes Of Poverty - IGCSE Economics Revision Notes",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_QZP2yZwGCZdChRqK": {
+   "kind": "note",
+   "label": "Policies To Alleviate Poverty - IGCSE Economics Revision ",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [],
+   "pending": [
+    "spcpt_nfjCxgsj3RrTNNyV"
+   ]
+  },
+  "rn_NG8dt7KZbrYs5yJs": {
+   "kind": "note",
+   "label": "Population Growth - IGCSE Economics Revision Notes",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_rYSZgBk5RQf7QTrj"
+   ]
+  },
+  "rn_4MKCzNmXX7r5fhSm": {
+   "kind": "note",
+   "label": "Effects Of Changing Population Sizes - IGCSE Economics ",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_tzTnGn7VdKWfbjvv",
+    "spcpt_f2bpXmfF7h8vJSh3",
+    "spcpt_s8pzQnyYhMT4GT27"
+   ]
+  },
+  "rn_zFGqNSzdZFWjDSP2": {
+   "kind": "note",
+   "label": "Reasons For Development Differences - IGCSE Economics ",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "rn_8bC6QbmW5R645phy": {
+   "kind": "note",
+   "label": "Reasons For National Specialisation - IGCSE Economics ",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t",
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "rn_VcxHpWsdQM8vb5Vm": {
+   "kind": "note",
+   "label": "Globalisation - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_kYSBSd9pmvKsXffs"
+   ]
+  },
+  "rn_xKHY5gzDmT86KFNz": {
+   "kind": "note",
+   "label": "Free Trade - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.3",
+     "official_code": "6.2.3",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_nZWpWChrYTJ5DckY": {
+   "kind": "note",
+   "label": "Protection - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_zjPFj9QmpVfmCxj6"
+   ]
+  },
+  "rn_53tP2rzBtZP3h7T6": {
+   "kind": "note",
+   "label": "Introduction To Exchange Rates - IGCSE Economics ",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_PWXxw3ddQZ9Svrj4"
+   ]
+  },
+  "rn_cX9CKfXWqmBzBNPR": {
+   "kind": "note",
+   "label": "Exchange Rate Fluctuations - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_2CGKWVJJXPpsDns9",
+    "spcpt_jbSyv8hNBsdVM97p"
+   ]
+  },
+  "rn_KQ6FBcvqmrdsBXgg": {
+   "kind": "note",
+   "label": "Components Of The Current Account - IGCSE Economics",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "rn_jb9qQqzDMy5KwqqQ": {
+   "kind": "note",
+   "label": "Deficits & Surpluses - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_KCqd9WgfCHw2grQ3",
+    "spcpt_cWX49Ykc9DYh4RjT"
+   ]
+  },
+  "rn_vWmHtg62wHvjwgZV": {
+   "kind": "note",
+   "label": "Stabilisation Policies - IGCSE Economics Revision Notes",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_Zgg3VPDMKDWTwYyj"
+   ]
+  },
+  "qstnprt_NzRKTzppGMNVTq44": {
+   "kind": "question_part",
+   "label": "qstn_ygWyHQjXn47MVfWZ / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RjMGyhS4RyN964Tt": {
+   "kind": "question_part",
+   "label": "qstn_k8vYfqjktfckRVXJ / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gPbg7TJsMhk3gstK": {
+   "kind": "question_part",
+   "label": "qstn_d4sVjPDCx2wpWR53 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8XrM9nYbM5dcv8mp": {
+   "kind": "question_part",
+   "label": "qstn_cwDh2c2Tnb3nxxBr / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Z6Gh98Dqy6TSGXjT": {
+   "kind": "question_part",
+   "label": "qstn_tR9dHvZkxcj2RgMw / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Vck2mnD5N5CXDNTS": {
+   "kind": "question_part",
+   "label": "qstn_PfGXMjHZM3rfsryq / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_5s9MckW4MFX2wXxN": {
+   "kind": "question_part",
+   "label": "qstn_G9Kv3PWnfZhZDKm3 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bcbrjYYRx5SNVDt7": {
+   "kind": "question_part",
+   "label": "qstn_dsYPH9QkSFmgHzkG / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-1-the-nature-of-the-economic-problem",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dHcw7b2r4cSqJ559": {
+   "kind": "question_part",
+   "label": "qstn_xbpTMn3vsYQP44jq / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_T6Msvy4ndBWZRQRV"
+   ]
+  },
+  "qstnprt_pnhjfYgJx4GdNQgT": {
+   "kind": "question_part",
+   "label": "qstn_wYxmVKhrrHF3G867 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_9VDB62ScQHsG6SQb": {
+   "kind": "question_part",
+   "label": "qstn_gbxF5fVZJZDyxXzN / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_Hw2wZHDvMJ5CrZTV": {
+   "kind": "question_part",
+   "label": "qstn_23FD8WSdx974SBnT / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_MzC4VGm8HyPXNKfJ": {
+   "kind": "question_part",
+   "label": "qstn_HSbNfZyrYKzxtZD2 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_vJRrS5TjzSJBwtzZ"
+   ]
+  },
+  "qstnprt_cDC7Xsz3r3s9JrnZ": {
+   "kind": "question_part",
+   "label": "qstn_CjrgN5H9x7xQcRGt / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_3WRhNN9HfFG3XWZK": {
+   "kind": "question_part",
+   "label": "qstn_BBpwzWxG2Xn7pgm8 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_VbcxpCPK3mf5BvPP": {
+   "kind": "question_part",
+   "label": "qstn_5kFfJHTThsvj9KCC / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_7MMSQxFBsHGDW86Z": {
+   "kind": "question_part",
+   "label": "qstn_4Vrs7PdZyTpwxpfH / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_pxwdJkvKVQMCpN6g": {
+   "kind": "question_part",
+   "label": "qstn_WqQjnJNN8cCPXvvt / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_JtP8TPGMyQJN6DQv": {
+   "kind": "question_part",
+   "label": "qstn_S6KzgwvbBHKFcQ57 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_MsNTNc9wSfFbgrfr": {
+   "kind": "question_part",
+   "label": "qstn_qxX9hrZFxkjVqYn2 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_p3KxRXMnVgVGJ7Rm": {
+   "kind": "question_part",
+   "label": "qstn_PX3zrs2xR6gsf9bq / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_wqT9ndXb64NHHY4m": {
+   "kind": "question_part",
+   "label": "qstn_3xgdsKMgJNH9RVBz / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_BxzTzpDHKK4gHjfj": {
+   "kind": "question_part",
+   "label": "qstn_3DZntCYMkkBJbzCY / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-2-the-factors-of-production",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_BnXxB25HyQy8FgKC": {
+   "kind": "question_part",
+   "label": "qstn_F97c45k9nKWbcsDy / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_v2z9szR2GqxzV42N": {
+   "kind": "question_part",
+   "label": "qstn_chnZzwFT9k5gG5Yv / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_3WFQ5pwsSDvrz8XB": {
+   "kind": "question_part",
+   "label": "qstn_vqHFhCqyyJhycZF7 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KC83CZptzQ64Kgd4": {
+   "kind": "question_part",
+   "label": "qstn_vGRDGYPwXxjSgPrC / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_FSsqwJ9WjWqT59gG": {
+   "kind": "question_part",
+   "label": "qstn_tJQFD4dBNvRGjsS7 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Jsw7NPYXxsRDQbfj": {
+   "kind": "question_part",
+   "label": "qstn_svvsssXyjmHHdNfS / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-3-opportunity-cost",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JrfznzhJVVTkKWWM": {
+   "kind": "question_part",
+   "label": "qstn_VTsG8d9jvvnBDbwc / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mDdKqbfhFrmmwhMJ": {
+   "kind": "question_part",
+   "label": "qstn_DPb4DmTSgd9WB3WC / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_BJkJXQ7ssczXXFVh": {
+   "kind": "question_part",
+   "label": "qstn_c6tcmpwCNFJSJG3H / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_2J8YKSK7KngRmTZD": {
+   "kind": "question_part",
+   "label": "qstn_6ZfGqqwCryCc8Bx4 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_rXV3Ccd4cHWz8JQK": {
+   "kind": "question_part",
+   "label": "qstn_Vr3pJjdNnf4Fwrtw / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_njj7smnmXtj6NQj7": {
+   "kind": "question_part",
+   "label": "qstn_t83byXsgdkBKZNkX / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_Bcqfsy8GkzYrBd9V": {
+   "kind": "question_part",
+   "label": "qstn_QYzJ9q3p8YVpnsB3 / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_6FmhkyHdRtY9bWJw": {
+   "kind": "question_part",
+   "label": "qstn_3fTwW9TTMHpVrzFW / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_hSb5j2YdG6MF4ZBD": {
+   "kind": "question_part",
+   "label": "qstn_r3M8ZJPBdN9wJ5md / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_fT8Tzk7SSC9S43k3": {
+   "kind": "question_part",
+   "label": "qstn_qxc34gSP7jMxRyMK / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_DHC6srzNZfnz579v": {
+   "kind": "question_part",
+   "label": "qstn_pQcq9SbN5CrvjsxR / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_GXMCjG6z6FXGdFgQ": {
+   "kind": "question_part",
+   "label": "qstn_KWfxTdkgFDmrPfJY / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cv7M3SrjS2BQmNq7": {
+   "kind": "question_part",
+   "label": "qstn_G44qqHKS2Y3H2B6k / part 0",
+   "section": "1-the-basic-economic-problem",
+   "topic": "1-4-production-possibility-curves",
+   "codes": [],
+   "pending": [
+    "spcpt_MDMw8fckjxbcGdDM"
+   ]
+  },
+  "qstnprt_J8wNwp9QdJpkwnC8": {
+   "kind": "question_part",
+   "label": "qstn_wWdMyz2cc6kyyWjN / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_YtjZc8cRcGRTVMpD": {
+   "kind": "question_part",
+   "label": "qstn_VCWzthVbzY9bYKNm / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_t6XZHZG7TyZbnf3h": {
+   "kind": "question_part",
+   "label": "qstn_TX5G8bw6X6rG2qQ4 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_BjK2N8p2Ss3XBKhV"
+   ]
+  },
+  "qstnprt_9HJk3nSXs8jS4Ddw": {
+   "kind": "question_part",
+   "label": "qstn_8f5mVW5vdGz8mMFb / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_xZr3ycHRqMs2hQ6B": {
+   "kind": "question_part",
+   "label": "qstn_y5HZ5nrQrjbTMb4m / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_BjK2N8p2Ss3XBKhV"
+   ]
+  },
+  "qstnprt_HdtyXhhRwrfsVpww": {
+   "kind": "question_part",
+   "label": "qstn_MJtrRCs8QZQ69SXW / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_BjK2N8p2Ss3XBKhV"
+   ]
+  },
+  "qstnprt_wBN2WcTQy742XmQx": {
+   "kind": "question_part",
+   "label": "qstn_dNdJVZFxsZDtTyNX / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_5b2QZpkvH5Fyh2D4": {
+   "kind": "question_part",
+   "label": "qstn_4rpGHnY22XzSrn27 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_SwqNrvXMBWxYMCcx": {
+   "kind": "question_part",
+   "label": "qstn_3hbDktVBpjjHZ4z7 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_kGGWwvxWVPnmXHZt": {
+   "kind": "question_part",
+   "label": "qstn_R929GY5JSVNsNn2t / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_3BRHYj3xBKmxT85C": {
+   "kind": "question_part",
+   "label": "qstn_krhTzPbzk7WK33vC / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_MG4tsTMshZnc3TxN": {
+   "kind": "question_part",
+   "label": "qstn_JjZ3Fv3nBBNRHjVR / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_7Rqx4xdjmbvzVcHF": {
+   "kind": "question_part",
+   "label": "qstn_jhvfyqMKdZw8dPqZ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_rm8Whz3qW6hMWSJS": {
+   "kind": "question_part",
+   "label": "qstn_fqsGqxZ53cts6WfC / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-1-microeconomics-and-macroeconomics",
+   "codes": [],
+   "pending": [
+    "spcpt_5YpckvgtkTKhrj3h"
+   ]
+  },
+  "qstnprt_HWrrFkM6mvJ4YHY2": {
+   "kind": "question_part",
+   "label": "qstn_wj42sTSdxS8pZYZn / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_TPmsyF94VwDtYzr9",
+    "spcpt_gJCWVSz967s7C4sQ"
+   ]
+  },
+  "qstnprt_9SFCwvvfxtdHj95c": {
+   "kind": "question_part",
+   "label": "qstn_w2Xs9bnyj8njfPYv / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_cgSjhcQDqwcpMNj5",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_65kf9rhfWZFqZnGG": {
+   "kind": "question_part",
+   "label": "qstn_tMBGj8cN8mBZpkX7 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_Pcwh5cdynxCZp4Px",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_wG8wn6P8yjxMCSNv": {
+   "kind": "question_part",
+   "label": "qstn_RxK2pJPqNN3vcbhh / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_DSWWqq2NwYn2FvF5": {
+   "kind": "question_part",
+   "label": "qstn_j32SqY6M8hWs7JbK / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_Pcwh5cdynxCZp4Px",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_fmkPkj2QtJgKN4hc": {
+   "kind": "question_part",
+   "label": "qstn_zP8wxVk4PffdMC3w / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_5NcRt8zK92w27Tww"
+   ]
+  },
+  "qstnprt_BjwfVvggBVgZV5bz": {
+   "kind": "question_part",
+   "label": "qstn_XBFMFQ6jvMcCSkCj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_gJCWVSz967s7C4sQ"
+   ]
+  },
+  "qstnprt_rtHjRfYvrz65GcTJ": {
+   "kind": "question_part",
+   "label": "qstn_MfXbfZVwjXMjHqgW / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_gJCWVSz967s7C4sQ"
+   ]
+  },
+  "qstnprt_bmjw3zWzNMYNWNmX": {
+   "kind": "question_part",
+   "label": "qstn_b3CFv3YhdHb82R7x / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_Pcwh5cdynxCZp4Px",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_tgG9JhFPs3x2MJ2w": {
+   "kind": "question_part",
+   "label": "qstn_43DcP77P6ZSj6nds / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_44CDFRXYkGY32q58": {
+   "kind": "question_part",
+   "label": "qstn_zJWy2Z3thyFvCWJ2 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_gJCWVSz967s7C4sQ"
+   ]
+  },
+  "qstnprt_vp5RG2RcnTtZFvKb": {
+   "kind": "question_part",
+   "label": "qstn_TsZ8zz6ZdvZRCjWJ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_cgSjhcQDqwcpMNj5",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_RGFHQcq4nyTsh8Y8": {
+   "kind": "question_part",
+   "label": "qstn_Pjfghdwzmdk8qQrb / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_nT7qSk9m8jx7kgjx"
+   ]
+  },
+  "qstnprt_5PzzGcBMyzmq7Jtd": {
+   "kind": "question_part",
+   "label": "qstn_p6rbxWhPZy2xtSrg / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_ytTNkYqNXypNQQQj",
+    "spcpt_D4VtvjRq625BYYYd"
+   ]
+  },
+  "qstnprt_wgWXQrKKR3XRFp3S": {
+   "kind": "question_part",
+   "label": "qstn_jRfhV5qT92qbvqMQ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_D4VtvjRq625BYYYd",
+    "spcpt_9VTzHT8BGbrXp6vm"
+   ]
+  },
+  "qstnprt_W62c89VRqhB6f5BJ": {
+   "kind": "question_part",
+   "label": "qstn_jPSdRRF2JjCvSZBd / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-10-market-failure",
+   "codes": [],
+   "pending": [
+    "spcpt_5NcRt8zK92w27Tww"
+   ]
+  },
+  "qstnprt_gjmr434QkNYX3TsG": {
+   "kind": "question_part",
+   "label": "qstn_k3BMymhR9KC8Hs3K / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_r6n6Q7PRCMKChgV6": {
+   "kind": "question_part",
+   "label": "qstn_GPknYgQSBZwGQxpc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_zQ8C7364GhHjxtTN": {
+   "kind": "question_part",
+   "label": "qstn_6wJDxG74CWjqjYZM / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_ytzWWvBRRrvpJFYt": {
+   "kind": "question_part",
+   "label": "qstn_4J7CTtyHRmVBY8kt / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_VRZbyVyN3P6bXGk6": {
+   "kind": "question_part",
+   "label": "qstn_2P7kvnJvBSVpXbqc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_B37HHsZVknp928Ht": {
+   "kind": "question_part",
+   "label": "qstn_VRTGBz6bQZVCGVRp / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_DBNWMHJp8pTSVYQj": {
+   "kind": "question_part",
+   "label": "qstn_Qg95CjP8mhT3CSqN / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_svhYQWdgxYpFWN7W": {
+   "kind": "question_part",
+   "label": "qstn_Gpjb2shJnKgkN7SS / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_v2VGjrNYVRwBxdMm": {
+   "kind": "question_part",
+   "label": "qstn_gBxpfVpz6QcmYQGs / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_4hk9jqdX7MJ3J6gs": {
+   "kind": "question_part",
+   "label": "qstn_3DWKmcZ4rjqshNQ8 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_pcSMHvPT39q5dfnr": {
+   "kind": "question_part",
+   "label": "qstn_Z65n5z68f4zMtgtY / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_T8rdtnd7F2DcmTdR": {
+   "kind": "question_part",
+   "label": "qstn_Z2Hk3YKcC4mzghFc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_F6pGDCY3JKT2S6kP": {
+   "kind": "question_part",
+   "label": "qstn_XbM5p2mwcH4FbYSc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_hpX8gynMzvCdmDBJ": {
+   "kind": "question_part",
+   "label": "qstn_FTzcTgKWkqqBSM5G / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_qbm8QKKNFF45c8Rh": {
+   "kind": "question_part",
+   "label": "qstn_4pGPP3ywZjGn6pHj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-11-mixed-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_FXgTkWhXK5VJkYGM"
+   ]
+  },
+  "qstnprt_mP2zn783KtNFx55N": {
+   "kind": "question_part",
+   "label": "qstn_sfQbVKq7mWFY5gQ2 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_hJfDhpZC4zmQyCBF": {
+   "kind": "question_part",
+   "label": "qstn_Qt6CcRr4yydTsPYv / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_KSjVPKcPMCyvCVG8": {
+   "kind": "question_part",
+   "label": "qstn_Hp2WychyVZhHKrKc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_Qyvbc6BpKRB2Bnjx": {
+   "kind": "question_part",
+   "label": "qstn_gghsBNZC4cTtvt8C / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_WkP9hkTns4nRYYRJ"
+   ]
+  },
+  "qstnprt_RSqcR82YhrTGZgYJ": {
+   "kind": "question_part",
+   "label": "qstn_FkTbtYxbZYKZYZXd / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_wSRQ5xGmBn8csvcj": {
+   "kind": "question_part",
+   "label": "qstn_rmVMgGMZhy5n47Pj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_tTdN8gCGb8767xg5": {
+   "kind": "question_part",
+   "label": "qstn_r25y2J3HzGfNmbQR / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_JYSw8sqsyBx2vZSf": {
+   "kind": "question_part",
+   "label": "qstn_PwpzZdTT5GHpqYvX / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_W2bDp2cDrcNKSqKT"
+   ]
+  },
+  "qstnprt_3H42M92yWxRymSYx": {
+   "kind": "question_part",
+   "label": "qstn_kpycTTh42ZmT6GCK / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_VtgJMBBkY6mx5jCH": {
+   "kind": "question_part",
+   "label": "qstn_2Nq5TqwwX6Bpvn49 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_cksJzQkxMrtQBJpB": {
+   "kind": "question_part",
+   "label": "qstn_vyMzqhHr8zRc52cm / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_W2bDp2cDrcNKSqKT"
+   ]
+  },
+  "qstnprt_5wD3X4QR9g5wygQC": {
+   "kind": "question_part",
+   "label": "qstn_rxDFcNKbr6Ky7YX8 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_3T6v8dvGxW5KHsbN": {
+   "kind": "question_part",
+   "label": "qstn_3WhW4nYZWnmTKBKr / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-2-the-role-of-markets-in-allocating-resources",
+   "codes": [],
+   "pending": [
+    "spcpt_yqNr8ZVZP4qrfPKd"
+   ]
+  },
+  "qstnprt_w9BYYCshxvHfkcrZ": {
+   "kind": "question_part",
+   "label": "qstn_ypmfkC4pkGTcvcQK / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_mCJPCysYyZTsV9QD": {
+   "kind": "question_part",
+   "label": "qstn_WzKXPVcWHVQ7psWg / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_4bpTWFwBsDc8WBtb"
+   ]
+  },
+  "qstnprt_GKbWpStCP3sggfmD": {
+   "kind": "question_part",
+   "label": "qstn_TzYCtrD4cbN6kQTw / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_4bpTWFwBsDc8WBtb"
+   ]
+  },
+  "qstnprt_7T8xDyPS7sSPmQTc": {
+   "kind": "question_part",
+   "label": "qstn_kc3TW32nDWfssh82 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VcMbNgJbWxm4bM9y": {
+   "kind": "question_part",
+   "label": "qstn_xPYNCHJ2bfpCvX3C / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_3bR2YtfjZ3Sp7S3k": {
+   "kind": "question_part",
+   "label": "qstn_VyFMwdD7wtWcRt4N / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_FtjwQKmpHqn6F65m"
+   ]
+  },
+  "qstnprt_ny6bSHtCDX88XkWG": {
+   "kind": "question_part",
+   "label": "qstn_qT2JSfVZdvSZ5RDk / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_BRSBmkKWX4QP9f47"
+   ]
+  },
+  "qstnprt_mRtsgfgHbhYbwXSP": {
+   "kind": "question_part",
+   "label": "qstn_Q3KMYsQWtfJKdQ29 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_JcW8jQd45kK6k9ht": {
+   "kind": "question_part",
+   "label": "qstn_pPmzs9Yk5XfPcdvF / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_nd2wD5xYBY27rPFC": {
+   "kind": "question_part",
+   "label": "qstn_XYQB33XhWhr8s92G / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_MHdWbSphhbstXYCR": {
+   "kind": "question_part",
+   "label": "qstn_XNk27BtmryYWzd7z / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_Cbns3qfwhyqK8Jmq": {
+   "kind": "question_part",
+   "label": "qstn_crW6QYPWHZcmYSMp / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_4bpTWFwBsDc8WBtb"
+   ]
+  },
+  "qstnprt_3NVsgz5T8xWyzdbz": {
+   "kind": "question_part",
+   "label": "qstn_bwDWjhfjJH73JBjB / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_4bpTWFwBsDc8WBtb"
+   ]
+  },
+  "qstnprt_2VSXxKB57697Dwrr": {
+   "kind": "question_part",
+   "label": "qstn_96vgTn7ZgX7bGgsG / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-3-demand",
+   "codes": [],
+   "pending": [
+    "spcpt_Gv3wQKWJ9DZm77Cd"
+   ]
+  },
+  "qstnprt_cGq8NPFZvrHT8vzN": {
+   "kind": "question_part",
+   "label": "qstn_sJSz2CWbRSfFKzSN / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_zs6TNFCNFkMXyJMn": {
+   "kind": "question_part",
+   "label": "qstn_KK5KvWHzNPB9w53v / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_kNSpHbrHGdzp6TXp"
+   ]
+  },
+  "qstnprt_PxKkDCWgqfCPjxnj": {
+   "kind": "question_part",
+   "label": "qstn_fxH4JXW43ctrVy3q / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_dDxJy7qnkJ6hnmzw": {
+   "kind": "question_part",
+   "label": "qstn_cqMVVNHQ3w2DQhdM / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_ypGHW6gjDgkrHmD8": {
+   "kind": "question_part",
+   "label": "qstn_6b7gdvd4ZNtGPgcs / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_XbSJM7NNksRChv83": {
+   "kind": "question_part",
+   "label": "qstn_wQpXxx77Mp4wPBmv / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_jvZwq4Cn4H9MGksg": {
+   "kind": "question_part",
+   "label": "qstn_62Rx5vqZ3bMPTck6 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_NDtTdNdyK637bKMk": {
+   "kind": "question_part",
+   "label": "qstn_Rjx9HXYXMQ2D8NGq / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_W2VqjcTDjpfP4pSF"
+   ]
+  },
+  "qstnprt_M38W5Y5sqB9p3SYS": {
+   "kind": "question_part",
+   "label": "qstn_HgzKmpB2KpFRWg3S / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_jMBspN6NZxFWGSZH": {
+   "kind": "question_part",
+   "label": "qstn_7VGJq9N7QNSMFQjF / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_MnVjJWStnHSvW7JN": {
+   "kind": "question_part",
+   "label": "qstn_2mBsHfyNT46JRWqS / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-4-supply",
+   "codes": [],
+   "pending": [
+    "spcpt_x668fBxfB2zFg4jx"
+   ]
+  },
+  "qstnprt_JJsdtf53hXQGqcfW": {
+   "kind": "question_part",
+   "label": "qstn_ydH4sFScbrRj7SQb / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XQwPcjmqmkk5GRMp": {
+   "kind": "question_part",
+   "label": "qstn_x3F8XCMzw4BgGwv9 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_TyGyR5HTKDgMGrnG": {
+   "kind": "question_part",
+   "label": "qstn_NwMgFjZWSgHydtQj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_nJWswjWRVZMHdJky": {
+   "kind": "question_part",
+   "label": "qstn_7hzxT2W3r5mVSwhZ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_nxbQbwW9RDh5SKgT": {
+   "kind": "question_part",
+   "label": "qstn_63JMrGjVn96hCYYQ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cFmZ7bPhpF2k9B2W": {
+   "kind": "question_part",
+   "label": "qstn_XVzRP8gxStms3x8g / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_xpvWj6xvkHXb5mKS": {
+   "kind": "question_part",
+   "label": "qstn_gdM4fW8St8GX3hSV / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WXYNnZ2zqN3F3CBq": {
+   "kind": "question_part",
+   "label": "qstn_cJS5w2RHqRCCJHFS / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XSjjyzQR2xw663dK": {
+   "kind": "question_part",
+   "label": "qstn_2TJjbKGt8bcNgvqf / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_3fQQR4mzBqmHQbFY": {
+   "kind": "question_part",
+   "label": "qstn_YSKjt7VrXgNkJMK7 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cZ8GpCKxk7DqSJmm": {
+   "kind": "question_part",
+   "label": "qstn_VfPrWk7f87ccBCp7 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fwwKVgC6xxTJsvJn": {
+   "kind": "question_part",
+   "label": "qstn_NHDkXdxkW7VgGsXk / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kKzk8Ck4gtw8mjSw": {
+   "kind": "question_part",
+   "label": "qstn_MnNHKvyTNhxqHDWq / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pR2H5YNdgFqtSKkw": {
+   "kind": "question_part",
+   "label": "qstn_mCvdw2NzRDM4zwjp / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-5-price-determination",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VTtzscwsFyG2VPrC": {
+   "kind": "question_part",
+   "label": "qstn_XjSBM9Dhj9G4TkvZ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_By7XwsBQ6R53hgkh": {
+   "kind": "question_part",
+   "label": "qstn_WhmS84f8vSYSJRxF / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_dGnz4c2DKF53B7kc": {
+   "kind": "question_part",
+   "label": "qstn_hdrxZqPPJtsGVshC / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_2VrSyNG6BM34Hkvn": {
+   "kind": "question_part",
+   "label": "qstn_DSVwPGC4dDRG6F5j / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_xQmkn47KT2ZbT5J8": {
+   "kind": "question_part",
+   "label": "qstn_3wGH4kvKzsjTGSmh / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_MBvfnxTQxNNtBw8H": {
+   "kind": "question_part",
+   "label": "qstn_ZWs9x3VQwwkVdmVf / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_hnpnBG87Yd4rQmGF": {
+   "kind": "question_part",
+   "label": "qstn_tDRfpph9gbdb7Y7G / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_cfjwsXymfkpWrk6b": {
+   "kind": "question_part",
+   "label": "qstn_Sw7cg3ZDpkMHZcWB / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_n9cFBsK7b8g54tmg": {
+   "kind": "question_part",
+   "label": "qstn_9Z8VxRFwbvRk6Hqv / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_Q7qC5QPMwp2BcxGX": {
+   "kind": "question_part",
+   "label": "qstn_25QXrtrvyPK32W4s / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_vG8Y7V5xvJN5GYff": {
+   "kind": "question_part",
+   "label": "qstn_Mk5qp4YZVcsbJ4H4 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_JTsRxSpbGPppTbCQ": {
+   "kind": "question_part",
+   "label": "qstn_fRq3GqMDQv57F3KZ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_BkrtWSTbVJkxysWg": {
+   "kind": "question_part",
+   "label": "qstn_9VSkTp2dkNfjT9Hj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_qvvFhXDMH2ZZwfWN": {
+   "kind": "question_part",
+   "label": "qstn_7yRRwFFMW36CTYSJ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_bNDbGRp8XNZ3NFjM": {
+   "kind": "question_part",
+   "label": "qstn_7vmHtxZCh7KhhcVS / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-6-price-changes",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_VtFCPHZR5qFn9cqs": {
+   "kind": "question_part",
+   "label": "qstn_XPZq37yr4XYVVKDx / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_PvRrXyW97bNQ3PfR": {
+   "kind": "question_part",
+   "label": "qstn_xHS3cYn7w7H6zD8r / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_3pkj7p4ByKnFtyTD": {
+   "kind": "question_part",
+   "label": "qstn_n97VjXpVp6kgRP4H / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_5JGJSQ9WBb28xp26": {
+   "kind": "question_part",
+   "label": "qstn_gcWh7wpTMWxJ57Sm / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_ZYF3XRGW2hc2SWPm": {
+   "kind": "question_part",
+   "label": "qstn_C9prSfv4b2V7PMr2 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_VqqdZsPw5dwvY5m8"
+   ]
+  },
+  "qstnprt_YX7jZyJDQpDXYk3y": {
+   "kind": "question_part",
+   "label": "qstn_HH4XsQyc5HTNsyhs / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_668ZcW2t8Hv73FPW"
+   ]
+  },
+  "qstnprt_kQ9H6357DJYx8Qvq": {
+   "kind": "question_part",
+   "label": "qstn_6DRKNc3w5d9fN7NW / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_JNHKQMP3TfSHCy7g": {
+   "kind": "question_part",
+   "label": "qstn_Wrr227Tbn2hfpKH8 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_TXzjCGN6czVyhYBS": {
+   "kind": "question_part",
+   "label": "qstn_VQ9KJrhPNM6YPQYc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_4pp6trz4JWmWn33b"
+   ]
+  },
+  "qstnprt_wq4hKzcy6Jym6dnQ": {
+   "kind": "question_part",
+   "label": "qstn_7gFNsgSJ55qSPYsF / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-7-price-elasticity-of-demand-ped",
+   "codes": [],
+   "pending": [
+    "spcpt_7ffvMsVF72vpt5z5"
+   ]
+  },
+  "qstnprt_vqTkfJXvwqh6YSdk": {
+   "kind": "question_part",
+   "label": "qstn_XDXxfxGWz4BjfvTM / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_QcFfMSKQYXcw46qf"
+   ]
+  },
+  "qstnprt_9mgyPYbFJ69T6qW3": {
+   "kind": "question_part",
+   "label": "qstn_P6xfXnQ6N68FfChj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_MW5t8qsY8zxXmtHC": {
+   "kind": "question_part",
+   "label": "qstn_k5q4FP522vcCdtx7 / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_zD8qPfw4bK6qzNvx"
+   ]
+  },
+  "qstnprt_VZv8gh7NG3KxMtdw": {
+   "kind": "question_part",
+   "label": "qstn_CYTymN3WdHjSxvXW / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_BCzs3kmVSnyYhQtx": {
+   "kind": "question_part",
+   "label": "qstn_yfSVkk7vhFN27VcJ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_zD8qPfw4bK6qzNvx"
+   ]
+  },
+  "qstnprt_hZF2B8729bK4v3T6": {
+   "kind": "question_part",
+   "label": "qstn_ntPfH77FssGbk39D / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_zD8qPfw4bK6qzNvx"
+   ]
+  },
+  "qstnprt_Z6N2VJjGHWjr4C8X": {
+   "kind": "question_part",
+   "label": "qstn_dzpd47RTSM83CNbM / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_vdMp7tkBcm2QcKnr": {
+   "kind": "question_part",
+   "label": "qstn_DGXrVWHwkbpQSnZK / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_NhwjPm5n5x8dKC8Q": {
+   "kind": "question_part",
+   "label": "qstn_WPfBqT9C7WrftwkH / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_tJ9PsxxWmxQQNjfm": {
+   "kind": "question_part",
+   "label": "qstn_FfQ3sCXDmC9tDPzc / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-8-price-elasticity-of-supply-pes",
+   "codes": [],
+   "pending": [
+    "spcpt_z6p6PbtjjYcMtCkt"
+   ]
+  },
+  "qstnprt_xyw9YdBDXHRTmRyX": {
+   "kind": "question_part",
+   "label": "qstn_zKGN4ws5bbn5PZsp / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_Jd3SbH3HBMDpNkHK": {
+   "kind": "question_part",
+   "label": "qstn_Qtp2nKSn5jfj9zns / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_yP4fqNk3DhB35RC2": {
+   "kind": "question_part",
+   "label": "qstn_k566Z5Bzgws7Ndyj / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_F94qt2yKDySD8mXm": {
+   "kind": "question_part",
+   "label": "qstn_GHYf3xvQJrYhwtYX / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_7VBDSMXJBhhyk8fP": {
+   "kind": "question_part",
+   "label": "qstn_7tZPVyCHG8wWWT6K / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_nQrKWfBT8DmPnVKx": {
+   "kind": "question_part",
+   "label": "qstn_zvxFvgsjjwBRWtqt / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_C3fW9qW9jrs3QNxd": {
+   "kind": "question_part",
+   "label": "qstn_RNsTjppMg9HZnXhd / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_ZYYhkB4nhGphkQsW": {
+   "kind": "question_part",
+   "label": "qstn_dwgHN8rcxcqYHC3X / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_BWr4SFR7ffgCcvqX": {
+   "kind": "question_part",
+   "label": "qstn_6hw3yhQ4QsCHX7pF / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_WCV4mSMxCsSQqfkS": {
+   "kind": "question_part",
+   "label": "qstn_pjWn8KWVy4py327q / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_ShbWk9hW2mvSKWHj": {
+   "kind": "question_part",
+   "label": "qstn_MN63FWMjHJCv7CJR / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_bNJntwJdMKQ9DXfd": {
+   "kind": "question_part",
+   "label": "qstn_dKWKmzmpCzknYfFs / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_CtSrSgR2jnDxrpNW": {
+   "kind": "question_part",
+   "label": "qstn_bxVM8V7tRjypq3rm / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_ZTmcBF5XDSdjRGms"
+   ]
+  },
+  "qstnprt_C7ZZVTm3F4y3MDct": {
+   "kind": "question_part",
+   "label": "qstn_6HqWJRD3JKyS5xbJ / part 0",
+   "section": "2-the-allocation-of-resources",
+   "topic": "2-9-market-economic-system",
+   "codes": [],
+   "pending": [
+    "spcpt_sGmH2zQZv9mkpNyG"
+   ]
+  },
+  "qstnprt_hgZBWqGhTxVPhp7b": {
+   "kind": "question_part",
+   "label": "qstn_zXBMjPxT83Hr4q9G / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_29mSKgVpDYhvnGyY"
+   ]
+  },
+  "qstnprt_Zf7cgSjcb5Kp7GtX": {
+   "kind": "question_part",
+   "label": "qstn_C2fxDxpg25JYfTkk / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_QSqgdkRphMhbBV8n"
+   ]
+  },
+  "qstnprt_pm83htVdmHZ8Hwyx": {
+   "kind": "question_part",
+   "label": "qstn_bH2KDf7HsqrnCNjn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_hwXFpVyHnq7mrdck": {
+   "kind": "question_part",
+   "label": "qstn_bGcfjJZjwq6X2VNM / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_29mSKgVpDYhvnGyY"
+   ]
+  },
+  "qstnprt_byH8T9FKnwG9S7cM": {
+   "kind": "question_part",
+   "label": "qstn_BCv8yhDzsZBKJ3fW / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_GCMQwVhMh35q5z6v"
+   ]
+  },
+  "qstnprt_Xm475cRmRssXszNj": {
+   "kind": "question_part",
+   "label": "qstn_Q96jbGrpNZMw8HNy / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_GCMQwVhMh35q5z6v"
+   ]
+  },
+  "qstnprt_gwsRgyYwFW4kPXp7": {
+   "kind": "question_part",
+   "label": "qstn_ckJMnqz7RDhZNHk6 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_GCMQwVhMh35q5z6v",
+    "spcpt_29mSKgVpDYhvnGyY"
+   ]
+  },
+  "qstnprt_rkfqvWmYPfB6KMss": {
+   "kind": "question_part",
+   "label": "qstn_CHYqhzC9SBh84Ggg / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_mmFmhQmzNnjP3NK4": {
+   "kind": "question_part",
+   "label": "qstn_8yj9YJRQJ2w6D7QY / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_xftbRcKQ8BFB2kfZ": {
+   "kind": "question_part",
+   "label": "qstn_76QYDq3BzvGpW2Mk / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_GCMQwVhMh35q5z6v"
+   ]
+  },
+  "qstnprt_Rxq3wQdK6Xs93JKs": {
+   "kind": "question_part",
+   "label": "qstn_zm55QBMYYBvNx9Ws / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_QSqgdkRphMhbBV8n",
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_vvK5YNWxrVNhQC6z": {
+   "kind": "question_part",
+   "label": "qstn_vVxkHcBpyDgTyjRF / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_Gt29dtpN9hyGRPwz": {
+   "kind": "question_part",
+   "label": "qstn_swqDmD9NczmbWD4S / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_w6CRpvvNTzB3N5SH": {
+   "kind": "question_part",
+   "label": "qstn_G4PWXmWNyz62sHJS / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_QSqgdkRphMhbBV8n"
+   ]
+  },
+  "qstnprt_d8NXhZfxwRCK9yW9": {
+   "kind": "question_part",
+   "label": "qstn_cWDhX8XSqfq7djSx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-1-money-and-banking",
+   "codes": [],
+   "pending": [
+    "spcpt_3q6c2bHRXRPvk9zF"
+   ]
+  },
+  "qstnprt_f774FJBdRc2nZNp2": {
+   "kind": "question_part",
+   "label": "qstn_v2hr6ghNSmQ6mq55 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JVxvnbD6Qb7TyjgQ": {
+   "kind": "question_part",
+   "label": "qstn_RWhFcyF3Dyjj2Wrj / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_FKJ6Z7bNdd8FKnwG": {
+   "kind": "question_part",
+   "label": "qstn_q3Zxzp5khdbt2S5y / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_twHQcnxVPP7BPqRw": {
+   "kind": "question_part",
+   "label": "qstn_KQNXWnHsFkxpF7KS / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8BSb9KXdVWMfWNXM": {
+   "kind": "question_part",
+   "label": "qstn_H84ws3wy2SrmPGkH / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_QycZ2XXvYCXbjkWt": {
+   "kind": "question_part",
+   "label": "qstn_YS5BhJgfnNb8M2Dx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_Gz8S595GgwpvmfHN": {
+   "kind": "question_part",
+   "label": "qstn_w7PBXFRwQBSsW3C3 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_dZ55VVQRdvg7RbpD": {
+   "kind": "question_part",
+   "label": "qstn_hrqYqg2JG3gz7hny / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_5BtZfd9S5cDkw5yR": {
+   "kind": "question_part",
+   "label": "qstn_8H65jzFzXSMXGsN6 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_s9GmFVS9cqbWGS5q",
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_wVzxcpjmjYxk5tf7": {
+   "kind": "question_part",
+   "label": "qstn_8fTvmyHXsnck28PW / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6tBtVKKVPyYX89TJ": {
+   "kind": "question_part",
+   "label": "qstn_Z7QZZ5fNdWzJqGHW / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_dGh8qkH43xzb63MX": {
+   "kind": "question_part",
+   "label": "qstn_wjbrPkQ39dXZvRnN / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XXq2dvpG6XyMs2kD": {
+   "kind": "question_part",
+   "label": "qstn_gppNdG5dnHwjDVTg / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_Ck5GmXsFsVzDXrhw": {
+   "kind": "question_part",
+   "label": "qstn_9BX9dMFw73yrdgZ9 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [],
+   "pending": [
+    "spcpt_rGpZ5R2K5ZhZYXJy"
+   ]
+  },
+  "qstnprt_SKRwvD9fkXhbScS2": {
+   "kind": "question_part",
+   "label": "qstn_6JrnDhsHTd2jgTyS / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-2-households",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zpMQ9XdRQX5Pk8VC": {
+   "kind": "question_part",
+   "label": "qstn_vNv2zTNfw64nsRVM / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_kdmvC9JCHKwc5QQy"
+   ]
+  },
+  "qstnprt_5c4Qf2Zgs29VRqRR": {
+   "kind": "question_part",
+   "label": "qstn_qkYqFn6dKRXYccD8 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_BVsndJgDWC9f4SNh"
+   ]
+  },
+  "qstnprt_NZDgGqQJJrHjvNcS": {
+   "kind": "question_part",
+   "label": "qstn_px3Sp4Kz9849nDVC / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_kG2g3BRz457k3Gwq",
+    "spcpt_24xWC7Cf4ywkkrSQ"
+   ]
+  },
+  "qstnprt_6CRWh3MXygjhD6ps": {
+   "kind": "question_part",
+   "label": "qstn_nj8xq5MMjy92Vq8t / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_24xWC7Cf4ywkkrSQ"
+   ]
+  },
+  "qstnprt_ps2r6YG8z8nwdhn9": {
+   "kind": "question_part",
+   "label": "qstn_2CyP4J9Gt2wm67ck / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_kG2g3BRz457k3Gwq"
+   ]
+  },
+  "qstnprt_ChrkkK5tsjpVzSVS": {
+   "kind": "question_part",
+   "label": "qstn_zvC6SXY5Tqpr7qHJ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cT2fhSywR2MwJvHg": {
+   "kind": "question_part",
+   "label": "qstn_YmS6D32y4qjv9z6K / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_24xWC7Cf4ywkkrSQ"
+   ]
+  },
+  "qstnprt_2pdqHPr2jdvzwTgS": {
+   "kind": "question_part",
+   "label": "qstn_N8ZWxfy5vGRVJhbn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_9QXcyBDKyh7X4Bmn"
+   ]
+  },
+  "qstnprt_9st9vd5D8hjxD97M": {
+   "kind": "question_part",
+   "label": "qstn_n5WXzsBXdccnkczB / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_msTHbgcBMzwDxhNx"
+   ]
+  },
+  "qstnprt_mWDtsF6HwCNWdXby": {
+   "kind": "question_part",
+   "label": "qstn_dRBcRBk4mbp4ptHx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_BVsndJgDWC9f4SNh"
+   ]
+  },
+  "qstnprt_TdjR7dttyJ6cT2v3": {
+   "kind": "question_part",
+   "label": "qstn_7jmsWPDy3X7VR3Rm / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_93cJp8bv3f8tjxD2": {
+   "kind": "question_part",
+   "label": "qstn_X7BRbt4mDvkjf6PM / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_msTHbgcBMzwDxhNx"
+   ]
+  },
+  "qstnprt_TwSyGPTVX4q3QpHF": {
+   "kind": "question_part",
+   "label": "qstn_r5XcSg8sHzbzZCqJ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_MMPYJghg2JrGSHsb"
+   ]
+  },
+  "qstnprt_zRBHJTY3Nrjn69Fb": {
+   "kind": "question_part",
+   "label": "qstn_cW6NjWwD2rY2tDsx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_MMPYJghg2JrGSHsb",
+    "spcpt_kdmvC9JCHKwc5QQy"
+   ]
+  },
+  "qstnprt_pS257YQqRwQ6bQ6b": {
+   "kind": "question_part",
+   "label": "qstn_bdKYggxCWy2yQf7D / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-3-workers",
+   "codes": [],
+   "pending": [
+    "spcpt_MMPYJghg2JrGSHsb"
+   ]
+  },
+  "qstnprt_FtRbh2drdnZ4PHYp": {
+   "kind": "question_part",
+   "label": "qstn_zBYZV82TVFMt3BJt / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "qstnprt_BwXrGYGBqbpf5BSW": {
+   "kind": "question_part",
+   "label": "qstn_cFPpmSMQZRKSnGZY / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_tMQ5kQ4YGGwppcz8"
+   ]
+  },
+  "qstnprt_dGT7CkXrHgPyX9Cz": {
+   "kind": "question_part",
+   "label": "qstn_48thHgbbG8xsCTPq / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "qstnprt_tT33qWgNprwgYpqK": {
+   "kind": "question_part",
+   "label": "qstn_3jKFYYQ3r3n8JGFW / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "qstnprt_ZJ9XrWxJFBWTtBKC": {
+   "kind": "question_part",
+   "label": "qstn_rndBfjybf3QNGrnP / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_F42pjqh5nphcvyr3"
+   ]
+  },
+  "qstnprt_Bsn84wsK5Cy8gk6R": {
+   "kind": "question_part",
+   "label": "qstn_hnx2sNbN9vZg55mP / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_tMQ5kQ4YGGwppcz8"
+   ]
+  },
+  "qstnprt_CRqF6nvnTpNP4PWh": {
+   "kind": "question_part",
+   "label": "qstn_GGvhXRrqJ97G2gXF / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_cBCkQjYdbQdVjYP7"
+   ]
+  },
+  "qstnprt_tmZfDr54k2hDKcKj": {
+   "kind": "question_part",
+   "label": "qstn_CMgbHh7Wq6j2rNfC / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_F42pjqh5nphcvyr3"
+   ]
+  },
+  "qstnprt_ZgKrtqVpQGWFPWS4": {
+   "kind": "question_part",
+   "label": "qstn_9h6wW6CqmMzNGRV9 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_tMQ5kQ4YGGwppcz8"
+   ]
+  },
+  "qstnprt_wR2cpZHyGzy9CCrH": {
+   "kind": "question_part",
+   "label": "qstn_Jt83Q4nyD29Gp6Tt / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_tMQ5kQ4YGGwppcz8"
+   ]
+  },
+  "qstnprt_mCR3CrYJBn62hkjc": {
+   "kind": "question_part",
+   "label": "qstn_hcRFRBJR7yDzKZyT / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_F42pjqh5nphcvyr3"
+   ]
+  },
+  "qstnprt_6WbQNsbkNdyYc8WK": {
+   "kind": "question_part",
+   "label": "qstn_fsRx3wYtbwSdsWQg / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_F42pjqh5nphcvyr3"
+   ]
+  },
+  "qstnprt_Qh452Skn9fFbn9F7": {
+   "kind": "question_part",
+   "label": "qstn_FNv6pKvkytyhFFxD / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "qstnprt_MmBHy6X9cXcNQsyN": {
+   "kind": "question_part",
+   "label": "qstn_D3dG2TbgqCvD7ScK / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-4-trade-unions",
+   "codes": [],
+   "pending": [
+    "spcpt_Jt94KdngZkjZ44td"
+   ]
+  },
+  "qstnprt_dtsJC3CDPG3JkG4J": {
+   "kind": "question_part",
+   "label": "qstn_Z7mzTxjTnPTQ5SNW / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_ccGgv9fTXjFndf4x"
+   ]
+  },
+  "qstnprt_hRc9h86HnqVSWmX3": {
+   "kind": "question_part",
+   "label": "qstn_s82xddZk6dpnddvB / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_y6QBpqVHWJQ2srwZ": {
+   "kind": "question_part",
+   "label": "qstn_Nnk7jFRqdYTxYc5s / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_ZnxzvmSZp3X6mCPD"
+   ]
+  },
+  "qstnprt_K8j4YmmsZx4d32d7": {
+   "kind": "question_part",
+   "label": "qstn_N4wjrrH3qd7P6nRw / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_9MrsBRYDRjj9J39C": {
+   "kind": "question_part",
+   "label": "qstn_mXZKhnyQm5zhvSxs / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_RHDFhxS7Wh9rvdsk": {
+   "kind": "question_part",
+   "label": "qstn_wYF4y94By247mK7x / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_NbsmRnKgPy9SqND3": {
+   "kind": "question_part",
+   "label": "qstn_wRVCdXzfq4Zc3qHf / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_74xJDTgxKrmj9k9F": {
+   "kind": "question_part",
+   "label": "qstn_wdzV2RZBy8cm79r7 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_Z2vW6CYC7W82kSFg": {
+   "kind": "question_part",
+   "label": "qstn_T3DfDWFHgzpr4gsS / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_ywHTMKtB8MZ37b3y": {
+   "kind": "question_part",
+   "label": "qstn_NV8C4tZ3HXwyGMyg / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_vW8GpTNwR96Zbgmf": {
+   "kind": "question_part",
+   "label": "qstn_MNKrrVctfhbm3DkG / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_xk37W7d7FRwrC3PZ": {
+   "kind": "question_part",
+   "label": "qstn_HJsQPGKGbqnZrdFb / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_htw65wnnwZCX6b2W": {
+   "kind": "question_part",
+   "label": "qstn_f6XVGfhs9XZjgTPB / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_MphYVPNZbJkx9q7g": {
+   "kind": "question_part",
+   "label": "qstn_96N2FmR2X966M6Kd / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_JPrt8dKzZS5SbggF"
+   ]
+  },
+  "qstnprt_RX6yWcHkRjGhWCS9": {
+   "kind": "question_part",
+   "label": "qstn_Yt5rgfpSm4vZRmfQ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_ccGgv9fTXjFndf4x"
+   ]
+  },
+  "qstnprt_MsnxDgHhnwxwhC4n": {
+   "kind": "question_part",
+   "label": "qstn_HXHJKk4fSksZ6c5s / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_ZnxzvmSZp3X6mCPD"
+   ]
+  },
+  "qstnprt_kZRzTKMPvMwmwpbY": {
+   "kind": "question_part",
+   "label": "qstn_hN5vMWJDqfnR5Swf / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_rjpyqWNGKWBW8K6J"
+   ]
+  },
+  "qstnprt_M8vgTnWpDF5g6rJC": {
+   "kind": "question_part",
+   "label": "qstn_hmx8bD9rcZ9nqRTG / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_KjgTVRY3mfHNCscG"
+   ]
+  },
+  "qstnprt_2HWy9jyYSTWB58b6": {
+   "kind": "question_part",
+   "label": "qstn_FWk7wKDB5jnfXNXC / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-5-firms",
+   "codes": [],
+   "pending": [
+    "spcpt_ccGgv9fTXjFndf4x"
+   ]
+  },
+  "qstnprt_kd4FvhMCZ9pYPvdB": {
+   "kind": "question_part",
+   "label": "qstn_Zy2T24zgP7NXc4ST / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_jBbdgQrpbbPY5Xyb"
+   ]
+  },
+  "qstnprt_wqPKM7jDm5xbhGD2": {
+   "kind": "question_part",
+   "label": "qstn_zT9dSYKZRkjt8qvQ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_4WWRRFZBNdRrY65t"
+   ]
+  },
+  "qstnprt_kxjVHYH4xRfd2d4y": {
+   "kind": "question_part",
+   "label": "qstn_zKxPtf4mTQ5yn22H / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_jBbdgQrpbbPY5Xyb"
+   ]
+  },
+  "qstnprt_7JWGWgk7vBFVTyZb": {
+   "kind": "question_part",
+   "label": "qstn_qBFpnM9YZvSwJf55 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_Sd2fgXbGqh5BwqSR"
+   ]
+  },
+  "qstnprt_JKzKymZGXb9y6s8m": {
+   "kind": "question_part",
+   "label": "qstn_mVx4nxt2n7Py4WwC / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_jBbdgQrpbbPY5Xyb"
+   ]
+  },
+  "qstnprt_6vfFt9Gy8gpBvDvh": {
+   "kind": "question_part",
+   "label": "qstn_XhdgnzKp3psN7TrD / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_SjXdG6jVcCj7dcY5"
+   ]
+  },
+  "qstnprt_3rzXQs44Dpb7rYgs": {
+   "kind": "question_part",
+   "label": "qstn_pk62KJdR5RB9QGzN / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_y7js6MK5GzTkV7c5"
+   ]
+  },
+  "qstnprt_DF8KRgRr93hwXcvj": {
+   "kind": "question_part",
+   "label": "qstn_kK4gBVc666jWsTn4 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_y7js6MK5GzTkV7c5"
+   ]
+  },
+  "qstnprt_zYSvSyjb6YR3Bcsk": {
+   "kind": "question_part",
+   "label": "qstn_GpRtYbVN5GYRDGCm / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_Sd2fgXbGqh5BwqSR"
+   ]
+  },
+  "qstnprt_72YRw2RXW9X5dkC6": {
+   "kind": "question_part",
+   "label": "qstn_cBM8jV97CvQxr62P / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_jBbdgQrpbbPY5Xyb"
+   ]
+  },
+  "qstnprt_CvXZbNHb7PHtpxt7": {
+   "kind": "question_part",
+   "label": "qstn_zpDcXBcPTCwbbBrq / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_SjXdG6jVcCj7dcY5"
+   ]
+  },
+  "qstnprt_JQnBHSbRfpSZjYVv": {
+   "kind": "question_part",
+   "label": "qstn_xRGQ4k2hQSVJjmCd / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_4WWRRFZBNdRrY65t"
+   ]
+  },
+  "qstnprt_vBFnkgryFP9sJsRQ": {
+   "kind": "question_part",
+   "label": "qstn_pM7bQ2VGMw4yWHzz / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_y7js6MK5GzTkV7c5"
+   ]
+  },
+  "qstnprt_CzXNmGrqmvCzhDyY": {
+   "kind": "question_part",
+   "label": "qstn_kqd4yd7P6rM7rMcn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-6-firms-and-production",
+   "codes": [],
+   "pending": [
+    "spcpt_y7js6MK5GzTkV7c5"
+   ]
+  },
+  "qstnprt_HcBd2SGkvSc56rFD": {
+   "kind": "question_part",
+   "label": "qstn_MNzYSsKgSpFHzPSY / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nJN2FnfSNMHwKGyB"
+   ]
+  },
+  "qstnprt_xkzB7mKH7VyvnWf6": {
+   "kind": "question_part",
+   "label": "qstn_mcNsZgNgg8x96XrB / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_7P2q6Grg7RyBGwgQ": {
+   "kind": "question_part",
+   "label": "qstn_JwZX6RCdKb5t3Vhd / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_MvnRyfHMztjMgYWw": {
+   "kind": "question_part",
+   "label": "qstn_DZ8Y5p8wx53gfvkn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_tkSNC7BtHYyKYfCP": {
+   "kind": "question_part",
+   "label": "qstn_DnBwkc682bzkmzRn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_3FSd9Y5PysHcn7Jh": {
+   "kind": "question_part",
+   "label": "qstn_87gXjGd9WwpqdtSK / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_jD2X5wySj9JyX7Gc": {
+   "kind": "question_part",
+   "label": "qstn_YFRsKNhHqqHxDnnr / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_4hTdfQ6kq2q3Y7y2",
+    "spcpt_2c6hfFKVNHv54zX3"
+   ]
+  },
+  "qstnprt_mnhkFhdpFPDgCM8g": {
+   "kind": "question_part",
+   "label": "qstn_WDhsZ3BdbtSmM5gC / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_2c6hfFKVNHv54zX3"
+   ]
+  },
+  "qstnprt_F8YtFw8jmq4DHc5x": {
+   "kind": "question_part",
+   "label": "qstn_SxVYbPgb2Gy7jXtX / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_2c6hfFKVNHv54zX3"
+   ]
+  },
+  "qstnprt_x3cRgzbxRjkqdPQF": {
+   "kind": "question_part",
+   "label": "qstn_R9D7Cz84f2SKwgWm / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_dRXv2ddwH3M45Wmz": {
+   "kind": "question_part",
+   "label": "qstn_Q7JFt3FdcvWdrmZx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_4hTdfQ6kq2q3Y7y2"
+   ]
+  },
+  "qstnprt_sM4WwBmjtyvZ2Qqf": {
+   "kind": "question_part",
+   "label": "qstn_dhpmTBjJ52X63YF5 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_QyJwxWFhwtFTwd4R": {
+   "kind": "question_part",
+   "label": "qstn_68fvn8N9gPqbKfZQ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_v5DHG5McGSPKZvpp": {
+   "kind": "question_part",
+   "label": "qstn_ZVxgjsnRxR8FyYZ7 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_4hTdfQ6kq2q3Y7y2"
+   ]
+  },
+  "qstnprt_4YTzJZd3RZ5cpVJV": {
+   "kind": "question_part",
+   "label": "qstn_ZP9Y3RZrVHyM9XDr / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_j6t2rg2zMyYK8JB5": {
+   "kind": "question_part",
+   "label": "qstn_wGf2M69Mt9yhqp3b / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_2c6hfFKVNHv54zX3"
+   ]
+  },
+  "qstnprt_7vmbFQMJS5PDRdkY": {
+   "kind": "question_part",
+   "label": "qstn_VVWGkzgcSNmtBtR2 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY",
+    "spcpt_4hTdfQ6kq2q3Y7y2"
+   ]
+  },
+  "qstnprt_KhGFR9vtJBrX6Ypx": {
+   "kind": "question_part",
+   "label": "qstn_RWG7h4RSck9N8Nm4 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY",
+    "spcpt_2c6hfFKVNHv54zX3"
+   ]
+  },
+  "qstnprt_4tgw3Df2Rq732TKp": {
+   "kind": "question_part",
+   "label": "qstn_FnG6P2xHftVXGbTT / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_nS9RxWthxNHnwBtY"
+   ]
+  },
+  "qstnprt_XFprRTYRRt8kvqRh": {
+   "kind": "question_part",
+   "label": "qstn_2nvjWMNnxNdkBGfP / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-7-firms-costs-revenue-and-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YPyntdG6gHYNzxWx": {
+   "kind": "question_part",
+   "label": "qstn_VkG863vQdhQt6mP3 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv"
+   ]
+  },
+  "qstnprt_Gn875KTKHwJtnSwd": {
+   "kind": "question_part",
+   "label": "qstn_GY23WZ9PZPnBhH7x / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_j2fmpXh8nrxSkJMx": {
+   "kind": "question_part",
+   "label": "qstn_FVHSb3BXxGyy3Sv7 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_9PfkyCD4kH6TPQZS": {
+   "kind": "question_part",
+   "label": "qstn_98jr6Fm45BMz7cJ2 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv"
+   ]
+  },
+  "qstnprt_w8BZDWQqNB3Fs2Tc": {
+   "kind": "question_part",
+   "label": "qstn_57H8n99PpZsKz64d / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_CnS6c8kpvfYJ3YSH": {
+   "kind": "question_part",
+   "label": "qstn_ZnsXWS7dNfk3kShx / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv"
+   ]
+  },
+  "qstnprt_jsrhcjJFGHSDBmDP": {
+   "kind": "question_part",
+   "label": "qstn_wjf7TnJnKMdZZc9m / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_MZ2SP4XW3rc8BSJZ": {
+   "kind": "question_part",
+   "label": "qstn_HzmkPjxzHqHdZVHq / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv",
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_QCc2qHbBXb8xp2Yk": {
+   "kind": "question_part",
+   "label": "qstn_9t4yXg4qHNgDWYY5 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_Mbx5kdhvD6yDJmYg": {
+   "kind": "question_part",
+   "label": "qstn_8F5ZBC27SFXGPHPP / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_4tCGPNG4NJg2Vtq5": {
+   "kind": "question_part",
+   "label": "qstn_r5hGBRWDcqMcmpmn / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv"
+   ]
+  },
+  "qstnprt_QF3Fwk5Vp9rR2mDY": {
+   "kind": "question_part",
+   "label": "qstn_PRj48Q3fKzfs9k6n / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_xgnbWCB7GGJYPhRv"
+   ]
+  },
+  "qstnprt_cftB3qwq45rcVzBZ": {
+   "kind": "question_part",
+   "label": "qstn_nPkXbz6shStnvNn4 / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_Spj4wZNjj4s4rW8N": {
+   "kind": "question_part",
+   "label": "qstn_NGFPHrtNj7BMrYhQ / part 0",
+   "section": "3-microeconomic-decision-makers",
+   "topic": "3-8-market-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_JgfZkYK53b7pnHfn"
+   ]
+  },
+  "qstnprt_fb85FwrfnJdD6Bmk": {
+   "kind": "question_part",
+   "label": "qstn_SjVzvQgTY5XXZMVw / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_HG4M46xrwMq2TXjK": {
+   "kind": "question_part",
+   "label": "qstn_Pcsgj8gxJTJvcbQs / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_GR7DtkySmWwgwvbV": {
+   "kind": "question_part",
+   "label": "qstn_NgCkYYT6N3F67gPJ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_PvfGg9pY4Q3bh4fn": {
+   "kind": "question_part",
+   "label": "qstn_MkP2GRxfyxCf4txz / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_5BzChzrY3rRsysSX": {
+   "kind": "question_part",
+   "label": "qstn_7pPN3GpfKCQx298Y / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_gcGXPjJZhPsHMpKj": {
+   "kind": "question_part",
+   "label": "qstn_XMDPbW5Z52cXD72N / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_Yh4FQ4nTRcNshZZb": {
+   "kind": "question_part",
+   "label": "qstn_X85Jwdbc6VFsg88f / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_cJ3dRNvCN3PbrM3Q": {
+   "kind": "question_part",
+   "label": "qstn_Ks59b742jJqz9cvr / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_qXCvYNr4CbWBptqM": {
+   "kind": "question_part",
+   "label": "qstn_kf68QmktkwZvjnDf / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_RSWypVbdX5jBtvpY": {
+   "kind": "question_part",
+   "label": "qstn_3vMqVkpxG8ng28XZ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_dSZq5xf8BzhpKTbp": {
+   "kind": "question_part",
+   "label": "qstn_WhvXV9r84KQBmxS5 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_Z9vn7q26vdNw32kk": {
+   "kind": "question_part",
+   "label": "qstn_wbkWVtHn4vdGSR24 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_cTsVZZbGDsCTrmmn": {
+   "kind": "question_part",
+   "label": "qstn_rpVJWQGnmT2Nym3y / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_d3qCmdbS7Yw39BXQ": {
+   "kind": "question_part",
+   "label": "qstn_dWWQmqZF3zqCXPbh / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_zt5yzjDQRNjvJ82y": {
+   "kind": "question_part",
+   "label": "qstn_78b83XhbYbpPfnQ9 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-1-the-role-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_dsmf7Rn9pYCY3TVb"
+   ]
+  },
+  "qstnprt_8CHB9n5VpfdpZBkJ": {
+   "kind": "question_part",
+   "label": "qstn_qWQwsdcW8RGkVFwy / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_TrVR8Q2SqgFSTr72"
+   ]
+  },
+  "qstnprt_9zT6CMHK7YpJnSyR": {
+   "kind": "question_part",
+   "label": "qstn_nHRp6WnsxYs4JQMh / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_kWmkQzj2DSCNQjB6"
+   ]
+  },
+  "qstnprt_Xx9NY47cCPDD3vSR": {
+   "kind": "question_part",
+   "label": "qstn_kDnNgpDhDfxtp2VF / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_SMKZtXfvJNzpwFcK"
+   ]
+  },
+  "qstnprt_xSBZSSg4QVtKXXCJ": {
+   "kind": "question_part",
+   "label": "qstn_j2mkXcdzTgN7xw95 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_bSy3hbRp7wHxXnt9"
+   ]
+  },
+  "qstnprt_VCmW3P4qtrmG2fSx": {
+   "kind": "question_part",
+   "label": "qstn_89KzZ3j7PX8k6kKy / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_TrVR8Q2SqgFSTr72"
+   ]
+  },
+  "qstnprt_QCx9QKbVw9qFm3hN": {
+   "kind": "question_part",
+   "label": "qstn_TPpzqtbRnSz22pQ3 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_kWmkQzj2DSCNQjB6"
+   ]
+  },
+  "qstnprt_2mH2fN9w8xdJXhqs": {
+   "kind": "question_part",
+   "label": "qstn_h2ffyj8WgDB6xHyD / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_M4ZYR9wm4N4ckKd7"
+   ]
+  },
+  "qstnprt_n5Bp4Xdfd84Hm7cV": {
+   "kind": "question_part",
+   "label": "qstn_72bgCQRpP6yj9mJ2 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_bSy3hbRp7wHxXnt9"
+   ]
+  },
+  "qstnprt_3RVWxgYDgFHh8vBc": {
+   "kind": "question_part",
+   "label": "qstn_5XBnMDgy4ddb7hMK / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_5m4X7GK2kgmNcdM7"
+   ]
+  },
+  "qstnprt_rDpcq3FBtGVYCQYc": {
+   "kind": "question_part",
+   "label": "qstn_3SkQX2cKCMNkwxTz / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_kWmkQzj2DSCNQjB6"
+   ]
+  },
+  "qstnprt_hQV3dtv34jxzyNc9": {
+   "kind": "question_part",
+   "label": "qstn_xmDYspd3TTjQvCjr / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_TrVR8Q2SqgFSTr72"
+   ]
+  },
+  "qstnprt_Y34mshcngCNpYd9q": {
+   "kind": "question_part",
+   "label": "qstn_TMRSqfnVstwBZJfX / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_5m4X7GK2kgmNcdM7"
+   ]
+  },
+  "qstnprt_srfsrFTX5M6332wh": {
+   "kind": "question_part",
+   "label": "qstn_j8dfmX8gWBf4mXYd / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_TrVR8Q2SqgFSTr72"
+   ]
+  },
+  "qstnprt_N4ck923vPBFX6H4F": {
+   "kind": "question_part",
+   "label": "qstn_CPb4WSQrgNRBTfMh / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_M4ZYR9wm4N4ckKd7"
+   ]
+  },
+  "qstnprt_928DdNbcx4k9GZCK": {
+   "kind": "question_part",
+   "label": "qstn_b8dcNf4bsmRvqWQp / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-2-the-macroeconomic-aims-of-government",
+   "codes": [],
+   "pending": [
+    "spcpt_5m4X7GK2kgmNcdM7"
+   ]
+  },
+  "qstnprt_dqCSpT9D8jGD4PWw": {
+   "kind": "question_part",
+   "label": "qstn_ybGbfGjpKStdk5FC / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_KhNxVVHVGYs25nQZ": {
+   "kind": "question_part",
+   "label": "qstn_t8W6SX4TGkqWtHtV / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KGZSgHh9b69x5jCD": {
+   "kind": "question_part",
+   "label": "qstn_nzmDnkH4MD5f7r9f / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_kVstCdtn66FGgDG8": {
+   "kind": "question_part",
+   "label": "qstn_hpzKyHsPJK92vgPB / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_NGNnBysYRv6VBSyX": {
+   "kind": "question_part",
+   "label": "qstn_7KBXwKQzNtt8dkFK / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_N6WMyHxTXznd2Pq2": {
+   "kind": "question_part",
+   "label": "qstn_zSHyy7JRKvgpMTFf / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_4JNWz9YhCx4Z37zX": {
+   "kind": "question_part",
+   "label": "qstn_zcFzvKqzVqQT5Mk9 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_JNtHJpJjMY8wJDDJ"
+   ]
+  },
+  "qstnprt_VZKSQxdjJJJjhjZC": {
+   "kind": "question_part",
+   "label": "qstn_x9QRjPvRmq4FNJ5Y / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_43K82QQQrMXxd6TG": {
+   "kind": "question_part",
+   "label": "qstn_RHKGgZP22y8d5MBs / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_2fwMdYYwzHV37hGQ": {
+   "kind": "question_part",
+   "label": "qstn_qCmscnxPvp396VvV / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_JNtHJpJjMY8wJDDJ"
+   ]
+  },
+  "qstnprt_yWH5GfZfTdWp8qbF": {
+   "kind": "question_part",
+   "label": "qstn_chkZ2Yzpr6Dw8BXQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_cw2dT4DRBTdZpTyq": {
+   "kind": "question_part",
+   "label": "qstn_zm5hmbkxGpSrpHxt / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_xtWGBdfPTtF2xRKZ": {
+   "kind": "question_part",
+   "label": "qstn_PZjSgv52ryXftP5T / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_mqNs78qJpNQWsWBf": {
+   "kind": "question_part",
+   "label": "qstn_Mwtw4ptRWGkpBJdv / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_JNtHJpJjMY8wJDDJ"
+   ]
+  },
+  "qstnprt_MZnWd7NQfGxkdz2R": {
+   "kind": "question_part",
+   "label": "qstn_jvWTwSrGF3nnTkCQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_7QX2xg2vznMvdfqD": {
+   "kind": "question_part",
+   "label": "qstn_GyRmFm5K8jqJRHDH / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_Xhf9C6XGxP3wCM4G": {
+   "kind": "question_part",
+   "label": "qstn_gMFJSJCmMcPSbQ76 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_d5HjSzdgx2PHYGJQ": {
+   "kind": "question_part",
+   "label": "qstn_CNzMnMBgTzVtpjbj / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6Bgz8T82RSFbYsrT": {
+   "kind": "question_part",
+   "label": "qstn_9gJybSW36qFHvphb / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_d6dC2HdZs8yJ62KB": {
+   "kind": "question_part",
+   "label": "qstn_8TcbXnMHWYc4bZKg / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-3-fiscal-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_kdGc5Vf4Wy6pkp99"
+   ]
+  },
+  "qstnprt_TBsQhBFYqtmzQ9RF": {
+   "kind": "question_part",
+   "label": "qstn_vVH3Csf82sSPGVfJ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_JSKMVJNw9BR7yKVC": {
+   "kind": "question_part",
+   "label": "qstn_8qKFp8J7ZBgVrX8W / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF",
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_qWbzqnqSprJh24db": {
+   "kind": "question_part",
+   "label": "qstn_xmhKvGWRKgdzGvKQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF"
+   ]
+  },
+  "qstnprt_rgR9q3ryh34sbWXR": {
+   "kind": "question_part",
+   "label": "qstn_PvxWQpfJ64vCySmd / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF",
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_TpbghX44TDTbvTr7": {
+   "kind": "question_part",
+   "label": "qstn_NXfZHVxNDbnn5XmY / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_KWyNnhRYbCmxbbXG": {
+   "kind": "question_part",
+   "label": "qstn_CssnyKx2PT54PMrQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_42y3f7ZZWMcFWpfX": {
+   "kind": "question_part",
+   "label": "qstn_5dG3VQBFDFk5Cwfv / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF"
+   ]
+  },
+  "qstnprt_xX4shY2cd3WPC6Zb": {
+   "kind": "question_part",
+   "label": "qstn_ZqxpfYWcT2NmjQDV / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_YkBvYCFmSbtQhhsQ": {
+   "kind": "question_part",
+   "label": "qstn_QW9CwZJjYqMpBwSk / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_pWtM64p8wmVqMFXQ": {
+   "kind": "question_part",
+   "label": "qstn_PwfdZHRqZf9nc4dQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF"
+   ]
+  },
+  "qstnprt_6kYx7VsGXW2DG8cp": {
+   "kind": "question_part",
+   "label": "qstn_FCHMy5t29MnvDhPj / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-4-monetary-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_Hp6HH67ywyxyhTgF",
+    "spcpt_2QpjTMpfdgRP6TKj"
+   ]
+  },
+  "qstnprt_Bzytb5CtHNDGgFGZ": {
+   "kind": "question_part",
+   "label": "qstn_tdpvD3Tn6Z5yFYT2 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DGKfMx7vdbCpm2PY": {
+   "kind": "question_part",
+   "label": "qstn_jCz94C3RyWjVVxrJ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Pq2hzg2GZRzVfjDr": {
+   "kind": "question_part",
+   "label": "qstn_JCy857KFdccdMYPJ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_X3GQjjy3NzhJzr4T": {
+   "kind": "question_part",
+   "label": "qstn_6RpDNmFjHySCQPrP / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_sxxCRd5x4sxXzFJn"
+   ]
+  },
+  "qstnprt_kVBz3Cg9pbCq7Wwv": {
+   "kind": "question_part",
+   "label": "qstn_TK7GJScDn5YMvy7G / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_2cFRs25cwPTR8WN7": {
+   "kind": "question_part",
+   "label": "qstn_RppZxxNY3HgWwCzQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_sxxCRd5x4sxXzFJn"
+   ]
+  },
+  "qstnprt_4jywWBNzyHW8t86q": {
+   "kind": "question_part",
+   "label": "qstn_kWpR7dZdJBtQ5Pv5 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bYvR9QvS3sd8jky3": {
+   "kind": "question_part",
+   "label": "qstn_cFdVwBVkpsx5X3y6 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bzn43dZgSJKN6WwF": {
+   "kind": "question_part",
+   "label": "qstn_PPd3nJKRsYGnF4Hn / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [],
+   "pending": [
+    "spcpt_sxxCRd5x4sxXzFJn"
+   ]
+  },
+  "qstnprt_8PpWNrmpDpzRYPWr": {
+   "kind": "question_part",
+   "label": "qstn_fnvKRbN4SqCYkGvd / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_FZ9cKJQCyKKpYmvf": {
+   "kind": "question_part",
+   "label": "qstn_CWZXVxCCkYyCGXXp / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_sxxCRd5x4sxXzFJn"
+   ]
+  },
+  "qstnprt_M4xWjh9wjBM9kt4P": {
+   "kind": "question_part",
+   "label": "qstn_7YrhcMGzMcGrrYxp / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_JNtHJpJjMY8wJDDJ"
+   ]
+  },
+  "qstnprt_65b4R8RYMM2chjvh": {
+   "kind": "question_part",
+   "label": "qstn_4YCVVxzSVmS4BZgK / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-5-supply-side-policy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YqmT88PvDnncwW5C": {
+   "kind": "question_part",
+   "label": "qstn_YNFBtTczHxGZH36S / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_qzZpRsZxpS3p8Ywb",
+    "spcpt_NDP5FNrzKwFY36mZ"
+   ]
+  },
+  "qstnprt_qkWRyzdYGGBdgDZN": {
+   "kind": "question_part",
+   "label": "qstn_xz2XfnwtBRMfBpSs / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_VktksYdnMZ2ZdSZ7"
+   ]
+  },
+  "qstnprt_q9FMS6nB7zR98wVj": {
+   "kind": "question_part",
+   "label": "qstn_TCRqgdhKkdhww2zN / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_M4ZYR9wm4N4ckKd7",
+    "spcpt_6HGHBFZbR4585fw3"
+   ]
+  },
+  "qstnprt_RgVXSkYBqNF25rYV": {
+   "kind": "question_part",
+   "label": "qstn_s7yqpBtf7PSPCN8c / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_qB6MKM4CynHnMDvh"
+   ]
+  },
+  "qstnprt_tmgrV83J32THCkkx": {
+   "kind": "question_part",
+   "label": "qstn_8cSgZmpbR8yxVGSH / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Y9jCCqWcm63tbKMF": {
+   "kind": "question_part",
+   "label": "qstn_MPKhCk7NZbqXksZV / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_NDP5FNrzKwFY36mZ"
+   ]
+  },
+  "qstnprt_2s9TNCh9vszKpThR": {
+   "kind": "question_part",
+   "label": "qstn_JHQ7Rxq2wJSkDz3s / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WvmmNdCpfCn6v4ZK": {
+   "kind": "question_part",
+   "label": "qstn_fTttGPrPmJMmd8YN / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_wvCtX8bHrntHWkDz"
+   ]
+  },
+  "qstnprt_ByYZwM63Y52CJSTF": {
+   "kind": "question_part",
+   "label": "qstn_d5hCmT7CKMXtGkZD / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_wvCtX8bHrntHWkDz"
+   ]
+  },
+  "qstnprt_tWJXXfmVBGCMzWCZ": {
+   "kind": "question_part",
+   "label": "qstn_7BNTnHZTf3Z4pth5 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_NDP5FNrzKwFY36mZ"
+   ]
+  },
+  "qstnprt_vX4prxVcQZYPYGWr": {
+   "kind": "question_part",
+   "label": "qstn_wcMxXK5xn4wPcmfd / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_NDP5FNrzKwFY36mZ"
+   ]
+  },
+  "qstnprt_v4ndb39v6vVckZDk": {
+   "kind": "question_part",
+   "label": "qstn_rtxV43Wfy2nbDf3j / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_VktksYdnMZ2ZdSZ7",
+    "spcpt_NDP5FNrzKwFY36mZ"
+   ]
+  },
+  "qstnprt_WHxk8vd8fwMfV9wG": {
+   "kind": "question_part",
+   "label": "qstn_hkkGmPV7TdK2qzsW / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yStr4r4kdssy7F85": {
+   "kind": "question_part",
+   "label": "qstn_grgPXpgfXfySvvKy / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_NDP5FNrzKwFY36mZ",
+    "spcpt_FFKqMhjtP8gNbV6P"
+   ]
+  },
+  "qstnprt_R5DdmGC763fRvfSs": {
+   "kind": "question_part",
+   "label": "qstn_5BVyHydPbG6PxMCQ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_wvCtX8bHrntHWkDz"
+   ]
+  },
+  "qstnprt_tNYV3bX3KszNNjVp": {
+   "kind": "question_part",
+   "label": "qstn_4TJZQRVJCvkMTH4y / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-6-economic-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_j292tGmqW5tDV3gC"
+   ]
+  },
+  "qstnprt_25RkxhkVfnNzNsQw": {
+   "kind": "question_part",
+   "label": "qstn_wD7ygsJDTSVyc3pk / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [],
+   "pending": [
+    "spcpt_NzBP5C2sKxNhvDVZ"
+   ]
+  },
+  "qstnprt_jpR9rx694PK2VBXG": {
+   "kind": "question_part",
+   "label": "qstn_c2wBvYcXZ2Zm6JjG / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [],
+   "pending": [
+    "spcpt_T33QPZzQmQCb9K8v"
+   ]
+  },
+  "qstnprt_24sKWSzKyGn9Cb9N": {
+   "kind": "question_part",
+   "label": "qstn_9Ry3cNTKDmFKXqbG / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rx4gfTRsDHgVPjSy": {
+   "kind": "question_part",
+   "label": "qstn_3NzZgTbXD479d3Pp / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8swWmnDPxYv2m2yr": {
+   "kind": "question_part",
+   "label": "qstn_zBFdkdtKWy2kTvj3 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ksdkS9TYXCpm343y": {
+   "kind": "question_part",
+   "label": "qstn_XgHcMnqBgksZXf6X / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.1",
+     "official_code": "4.7.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_FrCZGZGgxcFHpYJP": {
+   "kind": "question_part",
+   "label": "qstn_NNbpYCyDQpSmp5yb / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_J2QNkkprmxXs6ZmH": {
+   "kind": "question_part",
+   "label": "qstn_CXVSCpd37pxzV7bF / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [],
+   "pending": [
+    "spcpt_VktksYdnMZ2ZdSZ7"
+   ]
+  },
+  "qstnprt_YzytKrfK4swgsMVF": {
+   "kind": "question_part",
+   "label": "qstn_YFTY7sXdzK8HhtZT / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.1",
+     "official_code": "4.7.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vNH5hVf3nJSmmTZn": {
+   "kind": "question_part",
+   "label": "qstn_XpjpfTpRBDgmQtp7 / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SF6pCpQZFx9hYqpG": {
+   "kind": "question_part",
+   "label": "qstn_NB4pcJ9kYKzyj4jh / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_53j3NjZfrHQnpFBY": {
+   "kind": "question_part",
+   "label": "qstn_fQsjwnsQsb95bJCY / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [],
+   "pending": [
+    "spcpt_T33QPZzQmQCb9K8v"
+   ]
+  },
+  "qstnprt_dqBrvHySDXprrc5y": {
+   "kind": "question_part",
+   "label": "qstn_84Sj4wMBvQHZsdVZ / part 0",
+   "section": "4-government-and-the-macroeconomy",
+   "topic": "4-7-employment-and-unemployment",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.1",
+     "official_code": "4.7.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_wRr2GdfmCbqQpRZV"
+   ]
+  },
+  "qstnprt_zG8ZjGBYvYfr456P": {
+   "kind": "question_part",
+   "label": "qstn_3xdmJ8Pj3xqJxdCM / part 0",
+   "section": "5-economic-development",
+   "topic": "5-1-living-standards",
+   "codes": [],
+   "pending": [
+    "spcpt_YmfnjN44mMgMvyFH"
+   ]
+  },
+  "qstnprt_Tfd6pPMwyHsyZYds": {
+   "kind": "question_part",
+   "label": "qstn_qCmcBtkx78vXmTqz / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SjBgH87mSRy2BJSC": {
+   "kind": "question_part",
+   "label": "qstn_j7rXRCJSsRsqzg89 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [],
+   "pending": [
+    "spcpt_nfjCxgsj3RrTNNyV"
+   ]
+  },
+  "qstnprt_cNHfWQksdxnBCQBW": {
+   "kind": "question_part",
+   "label": "qstn_gCd2M5YyfHKmY4DH / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [],
+   "pending": [
+    "spcpt_nfjCxgsj3RrTNNyV"
+   ]
+  },
+  "qstnprt_NvwsfrB7tHR3pJfH": {
+   "kind": "question_part",
+   "label": "qstn_dJtX4F3qQdyk4Gmt / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [],
+   "pending": [
+    "spcpt_nfjCxgsj3RrTNNyV"
+   ]
+  },
+  "qstnprt_4DXG3X7dwZvm3HVS": {
+   "kind": "question_part",
+   "label": "qstn_2zY63jX6R3Pz6ygC / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_m5khhhDV4QKSP8Zh": {
+   "kind": "question_part",
+   "label": "qstn_MbY9Qgw6M7MHMm58 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-2-poverty",
+   "codes": [],
+   "pending": [
+    "spcpt_nfjCxgsj3RrTNNyV"
+   ]
+  },
+  "qstnprt_vJPmG24vPN5Pxxqb": {
+   "kind": "question_part",
+   "label": "qstn_TythPJFrRz4YpRj5 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_s8pzQnyYhMT4GT27"
+   ]
+  },
+  "qstnprt_qyd3BrVT9Mrt4Fkh": {
+   "kind": "question_part",
+   "label": "qstn_tSMkD9CbgJCDQWtP / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_s8pzQnyYhMT4GT27"
+   ]
+  },
+  "qstnprt_q3zjshMWgC5kS9fc": {
+   "kind": "question_part",
+   "label": "qstn_3pD5Y7rhzfzyMBtd / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MpG83ZSJhkmM7sSb": {
+   "kind": "question_part",
+   "label": "qstn_ymNgH7Z8d985W6px / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Rp7bhqnR59WK9nnS": {
+   "kind": "question_part",
+   "label": "qstn_sTrJNHBvhZVtzrD9 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_s8pzQnyYhMT4GT27"
+   ]
+  },
+  "qstnprt_brdqYzty7JJBpTpH": {
+   "kind": "question_part",
+   "label": "qstn_S69vh3nsx7Xthbcf / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_f2bpXmfF7h8vJSh3"
+   ]
+  },
+  "qstnprt_HFBBjS2D3k29zJnN": {
+   "kind": "question_part",
+   "label": "qstn_J4PJVsdn27mwNNtS / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rhqzym777SWrDNCT": {
+   "kind": "question_part",
+   "label": "qstn_CQsGXChBM2QdFx3T / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_JHss3knQJ5Xdzbds": {
+   "kind": "question_part",
+   "label": "qstn_xbncPk4RJKfD8QX5 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yV2Q5fHh5zQVdsVb": {
+   "kind": "question_part",
+   "label": "qstn_dRCrf74yM9c2RMTY / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NFMXYrkcQQzWhDgP": {
+   "kind": "question_part",
+   "label": "qstn_cVk3KTk3dWRMVvCt / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_tzTnGn7VdKWfbjvv"
+   ]
+  },
+  "qstnprt_tDQtK2NjhM328h2j": {
+   "kind": "question_part",
+   "label": "qstn_3nNFhxsSFdyGKh9p / part 0",
+   "section": "5-economic-development",
+   "topic": "5-3-population",
+   "codes": [],
+   "pending": [
+    "spcpt_tzTnGn7VdKWfbjvv"
+   ]
+  },
+  "qstnprt_2kRhfSyHpCx2XGWn": {
+   "kind": "question_part",
+   "label": "qstn_t9T2XBPPz3b6t73F / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_nXMrqprXjxYmXDWV": {
+   "kind": "question_part",
+   "label": "qstn_qB7XrCN44StSzgFJ / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_DfBFDtMQPxVjfnWZ": {
+   "kind": "question_part",
+   "label": "qstn_kdXWJkrJDZBJj9Fz / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_J4nPQNFM9PJsVX3r": {
+   "kind": "question_part",
+   "label": "qstn_Gsc4yk57QrcZJTXn / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_nJvxZ7bzXZr3tzJQ": {
+   "kind": "question_part",
+   "label": "qstn_FNs9YFrVFncPP334 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_3Rwtr97DFDK7M28y": {
+   "kind": "question_part",
+   "label": "qstn_WT4wyvNvRyWrs53H / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_tJYr8DWysNSrzQtB": {
+   "kind": "question_part",
+   "label": "qstn_qMp5vjZVv48bG4Rr / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_2TyXTbd9y68B8Smt": {
+   "kind": "question_part",
+   "label": "qstn_NF4FGWNVJR5Pnchm / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_NVncJ2CGY5HffQyw": {
+   "kind": "question_part",
+   "label": "qstn_hFfGH6dg4dPJN389 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_WjWTGtJjcHnmdtgY": {
+   "kind": "question_part",
+   "label": "qstn_GZRfmgnSGpjqVxR2 / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_j6f4H37tgZ5KZCVt": {
+   "kind": "question_part",
+   "label": "qstn_3YbCq96nS3spgp8v / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_wHj2qgkfggv433xH": {
+   "kind": "question_part",
+   "label": "qstn_257Ypsf6YpTfkDwJ / part 0",
+   "section": "5-economic-development",
+   "topic": "5-4-differences-in-economic-development",
+   "codes": [],
+   "pending": [
+    "spcpt_6HpkNMkRQQsg4xRq"
+   ]
+  },
+  "qstnprt_9PKCdkPRRcQPwdBp": {
+   "kind": "question_part",
+   "label": "qstn_P82VMdbPPCzD5cWW / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_nQpqMkzGc8qTKmpK": {
+   "kind": "question_part",
+   "label": "qstn_BXXJXGQcjXjt6Vqr / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t"
+   ]
+  },
+  "qstnprt_7vM5kY82pVbsXQns": {
+   "kind": "question_part",
+   "label": "qstn_8HsxRkxFwMWZx24K / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t"
+   ]
+  },
+  "qstnprt_M9ZBpss2Fj4fBGDr": {
+   "kind": "question_part",
+   "label": "qstn_84mqnwNfRT4DQwhC / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_qsgZnkYb7C3scP5D": {
+   "kind": "question_part",
+   "label": "qstn_RYv7Cj3SJQTdygZZ / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t"
+   ]
+  },
+  "qstnprt_y8RqZfBGFJwP3kFS": {
+   "kind": "question_part",
+   "label": "qstn_kkWTH6Qt2xpgYK9T / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_w6dMfRC3FwQGKx5X": {
+   "kind": "question_part",
+   "label": "qstn_gN5ThvWmy5fp6CqH / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_5t9G8PztxV7D9Pcs": {
+   "kind": "question_part",
+   "label": "qstn_6nNfRXRVJJ2R6Cd9 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_N89v3d7jC9VHHwbb": {
+   "kind": "question_part",
+   "label": "qstn_3mFfvYx4dgzYS5J7 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t"
+   ]
+  },
+  "qstnprt_RF8K4F7HGX3S58Y2": {
+   "kind": "question_part",
+   "label": "qstn_zjtM5Mj3NKZzxrgJ / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_rtJ6FxKfn6j7ZSD3": {
+   "kind": "question_part",
+   "label": "qstn_Z2Cq5smv3VqdzjXT / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_j94XM5X7Wmtx5s6q": {
+   "kind": "question_part",
+   "label": "qstn_T6JMgxky5Z8XVVDj / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Mq37kFNJvyV2Rt6t"
+   ]
+  },
+  "qstnprt_yvhdqQNJy3Zwmks6": {
+   "kind": "question_part",
+   "label": "qstn_Sm9hz2NnZ59RBP69 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_b3WXW5N87JHxbXv3": {
+   "kind": "question_part",
+   "label": "qstn_F4RcYh9pRBCSRf9S / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-1-international-specialisation",
+   "codes": [],
+   "pending": [
+    "spcpt_5DG9WK8xqGm5w66s"
+   ]
+  },
+  "qstnprt_TcKtXSHqxqwYVfRV": {
+   "kind": "question_part",
+   "label": "qstn_Y9tgPGMYkW3ZgJQN / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_S5zn6nfTGQQKF6WG": {
+   "kind": "question_part",
+   "label": "qstn_wxgVB5bB9gYGnZ2X / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_zjPFj9QmpVfmCxj6"
+   ]
+  },
+  "qstnprt_RQw3zjsjBxXwrkZg": {
+   "kind": "question_part",
+   "label": "qstn_tBs37CQsbDqnX2Rr / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SVT8gJFdcMX9QVcJ": {
+   "kind": "question_part",
+   "label": "qstn_NH7DPWJCtJmsJqGk / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [],
+   "pending": [
+    "spcpt_zjPFj9QmpVfmCxj6"
+   ]
+  },
+  "qstnprt_hS65nvyb5v48vKKX": {
+   "kind": "question_part",
+   "label": "qstn_2DdF2PxcHM9zsX2r / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pCt8cDGNPg7CG5Q7": {
+   "kind": "question_part",
+   "label": "qstn_TNmYV8QxRdZYf98t / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DCy83yzJ5hMHKQqb": {
+   "kind": "question_part",
+   "label": "qstn_qvs2VVMpdhNyJXMQ / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_25YbFcvzHVj446Kr": {
+   "kind": "question_part",
+   "label": "qstn_bpHxnnrTnkvskP2Z / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RfD6tfnMG273sNgp": {
+   "kind": "question_part",
+   "label": "qstn_8yqtxXK8xByYnjxP / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CYJmMq7twWVPyRbR": {
+   "kind": "question_part",
+   "label": "qstn_8wgSjjfwPPR67VyM / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NJ8Xp3t8VcWxDTzw": {
+   "kind": "question_part",
+   "label": "qstn_7CbM332ppq5Vkf6g / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-2-globalisation-free-trade-and-protection",
+   "codes": [],
+   "pending": [
+    "spcpt_zjPFj9QmpVfmCxj6"
+   ]
+  },
+  "qstnprt_zNyR5RDn686gkdzC": {
+   "kind": "question_part",
+   "label": "qstn_yWKDfZqrJvryxsMx / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_2CGKWVJJXPpsDns9"
+   ]
+  },
+  "qstnprt_PCr7q46K8y8mCbyG": {
+   "kind": "question_part",
+   "label": "qstn_WWrS7SW8hYxDBRFc / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_H8KWXKXSBZ9Xjm3J": {
+   "kind": "question_part",
+   "label": "qstn_Vpcwpb7CCfVqMh64 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_KCqd9WgfCHw2grQ3"
+   ]
+  },
+  "qstnprt_DCzxS7FDGNgF77Ff": {
+   "kind": "question_part",
+   "label": "qstn_KddqTqqPCqT39Smn / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_2CGKWVJJXPpsDns9"
+   ]
+  },
+  "qstnprt_QK7G2DKQnf9wJ2k4": {
+   "kind": "question_part",
+   "label": "qstn_QZnZ3Dbp3vGwBzGF / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_jtGTbwhcztZFmsS7": {
+   "kind": "question_part",
+   "label": "qstn_Mfnk4JGwqjKsTMGb / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_PWXxw3ddQZ9Svrj4"
+   ]
+  },
+  "qstnprt_h36TK3SVZgyvksKN": {
+   "kind": "question_part",
+   "label": "qstn_J9YxkCGdfDnCvpB2 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_jbSyv8hNBsdVM97p"
+   ]
+  },
+  "qstnprt_WhxPRhshb7RjHcG2": {
+   "kind": "question_part",
+   "label": "qstn_hsJY8ZpV5Mgbbg5Y / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_xcBQZDJ4VGW3qNzM": {
+   "kind": "question_part",
+   "label": "qstn_b2t9VPdYNww6xnC7 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_jbSyv8hNBsdVM97p"
+   ]
+  },
+  "qstnprt_syPnHfNgJN4GzSqC": {
+   "kind": "question_part",
+   "label": "qstn_wFk5dbkxxv673Vfj / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-3-foreign-exchange-rates",
+   "codes": [],
+   "pending": [
+    "spcpt_PWXxw3ddQZ9Svrj4"
+   ]
+  },
+  "qstnprt_96qf22yZjPgC9WR5": {
+   "kind": "question_part",
+   "label": "qstn_tpVvGs4Xd297pGVV / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_r7Zys58zSGGdKdYh": {
+   "kind": "question_part",
+   "label": "qstn_thtx7vGX9vVTmWDq / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_nvCbzPzHkkKnMvRT": {
+   "kind": "question_part",
+   "label": "qstn_jFw5NTDH6CXZjfz2 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_7pwMpQ8Dh4XNsTST": {
+   "kind": "question_part",
+   "label": "qstn_8XHVMCfzrmPSxxT2 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_d3xqvh774jQw6Drp": {
+   "kind": "question_part",
+   "label": "qstn_5k96Pf94znn8HSx3 / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_pPKCbwjRGJ6zw3Tj": {
+   "kind": "question_part",
+   "label": "qstn_SS3F57j43TCS2JHz / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_HXPfwJbTzSdWf4sB": {
+   "kind": "question_part",
+   "label": "qstn_Rjf8pN6qJqQsW73c / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_Zgg3VPDMKDWTwYyj"
+   ]
+  },
+  "qstnprt_b78YbSbq7kHx3nJn": {
+   "kind": "question_part",
+   "label": "qstn_PMDTCj9mYwkmgXCm / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_zygVtccYSVdtFqQ6": {
+   "kind": "question_part",
+   "label": "qstn_Ckzwdh22YWGBHV3r / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_pRPMCpstHvwqdvhz"
+   ]
+  },
+  "qstnprt_YKH2XrJVQMZt4v6N": {
+   "kind": "question_part",
+   "label": "qstn_bY3v5s2MjYNKpSyK / part 0",
+   "section": "6-international-trade-and-globalisation",
+   "topic": "6-4-current-account-of-balance-of-payments",
+   "codes": [],
+   "pending": [
+    "spcpt_Zgg3VPDMKDWTwYyj"
+   ]
+  }
+ }
+}

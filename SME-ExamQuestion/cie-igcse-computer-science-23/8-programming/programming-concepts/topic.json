@@ -1,0 +1,1049 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:41:08Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "8-programming",
+  "name": "8. Programming"
+ },
+ "topic": {
+  "id": "top_YtnZsTwTGVVwkdJk",
+  "slug": "programming-concepts",
+  "name": "Programming Concepts",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "variables-and-constants",
+   "name": "Variables & Constants",
+   "revision_note_id": "rn_34zBXftcgbc6drNT"
+  },
+  {
+   "slug": "data-types",
+   "name": "Data Types",
+   "revision_note_id": "rn_b7pKqWRjcnFBHSGR"
+  },
+  {
+   "slug": "input-and-output",
+   "name": "Input & Output",
+   "revision_note_id": "rn_957wFDRHscbD8VVJ"
+  },
+  {
+   "slug": "sequence",
+   "name": "Sequence",
+   "revision_note_id": "rn_WW44KmG5sRbNDDK9"
+  },
+  {
+   "slug": "selection",
+   "name": "Selection",
+   "revision_note_id": "rn_9G94M2YCSJPvxnmH"
+  },
+  {
+   "slug": "iteration",
+   "name": "Iteration",
+   "revision_note_id": "rn_776JXcS9NmXDrqdd"
+  },
+  {
+   "slug": "totalling-and-counting",
+   "name": "Totalling & Counting",
+   "revision_note_id": "rn_WdhHqPBnhQ2TYwPT"
+  },
+  {
+   "slug": "string-handling",
+   "name": "String Handling",
+   "revision_note_id": "rn_4YCPw5grTQQp6GcJ"
+  },
+  {
+   "slug": "arithmetic-logical-and-boolean-operators",
+   "name": "Arithmetic, Logical & Boolean Operators",
+   "revision_note_id": "rn_qhDM88tHBkXGsMP5"
+  },
+  {
+   "slug": "procedures-and-functions",
+   "name": "Procedures & Functions",
+   "revision_note_id": "rn_kqRBGvjZfcfxbn7b"
+  },
+  {
+   "slug": "local-and-global-variables",
+   "name": "Local & Global Variables",
+   "revision_note_id": "rn_Y9GWSTcpqNqWMJYS"
+  },
+  {
+   "slug": "library-routines",
+   "name": "Library Routines",
+   "revision_note_id": "rn_H5BQgcB2M8CBVzJm"
+  },
+  {
+   "slug": "maintaining-programs",
+   "name": "Maintaining Programs",
+   "revision_note_id": "rn_dJ7K22qrNjfmfNpn"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Kyd9xQWfPcF5SkXh",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 28,
+   "questions_embedded": 28,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/8-programming/programming-concepts/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 28,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/06/21971_0478-s24-qp-21-q2.png": "001-descriptions-and-programming-concepts-matching-e.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/64131_0478-s24-qp-22-ms2.png": "002-flowchart-matching-programming-concepts-to-descr.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/18460_programming-concept.png": "003-table-detailing-programming-concepts-and-descrip.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/31978_programming-concept-ms.png": "004-match-diagram-titled-programming-concept-to-desc.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/41062_specimen-2023-2a-11a-flowchart.png": "005-a-table-lists-movies-by-catalog-number-title-two.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/35606_pseudocode-statements.png": "006-matching-exercise-left-column-lists-pseudocode-d.png",
+   "https://cdn.savemyexams.com/uploads/2024/09/38120_pseudocode-statements-ms.png": "007-a-diagram-matching-pseudocode-descriptions-to-st.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_Y29VBr4BpJXjvD8G",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_jcsdmJHq7TZNWWsn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Write** the pseudocode statements to perform this task:\n\n- Accept the input of two whole numbers: a grade (1 to 5 inclusive) and a subject code (10, 20, 30, or 40)\n\n- Use **nested selection statements** to:\n\n○ If the grade is valid (1 to 5), use a **CASE** statement to check the subject code:\n\n- If subject code is 10: output \"Mathematics - Grade \" followed by the grade\n- If subject code is 20: output \"Science - Grade \" followed by the grade\n- If subject code is 30: output \"English - Grade \" followed by the grade\n- If subject code is 40: output \"History - Grade \" followed by the grade\n- If subject code is invalid: output \"INVALID SUBJECT\"\n\n○ If the grade is not valid (not 1 to 5 inclusive), output \"INVALID GRADE\"",
+     "solution_md": "- Correct input statements for both variables [1 mark]\n- Correct outer IF statement with appropriate condition for grade validation [1 mark]\n- Elements of nested CASE statement present – `CASE OF ... ENDCASE` within the IF block [1 mark]\n- All four subject code branches correct with appropriate concatenation [1 mark]\n- Correct use of `OTHERWISE` for invalid subject code and `ELSE` for invalid grade [1 mark]"
+    }
+   ]
+  },
+  {
+   "id": "qstn_P7Tz8FYNRCZ2snbc",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_djRQFrV23Yqzg3hv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A function `LENGTH(X)` finds the length of a string X and a function `SUBSTRING(X,Y,Z)` finds a substring of X starting at position Y and Z characters long. The first character in the string is position 1.\n\n`Q ← \"Programming Languages\"`\n\n**Write a pseudocode statement** to extract the word Languages from Q and store it in the variable G.",
+     "solution_md": "The correct pseudocode statement would be:\n\n• `G ← SUBSTRING(Q,13,9)`\n\n• `G ← SUBSTRING` **[1 mark]**\n\n• `(Q,13,9)` **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jkBP8WCmDRxGgSXF",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_Z7Nz7b8D6rzTtbQX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zR626RjhYn5znqyX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Write **the pseudocode statements to perform this task:\n\n• Accept the input of a whole number from 1 to 4 inclusive\n• Use a **CASE **statement to:\n ○ output the number (1 to 4 inclusive) that was entered\n ○ output the word “ERROR” if a 1 to 4 inclusive number was not entered",
+     "solution_md": "- Correct input statement with appropriate variable **[1 mark]**\n- Elements of selection statement present – `CASE OF ... ENDCASE `**[1 mark]**\n- At least one correct branch in the case statement **[1 mark]**\n- All branches from 1 to 4 correct **[1 mark]**\n- Correct use of `OTHERWISE` with correct output **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kKwPyWgwshmgW87H",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nJhF8MbgHCmNRNgC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvS5PXSq9qWddWRK"
+     ],
+     "part_tier": null,
+     "problem_md": "**State **what is meant by the data types integer and real.\n\n**Give **an example of each.",
+     "solution_md": "**One **mark for a correct statement about each data type **[1 mark]**\n**One **mark for a correct example of data for each data type **[1 mark]**\n\nE.g.\n\n- **Integer** – A whole number **[1 mark]** **:** 27  **[1 mark]**\n- **Real** – A number that contains a fractional part  **[1 mark]** **:** 18.75  **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gzbMTB6Pkft6gTsn",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2mctwwXGNBjMfSzQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "outline",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_q8mspQC3BH7dbMCc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Outline **the role of procedures and functions in creating a program that is easier to maintain.",
+     "solution_md": "Examples of why procedures and functions make a program easier to maintain are:\n\nAny **three **of the following:\n\n- Procedures / functions divide the program into smaller manageable segments **[1 mark]**\n- … making it more readable / easier to understand / easier to debug **[1 mark]**\n- Procedures / functions with meaningful names help to provide documentation for the program / enable/help/provide abstraction **[1 mark]**\n- Procedures and functions may be re-used (in the program / in other programs / as part of a library) / run from a single line **[1 mark]**\n- Procedures and functions can reduce / eliminate (repeated) code **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M2QDJwwVHC5Bc4Gs",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Frch2cpXtZq3GJXw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_q8mspQC3BH7dbMCc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Write **the pseudocode to use a procedure named `Average` that passes the values **25 **and **50 **to the procedure.",
+     "solution_md": "**The correct pseudocode would be:**\n\n`CALL Average(25, 50)`\n\n- Correct key word – `CALL`** ****[1 mark]**\n- Procedure name with correct parameters – `Average(25, 50)`** ****[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XJ5sQrXF7pTfB2FP",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_FYzTfyrhSpWnWTWZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_q8mspQC3BH7dbMCc"
+     ],
+     "part_tier": null,
+     "problem_md": "Four descriptions of programming concepts and five programming concepts are shown.\n\n**Draw one **line to link each description to the most appropriate programming concept.\n\n**Not **all programming concepts will be used.\n\n![Descriptions and programming concepts matching exercise with phrases about subroutines, values, and variables linked to function, procedure, etc.](assets/001-descriptions-and-programming-concepts-matching-e.png)",
+     "solution_md": "- Each correct line **[1 mark]**\n\n![Flowchart matching programming concepts to descriptions: procedure to subroutine not always returning a value, and function always returns a value.](assets/002-flowchart-matching-programming-concepts-to-descr.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fxqPKXV9rDr6CZ8T",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_TT6zMkYsVBNHbVy2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_X4k5ZCwB6PZxYWJV",
+      "spcpt_N9ysmqPWTHkn4yct"
+     ],
+     "part_tier": null,
+     "problem_md": "A function `LENGTH(X)` finds the length of a string X and a function `SUBSTRING(X,Y,Z)` finds a substring of` X `starting at position `Y` and `Z` characters long. The first character in the string is position 1.\n\n**Show the value of the variable** after each pseudocode statement has been executed.\n\n`01 P ← \"Computer Science\" `\n\n`02 Q ← LENGTH(P)`\n\n`03 R ← SUBSTRING(P,10,7) `\n\n`04 S ← LENGTH(R) `\n\n`05 T ← SUBSTRING(R,1,3)`",
+     "solution_md": "The variables after each pseudocode statement are:\n\n- `P = Computer Science `**[1 mark]**\n- `Q = 16 ` **[1 mark]**\n- `R = Science` **[1 mark]**\n- `S = 7 ` **[1 mark]**\n- `T = Sci ` **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8QMNSrgrxztT5S5M",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yWnsNPX9jQnrVR4W",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QVqq7ynJBbPrkfQT",
+      "spcpt_FDkyKHbB9TtqvxWH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Describe** the difference between a **local **variable and a **global **variable.",
+     "solution_md": "The difference between a local and global variable is:\n\n**Local**\n\n- declared within a specific scope **OR** is only accessible within that block **[1 mark]**\n\n**Global**\n\n- declared at the outermost level of a program **OR **can be accessed and modified from any part of the program **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zm8ZSjGdwWGg2wbc",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_74By3qvCCnmXydR9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ypRFKV9Mxf8yh3WY",
+      "spcpt_8vnmkB6kpk8T39Fv"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm has been written in pseudocode to calculate a check digit for a four-digit number. The algorithm then outputs the five-digit number including the check digit. The algorithm stops when –1 is input as the fourth digit.\n\n`01 Flag FALSE `\n`02 REPEAT `\n`03     Total 0 `\n`04     FOR Counter 1 TO 4 `\n`05         OUTPUT \"Enter a digit \", Counter `\n`06         INPUT Number[Counter] `\n`07         Total Total + Number * Counter `\n`08         IF Number[Counter] = 0 `\n`09            THEN `\n`equation``10              Flag `$\\leftarrow$` TRUE `\n`11         ENDIF `\n`12      NEXT Counter `\n`13      IF NOT Flag `\n`14         THEN `\n`15           Number[5] MOD(Total, 10) `\n`16           FOR Counter 0 TO 5 `\n`17             OUTPUT Number[Counter] `\n`18           NEXT `\n`19       ENDIF `\n`20 UNTIL Flag`\n\nThe algorithm does not check that each input is a single digit. \nIdentify the place in the algorithm where this check should occur.\n\n**Write pseudocode for this check**. Your pseudocode must make sure that the input is a single digit and checks for –1",
+     "solution_md": "An example of an algorithm could be:\n\n`REPEAT `\n`     OUTPUT \"Enter a digit \" `\n`     INPUT Number[Counter] `\n`UNTIL Number[Counter] = Round(Number[Counter],0) AND ((Number[Counter] = -1) OR (Number[Counter] > 0 AND Number[Counter] < 10))`\n\n**One mark** for place in algorithm (max one)\n\n- around lines 05 and 06  **[1 mark]**\n- line 07 **[1 mark]**\n- (immediately) after the input of the number **[1 mark]**\n\n**Three marks **pseudocode\n\nAny **three **of the following:\n\n- Use of `REPEAT … UNTIL `**OR** any working loop structure **[1 mark]**\n- check for` >0 // >=0 `**[1 mark]**\n- check for `<10 // >9 `**[1 mark]**\n- check for whole number **[1 mark]**\n- check for -1  [**1 mark]**\n- check for length of digit <> 1 **[1 mark]**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CRw3Jgvbbw9BTYzT",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_mJhfNGsHkG6TYSbY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 4,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_8vnmkB6kpk8T39Fv"
+     ],
+     "part_tier": null,
+     "problem_md": "A program needs to make sure the value input for a measurement meets the following rules:\n\n- the value is a positive number\n- a value is always input\n- the value is less than 1000.\n\nThe program needs editing to include a double entry check for the value input.\n\nThe input value needs to be stored in the variable `Measurement `**Write pseudocode** to perform the **double entry check** until a successful input is made.",
+     "solution_md": "An example of an algorithm could be:\n\n`REPEAT `\n`    OUTPUT \"Please enter measurement \" `\n`    INPUT Measurement `\n`    OUTPUT \"Please re-enter measurement \" `\n`    INPUT MeasurementCheck `\n`UNTIL Measurement = MeasurementCheck`\n\nAny **three **of the following:\n\n- use of iteration **[1 mark]**\n- use of two inputs **[1 mark]**\n- to check that the two inputs are the same / different **[1 mark]**\n- use of the given variable Measurement **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6cqx6YbcKgz3Vc7Y",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_4Dzq3kPth399wQgx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ypRFKV9Mxf8yh3WY",
+      "spcpt_XzGmRvsfmkYJB6MF"
+     ],
+     "part_tier": null,
+     "problem_md": "The function `LENGTH(Phrase)` calculates the length of a string `Phrase`\n\n**Write the pseudocode statements** to:\n\n- store the string \"The beginning is the most important part\" in Phrase.\n- calculate and output the length of the string\n- output the string in upper case.",
+     "solution_md": "An example of the algorithm could be:\n\n`Phrase `$\\leftarrow$`\"The beginning is the most important part\" `\n`OUTPUT LENGTH(Phrase) `\n`OUTPUT UCASE(Phrase)`\n\nAny **three **of the following:\n\n- Storing string in Phrase **[1 mark]**\n- Correct use of LENGTH function **[1 mark]**\n- Correct use of UCASE function **[1 mark]**\n- Correct outputs of LENGTH and UCASE **[1 mark]**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GVZGmNXj6zchJb8H",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_7cQGZvrVDX9cRMCW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ypRFKV9Mxf8yh3WY",
+      "spcpt_Pzfy6FxvnkNtGc87"
+     ],
+     "part_tier": null,
+     "problem_md": "Using a single loop, **write an algorithm in pseudocode** to output 50 names that have been stored in the array, `Name[]`",
+     "solution_md": "An example algorithm could be:\n\n`Count ← 0 `\n`WHILE Count < 50 DO `\n`    OUTPUT Name[Count] `\n`    Count ← Count + 1 `\n`ENDWHILE`\n\n- Appropriate loop controls** ****[1 mark]**\n- Read from array **[1 mark]**\n- Output from array (the last two points can be in one statement, see example) **[1 mark]**\n\n> **[mark-scheme]**\n> - Reading and the output **MUST **be within the same loop"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xDtXH4yQCwGjhhPP",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xBbxVpyCjYXjvt6z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_X4k5ZCwB6PZxYWJV"
+     ],
+     "part_tier": null,
+     "problem_md": "The variables P and Q are used to store data in a program. P stores a string. Q stores a character.\n\n**Write a pseudocode algorithm** to:\n\n- convert P to upper case\n- find the position of Q in the string P (the first character in this string is in position 1)\n- store the position of Q in the variable Position",
+     "solution_md": "An example algorithm could be:\n\n`P `$\\leftarrow$` UCASE(P) `\n`Counter  `$\\leftarrow$` 1 `\n`Position  `$\\leftarrow$` 0 `\n`REPEAT `\n`  IF SUBSTRING(P, Counter, 1) = Q `\n`    THEN `\n`      Position  `$\\leftarrow$` Counter `\n`  ENDIF `\n`  Counter  `$\\leftarrow$` Counter + 1 `\n`UNTIL Position <> 0 OR Counter = LENGTH(P)`\n\nAny **four **of the following:\n\n- converting P to upper case **[1 mark]**\n- finding the length of P **[1 mark]**\n- using a loop to check for position of Q **[1 mark]**\n- using the string operation substring **[1 mark]**\n- storing the loop counter in Position if the value is found **[1 mark]**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vB4rtCncWW3WxYnH",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_w9ZZpqd5stNk9dP2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XzGmRvsfmkYJB6MF"
+     ],
+     "part_tier": null,
+     "problem_md": "The function` LENGTH(Phrase)` calculates the length of a string `Phrase`\n\nThe string \"*The beginning is the most important part\" is stored in *`Phrase`\n\n**State the output **of the pseudocode statements:\n\n- `OUTPUT LENGTH(Phrase) `\n- `OUTPUT UCASE(Phrase)`",
+     "solution_md": "The output of the pseudocode statements is:\n\n- 40 **[1 mark]**\n- THE BEGINNING IS THE MOST IMPORTANT PART **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_s7S6JtXWThZCRQBS",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_BF9rqX3Mcq2m688h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wthB6gmT4cHK9Sz8"
+     ],
+     "part_tier": null,
+     "problem_md": "**State two features** that should be included to create a maintainable program.\n\n**Give a reason** why each feature should be used.",
+     "solution_md": "Examples of features that should be included are:\n\n**Meaningful identifiers** ** [1 mark]**\n\n- … to enable the programmer (or future programmers) to easily recognise the purpose of a variable / array / constant ** [1 mark]**\n- … to enable easy tracking of a variable / constant / array through the program ** [1 mark]**\n\n**Use of comments** ** [1 mark]**\n\n- … to annotate each section of a program so that a programmer can find specific sections / so that the programmer knows the purpose of that section of code ** [1 mark]**\n\n**Procedures and functions**** [1 mark]**\n\n- … to make programs modular and easier to update / add functionality ** [1 mark]**\n\n> **[mark-scheme]**\n> - **One mark** for each correct feature, max two\n> - **One mark** for each correct accompanying reason, max two"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XZQWHPxPgDtmKmft",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nMwPPWYX5qX4n7y9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/21",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7MsH9h9SPYYpmrn9"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain the purpose** of the library routines **DIV **and **ROUND.**",
+     "solution_md": "The purpose of the library routines include:\n\n**DIV**\n\nMax **two **of the following:\n\n- To perform integer division ** [1 mark]**\n- Meaning only the whole number part of the answer is retained ** [1 mark]**\n- Example of DIV For example DIV(9,4) = 2 ** [1 mark]**\n\n**ROUND**\n\nMax **two **of the following:\n\n- To return a value rounded to a specified number of digits / decimal places ** [1 mark]**\n- The result will either be rounded to the next highest or the next lowest value ** [1 mark]**\n- … depending on whether the value of the preceding digit is >=5 or <5 ** [1 mark]**\n- Example of ROUND for example, ROUND(4.56, 1) = 4.6 ** [1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_f7BmGSfQsnKHJJgv",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_shr9gyy2XCCnszCP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8vnmkB6kpk8T39Fv"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain the difference** between a `WHILE … DO … ENDWHILE` and a `REPEAT … UNTIL` loop\n\n`B ← FALSE `\n`INPUT Num `\n`FOR Counter ← 1 TO 12 `\n`              IF A[Counter] = Num `\n`                   THEN `\n`                       B ← TRUE `\n`              ENDIF `\n`NEXT Counter`",
+     "solution_md": "The differences between a `WHILE … DO … ENDWHILE` and a `REPEAT … UNTIL` loop include:\n\nAny **three **of the following:\n\n- `WHILE `has criteria check at start **OR** pre-condition **[1 mark]**\n- code inside `WHILE `may never run **[1 mark]**\n- `REPEAT UNTIL` has criteria check at end **OR** post-condition **[1 mark]**\n- `REPEAT UNTIL` will always run at least once **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_62V5k7hGdvrD9Sd3",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_stHkPM82NpMzJRST",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ypRFKV9Mxf8yh3WY",
+      "spcpt_X4k5ZCwB6PZxYWJV"
+     ],
+     "part_tier": null,
+     "problem_md": "A function `LENGTH(X)` finds the length of a string X and a function SUBSTRING(X,Y,Z) finds a substring of X starting at position Y and Z characters long. The first character in the string is position 1.\n\n`P ← \"Computer Science\"`\n\n**Write a pseudocode statement **to extract the word Computer from P and store it in the variable F.",
+     "solution_md": "The correct pseudocode statement would be:\n\n- `F ← SUBSTRING(P,1,8)`\n\n- `F ← SUBSTRING `**[1 mark]**\n- `(P,1,8) `**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yDRpVNd3G92NstGv",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_F66vj74WtVG3PPWj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_N9ysmqPWTHkn4yct"
+     ],
+     "part_tier": null,
+     "problem_md": "The variables P and Q are used to store data in a program. P stores a string. Q stores a character.\n\n**Write pseudocode statements** to declare the variables P and Q, store \"The world\" in P and store 'W' in Q",
+     "solution_md": "The correct pseudocode statements are:\n\n- `DECLARE P : STRING `**[1 mark]**\n\n  - `P `$\\leftarrow$` \"The world\" `\n- `DECLARE Q : CHAR `**[1 mark]**\n\n  - `Q `$\\leftarrow$` 'W'`\n\n> **[mark-scheme]**\n> - Each variable **must **be declared and stored for the mark",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KNRdpHqchjPWk5sw",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GqcxvzZDcQdW87QN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_N9ysmqPWTHkn4yct"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm has been written in pseudocode to calculate a check digit for a four-digit number. The algorithm then outputs the five-digit number including the check digit. The algorithm stops when –1 is input as the fourth digit.\n\n`01 Flag FALSE `\n`02 REPEAT `\n`03     Total 0 `\n`04     FOR Counter 1 TO 4 `\n`05       OUTPUT \"Enter a digit \", Counter `\n`06       INPUT Number[Counter] `\n`07       Total Total + Number * Counter `\n`08       IF Number[Counter] = 0 `\n`09         THEN `\n`10           Flag TRUE `\n`11       ENDIF `\n`12     NEXT Counter `\n`13     IF NOT Flag `\n`14       THEN `\n`15         Number[5] MOD(Total, 10) `\n`16         FOR Counter 0 TO 5 `\n`17            OUTPUT Number[Counter] `\n`18         NEXT `\n`19     ENDIF `\n`20 UNTIL Flag`\n\n**Give **the line number(s)** **for the statements showing:\n\n- **Totalling**\n- **Count-controlled loop **\n- **Post-condition loop **",
+     "solution_md": "The line number for the statements are:\n\n**Totalling**\n\n- `07` **[1 mark]**\n\n**Count-controlled loop**\n\n- `04/12 or 16/18` **[1 mark]**\n\n**Post-condition loop**\n\n- `02/20` **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_q6G4j3dTQQ9C9SPb",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nZn6xfhQTCWyVNQZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/21",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvS5PXSq9qWddWRK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Tick (✓) one box in each row** to identify the most appropriate data type for each description. Only one tick (✓) per column.\n\n| **Description** | **Data type** |   |   |   |   |\n|---|---|---|---|---|---|\n| **Boolean** | **Char** | **Integer** | **Real** | **String** |   |\n| a single character from the keyboard |   |   |   |   |   |\n| multiplecharacters from the keyboard |   |   |   |   |   |\n| only one of two possible values |   |   |   |   |   |\n| only whole numbers |   |   |   |   |   |\n| any number |   |   |   |   |   |",
+     "solution_md": "| **Description** | **Data type** |   |   |   |   |\n|---|---|---|---|---|---|\n| **Boolean** | **Char** | **Integer** | **Real** | **String** |   |\n| a single character from the keyboard |   | **✓** |   |   |   |\n| multiplecharacters from the keyboard |   |   |   |   | **✓** |\n| only one of two possible values | **✓** |   |   |   |   |\n| only whole numbers |   |   | **✓** |   |   |\n| any number |   |   |   | **✓** |   |\n\n- five correct rows **[4 marks]**\n- four correct rows **[3 marks]**\n- three correct rows **[2 marks]**\n- two correct rows **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ntj6pqvxM9KqzRsh",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_QscWqD8RhzKBYPqv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2B",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ypRFKV9Mxf8yh3WY",
+      "spcpt_XzGmRvsfmkYJB6MF",
+      "spcpt_Mz7Hvgsg7KDrBTjT",
+      "spcpt_7MsH9h9SPYYpmrn9"
+     ],
+     "part_tier": null,
+     "problem_md": "Four programming concepts and four descriptions are shown.\n\n**Draw one line** to connect each programming concept to the most appropriate description\n\n![Table detailing programming concepts and descriptions. Library routine: may not return a value. Structure diagram: standard available subroutine. Procedure: used in assignments. Function: program overview.](assets/003-table-detailing-programming-concepts-and-descrip.png)",
+     "solution_md": "![Match diagram titled \"Programming concept\" to \"Description,\" showing library routine - immediate subroutine, structure diagram - program overview, procedure - non-returning subroutine, function - assignable subroutine.](assets/004-match-diagram-titled-programming-concept-to-desc.png)\n\n- 1 correct **[1 mark] **\n- 2 correct **[2 marks] **\n- 3 or 4 correct **[3 marks] **\n\n> **[mark-scheme]**\n> - Each box **must **have only one connection"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YhnmqYmrQqNWXR9T",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_JcjWgDZyFZD4jnnw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_N9ysmqPWTHkn4yct"
+     ],
+     "part_tier": null,
+     "problem_md": "The variables X, Y and Z are used to store data in a program:\n\n- X stores a string\n- Y stores a position in the string (e.g. 2)\n- Z stores the number of characters in the string.\n\n**Write pseudocode statements** to declare the variables X, Y and Z.",
+     "solution_md": "The pseudocode statements to declare the variable are:\n\n- `DECLARE X : STRING `**[1 mark]**\n- `DECLARE Y : INTEGER `**[1 mark]**\n- `DECLARE Z : INTEGER `**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WGTvDNZngMHr3mDV",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ShbNp4xmTS4649MZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_MvS5PXSq9qWddWRK"
+     ],
+     "part_tier": null,
+     "problem_md": "A database table, `2018MOV`, is used to keep a record of movie details\n\n![A table lists movies by catalog number, title, two genres, and availability in Blu-ray, DVD, and streaming formats. The columns are CatNo, Title, Genre1, Genre2, Blu-ray, DVD, Streaming.](assets/005-a-table-lists-movies-by-catalog-number-title-two.png)\n\n**Complete the table** to identify the most appropriate** data type** for each field based on the data shown in the database table, 2018MOV.\n\n| **Field** | **Data type** |\n|---|---|\n| `CatNo` |   |\n| `Title` |   |\n| `Genre1` |   |\n| `Streaming` |   |",
+     "solution_md": "| **Field** | **Data type** |\n|---|---|\n| `CatNo` | **Text** |\n| `Title` | **Text** |\n| `Genre1` | **Text** |\n| `Streaming` | **Boolean / Text** |\n\n- four correct answers** [2 marks]**\n\n**OR**\n\n- two or three correct answers **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_g4RnFqZydYyCSXC7",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JDtr2MmjncZvPrf4",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_N9ysmqPWTHkn4yct"
+     ],
+     "part_tier": null,
+     "problem_md": "A function is declared using pseudocode.\n\n`FUNCTION ConvertToCm(Inches: REAL) `\n`        RETURNS REAL RETURN Inches * 2.4 `\n`ENDFUNCTION`\n\n**Tick (✓) one box** which accurately describes the use of the variable Inches",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- **C **is correct as `inches `is passed into the function when the function is called **[1 mark]**\n- **A **is incorrect  as `inches `is not the result of the function\n- **B **is incorrect as `inches `is not a function call\n- **D **is incorrect as a response is typically the value returned by the function",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "answer"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "call"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "parameter"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "response"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wvk8852wZhPpQV6D",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ttmR9gxV4mFvPBCC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XzGmRvsfmkYJB6MF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Tick (✓) one box** to show the named section of a program that performs a specific task.",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- **B **is correct as a function is a named section of a program that performs a task  **[1 mark]**\n- **A **is incorrect  as a file is read/written to\n- **C **is incorrect as a parameter is passed from a main to a sub program\n- **D **is incorrect as a process generally refers to an action or series of actions",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "file"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "function"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "parameter"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "process"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dKsDNB9zx79k89MH",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_jTbY8wTwx64yQtSd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/02 2A",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Pzfy6FxvnkNtGc87",
+      "spcpt_KcCh8pWNfC8QQsRF",
+      "spcpt_8vnmkB6kpk8T39Fv",
+      "spcpt_FjbbKcgMnfMzFZ9x"
+     ],
+     "part_tier": null,
+     "problem_md": "Four pseudocode descriptions and five pseudocode statements are shown.\n\n**Draw a line **to link each pseudocode description to the most appropriate pseudocode statement.\n\nSome pseudocode statements will **not **be used\n\n![Matching exercise: Left column lists pseudocode descriptions, right column lists corresponding pseudocode statements. Descriptions and statements are aligned side by side, indicating relationships.](assets/006-matching-exercise-left-column-lists-pseudocode-d.png)",
+     "solution_md": "![A diagram matching pseudocode descriptions to statements: \"loop at least once\" to \"REPEAT...UNTIL\", \"many outcomes\" to \"CASE...OF...ENDCASE\", \"fixed iterations\" to \"FOR...TO...NEXT\", \"true/false\" to \"IF...THEN...ENDIF\".](assets/007-a-diagram-matching-pseudocode-descriptions-to-st.png)"
+    }
+   ]
+  }
+ ]
+}

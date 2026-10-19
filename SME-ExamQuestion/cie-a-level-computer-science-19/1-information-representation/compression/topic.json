@@ -1,0 +1,687 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:55:51Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "1-information-representation",
+  "name": "1. Information representation"
+ },
+ "topic": {
+  "id": "top_zjKwph23ppbh2Ksv",
+  "slug": "compression",
+  "name": "Compression",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "compression",
+   "name": "Compression",
+   "revision_note_id": "rn_yXms9PZTq9fDHnnF"
+  },
+  {
+   "slug": "compression-techniques",
+   "name": "Compression Techniques",
+   "revision_note_id": "rn_tQ2RPdzSD7qDhMgZ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_DXmvgT3JQGb2QgXw",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/1-information-representation/compression/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/50326_q6a-9618-22-june-2023-cie-as-cs.png": "001-simple-black-curved-line-on-a-white-background-r.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_7Stntq757Yq3SQBP",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_2PBkh9MdNCfB6ZyN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV"
+     ],
+     "part_tier": null,
+     "problem_md": "One row of a bitmap photograph has a colour depth of 8 bits per pixel. The colour of each pixel is written as a two-digit hexadecimal value:\n\n`1C 4E 90 22 FD 07 B3 6A`\n\nThe photograph is compressed using run-length encoding (RLE). Each RLE pair is written as the number of repeats followed by the colour value. In the compressed file, the count and the colour value are each stored in one byte.\n\n(i) Write the RLE compressed data for this row.\n\n(1)\n\n(ii) Calculate the size of this row in bytes before compression and after compression.\n\n(2)\n\n(iii) Explain why run-length encoding is **not** appropriate for this row.\n\n(2)",
+     "solution_md": "(i)\n\n`11C 14E 190 122 1FD 107 1B3 16A` **[1]**\n\n(ii)\n\nBefore compression = 8 pixels × 1 byte = **8 bytes** **[1]**\n\nAfter compression = 8 pairs × 2 bytes = **16 bytes** **[1]**\n\n(iii)\n\nNo two pixels that are next to each other have the same colour, so every run has a length of 1. **[1]**\n\nEach pixel is now stored as a count and a colour value, which needs 2 bytes instead of 1, so RLE has made the row twice as large instead of smaller. **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> (i)\n> \n> **1 mark** for all eight pairs correct, each with a count of 1: `11C 14E 190 122 1FD 107 1B3 16A`\n> \n> (ii)\n> \n> **1 mark** for `8 bytes` before compression\n> \n> **1 mark** for `16 bytes` after compression\n> \n> (iii)\n> \n> **1 mark** for there are no runs of identical consecutive pixels // every run length is 1 // no colour repeats next to itself\n> \n> **1 mark** for each pixel now needs 2 bytes instead of 1 // the compressed row is larger than the original // the size has doubled, so there is no saving\n> \n> Accept a follow-through mark in part (iii) for a correct comparison of the two sizes you gave in part (ii)\n> \n> Do not accept \"RLE does not work on photographs\" on its own, because it does not say why\n> \n> Do not accept \"data is lost\", because RLE is lossless and nothing is lost here\n> \n> Do not accept \"the image has too many colours\" on its own; the marking point is that the colours do not repeat in consecutive pixels\n\n> **[exam-tip]**\n> RLE only saves space when the same colour repeats in consecutive pixels. Where there is a lot of colour detail, as in a photograph, RLE can make the file larger, and this is exactly the case examiners use to check whether you have understood the method or only memorised it.\n> \n> Do the arithmetic before you write the explanation. Count the pairs, multiply by 2, and compare that with the number of pixels. If you assume compression must always reduce a file size, you can calculate 16 bytes correctly and then still write that the file has got smaller, contradicting your own working."
+    }
+   ]
+  },
+  {
+   "id": "qstn_C6gxCz7gBRHPcxcj",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BvS3Qmy5dZgRwnMh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV"
+     ],
+     "part_tier": null,
+     "problem_md": "One row of a bitmap image is stored with a colour depth of 8 bits per pixel. The row has been compressed using run-length encoding (RLE):\n\n`4D2 2A7 6D2 1FF`\n\nEach RLE pair is written as the number of repeats followed by the two-digit hexadecimal colour value. In the compressed file, the count and the colour value are each stored in one byte.\n\n(i) Write the uncompressed data for this row.\n\n(1)\n\n(ii) Calculate the number of bytes saved by compressing this row using RLE.\n\nShow your working.\n\n(2)",
+     "solution_md": "(i)\n\n`D2 D2 D2 D2 A7 A7 D2 D2 D2 D2 D2 D2 FF` **[1]**\n\n(ii)\n\nUncompressed row = 13 pixels × 1 byte = 13 bytes\n\nCompressed row = 4 pairs × 2 bytes = 8 bytes **[1]**\n\nBytes saved = 13 - 8 = **5 bytes** **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> (i)\n> \n> **1 mark** for all 13 colour values in the correct order: `D2 D2 D2 D2 A7 A7 D2 D2 D2 D2 D2 D2 FF`\n> \n> (ii)\n> \n> **1 mark** for both sizes correct: 13 bytes uncompressed and 8 bytes compressed\n> \n> **1 mark** for a saving of `5 bytes`\n> \n> Accept the saving expressed as `40 bits`\n> \n> Accept a follow-through mark for a saving correctly calculated from an incorrect row in part (i)\n> \n> Do not accept `9 bytes`, which counts each RLE pair as 1 byte instead of 2\n> \n> Do not accept `4 bytes` as the compressed size, which counts the number of pairs rather than the number of bytes they occupy\n\n> **[exam-tip]**\n> An RLE pair costs two bytes, not one: one byte holds the count and one byte holds the colour value. Counting the four pairs as four bytes gives a saving of 9 bytes and loses both calculation marks.\n> \n> Notice that colour `D2` appears in two separate pairs. RLE only merges pixels that are next to each other, so a colour that comes back later in the row starts a new pair. Do not add the two runs of `D2` together."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qZH8xQ2mzCMBGvGr",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_x4RNdvQphwhJcdtn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV"
+     ],
+     "part_tier": null,
+     "problem_md": "A bitmap image is stored with a colour depth of 8 bits per pixel. The colour of each pixel is written as a two-digit hexadecimal value.\n\nThe image is compressed using run-length encoding (RLE). Each RLE pair is written as the number of repeats followed by the colour value. For example, `33A` means three pixels of colour `3A`.\n\nComplete the table. The first row has been completed for you.\n\n| Uncompressed image data | RLE compressed image data |\n|---|---|\n| `3A 3A 3A B7 B7` | `33A 2B7` |\n| `C4 C4 09 09 09 09 5E` |   |\n|   | `2FF 1A0 3FF` |",
+     "solution_md": "| Uncompressed image data | RLE compressed image data |\n|---|---|\n| `3A 3A 3A B7 B7` | `33A 2B7` |\n| `C4 C4 09 09 09 09 5E` | `2C4 409 15E` [1] |\n| `FF FF A0 FF FF FF` [1] | `2FF 1A0 3FF` |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `2C4 409 15E`\n> \n> **1 mark** for `FF FF A0 FF FF FF`\n> \n> Accept a space between the count and the colour value, for example `2 C4 4 09 1 5E`\n> \n> Do not accept `2C4 409 5E`, which leaves the count of 1 off the single pixel\n> \n> Do not accept `C42 094 5E1` or any form that puts the colour value before the count\n> \n> Do not accept `FF FF A0 FF FF` or `FF FF A0 FF FF FF FF`, which decode the last pair with the wrong count\n\n> **[exam-tip]**\n> The count is always written first and the colour value second. Reversing them to `C42` is the most common error here, and it makes the data impossible to decode because you cannot tell where one pair ends and the next begins.\n> \n> A pixel that appears only once still needs a count of `1` in front of it. Writing `5E` on its own breaks the pattern of pairs, so the row cannot be read back correctly."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5yMFYQh8XzwZznJv",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_VTW4skyqYHcHCBhn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmwRkQgR9K4kRNxC"
+     ],
+     "part_tier": null,
+     "problem_md": "A publisher produces an online magazine. Three files are stored for each page of the magazine:\n\n- a text file containing the article\n- a bitmap photograph\n- a vector graphic of the magazine logo\n\nAll three files are compressed before they are uploaded to the web server.\n\nComplete the table by describing how each file can be compressed.\n\n| File | Description of how the file can be compressed |\n|---|---|\n| Text file |   |\n| Bitmap photograph |   |\n| Vector graphic |   |",
+     "solution_md": "| File | Description of how the file can be compressed |\n|---|---|\n| Text file | **A lossless method such as run-length encoding is used.** **[1]** **A sequence of identical consecutive characters is replaced by that character and a count of the number of repeats.** **[1]** |\n| Bitmap photograph | **A lossy method is used.** **[1]** **Similar colours are grouped together so that fewer colours have to be stored, and the change is not noticed by the human eye.** **[1]** |\n| Vector graphic | **The drawing list is stored as text, so a lossless text compression method is applied to it.** **[1]** **Repeated sequences of characters in the list of drawing objects and their properties are replaced by a shorter code.** **[1]** |\n\n**[6 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for a correct method and **1 mark** for a matching description, in each row, to a maximum of 2 marks per row\n> \n> Text file\n> \n> **1 mark** for run-length encoding // a lossless method\n> \n> **1 mark** for a sequence of identical consecutive characters is replaced by that character and a count of the repeats\n> \n> **1 mark** for the method must be lossless so that no characters are lost and the text still makes sense\n> \n> Bitmap photograph\n> \n> **1 mark** for a lossy method\n> \n> **1 mark** for similar colours are grouped together so fewer colours are stored\n> \n> **1 mark** for the colour depth is reduced so fewer bits are used for each pixel\n> \n> **1 mark** for the image resolution is reduced so fewer pixels are stored\n> \n> Vector graphic\n> \n> **1 mark** for the file is a drawing list stored as text, so a lossless text compression method can be applied\n> \n> **1 mark** for repeated sequences of characters in the drawing objects and their properties are replaced by a shorter code\n> \n> **1 mark** for the method must be lossless, because losing a property or a coordinate would change the shape that is drawn\n> \n> Do not accept \"it is compressed\" or \"the file size is reduced\" in any row, because neither describes a method\n> \n> Do not accept a lossy method for the text file or for the vector graphic\n> \n> Do not accept a file format name on its own, for example \"JPEG\" or \"MP3\", with no description of what the compression does\n\n> **[exam-tip]**\n> Each row is worth 2 marks, so each row needs two separate statements: what kind of compression is used, and what that compression actually does to the data. A single word such as \"lossless\" answers half the row and earns half the marks.\n> \n> The vector graphic row catches students out. A vector graphic is not a grid of pixels, so there is nothing to group or average. It is a drawing list of objects and their properties held as text, so it is compressed the way text is compressed, and it must stay lossless because dropping one property changes the picture."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wfZqBrwPmfPsCYqH",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_gvyddXBmzhttF2gv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmwRkQgR9K4kRNxC"
+     ],
+     "part_tier": null,
+     "problem_md": "A bitmap image is 2400 pixels wide and 1800 pixels high. The colour depth is 24 bits.\n\n(i) Calculate an estimate for the size of the uncompressed image in megabytes (MB).\n\nShow your working.\n\n(2)\n\n(ii) The image is compressed. The compressed image is 3.24 MB.\n\nCalculate the percentage reduction in the size of the image.\n\n(1)",
+     "solution_md": "(i)\n\nWorking: (2400 × 1800 × 24) / 8 = 12 960 000 bytes **[1]**\n\n12 960 000 / 1000 / 1000 = 12.96\n\nAnswer: **12.96 MB** **[1]**\n\n(ii)\n\nReduction in size = 12.96 - 3.24 = 9.72 MB\n\n9.72 / 12.96 × 100 = **75%** **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> (i)\n> \n> **1 mark** for correct working: `(2400 × 1800 × 24) / 8 / 1000 / 1000`\n> \n> **1 mark** for the answer `12.96 MB`\n> \n> Accept `12 960 000 bytes` as an intermediate step, but the final answer must be given in MB\n> \n> Do not accept `12.36`, which comes from dividing by 1024 twice. On this syllabus a megabyte uses a decimal prefix, so 1 MB is 1 000 000 bytes; dividing by 1024 twice gives mebibytes\n> \n> Do not accept `103 680 000`, which is the size in bits\n> \n> (ii)\n> \n> **1 mark** for `75%`\n> \n> Accept a follow-through mark for a percentage correctly calculated from an incorrect answer to part (i)\n> \n> Do not accept `300%`, which divides the saving by the compressed size instead of by the original size\n> \n> Do not accept `25%`, which is the compressed size as a percentage of the original rather than the reduction\n\n> **[exam-tip]**\n> Watch the units. On 9618, kilo, mega and giga are decimal prefixes (1000), while kibi, mebi and gibi are binary prefixes (1024). Dividing by 1024 twice gives 12.36 and loses the mark, even though the working looks sensible.\n> \n> A percentage reduction is always measured against the original size. Dividing the 9.72 MB saving by the 3.24 MB compressed size gives 300%, which is impossible: a file cannot shrink by more than 100%. If your percentage comes out above 100, you have divided by the wrong number."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vh7WC8cBDSGQNnjG",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Bs9rs8YsGvqFHWRb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fmwRkQgR9K4kRNxC"
+     ],
+     "part_tier": null,
+     "problem_md": "A music streaming service stores each song as a sound file. The sound files are compressed before they are stored on the company's servers.\n\nDescribe **two** ways in which compression can reduce the size of a sound file.",
+     "solution_md": "The sampling rate can be reduced, so fewer samples are stored for each second of sound. **[1]**\n\nSounds that the listener will not notice can be removed, for example frequencies that are outside the range of human hearing. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each of two different ways, to a maximum of 2\n> \n> **1 mark** for reduce the sampling rate // take fewer samples of the sound each second\n> \n> **1 mark** for reduce the sampling resolution // use fewer bits to store each sample\n> \n> **1 mark** for remove frequencies that are outside the range of human hearing\n> \n> **1 mark** for remove quieter sounds that are masked by louder sounds\n> \n> Do not accept \"make the file smaller\" or \"remove some of the data\", because neither states what is removed\n> \n> Do not accept two versions of the same idea, for example \"lower the sampling rate\" and \"take fewer samples per second\", which together earn 1 mark only\n> \n> Do not accept naming a file format on its own, for example \"save it as an MP3\"\n\n> **[exam-tip]**\n> Two ways means two different mechanisms. \"Reduce the sampling rate\" and \"take fewer samples each second\" are the same statement written twice, so they earn one mark, not two.\n> \n> Naming a format is not a description. \"It is saved as an MP3\" says nothing about what the compression removes from the file, so it scores zero. Always say what is taken out and why the listener does not notice."
+    }
+   ]
+  },
+  {
+   "id": "qstn_QVtg378smJmj5pdd",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9KN4p3QjFvFBR7KV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A software company stores two files on a cloud server.\n\n- **File A** is the installation program for the company's software. Customers download this file and run it to install the software.\n- **File B** is a set of photographs of the company's products. The photographs are displayed on the company's website.\n\nBoth files are compressed before they are stored.\n\nFor each file, identify the most suitable type of compression and justify your choice.",
+     "solution_md": "**File A: lossless compression** **[1]**\n\nAn installation program only runs if every byte of the file is restored exactly. Lossless compression is reversible, so the decompressed file is identical to the original. If any data were removed, the program would be corrupted and would not install. **[1]**\n\n**File B: lossy compression** **[1]**\n\nA photograph on a website can lose some detail without the change being noticeable to the human eye. Lossy compression gives a much greater reduction in file size than lossless, so the pages load faster and less bandwidth is used. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying lossless compression for File A\n> \n> **1 mark** for a justification for File A: an executable file must be restored exactly, bit for bit // removing any data would corrupt the program so it would not run or install // lossless is reversible so the original file is recovered\n> \n> **1 mark** for identifying lossy compression for File B\n> \n> **1 mark** for a justification for File B: the loss of detail is not noticeable to the human eye // lossy gives a greater reduction in file size than lossless, so the photographs download faster and use less bandwidth\n> \n> Accept \"the program would be corrupted\", \"the program would not install\" and \"the program would not run\" for the File A justification\n> \n> A response that chooses lossless for File B can earn both File B marks, but only if it is justified by a stated need for the photographs to keep their exact original detail, for example accurate product colours\n> \n> Do not accept lossy compression for File A under any justification. Removing data from an executable file makes it unusable, however large the saving in file size\n> \n> Do not accept a bare \"lossless\" and \"lossy\" with no reasons. The identification marks are awarded, but the two justification marks are not\n\n> **[exam-tip]**\n> Half of the marks here are for the justification, not for the choice, so naming the two types of compression and stopping gets you two marks out of four. For each file, say what would go wrong if the other method were used.\n> \n> The error to avoid is choosing lossy for anything that has to work exactly as it was written. An installation program, a spreadsheet and a text document all break if data is removed, however small the file becomes. Lossy is only ever suitable where a small loss of detail does not matter, which in practice means images, video and sound."
+    }
+   ]
+  },
+  {
+   "id": "qstn_s7bFTFMJXX2QMJCJ",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_crnYHcZgxbJhzYYc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student writes a long report. The report is saved as a text file.\n\nThe file is compressed before it is uploaded to a school website.\n\nExplain why lossless compression must be used for this file and not lossy compression.",
+     "solution_md": "Lossy compression permanently removes data from a file, so some of the characters in the report would be lost. **[1]**\n\nLossy compression cannot be reversed, so those characters could not be put back when the file is decompressed and the report would no longer make sense. **[1]**\n\nLossless compression is reversible, so the file is returned to its exact original state when it is decompressed and every character of the report is still present. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each point, to a maximum of 3:\n> \n> **1 mark** for lossy permanently removing data // characters from the file\n> \n> **1 mark** for lossy not being reversible, so the removed characters cannot be restored\n> \n> **1 mark** for the loss of characters changing the meaning of the report // making the report inaccurate or unreadable\n> \n> **1 mark** for lossless being reversible // the original file being restored exactly when it is decompressed\n> \n> **1 mark** for lossless removing no data, so every character of the report is kept\n> \n> Accept \"text\", \"words\" or \"letters\" in place of \"characters\"\n> \n> Do not accept \"lossy would reduce the quality of the text\". A text file has no quality setting to reduce; the problem is that missing characters cannot be recovered\n> \n> Do not accept \"lossless makes the file smaller\", because both methods make the file smaller and that is not a reason to choose one of them\n\n> **[exam-tip]**\n> Students often answer this question by describing image compression, writing about pixels, colours and blurring. This file is text, so the answer must be about characters and about the meaning of the report being lost.\n> \n> A second common error is to say that lossy \"compresses too much\". The size of the reduction is not the problem. The problem is that the removal is permanent, so a text file compressed with a lossy method can never be returned to its original state."
+    }
+   ]
+  },
+  {
+   "id": "qstn_BVkM8hgZY7H3YKb5",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Z5XZVXMDppMFYcNc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** differences between lossy compression and lossless compression.",
+     "solution_md": "Lossy compression permanently removes some of the data from the file, while lossless compression removes none of the original data. **[1]**\n\nLossy compression cannot be reversed, so the original file cannot be restored, while lossless compression can be reversed and returns the file to its exact original state. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each difference, to a maximum of 2. Each answer must say something about both types of compression:\n> \n> **1 mark** for lossy permanently removing data while lossless removes none of the original data\n> \n> **1 mark** for lossy not being reversible while lossless is reversible // the original file can be restored exactly with lossless but not with lossy\n> \n> **1 mark** for lossy usually producing a smaller file than lossless\n> \n> **1 mark** for lossy reducing the quality of the file while lossless does not change the quality\n> \n> Accept \"irreversible\" for lossy and \"reversible\" for lossless\n> \n> Do not accept a statement about only one type, such as \"lossy removes data\". That is a fact, not a difference\n> \n> Do not accept \"lossy loses more data than lossless\", because lossless loses no data at all\n\n> **[exam-tip]**\n> The command word is \"state two differences\", so every point must mention lossy and lossless. \"Lossy removes data\" describes one method only and earns nothing, however true it is. Write each point as a single sentence with the word \"while\" or \"whereas\" in the middle and you cannot get this wrong.\n> \n> The other frequent error is writing that lossless \"only loses a little data\". Lossless loses none. If even one bit were lost, the file could not be returned to its exact original state, and that is the whole purpose of lossless compression."
+    }
+   ]
+  },
+  {
+   "id": "qstn_z72pNRhsXX3m9fBt",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_8Hnqmj9gsqyWY6Zp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "An online learning platform stores video lessons on a server. A student downloads a video lesson before watching it.\n\nOne uncompressed video lesson has a file size of 900 MB.\n\nThe platform compresses each video lesson to 30% of its original file size.\n\nThe student downloads at a data transfer rate of 12 megabits per second (Mb/s).\n\nUse these values:\n\n- 1 byte = 8 bits\n- 1 MB = 1 000 000 bytes\n- 1 Mb = 1 000 000 bits\n\nCalculate the time, in seconds, that the student saves by downloading the compressed video lesson instead of the uncompressed video lesson.\n\nShow your working.",
+     "solution_md": "Uncompressed file size in bits: 900 × 8 = 7200 Mb **[1]**\n\nUncompressed download time: 7200 ÷ 12 = 600 seconds **[1]**\n\nCompressed file size: 30% of 900 MB = 270 MB, which is 270 × 8 = 2160 Mb, so the compressed download time is 2160 ÷ 12 = 180 seconds **[1]**\n\nTime saved: 600 - 180 = 420 seconds **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for converting the uncompressed file size to bits: 900 × 8 = 7200 Mb // 7 200 000 000 bits\n> \n> **1 mark** for the uncompressed download time of 600 seconds\n> \n> **1 mark** for the compressed file size of 270 MB and its download time of 180 seconds\n> \n> **1 mark** for the time saved of 420 seconds\n> \n> Accept 420 seconds written as 7 minutes\n> \n> Accept working carried out entirely in bits, for example 7 200 000 000 ÷ 12 000 000 = 600\n> \n> Award the method marks for correct working even when the final subtraction is wrong\n> \n> Do not accept 52.5 seconds. That answer treats the transfer rate as 12 megabytes per second and ignores the 8 bits in a byte\n> \n> Do not accept 180 seconds or 600 seconds on their own, because the question asks for the difference between the two times\n\n> **[exam-tip]**\n> The single most common error in this type of question is mixing bits and bytes. File sizes are given in bytes and transfer rates are given in bits per second, so multiply the file size by 8 before you divide by the rate. Read the units in the question twice before you start.\n> \n> The second error is stopping too early. You are asked for the time saved, not for the two download times, so you must subtract. Write both times down clearly and then subtract, so that the method marks are still available if one step of the arithmetic goes wrong."
+    }
+   ]
+  },
+  {
+   "id": "qstn_tRMMXkhP7cptGtrm",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XgRQQVxb5yq5xSTP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station is in a remote area. It has no cable connection.\n\nThe weather station sends its sensor readings to a central server using a satellite link. The satellite link has a low data transfer rate and the owner pays for every megabyte that is sent.\n\nThe readings are stored in a large text file. The file is compressed before it is sent.\n\nExplain why the file is compressed before it is sent.",
+     "solution_md": "The compressed file contains fewer bits than the original file, so there are fewer bits to send across the satellite link. **[1]**\n\nThis reduces the transmission time, so the readings reach the central server sooner. **[1]**\n\nLess bandwidth is used on the satellite link, so the owner pays for less data. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each point, to a maximum of 3:\n> \n> **1 mark** for there being fewer bits // a smaller file to transmit\n> \n> **1 mark** for the transmission time being reduced // the readings arriving sooner\n> \n> **1 mark** for less bandwidth being used // other transmissions on the link not being affected\n> \n> **1 mark** for less of the paid data allowance being used // the cost of sending the data being lower\n> \n> **1 mark** for less storage space being used on the central server when the file arrives\n> \n> Accept \"the file uploads faster\" for the transmission time point\n> \n> Do not accept the same idea written three times, for example \"it is smaller\", \"it takes up less space\" and \"it is not as big\". Those are one marking point, not three\n> \n> Do not accept \"the satellite link becomes faster\", because compression does not change the data transfer rate of the link\n\n> **[exam-tip]**\n> The most common way to lose marks here is to write one idea three times in three different ways. Three bullet points that all say the file is smaller earn one mark. Give three different consequences instead: transmission time, bandwidth or cost, and storage space.\n> \n> Watch the second trap too. The transfer rate of the link is fixed by the satellite connection. Compression reduces the amount of data you send over that link, it does not speed the link up."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RBVNHR4byqNCTGDc",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_mmNYwMbKKN8DjHvw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "Files are compressed when they are stored and when they are sent across a network.\n\nDefine the term **compression**.",
+     "solution_md": "Compression is the process of reducing the number of bits used to store a file, so the file uses less space in secondary storage. **[1]**\n\nA compressed file also has fewer bits to send across a network, so it takes less time to transmit. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the reduction: reducing the size of a file // reducing the number of bits or bytes used to store the file\n> \n> **1 mark** for a consequence of that reduction: less secondary storage space is used, or the transmission time across a network is reduced, or less bandwidth is used\n> \n> Accept \"encoding a file so that it uses fewer bits\" for the first mark\n> \n> Do not accept \"deleting files to make space\", because compression changes how one file is stored and does not remove files\n> \n> Do not accept \"the file opens faster\" or \"the computer runs faster\", because compression changes the size of a file and not the processing speed of the computer\n\n> **[exam-tip]**\n> An answer that only says \"it makes the file smaller\" repeats the question and earns one mark at most. Say what is made smaller, which is the number of bits used to store the file, and then say why that matters, which is storage space or transmission time.\n> \n> Be careful with the word \"delete\". Compression does not delete a file. Even lossy compression keeps the file, it just stores less detail inside it."
+    }
+   ]
+  },
+  {
+   "id": "qstn_F5HhWhnQkkcsWH6N",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dnKMvCPTKgZK3myh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_fmwRkQgR9K4kRNxC"
+     ],
+     "part_tier": null,
+     "problem_md": "Music is stored as a sequence of digital samples.\n\nEach digital sample is a denary value in the range 0 to 99999999 (8 digits).\n\nThe samples are to be stored in a text file. Each sample is converted to a numeric string and 32 samples are concatenated (joined) to form a single line of the text file.\n\nEach numeric string is 8 characters in length; leading ‘0’ characters are added as required.\n\nExample:\n\n| Sample | Denary value | String |\n|---|---|---|\n| 1 | `456` | `\"00000456\"` |\n| 2 | `48` | `\"00000048\"` |\n| 3 | `37652` | `\"00037652\"` |\n| ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) | ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) | ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) |\n| 32 | `673` | `\"00000673\"` |\n\nThe example samples will be stored in the text file as a single line:\n\n`\"000004560000004800037652...00000673\"`\n\n(i) Identify one drawback of adding leading ‘0’ characters to each numeric string.\n\n(1)\n\n(ii) Suggest an alternative method of storing the samples which does **not **involve adding leading ‘0’ characters but which would still allow each individual sample to be extracted.\n\n(1)\n\n(iii) State **one **drawback of the alternative method given in part **(b)(ii)**.\n\n(1)",
+     "solution_md": "(i) A (very) large **file **is created // redundant zeroes are stored in the file\n\n(ii) One mark for:\n\n- Values are delimited by a special character / a separator character\n- First character indicates **sample **length\n\n**Max 1 mark**\n\n(iii) The **algorithm **to **store **/ **extract / separate **the individual values is more complex / takes longer to execute / run / process\n\nNE Algorithm is more complicated"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Dx8bvfgTr5jVSwh3",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_2vJTrWypPnMbJXmx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "The program is distributed by downloading the source code and its library files from a web server.\n\nExplain the reasons for compressing the files.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**).\n> \n> - To reduce the time it takes to download the program files from the web server // to upload them to the server in the first place\n> - To reduce the amount of storage space used on the web server // user’s device"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GBnxpd3b43NsMKGG",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_K6VkpN7s6krFWbJ4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A real-time video of a music concert needs to be streamed to subscribers.\n\nTick (✓) one box to identify the most appropriate type of compression and justify your answer.\n\n| Lossy | Lossless |\n|---|---|\n|   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**)\n> \n> Lossy compression (ticked)\n> \n> - Loss of quality will not be noticed\n> - Needs to be viewed in real time so less bandwidth needed if file size smaller\n> - Smaller file sizes will reduce buffering so the video will play more smoothly\n> - Viewers may watch on different devices, so may not need high quality resolution\n> \n> Lossless compression (ticked)\n> \n> - Original recording may not have been made in high resolution\n> - Could be streaming to high bandwidth devices\n> - The reduction in the file size is sufficient for the receiving device\n> - Viewers do not want any loss of quality"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JGnkDC84DJRrfHRq",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_twKbtMXCmCb2HJRy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a bitmap image is often compressed before it is attached to an email.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Reduced bandwidth usage when transmitting the message\n> - Reduced transmission time from email client to email server\n> - Reduced storage space **on the email**\n> - Email accounts often have a maximum size for an attachment"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7vBstcqrFmXSV8yf",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_DWvSYzz9ZykBpHg6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "The photograph is compressed before being uploaded to a web server.\n\n(i) Give **three **benefits of this photograph being compressed using lossy compression instead of lossless compression.\n\n(3)\n\n(ii) Explain how run-length encoding (RLE) will compress the photograph.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** each to **max 3**:\n> \n> - The file takes less storage space on the web server than if lossless compression was used\n> - The file is faster to upload/download to/from the server than if lossless compression was used\n> - The file uses less bandwidth to transmit than if lossless compression was used\n> - The file consumes less data allowance than if lossless compression was used\n> \n> (ii) **1 mark **each:\n> \n> - Identifies **consecutive **repeating **pixels **of the same colour\n> - Stores the colour /pattern and the number of times it repeats"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SgGY4CxGf6b7PGkV",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yFczcfvvVcSkYm3v",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "d(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer can transmit a video made from bitmap images and vector graphic animations to the VR headset.\n\nThe bitmap video is not compressed before transmission to the VR headset.\n\nGive **two **reasons why the video does **not** need to be compressed.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Dedicated connection to the headset // not sharing bandwidth\n> - Already fast connection that can transmit the data without slowing\n> - Video may already be a small file size and does not need further reduction\n> - Video is not saved so storage is not an issue in the headset"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5SfPv38rNB7kpdHH",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_rkMD24t73KbbW9xN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 6,
+      "question_part": "b(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_fmwRkQgR9K4kRNxC",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "The colour of each pixel in a bitmapped image is represented by 8 bits.\n\nA bitmap image can be compressed using lossy compression.\n\nExplain the reasons why lossy compression is often suitable for a bitmap image.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> e.g.\n> \n> - The change may not be noticeable // Data removed is usually not noticed by the human eye\n> - … for example, changes in shade/detail\n> - It produces a larger decrease in file size compared to lossless // Lossy decreases file size considerably"
+    }
+   ]
+  },
+  {
+   "id": "qstn_G5zvHqjGRdnkBZR2",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_KzvpyPCFG7H7fmYs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "a(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **one **lossless method of compressing an image.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for correct method\n> \n> For example:\n> \n> - Run-Length Encoding"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cGPQ9twqVFp5znm3",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_KcmcvHgd36RdMK93",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe student compresses the file before it is emailed to their teacher as an attachment.\n\n(i) Explain the benefits to the teacher of the attachment being a compressed file.\n\n(3)\n\n(ii) Describe **one **lossless method of compressing a text file.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark **for each bullet point (**max 3**)\n> \n> e.g.\n> \n> - Less of the teacher’s storage space is used\n> - ... so more student work can be stored\n> - Transmission time is reduced\n> - … so the teacher does not have to wait as long for it to arrive\n> - Bandwidth usage is reduced\n> - … so other transmissions are not adversely affected\n> - Less data allowance is used on the teacher’s email system\n> \n> (ii) **1 mark** for each bullet point (**max 3**)\n> \n> - Run-Length Encoding // RLE\n> - Repeated sequences of the same characters are replaced by\n> - ... a single copy of the character\n> - ... and a count of the number of characters"
+    }
+   ]
+  }
+ ]
+}

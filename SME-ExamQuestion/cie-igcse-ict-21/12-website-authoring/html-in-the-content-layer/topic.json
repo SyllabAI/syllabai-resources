@@ -1,0 +1,277 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:56:10Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "12-website-authoring",
+  "name": "12. Website Authoring"
+ },
+ "topic": {
+  "id": "top_5cGmv9h2g3fpZz4C",
+  "slug": "html-in-the-content-layer",
+  "name": "HTML in the Content Layer",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "html",
+   "name": "HTML",
+   "revision_note_id": "rn_dxYy4nDpRcJVWr2D"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_24qByFwvg3fJvPC2",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/12-website-authoring/html-in-the-content-layer/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_qQvgQ2Kg9SHsvR3R",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_DDnRsHy4QD2JrTzb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/13",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_2GbppmDTwJTZV2pr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Complete **each of the following sentences about web development layers.\n\nThe layer used to create the structure of a web page is called...",
+     "solution_md": "- Content/structure **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_DzTnJfWx7whQmGPZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0417/13",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_DN6PRWNZHfrVvXPb"
+     ],
+     "part_tier": null,
+     "problem_md": "The layer that is a scripting language to control elements within a web page is called...",
+     "solution_md": "- Behaviour/scripting **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_phH4PsKXPQ7TnzWh",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_V7jVJHsPxFbqfNc9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8WJzDC7HXCVhFhbk"
+     ],
+     "part_tier": null,
+     "problem_md": "Anchors and hyperlinks are both used in HTML.\n\n**Compare **an anchor with a hyperlink.\n\nYour answer **must **include similarities and differences.",
+     "solution_md": "The similarities and differences between anchors and hyperlinks include:\n\nAny **four **of the following:\n\n**Similarities **\n\n- Both are links (in a web page) **[1 mark]**\n- Both can be attached to icons/text/graphics **[1 mark]**\n- Both are html tags used on web pages **[1 mark]**\n- Both are used for navigation **[1 mark]**\n- Both are coded as html tags starting with **[1 mark]**\n\n**Differences **\n\n- An anchor allows the user to move from one part of a web page to another part **[1 mark]**\n- An anchor is a label that identifies a specific position in a document **OR **An anchor is within a hyperlink **[1 mark]**\n- An anchor needs a point set in the document and a link **OR **A hyperlink only needs the link and a web address **[1 mark]**\n- The code within an anchor will either be \"name..\" or \"id..\" **[1 mark]**\n- An anchor determines a fixed point on a web page that is used as a bookmark **[1 mark]**\n- An anchor can be placed at any point on a web page **[1 mark]**\n- A hyperlink allows the user to move from one web page to another web page/website The code within a hyperlink can be \"href..\", \"rel..”, “target..” **[1 mark]**\n- A hyperlink can be attached to a block of text or image **[1 mark]**\n- A hyperlink can be clicked on to cause another web page or part of the same web page to be displayed **[1 mark]**\n- A hyperlink can redirect a user to an anchor by including its name **[1 mark]**\n- A hyperlink is clickable **[1 mark]**\n\n> **[mark-scheme]**\n> To gain full marks your response must have correct answers for **both** similarities and differences."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8phJR8ztCnNkpkzv",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_r3tKgJm9MC6qr6kV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Mar 2019",
+      "number": "0417/12",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DN6PRWNZHfrVvXPb",
+      "spcpt_2GbppmDTwJTZV2pr"
+     ],
+     "part_tier": null,
+     "problem_md": "Aadhya and her family are planning a visit to the Gir National Park and she is creating a web page about the destination.\n\nShe has started writing some of the HTML but has made some mistakes.\n\n**Write **down four mistakes which would prevent this markup from working properly. Your answers **must **be different in each case",
+     "solution_md": "The four mistakes that would prevent this from working properly are:\n\n1. `</head>` is in the wrong place OR `<title>...</title>` line is in the wrong place **[1 mark]**\n2. `<tbody> style=\"background-color: #9acd32>` no ending quotes** [1 mark] **\n3. `<img scr=`** **is not correct syntax, should be src **[1 mark]**\n4. Final `<table>` is not correct, should be `</table>`** [1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RPhfQQrw4hKH3Pfp",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_xp3JnXgyf3nN8gjZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0417/11",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_2GbppmDTwJTZV2pr"
+     ],
+     "part_tier": null,
+     "problem_md": "The HTML of a web page consists of a head section and a body section.\n\n**Explain **the purpose of the body section of HTML",
+     "solution_md": "The purpose of the body section of HTML is:\n\nAny **two **of the following:\n\n- Defines the document’s body **[1 mark]**\n- Contains all the elements of an HTML page **[1 mark]**\n- Contains the content **[1 mark]**\n- Contains style instructions **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8MmgBq2s77PdjjZs",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9t5tjpjJBDbhHRRJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0417/11",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_DN6PRWNZHfrVvXPb"
+     ],
+     "part_tier": null,
+     "problem_md": "The HTML of a web page consists of a head section and a body section.\n\nThe head section can contain the link to the stylesheet.\n\n**Identify **two other items found in the head section of HTML.",
+     "solution_md": "Examples of other items found in the head section of HTML include:\n\nAny **two **of the following:\n\n- Document/page title **[1 mark]**\n- Meta data **[1 mark]**\n- Character set **[1 mark]**\n- Styles Scripts **[1 mark]**\n- Default target window/frame **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zYt885xxKFpPZqwW",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XV67Fdz75Q4ZxjYk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 9,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_zbDs9BJxCNNX6pK4"
+     ],
+     "part_tier": null,
+     "problem_md": "Absolute and relative file paths are used in the content layer when creating a web page.\n\n**Explain **the differences between an absolute file path and a relative file path.",
+     "solution_md": "The difference between an absolute and relative file path is:\n\nAny **two **of the following:\n\n- Absolute file paths contain a complete URL/full file path with file name **[1 mark]**\n- Contents of the URL include protocol, the website's domain name, specific file, subfolder, page name – 1 mark for at least two named **[1 mark]**\n- Relative file paths only include a specific file or page **[1 mark]**\n- This is relative to the current path **OR **starts from the same folder as the web page **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_YbnhFRhgpzPnZGmm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 9,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_zbDs9BJxCNNX6pK4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain **why absolute file paths should **not **be used for hyperlinks to locally-saved web pages.",
+     "solution_md": "Absolute file paths should not be used as:\n\nAny **one **of the following:\n\n- If the web pages have moved then the references refer to an old/previous file path **[1 mark]**\n- Hyperlinks will not work **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

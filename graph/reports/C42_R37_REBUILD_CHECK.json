@@ -1,0 +1,66 @@
+{
+  "schema": "c42-r37-rebuild-check/1.0",
+  "task": "T-C42",
+  "stage": "r37-substrate-rebuild-check",
+  "round": "R37",
+  "round_start": "936e6c11adffec1a0b03628e64e2fd7bcb4ff056",
+  "audited_head": "dd803dcb04f085e1e170f1f27f672ffeca29c09d",
+  "baseline_store_sha256_16": "9174915650d49f4a",
+  "store_sha256_16": "8d8474c59ca6341f",
+  "record_sha256_16": "1ac3525971dcbe88",
+  "checks": [
+    {
+      "check": "B1_census_meta",
+      "pass": true,
+      "detail": "917 rows = 834 anchored (830 HUMAN_VALIDATED + 4 SUGGESTED) + 28 unresolved-span + 55 uncovered-SP; covered 133/188 UNCHANGED (the R36 projections landing: 1.6F keeps 5 anchored rows — the reverse-percentages trio + basic-percentages ords 0/3; gained none, lost none); meta KEY SETS identical with the delta by VALUE == exactly stage + rows_anchored (835->834) + rows_worklist_anchor_unresolved (27->28) + promoted_rows (831->830 — the narrowed surface) + the promotion_reapplied_by/directive/note fields (the promotion_reapplied date value itself coincides — both rounds ran 2026-10-16 — so the re-dating rides the other three fields); the 7 other R5 promotion fields byte-equal; tool @2.7.0 (NO version move)"
+    },
+    {
+      "check": "B2_demote_landing",
+      "pass": true,
+      "detail": "1/1 map row landed verbatim: the DEMOTE a107f5041769fdd9 -> 8254a7fc75ad2946 (basic-percentages ord 4; the loop's SIXTH DEMOTE, single-row batch over a promoted row); old row HUMAN_VALIDATED promoted at 4MA1-1.6F; new row spec_code None, no sp_title, no anchor, the round-tagged worklist_reason + disposition under the 'C42 R36 (surface 3:' descriptor; provenance.override == the map block (map sha b35b2403c43ebfc2); SUGGESTED with NO promotion block; the amendment's excluded entry == the landed row; ZERO REATTRIBUTEs; per-code 1.6F anchored 6 -> 5 (basic-percentages ord 4 leaves the family)"
+    },
+    {
+      "check": "B3_promotions_two_way",
+      "pass": true,
+      "detail": "store <-> files+amendments 830 == 830 exact identities (816 direct + 3 R26-chain re-keyed + 5 R30 superseded re-keyed via the R31 record + 3 R33 superseded re-keyed AT THE AMENDED CODES 1.8B->1.8D via the R34 record + 3 R31-ADDED sign-off promotions); the R26 + R30 + R36 excluded rows NOT promoted (unresolved-span worklist — the R36 one at the projected re-key 8254a7fc75ad2946); validated_by operator everywhere; sampled 457 == the R21 CONFIRM set; every applied block == the R5 tool's block shape; the SUGGESTED anchored residue == 3 R22 REJECTs + 1 re-homed hold; promotions file sha 9bad739bd79e5899 == the R5 record's pin == the R36 amendment's base pin"
+    },
+    {
+      "check": "B4_structural_reproof",
+      "pass": true,
+      "detail": "vs baseline blob 936e6c11adff: chunk-identity set identical (862 — the W3 invariant); the re-applied non-moved promoted rows BYTE-IDENTICAL (provenance.tool stays @2.7.0 — no tool churn) with byte-equal promotion blocks; the 1 DEMOTE row carries exactly the enumerated fields with the round's ONLY status change (HUMAN_VALIDATED -> SUGGESTED); the non-chunk worklist byte-identical (55 == 55, no vanishing row)"
+    },
+    {
+      "check": "B5_protected_surfaces",
+      "pass": true,
+      "detail": "120 protected paths byte-identical baseline blob -> HEAD blob (the resolution substrate incl. the R14-era pin, the R27 join artifact, the promotions file, the R26+R30+R33+R36 amendments, the ten maps, the R5/R21/R22/R23/R24/R25/R26/R27/R29/R30/R31/R32/R33/R34/R35/R36 records + tools + carriers, the Lane C stores, the chemistry substrate, the corpus manifest, the ratified registry)"
+    },
+    {
+      "check": "B6_determinism",
+      "pass": true,
+      "detail": "G7 two constructions byte-identical; store sha 8d8474c59ca6341f == the record's post pin; the record's pre pin == the baseline blob sha"
+    },
+    {
+      "check": "B7_standing_pins",
+      "pass": true,
+      "detail": "the FOUR R26 STANDING joins verified against the R26 map's own list-shaped adjudications + the carried pins (the 4.11C anchor, the 1.7B anchor, the 3.3F anchor) + the R33 SPLIT-note anchors (the corpus anchor STANDS at 1.8B — ords 0-5; the R10 related-calculations anchor STANDS at 1.8D) + the R36 STANDING scoping anchor (the basic-percentages corpus anchor STANDS at 1.6F) — the join layer untouched"
+    },
+    {
+      "check": "B8_commit_state",
+      "pass": true,
+      "detail": "committed-clean: HEAD dd803dcb04f0; tree clean; the committed delta vs HEAD~1 inside the R37 footprint"
+    },
+    {
+      "check": "B9_anti_forgery",
+      "pass": true,
+      "detail": "830 HUMAN_VALIDATED rows carry operator-attributed promotion blocks; provenance tiers RULE_DERIVED everywhere; the re-homed hold + the 3 R22 REJECT rows stay SUGGESTED unpromoted; the R36 DEMOTE row lands unpromoted in the worklist — EXACTLY ONE DEMOTE this round (the loop's SIXTH)"
+    },
+    {
+      "check": "B10_ci_parity",
+      "pass": true,
+      "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census 42 lines (the pre-existing sparse-checkout environmental set), zero failures naming the chunk store"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "result": "ALL PASS"
+}

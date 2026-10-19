@@ -1,0 +1,187 @@
+{
+ "schema": "syllabai.t-spec-6-report/1.0",
+ "generated_utc": "2026-09-18T20:11:34Z",
+ "courses": [
+  "ial-maths-20-pure-1",
+  "ial-maths-20-pure-2",
+  "ial-maths-20-pure-3",
+  "ial-maths-20-pure-4",
+  "ial-maths-20-mechanics-1",
+  "ial-maths-20-mechanics-2",
+  "ial-maths-20-statistics-1",
+  "ial-maths-20-statistics-2",
+  "ial-maths-20-decision-1",
+  "ial-further-maths-18-further-pure-1"
+ ],
+ "summary": {
+  "ial-maths-20-pure-1": {
+   "ids": 46,
+   "resolved": 40,
+   "unresolved": 6,
+   "map_merged": 34,
+   "remaps": 0,
+   "parts_coded": 648,
+   "parts_uncoded": 59
+  },
+  "ial-maths-20-pure-2": {
+   "ids": 68,
+   "resolved": 64,
+   "unresolved": 4,
+   "map_merged": 55,
+   "remaps": 1,
+   "parts_coded": 553,
+   "parts_uncoded": 15
+  },
+  "ial-maths-20-pure-3": {
+   "ids": 69,
+   "resolved": 68,
+   "unresolved": 1,
+   "map_merged": 67,
+   "remaps": 0,
+   "parts_coded": 724,
+   "parts_uncoded": 2
+  },
+  "ial-maths-20-pure-4": {
+   "ids": 65,
+   "resolved": 63,
+   "unresolved": 2,
+   "map_merged": 55,
+   "remaps": 0,
+   "parts_coded": 589,
+   "parts_uncoded": 1
+  },
+  "ial-maths-20-mechanics-1": {
+   "ids": 41,
+   "resolved": 37,
+   "unresolved": 4,
+   "map_merged": 33,
+   "remaps": 2,
+   "parts_coded": 465,
+   "parts_uncoded": 8
+  },
+  "ial-maths-20-mechanics-2": {
+   "ids": 47,
+   "resolved": 45,
+   "unresolved": 2,
+   "map_merged": 42,
+   "remaps": 1,
+   "parts_coded": 469,
+   "parts_uncoded": 1
+  },
+  "ial-maths-20-statistics-1": {
+   "ids": 44,
+   "resolved": 44,
+   "unresolved": 0,
+   "map_merged": 38,
+   "remaps": 0,
+   "parts_coded": 564,
+   "parts_uncoded": 0
+  },
+  "ial-maths-20-statistics-2": {
+   "ids": 35,
+   "resolved": 35,
+   "unresolved": 0,
+   "map_merged": 29,
+   "remaps": 0,
+   "parts_coded": 503,
+   "parts_uncoded": 0
+  },
+  "ial-maths-20-decision-1": {
+   "ids": 53,
+   "resolved": 43,
+   "unresolved": 10,
+   "map_merged": 35,
+   "remaps": 0,
+   "parts_coded": 339,
+   "parts_uncoded": 34
+  },
+  "ial-further-maths-18-further-pure-1": {
+   "ids": 44,
+   "resolved": 44,
+   "unresolved": 0,
+   "map_merged": 39,
+   "remaps": 1,
+   "parts_coded": 280,
+   "parts_uncoded": 0
+  }
+ },
+ "verdict_counts": {
+  "ial-further-maths-18-further-pure-1": {
+   "resolves": 39,
+   "remaps": 1,
+   "pendings": 0,
+   "stage1_confirms": 4,
+   "unit": "FP1"
+  },
+  "ial-maths-20-decision-1": {
+   "resolves": 35,
+   "remaps": 0,
+   "pendings": 10,
+   "stage1_confirms": 8,
+   "unit": "D1"
+  },
+  "ial-maths-20-mechanics-1": {
+   "resolves": 33,
+   "remaps": 2,
+   "pendings": 4,
+   "stage1_confirms": 2,
+   "unit": "M1"
+  },
+  "ial-maths-20-mechanics-2": {
+   "resolves": 42,
+   "remaps": 1,
+   "pendings": 2,
+   "stage1_confirms": 2,
+   "unit": "M2"
+  },
+  "ial-maths-20-pure-1": {
+   "resolves": 34,
+   "remaps": 0,
+   "pendings": 6,
+   "stage1_confirms": 6,
+   "unit": "P1"
+  },
+  "ial-maths-20-pure-2": {
+   "resolves": 55,
+   "remaps": 1,
+   "pendings": 4,
+   "stage1_confirms": 8,
+   "unit": "P2"
+  },
+  "ial-maths-20-pure-3": {
+   "resolves": 67,
+   "remaps": 0,
+   "pendings": 1,
+   "stage1_confirms": 1,
+   "unit": "P3"
+  },
+  "ial-maths-20-pure-4": {
+   "resolves": 55,
+   "remaps": 0,
+   "pendings": 2,
+   "stage1_confirms": 8,
+   "unit": "P4"
+  },
+  "ial-maths-20-statistics-1": {
+   "resolves": 38,
+   "remaps": 0,
+   "pendings": 0,
+   "stage1_confirms": 6,
+   "unit": "S1"
+  },
+  "ial-maths-20-statistics-2": {
+   "resolves": 29,
+   "remaps": 0,
+   "pendings": 0,
+   "stage1_confirms": 6,
+   "unit": "S2"
+  }
+ },
+ "evidence_note": "SME IAL maths tags carry no definition text (ticket #13). Joins use tag name + revision-note page + page body + exam-part text + global tag identity across courses; per-course resolution keeps each course's codes evidence-backed.",
+ "parse_notes": [
+  "D1-2.1 committed text drops \"Prim's and Kruskal's algorithm\" (PDF-verified); verdicts still join Kruskal tags to 2.1.",
+  "S2-4.6 committed text drops \"and for the mean of a Poisson distribution\" (PDF-verified); the Poisson hypothesis tag joins to 4.6 with a documented note.",
+  "D1-4.4 'Total float. Gantt (cascade) charts. Scheduling.' is absent from the committed parse (its code slot carries a notation artifact); float/Gantt/scheduling tags are honest pendings flagged for parse repair."
+ ],
+ "pmt_excluded": true
+}

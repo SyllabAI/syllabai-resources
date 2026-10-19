@@ -1,0 +1,468 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:24Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "4-software",
+  "name": "4. Software"
+ },
+ "topic": {
+  "id": "top_f4Gb24Rc6JqmcYVV",
+  "slug": "types-of-software-and-interrupts",
+  "name": "Types of Software & Interrupts",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "system-software-and-application-software",
+   "name": "System Software & Application Software",
+   "revision_note_id": "rn_mMSNrwJk9RCrWZ4t"
+  },
+  {
+   "slug": "the-purpose-and-functionality-of-operating-systems",
+   "name": "The Purpose & Functionality of Operating Systems",
+   "revision_note_id": "rn_BK3JFQFyrmksz9Kz"
+  },
+  {
+   "slug": "hardware-firmware-and-the-operating-system",
+   "name": "Hardware, Firmware & the Operating System",
+   "revision_note_id": "rn_ck6pxs9pP88Y4YtX"
+  },
+  {
+   "slug": "interrupts",
+   "name": "Interrupts",
+   "revision_note_id": "rn_RnjhffMHrWQFbvDW"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_qyZCtvjFFP5Q8Zjd",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/4-software/types-of-software-and-interrupts/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_jfWPSsjs3dGfYZss",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nMS4nqK5NhDJgDxR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hMxCWw6JG8bBFD6z"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer needs firmware and system software to operate.\n\n**State **the purpose of firmware.",
+     "solution_md": "The purpose of firmware is to:\n\nAny **one **of the following:\n\n- Permanently store instructions (in ROM) **[1 mark]**\n- Stores instructions to boot up/start up the computer **[1 mark]**\n- Provides the operating system with a platform to run on **[1 mark]**\n- Controls/manages/allows communication with hardware **[1 mark]**\n- Store instructions securely (to stop them being easily corrupted) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_GrwJt4pt5znyqnjc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hMxCWw6JG8bBFD6z"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **one **example of firmware.",
+     "solution_md": "Examples of firmware include\n\nAny **one **of the following:\n\n- Bootstrap **[1 mark]**\n- Bootloader **[1 mark]**\n- BIOS **[1 mark]**\n- Operating system (in embedded system) **[1 mark]**\n- Programs (in embedded systems) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_YK35MCVgTKyJSHGF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jCpQHf582TKg5Css"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **two **examples of system software.",
+     "solution_md": "Example of utility software include\n\nAny **two **of the following:\n\n- Operating system **[1 mark]**\n- Utility software **[1 mark]**\n- Two valid examples of utility software **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GPpkwVV6XPK6VjS7",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9JD37bMXcnQ8WFyx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k5YWrTHsGYPtdnB3"
+     ],
+     "part_tier": null,
+     "problem_md": "**Explain the role** of **peripheral management** in the operating system.\n\nInclude **how **it facilitates **plug-and-play** (**PnP**) functionality",
+     "solution_md": "> **[mark-scheme]**\n> Role of peripheral management:\n> \n> Any 3 from:\n> \n> - Handles the way hardware peripherals interact with the software\n> - … ensuring that each peripheral operates efficiently\n> - … by allocating the necessary system resources\n> - Managing data transfer between the computer and the peripheral device\n> - Coordinating the operation of multiple peripherals simultaneously\n> \n> **[3 marks]**\n> \n> PnP functionality:\n> \n> - Allows the operating system to automatically detect and configure new peripherals when they are connected\n> \n> OR\n> \n> - Users do not need to manually install device drivers or restart the system for the peripherals to work\n> \n> OR\n> \n> - … simplifying the setup and use of hardware **[1 mark]**\n> \n> Maximum 3 marks if no mention of PnP functionality\n> \n> \"Explain\" requires candidates to provide a reason or justification for the role of peripheral management, not just a simple statement\n\n> **[exam-tip]**\n> Make sure you address both parts of the question: the general role of peripheral management and how it facilitates plug-and-play. Many students focus only on the general role and forget to mention PnP, which limits them to a maximum of 3 marks. A good approach is to write a few points about what peripheral management does (e.g. resource allocation, coordinating devices) and then dedicate at least one clear point to how PnP works, such as automatic detection and configuration of new hardware without needing to manually install drivers.\n\n**[4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qXqPF6xx7MBvRXpV",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_27Sz49JXWd3qsZXS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ph2TnD75c874XQC4",
+      "spcpt_hMxCWw6JG8bBFD6z"
+     ],
+     "part_tier": null,
+     "problem_md": "Operating systems often provide **user interfaces**. \n\n**Describe **the difference between a graphical user interface (GUI) and a command line interface (CLI)  and give an example of where each might be used.",
+     "solution_md": "The difference between a GUI and a CLI is described as:\n\n**Graphical User Interface (GUI): **\n\n- Allows users to interact with the computer using graphical elements like windows, icons, and buttons **[1 mark]**\n- Any valid example **[1 mark]**\n\n**Command-Line Interface (CLI): **\n\n- Allows users to interact by typing commands into a text-based interface **[1 mark]**\n- Any valid example **[1 mark]**\n\n> **[mark-scheme]**\n> - One mark for **description **and one mark for **valid example**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5yk3QvKF4bQF6QVR",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_5dTnZwKyg7yC53Bn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W3RysBHxT4rJT9Ss",
+      "spcpt_v5ncTPg3j6Tv2gXt",
+      "spcpt_ph2TnD75c874XQC4",
+      "spcpt_k5YWrTHsGYPtdnB3",
+      "spcpt_cNt7wpcrSSdJSqw8",
+      "spcpt_68X8wXQDqncQZDkV",
+      "spcpt_2pSkJSkyPRRcTW45"
+     ],
+     "part_tier": null,
+     "problem_md": "**Define **the term '**operating system**'.",
+     "solution_md": "An operating system is defined as:\n\n- Software that manages computer hardware **[1 mark]** *accept: controls / operates / runs the hardware*\n- Provides a platform for running application software **[1 mark]** *accept: provides an interface between the user/applications and the hardware*\n\n> **[exam-tip]**\n> For two marks you need two distinct points, so make sure you mention both managing the hardware and providing a platform or interface for applications\n> \n> A vague definition on its own is unlikely to score, so state clearly that it is software"
+    },
+    {
+     "id": "qstnprt_HYq7fYGZSKdGFJGs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W3RysBHxT4rJT9Ss",
+      "spcpt_v5ncTPg3j6Tv2gXt",
+      "spcpt_ph2TnD75c874XQC4",
+      "spcpt_k5YWrTHsGYPtdnB3",
+      "spcpt_7Q6TCtn4ZjNSvtRV",
+      "spcpt_68X8wXQDqncQZDkV",
+      "spcpt_2pSkJSkyPRRcTW45"
+     ],
+     "part_tier": null,
+     "problem_md": "**Identify two **basic **functions **of an operating system.",
+     "solution_md": "Functions of an operating system include:\n\nAny **two **of the following:\n\n- File management **[1 mark]**\n- Handling interrupts **[1 mark]**\n- User interface / HCI (human computer interaction) **[1 mark]**\n- Peripheral management & device drivers **[1 mark]**\n- Memory management & multitasking **[1 mark]**\n- Providing a platform for running applications **[1 mark]**\n- Providing system security **[1 mark]**\n- User management **[1 mark]**\n\n> *Accept a clear description of a listed function, e.g. \"move files and folders\" for file management*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6x7tvJpXspF6JrsG",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_sVFSZZRYM9PXvdjg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W3RysBHxT4rJT9Ss",
+      "spcpt_v5ncTPg3j6Tv2gXt",
+      "spcpt_k5YWrTHsGYPtdnB3",
+      "spcpt_cNt7wpcrSSdJSqw8",
+      "spcpt_7Q6TCtn4ZjNSvtRV",
+      "spcpt_68X8wXQDqncQZDkV",
+      "spcpt_2pSkJSkyPRRcTW45",
+      "spcpt_ph2TnD75c874XQC4"
+     ],
+     "part_tier": null,
+     "problem_md": "Layla uses her computer to create educational games\n\nLayla makes use of **system software**.\n\nOne type of system software is the operating system.\n\n**Identify **and **describe two functions** of an operating system.",
+     "solution_md": "Examples of functions of the operating system include:\n\nAny **two** of the following (1 mark for function name, max 2 marks per description):\n\n**User interface ****[1 mark]**\n\n- allows the user to communicate with the hardware **[1 mark]**\n- e.g. graphical user interface (GUI) /command prompt **[1 mark]**\n- allows the user to input data **[1 mark]**\n- outputs data to the user **[1 mark]**\n\n**Memory management/multitasking ****[1 mark]**\n\n- moves data between RAM and VM / manages/allocates RAM between different programs **[1 mark]**\n- gets data from RAM / prevents two programs accessing the same memory location **[1 mark]**\n- stores data to RAM / enables multitasking **[1 mark]**\n\n**Peripheral management/device drivers ****[1 mark]**\n\n- allows the installation of drivers to communicate with the peripherals **[1 mark]**\n- sends data to/from peripherals **[1 mark]**\n\n**User management ****[1 mark]**\n\n- allows the setting up of accounts **[1 mark]**\n- security/setting of password **[1 mark]**\n- set different access rights **[1 mark]**\n\n**File management ****[1 mark]**\n\n- creation/editing/renaming of files **[1 mark]**\n- creation/editing/renaming of folders **[1 mark]**\n- movement of files/folders **[1 mark]**\n\n**Handling interrupts ****[1 mark]**\n\n- responding to an event that requires immediate CPU attention **[1 mark]**\n- ensuring smooth system operation by processing interrupts **[1 mark]**\n\n**Platform for running applications ****[1 mark]**\n\n- allows application software access to system resources **[1 mark]**\n\n**Providing system security ****[1 mark]**\n\n- offer features like password protection, firewalls, virus scanning, and file encryption** [1 mark]**\n\n> **[exam-tip]**\n> A sample six mark response could be:\n> \n> *The user interface is one function of the operating system. A user interface provides the user with a graphical interface which allows them to interact with the computing, inputting and outputting data.*\n> \n> *A second function of an operating system is memory management. Memory management allows data to move between the RAM and virtual memory when RAM becomes full. It also allocates space in RAM for currently in-use programs.*\n> \n> - For a 'describe' question, vague statements score no marks — give specific technical detail rather than just restating the function name.\n> - Use the exact function labels (e.g. peripheral management, providing system security), not loose terms like 'hardware' or 'security'."
+    }
+   ]
+  },
+  {
+   "id": "qstn_G9fqRmZSWRd9mxK6",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_J66pXCqchH9JJVCw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WcmkNj4k9dXGwB26"
+     ],
+     "part_tier": null,
+     "problem_md": "One function of an operating system is to manage interrupts.\n\n**Give two** examples of when an interrupt would be generated.",
+     "solution_md": "Examples of when interrupts would be generated include:\n\nAny **two **of the following:\n\n- Division by zero **[1 mark]**\n- Two processes trying to access the same memory location **[1 mark]**\n- A hardware device signal / input such as a key press or mouse click **[1 mark]**\n- A printer jam / paper out / device requiring attention **[1 mark]**\n- Any valid example of an error message (two examples can be awarded) **[1 mark]**\n- Any valid example of a change of task (two examples can be awarded) **[1 mark]**\n\n> **[exam-tip]**\n> Name a specific event that triggers an interrupt, not a general type such as 'hardware' or 'a task needing attention'\n> \n> Avoid vague network/external issues like WiFi problems, and make sure you give two clear examples"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2RR5TxRQhkZpPdFS",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_JdxxrqqpcJh3S8bc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jCpQHf582TKg5Css"
+     ],
+     "part_tier": null,
+     "problem_md": "**Complete the statements** about different types of software.\n\nUse the terms from the list.\n\nSome of the terms in the list will **not **be used. You should only use a term once.\n\n- application\n- assembly language\n- bootloader\n- central processing unit (CPU)\n- firmware\n- hardware\n- operating\n- output\n- system\n- user\n\n........................................................................ software provides the services that the computer requires; an example is utility software.\n\n........................................................................ software is run on the operating system.\n\nThe ........................................................................ system is run on the firmware, which is run on the.....................................................",
+     "solution_md": "**System ****[1 mark] **software provides the services that the computer requires; an example is utility software.\n\n**Application ****[1 mark]**** **software is run on the operating system.\n\nThe **operating ****[1 mark]**** **system is run on the firmware, which is run on the **hardware ****[1 mark]**."
+    }
+   ]
+  },
+  {
+   "id": "qstn_99GK3fmm6mtsnnCK",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sGCW9TvDpzV8XwXg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hMxCWw6JG8bBFD6z"
+     ],
+     "part_tier": null,
+     "problem_md": "In a computer system the operating system is run directly on the firmware.\n\n**Identify **which **type of software** runs directly on the operating system.",
+     "solution_md": "The type of software that runs directly on the operating system is:\n\n- Application software **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tTp7PN8jKP2z49fd",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_W2S9M2ZXMbnWdxK9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 3,
+      "question_part": "c(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_jCpQHf582TKg5Css"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept \"system software\" as a valid example of software (it is the umbrella term for operating system and utility software).\n\nThree types of storage media are magnetic, optical and solid state.\n\nA business is creating a new mobile device that has an SSD as secondary storage.\n\n**Identify two **examples of **software **that can be stored on the SSD.",
+     "solution_md": "Examples of software that can be stored on the SSD include:\n\nAny **two **of the following:\n\n- Operating system **[1 mark]**\n- Application software **OR** by example **[1 mark]**\n- Utility software **OR** by example **[1 mark]**\n\n> **[exam-tip]**\n> Name a specific software category or example, not vague answers like 'computer programs'\n> \n> Remember that files such as text documents are data, not software"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KSdb9tmYkpX8vmRG",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NCF5hq2c9dhg4M9v",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_hMxCWw6JG8bBFD6z"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has a Von Neumann architechure.\n\nThe computer uses a **bootstrap**.\n\n**Tick (✓) one box** to show the part of a computer of which the bootstrap is an example.",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- **B **is correct as the bootstrap contains the initial boot-up instructions for a computer **[1 mark]**\n- **A **is incorrect as application software is software designed to carry out a specific task or complete a job\n- **C **is incorrect as a hard disk drive is a secondary storage device\n- **D **is incorrect as a MAC address is a unique identifier for a network capable device",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "application software"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "firmware"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "hard disk drive"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "MAC address"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

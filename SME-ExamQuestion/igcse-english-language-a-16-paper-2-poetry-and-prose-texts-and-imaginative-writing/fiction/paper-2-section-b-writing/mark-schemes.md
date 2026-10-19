@@ -1,0 +1,2209 @@
+# Mark Schemes — Paper 2: Section B Writing
+**Paper 2: Fiction** · Edexcel IGCSE English Language A (4EA1)
+
+
+## June 2023 R Section B Writing (3 questions)
+
+
+### Q1
+## Model answer
+
+The view from the window was different. Not just because the sun was lower in the sky or the city skyline had changed slightly since last week. It was different because this time, she was on the inside, looking out. For months, maybe years, she had imagined herself standing right there: back straight, hands in pockets, staring through the vast glass panes of the office tower that once felt so far out of reach. But now that she was here, the feeling wasn’t quite what she expected.
+
+Outside, the world buzzed with life. Cars moved like ants below, people poured out of cafés and office blocks, and somewhere, a plane drew a silver scar across the blue sky. From up here, it all seemed so small, like a toy world. And yet, she felt smaller. Smaller than the ambitions that had brought her here, smaller than the title now printed on her office door. She turned her eyes to the horizon, to where the city blurred into fields, wondering if she had left something behind out there — something important.
+
+She recalled the day the call came: how the phone slipped from her hand onto the kitchen tiles, and how she laughed, breathless and stunned, while her little brother clapped with delight, as though she’d just struck gold. She remembered the hurried packing; the tearful farewells to the quiet town that had formed the backdrop of her childhood; the corner shop where sweets were still sold in rustling paper bags. She had made herself a quiet vow: not to look back.
+
+But now, inside this office of polished glass and soft carpets, she wasn’t sure. The silence was too clean. The air smelled like cold metal and ambition. The people she passed each morning wore perfect smiles and sharp suits, but their eyes were always elsewhere — racing ahead to meetings, deadlines, destinations she didn’t yet understand. She missed the sound of laughter echoing off cracked walls, the chaos of her kitchen at dinner, her mother’s voice humming through the hall.
+
+She stepped closer to the window, watching as the light spilled in, casting long shadows behind her. Maybe this was what growing up felt like — standing at a height you’d always dreamed of, only to realise how far the fall could be. But then again, maybe it wasn’t about falling or flying. Maybe it was about balance. Learning to be two things at once: the girl who came from almost nothing, and the woman now standing on the edge of everything.
+
+The view from the window was different — and so was she.
+
+> **[mark-scheme]**
+> This is an effective response which communicates deep meaning without over-explaining. It uses sophisticated language and demonstrates precise control throughout. The imagery is subtle and there is strong sentence variety, including short, reflective sentences for emphasis. The writing is technically accurate and the tone is mature with a consistent, third-person perspective. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+## Model answer
+
+At first, it felt like flying. The rush of air, the sudden weightlessness, the illusion of freedom. For a brief second, I was soaring — suspended between sky and ground, between bravery and stupidity. Then came the landing. Sudden. Sharp. Final. And all that illusion shattered in an instant.
+
+It had started as a dare. A rusty footbridge stretched across the dried-up canal near the edge of the woods; the kind of place we weren’t supposed to go, which made it irresistible. We’d been there a dozen times, throwing stones, making dares, pretending we were wilder than we were. That afternoon, the sky had a strange golden haze and everything felt a little too still, like the moment before a storm.
+
+“Bet you won’t cross it,” Josh said, his voice casual but his eyes locked on mine.
+
+I laughed, too loudly, and began to climb. Inside, my stomach twisted, but I ignored it. I was fifteen. Pride mattered more than instinct.
+
+The wood was soft underfoot, splintering in places. Rusted nails jutted out like warning signs. Below me, the cracked canal floor was littered with rocks and broken glass. I told myself I’d be fine. That I had balance. That I wasn’t scared. But my hands trembled as I took each step. Then a board gave way, suddenly, sickeningly, and I fell. The world flipped. The sound was sucked out of the air. And then: the impact.
+
+I came to with a blinding bolt of pain screaming up my leg and a strange metallic taste in my mouth. My left side was scraped raw. My leg was twisted at an angle no leg should ever bend. I didn’t scream. I could not. I just stared at the sky, at the drifting leaves, thinking how quiet the world felt in that moment — like it had paused to take in what had happened. Josh was shouting my name, scrambling down, his voice cracking as he called for help. I remember gripping a patch of weeds, trying to anchor myself to something real. Not because I thought it would help, but because I did not know what else to do.
+
+The hours that followed blurred into colourless shapes: sirens wailing through the trees, paramedics cutting my jeans, my mother’s face pale with shock at the hospital. But what I remember most wasn’t the pain or the panic. It was the guilt. Guilt that I hadn’t listened to my gut. Guilt that I’d risked everything just to prove I wasn’t afraid. That fall hadn’t just broken my leg; it had fractured my sense of who I thought I was. I’d always believed I was careful. Thoughtful. But there, on that bridge, I had become someone reckless. Someone desperate to belong.
+
+Recovery was long: weeks confined to bed, a cast encasing my leg from hip to ankle, and crutches that left deep bruises along my arms.Yet, in time, my body mended, as it was designed to. What proved far more arduous was the process of forgiving myself. I realised, slowly, that the real fall was never physical. It was the fall from confidence, from certainty. And maybe, in a way, that fall was necessary.  Because only by falling do we learn how to get back up.
+
+Now, I still pass that bridge sometimes. It’s cordoned off now, too unsafe even for dares. But I always stop for a moment, just to look. Not in fear, but in respect. It marks the place where I changed. Where I learned that being brave isn’t about ignoring fear — it’s about knowing when to listen to it. Sometimes, we fall to be broken. But sometimes, we fall to be remade.
+
+> **[mark-scheme]**
+> This is an effective response which explores both a literal fall and an emotional or psychological “fall”. This dual meaning shows maturity and insight. The story maintains a consistent narrative voice and the tone shifts appropriately from tense and suspenseful to quietly reflective. There is a range of punctuation and sentence structures for effect, with accurate spelling and grammar throughout. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+## Model answer
+
+I remember the silence most of all. It wasn't loud or dramatic, the kind of missing that makes you cry into your pillow. It was quiet. A space. A pause in the rhythm of life that had once included her, and now didn’t. My grandmother had died the winter before, and though time had moved forward, something in me had stayed behind.
+
+She wasn’t famous, but she was the kind of person who made ordinary things feel magical. The smell of cinnamon always takes me back to her kitchen, where she’d hum to herself while baking apple pies and telling stories about her childhood during the war. Her stories weren’t just words; they were spells that made the past come alive. Now, when I sat at the same wooden table, there was only the ticking of the clock and the faint smell of dust where cinnamon used to be.
+
+The first time I truly felt her absence was on my birthday: a day she had never once forgotten. Even in her final year, too frail to rise from bed, she had summoned the strength to send a hand-drawn card; the lines trembled with the weight of her illness, yet her familiar handwriting still breathed warmth and love. But that year, the letterbox remained silent.I stared at the blank space where her card should have been. It was an absence louder than any words. It was then I understood: grief doesn’t strike in grand gestures or singular moments; it seeps into the unnoticed corners of everyday life, settling into silence, into the pause where once there was presence.
+
+Sometimes I’d find myself picking up the phone, halfway to dialling her number before remembering. Other times, I’d dream about her, sitting in her favourite chair, gently correcting my grammar or telling me that my hair looked better the other way. I think I missed the way she made me feel more than anything—like I mattered, like I was enough just as I was. Without her, the world felt louder, more rushed and a little colder.
+
+Over time, the ache softened, but never entirely disappeared. I started baking her recipes, humming her tunes under my breath. Her memory became a fuzzy mix of warmth, comfort and something sad that I could never quite shake. And I began to understand that missing someone doesn’t always have to hurt — it can be a way of keeping them close. She may not be here in the way she once was, but in a thousand small ways, she still is.
+
+> **[mark-scheme]**
+> This is an effective response which builds emotional depth through quiet, understated moments rather than dramatic events. It contains a strong emotional arc, with a mature tone, suitable for a personal narrative. It also uses extensive and sophisticated vocabulary with accurate spelling and grammar. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## June 2023 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+The mountain looked impossibly high. Jagged peaks pierced the sky like the teeth of some ancient, slumbering beast, their snow-dusted tips glowing gold in the fading afternoon sun. Shadows stretched long and blue across the snowfields below, swallowing the last warmth of day. I took a shaky breath, feeling the thin, sharp air sting my lungs, and tightened the straps on my backpack until they dug into my shoulders.
+
+Around me, the rest of the group shifted nervously, adjusting gear, stealing glances upward. No one spoke, but I could sense their unease. It rippled through the silence like a tremor before an avalanche. The same flicker of doubt danced in my own chest, an unspoken question: *Could we really do this?* We had come so far already, through biting winds that howled like wolves, through sleepless nights curled in damp tents, and across endless miles of rock-strewn paths that shredded soles and spirits. Yet here we stood at the foot of the final ascent, staring up at a challenge that seemed to mock our exhaustion with its cold majesty.
+
+I thought of home, of my younger brother’s wide eyes when I promised I’d make it to the top, his hand in mine, sticky with chocolate from our farewell snack. I remembered the quiet, worried look on my mother’s face when she hugged me goodbye, her hands lingering at my shoulders as if she could hold back time. “Be careful,” she whispered, as if saying it out loud might help bring me back.
+
+I squared my shoulders. One step. Then another.
+
+The climb was gruelling. My legs screamed with every movement, muscles burning like molten iron. Each inch of progress felt like wading through invisible resistance, as if the mountain itself pushed back. The air grew colder and thinner, slicing into my throat with every breath. My gloved hands clutched frozen rock, slipping now and then on the brittle crust of ice, and my boots crunched through snow that hid unseen crevices beneath. Still, the summit loomed, silent and indifferent to my struggle, regal in its distance.
+
+Somewhere behind me, a voice called out, low but steady, a lifeline. A fellow climber was urging me on, their breathless encouragement cutting through the wind. I glanced back and saw them, small figures moving upward with slow, stubborn purpose. Just knowing they were there, fighting the same battle, steadied me. Their determination became mine. We weren’t just climbing for ourselves. We climbed with each other.
+
+At last, with a final burst of will and weary strength, I scrambled over the last ridge. The summit.
+
+The view stole what little breath I had left. The world stretched out beneath us like a painted scroll, valleys brushed with shadow, rivers catching light like silver thread, forests dark as ink. The horizon blazed in hues of fire and rose, the sun dipping low with quiet grandeur. For a moment, none of us spoke. We simply stood there, chests heaving, eyes wide, united in reverent awe. The wind tugged at our jackets, sharp and celebratory, while the sky opened wide above us, a cathedral of ice and air.
+
+In that moment, the mountain no longer seemed impossibly high. It was simply there, vast, beautiful, and conquered. It was not by brute strength alone, nor by sheer will, but by the quiet, relentless courage of those who dared to keep climbing, step by step, together.
+
+> **[mark-scheme]**
+> This is a well-crafted and engaging response that fully meets the highest level of the mark scheme. The story uses vivid description and sensory details to create a strong sense of atmosphere and place. Vocabulary is ambitious and carefully chosen, enhancing imagery and mood. Sentence structures are varied to control pacing and build tension, while punctuation is used accurately and purposefully to shape meaning. Overall, this is a compelling narrative that demonstrates excellent control of language and awareness of purpose.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**The Sunset Experience**
+
+It had been a long day. It was one of those restless, heavy days when time seemed to drag like a thick, wet blanket. I had just finished my final exam and felt the weight of the past few weeks of sleepless study still clinging to my shoulders. My friend Maya, with her usual infectious energy, tugged at my arm.
+
+“Come on,” she grinned, “let’s go watch the sunset.”
+
+Reluctantly, I agreed, though every muscle in my body craved a soft chair and a cup of tea. We climbed the familiar hill just outside the village, a place we’d known since childhood. The old oak tree still stood at the summit, its roots curling around the earth like ancient fingers.
+
+As we reached the top, the world seemed to fall away behind us. The air smelled of grass and faint sea salt from the distant coast. The sky was already tinged with amber and pink, clouds stretched thin like brushstrokes across a canvas. We sat in silence, our backs against the tree, knees pulled to our chests, the rough bark comforting against our backs and the grass scratching at our shins.
+
+I let my eyes roam the horizon. There was something about sunsets, I realised, that words could never fully capture. The gradual shifting of colour, the way the gold bled into rose, the brief, burning moment when the sun kissed the edge of the earth. It was as though time slowed down just to let us witness this beautiful scene.
+
+Beside me, Maya whispered, “You can tell a lot about life from a sunset.”
+
+I raised an eyebrow, half-smiling. “Oh yeah? Like what?”
+
+She laughed softly. “Like how everything beautiful is fleeting; how you have to stop and notice it, or it slips by before you realise.”
+
+Her words stayed with me as the sun continued its slow descent. I thought of all the moments I had rushed through life: exams, conversations, even entire days spent staring at screens or worrying about the future. Here, now, I was reminded that sometimes the most meaningful experiences were the simplest ones, sitting quietly, watching the world soften into dusk.
+
+As the last sliver of sun disappeared, the first stars began to flicker in the darkening sky. We sat a little longer, letting the cool evening wrap around us. Finally, Maya stood, brushing the grass from her jeans.
+
+“Same time tomorrow?” she asked.
+
+I smiled, feeling lighter. “Definitely.”
+
+And as we walked down the hill, I realised that this, the quiet, the companionship, the shared silence, was the sunset experience I would carry with me long after the colours faded.
+
+> **[mark-scheme]**
+> This is a thoughtful and well-crafted response that fully meets the highest level of the mark scheme. The narrative presents a descriptive and imaginative response. Vocabulary is wide-ranging and precisely chosen, enhancing both atmosphere and meaning. Sentence structures are confidently controlled and varied, creating a natural, fluent rhythm that supports the reflective mood. Punctuation is accurate and used purposefully, shaping the pacing and impact of the response. Overall, this is a perceptive, engaging and skillfully written narrative.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+It was a crisp autumn afternoon when I reunited with my cousins for the first time in years. We had all grown up together, inseparable as children, but time, school and distance had gradually pulled us apart. Now, gathered again under one roof at my grandmother’s house, it felt as though no time had passed at all.
+
+The moment I stepped through the door, the familiar scent of freshly baked bread and roasted chicken wrapped around me like a comforting blanket. My grandmother greeted me first, her eyes crinkling with joy as she pulled me into a warm hug. Behind her, I spotted my cousins, taller now, with deeper voices and broader smiles, but still unmistakably the same people I had once played hide-and-seek with in this very house.
+
+We settled into the living room, where the walls were lined with old family photographs. Laughter echoed around the room as we shared stories of what we had been up to: exams, new jobs, travels and even a few romantic encounters. My younger cousin, Sam, entertained us all with exaggerated tales of his university adventures, causing everyone to laugh with pure joy.
+
+Later, we gathered around the dining table, plates piled high with delicious home-cooked food. As we ate, the conversation flowed effortlessly. We reminisced about the past: the summer holidays we had spent building sandcastles at the beach, the snowball fights in winter and the countless family gatherings just like this one. There was a shared sense of nostalgia, but also an unspoken appreciation that we had made the effort to come back together despite our busy lives.
+
+As the evening drew to a close, we lingered at the table, reluctant to let the night end. Someone suggested taking a group photo and we huddled together, arms wrapped around one another, grinning at the camera. In that moment, I realised how precious these connections were. They are the bonds that time and distance might stretch, but never truly break.
+
+On the drive back home, I reflected on how special the day had been. Life moves quickly and it’s easy to let the months slip by without checking in with the people who matter most. But that evening reminded me that reconnecting, even for just a few hours, can bring a kind of joy that lingers far longer than the moment itself.
+
+> **[mark-scheme]**
+> This is a thoughtful and perceptive response that fully meets the highest level of the mark scheme. The narrative is mature and well developed, demonstrating a clear engagement with the topic. The writer skillfully balances reflection and description, drawing on detailed and subtle moments to convey the significance of reconnecting with family. Vocabulary is ambitious and varied. Sentence structures are confidently controlled, with deliberate use of punctuation to shape meaning and create emotional impact. Overall, this is a well-crafted, sophisticated piece that fully addresses the task and shows strong awareness of purpose and audience.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## January 2023 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+I saw it at the top of the stairs. It was a shape, faint yet undeniable, barely illuminated by the silver moonlight stretching through the window. My breathing paused, my pulse quickened. I strained to make out what it was, to rationalise what I was seeing, but the shape remained — still, unmoving, waiting.
+
+I stood frozen at the bottom step, every instinct telling me to turn away, to run, to dismiss it as imagination. But curiosity overruled caution. Slowly, deliberately, I placed my foot on the first stair. The wooden board let out a faint groan under my weight. I climbed, step by cautious step, eyes fixed on the pale outline at the top. Shadows danced in the corners of my vision and I struggled to keep my breathing steady. My mind offered so many explanations. It is a coat rack, a trick of the light, something simple. Though my heart refused to be convinced.
+
+Halfway up, I paused. The shape wavered slightly, as if responding to my presence. I squeezed the banister, knuckles white and forced myself to keep going. The hush was heavy, the silence only broken by the faint tick of the hallway clock downstairs, each second stretching impossibly long.
+
+As I neared the top, the shape sharpened. It was no longer just an indistinct shadow; it took on a form, a texture. I could make out the smooth curve of a head, the droop of a shoulder. I swallowed hard as my pulse roared in my ears.
+
+“I see you,” I whispered, not even sure why I spoke. Maybe it was to steady myself, maybe to fill the thick silence, maybe to prove to the figure, or myself, that I wasn’t afraid.
+
+No reply. Just the creak of the floorboards under my feet and the cold sweep of air brushing past my face.
+
+Finally, I reached the landing. My hand stretched out, trembling slightly, ready to touch, to confirm what was there.
+
+It was a coat. My father’s old winter coat, heavy and dark, carelessly hung on the stand near the stairs. I let out a shaky breath, half laughing, half scolding myself. The fear drained from my chest, replaced by embarrassed relief. Of course. Just a coat. Just shadows. Nothing more.
+
+But as I turned away, ready to head back to my room, I felt it: the faintest brush of fingers at my shoulder, the softest breath against my ear.
+
+I spun around. The landing was empty. The coat hung, still and undisturbed. The moonlight fell calmly through the window.
+
+I stood there, heart pounding, knowing, somehow, that I had not been alone.
+
+> **[mark-scheme]**
+> This is an effective and confidently written response that fully meets the top level of the mark scheme. The student builds suspense skilfully through controlled pacing, sensory detail and a carefully crafted atmosphere. The language is precise and imaginative, creating tension. Vocabulary is wide-ranging and used thoughtfully to support the tone, while punctuation is accurate and deliberately shaped to enhance meaning. Sentence structures are varied for dramatic effect, balancing short, impactful sentences with longer, flowing descriptions. The story is cohesive and well structured, leading to a well-executed conclusion that leaves a lasting impression on the reader.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your arguments are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**The Best of Friends**
+
+We were inseparable, once.
+
+Ellie and I had been best friends since we were five years old, when she shared her packet of crisps with me on the first day of school after seeing me sitting alone. From that moment, it was as if the world shifted slightly to fit us together. Two halves of one whole.
+
+We grew up side by side: climbing trees, sharing secrets whispered under blankets at sleepovers, laughing until our stomachs ached. At fourteen, we made matching bracelets from old ribbons and promised we’d be best friends forever. It felt unbreakable.
+
+But time has a way of testing promises.
+
+When we started sixth form, things changed. Ellie joined the hockey team, made new friends:  confident, glamorous girls who spent their weekends at parties I was never invited to. I tried to tell myself it didn’t matter. We still met at the café after school sometimes, still messaged late at night. But it wasn’t the same.
+
+One afternoon, I waited for Ellie at our usual table by the window. I watched the rain trace tiny rivers down the glass, checked my phone again and again. No reply. She had promised she’d come. Finally, just as I was about to leave, I saw her rush in. She was laughing, drenched in the rain, surrounded by her new friends.
+
+Our eyes met across the room. She hesitated. For one fragile second, I thought she’d come over. But then one of the girls tugged her arm, pulling her into a booth and Ellie let herself be swept away.
+
+I stood there, invisible.
+
+That night, lying in bed, I thought about all the moments we’d shared. The time we got lost in the woods, the time we stayed up all night talking about our dreams. I wondered if she remembered them the way I did, if they still mattered.
+
+The next day, Ellie texted: Sorry I missed you. Things have just been crazy. Let’s catch up soon.
+
+I stared at the glowing screen for what felt like an eternity, the words blurring as my mind spun through a thousand memories. Finally, I typed back: Sure, let me know when. My finger hovered over the send button, trembling slightly, before I pressed it. I knew, deep down, that something indefinable had already slipped away.
+
+In that quiet, aching moment, a truth settled over me like a heavy blanket: friendship is not always about clinging desperately to what it once was. Sometimes, it is an act of quiet courage. It is recognising when to release your grasp, when to offer the freedom to change and evolve, even if it means accepting the painful reality of drifting apart. To love someone as a friend, I realised, is also to let them go.
+
+I think we shall always remain the truest of friends, though no longer in the manner we once were. And perhaps, in the end, that is as it should be.
+
+> **[mark-scheme]**
+> This is a thoughtful and well-crafted response that fully meets the highest level of the mark scheme. The language is sophisticated and precise, capturing nuanced reflections with subtlety and control. The response demonstrates a deep awareness of tone, using effective vocabulary to explore themes of friendship, change and acceptance. Sentence structures are confidently varied for emphasis and effect and punctuation is used deliberately to shape meaning. Overall, the writing is cohesive, mature and engaging, showing excellent control over language and style.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your arguments are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to stick to one situation and no more than two characters, but make them well-developed
+> - Keep your story realistic; those that are too far-fetched do not score well
+
+### Q3
+### Model answer
+
+I stood at the edge of the stage, heart pounding like a drumbeat in my chest, each thud echoing louder than the last. The thick velvet curtain beside me felt rough under my fingertips, grounding me in the surreal moment. The soft murmurs of the audience floated up like a rising tide, distant yet sharp, carrying with them the rustle of programmes and the occasional nervous cough, like dry leaves swept across a pavement by an unseen wind.
+
+My name was next on the programme, the printed letters glaring up at me from the crumpled sheet clutched in my damp hand. Ink smudged under my thumb. I stared at it, as if by sheer will I could change it, delay it, escape it. But there it was. Unforgiving. Final.
+
+This was it. Months of rehearsals, whispered encouragement from teachers and friends, the quiet hours practising in my room when everyone else had gone to bed, all funnelling into this one moment. And now, all that separated me from the performance was a single breath. But suddenly, that breath felt unreachable, stuck somewhere between my ribs and my rising panic.
+
+A knot tightened in my stomach, hard and insistent. What if I forgot the words? What if I tripped? What if they laughed? A dozen what-ifs clattered through my mind like hail on a tin roof, loud and relentless. My fingers trembled, my knees wobbled, and I felt the first stirrings of nausea. I squeezed my eyes shut, willing the thoughts away, but doubt crept in anyway. It was slow, creeping, patient. It curled itself around my resolve and pulled tight.
+
+Then, a gentle tap on my shoulder. I flinched, startled. It was my best friend. Her presence was a quiet anchor in the storm. She offered a soft smile, her eyes warm with a wordless understanding that needed no translation. She didn’t speak. She didn’t need to. That single look was a lifeline.
+
+I swallowed hard, gave the smallest nod, and turned to face the stage. The lights were blinding, washing everything beyond into a glowing blur, the audience now a faceless sea of anticipation. I took a breath, shaky but real, and stepped into the light.
+
+The first few seconds were like wading through treacle. The words clung to my throat, my voice emerging brittle and unsure. My hands trembled at my sides. But then, something shifted. A note landed just right. A line rang clear. I caught it. I held it. And with it, I found something more.
+
+With each line, each note, I felt the fear begin to fray, thread by fragile thread. My voice strengthened, rising like a tide with the rhythm I knew so well. The tight coil in my chest began to loosen, and I found breath where once there had been only panic. I was no longer drowning in self-doubt. I was swimming in the flow of the performance.
+
+By the time I uttered the final words, I was not the same person who had stood trembling in the wings. I was taller somehow, not in height, but in spirit, standing firmly on my own two feet. As the last note faded into the silence, there was a breathless pause, then a wave of applause that washed over me like warmth after cold. I exhaled, a deep, astonished release, and allowed myself a small, incredulous smile.
+
+Later, sitting backstage beside my friend, the adrenaline fading like smoke after a fire, I realised something. It’s okay to feel unsure. Doubt, uncertainty, even fear, are not barriers. They are stepping stones. Part of the climb. They don’t define your ability; they reveal your courage. Sometimes, all it takes to move forward is one kind look, one quiet reminder that you are not alone, and that you are more ready than you know.
+
+> **[mark-scheme]**
+> This is a skilfully crafted and perceptive response that fully meets the highest level of the mark scheme. The writing demonstrates confident control of language, with carefully selected vocabulary that conveys subtle emotional shifts and atmosphere. Sentence structures are varied and used effectively. Punctuation is precise and deliberately shapes meaning, enhancing the overall fluency and impact. The response shows strong awareness of purpose and audience, delivering a well-paced moment of personal experience that engages the reader thoughtfully and convincingly.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your arguments are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to stick to one situation and no more than two characters, but make them well-developed
+
+## January 2023 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+**I Danced All Night**
+
+The hall was already alive with murmurs and laughter by the time I arrived. Lanterns dripped golden light from the high beams, casting soft shadows across the polished floor. Music wove its way through the air. A delicate arrangement of piano and violin made the air shimmer. I paused at the door, my hand hovering over the edge of the doorframe, suddenly unsure.
+
+Would anyone notice if I turned around and slipped away?
+
+But no. Tonight had to be different.
+
+I stepped in.
+
+A few heads turned, but not in the way I had feared. There were no whispers, no sideways glances. Just a blur of colour and movement, people wrapped in their own joy. I crossed the floor slowly, my shoes clicking gently against the wood. I could already feel the rhythm nudging my feet.
+
+A few heads turned but not with the same scrutiny I had so anxiously imagined. There were no whispers, no sideway glances. Instead, the room unfolded before me like a kaleidoscope of colour and motion. I crossed the floor deliberately, each step measured, my shoes tapping softly against the polished wood. Already, the rhythm, subtle yet irresistible, began to stir within me. It was an insistent pull at my feet, beckoning me towards the dance floor.
+
+She spotted me before I saw her. Her face lit up, eyes crinkling at the corners and she hurried towards me, gracefully.
+
+“You came!” she said, not quite surprised, but pleased.
+
+I nodded. “Didn’t want to miss it.”
+
+We stood there for a moment, surrounded by others in a quiet bubble of our own. I looked around: friends and strangers moving as if carried by something invisible and carefree.
+
+“I don’t know if I remember how,” I confessed quietly, nodding at the dancers.
+
+Her reply was simple: “Then let’s remember together.”
+
+She took my hand, warm and steady and led me to the centre of the room. The music swelled, something familiar and lilting and we moved. Our movements were awkward at first, like people waking from a long sleep. Though slowly, the hesitation faded away.
+
+Laughter came next. At first it was hers, light and free, ringing out like the soft chime of a bell, then mine, surprised and sincere. We turned and stepped and spun, not always in time, occasionally stumbling or missing a beat, but always together. The music wrapped around us, lifting us beyond the room, until the world outside faded and there was only the quiet, shared joy of this moment between us.
+
+One song slipped seamlessly into the next. More dancers drifted in around us and soon I had lost all sense of time, of the steps, of the rules I had once believed I must follow. I was no longer the silent figure lingering at the edge of the room; I had stepped out of the shadows.
+
+Tonight, I belonged.
+
+And I danced all night.
+
+> **[mark-scheme]**
+> This is a well-crafted response that fully meets the highest level of the mark scheme. The student uses sophisticated vocabulary and varied sentence structures to create an effective atmospheric description. The writing is cohesive and fluently organised, maintaining a clear focus and purpose throughout. Punctuation is employed thoughtfully to shape form and meaning, while spelling and grammar are accurate and precise, enhancing the overall impact of the response. Overall, this is a compelling and confident piece that demonstrates strong command of language and narrative technique.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**A Surprise Invitation**
+
+I was halfway through a set of torturous maths problems when Mum’s voice echoed up the stairs.
+
+“There’s something for you on the kitchen table!”
+
+With a weary sigh, I stretched my arms out. I fully expected the usual: an uninspiring school letter, a dentist’s reminder, or perhaps another fundraising leaflet. Yet, when I went down the stairs and entered the kitchen, I stopped.
+
+There, propped neatly up against the fruit bowl, sat an envelope. It was pale blue and my name was elegantly etched in silver ink. I turned it over slowly, frowning: no return address, no familiar postmark.
+
+Intrigued, I pulled out the card inside. The paper was thick, expensive and smelled faintly of jasmine. My eyes searched for the inscription: ‘You are invited to an exclusive evening at the Lakeside Theatre: a celebration of emerging young writers.’
+
+For a moment, I could only stare. My heart was pounding. Beneath the invitation was a small note. ‘Your teacher submitted your short story to the regional competition. We’re delighted to inform you that it has been selected as a finalist.’
+
+I sank into the nearest chair. That story, the one I’d completed one rainy afternoon, never thinking it amounted to much, *that* was the reason for this invitation? I had been so sure that it was, at best, mediocre. I never, ever imagined that anyone would think it worthy of even entering a competition, let alone this.
+
+That evening, as I sat in my room with the card resting gently between my fingers, a strange feeling of excitement and dread swirled within me. My mind conjured up images of the event: a room filled with talented, articulate young writers; an audience hanging on every word. Would I, a quiet student from an ordinary school, truly belong there?
+
+A soft knock at my door interrupted my thoughts. Mum entered, her smile gentle, her eyes warm.
+
+“I saw the letter,” she said, her voice filled with pride. “You should know: I’m incredibly proud of you.”
+
+I looked down at the invitation again, my fingertips brushing the silver lettering. The possibilities shimmered before me — new faces, unfamiliar places, the chance to speak and truly be heard. My thoughts, which had always lived quietly in the margins of my notebooks, might now step into the light. Outside, the sky had softened with the clouds parting just enough to let the evening sun spill across the room. It felt like something was shifting: not loudly, but with quiet insistence.
+
+Tomorrow, I would RSVP. Tonight, I would let the thought settle in my mind: this might just be the beginning.
+
+> **[mark-scheme]**
+> This is a perceptive and well-developed response that fully meets the highest level of the mark scheme. The narrative is crafted with thoughtful detail, using sophisticated vocabulary to capture the narrator’s reflections and shifting feelings. Sentence structures are skilfully varied to control pacing and mood, while punctuation is used purposefully to enhance meaning and fluency. Overall, this is a mature and compelling piece that showcases strong control of language and narrative technique.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to stick to one situation and no more than two characters, but make them well-developed
+> - Keep your story realistic; those that are too far-fetched do not score well
+
+### Q3
+### Model answer
+
+I still remember the weight of the early mornings: the frost etching delicate patterns on the window, and the silence before dawn when the world seemed to hold its breath. It was the summer before my GCSEs, but for me, it felt like a lifetime of effort compressed into a few short weeks.
+
+My brother, Daniel, was the first one up each day. At sixteen, he already knew what it meant to work hard, to carry the weight of responsibility on his shoulders. Dad had fallen ill that year, and Mum was working two jobs to keep the household running. It fell to Daniel to take up a job at the local bakery while studying for his exams. I often woke to the sound of the front door closing quietly as he left for work, careful not to disturb anyone.
+
+I remember one morning in particular. The sun hadn’t yet risen; the air in the kitchen was thick with the smell of yeast and flour as Daniel returned home, his uniform dusted with white powder. His face was pale, dark shadows under his eyes, but he smiled at me when he saw I was awake. “Morning, Ellie,” he said softly, as though he hadn’t just spent the last six hours kneading dough and loading ovens. His hands were rough and dry from constant washing, and the cuffs of his shirt were frayed, but he never complained.
+
+Despite his exhaustion, he would sit at the table with his textbooks open, revising while sipping a lukewarm cup of tea. His handwriting wavered on the page, his eyelids heavy with sleep, but he pushed through, determined to give himself a future. I once asked him how he did it, how he kept going. He shrugged and said, “Because if I stop, who else is going to do it?” There was a quiet, unwavering strength in his voice, a resilience that I admired deeply.
+
+I watched him — inspired but worried. The lines between determination and desperation were etched deeply on his face, yet he kept going. He studied through the day, caught a few hours of rest in the afternoon, and then went back to work in the evening. His world was a cycle of study, work, and sleep, with barely a moment for himself. Even on the rare days when he had a few hours off, he would help Mum with the shopping or cook dinner for the family, always putting others before himself.
+
+On the day of his final exam, he left the house at four A.M. to deliver bread to the nearby shops, came home by seven, and sat his exam at nine. His hands trembled slightly as he packed his bag, but he straightened his shoulders and walked out the door with quiet determination. When he returned home that afternoon, his eyes were red from exhaustion, his steps slow and heavy, but there was a smile on his face — the quiet kind of pride that comes from knowing you gave everything you had.
+
+That evening, as he sat at the kitchen table with a plate of toast and a steaming cup of tea, he looked at me and said, “It’s done now. I did my best.” His voice was barely above a whisper, but it carried a sense of triumph that no amount of exhaustion could take away.
+
+Daniel’s determination taught me that hard work is more than just pushing through tiredness; it’s a silent, steady commitment to something bigger than yourself. It’s the knowledge that even when the odds seem stacked against you, you can still rise, still fight for a better future. And though his hands were rough, his clothes worn, and his face lined with fatigue, to me, he looked stronger and braver than anyone else I knew. His hard work wasn’t just about earning money or passing exams: it was about showing up, day after day, for the people he loved.
+
+> **[mark-scheme]**
+> This is a skilfully crafted response that fully meets the highest level of the mark scheme. The story draws the reader in with vivid and precise details, and the narrative is coherent and focused. The vocabulary is ambitious yet natural, with varied sentence structures and figurative language used to good effect. The response is accurately punctuated and grammatically sound, with precise spelling and clear paragraphing. The reflective tone at the end ties the story to a deeper message about resilience and responsibility, demonstrating maturity and depth of thought.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your arguments are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response, and stick to it, to demonstrate control and structure in your writing
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to stick to one situation and no more than two characters, but make them well-developed
+
+## June 2022 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+The last train had already left. I checked the clock above the station entrance again, as if staring at it hard enough might turn back time. 11:43 p.m. Too late to go back. Too early to call it morning.
+
+The city breathed differently after dark. The day’s urgency had thinned out and was replaced by something slower and more uncertain. I pulled my coat tighter around me and started walking. The streets, once choked with traffic and chatter, now echoed with the occasional blur of headlights and the crunch of tyres on wet tarmac. A faint jingle of a bell sounded somewhere behind me. A cyclist passed too fast to be seen clearly.
+
+I kept moving. The shopfronts stood like sealed mouths as I moved past, avoiding puddles that captured fragments of neon light, distorted and rippling with every gust of wind. It had been years since I’d walked these streets. I had promised myself I never would again. But tonight, I didn’t have a choice.
+
+Fairy lights and shadows adorned the market square as it came into view. In the centre stood the Christmas stall I used to visit with my mother. Back then, it had smelled of sugared almonds and pinewood. Tonight, the scent was fainter and more distant, as though someone had tried to bottle a memory and then left the lid off too long.
+
+I stopped near the corner where we always stood. She would warm my hands with hers and tell me that nothing bad ever lasts. I had believed her then. I believed her still, though she had been gone for three winters now. Grief, I had learned, is quiet company. It does not shout. It walks beside you, silent and patient, until you find your own words.
+
+A woman stood ahead, her face pale in the fairy lights. For a second, I thought I recognised her. Something about the way she stood looked familiar. Still, it wasn’t her. Just a stranger, lost in her own story. I held her gaze a moment longer than I meant to, then turned away.
+
+Shops slipped by as I walked on, the strings of light reflected in every surface. The air was cold, but not bitter. The silence was not empty, but full of possibility. I had come back to this city fearing it would break me. But it didn’t. Not quite. It reminded me of who I had been and what I had carried with me all this time.
+
+As I reached the end of the street, I glanced back one last time. The windows glowed like memories. Now, the square lay still and silent. The figures were drifting away like ghosts. And in that moment, I realised something simple and true.
+
+At night, it looked completely transformed.
+
+> **[mark-scheme]**
+> This is a sophisticated response with a clear narrative arc and the final sentence is effective and meaningful. The story is carefully structured into cohesive paragraphs that guide the reader through the stages of the narrator’s experience. It also uses extensive and sophisticated vocabulary with accurate spelling and grammar. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Remember, the images are there for inspiration; it is not a requirement of the question to use either of them
+> - Try not to be too overtly complex in your response; sometimes simple is best
+> - Try to vary your use of punctuation and sentence structures for effect
+
+### Q2
+### Model answer
+
+It should have been a simple hike. A gentle trail winding through pine and heather, birdsong echoing off the hills and a freshness in the air that made the world seem reborn. I was not looking for adventure. I only wanted silence. Space. A few hours where no one could ask how I was feeling, or tell me what they thought I should be doing.
+
+I did not tell anyone where I was going. I left a note on the kitchen counter, scribbled quickly: "Gone walking. Back before dark." I zipped my coat, packed a flask and set off. The path I followed cut through a quiet stretch of woodland. The trees arched above me like the ribs of some ancient cathedral. Sunlight streamed between the branches and I let myself breathe more deeply than I had in weeks. Every footstep felt steady, measured. The world seemed calm and reliable. But only for a while.
+
+By the time I realised how far I had walked, the sky had started to shift. The light thinned and a mist began to creep through the trees. At first it was delicate, almost beautiful, blurring the edges of the path like soft pencil smudges. Then it thickened. Soon, the trees were gone, swallowed by the distance. I turned back, or at least I thought I did. But every tree looked identical. Every direction seemed unfamiliar. My hands began to shake as I pulled out my phone. No signal. The compass app spun meaninglessly.
+
+I quickened my pace, hoping to retrace my steps. The faster I walked, the less certain I became. Branches clawed at my arms and damp leaves clung to my boots. My breath came shorter now, not from exertion but from panic. Then I tripped. One moment I was upright, the next I was sprawled in the undergrowth. My head slammed against something solid and a burst of pain exploded behind my eyes. I lay still for a moment, dazed and half expecting the forest to swallow me whole.
+
+The cold nipped at my cheeks. My lip was bleeding. But slowly, I pulled myself upright. I didn’t know which way to go, only that I could not stay where I was. I walked again, this time more cautiously. Then I saw it. A scrap of red caught on a branch ahead. My scarf. I remembered it slipping from my neck earlier. My heart pounded as I reached for it. I was not safe yet, but I had found something familiar. A thread to follow back through the maze.
+
+Stumbling into the car park an hour later, I found it was almost dark. The fog had lifted just enough to reveal the faint outline of the road. My car was there, waiting, like it always had been. I sat inside for a long time, shivering and muddy, staring at my scratched hands on the steering wheel. No one knew how close I had come to being truly lost. Not just in the woods, but inside myself.
+
+Looking back, I wonder if the forest had not been a trap, but a test. A place that forced me to stop running from everything I was afraid to face. That day gave me more than a scare. It gave me a kind of proof. Proof that I could endure fear, pain, confusion and still emerge intact. I escaped something far deeper than a forest that day. I escaped the idea that I was not resilient enough to find my own way back.
+
+> **[mark-scheme]**
+> This is an effective response with a clear narrative arc and a balance of narration and description. The story is carefully structured into cohesive paragraphs that guide the reader through the stages of the narrator’s experience. It also uses extensive and sophisticated vocabulary with accurate spelling and grammar. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original; avoid a simple re-telling of events
+> - Try to vary your use of punctuation and sentence structures for effect
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+It began in early October, just as the leaves were starting to curl and fall like forgotten paper notes along the pavement. I remember the morning clearly: grey light filtering through the blinds, the usual shuffle of shoes in the hallway and the distinct, dreadful feeling that something wasn’t quite right. My head throbbed, my limbs ached as though they had been carrying someone else’s weight. I had a fever; the thermometer confirmed it. By lunchtime, I was tucked back into bed, the school day continuing somewhere far from me.
+
+At first, being off school felt like a holiday in disguise. My mother brought toast triangles and warm squash on a tray. I stayed wrapped in blankets, watching cartoons through half-lidded eyes. Messages from friends lit up my phone: “Lucky you!”, “Hope it’s not serious” and the classic “Get well soon but enjoy the lie-ins.” I did enjoy them, for a while. I read, I slept, I daydreamed. I imagined the world going on without me, my seat in class a silent, awkward absence.
+
+But after a few days, the silence became louder than any school corridor ever had been. The rhythm of the house was different during school hours. The walls creaked more. The birds outside sounded sharper, almost intrusive. I began to notice how the day stretched, long and uneventful, like a road without a turning. I missed the noise, the structure, even the teacher’s dry voice repeating dates I thought I would never need. Most of all, I missed being part of something.
+
+As the illness lingered, restlessness settled in. My mind started playing games — the “what if” kind. What if I fell behind? What if my friends forgot me? What if I returned and everything had changed, even just a little? My mum tried to keep me connected. She brought home worksheets with encouraging post-it notes from my teachers, who had scribbled things like “We miss your energy!” and “Get better. We need your questions.” My best friend dropped off a bag of snacks and a hand-drawn comic strip of our entire friendship. It made me laugh for the first time in days.
+
+Returning to school was harder than I had anticipated. I walked through the gates like someone visiting a town they had once lived in. It felt familiar, but distant. In class, people smiled and I returned the gesture, but I felt like a page that had been turned too soon. Slowly, though, I found my place again. All that I’d missed was neatly summarised and passed to me by my maths partner. The librarian asked if I wanted to start my book club again. Things clicked into place, not perfectly, but enough. Enough to remind me I was still part of something.
+
+That week away taught me that absence is not just silence. It is space. And in that space, you begin to see what you took for granted — not just school, but the chatter, the learning, the sense of belonging. Coming back felt like opening a book to the right page after nearly losing your place and realising the story had always waited for you.
+
+> **[mark-scheme]**
+> This is an effective response which builds emotional depth through quiet, understated moments rather than dramatic events. It contains a strong emotional arc, with a mature tone, suitable for a personal narrative. It also uses extensive and sophisticated vocabulary with accurate spelling and grammar. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## June 2022 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+The festival was crowded that night. Every inch of the fairground seemed to glow, pulsing with colour and noise. Music drifted through the air in waves, rising above the clatter of rides and the shouts of children holding candyfloss like trophies. Strings of bulbs crisscrossed the sky like constellations and the scent of sugar, popcorn and engine oil hung thick over the crowd. I moved through it all, shoulder to shoulder with strangers, caught in the current of people weaving between stalls. To my left, the carousel spun slowly, its golden poles catching the light. To my right, the rollercoaster roared to life, a ribbon of motion against the evening sky. Everything was loud, fast, dizzying.
+
+And I loved it.
+
+It had been five years since I had last been here. Five years since the summer when everything changed. Back then, I had stood in this same place with Noah, laughing until our stomachs ached as we dared each other onto every ride. We were only thirteen, but we felt fearless. That was before he moved away. Before phone calls faded into silence and postcards stopped arriving altogether.
+
+Tonight, I had come alone. Not because I planned to, but because I needed to. I told myself I was just curious; that I wanted to see if it still looked the same. But now, standing in the glow of the lights, I knew I had come looking for something.
+
+I wandered past the game stalls. Bells rang and voices called out promises of prizes. A boy won a giant bear and handed it to a girl who looked like she was trying not to smile too hard. Nearby, a magician pulled scarves from his sleeve for a cluster of toddlers too young to know the tricks were simple. I paused at a stall where glass jars held tiny goldfish. I remembered how Noah had won one once and how it lived for exactly four days before we had to flush it, laughing and guilty all at once.
+
+Eventually, I reached the edge of the field, where the rides gave way to food stands and picnic tables. I sat down with a cup of lemonade and let the sound wash over me. The sky had turned a deep blue and the lights glowed brighter now. A cool breeze lifted the edges of the tablecloth and for a moment, everything felt suspended. Not the past, not the future. Just now.
+
+Then I heard it. A voice behind me, uncertain but familiar.
+
+“Is this seat taken?”
+
+I turned. He hadn’t changed much. Taller, maybe and his hair was shorter. But the grin was the same. The one I hadn’t realised I had missed so much until that moment.
+
+“No,” I said. “Not taken.”
+
+He sat down and for a while, we didn’t talk. We didn’t need to. The silence was full of everything we had shared and everything we might still find. Around us, the festival spun and flashed and laughed.
+
+And for the first time in years, I felt like I was exactly where I was supposed to be.
+
+> **[mark-scheme]**
+> This is an effective response which focuses clearly on a memorable emotional experience. It explores themes of nostalgia, friendship and reconnection with a reflective tone. Each paragraph builds meaningfully, using time shifts and physical movement through the setting to develop character and mood. Imagery is rich and natural and there is a wide range of sentence types. It also uses extensive and sophisticated vocabulary with accurate spelling and grammar. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing; long responses are often less successful and lack organisation and structure
+> - Remember, the images are there for inspiration; it is not a requirement of the question to use either of them
+> - Try to control your narrative and use interesting descriptions
+> - Try to vary your use of punctuation and sentence structures for effect
+
+### Q2
+### Model answer
+
+**My Greatest Memory**
+
+It began with a map. Not the paper kind, folded into squares and faded with time, but one drawn in crayon on the back of a cereal box. My cousin Tom had created it the night before, using green for trees, blue for rivers and a large red X in the far corner labelled “Treasure”. We were staying with our grandparents that summer, in the countryside where phone signals barely existed and mornings smelled like warm milk and grass. With no screens, no plans and no adults hovering too closely, we made our own fun. And that map, clumsy and crooked as it was, gave us purpose.
+
+After breakfast, we packed supplies into a plastic lunchbox: two apples, a handful of jelly beans and half a bottle of lemonade. We added a pencil (in case we needed to draw anything), a torch (though it was only ten in the morning) and a pocketknife that neither of us was technically allowed to use.
+
+Then we set off.
+
+The garden was our jungle, the tool-shed a fortress, the pond a dangerous swamp we had to leap across using flat stones. Every familiar thing became something more. The woods behind the house, which usually seemed small and manageable, stretched into an unknown world once we stepped into them with the map in hand.
+
+We followed the trail as carefully as we could, arguing over whether the “three trees in a row” meant oaks or birches and whether the “shimmering pool” referred to the puddle or the actual stream. Tom took the lead, waving the map in front of him like a compass. I carried the box, gripping it tightly in case we ran into danger. Eventually, after crawling through brambles and ducking under low branches, we reached the place. A clearing, sunlit and soft underfoot, with a ring of stones in the centre. We looked at each other and grinned. This was it. The treasure.
+
+We dug with our hands, laughing and flinging clumps of soil behind us. After a few minutes, we uncovered it: an old tin filled with notes, shells and scraps of things from the past. A plastic dinosaur, a paperclip chain and a photograph of two children I did not recognise. Someone else had been here before us. Someone had buried their own treasure, long ago and left it for us to find.
+
+We sat in that clearing for what felt like hours, eating our jelly beans and reading the notes, imagining the lives of the people who had left them. I remember the way the light moved through the trees, and how Tom turned to me and said, “We should leave something too.” So we did. A button from my coat, a joke we wrote on the back of a receipt, and the map itself, folded carefully and tucked inside.
+
+That day, we returned to the house scratched, muddy and full of a kind of happiness that didn’t need explaining. We never told the grown-ups what we had found. It was ours to keep.
+
+Even now, years later, when I am caught in the blur of work and noise and endless screens, I sometimes think of that clearing. The sunlight through the leaves. The quiet magic of a treasure we had not expected. And that feeling of being exactly where we were meant to be.
+
+That is my greatest memory.
+
+> **[mark-scheme]**
+> This is an effective response which tells the story of a vivid, personal and meaningful memory. It shows how an ordinary event can become memorable and presents a warm and nostalgic tone with a strong narrative flow. Vocabulary is precise, creative and controlled and sentences are clearly structured, varying in length. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Think about how your story will end before you start writing
+> - Think about how your reader will react to what you have written
+> - Include a sense of purpose and audience throughout your response
+
+### Q3
+### Model answer
+
+It began with a forgotten piece of oak, left leaning against the garage wall for years. It was faded, rough-edged and speckled with old flecks of paint. Most people would have thrown it out without a second glance. My grandfather, however, saw potential in its weight and grain.
+
+He didn’t explain what he was doing. One Saturday morning, I found him kneeling beside it, sandpaper in hand, smoothing the surface with slow, steady strokes. The sunlight caught the dust rising around him, turning the air golden. When I asked what he was doing, he paused and looked up for a moment.
+
+“Making something,” he said simply, then returned to work as if the answer explained everything.
+
+As the days passed, the project began to take shape. I watched him in the garage each afternoon, surrounded by curls of wood and old tools. He measured lengths of timber against the concrete floor and marked them carefully with a pencil held between his teeth when his hands were full. Each time he sawed or hammered, he did so with quiet certainty. He was not fast, but he was deliberate. He sanded every piece by hand, running his fingers across the grain as though listening to what the wood had to say. The legs came first. At one point, one was slightly shorter than the rest and the table wobbled. I expected frustration, but he only nodded thoughtfully, unfastened the leg and began again.
+
+“You don’t force it,” he said. “You learn how it fits.” His voice was calm, almost thoughtful, as if he was teaching more than just carpentry.
+
+Once the pieces were ready, he joined them together, tapping each nail into place with a kind of rhythm, not mechanical, but almost musical. The glue smelled sharp and the clamps squeaked as he tightened them across the frame. Slowly, a table emerged. The wood darkened as he rubbed it with varnish, bringing out the deep lines and swirls in the grain. I had never thought about how much character a piece of wood could have until then.
+
+When the table was finished, we carried it into the kitchen together. It was heavier than I had expected. The legs scraped lightly against the tiled floor as we positioned it beneath the window, where the morning light always fell. It didn’t look new or shiny like something from a showroom. It looked lived-in, real, as though it had been there for years and was just waiting to be remembered.
+
+That evening, we ate dinner at it for the first time. Just the two of us. The food was simple, but there was something about that moment that felt complete. He didn’t speak much, but I noticed how his hand rested on the corner of the table, fingertips tracing the edge slowly. When I asked if he had built furniture before, he shook his head.
+
+“First time,” he said, and after a pause, added, “Maybe the only time.”
+
+But I didn’t believe him. He had always been someone who made things, even if they weren’t made from wood. He made repairs when things broke. He made quiet jokes when the room felt too still. He made time for me when no one else did. The table was just something I could see. The rest had always been there, shaping the days we shared without needing to be noticed.
+
+Now, years later, the table still sits in our kitchen. It has scratches from keys, faded spots where hot pans were placed too quickly and a dent from when I dropped my schoolbag too hard. But beneath all of that, it still holds what he made. Not just a piece of furniture, but something steady, lasting and full of care.
+
+> **[mark-scheme]**
+> This is an effective response which consistently addresses the task. It details a time someone made something, not only physically but also emotionally. The narrator reflects on the event with a thoughtful, calm and reflective tone. The writing is controlled with a wide variety of sentence lengths and types for effect and the vocabulary is well-chosen, appropriate and often poetic. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original, but keep your writing believable
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## January 2022 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+Was it really him? The figure emerged from the shadow just as the last note of the church bell faded into silence. Tall, precise and impossibly familiar. Was it really him? The top hat, the polished shoes, the crisp silhouette; it all mirrored someone I had buried in my memory like a sealed box at the bottom of a dark attic.
+
+I stopped walking, my footsteps suddenly loud in the narrow alleyway, bouncing off the damp walls like echoes from another time. The figure ahead moved with purpose, yet without urgency. He turned a corner, not looking back, his long coat trailing behind him like smoke. My throat tightened. I should have turned back. But I didn’t. I couldn’t.
+
+I followed him through a maze of alleys I didn’t recognise, even though I had lived in this city all my life. The buildings seemed to close in, their crumbling walls pressing closer with every turn. The streetlights were dim, casting more shadow than light. I thought of my grandfather’s stories, the ones he used to whisper after dinner. About men who vanished, lured into old city paths that had not existed on any map for decades. About him, the Watchman.
+
+It had been ten years since I had last seen that shape. Ten years since my brother had disappeared on a fog-heavy winter’s night, chasing the same figure into the dark. No body. No note. Just an empty coat on the riverbank. We had tried to accept the worst, but some questions never fade with time. Some wounds never heal.
+
+The alley opened into a forgotten courtyard, surrounded by buildings leaning like tired giants. In the centre stood the figure, framed by a shaft of light falling from a broken window above. His face was turned slightly, just enough to reveal the line of his jaw, sharp and pale. My breath caught. That face, thinner, older, but unmistakable.
+
+“Thomas?” I whispered.
+
+He didn’t flinch. Instead, he reached into his coat and drew out a pocket watch, the same one that used to tick on our fireplace mantel every Sunday morning. He held it up, the silver glinting unnaturally in the half-light and for a moment, all sound fell away. No wind. No footsteps. No heartbeat. Just the ticking.
+
+“You were never supposed to follow,” he said, his voice cracked and hollow, as though it had been unused for years. “But now that you have, you can’t go back.”
+
+My mind whirled with questions, but before I could speak, he turned and walked through a door I hadn’t noticed before, vanishing into blackness as thick as velvet. I ran after him, calling his name, but there was nothing. Just cold air, dust and silence.
+
+Later, when I told the police, they said there was no such courtyard, no such alley, not even an open case for Thomas anymore. Just an old report marked “presumed drowned.” But I know what I saw. I remember the way the shadow clung to him, the sound of the watch and the certainty in his voice.
+
+And I still walk those streets at night, chasing echoes. Hoping that next time, when I turn the corner, it won’t just be a shadow in a hat.
+
+> **[mark-scheme]**
+> This is an effective response with a clear link to the opening line and a creative use of the first image. The narrative is focused and engaging, developing a supernatural mystery tied to a personal, emotional backstory. The atmospheric, suspenseful style is well-suited to the audience and each paragraph builds upon the last, guiding the reader through the journey without confusion. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Remember, the images are there for inspiration; it is not a requirement of the question to use either of them
+> - Take care throughout your response with accuracy in spelling, grammar and punctuation
+> - Be ambitious in your structure, vocabulary and range of ideas; try to be creative and original
+
+### Q2
+### Model answer
+
+When the last train pulled into Virex Central, the platform was deserted, save for the flickering overhead lights and the distant clatter of a loose metal sign swaying in the wind. I stepped out into the silence, suitcase in hand, greeted by a heavy sky that loomed like a lid pressing down on the city. They called it "The Dark City," not because the sun never rose, but because when it did, it hardly seemed to matter. Light here was thin, fragile, as if scared to touch the streets too long.
+
+I’d returned after ten years, pulled back by a letter written in my brother’s unmistakable scrawl: *Come home. It’s time you knew the truth.* It was unsigned, postmarked from a place I had spent a decade trying to forget. Virex had once been a jewel of progress, its skyline filled with promise and its undergrounds buzzing with invention. Now it was a relic, half-buried beneath ash and rumours, spoken about in hushed tones, if at all. The city didn’t die. It decayed.
+
+The taxi driver refused to take me into Sector Nine.
+
+“No one goes that way anymore,” he muttered, avoiding my gaze. “That place is cursed.” His voice broke like glass under pressure.
+
+I offered him extra, but he shook his head and drove off the moment I stepped out. So I walked. The wind bit at my coat as I made my way past rusting lamp posts and shattered bus shelters. As I passed the old cinema, the air thickened, taking on a metallic tang that clung to my tongue. Posters for films, never released, peeled from the walls like dried skin. Windows were boarded up with rotting planks, tagged with cryptic words: “REMEMBER,” “WRONGED,” and “DO NOT ENTER.” The further I walked, the more the city seemed to lean in around me, as though listening.
+
+At my childhood home, the door creaked open before I even knocked. A candle burned inside, casting long, liquid shadows across the hall. The wallpaper was the same, though the flowers had faded to grey. My brother stood there, gaunt and unshaven, his eyes sunk deep into shadowed sockets. It was like looking at a ghost that still breathed.
+
+“They’re still watching,” he whispered, yanking me inside. “The city never let us leave, not really.” His voice trembled, not with fear, but fatigue.
+
+He spoke of the Virex Power Syndicate, once hailed as pioneers, now only mentioned in broken conversations. Their final experiment had gone wrong. Not just a blackout or a collapse, but something deeper. They had tapped into something below the city, something not meant to be found. And when they tried to hide it, the city changed.
+
+The blackout came at midnight.
+
+Sirens wailed without rhythm, their cry cutting through the darkness like a warning long overdue. From the upstairs window, I watched as the city convulsed. Streetlights shattered in a chain reaction, each one sparking out in a domino of blue fire. The sky, once slate grey, now burned with an unnatural orange glow that rippled like a living thing. From the subway grates, a thick, humming fog began to rise, glowing faintly and pulsing like a heartbeat. It was moving, searching, seeping into alleyways and empty homes.
+
+“They’re waking it,” my brother said, pressing something into my hand. It was a flashlight, small and cracked, but still functional. “We have to finish what they started, or no one else will leave this place alive.”
+
+We stepped into the dark together. Behind us, the city whispered our names.
+
+> **[mark-scheme]**
+> This is an effective response which creates a vivid and intriguing narrative that explores both the literal and metaphorical darkness of the city. The structure includes a mysterious opening, rising tension and a climactic revelation, encouraging the reader to stay invested. The pace is controlled and the vocabulary is carefully chosen and sophisticated. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Think about how your story will end before you start writing
+> - Ensure you have used a consistent tense throughout your story
+> - Try to leave 5 minutes at the end to go back and re-read what you have written, checking for any obvious mistakes
+
+### Q3
+### Model answer
+
+It started with a rumble. Low at first, like distant thunder rolling across the hills, then rising sharply beneath our feet until it filled the metal frame around us with a deep, vibrating growl. I gripped the safety bar tighter, my fingers locking around it like claws, knuckles paling with pressure. The car jerked forward, beginning its slow, clattering climb up the track.
+
+“Still think this was a good idea?” Zara shouted, her voice half-lost in the wind as it whipped her hair into her face.
+
+I tried to laugh but could only manage a nod. The steel chains groaned under the weight of the ride as we were dragged higher and higher. Below us, the world fell away. The crowd shrank to a blur of colour and movement — tiny figures darting between stalls and flashing lights, the smell of fried onions and popcorn drifting faintly upwards. The sky above was streaked with orange and pink, the last light of evening fading into dusk. As we climbed, the wind grew colder, brushing against my skin like icy fingers. The air grew thinner, sharper. Each click of the track beneath us echoed louder, more distinct.
+
+At the summit, everything stopped.
+
+We hovered there, still and silent, suspended high above the park. It felt like time had paused. I could see the coastline glittering far away, where the sea caught the fading light like broken glass. The clouds had cleared, revealing a wash of soft stars just beginning to emerge. For a moment, it was quiet, almost peaceful.
+
+Then came the drop.
+
+It wasn’t a smooth descent. It was violent. Instant. The track vanished beneath us and we plummeted, free-falling into a blur of air and light. My stomach flipped inside out. Wind screamed in my ears. My voice caught in my throat. All I could do was hold on, eyes wide open, as we plunged through space.
+
+The rush was overwhelming. Every nerve was awake. Every sound, every flash of light, every shift in motion burned itself into my memory. We twisted through tunnels that glowed red and blue. We whipped around corners that snapped our heads sideways. I could feel the pressure of the g-forces pushing me into the seat as we looped and rolled. The rails blurred. The world spun.
+
+And somehow, I started to laugh.
+
+The kind of laughter that comes from sheer adrenaline, from the edge of fear and thrill meeting in one impossible moment. I glanced at Zara. Her arms were raised high, hair flying wildly behind her, mouth open in a scream that turned into a laugh halfway through. Her eyes sparkled with something wild and unstoppable.
+
+When the ride finally slowed, gliding back into the station with a hiss and clunk, I could barely speak. My legs trembled as I stepped onto the platform. My heart was still pounding like a drum in my chest. I felt alive in a way that was rare and hard to explain.
+
+Zara turned to me, flushed and breathless. “Again?” she said, with a grin that dared me.
+
+I grinned back. “Absolutely.”
+
+That moment wasn’t just about the rollercoaster. It was about letting go. About facing something that scared me and realising the fear was part of the fun. The excitement wasn’t only in the speed or the height — it was in the trust, the risk and the freedom of letting the world drop away beneath you and choosing to fly through it anyway.
+
+> **[mark-scheme]**
+> This is an effective response which consistently addresses the task. The excitement is shown not only through external action, but also through internal emotion and the tone is both reflective and energetic. The writing is controlled with a wide variety of sentence lengths and types for effect and the vocabulary is well-chosen, appropriate. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original, but keep your writing believable
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## January 2022 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+It was an unusual gift. Not the kind of unusual that makes you gasp in delight, but the kind that makes your eyebrows twitch and your mouth hover awkwardly between a smile and a scream. It arrived on my doorstep at 6:42 a.m., suspiciously early for any delivery and roughly the size of a washing machine.
+
+There was no note. Just a massive red bow and a faint hum coming from inside.
+
+I circled it twice, like a cat deciding whether to pounce or run. My mum, of course, assumed it was for her. She put the kettle on and said, “Probably that new foot spa I mentioned to Aunt Jean. She always goes overboard.”
+
+It was not a foot spa.
+
+Just as I reached for the ribbon, the box wobbled. Then it shook. Then it jumped, sprouting two legs in thick woollen tights and a pair of scuffed brown boots. I let out a sound that was half scream, half sneeze and stumbled backwards onto the recycling bin.
+
+The box stood upright, swaying slightly. Then, without warning, it took off running.
+
+Down the path. Across the road. Straight through the town centre.
+
+I don’t know why I followed it. Instinct, maybe. Curiosity. Or maybe I was still half asleep and thought I was dreaming. Either way, I ended up sprinting down Market Street in my pyjamas, chasing a large, fully conscious gift box with an unexpectedly impressive stamina.
+
+Shoppers stopped and stared. A dog barked. A child clapped.
+
+The box took a sharp turn past the bakery and darted onto the zebra crossing, narrowly missing an elderly man on a mobility scooter. It skidded past the bus stop, hopped over a traffic cone and vanished into the entrance of the leisure centre.
+
+I burst through the automatic doors, gasping for breath. Inside, the receptionist blinked at me as if I were the one wearing cardboard.
+
+“Box?” I managed to wheeze. “Big… legs… red bow?”
+
+She pointed to the swimming pool.
+
+And that’s where I found it.
+
+Floating calmly on a giant inflatable flamingo, the box was bobbing in the shallow end as if this had been the plan all along. Several swimmers, goggles halfway down their faces, watched in stunned silence.
+
+I approached slowly. Carefully. Like one might approach a slightly unpredictable cousin at a wedding.
+
+“I don’t know what you are,” I said. “Or who sent you. But I want answers.”
+
+The box said nothing. It just floated.
+
+Eventually, the leisure centre manager came over and declared the pool temporarily closed due to “unexpected parcel activity.” I was escorted out with a complimentary voucher for aqua aerobics and a very serious warning about practical jokes.
+
+When I got home, the box was gone.
+
+In its place was a small card on the doorstep. It read:
+
+“To Leo:
+ Life was getting a bit dull, wasn’t it?
+ You’re welcome.
+ — The Department of Mild Chaos.”
+
+I looked around. Nothing but the faint sound of distant clapping and the smell of someone’s burnt toast.
+
+Since then, things haven’t quite gone back to normal. Last week, a vending machine started offering life advice instead of crisps. Yesterday, I received a parcel containing only a single shoe and a note that said “Wait for it.”
+
+So yes, it was an unusual gift.
+
+But I think I might have needed it.
+
+> **[mark-scheme]**
+> This is an effective response with a clear link to the opening line and a creative use of the second image. The narrative is focused on an original and quirky situation, with elements of absurdity, dry wit and unexpected details keeping it engaging. The language used is varied and precise and punctuation is accurate and deliberate. A fun and original response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Remember, the images are there for inspiration; it is not a requirement of the question to use either of them
+> - Take care throughout your response with accuracy in spelling, grammar and punctuation
+> - Be ambitious in your structure, vocabulary and range of ideas; try to be creative and original
+
+### Q2
+### Model answer
+
+**Everything Had Changed**
+
+I still remember the sound of tyres crunching over the wet gravel as the taxi pulled away, leaving me alone at the gate. Rain had just passed and the clouds were still hanging low, heavy and grey like a damp curtain across the sky. I stood there for a moment, looking at the house, or what was left of it, and felt something twist in my stomach. The nameplate was still nailed to the brick wall, rusted at the corners: *Harris*. Same as always. But the paint had flaked and ivy had started to crawl across the front steps, as if nature had decided to reclaim what we abandoned.
+
+I pushed open the gate. The hinges squealed in protest. The path was overgrown, the weeds tall and wet against my jeans. I hadn’t been back to our old house in Norfolk since the fire. That was nearly a year ago.
+
+They told me it wasn’t my fault. Electrical fault, they said. A spark behind the walls, something no one could have known about. But I had lit the candle. I had fallen asleep watching the telly on the sofa. I had left the kitchen window open and the breeze had done the rest.
+
+People were kind, at first. Neighbours brought food, teachers spoke gently and Gran moved in to take care of me. But none of that brought back the way things were. The house had held more than bricks and beams. It had held laughter, like Dad singing badly while doing the washing up, or Mum dancing across the kitchen tiles in socks and the smell of roast chicken and rosemary that always filled the air on Sundays. Now, there was only silence and ash.
+
+Inside, the air was colder than I expected. It smelled of old wood, damp stone and something else, a faint trace of smoke that refused to leave. The wallpaper peeled in strips and the ceiling was stained with grey streaks from rainwater that had found its way in. I walked slowly through each room, my footsteps muffled by layers of dust and broken memories.
+
+My bedroom door was jammed. I had to push hard to get it open. The carpet was ruined, but the wardrobe still stood, warped but solid. And there, behind a stack of charred schoolbooks, I found it. My old sketchbook. The one I thought had gone up with everything else. The cover was curled at the edges, but most of the pages had survived. I sat on the floor, knees against my chest and opened it. There were drawings of everything, like the dog from next door, the church steeple across the fields and my parents sitting on the bench at Cromer beach, smiling. I had drawn them from memory and now here they were, smiling again.
+
+That’s when it hit me. Everything had changed. The house, the routines, the people I came home to. But sitting in that room, I realised I wasn’t the same either. For months after the fire, I couldn’t pick up a pencil. I couldn’t face my own reflection. But here, with the smell of rain and smoke around me, something stirred. A quiet voice inside me whispered that maybe I was still here. Maybe not everything was lost.
+
+I stood, clutching the sketchbook. I didn’t take anything else. Outside, the sky was starting to clear, a streak of pale blue cutting through the grey. The taxi would come back soon.
+
+Everything had changed. But I had survived. And for the first time in a long while, that felt like enough.
+
+> **[mark-scheme]**
+> This is an effective monologue with a focused and developed storyline. The reflection at the end ties the title to the narrator’s personal growth, showing how change affects identity. The contrast between past and present is handled with subtlety, showing the impact of loss without exaggeration. Written in the first person, the monologue draws the reader into the narrator’s private thoughts and emotions.The pace is controlled and the vocabulary is carefully chosen and sophisticated. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Think about how your story will end before you start writing
+> - Ensure you have used a consistent tense throughout your story
+> - Try to leave 5 minutes at the end to go back and re-read what you have written, checking for any obvious mistakes
+
+### Q3
+### Model answer
+
+The forest was alive with sound. Leaves whispered secrets above my head, branches cracked in the distance and the river below roared like it had something to prove. I adjusted the straps on my backpack and took a deep breath. The map said the trail ended here, but the narrow dirt path clearly continued, winding up through the trees and disappearing into the mist.
+
+“You’re not seriously going down there?” Josh asked behind me, his voice half-laugh, half-doubt.
+
+“I am,” I said, trying to keep my voice steady. “We came to find the falls, right? That’s where they are.”
+
+We had planned this hike for months. The Three Sisters Falls were supposed to be the most breathtaking sight in the valley, hidden deep in the woods where only a few people had ever reached them. They weren’t marked on any official trail. The only clues we had were from an old blog post, a scratched compass and a faded trail sketch I found in a second-hand travel bookshop. Most people turned back at the ravine. It was steep, narrow and slippery. But I couldn’t. Not after coming this far.
+
+The descent began with a slope of loose soil, which gave way under our feet like sand on a cliff. I slid twice before finding a branch to hold onto. Below us, the sound of water crashing against rocks grew louder. Josh followed behind, muttering about sprained ankles and broken bones. The air was thick with damp earth and pine, and the light was dimmed by the tree canopy above. My heart thudded in my chest. Part of it was the climb, but part of it was fear. There was no signal, no clear trail markers and no one around to help if something went wrong.
+
+Halfway down the slope, we heard it. A low, rumbling growl. Not from the river. From behind us.
+
+We froze.
+
+A wild dog stood on the trail above, its fur matted, ribs showing beneath its skin and its eyes fixed on us with a look I will never forget. Its lips curled back to reveal sharp yellowed teeth. It didn’t bark. It just stood there, muscles rigid, as if deciding whether we were a threat or a meal.
+
+I reached slowly for the walking stick I had packed. I didn’t know what I would do with it, only that I had to look brave.
+
+Josh whispered, “Don’t run. Just stay still.” So we did. The seconds stretched into something longer. My palms were sweating and every instinct in me screamed to back away.
+
+Then, without a sound, the dog turned and disappeared into the trees.
+
+We stayed frozen for a while longer, hardly daring to breathe. When we finally moved again, it was in silence. We pressed on, down the rest of the trail, our muscles tight, senses alert to every rustle and twig snap. The only thing that kept us moving was the sound of water, growing louder with every careful step.
+
+Eventually, the trees opened and there they were — the Three Sisters Falls.
+
+Three enormous cascades thundered down the jagged cliff face into a clear, deep pool below. Mist floated into the air like silver smoke and where the sunlight broke through the branches, it turned the spray into tiny, glittering rainbows. I had never seen anything so wild, so powerful, or so beautiful. It felt like we had stepped into a secret world.
+
+On the way back, I kept thinking about the trail, the growl and the moment when I had nearly given up. I had been scared. I had wanted to turn back. But I didn’t. I kept going.
+
+That, I realised, was what bravery really meant. Not charging ahead without fear, but choosing to move forward even when fear tried to stop you. And sometimes, you have to step off the map to find what you’re really looking for.
+
+> **[mark-scheme]**
+> This is an effective response which consistently addresses the task. The story is centred around a specific moment that demands bravery and the narrative is fully developed, with a clear beginning, middle and end. The narrative voice feels believable and natural and the use of language is fluent, accurate and varied. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original, but keep your writing believable
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## November 2021 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+It was like a dream.** **The stars looked close enough to touch. I pressed my hands against the cold windowpane and tilted my head back. The galaxy shimmered above me, a glittering ocean of distant suns and whispered possibilities. It was late, far past my bedtime, but I couldn’t sleep. Not tonight.
+
+Mum had tucked me in at nine, like always, and kissed me on the forehead. But I’d waited until the hallway light clicked off and the soft hush of the television drifted into silence. Then I crept out of bed and sat by the window, pulling my knees up to my chest, my breath fogging the glass in quiet bursts.
+
+I wasn’t scared. Not anymore. I’d been dreaming about this for weeks.
+
+They first came in my sleep, gentle and glowing. At first I thought they were stars that had simply dropped too low, like falling leaves. But then they spoke. Their voices didn’t sound like speech, not really. More like music. Like the notes of a lullaby only I could hear. Last night, they said they would come when the sky was quiet, when the world forgot to make noise.
+
+So I waited.
+
+At 2:17 a.m., the sky cracked. A single streak of silver tore across the horizon, splitting the darkness in two. A hum filled the room, soft and warm, like the vibration of a cello. My fingers tingled against the window and when I leaned closer, I saw it. Not a spaceship like in cartoons, all metal and flashing lights, but a smooth shell of something glowing. Pale and silent. Hovering just above the garden.
+
+I opened the window.
+
+The cold bit into my skin, but I barely noticed. There was no wind. No sound. Just stillness. A figure stepped forward, tall, slender and made of light. It didn’t walk so much as float, its edges blurring like candle flame.
+
+I should have been afraid. I wasn’t.
+
+It raised its hand, five fingers, just like mine and placed it against its chest. I did the same. Then, slowly, it pointed up. Not at the stars, but beyond them. Beyond even the sky.
+
+Would you come? The thought slipped into my head like a whisper carried on a breeze.
+
+I looked back over my shoulder. My books were stacked neatly on the desk. The solar system mobile spun gently from the ceiling. On my bed lay the soft toy rabbit Mum gave me when I was four. Everything was still here. Everything I knew.
+
+And yet. I turned back.
+
+I didn’t nod. I didn’t speak. I just climbed out of the window. My feet didn’t touch the ground. The air held me. Carried me. The figure turned and I followed.
+
+As we rose together, the stars grew larger. Not pinpricks now, but beacons. Pillars of fire and ice. I felt no fear. Just awe. And something else. Something I had never known before but understood instantly.
+
+Belonging.
+
+It was like a dream. But I wasn’t asleep.
+
+And this time, I wasn’t alone.
+
+> **[mark-scheme]**
+> This is an effective response which tells a complete, original story with a strong sense of mystery, wonder and imaginative development. The response balances fantasy with emotional depth and the voice of the narrator is convincing and consistent. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. An interesting and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing; long responses are often less successful as they can lack organisation and structure
+> - Remember, the images are there for inspiration; it is not a requirement of the question to use either of them
+> - Try to be creative and imaginative
+> - Try to vary your use of punctuation, sentence structures and paragraph lengths for effect
+
+### Q2
+### Model answer
+
+**The Hidden Book**
+
+I first heard the legend when I was ten years old. Grandfather told it as he stirred his tea, the steam curling around his words like smoke.
+
+“There’s a book,” he said, tapping the side of his nose, “that no one’s read in a hundred years. It’s hidden deep beneath the old library, where the floorboards whisper and the walls remember.”
+
+I laughed, thinking it was just one of his stories. But fifteen years later, when the town announced that the library was to be demolished to make way for a luxury hotel, something inside me stirred. I remembered the smell of paper and dust, the endless shelves, the cold that clung to the stone steps leading to the archives. It called to me.
+
+The day before the demolition, I returned. The sky was heavy with rain and the wind lashed at the plastic sheeting draped across the scaffolding. I climbed the fence, my heart thudding in my chest. Inside, the library was a cathedral of silence. Dust hung in the air like breath held too long. Books still lined the shelves, unopened and unloved. Floorboards groaned beneath my feet as I moved past familiar reading nooks and study tables scratched with initials. I reached the back wall; the one Grandfather once pointed to, just before he passed. I knelt. One loose board. One gentle lift. Beneath it, a rusted iron ring. I pulled. The panel creaked open to reveal a ladder, swallowed by shadows.
+
+The air grew colder as I descended. The scent of damp earth and mildew clung to the stone walls. At the bottom, I found a narrow corridor, carved roughly from the rock. My torch flickered. The silence pressed in, heavy and absolute. I entered a chamber no bigger than a bedroom. At its centre stood a pedestal. And on it, wrapped in oilcloth and bound with a silver clasp, lay the book.
+
+It was smaller than I’d imagined. The leather cover was cracked with age, its spine worn smooth by invisible hands. My fingers trembled as I unclasped it. The air shifted. The hairs on my arms rose. The pages were filled with ink that shimmered in the light, written in looping script I couldn’t recognise. Yet as I stared, the words began to change. Letters twisted, reformed. Sentences took shape: sentences that told my story. Childhood memories. Forgotten dreams. Moments I had buried deep. My mother’s lullaby. The day she left. A friend’s laughter. My first kiss. All laid bare.
+
+Then came the unfamiliar. Things that hadn’t yet happened. I turned the page and saw fire, people shouting, a hospital bed, my face pale against white sheets. Another turn — an image of myself, older, standing at a grave. I snapped the book shut, breath caught in my throat. The chamber was silent again. But something had changed. I felt it. The weight of knowledge. The certainty of what was to come.
+
+I stumbled back through the corridor, up the ladder, out into the night. Rain pelted my skin, but I barely noticed. I didn’t tell anyone. What would I say? That I had found a book that knew me better than I knew myself?
+
+The next day, the library was gone. Flattened. Erased.
+
+And yet, I still hear whispers sometimes. When I pass that corner of town, a breeze carries the scent of old paper and damp stone. At night, I dream of the book. Its pages turn by themselves, showing me things I cannot forget.
+
+The hidden book was never lost. It was waiting. It found me. And it’s still writing.
+
+> **[mark-scheme]**
+> This is an effective response which has a clear narrative structure and is relevant to the title. Written in the first person, it engages the reader with a strong, reflective voice and feels authentic and believable. The narrative uses a wide range of effective vocabulary and figurative language and where dialogue and internal monologue are used, they are used sparingly but effectively for emphasis. Spelling and punctuation is secure throughout.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Think about how your story will end before you start writing
+> - Think about how your reader will react to what you have written; be creative and original
+> - Include a sense of purpose and audience throughout your response
+
+### Q3
+### Model answer
+
+**The Weight of the Medal**
+
+I remember the chill of the morning air as we stood at the edge of the athletics track, breath fogging in the pale light of dawn. The sun was still low, casting long, golden shadows across the dewy grass. My sister, Ava, adjusted the pins on her race number for what felt like the hundredth time, her fingers trembling just slightly. It was the day of the county championships — her final chance to qualify for nationals. To anyone else, she looked calm, composed, a lean figure in a navy tracksuit with her hair braided back like a warrior’s. But I knew the truth. I’d seen the sleepless nights, the tears when her ankle swelled up last autumn, the endless hours spent in physiotherapy, pushing through pain with quiet determination.
+
+“I just need to make it under 2:20,” she whispered, more to herself than to me. I nodded. I didn’t say she’d already done the hardest part. That her commitment, her resilience, her ability to keep going even when no one was watching already made her a champion in my eyes. I knew she wouldn’t want to hear that. Not yet.
+
+The whistle blew, sharp against the quiet morning and the runners crouched, poised. My heart pounded. When the gun fired, Ava sprang forward, her limbs moving like a machine built for one purpose. In the first hundred metres, she settled into the middle of the pack, her stride tight with nerves. But then, gradually, with the precision of someone who had run this race a thousand times in her mind, she began to push forward. Her form loosened. Her arms cut through the air with rhythm. By the final bend, she was second, just behind a girl from a rival school; a girl whose name I’d heard Ava mutter in her sleep, not in fear, but in defiance.
+
+The crowd roared around me, but I heard none of it. I could only focus on Ava’s face, set with fierce determination. Her chest heaved, her muscles strained, but her stride remained strong. And then, in the last 50 metres, something shifted. She surged forward, not just running but soaring, as if every setback and sacrifice had been condensed into that single moment of flight. She wasn’t just racing; she was proving something — to herself, to us, to everyone who ever doubted her.
+
+She crossed the line first.
+
+2:18.97.
+
+The scoreboard flickered into life and the crowd erupted, but I stood frozen, stunned. Her coach ran to meet her, his grin wide, clapping her back as she doubled over, gasping for air. Slowly, Ava looked up. I saw it in her eyes before the smile even broke: the disbelief, the pride, the joy. She had done it.
+
+Later, after the medal ceremony, when the track had emptied and the sun had finally broken through the morning haze, she sat beside me on the grass, clutching the medal loosely in one hand. The ribbon fluttered slightly in the breeze.
+
+“I’m proud of you,” I said.
+
+She looked at me for a long time. “For the time, or for winning?”
+
+“For everything,” I replied. “But mostly for not giving up.”
+
+She nodded. Her eyes were tired, but for the first time in weeks, they were calm. Peaceful.
+
+That day taught me that pride is more than just a medal or a number on a screen. It's found in perseverance, in fighting through silence and setbacks, in getting back up every time you fall. Ava’s race wasn’t just about crossing a finish line. It was about proving that her spirit, tested by hardship, had not broken.
+
+And in that moment, she was truly victorious.
+
+> **[mark-scheme]**
+> This is an effective response which consistently addresses the task. It details a time when someone felt proud, not just of an achievement but of themselves. The writing is controlled with a wide variety of sentence lengths and types for effect and the vocabulary is well-chosen, appropriate and often strong. Punctuation is accurate and used deliberately to shape meaning and support the emotional impact. A thoughtful and well-crafted response.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original, but keep your writing believable
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## November 2020 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+I laughed out loud. The kind of laugh that bubbles up from nowhere and spills out before you can stop it. The kind that leaves your cheeks aching and your lungs gasping for air. We were lying in a circle on the grass, our heads almost touching, a tangle of limbs, hair, and uncontrollable giggles. Summer had wrapped itself around us like a warm secret, and for that moment, nothing else mattered.
+
+Mia had just made one of her ridiculous animal impressions, this time an alpaca with a French accent, and the way her eyes crossed and her tongue stuck out sent us into chaos. Jodie was clutching her stomach, barely able to breathe, and Ryan had tears leaking from the corners of his eyes. Even Dani, who usually kept a straight face as if it were stitched in place, was laughing so hard she had to roll onto her side.
+
+Above us, the sky was a soft blue, streaked with gold. The football we had abandoned after about five minutes of playing sat nearby, half-deflated and ignored. It wasn’t the games or the snacks or the playlist we had spent hours curating that made this day special. It was the feeling. The sense that we belonged, right here, in this moment, with each other.
+
+I remember glancing at each of them, memorising the way the sun lit their faces and the wind played with their hair. These people weren’t just friends. They were the kind of people who knew how you were feeling from the way you tied your shoelaces. They would show up with hot chocolate when you didn’t ask, or sit with you in silence when you didn’t want to talk. They were my safe space.
+
+We had all come together at the start of sixth form, a jumble of personalities with no reason to mix, but somehow we clicked. There had been arguments, of course. Silent fallouts and awkward lunches. But they always ended with laughter, apologies, or badly made brownies. That afternoon, lying on the picnic blanket with the grass tickling our necks, it felt like those rough edges had softened. It felt like we had grown around each other, like trees whose roots had tangled beneath the surface.
+
+“I never want this to end,” Dani whispered at one point. Her voice was so quiet we almost missed it. But we heard her.
+
+And for a while, it didn’t. That summer stretched long and golden, filled with more jokes, more lazy afternoons, and long conversations about everything and nothing. We talked about where we might be in five years. Ryan swore he would be rich. Mia promised she would be on stage. I said I didn’t care, as long as we stayed in touch. Everyone nodded. Of course we would.
+
+Yet time takes on a different rhythm once school ends. Life begins to dissolve into a haze of exams, university applications, job interviews, and constant change. We tried our best to stay connected, but the group chat fell increasingly silent, plans became difficult to coordinate, and those long, carefree afternoons gradually faded into memories rather than routines.
+
+Still, I remember that day. That laughter. The feeling of joy so pure it made the world slow down.
+
+I laughed out loud.
+
+And that laugh still echoes in my mind whenever I miss who we were: young, unafraid, and together.
+
+> **[mark-scheme]**
+> This is a well-crafted response which stays fully focused on the task, and which uses a reflective and sincere tone which captures both the warmth of the moment and the sense of time passing. The structure is coherent and there is a sense of progression. The use of vocabulary is ambitious, varied and precise, and the response uses figurative language and sensory imagery effectively to bring scenes to life.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**A Future World**
+
+The sun had not touched the earth in forty-two years.
+
+We had only seen its golden warmth in archived footage, grainy photographs, and the flickering screens of simulation pods. Outside, the skies were bruised and grey, smothered by the thick glass dome that kept us alive. They called it Sector Delta-9, but we called it the Hollow. It was a place built for survival, not living.
+
+I was born beneath artificial light and recycled air, where trees were plastic, birds were projected on ceilings, and clouds came from climate-control vents. They told us this was the future. A world perfected by order, cleansed of error, discomfort, and emotion. There was no war, no hunger, no disease. But there was no colour either. No music. No choice.
+
+Everything in Delta-9 was monitored. Our meals were measured by nutrient counts, our movements tracked, our laughter monitored for irregular spikes in mood. Even dreams were recorded and reported. At the age of sixteen, every citizen received their Placement. It decided what you would do, where you would live, and how you would contribute to the collective. The idea of freedom was spoken of in history lessons, but it felt like fiction. The word “choice” was buried, just like the sun.
+
+My Placement came on the third of March, at precisely 9:00 a.m. I sat in the Hall of Assignment, silent with fifty others, all dressed in grey uniforms that matched the floor, the walls, and our future. The screen flickered to life and displayed my designation: Agricultural Technician, West Quadrant. My expected productivity rating was 94.2 percent. I nodded, because that was what we were trained to do. But something in me resisted. A quiet, rising ache. I didn’t want to spend my days calibrating soil drones or tending to synthetic lettuce crops in a sealed facility. I wanted to feel dirt beneath my feet. I wanted to breathe air that had not passed through filters. I wanted to see the sky, not just its hologram.
+
+That night, I did something that no one ever does. I broke the rules.
+
+I sneaked into the Archives, a restricted vault filled with relics from before the Collapse. The door hissed open, and I stepped inside. The room was quiet and cool, and it smelled faintly of dust and old paper. Shelves lined the walls, crammed with objects: books with cracked spines, broken radios, jars of dried petals. I reached out and picked up a photograph of a girl in a field of sunflowers. She had wind in her hair and sunlight on her skin. She looked free.
+
+Behind me, a voice spoke. “You’re not supposed to be here.”
+
+An old man, a Curator, stepped from the shadows. I expected punishment, but his expression was weary, not angry.
+
+“I needed to see it,” I said. “I needed to know if it was real.”
+
+He paused, then opened a drawer and handed me a battered keycard. It was marked 'Surface Gate'.
+
+“It’s not beautiful anymore,” he warned. “But it’s real.”
+
+At dawn, I stood before the gate. My hands trembled as I swiped the card. The lock clicked. The door groaned open.
+
+Outside, the world was broken but breathing. Cracked earth stretched into the distance, dotted with the skeletons of trees. The air was cold and sharp, filled with the scent of ash, soil, and something else. Possibility. Above, the sky was heavy with clouds, but along the horizon, a faint glow appeared. A line of light. The sun, rising through the grey.
+
+I stepped forward, leaving the dome behind.
+
+This was my future world. It was not perfect. It was not clean or safe. But it was real, and it was mine.
+
+> **[mark-scheme]**
+> This is an effective response with a clear and thoughtful narrative voice and a moral focus. The organisation is clear, consistent and compelling, and vocabulary is ambitious, varied and consistently appropriate for the task. Figurative language is used naturally, and the imagery is vivid and immersive. Overall, the world-building is convincing and imaginative, and the writing is technically secure.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+It was a cold October morning when my sister stood in front of the mirror, brushing her hair in slow, silent strokes. Her suitcase was half-packed on the bed behind her, the navy zip gaping open like a wound. I leaned against the doorframe, trying to find the right words. There weren’t any. She was leaving.
+
+“Are you sure?” I asked, my voice almost lost in the sound of the rain tapping on the windowpane.
+
+She looked at me through the mirror, her eyes steady. “Yes. I have to.”
+
+For months, she had wrestled with the decision. Everyone had an opinion. Mum wanted her to stay close, to apply to the local university and live at home. Dad had said it didn’t matter, that any degree would lead to the same end. But Anna had dreams stitched into every fibre of her being, and they didn’t fit within the safe, predictable boundaries of home.
+
+She had been offered a place to study medicine in Edinburgh. It was hundreds of miles away, a city neither of us had ever visited. The idea thrilled her. It terrified the rest of us. She would be alone. She would struggle. What if it all went wrong? But Anna had already imagined the lecture halls and dissecting rooms. She had seen herself rushing through hospital corridors with a stethoscope around her neck and purpose in her eyes. She wanted that life more than she feared the unknown.
+
+Still, the decision weighed heavily on her. There were nights when I found her sitting by the kitchen window, eyes red, mug untouched in her hands. She once told me that if she stayed, she would never forgive herself for not trying. She was afraid of regret, of wondering for the rest of her life what might have been.
+
+That morning, as the taxi waited outside, she zipped up the suitcase with a quiet finality. I helped her carry it downstairs. Mum was in the living room, arms folded tightly as if trying to hold herself together. Dad stood by the door, keys in his hand, eyes on the floor. When we reached the pavement, Anna turned around and hugged each of us. She didn’t cry. I think she had done all her crying in private. Her voice was calm when she said, “I’ll call you when I get there.”
+
+And then she was gone.
+
+The house felt empty after that. Her room remained untouched for weeks. I would sometimes wander in, not really looking for anything, just trying to fill the silence. Mum took a while to adjust. She cooked too much food and set four plates instead of three. Dad grew quieter.
+
+But slowly, the calls started coming. Then postcards. Then photos. Anna smiling in a white coat, Anna standing outside grey-stoned lecture halls, Anna laughing with new friends. Her voice, when she spoke, had changed. It was fuller, stronger. She was becoming the person she had hoped to be.
+
+Looking back now, I know that morning wasn’t just a goodbye; it was a beginning. The day my sister chose courage over comfort. It was the most important decision she ever made.
+
+And I have never been prouder.
+
+> **[mark-scheme]**
+> This is an effective response which fully addresses the purpose of the task. The audience is considered throughout, and the tone is appropriate and realistic, balancing narrative with reflection. It is thoughtfully organised and contains a satisfying emotional conclusion that ties back to the central idea of making an important decision. Vocabulary is varied and precise, and imagery is effective and symbolic. Spelling, punctuation and grammar are accurate throughout.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+> - Avoid over-using dialogue
+
+## November 2020 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+I tried to see what he was reading.** **It was difficult, given the angle of the newspaper and the determined way he held it, like a shield. “The Times,” I could make out at the top, but the rest was obscured behind crinkled folds and trembling fingers. The headline said something about a scandal. Or maybe a resignation. I wasn’t sure. But something about the way he hunched forward made it feel more like a secret than a story.
+
+I glanced to my left. The woman beside him was fast asleep, her head gently tipping towards his shoulder. Her lips twitched occasionally, as if she were dreaming about biscuits. The man on the far right wore sunglasses indoors and had a Nike backpack on his lap like it was made of gold. Nobody else seemed curious. Only me.
+
+Maybe it was because I had nothing better to do. I had missed my stop four stations ago…completely my fault. I had been so engrossed in thinking about the disaster of a presentation I had just given at work that I sat there blinking at my reflection in the train window while the world whizzed past.
+
+The man with the paper shifted, lowering it ever so slightly. I caught a glimpse of the front page again. There was a photo, black and white, and it looked oddly familiar. My eyes narrowed. I leaned forward, pretending to retie my shoelace, and peered closer.
+
+It was a picture of a younger man, in uniform. Army, I think. There were medals on his chest and a solemn expression on his face. But the resemblance was striking. The same jawline. The same eyebrows. And the same tired eyes.
+
+It was him.
+
+The man holding the newspaper was the man in the photograph.
+
+I sat up straight, my heart suddenly pounding for no good reason. Why would someone be reading about themselves in a newspaper on the Tube? And more importantly, why was no one else reacting?
+
+I opened my phone and tried to search the headline: “Veteran Speaks Out About Forgotten Mission,” it said. That was all I needed. I tapped quickly, ignoring the faint crack on my screen. The article popped up, along with the name: Bernard S. Halley, age 84, awarded the Queen’s Gallantry Medal for service in an operation that was, until recently, classified.
+
+I looked again at the man beside the sleeping woman. His hands trembled slightly as he turned the page, but his expression remained unreadable. People walked past him every day, I imagined, never knowing they were brushing shoulders with someone who had once saved lives and kept secrets for a country that had nearly forgotten him.
+
+He must have felt my stare. He looked up suddenly and our eyes met. His face softened, just a little. He gave a small, almost imperceptible nod. I nodded back.
+
+When the train reached King’s Cross, he folded the paper, nudged the sleeping woman awake, and together they stood and left.
+
+I stayed in my seat, staring at the opposite wall, unsure whether what I had seen had been extraordinary or just a quiet moment in a very loud city.
+
+> **[mark-scheme]**
+> This is an effective response which hooks the reader by raising questions and creating intrigue. The narrative maintains a clear focus throughout, built around a single moment: a mysterious man reading a newspaper on a train. Rather than simply describing the scene, the response adds depth and narrative progression, resulting in a story which is emotionally subtle. The pacing is deliberate and confident, with vivid and precise language and strong technical accuracy.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**A New Start**
+
+It wasn’t the first time we’d moved, but it was the first time I’d had to pretend I was excited about it. Mum kept calling it “a fresh chapter.” She even bought a notebook with “New Beginnings” written on the front in gold lettering, as if the stationery alone could convince us we were going on some grand adventure rather than relocating to a town that smelled faintly of cabbage and despair.
+
+We arrived on a damp Monday morning, the sky sagging with clouds and the streets looking like they had given up trying to impress anyone years ago. The house was smaller than the pictures suggested, which was classic estate agent sorcery, and the only room that didn’t have peeling wallpaper was the one with a mysterious brown stain on the ceiling. Lovely.
+
+“Isn’t this cosy?” Mum asked, her eyes scanning the room with forced optimism. My little brother Ben sneezed violently in response and was immediately blamed for the smell.
+
+The real excitement came the next morning: my first day at the new school. Nothing says “welcome” like being the new kid halfway through the year. I wore my new uniform, still too stiff and smelling like packaging, and entered the gates like a reluctant soldier heading into battle. I even considered faking a limp for sympathy.
+
+It didn’t work.
+
+My form tutor was a man who spoke entirely in questions. “You must be Jordan? Enjoying your first day? Need help finding the toilets?” I didn’t get a chance to answer before he whisked me off to Room 12, which, it turns out, was not a room, but a shed pretending to be a classroom.
+
+Everyone stared. Not just glanced. They stared, as though I had walked in wearing a gorilla suit. I smiled weakly, muttered something like “Hi” and tried to blend in with the wall.
+
+Then came Mia.
+
+Mia had purple hair, three bracelets on each wrist, and an expression that said she had seen through every teacher and probably half the students too. She leaned over during maths and whispered, “You look like you hate it here. Good. That means you’re not weirdly enthusiastic. Sit with us at lunch.”
+
+It was, in its own strange way, the most generous welcome I could have asked for.
+
+Lunch was better than expected. Mia’s group, Ella, Josh and a boy who only spoke in riddles, adopted me like I was a lost kitten. We talked about how awful the school lasagne was and how Mr Peters once fell off a chair during assembly. By the end of the day, I had laughed more than I had in weeks.
+
+Later that evening, Mum asked how my day had gone. I shrugged and said, “Fine,” which, translated from teenager-speak, meant actually, not bad at all.
+
+And in that moment, sitting on the sofa in our slightly mouldy new house, I realised something surprising.
+
+This might actually work.
+
+It wasn’t the start I had imagined. But maybe it was the start I needed.
+
+> **[mark-scheme]**
+> This is an effective response which has a clear narrative arc and incorporates a concept that is relatable and believable. The narrative voice is authentic, and the writing is well organised and easy to follow, with a strong sense of shape and development. Language is used precisely and creatively throughout, enhancing both character and tone, and the use of dialogue is realistic and purposeful. The story also demonstrates a high level of control over grammar, spelling and punctuation.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+**A Long Journey (and a Slightly Longer Snack Break)**
+
+If you’ve never attempted to travel across the UK on public transport during a bank holiday weekend, I envy you. You’ve clearly made better life choices than I have. But for some reason, possibly the result of a half-baked sense of adventure or a dangerously strong cup of coffee, I decided to go and visit my cousin George in Cornwall. From Yorkshire. On a coach.
+
+Yes, a coach.
+
+The journey began, as all great disasters do, with optimism. My mum waved me off cheerily from the bus station, completely unaware that I’d forgotten my headphones, snacks and, most tragically, my phone charger. I climbed aboard, found my seat (next to a man who was already asleep and snoring like a vacuum cleaner full of gravel), and settled in for what was meant to be a comfortable nine-hour journey.
+
+By hour two, we’d made it just past Leeds. The coach driver announced we’d be stopping for a short break at a service station. In coach language, that means a brief window to make terrible snack decisions. I purchased a tube of sour cream Pringles and a sad-looking sandwich that tasted like wet cardboard and disappointment. I considered texting George an update, only to find that my phone was at seventeen percent and fading faster than my will to live.
+
+Back on the road, the weather changed from sunny to biblical flood in the space of ten minutes. The coach wipers struggled heroically but failed miserably. Meanwhile, our snoring friend had evolved into full orchestral snoozing, complete with occasional whistle-like squeaks. The lady in front of me started singing along to something playing through her headphones. Loudly. And off-key.
+
+By the time we hit Birmingham, I had learned three things:
+
+1. There is no comfortable way to sleep upright next to a stranger who thinks the armrest is a suggestion.
+2. "Free Wi-Fi onboard" is a cruel lie.
+3. My Pringles were gone, and I missed them dearly.
+
+Eventually, many lifetimes later, we rolled into a grey, drizzly Cornwall. I stumbled off the coach like a survivor emerging from a bunker. George was there, grinning as if I hadn’t just endured a journey so long it probably qualifies as an odyssey. He clapped me on the back and asked, “Good trip?”
+
+“Magical,” I replied, brushing crumbs off my hoodie and trying to remember what solid ground felt like.
+
+Looking back, that journey taught me a valuable lesson. Always double-check your packing list, never trust a timetable, and under no circumstances believe the phrase "quick stop at the services." Still, there was something oddly satisfying about it. I arrived slightly broken, thoroughly snack-deprived, but victorious.
+
+And hey, at least it wasn’t a school trip to an alpaca farm again. That’s a story for another day.
+
+> **[mark-scheme]**
+> This is an entertaining response to the task, with a distinctive and humorous narrative voice which engages the reader from the start. The response turns a mundane experience into a comedic narrative, demonstrating creativity without straying off task. The writing is well organised, and the language choices throughout are imaginative, precise and appropriate. The spelling, punctuation and grammar are accurate throughout.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+> - Avoid over-using dialogue
+
+## January 2020 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+It all started with a pineapple.
+
+Not a metaphorical one. A real pineapple, bold and spiky, perched awkwardly on top of a donation box labelled “Canned goods only.” I noticed it as soon as I walked into the centre, along with the scent of old cardboard, instant coffee, and something faintly citrusy. The room buzzed quietly; there was a sort of calm chaos, full of movement and murmured conversations. I stood by the door for a moment, not entirely sure where to go.
+
+“First time?” someone asked behind me.
+
+I turned to see a tall man with a wide grin and a T-shirt that said VOLUNTEER. His sleeves were rolled up and his hands were stained slightly orange from sorting through a bag of carrots.
+
+“Yeah,” I admitted. “I thought I’d… do something useful.”
+
+He nodded with a kind of knowing sympathy. “We’ve all started somewhere. I’m Marcus. Come on, I’ll get you set up.”
+
+We wove through stacks of donations. There were towers of canned food, bags of donated clothes spilling open, crates of toiletries, nappies, and mystery items with no labels. I passed a group of older women folding baby blankets with military precision and a pair of teenagers sticking expiry date labels onto tinned soup.
+
+Marcus handed me a clipboard. “You’ll be sorting and organising donations. Simple stuff, but important. Trust me.”
+
+I nodded and got started. At first, I moved cautiously, unsure of the system. I read every label twice and arranged things far too carefully: my “toiletries” pile had two shampoo bottles and one slightly squashed toothpaste. But as the morning went on, I found my rhythm. My pasta stacks grew taller. My confidence returned.
+
+Around lunchtime, a young girl came in with her mum. The girl looked about seven. Her hair was tied in neat little braids and she clutched a soft pink teddy bear so tightly I thought it might burst. Her mum’s face looked drawn, tired in the way that sleep can’t fix. One of the staff welcomed them gently and led them towards the supplies section.
+
+The girl wandered away slightly and stood near my table. Her eyes were huge as she looked at the rows of boxes.
+
+“Do you work here?” she asked softly.
+
+“Sort of,” I said. “I’m volunteering.”
+
+She nodded, her face completely serious. “My mum says helpers are heroes.”
+
+I paused. I didn’t feel like a hero. I’d just spent ten minutes trying to figure out whether a leaking shampoo bottle counted as ‘usable’ or ‘hazardous’. But I smiled.
+
+“Your mum sounds very smart,” I said.
+
+They left not long after with two boxes of essentials. Clothes, food, and a few extras just for the girl. A hairbrush. Some colouring pencils. A teddy just like the one she already had. She waved as they left. I waved back and stood there for a few seconds longer than I needed to.
+
+That evening, as I swept the floor and helped stack empty crates against the wall, I caught my reflection in the window — hair messy, shirt stained with something unidentifiable, and hands aching from lifting and unpacking.
+
+But I felt full. Not tired. Not bored. Just full in a way I hadn’t expected.
+
+It wasn’t about ticking off hours or feeling good about myself. It was about making someone’s day just a little easier. A little lighter.
+
+And as I switched off the lights and stepped out into the cool evening air, I said it quietly, and meant every word.
+
+“I’m glad I decided to help.”
+
+> **[mark-scheme]**
+> This is an effective response which has a clear and logical structure and is carefully focused on the task. The encounter with the girl and her mother is written with subtlety and empathy, creating a strong emotional connection for the reader. The language choices are both imaginative and appropriate, and the tone is warm, sincere and reflective. The use of sensory details like “smell of old cardboard” and “cracked wooden bench” create immersive realism. The response is written with a high level of technical accuracy throughout.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a springboard for your creativity
+
+### Q2
+### Model answer
+
+**The Promise**
+
+I made a promise I wasn’t sure I could keep.
+
+It was on a Sunday afternoon in late October, the kind where the sky looks like it's made of smoke and the wind keeps trying to undo your coat buttons. We were sitting on the cracked wooden bench at the far end of the park. The same one we’d sat on when we first met, and on all the quiet days in between.
+
+“I’m going to do it,” Leo said, not looking at me. “I’m leaving in December. Properly this time.”
+
+He’d said it before, of course. Talked about travelling, escaping, finding something bigger than our grey town and its endless rows of semi-detached sameness. But this time was different. There was a suitcase beside him. His passport had already been stamped for a visa. He was actually going.
+
+“Where?” I asked, though I already knew.
+
+“Thailand first. Maybe Australia after. Wherever the map takes me.”
+
+The map: that silly fold-out thing he kept in his bedroom, covered in red pinholes and coffee stains. I used to laugh at it. He used to say it was his way of proving that there was more to life than A Levels and part-time jobs and school gates that squeaked when it rained.
+
+We sat in silence for a while; Leo and I watched the trees bend in the wind. Then he turned to me with that smile that had always meant trouble.
+
+“Come with me.”
+
+I blinked. “What?”
+
+“Come with me,” he said again. “Not now. I know you’ve got exams and parents who like plans. But one day. Promise me.”
+
+I stared at him. At his hopeful eyes and his ridiculous fringe that had never quite obeyed gravity. My heart was loud in my chest.
+
+“I can’t promise that,” I whispered. “Not really.”
+
+“Then promise you’ll try.”
+
+So I did. I nodded. “I promise.”
+
+That was the last time I saw him.
+
+He sent postcards. Every now and then, an envelope would arrive with a photo of a beach or a mountain or a market filled with colour and people. Sometimes there’d be a scribbled message: “You’d hate the mosquitoes but love the noodles.” Or, “Still carrying your laugh in my backpack.” Then, eventually, they stopped coming.
+
+I went to university. Got a job. Moved into a flat with thin walls and noisy neighbours. Life happened in little steps. One day I found the map. I don’t even remember how it ended up in my drawer. The red pins were faded. Some were missing.
+
+And suddenly I remembered the promise.
+
+So here I am, standing at a dusty crossroads in a country I’ve never been to, holding a worn-out backpack and a guidebook I barely understand. The air smells like spices and heat. There is a temple in the distance, glowing gold in the late sun.
+
+I have no idea what I’m doing.
+
+But I’m here — I promised I’d try.
+
+And I did.
+
+> **[mark-scheme]**
+> This is an effective response which has a clear narrative arc and incorporates a concept that is relatable and believable. The narrative voice is authentic, and the writing is well organised and easy to follow, with a strong sense of shape and development. Language is used precisely and creatively throughout, enhancing both character and tone, and the use of dialogue is realistic and purposeful. The story also demonstrates a high level of control over grammar, spelling and punctuation.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+It started with lasagne. Or rather, it started with me deciding I was finally old enough, wise enough, and competent enough to make one entirely on my own.
+
+Mum had left for the afternoon to take my younger brother to football. “Don’t burn the house down,” she said, half-laughing as she closed the door. At the time, I took this as encouragement. I had watched her make lasagne dozens of times. It looked simple enough: pasta, meat, sauce, cheese. What could possibly go wrong?
+
+I assembled the ingredients proudly. I even made a playlist to set the mood, something upbeat and Italian-sounding. Within minutes, I had minced beef sizzling in the pan, onions softening, and garlic filling the kitchen with that impressive, chef-like smell. I felt invincible.
+
+Then came the white sauce. Or, more accurately, the floury mess that resembled white sauce only if you squinted and lowered your expectations. I whisked it with determination, ignoring the lumps and telling myself that no one really noticed sauce texture anyway. I layered everything into the dish like I’d seen on TV, sprinkled grated cheese with flair, and placed it in the oven with the satisfaction of a seasoned cook.
+
+That’s when I noticed the empty packet of lasagne sheets. And that’s when it hit me.
+
+I had forgotten to cook the pasta.
+
+Apparently, the phrase "oven-ready" on the packet does not mean you can ignore it entirely and hope for the best. Still, by the time I realised, the lasagne was already bubbling in the oven and the top looked golden and delicious. I convinced myself it might be fine: maybe the sauce would soften the pasta. Maybe it would be rustic. Or authentic. Or chewy in a charming way.
+
+It was not.
+
+When Mum came home and we all sat down to eat, I served up generous slices and waited proudly for their reactions. My brother took one bite, frowned, and then tried to saw through a sheet of pasta that had all the flexibility of reinforced concrete. Mum smiled politely, which is her way of saying, “I’m trying not to laugh, but this is inedible.”
+
+I admitted it. “I didn’t cook the pasta sheets.”
+
+There was a long pause. Then, to my surprise, Mum burst out laughing. My brother joined in. I laughed too, though part of me wanted to hide in the cupboard with the last of the grated cheese. We ended up ordering pizza and eating it straight from the box while watching a cooking show; it felt like the universe’s way of mocking me.
+
+Looking back, it was just a small mistake. But I learned something important that day. Cooking requires more than confidence and a decent playlist. It requires patience, attention, and reading the instructions properly.
+
+And perhaps, most importantly, I learned that some of life’s best memories come from the moments when things don’t go to plan.
+
+> **[mark-scheme]**
+> This is an entertaining response to the task, with a clear and engaging narrative arc. Instead of a dramatic mistake, the response chooses a light-hearted but meaningful mistake, allowing for humour and reflection. The pacing and paragraphing are controlled, and the response demonstrates varied and precise vocabulary choices and accurate spelling, grammar and punctuation.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of<br>- structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+> - Avoid over-using dialogue
+
+## January 2020 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+Suddenly, without warning, there was a power cut. For a second, the entire city blinked.
+
+What had been a glittering skyline of silver and gold turned black in an instant. Neon signs faded mid-flicker. Streetlights went out like snuffed candles. The reflections on the water below — once bright and jagged — dissolved into dull shadows.
+
+Inside the tower block, Ava froze mid-step. One second ago she had been walking towards the elevator, balancing a takeaway coffee in one hand and her laptop bag in the other. Now she stood in total darkness, the low hum of the building’s power systems replaced by eerie silence.
+
+She glanced out of the glass wall beside her. The river was still; the opposite bank, normally electric with life, was nothing but outlines. She could just make out a few lights flickering in the distance, possibly from backup systems, but the rest of the city looked like it had been erased.
+
+Her phone buzzed. Then died. It had shown a full battery just five minutes ago. She tapped the screen. Nothing.
+
+Behind her, a door creaked. She turned quickly, breath catching. Nothing moved.
+
+It wasn’t the first power cut she'd experienced, but this one felt different. The darkness was too complete. The silence too sudden. The air seemed to shift slightly, as if the building itself had paused.
+
+Carefully, she made her way to the stairwell. Her shoes clicked softly on the floor, the only sound in the corridor. She tried to remember how many flights she was from the ground. Twenty-three, maybe twenty-four. Her legs were already tired, but staying still didn’t feel like an option.
+
+The stairwell was lit only by a faint green glow from the emergency exit sign. It flickered, casting broken light across the concrete steps. As she descended, other sounds slowly returned. She heard the distant thud of a door, hurried footsteps, and someone calling a name three floors below.
+
+By the time Ava reached the lobby, a small crowd had gathered. People stood in awkward clusters, checking their phones and talking in hushed voices. One man tried to connect to the building’s Wi-Fi, frowning as each attempt failed. A child clutched her mother’s hand tightly, her wide eyes fixed on the blank reception monitors.
+
+Outside, the streets were scattered with pools of torchlight and headlights from stranded taxis. People leaned out of windows. A cyclist wheeled past, his front light flashing like a signal. A radio played softly from somewhere, the voice crackling through the interference.
+
+Ava stepped onto the pavement and looked back at the tower. The top floors disappeared into the black sky. The windows were nothing but empty squares. The whole city, one of the brightest in the world, now looked like a ghost.
+
+She took a deep breath. For a moment, the constant noise of city life had stilled: there were no engines, no sirens, just breathing, footsteps, and the occasional laugh from a group trying to turn panic into humour.
+
+Then, slowly, lights began to flicker on. First in one building. Then another. The city, still fragile, began to glow again.
+
+But something about the silence stayed with her.
+
+> **[mark-scheme]**
+> This is an effective response which begins with immediate action and builds tension from the outset. The structure is well paced, with shorter paragraphs to build tension and longer, descriptive ones to create atmosphere. The setting is vividly described and feels believable, and the event is surprising but plausible. The use of figurative language is subtle but effective, enhancing the atmosphere without overwhelming the story. It is well crafted with a high degree of technical accuracy.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**The Meeting**
+
+I didn’t plan to be late. I had left the house early, heart racing and hands buried in the deep pockets of my coat. The air was cold but dry; the sky above the station was a low blanket of grey, pressed flat over the rooftops. A soft wind rolled discarded tickets across the concourse like dry leaves. It had taken months of planning and even more months of silent consideration to reach this point. The decision had come quietly one morning, like a dropped stone in a still pond: I was ready. Or at least ready enough.
+
+Platform 3. The 11:06 to Brighton. He said he’d be wearing a green scarf.
+
+The platform was crowded with life. A child dropped a crisp packet and watched it blow away without caring. A group of students huddled in a circle near the vending machine, laughing too loudly at nothing in particular. In the distance, pigeons cooed from the beams above the tracks. I stood still for a long moment, blending into the noise, before my eyes found the scarf.
+
+There was the scarf — bright green, looped clumsily around a neck that looked both familiar and completely unknown. Its wearer stood close to the yellow line, rocking slightly on his heels, glancing occasionally down the tracks. His coat was creased at the shoulders. His hair was darker than I’d remembered from the photograph, and his stance had an awkward tension, like he wasn’t quite sure what to do with his hands.
+
+I approached slowly, my steps measured. Each footfall felt louder than it should have, though the platform was full of sound. As I drew closer, he turned and looked at me. Recognition sparked faintly in his eyes, quickly softened by something gentler. No words were spoken at first. Just a slow nod, and a look that lingered just long enough to say everything that couldn’t yet be said aloud.
+
+We walked the length of the platform together, away from the crowds. The conversation, when it came, was scattered and careful. It flowed like a stream interrupted by too many stones… not unpleasant, but cautious, hesitant, unsure of the depth beneath the surface. He asked questions that were too formal, and I replied with answers that were too brief. But between the gaps, there was something else. Something not spoken.
+
+We boarded the train and sat opposite each other. The carriage was quiet, and outside the window, the countryside moved past in a soft blur of fields and rooftops. His reflection flickered in the glass. Occasionally, our eyes met, but neither of us looked away too quickly.
+
+He passed me an old photograph, folded once down the middle. In it, a much younger version of him cradled a newborn wrapped in a hospital blanket. His face was thinner then, but the eyes were the same. There was an almost imperceptible tremble in his hand as I took the photo.
+
+We didn’t talk about the years between us. Not directly. Instead, we talked about lighter things such as books, films, favourite songs, as if building a bridge out of small, steady planks.
+
+When the train returned to the station, we stepped out into the late afternoon light. Something unspoken passed between us. A beginning, perhaps. Or a quiet agreement.
+
+And though nothing extraordinary had been said, I knew I would remember the moment for a long time.
+
+It was the meeting I hadn’t expected to want, and the one I didn’t realise I needed. A meeting with my dad.
+
+> **[mark-scheme]**
+> This is an effective response which has a clear narrative arc and develops at an appropriate pace, balancing action with introspection. It is engaging and believable, with an evocative setting of a train station and train, and the response shows strong command of figurative language. The tone is reflective and restrained, with precise and varied vocabulary, and it is written with a high level of technical accuracy.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+## Model answer
+
+It started like any other Saturday: slowly, sleepily, and with the usual half-hearted promise that I’d get my homework done before lunch. The house was quiet apart from the steady hum of the dishwasher and my dog Jasper snoring under the kitchen table. I was midway through a piece of toast (peanut butter and banana) when Mum shouted from the garden.
+
+“Come out here! Quick!”
+
+I heard the urgency in her voice and jumped up, toast still clutched in my hand. Jasper, roused by the sudden movement, stretched and then trotted after me, his ears perked and tail wagging lazily. The morning sunlight poured across the patio; the grass sparkled slightly with the last of the dew.
+
+“What is it?” I asked, squinting as I stepped outside.
+
+She pointed toward the far end of the garden, lowering her voice to a whisper. “Look. By the fence.”
+
+At first, I didn’t notice anything. Just the usual view: our leaning wooden shed, the climbing ivy that had almost swallowed the compost bin, and the fence we’d always said we’d repaint but never had. Then I saw them. Or rather: *them*.
+
+Two foxes. Sitting still. Not prowling or darting like you’d expect, but sitting calmly side by side. They looked oddly peaceful, as if they’d arrived early for an appointment and were patiently waiting. One was smaller, its coat tinged with silver, while the larger fox had rougher fur and a torn left ear. Despite their scruffy appearance, there was something graceful about them.
+
+We stood silently. Even Jasper didn’t bark. The foxes made no move to run. The larger one turned its head slightly, pressing its snout gently against the smaller one’s shoulder. Then, slowly, it looked up toward us. Not startled. Not fearful. Just aware.
+
+And then I felt something strange. Not fear, but awe. Like we had been allowed to witness something private and sacred, just for a few seconds.
+
+The smaller fox stood first and limped slightly, favouring its front leg. The larger one followed, walking close beside it, almost protectively. They didn’t vanish with a sudden burst of movement like I expected. Instead, they wandered along the fence line with unhurried steps and disappeared behind the shed, their tails brushing through the grass as they went.
+
+“Did you see that?” Mum whispered.
+
+I nodded. “That was… incredible.”
+
+We stayed outside for a while, listening. The garden returned to its usual stillness. Birds chirped faintly from somewhere beyond the hedge. A distant lawnmower started up.
+
+Later that day, I told my friend Sam what had happened. He rolled his eyes at first and asked if I was sure I hadn’t just watched a nature documentary half-asleep. But then he paused and said, “That’s… actually kind of amazing.”
+
+And it was — surprising, not just because it was unusual, but because it felt meaningful. In a world of noise and rush, that quiet moment reminded me to slow down. To watch. To notice.
+
+It’s strange how the most surprising things can also be the most peaceful.
+
+I’d seen foxes before, but never like that. Never with that stillness. That connection.
+
+And I’m glad I did.
+
+> **[mark-scheme]**
+> This is an effective response to the task because the content is realistic and emotionally engaging. It avoids exaggeration while maintaining the reader’s interest through quiet tension and beauty. The reflection at the end adds maturity and depth, and the response uses carefully crafted sensory detail and descriptive language. The tone is gentle and observant, and there are no errors in spelling, grammar and punctuation.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+> - Avoid over-using dialogue
+
+## June 2019 Section B Writing (1 questions)
+
+
+### Q1
+### Model answer
+
+The moment we stepped off the train, I knew this place was nothing like home. The air felt cooler and fresher, carrying the faint scent of pine trees, damp earth and distant rain. My cousin Ella and I stood on the platform, clutching our backpacks, both a little overwhelmed by the towering mountains surrounding the small village of Ravensbrook. The peaks rose like silent giants, their snow-capped tops glowing faintly under the pale afternoon sun. We had never been anywhere so remote before.
+
+The station itself was tiny — barely more than a wooden hut with a single bench outside. We could hear the soft creak of the sign swinging in the breeze, and apart from the distant rustle of leaves, the silence felt almost too still. For a moment, we simply stood there, unsure of what to do next. Then, an elderly man appeared from behind the hut. He wore a wide-brimmed hat and carried a walking stick carved with strange symbols.
+
+"You must be the city girls," he said with a warm chuckle. "Welcome to Ravensbrook. I am Mr Carter. Your aunt sent me to collect you."
+
+We followed him down a narrow path that wound through tall grass, swaying wildflowers and patches of moss. The scenery was breathtaking: towering spruce and fir trees lined both sides of the path, and beyond them, the sky stretched endlessly, scattered with wisps of cloud. A small river glistened nearby; its surface reflected the gold and silver of the shifting light. Occasionally, we caught glimpses of small animals darting between the trees.
+
+As we walked, Mr Carter pointed out different landmarks. "That there is Eagle Ridge. On a clear day, you might spot them soaring above. And over there, you can just about see the old lighthouse. Nobody uses it now, but it has stood for over a hundred years."
+
+I listened carefully, trying to absorb everything. Compared to the constant buzz and blur of city life, this felt like another world entirely. No car horns, no rushing people, no towering buildings. Even the wind here seemed gentle, whispering softly through the branches as though sharing secrets.
+
+After about twenty minutes, we reached my aunt’s cottage. It sat on the edge of a small, perfectly still lake, its red roof bright against the endless green. Smoke curled lazily from the chimney, and neat flower boxes overflowed with bright blooms of every colour. My aunt opened the door, her face lighting up as she saw us.
+
+"My girls! You made it," she said, pulling us into a tight embrace. Her warmth chased away the mixture of nerves and excitement that had bubbled in my stomach ever since our journey began.
+
+The cottage was even more charming inside. Wooden beams crossed the low ceiling, and every shelf was filled with books, jars of herbs and strange little ornaments that seemed to have their own stories. A large window framed the lake like a painting; ducks glided smoothly across the glassy surface. The scent of cinnamon, baked bread and lavender filled the air, instantly making the place feel like home.
+
+Over the next few days, Ella and I explored as much as we could. We hiked winding trails deep into the forest, discovered hidden waterfalls sparkling like silver ribbons, and even spotted deer grazing quietly at dawn. Each evening, we sat by the fire, listening to my aunt’s stories about the village’s history and its whispered legends. One night, she spoke of a secret cave, hidden deep in the hills and filled with glowing crystals, though no one had ever found it. As she spoke, I felt as if we had stepped into a fairytale.
+
+As our visit came to an end, I realised how much this new place had changed me. I had arrived feeling nervous and unsure, but I was leaving with memories I would carry forever. Ravensbrook had opened my eyes to the quiet magic of nature and the thrill of discovering the unknown.
+
+> **[mark-scheme]**
+> This is an effective response which has a clear sense of purpose and direction. The writing has a logical structure and each scene is developed in detail. The vocabulary is controlled and sophisticated, with figurative language that enriches the writing without feeling forced. There is a good mix of longer descriptive sentences and shorter, impactful ones to maintain rhythm and interest. The response is technically accurate.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## January 2019 Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+It was a new day and the sky stretched wide with the kind of soft, tentative light that only just remembered how to be blue. Mist still clung to the pavement in sleepy wisps, curling between hedgerows and low stone walls, reluctant to rise. I stood at the edge of the village green, clutching a letter that had arrived only hours before. It was crumpled now, not from mishandling, but from the dozen times I’d opened and refolded it, as though the words inside might shift and say something else.
+
+“Offer confirmed,” it had read. One simple phrase. Two words that had the power to uproot everything.
+
+I glanced back at the cottage, the one with peeling paint on the windowsill and an overgrown rose bush leaning heavily against the fence. My home. My mother’s home. And now, possibly, no longer mine.
+
+The bus would come at nine.
+
+As I waited, the village stirred awake. A curtain twitched in old Mrs Smith’s upstairs window. A dog barked once, sharp and surprised, before settling again. From the bakery came the familiar clatter of trays and the warm yeasty scent of dough rising. These were the constants, the quiet rhythms of my world. They were comforting, reliable.
+
+The bus arrived with a low hiss of brakes and the sigh of its folding door. I climbed on, nodding at the driver and made my way to a seat by the window. As we pulled away, the fields slipped past in streaks of green and gold, blurred by the motion and the threat of tears.
+
+I thought about the stories I’d heard from others who’d left. The ones who had gone to cities with tall glass buildings and wide roads that pulsed with light even at midnight. They came back with different accents and phones that did everything. Though their eyes always carried a flicker of something else — a longing, maybe, or the recognition of something they couldn’t name.
+
+I didn’t know if I was running toward something or away. Only that the ground beneath me was shifting and standing still was no longer an option.
+
+Two hours later, the city rose around me: unfamiliar, urgent, alive with noise. I stepped off the bus and into the crowd, my suitcase trailing behind like a stubborn shadow. I didn’t know the streets, or the systems, or where to find milk. But I knew this: the air smelled like promise, like steel and rain and petrol and possibility.
+
+It was a new day and I was ready to begin my new life in my new home.
+
+> **[mark-scheme]**
+> This is a well-crafted and engaging narrative that fully meets the top-level mark scheme criteria. The story is clearly structured with a strong narrative voice and effective emotional development. Imagery is vivid and atmospheric and vocabulary is sophisticated and well chosen. Sentence structures are varied for effect and punctuation is accurate and purposeful. The response shows excellent control of language, maintaining a reflective and authentic tone throughout.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**Bitter, Twisted Lies**
+
+The rain hadn’t stopped for hours. It ran in sheets across the café window, blurring the world outside into greys and shadows. Inside, the air was thick with the scent of burnt coffee and something else. I stirred my cup for the third time, watching the cream spiral and settle, avoiding the gaze of the woman across from me.
+
+Chloe. My best friend. Or so I’d believed.
+
+“I didn’t mean for it to get out of hand,” she said, her voice hushed, brittle.
+
+I looked up slowly. Her eyes were red, mascara flaking at the corners. She looked fragile, as if a sharp word might shatter her. But I was in no mood for mercy.
+
+“You told them I cheated,” I said, voice even, but tight. “You told them I cheated in the exam, that I — ”
+
+“I panicked,” she interrupted. “You don’t understand. I thought… I didn’t think they’d believe me.”
+
+“But they did.” I let the words hang. “They believed every word.”
+
+The lies had spread like wildfire — at school, online, even at home. Cold stares. Snide comments. Invitations withdrawn. My reputation, carefully built over years, had crumbled in days. And Chloe? She’d vanished. Until now.
+
+She reached across the table, fingers trembling. “I was jealous, okay? You were always the one everyone liked. The one teachers praised, the one with charm, the one with everything. I felt invisible.”
+
+I pulled my hand back.
+
+“So you made me the villain.”
+
+Her silence was enough.
+
+For a long moment, all I could hear was the rain, tapping like fingers against the glass. Outside, the streetlights flickered, casting distorted reflections across the ground.
+
+“You know what the worst part was?” I said finally. “It wasn’t losing friends. It wasn’t the gossip, or the teachers giving me those pitying looks. It was knowing it came from you. From someone I trusted.”
+
+Chloe’s face crumpled. “I’m sorry. Truly.”
+
+I stood, gathering my bag. My chair scraped loudly against the floor, making the few other customers glance up.
+
+“Sorry,” I echoed, letting the word settle with all the weight of what it couldn’t undo. “That’s the thing with lies, Chloe. They twist everything. Even the truth.”
+
+She looked up at me with wide, pleading eyes. But I didn’t stop.
+
+As I stepped out into the rain, the cold hit me like a harsh slap. I didn’t mind. I welcomed it. Behind me, the door shut with a soft, final click.
+
+Some friendships survive storms.
+
+Others drown in bitter, twisted lies.
+
+> **[mark-scheme]**
+> This is a well-crafted and engaging response that fully meets the criteria for the highest level of the mark scheme. The story demonstrates a clear understanding of narrative structure, building tension gradually and concluding with a powerful emotional resolution. Characterisation is subtle yet effective, with the narrator’s internal conflict and Chloe’s remorse convincingly portrayed. Language is controlled and precise throughout. Vocabulary is sophisticated and punctuation is used deliberately to shape tone and meaning. Overall, this is a compelling and confident narrative.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+It began quietly. Amira had prepared for weeks. The script was memorised, the monologue rehearsed until the mirror could almost recite it back to her. She had poured herself into the role, clinging to each line like it was a thread leading to something more.
+
+Yet the list pinned to the drama noticeboard made her stomach sink. Her name was absent. In its place were others, some expected, some surprising, but none that had worked half as hard. Whispers flitted around her like moths to a flame. One phrase emerged more than once, muttered low: “It wouldn’t suit her. Not with that scarf.”
+
+The disappointment wasn’t loud. It settled in her chest like a stone, unmoving and weighty. At home, she sat at the kitchen table long after the dishes had been cleared, her untouched script folded neatly in front of her. Her mother’s eyes met hers, soft and knowing, but no words were exchanged. They didn’t need to be. Amira had been raised on quiet dignity, on the idea that strength needn’t always shout. But she also knew when silence became complicity, and knew that she needed to take a stand otherwise she would be part of this continued narrative.
+
+The next day, her footsteps felt heavier as she walked into school. Each corridor seemed to echo with doubt, but beneath it all something steadier stirred. It was a slow-burning defiance. She wrote a letter, carefully constructed and calm, outlining what had happened. It wasn’t angry, but honest. She handed it in without ceremony.
+
+Days passed. The new cast list appeared as suddenly as the first. This time, her name was there, clear and certain beside the lead role. Beneath it, in smaller letters, was a note: Revised casting after review.
+
+Rehearsals began. Some classmates avoided her eyes; others offered small, tentative nods. The role came to life in her voice, in her posture, in her unflinching gaze. Each rehearsal became more than a performance. The costume may not have been traditional, but the truth of the character shone through, unfiltered and sincere.
+
+On opening night, the hall was full. When the final lines fell into silence, there was a pause. Not hesitation, but something weightier: the audience digesting what they had just seen. Then the applause rose, not explosive, but steady and certain.
+
+Later, as she peeled off her costume under the bright glare of the changing room mirror, Amira caught sight of her reflection. She looked the same. But something had shifted. She hadn’t waited for permission to be seen. She had demanded it, with grace, conviction and the power of simply standing her ground.
+
+> **[mark-scheme]**
+> This is a confident narrative that fully meets the top-level criteria of the mark scheme. The response is crafted with precision, demonstrating excellent control of tone, structure and narrative perspective. Vocabulary is ambitious, sentence structures are varied and punctuation is used purposefully. The story is cohesive and fluently organised, showing strong awareness of audience and purpose. Overall, this is a confident and engaging piece that demonstrates excellent narrative technique.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## June 2018 R Section B Writing (3 questions)
+
+
+### Q1
+### Model answer
+
+The storm had been threatening all afternoon, a slow-building tension that now hung in the air like a held breath. Outside, the sky was bruised purple and grey, clouds swollen with rain with flashes of distant lightning. The wind whipped through the alleyways and backstreets, sweeping crisp packets and cigarette ends into frantic little spirals. The streetlights buzzed to life prematurely, casting rays of amber light onto the wet pavement where puddles mirrored a distorted version of the world above.
+
+Inside the flat, the glow of a television danced across the walls, casting shadows across the worn furniture. The sound was turned low, the distant murmur of voices and background music a strange contrast to the quiet strain that filled the room. The small kitchen sink dripped with slow defiance. A half-drunk cup of tea sat cooling on the counter.
+
+He stood by the window, hands deep in the pockets of a coat he hadn’t taken off. Rain streaked down the glass, distorting the view of the street below. The parked cars glinted in the half-light, a cat darted under a hedge. Behind him, the floor creaked.
+
+She was by the doorway, framed by the chipped white of the hall arch, her bag already slung over one shoulder. Her expression wasn’t angry, not anymore, just tired. Deflated. As if every word had already been said too many times and worn itself thin from repetition. One hand gripped the strap of her bag; the other hung loose at her side.
+
+Neither of them spoke. The silence was heavy.
+
+For a moment, he didn’t move. He turned away from the window and walked slowly through the living room. His eyes glanced at the surroundings of a life shared: a scarf slung over the back of a chair, a dried-out plant they’d both forgotten to water.
+
+He sat down heavily on the sofa, the cushions sagging beneath him. Somewhere in the flat above, footsteps thudded distantly. A clock ticked, impossibly loud. The rain had started in earnest now, drumming steadily on the windowpanes like an unwelcome reminder that the world was still turning.
+
+A gust of wind moaned against the building, rattling the windows in their frames. She stepped back into the hall, eyes fixed somewhere beyond him now. A final glance. Unreadable.
+
+Then he heard the door slam.
+
+> **[mark-scheme]**
+> This is a highly accomplished and controlled narrative that comfortably meets the highest level of the mark scheme. The piece is atmospheric and poignant, with a strong sense of structure that builds tension with precision. The writing demonstrates a mature awareness of tone, effectively conveyed through subtle detail and an authentic narrative voice. Descriptive language is evocative and purposeful, with imagery that enhances both mood and setting. Sentence structures are confidently varied to manipulate rhythm and reflect the shifting tone, while vocabulary is both precise and sophisticated, lending the piece clarity and depth. Punctuation is handled with intention, shaping meaning and supporting the thoughtful, reflective tone. Overall, this is a compelling and polished piece of narrative writing that shows excellent command of language and an assured understanding of form.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+### Model answer
+
+**Lost**
+
+The fog had rolled in without warning, thick and low, erasing the landscape as it moved. One moment, the path had been clear and the next, it had vanished, swallowed whole by the ever creeping mist.
+
+Ellie stopped walking and listened. Nothing. Not even the rustle of wind through grass. Just the muffled silence that fog brings, as if the whole world were holding its breath.
+
+She turned slowly, scanning for something, something familiar. The fallen stone wall? The twisted hawthorn tree they’d passed earlier? But the fog had transformed everything into shadowy shapes, vague and shifting, none of them trustworthy. Her fingers tightened around the fraying strap of her rucksack. She’d been told not to wander off. Just wait at the barn, they’d said. Someone would be back soon.
+
+But the barn wasn’t there anymore. Or rather, it probably was. Hidden in the mist.
+
+She started walking again, more out of fear of standing still than with any real sense of direction. Her boots squelched on the soft ground and the moisture from the mist clung to her skin and hair. Somewhere in the distance, something let out a low, echoing cry. The sound only made her feel more alone.
+
+She tried to think logically. Retrace her steps. But every turn she took seemed to lead her deeper into a grey, featureless maze. Time blurred. Minutes, maybe hours. The weight of panic pressed down on her chest.
+
+Eventually, she reached a small hill, its gentle slope rising into the sea of mist. At the top, she stood still. The wind was stronger here, though still gentle, pulling at strands of her damp hair and carrying with it the earthy scent of peat and rain.
+
+Like a curtain lifting, the fog began to shift. Slowly, lazily, it drew back, revealing the valley below: green, gold and speckled with sheep. And there, far off but yet unmistakable, she saw a red jacket moving steadily along a path.
+
+Her heart surged. She raised both arms and waved, shouting as loud as she could.
+
+The figure stopped and turned.
+
+A voice, faint but certain, called her name.
+
+Relief hit her like a wave, sudden and overwhelming. She laughed, though it caught in her throat and came out like a half-sob, half-shout. She was still trembling as the figure came closer, their boots crunching on the gravel.
+
+“I told you to stay put,” her brother said, but his voice was more worried than angry.
+
+She moved forward and clung to him like an anchor.
+
+The fog had cleared now. The path was there, obvious and reassuring. But Ellie still held on tightly, as if she didn’t quite trust the world not to vanish again into the thick mist.
+
+> **[mark-scheme]**
+> This is a confident and atmospheric narrative that demonstrates strong control of language and structure. Imagery is vivid and original, particularly in the description of the fog, which establishes mood and setting very effectively. Sentence structures are varied to create tension and reflect emotion, while vocabulary choices are both sophisticated and well-judged. Punctuation is also used effectively to support tone. Overall, this is a compelling piece that shows excellent awareness of audience and form.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+### Model answer
+
+The hall was warm and too bright. It was the kind of artificial lighting that flattened everything. Rows of chairs had been lined up with painful precision and the air buzzed faintly with the chatter of students and the rustle of programmes clutched in nervous hands. Somewhere near the front, someone coughed.
+
+At the back, half in shadow by the open door, she stood alone, her back pressed against the cold brick wall. The programme sheet in her hand was already crumpled from being folded and unfolded. Her jumper sleeves were tugged low, covering her fists clenched tightly at her sides.
+
+On stage, the headteacher approached the microphone, his voice crackling into life through the dusty speakers. “We’re here tonight to celebrate excellence,” he said, his words echoing off the high ceiling. “These awards go to students who have not only achieved highly, but who have shown resilience, responsibility and leadership.”
+
+She swallowed hard. That was her, wasn’t it? That had to be her. She had worked late into the evening on homework while others copied answers five minutes before registration. She’d volunteered for the paired reading scheme, offered to run the charity bake sale and always stayed behind to stack chairs when everyone else had gone. Her teachers had smiled at her, nodded approvingly.
+
+She’d believed that meant something.
+
+The names started. First the obvious ones. These were the high-fliers, the prefects, the team captains. Polished shoes tapped their way down the aisle to polite applause. Each student collected a certificate heavy with glossy lamination and gold foil. A camera flashed. Parents clapped louder than the children.
+
+Then came the surprises. These were students she hadn’t known were even being considered. Someone who had missed half the term, someone else who had cheated in group work. The applause grew louder, but she barely heard it. Her eyes were fixed on the stack of certificates. It was getting smaller.
+
+She stood still, breathing carefully, ignoring the way her heart thudded against her ribs like a trapped bird.
+
+“And finally,” the headteacher said, with a broad smile, “a huge thank you to all of our students — you’ve made us proud.”
+
+The room erupted in cheers. People stood. Programmes fluttered to the floor. A phone rang shrilly and was quickly silenced.
+
+She didn’t move.
+
+The fluorescent lights buzzed overhead. No one turned to look at her. No one noticed the stillness of the girl who hadn’t been called. She slipped out into the corridor, the doors swinging shut behind her with a soft click. The cool air hit her face. Out here, the sounds of celebration were dulled, distant.
+
+She walked slowly, her shoes clicking softly on the lino floor. At her locker, she fumbled with the stiff handle, opened the door and stared at the small mirror on the inside. Her reflection blinked back.
+
+No tears. Not yet.
+
+She hadn’t wanted a trophy. She hadn’t wanted the spotlight. Just a name read out. A moment of being recognised.
+
+But it hadn’t come.
+
+And that absence, heavy, invisible, was the sharpest disappointment of all.
+
+> **[mark-scheme]**
+> This is a confident and well-crafted narrative that fully meets the top-level criteria of the mark scheme. The writing demonstrates excellent control of tone, structure and character perspective, with vivid and effective imagery used to create atmosphere and convey emotion. The depiction of disappointment is subtle and layered, supported by a reflective narrative voice that adds depth and authenticity. Sentence structures are varied to shape rhythm and tension, while vocabulary choices are sophisticated. Punctuation is used effectively to guide the reader and enhance meaning. Overall, this is a sophisticated response that shows strong awareness of audience and form.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+## June 2018 Section B Writing (3 questions)
+
+
+### Q1
+## Model answer
+
+I did not have time for this.
+
+The words thudded through my mind as I stared at the car. It was completely still in the middle of the road, bonnet steaming like an irate kettle. Rain drizzled in thin needles across the windscreen, distorting the sight of red brake lights blinking up ahead. I gripped the wheel, then released it with a sigh. Breakdown. Of all the days.
+
+It was already 8.34 a.m. My interview, the one I had spent weeks preparing for, the one I’d rehearsed in front of mirrors and on countless buses, started at nine sharp. No exceptions, the email had said, firmly. No late arrivals.
+
+A car swerved past, its horn blaring in irritation. I flinched and fumbled for my phone. One bar of signal. I swore under my breath. No reception. No way to call a taxi, no friends nearby and certainly no time to wait. I was stranded on the outskirts of a city I barely knew, with thirty minutes to travel half a mile in shoes that pinched my feet.
+
+I stepped out into the rain. It wasn’t heavy, but it was persistent. It was the kind that soaked through slowly but thoroughly, settling in the folds of your clothes and making everything feel heavier. A puddle swallowed my right foot almost instantly and I cursed again. I decided to run.
+
+My shoes slapped the grey pavement with a thud, water flicking out behind me. The roads blurred, street names became meaningless. I followed the rhythm of my breath, the relentless tick of the minutes slipping away.
+
+Left at the crossroads. Over the bridge. Past the bakery with the sweet scent of pastries in the air.
+
+I arrived at the office building with mere seconds to spare, lungs burning and my heart hammering against my ribs. Behind the reception desk, a woman glanced up, with one eyebrow arched, the corners of her mouth threatening a smirk. I must have seen a terrible sight: hair matted to my forehead, jacket clinging to my damp frame and mascara streaked down my cheeks.
+
+“Interview?” she asked. I nodded, too out of breath to speak.
+
+She handed me a tissue. “Take a moment.”
+
+As I stood before the meeting room door, chest tight with adrenaline and heart pounding, a quiet realisation settled over me. I’d made it. Despite the chaos, despite every excuse to give in to frustration, I hadn’t. And somehow, that mattered.
+
+I straightened my back, smoothed my damp shirt and pushed the door open.
+
+So maybe one day, when I’m asked about my first job interview, I’ll start my story, “I didn’t have time for this.” But somehow, in the end, I found a way to make time and that made all the difference.
+
+> **[mark-scheme]**
+> This is a confident and well-structured narrative that fully meets the top level of the mark scheme. The story is skilfully crafted, with a clear sense of purpose and direction and a narrator whose voice feels authentic and engaging. Descriptive language and well-judged imagery are used effectively to convey atmosphere and emotion, while sentence structures are varied to control pace and tension. Vocabulary choices are precise and often sophisticated and punctuation is used purposefully to shape meaning and support tone. Overall, this is a compelling piece that demonstrates excellent control of language and strong awareness of audience and form.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - Using one of the images does not mean you have to describe exactly what you see; the images are there as a spring board for your creativity
+
+### Q2
+## Model answer
+
+**A Surprise Visitor**
+
+It was the kind of evening that demanded nothing more than tea, a blanket and silence. Rain threaded its way down the windows in thin silver ribbons and the clock ticked with the lazy confidence of a Sunday spent indoors. I had just settled into the armchair with a book I’d read too many times before, comforted by its predictability, when the doorbell rang.
+
+Once.
+
+Then again.
+
+The sound was sharp, jarring against the hush of the house. I hesitated. No one ever came unannounced — not here, not now. I lived alone on a narrow street at the edge of the village, where everyone knows everyone and surprises are few. Visitors were a rarity.
+
+I placed the book down, its spine creaking faintly and made my way to the door. The hallway was dim, lit only by the golden glow of the lamp in the living room behind me. I opened the door cautiously.
+
+At first, I didn’t recognise him.
+
+He was soaked to the skin, water dripping from the ends of his hair, his coat sagging heavily from the rain. But his eyes were unmistakable. They were grey with flecks of green, exactly like the ones that used to peer at me from the other side of the breakfast table, years ago.
+
+“Daniel?” The name escaped my lips as a breath, not a word.
+
+He nodded, a tentative smile tugging at the corner of his mouth. “Hi, Em.”
+
+It had been eight years. Eight years since the last fight, since slammed doors and silence stretched into months, then years. He’d left with a suitcase and an apology he hadn’t quite managed to say. I had never expected to see my brother again. At least not in person, not on my doorstep, not now.
+
+“I didn’t know where else to go,” he said, his voice low.
+
+I should have asked questions. I should have demanded answers. But instead, I stepped aside. He crossed the threshold slowly.
+
+I handed him a towel and a cup of tea, both wordlessly accepted. For a while, we said nothing. The quiet between us was no longer sharp or cold.
+
+Eventually, he looked up. “I’ve missed this,” he said. “I’ve missed you.”
+
+And there it was: not an apology, not exactly. But enough.
+
+Outside, the rain softened to a drizzle, tapping gently against the glass. In the warmth of the small living room, past and present began to untangle, slowly stitching themselves into something new.
+
+He hadn’t explained his arrival, nor offered any hint of how long he might remain. However, in that moment, with shadows stretching across the floor and the silence thick between us, none of that seemed to matter.
+
+He was here. That was enough.
+
+> **[mark-scheme]**
+> This is a well-crafted and thoughtful narrative that fully meets the highest level of the mark scheme. The response demonstrates a strong command of language, using rich imagery and subtle detail to evoke atmosphere and emotion. Vocabulary is precise and sophisticated, while sentence structures are varied to create rhythm and maintain reader engagement. The narrative is well paced and ideas are cohesively developed, with punctuation used purposefully to shape tone and meaning. The story's nuances make it both believable and compelling, reflecting an assured understanding of audience and purpose.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16–18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11–12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed
+
+### Q3
+## Model answer
+
+The auditorium was steeped in a heavy hush.
+
+At the centre of the spotlight stood my sister, clutching the violin she had spent the last ten years trying to perfect. From my seat in the third row, I could see the slight tremble in her fingers as she lifted the bow, the faint line of tension around her mouth. However, in her eyes, there was clarity. Determination. A quiet fire.
+
+It had taken years to get here.
+
+I remembered the early days. The squeaky notes, frustrated tears and the silent dinners when she refused to speak until she’d mastered just one part of the composition. There were competitions lost, judges who barely glanced up and moments where she came close to walking away from it all. But somehow, she never did. She rehearsed through illness, through the weight of looming coursework deadlines and exam stress, through disappointment and doubt.
+
+And now, here she was: centre stage at the National Youth Music Finals. The culmination of everything she had prepared for.
+
+The moment her bow touched the strings, time shifted. The first note unfurled like a ribbon of gold, delicate yet unshakable. I forgot the audience, the judges, even my own nervous breath. The music held us captive. Each rise and fall etched with something more than skill. There was emotion there, a sincerity that couldn’t be rehearsed.
+
+By the time the last note lingered in the air, then faded into silence, the entire hall seemed to pause. And then: applause. It rolled through the room in waves, pulling people to their feet. I watched my sister’s expression break. It was not in fear or hesitation, but with the radiant joy that comes only after years of quiet, determined struggle.
+
+It wasn’t just about winning. It was about everything it had taken to get there. The stumbles, setbacks, the almosts and the silent triumphs that passed without any applause.
+
+That night, as we drove home with the trophy beside her and her fingers still tapping rhythms against her knee, I realised something. Success isn’t loud. It doesn’t always look like fireworks or headlines. Sometimes, success is the sound of a final note ringing out in a silent hall. Sometimes, it's the moment you realise you never gave up.
+
+As we drove home, her trophy glinting beside her, fingers still drumming quiet rhythms on her knee, I watched her gaze drift out of the window. It was not to the past or even the stage she’d just departed, but forward to whatever came next.
+
+> **[mark-scheme]**
+> This is a confident narrative that fully meets the top-level criteria of the mark scheme. The response is crafted with precision, demonstrating excellent control of tone, structure and narrative perspective. Imagery is used skilfully to evoke mood and character, while the writer’s reflective voice provides thoughtful insight into the nature of success. Sentence structures are varied to enhance rhythm and emphasis and vocabulary is ambitious. Punctuation is used effectively to shape meaning and guide the reader through the response. Overall, this is a subtle, poignant and well-executed response that shows a sophisticated awareness of the intended audience.
+> 
+> | **AO4**: Communicate effectively and imaginatively, adapting form, tone and register of writing for specific purposes and audiences:<br><br>- **Level 5: 16-18 marks** | - You have successfully adapted your tone and register to suit the purpose of the task and the expectations of the intended reader<br>- Your writing is sophisticated and developed<br>- Your ideas are perceptive and insightful |
+> |---|---|
+> 
+> | **AO5**: Write clearly, using a range of vocabulary and sentence structures, with appropriate paragraphing and accurate spelling, grammar and punctuation:<br><br>- **Level 5: 11-12 marks** | - You have included complex ideas, using a range of structural and grammatical features<br>- You have used extensive and sophisticated vocabulary<br>- You have deliberately used punctuation accurately to shape your writing<br>- You have deliberately used a range of sentence structures to achieve effects |
+> |---|---|
+
+> **[exam-tip]**
+> - It is important to make a brief plan before you start writing your response to demonstrate control and structure in your writing
+> - Try to be creative and original
+> - Try to vary your use of punctuation and sentence structures for impact
+> - It is better to focus on one situation and no more than two characters, but make them well-developed

@@ -1,0 +1,1168 @@
+meta:
+  curriculum_code: 4MA1-2016
+  qualification: Pearson Edexcel International GCSE (9-1) Mathematics A
+  syllabus_version: '2016'
+  tier_program: Higher
+  phase: 1
+  node_families:
+  - TOPIC
+  - SUBTOPIC
+  - SPEC_POINT
+  graph_format_version: 1
+  source_documents:
+  - file: international-gcse-in-mathematics-spec-a.pdf
+    role: official-pdf
+    sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+  - file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    role: canonical-pdf-direct-parse
+    builder: canonical-builder-2.0
+  edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+    RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+  provenance_default: RULE_DERIVED
+  statement_text_policy: verbatim from the official PDF (canonical PDF-direct parse, whitespace-normalised
+    only); notation damage preserved and flagged, never fixed
+  tier_dedupe:
+    rule: higher-preferred — where an official_code appears in both tier walks the Higher-tier statement
+      is the operative wording for the commissioned Higher program; Foundation-only statements are carried
+      verbatim (assumed knowledge per the spec's own applicability rule)
+    ledger: graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json
+    dup_codes: 54
+    reworded: 53
+    same_text: 1
+    higher_only: 26
+    foundation_only: 108
+  notes:
+  - content subsections are numbered without titles in this specification (canonical subsection.title
+    empty on all 242 rows) — subtopic titles are null, never invented
+  - no spec-issue string is asserted by the canonical parse; syllabus_version 2016 per the hub registry
+    and s105 usage
+  - draft_skill_tags are a chemistry c09-era authoring aid with no canonical source in this parse — not
+    derived for this qual
+  counts:
+    spec_points: 188
+    topics: 6
+    subtopics: 39
+    practicals: 0
+    command_words: 0
+    flagged_spec_points: 8
+    damage_flag_vocabulary:
+    - math-fragment-assembly
+  generator: scripts/c30_emit_maths_a_spec_stores.py
+  generated: '2026-10-01'
+topics:
+- code: 4MA1-S1
+  title: Numbers and the number system
+  title_md: Numbers and the number system
+  ordering: 1
+  header_source: canonical-pdf-direct-parse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2
+  title: Equations, formulae and identities
+  title_md: Equations, formulae and identities
+  ordering: 2
+  header_source: canonical-pdf-direct-parse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S3
+  title: Sequences, functions and graphs
+  title_md: Sequences, functions and graphs
+  ordering: 3
+  header_source: canonical-pdf-direct-parse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4
+  title: Geometry and trigonometry
+  title_md: Geometry and trigonometry
+  ordering: 4
+  header_source: canonical-pdf-direct-parse (Higher-tier walk title; Foundation variant in the C30 ledger)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S5
+  title: Vectors and transformation geometry
+  title_md: Vectors and transformation geometry
+  ordering: 5
+  header_source: canonical-pdf-direct-parse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S6
+  title: Statistics and probability
+  title_md: Statistics and probability
+  ordering: 6
+  header_source: canonical-pdf-direct-parse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/topics.json
+    extraction_method: at-a-glance content-table row + content-walk topic headers
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+subtopics:
+- code: 4MA1-S1-1.1
+  parent: 4MA1-S1
+  letter: '1.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 1
+  spec_points:
+  - 4MA1-1.1A
+  - 4MA1-1.1B
+  - 4MA1-1.1C
+  - 4MA1-1.1D
+  - 4MA1-1.1E
+  - 4MA1-1.1F
+  - 4MA1-1.1G
+  - 4MA1-1.1H
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.2
+  parent: 4MA1-S1
+  letter: '1.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 2
+  spec_points:
+  - 4MA1-1.2A
+  - 4MA1-1.2B
+  - 4MA1-1.2C
+  - 4MA1-1.2D
+  - 4MA1-1.2E
+  - 4MA1-1.2F
+  - 4MA1-1.2G
+  - 4MA1-1.2H
+  - 4MA1-1.2I
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.3
+  parent: 4MA1-S1
+  letter: '1.3'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 3
+  spec_points:
+  - 4MA1-1.3A
+  - 4MA1-1.3B
+  - 4MA1-1.3C
+  - 4MA1-1.3D
+  - 4MA1-1.3E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.4
+  parent: 4MA1-S1
+  letter: '1.4'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 4
+  spec_points:
+  - 4MA1-1.4A
+  - 4MA1-1.4B
+  - 4MA1-1.4C
+  - 4MA1-1.4D
+  - 4MA1-1.4E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.5
+  parent: 4MA1-S1
+  letter: '1.5'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 5
+  spec_points:
+  - 4MA1-1.5A
+  - 4MA1-1.5B
+  - 4MA1-1.5C
+  - 4MA1-1.5D
+  - 4MA1-1.5E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.6
+  parent: 4MA1-S1
+  letter: '1.6'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 6
+  spec_points:
+  - 4MA1-1.6A
+  - 4MA1-1.6B
+  - 4MA1-1.6C
+  - 4MA1-1.6D
+  - 4MA1-1.6E
+  - 4MA1-1.6F
+  - 4MA1-1.6G
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.7
+  parent: 4MA1-S1
+  letter: '1.7'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 7
+  spec_points:
+  - 4MA1-1.7A
+  - 4MA1-1.7B
+  - 4MA1-1.7C
+  - 4MA1-1.7D
+  - 4MA1-1.7E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.8
+  parent: 4MA1-S1
+  letter: '1.8'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 8
+  spec_points:
+  - 4MA1-1.8A
+  - 4MA1-1.8B
+  - 4MA1-1.8C
+  - 4MA1-1.8D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.9
+  parent: 4MA1-S1
+  letter: '1.9'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 9
+  spec_points:
+  - 4MA1-1.9A
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.10
+  parent: 4MA1-S1
+  letter: '1.10'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 10
+  spec_points:
+  - 4MA1-1.10A
+  - 4MA1-1.10B
+  - 4MA1-1.10C
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S1-1.11
+  parent: 4MA1-S1
+  letter: '1.11'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 11
+  spec_points:
+  - 4MA1-1.11A
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.1
+  parent: 4MA1-S2
+  letter: '2.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 12
+  spec_points:
+  - 4MA1-2.1A
+  - 4MA1-2.1B
+  - 4MA1-2.1C
+  - 4MA1-2.1D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.2
+  parent: 4MA1-S2
+  letter: '2.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 13
+  spec_points:
+  - 4MA1-2.2A
+  - 4MA1-2.2B
+  - 4MA1-2.2C
+  - 4MA1-2.2D
+  - 4MA1-2.2E
+  - 4MA1-2.2F
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.3
+  parent: 4MA1-S2
+  letter: '2.3'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 14
+  spec_points:
+  - 4MA1-2.3A
+  - 4MA1-2.3B
+  - 4MA1-2.3C
+  - 4MA1-2.3D
+  - 4MA1-2.3E
+  - 4MA1-2.3F
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.4
+  parent: 4MA1-S2
+  letter: '2.4'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 15
+  spec_points:
+  - 4MA1-2.4A
+  - 4MA1-2.4B
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.5
+  parent: 4MA1-S2
+  letter: '2.5'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 16
+  spec_points:
+  - 4MA1-2.5A
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.6
+  parent: 4MA1-S2
+  letter: '2.6'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 17
+  spec_points:
+  - 4MA1-2.6A
+  - 4MA1-2.6B
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.7
+  parent: 4MA1-S2
+  letter: '2.7'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 18
+  spec_points:
+  - 4MA1-2.7A
+  - 4MA1-2.7B
+  - 4MA1-2.7C
+  - 4MA1-2.7D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S2-2.8
+  parent: 4MA1-S2
+  letter: '2.8'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 19
+  spec_points:
+  - 4MA1-2.8A
+  - 4MA1-2.8B
+  - 4MA1-2.8C
+  - 4MA1-2.8D
+  - 4MA1-2.8E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S3-3.1
+  parent: 4MA1-S3
+  letter: '3.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 20
+  spec_points:
+  - 4MA1-3.1A
+  - 4MA1-3.1B
+  - 4MA1-3.1C
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S3-3.2
+  parent: 4MA1-S3
+  letter: '3.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 21
+  spec_points:
+  - 4MA1-3.2A
+  - 4MA1-3.2B
+  - 4MA1-3.2C
+  - 4MA1-3.2D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S3-3.3
+  parent: 4MA1-S3
+  letter: '3.3'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 22
+  spec_points:
+  - 4MA1-3.3A
+  - 4MA1-3.3B
+  - 4MA1-3.3C
+  - 4MA1-3.3D
+  - 4MA1-3.3E
+  - 4MA1-3.3F
+  - 4MA1-3.3G
+  - 4MA1-3.3H
+  - 4MA1-3.3I
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S3-3.4
+  parent: 4MA1-S3
+  letter: '3.4'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 23
+  spec_points:
+  - 4MA1-3.4A
+  - 4MA1-3.4B
+  - 4MA1-3.4C
+  - 4MA1-3.4D
+  - 4MA1-3.4E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.1
+  parent: 4MA1-S4
+  letter: '4.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 24
+  spec_points:
+  - 4MA1-4.1A
+  - 4MA1-4.1B
+  - 4MA1-4.1C
+  - 4MA1-4.1D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.2
+  parent: 4MA1-S4
+  letter: '4.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 25
+  spec_points:
+  - 4MA1-4.2A
+  - 4MA1-4.2B
+  - 4MA1-4.2C
+  - 4MA1-4.2D
+  - 4MA1-4.2E
+  - 4MA1-4.2F
+  - 4MA1-4.2G
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.3
+  parent: 4MA1-S4
+  letter: '4.3'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 26
+  spec_points:
+  - 4MA1-4.3A
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.4
+  parent: 4MA1-S4
+  letter: '4.4'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 27
+  spec_points:
+  - 4MA1-4.4A
+  - 4MA1-4.4B
+  - 4MA1-4.4C
+  - 4MA1-4.4D
+  - 4MA1-4.4E
+  - 4MA1-4.4F
+  - 4MA1-4.4G
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.5
+  parent: 4MA1-S4
+  letter: '4.5'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 28
+  spec_points:
+  - 4MA1-4.5A
+  - 4MA1-4.5B
+  - 4MA1-4.5C
+  - 4MA1-4.5D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.6
+  parent: 4MA1-S4
+  letter: '4.6'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 29
+  spec_points:
+  - 4MA1-4.6A
+  - 4MA1-4.6B
+  - 4MA1-4.6C
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.7
+  parent: 4MA1-S4
+  letter: '4.7'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 30
+  spec_points:
+  - 4MA1-4.7A
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.8
+  parent: 4MA1-S4
+  letter: '4.8'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 31
+  spec_points:
+  - 4MA1-4.8A
+  - 4MA1-4.8B
+  - 4MA1-4.8C
+  - 4MA1-4.8D
+  - 4MA1-4.8E
+  - 4MA1-4.8F
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.9
+  parent: 4MA1-S4
+  letter: '4.9'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 32
+  spec_points:
+  - 4MA1-4.9A
+  - 4MA1-4.9B
+  - 4MA1-4.9C
+  - 4MA1-4.9D
+  - 4MA1-4.9E
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.10
+  parent: 4MA1-S4
+  letter: '4.10'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 33
+  spec_points:
+  - 4MA1-4.10A
+  - 4MA1-4.10B
+  - 4MA1-4.10C
+  - 4MA1-4.10D
+  - 4MA1-4.10E
+  - 4MA1-4.10F
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S4-4.11
+  parent: 4MA1-S4
+  letter: '4.11'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 34
+  spec_points:
+  - 4MA1-4.11A
+  - 4MA1-4.11B
+  - 4MA1-4.11C
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S5-5.1
+  parent: 4MA1-S5
+  letter: '5.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 35
+  spec_points:
+  - 4MA1-5.1A
+  - 4MA1-5.1B
+  - 4MA1-5.1C
+  - 4MA1-5.1D
+  - 4MA1-5.1E
+  - 4MA1-5.1F
+  - 4MA1-5.1G
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S5-5.2
+  parent: 4MA1-S5
+  letter: '5.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 36
+  spec_points:
+  - 4MA1-5.2A
+  - 4MA1-5.2B
+  - 4MA1-5.2C
+  - 4MA1-5.2D
+  - 4MA1-5.2E
+  - 4MA1-5.2F
+  - 4MA1-5.2G
+  - 4MA1-5.2H
+  - 4MA1-5.2I
+  - 4MA1-5.2J
+  - 4MA1-5.2K
+  - 4MA1-5.2L
+  - 4MA1-5.2M
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S6-6.1
+  parent: 4MA1-S6
+  letter: '6.1'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 37
+  spec_points:
+  - 4MA1-6.1A
+  - 4MA1-6.1B
+  - 4MA1-6.1C
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S6-6.2
+  parent: 4MA1-S6
+  letter: '6.2'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 38
+  spec_points:
+  - 4MA1-6.2A
+  - 4MA1-6.2B
+  - 4MA1-6.2C
+  - 4MA1-6.2D
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []
+- code: 4MA1-S6-6.3
+  parent: 4MA1-S6
+  letter: '6.3'
+  title: null
+  title_md: null
+  header_source: none — the specification numbers content subsections without titles
+  ordering: 39
+  spec_points:
+  - 4MA1-6.3A
+  - 4MA1-6.3B
+  - 4MA1-6.3C
+  - 4MA1-6.3D
+  - 4MA1-6.3E
+  - 4MA1-6.3F
+  - 4MA1-6.3G
+  - 4MA1-6.3H
+  - 4MA1-6.3I
+  - 4MA1-6.3J
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: Official-Specifications/parsed/igcse-maths-a/spec_points.json
+    extraction_method: content-walk subsection groupings (span-geometry)
+    generated_by: scripts/c30_emit_maths_a_spec_stores.py
+    generated_date: '2026-10-01'
+    pdf_source: international-gcse-in-mathematics-spec-a.pdf
+    pdf_sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+    canonical_builder: canonical-builder-2.0 (2026-09-17)
+  damage_flags: []

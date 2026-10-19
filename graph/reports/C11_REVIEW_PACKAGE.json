@@ -1,0 +1,3656 @@
+{
+  "task": "T-C11",
+  "stage": "operator-review-package",
+  "session": 43,
+  "generated": "2026-09-12",
+  "baselines": {
+    "resources": "3b70dde",
+    "syllabai": "6d36fb0"
+  },
+  "authority": {
+    "promotion_authority": false,
+    "s16_authorization": false,
+    "graph_modification": false,
+    "expansion": false,
+    "constraint_verbatim": [
+      "Do not promote anything. Do not modify the authoritative graph. Do not open §16. Do not begin S1-remainder/S2/S3/S4 expansion.",
+      "No promotion authority and no §16 authorization.",
+      "Correct the phantom 'aximum yield' report text; do not modify the actual concept alias until evidence/disposition is established."
+    ]
+  },
+  "reconciliation": {
+    "resources": "4ac4a82 -> 3b70dde (ff-only; +3 remote: RAG corpus guidance + 2 Drive-sync CI)",
+    "syllabai": "6ef49f2 -> 6d36fb0 (ff-only; +10 remote incl. session-42 T-C12, ADR-020, dashboard CI)",
+    "note": "T-C12 subsequently moved forward; local Session-41 clones were behind origin and were reconciled before any work"
+  },
+  "edge_dossiers": [
+    {
+      "id": "E-01",
+      "triple": "4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS",
+      "source": "4CH1-CON-MOLE-MASS-CONV",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLAR-MASS",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+          "quote": "The mass is calculated by moles x molar mass"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The conversion formula (mass = moles x molar mass and rearrangements) contains the molar mass; the mapped note teaches molar mass first, then the conversion.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-02",
+      "triple": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source": "4CH1-CON-MOLAR-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+          "quote": "The mass of 1 mole of a substance is known as the molar mass"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "Molar mass is defined per mole (\"the mass of 1 mole\"); the definition presupposes the mole concept.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-03",
+      "triple": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR",
+      "source": "4CH1-CON-MOLAR-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MR",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+          "quote": "For a compound, it is the same as the relative molecular or formula mass in grams"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "Molar mass of a compound is defined numerically as its Mr in grams; the mapped note links them explicitly and uses Mr in every compound worked example.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-04",
+      "triple": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "source": "4CH1-CON-MOLAR-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-AR",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+          "quote": "For an element, it is the same as the relative atomic mass written in grams"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "Molar mass of an element is defined as its Ar in grams; the mapped note links them explicitly (Na/He/Li examples).",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE (transitively-reachable; §19 semantic-distinctness precedent — pass-2 addressed the pair)",
+        "flags": [
+          "FC-3 machine-flag (informational): target transitively reachable via other RP edges — §19: reachable ≠ redundant; per-edge semantic judgment"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Both Ar and Mr edges are real (element vs compound definitions are adjacent bullets); not double-counting.",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; the reachability machine-flag is the §19 MOLAR-MASS→{MR, AR} precedent (reachable ≠ redundant: element vs compound definitions) and pass-2 explicitly dismissed double-counting",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-05",
+      "triple": "4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "source": "4CH1-CON-MR",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-AR",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "To calculate the Mr of a substance, you have to add up the relative atomic masses of all the atoms present in the formula"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "Mr is computed BY summing Ar values (the 1.26 demand itself); every worked example in the mapped note takes Ar values as inputs without re-deriving them.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-06",
+      "triple": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV",
+      "source": "4CH1-CON-REACTING-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE-MASS-CONV",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+          "quote": "Step 1 - calculate the moles of magnesium"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Every worked example opens with moles = mass/Mr as a given step; the mole-mass conversion is never re-taught in this note (it is the 1.28 note's job).",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-07",
+      "triple": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO",
+      "source": "4CH1-CON-REACTING-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLAR-RATIO",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+          "quote": "Step 2 - use the molar ratio from the balanced symbol equation"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Step 2 of the three-step procedure uses the molar ratio as a given; the ratio concept is exercised, not taught, here.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-08",
+      "triple": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL",
+      "source": "4CH1-CON-REACTING-MASS",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-EQ-SYMBOL",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+          "quote": "Then, the ratio between the substances is identified using the balanced chemical equation"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The procedure presupposes the ability to read a balanced equation (provided ready-made in both worked examples); equation writing/balancing is the 1.25 note's job.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_AMBIGUOUS (granularity note)",
+        "flags": [
+          "granularity: pass-2 FP-3 note"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Granularity note: the operative dependency is on *interpreting* a given balanced equation; CON-EQ-SYMBOL also covers writing/balancing. Right at the available concept granularity; note for expansion.",
+        "group": "G3"
+      },
+      "recommendation": "CONFIRM likely (high confidence, pass-2 concordant; the granularity point is an expansion-round concern) — or HOLD if an interpret-equations concept should be minted first",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-09",
+      "triple": "4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD",
+      "source": "4CH1-CON-PERCENT-YIELD",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-THEOR-YIELD",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+          "quote": "The percentage yield compares the actual yield to the theoretical yield"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The denominator object of the 1.30 formula; the comparison is meaningless without the theoretical-yield concept.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "FC-3 (OD-1-linked)",
+        "flags": [
+          "FC-3: same-anchor operand pair (OD-1-linked; vanishes under merge)"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Split artifact: if the yield nodes are merged, this edge disappears. CONFIRM at current granularity.",
+        "group": "G2"
+      },
+      "recommendation": "CONFIRM jointly with the OD-1 ratification — the pair mirrors the formula's operand structure and vanishes under an operator merge; do not confirm individually before ruling OD-1",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-10",
+      "triple": "4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD",
+      "source": "4CH1-CON-PERCENT-YIELD",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-YIELD",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+          "quote": "The percentage yield compares the actual yield to the theoretical yield"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The numerator object of the 1.30 formula. Same anchor quote as the THEOR-YIELD edge — both components of the one taught comparison; review may merge these two edges with the numerator/denominator pair if the split is judged too fine.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "FC-3 (OD-1-linked)",
+        "flags": [
+          "FC-3: same-anchor operand pair (OD-1-linked; vanishes under merge)"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Split artifact (same anchor quote as the THEOR-YIELD edge): both components of the one taught comparison. Merge candidate alongside the node merges.",
+        "group": "G2"
+      },
+      "recommendation": "CONFIRM jointly with the OD-1 ratification — the pair mirrors the formula's operand structure and vanishes under an operator merge; do not confirm individually before ruling OD-1",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-11",
+      "triple": "4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS",
+      "source": "4CH1-CON-THEOR-YIELD",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-REACTING-MASS",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+          "quote": "It is calculated from the balanced equation and the reacting masses"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The note states the theoretical yield's derivation basis (balanced equation + reacting masses) as a given — cross-SP dependency 1.30 -> 1.29; the reacting-mass procedure is not re-taught here.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-12",
+      "triple": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA",
+      "source": "4CH1-CON-EMP-MOL-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-EMPIRICAL-FORMULA",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "Write the final empirical formula"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The procedure's step 6 outputs an empirical formula; steps 5-6 operate on the simplest-whole-number-ratio definition taught in the same note's definition section (and demanded by 1.32).",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.32 + 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-13",
+      "triple": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source": "4CH1-CON-EMP-MOL-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "Calculate the moles of each element"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Procedure step 4 instructs \"Calculate the moles of each element\" without the note ever defining the mole (the 1.27 note's job) — textbook use-without-reteaching.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-14",
+      "triple": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "source": "4CH1-CON-EMP-MOL-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-AR",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "Write the relative atomic mass of each element"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Procedure step 3 uses Ar values as given inputs; where Ar values come from is never taught in this note (the 1.26/periodic-table territory).",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-15",
+      "triple": "4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA",
+      "source": "4CH1-CON-MOLECULAR-FORMULA",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-EMPIRICAL-FORMULA",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "Find the relative formula mass of the empirical formula"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The molecular-formula derivation procedure (note step 1-3) takes the empirical formula as its input and scales it; the taught relationship table (methane/ethane/ethene/benzene) presupposes both concepts.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.32 + 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-16",
+      "triple": "4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR",
+      "source": "4CH1-CON-MOLECULAR-FORMULA",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MR",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "Add the relative atomic masses of all the atoms in the empirical formula"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The scaling factor is Mr(molecular)/Mr(empirical); both Mr computations are used as given skills (the 1.26 note's job).",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-17",
+      "triple": "4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC",
+      "source": "4CH1-CON-WATER-CRYST",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-EMP-MOL-CALC",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+          "quote": "The steps for empirical formula can be adapted for hydrated salt / water of crystallisation calculations"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit teaching sequence in the note",
+      "rationale": "The note explicitly teaches the hydrated-salt determination as an ADAPTATION of the empirical-formula steps (same note, later section); the examiner tip reinforces: \"it is an application of deducing empirical formulae\".",
+      "derivation_method": "EXPLICIT_TEACH_SEQUENCE",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.31 @ Empirical & Molecular Formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-18",
+      "triple": "4CH1-CON-EXP-FORMULA-DEDUCTION REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source": "4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+          "quote": "The principle is to use mass measurements before and after a reaction and then convert masses into moles"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The deduction method's core move is mass -> moles; the note never defines the mole (the 1.27 note's job).",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.31 @ Simple compound formulae (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-19",
+      "triple": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "source": "4CH1-PR-03",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+          "quote": "Divide each of the two masses by the relative atomic masses of the element"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Practical->conceptual: both 1.36 practicals (MgO by combustion, CuO by reduction) perform exactly the mass-difference deduction method as their analysis step (Steps 1-3 of the Results sections), without re-teaching its principle.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.36 @ Investigating metal oxide formulas (2026-09-11); practical node 4CH1-PR-03 (T-C09 RULE_DERIVED)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-20",
+      "triple": "4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source": "4CH1-CON-CONC-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+          "quote": "Calculate the amount of solute, in moles, present in 2.5 dm3 of a solution whose concentration is 0.2 mol / dm3"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Every 1.34C formula instance computes an amount in moles; the mole is never defined in this note (the 1.27 note's job).",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-21",
+      "triple": "4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-VOL-CONVERSION",
+      "source": "4CH1-CON-CONC-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-VOL-CONVERSION",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+          "quote": "Remember: The volume needs to be in dm3"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "The rule is stated once and then enforced as a Remember-warning in worked examples 2 and 3; the mark-scheme wrong-answer pattern (failing to divide by 1000) independently confirms this is the operative sub-skill where candidates fail.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11); PMT CFEC2 MS Q4(a)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-22",
+      "triple": "4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source": "4CH1-CON-MOLAR-GAS-VOL",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+          "quote": "At room temperature and pressure, the volume occupied by one mole of any gas was found to be 24 dm3 or 24,000 cm3"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The molar gas volume is defined per mole (\"the volume occupied by one mole of any gas\"); the definition presupposes the mole concept.",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-23",
+      "triple": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-GAS-VOL",
+      "source": "4CH1-CON-GAS-VOL-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLAR-GAS-VOL",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+          "quote": "Volume = Moles x Molar Volume"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — explicit definition sentence (byte-verified)",
+      "rationale": "The calculation formula is stated in terms of the molar volume (both the dm3 and cm3 forms with their respective constants).",
+      "derivation_method": "DEFINITIONAL_DEPENDENCY",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-24",
+      "triple": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV",
+      "source": "4CH1-CON-GAS-VOL-CALC",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target": "4CH1-CON-MOLE-MASS-CONV",
+      "relation_count_in_pilot": 25,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+          "quote": "To answer these type of questions you must first convert grams to moles and then calculate the volume."
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — worked-example step using the concept without re-teaching it",
+      "rationale": "Cross-SP dependency 1.35C -> 1.28: the mass-route gas questions explicitly chain grams -> moles -> volume with the mole-mass conversion used as a given.",
+      "derivation_method": "USED_WITHOUT_RETEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-25",
+      "triple": "4CH1-CON-EQ-SYMBOL EXPLAINED_BY 4CH1-CON-CONSERVATION-MASS",
+      "source": "4CH1-CON-EQ-SYMBOL",
+      "relation": "EXPLAINED_BY",
+      "target": "4CH1-CON-CONSERVATION-MASS",
+      "relation_count_in_pilot": 3,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+          "quote": "The Law of Conservation of Mass enables us to balance chemical equations, since no atoms can be lost or created"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — causal teaching in one source (confidence-capped where adjacency-grounded)",
+      "rationale": "Single-anchor causal teaching: the one sentence teaches the explanatory link itself (\"enables us to ... since ...\"). This is the relation the 4.15 negative-control class forbids constructing from premise+consequence aggregation.",
+      "derivation_method": "SINGLE_SOURCE_CAUSAL_TEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-26",
+      "triple": "4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW",
+      "source": "4CH1-CON-MOLAR-GAS-VOL",
+      "relation": "EXPLAINED_BY",
+      "target": "4CH1-CON-AVOGADRO-LAW",
+      "relation_count_in_pilot": 3,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+          "quote": "From the molar gas volume the following formula triangle can be derived"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — causal teaching in one source (confidence-capped where adjacency-grounded)",
+      "rationale": "The same note section teaches the law (\"equal amounts of gases occupy the same volume of space\") and then the molar volume and its formula triangle; the law grounds why one fixed volume per mole exists at given conditions. Medium confidence: the note presents the 24 dm3 value as measured (\"was found to be\") rather than derived from the law — the explanatory link is tight but not stated as a derivation.",
+      "derivation_method": "SINGLE_SOURCE_CAUSAL_TEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)",
+      "confidence": "medium",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": true,
+      "pretriage": {
+        "label": "FC-1+FC-2 (PENDING judgment)",
+        "flags": [
+          "FC-1: medium confidence or implicit-evidence derivation",
+          "FC-2: relation-class concern (pass-2 / ambiguity note)",
+          "PENDING: operator decision already presented (10-field), awaiting ruling"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "FP-concern finding: the anchored quote (\"From the molar gas volume the following formula triangle can be derived\") supports molar-volume->formula, not law->molar-volume; the law->molar-volume link is section order + semantics (\"was found to be\" is empirical phrasing). CONFIRM at confidence medium; the medium band already encodes this weakness.",
+        "group": "G3"
+      },
+      "recommendation": "Decision already presented 10-field in C11_OPERATOR_DECISIONS.md §2 — recommendation there is HOLD; rule on the presentation, not on this row alone",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-27",
+      "triple": "4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS",
+      "source": "4CH1-CON-YIELD",
+      "relation": "EXPLAINED_BY",
+      "target": "4CH1-CON-YIELD-FACTORS",
+      "relation_count_in_pilot": 3,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+          "quote": "In practice, you never get 100% yield in a chemical process for several reasons"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — causal teaching in one source (confidence-capped where adjacency-grounded)",
+      "rationale": "Single anchor teaches the explanation of the actual-yield shortfall (five enumerated causes: equipment residue, reversibility, separation/purification losses, side reactions, transfer losses) in the same section that defines the yields.",
+      "derivation_method": "SINGLE_SOURCE_CAUSAL_TEACHING",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-28",
+      "triple": "4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL",
+      "source": "4CH1-MIS-EQ-SUBSCRIPT",
+      "relation": "MISCONCEPTION_OF",
+      "target": "4CH1-CON-EQ-SYMBOL",
+      "relation_count_in_pilot": 1,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+          "quote": "A common mistake when balancing symbol equations is to add, change or remove small numbers in the chemical formula of a substance"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — examiner tip explicitly documents the error and/or corrective",
+      "rationale": "The misconception is ABOUT balancing symbol equations (the target concept); the tip names the mistake explicitly — evidence class per the frozen §8A.11 hierarchy (\"explicit SME/examiner statements\").",
+      "derivation_method": "EXAMINER_TIP_EXPLICIT",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-29",
+      "triple": "4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS",
+      "source": "4CH1-MIS-EQ-SUBSCRIPT",
+      "relation": "REMEDIATED_BY",
+      "target": "4CH1-CON-CONSERVATION-MASS",
+      "relation_count_in_pilot": 2,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+          "quote": "You cannot do this because it changes what the substance is"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — examiner tip explicitly documents the error and/or corrective",
+      "rationale": "The corrective content: balance with coefficients because atoms (not substances) are conserved. Medium confidence — the tip's own argument is substance-identity (\"it changes what the substance is\"); mapping the remediation to CON-CONSERVATION-MASS (vs. keeping the remediation note-local) is a judgment flagged for review.",
+      "derivation_method": "EXAMINER_TIP_EXPLICIT",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)",
+      "confidence": "medium",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": true,
+      "pretriage": {
+        "label": "FC-1+FC-2 (PENDING judgment)",
+        "flags": [
+          "FC-1: medium confidence or implicit-evidence derivation",
+          "FC-2: relation-class concern (pass-2 / ambiguity note)",
+          "PENDING: operator decision already presented (10-field), awaiting ruling"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "The tip itself argues substance identity (\"it changes what the substance is\"); conservation is the section grounding for coefficient-balancing. Alternative: mint a coefficients-vs-subscripts concept in expansion. CONFIRM at medium.",
+        "group": "G3"
+      },
+      "recommendation": "Decision already presented 10-field in C11_OPERATOR_DECISIONS.md §2 — recommendation there is HOLD; rule on the presentation, not on this row alone",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-30",
+      "triple": "4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC",
+      "source": "4CH1-MIS-CONC-UNIT",
+      "relation": "WRONG_ANSWER_PATTERN",
+      "target": "4CH1-CON-CONC-CALC",
+      "relation_count_in_pilot": 1,
+      "evidence": [
+        {
+          "kind": "MARK_SCHEME",
+          "file": "scripts/c11_evidence/CFEC2_MS_P1.txt",
+          "quote": "an answer of 10(.0) for 1 mark (i.e. failing to divide by 1000)"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — mark-scheme-documented wrong answer",
+      "rationale": "The pattern manifests in concentration-calculation question contexts (MS Q4: 0.096/24 with (25 x 0.4)/1000 — an amount-from-concentration question); kept distinct from MISCONCEPTION_OF (no belief is documented — only the wrong answer and its cause).",
+      "derivation_method": "ASSESSMENT_DOCUMENTED",
+      "upstream": "PMT Unit-1 Paper-1 MS \"Chemical Formulae, Equations, Calculations 2\" Q4(a) (pinned extraction scripts/c11_evidence/CFEC2_MS_P1.txt sha1 6c63a9e02b71)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    },
+    {
+      "id": "E-31",
+      "triple": "4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION",
+      "source": "4CH1-MIS-CONC-UNIT",
+      "relation": "REMEDIATED_BY",
+      "target": "4CH1-CON-VOL-CONVERSION",
+      "relation_count_in_pilot": 2,
+      "evidence": [
+        {
+          "kind": "NOTE",
+          "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+          "quote": "Don't forget your unit conversions"
+        }
+      ],
+      "evidence_admissibility": "ADMISSIBLE — examiner tip explicitly documents the error and/or corrective",
+      "rationale": "The Examiner-Tips block of the 1.34C-mapped note is precisely the corrective content for the documented wrong answer (\"To go from cm3 to dm3 : divide by 1000\").",
+      "derivation_method": "EXAMINER_TIP_EXPLICIT",
+      "upstream": "T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)",
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "operator_decision_pending": false,
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (high confidence, explicit evidence class, pass-2 concordant, zero machine flags)",
+      "operator_verdict": null
+    }
+  ],
+  "node_dossiers": [
+    {
+      "id": "N-01",
+      "code": "4CH1-CON-EQ-WORD",
+      "title": "Word equation",
+      "family": "CONCEPT",
+      "node_kind": "concept (mixed demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.25",
+          "role": "CORE",
+          "verb": "write",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Word equations show the reactants and products of a chemical reaction using their full chemical names"
+            },
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "write word equations and balanced chemical equations(including state symbols)"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "word equations",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.25",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.25 part (a): word-equation writing, with its own how-to section and three worked examples in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-02",
+      "code": "4CH1-CON-EQ-SYMBOL",
+      "title": "Balanced symbol (chemical) equation",
+      "family": "CONCEPT",
+      "node_kind": "concept (mixed demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.25",
+          "role": "CORE",
+          "verb": "write",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "quote": "A symbol equation must be balanced to give the correct ratio of reactants and products"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Balancing Equations using Reacting Masses"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "symbol equation",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "chemical equation",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "balanced equation",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "balancing equations",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.25",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.25 part (b): balancing procedure with worked examples; also produced from reacting-mass data (deducing equations), the latter contributing to 1.25 via the T-C10 medium mapping on the Reacting mass note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-03",
+      "code": "4CH1-CON-EQ-STATE-SYM",
+      "title": "State symbols (s), (l), (g), (aq)",
+      "family": "CONCEPT",
+      "node_kind": "concept (mixed demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.25",
+          "role": "CORE",
+          "verb": "write",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "quote": "You need to be confident using the state symbols (s), (l), (g) and (aq)"
+            },
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "(including state symbols)"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "state symbol",
+          "status": "VARIANT",
+          "evidence": [
+            "'state symbols' @ Writing chemical equations - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.25",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.25 part (c): the state-symbol requirement is an explicitly bracketed sub-demand of 1.25 and gets its own taught block in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-04",
+      "code": "4CH1-CON-CONSERVATION-MASS",
+      "title": "Law of Conservation of Mass",
+      "family": "CONCEPT",
+      "node_kind": "concept (mixed demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.25",
+          "role": "CORE",
+          "verb": "write",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Atoms cannot be created or destroyed, so if they exist in the reactants then they absolutely must be in the products!"
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.26",
+          "role": "SUPPORTING",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "In accordance with the Law of Conservation of Mass, the sum of the relative formula masses of the reactants will be the same as the sum of the relative formula masses of the products"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "conservation of mass",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.25",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.26",
+          "role": "SUPPORTING"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "CORE under 1.25 (the law that licenses balancing); SUPPORTING under 1.26 where the Mr-sum consequence is invoked, not demanded.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-05",
+      "code": "4CH1-CON-AR",
+      "title": "Relative atomic mass (Ar)",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.26",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "The relative atomic mass of every element is given on the Periodic Table. It is the larger of the two numbers."
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.28",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculations involving amount of substance, relative atomic mass"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Once the moles have been determined they can then be converted into grams using the relative atomic or relative formula masses"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "relative atomic mass",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        },
+        {
+          "alias": "Ar",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+            "scripts/c11_evidence/CFEC1_MS_P1.txt"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.26",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.28",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "Named in the wording of both 1.26 (source of values) and 1.28 (operative quantity of amount-of-substance calculations).",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-06",
+      "code": "4CH1-CON-MR",
+      "title": "Relative formula mass (Mr)",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.26",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "To calculate the Mr of a substance, you have to add up the relative atomic masses of all the atoms present in the formula"
+            },
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculate relative formula masses(including relative molecular masses)"
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.28",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "relative formula mass"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "relative molecular mass",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "relative formula mass",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        },
+        {
+          "alias": "Mr",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+            "scripts/c11_evidence/CFEC2_MS_P1.txt"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.26",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.28",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The object of the 1.26 calculation and the named quantity in 1.28; the note's table + worked examples carry the demanded calculation substance.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-07",
+      "code": "4CH1-CON-MOLE",
+      "title": "The mole (unit of amount of substance)",
+      "family": "CONCEPT",
+      "node_kind": "term definition (KNOW_TERM demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.27",
+          "role": "CORE",
+          "verb": "know",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "know that the mole(mol) is the unit for the amount of a substance"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "quote": "Chemical amounts are measured in moles"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "amount of substance",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        },
+        {
+          "alias": "chemical amount",
+          "status": "VARIANT",
+          "evidence": [
+            "'chemical amounts' @ Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "mol",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+            "scripts/c11_evidence/CFEC1_MS_P1.txt",
+            "scripts/c11_evidence/CFEC2_MS_P1.txt",
+            "SPEC (12 pilot spec points)"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.27",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.27 is a definition-only demand; the note teaches the definition plus usage. Aliases from spec (amount of a substance) and note (chemical amounts).",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-08",
+      "code": "4CH1-CON-AVOGADRO-CONST",
+      "title": "Avogadro constant",
+      "family": "CONCEPT",
+      "node_kind": "enrichment content (taught substantively; demanded by no SP)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.27",
+          "role": "ENRICHMENT",
+          "verb": "know",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "quote": "The number of atoms, molecules or ions in a mole (1 mol) of a given substance is the Avogadro constant."
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "Avogadro's constant",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.27",
+          "role": "ENRICHMENT"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "ENRICHMENT: taught substantively in the 1.27-mapped note (value + per-substance examples) but demanded by no 4CH1 statement (command-kind check: 1.27 is a KNOW_TERM point about the unit, not the constant).",
+      "pretriage": {
+        "label": "LIKELY_SAFE (pass-2 note)",
+        "flags": [],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "ENRICHMENT role is right: 1.27 wording demands only the unit; the constant is taught enrichment. Keep node for expansion (mole deepening).",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; read the one-line pass-2 note first",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-09",
+      "code": "4CH1-CON-MOLAR-MASS",
+      "title": "Molar mass",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.28",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "quote": "The mass of 1 mole of a substance is known as the molar mass"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "mass of 1 mole",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.28",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The operative bridging concept of every 1.28 calculation (grams <-> moles); defined and used repeatedly in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-10",
+      "code": "4CH1-CON-MOLE-MASS-CONV",
+      "title": "Mole-mass conversion",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.28",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "quote": "Therefore we have to be able to convert between moles and grams"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Once the moles have been determined they can then be converted into grams using the relative atomic or relative formula masses"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "converting between moles and grams",
+          "status": "VARIANT",
+          "evidence": [
+            "'convert between moles and grams' @ Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "moles and mass calculations",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.28",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.28 procedure concept (formula triangle + two worked examples in the mapped note; step 1/step 3 of every reacting-mass calculation).",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-11",
+      "code": "4CH1-CON-MOLAR-RATIO",
+      "title": "Molar ratio from balanced equations",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.29",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Remember the molar ratio of a balanced equation gives you the ratio of the amounts of each substance in the reaction."
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "mole ratio",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "ratio of amounts",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.29",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "Step 2 of the reacting-mass procedure; independently confirmed as an assessment objective by the Unit-1 mark scheme (Q2(b) marks the ratio statement).",
+      "pretriage": {
+        "label": "LIKELY_SAFE (pass-2 note)",
+        "flags": [
+          "alias-audit: 2 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "CORE under 1.29 is right; consider also SUPPORTING under 1.28 in expansion (the 1.28 note mentions molar ratios but does not demand them). Not a pilot change.",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; read the one-line pass-2 note first",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-12",
+      "code": "4CH1-CON-REACTING-MASS",
+      "title": "Reacting mass calculation",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.29",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculate reacting masses using experimental data and chemical equations"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "quote": "Information from the question is used to find the amount in moles of the substances being considered"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "calculating reacting masses",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "mass calculations from equations",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.29",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.29 procedure concept: the three-step moles->ratio->mass procedure with two worked examples and the equations-from-masses converse in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 2 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-13",
+      "code": "4CH1-CON-YIELD",
+      "title": "Yield (actual yield)",
+      "family": "CONCEPT",
+      "node_kind": "operand DEFINITION under a CALCULATE point (OD-1: the procedure node is CON-PERCENT-YIELD)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.30",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+              "quote": "The actual yield is the recorded amount of product obtained"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "actual yield",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "yield of a reaction",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.30",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "pass-2 merge candidate: Split-first policy honored; merge candidate with CON-THEOR-YIELD if the operator judges the split too fine (aliases make the merge trivial).",
+        "member of the OD-1 yield triple — merge question is the OD-1 ratification, not a per-node decision",
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "Split-first: the actual-yield notion (what a reaction produced) is the numerator object of the 1.30 formula and has its own taught definition.",
+      "pretriage": {
+        "label": "FC-2 identity (OD-1-linked)",
+        "flags": [
+          "FC-2: identity — pass-2 merge candidate (OD-1 governs)",
+          "alias-audit: 1 unevidenced alias(es) — see §7",
+          "OD-1: member of the yield triple (ratification governs)"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Split-first policy honored; merge candidate with CON-THEOR-YIELD if the operator judges the split too fine (aliases make the merge trivial).",
+        "group": "G2"
+      },
+      "recommendation": "CONFIRM-split if OD-1 is ratified; MERGE is the operator-only alternative (re-versions nodes, removes the operand edge pair) — do not decide this node before ruling OD-1",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-14",
+      "code": "4CH1-CON-THEOR-YIELD",
+      "title": "Theoretical yield",
+      "family": "CONCEPT",
+      "node_kind": "operand DEFINITION under a CALCULATE point (OD-1: the procedure node is CON-PERCENT-YIELD)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.30",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+              "quote": "The theoretical yield is the amount of product that would be obtained under perfect practical and chemical conditions"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "maximum yield",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.30",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "pass-2 merge candidate: Merge candidate with CON-YIELD (see above); distinct derivation basis justifies the split at pilot granularity.",
+        "member of the OD-1 yield triple — merge question is the OD-1 ratification, not a per-node decision",
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The denominator object of the 1.30 formula; the note teaches its derivation basis (balanced equation + reacting masses), which grounds the prerequisite edge to CON-REACTING-MASS.",
+      "pretriage": {
+        "label": "FC-2 identity (OD-1-linked)",
+        "flags": [
+          "FC-2: identity — pass-2 merge candidate (OD-1 governs)",
+          "alias-audit: 1 unevidenced alias(es) — see §7",
+          "OD-1: member of the yield triple (ratification governs)"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "Merge candidate with CON-YIELD (see above); distinct derivation basis justifies the split at pilot granularity.",
+        "group": "G2"
+      },
+      "recommendation": "CONFIRM-split if OD-1 is ratified; MERGE is the operator-only alternative (re-versions nodes, removes the operand edge pair) — do not decide this node before ruling OD-1",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-15",
+      "code": "4CH1-CON-PERCENT-YIELD",
+      "title": "Percentage yield",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand; the OD-1 procedure node of the yield triple)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.30",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculate percentage yield"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+              "quote": "The percentage yield compares the actual yield to the theoretical yield"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "percentage yield calculation",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.30",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "member of the OD-1 yield triple — merge question is the OD-1 ratification, not a per-node decision",
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.30 procedure concept: the comparison formula (actual/theoretical x 100) with the worked context in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7",
+          "OD-1: member of the yield triple (ratification governs)"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-16",
+      "code": "4CH1-CON-YIELD-FACTORS",
+      "title": "Factors reducing yield",
+      "family": "CONCEPT",
+      "node_kind": "enrichment content (taught substantively; demanded by no SP)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.30",
+          "role": "ENRICHMENT",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+              "quote": "In practice, you never get 100% yield in a chemical process for several reasons"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "reasons for less than 100 percent yield",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "yield losses",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.30",
+          "role": "ENRICHMENT"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "ENRICHMENT: substantively taught (five enumerated causes) in the 1.30-mapped note, but the SP demands only the calculation. Grounds the EXPLAINED_BY edge for the actual-yield shortfall.",
+      "pretriage": {
+        "label": "LIKELY_SAFE (pass-2 note)",
+        "flags": [
+          "alias-audit: 2 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "ENRICHMENT role correct (SP demands calculation only); the five enumerated causes are substantive teaching. Retain for recommendation use.",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; read the one-line pass-2 note first",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-17",
+      "code": "4CH1-CON-EMPIRICAL-FORMULA",
+      "title": "Empirical formula",
+      "family": "CONCEPT",
+      "node_kind": "term definition (KNOW_TERM demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.32",
+          "role": "CORE",
+          "verb": "know",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "know what is meant by the terms empirical formula and molecular formula"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "The empirical formula is the simplest whole number ratio of the atoms of each element present in one molecule or formula unit of the compound"
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.33",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculate empirical and molecular formulae from experimental data"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "simplest whole number ratio formula",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.32",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.33",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.32 demands the term definition (CORE there); 1.33 presupposes the concept as the object of its calculation (CORE there too). Definition-vs-procedure split per the identity policy: this node is the definition concept, the calculation lives in CON-EMP-MOL-CALC.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-18",
+      "code": "4CH1-CON-MOLECULAR-FORMULA",
+      "title": "Molecular formula",
+      "family": "CONCEPT",
+      "node_kind": "term definition (KNOW_TERM demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.32",
+          "role": "CORE",
+          "verb": "know",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "The molecular formula is the formula that shows the number and type of each atom in a molecule"
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.33",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "calculate empirical and molecular formulae from experimental data"
+            }
+          ]
+        }
+      ],
+      "aliases": [],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.32",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.33",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.32 definition concept (CORE); 1.33 object concept (CORE). The empirical/molecular relationship (CH4/CH4, CH3/C2H6 table) is taught in the mapped note.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-19",
+      "code": "4CH1-CON-EMP-MOL-CALC",
+      "title": "Empirical and molecular formula calculation",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.33",
+          "role": "CORE",
+          "verb": "calculate",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "Empirical formula calculations are very methodical"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "Find the relative formula mass of the empirical formula"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "empirical formula calculation",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+          ]
+        },
+        {
+          "alias": "molecular formula calculation",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "deducing formulae of hydrated salts",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.33",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.33 procedure concept (six-step table method, whole-number ratio repair, molecular-formula scaling, hydrated-salt adaptation) — distinct from the 1.32 definition concepts by the command-kind split.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-20",
+      "code": "4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "title": "Experimental formula deduction (mass-difference method)",
+      "family": "CONCEPT",
+      "node_kind": "experimental method (DESCRIBE_EXPERIMENT demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.31",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+              "quote": "The principle is to use mass measurements before and after a reaction and then convert masses into moles"
+            }
+          ]
+        },
+        {
+          "code": "4CH1-1.36",
+          "role": "CORE",
+          "verb": "know",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+              "quote": "To determine the empirical formula of magnesium oxide by combustion of magnesium"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "deducing formulae by experiment",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "formula from mass measurements",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.31",
+          "role": "CORE"
+        },
+        {
+          "spec_point": "4CH1-1.36",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "CORE under both 1.31 (experimental formulae of simple compounds) and 1.36 (the metal-oxide determination practicals instantiate exactly this method: mass difference -> divide by Ar -> ratio -> formula).",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 2 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-21",
+      "code": "4CH1-CON-WATER-CRYST",
+      "title": "Water of crystallisation and hydrated salts",
+      "family": "CONCEPT",
+      "node_kind": "experimental method (DESCRIBE_EXPERIMENT demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.31",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "salts containing water of crystallisation"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "quote": "A hydrated salt is a crystallised salt that contains water molecules as part of its structure"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "hydrated salt",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "water of crystallisation",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.31",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "1.31 names hydrated salts explicitly; the E&MF note teaches the dot-notation, the heating-to-constant-mass determination and the xH2O calculation; the Simple-compound note teaches the practical variant.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-22",
+      "code": "4CH1-CON-CONCENTRATION",
+      "title": "Concentration of a solution",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.34C",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "quote": "Concentration refers to the amount of solute there is in a specific volume of the solvent"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "concentration",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+            "scripts/c11_evidence/CFEC1_MS_P1.txt",
+            "scripts/c11_evidence/CFEC2_MS_P1.txt",
+            "SPEC (12 pilot spec points)"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.34C",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The definition concept of 1.34C (solute/solvent/solution framing, g/dm3 vs mol/dm3 units) — distinct from the calculation procedure concept.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-23",
+      "code": "4CH1-CON-CONC-CALC",
+      "title": "Concentration calculation (mol/dm3)",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.34C",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "quote": "Calculate the concentration of a solution of sodium hydroxide, NaOH, in mol / dm3"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "concentration calculations",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md"
+          ]
+        },
+        {
+          "alias": "amount of substance from concentration",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.34C",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.34C procedure concept: n = c x V and its rearrangements, three worked examples (including the titration-style molar-ratio example).",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-24",
+      "code": "4CH1-CON-VOL-CONVERSION",
+      "title": "Volume unit conversion (cm3/dm3)",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.34C",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "quote": "To convert cm3 to dm3, divide by 1000"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "converting cm3 to dm3",
+          "status": "VARIANT",
+          "evidence": [
+            "'convert cm3 to dm3' @ Solution concentration - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.34C",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "Split-first: the unit-conversion sub-skill has its own taught rule + diagram + repeated Remember-warnings in the 1.34C note, and a documented wrong-answer pattern in the mark scheme. Its own mastery attribution matters (unit errors are the classic 1.34C failure).",
+      "pretriage": {
+        "label": "LIKELY_SAFE (pass-2 note)",
+        "flags": [],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "The split is validated independently by the mark-scheme wrong-answer pattern (MS Q4a) — keep as its own mastery unit.",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; read the one-line pass-2 note first",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-25",
+      "code": "4CH1-CON-MOLAR-GAS-VOL",
+      "title": "Molar gas volume at RTP (24 dm3)",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.35C",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "SPEC",
+              "file": "graph/specification_points.yaml",
+              "quote": "the molar volume of a gas(24dm3and24000cm3at room temperature and pressure(rtp))"
+            },
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+              "quote": "At room temperature and pressure, the volume occupied by one mole of any gas was found to be 24 dm3 or 24,000 cm3"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "molar volume",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+            "SPEC (12 pilot spec points)"
+          ]
+        },
+        {
+          "alias": "molar gas volume",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.35C",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "Named with its value in the 1.35C wording itself; the note teaches the value, the RTP conditions and both dm3/cm3 forms.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-26",
+      "code": "4CH1-CON-GAS-VOL-CALC",
+      "title": "Gas volume calculation",
+      "family": "CONCEPT",
+      "node_kind": "calculation procedure (CALCULATE demand)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.35C",
+          "role": "CORE",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+              "quote": "The formula can be used to calculate the number of moles of gases from a given volume or vice versa"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        {
+          "alias": "calculating gas volumes",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        },
+        {
+          "alias": "converting moles into volumes",
+          "status": "VERBATIM",
+          "evidence": [
+            "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.35C",
+          "role": "CORE"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "The 1.35C procedure concept: moles<->volume via molar volume (both unit forms), mass->moles->volume chains, and the gaseous-reaction ratio worked example.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-27",
+      "code": "4CH1-CON-AVOGADRO-LAW",
+      "title": "Avogadro's Law",
+      "family": "CONCEPT",
+      "node_kind": "enrichment content (taught substantively; demanded by no SP)",
+      "spec_attachments": [
+        {
+          "code": "4CH1-1.35C",
+          "role": "ENRICHMENT",
+          "verb": "understand",
+          "evidence": [
+            {
+              "kind": "NOTE",
+              "file": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+              "quote": "Avogadro’s Law states that at the same conditions of temperature and pressure, equal amounts of gases occupy the same volume of space"
+            }
+          ]
+        }
+      ],
+      "aliases": [],
+      "placement": [
+        {
+          "spec_point": "4CH1-1.35C",
+          "role": "ENRICHMENT"
+        }
+      ],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "SPEC_VERBATIM",
+      "rationale": "ENRICHMENT: the law is taught as the grounding of the molar volume in the 1.35C-mapped note, but 1.35C's demand is the calculation with the given molar volume, not the law itself.",
+      "pretriage": {
+        "label": "LIKELY_SAFE (pass-2 note)",
+        "flags": [],
+        "pass2_verdict": "CONFIRM_WITH_NOTE",
+        "pass2_note": "ENRICHMENT role right; the law grounds but is not demanded by 1.35C.",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible; read the one-line pass-2 note first",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-28",
+      "code": "4CH1-MIS-EQ-SUBSCRIPT",
+      "title": "Balancing equations by altering subscripts",
+      "family": "MISCONCEPTION",
+      "node_kind": "documented student error (misconception / wrong-answer pattern; unattached by design)",
+      "spec_attachments": [],
+      "aliases": [
+        {
+          "alias": "changing formula subscripts to balance",
+          "status": "UNEVIDENCED",
+          "evidence": []
+        }
+      ],
+      "placement": [],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "EXAMINER_TIP_EXPLICIT",
+      "rationale": "The mapped note's Examiner-Tips block names the mistake explicitly (\"a common mistake ... add, change or remove small numbers\") and demonstrates the H2O->H2O2 consequence. Not invented from generic chemistry knowledge.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [
+          "alias-audit: 1 unevidenced alias(es) — see §7"
+        ],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    },
+    {
+      "id": "N-29",
+      "code": "4CH1-MIS-CONC-UNIT",
+      "title": "Failing to convert cm3 to dm3 in concentration calculations",
+      "family": "MISCONCEPTION",
+      "node_kind": "documented student error (misconception / wrong-answer pattern; unattached by design)",
+      "spec_attachments": [],
+      "aliases": [
+        {
+          "alias": "failing to divide by 1000",
+          "status": "VERBATIM",
+          "evidence": [
+            "scripts/c11_evidence/CFEC2_MS_P1.txt"
+          ]
+        }
+      ],
+      "placement": [],
+      "duplicate_overlap": [
+        "alias-collision check: clean"
+      ],
+      "confidence": "high",
+      "validation_status": "SUGGESTED",
+      "derivation_method": "ASSESSMENT_DOCUMENTED",
+      "rationale": "Mark-scheme evidence class: the PMT Unit-1 mark scheme (Chemical Formulae, Equations, Calculations 2, Q4(a)) documents the exact wrong answer 10(.0) and glosses its cause (\"failing to divide by 1000\"). This is a documented wrong-answer pattern, NOT an asserted belief — hence pattern_class WRONG_ANSWER_PATTERN and relation WRONG_ANSWER_PATTERN, kept distinct from MISCONCEPTION_OF per the frozen triple distinction.",
+      "pretriage": {
+        "label": "LIKELY_SAFE",
+        "flags": [],
+        "pass2_verdict": "CONFIRM",
+        "pass2_note": "",
+        "group": "G1"
+      },
+      "recommendation": "CONFIRM — bulk-eligible (identity clean, high confidence, pass-2 concordant)",
+      "operator_verdict": null
+    }
+  ],
+  "held_appendix": [
+    {
+      "id": "HELD-01",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "MISCONCEPTION node \"rounding non-integer empirical ratios\" (e.g. 1.5 -> 2) MISCONCEPTION_OF CON-EMP-MOL-CALC",
+      "evidence": "Empirical & Molecular Formulae Examiner Tips: \"The molar ratio must be a whole number. If you don't get a whole number when calculating the ratio of atoms in an empirical formula, such as 1.5, multiply that and the other ratios to achieve whole numbers\"",
+      "reason": "INSUFFICIENT_EVIDENCE_MISCONCEPTION — the tip prescribes correct practice but names no mistake and documents no wrong answer; the specific mishandling (rounding/truncating) would be invented. §8A.11 forbids LLM-imagined student errors. No slice mark scheme documents this error.",
+      "failure_class": "FC-1",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: examiner tip implies practice, not a documented error. Revisit only if a mark scheme documents the rounding error.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-02",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "COMMONLY_CONFUSED_WITH(CON-CONCENTRATION, \"solution strength\")",
+      "evidence": "Solution concentration note: \"Concentration is sometimes commonly referred to as strength\"",
+      "reason": "NO_TARGET_NODE_PLUS_WEAK_CLASS — the statement documents colloquial usage, not a student confusion pair; \"strength\" is not a slice concept (boundary gap, out-of-slice). Minting a stub node to receive the edge would violate the pilot scope rule.",
+      "failure_class": "FC-2",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: colloquial-usage statement, target out of slice.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-03",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "EXPLAINED_BY(CON-MOLE, CON-AVOGADRO-CONST) — \"the Avogadro constant quantifies the mole\"",
+      "evidence": "Calculating moles and mass: \"The number of atoms, molecules or ions in a mole (1 mol) of a given substance is the Avogadro constant.\"",
+      "reason": "RELATION_CLASS_AMBIGUOUS — equally defensible as EXPLAINED_BY, a definitional PART_OF, or RELATED_TO; no single clearly-correct relation class. Emitting any one would assert semantics the corpus does not pin down.",
+      "failure_class": "FC-2",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: relation-class genuinely undecidable from the corpus.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-04",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "REQUIRES_PREREQUISITE(CON-GAS-VOL-CALC, CON-MOLE)",
+      "evidence": "Calculate Gas Volumes: \"The formula can be used to calculate the number of moles of gases from a given volume or vice versa\"",
+      "reason": "TRANSITIVELY_SUBSUMED — covered by CON-GAS-VOL-CALC -> CON-MOLAR-GAS-VOL -> CON-MOLE; an explicit edge adds no reviewable information (density control).",
+      "failure_class": "FC-3",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: transitively subsumed.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-05",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "REQUIRES_PREREQUISITE(CON-MOLAR-RATIO, CON-EQ-SYMBOL)",
+      "evidence": "Reacting mass calculations: \"the molar ratio of a balanced equation gives you the ratio of the amounts\"",
+      "reason": "TRANSITIVELY_SUBSUMED_PLUS_DEFENSIONAL — the ratio concept is definitionally bound to balanced equations, but CON-REACTING-MASS already carries both dependencies; an extra edge would duplicate the chain (density control).",
+      "failure_class": "FC-3",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: density control.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-06",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "REQUIRES_PREREQUISITE(CON-EMP-MOL-CALC, CON-MOLE-MASS-CONV)",
+      "evidence": "Empirical & Molecular Formulae: \"Calculate the moles of each element\" (step 4: Moles = mass/Ar)",
+      "reason": "TAUGHT_INLINE — the empirical procedure re-teaches its own per-element mass/Ar division as procedure steps 3-4; the compound-level mole-mass conversion procedure (mass = moles x Mr) is not presupposed. Mention ≠ dependency (the tasking rule). The true prerequisites (CON-MOLE, CON-AR) are emitted.",
+      "failure_class": "FC-3",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: taught-inline (the exact mention-vs-dependency distinction the tasking demands).",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-07",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "REQUIRES_PREREQUISITE(CON-CONCENTRATION, solute/solvent/solution concepts)",
+      "evidence": "Solution concentration: \"A solute is a solid substance that dissolves into a liquid\"",
+      "reason": "TAUGHT_INLINE_PLUS_BOUNDARY — the 1.34C note re-teaches solute/solvent/solution definitions inline (so no learning dependency), and those concepts belong to the S1-a solutions notes (out of slice; boundary gap).",
+      "failure_class": "FC-3",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: taught-inline + boundary.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-08",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "RELATED_TO(CON-EMPIRICAL-FORMULA, CON-MOLECULAR-FORMULA)",
+      "evidence": "E&MF note relationship table (methane CH4/CH4, ethane CH3/C2H6, ethene, benzene)",
+      "reason": "RESIDUAL_CLASS_DISCIPLINE — the pair already carries REQUIRES_PREREQUISITE(MOLECULAR, EMPIRICAL); RELATED_TO is reserved for evidenced NON-dependency associations and must not duplicate a dependency pair.",
+      "failure_class": "FC-2",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: residual-class discipline.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-09",
+      "status": "rejected",
+      "channel": "REJECTED (permanent, machine-guarded)",
+      "candidate": "EXPLAINED_BY(\"SO2 formation from fuel impurities\" concept, \"combustion of hydrocarbon fuels\" concept) and REMEDIATED_BY / MISCONCEPTION_OF companions attached to 4CH1-4.15",
+      "evidence": "Definition of combustion note: \"All these fuels contain carbon, hydrogen and small quantities of sulfur\"; Nitrogen Oxides & Sulfur Dioxide note: \"The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater\"",
+      "reason": "NEGATIVE_CONTROL_4_15 — premise (sulfur impurities in fuels, mapped to 4.11-4.13) + stated consequence (SO2 -> acid rain, mapped to 4.14/4.16) present in DIFFERENT notes; the demanded \"explain how\" causal mechanism is taught nowhere. Aggregating premise + consequence constructs the missing teaching by inference — forbidden by §0.0/guide §8 (the exact round-4 T-C10 rejection). No concept may attach to 4.15 (no validated T-C10 coverage exists).",
+      "failure_class": "FC-4",
+      "pass2_verdict": "AGREE_REJECT",
+      "pass2_note": "Right call: the 4.15 negative control — premise+consequence aggregation is exactly the forbidden inference.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-10",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "REQUIRES_PREREQUISITE(CON-EXP-FORMULA-DEDUCTION, CON-EMP-MOL-CALC)",
+      "evidence": "Simple compound formulae: \"Using the moles of reactants and products it is possible to deduce molar ratios and hence an empirical formula\"",
+      "reason": "RELATION_CLASS_AMBIGUOUS — \"application-of vs requires\" is undecidable from the corpus: the deduction method embeds the ratio-simplification steps inline (Steps 1-3 re-teach them compactly), so it is unclear whether the procedure is presupposed or re-taught.",
+      "failure_class": "FC-2",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: application-of vs requires is undecidable; good REVIEW-required-style candidate for the expansion round.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-11",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "WRONG_ANSWER_PATTERN node from CFEC1 MS Q4(a)(ii)-(iii) (\"0.44 for 1 mark only\" / \"0.0004\")",
+      "evidence": "CFEC1_MS_P1.txt page 4: \"M1 44 / M2 cm3 / M2 0.00044(0)\" with \"0.44 for 1 mark only\" and \"0.0004\" in the reject column",
+      "reason": "EVIDENCE_AMBIGUOUS_EXTRACTION — the pinned PDF-table extraction garbles the question context (values and units cannot be reconstructed without the question paper, which is not in the pinned evidence set). A wrong-answer-pattern node requires unambiguous assessment context. Revisit when the paired QP is pinned (T-C06 territory).",
+      "failure_class": "FC-1",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: garbled PDF-table extraction is not load-bearing evidence; revisit with the paired question paper (T-C06).",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-12",
+      "status": "held",
+      "channel": "HELD (abstained — awaiting evidence/decision, not promotable, not in the graph)",
+      "candidate": "MISCONCEPTION node \"products written first confuses word-equation construction\" MISCONCEPTION_OF CON-EQ-WORD",
+      "evidence": "Writing chemical equations worked example 2: \"Careful: This question has all the required information but the products are written first\"",
+      "reason": "EXAM_TECHNIQUE_NOT_MISCONCEPTION — the Careful annotation is question-reading guidance (parse the given information), not a documented erroneous belief about chemistry. §8A.11 evidence classes do not cover it.",
+      "failure_class": "FC-2",
+      "pass2_verdict": "AGREE_HOLD",
+      "pass2_note": "Right call: exam-technique guidance, not an erroneous belief.",
+      "operator_decision": null,
+      "history": ""
+    },
+    {
+      "id": "HELD-13",
+      "status": "rejected",
+      "channel": "REJECTED (permanent, machine-guarded)",
+      "candidate": "REQUIRES_PREREQUISITE(PR-03, CON-MOLE)",
+      "evidence": "Investigating metal oxide formulas results tables: \"| moles | a / Ar | a / Ar |\" (MgO) and the parallel \"| moles | b / Mr | b / Mr |\" row (CuO) — the ONLY occurrences of \"mole(s)\" in the note, never in prose (Aim/Method/Steps).",
+      "reason": "OPERATOR_REJECT (2026-09-11) — failure classes FC-3 (transitively subsumed via PR-03 -> CON-EXP-FORMULA-DEDUCTION -> CON-MOLE) with FC-1 evidence basis (IMPLICIT_USE: table-row label only, never substantively taught in the note body). Per the operator rule: do not treat table labels or incidental terminology as instructional evidence.",
+      "failure_class": "FC-3 (primary; transitively subsumed) + FC-1 (implicit-use evidence)",
+      "pass2_verdict": "",
+      "pass2_note": "",
+      "operator_decision": {
+        "verdict": "REJECT",
+        "decided_by": "operator",
+        "decided_date": "2026-09-11",
+        "review_reference": "graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)",
+        "reasons": [
+          "\"moles\" appears only as a table-row label in the practical note.",
+          "It is not substantively taught in the note body.",
+          "The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path.",
+          "Do not treat table labels or incidental terminology as instructional evidence."
+        ]
+      },
+      "history": "pass-1 (c11-pilot-pass-1) emitted REVIEW_REQUIRED (IMPLICIT_USE, medium); pass-2 verdict REJECT; session-40 pass-3 review REJECT (concordant); operator REJECT 2026-09-11 — applied by decision-record re-authoring (architecture §7: REJECTED is not a graph state — the record is preserved here and in the review artifacts; §10: the decision record is the single source of truth). PERMANENT: the identity is not an authored edge, so G13 / c11.13 / c11_promote.py categorically refuse any promotion of it (held/rejected candidates are not edges). Not eligible for promotion; do not re-add without an explicit operator decision and a new extraction pass."
+    }
+  ],
+  "ontology_decision_slots": [
+    {
+      "id": "OD-1",
+      "title": "The yield triple stays split (three concept nodes)",
+      "provenance": "Agent-derived ontology recommendation — session 41, exercising the operator's delegated instruction to resolve the yield-triple question as an ontology decision, on frozen identity-policy grounds (§8). Recorded in C11_ARCHITECTURE.md §20. NOT operator-ratified: it must not be relabeled as ratified without an explicit operator decision.",
+      "effect_if_ratified": "Becomes a binding generation rule for §16 (one procedure concept + one concept per distinctly-taught operand definition, one prerequisite per operand). The PERCENT-YIELD edge pair (E-09/E-10) and the three yield nodes are then confirmable as-is; a future merge stays operator-only.",
+      "recorded_ruling_verbatim": "### OD-1 — The yield triple stays split (three concept nodes)\n\n**Question** (pass-2 flag; finding FP-2): should CON-YIELD (actual yield),\nCON-THEOR-YIELD (theoretical yield) and CON-PERCENT-YIELD (percentage yield)\nmerge into one yield concept? The two PERCENT-YIELD → {YIELD, THEOR-YIELD}\nprerequisite edges share one anchor sentence, and FP-2 noted both \"vanish\nunder an operator merge\".\n\n**Ruling (recorded for the operator; agent-derived from the frozen identity\npolicy, exercising the operator's delegated session-41 instruction to resolve\nthe question as an ontology decision): NO MERGE — the three nodes stay\nsplit.**\n\n1. Minting rule (§8): the triple is two definitions + one calculation\n   procedure — \"a definition, a law, a constant, a calculation procedure, an\n   experimental method are distinct concepts\". Each node carries distinct\n   taught substance: two distinct definition sentences in the 1.30-mapped\n   note plus the SPEC-demanded comparison procedure.\n2. Definition-vs-procedure split (§8; the 1.32 know-terms vs 1.33-calculate\n   precedent) applies directly: 4CH1-1.30 demands a calculation, and the\n   operand definitions and the procedure are separate node kinds by frozen\n   rule.\n3. Mastery attribution: the three are independently assessable (a candidate\n   can define theoretical yield without executing the percentage computation\n   and vice versa — this very unit separates KNOW_TERM from CALCULATE\n   demands, e.g. 1.27 vs 1.28). A merge would credit definitional knowledge\n   from procedural mastery and vice versa — exactly the \"over-merging\n   corrupts mastery attribution\" failure; over-splitting is recoverable, the\n   reverse is not.\n4. The same-anchor edge pair is not a split artifact: \"The percentage yield\n   compares the actual yield to the theoretical yield\" names BOTH operands\n   of the one taught comparison — one sentence can ground two distinct\n   dependencies (numerator object, denominator object). Edge multiplicity\n   mirroring the formula's operand structure is the honest representation,\n   not a defect to be normalized away.\n\n**Generalized rule for §16** (why this is an ontology decision, not a mapping\ntweak): where an SP demands a calculation procedure whose formula operates on\ndistinctly-defined operands, mint ONE procedure concept and ONE concept per\ndistinctly-taught operand definition, and emit one DEFINITIONAL_DEPENDENCY\nprerequisite per operand; same-anchor multiplicity is expected and correct.\nDirectly applicable ahead to 1.34C (concentration vs amount/volume operands)\nand every future formula-driven SP.\n\nA future merge remains an operator-only identity decision, recorded on the\nreview sheet with nodes re-versioned.",
+      "ratification_status": "PENDING OPERATOR RATIFICATION",
+      "operator_verdict": null
+    },
+    {
+      "id": "OD-2",
+      "title": "Incidental terminology is not instructional evidence (operator rule)",
+      "provenance": "The verbatim rule is operator-issued (recorded with the HELD-13 REJECT, session 41). Its codification as a STANDING evidence-admissibility rule for the expansion round is agent-proposed (session 41, C11_ARCHITECTURE §20). The codification — not the rule's wording — awaits ratification.",
+      "effect_if_ratified": "Becomes a standing expansion-round rule: IMPLICIT_USE evidence alone can never ground promotion; quarantine-or-abstain per FC-1. Affects all future batches' evidence bar.",
+      "recorded_ruling_verbatim": "### OD-2 — Incidental terminology is not instructional evidence (operator rule)\n\nOperator ruling, recorded verbatim with the REJECT of\n`4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` (preserved as rejected\ncandidate HELD-13, session 41):\n\n> \"Do not treat table labels or incidental terminology as instructional\n> evidence.\"\n\nCodified effect: IMPLICIT_USE evidence (table-row labels, incidental\nterminology, unnamed concept use) can never ground promotion of an edge on\nits own. Such candidates are quarantined (REVIEW_REQUIRED) or abstained\n(HELD) per the FC-1 policy (§19); promotion of any implicit-use edge requires\nthe operator to explicitly accept the weakness. This upgrades the §6\nderivation cap (IMPLICIT_USE caps at medium) from a confidence statement to\nan operator-confirmed evidence-admissibility rule for the expansion round.\n\nRulings pending operator input: none currently queued beyond the two PENDING\nmedium-confidence presentations (MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW;\nMIS-EQ-SUBSCRIPT REMEDIATED_BY CONSERVATION-MASS — see\nC11_OPERATOR_DECISIONS.md).",
+      "ratification_status": "PENDING OPERATOR RATIFICATION",
+      "operator_verdict": null
+    }
+  ],
+  "alias_audit": {
+    "policy_question": "Must aliases carry verbatim corpus evidence, or are they retrieval-oriented paraphrases exempt from the evidence discipline? 24 of 47 pilot aliases are not verbatim-evidenced (21 after allowing morphological variants); most are transparent paraphrases of the node title, but 'maximum yield' is a foreign synonym with corpus support only for the concept ('maximum possible mass'), never the phrase.",
+    "maximum_yield": {
+      "phrase_occurrences": 0,
+      "phrase_finding": "UNEVIDENCED — the phrase 'maximum yield' appears nowhere in the pilot corpus (10 notes + 12-SP spec text + 2 pinned mark schemes), nor in the full 112-note markdown corpus",
+      "word_maximum_occurrences_in_pilot_corpus": [
+        {
+          "corpus": "Reacting mass calculations - IGCSE Chemistry Revision Notes.",
+          "context": "pose as shown in the equation below. 2Al2O3 ⟶ 4Al + 3O2 Calculate the maximum possible mass of aluminium, in tonnes, that can be produced from 51 tonnes of alum"
+        },
+        {
+          "corpus": "Reacting mass calculations - IGCSE Chemistry Revision Notes.",
+          "context": "Calculate the mass... - Calculate the minimum mass... - Calculate the maximum mass... - As long as you are consistent, it doesn't matter whether you work in gra"
+        },
+        {
+          "corpus": "Investigating metal oxide formulas - IGCSE Revision Notes.md",
+          "context": "5. Continue heating until the mass of the crucible remains constant (maximum mass), indicating that the reaction is complete 6. Measure the mass of the crucible"
+        }
+      ],
+      "closest_semantic_anchor": "Reacting mass calculations note, worked example: 'Calculate the maximum possible mass of aluminium, in tonnes, that can be produced' — the theoretical-yield concept phrased without the word 'yield'; instructional text (not a table label), but not the verbatim alias phrase",
+      "note": "the data was never corrupted: 'maximum yield' is byte-stable in scripts/c11_pilot_decisions.yaml and graph/concepts.yaml across all committed revisions; the reported 'aximum yield' corruption existed only in report text (corrected this session)",
+      "disposition_options": [
+        "DROP the alias (strict verbatim-phrase policy)",
+        "RE-EVIDENCE: keep an alias grounded on the Reacting-mass 'maximum possible mass' usage (requires an operator ruling that non-verbatim derived aliases are admissible)",
+        "KEEP unevidenced (requires a ruling that aliases are retrieval-oriented and exempt from the evidence discipline)",
+        "RENAME to a verbatim-evidenced form (note: 'maximum mass' itself is ambiguous — the metal-oxide note uses it for crucible-constant-mass)"
+      ],
+      "alias_untouched": true
+    },
+    "per_node": [
+      {
+        "node": "4CH1-CON-EQ-WORD",
+        "title": "Word equation",
+        "aliases": [
+          {
+            "alias": "word equations",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-EQ-SYMBOL",
+        "title": "Balanced symbol (chemical) equation",
+        "aliases": [
+          {
+            "alias": "symbol equation",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "chemical equation",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "balanced equation",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "balancing equations",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-EQ-STATE-SYM",
+        "title": "State symbols (s), (l), (g), (aq)",
+        "aliases": [
+          {
+            "alias": "state symbol",
+            "status": "VARIANT",
+            "evidence": [
+              "'state symbols' @ Writing chemical equations - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-CONSERVATION-MASS",
+        "title": "Law of Conservation of Mass",
+        "aliases": [
+          {
+            "alias": "conservation of mass",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-AR",
+        "title": "Relative atomic mass (Ar)",
+        "aliases": [
+          {
+            "alias": "relative atomic mass",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          },
+          {
+            "alias": "Ar",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "scripts/c11_evidence/CFEC1_MS_P1.txt"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MR",
+        "title": "Relative formula mass (Mr)",
+        "aliases": [
+          {
+            "alias": "relative molecular mass",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "relative formula mass",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          },
+          {
+            "alias": "Mr",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "scripts/c11_evidence/CFEC2_MS_P1.txt"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLE",
+        "title": "The mole (unit of amount of substance)",
+        "aliases": [
+          {
+            "alias": "amount of substance",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          },
+          {
+            "alias": "chemical amount",
+            "status": "VARIANT",
+            "evidence": [
+              "'chemical amounts' @ Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "mol",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+              "scripts/c11_evidence/CFEC1_MS_P1.txt",
+              "scripts/c11_evidence/CFEC2_MS_P1.txt",
+              "SPEC (12 pilot spec points)"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-AVOGADRO-CONST",
+        "title": "Avogadro constant",
+        "aliases": [
+          {
+            "alias": "Avogadro's constant",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLAR-MASS",
+        "title": "Molar mass",
+        "aliases": [
+          {
+            "alias": "mass of 1 mole",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLE-MASS-CONV",
+        "title": "Mole-mass conversion",
+        "aliases": [
+          {
+            "alias": "converting between moles and grams",
+            "status": "VARIANT",
+            "evidence": [
+              "'convert between moles and grams' @ Calculating moles and mass - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "moles and mass calculations",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLAR-RATIO",
+        "title": "Molar ratio from balanced equations",
+        "aliases": [
+          {
+            "alias": "mole ratio",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "ratio of amounts",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-REACTING-MASS",
+        "title": "Reacting mass calculation",
+        "aliases": [
+          {
+            "alias": "calculating reacting masses",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "mass calculations from equations",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-YIELD",
+        "title": "Yield (actual yield)",
+        "aliases": [
+          {
+            "alias": "actual yield",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "yield of a reaction",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-THEOR-YIELD",
+        "title": "Theoretical yield",
+        "aliases": [
+          {
+            "alias": "maximum yield",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-PERCENT-YIELD",
+        "title": "Percentage yield",
+        "aliases": [
+          {
+            "alias": "percentage yield calculation",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-YIELD-FACTORS",
+        "title": "Factors reducing yield",
+        "aliases": [
+          {
+            "alias": "reasons for less than 100 percent yield",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "yield losses",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-EMPIRICAL-FORMULA",
+        "title": "Empirical formula",
+        "aliases": [
+          {
+            "alias": "simplest whole number ratio formula",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLECULAR-FORMULA",
+        "title": "Molecular formula",
+        "aliases": []
+      },
+      {
+        "node": "4CH1-CON-EMP-MOL-CALC",
+        "title": "Empirical and molecular formula calculation",
+        "aliases": [
+          {
+            "alias": "empirical formula calculation",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+            ]
+          },
+          {
+            "alias": "molecular formula calculation",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "deducing formulae of hydrated salts",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-EXP-FORMULA-DEDUCTION",
+        "title": "Experimental formula deduction (mass-difference method)",
+        "aliases": [
+          {
+            "alias": "deducing formulae by experiment",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "formula from mass measurements",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-WATER-CRYST",
+        "title": "Water of crystallisation and hydrated salts",
+        "aliases": [
+          {
+            "alias": "hydrated salt",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "water of crystallisation",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-CONCENTRATION",
+        "title": "Concentration of a solution",
+        "aliases": [
+          {
+            "alias": "concentration",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+              "scripts/c11_evidence/CFEC1_MS_P1.txt",
+              "scripts/c11_evidence/CFEC2_MS_P1.txt",
+              "SPEC (12 pilot spec points)"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-CONC-CALC",
+        "title": "Concentration calculation (mol/dm3)",
+        "aliases": [
+          {
+            "alias": "concentration calculations",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md"
+            ]
+          },
+          {
+            "alias": "amount of substance from concentration",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-VOL-CONVERSION",
+        "title": "Volume unit conversion (cm3/dm3)",
+        "aliases": [
+          {
+            "alias": "converting cm3 to dm3",
+            "status": "VARIANT",
+            "evidence": [
+              "'convert cm3 to dm3' @ Solution concentration - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-MOLAR-GAS-VOL",
+        "title": "Molar gas volume at RTP (24 dm3)",
+        "aliases": [
+          {
+            "alias": "molar volume",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+              "SPEC (12 pilot spec points)"
+            ]
+          },
+          {
+            "alias": "molar gas volume",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-GAS-VOL-CALC",
+        "title": "Gas volume calculation",
+        "aliases": [
+          {
+            "alias": "calculating gas volumes",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          },
+          {
+            "alias": "converting moles into volumes",
+            "status": "VERBATIM",
+            "evidence": [
+              "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md"
+            ]
+          }
+        ]
+      },
+      {
+        "node": "4CH1-CON-AVOGADRO-LAW",
+        "title": "Avogadro's Law",
+        "aliases": []
+      },
+      {
+        "node": "4CH1-MIS-EQ-SUBSCRIPT",
+        "title": "Balancing equations by altering subscripts",
+        "aliases": [
+          {
+            "alias": "changing formula subscripts to balance",
+            "status": "UNEVIDENCED",
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "node": "4CH1-MIS-CONC-UNIT",
+        "title": "Failing to convert cm3 to dm3 in concentration calculations",
+        "aliases": [
+          {
+            "alias": "failing to divide by 1000",
+            "status": "VERBATIM",
+            "evidence": [
+              "scripts/c11_evidence/CFEC2_MS_P1.txt"
+            ]
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "verbatim": 25,
+      "variant": 4,
+      "unevidenced": 18
+    }
+  },
+  "pretriage_summary": {
+    "edges": {
+      "LIKELY_SAFE": 25,
+      "LIKELY_SAFE (transitively-reachable; §19 semantic-distinctness precedent — pass-2 addressed the pair)": 1,
+      "LIKELY_AMBIGUOUS (granularity note)": 1,
+      "FC-3 (OD-1-linked)": 2,
+      "FC-1+FC-2 (PENDING judgment)": 2
+    },
+    "nodes": {
+      "LIKELY_SAFE": 22,
+      "LIKELY_SAFE (pass-2 note)": 5,
+      "FC-2 identity (OD-1-linked)": 2
+    },
+    "legend": {
+      "FC-1": "evidence-sufficiency risk (medium confidence / implicit evidence)",
+      "FC-2": "relation-class or identity misfit risk",
+      "FC-3": "redundancy / normalization (subsumption or same-anchor operand pair)",
+      "FC-4": "negative-control (4.15) — machine-asserted zero in this package",
+      "LIKELY_SAFE": "zero machine flags; high confidence; pass-2 concordant",
+      "LIKELY_AMBIGUOUS": "a flag or note requires a human read before confirmation"
+    }
+  },
+  "review_reduction": {
+    "edges_31": {
+      "likely_safe_bulk_confirmable": 26,
+      "fc3_od1_linked_one_joint_ruling": 2,
+      "likely_ambiguous_individual": 1,
+      "pending_judgments_already_presented": 2,
+      "grouped_by_class": 28,
+      "require_genuine_human_semantic_judgment": 3,
+      "distribution": {
+        "LIKELY_SAFE": 25,
+        "LIKELY_SAFE (transitively-reachable; §19 semantic-distinctness precedent — pass-2 addressed the pair)": 1,
+        "LIKELY_AMBIGUOUS (granularity note)": 1,
+        "FC-3 (OD-1-linked)": 2,
+        "FC-1+FC-2 (PENDING judgment)": 2
+      }
+    },
+    "nodes_29": {
+      "likely_safe_bulk_confirmable": 27,
+      "fc2_identity_od1_linked": 2,
+      "grouped": 27,
+      "require_genuine_human_semantic_judgment": 2,
+      "distribution": {
+        "LIKELY_SAFE": 22,
+        "LIKELY_SAFE (pass-2 note)": 5,
+        "FC-2 identity (OD-1-linked)": 2
+      }
+    },
+    "held_appendix_13": {
+      "informational": 13,
+      "reopenings": 0,
+      "decisions_preserved_verbatim": 13
+    },
+    "decision_load": "Per-row surface 60 verdicts (31 edges + 29 nodes) reduces to ~7 actual decisions: (1) OD-1 ratification [covers 2 nodes + 2 edges], (2) OD-2 ratification, (3–4) the two PENDING judgments [already presented 10-field], (5) the granularity edge, (6) the alias-evidence policy, (7) the 'maximum yield' disposition — plus bulk CONFIRM/REJECT commands over the pre-triaged groups.",
+    "alias_audit": {
+      "total_aliases": 47,
+      "verbatim_evidenced": 25,
+      "morphological_variant": 4,
+      "unevidenced": 18
+    }
+  },
+  "batch_forecast": {
+    "instrument": "scripts/c11_batch_forecast.py",
+    "record": "graph/reports/C11_BATCH_FORECAST.json",
+    "calibration": [
+      {
+        "metric": "nodes",
+        "predicted": 28.8,
+        "actual": 29,
+        "delta": 0.2,
+        "pct_error": 0.7
+      },
+      {
+        "metric": "authored_edges",
+        "predicted": 33.0,
+        "actual": 32,
+        "delta": -1.0,
+        "pct_error": -3.0
+      },
+      {
+        "metric": "held_candidates",
+        "predicted": 12.0,
+        "actual": 13,
+        "delta": 1.0,
+        "pct_error": 8.3
+      }
+    ],
+    "rates": {
+      "held_rate": 0.2889,
+      "rejection_rate": 0.0444,
+      "promotion_rate": 0.0,
+      "operator_review_rate": 0.9836,
+      "quarantine_rate": 0.2667
+    }
+  },
+  "verification": {
+    "quote_checks": {
+      "checked": 78,
+      "verified": 78,
+      "failed": []
+    },
+    "gates_this_session": {
+      "graph_check": "ALL PASS (11/11; 29 nodes / 65 edges / 0 HUMAN_VALIDATED / 4.15 uncovered)",
+      "c11_negative_test": "14/14 PASS",
+      "c11_task4_variants": "3/3 PASS",
+      "c11_promote_test": "27/27 PASS"
+    },
+    "zero_action_attestation": "Nothing promoted (c11_promotions.yaml unchanged, 0 entries). graph/*.yaml byte-untouched. §16 not opened. No expansion. Outputs: this package + the batch-forecast record + the phantom-text corrections in 3 report artifacts + 1 renderer literal."
+  }
+}

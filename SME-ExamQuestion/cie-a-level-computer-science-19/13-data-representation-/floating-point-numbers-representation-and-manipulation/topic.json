@@ -1,0 +1,822 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:25Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "13-data-representation-",
+  "name": "13. Data Representation"
+ },
+ "topic": {
+  "id": "top_JNvh5f9QJ6CKmR43",
+  "slug": "floating-point-numbers-representation-and-manipulation",
+  "name": "Floating-point Numbers, Representation & Manipulation",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "floating-point-basics",
+   "name": "Floating-Point Basics",
+   "revision_note_id": "rn_HVvRmykQp8vkfw2T"
+  },
+  {
+   "slug": "precision-issues",
+   "name": "Precision Issues",
+   "revision_note_id": "rn_KqvdT23Ffh4cqX9d"
+  },
+  {
+   "slug": "floating-point-conversions",
+   "name": "Floating-Point Conversions",
+   "revision_note_id": "rn_vDqdrDSHKhN3mhYs"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_NJxbFNTrDsKMkfj9",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/13-data-representation-/floating-point-numbers-representation-and-manipulation/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_vfSBtRkhrdJ6wWhx",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_sG7rZYfswzw4MTQZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores real numbers using binary floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\n**Mantissa**\n\n| 1 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 1 | 1 | 0 |\n|---|---|---|---|\n\nA student calculates the denary value of this number as -13. The student's answer is not correct.\n\nCalculate the correct denary value of the number and identify the mistake the student has made.\n\nShow your working.",
+     "solution_md": "The exponent `0110` is 6, so the binary point moves 6 places to the right. **[1]**\n\nThe mantissa begins with 1, so it is negative. Taking the two's complement of the whole mantissa gives `011001100000`, because flipping the bits gives `011001011111` and adding 1 gives `011001100000`. That is a magnitude of 0.796875. **[1]**\n\n0.796875 × 64 = 51, so the value is -51. **[1]**\n\nThe student treated the leading 1 of the mantissa as a sign flag and read the remaining bits `00110100000` as the magnitude, giving 0.203125 × 64 = 13 and an answer of -13. In two's complement the leading bit is not a flag: it carries a place value of -1. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the exponent 6 // for evidence that the binary point moves 6 places\n> \n> **1 mark** for the magnitude of the mantissa found correctly, either as the two's complement `011001100000` = 0.796875, or by place value as -1 + 1/8 + 1/16 + 1/64 = -0.796875\n> \n> **1 mark** for the answer -51\n> \n> **1 mark** for identifying the mistake as reading the mantissa in sign-and-magnitude form // for stating that the leading mantissa bit has a place value of -1 and is not a sign flag // for stating that the two's complement of the mantissa was not taken\n> \n> Accept -51.0.\n> \n> Do not accept 38.5 as the value. That comes from reading all 12 mantissa bits as an unsigned fraction.\n> \n> Do not accept \"the student used the wrong exponent\" for the final mark. The exponent is 6 and the student applied 6 correctly, because 0.203125 × 64 = 13.\n> \n> Do not accept \"the student forgot the minus sign\" for the final mark. The student's answer is already negative.\n\n> **[exam-tip]**\n> A two's complement mantissa has no separate sign flag. The leading bit is a place value worth -1, so `100110100000` is -1 + 0.203125 and not -0.203125. The gap between -51 and -13 comes entirely from that one misreading.\n> \n> Pick one method and finish it. Either give the leading bit a place value of -1 and add the rest, or flip all 12 bits, add 1, read the result as a positive fraction and put the minus sign back at the end. Doing half of each, by flipping the bits and then also treating the leading bit as -1, gives a wrong answer every time."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wMcNqypv6QMszZMp",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_bxcZqkzC5vKycB8H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores real numbers using binary floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nCalculate the denary value of the given normalised binary floating-point number.\n\nShow your working.\n\n**Mantissa**\n\n| 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 1 | 1 | 1 | 1 | 1 | 1 |\n|---|---|---|---|---|---|",
+     "solution_md": "The exponent `111111` is in two's complement form, so it is -1 and not 63. **[1]**\n\nThe mantissa begins with 1, so it is negative. Its leading bit has a place value of -1, giving -1 + 1/4 + 1/8 = -0.625. **[1]**\n\nA negative exponent moves the binary point to the left. Moving it 1 place to the left halves the mantissa, so the value is -0.625 / 2 = -0.3125. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the exponent -1 // for `111111` identified as a negative two's complement value\n> \n> **1 mark** for the mantissa -0.625 // for -1 + 1/4 + 1/8 seen // for the two's complement route, flipping `1011000000` to `0100111111` and adding 1 to give `0101000000`, a magnitude of 0.625\n> \n> **1 mark** for the answer -0.3125\n> \n> Accept -5/16.\n> \n> Do not accept -1.25. That comes from reading the exponent as +1 instead of -1.\n> \n> Do not accept -0.1875. That comes from reading the mantissa as sign and magnitude, taking the bits after the sign bit as 0.375 instead of taking the two's complement.\n> \n> Do not accept a very large negative answer of nineteen digits. That comes from reading the exponent `111111` as unsigned 63 instead of -1.\n\n> **[exam-tip]**\n> Both fields are two's complement, not just the mantissa. An exponent whose first bit is 1 is negative, so `111111` is -1. Students who read it as 63 produce an answer with nineteen digits and do not stop to ask whether that can be right.\n> \n> A negative exponent makes the number smaller in magnitude. It does not make the number negative. The sign of the answer comes from the mantissa alone, and here both happen to be negative while doing two different jobs."
+    }
+   ]
+  },
+  {
+   "id": "qstn_CPzfbTv5YnFWwjqd",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_wKVBYK9wtWQzThxM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores real numbers using binary floating-point representation with:\n\n- 8 bits for the mantissa\n- 8 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nCalculate the denary value of the given normalised binary floating-point number.\n\nShow your working.\n\n**Mantissa**\n\n| 0 | 1 | 1 | 0 | 1 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |\n|---|---|---|---|---|---|---|---|",
+     "solution_md": "The exponent `00000100` is 4, so the binary point moves 4 places to the right. **[1]**\n\nThe mantissa is `0.1101`, which is 1/2 + 1/4 + 1/16 = 0.8125. Moving the binary point 4 places gives `1101.0`, so the value is 13. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the exponent 4 // for evidence that the binary point moves 4 places // for 1/2 + 1/4 + 1/16 = 13/16 seen\n> \n> **1 mark** for the answer 13\n> \n> Accept 13.0 and `1101`.\n> \n> Do not accept 6.5. That comes from reading the mantissa as `0.01101`, putting the binary point before the sign bit instead of after it.\n> \n> Do not accept 26. That comes from moving the binary point 5 places instead of 4.\n\n> **[exam-tip]**\n> The sign bit is not part of the fraction. In `01101000` the binary point sits after the first bit, so the fraction is 0.1101 and not 0.01101. Reading it the wrong way halves every answer, which is why 6.5 turns up so often on this question type.\n> \n> Trailing zeros in the mantissa are padding. Write out the shifted bit pattern first, then add up the place values, rather than trying to do both steps at once."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VCPDYdTVzCHmfKcy",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_X2BX28MwHq5BBfNg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NPkTzcxyQqKqymwn"
+     ],
+     "part_tier": null,
+     "problem_md": "Two computer systems store real numbers using binary floating-point representation.\n\nSystem 1 uses:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nSystem 2 uses:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nCalculate the normalised binary floating-point representation of +45.5 in each of these two systems.\n\nShow your working.\n\n**System 1 mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n\n**System 1 exponent**\n\n|   |   |   |   |   |   |\n|---|---|---|---|---|---|\n\n**System 2 mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**System 2 exponent**\n\n|   |   |   |   |\n|---|---|---|---|",
+     "solution_md": "45.5 in binary is `101101.1`, because 32 + 8 + 4 + 1 + 0.5 = 45.5. **[1]**\n\nMoving the binary point 6 places to the left gives 0.1011011 × 2<sup>6</sup>, so the exponent is 6 in both systems. **[1]**\n\n**System 1 mantissa**\n\n| 0 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**System 1 exponent**\n\n| 0 | 0 | 0 | 1 | 1 | 0 |\n|---|---|---|---|---|---|\n\n**[1]**\n\n**System 2 mantissa**\n\n| 0 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**System 2 exponent**\n\n| 0 | 1 | 1 | 0 |\n|---|---|---|---|\n\n**[1]**\n\nThe seven fraction bits `1011011` are the same in both systems. Only the padding changes: the mantissa gains zeros on the right, and the exponent gains copies of its sign bit on the left.\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for converting 45.5 to binary as `101101.1` // for 32 + 8 + 4 + 1 + 0.5 seen\n> \n> **1 mark** for the exponent 6 // for evidence that the binary point moves 6 places // for 0.1011011 × 2<sup>6</sup> seen\n> \n> **1 mark** for the System 1 answer, mantissa `0101101100` with exponent `000110`\n> \n> **1 mark** for the System 2 answer, mantissa `010110110000` with exponent `0110`\n> \n> Accept 91/128 multiplied by 64 as working for the value of the mantissa.\n> \n> Do not accept `0110` as the System 1 exponent or `000110` as the System 2 exponent. The exponent value is 6 in both, but the field is 6 bits wide in System 1 and 4 bits wide in System 2.\n> \n> Do not accept a System 2 mantissa of `0101101100`. That is only 10 bits. System 2 needs 12, and the two extra zeros go on the right-hand end.\n\n> **[exam-tip]**\n> Convert the number once and find the exponent once. Changing the split does not change the arithmetic, so all that is left is to write the same fraction and the same exponent into fields of a different width.\n> \n> Pad in the right direction. Zeros go on the right-hand end of the mantissa, because bits further past the binary point are worth less. The exponent is padded on the left with copies of its sign bit, so 6 becomes `000110` or `0110`, and a negative exponent such as -1 becomes `111111` or `1111`. Students who pad the exponent on the right turn 6 into 24."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hFMHNbDKTN9HmPRc",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_qSkHmMQWMp6cn3Dk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NPkTzcxyQqKqymwn"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores real numbers using binary floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nCalculate the normalised binary floating-point representation of -0.34375 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |   |   |\n|---|---|---|---|---|---|",
+     "solution_md": "0.34375 in binary is `0.01011`, because 1/4 + 1/16 + 1/32 = 0.34375. **[1]**\n\nA normalised mantissa must have its first two bits different, so the binary point moves 1 place to the right and the exponent is -1. In 6-bit two's complement, -1 is `111111`. **[1]**\n\nThe positive mantissa is `0101100000`. Take the two's complement of the whole mantissa: flip the bits to give `1010011111`, then add 1 to give `1010100000`. **[1]**\n\n**Mantissa**\n\n| 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 1 | 1 | 1 | 1 | 1 | 1 |\n|---|---|---|---|---|---|\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for converting 0.34375 to binary as `0.01011` // for 1/4 + 1/16 + 1/32 seen // for 11/32 seen\n> \n> **1 mark** for the exponent `111111` // for identifying the exponent as -1 // for evidence that the binary point moves 1 place\n> \n> **1 mark** for the mantissa `1010100000`\n> \n> Accept the mantissa reached by place value instead of by two's complement: -1 + 1/4 + 1/16 = -0.6875, and -0.6875 halved is -0.34375.\n> \n> Do not accept `000001` for the exponent. That is +1 and makes the number -1.375.\n> \n> Do not accept `1101100000` for the mantissa. That is a sign-and-magnitude pattern, it begins `11` so it is not normalised, and it stores -0.15625.\n> \n> Do not accept `1010011111` for the mantissa. That is the flip step with the add 1 missing, and it stores -0.3447265625.\n\n> **[exam-tip]**\n> A number smaller than 0.5 needs a negative exponent, and this is where the marks go. Students convert the value correctly, then write a positive exponent out of habit. Decide the sign by asking which way the binary point moved: to the right means a negative exponent.\n> \n> When you take the two's complement, complement all ten bits including the sign bit, then add 1. Flipping and stopping there leaves you one unit short in the last place. It produces -0.3447265625, an answer close enough to look right and worth no marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VNxcRQnHnXVrpQTF",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Nh9Qvpd8kmspdxFX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NPkTzcxyQqKqymwn"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores real numbers using binary floating-point representation with:\n\n- 8 bits for the mantissa\n- 8 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nWrite the normalised binary floating-point representation of +5.5 in this system.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|",
+     "solution_md": "5.5 in binary is `101.1`, because 4 + 1 + 0.5 = 5.5.\n\nMoving the binary point 3 places to the left gives 0.1011 × 2<sup>3</sup>, so the exponent is 3.\n\n**Mantissa**\n\n| 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|\n\n**[1]**\n\n**Exponent**\n\n| 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |\n|---|---|---|---|---|---|---|---|\n\n**[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the mantissa `01011000`\n> \n> **1 mark** for the exponent `00000011`\n> \n> Accept working shown as 5.5 = `101.1` = 0.1011 × 2<sup>3</sup>, or as 4 + 1 + 0.5, or as 11/16 × 8.\n> \n> Do not accept `10110000` for the mantissa. Dropping the sign bit shifts every digit one place to the left, and because the leading bit then has a place value of -1 the pattern stores -5, not +5.5.\n> \n> Do not accept `11111101` for the exponent. That is -3 in two's complement and makes the number 0.0859375.\n\n> **[exam-tip]**\n> The binary point sits immediately after the sign bit, so a positive normalised mantissa always starts `01` and a negative one always starts `10`. Writing the fraction bits hard against the left-hand end, as `10110000`, is the most common error here and it silently turns a positive number into a negative one.\n> \n> Count the exponent as the number of places the binary point moves, not as the number of digits in the binary number. Pad the mantissa with zeros on the right, never on the left."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8p7qHKCwnfvjxWPD",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mKFcvt2GPKHrSmbt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nA negative number is stored in this system as shown.\n\n**Mantissa**\n\n| 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 0 | 0 | 1 | 0 | 1 |\n|---|---|---|---|---|---|\n\nExplain why this number is not normalised, write its normalised representation, and explain what a computer system gains by storing floating-point numbers in normalised form.",
+     "solution_md": "The mantissa begins `111`, so its first two bits are the same and the number is not normalised. The mantissa is moved 2 places left and 2 is subtracted from the exponent, which changes from 5 to 3. **[1]**\n\n**Mantissa**\n\n| 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**[1]**\n\n**Exponent**\n\n| 0 | 0 | 0 | 0 | 1 | 1 |\n|---|---|---|---|---|---|\n\n**[1]**\n\nThe leading bits that simply repeat the sign bit carry no information. Shifting them out lets the mantissa hold more significant bits, so the number is stored to the greatest precision the mantissa allows. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the mantissa begins `11` // the first two bits are the same, together with the mantissa being moved 2 places left or the exponent being reduced by 2\n> \n> **1 mark** for mantissa `1011000000`\n> \n> **1 mark** for exponent `000011`\n> \n> **1 mark** for a reason: the mantissa holds more significant bits once the repeated leading bits are removed // the number is stored to the greatest precision available for that number of mantissa bits\n> \n> Accept accuracy in place of precision. Accept for the last mark: each number then has only one stored form, which makes comparison and arithmetic simpler.\n> \n> Do not accept mantissa `1101100000` with exponent `000100`. One shift keeps the value correct but the mantissa still begins `11`.\n> \n> Do not accept mantissa `0110000000`. Shifting a third time pushes the sign bit out and turns a negative number into a positive one.\n> \n> Do not accept the claim that normalising makes the number smaller or more compact. The stored value is unchanged by normalising.\n\n> **[exam-tip]**\n> A negative mantissa is where this goes wrong. Students see the leading 1s and stop shifting as soon as one disappears, or they keep shifting until the mantissa starts with a 0 and silently change the sign of the number. Shift until the first two bits differ, then stop: for a negative number that is `10`.\n> \n> Check the exponent in the same direction every time. Two places left means 2 taken off the exponent, so 5 becomes 3."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9wbkqMnrDhdj3Gdk",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_z9Fgy7pzZmS2cZmt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nA number is stored in this system as shown. The number is not normalised.\n\n**Mantissa**\n\n| 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 0 | 0 | 1 | 1 | 1 |\n|---|---|---|---|---|---|\n\nWrite the normalised floating-point representation of this number.\n\nShow your working.",
+     "solution_md": "The mantissa is moved 3 places left, so 3 is subtracted from the exponent. The exponent changes from 7 to 4. **[1]**\n\n**Mantissa**\n\n| 0 | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**[1]**\n\n**Exponent**\n\n| 0 | 0 | 0 | 1 | 0 | 0 |\n|---|---|---|---|---|---|\n\n**[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for working: mantissa moved 3 places left // exponent reduced by 3 // exponent 7 changed to 4\n> \n> **1 mark** for mantissa `0110100000`\n> \n> **1 mark** for exponent `000100`\n> \n> Accept 4 written in denary for the exponent working, and accept zeros filled in from the right of the mantissa as shown.\n> \n> Do not accept exponent `001010`. That is 10, from adding 3 instead of subtracting 3, and it stores 832 in place of the original value of 13.\n> \n> Do not accept mantissa `0011010000` with exponent `000101`. Two shifts keeps the value correct but the mantissa still begins `00`, so it is not yet normalised.\n\n> **[exam-tip]**\n> Almost every lost mark here is the direction of the exponent change. Moving the mantissa left multiplies it, so the exponent must come down by the same number of places to keep the value the same. Adding instead of subtracting turns 13 into 832.\n> \n> Keep shifting until the first two bits are different, not just until the leading zeros look tidy. Stopping one place early leaves `0011010000`, which is still not normalised."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pFSfwt3xrPFnxN5r",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_93FvPpQfhbwF8GQn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nA number is stored in this system with the following mantissa.\n\n**Mantissa**\n\n| 1 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|---|---|\n\nState why this number is not normalised, and state the first two bits that the mantissa of any normalised negative number must have.",
+     "solution_md": "The first two bits of the mantissa are the same, both 1, so the mantissa does not begin `01` or `10`. **[1]**\n\nThe mantissa of a normalised negative number must begin `10`. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for the mantissa does not begin `01` or `10` // the mantissa begins `11` // the first two digits are the same\n> \n> **1 mark** for `10`\n> \n> Accept for the second mark: the bit after the sign bit must be 0.\n> \n> Do not accept the mantissa starts with a 1 so it is negative. Being negative does not stop a number being normalised; a normalised negative mantissa also starts with a 1.\n> \n> Do not accept the number is too small. The size of the number is not the test; the two leading bits are.\n\n> **[exam-tip]**\n> The mistake here is checking only the sign bit. A mantissa starting `1` may be perfectly normalised, so long as the next bit is `0`. The test is always the same whatever the sign: the first two bits of the mantissa must be different.\n> \n> Learn the two normalised openings as a pair, `01` for a positive number and `10` for a negative one. Anything starting `00` or `11` still has bits that repeat the sign and can be shifted left."
+    }
+   ]
+  },
+  {
+   "id": "qstn_S5WwNmJZ4bVfxnx5",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2F5vdwNZNMN8sC3d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Two computer systems each store real numbers in a total of 16 bits, using floating-point representation with two's complement form for both the mantissa and the exponent. The systems allocate the 16 bits differently.\n\n| System | Bits for the mantissa | Bits for the exponent |\n|---|---|---|\n| X | 8 | 8 |\n| Y | 12 | 4 |\n\nExplain the effect that this difference has on the numbers each system can store. Give the exponent range of each system in your answer.",
+     "solution_md": "System X has an 8-bit exponent, so its exponent runs from -128 to +127. **[1]**\n\nSystem Y has a 4-bit exponent, so its exponent runs only from -8 to +7. **[1]**\n\nSystem X can therefore represent a far wider range of numbers, because the exponent alone sets how large or how small a value can be. **[1]**\n\nSystem Y holds 11 bits after the sign bit in its mantissa, against 7 in System X, so System Y represents a number to greater precision. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for System X exponent range -128 to +127\n> \n> **1 mark** for System Y exponent range -8 to +7\n> \n> **1 mark** for System X can represent a much wider range of numbers // System Y can represent only a narrow range\n> \n> **1 mark** for System Y stores numbers to greater precision // System Y has more mantissa bits so it is more accurate\n> \n> Accept accuracy in place of precision throughout.\n> \n> Accept 11 and 7 for the number of mantissa bits after the sign bit, or 12 and 8 for the whole mantissa, provided the comparison is the right way round.\n> \n> Do not accept the claim that System Y can store larger numbers because it has more mantissa bits. The mantissa is a fraction between -1 and 1; only the exponent sets the range.\n> \n> Do not accept an answer that gives only one of the two effects. Both range and precision are needed.\n\n> **[exam-tip]**\n> Students often answer that more mantissa bits means bigger numbers. It does not. The mantissa is a fraction between -1 and 1, so it never makes the value larger on its own. Giving bits to the exponent buys range; giving bits to the mantissa buys precision, and with a fixed total you can only buy one by selling the other.\n> \n> When the question asks for the exponent range, give both ends as denary numbers. An n-bit two's complement field runs from minus 2 to the power (n minus 1), up to 2 to the power (n minus 1) minus 1."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GTgR9kJs7pC3zHsc",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YCSyNsy8zSYmG8zR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nCalculate the largest positive denary value and the most negative denary value that can be stored in this system.\n\nShow your working.",
+     "solution_md": "The largest exponent is `0111`, which is +7, so both limits use a multiplier of 128. **[1]**\n\nLargest positive value: the largest mantissa is `011111111111`, which is 2047/2048. 2047/2048 × 128 = 128 - 1/16 = **127.9375** **[1]**\n\nMost negative value: the smallest mantissa is `100000000000`, which is exactly -1. -1 × 128 = **-128** **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for identifying the largest exponent as 7, or for a multiplier of 128 seen in the working\n> \n> **1 mark** for 127.9375\n> \n> **1 mark** for -128\n> \n> Accept 2047/16 or 128 - 1/16 for 127.9375. Accept the bit patterns `011111111111` `0111` and `100000000000` `0111` as the working mark.\n> \n> Do not accept 128 for the largest positive value. The mantissa is always smaller than 1, so the product is always smaller than 128.\n> \n> Do not accept -127.9375 for the most negative value. The mantissa reaches exactly -1 on the negative side but only reaches 2047/2048 on the positive side, so the two limits are not a matching pair.\n> \n> Do not accept 32752, which comes from reading the 4-bit exponent field as unsigned and using an exponent of 15.\n\n> **[exam-tip]**\n> The common mistake is to assume the two limits are symmetrical and write 128 and -128. Work with the mantissa as a fraction instead. The largest positive mantissa is one step below 1, so the largest positive value lands one step below 128, while the mantissa `100000000000` is exactly -1, so -128 is reached exactly.\n> \n> The other mistake is treating the exponent field as unsigned. Four two's complement bits run from -8 to +7, not 0 to 15."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4HvKNCv4mfJ9RJfP",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MwJXZhjPMsDpcChY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nState the largest exponent and the smallest exponent, in denary, that can be stored in this system.",
+     "solution_md": "Largest exponent: +31 **[1]**\n\nSmallest exponent: -32 **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for largest exponent = 31\n> \n> **1 mark** for smallest exponent = -32\n> \n> Accept the bit patterns `011111` and `100000` in place of the denary values.\n> \n> Do not accept 63 for the largest exponent. That is the largest value of six unsigned bits and it ignores the sign bit.\n> \n> Do not accept -31 for the smallest exponent. A two's complement field is not symmetrical: it holds one more negative value than it holds values from zero upwards.\n\n> **[exam-tip]**\n> The mark is usually lost by reading the exponent field as an unsigned number and answering 0 to 63. Every Cambridge stem tells you the exponent is in two's complement form, so the leftmost bit of the field is a sign bit.\n> \n> Watch the asymmetry as well. Six bits give 64 patterns, shared out as 32 negative exponents and 32 exponents from 0 upwards, so the field reaches -32 but only reaches +31."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Kx7mxWZ4r7ccdFwK",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_H6y7dmhPkP7Frz5Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CBTy9sh2hqRFjqVq"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nA sensor reading has the denary value +86.4375. Written in binary, this value is `1010110.0111`. The reading cannot be stored exactly in this system.\n\nA programmer suggests changing the system so that the mantissa uses 12 bits and the exponent uses 4 bits, keeping the total of 16 bits unchanged.\n\nExplain why the reading cannot be stored exactly in the original system, and what effect the programmer's change would have.",
+     "solution_md": "In normalised form the reading is 0.10101100111 x 2<sup>7</sup>, so the mantissa would need 11 significant binary digits plus a sign bit, which is 12 bits. **[1]**\n\nThe original mantissa holds only 10 bits, so the 2 least significant digits `11` are truncated. The value stored is 86.25 rather than 86.4375, which is a rounding error. **[1]**\n\nWith a 12-bit mantissa there is room for the sign bit and all 11 digits, so the reading is then stored exactly. **[1]**\n\nThe cost is range. A 6-bit two's complement exponent covers -32 to +31, but a 4-bit one covers only -8 to +7, so the system can no longer represent very large or very small numbers. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating that the normalised mantissa needs 11 significant digits plus a sign bit, which is 12 bits\n> \n> **1 mark** for stating that the 10-bit mantissa truncates the least significant digits, so precision is lost or a rounding error occurs\n> \n> **1 mark** for stating that a 12-bit mantissa holds every digit of this reading, so it would then be stored exactly\n> \n> **1 mark** for stating that moving bits to the mantissa leaves fewer for the exponent, so the range of numbers the system can represent is reduced\n> \n> Accept \"the value stored becomes 86.25\" or \"the last two digits are lost\" for the second mark.\n> \n> Accept \"very large and very small numbers can no longer be stored\", or a reference to overflow or underflow occurring for numbers that could previously be held, for the fourth mark.\n> \n> Do not accept \"the exponent of +7 will no longer fit\". A 4-bit two's complement exponent runs from -8 to +7, so +7 is still inside it and this reading survives the change.\n> \n> Do not accept \"the change has no disadvantage\". Precision and range are traded against each other whenever the total number of bits is fixed.\n\n> **[exam-tip]**\n> When a question fixes the total number of bits, every bit given to the mantissa is taken from the exponent. Mantissa bits buy precision, exponent bits buy range, and you cannot have more of both.\n> \n> The trap here is the exponent. Work out the new range before you claim the reading breaks: +7 is exactly the largest value a 4-bit two's complement exponent can hold, so this particular reading is fine. The loss is in what the system can represent in general, not in this one number."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cW4h3G629b7t3x7N",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YqPXRPd2JMtGHRJq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CBTy9sh2hqRFjqVq"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nThe value +9.25 can be stored exactly in this system. The value +9.20 cannot.\n\nExplain why.",
+     "solution_md": "Each digit after the binary point stands for a negative power of two, so 1/2, 1/4, 1/8, 1/16 and so on. Only a fraction that is a sum of these values can be written exactly in binary. **[1]**\n\nThe fractional part of +9.25 is 1/4, which is one of those values, so +9.25 is `1001.01` in binary. That is 6 significant digits, well inside the 12-bit mantissa. **[1]**\n\nThe fractional part of +9.20 is 1/5, which cannot be made from negative powers of two, so its binary form recurs as `1001.00110011...` and has to be truncated to fit the mantissa. The value stored is therefore only an approximation and a rounding error occurs. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating that the digits after the binary point represent negative powers of two, so only fractions that are sums of 1/2, 1/4, 1/8, 1/16 and so on can be held exactly\n> \n> **1 mark** for stating that 0.25 is such a fraction, so +9.25 has a short terminating binary form that fits inside the mantissa\n> \n> **1 mark** for stating that 0.20 is not, so its binary form recurs and must be truncated, leaving an approximation or a rounding error\n> \n> Accept 0.25 written as 1/4 and 0.20 written as 1/5, in either fraction or decimal form.\n> \n> Accept \"0.2 recurs in binary\" or \"0.2 never ends in binary\" for the third mark.\n> \n> Do not accept \"+9.20 needs more bits than the mantissa has, so a larger mantissa would store it exactly\". The binary expansion of 0.2 does not end, so no mantissa length stores it exactly. Extra bits only make the error smaller.\n> \n> Do not accept \"+9.20 is not a whole number\". Neither is +9.25, and +9.25 is stored exactly.\n\n> **[exam-tip]**\n> The test for an exact fraction is simple: halve repeatedly and see whether you land on the value. 0.25 is reached in two halvings, 0.2 is never reached at all.\n> \n> Students very often answer that a bigger mantissa would fix +9.20. It would not. In this system +9.20 is stored as 9.1953125, and widening the mantissa pushes the error further down the number without ever removing it."
+    }
+   ]
+  },
+  {
+   "id": "qstn_f3N2KQJVRG7gM56V",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_8YvHWTrWsXPtpDKB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CBTy9sh2hqRFjqVq"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two's complement form for both the mantissa and the exponent.\n\nA program stores the denary value +26.802734375. Written in binary, this value is `11010.110011011`.\n\nDescribe the reason why this value cannot be stored accurately in this system.",
+     "solution_md": "In normalised form the number is 0.11010110011011 x 2<sup>5</sup>, so the mantissa would need 14 significant binary digits plus a sign bit, which is 15 bits in total. **[1]**\n\nThe mantissa in this system holds only 12 bits, which is a sign bit and 11 digits, so the 3 least significant digits `011` are truncated and precision is lost. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for stating that the number needs more mantissa bits than the system provides, for example 14 significant digits, or 15 bits once the sign bit is included, against the 12 bits available\n> \n> **1 mark** for stating that the least significant digits are therefore truncated, so precision is lost or a rounding error occurs\n> \n> Accept \"only 11 digits can be stored after the sign bit\" for the first mark.\n> \n> Accept \"3 digits are lost\", \"the mantissa is cut short\", \"the number is rounded\" or \"the value stored is only an approximation\" for the second mark.\n> \n> Do not accept an answer that blames the exponent. The exponent here is +5, and a 4-bit two's complement exponent covers -8 to +7, so the exponent fits with room to spare.\n> \n> Do not accept \"the number is too large for the system\". The magnitude is not the problem. A value of the same size with fewer significant digits, such as +26.75, is stored exactly.\n\n> **[exam-tip]**\n> Count the significant digits from the leading 1, not the digits after the binary point. `11010.110011011` has 14 significant digits, and because the sign bit uses one place, a 12-bit mantissa holds only 11 of them.\n> \n> The most common error on this question is to blame the exponent. Check the exponent first: work out its value, compare it with the range the exponent bits allow, and only then look at the mantissa."
+    }
+   ]
+  },
+  {
+   "id": "qstn_zfMzm8M4YdPchTNy",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_JppZ7MR6D6xBk8NJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn",
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two’s complement form for both the mantissa and the exponent.\n\nWrite the normalised floating-point representation of -96.75 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |   |   |\n|---|---|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point (**Max 1**)\n> \n> - conversion of −96.75 to binary e.g., positive 96.75, flip the bits + 1 to give 10011111.01 \n> // –128 + 16 + 8 + 4 + 2 + 1 + 0.25 / ¼ seen\n> \n> **One **mark per mark point (**Max 2**)\n> \n> - correct mantissa\n> - correct exponent\n> \n> **Mantissa**\n> \n> | 1 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |\n> |---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 0 | 0 | 1 | 1 | 1 |\n> |---|---|---|---|---|---|"
+    },
+    {
+     "id": "qstnprt_8Mtws7xVs22XTxtX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/32",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_CBTy9sh2hqRFjqVq"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a binary representation is sometimes only an approximation to the real number it represents.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 Real numbers (can) have a fractional part (such as 1 /3 and ½) / (such as 0.4 and 0.25)\n> \n> MP2 The fixed length of the storage means that you can’t store very large / very small numbers\n> \n> MP3 Binary numbers represent numbers based on powers of 2, with limited fractional representations such as 1/2, 1/4, 1/8, 1/16, etc.\n> \n> MP4 It isn’t possible to store all fractions with the level of precision provided by this system\n> \n> MP5 …the fractional part of the number is as close as possible within these constraints."
+    }
+   ]
+  },
+  {
+   "id": "qstn_htKvxgqvYFdVbr4X",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_J8gtBk4Y2CpCqwBg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn",
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two’s complement form for both the mantissa and the exponent.\n\nWrite the normalised floating-point representation of +65.25 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |\n|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark for working (**Max 1**)\n> \n> - conversion of 65.25 to binary seen e.g. 1000001.01 = 65.25 // 64 + 1 + 0.25 / ¼\n> \n> **One **mark per mark point (**Max 2**)\n> \n> - correct mantissa\n> - correct exponent\n> \n> **Mantissa**\n> \n> | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |\n> |---|---|---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 1 | 1 | 1 |\n> |---|---|---|---|"
+    },
+    {
+     "id": "qstnprt_JXJbXN5vvDQBKDsr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_CBTy9sh2hqRFjqVq"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the problem that will occur in storing the normalised floating-point representation of +65.20 in this system.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 the decimal fraction 0.20 cannot be represented **exactly **(the closest is 0.25 / 0.1875)\n> \n> MP2 therefore, there will be a loss of precision due to a rounding error/truncation"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zqDsXNNFHsMXd5Zw",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xYkhBth57VYXFqK7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the effect of changing the allocation of bits used for the mantissa and for the exponent in a floating-point number with a fixed total number of bits.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point (**Max 2**)\n> \n> MP1 When the number of bits in the mantissa is raised, the precision / accuracy of the number represented increases // when the number of bits in the mantissa is lowered, the precision / accuracy of the number represented reduces.\n> \n> MP2 When the number of bits in the exponent is reduced, the range of numbers that can be represented is reduced // when the number of bits in the exponent is increased, the range of possible numbers that can be represented increases.\n> \n> MP3 When the range increases the accuracy decreases // When the range decreases the accuracy increases."
+    },
+    {
+     "id": "qstnprt_ZJPG7J2fRW5Q37gP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer, using floating-point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two’s complement form for both the mantissa and exponent.\n\nCalculate the normalised floating-point representation of +54.8125 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |\n|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> - number converted to binary e.g. 54.8125 = 00110110.1101 // Fractions method 1/2 + 1/4 + 1/16 + 1/32 + 1/128 + 1/256 + 1/1024 = 877/1024 // 32 + 16 + 4 + 2 + 0.5 + 0.25 + 0.0625 / (<sup>1/2</sup> +<sup> 1/4</sup> +<sup> 1/16</sup>)\n> - exponent = 6 // Moving binary point the correct number of places\n> - correct answer\n> \n> **Mantissa**\n> \n> | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 0 |\n> |---|---|---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 1 | 1 | 0 |\n> |---|---|---|---|"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mYmhjcXKKHS6VqSj",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_qKMmMPndMp5Mr32X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw",
+      "spcpt_VCDty8T35dnZj3yF"
+     ],
+     "part_tier": null,
+     "problem_md": "Real numbers are stored in a computer system using floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two’s complement form for both the mantissa and the exponent.\n\nCalculate the denary value of the given normalised floating-point number.\n\nShow your working.\n\n**Mantissa**\n\n| 0 | 1 | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 0 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 0 | 1 | 0 | 0 | 1 |\n|---|---|---|---|---|---|",
+     "solution_md": "**One **mark per mark point (**Max 3**)\n\nMP1 conversion of exponent 001001 to 9\n\nMP2 application of exponent to mantissa to go from 0.100111100 to 100111100 // 256 + 32 + 16 + 8 + 4 seen // 64/128 + 8/128 + 4/128 + 2/128 + 1/128 = 79/128 // 1/2 + 1/16 + 1/32 + 1/64 + 1/128 = 79/128\n\nMP3 correct answer = 316"
+    },
+    {
+     "id": "qstnprt_JmM5vXDXNFzbcqxm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the normalised floating-point representation of –102.75 in this system. Show your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |   |   |\n|---|---|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 3**)\n> \n> MP1 number converted to binary 10011001.01 // number converted to positive 102.75, reversed bits and 1 added. (0)1100110.11  ⇒ 10011001.00 ⇒10011001.01 // -128 + 16 + 8 + 1 + 0.25 = –102.75\n> \n> MP2 exponent = 7 // Moving binary point the correct number of places\n> \n> MP3 correct answer\n> \n> **Mantissa**\n> \n> | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 |\n> |---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 0 | 0 | 1 | 1 | 1 |\n> |---|---|---|---|---|---|"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wNdyzgnDyFjvZynS",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_9tMBFgTydZJV4PxH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw"
+     ],
+     "part_tier": null,
+     "problem_md": "Numbers are stored in a computer using binary floating‑point representation with:\n\n- 12 bits for the mantissa\n- 4 bits for the exponent\n- two’s complement form for both the mantissa and the exponent.\n\nCalculate the denary value of the given normalised binary floating‑point number.\n\nShow you working.\n\n**Mantissa**\n\n| 0 | 1 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 1 | 1 | 1 |\n|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark for working\n> \n> application of exponent to mantissa to go from 0.10001110111 to 01000111.0111 // moving the binary point 7 places // multiplying by\n> 2<sup>7</sup> /128 in the fractions method // 64 + 4 + 2 +1 + .25+ .125 + .0625 seen\n> \n> **One **mark for correct answer\n> \n> • 71.4375 // 71<sup>7 /16</sup>"
+    },
+    {
+     "id": "qstnprt_QrR5qx2g76kGzNPp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn",
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the normalised binary floating‑point representation of – 49.1875 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |\n|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One mark **per mark point (**Max 2**)\n> \n> - correct mantissa – exact answer only\n> - correct exponent – exact answer only\n> \n> **Mantissa**\n> \n> | 1 | 0 | 0 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 0 |\n> |---|---|---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 1 | 1 | 0 |\n> |---|---|---|---|\n> \n> **One mark** per mark point for working (**Max 2**)\n> \n> - number converted to binary e.g., positive binary version of \n> 49.1875 = 0110001.0011 // two’s complement version bits flipped and 1 added = 1001110.1101 // \n> –64 + 8 + 4 + 2 + .5 + .25 + .0625 //\n>  –64 + 14.8125\n> - use of the exponent e.g. moving the binary point 6 places / x 2 <sup>6</sup> ."
+    }
+   ]
+  },
+  {
+   "id": "qstn_rbGwJ2p7Skkz5MR7",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_N8DGvWHzfZN7VDnb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VCDty8T35dnZj3yF",
+      "spcpt_NPkTzcxyQqKqymwn",
+      "spcpt_dMzQRprWM4d9tk5Z"
+     ],
+     "part_tier": null,
+     "problem_md": "Numbers are stored in a computer using binary floating-point representation with:\n\n- 10 bits for the mantissa\n- 6 bits for the exponent\n- two’s complement form for both the mantissa and the exponent.\n\nCalculate the normalised binary floating-point representation of +201.125 in this system.\n\nShow your working.\n\n**Mantissa**\n\n|   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n|   |   |   |   |   |   |\n|---|---|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 1**)\n> \n> - correct answer\n> - statement regarding number losing precision/rounding error\n> \n> **One** mark per mark point for working (**Max 2**)\n> \n> - number converted to binary $201.125=11001001.001//\\,128+64+8+1+0.125/\\frac{1}{8}seen\\,$\n> - use of the exponent e.g. moving the binary point 8 places  / 2 <sup>8</sup> .\n> \n> **Mantissa**\n> \n> | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |\n> |---|---|---|---|---|---|---|---|---|---|\n> \n> **Exponent**\n> \n> | 0 | 0 | 1 | 0 | 0 | 0 |\n> |---|---|---|---|---|---|",
+     "equations": [
+      {
+       "latex": "201.125=11001001.001//\\,128+64+8+1+0.125/\\frac{1}{8}seen\\,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>201</mn><mo>.</mo><mn>125</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11001001</mn><mo>.</mo><mn>001</mn><mo>&#160;</mo><mo>/</mo><mo>/</mo><mo>&#160;</mo><mspace linebreak=\"newline\"/><mn>128</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>64</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>125</mn><mo>&#160;</mo><mo>/</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>8</mn></mfrac><mo>&#160;</mo><mi>s</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo>&#160;</mo><mspace linebreak=\"newline\"/></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "201.125 space equals space 11001001.001 space divided by divided by space\n128 space plus space 64 space plus space 8 space plus space 1 space plus space 0.125 space divided by space bevelled 1 over 8 space s e e n space\n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MjmMBy6zPNww3TrS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VCY2SgXbSzFg7VCw"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the denary value of the given normalised binary floating-point number.\n\nShow your working.\n\n**Mantissa**\n\n| 1 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 1 |\n|---|---|---|---|---|---|---|---|---|---|\n\n**Exponent**\n\n| 0 | 0 | 0 | 1 | 0 | 1 |\n|---|---|---|---|---|---|",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> - application of exponent to go from 1.010110011 to 101011.0011 // x 2<sup>5</sup> // movement of binary point 5 places seen\n> - \n> \n> $--32+8+2+1+.125+.0625//--32+8+2+1+\\frac{1}{8}+\\frac{1}{16}seen\\,//--1+\\frac{1}{4}+\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{256}+\\frac{1}{512}//--1+\\frac{179}{512}//--\\frac{333}{512}$\n> \n> **One **mark for correct answer (**Max 1**)\n> \n> - –20.8125 //\n>  –20<sup>13/16</sup>",
+     "equations": [
+      {
+       "latex": "--32+8+2+1+.125+.0625//--32+8+2+1+\\frac{1}{8}+\\frac{1}{16}seen\\,//--1+\\frac{1}{4}+\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{256}+\\frac{1}{512}//--1+\\frac{179}{512}//--\\frac{333}{512}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8211;</mo><mn>32</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mo>.</mo><mn>125</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mo>.</mo><mn>0625</mn><mo>&#160;</mo><mo>/</mo><mo>/</mo><mo>&#160;</mo><mo>&#8211;</mo><mn>32</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>8</mn></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>16</mn></mfrac><mo>&#160;</mo><mi>s</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo>&#160;</mo><mo>&#160;</mo><mspace linebreak=\"newline\"/><mo>/</mo><mo>/</mo><mo>&#160;</mo><mo>&#8211;</mo><mn>1</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>16</mn></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>32</mn></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>256</mn></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>1</mn><mn>512</mn></mfrac><mo>&#160;</mo><mo>/</mo><mo>/</mo><mo>&#160;</mo><mo>&#8211;</mo><mn>1</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>179</mn><mn>512</mn></mfrac><mo>&#160;</mo><mo>/</mo><mo>/</mo><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mfrac bevelled=\"true\"><mn>333</mn><mn>512</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "– 32 space plus space 8 space plus space 2 space plus space 1 space plus space.125 space plus space.0625 space divided by divided by space – 32 space plus space 8 space plus space 2 space plus space 1 space plus space bevelled 1 over 8 space plus space bevelled 1 over 16 space s e e n space space\ndivided by divided by space – 1 space plus space bevelled 1 fourth plus bevelled 1 over 16 space plus space bevelled 1 over 32 space plus space bevelled 1 over 256 space plus space bevelled 1 over 512 space divided by divided by space – 1 space plus space bevelled 179 over 512 space divided by divided by space – space bevelled 333 over 512"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

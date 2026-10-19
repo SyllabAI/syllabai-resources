@@ -1,0 +1,1620 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-science-combined-science-23-physics",
+ "qual": "cie-igcse-science-combined-science-2023-2024",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-science-combined-science-2023-2024",
+  "family": "tier_columns",
+  "official_points": 238
+ },
+ "totals": {
+  "items": 132,
+  "items_with_codes": 24,
+  "by_kind": {
+   "notes": 84,
+   "question_parts": 48,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 16,
+   "question_parts": 8,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 156,
+  "parts": 54,
+  "universe_ids": 156,
+  "universe_resolved": 2,
+  "pending_refs": 184,
+  "flashcards_discovered_uncoded": 0,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 15,
+   "resolved_refs": 24,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 15
+   },
+   "ambiguous_pairs": 13,
+   "pending_refs": 184,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
+ },
+ "items": {
+  "rn_cWr7JbYcWCtR2TzW": {
+   "kind": "note",
+   "label": "Circuit Diagrams & Circuit Components | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_SKGzv5fT4tnS28zm"
+   ]
+  },
+  "rn_NCYGfcsPZnvG6SxP": {
+   "kind": "note",
+   "label": "Combined Resistance | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_t6gjPHHYsyd9BcNj",
+    "spcpt_YhP4q9dSJKsW4z7y",
+    "spcpt_5Sd4s9xNM3nVpN3B",
+    "spcpt_w3Y32mhdBDH4zJtV"
+   ]
+  },
+  "rn_QrB8npYQcfsYH2cf": {
+   "kind": "note",
+   "label": "Current in Circuits | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9z6nhGbYcTZFch9r",
+    "spcpt_tx8SpTXVMcjqqftw",
+    "spcpt_vmP2Yvjs8GDsmKKj"
+   ]
+  },
+  "rn_TWWpxZz4MRcHBRkz": {
+   "kind": "note",
+   "label": "Electrical Hazards | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.4.1",
+     "official_code": "P6.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_2SQtqJkMxsKB4TSV": {
+   "kind": "note",
+   "label": "Electrical Safety | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_yxXhrqMCRZtjwTyr",
+    "spcpt_YBcdM7D4xNNNZVZm",
+    "spcpt_JcGWXCs3JRvtYThb"
+   ]
+  },
+  "rn_Hd6YrBPDMsM2kvvT": {
+   "kind": "note",
+   "label": "Potential Difference in Circuits | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_nVPcWFYdMkVjrS7f",
+    "spcpt_rGF3X74K6xwZjpds"
+   ]
+  },
+  "rn_wsyVbZQTr8cPn5wx": {
+   "kind": "note",
+   "label": "Current | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_FdD5bKwchtdPffZT",
+    "spcpt_VDbHFSz39VBVTNx4",
+    "spcpt_fRHPyVg2nh7V2V2z",
+    "spcpt_drMSSCZ8YHCKcwsz",
+    "spcpt_tr8wpBQRqGJRMKS4"
+   ]
+  },
+  "rn_2HrWRfWbj6zSs9JH": {
+   "kind": "note",
+   "label": "Direct & Alternating Current | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_Pj4WBhRbNxwJ5TQb",
+    "spcpt_SxQbHYzRbqYQJR4g"
+   ]
+  },
+  "rn_hZ9q78KSxnqyYVCt": {
+   "kind": "note",
+   "label": "Electric Charge | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.1",
+     "official_code": "P5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_7qMTvPwYqpHcKyMR": {
+   "kind": "note",
+   "label": "Electrical Conductors & Insulators | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.5",
+     "official_code": "P5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_hYrfxqVMXKg2Rrc9": {
+   "kind": "note",
+   "label": "Electrical Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_DfnP4dQZ9kP5xfjx",
+    "spcpt_878qtvvZqxcH33wN"
+   ]
+  },
+  "rn_d3WKdgt3nWsgHbjc": {
+   "kind": "note",
+   "label": "Electrical Power | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_KF8WxYWpkFCCDn4g",
+    "spcpt_xTYKS8TmfZnzN5QT"
+   ]
+  },
+  "rn_d5sMWVVBHG7w42PS": {
+   "kind": "note",
+   "label": "Electromotive force | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_FNwcrMhq8WBG6rKb"
+   ]
+  },
+  "rn_vMxdrfHMf5xHbRvF": {
+   "kind": "note",
+   "label": "Potential Difference | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_C56qtYjDfG6Fbw2w",
+    "spcpt_MjfJbkVw7B27jkYF"
+   ]
+  },
+  "rn_bcGbYNGcC36mMq3y": {
+   "kind": "note",
+   "label": "Resistance | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_h2W9SQvkjFj3Gm6s",
+    "spcpt_K7hcyrfGm26TgS8C",
+    "spcpt_n4jdXkcxPtfKwg7n"
+   ]
+  },
+  "rn_2ZfY4dq9WWHkmhKF": {
+   "kind": "note",
+   "label": "Voltage | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_KVyGPGgTQpcT7KkX",
+    "spcpt_ZgJNsRmnrsY4VTkk"
+   ]
+  },
+  "rn_P2g6ngvs7DvVbwD7": {
+   "kind": "note",
+   "label": "Resistance of a Wire | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_xzPKRp7RV22fSzRk"
+   ]
+  },
+  "rn_5jXrr2mpmT77Wm5C": {
+   "kind": "note",
+   "label": "Friction | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "effects-of-forces",
+   "codes": [],
+   "pending": [
+    "spcpt_5QvwJbJ6N37YPZWt",
+    "spcpt_vs8CSwmGdBmHQBNB"
+   ]
+  },
+  "rn_FhPYQ5XTDXx3rZsz": {
+   "kind": "note",
+   "label": "Newton's First Law | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "effects-of-forces",
+   "codes": [],
+   "pending": [
+    "spcpt_fQqwXPZpjxtP48Mw"
+   ]
+  },
+  "rn_BhSmbhnszfWvrfvQ": {
+   "kind": "note",
+   "label": "Newton's Second Law | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "effects-of-forces",
+   "codes": [],
+   "pending": [
+    "spcpt_svrBX4KGBXW3qkyS"
+   ]
+  },
+  "rn_DhXZNggyHHhZz2QQ": {
+   "kind": "note",
+   "label": "Resultant Forces | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "effects-of-forces",
+   "codes": [],
+   "pending": [
+    "spcpt_355pnb92smCMpDsX",
+    "spcpt_DvH5sG2f3KgbmFNV"
+   ]
+  },
+  "rn_cRCB74PwwFmVR8zT": {
+   "kind": "note",
+   "label": "Conservation of Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_z4zrz6J5JPygjHWy"
+   ]
+  },
+  "rn_vPFPss3yMhXKYcnt": {
+   "kind": "note",
+   "label": "Efficiency | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_MsncjQBmZRqw8s5s",
+    "spcpt_k2V2CrW8rjspnMHF",
+    "spcpt_WYP8tDdgNz3D2CXH"
+   ]
+  },
+  "rn_mtBn752wR5bNMD2t": {
+   "kind": "note",
+   "label": "Energy from Fuels | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_q9XJH4BQc8tfJg22",
+    "spcpt_nPcM6BS7ktf5QXzp",
+    "spcpt_SF9B4wvwFBwDfkvR"
+   ]
+  },
+  "rn_74JVRvhB4KRz7vgc": {
+   "kind": "note",
+   "label": "Energy from the Sun | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_9VRmSXtcz4F5ShFR",
+    "spcpt_2849C69MCcHyTtN8",
+    "spcpt_2st6bTwCvzrpQPs7",
+    "spcpt_5ZDQmPkqPW65jrRs"
+   ]
+  },
+  "rn_xzVC65rJTsnrhHvb": {
+   "kind": "note",
+   "label": "Energy from Water | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.4.2",
+     "official_code": "P2.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_JHTSXV648T9G7tDK"
+   ]
+  },
+  "rn_qry4sxspBS7bZFmq": {
+   "kind": "note",
+   "label": "Energy Stores & Transfers | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_VBVrR4xqsjwZGFdm",
+    "spcpt_nttYhxrgWCQRK677"
+   ]
+  },
+  "rn_8GX7c2YysKdyym5P": {
+   "kind": "note",
+   "label": "Geothermal Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_GX9kpKTm7yPkbgGF"
+   ]
+  },
+  "rn_VWsPRQTgsSxgSNM2": {
+   "kind": "note",
+   "label": "Gravitational Potential Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.4",
+     "official_code": "P2.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_55kDpRz7T3rXzmSW": {
+   "kind": "note",
+   "label": "Kinetic Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.2",
+     "official_code": "P2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_gRKVcSqtwDPQnzBm": {
+   "kind": "note",
+   "label": "Nuclear Fission & Nuclear Fusion | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_pV8PxXmJbPpZfDnT"
+   ]
+  },
+  "rn_NnPNGnvTFGySYf6j": {
+   "kind": "note",
+   "label": "Power | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.1",
+     "official_code": "P2.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_7Rykpm3QJVXFkrjp"
+   ]
+  },
+  "rn_pnGbCqVDPxh9kj7x": {
+   "kind": "note",
+   "label": "Work Done | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_PjXkhVvHgP2C8Ypz",
+    "spcpt_ktTt9j4vgFhNngGH"
+   ]
+  },
+  "rn_8fTm2Pdg8kHBgyJ9": {
+   "kind": "note",
+   "label": "Density | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_ydwXHsTbQ9w7DQVX"
+   ]
+  },
+  "rn_DpbQgpK6cpjRv4dC": {
+   "kind": "note",
+   "label": "Floating | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_8JP2j2vm3gkyNPNG"
+   ]
+  },
+  "rn_NMsqBzVffv4kyP4y": {
+   "kind": "note",
+   "label": "Mass & Weight | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.3.1",
+     "official_code": "P1.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_gx4BRGtJctzvqc2t",
+    "spcpt_2SRwybGpCvRzP6XV"
+   ]
+  },
+  "rn_S83tG6fDQKH9r5kg": {
+   "kind": "note",
+   "label": "Measuring Density | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "rn_4BRYVmKDf9ZNV3Yg": {
+   "kind": "note",
+   "label": "Acceleration | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_Bf9RMnVKGkWbZK4k",
+    "spcpt_qvDXDvpQbNhxtfc6"
+   ]
+  },
+  "rn_2s5hRY9PvsVgFNbp": {
+   "kind": "note",
+   "label": "Calculating Acceleration from Speed-Time Graphs | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_dcGKNfFgDhNK7Zp2",
+    "spcpt_JZVNgpQwvS5Tm2Bz"
+   ]
+  },
+  "rn_n33YBCfDPjZcfnw4": {
+   "kind": "note",
+   "label": "Distance-Time Graphs | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_vVgRwKkfBFrKqgtY",
+    "spcpt_V8wvv4yXt3Fbc6H6"
+   ]
+  },
+  "rn_Yb2BrMst8R2pqw2g": {
+   "kind": "note",
+   "label": "Freefall | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_nSYQ9pDM6RbPJDNd"
+   ]
+  },
+  "rn_Y3d24HPfdTX87PR3": {
+   "kind": "note",
+   "label": "Speed-Time Graphs | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_wvGZFWsXPWTPq3TK",
+    "spcpt_T4yMVqGg2FG6p2Q2"
+   ]
+  },
+  "rn_f3FT2dd7f2p4pc6m": {
+   "kind": "note",
+   "label": "Speed | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.2.1",
+     "official_code": "P1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_f3yNDtM7NSZwKBQ9"
+   ]
+  },
+  "rn_CWpt2pwqVtHPgDN3": {
+   "kind": "note",
+   "label": "Measurement | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "physical-quantities-measurement-techniques",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.1.1",
+     "official_code": "P1.1.1",
+     "tier": "T2_near",
+     "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.1.3",
+     "official_code": "P1.1.3",
+     "tier": "T2_near",
+     "method": "cie_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_czZsgHDHz4DVMcqn"
+   ]
+  },
+  "rn_vwxr2gvstxjwFRkC": {
+   "kind": "note",
+   "label": "Pressure | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "motion-forces-energy",
+   "topic": "pressure",
+   "codes": [],
+   "pending": [
+    "spcpt_Z8bzbPXcNhqKcWjg",
+    "spcpt_Vghj3TgV3Sqxqqcg"
+   ]
+  },
+  "rn_rYWjStX9V4GCNWjR": {
+   "kind": "note",
+   "label": "Gravitational Field Strength | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_JPFKdDpF7G4WwHHY",
+    "spcpt_Cbdt65dwq8XSXd9p"
+   ]
+  },
+  "rn_FwGrw3kNvxwhT6tq": {
+   "kind": "note",
+   "label": "Light Speed Calculations | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_7q9rD7Np6rvT3ppc"
+   ]
+  },
+  "rn_djrpPFNZfS7c8Dmq": {
+   "kind": "note",
+   "label": "Orbital Speed Equation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_9wxjWYshrc2ZWYYF"
+   ]
+  },
+  "rn_rYzprnjWVCxx94xD": {
+   "kind": "note",
+   "label": "The Solar System | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_9PKzTqrdg9sJ76gF"
+   ]
+  },
+  "rn_RMqYKRGqbpqrQn7j": {
+   "kind": "note",
+   "label": "The Big Bang Theory | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_B5WMmHT9MNzdkJBN"
+   ]
+  },
+  "rn_RQjY2vDCgBbG8pCS": {
+   "kind": "note",
+   "label": "Life Cycle of a Star | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_km9BX4r4TC9R6z89",
+    "spcpt_WMgJ7ppKRfNhBC7C"
+   ]
+  },
+  "rn_MHn8XcTGHWVwjJ95": {
+   "kind": "note",
+   "label": "The Scale of the Universe | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_5yJRRTPY3wD6MJs3",
+    "spcpt_BnnxCvGWvTFyZnZ6"
+   ]
+  },
+  "rn_8RbxsmK9D8d2Yv48": {
+   "kind": "note",
+   "label": "Star Formation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_zPjZ3Zc3BDjTSrBv"
+   ]
+  },
+  "rn_Zjg6GFXVTyKDcgBt": {
+   "kind": "note",
+   "label": "The Sun as a Star | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_6CpM3fdzKRWHNfFz",
+    "spcpt_PHC5gYsvSvWqwFGj"
+   ]
+  },
+  "rn_kQVQVYfS4MWvtNMh": {
+   "kind": "note",
+   "label": "Molecular Matter | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_MscBw4GTzb4jBXrk",
+    "spcpt_MX22VYKX2GZ3XvVS"
+   ]
+  },
+  "rn_HZDcx4YhYnYcyDXk": {
+   "kind": "note",
+   "label": "Pressure Changes | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_h5ff5fVSP355XDT4"
+   ]
+  },
+  "rn_NrwbyffZyhkkqH5w": {
+   "kind": "note",
+   "label": "States of Matter | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_Dfb4h9V3H8KXNbfY",
+    "spcpt_cy67RR2YjzH6zzFq"
+   ]
+  },
+  "rn_KkF7kNstTWpyVfW2": {
+   "kind": "note",
+   "label": "Temperature & Pressure | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_nMdjX5sBD6pTyMTf",
+    "spcpt_KW43TWBBWmQxKDJn"
+   ]
+  },
+  "rn_gZQzbsyKqrNKqBKH": {
+   "kind": "note",
+   "label": "Evaporation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "thermal-properties-temperature",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P3.1.2",
+     "official_code": "P3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_ZMxNwMpptsCYfw8k",
+    "spcpt_W3CDG8rpR9MrX6T3"
+   ]
+  },
+  "rn_M3xSn5dq4FpX6xpT": {
+   "kind": "note",
+   "label": "Thermal Expansion | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "thermal-properties-temperature",
+   "codes": [],
+   "pending": [
+    "spcpt_SfsShwDGjhXrjfSt",
+    "spcpt_8SbsPPRcK9Hb8Yk3"
+   ]
+  },
+  "rn_7gpVrmsB7zHVHrny": {
+   "kind": "note",
+   "label": "Consequences of Thermal Energy Transfer | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_Dzjjxdg7bZwqyfgb"
+   ]
+  },
+  "rn_RycX27Nk9YWCnjZc": {
+   "kind": "note",
+   "label": "Convection | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_7q2VDxqG25dnmKjd",
+    "spcpt_pdJKtsR9snzb3mfm",
+    "spcpt_VHkyhcdW96Wb2Fjh"
+   ]
+  },
+  "rn_fdWP987nwbYfZNDw": {
+   "kind": "note",
+   "label": "Demonstrating Conduction | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_wVPVDtnGpf5X9nmp"
+   ]
+  },
+  "rn_8VMP7QNycVrDsCVG": {
+   "kind": "note",
+   "label": "The Greenhouse Effect | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_HMx6NqHMNcKgT4hG"
+   ]
+  },
+  "rn_xFqczD6Y3NKFbhks": {
+   "kind": "note",
+   "label": "Investigating Thermal Radiation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_FHpfBkkqkscM4Jjd"
+   ]
+  },
+  "rn_F8xhxjPCB2RYm2t7": {
+   "kind": "note",
+   "label": "Radiation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_YJYfWv94pmwNVmMr",
+    "spcpt_yrcPFvwtY7v36QP7"
+   ]
+  },
+  "rn_Ncjv5kdQyYcRs4KZ": {
+   "kind": "note",
+   "label": "Thermal Conduction | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_bWZ39rcVktwqypsF"
+   ]
+  },
+  "rn_Tcq6MgxP92hb86ZB": {
+   "kind": "note",
+   "label": "Dangers of Electromagnetic Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "electromagnetic-spectrum",
+   "codes": [],
+   "pending": [
+    "spcpt_BDPKCcdCJ53cGWtz"
+   ]
+  },
+  "rn_nNPn8FgPwP9dY6S8": {
+   "kind": "note",
+   "label": "Uses of Electromagnetic Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "electromagnetic-spectrum",
+   "codes": [],
+   "pending": [
+    "spcpt_cXPYz6qnVjpr6Gvy"
+   ]
+  },
+  "rn_mbwqbrbvPDFh8gwZ": {
+   "kind": "note",
+   "label": "Electromagnetic Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "electromagnetic-spectrum",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.3.3",
+     "official_code": "P4.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_HscKkfwBt9RMXGq6",
+    "spcpt_gdP7tPHvVZxmMQKP"
+   ]
+  },
+  "rn_wywbbwmkbQ43bjfc": {
+   "kind": "note",
+   "label": "Features of Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.2",
+     "official_code": "P4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_ZDs3hdFsF6ZyDxCQ",
+    "spcpt_WQw9C8XpZQMwMVKK"
+   ]
+  },
+  "rn_sr5mC465h33cq7Xd": {
+   "kind": "note",
+   "label": "Transverse & Longitudinal Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_RNwqJJ7kcQ8CWPtw"
+   ]
+  },
+  "rn_hHQyVYBTJP8MVBwV": {
+   "kind": "note",
+   "label": "Wave Behaviour | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [],
+   "pending": [
+    "spcpt_xbH9HjfrcNnb4g46",
+    "spcpt_bttQqzzFKSd7rYtY"
+   ]
+  },
+  "rn_2pZ3xRYmdHSFn2S5": {
+   "kind": "note",
+   "label": "The Wave Equation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [],
+   "pending": [
+    "spcpt_pywgSJg4xwvYVJnZ"
+   ]
+  },
+  "rn_SxK2tnPMxwDTCKdH": {
+   "kind": "note",
+   "label": "Dispersion of Light | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_vVmnZtt7JpCbFDZV",
+    "spcpt_gp5CKGdrbW7GT5PF"
+   ]
+  },
+  "rn_BbKg8VDJgyJjfNHb": {
+   "kind": "note",
+   "label": "Images | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_hyMmSCTg6sJz9qyX",
+    "spcpt_pG4CFsSF5TRy2J6h"
+   ]
+  },
+  "rn_ysqZYtC6kk6W9s4D": {
+   "kind": "note",
+   "label": "Investigating Reflection | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_yMjmJ3Z3PkNjZtTz"
+   ]
+  },
+  "rn_6BmFzjGYNJXv776B": {
+   "kind": "note",
+   "label": "Ray Diagrams | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_m6fk5tYkdCmDrXt4",
+    "spcpt_FPstFNpJc7WJHChG"
+   ]
+  },
+  "rn_DnnSKrRKbPbtQW5N": {
+   "kind": "note",
+   "label": "Reflection of Light | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_6cmmF9QcFZCFTMRh",
+    "spcpt_KBnvFxFFVWzgGRDZ",
+    "spcpt_FXRwpXmk9S55ZPdm"
+   ]
+  },
+  "rn_ptqyHGRr8DvyRg8f": {
+   "kind": "note",
+   "label": "Refraction of Light | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_Vhpm4WNN2bdSvhtK",
+    "spcpt_fdsQ5KbtCgPQKHBM"
+   ]
+  },
+  "rn_27Y5TbzFKVmDv92P": {
+   "kind": "note",
+   "label": "Effects of Sound Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "sound",
+   "codes": [],
+   "pending": [
+    "spcpt_rYwZg9gxwwcsdVwB",
+    "spcpt_Y4WVh6VqrP9PVXr7"
+   ]
+  },
+  "rn_dryGWvTVCNwc5x4k": {
+   "kind": "note",
+   "label": "Measuring the Speed of Sound | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "sound",
+   "codes": [],
+   "pending": [
+    "spcpt_CbRGQR2pQmDfF27T",
+    "spcpt_P6ns66NhbWg8mZpF"
+   ]
+  },
+  "rn_rCHTxtnxR9KWQMXp": {
+   "kind": "note",
+   "label": "Sound Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "sound",
+   "codes": [],
+   "pending": [
+    "spcpt_Ccvy2YBpnXqJ49Ch",
+    "spcpt_tnD65MCJKgR7MNnS"
+   ]
+  },
+  "rn_CHnbswWSqf2fTpSz": {
+   "kind": "note",
+   "label": "Ultrasound | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
+   "section": "waves",
+   "topic": "sound",
+   "codes": [],
+   "pending": [
+    "spcpt_8f8qvbkSPPCxY37K"
+   ]
+  },
+  "qstnprt_S4WfSN5cK7GWJDzt": {
+   "kind": "question_part",
+   "label": "qstn_hcTtYfMW8qCCQHbr / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_t6gjPHHYsyd9BcNj"
+   ]
+  },
+  "qstnprt_7BMzrJP3hcTtfYCm": {
+   "kind": "question_part",
+   "label": "qstn_TyzSvmvqSspGy8hH / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_xTYKS8TmfZnzN5QT"
+   ]
+  },
+  "qstnprt_WG6qQ92d7bXvn7vG": {
+   "kind": "question_part",
+   "label": "qstn_yfJVtzWGYH5SGPTz / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.4.1",
+     "official_code": "P6.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_w8MM66Yg7MJw4qpR": {
+   "kind": "question_part",
+   "label": "qstn_M8kQst8GqxHVzBG4 / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_YhP4q9dSJKsW4z7y"
+   ]
+  },
+  "qstnprt_yPdtfgNJxfhX4YNw": {
+   "kind": "question_part",
+   "label": "qstn_smB6N44S5wcggtHC / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hFS2mt5nyJFMGDZw": {
+   "kind": "question_part",
+   "label": "qstn_PkYq2jqtZTPZndDZ / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electric-circuits-safety",
+   "codes": [],
+   "pending": [
+    "spcpt_t6gjPHHYsyd9BcNj"
+   ]
+  },
+  "qstnprt_XYfrFFvDJWQXcRfr": {
+   "kind": "question_part",
+   "label": "qstn_yfTy3MTdpzxr7szz / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.5",
+     "official_code": "P5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_D7Nkr5BPCSFpKvXy": {
+   "kind": "question_part",
+   "label": "qstn_XbnSYwpg2hFVCn3T / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_FNwcrMhq8WBG6rKb"
+   ]
+  },
+  "qstnprt_SDyJXW6gCX7Wv55B": {
+   "kind": "question_part",
+   "label": "qstn_hmNTm4Jbfk4NgM2G / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_xTYKS8TmfZnzN5QT"
+   ]
+  },
+  "qstnprt_zfJ5cvN8ztgYzgpw": {
+   "kind": "question_part",
+   "label": "qstn_zK5twBKBhN3b5Fjw / part 0",
+   "section": "electricity-magnetism",
+   "topic": "electrical-quantities",
+   "codes": [],
+   "pending": [
+    "spcpt_xTYKS8TmfZnzN5QT"
+   ]
+  },
+  "qstnprt_sWcqkXjhb5QrcK36": {
+   "kind": "question_part",
+   "label": "qstn_khTb6Bg32Jf2npry / part 0",
+   "section": "motion-forces-energy",
+   "topic": "effects-of-forces",
+   "codes": [],
+   "pending": [
+    "spcpt_svrBX4KGBXW3qkyS"
+   ]
+  },
+  "qstnprt_Zmn64zjStfR36Byy": {
+   "kind": "question_part",
+   "label": "qstn_5P2t2CGVZ2Zt9WXc / part 0",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_t6gjPHHYsyd9BcNj"
+   ]
+  },
+  "qstnprt_JXhKjRz36QMxcQ6y": {
+   "kind": "question_part",
+   "label": "qstn_5P2t2CGVZ2Zt9WXc / part 1",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_nttYhxrgWCQRK677",
+    "spcpt_k2V2CrW8rjspnMHF"
+   ]
+  },
+  "qstnprt_5f5grgYGyyvkKkpW": {
+   "kind": "question_part",
+   "label": "qstn_8cY4YFsSvdNFn5kg / part 0",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.4",
+     "official_code": "P2.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Gy6NjF2mrqqnnCSK": {
+   "kind": "question_part",
+   "label": "qstn_bCKq28gSxdQc7HB6 / part 0",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_7Rykpm3QJVXFkrjp"
+   ]
+  },
+  "qstnprt_kNrNR8qGcRBBJRRh": {
+   "kind": "question_part",
+   "label": "qstn_pwMDfMQFs7w4NrBM / part 0",
+   "section": "motion-forces-energy",
+   "topic": "energy-work-power",
+   "codes": [],
+   "pending": [
+    "spcpt_PjXkhVvHgP2C8Ypz"
+   ]
+  },
+  "qstnprt_hQBz89QbxGkCkcgd": {
+   "kind": "question_part",
+   "label": "qstn_Hmhn8Z4bPNBRFQrz / part 0",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_43yVGKKGRtT28bRt": {
+   "kind": "question_part",
+   "label": "qstn_Hmhn8Z4bPNBRFQrz / part 1",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_D78DQdwx78cPMZ5N": {
+   "kind": "question_part",
+   "label": "qstn_Hmhn8Z4bPNBRFQrz / part 2",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_8jrPB9Dj57CqrYhR": {
+   "kind": "question_part",
+   "label": "qstn_Hmhn8Z4bPNBRFQrz / part 3",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_d4fkkHthbn99m3t5": {
+   "kind": "question_part",
+   "label": "qstn_f4YsrQNwrHvjrdDr / part 0",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_YBjMNpfwFsMcNytb": {
+   "kind": "question_part",
+   "label": "qstn_f4YsrQNwrHvjrdDr / part 1",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_HDVncvzmydXN7BmV": {
+   "kind": "question_part",
+   "label": "qstn_f4YsrQNwrHvjrdDr / part 2",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_Nx6RkF8CMxfPjfXT": {
+   "kind": "question_part",
+   "label": "qstn_6Hrbbc3ZFRZSJB7Y / part 0",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_8JP2j2vm3gkyNPNG"
+   ]
+  },
+  "qstnprt_RGnTRSPqZ3rhB2FV": {
+   "kind": "question_part",
+   "label": "qstn_6Hrbbc3ZFRZSJB7Y / part 1",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_KBnvFxFFVWzgGRDZ",
+    "spcpt_h4SzGWzwRP4C7mVQ"
+   ]
+  },
+  "qstnprt_hBgCKJKMZs5m7Szw": {
+   "kind": "question_part",
+   "label": "qstn_bhd8pjXfDt6xH6Gd / part 0",
+   "section": "motion-forces-energy",
+   "topic": "mass-weight-density",
+   "codes": [],
+   "pending": [
+    "spcpt_8JP2j2vm3gkyNPNG"
+   ]
+  },
+  "qstnprt_GSf4xj3RGJKqMwfn": {
+   "kind": "question_part",
+   "label": "qstn_XtP4sQzrmKs6KYPD / part 0",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_nSYQ9pDM6RbPJDNd"
+   ]
+  },
+  "qstnprt_3pXr9StMzTYH73kN": {
+   "kind": "question_part",
+   "label": "qstn_vDW454qdjbvmqPqb / part 0",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_T4yMVqGg2FG6p2Q2"
+   ]
+  },
+  "qstnprt_ngsHNgv7shWSw3pr": {
+   "kind": "question_part",
+   "label": "qstn_w3S3wwTVWQVRSGrF / part 0",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.3.3",
+     "official_code": "P4.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.2.1",
+     "official_code": "P1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_gx4BRGtJctzvqc2t",
+    "spcpt_Bf9RMnVKGkWbZK4k"
+   ]
+  },
+  "qstnprt_HbyRqjm7nk7fr527": {
+   "kind": "question_part",
+   "label": "qstn_yM4PDjRc9WfTsCWx / part 0",
+   "section": "motion-forces-energy",
+   "topic": "motion",
+   "codes": [],
+   "pending": [
+    "spcpt_vVgRwKkfBFrKqgtY"
+   ]
+  },
+  "qstnprt_r6xmfTkgHfRX4Ttd": {
+   "kind": "question_part",
+   "label": "qstn_Hqccdt4KbGbbHwwM / part 0",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_9wxjWYshrc2ZWYYF"
+   ]
+  },
+  "qstnprt_j33F3FWjz7HfSx99": {
+   "kind": "question_part",
+   "label": "qstn_tsJFdQKf62hp84QX / part 0",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_9PKzTqrdg9sJ76gF"
+   ]
+  },
+  "qstnprt_jkTBYcZ9NySjBWXM": {
+   "kind": "question_part",
+   "label": "qstn_MwsGHJVHvJnHpwHz / part 0",
+   "section": "space-physics",
+   "topic": "solar-system",
+   "codes": [],
+   "pending": [
+    "spcpt_9wxjWYshrc2ZWYYF"
+   ]
+  },
+  "qstnprt_xNdgMHtTM6CTyPy2": {
+   "kind": "question_part",
+   "label": "qstn_b2Sy3GMh738NQr6t / part 0",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_km9BX4r4TC9R6z89"
+   ]
+  },
+  "qstnprt_jxkJsqMjC3fbTF2k": {
+   "kind": "question_part",
+   "label": "qstn_3BFdYvcrkZjMbrRH / part 0",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_5yJRRTPY3wD6MJs3"
+   ]
+  },
+  "qstnprt_6KwDwDXrhYg3Rg6k": {
+   "kind": "question_part",
+   "label": "qstn_PhcNmjqMtqJdwgPn / part 0",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_km9BX4r4TC9R6z89"
+   ]
+  },
+  "qstnprt_6JMnzmRSjyZ9QXQ9": {
+   "kind": "question_part",
+   "label": "qstn_mfBTFFfBNjJzRW5M / part 0",
+   "section": "space-physics",
+   "topic": "stars-universe",
+   "codes": [],
+   "pending": [
+    "spcpt_BnnxCvGWvTFyZnZ6"
+   ]
+  },
+  "qstnprt_hVGdN8sqghcKGy8b": {
+   "kind": "question_part",
+   "label": "qstn_sr2FxjShqvNHqXBz / part 0",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_Dfb4h9V3H8KXNbfY"
+   ]
+  },
+  "qstnprt_FkVMVvY64zCSd7Cp": {
+   "kind": "question_part",
+   "label": "qstn_yCtn7MvVtVcWyW3j / part 0",
+   "section": "thermal-physics",
+   "topic": "kinetic-particle-model-of-matter",
+   "codes": [],
+   "pending": [
+    "spcpt_cy67RR2YjzH6zzFq"
+   ]
+  },
+  "qstnprt_PRjvG68NQpZj72G9": {
+   "kind": "question_part",
+   "label": "qstn_YNq3jjjtGZXq3BNg / part 0",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_YJYfWv94pmwNVmMr"
+   ]
+  },
+  "qstnprt_tz974PHhBCtHHxHH": {
+   "kind": "question_part",
+   "label": "qstn_6gp33YwSDySVHfVS / part 0",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_7q2VDxqG25dnmKjd"
+   ]
+  },
+  "qstnprt_6sq9k5nC6fGSjfGg": {
+   "kind": "question_part",
+   "label": "qstn_DRPP2hNW7NhJyVGw / part 0",
+   "section": "thermal-physics",
+   "topic": "transfer-of-thermal-energy",
+   "codes": [],
+   "pending": [
+    "spcpt_YJYfWv94pmwNVmMr"
+   ]
+  },
+  "qstnprt_Gkfw46Ds6SyxHsfg": {
+   "kind": "question_part",
+   "label": "qstn_WMzK4zTXj4cmp5Dn / part 0",
+   "section": "waves",
+   "topic": "electromagnetic-spectrum",
+   "codes": [],
+   "pending": [
+    "spcpt_gdP7tPHvVZxmMQKP"
+   ]
+  },
+  "qstnprt_h7GPnJgzRvpJmqdg": {
+   "kind": "question_part",
+   "label": "qstn_FbHsjCwPFDX5p6kY / part 0",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WBTjHK5x9jRsGKFZ": {
+   "kind": "question_part",
+   "label": "qstn_8wqbmT7HQt5svp7b / part 0",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_c48B4hfkb2f8CMR5": {
+   "kind": "question_part",
+   "label": "qstn_cRdXWmjyXf7cfmPz / part 0",
+   "section": "waves",
+   "topic": "general-properties-of-waves",
+   "codes": [],
+   "pending": [
+    "spcpt_pywgSJg4xwvYVJnZ"
+   ]
+  },
+  "qstnprt_869C8hvvpyr5NjvM": {
+   "kind": "question_part",
+   "label": "qstn_WtWwZrCvH9JHshW5 / part 0",
+   "section": "waves",
+   "topic": "light",
+   "codes": [],
+   "pending": [
+    "spcpt_vVmnZtt7JpCbFDZV"
+   ]
+  },
+  "qstnprt_KC2RcxKVk7p5FWSt": {
+   "kind": "question_part",
+   "label": "qstn_mHb2KpmwDYFfjj9M / part 0",
+   "section": "waves",
+   "topic": "sound",
+   "codes": [],
+   "pending": [
+    "spcpt_8f8qvbkSPPCxY37K"
+   ]
+  }
+ }
+}

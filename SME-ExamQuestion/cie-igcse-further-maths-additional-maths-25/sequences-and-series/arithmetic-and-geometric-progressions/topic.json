@@ -1,0 +1,1855 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:46:50Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "further-maths",
+  "exam_code": "0606",
+  "sme_course_id": "crs_HfmFCcT36XRYg8tr",
+  "syllabus_version": "2023",
+  "sme_alias_path": "additional-maths/25",
+  "course_name": "Cambridge (CIE) IGCSE Additional Maths"
+ },
+ "section": {
+  "slug": "sequences-and-series",
+  "name": "Sequences & Series"
+ },
+ "topic": {
+  "id": "top_2qgTfpynjTKJqHVh",
+  "slug": "arithmetic-and-geometric-progressions",
+  "name": "Arithmetic & Geometric Progressions",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "arithmetic-progressions",
+   "name": "Arithmetic Progressions",
+   "revision_note_id": "rn_rztyPZCwJ2MnmxXZ"
+  },
+  {
+   "slug": "geometric-progressions",
+   "name": "Geometric Progressions",
+   "revision_note_id": "rn_6MVw7sx6qnYGPXSX"
+  },
+  {
+   "slug": "language-of-sequences-and-series",
+   "name": "Language of Sequences & Series",
+   "revision_note_id": "rn_q8MRstxMpD9n5d5S"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_dtdnbf7jsqFRCy2D",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 11,
+   "questions_embedded": 11,
+   "page_url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/topic-questions/sequences-and-series/arithmetic-and-geometric-progressions/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 11,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_yJ36yjcgktpDR4z4",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_2DC88H27MWRYPD57",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "In an arithmetic sequence, the 20<sup>th</sup> term is 10% of the sum of the first 25 terms.\n\nThe sum of the 20<sup>th</sup> term and the 21<sup>st</sup> term is 73.\n\nFind the 8<sup>th</sup> term.",
+     "solution_md": "> *Substitute *$n=20$* into the formula *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`\n\n`table row cell u subscript 20 end cell equals cell a plus open parentheses 20 minus 1 close parentheses d end cell row blank equals cell a plus 19 d end cell end table`\n\n> *Substitute *$n=25$* into the formula *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`\n\n`table row cell S subscript 25 end cell equals cell 25 over 2 open square brackets 2 a plus open parentheses 25 minus 1 close parentheses d close square brackets end cell row blank equals cell 25 over 2 open parentheses 2 a plus 24 d close parentheses end cell end table`\n\n> *Substitute the two expressions above into the 10% relationship from the question, *$u_{20}=0.1S_{25}$* *\n\n`a plus 19 d equals 0.1 cross times table row blank blank cell 25 over 2 end cell end table table row blank blank cell open parentheses 2 a plus 24 d close parentheses end cell end table`\n\n**[M1]**\n\n> *Make *$a$* (or *$d$*) the subject*\n\n`table row cell a plus 19 d end cell equals cell 5 over 4 open parentheses 2 a plus 24 d close parentheses end cell row cell a plus 19 d end cell equals cell 5 over 2 open parentheses a plus 12 d close parentheses end cell row cell 2 open parentheses a plus 19 d close parentheses end cell equals cell 5 open parentheses a plus 12 d close parentheses end cell row cell 2 a plus 38 d end cell equals cell 5 a plus 60 d end cell row cell negative 3 a end cell equals cell 22 d end cell row a equals cell negative 22 over 3 d end cell end table`\n\n**[A1]**\n\n> *Find an expression for the sum of the 20*<sup>*th*</sup>* and the 21*<sup>*st*</sup>* term using *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`\n\n`open parentheses a plus 19 d close parentheses plus open parentheses a plus 20 d close parentheses`\n\n> *Set this equal to 73*\n\n`table row cell open parentheses a plus 19 d close parentheses plus open parentheses a plus 20 d close parentheses end cell equals 73 end table`\n\n**[M1]**\n\n> *Simplify the equation above then substitute in *$a=-\\frac{22}{3}d$* to find *$d$\n\n`table row cell 2 a plus 39 d end cell equals 73 row cell 2 open parentheses negative 22 over 3 d close parentheses plus 39 d end cell equals 73 row cell fraction numerator 73 d over denominator 3 end fraction end cell equals 73 row d equals 3 end table`\n\n**[A1]**\n\n> *Substitute this value of *$d$* into *$a=-\\frac{22}{3}d$* to find *$a$\n\n$a=-22$\n\n**[A1]**\n\n> *Substitute *$a=-22$* and *$d=3$* into *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`* where *$n=8$* to find the 8*<sup>*th*</sup>* term*\n\n`negative 22 plus open parentheses 8 minus 1 close parentheses cross times 3`\n\n**Final answer:** **The 8**<sup>**th**</sup>** term is **$-1$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "n=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals 20"
+      },
+      {
+       "latex": "n=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals 25"
+      },
+      {
+       "latex": "u_{20}=0.1S_{25}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>20</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn><msub><mi>S</mi><mn>25</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "u subscript 20 equals 0.1 S subscript 25"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "a=-\\frac{22}{3}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mfrac><mn>22</mn><mn>3</mn></mfrac><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals negative 22 over 3 d"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "a=-\\frac{22}{3}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mfrac><mn>22</mn><mn>3</mn></mfrac><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals negative 22 over 3 d"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=-22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>22</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals negative 22"
+      },
+      {
+       "latex": "a=-22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>22</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals negative 22"
+      },
+      {
+       "latex": "d=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d equals 3"
+      },
+      {
+       "latex": "n=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals 8"
+      },
+      {
+       "latex": "-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Yy8sbMtBdQd8n5J9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "In a geometric sequence, the sum to infinity is $64$ and the sum of the first 7 terms is $\\frac{127}{2}$.\n\nFind the ratio of the 4<sup>th</sup> term to the 7<sup>th</sup> term, giving your answer in the form $m:1$.",
+     "solution_md": "> *Use the formula *$S_{\\infty}=\\frac{a}{1-r}$* to form an equation in *$a$* and *$r$* (equation 1)*\n\n`fraction numerator a over denominator 1 minus r end fraction equals 64 space space space space space space space space space space space space circle enclose 1`\n\n**[B1]**\n\n> *Use the formula *`S subscript n equals fraction numerator a open parentheses 1 minus r to the power of n close parentheses over denominator 1 minus r end fraction`* where *$n=7$* and *$S_{7}=\\frac{127}{2}$* to form another equation in *$a$* and *$r$* (equation 2)*\n\n`fraction numerator a open parentheses 1 minus r to the power of 7 close parentheses over denominator 1 minus r end fraction equals 127 over 2 space space space space space space space space space space space space circle enclose 2`\n\n**[B1]**\n\n> *Make *$a$* the subject of equation 1 and substitute it into equation 2*\n\n`table row cell fraction numerator 64 open parentheses 1 minus r close parentheses open parentheses 1 minus r to the power of 7 close parentheses over denominator 1 minus r end fraction end cell equals cell 127 over 2 end cell row cell fraction numerator 64 up diagonal strike open parentheses 1 minus r close parentheses end strike open parentheses 1 minus r to the power of 7 close parentheses over denominator up diagonal strike 1 minus r end strike end fraction end cell equals cell 127 over 2 end cell row cell 64 open parentheses 1 minus r to the power of 7 close parentheses end cell equals cell 127 over 2 end cell end table`\n\n**[M1]**\n\n> *Solve for *$r$\n\n`table row cell 1 minus r to the power of 7 end cell equals cell 127 over 128 end cell row cell 1 minus 127 over 128 end cell equals cell r to the power of 7 end cell row cell 1 over 128 end cell equals cell r to the power of 7 end cell row cell root index 7 of 1 over 128 end root end cell equals r row r equals cell 1 half end cell end table`\n\n**[A1]**\n\n> *Use *$u_{n}=ar^{n-1}$* to form a ratio between the 4*<sup>*th*</sup>* and 7*<sup>*th*</sup>* terms*\n\n$ar^{3}:ar^{6}$\n\n**[M1]**\n\n> *Cancel the *$a$* and *$r^{3}$* from both sides and substitute in *$r=\\frac{1}{2}$\n\n`1 colon r cubed\n1 colon open parentheses 1 half close parentheses cubed\n1 colon 1 over 8`\n\n> *Write this in the form *$m:1$* by multiplying both sides by 8*\n\n$8:1$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "64",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>64</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 64
+      },
+      {
+       "latex": "\\frac{127}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>127</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "127 over 2"
+      },
+      {
+       "latex": "m:1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>:</mo><mo>&#160;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m space colon space 1"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>&#8734;</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "n=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals 7"
+      },
+      {
+       "latex": "S_{7}=\\frac{127}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mn>7</mn></msub><mo>=</mo><mfrac><mn>127</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "S subscript 7 equals 127 over 2"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "u_{n}=ar^{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+      },
+      {
+       "latex": "ar^{3}:ar^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>3</mn></msup><mo>:</mo><mi>a</mi><msup><mi>r</mi><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a r cubed colon a r to the power of 6"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>r</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r cubed"
+      },
+      {
+       "latex": "r=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r equals 1 half"
+      },
+      {
+       "latex": "m:1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>:</mo><mo>&#160;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m space colon space 1"
+      },
+      {
+       "latex": "8:1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>&#160;</mo><mo>:</mo><mo>&#160;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 space colon space 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_z9Q32vGyJgzYn9Tg",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_Zdy7yBN4gz7qTJYN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "Paper 1",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "In an arithmetic progression, the $5$th term is equal to $\\frac{1}{3}$ of the $16$th term. The sum of the $5$th term and the $16$th term is equal to $33$.\n\nFind the sum of the first $10$ terms of this progression.",
+     "solution_md": "> *Using the general equation for the **n**th term,** *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`* **where *$a$* is the first term and *$d$* is the common difference, we will form two simultaneous equations in *$a$* and *$d$*. We can write the 5th term as*\n\n`table row cell u subscript 5 end cell equals cell a plus open parentheses 5 minus 1 close parentheses d end cell row cell u subscript 5 end cell equals cell a plus 4 d end cell end table`\n\n> *and the 16th term as*\n\n`u subscript 16 equals a plus open parentheses 16 minus 1 close parentheses d\nu subscript 16 equals a plus 15 d`\n\n> *The question states \"the 5th term is equal to *$\\frac{1}{3}$* of the 16th term\" so*\n\n`a plus 4 d equals 1 third open parentheses a plus 15 d close parentheses`\n\n**[1]**\n\n> *Simplify.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell a plus 4 d end cell equals cell 1 third a plus 5 d end cell row cell 2 over 3 a end cell equals d end table`\n\n> *Use the information that \"the sum of the 5th term and the 16th term is equal to 33\".*\n\n`open parentheses a plus 4 d close parentheses plus open parentheses a plus 15 d close parentheses equals 33`\n\n**[1]**\n\n> *Simplify.*\n\n$2a+19d=33$\n\n> *Substitute *$d=\\frac{2}{3}a$* into this equation.*\n\n`2 a plus 19 open parentheses 2 over 3 a close parentheses equals 33`\n\n> *Solve for *$a$*.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 44 over 3 a end cell equals 33 row a equals cell 99 over 44 end cell end table`\n\n> *Simplify.*\n\n$a=\\frac{9}{4}$\n\n**[1]**\n\n> *Substitute *$a=\\frac{9}{4}$* into *$\\frac{2}{3}a=d$*.*\n\n`table row cell 2 over 3 cross times 9 over 4 end cell equals d row d equals cell 18 over 12 end cell end table`\n\n> *Simplify.*\n\n$d=\\frac{3}{2}$\n\n**[1]**\n\n> *We haven't finished! The question asks for the sum of the first 10 terms.*\n\n> *Use the formula *`S subscript n equals n over 2 open parentheses 2 a plus open parentheses n minus 1 close parentheses d close parentheses`*.*\n\n`table row cell S subscript 10 end cell equals cell 10 over 2 open parentheses 2 cross times 9 over 4 plus 9 cross times 3 over 2 close parentheses end cell end table`\n\n**[1]**\n\n> *Evaluate.*\n\n`table row cell S subscript 10 end cell equals cell 5 open parentheses 18 over 4 plus 27 over 2 close parentheses end cell row cell S subscript 10 end cell equals cell 5 cross times 18 end cell end table`\n\n$S_{10}=90$** ****[1]**",
+     "equations": [
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5"
+      },
+      {
+       "latex": "\\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>3</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 third"
+      },
+      {
+       "latex": "16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>16</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16"
+      },
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5"
+      },
+      {
+       "latex": "16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>16</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16"
+      },
+      {
+       "latex": "33",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>33</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "33"
+      },
+      {
+       "latex": "10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>10</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "\\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>3</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 third"
+      },
+      {
+       "latex": "2a+19d=33",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>19</mn><mi>d</mi><mo>=</mo><mn>33</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 a plus 19 d equals 33"
+      },
+      {
+       "latex": "d=\\frac{2}{3}a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 2 over 3 a"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=\\frac{9}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 9 over 4"
+      },
+      {
+       "latex": "a=\\frac{9}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 9 over 4"
+      },
+      {
+       "latex": "\\frac{2}{3}a=d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>a</mi><mo>=</mo><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 3 a equals d"
+      },
+      {
+       "latex": "d=\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 3 over 2"
+      },
+      {
+       "latex": "S_{10}=90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mn mathvariant=\"bold\">10</mn></msub><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic S subscript bold 10 bold equals bold 90"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3KHznHvscTKFmb7T",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "Paper 1",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "In a geometric progression, the sum of the first two terms is equal to $16$. The sum to infinity is equal to $25$.\n\nFind the possible values of the first term.",
+     "solution_md": "> *If *$a$* **is the first term and *$r$* is the common difference then the sum of the first two terms being 16 can be expressed as*\n\n$a+ar=16$\n\n**[1]**\n\n> *Using *$S_{\\infty}=\\frac{a}{1-r}$*, the sum to infinity is 25.*\n\n$\\frac{a}{1-r}=25$\n\n**[1]**\n\n> *We can isolate *$a$* in both the above equations. Starting with *$a+ar=16$*, factorise the left hand side.*\n\n`a open parentheses 1 plus r close parentheses equals 16`\n\n> *Divide by *$1+r$*.*\n\n$a=\\frac{16}{1+r}$\n\n> *Turning our attention to *$\\frac{a}{1-r}=25$*, multiply by the denominator.*\n\n`a equals 25 open parentheses 1 minus r close parentheses`\n\n> *Now equate both the above.*\n\n`fraction numerator 16 over denominator 1 plus r end fraction equals 25 open parentheses 1 minus r close parentheses`\n\n> *Multiply by *$1+r$*. *\n\n`table row 16 equals cell 25 open parentheses 1 minus r close parentheses open parentheses 1 plus r close parentheses end cell end table`\n\n**[1]**\n\n> *Solve.*\n\n`table row cell 16 over 25 end cell equals cell open parentheses 1 minus r close parentheses open parentheses 1 plus r close parentheses end cell row cell 16 over 25 end cell equals cell 1 minus r squared end cell row cell r squared end cell equals cell 9 over 25 end cell row r equals cell plus-or-minus 3 over 5 end cell end table`\n\n**[1]**\n\n> *Now find the possible values of *$a$* by substituting both versions of *$r$* into *$a=\\frac{16}{1+r}$*.*\n\n$r=\\frac{3}{5},a=\\frac{16}{1+\\frac{3}{5}}=16\\div\\frac{8}{5}=16\\times\\frac{5}{8}=2\\times5$\n\n$a=10$** [1]**\n\n$r=-\\frac{3}{5},a=\\frac{16}{1-\\frac{3}{5}}=16\\div\\frac{2}{5}=16\\times\\frac{5}{2}=8\\times5$\n\n$a=40$** [1]**",
+     "equations": [
+      {
+       "latex": "16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>16</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16"
+      },
+      {
+       "latex": "25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>25</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "a+ar=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus a r equals 16"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+      },
+      {
+       "latex": "\\frac{a}{1-r}=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 minus r end fraction equals 25"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a+ar=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus a r equals 16"
+      },
+      {
+       "latex": "1+r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 plus r"
+      },
+      {
+       "latex": "a=\\frac{16}{1+r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>16</mn><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals fraction numerator 16 over denominator 1 plus r end fraction"
+      },
+      {
+       "latex": "\\frac{a}{1-r}=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 minus r end fraction equals 25"
+      },
+      {
+       "latex": "1+r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 plus r"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "a=\\frac{16}{1+r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>16</mn><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals fraction numerator 16 over denominator 1 plus r end fraction"
+      },
+      {
+       "latex": "r=\\frac{3}{5},a=\\frac{16}{1+\\frac{3}{5}}=16\\div\\frac{8}{5}=16\\times\\frac{5}{8}=2\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>,</mo><mo> </mo><mi>a</mi><mo>=</mo><mfrac><mn>16</mn><mrow><mn>1</mn><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>5</mn></mfrac></mstyle></mrow></mfrac><mo>=</mo><mn>16</mn><mo>÷</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mo>=</mo><mn>16</mn><mo>×</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>=</mo><mn>2</mn><mo>×</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 3 over 5 comma space a equals fraction numerator 16 over denominator 1 plus 3 over 5 end fraction equals 16 divided by 8 over 5 equals 16 cross times 5 over 8 equals 2 cross times 5"
+      },
+      {
+       "latex": "a=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 10"
+      },
+      {
+       "latex": "r=-\\frac{3}{5},a=\\frac{16}{1-\\frac{3}{5}}=16\\div\\frac{2}{5}=16\\times\\frac{5}{2}=8\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>,</mo><mo> </mo><mi>a</mi><mo>=</mo><mfrac><mn>16</mn><mrow><mn>1</mn><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>5</mn></mfrac></mstyle></mrow></mfrac><mo>=</mo><mn>16</mn><mo>÷</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mn>16</mn><mo>×</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>=</mo><mn>8</mn><mo>×</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals negative 3 over 5 comma space a equals fraction numerator 16 over denominator 1 minus 3 over 5 end fraction equals 16 divided by 2 over 5 equals 16 cross times 5 over 2 equals 8 cross times 5"
+      },
+      {
+       "latex": "a=40",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">40</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 40"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WyT2W3XwhsvRThnf",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_z3HCFC5VZHCzSGmS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/22",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "The first 5 terms of a sequence are given below.\n\n4    -2    1    -0.5    0.25\n\n(i) Find the 20th term of the sequence.\n\n[2]\n\n(ii) Explain why the sum to infinity exists for this sequence and find the value of this sum.\n\n[2]",
+     "solution_md": "i) *To get from term to term, divide by *$-2$* which is the same as multiplying by *$-\\frac{1}{2}$*. So this is a geometric series with*\n\n$a=4,r=-\\frac{1}{2}$\n\n*Use the formula *$u_{n}=ar^{n-1}$ *with *$n=20$* to work out the 20th term.*\n\n`u subscript 20 equals 4 cross times open parentheses negative 1 half close parentheses to the power of space 20 minus 1 end exponent`\n\n**[1]**\n\n$u_{20}=-\\frac{1}{131072}$ **[1]**\n\nii) *The sum to infinity exists if the modulus of the common ratio is less than 1, i.e.** *`open vertical bar r close vertical bar less than 1`\n\n`open vertical bar r close vertical bar equals open vertical bar negative 1 half close vertical bar equals 1 half less than 1`\n\n`bold vertical line bold italic r bold vertical line bold less than bold 1`** so the sum to infinity does exist**** ****[1]**\n\n*Use the sum to infinity formula, *$S_{\\infty}=\\frac{a}{1-r}$.\n\n`S subscript infinity equals fraction numerator 4 over denominator 1 minus open parentheses negative 1 half close parentheses end fraction equals 8 over 3`\n\n$S_{\\infty}=\\frac{8}{3}$ **[1]**",
+     "equations": [
+      {
+       "latex": "-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 2"
+      },
+      {
+       "latex": "-\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 half"
+      },
+      {
+       "latex": "a=4,r=-\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>4</mn><mo>,</mo><mo> </mo><mo> </mo><mi>r</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 4 comma space space r equals negative 1 half"
+      },
+      {
+       "latex": "u_{n}=ar^{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+      },
+      {
+       "latex": "n=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 20"
+      },
+      {
+       "latex": "u_{20}=-\\frac{1}{131072}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">u</mi><mn mathvariant=\"bold\">20</mn></msub><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">131072</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic u subscript bold 20 bold equals bold minus bold 1 over bold 131072"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mo mathvariant=\"bold\">∞</mo></msub><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">8</mn><mn mathvariant=\"bold\">3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic S subscript bold infinity bold equals bold 8 over bold 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GxHSd8jCwDSrSmGN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/22",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "The tenth term of an arithmetic progression is 15 times the second term. The sum of the first 6 terms of the progression is 87.\n\n(i) Find the common difference of the progression.\n\n[4]\n\n(ii) For this progression, the $n\\mathrm{th}$ term is 6990. Find the value of $n$.\n\n[3]",
+     "solution_md": "i) *Use the information in the question to make 2 equations.*\n\n> *For the first equation, use \"the tenth term ... is 15 times the second term\".*\n\n$u_{10}=15\\timesu_{2}$\n\n> *Use *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`* for the tenth and second terms and set equal to each other.*\n\n`table row cell a plus open parentheses 10 minus 1 close parentheses d end cell equals cell 15 cross times open parentheses a plus open parentheses 2 minus 1 close parentheses d close parentheses end cell row cell a plus 9 d end cell equals cell 15 open parentheses a plus d close parentheses end cell end table`\n\n**[1]**\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell a plus 9 d end cell equals cell 15 a plus 15 d end cell row cell 14 a end cell equals cell negative 6 d end cell row a equals cell negative 3 over 7 d end cell end table`\n\n> *For the second equation use \"the sum of the first 6 terms ... is 87\". \"*`S subscript n equals 1 half n open parentheses 2 a plus open parentheses n minus 1 close parentheses d close parentheses`*\"*\n\n`S subscript 6 equals 1 half cross times 6 open parentheses 2 a plus 5 d close parentheses equals 87`\n\n**[1]**\n\n`table row cell 3 open parentheses 2 a plus 5 d close parentheses end cell equals 87 row cell 2 a plus 5 d end cell equals 29 end table`\n\n> *Solve the two equations simultaneously.*\n\n`2 open parentheses negative 3 over 7 d close parentheses plus 5 d equals 29`\n\n**[1]**\n\n`table row cell negative 6 over 7 d plus 5 d end cell equals 29 row cell 29 over 7 d end cell equals 29 end table`\n\n$d=7$ **[1]**\n\nii) *From (i), *$d=7$* and *$a=-\\frac{3}{7}d$*. Find *$a$*.*\n\n$a=-\\frac{3}{7}\\times7=-3$\n\n**[1]**\n\n> *Use the formula *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`* to set the nth term equal to 6990.*\n\n`6990 equals negative 3 plus open parentheses n minus 1 close parentheses 7`\n\n**[1]**\n\n`table row 6993 equals cell 7 n minus 7 end cell row 7000 equals cell 7 n end cell end table`\n\n$n=1000$ **[1]**",
+     "equations": [
+      {
+       "latex": "n\\mathrm{th}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>th</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n th"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "u_{10}=15\\timesu_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>10</mn></msub><mo>=</mo><mn>15</mn><mo>×</mo><msub><mi>u</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 10 equals 15 cross times u subscript 2"
+      },
+      {
+       "latex": "d=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic d bold equals bold 7"
+      },
+      {
+       "latex": "d=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 7"
+      },
+      {
+       "latex": "a=-\\frac{3}{7}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals negative 3 over 7 d"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=-\\frac{3}{7}\\times7=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>×</mo><mn>7</mn><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals negative 3 over 7 cross times 7 equals negative 3"
+      },
+      {
+       "latex": "n=1000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic n bold equals bold 1000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PXj2wQNQYq8Sh6rD",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_fwcGsk323d79rNRX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/13",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "An arithmetic progression has a first term of 7 and a common difference of 0.4. Find the least number of terms so that the sum of the progression is greater than 300.",
+     "solution_md": "*To sum an arithmetic series, *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`. \n*Substitute the known values into the equation.*\n\n`S subscript n equals n over 2 open square brackets 2 open parentheses 7 close parentheses plus open parentheses n minus 1 close parentheses open parentheses 0.4 close parentheses close square brackets\nS subscript n equals n over 2 open square brackets 14 plus open parentheses n minus 1 close parentheses open parentheses 0.4 close parentheses close square brackets`\n\n**[1]**\n\n> *Expand and simplify.*\n\n`S subscript n equals n over 2 open square brackets 13.6 plus 0.4 n close square brackets\nS subscript n equals fraction numerator 13.6 n plus 0.4 n squared over denominator 2 end fraction`\n\n> *When the sum is greater than 300,*\n\n$\\frac{13.6n+0.4n^{2}}{2}>300$\n\n**[1]**\n\n> *Rearrange.*\n\n$13.6n+0.4n^{2}>600\\,0.4n^{2}+13.6n-600>0$\n\n> *Use the quadratic formula to find the positive critical value. We don't need the negative one because we can't have a negative number of terms.*\n\n`n equals fraction numerator negative open parentheses 13.6 close parentheses plus-or-minus square root of open parentheses 13.6 close parentheses squared minus open parentheses 4 close parentheses open parentheses 0.4 close parentheses open parentheses negative 600 close parentheses end root over denominator 2 open parentheses 0.4 close parentheses end fraction\nn equals fraction numerator negative open parentheses 13.6 close parentheses plus-or-minus square root of 1144.96 end root over denominator 0.8 end fraction\nn equals 25.2966 space space space and space space space n italic equals italic minus 59.2966`\n\n**[1]**\n\n> *The term number, *$n$*, needs to be a positive integer so reject *$n=-59.2966$* and round *$25.2966$* up (since *$n>25.2966$* and the least number of terms is required)*\n\n**26 terms*** ***[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{13.6n+0.4n^{2}}{2}>300",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>13</mn><mo>.</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>&gt;</mo><mn>300</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 13.6 n plus 0.4 n squared over denominator 2 end fraction greater than 300"
+      },
+      {
+       "latex": "13.6n+0.4n^{2}>600\\,0.4n^{2}+13.6n-600>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>.</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>&gt;</mo><mn>600</mn><mspace linebreak=\"newline\"/><mn>0</mn><mo>.</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>13</mn><mo>.</mo><mn>6</mn><mi>n</mi><mo>-</mo><mn>600</mn><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13.6 n plus 0.4 n squared greater than 600\n0.4 n squared plus 13.6 n minus 600 greater than 0"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n=-59.2966",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mo>-</mo><mn>59</mn><mo>.</mo><mn>2966</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals negative 59.2966"
+      },
+      {
+       "latex": "25.2966",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>25</mn><mo>.</mo><mn>2966</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25.2966"
+      },
+      {
+       "latex": "n>25.2966",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mn>25</mn><mo>.</mo><mn>2966</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n greater than 25.2966"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_t6n5Rntz8yWKfPvB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/13",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "The sum of the first two terms of a geometric progression is 9 and its sum to infinity is 36. Given that the terms of the progression are positive, find the common ratio.",
+     "solution_md": "> *The sum of the first two terms of a geometric progression can be written as *$a+ar$*.*\n\n$a+ar=9$\n\n**[1]**\n\n> *The sum to infinity is 36.*\n\n$\\frac{a}{1-r}=36$\n\n**[1]**\n\n> *Rearrange to make *$a$* the subject.*\n\n`a equals 36 open parentheses 1 minus r close parentheses`\n\n> *Substitute into the first equation.*\n\n`36 open parentheses 1 minus r close parentheses plus 36 open parentheses 1 minus r close parentheses r equals 9`\n\n> *Expand and simplify.*\n\n`table row cell 36 minus 36 r plus 36 r minus 36 r squared end cell equals 9 row cell 36 minus 36 r squared end cell equals 9 row cell 36 open parentheses 1 minus r squared close parentheses end cell equals 9 end table`\n\n**[1]**\n\n> *Solve to find *$r$*. We are told that the terms of the progression are positive, and so therefore *$r$* will be positive and we can ignore any negative solutions.*\n\n`table row cell 1 minus r squared end cell equals cell 1 fourth end cell row cell r squared end cell equals cell 3 over 4 end cell row r equals cell square root of 3 over 4 end root end cell end table`\n\n$r=\\frac{\\sqrt{3}}{2}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "a+ar",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus a r"
+      },
+      {
+       "latex": "a+ar=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus a r equals 9"
+      },
+      {
+       "latex": "\\frac{a}{1-r}=36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mn>36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 minus r end fraction equals 36"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r=\\frac{\\sqrt{3}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">=</mo><mfrac><msqrt><mn mathvariant=\"bold\">3</mn></msqrt><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic r bold equals fraction numerator square root of bold 3 over denominator bold 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nj5dKpn2BN8V927V",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_QNN2wydq6H9V6DX5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/11",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "An arithmetic progression has a second term of -14 and a sum to 21 terms of 84. Find the first term and the 21st term of this progression.",
+     "solution_md": "> *Using the formula *`a space plus thin space open parentheses n minus 1 close parentheses d`* the second term is*\n\n$a+d=-14$\n\n**[1]**\n\n> *Using the formula for the sum of an arithmetic progression *`S subscript n equals n over 2 open parentheses 2 a space plus thin space open parentheses n minus 1 close parentheses d close parentheses`* we have*\n\n`84 space equals 21 over 2 open parentheses 2 a space plus space 20 d close parentheses`\n\n> *Simplify.*\n\n$8=2a+20d$\n\n$4=a+10d$\n\n**[1]**\n\n> *Solve the equations simultaneously. (Subtract first equation from the second.)*\n\n$9d=18$\n\n$d=2$\n\n**[1]**\n\n> *Substitute into either of the original equations.*\n\n$a+2=-14$\n\n$a=-16$\n\n**[1]**\n\n> *We can now find the 21st term.*\n\n$u_{21}=-16+20\\times2$\n\n$24$ **[1]**",
+     "equations": [
+      {
+       "latex": "a+d=-14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space plus thin space d space equals space minus 14"
+      },
+      {
+       "latex": "8=2a+20d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mn>20</mn><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 space equals space 2 a space plus thin space 20 d"
+      },
+      {
+       "latex": "4=a+10d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo> </mo><mo>=</mo><mo> </mo><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 space equals space a space plus thin space 10 d"
+      },
+      {
+       "latex": "9d=18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 d space equals space 18"
+      },
+      {
+       "latex": "d=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 2"
+      },
+      {
+       "latex": "a+2=-14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space plus thin space 2 space equals space minus 14"
+      },
+      {
+       "latex": "a=-16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space equals space minus 16"
+      },
+      {
+       "latex": "u_{21}=-16+20\\times2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>21</mn></msub><mo>=</mo><mo>-</mo><mn>16</mn><mo> </mo><mo>+</mo><mo> </mo><mn>20</mn><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 21 equals negative 16 space plus thin space 20 space cross times space 2"
+      },
+      {
+       "latex": "24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">24</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 24"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5SGVBDWbJg7QnwZ5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "find",
+     "source_paper": {
+      "date": "june 2020",
+      "number": "0606/11",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "A geometric progression has a second term of $27p^{2}$ and a fifth term of $p^{5}$ . The common ratio,$r$, is such that $0<r<1$.\n\n(i) Find $r$ in terms of $p$.\n\n[2]\n\n(ii) Hence find, in terms of $p$, the sum to infinity of the progression.\n\n[3]\n\n(iii) Given that the sum to infinity is 81, find the value of $p$.\n\n[2]",
+     "solution_md": "i) *Using the formula *$a_{n}=ar^{n-1}$* the second term is  *\n\n$ar=27p^{2}$\n\n> *The fifth term is  *\n\n$ar^{4}=p^{5}$\n\n**both equations**** [1]**\n\n> *Divide the fifth term by the second term.  *\n\n$\\frac{ar^{4}}{ar}=\\frac{p^{5}}{27p^{2}}$\n\n> *Simplify.  *\n\n$r^{3}=\\frac{p^{3}}{27}$\n\n> *Take the cube root of both sides.*\n\n$r=\\frac{p}{3}$**[1]**\n\nii) *Substitute the previous answer into the first equation to find *$a$*.*\n\n$a\\times\\frac{p}{3}=27p^{2}$\n\n**[1]**\n\n$a=81p$\n\n**[1]**\n\n> *Use the formula for the sum to infinity when *`vertical line r vertical line space less than thin space 1`*, *$S_{\\infty}=\\frac{a}{1-r}$*.*\n\n$S_{\\infty}=\\frac{81p}{1-\\frac{p}{3}}$\n\n> *Multiply the numerator and denominator by 3.*\n\n$\\frac{243p}{3-p}$* ***[1]**\n\niii) *Set the previous answer equal to 81.*\n\n$81=\\frac{243p}{3-p}$\n\n**[1]**\n\n> *Multiply both sides by *$3-p$* .*\n\n`81 open parentheses 3 space minus space p close parentheses equals space 243 p`\n\n> *Expand the brackets.*\n\n$243-81p=243p$\n\n> *Collect like terms.*\n\n$243=324p$\n\n$p=\\frac{3}{4}$**[1]**",
+     "equations": [
+      {
+       "latex": "27p^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>27</mn><msup><mi>p</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "27 p squared"
+      },
+      {
+       "latex": "p^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>p</mi><mn>5</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p to the power of 5"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "0<r<1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>&lt;</mo><mo> </mo><mi>r</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0 space less than space r space less than space 1"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "a_{n}=ar^{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mo> </mo><mi>a</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a subscript n equals space a r to the power of n minus 1 end exponent"
+      },
+      {
+       "latex": "ar=27p^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>27</mn><msup><mi>p</mi><mrow><mn>2</mn><mo> </mo></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r space equals space 27 p to the power of 2 space end exponent"
+      },
+      {
+       "latex": "ar^{4}=p^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>4</mn></msup><mo> </mo><mo>=</mo><mo> </mo><msup><mi>p</mi><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r to the power of 4 space equals space p to the power of 5"
+      },
+      {
+       "latex": "\\frac{ar^{4}}{ar}=\\frac{p^{5}}{27p^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>a</mi><msup><mi>r</mi><mn>4</mn></msup></mrow><mrow><mi>a</mi><mi>r</mi></mrow></mfrac><mo>=</mo><mo> </mo><mfrac><msup><mi>p</mi><mn>5</mn></msup><mrow><mn>27</mn><msup><mi>p</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a r to the power of 4 over denominator a r end fraction equals space fraction numerator p to the power of 5 over denominator 27 p squared end fraction"
+      },
+      {
+       "latex": "r^{3}=\\frac{p^{3}}{27}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>r</mi><mn>3</mn></msup><mo>=</mo><mfrac><msup><mi>p</mi><mn>3</mn></msup><mn>27</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r cubed equals p cubed over 27"
+      },
+      {
+       "latex": "r=\\frac{p}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mfrac><mi mathvariant=\"bold-italic\">p</mi><mn mathvariant=\"bold\">3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic r bold space bold equals bold space bold italic p over bold 3"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a\\times\\frac{p}{3}=27p^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mi>p</mi><mn>3</mn></mfrac><mo>=</mo><mn>27</mn><msup><mi>p</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space cross times space p over 3 equals 27 p squared"
+      },
+      {
+       "latex": "a=81p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mn>81</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space equals space 81 p"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator a over denominator 1 space minus space r end fraction"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{81p}{1-\\frac{p}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mrow><mn>81</mn><mi>p</mi></mrow><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mstyle displaystyle=\"true\"><mfrac><mi>p</mi><mn>3</mn></mfrac></mstyle></mrow></mfrac><mo mathvariant=\"bold\"> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator 81 p over denominator 1 space minus space p over 3 end fraction bold space"
+      },
+      {
+       "latex": "\\frac{243p}{3-p}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">&#160;</mo><mfrac><mrow><mn mathvariant=\"bold\">243</mn><mi mathvariant=\"bold-italic\">p</mi></mrow><mrow><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold-italic\">p</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold space fraction numerator bold 243 bold italic p over denominator bold 3 bold space bold minus bold space bold italic p end fraction"
+      },
+      {
+       "latex": "81=\\frac{243p}{3-p}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>81</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>243</mn><mi>p</mi></mrow><mrow><mn>3</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mi>p</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "81 space equals space fraction numerator 243 p over denominator 3 space minus space p end fraction"
+      },
+      {
+       "latex": "3-p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo> </mo><mo>-</mo><mo> </mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 space minus space p"
+      },
+      {
+       "latex": "243-81p=243p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>243</mn><mo> </mo><mo>-</mo><mo> </mo><mn>81</mn><mi>p</mi><mo> </mo><mo>=</mo><mo> </mo><mn>243</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "243 space minus space 81 p space equals space 243 p"
+      },
+      {
+       "latex": "243=324p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>243</mn><mo> </mo><mo>=</mo><mo> </mo><mn>324</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "243 space equals space 324 p"
+      },
+      {
+       "latex": "p=\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic p bold space bold equals bold 3 over bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HvkzTgs7gpGQkXfj",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HtDnNjYh2Sfd74Nw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "A geometric progression has a first term of 3 and a second term of 2.4. For this progression, find the sum of the first 8 terms.",
+     "solution_md": "> *This is a geometric progression with first term.*\n\n$a=3$\n\n> *Work out the common ratio by dividing the second term by the first.*\n\n$r=\\frac{2.4}{3}$\n\n$r=0.8$\n\n**[1]**\n\n> *Use the sum of a geometric progression formula, *`S subscript n equals fraction numerator a open parentheses 1 minus r to the power of n close parentheses over denominator 1 minus r end fraction`*, to calculate the sum of the first 8 terms.*\n\n`S subscript 8 equals fraction numerator 3 open parentheses 1 minus 0.8 to the power of 8 close parentheses over denominator 1 minus 0.8 end fraction`\n\n**[1]**\n\n$S_{8}=12.48$ **[1]**\n\n> *12.5 is accepted*",
+     "equations": [
+      {
+       "latex": "a=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 3"
+      },
+      {
+       "latex": "r=\\frac{2.4}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>4</mn></mrow><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals fraction numerator 2.4 over denominator 3 end fraction"
+      },
+      {
+       "latex": "r=0.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 0.8"
+      },
+      {
+       "latex": "S_{8}=12.48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mn mathvariant=\"bold\">8</mn></msub><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">12</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">48</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic S subscript bold 8 bold equals bold 12 bold. bold 48"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_KzCytFH3Rsg6J5Xn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/22",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA geometric progression has a first term of 3 and a second term of 2.4.\n\na equals 3\n\nr equals fraction numerator 2.4 over denominator 3 end fraction\n\nr equals 0.8\n\nFind the sum to infinity.",
+     "solution_md": "> *From part (a) we know that *$a=3,r=0.8$*.*\n\n> *Substitute these values into the sum to infinity formula, *$S_{\\infty}=\\frac{a}{1-r}$*.*\n\n$S_{\\infty}=\\frac{3}{1-0.8}$\n\n$15$ **[1]**",
+     "equations": [
+      {
+       "latex": "a=3,r=0.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mo>,</mo><mo> </mo><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 3 comma space r equals 0.8"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+      },
+      {
+       "latex": "S_{\\infty}=\\frac{3}{1-0.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mn>3</mn><mrow><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript infinity equals fraction numerator 3 over denominator 1 minus 0.8 end fraction"
+      },
+      {
+       "latex": "15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">15</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 15"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Cg253S8qPPZwbfG5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/22",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA geometric progression has a first term of 3 and a second term of 2.4.\n\na = 3\nr = 0.8\n\nSum to infinity:\nS_infinity = 15\n\nFind the least number of terms for which the sum is greater than 95% of the sum to infinity.",
+     "solution_md": "> *Calculate 95% of the sum to infinity using the result from part (b).*\n\n$0.95\\times15=14.25$\n\n> *Set up an inequality using the sum of the first *$n$* terms, *`S subscript n equals fraction numerator a open parentheses 1 minus r to the power of n close parentheses over denominator 1 minus r end fraction`*.*\n\n`fraction numerator a open parentheses 1 minus r to the power of n close parentheses over denominator 1 minus r end fraction greater than 14.25`\n\n> *Substitute the values *$a=3,r=0.8$* from part (a).*\n\n`fraction numerator 3 open parentheses 1 minus 0.8 to the power of n close parentheses over denominator 1 minus 0.8 end fraction greater than 14.25`\n\n**[1]**\n\n> *Simplify the denominator.*\n\n`fraction numerator 3 open parentheses 1 minus 0.8 to the power of n close parentheses over denominator 0.2 end fraction greater than 14.25`\n\n> *Multiply both sides by 0.2.*\n\n`3 open parentheses 1 minus 0.8 to the power of n close parentheses greater than 2.85`\n\n> *Divide both sides by 3.*\n\n$1-0.8^{n}>0.95$\n\n> *Add *$0.8^{n}$* to both sides and subtract 0.95.*\n\n$0.05>0.8^{n}$\n\n**[1]**\n\n> *Take logarithms of both sides.*\n\n`log subscript 10 open parentheses 0.05 close parentheses greater than log subscript 10 open parentheses 0.8 to the power of n close parentheses`\n\n> *Use the law of logarithms, *$\\mathrm{log}a^{m}=m\\mathrm{log}a$*, to simplify.*\n\n`log subscript 10 open parentheses 0.05 close parentheses greater than n log subscript 10 open parentheses 0.8 close parentheses`\n\n> *Divide both sides by *`log subscript 10 open parentheses 0.8 close parentheses`*. This is a negative value so reverse the inequality sign.*\n\n`fraction numerator log subscript 10 open parentheses 0.05 close parentheses over denominator log subscript 10 open parentheses 0.8 close parentheses end fraction less than n`\n\n**[1]**\n\n> *Calculate.*\n\n$n>13.425...$\n\n> $n$* is an integer so write down the smallest integer that is greater than 13.425...*\n\n$n=14$ **[1]**",
+     "equations": [
+      {
+       "latex": "0.95\\times15=14.25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>95</mn><mo>×</mo><mn>15</mn><mo>=</mo><mn>14</mn><mo>.</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.95 cross times 15 equals 14.25"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "a=3,r=0.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mo>,</mo><mo> </mo><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 3 comma space r equals 0.8"
+      },
+      {
+       "latex": "1-0.8^{n}>0.95",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><msup><mn>8</mn><mi>n</mi></msup><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>95</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 minus 0.8 to the power of n greater than 0.95"
+      },
+      {
+       "latex": "0.8^{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><msup><mn>8</mn><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.8 to the power of n"
+      },
+      {
+       "latex": "0.05>0.8^{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>05</mn><mo>&gt;</mo><mn>0</mn><mo>.</mo><msup><mn>8</mn><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.05 greater than 0.8 to the power of n"
+      },
+      {
+       "latex": "\\mathrm{log}a^{m}=m\\mathrm{log}a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>log</mi><mo> </mo><msup><mi>a</mi><mi>m</mi></msup><mo>=</mo><mi>m</mi><mo> </mo><mi>log</mi><mo> </mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "log space a to the power of m equals m space log space a"
+      },
+      {
+       "latex": "n>13.425...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mn>13</mn><mo>.</mo><mn>425</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n greater than 13.425..."
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n=14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic n bold equals bold 14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dMHfKCJBFJhg5v2C",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_mYzwtJcSTVpWxm29",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/2",
+      "question_number": 13,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "The sum of the first two terms of a geometric progression is 10 and the third term is 9.\n\n(i) Find the possible values of the common ratio and the first term.\n\n[5]\n\n(ii) Find the sum to infinity of the convergent progression.\n\n[1]",
+     "solution_md": "i) *The first term is *$a$* and the second term is *$ar$*. The sum of the first 2 terms is 10.*\n\n$a+ar=10$\n\n**[1]**\n\n> *The third term is *$ar^{2}$*. The third term is equal to 9.*\n\n$ar^{2}=9$\n\n**[1]**\n\n> *Rearrange to make *$a$* the subject.*\n\n$a=\\frac{9}{r^{2}}$\n\n> *Solve the equations simultaneously.*\n\n`9 over r squared plus open parentheses 9 over r squared close parentheses space r equals 10`\n\n> *Multiply through by *$r^{2}$*.*\n\n$9+9r=10r^{2}$\n\n> *Rearrange.*\n\n$10r^{2}-9r-9=0$\n\n> *Solve the quadratic equation.*\n\n$r=\\frac{3}{2},-\\frac{3}{5}$\n\n**[1]**\n\n> *Substitute *$r$* in one of the original equations to find *$a$* at each point.*\n\n`a equals 9 over open parentheses 3 over 2 close parentheses squared equals 4` `a equals 9 over open parentheses negative 3 over 5 close parentheses squared equals 25`\n\n$r=-\\frac{3}{5},\\frac{3}{2}\\mathrm{and}a=25,4$ **[1]**\n\nii) *Use the sum to infinity formula for a geometric series, *`S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction space open parentheses open vertical bar r close vertical bar less than 1 close parentheses`* with *$r=-\\frac{3}{5}\\mathrm{and}a=25$* because this is the only case where the modulus of *$r$* is less than 1.*\n\n`S subscript infinity equals fraction numerator 25 over denominator 1 minus open parentheses negative 3 over 5 close parentheses end fraction equals 125 over 8 space`\n\n$\\frac{125}{8}$ **[1]**",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "ar",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r"
+      },
+      {
+       "latex": "a+ar=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus a r equals 10"
+      },
+      {
+       "latex": "ar^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r squared"
+      },
+      {
+       "latex": "ar^{2}=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r squared equals 9"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=\\frac{9}{r^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>9</mn><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 9 over r squared"
+      },
+      {
+       "latex": "r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>r</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r squared"
+      },
+      {
+       "latex": "9+9r=10r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>+</mo><mn>9</mn><mi>r</mi><mo>=</mo><mn>10</mn><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 plus 9 r equals 10 r squared"
+      },
+      {
+       "latex": "10r^{2}-9r-9=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn><mi>r</mi><mo>-</mo><mn>9</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "10 r squared minus 9 r minus 9 equals 0"
+      },
+      {
+       "latex": "r=\\frac{3}{2},-\\frac{3}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>,</mo><mo> </mo><mo>-</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals 3 over 2 comma space minus 3 over 5"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "r=-\\frac{3}{5},\\frac{3}{2}\\mathrm{and}a=25,4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">5</mn></mfrac><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">2</mn></mfrac><mo mathvariant=\"bold\"> </mo><mi>and</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">25</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic r bold equals bold minus bold 3 over bold 5 bold comma bold space bold 3 over bold 2 bold space and bold space bold italic a bold equals bold 25 bold comma bold space bold 4"
+      },
+      {
+       "latex": "r=-\\frac{3}{5}\\mathrm{and}a=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo> </mo><mi>and</mi><mo> </mo><mi>a</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r equals negative 3 over 5 space and space a equals 25"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "\\frac{125}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn mathvariant=\"bold\">125</mn><mn mathvariant=\"bold\">8</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 125 over bold 8"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BzkKCMBrbpHcb3Bm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "March 2020",
+      "number": "0606/22",
+      "question_number": 13,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "In an arithmetic progression, $u_{1}=-10$ and $u_{4}=14$. Find $u_{100}+u_{101}+u_{102}+...+u_{200}$ the sum of the 100th to the 200th terms of the progression.",
+     "solution_md": "> *This is an arithmetic progression. *\n*Work out the common difference.*\n\n`d equals fraction numerator 14 minus open parentheses negative 10 close parentheses over denominator 3 end fraction equals 8`\n\n**[1]**\n\n> *The sum of the 100th to 200th terms will be equal to the sum of the first 200 terms subtract the sum of the first 99 terms.*\n\n`S subscript 200 minus S subscript 99 equals 1 half open parentheses 200 close parentheses open parentheses 2 a plus open parentheses n minus 1 close parentheses d close parentheses minus 1 half open parentheses 99 close parentheses open parentheses 2 a plus open parentheses n minus 1 close parentheses d close parentheses`\n\n`S subscript 200 minus S subscript 99 equals 1 half open parentheses 200 close parentheses open parentheses 2 open parentheses negative 10 close parentheses plus open parentheses 200 minus 1 close parentheses 8 close parentheses minus 1 half open parentheses 99 close parentheses open parentheses 2 open parentheses negative 10 close parentheses plus open parentheses 99 minus 1 close parentheses 8 close parentheses`\n\n**[2]**\n\n`S subscript 200 minus S subscript 99 equals open parentheses 100 cross times 1572 close parentheses minus open parentheses 49.5 cross times 764 close parentheses`\n\n$S_{200}-S_{99}=119382$\n\n$119382$**[1]**",
+     "equations": [
+      {
+       "latex": "u_{1}=-10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo>-</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 1 space equals negative 10"
+      },
+      {
+       "latex": "u_{4}=14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>4</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 4 space equals space 14"
+      },
+      {
+       "latex": "u_{100}+u_{101}+u_{102}+...+u_{200}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>100</mn></msub><mo>+</mo><msub><mi>u</mi><mn>101</mn></msub><mo>+</mo><msub><mi>u</mi><mn>102</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msub><mi>u</mi><mn>200</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 100 plus u subscript 101 plus u subscript 102 plus... plus u subscript 200"
+      },
+      {
+       "latex": "S_{200}-S_{99}=119382",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mn>200</mn></msub><mo>-</mo><msub><mi>S</mi><mn>99</mn></msub><mo>=</mo><mn>119382</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S subscript 200 minus S subscript 99 equals 119382"
+      },
+      {
+       "latex": "119382",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">119382</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 119382"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CS84rCxvT2BNyHVR",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_SSmbb9354bS74YgD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/11",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "An arithmetic progression has a second term of 8 and a fourth term of 18. Find the least number of terms for which the sum of this progression is greater than 1560.",
+     "solution_md": "> *The *$n^{th}$* term in an arithmetic progression is *`u subscript n equals a plus thin space open parentheses n minus 1 close parentheses d`*.*\n\n$u_{2}=a+d=8$\n\n$u_{4}=a+3d=18$\n\n**[1]**\n\n> *Solve simultaneously. (Subtract first equation from second.)*\n\n$2d=10$\n\n$d=5$\n\n**[1]**\n\n> *Substitute into either of the original equations.*\n\n$a+5=8$\n\n$a=3$\n\n**[1]**\n\n> *The sum of an arithmetic progression is *`S subscript n space equals fraction numerator space n over denominator 2 end fraction open parentheses 2 a space plus thin space open parentheses n space minus space 1 close parentheses d close parentheses`*.*\n\n`n over 2 open parentheses 2 space cross times space 3 space plus space open parentheses n space minus space 1 close parentheses cross times 5 close parentheses space greater than space 1560`\n\n> *Simplify.*\n\n`n over 2 open parentheses 6 space plus thin space 5 n space minus space 5 close parentheses space greater than thin space 1560`\n\n**[1]**\n\n> *Simplify further and multiply by 2.*\n\n`n open parentheses 5 n space plus thin space 1 close parentheses space greater than thin space 3120`\n\n> *Expand the bracket and subtract 1560 from both sides.*\n\n$5n^{2}+n-3120>0$\n\n**[1]**\n\n> *Solve the quadratic - use the formula and/or a calculator.*\n\n$n>24.9,n<-25.1$\n\n> $n$* needs to be a positive integer so round 24.9 up.*\n\n$n=25$ **[1]**",
+     "equations": [
+      {
+       "latex": "n^{th}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>n</mi><mrow><mi>t</mi><mi>h</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n to the power of t h end exponent"
+      },
+      {
+       "latex": "u_{2}=a+d=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>2</mn></msub><mo>=</mo><mi>a</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 2 equals a plus d equals 8"
+      },
+      {
+       "latex": "u_{4}=a+3d=18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>4</mn></msub><mo>=</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>d</mi><mo>=</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript 4 equals a plus 3 d equals 18"
+      },
+      {
+       "latex": "2d=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 d space equals space 10"
+      },
+      {
+       "latex": "d=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 5"
+      },
+      {
+       "latex": "a+5=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mo> </mo><mo>=</mo><mo> </mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space plus thin space 5 space equals space 8"
+      },
+      {
+       "latex": "a=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a space equals space 3"
+      },
+      {
+       "latex": "5n^{2}+n-3120>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><msup><mi>n</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>n</mi><mo> </mo><mo>-</mo><mo> </mo><mn>3120</mn><mo> </mo><mo>&gt;</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 n squared space plus thin space n space minus space 3120 space greater than space 0"
+      },
+      {
+       "latex": "n>24.9,n<-25.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo> </mo><mo>&gt;</mo><mo> </mo><mn>24</mn><mo>.</mo><mn>9</mn><mo>,</mo><mo> </mo><mo> </mo><mi>n</mi><mo> </mo><mo>&lt;</mo><mo>-</mo><mn>25</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space greater than space 24.9 comma space space n space less than negative 25.1"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic n bold space bold equals bold space bold 25"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_h7XzQmn7mH7hK7X7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/11",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "A geometric progression has a sum to infinity of 72. The sum of the first 3 terms of this progression is $\\frac{333}{8}$ .\n\n(i) Find the value of the common ratio.\n\n[5]\n\n(ii) Hence find the value of the first term.\n\n[1]",
+     "solution_md": "i) *Use the formula for the sum to infinity *$\\frac{a}{1-r}$*.*\n\n$\\frac{a}{1-r}=72$\n\n> *Multiply through by the denominator.*\n\n`a space equals space 72 open parentheses 1 space minus space r close parentheses`\n\n> *Use the formula *`S subscript n equals space fraction numerator a open parentheses 1 space minus space r to the power of n close parentheses over denominator 1 space minus space r end fraction`* for the rest of the information.*\n\n`fraction numerator a open parentheses 1 space minus space r cubed close parentheses over denominator 1 space minus space r end fraction space equals fraction numerator space 333 over denominator 8 end fraction`\n\n**[1]**\n\n> *Substitute the expression for *$a$*.*\n\n`fraction numerator 72 open parentheses 1 space minus space r close parentheses open parentheses 1 space minus space r cubed close parentheses over denominator 1 space minus space r end fraction space equals fraction numerator space 333 over denominator 8 end fraction`\n\n**[1]**\n\n> *Cancel *`open parentheses 1 minus r close parentheses`* on the left-hand side.*\n\n`72 open parentheses 1 space minus space r cubed close parentheses space equals fraction numerator space 333 over denominator 8 end fraction`\n\n> *Divide both sides by 72.*\n\n$1-r^{3}=\\frac{37}{64}$\n\n**[1]**\n\n> *Rearrange.*\n\n$\\frac{27}{64}=r^{3}$\n\n**[1]**\n\n> *Cube root both sides.*\n\n$r=\\frac{3}{4}$ **[1]**\n\nii) *Substitute our value of *$r$* from part (i) into the sum to infinity equation.*\n\n$\\frac{a}{1-\\frac{3}{4}}=72$\n\n> *Simplify.*\n\n$\\frac{a}{\\frac{1}{4}}=72$\n\n> *Multiply both sides by *$\\frac{1}{4}$*.*\n\n$a=18$ **[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{333}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>333</mn><mn>8</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "333 over 8"
+      },
+      {
+       "latex": "\\frac{a}{1-r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>a</mi><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mi>r</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 space minus space r end fraction"
+      },
+      {
+       "latex": "\\frac{a}{1-r}=72",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mi>r</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>72</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 space minus space r end fraction space equals space 72"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "1-r^{3}=\\frac{37}{64}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mi>r</mi><mn>3</mn></msup><mo> </mo><mo>=</mo><mfrac><mn>37</mn><mn>64</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space minus space r cubed space equals 37 over 64"
+      },
+      {
+       "latex": "\\frac{27}{64}=r^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>27</mn><mo> </mo></mrow><mn>64</mn></mfrac><mo>=</mo><mo> </mo><msup><mi>r</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 27 space over denominator 64 end fraction equals space r cubed"
+      },
+      {
+       "latex": "r=\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">3</mn></mrow><mn mathvariant=\"bold\">4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic r bold space bold equals fraction numerator bold space bold 3 over denominator bold 4 end fraction"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "\\frac{a}{1-\\frac{3}{4}}=72",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mstyle></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>72</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 space minus space 3 over 4 end fraction space equals space 72"
+      },
+      {
+       "latex": "\\frac{a}{\\frac{1}{4}}=72",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>a</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>72</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a over denominator 1 fourth end fraction space equals space 72"
+      },
+      {
+       "latex": "\\frac{1}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 fourth"
+      },
+      {
+       "latex": "a=18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold space bold equals bold space bold 18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8P6xW8cGZbsFbSg7",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_D6X9Y2d7xT46DPdP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 21",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_T9nZHcf2qK49B5pP",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "The 2nd, 8th and 44th terms of an arithmetic progression form the first three terms of a geometric progression. In the arithmetic progression, the first term is 1 and the common difference is positive.\n\n(i) Show that the common difference of the arithmetic progression is 5.\n\n(ii) Find the sum of the first 20 terms of the arithmetic progression.",
+     "solution_md": "(i) *Find expressions for the first three terms of the geometric sequence using the fact they are the 2nd, 8th and 44th terms of an arithmetic sequence (*`u subscript n equals a plus open parentheses n minus 1 close parentheses d`*).*\n\n$1+d,1+7d,1+43d$\n\n**[1]**\n\n> *A geometric series has a common ratio, so the second term divided by the first will be equal to the third term divided by the second.*\n\n$\\frac{1+7d}{1+d}=\\frac{1+43d}{1+7d}$\n\n**1 mark for each fraction**** [2]**\n\n> *Rearrange and simplify.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 1 plus 7 d close parentheses squared end cell equals cell open parentheses 1 plus 43 d close parentheses open parentheses 1 plus d close parentheses end cell row cell 1 plus 14 d plus 49 d squared end cell equals cell 1 plus 44 d plus 43 d squared end cell row cell 6 d squared minus 30 d end cell equals 0 end table`\n\n**[1]**\n\n> *Factorise and solve.*\n\n`6 d open parentheses d minus 5 close parentheses equals 0\nd equals 0 space and space d equals 5`\n\n> *The common difference cannot be 0.*\n\n$d=5$* ***[1]**\n\n(ii) *Substitute *$a=1$* and *$d=5$* into the sum of an arithmetic progression formula *`S subscript n equals n over 2 open parentheses 2 a plus open parentheses n minus 1 close parentheses d close parentheses`*.*\n\n`S subscript 20 equals 20 over 2 open parentheses 2 open parentheses 1 close parentheses plus open parentheses 20 minus 1 close parentheses open parentheses 5 close parentheses close parentheses`\n\n**[1]**\n\n> *Calculate.*\n\n$S_{20}=970$* ***[1]**",
+     "equations": [
+      {
+       "latex": "1+d,1+7d,1+43d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mi>d</mi><mo>,</mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mn>1</mn><mo>+</mo><mn>7</mn><mi>d</mi><mo>,</mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mn>1</mn><mo>+</mo><mn>43</mn><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 plus d comma space space space space space 1 plus 7 d comma space space space space space 1 plus 43 d"
+      },
+      {
+       "latex": "\\frac{1+7d}{1+d}=\\frac{1+43d}{1+7d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mn>7</mn><mi>d</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>d</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mn>43</mn><mi>d</mi></mrow><mrow><mn>1</mn><mo>+</mo><mn>7</mn><mi>d</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 plus 7 d over denominator 1 plus d end fraction equals fraction numerator 1 plus 43 d over denominator 1 plus 7 d end fraction"
+      },
+      {
+       "latex": "d=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic d bold equals bold 5"
+      },
+      {
+       "latex": "a=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals 1"
+      },
+      {
+       "latex": "d=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 5"
+      },
+      {
+       "latex": "S_{20}=970",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mn mathvariant=\"bold\">20</mn></msub><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">970</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic S subscript bold 20 bold equals bold 970"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TfkzmYqk2hTDvFyt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 21",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe 2nd, 8th and 44th terms of an arithmetic progression form the first three terms of a geometric progression. In the arithmetic progression, the first term is 1 and the common difference is positive.\n\n(i) Show that the common difference of the arithmetic progression is 5.\n\n(i) Find the 5th term of the geometric progression.\n\n(ii) Explain whether or not the sum to infinity of this geometric progression exists.",
+     "solution_md": "(i) *Using *$d=5$*, we know the geometric progression starts *$6,36,216$*.*\n\n$\\thereforer=6$\n\n> *Use *$u_{n}=ar^{n-1}$* to find the 5th term.*\n\n`u subscript 20 equals open parentheses 6 close parentheses open parentheses 6 to the power of 5 minus 1 end exponent close parentheses`\n\n$7776$* ***[1]**\n\n(ii) *We can only sum a geometric progression to infinity when the common ratio is less than 1.  *\n\n**The sum to infinity does not exist for this geometric progression because the common ratio is greater than 1 (**$r=6$**)**** ****[1]**",
+     "equations": [
+      {
+       "latex": "d=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 5"
+      },
+      {
+       "latex": "6,36,216",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>,</mo><mo> </mo><mn>36</mn><mo>,</mo><mo> </mo><mn>216</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 comma space 36 comma space 216"
+      },
+      {
+       "latex": "\\thereforer=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∴</mo><mo> </mo><mi>r</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "therefore space r equals 6"
+      },
+      {
+       "latex": "u_{n}=ar^{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+      },
+      {
+       "latex": "7776",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">7776</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 7776"
+      },
+      {
+       "latex": "r=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic r bold equals bold 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5Y3c9khQJTQ2JTh6",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_B67xGgzmqYkwRHxZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/23",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "The sum of the first 4 terms of an arithmetic progression is 38 and the sum of the next 4 terms is 86. Find the first term and the common difference.",
+     "solution_md": "> *The sum of an arithmetic progression is *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`*. Write an expression for the sum of the first four terms.*\n\n`table row cell S subscript 4 end cell equals cell 4 over 2 open square brackets 2 a plus open parentheses 4 minus 1 close parentheses d close square brackets end cell end table`\n\n**[1]**\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 open square brackets 2 a plus 3 d close square brackets end cell equals 38 row cell 2 a plus 3 d end cell equals 19 end table`\n\n**[1]**\n\n> *Similarly, write an expression for the sum of the first eight terms.*\n\n`S subscript 8 equals 8 over 2 open square brackets 2 a plus open parentheses 8 minus 1 close parentheses d close square brackets\n\nS subscript 8 equals 4 open square brackets 2 a plus 7 d close square brackets`\n\n> *We are told that the first four terms sum to 38, and the next four sum to 86. Therefore, the sum of the first 8 terms is the sum of 38 and 86.*\n\n`4 open square brackets 2 a plus 7 d close square brackets equals 38 plus 86`\n\n**[1]**\n\n> *Expand and simplify.*\n\n$2a+7d=31$\n\n> *Solve the equations simultaneously.  *\n\n`table row blank blank cell stack attributes charalign center stackalign right end attributes row none none none none 2 a plus 7 d equals 31 end row row minus none none none none 2 a plus 3 d equals 19 end row horizontal line row 4 d equals 12 end row row d equals 3 none end row end stack end cell end table`\n\n**[1]**\n\n> *Substitute *$d=3$* into one of the original equations and solve for *$a$*.*\n\n`table row cell 2 a plus 7 open parentheses 3 close parentheses end cell equals 31 row cell 2 a end cell equals cell 31 minus 21 end cell row a equals 5 end table`\n\n$a=5\\mathrm{and}d=3$* ***[1]**",
+     "equations": [
+      {
+       "latex": "2a+7d=31",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>7</mn><mi>d</mi><mo>=</mo><mn>31</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 a plus 7 d equals 31"
+      },
+      {
+       "latex": "d=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d equals 3"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=5\\mathrm{and}d=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">and</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 5 bold space bold and bold space bold italic d bold equals bold 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2STJ2JjFSWsyFFvW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/23",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z8nfcb8kZqJ49yXb",
+      "spcpt_sJK3jcQkZJQG5zDH"
+     ],
+     "part_tier": null,
+     "problem_md": "The third term of a geometric progression is 12 and the sixth term is -96. Find the sum of the first 10 terms of this progression.",
+     "solution_md": "> *Using the nth term formula for a geometric progression, *$u_{n}=ar^{n-1}$*, the second term is*\n\n$ar^{2}=12$\n\n**[1]**\n\n> *The sixth term is*\n\n$ar^{5}=-96$\n\n**[1]**\n\n> *Solve the equations simultaneously - rearrange the first and substitute into the second.*\n\n`table row a equals cell 12 over r squared end cell row cell 12 over r squared open parentheses r to the power of 5 close parentheses end cell equals cell negative 96 end cell end table`\n\n> *Solve for *$r$*.*\n\n`table row cell 12 r cubed end cell equals cell negative 96 end cell row cell r cubed end cell equals cell negative 8 end cell row r equals cell negative 2 end cell end table`\n\n**[1]**\n\n> *Substitute into either of the original equations to find *$a$*.*\n\n`table row cell a open parentheses negative 2 close parentheses squared end cell equals 12 row a equals 3 end table`\n\n**[1]**\n\n> *The sum of a geometric progression is *`S subscript n equals fraction numerator a open parentheses 1 minus r to the power of n close parentheses over denominator 1 minus r end fraction`*.*\n\n`S subscript 10 equals fraction numerator 3 open parentheses 1 minus open parentheses negative 2 close parentheses to the power of 10 close parentheses over denominator 1 minus open parentheses negative 2 close parentheses end fraction`\n\n**[1]**\n\n$S_{10}=-1023$* ***[1]**",
+     "equations": [
+      {
+       "latex": "u_{n}=ar^{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+      },
+      {
+       "latex": "ar^{2}=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r squared equals 12"
+      },
+      {
+       "latex": "ar^{5}=-96",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>r</mi><mn>5</mn></msup><mo>=</mo><mo>-</mo><mn>96</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a r to the power of 5 equals negative 96"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "S_{10}=-1023",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mn mathvariant=\"bold\">10</mn></msub><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1023</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic S subscript bold 10 bold equals bold minus bold 1023"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4pZfrsVRNG2FBzc2",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_GjzPX3VgJdNsnvxj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "The 7th and 10th terms of an arithmetic progression are 158 and 149 respectively.\n\nFind the common difference and the first term of the progression.",
+     "solution_md": "> *Using *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`* write equations for the 7th and 10th terms of the arithmetic progression.*\n\n$a+6d=158\\,a+9d=149$\n\n**[1]**\n\n> *Solve the equations simultaneously.*\n\n`equation`\n\n$d=-3$** [1]**\n\n> *Substitute into one of the original equations.*\n\n`a plus open parentheses 6 close parentheses open parentheses negative 3 close parentheses equals 158`\n\n$a=176$* ***[1]**",
+     "equations": [
+      {
+       "latex": "a+6d=158\\,a+9d=149",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>+</mo><mn>6</mn><mi>d</mi><mo>=</mo><mn>158</mn><mspace linebreak=\"newline\"/><mi>a</mi><mo>+</mo><mn>9</mn><mi>d</mi><mo>=</mo><mn>149</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a plus 6 d equals 158\na plus 9 d equals 149"
+      },
+      {
+       "latex": "d=-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic d bold equals bold minus bold 3"
+      },
+      {
+       "latex": "a=176",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">176</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic a bold equals bold 176"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_686cdw4Rjs46zTkw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0606/12",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_v7G5PNqmCFK47VWw",
+      "spcpt_T9nZHcf2qK49B5pP"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe 7th and 10th terms of an arithmetic progression are 158 and 149 respectively.\n\nThe common difference d = -3 and the first term a = 176.\n\nFind the least number of terms of the progression for their sum to be negative.",
+     "solution_md": "> *Substitute the values found in part *$a$* into the formula to sum an arithmetic series.*\n\n`S subscript n equals n over 2 open square brackets 2 open parentheses 176 close parentheses plus open parentheses n minus 1 close parentheses open parentheses negative 3 close parentheses close square brackets\nS subscript n equals n over 2 open square brackets 352 minus 3 n plus 3 close square brackets\nS subscript n equals n over 2 open square brackets 355 minus 3 n close square brackets`\n\n**[1]**\n\n> *The sum of the progression needs to be negative.*\n\n`n over 2 open square brackets 355 minus 3 n close square brackets less than 0`\n\n> *Solve - be careful, it's a quadratic inequality, so use a calculator or sketch the graph.*\n\n$n<0$* **and *$n>118.333...$\n\n**[1]**\n\n> *The value of *$n$* cannot be negative, so *$n>118.333...$* *$n$* has to be an integer*\n\n$n=119$* ***[1]**",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "n<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n less than 0"
+      },
+      {
+       "latex": "n>118.333...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mn>118</mn><mo>.</mo><mn>333</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n greater than 118.333..."
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n>118.333...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mn>118</mn><mo>.</mo><mn>333</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n greater than 118.333..."
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n=119",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">119</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic n bold equals bold 119"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

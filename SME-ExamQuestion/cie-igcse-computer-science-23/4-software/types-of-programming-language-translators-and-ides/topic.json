@@ -1,0 +1,390 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:22Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "4-software",
+  "name": "4. Software"
+ },
+ "topic": {
+  "id": "top_R5Vzs8TbwwfKwHw3",
+  "slug": "types-of-programming-language-translators-and-ides",
+  "name": "Types of Programming Language, Translators & Integrated Development Environments (IDEs)",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "levels-of-programming-languages",
+   "name": "Levels of Programming Languages",
+   "revision_note_id": "rn_stB4bDGBvPdzxS7D"
+  },
+  {
+   "slug": "assembly-language",
+   "name": "Assembly Language",
+   "revision_note_id": "rn_PTfX6FGp27Tg33yz"
+  },
+  {
+   "slug": "translators-compilers-and-interpreters",
+   "name": "Translators, Compilers & Interpreters",
+   "revision_note_id": "rn_tMWTqWNMZxb3kHdp"
+  },
+  {
+   "slug": "tools-and-facilities-in-ides",
+   "name": "Tools & Facilities in IDEs",
+   "revision_note_id": "rn_qWfcctpMgmYw2sNQ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_CCmm7TRp2zVcmH6k",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/4-software/types-of-programming-language-translators-and-ides/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_x5my4vzY4CsX52N5",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_HDDPbPkT6HS4zJGD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/22",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DGfR96CKMPJr4P9M"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- The three listed features are examples; accept any valid feature that aids understandability, e.g. indentation/pretty-printing, white space between sections, named constants, self-documenting/descriptive names.\n- Award 1 mark for the feature and 1 mark for a corresponding valid example, max 6.\n- Do not accept features unrelated to code readability, e.g. portability, translators/compilers, or syntax being English-like.\n\n**State three different features** of a high-level programming language that a programmer could use to make sure that their program will be easier to understand by another programmer.\n\n**Give an example** for each feature.",
+     "solution_md": "Features of a high-level programming language include:\n\nAny **six **of the following:\n\n- ensuring that all **identifiers **have meaningful names** [1 mark]**\n- … example using `Total `to store a running total **[1 mark]**\n- using **comments **to explain how the program works **[1 mark]**\n- … example // `all values are zeroed before the next calculation `**[1 mark]**\n- using **procedures **and **functions** for the tasks within a program **[1 mark]**\n- … example `CalculateInterest(Deposit, Rate) `**[1 mark]**\n\n> **[mark-scheme]**\n> - **One mark** for each feature and **one mark** for corresponding example (**max six**)\n> - **Any **sensible examples are valid\n\n> **[exam-tip]**\n> Read the question carefully: it asks for features a programmer chooses to aid understanding, not general advantages of high-level languages like portability or English-like syntax\n> \n> Don't forget the concrete example for each feature, or you lose half the marks"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Tm9Y55BYJGtNFKJJ",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_jSfxn4ZpN5D7kjKd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PNq6KRg63hTmT8r6"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses a low‑level language to write a computer program for a vending machine.\n\n**Give two **reasons** **why the programmer would choose to write the computer program in a** low‑level** language instead of a **high‑level** language.",
+     "solution_md": "Examples of reasons why a programmer would choose to write a program in a low-level language are:\n\nAny **two **of the following:\n\n- Can directly manipulate the hardware **[1 mark]**\n- No requirement for the program to be portable **[1 mark]**\n- Program will be more memory efficient **[1 mark]**\n- No requirement for a compiler/interpreter **[1 mark]**\n- Quicker to execute **[1 mark]**\n- Can use specialised hardware **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_39pTSwRQ8NvDPhPt",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_vH8ryCw63JM9VVn3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_ckpPNg4bVX7ntq5S"
+     ],
+     "part_tier": null,
+     "problem_md": "A compiler and an interpreter are two different types of **translator**.\n\nOne similarity between a compiler and an interpreter is that they both translate high‑level language into machine code.\n\n**Explain two **differences between a compiler and an interpreter.",
+     "solution_md": "Two differences between a compiler and an interpreter are:\n\nAny **four **from the following (**MAX 2 **per translator):\n\n- An interpreter translates the code line by line (and executes each line immediately) **[1 mark]**\n- … whereas a compiler translates the whole code at the same time (before executing it) **[1 mark]**\n- A compiler produces an executable file **[1 mark]**\n- … but an interpreter does not **[1 mark]**\n- An interpreter is required to run the code each time if used **[1 mark]**\n- … whereas a compiler is not **[1 mark]**\n- An interpreter stops and reports an error as it is encountered **[1 mark]**\n- … whereas a compiler creates a report of all errors at the end of translation **[1 mark]**\n- An interpreter will run code up to the point it finds an error **[1 mark]**\n- … whereas a compiler will not run the code at all if an error is found **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dcCX8PsF2xJWpvnD",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_kwBgTsmvRyQY2rc3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gwXMzkPB3GGymDxW"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer often uses an integrated development environment (IDE) when writing a computer program.\n\n**Give three** common **functions **of an IDE.",
+     "solution_md": "Common functions of an IDE include:\n\nAny **three **of the following:\n\n- Code editor **[1 mark]**\n- Run-time environment **[1 mark]**\n- Translator **[1 mark]**\n- Error diagnostics **[1 mark]**\n- Auto-completion **[1 mark]**\n- Auto-correction **[1 mark]**\n- Prettyprinting **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CCbHXSxPjFZbZhqN",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_bnb6zTb578RBGWVK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_PNq6KRg63hTmT8r6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Complete the statements** about different types of programming language.\n\nUse the terms from the list.\n\nSome of the terms in the list **will not be used**.\n\nYou should only use a term **once**.\n\n- assembly\n- denary\n- executable file\n- instruction\n- storage\n- hexadecimal\n- high-level\n- low-level\n- machine code\n- protocol\n- source code\n- style\n- syntax\n- translator\n\nThe structure of language statements in a computer program is called the ............................................. .\n\nA programming language that uses natural language statements is called a ............................................. language.\n\nWhen programs are written in this type of language they need a ............................................. to convert them into ............................................. .\n\nA programming language that is written using mnemonic codes is called an ............................................. language.\n\nThis is an example of a ............................................. language.",
+     "solution_md": "The structure of language statements in a computer program is called the **syntax ****[1 mark]**.\n\nA programming language that uses natural language statements is called a **high-level ****[1 mark]** language.\n\nWhen programs are written in this type of language they need a **translator ****[1 mark] **to convert them into **machine code ****[1 mark]**.\n\nA programming language that is written using mnemonic codes is called an **assembly ****[1 mark]**** **language.\n\nThis is an example of a** ****low-level ****[1 mark]** language."
+    }
+   ]
+  },
+  {
+   "id": "qstn_k8NvSbFtBsfJMBnx",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_fv8n9WwK8mN3CBYt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_PNq6KRg63hTmT8r6"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses a **low‑level language** to write a computer program for a vending machine.\n\n**Describe **what is meant by a low‑level language.",
+     "solution_md": "A low-level language is described as:\n\nAny **two **of the following:\n\n- Close to the language processed by computers **[1 mark]**\n- May use mnemonics **[1 mark]**\n- An example is assembly language/machine code **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JwfdjDBGS9k4MBhJ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_SwkGJSYCRQJPYxGn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_DGfR96CKMPJr4P9M"
+     ],
+     "part_tier": null,
+     "problem_md": "Jason is a programmer who writes computer programs in a **high‑level language**.\n\n**Describe **what is meant by a high‑level language.",
+     "solution_md": "A high-level language is described as:\n\nAny **three **of the following:\n\n- It uses English-like statements **[1 mark]**\n- It is easy to read/understand **[1 mark]**\n- It needs to be converted to machine code (to be processed by a computer) **[1 mark]**\n- … using a translator **[1 mark]**\n- It is portable **[1 mark]**\n- One line of code can perform multiple commands **[1 mark]**\n\n> **[exam-tip]**\n> With three marks on offer, give three distinct features — don't stop after one point.\n> \n> 'High-level' refers to English-like syntax needing translation, not a language with many or more complex commands."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3T5HgMJjWmxnDKxt",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZVHNPrqrdvvV4mSQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_ckpPNg4bVX7ntq5S"
+     ],
+     "part_tier": null,
+     "problem_md": "A compiler and an interpreter are two different types of **translator**.\n\nOne similarity between a compiler and an interpreter is that they both translate high‑level language into machine code.\n\n**Give one other **similarity between a compiler and an interpreter.",
+     "solution_md": "Another similarity between a compiler and an interpreter is:\n\n- They both report/check for errors **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_d7wwGdR9cxc8zn4h",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jMGMf7KmDbXjxt4x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gwXMzkPB3GGymDxW"
+     ],
+     "part_tier": null,
+     "problem_md": "The programmer uses an** integrated development environment **(**IDE**) when creating the computer program.\n\n**State **what is meant by an IDE.",
+     "solution_md": "An IDE is:\n\n- software designed to make writing high-level languages more efficient **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_t5H5SsGFkVnz5GXj",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_gb6djYGHyxVsShsk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 5,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_PNq6KRg63hTmT8r6",
+      "spcpt_DGfR96CKMPJr4P9M"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses a** high-level language** to create a computer program.\n\n**Identify two advantages **to the programmer of using a high-level language instead of a low-level language.",
+     "solution_md": "Advantages of using a high-level language instead of a low-level language include:\n\nAny **two **of the following:\n\n- it is easier / quicker to read/write/understand **[1 mark]**\n- it is easier / quicker to debug **[1 mark]**\n- code is portable **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_Hdzg7CRtMV2FG9M9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 5,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_PNq6KRg63hTmT8r6",
+      "spcpt_DGfR96CKMPJr4P9M"
+     ],
+     "part_tier": null,
+     "problem_md": "**Suggest one disadvantage **to the programmer of using a high-level language instead of a low-level language.",
+     "solution_md": "Disadvantages of using a high-level language instead of a low-level language include:\n\nAny **one **of the following:\n\n- not able to directly manipulate the hardware **[1 mark]**\n- may need to wait for translation before running **[1 mark]**\n- program may be less efficient **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

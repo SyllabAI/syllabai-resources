@@ -1,0 +1,738 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:56:46Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_6PRHrjW2KbzTvjmb",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) A Level Computer Science"
+ },
+ "section": {
+  "slug": "16-system-software-",
+  "name": "16. System Software"
+ },
+ "topic": {
+  "id": "top_yKV4SNDgzsWWcHdP",
+  "slug": "translation-software",
+  "name": "Translation Software",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "expression-evaluation",
+   "name": "Expression Evaluation",
+   "revision_note_id": "rn_ZWXcPSbh8YQbNs7r"
+  },
+  {
+   "slug": "syntax-rules",
+   "name": "Syntax Rules",
+   "revision_note_id": "rn_B9NQVv2Zc7H8WWzm"
+  },
+  {
+   "slug": "translation-process",
+   "name": "Translation Process",
+   "revision_note_id": "rn_RNvrRqy3tNptcVy3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_5YdD6tykKVb7yctF",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/a-level/computer-science/cie/19/topic-questions/16-system-software-/translation-software/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 18,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/27017-q5c-june-2024-9618-31.png": "001-thirteen-vertical-columns-of-equal-sized-rectang.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/54926-ans5b-june-2024-9618-32.png": "002-four-vertical-sequences-of-numbers-are-encircled.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/22945-q5c-june-2024-9618-31.png": "003-twelve-columns-of-identical-vertical-grids-each-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/33672-ans5c-june-2024-9618-31.png": "004-venn-diagram-with-overlapping-circles-containing.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/17450-q7-nov-2024-9618-32.png": "005-flowchart-illustrating-categorisation-of-odd-eve.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/29129-ans7c-nov-2024-9618-32.png": "006-flowchart-showing-the-sequence-code-enters-lette.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/12908-q10-nov-2024-9618-31.png": "007-flowchart-with-categories-letter-a-e-i-o-u-y-sym.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/32964-q10b-nov-2024-9618-31.png": "008-flowchart-depicts-password-validation-start-with.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_j5qrtNP24TCb9x2G",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_GvtQFKv3JSvcJD2q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "A weather station sends its temperature readings to a computer as text. The Backus-Naur Form (BNF) for some parts of the text is shown.\n\nThe following rules are also needed.\n\n- An integer contains one or more digits.\n- A reading is an integer that may have one sign in front of it.\n- A message contains one or more readings. When a message has more than one reading, a comma separates each reading from the next one.\n\nFor example, `25` and `12,-3,+40` are both valid messages.\n\nWrite the BNF for `<integer>`, `<reading>` and `<message>`.",
+     "solution_md": "One mark for `<integer> ::= <digit>` as one alternative **[1]**\n\nOne mark for `<integer><digit>` as the second alternative **[1]**\n\nOne mark for `<reading> ::= <integer> | <sign><integer>` **[1]**\n\nOne mark for `<message> ::= <reading>` as one alternative **[1]**\n\nOne mark for `<message>,<reading>` as the second alternative **[1]**\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `<integer> ::= <digit>` as one alternative\n> \n> **1 mark** for a second alternative of `<integer><digit>` // `<digit><integer>`\n> \n> **1 mark** for `<reading> ::= <integer> | <sign><integer>`\n> \n> **1 mark** for `<message> ::= <reading>` as one alternative\n> \n> **1 mark** for a second alternative of `<message>,<reading>` // `<reading>,<message>`\n> \n> The alternatives can be written in either order\n> \n> Do not accept `<integer> ::= <digit><integer>` with no single `<digit>` alternative: the rule never ends, so it cannot produce any integer\n> \n> Do not accept `<message> ::= <reading> | <reading>,<reading>`: this allows only one or two readings, not three or more\n> \n> Do not accept `<reading> ::= <integer> | <sign><reading>`: this allows more than one sign, such as `--4`\n\n> **[exam-tip]**\n> \"One or more\" in a question means the rule must refer to itself. Every rule that refers to itself also needs an alternative that does not, such as the single `<digit>` in `<integer>`. Without it, the rule can never finish, so it matches nothing.\n> \n> Check where the comma goes. The alternative `<message>,<reading>` always puts a comma between two readings. It can never give a message that starts or ends with a comma, and the question does not allow one.\n> \n> In a syntax diagram, \"one or more\" is drawn as a loop that goes back over the box. In BNF, that loop becomes the rule referring to itself."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pnNxcjWjwB9pNhMw",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_FQmpkHcH6NBQt4bF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "A parcel locker is opened with a code. The Backus-Naur Form (BNF) for some parts of the code is shown.\n\nA new syntax rule, `<locker>`, is required. A locker code must begin with two letters, followed by one digit or one symbol, and end with one or two digits.\n\nWrite the BNF for `<locker>`.",
+     "solution_md": "One mark for `<locker> ::=` followed by one correct alternative **[1]**\n\nOne mark for two more correct alternatives, separated by `|` **[1]**\n\nOne mark for all four alternatives correct, with no incorrect alternative **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `<locker> ::=` followed by any one correct alternative\n> \n> **1 mark** for two further correct alternatives, each separated by `|`\n> \n> **1 mark** for all four alternatives correct and no incorrect alternative\n> \n> The alternatives can be written in any order\n> \n> Accept this answer, which uses extra rules. Award one mark for each correct rule:\n> \n> Any names can be used for the extra rules, as long as each one is defined and used correctly\n> \n> Do not accept an attempt such as `<locker> ::= <letter><letter><digit> | <symbol><digit><digit>`: `|` separates whole alternatives, so the second alternative allows a code with no letters\n\n> **[exam-tip]**\n> A common error is to put `|` in the middle of an alternative, expecting it to choose only between the two items next to it. In BNF, `|` separates complete alternatives. Anything written before `|` is one whole alternative and anything after it is another.\n> \n> Work through the description and list every combination before you write any BNF. Two middle options and two endings give four alternatives. Students often write three and miss a code made of a letter, a letter, a symbol, a digit and a digit, such as `PQ#12`.\n> \n> In a syntax diagram, the choice between a digit and a symbol is two parallel paths, and the second end digit is a path that can bypass the box. In BNF, each of these choices becomes an extra alternative."
+    }
+   ]
+  },
+  {
+   "id": "qstn_JsMjRc4DGQbDcm7h",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_rmHBWVQkY69XYH4G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "The Reverse Polish Notation (RPN) expression:\n\nis to be evaluated when a = 40, b = 3, c = 2, d = 4 and e = 11.\n\nShow the changing contents of the stack as the RPN expression is evaluated. Complete the table. Each column shows the stack after one more item has been read. Fill each column from the bottom row upwards.\n\n| Item read | `a` | `b` | `c` | `d` | `+` | `*` | `-` | `e` | `/` |\n|---|---|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n| Bottom of stack |   |   |   |   |   |   |   |   |   |",
+     "solution_md": "| Item read | `a` | `b` | `c` | `d` | `+` | `*` | `-` | `e` | `/` |\n|---|---|---|---|---|---|---|---|---|---|\n|   |   |   |   | **4** |   |   |   |   |   |\n|   |   |   | **2** | **2** | **6** |   |   |   |   |\n|   |   | **3** | **3** | **3** | **3** | **18** |   | **11** |   |\n| Bottom of stack | **40** | **40** | **40** | **40** | **40** | **40** | **22** | **22** | **2** |\n\nColumns 1 to 3: a, b and c are pushed, giving 40, then 40, 3, then 40, 3, 2 **[1]**\n\nColumns 4 and 5: d is pushed, giving 40, 3, 2, 4, then the addition pops 4 and 2 and pushes 6, giving 40, 3, 6 **[1]**\n\nColumns 6 and 7: the multiplication pops 6 and 3 and pushes 18, then the subtraction pops 18 and 40 and pushes 40 - 18 = 22 **[1]**\n\nColumns 8 and 9: e is pushed, giving 22, 11, then the division pops 11 and 22 and pushes 22 / 11 = 2 **[1]**\n\nThe value of the expression is 2.\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for columns 1 to 3: 40; 40, 3; 40, 3, 2\n> \n> **1 mark** for columns 4 and 5: 40, 3, 2, 4; 40, 3, 6\n> \n> **1 mark** for columns 6 and 7: 40, 18; 22\n> \n> **1 mark** for columns 8 and 9: 22, 11; 2\n> \n> Values within a column are listed from the bottom of the stack to the top, and semicolons separate the columns.\n> \n> Accept the values in each column placed at the top of the column instead of the bottom, provided the most recently pushed value is the highest one in that column\n> \n> Do not accept operators written into the stack\n> \n> Do not accept -22 in column 7 or -2 in column 9, which come from subtracting 40 from 18 instead of 18 from 40\n> \n> Do not accept 0.5 in column 9, which comes from dividing 11 by 22\n\n> **[exam-tip]**\n> The first value popped is the right-hand operand, not the left-hand one. When the minus sign is read, 18 is popped first and 40 second, so the calculation is 40 - 18. Students who work out \"first pop minus second pop\" get -22, and every column after that is wrong too.\n> \n> Keep every value that is not popped. After the multiplication, 40 is still at the bottom of the stack, waiting. A column that loses it cannot earn the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_PVjmtG9VPV3V7Mkk",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wZQZvQc8nvJf9hVP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3vWyRRTy5kDyk84q"
+     ],
+     "part_tier": null,
+     "problem_md": "A program contains this statement.\n\nThe statement contains no errors. The program is compiled.\n\nDescribe what happens to this statement at each stage of compilation.",
+     "solution_md": "Lexical analysis: the characters in the statement are converted into a sequence of tokens, `Area`, `←`, `Length`, `*`, `Width`, `+` and `10`. **[1]**\n\nSyntax analysis: the sequence of tokens is checked against the grammar of the language. The statement follows the rules, so no syntax error is reported and a parse tree is produced. **[1]**\n\nCode generation: the intermediate representation of the statement is converted into an executable form, for example object code. **[1]**\n\nOptimisation: the code is changed to minimise the program's execution time and memory requirement. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for each stage named with a correct description, **max 4**:\n> \n> - Lexical analysis: the characters are converted into a sequence of tokens\n> - Syntax analysis: the tokens are checked against the grammar / rules of the language // a parse tree is produced\n> - Code generation: the intermediate representation / parse tree is converted into an executable form // object code / machine code is produced\n> - Optimisation: the code is changed to minimise execution time // to minimise memory requirement\n> \n> **[4 marks]**\n> \n> A stage name without a description, or a description without a stage name, earns no mark.\n> \n> Accept the stages described in any order.\n> \n> Do not accept \"the statement is executed\" for any stage. A compiler translates the program; no stage of compilation executes it.\n\n> **[exam-tip]**\n> A frequent error is to describe code generation as the stage that runs the code. No stage of compilation runs the program. Code generation produces the executable form, and the program is run later.\n> \n> Tie each description to what the stage takes in and what it produces: characters into tokens, tokens into a parse tree, intermediate representation into executable form. \"It checks the code\" is too vague to earn the mark for any stage."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kRpv6b3cDXY49TbK",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_3j3H6vFYMbbsZDdc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3vWyRRTy5kDyk84q"
+     ],
+     "part_tier": null,
+     "problem_md": "A program contains this statement.\n\nThe statement contains an error. The program is compiled.\n\nIdentify the stage of compilation at which this error is reported, and explain why the error is not reported during lexical analysis.",
+     "solution_md": "The error is reported during syntax analysis. **[1]**\n\nLexical analysis converts the characters into a sequence of tokens: `Cost`, `←`, `Price`, `+`, `*` and `Quantity`. Every one of these is a valid token, so lexical analysis finds no error. **[1]**\n\nSyntax analysis checks that the sequence of tokens follows the grammar of the language. There is no operand between the operators `+` and `*`, so the rules are broken and a syntax error is reported. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for syntax analysis\n> \n> **Any two from:**\n> \n> - Lexical analysis only converts the characters into tokens\n> - Each token in the statement is valid // `+` and `*` are both valid tokens\n> - Syntax analysis checks the sequence of tokens against the grammar / rules of the language\n> - Two operators next to each other do not match the rules // an operand is missing between `+` and `*`\n> \n> **[2 marks]**\n> \n> Accept \"parsing\" or \"the parser\" for syntax analysis.\n> \n> Do not accept lexical analysis or code generation as the stage.\n> \n> Do not accept \"run-time error\" or \"logic error\". This error is found during compilation, before the program can be run.\n\n> **[exam-tip]**\n> Students often choose lexical analysis because it is the first stage, and they expect the first stage to find every mistake. Lexical analysis only decides whether each group of characters is a valid token. It does not check the order of the tokens.\n> \n> A statement made entirely of valid tokens can still break the rules of the language. Checking the order of the tokens against the grammar is the job of syntax analysis."
+    }
+   ]
+  },
+  {
+   "id": "qstn_x9yjKQTHxhzyypkp",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_4ZDymDC3mrnBGt3c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "A game uses a short code to unlock each level. The Backus-Naur Form (BNF) for a code is shown.\n\nState whether each of the following codes is valid or invalid for `<code>`. Give a reason for your choice in each case.\n\n`C4%`\n\n`B6@`",
+     "solution_md": "`C4%` is **valid**. It is a letter (C), followed by a digit (4), followed by a symbol (%), so it matches `<letter><digit><symbol>`. **[1]**\n\n`B6@` is **invalid**. The 6 is not a valid digit, because `<digit>` only allows 1, 2, 3, 4 or 5. **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `C4%` valid, with a reason: a letter followed by a digit followed by a symbol // it matches `<letter><digit><symbol>`\n> \n> **1 mark** for `B6@` invalid, with a reason: 6 is not a valid digit // `<digit>` only allows 1 to 5\n> \n> Each mark needs both the decision and a correct reason\n> \n> Do not accept that `B6@` is invalid because it ends with a symbol: a code can end with a symbol, and @ is a valid symbol\n\n> **[exam-tip]**\n> `B6@` has the right shape: a letter, then a digit, then a symbol. Many students stop there and call it valid. Check every character against its own rule. The rule `<digit>` allows only the values listed after `::=`, and 6 is not one of them.\n> \n> When you give a reason, say exactly which character breaks which rule. \"It does not follow the rules\" does not earn the mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_WgvKYBGKx3gRH8K9",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_yThVgvtfFrVY7qX5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3vWyRRTy5kDyk84q"
+     ],
+     "part_tier": null,
+     "problem_md": "The compilation of a program takes place in stages.\n\nName the stage of compilation described by each statement.\n\n(i) The source code is converted from a sequence of characters into a sequence of tokens.\n\n(1)\n\n(ii) The program is changed to minimise its execution time and its memory requirement.\n\n(1)",
+     "solution_md": "(i) Lexical analysis **[1]**\n\n(ii) Optimisation **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for lexical analysis\n> \n> **1 mark** for optimisation\n> \n> Accept the spelling \"optimization\".\n> \n> Do not accept syntax analysis for (i). Syntax analysis works on the tokens after lexical analysis has produced them.\n> \n> Do not accept code generation for (ii). Code generation converts the program into an executable form. Its purpose is not to reduce execution time and memory.\n\n> **[exam-tip]**\n> Lexical analysis and syntax analysis are the two stages students mix up most. Use the key words to separate them. Lexical analysis starts with characters and produces tokens. Syntax analysis starts with those tokens and checks that they follow the grammar of the language."
+    }
+   ]
+  },
+  {
+   "id": "qstn_XmXvdnPVPvBfrRwk",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_cfJ6kjwgfrrFK2WT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8VQwpnTM66wPN9h8"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is run using an interpreter. The line numbers are for reference only and are not part of the program. Variable declarations are not shown.\n\nLine 07 contains a syntax error. There are no other errors in the program.\n\nDescribe what happens when the program is run using the interpreter.",
+     "solution_md": "The interpreter examines the program one statement at a time. It checks each statement for errors before it executes that statement. **[1]**\n\nLines 01 to 06 contain no errors, so each one is executed as soon as it has been checked. Lines 03 and 04 are checked and executed again on each of the three iterations of the loop. **[1]**\n\nThis output is displayed before the interpreter reaches line 07: **[1]**\n\nWhen line 07 is checked, the syntax error is found and reported, and the interpreter halts. Line 08 is never executed. **[1]**\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> **Any four from:**\n> \n> - Each statement is examined and checked for errors before it is executed\n> - Lines 01 to 06 are each executed as soon as they have been checked // the program starts to run even though it contains an error\n> - Lines 03 and 04 are interpreted again on each iteration of the loop // they are interpreted three times\n> - `Pass 1`, `Pass 2`, `Pass 3` and `Total is 6` are output before the error is found\n> - The error in line 07 is reported and the interpreter halts\n> - Line 08 is never examined or executed\n> \n> **[4 marks]**\n> \n> For the output point, all four lines of output must be given in the correct order.\n> \n> Accept \"stops\" in place of \"halts\".\n> \n> Do not accept \"the error in line 07 is reported before any statement is executed\" or \"nothing is output\". That is how a compiler behaves, because a compiler translates the whole program before any of it can run.\n\n> **[exam-tip]**\n> The most common wrong answer says that nothing is output because the program contains an error. That is true of a compiled program, not an interpreted one. The interpreter does not look at line 07 until it gets there, so lines 01 to 06 have already run and their output is already on the screen.\n> \n> Write the output exactly. The loop runs three times, so there are three Pass lines, and the total is 6 because 1 + 2 + 3 = 6."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qRBNMx5NRSzQtvB2",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_sQRNDKxP7gCjBj6S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this Reverse Polish Notation (RPN) expression in infix form.",
+     "solution_md": "b and c are multiplied, and the result is added to a, giving `a + b * c` **[1]**\n\na is subtracted from d, in that order, giving `(d - a)` **[1]**\n\nThe whole of the first term is divided by the whole of the second term, so both terms are in brackets **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `a + b * c` as one term\n> \n> **1 mark** for `(d - a)` with the operands in this order\n> \n> **1 mark** for the division of the first term by the second, with brackets around both terms\n> \n> Complete answer:\n> \n> Accept extra brackets that do not change the meaning, for example `(a + (b * c)) / (d - a)`\n> \n> Accept the operands of the addition or the multiplication in the other order, for example `(b * c + a) / (d - a)`\n> \n> Do not accept `a + b * c / (d - a)`, which divides only b multiplied by c by (d - a) (loses the third mark)\n> \n> Do not accept `(a + b) * c / (d - a)`, which adds a and b before multiplying (loses the first mark)\n> \n> Do not accept `(a + b * c) / (a - d)`, which reverses the subtraction (loses the second mark)\n\n> **[exam-tip]**\n> When an operator is reached, it joins the two terms just before it, and the earlier of those two terms goes on the left. Students often write a - d here, because a is the letter nearest to the minus sign. The RPN has d then a, so the answer is d - a.\n> \n> The brackets are where most marks are lost. In RPN the division comes last, so it applies to everything before it. Without brackets, precedence would make the division happen before the addition and the subtraction. Check your answer by converting it back to RPN: you should get the expression you started with."
+    }
+   ]
+  },
+  {
+   "id": "qstn_jMKrDhGyHGt8Vb97",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wVYS3MBVpStn7d7M",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8VQwpnTM66wPN9h8"
+     ],
+     "part_tier": null,
+     "problem_md": "A program that is run using an interpreter contains this loop.\n\nA student makes this claim:\n\n\"The interpreter translates the statement inside the loop once. It stores the translated version and reuses it on each pass of the loop. When the program is run again next week, the stored version is used again.\"\n\nExplain why the student's claim is wrong.",
+     "solution_md": "An interpreter does not produce a translated version of the program, so there is nothing to store and reuse. **[1]**\n\nIt examines one statement at a time, checks it for errors and then executes it. This means the statement inside the loop is interpreted again on each of the 1000 iterations. **[1]**\n\nNothing is kept after the program finishes, so the whole program has to be interpreted again when it is run next week. **[1]**\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> **Any three from:**\n> \n> - An interpreter does not produce or store a translated version of the program\n> - It examines one statement at a time, checks the statement for errors and then executes it\n> - The statement inside the loop is interpreted again on every iteration // it is interpreted 1000 times\n> - The program has to be interpreted again every time it is run // next week it is interpreted again from the start\n> \n> **[3 marks]**\n> \n> Accept \"line\" in place of \"statement\".\n> \n> Do not accept \"an interpreter translates line by line\" on its own. It does not explain why the claim about storing and reusing a translation is wrong.\n> \n> Do not accept \"the interpreter produces an executable file that is used next week\". That describes a compiler.\n\n> **[exam-tip]**\n> Many answers describe an interpreter correctly but never apply it to the loop. The question tells you the loop runs 1000 times, so use that number: the statement inside it is interpreted 1000 times.\n> \n> The same fact answers the last part of the claim. No translated version is ever kept, so next week the interpreter starts again from the first statement."
+    }
+   ]
+  },
+  {
+   "id": "qstn_djcxd9CKdBKF8byD",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_434DWyynxfS6B8R2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "tick",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8VQwpnTM66wPN9h8"
+     ],
+     "part_tier": null,
+     "problem_md": "A program written in a high-level language is run using an interpreter.\n\nTick (✓) **one** box in each row to show whether each statement about how the interpreter executes the program is true or false.\n\n| Statement | True | False |\n|---|---|---|\n| The interpreter checks each statement for errors before it executes that statement. |   |   |\n| The interpreter translates the whole program into an executable file before it executes any statement. |   |   |\n| The statements inside a loop are interpreted again on every iteration of the loop. |   |   |\n| After the program has been run once, it can be run again without being interpreted again. |   |   |",
+     "solution_md": "| Statement | True | False |\n|---|---|---|\n| The interpreter checks each statement for errors before it executes that statement. | **✓** |   |\n| The interpreter translates the whole program into an executable file before it executes any statement. |   | **✓** |\n| The statements inside a loop are interpreted again on every iteration of the loop. | **✓** |   |\n| After the program has been run once, it can be run again without being interpreted again. |   | **✓** |\n\nRows 1 and 3 are true. Rows 2 and 4 are false. **[2]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **2 marks** for all four rows correct\n> \n> **1 mark** for two or three rows correct\n> \n> A row with both boxes ticked, or with no box ticked, is incorrect.\n\n> **[exam-tip]**\n> Row 3 is the row students get wrong most often. They picture an interpreter reading down the program once, from top to bottom. An interpreter keeps nothing it has translated, so each time a loop sends it back to a statement, it must check and execute that statement again.\n> \n> Row 2 describes a compiler, not an interpreter. A compiler produces an executable file. An interpreter executes the program without producing a translated version of it."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bt6fRGPmSwYnXWf5",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_CKzhmrQdPmg6dQ4R",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this infix expression in Reverse Polish Notation (RPN).",
+     "solution_md": "The bracketed subtraction is divided by r first, which gives `p q - r /` **[1]**\n\nThe multiplication has higher precedence than the addition, so s is multiplied by 3 and the addition is applied last, which gives `s 3 * +` **[1]**\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> **1 mark** for `p q - r /`\n> \n> **1 mark** for `s 3 * +`\n> \n> Complete answer:\n> \n> Accept the two operands of the addition in the other order, `s 3 * p q - r / +`, or the operands of the multiplication swapped, `3 s *`, because both operators give the same result either way\n> \n> Do not accept `p q - r / s + 3 *`, which adds s before multiplying by 3 and ignores operator precedence\n> \n> Do not accept `q p - r / s 3 * +`, which calculates q - p instead of p - q\n\n> **[exam-tip]**\n> The most common mistake is to copy the operators in the order they appear from left to right. That gives `p q - r / s + 3 *`, which works out ((p - q) / r + s) multiplied by 3. Multiplication and division are carried out before addition and subtraction, so add the hidden brackets first: ((p - q) / r) + (s * 3). Then convert one bracket at a time.\n> \n> The safest method is to keep the letters and numbers in the same order as they appear in the infix expression. Only the operators move. If your answer has q before p, the subtraction is the wrong way round."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2jSg9mH8y7FB2G8T",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_VQddbPj5n8fMyPqV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this infix expression in Reverse Polish Notation (RPN):\n\n`(7 – 2 + 8) / (9 – 5)`",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark `7 2 – 8 + `\n> \n> **One **mark `9 5 - / `\n> \n> **Complete answer **\n> \n> `7 2 – 8 + 9 5 - /`"
+    },
+    {
+     "id": "qstnprt_YmRwhcJ3tMmTb4VX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Evaluate this RPN expression:\n\n`a d + a b + c - *`\n\nwhen\n\n`a = 6, b = 3, c = 7 `and `d = 9`\n\nShow the changing contents of the stack as the RPN expression is evaluated.\n\n![Thirteen vertical columns of equal-sized rectangles, each containing four stacked smaller rectangles, evenly spaced in rows.](assets/001-thirteen-vertical-columns-of-equal-sized-rectang.png)",
+     "solution_md": "**One **mark per ring (**Max 4**)\n\n![Four vertical sequences of numbers are encircled. Shaded numbers include 6, 9, 15 in the first; 3, 6, 15 in the second; 7, 9, 2, 15 in the third; 30 in the fourth.](assets/002-four-vertical-sequences-of-numbers-are-encircled.png)"
+    },
+    {
+     "id": "qstnprt_Z2wBVdrDqYk5NSjP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this RPN expression in infix form:\n\n`b a c - + d b + * c /`",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per correct term (**Max 3**)\n> \n> `(a – c + b) `\n> \n> `* (d + b) `\n> \n> `/c`\n> \n> **Complete correct answer**\n> \n> ` (((a – c) + b) * (d + b))/c`\n> \n> **Or **\n> \n> `(a – c + b) * (d + b)/c`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JYqDS8FdTYJwwVRH",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_m75SDsjxZZqv2bWS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this Reverse Polish Notation (RPN) in infix form:\n\n`5 2 + 9 3 - / 3 *`",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per correct term (**Max 3**)\n> \n> `(5 + 2) `\n> \n> `/ (9 – 3)  `\n> \n> `* 3 `\n> \n> ***Complete correct answer ***\n> \n> `((5 + 2) / (9 - 3)) * 3`"
+    },
+    {
+     "id": "qstnprt_RQz2mFvDd4STw4rc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write this infix expression in RPN:\n\n`((7 + 3) - (2 * 8)) / 6`",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark `7 3 + `\n> \n> **One **mark `2 8  * - 6 / `\n> \n> **Complete answer **\n> \n> `7 3 + 2 8  * -  6  /`"
+    },
+    {
+     "id": "qstnprt_NhJsVC2zfqq9Tk6j",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/31",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Evaluate this RPN expression:\n\n`a b - c d + * e /`\n\nwhen\n\n`a = 17, b = 5, c = 7, d = 3 `and `e = 10`\n\nShow the changing contents of the stack as the RPN expression is evaluated.\n\n![Twelve columns of identical vertical grids, each divided into four equal rectangles, aligned in a row against a plain background.](assets/003-twelve-columns-of-identical-vertical-grids-each-.png)",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per ring (**Max 4**)\n> \n> ![Venn diagram with overlapping circles containing numbers 3, 5, 7, 10, 12, 17, and 120 inside rectangular boxes, showing intersections.](assets/004-venn-diagram-with-overlapping-circles-containing.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tHPBZMrC5Bmd5ccr",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_nxvvkNwj7mJySHWw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "Several syntax diagrams are shown.\n\n![Flowchart illustrating categorisation of odd, even, symbols, and letters with arrows indicating progression. Second diagram classifies numbers by odd and even.](assets/005-flowchart-illustrating-categorisation-of-odd-eve.png)\n\nState why each number is invalid for the given syntax diagrams.\n\n`21`\n\nReason ..................................................\n\n`123`\n\nReason  ..................................................",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1 21 - a number must begin with an odd digit, 2 is even\n> \n> MP2 123 - a number can only be one or two digits in length not three"
+    },
+    {
+     "id": "qstnprt_4WSMjYKzPVhbpF7N",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/32",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the Backus‑Naur Form (BNF) for the given syntax diagrams\n\n`<symbol> ::=`  ....................................\n\n`<number> ::= `....................................",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 2**)\n> \n> MP1` <symbol> ::=` `% | £ | # | @ | \\$ `\n> \n> MP2 `<number> ::= <odd> |<odd> <even> |<odd><odd>`"
+    },
+    {
+     "id": "qstnprt_b5fTCGDmsVDQHYcK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/329618",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "A new syntax rule, **code**, is required. It must begin with a letter, followed by one or two numbers, and end with a symbol.\n\n(i) Draw a syntax diagram for **code**.\n\n(3)\n\n(ii) Write the BNF for **code**.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **One **mark per mark point (**Max 3**)\n> \n> MP1 letter, number and symbol all included in correct order: letter first, followed by number, finishing with symbol\n> \n> MP2 provision for one or two numbers including relevant connectors\n> \n> MP3 all other connections and label correct and no additional data\n> \n> Example answer\n> \n> ![Flowchart showing the sequence: code enters 'letter' box, flows to two 'number' boxes, loops back, then moves to 'symbol' box, exiting with an arrow.](assets/006-flowchart-showing-the-sequence-code-enters-lette.png)\n> \n> (ii) **One **mark per correct line (**Max 2**)\n> \n> `<code> ::= <letter><number><symbol> |`\n> `<letter><number><number><symbol>`\n> \n> OR\n> \n> `<code> ::= <letter><number><number><symbol> |`\n> `<letter><number><symbol>`\n> \n> Alternative Answer\n> \n> **One **mark per correct line (**Max 2**)\n> \n> `<digits> ::= <number> | <number><number>`\n> \n> `<code> ::= <letter><digits><symbol>`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dqDpX2mCBkvdzzYw",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_ckVQSMfgy26SwZf9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "Several syntax diagrams are shown.\n\n![Flowchart with categories: letter (A, E, I, O, U, Y), symbol (#, $, ?, &, @), operator (+, -, *, /), digit (0-9); label and equation processes.](assets/007-flowchart-with-categories-letter-a-e-i-o-u-y-sym.png)\n\nComplete the Backus-Naur Form (BNF) for the given syntax diagrams.\n\n`<operator> ::=` ..................................................\n\n`<label> ::= `........................................................\n\n`<equation> ::=` ..................................................`equation`",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark per mark point (**Max 4**)\n> \n> - `<operator> ::=   + | – | * | /`\n> - `<label> ::= <letter><digit> | <letter><digit><digit>`\n> - `<equation> ::=`  `<label> =`\n> - `<label><operator><label>`"
+    },
+    {
+     "id": "qstnprt_Rt8v47xbRW4XKXx7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/31",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gWsF6g49PnYds2Bw"
+     ],
+     "part_tier": null,
+     "problem_md": "A new syntax rule, **password**, is required. It must begin with a letter or a symbol, followed by a digit and end with one or two symbols.\n\n(i) Draw a syntax diagram for **password**.\n\n(3)\n\n(ii) Write the BNF for **password**.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** One **mark per mark point (**Max 3**)\n> \n> MP1 begin with either a letter or a symbol\n> \n> MP2 end with either one or two symbols\n> \n> MP3 digit and all other connections and label correct.\n> \n> ![Flowchart depicts password validation: start with 'letter,' followed by 'digit,' then two 'symbol' checks, with loops back for 'letter' and 'symbol.'](assets/008-flowchart-depicts-password-validation-start-with.png)\n> \n> (ii) **One **mark per mark point (**Max 2**)\n> \n> - `<password> ::= <letter><digit><symbol>|`\n> - `<letter><digit><symbol><symbol>|<symbol><digit><symbol>|`\n> `<symbol><digit><symbol><symbol>`\n> \n> `<password> ::= <letter><digit><symbol>|`\n> `<letter><digit><symbol><symbol>|<symbol><digit><symbol>|`\n> `<symbol><digit><symbol><symbol>`\n> \n> Alternative Answer\n> \n> **One **mark per mark point (**Max 2**) .\n> \n> - All three lines correct\n> - Any two lines correct\n> \n> `<first> ::= <letter> | <symbol>`\n> \n> `<last> ::= <symbol> | <symbol><symbol>`\n> \n> `<password> ::= <first><digit><last>`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TqXx234PydnvFgG9",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_mbnjdRggxNMNT3CD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how an expression stored in RPN can be evaluated.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 3) **\n> \n> - MP1    The (RPN) expression is read from left to right, one item at a time\n> - MP2    Each element is checked to see if it as operator or a value\n> - MP3    Values are pushed onto a stack until an operator is found\n> - MP4    The operator is applied to the last two values on the stack and the result is pushed back onto the stack\n> - MP5    This repeats until a single value remains, which is the solution."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cBmtb6HMKNKyHR7W",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_q2ykzzWsyVqgjx7Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/31",
+      "question_number": 9,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_52qhP4gsvByRBtJB"
+     ],
+     "part_tier": null,
+     "problem_md": "Write the infix expression for this Reverse Polish Notation (RPN) expression:\n\n` 5  2 – 5  4  +  *  9  /`",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point **(Max 2) **\n> •   (5 – 2) \n> • * *  *(5 + 4) / 9\n> \n> Final correct expression \n> (5 – 2)  * (5 + 4) / 9"
+    }
+   ]
+  }
+ ]
+}

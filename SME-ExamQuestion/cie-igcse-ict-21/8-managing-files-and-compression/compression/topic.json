@@ -1,0 +1,120 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:56:36Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "8-managing-files-and-compression",
+  "name": "8. Managing Files & Compression"
+ },
+ "topic": {
+  "id": "top_8D7x8sHN3Ky2zgDs",
+  "slug": "compression",
+  "name": "Compression",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "compression",
+   "name": "Compression",
+   "revision_note_id": "rn_Wzdm87xtCcjcpfCD"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_pCV6snc2nYGFvyfZ",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/8-managing-files-and-compression/compression/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 2,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_H8SpXwWWYzmDdtBm",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_Zk98nqvQ8VpCvxDD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqK32pYGgJsQRtbZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**State **two ways that the file size of an image can be reduced",
+     "solution_md": "Two ways that the file size of an image can be reduced are:\n\n- Reducing the resolution **[1 mark]**\n- Lowering the colour depth **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zmBMSMCPDYDvpjqX",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_49ph5MSPBMy4vZtf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqK32pYGgJsQRtbZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**State **two reasons why file compression may be needed.",
+     "solution_md": "Two reasons why file compression may be needed are:\n\n- Maximise the amount of data you can store on a digital device **[1 mark]**\n- Minimise the transfer time of data being uploaded, downloaded or streamed **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:43:55Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/biology/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/biology",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "2-organisation-of-the-organism",
+  "name": "2. Organisation of the Organism"
+ },
+ "topic": {
+  "id": "top_cvnhtVxpXT9VrxSr",
+  "slug": "cell-structure-and-size-of-specimens",
+  "name": "Cell Structure & Size of Specimens",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "organisation-of-cells",
+   "name": "Organisation of Cells",
+   "revision_note_id": "rn_JkMsmcHb5t99zJbv"
+  },
+  {
+   "slug": "cell-structure",
+   "name": "Cell Structure",
+   "revision_note_id": "rn_mHt2wT85y36hyrWm"
+  },
+  {
+   "slug": "magnification-formula",
+   "name": "Magnification Formula",
+   "revision_note_id": "rn_QFDFJ9bqMGFqfRbK"
+  },
+  {
+   "slug": "converting-between-units",
+   "name": "Converting Between Units",
+   "revision_note_id": "rn_bj5T7694jNnZm3Km"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_b8c7kqGZmV92zbQy",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/biology/topic-questions/2-organisation-of-the-organism/cell-structure-and-size-of-specimens/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/06/42434-screenshot-2026-06-03-105956.png": "001-diagram-comparing-labelled-animal-cell-left-and-.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/36615-screenshot-2026-06-03-111140.png": "002-flow-chart-showing-biological-organisation-from-.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/27449-screenshot-2026-06-03-111336.png": "003-flow-chart-showing-levels-of-biological-organisa.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/46162-screenshot-2026-06-02-185822.png": "004-line-drawing-of-a-flying-insect-with-wings-anten.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/42919-screenshot-2026-06-02-144039.png": "005-line-drawing-of-a-flying-insect-with-wings-anten.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/51387-screenshot-2026-06-02-143822.png": "006-diagram-of-an-irregular-animal-cell-with-labelle.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/40056-screenshot-2026-06-02-143613.png": "007-diagram-of-a-labelled-bacterium-showing-outer-fl.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_p87gbWVND9vFbypX",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_yCWFBn3bWnWXHX22",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/03",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rrbnjSkPB3h5YGQP"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows an animal cell and a plant cell.\n\n![Diagram comparing labelled animal cell (left) and plant cell (right), showing nucleus, cytoplasm, cell membrane, cell wall, vacuole and other organelles](assets/001-diagram-comparing-labelled-animal-cell-left-and-.png)\n\n**Fig 1.1**\n\nTable 1.1 shows the names and functions of some of the structures of the cells labelled in Fig. 1.1.\n\n| letter in Fig. 1.1 | name of structure | function |\n|---|---|---|\n| **A** | ...................... | controls the movement of substances into and out of cells |\n| **D** | mitochondria | ...................... |\n| .......... | vacuole | ...................... |",
+     "solution_md": "| letter in Fig. 1.1 | name of structure | function |\n|---|---|---|\n| **A** | (cell) membrane | controls the movement of substances into and out of cells |\n| **D** | mitochondria | (site of aerobic) respiration |\n| G | vacuole | support |\n\n> **[mark-scheme]**\n> - A: (cell) membrane **[1 mark]**\n> - D: (site of aerobic) respiration **[1 mark]**\n> - G **[1 mark]**\n> - Vacuole: support **[1 mark]**\n> \n> Accept storage\n\n> **[exam-tip]**\n> Learn each cell structure by pairing it with its single most important function — mitochondria with respiration, vacuole with storage/support — so you can recall them quickly."
+    },
+    {
+     "id": "qstnprt_6FY4RPBDGWpgGvgT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/03",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rMKjZv3QFJhChR46"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.2 shows some structures organised in order of increasing size, starting with the smallest size.\n\n![Flow chart showing biological organisation from a cell at the top through three blank stages to an organism at the bottom](assets/002-flow-chart-showing-biological-organisation-from-.png)\n\n**Fig. 1.2**\n\nUse the words from the list to complete Fig. 1.2.\n\n**organ         organ system         tissue**",
+     "solution_md": "![Flow chart showing levels of biological organisation: cell to tissue to organ to organ system to organism, linked by downward arrows](assets/003-flow-chart-showing-levels-of-biological-organisa.png)\n\n> **[mark-scheme]**\n> - One sequential pair correct **[1 mark]**\n> - All three in the correct order **[2 marks]**\n\n> **[exam-tip]**\n> The order of biological organisation runs smallest to largest: cell, tissue, organ, organ system, organism — link each level to a concrete example (a cell, the stomach lining tissue, the stomach organ, the digestive system) to help it stick."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cTHbfCngSQK3y7gX",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yFTtqGVrdHQypk7t",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/02",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VTzh9khD4dMpywHJ",
+      "spcpt_gWxRRWtF34Gg3DH6"
+     ],
+     "part_tier": null,
+     "problem_md": "The actual length of a phorid fly is 5500 μm long.\n\nWhat is the magnification of this diagram of a phorid fly?\n\n![Line drawing of a flying insect with wings, antennae and six legs, with a horizontal measurement label underneath showing its length as 35 mm](assets/004-line-drawing-of-a-flying-insect-with-wings-anten.png)",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Magnification = image size ÷ actual size\n- Convert units so both are in the same unit: 35 mm = 35 000 μm\n- Magnification = 35 000 ÷ 5500 = 6.4",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.006"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "0.16"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "6.4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "157"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_H58N9XdRhNWddGN6",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yGQJk8q6xDzX5Dwc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VTzh9khD4dMpywHJ"
+     ],
+     "part_tier": null,
+     "problem_md": "The actual length of a phorid fly is 5.5 mm.\n\nWhat is the magnification of this diagram of a phorid fly?\n\n![Line drawing of a flying insect with wings, antennae and legs, labelled underneath with a body length measurement of 35 millimetres](assets/005-line-drawing-of-a-flying-insect-with-wings-anten.png)",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Magnification = image size ÷ actual size\n- Magnification = 35 ÷ 5.5 = 6.4",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.16"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "0.7"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "6.4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "192.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7ShxPZ3XrQKXJmZt",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_FSNnm5JsrZpV5g2G",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rMKjZv3QFJhChR46"
+     ],
+     "part_tier": null,
+     "problem_md": "What is a type of tissue in a living organism?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Blood is a connective tissue, a group of similar cells working together to perform a shared function\n\n**B** is incorrect because the heart is an organ, not a tissue\n\n**C** is incorrect because plasma is the liquid component of blood, not a tissue in its own right\n\n**D** is incorrect because a plasmid is a small circular DNA molecule found in bacteria, not a tissue",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "blood"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "heart"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "plasma"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "plasmid"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WTytzB6h6CHR7fpW",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_SkzqhkTmQXkp2jHh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rrbnjSkPB3h5YGQP"
+     ],
+     "part_tier": null,
+     "problem_md": "Which label shows the site of aerobic respiration in this diagram of an animal cell?\n\n![Diagram of an irregular animal cell with labelled arrows A to D pointing to cell membrane, cytoplasm, nucleus and several mitochondria inside](assets/006-diagram-of-an-irregular-animal-cell-with-labelle.png)",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The mitochondria are the site of aerobic respiration, where most energy is released for the cell",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qKG8zBbBTtbznh5S",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hWDZnBXsyvd4tqVd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/01",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sjR3TQ77JH6BrvHw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which label represents a plasmid in this diagram of a bacterium?\n\n![Diagram of a labelled bacterium showing outer flagella, cell wall and membrane, internal cytoplasm, and a central loop of genetic material](assets/007-diagram-of-a-labelled-bacterium-showing-outer-fl.png)",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The plasmid is the small circular DNA molecule found in bacteria, separate from the main chromosomal DNA",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

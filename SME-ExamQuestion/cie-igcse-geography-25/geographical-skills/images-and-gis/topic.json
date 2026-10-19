@@ -1,0 +1,296 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:54:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/geography/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "geography",
+  "exam_code": "0460 & 0976",
+  "sme_course_id": "crs_XVPzMJSspgjtK63w",
+  "syllabus_version": "2025",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) IGCSE Geography"
+ },
+ "section": {
+  "slug": "geographical-skills",
+  "name": "Geographical Skills"
+ },
+ "topic": {
+  "id": "top_wFftVzwhVkpXZc9F",
+  "slug": "images-and-gis",
+  "name": "Images & GIS",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "image-skills",
+   "name": "Image skills",
+   "revision_note_id": "rn_2YbmyGmc4QckkWKF"
+  },
+  {
+   "slug": "geographical-information-systems",
+   "name": "Geographic Information Systems (GIS)",
+   "revision_note_id": "rn_TZsQ68qxnB8kSYk4"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_KBt9kRSyrmGT4r46",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/igcse/geography/cie/25/topic-questions/geographical-skills/images-and-gis/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/09/65048_httpscdn-savemyexams-comuploads2025096452-coastal-erosion.png": "001-rocky-coastal-landscape-with-small-sandy-beaches.png",
+   "https://cdn.savemyexams.com/uploads/2025/08/1591_httpscdn-savemyexams-comuploads20250816258-fig-4-2-nov-2023.png": "002-tall-trees-with-sparse-foliage-stand-over-a-gras.png",
+   "https://cdn.savemyexams.com/uploads/2025/08/15176_httpscdn-savemyexams-comuploads20250819729-figs-6-2-3-and-4.png": "003-power-station-grazing-cattle-and-deforestation.png",
+   "https://cdn.savemyexams.com/uploads/2025/08/28844_httpscdn-savemyexams-comuploads20250838443-fig-4-1-nov-2019.png": "004-a-small-river-meanders-through-a-grassy-landscap.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_PBVqQfkPFHbSgmB7",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wXs62dvmPMGWtZGb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Qp4ZZYgkMm7wMVQM"
+     ],
+     "part_tier": null,
+     "problem_md": "Study the photograph of a coastal landscape.\n\n![Rocky coastal landscape with small sandy beaches, sea, and grassy cliffs under a cloudy sky. A kayak is visible on the left shore.](assets/001-rocky-coastal-landscape-with-small-sandy-beaches.png)\n\nIdentify the main process and its features that helped shape the coastline.",
+     "solution_md": "> **[mark-scheme]**\n> The cliff shows signs of erosion from waves** [1]**, creating a headland [**1]**, with possibly three small bays **[1]** and a wave-cut platform **[1]**.\n> \n> **Mark allocation**\n> \n> - 1 mark **[1]** for identification of erosion as the main physical process.\n> - 3 @ 1 mark **[1]** for identifying features.\n> \n> **Alternative content**\n> \n> - Small amounts of sand in bays, providing the answer is linked to erosion and not deposition (attrition)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_WXkgRZbgHmXmkyx6",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_SdZfmCJxFnm8cQvh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3yHJHgBshQXtmpxn"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how GIS can help decision-makers reduce the impacts of flooding.",
+     "solution_md": "> **[mark-scheme]**\n> GIS can show which areas are at greatest risk [**1]**, so evacuation plans can be made [**1]**. It can also help to plan where to build defences [**1]** or prevent housing from being developed in dangerous areas. [**1] **This reduces loss of life and property [**1]**.\n> \n> **Mark allocation**\n> \n> - 1 mark **[1]** for each valid point up to a maximum of 5 marks.\n\n> **[exam-tip]**\n> Think 'information → decision → outcome'."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SKPvPsNF3PXs4nVb",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fPSqSN7hHdGv33HV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "why",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sgwhfGmVVSp7rHpG"
+     ],
+     "part_tier": null,
+     "problem_md": "A flood risk map shows red zones near rivers and green zones on higher land. Which zone is safer for a hospital and why?",
+     "solution_md": "> **[mark-scheme]**\n> The green zone is safer, as it avoids flood damage. **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Jzr5k87N65Qfs3Qr",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_ZjvrZGshtZhCK3FW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0460/23",
+      "question_number": 4,
+      "question_part": "b ii"
+     },
+     "spec_point_ids": [
+      "spcpt_X6zdFYFh7WtmqXrB"
+     ],
+     "part_tier": null,
+     "problem_md": "Study Fig. 4.2, which shows an area of Brazil that has been partially deforested.\n\n![Tall trees with sparse foliage stand over a grassy field with grazing cattle, set against a hazy sky, depicting deforestation impacts.](assets/002-tall-trees-with-sparse-foliage-stand-over-a-gras.png)\n\n*Fig. 4.2 *\n\nDescribe the vegetation shown in Fig. 4.2.",
+     "solution_md": "The image shows tall, dispersed palm trees** **with straight, thin, branchless trunks. **[1]** Some of the trees appear to be dead and burnt. **[1] **The grass appears dry and yellow** [1],**** **with scattered ferns and shrubs throughout. **[1] **\n\n> **[mark-scheme]**\n> **Mark allocation**\n> \n> - One mark **[1]** for each valid observation\n> \n> **Alternative content**\n> \n> - Coconut trees **[1 mark].**\n> - Isolated/separated/scattered/sparse/spread **[1 mark].**\n> - Leaves/branches at top **[1 mark].**\n> - Some trees don’t have leaves/are stripped of leaves/have dying leaves or palms **[1 mark].**\n> - Some trunks are cut off/stumps/lower parts remain **[1 mark].**\n> - Grass brown/dried (grass) **[1 mark].**\n> - Bushes **[1 mark].**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5RfWyHBMGCKdkNk4",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Mw48xgQ4WksHsVnt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0460/23",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_X6zdFYFh7WtmqXrB"
+     ],
+     "part_tier": null,
+     "problem_md": "Study Fig. 4.2, which shows an area of Brazil that has been partially deforested.\n\n![Tall trees with sparse foliage stand over a grassy field with grazing cattle, set against a hazy sky, depicting deforestation impacts.](assets/002-tall-trees-with-sparse-foliage-stand-over-a-gras.png)\n\n*Fig. 4.2 *\n\nIdentify the type of farming shown in Fig. 4.2.",
+     "solution_md": "> **[mark-scheme]**\n> Any **one** from:\n> \n> - Pastoral **[1 mark].**\n> - Livestock **[1 mark].**\n> - Animal **[1 mark].**\n> - Cattle **[1 mark].**\n> - Beef **[1 mark].**\n> - Extensive **[1 mark].**\n> - Commercial **[1 mark].**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_D3f6D7y9HJptrzcd",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Qt5J6mM68jNww23f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0460/13",
+      "question_number": 6,
+      "question_part": "b i"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Study Figs. 6.2, 6.3 and 6.4, which are photographs of economic activities that increase greenhouse gases in the atmosphere.\n\n![Power station, grazing cattle and deforestation](assets/003-power-station-grazing-cattle-and-deforestation.png)\n\n*Figs. 6.2, 3 and 4*\n\nExplain how each of the economic activities shown in Figs. 6.2, 6.3 and 6.4 increases greenhouse gases in the atmosphere.",
+     "solution_md": "> **[mark-scheme]**\n> Fig. 6.2 is a power station that gives off/emits/produces carbon dioxide.\n> \n> Fig. 6.3 shows grazing cattle that give off/emit/produce methane.\n> \n> Fig. 6.4 shows deforestation that results in less carbon dioxide (CO₂) being absorbed/removed or converted to oxygen **OR**\n> \n> Fig. 6.4 shows vehicles that give off/emit/produce carbon dioxide (CO₂)/carbon monoxide (CO)/sulphur dioxide/nitrogen/nitrous oxides."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7pGDwcKsTGVYhTmj",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zbvTnjxbdR3xrNGp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0460/13",
+      "question_number": 4,
+      "question_part": "a i"
+     },
+     "spec_point_ids": [
+      "spcpt_X6zdFYFh7WtmqXrB"
+     ],
+     "part_tier": null,
+     "problem_md": "![A small river meanders through a grassy landscape with trees in the background, under an overcast sky. Eroded banks and patches of reeds are visible.](assets/004-a-small-river-meanders-through-a-grassy-landscap.png)\n\n*Fig. 4.1*\n\nWhat river feature is shown in Fig. 4.1?",
+     "solution_md": "> **[mark-scheme]**\n> **B** is the correct answer.** [1 mark]**\n> \n> The other answers are incorrect because:\n> \n> **A: **The confluence is where two river channels merge.\n> \n> **C: **An oxbow is a meander loop that has been cut off, leaving behind a small lake.\n> \n> **D:** The source is where a river begins.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Confluence"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Meander"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Oxbow lake"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Source"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

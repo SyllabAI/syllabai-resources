@@ -1,0 +1,337 @@
+{
+  "task": "T-C11",
+  "stage": "s16-batch-5-review",
+  "batch": 5,
+  "generated": "2026-09-22",
+  "authorization": "scripts/c11_s16_authorization.yaml (§16 authorized 2026-09-12; batch 5 commissioned by the operator's 'run batch 5' directive, session 55 — Section 2 Inorganic Chemistry FIRST slice; under the session-55 cross-slice boundary ruling scripts/c11_batch5_boundary_ruling.yaml)",
+  "pass1": {
+    "extraction_pass": "c11-s16-batch-5",
+    "decision_record": "scripts/c11_batch5_decisions.yaml",
+    "nodes": 16,
+    "authored_edges": 18,
+    "held": 14,
+    "command_kinds": 14
+  },
+  "pass2": {
+    "reviewer": "GLM (Super Z agent, z.ai)",
+    "pass": "c11-batch5-review-2",
+    "verdicts_file": "scripts/c11_batch5_review_pass2.yaml",
+    "nodes_confirm": 16,
+    "edges_confirm": 18,
+    "edges_hold": 0,
+    "edges_reject": 0
+  },
+  "agreement": {
+    "metric": "RAW AGREEMENT (pass-2 vs pass-1 emission)",
+    "explicitly_not": "Cohen's kappa (single human rater; see architecture §12)",
+    "nodes": 1.0,
+    "edges_asserted": {
+      "confirmed": 18,
+      "total_asserted": 18,
+      "rate": 1.0
+    },
+    "edges_uncertain_concordant_nonassertion": 0,
+    "edges_open_operator_decision": [],
+    "note": "one pass-2 finding (FP-B5-5, a mistargeted dependency surface) was re-authored BEFORE the gate — the record carries 18 authored edges at this gate; zero demotions at the re-authored state and zero RR quarantines: the pass-1 authoring sent 14 candidates to held BEFORE emission and resolved every remaining doubt on explicit evidence"
+  },
+  "reviewed_nodes": [
+    {
+      "code": "4CH1-CON-G1-FAMILY-EVIDENCE",
+      "verdict": "CONFIRM",
+      "note": "The family-evidence node owns the 2.1 relation demand exactly (similarities AS evidence); the one-outer-electron explanation is correctly held OUT of the node's demanded substance (B5-H-01) and the e-config reasoning is owned in-slice by the 2.4C node."
+    },
+    {
+      "code": "4CH1-CON-G1-TREND",
+      "verdict": "CONFIRM",
+      "note": "The observation-table surface (Li/Na/K graded vigour + tarnishing) is the 2.2 demand; the GROUP1_MS Q1b/Q3a observation accept-lists mine the same surface — no double-mint with the family node."
+    },
+    {
+      "code": "4CH1-CON-G1-PREDICTION",
+      "verdict": "CONFIRM",
+      "note": "The dedicated Predicting-properties section is the T-C10 mapping's own quoted heading — the cleanest possible mapping anchor; the \"Following these trends\" line is the dependency evidence."
+    },
+    {
+      "code": "4CH1-CON-G1-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "SEPARATE from the 2.8C sibling node (B5-ID-01 for the operator): electron LOSS vs electron GAIN, opposite trend directions, distinct SPs — the split is defensible under the minting rule (distinct taught substance); a MERGE would corrupt the opposite-direction structure the spec itself demands. Attack result: keep."
+    },
+    {
+      "code": "4CH1-CON-G7-PROPERTIES",
+      "verdict": "CONFIRM",
+      "note": "The property table + trends are the 2.5 recall demand; the diatomic/covalent-bond content is taught inline by the note (B5-H-02 hold — no boundary edge into the S1 covalent owner; the note defeats use-without-reteaching by its own parenthetical teaching)."
+    },
+    {
+      "code": "4CH1-CON-G7-PREDICTION",
+      "verdict": "CONFIRM",
+      "note": "Post-re-authoring (FP-B5-5) the node's two dependency edges cite the correct surfaces (physical trends -> 2.5 node; reactivity trend -> 2.8C node); the valency/ionic reasoning re-taught inline is held (B5-H-03)."
+    },
+    {
+      "code": "4CH1-CON-G7-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "The displacement rule + the Cl>Br>I set + the product-colour identifications; the GROUP7_MS Q1 Reject column (halogen/halide conflation) mines exactly this surface — the misconception node is its assessment shadow."
+    },
+    {
+      "code": "4CH1-CON-G7-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same B5-ID-01 sibling question as the 2.4C node; the note states the electronic-configuration dependency VERBATIM (\"We can use electronic configuration to explain the trends\") — the strongest boundary-edge anchor in the batch."
+    },
+    {
+      "code": "4CH1-CON-AIR-COMPOSITION",
+      "verdict": "CONFIRM",
+      "note": "The four-gas composition is the 2.9 recall demand; the noble-gases clause is composition furniture (OD-2, B5-H-14 — the third boundary edge was never audited and is correctly not authored)."
+    },
+    {
+      "code": "4CH1-CON-O2-PERCENT-DETERMINATION",
+      "verdict": "CONFIRM",
+      "note": "Both routes (phosphorus bell jar / iron wool burette) + the percentage calculation; 2.14 correctly carries NO concept attachment (PR-05 owns it — the 1.13/1.60C/3.8 precedent) with the practical->concept edge authored instead."
+    },
+    {
+      "code": "4CH1-CON-COMBUSTION-O2",
+      "verdict": "CONFIRM",
+      "note": "One SP-family node for the three named combustions (the note's single table — the term-pair granularity, B5-ID-04); the symbol equations are taught inline (no boundary edge into the pilot equation nodes — the ruling's disposition)."
+    },
+    {
+      "code": "4CH1-CON-CO2-FROM-CARBONATES",
+      "verdict": "CONFIRM",
+      "note": "The decomposition family + the named CuCO3 example + the limewater test (taught inline); the reactivity-series clause is a future-boundary surface (B5-H-10 — the S2-d owner does not exist and is never pre-minted)."
+    },
+    {
+      "code": "4CH1-CON-CO2-GREENHOUSE",
+      "verdict": "CONFIRM",
+      "note": "The 2.13 recall demand exactly; the CO2-source listing association with the 2.12 family is held as thin (B5-H-07, FC-3 + OD-2) — the pilot's zero-RELATED_TO default applied."
+    },
+    {
+      "code": "4CH1-MIS-G1-SHELL-EXPLANATION",
+      "verdict": "CONFIRM",
+      "note": "The IGNORE/award-restriction class is genuine wrong-answer documentation (answers that score nothing are the pattern the cap exists for) — the two independent MS occurrences (Q1d + Q3d) plus the nucleus/protons award rule make this the strongest batch-5 misconception evidence."
+    },
+    {
+      "code": "4CH1-MIS-HALOGEN-HALIDE",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The Q1bii Reject column rejects BOTH conflation directions (same reactivity / different reactivity) — double-documented; the pdftotext column interleaving is handled by antonym-pairing attribution recorded in the node's derivation_notes (the batch-4 RRE convention)."
+    },
+    {
+      "code": "4CH1-MIS-CUO-COLOUR",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The Q1c Reject column (\"REJECT all other colours\" + \"IGNORE brown\" against the expected \"black\") is clean documentation; the pattern is narrow (one observation answer) but the evidence is exact — the operator may rule it exam-trivia; the mint is defensible because the wrong colour is the CuCO3 decomposition's most assessable surface."
+    }
+  ],
+  "reviewed_edges": [
+    {
+      "edge": "4CH1-CON-G1-TREND REQUIRES_PREREQUISITE 4CH1-CON-G1-FAMILY-EVIDENCE",
+      "verdict": "CONFIRM",
+      "note": "The trend is defined over the family reaction comparisons (\"the differences between the reactions ... provide evidence of trends\") — definitional containment, the right class."
+    },
+    {
+      "edge": "4CH1-CON-G1-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G1-TREND",
+      "verdict": "CONFIRM",
+      "note": "\"Following these trends\" — the prediction operates on the taught trends as given; used-without-reteaching is verbatim."
+    },
+    {
+      "edge": "4CH1-CON-G1-TREND EXPLAINED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM",
+      "note": "Single-source causal chain in ONE note ending \"So, the alkali metals get more reactive as you descend the group\" — the batch-4 RATE-FACTORS EXPLAINED_BY COLLISION-THEORY shape; direction correct (trend is the explanandum)."
+    },
+    {
+      "edge": "4CH1-CON-G1-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target (batch 2 owner); the note reasons in shell terms as given (shell diagrams APPLY the configurations, they do not re-teach them — the attack on use-without-reteaching fails on the diagram evidence)."
+    },
+    {
+      "edge": "4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES",
+      "verdict": "CONFIRM",
+      "note": "Re-scoped at pass-2 (FP-B5-5) to the physical-trend surface — the MP/BP + state trends the prediction sections extend; the evidence now matches the owned substance."
+    },
+    {
+      "edge": "4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM",
+      "note": "The pass-2 re-authoring companion edge: the reactivity-decrease surface moved to its correct owner; direction correct."
+    },
+    {
+      "edge": "4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM",
+      "note": "Definitional containment (\"a MORE reactive halogen displaces a LESS reactive halogen\") — the reactivity order is the displacement rule's operand; the batch-4 BOND-ENERGY-CALC shape."
+    },
+    {
+      "edge": "4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES",
+      "verdict": "CONFIRM",
+      "note": "Product identification BY the taught colour-in-solution column — a genuine used-without-reteaching dependency (the GROUP7_MS Q3 observation accept/reject lists confirm the assessable surface)."
+    },
+    {
+      "edge": "4CH1-CON-G7-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target; the verbatim dependency statement (\"We can use electronic configuration to explain the trends\") is the strongest possible anchor."
+    },
+    {
+      "edge": "4CH1-CON-AIR-COMPOSITION EXPLAINED_BY 4CH1-CON-O2-PERCENT-DETERMINATION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Relation-class flag for the operator: the derivation chain (method -> calculation -> 19.7% -> \"approximately 20%\") is fully in ONE source, which satisfies the EXPLAINED_BY contract; the alternative reading (the composition as recall fact, independent of the method) would make this a SUPPORTING association — the grounding direction is defensible and evidenced; operator may prune to RELATED_TO-free abstention if they read the demands as independent."
+    },
+    {
+      "edge": "4CH1-CON-COMBUSTION-O2 REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM",
+      "note": "Sanctioned boundary target (batch 4 owner — the SAME owner the session-52 ruling sanctioned for S3); the classification is applied as given (\"always be exothermic reactions\") without re-teaching."
+    },
+    {
+      "edge": "4CH1-PR-05 REQUIRES_PREREQUISITE 4CH1-CON-O2-PERCENT-DETERMINATION",
+      "verdict": "CONFIRM",
+      "note": "Practical->conceptual (the pilot test #5 requirement, the PR-09->CON-CALORIMETRY shape); the practical runs the determination procedure its concept owns."
+    },
+    {
+      "edge": "4CH1-MIS-G1-SHELL-EXPLANATION WRONG_ANSWER_PATTERN 4CH1-CON-G1-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM",
+      "note": "The WAP target is the concept whose wrong explanations the MS caps — exactly the pattern_class contract."
+    },
+    {
+      "edge": "4CH1-MIS-G1-SHELL-EXPLANATION REMEDIATED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG",
+      "verdict": "CONFIRM",
+      "note": "Remediation target = WAP target (the B1-E-25 pattern); the corrective content IS the taught distance+attraction mechanism the MS award rules reward."
+    },
+    {
+      "edge": "4CH1-MIS-HALOGEN-HALIDE WRONG_ANSWER_PATTERN 4CH1-CON-G7-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "Both conflation directions rejected — the pattern is documented from two independent Reject entries."
+    },
+    {
+      "edge": "4CH1-MIS-HALOGEN-HALIDE REMEDIATED_BY 4CH1-CON-G7-DISPLACEMENT",
+      "verdict": "CONFIRM",
+      "note": "The corrective content IS the displacement rule; the MS expected answers (\"cannot displace itself\" / \"cannot displace a more reactive halogen\") are the same statement in assessment form."
+    },
+    {
+      "edge": "4CH1-MIS-CUO-COLOUR WRONG_ANSWER_PATTERN 4CH1-CON-CO2-FROM-CARBONATES",
+      "verdict": "CONFIRM",
+      "note": "The WAP target is the decomposition family whose named example's colour is the assessable surface."
+    },
+    {
+      "edge": "4CH1-MIS-CUO-COLOUR REMEDIATED_BY 4CH1-CON-CO2-FROM-CARBONATES",
+      "verdict": "CONFIRM",
+      "note": "The corrective content IS the taught colour-change statement (\"slowly darkens as black copper(II) oxide is produced\")."
+    }
+  ],
+  "held_review": [
+    {
+      "id": "B5-H-01",
+      "verdict": "AGREE_HOLD",
+      "note": "The 2.1 one-outer-electron sentence is explanatory context beyond the water-reaction evidence demand; the sanctioned 2.4C boundary edge carries the e-config dependency in-slice."
+    },
+    {
+      "id": "B5-H-02",
+      "verdict": "AGREE_HOLD",
+      "note": "The note's own parenthetical teaching (\"pairs of atoms sharing electrons\") defeats use-without-reteaching — the abstention is the honest output."
+    },
+    {
+      "id": "B5-H-03",
+      "verdict": "AGREE_HOLD",
+      "note": "The valency/ionic reasoning is taught inline in the prediction section itself; no dependency on the S1 ionic owners."
+    },
+    {
+      "id": "B5-H-04",
+      "verdict": "AGREE_HOLD",
+      "note": "The Q5f ORA accepts are phrasing-direction alternatives for the CORRECT answers, not swap documentation — the session-53 Step-3 rule holds."
+    },
+    {
+      "id": "B5-H-05",
+      "verdict": "AGREE_HOLD",
+      "note": "The over-ticking deduction rule is a list-principle marking convention (the HELD-12 exam-technique class), not a conceptual wrong answer."
+    },
+    {
+      "id": "B5-H-06",
+      "verdict": "AGREE_HOLD",
+      "note": "The colour-swap rejects are per-question observation answers with column-scrambled attribution — the colour substance is already in CON-G7-PROPERTIES; revisit with clean evidence."
+    },
+    {
+      "id": "B5-H-07",
+      "verdict": "AGREE_HOLD",
+      "note": "True-and-thin (FC-3) — the source listing is note context; the zero-RELATED_TO default applied."
+    },
+    {
+      "id": "B5-H-08",
+      "verdict": "AGREE_HOLD",
+      "note": "OD-2 (oxygen-addition usage) + the G07 misconception-class restriction on the MS redox surface — the link is real but the admissible evidence base is empty; correctly recorded for the operator, not authored."
+    },
+    {
+      "id": "B5-H-09",
+      "verdict": "AGREE_HOLD",
+      "note": "The limewater test is taught inline and the tests family is a future S2-g batch — no owner exists to receive an edge."
+    },
+    {
+      "id": "B5-H-10",
+      "verdict": "AGREE_HOLD",
+      "note": "The reactivity-series owner is a future S2-d mint — never pre-minted (the ruling's future_boundary_notes)."
+    },
+    {
+      "id": "B5-H-11",
+      "verdict": "AGREE_HOLD",
+      "note": "Minting \"oxidation as oxygen addition\" would collide with the S1 CON-REDOX-ELECTRONS identity (the ruling's non_mint_list) — the OD-2 framing is recorded in the combustion node's derivation_notes instead."
+    },
+    {
+      "id": "B5-H-12",
+      "verdict": "AGREE_HOLD",
+      "note": "The B4-H-03 no-directional-evidence class — prediction and displacement are two applications of the same stated trend; both already carry their honest dependencies."
+    },
+    {
+      "id": "B5-H-13",
+      "verdict": "AGREE_HOLD",
+      "note": "No explicit confusion statement in the notes; the MS conflation documentation is already carried by the misconception node — a CCW edge would double-count the surface (the B3-H-13 rule)."
+    },
+    {
+      "id": "B5-H-14",
+      "verdict": "AGREE_HOLD",
+      "note": "OD-2 composition furniture + the unaudited third boundary edge — recorded for the operator per the B4-H-14 convention, never silently authored."
+    }
+  ],
+  "findings": [
+    {
+      "id": "FP-B5-1",
+      "severity": "info",
+      "finding": "Trend-direction symmetry: the 2.4C and 2.8C explanations are minted as SEPARATE nodes (electron loss vs electron gain, opposite trend directions, distinct SPs). A merge question is recorded for the operator (B5-ID-01); the split is the defensible default — the spec itself demands opposite-direction explanations."
+    },
+    {
+      "id": "FP-B5-2",
+      "severity": "info",
+      "finding": "Misconception evidence class: the GROUP1 IGNORE/award-restriction entries are a new documentation SUBTYPE (non-scoring answers rather than explicit REJECT entries) — the pattern is documented (answers exist that score nothing) but the operator should confirm they accept the IGNORE-class as WRONG_ANSWER_PATTERN evidence; the two Reject-column misconceptions (halogen/halide, CuO colour) are the batch-4-style documentation."
+    },
+    {
+      "id": "FP-B5-3",
+      "severity": "info",
+      "finding": "Boundary discipline: exactly 3 sanctioned boundary edges into 2 ruled owners (CON-ELECTRONIC-CONFIGURATION x2 — batch 2; CON-EXO-ENDO — batch 4); the redox-in-displacement surface is MS-only (G07 misconception-class restriction) and the 2.11 oxidation tip is OD-2 — both held (B5-H-08/H-11) rather than authored beyond the audited set."
+    },
+    {
+      "id": "FP-B5-4",
+      "severity": "info",
+      "finding": "Family shape: composition (2.9 know) and determination (2.10 method) are separate nodes with one EXPLAINED_BY grounding edge (direction: the procedure grounds the fact); the practical owns 2.14 with a practical->concept edge (B5-ID-02/03)."
+    },
+    {
+      "id": "FP-B5-5",
+      "severity": "fixed-at-pass-2",
+      "finding": "The G7-PREDICTION -> CON-G7-PROPERTIES edge originally cited the reactivity-decrease sentence — a mistargeted surface (the reactivity trend's owner is the 2.8C node). Re-authored BEFORE the gate: the edge now cites the physical-trend surface and the reactivity dependency is its own REQUIRES_PREREQUISITE edge into CON-G7-REACTIVITY-ECONFIG. The record carries 18 authored edges."
+    },
+    {
+      "id": "FN-B5-1",
+      "severity": "info",
+      "finding": "Descriptive-slice yield: nodes/SP 1.14, edges/SP 1.29 — the lightest band so far, exactly the item-14 plan's S2 anticipation (\"descriptive-heavy; expected lighter on procedures\"); the abstentions (B5-H-02/03 inline re-teach holds) account for the gap, not thin extraction."
+    },
+    {
+      "id": "FN-B5-2",
+      "severity": "info",
+      "finding": "Top future-evidence target: the three refused classic misconceptions (trend-direction swap B5-H-04, over-ticking B5-H-05, displacement-colour swap B5-H-06) — revisit only with new MS evidence that documents the wrong answers explicitly (the B3-H-11 convention)."
+    },
+    {
+      "id": "FN-B5-3",
+      "severity": "info",
+      "finding": "The 2.10 composition/determination pair straddles two mapped notes (phosphorus route in the Composition note; iron route in the Oxygen-percentage note) — the node's evidence carries both routes; the GASES_MS Q1 (CuO/limewater/syringe answers) shows the examination surface extends into the tests family (S2-g, future batch)."
+    }
+  ],
+  "operator_gate": {
+    "gate": "per-batch operator review (§16 authorization scope.unlocked; each batch = own operator gate)",
+    "surface": {
+      "suggested_edges": 18,
+      "review_required_edges": 0,
+      "nodes": 16,
+      "held": 14
+    },
+    "pathway": "record verdicts in scripts/c11_batch5_verdicts.yaml (fill the template); a later session encodes + applies them via §18 promotion / §7 re-authoring",
+    "promotion_now": 0,
+    "cross_boundary_edges": 3
+  }
+}

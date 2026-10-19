@@ -1,0 +1,154 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:56:39Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "ict",
+  "exam_code": "0417 & 0983",
+  "sme_course_id": "crs_nK2wxCpfn2F3zDy4",
+  "syllabus_version": "2021",
+  "sme_alias_path": "21",
+  "course_name": "Cambridge (CIE) IGCSE ICT"
+ },
+ "section": {
+  "slug": "8-managing-files-and-compression",
+  "name": "8. Managing Files & Compression"
+ },
+ "topic": {
+  "id": "top_k4ySGH98JZWcbwPN",
+  "slug": "manage-files-effectively",
+  "name": "Manage Files Effectively",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "file-formats",
+   "name": "File Formats",
+   "revision_note_id": "rn_Fhs8x7yHkDfzZHqj"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_cHQnZr7Rhy27phKF",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/ict/cie/21/topic-questions/8-managing-files-and-compression/manage-files-effectively/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 3,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/02/55173_june-2022-13.png": "001-a-photographer-with-a-hat-takes-a-picture-of-a-b.png",
+   "https://cdn.savemyexams.com/uploads/2025/02/55002_june-2022-13-11-2.png": "002-bird-perched-on-a-rocky-cliff-with-sparse-vegeta.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_j4DZqxTZCMKdJFPP",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_zqW4NQpSGDGvhVhH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0417/13",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gxwDX5NwwJfwvSbx"
+     ],
+     "part_tier": null,
+     "problem_md": "An image has been taken of a bird watcher and a bird. The original image has been saved as a jpg file type. You have been asked to remove parts of the image to just show the bird and to save it as a png file type to become the new image.\n\n![A photographer with a hat takes a picture of a bird perched on a rock, set against a clear sky background.](assets/001-a-photographer-with-a-hat-takes-a-picture-of-a-b.png)\n\nOriginal image\n\n![Bird perched on a rocky cliff with sparse vegetation in a monochrome setting, against a clear sky background.](assets/002-bird-perched-on-a-rocky-cliff-with-sparse-vegeta.png)\n\nNew image\n\n**Explain **the differences between a **jpg **and a **png **file type.",
+     "solution_md": "> **[mark-scheme]**\n> Any 4 from:\n> \n> - jpg is a lossy format\n> - Smaller file size\n> - Joint Photographic Experts Group\n> - Loses quality when compressed\n> - png is a lossless format\n> - Does not lose quality when compressed\n> - Portable Network Graphics\n> \n> **[4 marks]**\n> \n> \"Explain\" requires candidates to provide developed points that show understanding of the differences between the two file types, not just name them\n\n> **[exam-tip]**\n> Make sure you clearly distinguish which points relate to jpg and which relate to png. A good approach is to make a comparison, e.g. \"jpg is lossy whereas png is lossless.\" This way, each statement clearly shows a difference. Many students lose marks by only describing one file type without contrasting it with the other. Remember that the question asks for differences, so try to pair your points where possible.\n\n**[4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vq353mRxtzrDdTKQ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_hW7BwTJ8bxWKYkmC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 13,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_gxwDX5NwwJfwvSbx"
+     ],
+     "part_tier": null,
+     "problem_md": "gif and jpg file formats are used to store images.\n\n**Explain **the differences between the two file formats.",
+     "solution_md": "The difference between the two file formats include:\n\nAny **six **of the following:\n\n**gif**\n\n- Graphics Interchange **[1 mark]**\n- Format Supported by all web browsers **[1 mark]**\n- Can be animated images **[1 mark]**\n- Supports 8-bit colours/256 colours/limited **[1 mark]**\n- Features background transparency **[1 mark]**\n- Image quality never degrades with resaves **[1 mark]**\n\n**jpg **\n\n- Joint Photographic (Experts) Group **[1 mark]**\n- Supports 24-bit colours/16.7 million colours **OR **More colours **[1 mark]**\n- Image quality degrades slightly when a JPG is resaved **[1 mark]**\n- Uses lossy compression **[1 mark]**\n- No background transparency **[1 mark]**\n- Enlarging the image can cause pixelation Image quality is better **[1 mark]**\n\n> **[mark-scheme]**\n> - To gain full marks you **must **have correct answers for both gif and jpg"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BKQJkCyJw5RsWGcH",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6zgKM7kfVGtV2NV5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0417/11",
+      "question_number": 13,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_gxwDX5NwwJfwvSbx"
+     ],
+     "part_tier": null,
+     "problem_md": "gif and jpg file formats are used to store images.\n\n**Give **one reason for using each of the file formats.\n\nEach of your reasons **must **be different.",
+     "solution_md": "**gif **\n\nAny **one **of the following:\n\n- Used to store animated/moving images **[1 mark]**\n- Used to store icons/simple logos **[1 mark]**\n\n**jpg**\n\nAny **one **of the following:\n\n- Used to store photographic images **[1 mark]**\n- Used to store graphics with complex colours and gradients **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

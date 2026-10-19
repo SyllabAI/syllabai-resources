@@ -1,0 +1,314 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:20Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "3-hardware",
+  "name": "3. Hardware"
+ },
+ "topic": {
+  "id": "top_tCjvGC53CwN9wJ2Z",
+  "slug": "network-hardware",
+  "name": "Network Hardware",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "network-interface-card-nic",
+   "name": "Network Interface Card (NIC)",
+   "revision_note_id": "rn_d522h5pGsQQdzGZq"
+  },
+  {
+   "slug": "mac-addresses-and-ip-addresses",
+   "name": "MAC Addresses & IP Addresses",
+   "revision_note_id": "rn_qV2BBjWR2xbPpM45"
+  },
+  {
+   "slug": "router",
+   "name": "Router",
+   "revision_note_id": "rn_yzq8MW6PQBFPJPhq"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_F6sGcdDtKqwSXcKx",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/3-hardware/network-hardware/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_WbxkCstMZsPH2BTv",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_5rQ4RK93qJRbWqTw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2024",
+      "number": " 0478/11",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MzK9ng63jrsQkWMM"
+     ],
+     "part_tier": null,
+     "problem_md": "Packet switching is used to transmit the data packets across the network.\n\n**Identify **the device that controls which path is taken by each data packet.",
+     "solution_md": "The device that controls which path is taken by each data packet is:\n\n- Router **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZHqYWhJQgm95rmHB",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_95zSRXBxZdrxB9Np",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_jzJ5C9rQFx3tx34W"
+     ],
+     "part_tier": null,
+     "problem_md": "A user wants to connect their computer to a network.\n\nA dynamic internet protocol (IP) address is allocated to the computer when it is connected to the network.\n\n**Describe **what is meant by a **dynamic IP address**.",
+     "solution_md": "A dynamic IP address is described as:\n\n- It can be used to** uniquely identify** a device (on a network) **[1 mark]**\n- It can change **[1 mark]**\n- Each time the device is connected to the network **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qTMtj68gZVQtKWPf",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_HzjcmpxkXsBFVXjx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 3,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_jzJ5C9rQFx3tx34W"
+     ],
+     "part_tier": null,
+     "problem_md": "A web server has an internet protocol (IP) address.\n\n**Give three **characteristics of an **IP address**.",
+     "solution_md": "Characteristics of an IP address include:\n\nAny **three **of the following:\n\n- consists of values between 0–255 / 0–FFF **[1 mark]**\n- values are separated by full stops / colons **[1 mark]**\n- it is a unique address **[1 mark]**\n- can be static or dynamic (accept: static, dynamic) **[1 mark]**\n- can be public or private (accept: public, private) **[1 mark]**\n- can be IPv4 / have four groups of digits **[1 mark]**\n- can be IPv6 / have eight groups of digits / uses hexadecimal **[1 mark]**\n- in IPv6 :: can replace groups of zeros **[1 mark]**\n\n> **[exam-tip]**\n> Give three distinct characteristics of the address itself, not vague facts like how it is assigned"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kmVcKb9KsZv477CV",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xHXBG5hzVVM8SFWz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_3KZH24Gh7BtG9HWz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept a stated unique serial number/ID as satisfying the uniqueness point.\n- Accept \"represented in hexadecimal\" for a mark.\n- Do not accept MAC address length (e.g. \"8 byte\", \"48 bits\").\n\nA school network has several computers.\n\nEach computer in the network has a media access control (MAC) address.\n\nHexadecimal is used for MAC addresses. Part of a MAC address is given.\n\n**97–5C–E1 **\n\nEach pair of digits is stored as binary in an 8-bit register.\n\n**Describe **what is meant by a **MAC address**.",
+     "solution_md": "A MAC address is described as:\n\nAny **four **of the following:\n\n- used to identify a device **[1 mark]**\n- it is a unique (address) **[1 mark]** *accept stating the device's serial number is unique*\n- it is a static address **OR** it does not change **[1 mark]**\n- it is set by the manufacturer **[1 mark]**\n- the first part is the manufacturer ID / number / identifies the manufacturer **[1 mark]**\n- the second part is the serial number / ID **[1 mark]**\n- it is represented in hexadecimal **[1 mark]**\n\n> **[exam-tip]**\n> With 4 marks on offer, make sure you give four clearly distinct points rather than repeating one idea.\n> \n> Don't forget the two-part structure: the first part is the manufacturer ID and the second part is the serial number.\n> \n> State clearly that a MAC address is used to identify a device, don't just describe communication on a network."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MkmsZgWbr8zCKd7J",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VkZYQTPfVj54mF77",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_HtfS3kGsngz2pkK7"
+     ],
+     "part_tier": null,
+     "problem_md": "A user wants to connect their computer to a network.\n\n**Identify **the component in the computer that is needed to access a network",
+     "solution_md": "The component needed to access a network is:\n\n- Network interface card/controller **OR** NIC **OR** WNIC **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_HMmgZV5QCK36GZYh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_3KZH24Gh7BtG9HWz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Identify **the type of address that is allocated to the component by the manufacturer, which is used to uniquely identify the device.",
+     "solution_md": "The type of address used to uniquely identify the device is:\n\n- Media access control/MAC address **OR **MAC **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_4qMfPsNQBysDppXD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MzK9ng63jrsQkWMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A dynamic internet protocol (IP) address is allocated to the computer when it is connected to the network.\n\n**Identify **the device on the network that can connect multiple devices and automatically assign them an IP address.",
+     "solution_md": "The device on the network that can automatically assign IP addresses is the:\n\n- Router **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XX9gqYndCkrMvC2N",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XbdwCHsppF69fYfR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_3KZH24Gh7BtG9HWz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept \"serial number\" for \"contains the serial code/number\".\n- Accept \"manufacturer ID\" for \"contains the manufacturer ID/code/number\".\n\nMany devices have a Media Access Control (MAC) address.\n\n**Give three **features of a MAC address.",
+     "solution_md": "Examples of features of a MAC address include:\n\nAny **three **of the following:\n\n- It is a unique address **[1 mark]**\n- It is assigned by the manufacturer **[1 mark]**\n- It can be used to identify a device **[1 mark]**\n- It contains the manufacturer ID/code/number **[1 mark]**\n- It contains the serial code/number **[1 mark]**\n- It is written in hexadecimal **[1 mark]**\n- It has 6 bytes/48 bits/6 pairs of digits **[1 mark]**\n- Does not (usually) change **OR** static **[1 mark]**\n\n> **[exam-tip]**\n> Describe a property of the MAC address itself, not related hardware like a NIC"
+    }
+   ]
+  },
+  {
+   "id": "qstn_X9hdxy86QZZCSkrR",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Jgsjgq7WjxQFkxr3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 3,
+      "question_part": "a(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_MzK9ng63jrsQkWMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A web server has an internet protocol (IP) address.\n\n**Identify** the network component that uses the IP address to send data only to its correct destination.",
+     "solution_md": "The network component that uses the IP address to send data is:\n\n- Router **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

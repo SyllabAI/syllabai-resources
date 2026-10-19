@@ -1,0 +1,673 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:40:27Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "computer-science",
+  "exam_code": "0478 & 0984",
+  "sme_course_id": "crs_48wxZFj4yhsbPCbZ",
+  "syllabus_version": "2021",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) IGCSE Computer Science"
+ },
+ "section": {
+  "slug": "5-the-internet-and-its-uses",
+  "name": "5. The Internet & its Uses"
+ },
+ "topic": {
+  "id": "top_kScQNVgS94TCbgMb",
+  "slug": "cyber-security",
+  "name": "Cyber Security",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "cyber-security-threats",
+   "name": "Cyber Security Threats",
+   "revision_note_id": "rn_yq9Wrkqqk4SDdnSv"
+  },
+  {
+   "slug": "keeping-data-safe",
+   "name": "Keeping Data Safe",
+   "revision_note_id": "rn_mFQrBpFJGgHjvxdS"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_bjFBCRb3VBmFCbNs",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 17,
+   "page_url": "https://www.savemyexams.com/igcse/computer-science/cie/23/topic-questions/5-the-internet-and-its-uses/cyber-security/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 17,
+  "questions_missing": [
+   "qstn_mfnJDTVw72xDfgDj"
+  ],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/09/33141_malware-eg.png": "001-flowchart-showing-how-malware-redirects-a-web-re.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_vnkxRWW7DkxNZj59",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_g6w9Zy7bMgwdWm38",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 9,
+      "question_part": "c(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_5rvwztHztNYwDYbP"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **two** examples of malware that the firewall can help protect the network from.",
+     "solution_md": "Examples of malware that the firewall can help protect the network from include:\n\nAny **two **of the following:\n\n- Virus **[1 mark]**\n- Worm **[1 mark]**\n- Trojan horse **[1 mark]**\n- Spyware **[1 mark]**\n- Adware **[1 mark]**\n- Ransomware **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CHm5DW4RDMsw3zfT",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_GwPfvGgbrPTwQFfW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2024",
+      "number": "0478/11",
+      "question_number": 9,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_g2PdzSRQTnBmcntD"
+     ],
+     "part_tier": null,
+     "problem_md": "The company owner also installs a firewall to help protect the network from hackers and malware.\n\n**Explain **how the firewall operates to help protect the network.",
+     "solution_md": "A firewall can help to protect a network by:\n\nAny **five **of the following:\n\n- Criteria can be set (for traffic) **[1 mark]**\n- … such as a blacklist/whitelist (of IP addresses) **[1 mark]**\n- It will examine traffic coming into the network **[1 mark]**\n- It will check that the traffic meets the set criteria **[1 mark]**\n- … and will reject it if it does not meet criteria **[1 mark]**\n- Certain ports used by hackers can be blocked/closed **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NbZcYB9HzDZjGsjk",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_pmGZWP9Nnrgv9zvT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "annotate",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BRfQnKhBtms4scK2"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses the internet for their schoolwork to research what is meant by **pharming.**\n\n**Draw** and **annotate **a diagram to represent the process of **pharming.**",
+     "solution_md": "The process of pharming can be drawn as:\n\n- User clicks/opens attachment/link that triggers download **[1 mark]**\n- Malicious software downloaded onto user's computer **[1 mark]**\n- User enters website address **[1 mark]**\n- User is redirected to fake website **[1 mark]**\n\n![Flowchart showing how malware redirects a web request. User's computer with malware sends the request to a fake website instead of the real website.](assets/001-flowchart-showing-how-malware-redirects-a-web-re.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_W427DcQ92rGv7NZy",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_jgwTsQ8nCtzhVp8Z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0475/01 1B",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_GCBVHmTMRZvBDSxj",
+      "spcpt_Tzt3Cn3HMp4Qz9XF"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is concerned about the threats to their computer when using the internet.\n\nThe student wants to use some **security solutions** to help protect the computer from the threats.\n\n**Describe how** each of the following security solutions will help protect the computer.\n\n- Anti-malware\n- Two-step verification\n- Passwords",
+     "solution_md": "**Max two marks** for each solution.\n\n**Anti-malware/virus (software) **\n\n- Scans the computer system (for viruses) **[1 mark]**\n- Has a record of known viruses **[1 mark]**\n- Removes/quarantines any viruses that are found **[1 mark]**\n- Checks data before it is downloaded **[1 mark]**\n- … and stops download if virus found/warns user may contain virus **[1 mark]**\n\n**Passwords **\n\n- Making a password stronger **OR** by example **[1 mark]**\n- Changing it regularly **[1 mark]**\n- Lock out after set number of attempts **OR** stops brute force attacks **OR** makes it more difficult to guess **[1 mark]**\n\n**Two-step verification **\n\n- Extra data is sent to device, pre-set by user **[1 mark]**\n- … making it more difficult for hacker to obtain it **[1 mark]**\n- Data has to be entered into the same system **[1 mark]**\n- … so if attempted from a remote location, it will not be accepted **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JtrWv7K7y4mv4pd3",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_FzYbxTyg7PzdJKK7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_46gyBTd48R2cBY57"
+     ],
+     "part_tier": null,
+     "problem_md": "An art gallery uses secure **socket layer **(**SSL**) to provide a secure connection when selling art on its website.\n\n**Describe **the process of SSL and explain how it provides a secure connection.",
+     "solution_md": "The process of SSL includes:\n\nAny **six **of the following:\n\n- SSL is a (security) protocol **[1 mark]**\n- It encrypts any data that is sent **[1 mark]**\n- It uses/sends digital certificates **[1 mark]**\n- … which are sent to the (buyer’s/user’s) browser **OR** requested by the (buyer’s/user’s) browser **[1 mark]**\n- … that contains the gallery’s public key  **[1 mark]**\n- … that can be used to authenticate the gallery **[1 mark]**\n- Once the certificate is authenticated, the transaction will begin **[1 mark]**\n\n> **[exam-tip]**\n> - An example six mark response could be:\n> \n> *SSL is a security protocol that ensures a safe connection when you visit a website, like an art gallery. It works by encrypting any data that is sent, so even if someone intercepts it, they can’t read it. The website sends a digital certificate to your browser, which is like an electronic ID card that proves the website is real. This certificate includes the gallery’s public key, which your browser uses to confirm the website is trustworthy. Once the certificate is verified, the secure transaction can begin.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xr4Y3SzMYQ8Zyn3X",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_sYwM2Fq87TQmpY4V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_FBYwzhfNxbxMJkwX"
+     ],
+     "part_tier": null,
+     "problem_md": "A manager at a company is concerned about a **brute‑force attack** on its employee user accounts\n\n**Describe **how a brute‑force attack can be used to gain access to the employee user accounts.",
+     "solution_md": "A brute-force attack is described as:\n\nAny** three **of the following:\n\n- Trial and error to guess a password **[1 mark]**\n- Combinations are repeatedly entered **[1 mark]**\n- … until correct password is found **[1 mark]**\n- Can be carried out manually or automatically by software **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_bvf3BJf97cF358vJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 8,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_FBYwzhfNxbxMJkwX"
+     ],
+     "part_tier": null,
+     "problem_md": "A manager at a company is concerned about a** brute‑force attack** on its employee user accounts.\n\nOne possible aim for carrying out a brute‑force attack is to install malware onto the company network.\n\n**State two **other aims for carrying out a brute‑force attack to gain access to the employee user accounts.",
+     "solution_md": "Aims of carrying out a brute-force attack include:\n\nAny **two **of the following:\n\n- Steal/view/access data **[1 mark]**\n- Delete data **[1 mark]**\n- Change data **[1 mark]**\n- Lock account **OR** Encrypt data **[1 mark]**\n- Damage reputation of a business **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CNZVQH9ybGWPT6sn",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_89qtJpBKXhwBm4Sk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BRfQnKhBtms4scK2",
+      "spcpt_55XyV2X3vWHpnX6n",
+      "spcpt_3sGBf8jpxBP5Jfqd",
+      "spcpt_5rvwztHztNYwDYbP"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept \"Trojan horse\" for \"virus/malware\".\n- Award the two description marks whenever a valid description matching one attack is given, even if it appears under a different or missing identification heading (e.g. a malware-installation description written under \"Phishing\" earns the virus/malware description marks).\n- Match a description to whichever listed attack it describes, not to the heading the student wrote above it.\n\nMillions of **emails **are sent between users on a daily basis.\n\n**Identify two** online security attacks that can be carried out using email and **describe **how email is used to enable the attack.",
+     "solution_md": "Examples of online security attacks that can be carried out include:\n\n**One mark** for identifying the attack, **two marks** for the description\n\n**Phishing ****[1 mark]**\n\n- Email is sent to user to encourage them to click link **[1 mark]**\n- … that takes user to fake website **[1 mark]**\n\n**Pharming ****[1 mark]**\n\n- Email is sent to user to encourage them to click link/download attachment **[1 mark]**\n- … that triggers download of malicious code that will redirect user to fake website **[1 mark]**\n\n**Virus/malware** **[1 mark]** *accept: Trojan horse*\n\n- Email is sent to user to encourage them to click link/download attachment **[1 mark]**\n- … that triggers download of virus/malware **[1 mark]**\n\n**Denial of service/DoS** **[1 mark]**\n\n- A very large number of emails are sent to a server/network at the same time **[1 mark]**\n- … crashing the server/network **[1 mark]**\n\n> **[exam-tip]**\n> Keep phishing distinct from malware — phishing directs the user to a fake website to steal details, it does not install anything.\n> \n> Use the recognised attack names rather than vaguer terms like social engineering."
+    },
+    {
+     "id": "qstnprt_kx3QrrsdSDMcVhBQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Data **can also be damaged accidentally.\n\nOne example of how data can be damaged accidentally is by shutting down a computer before saving data. To prevent this from happening, a user should make sure they have saved all data before shutting down a computer.\n\n**State three **other examples of how data can be damaged accidentally and **give** a method of prevention for each example.",
+     "solution_md": "Examples of how data can be damaged accidently include:\n\nAny **six **of the following:\n\n**Power surge/loss (damages hardware) ****[1 mark]**\n\n- Use a UPS **[1 mark]**\n\n**Water can be spilled on the device** **[1 mark]**\n\n- Don’t have water near the device **[1 mark]**\n- Keep device in a waterproof box when not is use **[1 mark]**\n\n**Fire can destroy device** **[1 mark]**\n\n- Use electrics safety **[1 mark]**\n- Keep device in a fireproof box when not is use **[1 mark]**\n\n**Data is accidentally deleted** **[1 mark]**\n\n- Add verification method for data deletion **[1 mark]**\n- Set access levels for data to limit who can delete the data **[1 mark]**\n\n**Incorrect use of storage device** **[1 mark]**\n\n- Making sure device is ejected before removing **[1 mark]**\n\n**Physical damage to hardware OR hardware failure** **[1 mark]**\n\n- Correct care and maintenance of hardware **[1 mark]**\n\n**Software failure** **[1 mark]**\n\n- Making sure it is always up to date **OR **enable automatic updates **[1 mark]**\n\n> **[mark-scheme]**\n> - **One **mark for identifying the problem\n> - **One **mark for suggesting a suitable prevention"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KX4MWTPFP7cKJnkM",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_JMXXbHSKDR7kbKVw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g2PdzSRQTnBmcntD"
+     ],
+     "part_tier": null,
+     "problem_md": "Joelle is a student who uses the Internet.\n\nJoelle’s parent also uses the **firewall **to limit the websites that Joelle can access.\n\n**Explain **how the firewall is used to limit the websites that Joelle can access.",
+     "solution_md": "A firewall can be used to limit the websites by:\n\n- (The parent can) set criteria for the websites she is allowed to visit **[1 mark]**\n- … such as a whitelist/blacklist of websites **[1 mark]**\n- The firewall will examine the data/traffic incoming and outgoing from her computer **[1 mark]**\n- If data is sent from a website that is not allowed, it will be blocked **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cxT6TZZwBTCsGKT5",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_DVS8vmDm5njFHzc7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_GCBVHmTMRZvBDSxj"
+     ],
+     "part_tier": null,
+     "problem_md": "Adele chooses to set a **biometric password** for her mobile device, instead of a personal identification number (PIN).\n\n**Give two **reasons why a biometric password is more secure than a PIN.",
+     "solution_md": "Examples of why a biometric password is more secure than a PIN include:\n\nAny **two **of the following:\n\n- A biometric password cannot be guessed **[1 mark]**\n- It is very difficult to fake a biometric password **[1 mark]**\n- A biometric password cannot be recorded by a keylogger/spyware **[1 mark]**\n- A perpetrator cannot shoulder surf to see a biometric password **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_4GDBWZKqxJfTyq8V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g2PdzSRQTnBmcntD"
+     ],
+     "part_tier": null,
+     "problem_md": "Adele has a **software‑based firewall** installed on her mobile device.\n\nThe firewall gathers data about the traffic coming into and going out of her mobile device.\n\n**Explain **how the firewall uses the gathered data to keep the mobile device more secure.",
+     "solution_md": "A firewall uses gathered data by:\n\nAny **three **of the following:\n\n- The traffic/data is compared to set criteria/rules/whitelist/blacklist **[1 mark]**\n- If the traffic/data does/does not meet the criteria/rules/whitelist/blacklist it will be rejected/blocked **[1 mark]**\n- … and an alert can be sent to warn Adele **[1 mark]**\n- … this can help prevent hackers/malicious software (gaining access to the data) **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PHBzZbwkK9zWRy9m",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_zSBqjr4yf6C9V5xp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 2,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_55XyV2X3vWHpnX6n"
+     ],
+     "part_tier": null,
+     "problem_md": "A company has a website that is stored on a web server.\n\nThe company is concerned about a distributed denial of service (**DDoS**) attack.\n\n**Describe **what is meant by a DDoS attack.",
+     "solution_md": "A DDoS attack is described as:\n\nAny **four **of the following:\n\n- multiple computers are used as bots **[1 mark]**\n- designed to deny people access to a website **[1 mark]**\n- a large number / numerous requests are sent (to a server) **[1 mark]**\n- … all at the same time **[1 mark]**\n- the server is unable to respond / struggles to respond to all the requests **[1 mark]**\n- the server fails / times out as a result **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tN4nCWw3vVFJy4vJ",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DXKwC3yNxQx3dgjw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BRfQnKhBtms4scK2"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses the internet for their schoolwork to research what is meant by **pharming**.\n\n**State **the aim of pharming.",
+     "solution_md": "The aim of pharming is to:\n\n- Obtain personal data/details **OR** by example **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8nTvrxXFVPWYHVrP",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_w3KGxMQZRFn3bzhH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 8,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_5rvwztHztNYwDYbP"
+     ],
+     "part_tier": null,
+     "problem_md": "A manager at a company is concerned about a **brute‑force attack** on its employee user accounts.\n\nOne possible aim for carrying out a brute‑force attack is to **install malware **onto the company network.\n\n**Identify three **types of malware that could be installed.",
+     "solution_md": "Examples of malware that could be installed include:\n\nAny **three **of the following:\n\n- Virus **[1 mark]**\n- Worm **[1 mark]**\n- Trojan horse **[1 mark]**\n- Spyware **[1 mark]**\n- Adware **[1 mark]**\n- Ransomware **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_z44jTPB5HZ6zsxDF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0478/11",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_GCBVHmTMRZvBDSxj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Give two **security solutions that could be used to help **prevent **a brute‑force attack being successful.",
+     "solution_md": "Examples of security measures that could be used to help prevent a brute-force attack include:\n\nAny **two **of the following:\n\n- Two-step verification **OR **Two-factor authentication ** **by example **[1 mark]**\n- Biometrics **[1 mark]**\n- Firewall **OR** Proxy-server **[1 mark]**\n- Strong/complex password **OR** by example **[1 mark]**\n- Setting a limit for login attempts **[1 mark]**\n- Drop-down boxes **[1 mark]**\n- Request for partial entry of password **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sk8p4BwfZ6xY7xxw",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_w87tPXfjjQyvJT9g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QxrV2RTBKVNvdJnv",
+      "spcpt_GCBVHmTMRZvBDSxj",
+      "spcpt_5FtK6Fnjph9j5zJR",
+      "spcpt_46gyBTd48R2cBY57",
+      "spcpt_39xh2vcp5zQdZCm2",
+      "spcpt_XrshRxKWjqd9XrCx"
+     ],
+     "part_tier": null,
+     "problem_md": "Millions of emails are sent between users on a daily basis.\n\nOnline security attacks can maliciously damage data.\n\nOne security method to keep data safe from online attacks is a **firewall**.\n\n**Identify two **other security methods that keep data safe from online attacks.",
+     "solution_md": "Examples of security methods that keep data safe from online attacks include:\n\nAny **two **of the following:\n\n- Encryption **[1 mark] **\n- Password **[1 mark]**\n- Two-step / Two-factor authentication/verification **[1 mark]**\n- Biometric device (accept: biometric passkey) **[1 mark]**\n- Anti-malware **OR** Anti-virus **[1 mark]**\n- Proxy-server**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KvBRC7TxGqVztntW",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MBZmvKww76dj84Vn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/12",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g2PdzSRQTnBmcntD"
+     ],
+     "part_tier": null,
+     "problem_md": "Joelle is a student who uses the Internet.\n\nJoelle uses a **firewall **to keep her data safe when she uses the Internet.\n\n**Tick (✓) **to show which statement about firewalls **is true**.\n\n|   | **Tick (✓)** |\n|---|---|\n| Firewalls can only be hardware‑based |   |\n| Firewalls can only be software‑based |   |\n| Firewalls can be hardware‑based or software‑based |   |",
+     "solution_md": "|   | **Tick (✓)** |\n|---|---|\n| Firewalls can only be hardware‑based |   |\n| Firewalls can only be software‑based |   |\n| Firewalls can be hardware‑based or software‑based | **✓** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZNTkXy8zrSMgNdW9",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_dbSZDhjSwK9fqFQz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_GCBVHmTMRZvBDSxj"
+     ],
+     "part_tier": null,
+     "problem_md": "Adele chooses to set a biometric password for her mobile device, instead of a personal identification number (PIN).\n\n**State **what is meant by a** biometric password**.",
+     "solution_md": "A biometric password uses:\n\nAny **one **of the following:\n\n- Biological data **[1 mark]**\n- Characteristics/features that belong to a human **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_5TZqSqPYQMCmn4Y7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "0478/11",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_qZTkxK8ydb3Nb5fR"
+     ],
+     "part_tier": null,
+     "problem_md": "Adele also **encrypts **the data on her mobile device to keep it more secure.\n\n**State how **encryption will keep the data more secure.",
+     "solution_md": "Encryption will keep the data more secure by:\n\n- Making the data meaningless **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9PrNmWkMHDPrBxTm",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_H9GQgP5Rqk6Y74YZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1B",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kbr9Y3hVqNwGtWjv",
+      "spcpt_g2PdzSRQTnBmcntD",
+      "spcpt_5rvwztHztNYwDYbP",
+      "spcpt_Tzt3Cn3HMp4Qz9XF"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is concerned about the threats to their computer when using the internet\n\nThe student wants to use some security solutions to help protect the computer from the threats.\n\n**Identify **a security solution that could be used to protect the computer from a **computer virus**, **hacking **and **spyware**.\n\nEach security solution **must **be different.",
+     "solution_md": "Any **three **of the following:\n\n**Computer virus**\n\n- Anti-malware/virus (software) **[1 mark]**\n- Firewall **[1 mark]**\n\n**Hacking**\n\n- Firewall **[1 mark]**\n- Passwords **[1 mark]**\n- Biometrics **[1 mark]**\n- Two-step verification **[1 mark]**\n\n**Spyware**\n\n- Anti-malware/spyware (software) **[1 mark]**\n- Two-step verification **[1 mark]**\n- Firewall **[1 mark]**\n\n> **[mark-scheme]**\n> - **One mark** per solution to a threat\n> - Same solution **cannot **be used for multiple threats, e.g. Computer virus and hacking both firewall gets 1 mark"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3sT8wtF5YvzSWq3D",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_SMGKB2bdZm9SxYmZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0478/01 1A",
+      "question_number": 2,
+      "question_part": "c(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_XrshRxKWjqd9XrCx",
+      "spcpt_55XyV2X3vWHpnX6n",
+      "spcpt_g2PdzSRQTnBmcntD"
+     ],
+     "part_tier": null,
+     "problem_md": "A company has a website that is stored on a web server.\n\nThe company is concerned about a distributed denial of service (**DDoS**) attack\n\n**Suggest one **security device that can be used to help prevent a DDoS attack.",
+     "solution_md": "A security device that can be used to help prevent a DDoS attack is:\n\nAny **one **of the following:\n\n- Firewall **[1 mark]**\n- Proxy server **[1 mark]**"
+    }
+   ]
+  }
+ ]
+}

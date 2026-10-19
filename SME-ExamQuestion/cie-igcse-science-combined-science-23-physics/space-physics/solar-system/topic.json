@@ -1,0 +1,241 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:45:25Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "science",
+  "exam_code": "0653",
+  "sme_course_id": "crs_Nq7m8WJhBgmjF2gC",
+  "syllabus_version": "2023",
+  "sme_alias_path": "combined-science/23/physics",
+  "course_name": "Cambridge (CIE) IGCSE Combined Science"
+ },
+ "section": {
+  "slug": "space-physics",
+  "name": "5. Space Physics"
+ },
+ "topic": {
+  "id": "top_C6FNg5wypMRJ89mV",
+  "slug": "solar-system",
+  "name": "The Solar System",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "gravitational-field-strength",
+   "name": "Gravitational Field Strength",
+   "revision_note_id": "rn_rYWjStX9V4GCNWjR"
+  },
+  {
+   "slug": "solar-system",
+   "name": "The Solar System",
+   "revision_note_id": "rn_rYzprnjWVCxx94xD"
+  },
+  {
+   "slug": "orbital-speed-equation",
+   "name": "Orbital Speed Equation",
+   "revision_note_id": "rn_djrpPFNZfS7c8Dmq"
+  },
+  {
+   "slug": "light-speed-calculations",
+   "name": "Light Speed Calculations",
+   "revision_note_id": "rn_FwGrw3kNvxwhT6tq"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_kGnCTHPHsSVrBF9G",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/science/cie/combined-science/23/physics/topic-questions/space-physics/solar-system/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 3,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_Hqccdt4KbGbbHwwM",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_r6xmfTkgHfRX4Ttd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0653/04",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_9wxjWYshrc2ZWYYF"
+     ],
+     "part_tier": null,
+     "problem_md": "The Earth orbits the Sun at an average distance of $1 . 51 \\times 10^{8} \\text{km}$ and takes $365 . 25 \\text{days}$ for one orbit.\n\nCalculate the orbital speed of the Earth around the Sun in $\\text{km/h}$.",
+     "solution_md": "To calculate the orbital speed of the Earth:\n\n- List the known quantities:\n\n- Radius of orbit, r = 1.51 × 10<sup>8</sup> km\n- Time for one orbit, T = 365.25 days\n\n- Convert the time to hours:\n\n$T = 365 . 25 \\times 24$ **[1 mark]**\n\n$T = 8766 \\text{h}$\n\n- Write down the equation:\n\n$v = \\frac{2πr}{T}$\n\n- Substitute the known values:\n\n$v = \\frac{2π\\times1.51\\times10^{8}}{8766}$ **[1 mark]**\n\n- Calculate the answer:\n\nv = **1.08 × 10**<sup>**5**</sup>** km/h** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly converting 365.25 days to 8766 hours\n> \n> 1 mark for correct substitution into $v = \\frac{2πr}{T}$ (accept formula in any form)\n> \n> 1 mark for a correct final answer of 1.08 × 10<sup>5</sup> km/h\n\n> **[exam-tip]**\n> Always check the units required by the question — here the answer needs to be in km/h, so make sure you convert the orbital period from days into hours before substituting into the equation.",
+     "equations": [
+      {
+       "latex": "1 . 51 \\times 10^{8} \\text{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>51</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>8</mn></msup><mtext>&#xA0;km</mtext></math>",
+       "alt": "1.51 \\times 10^8 \\text{ km}"
+      },
+      {
+       "latex": "365 . 25 \\text{days}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>365</mn><mo>.</mo><mn>25</mn><mtext>&#xA0;days</mtext></math>",
+       "alt": "365.25 \\text{ days}"
+      },
+      {
+       "latex": "\\text{km/h}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>km/h</mtext></math>",
+       "alt": "\\text{km/h}"
+      },
+      {
+       "latex": "T = 365 . 25 \\times 24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>365</mn><mo>.</mo><mn>25</mn><mo>&#xD7;</mo><mn>24</mn></math>",
+       "alt": "T = 365.25 \\times 24"
+      },
+      {
+       "latex": "T = 8766 \\text{h}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>8766</mn><mtext>&#xA0;h</mtext></math>",
+       "alt": "T = 8766 \\text{ h}"
+      },
+      {
+       "latex": "v = \\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#x3C0;</mi><mi>r</mi></mrow><mi>T</mi></mfrac></math>",
+       "alt": "v = \\frac{2 \\pi r}{T}"
+      },
+      {
+       "latex": "v = \\frac{2π\\times1.51\\times10^{8}}{8766}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#x3C0;</mi><mo>&#xD7;</mo><mn>1</mn><mo>.</mo><mn>51</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mn>8766</mn></mfrac></math>",
+       "alt": "v = \\frac{2 \\pi \\times 1.51 \\times 10^{8}}{8766}"
+      },
+      {
+       "latex": "v = \\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#x3C0;</mi><mi>r</mi></mrow><mi>T</mi></mfrac></math>",
+       "alt": "v = \\frac{2 \\pi r}{T}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tsJFdQKf62hp84QX",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_j33F3FWjz7HfSx99",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/03",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9PKzTqrdg9sJ76gF"
+     ],
+     "part_tier": null,
+     "problem_md": "The Earth orbits the Sun as part of the Solar System.\n\nState the name of the planet that orbits closest to the Sun.",
+     "solution_md": "> **[mark-scheme]**\n> - Mercury **[1 mark]**\n\n> **[exam-tip]**\n> Remember the order of the planets from the Sun using a mnemonic such as \"My Very Easy Method Just Speeds Up Naming\": Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MwsGHJVHvJnHpwHz",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_part",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jkTBYcZ9NySjBWXM",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0653/02",
+      "question_number": 39,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9wxjWYshrc2ZWYYF"
+     ],
+     "part_tier": null,
+     "problem_md": "A planet orbits the Sun with an orbital speed of 48 km/s. The radius of the orbit is 5.7 × 10<sup>7</sup> km.\n\nWhat is the orbital period of the planet?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Orbital period = circumference ÷ orbital speed\n\n$T = \\frac{2πr}{v} = \\frac{2\\timesπ\\times5.7\\times10^{7}}{48}$\n\n$= 7 . 5 \\times 10^{6} \\text{s}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "3.7 × 10⁶ s"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "7.5 × 10⁶ s"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "8.6 × 10⁹ s"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1.7 × 10¹⁰ s"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "T = \\frac{2πr}{v} = \\frac{2\\timesπ\\times5.7\\times10^{7}}{48}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#x3C0;</mi><mi>r</mi></mrow><mi>v</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#xD7;</mo><mi>&#x3C0;</mi><mo>&#xD7;</mo><mn>5</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mn>48</mn></mfrac></math>",
+       "alt": "T = \\frac{2 \\pi r}{v} = \\frac{2 \\times \\pi \\times 5.7 \\times 10^{7}}{48}"
+      },
+      {
+       "latex": "= 7 . 5 \\times 10^{6} \\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>7</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mtext>&#xA0;s</mtext></math>",
+       "alt": "= 7.5 \\times 10^{6} \\text{ s}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

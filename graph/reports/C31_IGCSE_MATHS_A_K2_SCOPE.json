@@ -1,0 +1,165 @@
+{
+  "schema": "syllabai.c31-k2-scope-record/1.0",
+  "task_id": "T-C31",
+  "title": "Subject-#2 K2 Scope Record — igcse-maths-a (4MA1 Higher)",
+  "version": "1.0 — K2 scoped, NOT executed; all execution behind the §8 operator gates",
+  "date": "2026-10-01",
+  "operator_directive": "want K2 scoped (2026-10-01, zai-web, inline)",
+  "baseline_head": "2e57663f16a478c8a0f6670140e469c2bd902ac5",
+  "predecessors": [
+    "C29_IGCSE_MATHS_A_K0_COMMISSIONING_RECORD",
+    "C30_IGCSE_MATHS_A_K1_SPEC_STORE_BUILD_RECORD",
+    "C28_MULTI_SUBJECT_EXPANSION_SPEC §6-K2"
+  ],
+  "k2_definition": {
+    "source": "C28_MULTI_SUBJECT_EXPANSION_SPEC.md §6 row 'K2 — Ratified enrichment (chemistry sequence per qual)'",
+    "lanes": [
+      {
+        "lane": "A",
+        "pattern": "T-C10",
+        "name": "note-level mapping",
+        "produces": "notes↔SP join artifact (derived lane by default)",
+        "gate": "human-validated tier recorded honestly; 0 fabricated anchors; every mapped code in the canonical 188"
+      },
+      {
+        "lane": "B",
+        "pattern": "T-C13",
+        "name": "chunk substrate",
+        "produces": "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+        "gate": "review sheet, >=90% class precision"
+      },
+      {
+        "lane": "C",
+        "pattern": "T-C11",
+        "name": "concept pilot + §16 batches",
+        "produces": "graph/igcse-maths-a/concepts.yaml + concept_edges.yaml + spec_command_kinds.yaml",
+        "gate": "per-batch operator verdict gate -> §18 promotion; zero silent promotion; held quarantine preserved"
+      },
+      {
+        "lane": "D",
+        "pattern": "T-C19",
+        "name": "concept→SP substrate",
+        "produces": "substrate rows + review sheet + apply record",
+        "gate": "review sheet + apply record"
+      }
+    ],
+    "exit_registry_shape": "9 stores for igcse-maths-a (5 K1 stores + concepts/concept_edges/spec_chunk_mappings/spec_command_kinds); relationships deliberately absent (ratified-hierarchy lane)",
+    "chemistry_scale_reference": {
+      "concepts": 193,
+      "concept_edges": 488,
+      "spec_command_kinds": 181,
+      "chunk_registry": 779
+    }
+  },
+  "lane_a_discovery": {
+    "k0_statement": "No maths-a equivalent join exists — the qual's SME index is name-only (203 spec_point_links unvalidated anchors); parse_report prescribes mapping-stage name bridging.",
+    "scoping_finding": "The statement is correct as written but materially narrower than the truth: the corpus-side resolution substrate already exists for this qual.",
+    "p5_disposition": "K0's sentence stands unedited in its own record; this record is the dated correction that narrows its scope.",
+    "substrate": {
+      "path": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+      "sha256_16": "3a0b5dc48a65fb54",
+      "counts": { "ids": 222, "resolved": 218, "unresolved": 4 },
+      "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-7/8/9/10 operator-verdict rounds 2026-09-19; PMT excluded as source)"
+    },
+    "notes_corpus": {
+      "course": "igcse-maths-a-18-higher",
+      "manifest_sha256_16": "cc470d40873f51a4",
+      "pages": 191,
+      "anchors": 203
+    },
+    "consequence": "Lane A is primarily a deterministic id-lookup join plus validation against the ratified store, not a from-scratch fuzzy name bridge."
+  },
+  "lane_a_census": {
+    "anchors_total": 203,
+    "anchors_distinct": 203,
+    "pages_with_anchors": 191,
+    "resolved_by_id_lookup": 202,
+    "eq_unresolved_reached": [
+      { "id": "spcpt_QWXhzVp2S3VYZdZc", "sme_name": "Discrete & Continuous Data" }
+    ],
+    "ids_absent_from_resolution": 0,
+    "foreign_codes": 0,
+    "distinct_anchored_official_codes": 111,
+    "coverage": "111/188",
+    "coverage_split": { "foundation_applicability": 57, "higher": 54 },
+    "uncovered_split": { "foundation_only": 51, "higher": 26 },
+    "wording_crosscheck": { "checked": 202, "exact": 202, "ledger_explainable": 0, "divergent": 0 },
+    "tier_dedupe_ledger": {
+      "path": "graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json",
+      "sha256_16": "7f9322a8a05d3767",
+      "role": "no reconciliation work needed inside Lane A (100% exact wording agreement)"
+    }
+  },
+  "lane_a_execution_shape": {
+    "script": "scripts/sme_notes_maths_a_join.py (mirror of sme_notes_chem_join.py; zero-LLM; verbatim preservation)",
+    "join": "spec_point_ids -> EQ resolution by id -> resolved_code/official_id/official_wording/method/tier copied 1:1",
+    "validation": "codes subset of canonical 188 (foreign = fail); wording crosscheck re-run as a gate",
+    "residual_rule": "RECORDED, never fabricated; the single unresolved anchor's disposition decided at gate K2-A",
+    "output_location_default": "derived lane (standing guards keep SME corpora byte-frozen); corpus-side writes only as an explicit operator exception amending the guards first (P5)",
+    "validation_tier_honesty": "chemistry stands on an operator HUMAN_VALIDATED legacy spec_map; maths-a has no equivalent — the achieved tier (AI_VALIDATED operator-delegated + operator spot-check round) must be on record before 'unvalidated anchors' retires"
+  },
+  "batch_plan": {
+    "sp_base": 188,
+    "pilot_envelope": { "nodes": 451, "edges": 517 },
+    "adjusted_forecast": { "nodes": 188, "edges": 301 },
+    "chemistry_actuals": { "concepts": 193, "edges": 488, "note": "inside the pilot envelope" },
+    "batches": 16,
+    "sp_per_batch": 12,
+    "slicing": "B01..B16 cut on the ratified store's global_order windows (1-12, 13-24, ..., 181-188); exact code lists emitted at authorization time",
+    "per_batch_pipeline": "intake-drift check -> preverify -> quote probe -> term-audit probe -> boundary check -> review build -> pass-2 review -> operator verdicts -> ruling finalize -> verdict check -> decisions -> apply",
+    "standing_discipline": "operator verdict gate before any promotion; zero silent promotion; held quarantine preserved; provenance namespaces; C27 damage scan 0",
+    "authorization_shape": "one c11_s16_authorization.yaml-equivalent per batch commissioning under scripts/"
+  },
+  "lanes_b_d": {
+    "lane_b": "c13 chunk-convention-1 over the maths-a notes corpus; chemistry reference 112 notes -> 779 chunks / 209 mappings / anchor rate 1.0 / 181 codes covered; >=90% class precision review-sheet gate; worklist lanes expected materially larger (coverage bounded by 111-code notes coverage) and recorded, not forced",
+    "lane_d": "T-C19 concept->SP substrate rows after Lane C promotions; C19_SUBSTRATE_ROWS / review sheet / apply record shape; zero silent promotion",
+    "ordering": "A -> B -> C -> D (chemistry sequence); Lane B may parallel early Lane C batches if the operator prefers — replay defaults to the strict order"
+  },
+  "scope_guards": [
+    "zero bytes in graph/igcse-chemistry/**, parsed/** canonical JSON, SME corpora (corpus-side exception only via dated operator amendment first)",
+    "C25-C30 records unedited; corrections land as dated records of their own",
+    "no core or hub serving behavior changes from this repo",
+    "no K3/K4 work (projection re-pointing, explorer build, release pins)",
+    "s105 title divergence stays a core-lane item (K1 §2)",
+    "parallel chemistry C11 program untouched by every lane",
+    "all ratified-plane writes flow through the §8 operator gates"
+  ],
+  "operator_gates": [
+    { "gate": "K2-A", "authorizes": "Lane A build (join script + derived-lane artifact + lane record)", "evidence": "census re-run on joined output; residual disposition proposal; achieved validation tier" },
+    { "gate": "K2-B", "authorizes": "Lane B build (chunk substrate)", "evidence": "chunk census + review sheet, >=90% class precision" },
+    { "gate": "K2-C-1..16", "authorizes": "each §16 batch in turn", "evidence": "per-batch packet: slice codes, coverage profile, diff-review bundle, held-quarantine state" },
+    { "gate": "K2-D", "authorizes": "Lane D substrate apply", "evidence": "substrate review sheet + apply record" }
+  ],
+  "k2_exit_state": [
+    "maths-a registry entry carries 9 stores",
+    "graph_check.py and check_no_hardcode.py green across both quals",
+    "lane/batch record series (C32+) with per-record sha pins",
+    "next natural gate: K3 (serving & explorer) per the C28 machinery"
+  ],
+  "verification": {
+    "checker": "scripts/c31_k2_scope_check.py",
+    "checker_sha256_16": "f271e5cfc6e001c5",
+    "report": "graph/reports/C31_K2_SCOPE_CHECK.json",
+    "report_sha256_16": "4d492fe28c77936d",
+    "result": "G1-G7 all PASS, exit 0",
+    "gates": {
+      "G1_k1_stores_present": "registry resolves exactly the 5 K1 stores; 188 rows / 188 unique codes; 8 flagged rows alive; topics 6/39; K1 record + check + ledger present",
+      "G2_lane_a_substrate": "EQ resolution 222/218/4 declared == observed; AI_VALIDATED + operator-delegated + PMT-excluded; notes manifest 191/191/0/203",
+      "G3_anchor_join_census": "203 anchors / 202 resolved / 1 EQ-unresolved / 0 absent / 111 codes covered / 0 foreign (hard-fail class)",
+      "G4_wording_crosscheck": "202 anchored rows: 202 exact, 0 ledger-explainable, 0 divergent",
+      "G5_batch_forecast_recompute": "451/517 pilot; 188/301 adjusted; 16 batches; SP base 188 == K0 §2 table",
+      "G6_registry_k2_target_shape": "maths-a == 5 K1 stores; chemistry == 10-store shape; K2 deltas + relationships absent for maths-a; shared reports dir",
+      "G7_state_snapshot": "HEAD == 2e57663f…; graph/ == chemistry + maths-a + reports; chemistry still 10 store files; battery read-only"
+    },
+    "read_methods": "199 reads; 193 via persistent git-show channel (C28-F1 sparse-workspace mechanism), 6 disk"
+  },
+  "pins": {
+    "C29_IGCSE_MATHS_A_K0_COMMISSIONING_RECORD.md": "79f14b13610d5105",
+    "C30_IGCSE_MATHS_A_K1_SPEC_STORE_BUILD_RECORD.md": "4ddcc4db2aafb403",
+    "C28_MULTI_SUBJECT_EXPANSION_SPEC.md": "3f387349411e74e4",
+    "scripts/graph_paths.yaml@baseline": "e38965001ade4417",
+    "spec_point_resolution.json": "3a0b5dc48a65fb54",
+    "notes_manifest.json": "cc470d40873f51a4",
+    "C30_MATHS_A_TIER_DEDUPE_LEDGER.json": "7f9322a8a05d3767"
+  }
+}

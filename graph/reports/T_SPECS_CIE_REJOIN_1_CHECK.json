@@ -1,0 +1,56 @@
+{
+ "battery": "T-SPECS-CIE-REJOIN-1",
+ "all_pass": true,
+ "checks": [
+  {
+   "id": "1",
+   "pass": true,
+   "detail": "22 touched sidecars well-formed (additive rejoin blocks, SUGGESTED state, method/tier vocab)"
+  },
+  {
+   "id": "2",
+   "pass": true,
+   "detail": "mutation discipline 22/22: only codes-append / pending-shrink / additive rejoin blocks / recounted counters; every other field deep-equal to HEAD"
+  },
+  {
+   "id": "3",
+   "pass": true,
+   "detail": "INDEPENDENT re-derivation + sheet bijection: all 634 resolves + 166 quarantines equal (fresh pools, fresh norm, fresh rule chain)"
+  },
+  {
+   "id": "4",
+   "pass": true,
+   "detail": "cascade integrity 22/22 (codes dedup-correct, pendings shrunk exactly, anchors recounts, stats coherent); 2771 code entries"
+  },
+  {
+   "id": "5",
+   "pass": true,
+   "detail": "manifest discipline: touched rows updated value-consistently, all pre-existing rows/keys preserved, cie_rejoin block additive"
+  },
+  {
+   "id": "6",
+   "pass": true,
+   "detail": "footprint 29 paths subset-of declared; spec-links delta == 22 sidecars + manifest; guards intact; 49 Edexcel sidecars untouched"
+  },
+  {
+   "id": "7",
+   "pass": true,
+   "detail": "engine fixed-stamp re-run byte-identical (22 sidecars + manifest + sheet + stats)"
+  },
+  {
+   "id": "8",
+   "pass": true,
+   "detail": "honesty pins: 268 record-less pairs still pending; name rules scoped to non-verdict pairs; exactly 1 verdict-pending cure via definition rules (4,386 -> 4,385)"
+  },
+  {
+   "id": "9",
+   "pass": true,
+   "detail": "2-lane full-document rebuild from HEAD + independent resolutions == staged bytes (physics-23, economics-20)"
+  },
+  {
+   "id": "10",
+   "pass": true,
+   "detail": "global cross-foot: pending refs 31106 == 33900 - 2794; pins (7,605 pairs, 4,385, 634 by rule) reproduced"
+  }
+ ]
+}

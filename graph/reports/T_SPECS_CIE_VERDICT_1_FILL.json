@@ -1,0 +1,523 @@
+{
+ "lane": "T-SPECS-CIE-VERDICT-1",
+ "generated_utc": "2026-10-18T22:46:00Z",
+ "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+ "base_commit": "fea58c8a",
+ "method": "operator_verdict",
+ "tiers": [
+  "V1_name_text_identity",
+  "V2_name_phrase_identity",
+  "V3_subsection_head_identity",
+  "V4_settext_title_identity",
+  "V5_topic_scoped_phrase_identity"
+ ],
+ "rules": {
+  "V1_name_text_identity": "norm(name) == norm(point text), unique in pool",
+  "V2_name_phrase_identity": "token-bounded name phrase in exactly one point text",
+  "V3_subsection_head_identity": "head == artifact-stripped single-point subsection title",
+  "V4_settext_title_identity": "note-name segment == quoted set-text title, unique",
+  "V5_topic_scoped_phrase_identity": "topic-scoped disambiguation of a phrase ambiguity"
+ },
+ "lanes": {
+  "cie-a-level-business-23": {
+   "resolved_ids": 29,
+   "code_entries_added": 134,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 10,
+    "V3_subsection_head_identity": 14,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 216,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 237
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 108
+  },
+  "cie-a-level-computer-science-19": {
+   "resolved_ids": 49,
+   "code_entries_added": 373,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 49,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 151,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 5,
+    "no_unique_identity": 39
+   },
+   "dangling_eq_refs_pending": 4,
+   "items_with_codes": 344
+  },
+  "cie-a-level-economics-23": {
+   "resolved_ids": 78,
+   "code_entries_added": 78,
+   "by_tier": {
+    "V1_name_text_identity": 26,
+    "V2_name_phrase_identity": 52,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 114,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 15,
+    "no_unique_identity": 300
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 55
+  },
+  "cie-a-level-maths-20-mechanics": {
+   "resolved_ids": 6,
+   "code_entries_added": 184,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 6,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 2,
+    "no_unique_identity": 28
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 173
+  },
+  "cie-a-level-maths-20-probability-and-statistics-1": {
+   "resolved_ids": 2,
+   "code_entries_added": 34,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 2,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 1,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 43
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 32
+  },
+  "cie-a-level-maths-20-probability-and-statistics-2": {
+   "resolved_ids": 2,
+   "code_entries_added": 77,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 2,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 8,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 18
+   },
+   "dangling_eq_refs_pending": 114,
+   "items_with_codes": 77
+  },
+  "cie-a-level-maths-20-pure-1": {
+   "resolved_ids": 6,
+   "code_entries_added": 105,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 6,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 9,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 61
+   },
+   "dangling_eq_refs_pending": 3,
+   "items_with_codes": 104
+  },
+  "cie-a-level-maths-20-pure-3": {
+   "resolved_ids": 3,
+   "code_entries_added": 51,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 3,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 14,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 66
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 51
+  },
+  "cie-as-english-general-paper-21": {
+   "resolved_ids": 1,
+   "code_entries_added": 1,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 1,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 79
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 1
+  },
+  "cie-igcse-accounting-21": {
+   "resolved_ids": 35,
+   "code_entries_added": 123,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 30,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 39,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 15,
+    "no_unique_identity": 68
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 105
+  },
+  "cie-igcse-accounting-25": {
+   "resolved_ids": 34,
+   "code_entries_added": 34,
+   "by_tier": {
+    "V1_name_text_identity": 5,
+    "V2_name_phrase_identity": 29,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 25,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 17,
+    "no_unique_identity": 90
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 26
+  },
+  "cie-igcse-economics-25": {
+   "resolved_ids": 0,
+   "code_entries_added": 0,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 0,
+    "no_unique_identity": 16
+   },
+   "dangling_eq_refs_pending": 44,
+   "items_with_codes": 0
+  },
+  "cie-igcse-english-language-20": {
+   "resolved_ids": 39,
+   "code_entries_added": 39,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 39,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 168
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 25
+  },
+  "cie-igcse-english-language-25": {
+   "resolved_ids": 0,
+   "code_entries_added": 0,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 18,
+    "no_unique_identity": 165
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 0
+  },
+  "cie-igcse-english-literature-21": {
+   "resolved_ids": 3,
+   "code_entries_added": 4,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 3,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 49,
+    "no_unique_identity": 634
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 2
+  },
+  "cie-igcse-environmental-management-25": {
+   "resolved_ids": 46,
+   "code_entries_added": 68,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 36,
+    "V3_subsection_head_identity": 10,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 151,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 6,
+    "no_unique_identity": 0
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 53
+  },
+  "cie-igcse-further-maths-additional-maths-25": {
+   "resolved_ids": 3,
+   "code_entries_added": 18,
+   "by_tier": {
+    "V1_name_text_identity": 1,
+    "V2_name_phrase_identity": 2,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 116
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 18
+  },
+  "cie-igcse-history-18": {
+   "resolved_ids": 24,
+   "code_entries_added": 69,
+   "by_tier": {
+    "V1_name_text_identity": 10,
+    "V2_name_phrase_identity": 14,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 2,
+    "no_unique_identity": 292
+   },
+   "dangling_eq_refs_pending": 2,
+   "items_with_codes": 55
+  },
+  "cie-igcse-ict-21": {
+   "resolved_ids": 51,
+   "code_entries_added": 241,
+   "by_tier": {
+    "V1_name_text_identity": 36,
+    "V2_name_phrase_identity": 14,
+    "V3_subsection_head_identity": 1,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 34,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 70
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 223
+  },
+  "cie-igcse-maths-25-core": {
+   "resolved_ids": 20,
+   "code_entries_added": 240,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 20,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 6,
+    "no_unique_identity": 127
+   },
+   "dangling_eq_refs_pending": 290,
+   "items_with_codes": 231
+  },
+  "cie-igcse-maths-25-extended": {
+   "resolved_ids": 32,
+   "code_entries_added": 353,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 32,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 9,
+    "no_unique_identity": 161
+   },
+   "dangling_eq_refs_pending": 51,
+   "items_with_codes": 351
+  },
+  "cie-igcse-maths-international-maths-23-core": {
+   "resolved_ids": 23,
+   "code_entries_added": 235,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 23,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 5,
+    "no_unique_identity": 124
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 223
+  },
+  "cie-igcse-maths-international-maths-23-extended": {
+   "resolved_ids": 26,
+   "code_entries_added": 236,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 26,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 7,
+    "no_unique_identity": 156
+   },
+   "dangling_eq_refs_pending": 16,
+   "items_with_codes": 235
+  },
+  "cie-igcse-religious-studies-23": {
+   "resolved_ids": 79,
+   "code_entries_added": 154,
+   "by_tier": {
+    "V1_name_text_identity": 22,
+    "V2_name_phrase_identity": 57,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 274
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 98
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-biology": {
+   "resolved_ids": 22,
+   "code_entries_added": 72,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 22,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 24,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 17,
+    "no_unique_identity": 89
+   },
+   "dangling_eq_refs_pending": 0,
+   "items_with_codes": 67
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:45:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/environmental-management/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "environmental-management",
+  "exam_code": "0680",
+  "sme_course_id": "crs_vzfsS8bvF7CWXwg5",
+  "syllabus_version": "2025",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) IGCSE Environmental Management"
+ },
+ "section": {
+  "slug": "land",
+  "name": "Land"
+ },
+ "topic": {
+  "id": "top_5Vn9N6f4h4tdRRng",
+  "slug": "soil-erosion",
+  "name": "Soil Erosion",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "causes-and-impacts-of-soil-erosion",
+   "name": "Causes & Impacts of Soil Erosion",
+   "revision_note_id": "rn_CxGm6pRg8q7DGFfc"
+  },
+  {
+   "slug": "soil-erosion-management-strategies",
+   "name": "Soil Erosion Management Strategies",
+   "revision_note_id": "rn_cMz4D92BZ2dM9CZR"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_wzWhJdVBbJW6t87p",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/environmental-management/cie/25/topic-questions/land/soil-erosion/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 2,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_pd84WXgfrKSXgJ68",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ZxFGFnRtVDJm3Q69",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2027",
+      "number": "0680/02",
+      "question_number": 1,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_7bkR76nzrMyDcKYY"
+     ],
+     "part_tier": null,
+     "problem_md": "The farmer builds bunds to reduce soil erosion.\n\nExplain how bunds reduce soil erosion.",
+     "solution_md": "Bunds slow down surface run-off and allow more water to infiltrate, so less soil is washed away  **[1 mark]**. They also reduce the wind speed across the field, so less soil is blown away  **[1 mark]**.\n\n> **[mark-scheme]**\n> **Mark allocation**\n> \n> - **One mark** for each way bunds reduce soil erosion, with the reason, to a maximum of 2 marks\n> \n> **Alternative content**\n> \n> - Bunds trap soil that is washed downslope\n> - Any other suitable response\n\n> **[exam-tip]**\n> - Naming the bund is not enough. Explain what it does to the water or the wind and how this keeps the soil in place."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2SnwwjDM8gB4fM6g",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_zNJyH99QNg5X2HTP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2027",
+      "number": "0680/02",
+      "question_number": 1,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_FvstYbfkYQXBtX6h"
+     ],
+     "part_tier": null,
+     "problem_md": "The farmer reports that soil erosion has reduced crop yield.\n\nState three other impacts of soil erosion.",
+     "solution_md": "> **[mark-scheme]**\n> Answers about crop yield do not count, because the question has already given that impact.\n> \n> Any **three** from:\n> \n> - Silting of rivers\n> - Desertification\n> - Mass movement such as landslides or mudslides\n> - Loss of habitats\n> - Loss of biodiversity\n> - Displacement of people\n> - Malnutrition or famine\n> \n> **[3 marks]**\n\n> **[exam-tip]**\n> - Read the stem carefully. Anything about lower crop yield repeats the question and scores nothing."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "schema": "syllabai.c42-r19-r20-record/1.0",
+ "task": "T-C42 R19+R20",
+ "date": "2026-10-04",
+ "baseline": "c10553d",
+ "record_md": "graph/reports/C42_R19_R20_JOIN_SUBSTRATE_RECORD.md",
+ "check": {
+  "head": "c10553d",
+  "old_join_blob": "4c595d430c10444869e62ae2931c387326aac2be",
+  "old_store_blob": "63f879617a591c331a511f37d73ea551ae984a35",
+  "resolution_sha256_16": "b4539ab904c9a319",
+  "join_198_5": true,
+  "store_rows": 921,
+  "anchored": 839,
+  "unresolved_span_worklist": 23,
+  "demoted_worklist": 3,
+  "unmapped_sps": 59,
+  "covered_codes": 129
+ },
+ "all_pass": true,
+ "coverage_movement": {
+  "from": 128,
+  "to": 129,
+  "gained": [
+   "4MA1-1.3D"
+  ],
+  "lost": []
+ },
+ "substrate_shape": {
+  "rows": 921,
+  "anchored": 839,
+  "unresolved_span": 23,
+  "demoted": 3,
+  "uncovered_sp": 59
+ },
+ "footprint": [
+  "scripts/c32_notes_maths_a_join.py (R19 amendment)",
+  "scripts/c40_maths_a_chunk_sp_substrate.py@2.4.0 (R20 amendment)",
+  "scripts/c42_r19_r20_join_substrate_check.py",
+  "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+  "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+  "graph/reports/C42_R19_R20_CHECK.json",
+  "graph/reports/C42_R19_R20_JOIN_SUBSTRATE_RECORD.md",
+  "graph/reports/C42_R19_R20_JOIN_SUBSTRATE_RECORD.json"
+ ],
+ "lanes": {
+  "r19_join_rerun": {
+   "census": "198 joined / 5 unresolved / 203 anchors / 0 foreign codes — UNCHANGED (R18 re-pointed 0 note-level joins, cleared 0 anchors; the resolution file BYTE-UNTOUCHED, counts stay 222/214/8, last writer R14)",
+   "r18_standing_pins": "NEW at R19: converting-between-fdp -> 4MA1-1.2G on spcpt_8MpvS5pnYkf9QswF + basic-angle-properties -> 4MA1-4.1B on spcpt_5FMXZMjqSZ3GK53q, verified against the R18 map's own note_level_adjudications (ruling + anchor id + landed code, fail-closed)",
+   "carried_pins": "R14 re-point composite-functions -> 4MA1-3.2D; R10 CORRECT pair 2.2A / 2.2C; R10 STANDING related-calculations -> 1.8D",
+   "distinct_codes": "120/188; anchors by tier 81 Foundation / 117 Higher; wording census EXACT 173 / LEDGER_EXPLAINABLE 25 — all unchanged"
+  },
+  "r20_substrate_rebuild": {
+   "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@2.4.0 (T-C42 R20 amendment)",
+   "override_maps_consumed": "FIVE, fail-closed: R1 (16 entries) + R6 (7 incl. 2 subsumed-registry keys) + R10 (8: 7 REATTRIBUTE + first DEMOTE) + R14 (5: 4 REATTRIBUTE + second DEMOTE) + R18 (4: 1 verdicted REATTRIBUTE 1.2G -> 1.3D + 2 labeled extension REATTRIBUTEs -> 1.3D / 1.6C + the loop's third DEMOTE_TO_WORKLIST, basic-angle-properties ord 1, recorded never forced)",
+   "r18_landings": [
+    "converting-between-fdp::3 REATTRIBUTE -> 4MA1-1.3D (provenance_class verdicted)",
+    "converting-between-fdp::2 REATTRIBUTE -> 4MA1-1.3D (provenance_class extension)",
+    "converting-between-fdp::4 REATTRIBUTE -> 4MA1-1.6C (provenance_class extension)",
+    "basic-angle-properties::1 DEMOTE_TO_WORKLIST (round tag derived: C42 R18 surface 3)"
+   ],
+   "projection_landings": "the R18 projections computed, never assumed: coverage 128 -> 129 (gained 1.3D via the ord-3 verdicted + ord-2 extension rows, the R12/R16 coverage-gain precedent; the 1.3D uncovered-SP DEFER row resolved into anchored rows), unresolved-span 22 -> 23; the R18 map's gate arithmetic stays recorded-not-claimed — every re-gate re-seeds, the outcome is whatever the R21 re-gate actually computes"
+  }
+ },
+ "w4_reattribution_census": {
+  "wholesale_repoint_r14": 5,
+  "reattribute_override_rows": 31,
+  "reattribute_by_round": {"R1": 10, "R6": 7, "R10": 7, "R14": 4, "R18": 3},
+  "retain_rows": 4,
+  "subsumed_r1_entries": 2,
+  "demote_rows": 3,
+  "cleared_span_rows": 18,
+  "zero_drift_non_surface_rows": 799,
+  "replayed_total": 862
+ },
+ "chunk_identity_invariant": "the (note_path, ordinal, heading, sha256_16) multiset of all 862 chunk rows IDENTICAL to the pre-R20 blob 63f879617a591c33 — only code attribution moved; the R18 DEMOTE kept its chunk block",
+ "verification": "scripts/c42_r19_r20_join_substrate_check.py -> graph/reports/C42_R19_R20_CHECK.json (W1-W7 ALL PASS, exit 0; deterministic re-run byte-stable)",
+ "zero_promotion": "all 921 rows SUGGESTED / RULE_DERIVED; the substrate stays SUGGESTED, the C41-promoted 73 HUMAN_VALIDATED edges untouched; the SUGGESTED -> HUMAN_VALIDATED apply stays R5 (operator gate 3), armed only by a GREEN R21 re-gate; the R21 re-gate is NOT fired by this directive (the operator named R19+R20 alone; menu options (b) heading-only convention amendment, (c) fire R5 on confirmed rows, (d) accept and re-scope remain open)"
+}

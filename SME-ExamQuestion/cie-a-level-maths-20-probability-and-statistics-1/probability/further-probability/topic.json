@@ -1,0 +1,2629 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:10:02Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "maths",
+  "exam_code": "9709",
+  "sme_course_id": "crs_9fVmFm3g3fXrykfz",
+  "syllabus_version": "2021",
+  "sme_alias_path": "20/probability-and-statistics-1",
+  "course_name": "Cambridge (CIE) A Level Maths"
+ },
+ "section": {
+  "slug": "probability",
+  "name": "Probability"
+ },
+ "topic": {
+  "id": "top_ptvFKzjYmpXwWmgS",
+  "slug": "further-probability",
+  "name": "Further Probability",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "further-venn-diagrams",
+   "name": "Venn Diagrams with Conditional Probability",
+   "revision_note_id": "rn_SWBtJfCfTwQKbCR2"
+  },
+  {
+   "slug": "further-tree-diagrams",
+   "name": "Tree Diagrams with Conditional Probability",
+   "revision_note_id": "rn_YXWcjBnQCQp2GKTb"
+  },
+  {
+   "slug": "probability-formulae",
+   "name": "Probability Formulae",
+   "revision_note_id": "rn_bGnCyzPgHgVnfBXn"
+  },
+  {
+   "slug": "set-notation-and-conditional-probability",
+   "name": "Set Notation & Conditional Probability",
+   "revision_note_id": "rn_c3N4QGX9fyjS8mzw"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_s6kP8BBnGPq8Gqhx",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 25,
+   "questions_embedded": 25,
+   "page_url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/topic-questions/probability/further-probability/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 25,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/10/59491-vh04a-solution-tree.png": "001-tree-diagram-first-match-win-0-7-draw-0-2-lose-0.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/32007-vh05a-solution-tree.png": "002-tree-diagram-with-headers-cinema-and-snack-cinem.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/32306-h05a-solution-tree.png": "003-tree-diagram-with-headers-saturday-and-week-satu.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/14004-h05a-solution-tree.png": "004-tree-diagram-with-headers-saturday-and-week-satu.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/59368-h07a-solution-tree.png": "005-tree-diagram-with-headers-first-marble-and-secon.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/5017-h07a-solution-tree.png": "006-tree-diagram-with-headers-first-marble-and-secon.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/6959-h06a-question-tree.png": "007-tree-diagram-with-headers-first-sock-and-second-.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/114-h06a-solution-tree.png": "008-completed-tree-diagram-with-headers-first-sock-a.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/60379-h06a-solution-tree.png": "009-completed-tree-diagram-with-headers-first-sock-a.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/2-3-sq--q5a-medium-cie-a-level-statistics.png": "010-a-spinner-divided-into-seven-equal-sections-numb.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/19629-m08a-solution-tree.png": "011-tree-diagram-with-headers-game-and-sleep-game-wi.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/14800-m04a-solution-tree.png": "012-tree-diagram-with-headers-first-tadpole-and-seco.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/23253-m07a-solution-tree.png": "013-tree-diagram-with-headers-first-token-and-second.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/25938-m01a-question-tree.png": "014-tree-diagram-with-headers-weather-and-arrival-fi.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/43563-m01a-solution-tree.png": "015-completed-tree-diagram-with-headers-weather-and-.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/2950-m01a-solution-tree.png": "016-completed-tree-diagram-with-headers-weather-and-.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/57875-m01a-solution-tree.png": "017-completed-tree-diagram-with-headers-weather-and-.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/52059-e08a-solution-tree.png": "018-tree-diagram-with-headers-first-counter-and-seco.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/44437-e05a-question-tree.png": "019-tree-diagram-with-headers-first-attempt-and-seco.png",
+   "https://cdn.savemyexams.com/uploads/2026/10/45558-e05a-solution-tree.png": "020-completed-tree-diagram-with-headers-first-attemp.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_zg4hMXBnpz3CHgSs",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Svp8dZQzNWFQXD5t",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Gfcm92qtDBJvFpw2"
+     ],
+     "part_tier": null,
+     "problem_md": "A spinner has five sections numbered 1, 2, 3, 4 and 5. The probability that the spinner lands on the section numbered $x$ is $k x^{2}$, where $k$ is a constant and $x$ = 1, 2, 3, 4 or 5 only.\n\nFind the value of $k$.",
+     "solution_md": "The five probabilities must add to 1\n\n$k \\times 1^{2} + k \\times 2^{2} + k \\times 3^{2} + k \\times 4^{2} + k \\times 5^{2} = 1$\n\n$k ( 1 + 4 + 9 + 16 + 25 ) = 1$\n\n**[M1]**\n\n$55 k = 1$\n\n$k = \\frac{1}{55}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: The sum of kx² for x = 1 to 5 equated to 1.\n> \n> **A1**: k = 1/55.",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "k x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "kx^{2}"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k \\times 1^{2} + k \\times 2^{2} + k \\times 3^{2} + k \\times 4^{2} + k \\times 5^{2} = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>&#xD7;</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><mi>k</mi><mo>&#xD7;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mi>k</mi><mo>&#xD7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mi>k</mi><mo>&#xD7;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mi>k</mi><mo>&#xD7;</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
+       "alt": "k \\times 1^{2} + k \\times 2^{2} + k \\times 3^{2} + k \\times 4^{2} + k \\times 5^{2} = 1"
+      },
+      {
+       "latex": "k ( 1 + 4 + 9 + 16 + 25 ) = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1</mn></math>",
+       "alt": "k(1 + 4 + 9 + 16 + 25) = 1"
+      },
+      {
+       "latex": "55 k = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>55</mn><mi>k</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "55k = 1"
+      },
+      {
+       "latex": "k = \\frac{1}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mn>55</mn></mfrac></math>",
+       "alt": "k = \\dfrac{1}{55}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rbSHVyffksB89Bw3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw up a two-way table of probabilities for the events 'the spinner lands on an odd number' and 'the spinner lands on a prime number'.",
+     "solution_md": "Write each probability using $k = \\frac{1}{55}$\n\n| Number | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Probability | $\\frac{1}{55}$ | $\\frac{4}{55}$ | $\\frac{9}{55}$ | $\\frac{16}{55}$ | $\\frac{25}{55}$ |\n\nSort the numbers. 1 is odd but not prime; 2 is prime but not odd; 3 and 5 are both; 4 is neither\n\n$\\text{P(odd and prime)} = \\frac{9}{55} + \\frac{25}{55} = \\frac{34}{55}$\n\n**[M1]**\n\n|   | Prime | Not prime | Total |\n|---|---|---|---|\n| **Odd** | $\\frac{34}{55}$ | $\\frac{1}{55}$ | $\\frac{35}{55}$ |\n| **Not odd** | $\\frac{4}{55}$ | $\\frac{16}{55}$ | $\\frac{20}{55}$ |\n| **Total** | $\\frac{38}{55}$ | $\\frac{17}{55}$ | **Final answer:** **1** |\n\n**[B1 A1]**\n\n> **[mark-scheme]**\n> **M1**: At least two correct inner probabilities linked to the correct outcomes, e.g. 34/55 for odd and prime.\n> \n> **B1**: A two-by-two table with both attributes labelled (odd / not odd, prime / not prime).\n> \n> **A1**: All four inner probabilities correct, 34/55, 1/55, 4/55 and 16/55, with consistent totals.\n> \n> Totals are not required but act as a check. Equivalent fractions or decimals correct to 3 significant figures are accepted.",
+     "equations": [
+      {
+       "latex": "k = \\frac{1}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mn>55</mn></mfrac></math>",
+       "alt": "k = \\dfrac{1}{55}"
+      },
+      {
+       "latex": "\\frac{1}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{1}{55}"
+      },
+      {
+       "latex": "\\frac{4}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{4}{55}"
+      },
+      {
+       "latex": "\\frac{9}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{9}{55}"
+      },
+      {
+       "latex": "\\frac{16}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{16}{55}"
+      },
+      {
+       "latex": "\\frac{25}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{25}{55}"
+      },
+      {
+       "latex": "\\text{P(odd and prime)} = \\frac{9}{55} + \\frac{25}{55} = \\frac{34}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(odd and prime)</mtext><mo>=</mo><mfrac><mn>9</mn><mn>55</mn></mfrac><mo>+</mo><mfrac><mn>25</mn><mn>55</mn></mfrac><mo>=</mo><mfrac><mn>34</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\text{P(odd and prime)} = \\dfrac{9}{55} + \\dfrac{25}{55} = \\dfrac{34}{55}"
+      },
+      {
+       "latex": "\\frac{34}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>34</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{34}{55}"
+      },
+      {
+       "latex": "\\frac{1}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{1}{55}"
+      },
+      {
+       "latex": "\\frac{35}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>35</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{35}{55}"
+      },
+      {
+       "latex": "\\frac{4}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{4}{55}"
+      },
+      {
+       "latex": "\\frac{16}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{16}{55}"
+      },
+      {
+       "latex": "\\frac{20}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{20}{55}"
+      },
+      {
+       "latex": "\\frac{38}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>38</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{38}{55}"
+      },
+      {
+       "latex": "\\frac{17}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{17}{55}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mnvRkJ83KqtBW3PD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that the spinner lands on a number that is\n\n(i) neither odd nor prime\n\n(ii) not odd, given that it is prime\n\n(iii) prime, given that it is odd.",
+     "solution_md": "|   | Prime | Not prime | Total |\n|---|---|---|---|\n| **Odd** | $\\frac{34}{55}$ | $\\frac{1}{55}$ | $\\frac{35}{55}$ |\n| **Not odd** | $\\frac{4}{55}$ | $\\frac{16}{55}$ | $\\frac{20}{55}$ |\n| **Total** | $\\frac{38}{55}$ | $\\frac{17}{55}$ | 1 |\n\n(i)\n\nNeither odd nor prime is the number 4\n\n$\\text{P(neither)} = \\frac{16}{55}$\n\n**[B1]**\n\n(ii)\n\nUse the formula for conditional probability with the prime column\n\n`\\text{P(not odd} \\mid \\text{prime)} = \\dfrac{\\text{P(not odd and prime)}}{\\text{P(prime)}} = \\dfrac{\\dfrac{4}{55}}{\\dfrac{38}{55}}`\n\n`\\text{P(not odd} \\mid \\text{prime)} = \\dfrac{4}{38} = \\dfrac{2}{19}`\n\n**[B1]**\n\n(iii)\n\nUse the formula for conditional probability with the odd row\n\n`\\text{P(prime} \\mid \\text{odd)} = \\dfrac{\\text{P(prime and odd)}}{\\text{P(odd)}} = \\dfrac{\\dfrac{34}{55}}{\\dfrac{35}{55}}`\n\n`\\text{P(prime} \\mid \\text{odd)} = \\dfrac{34}{35}`\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of 16/55 (answers which round to 0.291).\n> \n> **B1**: Probability of 2/19 (or 4/38; answers which round to 0.105), following through from the table in part (b).\n> \n> **B1**: Probability of 34/35 (answers which round to 0.971), following through from the table in part (b).",
+     "equations": [
+      {
+       "latex": "\\frac{34}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>34</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{34}{55}"
+      },
+      {
+       "latex": "\\frac{1}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{1}{55}"
+      },
+      {
+       "latex": "\\frac{35}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>35</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{35}{55}"
+      },
+      {
+       "latex": "\\frac{4}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{4}{55}"
+      },
+      {
+       "latex": "\\frac{16}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{16}{55}"
+      },
+      {
+       "latex": "\\frac{20}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{20}{55}"
+      },
+      {
+       "latex": "\\frac{38}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>38</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{38}{55}"
+      },
+      {
+       "latex": "\\frac{17}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\dfrac{17}{55}"
+      },
+      {
+       "latex": "\\text{P(neither)} = \\frac{16}{55}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(neither)</mtext><mo>=</mo><mfrac><mn>16</mn><mn>55</mn></mfrac></math>",
+       "alt": "\\text{P(neither)} = \\dfrac{16}{55}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QyJFfBj79VcwgQpG",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_WgXsqnSvbyhKzdrs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "In an online chess tournament, each match begins with a standard game, which is either won outright, lost outright or drawn. If the standard game is drawn, a single sudden-death game is played to decide the winner of the match. A sudden-death game cannot be drawn. A player who wins a match goes on to play another match.\n\nIn his first match, the probability that Jamie wins outright is 0.7 and the probability that he loses outright is 0.1.\n\nIf Jamie wins his first match outright, the probabilities that he wins or loses his second match outright are again 0.7 and 0.1.\n\nIf Jamie wins his first match after a sudden-death game, the probability that he wins his second match outright is 0.55 and the probability that he loses it outright is 0.3.\n\nThe probability that Jamie wins any sudden-death game is $p$.\n\nGiven that the probability that Jamie wins both of his first two matches is 0.6508, find the value of $p$.",
+     "solution_md": "A standard game is drawn with probability $1 - 0 . 7 - 0 . 1 = 0 . 2$ in the first match, and $1 - 0 . 55 - 0 . 3 = 0 . 15$ after a sudden-death win. Draw a tree diagram\n\n![Tree diagram. First match: Win 0.7, Draw 0.2, Lose 0.1. After Draw: Win SD p, Lose SD 1 − p. After a first-match Win: Win 0.7, Draw 0.2 (then Win SD p, Lose SD 1 − p), Lose 0.1. After a first-match Win SD: Win 0.55, Draw 0.15 (then Win SD p, Lose SD 1 − p), Lose 0.3](assets/001-tree-diagram-first-match-win-0-7-draw-0-2-lose-0.png)\n\nThere are four ways to win both matches. Win both outright\n\n$0 . 7 \\times 0 . 7 = 0 . 49$\n\nWin the first outright, then the second by sudden death\n\n$0 . 7 \\times 0 . 2 p = 0 . 14 p$\n\nWin the first by sudden death, then the second outright\n\n$0 . 2 p \\times 0 . 55 = 0 . 11 p$\n\nWin both by sudden death\n\n$0 . 2 p \\times 0 . 15 p = 0 . 03 p^{2}$\n\n**[M1]**\n\nAdd the four and set the total equal to 0.6508\n\n$0 . 49 + 0 . 14 p + 0 . 11 p + 0 . 03 p^{2} = 0 . 6508$\n\n**[M1]**\n\nCollect the terms\n\n$0 . 03 p^{2} + 0 . 25 p - 0 . 1608 = 0$\n\n**[A1]**\n\nSolve with the quadratic formula\n\n`p = \\dfrac{-0.25 \\pm \\sqrt{0.25^{2} - 4 \\times 0.03 \\times \\left(-0.1608\\right)}}{2 \\times 0.03}`\n\n$p = \\frac{-0.25\\pm\\sqrt{0.081796}}{0.06} = \\frac{-0.25\\pm0.286}{0.06}$\n\n**[M1]**\n\nA probability must lie between 0 and 1, so reject the negative root $p = - 8 . 93 \\dots$\n\n$p = 0 . 6$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: At least two of the four winning paths correct, e.g. 0.7 × 0.7 and 0.7 × 0.2p.\n> \n> **M1**: The sum of all four paths, with no extra terms, equated to 0.6508.\n> \n> **A1**: A correct quadratic, 0.03p² + 0.25p − 0.1608 = 0 or an equivalent such as 75p² + 625p − 402 = 0.\n> \n> **M1**: A correct method to solve their three-term quadratic.\n> \n> **A1**: p = 0.6 only, with the negative root rejected or not stated.",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "1 - 0 . 7 - 0 . 1 = 0 . 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn></math>",
+       "alt": "1 - 0.7 - 0.1 = 0.2"
+      },
+      {
+       "latex": "1 - 0 . 55 - 0 . 3 = 0 . 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>55</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn></math>",
+       "alt": "1 - 0.55 - 0.3 = 0.15"
+      },
+      {
+       "latex": "0 . 7 \\times 0 . 7 = 0 . 49",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>49</mn></math>",
+       "alt": "0.7 \\times 0.7 = 0.49"
+      },
+      {
+       "latex": "0 . 7 \\times 0 . 2 p = 0 . 14 p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>14</mn><mi>p</mi></math>",
+       "alt": "0.7 \\times 0.2p = 0.14p"
+      },
+      {
+       "latex": "0 . 2 p \\times 0 . 55 = 0 . 11 p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>2</mn><mi>p</mi><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>55</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>11</mn><mi>p</mi></math>",
+       "alt": "0.2p \\times 0.55 = 0.11p"
+      },
+      {
+       "latex": "0 . 2 p \\times 0 . 15 p = 0 . 03 p^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>2</mn><mi>p</mi><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>15</mn><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>03</mn><msup><mi>p</mi><mn>2</mn></msup></math>",
+       "alt": "0.2p \\times 0.15p = 0.03p^{2}"
+      },
+      {
+       "latex": "0 . 49 + 0 . 14 p + 0 . 11 p + 0 . 03 p^{2} = 0 . 6508",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>49</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>14</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>03</mn><msup><mi>p</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>.</mo><mn>6508</mn></math>",
+       "alt": "0.49 + 0.14p + 0.11p + 0.03p^{2} = 0.6508"
+      },
+      {
+       "latex": "0 . 03 p^{2} + 0 . 25 p - 0 . 1608 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>03</mn><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><mn>0</mn><mo>.</mo><mn>25</mn><mi>p</mi><mo>-</mo><mn>0</mn><mo>.</mo><mn>1608</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "0.03p^{2} + 0.25p - 0.1608 = 0"
+      },
+      {
+       "latex": "p = \\frac{-0.25\\pm\\sqrt{0.081796}}{0.06} = \\frac{-0.25\\pm0.286}{0.06}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>25</mn><mo>&#xB1;</mo><msqrt><mn>0</mn><mo>.</mo><mn>081796</mn></msqrt></mrow><mrow><mn>0</mn><mo>.</mo><mn>06</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>25</mn><mo>&#xB1;</mo><mn>0</mn><mo>.</mo><mn>286</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>06</mn></mrow></mfrac></math>",
+       "alt": "p = \\dfrac{-0.25 \\pm \\sqrt{0.081796}}{0.06} = \\dfrac{-0.25 \\pm 0.286}{0.06}"
+      },
+      {
+       "latex": "p = - 8 . 93 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mo>-</mo><mn>8</mn><mo>.</mo><mn>93</mn><mo>&#x2026;</mo></math>",
+       "alt": "p = -8.93\\ldots"
+      },
+      {
+       "latex": "p = 0 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "p = 0.6"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pwKh5ywTxzwy8Mhp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that Jamie won both of his first two matches outright, given that he won both of these matches.",
+     "solution_md": "![Tree diagram. First match: Win 0.7, Draw 0.2, Lose 0.1. After Draw: Win SD p, Lose SD 1 − p. After a first-match Win: Win 0.7, Draw 0.2 (then Win SD p, Lose SD 1 − p), Lose 0.1. After a first-match Win SD: Win 0.55, Draw 0.15 (then Win SD p, Lose SD 1 − p), Lose 0.3](assets/001-tree-diagram-first-match-win-0-7-draw-0-2-lose-0.png)\n\nUse the formula for conditional probability\n\n`\\text{P(both outright} \\mid \\text{won both)} = \\dfrac{\\text{P(both outright)}}{\\text{P(won both)}}`\n\nWinning both outright is one of the ways of winning both, and the probability of winning both is given\n\n`\\text{P(both outright} \\mid \\text{won both)} = \\dfrac{0.7 \\times 0.7}{0.6508} = \\dfrac{0.49}{0.6508}`\n\n**[M1]**\n\n**Final answer:** `\\text{P(both outright} \\mid \\text{won both)} = 0.753`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.7 × 0.7 (or 0.49) divided by 0.6508.\n> \n> **A1**: Probability of 1225/1627 (answers which round to 0.753)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MWGz656wQmCN5q8J",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_8ZpffrYz7T9GKyf7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK",
+      "spcpt_89ps9KCVtj4YGq2C"
+     ],
+     "part_tier": null,
+     "problem_md": "A basket contains 6 green apples and 8 red apples. Five apples are chosen at random from the basket, without replacement.\n\n(i) Find the probability that 2 red apples and 3 green apples are chosen.\n\n(ii) Given that the first 4 apples chosen are green, find the probability that the fifth apple chosen is green.",
+     "solution_md": "(i)\n\nCount the selections of 2 red apples from 8 and 3 green apples from 6\n\n`{}^{8}C_{2} \\times {}^{6}C_{3} = 28 \\times 20 = 560`\n\n**[M1]**\n\nDivide by the number of ways of choosing any 5 of the 14 apples\n\n`\\text{P(2 red, 3 green)} = \\dfrac{560}{{}^{14}C_{5}} = \\dfrac{560}{2002}`\n\n**[M1]**\n\n**Final answer:** $\\text{P(2 red, 3 green)} = \\frac{40}{143} = 0 . 280$** (3 s.f.)**\n\n**[A1]**\n\n(ii)\n\nAfter 4 green apples have been chosen, 10 apples remain, and 2 of them are green\n\n`\\text{P(fifth green} \\mid \\text{first four green)} = \\dfrac{2}{10}`\n\n**[M1]**\n\n`\\text{P(fifth green} \\mid \\text{first four green)} = \\dfrac{1}{5}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: ⁸C₂ × ⁶C₃ seen as a numerator, or a 5-factor product such as 8/14 × 7/13 × 6/12 × 5/11 × 4/10 for one order.\n> \n> **M1**: Division by ¹⁴C₅ (or 2002), or the 5-factor product multiplied by 10 (or ⁵C₂).\n> \n> **A1**: Probability of 40/143 (answers which round to 0.280).\n> \n> **M1**: 2 green apples out of the 10 that remain, or a correct use of the conditional probability formula.\n> \n> **A1**: Probability of 1/5 (or 0.2).",
+     "equations": [
+      {
+       "latex": "\\text{P(2 red, 3 green)} = \\frac{40}{143} = 0 . 280",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(2 red, 3 green)</mtext><mo>=</mo><mfrac><mn>40</mn><mn>143</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>280</mn></math>",
+       "alt": "\\text{P(2 red, 3 green)} = \\dfrac{40}{143} = 0.280"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pXDt9mf3s3jGB57D",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "A second basket contains 4 green apples and 5 red apples. The apples in the two baskets are combined, and 2 apples are chosen at random from the combined apples, without replacement.\n\nFind the probability that the 2 apples are from the same basket, given that they are the same colour.",
+     "solution_md": "There are now 23 apples: 10 green and 13 red. Use the formula for conditional probability\n\n`\\text{P(same basket} \\mid \\text{same colour)} = \\dfrac{\\text{P(same basket and same colour)}}{\\text{P(same colour)}}`\n\nEvery pair of 2 apples from the 23 is equally likely, so count pairs. Pairs from the same basket and of the same colour, from the first basket then the second\n\n`\\left({}^{6}C_{2} + {}^{8}C_{2}\\right) + \\left({}^{4}C_{2} + {}^{5}C_{2}\\right) = (15 + 28) + (6 + 10) = 59`\n\n**[M1]**\n\nPairs of the same colour, from all 23 apples\n\n`{}^{10}C_{2} + {}^{13}C_{2} = 45 + 78 = 123`\n\n**[M1]**\n\nBoth counts are out of the same total of `{}^{23}C_{2}` pairs, which cancels\n\n**Final answer:** `\\text{P(same basket} \\mid \\text{same colour)} = \\dfrac{59}{123} = 0.480`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 59 (or 59/253) for pairs from the same basket and of the same colour, seen as the numerator of a conditional probability fraction.\n> \n> **M1**: 123 (or 123/253) for pairs of the same colour, seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 59/123 (answers which round to 0.480).\n> \n> Working with probabilities instead of counts is also accepted, e.g. 8/23 × 7/22 + 6/23 × 5/22 + 5/23 × 4/22 + 4/23 × 3/22 as the numerator."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bhZZvZc9gFNnBbks",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_v9RYz8NmNjCjW42f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of 180 people consists of mathematics students and mathematics teachers. Each person was asked whether they prefer reading Latin poetry or taking part in extreme sports in their free time. Some of the results are shown in the table below.\n\n|   | Latin poetry | Extreme sports | Total |\n|---|---|---|---|\n| **Students** | 63 |   |   |\n| **Teachers** |   |   | 72 |\n| **Total** |   |   | 180 |\n\nA person is chosen at random from the group. It is given that the events 'the person chosen is a mathematics student' and 'the person chosen prefers reading Latin poetry' are independent.\n\nComplete the table.",
+     "solution_md": "The number of students is the rest of the 180\n\n$180 - 72 = 108$\n\n**[B1]**\n\nFor independent events, being a student does not change the probability of preferring Latin poetry\n\n`\\text{P(Latin} \\mid \\text{student)} = \\text{P(Latin)}`\n\nLet $L$ be the total number who prefer Latin poetry, and substitute\n\n$\\frac{63}{108} = \\frac{L}{180}$\n\n**[M1]**\n\n$L = \\frac{63\\times180}{108} = 105$\n\n**[A1]**\n\nFill in the rest of the table by subtracting from the totals\n\n$105 - 63 = 42$\n\n$180 - 105 = 75$\n\n$108 - 63 = 45$\n\n$72 - 42 = 30$\n\n|   | Latin poetry | Extreme sports | Total |\n|---|---|---|---|\n| **Students** | 63 | **Final answer:** **45** | **Final answer:** **108** |\n| **Teachers** | **Final answer:** **42** | **Final answer:** **30** | 72 |\n| **Total** | **Final answer:** **105** | **Final answer:** **75** | 180 |\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: 108 students, seen in the table or the working.\n> \n> **M1**: Correct use of independence to find the Latin poetry total or the number of teachers preferring Latin poetry, e.g. 63/108 = L/180, or 72 × 63/108, or P(student) × P(Latin) = 63/180.\n> \n> **A1**: 105 who prefer Latin poetry, or 42 teachers who prefer Latin poetry.\n> \n> **A1**: All remaining cells correct: 45, 108, 42, 30, 105 and 75.",
+     "equations": [
+      {
+       "latex": "180 - 72 = 108",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>-</mo><mn>72</mn><mo>=</mo><mn>108</mn></math>",
+       "alt": "180 - 72 = 108"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "\\frac{63}{108} = \\frac{L}{180}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>63</mn><mn>108</mn></mfrac><mo>=</mo><mfrac><mi>L</mi><mn>180</mn></mfrac></math>",
+       "alt": "\\dfrac{63}{108} = \\dfrac{L}{180}"
+      },
+      {
+       "latex": "L = \\frac{63\\times180}{108} = 105",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mfrac><mrow><mn>63</mn><mo>&#xD7;</mo><mn>180</mn></mrow><mn>108</mn></mfrac><mo>=</mo><mn>105</mn></math>",
+       "alt": "L = \\dfrac{63 \\times 180}{108} = 105"
+      },
+      {
+       "latex": "105 - 63 = 42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>105</mn><mo>-</mo><mn>63</mn><mo>=</mo><mn>42</mn></math>",
+       "alt": "105 - 63 = 42"
+      },
+      {
+       "latex": "180 - 105 = 75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>-</mo><mn>105</mn><mo>=</mo><mn>75</mn></math>",
+       "alt": "180 - 105 = 75"
+      },
+      {
+       "latex": "108 - 63 = 45",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>108</mn><mo>-</mo><mn>63</mn><mo>=</mo><mn>45</mn></math>",
+       "alt": "108 - 63 = 45"
+      },
+      {
+       "latex": "72 - 42 = 30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>-</mo><mn>42</mn><mo>=</mo><mn>30</mn></math>",
+       "alt": "72 - 42 = 30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7ZZnxdfGrv3dqDx8",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_KCmVJCpb9Zjb5pXv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8jpsFGFMWZ2ywS5"
+     ],
+     "part_tier": null,
+     "problem_md": "Dennis and Minnie play a game using a box containing black counters and red counters. The number of red counters in the box is 3 more than the number of black counters.\n\nIn each turn of the game, a player selects two counters at random from the box at the same time. The first player to obtain two counters of the same colour wins the game.\n\nDennis takes the first turn. The probability that Dennis wins on his first turn is $\\frac{17}{35}$.\n\nFind the two possible values for the number of black counters in the box.",
+     "solution_md": "Let there be $b$ black counters, so there are $b + 3$ red counters and $2 b + 3$ counters altogether. Taking two at once is the same as taking two without replacement\n\n$\\text{P} ( B ,  B ) = \\frac{b}{2b+3} \\times \\frac{b-1}{2b+2}$\n\n$\\text{P} ( R ,  R ) = \\frac{b+3}{2b+3} \\times \\frac{b+2}{2b+2}$\n\nDennis wins if both are the same colour, so add and set equal to the given probability\n\n$\\frac{b(b-1)+(b+3)(b+2)}{(2b+3)(2b+2)} = \\frac{17}{35}$\n\n**[M1 A1]**\n\nExpand the numerator\n\n$\\frac{2b^{2}+4b+6}{(2b+3)(2b+2)} = \\frac{17}{35}$\n\nDivide the top and bottom by 2\n\n$\\frac{b^{2}+2b+3}{(2b+3)(b+1)} = \\frac{17}{35}$\n\nCross-multiply\n\n`35\\left(b^{2} + 2b + 3\\right) = 17\\left(2b^{2} + 5b + 3\\right)`\n\n$35 b^{2} + 70 b + 105 = 34 b^{2} + 85 b + 51$\n\n**[M1]**\n\nCollect the terms on one side\n\n$b^{2} - 15 b + 54 = 0$\n\n**[A1]**\n\nFactorise\n\n$( b - 6 ) ( b - 9 ) = 0$\n\n$b = 6 \\text{or} b = 9$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: P(B, B) + P(R, R) written in terms of b, with denominators 2b + 3 and 2b + 2 (or combinations ᵇC₂ + ᵇ⁺³C₂ over ²ᵇ⁺³C₂).\n> \n> **A1**: A fully correct unsimplified equation equal to 17/35.\n> \n> **M1**: Fractions cleared and terms expanded to form a three-term quadratic in b.\n> \n> **A1**: b² − 15b + 54 = 0, or an equivalent such as 2b² − 30b + 108 = 0.\n> \n> **A1**: Both values, 6 and 9.",
+     "equations": [
+      {
+       "latex": "\\frac{17}{35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>35</mn></mfrac></math>",
+       "alt": "\\dfrac{17}{35}"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mn>3</mn></math>",
+       "alt": "b + 3"
+      },
+      {
+       "latex": "2 b + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn></math>",
+       "alt": "2b + 3"
+      },
+      {
+       "latex": "\\text{P} ( B ,  B ) = \\frac{b}{2b+3} \\times \\frac{b-1}{2b+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>B</mi><mo>,</mo><mo>&#xA0;</mo><mi>B</mi><mo>)</mo><mo>=</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><mi>b</mi><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math>",
+       "alt": "\\text{P}(B, \\; B) = \\dfrac{b}{2b + 3} \\times \\dfrac{b - 1}{2b + 2}"
+      },
+      {
+       "latex": "\\text{P} ( R ,  R ) = \\frac{b+3}{2b+3} \\times \\frac{b+2}{2b+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>,</mo><mo>&#xA0;</mo><mi>R</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>b</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><mi>b</mi><mo>+</mo><mn>2</mn></mrow><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math>",
+       "alt": "\\text{P}(R, \\; R) = \\dfrac{b + 3}{2b + 3} \\times \\dfrac{b + 2}{2b + 2}"
+      },
+      {
+       "latex": "\\frac{b(b-1)+(b+3)(b+2)}{(2b+3)(2b+2)} = \\frac{17}{35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>17</mn><mn>35</mn></mfrac></math>",
+       "alt": "\\dfrac{b(b - 1) + (b + 3)(b + 2)}{(2b + 3)(2b + 2)} = \\dfrac{17}{35}"
+      },
+      {
+       "latex": "\\frac{2b^{2}+4b+6}{(2b+3)(2b+2)} = \\frac{17}{35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>b</mi><mo>+</mo><mn>6</mn></mrow><mrow><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>17</mn><mn>35</mn></mfrac></math>",
+       "alt": "\\dfrac{2b^{2} + 4b + 6}{(2b + 3)(2b + 2)} = \\dfrac{17}{35}"
+      },
+      {
+       "latex": "\\frac{b^{2}+2b+3}{(2b+3)(b+1)} = \\frac{17}{35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn></mrow><mrow><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>17</mn><mn>35</mn></mfrac></math>",
+       "alt": "\\dfrac{b^{2} + 2b + 3}{(2b + 3)(b + 1)} = \\dfrac{17}{35}"
+      },
+      {
+       "latex": "35 b^{2} + 70 b + 105 = 34 b^{2} + 85 b + 51",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>70</mn><mi>b</mi><mo>+</mo><mn>105</mn><mo>=</mo><mn>34</mn><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>85</mn><mi>b</mi><mo>+</mo><mn>51</mn></math>",
+       "alt": "35b^{2} + 70b + 105 = 34b^{2} + 85b + 51"
+      },
+      {
+       "latex": "b^{2} - 15 b + 54 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>54</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "b^{2} - 15b + 54 = 0"
+      },
+      {
+       "latex": "( b - 6 ) ( b - 9 ) = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>b</mi><mo>-</mo><mn>6</mn><mo>)</mo><mo>(</mo><mi>b</mi><mo>-</mo><mn>9</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>",
+       "alt": "(b - 6)(b - 9) = 0"
+      },
+      {
+       "latex": "b = 6 \\text{or} b = 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn><mtext>&#xA0;or&#xA0;</mtext><mi>b</mi><mo>=</mo><mn>9</mn></math>",
+       "alt": "b = 6 \\text{ or } b = 9"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_66b2TRDPSBxwG8nK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Dennis does not win on his first turn, and he does not replace his counters in the box. Minnie then selects two counters at random from the counters left in the box.\n\nGiven that Minnie wins on her first turn, the probability that she selects two red counters is $\\frac{14}{19}$.\n\nFind the original number of black counters in the box.",
+     "solution_md": "Dennis did not win, so he took one black and one red counter. Count what is left\n\n$b - 1 \\text{black and} b + 2 \\text{red counters}$\n\n**[B1]**\n\nTest the two values from part (a). For $b = 6$ there are 5 black and 8 red counters, 13 in all. Use the formula for conditional probability\n\n`\\text{P}(R, \\; R \\mid \\text{same colour}) = \\dfrac{\\text{P}(R, \\; R)}{\\text{P}(R, \\; R) + \\text{P}(B, \\; B)}`\n\n`\\text{P}(R, \\; R \\mid \\text{same colour}) = \\dfrac{\\dfrac{8}{13} \\times \\dfrac{7}{12}}{\\dfrac{8}{13} \\times \\dfrac{7}{12} + \\dfrac{5}{13} \\times \\dfrac{4}{12}} = \\dfrac{56}{56 + 20} = \\dfrac{14}{19}`\n\n**[M1]**\n\nFor $b = 9$ there are 8 black and 11 red counters\n\n`\\text{P}(R, \\; R \\mid \\text{same colour}) = \\dfrac{11 \\times 10}{11 \\times 10 + 8 \\times 7} = \\dfrac{110}{166} = \\dfrac{55}{83} \\neq \\dfrac{14}{19}`\n\nOnly $b = 6$ gives the stated probability\n\n**Final answer:** **There were 6 black counters in the box originally**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: b − 1 black and b + 2 red counters left (or 5 and 8, or 8 and 11), seen or implied.\n> \n> **M1**: P(R, R) ÷ (P(R, R) + P(B, B)) for at least one of the values from part (a), or the same expression in terms of b equated to 14/19.\n> \n> **A1**: 6, with b = 9 shown to fail (or, from the algebra, 3b² − 19b + 6 = 0 with b = 1/3 rejected).",
+     "equations": [
+      {
+       "latex": "\\frac{14}{19}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>19</mn></mfrac></math>",
+       "alt": "\\dfrac{14}{19}"
+      },
+      {
+       "latex": "b - 1 \\text{black and} b + 2 \\text{red counters}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>-</mo><mn>1</mn><mtext>&#xA0;black and&#xA0;</mtext><mi>b</mi><mo>+</mo><mn>2</mn><mtext>&#xA0;red counters</mtext></math>",
+       "alt": "b - 1 \\text{ black and } b + 2 \\text{ red counters}"
+      },
+      {
+       "latex": "b = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "b = 6"
+      },
+      {
+       "latex": "b = 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math>",
+       "alt": "b = 9"
+      },
+      {
+       "latex": "b = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "b = 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7xKX8WYzSYhfTPsn",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_vSVKRW6hcncY4XHs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the cost, in dollars, of Lucy's three favourite snacks at two cinemas, The Amenic and The Seivom.\n\n| Snack | Cost at The Amenic (\\$) | Cost at The Seivom (\\$) |\n|---|---|---|\n| **Popcorn** | 4.50 | 6.00 |\n| **Ice cream** | 3.80 | 4.20 |\n| **Nachos** | 6.00 | 8.20 |\n\nWhen Lucy goes to the cinema, she always chooses one of these two cinemas and always buys exactly one of these three snacks.\n\nIf Lucy chooses The Amenic, the probability that she buys popcorn is 0.2 and the probability that she buys ice cream is 0.5.\n\nIf Lucy chooses The Seivom, the probability that she buys nachos is 0.4 and the probability that she buys ice cream is 0.2.\n\nThe probability that Lucy spends exactly \\$6 on her snack is 0.33.\n\nFind the probability that Lucy chooses The Amenic.",
+     "solution_md": "Let the probability that she chooses The Amenic be $p$. The missing snack probabilities are $1 - 0 . 2 - 0 . 5 = 0 . 3$ for nachos at The Amenic and $1 - 0 . 4 - 0 . 2 = 0 . 4$ for popcorn at The Seivom. Draw a tree diagram\n\n![Tree diagram with headers Cinema and Snack. Cinema: Amenic p, Seivom 1 − p. After Amenic: Popcorn ($4.50) 0.2, Ice cream ($3.80) 0.5, Nachos ($6) 0.3. After Seivom: Popcorn ($6) 0.4, Ice cream ($4.20) 0.2, Nachos ($8.20) 0.4](assets/002-tree-diagram-with-headers-cinema-and-snack-cinem.png)\n\nShe spends exactly \\$6 on nachos at The Amenic or popcorn at The Seivom, so add those two products\n\n$\\text{P(spends 6 dollars)} = 0 . 3 p + 0 . 4 ( 1 - p )$\n\n**[M1]**\n\nThis is given to be 0.33\n\n$0 . 3 p + 0 . 4 ( 1 - p ) = 0 . 33$\n\n**[A1]**\n\nExpand and solve\n\n$0 . 4 - 0 . 1 p = 0 . 33$\n\n$0 . 1 p = 0 . 07$\n\n**[M1]**\n\n$p = 0 . 7$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of two two-factor products for spending exactly \\$6, e.g. 0.3p + 0.4(1 − p), which may be seen on a tree diagram.\n> \n> **A1**: Correct equation, 0.3p + 0.4(1 − p) = 0.33, unsimplified accepted.\n> \n> **M1**: Correct method to solve a linear equation of this form.\n> \n> **A1**: Probability of 0.7.",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "1 - 0 . 2 - 0 . 5 = 0 . 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn></math>",
+       "alt": "1 - 0.2 - 0.5 = 0.3"
+      },
+      {
+       "latex": "1 - 0 . 4 - 0 . 2 = 0 . 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn></math>",
+       "alt": "1 - 0.4 - 0.2 = 0.4"
+      },
+      {
+       "latex": "\\text{P(spends 6 dollars)} = 0 . 3 p + 0 . 4 ( 1 - p )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(spends 6 dollars)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></math>",
+       "alt": "\\text{P(spends 6 dollars)} = 0.3p + 0.4(1 - p)"
+      },
+      {
+       "latex": "0 . 3 p + 0 . 4 ( 1 - p ) = 0 . 33",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>3</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>33</mn></math>",
+       "alt": "0.3p + 0.4(1 - p) = 0.33"
+      },
+      {
+       "latex": "0 . 4 - 0 . 1 p = 0 . 33",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>4</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>1</mn><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>33</mn></math>",
+       "alt": "0.4 - 0.1p = 0.33"
+      },
+      {
+       "latex": "0 . 1 p = 0 . 07",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>1</mn><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>07</mn></math>",
+       "alt": "0.1p = 0.07"
+      },
+      {
+       "latex": "p = 0 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "p = 0.7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kXnjR8jbJ9ztMQg5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that Lucy chose The Seivom, given that she spent less than \\$5 on her snack.",
+     "solution_md": "![Tree diagram with headers Cinema and Snack. Cinema: Amenic p, Seivom 1 − p. After Amenic: Popcorn ($4.50) 0.2, Ice cream ($3.80) 0.5, Nachos ($6) 0.3. After Seivom: Popcorn ($6) 0.4, Ice cream ($4.20) 0.2, Nachos ($8.20) 0.4](assets/002-tree-diagram-with-headers-cinema-and-snack-cinem.png)\n\nUse the formula for conditional probability\n\n`\\text{P(Seivom} \\mid \\text{under 5 dollars)} = \\dfrac{\\text{P(Seivom and under 5 dollars)}}{\\text{P(under 5 dollars)}}`\n\nAt The Seivom, only ice cream costs less than 5 dollars, and the probability of choosing The Seivom is 1 − 0.7 from part (a)\n\n$\\text{P(Seivom and under 5 dollars)} = 0 . 3 \\times 0 . 2 = 0 . 06$\n\n**[M1]**\n\nAt The Amenic, popcorn and ice cream both cost less than 5 dollars\n\n$\\text{P(under 5 dollars)} = 0 . 7 \\times 0 . 2 + 0 . 7 \\times 0 . 5 + 0 . 3 \\times 0 . 2 = 0 . 55$\n\n**[M1]**\n\n`\\text{P(Seivom} \\mid \\text{under 5 dollars)} = \\dfrac{0.06}{0.55}`\n\n**Final answer:** `\\text{P(Seivom} \\mid \\text{under 5 dollars)} = \\dfrac{6}{55} = 0.109`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.3 × 0.2 (or (1 − the answer to (a)) × 0.2) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: Sum of the three products for snacks under \\$5, 0.7 × 0.2 + 0.7 × 0.5 + 0.3 × 0.2, seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 6/55 (answers which round to 0.109).",
+     "equations": [
+      {
+       "latex": "\\text{P(Seivom and under 5 dollars)} = 0 . 3 \\times 0 . 2 = 0 . 06",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(Seivom and under 5 dollars)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>06</mn></math>",
+       "alt": "\\text{P(Seivom and under 5 dollars)} = 0.3 \\times 0.2 = 0.06"
+      },
+      {
+       "latex": "\\text{P(under 5 dollars)} = 0 . 7 \\times 0 . 2 + 0 . 7 \\times 0 . 5 + 0 . 3 \\times 0 . 2 = 0 . 55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(under 5 dollars)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>55</mn></math>",
+       "alt": "\\text{P(under 5 dollars)} = 0.7 \\times 0.2 + 0.7 \\times 0.5 + 0.3 \\times 0.2 = 0.55"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zMJJhPQ4gVYXhyZD",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_9SRcXtnTjpxBr4p3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP"
+     ],
+     "part_tier": null,
+     "problem_md": "Some people at a convention were asked whether they liked anchovies and whether they liked bananas as pizza toppings. Of the people asked,\n\n144 said that they do not like anchovies\n\n320 said that they do not like bananas\n\n28 said that they like bananas but do not like anchovies\n\n12 said that they like both anchovies and bananas.\n\nDraw up a table to represent this information.",
+     "solution_md": "Start a two-way table with the given values\n\n|   | Likes anchovies | Does not like anchovies | Total |\n|---|---|---|---|\n| **Likes bananas** | 12 | 28 |   |\n| **Does not like bananas** |   |   | 320 |\n| **Total** |   | 144 |   |\n\nOf the 144 who do not like anchovies, 28 like bananas, so the rest like neither\n\n$144 - 28 = 116$\n\nOf the 320 who do not like bananas, 116 do not like anchovies, so the rest like anchovies only\n\n$320 - 116 = 204$\n\nComplete the totals\n\n$12 + 28 = 40 \\text{like bananas}$\n\n$12 + 204 = 216 \\text{like anchovies}$\n\n$40 + 320 = 360 \\text{in total}$\n\n|   | Likes anchovies | Does not like anchovies | Total |\n|---|---|---|---|\n| **Likes bananas** | 12 | 28 | **Final answer:** **40** |\n| **Does not like bananas** | **Final answer:** **204** | **Final answer:** **116** | 320 |\n| **Total** | **Final answer:** **216** | 144 | **Final answer:** **360** |\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: A two-way table with both attributes labelled (likes / does not like anchovies, likes / does not like bananas).\n> \n> **B1**: The four inner values 12, 28, 204 and 116 correct.\n> \n> **B1**: All totals correct, including the overall total of 360.\n> \n> The table may be drawn either way round.",
+     "equations": [
+      {
+       "latex": "144 - 28 = 116",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>-</mo><mn>28</mn><mo>=</mo><mn>116</mn></math>",
+       "alt": "144 - 28 = 116"
+      },
+      {
+       "latex": "320 - 116 = 204",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>320</mn><mo>-</mo><mn>116</mn><mo>=</mo><mn>204</mn></math>",
+       "alt": "320 - 116 = 204"
+      },
+      {
+       "latex": "12 + 28 = 40 \\text{like bananas}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>28</mn><mo>=</mo><mn>40</mn><mtext>&#xA0;like bananas</mtext></math>",
+       "alt": "12 + 28 = 40 \\text{ like bananas}"
+      },
+      {
+       "latex": "12 + 204 = 216 \\text{like anchovies}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>204</mn><mo>=</mo><mn>216</mn><mtext>&#xA0;like anchovies</mtext></math>",
+       "alt": "12 + 204 = 216 \\text{ like anchovies}"
+      },
+      {
+       "latex": "40 + 320 = 360 \\text{in total}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>+</mo><mn>320</mn><mo>=</mo><mn>360</mn><mtext>&#xA0;in total</mtext></math>",
+       "alt": "40 + 320 = 360 \\text{ in total}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QHBsmn83M3jq4ZPJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "One of the people asked is chosen at random. Find the probability that this person\n\n(i) likes bananas\n\n(ii) likes neither anchovies nor bananas\n\n(iii) likes bananas, given that this person likes anchovies.",
+     "solution_md": "|   | Likes anchovies | Does not like anchovies | Total |\n|---|---|---|---|\n| **Likes bananas** | 12 | 28 | 40 |\n| **Does not like bananas** | 204 | 116 | 320 |\n| **Total** | 216 | 144 | 360 |\n\n(i)\n\n40 of the 360 like bananas\n\n$\\text{P(bananas)} = \\frac{40}{360} = \\frac{1}{9}$\n\n**[B1]**\n\n(ii)\n\n116 of the 360 like neither\n\n$\\text{P(neither)} = \\frac{116}{360} = \\frac{29}{90}$\n\n**[B1]**\n\n(iii)\n\nUse the formula for conditional probability\n\n`\\text{P(bananas} \\mid \\text{anchovies)} = \\dfrac{\\text{P(bananas and anchovies)}}{\\text{P(anchovies)}}`\n\nSubstitute the probabilities from the table\n\n`\\text{P(bananas} \\mid \\text{anchovies)} = \\dfrac{\\dfrac{12}{360}}{\\dfrac{216}{360}} = \\dfrac{12}{216}`\n\n**[M1]**\n\n`\\text{P(bananas} \\mid \\text{anchovies)} = \\dfrac{1}{18}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of 1/9 (or 40/360; answers which round to 0.111), following through from the total in part (a).\n> \n> **B1**: Probability of 29/90 (or 116/360; answers which round to 0.322).\n> \n> **M1**: 12 divided by the number who like anchovies (216), or the equivalent probabilities; unsimplified is accepted.\n> \n> **A1**: Probability of 1/18 (answers which round to 0.0556).",
+     "equations": [
+      {
+       "latex": "\\text{P(bananas)} = \\frac{40}{360} = \\frac{1}{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(bananas)</mtext><mo>=</mo><mfrac><mn>40</mn><mn>360</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>",
+       "alt": "\\text{P(bananas)} = \\dfrac{40}{360} = \\dfrac{1}{9}"
+      },
+      {
+       "latex": "\\text{P(neither)} = \\frac{116}{360} = \\frac{29}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(neither)</mtext><mo>=</mo><mfrac><mn>116</mn><mn>360</mn></mfrac><mo>=</mo><mfrac><mn>29</mn><mn>90</mn></mfrac></math>",
+       "alt": "\\text{P(neither)} = \\dfrac{116}{360} = \\dfrac{29}{90}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tXmycQgJXPfxh2Jy",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_vfQQzDb9cnYYr7wC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89ps9KCVtj4YGq2C"
+     ],
+     "part_tier": null,
+     "problem_md": "Three letters are selected at random from the 8 letters in the word PROBABLE and arranged in a line.\n\nFind the number of different arrangements of 3 letters that can be formed.",
+     "solution_md": "The word PROBABLE has 7 different letters, with B appearing twice. Split the arrangements into those with three different letters and those with both Bs\n\nWith three different letters, choose and arrange 3 of the 7 different letters\n\n`{}^{7}P_{3} = 7 \\times 6 \\times 5 = 210`\n\n**[M1]**\n\nWith both Bs, choose the third letter from the 6 others, then place it in one of 3 positions\n\n$6 \\times 3 = 18$\n\nAdd the two cases to find the total number of arrangements\n\n$210 + 18$\n\n**[M1]**\n\n$228$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Correct count for one case, e.g. ⁷P₃ = 210 (or ⁷C₃ × 3!) for three different letters, or ⁶C₁ × 3!/2! = 18 for both Bs.\n> \n> **M1**: Correct count for the other case, added to the first.\n> \n> **A1**: 228 exactly.",
+     "equations": [
+      {
+       "latex": "6 \\times 3 = 18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#xD7;</mo><mn>3</mn><mo>=</mo><mn>18</mn></math>",
+       "alt": "6 \\times 3 = 18"
+      },
+      {
+       "latex": "210 + 18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>210</mn><mo>+</mo><mn>18</mn></math>",
+       "alt": "210 + 18"
+      },
+      {
+       "latex": "228",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>228</mn></math>",
+       "alt": "228"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fgfXhcWcGJSXWGbQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8jpsFGFMWZ2ywS5"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that the arrangement is EAR.",
+     "solution_md": "The letters E, A and R each appear once among the 8, so pick them in that order, one at a time without replacement\n\n$\\text{P(EAR)} = \\frac{1}{8} \\times \\frac{1}{7} \\times \\frac{1}{6}$\n\n**[M1]**\n\n$\\text{P(EAR)} = \\frac{1}{336}$\n\n**[A1]**\n\n> **[exam-tip]**\n> This is not 1/228. The 228 arrangements are not equally likely, because the two Bs make any arrangement containing a B more likely to be picked than one without, so you cannot just take one over the total from part (a).\n\n> **[mark-scheme]**\n> **M1**: Product of three probabilities 1/8 × 1/7 × 1/6, or 1 over ⁸P₃ = 336.\n> \n> **A1**: Probability of 1/336 (answers which round to 0.00298).",
+     "equations": [
+      {
+       "latex": "\\text{P(EAR)} = \\frac{1}{8} \\times \\frac{1}{7} \\times \\frac{1}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(EAR)</mtext><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+       "alt": "\\text{P(EAR)} = \\dfrac{1}{8} \\times \\dfrac{1}{7} \\times \\dfrac{1}{6}"
+      },
+      {
+       "latex": "\\text{P(EAR)} = \\frac{1}{336}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(EAR)</mtext><mo>=</mo><mfrac><mn>1</mn><mn>336</mn></mfrac></math>",
+       "alt": "\\text{P(EAR)} = \\dfrac{1}{336}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RPGkJyskhnH4rxwC",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_5bdKgtfKQQB3zGph",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Olivia owns a pottery business. On a Saturday she may run a workshop, and in the following week she opens her shop either for a short week (Monday to Thursday) or for a long week (Monday to Friday).\n\nIf she runs a workshop on a Saturday, the probability that she opens the shop for a short week is 0.6.\n\nIf she does not run a workshop on a Saturday, the probability that she opens the shop for a short week is 0.2.\n\nThe probability that Olivia opens the shop for a short week in a randomly chosen week is 0.46.\n\nFind the probability that Olivia runs a workshop on a randomly chosen Saturday.",
+     "solution_md": "Let the probability that she runs a workshop be $p$, and draw a tree diagram\n\n![Tree diagram with headers Saturday and Week. Saturday: Workshop p, No workshop 1 − p. After Workshop: Short 0.6, Long 0.4. After No workshop: Short 0.2, Long 0.8](assets/003-tree-diagram-with-headers-saturday-and-week-satu.png)\n\nA short week can follow either branch, so add the two products that end in Short\n\n$\\text{P(short)} = 0 . 6 p + 0 . 2 ( 1 - p )$\n\n**[M1]**\n\nThis is given to be 0.46\n\n$0 . 6 p + 0 . 2 ( 1 - p ) = 0 . 46$\n\n**[A1]**\n\nExpand the bracket and collect the terms in $p$\n\n$0 . 4 p + 0 . 2 = 0 . 46$\n\n$0 . 4 p = 0 . 26$\n\n**[M1]**\n\n$p = 0 . 65$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of two two-factor products, 0.6p + 0.2(1 − p) (or with 1 − p written as another letter), which may be seen on a tree diagram.\n> \n> **A1**: Correct equation, 0.6p + 0.2(1 − p) = 0.46, unsimplified accepted.\n> \n> **M1**: Correct method to solve a linear equation of this form.\n> \n> **A1**: Probability of 0.65 (or 13/20).",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "\\text{P(short)} = 0 . 6 p + 0 . 2 ( 1 - p )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(short)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></math>",
+       "alt": "\\text{P(short)} = 0.6p + 0.2(1 - p)"
+      },
+      {
+       "latex": "0 . 6 p + 0 . 2 ( 1 - p ) = 0 . 46",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>6</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>46</mn></math>",
+       "alt": "0.6p + 0.2(1 - p) = 0.46"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "0 . 4 p + 0 . 2 = 0 . 46",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>4</mn><mi>p</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>46</mn></math>",
+       "alt": "0.4p + 0.2 = 0.46"
+      },
+      {
+       "latex": "0 . 4 p = 0 . 26",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>4</mn><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>26</mn></math>",
+       "alt": "0.4p = 0.26"
+      },
+      {
+       "latex": "p = 0 . 65",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>65</mn></math>",
+       "alt": "p = 0.65"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4KQtcSZygk9J7TjW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that Olivia opens the shop for a short week in a particular week, find the probability that she ran a workshop on the previous Saturday.",
+     "solution_md": "![Tree diagram with headers Saturday and Week. Saturday: Workshop p, No workshop 1 − p. After Workshop: Short 0.6, Long 0.4. After No workshop: Short 0.2, Long 0.8](assets/004-tree-diagram-with-headers-saturday-and-week-satu.png)\n\nUse the formula for conditional probability\n\n`\\text{P(workshop} \\mid \\text{short)} = \\dfrac{\\text{P(workshop and short)}}{\\text{P(short)}}`\n\nMultiply along the Workshop, Short branches, with $p = 0 . 65$ from part (a)\n\n$\\text{P(workshop and short)} = 0 . 65 \\times 0 . 6 = 0 . 39$\n\n**[M1]**\n\nThe denominator is the given probability of a short week\n\n`\\text{P(workshop} \\mid \\text{short)} = \\dfrac{0.39}{0.46}`\n\n**[M1]**\n\n**Final answer:** `\\text{P(workshop} \\mid \\text{short)} = \\dfrac{39}{46} = 0.848`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.6 × 0.65 (or 0.6 × the answer to (a)) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: 0.46 seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 39/46 (answers which round to 0.848).",
+     "equations": [
+      {
+       "latex": "p = 0 . 65",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>65</mn></math>",
+       "alt": "p = 0.65"
+      },
+      {
+       "latex": "\\text{P(workshop and short)} = 0 . 65 \\times 0 . 6 = 0 . 39",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(workshop and short)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>65</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>39</mn></math>",
+       "alt": "\\text{P(workshop and short)} = 0.65 \\times 0.6 = 0.39"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rmmsCw3ZzvgSNnz7",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_PGKRf2kPNmCxSHdK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "A bag contains 12 orange marbles, 8 purple marbles and 5 red marbles. A marble is chosen at random from the bag and its colour is recorded. The marble is not replaced in the bag. A second marble is then chosen at random from the bag and its colour is recorded.\n\nDraw a fully labelled tree diagram to represent this information, showing the probability on each of the branches.",
+     "solution_md": "For the first marble there are 25 in the bag. After one is taken, 24 remain, with one fewer of the colour already chosen\n\n![Tree diagram with headers First marble and Second marble. First marble: O 12/25, P 8/25, R 5/25. After O: O 11/24, P 8/24, R 5/24. After P: O 12/24, P 7/24, R 5/24. After R: O 12/24, P 8/24, R 4/24](assets/005-tree-diagram-with-headers-first-marble-and-secon.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Correct structure, fully labelled: three branches for the first marble and three after each.\n> \n> **B1**: First-marble probabilities 12/25, 8/25 and 5/25.\n> \n> **B1**: All nine second-marble probabilities correct, with denominators of 24.\n> \n> Equivalent fractions or decimals are accepted."
+    },
+    {
+     "id": "qstnprt_T8pt2qkXSZY3GVxv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that\n\n(i) the two marbles chosen are of different colours\n\n(ii) the second marble chosen is purple, given that the two marbles chosen are of different colours.",
+     "solution_md": "![Tree diagram with headers First marble and Second marble. First marble: O 12/25, P 8/25, R 5/25. After O: O 11/24, P 8/24, R 5/24. After P: O 12/24, P 7/24, R 5/24. After R: O 12/24, P 8/24, R 4/24](assets/006-tree-diagram-with-headers-first-marble-and-secon.png)\n\n(i)\n\nIt is quicker to find the probability that both are the same colour, then subtract from 1\n\n$\\text{P(same)} = \\frac{12}{25} \\times \\frac{11}{24} + \\frac{8}{25} \\times \\frac{7}{24} + \\frac{5}{25} \\times \\frac{4}{24} = \\frac{208}{600}$\n\n$\\text{P(different)} = 1 - \\frac{208}{600} = \\frac{392}{600}$\n\n**[M1]**\n\n$\\text{P(different)} = \\frac{49}{75}$\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability\n\n`\\text{P(second purple} \\mid \\text{different)} = \\dfrac{\\text{P(second purple and different)}}{\\text{P(different)}}`\n\nThe second marble is purple and the colours are different when the first is orange or red\n\n$\\text{P(second purple and different)} = \\frac{12}{25} \\times \\frac{8}{24} + \\frac{5}{25} \\times \\frac{8}{24} = \\frac{136}{600}$\n\n**[M1]**\n\nThe denominator is the answer to (i)\n\n`\\text{P(second purple} \\mid \\text{different)} = \\dfrac{\\dfrac{136}{600}}{\\dfrac{392}{600}} = \\dfrac{136}{392}`\n\n**[M1]**\n\n`\\text{P(second purple} \\mid \\text{different)} = \\dfrac{17}{49}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 1 minus the sum of the three same-colour products, or the sum of the six different-colour products, consistent with the tree in part (a).\n> \n> **A1**: Probability of 49/75 (or 392/600; answers which round to 0.653).\n> \n> **M1**: P(O, P) + P(R, P) = 136/600 (or 17/75) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: The answer to (i) seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 17/49 (answers which round to 0.347).",
+     "equations": [
+      {
+       "latex": "\\text{P(same)} = \\frac{12}{25} \\times \\frac{11}{24} + \\frac{8}{25} \\times \\frac{7}{24} + \\frac{5}{25} \\times \\frac{4}{24} = \\frac{208}{600}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(same)</mtext><mo>=</mo><mfrac><mn>12</mn><mn>25</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>11</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>8</mn><mn>25</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>7</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>25</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>4</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>208</mn><mn>600</mn></mfrac></math>",
+       "alt": "\\text{P(same)} = \\dfrac{12}{25} \\times \\dfrac{11}{24} + \\dfrac{8}{25} \\times \\dfrac{7}{24} + \\dfrac{5}{25} \\times \\dfrac{4}{24} = \\dfrac{208}{600}"
+      },
+      {
+       "latex": "\\text{P(different)} = 1 - \\frac{208}{600} = \\frac{392}{600}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(different)</mtext><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>208</mn><mn>600</mn></mfrac><mo>=</mo><mfrac><mn>392</mn><mn>600</mn></mfrac></math>",
+       "alt": "\\text{P(different)} = 1 - \\dfrac{208}{600} = \\dfrac{392}{600}"
+      },
+      {
+       "latex": "\\text{P(different)} = \\frac{49}{75}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(different)</mtext><mo>=</mo><mfrac><mn>49</mn><mn>75</mn></mfrac></math>",
+       "alt": "\\text{P(different)} = \\dfrac{49}{75}"
+      },
+      {
+       "latex": "\\text{P(second purple and different)} = \\frac{12}{25} \\times \\frac{8}{24} + \\frac{5}{25} \\times \\frac{8}{24} = \\frac{136}{600}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(second purple and different)</mtext><mo>=</mo><mfrac><mn>12</mn><mn>25</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>25</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>136</mn><mn>600</mn></mfrac></math>",
+       "alt": "\\text{P(second purple and different)} = \\dfrac{12}{25} \\times \\dfrac{8}{24} + \\dfrac{5}{25} \\times \\dfrac{8}{24} = \\dfrac{136}{600}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_q3qy3fBQkRtMmpWn",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_r2q6dcK5ByRWST9z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of 144 people, each aged either 18 to 25 or over 65, were asked whether they would prefer a beach holiday or a city break. The results are shown in the table below, where some values are missing.\n\n|   | Beach holiday | City break | Total |\n|---|---|---|---|\n| **Aged 18 to 25** |   |   | 99 |\n| **Aged over 65** |   |   | 45 |\n| **Total** | 64 | 80 | 144 |\n\nOne person is chosen at random from the group.\n\n(i) Find the probability that the person is aged over 65, and the probability that the person prefers a beach holiday.\n\n(ii) It is given that the events 'the person is aged over 65' and 'the person prefers a beach holiday' are independent. Find the missing values and complete the table.",
+     "solution_md": "(i)\n\n45 of the 144 people are aged over 65\n\n$\\text{P(over 65)} = \\frac{45}{144} = \\frac{5}{16}$\n\n**[B1]**\n\n64 of the 144 prefer a beach holiday\n\n$\\text{P(beach)} = \\frac{64}{144} = \\frac{4}{9}$\n\n**[B1]**\n\n(ii)\n\nFor independent events, the probability of both is the product of the two probabilities\n\n$\\text{P(over 65 and beach)} = \\text{P(over 65)} \\times \\text{P(beach)}$\n\n$\\text{P(over 65 and beach)} = \\frac{5}{16} \\times \\frac{4}{9} = \\frac{5}{36}$\n\nMultiply by the 144 people to get the number in that cell\n\n$\\frac{5}{36} \\times 144 = 20$\n\n**[M1]**\n\nFill in the rest of the table by subtracting from the totals\n\n$64 - 20 = 44$\n\n$45 - 20 = 25$\n\n$99 - 44 = 55$\n\n|   | Beach holiday | City break | Total |\n|---|---|---|---|\n| **Aged 18 to 25** | **Final answer:** **44** | **Final answer:** **55** | 99 |\n| **Aged over 65** | **Final answer:** **20** | **Final answer:** **25** | 45 |\n| **Total** | 64 | 80 | 144 |\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of being aged over 65 of 5/16 (or 45/144).\n> \n> **B1**: Probability of preferring a beach holiday of 4/9 (or 64/144; answers which round to 0.444).\n> \n> **M1**: The product of the two probabilities from (i) multiplied by 144, or 45 × 64 ÷ 144, to find the number aged over 65 who prefer a beach holiday.\n> \n> **A1**: All four missing values correct: 44, 55, 20 and 25.",
+     "equations": [
+      {
+       "latex": "\\text{P(over 65)} = \\frac{45}{144} = \\frac{5}{16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(over 65)</mtext><mo>=</mo><mfrac><mn>45</mn><mn>144</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>16</mn></mfrac></math>",
+       "alt": "\\text{P(over 65)} = \\dfrac{45}{144} = \\dfrac{5}{16}"
+      },
+      {
+       "latex": "\\text{P(beach)} = \\frac{64}{144} = \\frac{4}{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(beach)</mtext><mo>=</mo><mfrac><mn>64</mn><mn>144</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>9</mn></mfrac></math>",
+       "alt": "\\text{P(beach)} = \\dfrac{64}{144} = \\dfrac{4}{9}"
+      },
+      {
+       "latex": "\\text{P(over 65 and beach)} = \\text{P(over 65)} \\times \\text{P(beach)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(over 65 and beach)</mtext><mo>=</mo><mtext>P(over 65)</mtext><mo>&#xD7;</mo><mtext>P(beach)</mtext></math>",
+       "alt": "\\text{P(over 65 and beach)} = \\text{P(over 65)} \\times \\text{P(beach)}"
+      },
+      {
+       "latex": "\\text{P(over 65 and beach)} = \\frac{5}{16} \\times \\frac{4}{9} = \\frac{5}{36}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(over 65 and beach)</mtext><mo>=</mo><mfrac><mn>5</mn><mn>16</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>36</mn></mfrac></math>",
+       "alt": "\\text{P(over 65 and beach)} = \\dfrac{5}{16} \\times \\dfrac{4}{9} = \\dfrac{5}{36}"
+      },
+      {
+       "latex": "\\frac{5}{36} \\times 144 = 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>36</mn></mfrac><mo>&#xD7;</mo><mn>144</mn><mo>=</mo><mn>20</mn></math>",
+       "alt": "\\dfrac{5}{36} \\times 144 = 20"
+      },
+      {
+       "latex": "64 - 20 = 44",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>-</mo><mn>20</mn><mo>=</mo><mn>44</mn></math>",
+       "alt": "64 - 20 = 44"
+      },
+      {
+       "latex": "45 - 20 = 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>-</mo><mn>20</mn><mo>=</mo><mn>25</mn></math>",
+       "alt": "45 - 20 = 25"
+      },
+      {
+       "latex": "99 - 44 = 55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>-</mo><mn>44</mn><mo>=</mo><mn>55</mn></math>",
+       "alt": "99 - 44 = 55"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fXG2qg8b8Hb8nsDR",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_H8jjY2qSkqqZhqJz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "A drawer contains 7 red socks and $x$ blue socks. Shalit chooses two socks at random from the drawer, without replacement.\n\nThe tree diagram shows the possibilities for the colours of the socks chosen.\n\n![Tree diagram with headers First sock and Second sock. First sock branches R and B, with 7/(7 + x) printed on R. After R, branches R and B with 6/(6 + x) printed on R. After B, branches R and B. The other four branches are blank](assets/007-tree-diagram-with-headers-first-sock-and-second-.png)\n\nComplete the tree diagram, giving the remaining probabilities in terms of $x$.",
+     "solution_md": "There are $7 + x$ socks to start with, $x$ of them blue\n\n$\\text{P(first blue)} = \\frac{x}{7+x}$\n\nAfter a red sock, $6 + x$ socks remain and $x$ are blue\n\n`\\text{P(second blue} \\mid \\text{first red)} = \\dfrac{x}{6 + x}`\n\nAfter a blue sock, $6 + x$ socks remain: 7 red and $x - 1$ blue\n\n`\\text{P(second red} \\mid \\text{first blue)} = \\dfrac{7}{6 + x}`\n\n`\\text{P(second blue} \\mid \\text{first blue)} = \\dfrac{x - 1}{6 + x}`\n\n![Completed tree diagram with headers First sock and Second sock. First sock: R 7/(7 + x), B x/(7 + x). After R: R 6/(6 + x), B x/(6 + x). After B: R 7/(6 + x), B (x − 1)/(6 + x). The ends R, R and B, B are labelled P(R, R) and P(B, B)](assets/008-completed-tree-diagram-with-headers-first-sock-a.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: x/(7 + x) on the first blue branch.\n> \n> **B1**: x/(6 + x) on the blue branch after red.\n> \n> **B1**: 7/(6 + x) and (x − 1)/(6 + x) on the branches after blue.",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "7 + x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mi>x</mi></math>",
+       "alt": "7 + x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{P(first blue)} = \\frac{x}{7+x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(first blue)</mtext><mo>=</mo><mfrac><mi>x</mi><mrow><mn>7</mn><mo>+</mo><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\text{P(first blue)} = \\dfrac{x}{7 + x}"
+      },
+      {
+       "latex": "6 + x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mi>x</mi></math>",
+       "alt": "6 + x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "6 + x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mi>x</mi></math>",
+       "alt": "6 + x"
+      },
+      {
+       "latex": "x - 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>-</mo><mn>1</mn></math>",
+       "alt": "x - 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BmW3pd4gbcJctmG3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "The probability that both socks chosen are red, given that both socks chosen are the same colour, is $\\frac{7}{8}$.\n\nFind the value of $x$.",
+     "solution_md": "![Completed tree diagram with headers First sock and Second sock. First sock: R 7/(7 + x), B x/(7 + x). After R: R 6/(6 + x), B x/(6 + x). After B: R 7/(6 + x), B (x − 1)/(6 + x). The ends R, R and B, B are labelled P(R, R) and P(B, B)](assets/009-completed-tree-diagram-with-headers-first-sock-a.png)\n\nMultiply along the red, red and blue, blue branches\n\n$\\text{P} ( R ,  R ) = \\frac{7}{7+x} \\times \\frac{6}{6+x} = \\frac{42}{(7+x)(6+x)}$\n\n$\\text{P} ( B ,  B ) = \\frac{x}{7+x} \\times \\frac{x-1}{6+x} = \\frac{x(x-1)}{(7+x)(6+x)}$\n\nThe socks are the same colour in either case, so add\n\n$\\text{P(same colour)} = \\frac{42+x(x-1)}{(7+x)(6+x)}$\n\n**[M1]**\n\nUse the formula for conditional probability, and set it equal to the given value\n\n$\\frac{\\text{P}(R,R)}{\\text{P(same colour)}} = \\frac{7}{8}$\n\nThe factors $( 7 + x ) ( 6 + x )$ cancel\n\n$\\frac{42}{42+x(x-1)} = \\frac{7}{8}$\n\n**[M1]**\n\nMultiply both sides by `8\\left(42 + x(x - 1)\\right)`\n\n`336 = 7\\left(42 + x^{2} - x\\right)`\n\nDivide by 7 and rearrange\n\n$48 = 42 + x^{2} - x$\n\n$x^{2} - x - 6 = 0$\n\nFactorise\n\n$( x - 3 ) ( x + 2 ) = 0$\n\n**[M1]**\n\nThe number of blue socks cannot be negative, so reject $x = - 2$\n\n$x = 3$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two products for red, red and blue, blue, in terms of x, consistent with the tree in part (a).\n> \n> **M1**: P(R, R) divided by the probability of the same colour, set equal to 7/8.\n> \n> **M1**: Fractions cleared to form a three-term quadratic in x, and a correct method to solve it.\n> \n> **A1**: x = 3 only, with x = −2 rejected or not stated.",
+     "equations": [
+      {
+       "latex": "\\frac{7}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>",
+       "alt": "\\dfrac{7}{8}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{P} ( R ,  R ) = \\frac{7}{7+x} \\times \\frac{6}{6+x} = \\frac{42}{(7+x)(6+x)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>,</mo><mo>&#xA0;</mo><mi>R</mi><mo>)</mo><mo>=</mo><mfrac><mn>7</mn><mrow><mn>7</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>&#xD7;</mo><mfrac><mn>6</mn><mrow><mn>6</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>42</mn><mrow><mo>(</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math>",
+       "alt": "\\text{P}(R, \\; R) = \\dfrac{7}{7 + x} \\times \\dfrac{6}{6 + x} = \\dfrac{42}{(7 + x)(6 + x)}"
+      },
+      {
+       "latex": "\\text{P} ( B ,  B ) = \\frac{x}{7+x} \\times \\frac{x-1}{6+x} = \\frac{x(x-1)}{(7+x)(6+x)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>B</mi><mo>,</mo><mo>&#xA0;</mo><mi>B</mi><mo>)</mo><mo>=</mo><mfrac><mi>x</mi><mrow><mn>7</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mrow><mn>6</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math>",
+       "alt": "\\text{P}(B, \\; B) = \\dfrac{x}{7 + x} \\times \\dfrac{x - 1}{6 + x} = \\dfrac{x(x - 1)}{(7 + x)(6 + x)}"
+      },
+      {
+       "latex": "\\text{P(same colour)} = \\frac{42+x(x-1)}{(7+x)(6+x)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(same colour)</mtext><mo>=</mo><mfrac><mrow><mn>42</mn><mo>+</mo><mi>x</mi><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math>",
+       "alt": "\\text{P(same colour)} = \\dfrac{42 + x(x - 1)}{(7 + x)(6 + x)}"
+      },
+      {
+       "latex": "\\frac{\\text{P}(R,R)}{\\text{P(same colour)}} = \\frac{7}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>,</mo><mo>&#xA0;</mo><mi>R</mi><mo>)</mo></mrow><mtext>P(same colour)</mtext></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></math>",
+       "alt": "\\dfrac{\\text{P}(R, \\; R)}{\\text{P(same colour)}} = \\dfrac{7}{8}"
+      },
+      {
+       "latex": "( 7 + x ) ( 6 + x )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>",
+       "alt": "(7 + x)(6 + x)"
+      },
+      {
+       "latex": "\\frac{42}{42+x(x-1)} = \\frac{7}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>42</mn><mrow><mn>42</mn><mo>+</mo><mi>x</mi><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></math>",
+       "alt": "\\dfrac{42}{42 + x(x - 1)} = \\dfrac{7}{8}"
+      },
+      {
+       "latex": "48 = 42 + x^{2} - x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>=</mo><mn>42</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi></math>",
+       "alt": "48 = 42 + x^{2} - x"
+      },
+      {
+       "latex": "x^{2} - x - 6 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi><mo>-</mo><mn>6</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "x^{2} - x - 6 = 0"
+      },
+      {
+       "latex": "( x - 3 ) ( x + 2 ) = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>",
+       "alt": "(x - 3)(x + 2) = 0"
+      },
+      {
+       "latex": "x = - 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>",
+       "alt": "x = -2"
+      },
+      {
+       "latex": "x = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "x = 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NPQSfDgH6dMTrXqG",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_nM66sSWKRWWWzv2b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8jpsFGFMWZ2ywS5"
+     ],
+     "part_tier": null,
+     "problem_md": "A fair spinner has seven equal sections numbered 0, 1, 1, 3, 3, 3 and 3. The spinner is spun twice and the sum of the two numbers obtained is recorded.\n\n![A spinner divided into seven equal sections numbered 0, 1, 1, 3, 3, 3 and 3](assets/010-a-spinner-divided-into-seven-equal-sections-numb.png)\n\nFind the probability that the sum is a positive square number.",
+     "solution_md": "List every outcome in a sample space. There are 7 × 7 = 49 equally likely outcomes\n\n| + | 0 | 1 | 1 | 3 | 3 | 3 | 3 |\n|---|---|---|---|---|---|---|---|\n| **0** | 0 | 1 | 1 | 3 | 3 | 3 | 3 |\n| **1** | 1 | 2 | 2 | 4 | 4 | 4 | 4 |\n| **1** | 1 | 2 | 2 | 4 | 4 | 4 | 4 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n\nThe positive square numbers that can occur are 1 and 4. Count them in the table\n\n$4 + 16 = 20$\n\n**[M1]**\n\n$\\text{P(positive square)} = \\frac{20}{49}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sums of 1 and 4 identified and their outcomes added, 4 + 16, or 20 seen as a numerator over 49.\n> \n> **A1**: Probability of 20/49 (answers which round to 0.408).\n> \n> A sample space or list of outcomes is credited as working but is not required.",
+     "equations": [
+      {
+       "latex": "4 + 16 = 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>20</mn></math>",
+       "alt": "4 + 16 = 20"
+      },
+      {
+       "latex": "\\text{P(positive square)} = \\frac{20}{49}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(positive square)</mtext><mo>=</mo><mfrac><mn>20</mn><mn>49</mn></mfrac></math>",
+       "alt": "\\text{P(positive square)} = \\dfrac{20}{49}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6F74Xwq2w8p8dg9q",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8jpsFGFMWZ2ywS5",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Find the probability that the sum is a positive even number.\n\n(ii) Given that the sum is a positive even number, find the probability that the sum is a square number.",
+     "solution_md": "| + | 0 | 1 | 1 | 3 | 3 | 3 | 3 |\n|---|---|---|---|---|---|---|---|\n| **0** | 0 | 1 | 1 | 3 | 3 | 3 | 3 |\n| **1** | 1 | 2 | 2 | 4 | 4 | 4 | 4 |\n| **1** | 1 | 2 | 2 | 4 | 4 | 4 | 4 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n| **3** | 3 | 4 | 4 | 6 | 6 | 6 | 6 |\n\n(i)\n\nThe positive even sums are 2, 4 and 6. Count them in the table\n\n$4 + 16 + 16 = 36$\n\n**[M1]**\n\n$\\text{P(positive even)} = \\frac{36}{49}$\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability\n\n`\\text{P(square} \\mid \\text{positive even)} = \\dfrac{\\text{P(square and positive even)}}{\\text{P(positive even)}}`\n\nThe only sum that is both square and positive even is 4, which occurs 16 times\n\n`\\text{P(square} \\mid \\text{positive even)} = \\dfrac{\\dfrac{16}{49}}{\\dfrac{36}{49}} = \\dfrac{16}{36}`\n\n**[M1]**\n\n`\\text{P(square} \\mid \\text{positive even)} = \\dfrac{4}{9}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sums of 2, 4 and 6 identified and their outcomes added, 4 + 16 + 16, or 36 seen as a numerator over 49.\n> \n> **A1**: Probability of 36/49 (answers which round to 0.735).\n> \n> **M1**: 16/49 divided by the answer to (i), or 16/36 counted directly from the sample space.\n> \n> **A1**: Probability of 4/9 (or 16/36; answers which round to 0.444).",
+     "equations": [
+      {
+       "latex": "4 + 16 + 16 = 36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>36</mn></math>",
+       "alt": "4 + 16 + 16 = 36"
+      },
+      {
+       "latex": "\\text{P(positive even)} = \\frac{36}{49}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(positive even)</mtext><mo>=</mo><mfrac><mn>36</mn><mn>49</mn></mfrac></math>",
+       "alt": "\\text{P(positive even)} = \\dfrac{36}{49}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mC4gwZx8mSYCQWM9",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_DThZW8ZMbDFt2C5K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "Each night, Ichabod plays one game of chess online. In any game, the probabilities that he wins, draws or loses are 0.4, 0.27 and 0.33 respectively. After a game, the probability that he sleeps well is 0.7 after a win, 0.9 after a draw and 0.2 after a loss.\n\nDraw a tree diagram to represent this information, showing the probability on each of the branches.",
+     "solution_md": "Each pair of second-stage branches must add to 1, so the probabilities of not sleeping well are 0.3, 0.1 and 0.8\n\n![Tree diagram with headers Game and Sleep. Game: Win 0.4, Draw 0.27, Lose 0.33. After Win: Well 0.7, Not well 0.3. After Draw: Well 0.9, Not well 0.1. After Lose: Well 0.2, Not well 0.8](assets/011-tree-diagram-with-headers-game-and-sleep-game-wi.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Correct structure, fully labelled: win, draw and lose, then sleeps well and does not sleep well after each.\n> \n> **B1**: Game probabilities 0.4, 0.27 and 0.33.\n> \n> **B1**: All six sleep probabilities correct: 0.7 and 0.3; 0.9 and 0.1; 0.2 and 0.8."
+    },
+    {
+     "id": "qstnprt_7wKMywsNRhgv2M32",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that, on a randomly chosen night, Ichabod\n\n(i) loses his game and sleeps well\n\n(ii) sleeps well.",
+     "solution_md": "![Tree diagram with headers Game and Sleep. Game: Win 0.4, Draw 0.27, Lose 0.33. After Win: Well 0.7, Not well 0.3. After Draw: Well 0.9, Not well 0.1. After Lose: Well 0.2, Not well 0.8](assets/011-tree-diagram-with-headers-game-and-sleep-game-wi.png)\n\n(i)\n\nMultiply along the Lose, Well branches\n\n$\\text{P(lose and well)} = 0 . 33 \\times 0 . 2$\n\n$\\text{P(lose and well)} = 0 . 066$\n\n**[B1]**\n\n(ii)\n\nHe can sleep well after any of the three results, so add the three branch products that end in Well\n\n$\\text{P(well)} = 0 . 4 \\times 0 . 7 + 0 . 27 \\times 0 . 9 + 0 . 33 \\times 0 . 2$\n\n$\\text{P(well)} = 0 . 28 + 0 . 243 + 0 . 066$\n\n**[M1]**\n\n$\\text{P(well)} = 0 . 589$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of losing and sleeping well of 0.066 (or 33/500).\n> \n> **M1**: Sum of the three products 0.4 × 0.7, 0.27 × 0.9 and 0.33 × 0.2, correct or consistent with the tree in part (a).\n> \n> **A1**: Probability of sleeping well of 0.589 (or 589/1000).",
+     "equations": [
+      {
+       "latex": "\\text{P(lose and well)} = 0 . 33 \\times 0 . 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(lose and well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>33</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn></math>",
+       "alt": "\\text{P(lose and well)} = 0.33 \\times 0.2"
+      },
+      {
+       "latex": "\\text{P(lose and well)} = 0 . 066",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(lose and well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>066</mn></math>",
+       "alt": "\\text{P(lose and well)} = 0.066"
+      },
+      {
+       "latex": "\\text{P(well)} = 0 . 4 \\times 0 . 7 + 0 . 27 \\times 0 . 9 + 0 . 33 \\times 0 . 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>27</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>33</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>2</mn></math>",
+       "alt": "\\text{P(well)} = 0.4 \\times 0.7 + 0.27 \\times 0.9 + 0.33 \\times 0.2"
+      },
+      {
+       "latex": "\\text{P(well)} = 0 . 28 + 0 . 243 + 0 . 066",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>28</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>243</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>066</mn></math>",
+       "alt": "\\text{P(well)} = 0.28 + 0.243 + 0.066"
+      },
+      {
+       "latex": "\\text{P(well)} = 0 . 589",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>589</mn></math>",
+       "alt": "\\text{P(well)} = 0.589"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DngQk23GvwPHF6zn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that Ichabod sleeps well on a randomly chosen night, find the probability that his game that night did not end in a draw.",
+     "solution_md": "![Tree diagram with headers Game and Sleep. Game: Win 0.4, Draw 0.27, Lose 0.33. After Win: Well 0.7, Not well 0.3. After Draw: Well 0.9, Not well 0.1. After Lose: Well 0.2, Not well 0.8](assets/011-tree-diagram-with-headers-game-and-sleep-game-wi.png)\n\nUse the formula for conditional probability\n\n`\\text{P(not draw} \\mid \\text{well)} = \\dfrac{\\text{P(not draw and well)}}{\\text{P(well)}}`\n\nNot a draw means a win or a loss, so add those two products ending in Well, from part (b)\n\n$\\text{P(not draw and well)} = 0 . 28 + 0 . 066 = 0 . 346$\n\n**[M1]**\n\nThe denominator is the answer to part (b)(ii)\n\n`\\text{P(not draw} \\mid \\text{well)} = \\dfrac{0.346}{0.589}`\n\n**[M1]**\n\n**Final answer:** `\\text{P(not draw} \\mid \\text{well)} = \\dfrac{346}{589} = 0.587`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.4 × 0.7 + 0.33 × 0.2 (or 0.589 − 0.27 × 0.9), i.e. 0.346, seen as the numerator of a conditional probability fraction.\n> \n> **M1**: The answer to part (b)(ii) seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 346/589 (answers which round to 0.587).",
+     "equations": [
+      {
+       "latex": "\\text{P(not draw and well)} = 0 . 28 + 0 . 066 = 0 . 346",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(not draw and well)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>28</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>066</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>346</mn></math>",
+       "alt": "\\text{P(not draw and well)} = 0.28 + 0.066 = 0.346"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_h9wz536rNswry2Df",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_gkQz2r6qQP6GPC8y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP"
+     ],
+     "part_tier": null,
+     "problem_md": "In a survey of 240 students, 144 said that they own a dog and 75 said that they own a cat. Of the students who own a cat, 27 also own a dog.\n\nA student is chosen at random from the 240 students.\n\nFind the probability that the student owns neither a dog nor a cat.",
+     "solution_md": "Organise the information in a two-way table\n\n|   | Owns a cat | Does not own a cat | Total |\n|---|---|---|---|\n| **Owns a dog** | 27 |   | 144 |\n| **Does not own a dog** |   |   |   |\n| **Total** | 75 |   | 240 |\n\nThe students who own a dog but not a cat are\n\n$144 - 27 = 117$\n\nThe students who own a cat but not a dog are\n\n$75 - 27 = 48$\n\nThe rest own neither\n\n$240 - 27 - 117 - 48 = 48$\n\n**[M1]**\n\n|   | Owns a cat | Does not own a cat | Total |\n|---|---|---|---|\n| **Owns a dog** | 27 | 117 | 144 |\n| **Does not own a dog** | 48 | 48 | 96 |\n| **Total** | 75 | 165 | 240 |\n\n$\\text{P(neither)} = \\frac{48}{240} = \\frac{1}{5}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Correct method for the number owning neither, e.g. 240 − (144 + 75 − 27), or from a table.\n> \n> **A1**: Probability of 1/5 (or 48/240, 0.2).",
+     "equations": [
+      {
+       "latex": "144 - 27 = 117",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>-</mo><mn>27</mn><mo>=</mo><mn>117</mn></math>",
+       "alt": "144 - 27 = 117"
+      },
+      {
+       "latex": "75 - 27 = 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>-</mo><mn>27</mn><mo>=</mo><mn>48</mn></math>",
+       "alt": "75 - 27 = 48"
+      },
+      {
+       "latex": "240 - 27 - 117 - 48 = 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240</mn><mo>-</mo><mn>27</mn><mo>-</mo><mn>117</mn><mo>-</mo><mn>48</mn><mo>=</mo><mn>48</mn></math>",
+       "alt": "240 - 27 - 117 - 48 = 48"
+      },
+      {
+       "latex": "\\text{P(neither)} = \\frac{48}{240} = \\frac{1}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(neither)</mtext><mo>=</mo><mfrac><mn>48</mn><mn>240</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\text{P(neither)} = \\dfrac{48}{240} = \\dfrac{1}{5}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DHqCCsm7bhTBD2Cp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_7GngfWnfm7YxqRWm",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Find the probability that the student owns a cat, given that the student owns a dog.\n\n(ii) Determine whether the events 'the student owns a dog' and 'the student owns a cat' are independent, justifying your answer.",
+     "solution_md": "|   | Owns a cat | Does not own a cat | Total |\n|---|---|---|---|\n| **Owns a dog** | 27 | 117 | 144 |\n| **Does not own a dog** | 48 | 48 | 96 |\n| **Total** | 75 | 165 | 240 |\n\n(i)\n\nUse the formula for conditional probability\n\n`\\text{P(cat} \\mid \\text{dog)} = \\dfrac{\\text{P(dog and cat)}}{\\text{P(dog)}}`\n\nSubstitute the probabilities from the table\n\n`\\text{P(cat} \\mid \\text{dog)} = \\dfrac{\\dfrac{27}{240}}{\\dfrac{144}{240}} = \\dfrac{27}{144}`\n\n**[M1]**\n\n`\\text{P(cat} \\mid \\text{dog)} = \\dfrac{3}{16}`\n\n**[A1]**\n\n(ii)\n\nLet $D$ be the event 'owns a dog' and $C$ the event 'owns a cat'. State the test for independence\n\n$\\text{P} ( D \\cap C ) = \\text{P} ( D ) \\times \\text{P} ( C )$\n\nWork out the product\n\n$\\text{P} ( D ) \\times \\text{P} ( C ) = \\frac{144}{240} \\times \\frac{75}{240} = \\frac{3}{16}$\n\n**[M1]**\n\nCompare it with the probability of owning both\n\n$\\text{P} ( D \\cap C ) = \\frac{27}{240} = \\frac{9}{80} \\neq \\frac{3}{16}$\n\n**Final answer:** **The events are not independent**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 27 divided by 144 (or 27/240 divided by 144/240); unsimplified is accepted.\n> \n> **A1**: Probability of 3/16 (or 0.1875).\n> \n> **M1**: Product of the probabilities of owning a dog and owning a cat, 144/240 × 75/240.\n> \n> **A1**: P(D), P(C) and P(D ∩ C) (or P(D and C)) identified, the numerical comparison 9/80 ≠ 3/16 and the conclusion that the events are not independent.\n> \n> Comparing a conditional probability instead, e.g. P(C | D) = 3/16 ≠ 5/16 = P(C), with the notation and a conclusion, is also accepted.",
+     "equations": [
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "\\text{P} ( D \\cap C ) = \\text{P} ( D ) \\times \\text{P} ( C )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>&#x2229;</mo><mi>C</mi><mo>)</mo><mo>=</mo><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>C</mi><mo>)</mo></math>",
+       "alt": "\\text{P}(D \\cap C) = \\text{P}(D) \\times \\text{P}(C)"
+      },
+      {
+       "latex": "\\text{P} ( D ) \\times \\text{P} ( C ) = \\frac{144}{240} \\times \\frac{75}{240} = \\frac{3}{16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>C</mi><mo>)</mo><mo>=</mo><mfrac><mn>144</mn><mn>240</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>75</mn><mn>240</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>16</mn></mfrac></math>",
+       "alt": "\\text{P}(D) \\times \\text{P}(C) = \\dfrac{144}{240} \\times \\dfrac{75}{240} = \\dfrac{3}{16}"
+      },
+      {
+       "latex": "\\text{P} ( D \\cap C ) = \\frac{27}{240} = \\frac{9}{80} \\neq \\frac{3}{16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>&#x2229;</mo><mi>C</mi><mo>)</mo><mo>=</mo><mfrac><mn>27</mn><mn>240</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>80</mn></mfrac><mo>&#x2260;</mo><mfrac><mn>3</mn><mn>16</mn></mfrac></math>",
+       "alt": "\\text{P}(D \\cap C) = \\dfrac{27}{240} = \\dfrac{9}{80} \\neq \\dfrac{3}{16}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DB4tykQtjNPKr6z6",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Tc4BDsdgkvdpGR9H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FzzVfjwhkyjcBrzK",
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "$A$ and $B$ are two events with P($A$) = 0.47 and P($B$) = 0.31. Given that $A$ and $B$ are independent, write down\n\n(i) the probability that $A$ occurs, given that $B$ occurs\n\n(ii) the probability that $B$ occurs, given that $A$ does not occur.",
+     "solution_md": "(i)\n\nFor independent events, knowing that $B$ occurs does not change the probability of $A$\n\n`\\text{P}(A \\mid B) = \\text{P}(A)`\n\n`\\text{P}(A \\mid B) = 0.47`\n\n**[B1]**\n\n(ii)\n\n$B$ is also independent of $A$ not occurring, so the probability of $B$ is unchanged\n\n`\\text{P}(B \\mid A') = \\text{P}(B)`\n\n`\\text{P}(B \\mid A') = 0.31`\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: 0.47.\n> \n> **B1**: 0.31.",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_F6Wsz73MYKQy97vv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK",
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of middle school and senior school students were asked whether they preferred vinegar or ketchup as a topping on their chips. The results are shown in the table.\n\n|   | Vinegar | Ketchup | Total |\n|---|---|---|---|\n| **Middle** | 49 | 21 | 70 |\n| **Senior** | 63 | 27 | 90 |\n| **Total** | 112 | 48 | 160 |\n\nA student is chosen at random from the group.\n\n(i) Find the probability that the student prefers ketchup, given that the student is in middle school, and the probability that the student is in middle school, given that the student prefers ketchup.\n\n(ii) Use your results from part (b)(i) to show that, for the students in the group, the events 'is in middle school' and 'prefers ketchup' are independent.",
+     "solution_md": "(i)\n\nGiven that the student is in middle school, look only at the middle school row: 21 of the 70 prefer ketchup\n\n`\\text{P(ketchup} \\mid \\text{middle)} = \\dfrac{21}{70} = \\dfrac{3}{10}`\n\n**[B1]**\n\nGiven that the student prefers ketchup, look only at the ketchup column: 21 of the 48 are in middle school\n\n`\\text{P(middle} \\mid \\text{ketchup)} = \\dfrac{21}{48} = \\dfrac{7}{16}`\n\n**[B1]**\n\n(ii)\n\nThe events are independent if a condition makes no difference, so compare each answer with the probability without the condition\n\n$\\text{P(ketchup)} = \\frac{48}{160} = \\frac{3}{10}$\n\n**[M1]**\n\n$\\text{P(middle)} = \\frac{70}{160} = \\frac{7}{16}$\n\nBoth are equal to the conditional probabilities from part (b)(i)\n\n`\\text{P(ketchup} \\mid \\text{middle)} = \\text{P(ketchup)} = \\dfrac{3}{10}`\n\n**Final answer:** **The events 'is in middle school' and 'prefers ketchup' are independent**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of preferring ketchup given middle school of 3/10 (or 21/70, 0.3).\n> \n> **B1**: Probability of being in middle school given preferring ketchup of 7/16 (or 21/48, 0.4375).\n> \n> **M1**: P(ketchup) = 48/160 or P(middle) = 70/160 found.\n> \n> **A1**: A conditional probability from (i) compared with the matching unconditional probability, shown to be equal, with the conclusion that the events are independent.\n> \n> One comparison is enough for the A1. Comparing P(middle and ketchup) = 21/160 with P(middle) × P(ketchup) = 7/16 × 3/10 = 21/160 is also accepted.",
+     "equations": [
+      {
+       "latex": "\\text{P(ketchup)} = \\frac{48}{160} = \\frac{3}{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(ketchup)</mtext><mo>=</mo><mfrac><mn>48</mn><mn>160</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>10</mn></mfrac></math>",
+       "alt": "\\text{P(ketchup)} = \\dfrac{48}{160} = \\dfrac{3}{10}"
+      },
+      {
+       "latex": "\\text{P(middle)} = \\frac{70}{160} = \\frac{7}{16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(middle)</mtext><mo>=</mo><mfrac><mn>70</mn><mn>160</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>16</mn></mfrac></math>",
+       "alt": "\\text{P(middle)} = \\dfrac{70}{160} = \\dfrac{7}{16}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_d5Y3H53W2vzzdK7T",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_jFMSbVDgg3HbQ5zm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "A pond contains 5 female tadpoles and 6 male tadpoles. Katin takes 2 tadpoles at random from the pond, without replacement.\n\nDraw a tree diagram to represent this information, showing the probability on each of the branches.",
+     "solution_md": "For the first tadpole there are 11 in the pond. After one is taken, 10 remain, with one fewer of the sex already taken\n\n![Tree diagram with headers First tadpole and Second tadpole. First tadpole: F 5/11, M 6/11. After F: F 4/10, M 6/10. After M: F 5/10, M 5/10. The ends F, F and M, M are labelled P(F, F) and P(M, M)](assets/012-tree-diagram-with-headers-first-tadpole-and-seco.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Correct structure, fully labelled: female and male for the first tadpole, then female and male after each.\n> \n> **B1**: First-tadpole probabilities 5/11 and 6/11.\n> \n> **B1**: All four second-tadpole probabilities correct: 4/10 and 6/10 after female; 5/10 and 5/10 after male.\n> \n> Equivalent fractions or decimals are accepted."
+    },
+    {
+     "id": "qstnprt_mVBrMsfc76JF6bYK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that\n\n(i) both tadpoles are of the same sex\n\n(ii) both tadpoles are female, given that they are of the same sex.",
+     "solution_md": "![Tree diagram with headers First tadpole and Second tadpole. First tadpole: F 5/11, M 6/11. After F: F 4/10, M 6/10. After M: F 5/10, M 5/10. The ends F, F and M, M are labelled P(F, F) and P(M, M)](assets/012-tree-diagram-with-headers-first-tadpole-and-seco.png)\n\n(i)\n\nMultiply along the female, female branches\n\n$\\text{P} ( F ,  F ) = \\frac{5}{11} \\times \\frac{4}{10} = \\frac{20}{110}$\n\nMultiply along the male, male branches\n\n$\\text{P} ( M ,  M ) = \\frac{6}{11} \\times \\frac{5}{10} = \\frac{30}{110}$\n\nThe tadpoles are the same sex in either case, so add\n\n$\\frac{20}{110} + \\frac{30}{110} = \\frac{50}{110}$\n\n**[M1]**\n\n$\\text{P(same sex)} = \\frac{5}{11}$\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability\n\n`\\text{P(both female} \\mid \\text{same sex)} = \\dfrac{\\text{P(both female and same sex)}}{\\text{P(same sex)}}`\n\nTwo female tadpoles are always the same sex, so the numerator is P(F, F)\n\n`\\text{P(both female} \\mid \\text{same sex)} = \\dfrac{\\dfrac{20}{110}}{\\dfrac{50}{110}}`\n\n**[M1]**\n\n`\\text{P(both female} \\mid \\text{same sex)} = \\dfrac{2}{5}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two products for female, female and male, male, correct or following through from the tree in part (a).\n> \n> **A1**: Probability of 5/11 (or 50/110; answers which round to 0.455).\n> \n> **M1**: P(F, F) divided by the answer to (i).\n> \n> **A1**: Probability of 2/5 (or 0.4).\n> \n> Choosing with combinations is also accepted, e.g. (⁵C₂ + ⁶C₂)/¹¹C₂ = 25/55 for (i).",
+     "equations": [
+      {
+       "latex": "\\text{P} ( F ,  F ) = \\frac{5}{11} \\times \\frac{4}{10} = \\frac{20}{110}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>F</mi><mo>,</mo><mo>&#xA0;</mo><mi>F</mi><mo>)</mo><mo>=</mo><mfrac><mn>5</mn><mn>11</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>4</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>110</mn></mfrac></math>",
+       "alt": "\\text{P}(F, \\; F) = \\dfrac{5}{11} \\times \\dfrac{4}{10} = \\dfrac{20}{110}"
+      },
+      {
+       "latex": "\\text{P} ( M ,  M ) = \\frac{6}{11} \\times \\frac{5}{10} = \\frac{30}{110}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>M</mi><mo>,</mo><mo>&#xA0;</mo><mi>M</mi><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>11</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>30</mn><mn>110</mn></mfrac></math>",
+       "alt": "\\text{P}(M, \\; M) = \\dfrac{6}{11} \\times \\dfrac{5}{10} = \\dfrac{30}{110}"
+      },
+      {
+       "latex": "\\frac{20}{110} + \\frac{30}{110} = \\frac{50}{110}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>110</mn></mfrac><mo>+</mo><mfrac><mn>30</mn><mn>110</mn></mfrac><mo>=</mo><mfrac><mn>50</mn><mn>110</mn></mfrac></math>",
+       "alt": "\\dfrac{20}{110} + \\dfrac{30}{110} = \\dfrac{50}{110}"
+      },
+      {
+       "latex": "\\text{P(same sex)} = \\frac{5}{11}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(same sex)</mtext><mo>=</mo><mfrac><mn>5</mn><mn>11</mn></mfrac></math>",
+       "alt": "\\text{P(same sex)} = \\dfrac{5}{11}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cJpsvdnr7RVZq3NK",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_WRmgZqhCZB4373xp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B8jpsFGFMWZ2ywS5",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "A set of 52 cards consists of 13 cards of each of four colours: red, blue, green and yellow. The 13 cards of each colour are numbered 1, 2, 3, …, 13.\n\nOne card is chosen at random from the set. Find\n\n(i) the probability that the card is red, and the probability that the number on the card is greater than 9\n\n(ii) the probability that the card is red and the number on it is greater than 9\n\n(iii) the probability that the card is red, given that the number on it is greater than 9.",
+     "solution_md": "(i)\n\n13 of the 52 cards are red\n\n$\\text{P(red)} = \\frac{13}{52} = \\frac{1}{4}$\n\n**[B1]**\n\nThe numbers greater than 9 are 10, 11, 12 and 13, so there are 4 of each colour\n\n$4 \\times 4 = 16$\n\n$\\text{P(greater than 9)} = \\frac{16}{52} = \\frac{4}{13}$\n\n**[B1]**\n\n(ii)\n\nThe red cards numbered 10, 11, 12 and 13 satisfy both\n\n$\\text{P(red and greater than 9)} = \\frac{4}{52} = \\frac{1}{13}$\n\n**[B1]**\n\n(iii)\n\nGiven that the number is greater than 9, the card is one of 16 cards, and 4 of these are red\n\n`\\text{P(red} \\mid \\text{greater than 9)} = \\dfrac{4}{16} = \\dfrac{1}{4}`\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Probability that the card is red of 1/4 (or 13/52).\n> \n> **B1**: Probability that the number is greater than 9 of 4/13 (or 16/52; answers which round to 0.308).\n> \n> **B1**: Probability of 1/13 (or 4/52; answers which round to 0.0769).\n> \n> **B1**: Probability of 1/4 (or 4/16), e.g. from the counts or as (1/13) ÷ (4/13).",
+     "equations": [
+      {
+       "latex": "\\text{P(red)} = \\frac{13}{52} = \\frac{1}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(red)</mtext><mo>=</mo><mfrac><mn>13</mn><mn>52</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\text{P(red)} = \\dfrac{13}{52} = \\dfrac{1}{4}"
+      },
+      {
+       "latex": "4 \\times 4 = 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#xD7;</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>",
+       "alt": "4 \\times 4 = 16"
+      },
+      {
+       "latex": "\\text{P(greater than 9)} = \\frac{16}{52} = \\frac{4}{13}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(greater than 9)</mtext><mo>=</mo><mfrac><mn>16</mn><mn>52</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>13</mn></mfrac></math>",
+       "alt": "\\text{P(greater than 9)} = \\dfrac{16}{52} = \\dfrac{4}{13}"
+      },
+      {
+       "latex": "\\text{P(red and greater than 9)} = \\frac{4}{52} = \\frac{1}{13}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(red and greater than 9)</mtext><mo>=</mo><mfrac><mn>4</mn><mn>52</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>13</mn></mfrac></math>",
+       "alt": "\\text{P(red and greater than 9)} = \\dfrac{4}{52} = \\dfrac{1}{13}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_jW5NDcDbPF8BSyxG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "Determine whether the events 'the card is red' and 'the number on the card is greater than 9' are independent, justifying your answer.",
+     "solution_md": "Let $R$ be the event 'the card is red' and $G$ the event 'the number is greater than 9'. State the test for independence\n\n$\\text{P} ( R \\cap G ) = \\text{P} ( R ) \\times \\text{P} ( G )$\n\nWork out the product, using part (a)\n\n$\\text{P} ( R ) \\times \\text{P} ( G ) = \\frac{1}{4} \\times \\frac{4}{13} = \\frac{1}{13}$\n\n**[M1]**\n\nCompare it with the probability of both, from part (a)(ii)\n\n$\\text{P} ( R \\cap G ) = \\frac{1}{13} = \\text{P} ( R ) \\times \\text{P} ( G )$\n\n**Final answer:** **The events are independent**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Product of the probabilities from (a)(i), 1/4 × 4/13.\n> \n> **A1**: P(R), P(G) and P(R ∩ G) (or P(R and G)) identified, the comparison 1/13 = 1/13 and the conclusion that the events are independent.\n> \n> Comparing the conditional probability instead, P(R | G) = 1/4 = P(R), with the notation and a conclusion, is also accepted.",
+     "equations": [
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>",
+       "alt": "R"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "\\text{P} ( R \\cap G ) = \\text{P} ( R ) \\times \\text{P} ( G )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>&#x2229;</mo><mi>G</mi><mo>)</mo><mo>=</mo><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>G</mi><mo>)</mo></math>",
+       "alt": "\\text{P}(R \\cap G) = \\text{P}(R) \\times \\text{P}(G)"
+      },
+      {
+       "latex": "\\text{P} ( R ) \\times \\text{P} ( G ) = \\frac{1}{4} \\times \\frac{4}{13} = \\frac{1}{13}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>G</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>4</mn><mn>13</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>13</mn></mfrac></math>",
+       "alt": "\\text{P}(R) \\times \\text{P}(G) = \\dfrac{1}{4} \\times \\dfrac{4}{13} = \\dfrac{1}{13}"
+      },
+      {
+       "latex": "\\text{P} ( R \\cap G ) = \\frac{1}{13} = \\text{P} ( R ) \\times \\text{P} ( G )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>&#x2229;</mo><mi>G</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>13</mn></mfrac><mo>=</mo><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>G</mi><mo>)</mo></math>",
+       "alt": "\\text{P}(R \\cap G) = \\dfrac{1}{13} = \\text{P}(R) \\times \\text{P}(G)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_36HhFCGYFXby4ZJT",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_GZvbbMmyHK7sQMDc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "A bag contains 15 blue tokens and 27 yellow tokens. A token is chosen at random from the bag and is not replaced. A second token is then chosen at random from the bag.\n\nDraw a tree diagram to represent this information, showing the probability on each of the branches.",
+     "solution_md": "For the first token there are 42 tokens in the bag. After one is taken, 41 remain, with one fewer of the colour already chosen\n\n![Tree diagram with headers First token and Second token. First token: B 15/42, Y 27/42. After B: B 14/41, Y 27/41. After Y: B 15/41, Y 26/41. The ends B, B and Y, B are labelled P(B, B) and P(Y, B)](assets/013-tree-diagram-with-headers-first-token-and-second.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Correct structure, fully labelled: blue and yellow for the first token, then blue and yellow after each.\n> \n> **B1**: First-token probabilities 15/42 and 27/42.\n> \n> **B1**: All four second-token probabilities correct: 14/41 and 27/41 after blue; 15/41 and 26/41 after yellow.\n> \n> Equivalent fractions (e.g. 5/14, 9/14 for the first token) are accepted."
+    },
+    {
+     "id": "qstnprt_Hv2nvNJd82DXWfZT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that\n\n(i) the second token chosen is blue\n\n(ii) both tokens chosen are blue, given that the second token chosen is blue.",
+     "solution_md": "![Tree diagram with headers First token and Second token. First token: B 15/42, Y 27/42. After B: B 14/41, Y 27/41. After Y: B 15/41, Y 26/41. The ends B, B and Y, B are labelled P(B, B) and P(Y, B)](assets/013-tree-diagram-with-headers-first-token-and-second.png)\n\n(i)\n\nThe second token is blue on the blue, blue and yellow, blue paths, so add their products\n\n$\\text{P(second blue)} = \\frac{15}{42} \\times \\frac{14}{41} + \\frac{27}{42} \\times \\frac{15}{41}$\n\n$\\text{P(second blue)} = \\frac{210}{1722} + \\frac{405}{1722} = \\frac{615}{1722}$\n\n**[M1]**\n\n$\\text{P(second blue)} = \\frac{5}{14}$\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability\n\n`\\text{P(both blue} \\mid \\text{second blue)} = \\dfrac{\\text{P(both blue and second blue)}}{\\text{P(second blue)}}`\n\nIf both are blue then the second is blue, so the numerator is P(B, B)\n\n`\\text{P(both blue} \\mid \\text{second blue)} = \\dfrac{\\dfrac{210}{1722}}{\\dfrac{615}{1722}}`\n\n**[M1]**\n\n`\\text{P(both blue} \\mid \\text{second blue)} = \\dfrac{14}{41}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two products for blue, blue and yellow, blue, correct or following through from the tree in part (a).\n> \n> **A1**: Probability of 5/14 (or 615/1722; answers which round to 0.357).\n> \n> **M1**: P(B, B) = 210/1722 (or 5/41) divided by the answer to (i).\n> \n> **A1**: Probability of 14/41 (answers which round to 0.341).",
+     "equations": [
+      {
+       "latex": "\\text{P(second blue)} = \\frac{15}{42} \\times \\frac{14}{41} + \\frac{27}{42} \\times \\frac{15}{41}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(second blue)</mtext><mo>=</mo><mfrac><mn>15</mn><mn>42</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>14</mn><mn>41</mn></mfrac><mo>+</mo><mfrac><mn>27</mn><mn>42</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>15</mn><mn>41</mn></mfrac></math>",
+       "alt": "\\text{P(second blue)} = \\dfrac{15}{42} \\times \\dfrac{14}{41} + \\dfrac{27}{42} \\times \\dfrac{15}{41}"
+      },
+      {
+       "latex": "\\text{P(second blue)} = \\frac{210}{1722} + \\frac{405}{1722} = \\frac{615}{1722}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(second blue)</mtext><mo>=</mo><mfrac><mn>210</mn><mn>1722</mn></mfrac><mo>+</mo><mfrac><mn>405</mn><mn>1722</mn></mfrac><mo>=</mo><mfrac><mn>615</mn><mn>1722</mn></mfrac></math>",
+       "alt": "\\text{P(second blue)} = \\dfrac{210}{1722} + \\dfrac{405}{1722} = \\dfrac{615}{1722}"
+      },
+      {
+       "latex": "\\text{P(second blue)} = \\frac{5}{14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(second blue)</mtext><mo>=</mo><mfrac><mn>5</mn><mn>14</mn></mfrac></math>",
+       "alt": "\\text{P(second blue)} = \\dfrac{5}{14}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2QgDPzKZdN67cyqT",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_fP87pRZ3sf6VzfTs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "The probability that it rains on any given day in a certain month is 0.4. When it rains, Suresh travels to work by bus and arrives on time with probability 0.6. When it does not rain, Suresh cycles to work and arrives on time with probability 0.9.\n\nThe tree diagram below shows some of this information.\n\n![Tree diagram with headers Weather and Arrival. First branches Rain with 0.4 printed, and No rain with no probability. After Rain: On time 0.6 and Late blank. After No rain: On time 0.9 and Late blank](assets/014-tree-diagram-with-headers-weather-and-arrival-fi.png)\n\nComplete the tree diagram to show the probabilities.",
+     "solution_md": "Each pair of branches must add to 1, so subtract each given probability from 1\n\n$\\text{P(no rain)} = 1 - 0 . 4 = 0 . 6$\n\n`\\text{P(late} \\mid \\text{rain)} = 1 - 0.6 = 0.4`\n\n`\\text{P(late} \\mid \\text{no rain)} = 1 - 0.9 = 0.1`\n\n![Completed tree diagram with headers Weather and Arrival. Rain 0.4, No rain 0.6. After Rain: On time 0.6, Late 0.4. After No rain: On time 0.9, Late 0.1](assets/015-completed-tree-diagram-with-headers-weather-and-.png)\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: 0.6 on the No rain branch.\n> \n> **B1**: 0.4 and 0.1 on the two Late branches.",
+     "equations": [
+      {
+       "latex": "\\text{P(no rain)} = 1 - 0 . 4 = 0 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(no rain)</mtext><mo>=</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "\\text{P(no rain)} = 1 - 0.4 = 0.6"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kGgChTPtBdhwsMgC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that Suresh arrives at work on time.",
+     "solution_md": "![Completed tree diagram with headers Weather and Arrival. Rain 0.4, No rain 0.6. After Rain: On time 0.6, Late 0.4. After No rain: On time 0.9, Late 0.1](assets/016-completed-tree-diagram-with-headers-weather-and-.png)\n\nSuresh can be on time when it rains or when it does not, so add the two branch products that end in On time\n\n$\\text{P(on time)} = 0 . 4 \\times 0 . 6 + 0 . 6 \\times 0 . 9$\n\n**[M1]**\n\n$\\text{P(on time)} = 0 . 78$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two products 0.4 × 0.6 and 0.6 × 0.9, correct or consistent with the tree in part (a).\n> \n> **A1**: Probability of 0.78 (or 39/50).",
+     "equations": [
+      {
+       "latex": "\\text{P(on time)} = 0 . 4 \\times 0 . 6 + 0 . 6 \\times 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(on time)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "\\text{P(on time)} = 0.4 \\times 0.6 + 0.6 \\times 0.9"
+      },
+      {
+       "latex": "\\text{P(on time)} = 0 . 78",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(on time)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>78</mn></math>",
+       "alt": "\\text{P(on time)} = 0.78"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cHFQTbwxbwwjJHYk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that it rained on a particular day, given that Suresh arrived at work late on that day.",
+     "solution_md": "![Completed tree diagram with headers Weather and Arrival. Rain 0.4, No rain 0.6. After Rain: On time 0.6, Late 0.4. After No rain: On time 0.9, Late 0.1](assets/017-completed-tree-diagram-with-headers-weather-and-.png)\n\nUse the formula for conditional probability\n\n`\\text{P(rain} \\mid \\text{late)} = \\dfrac{\\text{P(rain and late)}}{\\text{P(late)}}`\n\nMultiply along the Rain, Late branches for the numerator\n\n$\\text{P(rain and late)} = 0 . 4 \\times 0 . 4 = 0 . 16$\n\n**[M1]**\n\nBeing late is the complement of being on time, from part (b)\n\n$\\text{P(late)} = 1 - 0 . 78 = 0 . 22$\n\n`\\text{P(rain} \\mid \\text{late)} = \\dfrac{0.16}{0.22}`\n\n**[M1]**\n\n**Final answer:** `\\text{P(rain} \\mid \\text{late)} = \\dfrac{8}{11} = 0.727`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.4 × 0.4 (or 0.16) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: 1 − (the answer to part (b)), or 0.4 × 0.4 + 0.6 × 0.1, seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 8/11 (answers which round to 0.727).",
+     "equations": [
+      {
+       "latex": "\\text{P(rain and late)} = 0 . 4 \\times 0 . 4 = 0 . 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(rain and late)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>16</mn></math>",
+       "alt": "\\text{P(rain and late)} = 0.4 \\times 0.4 = 0.16"
+      },
+      {
+       "latex": "\\text{P(late)} = 1 - 0 . 78 = 0 . 22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(late)</mtext><mo>=</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>78</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>22</mn></math>",
+       "alt": "\\text{P(late)} = 1 - 0.78 = 0.22"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zT7nKVtvwfrWXPDw",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_GRzmQWQqb5GdjnVR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "A box contains 7 blue counters and 3 red counters. A counter is chosen at random from the box and its colour is noted. This counter is not replaced. A second counter is then chosen at random from the box and its colour is noted.\n\nDraw a tree diagram to represent this information, showing the probability on each of the branches.",
+     "solution_md": "For the first counter there are 10 counters in the box. After one is taken, 9 remain, with one fewer of the colour already chosen\n\n![Tree diagram with headers First counter and Second counter. First counter: B 7/10, R 3/10. After B: B 6/9, R 3/9. After R: B 7/9, R 2/9. The ends B, B and R, R are labelled P(B, B) and P(R, R)](assets/018-tree-diagram-with-headers-first-counter-and-seco.png)\n\n**[B1 B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Correct structure, fully labelled: blue and red for the first counter, then blue and red after each.\n> \n> **B1**: First-counter probabilities 7/10 and 3/10.\n> \n> **B1**: All four second-counter probabilities correct: 6/9 and 3/9 after blue; 7/9 and 2/9 after red.\n> \n> Any clear labels (B and R, or the colours in words) are accepted, and equivalent fractions or decimals are accepted."
+    },
+    {
+     "id": "qstnprt_wHbrFkggG8GMmJRW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that\n\n(i) both counters chosen are the same colour\n\n(ii) neither counter chosen is blue.",
+     "solution_md": "![Tree diagram with headers First counter and Second counter. First counter: B 7/10, R 3/10. After B: B 6/9, R 3/9. After R: B 7/9, R 2/9. The ends B, B and R, R are labelled P(B, B) and P(R, R)](assets/018-tree-diagram-with-headers-first-counter-and-seco.png)\n\n(i)\n\nMultiply along the blue, blue branches\n\n$\\text{P} ( B ,  B ) = \\frac{7}{10} \\times \\frac{6}{9} = \\frac{42}{90}$\n\nMultiply along the red, red branches\n\n$\\text{P} ( R ,  R ) = \\frac{3}{10} \\times \\frac{2}{9} = \\frac{6}{90}$\n\nThe counters are the same colour in either of these cases, so add\n\n$\\frac{42}{90} + \\frac{6}{90} = \\frac{48}{90}$\n\n**[M1]**\n\n$\\text{P(same colour)} = \\frac{8}{15}$\n\n**[A1]**\n\n(ii)\n\nNeither counter is blue only when both are red\n\n$\\text{P} ( R ,  R ) = \\frac{6}{90} = \\frac{1}{15}$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two products for blue, blue and red, red, correct or following through from the tree in part (a).\n> \n> **A1**: Probability that both are the same colour of 8/15 (or 48/90; answers which round to 0.533).\n> \n> **B1**: Probability that neither is blue of 1/15 (or 6/90; answers which round to 0.0667).\n> \n> Choosing with combinations is also accepted, e.g. (⁷C₂ + ³C₂)/¹⁰C₂ = 24/45 for (i).",
+     "equations": [
+      {
+       "latex": "\\text{P} ( B ,  B ) = \\frac{7}{10} \\times \\frac{6}{9} = \\frac{42}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>B</mi><mo>,</mo><mo>&#xA0;</mo><mi>B</mi><mo>)</mo><mo>=</mo><mfrac><mn>7</mn><mn>10</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>6</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>42</mn><mn>90</mn></mfrac></math>",
+       "alt": "\\text{P}(B, \\; B) = \\dfrac{7}{10} \\times \\dfrac{6}{9} = \\dfrac{42}{90}"
+      },
+      {
+       "latex": "\\text{P} ( R ,  R ) = \\frac{3}{10} \\times \\frac{2}{9} = \\frac{6}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>,</mo><mo>&#xA0;</mo><mi>R</mi><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>6</mn><mn>90</mn></mfrac></math>",
+       "alt": "\\text{P}(R, \\; R) = \\dfrac{3}{10} \\times \\dfrac{2}{9} = \\dfrac{6}{90}"
+      },
+      {
+       "latex": "\\frac{42}{90} + \\frac{6}{90} = \\frac{48}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>42</mn><mn>90</mn></mfrac><mo>+</mo><mfrac><mn>6</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>48</mn><mn>90</mn></mfrac></math>",
+       "alt": "\\dfrac{42}{90} + \\dfrac{6}{90} = \\dfrac{48}{90}"
+      },
+      {
+       "latex": "\\text{P(same colour)} = \\frac{8}{15}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(same colour)</mtext><mo>=</mo><mfrac><mn>8</mn><mn>15</mn></mfrac></math>",
+       "alt": "\\text{P(same colour)} = \\dfrac{8}{15}"
+      },
+      {
+       "latex": "\\text{P} ( R ,  R ) = \\frac{6}{90} = \\frac{1}{15}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>R</mi><mo>,</mo><mo>&#xA0;</mo><mi>R</mi><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac></math>",
+       "alt": "\\text{P}(R, \\; R) = \\dfrac{6}{90} = \\dfrac{1}{15}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_7q6N9tKQCtXfHqvw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that the first counter chosen is red, given that both counters chosen are the same colour.",
+     "solution_md": "![Tree diagram with headers First counter and Second counter. First counter: B 7/10, R 3/10. After B: B 6/9, R 3/9. After R: B 7/9, R 2/9. The ends B, B and R, R are labelled P(B, B) and P(R, R)](assets/018-tree-diagram-with-headers-first-counter-and-seco.png)\n\nUse the formula for conditional probability\n\n`\\text{P(first red} \\mid \\text{same colour)} = \\dfrac{\\text{P(first red and same colour)}}{\\text{P(same colour)}}`\n\nThe first counter is red and both are the same colour only when both are red, so the numerator is P(R, R) from part (b)\n\n$\\text{P(first red and same colour)} = \\frac{6}{90}$\n\n**[M1]**\n\nThe denominator is the probability that both are the same colour, from part (b)\n\n`\\text{P(first red} \\mid \\text{same colour)} = \\dfrac{\\dfrac{6}{90}}{\\dfrac{48}{90}}`\n\n**[M1]**\n\n`\\text{P(first red} \\mid \\text{same colour)} = \\dfrac{1}{8}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 6/90 (or 1/15) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: The probability that both are the same colour from part (b) seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 1/8 (or 0.125).",
+     "equations": [
+      {
+       "latex": "\\text{P(first red and same colour)} = \\frac{6}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(first red and same colour)</mtext><mo>=</mo><mfrac><mn>6</mn><mn>90</mn></mfrac></math>",
+       "alt": "\\text{P(first red and same colour)} = \\dfrac{6}{90}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VNTFK9CZ7nYSgKHF",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_HVMkg2pRN42pNcmY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of 100 children were asked whether they liked football and whether they liked cricket. 84 of the children said that they liked football and 58 said that they liked cricket. Of the children who did not like football, 10 said that they did not like cricket.\n\nA child is chosen at random from the group.\n\nFind the probability that the child likes both football and cricket.",
+     "solution_md": "Organise the information in a two-way table\n\n|   | Likes football | Does not like football | Total |\n|---|---|---|---|\n| **Likes cricket** |   |   | 58 |\n| **Does not like cricket** |   | 10 |   |\n| **Total** | 84 |   | 100 |\n\nStart with the number who do not like football\n\n$100 - 84 = 16$\n\nOf these 16, 10 do not like cricket, so the rest like cricket but not football\n\n$16 - 10 = 6$\n\nThe other children who like cricket also like football\n\n$58 - 6 = 52$\n\n**[M1]**\n\nFill in the remaining cells by subtracting from the totals\n\n|   | Likes football | Does not like football | Total |\n|---|---|---|---|\n| **Likes cricket** | 52 | 6 | 58 |\n| **Does not like cricket** | 32 | 10 | 42 |\n| **Total** | 84 | 16 | 100 |\n\n52 of the 100 children like both\n\n$\\text{P(likes both)} = \\frac{52}{100} = \\frac{13}{25}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Correct method to find the number who like both, e.g. 58 − (16 − 10) or 84 + 58 − 90, seen or implied by a correct table or a numerator of 52.\n> \n> **A1**: Probability of 13/25 (or 52/100, 0.52).\n> \n> A completed table is not required, but any table drawn is credited as working.",
+     "equations": [
+      {
+       "latex": "100 - 84 = 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>-</mo><mn>84</mn><mo>=</mo><mn>16</mn></math>",
+       "alt": "100 - 84 = 16"
+      },
+      {
+       "latex": "16 - 10 = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>-</mo><mn>10</mn><mo>=</mo><mn>6</mn></math>",
+       "alt": "16 - 10 = 6"
+      },
+      {
+       "latex": "58 - 6 = 52",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>58</mn><mo>-</mo><mn>6</mn><mo>=</mo><mn>52</mn></math>",
+       "alt": "58 - 6 = 52"
+      },
+      {
+       "latex": "\\text{P(likes both)} = \\frac{52}{100} = \\frac{13}{25}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(likes both)</mtext><mo>=</mo><mfrac><mn>52</mn><mn>100</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>25</mn></mfrac></math>",
+       "alt": "\\text{P(likes both)} = \\dfrac{52}{100} = \\dfrac{13}{25}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4VDBSq2tyWyHQs6x",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that\n\n(i) the child likes football or cricket, but not both\n\n(ii) the child likes football, given that the child likes cricket.",
+     "solution_md": "|   | Likes football | Does not like football | Total |\n|---|---|---|---|\n| **Likes cricket** | 52 | 6 | 58 |\n| **Does not like cricket** | 32 | 10 | 42 |\n| **Total** | 84 | 16 | 100 |\n\n(i)\n\nAdd the children who like football but not cricket and those who like cricket but not football\n\n$32 + 6 = 38$\n\n**[M1]**\n\n$\\text{P(exactly one)} = \\frac{38}{100} = \\frac{19}{50}$\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability\n\n`\\text{P(football} \\mid \\text{cricket)} = \\dfrac{\\text{P(football and cricket)}}{\\text{P(cricket)}}`\n\nSubstitute the probabilities from the table\n\n`\\text{P(football} \\mid \\text{cricket)} = \\dfrac{\\dfrac{52}{100}}{\\dfrac{58}{100}} = \\dfrac{52}{58}`\n\n**[M1]**\n\n`\\text{P(football} \\mid \\text{cricket)} = \\dfrac{26}{29}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sum of the two non-overlapping groups, 32 + 6 (or 90 − 52), following through from part (a).\n> \n> **A1**: Probability of 19/50 (or 38/100, 0.38).\n> \n> **M1**: Probability that the child likes both divided by the probability that the child likes cricket, e.g. 52/58 or (52/100) ÷ (58/100), following through from part (a); unsimplified is accepted.\n> \n> **A1**: Probability of 26/29 (answers which round to 0.897).",
+     "equations": [
+      {
+       "latex": "32 + 6 = 38",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>38</mn></math>",
+       "alt": "32 + 6 = 38"
+      },
+      {
+       "latex": "\\text{P(exactly one)} = \\frac{38}{100} = \\frac{19}{50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(exactly one)</mtext><mo>=</mo><mfrac><mn>38</mn><mn>100</mn></mfrac><mo>=</mo><mfrac><mn>19</mn><mn>50</mn></mfrac></math>",
+       "alt": "\\text{P(exactly one)} = \\dfrac{38}{100} = \\dfrac{19}{50}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RJzx2yPXsqHzdjjK",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_BydTHWvwbZ9P22kp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP"
+     ],
+     "part_tier": null,
+     "problem_md": "200 students in Year 12 and Year 13 were asked how they usually travel to school. The incomplete table below summarises the results.\n\n|   | Walk | Car | Bus | Cycle | Total |\n|---|---|---|---|---|---|\n| **Year 12** |   |   | 22 | 0 | 160 |\n| **Year 13** |   | 2 | 12 | 3 |   |\n| **Total** | 79 |   |   | 3 | 200 |\n\nA student is chosen at random from the 200 students. Find the probability that the student\n\n(i) travels to school by bus\n\n(ii) is in Year 12 and travels to school by car.",
+     "solution_md": "(i)\n\nTo find the number who travel by bus, add the bus column\n\n$22 + 12 = 34$\n\n$\\text{P(bus)} = \\frac{34}{200} = \\frac{17}{100}$\n\n**[B1]**\n\n(ii)\n\nComplete the table, starting with the total for Year 13\n\n$200 - 160 = 40$\n\nThe Year 13 students who walk are the rest of that row\n\n$40 - 2 - 12 - 3 = 23$\n\nSo the Year 12 students who walk are\n\n$79 - 23 = 56$\n\nThe Year 12 students who travel by car are the rest of that row\n\n$160 - 56 - 22 - 0 = 82$\n\n**[M1]**\n\n|   | Walk | Car | Bus | Cycle | Total |\n|---|---|---|---|---|---|\n| **Year 12** | 56 | 82 | 22 | 0 | 160 |\n| **Year 13** | 23 | 2 | 12 | 3 | 40 |\n| **Total** | 79 | 84 | 34 | 3 | 200 |\n\n$\\text{P(Year 12 and car)} = \\frac{82}{200} = \\frac{41}{100}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of travelling by bus of 17/100 (or 34/200, 0.17).\n> \n> **M1**: Correct method for the number of Year 12 students who travel by car, e.g. 160 − (79 − 23) − 22, seen or implied by a correct table.\n> \n> **A1**: Probability of 41/100 (or 82/200, 0.41).",
+     "equations": [
+      {
+       "latex": "22 + 12 = 34",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>34</mn></math>",
+       "alt": "22 + 12 = 34"
+      },
+      {
+       "latex": "\\text{P(bus)} = \\frac{34}{200} = \\frac{17}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(bus)</mtext><mo>=</mo><mfrac><mn>34</mn><mn>200</mn></mfrac><mo>=</mo><mfrac><mn>17</mn><mn>100</mn></mfrac></math>",
+       "alt": "\\text{P(bus)} = \\dfrac{34}{200} = \\dfrac{17}{100}"
+      },
+      {
+       "latex": "200 - 160 = 40",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>-</mo><mn>160</mn><mo>=</mo><mn>40</mn></math>",
+       "alt": "200 - 160 = 40"
+      },
+      {
+       "latex": "40 - 2 - 12 - 3 = 23",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>-</mo><mn>2</mn><mo>-</mo><mn>12</mn><mo>-</mo><mn>3</mn><mo>=</mo><mn>23</mn></math>",
+       "alt": "40 - 2 - 12 - 3 = 23"
+      },
+      {
+       "latex": "79 - 23 = 56",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>79</mn><mo>-</mo><mn>23</mn><mo>=</mo><mn>56</mn></math>",
+       "alt": "79 - 23 = 56"
+      },
+      {
+       "latex": "160 - 56 - 22 - 0 = 82",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>-</mo><mn>56</mn><mo>-</mo><mn>22</mn><mo>-</mo><mn>0</mn><mo>=</mo><mn>82</mn></math>",
+       "alt": "160 - 56 - 22 - 0 = 82"
+      },
+      {
+       "latex": "\\text{P(Year 12 and car)} = \\frac{82}{200} = \\frac{41}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(Year 12 and car)</mtext><mo>=</mo><mfrac><mn>82</mn><mn>200</mn></mfrac><mo>=</mo><mfrac><mn>41</mn><mn>100</mn></mfrac></math>",
+       "alt": "\\text{P(Year 12 and car)} = \\dfrac{82}{200} = \\dfrac{41}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BcvmDpzCWqSQ8J3d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that the student\n\n(i) walks to school, given that the student is in Year 13\n\n(ii) is in Year 12, given that the student travels to school by bus.",
+     "solution_md": "|   | Walk | Car | Bus | Cycle | Total |\n|---|---|---|---|---|---|\n| **Year 12** | 56 | 82 | 22 | 0 | 160 |\n| **Year 13** | 23 | 2 | 12 | 3 | 40 |\n| **Total** | 79 | 84 | 34 | 3 | 200 |\n\n(i)\n\nUse the formula for conditional probability\n\n`\\text{P(walk} \\mid \\text{Year 13)} = \\dfrac{\\text{P(walk and Year 13)}}{\\text{P(Year 13)}}`\n\nSubstitute the probabilities from the table\n\n`\\text{P(walk} \\mid \\text{Year 13)} = \\dfrac{\\dfrac{23}{200}}{\\dfrac{40}{200}}`\n\n**[M1]**\n\n`\\text{P(walk} \\mid \\text{Year 13)} = \\dfrac{23}{40}`\n\n**[A1]**\n\n(ii)\n\nUse the formula for conditional probability again\n\n`\\text{P(Year 12} \\mid \\text{bus)} = \\dfrac{\\text{P(Year 12 and bus)}}{\\text{P(bus)}}`\n\nSubstitute the probabilities from the table\n\n`\\text{P(Year 12} \\mid \\text{bus)} = \\dfrac{\\dfrac{22}{200}}{\\dfrac{34}{200}} = \\dfrac{22}{34}`\n\n**[M1]**\n\n`\\text{P(Year 12} \\mid \\text{bus)} = \\dfrac{11}{17}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Number of Year 13 students who walk divided by the number of Year 13 students, e.g. 23/40, following through from part (a); unsimplified is accepted.\n> \n> **A1**: Probability of 23/40 (or 0.575).\n> \n> **M1**: Number of Year 12 bus users divided by the number of bus users, e.g. 22/34; unsimplified is accepted.\n> \n> **A1**: Probability of 11/17 (answers which round to 0.647).\n> \n> The two answers are marked independently."
+    }
+   ]
+  },
+  {
+   "id": "qstn_6Ym83qJXCQ8KxJtR",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_GFpPFkXg6DB2CPZp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "In a snowboarding competition, competitors are given two attempts to complete a trick.\n\nThe probability that Kimona completes the trick at her first attempt is 0.3.\n\nIf she completes the trick at her first attempt, the probability that she completes it at her second attempt is 0.6.\n\nIf she fails at her first attempt, the probability that she completes it at her second attempt is 0.5.\n\nComplete the tree diagram to show the probabilities. C denotes that the trick is completed and F denotes that it is failed.\n\n![Tree diagram with headers First attempt and Second attempt. First attempt branches C and F, with 0.3 printed on C. After C, branches C and F with 0.6 printed on C. After F, branches C and F with 0.5 printed on C. The other three branches are blank](assets/019-tree-diagram-with-headers-first-attempt-and-seco.png)",
+     "solution_md": "Each pair of branches must add to 1, so subtract each given probability from 1\n\n$\\text{P(fails first)} = 1 - 0 . 3 = 0 . 7$\n\n`\\text{P(fails second} \\mid \\text{completed first)} = 1 - 0.6 = 0.4`\n\n`\\text{P(fails second} \\mid \\text{failed first)} = 1 - 0.5 = 0.5`\n\n![Completed tree diagram with headers First attempt and Second attempt. First attempt: C 0.3, F 0.7. After C: C 0.6, F 0.4. After F: C 0.5, F 0.5. The end F, F is labelled P(F, F)](assets/020-completed-tree-diagram-with-headers-first-attemp.png)\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: 0.7 on the first-attempt fail branch.\n> \n> **B1**: 0.4 and 0.5 on the two second-attempt fail branches.\n> \n> Equivalent fractions (7/10, 2/5, 1/2) are accepted.",
+     "equations": [
+      {
+       "latex": "\\text{P(fails first)} = 1 - 0 . 3 = 0 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(fails first)</mtext><mo>=</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "\\text{P(fails first)} = 1 - 0.3 = 0.7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_jwphY5hYz93q4Gwb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that Kimona\n\n(i) fails at both attempts\n\n(ii) completes the trick at least once.",
+     "solution_md": "![Completed tree diagram with headers First attempt and Second attempt. First attempt: C 0.3, F 0.7. After C: C 0.6, F 0.4. After F: C 0.5, F 0.5. The end F, F is labelled P(F, F)](assets/020-completed-tree-diagram-with-headers-first-attemp.png)\n\n(i)\n\nMultiply along the fail, fail branches\n\n$\\text{P} ( F ,  F ) = 0 . 7 \\times 0 . 5$\n\n$\\text{P} ( F ,  F ) = 0 . 35$\n\n**[B1]**\n\n(ii)\n\nCompleting the trick at least once is the complement of failing at both attempts\n\n$\\text{P(at least once)} = 1 - 0 . 35$\n\n**[M1]**\n\n$\\text{P(at least once)} = 0 . 65$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of failing at both attempts of 0.35 (or 7/20).\n> \n> **M1**: 1 minus the answer to (i), or the sum of the three products for the identified scenarios C, C and C, F and F, C (0.18 + 0.12 + 0.35), correct or following through from the tree.\n> \n> **A1**: Probability of completing the trick at least once of 0.65 (or 13/20).\n> \n> Also accepted for the M1: 0.3 + 0.7 × 0.5 (completes the first attempt, or fails it and completes the second).",
+     "equations": [
+      {
+       "latex": "\\text{P} ( F ,  F ) = 0 . 7 \\times 0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>F</mi><mo>,</mo><mo>&#xA0;</mo><mi>F</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\text{P}(F, \\; F) = 0.7 \\times 0.5"
+      },
+      {
+       "latex": "\\text{P} ( F ,  F ) = 0 . 35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>F</mi><mo>,</mo><mo>&#xA0;</mo><mi>F</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>35</mn></math>",
+       "alt": "\\text{P}(F, \\; F) = 0.35"
+      },
+      {
+       "latex": "\\text{P(at least once)} = 1 - 0 . 35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(at least once)</mtext><mo>=</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>35</mn></math>",
+       "alt": "\\text{P(at least once)} = 1 - 0.35"
+      },
+      {
+       "latex": "\\text{P(at least once)} = 0 . 65",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(at least once)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>65</mn></math>",
+       "alt": "\\text{P(at least once)} = 0.65"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3mhcBZz6yQXFCv4C",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqShgKnf3SR5y4KX",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the probability that Kimona completes the trick at her first attempt, given that she completes the trick at least once.",
+     "solution_md": "![Completed tree diagram with headers First attempt and Second attempt. First attempt: C 0.3, F 0.7. After C: C 0.6, F 0.4. After F: C 0.5, F 0.5. The end F, F is labelled P(F, F)](assets/020-completed-tree-diagram-with-headers-first-attemp.png)\n\nUse the formula for conditional probability\n\n`\\text{P(first} \\mid \\text{at least once)} = \\dfrac{\\text{P(first and at least once)}}{\\text{P(at least once)}}`\n\nIf she completes the first attempt then she has completed the trick at least once, so the numerator is the probability of completing the first attempt\n\n$\\text{P(first and at least once)} = 0 . 3$\n\n**[M1]**\n\nThe denominator is the answer to part (b)(ii)\n\n`\\text{P(first} \\mid \\text{at least once)} = \\dfrac{0.3}{0.65}`\n\n**[M1]**\n\n**Final answer:** `\\text{P(first} \\mid \\text{at least once)} = \\dfrac{6}{13} = 0.462`** (3 s.f.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 0.3 (or 0.3 × 0.6 + 0.3 × 0.4) seen as the numerator of a conditional probability fraction.\n> \n> **M1**: The answer to part (b)(ii) seen as the denominator of a conditional probability fraction.\n> \n> **A1**: Probability of 6/13 (answers which round to 0.462).",
+     "equations": [
+      {
+       "latex": "\\text{P(first and at least once)} = 0 . 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(first and at least once)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn></math>",
+       "alt": "\\text{P(first and at least once)} = 0.3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_42Hq8v2vpHFfXDwQ",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_g4PhYmv45zdGMXmQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jwXsq7gMvT7TxSpP",
+      "spcpt_FzzVfjwhkyjcBrzK"
+     ],
+     "part_tier": null,
+     "problem_md": "At a college, 40% of the students study Economics and 20% of the students study Drama. Of the students who study Drama, 70% also study Economics.\n\nA student is chosen at random from the college. Find the probability that the student studies\n\n(i) both Drama and Economics\n\n(ii) neither Drama nor Economics.",
+     "solution_md": "(i)\n\n70% of the Drama students also study Economics, so multiply\n\n$\\text{P(Drama and Economics)} = 0 . 2 \\times 0 . 7$\n\n$\\text{P(Drama and Economics)} = 0 . 14$\n\n**[B1]**\n\n(ii)\n\nPut the probabilities into a two-way table, with the answer to (i)\n\n|   | Economics | Not Economics | Total |\n|---|---|---|---|\n| **Drama** | 0.14 |   | 0.2 |\n| **Not Drama** |   |   |   |\n| **Total** | 0.4 |   | 1 |\n\nThe Drama students who do not study Economics are\n\n$0 . 2 - 0 . 14 = 0 . 06$\n\nThe Economics students who do not study Drama are\n\n$0 . 4 - 0 . 14 = 0 . 26$\n\n**[M1]**\n\nThe rest study neither subject\n\n$1 - 0 . 14 - 0 . 06 - 0 . 26 = 0 . 54$\n\n|   | Economics | Not Economics | Total |\n|---|---|---|---|\n| **Drama** | 0.14 | 0.06 | 0.2 |\n| **Not Drama** | 0.26 | 0.54 | 0.8 |\n| **Total** | 0.4 | 0.6 | 1 |\n\n$\\text{P(neither)} = 0 . 54$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Probability of studying both of 0.14 (or 7/50).\n> \n> **M1**: Correct method for the probability of neither, e.g. 1 − (0.14 + 0.06 + 0.26) or 1 − (0.2 + 0.4 − 0.14), following through from (i); may be seen in a table.\n> \n> **A1**: Probability of studying neither of 0.54 (or 27/50).",
+     "equations": [
+      {
+       "latex": "\\text{P(Drama and Economics)} = 0 . 2 \\times 0 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(Drama and Economics)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "\\text{P(Drama and Economics)} = 0.2 \\times 0.7"
+      },
+      {
+       "latex": "\\text{P(Drama and Economics)} = 0 . 14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(Drama and Economics)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>14</mn></math>",
+       "alt": "\\text{P(Drama and Economics)} = 0.14"
+      },
+      {
+       "latex": "0 . 2 - 0 . 14 = 0 . 06",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>2</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>14</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>06</mn></math>",
+       "alt": "0.2 - 0.14 = 0.06"
+      },
+      {
+       "latex": "0 . 4 - 0 . 14 = 0 . 26",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>4</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>14</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>26</mn></math>",
+       "alt": "0.4 - 0.14 = 0.26"
+      },
+      {
+       "latex": "1 - 0 . 14 - 0 . 06 - 0 . 26 = 0 . 54",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>14</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>26</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>54</mn></math>",
+       "alt": "1 - 0.14 - 0.06 - 0.26 = 0.54"
+      },
+      {
+       "latex": "\\text{P(neither)} = 0 . 54",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P(neither)</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>54</mn></math>",
+       "alt": "\\text{P(neither)} = 0.54"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QYN7G9bbdrJXpvMt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7GngfWnfm7YxqRWm"
+     ],
+     "part_tier": null,
+     "problem_md": "Determine whether the events 'the student studies Drama' and 'the student studies Economics' are independent, justifying your answer.",
+     "solution_md": "|   | Economics | Not Economics | Total |\n|---|---|---|---|\n| **Drama** | 0.14 | 0.06 | 0.2 |\n| **Not Drama** | 0.26 | 0.54 | 0.8 |\n| **Total** | 0.4 | 0.6 | 1 |\n\nLet $D$ be the event 'studies Drama' and $E$ the event 'studies Economics'. State the test for independence\n\n$\\text{P} ( D \\cap E ) = \\text{P} ( D ) \\times \\text{P} ( E )$\n\nWork out the product\n\n$\\text{P} ( D ) \\times \\text{P} ( E ) = 0 . 2 \\times 0 . 4 = 0 . 08$\n\n**[M1]**\n\nCompare it with the probability of studying both, from part (a)\n\n$\\text{P} ( D \\cap E ) = 0 . 14 \\neq 0 . 08$\n\n**Final answer:** **The events are not independent**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Product of the probabilities of studying Drama and studying Economics, 0.2 × 0.4.\n> \n> **A1**: P(D), P(E) and P(D ∩ E) (or P(D and E)) identified, the numerical comparison 0.14 ≠ 0.08 and the conclusion that the events are not independent.\n> \n> Comparing a conditional probability instead, e.g. P(E | D) = 0.7 ≠ 0.4 = P(E), with the notation and a conclusion, is also accepted.",
+     "equations": [
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "\\text{P} ( D \\cap E ) = \\text{P} ( D ) \\times \\text{P} ( E )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>&#x2229;</mo><mi>E</mi><mo>)</mo><mo>=</mo><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>E</mi><mo>)</mo></math>",
+       "alt": "\\text{P}(D \\cap E) = \\text{P}(D) \\times \\text{P}(E)"
+      },
+      {
+       "latex": "\\text{P} ( D ) \\times \\text{P} ( E ) = 0 . 2 \\times 0 . 4 = 0 . 08",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>)</mo><mo>&#xD7;</mo><mtext>P</mtext><mo>(</mo><mi>E</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>08</mn></math>",
+       "alt": "\\text{P}(D) \\times \\text{P}(E) = 0.2 \\times 0.4 = 0.08"
+      },
+      {
+       "latex": "\\text{P} ( D \\cap E ) = 0 . 14 \\neq 0 . 08",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mo>(</mo><mi>D</mi><mo>&#x2229;</mo><mi>E</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>14</mn><mo>&#x2260;</mo><mn>0</mn><mo>.</mo><mn>08</mn></math>",
+       "alt": "\\text{P}(D \\cap E) = 0.14 \\neq 0.08"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

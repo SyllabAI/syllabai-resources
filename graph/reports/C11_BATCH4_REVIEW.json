@@ -1,0 +1,438 @@
+{
+  "task": "T-C11",
+  "stage": "s16-batch-4-review",
+  "batch": 4,
+  "generated": "2026-09-13",
+  "authorization": "scripts/c11_s16_authorization.yaml (§16 authorized 2026-09-12; batch 4 commissioned by the operator's session-53 batch-4 directive — Section 3 Physical Chemistry; under the session-52 cross-slice boundary ruling scripts/c11_batch4_boundary_ruling.yaml)",
+  "pass1": {
+    "extraction_pass": "c11-s16-batch-4",
+    "decision_record": "scripts/c11_batch4_decisions.yaml",
+    "nodes": 22,
+    "authored_edges": 35,
+    "held": 14,
+    "command_kinds": 22
+  },
+  "pass2": {
+    "reviewer": "GLM (Super Z agent, z.ai)",
+    "pass": "c11-batch4-review-2",
+    "verdicts_file": "scripts/c11_batch4_review_pass2.yaml",
+    "nodes_confirm": 22,
+    "edges_confirm": 35,
+    "edges_hold": 0,
+    "edges_reject": 0
+  },
+  "agreement": {
+    "metric": "RAW AGREEMENT (pass-2 vs pass-1 emission)",
+    "explicitly_not": "Cohen's kappa (single human rater; see architecture §12)",
+    "nodes": 1.0,
+    "edges_asserted": {
+      "confirmed": 35,
+      "total_asserted": 35,
+      "rate": 1.0
+    },
+    "edges_uncertain_concordant_nonassertion": 0,
+    "edges_open_operator_decision": [],
+    "note": "zero pass-2 demotions and zero RR quarantines: the pass-1 authoring sent 14 candidates to held BEFORE emission and resolved every remaining doubt on explicit evidence — the adversarial findings land as CONFIRM_WITH_NOTE flags enumerated for the operator gate"
+  },
+  "reviewed_nodes": [
+    {
+      "code": "4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-CALORIMETRY",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-HEAT-CALC",
+      "verdict": "CONFIRM",
+      "note": "The Q = mcΔT quote byte-verifies in both the calorimetry and calculations notes (norm collapses the bold/italic markers); the specific-heat-capacity operand split is honestly held (B4-H-06)."
+    },
+    {
+      "code": "4CH1-CON-MOLAR-ENTHALPY",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-ENERGY-LEVEL-DIAGRAM",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-BOND-BREAKING-MAKING",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-BOND-ENERGY-CALC",
+      "verdict": "CONFIRM",
+      "note": "Searched the merged store for any earlier bond-energy node (batch-3 owns the COVALENT-BOND concept, not the energy values) — no duplicate mint; the bond-energy term is genuinely new to the store and the boundary audit's zero-overlap claim re-verifies."
+    },
+    {
+      "code": "4CH1-CON-RATE-EXPERIMENTS",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Split candidate (B4-ID-06): 3.9 (experiments) and 3.10 (effects) could fold into one rate node — the spec's experiment/describe/explain triple is one topic family. Minted split per the one-node-per-SP-family rule; the fold is an operator identity decision, keep is defensible (different command kinds: DESCRIBE_EXPERIMENT vs KNOW_TERM)."
+    },
+    {
+      "code": "4CH1-CON-RATE-FACTORS",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same B4-ID-06 family; the note's own examiner tip frames 3.10 as recall (\"You should be able to recall how changing the concentration, pressure, temperature, and surface area affect the rate\") — the guide_class KNOW_TERM is corpus-grounded, not a guess."
+    },
+    {
+      "code": "4CH1-CON-COLLISION-THEORY",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-CATALYST",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Know+know dual attachment (3.12 definition + 3.13 mechanism) — the two-depth pattern of the ratified 1.19/1.20 + B3-ID-01 precedents (definition vs mechanism, one note, one term). Split is an operator identity decision (B4-ID-01); keep is defensible (same learnable term at two depths)."
+    },
+    {
+      "code": "4CH1-CON-ACTIVATION-ENERGY",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Dual node attachment with CON-REACTION-PROFILE on 3.14C (the B3-ID-05 1.58C precedent — the concept vs its representation). Minted separately because 3.13 (catalyst mechanism) presupposes the Ea CONCEPT but not the profile drawing; the merge question is B4-ID-04 for the operator."
+    },
+    {
+      "code": "4CH1-CON-REACTION-PROFILE",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same B4-ID-04 pair; the \"similar to energy level diagrams seen in a previous topic\" sentence is the strongest possible used-without-reteaching anchor (the corpus literally declares the prerequisite)."
+    },
+    {
+      "code": "4CH1-CON-REVERSIBLE",
+      "verdict": "CONFIRM",
+      "note": "The boundary ruling's CON-EQ-SYMBOL target check re-verified: the pilot node owns balanced symbol equations; 3.17 owns the ⇌ variation only — no re-scope, the boundary edge (B4-E-19) is the only link."
+    },
+    {
+      "code": "4CH1-CON-REVERSIBLE-EXAMPLES",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Separate examples node per the ruling's family list; the fold-into-CON-REVERSIBLE alternative (one 3.17+3.18 node) is B4-ID-05 for the operator. The water-of-crystallisation term correctly stays pilot-owned (boundary edge B4-E-18 only — 3.18 owns the reversible behaviour, exactly as ruled)."
+    },
+    {
+      "code": "4CH1-CON-DYNAMIC-EQUILIBRIUM",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Know+know dual attachment (3.19C reach + 3.20C characteristics) — one note, one concept, the reach-then-characteristics pair (B4-ID-02 split question); keep is defensible."
+    },
+    {
+      "code": "4CH1-CON-EQ-POSITION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Know+understand dual attachment (3.21C catalyst + 3.22C temperature/pressure rules) — one note, one concept (B4-ID-03 split question: the catalyst rule vs the shift rules could be two nodes); keep is defensible. The Le Chatelier alias is corpus-evidenced (the note names the principle) while the spec de-scopes the NAME — the alias is retrieval vocabulary, not a demand, which is exactly what aliases are for."
+    },
+    {
+      "code": "4CH1-MIS-CATALYST-PARTICLE-ENERGY",
+      "verdict": "CONFIRM",
+      "note": "Documented in BOTH pinned S3 Paper-2 MS with the same cap rule (\"MAX 1 if any reference to particles gaining energy or moving more quickly\") — the strongest wrong-answer documentation in the batch; the alternative-route answer column is the corrective."
+    },
+    {
+      "code": "4CH1-MIS-EQ-TEMP-EXO",
+      "verdict": "CONFIRM",
+      "note": "Clean reject/accept ANTONYM pair (\"moves in the exothermic direction\" rejected / \"moves in the endothermic direction\" accepted) — the attribution is layout-robust even though the pdftotext columns scramble; derivation_notes records the caveat explicitly."
+    },
+    {
+      "code": "4CH1-MIS-EQ-PRESSURE-FEWER",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The reject entry (\"shifts to the side with fewer (gas) moles/molecules\") is byte-verified; the column-layout attribution is antonym-based (recorded in derivation_notes) — hence medium confidence, honestly capped. The two-directions remediation quote is the perfect corrective for the direction reversal."
+    },
+    {
+      "code": "4CH1-MIS-ENTHALPY-UNIT-J",
+      "verdict": "CONFIRM",
+      "note": "The MS documents the exact wrong answer twice (\"Award 1 mark for 50 000\" / \"Award 2 marks for 50 000 if units changed to J/mol on answer line\") — the J-to-kJ mirror of the pilot's MIS-CONC-UNIT (cm3-to-dm3); same evidence class, same pattern shape."
+    },
+    {
+      "code": "4CH1-MIS-BOND-ENERGY-COUNT",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Two-source documentation (the MS per-mistake deduction in the bond-sum expressions + the examiner tip naming the balancing-numbers mistake class) — medium confidence honestly capped because the MS quote alone does not name the mistake type; the tip does. The classic counting error, documented on both sides."
+    }
+  ],
+  "reviewed_edges": [
+    {
+      "edge": "4CH1-CON-HEAT-CALC REQUIRES_PREREQUISITE 4CH1-CON-CALORIMETRY",
+      "verdict": "CONFIRM",
+      "note": "The 3.2 note teaches the Q formula inside the method (\"The energy released would be calculated using\") and the 3.3 example is set in a calorimeter — the teach-sequence reading is the corpus's own shape."
+    },
+    {
+      "edge": "4CH1-CON-HEAT-CALC REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The sign-application step (\"Apply the sign... Exothermic reactions have a negative enthalpy change\") is the operand use; the pinned MS \"Ignore signs\" notes show examiners de-emphasise the sign — the dependency is pedagogical (the classification is taught in 3.1), which is the right reading for a learner-facing graph. Operator may prune; flagged, not doubted."
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-ENTHALPY REQUIRES_PREREQUISITE 4CH1-CON-HEAT-CALC",
+      "verdict": "CONFIRM",
+      "note": "\"In both cases, the energy released (Q) is calculated first\" — the corpus states the sequence explicitly; 3.3-then-3.4 is also the spec's own order."
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-ENTHALPY REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": "Cross-section boundary edge (pilot target, session-52 ruling sanctioned: \"molar enthalpy calculation (3.4) presupposes the mole (Q/n)\"); the per-mole operand usage is the OD-1 class. Exactly the ruled edge, no more."
+    },
+    {
+      "edge": "4CH1-CON-BOND-BREAKING-MAKING REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM",
+      "note": "The note hyperlinks \"endothermic\" back to the 3.1 note rather than re-teaching it — used-without-reteaching in its literal form."
+    },
+    {
+      "edge": "4CH1-CON-BOND-ENERGY-CALC REQUIRES_PREREQUISITE 4CH1-CON-BOND-BREAKING-MAKING",
+      "verdict": "CONFIRM",
+      "note": "Bond energy is DEFINED as the energy required to break / given out on forming — the definition is the dependency; 3.6C know-then-3.7C use is the spec's own order."
+    },
+    {
+      "edge": "4CH1-CON-BOND-ENERGY-CALC REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Cross-section boundary edge (batch-3 target, ruling-sanctioned: \"bond-energy work (3.6C/3.7C) presupposes the covalent bond the energies are measured over\"). Confidence honestly medium: the note says \"chemical bond\" (not \"covalent\"); the attribution rests on the worked-example bond set (H-H/Cl-Cl/H-Cl/H-Br/Br-Br — all 1.44/1.46 covalent bonds) + the ruling. The operator should eyeball this row specifically (FP-B4-1)."
+    },
+    {
+      "edge": "4CH1-CON-ENERGY-LEVEL-DIAGRAM REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM",
+      "note": "The diagram reading is defined by the classification (down-arrow = exo, up = endo) — definitional operand."
+    },
+    {
+      "edge": "4CH1-CON-RATE-FACTORS REQUIRES_PREREQUISITE 4CH1-CON-CONCENTRATION",
+      "verdict": "CONFIRM",
+      "note": "Cross-section boundary edge (pilot target, ruling-sanctioned: \"the concentration-rate factor (3.9-3.11) presupposes the concentration-of-solution concept\"); \"concentration of a solution\" used verbatim without re-teaching."
+    },
+    {
+      "edge": "4CH1-CON-CATALYST REQUIRES_PREREQUISITE 4CH1-CON-ACTIVATION-ENERGY",
+      "verdict": "CONFIRM",
+      "note": "\"The alternative pathway has a lower activation energy\" — the mechanism is stated in Ea terms without defining Ea; the two notes cross-reference."
+    },
+    {
+      "edge": "4CH1-CON-REACTION-PROFILE REQUIRES_PREREQUISITE 4CH1-CON-ENERGY-LEVEL-DIAGRAM",
+      "verdict": "CONFIRM",
+      "note": "\"Reaction profiles are similar to energy level diagrams seen in a previous topic\" — the corpus declares the prerequisite itself; the cleanest edge in the batch."
+    },
+    {
+      "edge": "4CH1-CON-REACTION-PROFILE REQUIRES_PREREQUISITE 4CH1-CON-ACTIVATION-ENERGY",
+      "verdict": "CONFIRM",
+      "note": "The profile's peak IS the Ea (\"The initial increase in energy, from the reactants to the peak of the curve, represents the activation energy\") — definitional. Companion to the level-diagram edge with a different claim (quantity displayed vs representation lineage); not subsumed."
+    },
+    {
+      "edge": "4CH1-CON-DYNAMIC-EQUILIBRIUM REQUIRES_PREREQUISITE 4CH1-CON-REVERSIBLE",
+      "verdict": "CONFIRM",
+      "note": "The equilibrium note re-uses the 3.17 definition verbatim before defining the equilibrium state — definitional dependency."
+    },
+    {
+      "edge": "4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-DYNAMIC-EQUILIBRIUM",
+      "verdict": "CONFIRM",
+      "note": "The position is defined as the relative amounts AT equilibrium — definitional operand."
+    },
+    {
+      "edge": "4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-CATALYST",
+      "verdict": "CONFIRM",
+      "note": "3.21C is a statement ABOUT the catalyst (used without re-teaching) — the operand pattern."
+    },
+    {
+      "edge": "4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO",
+      "verdict": "CONFIRM",
+      "note": "\"To make this prediction it is necessary to know whether the reaction is exothermic or endothermic\" — the corpus LITERALLY states the prerequisite; the strongest used-without-reteaching evidence shape possible."
+    },
+    {
+      "edge": "4CH1-CON-REVERSIBLE-EXAMPLES REQUIRES_PREREQUISITE 4CH1-CON-REVERSIBLE",
+      "verdict": "CONFIRM",
+      "note": "The examples are instances of the 3.17 concept (the note re-uses the ⇌ notation to write both); the spec's own 3.17-then-3.18 order."
+    },
+    {
+      "edge": "4CH1-CON-REVERSIBLE-EXAMPLES REQUIRES_PREREQUISITE 4CH1-CON-WATER-CRYST",
+      "verdict": "CONFIRM",
+      "note": "Cross-section boundary edge (pilot target, ruling-sanctioned with the exact scope note: \"3.18 owns the reversible behaviour, NOT the hydration term\") — the water-of-crystallisation concept is used without re-teaching and NOT re-owned. Exactly the ruled edge."
+    },
+    {
+      "edge": "4CH1-CON-REVERSIBLE REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL",
+      "verdict": "CONFIRM",
+      "note": "Cross-section boundary edge (pilot target, ruling-sanctioned: \"reversible-reaction notation (3.17, the ⇌ symbol) presupposes balanced symbol equations\") — the notation is written as a variation on the equation-writing skill."
+    },
+    {
+      "edge": "4CH1-PR-09 REQUIRES_PREREQUISITE 4CH1-CON-CALORIMETRY",
+      "verdict": "CONFIRM",
+      "note": "The PR-01/PR-02/PR-03/PR-04 pattern (the Aim sentence names the target concept): \"To perform a calorimetry study of the reaction between HCl and NaOH\"."
+    },
+    {
+      "edge": "4CH1-PR-10 REQUIRES_PREREQUISITE 4CH1-CON-RATE-EXPERIMENTS",
+      "verdict": "CONFIRM",
+      "note": "The PR-02 -> CHROMATOGRAPHY pattern: the practical deploys the 3.9 gas-collection family."
+    },
+    {
+      "edge": "4CH1-PR-10 REQUIRES_PREREQUISITE 4CH1-CON-RATE-FACTORS",
+      "verdict": "CONFIRM",
+      "note": "The PR-02 -> RF-VALUE pattern: the practical's conclusion IS the surface-area factor rule it investigates."
+    },
+    {
+      "edge": "4CH1-PR-11 REQUIRES_PREREQUISITE 4CH1-CON-RATE-EXPERIMENTS",
+      "verdict": "CONFIRM",
+      "note": "Same 3.9 gas-collection family deployed for the catalyst comparison."
+    },
+    {
+      "edge": "4CH1-PR-11 REQUIRES_PREREQUISITE 4CH1-CON-CATALYST",
+      "verdict": "CONFIRM",
+      "note": "The PR-04 -> ELECTROLYSIS pattern: the catalyst is the practical's independent variable (\"Repeat experiment with different catalysts and compare results\")."
+    },
+    {
+      "edge": "4CH1-CON-RATE-FACTORS EXPLAINED_BY 4CH1-CON-COLLISION-THEORY",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Relation-class flag (the B1-E-07/FP-B3-2 class): 3.11 is an explicit explain-demand and the note teaches each factor with an explicit particle-collision cause (\"We can use collision theory to explain why these factors influence the reaction rate\") — EXPLAINED_BY is the stronger evidenced reading; the prereq alternative (effects presuppose explanations) is weaker. One relation per pair; the operator may rule differently."
+    },
+    {
+      "edge": "4CH1-MIS-CATALYST-PARTICLE-ENERGY WRONG_ANSWER_PATTERN 4CH1-CON-CATALYST",
+      "verdict": "CONFIRM",
+      "note": "Both MS carry the cap rule; the pattern corrupts the 3.13 mechanism — target is right."
+    },
+    {
+      "edge": "4CH1-MIS-CATALYST-PARTICLE-ENERGY REMEDIATED_BY 4CH1-CON-CATALYST",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Remediation target = misconception target (the B1-E-25 pattern); the corrective content is the alternative-pathway mechanism. Alternative: the node's remediation_evidence carries it (drop the edge). Operator decision; kept for misconception-recommendation queries."
+    },
+    {
+      "edge": "4CH1-MIS-EQ-TEMP-EXO WRONG_ANSWER_PATTERN 4CH1-CON-EQ-POSITION",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-MIS-EQ-TEMP-EXO REMEDIATED_BY 4CH1-CON-EQ-POSITION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same B1-E-25 pattern; the corrective is the endothermic-direction rule. Operator decision on edge-vs-node-evidence."
+    },
+    {
+      "edge": "4CH1-MIS-EQ-PRESSURE-FEWER WRONG_ANSWER_PATTERN 4CH1-CON-EQ-POSITION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Family overlap with MIS-EQ-TEMP-EXO (two direction-reversal surfaces of the 3.22C rules, one temperature one pressure — the B3-ID-06 two-surface precedent): independently documented reject entries, same target concept; minted separately for per-rule recommendation targeting. The operator may merge (a B4 identity call, recorded here)."
+    },
+    {
+      "edge": "4CH1-MIS-EQ-PRESSURE-FEWER REMEDIATED_BY 4CH1-CON-EQ-POSITION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same pattern; the two-directions molecule-count rule is the corrective. Operator decision on edge-vs-node-evidence and on the family merge."
+    },
+    {
+      "edge": "4CH1-MIS-ENTHALPY-UNIT-J WRONG_ANSWER_PATTERN 4CH1-CON-MOLAR-ENTHALPY",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-MIS-ENTHALPY-UNIT-J REMEDIATED_BY 4CH1-CON-MOLAR-ENTHALPY",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Same B1-E-25 pattern; the J-to-kJ conversion step is the corrective. Operator decision on edge-vs-node-evidence."
+    },
+    {
+      "edge": "4CH1-MIS-BOND-ENERGY-COUNT WRONG_ANSWER_PATTERN 4CH1-CON-BOND-ENERGY-CALC",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Medium confidence honestly capped (the MS documents the deduction; the tip names the mistake class — neither alone is full documentation, both together are); the operator should eyeball this row (FP-B4-2)."
+    },
+    {
+      "edge": "4CH1-MIS-BOND-ENERGY-COUNT REMEDIATED_BY 4CH1-CON-BOND-ENERGY-CALC",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The Examiner Tips block IS the remediation (displayed-formula-first + balancing numbers) — EXAMINER_TIP_EXPLICIT method; same B1-E-25 pattern."
+    }
+  ],
+  "held_review": {
+    "B4-H-01": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the calorimetry note never uses the exo/endo terms; OD-2 applied in reverse (no term-level evidence)."
+    },
+    "B4-H-02": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the 3.11 note is collision-frequency-only; the Ea-collision link is carried by the catalyst/profile edges — double-counting avoided."
+    },
+    "B4-H-03": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: no directional evidence for 3.9<->3.10; the fold option is properly an identity decision (B4-ID-06), not a manufactured edge."
+    },
+    "B4-H-04": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the qualitative diagram-ΔH (carried by the EXO-ENDO edges) vs the quantitative ΔH=Q/n are different demands; conflating them would be a category error."
+    },
+    "B4-H-05": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: conservation-of-energy is note context, not a spec demand (OD-2); CON-CONSERVATION-MASS is a different concept — no boundary issue, simply not demanded."
+    },
+    "B4-H-06": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: c is an operand of the Q triple (OD-1); the calculation node owns it."
+    },
+    "B4-H-07": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: transition-metal/enzyme catalyst content is S2 territory (enrichment beyond the 3.12/3.13 demands)."
+    },
+    "B4-H-08": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the static-equilibrium misconception is classic but UNdocumented in the pinned set (the note asserts dynamism; no REJECT/cap/tip documents the wrong answer) — the session-53 Step-3 rule applied exactly. Revisit with new MS evidence."
+    },
+    "B4-H-09": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: consumed-catalyst wrong answer undocumented (the note asserts non-consumption; asserting a corrective fact is not documenting the misconception)."
+    },
+    "B4-H-10": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the RRE MS catalyst question takes the pathway answer with no rejected shift answer; 3.21C's existence shows the guard but not the documented wrong answer."
+    },
+    "B4-H-11": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the ENDothermic mnemonic implies difficulty, documents no occurrence; the MS ignores signs — no penalty surface. Revisit with new MS evidence."
+    },
+    "B4-H-12": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: the exo/endo pair is ONE node — a CCW would be a self-edge (G08); no corpus confusability statement anyway."
+    },
+    "B4-H-13": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: \"product molecules\" is incidental definition vocabulary (OD-2, the batch-2 ruling)."
+    },
+    "B4-H-14": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call + the right disposition: the molecule-counting phrasing never invokes the mole/molar-ratio terms (OD-2), AND a sixth boundary edge was not audited by the ruling — recording it for the operator instead of silently authoring beyond the sanctioned five is exactly the fail-closed discipline."
+    }
+  },
+  "findings": [
+    {
+      "id": "FP-B4-1",
+      "kind": "boundary-evidence-asymmetry",
+      "detail": "The five sanctioned boundary edges carry asymmetric evidence: four rest on explicit term-level usage in the S3 notes (per-mole, concentration-of-a-solution, water-of-crystallisation, equation-writing); the fifth (BOND-ENERGY-CALC -> CON-COVALENT-BOND) rests on the worked-example bond set (H-H/Cl-Cl/H-Cl/H-Br/Br-Br, all 1.44/1.46 covalent bonds) plus the ruling itself, because the note says \"chemical bond\" rather than \"covalent bond\" — hence confidence medium with the caveat recorded in derivation_notes. The operator should eyeball this row specifically at the gate."
+    },
+    {
+      "id": "FP-B4-2",
+      "kind": "evidence-strength",
+      "detail": "MIS-BOND-ENERGY-COUNT is documented by two partial sources (the MS per-mistake deduction + the examiner-tip mistake naming) — neither alone names the wrong answer completely; confidence honestly capped at medium. Same class: MIS-EQ-PRESSURE-FEWER (reject entry byte-verified, column attribution antonym-based — medium). Both rows flagged for operator attention."
+    },
+    {
+      "id": "FP-B4-3",
+      "kind": "split-artifact",
+      "detail": "Dual attachments: CON-CATALYST (3.12+3.13), CON-DYNAMIC-EQUILIBRIUM (3.19C+3.20C), CON-EQ-POSITION (3.21C+3.22C) — the know-pair pattern of the ratified 1.19/1.20 + B3-ID-01 precedents; dual node attachment on 3.14C (CON-ACTIVATION-ENERGY + CON-REACTION-PROFILE — the B3-ID-05 1.58C precedent). All operator identity decisions (B4-ID-01..04); no defect."
+    },
+    {
+      "id": "FP-B4-4",
+      "kind": "family-shape",
+      "detail": "The 3.9/3.10/3.11 experiment/describe/explain triple is minted as three nodes with ONE EXPLAINED_BY edge and NO prereq edges among them (the directionless relation held, B4-H-03) — the topic-family reading. The fold options are B4-ID-05/06 for the operator; the misconception family on 3.22C is two nodes (temperature-direction + pressure-direction), the B3-ID-06 two-surface precedent."
+    },
+    {
+      "id": "FP-B4-5",
+      "kind": "coverage-fact",
+      "detail": "Full S3 Paper-2 MS coverage for the first time (all three families pinned; batch 3 had a genuine gap). The pinned RATES and RRE MS overlap heavily (the same catalyst-mechanism question and cap rule appear in both) — recorded in meta.ms_coverage_note. Paper-1 variants remain unpinned per the Paper-2-first convention (a future evidence pass, not this batch)."
+    },
+    {
+      "id": "FN-B4-1",
+      "kind": "false-negative-concern",
+      "detail": "Four classic misconceptions honestly refused for missing documentation (static equilibrium, consumed catalyst, catalyst-shifts-position, bond-breaking exo/endo swap — B4-H-08..11): the notes assert the corrective facts but no pinned source documents the wrong answers occurring. The equilibrium/rates Paper-1 MS variants are the most likely future evidence source; a dedicated evidence pass would unlock 2-4 high-value misconception nodes."
+    },
+    {
+      "id": "FN-B4-2",
+      "kind": "boundary",
+      "detail": "S3 authored to its gate: the store now covers Section 1 (60 SPs, complete) + Section 3 (22 SPs, this batch) = 82 of 182 spec points in the concept graph. The next phase per the §16 order is S2 Inorganic (batch 5) — the S1<->S2 and S3<->S2 boundaries will need the same cross-slice ruling treatment this batch received (the S2 acids/bases content is HEAVILY referenced by S3 examples: neutralisation, copper sulfate, hydrochloric acid)."
+    },
+    {
+      "id": "FN-B4-3",
+      "kind": "vocabulary-coverage",
+      "detail": "\"Enthalpy\" as a standalone term and \"Le Chatelier's Principle\" as a frame are taught inline without dedicated nodes (CON-MOLAR-ENTHALPY owns the enthalpy-change calculation usage; CON-EQ-POSITION carries Le Chatelier as a corpus-evidenced alias while the spec de-scopes the name) — deliberate non-minting at the ratified granularity; recorded so the gap is explicit, not silent (the FN-B2/FN-B3 style)."
+    }
+  ],
+  "operator_gate": {
+    "gate": "per-batch operator review (§16 authorization scope.unlocked; each batch = own operator gate)",
+    "surface": {
+      "suggested_edges": 35,
+      "review_required_edges": 0,
+      "nodes": 22,
+      "held": 14
+    },
+    "pathway": "record verdicts in scripts/c11_batch4_verdicts.yaml (fill the template); a later session encodes + applies them via §18 promotion / §7 re-authoring",
+    "promotion_now": 0,
+    "cross_boundary_edges": 5
+  }
+}
