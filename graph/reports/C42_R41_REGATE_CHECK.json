@@ -4,7 +4,7 @@
   "stage": "r41-regate-check",
   "round": "R41",
   "round_start": "6af7ee483531889a550c6d0de4096b233919c1af",
-  "audited_head": "6af7ee483531889a550c6d0de4096b233919c1af",
+  "audited_head": "91ce9c229f81ff75876f0cccaada9e358f0b78e7",
   "store_sha256_16": "14d04dfebb71b849",
   "checks": [
     {
@@ -55,7 +55,7 @@
     {
       "check": "X10_protected_commit_state",
       "ok": true,
-      "detail": "86 protected paths byte-identical 6af7ee48 -> HEAD (the R40 store + the R30/R31/R32/R33/R34/R35/R36/R37/R38/R39/R40 carriers + records + the prior verdict records + the resolution + the registry + the ledger); pre-commit: delta vs 6af7ee48 inside the declared 8-file R41 footprint"
+      "detail": "86 protected paths byte-identical 6af7ee48 -> HEAD (the R40 store + the R30/R31/R32/R33/R34/R35/R36/R37/R38/R39/R40 carriers + records + the prior verdict records + the resolution + the registry + the ledger); committed-clean: HEAD 91ce9c22; tree clean but for the check JSON's own regeneration (the audit convention); the committed delta vs HEAD~1 inside the R41 footprint"
     }
   ],
   "passed": 10,
