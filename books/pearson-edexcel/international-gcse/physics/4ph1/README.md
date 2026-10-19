@@ -1,18 +1,28 @@
-# Physics 4PH1 — Student Book Parse (scaffold)
+# Physics 4PH1 — Student Book Parse
 
 **Subject:** Pearson Edexcel International GCSE Physics (spec 4PH1)
-**Status:** AWAITING SOURCE BOOK — the book PDF will be uploaded to
-`source/` by the operator. Parse has NOT started.
+**Status:** SOURCE BOOK RECEIVED (2026-10-19) — parse starting.
+
+## Source of record
+
+| Field | Value |
+|---|---|
+| File | `source/student-book.pdf` |
+| sha256 | `9b0783d9fe99790a08255eb1f2ebb6eab5833c03ef8e36dd51b7643ac68a313a` |
+| Pages | 308 |
+| Size | 30,915,167 bytes (30 MB) |
+| Type | **Image-only scan** (producer: RICOH MP C4503; zero text layer on sampled pages) → OCR route required, same as chemistry |
+| Provenance | operator-relayed tmpfiles link (gateway trace 1a1539ed1a5c074d) after direct GitHub upload failed |
 
 ## Folder layout
 
 ```
 4ph1/
-├── source/      ← book PDF lands here (operator upload)
-├── parsed/      ← RAG deliverables will land here (chunk JSONL, markdown,
-│                  parse report with source sha256, loader, README)
+├── source/      ← student-book.pdf (sha256 above)
+├── parsed/      ← RAG deliverables (chunk JSONL, markdown, parse report
+│                  with source sha256, loader, README)
 └── pipeline/    ← parse scripts, method/findings/decisions, worklog,
-                   evidence (audits, repair records) — written during the parse
+                   evidence (audits, repair records)
 ```
 
 ## Plan (method proven in Chemistry 4CH1 — reference implementation)
@@ -38,8 +48,10 @@ with originals preserved.
 
 ## Checklist
 
-- [ ] Book PDF uploaded to `source/` + sha256 recorded
+- [x] Book PDF in `source/` + sha256 recorded (2026-10-19)
 - [ ] Page-level structure probed (units/chapters/offset)
 - [ ] Docling full-book parse (checkpointed per page)
-- [ ] Chunking + normalization + validation (8-point standard)
+- [ ] Chunking + normalization + validation (8-point standard; **serving-critical:
+      chapter_questions/unit_questions typing drives the serving split, and
+      book_pages + pdf_pages stay per-chunk** — operator directive 2026-10-19)
 - [ ] Deliverables in `parsed/`, works/decisions in `pipeline/`

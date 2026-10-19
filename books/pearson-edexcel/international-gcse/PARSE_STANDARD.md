@@ -19,6 +19,13 @@ A parse is up to standard when **all eight** hold:
    chapter questions, answers, glossary, appendices, index, front matter get
    their own `content_type` values instead of being absorbed into chapter
    bodies (this is what produces the by-design "gaps" at unit boundaries).
+   **SERVING-CRITICAL (operator directive 2026-10-19):** the
+   `chapter_questions` / `unit_questions` typing is serving-critical — the
+   serving split derives from those chunk anchors, so a question page typed
+   as `body` (or a body page typed as questions) breaks the split downstream.
+   Equally serving-critical: **both page numberings stay per-chunk**
+   (`book_pages` + `pdf_pages` on every chunk, never moved to a per-chapter
+   sidecar).
 4. **Spec joins ≥90% verbatim-or-normalized** — joins of chunk content to
    SpecificationPoint codes must be at least 90% `verbatim` + `normalized`,
    with every `fuzzy` join flagged with `method`/`lineage` provenance.
