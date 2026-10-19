@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-as-environmental-management-2025-2027",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 151,
-  "items_with_codes": 20,
+  "items_with_codes": 57,
   "by_kind": {
    "notes": 52,
    "question_parts": 99,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 8,
-   "question_parts": 12,
+   "notes": 24,
+   "question_parts": 33,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 169,
   "universe_ids": 83,
   "universe_resolved": 8,
-  "pending_refs": 231,
-  "flashcards_discovered_uncoded": 0
+  "pending_refs": 181,
+  "flashcards_discovered_uncoded": 0,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 22,
+   "resolved_refs": 50,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 22
+   },
+   "ambiguous_pairs": 9,
+   "pending_refs": 181,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_bRZZm5q76pVkKrcM": {
@@ -49,9 +80,15 @@
    "label": " Continents & Oceans | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-1-continents-and-oceans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KzQmBm57bXbxPvr8",
     "spcpt_CpSf2ZkzrP9cc2NH"
    ]
   },
@@ -76,11 +113,15 @@
      "official_code": "1.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.3.2",
+     "official_code": "1.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_hTD33DS6WjWZ4Hkz"
-   ]
+   "pending": []
   },
   "rn_G6DPT5Rp8rY6zRd9": {
    "kind": "note",
@@ -109,10 +150,15 @@
    "label": " The Greenhouse Effect | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-5-the-structure-and-composition-of-the-atmosphere",
-   "codes": [],
-   "pending": [
-    "spcpt_qqsncKrSyNTcQ9PT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_hfHkzkVC47mXqCMx": {
    "kind": "note",
@@ -129,10 +175,16 @@
    "label": " Abiotic & Biotic Factors | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-6-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_7vF4YNWkYMjrtwQ9",
-    "spcpt_dSTnqf6MvkZx42kT"
+    "spcpt_7vF4YNWkYMjrtwQ9"
    ]
   },
   "rn_BqHTdRkQXyFNT3PT": {
@@ -151,10 +203,16 @@
    "label": " Trophic Levels | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-6-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.6.15",
+     "official_code": "1.6.15",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_s8Fc5Jr5NbQ5M2jq",
-    "spcpt_C9ckCfYrhwgKxqKc"
+    "spcpt_s8Fc5Jr5NbQ5M2jq"
    ]
   },
   "rn_Z5Dxs4CY48NbskcR": {
@@ -162,10 +220,16 @@
    "label": " The Carbon Cycle | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-6-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.6.9",
+     "official_code": "1.6.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rsHz7rMw6X3kRMdb",
-    "spcpt_YCCKFbMQHKCrdh3d"
+    "spcpt_rsHz7rMw6X3kRMdb"
    ]
   },
   "rn_NRKgKKtkkjN3BqdC": {
@@ -205,10 +269,16 @@
    "label": " Climate Change Uncertainty | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "2-environmental-research-and-data-collection",
    "topic": "2-2-environmental-research-in-the-context-of-climate-change",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:8.1.4",
+     "official_code": "8.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_XTYY4PgC72Ykpx44",
-    "spcpt_cbCDFGTFW47kH7wp"
+    "spcpt_XTYY4PgC72Ykpx44"
    ]
   },
   "rn_j4ysXy6BkCDcnwg5": {
@@ -279,10 +349,15 @@
    "label": " Impacts of Human Population Change | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "3-managing-human-population",
    "topic": "3-2-impacts-of-human-population-change",
-   "codes": [],
-   "pending": [
-    "spcpt_5MYdW6X9gtxYBCxf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_XWYDwxh6VGgCvPVR": {
    "kind": "note",
@@ -304,10 +379,15 @@
    "label": " Biomes | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "4-managing-ecosystems-and-biodiversity",
    "topic": "4-1-ecosystems",
-   "codes": [],
-   "pending": [
-    "spcpt_dgqsYdhZVVcd7wJQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_8gWGqhBYrkstW8BH": {
    "kind": "note",
@@ -324,10 +404,15 @@
    "label": " Primary Productivity | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "4-managing-ecosystems-and-biodiversity",
    "topic": "4-1-ecosystems",
-   "codes": [],
-   "pending": [
-    "spcpt_J6p9nGFzKcSwzqPd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_fnK3R6fCZHdrY36G": {
    "kind": "note",
@@ -365,11 +450,21 @@
    "label": " Strategies of Biodiversity Conservation | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "4-managing-ecosystems-and-biodiversity",
    "topic": "4-2-managing-the-conservation-of-biodiversity",
-   "codes": [],
-   "pending": [
-    "spcpt_9jdtG4qKGj6vHwCT",
-    "spcpt_b8J7VmDth23QQDjT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.2.5",
+     "official_code": "4.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.2.6",
+     "official_code": "4.2.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_dJ3mVHcx6t7z9ZZw": {
    "kind": "note",
@@ -408,11 +503,21 @@
    "label": " Food Security | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "5-managing-resources",
    "topic": "5-1-food-security",
-   "codes": [],
-   "pending": [
-    "spcpt_GdYVcGYQzBHXJ4Kt",
-    "spcpt_BfsP7Gsc4qfRBftY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.1.3",
+     "official_code": "5.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_6ChyMqtBxKRNG9Sn": {
    "kind": "note",
@@ -440,10 +545,16 @@
    "label": " Energy Security | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "5-managing-resources",
    "topic": "5-2-energy-resources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wSH562csXJ8JHgs8",
-    "spcpt_bDHJqRjcgMQSWJrK"
+    "spcpt_wSH562csXJ8JHgs8"
    ]
   },
   "rn_6SH57NBRQtNbtJbC": {
@@ -461,10 +572,15 @@
    "label": " Waste Management & Disposal Methods | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
-   "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_c4xZsdK5qg6phTkG": {
    "kind": "note",
@@ -497,11 +613,21 @@
    "label": " Water Security | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_hjJTyxSKRncC9Ybb",
-    "spcpt_NWd745VHpHBJJvDW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_mnVRJDysfvVBF45Y": {
    "kind": "note",
@@ -524,11 +650,15 @@
      "official_code": "7.1.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.1.4",
+     "official_code": "7.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_J3qSgMRj9Kb4SJcQ"
-   ]
+   "pending": []
   },
   "rn_TCkG334cFJ25NbWH": {
    "kind": "note",
@@ -541,11 +671,15 @@
      "official_code": "7.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.2.2",
+     "official_code": "7.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_QZNcPBs8YwdPP5XW"
-   ]
+   "pending": []
   },
   "rn_tbZffRskpMzPcqHn": {
    "kind": "note",
@@ -582,9 +716,15 @@
    "label": " Impacts of Ozone Depletion | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "7-managing-the-atmosphere",
    "topic": "7-4-ozone-depletion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.4.5",
+     "official_code": "7.4.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_J6nvQqxTM75GF5sR",
     "spcpt_ChjQd4n696YwgsYX",
     "spcpt_BFxQcND5hhcxjZCv"
    ]
@@ -594,10 +734,16 @@
    "label": " Greenhouse Gases | Cambridge (CIE) AS Environmental Management Revision Notes 2020",
    "section": "8-managing-climate-change",
    "topic": "8-1-climate-change",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:8.1.3",
+     "official_code": "8.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_7CvWRNDZvd8Mg3nK",
-    "spcpt_DGgCX9d66j82PfvD"
+    "spcpt_7CvWRNDZvd8Mg3nK"
    ]
   },
   "rn_MbqChxF3VSCD4VSz": {
@@ -707,10 +853,16 @@
    "label": "qstn_KFHNN8cwRDN5Gfjd / part 0",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-6-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:8.1.3",
+     "official_code": "8.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_ZBR7nWQ6325d98rP",
-    "spcpt_DGgCX9d66j82PfvD",
     "spcpt_MDJn3xgR8QrgkT2B"
    ]
   },
@@ -730,11 +882,17 @@
    "label": "qstn_8499B5tzBpX2fn69 / part 0",
    "section": "1-introduction-to-environmental-management",
    "topic": "1-6-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.6.15",
+     "official_code": "1.6.15",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_By9JzkbZGrhbjSJg",
-    "spcpt_s8Fc5Jr5NbQ5M2jq",
-    "spcpt_C9ckCfYrhwgKxqKc"
+    "spcpt_s8Fc5Jr5NbQ5M2jq"
    ]
   },
   "qstnprt_hmKj7xymdVtVpjs5": {
@@ -954,11 +1112,17 @@
    "label": "qstn_92Q3Vd2qzQWTPz94 / part 1",
    "section": "3-managing-human-population",
    "topic": "3-1-human-population-dynamics-and-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_w4T8vzhXVw9DgknT",
-    "spcpt_6JPtdnKN8wn5nN2v",
-    "spcpt_5MYdW6X9gtxYBCxf"
+    "spcpt_6JPtdnKN8wn5nN2v"
    ]
   },
   "qstnprt_RkCN4R4MDqwjYDJQ": {
@@ -987,11 +1151,16 @@
      "official_code": "8.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_rkXq7ZF7HvwwXDHW",
-    "spcpt_J6p9nGFzKcSwzqPd",
     "spcpt_cXbrw7WpTWsNgJvT",
     "spcpt_BqFPw6M4fJFRYDy9"
    ]
@@ -1001,10 +1170,16 @@
    "label": "qstn_JJCwnzwm6zSqx3FG / part 0",
    "section": "4-managing-ecosystems-and-biodiversity",
    "topic": "4-1-ecosystems",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:1.6.15",
+     "official_code": "1.6.15",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_s8Fc5Jr5NbQ5M2jq",
-    "spcpt_C9ckCfYrhwgKxqKc",
     "spcpt_By9JzkbZGrhbjSJg"
    ]
   },
@@ -1013,11 +1188,21 @@
    "label": "qstn_JJCwnzwm6zSqx3FG / part 1",
    "section": "4-managing-ecosystems-and-biodiversity",
    "topic": "4-1-ecosystems",
-   "codes": [],
-   "pending": [
-    "spcpt_J6p9nGFzKcSwzqPd",
-    "spcpt_dgqsYdhZVVcd7wJQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nkBwRtvv5JSztPJf": {
    "kind": "question_part",
@@ -1140,10 +1325,16 @@
    "label": "qstn_NNmFymJPwgmxNRqd / part 0",
    "section": "5-managing-resources",
    "topic": "5-1-food-security",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wSH562csXJ8JHgs8",
-    "spcpt_GdYVcGYQzBHXJ4Kt"
+    "spcpt_wSH562csXJ8JHgs8"
    ]
   },
   "qstnprt_g2dDq4PqkMvXzjMr": {
@@ -1181,10 +1372,15 @@
    "label": "qstn_zMp92YYT6rt6Wz5f / part 0",
    "section": "5-managing-resources",
    "topic": "5-1-food-security",
-   "codes": [],
-   "pending": [
-    "spcpt_GdYVcGYQzBHXJ4Kt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zzmtY2MpcV754Jw4": {
    "kind": "question_part",
@@ -1217,12 +1413,17 @@
      "official_code": "8.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:8.1.3",
+     "official_code": "8.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_MYDpqDbtS4jfgGnD",
     "spcpt_KP4GbTCD96FBxt38",
-    "spcpt_DGgCX9d66j82PfvD",
     "spcpt_7CvWRNDZvd8Mg3nK"
    ]
   },
@@ -1324,10 +1525,16 @@
    "label": "qstn_CDpNSgqsQJ3Hzt3f / part 0",
    "section": "5-managing-resources",
    "topic": "5-2-energy-resources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wSH562csXJ8JHgs8",
-    "spcpt_bDHJqRjcgMQSWJrK"
+    "spcpt_wSH562csXJ8JHgs8"
    ]
   },
   "qstnprt_pynNDhCYNcyPPQ2z": {
@@ -1355,9 +1562,15 @@
    "label": "qstn_QR7cjNKRp3X6xJGn / part 0",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp",
     "spcpt_KZRkhw4ZyPvbJgmp",
     "spcpt_FNS8FrKwcq4Jh5v5",
     "spcpt_fnMtdNmSNFtqNqFy",
@@ -1369,9 +1582,15 @@
    "label": "qstn_ByxnP3QXNXdBxDTK / part 0",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp",
     "spcpt_FNS8FrKwcq4Jh5v5"
    ]
   },
@@ -1390,9 +1609,15 @@
    "label": "qstn_8F55Hns4KBBGzQmx / part 0",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp",
     "spcpt_FNS8FrKwcq4Jh5v5",
     "spcpt_bSs2cZmyCVQtDwxK"
    ]
@@ -1423,9 +1648,15 @@
    "label": "qstn_tY78yMfBKrSNxT54 / part 0",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp",
     "spcpt_FNS8FrKwcq4Jh5v5"
    ]
   },
@@ -1434,19 +1665,30 @@
    "label": "qstn_tY78yMfBKrSNxT54 / part 1",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
-   "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G9rNJwHHNqMxsZfD": {
    "kind": "question_part",
    "label": "qstn_Fy46WMMKS7kCnpPQ / part 0",
    "section": "5-managing-resources",
    "topic": "5-3-waste-management",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.3.2",
+     "official_code": "5.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_TYxbWj9DfQDSKHPp",
     "spcpt_FNS8FrKwcq4Jh5v5"
    ]
   },
@@ -1465,41 +1707,66 @@
    "label": "qstn_5ShRqDzKww6B4NwC / part 1",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_NWd745VHpHBJJvDW",
-    "spcpt_bDHJqRjcgMQSWJrK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XYtM4D9B9CY3hst5": {
    "kind": "question_part",
    "label": "qstn_9CssjkZTqSWBnB39 / part 0",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_hjJTyxSKRncC9Ybb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mKh8v4zSTsxCKYZX": {
    "kind": "question_part",
    "label": "qstn_9CssjkZTqSWBnB39 / part 1",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_hjJTyxSKRncC9Ybb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ch4fJnKkdKWv8dHZ": {
    "kind": "question_part",
    "label": "qstn_9CssjkZTqSWBnB39 / part 2",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_NWd745VHpHBJJvDW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dyDBsnSKf4dQSTTh": {
    "kind": "question_part",
@@ -1516,10 +1783,15 @@
    "label": "qstn_BpBRr5HStkS6zMG4 / part 0",
    "section": "6-managing-water-supplies",
    "topic": "6-1-global-water-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_hjJTyxSKRncC9Ybb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RJ9qzcbCzt39Hwkp": {
    "kind": "question_part",
@@ -1583,11 +1855,15 @@
      "official_code": "7.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.2.2",
+     "official_code": "7.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_QZNcPBs8YwdPP5XW"
-   ]
+   "pending": []
   },
   "qstnprt_tTR3vHJdCnDH7CqK": {
    "kind": "question_part",
@@ -1615,11 +1891,15 @@
      "official_code": "7.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.4.5",
+     "official_code": "7.4.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_J6nvQqxTM75GF5sR"
-   ]
+   "pending": []
   },
   "qstnprt_St5gGW7nbx3vpRZC": {
    "kind": "question_part",
@@ -1641,10 +1921,15 @@
    "label": "qstn_pb6czTdB7ZchP8Fq / part 1",
    "section": "7-managing-the-atmosphere",
    "topic": "7-4-ozone-depletion",
-   "codes": [],
-   "pending": [
-    "spcpt_J6nvQqxTM75GF5sR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.4.5",
+     "official_code": "7.4.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MnDk9b8ZkQg6Vz3Y": {
    "kind": "question_part",
@@ -1676,10 +1961,15 @@
    "label": "qstn_y5x9P2FPF6N6vRDN / part 2",
    "section": "7-managing-the-atmosphere",
    "topic": "7-4-ozone-depletion",
-   "codes": [],
-   "pending": [
-    "spcpt_J6nvQqxTM75GF5sR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:7.4.5",
+     "official_code": "7.4.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5tXkSCPdtV4WvtDX": {
    "kind": "question_part",
@@ -1738,11 +2028,15 @@
      "official_code": "8.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_AS_ENVIRONMENTAL_MANAGEMENT_2025_2027:8.1.3",
+     "official_code": "8.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_DGgCX9d66j82PfvD"
-   ]
+   "pending": []
   },
   "qstnprt_KWM35ZMjnD3kGTCM": {
    "kind": "question_part",

@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-a-level-chemistry-2025-2027",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 1915,
-  "items_with_codes": 27,
+  "items_with_codes": 386,
   "by_kind": {
    "notes": 239,
    "question_parts": 1676,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 2,
-   "question_parts": 25,
+   "notes": 46,
+   "question_parts": 340,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 2101,
   "universe_ids": 330,
   "universe_resolved": 2,
-  "pending_refs": 2404,
-  "flashcards_discovered_uncoded": 2152
+  "pending_refs": 2031,
+  "flashcards_discovered_uncoded": 2152,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 46,
+   "resolved_refs": 373,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 46
+   },
+   "ambiguous_pairs": 12,
+   "pending_refs": 2031,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_FMv92VbKH4H2x9m6": {
@@ -125,10 +156,16 @@
    "label": "Sub-shells & Orbitals | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "1-atomic-structure",
    "topic": "1-3-electrons-energy-levels-and-atomic-orbitals",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_y2WBtQ8CHYb4CPW3",
-    "spcpt_6dxKVxTJt2jjxKg9",
     "spcpt_Zt25mTwwxK5GP3RX"
    ]
   },
@@ -157,11 +194,17 @@
    "label": "Ionisation Energy Trends - A level Chemistry Revision Notes ",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_gXGMxJcrhrnxtZD6",
-    "spcpt_7GFsrZwSKvKWbScF",
-    "spcpt_sVwHYTgrhtF5b7R2"
+    "spcpt_7GFsrZwSKvKWbScF"
    ]
   },
   "rn_DgrB8b6svFmyhd5t": {
@@ -243,10 +286,16 @@
    "label": "Halide Ions Reactions - A Level Chemistry Revision Notes",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_kYX8rJ8Ff8TSC2TK",
-    "spcpt_zZKJqYbTPGy3vBTg"
+    "spcpt_kYX8rJ8Ff8TSC2TK"
    ]
   },
   "rn_7M5DNbBPtwqfmY6Q": {
@@ -254,20 +303,36 @@
    "label": "The Reactions of Chlorine - A Level Chemistry Revision Notes",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm",
-    "spcpt_CrBkTRVmDxRCscQ4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.2",
+     "official_code": "11.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_RTCGyRkQbQnNGBRR": {
    "kind": "note",
    "label": "Nitrogen & Its Compounds - A Level Chemistry Revision Notes",
    "section": "12-nitrogen-and-sulfur",
    "topic": "12-1-nitrogen-and-sulfur",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:12.1.1",
+     "official_code": "12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZjJ8YTCQ7qJK2VKm",
     "spcpt_yVqXHvZMbCYqrTPB"
    ]
   },
@@ -423,10 +488,15 @@
    "label": "Reactivity of Alkanes - A level Chemistry Revision Notes ",
    "section": "14-hydrocarbons",
    "topic": "14-1-alkanes",
-   "codes": [],
-   "pending": [
-    "spcpt_zrb4jxWNJKsGf4qb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.1.5",
+     "official_code": "14.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_vjBGzyc7p3yYJJgz": {
    "kind": "note",
@@ -513,10 +583,15 @@
    "label": "Reactions of Alkenes - CIE A Level Chemistry Revision Notes",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_wkzhy8J54gYxNjdW": {
    "kind": "note",
@@ -584,10 +659,15 @@
    "label": "Acidity of Alcohols - A Level Chemistry Revision Notes",
    "section": "16-hydroxy-compounds",
    "topic": "16-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_tV46RtJmb4cvCkFv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:16.1.5",
+     "official_code": "16.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_KqNrQd54pvFQKsbZ": {
    "kind": "note",
@@ -687,10 +767,16 @@
    "label": "Naming Esters - A Level Chemistry Revision Notes CIE IAL",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qd7Tc37DJzJjRrmk",
-    "spcpt_4DtZjfdMP642yhQs"
+    "spcpt_qd7Tc37DJzJjRrmk"
    ]
   },
   "rn_hnBy7fRJ4SzWGHdR": {
@@ -708,11 +794,17 @@
    "label": "Hydroxynitrile - A level Chemistry Revision Notes ",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_XQ97pkXbbVSfgqZD",
-    "spcpt_Ytmx9DyG2jXQB5D6",
-    "spcpt_rnnkkqH8zPwjNSRH"
+    "spcpt_Ytmx9DyG2jXQB5D6"
    ]
   },
   "rn_BJPBnHps6rrPftXS": {
@@ -720,10 +812,15 @@
    "label": "Relative Masses - A Level Chemistry Revision Notes",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_7jtb327g4ZPGh2KY": {
    "kind": "note",
@@ -776,10 +873,15 @@
    "label": "Water of Crystallisation - A level Chemistry Revision Notes ",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-3-formulas",
-   "codes": [],
-   "pending": [
-    "spcpt_ByB9PnP9PCQZWYyn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_8tCDcRtjVVnttWjh": {
    "kind": "note",
@@ -918,10 +1020,15 @@
    "label": "Electron Affinity- A level Chemistry Revision Notes ",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_SjRXmSPT8X9RhJST": {
    "kind": "note",
@@ -1009,9 +1116,15 @@
    "label": "Gibbs Free Energy Equation - A Level Chemistry",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_j9xWMbPMSC6qSJnY"
    ]
   },
@@ -1062,11 +1175,17 @@
    "label": "How to Measure Standard Electrode Potential - A level ",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_YpKqb5HsZsxDZymV",
-    "spcpt_6kfKxfq3Q9w2RBGz",
-    "spcpt_K7DVtxNwskw68ZgZ"
+    "spcpt_6kfKxfq3Q9w2RBGz"
    ]
   },
   "rn_Wc4YbQQnfD4PKnWk": {
@@ -1074,10 +1193,15 @@
    "label": "Nernst Equation - A level Revision Notes ",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_PmQxN44zb7TySVjZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.9",
+     "official_code": "24.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_N4g7YCN87ScjNCDW": {
    "kind": "note",
@@ -1105,10 +1229,16 @@
    "label": "Standard Electrode & Cell Potentials | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.2",
+     "official_code": "24.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_fFh7hPWmj22BJ5tJ",
-    "spcpt_QhHpZhQKXvBXsCfw"
+    "spcpt_fFh7hPWmj22BJ5tJ"
    ]
   },
   "rn_jyxbwSqhDDn3vq3P": {
@@ -1414,10 +1544,16 @@
    "label": "Stereoisomerism in Transition Element Complexes | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-4-stereoisomerism-in-transition-element-complexes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:28.4.2",
+     "official_code": "28.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_2ThbMTgPgvQbtpTc",
-    "spcpt_QjFxKmmb8JZYK57R"
+    "spcpt_2ThbMTgPgvQbtpTc"
    ]
   },
   "rn_MdnpFX5426bnVpH6": {
@@ -1540,10 +1676,15 @@
    "label": "Electronegativity Trends - A level Chemistry Revision Notes ",
    "section": "3-chemical-bonding",
    "topic": "3-1-electronegativity-and-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_45K6F3xzDKJt8C25"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_VcyKjfRjK7Yz5W6s": {
    "kind": "note",
@@ -1621,30 +1762,45 @@
    "label": "Shapes of Molecules - A level Chemistry Revision Notes ",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_3mpWJcYVDZBJ9pdq": {
    "kind": "note",
    "label": "Bond Polarity & Dipole Moments - A Level Chemistry ",
    "section": "3-chemical-bonding",
    "topic": "3-6-intermolecular-forces-electronegativity-and-bond-properties",
-   "codes": [],
-   "pending": [
-    "spcpt_kXRXDrTrjgyqkQnj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.6.2",
+     "official_code": "3.6.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_tJDFx4krnJdqJmG8": {
    "kind": "note",
    "label": "Hydrogen Bonding Definition - A Level Chemistry",
    "section": "3-chemical-bonding",
    "topic": "3-6-intermolecular-forces-electronegativity-and-bond-properties",
-   "codes": [],
-   "pending": [
-    "spcpt_n4nGC5RWnyFMgkVg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.6.1",
+     "official_code": "3.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_XgZYh93h2TyZg3M8": {
    "kind": "note",
@@ -1697,10 +1853,15 @@
    "label": "Electrophilic Substitution - A Level Chemistry ",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_gzF98brcPY6xhVPs": {
    "kind": "note",
@@ -1757,10 +1918,16 @@
    "label": "Acidity of Phenols - A level Chemistry Revision Notes ",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.4",
+     "official_code": "32.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_BsxZ3K63vTYS5gtF",
-    "spcpt_hrJk3TjQMjXQsZsM"
+    "spcpt_BsxZ3K63vTYS5gtF"
    ]
   },
   "rn_HGxd2zYHdcwrf3Nv": {
@@ -1768,9 +1935,15 @@
    "label": "Bromination of Phenol - A level Chemistry Revision Notes ",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.5",
+     "official_code": "32.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_gngBbjKKKzxf7kSG",
     "spcpt_mVXNDWrRyFCbsscr"
    ]
   },
@@ -1799,10 +1972,15 @@
    "label": "Reactions of Phenol - A Level Chemistry Revision Notes",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_97mCvYy8mmFP2d84": {
    "kind": "note",
@@ -1830,20 +2008,30 @@
    "label": "Acidity of Carboxylic Acids - A level Chemistry Revision Notes ",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_5PdXcRhBrPyPBYDs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_mJ2fRWwdmtmnV6JD": {
    "kind": "note",
    "label": "Carboxylic Acid Reactivity - A Level Chemistry Revision ",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_xwkbCcqCWkWyNYtc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_CqRzHfsDjpZ59FtJ": {
    "kind": "note",
@@ -1860,10 +2048,16 @@
    "label": "Acyl Chlorides - A Level Chemistry Revision Notes",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_kmmQMJ52BJxbDd6g",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_kmmQMJ52BJxbDd6g"
    ]
   },
   "rn_kB84dySVrdrqSQyj": {
@@ -1881,20 +2075,30 @@
    "label": "Relative Ease of Hydrolysis - A Level Chemistry",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_phjwdc3vP6s54mMt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.4",
+     "official_code": "33.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_rwYkJXF9MrQ4S6Yk": {
    "kind": "note",
    "label": "Basicity of Amines - A level Chemistry Revision Notes ",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_TcpBc3vKJRfRN4pX": {
    "kind": "note",
@@ -1921,19 +2125,30 @@
    "label": "Azo Compounds - A Level Chemistry Revision Notes",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_8NdDvsBxGB5kNZJ3": {
    "kind": "note",
    "label": "Production & Reactions of Phenylamine - A Level Chemistry",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ",
     "spcpt_9Dxx4xs6KDbb85cJ"
    ]
   },
@@ -1952,10 +2167,15 @@
    "label": "Reactions of Amides - A Level Chemistry Revision Notes",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
-   "pending": [
-    "spcpt_GbJwJMgJ2ZztVqw4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_WgSqHqPN37R9RFN9": {
    "kind": "note",
@@ -1982,10 +2202,15 @@
    "label": "Electrophoresis - A Level Chemistry Revision Notes",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_fMCCnCS9vkjCjrg2": {
    "kind": "note",
@@ -2002,20 +2227,30 @@
    "label": "Formation of Polyamides - A Level Chemistry Revision Notes",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_QdgR2WFJqVtw4xNk": {
    "kind": "note",
    "label": "Formation of Polyesters - A level Chemistry Revision Notes ",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_tvCnwTvQWkqvYD5k": {
    "kind": "note",
@@ -2149,9 +2384,15 @@
    "label": "Tetramethylsilane (TMS) & Deuterated Solvents | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "37-analytical-techniques",
    "topic": "37-4-proton-1h-nmr-spectroscopy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:37.4.3",
+     "official_code": "37.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_hS2VJk6cNC2zpynw",
     "spcpt_pYmRWxPrtMDKj5ym"
    ]
   },
@@ -2170,10 +2411,16 @@
    "label": "Ideal Gases - A Level Chemistry Revision Notes",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "rn_wv6MTxC2bH2JD2Hw": {
@@ -2323,10 +2570,16 @@
    "label": "Equilibrium Constants, Kc & Kp | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "7-equilibria",
    "topic": "7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.1.5",
+     "official_code": "7.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_Y6Qj4KVdMvB2kpqv",
-    "spcpt_ddWBfX2tFBNQ6ZTz",
     "spcpt_CmFTFqVFCZVCpGfG"
    ]
   },
@@ -2355,31 +2608,51 @@
    "label": "Acids & Bases | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_JC4Fp6MY98hw2Tgq",
-    "spcpt_2zcRGY6kntsY6nJP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.1",
+     "official_code": "7.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.2",
+     "official_code": "7.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_TfQ8wxCCQvkMJDkW": {
    "kind": "note",
    "label": "Bronsted-Lowry Theory- A Level Chemistry Revision Notes",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_9kW3FHd7vnFX4wv8": {
    "kind": "note",
    "label": "Indicators Used in Titrations - A Level Chemistry",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_8cNrtVG6kjCS6NYV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.10",
+     "official_code": "7.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_6tpP8sqCptbfNRxG": {
    "kind": "note",
@@ -2396,10 +2669,15 @@
    "label": "pH Titration Curves | Cambridge (CIE) A Level Chemistry Revision Notes 2023",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hp29KmkdFhKN6DZk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.9",
+     "official_code": "7.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_dCTkpMZS4KdKyTXW": {
    "kind": "note",
@@ -2829,10 +3107,15 @@
    "label": "qstn_TvWfcDhBNvZ4Qtn2 / part 0",
    "section": "1-atomic-structure",
    "topic": "1-3-electrons-energy-levels-and-atomic-orbitals",
-   "codes": [],
-   "pending": [
-    "spcpt_6dxKVxTJt2jjxKg9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BnmBSsG7zbJr8zhz": {
    "kind": "question_part",
@@ -2889,10 +3172,16 @@
    "label": "qstn_7P4yzdKsXm6S84z4 / part 0",
    "section": "1-atomic-structure",
    "topic": "1-3-electrons-energy-levels-and-atomic-orbitals",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_Gnpf6FRNkztTrQVY",
-    "spcpt_6dxKVxTJt2jjxKg9"
+    "spcpt_Gnpf6FRNkztTrQVY"
    ]
   },
   "qstnprt_HG8skjk4ybntw4MS": {
@@ -2940,10 +3229,15 @@
    "label": "qstn_ZXNRKKCP8KW8BVCd / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CYsWhFVHYz3P2khP": {
    "kind": "question_part",
@@ -3000,10 +3294,15 @@
    "label": "qstn_sSvg5w7skvMtjyZZ / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tK5BbT8VXnDs6dJk": {
    "kind": "question_part",
@@ -3020,20 +3319,30 @@
    "label": "qstn_MHMnYMqM8Xtv3tKP / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RdpJVrpvZcq3WhRs": {
    "kind": "question_part",
    "label": "qstn_KJnZtXFtQdMR2D23 / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bkwRhhckMYQQRBBV": {
    "kind": "question_part",
@@ -3050,40 +3359,60 @@
    "label": "qstn_cnKGTF4xzHgT74Bh / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SHJ7ZZYC4YzfZkpN": {
    "kind": "question_part",
    "label": "qstn_8Rn3kTD2vg2s55nx / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x7YV7fV89XZySJjh": {
    "kind": "question_part",
    "label": "qstn_5wScNHHkq3NK3cXx / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KnRpC9Fd9YdJVxPd": {
    "kind": "question_part",
    "label": "qstn_34b28ZzBYQ4kyMht / part 0",
    "section": "1-atomic-structure",
    "topic": "1-4-ionisation-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_sVwHYTgrhtF5b7R2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sfxWMTG5MPNQK7Cj": {
    "kind": "question_part",
@@ -3503,10 +3832,15 @@
    "label": "qstn_NbZw4s7GJ6dDJ4Pj / part 0",
    "section": "11-group-17",
    "topic": "11-2-the-chemical-properties-of-the-halogen-elements-and-the-hydrogen-halides",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nTJTKyqsjvKvsVmD": {
    "kind": "question_part",
@@ -3604,9 +3938,15 @@
    "label": "qstn_ZzZQVh3tt5T5PVRv / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg",
     "spcpt_kYX8rJ8Ff8TSC2TK"
    ]
   },
@@ -3615,10 +3955,15 @@
    "label": "qstn_zknRvNT7Fy4yV7qy / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PPqrtZVrBZtwTCwh": {
    "kind": "question_part",
@@ -3635,9 +3980,15 @@
    "label": "qstn_q2FXVjB3dbvznPdy / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg",
     "spcpt_XshHNTPKvbZCSWWD"
    ]
   },
@@ -3646,9 +3997,15 @@
    "label": "qstn_MMgqz2HY6m7B38Ff / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg",
     "spcpt_gfsbYJqyKjjnKfcj"
    ]
   },
@@ -3657,10 +4014,15 @@
    "label": "qstn_mjhKSskdh9yRs4v2 / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z2rXSZSPN4fRtZ32": {
    "kind": "question_part",
@@ -3677,10 +4039,15 @@
    "label": "qstn_fXqtxxjGp7TMGVPD / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6hzrBWQzrskxzCGG": {
    "kind": "question_part",
@@ -3697,151 +4064,231 @@
    "label": "qstn_cVbPCxqPNcJDnTRt / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_swTzD9r8jynrNXhb": {
    "kind": "question_part",
    "label": "qstn_CPhhRj3qSvr6z5bB / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GMG6PRqF6vSk38D5": {
    "kind": "question_part",
    "label": "qstn_cH95hyqsXFKxWMvs / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GcvrBW5qRHZ67BrF": {
    "kind": "question_part",
    "label": "qstn_BZFQHmyN3vnXDWY9 / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x5xSW4YH5PCMnm8T": {
    "kind": "question_part",
    "label": "qstn_7zKfhTcj245NvsCT / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y7cj5WWPp6Cb6XPh": {
    "kind": "question_part",
    "label": "qstn_YjhPvnQXVvZ2yJGX / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HrVSd7ktBfTFmQbZ": {
    "kind": "question_part",
    "label": "qstn_vRMX33K9YCryPJR6 / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_CrBkTRVmDxRCscQ4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.2",
+     "official_code": "11.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jb2BV4Yh7tgDFWHt": {
    "kind": "question_part",
    "label": "qstn_tFQQqG8DdZXvXrr3 / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_zZKJqYbTPGy3vBTg",
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.2",
+     "official_code": "11.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kVVCKwR2krz29XvV": {
    "kind": "question_part",
    "label": "qstn_r63xYQS3dzM47K92 / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_CrBkTRVmDxRCscQ4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.2",
+     "official_code": "11.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tN25HdyDQSdqV5hX": {
    "kind": "question_part",
    "label": "qstn_qn6H9p74H76Sj7RG / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4c3HqQ2KrjDmPbbn": {
    "kind": "question_part",
    "label": "qstn_Pc7gG8BZzYRNs9pr / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qwxY32rrt7Cn7NsK": {
    "kind": "question_part",
    "label": "qstn_HsjcpZFBh2ZZzv9w / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_CrBkTRVmDxRCscQ4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.2",
+     "official_code": "11.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B82dMbv5HsDkxfZj": {
    "kind": "question_part",
    "label": "qstn_cDPY8yvWJxWCMM9T / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QtNzBSP5SRByKhH6": {
    "kind": "question_part",
    "label": "qstn_6XTMf5R6FmNpZHJC / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_jGFrWZDkRVsdCjCm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.1",
+     "official_code": "11.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TN2YHrnt8HwT8cMt": {
    "kind": "question_part",
    "label": "qstn_6rRn9bT79BTx8FvF / part 0",
    "section": "11-group-17",
    "topic": "11-4-the-reactions-of-chlorine",
-   "codes": [],
-   "pending": [
-    "spcpt_CrBkTRVmDxRCscQ4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.4.2",
+     "official_code": "11.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WW343kKrVwdWdp23": {
    "kind": "question_part",
@@ -3869,10 +4316,16 @@
    "label": "qstn_Yx2DxygCZkP8jdrd / part 0",
    "section": "12-nitrogen-and-sulfur",
    "topic": "12-1-nitrogen-and-sulfur",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yVqXHvZMbCYqrTPB",
-    "spcpt_G57NmSHkVfNqRmDK"
+    "spcpt_yVqXHvZMbCYqrTPB"
    ]
   },
   "qstnprt_tQqrjhpczr2GwY8W": {
@@ -3911,10 +4364,15 @@
    "label": "qstn_tkG956vsstNrQdH7 / part 0",
    "section": "12-nitrogen-and-sulfur",
    "topic": "12-1-nitrogen-and-sulfur",
-   "codes": [],
-   "pending": [
-    "spcpt_ZjJ8YTCQ7qJK2VKm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:12.1.1",
+     "official_code": "12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MpgPqmdVxXZMwz2V": {
    "kind": "question_part",
@@ -3943,10 +4401,16 @@
    "label": "qstn_PK57t7CSF6pV7vqz / part 0",
    "section": "12-nitrogen-and-sulfur",
    "topic": "12-1-nitrogen-and-sulfur",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yVqXHvZMbCYqrTPB",
-    "spcpt_G57NmSHkVfNqRmDK"
+    "spcpt_yVqXHvZMbCYqrTPB"
    ]
   },
   "qstnprt_kN3tcJ3BRzBzhPCv": {
@@ -4016,10 +4480,15 @@
    "label": "qstn_34H4pcFqDVgqVHGg / part 0",
    "section": "12-nitrogen-and-sulfur",
    "topic": "12-1-nitrogen-and-sulfur",
-   "codes": [],
-   "pending": [
-    "spcpt_ZjJ8YTCQ7qJK2VKm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:12.1.1",
+     "official_code": "12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_44MSWq7PmdnTmXWz": {
    "kind": "question_part",
@@ -4635,19 +5104,30 @@
    "label": "qstn_kGStPTdkbJpBgGCY / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QfWxVkjqvzk2YBGr": {
    "kind": "question_part",
    "label": "qstn_XzZ4nNV2WsgMhcHQ / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_dYZdxgWdCksdx74b"
    ]
   },
@@ -4666,19 +5146,30 @@
    "label": "qstn_VTBGsghyfb89G3Yx / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nQt9yrb4FhRPfYdb": {
    "kind": "question_part",
    "label": "qstn_SNDqYPCsdfrHrvqs / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_MvkYWRftfSrXcvT3"
    ]
   },
@@ -4687,9 +5178,15 @@
    "label": "qstn_NNxsy88gjp5vVMk5 / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_swkZRwSVcdT2zFZB"
    ]
   },
@@ -4698,29 +5195,45 @@
    "label": "qstn_nkmT3JnVfZ8cdNj4 / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zYpMkNkQkhXD253V": {
    "kind": "question_part",
    "label": "qstn_kVxFgjfqXd3CH2tT / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w63trpWP3mYJ7rwr": {
    "kind": "question_part",
    "label": "qstn_JCXM8jKSWZyMV4jQ / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_dYZdxgWdCksdx74b"
    ]
   },
@@ -4739,29 +5252,45 @@
    "label": "qstn_g4KMxBKrKnMVPr58 / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YnqmHt2zWrwq4V46": {
    "kind": "question_part",
    "label": "qstn_FzJTbvVnbDnQmpb9 / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hqRhPNV28g6yk6zx": {
    "kind": "question_part",
    "label": "qstn_Cs37gZGMDthM5kjR / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_dYZdxgWdCksdx74b"
    ]
   },
@@ -4780,9 +5309,15 @@
    "label": "qstn_6PjjPC6JXRtPBYjJ / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_swkZRwSVcdT2zFZB"
    ]
   },
@@ -4791,10 +5326,15 @@
    "label": "qstn_2RSjZJ7hVfvPkQh6 / part 0",
    "section": "14-hydrocarbons",
    "topic": "14-2-alkenes",
-   "codes": [],
-   "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DWRSbBrKfrP4CchZ": {
    "kind": "question_part",
@@ -5112,10 +5652,15 @@
    "label": "qstn_PTwQz4mvRMXWQTjg / part 0",
    "section": "16-hydroxy-compounds",
    "topic": "16-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_tV46RtJmb4cvCkFv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:16.1.5",
+     "official_code": "16.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8yFFjhnVwDyq8sqG": {
    "kind": "question_part",
@@ -5749,20 +6294,30 @@
    "label": "qstn_YbZsFww252SjbBmJ / part 0",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5QwHCCnDy6FDWRtF": {
    "kind": "question_part",
    "label": "qstn_YT6ZPrpH43QvM4cm / part 0",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gCdsZhsQQfFQGpg9": {
    "kind": "question_part",
@@ -5801,10 +6356,15 @@
    "label": "qstn_PfVgrMmNfmTqfNfy / part 0",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CN6V2mNc4SkyGzYg": {
    "kind": "question_part",
@@ -5832,10 +6392,15 @@
    "label": "qstn_gKqz5BhMXCP2tHvh / part 0",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8nJFT7ZWZ3SdMNSv": {
    "kind": "question_part",
@@ -5852,10 +6417,15 @@
    "label": "qstn_bQQFwmFkj2pnmKX5 / part 0",
    "section": "18-carboxylic-acids-and-derivatives",
    "topic": "18-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4MQSBb6vqXQH2Kbx": {
    "kind": "question_part",
@@ -5963,10 +6533,15 @@
    "label": "qstn_WpxMmSJ68b98fCXS / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YZKjjGNwTxFDHtpJ": {
    "kind": "question_part",
@@ -5983,10 +6558,16 @@
    "label": "qstn_VwR38TwZcK4bfYhC / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_XQ97pkXbbVSfgqZD",
-    "spcpt_rnnkkqH8zPwjNSRH"
+    "spcpt_XQ97pkXbbVSfgqZD"
    ]
   },
   "qstnprt_kRd3BYFFBVbJcSZ4": {
@@ -5994,10 +6575,15 @@
    "label": "qstn_tgNz7YF38Jg5mQD6 / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MksgBvbd7jPbQNpz": {
    "kind": "question_part",
@@ -6054,30 +6640,45 @@
    "label": "qstn_hRNsJ36RNHdkkhWY / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q9ycnjpKG34QZD88": {
    "kind": "question_part",
    "label": "qstn_DjCYFmsfbGrDKf2H / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vZV6X2YjBwd5Cjkt": {
    "kind": "question_part",
    "label": "qstn_bYJBMHK7XwsrccHf / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fHBnPsGr44GWrPn8": {
    "kind": "question_part",
@@ -6094,20 +6695,30 @@
    "label": "qstn_8sWDFVfwBYGqTc2w / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SbH8D4xRhbcdTpnH": {
    "kind": "question_part",
    "label": "qstn_2bK2VrWMWf9TCTmj / part 0",
    "section": "19-nitrogen-compounds",
    "topic": "19-2-nitriles-and-hydroxynitriles",
-   "codes": [],
-   "pending": [
-    "spcpt_rnnkkqH8zPwjNSRH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TfJ5TQjFYK3QqY4H": {
    "kind": "question_part",
@@ -6129,30 +6740,45 @@
    "label": "qstn_ZbMcGYf7sXrDX3dH / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_ByB9PnP9PCQZWYyn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Yp55yCpg8FnNGhv3": {
    "kind": "question_part",
    "label": "qstn_XKxwCT6Bzhjv7Czk / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dHTz9pjwrJGyXfpp": {
    "kind": "question_part",
    "label": "qstn_WvqYdjp8M36SZ7nt / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9hdNbhzTwkCF3BrQ": {
    "kind": "question_part",
@@ -6169,10 +6795,15 @@
    "label": "qstn_QMPvkKJg55zSjF6F / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Cq7ZBd9k7GkpHCfq": {
    "kind": "question_part",
@@ -6189,10 +6820,15 @@
    "label": "qstn_kG3qp56QGtfgVyXJ / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-1-relative-masses-of-atoms-and-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5ZwPSCRq7DWrnDcN": {
    "kind": "question_part",
@@ -6371,10 +7007,15 @@
    "label": "qstn_qmK5rwX7YPY92dpn / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-3-formulas",
-   "codes": [],
-   "pending": [
-    "spcpt_ByB9PnP9PCQZWYyn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kcfz4szHNWftfySz": {
    "kind": "question_part",
@@ -6401,20 +7042,30 @@
    "label": "qstn_RKppyVRC7c53grxw / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-3-formulas",
-   "codes": [],
-   "pending": [
-    "spcpt_ByB9PnP9PCQZWYyn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x9qmDXj9czJMthKJ": {
    "kind": "question_part",
    "label": "qstn_ptTyCm8pntmhFhQQ / part 0",
    "section": "2-atoms-molecules-and-stoichiometry",
    "topic": "2-3-formulas",
-   "codes": [],
-   "pending": [
-    "spcpt_ByB9PnP9PCQZWYyn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kqkcDVXYkjPQT5jF": {
    "kind": "question_part",
@@ -6720,10 +7371,16 @@
    "label": "qstn_Q66SdpCb22zCG4Wx / part 0",
    "section": "20-polymerisation",
    "topic": "20-1-addition-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_DPwmzhM5Sk4TDQht",
-    "spcpt_G57NmSHkVfNqRmDK"
+    "spcpt_DPwmzhM5Sk4TDQht"
    ]
   },
   "qstnprt_wDj82wtVBQMqxBBG": {
@@ -6874,9 +7531,15 @@
    "label": "qstn_yVsGprhR3bQcmT7t / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_mvpMD8Jbcbhfj4Qv",
     "spcpt_DX7pMcMZ3RbP6yrR"
    ]
@@ -6898,9 +7561,15 @@
    "label": "qstn_YHPqFPzpPG3D3xJK / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_DX7pMcMZ3RbP6yrR"
    ]
   },
@@ -6909,10 +7578,16 @@
    "label": "qstn_YcRNf6pbfffQJ3gp / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_DX7pMcMZ3RbP6yrR",
-    "spcpt_4DtZjfdMP642yhQs"
+    "spcpt_DX7pMcMZ3RbP6yrR"
    ]
   },
   "qstnprt_D8ZsbdK3rvD5Jc8g": {
@@ -6953,10 +7628,16 @@
    "label": "qstn_TBW6hN7Cc3qxWNM7 / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_ThVqnpMXwdCPNtHm",
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_CSfwBM2MqSxzCtjr"
    ]
   },
@@ -6977,9 +7658,15 @@
    "label": "qstn_QzhqrpmcvgtQh3h6 / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_ThVqnpMXwdCPNtHm"
    ]
   },
@@ -7000,11 +7687,17 @@
    "label": "qstn_mdr2KpxkVJk3YbYM / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.3",
+     "official_code": "19.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_XQ97pkXbbVSfgqZD",
-    "spcpt_ThVqnpMXwdCPNtHm",
-    "spcpt_rnnkkqH8zPwjNSRH"
+    "spcpt_ThVqnpMXwdCPNtHm"
    ]
   },
   "qstnprt_mfST9thnTZ2T4jRz": {
@@ -7036,9 +7729,15 @@
    "label": "qstn_BJgBcYhynhFX92RY / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_mvpMD8Jbcbhfj4Qv",
     "spcpt_DX7pMcMZ3RbP6yrR"
    ]
@@ -7070,9 +7769,15 @@
    "label": "qstn_34GN7V6KjsCxCZF4 / part 0",
    "section": "21-organic-synthesis",
    "topic": "21-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_mvpMD8Jbcbhfj4Qv",
     "spcpt_CdtkSssKHMzw5ZTn"
    ]
@@ -7415,10 +8120,15 @@
    "label": "qstn_DW3QjrZtHyHQ9Wj2 / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pQnF7WFXPwTQgTyg": {
    "kind": "question_part",
@@ -7466,10 +8176,16 @@
    "label": "qstn_Tw9RnhjyF7TQBhQY / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_p8Zc9tNR3VCxPgFg",
-    "spcpt_7jM4fQNCj7mvZPRx"
+    "spcpt_p8Zc9tNR3VCxPgFg"
    ]
   },
   "qstnprt_by3mqCcQP9wZNQPq": {
@@ -7477,10 +8193,16 @@
    "label": "qstn_Tw9RnhjyF7TQBhQY / part 2",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_p8Zc9tNR3VCxPgFg",
-    "spcpt_7jM4fQNCj7mvZPRx"
+    "spcpt_p8Zc9tNR3VCxPgFg"
    ]
   },
   "qstnprt_4v8Qtj6K9V4Dtfxp": {
@@ -7579,10 +8301,15 @@
    "label": "qstn_kxwWTzSpyVZd7kKf / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sVWgNRZbK4vPtfsz": {
    "kind": "question_part",
@@ -7692,20 +8419,30 @@
    "label": "qstn_6NXm2ZQWTzG5yyRZ / part 0",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VfZcD2HHN2gxsWNK": {
    "kind": "question_part",
    "label": "qstn_6NXm2ZQWTzG5yyRZ / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cmCzqKVT8tm3W6JN": {
    "kind": "question_part",
@@ -7722,10 +8459,15 @@
    "label": "qstn_6NXm2ZQWTzG5yyRZ / part 3",
    "section": "23-chemical-energetics",
    "topic": "23-1-lattice-energy-and-born-haber-cycles",
-   "codes": [],
-   "pending": [
-    "spcpt_7jM4fQNCj7mvZPRx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.1.2",
+     "official_code": "23.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TzCXct5jrFHM3QSb": {
    "kind": "question_part",
@@ -7954,9 +8696,15 @@
    "label": "qstn_tRjysSgqFN63rjwF / part 2",
    "section": "23-chemical-energetics",
    "topic": "23-3-entropy-change-s",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_j9xWMbPMSC6qSJnY"
    ]
   },
@@ -8068,10 +8816,16 @@
    "label": "qstn_wNCk7ddmn3Qqzfg3 / part 0",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_8Y5M4NmNmFkWjxnG",
-    "spcpt_jwHMMFYwBVHjq8Bd"
+    "spcpt_8Y5M4NmNmFkWjxnG"
    ]
   },
   "qstnprt_5ZfR98ZppS8nmQDN": {
@@ -8079,9 +8833,15 @@
    "label": "qstn_wNCk7ddmn3Qqzfg3 / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_H85BWCdQWKcQkjZJ"
    ]
   },
@@ -8090,9 +8850,15 @@
    "label": "qstn_wNCk7ddmn3Qqzfg3 / part 2",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_H85BWCdQWKcQkjZJ"
    ]
   },
@@ -8183,19 +8949,30 @@
    "label": "qstn_CQv3423xkN5xShMM / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
-   "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DPtJkqd76XFpQgD9": {
    "kind": "question_part",
    "label": "qstn_CQv3423xkN5xShMM / part 2",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_H85BWCdQWKcQkjZJ"
    ]
   },
@@ -8296,10 +9073,15 @@
    "label": "qstn_7mcPHc7zQkHTnYrH / part 0",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
-   "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WskXvmD7RpsQBWPJ": {
    "kind": "question_part",
@@ -8336,9 +9118,15 @@
    "label": "qstn_5K3kM27zZHdQTdyB / part 0",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_H85BWCdQWKcQkjZJ"
    ]
   },
@@ -8347,9 +9135,15 @@
    "label": "qstn_5K3kM27zZHdQTdyB / part 1",
    "section": "23-chemical-energetics",
    "topic": "23-4-gibbs-free-energy-change-g",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_H85BWCdQWKcQkjZJ"
    ]
   },
@@ -8390,10 +9184,15 @@
    "label": "qstn_wqHY5YVsfTbSR4DV / part 1",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MbgVxyj7WyHTyryk": {
    "kind": "question_part",
@@ -8461,10 +9260,15 @@
    "label": "qstn_VvFfpGjRN5b6vW5y / part 4",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_QhHpZhQKXvBXsCfw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.2",
+     "official_code": "24.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TqxFx63QnKfQjpBH": {
    "kind": "question_part",
@@ -8611,9 +9415,15 @@
    "label": "qstn_hSR76HrB3PHvc8nS / part 0",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ",
     "spcpt_6kfKxfq3Q9w2RBGz"
    ]
   },
@@ -8632,10 +9442,15 @@
    "label": "qstn_hSR76HrB3PHvc8nS / part 3",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kxwJGJQJ4CMNgg4T": {
    "kind": "question_part",
@@ -8682,10 +9497,15 @@
    "label": "qstn_C53m8CK23yvpBpGw / part 0",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4qmcWv4fDNc8bSvm": {
    "kind": "question_part",
@@ -8722,10 +9542,15 @@
    "label": "qstn_2gBJmd6rFyQYyGzz / part 0",
    "section": "24-electrochemistry",
    "topic": "24-1-electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cTTdJgT4YdGvMhpG": {
    "kind": "question_part",
@@ -8793,19 +9618,30 @@
    "label": "qstn_Yb6nkF4PSWNkMt2g / part 3",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_PmQxN44zb7TySVjZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.9",
+     "official_code": "24.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BZsTYDGyyG5c3qhJ": {
    "kind": "question_part",
    "label": "qstn_Yb6nkF4PSWNkMt2g / part 4",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "official_code": "23.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwHMMFYwBVHjq8Bd",
     "spcpt_j9xWMbPMSC6qSJnY"
    ]
   },
@@ -8866,9 +9702,15 @@
    "label": "qstn_S9KCTk8rP9ZHFtvy / part 1",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ",
     "spcpt_6kfKxfq3Q9w2RBGz"
    ]
   },
@@ -8887,10 +9729,15 @@
    "label": "qstn_S9KCTk8rP9ZHFtvy / part 3",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_PmQxN44zb7TySVjZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.9",
+     "official_code": "24.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tjbq4m4g6472ZZkQ": {
    "kind": "question_part",
@@ -8938,30 +9785,45 @@
    "label": "qstn_QXtTDbhhzB58VxHM / part 0",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_QhHpZhQKXvBXsCfw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.2",
+     "official_code": "24.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_khDVWQnrs3ZbSjWH": {
    "kind": "question_part",
    "label": "qstn_QXtTDbhhzB58VxHM / part 1",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mws9tCSHNFFc3rtR": {
    "kind": "question_part",
    "label": "qstn_QXtTDbhhzB58VxHM / part 2",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pSxtVjkq7XmkPTbh": {
    "kind": "question_part",
@@ -9029,10 +9891,15 @@
    "label": "qstn_kq3kN8ckpZjC8pSr / part 0",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_QhHpZhQKXvBXsCfw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.2",
+     "official_code": "24.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZbJVRsb3CmVh7YFV": {
    "kind": "question_part",
@@ -9121,10 +9988,15 @@
    "label": "qstn_hS4Vp6sVf6rX6YQ4 / part 1",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_PmQxN44zb7TySVjZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.9",
+     "official_code": "24.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZtsHGhfVsCVQJxcH": {
    "kind": "question_part",
@@ -9171,9 +10043,15 @@
    "label": "qstn_2cWcxDHvy5Mg2HmP / part 0",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ",
     "spcpt_6kfKxfq3Q9w2RBGz"
    ]
   },
@@ -9202,10 +10080,15 @@
    "label": "qstn_2cWcxDHvy5Mg2HmP / part 3",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_PmQxN44zb7TySVjZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.9",
+     "official_code": "24.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QX4J7vDR66K89bKF": {
    "kind": "question_part",
@@ -9232,10 +10115,15 @@
    "label": "qstn_wcBN8zBW59Z4qstm / part 2",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
-   "pending": [
-    "spcpt_QhHpZhQKXvBXsCfw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.2",
+     "official_code": "24.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_f37RCQXZWkzY8q8Q": {
    "kind": "question_part",
@@ -9262,9 +10150,15 @@
    "label": "qstn_vC8npgQchpyqXdbT / part 2",
    "section": "24-electrochemistry",
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K7DVtxNwskw68ZgZ",
     "spcpt_6kfKxfq3Q9w2RBGz"
    ]
   },
@@ -9383,10 +10277,16 @@
    "label": "qstn_SzhBMpm3CHThZM3X / part 2",
    "section": "25-equilibria",
    "topic": "25-1-acids-and-bases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.9",
+     "official_code": "7.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_m7HVCDD4RZSvGKzJ",
-    "spcpt_hp29KmkdFhKN6DZk"
+    "spcpt_m7HVCDD4RZSvGKzJ"
    ]
   },
   "qstnprt_zfrS9yMfhBbrBkSs": {
@@ -9504,10 +10404,15 @@
    "label": "qstn_fpcGTY3JzyDws9vf / part 0",
    "section": "25-equilibria",
    "topic": "25-1-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wNnbDqnGhZv9RsMk": {
    "kind": "question_part",
@@ -9554,20 +10459,31 @@
    "label": "qstn_fmYF5yp5RC5SqNwP / part 1",
    "section": "25-equilibria",
    "topic": "25-1-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hp29KmkdFhKN6DZk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.9",
+     "official_code": "7.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_82VtpzW8Czjp7HD5": {
    "kind": "question_part",
    "label": "qstn_fmYF5yp5RC5SqNwP / part 2",
    "section": "25-equilibria",
    "topic": "25-1-acids-and-bases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.9",
+     "official_code": "7.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_z6tmpdvg4TZhmwV7",
-    "spcpt_hp29KmkdFhKN6DZk"
+    "spcpt_z6tmpdvg4TZhmwV7"
    ]
   },
   "qstnprt_BmfsHdwzdQY8Xv5w": {
@@ -10661,10 +11577,16 @@
    "label": "qstn_npMh56fKgPhWcGFF / part 0",
    "section": "27-group-2",
    "topic": "27-1-similarities-and-trends-in-the-properties-of-the-group-2-metals-magnesium-to-barium-and-their-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.7",
+     "official_code": "24.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_HmMgqHYYJMyF6nVN",
-    "spcpt_K7DVtxNwskw68ZgZ"
+    "spcpt_HmMgqHYYJMyF6nVN"
    ]
   },
   "qstnprt_Q6JW8wCzHTRXX8g3": {
@@ -11551,21 +12473,36 @@
    "label": "qstn_M5j6xFdV9hx4QBGN / part 4",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-3-colour-of-complexes",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs",
-    "spcpt_2zcRGY6kntsY6nJP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.2",
+     "official_code": "7.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_32vKbdzYs2wq7tCx": {
    "kind": "question_part",
    "label": "qstn_M5j6xFdV9hx4QBGN / part 5",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-3-colour-of-complexes",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9SMH6Md7qxHPz7wP": {
    "kind": "question_part",
@@ -12005,9 +12942,15 @@
    "label": "qstn_tn7mxDC2RfrppFbp / part 2",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-1-formulas-functional-groups-and-the-naming-of-organic-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_sqZ99NMZvSzmpf4v"
    ]
   },
@@ -12036,10 +12979,15 @@
    "label": "qstn_TggqbKG47wNbHV9Z / part 2",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-1-formulas-functional-groups-and-the-naming-of-organic-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D7RkBr7VBN26JSS9": {
    "kind": "question_part",
@@ -12056,9 +13004,15 @@
    "label": "qstn_qXqdRCgbZq5HgnrM / part 1",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-1-formulas-functional-groups-and-the-naming-of-organic-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG",
     "spcpt_5mhSzRMKWCJhpkgz"
    ]
   },
@@ -12099,10 +13053,16 @@
    "label": "qstn_phyWtsQF4hCCyn5W / part 2",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-1-formulas-functional-groups-and-the-naming-of-organic-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yWJy5QZzqdvSHZh7",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_yWJy5QZzqdvSHZh7"
    ]
   },
   "qstnprt_PzPsCxV6BrcFkP87": {
@@ -12162,10 +13122,16 @@
    "label": "qstn_BPYHSSqKVZh2V5Jz / part 1",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-1-formulas-functional-groups-and-the-naming-of-organic-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yWJy5QZzqdvSHZh7",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_yWJy5QZzqdvSHZh7"
    ]
   },
   "qstnprt_c5ZbqwnSNRyHR8bc": {
@@ -12258,10 +13224,16 @@
    "label": "qstn_4K4S6dB3w9KkVCb6 / part 0",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-2-characteristic-organic-reactions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yWJy5QZzqdvSHZh7",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_yWJy5QZzqdvSHZh7"
    ]
   },
   "qstnprt_XjBX34XczryK435k": {
@@ -12269,10 +13241,16 @@
    "label": "qstn_4K4S6dB3w9KkVCb6 / part 1",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-2-characteristic-organic-reactions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yWJy5QZzqdvSHZh7",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_yWJy5QZzqdvSHZh7"
    ]
   },
   "qstnprt_4dXBBhdwhwjcFMC2": {
@@ -12300,10 +13278,16 @@
    "label": "qstn_28R3CkFN54n6Y4fn / part 1",
    "section": "29-an-introduction-to-a-level-organic-chemistry",
    "topic": "29-2-characteristic-organic-reactions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yWJy5QZzqdvSHZh7",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_yWJy5QZzqdvSHZh7"
    ]
   },
   "qstnprt_qM6kFjjgDKY8GShF": {
@@ -12743,10 +13727,15 @@
    "label": "qstn_5YJPPxddd7DzfjGW / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-1-electronegativity-and-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_kXRXDrTrjgyqkQnj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.6.2",
+     "official_code": "3.6.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mW7Pb8zzZHpbnbSC": {
    "kind": "question_part",
@@ -12958,10 +13947,16 @@
    "label": "qstn_8b5YFsjqskvwQqHp / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-4-covalent-bonding-and-coordinate-dative-covalent-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.6.1",
+     "official_code": "3.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_txt4gPnzhw6M2BTz",
-    "spcpt_n4nGC5RWnyFMgkVg"
+    "spcpt_txt4gPnzhw6M2BTz"
    ]
   },
   "qstnprt_J6BJTWHRkGH6dCq9": {
@@ -12969,11 +13964,21 @@
    "label": "qstn_XygrYpH2FxKGyHn9 / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-4-covalent-bonding-and-coordinate-dative-covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_kXRXDrTrjgyqkQnj",
-    "spcpt_45K6F3xzDKJt8C25"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.6.2",
+     "official_code": "3.6.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jFqRjZjNSS4tXd9w": {
    "kind": "question_part",
@@ -13053,10 +14058,16 @@
    "label": "qstn_gQKnbpFVMjvchjrn / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-4-covalent-bonding-and-coordinate-dative-covalent-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_WfbwJkmCX7gyZZqb",
-    "spcpt_G57NmSHkVfNqRmDK",
     "spcpt_FCG6wCWXhVz8jMdM"
    ]
   },
@@ -13085,100 +14096,150 @@
    "label": "qstn_dxGHNrzP8ycQssJX / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_24RwcjZnxtkh9mTv": {
    "kind": "question_part",
    "label": "qstn_TMZgvrqMQsGfgsfq / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_82tJB7p6Hk9F6b8M": {
    "kind": "question_part",
    "label": "qstn_fQ6p3mv94XSJ8SZb / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TjjdXvNzwhYP4tZN": {
    "kind": "question_part",
    "label": "qstn_fBDPVkWpkRNxr289 / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jk4YhqD3TD7MwqVg": {
    "kind": "question_part",
    "label": "qstn_sd2f7k8VSyZg4KKS / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7GTMRSXW6QFtgFYK": {
    "kind": "question_part",
    "label": "qstn_R3Gww6j75kvW4nTf / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YMXRbSgqbJXqrFyB": {
    "kind": "question_part",
    "label": "qstn_PHMrgB6KsMVqPtwP / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sR6p3nTsXsnYyn5b": {
    "kind": "question_part",
    "label": "qstn_MdBxVPvbnYSC5RZ9 / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2txDnmJQGPZ96TCF": {
    "kind": "question_part",
    "label": "qstn_BHKWRgkMfXFbFx8K / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GTwswVCzfKTchknH": {
    "kind": "question_part",
    "label": "qstn_b7FRJ8zPzMZxXJkt / part 0",
    "section": "3-chemical-bonding",
    "topic": "3-5-shapes-of-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_G57NmSHkVfNqRmDK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gwWvBkpXftrNjFTN": {
    "kind": "question_part",
@@ -13420,20 +14481,31 @@
    "label": "qstn_4bGc9g6KnNSMXvb9 / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_576gtnGcjkshXWGd": {
    "kind": "question_part",
    "label": "qstn_4bGc9g6KnNSMXvb9 / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.4",
+     "official_code": "32.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_JgNqFbzQdZjJ5V56",
-    "spcpt_hrJk3TjQMjXQsZsM"
+    "spcpt_JgNqFbzQdZjJ5V56"
    ]
   },
   "qstnprt_5WzpVmJtsQ2M2t34": {
@@ -13441,10 +14513,15 @@
    "label": "qstn_4bGc9g6KnNSMXvb9 / part 3",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RTPfHhpqyd2QsqWZ": {
    "kind": "question_part",
@@ -13463,21 +14540,37 @@
    "label": "qstn_zZJTYhXVJhDhGCRW / part 0",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vBvmv78Vv4qfNGSq": {
    "kind": "question_part",
    "label": "qstn_zZJTYhXVJhDhGCRW / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_3kkRSjrJf9CNjHmd": {
@@ -13532,10 +14625,16 @@
    "label": "qstn_YDBX6rksWFb8P7TP / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_rCXFSSmVj8FwCfDX": {
@@ -13553,10 +14652,16 @@
    "label": "qstn_ycPs3p7ZW8M48mMF / part 0",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_YzxknYmGBfcXjtRX": {
@@ -13564,10 +14669,15 @@
    "label": "qstn_ycPs3p7ZW8M48mMF / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7fHhTTGgRn5tfVBM": {
    "kind": "question_part",
@@ -13604,10 +14714,15 @@
    "label": "qstn_yb8ksYq7Gy8rqCZN / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ygWCpsytGMhBJ99Y": {
    "kind": "question_part",
@@ -13624,10 +14739,16 @@
    "label": "qstn_SJvwxHp3nsKP2XvG / part 0",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_wrhdhCdj5DTYD28V": {
@@ -13635,10 +14756,16 @@
    "label": "qstn_SJvwxHp3nsKP2XvG / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_b7fPptJPKMyhdVmy": {
@@ -13646,10 +14773,16 @@
    "label": "qstn_SJvwxHp3nsKP2XvG / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_f9rVVvwg9HcX24Ct": {
@@ -13657,10 +14790,16 @@
    "label": "qstn_SJvwxHp3nsKP2XvG / part 3",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_CPfySGxZyBDd5sBV": {
@@ -13679,10 +14818,15 @@
    "label": "qstn_kKsVmzrFKN3pfPFD / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tVZDqdTxvYwPz2dY": {
    "kind": "question_part",
@@ -13712,11 +14856,17 @@
    "label": "qstn_FJrpRDbM7KQwR7Yc / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_mcRjWfSwJ35xZVjh",
-    "spcpt_GbJwJMgJ2ZztVqw4"
+    "spcpt_mcRjWfSwJ35xZVjh"
    ]
   },
   "qstnprt_nWpV5fMtMqNVHszX": {
@@ -13735,9 +14885,15 @@
    "label": "qstn_FJrpRDbM7KQwR7Yc / part 3",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW",
     "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
@@ -13796,10 +14952,16 @@
    "label": "qstn_BsDbyFQZPpjCDqSq / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_T47tXfbF7rvThY8r"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_H9tJrcqzvzpn44hr": {
@@ -13807,9 +14969,15 @@
    "label": "qstn_5fWYTzmDv8Ww6Sz7 / part 0",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW",
     "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
@@ -13848,30 +15016,45 @@
    "label": "qstn_3Y8qHjnxxMYmtPCF / part 0",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rHDzpjDFht99mYx3": {
    "kind": "question_part",
    "label": "qstn_3Y8qHjnxxMYmtPCF / part 1",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cg6yVDYzwM74M8r5": {
    "kind": "question_part",
    "label": "qstn_3Y8qHjnxxMYmtPCF / part 2",
    "section": "30-hydrocarbons",
    "topic": "30-1-arenes",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C56tYFQ5hhcnXVxR": {
    "kind": "question_part",
@@ -13940,9 +15123,15 @@
    "label": "qstn_rrTcB4BTsTrrj7gc / part 0",
    "section": "31-halogen-compounds",
    "topic": "31-1-halogen-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:14.2.2",
+     "official_code": "14.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZqhMdzk62nwdGGrr",
     "spcpt_FRWWV78WKDwVvHRD"
    ]
   },
@@ -13951,9 +15140,15 @@
    "label": "qstn_rrTcB4BTsTrrj7gc / part 1",
    "section": "31-halogen-compounds",
    "topic": "31-1-halogen-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_FRWWV78WKDwVvHRD"
    ]
   },
@@ -14074,9 +15269,15 @@
    "label": "qstn_C5GjnMR4yj42qwYt / part 0",
    "section": "31-halogen-compounds",
    "topic": "31-1-halogen-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_PfqCXXkxHSs3pGcc",
     "spcpt_FRWWV78WKDwVvHRD"
    ]
@@ -14086,9 +15287,15 @@
    "label": "qstn_C5GjnMR4yj42qwYt / part 1",
    "section": "31-halogen-compounds",
    "topic": "31-1-halogen-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_FRWWV78WKDwVvHRD"
    ]
   },
@@ -14097,9 +15304,15 @@
    "label": "qstn_C5GjnMR4yj42qwYt / part 2",
    "section": "31-halogen-compounds",
    "topic": "31-1-halogen-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_FRWWV78WKDwVvHRD"
    ]
   },
@@ -14218,40 +15431,61 @@
    "label": "qstn_fmnVH3YdyHcBdMvq / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xqdDp2NH7JtqqYqq": {
    "kind": "question_part",
    "label": "qstn_fmnVH3YdyHcBdMvq / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tgC3pW8VYWjWShRv": {
    "kind": "question_part",
    "label": "qstn_fmnVH3YdyHcBdMvq / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9GPMNC9MD6TWgB6t": {
    "kind": "question_part",
    "label": "qstn_5HpSPpzp34T234q7 / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h7kySjG6rT7x7yjn",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_h7kySjG6rT7x7yjn"
    ]
   },
   "qstnprt_tHntCkGhgk2DmM3p": {
@@ -14259,20 +15493,30 @@
    "label": "qstn_5HpSPpzp34T234q7 / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tNJK5RHxFchvWYcb": {
    "kind": "question_part",
    "label": "qstn_5HpSPpzp34T234q7 / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-1-alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TtSsGNsYQG5NQ9Vs": {
    "kind": "question_part",
@@ -14299,10 +15543,15 @@
    "label": "qstn_xhsrzPNtvXWFZfZ8 / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Vhfn4qKHc5F63sK5": {
    "kind": "question_part",
@@ -14340,10 +15589,16 @@
    "label": "qstn_SYrrdRSdkgm4Vh63 / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jK2qFN5ndh9QgYKX",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_jK2qFN5ndh9QgYKX"
    ]
   },
   "qstnprt_NPJb4Rd37KMQVvM9": {
@@ -14351,60 +15606,90 @@
    "label": "qstn_PQbg5ksDmSxMCTsW / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cqhJ5NK7jKzGQCvz": {
    "kind": "question_part",
    "label": "qstn_PQbg5ksDmSxMCTsW / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_45STfPpzZcW9mhGB": {
    "kind": "question_part",
    "label": "qstn_PQbg5ksDmSxMCTsW / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y7dp97sSM5FtQJw4": {
    "kind": "question_part",
    "label": "qstn_PGmKHp7GHQyKSJQG / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j8t27nd9f2VrfkD5": {
    "kind": "question_part",
    "label": "qstn_PGmKHp7GHQyKSJQG / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bW26jVry6Tf7bBn3": {
    "kind": "question_part",
    "label": "qstn_PGmKHp7GHQyKSJQG / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dCcN59G92dC6Pv7m": {
    "kind": "question_part",
@@ -14421,30 +15706,45 @@
    "label": "qstn_pbKxQBkbfgXsRqnB / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2GYB56NcH3tH5Yk8": {
    "kind": "question_part",
    "label": "qstn_pbKxQBkbfgXsRqnB / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wv7sBCn2JcBfR6QX": {
    "kind": "question_part",
    "label": "qstn_pbKxQBkbfgXsRqnB / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_gngBbjKKKzxf7kSG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.5",
+     "official_code": "32.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rnmrG5Rnj4FtfMSF": {
    "kind": "question_part",
@@ -14472,40 +15772,61 @@
    "label": "qstn_MF7NRc9sD3qJdhVX / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_hrJk3TjQMjXQsZsM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.4",
+     "official_code": "32.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h6mYQz7fNGb94K3b": {
    "kind": "question_part",
    "label": "qstn_MF7NRc9sD3qJdhVX / part 3",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hx4pCKjhXK7WZg5z": {
    "kind": "question_part",
    "label": "qstn_MF7NRc9sD3qJdhVX / part 4",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_gngBbjKKKzxf7kSG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.5",
+     "official_code": "32.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9mzC2TQSwQzYmBjd": {
    "kind": "question_part",
    "label": "qstn_hwT8TSj8j8WzGJ7W / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qzx4VbjHZKNywYNz",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_qzx4VbjHZKNywYNz"
    ]
   },
   "qstnprt_QtXcHTq8Vhcnz4Jb": {
@@ -14513,11 +15834,17 @@
    "label": "qstn_hwT8TSj8j8WzGJ7W / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_qd7Tc37DJzJjRrmk",
-    "spcpt_JfRPXN7DCM7b7FdC",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_JfRPXN7DCM7b7FdC"
    ]
   },
   "qstnprt_7BrBj3q3VCRYxzfm": {
@@ -14525,10 +15852,15 @@
    "label": "qstn_hwT8TSj8j8WzGJ7W / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7VPYcPVxnFs2pkcb": {
    "kind": "question_part",
@@ -14545,20 +15877,30 @@
    "label": "qstn_gvtBGwfDD9gsR3VH / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VZSjK3N6ZhQcdsG5": {
    "kind": "question_part",
    "label": "qstn_gvtBGwfDD9gsR3VH / part 2",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BmJQ9QrxWjsKPC7S": {
    "kind": "question_part",
@@ -14595,10 +15937,16 @@
    "label": "qstn_5Xx4KNpY5Rn4pwvc / part 0",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wp48D3jJvQ3Kdv9z",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
   "qstnprt_VQfVPbmmnY68KR9K": {
@@ -14606,10 +15954,16 @@
    "label": "qstn_5Xx4KNpY5Rn4pwvc / part 1",
    "section": "32-hydroxy-compounds",
    "topic": "32-2-phenol",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rBJCH5cMmx33QRxp",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_rBJCH5cMmx33QRxp"
    ]
   },
   "qstnprt_myC6DS4tfSSkSXqj": {
@@ -14647,10 +16001,16 @@
    "label": "qstn_QKFCC8jzn7TfKG3n / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_sFmfct63pVC8QMMJ",
-    "spcpt_N36WqvGVj2WYtrf8",
     "spcpt_G2nMVpt96f6Jvkms"
    ]
   },
@@ -14659,20 +16019,30 @@
    "label": "qstn_Wbm2Z6q3DBScSFR3 / part 0",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_5PdXcRhBrPyPBYDs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wm63PnSndVpgVhyM": {
    "kind": "question_part",
    "label": "qstn_Wbm2Z6q3DBScSFR3 / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WRZpHrKj4Wm6N8H2": {
    "kind": "question_part",
@@ -14739,10 +16109,15 @@
    "label": "qstn_j5PRyJhYdH4GrW7G / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_5PdXcRhBrPyPBYDs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w5hRPgfVd4QNG5Js": {
    "kind": "question_part",
@@ -14780,10 +16155,15 @@
    "label": "qstn_hmW3Td7G45NmXG2W / part 3",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_5PdXcRhBrPyPBYDs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SSFwFY4ymjkdMJBk": {
    "kind": "question_part",
@@ -14800,10 +16180,15 @@
    "label": "qstn_fyJT8nkfgf7fdNWG / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-1-carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_5PdXcRhBrPyPBYDs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nGSX4QTJ25RWTwtJ": {
    "kind": "question_part",
@@ -14870,10 +16255,16 @@
    "label": "qstn_3pP5xqKnQT2RYP6h / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-2-esters",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h7kySjG6rT7x7yjn",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_h7kySjG6rT7x7yjn"
    ]
   },
   "qstnprt_td3CXsh58j82fYjq": {
@@ -14881,10 +16272,15 @@
    "label": "qstn_3pP5xqKnQT2RYP6h / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-2-esters",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2bXYCZbF9DDDhjQs": {
    "kind": "question_part",
@@ -14941,20 +16337,30 @@
    "label": "qstn_vQmQ7H7ZdQ5PgXcV / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_xwkbCcqCWkWyNYtc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VVnYkx2xn7YpRhS9": {
    "kind": "question_part",
    "label": "qstn_vQmQ7H7ZdQ5PgXcV / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_xwkbCcqCWkWyNYtc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.1.4",
+     "official_code": "33.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Jfvh7yvrrnSWJdMw": {
    "kind": "question_part",
@@ -14971,10 +16377,15 @@
    "label": "qstn_vQmQ7H7ZdQ5PgXcV / part 4",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_phjwdc3vP6s54mMt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.4",
+     "official_code": "33.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qRmW3KZMTyWtcPX2": {
    "kind": "question_part",
@@ -14991,20 +16402,30 @@
    "label": "qstn_kMg7bXC37dT2sN9N / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wd65g2Gh58cB5xB6": {
    "kind": "question_part",
    "label": "qstn_kMg7bXC37dT2sN9N / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NT2b2WrM2kZqKvSS": {
    "kind": "question_part",
@@ -15032,10 +16453,16 @@
    "label": "qstn_DxZKcwPzyFmbbgKH / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_gTszGR44g8Y97r7z",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_gTszGR44g8Y97r7z"
    ]
   },
   "qstnprt_m7SK9kmmXt7y46nt": {
@@ -15043,20 +16470,31 @@
    "label": "qstn_DxZKcwPzyFmbbgKH / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_phjwdc3vP6s54mMt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.4",
+     "official_code": "33.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_45Gr3sx3mJTqKJYw": {
    "kind": "question_part",
    "label": "qstn_dmcpgX9NktbfM4mv / part 0",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_gTszGR44g8Y97r7z",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_gTszGR44g8Y97r7z"
    ]
   },
   "qstnprt_wdsh4CBPzTBmTJ3h": {
@@ -15064,10 +16502,15 @@
    "label": "qstn_dmcpgX9NktbfM4mv / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NNqWjbrT77PhVWpN": {
    "kind": "question_part",
@@ -15085,20 +16528,31 @@
    "label": "qstn_5q8QH2FkDcSxxX8S / part 0",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DZC27rfgmvT5QtDx": {
    "kind": "question_part",
    "label": "qstn_5q8QH2FkDcSxxX8S / part 1",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_mcRjWfSwJ35xZVjh",
-    "spcpt_fCjpP6j9jx8qt8CG"
+    "spcpt_mcRjWfSwJ35xZVjh"
    ]
   },
   "qstnprt_W8s4mxXQpnYBZN4W": {
@@ -15106,10 +16560,15 @@
    "label": "qstn_5q8QH2FkDcSxxX8S / part 2",
    "section": "33-carboxylic-acids-and-derivatives",
    "topic": "33-3-acyl-chlorides",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_95PtcB4MCGNB84M9": {
    "kind": "question_part",
@@ -15147,10 +16606,15 @@
    "label": "qstn_wrzZZ93WXs2Rd2Gc / part 3",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sV4NVyPwqv3PzR4m": {
    "kind": "question_part",
@@ -15168,20 +16632,30 @@
    "label": "qstn_VHyDnDfMZyGqtHn5 / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jFb5VPnSKrSsyKZT": {
    "kind": "question_part",
    "label": "qstn_VHyDnDfMZyGqtHn5 / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x6b2SDdWY9s4Rtwc": {
    "kind": "question_part",
@@ -15199,10 +16673,15 @@
    "label": "qstn_NMVvkmMMpMhbqRPT / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2RdkYQJ6pZTYW68C": {
    "kind": "question_part",
@@ -15229,10 +16708,15 @@
    "label": "qstn_CbB7Z8SvdG6trKhg / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-1-primary-and-secondary-amines",
-   "codes": [],
-   "pending": [
-    "spcpt_KR2xn6FYs3kB52pj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WYWNynH3vJZBbFBz": {
    "kind": "question_part",
@@ -15250,50 +16734,75 @@
    "label": "qstn_W2GxkCBTzmd7kTyB / part 0",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D9prnFygb55PkV52": {
    "kind": "question_part",
    "label": "qstn_W2GxkCBTzmd7kTyB / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bNv7rdP8J9sXw2K2": {
    "kind": "question_part",
    "label": "qstn_W2GxkCBTzmd7kTyB / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PBp7mG9Y8wwVvn2R": {
    "kind": "question_part",
    "label": "qstn_Q6vGNDx6zjyfK3wz / part 0",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d76B8dbfgPDcHQfG": {
    "kind": "question_part",
    "label": "qstn_Q6vGNDx6zjyfK3wz / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tg6R8VDRzK4nxzPh": {
    "kind": "question_part",
@@ -15311,10 +16820,21 @@
    "label": "qstn_prqdmddqM54BMvx4 / part 0",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW",
-    "spcpt_ZrYv26MGZKXyPXbQ",
     "spcpt_mvpMD8Jbcbhfj4Qv"
    ]
   },
@@ -15323,9 +16843,15 @@
    "label": "qstn_prqdmddqM54BMvx4 / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.1.3",
+     "official_code": "34.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KR2xn6FYs3kB52pj",
     "spcpt_h3dWFWW4DjhmpkJ2"
    ]
   },
@@ -15334,10 +16860,21 @@
    "label": "qstn_prqdmddqM54BMvx4 / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW",
-    "spcpt_ZrYv26MGZKXyPXbQ",
     "spcpt_mvpMD8Jbcbhfj4Qv"
    ]
   },
@@ -15356,11 +16893,21 @@
    "label": "qstn_prqdmddqM54BMvx4 / part 4",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_fCjpP6j9jx8qt8CG",
-    "spcpt_4DtZjfdMP642yhQs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.2",
+     "official_code": "33.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.2",
+     "official_code": "18.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xz6hfDwwxYnJYqYZ": {
    "kind": "question_part",
@@ -15377,30 +16924,45 @@
    "label": "qstn_KpkMNmWFJFHDwtTv / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_ZrYv26MGZKXyPXbQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.1",
+     "official_code": "34.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BM5WkrzJxmss5mtd": {
    "kind": "question_part",
    "label": "qstn_KpkMNmWFJFHDwtTv / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NwrkyJnHJ86QJkng": {
    "kind": "question_part",
    "label": "qstn_KpkMNmWFJFHDwtTv / part 3",
    "section": "34-nitrogen-compounds",
    "topic": "34-2-phenylamine-and-azo-compounds",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZQMt7NdRvHW4DxBc": {
    "kind": "question_part",
@@ -15427,10 +16989,15 @@
    "label": "qstn_zSszCx4pNRNmBY5K / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
-   "pending": [
-    "spcpt_GbJwJMgJ2ZztVqw4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JjmxsbbV54gYwzkD": {
    "kind": "question_part",
@@ -15447,10 +17014,15 @@
    "label": "qstn_YYHKbScQVtVSkQtx / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
-   "pending": [
-    "spcpt_GbJwJMgJ2ZztVqw4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3SbnXvMpRvmtfGh3": {
    "kind": "question_part",
@@ -15487,10 +17059,16 @@
    "label": "qstn_kyPv8MsPXBQnmCVV / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VkGygND6tJXJZ7gb",
-    "spcpt_GbJwJMgJ2ZztVqw4"
+    "spcpt_VkGygND6tJXJZ7gb"
    ]
   },
   "qstnprt_RkDtR9TKzZ6TX2NG": {
@@ -15498,10 +17076,15 @@
    "label": "qstn_kyPv8MsPXBQnmCVV / part 3",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
-   "pending": [
-    "spcpt_GbJwJMgJ2ZztVqw4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z6d9xVqJ6FF44Kf8": {
    "kind": "question_part",
@@ -15518,20 +17101,31 @@
    "label": "qstn_HhFtzW3kz9sZPD5v / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
-   "pending": [
-    "spcpt_GbJwJMgJ2ZztVqw4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3XmmXBmgZ4qc9fCY": {
    "kind": "question_part",
    "label": "qstn_HhFtzW3kz9sZPD5v / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-3-amides",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yVqXHvZMbCYqrTPB",
-    "spcpt_GbJwJMgJ2ZztVqw4"
+    "spcpt_yVqXHvZMbCYqrTPB"
    ]
   },
   "qstnprt_SyFK4YPTrDpkMT2k": {
@@ -15559,29 +17153,45 @@
    "label": "qstn_ZhG53RSNSy4WQvYq / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V7k2mKPtnRdMgpjD": {
    "kind": "question_part",
    "label": "qstn_w4dNt9d4b6JpDdxC / part 0",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CynpfVWNNRHytBnQ": {
    "kind": "question_part",
    "label": "qstn_w4dNt9d4b6JpDdxC / part 1",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw",
     "spcpt_nkkvrrBtBQrm3jc8"
    ]
   },
@@ -15590,10 +17200,15 @@
    "label": "qstn_w4dNt9d4b6JpDdxC / part 2",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D2796kDXxDZ2Q3X5": {
    "kind": "question_part",
@@ -15682,9 +17297,15 @@
    "label": "qstn_sZRq4ZgNXpc9qwWZ / part 3",
    "section": "34-nitrogen-compounds",
    "topic": "34-4-amino-acids",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.4.3",
+     "official_code": "34.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SMHHZFxTGGKYJgjw",
     "spcpt_G2nMVpt96f6Jvkms"
    ]
   },
@@ -15787,50 +17408,76 @@
    "label": "qstn_jP7sZ9mHKzTqcWQv / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DMCKVDMyZCZdckZt": {
    "kind": "question_part",
    "label": "qstn_jP7sZ9mHKzTqcWQv / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8tXh4B686wg7bCSh": {
    "kind": "question_part",
    "label": "qstn_jP7sZ9mHKzTqcWQv / part 3",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5WY8Yb2mbPdfDZ46": {
    "kind": "question_part",
    "label": "qstn_7SpXQ44KPP6SBRqV / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b5wt2vXkXfBBb7Qg": {
    "kind": "question_part",
    "label": "qstn_7SpXQ44KPP6SBRqV / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFmfct63pVC8QMMJ",
-    "spcpt_N36WqvGVj2WYtrf8"
+    "spcpt_sFmfct63pVC8QMMJ"
    ]
   },
   "qstnprt_3zgDPB95VMbNz6N4": {
@@ -15838,10 +17485,16 @@
    "label": "qstn_7SpXQ44KPP6SBRqV / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_txt4gPnzhw6M2BTz",
-    "spcpt_N36WqvGVj2WYtrf8"
+    "spcpt_txt4gPnzhw6M2BTz"
    ]
   },
   "qstnprt_dgMTJ6bv9W3yXhsV": {
@@ -15859,39 +17512,60 @@
    "label": "qstn_6c2mH9DtqhXrFSj3 / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JVZmjFFF2vGpybY5": {
    "kind": "question_part",
    "label": "qstn_6c2mH9DtqhXrFSj3 / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3rdRTxxb9rZwBRMm": {
    "kind": "question_part",
    "label": "qstn_6c2mH9DtqhXrFSj3 / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JrgH5hZYPF57pXX3": {
    "kind": "question_part",
    "label": "qstn_6c2mH9DtqhXrFSj3 / part 3",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC",
     "spcpt_sFmfct63pVC8QMMJ"
    ]
   },
@@ -15900,10 +17574,16 @@
    "label": "qstn_VF5VSJ23NDdHzc26 / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_whYTBdbz6rnmqpZC",
-    "spcpt_vbGjQ8vGtVPVDVyC"
+    "spcpt_whYTBdbz6rnmqpZC"
    ]
   },
   "qstnprt_9CBbyY8VSrf8nXx6": {
@@ -15911,10 +17591,16 @@
    "label": "qstn_VF5VSJ23NDdHzc26 / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_whYTBdbz6rnmqpZC",
-    "spcpt_vbGjQ8vGtVPVDVyC"
+    "spcpt_whYTBdbz6rnmqpZC"
    ]
   },
   "qstnprt_MDDp5GFHHd8hQdTx": {
@@ -15922,81 +17608,126 @@
    "label": "qstn_VF5VSJ23NDdHzc26 / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xjp5mRc72csKQYtd": {
    "kind": "question_part",
    "label": "qstn_VF5VSJ23NDdHzc26 / part 3",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kktqwZJbsHP2f9Bq": {
    "kind": "question_part",
    "label": "qstn_S47tQ7v9DzWskG6K / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC",
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dfXPpX9RYdMKMqMN": {
    "kind": "question_part",
    "label": "qstn_S47tQ7v9DzWskG6K / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wVNNzVqdnnV3mWPm": {
    "kind": "question_part",
    "label": "qstn_S47tQ7v9DzWskG6K / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6ZYJ6QMW2rdwW2Dq": {
    "kind": "question_part",
    "label": "qstn_S47tQ7v9DzWskG6K / part 3",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mM4MPrTbWkRW6DBM": {
    "kind": "question_part",
    "label": "qstn_pTN2mXHVBBRP3CYw / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rZRTq4ZPwxGBBmKK": {
    "kind": "question_part",
    "label": "qstn_pTN2mXHVBBRP3CYw / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WYWX8tNvzRm3s3M2": {
    "kind": "question_part",
@@ -16013,20 +17744,30 @@
    "label": "qstn_pTN2mXHVBBRP3CYw / part 3",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nyxP42dhMcMjJvTQ": {
    "kind": "question_part",
    "label": "qstn_nHY8q4dknWBSjhrQ / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BjsXbtwbFb8J943J": {
    "kind": "question_part",
@@ -16043,11 +17784,21 @@
    "label": "qstn_nHY8q4dknWBSjhrQ / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC",
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yZg7jhDdZzX7MJd9": {
    "kind": "question_part",
@@ -16064,20 +17815,31 @@
    "label": "qstn_9Tvj3C6cvXym2WgN / part 0",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8tYRJRkXvKgBqmxw": {
    "kind": "question_part",
    "label": "qstn_9Tvj3C6cvXym2WgN / part 1",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_Td9GY22ydztvn7RW",
-    "spcpt_hPtRwxcytHJ65wbs"
+    "spcpt_Td9GY22ydztvn7RW"
    ]
   },
   "qstnprt_sw7SSvN4XsZGdkB3": {
@@ -16085,9 +17847,15 @@
    "label": "qstn_9Tvj3C6cvXym2WgN / part 2",
    "section": "35-polymerisation",
    "topic": "35-1-condensation-polymerisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC",
     "spcpt_sFmfct63pVC8QMMJ"
    ]
   },
@@ -16198,10 +17966,15 @@
    "label": "qstn_Rf6PC2QG7SqVPtNp / part 0",
    "section": "35-polymerisation",
    "topic": "35-3-degradable-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ktzFqxB7VX8DNQ2n": {
    "kind": "question_part",
@@ -16238,11 +18011,21 @@
    "label": "qstn_qDcSXQGtbxM2XVSx / part 0",
    "section": "35-polymerisation",
    "topic": "35-3-degradable-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_vbGjQ8vGtVPVDVyC",
-    "spcpt_N36WqvGVj2WYtrf8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.1",
+     "official_code": "35.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C33Qf4YPMT8GM3kF": {
    "kind": "question_part",
@@ -16279,9 +18062,15 @@
    "label": "qstn_mKKBgtCpqd6Yxd3c / part 1",
    "section": "35-polymerisation",
    "topic": "35-3-degradable-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:35.1.2",
+     "official_code": "35.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_N36WqvGVj2WYtrf8",
     "spcpt_G2nMVpt96f6Jvkms"
    ]
   },
@@ -16380,10 +18169,16 @@
    "label": "qstn_WZqXjkGzg8SqCVbb / part 1",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_H9Jbcm5Cty6T835Q",
-    "spcpt_fDXjHS6ydfpRRmQ8"
+    "spcpt_H9Jbcm5Cty6T835Q"
    ]
   },
   "qstnprt_Z2VcNRqFPRP9sY2s": {
@@ -16391,10 +18186,15 @@
    "label": "qstn_WZqXjkGzg8SqCVbb / part 2",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
-   "pending": [
-    "spcpt_zSNqTgXKwfMvmXnW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.2.4",
+     "official_code": "34.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pHnP4qvXt4FkxqPR": {
    "kind": "question_part",
@@ -16589,10 +18389,15 @@
    "label": "qstn_Dyrtd6WCJYJSqGjp / part 2",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PzznQC3w9QTcnR7S": {
    "kind": "question_part",
@@ -16629,10 +18434,15 @@
    "label": "qstn_cQ9S6NJVcGz9fdvw / part 2",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
-   "pending": [
-    "spcpt_gngBbjKKKzxf7kSG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.5",
+     "official_code": "32.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z6xtWRHDkcCHs8y6": {
    "kind": "question_part",
@@ -16690,9 +18500,15 @@
    "label": "qstn_5wcGqxcbmB8BTpJB / part 1",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
     "spcpt_wp48D3jJvQ3Kdv9z"
    ]
   },
@@ -16732,12 +18548,27 @@
    "label": "qstn_5RjSVNR2XZZgkpX8 / part 2",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
-   "pending": [
-    "spcpt_T47tXfbF7rvThY8r",
-    "spcpt_GbJwJMgJ2ZztVqw4",
-    "spcpt_fDXjHS6ydfpRRmQ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:30.1.4",
+     "official_code": "30.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:34.3.2",
+     "official_code": "34.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.7",
+     "official_code": "32.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ssTXs69WcjpPDvwd": {
    "kind": "question_part",
@@ -16775,9 +18606,15 @@
    "label": "qstn_4XT2dyRF6tJMKc6d / part 2",
    "section": "36-organic-synthesis",
    "topic": "36-1-organic-synthesis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_hPtRwxcytHJ65wbs",
     "spcpt_7gVH6tscddxG7V3y"
    ]
   },
@@ -16885,10 +18722,15 @@
    "label": "qstn_z46DV7qV8QJcnZ3b / part 0",
    "section": "37-analytical-techniques",
    "topic": "37-1-thin-layer-chromatography",
-   "codes": [],
-   "pending": [
-    "spcpt_CcsxDHpz2T4Njdty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W8nMz4Tk6gKcpWwp": {
    "kind": "question_part",
@@ -17464,10 +19306,15 @@
    "label": "qstn_5DJ4RXVKRqtZrxSJ / part 0",
    "section": "37-analytical-techniques",
    "topic": "37-3-carbon-13-nmr-spectroscopy",
-   "codes": [],
-   "pending": [
-    "spcpt_hS2VJk6cNC2zpynw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:37.4.3",
+     "official_code": "37.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9K8SCXT4F8gcDZf8": {
    "kind": "question_part",
@@ -17494,10 +19341,15 @@
    "label": "qstn_JQSMQfQwpMk5KcgC / part 0",
    "section": "37-analytical-techniques",
    "topic": "37-4-proton-1h-nmr-spectroscopy",
-   "codes": [],
-   "pending": [
-    "spcpt_hS2VJk6cNC2zpynw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:37.4.3",
+     "official_code": "37.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N97MP35y6pnDSttQ": {
    "kind": "question_part",
@@ -17567,10 +19419,15 @@
    "label": "qstn_Dyw4T5GrtJst3qwS / part 0",
    "section": "37-analytical-techniques",
    "topic": "37-4-proton-1h-nmr-spectroscopy",
-   "codes": [],
-   "pending": [
-    "spcpt_hS2VJk6cNC2zpynw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:37.4.3",
+     "official_code": "37.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VywBxwBdTq96tqHD": {
    "kind": "question_part",
@@ -17732,10 +19589,16 @@
    "label": "qstn_6xjK3fwpHV9pt6fm / part 0",
    "section": "37-analytical-techniques",
    "topic": "37-4-proton-1h-nmr-spectroscopy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:37.4.3",
+     "official_code": "37.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_pYmRWxPrtMDKj5ym",
-    "spcpt_hS2VJk6cNC2zpynw"
+    "spcpt_pYmRWxPrtMDKj5ym"
    ]
   },
   "qstnprt_6KWvxrRjBbHkdyxN": {
@@ -17783,10 +19646,16 @@
    "label": "qstn_ZwCmdWpJ8YMkTFn9 / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "qstnprt_tTh4zY3vF8VHHZKS": {
@@ -17794,70 +19663,106 @@
    "label": "qstn_wNjvRsRdvvHns7YN / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2KSj7drF585s7TxV": {
    "kind": "question_part",
    "label": "qstn_wjMtb9ytVyRnnqmH / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JZ9WkB5wWHCmkHQF": {
    "kind": "question_part",
    "label": "qstn_W2RDH2HYBvYsQ5kM / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sVQ9twxzyRNw5NX8": {
    "kind": "question_part",
    "label": "qstn_VM3cN4s7w38p5jCF / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kfVZmRMjP384nCwX": {
    "kind": "question_part",
    "label": "qstn_trWhfxs5gNgXc659 / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mQGsCbZDKpBMXcQj": {
    "kind": "question_part",
    "label": "qstn_Tk3kY22tWMY52qJD / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9XkXznFrzjFD9VWy": {
    "kind": "question_part",
    "label": "qstn_SwnfNCd3ZtdTNVRx / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "qstnprt_p8HGmjrnYHc3ZMtN": {
@@ -17865,20 +19770,30 @@
    "label": "qstn_sDJxvSjJRv3SyyCh / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MPRDwwQ36MD7PdfR": {
    "kind": "question_part",
    "label": "qstn_RDZtsfHB3VvywFsT / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HvbXpryKtJhpptgg": {
    "kind": "question_part",
@@ -17905,10 +19820,16 @@
    "label": "qstn_NB97ZvY6MGgw96wq / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "qstnprt_Wr7QqXbhNyN9KTMz": {
@@ -17936,40 +19857,60 @@
    "label": "qstn_GRrmV4wVcgCQKvqw / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vDtjnYfHqxwwxyMQ": {
    "kind": "question_part",
    "label": "qstn_dnGNJ27sHckMN9qD / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zS8NpBVmGMwVVQtR": {
    "kind": "question_part",
    "label": "qstn_dFs3vJsgkwxVkYqD / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vGxrPxmKF8nMTXXg": {
    "kind": "question_part",
    "label": "qstn_DFPjpNZPPzVgtG6H / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ThNX58GPj3mjQkPP": {
    "kind": "question_part",
@@ -17986,10 +19927,16 @@
    "label": "qstn_CDm263xPZ8xdCHvT / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "qstnprt_bvgmW4Wc9RcQ2nwM": {
@@ -17997,10 +19944,16 @@
    "label": "qstn_bXTJh9dgpBTnX8Bf / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFJ6ZPXvkT79fC2f",
-    "spcpt_mc6MCFF78DmWCrk8"
+    "spcpt_sFJ6ZPXvkT79fC2f"
    ]
   },
   "qstnprt_nTkXqgm87nKR4dgK": {
@@ -18008,20 +19961,30 @@
    "label": "qstn_bshDTypQZBd6mFRg / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nRjgfzNg2d5vgqM5": {
    "kind": "question_part",
    "label": "qstn_7SwqZzdbh7bWtvXb / part 0",
    "section": "4-states-of-matter",
    "topic": "4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt",
-   "codes": [],
-   "pending": [
-    "spcpt_mc6MCFF78DmWCrk8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_22qW8GwZzdgsf9kZ": {
    "kind": "question_part",
@@ -18319,9 +20282,15 @@
    "label": "qstn_2VxNJQj4zqqQJ4Z2 / part 0",
    "section": "5-chemical-energetics",
    "topic": "5-1-enthalpy-change-h",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_G57NmSHkVfNqRmDK",
     "spcpt_3G5VshJ2mzwT8ssc"
    ]
   },
@@ -18876,10 +20845,15 @@
    "label": "qstn_nqxX74TDdwxSqX5C / part 0",
    "section": "7-equilibria",
    "topic": "7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium",
-   "codes": [],
-   "pending": [
-    "spcpt_ddWBfX2tFBNQ6ZTz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.1.5",
+     "official_code": "7.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hsKqqtqwqrFTDZ7G": {
    "kind": "question_part",
@@ -19037,30 +21011,45 @@
    "label": "qstn_WsdKjXNH2hjXfTbK / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_K5v99yVRggqVHB7F": {
    "kind": "question_part",
    "label": "qstn_vtD6J6rj3W4PVWTr / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hp29KmkdFhKN6DZk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.9",
+     "official_code": "7.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_875FRt443PrWMtSM": {
    "kind": "question_part",
    "label": "qstn_vQHczg2DYmGFdZbH / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TnP3jKrhHRbcYjPs": {
    "kind": "question_part",
@@ -19087,29 +21076,45 @@
    "label": "qstn_PDVF3jPBM99GxRmD / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6T6Xtf3VW7xxsMdC": {
    "kind": "question_part",
    "label": "qstn_pCzNVx8zMPPTFvrR / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vTv97ZC7tr56TVBB": {
    "kind": "question_part",
    "label": "qstn_hch7XW8d7GCw5byk / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_hPtRwxcytHJ65wbs",
     "spcpt_7WXcDwskTqCS2cNn"
    ]
   },
@@ -19118,20 +21123,30 @@
    "label": "qstn_55YF8sc5wCbRwh3H / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_8cNrtVG6kjCS6NYV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.10",
+     "official_code": "7.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rS7Fpwjwx7BRWfpj": {
    "kind": "question_part",
    "label": "qstn_4bDf7kqSJBQCMcSW / part 0",
    "section": "7-equilibria",
    "topic": "7-2-brnsted-lowry-theory-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_hPtRwxcytHJ65wbs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.2.3",
+     "official_code": "7.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8CfsRvGftC988TFF": {
    "kind": "question_part",

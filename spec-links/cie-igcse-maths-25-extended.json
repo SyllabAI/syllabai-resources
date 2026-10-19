@@ -29,6 +29,22 @@
     "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
    },
    "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
   }
  },
  "registry": {
@@ -38,7 +54,7 @@
  },
  "totals": {
   "items": 1739,
-  "items_with_codes": 351,
+  "items_with_codes": 368,
   "by_kind": {
    "notes": 189,
    "question_parts": 1550,
@@ -46,7 +62,7 @@
   },
   "coded_by_kind": {
    "notes": 32,
-   "question_parts": 319,
+   "question_parts": 336,
    "flashcards": 0
   }
  },
@@ -55,7 +71,7 @@
   "parts": 2183,
   "universe_ids": 202,
   "universe_resolved": 32,
-  "pending_refs": 2032,
+  "pending_refs": 1997,
   "flashcards_discovered_uncoded": 981,
   "verdict": {
    "lane": "T-SPECS-CIE-VERDICT-1",
@@ -77,6 +93,21 @@
     "no_unique_identity": 161
    },
    "dangling_eq_refs_pending": 51
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 1,
+   "resolved_refs": 35,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 1
+   },
+   "ambiguous_pairs": 0,
+   "pending_refs": 1997,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
   }
  },
  "items": {
@@ -3144,10 +3175,16 @@
    "label": "qstn_nvswwkx7XmghGtm7 / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WS2Jvf7gFCY6KszZ",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WS2Jvf7gFCY6KszZ"
    ]
   },
   "qstnprt_MNxK4FpMFbYsndKq": {
@@ -3275,9 +3312,15 @@
    "label": "qstn_JtDqBKM6n3j6d2vn / part 0",
    "section": "algebra-and-sequences",
    "topic": "forming-and-solving-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_VgH3YPmpp6Yqy9KC",
     "spcpt_JRX7QS29KrY2hCCW"
    ]
@@ -12670,9 +12713,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_8qPwXNWRggpppst9": {
    "kind": "question_part",
@@ -12698,7 +12739,6 @@
     }
    ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_SSJkWfTg9GyZBXt4"
    ]
   },
@@ -12725,19 +12765,23 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_5bwdSxTWjwQ8ct8y": {
    "kind": "question_part",
    "label": "qstn_ybbJ9dSXCqPYsHBh / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WJkt9N2THjr5gPSz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WJkt9N2THjr5gPSz"
    ]
   },
   "qstnprt_G8mD6Vtzkg4VWzTS": {
@@ -12745,10 +12789,15 @@
    "label": "qstn_Y455ndCd7nDTVZYz / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CpcnKrSWm2hshrSw": {
    "kind": "question_part",
@@ -12783,19 +12832,23 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_gKP8sbgCxpZ729XR": {
    "kind": "question_part",
    "label": "qstn_VZnZjnTvQgtgjzjk / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WJkt9N2THjr5gPSz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WJkt9N2THjr5gPSz"
    ]
   },
   "qstnprt_hFMwBGyjxYH4wyNH": {
@@ -12803,10 +12856,16 @@
    "label": "qstn_tqpDfnKjTcNtBsRv / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_ZfXgst3HwHg7ycKz"
    ]
   },
   "qstnprt_2vm272gyc5wMxvrY": {
@@ -12820,11 +12879,15 @@
      "official_code": "E1.13.5",
      "tier": "V2_name_phrase_identity",
      "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_DSkC6nXtr5y4zs48": {
    "kind": "question_part",
@@ -12841,10 +12904,15 @@
    "label": "qstn_rsmtHkN9K9B44XHg / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_chxkJnngzWvnYSTb": {
    "kind": "question_part",
@@ -12891,8 +12959,7 @@
    ],
    "pending": [
     "spcpt_ZfXgst3HwHg7ycKz",
-    "spcpt_WS2Jvf7gFCY6KszZ",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WS2Jvf7gFCY6KszZ"
    ]
   },
   "qstnprt_Ky9jV9pdZMjn2s6C": {
@@ -12908,9 +12975,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_r8DYZRXTwbhYckSS": {
    "kind": "question_part",
@@ -12925,9 +12990,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_525QDfdxRP7KgsRb": {
    "kind": "question_part",
@@ -12942,19 +13005,23 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_83t4ZPBHFr6GQwjH": {
    "kind": "question_part",
    "label": "qstn_KSjgM2fvQD7XNc3f / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WJkt9N2THjr5gPSz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WJkt9N2THjr5gPSz"
    ]
   },
   "qstnprt_W6W5g85NzwmZy5mY": {
@@ -12962,10 +13029,15 @@
    "label": "qstn_krs4ZPrxggxSmk56 / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m3pjcswRk6RgRBmP": {
    "kind": "question_part",
@@ -12987,10 +13059,16 @@
    "label": "qstn_kQK86jrDHYkPQ67V / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WJkt9N2THjr5gPSz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WJkt9N2THjr5gPSz"
    ]
   },
   "qstnprt_VHJKcvvjkfwD7Qy2": {
@@ -12998,10 +13076,16 @@
    "label": "qstn_kQK86jrDHYkPQ67V / part 1",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_WJkt9N2THjr5gPSz",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WJkt9N2THjr5gPSz"
    ]
   },
   "qstnprt_PrtKsQrQ3XFYcNny": {
@@ -13017,9 +13101,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_4zFPrTt6tkQ29xdN": {
    "kind": "question_part",
@@ -13032,20 +13114,30 @@
      "official_code": "E2.9.1",
      "tier": "V2_name_phrase_identity",
      "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_wDySf6Q73HWjZ7xw": {
    "kind": "question_part",
    "label": "qstn_J9ztyjmxsDn6jKtD / part 1",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
@@ -13072,19 +13164,22 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_DygVTRjQMwrGjVNK": {
    "kind": "question_part",
    "label": "qstn_Hf45hkpYx625ZjmV / part 1",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wMpnnrhDZBwZ3GnB": {
    "kind": "question_part",
@@ -13099,9 +13194,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_pWHBjZ5PZ3MvR9rz": {
    "kind": "question_part",
@@ -13156,9 +13249,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_BJyTthpMzhDQmDyd": {
    "kind": "question_part",
@@ -13174,8 +13265,7 @@
     }
    ],
    "pending": [
-    "spcpt_WS2Jvf7gFCY6KszZ",
-    "spcpt_VzvvzCkn52qnHts8"
+    "spcpt_WS2Jvf7gFCY6KszZ"
    ]
   },
   "qstnprt_R3JzKvzFH8FXYRr2": {
@@ -13193,9 +13283,15 @@
    "label": "qstn_c44wnnY9ZJKxSYdS / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
@@ -13212,9 +13308,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_XG66QZcpwcDVZdzq": {
    "kind": "question_part",
@@ -13242,9 +13336,15 @@
    "label": "qstn_bFtQh4mwYqVvCdy3 / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VzvvzCkn52qnHts8",
     "spcpt_VgH3YPmpp6Yqy9KC"
    ]
   },
@@ -13253,10 +13353,15 @@
    "label": "qstn_BcSRCBmQSd3bjGm3 / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fZWS2q9ZkVDd6ZTV": {
    "kind": "question_part",
@@ -13271,19 +13376,22 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_bQwfgYmQYGMfNCBk": {
    "kind": "question_part",
    "label": "qstn_8ynQnWc4ZPBHWJmV / part 0",
    "section": "number",
    "topic": "simple-and-compound-interest-growth-and-decay",
-   "codes": [],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:E1.13.4",
+     "official_code": "E1.13.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H4DYMDS6ZG94nDZr": {
    "kind": "question_part",
@@ -13335,9 +13443,7 @@
      "method": "operator_verdict"
     }
    ],
-   "pending": [
-    "spcpt_VzvvzCkn52qnHts8"
-   ]
+   "pending": []
   },
   "qstnprt_fFZZqD7qbhhrYpKP": {
    "kind": "question_part",

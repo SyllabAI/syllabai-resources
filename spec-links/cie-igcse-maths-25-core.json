@@ -29,6 +29,22 @@
     "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
    },
    "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
   }
  },
  "registry": {
@@ -38,7 +54,7 @@
  },
  "totals": {
   "items": 1504,
-  "items_with_codes": 231,
+  "items_with_codes": 255,
   "by_kind": {
    "notes": 139,
    "question_parts": 1365,
@@ -46,7 +62,7 @@
   },
   "coded_by_kind": {
    "notes": 19,
-   "question_parts": 212,
+   "question_parts": 236,
    "flashcards": 0
   }
  },
@@ -55,7 +71,7 @@
   "parts": 2021,
   "universe_ids": 153,
   "universe_resolved": 20,
-  "pending_refs": 1934,
+  "pending_refs": 1908,
   "flashcards_discovered_uncoded": 764,
   "verdict": {
    "lane": "T-SPECS-CIE-VERDICT-1",
@@ -77,6 +93,21 @@
     "no_unique_identity": 127
    },
    "dangling_eq_refs_pending": 290
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 2,
+   "resolved_refs": 26,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 2
+   },
+   "ambiguous_pairs": 0,
+   "pending_refs": 1908,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
   }
  },
  "items": {
@@ -3579,9 +3610,15 @@
    "label": "qstn_XtcsynG3Bz2tMJHx / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3590,9 +3627,15 @@
    "label": "qstn_TN5KGSf92kw3Ym7s / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3601,9 +3644,15 @@
    "label": "qstn_NtGw7TnzdMhctfzk / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3612,9 +3661,15 @@
    "label": "qstn_nCHCVNsPFcs5VzVx / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3623,9 +3678,15 @@
    "label": "qstn_m4rXhZDCVmJwnSpf / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3634,19 +3695,30 @@
    "label": "qstn_qzzgFg44SWBRQyTn / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CCbV7xMFQFpyKt8r": {
    "kind": "question_part",
    "label": "qstn_NkqVWGCFNSC9JbfR / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM",
     "spcpt_bB34gNwvBJVq8KMM"
    ]
   },
@@ -3655,20 +3727,30 @@
    "label": "qstn_kMnDg4ZJwCqNJ4wk / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5k2QB5x7QKdjhFCt": {
    "kind": "question_part",
    "label": "qstn_JJzgHwpF2NwCWY8q / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KjPJzcvgyC9mHncv": {
    "kind": "question_part",
@@ -3685,20 +3767,31 @@
    "label": "qstn_JJzgHwpF2NwCWY8q / part 2",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vXd96XCSjBN6wK2k": {
    "kind": "question_part",
    "label": "qstn_gTpdZSWdnTqrSg3m / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_xSHrBDTctTzBqWvQ",
-    "spcpt_h5yjgd2WdgmJqHJM"
+    "spcpt_xSHrBDTctTzBqWvQ"
    ]
   },
   "qstnprt_t8Ztjk3pN3h6BT6K": {
@@ -3727,40 +3820,60 @@
    "label": "qstn_nzMF5cfz427Ghq2b / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bwqrMrZxwt7QGGsx": {
    "kind": "question_part",
    "label": "qstn_KP6Qfc3DqvTsfg5H / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wj5NRmHdsy4P874s": {
    "kind": "question_part",
    "label": "qstn_jKtp6v9GZy2ZgZMk / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_46fcWDJfSxttGs58": {
    "kind": "question_part",
    "label": "qstn_BB3T3GDhfG9CxDqc / part 0",
    "section": "algebra-and-sequences",
    "topic": "simultaneous-equations",
-   "codes": [],
-   "pending": [
-    "spcpt_h5yjgd2WdgmJqHJM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C2.5.2",
+     "official_code": "C2.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HvCzRXwDfTvMgnsk": {
    "kind": "question_part",
@@ -14295,8 +14408,7 @@
    ],
    "pending": [
     "spcpt_ffCvVFy6ppvSMNPD",
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_gsZycfTCK88fcpkv": {
@@ -14351,11 +14463,17 @@
    "label": "qstn_pvgq3y7bB7ndZV3D / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_qs9XBwmHkjYfHypt": {
@@ -14369,12 +14487,17 @@
      "official_code": "C2.2.3",
      "tier": "V2_name_phrase_identity",
      "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_9xnjPDgMQvyJQFq9": {
@@ -14393,11 +14516,17 @@
    "label": "qstn_r47HBmqtJ9kcK8w9 / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_Rv3DcsGBkxSkb8Ms",
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_bhCWqhzsdKVj5jPT": {
@@ -14415,10 +14544,16 @@
    "label": "qstn_crVKvvXKHM4PdDfh / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_9qbrYNNpgkZcx2S5": {
@@ -14441,10 +14576,16 @@
    "label": "qstn_9tdJGq5PTQr8SQHG / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw",
     "spcpt_5PKsSqbXq5fF9Z67"
    ]
   },
@@ -14470,10 +14611,16 @@
    "label": "qstn_GKrzgkSyTHzBGGhj / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_JvQMsnPPcZYKvY8f": {
@@ -14481,10 +14628,16 @@
    "label": "qstn_GKrzgkSyTHzBGGhj / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_MvvcJRxyVs7dGGGc": {
@@ -14514,10 +14667,16 @@
    "label": "qstn_d5PZdmJHRwKPmfrq / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_NjbH4gRkGHVmtcCf": {
@@ -14525,10 +14684,16 @@
    "label": "qstn_87fNcBGxbjPpyHf5 / part 0",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_v6QswbxS597BR3qD": {
@@ -14536,10 +14701,16 @@
    "label": "qstn_87fNcBGxbjPpyHf5 / part 1",
    "section": "probability",
    "topic": "set-notation-and-probability-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_MATHS_2025_2027:C1.2.1",
+     "official_code": "C1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_cQfwjPhH7njT2V2Y",
-    "spcpt_9KDr4cg2JmqZWcxw"
+    "spcpt_cQfwjPhH7njT2V2Y"
    ]
   },
   "qstnprt_XFrXyVRq9pzYxvZf": {

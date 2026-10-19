@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-science-co-ordinated-sciences-double-award-2025-2027",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 435,
-  "items_with_codes": 32,
+  "items_with_codes": 139,
   "by_kind": {
    "notes": 118,
    "question_parts": 317,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 4,
-   "question_parts": 28,
+   "notes": 42,
+   "question_parts": 97,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 369,
   "universe_ids": 233,
   "universe_resolved": 6,
-  "pending_refs": 568,
-  "flashcards_discovered_uncoded": 882
+  "pending_refs": 452,
+  "flashcards_discovered_uncoded": 882,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 42,
+   "resolved_refs": 116,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 42
+   },
+   "ambiguous_pairs": 27,
+   "pending_refs": 452,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_3HXyMKYZSbHGF6Vb": {
@@ -118,9 +149,15 @@
    "label": "Charging by Friction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.3",
+     "official_code": "P4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KWMbShGTNdKCnY6T",
     "spcpt_ZknTzVcKXjZBnQWV",
     "spcpt_qn8ymyCbY9vkhBZh"
    ]
@@ -155,10 +192,15 @@
    "label": "Electric Charge | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Zjz7dmyvYv2qD7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_f8vBC8Z8FQPsSMt5": {
    "kind": "note",
@@ -175,10 +217,15 @@
    "label": "Electrical Conductors & Insulators | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_hvsRC3nF3SByzvTV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.5",
+     "official_code": "P4.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_hYrfxqVMXKg2Rrc9": {
    "kind": "note",
@@ -207,10 +254,15 @@
    "label": "Electromotive force | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_FNwcrMhq8WBG6rKb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_jQZ8BnYNtMg3GfGG": {
    "kind": "note",
@@ -227,9 +279,15 @@
    "label": "Potential Difference | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_C56qtYjDfG6Fbw2w",
     "spcpt_MjfJbkVw7B27jkYF"
    ]
   },
@@ -282,9 +340,15 @@
    "label": "Electromagnetic Induction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.5.2",
+     "official_code": "P4.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_R6nCVp7CVbR3KZwZ",
     "spcpt_dvXrqsrDG2xTjfvS",
     "spcpt_tvJjgZdJ6KmdqRpx",
     "spcpt_dhWBPxDzrD7JmM3h"
@@ -321,9 +385,15 @@
    "label": "The A.C. Generator | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.5.2-dup2",
+     "official_code": "P4.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_GYKYZqJvxxXBCRJf",
     "spcpt_yr9sx6wrqGpf5R2M",
     "spcpt_9J56gqhZqXdX2dtT"
    ]
@@ -333,11 +403,17 @@
    "label": "Transformer Calculations | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.5.5",
+     "official_code": "P4.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_MRT7FVFtfPWw5xxF",
     "spcpt_KdM4v8bC43vwFK3p",
-    "spcpt_7XWmY6m3cVDVJ8Mp",
     "spcpt_scY4ssQFhq3xvRTf",
     "spcpt_tZhDnkNYqDbhQdHs"
    ]
@@ -368,11 +444,21 @@
    "label": "Magnetism | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_JWKhvDFW49kRqw2F",
-    "spcpt_mhVQtJDMHwhCZKbP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_3fQjYR2m3Sr326qh": {
    "kind": "note",
@@ -389,10 +475,16 @@
    "label": "Centre of Gravity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup3",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_FDWD4Bjd3fNdfH4s",
-    "spcpt_2wMj4chTTHzTtyxc"
+    "spcpt_FDWD4Bjd3fNdfH4s"
    ]
   },
   "rn_C43fbCpCqZN7Kz9C": {
@@ -400,10 +492,15 @@
    "label": "Equilibrium | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_gw5hJPXmFP36mnZY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_5jXrr2mpmT77Wm5C": {
    "kind": "note",
@@ -505,19 +602,30 @@
    "label": "Conservation of Energy | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_z4zrz6J5JPygjHWy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.3",
+     "official_code": "P1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_vPFPss3yMhXKYcnt": {
    "kind": "note",
    "label": "Efficiency | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.3-dup2",
+     "official_code": "P1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MsncjQBmZRqw8s5s",
     "spcpt_k2V2CrW8rjspnMHF",
     "spcpt_WYP8tDdgNz3D2CXH"
    ]
@@ -539,10 +647,16 @@
    "label": "Energy from the Sun | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_WhqRW3rHJZRy82XM",
-    "spcpt_mZ4J6ybttPNQzsp7",
     "spcpt_zdQRNgrT6tWkmxYM",
     "spcpt_DwcwRY5bz8yjBfbR"
    ]
@@ -552,10 +666,16 @@
    "label": "Energy from Water | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_JHTSXV648T9G7tDK",
-    "spcpt_jHPjKGJzsd2v7tdx"
+    "spcpt_JHTSXV648T9G7tDK"
    ]
   },
   "rn_qry4sxspBS7bZFmq": {
@@ -584,30 +704,45 @@
    "label": "Gravitational Potential Energy | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_hT4c2P6W7Gk6NrsS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup3",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_55kDpRz7T3rXzmSW": {
    "kind": "note",
    "label": "Kinetic Energy | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_QP6vmVdwGWPkpNkv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.4",
+     "official_code": "P1.6.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_gRKVcSqtwDPQnzBm": {
    "kind": "note",
    "label": "Nuclear Fission & Nuclear Fusion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_pV8PxXmJbPpZfDnT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.7",
+     "official_code": "P5.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_xSNWRcfCqwW7nMqJ": {
    "kind": "note",
@@ -731,10 +866,16 @@
    "label": "Speed & Velocity | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.2",
+     "official_code": "P1.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_BTWyPxrR67Ggv4bM",
-    "spcpt_8RFNvWjJ3pdvJcS9",
     "spcpt_ZQykYncbVwFSSzTV"
    ]
   },
@@ -743,9 +884,15 @@
    "label": "Speed-Time Graphs | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.3",
+     "official_code": "P1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yByPnYW8BFVk3GBf",
     "spcpt_9m57V9288p2gQ5VW"
    ]
   },
@@ -803,10 +950,16 @@
    "label": "Changes During Radioactive Decay | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "nuclear-physics",
    "topic": "radioactivity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.2.4-dup2",
+     "official_code": "P5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_gyWSvxg4tKGSGh3F",
-    "spcpt_ZHzJQP7zVdxN4nnq",
     "spcpt_fNMHfym8mXKvYrGT",
     "spcpt_XR8qRk56Gf7ZgGrw"
    ]
@@ -881,9 +1034,15 @@
    "label": "Protons, Neutrons & Electrons  | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "nuclear-physics",
    "topic": "the-nucleus",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.6",
+     "official_code": "P5.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SV8xcgZPWxCHdyv7",
     "spcpt_mq4YKF8cPRHV3Zs2"
    ]
   },
@@ -892,12 +1051,23 @@
    "label": "The Nucleus | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "nuclear-physics",
    "topic": "the-nucleus",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.1",
+     "official_code": "P5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.5",
+     "official_code": "P5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sDFt5QQTq2wv664C",
     "spcpt_dxpYr2sgthr8QMD4",
-    "spcpt_MQHNd7yBc29JC4yV",
-    "spcpt_vmbVXrjbhtjDX7TR"
+    "spcpt_MQHNd7yBc29JC4yV"
    ]
   },
   "rn_RQjY2vDCgBbG8pCS": {
@@ -905,9 +1075,15 @@
    "label": "Life Cycle of a Star | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "space-physics",
    "topic": "stars-and-the-universe",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.2-dup2",
+     "official_code": "P6.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_km9BX4r4TC9R6z89",
     "spcpt_WMgJ7ppKRfNhBC7C"
    ]
   },
@@ -926,20 +1102,31 @@
    "label": "The Big Bang Theory | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "space-physics",
    "topic": "stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_B5WMmHT9MNzdkJBN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.3-dup2",
+     "official_code": "P6.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_MHn8XcTGHWVwjJ95": {
    "kind": "note",
    "label": "The Scale of the Universe | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "space-physics",
    "topic": "stars-and-the-universe",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.1",
+     "official_code": "P6.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_5yJRRTPY3wD6MJs3",
-    "spcpt_BnnxCvGWvTFyZnZ6"
+    "spcpt_5yJRRTPY3wD6MJs3"
    ]
   },
   "rn_Zjg6GFXVTyKDcgBt": {
@@ -958,9 +1145,15 @@
    "label": "Gravitational Field Strength | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "space-physics",
    "topic": "the-solar-system",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.4",
+     "official_code": "P6.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_Vs552XXBkz732Hns",
     "spcpt_9gSyPkSVtdH7JFD5"
    ]
   },
@@ -999,9 +1192,15 @@
    "label": "Brownian Motion | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "kinetic-particle-model-of-matter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.1.5",
+     "official_code": "P2.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SBMzkrDgPRSv2x9Y",
     "spcpt_v4QG9yDB9jzWkbwq"
    ]
   },
@@ -1010,10 +1209,16 @@
    "label": "Molecular Matter | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "kinetic-particle-model-of-matter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.1.4",
+     "official_code": "P2.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MscBw4GTzb4jBXrk",
-    "spcpt_MX22VYKX2GZ3XvVS"
+    "spcpt_MscBw4GTzb4jBXrk"
    ]
   },
   "rn_NrwbyffZyhkkqH5w": {
@@ -1065,11 +1270,17 @@
    "label": "Melting & Boiling | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "thermal-properties-and-temperature",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.2.2",
+     "official_code": "P2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_HkNHcwwkMMwVxntr",
-    "spcpt_HGRS748qNsXSrH34",
-    "spcpt_fkvdY6drYyXqDnpj"
+    "spcpt_HGRS748qNsXSrH34"
    ]
   },
   "rn_M3xSn5dq4FpX6xpT": {
@@ -1088,10 +1299,15 @@
    "label": "Consequences of Thermal Energy Transfer | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_Dzjjxdg7bZwqyfgb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.3.2-dup3",
+     "official_code": "P2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_RycX27Nk9YWCnjZc": {
    "kind": "note",
@@ -1110,10 +1326,15 @@
    "label": "Demonstrating Conduction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_wVPVDtnGpf5X9nmp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.3.1",
+     "official_code": "P2.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_xFqczD6Y3NKFbhks": {
    "kind": "note",
@@ -1151,10 +1372,15 @@
    "label": "Thermal Conduction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_bWZ39rcVktwqypsF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.3.2",
+     "official_code": "P2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Tcq6MgxP92hb86ZB": {
    "kind": "note",
@@ -1171,11 +1397,17 @@
    "label": "Electromagnetic Waves | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "waves",
    "topic": "electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.3.5",
+     "official_code": "P3.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_8Gx89qYmxGT77YtK",
-    "spcpt_n3TqpPN4VmWqsc5s",
-    "spcpt_Vjbb9xM7NXf73cnj"
+    "spcpt_n3TqpPN4VmWqsc5s"
    ]
   },
   "rn_nNPn8FgPwP9dY6S8": {
@@ -1193,11 +1425,22 @@
    "label": "Features of Waves | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.2",
+     "official_code": "P3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.3",
+     "official_code": "P3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZDs3hdFsF6ZyDxCQ",
-    "spcpt_SxRD7xMYpP93MjXs",
-    "spcpt_WQw9C8XpZQMwMVKK"
+    "spcpt_ZDs3hdFsF6ZyDxCQ"
    ]
   },
   "rn_3q4khKnm8q3vQNZW": {
@@ -1293,10 +1536,16 @@
    "label": "Refraction of Light | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "waves",
    "topic": "light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.3",
+     "official_code": "P3.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_Vhpm4WNN2bdSvhtK",
-    "spcpt_fdsQ5KbtCgPQKHBM"
+    "spcpt_Vhpm4WNN2bdSvhtK"
    ]
   },
   "rn_2Y2NfdpkvQBxSXvj": {
@@ -1315,11 +1564,22 @@
    "label": "Total Internal Reflection | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "waves",
    "topic": "light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.7",
+     "official_code": "P3.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.8",
+     "official_code": "P3.2.8",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K5f9t8Q6shkNBkhY",
-    "spcpt_4hZHxMkYcWZgVzDc",
-    "spcpt_mKsfB3GyxxssQFs7"
+    "spcpt_K5f9t8Q6shkNBkhY"
    ]
   },
   "rn_vZB8sYvtPSh6577w": {
@@ -1370,10 +1630,15 @@
    "label": "Ultrasound | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "waves",
    "topic": "sound",
-   "codes": [],
-   "pending": [
-    "spcpt_8f8qvbkSPPCxY37K"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.4.7",
+     "official_code": "P3.4.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QftVQGWmQMnw7JJF": {
    "kind": "question_part",
@@ -1570,40 +1835,60 @@
    "label": "qstn_ZRqY732bgV6tbsWx / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Zjz7dmyvYv2qD7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MwkWQ5DNZBK3S9X9": {
    "kind": "question_part",
    "label": "qstn_z4MNhdVb83xk3Njz / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_KWMbShGTNdKCnY6T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.3",
+     "official_code": "P4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7K8RNndSPwdF6Gbj": {
    "kind": "question_part",
    "label": "qstn_YYRwWStDkWfsHjqR / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_hvsRC3nF3SByzvTV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.5",
+     "official_code": "P4.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z3PTR8ppQHpFGWvN": {
    "kind": "question_part",
    "label": "qstn_YKvqwPp7vrHzGHWt / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_FNwcrMhq8WBG6rKb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2p8Rwy4B69XBn9c3": {
    "kind": "question_part",
@@ -1660,10 +1945,15 @@
    "label": "qstn_nHSrTZw4T8MsGKkx / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Zjz7dmyvYv2qD7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MmhT2jjGTtz9fnMS": {
    "kind": "question_part",
@@ -1681,11 +1971,21 @@
    "label": "qstn_m6VygJqVkVQcQxtc / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Zjz7dmyvYv2qD7",
-    "spcpt_FNwcrMhq8WBG6rKb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Rz3nXyhhXCjTmQtR": {
    "kind": "question_part",
@@ -1733,11 +2033,21 @@
    "label": "qstn_49CF2XKZ9Zv4Hx4C / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_FNwcrMhq8WBG6rKb",
-    "spcpt_C56qtYjDfG6Fbw2w"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.4-dup2",
+     "official_code": "P4.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SyphfTjzM62jFRzt": {
    "kind": "question_part",
@@ -1755,10 +2065,15 @@
    "label": "qstn_XByHm7MfhvFtFXrq / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_R6nCVp7CVbR3KZwZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.5.2",
+     "official_code": "P4.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wpHdNp8g57JPNwyP": {
    "kind": "question_part",
@@ -1795,10 +2110,15 @@
    "label": "qstn_QBcwzsTFgtw9NGCm / part 0",
    "section": "electricity-and-magnetism",
    "topic": "electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_R6nCVp7CVbR3KZwZ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.5.2",
+     "official_code": "P4.5.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7WZsxzbD4wCShr3p": {
    "kind": "question_part",
@@ -1895,40 +2215,60 @@
    "label": "qstn_YqyFCcqFC79rBnSs / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_mhVQtJDMHwhCZKbP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KwvQBdyTm8tFh4Yf": {
    "kind": "question_part",
    "label": "qstn_rr4tQ6G35qtQqvfQ / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_mhVQtJDMHwhCZKbP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7Y24NMBxTsdbkD2J": {
    "kind": "question_part",
    "label": "qstn_yCKV7qcfQTXsKpNk / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_JWKhvDFW49kRqw2F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SgkQMJ7XJkz26S2W": {
    "kind": "question_part",
    "label": "qstn_TSymkMKq2kHRVsxC / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_JWKhvDFW49kRqw2F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zXjy4FpXsyYQZdNd": {
    "kind": "question_part",
@@ -1945,20 +2285,30 @@
    "label": "qstn_7T5YqXZvYydpGhsr / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_mhVQtJDMHwhCZKbP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6XPGtKpmXfGtbbbx": {
    "kind": "question_part",
    "label": "qstn_tsrgV8QcNdsXhbxS / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_JWKhvDFW49kRqw2F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p976zjTgfrNb6ynh": {
    "kind": "question_part",
@@ -1975,10 +2325,15 @@
    "label": "qstn_hRdTjQsVxwR8swYV / part 0",
    "section": "electricity-and-magnetism",
    "topic": "simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_JWKhvDFW49kRqw2F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.1.7",
+     "official_code": "P4.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sbqNQ6H67jM5Fy2N": {
    "kind": "question_part",
@@ -2016,10 +2371,16 @@
    "label": "qstn_f4gJS3ZpvDTbSMsZ / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QpjhK2XGSbPPJxD5",
-    "spcpt_gw5hJPXmFP36mnZY"
+    "spcpt_QpjhK2XGSbPPJxD5"
    ]
   },
   "qstnprt_kdMBMsgDc5Nx68yZ": {
@@ -2057,10 +2418,16 @@
    "label": "qstn_rXKtKGFcGcXD63fX / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QpjhK2XGSbPPJxD5",
-    "spcpt_gw5hJPXmFP36mnZY"
+    "spcpt_QpjhK2XGSbPPJxD5"
    ]
   },
   "qstnprt_GD3B2b3cpwYy75TB": {
@@ -2079,10 +2446,16 @@
    "label": "qstn_r9JfzBDXGYDZrysZ / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QpjhK2XGSbPPJxD5",
-    "spcpt_gw5hJPXmFP36mnZY"
+    "spcpt_QpjhK2XGSbPPJxD5"
    ]
   },
   "qstnprt_XJnHDhDYFWsg7v7p": {
@@ -2131,10 +2504,16 @@
    "label": "qstn_HbPygk8DcvtFDYSb / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup3",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MytFhbbSFqkQwGpp",
-    "spcpt_2wMj4chTTHzTtyxc"
+    "spcpt_MytFhbbSFqkQwGpp"
    ]
   },
   "qstnprt_WSc7NZshFsmTXzgb": {
@@ -2142,10 +2521,16 @@
    "label": "qstn_h7PzJFJmzXpHMyvY / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup3",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_FDWD4Bjd3fNdfH4s",
-    "spcpt_2wMj4chTTHzTtyxc"
+    "spcpt_FDWD4Bjd3fNdfH4s"
    ]
   },
   "qstnprt_zHgHGqZwXrZn9kZk": {
@@ -2175,10 +2560,15 @@
    "label": "qstn_g9k9qT9n7tDvjZvp / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_gw5hJPXmFP36mnZY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sdj74thnHQgqxt7s": {
    "kind": "question_part",
@@ -2196,10 +2586,16 @@
    "label": "qstn_DNGc4WfsPxqXjw2K / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup3",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_FDWD4Bjd3fNdfH4s",
-    "spcpt_2wMj4chTTHzTtyxc"
+    "spcpt_FDWD4Bjd3fNdfH4s"
    ]
   },
   "qstnprt_CqGNjfd6M3866Yzy": {
@@ -2207,20 +2603,31 @@
    "label": "qstn_DgHPTCgk3WhsVFzf / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_gw5hJPXmFP36mnZY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mHsTgKd3m3swj45y": {
    "kind": "question_part",
    "label": "qstn_Dbxpt5Cz44Kgg4Jr / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QpjhK2XGSbPPJxD5",
-    "spcpt_gw5hJPXmFP36mnZY"
+    "spcpt_QpjhK2XGSbPPJxD5"
    ]
   },
   "qstnprt_J7TbYypss5VPt6Fq": {
@@ -2239,20 +2646,36 @@
    "label": "qstn_7jkbscHrk6CgM23c / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_gw5hJPXmFP36mnZY",
-    "spcpt_2wMj4chTTHzTtyxc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup2",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.5.3-dup3",
+     "official_code": "P1.5.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ShDsFW6jC6V26qmJ": {
    "kind": "question_part",
    "label": "qstn_3FbhK3vjwGZ4B2wW / part 0",
    "section": "motion-forces-and-energy",
    "topic": "effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.3",
+     "official_code": "P1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yByPnYW8BFVk3GBf",
     "spcpt_MR7CvXNrBks6nHzq"
    ]
   },
@@ -2302,19 +2725,30 @@
    "label": "qstn_YxCrGNtJxJvmjpbh / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_mZ4J6ybttPNQzsp7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4tSd7cvbj4TRdm5Z": {
    "kind": "question_part",
    "label": "qstn_yqxPmqTPBJ6zcDK4 / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jHPjKGJzsd2v7tdx",
     "spcpt_Fy76NrCps4SwvdGS"
    ]
   },
@@ -2323,20 +2757,30 @@
    "label": "qstn_y5ZkysJvj9TvxP6y / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_QP6vmVdwGWPkpNkv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.4",
+     "official_code": "P1.6.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yPwDVyYjdn8pkxcc": {
    "kind": "question_part",
    "label": "qstn_Y3rzrKVRV6sqvjGf / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_z4zrz6J5JPygjHWy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.3",
+     "official_code": "P1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G47V7CdNhyNMTZxJ": {
    "kind": "question_part",
@@ -2353,20 +2797,31 @@
    "label": "qstn_xkVczcMNhkkMbpxv / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_z4zrz6J5JPygjHWy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.3",
+     "official_code": "P1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7SZsxhmYTxgTqYsn": {
    "kind": "question_part",
    "label": "qstn_xHdJS2KTGjgVpCPX / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zptymVgFBYsJHgDk",
-    "spcpt_jHPjKGJzsd2v7tdx"
+    "spcpt_zptymVgFBYsJHgDk"
    ]
   },
   "qstnprt_XT8PxxmjtyDdpJZ9": {
@@ -2384,10 +2839,16 @@
    "label": "qstn_VMkhyQPjvX2MtBpt / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QQ2nB8NVQDrvSv2t",
-    "spcpt_jHPjKGJzsd2v7tdx"
+    "spcpt_QQ2nB8NVQDrvSv2t"
    ]
   },
   "qstnprt_k3jT8PrsN6yVWMgh": {
@@ -2395,10 +2856,15 @@
    "label": "qstn_vcwBJk8MnZ2nhv4y / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_MsncjQBmZRqw8s5s"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.3-dup2",
+     "official_code": "P1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x3d9Vcxz9s7PP4Nj": {
    "kind": "question_part",
@@ -2426,21 +2892,37 @@
    "label": "qstn_sXvHSF2CtFkXGPZq / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_QP6vmVdwGWPkpNkv",
-    "spcpt_hT4c2P6W7Gk6NrsS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.4",
+     "official_code": "P1.6.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup3",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qrMKMmq8ZrSYwB4z": {
    "kind": "question_part",
    "label": "qstn_sbv9Sj6yYHd5ySyy / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zdQRNgrT6tWkmxYM",
-    "spcpt_mZ4J6ybttPNQzsp7"
+    "spcpt_zdQRNgrT6tWkmxYM"
    ]
   },
   "qstnprt_8NtQfHX59j4w9M8T": {
@@ -2498,10 +2980,15 @@
    "label": "qstn_m2Brf489ctHVDXyJ / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_pV8PxXmJbPpZfDnT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.7",
+     "official_code": "P5.1.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QBCTCV744vHP5x5k": {
    "kind": "question_part",
@@ -2518,10 +3005,16 @@
    "label": "qstn_KSMKJcDZ4N7qK3v6 / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.1-dup4",
+     "official_code": "P1.6.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QQ2nB8NVQDrvSv2t",
-    "spcpt_jHPjKGJzsd2v7tdx"
+    "spcpt_QQ2nB8NVQDrvSv2t"
    ]
   },
   "qstnprt_87VNYdqD5ssB8zBS": {
@@ -2529,10 +3022,15 @@
    "label": "qstn_KfBmhsPksWv7HhRs / part 0",
    "section": "motion-forces-and-energy",
    "topic": "energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_QP6vmVdwGWPkpNkv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.6.4",
+     "official_code": "P1.6.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5PYdYCTNyYZbCN6V": {
    "kind": "question_part",
@@ -2982,10 +3480,15 @@
    "label": "qstn_z8vdFDNHMm6yjjBH / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_yByPnYW8BFVk3GBf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.3",
+     "official_code": "P1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7rpPG6kNwXT9XsVK": {
    "kind": "question_part",
@@ -3002,10 +3505,15 @@
    "label": "qstn_Zr3fN46hHWxg9HxN / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_yByPnYW8BFVk3GBf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.3",
+     "official_code": "P1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m4t6BRyhkdhN6NzT": {
    "kind": "question_part",
@@ -3022,10 +3530,15 @@
    "label": "qstn_YC7SmYp96bF4kTCW / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_8RFNvWjJ3pdvJcS9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.2",
+     "official_code": "P1.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nVddDxYBYF7hDDcf": {
    "kind": "question_part",
@@ -3052,10 +3565,15 @@
    "label": "qstn_T6gFWSN9Ycrd4n5w / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_8RFNvWjJ3pdvJcS9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.2",
+     "official_code": "P1.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rQmNRPJtNxVc9QRR": {
    "kind": "question_part",
@@ -3072,10 +3590,15 @@
    "label": "qstn_h6ggTXH3k42Qnkkx / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_8RFNvWjJ3pdvJcS9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.2",
+     "official_code": "P1.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6MTGq4PhqMxWZNYs": {
    "kind": "question_part",
@@ -3092,10 +3615,15 @@
    "label": "qstn_CkCtpTnhHDqzn5bG / part 0",
    "section": "motion-forces-and-energy",
    "topic": "motion",
-   "codes": [],
-   "pending": [
-    "spcpt_8RFNvWjJ3pdvJcS9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P1.2.2",
+     "official_code": "P1.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9vXKyczwXcJDjWMb": {
    "kind": "question_part",
@@ -3518,10 +4046,15 @@
    "label": "qstn_fYzq2T73ShqZ4wMw / part 0",
    "section": "nuclear-physics",
    "topic": "radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_ZHzJQP7zVdxN4nnq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.2.4-dup2",
+     "official_code": "P5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZyQhM3WzvzTC2wb7": {
    "kind": "question_part",
@@ -3538,9 +4071,15 @@
    "label": "qstn_dG7Nb7d9wBJMMXkV / part 0",
    "section": "nuclear-physics",
    "topic": "radioactivity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.2.4-dup2",
+     "official_code": "P5.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZHzJQP7zVdxN4nnq",
     "spcpt_CXSwSdrw752chr6D"
    ]
   },
@@ -3569,10 +4108,15 @@
    "label": "qstn_PwqcxrT3JxR6rXMQ / part 0",
    "section": "nuclear-physics",
    "topic": "the-nucleus",
-   "codes": [],
-   "pending": [
-    "spcpt_SV8xcgZPWxCHdyv7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.6",
+     "official_code": "P5.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g9YjgpJGQy8Ww8vz": {
    "kind": "question_part",
@@ -3619,11 +4163,21 @@
    "label": "qstn_CBjzwFmwVT4WmXp2 / part 0",
    "section": "nuclear-physics",
    "topic": "the-nucleus",
-   "codes": [],
-   "pending": [
-    "spcpt_SV8xcgZPWxCHdyv7",
-    "spcpt_p3Zjz7dmyvYv2qD7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P5.1.6",
+     "official_code": "P5.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bJ6s5Mst3XttSgTY": {
    "kind": "question_part",
@@ -3670,30 +4224,45 @@
    "label": "qstn_4jGq8ywMhvnctG3J / part 0",
    "section": "space-physics",
    "topic": "stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_km9BX4r4TC9R6z89"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.2-dup2",
+     "official_code": "P6.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VNK7FyRmP4xWvm8x": {
    "kind": "question_part",
    "label": "qstn_232wKQBByd3W4ZZn / part 0",
    "section": "space-physics",
    "topic": "stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_BnnxCvGWvTFyZnZ6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.1",
+     "official_code": "P6.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pKqqrgmKRXSZxnw3": {
    "kind": "question_part",
    "label": "qstn_CMGxNch2Cpkdmncb / part 0",
    "section": "space-physics",
    "topic": "the-solar-system",
-   "codes": [],
-   "pending": [
-    "spcpt_km9BX4r4TC9R6z89"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P6.2.2-dup2",
+     "official_code": "P6.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pzyJXpppsnmP2fw3": {
    "kind": "question_part",
@@ -3821,10 +4390,15 @@
    "label": "qstn_hSk2cMXpsGHWt7br / part 0",
    "section": "thermal-physics",
    "topic": "kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_SBMzkrDgPRSv2x9Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.1.5",
+     "official_code": "P2.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SkfS9XmkKsj5Xq7b": {
    "kind": "question_part",
@@ -3841,10 +4415,15 @@
    "label": "qstn_5B7PBRbtVPPXdjQR / part 0",
    "section": "thermal-physics",
    "topic": "kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_SBMzkrDgPRSv2x9Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.1.5",
+     "official_code": "P2.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_trWk5BRYzWYBXjKP": {
    "kind": "question_part",
@@ -4002,10 +4581,15 @@
    "label": "qstn_VsVBZN242dxBqMWq / part 0",
    "section": "thermal-physics",
    "topic": "transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_bWZ39rcVktwqypsF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.3.2",
+     "official_code": "P2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9DQHGHmXSpfnFWWZ": {
    "kind": "question_part",
@@ -4052,10 +4636,15 @@
    "label": "qstn_VrpKnSwt3CBfJ2gT / part 0",
    "section": "thermal-physics",
    "topic": "transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_wVPVDtnGpf5X9nmp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P2.3.1",
+     "official_code": "P2.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HjhtfmDKxgqxdMvv": {
    "kind": "question_part",
@@ -4184,10 +4773,15 @@
    "label": "qstn_wDWcnzD42jJx5G8g / part 0",
    "section": "waves",
    "topic": "electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_Vjbb9xM7NXf73cnj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.3.5",
+     "official_code": "P3.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MQsDHJ279ZwjpwJY": {
    "kind": "question_part",
@@ -4306,10 +4900,15 @@
    "label": "qstn_sdFFgWYkQzDk66n7 / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_WQw9C8XpZQMwMVKK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.3",
+     "official_code": "P3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YVN6zfCMNVPvQwHb": {
    "kind": "question_part",
@@ -4367,20 +4966,30 @@
    "label": "qstn_msZKhwkhChjS5XzT / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_WQw9C8XpZQMwMVKK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.3",
+     "official_code": "P3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QbPp39xCsvWvQ3gy": {
    "kind": "question_part",
    "label": "qstn_mgtF877spwzVvBPQ / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_WQw9C8XpZQMwMVKK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.3",
+     "official_code": "P3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ghHKMDvHWBgXf5tC": {
    "kind": "question_part",
@@ -4397,10 +5006,15 @@
    "label": "qstn_f9g8ct2P2HTYvZxq / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_WQw9C8XpZQMwMVKK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.1.3",
+     "official_code": "P3.1.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_df4nnYyknDgM7bv7": {
    "kind": "question_part",
@@ -4498,10 +5112,16 @@
    "label": "qstn_vT5v4wDQSY8Pwj2B / part 0",
    "section": "waves",
    "topic": "light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.7",
+     "official_code": "P3.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K5f9t8Q6shkNBkhY",
-    "spcpt_4hZHxMkYcWZgVzDc"
+    "spcpt_K5f9t8Q6shkNBkhY"
    ]
   },
   "qstnprt_CCTgXNMGf4DYBnFK": {
@@ -4520,10 +5140,15 @@
    "label": "qstn_pM54CvybhpmZg2QJ / part 0",
    "section": "waves",
    "topic": "light",
-   "codes": [],
-   "pending": [
-    "spcpt_fdsQ5KbtCgPQKHBM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.3",
+     "official_code": "P3.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cZjfKhXxzkbg8ybq": {
    "kind": "question_part",
@@ -4540,10 +5165,15 @@
    "label": "qstn_N3q4YnFPXzfNBFFT / part 0",
    "section": "waves",
    "topic": "light",
-   "codes": [],
-   "pending": [
-    "spcpt_4hZHxMkYcWZgVzDc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.7",
+     "official_code": "P3.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VBJvqPDbXPCfkKHM": {
    "kind": "question_part",
@@ -4560,10 +5190,16 @@
    "label": "qstn_h46GpWP9BWY7pxQ9 / part 0",
    "section": "waves",
    "topic": "light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.2.7",
+     "official_code": "P3.2.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_K5f9t8Q6shkNBkhY",
-    "spcpt_4hZHxMkYcWZgVzDc"
+    "spcpt_K5f9t8Q6shkNBkhY"
    ]
   },
   "qstnprt_Kf2ftRxjmrWz2TZj": {
@@ -4624,10 +5260,15 @@
    "label": "qstn_6MDtmg7NZc465jJ8 / part 0",
    "section": "waves",
    "topic": "sound",
-   "codes": [],
-   "pending": [
-    "spcpt_KWMbShGTNdKCnY6T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P4.2.3",
+     "official_code": "P4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s4v6K7H7qJMcxc4f": {
    "kind": "question_part",
@@ -4687,10 +5328,16 @@
    "label": "qstn_gR5c9v36D4mYbG56 / part 0",
    "section": "waves",
    "topic": "sound",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.4.7",
+     "official_code": "P3.4.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_PyYGs5qc6Sy3PT8D",
-    "spcpt_8f8qvbkSPPCxY37K"
+    "spcpt_PyYGs5qc6Sy3PT8D"
    ]
   },
   "qstnprt_2kFXvd34tySxtQSR": {
@@ -4728,10 +5375,15 @@
    "label": "qstn_3pJVRrWZxtN2fyRM / part 0",
    "section": "waves",
    "topic": "sound",
-   "codes": [],
-   "pending": [
-    "spcpt_8f8qvbkSPPCxY37K"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:P3.4.7",
+     "official_code": "P3.4.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y9KVWBRk6VwHFrQb": {
    "kind": "question_part",

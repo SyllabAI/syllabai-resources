@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-science-co-ordinated-sciences-double-award-2025-2027",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 463,
-  "items_with_codes": 255,
+  "items_with_codes": 307,
   "by_kind": {
    "notes": 86,
    "question_parts": 377,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 48,
-   "question_parts": 207,
+   "notes": 58,
+   "question_parts": 249,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 452,
   "universe_ids": 134,
   "universe_resolved": 71,
-  "pending_refs": 291,
-  "flashcards_discovered_uncoded": 603
+  "pending_refs": 229,
+  "flashcards_discovered_uncoded": 603,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 14,
+   "resolved_refs": 62,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 14
+   },
+   "ambiguous_pairs": 7,
+   "pending_refs": 229,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_DXFkZsMnXcZDvqfG": {
@@ -207,10 +238,15 @@
    "label": "Elements, Compounds & Mixtures | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "atoms-elements-and-compounds",
    "topic": "atomic-structure-and-the-periodic-table",
-   "codes": [],
-   "pending": [
-    "spcpt_SqrwK3SsDrZ6PRBn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C2.1.1",
+     "official_code": "C2.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_PDFJTYx3nHsXcJtD": {
    "kind": "note",
@@ -477,20 +513,30 @@
    "label": "Investigating the Rate of a Reaction | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_YhdmdyyKJ6R2cYCs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.3",
+     "official_code": "C6.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_56H2th3GS9kjKmmq": {
    "kind": "note",
    "label": "Physical & Chemical Changes | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_rftBFb5WpWwmfzXP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.1.1",
+     "official_code": "C6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_pghVr95hpMk8wHMP": {
    "kind": "note",
@@ -733,10 +779,15 @@
    "label": "Ionic Half Equations | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "electrochemistry",
    "topic": "electrochemistry",
-   "codes": [],
-   "pending": [
-    "spcpt_DvDPhGBPSVn82Y57"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C4.1.8",
+     "official_code": "C4.1.8",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_8gV5Ykws2qPp2d6V": {
    "kind": "note",
@@ -753,10 +804,15 @@
    "label": "Apparatus for Measurements | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_GQ4PyCgBxKmSsFVC": {
    "kind": "note",
@@ -808,10 +864,21 @@
    "label": "Paper Chromatography | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "separation-and-purification",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.1",
+     "official_code": "C12.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.2",
+     "official_code": "C12.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MVWqykYw7gj7Pwnb",
-    "spcpt_FKHGbMkzqQvCw6v4",
     "spcpt_KJMXNxfmMb7Tr2Rx"
    ]
   },
@@ -928,11 +995,21 @@
    "label": "Properties of Metals | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "metals",
    "topic": "properties-uses-and-alloys-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN",
-    "spcpt_T3Bh5jRhtCTmNdFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.2",
+     "official_code": "C9.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_VPx3fjb3FhDFXdZw": {
    "kind": "note",
@@ -1138,11 +1215,22 @@
    "label": "Fossil Fuels | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.7",
+     "official_code": "C11.3.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sjvK4dGdQTFQYgP3",
-    "spcpt_cT9dYW2GvFrMCxwF",
-    "spcpt_jvYn2WJBktQnPkhr"
+    "spcpt_sjvK4dGdQTFQYgP3"
    ]
   },
   "rn_CZyghZwP4Bf3yYbj": {
@@ -1150,11 +1238,21 @@
    "label": "Addition & Condensation Polymers | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK",
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_w5NpHtZctCSp4Nht": {
    "kind": "note",
@@ -1426,10 +1524,15 @@
    "label": "Transition Elements | Cambridge (CIE) IGCSE Co-ordinated Sciences (Double Award) Revision Notes 2023",
    "section": "the-periodic-table",
    "topic": "group-properties-and-trends",
-   "codes": [],
-   "pending": [
-    "spcpt_RkYBbqPhS3wfPJd6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C8.4.1",
+     "official_code": "C8.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_6znfhMv2ZyqHtjJF": {
    "kind": "note",
@@ -2140,10 +2243,15 @@
    "label": "qstn_tDTYs8ZYCSfFRgzV / part 0",
    "section": "atoms-elements-and-compounds",
    "topic": "atomic-structure-and-the-periodic-table",
-   "codes": [],
-   "pending": [
-    "spcpt_SqrwK3SsDrZ6PRBn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C2.1.1",
+     "official_code": "C2.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NQRRKZVmRHNFXf9R": {
    "kind": "question_part",
@@ -3092,20 +3200,30 @@
    "label": "qstn_m858FDzYpsv5fvdS / part 0",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_YhdmdyyKJ6R2cYCs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.3",
+     "official_code": "C6.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BVcP4Z7MxB8ycxry": {
    "kind": "question_part",
    "label": "qstn_XdNCfFzxSQcD6ZHn / part 0",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_YhdmdyyKJ6R2cYCs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.3",
+     "official_code": "C6.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NdxXFrTdKP7bhprr": {
    "kind": "question_part",
@@ -3251,30 +3369,45 @@
    "label": "qstn_tbzbsq3Gx9dcs88c / part 0",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_rftBFb5WpWwmfzXP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.1.1",
+     "official_code": "C6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zxhbD85nhpWghjfD": {
    "kind": "question_part",
    "label": "qstn_mv4GtcKffxWpNjwm / part 0",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_YhdmdyyKJ6R2cYCs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.3",
+     "official_code": "C6.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7KWsKKW5XWcHV5VP": {
    "kind": "question_part",
    "label": "qstn_JSqNtmQmtVqYNqrn / part 0",
    "section": "chemical-reactions",
    "topic": "chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_rftBFb5WpWwmfzXP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.1.1",
+     "official_code": "C6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FxgDXYKm6P5dR268": {
    "kind": "question_part",
@@ -3863,10 +3996,16 @@
    "label": "qstn_cSKwYK9gtcTgQhfs / part 0",
    "section": "electrochemistry",
    "topic": "electrochemistry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C4.1.8",
+     "official_code": "C4.1.8",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_RMKmHc3g9tkTFS4h",
-    "spcpt_DvDPhGBPSVn82Y57"
+    "spcpt_RMKmHc3g9tkTFS4h"
    ]
   },
   "qstnprt_vfS5vGn2TznKr9Px": {
@@ -3997,10 +4136,16 @@
    "label": "qstn_62vxC3kHYc3BcCsR / part 0",
    "section": "electrochemistry",
    "topic": "electrochemistry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C4.1.8",
+     "official_code": "C4.1.8",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_RMKmHc3g9tkTFS4h",
-    "spcpt_DvDPhGBPSVn82Y57"
+    "spcpt_RMKmHc3g9tkTFS4h"
    ]
   },
   "qstnprt_nk93ckC5Wxvn3QX2": {
@@ -4184,20 +4329,30 @@
    "label": "qstn_T6TX6st2DrvhCps7 / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Yz4B5w64mrjrsKw2": {
    "kind": "question_part",
    "label": "qstn_prPvPwDRd82jwPBq / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4gwDDncR42QndZGR": {
    "kind": "question_part",
@@ -4214,30 +4369,45 @@
    "label": "qstn_JydKDjQWn3tQPYSy / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R7yYc7NTpJXQCK7J": {
    "kind": "question_part",
    "label": "qstn_czS4f3pVzC26VHB5 / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nhkGt9vRhqswqKpj": {
    "kind": "question_part",
    "label": "qstn_yC7tCrm7w2zTGKMr / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p2j5JtJhkBS9FgBF": {
    "kind": "question_part",
@@ -4274,10 +4444,16 @@
    "label": "qstn_JwYwQ2zdRXC7VVdn / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_q8cCgPVKCNdZVRjj",
-    "spcpt_BrGBnpw9qgKXQ2fy"
+    "spcpt_q8cCgPVKCNdZVRjj"
    ]
   },
   "qstnprt_mPSkT5X45ZsYrCWx": {
@@ -4285,10 +4461,15 @@
    "label": "qstn_H8RDsXbSJckrpjX3 / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_BrGBnpw9qgKXQ2fy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.1.1",
+     "official_code": "C12.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qgpvdftjQdWBTM6C": {
    "kind": "question_part",
@@ -4421,9 +4602,15 @@
    "label": "qstn_wBMmfqCNbZmHQk7P / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "separation-and-purification",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.1",
+     "official_code": "C12.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MVWqykYw7gj7Pwnb",
     "spcpt_KJMXNxfmMb7Tr2Rx"
    ]
   },
@@ -4467,10 +4654,15 @@
    "label": "qstn_7ct8J32pKZ6czF7Z / part 1",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "separation-and-purification",
-   "codes": [],
-   "pending": [
-    "spcpt_MVWqykYw7gj7Pwnb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.1",
+     "official_code": "C12.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qY3nJ3rw2fGyFkFY": {
    "kind": "question_part",
@@ -4519,11 +4711,15 @@
      "official_code": "C12.4.3",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.1",
+     "official_code": "C12.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_MVWqykYw7gj7Pwnb"
-   ]
+   "pending": []
   },
   "qstnprt_QVKXKG2j5HKxB2Qq": {
    "kind": "question_part",
@@ -4611,20 +4807,30 @@
    "label": "qstn_fNGqzPj5VY4tp9g6 / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "separation-and-purification",
-   "codes": [],
-   "pending": [
-    "spcpt_FKHGbMkzqQvCw6v4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.2",
+     "official_code": "C12.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v5Tyk9hY82kJbwP2": {
    "kind": "question_part",
    "label": "qstn_4s7WZMM56wrNZzMB / part 0",
    "section": "experimental-techniques-and-chemical-analysis",
    "topic": "separation-and-purification",
-   "codes": [],
-   "pending": [
-    "spcpt_MVWqykYw7gj7Pwnb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.3.1",
+     "official_code": "C12.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8cFyf2MQkSS5ybMV": {
    "kind": "question_part",
@@ -4825,11 +5031,15 @@
      "official_code": "C7.2.1",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "pending": []
   },
   "qstnprt_j89PxCGmvD6G6YxQ": {
    "kind": "question_part",
@@ -4875,31 +5085,45 @@
      "official_code": "C9.2.1",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.2",
+     "official_code": "C9.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_T3Bh5jRhtCTmNdFP"
-   ]
+   "pending": []
   },
   "qstnprt_RWwzyShy3FVkYCCq": {
    "kind": "question_part",
    "label": "qstn_mJzppHHqRwjNJMXk / part 0",
    "section": "metals",
    "topic": "properties-uses-and-alloys-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VdQFDCfSSYWsQ3dt": {
    "kind": "question_part",
    "label": "qstn_Fr3nh9ZnKjqqNZSB / part 0",
    "section": "metals",
    "topic": "properties-uses-and-alloys-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hpGNsN5X4nKCZ6Vs": {
    "kind": "question_part",
@@ -4957,10 +5181,15 @@
    "label": "qstn_Qyhf2Pkc5PCjdjfD / part 0",
    "section": "metals",
    "topic": "properties-uses-and-alloys-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_K829gVMPcrCS7Wy2": {
    "kind": "question_part",
@@ -4973,12 +5202,21 @@
      "official_code": "C7.2.1",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C8.4.1",
+     "official_code": "C8.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_RkYBbqPhS3wfPJd6",
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "pending": []
   },
   "qstnprt_vj9cXG9D6nKDkcMB": {
    "kind": "question_part",
@@ -5123,10 +5361,15 @@
    "label": "qstn_gnnGX6rsxV8dpNnM / part 0",
    "section": "metals",
    "topic": "properties-uses-and-alloys-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_KHxS6rsDcDm6rMFN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C9.1.1",
+     "official_code": "C9.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RHcmCxxvp27mmDNV": {
    "kind": "question_part",
@@ -5697,10 +5940,15 @@
    "label": "qstn_JRF4G87kKTvfX558 / part 0",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
-   "pending": [
-    "spcpt_cT9dYW2GvFrMCxwF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s4jQt5GTRHfYvnWQ": {
    "kind": "question_part",
@@ -5759,30 +6007,45 @@
    "label": "qstn_HnYgtPpZbpQkRc8x / part 0",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
-   "pending": [
-    "spcpt_cT9dYW2GvFrMCxwF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ngKtZdKYdMbwRcgX": {
    "kind": "question_part",
    "label": "qstn_DNCTM8BPtJ5RyFzD / part 0",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
-   "pending": [
-    "spcpt_cT9dYW2GvFrMCxwF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2tNtwBgCpn3Ypwc5": {
    "kind": "question_part",
    "label": "qstn_dKB8Cs7vwdN3dVKn / part 0",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
-   "pending": [
-    "spcpt_cT9dYW2GvFrMCxwF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9BK2DR3zp9cBZSB3": {
    "kind": "question_part",
@@ -5819,100 +6082,151 @@
    "label": "qstn_3NHMHgkrMVsTcBB5 / part 0",
    "section": "organic-chemistry",
    "topic": "organic-families",
-   "codes": [],
-   "pending": [
-    "spcpt_cT9dYW2GvFrMCxwF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.3.5",
+     "official_code": "C11.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZcptyrYVRKdFBrZQ": {
    "kind": "question_part",
    "label": "qstn_VKz5rqZ7n49B4xvS / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WwF7GhmVjdntB9wj": {
    "kind": "question_part",
    "label": "qstn_TdYzgdS7QnfGCvFT / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GCG58zY6sRpk6bQB": {
    "kind": "question_part",
    "label": "qstn_SvkbW3PkJTG7FzJN / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VmdySrygNvQPKFNr": {
    "kind": "question_part",
    "label": "qstn_P8g6FX4z8WCbp59X / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8MbBh84jDNfyWR3Y": {
    "kind": "question_part",
    "label": "qstn_KZVbnJKqztWzPkRh / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pyzqVqCKthm6Mf2G": {
    "kind": "question_part",
    "label": "qstn_kgSbqr9C6kgc2QYY / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CC9w9fFQqgp8b4t2": {
    "kind": "question_part",
    "label": "qstn_9PpdmWXxZtMJVw7x / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8Cdqq9HHVFvdHM8t": {
    "kind": "question_part",
    "label": "qstn_9PpdmWXxZtMJVw7x / part 1",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Yk7gjHjFWcRDqyg8": {
    "kind": "question_part",
    "label": "qstn_NJSnJHsk4hqQQzHb / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_mYgXZ43zVVZsSVhT",
-    "spcpt_2bJt3GttVgDkfKwK"
+    "spcpt_mYgXZ43zVVZsSVhT"
    ]
   },
   "qstnprt_GDjvJzvtdX3n5kjg": {
@@ -5920,10 +6234,15 @@
    "label": "qstn_hntm58t2cDrBsqbp / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YtMFgrbq4mdWWNJc": {
    "kind": "question_part",
@@ -5940,31 +6259,51 @@
    "label": "qstn_dDCZYMbBTYYvW2Bc / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BNPHc6d2SscV9r3X": {
    "kind": "question_part",
    "label": "qstn_8y8zg945sNBGph44 / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_f4jwBMSSfP8vTPxP",
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Drk3DDNdyNq2MGTr": {
    "kind": "question_part",
    "label": "qstn_yvrf8ps7r6vBhvyT / part 0",
    "section": "organic-chemistry",
    "topic": "polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_2bJt3GttVgDkfKwK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C11.7.3",
+     "official_code": "C11.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8TfsZ88H42Yj5cFH": {
    "kind": "question_part",
@@ -6802,10 +7141,15 @@
    "label": "qstn_KCfcGq67xh2CtJc3 / part 0",
    "section": "the-periodic-table",
    "topic": "group-properties-and-trends",
-   "codes": [],
-   "pending": [
-    "spcpt_RkYBbqPhS3wfPJd6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C8.4.1",
+     "official_code": "C8.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8pjR667bXnbRH2Q8": {
    "kind": "question_part",

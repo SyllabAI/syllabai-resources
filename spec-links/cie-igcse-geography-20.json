@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-geography-2025-2026",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 689,
-  "items_with_codes": 340,
+  "items_with_codes": 478,
   "by_kind": {
    "notes": 69,
    "question_parts": 620,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 36,
-   "question_parts": 304,
+   "notes": 52,
+   "question_parts": 426,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 791,
   "universe_ids": 115,
   "universe_resolved": 43,
-  "pending_refs": 528,
-  "flashcards_discovered_uncoded": 676
+  "pending_refs": 317,
+  "flashcards_discovered_uncoded": 676,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 36,
+   "resolved_refs": 211,
+   "by_rule": {
+    "J1_definition_text_identity": 28,
+    "J2_definition_phrase_identity": 4,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 4
+   },
+   "ambiguous_pairs": 0,
+   "pending_refs": 317,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_kjx4w9GKjbmpK5q7": {
@@ -55,11 +86,16 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_CdT9NwDVVD3yFcVb",
     "spcpt_DyqmRcvxr3xk2cSw"
    ]
   },
@@ -68,10 +104,21 @@
    "label": "Population Change | Cambridge (CIE) IGCSE Geography Revision Notes 2018",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq",
-    "spcpt_y4vXnGMH7vqCZCf3",
     "spcpt_9w56YywDBX6nZGP8",
     "spcpt_R3qYQ6WhQfBjdCxF"
    ]
@@ -81,10 +128,15 @@
    "label": "Managing the Population IGCSE Geography Revision Notes",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_x9GtttH7fq8rVcdQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.5",
+     "official_code": "1.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_W3g6wXJzT6w9rHBK": {
    "kind": "note",
@@ -108,11 +160,17 @@
    "label": "Effects of Migration IGCSE Geography Revision Notes",
    "section": "1-population-and-settlement",
    "topic": "1-2-migration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.2.4",
+     "official_code": "1.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_y97FzwwzXPxsd2cx",
-    "spcpt_3Dq25bHHPBfQbKyC",
-    "spcpt_bJ9rTm39yKb8GN73"
+    "spcpt_3Dq25bHHPBfQbKyC"
    ]
   },
   "rn_BSKBnqZpRVCZbJ6W": {
@@ -126,11 +184,15 @@
      "official_code": "1.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_HqQj4MRdf2wXr65F"
-   ]
+   "pending": []
   },
   "rn_VMD2vm6WxndpVWgf": {
    "kind": "note",
@@ -143,12 +205,21 @@
      "official_code": "1.4.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.4.3",
+     "official_code": "1.4.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_6vRDryMR7STFdw8f",
-    "spcpt_yKvKQMJDnJ9hhrm2"
-   ]
+   "pending": []
   },
   "rn_XDq8VZ7M8YBRF9sW": {
    "kind": "note",
@@ -191,11 +262,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "rn_xdCtBSks3dF2hP6R": {
    "kind": "note",
@@ -240,31 +315,51 @@
    "label": "Urban Growth and Sprawl IGCSE Geography Revision Notes",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_q29dQWPKDBhj8Sr3": {
    "kind": "note",
    "label": "Impacts of Urban Growth | Cambridge (CIE) IGCSE Geography Revision Notes 2018",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_CSH94QND8jgpPzsZ": {
    "kind": "note",
    "label": "Solutions to Impacts of Urban Growth | Cambridge (CIE) IGCSE Geography Revision Notes 2018",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_jGG2Wgg7mvwkjD8r",
-    "spcpt_rr8PqVXXvTsybVQ9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.4",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_763XcDmW2kGPcfBC": {
    "kind": "note",
@@ -329,22 +424,42 @@
    "label": "Opportunities Living in Hazardous Places IGCSE Geography",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_yFkVfFRJMjhfgcM6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_yKC6TksDkyrs6dnk": {
    "kind": "note",
    "label": "Short & Long Term Responses to Earthquakes IGCSE Geography",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_HTGtGdw39xkpvRZK",
-    "spcpt_cscf8XM63GBP8m82",
-    "spcpt_XpwzDRfFncFvGbYG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.8",
+     "official_code": "2.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_p9cjNS9kY7CKztcC": {
    "kind": "note",
@@ -376,10 +491,15 @@
    "label": "River Processes Geography IGCSE - Revision Notes",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_qHrKKtXq7tNMbFvK": {
    "kind": "note",
@@ -396,21 +516,36 @@
    "label": "River Hazards & Opportunities | Cambridge (CIE) IGCSE Geography Revision Notes 2018",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_8WJD7XsxFyDKqnY7": {
    "kind": "note",
    "label": "River Ganges Flooding Case Study IGCSE - Revision Notes",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_YqGkp7k5rdkVXw42": {
    "kind": "note",
@@ -482,11 +617,15 @@
      "official_code": "2.3.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.3.7",
+     "official_code": "2.3.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_KMWn6PjDc5ZmcDFr"
-   ]
+   "pending": []
   },
   "rn_DtNP3cQv5TKTCSj4": {
    "kind": "note",
@@ -566,12 +705,27 @@
    "label": "Causes of Deforestation in Malaysia IGCSE - Revision Notes",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr",
-    "spcpt_825NyWTDw2rrcRjY",
-    "spcpt_fCH7pcrFRrQxJsg7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.7",
+     "official_code": "2.5.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.8",
+     "official_code": "2.5.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_xMxmvWXXZPtWp8vY": {
    "kind": "note",
@@ -644,11 +798,15 @@
      "official_code": "3.1.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "pending": []
   },
   "rn_4NNXtbBthbsrdDWy": {
    "kind": "note",
@@ -661,11 +819,15 @@
      "official_code": "3.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_QdCwR4YSXdq2QT25"
-   ]
+   "pending": []
   },
   "rn_sKTtgSNTWy22hxJG": {
    "kind": "note",
@@ -678,11 +840,15 @@
      "official_code": "3.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GBrWZQ8VPpngW3Nj"
-   ]
+   "pending": []
   },
   "rn_KJjqv5fHhKvbhFyf": {
    "kind": "note",
@@ -710,11 +876,15 @@
      "official_code": "3.3.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_6F3QD7683JSGsmy8"
-   ]
+   "pending": []
   },
   "rn_jtfmhNM9VFhG82CX": {
    "kind": "note",
@@ -757,11 +927,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "rn_9pd9wFXFp99TKHXN": {
    "kind": "note",
@@ -793,10 +967,16 @@
    "label": "Nuclear Energy & Fuelwood | Cambridge (CIE) IGCSE Geography Revision Notes 2018",
    "section": "3-economic-development",
    "topic": "3-5-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jZgSjP5z5XNzTmm3",
-    "spcpt_q657vFsdzDg9K9QG"
+    "spcpt_jZgSjP5z5XNzTmm3"
    ]
   },
   "rn_GsmC5dpV42rS2B92": {
@@ -825,11 +1005,15 @@
      "official_code": "3.6.2",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.6.4",
+     "official_code": "3.6.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_cvszhD9Zr5yzpmCP"
-   ]
+   "pending": []
   },
   "rn_sWH7M6K9V3zhmQ8n": {
    "kind": "note",
@@ -851,31 +1035,51 @@
    "label": "Natural & Human Causes of Climate Change IGCSE Geography",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_XCb3TDMsncsmCFff": {
    "kind": "note",
    "label": "Types of Pollution IGCSE Geography Revision Notes",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_4HgSJJJzY9SCpJMY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Ytt3BhQ2PGCDY6vb": {
    "kind": "note",
    "label": "What is Resource Conservation in  IGCSE Geography Revision",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_XhgwsrWtMW27wG9F",
-    "spcpt_xVKCxWHmzHxbS49r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_JS75qN5v8StrJz3G": {
    "kind": "note",
@@ -988,30 +1192,45 @@
    "label": "qstn_nFNJMQ7vyz6QDMV2 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_x9GtttH7fq8rVcdQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.5",
+     "official_code": "1.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2CykV3kP7T5hxPh3": {
    "kind": "question_part",
    "label": "qstn_nbmMJ7MMmsW73ZrV / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_x9GtttH7fq8rVcdQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.5",
+     "official_code": "1.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cxtvBHGfX3TjhSBF": {
    "kind": "question_part",
    "label": "qstn_kykB8dpKYd6NvrxD / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_HqQj4MRdf2wXr65F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jt5HyXfwMYkZSQFv": {
    "kind": "question_part",
@@ -1039,51 +1258,82 @@
    "label": "qstn_Gg5tdDjntr5mxXc9 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_x9GtttH7fq8rVcdQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.5",
+     "official_code": "1.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6Dc7Vbh3rvXyV5z8": {
    "kind": "question_part",
    "label": "qstn_Wd3kwQpWXM8fhsrr / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_CdT9NwDVVD3yFcVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NvkJX2NG3XCtKjF6": {
    "kind": "question_part",
    "label": "qstn_R6s79wpb77DXM6kY / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_x9GtttH7fq8rVcdQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.5",
+     "official_code": "1.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PWpMSJT5jz342qNz": {
    "kind": "question_part",
    "label": "qstn_GsvNxTxwnP8TYMh3 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq",
-    "spcpt_CdT9NwDVVD3yFcVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R3bcs7jmfsHRVz5R": {
    "kind": "question_part",
    "label": "qstn_wMTB2nx8qWbYhkq2 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_CdT9NwDVVD3yFcVb"
+    "spcpt_VHpRfbYkKTj5JwDJ"
    ]
   },
   "qstnprt_zP9GvsCqS7kgJpGr": {
@@ -1091,20 +1341,30 @@
    "label": "qstn_9bc9kTwkW5YzCWjz / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kbr2Cj94jZkCnDyp": {
    "kind": "question_part",
    "label": "qstn_zZMqRsysKjTwJQSw / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nbm6wt5wMFKyY2bD": {
    "kind": "question_part",
@@ -1131,10 +1391,15 @@
    "label": "qstn_zBvXS999yt887cMS / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7M5zfzZmbsTN6XCR": {
    "kind": "question_part",
@@ -1162,11 +1427,16 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_dmRCn8H6YCZmhjWq"
+    "spcpt_VHpRfbYkKTj5JwDJ"
    ]
   },
   "qstnprt_gcf9PKhV74mbHKKJ": {
@@ -1194,70 +1464,105 @@
    "label": "qstn_2hY6JvWcDqY5k4jN / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wgCJZqhQwthnMz5G": {
    "kind": "question_part",
    "label": "qstn_WjG7wQSPQg4K2BSC / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WQvWVtXHRxkVbF9k": {
    "kind": "question_part",
    "label": "qstn_wF2wptQYPFbs9k5R / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bgCfq8y4fdFjh6Wy": {
    "kind": "question_part",
    "label": "qstn_wF2wptQYPFbs9k5R / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Zq4zRzM3xjVPDYR4": {
    "kind": "question_part",
    "label": "qstn_cf6dyx9dKgznQXBg / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gqDyQbpwcTPnVsX6": {
    "kind": "question_part",
    "label": "qstn_cf6dyx9dKgznQXBg / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_phHmpZkbQdbn2jdh": {
    "kind": "question_part",
    "label": "qstn_SrJTpvjq4xPKXJ3s / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4VFhHQn8BjBXz9kB": {
    "kind": "question_part",
@@ -1285,11 +1590,16 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_dmRCn8H6YCZmhjWq"
+    "spcpt_VHpRfbYkKTj5JwDJ"
    ]
   },
   "qstnprt_jNS5hcVCgcDQJVbH": {
@@ -1297,10 +1607,15 @@
    "label": "qstn_gZZB3s5d2M6Zmc7f / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZPSmpzFzhQdnSdcd": {
    "kind": "question_part",
@@ -1317,71 +1632,107 @@
    "label": "qstn_5KCsXJKV8JF42Z7v / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sxFbNb4K5fxcNGsn": {
    "kind": "question_part",
    "label": "qstn_WNQY8Xvt4P6XFhx2 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mtRRH66m6Q4xsjgY": {
    "kind": "question_part",
    "label": "qstn_JmzH86r8V8F86jwq / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qMmRZQdh4ZnndjRP": {
    "kind": "question_part",
    "label": "qstn_JmzH86r8V8F86jwq / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CqNG6XXzCN7Pg8W2": {
    "kind": "question_part",
    "label": "qstn_JmzH86r8V8F86jwq / part 2",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M5TX6hwD2nkYPqQd": {
    "kind": "question_part",
    "label": "qstn_Sbdtr8xgCtptPKpj / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_96qw4NZXvdqWMt6y": {
    "kind": "question_part",
    "label": "qstn_cXvJgc2ZHbssqJbv / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_DyqmRcvxr3xk2cSw",
-    "spcpt_CdT9NwDVVD3yFcVb"
+    "spcpt_DyqmRcvxr3xk2cSw"
    ]
   },
   "qstnprt_ZKNqNXpFnz2BGGzM": {
@@ -1389,11 +1740,17 @@
    "label": "qstn_cXvJgc2ZHbssqJbv / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_DyqmRcvxr3xk2cSw",
-    "spcpt_CdT9NwDVVD3yFcVb"
+    "spcpt_DyqmRcvxr3xk2cSw"
    ]
   },
   "qstnprt_3GxGm32j4QXCv77x": {
@@ -1412,10 +1769,16 @@
    "label": "qstn_cXvJgc2ZHbssqJbv / part 3",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VHpRfbYkKTj5JwDJ",
-    "spcpt_CdT9NwDVVD3yFcVb"
+    "spcpt_VHpRfbYkKTj5JwDJ"
    ]
   },
   "qstnprt_QvXqRRc7hjr5t8dN": {
@@ -1423,50 +1786,75 @@
    "label": "qstn_Rq65DtzDbcQpwHc8 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jQprgcq93WbRP9SN": {
    "kind": "question_part",
    "label": "qstn_Rq65DtzDbcQpwHc8 / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sh52K6hZtdSrJGKG": {
    "kind": "question_part",
    "label": "qstn_Rq65DtzDbcQpwHc8 / part 2",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rHdRgHbTTPW9MXWn": {
    "kind": "question_part",
    "label": "qstn_DySSq393JBzgXnVn / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PVK4wrkmB47793NH": {
    "kind": "question_part",
    "label": "qstn_DySSq393JBzgXnVn / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-1-population-dynamics",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cvrD48pKhpswy22K": {
    "kind": "question_part",
@@ -1572,11 +1960,15 @@
      "official_code": "1.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.2.4",
+     "official_code": "1.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_bJ9rTm39yKb8GN73"
-   ]
+   "pending": []
   },
   "qstnprt_y8G52hRRttqGQwTK": {
    "kind": "question_part",
@@ -2239,11 +2631,16 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_Xn2ym5TDKMCYbRQN",
-    "spcpt_dmRCn8H6YCZmhjWq"
+    "spcpt_Xn2ym5TDKMCYbRQN"
    ]
   },
   "qstnprt_vBTCyskV9JChQZtz": {
@@ -2461,10 +2858,15 @@
    "label": "qstn_4NnvmZDrBWmBsqMb / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-4-population-density-and-distribution",
-   "codes": [],
-   "pending": [
-    "spcpt_6vRDryMR7STFdw8f"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.4.3",
+     "official_code": "1.4.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ytTV2d4RXsZBN8Mw": {
    "kind": "question_part",
@@ -2693,11 +3095,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "qstnprt_Fwvk9yN4KpfV5mn2": {
    "kind": "question_part",
@@ -2766,11 +3172,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "qstnprt_78tm3RQ2RJQnb9XY": {
    "kind": "question_part",
@@ -2783,11 +3193,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "qstnprt_v8ZNyKnjg6f2zgwY": {
    "kind": "question_part",
@@ -2800,11 +3214,15 @@
      "official_code": "1.5.2",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "qstnprt_p44zcbpNQ29fF92w": {
    "kind": "question_part",
@@ -2817,21 +3235,36 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GqNnjdjNrxCQ455f"
-   ]
+   "pending": []
   },
   "qstnprt_vHXHB22YJBSb8Vzv": {
    "kind": "question_part",
    "label": "qstn_4SPsNd3vPjnHVd5m / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-5-settlements-and-service-provision",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.4",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rr8PqVXXvTsybVQ9",
-    "spcpt_GqNnjdjNrxCQ455f",
     "spcpt_ghyrwhWxdwwV34vv"
    ]
   },
@@ -3420,10 +3853,15 @@
    "label": "qstn_R64STGrXG92B7gdR / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-6-urban-settlements",
-   "codes": [],
-   "pending": [
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3yKX8fNxdWxHsJjY": {
    "kind": "question_part",
@@ -3496,10 +3934,15 @@
    "label": "qstn_hsWNBC558vQtW5TG / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-6-urban-settlements",
-   "codes": [],
-   "pending": [
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7RXwPbBwQSjM59M7": {
    "kind": "question_part",
@@ -3596,103 +4039,168 @@
    "label": "qstn_KwvRSQRHy29NhRG7 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kz8yV7gF8snqfxNv": {
    "kind": "question_part",
    "label": "qstn_qHb6rw8QJRtPtvPn / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nTFgxRFhcKq4rHRP": {
    "kind": "question_part",
    "label": "qstn_zwVttBX72n5CNwqM / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ",
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xN6z2DZTvJzRMqtS": {
    "kind": "question_part",
    "label": "qstn_XGGNr2xBJsWb5b4z / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tTcCyYdGTBB5GVGm": {
    "kind": "question_part",
    "label": "qstn_XGGNr2xBJsWb5b4z / part 1",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gQjRDswhwbH8nYvY": {
    "kind": "question_part",
    "label": "qstn_XGGNr2xBJsWb5b4z / part 2",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hdM4yhyyJjchRcww": {
    "kind": "question_part",
    "label": "qstn_yMKBhy72FjC25cqy / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_rr8PqVXXvTsybVQ9",
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.4",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CYpFnZRfbzG9MySH": {
    "kind": "question_part",
    "label": "qstn_rgxK7kRqpWbN35tS / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t9SC626xzFXpvxtP": {
    "kind": "question_part",
    "label": "qstn_R9s8YhQ93ZKp93dh / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_rr8PqVXXvTsybVQ9",
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.4",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KJP2Ym28hkDKdMSr": {
    "kind": "question_part",
    "label": "qstn_22hp2kbfpXywGxtq / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YYK36YmC2gh9mW8D": {
    "kind": "question_part",
@@ -3709,21 +4217,37 @@
    "label": "qstn_XG9rw43tqXX7X8CW / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hs9SZ9FmVT8P7wPV": {
    "kind": "question_part",
    "label": "qstn_njCFmfYTDD83kPPC / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ",
-    "spcpt_Xn2ym5TDKMCYbRQN",
-    "spcpt_4gkcqwXssjsyfnXh"
+    "spcpt_Xn2ym5TDKMCYbRQN"
    ]
   },
   "qstnprt_TmQkGz3snPNPWQVD": {
@@ -3731,69 +4255,105 @@
    "label": "qstn_dff5MyJHbcCVXNzm / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_jGG2Wgg7mvwkjD8r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4WwTsPhW3PZRK6zz": {
    "kind": "question_part",
    "label": "qstn_Bb48FvDPQSYYZ8vN / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_f9xJhvX4S7kc2wX3": {
    "kind": "question_part",
    "label": "qstn_45B4F9gbtMzxJ3Wn / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nqy9BBtFxK5PNnBx": {
    "kind": "question_part",
    "label": "qstn_qbGPWdPtdY8y72HD / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_4gkcqwXssjsyfnXh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_465bV7wMCGr54Kfc": {
    "kind": "question_part",
    "label": "qstn_G3Bz7f76MFDGf55Z / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wJythPTyNCv9XdHv": {
    "kind": "question_part",
    "label": "qstn_2SVhRWPFjS2B5Hx7 / part 0",
    "section": "1-population-and-settlement",
    "topic": "1-7-urbanisation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rKZ3PjjdSwcFwVZ9": {
    "kind": "question_part",
    "label": "qstn_ytqJ96ZFRyHzRffz / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.8",
+     "official_code": "2.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_XpwzDRfFncFvGbYG",
     "spcpt_BTN2Wc5zh63HGW8D"
    ]
   },
@@ -3802,20 +4362,30 @@
    "label": "qstn_VKZCqSs9w5n83D99 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_yFkVfFRJMjhfgcM6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cnHyRkkcDpXcyG9z": {
    "kind": "question_part",
    "label": "qstn_SsS9qrvvtFHFr2KT / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_q657vFsdzDg9K9QG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BXjFrH7xPt78k3f2": {
    "kind": "question_part",
@@ -3855,10 +4425,15 @@
      "official_code": "2.1.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_q657vFsdzDg9K9QG",
     "spcpt_BTN2Wc5zh63HGW8D"
    ]
   },
@@ -3982,10 +4557,21 @@
    "label": "qstn_MSkHstKKdsvXzn4R / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_HTGtGdw39xkpvRZK",
-    "spcpt_yFkVfFRJMjhfgcM6",
     "spcpt_97MrZc3T4RWcSBgD"
    ]
   },
@@ -4073,10 +4659,15 @@
    "label": "qstn_zyWrFmwRnSpgX4p3 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
-   "pending": [
-    "spcpt_yFkVfFRJMjhfgcM6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HmzXV8PxBp4xjfdb": {
    "kind": "question_part",
@@ -4136,9 +4727,15 @@
    "label": "qstn_N6VMTyG5KwBpVVqs / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_HTGtGdw39xkpvRZK",
     "spcpt_97MrZc3T4RWcSBgD"
    ]
   },
@@ -4147,9 +4744,15 @@
    "label": "qstn_csrDzQtrcwM9gdpv / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yFkVfFRJMjhfgcM6",
     "spcpt_97MrZc3T4RWcSBgD"
    ]
   },
@@ -4175,10 +4778,21 @@
    "label": "qstn_7ZyKTHCFkTxFWtqG / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_HTGtGdw39xkpvRZK",
-    "spcpt_yFkVfFRJMjhfgcM6",
     "spcpt_97MrZc3T4RWcSBgD"
    ]
   },
@@ -4187,9 +4801,15 @@
    "label": "qstn_7srsJHrHSrSjZVn5 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-1-earthquakes-and-volcanoes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.1.4",
+     "official_code": "2.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yFkVfFRJMjhfgcM6",
     "spcpt_97MrZc3T4RWcSBgD"
    ]
   },
@@ -4213,19 +4833,30 @@
    "label": "qstn_zVqdfZ6hSTMwvwpY / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MhVMXQd3JbqHnHVt": {
    "kind": "question_part",
    "label": "qstn_mtnpZ94bC9FMvzN2 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
     "spcpt_2jyvH2mhGccVkf8P"
    ]
   },
@@ -4234,10 +4865,15 @@
    "label": "qstn_n5DNf5KgW8P63W7d / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YBMMGQpb5pmdDMdp": {
    "kind": "question_part",
@@ -4264,20 +4900,30 @@
    "label": "qstn_YGXyX9Bb9wwRZvmc / part 1",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7MS67rjNmcY2FSrD": {
    "kind": "question_part",
    "label": "qstn_YGXyX9Bb9wwRZvmc / part 2",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZRqHpcMyw9j3b5Rx": {
    "kind": "question_part",
@@ -4290,55 +4936,99 @@
      "official_code": "2.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "pending": []
   },
   "qstnprt_qbvMqRbb234YrdTg": {
    "kind": "question_part",
    "label": "qstn_Rms67sz8MZYHn3xN / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ds3DS9GkwV2HpSh6": {
    "kind": "question_part",
    "label": "qstn_rMjwqwgBYFt6FByb / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd",
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CBj9g2ySQ8bpYs8P": {
    "kind": "question_part",
    "label": "qstn_q7br5DPYwc5jFCF5 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd",
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_63qhMGcWp4rd9hhP": {
    "kind": "question_part",
    "label": "qstn_Gvpn9bGsBYzmnqMt / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_52Y5fYXqWvhzQvJK": {
    "kind": "question_part",
@@ -4355,10 +5045,15 @@
    "label": "qstn_DrVvn3rMnbFwmmk5 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_czKJVC6KZRvRB7kX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.7",
+     "official_code": "2.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2MGkMVFhs6b23R4z": {
    "kind": "question_part",
@@ -4375,19 +5070,30 @@
    "label": "qstn_cqSSj6nf9HrPVFwf / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2tPxsWBwV8Xw3bcS": {
    "kind": "question_part",
    "label": "qstn_bTn3kbpdfggGq6H4 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_BcWT97ThjZGDRV6N"
    ]
   },
@@ -4396,10 +5102,15 @@
    "label": "qstn_z8NXtggskQSyKyKy / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qcgjgym7YVmTVqwB": {
    "kind": "question_part",
@@ -4416,19 +5127,30 @@
    "label": "qstn_X9nCNpcqcgQqGznh / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dzzdZzCjgPtxgc7h": {
    "kind": "question_part",
    "label": "qstn_VCJ5NZcmGRKN5Q9k / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_BcWT97ThjZGDRV6N"
    ]
   },
@@ -4437,20 +5159,30 @@
    "label": "qstn_t7cJbJx4ts83wGz5 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z58xqRrmBTfy9p9w": {
    "kind": "question_part",
    "label": "qstn_p3jFmHngNq3JW5Nv / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xxb9Zk3mds5pcxn9": {
    "kind": "question_part",
@@ -4463,22 +5195,36 @@
      "official_code": "2.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "pending": []
   },
   "qstnprt_q3J8CHkF2GczhsrD": {
    "kind": "question_part",
    "label": "qstn_n226TZqDBwMMSYCb / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
-    "spcpt_dTTjSvxP7VtdPQCd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ScjW5R93kKrmdkng": {
    "kind": "question_part",
@@ -4525,9 +5271,15 @@
    "label": "qstn_7dsqrvJ9BHsGfBhp / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_BcWT97ThjZGDRV6N"
    ]
   },
@@ -4570,41 +5322,66 @@
    "label": "qstn_ZmQPxqQktxSbxPhv / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qVcHvvXphbgcpGww": {
    "kind": "question_part",
    "label": "qstn_zMpdZ2RhtpT83W9s / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CSfz5yHRB3wHDdCj": {
    "kind": "question_part",
    "label": "qstn_YZpQSD8rM9z6sBGg / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd",
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BtCx8MQG3RxMnFjr": {
    "kind": "question_part",
    "label": "qstn_XCF6xmZf2m87XvqR / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zrssYVQwm3jKBZVH": {
    "kind": "question_part",
@@ -4631,19 +5408,30 @@
    "label": "qstn_nMJymW4FVnx4TFvG / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vM6CxwDvhpSTwHPV": {
    "kind": "question_part",
    "label": "qstn_hXMV9CWR83j4zG7g / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_BcWT97ThjZGDRV6N"
    ]
   },
@@ -4652,10 +5440,15 @@
    "label": "qstn_Hh27F8SWVwBj7JM8 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_dTTjSvxP7VtdPQCd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6sFVy6hbTDzXyXGd": {
    "kind": "question_part",
@@ -4668,41 +5461,66 @@
      "official_code": "2.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "pending": []
   },
   "qstnprt_vQ8KYvFpyD6WP8pZ": {
    "kind": "question_part",
    "label": "qstn_CzPXHc7BgQG2bqt3 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_MVH27VfhHwp5D5QT",
-    "spcpt_dTTjSvxP7VtdPQCd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.5",
+     "official_code": "2.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bNK9wM9fRc5vxY8N": {
    "kind": "question_part",
    "label": "qstn_chzZYk22km75QXBs / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
-   "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RWWHzjhdR5p8twRq": {
    "kind": "question_part",
    "label": "qstn_bZQcv3NCPkgzXRVG / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_2jyvH2mhGccVkf8P"
    ]
   },
@@ -4721,9 +5539,15 @@
    "label": "qstn_2YzXfBCJ6gdb7KJs / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-2-rivers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zZXj3p6kGzKpfp4x",
     "spcpt_BcWT97ThjZGDRV6N"
    ]
   },
@@ -4732,10 +5556,15 @@
    "label": "qstn_zSYp8NqS3tmDjxF8 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-3-coasts",
-   "codes": [],
-   "pending": [
-    "spcpt_KMWn6PjDc5ZmcDFr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.3.7",
+     "official_code": "2.3.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CMTqRZC7CJtkNSb2": {
    "kind": "question_part",
@@ -5461,33 +6290,63 @@
    "label": "qstn_TdbpwXVNFXbTTVVK / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr",
-    "spcpt_825NyWTDw2rrcRjY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.7",
+     "official_code": "2.5.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P7CPRyHGdnGtJhjh": {
    "kind": "question_part",
    "label": "qstn_SCN7wHS7RgQSSpsR / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr",
-    "spcpt_825NyWTDw2rrcRjY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.7",
+     "official_code": "2.5.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PDJRZYSYpZxTWk8j": {
    "kind": "question_part",
    "label": "qstn_hW3BxFPmXKxKVYwR / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr",
-    "spcpt_825NyWTDw2rrcRjY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.7",
+     "official_code": "2.5.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tDKS3FkYf9CFnsxk": {
    "kind": "question_part",
@@ -5500,12 +6359,21 @@
      "official_code": "3.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.7",
+     "official_code": "2.5.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr",
-    "spcpt_825NyWTDw2rrcRjY"
-   ]
+   "pending": []
   },
   "qstnprt_9kZdVCz4bxMYrJM9": {
    "kind": "question_part",
@@ -5523,10 +6391,15 @@
    "label": "qstn_SRz5DPvNVfZvTZh9 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PKnNWNHz49PP5Pr9": {
    "kind": "question_part",
@@ -5568,10 +6441,15 @@
    "label": "qstn_G4D5Xkfw5n4Mx35P / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FfBjWzrk2KVvQvHC": {
    "kind": "question_part",
@@ -5612,20 +6490,30 @@
    "label": "qstn_36s22r2MX8NhFDbq / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_k4K9wpWZWdNqdpg5": {
    "kind": "question_part",
    "label": "qstn_y8GFjY66mMVbsNG4 / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ws23gRyNFnWqSkRT": {
    "kind": "question_part",
@@ -5685,10 +6573,15 @@
    "label": "qstn_kmJTtZQnkB2gVdGC / part 0",
    "section": "2-the-natural-environment",
    "topic": "2-5-climate-and-natural-vegetation",
-   "codes": [],
-   "pending": [
-    "spcpt_GdRTMDNyrzVj8kqr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:2.5.5",
+     "official_code": "2.5.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M5gRJw5wB2ynKZ9d": {
    "kind": "question_part",
@@ -5732,10 +6625,15 @@
    "label": "qstn_tVMzVYkwHQR9xsbf / part 0",
    "section": "3-economic-development",
    "topic": "3-1-development",
-   "codes": [],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5mtHwJhhjvmsyy8s": {
    "kind": "question_part",
@@ -5748,11 +6646,15 @@
      "official_code": "3.1.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "pending": []
   },
   "qstnprt_JphVrcbmmCpzH5Vd": {
    "kind": "question_part",
@@ -5765,31 +6667,45 @@
      "official_code": "3.1.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "pending": []
   },
   "qstnprt_TWKJ6yfQfPxQV5jS": {
    "kind": "question_part",
    "label": "qstn_4h67NHTgYsBH8XVw / part 0",
    "section": "3-economic-development",
    "topic": "3-1-development",
-   "codes": [],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VCvPJWPKsTwjXdkM": {
    "kind": "question_part",
    "label": "qstn_37V4KmWq9dGfhR5k / part 0",
    "section": "3-economic-development",
    "topic": "3-1-development",
-   "codes": [],
-   "pending": [
-    "spcpt_PmRpS8HbJmvFngz7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.1.7",
+     "official_code": "3.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BBsmR5CHYWww2htf": {
    "kind": "question_part",
@@ -6200,11 +7116,15 @@
      "official_code": "3.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_QdCwR4YSXdq2QT25"
-   ]
+   "pending": []
   },
   "qstnprt_9B8dtzdscchrCPBX": {
    "kind": "question_part",
@@ -6217,11 +7137,15 @@
      "official_code": "3.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GBrWZQ8VPpngW3Nj"
-   ]
+   "pending": []
   },
   "qstnprt_wQVj7dPW8HywSF9H": {
    "kind": "question_part",
@@ -6234,11 +7158,15 @@
      "official_code": "3.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GBrWZQ8VPpngW3Nj"
-   ]
+   "pending": []
   },
   "qstnprt_J3RYS7mvVWrpQmhw": {
    "kind": "question_part",
@@ -6251,11 +7179,15 @@
      "official_code": "3.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GBrWZQ8VPpngW3Nj"
-   ]
+   "pending": []
   },
   "qstnprt_WT3dSYKDHzPf2b9f": {
    "kind": "question_part",
@@ -6283,11 +7215,15 @@
      "official_code": "3.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_GBrWZQ8VPpngW3Nj"
-   ]
+   "pending": []
   },
   "qstnprt_FJMt5vb4h3r4pBtc": {
    "kind": "question_part",
@@ -6510,11 +7446,15 @@
      "official_code": "3.3.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_6F3QD7683JSGsmy8"
-   ]
+   "pending": []
   },
   "qstnprt_sXfH3ppGKcpQgn3V": {
    "kind": "question_part",
@@ -6548,11 +7488,15 @@
      "official_code": "3.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "pending": []
   },
   "qstnprt_Gxw86Mjndp6M9Mfs": {
    "kind": "question_part",
@@ -6655,11 +7599,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "qstnprt_Wqc7THVp54GN3zB2": {
    "kind": "question_part",
@@ -6672,11 +7620,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "qstnprt_p675r6YtPxgXvS2V": {
    "kind": "question_part",
@@ -6689,11 +7641,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "qstnprt_zNNTHBByB6ywsyVR": {
    "kind": "question_part",
@@ -6706,11 +7662,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "qstnprt_b9qJMZ7d7hFjSfFG": {
    "kind": "question_part",
@@ -6723,11 +7683,15 @@
      "official_code": "3.4.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zVb5kRpgK7Kb3hQJ"
-   ]
+   "pending": []
   },
   "qstnprt_yCM6WnmZ8gGh7fRz": {
    "kind": "question_part",
@@ -6962,10 +7926,15 @@
      "official_code": "3.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_q657vFsdzDg9K9QG",
     "spcpt_jZgSjP5z5XNzTmm3",
     "spcpt_5B5C8xDKPC4whV57"
    ]
@@ -6975,10 +7944,15 @@
    "label": "qstn_qWhBKgmZRHC5NfCf / part 0",
    "section": "3-economic-development",
    "topic": "3-5-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_q657vFsdzDg9K9QG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_26rmYM69Pgj6nNBy": {
    "kind": "question_part",
@@ -6991,10 +7965,15 @@
      "official_code": "3.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_q657vFsdzDg9K9QG",
     "spcpt_jZgSjP5z5XNzTmm3",
     "spcpt_5B5C8xDKPC4whV57"
    ]
@@ -7014,10 +7993,15 @@
    "label": "qstn_H6qjZsrvrNGvDWvB / part 0",
    "section": "3-economic-development",
    "topic": "3-5-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_q657vFsdzDg9K9QG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rT6xtQSp3w2ztkCm": {
    "kind": "question_part",
@@ -7302,30 +8286,45 @@
    "label": "qstn_Tk4gjqK9W6PX2pvV / part 0",
    "section": "3-economic-development",
    "topic": "3-6-water",
-   "codes": [],
-   "pending": [
-    "spcpt_cvszhD9Zr5yzpmCP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.6.4",
+     "official_code": "3.6.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DGWSVw9jvjnd7r4R": {
    "kind": "question_part",
    "label": "qstn_jDbkrNSrCc3BTF44 / part 0",
    "section": "3-economic-development",
    "topic": "3-6-water",
-   "codes": [],
-   "pending": [
-    "spcpt_cvszhD9Zr5yzpmCP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.6.4",
+     "official_code": "3.6.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zBR4zTKrz8mdG2tS": {
    "kind": "question_part",
    "label": "qstn_GwyXyZNqkNFKRvgP / part 0",
    "section": "3-economic-development",
    "topic": "3-6-water",
-   "codes": [],
-   "pending": [
-    "spcpt_cvszhD9Zr5yzpmCP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.6.4",
+     "official_code": "3.6.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WVktf58nbD5jD2wf": {
    "kind": "question_part",
@@ -7470,20 +8469,30 @@
    "label": "qstn_XQqSj3bJgYtFhWdV / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bKJPzfWD5KBzmK8t": {
    "kind": "question_part",
    "label": "qstn_4tRrBPcCstJWBChV / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GkwFVNfmZVBnqWft": {
    "kind": "question_part",
@@ -7505,10 +8514,15 @@
    "label": "qstn_VFC7VGcqxXGhCGGD / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_XhgwsrWtMW27wG9F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vChr7DSpYQBFXvSx": {
    "kind": "question_part",
@@ -7523,10 +8537,7 @@
      "method": "cie_definition_text_join"
     }
    ],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn",
-    "spcpt_4HgSJJJzY9SCpJMY"
-   ]
+   "pending": []
   },
   "qstnprt_3PbMXxm5Hn7SQwDf": {
    "kind": "question_part",
@@ -7548,20 +8559,30 @@
    "label": "qstn_rp6WsQd8RYrtHhPy / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CRb2TjhvjF94Vrrm": {
    "kind": "question_part",
    "label": "qstn_Nhm9n3JJJ2dZ2rM8 / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_27cGJSZnvY9Z4w9f": {
    "kind": "question_part",
@@ -7591,10 +8612,7 @@
      "method": "cie_definition_text_join"
     }
    ],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn",
-    "spcpt_4HgSJJJzY9SCpJMY"
-   ]
+   "pending": []
   },
   "qstnprt_thpb8Jqbxxf5RYrb": {
    "kind": "question_part",
@@ -7616,40 +8634,60 @@
    "label": "qstn_gyfMW2RgRhvgTF5X / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_4HgSJJJzY9SCpJMY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RDsMhKwfwNhkJPSN": {
    "kind": "question_part",
    "label": "qstn_gT8VPZ6qwTZgnTVm / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NV2TTPdKDW76VsTt": {
    "kind": "question_part",
    "label": "qstn_gHK9SMrfWgvRfvHP / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_XhgwsrWtMW27wG9F"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vpXgvfqPBkD4G8Wj": {
    "kind": "question_part",
    "label": "qstn_6mJDHkJ4NpkGmsqk / part 0",
    "section": "3-economic-development",
    "topic": "3-7-environmental-risks-of-economic-activity",
-   "codes": [],
-   "pending": [
-    "spcpt_fSywvbvGJYWH3bHn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ykckmm23vGrxQdJT": {
    "kind": "question_part",
@@ -8232,10 +9270,15 @@
    "label": "qstn_gcvJmMkNGDfS3BP8 / part 1",
    "section": "4-geographical-skills",
    "topic": "4-1-geographical-skills",
-   "codes": [],
-   "pending": [
-    "spcpt_dmRCn8H6YCZmhjWq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rYqWDNGwD573J34S": {
    "kind": "question_part",
@@ -8934,10 +9977,15 @@
    "label": "qstn_gdDXfsD5G4H9sgP6 / part 0",
    "section": "5-fieldwork",
    "topic": "5-1-fieldwork",
-   "codes": [],
-   "pending": [
-    "spcpt_m6brKwBGRGkqWZCJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_GEOGRAPHY_2025_2026:1.7.1",
+     "official_code": "1.7.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dcr7PPFSzGfNyhSd": {
    "kind": "question_part",

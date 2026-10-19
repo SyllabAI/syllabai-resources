@@ -29,6 +29,22 @@
     "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
    },
    "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
   }
  },
  "registry": {
@@ -38,14 +54,14 @@
  },
  "totals": {
   "items": 159,
-  "items_with_codes": 55,
+  "items_with_codes": 56,
   "by_kind": {
    "notes": 159,
    "question_parts": 0,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 55,
+   "notes": 56,
    "question_parts": 0,
    "flashcards": 0
   }
@@ -54,8 +70,8 @@
   "notes": 507,
   "parts": 0,
   "universe_ids": 507,
-  "universe_resolved": 78,
-  "pending_refs": 429,
+  "universe_resolved": 79,
+  "pending_refs": 428,
   "flashcards_discovered_uncoded": 0,
   "verdict": {
    "lane": "T-SPECS-CIE-VERDICT-1",
@@ -77,6 +93,21 @@
     "no_unique_identity": 300
    },
    "dangling_eq_refs_pending": 0
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 1,
+   "resolved_refs": 1,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 1,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 0
+   },
+   "ambiguous_pairs": 0,
+   "pending_refs": 428,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
   }
  },
  "items": {
@@ -1628,11 +1659,17 @@
    "label": "Functions & characteristics of money - CIE A Level Economics",
    "section": "the-macroeconomy",
    "topic": "money-and-banking-a-level",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ECONOMICS_2023_2025:9.4.1",
+     "official_code": "9.4.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_BPyk2JhDBfgt68vC",
-    "spcpt_47CmK8YKd7xRP9Gm",
-    "spcpt_6dKzk3nPX5G4hk6z"
+    "spcpt_47CmK8YKd7xRP9Gm"
    ]
   },
   "rn_53jFxVwD8HDhypp4": {

@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-science-combined-science-2023-2024",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 132,
-  "items_with_codes": 1,
+  "items_with_codes": 24,
   "by_kind": {
    "notes": 84,
    "question_parts": 48,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 1,
-   "question_parts": 0,
+   "notes": 16,
+   "question_parts": 8,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 54,
   "universe_ids": 156,
   "universe_resolved": 2,
-  "pending_refs": 208,
-  "flashcards_discovered_uncoded": 0
+  "pending_refs": 184,
+  "flashcards_discovered_uncoded": 0,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 15,
+   "resolved_refs": 24,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 15
+   },
+   "ambiguous_pairs": 13,
+   "pending_refs": 184,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_cWr7JbYcWCtR2TzW": {
@@ -49,9 +80,15 @@
    "label": "Circuit Diagrams & Circuit Components | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "electricity-magnetism",
    "topic": "electric-circuits-safety",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qTVhTzBYXCgmYZDv",
     "spcpt_SKGzv5fT4tnS28zm"
    ]
   },
@@ -85,10 +122,15 @@
    "label": "Electrical Hazards | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "electricity-magnetism",
    "topic": "electric-circuits-safety",
-   "codes": [],
-   "pending": [
-    "spcpt_B6KvyDQCYQdX8jmJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.4.1",
+     "official_code": "P6.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_2SQtqJkMxsKB4TSV": {
    "kind": "note",
@@ -143,20 +185,30 @@
    "label": "Electric Charge | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "electricity-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_p3Zjz7dmyvYv2qD7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.1",
+     "official_code": "P5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_7qMTvPwYqpHcKyMR": {
    "kind": "note",
    "label": "Electrical Conductors & Insulators | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "electricity-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_hvsRC3nF3SByzvTV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.5",
+     "official_code": "P5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_hYrfxqVMXKg2Rrc9": {
    "kind": "note",
@@ -328,10 +380,16 @@
    "label": "Energy from Water | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.4.2",
+     "official_code": "P2.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_JHTSXV648T9G7tDK",
-    "spcpt_jHPjKGJzsd2v7tdx"
+    "spcpt_JHTSXV648T9G7tDK"
    ]
   },
   "rn_qry4sxspBS7bZFmq": {
@@ -360,20 +418,30 @@
    "label": "Gravitational Potential Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
-   "pending": [
-    "spcpt_hT4c2P6W7Gk6NrsS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.4",
+     "official_code": "P2.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_55kDpRz7T3rXzmSW": {
    "kind": "note",
    "label": "Kinetic Energy | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
-   "pending": [
-    "spcpt_QP6vmVdwGWPkpNkv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.2",
+     "official_code": "P2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_gRKVcSqtwDPQnzBm": {
    "kind": "note",
@@ -390,9 +458,15 @@
    "label": "Power | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.1",
+     "official_code": "P2.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_FyQT8r7Q7w8bhDBP",
     "spcpt_7Rykpm3QJVXFkrjp"
    ]
   },
@@ -432,9 +506,15 @@
    "label": "Mass & Weight | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "mass-weight-density",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.3.1",
+     "official_code": "P1.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MxW6JjKz5yXGz6xB",
     "spcpt_gx4BRGtJctzvqc2t",
     "spcpt_2SRwybGpCvRzP6XV"
    ]
@@ -508,10 +588,16 @@
    "label": "Speed | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "motion-forces-energy",
    "topic": "motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.2.1",
+     "official_code": "P1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_f3yNDtM7NSZwKBQ9",
-    "spcpt_N9n9t9V8HZXb8jHD"
+    "spcpt_f3yNDtM7NSZwKBQ9"
    ]
   },
   "rn_CWpt2pwqVtHPgDN3": {
@@ -690,9 +776,15 @@
    "label": "Evaporation | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "thermal-physics",
    "topic": "thermal-properties-temperature",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P3.1.2",
+     "official_code": "P3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_gMN7cdsYxB3tb2QF",
     "spcpt_ZMxNwMpptsCYfw8k",
     "spcpt_W3CDG8rpR9MrX6T3"
    ]
@@ -806,11 +898,17 @@
    "label": "Electromagnetic Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "waves",
    "topic": "electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.3.3",
+     "official_code": "P4.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_HscKkfwBt9RMXGq6",
-    "spcpt_gdP7tPHvVZxmMQKP",
-    "spcpt_tF9ckTw4TvMQPzkv"
+    "spcpt_gdP7tPHvVZxmMQKP"
    ]
   },
   "rn_wywbbwmkbQ43bjfc": {
@@ -818,10 +916,16 @@
    "label": "Features of Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.2",
+     "official_code": "P4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_ZDs3hdFsF6ZyDxCQ",
-    "spcpt_SxRD7xMYpP93MjXs",
     "spcpt_WQw9C8XpZQMwMVKK"
    ]
   },
@@ -830,10 +934,16 @@
    "label": "Transverse & Longitudinal Waves | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_RNwqJJ7kcQ8CWPtw",
-    "spcpt_g6W3ZnxPpYF5C4g2"
+    "spcpt_RNwqJJ7kcQ8CWPtw"
    ]
   },
   "rn_hHQyVYBTJP8MVBwV": {
@@ -905,11 +1015,17 @@
    "label": "Reflection of Light | Cambridge (CIE) IGCSE Combined Science Revision Notes 2023",
    "section": "waves",
    "topic": "light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.2.1",
+     "official_code": "P4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_6cmmF9QcFZCFTMRh",
     "spcpt_KBnvFxFFVWzgGRDZ",
-    "spcpt_Cgp9Dvs4jCPy8KzM",
     "spcpt_FXRwpXmk9S55ZPdm"
    ]
   },
@@ -982,10 +1098,16 @@
    "label": "qstn_TyzSvmvqSspGy8hH / part 0",
    "section": "electricity-magnetism",
    "topic": "electric-circuits-safety",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_xTYKS8TmfZnzN5QT",
-    "spcpt_qTVhTzBYXCgmYZDv"
+    "spcpt_xTYKS8TmfZnzN5QT"
    ]
   },
   "qstnprt_WG6qQ92d7bXvn7vG": {
@@ -993,10 +1115,15 @@
    "label": "qstn_yfJVtzWGYH5SGPTz / part 0",
    "section": "electricity-magnetism",
    "topic": "electric-circuits-safety",
-   "codes": [],
-   "pending": [
-    "spcpt_B6KvyDQCYQdX8jmJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.4.1",
+     "official_code": "P6.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w8MM66Yg7MJw4qpR": {
    "kind": "question_part",
@@ -1013,10 +1140,15 @@
    "label": "qstn_smB6N44S5wcggtHC / part 0",
    "section": "electricity-magnetism",
    "topic": "electric-circuits-safety",
-   "codes": [],
-   "pending": [
-    "spcpt_qTVhTzBYXCgmYZDv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P6.1.1",
+     "official_code": "P6.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hFS2mt5nyJFMGDZw": {
    "kind": "question_part",
@@ -1033,10 +1165,15 @@
    "label": "qstn_yfTy3MTdpzxr7szz / part 0",
    "section": "electricity-magnetism",
    "topic": "electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_hvsRC3nF3SByzvTV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P5.1.5",
+     "official_code": "P5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D7Nkr5BPCSFpKvXy": {
    "kind": "question_part",
@@ -1104,10 +1241,15 @@
    "label": "qstn_8cY4YFsSvdNFn5kg / part 0",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
-   "pending": [
-    "spcpt_hT4c2P6W7Gk6NrsS"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.2.4",
+     "official_code": "P2.2.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Gy6NjF2mrqqnnCSK": {
    "kind": "question_part",
@@ -1255,12 +1397,23 @@
    "label": "qstn_w3S3wwTVWQVRSGrF / part 0",
    "section": "motion-forces-energy",
    "topic": "motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.3.3",
+     "official_code": "P4.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P1.2.1",
+     "official_code": "P1.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_tF9ckTw4TvMQPzkv",
     "spcpt_gx4BRGtJctzvqc2t",
-    "spcpt_Bf9RMnVKGkWbZK4k",
-    "spcpt_N9n9t9V8HZXb8jHD"
+    "spcpt_Bf9RMnVKGkWbZK4k"
    ]
   },
   "qstnprt_HbyRqjm7nk7fr527": {
@@ -1408,20 +1561,30 @@
    "label": "qstn_FbHsjCwPFDX5p6kY / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_g6W3ZnxPpYF5C4g2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WBTjHK5x9jRsGKFZ": {
    "kind": "question_part",
    "label": "qstn_8wqbmT7HQt5svp7b / part 0",
    "section": "waves",
    "topic": "general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_g6W3ZnxPpYF5C4g2"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P4.1.4",
+     "official_code": "P4.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_c48B4hfkb2f8CMR5": {
    "kind": "question_part",

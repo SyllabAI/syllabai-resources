@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-economics-2023-2025",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 555,
-  "items_with_codes": 25,
+  "items_with_codes": 114,
   "by_kind": {
    "notes": 62,
    "question_parts": 493,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 6,
-   "question_parts": 19,
+   "notes": 18,
+   "question_parts": 96,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 533,
   "universe_ids": 126,
   "universe_resolved": 7,
-  "pending_refs": 633,
-  "flashcards_discovered_uncoded": 836
+  "pending_refs": 536,
+  "flashcards_discovered_uncoded": 836,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 18,
+   "resolved_refs": 97,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 13,
+    "J4_name_phrase_identity": 5
+   },
+   "ambiguous_pairs": 3,
+   "pending_refs": 536,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_99ym9dT7PG6wVMMD": {
@@ -49,11 +80,21 @@
    "label": "Scarcity - IGCSE Economics Revision Notes",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4",
-    "spcpt_HTWCKhjtTnmP5qrz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_9qXVsnyM5sCdKbKq": {
    "kind": "note",
@@ -88,10 +129,16 @@
    "label": "PPC & Economic Growth - IGCSE Economics Revision Notes",
    "section": "1-the-basic-economic-problem",
    "topic": "1-4-production-possibility-curves",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_MDMw8fckjxbcGdDM",
-    "spcpt_gDhgN29HB3ZwdSTH"
+    "spcpt_MDMw8fckjxbcGdDM"
    ]
   },
   "rn_JsxqbdNXtFzygcqy": {
@@ -176,10 +223,21 @@
    "label": "Equilibrium & Disequilibrium IGCSE Economics Revision Notes",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SDsydYYvr66mjGxJ",
-    "spcpt_hP4SMwGX3PdzGj3r",
     "spcpt_5KcG9H3QS8sZNrc8"
    ]
   },
@@ -255,9 +313,15 @@
    "label": "Spending, Saving & Borrowing - IGCSE Economics Revision",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw",
     "spcpt_rGpZ5R2K5ZhZYXJy",
     "spcpt_s9GmFVS9cqbWGS5q"
    ]
@@ -427,10 +491,15 @@
    "label": "Objectives Of Firms - IGCSE Economics Revision Notes",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_F38FdzTKyFskTXkP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_xZSDdRQXWYFwTqKm": {
    "kind": "note",
@@ -477,12 +546,21 @@
      "official_code": "4.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.3",
+     "official_code": "4.3.3",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_JTzMwpwzGjV8Tbzv",
-    "spcpt_mDZ4pY2m79tB5WVw"
-   ]
+   "pending": []
   },
   "rn_tmGKDTZ2cvWhVqwH": {
    "kind": "note",
@@ -500,10 +578,16 @@
    "label": "Supply-Side Policy Measures - IGCSE Economics Revision Notes",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sxxCRd5x4sxXzFJn",
-    "spcpt_bQyRPPwyznxwFxzB"
+    "spcpt_sxxCRd5x4sxXzFJn"
    ]
   },
   "rn_xYY9KdcYPJ5m55HZ": {
@@ -523,9 +607,15 @@
    "label": "Causes & Consequences of Growth | Cambridge (CIE) IGCSE Economics Revision Notes 2018",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_BB9vb8njBwsdYRxs",
     "spcpt_qB6MKM4CynHnMDvh"
    ]
   },
@@ -573,10 +663,15 @@
    "label": "Types Of Unemployment - IGCSE Economics Revision Notes",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Qbk8gmFd6THgCH3V": {
    "kind": "note",
@@ -604,11 +699,21 @@
    "label": "Causes Of Poverty - IGCSE Economics Revision Notes",
    "section": "5-economic-development",
    "topic": "5-2-poverty",
-   "codes": [],
-   "pending": [
-    "spcpt_6y2w4Zd5sVnwjKJ3",
-    "spcpt_smdjywH48H5H9nG8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_QZP2yZwGCZdChRqK": {
    "kind": "note",
@@ -625,9 +730,15 @@
    "label": "Population Growth - IGCSE Economics Revision Notes",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC",
     "spcpt_rYSZgBk5RQf7QTrj"
    ]
   },
@@ -686,20 +797,36 @@
    "label": "Free Trade - IGCSE Economics Revision Notes",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_7mMxmBYCqSnkGNbB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.3",
+     "official_code": "6.2.3",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_nZWpWChrYTJ5DckY": {
    "kind": "note",
    "label": "Protection - IGCSE Economics Revision Notes",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_bQgRkxKCdr2V8V8w",
-    "spcpt_nqVbNZpzYm6Bj7tK",
     "spcpt_zjPFj9QmpVfmCxj6"
    ]
   },
@@ -767,50 +894,75 @@
    "label": "qstn_ygWyHQjXn47MVfWZ / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RjMGyhS4RyN964Tt": {
    "kind": "question_part",
    "label": "qstn_k8vYfqjktfckRVXJ / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gPbg7TJsMhk3gstK": {
    "kind": "question_part",
    "label": "qstn_d4sVjPDCx2wpWR53 / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8XrM9nYbM5dcv8mp": {
    "kind": "question_part",
    "label": "qstn_cwDh2c2Tnb3nxxBr / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z6Gh98Dqy6TSGXjT": {
    "kind": "question_part",
    "label": "qstn_tR9dHvZkxcj2RgMw / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Vck2mnD5N5CXDNTS": {
    "kind": "question_part",
@@ -823,21 +975,30 @@
      "official_code": "1.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "pending": []
   },
   "qstnprt_5s9MckW4MFX2wXxN": {
    "kind": "question_part",
    "label": "qstn_G9Kv3PWnfZhZDKm3 / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-1-the-nature-of-the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bcbrjYYRx5SNVDt7": {
    "kind": "question_part",
@@ -850,11 +1011,15 @@
      "official_code": "1.3.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_xDqvKZX9TyDBmhm4"
-   ]
+   "pending": []
   },
   "qstnprt_dHcw7b2r4cSqJ559": {
    "kind": "question_part",
@@ -1096,20 +1261,30 @@
    "label": "qstn_VTsG8d9jvvnBDbwc / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-4-production-possibility-curves",
-   "codes": [],
-   "pending": [
-    "spcpt_gDhgN29HB3ZwdSTH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mDdKqbfhFrmmwhMJ": {
    "kind": "question_part",
    "label": "qstn_DPb4DmTSgd9WB3WC / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-4-production-possibility-curves",
-   "codes": [],
-   "pending": [
-    "spcpt_gDhgN29HB3ZwdSTH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BJkJXQ7ssczXXFVh": {
    "kind": "question_part",
@@ -1206,10 +1381,15 @@
    "label": "qstn_KWfxTdkgFDmrPfJY / part 0",
    "section": "1-the-basic-economic-problem",
    "topic": "1-4-production-possibility-curves",
-   "codes": [],
-   "pending": [
-    "spcpt_gDhgN29HB3ZwdSTH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cv7M3SrjS2BQmNq7": {
    "kind": "question_part",
@@ -1844,10 +2024,15 @@
    "label": "qstn_kc3TW32nDWfssh82 / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-3-demand",
-   "codes": [],
-   "pending": [
-    "spcpt_HTWCKhjtTnmP5qrz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VcMbNgJbWxm4bM9y": {
    "kind": "question_part",
@@ -2064,140 +2249,210 @@
    "label": "qstn_ydH4sFScbrRj7SQb / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XQwPcjmqmkk5GRMp": {
    "kind": "question_part",
    "label": "qstn_x3F8XCMzw4BgGwv9 / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TyGyR5HTKDgMGrnG": {
    "kind": "question_part",
    "label": "qstn_NwMgFjZWSgHydtQj / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nJWswjWRVZMHdJky": {
    "kind": "question_part",
    "label": "qstn_7hzxT2W3r5mVSwhZ / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nxbQbwW9RDh5SKgT": {
    "kind": "question_part",
    "label": "qstn_63JMrGjVn96hCYYQ / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cFmZ7bPhpF2k9B2W": {
    "kind": "question_part",
    "label": "qstn_XVzRP8gxStms3x8g / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_SDsydYYvr66mjGxJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xpvWj6xvkHXb5mKS": {
    "kind": "question_part",
    "label": "qstn_gdM4fW8St8GX3hSV / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_SDsydYYvr66mjGxJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WXYNnZ2zqN3F3CBq": {
    "kind": "question_part",
    "label": "qstn_cJS5w2RHqRCCJHFS / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XSjjyzQR2xw663dK": {
    "kind": "question_part",
    "label": "qstn_2TJjbKGt8bcNgvqf / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3fQQR4mzBqmHQbFY": {
    "kind": "question_part",
    "label": "qstn_YSKjt7VrXgNkJMK7 / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cZ8GpCKxk7DqSJmm": {
    "kind": "question_part",
    "label": "qstn_VfPrWk7f87ccBCp7 / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fwwKVgC6xxTJsvJn": {
    "kind": "question_part",
    "label": "qstn_NHDkXdxkW7VgGsXk / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_SDsydYYvr66mjGxJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kKzk8Ck4gtw8mjSw": {
    "kind": "question_part",
    "label": "qstn_MnNHKvyTNhxqHDWq / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pR2H5YNdgFqtSKkw": {
    "kind": "question_part",
    "label": "qstn_mCvdw2NzRDM4zwjp / part 0",
    "section": "2-the-allocation-of-resources",
    "topic": "2-5-price-determination",
-   "codes": [],
-   "pending": [
-    "spcpt_hP4SMwGX3PdzGj3r"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:2.5.2",
+     "official_code": "2.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VTtzscwsFyG2VPrC": {
    "kind": "question_part",
@@ -2846,10 +3101,15 @@
    "label": "qstn_v2hr6ghNSmQ6mq55 / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JVxvnbD6Qb7TyjgQ": {
    "kind": "question_part",
@@ -2866,20 +3126,30 @@
    "label": "qstn_q3Zxzp5khdbt2S5y / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_twHQcnxVPP7BPqRw": {
    "kind": "question_part",
    "label": "qstn_KQNXWnHsFkxpF7KS / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8BSb9KXdVWMfWNXM": {
    "kind": "question_part",
@@ -2937,10 +3207,15 @@
    "label": "qstn_8fTvmyHXsnck28PW / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6tBtVKKVPyYX89TJ": {
    "kind": "question_part",
@@ -2957,10 +3232,15 @@
    "label": "qstn_wjbrPkQ39dXZvRnN / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XXq2dvpG6XyMs2kD": {
    "kind": "question_part",
@@ -2987,10 +3267,15 @@
    "label": "qstn_6JrnDhsHTd2jgTyS / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-2-households",
-   "codes": [],
-   "pending": [
-    "spcpt_jfrPs4J4Fn9f7Cbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zpMQ9XdRQX5Pk8VC": {
    "kind": "question_part",
@@ -3639,10 +3924,16 @@
    "label": "qstn_mcNsZgNgg8x96XrB / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_nS9RxWthxNHnwBtY",
-    "spcpt_F38FdzTKyFskTXkP"
+    "spcpt_nS9RxWthxNHnwBtY"
    ]
   },
   "qstnprt_7P2q6Grg7RyBGwgQ": {
@@ -3660,10 +3951,16 @@
    "label": "qstn_DZ8Y5p8wx53gfvkn / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_nS9RxWthxNHnwBtY",
-    "spcpt_F38FdzTKyFskTXkP"
+    "spcpt_nS9RxWthxNHnwBtY"
    ]
   },
   "qstnprt_tkSNC7BtHYyKYfCP": {
@@ -3671,20 +3968,30 @@
    "label": "qstn_DnBwkc682bzkmzRn / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_F38FdzTKyFskTXkP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3FSd9Y5PysHcn7Jh": {
    "kind": "question_part",
    "label": "qstn_87gXjGd9WwpqdtSK / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_F38FdzTKyFskTXkP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jD2X5wySj9JyX7Gc": {
    "kind": "question_part",
@@ -3814,10 +4121,16 @@
    "label": "qstn_FnG6P2xHftVXGbTT / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_nS9RxWthxNHnwBtY",
-    "spcpt_F38FdzTKyFskTXkP"
+    "spcpt_nS9RxWthxNHnwBtY"
    ]
   },
   "qstnprt_XFprRTYRRt8kvqRh": {
@@ -3825,10 +4138,15 @@
    "label": "qstn_2nvjWMNnxNdkBGfP / part 0",
    "section": "3-microeconomic-decision-makers",
    "topic": "3-7-firms-costs-revenue-and-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_F38FdzTKyFskTXkP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YPyntdG6gHYNzxWx": {
    "kind": "question_part",
@@ -4076,9 +4394,15 @@
    "label": "qstn_WhvXV9r84KQBmxS5 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-1-the-role-of-government",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_JTzMwpwzGjV8Tbzv",
     "spcpt_dsmf7Rn9pYCY3TVb"
    ]
   },
@@ -4457,10 +4781,15 @@
    "label": "qstn_CNzMnMBgTzVtpjbj / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-3-fiscal-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_JTzMwpwzGjV8Tbzv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.3.2",
+     "official_code": "4.3.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6Bgz8T82RSFbYsrT": {
    "kind": "question_part",
@@ -4600,30 +4929,45 @@
    "label": "qstn_tdpvD3Tn6Z5yFYT2 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DGKfMx7vdbCpm2PY": {
    "kind": "question_part",
    "label": "qstn_jCz94C3RyWjVVxrJ / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Pq2hzg2GZRzVfjDr": {
    "kind": "question_part",
    "label": "qstn_JCy857KFdccdMYPJ / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X3GQjjy3NzhJzr4T": {
    "kind": "question_part",
@@ -4640,10 +4984,15 @@
    "label": "qstn_TK7GJScDn5YMvy7G / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2cFRs25cwPTR8WN7": {
    "kind": "question_part",
@@ -4660,20 +5009,30 @@
    "label": "qstn_kWpR7dZdJBtQ5Pv5 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bYvR9QvS3sd8jky3": {
    "kind": "question_part",
    "label": "qstn_cFdVwBVkpsx5X3y6 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bzn43dZgSJKN6WwF": {
    "kind": "question_part",
@@ -4690,20 +5049,31 @@
    "label": "qstn_fnvKRbN4SqCYkGvd / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FZ9cKJQCyKKpYmvf": {
    "kind": "question_part",
    "label": "qstn_CWZXVxCCkYyCGXXp / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sxxCRd5x4sxXzFJn",
-    "spcpt_bQyRPPwyznxwFxzB"
+    "spcpt_sxxCRd5x4sxXzFJn"
    ]
   },
   "qstnprt_M4xWjh9wjBM9kt4P": {
@@ -4711,10 +5081,16 @@
    "label": "qstn_7YrhcMGzMcGrrYxp / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_JNtHJpJjMY8wJDDJ",
-    "spcpt_bQyRPPwyznxwFxzB"
+    "spcpt_JNtHJpJjMY8wJDDJ"
    ]
   },
   "qstnprt_65b4R8RYMM2chjvh": {
@@ -4722,10 +5098,15 @@
    "label": "qstn_4YCVVxzSVmS4BZgK / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-5-supply-side-policy",
-   "codes": [],
-   "pending": [
-    "spcpt_bQyRPPwyznxwFxzB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YqmT88PvDnncwW5C": {
    "kind": "question_part",
@@ -4743,10 +5124,16 @@
    "label": "qstn_xz2XfnwtBRMfBpSs / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_VktksYdnMZ2ZdSZ7",
-    "spcpt_BB9vb8njBwsdYRxs"
+    "spcpt_VktksYdnMZ2ZdSZ7"
    ]
   },
   "qstnprt_q9FMS6nB7zR98wVj": {
@@ -4765,10 +5152,16 @@
    "label": "qstn_s7yqpBtf7PSPCN8c / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qB6MKM4CynHnMDvh",
-    "spcpt_BB9vb8njBwsdYRxs"
+    "spcpt_qB6MKM4CynHnMDvh"
    ]
   },
   "qstnprt_tmgrV83J32THCkkx": {
@@ -4776,10 +5169,15 @@
    "label": "qstn_8cSgZmpbR8yxVGSH / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_BB9vb8njBwsdYRxs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y9jCCqWcm63tbKMF": {
    "kind": "question_part",
@@ -4796,20 +5194,31 @@
    "label": "qstn_JHQ7Rxq2wJSkDz3s / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_BB9vb8njBwsdYRxs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WvmmNdCpfCn6v4ZK": {
    "kind": "question_part",
    "label": "qstn_fTttGPrPmJMmd8YN / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wvCtX8bHrntHWkDz",
-    "spcpt_BB9vb8njBwsdYRxs"
+    "spcpt_wvCtX8bHrntHWkDz"
    ]
   },
   "qstnprt_ByYZwM63Y52CJSTF": {
@@ -4817,10 +5226,16 @@
    "label": "qstn_d5hCmT7CKMXtGkZD / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wvCtX8bHrntHWkDz",
-    "spcpt_BB9vb8njBwsdYRxs"
+    "spcpt_wvCtX8bHrntHWkDz"
    ]
   },
   "qstnprt_tWJXXfmVBGCMzWCZ": {
@@ -4859,10 +5274,15 @@
    "label": "qstn_hkkGmPV7TdK2qzsW / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
-   "pending": [
-    "spcpt_BB9vb8njBwsdYRxs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yStr4r4kdssy7F85": {
    "kind": "question_part",
@@ -4880,10 +5300,16 @@
    "label": "qstn_5BVyHydPbG6PxMCQ / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-6-economic-growth",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.6.4",
+     "official_code": "4.6.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_wvCtX8bHrntHWkDz",
-    "spcpt_BB9vb8njBwsdYRxs"
+    "spcpt_wvCtX8bHrntHWkDz"
    ]
   },
   "qstnprt_tNYV3bX3KszNNjVp": {
@@ -4921,30 +5347,45 @@
    "label": "qstn_9Ry3cNTKDmFKXqbG / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rx4gfTRsDHgVPjSy": {
    "kind": "question_part",
    "label": "qstn_3NzZgTbXD479d3Pp / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8swWmnDPxYv2m2yr": {
    "kind": "question_part",
    "label": "qstn_zBFdkdtKWy2kTvj3 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ksdkS9TYXCpm343y": {
    "kind": "question_part",
@@ -4966,10 +5407,15 @@
    "label": "qstn_NNbpYCyDQpSmp5yb / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_J2QNkkprmxXs6ZmH": {
    "kind": "question_part",
@@ -5001,20 +5447,30 @@
    "label": "qstn_XpjpfTpRBDgmQtp7 / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SF6pCpQZFx9hYqpG": {
    "kind": "question_part",
    "label": "qstn_NB4pcJ9kYKzyj4jh / part 0",
    "section": "4-government-and-the-macroeconomy",
    "topic": "4-7-employment-and-unemployment",
-   "codes": [],
-   "pending": [
-    "spcpt_QQTbRN3ChxzhTMmy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:4.7.4",
+     "official_code": "4.7.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_53j3NjZfrHQnpFBY": {
    "kind": "question_part",
@@ -5058,10 +5514,15 @@
    "label": "qstn_qCmcBtkx78vXmTqz / part 0",
    "section": "5-economic-development",
    "topic": "5-2-poverty",
-   "codes": [],
-   "pending": [
-    "spcpt_6y2w4Zd5sVnwjKJ3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SjBgH87mSRy2BJSC": {
    "kind": "question_part",
@@ -5098,10 +5559,15 @@
    "label": "qstn_2zY63jX6R3Pz6ygC / part 0",
    "section": "5-economic-development",
    "topic": "5-2-poverty",
-   "codes": [],
-   "pending": [
-    "spcpt_smdjywH48H5H9nG8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m5khhhDV4QKSP8Zh": {
    "kind": "question_part",
@@ -5138,20 +5604,30 @@
    "label": "qstn_3pD5Y7rhzfzyMBtd / part 0",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
-   "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MpG83ZSJhkmM7sSb": {
    "kind": "question_part",
    "label": "qstn_ymNgH7Z8d985W6px / part 0",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
-   "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Rp7bhqnR59WK9nnS": {
    "kind": "question_part",
@@ -5178,10 +5654,15 @@
    "label": "qstn_J4PJVsdn27mwNNtS / part 0",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
-   "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rhqzym777SWrDNCT": {
    "kind": "question_part",
@@ -5198,20 +5679,30 @@
    "label": "qstn_xbncPk4RJKfD8QX5 / part 0",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
-   "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yV2Q5fHh5zQVdsVb": {
    "kind": "question_part",
    "label": "qstn_dRCrf74yM9c2RMTY / part 0",
    "section": "5-economic-development",
    "topic": "5-3-population",
-   "codes": [],
-   "pending": [
-    "spcpt_rJH6k8RDY4cHb9fC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NFMXYrkcQQzWhDgP": {
    "kind": "question_part",
@@ -5498,20 +5989,31 @@
    "label": "qstn_Y9tgPGMYkW3ZgJQN / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_nqVbNZpzYm6Bj7tK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S5zn6nfTGQQKF6WG": {
    "kind": "question_part",
    "label": "qstn_wxgVB5bB9gYGnZ2X / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_zjPFj9QmpVfmCxj6",
-    "spcpt_nqVbNZpzYm6Bj7tK"
+    "spcpt_zjPFj9QmpVfmCxj6"
    ]
   },
   "qstnprt_RQw3zjsjBxXwrkZg": {
@@ -5519,10 +6021,15 @@
    "label": "qstn_tBs37CQsbDqnX2Rr / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_nqVbNZpzYm6Bj7tK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SVT8gJFdcMX9QVcJ": {
    "kind": "question_part",
@@ -5539,10 +6046,15 @@
    "label": "qstn_2DdF2PxcHM9zsX2r / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_nqVbNZpzYm6Bj7tK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pCt8cDGNPg7CG5Q7": {
    "kind": "question_part",
@@ -5564,40 +6076,60 @@
    "label": "qstn_qvs2VVMpdhNyJXMQ / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_nqVbNZpzYm6Bj7tK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_25YbFcvzHVj446Kr": {
    "kind": "question_part",
    "label": "qstn_bpHxnnrTnkvskP2Z / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_bQgRkxKCdr2V8V8w"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RfD6tfnMG273sNgp": {
    "kind": "question_part",
    "label": "qstn_8yqtxXK8xByYnjxP / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_bQgRkxKCdr2V8V8w"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.5",
+     "official_code": "6.2.5",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CYJmMq7twWVPyRbR": {
    "kind": "question_part",
    "label": "qstn_8wgSjjfwPPR67VyM / part 0",
    "section": "6-international-trade-and-globalisation",
    "topic": "6-2-globalisation-free-trade-and-protection",
-   "codes": [],
-   "pending": [
-    "spcpt_nqVbNZpzYm6Bj7tK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ECONOMICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NJ8Xp3t8VcWxDTzw": {
    "kind": "question_part",

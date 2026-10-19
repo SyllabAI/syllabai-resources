@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-business-2027-2029",
@@ -23,14 +39,14 @@
  },
  "totals": {
   "items": 589,
-  "items_with_codes": 17,
+  "items_with_codes": 18,
   "by_kind": {
    "notes": 20,
    "question_parts": 569,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 6,
+   "notes": 7,
    "question_parts": 11,
    "flashcards": 0
   }
@@ -40,8 +56,23 @@
   "parts": 776,
   "universe_ids": 51,
   "universe_resolved": 7,
-  "pending_refs": 809,
-  "flashcards_discovered_uncoded": 694
+  "pending_refs": 808,
+  "flashcards_discovered_uncoded": 694,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 1,
+   "resolved_refs": 1,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 1
+   },
+   "ambiguous_pairs": 2,
+   "pending_refs": 808,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_cNzkdr86ZbDGS4SH": {
@@ -69,11 +100,17 @@
    "label": "CIE IGCSE Business (0264) Skills you need to Demonstrate in Exam Answers",
    "section": "7-exam-technique",
    "topic": "7-2-business-exam-skills",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2027_2029:4.4.3",
+     "official_code": "4.4.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_hRxMHNgTWhsqHDhy",
     "spcpt_RVMTkkyKqdxTTWNn",
-    "spcpt_3DcQZ8HGBzNm9sYP",
     "spcpt_JCqTTJwxhWnpMd2t",
     "spcpt_Hjqh9Snhfvdkk9Ct"
    ]

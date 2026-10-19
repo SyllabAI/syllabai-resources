@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-physics-2023-2025",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 794,
-  "items_with_codes": 267,
+  "items_with_codes": 575,
   "by_kind": {
    "notes": 138,
    "question_parts": 656,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 53,
-   "question_parts": 214,
+   "notes": 108,
+   "question_parts": 467,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 759,
   "universe_ids": 303,
   "universe_resolved": 62,
-  "pending_refs": 778,
-  "flashcards_discovered_uncoded": 1125
+  "pending_refs": 348,
+  "flashcards_discovered_uncoded": 1125,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 134,
+   "resolved_refs": 430,
+   "by_rule": {
+    "J1_definition_text_identity": 98,
+    "J2_definition_phrase_identity": 21,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 15
+   },
+   "ambiguous_pairs": 14,
+   "pending_refs": 348,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_CWpt2pwqVtHPgDN3": {
@@ -55,21 +86,36 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn",
-    "spcpt_sm5YDY3mRJ2Jtqrf"
-   ]
+   "pending": []
   },
   "rn_JC9QG2wH4SPR9dnh": {
    "kind": "note",
    "label": "Scalars and Vectors - CIE IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.4",
+     "official_code": "1.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_V8tJXqzySzTZqxwB",
     "spcpt_2WhNPgHVtWYmTBhj"
    ]
   },
@@ -78,10 +124,15 @@
    "label": "Calculating with Vectors - CIE IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_fSr68tCctvBN4HFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_mgtBXMMpmBnWfpBf": {
    "kind": "note",
@@ -94,11 +145,15 @@
      "official_code": "1.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_68yMRrj8RbxfTKsx"
-   ]
+   "pending": []
   },
   "rn_Wv3B8R8wJ46H7d8C": {
    "kind": "note",
@@ -115,10 +170,16 @@
    "label": "Distance-time graphs - CIE IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.6",
+     "official_code": "1.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_8MV2gdtFB6mxfBF5",
-    "spcpt_kNSxpKtJntQYyhz4"
+    "spcpt_8MV2gdtFB6mxfBF5"
    ]
   },
   "rn_w3nxVrC8yWp4tVBc": {
@@ -132,11 +193,15 @@
      "official_code": "1.2.4",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "pending": []
   },
   "rn_D55kxbpm9Gf64snz": {
    "kind": "note",
@@ -149,21 +214,31 @@
      "official_code": "1.2.5",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.11",
+     "official_code": "1.2.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_Rg74tCrrqgmHNTzF"
-   ]
+   "pending": []
   },
   "rn_B9VcxBrZwGDTRz4j": {
    "kind": "note",
    "label": "Acceleration of free fall - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yRNGJt23ZpsHZYyQ",
-    "spcpt_Zm87xRNtF9pJkXhz"
+    "spcpt_yRNGJt23ZpsHZYyQ"
    ]
   },
   "rn_8QRNvp3bCd3gZy73": {
@@ -177,12 +252,17 @@
      "official_code": "1.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_vXjq49gFRbHhWGXT",
-    "spcpt_J9yrCG73TnZFxNn3",
-    "spcpt_FHkkvFJSBV8W8N2t"
+    "spcpt_J9yrCG73TnZFxNn3"
    ]
   },
   "rn_8fTm2Pdg8kHBgyJ9": {
@@ -200,62 +280,108 @@
    "label": "Measuring Density | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_QRNrWpqQGyHzDJ3x": {
    "kind": "note",
    "label": "Floating and sinking - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_WPjKWd2PgMMt8v2g",
-    "spcpt_CmXcMSFpxbH2K8Ff"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.3",
+     "official_code": "1.4.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.4",
+     "official_code": "1.4.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_qMC2wFqbBq4mWQw7": {
    "kind": "note",
    "label": "Resultant forces - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_32Y2qDf7nxhbCpPz",
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_PNBBK4nNdXj3hK88": {
    "kind": "note",
    "label": "Newton's First Law | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Z32k2hV8VpkngTwH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4",
+     "official_code": "1.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_dB2j6qbD9BnzVPkN": {
    "kind": "note",
    "label": "Newton's Second Law | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Stw8yCRrGmy3NqVj",
-    "spcpt_krRhjG8x5RkrtxZ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.11",
+     "official_code": "1.5.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_tVsXGYzD8vTkfVv2": {
    "kind": "note",
    "label": "Hooke's law practical - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.2",
+     "official_code": "1.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_pD3BKxMRw8hYRJ8t",
     "spcpt_NVVPSy3ZF55kg5S9"
    ]
   },
@@ -284,9 +410,15 @@
    "label": "Friction definition - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.6",
+     "official_code": "1.5.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SY2ZgYCPpHhYjxk2",
     "spcpt_cxHQNqr2qkwkjzrq"
    ]
   },
@@ -301,23 +433,42 @@
      "official_code": "1.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts",
-    "spcpt_ftGQP3vRVrRB6q9N"
-   ]
+   "pending": []
   },
   "rn_j8pkMr8BJkd2fnBX": {
    "kind": "note",
    "label": "Conditions for equilibrium - IGCSE Physics Revision Notes",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9",
-    "spcpt_pfCFb2CTWCBJrjQC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.6-dup2",
+     "official_code": "1.5.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_BcmJgYxNkNmmMXcy": {
    "kind": "note",
@@ -330,11 +481,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_XdRBnzgv7gtTFhty"
-   ]
+   "pending": []
   },
   "rn_TcqPds4BwpzQwYzd": {
    "kind": "note",
@@ -357,12 +512,21 @@
      "official_code": "1.6.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_2YBjgfm4yFkwPMGs",
-    "spcpt_QSbqXRhK5rry4H7q"
-   ]
+   "pending": []
   },
   "rn_574tz5qrr8S82FXz": {
    "kind": "note",
@@ -392,11 +556,15 @@
      "official_code": "1.7.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_rtZN57rysfDX3Kxf"
-   ]
+   "pending": []
   },
   "rn_Z4sSWmBD3BR3qMNG": {
    "kind": "note",
@@ -413,21 +581,36 @@
    "label": "Gravitational Potential Energy | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_9GnWRpcCnJ2nVN5x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.5",
+     "official_code": "1.7.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_kysVQ8cmCR4p9m2z": {
    "kind": "note",
    "label": "Conservation of Energy | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_TshxSpJ9wHZMgY8T",
-    "spcpt_Z6cJw4vBdjmzvSbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.6",
+     "official_code": "1.7.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_qDGVZBhB4stSkF4j": {
    "kind": "note",
@@ -456,9 +639,15 @@
    "label": "Efficiency | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.3-dup2",
+     "official_code": "1.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sDB7f6W4QxzMp4Zb",
     "spcpt_8Rgzjv5rbHHScDjZ",
     "spcpt_qJXW9gYpv4d4ZCTj"
    ]
@@ -468,13 +657,33 @@
    "label": "Energy from the Sun | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_t8hntfJ3m8TqbPCp",
-    "spcpt_dK57C8DTFV6qMYZ3",
-    "spcpt_QsDHvcMP7d9yjpc3",
-    "spcpt_FBDghY6Y53HSQYHC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.4-dup2",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Xxh9rQdRWHCZ6r79": {
    "kind": "note",
@@ -493,10 +702,16 @@
    "label": "Energy from Water | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_pHfT59JJw6sCyWPp",
-    "spcpt_CtKkYKM6zb9PbB5G"
+    "spcpt_pHfT59JJw6sCyWPp"
    ]
   },
   "rn_pxXKrwwWqR3dF6Xp": {
@@ -574,11 +789,15 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_PhGhPNYpHbYPjJ5j"
-   ]
+   "pending": []
   },
   "rn_jxNDg6GYZjpNNqzc": {
    "kind": "note",
@@ -591,12 +810,21 @@
      "official_code": "2.1.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.1-dup2",
+     "official_code": "2.1.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_TjcSfx6VN4j6scgF",
-    "spcpt_8kD6GRSYXgqkRbB7"
-   ]
+   "pending": []
   },
   "rn_KsMCD93TYsyNvw9w": {
    "kind": "note",
@@ -609,11 +837,15 @@
      "official_code": "2.1.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_9nwnT8Mv88RvSvMx"
-   ]
+   "pending": []
   },
   "rn_qx85mH53KvZfSTzF": {
    "kind": "note",
@@ -637,9 +869,15 @@
    "label": "Gases & Absolute Temperature | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "2-thermal-physics",
    "topic": "2-1-kinetic-particle-model-of-matter",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.2-dup3",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_B2pbhmtfPGrq9YMR",
     "spcpt_45XFyxVbJCBM32jz",
     "spcpt_8Gk474PRTcm9CcNG"
    ]
@@ -655,21 +893,36 @@
      "official_code": "2.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.3-dup2",
+     "official_code": "2.2.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_DPhgvnpzCzNVZcHh",
-    "spcpt_v6WJnzrZDymqsSyr"
-   ]
+   "pending": []
   },
   "rn_bhTB9SZwcMGmV669": {
    "kind": "note",
    "label": "Specific Heat Capacity | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup2",
+     "official_code": "2.2.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_nsnnmnRPbmMmXJrd",
     "spcpt_QPpqhjvk4RWnjdpG",
     "spcpt_qYwr6S5bMbBD2Drg"
    ]
@@ -679,22 +932,42 @@
    "label": "Investigating Specific Heat Capacity | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_x7T43ZQYHg9sZpyy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.4-dup2",
+     "official_code": "2.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_mD28hBv4JkJBmW3w": {
    "kind": "note",
    "label": "Melting and boiling point - IGCSE Physics Revision Notes",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_zN32VBT8XZHhS5QJ",
-    "spcpt_9kkYvqFDXhhjCjjB",
-    "spcpt_XpVdw7sx8Pz7D2dF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3",
+     "official_code": "2.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_MtQ4H9gj6QFrzwN3": {
    "kind": "note",
@@ -740,12 +1013,21 @@
      "official_code": "2.3.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3-dup2",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_KPnyNjwzYHSHdm3m",
-    "spcpt_69833gw5hjZWdJHD"
-   ]
+   "pending": []
   },
   "rn_XsBSgZ5R6yZFFznd": {
    "kind": "note",
@@ -763,12 +1045,23 @@
    "label": "Radiation - IGCSE Physics Revision Notes",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.5",
+     "official_code": "2.3.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_h4v9pvr9HyNMC2Mm",
-    "spcpt_vXBb2PPxkhDS66zk",
-    "spcpt_cdGGnMGwnZm3m8Vm",
-    "spcpt_bXFk6WFVNy3KvTbF"
+    "spcpt_cdGGnMGwnZm3m8Vm"
    ]
   },
   "rn_Ds78fTWJQH2GbdJk": {
@@ -776,10 +1069,15 @@
    "label": "Greenhouse effect - IGCSE Physics Revision Notes",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_66Kx8rnxCRstHGpr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.6",
+     "official_code": "2.3.6",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_9sdK8g2ChcvnF8hY": {
    "kind": "note",
@@ -813,12 +1111,21 @@
      "official_code": "3.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_dbYxFDnJsNtGrKzg",
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "pending": []
   },
   "rn_nWJP3GD2ypgH8SHd": {
    "kind": "note",
@@ -835,11 +1142,21 @@
    "label": "Transverse & Longitudinal Waves | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_z9T4mKnXNxHDjV8s",
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Svz5n2rSRpDSszcy": {
    "kind": "note",
@@ -879,22 +1196,36 @@
      "official_code": "3.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_jxPh3cP43CphsY4X",
-    "spcpt_mJJmqHChyqkgnmBG"
-   ]
+   "pending": []
   },
   "rn_VWB7zftwVx7m4tzr": {
    "kind": "note",
    "label": "Reflection experiment - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_CKrN9YvsXyjcmCzz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_r8cJsFXf5GCg5z9n": {
    "kind": "note",
@@ -907,21 +1238,36 @@
      "official_code": "3.2.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup2",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup2",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_SV3dgVnqKRnxrJXh",
-    "spcpt_2Xn8gqWxCNcTVqP7"
-   ]
+   "pending": []
   },
   "rn_tbpkNxkxpJx2MwXs": {
    "kind": "note",
    "label": "Refractive index - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.6",
+     "official_code": "3.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_RHG5JXhHvGV4RryB",
     "spcpt_5B984s8HMCx3jCgY"
    ]
   },
@@ -936,12 +1282,22 @@
      "official_code": "3.2.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup2",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.9",
+     "official_code": "3.2.9",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_tVs7cm8yXDpfBhNP",
-    "spcpt_NBggGy7v8qKt6Nxd",
-    "spcpt_5kJxRhJTzxwZFS3x"
+    "spcpt_NBggGy7v8qKt6Nxd"
    ]
   },
   "rn_fWmKcCpTByVwPHCS": {
@@ -949,21 +1305,36 @@
    "label": "Ray Diagrams | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_nKCmbzVPhxYyyYzb",
-    "spcpt_qwBWr2b5WDgWpCZn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup3",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup3",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_yXbPKbskfWSTmSbD": {
    "kind": "note",
    "label": "Real & virtual images - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_3pbkJmVTMxHcDZ8B"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup3",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_GFnHg6Pj7x66NJBK": {
    "kind": "note",
@@ -980,10 +1351,21 @@
    "label": "Dispersion of light - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup4",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rJhhBGHwt22vnjc8",
-    "spcpt_3MDYf2vYZcDDdgFy",
     "spcpt_5g3m7QQw3PXpWdfk"
    ]
   },
@@ -1034,12 +1416,21 @@
      "official_code": "3.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_wg8rVkBPfRFS68dt",
-    "spcpt_n7NFKfhPXxqjTS5G"
-   ]
+   "pending": []
   },
   "rn_WpNpmCkHczvwjsJ9": {
    "kind": "note",
@@ -1066,10 +1457,16 @@
    "label": "Communications | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.7",
+     "official_code": "3.3.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sFNtCnS5zKXQGp7J",
-    "spcpt_KZ5jBqWZNQxB5dyR"
+    "spcpt_sFNtCnS5zKXQGp7J"
    ]
   },
   "rn_q2JtJ7Pk7dpgTXnS": {
@@ -1077,10 +1474,21 @@
    "label": "Digital and analogue signals - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.8",
+     "official_code": "3.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.9",
+     "official_code": "3.3.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yD2xKybR7NYJbjwh",
-    "spcpt_HHdrgnSw9bbnsdBf",
     "spcpt_2Wf54wWxwdr4ZMtt"
    ]
   },
@@ -1095,44 +1503,79 @@
      "official_code": "3.4.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.10",
+     "official_code": "3.4.10",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_HpPnWNQ6yMMZGWwq"
-   ]
+   "pending": []
   },
   "rn_FWD9KmkwB9yjMGBB": {
    "kind": "note",
    "label": "Measuring the Speed of Sound | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_DQbmyjQYpFN3vRm9",
-    "spcpt_nXVyttYtQcHXY357",
-    "spcpt_dsjfPjmHNMycKn38"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.11",
+     "official_code": "3.4.11",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.6",
+     "official_code": "3.4.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_WJJxypqpwpq5bBjk": {
    "kind": "note",
    "label": "Effects of Sound Waves | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg",
-    "spcpt_KH9YNpH3mnxcnpNG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.8",
+     "official_code": "3.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_ThR3CGJZDj9xZCRh": {
    "kind": "note",
    "label": "Ultrasound - IGCSE Physics Revision Notes",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.12",
+     "official_code": "3.4.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SKQgXb6xdgGPjmsf",
-    "spcpt_qyZgzSq3jX7p64rd"
+    "spcpt_SKQgXb6xdgGPjmsf"
    ]
   },
   "rn_F7FfsZDZmqgtyHsq": {
@@ -1146,11 +1589,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.1.9",
+     "official_code": "4.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_yFxY2jNfVwYrfCMh"
-   ]
+   "pending": []
   },
   "rn_NDSZmpg29khtQpKS": {
    "kind": "note",
@@ -1185,10 +1632,15 @@
    "label": "Plotting Magnetic Fields | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-1-simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_wG98kTxMskKqfJdT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.1.8",
+     "official_code": "4.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_cPHjNGZrxq9nSrRW": {
    "kind": "note",
@@ -1210,9 +1662,15 @@
    "label": "Resistance of a wire - IGCSE Physics Revision Notes",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup4",
+     "official_code": "4.2.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_npSDh2xxf8J5kgg4",
     "spcpt_rtsV395dDn4KY23m"
    ]
   },
@@ -1275,10 +1733,21 @@
    "label": "Demonstrating Electric Charges | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jwCdmsXchsH6ZShH",
-    "spcpt_NZSHKHGnC8qP6sjb",
     "spcpt_SW7PC2bvj3GQgSs3"
    ]
   },
@@ -1287,10 +1756,21 @@
    "label": "Electric fields - IGCSE Physics Revision Notes",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.10",
+     "official_code": "4.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_7Y2zX4yJY8xdcC2c",
-    "spcpt_6bhBpbgtNYDvGgct",
     "spcpt_ryqXJ76DCjKcF4Bg"
    ]
   },
@@ -1299,11 +1779,21 @@
    "label": "Investigating Conductors & Insulators | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_5H4sVg7BBtr5sNHB",
-    "spcpt_VxSYDvmyhDcHr6Qk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.6",
+     "official_code": "4.2.6",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5",
+     "official_code": "4.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_zQ6YX84WhstTdX8W": {
    "kind": "note",
@@ -1316,11 +1806,21 @@
      "official_code": "4.2.5",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup2",
+     "official_code": "4.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup2",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_5qs34kz32C82hdKj",
-    "spcpt_wmdWxmVwzHdvyXZ6",
     "spcpt_HSpsJfgGT49ghYqn",
     "spcpt_6SFv4HxnpHKGDhtH"
    ]
@@ -1330,9 +1830,15 @@
    "label": "Direct & Alternating Current | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4-dup2",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_3Zv3gdK8DFcCbKvw",
     "spcpt_fFQTymXNX2Gd2Vmy"
    ]
   },
@@ -1341,9 +1847,15 @@
    "label": "Electromotive force - IGCSE Physics Revision Notes",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_fn9BvdzGckw5tcpd",
     "spcpt_Bk2Qg4XJzk8RXTzN"
    ]
   },
@@ -1352,9 +1864,15 @@
    "label": "Potential difference - IGCSE Physics Revision Notes",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup3",
+     "official_code": "4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QCmM59mJdpMdFZjy",
     "spcpt_R3r2K7GkW3gDDmW8",
     "spcpt_RwBV6PkWW5yX8MKB"
    ]
@@ -1381,11 +1899,15 @@
      "official_code": "4.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.3.2-dup2",
+     "official_code": "4.3.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_XWhCfYCcwM442M36"
-   ]
+   "pending": []
   },
   "rn_6ZJcDvymwfMG4Yf9": {
    "kind": "note",
@@ -1444,9 +1966,15 @@
    "label": "Potential dividers - IGCSE Physics Revision Notes",
    "section": "4-electricity-and-magnetism",
    "topic": "4-3-electric-circuits-and-electrical-safety",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.3.2-dup3",
+     "official_code": "4.3.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_M9VSGbbfGbKqKp6w",
     "spcpt_YXybMgRDSRF4HcN4"
    ]
   },
@@ -1467,22 +1995,48 @@
    "label": "Electromagnetic Induction | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_5snqYqNxskzkGzyJ",
-    "spcpt_PNxhrpqW3RqDhb46",
-    "spcpt_TXtjZ37jKGJssJyx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.5",
+     "official_code": "4.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Y59522YPQJqrkkgK": {
    "kind": "note",
    "label": "Demonstrating Induction | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_PsWPSpbC55HNz9JW",
-    "spcpt_fCsFzZqXYSbMRFv8",
     "spcpt_vGmrhvg5wkgCYBTV"
    ]
   },
@@ -1491,22 +2045,43 @@
    "label": "The A.C. Generator | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_B3zGNBFndQs9tm73",
-    "spcpt_PFcDzTnH9YDqRzbp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup3",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup3",
+     "official_code": "4.5.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_5fWxW96zwn342X3Z": {
    "kind": "note",
    "label": "Magnetic Effect of a Current | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup2",
+     "official_code": "4.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_6zM4PpWM8GKDgBdN",
-    "spcpt_7dTJMHFFZYYGj3cj",
-    "spcpt_x98b7kmVr2cq7Fjy"
+    "spcpt_7dTJMHFFZYYGj3cj"
    ]
   },
   "rn_DcV5MpN5wSCKRKb4": {
@@ -1514,21 +2089,37 @@
    "label": "Investigating the Field Around a Wire | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_9q6wTkP3mJFqk8bv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup2",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Zy2BmZ2N4Pwm8jVj": {
    "kind": "note",
    "label": "Force on a Current-Carrying Conductor | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup5",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup4",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
     "spcpt_sm2ndjkpFcb2s4zM",
-    "spcpt_gss392Zwx8gYmp8c",
-    "spcpt_hjTtWvs5W6BmprWm",
     "spcpt_jMDVmdy9XdSPM8rP"
    ]
   },
@@ -1537,9 +2128,15 @@
    "label": "Electric Motors | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup4",
+     "official_code": "4.5.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_s9FNtxmxVGHKKtST",
     "spcpt_NK4GnbSq5VZ7nhHH"
    ]
   },
@@ -1548,10 +2145,21 @@
    "label": "Transformers | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup6",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup4",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_jYWvQZNZWXxyBCfR",
-    "spcpt_YkD4c2vnTmVPC2yX",
     "spcpt_bQKYvr9VSp2hdVsN"
    ]
   },
@@ -1580,11 +2188,16 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_c4Mh28Nhxrx47SXD",
-    "spcpt_9y3ByRgBSW4Vjn7T"
+    "spcpt_c4Mh28Nhxrx47SXD"
    ]
   },
   "rn_8PfMyC4kvxF7WHnj": {
@@ -1592,13 +2205,29 @@
    "label": "The Nucleus | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.1-dup2",
+     "official_code": "5.1.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.3",
+     "official_code": "5.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_2rTXpKXyZTzJNRGT",
     "spcpt_W78dPvKpsrNdWQGH",
-    "spcpt_C6S2sx3JHMR7j5F4",
-    "spcpt_9dP28GSfKJRhp9yB",
-    "spcpt_YPYY7jJHk8Sj4nMN"
+    "spcpt_9dP28GSfKJRhp9yB"
    ]
   },
   "rn_H7rS9dTPX7zpndSk": {
@@ -1606,9 +2235,15 @@
    "label": "Protons, Neutrons & Electrons | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2-dup2",
+     "official_code": "5.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_4S7SKsQtJNK9MwzH",
     "spcpt_gwQdYvTrqCpjddDF",
     "spcpt_jWygbzPjNWqQJYPC"
    ]
@@ -1634,12 +2269,17 @@
      "official_code": "5.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
     "spcpt_29PZ5CG8MQmz7DvD",
-    "spcpt_4NpJXn5pRkN5xkXj",
-    "spcpt_SCVDtYKFr4ytPB4d"
+    "spcpt_4NpJXn5pRkN5xkXj"
    ]
   },
   "rn_f8jCjDVbrqZtGTwv": {
@@ -1653,12 +2293,21 @@
      "official_code": "5.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup2",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup3",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_zDFznjBTPQjwY3d8",
-    "spcpt_DRWc5tc699WSvz6p"
-   ]
+   "pending": []
   },
   "rn_sRYpQsSx7vnPk4CJ": {
    "kind": "note",
@@ -1682,12 +2331,27 @@
      "official_code": "5.2.4",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.3-dup2",
+     "official_code": "5.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.2-dup3",
+     "official_code": "5.2.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5-dup2",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_GGhwHkf8mCkQgVMJ",
-    "spcpt_wZtRZsQkWxWJKHDd",
-    "spcpt_wxxgCwhsgyCCNs3J",
     "spcpt_CwcQdTBmCmc6SSH6"
    ]
   },
@@ -1696,9 +2360,15 @@
    "label": "Half-life & Half-life Graphs - IGCSE Physics Revision Notes",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_sVscG4pJMD8BPNZC",
     "spcpt_rwJc3Vw8bYWt5gdR"
    ]
   },
@@ -1755,21 +2425,31 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_gSSSsxBDz642BSsR"
-   ]
+   "pending": []
   },
   "rn_HJ4Bk9x22T5D2k4M": {
    "kind": "note",
    "label": "The Solar System | Cambridge (CIE) IGCSE Physics Revision Notes 2021",
    "section": "6-space-physics",
    "topic": "6-1-earth-and-the-solar-system",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_BkdmdYCfhSvVnFVf",
-    "spcpt_yhprhgKF2K9Nh2Rf"
+    "spcpt_BkdmdYCfhSvVnFVf"
    ]
   },
   "rn_8nbyJ5qQJkN7HsVF": {
@@ -1808,11 +2488,16 @@
      "official_code": "6.1.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_ZqCx3RfcF5jq63Zk",
-    "spcpt_K6nsHqqgJbJXxGrt"
+    "spcpt_ZqCx3RfcF5jq63Zk"
    ]
   },
   "rn_7pWGpQKnSwwqHBRd": {
@@ -1836,11 +2521,15 @@
      "official_code": "6.1.7",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.10",
+     "official_code": "6.1.10",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_8K7hzBRCQjRdqBG8"
-   ]
+   "pending": []
   },
   "rn_QsXGn8V8ZjVqKJxn": {
    "kind": "note",
@@ -1853,11 +2542,15 @@
      "official_code": "6.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2",
+     "official_code": "6.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_24Dc4XFXqrNdNt9t"
-   ]
+   "pending": []
   },
   "rn_hGmtz345XrXsCTfR": {
    "kind": "note",
@@ -1923,11 +2616,15 @@
      "official_code": "6.2.6",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_ZBVqB5rYZT34SKCH"
-   ]
+   "pending": []
   },
   "rn_qtFf6ZTw3kjGXqMN": {
    "kind": "note",
@@ -1940,12 +2637,21 @@
      "official_code": "6.2.7",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.9",
+     "official_code": "6.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.11",
+     "official_code": "6.2.11",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_XMnXBktB2pHkpdNj",
-    "spcpt_mcWZMNhfX6YnmBZp"
-   ]
+   "pending": []
   },
   "qstnprt_CRx95NKDC28Z9TSC": {
    "kind": "question_part",
@@ -1967,30 +2673,45 @@
    "label": "qstn_stWTsmKBy7H5s83J / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_fSr68tCctvBN4HFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V8f29MkNdjTvq2Bq": {
    "kind": "question_part",
    "label": "qstn_zZzG892TJW7xQX37 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NBtN354xgPYsm7ff": {
    "kind": "question_part",
    "label": "qstn_ZkkMpw6TfvVqrMWR / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_fSr68tCctvBN4HFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.7",
+     "official_code": "1.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DBkHdBJqbqJcGwXY": {
    "kind": "question_part",
@@ -2003,11 +2724,15 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_sm5YDY3mRJ2Jtqrf"
-   ]
+   "pending": []
   },
   "qstnprt_rGW2mCksX58ZyB8p": {
    "kind": "question_part",
@@ -2069,20 +2794,30 @@
    "label": "qstn_Kr8Dqkfdy7tRj72v / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_sm5YDY3mRJ2Jtqrf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T2BP98k2z456gRjt": {
    "kind": "question_part",
    "label": "qstn_fMbgKrXW5j9N5p2K / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xWCVfGprwXfHFJzh": {
    "kind": "question_part",
@@ -2114,20 +2849,30 @@
    "label": "qstn_wcbHNZJ9zyV7yFRW / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_sm5YDY3mRJ2Jtqrf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gTcGY8HmYy5NngYk": {
    "kind": "question_part",
    "label": "qstn_pcczZjSnpYNGkrCn / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HKcqKzZmMdzd7NtX": {
    "kind": "question_part",
@@ -2164,20 +2909,30 @@
    "label": "qstn_dY7xxFF8nT3Mgh5H / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cmWG8sTJww6nF9fG": {
    "kind": "question_part",
    "label": "qstn_4F3tXkgvt4tf7Wpv / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-1-physical-quantities-and-measurement-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R96FbDq9RBFdNDpq": {
    "kind": "question_part",
@@ -2211,11 +2966,15 @@
      "official_code": "1.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_czZsgHDHz4DVMcqn"
-   ]
+   "pending": []
   },
   "qstnprt_Tn555FZ23H6FJKWN": {
    "kind": "question_part",
@@ -2237,40 +2996,60 @@
    "label": "qstn_KgR4G4GRVkyjwQh5 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_Zm87xRNtF9pJkXhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Gf9VwgTg93r2SPSn": {
    "kind": "question_part",
    "label": "qstn_3X3fyBJSHNpYcX54 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_kNSxpKtJntQYyhz4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.6",
+     "official_code": "1.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Bq3FPbDCxd4ktVx4": {
    "kind": "question_part",
    "label": "qstn_Zs9gy9bSVR3DxyX3 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WNdXNtZtv5pTZNqF": {
    "kind": "question_part",
    "label": "qstn_v4Cj9g7DYXy7rDFF / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_Zm87xRNtF9pJkXhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BB3NkWgXDrxb3RR3": {
    "kind": "question_part",
@@ -2342,30 +3121,45 @@
    "label": "qstn_2hBm7w7xS6WYBF5R / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7skGs2ms9pVvfVvH": {
    "kind": "question_part",
    "label": "qstn_XVMQsgfp3h3kKrPj / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6dPR9FRb2MfsjbPX": {
    "kind": "question_part",
    "label": "qstn_Rr38MQyJcrN6MKcD / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_kNSxpKtJntQYyhz4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.6",
+     "official_code": "1.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fsd6hs8P5yH5Tb3x": {
    "kind": "question_part",
@@ -2398,30 +3192,45 @@
    "label": "qstn_3DGXdMyFm4wxXVH9 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4d43N8h8Xg7zsqp4": {
    "kind": "question_part",
    "label": "qstn_xH6V6yV36bKzFj5X / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rh2hgVzd96xyPzVK": {
    "kind": "question_part",
    "label": "qstn_XBYzrgsYY5WGCwzS / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_Rg74tCrrqgmHNTzF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.11",
+     "official_code": "1.2.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fp3WwgYQNdF8rg5G": {
    "kind": "question_part",
@@ -2458,10 +3267,15 @@
    "label": "qstn_PhpmcHVpRmySf7mz / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_Zm87xRNtF9pJkXhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_f4ycVmspMh8nYhTg": {
    "kind": "question_part",
@@ -2498,20 +3312,30 @@
    "label": "qstn_75DznwSX7wK2sNNT / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_syZf4ZP5PZPkRZZw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
+     "official_code": "1.2.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qsWBQk8VXXD77s5W": {
    "kind": "question_part",
    "label": "qstn_5K3sXMgjzBWgtz2k / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-2-motion",
-   "codes": [],
-   "pending": [
-    "spcpt_Rg74tCrrqgmHNTzF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.11",
+     "official_code": "1.2.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5WMzpZyHJCd9JxKB": {
    "kind": "question_part",
@@ -2533,10 +3357,15 @@
    "label": "qstn_hyk6TH6G9wThXrJy / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_WPjKWd2PgMMt8v2g"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.3",
+     "official_code": "1.4.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D35WKJVnkRvW5GrQ": {
    "kind": "question_part",
@@ -2566,21 +3395,30 @@
      "official_code": "1.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "pending": []
   },
   "qstnprt_JP8jG4pYCMsbFPyy": {
    "kind": "question_part",
    "label": "qstn_N9VwPHQMytVQNdk6 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_FHkkvFJSBV8W8N2t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B4JbC4ckbGrd66cv": {
    "kind": "question_part",
@@ -2627,10 +3465,15 @@
    "label": "qstn_spvKqYhGJKtxpFSs / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_WPjKWd2PgMMt8v2g"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.3",
+     "official_code": "1.4.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CDsjfNWcd9tHXs8z": {
    "kind": "question_part",
@@ -2723,10 +3566,15 @@
    "label": "qstn_hmRpGsD4CDGGX45r / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rZdQsRyRBbnMt79J": {
    "kind": "question_part",
@@ -2758,10 +3606,15 @@
    "label": "qstn_zMR9RkNkVVkPHYbQ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_FHkkvFJSBV8W8N2t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H5kZM6q9Sq9qCTZy": {
    "kind": "question_part",
@@ -2795,10 +3648,16 @@
    "label": "qstn_Vx7hFB3vYTdP5TDF / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_J9yrCG73TnZFxNn3",
-    "spcpt_FHkkvFJSBV8W8N2t"
+    "spcpt_J9yrCG73TnZFxNn3"
    ]
   },
   "qstnprt_NjSdmWwyd9HHTsJB": {
@@ -2823,60 +3682,90 @@
    "label": "qstn_VgSg5TxKDnfGc9yT / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8SqzB9MKf7Ds3ChM": {
    "kind": "question_part",
    "label": "qstn_sZmYWK4q52Nvkg3V / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_FHkkvFJSBV8W8N2t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CSMsBkdKtr2pwBNM": {
    "kind": "question_part",
    "label": "qstn_SRVpwDjcBjnXT3Fy / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Tf2SBMjv3k5CQzrF": {
    "kind": "question_part",
    "label": "qstn_sR9fQm2vB8rSQ3Ns / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SWgBSZzhmJGbRZTS": {
    "kind": "question_part",
    "label": "qstn_Q3hZVDBr9pq3z5xg / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pctKQ4J8vCVpWzFZ": {
    "kind": "question_part",
    "label": "qstn_nHH9f4Y43dbH5fDx / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NBhW3RV3yyNZGcSN": {
    "kind": "question_part",
@@ -2910,20 +3799,30 @@
    "label": "qstn_jWpmhJkQGsvY4nGh / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jgdW5x67ZhFPWp8X": {
    "kind": "question_part",
    "label": "qstn_jHGCksPG4kGgqNqY / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_65Y3vPgm9jNtRhzy": {
    "kind": "question_part",
@@ -2940,50 +3839,75 @@
    "label": "qstn_HPw5vCHrT2jTPQZm / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CCfw9qNJh5HJgsyD": {
    "kind": "question_part",
    "label": "qstn_h9y6WBvfmgphy6Dw / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WN2YdRKxffyJCQcK": {
    "kind": "question_part",
    "label": "qstn_CWdHcgGdSBqxCPqg / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ybgbfnvm7gy9vz9d": {
    "kind": "question_part",
    "label": "qstn_B845zxD3Sc8hCg2q / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_FHkkvFJSBV8W8N2t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sVxqC7HpqRwzknYW": {
    "kind": "question_part",
    "label": "qstn_9fRNgR8CJFjnyRW7 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h6YrJXpJpt8wHFyj": {
    "kind": "question_part",
@@ -3007,10 +3931,15 @@
    "label": "qstn_3D9Dw27ZY7X2VcRV / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-3-mass-weight-and-density",
-   "codes": [],
-   "pending": [
-    "spcpt_h4SzGWzwRP4C7mVQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.4.2",
+     "official_code": "1.4.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gQzd47gSx4rVh97H": {
    "kind": "question_part",
@@ -3037,32 +3966,57 @@
    "label": "qstn_RM7cV6ySf2D4jMG8 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Zm87xRNtF9pJkXhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KkK5bBXms7NYshFb": {
    "kind": "question_part",
    "label": "qstn_4FHd2SVTNYPPCCtZ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Z32k2hV8VpkngTwH",
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4",
+     "official_code": "1.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rtzR6RKV4SSKpvsp": {
    "kind": "question_part",
    "label": "qstn_fSvH2RgmC6WhVgNk / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_SY2ZgYCPpHhYjxk2",
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.6",
+     "official_code": "1.5.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dpQHQ72nvP8Hd4yh": {
    "kind": "question_part",
@@ -3080,30 +4034,45 @@
    "label": "qstn_Ckv9MMsJxdCb4pKV / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Z32k2hV8VpkngTwH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4",
+     "official_code": "1.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qpbyd6dgcPX7BBNr": {
    "kind": "question_part",
    "label": "qstn_gzvWGnCjytvRpsqh / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_pD3BKxMRw8hYRJ8t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.2",
+     "official_code": "1.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S6f8GJ7BByw9NfyT": {
    "kind": "question_part",
    "label": "qstn_2CvnbJjd4fdSwDwy / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_pD3BKxMRw8hYRJ8t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.2",
+     "official_code": "1.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tkZswgMmMYvWwXMW": {
    "kind": "question_part",
@@ -3120,10 +4089,15 @@
    "label": "qstn_y7CDSZQ6xZG9ycrt / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DnJX3VtpGQzPHZkb": {
    "kind": "question_part",
@@ -3150,20 +4124,30 @@
    "label": "qstn_WSYCPMt75Qkc57qR / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Z32k2hV8VpkngTwH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4",
+     "official_code": "1.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gW7PQH2RMV2653C7": {
    "kind": "question_part",
    "label": "qstn_Vy37FXcg83qwGwHy / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HBCqBWHVYK6TDrjS": {
    "kind": "question_part",
@@ -3180,132 +4164,207 @@
    "label": "qstn_znJpcSNHBf5X2Bcb / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Stw8yCRrGmy3NqVj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GQzkzS3t2DgdnTBB": {
    "kind": "question_part",
    "label": "qstn_YXs89ZNPttWqXd9g / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DMmnP9B5MWJPXPQ9": {
    "kind": "question_part",
    "label": "qstn_tkM5Hm8HVYC35r3C / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nDgg6G3y39pZJJ8N": {
    "kind": "question_part",
    "label": "qstn_MnB8GqzBvqKsmKzf / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_krRhjG8x5RkrtxZ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.11",
+     "official_code": "1.5.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XH6TQm9YGJm8TmMR": {
    "kind": "question_part",
    "label": "qstn_dQfDvVFPJvgYtpb3 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dHrpggtcDFhw3t37": {
    "kind": "question_part",
    "label": "qstn_DHxXbWpsqn78FcZp / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JvRcRqDFcQv6gyxS": {
    "kind": "question_part",
    "label": "qstn_CjVcGQzvmqyR2CN7 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Z32k2hV8VpkngTwH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4",
+     "official_code": "1.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DDkNq2n2hd6SYD2M": {
    "kind": "question_part",
    "label": "qstn_CH96gXtfYHwqXKRf / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_NZK429hqbjvQg6dB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Jp256rKhhqwyX8V5": {
    "kind": "question_part",
    "label": "qstn_7brP7ZNMPxb7fNys / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_Zm87xRNtF9pJkXhz",
-    "spcpt_Stw8yCRrGmy3NqVj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.13",
+     "official_code": "1.2.13",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jKmPvKtczM4GrmRs": {
    "kind": "question_part",
    "label": "qstn_5JV7GYKdQZVCKzhQ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-4-effects-of-forces",
-   "codes": [],
-   "pending": [
-    "spcpt_krRhjG8x5RkrtxZ8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.11",
+     "official_code": "1.5.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bGbWgJjrmcSKjvdF": {
    "kind": "question_part",
    "label": "qstn_X4xyw7GKxywYYn3B / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cfKdVJzqFxnMh8DV": {
    "kind": "question_part",
    "label": "qstn_p4F4Qtp427J8YR6x / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9",
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VfxP66ZxNSw4qXVY": {
    "kind": "question_part",
    "label": "qstn_Fm5xQB5nPS4kF6y6 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_ftGQP3vRVrRB6q9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9cPxJ2PCKrjrgQbM": {
    "kind": "question_part",
@@ -3322,10 +4381,15 @@
    "label": "qstn_RvvnygrH4bHDMKCJ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RhvHStXfHCPd7HWH": {
    "kind": "question_part",
@@ -3338,21 +4402,31 @@
      "official_code": "1.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "pending": []
   },
   "qstnprt_Yc778c3zJpqycwqR": {
    "kind": "question_part",
    "label": "qstn_JxTM2fFRhWxGnMGj / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ztjKDWgZTNWq8CDD",
-    "spcpt_XdRBnzgv7gtTFhty"
+    "spcpt_ztjKDWgZTNWq8CDD"
    ]
   },
   "qstnprt_HWYxCpHx5DRRJ6dd": {
@@ -3366,11 +4440,15 @@
      "official_code": "1.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "pending": []
   },
   "qstnprt_V4G59zcMnsYtd6BR": {
    "kind": "question_part",
@@ -3383,32 +4461,51 @@
      "official_code": "1.5.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "pending": []
   },
   "qstnprt_J8Nf7tHgbSn8F5Wq": {
    "kind": "question_part",
    "label": "qstn_VtwpZc9CKdV8DwvX / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_pfCFb2CTWCBJrjQC",
-    "spcpt_FHkkvFJSBV8W8N2t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.6-dup2",
+     "official_code": "1.5.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nSWrpQRvGCkXwpwd": {
    "kind": "question_part",
    "label": "qstn_rXfztz35n8HD6Wg4 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y5D5nNn5hWpqJ9FW": {
    "kind": "question_part",
@@ -3438,11 +4535,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_XdRBnzgv7gtTFhty"
-   ]
+   "pending": []
   },
   "qstnprt_CkT23ssF3Hy8Z4Wh": {
    "kind": "question_part",
@@ -3464,20 +4565,30 @@
    "label": "qstn_zVfyXyHVX72qVjNt / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_ftGQP3vRVrRB6q9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q8JgfQvf7VCpd9cP": {
    "kind": "question_part",
    "label": "qstn_Wgg2czcFfHqnvd6g / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3zWVJjhbHMmcnwnW": {
    "kind": "question_part",
@@ -3490,93 +4601,147 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_XdRBnzgv7gtTFhty"
-   ]
+   "pending": []
   },
   "qstnprt_62C6DB8sTpwDXr3B": {
    "kind": "question_part",
    "label": "qstn_Tw3PDRPMCSnsfPqt / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_ftGQP3vRVrRB6q9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h6j8pcw4fYvJJ8j3": {
    "kind": "question_part",
    "label": "qstn_tjntwkzzwFXCpZXJ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kQVGtZYWmgWdfYsz": {
    "kind": "question_part",
    "label": "qstn_ThXTX6ydpk3TY9JZ / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_htgCcBdvbJh6qWbZ": {
    "kind": "question_part",
    "label": "qstn_QKjckH4tNBG27DcS / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9",
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dFSytxs5nDyZCHHj": {
    "kind": "question_part",
    "label": "qstn_Q6CMm66xckVbGqSn / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_XdRBnzgv7gtTFhty"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3",
+     "official_code": "1.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bck8DZHj24sTYJ5s": {
    "kind": "question_part",
    "label": "qstn_NZQyxq5bzCd98mRD / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XTm2jJ6cDVjWq7C3": {
    "kind": "question_part",
    "label": "qstn_kKwvwTGzJPTRdvYf / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9",
-    "spcpt_cpR6WqjGTZK2M7Ts"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2",
+     "official_code": "1.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MDkzvpktrGZvJmCT": {
    "kind": "question_part",
    "label": "qstn_JVB8c5k296gcS3hj / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-5-moments",
-   "codes": [],
-   "pending": [
-    "spcpt_ftGQP3vRVrRB6q9N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2",
+     "official_code": "1.5.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hDkc5rYd3GNr4TwX": {
    "kind": "question_part",
@@ -3589,11 +4754,15 @@
      "official_code": "1.5.3",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2",
+     "official_code": "1.5.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_sgbcG7QDVyvJ7yz9"
-   ]
+   "pending": []
   },
   "qstnprt_wGTTG4WgYCgFV66G": {
    "kind": "question_part",
@@ -3625,20 +4794,30 @@
    "label": "qstn_cnhDzN2975Ppq7Vn / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-6-momentum",
-   "codes": [],
-   "pending": [
-    "spcpt_QSbqXRhK5rry4H7q"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zbZk2dZCDn7bWFGf": {
    "kind": "question_part",
    "label": "qstn_wDYwyZSsGq9HqPzP / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-6-momentum",
-   "codes": [],
-   "pending": [
-    "spcpt_2YBjgfm4yFkwPMGs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3Bw8KQgTbDYMSWv6": {
    "kind": "question_part",
@@ -3681,10 +4860,15 @@
    "label": "qstn_zCfFdHKv9nDF3mzj / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-6-momentum",
-   "codes": [],
-   "pending": [
-    "spcpt_2YBjgfm4yFkwPMGs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DfTvpRw38KhG7dg9": {
    "kind": "question_part",
@@ -3806,10 +4990,15 @@
    "label": "qstn_xgMZp35fKKvpqn9x / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-6-momentum",
-   "codes": [],
-   "pending": [
-    "spcpt_2YBjgfm4yFkwPMGs"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dKwf43ygwJhsnjRZ": {
    "kind": "question_part",
@@ -3837,11 +5026,15 @@
      "official_code": "1.6.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.6.3",
+     "official_code": "1.6.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_2YBjgfm4yFkwPMGs"
-   ]
+   "pending": []
   },
   "qstnprt_qw7tkJBd7w5djbFF": {
    "kind": "question_part",
@@ -3889,10 +5082,15 @@
    "label": "qstn_8WK6SDTS9RmBdCrt / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_rtZN57rysfDX3Kxf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gdNWQNPfct8MJrwf": {
    "kind": "question_part",
@@ -3930,9 +5128,15 @@
    "label": "qstn_8c4nNTrY3fhN5Vx2 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_rtZN57rysfDX3Kxf",
     "spcpt_GDdFwPtB8DJrfddJ"
    ]
   },
@@ -4017,10 +5221,15 @@
    "label": "qstn_bj9MhNdKSqNHMQ7C / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_TshxSpJ9wHZMgY8T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bmcDpyPXkzGzwPhd": {
    "kind": "question_part",
@@ -4073,11 +5282,15 @@
      "official_code": "1.7.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_rtZN57rysfDX3Kxf"
-   ]
+   "pending": []
   },
   "qstnprt_M8ftZsJCjkkcBfp5": {
    "kind": "question_part",
@@ -4094,10 +5307,15 @@
    "label": "qstn_wK46Q8XBW9w7Y7p5 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_sDB7f6W4QxzMp4Zb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.3-dup2",
+     "official_code": "1.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3fHNhPQqKV6zZVVR": {
    "kind": "question_part",
@@ -4150,11 +5368,15 @@
      "official_code": "1.7.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_rtZN57rysfDX3Kxf"
-   ]
+   "pending": []
   },
   "qstnprt_6CqVyCbswGZVK2RN": {
    "kind": "question_part",
@@ -4171,10 +5393,16 @@
    "label": "qstn_HtZFW9M5CNXy6HXT / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.5",
+     "official_code": "1.7.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_S3GyzzZYgqsz6fF4",
-    "spcpt_9GnWRpcCnJ2nVN5x"
+    "spcpt_S3GyzzZYgqsz6fF4"
    ]
   },
   "qstnprt_GYjHhDgB88zbTYck": {
@@ -4203,40 +5431,61 @@
    "label": "qstn_2bhb3ZbvysRSSGDV / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-7-energy-work-and-power",
-   "codes": [],
-   "pending": [
-    "spcpt_TshxSpJ9wHZMgY8T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m5dhPJTB7cXT9x8C": {
    "kind": "question_part",
    "label": "qstn_XqrvfzKTSSTqjyhB / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_t8hntfJ3m8TqbPCp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.4-dup2",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_97dVWycjbJSCT9Dx": {
    "kind": "question_part",
    "label": "qstn_JC8Mg57vvtBkYZBR / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_CtKkYKM6zb9PbB5G"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sGn9KZTTgyQyr3Tf": {
    "kind": "question_part",
    "label": "qstn_txVwkhhd5H9hnk8s / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_M8whzMWtT8QfKQ9d",
-    "spcpt_dK57C8DTFV6qMYZ3"
+    "spcpt_M8whzMWtT8QfKQ9d"
    ]
   },
   "qstnprt_mZN379PV6Xb2Vjcs": {
@@ -4244,10 +5493,16 @@
    "label": "qstn_J5DZ3pjS6tb2Q6M5 / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_M8whzMWtT8QfKQ9d",
-    "spcpt_CtKkYKM6zb9PbB5G"
+    "spcpt_M8whzMWtT8QfKQ9d"
    ]
   },
   "qstnprt_PymWNnHjrtwNyJTc": {
@@ -4255,20 +5510,30 @@
    "label": "qstn_c8zS3YpCfvT5dVbm / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_t8hntfJ3m8TqbPCp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.4-dup2",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gBX2NHxvHR3QzY8d": {
    "kind": "question_part",
    "label": "qstn_9xpjFtyBWMBWx9zv / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_t8hntfJ3m8TqbPCp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.4-dup2",
+     "official_code": "1.7.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BwdhJ6qJtYgwRDGh": {
    "kind": "question_part",
@@ -4295,10 +5560,16 @@
    "label": "qstn_xS2WqDZkzp4SwjSm / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_HC3CFrd5XjtNSnKW",
-    "spcpt_CtKkYKM6zb9PbB5G"
+    "spcpt_HC3CFrd5XjtNSnKW"
    ]
   },
   "qstnprt_GvNsfCgk9C8gs76T": {
@@ -4316,21 +5587,37 @@
    "label": "qstn_VMXYWZNTFJvQPJ9M / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_QsDHvcMP7d9yjpc3",
-    "spcpt_dK57C8DTFV6qMYZ3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GXXmZf8b6DXxDjNC": {
    "kind": "question_part",
    "label": "qstn_srwfCSxWNJk8jvbC / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_QYJC7jG3KPGcTw7F",
-    "spcpt_CtKkYKM6zb9PbB5G"
+    "spcpt_QYJC7jG3KPGcTw7F"
    ]
   },
   "qstnprt_djDC846g5dHdCWPv": {
@@ -4348,10 +5635,15 @@
    "label": "qstn_m34CYHnSMvDYqbFB / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
-   "pending": [
-    "spcpt_dK57C8DTFV6qMYZ3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XKK4v7jKksfCjKc5": {
    "kind": "question_part",
@@ -4379,10 +5671,16 @@
    "label": "qstn_3rbMqhyyXykqNTzS / part 0",
    "section": "1-motion-forces-and-energy",
    "topic": "1-8-energy-sources",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3",
+     "official_code": "1.7.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_M8whzMWtT8QfKQ9d",
-    "spcpt_CtKkYKM6zb9PbB5G"
+    "spcpt_M8whzMWtT8QfKQ9d"
    ]
   },
   "qstnprt_YKYV3BY276ck2QfH": {
@@ -4889,21 +6187,36 @@
    "label": "qstn_cWN62QDb4p25N32V / part 0",
    "section": "2-thermal-physics",
    "topic": "2-1-kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_TjcSfx6VN4j6scgF",
-    "spcpt_PhGhPNYpHbYPjJ5j"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.1-dup2",
+     "official_code": "2.1.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hjVxxrcFyJgp9ntq": {
    "kind": "question_part",
    "label": "qstn_ct9fZwn4sz24H39h / part 0",
    "section": "2-thermal-physics",
    "topic": "2-1-kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_9nwnT8Mv88RvSvMx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QPcwGyP2sWVQrj53": {
    "kind": "question_part",
@@ -4980,20 +6293,30 @@
    "label": "qstn_tQvrSnWB5Yg6PhjT / part 0",
    "section": "2-thermal-physics",
    "topic": "2-1-kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_TjcSfx6VN4j6scgF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.1-dup2",
+     "official_code": "2.1.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3qWwHZdHGfZKkyJR": {
    "kind": "question_part",
    "label": "qstn_kDYYxrNzQJ6GMrtX / part 0",
    "section": "2-thermal-physics",
    "topic": "2-1-kinetic-particle-model-of-matter",
-   "codes": [],
-   "pending": [
-    "spcpt_TjcSfx6VN4j6scgF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.1.1-dup2",
+     "official_code": "2.1.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MmPJfCjftzkF5zk8": {
    "kind": "question_part",
@@ -5122,10 +6445,15 @@
    "label": "qstn_mFP2SycFbszvGqc3 / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_9kkYvqFDXhhjCjjB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3",
+     "official_code": "2.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4MyxWWmJtSy2mVjF": {
    "kind": "question_part",
@@ -5208,10 +6536,15 @@
    "label": "qstn_Pn9mYx3Jmv6Vsrz4 / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_zN32VBT8XZHhS5QJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jbMHqVQvfV3cqsmr": {
    "kind": "question_part",
@@ -5259,21 +6592,30 @@
      "official_code": "2.2.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_v6WJnzrZDymqsSyr"
-   ]
+   "pending": []
   },
   "qstnprt_cwcqqnvXBFWqV34F": {
    "kind": "question_part",
    "label": "qstn_mB6V5y88DGQkj2hc / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_XpVdw7sx8Pz7D2dF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FXm4WW9Zv5VhnfsM": {
    "kind": "question_part",
@@ -5310,41 +6652,66 @@
    "label": "qstn_VfCHjhcc57DM7fYM / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_nsnnmnRPbmMmXJrd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup2",
+     "official_code": "2.2.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7Yq2n2fSRfkDzpXj": {
    "kind": "question_part",
    "label": "qstn_QJdG7v87ks5zYp5Y / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_zN32VBT8XZHhS5QJ",
-    "spcpt_9kkYvqFDXhhjCjjB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3",
+     "official_code": "2.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gSPNmS6v7nNF2rqN": {
    "kind": "question_part",
    "label": "qstn_K6TpSwsmpnW8whdw / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_9kkYvqFDXhhjCjjB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3",
+     "official_code": "2.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Thky56vxqt2q7Fkf": {
    "kind": "question_part",
    "label": "qstn_G4yYrZZCjVk4FX6W / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_9kkYvqFDXhhjCjjB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3",
+     "official_code": "2.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nxMwhnZ8Br83nHfN": {
    "kind": "question_part",
@@ -5416,10 +6783,15 @@
    "label": "qstn_jQ5BFyPpbRZmyN6J / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_zN32VBT8XZHhS5QJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FBFP643w7G4YRv5b": {
    "kind": "question_part",
@@ -5456,10 +6828,15 @@
    "label": "qstn_6bWtfzmbKWWJVf4S / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_zN32VBT8XZHhS5QJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2",
+     "official_code": "2.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qMNMmfFw3nyrs9Df": {
    "kind": "question_part",
@@ -5481,10 +6858,15 @@
    "label": "qstn_4BZgXYRzn8xbPzqy / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
-   "pending": [
-    "spcpt_nsnnmnRPbmMmXJrd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup2",
+     "official_code": "2.2.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qSzZXc2NrfJM4ch9": {
    "kind": "question_part",
@@ -5501,10 +6883,16 @@
    "label": "qstn_2Gp6v3y6kymWSYpb / part 0",
    "section": "2-thermal-physics",
    "topic": "2-2-thermal-properties-and-temperature",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup2",
+     "official_code": "2.2.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qYwr6S5bMbBD2Drg",
-    "spcpt_nsnnmnRPbmMmXJrd"
+    "spcpt_qYwr6S5bMbBD2Drg"
    ]
   },
   "qstnprt_sSjRyBbfNZc2Nsfz": {
@@ -5512,10 +6900,15 @@
    "label": "qstn_yQG3Wx4rFj4tmR78 / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_69833gw5hjZWdJHD"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XTXxVhkM6dSN5SCs": {
    "kind": "question_part",
@@ -5532,19 +6925,30 @@
    "label": "qstn_R9fWxyStRpRtMrz3 / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_vXBb2PPxkhDS66zk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vSxFmWXQvmKNwXpJ": {
    "kind": "question_part",
    "label": "qstn_f57QYWj9xh6qrmGC / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3-dup2",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KPnyNjwzYHSHdm3m",
     "spcpt_h4v9pvr9HyNMC2Mm"
    ]
   },
@@ -5553,10 +6957,15 @@
    "label": "qstn_d9CCg5mF2GV5NnCD / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_vXBb2PPxkhDS66zk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N5YjHZBjg63yfNg9": {
    "kind": "question_part",
@@ -5593,10 +7002,15 @@
    "label": "qstn_c2MfcvHrFwbyFkfF / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_vXBb2PPxkhDS66zk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YF59WxvDjk6FP75y": {
    "kind": "question_part",
@@ -5704,19 +7118,30 @@
    "label": "qstn_ySsNDz3CjC3m5CQV / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
-   "pending": [
-    "spcpt_vXBb2PPxkhDS66zk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x2Jf9W35Gz7fJnyC": {
    "kind": "question_part",
    "label": "qstn_Xfshy2mNBYQwPF7R / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3-dup2",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KPnyNjwzYHSHdm3m",
     "spcpt_Gbf3XsJ7DpjcvTTF"
    ]
   },
@@ -5725,9 +7150,15 @@
    "label": "qstn_rc4G68wwbF4pncSZ / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3-dup2",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KPnyNjwzYHSHdm3m",
     "spcpt_Gbf3XsJ7DpjcvTTF"
    ]
   },
@@ -5763,9 +7194,15 @@
    "label": "qstn_HsQvjbFkGwhjSVZ7 / part 0",
    "section": "2-thermal-physics",
    "topic": "2-3-transfer-of-thermal-energy",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_vXBb2PPxkhDS66zk",
     "spcpt_h4v9pvr9HyNMC2Mm"
    ]
   },
@@ -5819,11 +7256,21 @@
    "label": "qstn_Vfd4S6qbKqQJg38r / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_z9T4mKnXNxHDjV8s",
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V5qdSw5dtCwBVnn6": {
    "kind": "question_part",
@@ -5846,21 +7293,30 @@
      "official_code": "3.4.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "pending": []
   },
   "qstnprt_PHt7v5VN3p8JtWVp": {
    "kind": "question_part",
    "label": "qstn_C3pzvvJ8b5BPtJ2x / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XzKrGsBHPxRs2tvz": {
    "kind": "question_part",
@@ -5877,10 +7333,15 @@
    "label": "qstn_hc69JnwqB4bxtkyq / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n6PfCMHzh2fjh5Rk": {
    "kind": "question_part",
@@ -5917,10 +7378,15 @@
    "label": "qstn_WK3RQZ4KCwXBmcxY / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_by8VRmk8qYmrJ22W": {
    "kind": "question_part",
@@ -5937,10 +7403,15 @@
    "label": "qstn_DZN5WjwjtnqyfF6z / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8gBYmsQw9mbRHz8R": {
    "kind": "question_part",
@@ -5957,20 +7428,30 @@
    "label": "qstn_WPkRyPJ8hwq9yJQ7 / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t9mHgKXyzXRYk3yK": {
    "kind": "question_part",
    "label": "qstn_WMRQjXjnQdn3YbVk / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fVdHmx8TXtmS6BY2": {
    "kind": "question_part",
@@ -5987,21 +7468,36 @@
    "label": "qstn_S82bSj26P6t8XMHG / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6mG7dVnXqs28jGZb": {
    "kind": "question_part",
    "label": "qstn_qDPsb9sQ3RdZM89F / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_z9T4mKnXNxHDjV8s",
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rq4gjjyJ7DgHyCSK": {
    "kind": "question_part",
@@ -6039,10 +7535,15 @@
    "label": "qstn_sd77ftcNtYkz46Wm / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fjgcsbcnVthzxdmz": {
    "kind": "question_part",
@@ -6059,10 +7560,15 @@
    "label": "qstn_mYn77SnFtb78bgZJ / part 0",
    "section": "3-waves",
    "topic": "3-1-general-properties-of-waves",
-   "codes": [],
-   "pending": [
-    "spcpt_dDdZDzTdVwqj9mWr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.6",
+     "official_code": "3.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_J8NyfdVbrNJgnBXk": {
    "kind": "question_part",
@@ -6109,10 +7615,15 @@
    "label": "qstn_G8wc422qwPc49nJg / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_mJJmqHChyqkgnmBG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9Q6BPbbWjMZNFdgx": {
    "kind": "question_part",
@@ -6170,20 +7681,30 @@
    "label": "qstn_2DhByyV9KqV8MpKm / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_RHG5JXhHvGV4RryB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.6",
+     "official_code": "3.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_prCc8HxyKwP5TCJV": {
    "kind": "question_part",
    "label": "qstn_vDy39Cqpbjjn5bbB / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_rJhhBGHwt22vnjc8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YbXm93gBmYmz8Z87": {
    "kind": "question_part",
@@ -6217,11 +7738,15 @@
      "official_code": "3.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_jxPh3cP43CphsY4X"
-   ]
+   "pending": []
   },
   "qstnprt_ctSvCYHs7rwJrSMd": {
    "kind": "question_part",
@@ -6303,10 +7828,15 @@
    "label": "qstn_ZbWVs4F9J2KcTRgN / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_jxPh3cP43CphsY4X"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YSVGZcsvrGFS8rW7": {
    "kind": "question_part",
@@ -6328,42 +7858,72 @@
    "label": "qstn_SHTn4fz3Kk7n3rqr / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_mJJmqHChyqkgnmBG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cC34MT6Yx3cPxfNj": {
    "kind": "question_part",
    "label": "qstn_rt4tV3bgZNhQFVDB / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_3pbkJmVTMxHcDZ8B",
-    "spcpt_jxPh3cP43CphsY4X"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup3",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZCMYKY43M3GqmSgR": {
    "kind": "question_part",
    "label": "qstn_PyjwnMZZzxVHfWg2 / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_jxPh3cP43CphsY4X"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4djCDtVn8jPkmzHs": {
    "kind": "question_part",
    "label": "qstn_pvHJBg6yNwX6VRC3 / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_rJhhBGHwt22vnjc8",
-    "spcpt_3MDYf2vYZcDDdgFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup4",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H9qTsK6ywx5kSKjP": {
    "kind": "question_part",
@@ -6385,20 +7945,30 @@
    "label": "qstn_hpbM6rKXrQhmcMg7 / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_tVs7cm8yXDpfBhNP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup2",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CNwbCKjvh8bdzxht": {
    "kind": "question_part",
    "label": "qstn_z3jww853KbYKrcFT / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_RHG5JXhHvGV4RryB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.6",
+     "official_code": "3.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6s4gSvSJZnDq7RPw": {
    "kind": "question_part",
@@ -6451,21 +8021,30 @@
      "official_code": "3.2.5",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup2",
+     "official_code": "3.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_tVs7cm8yXDpfBhNP"
-   ]
+   "pending": []
   },
   "qstnprt_nXqYj6JgXxG8Sdqq": {
    "kind": "question_part",
    "label": "qstn_NXvvszVZCvVC34MQ / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_rJhhBGHwt22vnjc8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p6mxQ8psNXbXbxT6": {
    "kind": "question_part",
@@ -6487,11 +8066,21 @@
    "label": "qstn_M2DzNjcfQ87Npsrj / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_rJhhBGHwt22vnjc8",
-    "spcpt_3MDYf2vYZcDDdgFy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup4",
+     "official_code": "3.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WPhgcS8NWBTfmsrd": {
    "kind": "question_part",
@@ -6513,40 +8102,60 @@
    "label": "qstn_kkGMHZg2X79Zy7WF / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_RHG5JXhHvGV4RryB"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.6",
+     "official_code": "3.2.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TsnPrgFxb3wVK9Pf": {
    "kind": "question_part",
    "label": "qstn_fxgYW5HncqcpKPth / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_qwBWr2b5WDgWpCZn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup3",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qVrqndtvgNpgnSNw": {
    "kind": "question_part",
    "label": "qstn_9FFNJqQYx95wXgQZ / part 0",
    "section": "3-waves",
    "topic": "3-2-light",
-   "codes": [],
-   "pending": [
-    "spcpt_jxPh3cP43CphsY4X"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pMrZSWHrbr4kb3cT": {
    "kind": "question_part",
    "label": "qstn_FJCbJZZWZFdhNdwx / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_wg8rVkBPfRFS68dt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D68NHw8fM73Vs8mz": {
    "kind": "question_part",
@@ -6563,9 +8172,15 @@
    "label": "qstn_HH8TCgbsG8zXYVsF / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_n7NFKfhPXxqjTS5G",
     "spcpt_DWNnMjS7pfXfKJpn"
    ]
   },
@@ -6584,10 +8199,15 @@
    "label": "qstn_Z2Qp3VNNSyTGcTC5 / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_n7NFKfhPXxqjTS5G"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y6QDjBrdYZKXSKPs": {
    "kind": "question_part",
@@ -6610,11 +8230,15 @@
      "official_code": "3.3.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_wg8rVkBPfRFS68dt"
-   ]
+   "pending": []
   },
   "qstnprt_XXjXYvFRH97vdY8S": {
    "kind": "question_part",
@@ -6711,10 +8335,15 @@
    "label": "qstn_VHQr696P7NJSb8Jr / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_KZ5jBqWZNQxB5dyR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.7",
+     "official_code": "3.3.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tggnnPfrHDBF7X5p": {
    "kind": "question_part",
@@ -6761,30 +8390,45 @@
    "label": "qstn_Qgbn7GjSRsbkR3pq / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_KZ5jBqWZNQxB5dyR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.7",
+     "official_code": "3.3.7",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5nKMRM6Ts9NSRwfR": {
    "kind": "question_part",
    "label": "qstn_mxwTRJXg2X437MKK / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_n7NFKfhPXxqjTS5G"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5wDt2dBD3Bp9tRhq": {
    "kind": "question_part",
    "label": "qstn_HfMm9TKZ7Z4yffr2 / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
-   "pending": [
-    "spcpt_n7NFKfhPXxqjTS5G"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.6",
+     "official_code": "3.3.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z8hZKSn5MVhSn7Cg": {
    "kind": "question_part",
@@ -6811,9 +8455,15 @@
    "label": "qstn_4cpr4H6MXNHSQ5BY / part 0",
    "section": "3-waves",
    "topic": "3-3-electromagnetic-spectrum",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.3.8",
+     "official_code": "3.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yD2xKybR7NYJbjwh",
     "spcpt_2Wf54wWxwdr4ZMtt"
    ]
   },
@@ -6833,91 +8483,141 @@
    "label": "qstn_gzQyfRGkVsG6hFbW / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MrqGXXy7Sv2Vvwb2": {
    "kind": "question_part",
    "label": "qstn_yDdd9Mms6GfN64qj / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_KH9YNpH3mnxcnpNG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.8",
+     "official_code": "3.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fYnPnzjD2T4Cwwg5": {
    "kind": "question_part",
    "label": "qstn_BKjBKWwbFPDtnnMQ / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg",
-    "spcpt_D3P88nJrv2PNxvNm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MdRscFyf3TS2b7WB": {
    "kind": "question_part",
    "label": "qstn_ZKVHws6xYGBvWw8z / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_DQbmyjQYpFN3vRm9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.5",
+     "official_code": "3.4.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Zs5yh8H8CJP9KfXP": {
    "kind": "question_part",
    "label": "qstn_qv3pdWRJpWcvPG3w / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_qyZgzSq3jX7p64rd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.12",
+     "official_code": "3.4.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rY8NvtYYBzB3cdgp": {
    "kind": "question_part",
    "label": "qstn_mNcPKmJn3gPkWJjy / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_nXVyttYtQcHXY357"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.11",
+     "official_code": "3.4.11",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5pKHxYt7XNZCvZWD": {
    "kind": "question_part",
    "label": "qstn_VGQD8B9sjqGkjHCH / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wTfnVJNMDcVGYwXq": {
    "kind": "question_part",
    "label": "qstn_snw7TyCZfmkMSRkx / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pmDC3hvzrnHbQpYt": {
    "kind": "question_part",
    "label": "qstn_rHfdGGQWnFxbQpKj / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_qyZgzSq3jX7p64rd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.12",
+     "official_code": "3.4.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fFRxhsqjKzZDGJ8h": {
    "kind": "question_part",
@@ -6934,19 +8634,30 @@
    "label": "qstn_fF3Y95yHMgsfPChN / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RTxKNKJwTP8fyvrH": {
    "kind": "question_part",
    "label": "qstn_x9BkMvRvPrGNmkMC / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.12",
+     "official_code": "3.4.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qyZgzSq3jX7p64rd",
     "spcpt_DWNnMjS7pfXfKJpn"
    ]
   },
@@ -6965,9 +8676,15 @@
    "label": "qstn_mGkp48yDNd4Hgx2p / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.8",
+     "official_code": "3.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_KH9YNpH3mnxcnpNG",
     "spcpt_DWNnMjS7pfXfKJpn"
    ]
   },
@@ -6991,10 +8708,15 @@
    "label": "qstn_5Sck3MkQR2T53Xy4 / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_qyZgzSq3jX7p64rd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.12",
+     "official_code": "3.4.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gJ9pzJk8B6Sm9YMy": {
    "kind": "question_part",
@@ -7016,30 +8738,45 @@
    "label": "qstn_Sn9b75BdN9gxHDgP / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_KH9YNpH3mnxcnpNG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.8",
+     "official_code": "3.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z22hm3yJ7nMvch5n": {
    "kind": "question_part",
    "label": "qstn_QRsVRdqpVbpWhNzF / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_R2TSHYWGWfSKZpTg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.7",
+     "official_code": "3.4.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gd9Zq2BFv8nztDcj": {
    "kind": "question_part",
    "label": "qstn_FCHBWsdbZW4WVByB / part 0",
    "section": "3-waves",
    "topic": "3-4-sound",
-   "codes": [],
-   "pending": [
-    "spcpt_KH9YNpH3mnxcnpNG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.4.8",
+     "official_code": "3.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jZQkjN88JV3R2mXZ": {
    "kind": "question_part",
@@ -7256,10 +8993,15 @@
    "label": "qstn_rHdg3Rn4KQKbdP8B / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-1-simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_wG98kTxMskKqfJdT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.1.8",
+     "official_code": "4.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z3Pv6r8ffWMR7pK7": {
    "kind": "question_part",
@@ -7326,10 +9068,15 @@
    "label": "qstn_8Q7KBqwYBxFC6H5G / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-1-simple-phenomena-of-magnetism",
-   "codes": [],
-   "pending": [
-    "spcpt_wG98kTxMskKqfJdT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.1.8",
+     "official_code": "4.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bc6hT8cgWtpTTqc8": {
    "kind": "question_part",
@@ -7368,10 +9115,15 @@
    "label": "qstn_YhgDyZbF3Wr3YsJJ / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_r7mpqxMpDYsCpJwK": {
    "kind": "question_part",
@@ -7388,10 +9140,15 @@
    "label": "qstn_2JMhv6yYNZZD3JK2 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_jwCdmsXchsH6ZShH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RV4Y8rknVNJRVpwj": {
    "kind": "question_part",
@@ -7413,20 +9170,30 @@
    "label": "qstn_S5xTJfcYYGHkqjV6 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_3Zv3gdK8DFcCbKvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4-dup2",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Zf79yYkmJSSCdDch": {
    "kind": "question_part",
    "label": "qstn_K23d55CvVPJ2WWxb / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_jwCdmsXchsH6ZShH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tRF2dkgPCcsHgqK6": {
    "kind": "question_part",
@@ -7480,20 +9247,30 @@
    "label": "qstn_Wx3FSvVVH4H59yx5 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_wmdWxmVwzHdvyXZ6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup2",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BvQhwctyzHzCfbHq": {
    "kind": "question_part",
    "label": "qstn_Vq4N82ZqVkgPHq3T / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_jwCdmsXchsH6ZShH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6zNxk6szMhybcpNW": {
    "kind": "question_part",
@@ -7527,10 +9304,15 @@
    "label": "qstn_RmK8V6fk6TKkJwJC / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_NZSHKHGnC8qP6sjb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y6F9qwgG2F4PNYv8": {
    "kind": "question_part",
@@ -7554,10 +9336,15 @@
    "label": "qstn_tGfYJ8ysy2dFk9ZM / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_NZSHKHGnC8qP6sjb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DwQ5qgyTGJHdWnpm": {
    "kind": "question_part",
@@ -7591,31 +9378,52 @@
    "label": "qstn_3JGwdpG9skV6MvjF / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BGCBkD7k6hpDFB83": {
    "kind": "question_part",
    "label": "qstn_vyd8svNmWyvwqFF6 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_NZSHKHGnC8qP6sjb",
-    "spcpt_jwCdmsXchsH6ZShH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GnHVNNK6bjcKbZkX": {
    "kind": "question_part",
    "label": "qstn_nzYYrbTmDYjg9VTZ / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup3",
+     "official_code": "4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_RwBV6PkWW5yX8MKB",
-    "spcpt_QCmM59mJdpMdFZjy"
+    "spcpt_RwBV6PkWW5yX8MKB"
    ]
   },
   "qstnprt_JSZNp2b7Sbttx3fP": {
@@ -7623,21 +9431,36 @@
    "label": "qstn_frGNxS2KbyFGVRmf / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dQqJq7byKyTQQ7fr": {
    "kind": "question_part",
    "label": "qstn_Y5dsdRrfk44Bsp8C / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_QCmM59mJdpMdFZjy",
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup3",
+     "official_code": "4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xw6HT43bDT68NBxj": {
    "kind": "question_part",
@@ -7674,10 +9497,15 @@
    "label": "qstn_mXWr6j8SfTyPGCQC / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JVdzVJ4y7KsBbd7K": {
    "kind": "question_part",
@@ -7721,10 +9549,15 @@
    "label": "qstn_yyWdK7WnkqrYTJBZ / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_7Y2zX4yJY8xdcC2c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tX3hw7w456r4bdWc": {
    "kind": "question_part",
@@ -7801,41 +9634,60 @@
      "official_code": "4.2.1",
      "tier": "T2_near",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
+     "official_code": "4.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_fn9BvdzGckw5tcpd"
-   ]
+   "pending": []
   },
   "qstnprt_ZK2wZvb4NQDhxmHp": {
    "kind": "question_part",
    "label": "qstn_QgBwpx9ZP2VhrkNK / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_NZSHKHGnC8qP6sjb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qwH6QwTngsBSFmkG": {
    "kind": "question_part",
    "label": "qstn_nr4fcrsfbnGM3c2S / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_6bhBpbgtNYDvGgct"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.10",
+     "official_code": "4.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z64dwbJH6wFH3WR5": {
    "kind": "question_part",
    "label": "qstn_MT9Hj4tbmfs3vTMM / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_VxSYDvmyhDcHr6Qk"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5",
+     "official_code": "4.2.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8mst8M9WJkHk8WnK": {
    "kind": "question_part",
@@ -7857,10 +9709,15 @@
    "label": "qstn_FPdcGPgN7MyQn47X / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-2-electrical-quantities",
-   "codes": [],
-   "pending": [
-    "spcpt_jwCdmsXchsH6ZShH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6BwPfjCvDtNCzDNb": {
    "kind": "question_part",
@@ -8125,10 +9982,15 @@
    "label": "qstn_DDRt7P5yFF3pFkT6 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-3-electric-circuits-and-electrical-safety",
-   "codes": [],
-   "pending": [
-    "spcpt_XWhCfYCcwM442M36"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.3.2-dup2",
+     "official_code": "4.3.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y2YF6tRwdsC76CWr": {
    "kind": "question_part",
@@ -8380,19 +10242,30 @@
    "label": "qstn_nsskSyC2yr4QsHty / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_5snqYqNxskzkGzyJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d4ZHTZdQ5sGFdcsC": {
    "kind": "question_part",
    "label": "qstn_hHTS6CCrr52DrcX3 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup4",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_YkD4c2vnTmVPC2yX",
     "spcpt_hFHgczRrTQP82bfd"
    ]
   },
@@ -8401,11 +10274,21 @@
    "label": "qstn_nWh76gQzvhhmnXbB / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_fCsFzZqXYSbMRFv8",
-    "spcpt_5snqYqNxskzkGzyJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gf6SKbxvC8kppbXB": {
    "kind": "question_part",
@@ -8422,21 +10305,36 @@
    "label": "qstn_yGCsP5q5Vrg7QZhp / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_hjTtWvs5W6BmprWm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup4",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rDbRcDS66mXxMjgG": {
    "kind": "question_part",
    "label": "qstn_gn4DdkqFrQgrHZWS / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_PFcDzTnH9YDqRzbp",
-    "spcpt_B3zGNBFndQs9tm73"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup3",
+     "official_code": "4.5.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup3",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qZf6h238tqb4JSp5": {
    "kind": "question_part",
@@ -8453,20 +10351,30 @@
    "label": "qstn_kTQDttbCXWzQSfGb / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_gss392Zwx8gYmp8c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup5",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kFMz54QfxMJkwt7F": {
    "kind": "question_part",
    "label": "qstn_sFqX7vJjK2kVD5xT / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_PsWPSpbC55HNz9JW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JpgQhSCTRfnSTfXV": {
    "kind": "question_part",
@@ -8483,10 +10391,15 @@
    "label": "qstn_54QVqzV3tFK5spwt / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_PNxhrpqW3RqDhb46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xbmf296Hdx7JtdHg": {
    "kind": "question_part",
@@ -8503,10 +10416,15 @@
    "label": "qstn_9ywWvjMB7w8Q7hgy / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_6zM4PpWM8GKDgBdN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xNKN85BF2pRdYtqh": {
    "kind": "question_part",
@@ -8533,41 +10451,66 @@
    "label": "qstn_Ws8NmrJzMkVbhQfk / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_fCsFzZqXYSbMRFv8",
-    "spcpt_5snqYqNxskzkGzyJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M57f778ys2hQm9hM": {
    "kind": "question_part",
    "label": "qstn_VxvvxX8x2K3CD7CH / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_x98b7kmVr2cq7Fjy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup2",
+     "official_code": "4.5.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FCsp8PdVpk8YzFxg": {
    "kind": "question_part",
    "label": "qstn_RxhcX2yh4j4tPrRg / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_fCsFzZqXYSbMRFv8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G6KFD6TVMXVwVkRD": {
    "kind": "question_part",
    "label": "qstn_fy95MTsKnDMKnXnx / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_6zM4PpWM8GKDgBdN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yFHxFrncpdFKjtf6": {
    "kind": "question_part",
@@ -8594,40 +10537,60 @@
    "label": "qstn_Tn89Jp5Gf5bnndTB / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_6zM4PpWM8GKDgBdN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R62Wr8hP92ZGHh8f": {
    "kind": "question_part",
    "label": "qstn_qB4bj2CJq8JzpGyw / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_YkD4c2vnTmVPC2yX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup4",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6TfjhsrDkVvbbC23": {
    "kind": "question_part",
    "label": "qstn_2zTV4RgkYBbN9Hsz / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_6zM4PpWM8GKDgBdN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3k6cRyFjwnJ8GR6n": {
    "kind": "question_part",
    "label": "qstn_swFg6ZytV58Z2sx4 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_5snqYqNxskzkGzyJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.1",
+     "official_code": "4.5.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CR4866PyDPZjVxcR": {
    "kind": "question_part",
@@ -8644,30 +10607,45 @@
    "label": "qstn_rQRpryvWcYrTt9pb / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_PFcDzTnH9YDqRzbp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup3",
+     "official_code": "4.5.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6X9bnfGDHkPfvn4K": {
    "kind": "question_part",
    "label": "qstn_RhP72by5scQPZMzb / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_gss392Zwx8gYmp8c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup5",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_crWPFD6wx8pn8N5Y": {
    "kind": "question_part",
    "label": "qstn_QnmZ4QVmY4DJ4MZV / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_PNxhrpqW3RqDhb46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.4",
+     "official_code": "4.5.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nf5hpFb9bkj9bVGg": {
    "kind": "question_part",
@@ -8684,30 +10662,45 @@
    "label": "qstn_DM6gz7gdVQ5n2mVg / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_gss392Zwx8gYmp8c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup5",
+     "official_code": "4.5.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C5DSTY5Pp2jKXrfH": {
    "kind": "question_part",
    "label": "qstn_bHSr2Rs5cKsVmjk5 / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_hjTtWvs5W6BmprWm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup4",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NM8kxg7WNZjBM8WS": {
    "kind": "question_part",
    "label": "qstn_9F2KbNSKCshCPYGg / part 0",
    "section": "4-electricity-and-magnetism",
    "topic": "4-4-electromagnetic-effects",
-   "codes": [],
-   "pending": [
-    "spcpt_hjTtWvs5W6BmprWm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup4",
+     "official_code": "4.5.3",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bY5VSM32CzGrCdMN": {
    "kind": "question_part",
@@ -8744,40 +10737,60 @@
    "label": "qstn_F2sJvrJD6nMGgF7T / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_YPYY7jJHk8Sj4nMN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_69c2PD3W3btR633v": {
    "kind": "question_part",
    "label": "qstn_CfMzDZmTxSHxQm6h / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_4S7SKsQtJNK9MwzH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2-dup2",
+     "official_code": "5.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gsPm5gVtZVPv2c52": {
    "kind": "question_part",
    "label": "qstn_gCHB75msXxP8ph6N / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_YPYY7jJHk8Sj4nMN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bXxJj6jg6pTm7DBj": {
    "kind": "question_part",
    "label": "qstn_BvMhxvtDvcHf47cy / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_9y3ByRgBSW4Vjn7T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RR75SqXDvrgmHNRS": {
    "kind": "question_part",
@@ -8819,19 +10832,30 @@
    "label": "qstn_Mcc5Wv7ncVp5VwJD / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_9y3ByRgBSW4Vjn7T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SSyP8vmZW2Nw2cSb": {
    "kind": "question_part",
    "label": "qstn_vvCJH2Bxv9F6RJcM / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_YPYY7jJHk8Sj4nMN",
     "spcpt_9dP28GSfKJRhp9yB"
    ]
   },
@@ -8840,10 +10864,15 @@
    "label": "qstn_TPbytCmBtjTjy8QF / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_C6S2sx3JHMR7j5F4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.3",
+     "official_code": "5.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RWMFBWVDZNYPGSWs": {
    "kind": "question_part",
@@ -8860,10 +10889,15 @@
    "label": "qstn_bXW5ZTDXMVNb3TKS / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_YPYY7jJHk8Sj4nMN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SjKtpCfSwg4kqxkc": {
    "kind": "question_part",
@@ -8885,30 +10919,45 @@
    "label": "qstn_xVVQdW2JNfB2r3VS / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_4S7SKsQtJNK9MwzH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2-dup2",
+     "official_code": "5.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_F884vjbCJp4YnNcB": {
    "kind": "question_part",
    "label": "qstn_sZytqgrSQFDMwxGN / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_9y3ByRgBSW4Vjn7T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Thtt2Ry3Y66krmcK": {
    "kind": "question_part",
    "label": "qstn_MMgmssnpbgVzwHZn / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
-   "pending": [
-    "spcpt_YPYY7jJHk8Sj4nMN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fVHkBNsNrTxk3S3f": {
    "kind": "question_part",
@@ -8921,11 +10970,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.3",
+     "official_code": "5.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_C6S2sx3JHMR7j5F4"
-   ]
+   "pending": []
   },
   "qstnprt_HwtwY9MvVPVWwMY4": {
    "kind": "question_part",
@@ -8982,10 +11035,16 @@
    "label": "qstn_4VGfPb84kp8JwMTB / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-1-the-nuclear-model-of-the-atom",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.1.2-dup2",
+     "official_code": "5.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_gwQdYvTrqCpjddDF",
-    "spcpt_4S7SKsQtJNK9MwzH"
+    "spcpt_gwQdYvTrqCpjddDF"
    ]
   },
   "qstnprt_HQJ9MVF7vTXXfNjk": {
@@ -9043,40 +11102,66 @@
    "label": "qstn_Kwb2HMpV929wk8CX / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WpvPxPt8H9sj6FyD": {
    "kind": "question_part",
    "label": "qstn_tJ7fX2GQ8xW9jdBZ / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_zDFznjBTPQjwY3d8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup2",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nsVjX9rWmzBCP9pp": {
    "kind": "question_part",
    "label": "qstn_JY6xMjXtbFKvjSgZ / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC",
-    "spcpt_SCVDtYKFr4ytPB4d"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jj4gJnZ4FQ82qkDv": {
    "kind": "question_part",
    "label": "qstn_M66g8S7BH8hphFMb / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_SCVDtYKFr4ytPB4d",
     "spcpt_4NpJXn5pRkN5xkXj"
    ]
   },
@@ -9085,10 +11170,15 @@
    "label": "qstn_gnSkzW2MVpm4jj2k / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_zDFznjBTPQjwY3d8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup2",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gtDFrPsPzkTXVr7B": {
    "kind": "question_part",
@@ -9120,10 +11210,15 @@
    "label": "qstn_J7fWwmQQSNQwdsN4 / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MjsXVWDH2HcTgTkm": {
    "kind": "question_part",
@@ -9221,21 +11316,30 @@
      "official_code": "5.2.4",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.2-dup3",
+     "official_code": "5.2.2",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_wZtRZsQkWxWJKHDd"
-   ]
+   "pending": []
   },
   "qstnprt_xPJM9pJM9dJGJgHZ": {
    "kind": "question_part",
    "label": "qstn_Vd5RZbTsPH5Yzrbg / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CtfJXjWPYRBXRMtF": {
    "kind": "question_part",
@@ -9257,20 +11361,30 @@
    "label": "qstn_tBFhgCtjK7KqdMFQ / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FDy8mM3x6MtFYsQ2": {
    "kind": "question_part",
    "label": "qstn_P2QRKYMWqNnWPX2Y / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_wxxgCwhsgyCCNs3J"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5-dup2",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WT5D65smVYnykT3n": {
    "kind": "question_part",
@@ -9283,21 +11397,30 @@
      "official_code": "5.2.2",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.5-dup2",
+     "official_code": "5.2.5",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_wxxgCwhsgyCCNs3J"
-   ]
+   "pending": []
   },
   "qstnprt_VHX7XPSbV7fKGZMN": {
    "kind": "question_part",
    "label": "qstn_c8BpKsTycm7Ps5Dj / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yDY3DnpJp96MMVCv": {
    "kind": "question_part",
@@ -9314,20 +11437,30 @@
    "label": "qstn_6GG9cBXTHj3M6tzq / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tRB38sXpCZq2BqwQ": {
    "kind": "question_part",
    "label": "qstn_4rzhFFRtZXz2FMS9 / part 0",
    "section": "5-nuclear-physics",
    "topic": "5-2-radioactivity",
-   "codes": [],
-   "pending": [
-    "spcpt_sVscG4pJMD8BPNZC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4",
+     "official_code": "5.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qQNsvfNrN5mhCzBZ": {
    "kind": "question_part",
@@ -9516,9 +11649,15 @@
    "label": "qstn_P2pxQ9r6mwKZzPv3 / part 0",
    "section": "6-space-physics",
    "topic": "6-1-earth-and-the-solar-system",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yhprhgKF2K9Nh2Rf",
     "spcpt_dTmYMGsCzVtmyD7B"
    ]
   },
@@ -9537,20 +11676,30 @@
    "label": "qstn_FGqq9VnMQJT7KVYn / part 0",
    "section": "6-space-physics",
    "topic": "6-1-earth-and-the-solar-system",
-   "codes": [],
-   "pending": [
-    "spcpt_gSSSsxBDz642BSsR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MPYtd56kvsWKnrfq": {
    "kind": "question_part",
    "label": "qstn_7FfmBfx7SttWfjGq / part 0",
    "section": "6-space-physics",
    "topic": "6-1-earth-and-the-solar-system",
-   "codes": [],
-   "pending": [
-    "spcpt_8K7hzBRCQjRdqBG8"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.1.10",
+     "official_code": "6.1.10",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tpcTFXrkvhkRYHkf": {
    "kind": "question_part",
@@ -9617,9 +11766,15 @@
    "label": "qstn_tbqBsj8Km8zwq37V / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_ZBVqB5rYZT34SKCH",
     "spcpt_NkKXGkHPhsxQWpmV"
    ]
   },
@@ -9653,10 +11808,15 @@
    "label": "qstn_Y6NVBRPjZXsvYQMB / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_24Dc4XFXqrNdNt9t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2",
+     "official_code": "6.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q4WbXX6Bnb3pth5n": {
    "kind": "question_part",
@@ -9723,10 +11883,15 @@
    "label": "qstn_RtrKbbnxzjSPQjkM / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_ZBVqB5rYZT34SKCH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.4",
+     "official_code": "6.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_crvnDp4D9FP8cB2s": {
    "kind": "question_part",
@@ -9748,10 +11913,15 @@
    "label": "qstn_JdQHQVMtWMzksf4M / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_XMnXBktB2pHkpdNj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.9",
+     "official_code": "6.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_26hpwQw6v9kK6Fdg": {
    "kind": "question_part",
@@ -9768,10 +11938,15 @@
    "label": "qstn_y6mJ2QNsT3jcdP8h / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_XMnXBktB2pHkpdNj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.9",
+     "official_code": "6.2.9",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JgGfwxVzBhGvd7Vf": {
    "kind": "question_part",
@@ -9788,10 +11963,15 @@
    "label": "qstn_WYPbHdKr4kc9nHKy / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_24Dc4XFXqrNdNt9t"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2",
+     "official_code": "6.2.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5n87gJ8Xph3sTr6H": {
    "kind": "question_part",
@@ -9853,10 +12033,15 @@
    "label": "qstn_dBHJb78hbJqq8HkQ / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_mcWZMNhfX6YnmBZp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.11",
+     "official_code": "6.2.11",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mTvgQCkNBZDbwNv6": {
    "kind": "question_part",
@@ -9878,10 +12063,15 @@
    "label": "qstn_8nQxX68xyZqtV8Cd / part 0",
    "section": "6-space-physics",
    "topic": "6-2-stars-and-the-universe",
-   "codes": [],
-   "pending": [
-    "spcpt_mcWZMNhfX6YnmBZp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.11",
+     "official_code": "6.2.11",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   }
  }
 }

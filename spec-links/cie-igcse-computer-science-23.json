@@ -14,7 +14,23 @@
    "T1_verbatim": "authoritative (gate-verified)",
    "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
   },
-  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)"
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
  },
  "registry": {
   "id": "cie-igcse-computer-science-2023-2025",
@@ -23,15 +39,15 @@
  },
  "totals": {
   "items": 434,
-  "items_with_codes": 212,
+  "items_with_codes": 270,
   "by_kind": {
    "notes": 97,
    "question_parts": 337,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 47,
-   "question_parts": 165,
+   "notes": 64,
+   "question_parts": 206,
    "flashcards": 0
   }
  },
@@ -40,8 +56,23 @@
   "parts": 445,
   "universe_ids": 176,
   "universe_resolved": 74,
-  "pending_refs": 365,
-  "flashcards_discovered_uncoded": 905
+  "pending_refs": 290,
+  "flashcards_discovered_uncoded": 905,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 25,
+   "resolved_refs": 75,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 4,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 21
+   },
+   "ambiguous_pairs": 5,
+   "pending_refs": 290,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
  },
  "items": {
   "rn_Jv4GfCgyDvx8ycVB": {
@@ -65,11 +96,16 @@
      "official_code": "1.3.3",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_KxDFJXB9MhZTzPFn",
-    "spcpt_wcPqybNRz9mzhZ88"
+    "spcpt_KxDFJXB9MhZTzPFn"
    ]
   },
   "rn_8PPzSsp8NQczNxCC": {
@@ -180,20 +216,30 @@
    "label": "Number Systems - IGCSE Computer Science Revision Notes",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_7zRFHH6R7bQSwk2j"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_pvsW9s6PjJ4vbFzW": {
    "kind": "note",
    "label": "Two's Complement IGCSE Computer Science | CIE Revision Notes",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_PqcxDCzbS2vr8sZR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.6",
+     "official_code": "1.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_7zJwH3ZZScpq9NBN": {
    "kind": "note",
@@ -230,10 +276,16 @@
    "label": "Images - IGCSE Computer Science Revision Notes",
    "section": "1-data-representation",
    "topic": "text-sound-and-images",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.2.3",
+     "official_code": "1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qWTYr3cmPwq2rbGm",
-    "spcpt_7sSxFjH7q7mfgtHm"
+    "spcpt_qWTYr3cmPwq2rbGm"
    ]
   },
   "rn_xnfJWcvTN8Cj8hJz": {
@@ -252,10 +304,15 @@
    "label": "Logic Circuits - IGCSE Computer Science Revision Notes",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_DJTBpVvwmvrwpdNJ": {
    "kind": "note",
@@ -333,10 +390,16 @@
    "label": "Encryption - IGCSE Computer Science Revision Notes",
    "section": "2-data-transmission",
    "topic": "encryption",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qZTkxK8ydb3Nb5fR",
-    "spcpt_qCq5k7sWz7xMjCc9"
+    "spcpt_qZTkxK8ydb3Nb5fR"
    ]
   },
   "rn_jwpNRvbwwqs2RNb5": {
@@ -389,12 +452,28 @@
    "label": "Checksum - IGCSE Computer Science Revision Notes",
    "section": "2-data-transmission",
    "topic": "methods-of-error-detection",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_yPdhHr5bcN8bbDKr",
-    "spcpt_WSBqqQcqkNF2BqV4",
-    "spcpt_t5ZMFTmJhJbqcwct",
-    "spcpt_hB2th7BHPxc834Cf"
+    "spcpt_WSBqqQcqkNF2BqV4"
    ]
   },
   "rn_mhxmcrqmxKjJpJ6V": {
@@ -509,10 +588,15 @@
    "label": "Von Neumann - IGCSE Computer Science Revision Notes",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
-   "pending": [
-    "spcpt_5M6QcjK4xvy9R62Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_mZFQQSWhKrbNDwbz": {
    "kind": "note",
@@ -574,10 +658,15 @@
    "label": "What is Virtual Memory - IGCSE Computer Science Revision",
    "section": "3-hardware",
    "topic": "data-storage",
-   "codes": [],
-   "pending": [
-    "spcpt_TtfQMfsCwkfdcYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_7wnZMnjyszyMsyp2": {
    "kind": "note",
@@ -636,10 +725,15 @@
    "label": "NIC - IGCSE Computer Science Revision Notes",
    "section": "3-hardware",
    "topic": "network-hardware",
-   "codes": [],
-   "pending": [
-    "spcpt_HtfS3kGsngz2pkK7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.4.1",
+     "official_code": "3.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_yzq8MW6PQBFPJPhq": {
    "kind": "note",
@@ -742,10 +836,15 @@
    "label": "Software - IGCSE Computer Science Revision Notes",
    "section": "4-software",
    "topic": "types-of-software-and-interrupts",
-   "codes": [],
-   "pending": [
-    "spcpt_jCpQHf582TKg5Css"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_BK3JFQFyrmksz9Kz": {
    "kind": "note",
@@ -803,10 +902,16 @@
    "label": "Digital Currency - IGCSE Computer Science Revision Notes",
    "section": "5-the-internet-and-its-uses",
    "topic": "digital-currency",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_CbXDrwTPdQGKHHXK",
-    "spcpt_MVB37B7jBYWw9jbw"
+    "spcpt_CbXDrwTPdQGKHHXK"
    ]
   },
   "rn_cy6Gxth9V8jYJHxR": {
@@ -814,10 +919,15 @@
    "label": "Cookies - IGCSE Computer Science Revision Notes",
    "section": "5-the-internet-and-its-uses",
    "topic": "the-internet-and-the-world-wide-web",
-   "codes": [],
-   "pending": [
-    "spcpt_F7p8HtzCWkNNkWnY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.1.6",
+     "official_code": "5.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_88ZkjDCGmTxQvQbk": {
    "kind": "note",
@@ -834,10 +944,15 @@
    "label": "Internet & WWW - IGCSE Computer Science Revision Notes",
    "section": "5-the-internet-and-its-uses",
    "topic": "the-internet-and-the-world-wide-web",
-   "codes": [],
-   "pending": [
-    "spcpt_TsnDyrsPmj9CMtKR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.1.1",
+     "official_code": "5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_m7xkCmR7CxHhs3nT": {
    "kind": "note",
@@ -898,10 +1013,15 @@
      "official_code": "6.3.2",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_MxWYRYkmQNcB7GF4",
     "spcpt_3jzz7R9t45dccP3N",
     "spcpt_7djNqvJHq6FGXtSd"
    ]
@@ -934,10 +1054,15 @@
      "official_code": "6.2.2",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_2H3W7jyVbp8DhMCW",
     "spcpt_BRbkgxTQtmj2H6B3"
    ]
   },
@@ -1128,12 +1253,27 @@
    "label": "Operators - IGCSE Computer Science Revision Notes",
    "section": "8-programming",
    "topic": "programming-concepts",
-   "codes": [],
-   "pending": [
-    "spcpt_H8K8hghQB646dd3J",
-    "spcpt_2dkChvghYGRw5dXj",
-    "spcpt_2q2rGgx6CfTzxnPh"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.1-dup2",
+     "official_code": "8.1.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.1-dup2",
+     "official_code": "8.1.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.1-dup2",
+     "official_code": "8.1.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_b7pKqWRjcnFBHSGR": {
    "kind": "note",
@@ -1185,10 +1325,15 @@
    "label": "Library Routines - IGCSE Computer Science Revision Notes",
    "section": "8-programming",
    "topic": "programming-concepts",
-   "codes": [],
-   "pending": [
-    "spcpt_7MsH9h9SPYYpmrn9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.1-dup2",
+     "official_code": "8.1.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_Y9GWSTcpqNqWMJYS": {
    "kind": "note",
@@ -1251,10 +1396,15 @@
    "label": "Sequence - IGCSE Computer Science Revision Notes",
    "section": "8-programming",
    "topic": "programming-concepts",
-   "codes": [],
-   "pending": [
-    "spcpt_KcCh8pWNfC8QQsRF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.4",
+     "official_code": "8.1.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "rn_4YCPw5grTQQp6GcJ": {
    "kind": "note",
@@ -1316,11 +1466,22 @@
    "label": "Database - IGCSE Computer Science Revision Notes",
    "section": "9-databases",
    "topic": "databases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.5",
+     "official_code": "6.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_3hpC7gNs8YZ6t7kd",
-    "spcpt_pSBSvFNDkZT5RKdY",
-    "spcpt_7JRKzsBqqdfPqf5t"
+    "spcpt_3hpC7gNs8YZ6t7kd"
    ]
   },
   "rn_vjxqj4hgq9crZdbF": {
@@ -1383,10 +1544,15 @@
    "label": "qstn_rf8M2tpBgXKg5XM4 / part 0",
    "section": "1-data-representation",
    "topic": "data-storage-and-compression",
-   "codes": [],
-   "pending": [
-    "spcpt_wcPqybNRz9mzhZ88"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zBk5fdxBGxKW8Snw": {
    "kind": "question_part",
@@ -1424,10 +1590,15 @@
      "official_code": "1.3.1",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_wcPqybNRz9mzhZ88",
     "spcpt_KxDFJXB9MhZTzPFn"
    ]
   },
@@ -1461,10 +1632,15 @@
    "label": "qstn_7x4ZzRy3sTnnkzgZ / part 1",
    "section": "1-data-representation",
    "topic": "data-storage-and-compression",
-   "codes": [],
-   "pending": [
-    "spcpt_wcPqybNRz9mzhZ88"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QBDJKvzyzswSxryS": {
    "kind": "question_part",
@@ -1501,10 +1677,15 @@
    "label": "qstn_wcx3wfyT6Sp5xw5K / part 2",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_PqcxDCzbS2vr8sZR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.6",
+     "official_code": "1.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MxSMZxKT5qGP5FJB": {
    "kind": "question_part",
@@ -1526,20 +1707,30 @@
    "label": "qstn_v6xN4gVpJSKxZmDY / part 0",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_7zRFHH6R7bQSwk2j"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yX5NXxB3XStMkc4T": {
    "kind": "question_part",
    "label": "qstn_S4bqC5nYHm5MJfss / part 0",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_PqcxDCzbS2vr8sZR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.6",
+     "official_code": "1.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qZS2gSgRVvG6pnDg": {
    "kind": "question_part",
@@ -1571,10 +1762,15 @@
    "label": "qstn_RC8kmBDsmnPsppkW / part 0",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_PqcxDCzbS2vr8sZR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.6",
+     "official_code": "1.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B7fvsRgpFk44VF5M": {
    "kind": "question_part",
@@ -1591,10 +1787,15 @@
    "label": "qstn_6r5yjNR6SxCGfPbf / part 0",
    "section": "1-data-representation",
    "topic": "number-systems",
-   "codes": [],
-   "pending": [
-    "spcpt_7zRFHH6R7bQSwk2j"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BFCvNZwPgMmZZZKg": {
    "kind": "question_part",
@@ -1848,10 +2049,15 @@
    "label": "qstn_kfdFFbJfq5BV766K / part 0",
    "section": "1-data-representation",
    "topic": "text-sound-and-images",
-   "codes": [],
-   "pending": [
-    "spcpt_7sSxFjH7q7mfgtHm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.2.3",
+     "official_code": "1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3k7Hp2gKCcsFgRxQ": {
    "kind": "question_part",
@@ -1879,10 +2085,15 @@
    "label": "qstn_hrhyr77bf9WyTYYz / part 0",
    "section": "1-data-representation",
    "topic": "text-sound-and-images",
-   "codes": [],
-   "pending": [
-    "spcpt_7sSxFjH7q7mfgtHm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:1.2.3",
+     "official_code": "1.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WRWwhjqjcyW9dNJy": {
    "kind": "question_part",
@@ -1939,10 +2150,15 @@
    "label": "qstn_MDf84BwR6rMyWB48 / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GQShnwNSzyDv6JHs": {
    "kind": "question_part",
@@ -1970,10 +2186,15 @@
    "label": "qstn_59Ch5z5Sw8R3h4y4 / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Qh3btrQHvQJFQ7q2": {
    "kind": "question_part",
@@ -2000,10 +2221,15 @@
    "label": "qstn_gScfbnbY6pGGDBPK / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cqK3tST4sTNhKGmm": {
    "kind": "question_part",
@@ -2020,10 +2246,15 @@
    "label": "qstn_fSk8TfmNC2jrQWph / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z7NdWJnp9dvyMhtm": {
    "kind": "question_part",
@@ -2040,10 +2271,15 @@
    "label": "qstn_WdJp4Rc33dW8mkdW / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kKkrrsqtN3DhJkXx": {
    "kind": "question_part",
@@ -2060,10 +2296,15 @@
    "label": "qstn_XtYPDbnvPzhZRvkD / part 0",
    "section": "10-boolean-logic",
    "topic": "boolean-logic",
-   "codes": [],
-   "pending": [
-    "spcpt_HY2mCJxGw3T58Q6D"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.2-dup2",
+     "official_code": "6.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y7fg7GzCDMphm8w3": {
    "kind": "question_part",
@@ -2110,20 +2351,31 @@
    "label": "qstn_d6Cj6RjbRPsx3gHN / part 0",
    "section": "2-data-transmission",
    "topic": "encryption",
-   "codes": [],
-   "pending": [
-    "spcpt_qCq5k7sWz7xMjCc9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7RGj8JjD84TK2X89": {
    "kind": "question_part",
    "label": "qstn_GWQvVtYYnD2fwB2H / part 0",
    "section": "2-data-transmission",
    "topic": "encryption",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_qZTkxK8ydb3Nb5fR",
-    "spcpt_qCq5k7sWz7xMjCc9"
+    "spcpt_qZTkxK8ydb3Nb5fR"
    ]
   },
   "qstnprt_sYbsxJWW8ZbCBYr2": {
@@ -2141,21 +2393,36 @@
    "label": "qstn_sZhyzjX6MxCd4HCp / part 0",
    "section": "2-data-transmission",
    "topic": "encryption",
-   "codes": [],
-   "pending": [
-    "spcpt_qCq5k7sWz7xMjCc9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zC7BkZ4wPqBfrQkG": {
    "kind": "question_part",
    "label": "qstn_8b4RhgfJyS5T6fmG / part 0",
    "section": "2-data-transmission",
    "topic": "methods-of-error-detection",
-   "codes": [],
-   "pending": [
-    "spcpt_t5ZMFTmJhJbqcwct",
-    "spcpt_hB2th7BHPxc834Cf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rgPXfr8Qb64sWR3b": {
    "kind": "question_part",
@@ -2168,11 +2435,15 @@
      "official_code": "2.2.4",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_yPdhHr5bcN8bbDKr"
-   ]
+   "pending": []
   },
   "qstnprt_J4Z3BPGc2sJR2rjb": {
    "kind": "question_part",
@@ -2239,10 +2510,15 @@
    "label": "qstn_682NCvvWPRj8fNnf / part 0",
    "section": "2-data-transmission",
    "topic": "methods-of-error-detection",
-   "codes": [],
-   "pending": [
-    "spcpt_t5ZMFTmJhJbqcwct"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_783ZmfWKhvyxKcgn": {
    "kind": "question_part",
@@ -2264,20 +2540,30 @@
    "label": "qstn_Nz4QF2QXysc5ZHK7 / part 0",
    "section": "2-data-transmission",
    "topic": "methods-of-error-detection",
-   "codes": [],
-   "pending": [
-    "spcpt_yPdhHr5bcN8bbDKr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8sHGpNVmRNP5mghc": {
    "kind": "question_part",
    "label": "qstn_2GQCDHrtWMpwrgjK / part 0",
    "section": "2-data-transmission",
    "topic": "methods-of-error-detection",
-   "codes": [],
-   "pending": [
-    "spcpt_yPdhHr5bcN8bbDKr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h4dTbW7Rqd4sVKC3": {
    "kind": "question_part",
@@ -2426,20 +2712,31 @@
    "label": "qstn_nffRXqdr6vxxdcSS / part 1",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
-   "pending": [
-    "spcpt_5M6QcjK4xvy9R62Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yWfFR8Cm6YxyZDgg": {
    "kind": "question_part",
    "label": "qstn_CzSSjWbzbZr76ksF / part 0",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_dP3gX38Yj4BfDGC5",
-    "spcpt_5M6QcjK4xvy9R62Y"
+    "spcpt_dP3gX38Yj4BfDGC5"
    ]
   },
   "qstnprt_T4ysVYfVWPWTxSxW": {
@@ -2447,10 +2744,15 @@
    "label": "qstn_C4CzxdFh2MJ7WMXM / part 0",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
-   "pending": [
-    "spcpt_5M6QcjK4xvy9R62Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3rq8DfZz5mFY34SR": {
    "kind": "question_part",
@@ -2472,10 +2774,15 @@
    "label": "qstn_86QFDqjm6SRqbH68 / part 0",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
-   "pending": [
-    "spcpt_5M6QcjK4xvy9R62Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nWcD8n6TNzZttYjt": {
    "kind": "question_part",
@@ -2507,10 +2814,15 @@
    "label": "qstn_G4gKVmTTrxggxPvj / part 0",
    "section": "3-hardware",
    "topic": "computer-architecture",
-   "codes": [],
-   "pending": [
-    "spcpt_5M6QcjK4xvy9R62Y"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_B6rdD4YykSjdFbj6": {
    "kind": "question_part",
@@ -2557,30 +2869,45 @@
    "label": "qstn_4ZGxngKWPvfqMYCk / part 0",
    "section": "3-hardware",
    "topic": "data-storage",
-   "codes": [],
-   "pending": [
-    "spcpt_TtfQMfsCwkfdcYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_58KKZx9sK3tYN5b3": {
    "kind": "question_part",
    "label": "qstn_JdZKcdWkVdVmYrh8 / part 0",
    "section": "3-hardware",
    "topic": "data-storage",
-   "codes": [],
-   "pending": [
-    "spcpt_TtfQMfsCwkfdcYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bmrnh3BRnCwvZRp7": {
    "kind": "question_part",
    "label": "qstn_JdZKcdWkVdVmYrh8 / part 1",
    "section": "3-hardware",
    "topic": "data-storage",
-   "codes": [],
-   "pending": [
-    "spcpt_TtfQMfsCwkfdcYrC"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6BvRhmy7xJhgWWCx": {
    "kind": "question_part",
@@ -2928,10 +3255,15 @@
    "label": "qstn_MkmsZgWbr8zCKd7J / part 0",
    "section": "3-hardware",
    "topic": "network-hardware",
-   "codes": [],
-   "pending": [
-    "spcpt_HtfS3kGsngz2pkK7"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:3.4.1",
+     "official_code": "3.4.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HMmgZV5QCK36GZYh": {
    "kind": "question_part",
@@ -3140,10 +3472,15 @@
    "label": "qstn_jfWPSsjs3dGfYZss / part 2",
    "section": "4-software",
    "topic": "types-of-software-and-interrupts",
-   "codes": [],
-   "pending": [
-    "spcpt_jCpQHf582TKg5Css"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9JD37bMXcnQ8WFyx": {
    "kind": "question_part",
@@ -3235,10 +3572,15 @@
    "label": "qstn_2RR5TxRQhkZpPdFS / part 0",
    "section": "4-software",
    "topic": "types-of-software-and-interrupts",
-   "codes": [],
-   "pending": [
-    "spcpt_jCpQHf582TKg5Css"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sGCW9TvDpzV8XwXg": {
    "kind": "question_part",
@@ -3255,10 +3597,15 @@
    "label": "qstn_tTp7PN8jKP2z49fd / part 0",
    "section": "4-software",
    "topic": "types-of-software-and-interrupts",
-   "codes": [],
-   "pending": [
-    "spcpt_jCpQHf582TKg5Css"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NCF5hq2c9dhg4M9v": {
    "kind": "question_part",
@@ -3547,10 +3894,15 @@
    "label": "qstn_tzN4k46tCMVRsBGc / part 0",
    "section": "5-the-internet-and-its-uses",
    "topic": "digital-currency",
-   "codes": [],
-   "pending": [
-    "spcpt_MVB37B7jBYWw9jbw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fP7FpXR8h7ZCMRFv": {
    "kind": "question_part",
@@ -3577,10 +3929,15 @@
    "label": "qstn_TyHW3KXS78w7MSSz / part 0",
    "section": "5-the-internet-and-its-uses",
    "topic": "the-internet-and-the-world-wide-web",
-   "codes": [],
-   "pending": [
-    "spcpt_F7p8HtzCWkNNkWnY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.1.6",
+     "official_code": "5.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7fPftJ9Q67RwfHmf": {
    "kind": "question_part",
@@ -3672,11 +4029,15 @@
      "official_code": "5.1.5",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.1.1",
+     "official_code": "5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_TsnDyrsPmj9CMtKR"
-   ]
+   "pending": []
   },
   "qstnprt_6qJ9gc3mGXD7xmCF": {
    "kind": "question_part",
@@ -3743,11 +4104,15 @@
      "official_code": "5.1.5",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:5.1.1",
+     "official_code": "5.1.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_TsnDyrsPmj9CMtKR"
-   ]
+   "pending": []
   },
   "qstnprt_q5MHcWh9cbYVsJpQ": {
    "kind": "question_part",
@@ -3990,10 +4355,15 @@
    "label": "qstn_x6dsVMSKSbKf7H4D / part 0",
    "section": "6-automated-and-emerging-technologies",
    "topic": "robotics",
-   "codes": [],
-   "pending": [
-    "spcpt_2H3W7jyVbp8DhMCW"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gTx3p5mjGwY9X4F8": {
    "kind": "question_part",
@@ -4021,11 +4391,16 @@
      "official_code": "6.2.2",
      "tier": "T2_near",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
    "pending": [
-    "spcpt_BRbkgxTQtmj2H6B3",
-    "spcpt_2H3W7jyVbp8DhMCW"
+    "spcpt_BRbkgxTQtmj2H6B3"
    ]
   },
   "qstnprt_ys3yNMyTHRWbbzR5": {
@@ -4520,20 +4895,30 @@
    "label": "qstn_FMjYJfPmGqSBsPYb / part 0",
    "section": "7-algorithm-design-and-problem-solving",
    "topic": "validation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_pSBSvFNDkZT5RKdY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.5",
+     "official_code": "6.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kTksMpf6rYtv4fKr": {
    "kind": "question_part",
    "label": "qstn_Bx3h69JywsjXCzG2 / part 0",
    "section": "7-algorithm-design-and-problem-solving",
    "topic": "validation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_pSBSvFNDkZT5RKdY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:6.3.5",
+     "official_code": "6.3.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G2tQ5WvfcVdFtRBt": {
    "kind": "question_part",
@@ -5225,10 +5610,15 @@
    "label": "qstn_XZQWHPxPgDtmKmft / part 0",
    "section": "8-programming",
    "topic": "programming-concepts",
-   "codes": [],
-   "pending": [
-    "spcpt_7MsH9h9SPYYpmrn9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.1-dup2",
+     "official_code": "8.1.1",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_shr9gyy2XCCnszCP": {
    "kind": "question_part",
@@ -5322,8 +5712,7 @@
    ],
    "pending": [
     "spcpt_ypRFKV9Mxf8yh3WY",
-    "spcpt_Mz7Hvgsg7KDrBTjT",
-    "spcpt_7MsH9h9SPYYpmrn9"
+    "spcpt_Mz7Hvgsg7KDrBTjT"
    ]
   },
   "qstnprt_JcjWgDZyFZD4jnnw": {
@@ -5399,9 +5788,7 @@
      "method": "cie_text_join"
     }
    ],
-   "pending": [
-    "spcpt_KcCh8pWNfC8QQsRF"
-   ]
+   "pending": []
   },
   "qstnprt_y3W3M6Xp5NtBN7mz": {
    "kind": "question_part",
@@ -5424,20 +5811,30 @@
      "official_code": "6.3.5",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
     }
    ],
-   "pending": [
-    "spcpt_7JRKzsBqqdfPqf5t"
-   ]
+   "pending": []
   },
   "qstnprt_Rtvcbd6KJfPkCc9v": {
    "kind": "question_part",
    "label": "qstn_FhpThrhvmn9cCMVx / part 0",
    "section": "9-databases",
    "topic": "databases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.1.2",
+     "official_code": "8.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
    "pending": [
-    "spcpt_7JRKzsBqqdfPqf5t",
     "spcpt_3hpC7gNs8YZ6t7kd"
    ]
   },
