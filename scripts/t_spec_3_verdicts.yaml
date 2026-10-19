@@ -1,0 +1,256 @@
+# T-SPEC-3 — biology family spec-point resolution record (2026-09-19)
+#
+# Extends the chemistry T-SPEC chain (T-SPEC-1/2/2b/2c/2e) to the biology
+# IGCSE family: igcse-biology-19, igcse-biology-modular-24-unit-1,
+# igcse-biology-modular-24-unit-2, igcse-science-double-award-17-biology.
+#
+# Evidence standard: every resolve verdict is a VERBATIM join — the SME tag's
+# committed definition (spec_point_index.json) is byte-level the official
+# statement text (or a contained sub-paragraph of it). The fail-closed apply
+# re-proves every containment at run time; nothing below is opinion.
+#
+# Two SME-internal causes produced the honest tail:
+#   (a) SME split statement 1.1 (MRS GREN characteristics) into nine
+#       per-characteristic tags, each carrying the FULL statement as its
+#       definition text — the stage-1 name-similarity scorer refused them
+#       ("merged/paraphrased beyond safe threshold") because the tag NAME
+#       is one word of a long statement.
+#   (b) the kingdom tags (Plants/Animals/Fungi/Protoctists) each carry one
+#       kingdom paragraph of statement 1.2 verbatim — same refusal cause.
+#   (c) Xylem & Phloem is a genuinely merged id spanning TWO statements
+#       (phloem 2.53/3.3/2.53 + xylem 2.54/3.4/2.54): resolved 1:1 to the
+#       phloem statement (first sentence of the committed definition) with
+#       the xylem statement recorded as twin, and per-part supersede
+#       verdicts so each part carries only the codes its own text exercises.
+#
+# Registry-coverage repairs (ids present in spec_point_index.json but absent
+# from spec_point_map.json's mappings+unmapped partition — found during
+# T-SPEC-3 diagnostics):
+#   spcpt_nNMTzc3PZPpMmSx9 (Comparing Mitosis & Meiosis) — indexed in all
+#     three linear/modular/SDA courses, absent from all three maps.
+#   spcpt_KW2X5RdVFhDMwSws (Table summarising ultrafiltration, ...) —
+#     indexed in bio-19 + mod-u2, absent from both maps; no definition and
+#     no content anchors: recorded UNRESOLVED (no-guess), blocks nothing.
+#
+# PMT (PhysicsAndMathsTutor) is EXCLUDED as an evidence source (operator
+# instruction 2026-09-18); no PMT content was consulted for any verdict.
+
+meta:
+  series: T-SPEC-3
+  date: "2026-09-19"
+  evidence_standard: >-
+    verbatim-definition join: the SME definition committed in
+    spec_point_index.json must be token-contained in the course's own
+    official registry statement text (or, for statement 1.1, its sub_items);
+    the apply re-validates every containment fail-closed
+  pmt_excluded: true
+  registry_gaps_repaired: [spcpt_nNMTzc3PZPpMmSx9, spcpt_KW2X5RdVFhDMwSws]
+
+id_verdicts:
+  # ---------- statement 1.1 family (MRS GREN; nine per-characteristic tags) ----------
+  spcpt_N8JcjXHFGp76BmXB:   # The Unifying Characteristics of Living Organisms
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    rationale: >-
+      SME's parent tag for the shared-characteristics statement; its committed
+      definition is the full 1.1 lead line plus all eight characteristic
+      sub-items verbatim.
+  spcpt_YDfbs65hBRFgkQ2t:   # Nutrition
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they require nutrition"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_vC3ymMsQZpqqWNqs:   # Respiration
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they respire"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_4CrBqmm6Mjvkbx54:   # Excretion
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they excrete their waste"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_3wQdKC3pyNdXpYP6:   # Response to Surroundings
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they respond to their surroundings"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_dCV6Q7gVjb6wRf2b:   # Movement
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they move"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_NC4bnH5Y66mKhHFr:   # Control
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they control their internal conditions"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_W9GG3px2h2jjVdjF:   # Growth
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they grow and develop."   # verbatim registry sub-item (final item carries the full stop)
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+  spcpt_TFZBG25hvdkdzZkK:   # Reproduction
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.1", igcse-biology-modular-24-unit-1: "1.1", igcse-science-double-award-17-biology: "1.1"}
+    quote: "understand how living organisms share the following characteristics"
+    sub_item: "they reproduce"
+    rationale: SME per-characteristic split of 1.1; definition text identical to the statement.
+
+  # ---------- statement 1.2 family (eukaryotic kingdoms; verbatim paragraphs) ----------
+  spcpt_j2VhT6TgfSNbkqGb:   # Common Features of Eukaryotic Organisms: Basics
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.2", igcse-biology-modular-24-unit-1: "1.2", igcse-science-double-award-17-biology: "1.2"}
+    quote: "describe the common features shown by eukaryotic organisms: plants, animals, fungi and protoctists"
+    rationale: SME lead-in tag; definition is the 1.2 opening sentence verbatim.
+  spcpt_WwknBFhYKNMDPnGD:   # Plants
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.2", igcse-biology-modular-24-unit-1: "1.2", igcse-science-double-award-17-biology: "1.2"}
+    quote: "Plants: these are multicellular organisms; their cells contain chloroplasts and are able to carry out photosynthesis; their cells have cellulose cell walls; they store carbohydrates as starch or sucrose. Examples"
+    rationale: >-
+      The tag's committed definition is the Plants paragraph of statement 1.2
+      verbatim (examples sentence included); the paragraph sits inside 1.2's
+      text in all three registries.
+  spcpt_w8KVx3SdzmTrbWbJ:   # Animals
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.2", igcse-biology-modular-24-unit-1: "1.2", igcse-science-double-award-17-biology: "1.2"}
+    quote: "Animals: these are multicellular organisms; their cells do not contain chloroplasts and are not able to carry out photosynthesis; they have no cell walls"
+    rationale: >-
+      The tag's committed definition is the Animals paragraph of statement 1.2
+      verbatim; the quote is the paragraph's opening portion (the modular
+      parse hyphen-splits 'co- ordination', so the quote ends before it).
+  spcpt_fZdHWDNTMJK3wNJ4:   # Fungi
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.2", igcse-biology-modular-24-unit-1: "1.2", igcse-science-double-award-17-biology: "1.2"}
+    quote: "Fungi: these are organisms that are not able to carry out photosynthesis; their body is usually organised into a mycelium made from thread-like structures called hyphae, which contain many nuclei"
+    rationale: The tag's committed definition is the Fungi paragraph of statement 1.2 verbatim (chitin / saprotrophic nutrition / glycogen / Mucor and yeast sentences included).
+  spcpt_M9r2hWkX8BWZQdKT:   # Protoctists
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.2", igcse-biology-modular-24-unit-1: "1.2", igcse-science-double-award-17-biology: "1.2"}
+    quote: "Protoctists: these are microscopic single-celled organisms. Some, like Amoeba, that live in pond water, have features like an animal cell, while others, like Chlorella, have chloroplasts and are more like plants"
+    rationale: The tag's committed definition is the Protoctists paragraph of statement 1.2 verbatim.
+
+  # ---------- statement 1.4 (pathogens) ----------
+  spcpt_2bjVfphyG3c6dHXd:   # Types of Pathogen
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "1.4", igcse-biology-modular-24-unit-1: "1.4", igcse-science-double-award-17-biology: "1.4"}
+    quote: "understand the term pathogen and know that pathogens may include fungi, bacteria, protoctists"
+    rationale: >-
+      Definition is the 1.4 lead sentence verbatim. WORDING VARIANT recorded:
+      bio-19 and modular registries read "protoctists or viruses"; the SDA
+      registry reads "protoctists and viruses" (curly-quoted 'pathogen') —
+      the quote above is the common portion, contained in all three.
+  spcpt_YKpJHS4ZTM4qnrV7:   # Xylem & Phloem (merged id spanning two statements)
+    verdict: resolve
+    tier: V1_definition_verbatim
+    codes: {igcse-biology-19: "2.53", igcse-biology-modular-24-unit-2: "3.3", igcse-science-double-award-17-biology: "2.53"}
+    quote: "describe the role of phloem in transporting sucrose and amino acids between the leaves and other parts of the plant"
+    twin: {igcse-biology-19: "2.54", igcse-biology-modular-24-unit-2: "3.4", igcse-science-double-award-17-biology: "2.54"}
+    rationale: >-
+      GENUINE MERGE: the id's committed definition contains BOTH the phloem
+      statement and the xylem statement verbatim. The 1:1 map join resolves
+      to the phloem statement (first sentence of the definition); the xylem
+      statement is recorded as twin and carried per-part by the supersede
+      verdicts below, so each part carries only the codes its own text
+      exercises. The anchored "Xylem and Phloem" revision note keeps the
+      single phloem code (1:1 id-lane limitation, recorded).
+
+  # ---------- registry-coverage repairs ----------
+  spcpt_nNMTzc3PZPpMmSx9:   # Comparing Mitosis & Meiosis (gap: absent from all three maps)
+    verdict: resolve
+    tier: V3_convergent
+    codes: {igcse-biology-19: "3.30", igcse-biology-modular-24-unit-2: "4.30", igcse-science-double-award-17-biology: "3.30"}
+    twin: {igcse-biology-19: "3.28", igcse-biology-modular-24-unit-2: "4.28", igcse-science-double-award-17-biology: "3.28"}
+    quote: "Give three differences between mitosis and meiosis"
+    quote_source: flashcard front (SME-Flashcards, committed)
+    rationale: >-
+      No definition committed (SME topic tag). Content converges on meiosis:
+      the anchored SDA flashcards ask for mitosis-vs-meiosis differences and
+      which division produces gametes — the meiosis statement (3.30/4.30/3.30)
+      is the dominant target; the mitosis statement (3.28/4.28/3.28) is
+      recorded as twin. Repairs the map/index partition gap in all three
+      courses that index the id (blocks 2 SDA flashcards via inheritance).
+  spcpt_KW2X5RdVFhDMwSws:   # Table summarising ultrafiltration, selective absorption and water absorption
+    verdict: pending
+    courses: [igcse-biology-19, igcse-biology-modular-24-unit-2]
+    reason: >-
+      indexed-but-unanchored registry gap: the id exists in the harvest index
+      but anchors no question part and carries no definition text; the only
+      note association is the Section-1 classification page (an SME indexing
+      quirk for a table id). No committed content evidence to join — never
+      guessed (no-guess discipline). Blocks nothing.
+
+part_verdicts:
+  # supersede the id-derived codes for these parts (each part carries only the
+  # codes its own text exercises); evidence quotes are committed part text.
+  qstnprt_mmBGkN5X7vFwYqn8:   # leaf cross-section, vascular bundle (bio-19)
+    course: igcse-biology-19
+    codes: ["2.53", "2.54"]
+    quotes:
+      - {field: solution_md, text: "Xylem = transports water / mineral ions"}
+      - {field: solution_md, text: "Phloem = transports sugars/sucrose / amino acids"}
+    rationale: asks for the two vascular tissues AND both functions — both statements exercised.
+  qstnprt_9P6DHdRKH8m28gF7:   # "Name the tissue that transports water" (bio-19)
+    course: igcse-biology-19
+    codes: ["2.54"]
+    quotes:
+      - {field: problem_md, text: "Name the tissue that transports water"}
+    rationale: >-
+      xylem only; the id-derived phloem code is superseded away — the part
+      does not exercise the phloem statement.
+  qstnprt_8jxr7bgbVPBrScJH:   # aphids feed on phloem (bio-19)
+    course: igcse-biology-19
+    codes: ["2.53"]
+    quotes:
+      - {field: problem_md, text: "Name two substances the aphids obtain from the phloem"}
+    rationale: >-
+      phloem only; the solution's "water and minerals are transported in the
+      xylem, not the phloem" line is examiner guidance, not an exercised
+      statement — xylem twin NOT coded here.
+  qstnprt_T4G7q53fj4XpZKCw:   # "Name the tissue that transports water" (mod-u2)
+    course: igcse-biology-modular-24-unit-2
+    codes: ["3.4"]
+    quotes:
+      - {field: problem_md, text: "Name the tissue that transports water"}
+    rationale: xylem only; phloem superseded away.
+  qstnprt_CBFdVSyV88vMQnsv:   # aphids feed on phloem (mod-u2)
+    course: igcse-biology-modular-24-unit-2
+    codes: ["3.3"]
+    quotes:
+      - {field: problem_md, text: "Name two substances the aphids obtain from the phloem"}
+    rationale: phloem only; xylem twin not exercised (same reasoning as bio-19 aphid part).
+  qstnprt_qnj7x6Z5Hx8SM8bD:   # "Name the tissue that transports water" (SDA)
+    course: igcse-science-double-award-17-biology
+    codes: ["2.54"]
+    quotes:
+      - {field: problem_md, text: "Name the tissue that transports water"}
+    rationale: xylem only; phloem superseded away.
+  qstnprt_pwKGWjjqGp9zsFkz:   # aphids feed on phloem (SDA)
+    course: igcse-science-double-award-17-biology
+    codes: ["2.53"]
+    quotes:
+      - {field: problem_md, text: "Name two substances the aphids obtain from the phloem"}
+    rationale: phloem only; xylem twin not exercised.

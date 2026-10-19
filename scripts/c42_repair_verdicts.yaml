@@ -1,0 +1,546 @@
+schema: c42-r1-repair-verdicts/1.0
+task: T-C42
+stage: r1-tspec-resolution-repair-round
+contract: graph/reports/C42_IGCSE_MATHS_A_K2B_REWORK_SCOPE.md §4 R1 (gate 1)
+directive: fire R1 (2026-10-02, zai-web)
+review_date: '2026-10-02'
+reviewer: Super Z (GLM agent), operator-delegate under the fired R1 directive; the human
+  operator retains final sign-off; per the anti-forgery rule nothing here promotes store
+  rows (the C40 substrate stays SUGGESTED; the C41-promoted 73 edges are untouched)
+method: per-row adjudication over the C40 fill's evidence quotes + the ratified 188-point
+  store wordings + the C30 tier-dedupe ledger's Foundation wordings + the resolution file's
+  own recorded reasons; the deterministic candidates of scripts/c42_repair_proposals.py
+  were PROPOSAL-ONLY inputs and bound nothing; PMT excluded as source
+key_finding: the C30 tier-dedupe ledger's Foundation wordings resolve most of the 45
+  note-level rejects as WORDING-TIER ARTIFACTS — joins whose code was already correct at
+  Foundation tier (e.g. 2.2B-F 'collect like terms', 6.3D-F 'find probabilities from a
+  Venn diagram', 4.8A-F 'Pythagoras'' theorem in two dimensions') that the C40 fill
+  rejected against the Higher-operative wording alone. R4's re-fill MUST consult both
+  tier wordings (store operative wording + ledger foundation.text per code) or it will
+  re-reject these joins. 21 joins are AFFIRMED on that evidence; 22 are CORRECTED; 2 are
+  UNRESOLVED (no canonical row exists); the residual stays UNRESOLVED per its own
+  PDF-verified reason.
+dispositions:
+  AFFIRM: the current code is correct — ledger Foundation wording evidence; no code change
+  CORRECT: the code changes to the corrected_code (canonical 188 member)
+  UNRESOLVED: no canonical row teaches the note's content — the wrong code is CLEARED
+    (resolved_code -> null), never forced
+surfaces:
+  id_level: { declared: 45, affirm: 21, correct: 22, unresolved: 2 }
+  residual: { declared: 1, kept_unresolved: 1 }
+  section_level: { declared: 16, reattribute: 12, retain: 4 }
+
+verdicts:
+  spcpt_XC6PSG6CcXnNDb3Q:
+    note_title: Exchange Rates
+    prior_code: 4MA1-3.4C
+    disposition: CORRECT
+    corrected_code: 4MA1-1.10C
+    tier_wording_source: store
+    evidence: 1.10C 'understand and carry out calculations using time, and carry out
+      calculations using money, including converting between currencies' — the
+      converting-between-currencies clause is verbatim the note's teaching
+      ('How do I convert between currencies?')
+  spcpt_8Wtthy9gt8B5xsVW:
+    note_title: Mathematical Symbols
+    prior_code: 4MA1-1.5C
+    disposition: UNRESOLVED
+    corrected_code: null
+    evidence: the note is a general mathematical-symbols glossary ('What mathematical
+      symbols do I need to know?'); no canonical row teaches a symbols glossary
+      (1.5C n(A) is set notation; 2.1A/2.3A are symbols-as-variables specifics);
+      cleared, never forced
+  spcpt_3n2jHMX7vMBh95jq:
+    note_title: Negative Numbers
+    prior_code: 4MA1-1.4A
+    disposition: CORRECT
+    corrected_code: 4MA1-1.1C
+    tier_wording_source: store
+    evidence: 1.1C 'use directed numbers in practical situations' — the note teaches
+      calculation rules with negatives and their real-life use (temperature, money/debt),
+      exactly directed numbers in practical situations; 1.1A (integers) is the
+      conceptual sibling recorded in the reasoning
+  spcpt_cDnTk2242hfSCjVh:
+    note_title: Powers & Roots
+    prior_code: 4MA1-1.4A
+    disposition: CORRECT
+    corrected_code: 4MA1-1.4B
+    tier_wording_source: ledger
+    evidence: 1.4B Foundation wording 'calculate squares, square roots, cubes and cube
+      roots' is verbatim the note's teaching (powers/indices, square roots, cube roots,
+      estimating a root); the store's operative 1.4B wording is the Higher surds text,
+      so the ledger pair is carried as evidence
+  spcpt_qpSmD6yNY5t5GrW6:
+    note_title: Introduction to Ratios
+    prior_code: 4MA1-1.7B
+    disposition: CORRECT
+    corrected_code: 4MA1-1.7A
+    tier_wording_source: store
+    evidence: 1.7A 'use ratio notation, including reduction to its simplest form and its
+      various links to fraction notation' — the note teaches what ratios are,
+      equivalent ratios and simplification; dividing a quantity (1.7B) is a different note
+  spcpt_M5rhN2mwnR2yddc6:
+    note_title: Upper & Lower Bounds
+    prior_code: 4MA1-1.10B
+    disposition: CORRECT
+    corrected_code: 4MA1-1.8A
+    tier_wording_source: store
+    evidence: 1.8A 'solve problems using upper and lower bounds where values are given to
+      a degree of accuracy' — the note teaches finding bounds of rounded numbers AND using
+      bounds in calculations/contexts; 1.8C (identify-only, Foundation) is the sibling
+  spcpt_xf7Y5cxcQG3T6g65:
+    note_title: Using a Calculator
+    prior_code: 4MA1-4.5C
+    disposition: CORRECT
+    corrected_code: 4MA1-1.11A
+    tier_wording_source: store
+    evidence: 1.11A 'use a scientific electronic calculator to determine numerical
+      results' is verbatim the note's teaching (calculator settings, shortcut buttons,
+      trig/std-form keys, Ans)
+  spcpt_gzQvnKpxPvTqzzBp:
+    note_title: Algebraic Notation
+    prior_code: 4MA1-1.3A
+    disposition: CORRECT
+    corrected_code: 4MA1-2.1A
+    tier_wording_source: ledger
+    evidence: 2.1A Foundation wording 'understand that symbols may be used to represent
+      numbers in equations or variables in expressions and formulae' is verbatim the
+      note's teaching ('What is algebra? How do I write calculations in algebra?')
+  spcpt_jTrpYhtMdhpPhwxb:
+    note_title: Algebraic Vocabulary
+    prior_code: 4MA1-2.1A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: the note defines term/factor/expression/equation/formula; 2.1A Foundation
+      wording ('symbols ... in equations or variables in expressions and formulae') is the
+      definitional primer for exactly those objects — moderate fit, flagged for R4
+      re-review; the C40 reject was a wording-tier artifact (vs the Higher index-notation
+      text)
+  spcpt_rsCdKqXKjhfmkyqT:
+    note_title: Collecting Like Terms
+    prior_code: 4MA1-2.2B
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 2.2B Foundation wording is verbatim 'collect like terms' — the join was
+      correct all along; the C40 reject compared against the Higher wording (quadratic
+      factorisation)
+  spcpt_6tmCTQJYPsTdKKZ6:
+    note_title: Substitution
+    prior_code: 4MA1-2.2A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 2.2A Foundation wording is verbatim 'evaluate expressions by substituting
+      numerical values for letters' — the join was correct all along; the C40 reject
+      compared against the Higher wording (expand products)
+  spcpt_S2dfVTzRhCh7pRzW:
+    note_title: Expanding Double Brackets
+    prior_code: 4MA1-2.2E
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 2.2E Foundation wording is verbatim 'expand the product of two simple linear
+      expressions' — the join was correct all along; the C40 reject compared against the
+      Higher wording (proof)
+  spcpt_m8WdtZKSWCKNFKrY:
+    note_title: Formulas where Subject Appears Twice
+    prior_code: 4MA1-2.3F
+    disposition: CORRECT
+    corrected_code: 4MA1-2.3A
+    tier_wording_source: store
+    evidence: 2.3A Higher wording '...to include cases where the subject may appear twice
+      or a power of the subject occurs' is verbatim the note's teaching; 2.3F is the
+      subject-appears-once Foundation row
+  spcpt_7YTSNFdbGCTSMHJX:
+    note_title: Deciding the Quadratic Method
+    prior_code: 4MA1-2.7D
+    disposition: CORRECT
+    corrected_code: 4MA1-2.7B
+    tier_wording_source: store
+    evidence: 2.7B 'solve quadratic equations by using the quadratic formula or completing
+      the square' — the note's method-choice sections are dominated by formula and
+      completing-the-square; factorisation is 2.7A's surface; 2.7D is simultaneous
+      linear-quadratic, unrelated
+  spcpt_Jw35TTKhvXxmGGfP:
+    note_title: 2D Coordinates
+    prior_code: 4MA1-3.3B
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 3.3B Foundation wording 'understand and use conventions for rectangular
+      Cartesian coordinates' is verbatim the note's teaching (Cartesian plane,
+      coordinates); the C40 reject compared against the Higher wording (graph
+      transformations)
+  spcpt_XhXhg6sRyMQ88chp:
+    note_title: Gradient of a Line
+    prior_code: 4MA1-3.3G
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 3.3G Foundation wording is verbatim 'find the gradient of a straight line' —
+      the join was correct all along; the C40 reject compared against the Higher wording
+      (parallel/perpendicular equations)
+  spcpt_hMqjBRzQQfvsc9f8:
+    note_title: Length of a Line
+    prior_code: 4MA1-3.3G
+    disposition: CORRECT
+    corrected_code: 4MA1-4.8A
+    tier_wording_source: ledger
+    evidence: the note teaches the distance/length formula between two points, which is
+      Pythagoras' theorem in two dimensions — 4.8A Foundation wording 'know, understand
+      and use Pythagoras'' theorem in two dimensions'; no coordinate-geometry length row
+      exists in the canonical 188; moderate fit, flagged for R4
+  spcpt_84hZy4pDd8nBGN3r:
+    note_title: Midpoint of a Line
+    prior_code: 4MA1-3.3E
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 3.3E Foundation wording 'determine the coordinates of the midpoint of a line
+      segment, given the coordinates of the two endpoints' is verbatim the note's teaching;
+      the C40 reject compared against the Higher wording (graph intersections)
+  spcpt_TZkZ5ZK4bRYdjnGY:
+    note_title: Inverse Functions
+    prior_code: 4MA1-3.3I
+    disposition: CORRECT
+    corrected_code: 4MA1-3.2D
+    tier_wording_source: store
+    evidence: 3.2D 'understand and find the composite function fg and the inverse function
+      f-1' — the note teaches inverse functions incl. notation, algebraic finding,
+      composite relation and domain/range; 3.3I is plotting, unrelated
+  spcpt_6bYjJ8kxTNBbcSjX:
+    note_title: Trigonometric Graphs
+    prior_code: 4MA1-3.3F
+    disposition: CORRECT
+    corrected_code: 4MA1-3.3A
+    tier_wording_source: store
+    evidence: 3.3A Higher wording explicitly includes 'y = sin x, y = cos x, y = tan x for
+      angles of any size (in degrees)' — verbatim the note's teaching (shapes of the trig
+      graphs); 3.3F is gradient-from-two-points, unrelated
+  spcpt_qPRh2fycSMYwytcV:
+    note_title: Parallel Lines
+    prior_code: 4MA1-4.1B
+    disposition: CORRECT
+    corrected_code: 4MA1-3.3G
+    tier_wording_source: store
+    evidence: 3.3G Higher wording 'find the equation of a straight line parallel to a given
+      line' is verbatim the note's teaching ('How do I find the equation of a parallel
+      line?'); the note lives in the geometry tree but teaches the 3.3G algebra surface;
+      4.1B angle properties is unrelated
+  spcpt_Nh8WWWGQxmJGVvvf:
+    note_title: Conversion Graphs
+    prior_code: 4MA1-3.3F
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 3.3F Foundation wording is verbatim 'draw and interpret straight line
+      conversion graphs' — the join was correct all along; the C40 reject compared against
+      the Higher wording (gradient from two points)
+  spcpt_MTZDMgNSvV3FdVVR:
+    note_title: Distance-Time Graphs
+    prior_code: 4MA1-3.3F
+    disposition: CORRECT
+    corrected_code: 4MA1-4.4F
+    tier_wording_source: store
+    evidence: 4.4F 'understand and use the relationship between average speed, distance and
+      time' — the note's mathematical core is reading distance-time graphs and computing
+      (overall average) speed; 3.3A-F (interpret linear graphs) was considered and
+      recorded as the alternative
+  spcpt_NNhjQfXtS7sNJyHD:
+    note_title: Introduction to Sequences
+    prior_code: 4MA1-3.1A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 3.1A Foundation wording 'generate terms of a sequence using term-to-term and
+      position-to-term definitions of the sequence' is verbatim the note's teaching; the
+      C40 reject compared against the Higher wording (common difference/first term)
+  spcpt_3fMGfNtg3hXMg6gC:
+    note_title: Problem Solving with Areas
+    prior_code: 4MA1-4.11C
+    disposition: UNRESOLVED
+    corrected_code: null
+    evidence: the note is a generic real-life area problem-solving page (carpet/painting
+      style problems) spanning several area formulae (4.9C/4.9D/4.9E); no canonical row
+      teaches a composite area problem-solving methodology; 4.11C (similar figures) is
+      unrelated; cleared, never forced
+  spcpt_wnkGx4MqYbQSFdnb:
+    note_title: Scale
+    prior_code: 4MA1-4.11B
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.11B Foundation wording is verbatim 'use and interpret maps and scale
+      drawings' — the join was correct all along; the C40 reject compared against the
+      Higher wording (volumes of similar figures)
+  spcpt_pNBVGz3x9h4NS45m:
+    note_title: Theorems with Chords & Tangents
+    prior_code: 4MA1-4.6B
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.6B Foundation wording is verbatim 'understand chord and tangent properties
+      of circles' — the note teaches exactly the chord-bisector, radius-tangent and
+      equal-tangents theorems; the C40 reject compared against the Higher wording
+      (cyclic quadrilateral recognition)
+  spcpt_rq6jFXGjg6FVSnKc:
+    note_title: Angles in Cyclic Quadrilaterals
+    prior_code: 4MA1-4.2B
+    disposition: CORRECT
+    corrected_code: 4MA1-4.6C
+    tier_wording_source: store
+    evidence: 4.6C clause (iv) 'the sum of the opposite angles of a cyclic quadrilateral is
+      180 degrees' is verbatim the note's theorem; 4.2B is the general quadrilateral angle
+      sum, a different surface
+  spcpt_fMWRd3TnmcQ3c92k:
+    note_title: Angles in the Same Segment
+    prior_code: 4MA1-4.6A
+    disposition: CORRECT
+    corrected_code: 4MA1-4.6C
+    tier_wording_source: store
+    evidence: 4.6C clause (iii) 'angles in the same segment are equal' is verbatim the
+      note's theorem; 4.6A is the intersecting-chord properties, a different surface
+  spcpt_xDpKVBxDTCk2x6vS:
+    note_title: Similar Lengths
+    prior_code: 4MA1-4.11A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.11A Foundation wording 'understand and use the geometrical properties that
+      similar figures have corresponding lengths in the same ratio...' is verbatim the
+      note's teaching (scale factors and missing lengths on similar shapes); the C40
+      reject compared against the Higher wording (areas ratio)
+  spcpt_HcBpSfpzpdZqCFXk:
+    note_title: Similarity
+    prior_code: 4MA1-4.11A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.11A Foundation wording (corresponding lengths in the same ratio, angles
+      unchanged) is the note's definitional teaching; the proof-of-similarity sections
+      extend it — moderate fit, flagged for R4; the C40 reject was a wording-tier artifact
+  spcpt_XWwgtKhQDRhyY5m4:
+    note_title: Pythagoras Theorem
+    prior_code: 4MA1-4.8A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.8A Foundation wording is verbatim 'know, understand and use Pythagoras''
+      theorem in two dimensions' — the join was correct all along; the C40 reject compared
+      against the Higher wording (trig of obtuse angles)
+  spcpt_Xqkq2qz7NzMcVZHQ:
+    note_title: 3D Shapes
+    prior_code: 4MA1-4.10A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 4.10A Foundation wording 'recognise and give the names of solids' is the
+      note's teaching (common 3D shapes and their properties); the C40 reject compared
+      against the Higher wording (sphere/cone surface area and volume)
+  spcpt_pKCFj25GzzqW6sr3:
+    note_title: Volume
+    prior_code: 4MA1-4.10F
+    disposition: CORRECT
+    corrected_code: 4MA1-4.10E
+    tier_wording_source: store
+    evidence: 4.10E 'find the volume of prisms, including cuboids and cylinders, using an
+      appropriate formula' — the note's dominant sections (cube/cuboid, prism, cylinder);
+      the cone/sphere tail sections correspond to 4.10A and are recorded in the reasoning
+      for R4 visibility; 4.10F (metric volume conversion) is unrelated
+  spcpt_wt9snSTkmXqhMvXn:
+    note_title: Representing Vectors as Diagrams
+    prior_code: 4MA1-6.1C
+    disposition: CORRECT
+    corrected_code: 4MA1-5.1A
+    tier_wording_source: store
+    evidence: 5.1A 'understand that a vector has both magnitude and direction' is the
+      note's lead section (representing a vector visually); the scalar-multiple and
+      add/subtract sections correspond to 5.1C/5.1D and are recorded for R4 visibility;
+      6.1C (cumulative frequency) is unrelated
+  spcpt_DkBXXfmWk2hGVF6Y:
+    note_title: Conditional Probability
+    prior_code: 4MA1-6.3B
+    disposition: CORRECT
+    corrected_code: 4MA1-6.3C
+    tier_wording_source: store
+    evidence: 6.3C 'use simple conditional probability when combining events' is verbatim
+      the note's teaching; 6.3B is the independent-events row, a different surface
+  spcpt_8sCVwmD5VVBv6xWg:
+    note_title: Interpreting Cumulative Frequency Diagrams
+    prior_code: 4MA1-6.1B
+    disposition: CORRECT
+    corrected_code: 4MA1-6.1C
+    tier_wording_source: store
+    evidence: 6.1C 'use cumulative frequency diagrams' is the note's teaching (use and
+      interpret; the median/quartile/percentile sections correspond to 6.2A/6.2D and are
+      recorded for R4 visibility); 6.1B is the construction row
+  spcpt_Rv3DcsGBkxSkb8Ms:
+    note_title: Probabilities from Venn Diagrams
+    prior_code: 4MA1-1.5E
+    disposition: CORRECT
+    corrected_code: 4MA1-6.3D
+    tier_wording_source: ledger
+    evidence: 6.3D Foundation wording is verbatim 'find probabilities from a Venn diagram'
+      — the note's exact teaching; 1.5E is the represent-sets row
+  spcpt_hTsm2dz7xmwM4jwW:
+    note_title: Probability Tree Diagrams
+    prior_code: 4MA1-6.1C
+    disposition: CORRECT
+    corrected_code: 4MA1-6.3A
+    tier_wording_source: store
+    evidence: 6.3A 'draw and use tree diagrams' is verbatim the note's teaching (draw,
+      read probabilities, conditional use); 6.1C is cumulative frequency, unrelated
+  spcpt_Nd47QSGCxH96FDk3:
+    note_title: Averages from Grouped Data
+    prior_code: 4MA1-6.2C
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.2C Foundation wording is verbatim 'calculate an estimate for the mean for
+      grouped data' (the modal-class section pairs with 6.2D Foundation 'identify the
+      modal class for grouped data') — the join was correct all along; the C40 reject
+      compared against the Higher wording (IQR from a discrete set)
+  spcpt_kHwc5r3247TGRwyS:
+    note_title: Bar Charts & Pictograms
+    prior_code: 4MA1-6.1A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.1A Foundation wording 'use different methods of presenting data Pictograms,
+      bar charts' names the note's diagrams verbatim — the join was correct all along;
+      the C40 reject compared against the Higher wording (histograms)
+  spcpt_nXY9n4Vt3cVTmKcR:
+    note_title: Comparing Statistical Diagrams
+    prior_code: 4MA1-6.1C
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.1C Foundation wording 'interpret statistical diagrams' covers comparing
+      diagrams; moderate fit, flagged for R4; the C40 reject compared against the Higher
+      wording (cumulative frequency use)
+  spcpt_myNYhxstM7xnZd9P:
+    note_title: Mean, Median & Mode
+    prior_code: 4MA1-6.2B
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.2B Foundation wording is verbatim 'calculate the mean, median, mode and
+      range for a discrete data set' — the join was correct all along; the C40 reject
+      compared against the Higher wording (measure of spread)
+  spcpt_rxmWrBrc2s2q45wF:
+    note_title: Pie Charts
+    prior_code: 4MA1-6.1A
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.1A Foundation wording 'use different methods of presenting data...' — the
+      pie chart is one of those methods (the ledger's enumeration text is partial but the
+      presenting-data statement is the canonical surface); moderate fit, flagged for R4;
+      the C40 reject compared against the Higher wording (histograms)
+  spcpt_bGtx4SMcX6BRS6KP:
+    note_title: Reading & Interpreting Statistical Diagrams
+    prior_code: 4MA1-6.1C
+    disposition: AFFIRM
+    tier_wording_source: ledger
+    evidence: 6.1C Foundation wording is verbatim 'interpret statistical diagrams' — the
+      join was correct all along; the C40 reject compared against the Higher wording
+
+residual:
+  anchor_id: spcpt_QWXhzVp2S3VYZdZc
+  note_title: Discrete & Continuous Data
+  disposition: KEEP_UNRESOLVED
+  evidence: the row's own recorded reason stands — 'the 4MA1 print has no standalone
+    discrete/continuous statement (PDF-verified; the term appears only inside mean and
+    interquartile-range fragments 6.2B/6.2C)'; the C32 scorer's proposals (6.2C IQR,
+    6.3G, 6.1B) teach unrelated content and are REJECTED; the two substrate worklist
+    chunk rows stay recorded-not-forced
+
+section_overrides:
+  basic-fractions::6:
+    current_code: 4MA1-1.2I
+    disposition: REATTRIBUTE
+    override_code: 4MA1-1.2A
+    evidence: the section teaches simplifying fractions; 1.2A 'understand and use
+      equivalent fractions, simplifying a fraction by cancelling common factors' is
+      verbatim; 1.2I is multiply/divide fractions
+  basic-percentages::2:
+    current_code: 4MA1-1.6F
+    disposition: REATTRIBUTE
+    override_code: 4MA1-1.6E
+    evidence: the section teaches finding a percentage of an amount; 1.6E 'solve simple
+      percentage problems, including percentage increase and decrease' is the skill row
+      (1.6D multiplicative-operator concept recorded as sibling); 1.6F is reverse
+      percentages
+  algebraic-roots-and-indices::0:
+    current_code: 4MA1-1.4C
+    disposition: RETAIN
+    evidence: heading-only section head (the C40 convention keeps heading-only chunks);
+      the heading names the note's 1.4C topic; the semantic gate cannot verify
+      heading-only chunks — a known R4 re-fill limitation to handle explicitly
+  solving-linear-inequalities::3:
+    current_code: 4MA1-2.8D
+    disposition: REATTRIBUTE
+    override_code: 4MA1-2.8C
+    evidence: the section represents inequalities on a NUMBER LINE; 2.8C 'solve simple
+      linear inequalities in one variable and represent the solution set on a number line'
+      is verbatim; 2.8D demands Cartesian-graph representation
+  quadratic-graphs::4:
+    current_code: 4MA1-3.3I
+    disposition: REATTRIBUTE
+    override_code: 4MA1-2.2D
+    evidence: the section's mechanic is completing the square (2.2D 'complete the square
+      for a given quadratic expression'); the fill's 2.7B hint was solving-flavoured and
+      is refined here — finding a turning point is not equation-solving
+  quadratic-graphs::5:
+    current_code: 4MA1-3.3I
+    disposition: REATTRIBUTE
+    override_code: 4MA1-3.4C
+    evidence: the section teaches differentiation applied to quadratics — 3.4C 'determine
+      gradients, rates of change, stationary points, turning points ... by
+      differentiation' is verbatim (the fill's own evidence names the 3.4C surface)
+  drawing-straight-line-graphs::1:
+    current_code: 4MA1-3.3F
+    disposition: REATTRIBUTE
+    override_code: 4MA1-3.3I
+    evidence: the section teaches plotting points from a table — 3.3I Foundation wording
+      'recognise, generate points and plot graphs of linear and quadratic functions' is
+      verbatim (the fill's evidence names the 3.3I surface); the note-level join to 3.3F
+      stands for its gradient sections
+  drawing-straight-line-graphs::3:
+    current_code: 4MA1-3.3F
+    disposition: REATTRIBUTE
+    override_code: 4MA1-3.3H
+    evidence: the section teaches drawing USING a known gradient/intercept — 3.3H
+      'equations of the form y = mx + c are straight line graphs with gradient m and
+      intercept on the y-axis' is the surface; it does not calculate a gradient from two
+      points (3.3F's demand)
+  basic-angle-properties::4:
+    current_code: 4MA1-4.1B
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.2B
+    evidence: the section teaches the quadrilateral angle sum — 4.2B 'understand and use
+      the term quadrilateral and the angle sum property of quadrilaterals' is verbatim
+      (the fill's evidence names the 4.2B surface)
+  right-angled-trigonometry::6:
+    current_code: 4MA1-4.8B
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.8C
+    evidence: the section teaches perpendicular/shortest distance from a point to a line
+      via trig — 4.8C Foundation wording 'apply trigonometrical methods to solve problems
+      in two dimensions' is the surface; 4.8B is angles of elevation and depression
+  surface-area::0:
+    current_code: 4MA1-4.10D
+    disposition: RETAIN
+    evidence: heading-only section head; the semantic gate cannot verify heading-only
+      chunks — the same known R4 limitation
+  surface-area::1:
+    current_code: 4MA1-4.10D
+    disposition: RETAIN
+    evidence: generic note-intro section ('What is surface area?'); the C40 convention
+      anchors intro sections at the note's SP; not a different-SP teaching surface
+  surface-area::2:
+    current_code: 4MA1-4.10D
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.10C
+    evidence: cube/cuboid/prism surface area is 4.10C 'find the surface area of simple
+      shapes using the area formulae for triangles and rectangles'; 4.10D is the cylinder
+  surface-area::4:
+    current_code: 4MA1-4.10D
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.10A
+    evidence: cone surface area is 4.10A Higher wording 'find the surface area and volume
+      of a sphere and a right circular cone'; 4.10D is the cylinder
+  surface-area::5:
+    current_code: 4MA1-4.10D
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.10A
+    evidence: sphere surface area is 4.10A Higher wording (as above); 4.10D is the cylinder
+  averages-from-tables::2:
+    current_code: 4MA1-6.2B
+    disposition: RETAIN
+    evidence: the mode IS part of 6.2B Foundation wording ('calculate the mean, median,
+      mode and range for a discrete data set') — another wording-tier artifact, same class
+      as the id-level AFFIRM set; the fill's own note records the range section of the
+      same note as spread content and CONFIRMed — both tier wordings live in one code

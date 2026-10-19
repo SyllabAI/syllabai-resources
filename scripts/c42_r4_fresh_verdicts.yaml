@@ -1,0 +1,808 @@
+schema: c42-r4-fresh-verdicts/1.0
+task: T-C42
+stage: r4-regate-fill
+contract: consumed by scripts/c42_r4_regate_fill.py (FRESH verdict source); judgment input = the fresh-row
+  dossier (chunk text + both tier wordings per row)
+verdicts:
+  e5f5f97fe65f64a2:
+    dossier_index: 0
+    verdict: REJECT
+    root: note-level-class
+    note: 'the section teaches equivalent fractions (''two fractions that represent the same amount'')
+      — the 1.2A surface (''understand and use equivalent fractions, simplifying a fraction by cancelling
+      common factors''); 1.2I is multiply and divide fractions and mixed numbers. Root recorded at NOTE
+      level: the note''s sections teach fraction concepts and the 1.2A equivalence/simplifying surface
+      (ords 1-6) and carry no multiply/divide-fractions content (that surface lives in the corpus''s Multiplying
+      & Dividing Fractions note, correctly joined and CONFIRMed separately) — the R1 ord-6 override was
+      the section-level patch of this note-level defect; recorded for the operator, never self-repaired.'
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/basic-fractions.json
+    chunk_ordinal: 3
+    chunk_heading: What are equivalent fractions?
+    tier_signature: STORE_HIGHER
+  897ea608ffb07766:
+    dossier_index: 1
+    verdict: CONFIRM
+    root: null
+    note: the chunk teaches the sample-space concept verbatim (all possible outcomes, lists, grids — sample
+      space diagrams); the SP demand 'understand the concepts of a sample space and an event...' is the
+      section's content.
+    spec_code: 4MA1-6.3E
+    note_path: notes/6-statistics-and-probability/probability-toolkit/sample-space-diagrams.json
+    chunk_ordinal: 1
+    chunk_heading: What is a sample space diagram?
+    tier_signature: STORE_HIGHER
+  e8aefb81c5c09f02:
+    dossier_index: 2
+    verdict: CONFIRM
+    root: null
+    note: 2D inequalities as regions in the xy plane — verbatim the SP demand 'identify regions on rectangular
+      Cartesian graphs defined by simple linear inequalities'.
+    spec_code: 4MA1-2.8E
+    note_path: notes/3-sequences-functions-and-graphs/graphing-inequalities/graphing-inequalities.json
+    chunk_ordinal: 1
+    chunk_heading: What are 2D inequalities?
+    tier_signature: STORE_HIGHER
+  35bf5b41086172b9:
+    dossier_index: 3
+    verdict: CONFIRM
+    root: null
+    note: the section teaches a chord property (the perpendicular-bisector-of-a-chord theorem) — the Foundation
+      wording of 4.6B per the C30 ledger ('understand chord and tangent properties of circles'); the note-level
+      join is the R1 operator AFFIRM adjudication (wording-tier artifact).
+    spec_code: 4MA1-4.6B
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/chords-and-tangents.json
+    chunk_ordinal: 2
+    chunk_heading: 'Circle Theorem: The perpendicular bisector of a chord passes through the centre'
+    tier_signature: STORE_HIGHER
+  bca5ee1833756107:
+    dossier_index: 4
+    verdict: CONFIRM
+    root: null
+    note: basic theoretical probability (equally likely outcomes, favourable/total) — 'equally likely'
+      appears verbatim and the Foundation wording of 6.3A ('understand the language of probability', C30
+      ledger) opens exactly here.
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/probability-toolkit/basic-probability.json
+    chunk_ordinal: 3
+    chunk_heading: How do I calculate basic probabilities?
+    tier_signature: STORE_HIGHER
+  0ef2fad01b6114ea:
+    dossier_index: 5
+    verdict: CONFIRM
+    root: null
+    note: forming equations from word data (ages, 2x+x=27) — verbatim the SP demand 'set up simple linear
+      equations from given data'.
+    spec_code: 4MA1-2.4B
+    note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/forming-and-solving-equations.json
+    chunk_ordinal: 2
+    chunk_heading: How do I form equations?
+    tier_signature: STORE_HIGHER
+  6965a2aa4305e1bb:
+    dossier_index: 6
+    verdict: CONFIRM
+    root: null
+    note: multiplying two fractions (cancel common factors, multiply numerators and denominators) — verbatim
+      the SP demand.
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 1
+    chunk_heading: How do I multiply two fractions?
+    tier_signature: STORE_HIGHER
+  ee5c0158e3069833:
+    dossier_index: 7
+    verdict: CONFIRM
+    root: null
+    note: equating powers of the same base with index-law simplification (3^(2x) x 3^4 = 3^(2x+4)) — index-law
+      manipulation within the 1.4C demand; both tiers name the index laws.
+    spec_code: 4MA1-1.4C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-roots-and-indices/algebraic-roots-and-indices.json
+    chunk_ordinal: 2
+    chunk_heading: How do I find an unknown inside a power?
+    tier_signature: STORE_HIGHER
+  c6b178f3fca489e3:
+    dossier_index: 8
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro; the heading restates the SP demand ('Solving quadratics by factorising'
+      = 'solve quadratic equations by factorisation'); the C40 convention anchors note intros/headings
+      at the note's SP.
+    spec_code: 4MA1-2.7A
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-quadratic-equations.json
+    chunk_ordinal: 0
+    chunk_heading: Solving quadratics by factorising
+    tier_signature: STORE_HIGHER
+  086f1c035866fb77:
+    dossier_index: 9
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro naming the SP's subject matter (sample space diagrams); the intro convention
+      as recorded at R1.
+    spec_code: 4MA1-6.3E
+    note_path: notes/6-statistics-and-probability/probability-toolkit/sample-space-diagrams.json
+    chunk_ordinal: 0
+    chunk_heading: Sample space diagrams
+    tier_signature: STORE_HIGHER
+  2ea85d1d97ebae38:
+    dossier_index: 10
+    verdict: CONFIRM
+    root: null
+    note: the grouping mechanism (common-bracket extraction, order-independence, ab+3b+2a+6) IS the taught
+      route to x^2+bx+c factorisation (split the middle term, group, extract the bracket); the note is
+      the SME's own 2.2F-method note (its spec_point block anchors it at 2.2F) and no 188 row covers four-term
+      grouping separately; mechanism-identity per the operator's Length-of-a-Line->4.8A precedent.
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+    chunk_ordinal: 3
+    chunk_heading: Does it matter what order I group in?
+    tier_signature: STORE_HIGHER
+  91a5080f8b390de6:
+    dossier_index: 11
+    verdict: CONFIRM
+    root: null
+    note: 'heading-only note intro; the note-level join to 3.3F per the operator''s R1 record (''the note-level
+      join to 3.3F stands for its gradient sections''). Observation recorded for the operator, never self-repaired:
+      the note''s 3.3F-joined sections (ords 4-5) teach equation rearrangement and ax+by=c plotting, and
+      the gradient-from-two-coordinates surface is not visibly present — the operator may wish to review
+      the note-join at a future round.'
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+    chunk_ordinal: 0
+    chunk_heading: Drawing linear graphs
+    tier_signature: STORE_HIGHER
+  81fe06133dd1fa57:
+    dossier_index: 12
+    verdict: REJECT
+    root: note-level
+    note: the note teaches graph-shape recognition (cubic shapes here; reciprocal asymptotes at ord 2)
+      — the 3.3A surface ('recognise, plot and draw graphs with equation y = Ax^3 + Bx^2 + Cx + D ...'),
+      where the operator re-pointed Trigonometric Graphs at R1; 3.3I is generating points and plotting
+      linear/quadratic graphs and the note carries no such content; T-SPEC resolution error (unsampled
+      at C40 — a new catch of the re-gate).
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/types-of-graphs.json
+    chunk_ordinal: 3
+    chunk_heading: What does the graph of a cubic look like?
+    tier_signature: STORE_HIGHER
+  cc6d3e4495476e4d:
+    dossier_index: 13
+    verdict: CONFIRM
+    root: null
+    note: median from a frequency table — the Foundation wording of 6.2B ('calculate the mean, median,
+      mode and range for a discrete data set', C30 ledger); the same wording-tier artifact class the operator
+      RETAINed for this note's mode section at R1.
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 3
+    chunk_heading: How do I find the median from a frequency table?
+    tier_signature: STORE_HIGHER
+  0364c59e8deec33e:
+    dossier_index: 14
+    verdict: CONFIRM
+    root: null
+    note: the ratio-to-fraction-of-quantity bridge (parts-sum 5+3=8, then 5/8 and 3/8 shares of the pizza)
+      — the parts-sum-and-fraction computation that IS dividing a quantity in a given ratio; the note's
+      ord 2 carries the combined ratio-FDP problem surface.
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-problem-solving/ratios-and-fdp.json
+    chunk_ordinal: 1
+    chunk_heading: How are ratios and fractions linked?
+    tier_signature: STORE_HIGHER
+  4d7bd96de4f0e4ac:
+    dossier_index: 15
+    verdict: REJECT
+    root: note-level
+    note: the note teaches compound measure (definition, units, formula triangles — speed, flow rate,
+      population density) — the 4.4G surface ('use compound measure such as speed, density and pressure');
+      4.4C is 'make sensible estimates of a range of measures'; a 'measures' word-overlap T-SPEC resolution
+      error (unsampled at C40 — a new catch of the re-gate).
+    spec_code: 4MA1-4.4C
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/compound-measures.json
+    chunk_ordinal: 1
+    chunk_heading: What is a compound measure?
+    tier_signature: STORE_HIGHER
+  e898f67c6728be31:
+    dossier_index: 16
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Converting to and from standard form'); conversion IS calculating
+      with numbers in the form a x 10^n — the Foundation wording of 1.9A (C30 ledger); no separate conversion
+      row exists in the 188.
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/standard-form.json
+    chunk_ordinal: 0
+    chunk_heading: Converting to and from standard form
+    tier_signature: STORE_HIGHER
+  3db5c42231dfd6fb:
+    dossier_index: 17
+    verdict: CONFIRM
+    root: null
+    note: forming expressions from words (the phrase-to-algebra table) — the translation scaffold of the
+      note's set-up-equations surface; the SP demand ('set up simple linear equations from given data')
+      requires exactly this word-to-algebra translation, and the note's ord 2 carries the equation-forming
+      verbatim.
+    spec_code: 4MA1-2.4B
+    note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/forming-and-solving-equations.json
+    chunk_ordinal: 1
+    chunk_heading: How do I form expressions from words?
+    tier_signature: STORE_HIGHER
+  f086a04bff035846:
+    dossier_index: 18
+    verdict: REJECT
+    root: section-level
+    note: the section teaches classifying turning points as max/min (substitute back; 'using a sketch
+      to see if its a max or min') — the 3.4D surface ('distinguish between maxima and minima by considering
+      the general shape of the graph only'); 3.4E is applying calculus to kinematics and practical problems;
+      the note-level join stands via its practical-application sections (ords 1-2, 4).
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/problem-solving-with-differentiation.json
+    chunk_ordinal: 3
+    chunk_heading: How do I know if I have found a maximum value or a minimum value?
+    tier_signature: STORE_HIGHER
+  da3cb84c20299d94:
+    dossier_index: 19
+    verdict: CONFIRM
+    root: null
+    note: finding factors via factor pairs — verbatim the SP term 'factors'.
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find factors?
+    tier_signature: STORE_HIGHER
+  ffe958ec6aee28e1:
+    dossier_index: 20
+    verdict: REJECT
+    root: note-level
+    note: 'same note-level root as the ord-1 row of this note: the note teaches compound measure (the
+      4.4G surface); 4.4C is sensible estimates of measures; T-SPEC resolution error.'
+    spec_code: 4MA1-4.4C
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/compound-measures.json
+    chunk_ordinal: 0
+    chunk_heading: Compound measures
+    tier_signature: STORE_HIGHER
+  a9ad8cb01a6e9fe3:
+    dossier_index: 21
+    verdict: CONFIRM
+    root: null
+    note: using the sample space to determine probabilities (counting wanted outcomes over total) — verbatim
+      the SP demand.
+    spec_code: 4MA1-6.3E
+    note_path: notes/6-statistics-and-probability/probability-toolkit/sample-space-diagrams.json
+    chunk_ordinal: 2
+    chunk_heading: How do I use a sample space diagram to calculate probabilities?
+    tier_signature: STORE_HIGHER
+  8d0087ded2d69f0f:
+    dossier_index: 22
+    verdict: REJECT
+    root: note-level
+    note: generic real-world volume problem-solving (juice carton, cost contexts); 4.11C demands SIMILAR-figure
+      areas and volumes in problems; the sibling note Problem Solving with Areas was R1-cleared to UNRESOLVED
+      on exactly this class (no 188 row teaches generic volume problem-solving); recorded for the operator,
+      never self-repaired.
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/problem-solving-with-volumes.json
+    chunk_ordinal: 2
+    chunk_heading: What are common problems that involve volume?
+    tier_signature: STORE_HIGHER
+  260c61bcfeb157da:
+    dossier_index: 23
+    verdict: REJECT
+    root: section-level
+    note: the section teaches square roots (definition, symbol, positive/negative roots) — the Foundation
+      wording of 1.4B per the C30 ledger ('calculate squares, square roots, cubes and cube roots'); 1.1G
+      is the odd/even/prime/factors/multiples terminology; the note-level join stands via its terminology
+      sections (the factors section CONFIRMed separately).
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 9
+    chunk_heading: What are square roots?
+    tier_signature: STORE_HIGHER
+  35fddb92ea3d18b4:
+    dossier_index: 24
+    verdict: CONFIRM
+    root: null
+    note: mixed numbers converted to improper fractions, add/subtract, convert back — verbatim the SP
+      demand.
+    spec_code: 4MA1-1.2F
+    note_path: notes/1-numbers-and-the-number-system/fractions/adding-and-subtracting.json
+    chunk_ordinal: 2
+    chunk_heading: What do I do if any of the fractions are mixed numbers?
+    tier_signature: STORE_HIGHER
+  fd8c6da271a377e6:
+    dossier_index: 25
+    verdict: CONFIRM
+    root: null
+    note: trapezium (and isosceles trapezium) properties — verbatim the SP's named shapes ('parallelogram,
+      rectangle, square, rhombus, trapezium and kite').
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 6
+    chunk_heading: What are the properties of trapeziums?
+    tier_signature: STORE_HIGHER
+  7f9612c10eaaaa2e:
+    dossier_index: 26
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro naming the note's method (factorising by grouping — the 2.2F mechanism,
+      see the ord-3 note); intro convention.
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+    chunk_ordinal: 0
+    chunk_heading: Factorising by grouping
+    tier_signature: STORE_HIGHER
+  a1976aea5d3588a4:
+    dossier_index: 27
+    verdict: CONFIRM
+    root: null
+    note: the circle-theorems topic intro (angles from lines drawn within a circle) — the note's SP is
+      the circle-theorem bundle row; intro convention.
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/angles-at-centre-and-semicircles.json
+    chunk_ordinal: 1
+    chunk_heading: What are circle theorems?
+    tier_signature: STORE_HIGHER
+  29017042ffa066df:
+    dossier_index: 28
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('FDP conversions') naming the SP demand family ('convert a fraction
+      to a decimal or a percentage').
+    spec_code: 4MA1-1.2G
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json
+    chunk_ordinal: 0
+    chunk_heading: FDP conversions
+    tier_signature: STORE_HIGHER
+  f5589708271ae43f:
+    dossier_index: 29
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Finding equations of straight lines') naming the y = mx + c surface.
+    spec_code: 4MA1-3.3H
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/straight-line-graphs-y-equals-mx-plus-c.json
+    chunk_ordinal: 0
+    chunk_heading: Finding equations of straight lines
+    tier_signature: STORE_HIGHER
+  56905a113334dcd1:
+    dossier_index: 30
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Expanding one bracket') — the Foundation wording of 2.2C per the C30
+      ledger ('multiply a single term over a bracket') is exactly this surface.
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json
+    chunk_ordinal: 0
+    chunk_heading: Expanding one bracket
+    tier_signature: STORE_HIGHER
+  2d44bcf00f589c18:
+    dossier_index: 31
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro; the heading IS the SP's term ('expected frequency').
+    spec_code: 4MA1-6.3J
+    note_path: notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json
+    chunk_ordinal: 4
+    chunk_heading: Expected frequency
+    tier_signature: STORE_HIGHER
+  00d37797227e59e6:
+    dossier_index: 32
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Area & Circumference') naming the SP surface verbatim.
+    spec_code: 4MA1-4.9E
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/area-and-circumference-of-circles.json
+    chunk_ordinal: 0
+    chunk_heading: Area & Circumference
+    tier_signature: STORE_HIGHER
+  f20e42613c249b72:
+    dossier_index: 33
+    verdict: REJECT
+    root: note-level-class
+    note: the section teaches simplified fractions (smallest integer values, cancelling common factors)
+      — the 1.2A surface, same class as ord 3; the note-level root recorded there applies verbatim (no
+      multiply/divide-fractions content anywhere in the note; the R1 ord-6 override was the section-level
+      patch); recorded for the operator, never self-repaired.
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/basic-fractions.json
+    chunk_ordinal: 5
+    chunk_heading: What is a simplified fraction?
+    tier_signature: STORE_HIGHER
+  ffecc50a4cc36af3:
+    dossier_index: 34
+    verdict: CONFIRM
+    root: null
+    note: the index-law table (a^1, a^0, a^m x a^n = a^(m+n), ...) — verbatim the SP demand; both tiers
+      name the index laws.
+    spec_code: 4MA1-1.4C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-roots-and-indices/algebraic-roots-and-indices.json
+    chunk_ordinal: 1
+    chunk_heading: What are the laws of indices?
+    tier_signature: STORE_HIGHER
+  738764272171fc84:
+    dossier_index: 35
+    verdict: CONFIRM
+    root: null
+    note: factor trees to prime factors — the SP demand's method ('express integers as a product of powers
+      of prime factors').
+    spec_code: 4MA1-1.4D
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/prime-factor-decomposition.json
+    chunk_ordinal: 2
+    chunk_heading: How do I find prime factors?
+    tier_signature: STORE_HIGHER
+  f208762616304676:
+    dossier_index: 36
+    verdict: REJECT
+    root: note-level
+    note: the note teaches generic geometric proof (angle-fact rules, exterior-angle proof, common reasons
+      — no vector-methods content anywhere in the note); 5.1G demands VECTOR methods for proofs; the same
+      class as the R1-cleared Problem Solving with Areas (generic-technique note, specific-method SP;
+      no 188 row teaches angle-fact proof per se — 2.2E is algebraic proof); UNRESOLVED-class, recorded
+      for the operator, never self-repaired.
+    spec_code: 4MA1-5.1G
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/geometrical-proof.json
+    chunk_ordinal: 1
+    chunk_heading: What is a geometrical proof?
+    tier_signature: STORE_HIGHER
+  9eb56cd53f4e9bf1:
+    dossier_index: 37
+    verdict: CONFIRM
+    root: null
+    note: displacement vectors (AB-arrow notation, position vectors a and b, AB = -a + b) — vector notation
+      verbatim.
+    spec_code: 4MA1-5.1B
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/position-and-displacement-vectors.json
+    chunk_ordinal: 2
+    chunk_heading: What are displacement vectors?
+    tier_signature: STORE_HIGHER
+  7977fcfb04d89eb7:
+    dossier_index: 38
+    verdict: CONFIRM
+    root: null
+    note: compound-shape areas by splitting into standard shapes and adding (or completing-and-subtracting)
+      — the area-by-triangle/rectangle-formulae method the SP names.
+    spec_code: 4MA1-4.9C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/adding-and-subtracting-areas.json
+    chunk_ordinal: 2
+    chunk_heading: How do I find the area of a compound shape?
+    tier_signature: STORE_HIGHER
+  3f7eb2359797af2b:
+    dossier_index: 39
+    verdict: CONFIRM
+    root: null
+    note: solving x(x-4)=0 by factorisation — verbatim the SP demand.
+    spec_code: 4MA1-2.7A
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-quadratic-equations.json
+    chunk_ordinal: 3
+    chunk_heading: What if x is a factor?
+    tier_signature: STORE_HIGHER
+  8d70b71322c46304:
+    dossier_index: 40
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Interpreting graphical inequalities') naming the 2.8E surface.
+    spec_code: 4MA1-2.8E
+    note_path: notes/3-sequences-functions-and-graphs/graphing-inequalities/finding-inequalities-from-regions.json
+    chunk_ordinal: 0
+    chunk_heading: Interpreting graphical inequalities
+    tier_signature: STORE_HIGHER
+  4f808fa71e4e6a76:
+    dossier_index: 41
+    verdict: REJECT
+    root: note-level
+    note: the note teaches basic area formulas (rectangle here; triangle, trapezium, parallelogram elsewhere);
+      4.8E is 'understand and use the formula ab sin C for the area of a triangle' and the note carries
+      NO ab-sin-C content anywhere (the rectangle section is the 4.9C surface, the parallelogram section
+      the 4.9D surface); T-SPEC resolution error (unsampled at C40 — a new catch of the re-gate).
+    spec_code: 4MA1-4.8E
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/area.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find the area of a rectangle?
+    tier_signature: STORE_HIGHER
+  5e1e430120ed7e2f:
+    dossier_index: 42
+    verdict: CONFIRM
+    root: null
+    note: simplifying 2a+5b column-vector expressions (scalar multiply, then add component-wise) — vector
+      addition within the SP demand.
+    spec_code: 4MA1-5.1D
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json
+    chunk_ordinal: 4
+    chunk_heading: How do I write an expression as a single column vector?
+    tier_signature: STORE_HIGHER
+  e2f1aaeabfc90982:
+    dossier_index: 43
+    verdict: CONFIRM
+    root: null
+    note: adding and subtracting column vectors component-wise — verbatim the SP demand.
+    spec_code: 4MA1-5.1D
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json
+    chunk_ordinal: 2
+    chunk_heading: How do I add and subtract column vectors?
+    tier_signature: STORE_HIGHER
+  7b49935192ef3e08:
+    dossier_index: 44
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('3D Pythagoras & trigonometry') naming the SP surface verbatim.
+    spec_code: 4MA1-4.8D
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 0
+    chunk_heading: 3D Pythagoras & trigonometry
+    tier_signature: STORE_HIGHER
+  45eaaa725433d92c:
+    dossier_index: 45
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro; 'uses of prime factor decomposition' names the 1.4D product-form in
+      application (the note's sections identify squares/cubes and exact roots VIA the prime-factor product
+      form — the 1.4D mechanic throughout); the PFD-family continuation the SME's own block anchors at
+      1.4D.
+    spec_code: 4MA1-1.4D
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/uses-of-prime-factor-decomposition.json
+    chunk_ordinal: 0
+    chunk_heading: Uses of prime factor decomposition
+    tier_signature: STORE_HIGHER
+  72ffb241cd2abf10:
+    dossier_index: 46
+    verdict: CONFIRM
+    root: null
+    note: the compound-shape concept (split non-standard shapes into standard shapes) — the note's 4.9C
+      surface.
+    spec_code: 4MA1-4.9C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/adding-and-subtracting-areas.json
+    chunk_ordinal: 1
+    chunk_heading: What is a compound shape?
+    tier_signature: STORE_HIGHER
+  7ee7d8765493360a:
+    dossier_index: 47
+    verdict: CONFIRM
+    root: null
+    note: position vectors (OA-arrow, components equal to coordinates, column form) — vector notation
+      verbatim.
+    spec_code: 4MA1-5.1B
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/position-and-displacement-vectors.json
+    chunk_ordinal: 1
+    chunk_heading: What are position vectors?
+    tier_signature: STORE_HIGHER
+  ca920ec1dfe2376d:
+    dossier_index: 48
+    verdict: CONFIRM
+    root: null
+    note: forming equations from shape properties (angle and perimeter data) — verbatim 'set up simple
+      linear equations from given data'.
+    spec_code: 4MA1-2.4B
+    note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/forming-equations-from-shapes.json
+    chunk_ordinal: 1
+    chunk_heading: How do I form equations from shapes?
+    tier_signature: STORE_HIGHER
+  e5b51814261a09b6:
+    dossier_index: 49
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro; 'Order of operations (BIDMAS/BODMAS)' = 'use brackets and the hierarchy
+      of operations'.
+    spec_code: 4MA1-1.1F
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/order-of-operations-bidmas-bodmas.json
+    chunk_ordinal: 0
+    chunk_heading: Order of operations (BIDMAS/BODMAS)
+    tier_signature: STORE_HIGHER
+  131a91060ab8d3d2:
+    dossier_index: 50
+    verdict: REJECT
+    root: note-level
+    note: the note teaches gradient estimation by drawing tangents and rate-of-change interpretation —
+      a pre-differentiation surface (the 3.4A variable-rate-of-change family); 3.4C demands determination
+      of gradients, rates of change, stationary points and turning points BY DIFFERENTIATION, and the
+      note carries no differentiation content; T-SPEC-era approximation, recorded for the operator, never
+      self-repaired.
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/estimating-gradients/finding-gradients-of-tangents.json
+    chunk_ordinal: 2
+    chunk_heading: How do I estimate the gradient of a curve using a tangent?
+    tier_signature: STORE_HIGHER
+  5f0b8e8cfbec5c1c:
+    dossier_index: 51
+    verdict: REJECT
+    root: note-level
+    note: 'the note teaches SOLVING linear equations (unknowns on both sides, brackets, fractions, denominators
+      — the 2.4A surface verbatim: ''solve linear equations, with integer or fractional coefficients,
+      in one unknown in which the unknown appears on either side or both sides''); 2.4B is setting up
+      equations from given data (the corpus''s Forming-Equations notes carry that surface and CONFIRM
+      separately); T-SPEC resolution error (unsampled at C40 — a new catch of the re-gate).'
+    spec_code: 4MA1-2.4B
+    note_path: notes/2-equations-formulae-and-identities/linear-equations/solving-linear-equations.json
+    chunk_ordinal: 0
+    chunk_heading: Solving linear equations
+    tier_signature: STORE_HIGHER
+  ba9cb33680c338a4:
+    dossier_index: 52
+    verdict: CONFIRM
+    root: null
+    note: rounding to a given number of decimal places — verbatim the SP demand.
+    spec_code: 4MA1-1.8B
+    note_path: notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/rounding-and-estimation.json
+    chunk_ordinal: 2
+    chunk_heading: How do I round a number to a given decimal place?
+    tier_signature: STORE_HIGHER
+  fe35e8b078cef149:
+    dossier_index: 53
+    verdict: REJECT
+    root: note-level
+    note: 'the note teaches speed-time graphs (kinematics: acceleration from gradient, distance from area
+      — the 3.4E/4.4F surfaces); 2.8D is ''represent simple linear inequalities on rectangular Cartesian
+      graphs'' — inequality regions, unrelated content; T-SPEC resolution error (unsampled at C40 — a
+      new catch of the re-gate).'
+    spec_code: 4MA1-2.8D
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/speed-time-graphs.json
+    chunk_ordinal: 0
+    chunk_heading: Speed-time graphs
+    tier_signature: STORE_HIGHER
+  409eb788ff7d227d:
+    dossier_index: 54
+    verdict: CONFIRM
+    root: null
+    note: two-way tables — a tabulation method per the Foundation wording of 6.1B ('use appropriate methods
+      of tabulation to enable the construction of statistical diagrams', C30 ledger); no dedicated two-way-tables
+      row exists in the 188.
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/two-way-tables.json
+    chunk_ordinal: 1
+    chunk_heading: What are two-way tables?
+    tier_signature: STORE_HIGHER
+  e36f0c6c1c091b60:
+    dossier_index: 55
+    verdict: CONFIRM
+    root: null
+    note: dividing fractions (flip the second, change the operation, cancel, multiply) — verbatim the
+      SP demand.
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 4
+    chunk_heading: How do I divide two fractions?
+    tier_signature: STORE_HIGHER
+  1fe2264e3071028d:
+    dossier_index: 56
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro naming the SP surface verbatim ('Adding & subtracting fractions').
+    spec_code: 4MA1-1.2F
+    note_path: notes/1-numbers-and-the-number-system/fractions/adding-and-subtracting.json
+    chunk_ordinal: 0
+    chunk_heading: Adding & subtracting fractions
+    tier_signature: STORE_HIGHER
+  253eb0f3dcae4112:
+    dossier_index: 57
+    verdict: REJECT
+    root: note-level-class
+    note: 'the section teaches solving linear inequalities algebraically (flip the sign when multiplying/dividing
+      by a negative) — the 2.8C surface (''solve simple linear inequalities in one variable...''), the
+      same class the operator REATTRIBUTE''d for this note''s ord-3 number-line section at R1; and the
+      note carries no Cartesian-graph representation content anywhere (ords 0-5: concept, integers satisfying,
+      number line, solving, double inequalities) while 2.8D demands Cartesian representation — the note-level
+      join is the T-SPEC-era defect of which the R1 ord-3 override was the section-level patch; recorded
+      for the operator, never self-repaired.'
+    spec_code: 4MA1-2.8D
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-linear-inequalities.json
+    chunk_ordinal: 4
+    chunk_heading: How do I solve linear inequalities?
+    tier_signature: STORE_HIGHER
+  5e6ed91f25d0fdb4:
+    dossier_index: 58
+    verdict: REJECT
+    root: section-level
+    note: the section teaches drawing USING the equation y = mx + c (generate a table from the equation,
+      plot) — the 3.3H surface, the same artifact class the operator REATTRIBUTE'd for this note's ord-3
+      section at R1; 3.3F is gradient from two coordinates; the note-level join stands per the R1 record
+      (see the ord-0 observation).
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+    chunk_ordinal: 2
+    chunk_heading: How do I draw a straight line using y = mx + c?
+    tier_signature: STORE_HIGHER
+  20c1cfc1d1aeb7ba:
+    dossier_index: 59
+    verdict: REJECT
+    root: note-level
+    note: 'same note-level root as the ord-0 row of this note: speed-time kinematics content (gradient
+      = acceleration, area = distance) under the 2.8D inequality-regions SP; T-SPEC resolution error.'
+    spec_code: 4MA1-2.8D
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/speed-time-graphs.json
+    chunk_ordinal: 1
+    chunk_heading: How do I use a speed-time graph?
+    tier_signature: STORE_HIGHER
+  2cb6f7b0659f69f8:
+    dossier_index: 60
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro; 'Laws of indices' IS the SP's subject.
+    spec_code: 4MA1-1.4C
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.json
+    chunk_ordinal: 0
+    chunk_heading: Laws of indices
+    tier_signature: STORE_HIGHER
+  eb9174251ed0744b:
+    dossier_index: 61
+    verdict: CONFIRM
+    root: null
+    note: heading-only note intro ('Circles & chords'); the Foundation wording of 4.6B ('understand chord
+      and tangent properties of circles', C30 ledger) — the note-level join is the R1 operator AFFIRM
+      adjudication.
+    spec_code: 4MA1-4.6B
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/chords-and-tangents.json
+    chunk_ordinal: 0
+    chunk_heading: Circles & chords
+    tier_signature: STORE_HIGHER
+  2199833d599f48a6:
+    dossier_index: 62
+    verdict: CONFIRM
+    root: null
+    note: 'heading-only note intro; the note-join to 4.1B stands via its straight-line/intersecting sections
+      (ord 2 verbatim: angles on a line, around a point, vertically opposite); the R1 ruling moved only
+      the quadrilateral section to 4.2B.'
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/basic-angle-properties.json
+    chunk_ordinal: 0
+    chunk_heading: Basic angle properties
+    tier_signature: STORE_HIGHER
+  28fba9c4ee6160ee:
+    dossier_index: 63
+    verdict: REJECT
+    root: note-level
+    note: 'same note-level root as the ord-3 row of this note: reciprocal-graph asymptotes — graph-shape
+      recognition (the 3.3A surface family); 3.3I is generating points and plotting linear/quadratic graphs;
+      T-SPEC resolution error.'
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/types-of-graphs.json
+    chunk_ordinal: 2
+    chunk_heading: Where are the asymptotes on reciprocal graphs?
+    tier_signature: STORE_HIGHER
+  6086f68bb9d7350e:
+    dossier_index: 64
+    verdict: CONFIRM
+    root: null
+    note: drawing inequality regions (solid vs dotted boundary lines, shaded regions) — verbatim the SP
+      demand.
+    spec_code: 4MA1-2.8E
+    note_path: notes/3-sequences-functions-and-graphs/graphing-inequalities/graphing-inequalities.json
+    chunk_ordinal: 2
+    chunk_heading: How do we draw inequalities on a graph?
+    tier_signature: STORE_HIGHER
+  c67208f06b9072e9:
+    dossier_index: 65
+    verdict: REJECT
+    root: note-level
+    note: 'same note-level root as the ord-4 row of this note: the parallelogram formula A = bh is the
+      4.9D surface (''find the area of parallelograms and trapezia''); 4.8E is ab sin C and the note carries
+      no ab-sin-C content; T-SPEC resolution error.'
+    spec_code: 4MA1-4.8E
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/area.json
+    chunk_ordinal: 7
+    chunk_heading: How do I find the area of a parallelogram?
+    tier_signature: STORE_HIGHER
+  4ea4f0804396bc68:
+    dossier_index: 66
+    verdict: CONFIRM
+    root: null
+    note: factorising by taking out the highest common factor (12x^2 + 18x = 6x(2x+3)) — the Foundation
+      wording of 2.2D per the C30 ledger ('take out common factors'); the same code's Higher tier is completing-the-square;
+      the wording-tier doctrine the R1 round established.
+    spec_code: 4MA1-2.2D
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising.json
+    chunk_ordinal: 2
+    chunk_heading: How do I factorise two terms?
+    tier_signature: STORE_HIGHER
+  a49f8beecaf05779:
+    dossier_index: 67
+    verdict: REJECT
+    root: section-level
+    note: the section teaches LENGTH conversion (cm/mm/m/km, powers of 10) — the Foundation wording of
+      4.9A per the C30 ledger ('convert measurements within the metric system to include linear and area
+      units'); 4.10F is VOLUME conversion; the note-level join stands via its volume/capacity section
+      (ord 3).
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/unit-conversions.json
+    chunk_ordinal: 1
+    chunk_heading: How do I convert units of lengths?
+    tier_signature: STORE_HIGHER
+census:
+  REJECT: 19
+  CONFIRM: 49

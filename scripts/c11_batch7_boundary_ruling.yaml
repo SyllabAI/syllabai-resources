@@ -1,0 +1,717 @@
+# T-C11 §16 — CROSS-SLICE BOUNDARY RULING (S1+S3+S2-batches-5/6 complete ↔ S2 batch 7).
+# Recorded session 59 (2026-09-23), commissioned by the operator's
+# "Proceed with batch 7" directive under the session-46 §16 authorization — the
+# per-batch boundary-ruling precondition (the session-55/57 batch-5/6
+# precedents: every slice gets its own conflict audit before authoring).
+#
+# This ruling is exactly that and nothing more (the session-52 precedent, held
+# to: "Do not turn this into another large ontology exercise"). It does NOT
+# redesign the concept ontology, does NOT re-open any settled identity, and
+# does NOT mint any node or edge by itself. It records the conflict audit +
+# the boundary discipline batch 7 (S2 Inorganic 2.28-2.43C) authoring MUST
+# follow, extending the ratified FN-B1-2/FN-B2-2 cross-batch discipline and
+# the session-52/55/57 rulings to the S2-f/g boundary. Machine-verified by
+# scripts/c11_batch7_boundary_check.py.
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 59
+  recorded_date: '2026-09-23'
+  commissioned_by: 'operator directive "Proceed with batch 7" (2026-09-23, session 59)
+    under the session-46 §16 authorization; the session-57/58 records name the
+    slice order ("the remaining S2 families (2.28-2.50: acids & alkalis / salt
+    preparations / chemical tests) are batches 7-8 per the item-14 plan — each
+    needs its own operator commissioning")'
+  scope: 'conflict-prevention ruling for the S1(complete)+S3(complete)+S2-batch-5/6(complete)
+    -> S2(batch 7) boundary only; supersedes nothing; extends the session-55/57
+    ruling pattern to the S2-f/g slice; the batch-4/5/6 sanctioned boundary edges,
+    the T-C19 G19 attachment-promotion record and the two batch-6 deferral closures
+    are untouched'
+  applies_to_batch: 7
+
+conflict_audit:
+  method: 'S2-f/g candidate term vocabulary (147 terms: indicator/pH vocabulary,
+    acid-alkali-ion-theory vocabulary, titration-technique vocabulary,
+    solubility/salt-family vocabulary, salt-preparation-technique vocabulary,
+    the named reagents and salts, generic chemistry vocabulary and equation
+    scaffolding) matched against the whole merged pre-batch-7 store (node codes
+    + titles + aliases + every edge endpoint, case-folded substring; the probe
+    is persisted as scripts/c11_batch7_term_audit_probe.py). 59 terms match;
+    EVERY match is dispositioned below — sanctioned boundary edge, inline
+    re-teach (no edge), OD-2 incidental mention (no edge), sub-string noise
+    (no owner surface), or distinct-demand mint (no conflict).'
+  s2_candidate_terms: [indicator, indicators, litmus, phenolphthalein, methyl orange,
+    universal indicator, ph scale, ph value, ph, acidic, alkaline, acidity, strongly
+      acidic, weakly acidic, neutral, colour change, colour chart, wide range indicator,
+    acid, acids, alkali, alkalis, hydrogen ion, hydrogen ions, hydroxide ion, hydroxide
+      ions, ion, ions, aqueous solution, neutralisation, neutralization, neutralise,
+    neutralize, proton, protons, proton donor, proton acceptor, proton transfer,
+    titration, titrations, burette, pipette, endpoint, end-point, concordant, meniscus,
+    volumetric analysis, white tile, solubility, soluble, insoluble, precipitate,
+    salt, salts, chloride, chlorides, sulfate, sulfates, sulphate, nitrate, nitrates,
+    carbonate, carbonates, hydroxide, hydroxides, sodium hydroxide, potassium hydroxide,
+    ammonia, ammonium, ammonium hydroxide, base, bases, metal oxide, metal oxides,
+    metal hydroxide, metal hydroxides, copper(II) oxide, copper(II) sulfate, lead(II)
+      sulfate, lead(II) nitrate, potassium sulfate, barium chloride, barium sulfate,
+    silver nitrate, silver chloride, hydrated, water of crystallisation, water of
+      crystallization, anhydrous, crystallisation, crystallization, crystals, filtration,
+    filter, filtrate, residue, evaporation, evaporate, saturated solution, saturated,
+    solution, solutions, solvent, solute, dilute, concentrated, concentration, effervescence,
+    excess, washing, double decomposition, salt preparation, preparation of salts,
+    reactivity series, displacement, reactivity, hydrogen, carbon dioxide, state
+      symbols, ionic, ionic compound, ionic compounds, covalent, equation, equations,
+    word equation, symbol equation, mole, moles, volume, temperature, heat, heating,
+    exothermic, endothermic, limewater, calcium hydroxide, white precipitate, distilled
+      water, water bath, pure, 'pure, dry', acid-alkali, acid + alkali, metal + acid,
+    metal carbonate, titration calculation]
+  result: 'NO UNHANDLED canonical conflict — 59 terms match the pre-batch-7 store,
+    all owned by existing nodes or matched only at sub-string level, with an
+    explicit disposition below; Section 2 mints its own families at the ratified
+    granularity and re-mints NO existing identity. The acid/alkali/pH/salt-prep
+    vocabulary has NO existing owner anywhere in the store (the 88 unmatched
+    terms include indicator, litmus, phenolphthalein, methyl orange, universal
+    indicator, pH scale, acidic, alkaline, neutral, hydrogen ion, hydroxide ion,
+    neutralisation, proton donor/acceptor, titration, pipette, endpoint,
+    concordant, soluble, insoluble, precipitate, chloride(s)/sulfate(s)/nitrate(s)
+    as families, sodium/potassium hydroxide, ammonia, bases, copper(II) oxide,
+    copper(II)/lead(II) sulfate, lead(II) nitrate, potassium sulfate, barium
+    chloride, silver nitrate, filtrate, residue, effervescence, excess, double
+    decomposition, limewater, calcium hydroxide, white precipitate) — the batch
+    mints these families fresh; the only surfaces with existing owners are
+    dispositioned below.'
+
+match_dispositions:
+  # --- the ONE placement dependency: acid-metal reactions -------------------
+  - term: acid
+    owner: 4CH1-CON-REACT-ARRANGE (title surface "dilute-acid reactions")
+    owner_record: batch 6 (S2 d/e)
+    disposition: distinct-demand mint (the placement dependency rides the sanctioned boundary edge)
+    rationale: 'the batch-6 CON-REACT-ARRANGE node owns the ARRANGEMENT method
+      (2.15: arranging metals from water/acid comparisons); 2.37 demands the
+      acid REACTION families with metals/bases/carbonates to form salts —
+      distinct taught substance. The acid-metal row''s dependency on reactivity
+      placement is covered by the ONE sanctioned boundary edge
+      (CON-ACID-REACTIONS REQUIRES_PREREQUISITE CON-REACT-ORDER — the ORDER
+      owner, not the arrangement-method owner: the 2.37 note APPLIES the
+      placement, it does not re-teach the arrangement method).'
+  - term: acids
+    owner: 4CH1-CON-REACT-ARRANGE
+    owner_record: batch 6
+    disposition: distinct-demand mint (one mint covers both term forms — the session-57 convention)
+    rationale: same as "acid" (one mint covers both term forms).
+  - term: reactivity series
+    owner: 4CH1-CON-EXTRACTION-METHOD / 4CH1-CON-REACT-ARRANGE / (order surface) 4CH1-CON-REACT-ORDER
+    owner_record: batch 6
+    disposition: sanctioned boundary edge (exactly ONE)
+    rationale: 'the 2.37 note teaches acid-metal reactions THROUGH the placement
+      ("Only metals above hydrogen in the reactivity series will react with
+      dilute acids"; "Metals that are placed high on the reactivity series such
+      as potassium and sodium are very dangerous and react explosively with
+      acids") without re-teaching the series — the USED_WITHOUT_RETEACHING
+      class. The sanctioned target is CON-REACT-ORDER (2.17, the ordered
+      series), NOT CON-REACT-ARRANGE (the 2.15 arrangement method) and NOT
+      CON-EXTRACTION-METHOD (the 2.23C route): the note applies the ORDER.
+      The extraction-method and arrangement surfaces are out of the 2.37 demand.'
+  - term: reactivity
+    owner: CON-EXTRACTION-METHOD / G1/G7 reactivity nodes / CON-METAL-DISPLACEMENT / CON-REACT-ORDER / MIS-*
+    owner_record: batches 2-6
+    disposition: sub-string noise + covered by the single sanctioned edge
+    rationale: the generic "reactivity" vocabulary matches the Group-trend and
+      extraction families; none of those identities is re-minted or re-taught
+      by the batch-7 notes; the only batch-7 dependency on a reactivity
+      identity is the 2.37 placement row (the sanctioned edge above).
+  - term: displacement
+    owner: 4CH1-CON-G7-DISPLACEMENT / 4CH1-CON-METAL-DISPLACEMENT / CON-RATE-EXPERIMENTS title surface / MIS-HALOGEN-HALIDE + MIS-ION-OXIDE-REASONING aliases
+    owner_record: batch 4 (rate title), batch 5 (halogen), batch 6 (metal)
+    disposition: distinct-demand mint (no displacement mint in batch 7 at all)
+    rationale: 2.37 demands acid + metal -> salt + hydrogen, taught in the
+      corpus under the reactivity-series placement (above hydrogen), NOT as
+      metal-displacement (the batch-6 owner's own scope is metal + metal oxide
+      and metal + salt solution — different reaction families); the batch-7
+      notes teach the acid-metal row through the placement rule; no boundary
+      edge and no re-mint of any displacement identity.
+  # --- the ion-family dependency: solubility rules --------------------------
+  - term: solubility
+    owner: 4CH1-CON-SOLUBILITY / 4CH1-CON-SOLUBILITY-CURVE / 4CH1-CON-CHROMATOGRAPHY (alias "differential solubility")
+    owner_record: S1/S3 ratified lanes (pre-§16)
+    disposition: distinct-demand mint + sanctioned boundary edge (the ion-family dependency)
+    rationale: the CON-SOLUBILITY owner is the QUANTITATIVE measure (g per 100 g
+      of solvent) and CON-SOLUBILITY-CURVE the S3 plotting/interpreting lane;
+      2.34 demands the QUALITATIVE RULES table predicting whether ionic
+      compounds dissolve (the salt-prep method-selection frame) — distinct
+      taught substance; the chromatography alias is a sub-string-class match.
+      The rules table is organised by ION families (Na/K/NH4+, nitrates,
+      chlorides, sulfates, carbonates, hydroxides) and presupposes the
+      named-ion/charge vocabulary WITHOUT re-teaching it — the ONE sanctioned
+      boundary edge CON-SOLUBILITY-RULES REQUIRES_PREREQUISITE
+      CON-ION-CHARGE-RULES (the "common ions / ion charges" owner).
+  - term: ionic
+    owner: 4CH1-CON-ION-CHARGE-RULES
+    owner_record: batch 3
+    disposition: sub-string-class matches; covered by the single sanctioned edge
+    rationale: the ionic-bonding/lattice/formula/conduction identities are
+      mechanism-level S1 chemistry; the 2.34 rules are stated over ionic
+      COMPOUNDS as substance classes (the ion-family table); exactly ONE
+      dependency edge is sanctioned (into CON-ION-CHARGE-RULES); no other
+      ionic identity is touched, re-taught or edged.
+  - term: ionic compound
+    owner: CON-DOT-CROSS-IONIC / CON-IONIC-CONDUCTION / CON-IONIC-FORMULA / CON-IONIC-LATTICE / MIS-IONIC-CONDUCTION-ELECTRONS
+    owner_record: batches 1-3
+    disposition: sanctioned boundary edge (the ONE mint covers both term forms)
+    rationale: same as "ionic" (the substance-class dependency rides the
+      CON-ION-CHARGE-RULES edge; one mint covers both term forms).
+  - term: ionic compounds
+    owner: same surface as "ionic compound"
+    owner_record: batches 1-3
+    disposition: sanctioned boundary edge (one mint covers both term forms)
+    rationale: same as "ionic compound".
+  - term: base
+    owner: 4CH1-CON-ION-CHARGE-RULES (sub-string "group-based" inside the title)
+    owner_record: batch 3
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the match is the sub-string "base" inside "group-based" — no
+      acid-base identity exists anywhere in the store (confirmed by the
+      unmatched terms: base-family vocabulary — bases, metal oxide(s) as base
+      roles, alkali(s) as OH- sources — is entirely absent). 2.38 mints the
+      base/alkali family fresh.'
+  # --- the proton surface ----------------------------------------------------
+  - term: proton
+    owner: 4CH1-CON-ATOMIC-NUMBER / 4CH1-CON-SUBATOMIC-PARTICLES / MIS-ISOTOPES-DIFFER-PROTONS
+    owner_record: batch 1 (S1 atomic structure)
+    disposition: distinct-demand mint (different sense of "proton")
+    rationale: the S1 owners use "proton" as the subatomic particle (nuclear
+      charge, atomic number, isotope identity); 2.35/2.36 use the Brønsted
+      sense (the H+ ion as the species transferred/donated in solution) —
+      different taught substance; the batch-7 notes teach the proton-transfer
+      framework self-containedly with their own ionisation equations; the S1
+      identities are untouched and on the non_mint_list.
+  - term: protons
+    owner: 4CH1-CON-SUBATOMIC-PARTICLES / MIS-ISOTOPES-DIFFER-PROTONS
+    owner_record: batch 1
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "proton".
+  # --- the H+/OH- surface: self-contained -------------------------------------
+  - term: ion
+    owner: broad sub-string-class match across ~90 S1/S3/batch nodes (the ion vocabulary is pervasive)
+    owner_record: batches 1-6
+    disposition: sub-string noise + two recorded micro-dispositions
+    rationale: (i) the 2.31 H+/OH- source demand is SELF-CONTAINED — the
+      neutralisation note teaches the solution-ionisation picture with its own
+      statements ("When acids are added to water, they form positively charged
+      hydrogen ions"; "When alkalis are added to water, they form negative
+      hydroxide ions"), so NO edge into CON-ION (whose owner is electron
+      loss/gain ion FORMATION — a different mechanism and a different demand;
+      the CON-ION identity is untouched); (ii) the 2.34 rules-table dependency
+      is the sanctioned CON-ION-CHARGE-RULES edge. Every other 'ion' match is
+      sub-string-class noise across unrelated identities.
+  - term: ions
+    owner: same broad surface
+    owner_record: batches 1-6
+    disposition: sub-string noise + the two micro-dispositions above (one mint covers both term forms)
+    rationale: same as "ion".
+  - term: hydrogen ion
+    owner: none (unmatched in the store — recorded here because the S2-f mint hinges on it)
+    owner_record: n/a
+    disposition: distinct-demand mint (fresh family)
+    rationale: '"hydrogen ion"/"hydrogen ions" match NOTHING in the store — the
+      2.31 family is minted fresh with no conflict.'
+  - term: hydrogen ions
+    owner: none
+    owner_record: n/a
+    disposition: distinct-demand mint (fresh family)
+    rationale: same as "hydrogen ion".
+  - term: hydroxide ion
+    owner: none
+    owner_record: n/a
+    disposition: distinct-demand mint (fresh family)
+    rationale: same as "hydroxide ion" — nothing in the store owns the OH-
+      source surface ("hydroxide" as a bare term matches only inside the
+      CON-ION-CHARGE-RULES named-ion surface, dispositioned above via the
+      sanctioned edge).
+  - term: hydroxide ions
+    owner: none
+    owner_record: n/a
+    disposition: distinct-demand mint (fresh family)
+    rationale: same as "hydroxide ion".
+  # --- the Group-1 "alkali" homonym -------------------------------------------
+  - term: alkali
+    owner: 4CH1-CON-G1-FAMILY-EVIDENCE / 4CH1-CON-G1-PREDICTION / 4CH1-CON-G1-TREND (the "alkali metals" homonym)
+    owner_record: batch 5
+    disposition: distinct-demand mint (homonym, different chemistry)
+    rationale: the batch-5 nodes own the Group 1 ALKALI METALS family (water
+      reactions, trends); 2.31/2.32/2.38 own ALKALIS as OH- sources / bases
+      soluble in water — different families sharing a word; no edge, no
+      re-mint; the batch-5 identities are untouched and on the non_mint_list.
+  # --- titration technique vocabulary -----------------------------------------
+  - term: burette
+    owner: 4CH1-CON-O2-PERCENT-DETERMINATION (alias "iron wool burette experiment")
+    owner_record: batch 5
+    disposition: OD-2 incidental mention (no edge)
+    rationale: the batch-5 alias mentions a burette as apparatus in the
+      oxygen-determination route; the 2.33C titration mint is the TECHNIQUE
+      (burette+pipette method, endpoint, concordant titres) — apparatus items
+      are not concept identities; no edge.
+  # --- the salt-prep family surfaces -------------------------------------------
+  - term: salt
+    owner: 4CH1-CON-EMP-MOL-CALC (alias "deducing formulae of hydrated salts") / 4CH1-CON-METAL-DISPLACEMENT (title "salt solutions") / 4CH1-CON-WATER-CRYST (alias "hydrated salt")
+    owner_record: batch 1 (emp-mol), batch 6 (displacement), S1 (water-cryst)
+    disposition: distinct-demand mint (the three prep-route mints)
+    rationale: the existing owners use "salt" inside OTHER demands (formula
+      calculation, displacement media, hydration stoichiometry); the 2.39/
+      2.40C/2.41C PREPARATION routes are fresh families; no re-mint, no edge
+      into any of these owners (the PR-07/PR-08 practical edges ride the
+      in-batch method concepts).
+  - term: salts
+    owner: 4CH1-CON-EMP-MOL-CALC / 4CH1-CON-WATER-CRYST
+    owner_record: batch 1, S1
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "salt".
+  - term: chloride
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES (ammonium chloride decomposition)
+    owner_record: batch 3 (S3)
+    disposition: distinct-demand mint (in-slice product vocabulary)
+    rationale: the reversible-example owner is the ammonium-chloride thermal
+      decomposition; the 2.37 "hydrochloric acid produces chlorides" product
+      vocabulary is in-slice reaction-family teaching; no conflict, no edge.
+  - term: sulfate
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES (aliases "hydrated copper(II) sulfate", "anhydrous copper(II) sulfate")
+    owner_record: batch 3 (S3)
+    disposition: distinct-demand mint (preparation vs thermal-decomposition reversibility)
+    rationale: the S3 owner teaches the dehydration/rehydration EQUILIBRIUM of
+      hydrated copper(II) sulfate; 2.42 PREPARES hydrated copper(II) sulfate
+      crystals from copper(II) oxide + dilute sulfuric acid — different
+      demands; the practical attaches no concept node (PR-07 owns it, the
+      1.13/1.60C/2.14/2.21 precedent) and its method dependency rides the
+      in-batch CON-SALT-INSOLUBLE-REACTANT concept via the PR-07 edge; the
+      CON-WATER-CRYST adjacency ("hydrated" naming) is held (B7-H-03), not
+      edged.
+  - term: carbonate
+    owner: 4CH1-CON-CO2-FROM-CARBONATES
+    owner_record: batch 5
+    disposition: distinct-demand mint (different chemistry — held for operator visibility, B7-H-08)
+    rationale: the batch-5 owner teaches THERMAL decomposition of metal
+      carbonates (heat -> oxide + CO2); the 2.37 acid+carbonate row is ACID
+      attack at room temperature (acid + carbonate -> salt + water + CO2,
+      effervescence) — different reaction classes with different equations;
+      the 2.37 note teaches the acid-carbonate family itself with its own
+      equation table; no edge (the adjacency is recorded as held candidate
+      B7-H-08 so the operator rules on it with full visibility).
+  - term: carbonates
+    owner: 4CH1-CON-CO2-FROM-CARBONATES
+    owner_record: batch 5
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "carbonate".
+  - term: metal carbonate
+    owner: 4CH1-CON-CO2-FROM-CARBONATES
+    owner_record: batch 5
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "carbonate".
+  - term: carbon dioxide
+    owner: 4CH1-CON-CO2-FROM-CARBONATES / 4CH1-CON-CO2-GREENHOUSE
+    owner_record: batch 5
+    disposition: distinct-demand mint (in-slice product vocabulary)
+    rationale: the CO2 owners own the thermal-decomposition and greenhouse
+      surfaces; the 2.37 acid-carbonate CO2 product is in-slice reaction
+      teaching; no edge, no re-mint.
+  - term: ammonium
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES (ammonium chloride)
+    owner_record: batch 3
+    disposition: inline re-teach (no edge)
+    rationale: the 2.38 note's alkali table re-teaches the ammonium surface
+      inline ("Aqueous ammonia | NH3 (+ H2O) | NH4+ + OH-"; the examiner note
+      "ammonia is the gas, NH3, ammonium is the ion NH4+"); the S3 reversible
+      identity is untouched; no edge.
+  - term: metal oxide
+    owner: 4CH1-CON-METAL-DISPLACEMENT (title surface "metal + metal oxide")
+    owner_record: batch 6
+    disposition: distinct-demand mint (different chemistry)
+    rationale: 'the batch-6 owner teaches metal + metal OXIDE displacement
+      (reduction by a more reactive metal); the 2.37 acid + metal oxide row
+      is neutralisation chemistry (oxide + acid -> salt + water, re-taught
+      inline in the same section: "Metal oxides and metal hydroxides act as
+      bases"); no edge.'
+  - term: hydrated
+    owner: 4CH1-CON-EMP-MOL-CALC / 4CH1-CON-REVERSIBLE-EXAMPLES / 4CH1-CON-WATER-CRYST
+    owner_record: batch 1, batch 3, S1
+    disposition: OD-2 incidental mention (no edge; held candidate B7-H-03 records the adjacency)
+    rationale: the 2.42 practical NAMES "hydrated copper(II) sulfate crystals"
+      (applied-as-given naming; the practical owns 2.42 — no concept node);
+      the method dependency is the in-batch insoluble-reactant-route concept
+      (the PR-07 edge); a PR-07 -> CON-WATER-CRYST boundary edge would
+      double-count a naming surface the practical never teaches — held.
+  - term: water of crystallisation
+    owner: 4CH1-CON-WATER-CRYST
+    owner_record: S1
+    disposition: OD-2 incidental mention (no edge; covered by held B7-H-03)
+    rationale: same as "hydrated" — the practical names the product class; it
+      never teaches water of crystallisation; the S1 owner is untouched.
+  - term: anhydrous
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES (alias "anhydrous copper(II) sulfate")
+    owner_record: batch 3
+    disposition: out-of-scope surface (batch-8 future note)
+    rationale: the anhydrous-CuSO4 surface belongs to the S3 reversible lane
+      (existing owner) and the 2.49 water test (batch 8); nothing in the
+      batch-7 scope teaches it; recorded as a future_boundary_note.
+  # --- separation-technique surfaces: inline re-teach --------------------------
+  - term: crystallisation
+    owner: 4CH1-CON-CRYSTALLISATION / 4CH1-CON-WATER-CRYST / MIS-CRYSTALLISATION-DRYNESS
+    owner_record: S1
+    disposition: inline re-teach (no edge)
+    rationale: 'the 2.39/2.40C/2.42 notes re-teach the crystallisation steps
+      inline WITH their purposes ("The water is evaporated by heating until
+      small crystals begin to appear"; "Allowing the filtered solution to
+      evaporate slowly over a period of days results in the formation of
+      larger crystals"; "Leave to crystallise decant excess solution and allow
+      crystals to dry") — the B5-H-02 rule: a dependency edge would
+      double-count the inline teaching. The pinned Salt-Prep MS confirms the
+      EXISTING dryness-misconception owner''s surface (Q1d: heat "until
+      crystals form", REJECT heating directly with a flame; the explicit
+      1-mark allowance for "leaving the solution until the water evaporates
+      fully" documents the dryness error class the S1 MIS owns) — the owner is
+      confirmed, NOT re-minted.'
+  - term: crystals
+    owner: MIS-CRYSTALLISATION-DRYNESS (alias surface)
+    owner_record: S1
+    disposition: inline re-teach (no edge; covered above)
+    rationale: same class as "crystallisation".
+  - term: filtration
+    owner: 4CH1-CON-FILTRATION
+    owner_record: S1
+    disposition: inline re-teach (no edge)
+    rationale: the 2.39/2.41C/2.42/2.43C notes re-teach each filtration step
+      inline with its purpose ("The excess reactant is then removed by
+      filtration to ensure that only the salt and water remain"; "The
+      precipitate is recovered by filtration"; "Filter the mixture into an
+      evaporating basin to remove the excess base"; "Filter to remove
+      precipitate from mixture") — the B5-H-02 rule; no boundary edge.
+  - term: filter
+    owner: 4CH1-CON-FILTRATION
+    owner_record: S1
+    disposition: inline re-teach (no edge; covered above)
+    rationale: same as "filtration".
+  - term: evaporation
+    owner: 4CH1-CON-EVAPORATION-BOILING
+    owner_record: S1
+    disposition: inline re-teach (no edge)
+    rationale: same class ("Gently heat the solution in a water bath or with
+      an electric heater to evaporate the water and to make the solution
+      saturated"; "Heat to partially evaporate, leaving a saturated
+      solution") — the evaporation-vs-boiling distinction the S1 owner teaches
+      is never contradicted or presupposed as a concept dependency; no edge.
+  - term: saturated
+    owner: 4CH1-CON-SATURATED-SOLUTION
+    owner_record: S1
+    disposition: inline re-teach (no edge)
+    rationale: the 2.40C/2.42 notes re-teach the saturation check inline
+      ("Check the solution is saturated by dipping a cold glass rod into the
+      solution and seeing if crystals form on the end"); the S1 owner is
+      untouched; no edge.
+  - term: saturated solution
+    owner: 4CH1-CON-SATURATED-SOLUTION
+    owner_record: S1
+    disposition: inline re-teach (no edge; one disposition covers both term forms)
+    rationale: same as "saturated".
+  # --- generic solution/quantity vocabulary -------------------------------------
+  - term: solution
+    owner: CON-CALORIMETRY / CON-CONCENTRATION / CON-DILUTION / CON-METAL-DISPLACEMENT / CON-SATURATED-SOLUTION / CON-SOLUTION
+    owner_record: S1/S3 lanes
+    disposition: OD-2 incidental mention (generic vocabulary, no owner surface conflict)
+    rationale: '"solution" is the corpus''s generic medium vocabulary; the
+      batch-7 notes use it as given (salt solutions, aqueous solutions) and
+      never re-teach or contradict the solution/solute/solvent family; no edge.'
+  - term: solutions
+    owner: 4CH1-CON-DILUTION
+    owner_record: S1
+    disposition: OD-2 incidental mention (covered above)
+    rationale: same as "solution".
+  - term: solvent
+    owner: CON-SOLUBILITY / CON-SOLUTION
+    owner_record: S1/S3
+    disposition: OD-2 incidental mention
+    rationale: same generic-vocabulary class.
+  - term: solute
+    owner: 4CH1-CON-SOLUTION
+    owner_record: S1
+    disposition: OD-2 incidental mention
+    rationale: same generic-vocabulary class.
+  - term: dilute
+    owner: CON-DILUTION / CON-REACT-ARRANGE (title "dilute-acid reactions")
+    owner_record: S1, batch 6
+    disposition: OD-2 incidental mention (the acid vocabulary rides the sanctioned edge)
+    rationale: the CON-DILUTION owner is dilution of coloured solutions (a
+      concentration operation); "dilute acids" in 2.37 is acid-concentration
+      vocabulary applied as given; the acid-metal placement dependency is the
+      sanctioned CON-REACT-ORDER edge; no new edge.
+  - term: concentration
+    owner: CON-CONC-CALC / CON-CONCENTRATION / CON-DYNAMIC-EQUILIBRIUM / CON-RATE-FACTORS / MIS-CONC-UNIT
+    owner_record: batch 2-4 (S3)
+    disposition: out-of-scope surface (future_boundary_note; held B7-H-05)
+    rationale: the titration-calculation surface (titre means, mol/dm3
+      conversions — heavily documented in BOTH pinned MS files) belongs to the
+      S3 quantitative lane (CON-CONC-CALC/CON-MOLE owners); the 2.33C demand
+      is the technique description; the MS-only application surface is the
+      G07 class (no edge authored); recorded as a future_boundary_note and
+      held candidate.
+  # --- equation scaffolding -------------------------------------------------------
+  - term: equation
+    owner: CON-ELECTRODE-HALF-EQUATIONS / CON-EQ-SYMBOL / CON-EQ-WORD / CON-MOLAR-RATIO / CON-REACTING-MASS / MIS-EQ-SUBSCRIPT
+    owner_record: batches 1-3
+    disposition: OD-2 incidental mention (equation scaffolding)
+    rationale: the batch-7 notes carry their own reaction equations as
+      in-slice content (the 2.37 tables, the PbSO4/CuSO4 equations); the
+      equation-construction identities are S1 teaching surfaces, never
+      re-taught or depended upon as concepts here; no edges.
+  - term: equations
+    owner: same surface
+    owner_record: batches 1-3
+    disposition: OD-2 incidental mention (covered above)
+    rationale: same as "equation".
+  - term: word equation
+    owner: 4CH1-CON-EQ-WORD
+    owner_record: batch 1
+    disposition: OD-2 incidental mention (covered above)
+    rationale: same class.
+  - term: symbol equation
+    owner: 4CH1-CON-EQ-SYMBOL
+    owner_record: batch 1
+    disposition: OD-2 incidental mention (covered above)
+    rationale: same class.
+  - term: state symbols
+    owner: 4CH1-CON-EQ-STATE-SYM
+    owner_record: batch 1
+    disposition: inline re-teach (no edge)
+    rationale: the 2.41C/2.43C notes present the precipitation equation with
+      its (aq)/(s) states inline ("AB + CD ⟶ AD + CB"; "Pb(NO3)2 (aq) +
+      K2SO4 (aq) → PbSO4 (s) + 2KNO3 (aq)") — the state-symbol vocabulary is
+      re-taught in place; the S1 owner is untouched; no edge.
+  # --- the mole/quantity lane (S3) -------------------------------------------------
+  - term: mole
+    owner: broad sub-string-class match (molecule/molecular/molar surfaces) + the genuine CON-MOLE/CON-MOLE-MASS-CONV owners
+    owner_record: batches 1-3
+    disposition: sub-string noise + out-of-scope surface (future_boundary_note)
+    rationale: most 'mole' hits are "molecule"-family sub-strings; the genuine
+      mole-calculation surface (titration moles/concentration in the pinned
+      MS) is the S3 lane — future_boundary_note, held B7-H-05; no edges.
+  - term: moles
+    owner: CON-GAS-VOL-CALC / CON-MOLE-MASS-CONV / MIS-EQ-PRESSURE-FEWER
+    owner_record: batches 1-3
+    disposition: out-of-scope surface (covered by the future_boundary_note)
+    rationale: same as "mole".
+  - term: volume
+    owner: CON-GAS-VOL-CALC / CON-MOLAR-GAS-VOL / CON-VOL-CONVERSION
+    owner_record: batches 1-3
+    disposition: OD-2 incidental mention (technique detail)
+    rationale: burette/pipette volume readings are in-slice technique
+      detail (2.33C teaching); the volume-unit/calculation identities are
+      S3 lanes never presupposed as concept dependencies; no edges.
+  # --- the temperature/heat lane (S3 calorimetry) ------------------------------------
+  - term: temperature
+    owner: CON-EQ-POSITION / CON-HEAT-CALC / CON-RATE-FACTORS / MIS-EQ-TEMP-EXO
+    owner_record: batches 2-4 (S3)
+    disposition: out-of-scope surface (future_boundary_note)
+    rationale: the pinned Titrations MS's temperature-change/maximum-temperature
+      items are the S3 3.8/PR-09 exothermic-neutralisation calorimetry lane
+      (CON-EXO-ENDO/CON-CALORIMETRY/CON-HEAT-CALC owners); the batch-7 scope
+      (2.28-2.43C) contains no temperature demand; recorded as a
+      future_boundary_note; no edges.
+  - term: heat
+    owner: CON-EXO-ENDO / CON-HEAT-CALC / CON-HEATING-CONSTANT-MASS / MIS-EQ-TEMP-EXO
+    owner_record: S1/S3
+    disposition: inline re-teach + out-of-scope surface (covered by the future_boundary_note)
+    rationale: '"warm gently"/"heat" technique steps in 2.39/2.42 are re-taught
+      inline; the heat-energy lane is S3; no edges.'
+  - term: heating
+    owner: CON-HEATING-CONSTANT-MASS / MIS-EQ-TEMP-EXO
+    owner_record: S1/batch 3
+    disposition: inline re-teach (covered above)
+    rationale: same as "heat".
+  - term: exothermic
+    owner: CON-BOND-BREAKING-MAKING / CON-ENERGY-LEVEL-DIAGRAM / CON-EXO-ENDO / MIS-EQ-TEMP-EXO
+    owner_record: batch 3-4 (S3)
+    disposition: out-of-scope surface (covered by the future_boundary_note)
+    rationale: the neutralisation-temperature surface is S3 3.8; not in the
+      batch-7 scope.
+  - term: endothermic
+    owner: CON-BOND-BREAKING-MAKING / CON-ENERGY-LEVEL-DIAGRAM / CON-EXO-ENDO
+    owner_record: batch 3-4 (S3)
+    disposition: out-of-scope surface (covered by the future_boundary_note)
+    rationale: same class.
+  # --- purity vocabulary ---------------------------------------------------------------
+  - term: pure
+    owner: CON-ALLOY-HARDNESS ("pure metals" sub-string) / CON-PURE-SUBSTANCE
+    owner_record: batch 6, S1
+    disposition: distinct-demand mint (different sense; no conflict)
+    rationale: '"pure, dry sample" in 2.39-2.43C is preparative purity
+      (excess-reactant removal, washing, drying) — a different sense from the
+      S1 fixed-melting/boiling-point purity owner and the alloy-hardness
+      "pure metals" sub-string; the 2.50 physical purity TEST is batch-8; no
+      edge, no re-mint.'
+  # --- sub-string noise -------------------------------------------------------------------
+  - term: ph
+    owner: sub-string matches inside unrelated words (graphite, chromatography, phosphorus, photographs)
+    owner_record: n/a
+    disposition: sub-string noise (no owner surface)
+    rationale: no bare "pH" identity exists anywhere in the store — the
+      genuine pH surfaces ("pH scale", "pH value") are UNMATCHED terms; 2.29
+      mints the pH-scale family fresh with no conflict.
+  - term: hydrogen
+    owner: CON-AQUEOUS-DISCHARGE / CON-COMBUSTION-O2 / CON-G7-PREDICTION
+    owner_record: batches 1-5
+    disposition: OD-2 incidental mention (in-slice product vocabulary)
+    rationale: the 2.37 salt+hydrogen product is in-slice reaction teaching;
+      the hydrogen-owning identities (discharge product, combustion fuel,
+      halide prediction) are different demands; no edges.
+  - term: covalent
+    owner: CON-COVALENT-BOND / CON-COVALENT-CONDUCTION / CON-DOT-CROSS-COVALENT / CON-GIANT-COVALENT / MIS-COVALENT-BONDS-BROKEN
+    owner_record: batches 1-3
+    disposition: OD-2 incidental mention
+    rationale: the solubility note's opening comparison ("Ionic compounds are
+      generally soluble in water compared to covalent substances") applies the
+      classification as given; the covalent identities are untouched; no edge.
+
+mint_ruling: 'batch 7 mints its own S2-f/g families at the ratified granularity
+  (SP-family nodes: 2.28 indicators / 2.29 pH scale / 2.30 universal indicator /
+  2.31 acid-alkali ion sources / 2.32 neutralisation / 2.33C titration /
+  2.34 solubility rules / 2.35+2.36 the proton-transfer framework as ONE family
+  node (B7-ID-01; the note teaches donor/acceptor INSIDE the transfer framework
+  as one extension of the earlier definition — the B5 2.11 one-family-node
+  precedent) / 2.37 acid reaction families / 2.38 bases & alkalis / 2.39 the
+  insoluble-reactant route / 2.40C the titration route / 2.41C the precipitation
+  route; 2.42/2.43C attach NO concept node — the practicals PR-07/PR-08 own them
+  per the 1.13/1.60C/2.14/2.21 precedent, with the practical->concept edges
+  authored) and re-mints NO existing identity (the 31-owner non_mint_list is
+  extended below). The three salt-preparation routes are THREE nodes (the
+  B5-ID-03 trio precedent: distinct experiments, distinct starting materials,
+  distinct method descriptions).'
+
+boundary_edge_ruling:
+  rule: 'the FN-B1-2/FN-B2-2 cross-batch discipline at the S2-f/g boundary:
+    boundary EDGES are sanctioned ONLY into the exact-owner nodes below, ONLY
+    for the stated dependency surfaces; boundary MINTING is forbidden; if any
+    batch-7 term ever matches an existing node outside this sanctioned set,
+    the boundary edge is MANDATORY and the mint FORBIDDEN (fail-closed at
+    preverify/G03/c11.4). Both sanctioned targets are EXISTING-OWNER nodes
+    (batch 6''s CON-REACT-ORDER and batch 3''s CON-ION-CHARGE-RULES) — batch 7
+    closes NO deferrals (batch 6 closed the last two: B5-H-10 and the
+    iron-route note) and creates none: the batch-7 audit surfaces either
+    resolve in-batch, ride the two sanctioned edges, or are held/future-noted
+    (B7-H-01..09, the four future_boundary_notes).'
+  sanctioned_targets:
+    - for_sps:
+        - 4CH1-2.37
+      owner: batch 6
+      surface: the acid-metal reaction family applies the reactivity-series
+        placement as given ("Only metals above hydrogen in the reactivity
+        series will react with dilute acids"; the vigorous/explosive gradient;
+        "Metals that are placed high on the reactivity series... react
+        explosively with acids") — never re-defined or re-arranged by the
+        2.37 note; the target is the ORDER owner (CON-REACT-ORDER), not the
+        arrangement-method owner
+      target: 4CH1-CON-REACT-ORDER
+    - for_sps:
+        - 4CH1-2.34
+      owner: batch 3
+      surface: the solubility-rules table is organised by ION families (Na/K/
+        NH4+ all soluble; nitrates all; chlorides except Ag/Pb; sulfates
+        except Ba/Ca/Pb; carbonates/hydroxides except Na/K/NH4) and predicts
+        solubility from ion identity — the named-ion/charge vocabulary applied
+        as given, never re-taught by the 2.34 note; the target is the
+        "common ions / ion charges" owner (the named-ion table with the
+        deduction rule — batch 3)
+      target: 4CH1-CON-ION-CHARGE-RULES
+  max_boundary_edges: 2
+  non_mint_list:
+    - 4CH1-CON-ION
+    - 4CH1-CON-ION-CHARGE-RULES
+    - 4CH1-CON-IONIC-BOND
+    - 4CH1-CON-IONIC-FORMULA
+    - 4CH1-CON-IONIC-LATTICE
+    - 4CH1-CON-IONIC-CONDUCTION
+    - 4CH1-CON-DOT-CROSS-IONIC
+    - 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+    - 4CH1-CON-ELECTROLYSIS
+    - 4CH1-CON-ANODE-CATHODE
+    - 4CH1-CON-AQUEOUS-DISCHARGE
+    - 4CH1-CON-REDOX-ELECTRONS
+    - 4CH1-CON-OX-RED-AGENTS
+    - 4CH1-CON-METAL-DISPLACEMENT
+    - 4CH1-CON-G7-DISPLACEMENT
+    - 4CH1-CON-REACT-ARRANGE
+    - 4CH1-CON-REACT-ORDER
+    - 4CH1-CON-EXTRACTION-METHOD
+    - 4CH1-CON-EXTRACTION-EVALUATION
+    - 4CH1-CON-ORES
+    - 4CH1-CON-METAL-USES
+    - 4CH1-CON-METAL-PROPERTIES
+    - 4CH1-CON-CO2-FROM-CARBONATES
+    - 4CH1-CON-CO2-GREENHOUSE
+    - 4CH1-CON-COMBUSTION-O2
+    - 4CH1-CON-SOLUBILITY
+    - 4CH1-CON-SOLUBILITY-CURVE
+    - 4CH1-CON-SATURATED-SOLUTION
+    - 4CH1-CON-SOLUTION
+    - 4CH1-CON-FILTRATION
+    - 4CH1-CON-CRYSTALLISATION
+    - 4CH1-CON-EVAPORATION-BOILING
+    - 4CH1-CON-WATER-CRYST
+    - 4CH1-CON-HEATING-CONSTANT-MASS
+    - 4CH1-CON-REVERSIBLE-EXAMPLES
+    - 4CH1-CON-EMP-MOL-CALC
+    - 4CH1-MIS-CRYSTALLISATION-DRYNESS
+    - 4CH1-CON-G1-FAMILY-EVIDENCE
+    - 4CH1-CON-G1-TREND
+    - 4CH1-CON-G1-PREDICTION
+    - 4CH1-CON-G1-REACTIVITY-ECONFIG
+    - 4CH1-CON-G7-REACTIVITY-ECONFIG
+    - 4CH1-CON-G7-PROPERTIES
+    - 4CH1-CON-G7-PREDICTION
+    - 4CH1-CON-EXO-ENDO
+    - 4CH1-CON-CALORIMETRY
+    - 4CH1-CON-HEAT-CALC
+    - 4CH1-CON-CONC-CALC
+    - 4CH1-CON-CONCENTRATION
+    - 4CH1-CON-MOLE
+    - 4CH1-CON-EQ-SYMBOL
+    - 4CH1-CON-EQ-WORD
+    - 4CH1-CON-EQ-STATE-SYM
+    - 4CH1-CON-PURE-SUBSTANCE
+    - 4CH1-CON-SUBATOMIC-PARTICLES
+    - 4CH1-CON-ATOMIC-NUMBER
+    - 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+    - 4CH1-CON-O2-PERCENT-DETERMINATION
+
+future_boundary_notes:
+  - the limewater/CO2-test surface ("Calcium hydroxide solution is more
+    commonly know as limewater and is used to test for carbon dioxide" — the
+    Solubility Rules note's examiner tip) belongs to the chemical-tests family
+    (2.44 gases / 2.48 anions, S2-h, batch 8) — no owner exists; never
+    pre-minted here (the B5-H-09 convention; the batch-6 ruling's
+    REACTIVITY_MS sulfate-test note is the same class)
+  - 'the titration-calculation surface (moles from titres, mol/dm3
+    concentrations — documented in BOTH pinned MS files: the Titrations MS
+    Q2e/Q3c/Q4f and the Salt-Prep MS Q2b) belongs to the S3 quantitative lane
+    (CON-CONC-CALC/CON-MOLE/CON-MOLAR-RATIO owners) — MS-only application
+    surface (the G07 misconception-class restriction), no edge authored; the
+    batch-6 ruling''s REACTIVITY_MS Q1ai rate-factor note is the same class'
+  - the temperature-change/maximum-temperature neutralisation surface (the
+    pinned Titrations MS Q2/Q4 — temperature-rise experiments, "maximum
+    temperature" where the lines cross) belongs to the S3 3.8/PR-09
+    exothermic-neutralisation calorimetry lane (CON-EXO-ENDO/CON-CALORIMETRY/
+    CON-HEAT-CALC owners) — no batch-7 edge; the batch-7 scope has no
+    temperature demand
+  - the anhydrous-copper(II)-sulfate colour-change surface (the batch-3 S3
+    reversible owner's alias + the 2.49 water test, batch 8) stays out of
+    batch-7 scope — the 2.42 practical PREPARES hydrated crystals and never
+    teaches the dehydration equilibrium; no edge and no future mint beyond
+    batch 8's own chemical-tests commissioning
+
+non_goals:
+  - no ontology redesign (the session-52 scope discipline verbatim)
+  - no re-opening of any settled identity (all 142 pre-batch-7 nodes stay
+    exactly as they are; the non_mint_list is enforced at preverify/G03/c11.4)
+  - no re-scoping of the batch (2.28-2.43C + the two in-slice practicals;
+    2.44-2.50 stays batch 8)
+  - no promotion authority (the ruling mints nothing, promotes nothing; the
+    batch ends at its operator gate)
+  - no direct writes to graph/*.yaml (the deterministic generation contract;
+    every change rides the sanctioned generators)

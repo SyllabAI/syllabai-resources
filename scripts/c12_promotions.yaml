@@ -1,0 +1,143 @@
+# T-C12 promotion record — operator ratifications of AI-suggested question<->spec-point mappings.
+# Written ONLY by scripts/c12_promote.py; see C11_ARCHITECTURE.md section 7. Hand-editing is forbidden.
+meta:
+  task: T-C12
+  stage: operator-promotion
+  contract: C11_ARCHITECTURE.md section 7 (operator review gate)
+  tool: scripts/c12_promote.py
+  generated_date: '2026-09-15'
+promotions:
+- source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  question_id: smoke-q-acid-rain
+  unit_text_hash: 9f3434e43931170fcfef203def4de2cb83f9af8031fdeeba93c447d3fe842ebc
+  decision: amended
+  mapping:
+    primary_spec_point: 4CH1-4.16
+    secondary_spec_points:
+    - 4CH1-4.14
+    command_word: Explain
+    confidence: 1.0
+    rationale: '''Understand'' is not a registry command word; content mapping kept'
+  ai_suggestion:
+    command_word: Understand
+    confidence: 1.0
+    primary_spec_point: 4CH1-4.16
+    rationale: The question directly assesses understanding of how sulfur dioxide and oxides of nitrogen
+      contribute to acid rain, and includes knowledge of nitrogen oxide formation in car engines.
+    secondary_spec_points:
+    - 4CH1-4.14
+  provenance:
+    tier: HUMAN_VALIDATED
+    source_tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c12-agent-pass-1
+    validated_by: Nawaf Al Hussain Khondokar
+    validated_date: '2026-09-15'
+    review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+    operator_note: '''Understand'' is not a registry command word; content mapping kept'
+- source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  question_id: smoke-q-fractional-distillation
+  unit_text_hash: 9692542870e269787744cf4eac2ba2755a731517a46e59ecdba9b4e9b1f38b3f
+  decision: accepted
+  mapping:
+    command_word: Describe
+    confidence: 1.0
+    primary_spec_point: 4CH1-4.8
+    rationale: The question directly asks to 'describe how the industrial process of fractional distillation
+      separates crude oil into fractions', which matches 4CH1-4.8.
+    secondary_spec_points:
+    - 4CH1-4.7
+  ai_suggestion:
+    command_word: Describe
+    confidence: 1.0
+    primary_spec_point: 4CH1-4.8
+    rationale: The question directly asks to 'describe how the industrial process of fractional distillation
+      separates crude oil into fractions', which matches 4CH1-4.8.
+    secondary_spec_points:
+    - 4CH1-4.7
+  provenance:
+    tier: HUMAN_VALIDATED
+    source_tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c12-agent-pass-1
+    validated_by: Nawaf Al Hussain Khondokar
+    validated_date: '2026-09-15'
+    review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+    operator_note: null
+- source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  question_id: smoke-q-fuels-sulfur-negative-control
+  unit_text_hash: 1e8de61ffaf897b577c88d8e58ef15a7760d554f54119c43bc6c29983476af7c
+  decision: accepted
+  mapping:
+    command_word: Explain
+    confidence: 0.9
+    primary_spec_point: 4CH1-4.16
+    rationale: The question directly assesses understanding of how sulfur dioxide contributes to acid
+      rain, as specified in 4CH1-4.16, with secondary relevance to 4CH1-4.15 which explains sulfur dioxide
+      formation from fuel combustion.
+    secondary_spec_points:
+    - 4CH1-4.15
+  ai_suggestion:
+    command_word: Explain
+    confidence: 0.9
+    primary_spec_point: 4CH1-4.16
+    rationale: The question directly assesses understanding of how sulfur dioxide contributes to acid
+      rain, as specified in 4CH1-4.16, with secondary relevance to 4CH1-4.15 which explains sulfur dioxide
+      formation from fuel combustion.
+    secondary_spec_points:
+    - 4CH1-4.15
+  provenance:
+    tier: HUMAN_VALIDATED
+    source_tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c12-agent-pass-1
+    validated_by: Nawaf Al Hussain Khondokar
+    validated_date: '2026-09-15'
+    review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+    operator_note: 4.16 is the demanded consequence; 4.15 premise captured as secondary only
+- source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  question_id: smoke-q-ionic-conduction
+  unit_text_hash: ca750560bd65148b5c3c8086552a2f8b0a0ede30c853c8b56b6648bbb9b70764
+  decision: accepted
+  mapping:
+    command_word: Explain
+    confidence: 1.0
+    primary_spec_point: 4CH1-1.56C
+    rationale: The question directly assesses understanding of why ionic compounds conduct electricity
+      only when molten or in aqueous solution, which matches 4CH1-1.56C.
+    secondary_spec_points:
+    - 4CH1-1.43
+  ai_suggestion:
+    command_word: Explain
+    confidence: 1.0
+    primary_spec_point: 4CH1-1.56C
+    rationale: The question directly assesses understanding of why ionic compounds conduct electricity
+      only when molten or in aqueous solution, which matches 4CH1-1.56C.
+    secondary_spec_points:
+    - 4CH1-1.43
+  provenance:
+    tier: HUMAN_VALIDATED
+    source_tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c12-agent-pass-1
+    validated_by: Nawaf Al Hussain Khondokar
+    validated_date: '2026-09-15'
+    review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+    operator_note: 'endorse 1.56C primary: ''explain why'' matches its ''understand why''; 1.43 kept secondary;
+      2C-only accepted'
+- source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  question_id: smoke-q-physics-newtons-cradle
+  unit_text_hash: 15bdc0c0ce6b7ee8df40b0a5e20e636702ba2d87529f825c0ae6c974461186df
+  decision: accepted-exclusion
+  mapping: null
+  ai_suggestion: null
+  provenance:
+    tier: HUMAN_VALIDATED
+    source_tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c12-agent-pass-1
+    validated_by: Nawaf Al Hussain Khondokar
+    validated_date: '2026-09-15'
+    review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+    operator_note: confirmed out-of-curriculum WPH11 physics
+rejections: []

@@ -1,0 +1,114 @@
+# T-C33 K2-C-1 — batch-B01 adversarial pass-2 review record (the c11_batch11_review_pass2.yaml
+# shape, first-batch instance). Pass 2 is the authoring agent's second, adversarial pass over
+# its own pass-1 extraction: every row re-ruled, every doubt either resolved on explicit
+# evidence or routed to the held record / the operator's identity decisions. NOTHING in this
+# file promotes anything — SUGGESTED stays SUGGESTED until the operator's verdict gate.
+meta:
+  task: T-C33
+  stage: k2-c-batch-01-pass2
+  extraction_pass: c33-k2c-batch-01
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-01'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; identity decisions re-flagged; the held record re-tested for silent-drop
+    avoidance; the unjoined-corpus negative control re-run as a file-set check.
+node_verdicts:
+  4MA1-CON-INTEGERS-AND-DIRECTED-NUMBERS: CONFIRM
+  4MA1-CON-PLACE-VALUE: CONFIRM
+  4MA1-CON-FOUR-OPERATIONS: CONFIRM
+  4MA1-CON-ORDER-OF-OPERATIONS: CONFIRM
+  4MA1-CON-TYPES-OF-NUMBER: CONFIRM
+  4MA1-CON-FACTORS-AND-MULTIPLES: CONFIRM
+  4MA1-CON-EQUIVALENT-FRACTIONS: CONFIRM
+  4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS: CONFIRM
+  4MA1-CON-COMMON-DENOMINATORS: CONFIRM
+  4MA1-CON-ORDERING-FRACTIONS: CONFIRM
+  4MA1-CON-FRACTION-OF-A-QUANTITY: CONFIRM
+edge_verdicts:
+  "4MA1-CON-ORDER-OF-OPERATIONS REQUIRES_PREREQUISITE 4MA1-CON-FOUR-OPERATIONS": CONFIRM
+  "4MA1-CON-TYPES-OF-NUMBER REQUIRES_PREREQUISITE 4MA1-CON-INTEGERS-AND-DIRECTED-NUMBERS": CONFIRM
+  "4MA1-CON-TYPES-OF-NUMBER REQUIRES_PREREQUISITE 4MA1-CON-FOUR-OPERATIONS": CONFIRM
+  "4MA1-CON-FACTORS-AND-MULTIPLES REQUIRES_PREREQUISITE 4MA1-CON-TYPES-OF-NUMBER": CONFIRM
+  "4MA1-CON-EQUIVALENT-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-FACTORS-AND-MULTIPLES": CONFIRM
+  "4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-INTEGERS-AND-DIRECTED-NUMBERS": CONFIRM
+  "4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-EQUIVALENT-FRACTIONS": CONFIRM
+  "4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-FOUR-OPERATIONS": CONFIRM
+  "4MA1-CON-COMMON-DENOMINATORS REQUIRES_PREREQUISITE 4MA1-CON-EQUIVALENT-FRACTIONS": CONFIRM
+  "4MA1-CON-COMMON-DENOMINATORS REQUIRES_PREREQUISITE 4MA1-CON-FACTORS-AND-MULTIPLES": CONFIRM
+  "4MA1-CON-ORDERING-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-COMMON-DENOMINATORS": CONFIRM
+  "4MA1-CON-FRACTION-OF-A-QUANTITY REQUIRES_PREREQUISITE 4MA1-CON-FOUR-OPERATIONS": CONFIRM
+held_agreements:
+  B01-H-01: AGREE
+  B01-H-02: AGREE
+  B01-H-03: AGREE
+  B01-H-04: AGREE
+  B01-H-05: AGREE
+identity_flags:
+  - B01-ID-01
+  - B01-ID-02
+findings:
+- id: FP-B01-1
+  class: FALSE-POSITIVE-CHECK
+  question: >-
+    Is EQUIVALENT-FRACTIONS REQUIRES_PREREQUISITE FACTORS-AND-MULTIPLES circular with
+    COMMON-DENOMINATORS REQUIRES_PREREQUISITE EQUIVALENT-FRACTIONS (a dependency cycle
+    factors -> equivalent -> common-denominators -> factors)?
+  resolution: >-
+    No cycle exists in the authored edge set — the chains run
+    factors->equivalent and equivalent->common-denominators, and the third edge out of
+    common-denominators targets ordering-fractions, not factors. The only common-denominators->factors
+    edge (the LCD-as-common-multiple row) does not close a cycle. CONFIRM unchanged.
+- id: FP-B01-2
+  class: PROVENANCE-CHECK
+  question: >-
+    The 1.2A NOTE evidence cites the Simplifying Algebraic Fractions note for an arithmetic
+    equivalent-fractions SP — is an algebraic surface honest evidence for an arithmetic demand?
+  resolution: >-
+    Yes, with the provenance stated: the note↔SP pair IS the operator-worked substrate's own
+    mapping (spcpt_pqWsmktWyMCRfTk6 -> 1.2A, AI_VALIDATED operator-delegated, inherited 1:1
+    by the C32 join), and the note's cancelling procedure (factorise top and bottom, cancel
+    the common factor) is the same common-factor cancellation the arithmetic wording demands,
+    in algebraic form. The record states this inheritance verbatim in the node's
+    derivation_notes; nothing re-derived. CONFIRM unchanged.
+- id: FP-B01-3
+  class: DOUBLE-TARGET-CHECK
+  question: >-
+    TYPES-OF-NUMBER carries TWO prerequisite edges (into INTEGERS-AND-DIRECTED-NUMBERS and
+    into FOUR-OPERATIONS) — is one of them a structure-first mint?
+  resolution: >-
+    No — the two edges carry disjoint evidence surfaces: the integer-domain row quotes the
+    note defining multiples ON integers ("A multiple of a given integer..."), the
+    operations row quotes the note's multiplying/dividing definitions ("formed by
+    multiplying...", "divides...exactly with no remainder"). CONFIRM unchanged.
+- id: FN-B01-1
+  class: FALSE-NEGATIVE-CHECK
+  question: >-
+    Should B01 mint any misconception (the chemistry batches minted one where a mark-scheme
+    Reject row documented the wrong-answer class)?
+  resolution: >-
+    No — the three B01-topic mark-scheme files (number-toolkit, fractions,
+    prime-factors-hcf-and-lcm) document correct procedures only; no Reject-class row exists
+    in the citable corpus. The add-numerators-and-denominators folklore is HELD (B01-H-04,
+    NO-MS-REJECT-DOCUMENTATION), not minted. The abstention is the contract working.
+- id: FN-B01-2
+  class: FORECAST-CHECK
+  question: >-
+    The batch authors 12 edges against the adjusted forecast of ~1.6 edges/SP (~19 for the
+    slice) — is the shortfall thin coverage?
+  resolution: >-
+    No — it is structural: B01 is the FIRST batch, the registry is empty, so every candidate
+    edge must resolve in-slice and the cross-batch boundary-edge class (which carried 12 of
+    chemistry batch-11's 17 edges) has no targets to reach. The five held candidates record
+    the would-be edges the evidence could not support. Recorded in the sheet's calibration
+    section, not papered over.
+agreement_summary:
+  nodes: '11/11 CONFIRM'
+  edges: '12 CONFIRM · 0 HOLD · 0 REJECT'
+  held: '5/5 AGREE'
+  raw_agreement_note: >-
+    raw agreement, NOT kappa — single human-rater convention (architecture §12 analogue);
+    pass-2 found zero re-authoring cases, zero demotions.

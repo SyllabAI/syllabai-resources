@@ -1,0 +1,286 @@
+# T-C11 §16 batch 7 — PASS-2 ADVERSARIAL REVIEW (session 59, 2026-09-23).
+# The independent second pass over the batch-7 decision record
+# (scripts/c11_batch7_decisions.yaml) — every node and edge re-checked
+# against its cited evidence, the relation classes and directions re-ruled,
+# the boundary discipline re-audited, the held quarantine re-swept. The
+# c11_batch6_review_pass2.yaml pattern, batch-7-scoped.
+#
+# RAW AGREEMENT (explicitly NOT Cohen's kappa — one human rater exists, the
+# operator; architecture §12). Verdict vocabulary: CONFIRM / CONFIRM_WITH_NOTE
+# / HOLD / REJECT for edges+nodes; AGREE_HOLD for the held appendix.
+#
+# ONE finding was re-authored BEFORE the gate (FP-B7-4 — see findings);
+# zero demotions at the re-authored state.
+meta:
+  pass: c11-batch7-review-2
+  session: 59
+  reviewed_date: '2026-09-23'
+  reviewer: GLM (Super Z agent, z.ai)
+  record_under_review: scripts/c11_batch7_decisions.yaml
+  boundary_ruling: scripts/c11_batch7_boundary_ruling.yaml
+  method: 'every evidence anchor re-read in its source file; every derivation
+    note challenged against the cited quote; relation classes and directions
+    re-ruled (not just existence); the sanctioned boundary set re-checked
+    against the session-59 ruling; the held quarantine re-swept for
+    insufficient characterization (the session-53 Step-3 rule)'
+nodes:
+  4CH1-CON-INDICATORS:
+    verdict: CONFIRM
+    note: 'the two-colour table + titration-suitability content is the 2.28
+      demand verbatim; the litmus anchor carries the source''s own "colours
+      indicators" typo byte-honestly'
+  4CH1-CON-PH-SCALE:
+    verdict: CONFIRM
+    note: 'the five bands are the demand; the pH<-ions enrichment candidate
+      correctly held (B7-H-01), not asserted'
+  4CH1-CON-UNIVERSAL-INDICATOR:
+    verdict: CONFIRM
+    note: 'approximate-only + chart matching is the demand; the examiner-tip
+      error correctly HELD (B7-H-06) rather than minted note-anchored'
+  4CH1-CON-ACID-ALKALI-IONS:
+    verdict: CONFIRM
+    note: 'both 2.31 halves evidenced; the self-contained teaching reading (no
+      CON-ION edge) is the honest one — the note states the solution-ion
+      picture itself'
+  4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM_WITH_NOTE
+    note: 'the H+/OH- mechanism + the not-all-acid-reactions scope limit are
+      both carried; NOTE: the node''s mechanism sentence is also the
+      remediation surface for MIS-ENDPOINT-PH-ABOVE-7 — the operator should
+      rule the misconception WITH the concept row (B7-ID-05)'
+  4CH1-CON-TITRATION:
+    verdict: CONFIRM
+    note: 'the full technique is evidenced incl. the concordant-titres rule;
+      the "wil" typo anchor is byte-honest with attribution recorded'
+  4CH1-CON-SOLUBILITY-RULES:
+    verdict: CONFIRM
+    note: 'the qualitative-rules vs quantitative-owner distinction is the
+      correct identity reading (B7-ID-02); the ion-vocabulary dependency rides
+      the sanctioned CON-ION-CHARGE-RULES edge'
+  4CH1-CON-PROTON-TRANSFER:
+    verdict: CONFIRM
+    note: 'the one-node-two-SPs family reading is the note''s own structure
+      (B7-ID-01); the hydronium MS anchor is genuine Accept-column evidence'
+  4CH1-CON-ACID-REACTIONS:
+    verdict: CONFIRM
+    note: 'all three reaction families evidenced; the nitric-acid exclusion is
+      respected (no HNO3 column in the metal table); the boundary edge target
+      (ORDER, not ARRANGE) is the correct owner reading'
+  4CH1-CON-BASES-ALKALIS:
+    verdict: CONFIRM
+    note: 'the base family + soluble-base distinction is the demand; the pH
+      sentence correctly held (B7-H-02)'
+  4CH1-CON-SALT-INSOLUBLE-REACTANT:
+    verdict: CONFIRM
+    note: 'the excess->filter->evaporate->crystallise chain is the demand; the
+      inline-re-teach reading of the separation steps is the B5-H-02 rule
+      applied consistently'
+  4CH1-CON-SALT-TITRATION-ROUTE:
+    verdict: CONFIRM
+    note: 'the repeat-without-indicator move is the route''s signature step and
+      is anchored; the CON-TITRATION dependency is the note''s own sentence'
+  4CH1-CON-SALT-PRECIPITATION:
+    verdict: CONFIRM
+    note: 'the feasibility condition (insoluble product, soluble reactants) is
+      the demand''s core and is anchored twice; double decomposition recorded
+      as an alias, not a mint'
+  4CH1-MIS-ENDPOINT-PH-ABOVE-7:
+    verdict: CONFIRM
+    note: 'clean documented Reject-column class; the temperature-experiment
+      context is recorded in the derivation notes and the ruling''s
+      future_boundary_note (the S3 adjacency), not silently dropped'
+  4CH1-MIS-PRECIPITATE-IN-FILTRATE:
+    verdict: CONFIRM
+    note: 'the strongest documented class of the batch — expected answer +
+      Reject rationale + the residue instruction all anchored'
+edges:
+  4CH1-CON-UNIVERSAL-INDICATOR REQUIRES_PREREQUISITE 4CH1-CON-PH-SCALE:
+    verdict: CONFIRM
+    note: 'measuring presupposes the measured quantity; direction correct'
+  4CH1-CON-NEUTRALISATION REQUIRES_PREREQUISITE 4CH1-CON-ACID-ALKALI-IONS:
+    verdict: CONFIRM
+    note: 'the mechanism sentence is the definitional dependency verbatim'
+  4CH1-CON-TITRATION REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM
+    note: 'the purpose sentence defines the endpoint as the neutralisation
+      point — load-bearing, not framing'
+  4CH1-CON-TITRATION REQUIRES_PREREQUISITE 4CH1-CON-INDICATORS:
+    verdict: CONFIRM
+    note: 'the sharp-change requirement makes indicator knowledge load-bearing
+      for the method (the litmus-unsuitable teaching is the negative case of
+      the same dependency)'
+  4CH1-CON-PROTON-TRANSFER REQUIRES_PREREQUISITE 4CH1-CON-ACID-ALKALI-IONS:
+    verdict: CONFIRM
+    note: '"extends the earlier definition" is the teach-sequence statement
+      verbatim'
+  4CH1-CON-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM
+    note: 'the base row is classified by the 2.32 concept; the note''s own
+      scope limit (no water in the metal row) shows the classification is
+      doing work, not decoration'
+  4CH1-CON-BASES-ALKALIS REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM
+    note: 'the base definition is stated through neutralisation'
+  4CH1-CON-SALT-INSOLUBLE-REACTANT REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY-RULES:
+    verdict: CONFIRM
+    note: 'the method-selection sentence is the solubility note''s own framing
+      of why the rules exist — the strongest in-slice dependency of the batch'
+  4CH1-CON-SALT-INSOLUBLE-REACTANT REQUIRES_PREREQUISITE 4CH1-CON-ACID-REACTIONS:
+    verdict: CONFIRM
+    note: 'the route runs the acid+base family; the CuO equation is that
+      family''s chemistry in the note itself'
+  4CH1-CON-SALT-TITRATION-ROUTE REQUIRES_PREREQUISITE 4CH1-CON-TITRATION:
+    verdict: CONFIRM
+    note: 'the route IS the technique applied to preparation'
+  4CH1-CON-SALT-PRECIPITATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY-RULES:
+    verdict: CONFIRM
+    note: 'the feasibility condition applies the rules explicitly (nitrates
+      select the reactants; insolubility selects the products)'
+  4CH1-CON-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER:
+    verdict: CONFIRM
+    note: 'SANCTIONED BOUNDARY EDGE (ruling target 1) — placement applied as
+      given, the order owner (not the arrangement method), evidence byte-true'
+  4CH1-CON-SOLUBILITY-RULES REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES:
+    verdict: CONFIRM
+    note: 'SANCTIONED BOUNDARY EDGE (ruling target 2) — the ion-family table
+      vocabulary applied as given, never re-taught'
+  4CH1-PR-07 REQUIRES_PREREQUISITE 4CH1-CON-SALT-INSOLUBLE-REACTANT:
+    verdict: CONFIRM
+    note: 'the PR-05/PR-06 shape: the named practical runs the route; no
+      concept node on 2.42 (the practical-ownership precedent)'
+  4CH1-PR-08 REQUIRES_PREREQUISITE 4CH1-CON-SALT-PRECIPITATION:
+    verdict: CONFIRM
+    note: 'same shape; the practical''s aim sentence restates the concept''s
+      feasibility condition verbatim'
+  4CH1-MIS-ENDPOINT-PH-ABOVE-7 WRONG_ANSWER_PATTERN 4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM
+    note: 'the WAP target reading is argued in the derivation notes and is the
+      honest one (the completion surface is neutralisation''s; see FP-B7-3)'
+  4CH1-MIS-ENDPOINT-PH-ABOVE-7 REMEDIATED_BY 4CH1-CON-NEUTRALISATION:
+    verdict: CONFIRM
+    note: 'remediation target = WAP target (the B1-E-25 pattern); the MS''s
+      accepted signals are the corrective content in assessment form'
+  4CH1-MIS-PRECIPITATE-IN-FILTRATE WRONG_ANSWER_PATTERN 4CH1-CON-SALT-PRECIPITATION:
+    verdict: CONFIRM
+    note: 'the strongest WAP anchor set of the batch'
+  4CH1-MIS-PRECIPITATE-IN-FILTRATE REMEDIATED_BY 4CH1-CON-SALT-PRECIPITATION:
+    verdict: CONFIRM
+    note: 'the method''s own teaching is the remediation; target = WAP target'
+held_review:
+  - id: B7-H-01
+    verdict: AGREE_HOLD
+    note: enrichment vs load-bearing is correctly distinguished
+  - id: B7-H-02
+    verdict: AGREE_HOLD
+    note: incidental restatement, correctly not asserted
+  - id: B7-H-03
+    verdict: AGREE_HOLD
+    note: naming-surface reading is right; the CON-WATER-CRYST owner is
+      protected by the non_mint_list
+  - id: B7-H-04
+    verdict: AGREE_HOLD
+    note: the session-53 Step-3 rule applies — no mechanism in the pin, no
+      characterization without inference
+  - id: B7-H-05
+    verdict: AGREE_HOLD
+    note: the S3-owner surface reading matches the batch-6 Q1ai precedent
+  - id: B7-H-06
+    verdict: AGREE_HOLD
+    note: the MS-documented discipline is the batch-4..6 line; operator rules
+      the ERRONEOUS_BELIEF lane
+  - id: B7-H-07
+    verdict: AGREE_HOLD
+    note: the adjacency is real but the chemistry is distinct — operator
+      visibility is the right disposition
+  - id: B7-H-08
+    verdict: AGREE_HOLD
+    note: note-anchored only; the S1 dryness owner already covers the
+      documented part of the surface
+  - id: B7-H-09
+    verdict: AGREE_HOLD
+    note: context framing, correctly not asserted
+findings:
+  - id: FP-B7-1
+    finding: 'identity question — the 2.35/2.36 proton-transfer node attaches
+      TWO SPs where batch-5''s opposite-direction siblings (2.4C/2.8C) were
+      kept separate'
+    resolution: 'the note''s own structure teaches the transfer framework and
+      the donor/acceptor definitions as ONE extension of the earlier
+      definition ("The earlier definition of an acid and a base can be
+      extended"); the 2.35 wording subsumes the 2.36 wording (donor/acceptor
+      IS the transfer account) — one family node (B7-ID-01), the B5 2.11
+      one-family precedent. No re-authoring.'
+    reauthored: false
+  - id: FP-B7-2
+    finding: 'edge-evidence asymmetry — CON-TITRATION REQUIRES_PREREQUISITE
+      CON-INDICATORS''s first anchor is a method-list step (weaker alone)'
+    resolution: 'the second anchor (the indicator note''s titration-suitability
+      sentence: sharp change required, litmus unsuitable) is the load-bearing
+      evidence and IS carried; the pair is complementary (positive case from
+      the method, negative case from the suitability teaching). No
+      re-authoring.'
+    reauthored: false
+  - id: FP-B7-3
+    finding: 'WAP-target question — the endpoint misconception''s question
+      context is a TEMPERATURE-rise experiment (the S3 3.8/PR-09 surface);
+      anchoring the WAP at CON-NEUTRALISATION (2.32) rather than CON-PH-SCALE
+      needed justification'
+    resolution: 'the wrong answer is about WHEN THE NEUTRALISATION IS COMPLETE
+      (the completion surface is 2.32''s); the pH misreading is the mechanism
+      of the wrong answer, not the surface being probed; the temperature
+      context is explicitly recorded in the derivation notes AND the ruling''s
+      future_boundary_note (no silent drop). No re-authoring.'
+    reauthored: false
+  - id: FP-B7-4
+    finding: 'SOURCE-NOTE CONFLICT — the Preparing lead sulfate note instructs
+      "Wash filtrate with distilled water to remove traces of other solutions"
+      while the pinned Salt-Prep MS (Q7a(iii)) explicitly awards nothing for
+      washing the filtrate ("If implication that filtrate is washed or
+      evaporated, neither M2 nor M3 can be awarded") — the note''s word is
+      chemically the RESIDUE being washed'
+    resolution: 'RE-AUTHORED BEFORE THE GATE: the PR-08 practical edge''s
+      anchors were swapped to the aim sentence ("The solid salt obtained is
+      the precipitate...") and the filtration step ("Filter to remove
+      precipitate from mixture") — the conflicting "Wash filtrate" line is NOT
+      anchored anywhere in the record; the conflict itself is recorded here
+      (and flagged to the corpus owner via this finding) rather than silently
+      quoted or silently dropped. The record carries 15 nodes / 19 authored
+      edges at this gate.'
+    reauthored: true
+  - id: FP-B7-5
+    finding: 'anchor-surface check — the G5 note''s CuO equation carries a
+      literal "&nbsp;" entity in the source markdown; the T-C10 norm() does
+      not strip it'
+    resolution: 'the anchor quote carries the entity byte-honestly ("CuO (s) +
+      H2SO4&nbsp; (aq) ⟶ ..."), verified by the probe and the preverify under
+      the same norm(); the G03 generator check uses the identical normalizer.
+      No re-authoring (documented for the encode session''s benefit).'
+    reauthored: false
+  - id: FN-B7-1
+    finding: 'missed-surface sweep — the soil-treatment application sentence
+      (limestone/quicklime raising soil pH) and the effervescence observation
+      vocabulary in the 2.37 note have no SP demand behind them'
+    resolution: 'application context / observation vocabulary — no concept
+      family, no edge, recorded in the CON-NEUTRALISATION derivation notes and
+      the ruling''s dispositions. Correct abstention.'
+    reauthored: false
+  - id: FN-B7-2
+    finding: 'missed-surface sweep — the indicator note''s examiner tip
+      (universal indicator is not a titration indicator) is a genuine
+      documented error surface left unmined'
+    resolution: 'deliberate: NOT MS-documented (the batch-4..6 discipline);
+      held B7-H-06 for the operator''s explicit ruling on the
+      ERRONEOUS_BELIEF lane. Correct abstention, not an omission.'
+    reauthored: false
+summary:
+  nodes_confirm: 14
+  nodes_confirm_with_note: 1
+  edges_confirm: 19
+  edges_hold: 0
+  edges_reject: 0
+  held_agree: 9
+  demotions: 0
+  reauthored_before_gate: 1
+  note: 'one re-authoring (FP-B7-4, the PR-08 anchor swap away from the
+    conflicting source-note line) happened BEFORE the gate; the record at
+    this gate carries 15 nodes / 19 authored edges / 9 held / zero RR'

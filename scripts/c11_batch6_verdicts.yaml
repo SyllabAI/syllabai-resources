@@ -1,0 +1,332 @@
+# T-C11 §16 batch 6 — OPERATOR verdict record (session-57 package), FILLED by operator decision session 58 (2026-09-22). OPERATOR-OWNED.
+# Operator verdict (completed review sheet §6, C11_BATCH6_REVIEW_SHEET_COMPLETED.md): all 13 node verdicts and all 16
+# edge verdicts accepted with the pass-2 statuses retained (the four CONFIRM_WITH_NOTE qualifications — three nodes + edge B6-E-09 —
+# recorded in notes per the vocabulary rule); the six identity
+# decisions KEEP_AS_IS; the 9 held candidates acknowledged and quarantined; zero RR; zero REJECT.
+# Completed-sheet drift: exactly FOUR characterized typographic lines (machine-checked — see meta.operator_ruling.completed_sheet_drift).
+# Vocabulary and pathway: see the meta.operator_ruling.mapping block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-6-verdicts
+  batch: 6
+  session: 58
+  file: OPERATOR-OWNED verdict record for C11_BATCH6_REVIEW_SHEET (session-57 package) — verdicts recorded
+    by operator decision, session 58 (2026-09-22), from the completed review sheet §6 (C11_BATCH6_REVIEW_SHEET_COMPLETED.md).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-6 extraction_pass
+    is c11-s16-batch-6 (Section 2 Inorganic Chemistry SECOND slice, 13 SPs 4CH1-2.15-2.27); its 9 held
+    candidates are informational only (no reopening, no promotion of held candidates — B6-H-03 records
+    the IGNORE-class wrong-answer candidate refused for insufficient characterization; revisit only with
+    new MS evidence). FOUR edges are cross-section boundary edges into the ruled targets (CON-ELECTROLYSIS
+    + CON-METAL-PROPERTIES — batch-3 owners; CON-REACT-ORDER + CON-RUSTING — the batch-6 mints the batch-5
+    ruling deferred to, closing its two future_boundary_notes; sanctioned by the session-57 cross-slice
+    ruling, no duplicate mint). The next session applies verdicts via the §18 promotion pathway / §7 decision-record
+    re-authoring; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'Final operator gate: Nodes 13/13 confirmed; Authored edges 16/16 confirmed; Edge qualification:
+      1 CONFIRM_WITH_NOTE; Identity decisions 6/6 KEEP_AS_IS; Held candidates 9/9 acknowledged and quarantined;
+      REVIEW_REQUIRED edges 0; Rejected authored edges 0; Batch-6 promotions 0; Authority status SUGGESTED
+      until the governed promotion pathway is executed. Operator verdict: PASS WITH NOTE — proceed to
+      verdict encoding/reconciliation and the separately governed §18 promotion step. The note on B6-E-09
+      is a semantic guardrail, not a rejection. It prevents the graph from turning a route-specific experimental
+      dependency into a universal prerequisite. This verdict does not itself perform promotion. The next
+      mechanical step remains: c11_batch6_verdicts_template.yaml -> c11_batch6_verdicts.yaml -> encode/reconcile
+      -> c11_promote.py -> regenerate -> rerun the complete gate suite.'
+    session: 58
+    decided_by: operator
+    decided_date: '2026-09-22'
+    completed_sheet: C11_BATCH6_REVIEW_SHEET_COMPLETED.md (2026-09-22) — the operator-completed copy of
+      the session-57 gate package review sheet graph/reports/C11_BATCH6_REVIEW_SHEET.md with section 6
+      ('Completed operator verdict') appended.
+    completed_sheet_drift: 'Session-58 drift record: the completed copy''s §1-5 is NOT byte-identical
+      to the in-repo gate sheet — exactly FOUR lines differ, all typographic/wording-level with zero verdict-relevant
+      semantic change, machine-checked by the encoding script against exact string pairs: line 12 (the
+      §1 totals separator normalized 4-col -> 5-col under the 5-column header — a markdown table-shape
+      repair, same data); line 61 (''no duplicate mint'' -> ''no duplicate concept'' — one-word wording,
+      the completed sheet''s own §6 text reads ''No duplicate concept is to be minted'', identical ruling);
+      line 69 (the gate sheet''s mid-word truncation ''conventio |'' completed to ''convention) |'' —
+      same data); line 87 (the pathway line''s tooling-chain naming replaced by the generic §18 wording
+      — the batch-5 sheet form; the instruction is identical and the completed §6 final line names the
+      full mechanical chain itself). Anything beyond these four lines would fail the encode. The §6 verdict
+      content itself is complete and self-consistent: 13 node verdicts, 16 edge verdicts (B6-E-09 explicitly
+      CONFIRM_WITH_NOTE), 6 identity rationales, 9 held acknowledgments, the final directive.'
+    mapping: 'The operator reviewed the session-57 gate package and returned the completed sheet §6 ''Completed
+      operator verdict'': all 13 pass-2 node verdicts accepted with the statuses retained (12 CONCEPT
+      rows CONFIRM — the 2.20 term-family row and the 2.24C evaluation row as CONFIRM_WITH_NOTE; the single
+      MISCONCEPTION row CONFIRM_WITH_NOTE); all 16 authored semantic edges CONFIRM except the explicitly
+      qualified B6-E-09 (O2-PERCENT-DETERMINATION REQUIRES_PREREQUISITE RUSTING) — CONFIRM_WITH_NOTE:
+      ''this dependency is route-specific. The iron-based oxygen-percentage determination uses iron oxidation/rusting-related
+      knowledge; the edge must not be interpreted as saying that every possible oxygen-percentage determination
+      method universally requires the rusting concept'' (a semantic guardrail, not a rejection); ''The
+      four sanctioned cross-section edges remain confirmed and must continue to reference their governed
+      owners/mints'' (extraction method -> existing CON-ELECTROLYSIS; metal uses -> existing CON-METAL-PROPERTIES;
+      carbonate decomposition -> batch-6 CON-REACT-ORDER; oxygen-percentage iron route -> batch-6 CON-RUSTING;
+      ''No duplicate concept is to be minted''); the six identity decisions resolved KEEP_AS_IS each with
+      a recorded rationale (the 2.20-vs-electron-framework operand split, the 2.23C/2.24C method-vs-evaluation
+      split, the 2.15/2.16/2.17 trio, the 2.18/2.19 conditions-vs-prevention split, the 2.26C/2.27C definition-vs-mechanism
+      split, the single misconception mint); the 9 held candidates ''ACKNOWLEDGED / KEEP QUARANTINED''
+      — none reopened, promoted, or converted (B6-H-03/06/07/08/09 explicitly upheld); zero RR rows (the
+      batch authored none); zero REJECTED authored edges; final directive: ''Operator verdict: PASS WITH
+      NOTE — proceed to verdict encoding/reconciliation and the separately governed §18 promotion step.''
+      The operator verdict file itself is the authorization (the session-54/56 precedent). ENCODING RULES:
+      the verdict-record vocabulary (CONFIRM|REJECT|HOLD|MERGE|SPLIT) has no WITH_NOTE value, so the operator''s
+      four CONFIRM_WITH_NOTE statuses (three nodes + one edge) are recorded as CONFIRM with the qualification
+      carried verbatim in the row''s notes (the batch-1..5 precedent that qualifications ride in notes);
+      node verdicts are keyed by CODE and edge verdicts by TRIPLE — never by row id — because the sheet''s
+      §2/§6 node numbering (table order: sheet B6-N-01 = CON-REACT-ARRANGE) differs from the template''s
+      alphabetical-by-code numbering (template B6-N-01 = CON-ALLOY-HARDNESS), while the edge ids coincide
+      in both orderings and the explicitly named B6-E-09 triple is identical in both; each template row''s
+      id<->code/triple correspondence was asserted against the decision record before encoding; node authority
+      is NOT changed by these confirmations (nodes have no §18 pathway — node promotion remains a separate
+      identity decision, deferred); PART_OF is derived and outside §18; the application state lives in
+      scripts/c11_promotions.yaml (the §18 pathway is the only HUMAN_VALIDATED source) — this file never
+      carries promotion payload or promoted status. Changing a recorded verdict requires an explicit operator
+      decision.'
+edge_verdicts:
+- id: B6-E-01
+  triple: 4CH1-CON-ALLOY-HARDNESS REQUIRES_PREREQUISITE 4CH1-CON-ALLOYS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — definitional containment (''Alloys are harder than pure metals
+    because: Alloys contain atoms of DIFFERENT sizes''); the different-sized atoms are the alloy definition
+    applied.'
+- id: B6-E-02
+  triple: 4CH1-CON-CO2-FROM-CARBONATES REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge AND a deferral closure (closes
+    the batch-5 ruling''s future_boundary_note and held B5-H-10 verbatim: ''Carbonates of metals from
+    the LOWER HALF of the reactivity series''); the target is the batch-6 mint CON-REACT-ORDER — ''No
+    duplicate concept is to be minted.'''
+- id: B6-E-03
+  triple: 4CH1-CON-EXTRACTION-EVALUATION REQUIRES_PREREQUISITE 4CH1-CON-EXTRACTION-METHOD
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the evaluation operates ON the method-position framework
+    (''Make sure you can explain why aluminium is extracted by electrolysis while iron is extract…'');
+    the B6-ID-02 method-vs-evaluation split is KEEP_AS_IS.'
+- id: B6-E-04
+  triple: 4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge (session-57 ruling; batch-3
+    owner CON-ELECTROLYSIS; the electrolysis route applies the cell framework as given, never re-defined);
+    the operator''s directive: the four sanctioned cross-section edges ''remain confirmed and must continue
+    to reference their governed owners/mints. No duplicate concept is to be minted.'''
+- id: B6-E-05
+  triple: 4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the carbon-reduction route applies reduction as given (''heating
+    with carbon which reduces them''; ''Carbon monoxide reduces the iron(III) oxide'').'
+- id: B6-E-06
+  triple: 4CH1-CON-EXTRACTION-METHOD REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the spec''s own 2.23C demand verbatim (''The position of
+    the metal on the reactivity series determines the method of extraction'') plus the note''s thesis
+    line; the strongest in-batch dependency, direction correct.'
+- id: B6-E-07
+  triple: 4CH1-CON-METAL-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — definitional containment (''The reactivity of metals decreases
+    going down the reactivity series. This means that a more reactive metal will displace a less reactive
+    metal''); the B6-H-06 reverse-direction hold quarantined by the operator (would double-count the arrangement
+    demand).'
+- id: B6-E-08
+  triple: 4CH1-CON-METAL-USES REQUIRES_PREREQUISITE 4CH1-CON-METAL-PROPERTIES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge (session-57 ruling; batch-3
+    owner CON-METAL-PROPERTIES; the spec''s own ''in terms of their properties'' demand with the property
+    vocabulary applied as given); the boundary edges ''must continue to reference their governed owners/mints.
+    No duplicate concept is to be minted.'''
+- id: B6-E-09
+  triple: 4CH1-CON-O2-PERCENT-DETERMINATION REQUIRES_PREREQUISITE 4CH1-CON-RUSTING
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 58): CONFIRM_WITH_NOTE retained — this dependency is route-specific: the
+    iron-based oxygen-percentage determination uses iron oxidation/rusting-related knowledge; the edge
+    must not be interpreted as saying that every possible oxygen-percentage determination method universally
+    requires the rusting concept. Pass-2: sanctioned boundary target — closes the batch-5 ruling''s other
+    future_boundary_note verbatim; the iron-wool route IS the rusting phenomenon applied.'
+- id: B6-E-10
+  triple: 4CH1-CON-REACT-ORDER REQUIRES_PREREQUISITE 4CH1-CON-REACT-ARRANGE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the order is the PRODUCT of the arrangement comparisons (''Based
+    on these reactions a reactivity series of metals can be produced''); definitional containment, direction
+    correct.'
+- id: B6-E-11
+  triple: 4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the sacrificial MECHANISM is stated via oxidation (''will
+    oxidise and therefore corrode first''; ''is oxidised more easily''); explains why sacrifice protects.'
+- id: B6-E-12
+  triple: 4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — ''Iron can be prevented from rusting using the reactivity
+    series''; the sacrificial-metal selection operates on the taught order as given (used-without-reteaching).'
+- id: B6-E-13
+  triple: 4CH1-CON-RUST-PREVENTION REQUIRES_PREREQUISITE 4CH1-CON-RUSTING
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the barrier method is DEFINED over the 2.18 condition pair
+    (''barriers that prevent the iron from coming into contact with water and oxygen''); the B6-ID-04
+    conditions-vs-prevention split is KEEP_AS_IS.'
+- id: B6-E-14
+  triple: 4CH1-MIS-ION-OXIDE-REASONING REMEDIATED_BY 4CH1-CON-METAL-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — remediation target = WAP target (the B1-E-25 pattern); the
+    corrective content IS the displacement rule and the MS''s own expected answer is the same statement.'
+- id: B6-E-15
+  triple: 4CH1-MIS-ION-OXIDE-REASONING WRONG_ANSWER_PATTERN 4CH1-CON-METAL-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the REACTIVITY_MS Q2a Reject column (''Reject references
+    to ions and oxides'') documents the wrong-answer class against the reactivity-comparison expected
+    answer; the WAP target is the concept whose wrong explanations the MS caps.'
+- id: B6-E-16
+  triple: 4CH1-PR-06 REQUIRES_PREREQUISITE 4CH1-CON-REACT-ARRANGE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — practical->conceptual (the PR-05 shape): the 2.21 practical
+    RUNS the acid-metal comparison its concept owns and its conclusion is the ranking (''The metals can
+    be ranked in reactivity order Mg > Zn > Fe''); 2.21 attaches NO concept node — PR-06 owns it (the
+    1.13/1.60C/2.14 precedent, B6-ID surface intact).'
+node_verdicts:
+- id: B6-N-01
+  code: 4CH1-CON-ALLOY-HARDNESS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-02
+  code: 4CH1-CON-ALLOYS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-03
+  code: 4CH1-CON-EXTRACTION-EVALUATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2 (B6-ID-02 for the operator): the comment-given-information skill is a
+    SEPARATE demand from the 2.23C method relation (the B5-ID-03 know-vs-method precedent); the spec''s
+    own ''detailed knowledge ... not required'' waiver is recorded in the derivation_notes; the evaluation
+    node''s single dependency edge into the method node keeps the surface honest.'
+- id: B6-N-04
+  code: 4CH1-CON-EXTRACTION-METHOD
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-05
+  code: 4CH1-CON-METAL-DISPLACEMENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-06
+  code: 4CH1-CON-METAL-USES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-07
+  code: 4CH1-CON-ORES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-08
+  code: 4CH1-CON-OX-RED-AGENTS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2 (B6-ID-01 for the operator): the 2.20 term-family node is BROADER than
+    the batch-3 CON-REDOX-ELECTRONS owner (oxygen framework + agent terms + redox simultaneity vs the
+    electron-transfer definition in the displacement context) and the note RE-TEACHES the electron framework
+    inline (definitions, half equations, OIL RIG) — no boundary edge and no re-mint (the B5-H-02 rule);
+    a MERGE would corrupt the distinct-SP structure. Attack result: keep the split.'
+- id: B6-N-09
+  code: 4CH1-CON-REACT-ARRANGE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-10
+  code: 4CH1-CON-REACT-ORDER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-11
+  code: 4CH1-CON-RUST-PREVENTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-N-12
+  code: 4CH1-CON-RUSTING
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B6-M-01
+  code: 4CH1-MIS-ION-OXIDE-REASONING
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2 (B6-ID-06 for the operator): the single clean Reject column (''Reject
+    references to ions and oxides'' against the reactivity-comparison expected answer) is the MIS-CUO-COLOUR-class
+    narrow-but-exact documentation; the pdftotext line-wrap attribution is recorded in the derivation_notes
+    (the batch-4/5 convention); the mint is defensible because the reactivity comparison is the most assessable
+    2.16 surface.'
+identity_decisions:
+- id: B6-ID-01
+  question: keep the 2.20 term-family node (CON-OX-RED-AGENTS) separate from the batch-3 CON-REDOX-ELECTRONS
+    owner (the electron-framework overlap; the 2.20 demand is broader — oxygen framework + agents + redox
+    pairing — and the note re-teaches the electron framework inline)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.20 oxidation/reduction/agent knowledge distinct from the existing
+    electron-framework owner. The concepts overlap in instructional use but have different canonical operands
+    and roles.'
+- id: B6-ID-02
+  question: split the 2.23C method-position explanation from the 2.24C comment-given-information skill
+    (the B5-ID-03 know-vs-method precedent)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.23C extraction method distinct from 2.24C extraction evaluation:
+    method selection and evaluation/commentary are different learning operations.'
+- id: B6-ID-03
+  question: keep the 2.15/2.16/2.17 trio as three nodes (two arrangement methods + one order) vs merging
+    into a single reactivity-series node
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.15 arranging the series, 2.16 displacement evidence, and 2.17
+    the named-metal order as distinct concepts rather than collapsing three different representations/uses
+    of reactivity.'
+- id: B6-ID-04
+  question: split the 2.18 rusting conditions from the 2.19 prevention families (conditions vs the three
+    prevention mechanisms)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.18 rusting conditions distinct from 2.19 prevention: establishing
+    what causes rust and controlling/preventing rust are different operands.'
+- id: B6-ID-05
+  question: split the 2.26C alloy definition from the 2.27C hardness mechanism (definition vs the distorted-layers
+    explanation)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.26 alloy definition distinct from 2.27C alloy hardness mechanism.'
+- id: B6-ID-06
+  question: mint the MIS-ION-OXIDE-REASONING misconception from the single REACTIVITY_MS Q2a Reject column
+    (narrow-but-exact; the MIS-CUO-COLOUR precedent) — or rule it exam-trivia
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the single assessment-documented ion/oxide misconception as one
+    misconception node; the evidence does not justify splitting it into multiple misconception identities.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator §6: all 9 held candidates (B6-H-01..09) are ACKNOWLEDGED / KEEP QUARANTINED — no held
+    candidate is reopened, promoted, or converted into an authored edge/node by this review; the abstentions
+    are preserved as part of the evidence record. The operator explicitly upholds: B6-H-03 remains quarantined
+    because the cited IGNORE class is not sufficiently characterized to establish a governed misconception;
+    B6-H-06 remains quarantined because the reverse reactivity-order dependency would duplicate the arrangement
+    demand; B6-H-07 remains quarantined because it would create a denser shortcut around the explicit
+    extraction-method node; B6-H-08 and B6-H-09 remain quarantined because the proposed bridges exceed
+    the demonstrated prerequisite surface. A held record is a valid outcome — the abstention is the system''s
+    honest output.'

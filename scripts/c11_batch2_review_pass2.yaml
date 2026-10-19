@@ -1,0 +1,96 @@
+# T-C11 §16 batch 2 — adversarial second-pass review verdicts (pass 2 of 2).
+# Independent re-review of every batch-2 node/edge/held under the attack
+# rubric (§12): (a) is the evidence load-bearing for THIS record? (b) does the
+# dependent note use-without-reteaching? (prerequisites) (c) is the relation
+# CLASS right, not just existence? (d) is the direction right? (e) is the
+# confidence honest? (f) would you hold it?
+# Verdicts: CONFIRM | CONFIRM_WITH_NOTE | HOLD | REJECT
+# Reviewer: GLM (Super Z agent, z.ai), pass c11-batch2-review-2 (separate
+# re-read of the 7 mapped notes + the 6 pinned mark schemes from the pass-1
+# extraction). Agreement statistics computed by the renderer against the
+# pass-1 decisions; reported as RAW AGREEMENT, explicitly NOT Cohen's kappa
+# (one human rater only — the operator remains the sole validator).
+#
+# Pass-2 outcome summary: ZERO demotions — but this is NOT a soft review: the
+# abstention again landed at authoring (10 held candidates BEFORE emission;
+# no self-quarantined RR this batch — every doubt was either resolved on
+# explicit evidence or held). The attacks below land as CONFIRM_WITH_NOTE
+# flags for the operator gate (identity/split candidates, relation-class
+# choices, the first COMMONLY_CONFUSED_WITH deployment, the cross-boundary
+# discipline, density concerns), enumerated in `findings`.
+
+nodes:
+  4CH1-CON-ATOM: {verdict: CONFIRM}
+  4CH1-CON-MOLECULE: {verdict: CONFIRM}
+  4CH1-CON-SUBATOMIC-PARTICLES: {verdict: CONFIRM_WITH_NOTE, note: 'Split candidate (FP-B1-1 class): proton/neutron/electron could be three nodes, but the corpus teaches them as ONE mass/charge table with no evidence of independent learnability (the batch-1 CON-SOLUTION triple precedent). Operator identity decision; keep is defensible.'}
+  4CH1-CON-ATOMIC-NUMBER: {verdict: CONFIRM_WITH_NOTE, note: 'Carries the store''s FIRST COMMONLY_CONFUSED_WITH edge (to CON-MASS-NUMBER) — the relation-class rationale is recorded on the edge; operator confirms the class deployment at the gate.'}
+  4CH1-CON-MASS-NUMBER: {verdict: CONFIRM}
+  4CH1-CON-ISOTOPES: {verdict: CONFIRM_WITH_NOTE, note: 'FP-B2-1 boundary identity decision: this node carries the 1.16 isotope term + the 1.17 isotopic-abundance calculation, while the Ar TERM stays with the pilot''s CON-AR (1.26/1.28 owner; no duplicate mint in this batch). The boundary edge CON-AR -> CON-ISOTOPES records the dependency. The operator may re-scope (fold 1.16''s Ar definition into CON-AR via §7 re-authoring, or split the calculation out) — an OD-class decision.'}
+  4CH1-CON-PERIODIC-TABLE: {verdict: CONFIRM_WITH_NOTE, note: 'Granularity note (FP-B1-1 class): arrangement + group + period definitions in one node; the 1.18/1.22/1.23 demands all use the same table. A group/period split is a re-author if the operator wants term-level nodes; the corpus gives no independent-learnability evidence.'}
+  4CH1-CON-ELECTRONIC-CONFIGURATION: {verdict: CONFIRM, note: 'Dual attachment 1.19 + 1.22 mirrors the bidirectional position-configuration skill; the 1.22 rule evidence also lives in the ECR note (group-number rule).'}
+  4CH1-CON-METAL-NONMETAL: {verdict: CONFIRM_WITH_NOTE, note: 'Split candidate (B1-N-13/ID-03 class): 1.20 property-based vs 1.21 position-based classification could be two nodes, but the same note teaches both demands as one block; keep is defensible.'}
+  4CH1-CON-METALLOID: {verdict: CONFIRM_WITH_NOTE, note: 'ENRICHMENT scoping decision (mirrors pilot N-08/N-27 and batch-1 B1-N-08/N-11): 1.21 wording is binary metal/non-metal; the note teaches the boundary class as an examiner tip. Leaf, no edges. Operator decides keep-as-enrichment vs drop.'}
+  4CH1-CON-GROUP-SIMILARITY: {verdict: CONFIRM}
+  4CH1-CON-NOBLE-GAS-INERTNESS: {verdict: CONFIRM}
+  4CH1-MIS-ISOTOPES-DIFFER-PROTONS: {verdict: CONFIRM, note: 'The REJECT column attribution was layout-verified against the PDF (ATOM2 Q1(b): "different number of protons" is the REJECT entry for the isotope-chemical-identity question); ATOM3 Q1(a) documents the same class as an incorrect answer. Solid ASSESSMENT_DOCUMENTED evidence.'}
+  4CH1-MIS-RAM-MASS-NUMBER: {verdict: CONFIRM, note: 'Layout-verified: PT MS Q1(b) expects "(relative) atomic mass" and REJECTS "mass number" (which number increases from 9 to 226 in Group 2). The remediation anchor maps to the pilot CON-AR''s own SP (1.26) — the cross-boundary discipline is clean.'}
+
+edges:
+  '4CH1-CON-AR REQUIRES_PREREQUISITE 4CH1-CON-ISOTOPES': {verdict: CONFIRM_WITH_NOTE, note: 'Relation-class flag (FP-B1-2 class): the quoted sentence ("Ar is calculated from the mass number and relative abundances of all the isotopes") supports both the USED_WITHOUT_RETEACHING reading (emitted: the Mr context uses Ar without re-teaching its isotopic ground) and an EXPLAINED_BY reading (Ar''s value is explained by isotopic structure). One relation per pair forced the choice. Cross-boundary source (pilot node) — the operator gate is the right place to rule.'}
+  '4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER': {verdict: CONFIRM}
+  '4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ELEMENT': {verdict: CONFIRM_WITH_NOTE, note: 'Vocabulary-level dependency (FP-B1-4 class): the Periodic Table''s only element link; the note uses "elements" incidentally ("over 100 chemical elements"). Cross-boundary target (batch-1 node). Operator may prune the class; flagged, not doubted.'}
+  '4CH1-CON-MOLECULE REQUIRES_PREREQUISITE 4CH1-CON-ATOM': {verdict: CONFIRM}
+  '4CH1-CON-SUBATOMIC-PARTICLES REQUIRES_PREREQUISITE 4CH1-CON-ATOM': {verdict: CONFIRM}
+  '4CH1-CON-ATOMIC-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES': {verdict: CONFIRM}
+  '4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES': {verdict: CONFIRM}
+  '4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER': {verdict: CONFIRM_WITH_NOTE, note: 'Density flag: the subtraction rule ("neutrons = mass number - atomic number") is a real use-dependency, but the pair ALSO carries the COMMONLY_CONFUSED_WITH edge (different relation class, allowed by the one-relation-per-CLASS discipline). Not subsumed (no emitted path). Operator may prune; flagged, not doubted.'}
+  '4CH1-CON-ISOTOPES REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES': {verdict: CONFIRM}
+  '4CH1-CON-ATOMIC-NUMBER COMMONLY_CONFUSED_WITH 4CH1-CON-MASS-NUMBER': {verdict: CONFIRM_WITH_NOTE, note: 'First CCW edge in the store (FP-B2-3): the corpus EXPLICITLY documents the term-pair confusability ("it can be easy to confuse them" + the MASS=MASSIVE mnemonic) and the PT MS documents the confusion family being assessed (the Ar/mass-number REJECT). The earlier honest-abstention zeros were absence of evidence, not a rule against the class. relation_class_rationale recorded; operator confirms the deployment.'}
+  '4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE': {verdict: CONFIRM}
+  '4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES': {verdict: CONFIRM}
+  '4CH1-CON-METAL-NONMETAL REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE': {verdict: CONFIRM}
+  '4CH1-CON-GROUP-SIMILARITY REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE': {verdict: CONFIRM, note: 'The group-similarity concept''s only direct PT link (the explanatory pair carries the mechanism); not transitively subsumed — the CONFIG->PT chain does not run through this node.'}
+  '4CH1-CON-GROUP-SIMILARITY EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION': {verdict: CONFIRM_WITH_NOTE, note: 'Relation-class flag (B1-E-07 class): "This is because they have the same number of outer electrons so will react and bond similarly" is an explicit causal sentence — EXPLAINED_BY is the stronger evidenced reading; the prereq reading is held (B2-H-05). The operator may rule differently (an OD-class decision).'}
+  '4CH1-CON-NOBLE-GAS-INERTNESS REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE': {verdict: CONFIRM}
+  '4CH1-CON-NOBLE-GAS-INERTNESS EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION': {verdict: CONFIRM_WITH_NOTE, note: 'Same pair-conflict flag (B2-H-06 holds the prereq reading); the "because they have full outer shells of electrons" sentence is causal. CONFIRM on the causal evidence.'}
+  '4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAPHY': {verdict: CONFIRM, note: 'Cross-boundary edge (FN-B1-2 sanctioned; the practical note IS the 1.13 named practical).'}
+  '4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-RF-VALUE': {verdict: CONFIRM, note: 'Cross-boundary edge (FN-B1-2 explicitly named this edge for batch 2).'}
+  '4CH1-MIS-ISOTOPES-DIFFER-PROTONS WRONG_ANSWER_PATTERN 4CH1-CON-ISOTOPES': {verdict: CONFIRM}
+  '4CH1-MIS-ISOTOPES-DIFFER-PROTONS REMEDIATED_BY 4CH1-CON-ISOTOPES': {verdict: CONFIRM_WITH_NOTE, note: 'Remediation target = WAP target (the batch-1 B1-E-25 pattern): the corrective concept IS the isotope definition; no deeper in-slice concept exists. Alternative: drop the edge, keep the node''s remediation_evidence. Operator decision; kept for misconception-recommendation queries.'}
+  '4CH1-MIS-RAM-MASS-NUMBER WRONG_ANSWER_PATTERN 4CH1-CON-AR': {verdict: CONFIRM, note: 'Cross-boundary target (the pilot CON-AR node — the concept the wrong answer corrupts).'}
+  '4CH1-MIS-RAM-MASS-NUMBER REMEDIATED_BY 4CH1-CON-AR': {verdict: CONFIRM_WITH_NOTE, note: 'Same B1-E-25 pattern (remediation target = WAP target); the anchor maps to CON-AR''s own SP (1.26) — clean boundary discipline. Operator decision on edge-vs-node-evidence.'}
+
+held_review:
+  B2-H-01: {verdict: AGREE_HOLD, note: 'Right call: the proton operand is carried by the emitted SUBATOMIC edges; a direct isotope->atomic-number edge is vocabulary-level duplication.'}
+  B2-H-02: {verdict: AGREE_HOLD, note: 'Right call: subsumed via SUBATOMIC -> ATOM.'}
+  B2-H-03: {verdict: AGREE_HOLD, note: 'Right call: subsumed via SUBATOMIC -> ATOM.'}
+  B2-H-04: {verdict: AGREE_HOLD, note: 'Right call: OD-2 (ratified) — table labels are not instructional evidence; the electron-arrangement row is a table label.'}
+  B2-H-05: {verdict: AGREE_HOLD, note: 'Right call: one relation per pair; the EB reading is the explicitly evidenced one; the prereq reading is noted for the operator.'}
+  B2-H-06: {verdict: AGREE_HOLD, note: 'Right call: same pair-conflict discipline on the noble-gas pair.'}
+  B2-H-07: {verdict: AGREE_HOLD, note: 'Right call: neither clean RP nor EB; the shared CONFIG/PT edges already carry the pair''s semantics; density control.'}
+  B2-H-08: {verdict: AGREE_HOLD, note: 'Right call: subsumed via the batch-1 chromatography->solubility chain (the B1-H-12 discipline applied to the boundary practical).'}
+  B2-H-09: {verdict: AGREE_HOLD, note: 'Right call: no pinned MS REJECTs a mass-ordering arrangement answer; minting would assert an undocumented assessment pattern. Revisit with deeper MS mining (Paper 2).'}
+  B2-H-10: {verdict: AGREE_HOLD, note: 'Right call: "Reject ref to reaction" is terse without a reconstructible wrong-answer text (the B1-H-07 precedent); the note documents the correct rule, not the reaction belief.'}
+
+findings:
+- id: FP-B2-1
+  kind: split-artifact
+  detail: 'CON-ISOTOPES carries the 1.16 isotope term + the 1.17 Ar-from-abundances calculation while the Ar TERM stays with the pilot''s CON-AR (boundary discipline, no duplicate mint); CON-PERIODIC-TABLE carries arrangement+group+period; CON-METAL-NONMETAL carries 1.20+1.21; CON-SUBATOMIC-PARTICLES carries the particle triple. All operator identity decisions; no defect.'
+- id: FP-B2-2
+  kind: relation-class-choice
+  detail: 'CON-AR -> CON-ISOTOPES (USED_WITHOUT_RETEACHING vs EXPLAINED_BY reading) and the GROUP-SIMILARITY / NOBLE-GAS EXPLAINED_BY edges (prereq readings held as B2-H-05/H-06) — one relation per pair forced the choices; OD-class decisions for the operator.'
+- id: FP-B2-3
+  kind: first-class-deployment
+  detail: 'The store''s FIRST COMMONLY_CONFUSED_WITH edge (ATOMIC-NUMBER <-> MASS-NUMBER) on an explicit corpus confusability statement + assessed confusion family; relation_class_rationale recorded per G08. The earlier zero-CCW state was honest abstention, not a rule.'
+- id: FP-B2-4
+  kind: boundary discipline
+  detail: 'Five cross-boundary edges into earlier-record nodes (CON-AR x2, CON-ELEMENT, CON-CHROMATOGRAPHY, CON-RF-VALUE) + the practical PR-02 — all sanctioned (FN-B1-2, no boundary minting). 1.13 attaches no batch-2 concept node: its concept content is the batch-1 chromatography triplet reached via the PR-02 edges; the practical method itself is procedure, not concept — recorded so the gap is explicit, not silent (the FN-B1-3 style).'
+- id: FN-B2-1
+  kind: false-negative-concern
+  detail: 'Mark-scheme mining: 6 MS pinned for this batch (ATOM1/2/3, PT, ECM1, ECM3) — ECM1/ECM3 close the batch-1 FN-B1-1 remainder for the ECM family; the Paper-2 variants remain unpinned for both slices. Batch 3 should pin Paper-2.'
+- id: FN-B2-2
+  kind: boundary
+  detail: 'Batch 3 = S1 remainder 1.37-1.60C (12 SPs): its boundary edges to CON-ATOM / CON-SUBATOMIC-PARTICLES / CON-ELECTRONIC-CONFIGURATION and the bonding-section nodes are sanctioned (cross-batch boundary edges to EXISTING nodes; no boundary minting needed).'
+- id: FN-B2-3
+  kind: vocabulary-coverage
+  detail: '"Monatomic" (noble gases) and "zig-zag line" (metal/non-metal divide) are taught inline without concepts — deliberate non-minting at pilot granularity; recorded so the coverage gap is explicit, not silent.'

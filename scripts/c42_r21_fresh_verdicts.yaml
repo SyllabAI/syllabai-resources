@@ -1,0 +1,77 @@
+schema: c42-r21-fresh-verdicts/1.0
+task: T-C42
+stage: r21-regate-fresh-judgment
+contract: >-
+  the R21 re-gate fill's fresh-row judgment record (scripts/c42_r21_regate_fill.py,
+  --emit-dossier dossier /home/z/my-project/scripts/c42_r21_fresh_dossier.json):
+  every sampled row the standing evidence sources (operator verdicts, override
+  maps, the convention ladder and the R17/R13/R9/R4 carry chains) does not cover,
+  judged per-row against BOTH tier wordings (the store's Higher-operative wording
+  AND the C30 ledger foundation.text) and the chunk's own content, heading first,
+  full text pulled where the heading was not decisive. PROPOSAL-ONLY candidates
+  bind nothing; a row that does not teach the SP's demand is REJECTed with its
+  root cause, never rationalized. Zero promotion either way (the anti-forgery
+  rule): REJECT rows are the defect inventory returned to the operator (scope
+  §7), CONFIRM rows are evidence only.
+review_date: '2026-10-04'
+verdicts:
+  cd9df4cedec2191d:
+    verdict: CONFIRM
+    note: "the section teaches writing a SMALL number in standard form (0.0000324 = 3.24 x 10^-5: identify a = 3.24, count the divisions by 10, negative power) with worked examples 0.007052 = 7.052 x 10^-3 and 324 500 000 = 3.245 x 10^8 — 1.9A's Foundation ledger surface 'calculate with and interpret numbers in the form a x 10^n where n is an integer and 1 <= a < 10' verbatim, and the core writing skill any Higher 'solve problems involving standard form' demand presupposes; the note+code chain carries fresh R17 content-row CONFIRMs on the same note (ords 2/3 at R17 per the R18 continuity note), consistent"
+    tier_signature: STORE_HIGHER
+  5967c0cf887d6b7e:
+    verdict: CONFIRM
+    note: "the section is a decision table for WHICH trig rule applies (two sides + opposite angle -> sine rule; two sides + included angle -> cosine rule; all three sides -> cosine rule; included angle + area -> area rule) — 4.8C's Higher demand 'understand and use the sine and cosine rules for any triangle' at its understand-and-use surface verbatim (the ledger Foundation wording 'apply trigonometrical methods to solve problems in two dimensions' consulted and consistent); the heading names the task exactly"
+    tier_signature: STORE_HIGHER
+  961ac3fec06dfdea:
+    verdict: CONFIRM
+    note: "the section teaches forming-equations technique (sketch a diagram, split uncommon shapes into sum/difference of common shapes, bracket algebraic expressions when substituting) with a full worked example setting up a linear equation from geometric data — rectangle perimeter 2(3x+1) + 2(2x-5) = 22, solved to x = 3 — 2.4B's demand 'set up simple linear equations from given data' verbatim on the chunk's own worked surface; the generic heading ('Is there anything else that can help?') is the note's tips section, the content is the demand"
+    tier_signature: STORE_HIGHER
+  d10548b4ed3939d8:
+    verdict: CONFIRM
+    note: "the section is a step-by-step ASA triangle construction (draw the given side with a ruler, measure one angle at each end with a protractor, extend to intersect, check, keep construction lines) — 4.5B's demand 'construct triangles and other two-dimensional shapes using a combination of a ruler, a protractor and compasses' verbatim (ruler + protractor combination; the heading names the construction)"
+    tier_signature: STORE_HIGHER
+  3193920fda941000:
+    verdict: CONFIRM
+    note: "the section teaches converting a FRACTION to a PERCENTAGE (fraction -> decimal -> x100: 4/5 = 8/10 = 0.8 -> 80%) — 1.2G's demand 'convert a fraction to a decimal or a percentage' verbatim, the FORWARD direction; this is one of the two forward-conversion sections (ords 5/6) the R18 note-level STANDING adjudication cites as the surface where the converting-between-fdp join to 1.2G stands (the R18 verdicted ord-3 and extension ord-2/4 rows were re-homed off this note precisely to keep these forward sections clean)"
+    tier_signature: STORE_HIGHER
+  26b534120ff9cf66:
+    verdict: CONFIRM
+    note: "the section is a step-by-step perpendicular-bisector construction (compasses more than half the line, arcs from both ends, connect the intersections) — 4.5D's demand 'use straight edge and compasses to: (i) construct the perpendicular bisector of a line segment (ii) construct the bisector of an angle' at its clause (i) verbatim"
+    tier_signature: STORE_HIGHER
+  b04d40c213a157c6:
+    verdict: CONFIRM
+    note: "the section teaches converting a FRACTION to a DECIMAL (write over powers of 10: 3/5 = 6/10 = 0.6, 7/20 = 35/100 = 0.35, 1/500 = 2/1000 = 0.002) — 1.2G's demand 'convert a fraction to a decimal or a percentage' verbatim, the FORWARD direction; the second of the R18 STANDING adjudication's cited forward-conversion sections (ords 5/6)"
+    tier_signature: STORE_HIGHER
+  09a402da0637a6a1:
+    verdict: CONFIRM
+    note: "the section teaches identifying square and cube numbers FROM the prime factor decomposition (all indices even -> square: 7056 = 2^4 x 3^2 x 7^2 = (2^2 x 3 x 7)^2; all indices multiples of 3 -> cube: 1728000 = 2^9 x 3^3 x 5^3) — the integers are handled exactly as products of powers of prime factors, 1.4D's demand 'express integers as a product of powers of prime factors' at its use surface (the note is the SP's own uses-of-PFD note; the heading names the PFD use)"
+    tier_signature: STORE_HIGHER
+  b04d58960b84bb40:
+    verdict: CONFIRM
+    note: "the section teaches finding an EXACT square root via the prime factor decomposition (1440 = 2^5 x 3^2 x 5, rewrite with as many even indices as possible, split root over even/odd parts, 12*sqrt(10)) plus a worked N = 2^3 x 3^2 x 5^7 example — again 1.4D's products-of-powers-of-prime-factors surface in direct use; not a surds row (the demand is the PFD method, the note's own SP)"
+    tier_signature: STORE_HIGHER
+  035b9277c2df00b8:
+    verdict: CONFIRM
+    note: "the section defines the mapping diagram ('shows a set of different inputs going into the function to become a set of different outputs; transforming inputs into outputs is called mapping') with an f(x) = x + 3 diagram plus a function-evaluation worked example — 3.2A's demand 'understand the concept that a function is a mapping between elements of two sets' verbatim"
+    tier_signature: STORE_HIGHER
+  d541e14e92f9ad3c:
+    verdict: CONFIRM
+    note: "the section names exactly the six quadrilaterals the SP names ('You should know the names and properties of... squares, rectangles, parallelograms, rhombuses, trapeziums and kites') — 4.2C's demand 'understand and use the properties of the parallelogram, rectangle, square, rhombus, trapezium and kite' at its own structural surface verbatim (the SP's shape set, none missing, none extra)"
+    tier_signature: STORE_HIGHER
+  a8d23b11c343a3bd:
+    verdict: REJECT
+    note: "REJECT — adjacent-surface scope difference WITH a canonical target, the R9/R10/R17 inverse-direction class in this note: the section teaches finding the ANGLE BETWEEN A LINE AND A PLANE (identify the plane, draw the line, form a right-angled triangle whose height is perpendicular to the plane, use SOHCAHTOA) — 4.8F's Higher demand 'apply trigonometrical methods to solve problems in three dimensions, including finding the angle between a line and a plane' VERBATIM (the including-clause names this exact task) — while the joined code 4.8D's demand is 'use Pythagoras' theorem in three dimensions' and the section teaches NO Pythagoras (no a^2 + b^2 = c^2 anywhere; the method is trigonometric end to end); not a tier artifact (4.8D is absent from the C30 ledger — Higher-only — and 4.8F is a distinct Higher-only row in the ratified 188, not a tier variant); the note-level join to 4.8D STANDS via the note's Pythagoras sections (ord 0 CONFIRMed at R4, ord 1 at R13 and R17, ord 5 at R13), so the honest disposition is a recorded reject with 4.8F as the canonical target for the operator's next repair round — never rationalized into the Pythagoras code"
+    tier_signature: STORE_HIGHER
+  eb26022693be3948:
+    verdict: REJECT
+    note: "REJECT — limit-scope difference WITH a canonical target: the section teaches the difference of two squares made HARDER — squared variables 4m^2 - 9n^2, OTHER POWERS r^8 - t^6, repeated DOTS to fully factorise a^4 - b^4, common factor first 2x^2 - 18 — and r^8 - t^6 / a^4 - b^4 are NOT quadratic expressions, while 2.2F's demand is explicitly capped '(limited to x^2 + bx + c)'; the un-limited canonical surface EXISTS — 2.2B, whose C30 ledger Higher-operative wording is 'understand the concept of a quadratic expression and be able to factorise such expressions' without the cap — and the section teaches 2.2B's Higher surface, not 2.2F's; not a tier artifact (2.2F is absent from the ledger — Higher-only — and 2.2B is a distinct shared-tier row whose Higher wording carries the un-limited demand, not a tier variant of 2.2F); the note-level join to 2.2F STANDS via the note's within-limit basic DOTS sections (ord 1 'What is the difference of two squares?' CONFIRMed at R9 and R17), so the reject is recorded with 2.2B as the canonical target for the operator's next repair round — recorded, never forced"
+    tier_signature: STORE_HIGHER
+  5fd48f084383be11:
+    verdict: REJECT
+    note: "REJECT — adjacent-surface scope difference WITH a canonical target, the R17 fdp class in this note: the section's worked instance is a LINEAR + NON-LINEAR pair — plot y = x^2 + 3x + 1 and y = 2x + 1 on the same axes, they meet twice, coordinates (-1, -1) and (0, 1) — which is 3.3E's Higher demand VERBATIM ('find the intersection points of two graphs, one linear (y) and one non-linear (y), and recognise that the solutions correspond'), while the joined code 2.6B's demand is 'interpret the equations AS LINES and the common solution as the point of intersection' and the section's only example is not a pair of lines; not a tier artifact (2.6B and 3.3E are both absent from the C30 ledger — Higher-only — and 3.3E is a distinct ratified row, not a tier variant); the note-level join to 2.6B STANDS via the note's lines-based sections (ord 0 CONFIRMed at R13, ord 3 at R9, and ord 2 — sampled fresh this round — is the two-lines surface verbatim), so the reject is recorded with 3.3E as the canonical target for the operator's next repair round — recorded, never forced"
+    tier_signature: STORE_HIGHER
+  828c73ab0b225080:
+    verdict: CONFIRM
+    note: "the section teaches solving SIMULTANEOUS LINEAR equations graphically (rearrange 2x - y = 3 and 3x + y = 7 into y = mx + c, plot each line from a table of values, read the point of intersection (2, 1) as the solutions x = 2, y = 1) — 2.6B's demand 'interpret the equations as lines and the common solution as the point of intersection' verbatim on a two-lines instance"
+    tier_signature: STORE_HIGHER

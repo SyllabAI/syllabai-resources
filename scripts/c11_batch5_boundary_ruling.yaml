@@ -1,0 +1,388 @@
+# T-C11 §16 — CROSS-SLICE BOUNDARY RULING (S1+S3 complete ↔ S2 batch 5).
+# Recorded session 55 (2026-09-22), commissioned by the operator's "run batch 5"
+# directive under the session-46 §16 authorization — the gate report's own
+# batch-5 precondition ("needs its own cross-slice boundary ruling: S1<->S2 +
+# S3<->S2").
+#
+# This ruling is exactly that and nothing more (the session-52 precedent, held
+# to: "Do not turn this into another large ontology exercise"). It does NOT
+# redesign the concept ontology, does NOT re-open any settled identity, and
+# does NOT mint any node or edge by itself. It records the conflict audit +
+# the boundary discipline batch 5 (S2 Inorganic 2.1-2.14) authoring MUST
+# follow, extending the ratified FN-B1-2/FN-B2-2 cross-batch discipline and
+# the session-52 S1<->S3 ruling to the S2 boundary. Machine-verified by
+# scripts/c11_batch5_boundary_check.py.
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 55
+  recorded_date: '2026-09-22'
+  commissioned_by: 'operator directive "run batch 5" (2026-09-22, session 55) under the
+    session-46 §16 authorization; the gate report names the ruling as the batch-5
+    precondition ("S2 Inorganic (batch 5 — needs its own cross-slice boundary
+    ruling: S1<->S2 + S3<->S2)")'
+  scope: 'conflict-prevention ruling for the S1(complete)+S3(complete)->S2(batch 5)
+    boundary only; supersedes nothing; extends the session-52 ruling pattern to
+    the S2 slice; the batch-4 sanctioned boundary edges and the T-C19 G19
+    attachment-promotion record are untouched'
+  applies_to_batch: 'c11-s16-batch-5 (S2 Inorganic first slice, 14 SPs 4CH1-2.1-2.14,
+    subsections a Group 1 (Alkali Metals) / b Group 7 (Halogens) / c Gases in the
+    Atmosphere, + the 2.14 practical 4CH1-PR-05)'
+
+# --- 1. conflict audit (machine-verified; see c11_batch5_boundary_check.py)
+conflict_audit:
+  method: 'S2 candidate term vocabulary (75 terms: family names, trend language,
+    reaction classes, substance names, equation/electronic-structure vocabulary)
+    matched against the whole merged pre-batch-5 store (node codes + titles +
+    aliases + every edge endpoint, case-folded). 27 terms match; EVERY match is
+    dispositioned below — sanctioned boundary edge, inline re-teach (no edge),
+    OD-2 incidental mention (no edge), or distinct-demand mint (no conflict).'
+  s2_candidate_terms:
+  - alkali metal
+  - alkali metals
+  - group 1
+  - halogen
+  - halogens
+  - group 7
+  - halide
+  - halide ion
+  - displacement
+  - displacement reaction
+  - diatomic
+  - electronic configuration
+  - electron shell
+  - outer shell
+  - reactivity trend
+  - reactivity series
+  - combustion
+  - oxide
+  - metal oxide
+  - thermal decomposition
+  - metal carbonate
+  - carbonate
+  - carbon dioxide
+  - greenhouse
+  - greenhouse effect
+  - climate change
+  - composition of air
+  - percentage of oxygen
+  - oxygen in air
+  - noble gas
+  - noble gases
+  - limewater
+  - exothermic
+  - endothermic
+  - oxidation
+  - reduction
+  - redox
+  - ion
+  - ions
+  - ionic
+  - covalent
+  - molecule
+  - molecules
+  - intermolecular
+  - valency
+  - state symbol
+  - word equation
+  - symbol equation
+  - flame
+  - tarnish
+  - rust
+  - rusting
+  - atmosphere
+  - dry air
+  - group 0
+  - potassium
+  - sodium
+  - lithium
+  - chlorine
+  - bromine
+  - iodine
+  - fluorine
+  - astatine
+  - magnesium
+  - sulfur
+  - sulphur
+  - hydrogen
+  - copper
+  - copper(II) carbonate
+  - copper(ii) oxide
+  - greenhouse gas
+  - water vapour
+  - methane
+  - nitrogen
+  - argon
+  result: 'NO UNHANDLED canonical conflict — 27 terms match the pre-batch-5 store,
+    all owned by existing nodes with an explicit disposition below; Section 2
+    mints its own families at the ratified granularity and re-mints NO
+    existing identity.'
+
+# --- 2. match dispositions (the operative audit table)
+match_dispositions:
+- term: electronic configuration
+  owner: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  owner_record: batch 2
+  disposition: sanctioned boundary edge
+  rationale: 'the 2.8C note states the dependency verbatim ("We can use electronic
+    configuration to explain the trends in chemical reactivity down Group 7") and
+    the 2.4C note reasons wholly in shell terms (shell diagrams, "the number of
+    shells of electrons increases by 1") — use-without-reteaching.'
+- term: electron shell
+  owner: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  owner_record: batch 2
+  disposition: sanctioned boundary edge
+  rationale: 'same dependency surface as "electronic configuration" (one boundary
+    edge per SP, not per term).'
+- term: outer shell
+  owner: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  owner_record: batch 2
+  disposition: sanctioned boundary edge
+  rationale: 'same dependency surface as "electronic configuration" (one boundary
+    edge per SP, not per term).'
+- term: exothermic
+  owner: 4CH1-CON-EXO-ENDO
+  owner_record: batch 4
+  disposition: sanctioned boundary edge
+  rationale: 'the 2.11 combustion note applies the classification as given
+    ("Combustion reactions give out heat, so they will always be exothermic
+    reactions") without re-teaching it — use-without-reteaching; the session-52
+    ruling sanctioned CON-EXO-ENDO as an S3 boundary target and this extends the
+    SAME owner to the S2 boundary (no re-mint).'
+- term: endothermic
+  owner: 4CH1-CON-EXO-ENDO
+  owner_record: batch 4
+  disposition: sanctioned boundary edge
+  rationale: 'one node owns the term pair (the CON-ANODE-CATHODE term-pair
+    granularity); one boundary edge covers both terms.'
+- term: oxidation
+  owner: 4CH1-CON-REDOX-ELECTRONS
+  owner_record: batch 3
+  disposition: 'no edge — OD-2 incidental usage'
+  rationale: 'the 2.11 Examiner Tip ("Combustion reactions can also be classified
+    as oxidation reactions") uses oxidation in the OXYGEN-ADDITION sense; the
+    electron-transfer definition the S1 node owns is never used; an examiner-tip
+    aside is not instructional dependency evidence (OD-2).'
+- term: reduction
+  owner: 4CH1-CON-REDOX-ELECTRONS
+  owner_record: batch 3
+  disposition: 'no edge — never used in-slice'
+  rationale: 'neither reduction nor redox appears in any batch-5 note body; the
+    GROUP7_MS_P2 redox question (displacement as simultaneous reduction and
+    oxidation; iodide ion as electron loss) is mark-scheme evidence, and MS
+    anchors are misconception-class only (G07) — recorded as a future
+    note-anchor consideration, not an authored edge.'
+- term: redox
+  owner: none (term match is an edge-endpoint label; no concept node owns it)
+  owner_record: none
+  disposition: 'no edge — see oxidation/reduction'
+  rationale: 'no batch-5 note-body usage; MS-only surface (G07 misconception-class
+    restriction).'
+- term: combustion
+  owner: none in the pre-batch-5 store (the 4.15 cluster was refused; no node
+    owns combustion)
+  owner_record: none
+  disposition: distinct-demand mint
+  rationale: '2.11 demands the combustion reactions of three named elements in
+    oxygen; the note teaches the family definition, observations and equations
+    in one place; no existing node owns any part of this substance.'
+- term: thermal decomposition
+  owner: 4CH1-CON-REVERSIBLE-EXAMPLES mentions the term (the ammonium-chloride and
+    hydrated-CuSO4 reversibility examples, batch 4)
+  owner_record: batch 4
+  disposition: distinct-demand mint
+  rationale: 'the batch-4 node owns the REVERSIBILITY of two named decompositions;
+    2.12 demands the carbonate-decomposition family and its CO2 product —
+    distinct taught substance; the 2.12 note never invokes reversibility; no
+    re-mint of the batch-4 identity.'
+- term: displacement
+  owner: matches appear only inside batch-4/3 record-adjacent endpoint labels and
+    the REDOX node''s SP wording (1.46 displacement-as-electron-transfer surface)
+  owner_record: batch 3 (surface only)
+  disposition: distinct-demand mint
+  rationale: '2.7 demands the halogen/halide displacement evidence family
+    (reactivity order + solution colours); no existing node owns it; the note
+    teaches it self-containedly; the redox reading is MS-only (see oxidation).'
+- term: halide
+  owner: none in the pre-batch-5 store
+  owner_record: none
+  disposition: distinct-demand mint
+  rationale: 'halide formation/displacement is 2.5-2.8C substance, taught in-slice.'
+- term: molecule
+  owner: 4CH1-CON-MOLECULE
+  owner_record: pilot
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.5 note re-teaches what molecules are ("Halogens are diatomic,
+    meaning they form molecules made of pairs of atoms sharing electrons") —
+    use-without-reteaching is defeated by the note''s own parenthetical
+    teaching; the B2 density discipline abstains.'
+- term: molecules
+  owner: 4CH1-CON-MOLECULE
+  owner_record: pilot
+  disposition: 'no edge — re-taught inline (same surface)'
+  rationale: 'same as "molecule".'
+- term: diatomic
+  owner: none (taught inline in the 2.5 note; no pre-batch-5 node owns it)
+  owner_record: none
+  disposition: 'no edge — taught inline within the minted 2.5 family node'
+  rationale: 'the diatomic fact is part of the 2.5 demanded substance (physical
+    properties of the halogens); it lives inside CON-G7-PROPERTIES''s evidence,
+    not in a separate node (the SP-family granularity).'
+- term: covalent
+  owner: 4CH1-CON-COVALENT-BOND
+  owner_record: batch 3
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.5 note re-teaches the sharing ("pairs of atoms sharing
+    electrons... single covalent bond") — no dependency edge (B2 discipline).'
+- term: ion
+  owner: 4CH1-CON-ION
+  owner_record: pilot
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.4C/2.8C notes teach ion formation inline ("1+ ions are
+    formed", "they form -1 ions called halide ions"); the batch-4 boundary
+    precedent (REVERSIBLE-EXAMPLES -> CON-WATER-CRYST) sanctioned only
+    term-level OPERAND dependencies, and here the notes carry the teaching
+    themselves.'
+- term: ions
+  owner: 4CH1-CON-ION
+  owner_record: pilot
+  disposition: 'no edge — re-taught inline (same surface)'
+  rationale: 'same as "ion".'
+- term: ionic
+  owner: 4CH1-CON-IONIC-BOND family
+  owner_record: batch 3
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.6 prediction section teaches the halide-salt formation
+    ("ionic compounds which are metal halide salts") with the charge/valency
+    reasoning inline; no dependency edge.'
+- term: valency
+  owner: 4CH1-CON-IONIC-FORMULA / CON-ION-CHARGE-RULES surface (batch 3)
+  owner_record: batch 3
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.6 note teaches valency reasoning inline ("depending on the
+    valency of the metal" with the 2Na/Cl2 and Ca/Br2 worked forms).'
+- term: intermolecular
+  owner: 4CH1-CON-SIMPLE-MOLECULAR surface (batch 3)
+  owner_record: batch 3
+  disposition: 'no edge — re-taught inline'
+  rationale: 'the 2.5 note teaches the MP/BP trend cause inline ("increasing
+    intermolecular forces as the atoms become larger"); the demanded substance
+    (the trend) is taught self-containedly.'
+- term: symbol equation
+  owner: 4CH1-CON-EQ-SYMBOL
+  owner_record: pilot
+  disposition: 'no edge — equations taught inline in the 2.11 note table'
+  rationale: 'the 2.11 demand is describing the three combustions; the note
+    presents the symbol equations as part of the description (taught, not
+    presupposed); no dependency edge.'
+- term: word equation
+  owner: 4CH1-CON-EQ-WORD
+  owner_record: pilot
+  disposition: 'no edge — taught inline (same surface)'
+  rationale: 'same as "symbol equation" (the note pairs word and symbol forms).'
+- term: state symbol
+  owner: 4CH1-CON-EQ-STATE-SYM
+  owner_record: pilot
+  disposition: 'no edge — OD-2 incidental equation furniture'
+  rationale: 'the 2.11 note''s table equations carry (s)/(g) markers incidentally;
+    the SP does not demand equation-writing or state-symbol use.'
+- term: noble gas
+  owner: 4CH1-CON-NOBLE-GAS-INERTNESS
+  owner_record: batch 3
+  disposition: 'no edge — OD-2 incidental'
+  rationale: 'the 2.9 note lists "trace quantities of the noble gases" as
+    composition furniture and the 2.4C note uses "noble gas configuration" as
+    electron-structure vocabulary — neither uses the Group-0 inertness concept
+    the node owns.'
+- term: noble gases
+  owner: 4CH1-CON-NOBLE-GAS-INERTNESS
+  owner_record: batch 3
+  disposition: 'no edge — OD-2 incidental (same surface)'
+  rationale: 'same as "noble gas".'
+- term: group 0
+  owner: 4CH1-CON-NOBLE-GAS-INERTNESS
+  owner_record: batch 3
+  disposition: 'no edge — never used in-slice'
+  rationale: 'no batch-5 note uses "Group 0" (the store match is the node''s own
+    alias).'
+- term: copper
+  owner: 4CH1-CON-WATER-CRYST (hydrated copper(II) sulfate surface)
+  owner_record: pilot (boundary edges from batch 4)
+  disposition: distinct-demand mint
+  rationale: '2.12 owns the copper(II) CARBONATE decomposition family; the pilot
+    node owns water of crystallisation in CuSO4 — different substances, different
+    demands; no edge and no re-mint.'
+- term: hydrogen
+  owner: 'multi-surface (pilot calculations; batch-3 hydrogen halides surface in
+    the 1.44/1.46 covalent set)'
+  owner_record: pilot
+  disposition: distinct-demand mint
+  rationale: '2.11 owns the combustion of hydrogen as one of three named
+    elements; the note teaches it self-containedly; no dependency on any
+    existing hydrogen surface.'
+
+# --- 3. mint ruling
+mint_ruling: 'batch 5 mints its own S2 families at the ratified granularity (SP-family
+  nodes; the 2.4C/2.8C explanation nodes are SEPARATE mints — opposite trend
+  directions, electron-loss vs electron-gain, distinct SPs; practicals own their
+  investigation SPs per the 1.13/1.60C/3.8/3.15/3.16 precedent — 2.14 attaches NO
+  concept node, 4CH1-PR-05 owns it). No S1 or S3 identity is re-created, re-scoped
+  or re-owned. Misconception nodes are minted ONLY where a pinned source documents
+  the wrong answer (MS REJECT/IGNORE/award-restriction classes — the session-53
+  Step-3 rule); the batch-5 pins document exactly three such patterns.'
+
+# --- 4. boundary-edge ruling
+boundary_edge_ruling:
+  rule: 'the FN-B1-2/FN-B2-2 cross-batch discipline at the S2 boundary: boundary
+    EDGES are sanctioned ONLY into the exact-owner nodes below, ONLY for the
+    stated dependency surfaces; boundary MINTING is forbidden; if any batch-5
+    term ever matches an existing node outside this sanctioned set, the boundary
+    edge is MANDATORY and the mint FORBIDDEN (fail-closed at preverify/G03/c11.4).'
+  sanctioned_targets:
+  - target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+    owner: batch 2
+    for_sps: ['4CH1-2.4C', '4CH1-2.8C']
+    surface: 'the electronic-configuration explanations of both group reactivity
+      trends (shell counting, outer-shell distance, noble-gas-configuration
+      vocabulary used as given)'
+  - target: 4CH1-CON-EXO-ENDO
+    owner: batch 4
+    for_sps: ['4CH1-2.11']
+    surface: 'the combustion classification ("always exothermic") applied as
+      given by the 2.11 note'
+  max_boundary_edges: 3
+  non_mint_list:
+  - 4CH1-CON-ELECTRONIC-CONFIGURATION
+  - 4CH1-CON-EXO-ENDO
+  - 4CH1-CON-REDOX-ELECTRONS
+  - 4CH1-CON-MOLECULE
+  - 4CH1-CON-COVALENT-BOND
+  - 4CH1-CON-ION
+  - 4CH1-CON-IONIC-FORMULA
+  - 4CH1-CON-ION-CHARGE-RULES
+  - 4CH1-CON-EQ-SYMBOL
+  - 4CH1-CON-EQ-WORD
+  - 4CH1-CON-EQ-STATE-SYM
+  - 4CH1-CON-NOBLE-GAS-INERTNESS
+  - 4CH1-CON-WATER-CRYST
+
+# --- 5. future-boundary notes (recorded, not authored — owners do not exist yet)
+future_boundary_notes:
+- 'the 2.10/2.14 iron-oxidation route presupposes iron rusting/oxidation (2.18,
+  S2-d, future batch) — the CON-O2-PERCENT-DETERMINATION boundary edge to that
+  future owner is deferred to the batch that mints it'
+- 'the 2.12 carbonate family presupposes reactivity-series placement ("carbonates
+  of metals from the lower half of the reactivity series", 2.15-2.17, S2-d, future
+  batch) — deferred likewise; never pre-minted here'
+- 'the 2.12 note teaches the limewater test inline (2.44, S2-g, future batch) —
+  self-contained, no dependency authored'
+
+# --- 6. non-goals
+non_goals:
+- no ontology redesign (the session-52 scope discipline verbatim)
+- no re-opening of any settled identity decision (pilot OD-1/OD-2, B3-ID-01..05,
+  B4-ID-01..06 all stand)
+- no re-scoping of any earlier batch or of this ruling after authoring
+- no promotion authority (§18 remains operator-only; the T-C19 G19 record is
+  untouched and owns the PART_OF layer)
+- no graph/*.yaml or DB writes by this record itself
