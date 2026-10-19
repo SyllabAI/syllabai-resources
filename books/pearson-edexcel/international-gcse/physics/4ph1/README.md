@@ -49,9 +49,12 @@ with originals preserved.
 ## Checklist
 
 - [x] Book PDF in `source/` + sha256 recorded (2026-10-19)
-- [ ] Page-level structure probed (units/chapters/offset)
-- [ ] Docling full-book parse (checkpointed per page)
-- [ ] Chunking + normalization + validation (8-point standard; **serving-critical:
-      chapter_questions/unit_questions typing drives the serving split, and
-      book_pages + pdf_pages stay per-chunk** — operator directive 2026-10-19)
-- [ ] Deliverables in `parsed/`, works/decisions in `pipeline/`
+- [x] Page-level structure probed (8 units / 28 chapters / offset 10;
+      see `pipeline/METHOD_AND_FINDINGS.md`)
+- [x] Docling full-book parse (308/308 pages checkpointed in `docling_pages/`)
+- [x] Chunking + normalization + validation (736 chunks; 8-point standard;
+      **serving-critical met: chapter_questions/unit_questions typed and
+      page-anchored, book_pages + pdf_pages per-chunk**)
+- [x] Deliverables in `parsed/` (v1), works/decisions in `pipeline/`
+
+## Status: v1 PARSE COMPLETE — validation passed (2026-10-19)
